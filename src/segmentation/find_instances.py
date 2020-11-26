@@ -5,7 +5,7 @@ from os.path import isfile, join
 pattern_path = "./db/segmentation/patterns.json"
 pattern_db = pd.read_json(pattern_path, orient="records", lines=True)
 
-instance_db = pd.DataFrame(columns = ['filename', 'loc', 'pattern', 'txt']) 
+instance_db = pd.DataFrame(columns = ['pattern', 'loc', 'txt']) 
 
 folder = "./data/txt/"
 files = [folder + f for f in listdir(folder) if isfile(join(folder, f))]
@@ -23,7 +23,7 @@ for filename in files:
         print("EXP", exp)
         log_fname = filename.split("/")[-1]
         for m in exp.finditer(txt):
-            d = {"filename": log_fname, "loc": m.start(), "pattern": pattern, "txt":m.group()}
+            d = {"filename": log_fname, "pattern": pattern, "loc": m.start(), "txt":m.group()}
             instance_db = instance_db.append(d, ignore_index=True)
 
 
