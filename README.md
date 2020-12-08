@@ -39,7 +39,8 @@ The OCR'd texts have quite a bit of artifacts that need to be handled. A simple 
 2. Running a script with regular expressions is inherently serial in nature. Running the script in different order might create different results.
 3. If we create a new language model to for curation, we would need to store either the model or rerun the model if data would be reOCR:ed.
 
-Hence, we suggest the use of a curation database instead. Most of the text errors are OCR specific, and so is the corresponding mitigation. To be able to keep track of what we change, both the patterns and the instances where we apply these patterns are kept in JSON files. In the code, these can be directly read to pandas and applied to the raw, original OCR:ed data.
+Hence, we suggest the use of a curation database instead. Most of the text errors are OCR specific, and so is the corresponding mitigation. To be able to keep track of what we change, both the patterns and the instances where we apply these patterns are kept in JSON files. In the code, these can be directly read to pandas and applied to the raw, original OCR:ed data. As with general annotation in Natural Language Processing, keeping the curation separate from the actual data and code is following the principles for annotation of textual data [(Pustejovsky and
+Stubbs 2013)](https://www.amazon.com/Natural-Language-Annotation-Machine-Learning/dp/1449306667), for which curation can be seen as a special case.
 
 The design choices, that can be easily checked are:
 1. All instances of curations (changes in the data) should be independent of each other. This means that the individual instances should not depend on other previous curations.
