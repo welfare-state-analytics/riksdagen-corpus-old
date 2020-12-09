@@ -94,5 +94,6 @@ def get_sets(decade, interval=10, set_size=2, txt_dir=None):
 if __name__ == "__main__":
     set_size = 2
     txt_dir = "../riksdagens_protokoll/riksdagens_protokoll/"
-    get_sets(1960, set_size=set_size, txt_dir=txt_dir)
+    for decennium in range(1920, 1990, 10):
+        get_sets(decennium, set_size=set_size, txt_dir=txt_dir)
 
