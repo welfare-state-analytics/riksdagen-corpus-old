@@ -11,7 +11,7 @@ def get_seed(string):
 	digest = hashlib.md5(encoded).hexdigest()[:8]
 	return int(digest, 16)
 
-columns = ["filename", "year", "pagenumber", "ordinal"]
+columns = ["package_id", "year", "pagenumber", "ordinal"]
 
 files = pd.read_csv("db/protocols/files.csv")
 
@@ -24,13 +24,12 @@ for index, row in files.iterrows():
 	pages = row["pages"]
 	year = row["year"]
 
-	for page in range(1, pages):
+	for page in range(0, pages):
 
 		seedstr = package_id + str(year) + str(page)
 		np.random.seed(get_seed(seedstr))
 		ordinal = np.random.rand()
 		new_row = [package_id, year, page, ordinal]
-
 		data.append(new_row)
 
 randomized = pd.DataFrame(data, columns = columns)

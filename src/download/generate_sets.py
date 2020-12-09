@@ -15,71 +15,84 @@ def create_dirs(outfolder):
     if not os.path.exists(outfolder + "test/"):
         os.mkdir(outfolder + "test/")
 
-def get_sets(decade, interval=10, set_size=2):
-    total = 2 * set_size    
+def get_sets(decade, interval=10, set_size=2, txt_dir=None):
+    # Read pages dataframe, filter relevant data and sort
+    total = 2 * set_size
     pages = pd.read_csv("db/protocols/pages.csv")
-
     pages_decade = pages[(pages["year"] >= decade) & (pages["year"] < decade + interval)]
     pages_decade = pages_decade.sort_values('ordinal')
     pages_decade = pages_decade.head(n=total)
     pages_decade = pages_decade.reset_index()
 
     print(pages_decade)
-
-    infolder = "pdf/"
-    outfolder = "data/curation/" + str(decade) + "-" + str(decade + interval-1) + "/"
     
+    # Create folder for the decennium
+    outfolder = "data/curation/" + str(decade) + "-" + str(decade + interval-1) + "/"
     create_dirs(outfolder)
+    
+    # Ask for credentials and establish connection 
+    archive = login_to_archive()
 
     for ix, row in pages_decade.iterrows():
+    
+        package_id = row["package_id"]
+        pagenumber = row["pagenumber"]
+        print(ix, package_id, pagenumber)
         
-        print(row)
-        '''
+        # Create folder for either train or test set
         folder = "train/"
         if ix % 2 == 1:
             folder = "test/"
-
         folder = outfolder + folder
         ix = ix // 2
-
-        filename = row["filename"]
-        pagenumber = row["pagenumber"]
-        print(ix, filename, pagenumber, folder)
-
+    
         path = folder + str(ix) + "/"
         if not os.path.exists(path):
             print("Create folder", path)
             os.mkdir(path)
-
+        
+        # Write info.yaml
         info = open(path + "info.yaml", "w")
-
-        info.write("filename: " + filename + "\n")
+        info.write("package_id: " + package_id + "\n")
         info.write("pagenumber: " + str(pagenumber) + "\n")
-
         info.close()
         
-        # Copy correct page from PDF to sample folder
-        pdf_in = infolder + filename
-        pdf_out = path + filename
-        
-        pdf_reader = PdfFileReader(open(pdf_in, 'rb'))
-        pdf_writer = PdfFileWriter()
-        
-        pdf_writer.addPage(pdf_reader.getPage(pagenumber - 1))
-    
-        output = open(pdf_out,'wb')
-        pdf_writer.write(output)
-        
-        output.close()
-        
+        # Create empty original.txt and annotated.txt files
         original = open(path + "original.txt", "w")
         annotated = open(path + "annotated.txt", "w")
-        
         original.close()
         annotated.close()
-        '''
+                
+        # Download jp2 file and save it to disk
+        str(pagenumber)
+        package = archive.get(package_id)
+        filelist = package.list()
+        jp2list = [f for f in filelist if f.split(".")[-1] == "jp2"]
+        jp2numbers = [ int(f.split(".")[-2].split("-")[-1]) for f in jp2list]
+        
+        index = jp2numbers.index(pagenumber)
+        
+        jp2file = jp2list[index]
+        print(jp2file)
+        
+        imagedata = package.get_raw(jp2file).read()
+        
+        jp2out = open(path + "image.jp2", "wb")
+        jp2out.write(imagedata)
+        jp2out.close()
+        #jp2file = archive.search()
+        
+        if txt_dir is not None:
+            txt_filename = jp2file.split("-")[0] + ".txt"
+            txt = open(txt_dir + txt_filename).read()
+            
+            txtout = open(path + txt_filename, "w")
+            txtout.write(txt)
+            txtout.close()
+        
     
 if __name__ == "__main__":
     set_size = 2
-    get_sets(1970, set_size=set_size)
+    txt_dir = "../riksdagens_protokoll/riksdagens_protokoll/"
+    get_sets(1960, set_size=set_size, txt_dir=txt_dir)
 
