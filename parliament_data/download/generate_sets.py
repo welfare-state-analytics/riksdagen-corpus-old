@@ -2,7 +2,7 @@ import pandas as pd
 import os
 import shutil
 from PyPDF2 import PdfFileReader, PdfFileWriter
-from count_pages import login_to_archive
+from parliament_data.download.count_pages import login_to_archive
 
 def _create_dirs(outfolder):
     if not os.path.exists(outfolder):

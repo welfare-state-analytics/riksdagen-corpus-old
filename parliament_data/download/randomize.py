@@ -4,7 +4,7 @@ import numpy as np
 import pandas as pd
 import time
 import hashlib
-from count_pages import login_to_archive
+from parliament_data.download.count_pages import login_to_archive
 
 def _get_seed(string):
     encoded = string.encode('utf-8')
