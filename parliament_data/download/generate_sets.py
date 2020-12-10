@@ -4,7 +4,7 @@ import shutil
 from PyPDF2 import PdfFileReader, PdfFileWriter
 from count_pages import login_to_archive
 
-def create_dirs(outfolder):
+def _create_dirs(outfolder):
     if not os.path.exists(outfolder):
         print("Create folder", outfolder)
         os.mkdir(outfolder)
@@ -15,7 +15,7 @@ def create_dirs(outfolder):
     if not os.path.exists(outfolder + "test/"):
         os.mkdir(outfolder + "test/")
 
-def get_sets(decade, interval=10, set_size=2, txt_dir=None):
+def generate_sets(decade, interval=10, set_size=2, txt_dir=None):
     # Read pages dataframe, filter relevant data and sort
     total = 2 * set_size
     pages = pd.read_csv("db/protocols/pages.csv")
@@ -28,13 +28,12 @@ def get_sets(decade, interval=10, set_size=2, txt_dir=None):
     
     # Create folder for the decennium
     outfolder = "data/curation/" + str(decade) + "-" + str(decade + interval-1) + "/"
-    create_dirs(outfolder)
+    _create_dirs(outfolder)
     
     # Ask for credentials and establish connection 
     archive = login_to_archive()
 
     for ix, row in pages_decade.iterrows():
-    
         package_id = row["package_id"]
         pagenumber = row["pagenumber"]
         print(ix, package_id, pagenumber)
@@ -64,23 +63,18 @@ def get_sets(decade, interval=10, set_size=2, txt_dir=None):
         annotated.close()
                 
         # Download jp2 file and save it to disk
-        str(pagenumber)
         package = archive.get(package_id)
         filelist = package.list()
         jp2list = [f for f in filelist if f.split(".")[-1] == "jp2"]
         jp2numbers = [ int(f.split(".")[-2].split("-")[-1]) for f in jp2list]
         
-        index = jp2numbers.index(pagenumber)
-        
+        index = jp2numbers.index(pagenumber)        
         jp2file = jp2list[index]
-        print(jp2file)
-        
         imagedata = package.get_raw(jp2file).read()
         
         jp2out = open(path + "image.jp2", "wb")
         jp2out.write(imagedata)
         jp2out.close()
-        #jp2file = archive.search()
         
         if txt_dir is not None:
             txt_filename = jp2file.split("-")[0] + ".txt"
@@ -89,11 +83,10 @@ def get_sets(decade, interval=10, set_size=2, txt_dir=None):
             txtout = open(path + txt_filename, "w")
             txtout.write(txt)
             txtout.close()
-        
     
 if __name__ == "__main__":
     set_size = 2
     txt_dir = "../riksdagens_protokoll/riksdagens_protokoll/"
     for decennium in range(1920, 1990, 10):
-        get_sets(decennium, set_size=set_size, txt_dir=txt_dir)
+        generate_sets(decennium, set_size=set_size, txt_dir=txt_dir)
 

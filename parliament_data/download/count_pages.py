@@ -41,7 +41,7 @@ def count_pages(start, end):
         
         avg_diff = np.mean(diffs[-5:])
         
-        print("Avg time", avg_diff, "; to go", avg_diff * (end-year - 1) )
+        print("Year", year, "; avg time", avg_diff, "; to go", avg_diff * (end-year - 1) )
             
     columns = ["package_id", "year", "pages"]
     db_pages = pd.DataFrame(rows, columns=columns)

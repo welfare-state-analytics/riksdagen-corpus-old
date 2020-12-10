@@ -6,34 +6,33 @@ import time
 import hashlib
 from count_pages import login_to_archive
 
-def get_seed(string):
-	encoded = string.encode('utf-8')
-	digest = hashlib.md5(encoded).hexdigest()[:8]
-	return int(digest, 16)
+def _get_seed(string):
+    encoded = string.encode('utf-8')
+    digest = hashlib.md5(encoded).hexdigest()[:8]
+    return int(digest, 16)
 
-columns = ["package_id", "year", "pagenumber", "ordinal"]
+def randomize_ordinals(files):
+    columns = ["package_id", "year", "pagenumber", "ordinal"]
+    data = []
+    for index, row in files.iterrows():
+        #print(index, row)
+        package_id = row["package_id"]
+        pages = row["pages"]
+        year = row["year"]
 
-files = pd.read_csv("db/protocols/files.csv")
+        for page in range(0, pages):
 
-print(files)
+            seedstr = package_id + str(year) + str(page)
+            np.random.seed(_get_seed(seedstr))
+            ordinal = np.random.rand()
+            new_row = [package_id, year, page, ordinal]
+            data.append(new_row)
 
-data = []
-for index, row in files.iterrows():
-	#print(index, row)
-	package_id = row["package_id"]
-	pages = row["pages"]
-	year = row["year"]
+    return pd.DataFrame(data, columns = columns)
 
-	for page in range(0, pages):
-
-		seedstr = package_id + str(year) + str(page)
-		np.random.seed(get_seed(seedstr))
-		ordinal = np.random.rand()
-		new_row = [package_id, year, page, ordinal]
-		data.append(new_row)
-
-randomized = pd.DataFrame(data, columns = columns)
-
-print(randomized)
-
-randomized.to_csv("db/protocols/pages.csv")
+if __name__ == '__main__':
+    files = pd.read_csv("db/protocols/files.csv")
+    randomized = randomize_ordinals(files)
+    print(randomized)
+    
+    randomized.to_csv("db/protocols/pages.csv")
