@@ -33,7 +33,6 @@ for filename in files:
 
     txts = split_by_indices(txt, indices)
 
-
     # Create element tree for the file
     teiCorpus = etree.Element("teiCorpus")
     tei = etree.SubElement(teiCorpus, "TEI")
@@ -58,8 +57,6 @@ for filename in files:
             if speech_line != "":
                 seg = etree.SubElement(u, "seg")
                 seg.text = speech_line
-
-
 
 
     tree = etree.ElementTree(teiCorpus)
