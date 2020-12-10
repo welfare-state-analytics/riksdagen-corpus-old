@@ -3,7 +3,23 @@ import re
 from os import listdir
 from os.path import isfile, join
 
+def _langmod_loss(sentence):
+    return 0.0
+
+def improvement(sentence, regexp):
+    """
+    Calculates the improvement in probability for a suggested text edit
+    """
+    sentence_suggestion = regexp
+    loss0 = _langmod_loss(sentence)
+    loss1 = _langmod_loss(sentence_suggestion)
+
+    return loss0, loss1
+
 def find_instances(pattern_db, folder):
+    """
+    Find instances of curation patterns in all files in a folder
+    """
     instance_db = pd.DataFrame(columns = ['pattern', 'loc', 'txt']) 
     files = [folder + f for f in listdir(folder) if isfile(join(folder, f))]
 
