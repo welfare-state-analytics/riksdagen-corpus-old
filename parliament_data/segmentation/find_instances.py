@@ -2,16 +2,10 @@ import pandas as pd
 import re
 from os import listdir
 from os.path import isfile, join
-pattern_path = "./db/segmentation/patterns.json"
-pattern_db = pd.read_json(pattern_path, orient="records", lines=True)
-
-instance_db = pd.DataFrame(columns = ['pattern', 'loc', 'txt']) 
-
-folder = "./data/txt/"
-files = [folder + f for f in listdir(folder) if isfile(join(folder, f))]
 #files = ["./data/txt/prot_1947__ak__3.txt", "./data/txt/prot_1947__fk__3.txt"]
 
-for filename in files:
+def find_instances(filename):
+    instance_db = pd.DataFrame(columns = ['filename', 'loc', 'pattern', 'txt']) 
     txt = open(filename).read()
 
     for row in pattern_db.iterrows():
@@ -26,8 +20,21 @@ for filename in files:
             d = {"filename": log_fname, "pattern": pattern, "loc": m.start(), "txt":m.group()}
             instance_db = instance_db.append(d, ignore_index=True)
 
+    return instance_db
 
+if __name__ == '__main__':
+    pattern_path = "./db/segmentation/patterns.json"
+    pattern_db = pd.read_json(pattern_path, orient="records", lines=True)
+
+    folder = "./data/txt/"
+    files = [folder + f for f in listdir(folder) if isfile(join(folder, f))]
+    instance_dbs = []
+
+    for filename in files:
+        instance_db = find_instances(filename)
+        instance_dbs.append(instance_db)        
+
+    instance_db = pd.concat(instance_dbs, sort=False)
     print(instance_db)
-
-instances_path = "./db/segmentation/instances.json"
-instance_db.to_json(instances_path, orient="records", lines=True)
+    instances_path = "./db/segmentation/instances.json"
+    instance_db.to_json(instances_path, orient="records", lines=True)

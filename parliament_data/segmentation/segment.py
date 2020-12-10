@@ -3,15 +3,10 @@ import re
 from os import listdir
 from os.path import isfile, join
 
-pattern_path = "./db/segmentation/patterns.json"
-pattern_db = pd.read_json(pattern_path, orient="records", lines=True)
-columns = ['filename', 'loc', 'pattern', 'txt']
-folder = "./data/txt/"
-files = [folder + f for f in listdir(folder) if isfile(join(folder, f))]
-#files = ["./data/txt/prot_1947__ak__3.txt", "./data/txt/prot_1947__fk__3.txt"]
-
-def segment_txt(filename):
+def segment_txt(filename, pattern_db):
     txt = open(filename).read()
+
+    columns = ['filename', 'loc', 'pattern', 'txt']
     instance_db = pd.DataFrame(columns = columns) 
     
     for row in pattern_db.iterrows():
@@ -28,20 +23,32 @@ def segment_txt(filename):
 
     return instance_db
     
-def segment_html(html):
-    pass
+def segment_html(filename, pattern_db):
+    columns = ['filename', 'loc', 'pattern', 'txt']
+    instance_db = pd.DataFrame(columns = columns) 
+    return instance_db
 
-def main():
+def segment_files(folder, pattern_db):
+    files = [folder + f for f in listdir(folder) if isfile(join(folder, f))]
+
+    instance_dbs = []
     for filename in files:
-        txt = open(filename).read()
+        extension = filename.split(".")[-1]
+        if extension == "txt":
+            instance_db = segment_txt(filename, pattern_db)
+            instance_dbs.append(instance_db)
+        elif extension == "html":
+            instance_db = segment_html(filename, pattern_db)
+            instance_dbs.append(instance_db)
 
-        instance_db = segment_txt(filename)
-        print(instance_db)
-
-    instances_path = "./db/segmentation/instances.json"
-    instance_db.to_json(instances_path, orient="records", lines=True)
+    return pd.concat(instance_dbs, sort=False)
 
 if __name__ == "__main__":
-    print("MOi")
-    main()
-    print("MAIN")
+    pattern_path = "./db/segmentation/patterns.json"
+    pattern_db = pd.read_json(pattern_path, orient="records", lines=True)
+    folder = "./data/txt/"
+
+    instance_db = segment_files(folder, pattern_db)
+    print(instance_db)
+    instances_path = "./db/segmentation/instances.json"
+    instance_db.to_json(instances_path, orient="records", lines=True)
