@@ -49,6 +49,11 @@ def update_db(updated_db, db_path, check_columns=True, remove=None, replace=None
         assert tuple(old_db.columns) == tuple(updated_db.columns)
 
     new_db = pd.concat([old_db, updated_db], sort=False)
+
+    # TODO: Remove rows from the original dataframe
+
+
+    # Replace duplicates based on the given column combinations
     if replace is not None:
         new_db = new_db.groupby(replace).last().reset_index()
     print("New", new_db)
