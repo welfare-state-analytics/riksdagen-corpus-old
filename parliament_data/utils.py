@@ -3,6 +3,7 @@ import xmlschema
 import xml.etree.ElementTree as et
 import sys, re
 from bs4 import BeautifulSoup
+import pandas as pd
 
 def clean_html(raw_html):
     raw_html = raw_html.replace("\n", " NEWLINE ")
@@ -39,6 +40,33 @@ def validate_parla_clarin_example():
     valid = validate_xml_schema(xml_path, schema_path)
 
     print("XML is valid", valid)
+    
+def update_db(updated_db, db_path, check_columns=True, remove=None, replace=None):
+    old_db = pd.read_json(db_path, orient="records", lines=True)
+    print("Old", old_db)
+    print("Updates", updated_db)
+    if check_columns:
+        assert tuple(old_db.columns) == tuple(updated_db.columns)
+
+    new_db = pd.concat([old_db, updated_db], sort=False)
+    if replace is not None:
+        new_db = new_db.groupby(replace).last().reset_index()
+    print("New", new_db)
+    new_db.to_json(db_path, orient="records", lines=True)
+    print("New on disk", pd.read_json(db_path, orient="records", lines=True))
+
+
+def update_test():
+    db_path = "test.json"
+
+    d1 = {'name': ["A", "A", "C"], 'country': ["SWE", "FIN","FIN"], 'value': [3, 2, 4]}
+    d2 = {'name': ["C", "C"], 'country': ["FIN", "GER"], 'value': [8,7]}
+
+    df1 = pd.DataFrame(data=d1)
+    df2 = pd.DataFrame(data=d2)
+    df1.to_json(db_path, orient="records", lines=True)
+    update_db(df2, db_path, replace=["name", "country"])
 
 if __name__ == '__main__':
-    validate_parla_clarin_example()
+    #validate_parla_clarin_example()
+    update_test()
