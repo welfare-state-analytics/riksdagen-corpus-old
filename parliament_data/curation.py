@@ -8,7 +8,7 @@ def _langmod_loss(sentence):
 
 def improvement(sentence, regexp):
     """
-    Calculates the improvement in probability for a suggested text edit
+    Calculates the improvement in probability for a suggested text edit. Returns a tuple of losses.
     """
     sentence_suggestion = regexp
     loss0 = _langmod_loss(sentence)
@@ -18,7 +18,11 @@ def improvement(sentence, regexp):
 
 def find_instances(pattern_db, folder):
     """
-    Find instances of curation patterns in all files in a folder
+    Find instances of curation patterns in all files in a folder.
+
+    Args:
+        pattern_db: Patterns to be matched as a Pandas DataFrame.
+        folder: Folder of files to be searched.
     """
     instance_db = pd.DataFrame(columns = ['pattern', 'loc', 'txt']) 
     files = [folder + f for f in listdir(folder) if isfile(join(folder, f))]

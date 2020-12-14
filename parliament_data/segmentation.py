@@ -6,6 +6,13 @@ from lxml import etree
 
 # Instance detection
 def find_instances_txt(filename, pattern_db):
+    """
+    Find instances of segment start and end patterns in a txt file.
+
+    Args:
+        pattern_db: Patterns to be matched as a Pandas DataFrame.
+        filename: Path to file to be searched.
+    """
     instance_db = pd.DataFrame(columns = ['filename', 'loc', 'pattern', 'txt']) 
     txt = open(filename).read()
 
@@ -24,6 +31,13 @@ def find_instances_txt(filename, pattern_db):
     return instance_db
 
 def find_instances_html(filename, pattern_db):
+    """
+    Find instances of segment start and end patterns in an html file.
+
+    Args:
+        pattern_db: Patterns to be matched as a Pandas DataFrame.
+        filename: Path to file to be searched.
+    """
     # TODO: implement
     columns = ['filename', 'loc', 'pattern', 'txt']
     instance_db = pd.DataFrame(columns = columns) 
@@ -31,6 +45,13 @@ def find_instances_html(filename, pattern_db):
 
 # Segmentation
 def find_instances(folder, pattern_db):
+    """
+    Find instances of segmentation patterns in all files in a folder.
+
+    Args:
+        pattern_db: Patterns to be matched as a Pandas DataFrame.
+        folder: Folder of files to be searched.
+    """
     files = [folder + f for f in listdir(folder) if isfile(join(folder, f))]
 
     instance_dbs = []
@@ -51,9 +72,31 @@ def _split_by_indices(s, indices):
     parts = [s[i:j] for i,j in zip([0] + indices, indices+[-1])]
     return parts
 
-def create_parlaclarin(filename, instance_db):
-    txt = open(filename).read()
+def _detect_name(s):
+    s = s.split(":")[0]
+    s = s.split(".")[0]
+    words = s.split()
+    lowercase_words = s.lower().split()
 
+    output = []
+    for word in words:
+        if word not in lowercase_words:
+            output.append(word)
+
+    return " ".join(output)
+
+def create_parlaclarin(filename, instance_db):
+    """
+    Create a Parla-Clarin XML of a file.
+
+    Args:
+        filename: Path to file to be converted.
+        instance_db: Instances of matched patterns as a Pandas DataFrame.
+    """
+    txt = open(filename).read()
+    
+    # Get rid of extra line breaks within paragraphs
+    
     filename = filename.split("/")[-1]
     instances = instance_db.loc[instance_db['filename'] == filename]
 
@@ -78,12 +121,20 @@ def create_parlaclarin(filename, instance_db):
     body_div = etree.SubElement(body, "div")
     
     for speech in txts:
-        u = etree.SubElement(body_div, "u")
-        for speech_line in speech.split("\n"):
-            speech_line = speech_line.strip()
-            if speech_line != "":
-                seg = etree.SubElement(u, "seg")
-                seg.text = speech_line
+        speech = re.sub('([a-zäö,])\n ?([a-zäö])', '\\1 \\2', speech)
+        intro = speech[:100]
+        name = _detect_name(intro)
+
+        if name != "":
+            u = etree.SubElement(body_div, "u", who=name)
+            for speech_line in speech.split("\n"):
+                speech_line = speech_line.strip()
+                if speech_line != "":
+                    seg = etree.SubElement(u, "seg")
+                    seg.text = speech_line
+
+            intro = speech[:100]
+            name = _detect_name(intro)
 
     return etree.ElementTree(teiCorpus)
 

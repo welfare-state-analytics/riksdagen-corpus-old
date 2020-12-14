@@ -36,7 +36,7 @@ def _langmod_loss(sentence):
 
 def improvement(sentence, regexp):
     &#34;&#34;&#34;
-    Calculates the improvement in probability for a suggested text edit
+    Calculates the improvement in probability for a suggested text edit. Returns a tuple of losses.
     &#34;&#34;&#34;
     sentence_suggestion = regexp
     loss0 = _langmod_loss(sentence)
@@ -46,7 +46,11 @@ def improvement(sentence, regexp):
 
 def find_instances(pattern_db, folder):
     &#34;&#34;&#34;
-    Find instances of curation patterns in all files in a folder
+    Find instances of curation patterns in all files in a folder.
+
+    Args:
+        pattern_db: Patterns to be matched as a Pandas DataFrame.
+        folder: Folder of files to be searched.
     &#34;&#34;&#34;
     instance_db = pd.DataFrame(columns = [&#39;pattern&#39;, &#39;loc&#39;, &#39;txt&#39;]) 
     files = [folder + f for f in listdir(folder) if isfile(join(folder, f))]
@@ -91,14 +95,25 @@ if __name__ == &#39;__main__&#39;:
 <span>def <span class="ident">find_instances</span></span>(<span>pattern_db, folder)</span>
 </code></dt>
 <dd>
-<div class="desc"><p>Find instances of curation patterns in all files in a folder</p></div>
+<div class="desc"><p>Find instances of curation patterns in all files in a folder.</p>
+<h2 id="args">Args</h2>
+<dl>
+<dt><strong><code>pattern_db</code></strong></dt>
+<dd>Patterns to be matched as a Pandas DataFrame.</dd>
+<dt><strong><code>folder</code></strong></dt>
+<dd>Folder of files to be searched.</dd>
+</dl></div>
 <details class="source">
 <summary>
 <span>Expand source code</span>
 </summary>
 <pre><code class="python">def find_instances(pattern_db, folder):
     &#34;&#34;&#34;
-    Find instances of curation patterns in all files in a folder
+    Find instances of curation patterns in all files in a folder.
+
+    Args:
+        pattern_db: Patterns to be matched as a Pandas DataFrame.
+        folder: Folder of files to be searched.
     &#34;&#34;&#34;
     instance_db = pd.DataFrame(columns = [&#39;pattern&#39;, &#39;loc&#39;, &#39;txt&#39;]) 
     files = [folder + f for f in listdir(folder) if isfile(join(folder, f))]
@@ -125,14 +140,14 @@ if __name__ == &#39;__main__&#39;:
 <span>def <span class="ident">improvement</span></span>(<span>sentence, regexp)</span>
 </code></dt>
 <dd>
-<div class="desc"><p>Calculates the improvement in probability for a suggested text edit</p></div>
+<div class="desc"><p>Calculates the improvement in probability for a suggested text edit. Returns a tuple of losses.</p></div>
 <details class="source">
 <summary>
 <span>Expand source code</span>
 </summary>
 <pre><code class="python">def improvement(sentence, regexp):
     &#34;&#34;&#34;
-    Calculates the improvement in probability for a suggested text edit
+    Calculates the improvement in probability for a suggested text edit. Returns a tuple of losses.
     &#34;&#34;&#34;
     sentence_suggestion = regexp
     loss0 = _langmod_loss(sentence)

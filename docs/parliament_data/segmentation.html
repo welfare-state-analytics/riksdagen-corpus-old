@@ -34,6 +34,13 @@ from lxml import etree
 
 # Instance detection
 def find_instances_txt(filename, pattern_db):
+    &#34;&#34;&#34;
+    Find instances of segment start and end patterns in a txt file.
+
+    Args:
+        pattern_db: Patterns to be matched as a Pandas DataFrame.
+        filename: Path to file to be searched.
+    &#34;&#34;&#34;
     instance_db = pd.DataFrame(columns = [&#39;filename&#39;, &#39;loc&#39;, &#39;pattern&#39;, &#39;txt&#39;]) 
     txt = open(filename).read()
 
@@ -52,6 +59,13 @@ def find_instances_txt(filename, pattern_db):
     return instance_db
 
 def find_instances_html(filename, pattern_db):
+    &#34;&#34;&#34;
+    Find instances of segment start and end patterns in an html file.
+
+    Args:
+        pattern_db: Patterns to be matched as a Pandas DataFrame.
+        filename: Path to file to be searched.
+    &#34;&#34;&#34;
     # TODO: implement
     columns = [&#39;filename&#39;, &#39;loc&#39;, &#39;pattern&#39;, &#39;txt&#39;]
     instance_db = pd.DataFrame(columns = columns) 
@@ -59,6 +73,13 @@ def find_instances_html(filename, pattern_db):
 
 # Segmentation
 def find_instances(folder, pattern_db):
+    &#34;&#34;&#34;
+    Find instances of segmentation patterns in all files in a folder.
+
+    Args:
+        pattern_db: Patterns to be matched as a Pandas DataFrame.
+        folder: Folder of files to be searched.
+    &#34;&#34;&#34;
     files = [folder + f for f in listdir(folder) if isfile(join(folder, f))]
 
     instance_dbs = []
@@ -79,9 +100,31 @@ def _split_by_indices(s, indices):
     parts = [s[i:j] for i,j in zip([0] + indices, indices+[-1])]
     return parts
 
-def create_parlaclarin(filename, instance_db):
-    txt = open(filename).read()
+def _detect_name(s):
+    s = s.split(&#34;:&#34;)[0]
+    s = s.split(&#34;.&#34;)[0]
+    words = s.split()
+    lowercase_words = s.lower().split()
 
+    output = []
+    for word in words:
+        if word not in lowercase_words:
+            output.append(word)
+
+    return &#34; &#34;.join(output)
+
+def create_parlaclarin(filename, instance_db):
+    &#34;&#34;&#34;
+    Create a Parla-Clarin XML of a file.
+
+    Args:
+        filename: Path to file to be converted.
+        instance_db: Instances of matched patterns as a Pandas DataFrame.
+    &#34;&#34;&#34;
+    txt = open(filename).read()
+    
+    # Get rid of extra line breaks within paragraphs
+    
     filename = filename.split(&#34;/&#34;)[-1]
     instances = instance_db.loc[instance_db[&#39;filename&#39;] == filename]
 
@@ -106,12 +149,20 @@ def create_parlaclarin(filename, instance_db):
     body_div = etree.SubElement(body, &#34;div&#34;)
     
     for speech in txts:
-        u = etree.SubElement(body_div, &#34;u&#34;)
-        for speech_line in speech.split(&#34;\n&#34;):
-            speech_line = speech_line.strip()
-            if speech_line != &#34;&#34;:
-                seg = etree.SubElement(u, &#34;seg&#34;)
-                seg.text = speech_line
+        speech = re.sub(&#39;([a-zäö,])\n ?([a-zäö])&#39;, &#39;\\1 \\2&#39;, speech)
+        intro = speech[:100]
+        name = _detect_name(intro)
+
+        if name != &#34;&#34;:
+            u = etree.SubElement(body_div, &#34;u&#34;, who=name)
+            for speech_line in speech.split(&#34;\n&#34;):
+                speech_line = speech_line.strip()
+                if speech_line != &#34;&#34;:
+                    seg = etree.SubElement(u, &#34;seg&#34;)
+                    seg.text = speech_line
+
+            intro = speech[:100]
+            name = _detect_name(intro)
 
     return etree.ElementTree(teiCorpus)
 
@@ -156,14 +207,30 @@ if __name__ == &#39;__main__&#39;:
 <span>def <span class="ident">create_parlaclarin</span></span>(<span>filename, instance_db)</span>
 </code></dt>
 <dd>
-<div class="desc"></div>
+<div class="desc"><p>Create a Parla-Clarin XML of a file.</p>
+<h2 id="args">Args</h2>
+<dl>
+<dt><strong><code>filename</code></strong></dt>
+<dd>Path to file to be converted.</dd>
+<dt><strong><code>instance_db</code></strong></dt>
+<dd>Instances of matched patterns as a Pandas DataFrame.</dd>
+</dl></div>
 <details class="source">
 <summary>
 <span>Expand source code</span>
 </summary>
 <pre><code class="python">def create_parlaclarin(filename, instance_db):
-    txt = open(filename).read()
+    &#34;&#34;&#34;
+    Create a Parla-Clarin XML of a file.
 
+    Args:
+        filename: Path to file to be converted.
+        instance_db: Instances of matched patterns as a Pandas DataFrame.
+    &#34;&#34;&#34;
+    txt = open(filename).read()
+    
+    # Get rid of extra line breaks within paragraphs
+    
     filename = filename.split(&#34;/&#34;)[-1]
     instances = instance_db.loc[instance_db[&#39;filename&#39;] == filename]
 
@@ -188,12 +255,20 @@ if __name__ == &#39;__main__&#39;:
     body_div = etree.SubElement(body, &#34;div&#34;)
     
     for speech in txts:
-        u = etree.SubElement(body_div, &#34;u&#34;)
-        for speech_line in speech.split(&#34;\n&#34;):
-            speech_line = speech_line.strip()
-            if speech_line != &#34;&#34;:
-                seg = etree.SubElement(u, &#34;seg&#34;)
-                seg.text = speech_line
+        speech = re.sub(&#39;([a-zäö,])\n ?([a-zäö])&#39;, &#39;\\1 \\2&#39;, speech)
+        intro = speech[:100]
+        name = _detect_name(intro)
+
+        if name != &#34;&#34;:
+            u = etree.SubElement(body_div, &#34;u&#34;, who=name)
+            for speech_line in speech.split(&#34;\n&#34;):
+                speech_line = speech_line.strip()
+                if speech_line != &#34;&#34;:
+                    seg = etree.SubElement(u, &#34;seg&#34;)
+                    seg.text = speech_line
+
+            intro = speech[:100]
+            name = _detect_name(intro)
 
     return etree.ElementTree(teiCorpus)</code></pre>
 </details>
@@ -202,12 +277,26 @@ if __name__ == &#39;__main__&#39;:
 <span>def <span class="ident">find_instances</span></span>(<span>folder, pattern_db)</span>
 </code></dt>
 <dd>
-<div class="desc"></div>
+<div class="desc"><p>Find instances of segmentation patterns in all files in a folder.</p>
+<h2 id="args">Args</h2>
+<dl>
+<dt><strong><code>pattern_db</code></strong></dt>
+<dd>Patterns to be matched as a Pandas DataFrame.</dd>
+<dt><strong><code>folder</code></strong></dt>
+<dd>Folder of files to be searched.</dd>
+</dl></div>
 <details class="source">
 <summary>
 <span>Expand source code</span>
 </summary>
 <pre><code class="python">def find_instances(folder, pattern_db):
+    &#34;&#34;&#34;
+    Find instances of segmentation patterns in all files in a folder.
+
+    Args:
+        pattern_db: Patterns to be matched as a Pandas DataFrame.
+        folder: Folder of files to be searched.
+    &#34;&#34;&#34;
     files = [folder + f for f in listdir(folder) if isfile(join(folder, f))]
 
     instance_dbs = []
@@ -227,12 +316,26 @@ if __name__ == &#39;__main__&#39;:
 <span>def <span class="ident">find_instances_html</span></span>(<span>filename, pattern_db)</span>
 </code></dt>
 <dd>
-<div class="desc"></div>
+<div class="desc"><p>Find instances of segment start and end patterns in an html file.</p>
+<h2 id="args">Args</h2>
+<dl>
+<dt><strong><code>pattern_db</code></strong></dt>
+<dd>Patterns to be matched as a Pandas DataFrame.</dd>
+<dt><strong><code>filename</code></strong></dt>
+<dd>Path to file to be searched.</dd>
+</dl></div>
 <details class="source">
 <summary>
 <span>Expand source code</span>
 </summary>
 <pre><code class="python">def find_instances_html(filename, pattern_db):
+    &#34;&#34;&#34;
+    Find instances of segment start and end patterns in an html file.
+
+    Args:
+        pattern_db: Patterns to be matched as a Pandas DataFrame.
+        filename: Path to file to be searched.
+    &#34;&#34;&#34;
     # TODO: implement
     columns = [&#39;filename&#39;, &#39;loc&#39;, &#39;pattern&#39;, &#39;txt&#39;]
     instance_db = pd.DataFrame(columns = columns) 
@@ -243,12 +346,26 @@ if __name__ == &#39;__main__&#39;:
 <span>def <span class="ident">find_instances_txt</span></span>(<span>filename, pattern_db)</span>
 </code></dt>
 <dd>
-<div class="desc"></div>
+<div class="desc"><p>Find instances of segment start and end patterns in a txt file.</p>
+<h2 id="args">Args</h2>
+<dl>
+<dt><strong><code>pattern_db</code></strong></dt>
+<dd>Patterns to be matched as a Pandas DataFrame.</dd>
+<dt><strong><code>filename</code></strong></dt>
+<dd>Path to file to be searched.</dd>
+</dl></div>
 <details class="source">
 <summary>
 <span>Expand source code</span>
 </summary>
 <pre><code class="python">def find_instances_txt(filename, pattern_db):
+    &#34;&#34;&#34;
+    Find instances of segment start and end patterns in a txt file.
+
+    Args:
+        pattern_db: Patterns to be matched as a Pandas DataFrame.
+        filename: Path to file to be searched.
+    &#34;&#34;&#34;
     instance_db = pd.DataFrame(columns = [&#39;filename&#39;, &#39;loc&#39;, &#39;pattern&#39;, &#39;txt&#39;]) 
     txt = open(filename).read()
 
