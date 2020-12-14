@@ -12,6 +12,8 @@ The general flow of the process is the following:
 
 *Input data in yellow, scripts in white, processing databases in blue, intermediary formats in gray, end products in green.*
 
+The project is implemented as a Python package. The documentation of the package can be found under [this link](https://welfare-state-analytics.github.io/parliament_data/parliament_data/).
+
 ## 1. Gathering the data
 
 ### Digital originals 1990s ->
