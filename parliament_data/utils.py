@@ -1,3 +1,7 @@
+"""
+Provides useful utilities for the other modules as well as for general use.
+"""
+
 import lxml
 from lxml import etree
 import xmlschema

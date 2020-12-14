@@ -1,3 +1,7 @@
+"""
+Provides functions for the curation of the parliamentary data.
+"""
+
 import pandas as pd
 import re
 from os import listdir

@@ -1,3 +1,8 @@
+"""
+Implements the segmentation of the data into speeches and
+ultimately into the Parla-Clarin XML format.
+"""
+
 import pandas as pd
 import re
 from os import listdir
