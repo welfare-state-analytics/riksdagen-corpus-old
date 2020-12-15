@@ -1,5 +1,9 @@
 # Protocol annotation
 
+![](./segmentation.png)
+
+*Potential structure of a document. A box denotes a paragraph, which can fall into one of three categories: speech, description or interruption.* 
+
 There should be a PDF scan of the page, as well as two text files in the folder:
 
 - original.txt
@@ -22,19 +26,26 @@ Noises in the parliamentary hall.
 New session starts.
 ```
 
-In addition to the corrections, the ends and the beginnings of speeches should be annotated. THis is done by adding the following all-caps words:
+In addition to the corrections, the ends and the beginnings of speeches should be annotated. This is done by adding the following all-caps words:
 
-- BEGINSPEECH
-- ENDSPEECH
+- Speeches:
+  - BEGINSPEECH
+  - ENDSPEECH
+- Interruptions
+  - BEGININTERRUPTION
+  - ENDINTERRUPTION
+- General description of events etc.
+  - BEGINDESCRIPTION
+  - ENDDESCRIPTION
 
 
 ```
-Noises in the parliamentary hall.
+Noises in the parliamentary hall. ENDDESCRIPTION
 
 BEGINSPEECH Senator Sanders from Vermont utters:
 Mister Speaker, I would like to discuss the current state of American healthcare. ENDSPEECH
 
-More noises in the parliamentary hall.
+BEGINDESCRIPTION More noises in the parliamentary hall.
 ```
 
 As seen in the example, the tags surround the whole speech, including the introduction of the speaker.
