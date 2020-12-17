@@ -65,3 +65,5 @@ Mister Speaker, I would like to discuss the current state of American healthcare
 
 BEGINDESCRIPTION There were a lot of sick sentators this day.
 ```
+
+In case no speeches, interruptions or description begin in the page, no tags should be added.
