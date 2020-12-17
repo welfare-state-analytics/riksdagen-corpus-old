@@ -4,7 +4,16 @@ Handles the data on the members of parliament.
 
 import pandas as pd
 
-def create_database():
+def create_database(csv_path):
+
+    df = pd.read_csv(csv_path)
+
+    years = csv_path.split(".")[0].split("-")
+
+    start = int(years[0])
+    end = int(years[1])
+
+    
     pass
 
 
