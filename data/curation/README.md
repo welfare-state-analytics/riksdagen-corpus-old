@@ -46,8 +46,8 @@ Interuption is describing events taking place in the parliament, that are not a 
 ```
 Noises in the parliamentary hall. ENDDESCRIPTION
 
-BEGINSPEECH Senator Sanders from Vermont utters:
-Mister Speaker, I would like to discuss the current state of American healthcare. ENDSPEECH
+BEGINDESCRIPTION Senator Sanders from Vermont utters: ENDDESCRIPTION
+BEGINSPEECH Mister Speaker, I would like to discuss the current state of American healthcare. ENDSPEECH
 
 BEGINDESCRIPTION More noises in the parliamentary hall.
 ```
@@ -59,7 +59,7 @@ In the case there are interruptions within the speech, just annotate the interup
 ```
 Noises in the parliamentary hall. ENDDESCRIPTION
 
-BEGINSPEECH President Obama utters: Dear Senators,
+BEGINDESCRIPTION President Obama utters: ENDDESCRIPTION BEGINSPEECH Dear Senators,
 BEGININTERRUPTION A lot of boohs from the hall. ENDINTERRUPTION
 Mister Speaker, I would like to discuss the current state of American healthcare. ENDSPEECH
 
