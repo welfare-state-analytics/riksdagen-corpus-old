@@ -38,9 +38,7 @@ def detect_mp(introduction, metadata, mp_db):
         if last_name in introduction:
             return row
 
-
 if __name__ == '__main__':
-
     mp_db = create_database("data/mp/1971-1973.csv")
     print(mp_db)
 

@@ -15,6 +15,16 @@ def _create_dirs(outfolder):
     if not os.path.exists(outfolder + "test/"):
         os.mkdir(outfolder + "test/")
 
+def fetch_files(package, extension="xml", return_files=False):
+    filelist = package.list()
+    filelist = [f for f in filelist if f.split(".")[-1] == extension]
+
+    if not return_files:
+        return filelist
+    else:
+        files = [package.get_raw(f).read() for f in filelist]
+        return zip(files, filelist)
+
 def generate_sets(decade, interval=10, set_size=2, txt_dir=None):
     # Read pages dataframe, filter relevant data and sort
     total = 2 * set_size
@@ -64,8 +74,7 @@ def generate_sets(decade, interval=10, set_size=2, txt_dir=None):
                 
         # Download jp2 file and save it to disk
         package = archive.get(package_id)
-        filelist = package.list()
-        jp2list = [f for f in filelist if f.split(".")[-1] == "jp2"]
+        jp2list = fetch_files(package, extension="jp2")
         jp2numbers = [ int(f.split(".")[-2].split("-")[-1]) for f in jp2list]
         
         index = jp2numbers.index(pagenumber)        

@@ -8,6 +8,7 @@ import re
 from os import listdir
 from os.path import isfile, join
 from lxml import etree
+from mp import detect_mp
 
 # Instance detection
 def find_instances_txt(filename, pattern_db):
@@ -90,7 +91,35 @@ def _detect_name(s):
 
     return " ".join(output)
 
-def create_parlaclarin(filename, instance_db):
+def _metadata(filename):
+    metadata = dict()
+    txt = open(filename).read()
+
+    metadata["filename"] = filename.split("/")[-1].split(".")[0]
+    split = filename.split("/")[-1].split("_")
+
+    # Year
+    for s in split:
+        s = s[:4]
+        if s.isdigit():
+            year = int(s)
+            if year > 1800 and year < 2100:
+                metadata["year"] = year
+
+    # Chamber
+    metadata["chamber"] = None
+    if "_ak_" in filename:
+        metadata["chamber"] = "ak"
+    elif "_fk_" in filename:
+        metadata["chamber"] = "fk"
+
+    # TODO: Month and day
+
+    # TODO: Day of the week
+
+    return metadata
+
+def segment(filename, instance_db):
     """
     Create a Parla-Clarin XML of a file.
 
@@ -101,6 +130,9 @@ def create_parlaclarin(filename, instance_db):
     txt = open(filename).read()
     
     # Get rid of extra line breaks within paragraphs
+    file_metadata = _metadata(filename)
+
+    print("Metadata", file_metadata)
     
     filename = filename.split("/")[-1]
     instances = instance_db.loc[instance_db['filename'] == filename]
@@ -109,6 +141,17 @@ def create_parlaclarin(filename, instance_db):
     indices = sorted(list(indices))
 
     txts = _split_by_indices(txt, indices)
+
+    return txts
+
+def create_parlaclarin(xml, metadata):
+    """
+    Create a Parla-Clarin XML from a list of segments.
+
+    Args:
+        xml: Path to file to be converted.
+        metadata: Metadata of the parliamentary session
+    """
 
     # Create element tree for the file
     teiCorpus = etree.Element("teiCorpus")
@@ -120,7 +163,7 @@ def create_parlaclarin(filename, instance_db):
     front = etree.SubElement(text, "front")
     preface = etree.SubElement(front, "div", type="preface")
     etree.SubElement(preface, "head").text = filename.split(".")[0]
-    etree.SubElement(preface, "docDate", when="2011-01-30").text = "30th January 2011"
+    etree.SubElement(preface, "docDate", when=metadata["date"]).text = metadata["date"]
 
     body = etree.SubElement(text, "body")
     body_div = etree.SubElement(body, "div")
