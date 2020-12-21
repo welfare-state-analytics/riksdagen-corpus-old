@@ -8,7 +8,7 @@ import re
 from os import listdir
 from os.path import isfile, join
 from lxml import etree
-from mp import detect_mp
+from parliament_data.mp import detect_mp
 
 # Instance detection
 def find_instances_txt(filename, pattern_db):
@@ -114,8 +114,10 @@ def _metadata(filename):
         metadata["chamber"] = "fk"
 
     # TODO: Month and day
+    metadata["date"] = "1.1.2021"
 
     # TODO: Day of the week
+    metadata["weekday"] = "Tuesday"
 
     return metadata
 
@@ -144,7 +146,7 @@ def segment(filename, instance_db):
 
     return txts
 
-def create_parlaclarin(xml, metadata):
+def create_parlaclarin(txts, metadata):
     """
     Create a Parla-Clarin XML from a list of segments.
 
@@ -153,6 +155,7 @@ def create_parlaclarin(xml, metadata):
         metadata: Metadata of the parliamentary session
     """
 
+    filename = metadata["filename"]
     # Create element tree for the file
     teiCorpus = etree.Element("teiCorpus")
     tei = etree.SubElement(teiCorpus, "TEI")
