@@ -91,9 +91,8 @@ def _detect_name(s):
 
     return " ".join(output)
 
-def _metadata(filename):
+def infer_metadata(filename):
     metadata = dict()
-    txt = open(filename).read()
 
     metadata["filename"] = filename.split("/")[-1].split(".")[0]
     split = filename.split("/")[-1].split("_")
@@ -132,7 +131,7 @@ def segment(filename, instance_db):
     txt = open(filename).read()
     
     # Get rid of extra line breaks within paragraphs
-    file_metadata = _metadata(filename)
+    file_metadata = infer_metadata(filename)
 
     print("Metadata", file_metadata)
     
@@ -172,22 +171,24 @@ def create_parlaclarin(txts, metadata):
     body_div = etree.SubElement(body, "div")
     
     for content_block in txts:
+        #print(content_block)
+        first_speech = content_block[0]
+        first_speech = re.sub('([a-zäö,])\n ?([a-zäö])', '\\1 \\2', first_speech)
+        intro = first_speech[:100]
+        name = _detect_name(intro)
+
+        if name != "":
+            u = etree.SubElement(body_div, "u", who=name)
+        else:
+            u = etree.SubElement(body_div, "u")
 
         for speech in content_block:
-            speech = re.sub('([a-zäö,])\n ?([a-zäö])', '\\1 \\2', speech)
-            intro = speech[:100]
-            name = _detect_name(intro)
+            for speech_line in speech.split("\n"):
+                speech_line = speech_line.strip()
+                if speech_line != "":
+                    seg = etree.SubElement(u, "seg")
+                    seg.text = speech_line
 
-            if name != "":
-                u = etree.SubElement(body_div, "u", who=name)
-                for speech_line in speech.split("\n"):
-                    speech_line = speech_line.strip()
-                    if speech_line != "":
-                        seg = etree.SubElement(u, "seg")
-                        seg.text = speech_line
-
-                intro = speech[:100]
-                name = _detect_name(intro)
 
     return etree.ElementTree(teiCorpus)
 
