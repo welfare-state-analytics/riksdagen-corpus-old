@@ -3,6 +3,7 @@ import getpass
 import numpy as np
 import pandas as pd
 import time
+from lxml import etree
 
 def login_to_archive():
     username = input("Username: ")
@@ -10,7 +11,44 @@ def login_to_archive():
     print("Password set for user:", username)
     
     return Archive('https://betalab.kb.se', auth=(username, password))
+
+def get_blocks(s):
+    """
+    Get content and text blocks from an OCR output XML file.
+
+    Params:
+        s: OCRd XML as a string.
+
+    Returns a list of lists, outer list of content blocks, which contain lists of text blocks.
+    """
+    tree = etree.fromstring(s)
+
+    ns_dict = {"space": "http://www.loc.gov/standards/alto/ns-v3#"}
+    content_blocks = tree.findall('.//{http://www.loc.gov/standards/alto/ns-v3#}ComposedBlock')
+
+    d = []
     
+    for content_block in content_blocks:
+        text_blocks = content_block.findall('.//{http://www.loc.gov/standards/alto/ns-v3#}TextBlock')        
+        cblock = []
+        for text_block in text_blocks:
+            tblock = []
+            text_lines = text_block.findall('.//{http://www.loc.gov/standards/alto/ns-v3#}TextLine')
+            
+            for text_line in text_lines:
+                strings = text_line.findall('.//{http://www.loc.gov/standards/alto/ns-v3#}String')
+                for string in strings:
+                    content = string.attrib["CONTENT"]
+                    tblock.append(content)
+                    
+            tblock = " ".join(tblock)
+            cblock.append(tblock)
+                
+        d.append(cblock)
+                
+    return d
+
+
 def count_pages(start, end):
     years = range(start, end)
     archive = login_to_archive()

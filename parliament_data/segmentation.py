@@ -151,7 +151,7 @@ def create_parlaclarin(txts, metadata):
     Create a Parla-Clarin XML from a list of segments.
 
     Args:
-        xml: Path to file to be converted.
+        txts: a list of lists of strings, corresponds to content blocks and paragraphs, respectively.
         metadata: Metadata of the parliamentary session
     """
 
@@ -171,21 +171,23 @@ def create_parlaclarin(txts, metadata):
     body = etree.SubElement(text, "body")
     body_div = etree.SubElement(body, "div")
     
-    for speech in txts:
-        speech = re.sub('([a-zäö,])\n ?([a-zäö])', '\\1 \\2', speech)
-        intro = speech[:100]
-        name = _detect_name(intro)
+    for content_block in txts:
 
-        if name != "":
-            u = etree.SubElement(body_div, "u", who=name)
-            for speech_line in speech.split("\n"):
-                speech_line = speech_line.strip()
-                if speech_line != "":
-                    seg = etree.SubElement(u, "seg")
-                    seg.text = speech_line
-
+        for speech in content_block:
+            speech = re.sub('([a-zäö,])\n ?([a-zäö])', '\\1 \\2', speech)
             intro = speech[:100]
             name = _detect_name(intro)
+
+            if name != "":
+                u = etree.SubElement(body_div, "u", who=name)
+                for speech_line in speech.split("\n"):
+                    speech_line = speech_line.strip()
+                    if speech_line != "":
+                        seg = etree.SubElement(u, "seg")
+                        seg.text = speech_line
+
+                intro = speech[:100]
+                name = _detect_name(intro)
 
     return etree.ElementTree(teiCorpus)
 
