@@ -4,7 +4,6 @@ Provides useful utilities for the other modules as well as for general use.
 
 import lxml
 from lxml import etree
-import xmlschema
 import xml.etree.ElementTree as et
 import sys, re
 from bs4 import BeautifulSoup
