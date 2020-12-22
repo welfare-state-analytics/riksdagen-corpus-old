@@ -10,18 +10,32 @@ There should be a PDF scan of the page, as well as two text files in the folder:
 
 - annotated.txt
 
-The original file is for reference and future use, and should not be edited. The other file, annotated.txt, should have all OCR errors, missing line breaks, and so on corrected, as well as margin notations etc. removed. Incorrect or misspelled words should be replaced with correct ones, and not marked per se, in the following manner:
+The original file is for reference and future use, and should not be edited. The other file, annotated.txt, should correct
+
+- OCR errors
+- Missing line breaks
+- Extra spaces
+- All other errors that do not exist in the original text
+
+Additionally, annotated.txt should remove
+
+- Margin notations
+- Other recurring metatext, eg. page numbers and theme of the discussion 
+
+Incorrect or misspelled words should be replaced with correct ones, and not marked per se, in the following manner:
 
 original.txt
 
 ```
-Page 10 Noisesss in the porliamentary hall. 
+Page 10,; Session starts  .
+Noisesss in the porliamentary hall. 
   New session starts.
 ```
 
 annotated.txt
 
 ```
+Session starts.
 Noises in the parliamentary hall.
 
 New session starts.
@@ -34,20 +48,24 @@ In addition to the corrections, the ends and the beginnings of speeches should b
 - Speeches:
   - BEGINSPEECH
   - ENDSPEECH
+  - CONTINUESPEECH
 - Interruptions
   - BEGININTERRUPTION
   - ENDINTERRUPTION
+  - CONTINUEINTERRUPTION (if necessary)
 - General description of events etc.
   - BEGINDESCRIPTION
   - ENDDESCRIPTION
-
+  - CONTINUEDESCRIPTION
+  
 Interuption is describing events taking place in the parliament, that are not a common part of the parlimentary protocol. 
 
 ```
+BEGINDESCRIPTION Session starts.
 Noises in the parliamentary hall. ENDDESCRIPTION
 
-BEGINSPEECH Senator Sanders from Vermont utters:
-Mister Speaker, I would like to discuss the current state of American healthcare. ENDSPEECH
+BEGINDESCRIPTION Senator Sanders from Vermont utters: ENDDESCRIPTION
+BEGINSPEECH Mister Speaker, I would like to discuss the current state of American healthcare. ENDSPEECH
 
 BEGINDESCRIPTION More noises in the parliamentary hall.
 ```
@@ -57,13 +75,12 @@ As seen in the example, the tags surround the whole speech, including the introd
 In the case there are interruptions within the speech, just annotate the interuption with a start and end tag as:
 
 ```
+BEGINDESCRIPTION Session starts.
 Noises in the parliamentary hall. ENDDESCRIPTION
 
-BEGINSPEECH President Obama utters: Dear Senators,
+BEGINDESCRIPTION President Obama utters: ENDDESCRIPTION BEGINSPEECH Dear Senators,
 BEGININTERRUPTION A lot of boohs from the hall. ENDINTERRUPTION
 Mister Speaker, I would like to discuss the current state of American healthcare. ENDSPEECH
 
 BEGINDESCRIPTION There were a lot of sick sentators this day.
 ```
-
-In case no speeches, interruptions or description begin in the page, no tags should be added.
