@@ -4,7 +4,6 @@ Provides useful utilities for the other modules as well as for general use.
 
 import lxml
 from lxml import etree
-import xmlschema
 import xml.etree.ElementTree as et
 import sys, re
 from bs4 import BeautifulSoup
@@ -32,14 +31,20 @@ def read_xml(outpath):
     g.close()
 
 def validate_xml_schema(xml_path, schema_path):
-    schema = xmlschema.XMLSchema(schema_path)
-    return schema.is_valid(xml_path)
+    xml_file = lxml.etree.parse(xml_path)
+
+    xml_validator = lxml.etree.XMLSchema(file=schema_path)
+    is_valid = xml_validator.validate(xml_file)
+
+    #schema = xmlschema.XMLSchema(schema_path)
+    return is_valid
 
 def validate_parla_clarin_example():
-    xml_path = "data/xml/parla-clarin.xml"
+    xml_path = "data/parla-clarin/official-example.xml"
 
-    s = open(xml_path).read()[:50]
-    print("Example Parla-clarin XML: '", s, " [...]'")
+    #s = open(xml_path).read()[:50]
+    
+    #print("Example Parla-clarin XML: '", s, " [...]'")
     schema_path = "schemas/parla-clarin.xsd"
 
     valid = validate_xml_schema(xml_path, schema_path)
@@ -127,5 +132,5 @@ def speeches_with_name(tree, name):
     return texts
 
 if __name__ == '__main__':
-    #validate_parla_clarin_example()
-    update_test()
+    validate_parla_clarin_example()
+    #update_test()

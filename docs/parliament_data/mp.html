@@ -29,7 +29,59 @@
 </summary>
 <pre><code class="python">&#34;&#34;&#34;
 Handles the data on the members of parliament.
-&#34;&#34;&#34;</code></pre>
+&#34;&#34;&#34;
+
+import pandas as pd
+
+def create_database(csv_path):
+
+    df = pd.read_csv(csv_path)
+
+    years = csv_path.split(&#34;/&#34;)[-1].split(&#34;.&#34;)[0].split(&#34;-&#34;)
+
+    start = int(years[0])
+    end = int(years[1])
+
+    df[&#34;start&#34;] = start
+    df[&#34;end&#34;] = end
+
+    return df
+
+
+def detect_mp(introduction, metadata, mp_db):
+    &#34;&#34;&#34;
+    Detect which member of parliament is mentioned in a given introduction.
+
+    Params:
+        introuction: An introduction to a speech in the protocols. String.
+        metadata: Year and chamber of the parliamentary proceeding in question. Dict.
+        mp_db: MP database as a Pandas DataFrame.
+    &#34;&#34;&#34;
+
+    year = metadata[&#34;year&#34;]
+    mp_db = mp_db[(mp_db[&#34;start&#34;] &lt;= year) &amp; (mp_db[&#34;end&#34;] &gt;= year)]
+
+    for ix, row in mp_db.iterrows():
+        name = row[&#34;Riksdagsledamot&#34;]
+        last_name = &#34; &#34;.join(name.split()[1:])
+        if last_name in introduction:
+            return row
+
+
+if __name__ == &#39;__main__&#39;:
+
+    mp_db = create_database(&#34;data/mp/1971-1973.csv&#34;)
+    print(mp_db)
+
+    introduction = &#34;Anf. Palme yttrade:&#34;
+
+    metadata = dict(
+        year=1972,
+    )
+
+    mp = detect_mp(introduction, metadata, mp_db)
+
+    print(&#34;MP:&#34;, mp)</code></pre>
 </details>
 </section>
 <section>
@@ -37,6 +89,66 @@ Handles the data on the members of parliament.
 <section>
 </section>
 <section>
+<h2 class="section-title" id="header-functions">Functions</h2>
+<dl>
+<dt id="parliament_data.mp.create_database"><code class="name flex">
+<span>def <span class="ident">create_database</span></span>(<span>csv_path)</span>
+</code></dt>
+<dd>
+<div class="desc"></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def create_database(csv_path):
+
+    df = pd.read_csv(csv_path)
+
+    years = csv_path.split(&#34;/&#34;)[-1].split(&#34;.&#34;)[0].split(&#34;-&#34;)
+
+    start = int(years[0])
+    end = int(years[1])
+
+    df[&#34;start&#34;] = start
+    df[&#34;end&#34;] = end
+
+    return df</code></pre>
+</details>
+</dd>
+<dt id="parliament_data.mp.detect_mp"><code class="name flex">
+<span>def <span class="ident">detect_mp</span></span>(<span>introduction, metadata, mp_db)</span>
+</code></dt>
+<dd>
+<div class="desc"><p>Detect which member of parliament is mentioned in a given introduction.</p>
+<h2 id="params">Params</h2>
+<p>introuction: An introduction to a speech in the protocols. String.
+metadata: Year and chamber of the parliamentary proceeding in question. Dict.
+mp_db: MP database as a Pandas DataFrame.</p></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def detect_mp(introduction, metadata, mp_db):
+    &#34;&#34;&#34;
+    Detect which member of parliament is mentioned in a given introduction.
+
+    Params:
+        introuction: An introduction to a speech in the protocols. String.
+        metadata: Year and chamber of the parliamentary proceeding in question. Dict.
+        mp_db: MP database as a Pandas DataFrame.
+    &#34;&#34;&#34;
+
+    year = metadata[&#34;year&#34;]
+    mp_db = mp_db[(mp_db[&#34;start&#34;] &lt;= year) &amp; (mp_db[&#34;end&#34;] &gt;= year)]
+
+    for ix, row in mp_db.iterrows():
+        name = row[&#34;Riksdagsledamot&#34;]
+        last_name = &#34; &#34;.join(name.split()[1:])
+        if last_name in introduction:
+            return row</code></pre>
+</details>
+</dd>
+</dl>
 </section>
 <section>
 </section>
@@ -50,6 +162,12 @@ Handles the data on the members of parliament.
 <li><h3>Super-module</h3>
 <ul>
 <li><code><a title="parliament_data" href="index.html">parliament_data</a></code></li>
+</ul>
+</li>
+<li><h3><a href="#header-functions">Functions</a></h3>
+<ul class="">
+<li><code><a title="parliament_data.mp.create_database" href="#parliament_data.mp.create_database">create_database</a></code></li>
+<li><code><a title="parliament_data.mp.detect_mp" href="#parliament_data.mp.detect_mp">detect_mp</a></code></li>
 </ul>
 </li>
 </ul>

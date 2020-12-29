@@ -8,6 +8,7 @@ import re
 from os import listdir
 from os.path import isfile, join
 from lxml import etree
+from parliament_data.mp import detect_mp
 
 # Instance detection
 def find_instances_txt(filename, pattern_db):
@@ -90,7 +91,36 @@ def _detect_name(s):
 
     return " ".join(output)
 
-def create_parlaclarin(filename, instance_db):
+def infer_metadata(filename):
+    metadata = dict()
+
+    metadata["filename"] = filename.split("/")[-1].split(".")[0]
+    split = filename.split("/")[-1].split("_")
+
+    # Year
+    for s in split:
+        s = s[:4]
+        if s.isdigit():
+            year = int(s)
+            if year > 1800 and year < 2100:
+                metadata["year"] = year
+
+    # Chamber
+    metadata["chamber"] = None
+    if "_ak_" in filename:
+        metadata["chamber"] = "ak"
+    elif "_fk_" in filename:
+        metadata["chamber"] = "fk"
+
+    # TODO: Month and day
+    metadata["date"] = "2021-01-01"
+
+    # TODO: Day of the week
+    metadata["weekday"] = "Tuesday"
+
+    return metadata
+
+def segment(filename, instance_db):
     """
     Create a Parla-Clarin XML of a file.
 
@@ -101,6 +131,9 @@ def create_parlaclarin(filename, instance_db):
     txt = open(filename).read()
     
     # Get rid of extra line breaks within paragraphs
+    file_metadata = infer_metadata(filename)
+
+    print("Metadata", file_metadata)
     
     filename = filename.split("/")[-1]
     instances = instance_db.loc[instance_db['filename'] == filename]
@@ -110,36 +143,96 @@ def create_parlaclarin(filename, instance_db):
 
     txts = _split_by_indices(txt, indices)
 
+    return txts
+
+# Generate parla clarin header
+def _pc_header(metadata):
+    teiHeader = etree.Element("teiHeader")
+    
+    # fileDesc
+    fileDesc = etree.SubElement(teiHeader, "fileDesc")
+    
+    titleStmt = etree.SubElement(fileDesc, "titleStmt")
+    title = etree.SubElement(titleStmt, "title")
+    title.text = metadata.get("document_title", "N/A")
+    
+    editionStmt = etree.SubElement(fileDesc, "editionStmt")
+    edition = etree.SubElement(editionStmt, "edition")
+    edition.text = metadata.get("edition", "N/A")
+    
+    extent = etree.SubElement(fileDesc, "extent")
+    publicationStmt = etree.SubElement(fileDesc, "publicationStmt")
+    authority = etree.SubElement(publicationStmt, "authority")
+    authority.text = metadata.get("authority", "N/A")
+    
+    sourceDesc = etree.SubElement(fileDesc, "sourceDesc")
+    sourceBibl = etree.SubElement(sourceDesc, "bibl")
+    sourceTitle = etree.SubElement(sourceBibl, "title")
+    sourceTitle.text = metadata.get("document_title", "N/A")
+    
+    # encodingDesc
+    encodingDesc = etree.SubElement(teiHeader, "encodingDesc")
+    editorialDecl = etree.SubElement(encodingDesc, "editorialDecl")
+    correction = etree.SubElement(editorialDecl, "correction")
+    correction_p = etree.SubElement(correction, "p")
+    correction_p.text = metadata.get("correction", "No correction of source texts was performed.")
+
+    # profileDesc
+    #profileDesc = etree.SubElement(teiHeader, "profileDesc")
+    #settingDesc = etree.SubElement(profileDesc, "settingDesc")
+    #particDesc = etree.SubElement(profileDesc, "particDesc")
+    #langUsage = etree.SubElement(profileDesc, "langUsage")
+    
+    return teiHeader
+    
+def create_parlaclarin(txts, metadata):
+    """
+    Create a Parla-Clarin XML from a list of segments.
+
+    Args:
+        txts: a list of lists of strings, corresponds to content blocks and paragraphs, respectively.
+        metadata: Metadata of the parliamentary session
+    """
+
+    filename = metadata["filename"]
     # Create element tree for the file
-    teiCorpus = etree.Element("teiCorpus")
+    teiCorpus = etree.Element("teiCorpus", xmlns="http://www.tei-c.org/ns/1.0")
+    teiHeader = _pc_header(metadata)
+    
+    teiCorpus.append(teiHeader)
     tei = etree.SubElement(teiCorpus, "TEI")
 
-    teiHeader = etree.SubElement(tei, "teiHeader")
-
+    documentHeader = _pc_header(metadata)
+    tei.append(documentHeader)
+    
     text = etree.SubElement(tei, "text")
     front = etree.SubElement(text, "front")
     preface = etree.SubElement(front, "div", type="preface")
     etree.SubElement(preface, "head").text = filename.split(".")[0]
-    etree.SubElement(preface, "docDate", when="2011-01-30").text = "30th January 2011"
+    etree.SubElement(preface, "docDate", when=metadata["date"]).text = metadata.get("date", "2020-01-01")
 
     body = etree.SubElement(text, "body")
     body_div = etree.SubElement(body, "div")
     
-    for speech in txts:
-        speech = re.sub('([a-zäö,])\n ?([a-zäö])', '\\1 \\2', speech)
-        intro = speech[:100]
+    for content_block in txts:
+        #print(content_block)
+        first_speech = content_block[0]
+        first_speech = re.sub('([a-zäö,])\n ?([a-zäö])', '\\1 \\2', first_speech)
+        intro = first_speech[:100]
         name = _detect_name(intro)
 
         if name != "":
             u = etree.SubElement(body_div, "u", who=name)
+        else:
+            u = etree.SubElement(body_div, "u")
+
+        for speech in content_block:
             for speech_line in speech.split("\n"):
                 speech_line = speech_line.strip()
                 if speech_line != "":
                     seg = etree.SubElement(u, "seg")
                     seg.text = speech_line
 
-            intro = speech[:100]
-            name = _detect_name(intro)
 
     return etree.ElementTree(teiCorpus)
 
