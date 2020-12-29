@@ -113,7 +113,7 @@ def infer_metadata(filename):
         metadata["chamber"] = "fk"
 
     # TODO: Month and day
-    metadata["date"] = "1.1.2021"
+    metadata["date"] = "2021-01-01"
 
     # TODO: Day of the week
     metadata["weekday"] = "Tuesday"
@@ -145,6 +145,46 @@ def segment(filename, instance_db):
 
     return txts
 
+# Generate parla clarin header
+def _pc_header(metadata):
+    teiHeader = etree.Element("teiHeader")
+    
+    # fileDesc
+    fileDesc = etree.SubElement(teiHeader, "fileDesc")
+    
+    titleStmt = etree.SubElement(fileDesc, "titleStmt")
+    title = etree.SubElement(titleStmt, "title")
+    title.text = metadata.get("document_title", "N/A")
+    
+    editionStmt = etree.SubElement(fileDesc, "editionStmt")
+    edition = etree.SubElement(editionStmt, "edition")
+    edition.text = metadata.get("edition", "N/A")
+    
+    extent = etree.SubElement(fileDesc, "extent")
+    publicationStmt = etree.SubElement(fileDesc, "publicationStmt")
+    authority = etree.SubElement(publicationStmt, "authority")
+    authority.text = metadata.get("authority", "N/A")
+    
+    sourceDesc = etree.SubElement(fileDesc, "sourceDesc")
+    sourceBibl = etree.SubElement(sourceDesc, "bibl")
+    sourceTitle = etree.SubElement(sourceBibl, "title")
+    sourceTitle.text = metadata.get("document_title", "N/A")
+    
+    # encodingDesc
+    encodingDesc = etree.SubElement(teiHeader, "encodingDesc")
+    editorialDecl = etree.SubElement(encodingDesc, "editorialDecl")
+    correction = etree.SubElement(editorialDecl, "correction")
+    correction_p = etree.SubElement(correction, "p")
+    correction_p.text = metadata.get("correction", "No correction of source texts was performed.")
+
+    # profileDesc
+    #profileDesc = etree.SubElement(teiHeader, "profileDesc")
+    #settingDesc = etree.SubElement(profileDesc, "settingDesc")
+    #particDesc = etree.SubElement(profileDesc, "particDesc")
+    #langUsage = etree.SubElement(profileDesc, "langUsage")
+    
+    return teiHeader
+    
 def create_parlaclarin(txts, metadata):
     """
     Create a Parla-Clarin XML from a list of segments.
@@ -156,16 +196,20 @@ def create_parlaclarin(txts, metadata):
 
     filename = metadata["filename"]
     # Create element tree for the file
-    teiCorpus = etree.Element("teiCorpus")
+    teiCorpus = etree.Element("teiCorpus", xmlns="http://www.tei-c.org/ns/1.0")
+    teiHeader = _pc_header(metadata)
+    
+    teiCorpus.append(teiHeader)
     tei = etree.SubElement(teiCorpus, "TEI")
 
-    teiHeader = etree.SubElement(tei, "teiHeader")
-
+    documentHeader = _pc_header(metadata)
+    tei.append(documentHeader)
+    
     text = etree.SubElement(tei, "text")
     front = etree.SubElement(text, "front")
     preface = etree.SubElement(front, "div", type="preface")
     etree.SubElement(preface, "head").text = filename.split(".")[0]
-    etree.SubElement(preface, "docDate", when=metadata["date"]).text = metadata["date"]
+    etree.SubElement(preface, "docDate", when=metadata["date"]).text = metadata.get("date", "2020-01-01")
 
     body = etree.SubElement(text, "body")
     body_div = etree.SubElement(body, "div")

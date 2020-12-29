@@ -26,7 +26,7 @@ class Test(unittest.TestCase):
         metadata = infer_metadata(xml_path)
         
         parla_clarin = create_parlaclarin(content_blocks, metadata)
-        parla_clarin_str = etree.tostring(parla_clarin, pretty_print=True, encoding="utf-8").decode("utf-8")
+        parla_clarin_str = etree.tostring(parla_clarin, pretty_print=True, encoding="utf-8", xml_declaration=True).decode("utf-8")
         
         parlaclarin_path = "data/parla-clarin/generated-example.xml"
         f = open(parlaclarin_path, "w")
