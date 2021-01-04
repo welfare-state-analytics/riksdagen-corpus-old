@@ -18,7 +18,8 @@ def _create_dirs(outfolder):
 def fetch_files(package, extension="xml", return_files=False):
     filelist = package.list()
     filelist = [f for f in filelist if f.split(".")[-1] == extension]
-
+    filelist = sorted(filelist)
+    
     if not return_files:
         return filelist
     else:
