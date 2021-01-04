@@ -2,7 +2,7 @@ import unittest
 
 from lxml import etree
 from parliament_data.utils import validate_xml_schema
-from parliament_data.download.count_pages import get_blocks
+from parliament_data.download import get_blocks
 from parliament_data.segmentation import create_parlaclarin, infer_metadata
 
 class Test(unittest.TestCase):

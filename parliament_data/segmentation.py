@@ -9,8 +9,7 @@ from os import listdir
 from os.path import isfile, join
 from lxml import etree
 from parliament_data.mp import detect_mp
-from parliament_data.download.count_pages import get_blocks
-from parliament_data.download.generate_sets import fetch_files
+from parliament_data.download import get_blocks, fetch_files
 
 # Instance detection
 def find_instances_txt(filename, pattern_db):

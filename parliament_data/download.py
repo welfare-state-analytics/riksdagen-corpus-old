@@ -2,7 +2,7 @@ import pandas as pd
 import os
 import shutil
 from PyPDF2 import PdfFileReader, PdfFileWriter
-from parliament_data.download.count_pages import login_to_archive
+from lxml import etree
 
 def login_to_archive():
     username = input("Username: ")
