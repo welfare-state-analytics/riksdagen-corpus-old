@@ -23,6 +23,7 @@ jobs:
         pip install bs4
         pip install pandas
         pip install kblab-client
+        pip install PyPDF2
     - name: Test with unittest
       run: |
         python -m unittest test.schemas
