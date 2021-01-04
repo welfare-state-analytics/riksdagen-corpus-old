@@ -19,7 +19,7 @@ The project is implemented as a Python package. The documentation of the package
 ### Digital originals 1990s ->
 
 Original data already in XML format are available from 1993-01-01 and onward. We will parse all available current data. These are located at: 
-https://data.riksdagen.se/data/dokument/
+https://data.riksdagen.se/data/dokument/ and https://www.riksdagen.se/sv/dokument-lagar
 
 Additionally, all parliamentary data can be accessed at https://betalab.kb.se/
 
