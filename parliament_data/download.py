@@ -5,6 +5,9 @@ from PyPDF2 import PdfFileReader, PdfFileWriter
 from lxml import etree
 
 def login_to_archive():
+    """
+    Prompts the user for username and password, and logs in to KBLab. Returns the resulting KBLab client archive.
+    """
     username = input("Username: ")
     password = getpass.getpass()
     print("Password set for user:", username)
@@ -15,7 +18,7 @@ def get_blocks(s):
     """
     Get content and text blocks from an OCR output XML file.
 
-    Params:
+    Args:
         s: OCRd XML as a string.
 
     Returns a list of lists, outer list of content blocks, which contain lists of text blocks.
@@ -96,8 +99,19 @@ def _create_dirs(outfolder):
         os.mkdir(outfolder + "test/")
 
 def fetch_files(package, extension="xml", return_files=False):
+    """
+    Fetch all files with the provided extension from a KBLab package
+
+    Args:
+        package: KBLab client package
+        extension: File extension of the files that you want to fetch. String, or None which outputs all filetypes.
+        return_files: Whether to return filenames or files zipped with filenames. Boolean, default value False returns just filenames.
+
+    Depending on return_files, either outputs a list of filenames, or a list of file and filename tuples (String, String).
+    """
     filelist = package.list()
-    filelist = [f for f in filelist if f.split(".")[-1] == extension]
+    if extension is not None:
+        filelist = [f for f in filelist if f.split(".")[-1] == extension]
     filelist = sorted(filelist)
     
     if not return_files:
