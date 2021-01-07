@@ -9,6 +9,7 @@ from os import listdir
 from os.path import isfile, join
 from lxml import etree
 from parliament_data.mp import detect_mp
+from parliament_data.download import get_blocks, fetch_files
 
 # Instance detection
 def find_instances_txt(filename, pattern_db):
@@ -236,30 +237,21 @@ def create_parlaclarin(txts, metadata):
 
     return etree.ElementTree(teiCorpus)
 
-# Scripts
-def instance_workflow():
-    pattern_path = "./db/segmentation/patterns.json"
-    pattern_db = pd.read_json(pattern_path, orient="records", lines=True)
+def download_and_convert_to_parlaclarin(package_id, archive, str_output=True):
+    package = archive.get(package_id)
+    metadata = infer_metadata(package_id.replace("-", "_"))
+    xml_files = fetch_files(package, return_files=True)
+    content_blocks = []
 
-    folder = "./data/txt/"
-    instance_db = find_instances(folder, pattern_db)
-    print(instance_db)
-
-    instances_path = "./db/segmentation/instances.json"
-    instance_db.to_json(instances_path, orient="records", lines=True)
-
-def parlaclarin_workflow():
-    instances_path = "./db/segmentation/instances.json"
-    instance_db = pd.read_json(instances_path, orient="records", lines=True)
-
-    folder = "./data/txt/"
-    xml_folder = "./data/xml-output/"
-    files = [folder + f for f in listdir(folder) if isfile(join(folder, f))]
-    for filename in files:
-        element_tree = create_parlaclarin(filename, instance_db)
-        filepath = xml_folder + filename.split("/")[-1].replace(".txt", ".xml")
-        print(filepath)
-        element_tree.write(filepath, encoding="utf-8", pretty_print=True)
+    for xml_file, filename in xml_files:
+        page_content_blocks = get_blocks(xml_file)
+        content_blocks = content_blocks + page_content_blocks
+    
+    parla_clarin = create_parlaclarin(content_blocks, metadata)
+    if str_output:
+        return etree.tostring(parla_clarin, pretty_print=True, encoding="utf-8", xml_declaration=True).decode("utf-8")
+    else:
+        return parla_clarin
 
 if __name__ == '__main__':
     instance_workflow()
