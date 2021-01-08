@@ -3,6 +3,9 @@ import os
 import shutil
 from PyPDF2 import PdfFileReader, PdfFileWriter
 from lxml import etree
+import re
+import getpass
+import kblab
 
 def login_to_archive():
     """
@@ -12,16 +15,16 @@ def login_to_archive():
     password = getpass.getpass()
     print("Password set for user:", username)
     
-    return Archive('https://betalab.kb.se', auth=(username, password))
+    return kblab.Archive('https://betalab.kb.se', auth=(username, password))
 
 def get_blocks(s):
     """
-    Get content and text blocks from an OCR output XML file.
+    Get content and text blocks from an OCR output XML file. Concatenate words into sentences.
 
     Args:
         s: OCRd XML as a string.
 
-    Returns a list of lists, outer list of content blocks, which contain lists of text blocks.
+    Returns an lxml elem tree with the structure page > contentBlock > textBlock.
     """
     tree = etree.fromstring(s)
 
@@ -32,8 +35,7 @@ def get_blocks(s):
     
     for content_block in content_blocks:
         content_block_e = etree.SubElement(page_e, "contentBlock")
-        text_blocks = content_block.findall('.//{http://www.loc.gov/standards/alto/ns-v3#}TextBlock')        
-        cblock = []
+        text_blocks = content_block.findall('.//{http://www.loc.gov/standards/alto/ns-v3#}TextBlock')
         for text_block in text_blocks:
             tblock = []
             text_lines = text_block.findall('.//{http://www.loc.gov/standards/alto/ns-v3#}TextLine')
@@ -43,9 +45,10 @@ def get_blocks(s):
                 for string in strings:
                     content = string.attrib["CONTENT"]
                     tblock.append(content)
-                    
+            
             tblock = " ".join(tblock)
-            #cblock.append(tblock)
+            # Remove line breaks when next line starts with a small letter
+            tblock = re.sub('([a-zåäö,])\n ?([a-zåäö])', '\\1 \\2', tblock)
             text_block_e = etree.SubElement(content_block_e, "textBlock")
             text_block_e.text = tblock
     

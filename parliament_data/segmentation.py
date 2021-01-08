@@ -9,31 +9,55 @@ from os import listdir
 from os.path import isfile, join
 from lxml import etree
 from parliament_data.mp import detect_mp
-from parliament_data.download import get_blocks, fetch_files
+from parliament_data.download import get_blocks, fetch_files, login_to_archive
 
 # Instance detection
-def find_instances_xml(rootl, pattern_db):
+def find_instances_xml(root, pattern_db, mp_db=None):
     """
     Find instances of segment start and end patterns in a txt file.
 
     Args:
+        root: root of an lxml tree to be pattern matched.
         pattern_db: Patterns to be matched as a Pandas DataFrame.
-        filename: Path to file to be searched.
     """
-    instance_db = pd.DataFrame(columns = ['filename', 'loc', 'pattern', 'txt']) 
-    txt = open(filename).read()
-
+    instance_db = pd.DataFrame(columns = ['filename', 'pattern', 'txt'])
+    names = []
+    if mp_db is not None:
+        mp_db = mp_db[mp_db['Riksdagsledamot'].notnull()]
+        names = mp_db["Riksdagsledamot"]
+    
+    for name in names:
+        if type(name) != str:
+            print("Name:", name, type(name))
+        
     for row in pattern_db.iterrows():
         row = row[1]
         pattern = row['pattern']
 
-        print("PATTERN:", pattern)
+        #print("PATTERN:", pattern)
         exp = re.compile(pattern)
-        print("EXP", exp)
-        log_fname = filename.split("/")[-1]
-        for m in exp.finditer(txt):
-            d = {"filename": log_fname, "pattern": pattern, "loc": m.start(), "txt":m.group()}
-            instance_db = instance_db.append(d, ignore_index=True)
+        #print("EXP", exp)
+            
+        for content_block in root:
+            content_txt = '\n'.join(content_block.itertext())
+            
+            if not _is_metadata_block(content_txt):
+                for m in exp.finditer(content_txt):
+                    print("MATCH")
+                    matched_txt = m.group()
+                    person = None
+                    for name in names:
+                        if name in matched_txt:
+                            person = name
+                    
+                    # Only match last name if full name is not found
+                    if person == None:
+                        for name in names:
+                            if name.split()[-1] in matched_txt:
+                                person = name
+                    
+                    d = {"filename": "nan", "pattern": pattern, "txt": matched_txt, "person": person }
+                    instance_db = instance_db.append(d, ignore_index=True)
 
     return instance_db
 
@@ -199,7 +223,7 @@ def _pc_header(metadata):
     
     return teiHeader
     
-def create_parlaclarin(txts, metadata):
+def create_parlaclarin(root, metadata, instance_db=pd.DataFrame(columns= ["filename", "pattern", "txt", "person"])):
     """
     Create a Parla-Clarin XML from a list of segments.
 
@@ -228,52 +252,67 @@ def create_parlaclarin(txts, metadata):
     body = etree.SubElement(text, "body")
     body_div = etree.SubElement(body, "div")
     
-    for content_block in txts:
-        content_txt = '\n'.join(content_block.itertext())
-        is_data = not _is_metadata_block(content_txt)
-        
-        print("Content block is data:", is_data)
-        if not is_data:
-            print("Non-data:", content_txt)
-        else:
-            #print(content_block)
-            first_speech = content_block[0].text
-            print(first_speech)
-            # Remove line breaks when next line starts with a small letter
-            first_speech = re.sub('([a-zäö,])\n ?([a-zäö])', '\\1 \\2', first_speech)
-            intro = first_speech[:100]
-            name = _detect_name(intro)
-
-            if name != "":
-                u = etree.SubElement(body_div, "u", who=name)
+    current_speaker = None
+    u = etree.SubElement(body_div, "u", who="UNK")
+    
+    for page in root:
+        for content_block in page:
+            print("content_block", content_block)
+            content_txt = '\n'.join(content_block.itertext())
+            is_data = not _is_metadata_block(content_txt)
+            
+            if not is_data:
+                print("Non-data:", content_txt)
             else:
-                u = etree.SubElement(body_div, "u")
+                for textblock in content_block:
+                    paragraph = ''.join(textblock.itertext())
+                    if paragraph != "":
 
-            for speech in content_block:
-                for speech_line in speech.text.split("\n"):
-                    speech_line = speech_line.strip()
-                    if speech_line != "":
+                        paragraph = textblock.text
+                        for ix, match_row in instance_db.iterrows():
+                            matchable_txt = match_row["txt"]
+                            print(matchable_txt, type(matchable_txt))
+                            if matchable_txt in paragraph:
+                                current_speaker = match_row["person"]
+                                if current_speaker is not None:
+                                    u = etree.SubElement(body_div, "u", who=current_speaker)
+                                else:
+                                    u = etree.SubElement(body_div, "u", who="UNK")
                         seg = etree.SubElement(u, "seg")
-                        seg.text = speech_line
+                        seg.text = paragraph
 
     return etree.ElementTree(teiCorpus)
 
-def download_and_convert_to_parlaclarin(package_id, archive, str_output=True):
+def download_and_convert_to_parlaclarin(package_id, archive, instance_db, str_output=True):
     package = archive.get(package_id)
     metadata = infer_metadata(package_id.replace("-", "_"))
     xml_files = fetch_files(package, return_files=True)
-    content_blocks = []
+    
+    protocol = etree.Element("protocol")
 
     for xml_file, filename in xml_files:
         page_content_blocks = get_blocks(xml_file)
-        content_blocks = content_blocks + page_content_blocks
+        protocol.append(page_content_blocks)
     
-    parla_clarin = create_parlaclarin(content_blocks, metadata)
+    parla_clarin = create_parlaclarin(protocol, metadata, instance_db)
     if str_output:
         return etree.tostring(parla_clarin, pretty_print=True, encoding="utf-8", xml_declaration=True).decode("utf-8")
     else:
         return parla_clarin
 
-if __name__ == '__main__':
-    instance_workflow()
-    parlaclarin_workflow()
+def instance_workflow(package_id, archive, pattern_db):
+    package = archive.get(package_id)
+    metadata = infer_metadata(package_id.replace("-", "_"))
+    xml_files = fetch_files(package, return_files=True)
+    
+    mp_db = pd.read_csv("db/mp/1921-2022.csv")
+    instance_dbs = []
+
+    for xml_file, filename in xml_files:
+        page_content_blocks = get_blocks(xml_file)
+        instance_db = find_instances_xml(page_content_blocks, pattern_db, mp_db)
+        instance_dbs.append(instance_db)
+    
+    instance_db = pd.concat(instance_dbs)
+    instance_db["filename"] = package_id
+    return instance_db
