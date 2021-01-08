@@ -28,9 +28,10 @@ def get_blocks(s):
     ns_dict = {"space": "http://www.loc.gov/standards/alto/ns-v3#"}
     content_blocks = tree.findall('.//{http://www.loc.gov/standards/alto/ns-v3#}ComposedBlock')
 
-    d = []
+    page_e = etree.Element("page")
     
     for content_block in content_blocks:
+        content_block_e = etree.SubElement(page_e, "contentBlock")
         text_blocks = content_block.findall('.//{http://www.loc.gov/standards/alto/ns-v3#}TextBlock')        
         cblock = []
         for text_block in text_blocks:
@@ -44,11 +45,11 @@ def get_blocks(s):
                     tblock.append(content)
                     
             tblock = " ".join(tblock)
-            cblock.append(tblock)
-                
-        d.append(cblock)
-                
-    return d
+            #cblock.append(tblock)
+            text_block_e = etree.SubElement(content_block_e, "textBlock")
+            text_block_e.text = tblock
+    
+    return page_e
 
 
 def count_pages(start, end):

@@ -3,11 +3,13 @@ Handles the data on the members of parliament.
 """
 
 import pandas as pd
+import os
 
 def create_database(path):
     extension = path.split(".")[-1]
 
     if extension == "csv":
+        print("Read:", path)
         df = pd.read_csv(path, skip_blank_lines=True)
         nulls = df.isnull().values.all(axis=0)
         nulls = zip(df.columns, nulls)
@@ -17,7 +19,6 @@ def create_database(path):
                 del df[column_name]
         
         new_columns = list(df.columns)
-        print(new_columns)
         for column_ix, column_name in enumerate(df.columns):
             if "." in column_name:
                 new_name = column_name.split(".")[0]
@@ -26,8 +27,9 @@ def create_database(path):
         df.columns = new_columns
         
     elif extension == "txt":
+        print("Read:", path)
         f = open(path)
-        #columns = ["Ledamöt"]
+        columns = ["Riksdagsledamot", "Parti", "Valkrets"]
         
         rows = []
         lan = None
@@ -42,39 +44,65 @@ def create_database(path):
                 else:
                     row = line.split(",")
                     row = [x.strip() for x in row]
-                    row = [lan] + row
                     
-                    rows.append(row)
-                    
-        for row in rows:
-            print(row)
-        df = None
-        
-        
+                    datapoint = []
+                    # Add name
+                    datapoint.append(row[0])
+                    # Add party
+                    datapoint.append(row[-1])
+                    # Add 'län' / region
+                    datapoint.append(lan)
+                    rows.append(datapoint)
+
+        df = pd.DataFrame(rows, columns = columns)
     else:
-        print("File type not supported.")
+        print("File type not supported.", path)
         return None
-        
-    years = path.split("/")[-1].split(".")[0].replace("–­­", "-").split("-")
     
-    chamber = "enkammarsriksdagen"
+    # Harmonize name to be Riksdagsledamot
+    new_columns = list(df.columns)
+    for column_ix, column_name in enumerate(df.columns):
+        if column_name in ["Ledamot", "Riksdagsledamot"]:
+            new_columns[column_ix] = "Riksdagsledamot"
+    df.columns = new_columns
+    
+    # Drop unnecessary columns
+    retain = ["Riksdagsledamot", "Parti", "Valkrets", "Yrke"]
+    for column_name in df.columns:
+        if column_name not in retain:
+            del df[column_name]
+    
+    # Chamber
+    chamber = "Enkammarriksdagen"
     potential_chamber = path.split("/")[-2]
     if potential_chamber == "ak":
-        chamber = "andra kammaren"
+        chamber = "Andra kammaren"
     elif potential_chamber == "fk":
-        chamber = "första kammaren"
-    
+        chamber = "Första kammaren"
     df["chamber"] = chamber
     
-    if len(years) == 2:
-        start = int(years[0])
-        end = int(years[1])
-    elif len(years) == 1:
-        df["start"] = int(years[0])
-        df["end"] = int(years[0])
+    # Year in office
+    year_str = path.split("/")[-1].split(".")[0].replace("–­­", "-")
+    if len(year_str) == 9:
+        df["start"] = int(year_str[:4])
+        df["end"] = int(year_str[-4:])
+    elif len(year_str) == 4:
+        df["start"] = int(year_str)
+        df["end"] = int(year_str)
     
     return df
 
+def create_full_database(dirs):
+    for d in dirs:
+        for path in os.listdir(d):
+            full_path = os.path.join(d, path)
+            mp_db = create_database(full_path)
+            if mp_db is not None:
+                mp_dbs.append(mp_db)
+    mp_db = pd.concat(mp_dbs)
+    
+    return mp_db.sort_values(by=["start", "chamber", "Riksdagsledamot"], ignore_index=True)
+    
 def detect_mp(introduction, metadata, mp_db):
     """
     Detect which member of parliament is mentioned in a given introduction.
@@ -110,8 +138,10 @@ if __name__ == '__main__':
     print("MP:", mp)
     '''
     
-    #mp_db = create_database("data/mp/ak/1945-1948.txt")
-    mp_db = create_database("data/mp/1971-1973.csv")
+    mp_dbs = []
+    dirs = ["data/mp/", "data/mp/fk/", "data/mp/ak/"]
+
+    mp_dbs = create_full_database(dirs)
+    print(mp_dbs)
     
-    print(mp_db)
-    
+    mp_dbs.to_csv("db/mp/1921-2022.csv")

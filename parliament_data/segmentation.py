@@ -12,7 +12,7 @@ from parliament_data.mp import detect_mp
 from parliament_data.download import get_blocks, fetch_files
 
 # Instance detection
-def find_instances_txt(filename, pattern_db):
+def find_instances_xml(rootl, pattern_db):
     """
     Find instances of segment start and end patterns in a txt file.
 
@@ -59,6 +59,7 @@ def find_instances(folder, pattern_db):
         pattern_db: Patterns to be matched as a Pandas DataFrame.
         folder: Folder of files to be searched.
     """
+    # TODO: port to XML
     files = [folder + f for f in listdir(folder) if isfile(join(folder, f))]
 
     instance_dbs = []
@@ -91,6 +92,18 @@ def _detect_name(s):
             output.append(word)
 
     return " ".join(output)
+    
+def _is_metadata_block(txt0):
+    txt1 = re.sub("[^a-zA-ZåäöÅÄÖ ]+", "", txt0)
+    len0 = len(txt0)
+    len1 = len(txt1)
+    
+    # Crude heuristic. Skip if
+    # a) over 15% is non alphabetic characters
+    # and b) length is under 150 characters
+    
+    # TODO: replace with ML algorithm
+    return float(len1) / float(len0) < 0.85 and len0 < 150
 
 def infer_metadata(filename):
     metadata = dict()
@@ -216,24 +229,32 @@ def create_parlaclarin(txts, metadata):
     body_div = etree.SubElement(body, "div")
     
     for content_block in txts:
-        #print(content_block)
-        first_speech = content_block[0]
-        first_speech = re.sub('([a-zäö,])\n ?([a-zäö])', '\\1 \\2', first_speech)
-        intro = first_speech[:100]
-        name = _detect_name(intro)
-
-        if name != "":
-            u = etree.SubElement(body_div, "u", who=name)
+        content_txt = '\n'.join(content_block.itertext())
+        is_data = not _is_metadata_block(content_txt)
+        
+        print("Content block is data:", is_data)
+        if not is_data:
+            print("Non-data:", content_txt)
         else:
-            u = etree.SubElement(body_div, "u")
+            #print(content_block)
+            first_speech = content_block[0].text
+            print(first_speech)
+            # Remove line breaks when next line starts with a small letter
+            first_speech = re.sub('([a-zäö,])\n ?([a-zäö])', '\\1 \\2', first_speech)
+            intro = first_speech[:100]
+            name = _detect_name(intro)
 
-        for speech in content_block:
-            for speech_line in speech.split("\n"):
-                speech_line = speech_line.strip()
-                if speech_line != "":
-                    seg = etree.SubElement(u, "seg")
-                    seg.text = speech_line
+            if name != "":
+                u = etree.SubElement(body_div, "u", who=name)
+            else:
+                u = etree.SubElement(body_div, "u")
 
+            for speech in content_block:
+                for speech_line in speech.text.split("\n"):
+                    speech_line = speech_line.strip()
+                    if speech_line != "":
+                        seg = etree.SubElement(u, "seg")
+                        seg.text = speech_line
 
     return etree.ElementTree(teiCorpus)
 
