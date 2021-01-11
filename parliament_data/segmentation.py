@@ -10,9 +10,10 @@ from os.path import isfile, join
 from lxml import etree
 from parliament_data.mp import detect_mp
 from parliament_data.download import get_blocks, fetch_files, login_to_archive
+import hashlib
 
 # Instance detection
-def find_instances_xml(root, pattern_db, mp_db=None):
+def find_instances_xml(root, pattern_db, protocol_id, mp_db=None):
     """
     Find instances of segment start and end patterns in a txt file.
 
@@ -25,10 +26,6 @@ def find_instances_xml(root, pattern_db, mp_db=None):
     if mp_db is not None:
         mp_db = mp_db[mp_db['Riksdagsledamot'].notnull()]
         names = mp_db["Riksdagsledamot"]
-    
-    for name in names:
-        if type(name) != str:
-            print("Name:", name, type(name))
         
     for row in pattern_db.iterrows():
         row = row[1]
@@ -43,20 +40,30 @@ def find_instances_xml(root, pattern_db, mp_db=None):
             
             if not _is_metadata_block(content_txt):
                 for m in exp.finditer(content_txt):
-                    print("MATCH")
                     matched_txt = m.group()
                     person = None
                     for name in names:
                         if name in matched_txt:
                             person = name
                     
+                    if person == None:
+                        for name in names:
+                            if name.upper() in matched_txt:
+                                person = name
+                            
+                    
                     # Only match last name if full name is not found
                     if person == None:
                         for name in names:
-                            if name.split()[-1] in matched_txt:
+                            last_name = name.split()[-1]
+                            if last_name in matched_txt:
+                                person = name
+                            elif last_name.upper() in matched_txt:
                                 person = name
                     
-                    d = {"filename": "nan", "pattern": pattern, "txt": matched_txt, "person": person }
+                    # Calculate digest for distringuishing patterns without ugly characters
+                    pattern_digest = hashlib.md5(pattern.encode("utf-8")).hexdigest()[:16]
+                    d = {"filename": protocol_id, "pattern": pattern_digest, "txt": matched_txt, "person": person }
                     instance_db = instance_db.append(d, ignore_index=True)
 
     return instance_db
@@ -73,30 +80,6 @@ def find_instances_html(filename, pattern_db):
     columns = ['filename', 'loc', 'pattern', 'txt']
     instance_db = pd.DataFrame(columns = columns) 
     return instance_db
-
-# Segmentation
-def find_instances(folder, pattern_db):
-    """
-    Find instances of segmentation patterns in all files in a folder.
-
-    Args:
-        pattern_db: Patterns to be matched as a Pandas DataFrame.
-        folder: Folder of files to be searched.
-    """
-    # TODO: port to XML
-    files = [folder + f for f in listdir(folder) if isfile(join(folder, f))]
-
-    instance_dbs = []
-    for filename in files:
-        extension = filename.split(".")[-1]
-        if extension == "txt":
-            instance_db = find_instances_txt(filename, pattern_db)
-            instance_dbs.append(instance_db)
-        elif extension == "html":
-            instance_db = find_instances_html(filename, pattern_db)
-            instance_dbs.append(instance_db)
-
-    return pd.concat(instance_dbs, sort=False)
 
 # Parla Clarin generation
 def _split_by_indices(s, indices):
@@ -233,6 +216,7 @@ def create_parlaclarin(root, metadata, instance_db=pd.DataFrame(columns= ["filen
     """
 
     filename = metadata["filename"]
+    print("Parla clarin generation, package id", filename)
     # Create element tree for the file
     teiCorpus = etree.Element("teiCorpus", xmlns="http://www.tei-c.org/ns/1.0")
     teiHeader = _pc_header(metadata)
@@ -257,12 +241,13 @@ def create_parlaclarin(root, metadata, instance_db=pd.DataFrame(columns= ["filen
     
     for page in root:
         for content_block in page:
-            print("content_block", content_block)
+            #print("content_block", content_block)
             content_txt = '\n'.join(content_block.itertext())
             is_data = not _is_metadata_block(content_txt)
             
             if not is_data:
-                print("Non-data:", content_txt)
+                pass
+                #print("Non-data:", content_txt)
             else:
                 for textblock in content_block:
                     paragraph = ''.join(textblock.itertext())
@@ -271,9 +256,11 @@ def create_parlaclarin(root, metadata, instance_db=pd.DataFrame(columns= ["filen
                         paragraph = textblock.text
                         for ix, match_row in instance_db.iterrows():
                             matchable_txt = match_row["txt"]
-                            print(matchable_txt, type(matchable_txt))
+                            #print(matchable_txt, type(matchable_txt))
                             if matchable_txt in paragraph:
                                 current_speaker = match_row["person"]
+                                if type(current_speaker) != str:
+                                    current_speaker = None
                                 if current_speaker is not None:
                                     u = etree.SubElement(body_div, "u", who=current_speaker)
                                 else:
@@ -300,19 +287,27 @@ def download_and_convert_to_parlaclarin(package_id, archive, instance_db, str_ou
     else:
         return parla_clarin
 
-def instance_workflow(package_id, archive, pattern_db):
+def instance_workflow(package_id, archive, pattern_db, mp_db):
     package = archive.get(package_id)
     metadata = infer_metadata(package_id.replace("-", "_"))
-    xml_files = fetch_files(package, return_files=True)
+    year = metadata["year"]
+    pattern_db = pattern_db[pattern_db["start"] <= year]
+    pattern_db = pattern_db[pattern_db["end"] >= year]
     
-    mp_db = pd.read_csv("db/mp/1921-2022.csv")
+    print("Instance detenction, package:", package_id)
+    
+    mp_db = mp_db[mp_db["start"] <= year]
+    mp_db = mp_db[mp_db["end"] >= year]
+    
+    xml_files = fetch_files(package, return_files=True)
     instance_dbs = []
 
     for xml_file, filename in xml_files:
         page_content_blocks = get_blocks(xml_file)
-        instance_db = find_instances_xml(page_content_blocks, pattern_db, mp_db)
+        instance_db = find_instances_xml(page_content_blocks, pattern_db, package_id, mp_db=mp_db)
         instance_dbs.append(instance_db)
     
     instance_db = pd.concat(instance_dbs)
     instance_db["filename"] = package_id
     return instance_db
+    
