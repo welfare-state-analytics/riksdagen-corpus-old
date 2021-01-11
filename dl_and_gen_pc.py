@@ -37,7 +37,7 @@ if __name__ == "__main__":
     file_db = pd.read_csv("db/protocols/files.csv")
     
     start_year = 1921
-    end_year = 1922
+    end_year = 1950
     
     file_db = file_db[file_db["year"] >= start_year]
     file_db = file_db[file_db["year"] <= end_year]
@@ -50,7 +50,7 @@ if __name__ == "__main__":
     pattern_db = pd.read_json("db/segmentation/patterns.json", orient="records", lines=True)
     archive = login_to_archive()
     
-    if False:
+    if True:
         instance_db = instances(package_ids, archive, pattern_db, mp_db)
     else:
         instance_db = None
