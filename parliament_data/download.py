@@ -53,15 +53,17 @@ def get_blocks(fname, package, package_id, load=True, save=True):
             text_lines = text_block.findall('.//{http://www.loc.gov/standards/alto/ns-v3#}TextLine')
             
             for text_line in text_lines:
+                #tblock.append("\n")
                 strings = text_line.findall('.//{http://www.loc.gov/standards/alto/ns-v3#}String')
                 for string in strings:
                     content = string.attrib["CONTENT"]
                     tblock.append(content)
+                
             
             tblock = " ".join(tblock)
             # Remove line breaks when next line starts with a small letter
-            #tblock = re.sub('([a-zåäö,])\n ?([a-zåäö])', '\\1 \\2', tblock)
-            #tblock = re.sub('([a-zåäö,])- ([a-zåäö])', '\\1\\2', tblock)
+            tblock = re.sub('([a-zåäö,]) ?\n ?([a-zåäö])', '\\1 \\2', tblock)
+            tblock = re.sub('([a-zåäö,])- ([a-zåäö])', '\\1\\2', tblock)
             text_block_e = etree.SubElement(content_block_e, "textBlock")
             text_block_e.text = tblock
     
@@ -72,7 +74,6 @@ def get_blocks(fname, package, package_id, load=True, save=True):
         f.close()
         
     return root
-
 
 def count_pages(start, end):
     years = range(start, end)

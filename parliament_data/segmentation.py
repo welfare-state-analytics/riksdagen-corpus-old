@@ -10,6 +10,7 @@ from os.path import isfile, join
 from lxml import etree
 from parliament_data.mp import detect_mp
 from parliament_data.download import get_blocks, fetch_files, login_to_archive
+from parliament_data.curation import get_curated_blocks
 import hashlib
 import copy
 
@@ -251,7 +252,7 @@ def create_tei(root, metadata, instance_db=pd.DataFrame(columns= ["filename", "p
     
     return tei
 
-def gen_parlaclarin_corpus(protocol_db, archive, instance_db, corpus_metadata=dict(), str_output=True):
+def gen_parlaclarin_corpus(protocol_db, archive, instance_db, curation_instance_db=None, corpus_metadata=dict(), str_output=True):
     teis = []
     
     print("Pages in total", protocol_db["pages"].sum())
@@ -266,7 +267,10 @@ def gen_parlaclarin_corpus(protocol_db, archive, instance_db, corpus_metadata=di
         
         protocol = etree.Element("protocol")
         for filename in xml_files:
-            page_content_blocks = get_blocks(filename, package, package_id)
+            if curation_instance_db is None:
+                page_content_blocks = get_blocks(filename, package, package_id)
+            else:
+                page_content_blocks = get_curated_blocks(filename, package, package_id, curation_instance_db)
             protocol.append(page_content_blocks)
         
         current_instances = instance_db[instance_db["filename"] == package_id]

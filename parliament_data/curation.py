@@ -42,10 +42,12 @@ def find_instances(root, pattern_db):
         exp = re.compile(pattern)
         
         for content_block in root.findall(".//contentBlock"):
-            content_txt = '\n'.join(content_block.itertext())
+            #content_txt = '\n'.join(content_block.itertext())
             
-            if not replace_directly:
-                for m in exp.finditer(content_txt):
+            for textBlock in content_block:
+                paragraph = textBlock.text
+                for m in exp.finditer(paragraph):
+                
                     matched_txt = m.group()
                     replacement = exp.sub(row['replacement'], matched_txt)
                     
@@ -53,11 +55,29 @@ def find_instances(root, pattern_db):
                     pattern_digest = hashlib.md5(pattern.encode("utf-8")).hexdigest()[:16]
                     d = {"pattern": pattern_digest, "txt": matched_txt, "replacement": replacement }
                     data.append(d)
-                    
+                
     return pd.DataFrame(data=data, columns=["pattern", "txt", "replacement"])
 
-def get_curated_blocks():
-    pass
+def apply_curations(root, instance_db):
+    instances = list(instance_db.iterrows())
+
+    for textBlock in root.findall(".//textBlock"):
+        paragraph = textBlock.text
+        
+        for ix, row in instances:
+            txt = row["txt"]
+            if txt in paragraph:
+                replacement = row["replacement"]
+                paragraph = paragraph.replace(txt, replacement)
+        
+        textBlock.text = paragraph
+    return root
+    
+def get_curated_blocks(fname, package, package_id, instance_db):
+    instance_db = instance_db[instance_db["filename"] == package_id]
+    blocks = get_blocks(fname, package, package_id)
+    blocks = apply_curations(blocks, instance_db)
+    return blocks
     
 def curation_workflow(package_id, archive, pattern_db):
     print("Curating package", package_id)
