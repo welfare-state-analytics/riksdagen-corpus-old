@@ -3,7 +3,7 @@ import unittest
 from lxml import etree
 from parliament_data.utils import validate_xml_schema
 from parliament_data.download import get_blocks
-from parliament_data.segmentation import create_parlaclarin, infer_metadata
+from parliament_data.segmentation import create_tei, create_parlaclarin, infer_metadata
 
 class Test(unittest.TestCase):
 
@@ -25,7 +25,8 @@ class Test(unittest.TestCase):
         xml_f.close()
         metadata = infer_metadata(xml_path)
         
-        parla_clarin = create_parlaclarin(content_blocks, metadata)
+        tei = create_tei(content_blocks, metadata)
+        parla_clarin = create_parlaclarin(tei, metadata)
         parla_clarin_str = etree.tostring(parla_clarin, pretty_print=True, encoding="utf-8", xml_declaration=True).decode("utf-8")
         
         parlaclarin_path = "data/parla-clarin/generated-example.xml"
