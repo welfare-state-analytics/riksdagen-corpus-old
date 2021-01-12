@@ -17,7 +17,7 @@ def login_to_archive():
     
     return kblab.Archive('https://betalab.kb.se', auth=(username, password))
 
-def get_blocks(s):
+def get_blocks(fname, package, package_id, load=True, save=True):
     """
     Get content and text blocks from an OCR output XML file. Concatenate words into sentences.
 
@@ -26,12 +26,24 @@ def get_blocks(s):
 
     Returns an lxml elem tree with the structure page > contentBlock > textBlock.
     """
+    #tree = etree.fromstring(s)
+    
+    folder = "data/raw/" + package_id + "/"
+    if load:
+        if not os.path.exists(folder):
+            os.mkdir(folder)
+        fnames = os.listdir(folder)
+        if fname in fnames:
+            s = open(folder + fname).read()
+            return etree.fromstring(s.encode("utf-8"))
+    
+    s = package.get_raw(fname).read()
     tree = etree.fromstring(s)
-
     ns_dict = {"space": "http://www.loc.gov/standards/alto/ns-v3#"}
     content_blocks = tree.findall('.//{http://www.loc.gov/standards/alto/ns-v3#}ComposedBlock')
-
-    page_e = etree.Element("page")
+    
+    root = etree.Element("root")
+    page_e = etree.SubElement(root, "page")
     
     for content_block in content_blocks:
         content_block_e = etree.SubElement(page_e, "contentBlock")
@@ -48,11 +60,18 @@ def get_blocks(s):
             
             tblock = " ".join(tblock)
             # Remove line breaks when next line starts with a small letter
-            tblock = re.sub('([a-zåäö,])\n ?([a-zåäö])', '\\1 \\2', tblock)
+            #tblock = re.sub('([a-zåäö,])\n ?([a-zåäö])', '\\1 \\2', tblock)
+            #tblock = re.sub('([a-zåäö,])- ([a-zåäö])', '\\1\\2', tblock)
             text_block_e = etree.SubElement(content_block_e, "textBlock")
             text_block_e.text = tblock
     
-    return page_e
+    if save:
+        s = etree.tostring(root, pretty_print=True, encoding="utf-8", xml_declaration=True).decode("utf-8")
+        f = open(folder + fname, "w")
+        f.write(s)
+        f.close()
+        
+    return root
 
 
 def count_pages(start, end):
@@ -101,8 +120,9 @@ def _create_dirs(outfolder):
 
     if not os.path.exists(outfolder + "test/"):
         os.mkdir(outfolder + "test/")
+    
 
-def fetch_files(package, extension="xml", return_files=False):
+def fetch_files(package, extension="xml"):
     """
     Fetch all files with the provided extension from a KBLab package
 
@@ -118,11 +138,7 @@ def fetch_files(package, extension="xml", return_files=False):
         filelist = [f for f in filelist if f.split(".")[-1] == extension]
     filelist = sorted(filelist)
     
-    if not return_files:
-        return filelist
-    else:
-        files = [package.get_raw(f).read() for f in filelist]
-        return zip(files, filelist)
+    return filelist
 
 def generate_sets(decade, interval=10, set_size=2, txt_dir=None):
     # Read pages dataframe, filter relevant data and sort
