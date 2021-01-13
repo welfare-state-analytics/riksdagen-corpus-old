@@ -35,6 +35,8 @@ import pandas as pd
 import re
 from os import listdir
 from os.path import isfile, join
+from parliament_data.download import get_blocks, fetch_files, login_to_archive
+import hashlib
 
 def _langmod_loss(sentence):
     return 0.0
@@ -49,7 +51,7 @@ def improvement(sentence, regexp):
 
     return loss0, loss1
 
-def find_instances(pattern_db, folder):
+def find_instances(root, pattern_db):
     &#34;&#34;&#34;
     Find instances of curation patterns in all files in a folder.
 
@@ -57,36 +59,71 @@ def find_instances(pattern_db, folder):
         pattern_db: Patterns to be matched as a Pandas DataFrame.
         folder: Folder of files to be searched.
     &#34;&#34;&#34;
-    instance_db = pd.DataFrame(columns = [&#39;pattern&#39;, &#39;loc&#39;, &#39;txt&#39;]) 
-    files = [folder + f for f in listdir(folder) if isfile(join(folder, f))]
+    columns=[&#34;pattern&#34;, &#34;txt&#34;, &#34;replacement&#34;]
+    data = []
+    
+    for row in pattern_db.iterrows():
+        row = row[1]
+        pattern = row[&#39;pattern&#39;]
+        replace_directly = row[&#39;replace_directly&#39;]
+        
+        #print(&#34;PATTERN:&#34;, pattern)
+        exp = re.compile(pattern)
+        
+        for content_block in root.findall(&#34;.//contentBlock&#34;):
+            #content_txt = &#39;\n&#39;.join(content_block.itertext())
+            
+            for textBlock in content_block:
+                paragraph = textBlock.text
+                for m in exp.finditer(paragraph):
+                
+                    matched_txt = m.group()
+                    replacement = exp.sub(row[&#39;replacement&#39;], matched_txt)
+                    
+                    # Calculate digest for distringuishing patterns without ugly characters
+                    pattern_digest = hashlib.md5(pattern.encode(&#34;utf-8&#34;)).hexdigest()[:16]
+                    d = {&#34;pattern&#34;: pattern_digest, &#34;txt&#34;: matched_txt, &#34;replacement&#34;: replacement }
+                    data.append(d)
+                
+    return pd.DataFrame(data=data, columns=[&#34;pattern&#34;, &#34;txt&#34;, &#34;replacement&#34;])
 
-    for filename in files:
-        txt = open(filename).read()
+def apply_curations(root, instance_db):
+    instances = list(instance_db.iterrows())
 
-        for row in pattern_db.iterrows():
-            row = row[1]
-            pattern = row[&#39;pattern&#39;]
+    for textBlock in root.findall(&#34;.//textBlock&#34;):
+        paragraph = textBlock.text
+        
+        for ix, row in instances:
+            txt = row[&#34;txt&#34;]
+            if txt in paragraph:
+                replacement = row[&#34;replacement&#34;]
+                paragraph = paragraph.replace(txt, replacement)
+        
+        textBlock.text = paragraph
+    return root
+    
+def get_curated_blocks(fname, package, package_id, instance_db):
+    instance_db = instance_db[instance_db[&#34;filename&#34;] == package_id]
+    blocks = get_blocks(fname, package, package_id)
+    blocks = apply_curations(blocks, instance_db)
+    return blocks
+    
+def curation_workflow(package_id, archive, pattern_db):
+    print(&#34;Curating package&#34;, package_id)
+    package = archive.get(package_id)
+    
+    xml_files = fetch_files(package)
+    instance_dbs = []
 
-            print(&#34;PATTERN:&#34;, pattern)
-            exp = re.compile(pattern)
-            print(&#34;EXP&#34;, exp)
-            log_fname = filename.split(&#34;/&#34;)[-1]
-            for m in exp.finditer(txt):
-                d = {&#34;filename&#34;: log_fname, &#34;pattern&#34;: pattern, &#34;loc&#34;: m.start(), &#34;txt&#34;:m.group()}
-                instance_db = instance_db.append(d, ignore_index=True)
-
+    for filename in xml_files:
+        page_content_blocks = get_blocks(filename, package, package_id)
+        instance_db = find_instances(page_content_blocks, pattern_db)
+        instance_dbs.append(instance_db)
+    
+    instance_db = pd.concat(instance_dbs)
+    instance_db[&#34;filename&#34;] = package_id
     return instance_db
-
-if __name__ == &#39;__main__&#39;:
-    pattern_path = &#34;./db/curation/patterns.json&#34;
-    pattern_db = pd.read_json(pattern_path, orient=&#34;records&#34;, lines=True)
-    folder = &#34;./data/txt/&#34;
-
-    instance_db = find_instances(pattern_db, folder)
-    print(instance_db)
-
-    instances_path = &#34;./db/curation/instances.json&#34;
-    instance_db.to_json(instances_path, orient=&#34;records&#34;, lines=True)</code></pre>
+    </code></pre>
 </details>
 </section>
 <section>
@@ -96,8 +133,59 @@ if __name__ == &#39;__main__&#39;:
 <section>
 <h2 class="section-title" id="header-functions">Functions</h2>
 <dl>
+<dt id="parliament_data.curation.apply_curations"><code class="name flex">
+<span>def <span class="ident">apply_curations</span></span>(<span>root, instance_db)</span>
+</code></dt>
+<dd>
+<div class="desc"></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def apply_curations(root, instance_db):
+    instances = list(instance_db.iterrows())
+
+    for textBlock in root.findall(&#34;.//textBlock&#34;):
+        paragraph = textBlock.text
+        
+        for ix, row in instances:
+            txt = row[&#34;txt&#34;]
+            if txt in paragraph:
+                replacement = row[&#34;replacement&#34;]
+                paragraph = paragraph.replace(txt, replacement)
+        
+        textBlock.text = paragraph
+    return root</code></pre>
+</details>
+</dd>
+<dt id="parliament_data.curation.curation_workflow"><code class="name flex">
+<span>def <span class="ident">curation_workflow</span></span>(<span>package_id, archive, pattern_db)</span>
+</code></dt>
+<dd>
+<div class="desc"></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def curation_workflow(package_id, archive, pattern_db):
+    print(&#34;Curating package&#34;, package_id)
+    package = archive.get(package_id)
+    
+    xml_files = fetch_files(package)
+    instance_dbs = []
+
+    for filename in xml_files:
+        page_content_blocks = get_blocks(filename, package, package_id)
+        instance_db = find_instances(page_content_blocks, pattern_db)
+        instance_dbs.append(instance_db)
+    
+    instance_db = pd.concat(instance_dbs)
+    instance_db[&#34;filename&#34;] = package_id
+    return instance_db</code></pre>
+</details>
+</dd>
 <dt id="parliament_data.curation.find_instances"><code class="name flex">
-<span>def <span class="ident">find_instances</span></span>(<span>pattern_db, folder)</span>
+<span>def <span class="ident">find_instances</span></span>(<span>root, pattern_db)</span>
 </code></dt>
 <dd>
 <div class="desc"><p>Find instances of curation patterns in all files in a folder.</p>
@@ -112,7 +200,7 @@ if __name__ == &#39;__main__&#39;:
 <summary>
 <span>Expand source code</span>
 </summary>
-<pre><code class="python">def find_instances(pattern_db, folder):
+<pre><code class="python">def find_instances(root, pattern_db):
     &#34;&#34;&#34;
     Find instances of curation patterns in all files in a folder.
 
@@ -120,25 +208,49 @@ if __name__ == &#39;__main__&#39;:
         pattern_db: Patterns to be matched as a Pandas DataFrame.
         folder: Folder of files to be searched.
     &#34;&#34;&#34;
-    instance_db = pd.DataFrame(columns = [&#39;pattern&#39;, &#39;loc&#39;, &#39;txt&#39;]) 
-    files = [folder + f for f in listdir(folder) if isfile(join(folder, f))]
-
-    for filename in files:
-        txt = open(filename).read()
-
-        for row in pattern_db.iterrows():
-            row = row[1]
-            pattern = row[&#39;pattern&#39;]
-
-            print(&#34;PATTERN:&#34;, pattern)
-            exp = re.compile(pattern)
-            print(&#34;EXP&#34;, exp)
-            log_fname = filename.split(&#34;/&#34;)[-1]
-            for m in exp.finditer(txt):
-                d = {&#34;filename&#34;: log_fname, &#34;pattern&#34;: pattern, &#34;loc&#34;: m.start(), &#34;txt&#34;:m.group()}
-                instance_db = instance_db.append(d, ignore_index=True)
-
-    return instance_db</code></pre>
+    columns=[&#34;pattern&#34;, &#34;txt&#34;, &#34;replacement&#34;]
+    data = []
+    
+    for row in pattern_db.iterrows():
+        row = row[1]
+        pattern = row[&#39;pattern&#39;]
+        replace_directly = row[&#39;replace_directly&#39;]
+        
+        #print(&#34;PATTERN:&#34;, pattern)
+        exp = re.compile(pattern)
+        
+        for content_block in root.findall(&#34;.//contentBlock&#34;):
+            #content_txt = &#39;\n&#39;.join(content_block.itertext())
+            
+            for textBlock in content_block:
+                paragraph = textBlock.text
+                for m in exp.finditer(paragraph):
+                
+                    matched_txt = m.group()
+                    replacement = exp.sub(row[&#39;replacement&#39;], matched_txt)
+                    
+                    # Calculate digest for distringuishing patterns without ugly characters
+                    pattern_digest = hashlib.md5(pattern.encode(&#34;utf-8&#34;)).hexdigest()[:16]
+                    d = {&#34;pattern&#34;: pattern_digest, &#34;txt&#34;: matched_txt, &#34;replacement&#34;: replacement }
+                    data.append(d)
+                
+    return pd.DataFrame(data=data, columns=[&#34;pattern&#34;, &#34;txt&#34;, &#34;replacement&#34;])</code></pre>
+</details>
+</dd>
+<dt id="parliament_data.curation.get_curated_blocks"><code class="name flex">
+<span>def <span class="ident">get_curated_blocks</span></span>(<span>fname, package, package_id, instance_db)</span>
+</code></dt>
+<dd>
+<div class="desc"></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def get_curated_blocks(fname, package, package_id, instance_db):
+    instance_db = instance_db[instance_db[&#34;filename&#34;] == package_id]
+    blocks = get_blocks(fname, package, package_id)
+    blocks = apply_curations(blocks, instance_db)
+    return blocks</code></pre>
 </details>
 </dd>
 <dt id="parliament_data.curation.improvement"><code class="name flex">
@@ -179,7 +291,10 @@ if __name__ == &#39;__main__&#39;:
 </li>
 <li><h3><a href="#header-functions">Functions</a></h3>
 <ul class="">
+<li><code><a title="parliament_data.curation.apply_curations" href="#parliament_data.curation.apply_curations">apply_curations</a></code></li>
+<li><code><a title="parliament_data.curation.curation_workflow" href="#parliament_data.curation.curation_workflow">curation_workflow</a></code></li>
 <li><code><a title="parliament_data.curation.find_instances" href="#parliament_data.curation.find_instances">find_instances</a></code></li>
+<li><code><a title="parliament_data.curation.get_curated_blocks" href="#parliament_data.curation.get_curated_blocks">get_curated_blocks</a></code></li>
 <li><code><a title="parliament_data.curation.improvement" href="#parliament_data.curation.improvement">improvement</a></code></li>
 </ul>
 </li>

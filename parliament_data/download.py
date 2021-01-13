@@ -22,7 +22,11 @@ def get_blocks(fname, package, package_id, load=True, save=True):
     Get content and text blocks from an OCR output XML file. Concatenate words into sentences.
 
     Args:
-        s: OCRd XML as a string.
+        fname: Name of the file
+        package: KBLab client package element
+        package_id: ID of the package
+        load: Load the file from disk if available
+        save: Save the downloaded file to disk
 
     Returns an lxml elem tree with the structure page > contentBlock > textBlock.
     """

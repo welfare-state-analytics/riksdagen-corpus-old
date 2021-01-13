@@ -32,22 +32,106 @@ Handles the data on the members of parliament.
 &#34;&#34;&#34;
 
 import pandas as pd
+import os
 
-def create_database(csv_path):
+def create_database(path):
+    extension = path.split(&#34;.&#34;)[-1]
 
-    df = pd.read_csv(csv_path)
+    if extension == &#34;csv&#34;:
+        print(&#34;Read:&#34;, path)
+        df = pd.read_csv(path, skip_blank_lines=True)
+        nulls = df.isnull().values.all(axis=0)
+        nulls = zip(df.columns, nulls)
+        
+        for column_name, null in nulls:
+            if null:
+                del df[column_name]
+        
+        new_columns = list(df.columns)
+        for column_ix, column_name in enumerate(df.columns):
+            if &#34;.&#34; in column_name:
+                new_name = column_name.split(&#34;.&#34;)[0]
+                new_columns[column_ix] = new_name
+        
+        df.columns = new_columns
+        
+    elif extension == &#34;txt&#34;:
+        print(&#34;Read:&#34;, path)
+        f = open(path)
+        columns = [&#34;Riksdagsledamot&#34;, &#34;Parti&#34;, &#34;Valkrets&#34;]
+        
+        rows = []
+        lan = None
+        for line in f:
+            line = line.replace(&#34;\n&#34;, &#34;&#34;)
+            if len(line) &gt; 2:
+                indented = line[:4] == &#34;    &#34;
+                
+                # Non-indented lines are titles, which correspond to &#39;län&#39; / region
+                if not indented:
+                    lan = line
+                else:
+                    row = line.split(&#34;,&#34;)
+                    row = [x.strip() for x in row]
+                    
+                    datapoint = []
+                    # Add name
+                    datapoint.append(row[0])
+                    # Add party
+                    datapoint.append(row[-1])
+                    # Add &#39;län&#39; / region
+                    datapoint.append(lan)
+                    rows.append(datapoint)
 
-    years = csv_path.split(&#34;/&#34;)[-1].split(&#34;.&#34;)[0].split(&#34;-&#34;)
-
-    start = int(years[0])
-    end = int(years[1])
-
-    df[&#34;start&#34;] = start
-    df[&#34;end&#34;] = end
-
+        df = pd.DataFrame(rows, columns = columns)
+    else:
+        print(&#34;File type not supported.&#34;, path)
+        return None
+    
+    # Harmonize name to be Riksdagsledamot
+    new_columns = list(df.columns)
+    for column_ix, column_name in enumerate(df.columns):
+        if column_name in [&#34;Ledamot&#34;, &#34;Riksdagsledamot&#34;]:
+            new_columns[column_ix] = &#34;Riksdagsledamot&#34;
+    df.columns = new_columns
+    
+    # Drop unnecessary columns
+    retain = [&#34;Riksdagsledamot&#34;, &#34;Parti&#34;, &#34;Valkrets&#34;, &#34;Yrke&#34;]
+    for column_name in df.columns:
+        if column_name not in retain:
+            del df[column_name]
+    
+    # Chamber
+    chamber = &#34;Enkammarriksdagen&#34;
+    potential_chamber = path.split(&#34;/&#34;)[-2]
+    if potential_chamber == &#34;ak&#34;:
+        chamber = &#34;Andra kammaren&#34;
+    elif potential_chamber == &#34;fk&#34;:
+        chamber = &#34;Första kammaren&#34;
+    df[&#34;chamber&#34;] = chamber
+    
+    # Year in office
+    year_str = path.split(&#34;/&#34;)[-1].split(&#34;.&#34;)[0].replace(&#34;–­­&#34;, &#34;-&#34;)
+    if len(year_str) == 9:
+        df[&#34;start&#34;] = int(year_str[:4])
+        df[&#34;end&#34;] = int(year_str[-4:])
+    elif len(year_str) == 4:
+        df[&#34;start&#34;] = int(year_str)
+        df[&#34;end&#34;] = int(year_str)
+    
     return df
 
-
+def create_full_database(dirs):
+    for d in dirs:
+        for path in os.listdir(d):
+            full_path = os.path.join(d, path)
+            mp_db = create_database(full_path)
+            if mp_db is not None:
+                mp_dbs.append(mp_db)
+    mp_db = pd.concat(mp_dbs)
+    
+    return mp_db.sort_values(by=[&#34;start&#34;, &#34;chamber&#34;, &#34;Riksdagsledamot&#34;], ignore_index=True)
+    
 def detect_mp(introduction, metadata, mp_db):
     &#34;&#34;&#34;
     Detect which member of parliament is mentioned in a given introduction.
@@ -68,6 +152,7 @@ def detect_mp(introduction, metadata, mp_db):
             return row
 
 if __name__ == &#39;__main__&#39;:
+    &#39;&#39;&#39;
     mp_db = create_database(&#34;data/mp/1971-1973.csv&#34;)
     print(mp_db)
 
@@ -79,7 +164,16 @@ if __name__ == &#39;__main__&#39;:
 
     mp = detect_mp(introduction, metadata, mp_db)
 
-    print(&#34;MP:&#34;, mp)</code></pre>
+    print(&#34;MP:&#34;, mp)
+    &#39;&#39;&#39;
+    
+    mp_dbs = []
+    dirs = [&#34;data/mp/&#34;, &#34;data/mp/fk/&#34;, &#34;data/mp/ak/&#34;]
+
+    mp_dbs = create_full_database(dirs)
+    print(mp_dbs)
+    
+    mp_dbs.to_csv(&#34;db/mp/1921-2022.csv&#34;)</code></pre>
 </details>
 </section>
 <section>
@@ -90,7 +184,7 @@ if __name__ == &#39;__main__&#39;:
 <h2 class="section-title" id="header-functions">Functions</h2>
 <dl>
 <dt id="parliament_data.mp.create_database"><code class="name flex">
-<span>def <span class="ident">create_database</span></span>(<span>csv_path)</span>
+<span>def <span class="ident">create_database</span></span>(<span>path)</span>
 </code></dt>
 <dd>
 <div class="desc"></div>
@@ -98,19 +192,113 @@ if __name__ == &#39;__main__&#39;:
 <summary>
 <span>Expand source code</span>
 </summary>
-<pre><code class="python">def create_database(csv_path):
+<pre><code class="python">def create_database(path):
+    extension = path.split(&#34;.&#34;)[-1]
 
-    df = pd.read_csv(csv_path)
+    if extension == &#34;csv&#34;:
+        print(&#34;Read:&#34;, path)
+        df = pd.read_csv(path, skip_blank_lines=True)
+        nulls = df.isnull().values.all(axis=0)
+        nulls = zip(df.columns, nulls)
+        
+        for column_name, null in nulls:
+            if null:
+                del df[column_name]
+        
+        new_columns = list(df.columns)
+        for column_ix, column_name in enumerate(df.columns):
+            if &#34;.&#34; in column_name:
+                new_name = column_name.split(&#34;.&#34;)[0]
+                new_columns[column_ix] = new_name
+        
+        df.columns = new_columns
+        
+    elif extension == &#34;txt&#34;:
+        print(&#34;Read:&#34;, path)
+        f = open(path)
+        columns = [&#34;Riksdagsledamot&#34;, &#34;Parti&#34;, &#34;Valkrets&#34;]
+        
+        rows = []
+        lan = None
+        for line in f:
+            line = line.replace(&#34;\n&#34;, &#34;&#34;)
+            if len(line) &gt; 2:
+                indented = line[:4] == &#34;    &#34;
+                
+                # Non-indented lines are titles, which correspond to &#39;län&#39; / region
+                if not indented:
+                    lan = line
+                else:
+                    row = line.split(&#34;,&#34;)
+                    row = [x.strip() for x in row]
+                    
+                    datapoint = []
+                    # Add name
+                    datapoint.append(row[0])
+                    # Add party
+                    datapoint.append(row[-1])
+                    # Add &#39;län&#39; / region
+                    datapoint.append(lan)
+                    rows.append(datapoint)
 
-    years = csv_path.split(&#34;/&#34;)[-1].split(&#34;.&#34;)[0].split(&#34;-&#34;)
-
-    start = int(years[0])
-    end = int(years[1])
-
-    df[&#34;start&#34;] = start
-    df[&#34;end&#34;] = end
-
+        df = pd.DataFrame(rows, columns = columns)
+    else:
+        print(&#34;File type not supported.&#34;, path)
+        return None
+    
+    # Harmonize name to be Riksdagsledamot
+    new_columns = list(df.columns)
+    for column_ix, column_name in enumerate(df.columns):
+        if column_name in [&#34;Ledamot&#34;, &#34;Riksdagsledamot&#34;]:
+            new_columns[column_ix] = &#34;Riksdagsledamot&#34;
+    df.columns = new_columns
+    
+    # Drop unnecessary columns
+    retain = [&#34;Riksdagsledamot&#34;, &#34;Parti&#34;, &#34;Valkrets&#34;, &#34;Yrke&#34;]
+    for column_name in df.columns:
+        if column_name not in retain:
+            del df[column_name]
+    
+    # Chamber
+    chamber = &#34;Enkammarriksdagen&#34;
+    potential_chamber = path.split(&#34;/&#34;)[-2]
+    if potential_chamber == &#34;ak&#34;:
+        chamber = &#34;Andra kammaren&#34;
+    elif potential_chamber == &#34;fk&#34;:
+        chamber = &#34;Första kammaren&#34;
+    df[&#34;chamber&#34;] = chamber
+    
+    # Year in office
+    year_str = path.split(&#34;/&#34;)[-1].split(&#34;.&#34;)[0].replace(&#34;–­­&#34;, &#34;-&#34;)
+    if len(year_str) == 9:
+        df[&#34;start&#34;] = int(year_str[:4])
+        df[&#34;end&#34;] = int(year_str[-4:])
+    elif len(year_str) == 4:
+        df[&#34;start&#34;] = int(year_str)
+        df[&#34;end&#34;] = int(year_str)
+    
     return df</code></pre>
+</details>
+</dd>
+<dt id="parliament_data.mp.create_full_database"><code class="name flex">
+<span>def <span class="ident">create_full_database</span></span>(<span>dirs)</span>
+</code></dt>
+<dd>
+<div class="desc"></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def create_full_database(dirs):
+    for d in dirs:
+        for path in os.listdir(d):
+            full_path = os.path.join(d, path)
+            mp_db = create_database(full_path)
+            if mp_db is not None:
+                mp_dbs.append(mp_db)
+    mp_db = pd.concat(mp_dbs)
+    
+    return mp_db.sort_values(by=[&#34;start&#34;, &#34;chamber&#34;, &#34;Riksdagsledamot&#34;], ignore_index=True)</code></pre>
 </details>
 </dd>
 <dt id="parliament_data.mp.detect_mp"><code class="name flex">
@@ -165,6 +353,7 @@ mp_db: MP database as a Pandas DataFrame.</p></div>
 <li><h3><a href="#header-functions">Functions</a></h3>
 <ul class="">
 <li><code><a title="parliament_data.mp.create_database" href="#parliament_data.mp.create_database">create_database</a></code></li>
+<li><code><a title="parliament_data.mp.create_full_database" href="#parliament_data.mp.create_full_database">create_full_database</a></code></li>
 <li><code><a title="parliament_data.mp.detect_mp" href="#parliament_data.mp.detect_mp">detect_mp</a></code></li>
 </ul>
 </li>

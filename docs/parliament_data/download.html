@@ -30,50 +30,82 @@
 import os
 import shutil
 from PyPDF2 import PdfFileReader, PdfFileWriter
+from lxml import etree
+import re
+import getpass
+import kblab
 
 def login_to_archive():
+    &#34;&#34;&#34;
+    Prompts the user for username and password, and logs in to KBLab. Returns the resulting KBLab client archive.
+    &#34;&#34;&#34;
     username = input(&#34;Username: &#34;)
     password = getpass.getpass()
     print(&#34;Password set for user:&#34;, username)
     
-    return Archive(&#39;https://betalab.kb.se&#39;, auth=(username, password))
+    return kblab.Archive(&#39;https://betalab.kb.se&#39;, auth=(username, password))
 
-def get_blocks(s):
+def get_blocks(fname, package, package_id, load=True, save=True):
     &#34;&#34;&#34;
-    Get content and text blocks from an OCR output XML file.
+    Get content and text blocks from an OCR output XML file. Concatenate words into sentences.
 
-    Params:
-        s: OCRd XML as a string.
+    Args:
+        fname: Name of the file
+        package: KBLab client package element
+        package_id: ID of the package
+        load: Load the file from disk if available
+        save: Save the downloaded file to disk
 
-    Returns a list of lists, outer list of content blocks, which contain lists of text blocks.
+    Returns an lxml elem tree with the structure page &gt; contentBlock &gt; textBlock.
     &#34;&#34;&#34;
+    #tree = etree.fromstring(s)
+    
+    folder = &#34;data/raw/&#34; + package_id + &#34;/&#34;
+    if load:
+        if not os.path.exists(folder):
+            os.mkdir(folder)
+        fnames = os.listdir(folder)
+        if fname in fnames:
+            s = open(folder + fname).read()
+            return etree.fromstring(s.encode(&#34;utf-8&#34;))
+    
+    s = package.get_raw(fname).read()
     tree = etree.fromstring(s)
-
     ns_dict = {&#34;space&#34;: &#34;http://www.loc.gov/standards/alto/ns-v3#&#34;}
     content_blocks = tree.findall(&#39;.//{http://www.loc.gov/standards/alto/ns-v3#}ComposedBlock&#39;)
-
-    d = []
+    
+    root = etree.Element(&#34;root&#34;)
+    page_e = etree.SubElement(root, &#34;page&#34;)
     
     for content_block in content_blocks:
-        text_blocks = content_block.findall(&#39;.//{http://www.loc.gov/standards/alto/ns-v3#}TextBlock&#39;)        
-        cblock = []
+        content_block_e = etree.SubElement(page_e, &#34;contentBlock&#34;)
+        text_blocks = content_block.findall(&#39;.//{http://www.loc.gov/standards/alto/ns-v3#}TextBlock&#39;)
         for text_block in text_blocks:
             tblock = []
             text_lines = text_block.findall(&#39;.//{http://www.loc.gov/standards/alto/ns-v3#}TextLine&#39;)
             
             for text_line in text_lines:
+                #tblock.append(&#34;\n&#34;)
                 strings = text_line.findall(&#39;.//{http://www.loc.gov/standards/alto/ns-v3#}String&#39;)
                 for string in strings:
                     content = string.attrib[&#34;CONTENT&#34;]
                     tblock.append(content)
-                    
+                
+            
             tblock = &#34; &#34;.join(tblock)
-            cblock.append(tblock)
-                
-        d.append(cblock)
-                
-    return d
-
+            # Remove line breaks when next line starts with a small letter
+            tblock = re.sub(&#39;([a-zåäö,]) ?\n ?([a-zåäö])&#39;, &#39;\\1 \\2&#39;, tblock)
+            tblock = re.sub(&#39;([a-zåäö,])- ([a-zåäö])&#39;, &#39;\\1\\2&#39;, tblock)
+            text_block_e = etree.SubElement(content_block_e, &#34;textBlock&#34;)
+            text_block_e.text = tblock
+    
+    if save:
+        s = etree.tostring(root, pretty_print=True, encoding=&#34;utf-8&#34;, xml_declaration=True).decode(&#34;utf-8&#34;)
+        f = open(folder + fname, &#34;w&#34;)
+        f.write(s)
+        f.close()
+        
+    return root
 
 def count_pages(start, end):
     years = range(start, end)
@@ -121,17 +153,25 @@ def _create_dirs(outfolder):
 
     if not os.path.exists(outfolder + &#34;test/&#34;):
         os.mkdir(outfolder + &#34;test/&#34;)
+    
 
-def fetch_files(package, extension=&#34;xml&#34;, return_files=False):
+def fetch_files(package, extension=&#34;xml&#34;):
+    &#34;&#34;&#34;
+    Fetch all files with the provided extension from a KBLab package
+
+    Args:
+        package: KBLab client package
+        extension: File extension of the files that you want to fetch. String, or None which outputs all filetypes.
+        return_files: Whether to return filenames or files zipped with filenames. Boolean, default value False returns just filenames.
+
+    Depending on return_files, either outputs a list of filenames, or a list of file and filename tuples (String, String).
+    &#34;&#34;&#34;
     filelist = package.list()
-    filelist = [f for f in filelist if f.split(&#34;.&#34;)[-1] == extension]
+    if extension is not None:
+        filelist = [f for f in filelist if f.split(&#34;.&#34;)[-1] == extension]
     filelist = sorted(filelist)
     
-    if not return_files:
-        return filelist
-    else:
-        files = [package.get_raw(f).read() for f in filelist]
-        return zip(files, filelist)
+    return filelist
 
 def generate_sets(decade, interval=10, set_size=2, txt_dir=None):
     # Read pages dataframe, filter relevant data and sort
@@ -287,24 +327,41 @@ if __name__ == &#34;__main__&#34;:
 </details>
 </dd>
 <dt id="parliament_data.download.fetch_files"><code class="name flex">
-<span>def <span class="ident">fetch_files</span></span>(<span>package, extension='xml', return_files=False)</span>
+<span>def <span class="ident">fetch_files</span></span>(<span>package, extension='xml')</span>
 </code></dt>
 <dd>
-<div class="desc"></div>
+<div class="desc"><p>Fetch all files with the provided extension from a KBLab package</p>
+<h2 id="args">Args</h2>
+<dl>
+<dt><strong><code>package</code></strong></dt>
+<dd>KBLab client package</dd>
+<dt><strong><code>extension</code></strong></dt>
+<dd>File extension of the files that you want to fetch. String, or None which outputs all filetypes.</dd>
+<dt><strong><code>return_files</code></strong></dt>
+<dd>Whether to return filenames or files zipped with filenames. Boolean, default value False returns just filenames.</dd>
+</dl>
+<p>Depending on return_files, either outputs a list of filenames, or a list of file and filename tuples (String, String).</p></div>
 <details class="source">
 <summary>
 <span>Expand source code</span>
 </summary>
-<pre><code class="python">def fetch_files(package, extension=&#34;xml&#34;, return_files=False):
+<pre><code class="python">def fetch_files(package, extension=&#34;xml&#34;):
+    &#34;&#34;&#34;
+    Fetch all files with the provided extension from a KBLab package
+
+    Args:
+        package: KBLab client package
+        extension: File extension of the files that you want to fetch. String, or None which outputs all filetypes.
+        return_files: Whether to return filenames or files zipped with filenames. Boolean, default value False returns just filenames.
+
+    Depending on return_files, either outputs a list of filenames, or a list of file and filename tuples (String, String).
+    &#34;&#34;&#34;
     filelist = package.list()
-    filelist = [f for f in filelist if f.split(&#34;.&#34;)[-1] == extension]
+    if extension is not None:
+        filelist = [f for f in filelist if f.split(&#34;.&#34;)[-1] == extension]
     filelist = sorted(filelist)
     
-    if not return_files:
-        return filelist
-    else:
-        files = [package.get_raw(f).read() for f in filelist]
-        return zip(files, filelist)</code></pre>
+    return filelist</code></pre>
 </details>
 </dd>
 <dt id="parliament_data.download.generate_sets"><code class="name flex">
@@ -386,69 +443,109 @@ if __name__ == &#34;__main__&#34;:
 </details>
 </dd>
 <dt id="parliament_data.download.get_blocks"><code class="name flex">
-<span>def <span class="ident">get_blocks</span></span>(<span>s)</span>
+<span>def <span class="ident">get_blocks</span></span>(<span>fname, package, package_id, load=True, save=True)</span>
 </code></dt>
 <dd>
-<div class="desc"><p>Get content and text blocks from an OCR output XML file.</p>
-<h2 id="params">Params</h2>
-<p>s: OCRd XML as a string.</p>
-<p>Returns a list of lists, outer list of content blocks, which contain lists of text blocks.</p></div>
+<div class="desc"><p>Get content and text blocks from an OCR output XML file. Concatenate words into sentences.</p>
+<h2 id="args">Args</h2>
+<dl>
+<dt><strong><code>fname</code></strong></dt>
+<dd>Name of the file</dd>
+<dt><strong><code>package</code></strong></dt>
+<dd>KBLab client package element</dd>
+<dt><strong><code>package_id</code></strong></dt>
+<dd>ID of the package</dd>
+<dt><strong><code>load</code></strong></dt>
+<dd>Load the file from disk if available</dd>
+<dt><strong><code>save</code></strong></dt>
+<dd>Save the downloaded file to disk</dd>
+</dl>
+<p>Returns an lxml elem tree with the structure page &gt; contentBlock &gt; textBlock.</p></div>
 <details class="source">
 <summary>
 <span>Expand source code</span>
 </summary>
-<pre><code class="python">def get_blocks(s):
+<pre><code class="python">def get_blocks(fname, package, package_id, load=True, save=True):
     &#34;&#34;&#34;
-    Get content and text blocks from an OCR output XML file.
+    Get content and text blocks from an OCR output XML file. Concatenate words into sentences.
 
-    Params:
-        s: OCRd XML as a string.
+    Args:
+        fname: Name of the file
+        package: KBLab client package element
+        package_id: ID of the package
+        load: Load the file from disk if available
+        save: Save the downloaded file to disk
 
-    Returns a list of lists, outer list of content blocks, which contain lists of text blocks.
+    Returns an lxml elem tree with the structure page &gt; contentBlock &gt; textBlock.
     &#34;&#34;&#34;
+    #tree = etree.fromstring(s)
+    
+    folder = &#34;data/raw/&#34; + package_id + &#34;/&#34;
+    if load:
+        if not os.path.exists(folder):
+            os.mkdir(folder)
+        fnames = os.listdir(folder)
+        if fname in fnames:
+            s = open(folder + fname).read()
+            return etree.fromstring(s.encode(&#34;utf-8&#34;))
+    
+    s = package.get_raw(fname).read()
     tree = etree.fromstring(s)
-
     ns_dict = {&#34;space&#34;: &#34;http://www.loc.gov/standards/alto/ns-v3#&#34;}
     content_blocks = tree.findall(&#39;.//{http://www.loc.gov/standards/alto/ns-v3#}ComposedBlock&#39;)
-
-    d = []
+    
+    root = etree.Element(&#34;root&#34;)
+    page_e = etree.SubElement(root, &#34;page&#34;)
     
     for content_block in content_blocks:
-        text_blocks = content_block.findall(&#39;.//{http://www.loc.gov/standards/alto/ns-v3#}TextBlock&#39;)        
-        cblock = []
+        content_block_e = etree.SubElement(page_e, &#34;contentBlock&#34;)
+        text_blocks = content_block.findall(&#39;.//{http://www.loc.gov/standards/alto/ns-v3#}TextBlock&#39;)
         for text_block in text_blocks:
             tblock = []
             text_lines = text_block.findall(&#39;.//{http://www.loc.gov/standards/alto/ns-v3#}TextLine&#39;)
             
             for text_line in text_lines:
+                #tblock.append(&#34;\n&#34;)
                 strings = text_line.findall(&#39;.//{http://www.loc.gov/standards/alto/ns-v3#}String&#39;)
                 for string in strings:
                     content = string.attrib[&#34;CONTENT&#34;]
                     tblock.append(content)
-                    
+                
+            
             tblock = &#34; &#34;.join(tblock)
-            cblock.append(tblock)
-                
-        d.append(cblock)
-                
-    return d</code></pre>
+            # Remove line breaks when next line starts with a small letter
+            tblock = re.sub(&#39;([a-zåäö,]) ?\n ?([a-zåäö])&#39;, &#39;\\1 \\2&#39;, tblock)
+            tblock = re.sub(&#39;([a-zåäö,])- ([a-zåäö])&#39;, &#39;\\1\\2&#39;, tblock)
+            text_block_e = etree.SubElement(content_block_e, &#34;textBlock&#34;)
+            text_block_e.text = tblock
+    
+    if save:
+        s = etree.tostring(root, pretty_print=True, encoding=&#34;utf-8&#34;, xml_declaration=True).decode(&#34;utf-8&#34;)
+        f = open(folder + fname, &#34;w&#34;)
+        f.write(s)
+        f.close()
+        
+    return root</code></pre>
 </details>
 </dd>
 <dt id="parliament_data.download.login_to_archive"><code class="name flex">
 <span>def <span class="ident">login_to_archive</span></span>(<span>)</span>
 </code></dt>
 <dd>
-<div class="desc"></div>
+<div class="desc"><p>Prompts the user for username and password, and logs in to KBLab. Returns the resulting KBLab client archive.</p></div>
 <details class="source">
 <summary>
 <span>Expand source code</span>
 </summary>
 <pre><code class="python">def login_to_archive():
+    &#34;&#34;&#34;
+    Prompts the user for username and password, and logs in to KBLab. Returns the resulting KBLab client archive.
+    &#34;&#34;&#34;
     username = input(&#34;Username: &#34;)
     password = getpass.getpass()
     print(&#34;Password set for user:&#34;, username)
     
-    return Archive(&#39;https://betalab.kb.se&#39;, auth=(username, password))</code></pre>
+    return kblab.Archive(&#39;https://betalab.kb.se&#39;, auth=(username, password))</code></pre>
 </details>
 </dd>
 <dt id="parliament_data.download.randomize_ordinals"><code class="name flex">
