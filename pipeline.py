@@ -2,7 +2,7 @@ from parliament_data.download import login_to_archive
 from parliament_data.segmentation import instance_workflow, infer_metadata, gen_parlaclarin_corpus
 import pandas as pd
 import os
-from parliament_data.curation import curation_workflow
+from parliament_data.curation import curation_workflow, get_curated_blocks
 
 def curations(file_db, archive, pattern_db):
     file_db_years = sorted(list(set(file_db["year"])))
@@ -69,6 +69,8 @@ def parlaclarin(file_db, archive, instance_db=None):
         package_ids = sorted(package_ids)
         
         all_current_instances = []
+        
+        all_current_curations = []
         for package_id in package_ids:
             if instance_db is None:
                 year_folder = "db/segmentation/instances/"+ str(corpus_year) + "/"
@@ -76,16 +78,23 @@ def parlaclarin(file_db, archive, instance_db=None):
             else:
                 current_instances = instance_db[instance_db["filename"] == package_id]
             all_current_instances.append(current_instances)
+            year_folder = "db/curation/instances/"+ str(corpus_year) + "/"
+            
+            current_curations = pd.read_csv(year_folder + package_id + ".csv")
+            all_current_curations.append(current_curations)
+            
         
         current_instances = pd.concat(all_current_instances)
+        current_curations = pd.concat(all_current_curations)
         print(current_instances)
+        print(current_curations)
         
         corpus_metadata = dict(
             document_title="Riksdagens protocols " + str(corpus_year),
             authority="National Library of Sweden and the WESTAC project",
             correction="Some data curation was done. It is documented in db/curation/instances"
         )
-        parla_clarin_str = gen_parlaclarin_corpus(year_db, archive, current_instances, corpus_metadata=corpus_metadata)
+        parla_clarin_str = gen_parlaclarin_corpus(year_db, archive, current_instances, corpus_metadata=corpus_metadata, curation_instance_db=current_curations)
         
         parlaclarin_path = "data/parla-clarin/" + "corpus" + str(corpus_year) + ".xml"
         f = open(parlaclarin_path, "w")
@@ -97,7 +106,7 @@ if __name__ == "__main__":
     file_db = pd.read_csv("db/protocols/files.csv")
     
     start_year = 1951
-    end_year = 1951
+    end_year = 1975
     
     file_db = file_db[file_db["year"] >= start_year]
     file_db = file_db[file_db["year"] <= end_year]
@@ -106,7 +115,7 @@ if __name__ == "__main__":
     pattern_db = pd.read_json("db/segmentation/patterns.json", orient="records", lines=True)
     archive = login_to_archive()
     
-    if True:
+    if False:
         curation_pattern_db = pd.read_json("db/curation/patterns.json", orient="records", lines=True)
         curation_instance_db = curations(file_db, archive, curation_pattern_db)
     else:
