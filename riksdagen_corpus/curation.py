@@ -6,7 +6,7 @@ import pandas as pd
 import re
 from os import listdir
 from os.path import isfile, join
-from parliament_data.download import get_blocks, fetch_files, login_to_archive
+from riksdagen_corpus.download import get_blocks, fetch_files, login_to_archive
 import hashlib
 
 def _langmod_loss(sentence):

@@ -1,9 +1,9 @@
 import unittest
 
 from lxml import etree
-from parliament_data.utils import validate_xml_schema
-from parliament_data.download import get_blocks
-from parliament_data.segmentation import create_tei, create_parlaclarin, infer_metadata
+from riksdagen_corpus.utils import validate_xml_schema
+from riksdagen_corpus.download import get_blocks
+from riksdagen_corpus.segmentation import create_tei, create_parlaclarin, infer_metadata
 
 class Test(unittest.TestCase):
 

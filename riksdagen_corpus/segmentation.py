@@ -8,9 +8,9 @@ import re
 from os import listdir
 from os.path import isfile, join
 from lxml import etree
-from parliament_data.mp import detect_mp
-from parliament_data.download import get_blocks, fetch_files, login_to_archive
-from parliament_data.curation import get_curated_blocks
+from riksdagen_corpus.mp import detect_mp
+from riksdagen_corpus.download import get_blocks, fetch_files, login_to_archive
+from riksdagen_corpus.curation import get_curated_blocks
 import hashlib
 import copy
 
