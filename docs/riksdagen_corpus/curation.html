@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
 <meta name="generator" content="pdoc 0.9.2" />
-<title>parliament_data.curation API documentation</title>
+<title>riksdagen_corpus.curation API documentation</title>
 <meta name="description" content="Provides functions for the curation of the parliamentary data." />
 <link rel="preload stylesheet" as="style" href="https://cdnjs.cloudflare.com/ajax/libs/10up-sanitize.css/11.0.1/sanitize.min.css" integrity="sha256-PK9q560IAAa6WVRRh76LtCaI8pjTJ2z11v0miyNNjrs=" crossorigin>
 <link rel="preload stylesheet" as="style" href="https://cdnjs.cloudflare.com/ajax/libs/10up-sanitize.css/11.0.1/typography.min.css" integrity="sha256-7l/o7C8jubJiy74VsKTidCy1yBkRtiUGbVkYBylBqUg=" crossorigin>
@@ -19,7 +19,7 @@
 <main>
 <article id="content">
 <header>
-<h1 class="title">Module <code>parliament_data.curation</code></h1>
+<h1 class="title">Module <code>riksdagen_corpus.curation</code></h1>
 </header>
 <section id="section-intro">
 <p>Provides functions for the curation of the parliamentary data.</p>
@@ -35,7 +35,7 @@ import pandas as pd
 import re
 from os import listdir
 from os.path import isfile, join
-from parliament_data.download import get_blocks, fetch_files, login_to_archive
+from riksdagen_corpus.download import get_blocks, fetch_files, login_to_archive
 import hashlib
 
 def _langmod_loss(sentence):
@@ -51,7 +51,25 @@ def improvement(sentence, regexp):
 
     return loss0, loss1
 
-def find_instances(root, pattern_db):
+def _is_metadata_block(txt0):
+    txt1 = re.sub(&#34;[^a-zA-ZåäöÅÄÖ ]+&#34;, &#34;&#34;, txt0)
+    len0 = len(txt0)
+    if len0 == 0:
+        return False
+        
+    len1 = len(txt1)
+    len2 = len(txt0.strip())
+    if len2 == 0:
+        return False
+    
+    # Crude heuristic. Skip if
+    # a) over 15% is non alphabetic characters
+    # and b) length is under 150 characters
+    
+    # TODO: replace with ML algorithm
+    return float(len1) / float(len0) &lt; 0.85 and len0 &lt; 150
+    
+def find_instances(root, pattern_db, c_hashes = dict()):
     &#34;&#34;&#34;
     Find instances of curation patterns in all files in a folder.
 
@@ -65,14 +83,27 @@ def find_instances(root, pattern_db):
     for row in pattern_db.iterrows():
         row = row[1]
         pattern = row[&#39;pattern&#39;]
-        replace_directly = row[&#39;replace_directly&#39;]
         
-        #print(&#34;PATTERN:&#34;, pattern)
         exp = re.compile(pattern)
         
         for content_block in root.findall(&#34;.//contentBlock&#34;):
-            #content_txt = &#39;\n&#39;.join(content_block.itertext())
+            content_txt = &#39;\n\n&#39;.join(content_block.itertext())
+            content_hash = hashlib.md5(content_txt.encode(&#34;utf-8&#34;)).hexdigest()
             
+            # Detect metadata
+            c_hashes[content_hash] = c_hashes.get(content_hash, 0) + 1
+            recurring = c_hashes[content_hash] &gt;= 3 and content_txt.strip() != &#34;&#34;
+            is_metadata = _is_metadata_block(content_txt)
+            if recurring or is_metadata:
+                for textBlock in content_block:
+                    paragraph = textBlock.text
+                    if paragraph.strip() != &#34;&#34; and len(paragraph) &gt; 8:
+                        #print(&#34;Skip c:&#34;, paragraph)
+                        d = {&#34;pattern&#34;: &#34;metadata&#34;, &#34;txt&#34;: paragraph, &#34;replacement&#34;: &#34;&#34; }
+                        data.append(d)
+                break
+            
+            # Perform other curations
             for textBlock in content_block:
                 paragraph = textBlock.text
                 for m in exp.finditer(paragraph):
@@ -97,6 +128,8 @@ def apply_curations(root, instance_db):
             txt = row[&#34;txt&#34;]
             if txt in paragraph:
                 replacement = row[&#34;replacement&#34;]
+                if type(replacement) != str:
+                    replacement = &#34;&#34;
                 paragraph = paragraph.replace(txt, replacement)
         
         textBlock.text = paragraph
@@ -114,14 +147,16 @@ def curation_workflow(package_id, archive, pattern_db):
     
     xml_files = fetch_files(package)
     instance_dbs = []
-
+    
+    c_hashes = dict()
     for filename in xml_files:
         page_content_blocks = get_blocks(filename, package, package_id)
-        instance_db = find_instances(page_content_blocks, pattern_db)
+        instance_db = find_instances(page_content_blocks, pattern_db, c_hashes=c_hashes)
         instance_dbs.append(instance_db)
     
     instance_db = pd.concat(instance_dbs)
     instance_db[&#34;filename&#34;] = package_id
+    instance_db = instance_db.drop_duplicates()
     return instance_db
     </code></pre>
 </details>
@@ -133,7 +168,7 @@ def curation_workflow(package_id, archive, pattern_db):
 <section>
 <h2 class="section-title" id="header-functions">Functions</h2>
 <dl>
-<dt id="parliament_data.curation.apply_curations"><code class="name flex">
+<dt id="riksdagen_corpus.curation.apply_curations"><code class="name flex">
 <span>def <span class="ident">apply_curations</span></span>(<span>root, instance_db)</span>
 </code></dt>
 <dd>
@@ -152,13 +187,15 @@ def curation_workflow(package_id, archive, pattern_db):
             txt = row[&#34;txt&#34;]
             if txt in paragraph:
                 replacement = row[&#34;replacement&#34;]
+                if type(replacement) != str:
+                    replacement = &#34;&#34;
                 paragraph = paragraph.replace(txt, replacement)
         
         textBlock.text = paragraph
     return root</code></pre>
 </details>
 </dd>
-<dt id="parliament_data.curation.curation_workflow"><code class="name flex">
+<dt id="riksdagen_corpus.curation.curation_workflow"><code class="name flex">
 <span>def <span class="ident">curation_workflow</span></span>(<span>package_id, archive, pattern_db)</span>
 </code></dt>
 <dd>
@@ -173,19 +210,21 @@ def curation_workflow(package_id, archive, pattern_db):
     
     xml_files = fetch_files(package)
     instance_dbs = []
-
+    
+    c_hashes = dict()
     for filename in xml_files:
         page_content_blocks = get_blocks(filename, package, package_id)
-        instance_db = find_instances(page_content_blocks, pattern_db)
+        instance_db = find_instances(page_content_blocks, pattern_db, c_hashes=c_hashes)
         instance_dbs.append(instance_db)
     
     instance_db = pd.concat(instance_dbs)
     instance_db[&#34;filename&#34;] = package_id
+    instance_db = instance_db.drop_duplicates()
     return instance_db</code></pre>
 </details>
 </dd>
-<dt id="parliament_data.curation.find_instances"><code class="name flex">
-<span>def <span class="ident">find_instances</span></span>(<span>root, pattern_db)</span>
+<dt id="riksdagen_corpus.curation.find_instances"><code class="name flex">
+<span>def <span class="ident">find_instances</span></span>(<span>root, pattern_db, c_hashes={})</span>
 </code></dt>
 <dd>
 <div class="desc"><p>Find instances of curation patterns in all files in a folder.</p>
@@ -200,7 +239,7 @@ def curation_workflow(package_id, archive, pattern_db):
 <summary>
 <span>Expand source code</span>
 </summary>
-<pre><code class="python">def find_instances(root, pattern_db):
+<pre><code class="python">def find_instances(root, pattern_db, c_hashes = dict()):
     &#34;&#34;&#34;
     Find instances of curation patterns in all files in a folder.
 
@@ -214,14 +253,27 @@ def curation_workflow(package_id, archive, pattern_db):
     for row in pattern_db.iterrows():
         row = row[1]
         pattern = row[&#39;pattern&#39;]
-        replace_directly = row[&#39;replace_directly&#39;]
         
-        #print(&#34;PATTERN:&#34;, pattern)
         exp = re.compile(pattern)
         
         for content_block in root.findall(&#34;.//contentBlock&#34;):
-            #content_txt = &#39;\n&#39;.join(content_block.itertext())
+            content_txt = &#39;\n\n&#39;.join(content_block.itertext())
+            content_hash = hashlib.md5(content_txt.encode(&#34;utf-8&#34;)).hexdigest()
             
+            # Detect metadata
+            c_hashes[content_hash] = c_hashes.get(content_hash, 0) + 1
+            recurring = c_hashes[content_hash] &gt;= 3 and content_txt.strip() != &#34;&#34;
+            is_metadata = _is_metadata_block(content_txt)
+            if recurring or is_metadata:
+                for textBlock in content_block:
+                    paragraph = textBlock.text
+                    if paragraph.strip() != &#34;&#34; and len(paragraph) &gt; 8:
+                        #print(&#34;Skip c:&#34;, paragraph)
+                        d = {&#34;pattern&#34;: &#34;metadata&#34;, &#34;txt&#34;: paragraph, &#34;replacement&#34;: &#34;&#34; }
+                        data.append(d)
+                break
+            
+            # Perform other curations
             for textBlock in content_block:
                 paragraph = textBlock.text
                 for m in exp.finditer(paragraph):
@@ -237,7 +289,7 @@ def curation_workflow(package_id, archive, pattern_db):
     return pd.DataFrame(data=data, columns=[&#34;pattern&#34;, &#34;txt&#34;, &#34;replacement&#34;])</code></pre>
 </details>
 </dd>
-<dt id="parliament_data.curation.get_curated_blocks"><code class="name flex">
+<dt id="riksdagen_corpus.curation.get_curated_blocks"><code class="name flex">
 <span>def <span class="ident">get_curated_blocks</span></span>(<span>fname, package, package_id, instance_db)</span>
 </code></dt>
 <dd>
@@ -253,7 +305,7 @@ def curation_workflow(package_id, archive, pattern_db):
     return blocks</code></pre>
 </details>
 </dd>
-<dt id="parliament_data.curation.improvement"><code class="name flex">
+<dt id="riksdagen_corpus.curation.improvement"><code class="name flex">
 <span>def <span class="ident">improvement</span></span>(<span>sentence, regexp)</span>
 </code></dt>
 <dd>
@@ -286,16 +338,16 @@ def curation_workflow(package_id, archive, pattern_db):
 <ul id="index">
 <li><h3>Super-module</h3>
 <ul>
-<li><code><a title="parliament_data" href="index.html">parliament_data</a></code></li>
+<li><code><a title="riksdagen_corpus" href="index.html">riksdagen_corpus</a></code></li>
 </ul>
 </li>
 <li><h3><a href="#header-functions">Functions</a></h3>
 <ul class="">
-<li><code><a title="parliament_data.curation.apply_curations" href="#parliament_data.curation.apply_curations">apply_curations</a></code></li>
-<li><code><a title="parliament_data.curation.curation_workflow" href="#parliament_data.curation.curation_workflow">curation_workflow</a></code></li>
-<li><code><a title="parliament_data.curation.find_instances" href="#parliament_data.curation.find_instances">find_instances</a></code></li>
-<li><code><a title="parliament_data.curation.get_curated_blocks" href="#parliament_data.curation.get_curated_blocks">get_curated_blocks</a></code></li>
-<li><code><a title="parliament_data.curation.improvement" href="#parliament_data.curation.improvement">improvement</a></code></li>
+<li><code><a title="riksdagen_corpus.curation.apply_curations" href="#riksdagen_corpus.curation.apply_curations">apply_curations</a></code></li>
+<li><code><a title="riksdagen_corpus.curation.curation_workflow" href="#riksdagen_corpus.curation.curation_workflow">curation_workflow</a></code></li>
+<li><code><a title="riksdagen_corpus.curation.find_instances" href="#riksdagen_corpus.curation.find_instances">find_instances</a></code></li>
+<li><code><a title="riksdagen_corpus.curation.get_curated_blocks" href="#riksdagen_corpus.curation.get_curated_blocks">get_curated_blocks</a></code></li>
+<li><code><a title="riksdagen_corpus.curation.improvement" href="#riksdagen_corpus.curation.improvement">improvement</a></code></li>
 </ul>
 </li>
 </ul>

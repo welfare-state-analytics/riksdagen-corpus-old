@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
 <meta name="generator" content="pdoc 0.9.2" />
-<title>parliament_data.segmentation API documentation</title>
+<title>riksdagen_corpus.segmentation API documentation</title>
 <meta name="description" content="Implements the segmentation of the data into speeches and
 ultimately into the Parla-Clarin XML format." />
 <link rel="preload stylesheet" as="style" href="https://cdnjs.cloudflare.com/ajax/libs/10up-sanitize.css/11.0.1/sanitize.min.css" integrity="sha256-PK9q560IAAa6WVRRh76LtCaI8pjTJ2z11v0miyNNjrs=" crossorigin>
@@ -20,7 +20,7 @@ ultimately into the Parla-Clarin XML format." />
 <main>
 <article id="content">
 <header>
-<h1 class="title">Module <code>parliament_data.segmentation</code></h1>
+<h1 class="title">Module <code>riksdagen_corpus.segmentation</code></h1>
 </header>
 <section id="section-intro">
 <p>Implements the segmentation of the data into speeches and
@@ -39,9 +39,9 @@ import re
 from os import listdir
 from os.path import isfile, join
 from lxml import etree
-from parliament_data.mp import detect_mp
-from parliament_data.download import get_blocks, fetch_files, login_to_archive
-from parliament_data.curation import get_curated_blocks
+from riksdagen_corpus.mp import detect_mp
+from riksdagen_corpus.download import get_blocks, fetch_files, login_to_archive
+from riksdagen_corpus.curation import get_curated_blocks
 import hashlib
 import copy
 
@@ -116,23 +116,6 @@ def find_instances_html(filename, pattern_db):
     return instance_db
 
 # Parla Clarin generation
-
-def _is_metadata_block(txt0):
-    # TODO: refactor to be a part of the curation module
-    txt1 = re.sub(&#34;[^a-zA-ZåäöÅÄÖ ]+&#34;, &#34;&#34;, txt0)
-    len0 = len(txt0)
-    if len0 == 0:
-        return False
-        
-    len1 = len(txt1)
-    
-    # Crude heuristic. Skip if
-    # a) over 15% is non alphabetic characters
-    # and b) length is under 150 characters
-    
-    # TODO: replace with ML algorithm
-    return float(len1) / float(len0) &lt; 0.85 and len0 &lt; 150
-
 def infer_metadata(filename):
     metadata = dict()
 
@@ -252,12 +235,8 @@ def create_tei(root, metadata, instance_db=pd.DataFrame(columns= [&#34;filename&
     for content_block in root.findall(&#34;.//contentBlock&#34;):
         content_txt = &#39;\n&#39;.join(content_block.itertext())
         is_empty = content_txt == &#34;&#34;
-        is_data = not _is_metadata_block(content_txt)
         
-        if not is_data:
-            pass
-            #print(&#34;Non-data:&#34;, content_txt)
-        elif is_empty:
+        if is_empty:
             pass
             #print(&#34;Empty block&#34;)
         else:
@@ -346,7 +325,7 @@ def instance_workflow(package_id, archive, pattern_db, mp_db):
 <section>
 <h2 class="section-title" id="header-functions">Functions</h2>
 <dl>
-<dt id="parliament_data.segmentation.create_parlaclarin"><code class="name flex">
+<dt id="riksdagen_corpus.segmentation.create_parlaclarin"><code class="name flex">
 <span>def <span class="ident">create_parlaclarin</span></span>(<span>teis, metadata)</span>
 </code></dt>
 <dd>
@@ -378,7 +357,7 @@ def instance_workflow(package_id, archive, pattern_db, mp_db):
     return s</code></pre>
 </details>
 </dd>
-<dt id="parliament_data.segmentation.create_tei"><code class="name flex">
+<dt id="riksdagen_corpus.segmentation.create_tei"><code class="name flex">
 <span>def <span class="ident">create_tei</span></span>(<span>root, metadata, instance_db=Empty DataFrame
 Columns: [filename, pattern, txt, person]
 Index: [])</span>
@@ -432,12 +411,8 @@ Index: [])</span>
     for content_block in root.findall(&#34;.//contentBlock&#34;):
         content_txt = &#39;\n&#39;.join(content_block.itertext())
         is_empty = content_txt == &#34;&#34;
-        is_data = not _is_metadata_block(content_txt)
         
-        if not is_data:
-            pass
-            #print(&#34;Non-data:&#34;, content_txt)
-        elif is_empty:
+        if is_empty:
             pass
             #print(&#34;Empty block&#34;)
         else:
@@ -464,7 +439,7 @@ Index: [])</span>
     return tei</code></pre>
 </details>
 </dd>
-<dt id="parliament_data.segmentation.find_instances_html"><code class="name flex">
+<dt id="riksdagen_corpus.segmentation.find_instances_html"><code class="name flex">
 <span>def <span class="ident">find_instances_html</span></span>(<span>filename, pattern_db)</span>
 </code></dt>
 <dd>
@@ -494,7 +469,7 @@ Index: [])</span>
     return instance_db</code></pre>
 </details>
 </dd>
-<dt id="parliament_data.segmentation.find_instances_xml"><code class="name flex">
+<dt id="riksdagen_corpus.segmentation.find_instances_xml"><code class="name flex">
 <span>def <span class="ident">find_instances_xml</span></span>(<span>root, pattern_db, protocol_id, mp_db=None)</span>
 </code></dt>
 <dd>
@@ -567,7 +542,7 @@ Index: [])</span>
     return  pd.DataFrame(data, columns=columns)</code></pre>
 </details>
 </dd>
-<dt id="parliament_data.segmentation.gen_parlaclarin_corpus"><code class="name flex">
+<dt id="riksdagen_corpus.segmentation.gen_parlaclarin_corpus"><code class="name flex">
 <span>def <span class="ident">gen_parlaclarin_corpus</span></span>(<span>protocol_db, archive, instance_db, curation_instance_db=None, corpus_metadata={}, str_output=True)</span>
 </code></dt>
 <dd>
@@ -607,7 +582,7 @@ Index: [])</span>
     return corpus</code></pre>
 </details>
 </dd>
-<dt id="parliament_data.segmentation.infer_metadata"><code class="name flex">
+<dt id="riksdagen_corpus.segmentation.infer_metadata"><code class="name flex">
 <span>def <span class="ident">infer_metadata</span></span>(<span>filename)</span>
 </code></dt>
 <dd>
@@ -643,7 +618,7 @@ Index: [])</span>
     return metadata</code></pre>
 </details>
 </dd>
-<dt id="parliament_data.segmentation.instance_workflow"><code class="name flex">
+<dt id="riksdagen_corpus.segmentation.instance_workflow"><code class="name flex">
 <span>def <span class="ident">instance_workflow</span></span>(<span>package_id, archive, pattern_db, mp_db)</span>
 </code></dt>
 <dd>
@@ -690,18 +665,18 @@ Index: [])</span>
 <ul id="index">
 <li><h3>Super-module</h3>
 <ul>
-<li><code><a title="parliament_data" href="index.html">parliament_data</a></code></li>
+<li><code><a title="riksdagen_corpus" href="index.html">riksdagen_corpus</a></code></li>
 </ul>
 </li>
 <li><h3><a href="#header-functions">Functions</a></h3>
 <ul class="">
-<li><code><a title="parliament_data.segmentation.create_parlaclarin" href="#parliament_data.segmentation.create_parlaclarin">create_parlaclarin</a></code></li>
-<li><code><a title="parliament_data.segmentation.create_tei" href="#parliament_data.segmentation.create_tei">create_tei</a></code></li>
-<li><code><a title="parliament_data.segmentation.find_instances_html" href="#parliament_data.segmentation.find_instances_html">find_instances_html</a></code></li>
-<li><code><a title="parliament_data.segmentation.find_instances_xml" href="#parliament_data.segmentation.find_instances_xml">find_instances_xml</a></code></li>
-<li><code><a title="parliament_data.segmentation.gen_parlaclarin_corpus" href="#parliament_data.segmentation.gen_parlaclarin_corpus">gen_parlaclarin_corpus</a></code></li>
-<li><code><a title="parliament_data.segmentation.infer_metadata" href="#parliament_data.segmentation.infer_metadata">infer_metadata</a></code></li>
-<li><code><a title="parliament_data.segmentation.instance_workflow" href="#parliament_data.segmentation.instance_workflow">instance_workflow</a></code></li>
+<li><code><a title="riksdagen_corpus.segmentation.create_parlaclarin" href="#riksdagen_corpus.segmentation.create_parlaclarin">create_parlaclarin</a></code></li>
+<li><code><a title="riksdagen_corpus.segmentation.create_tei" href="#riksdagen_corpus.segmentation.create_tei">create_tei</a></code></li>
+<li><code><a title="riksdagen_corpus.segmentation.find_instances_html" href="#riksdagen_corpus.segmentation.find_instances_html">find_instances_html</a></code></li>
+<li><code><a title="riksdagen_corpus.segmentation.find_instances_xml" href="#riksdagen_corpus.segmentation.find_instances_xml">find_instances_xml</a></code></li>
+<li><code><a title="riksdagen_corpus.segmentation.gen_parlaclarin_corpus" href="#riksdagen_corpus.segmentation.gen_parlaclarin_corpus">gen_parlaclarin_corpus</a></code></li>
+<li><code><a title="riksdagen_corpus.segmentation.infer_metadata" href="#riksdagen_corpus.segmentation.infer_metadata">infer_metadata</a></code></li>
+<li><code><a title="riksdagen_corpus.segmentation.instance_workflow" href="#riksdagen_corpus.segmentation.instance_workflow">instance_workflow</a></code></li>
 </ul>
 </li>
 </ul>

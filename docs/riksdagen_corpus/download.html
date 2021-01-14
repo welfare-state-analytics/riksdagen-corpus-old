@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
 <meta name="generator" content="pdoc 0.9.2" />
-<title>parliament_data.download API documentation</title>
+<title>riksdagen_corpus.download API documentation</title>
 <meta name="description" content="" />
 <link rel="preload stylesheet" as="style" href="https://cdnjs.cloudflare.com/ajax/libs/10up-sanitize.css/11.0.1/sanitize.min.css" integrity="sha256-PK9q560IAAa6WVRRh76LtCaI8pjTJ2z11v0miyNNjrs=" crossorigin>
 <link rel="preload stylesheet" as="style" href="https://cdnjs.cloudflare.com/ajax/libs/10up-sanitize.css/11.0.1/typography.min.css" integrity="sha256-7l/o7C8jubJiy74VsKTidCy1yBkRtiUGbVkYBylBqUg=" crossorigin>
@@ -19,7 +19,7 @@
 <main>
 <article id="content">
 <header>
-<h1 class="title">Module <code>parliament_data.download</code></h1>
+<h1 class="title">Module <code>riksdagen_corpus.download</code></h1>
 </header>
 <section id="section-intro">
 <details class="source">
@@ -280,7 +280,7 @@ if __name__ == &#34;__main__&#34;:
 <section>
 <h2 class="section-title" id="header-functions">Functions</h2>
 <dl>
-<dt id="parliament_data.download.count_pages"><code class="name flex">
+<dt id="riksdagen_corpus.download.count_pages"><code class="name flex">
 <span>def <span class="ident">count_pages</span></span>(<span>start, end)</span>
 </code></dt>
 <dd>
@@ -326,7 +326,7 @@ if __name__ == &#34;__main__&#34;:
     return db_pages</code></pre>
 </details>
 </dd>
-<dt id="parliament_data.download.fetch_files"><code class="name flex">
+<dt id="riksdagen_corpus.download.fetch_files"><code class="name flex">
 <span>def <span class="ident">fetch_files</span></span>(<span>package, extension='xml')</span>
 </code></dt>
 <dd>
@@ -364,7 +364,7 @@ if __name__ == &#34;__main__&#34;:
     return filelist</code></pre>
 </details>
 </dd>
-<dt id="parliament_data.download.generate_sets"><code class="name flex">
+<dt id="riksdagen_corpus.download.generate_sets"><code class="name flex">
 <span>def <span class="ident">generate_sets</span></span>(<span>decade, interval=10, set_size=2, txt_dir=None)</span>
 </code></dt>
 <dd>
@@ -442,7 +442,7 @@ if __name__ == &#34;__main__&#34;:
             txtout.close()</code></pre>
 </details>
 </dd>
-<dt id="parliament_data.download.get_blocks"><code class="name flex">
+<dt id="riksdagen_corpus.download.get_blocks"><code class="name flex">
 <span>def <span class="ident">get_blocks</span></span>(<span>fname, package, package_id, load=True, save=True)</span>
 </code></dt>
 <dd>
@@ -528,7 +528,7 @@ if __name__ == &#34;__main__&#34;:
     return root</code></pre>
 </details>
 </dd>
-<dt id="parliament_data.download.login_to_archive"><code class="name flex">
+<dt id="riksdagen_corpus.download.login_to_archive"><code class="name flex">
 <span>def <span class="ident">login_to_archive</span></span>(<span>)</span>
 </code></dt>
 <dd>
@@ -548,7 +548,7 @@ if __name__ == &#34;__main__&#34;:
     return kblab.Archive(&#39;https://betalab.kb.se&#39;, auth=(username, password))</code></pre>
 </details>
 </dd>
-<dt id="parliament_data.download.randomize_ordinals"><code class="name flex">
+<dt id="riksdagen_corpus.download.randomize_ordinals"><code class="name flex">
 <span>def <span class="ident">randomize_ordinals</span></span>(<span>files)</span>
 </code></dt>
 <dd>
@@ -590,17 +590,17 @@ if __name__ == &#34;__main__&#34;:
 <ul id="index">
 <li><h3>Super-module</h3>
 <ul>
-<li><code><a title="parliament_data" href="index.html">parliament_data</a></code></li>
+<li><code><a title="riksdagen_corpus" href="index.html">riksdagen_corpus</a></code></li>
 </ul>
 </li>
 <li><h3><a href="#header-functions">Functions</a></h3>
 <ul class="two-column">
-<li><code><a title="parliament_data.download.count_pages" href="#parliament_data.download.count_pages">count_pages</a></code></li>
-<li><code><a title="parliament_data.download.fetch_files" href="#parliament_data.download.fetch_files">fetch_files</a></code></li>
-<li><code><a title="parliament_data.download.generate_sets" href="#parliament_data.download.generate_sets">generate_sets</a></code></li>
-<li><code><a title="parliament_data.download.get_blocks" href="#parliament_data.download.get_blocks">get_blocks</a></code></li>
-<li><code><a title="parliament_data.download.login_to_archive" href="#parliament_data.download.login_to_archive">login_to_archive</a></code></li>
-<li><code><a title="parliament_data.download.randomize_ordinals" href="#parliament_data.download.randomize_ordinals">randomize_ordinals</a></code></li>
+<li><code><a title="riksdagen_corpus.download.count_pages" href="#riksdagen_corpus.download.count_pages">count_pages</a></code></li>
+<li><code><a title="riksdagen_corpus.download.fetch_files" href="#riksdagen_corpus.download.fetch_files">fetch_files</a></code></li>
+<li><code><a title="riksdagen_corpus.download.generate_sets" href="#riksdagen_corpus.download.generate_sets">generate_sets</a></code></li>
+<li><code><a title="riksdagen_corpus.download.get_blocks" href="#riksdagen_corpus.download.get_blocks">get_blocks</a></code></li>
+<li><code><a title="riksdagen_corpus.download.login_to_archive" href="#riksdagen_corpus.download.login_to_archive">login_to_archive</a></code></li>
+<li><code><a title="riksdagen_corpus.download.randomize_ordinals" href="#riksdagen_corpus.download.randomize_ordinals">randomize_ordinals</a></code></li>
 </ul>
 </li>
 </ul>
