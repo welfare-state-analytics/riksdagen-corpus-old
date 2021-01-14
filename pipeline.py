@@ -1,8 +1,8 @@
-from parliament_data.download import login_to_archive
-from parliament_data.segmentation import instance_workflow, infer_metadata, gen_parlaclarin_corpus
+from riksdagen_corpus.download import login_to_archive
+from riksdagen_corpus.segmentation import instance_workflow, infer_metadata, gen_parlaclarin_corpus
 import pandas as pd
 import os
-from parliament_data.curation import curation_workflow, get_curated_blocks
+from riksdagen_corpus.curation import curation_workflow, get_curated_blocks
 
 def curations(file_db, archive, pattern_db):
     file_db_years = sorted(list(set(file_db["year"])))
@@ -35,7 +35,6 @@ def instances(file_db, archive, pattern_db, mp_db):
     print("Years to be iterated", file_db_years)
     instance_dbs = []
     for corpus_year in file_db_years:
-    
         year_db = file_db[file_db["year"] == corpus_year]
         package_ids = year_db["package_id"]
         package_ids = list(package_ids)
@@ -63,7 +62,6 @@ def parlaclarin(file_db, archive, instance_db=None):
     for corpus_year in file_db_years:
     
         year_db = file_db[file_db["year"] == corpus_year]
-        year_db = year_db
         package_ids = year_db["package_id"]
         package_ids = list(package_ids)
         package_ids = sorted(package_ids)
@@ -105,8 +103,8 @@ if __name__ == "__main__":
     
     file_db = pd.read_csv("db/protocols/files.csv")
     
-    start_year = 1951
-    end_year = 1975
+    start_year = 1980
+    end_year = 1989
     
     file_db = file_db[file_db["year"] >= start_year]
     file_db = file_db[file_db["year"] <= end_year]
@@ -115,13 +113,13 @@ if __name__ == "__main__":
     pattern_db = pd.read_json("db/segmentation/patterns.json", orient="records", lines=True)
     archive = login_to_archive()
     
-    if False:
+    if True:
         curation_pattern_db = pd.read_json("db/curation/patterns.json", orient="records", lines=True)
         curation_instance_db = curations(file_db, archive, curation_pattern_db)
     else:
         curation_instance_db = None
         
-    if False:
+    if True:
         instance_db = instances(file_db, archive, pattern_db, mp_db)
     else:
         instance_db = None

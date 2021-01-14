@@ -1,1 +1,1 @@
-pdoc3 --html -o docs parliament_data --force
+pdoc3 --html -o docs riksdagen_corpus --force
