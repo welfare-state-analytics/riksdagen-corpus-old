@@ -85,23 +85,6 @@ def find_instances_html(filename, pattern_db):
     return instance_db
 
 # Parla Clarin generation
-
-def _is_metadata_block(txt0):
-    # TODO: refactor to be a part of the curation module
-    txt1 = re.sub("[^a-zA-ZåäöÅÄÖ ]+", "", txt0)
-    len0 = len(txt0)
-    if len0 == 0:
-        return False
-        
-    len1 = len(txt1)
-    
-    # Crude heuristic. Skip if
-    # a) over 15% is non alphabetic characters
-    # and b) length is under 150 characters
-    
-    # TODO: replace with ML algorithm
-    return float(len1) / float(len0) < 0.85 and len0 < 150
-
 def infer_metadata(filename):
     metadata = dict()
 
@@ -221,12 +204,8 @@ def create_tei(root, metadata, instance_db=pd.DataFrame(columns= ["filename", "p
     for content_block in root.findall(".//contentBlock"):
         content_txt = '\n'.join(content_block.itertext())
         is_empty = content_txt == ""
-        is_data = not _is_metadata_block(content_txt)
         
-        if not is_data:
-            pass
-            #print("Non-data:", content_txt)
-        elif is_empty:
+        if is_empty:
             pass
             #print("Empty block")
         else:
