@@ -93,6 +93,7 @@ def create_database(path):
     return df
 
 def create_full_database(dirs):
+    mp_dbs = []
     for d in dirs:
         for path in os.listdir(d):
             full_path = os.path.join(d, path)
@@ -101,8 +102,24 @@ def create_full_database(dirs):
                 mp_dbs.append(mp_db)
     mp_db = pd.concat(mp_dbs)
     
-    return mp_db.sort_values(by=["start", "chamber", "Riksdagsledamot"], ignore_index=True)
-    
+    mp_db = mp_db.sort_values(by=["start", "chamber", "Riksdagsledamot"], ignore_index=True)
+
+    columnsTitles = ['Riksdagsledamot' , 'Parti', 'Valkrets', 'chamber', 'start', 'end', 'Yrke']
+    mp_db = mp_db.reindex(columns=columnsTitles)
+
+    return mp_db
+
+def add_gender(mp_db, names):
+    mp_db["gender"] = None
+
+    for i, row in mp_db.iterrows():
+        first_name = row["Riksdagsledamot"].split()[0]
+        for j, namerow in names[names["name"] == first_name].iterrows():
+            mp_db.at[i]['gender'] = namerow["gender"]
+
+    return mp_db
+
+
 def detect_mp(introduction, metadata, mp_db):
     """
     Detect which member of parliament is mentioned in a given introduction.
@@ -123,20 +140,6 @@ def detect_mp(introduction, metadata, mp_db):
             return row
 
 if __name__ == '__main__':
-    '''
-    mp_db = create_database("data/mp/1971-1973.csv")
-    print(mp_db)
-
-    introduction = "Anf. Palme yttrade:"
-
-    metadata = dict(
-        year=1972,
-    )
-
-    mp = detect_mp(introduction, metadata, mp_db)
-
-    print("MP:", mp)
-    '''
     
     mp_dbs = []
     dirs = ["data/mp/", "data/mp/fk/", "data/mp/ak/"]
