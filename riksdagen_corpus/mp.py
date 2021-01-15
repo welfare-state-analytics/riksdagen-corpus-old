@@ -11,9 +11,10 @@ def create_database(path):
     if extension == "csv":
         print("Read:", path)
         df = pd.read_csv(path, skip_blank_lines=True)
+
+        # Drop columns where everything is null
         nulls = df.isnull().values.all(axis=0)
         nulls = zip(df.columns, nulls)
-        
         for column_name, null in nulls:
             if null:
                 del df[column_name]
@@ -62,7 +63,7 @@ def create_database(path):
     # Harmonize name to be Riksdagsledamot
     new_columns = list(df.columns)
     for column_ix, column_name in enumerate(df.columns):
-        if column_name in ["Ledamot", "Riksdagsledamot"]:
+        if column_name in ["Ledamot", "Riksdagsledamot", "Namn"]:
             new_columns[column_ix] = "Riksdagsledamot"
     df.columns = new_columns
     
@@ -107,6 +108,8 @@ def create_full_database(dirs):
     columnsTitles = ['Riksdagsledamot' , 'Parti', 'Valkrets', 'chamber', 'start', 'end', 'Yrke']
     mp_db = mp_db.reindex(columns=columnsTitles)
 
+    mp_db = mp_db[mp_db["Riksdagsledamot"].notnull()]
+
     return mp_db
 
 def add_gender(mp_db, names):
@@ -115,7 +118,7 @@ def add_gender(mp_db, names):
     for i, row in mp_db.iterrows():
         first_name = row["Riksdagsledamot"].split()[0]
         for j, namerow in names[names["name"] == first_name].iterrows():
-            mp_db.at[i]['gender'] = namerow["gender"]
+            mp_db.loc[i, 'gender'] = namerow["gender"]
 
     return mp_db
 
