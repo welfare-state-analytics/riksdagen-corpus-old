@@ -236,11 +236,3 @@ def randomize_ordinals(files):
             data.append(new_row)
 
     return pd.DataFrame(data, columns = columns)
-
-
-if __name__ == "__main__":
-    set_size = 2
-    txt_dir = "../riksdagens_protokoll/riksdagens_protokoll/"
-    for decennium in range(1920, 1990, 10):
-        generate_sets(decennium, set_size=set_size, txt_dir=txt_dir)
-

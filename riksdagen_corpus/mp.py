@@ -148,13 +148,3 @@ def detect_mp(introduction, metadata, mp_db):
         last_name = " ".join(name.split()[1:])
         if last_name in introduction:
             return row
-
-if __name__ == '__main__':
-    
-    mp_dbs = []
-    dirs = ["data/mp/", "data/mp/fk/", "data/mp/ak/"]
-
-    mp_dbs = create_full_database(dirs)
-    print(mp_dbs)
-    
-    mp_dbs.to_csv("db/mp/1921-2022.csv")
