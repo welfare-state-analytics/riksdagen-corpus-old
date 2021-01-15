@@ -4,6 +4,7 @@ Handles the data on the members of parliament.
 
 import pandas as pd
 import os
+import progressbar
 
 def create_database(path):
     extension = path.split(".")[-1]
@@ -120,12 +121,23 @@ def create_full_database(dirs):
     return mp_db
 
 def add_gender(mp_db, names):
+    print("Add gender...")
     mp_db["gender"] = None
 
-    for i, row in mp_db.iterrows():
+    name_to_gender = {}
+    for i, namerow in names.iterrows():
+        name = namerow["name"]
+        gender = namerow["gender"]
+        if gender == "masculine":
+            gender = "man"
+        elif gender == "feminine":
+            gender = "woman"
+        name_to_gender[name] = gender
+
+    for i, row in progressbar.progressbar(list(mp_db.iterrows())):
         first_name = row["name"].split()[0]
-        for j, namerow in names[names["name"] == first_name].iterrows():
-            mp_db.loc[i, 'gender'] = namerow["gender"]
+        if first_name in name_to_gender:
+            mp_db.loc[i, 'gender'] = name_to_gender[first_name]
 
     return mp_db
 
