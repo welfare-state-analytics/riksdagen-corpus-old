@@ -109,7 +109,7 @@ if __name__ == "__main__":
     file_db = file_db[file_db["year"] >= start_year]
     file_db = file_db[file_db["year"] <= end_year]
     
-    mp_db = pd.read_csv("db/mp/1921-2022.csv")
+    mp_db = pd.read_csv("db/mp/members_of_parliament.csv")
     pattern_db = pd.read_json("db/segmentation/patterns.json", orient="records", lines=True)
     archive = login_to_archive()
     
