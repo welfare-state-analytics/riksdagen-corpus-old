@@ -60,15 +60,22 @@ def create_database(path):
         print("File type not supported.", path)
         return None
     
-    # Harmonize name to be Riksdagsledamot
+    # Harmonize column names
     new_columns = list(df.columns)
     for column_ix, column_name in enumerate(df.columns):
         if column_name in ["Ledamot", "Riksdagsledamot", "Namn"]:
-            new_columns[column_ix] = "Riksdagsledamot"
+            new_columns[column_ix] = "name"
+        if column_name in ["Parti"]:
+            new_columns[column_ix] = "party"
+        if column_name in ["Yrke"]:
+            new_columns[column_ix] = "occupation"
+        if column_name in ["Valkrets"]:
+            new_columns[column_ix] = "district"
+
     df.columns = new_columns
     
     # Drop unnecessary columns
-    retain = ["Riksdagsledamot", "Parti", "Valkrets", "Yrke"]
+    retain = ["name", "party", "district", "occupation"]
     for column_name in df.columns:
         if column_name not in retain:
             del df[column_name]
@@ -103,12 +110,12 @@ def create_full_database(dirs):
                 mp_dbs.append(mp_db)
     mp_db = pd.concat(mp_dbs)
     
-    mp_db = mp_db.sort_values(by=["start", "chamber", "Riksdagsledamot"], ignore_index=True)
+    mp_db = mp_db.sort_values(by=["start", "chamber", "name"], ignore_index=True)
 
-    columnsTitles = ['Riksdagsledamot' , 'Parti', 'Valkrets', 'chamber', 'start', 'end', 'Yrke']
+    columnsTitles = ['name' , 'party', 'district', 'chamber', 'start', 'end', 'occupation']
     mp_db = mp_db.reindex(columns=columnsTitles)
 
-    mp_db = mp_db[mp_db["Riksdagsledamot"].notnull()]
+    mp_db = mp_db[mp_db["name"].notnull()]
 
     return mp_db
 
@@ -116,7 +123,7 @@ def add_gender(mp_db, names):
     mp_db["gender"] = None
 
     for i, row in mp_db.iterrows():
-        first_name = row["Riksdagsledamot"].split()[0]
+        first_name = row["name"].split()[0]
         for j, namerow in names[names["name"] == first_name].iterrows():
             mp_db.loc[i, 'gender'] = namerow["gender"]
 
@@ -137,7 +144,7 @@ def detect_mp(introduction, metadata, mp_db):
     mp_db = mp_db[(mp_db["start"] <= year) & (mp_db["end"] >= year)]
 
     for ix, row in mp_db.iterrows():
-        name = row["Riksdagsledamot"]
+        name = row["name"]
         last_name = " ".join(name.split()[1:])
         if last_name in introduction:
             return row

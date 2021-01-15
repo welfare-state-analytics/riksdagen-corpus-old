@@ -27,8 +27,8 @@ def find_instances_xml(root, pattern_db, protocol_id, mp_db=None):
     data = []
     names = []
     if mp_db is not None:
-        mp_db = mp_db[mp_db['Riksdagsledamot'].notnull()]
-        names = mp_db["Riksdagsledamot"]
+        mp_db = mp_db[mp_db['name'].notnull()]
+        names = mp_db["name"]
         
     for row in pattern_db.iterrows():
         row = row[1]
