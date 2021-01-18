@@ -30,6 +30,13 @@ def read_xml(outpath):
     g.write(soup.prettify())
     g.close()
 
+def read_html(path):
+    f = open(path)
+    soup = BeautifulSoup(f)
+    f.close()
+    pretty_html = soup.prettify()
+    return etree.fromstring(pretty_html)
+    
 def validate_xml_schema(xml_path, schema_path):
     xml_file = lxml.etree.parse(xml_path)
 

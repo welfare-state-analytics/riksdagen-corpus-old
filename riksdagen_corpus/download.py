@@ -6,6 +6,7 @@ from lxml import etree
 import re
 import getpass
 import kblab
+from riksdagen_corpus.utils import read_html
 
 def login_to_archive():
     """
@@ -17,7 +18,38 @@ def login_to_archive():
     
     return kblab.Archive('https://betalab.kb.se', auth=(username, password))
 
-def get_blocks(fname, package, package_id, load=True, save=True):
+def get_html_blocks(fpath):
+    tree = read_html(fpath)
+    id_class = "sidhuvud_beteckning"
+
+    # Detect protocol id
+    desc = None
+    for div in tree.findall(".//div"):
+        if "class" in div.attrib:
+            classes = div.attrib["class"].split()
+            if id_class in classes:
+                desc = div.text
+
+    if desc is not None:
+        desc = re.sub('[^0-9:\\-]+', '', desc)
+        desc = desc.replace(":", "--")
+        desc = "prot-" + desc
+
+        root = etree.Element("protocol", id=desc)
+        contentBlock = etree.SubElement(root, "contentBlock", ix="0")
+
+        for ix, div in enumerate(tree.findall(".//pre")):
+            if div.text is not None:
+                textBlock = etree.SubElement(contentBlock, "textBlock", ix=str(ix))
+                tblock = re.sub('([a-zåäö,])- ?\n ?([a-zåäö])', '\\1\\2', div.text)
+                tblock = tblock.replace("\n", " ")
+                textBlock.text = tblock
+
+        return root
+    else:
+        return None
+
+def get_blocks(package, package_id, load=True, save=True):
     """
     Get content and text blocks from an OCR output XML file. Concatenate words into sentences.
 
@@ -32,46 +64,51 @@ def get_blocks(fname, package, package_id, load=True, save=True):
     """
     #tree = etree.fromstring(s)
     
-    folder = "data/raw/" + package_id + "/"
-    if load:
+    folder = "data/protocols/" + package_id + "/"
+    fname = "original.xml"
+    overwrite = True
+    if load or save:
         if not os.path.exists(folder):
             os.mkdir(folder)
+    
+    if load:
         fnames = os.listdir(folder)
         if fname in fnames:
             s = open(folder + fname).read()
+            overwrite = False
             return etree.fromstring(s.encode("utf-8"))
     
-    s = package.get_raw(fname).read()
-    tree = etree.fromstring(s)
-    ns_dict = {"space": "http://www.loc.gov/standards/alto/ns-v3#"}
-    content_blocks = tree.findall('.//{http://www.loc.gov/standards/alto/ns-v3#}ComposedBlock')
-    
-    root = etree.Element("root")
-    page_e = etree.SubElement(root, "page")
-    
-    for content_block in content_blocks:
-        content_block_e = etree.SubElement(page_e, "contentBlock")
-        text_blocks = content_block.findall('.//{http://www.loc.gov/standards/alto/ns-v3#}TextBlock')
-        for text_block in text_blocks:
-            tblock = []
-            text_lines = text_block.findall('.//{http://www.loc.gov/standards/alto/ns-v3#}TextLine')
-            
-            for text_line in text_lines:
-                #tblock.append("\n")
-                strings = text_line.findall('.//{http://www.loc.gov/standards/alto/ns-v3#}String')
-                for string in strings:
-                    content = string.attrib["CONTENT"]
-                    tblock.append(content)
+    root = etree.Element("protocol", id=package_id)
+    for ix, fname in enumerate(fetch_files(package)):
+        s = package.get_raw(fname).read()
+        tree = etree.fromstring(s)
+        ns_dict = {"space": "http://www.loc.gov/standards/alto/ns-v3#"}
+        content_blocks = tree.findall('.//{http://www.loc.gov/standards/alto/ns-v3#}ComposedBlock')
+        
+        for cb_ix, content_block in enumerate(content_blocks):
+            content_block_e = etree.SubElement(root, "contentBlock", page=str(ix), ix=str(cb_ix))
+            text_blocks = content_block.findall('.//{http://www.loc.gov/standards/alto/ns-v3#}TextBlock')
+            for tb_ix, text_block in enumerate(text_blocks):
+                tblock = []
+                text_lines = text_block.findall('.//{http://www.loc.gov/standards/alto/ns-v3#}TextLine')
                 
-            
-            tblock = " ".join(tblock)
-            # Remove line breaks when next line starts with a small letter
-            tblock = re.sub('([a-zåäö,]) ?\n ?([a-zåäö])', '\\1 \\2', tblock)
-            tblock = re.sub('([a-zåäö,])- ([a-zåäö])', '\\1\\2', tblock)
-            text_block_e = etree.SubElement(content_block_e, "textBlock")
-            text_block_e.text = tblock
+                for text_line in text_lines:
+                    #tblock.append("\n")
+                    strings = text_line.findall('.//{http://www.loc.gov/standards/alto/ns-v3#}String')
+                    for string in strings:
+                        content = string.attrib["CONTENT"]
+                        tblock.append(content)
+                    
+                
+                tblock = " ".join(tblock)
+                # Remove line breaks when next line starts with a small letter
+                tblock = re.sub('([a-zåäö,]) ?\n ?([a-zåäö])', '\\1 \\2', tblock)
+                tblock = re.sub('([a-zåäö,])- ([a-zåäö])', '\\1\\2', tblock)
+                text_block_e = etree.SubElement(content_block_e, "textBlock", ix=str(cb_ix))
+                text_block_e.text = tblock
     
-    if save:
+    if save and overwrite:
+        fname = "original.xml"
         s = etree.tostring(root, pretty_print=True, encoding="utf-8", xml_declaration=True).decode("utf-8")
         f = open(folder + fname, "w")
         f.write(s)

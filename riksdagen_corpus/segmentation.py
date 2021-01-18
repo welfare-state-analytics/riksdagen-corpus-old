@@ -14,6 +14,24 @@ from riksdagen_corpus.curation import get_curated_blocks
 import hashlib
 import copy
 
+def _is_metadata_block(txt0):
+    txt1 = re.sub("[^a-zA-ZåäöÅÄÖ ]+", "", txt0)
+    len0 = len(txt0)
+    if len0 == 0:
+        return False
+        
+    len1 = len(txt1)
+    len2 = len(txt0.strip())
+    if len2 == 0:
+        return False
+    
+    # Crude heuristic. Skip if
+    # a) over 15% is non alphabetic characters
+    # and b) length is under 150 characters
+    
+    # TODO: replace with ML algorithm
+    return float(len1) / float(len0) < 0.85 and len0 < 150
+    
 # Instance detection
 def find_instances_xml(root, pattern_db, protocol_id, mp_db=None):
     """
@@ -23,7 +41,7 @@ def find_instances_xml(root, pattern_db, protocol_id, mp_db=None):
         root: root of an lxml tree to be pattern matched.
         pattern_db: Patterns to be matched as a Pandas DataFrame.
     """
-    columns = ['filename', 'pattern', 'txt', "person"]
+    columns = ['package_id', 'pattern', 'txt', "person"]
     data = []
     names = []
     if mp_db is not None:
@@ -66,7 +84,7 @@ def find_instances_xml(root, pattern_db, protocol_id, mp_db=None):
                     
                     # Calculate digest for distringuishing patterns without ugly characters
                     pattern_digest = hashlib.md5(pattern.encode("utf-8")).hexdigest()[:16]
-                    d = {"filename": protocol_id, "pattern": pattern_digest, "txt": matched_txt, "person": person }
+                    d = {"package_id": protocol_id, "pattern": pattern_digest, "txt": matched_txt, "person": person }
                     data.append(d)
 
     return  pd.DataFrame(data, columns=columns)
@@ -168,7 +186,7 @@ def create_parlaclarin(teis, metadata):
     s = etree.tostring(teiCorpusTree, pretty_print=True, encoding="utf-8", xml_declaration=True).decode("utf-8")
     return s
     
-def create_tei(root, metadata, instance_db=pd.DataFrame(columns= ["filename", "pattern", "txt", "person"])):
+def create_tei(root, metadata, instance_db=pd.DataFrame(columns= ["package_id", "pattern", "txt", "person"])):
     """
     Create a Parla-Clarin TEI element from a list of segments.
 
@@ -244,15 +262,9 @@ def gen_parlaclarin_corpus(protocol_db, archive, instance_db, curation_instance_
         metadata = infer_metadata(package_id.replace("-", "_"))
         xml_files = fetch_files(package)
         
-        protocol = etree.Element("protocol")
-        for filename in xml_files:
-            if curation_instance_db is None:
-                page_content_blocks = get_blocks(filename, package, package_id)
-            else:
-                page_content_blocks = get_curated_blocks(filename, package, package_id, curation_instance_db)
-            protocol.append(page_content_blocks)
+        protocol = get_blocks(package, package_id)
         
-        current_instances = instance_db[instance_db["filename"] == package_id]
+        current_instances = instance_db[instance_db["package_id"] == package_id]
         print("create tei")
         tei = create_tei(protocol, metadata, instance_db=current_instances)
         teis.append(tei)
@@ -263,25 +275,11 @@ def gen_parlaclarin_corpus(protocol_db, archive, instance_db, curation_instance_
 
 def instance_workflow(package_id, archive, pattern_db, mp_db):
     package = archive.get(package_id)
-    metadata = infer_metadata(package_id.replace("-", "_"))
-    year = metadata["year"]
-    pattern_db = pattern_db[pattern_db["start"] <= year]
-    pattern_db = pattern_db[pattern_db["end"] >= year]
-    
-    print("Instance detenction, package:", package_id)
-    
-    mp_db = mp_db[mp_db["start"] <= year]
-    mp_db = mp_db[mp_db["end"] >= year]
     
     xml_files = fetch_files(package)
-    instance_dbs = []
-
-    for filename in xml_files:
-        page_content_blocks = get_blocks(filename, package, package_id)
-        instance_db = find_instances_xml(page_content_blocks, pattern_db, package_id, mp_db=mp_db)
-        instance_dbs.append(instance_db)
+    page_content_blocks = get_blocks(package, package_id)
+    instance_db = find_instances_xml(page_content_blocks, pattern_db, package_id, mp_db=mp_db)
     
-    instance_db = pd.concat(instance_dbs)
-    instance_db["filename"] = package_id
+    instance_db["package_id"] = package_id
     return instance_db
     

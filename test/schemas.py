@@ -22,7 +22,7 @@ class Test(unittest.TestCase):
         fname = "prot_198990__93-031.xml"
         
         # Package argument can be None since the file is already saved on disk
-        content_blocks = get_blocks(fname, None, package_id)
+        content_blocks = get_blocks(None, package_id)
         metadata = infer_metadata(fname)
         
         tei = create_tei(content_blocks, metadata)

@@ -21,24 +21,6 @@ def improvement(sentence, regexp):
     loss1 = _langmod_loss(sentence_suggestion)
 
     return loss0, loss1
-
-def _is_metadata_block(txt0):
-    txt1 = re.sub("[^a-zA-ZåäöÅÄÖ ]+", "", txt0)
-    len0 = len(txt0)
-    if len0 == 0:
-        return False
-        
-    len1 = len(txt1)
-    len2 = len(txt0.strip())
-    if len2 == 0:
-        return False
-    
-    # Crude heuristic. Skip if
-    # a) over 15% is non alphabetic characters
-    # and b) length is under 150 characters
-    
-    # TODO: replace with ML algorithm
-    return float(len1) / float(len0) < 0.85 and len0 < 150
     
 def find_instances(root, pattern_db, c_hashes = dict()):
     """
@@ -61,7 +43,9 @@ def find_instances(root, pattern_db, c_hashes = dict()):
             content_txt = '\n\n'.join(content_block.itertext())
             content_hash = hashlib.md5(content_txt.encode("utf-8")).hexdigest()
             
-            # Detect metadata
+            
+            # TODO: refactor to be part of segmentation. Detect metadata
+            """
             c_hashes[content_hash] = c_hashes.get(content_hash, 0) + 1
             recurring = c_hashes[content_hash] >= 3 and content_txt.strip() != ""
             is_metadata = _is_metadata_block(content_txt)
@@ -73,6 +57,7 @@ def find_instances(root, pattern_db, c_hashes = dict()):
                         d = {"pattern": "metadata", "txt": paragraph, "replacement": "" }
                         data.append(d)
                 break
+            """
             
             # Perform other curations
             for textBlock in content_block:
@@ -91,7 +76,9 @@ def find_instances(root, pattern_db, c_hashes = dict()):
 
 def apply_curations(root, instance_db):
     instances = list(instance_db.iterrows())
-
+    digest = hashlib.sha256(pd.util.hash_pandas_object(instance_db, index=True).values).hexdigest()
+    
+    root.attrib['curation'] = digest[:16]
     for textBlock in root.findall(".//textBlock"):
         paragraph = textBlock.text
         
@@ -106,27 +93,17 @@ def apply_curations(root, instance_db):
         textBlock.text = paragraph
     return root
     
-def get_curated_blocks(fname, package, package_id, instance_db):
+def get_curated_blocks(package, package_id, instance_db):
     instance_db = instance_db[instance_db["filename"] == package_id]
-    blocks = get_blocks(fname, package, package_id)
+    blocks = get_blocks(package, package_id)
     blocks = apply_curations(blocks, instance_db)
     return blocks
     
 def curation_workflow(package_id, archive, pattern_db):
-    print("Curating package", package_id)
     package = archive.get(package_id)
-    
-    xml_files = fetch_files(package)
-    instance_dbs = []
-    
-    c_hashes = dict()
-    for filename in xml_files:
-        page_content_blocks = get_blocks(filename, package, package_id)
-        instance_db = find_instances(page_content_blocks, pattern_db, c_hashes=c_hashes)
-        instance_dbs.append(instance_db)
-    
-    instance_db = pd.concat(instance_dbs)
-    instance_db["filename"] = package_id
+    page_content_blocks = get_blocks(package, package_id)
+    instance_db = find_instances(page_content_blocks, pattern_db)
+    instance_db["package_id"] = package_id
     instance_db = instance_db.drop_duplicates()
     return instance_db
     
