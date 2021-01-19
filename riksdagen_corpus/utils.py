@@ -9,6 +9,30 @@ import sys, re
 from bs4 import BeautifulSoup
 import pandas as pd
 
+def infer_metadata(filename):
+    metadata = dict()
+    filename = filename.replace("-", "_")
+    metadata["protocol"] = filename.split("/")[-1].split(".")[0]
+    split = filename.split("/")[-1].split("_")
+    
+    # Year
+    for s in split:
+        s = s[:4]
+        if s.isdigit():
+            year = int(s)
+            if year > 1800 and year < 2100:
+                metadata["year"] = year
+
+    # Chamber
+    metadata["chamber"] = None
+    if "_ak_" in filename:
+        metadata["chamber"] = "ak"
+    elif "_fk_" in filename:
+        metadata["chamber"] = "fk"
+    
+    metadata["number"] = int(split[-1])
+    return metadata
+
 def clean_html(raw_html):
     raw_html = raw_html.replace("\n", " NEWLINE ")
     cleanr = re.compile('<.*?>')

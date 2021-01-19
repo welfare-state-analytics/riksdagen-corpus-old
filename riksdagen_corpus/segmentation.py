@@ -103,31 +103,6 @@ def find_instances_html(filename, pattern_db):
     return instance_db
 
 # Parla Clarin generation
-def infer_metadata(filename):
-    metadata = dict()
-
-    metadata["protocol"] = filename.split("/")[-1].split(".")[0]
-    split = filename.split("/")[-1].split("_")
-    
-    # Year
-    for s in split:
-        s = s[:4]
-        if s.isdigit():
-            year = int(s)
-            if year > 1800 and year < 2100:
-                metadata["year"] = year
-
-    # Chamber
-    metadata["chamber"] = None
-    if "_ak_" in filename:
-        metadata["chamber"] = "ak"
-    elif "_fk_" in filename:
-        metadata["chamber"] = "fk"
-
-    # TODO: Month and day
-    # TODO: Day of the week
-    print("Metadata", metadata)
-    return metadata
 
 # Generate parla clarin header
 def _pc_header(metadata):

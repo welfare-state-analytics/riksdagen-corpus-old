@@ -36,16 +36,23 @@ def get_html_blocks(fpath):
         desc = "prot-" + desc
 
         root = etree.Element("protocol", id=desc)
-        contentBlock = etree.SubElement(root, "contentBlock", ix="0")
-
-        for ix, div in enumerate(tree.findall(".//pre")):
-            if div.text is not None:
-                textBlock = etree.SubElement(contentBlock, "textBlock", ix=str(ix))
-                tblock = re.sub('([a-zåäö,])- ?\n ?([a-zåäö])', '\\1\\2', div.text)
-                tblock = tblock.replace("\n", " ")
-                textBlock.text = tblock
+        
+        pres = tree.findall(".//pre")
+        if len(pres) > 0:
+            for ix, pre in enumerate(pres):
+                contentBlock = etree.SubElement(root, "contentBlock", ix=str(ix))
+                if pre.text is not None:
+                    contentBlock = etree.SubElement(contentBlock, "textBlock", ix=str(ix))
+                    tblocks = re.sub('([a-zåäö,])- ?\n ?([a-zåäö])', '\\1\\2', pre.text)
+                    tblocks = re.sub('([a-zåäö,]) ?\n ?([a-zåäö])', '\\1 \\2', tblocks)
+                    
+                    for tb_ix, tblock in enumerate(tblocks.split("\n")):
+                        tblock = tblock.replace("\n", " ")
+                        textBlock = etree.SubElement(contentBlock, "textBlock", ix=str(tb_ix))
+                        textBlock.text = tblock
 
         return root
+        
     else:
         return None
 
