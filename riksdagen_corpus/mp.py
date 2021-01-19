@@ -3,7 +3,7 @@ Handles the data on the members of parliament.
 """
 
 import pandas as pd
-import os
+import os, re
 import progressbar
 
 def create_database(path):
@@ -51,7 +51,11 @@ def create_database(path):
                     # Add name
                     datapoint.append(row[0])
                     # Add party
-                    datapoint.append(row[-1])
+                    possible_parties = [s for s in row if "f." not in s]
+                    party = possible_parties[-1]
+                    party = re.sub(r'\(.*?\)', '', party)
+                    party = re.sub(r'\[.*?\]', '', party).strip()
+                    datapoint.append(party)
                     # Add 'län' / region
                     datapoint.append(lan)
                     rows.append(datapoint)
@@ -96,8 +100,14 @@ def create_database(path):
         df["start"] = int(year_str[:4])
         df["end"] = int(year_str[-4:])
     elif len(year_str) == 4:
-        df["start"] = int(year_str)
-        df["end"] = int(year_str)
+        # TODO: Currently using +-3 year heuristic because exact terms
+        # are unavailable.
+        if chamber == "Första kammaren":
+            df["start"] = int(year_str) - 3
+            df["end"] = int(year_str) + 3
+        else:
+            df["start"] = int(year_str)
+            df["end"] = int(year_str)
     
     return df
 
