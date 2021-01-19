@@ -1,9 +1,9 @@
 import unittest
 
 from lxml import etree
-from riksdagen_corpus.utils import validate_xml_schema
+from riksdagen_corpus.utils import validate_xml_schema, infer_metadata
 from riksdagen_corpus.download import get_blocks
-from riksdagen_corpus.segmentation import create_tei, create_parlaclarin, infer_metadata
+from riksdagen_corpus.export import create_tei, create_parlaclarin
 
 class Test(unittest.TestCase):
 
@@ -23,7 +23,7 @@ class Test(unittest.TestCase):
         
         # Package argument can be None since the file is already saved on disk
         content_blocks = get_blocks(None, package_id)
-        metadata = infer_metadata(fname)
+        metadata = infer_metadata(fname.split(".")[0])
         
         tei = create_tei(content_blocks, metadata)
         parla_clarin_str = create_parlaclarin(tei, metadata)

@@ -1,92 +1,51 @@
-from riksdagen_corpus.download import login_to_archive
-from riksdagen_corpus.segmentation import instance_workflow, infer_metadata, gen_parlaclarin_corpus
 import pandas as pd
 import os
+import progressbar
+
+from riksdagen_corpus.download import login_to_archive
+from riksdagen_corpus.segmentation import find_instances
 from riksdagen_corpus.curation import curation_workflow, get_curated_blocks
+from riksdagen_corpus.export import gen_parlaclarin_corpus
+from riksdagen_corpus.utils import infer_metadata
+from riksdagen_corpus.db import load_db, save_db, load_patterns, year_iterator
+
 
 def curations(file_db, archive, pattern_db):
-    file_db_years = sorted(list(set(file_db["year"])))
-    print("Years to be iterated", file_db_years)
     instance_dbs = []
-    for corpus_year in file_db_years:
+    for corpus_year, package_ids, _ in year_iterator(file_db):
+        print("Curating year:", corpus_year)
         
-        year_db = file_db[file_db["year"] == corpus_year]
-        #year_db = year_db.head(3)
-        package_ids = year_db["package_id"]
-        package_ids = list(package_ids)
-        package_ids = sorted(package_ids)
+        for protocol_id in progressbar.progressbar(package_ids):
+            instance_db = curation_workflow(protocol_id, archive, pattern_db)
+            instance_dbs.append(instance_db)
 
-        year_folder = "db/curation/instances/"+ str(corpus_year) + "/"
-        if not os.path.exists(year_folder):
-            os.makedirs(year_folder)
+    return pd.concat(instance_dbs)
+
+def segmentations(file_db, archive, pattern_db, mp_db):
+    instance_dbs = []
+    for corpus_year, package_ids, _ in year_iterator(file_db):
+        print("Segmenting year:", corpus_year)
         
-        for package_id in package_ids:
-            instance_db = curation_workflow(package_id, archive, pattern_db)
-            instance_db.to_csv(year_folder + package_id + ".csv")
+        p_pattern_db = pattern_db[pattern_db["start"] <= corpus_year]
+        p_pattern_db = pattern_db[pattern_db["end"] >= corpus_year]
+        
+        p_mp_db = mp_db[mp_db["start"] <= corpus_year]
+        p_mp_db = p_mp_db[p_mp_db["end"] >= corpus_year]
+        print(p_mp_db)
+        
+        for protocol_id in progressbar.progressbar(package_ids):
+            instance_db = find_instances(protocol_id, archive, p_pattern_db, p_mp_db)
+            save_db(instance_db, protocol_id=protocol_id, phase="segmentation")
             instance_dbs.append(instance_db)
     
-    instance_db = pd.concat(instance_dbs)
-    print(instance_db)
+    return pd.concat(instance_dbs)
 
-    return instance_db
+def parlaclarin(file_db, archive, curations=None, segmentations=None):
+    for corpus_year, package_ids, year_db in year_iterator(file_db):
+        print("Generate corpus for year", corpus_year)
+        current_instances = pd.merge(segmentations, year_db, on=['protocol_id'])
+        current_curations = pd.merge(curations, year_db, on=['protocol_id'])
 
-def instances(file_db, archive, pattern_db, mp_db):
-    file_db_years = sorted(list(set(file_db["year"])))
-    print("Years to be iterated", file_db_years)
-    instance_dbs = []
-    for corpus_year in file_db_years:
-        year_db = file_db[file_db["year"] == corpus_year]
-        package_ids = year_db["package_id"]
-        package_ids = list(package_ids)
-        package_ids = sorted(package_ids)
-
-        year_folder = "db/segmentation/instances/"+ str(corpus_year) + "/"
-        if not os.path.exists(year_folder):
-            os.makedirs(year_folder)
-        
-        for package_id in package_ids:
-            metadata = infer_metadata(package_id)
-            instance_db = instance_workflow(package_id, archive, pattern_db, mp_db)
-            instance_db.to_csv(year_folder + package_id + ".csv")
-            instance_dbs.append(instance_db)
-    
-    instance_db = pd.concat(instance_dbs)
-    print(instance_db)
-
-    return instance_db
-
-def parlaclarin(file_db, archive, instance_db=None):
-    file_db_years = sorted(list(set(file_db["year"])))
-    #file_db_chambers = sorted(list(set(file_db["chamber"])))
-    print("Years to be iterated", file_db_years)
-    for corpus_year in file_db_years:
-    
-        year_db = file_db[file_db["year"] == corpus_year]
-        package_ids = year_db["package_id"]
-        package_ids = list(package_ids)
-        package_ids = sorted(package_ids)
-        
-        all_current_instances = []
-        
-        all_current_curations = []
-        for package_id in package_ids:
-            if instance_db is None:
-                year_folder = "db/segmentation/instances/"+ str(corpus_year) + "/"
-                current_instances = pd.read_csv(year_folder + package_id + ".csv")
-            else:
-                current_instances = instance_db[instance_db["filename"] == package_id]
-            all_current_instances.append(current_instances)
-            year_folder = "db/curation/instances/"+ str(corpus_year) + "/"
-            
-            current_curations = pd.read_csv(year_folder + package_id + ".csv")
-            all_current_curations.append(current_curations)
-            
-        
-        current_instances = pd.concat(all_current_instances)
-        current_curations = pd.concat(all_current_curations)
-        print(current_instances)
-        print(current_curations)
-        
         corpus_metadata = dict(
             document_title="Riksdagens protocols " + str(corpus_year),
             authority="National Library of Sweden and the WESTAC project",
@@ -101,31 +60,33 @@ def parlaclarin(file_db, archive, instance_db=None):
 
 if __name__ == "__main__":
     
-    file_db = pd.read_csv("db/protocols/files.csv")
+    file_db = pd.read_csv("db/protocols/scanned.csv")
     
-    start_year = 1980
-    end_year = 1989
+    start_year = 1960
+    end_year = 1960
     
     file_db = file_db[file_db["year"] >= start_year]
     file_db = file_db[file_db["year"] <= end_year]
     
     mp_db = pd.read_csv("db/mp/members_of_parliament.csv")
-    pattern_db = pd.read_json("db/segmentation/patterns.json", orient="records", lines=True)
     archive = login_to_archive()
     
-    if True:
-        curation_pattern_db = pd.read_json("db/curation/patterns.json", orient="records", lines=True)
-        curation_instance_db = curations(file_db, archive, curation_pattern_db)
+    if False:
+        curation_patterns = load_patterns(phase="curation")
+        curation_db = curations(file_db, archive, curation_patterns)
+        save_db(curation_db, year=1960, phase="curation")
     else:
-        curation_instance_db = None
+        curation_db = load_db(year=1960, phase="curation")
         
     if True:
-        instance_db = instances(file_db, archive, pattern_db, mp_db)
+        segmentation_patterns = load_patterns(phase="segmentation")
+        segmentation_db = segmentations(file_db, archive, segmentation_patterns, mp_db)
+        save_db(curation_db, year=1960, phase="curation")
     else:
-        instance_db = None
+        segmentation_db = load_db(year=1960, phase="segmentation")
     
     if True:
-        parlaclarin(file_db, archive, instance_db = instance_db)
+        parlaclarin(file_db, archive, curations=curation_db, segmentations=segmentation_db)
 
 
 

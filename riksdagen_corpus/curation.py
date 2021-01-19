@@ -43,22 +43,6 @@ def find_instances(root, pattern_db, c_hashes = dict()):
             content_txt = '\n\n'.join(content_block.itertext())
             content_hash = hashlib.md5(content_txt.encode("utf-8")).hexdigest()
             
-            
-            # TODO: refactor to be part of segmentation. Detect metadata
-            """
-            c_hashes[content_hash] = c_hashes.get(content_hash, 0) + 1
-            recurring = c_hashes[content_hash] >= 3 and content_txt.strip() != ""
-            is_metadata = _is_metadata_block(content_txt)
-            if recurring or is_metadata:
-                for textBlock in content_block:
-                    paragraph = textBlock.text
-                    if paragraph.strip() != "" and len(paragraph) > 8:
-                        #print("Skip c:", paragraph)
-                        d = {"pattern": "metadata", "txt": paragraph, "replacement": "" }
-                        data.append(d)
-                break
-            """
-            
             # Perform other curations
             for textBlock in content_block:
                 paragraph = textBlock.text
@@ -94,7 +78,7 @@ def apply_curations(root, instance_db):
     return root
     
 def get_curated_blocks(package, package_id, instance_db):
-    instance_db = instance_db[instance_db["filename"] == package_id]
+    instance_db = instance_db[instance_db["protocol_id"] == package_id]
     blocks = get_blocks(package, package_id)
     blocks = apply_curations(blocks, instance_db)
     return blocks
@@ -103,7 +87,7 @@ def curation_workflow(package_id, archive, pattern_db):
     package = archive.get(package_id)
     page_content_blocks = get_blocks(package, package_id)
     instance_db = find_instances(page_content_blocks, pattern_db)
-    instance_db["package_id"] = package_id
+    instance_db["protocol_id"] = package_id
     instance_db = instance_db.drop_duplicates()
     return instance_db
     

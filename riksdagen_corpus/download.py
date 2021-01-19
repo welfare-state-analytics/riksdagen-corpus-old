@@ -1,11 +1,10 @@
 import pandas as pd
-import os
-import shutil
+import os, re
+import shutil, getpass
+import kblab
+import progressbar
 from PyPDF2 import PdfFileReader, PdfFileWriter
 from lxml import etree
-import re
-import getpass
-import kblab
 from riksdagen_corpus.utils import read_html
 
 def login_to_archive():
@@ -129,33 +128,20 @@ def count_pages(start, end):
     
     rows = []
     
-    now = time.time()
-    diffs = []
-    for year in years:
+    for year in progressbar.progressbar(years):
         params = { 'tags': 'protokoll', 'meta.created': str(year)}
-        package_ids = archive.search(params, max=200)
+        package_ids = archive.search(params, max=365)
         
         for package_id in package_ids:
-            #print("Id:", package_id)
-            
             package = archive.get(package_id)
             filelist = package.list()
             
             jp2list = [f for f in filelist if f.split(".")[-1] == "jp2"]
             page_count = len(jp2list)
-            #print("Length of jp2 file list", page_count)
             
             rows.append([package_id, year, page_count])
-            
-        then = now
-        now = time.time()
-        diffs.append(now - then)
-        
-        avg_diff = np.mean(diffs[-5:])
-        
-        print("Year", year, "; avg time", avg_diff, "; to go", avg_diff * (end-year - 1) )
-            
-    columns = ["package_id", "year", "pages"]
+    
+    columns = ["protocol_id", "year", "pages"]
     db_pages = pd.DataFrame(rows, columns=columns)
     return db_pages
 
