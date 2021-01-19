@@ -6,6 +6,7 @@ import progressbar, copy
 from lxml import etree
 from riksdagen_corpus.utils import infer_metadata
 from riksdagen_corpus.download import get_blocks, fetch_files, login_to_archive
+from riksdagen_corpus.curation import apply_curations
 from riksdagen_corpus.segmentation import apply_instances
 
 # Generate parla clarin header
@@ -118,7 +119,7 @@ def create_tei(root, metadata):
                     seg.text = paragraph
     return tei
 
-def gen_parlaclarin_corpus(protocol_db, archive, instance_db, curation_instance_db=None, corpus_metadata=dict(), str_output=True):
+def gen_parlaclarin_corpus(protocol_db, archive, instance_db, curation_db=None, corpus_metadata=dict(), str_output=True):
     teis = []
     print("Pages in total", protocol_db["pages"].sum())
     
@@ -129,6 +130,7 @@ def gen_parlaclarin_corpus(protocol_db, archive, instance_db, curation_instance_
         metadata = infer_metadata(protocol_id)
         xml_files = fetch_files(package)
         protocol = get_blocks(package, protocol_id)
+        protocol = apply_curations(protocol, curation_db)
         protocol = apply_instances(protocol, instance_db)
         tei = create_tei(protocol, metadata)
         teis.append(tei)

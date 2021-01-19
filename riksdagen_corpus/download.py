@@ -110,7 +110,7 @@ def get_blocks(package, package_id, load=True, save=True):
                 # Remove line breaks when next line starts with a small letter
                 tblock = re.sub('([a-zåäö,]) ?\n ?([a-zåäö])', '\\1 \\2', tblock)
                 tblock = re.sub('([a-zåäö,])- ([a-zåäö])', '\\1\\2', tblock)
-                text_block_e = etree.SubElement(content_block_e, "textBlock", ix=str(cb_ix))
+                text_block_e = etree.SubElement(content_block_e, "textBlock", ix=str(tb_ix))
                 text_block_e.text = tblock
     
     if save and overwrite:

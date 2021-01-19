@@ -4,7 +4,7 @@ import progressbar
 
 from riksdagen_corpus.download import login_to_archive
 from riksdagen_corpus.segmentation import find_instances
-from riksdagen_corpus.curation import curation_workflow, get_curated_blocks
+from riksdagen_corpus.curation import curation_workflow
 from riksdagen_corpus.export import gen_parlaclarin_corpus
 from riksdagen_corpus.utils import infer_metadata
 from riksdagen_corpus.db import load_db, save_db, load_patterns, year_iterator
@@ -51,7 +51,7 @@ def parlaclarin(file_db, archive, curations=None, segmentations=None):
             authority="National Library of Sweden and the WESTAC project",
             correction="Some data curation was done. It is documented in db/curation/instances"
         )
-        parla_clarin_str = gen_parlaclarin_corpus(year_db, archive, current_instances, corpus_metadata=corpus_metadata, curation_instance_db=current_curations)
+        parla_clarin_str = gen_parlaclarin_corpus(year_db, archive, current_instances, corpus_metadata=corpus_metadata, curation_db=current_curations)
         
         parlaclarin_path = "data/parla-clarin/" + "corpus" + str(corpus_year) + ".xml"
         f = open(parlaclarin_path, "w")
@@ -62,8 +62,8 @@ if __name__ == "__main__":
     
     file_db = pd.read_csv("db/protocols/scanned.csv")
     
-    start_year = 1960
-    end_year = 1960
+    start_year = 1920
+    end_year = 1990
     
     file_db = file_db[file_db["year"] >= start_year]
     file_db = file_db[file_db["year"] <= end_year]
@@ -71,17 +71,19 @@ if __name__ == "__main__":
     mp_db = pd.read_csv("db/mp/members_of_parliament.csv")
     archive = login_to_archive()
     
-    if False:
+    if True:
         curation_patterns = load_patterns(phase="curation")
+        print(curation_patterns)
         curation_db = curations(file_db, archive, curation_patterns)
         save_db(curation_db, year=1960, phase="curation")
+        print(curation_db)
     else:
         curation_db = load_db(year=1960, phase="curation")
         
     if True:
         segmentation_patterns = load_patterns(phase="segmentation")
         segmentation_db = segmentations(file_db, archive, segmentation_patterns, mp_db)
-        save_db(curation_db, year=1960, phase="curation")
+        save_db(segmentation_db, year=1960, phase="segmentation")
     else:
         segmentation_db = load_db(year=1960, phase="segmentation")
     

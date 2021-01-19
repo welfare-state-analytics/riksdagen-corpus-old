@@ -3,11 +3,11 @@ Provides functions for the curation of the parliamentary data.
 """
 
 import pandas as pd
-import re
+import re, hashlib
 from os import listdir
+from lxml import etree
 from os.path import isfile, join
 from riksdagen_corpus.download import get_blocks, fetch_files, login_to_archive
-import hashlib
 
 def _langmod_loss(sentence):
     return 0.0
@@ -32,57 +32,70 @@ def find_instances(root, pattern_db, c_hashes = dict()):
     """
     columns=["pattern", "txt", "replacement"]
     data = []
-    
-    for row in pattern_db.iterrows():
-        row = row[1]
+    protocol_id = root.attrib["id"]
+    expressions = dict()
+    for _, row in pattern_db.iterrows():
         pattern = row['pattern']
-        
+        replacement = row['replacement']
         exp = re.compile(pattern)
-        
-        for content_block in root.findall(".//contentBlock"):
-            content_txt = '\n\n'.join(content_block.itertext())
-            content_hash = hashlib.md5(content_txt.encode("utf-8")).hexdigest()
-            
-            # Perform other curations
-            for textBlock in content_block:
-                paragraph = textBlock.text
+        #Calculate digest for distringuishing patterns without ugly characters
+        pattern_digest = hashlib.md5(pattern.encode("utf-8")).hexdigest()[:16]
+        expressions[pattern_digest] = (exp, replacement)
+    
+    for content_block in root:
+        cb_ix = content_block.attrib["ix"]
+        page = content_block.attrib["page"]
+        #content_txt = '\n'.join(content_block.itertext())
+        for textblock in content_block:
+            tb_ix = textblock.attrib["ix"]
+            paragraph = textblock.text
+            for pattern_digest, exp_tuple in expressions.items():
+                exp, outpattern = exp_tuple
                 for m in exp.finditer(paragraph):
-                
                     matched_txt = m.group()
-                    replacement = exp.sub(row['replacement'], matched_txt)
+                    replacement = exp.sub(outpattern, matched_txt)
                     
-                    # Calculate digest for distringuishing patterns without ugly characters
-                    pattern_digest = hashlib.md5(pattern.encode("utf-8")).hexdigest()[:16]
-                    d = {"pattern": pattern_digest, "txt": matched_txt, "replacement": replacement }
+                    d = {"protocol_id": protocol_id,
+                    "pattern": pattern_digest,
+                    "txt": matched_txt,
+                    "replacement": replacement,
+                    "page": int(page),
+                    "cb_ix": int(cb_ix),
+                    "tb_ix": int(tb_ix)}
                     data.append(d)
-                
-    return pd.DataFrame(data=data, columns=["pattern", "txt", "replacement"])
+    
+    columns = ["pattern", "txt", "replacement", "page", "cb_ix", "tb_ix"]
+    return pd.DataFrame(data=data, columns=columns)
 
-def apply_curations(root, instance_db):
-    instances = list(instance_db.iterrows())
-    digest = hashlib.sha256(pd.util.hash_pandas_object(instance_db, index=True).values).hexdigest()
-    
-    root.attrib['curation'] = digest[:16]
-    for textBlock in root.findall(".//textBlock"):
-        paragraph = textBlock.text
-        
-        for ix, row in instances:
+def apply_curations(protocol, instance_db):
+    protocol_id = protocol.attrib["id"]
+    applicable_instances = instance_db[instance_db["protocol_id"] == protocol_id]
+    for _, row in applicable_instances.iterrows():
+        cb_ix = row["cb_ix"]
+        page = row["page"]
+        for content_block in protocol.xpath("contentBlock[@ix='" + str(cb_ix) + "' and @page='" + str(page) + "' ]"):
+            target = content_block
+            tb_ix = row["tb_ix"]
+            if not pd.isna(tb_ix):
+                if len(content_block) > tb_ix:
+                    target = content_block[tb_ix]
+                else:
+                    print("WARN: curation omitted p", page, "cb", cb_ix, "tb", tb_ix)
+                    break
+            
             txt = row["txt"]
-            if txt in paragraph:
-                replacement = row["replacement"]
-                if type(replacement) != str:
-                    replacement = ""
-                paragraph = paragraph.replace(txt, replacement)
-        
-        textBlock.text = paragraph
-    return root
+            replacement = row["replacement"]
+            paragraph = target.text
+            paragraph = paragraph.replace(txt, replacement)
+            target.text = paragraph
     
-def get_curated_blocks(package, package_id, instance_db):
-    instance_db = instance_db[instance_db["protocol_id"] == package_id]
-    blocks = get_blocks(package, package_id)
-    blocks = apply_curations(blocks, instance_db)
-    return blocks
-    
+    if protocol_id == "prot-1960--fk--19":
+        f = open("prot-1960--fk--19-curation.xml", "wb")
+        b = etree.tostring(protocol, encoding="utf-8", pretty_print=True)
+        f.write(b)
+        f.close()
+    return protocol
+
 def curation_workflow(package_id, archive, pattern_db):
     package = archive.get(package_id)
     page_content_blocks = get_blocks(package, package_id)

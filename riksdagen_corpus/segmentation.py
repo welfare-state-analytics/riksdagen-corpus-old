@@ -13,7 +13,6 @@ from os.path import isfile, join
 from lxml import etree
 from riksdagen_corpus.mp import detect_mp
 from riksdagen_corpus.download import get_blocks, fetch_files, login_to_archive
-from riksdagen_corpus.curation import get_curated_blocks
 from riksdagen_corpus.utils import infer_metadata
 
 def _is_metadata_block(txt0):
@@ -72,21 +71,25 @@ def find_instances_xml(root, pattern_db, mp_db=None):
     
     mp_db = mp_db[mp_db["chamber"] == metadata["chamber"]]
     names = mp_db["name"]
-        
+    
+    expressions = dict()
+    for _, row in pattern_db.iterrows():
+        pattern = row['pattern']
+        exp = re.compile(pattern)
+        #Calculate digest for distringuishing patterns without ugly characters
+        pattern_digest = hashlib.md5(pattern.encode("utf-8")).hexdigest()[:16]
+        expressions[pattern_digest] = exp
+    
     for content_block in root:
         cb_ix = content_block.attrib["ix"]
         page = content_block.attrib["page"]
         content_txt = '\n'.join(content_block.itertext())
         if not _is_metadata_block(content_txt):
-            for _, row in pattern_db.iterrows():
-                pattern = row['pattern']
-                exp = re.compile(pattern)
+            for pattern_digest, exp in expressions.items():
                 for m in exp.finditer(content_txt):
                     matched_txt = m.group()
                     person = _detect_mp(matched_txt, names)
                     
-                    # Calculate digest for distringuishing patterns without ugly characters
-                    pattern_digest = hashlib.md5(pattern.encode("utf-8")).hexdigest()[:16]
                     d = {"protocol_id": protocol_id,
                     "pattern": pattern_digest,
                     "who": person,
@@ -100,7 +103,7 @@ def find_instances_xml(root, pattern_db, mp_db=None):
             d["page"] = int(page)
             data.append(d)
 
-    return  pd.DataFrame(data, columns=columns)
+    return pd.DataFrame(data, columns=columns)
 
 def find_instances_html(filename, pattern_db):
     """
