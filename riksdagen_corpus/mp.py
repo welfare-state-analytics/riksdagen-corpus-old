@@ -55,7 +55,10 @@ def create_database(path):
                     party = possible_parties[-1]
                     party = re.sub(r'\(.*?\)', '', party)
                     party = re.sub(r'\[.*?\]', '', party).strip()
-                    datapoint.append(party)
+                    if len(party) < 4 or party.lower() != party:
+                        datapoint.append(party)
+                    else:
+                        datapoint.append(None)
                     # Add 'län' / region
                     datapoint.append(lan)
                     rows.append(datapoint)
@@ -151,6 +154,24 @@ def add_gender(mp_db, names):
 
     return mp_db
 
+def replace_party_abbreviations(mp_db, party_db):
+    print("Replace party abbreviations...")
+    party_dict = dict()
+    for _, row in party_db.iterrows():
+        party = row["party"]
+        abbreviation = row["abbreviation"]
+        party_dict[abbreviation] = party
+    
+    
+    for i, row in progressbar.progressbar(list(mp_db.iterrows())):
+        current_party = row["party"]
+        if type(current_party) == str:
+            # Check if 'party' attribute is in the list of abbreviations
+            row_party = current_party.strip().lower()
+            if row_party in party_dict:
+                mp_db.loc[i, 'party'] = party_dict[row_party]
+    
+    return mp_db
 
 def detect_mp(introduction, metadata, mp_db):
     """
