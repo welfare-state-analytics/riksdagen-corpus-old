@@ -1,42 +1,305 @@
-,package_id,pattern,txt,person
-0,prot-198182--173,f0d538d10bda4e34, 57 STIG JOSEFSON (c):,Stig Josefson
-1,prot-198182--173,f0d538d10bda4e34,GRETA LEIJON (s):,Anna-Greta Leijon
-2,prot-198182--173,f0d538d10bda4e34, 64 ALF WENNERFORS (m):,Alf Wennerfors
-3,prot-198182--173,f0d538d10bda4e34, 73 ELVER JONSSON (fp):,Elver Jonsson
-4,prot-198182--173,f0d538d10bda4e34, 80 ERIK JOHANSSON (s):,Erik Johansson
-5,prot-198182--173,f0d538d10bda4e34, 81 ARNE FRANSSON (c):,Arne Fransson
-6,prot-198182--173,f0d538d10bda4e34, 88 OSKAR LINDKVIST (s):,Oskar Lindkvist
-7,prot-198182--173,f0d538d10bda4e34, 89 KNUT BILLING (m):,Knut Billing
-8,prot-198182--173,f0d538d10bda4e34, 90 TORE CLAESON (vpk):,Tore Claeson
-9,prot-198182--173,f0d538d10bda4e34, 91 KJELL MATTSSON (c):,Kjell A. Mattsson
-10,prot-198182--173,f0d538d10bda4e34, 96 NILS HJORTH (s):,Nils Hjorth
-11,prot-198182--173,f0d538d10bda4e34, 97 TORSTEN BENGTSON (c):,
-12,prot-198182--173,f0d538d10bda4e34,ANDERS PETERSSON (c):,Jenny Petersson
-13,prot-198182--173,f0d538d10bda4e34, 99 HAGAR NORMARK (s):,Hagar Normark
-14,prot-198182--173,f0d538d10bda4e34, 100 WILHELM GUSTAFSSON (fp):,Wilhelm Gustafsson
-15,prot-198182--173,f0d538d10bda4e34, 101 HAGAR NORMARK (s):,Hagar Normark
-16,prot-198182--173,f0d538d10bda4e34, 102 WILHELM GUSTAFSSON (fp):,Wilhelm Gustafsson
-17,prot-198182--173,f0d538d10bda4e34, 103 HAGAR NORMARK (s):,Hagar Normark
-18,prot-198182--173,f0d538d10bda4e34, 104 WILHELM GUSTAFSSON (fp):,Wilhelm Gustafsson
-19,prot-198182--173,d84fc8cb7cb8f0d1,GRETA LEIJON (s) replik:,Anna-Greta Leijon
-20,prot-198182--173,d84fc8cb7cb8f0d1,GRETA LEIJON (s) replik:,Anna-Greta Leijon
-21,prot-198182--173,d84fc8cb7cb8f0d1,GRETA LEIJON (s) replik:,Anna-Greta Leijon
-22,prot-198182--173,d84fc8cb7cb8f0d1, 67 ALF WENNERFORS (m) replik:,Alf Wennerfors
-23,prot-198182--173,d84fc8cb7cb8f0d1,GRETA LEIJON (s) replik:,Anna-Greta Leijon
-24,prot-198182--173,d84fc8cb7cb8f0d1, 70 ALF WENNERFORS (m) replik:,Alf Wennerfors
-25,prot-198182--173,d84fc8cb7cb8f0d1,GRETA LEIJON (s) replik:,Anna-Greta Leijon
-26,prot-198182--173,d84fc8cb7cb8f0d1, 75 ALF WENNERFORS (m) replik:,Alf Wennerfors
-27,prot-198182--173,d84fc8cb7cb8f0d1, 76 ELVER JONSSON (fp) replik:,Elver Jonsson
-28,prot-198182--173,d84fc8cb7cb8f0d1, 77 ALF WENNERFORS (m) replik:,Alf Wennerfors
-29,prot-198182--173,d84fc8cb7cb8f0d1,GRETA LEIJON (s) replik:,Anna-Greta Leijon
-30,prot-198182--173,d84fc8cb7cb8f0d1, 79 ELVER JONSSON (fp) replik:,Elver Jonsson
-31,prot-198182--173,d84fc8cb7cb8f0d1, 82 ERIK JOHANSSON (s) replik:,Erik Johansson
-32,prot-198182--173,d84fc8cb7cb8f0d1, 83 ALF WENNERFORS (m) replik:,Alf Wennerfors
-33,prot-198182--173,d84fc8cb7cb8f0d1, 84 ARNE FRANSSON (c) replik:,Arne Fransson
-34,prot-198182--173,d84fc8cb7cb8f0d1, 85 ERIK JOHANSSON (s) replik:,Erik Johansson
-35,prot-198182--173,d84fc8cb7cb8f0d1, 86 ALF WENNERFORS (m) replik:,Alf Wennerfors
-36,prot-198182--173,d84fc8cb7cb8f0d1, 87 ARNE FRANSSON (c) replik:,Arne Fransson
-37,prot-198182--173,d84fc8cb7cb8f0d1, 92 KNUT BILLING (m) replik:,Knut Billing
-38,prot-198182--173,d84fc8cb7cb8f0d1, 93 TORE CLAESON (vpk) replik:,Tore Claeson
-39,prot-198182--173,d84fc8cb7cb8f0d1, 94 KJELL MATTSSON (c) replik:,Kjell A. Mattsson
-40,prot-198182--173,d84fc8cb7cb8f0d1, 95 KNUT BILLING (m) replik:,Knut Billing
+protocol_id,page,cb_ix,tb_ix,pattern,segmentation,who
+prot-198182--173,0,3,,,metadata,
+prot-198182--173,0,6,,,metadata,
+prot-198182--173,0,7,,,metadata,
+prot-198182--173,0,8,,,metadata,
+prot-198182--173,0,11,,,metadata,
+prot-198182--173,0,12,,,metadata,
+prot-198182--173,0,14,,,metadata,
+prot-198182--173,0,15,,,metadata,
+prot-198182--173,0,16,,,metadata,
+prot-198182--173,2,1,,,metadata,
+prot-198182--173,2,3,,,metadata,
+prot-198182--173,2,4,,,metadata,
+prot-198182--173,2,5,,,metadata,
+prot-198182--173,2,6,,,metadata,
+prot-198182--173,2,7,,,metadata,
+prot-198182--173,3,2,,,metadata,
+prot-198182--173,3,3,,,metadata,
+prot-198182--173,3,5,,,metadata,
+prot-198182--173,3,8,,,metadata,
+prot-198182--173,3,9,,,metadata,
+prot-198182--173,3,10,,,metadata,
+prot-198182--173,3,11,,,metadata,
+prot-198182--173,3,13,,,metadata,
+prot-198182--173,4,2,,,metadata,
+prot-198182--173,4,3,,,metadata,
+prot-198182--173,4,4,,,metadata,
+prot-198182--173,4,5,,,metadata,
+prot-198182--173,4,7,,f0d538d10bda4e34,speech_start,Stig Josefson
+prot-198182--173,5,3,,,metadata,
+prot-198182--173,5,4,,,metadata,
+prot-198182--173,5,5,,,metadata,
+prot-198182--173,5,6,,,metadata,
+prot-198182--173,6,1,,,metadata,
+prot-198182--173,6,2,,,metadata,
+prot-198182--173,6,3,,,metadata,
+prot-198182--173,6,4,,,metadata,
+prot-198182--173,6,5,,f0d538d10bda4e34,speech_start,Anna-Greta Leijon
+prot-198182--173,7,4,,,metadata,
+prot-198182--173,7,5,,,metadata,
+prot-198182--173,7,6,,,metadata,
+prot-198182--173,7,7,,,metadata,
+prot-198182--173,8,2,,,metadata,
+prot-198182--173,8,3,,,metadata,
+prot-198182--173,8,4,,,metadata,
+prot-198182--173,8,5,,,metadata,
+prot-198182--173,9,2,,,metadata,
+prot-198182--173,9,3,,,metadata,
+prot-198182--173,9,4,,,metadata,
+prot-198182--173,9,5,,,metadata,
+prot-198182--173,10,1,,,metadata,
+prot-198182--173,10,2,,,metadata,
+prot-198182--173,10,3,,,metadata,
+prot-198182--173,10,4,,,metadata,
+prot-198182--173,10,6,,d84fc8cb7cb8f0d1,speech_start,Anna-Greta Leijon
+prot-198182--173,11,5,,,metadata,
+prot-198182--173,11,6,,,metadata,
+prot-198182--173,11,7,,,metadata,
+prot-198182--173,11,8,,,metadata,
+prot-198182--173,12,1,,,metadata,
+prot-198182--173,12,2,,,metadata,
+prot-198182--173,12,3,,,metadata,
+prot-198182--173,12,4,,,metadata,
+prot-198182--173,12,7,,d84fc8cb7cb8f0d1,speech_start,Anna-Greta Leijon
+prot-198182--173,13,4,,,metadata,
+prot-198182--173,13,5,,,metadata,
+prot-198182--173,13,6,,,metadata,
+prot-198182--173,13,7,,,metadata,
+prot-198182--173,14,1,,,metadata,
+prot-198182--173,14,2,,,metadata,
+prot-198182--173,14,3,,,metadata,
+prot-198182--173,14,4,,,metadata,
+prot-198182--173,14,5,,,metadata,
+prot-198182--173,14,9,,f0d538d10bda4e34,speech_start,Alf Wennerfors
+prot-198182--173,15,4,,,metadata,
+prot-198182--173,15,5,,,metadata,
+prot-198182--173,15,6,,,metadata,
+prot-198182--173,15,7,,,metadata,
+prot-198182--173,16,2,,,metadata,
+prot-198182--173,16,3,,,metadata,
+prot-198182--173,16,5,,,metadata,
+prot-198182--173,16,6,,,metadata,
+prot-198182--173,16,8,,d84fc8cb7cb8f0d1,speech_start,Anna-Greta Leijon
+prot-198182--173,16,9,,d84fc8cb7cb8f0d1,speech_start,Alf Wennerfors
+prot-198182--173,17,2,,d84fc8cb7cb8f0d1,speech_start,Anna-Greta Leijon
+prot-198182--173,17,5,,,metadata,
+prot-198182--173,17,6,,,metadata,
+prot-198182--173,17,7,,,metadata,
+prot-198182--173,17,8,,,metadata,
+prot-198182--173,18,1,,,metadata,
+prot-198182--173,18,2,,,metadata,
+prot-198182--173,18,3,,,metadata,
+prot-198182--173,18,4,,,metadata,
+prot-198182--173,18,6,,d84fc8cb7cb8f0d1,speech_start,Alf Wennerfors
+prot-198182--173,19,5,,,metadata,
+prot-198182--173,19,6,,,metadata,
+prot-198182--173,19,7,,,metadata,
+prot-198182--173,19,8,,,metadata,
+prot-198182--173,20,1,,,metadata,
+prot-198182--173,20,2,,,metadata,
+prot-198182--173,20,3,,,metadata,
+prot-198182--173,20,4,,,metadata,
+prot-198182--173,21,4,,,metadata,
+prot-198182--173,21,5,,,metadata,
+prot-198182--173,21,6,,,metadata,
+prot-198182--173,21,7,,,metadata,
+prot-198182--173,22,3,,,metadata,
+prot-198182--173,22,4,,,metadata,
+prot-198182--173,22,5,,,metadata,
+prot-198182--173,22,6,,,metadata,
+prot-198182--173,23,4,,,metadata,
+prot-198182--173,23,5,,,metadata,
+prot-198182--173,23,6,,,metadata,
+prot-198182--173,23,7,,,metadata,
+prot-198182--173,24,2,,,metadata,
+prot-198182--173,24,3,,,metadata,
+prot-198182--173,24,4,,,metadata,
+prot-198182--173,24,5,,,metadata,
+prot-198182--173,24,6,,f0d538d10bda4e34,speech_start,Elver Jonsson
+prot-198182--173,25,4,,,metadata,
+prot-198182--173,25,5,,,metadata,
+prot-198182--173,25,6,,,metadata,
+prot-198182--173,25,7,,,metadata,
+prot-198182--173,26,1,,,metadata,
+prot-198182--173,26,2,,,metadata,
+prot-198182--173,26,3,,,metadata,
+prot-198182--173,26,4,,,metadata,
+prot-198182--173,26,5,,,metadata,
+prot-198182--173,26,7,,d84fc8cb7cb8f0d1,speech_start,Anna-Greta Leijon
+prot-198182--173,27,3,,d84fc8cb7cb8f0d1,speech_start,Alf Wennerfors
+prot-198182--173,27,4,,d84fc8cb7cb8f0d1,speech_start,Elver Jonsson
+prot-198182--173,27,5,,,metadata,
+prot-198182--173,27,6,,,metadata,
+prot-198182--173,27,7,,,metadata,
+prot-198182--173,27,8,,,metadata,
+prot-198182--173,27,9,,,metadata,
+prot-198182--173,28,2,,,metadata,
+prot-198182--173,28,3,,,metadata,
+prot-198182--173,28,4,,,metadata,
+prot-198182--173,28,5,,,metadata,
+prot-198182--173,28,7,,d84fc8cb7cb8f0d1,speech_start,Alf Wennerfors
+prot-198182--173,29,2,,d84fc8cb7cb8f0d1,speech_start,Anna-Greta Leijon
+prot-198182--173,29,3,,d84fc8cb7cb8f0d1,speech_start,Elver Jonsson
+prot-198182--173,29,5,,,metadata,
+prot-198182--173,29,6,,,metadata,
+prot-198182--173,29,7,,,metadata,
+prot-198182--173,29,8,,,metadata,
+prot-198182--173,30,2,,,metadata,
+prot-198182--173,30,3,,,metadata,
+prot-198182--173,30,4,,,metadata,
+prot-198182--173,30,5,,,metadata,
+prot-198182--173,30,7,,f0d538d10bda4e34,speech_start,Ulla Johansson
+prot-198182--173,31,3,,,metadata,
+prot-198182--173,31,4,,,metadata,
+prot-198182--173,31,5,,,metadata,
+prot-198182--173,31,6,,,metadata,
+prot-198182--173,32,3,,,metadata,
+prot-198182--173,32,4,,,metadata,
+prot-198182--173,32,5,,,metadata,
+prot-198182--173,32,6,,,metadata,
+prot-198182--173,32,8,,f0d538d10bda4e34,speech_start,Arne Fransson
+prot-198182--173,33,4,,,metadata,
+prot-198182--173,33,5,,,metadata,
+prot-198182--173,33,6,,,metadata,
+prot-198182--173,33,7,,,metadata,
+prot-198182--173,34,2,,,metadata,
+prot-198182--173,34,3,,,metadata,
+prot-198182--173,34,4,,,metadata,
+prot-198182--173,34,5,,,metadata,
+prot-198182--173,35,3,,d84fc8cb7cb8f0d1,speech_start,Ulla Johansson
+prot-198182--173,35,5,,,metadata,
+prot-198182--173,35,6,,,metadata,
+prot-198182--173,35,7,,,metadata,
+prot-198182--173,35,8,,,metadata,
+prot-198182--173,36,2,,,metadata,
+prot-198182--173,36,3,,,metadata,
+prot-198182--173,36,4,,,metadata,
+prot-198182--173,36,5,,,metadata,
+prot-198182--173,36,7,,d84fc8cb7cb8f0d1,speech_start,Alf Wennerfors
+prot-198182--173,36,8,,d84fc8cb7cb8f0d1,speech_start,Arne Fransson
+prot-198182--173,37,3,,d84fc8cb7cb8f0d1,speech_start,Ulla Johansson
+prot-198182--173,37,4,,d84fc8cb7cb8f0d1,speech_start,Alf Wennerfors
+prot-198182--173,37,5,,d84fc8cb7cb8f0d1,speech_start,Arne Fransson
+prot-198182--173,37,7,,,metadata,
+prot-198182--173,37,8,,,metadata,
+prot-198182--173,37,9,,,metadata,
+prot-198182--173,37,10,,,metadata,
+prot-198182--173,38,1,,,metadata,
+prot-198182--173,38,2,,,metadata,
+prot-198182--173,38,3,,,metadata,
+prot-198182--173,38,4,,,metadata,
+prot-198182--173,38,7,,f0d538d10bda4e34,speech_start,Oskar Lindkvist
+prot-198182--173,39,3,,,metadata,
+prot-198182--173,39,4,,,metadata,
+prot-198182--173,39,5,,,metadata,
+prot-198182--173,39,6,,,metadata,
+prot-198182--173,40,1,,,metadata,
+prot-198182--173,40,2,,,metadata,
+prot-198182--173,40,3,,,metadata,
+prot-198182--173,40,4,,,metadata,
+prot-198182--173,40,7,,f0d538d10bda4e34,speech_start,Knut Billing
+prot-198182--173,41,2,,f0d538d10bda4e34,speech_start,Tore Claeson
+prot-198182--173,41,4,,,metadata,
+prot-198182--173,41,5,,,metadata,
+prot-198182--173,41,6,,,metadata,
+prot-198182--173,41,7,,,metadata,
+prot-198182--173,42,1,,,metadata,
+prot-198182--173,42,2,,,metadata,
+prot-198182--173,42,3,,,metadata,
+prot-198182--173,42,4,,,metadata,
+prot-198182--173,43,2,,,metadata,
+prot-198182--173,43,4,,,metadata,
+prot-198182--173,43,5,,,metadata,
+prot-198182--173,43,6,,,metadata,
+prot-198182--173,43,7,,,metadata,
+prot-198182--173,44,2,,,metadata,
+prot-198182--173,44,3,,,metadata,
+prot-198182--173,44,4,,,metadata,
+prot-198182--173,44,5,,,metadata,
+prot-198182--173,44,7,,f0d538d10bda4e34,speech_start,Kjell A. Mattsson
+prot-198182--173,45,4,,,metadata,
+prot-198182--173,45,5,,,metadata,
+prot-198182--173,45,6,,,metadata,
+prot-198182--173,45,7,,,metadata,
+prot-198182--173,46,1,,,metadata,
+prot-198182--173,46,2,,,metadata,
+prot-198182--173,46,3,,,metadata,
+prot-198182--173,46,4,,,metadata,
+prot-198182--173,46,7,,d84fc8cb7cb8f0d1,speech_start,Knut Billing
+prot-198182--173,46,8,,d84fc8cb7cb8f0d1,speech_start,Tore Claeson
+prot-198182--173,46,9,,d84fc8cb7cb8f0d1,speech_start,Kjell A. Mattsson
+prot-198182--173,46,10,,d84fc8cb7cb8f0d1,speech_start,Knut Billing
+prot-198182--173,47,1,,f0d538d10bda4e34,speech_start,Nils Hjorth
+prot-198182--173,47,2,,,metadata,
+prot-198182--173,47,4,,,metadata,
+prot-198182--173,47,5,,,metadata,
+prot-198182--173,47,6,,,metadata,
+prot-198182--173,47,7,,,metadata,
+prot-198182--173,48,2,,,metadata,
+prot-198182--173,48,3,,,metadata,
+prot-198182--173,48,5,,,metadata,
+prot-198182--173,49,2,,,metadata,
+prot-198182--173,49,3,,f0d538d10bda4e34,speech_start,
+prot-198182--173,49,4,,,metadata,
+prot-198182--173,49,5,,,metadata,
+prot-198182--173,49,6,,,metadata,
+prot-198182--173,49,7,,,metadata,
+prot-198182--173,50,2,,,metadata,
+prot-198182--173,50,3,,,metadata,
+prot-198182--173,50,4,,,metadata,
+prot-198182--173,50,5,,,metadata,
+prot-198182--173,51,3,,,metadata,
+prot-198182--173,51,4,,,metadata,
+prot-198182--173,51,5,,,metadata,
+prot-198182--173,51,6,,,metadata,
+prot-198182--173,52,2,,,metadata,
+prot-198182--173,52,3,,,metadata,
+prot-198182--173,52,4,,,metadata,
+prot-198182--173,52,5,,,metadata,
+prot-198182--173,52,6,,,metadata,
+prot-198182--173,52,7,,f0d538d10bda4e34,speech_start,Hans Petersson
+prot-198182--173,53,10,,,metadata,
+prot-198182--173,53,11,,,metadata,
+prot-198182--173,53,12,,,metadata,
+prot-198182--173,53,13,,,metadata,
+prot-198182--173,54,2,,,metadata,
+prot-198182--173,54,3,,,metadata,
+prot-198182--173,54,4,,,metadata,
+prot-198182--173,54,5,,,metadata,
+prot-198182--173,54,7,,,metadata,
+prot-198182--173,55,10,,,metadata,
+prot-198182--173,55,13,,,metadata,
+prot-198182--173,55,14,,,metadata,
+prot-198182--173,55,15,,,metadata,
+prot-198182--173,55,16,,,metadata,
+prot-198182--173,56,2,,,metadata,
+prot-198182--173,56,3,,,metadata,
+prot-198182--173,56,6,,,metadata,
+prot-198182--173,56,9,,,metadata,
+prot-198182--173,56,10,,f0d538d10bda4e34,speech_start,Hagar Normark
+prot-198182--173,57,2,,f0d538d10bda4e34,speech_start,Wilhelm Gustafsson
+prot-198182--173,57,3,,,metadata,
+prot-198182--173,58,2,,,metadata,
+prot-198182--173,58,3,,,metadata,
+prot-198182--173,58,6,,,metadata,
+prot-198182--173,58,7,,f0d538d10bda4e34,speech_start,Hagar Normark
+prot-198182--173,58,8,,f0d538d10bda4e34,speech_start,Wilhelm Gustafsson
+prot-198182--173,58,9,,f0d538d10bda4e34,speech_start,Hagar Normark
+prot-198182--173,58,10,,f0d538d10bda4e34,speech_start,Wilhelm Gustafsson
+prot-198182--173,58,13,,,metadata,
+prot-198182--173,58,14,,,metadata,
+prot-198182--173,58,16,,,metadata,
+prot-198182--173,58,17,,,metadata,
+prot-198182--173,59,4,,,metadata,
+prot-198182--173,60,1,,,metadata,
+prot-198182--173,60,2,,,metadata,
+prot-198182--173,60,3,,,metadata,
+prot-198182--173,60,5,,,metadata,
+prot-198182--173,60,6,,,metadata,
+prot-198182--173,60,7,,,metadata,
+prot-198182--173,60,8,,,metadata,
+prot-198182--173,61,1,,,metadata,
+prot-198182--173,61,2,,,metadata,
+prot-198182--173,61,5,,,metadata,
+prot-198182--173,62,0,,,metadata,

@@ -30,7 +30,11 @@ def infer_metadata(filename):
     elif "_fk_" in filename:
         metadata["chamber"] = "Första kammaren"
     
-    metadata["number"] = int(split[-1])
+    try:
+        metadata["number"] = int(split[-1])
+    except:
+        print("Number parsing unsuccesful", filename)
+        
     return metadata
 
 def _clean_html(raw_html):

@@ -71,21 +71,23 @@ if __name__ == "__main__":
     mp_db = pd.read_csv("db/mp/members_of_parliament.csv")
     archive = login_to_archive()
     
-    if True:
+    if False:
         curation_patterns = load_patterns(phase="curation")
-        print(curation_patterns)
         curation_db = curations(file_db, archive, curation_patterns)
-        save_db(curation_db, year=1960, phase="curation")
-        print(curation_db)
+        save_db(curation_db, phase="curation")
     else:
-        curation_db = load_db(year=1960, phase="curation")
+        print("Load curation database...")
+        curation_db = load_db(phase="curation")
+        print("Done.")
         
-    if True:
+    if False:
         segmentation_patterns = load_patterns(phase="segmentation")
         segmentation_db = segmentations(file_db, archive, segmentation_patterns, mp_db)
-        save_db(segmentation_db, year=1960, phase="segmentation")
+        save_db(segmentation_db, phase="segmentation")
     else:
-        segmentation_db = load_db(year=1960, phase="segmentation")
+        print("Load segmentation database...")
+        segmentation_db = load_db(phase="segmentation")
+        print("Done.")
     
     if True:
         parlaclarin(file_db, archive, curations=curation_db, segmentations=segmentation_db)

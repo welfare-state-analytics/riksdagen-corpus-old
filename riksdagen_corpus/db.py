@@ -31,7 +31,13 @@ def _db_location(protocol_id=None, year=None, phase="segmentation"):
 
 def save_db(db, protocol_id=None, year=None, phase="segmentation"):
     folder = _db_location(protocol_id=protocol_id, year=year, phase=phase)
-    if protocol_id is not None:
+    if protocol_id is None and year is None:
+        for protocol_id in list(set(db["protocol_id"])):
+            if type(protocol_id) == str:
+                current_db = db[db["protocol_id"] == protocol_id]
+                save_db(current_db, protocol_id=protocol_id, phase=phase)
+                
+    elif protocol_id is not None:
         db.to_csv(folder + protocol_id + ".csv", index=False)
     else:
         for protocol_id in list(set(list(db["protocol_id"]))):
