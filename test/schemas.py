@@ -1,9 +1,9 @@
 import unittest
 
 from lxml import etree
-from parliament_data.utils import validate_xml_schema
-from parliament_data.download.count_pages import get_blocks
-from parliament_data.segmentation import create_parlaclarin, infer_metadata
+from riksdagen_corpus.utils import validate_xml_schema, infer_metadata
+from riksdagen_corpus.download import get_blocks
+from riksdagen_corpus.export import create_tei, create_parlaclarin
 
 class Test(unittest.TestCase):
 
@@ -18,15 +18,15 @@ class Test(unittest.TestCase):
     # Parla-clarin generated from example OCR XML
     def test_generated_example(self):
         schema_path = "schemas/parla-clarin.xsd"
-        xml_path = "data/xml/prot_198990__93-031.xml"
+        package_id = "prot-198990--93"
+        fname = "prot_198990__93-031.xml"
         
-        xml_f = open(xml_path)
-        content_blocks = get_blocks(xml_f.read())
-        xml_f.close()
-        metadata = infer_metadata(xml_path)
+        # Package argument can be None since the file is already saved on disk
+        content_blocks = get_blocks(None, package_id)
+        metadata = infer_metadata(fname.split(".")[0])
         
-        parla_clarin = create_parlaclarin(content_blocks, metadata)
-        parla_clarin_str = etree.tostring(parla_clarin, pretty_print=True, encoding="utf-8", xml_declaration=True).decode("utf-8")
+        tei = create_tei(content_blocks, metadata)
+        parla_clarin_str = create_parlaclarin(tei, metadata)
         
         parlaclarin_path = "data/parla-clarin/generated-example.xml"
         f = open(parlaclarin_path, "w")

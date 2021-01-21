@@ -1,4 +1,4 @@
-# Processing the parliamentary proceedings
+# Swedish parliamentary proceedings - Riksdagens protokoll 1921-2020
 
 _Westac Project, 2020_
 
