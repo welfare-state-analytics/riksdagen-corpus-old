@@ -32,7 +32,7 @@ def get_xml_blocks(xmlpath, htmlpath):
     tb_ix = 0
     contentBlock = etree.SubElement(root, "contentBlock", ix=str(cb_ix))
     for elem in html_tree:
-        if elem.tag in ["p", "h1"]:
+        if elem.tag in ["p", "h1", "h2"]:
             elemtext = "".join(elem.itertext())
             
             linebreak = elemtext.strip() == "" and "\n" in elemtext
