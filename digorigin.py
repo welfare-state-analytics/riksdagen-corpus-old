@@ -3,14 +3,14 @@ from lxml import etree
 import progressbar
 import pandas as pd
 
-from riksdagen_corpus.download import get_html_blocks
+from riksdagen_corpus.download import get_html_blocks, get_xml_blocks
 from riksdagen_corpus.utils import infer_metadata
 
 dataraw = "data/raw/"
 outfolder = "data/protocols/"
 folders = os.listdir(dataraw)
 folders = [dataraw + folder for folder in folders if os.path.isdir(dataraw + folder)]
-
+folders = [folder for folder in folders if "-xml" not in folder]
 
 print(folders)
 
@@ -23,7 +23,13 @@ for folder in sorted(folders):
     print(folder)
     
     for fpath in progressbar.progressbar(files):
-        root = get_html_blocks(folder + "/" + fpath)
+        html_path = folder + "/" + fpath
+        xml_path = folder + "-xml/" + fpath.replace(".html", ".xml")
+        root = get_html_blocks(html_path)
+        if root is None:
+            if os.path.exists(xml_path):
+                root = get_xml_blocks(xml_path, html_path)
+        
         if root is not None:
             protocol_id = root.attrib["id"]
             metadata = infer_metadata(protocol_id)

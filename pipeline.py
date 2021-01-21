@@ -63,8 +63,8 @@ if __name__ == "__main__":
     #file_db = pd.read_csv("db/protocols/scanned.csv")
     file_db = pd.read_csv("db/protocols/digital_originals.csv")
     
-    start_year = 1990
-    end_year = 2013
+    start_year = 2013
+    end_year = 2018
     
     file_db = file_db[file_db["year"] >= start_year]
     file_db = file_db[file_db["year"] <= end_year]
@@ -72,7 +72,7 @@ if __name__ == "__main__":
     mp_db = pd.read_csv("db/mp/members_of_parliament.csv")
     archive = login_to_archive()
     
-    if False:
+    if True:
         curation_patterns = load_patterns(phase="curation")
         curation_db = curations(file_db, archive, curation_patterns)
         save_db(curation_db, phase="curation")
@@ -81,7 +81,7 @@ if __name__ == "__main__":
         curation_db = load_db(phase="curation")
         print("Done.")
         
-    if False:
+    if True:
         segmentation_patterns = load_patterns(phase="segmentation")
         segmentation_db = segmentations(file_db, archive, segmentation_patterns, mp_db)
         save_db(segmentation_db, phase="segmentation")

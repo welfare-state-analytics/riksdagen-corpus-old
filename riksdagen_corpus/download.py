@@ -17,6 +17,46 @@ def login_to_archive():
     
     return kblab.Archive('https://betalab.kb.se', auth=(username, password))
 
+def get_xml_blocks(xmlpath, htmlpath):
+    xml_tree = etree.fromstring(open(xmlpath).read())
+    html_tree = read_html(htmlpath)
+    
+    year = xml_tree.xpath(".//rm")[0].text
+    protocol_number = xml_tree.xpath(".//nummer")[0].text
+    protocol_id = "prot-" + year.replace("/", "") + "--" + protocol_number
+    
+    html_tree = html_tree.xpath(".//div[@class='Section1']")[0]
+    root = etree.Element("protocol", id=protocol_id)
+    
+    cb_ix = 0
+    tb_ix = 0
+    contentBlock = etree.SubElement(root, "contentBlock", ix=str(cb_ix))
+    for elem in html_tree:
+        if elem.tag in ["p", "h1"]:
+            elemtext = "".join(elem.itertext())
+            
+            linebreak = elemtext.strip() == "" and "\n" in elemtext
+            if linebreak:
+                tb_ix = 0
+                cb_ix += 1
+                contentBlock = etree.SubElement(root, "contentBlock", ix=str(cb_ix))
+            else:
+                textBlock = etree.SubElement(contentBlock, "textBlock", ix=str(tb_ix))
+                tblock = elemtext.strip()
+                tblock = tblock.replace("\n", " ")
+                tblock = re.sub("\s+", " ", tblock)
+                textBlock.text = tblock
+                tb_ix += 1
+    
+    for xml_element in root.iter():
+        content = xml_element.xpath('normalize-space()')
+        if not content:
+            parent = xml_element.getparent()
+            if parent is not None:
+                parent.remove(xml_element)
+                    
+    return root
+    
 def get_html_blocks(fpath):
     tree = read_html(fpath)
     id_class = "sidhuvud_beteckning"
@@ -48,6 +88,7 @@ def get_html_blocks(fpath):
                     
                     for tb_ix, tblock in enumerate(tblocks.split("\n")):
                         tblock = tblock.replace("\n", " ")
+                        tblock = tblock.replace("\n", " ")
                         textBlock = etree.SubElement(contentBlock, "textBlock", ix=str(tb_ix))
                         textBlock.text = tblock
             
@@ -74,6 +115,7 @@ def get_html_blocks(fpath):
                     textBlock = etree.SubElement(contentBlock, "textBlock", ix=str(tb_ix))
                     tblock = elemtext.strip()
                     tblock = tblock.replace("\n", " ")
+                    tblock = re.sub("\s+", " ", tblock)
                     textBlock.text = tblock
                     tb_ix += 1
             
