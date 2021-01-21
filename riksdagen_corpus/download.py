@@ -72,7 +72,9 @@ def get_html_blocks(fpath):
                     contentBlock = etree.SubElement(root, "contentBlock", ix=str(cb_ix))
                 else:
                     textBlock = etree.SubElement(contentBlock, "textBlock", ix=str(tb_ix))
-                    textBlock.text = elemtext.strip()
+                    tblock = elemtext.strip()
+                    tblock = tblock.replace("\n", " ")
+                    textBlock.text = tblock
                     tb_ix += 1
             
             for xml_element in root.iter():

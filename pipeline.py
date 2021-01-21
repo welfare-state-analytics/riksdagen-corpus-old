@@ -60,10 +60,11 @@ def parlaclarin(file_db, archive, curations=None, segmentations=None):
 
 if __name__ == "__main__":
     
-    file_db = pd.read_csv("db/protocols/scanned.csv")
+    #file_db = pd.read_csv("db/protocols/scanned.csv")
+    file_db = pd.read_csv("db/protocols/digital_originals.csv")
     
-    start_year = 1920
-    end_year = 1990
+    start_year = 1990
+    end_year = 2013
     
     file_db = file_db[file_db["year"] >= start_year]
     file_db = file_db[file_db["year"] <= end_year]

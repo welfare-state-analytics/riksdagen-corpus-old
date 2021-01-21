@@ -82,7 +82,7 @@ def find_instances_xml(root, pattern_db, mp_db=None):
     
     for content_block in root:
         cb_ix = content_block.attrib["ix"]
-        page = content_block.attrib["page"]
+        page = content_block.attrib.get("page", 0)
         content_txt = '\n'.join(content_block.itertext())
         if not _is_metadata_block(content_txt):
             for pattern_digest, exp in expressions.items():
@@ -133,7 +133,6 @@ def apply_instances(protocol, instance_db):
             target.attrib["segmentation"] = row["segmentation"]
             if type(row["who"]) == str:
                 target.attrib["who"] = row["who"]
-                
     
     if protocol_id == "prot-1960--fk--19":
         f = open("prot-1960--fk--19.xml", "wb")
@@ -145,7 +144,6 @@ def apply_instances(protocol, instance_db):
 def find_instances(protocol_id, archive, pattern_db, mp_db):
     package = archive.get(protocol_id)
     
-    xml_files = fetch_files(package)
     page_content_blocks = get_blocks(package, protocol_id)
     instance_db = find_instances_xml(page_content_blocks, pattern_db, mp_db=mp_db)
     

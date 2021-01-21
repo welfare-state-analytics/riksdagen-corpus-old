@@ -128,7 +128,6 @@ def gen_parlaclarin_corpus(protocol_db, archive, instance_db, curation_db=None, 
         pages = package["pages"]
         package = archive.get(protocol_id)
         metadata = infer_metadata(protocol_id)
-        xml_files = fetch_files(package)
         protocol = get_blocks(package, protocol_id)
         protocol = apply_curations(protocol, curation_db)
         protocol = apply_instances(protocol, instance_db)

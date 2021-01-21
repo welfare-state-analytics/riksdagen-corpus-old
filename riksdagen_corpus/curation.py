@@ -44,25 +44,27 @@ def find_instances(root, pattern_db, c_hashes = dict()):
     
     for content_block in root:
         cb_ix = content_block.attrib["ix"]
-        page = content_block.attrib["page"]
+        page = content_block.attrib.get("page", 0)
         #content_txt = '\n'.join(content_block.itertext())
         for textblock in content_block:
             tb_ix = textblock.attrib["ix"]
             paragraph = textblock.text
-            for pattern_digest, exp_tuple in expressions.items():
-                exp, outpattern = exp_tuple
-                for m in exp.finditer(paragraph):
-                    matched_txt = m.group()
-                    replacement = exp.sub(outpattern, matched_txt)
-                    
-                    d = {"protocol_id": protocol_id,
-                    "pattern": pattern_digest,
-                    "txt": matched_txt,
-                    "replacement": replacement,
-                    "page": int(page),
-                    "cb_ix": int(cb_ix),
-                    "tb_ix": int(tb_ix)}
-                    data.append(d)
+            
+            if paragraph is not None:
+                for pattern_digest, exp_tuple in expressions.items():
+                    exp, outpattern = exp_tuple
+                    for m in exp.finditer(paragraph):
+                        matched_txt = m.group()
+                        replacement = exp.sub(outpattern, matched_txt)
+                        
+                        d = {"protocol_id": protocol_id,
+                        "pattern": pattern_digest,
+                        "txt": matched_txt,
+                        "replacement": replacement,
+                        "page": int(page),
+                        "cb_ix": int(cb_ix),
+                        "tb_ix": int(tb_ix)}
+                        data.append(d)
     
     columns = ["pattern", "txt", "replacement", "page", "cb_ix", "tb_ix"]
     return pd.DataFrame(data=data, columns=columns)
