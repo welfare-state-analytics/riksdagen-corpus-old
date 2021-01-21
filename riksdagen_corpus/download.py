@@ -36,12 +36,13 @@ def get_html_blocks(fpath):
 
         root = etree.Element("protocol", id=desc)
         
+        # HTML structure with text formatted in <pre> blocks, roughly 1990-2003
         pres = tree.findall(".//pre")
         if len(pres) > 0:
             for ix, pre in enumerate(pres):
                 contentBlock = etree.SubElement(root, "contentBlock", ix=str(ix))
                 if pre.text is not None:
-                    contentBlock = etree.SubElement(contentBlock, "textBlock", ix=str(ix))
+                    #contentBlock = etree.SubElement(contentBlock, "textBlock", ix=str(ix))
                     tblocks = re.sub('([a-zåäö,])- ?\n ?([a-zåäö])', '\\1\\2', pre.text)
                     tblocks = re.sub('([a-zåäö,]) ?\n ?([a-zåäö])', '\\1 \\2', tblocks)
                     
@@ -49,8 +50,41 @@ def get_html_blocks(fpath):
                         tblock = tblock.replace("\n", " ")
                         textBlock = etree.SubElement(contentBlock, "textBlock", ix=str(tb_ix))
                         textBlock.text = tblock
+            
+            return root
+        
+        # Standard HTML structure, roughly 2003-2013
+        elif len(tree.xpath("//div[@class='indrag']")) > 0:
+            
+            tree = tree.xpath("//body")[0]
+            
+            cb_ix = 0
+            tb_ix = 0
+            contentBlock = etree.SubElement(root, "contentBlock", ix=str(cb_ix))
+            for elem in tree:
+                
+                elemtext = "".join(elem.itertext())
+                
+                linebreak = elemtext.strip() == "" and "\n" in elemtext
+                if elem.tag == "br" or linebreak:
+                    tb_ix = 0
+                    cb_ix += 1
+                    contentBlock = etree.SubElement(root, "contentBlock", ix=str(cb_ix))
+                else:
+                    textBlock = etree.SubElement(contentBlock, "textBlock", ix=str(tb_ix))
+                    textBlock.text = elemtext.strip()
+                    tb_ix += 1
+            
+            for xml_element in root.iter():
+                content = xml_element.xpath('normalize-space()')
+                if not content:
+                    xml_element.getparent().remove(xml_element)
+            
+            return root
+        else:
+            return None
 
-        return root
+        
         
     else:
         return None
@@ -60,7 +94,6 @@ def get_blocks(package, package_id, load=True, save=True):
     Get content and text blocks from an OCR output XML file. Concatenate words into sentences.
 
     Args:
-        fname: Name of the file
         package: KBLab client package element
         package_id: ID of the package
         load: Load the file from disk if available
