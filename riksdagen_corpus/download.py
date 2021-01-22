@@ -30,7 +30,7 @@ def get_xml_blocks(xmlpath, htmlpath):
     
     cb_ix = 0
     tb_ix = 0
-    contentBlock = etree.SubElement(root, "contentBlock", ix=str(cb_ix))
+    contentBlock = etree.SubElement(root, "contentBlock", ix=str(cb_ix), page="0")
     for elem in html_tree:
         if elem.tag in ["p", "h1", "h2"]:
             elemtext = "".join(elem.itertext())
@@ -39,7 +39,7 @@ def get_xml_blocks(xmlpath, htmlpath):
             if linebreak:
                 tb_ix = 0
                 cb_ix += 1
-                contentBlock = etree.SubElement(root, "contentBlock", ix=str(cb_ix))
+                contentBlock = etree.SubElement(root, "contentBlock", ix=str(cb_ix), page="0")
             else:
                 textBlock = etree.SubElement(contentBlock, "textBlock", ix=str(tb_ix))
                 tblock = elemtext.strip()
@@ -54,7 +54,10 @@ def get_xml_blocks(xmlpath, htmlpath):
             parent = xml_element.getparent()
             if parent is not None:
                 parent.remove(xml_element)
-                    
+    
+    for content_block in root.findall(".//contentBlock"):
+        content_block.attrib["page"] = "0"
+    
     return root
     
 def get_html_blocks(fpath):
@@ -68,7 +71,8 @@ def get_html_blocks(fpath):
             classes = div.attrib["class"].split()
             if id_class in classes:
                 desc = div.text
-
+    
+    root = None
     if desc is not None:
         desc = re.sub('[^0-9:\\-]+', '', desc)
         desc = desc.replace(":", "--")
@@ -91,8 +95,6 @@ def get_html_blocks(fpath):
                         tblock = tblock.replace("\n", " ")
                         textBlock = etree.SubElement(contentBlock, "textBlock", ix=str(tb_ix))
                         textBlock.text = tblock
-            
-            return root
         
         # Standard HTML structure, roughly 2003-2013
         elif len(tree.xpath("//div[@class='indrag']")) > 0:
@@ -124,14 +126,11 @@ def get_html_blocks(fpath):
                 if not content:
                     xml_element.getparent().remove(xml_element)
             
-            return root
-        else:
-            return None
-
-        
-        
-    else:
-        return None
+    if root is not None:
+        for content_block in root.findall(".//contentBlock"):
+            content_block.attrib["page"] = "0"
+    
+    return root
 
 def get_blocks(package, package_id, load=True, save=True):
     """

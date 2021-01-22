@@ -18,9 +18,15 @@ from riksdagen_corpus.utils import infer_metadata
 def _is_metadata_block(txt0):
     txt1 = re.sub("[^a-zA-ZåäöÅÄÖ ]+", "", txt0)
     len0 = len(txt0)
+    
+    # Empty blocks should not be classified as metadata
     if len0 == 0:
         return False
         
+    # Metadata generally don't introduce other things
+    if txt0.strip()[-1] == ":":
+        return False
+    
     len1 = len(txt1)
     len2 = len(txt0.strip())
     if len2 == 0:
@@ -85,38 +91,35 @@ def find_instances_xml(root, pattern_db, mp_db=None):
         page = content_block.attrib.get("page", 0)
         content_txt = '\n'.join(content_block.itertext())
         if not _is_metadata_block(content_txt):
-            for pattern_digest, exp in expressions.items():
-                for m in exp.finditer(content_txt):
-                    matched_txt = m.group()
-                    person = _detect_mp(matched_txt, names)
-                    
-                    d = {"protocol_id": protocol_id,
-                    "pattern": pattern_digest,
-                    "who": person,
-                    "segmentation": "speech_start",
-                    "page": int(page),
-                    "cb_ix": int(cb_ix)}
-                    data.append(d)
+            for textblock in content_block:
+                tb_ix = textblock.attrib["ix"]
+                paragraph = textblock.text
+                if type(paragraph) != str:
+                    paragraph = ""
+                
+                for pattern_digest, exp in expressions.items():
+                    for m in exp.finditer(paragraph):
+                        matched_txt = m.group()
+                        person = _detect_mp(matched_txt, names)
+                        
+                        d = {
+                        "protocol_id": protocol_id,
+                        "pattern": pattern_digest,
+                        "who": person,
+                        "segmentation": "speech_start",
+                        "page": int(page),
+                        "cb_ix": int(cb_ix),
+                        "tb_ix": int(tb_ix),
+                        }
+                        data.append(d)
         else:
             d = {"protocol_id": protocol_id, "pattern": None, "who": None, "segmentation": "metadata"}
             d["cb_ix"] = int(cb_ix)
+            d["tb_ix"] = -1
             d["page"] = int(page)
             data.append(d)
 
     return pd.DataFrame(data, columns=columns)
-
-def find_instances_html(filename, pattern_db):
-    """
-    Find instances of segment start and end patterns in an html file (digital originals).
-
-    Args:
-        pattern_db: Patterns to be matched as a Pandas DataFrame.
-        filename: Path to file to be searched.
-    """
-    # TODO: implement
-    columns = ['filename', 'loc', 'pattern', 'txt']
-    instance_db = pd.DataFrame(columns = columns) 
-    return instance_db
 
 def apply_instances(protocol, instance_db):
     protocol_id = protocol.attrib["id"]
@@ -127,15 +130,18 @@ def apply_instances(protocol, instance_db):
         page = row["page"]
         for content_block in protocol.xpath("contentBlock[@ix='" + str(cb_ix) + "' and @page='" + str(page) + "' ]"):
             target = content_block
-            if not pd.isna(row["tb_ix"]):
+            if row["tb_ix"] >= 0:
                 target = content_block[row["tb_ix"]]
             
             target.attrib["segmentation"] = row["segmentation"]
             if type(row["who"]) == str:
                 target.attrib["who"] = row["who"]
+                if protocol_id == "prot-201314--22":
+                    print(target)
+                    print(target.attrib["who"])
     
-    if protocol_id == "prot-1960--fk--19":
-        f = open("prot-1960--fk--19.xml", "wb")
+    if protocol_id == "prot-199293--10":
+        f = open("prot-199293--10.xml", "wb")
         b = etree.tostring(protocol, encoding="utf-8", pretty_print=True)
         f.write(b)
         f.close()
