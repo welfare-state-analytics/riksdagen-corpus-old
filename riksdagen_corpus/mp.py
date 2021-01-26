@@ -5,6 +5,7 @@ Handles the data on the members of parliament.
 import pandas as pd
 import os, re
 import progressbar
+import hashlib
 
 def create_database(path):
     extension = path.split(".")[-1]
@@ -173,6 +174,24 @@ def replace_party_abbreviations(mp_db, party_db):
     
     return mp_db
 
+def add_id(mp_db):
+    print("Add id...")
+    mp_db["id"] = None
+
+    for i, row in progressbar.progressbar(list(mp_db.iterrows())):
+        row = row
+        name = row["name"].lower().replace(" ", "_")
+        party = row.get("party")
+        if type(party) != str:
+            party = "unk"
+        district = row.get("district")
+        if type(district) != str:
+            district = "unk"
+        pattern = party + district
+        digest = hashlib.md5(pattern.encode("utf-8")).hexdigest()
+        mp_db.loc[i, 'id'] = name + "_" + digest[:4]
+
+    return mp_db
 def detect_mp(introduction, metadata, mp_db):
     """
     Detect which member of parliament is mentioned in a given introduction.

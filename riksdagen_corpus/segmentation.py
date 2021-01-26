@@ -39,25 +39,25 @@ def _is_metadata_block(txt0):
     # TODO: replace with ML algorithm
     return float(len1) / float(len0) < 0.85 and len0 < 150
 
-def _detect_mp(matched_txt, names):
+def _detect_mp(matched_txt, names_ids):
     person = None
-    for name in names:
+    for name, identifier in names_ids:
         if name in matched_txt:
-            person = name
+            person = identifier
     
     if person == None:
-        for name in names:
+        for name, identifier in names_ids:
             if name.upper() in matched_txt:
-                person = name
+                person = identifier
     
     # Only match last name if full name is not found
     if person == None:
-        for name in names:
+        for name, identifier in names_ids:
             last_name = " " + name.split()[-1]
             if last_name in matched_txt:
-                person = name
+                person = identifier
             elif last_name.upper() in matched_txt:
-                person = name
+                person = identifier
     return person
     
 # Instance detection
@@ -69,7 +69,7 @@ def find_instances_xml(root, pattern_db, mp_db=None):
         root: root of an lxml tree to be pattern matched.
         pattern_db: Patterns to be matched as a Pandas DataFrame.
     """
-    columns = ['protocol_id', "page", "cb_ix", "tb_ix", "pattern", "segmentation", "who"]
+    columns = ['protocol_id', "page", "cb_ix", "tb_ix", "pattern", "segmentation", "who", "id"]
     data = []
     protocol_id = root.attrib["id"]
     metadata = infer_metadata(protocol_id)
@@ -77,6 +77,8 @@ def find_instances_xml(root, pattern_db, mp_db=None):
     
     mp_db = mp_db[mp_db["chamber"] == metadata["chamber"]]
     names = mp_db["name"]
+    ids = mp_db["id"]
+    names_ids = list(zip(names,ids))
     
     expressions = dict()
     for _, row in pattern_db.iterrows():
@@ -86,6 +88,7 @@ def find_instances_xml(root, pattern_db, mp_db=None):
         pattern_digest = hashlib.md5(pattern.encode("utf-8")).hexdigest()[:16]
         expressions[pattern_digest] = exp
     
+    prot_speeches = dict()
     for content_block in root:
         cb_ix = content_block.attrib["ix"]
         page = content_block.attrib.get("page", 0)
@@ -100,8 +103,7 @@ def find_instances_xml(root, pattern_db, mp_db=None):
                 for pattern_digest, exp in expressions.items():
                     for m in exp.finditer(paragraph):
                         matched_txt = m.group()
-                        person = _detect_mp(matched_txt, names)
-                        
+                        person = _detect_mp(matched_txt, names_ids)
                         d = {
                         "protocol_id": protocol_id,
                         "pattern": pattern_digest,
@@ -109,9 +111,19 @@ def find_instances_xml(root, pattern_db, mp_db=None):
                         "segmentation": "speech_start",
                         "page": int(page),
                         "cb_ix": int(cb_ix),
-                        "tb_ix": int(tb_ix),
+                        "tb_ix": int(tb_ix)
                         }
+
+                        speech_id = protocol_id + "-"
+                        if person is None:
+                            person = "unk"
+                        prot_speeches[person] = prot_speeches.get(person, 0) + 1
+                        speech_id += person + "-"
+                        speech_id += "-" + str(prot_speeches[person])
+                        d["id"] = speech_id
                         data.append(d)
+
+                        break
         else:
             d = {"protocol_id": protocol_id, "pattern": None, "who": None, "segmentation": "metadata"}
             d["cb_ix"] = int(cb_ix)
@@ -139,6 +151,9 @@ def apply_instances(protocol, instance_db):
                 if protocol_id == "prot-201314--22":
                     print(target)
                     print(target.attrib["who"])
+
+            if type(row["id"]) == str:
+                target.attrib["id"] = row["id"]
     
     if protocol_id == "prot-199293--10":
         f = open("prot-199293--10.xml", "wb")
