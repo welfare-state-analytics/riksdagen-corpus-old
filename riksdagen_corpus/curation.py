@@ -99,8 +99,7 @@ def apply_curations(protocol, instance_db):
     return protocol
 
 def curation_workflow(package_id, archive, pattern_db):
-    package = archive.get(package_id)
-    page_content_blocks = get_blocks(package, package_id)
+    page_content_blocks = get_blocks(package_id, archive)
     instance_db = find_instances(page_content_blocks, pattern_db)
     instance_db["protocol_id"] = package_id
     instance_db = instance_db.drop_duplicates()

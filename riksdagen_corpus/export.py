@@ -127,9 +127,8 @@ def gen_parlaclarin_corpus(protocol_db, archive, instance_db, curation_db=None, 
     for ix, package in progressbar.progressbar(list(protocol_db.iterrows())):
         protocol_id = package["protocol_id"]
         pages = package["pages"]
-        package = archive.get(protocol_id)
         metadata = infer_metadata(protocol_id)
-        protocol = get_blocks(package, protocol_id)
+        protocol = get_blocks(protocol_id, archive)
         protocol = apply_curations(protocol, curation_db)
         protocol = apply_instances(protocol, instance_db)
         tei = create_tei(protocol, metadata)

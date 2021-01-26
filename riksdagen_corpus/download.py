@@ -7,6 +7,17 @@ from PyPDF2 import PdfFileReader, PdfFileWriter
 from lxml import etree
 from riksdagen_corpus.utils import read_html
 
+# Wrapper to KBLab archive class so that you don't need to 
+# log in if you don't actually use the archive
+class CustomArchive():
+    def __init__(self):
+        self.archive = None
+
+    def __getattr__(self, attr):
+        if self.archive == None:
+            self.archive = login_to_archive()
+        return getattr(self.archive, attr)
+
 def login_to_archive():
     """
     Prompts the user for username and password, and logs in to KBLab. Returns the resulting KBLab client archive.
@@ -132,7 +143,7 @@ def get_html_blocks(fpath):
     
     return root
 
-def get_blocks(package, package_id, load=True, save=True):
+def get_blocks(package_id, archive, load=True, save=True):
     """
     Get content and text blocks from an OCR output XML file. Concatenate words into sentences.
 
@@ -160,6 +171,7 @@ def get_blocks(package, package_id, load=True, save=True):
             overwrite = False
             return etree.fromstring(s.encode("utf-8"))
     
+    package = archive.get(protocol_id)
     root = etree.Element("protocol", id=package_id)
     for ix, fname in enumerate(fetch_files(package)):
         s = package.get_raw(fname).read()

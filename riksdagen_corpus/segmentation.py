@@ -148,9 +148,7 @@ def apply_instances(protocol, instance_db):
     return protocol
     
 def find_instances(protocol_id, archive, pattern_db, mp_db):
-    package = archive.get(protocol_id)
-    
-    page_content_blocks = get_blocks(package, protocol_id)
+    page_content_blocks = get_blocks(protocol_id, archive)
     instance_db = find_instances_xml(page_content_blocks, pattern_db, mp_db=mp_db)
     
     instance_db["protocol_id"] = protocol_id

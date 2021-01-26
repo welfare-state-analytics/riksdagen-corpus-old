@@ -2,7 +2,7 @@ import pandas as pd
 import os
 import progressbar
 
-from riksdagen_corpus.download import login_to_archive
+from riksdagen_corpus.download import CustomArchive
 from riksdagen_corpus.segmentation import find_instances
 from riksdagen_corpus.curation import curation_workflow
 from riksdagen_corpus.export import gen_parlaclarin_corpus
@@ -72,7 +72,7 @@ if __name__ == "__main__":
     file_db = file_db[file_db["year"] <= end_year]
     
     mp_db = pd.read_csv("db/mp/members_of_parliament.csv")
-    archive = login_to_archive()
+    archive = CustomArchive()
     
     if True:
         curation_patterns = load_patterns(phase="curation")
