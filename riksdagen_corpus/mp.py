@@ -164,6 +164,8 @@ def clean_names(mp_db):
         name = name.split(" i ")[0]
         if "[" in name:
             name = name.split("[")[0]
+        if "ersatt av" in name:
+            name = name.split("ersatt av:")[-1]
         assert name != "", "names can't be empty: " + row["name"]
         mp_db.loc[i, 'name'] = name
 

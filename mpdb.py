@@ -28,4 +28,4 @@ id_duplicates = mp_db.duplicated(subset=['id'])
 print(mp_db[id_duplicates == True])
 print(mp_db)
 
-mp_db.to_csv("db/mp/members_of_parliament.csv")
+mp_db.to_csv("db/mp/members_of_parliament.csv", index=False)
