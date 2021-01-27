@@ -20,7 +20,7 @@ def _is_metadata_block(txt0):
     len0 = len(txt0)
     
     # Empty blocks should not be classified as metadata
-    if len0 == 0:
+    if len(txt0.strip()) == 0:
         return False
         
     # Metadata generally don't introduce other things

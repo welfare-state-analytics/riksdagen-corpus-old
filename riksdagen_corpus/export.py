@@ -110,8 +110,10 @@ def create_tei(root, metadata):
             for textblock in content_block:
                 tb_segmentation = textblock.attrib.get("segmentation", None)
                 if tb_segmentation == "speech_start":
-                    current_speaker = textblock.attrib.get("who", "UNK")
-                    u = etree.SubElement(body_div, "u", who=current_speaker)
+                    current_speaker = textblock.attrib.get("who", None)
+                    u = etree.SubElement(body_div, "u")
+                    if current_speaker is not None:
+                        u.attrib["who"] = current_speaker
                     u.attrib["{http://www.w3.org/XML/1998/namespace}id"] = textblock.attrib.get("id", None)
                 
                 paragraph = textblock.text

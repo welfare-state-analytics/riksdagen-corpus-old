@@ -51,7 +51,7 @@ def create_database(path):
                     
                     datapoint = []
                     # Add name
-                    name = row[0].split(" i ")[0]
+                    name = row[0]
                     datapoint.append(name)
                     # Add party
                     possible_parties = [s for s in row if "f." not in s]
@@ -157,6 +157,18 @@ def add_gender(mp_db, names):
 
     return mp_db
 
+def clean_names(mp_db):
+    print("Clean names...")
+    for i, row in progressbar.progressbar(list(mp_db.iterrows())):
+        name = row["name"]
+        name = name.split(" i ")[0]
+        if "[" in name:
+            name = name.split("[")[0]
+        assert name != "", "names can't be empty: " + row["name"]
+        mp_db.loc[i, 'name'] = name
+
+    return mp_db
+
 def replace_party_abbreviations(mp_db, party_db):
     print("Replace party abbreviations...")
     party_dict = dict()
@@ -178,21 +190,26 @@ def replace_party_abbreviations(mp_db, party_db):
 
 def add_id(mp_db):
     print("Add id...")
+    columns = mp_db.columns
     mp_db["id"] = None
-
+    print("columns used for generation:", ", ".join(columns))
     for i, row in progressbar.progressbar(list(mp_db.iterrows())):
         name = unicodedata.normalize("NFD", row["name"])
         name = name.encode("ascii", "ignore").decode("utf-8")
         name = name.lower().replace(" ", "_").replace(".", "")
         party = row.get("party")
-        if type(party) != str:
-            party = "unk"
-        district = row.get("district")
-        if type(district) != str:
-            district = "unk"
-        pattern = party + district
+
+        pattern = [name]
+        for column in columns:
+            value = row[column]
+            if type(value) != str:
+                value = str(value)
+            pattern.append(value)
+
+        pattern = "_".join(pattern).replace(" ", "_").lower()
+
         digest = hashlib.md5(pattern.encode("utf-8")).hexdigest()
-        mp_db.loc[i, 'id'] = name + "_" + digest[:4]
+        mp_db.loc[i, 'id'] = name + "_" + digest[:6]
 
     return mp_db
 def detect_mp(introduction, metadata, mp_db):
