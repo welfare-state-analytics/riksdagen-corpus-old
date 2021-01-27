@@ -6,6 +6,7 @@ import pandas as pd
 import os, re
 import progressbar
 import hashlib
+import unicodedata
 
 def create_database(path):
     extension = path.split(".")[-1]
@@ -50,7 +51,8 @@ def create_database(path):
                     
                     datapoint = []
                     # Add name
-                    datapoint.append(row[0])
+                    name = row[0].split(" i ")[0]
+                    datapoint.append(name)
                     # Add party
                     possible_parties = [s for s in row if "f." not in s]
                     party = possible_parties[-1]
@@ -179,8 +181,9 @@ def add_id(mp_db):
     mp_db["id"] = None
 
     for i, row in progressbar.progressbar(list(mp_db.iterrows())):
-        row = row
-        name = row["name"].lower().replace(" ", "_")
+        name = unicodedata.normalize("NFD", row["name"])
+        name = name.encode("ascii", "ignore").decode("utf-8")
+        name = name.lower().replace(" ", "_").replace(".", "")
         party = row.get("party")
         if type(party) != str:
             party = "unk"
