@@ -198,7 +198,8 @@ def add_id(mp_db):
     for i, row in progressbar.progressbar(list(mp_db.iterrows())):
         name = unicodedata.normalize("NFD", row["name"])
         name = name.encode("ascii", "ignore").decode("utf-8")
-        name = name.lower().replace(" ", "_").replace(".", "")
+        name = name.lower().replace(" ", "_")
+        name = name.replace(".", "").replace("(", "").replace(")", "").replace(":", "")
         party = row.get("party")
 
         pattern = [name]
