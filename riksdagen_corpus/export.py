@@ -101,11 +101,15 @@ def create_tei(root, metadata):
     for content_block in root:
         content_txt = '\n'.join(content_block.itertext())
         is_empty = content_txt == ""
-        cb_ix = content_block.attrib["ix"]
+        cb_ix = content_block.attrib["id"]
         segmentation = content_block.attrib.get("segmentation", None)
         if segmentation == "metadata":
             pass
             #print("Empty block")
+        elif segmentation == "note":
+            for textblock in content_block:
+                note = etree.SubElement(body_div, "note")
+                note.text = textblock.text
         else:
             for textblock in content_block:
                 tb_segmentation = textblock.attrib.get("segmentation", None)
@@ -116,18 +120,20 @@ def create_tei(root, metadata):
                     if current_speaker is not None:
                         u.attrib["who"] = current_speaker
                     u.attrib["{http://www.w3.org/XML/1998/namespace}id"] = textblock.attrib.get("id", None)
-                    seg = etree.SubElement(u, "seg")
-
+                    
                     # Introduction under <note> tag
                     # Actual speech under <u> tag
                     paragraph = textblock.text.split(":")
                     introduction = paragraph[0] + ":"
                     note.text = introduction
                     if len(paragraph) > 1:
-                        seg.text = ":".join(paragraph[1:]).strip()
-                elif tb_segmentation == "description_start":
-                    u = None
-                    current_speaker = None
+                        rest_of_paragraph = ":".join(paragraph[1:]).strip()
+                        if len(rest_of_paragraph) > 0:
+                            seg = etree.SubElement(u, "seg")
+                            seg.text = rest_of_paragraph
+                elif tb_segmentation == "note":
+                    note = etree.SubElement(body_div, "note")
+                    note.text = textblock.text
                 else:
                     paragraph = textblock.text
                     tb_segmentation = textblock.attrib.get("segmentation", None)

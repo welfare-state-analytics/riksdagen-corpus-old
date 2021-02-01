@@ -9,7 +9,7 @@ from riksdagen_corpus.utils import read_html
 
 # Wrapper to KBLab archive class so that you don't need to 
 # log in if you don't actually use the archive
-class CustomArchive():
+class LazyArchive():
     def __init__(self):
         self.archive = None
 
@@ -29,6 +29,9 @@ def login_to_archive():
     return kblab.Archive('https://betalab.kb.se', auth=(username, password))
 
 def get_xml_blocks(xmlpath, htmlpath):
+    """
+    Load protocols with the new XML / HTML structure from 2013 ->
+    """
     xml_tree = etree.fromstring(open(xmlpath).read())
     html_tree = read_html(htmlpath)
     
@@ -72,6 +75,9 @@ def get_xml_blocks(xmlpath, htmlpath):
     return root
     
 def get_html_blocks(fpath):
+    """
+    Load protocols with HTML structures between 1990-2013
+    """
     tree = read_html(fpath)
     id_class = "sidhuvud_beteckning"
 
@@ -143,34 +149,7 @@ def get_html_blocks(fpath):
     
     return root
 
-def get_blocks(package_id, archive, load=True, save=True):
-    """
-    Get content and text blocks from an OCR output XML file. Concatenate words into sentences.
-
-    Args:
-        package: KBLab client package element
-        package_id: ID of the package
-        load: Load the file from disk if available
-        save: Save the downloaded file to disk
-
-    Returns an lxml elem tree with the structure page > contentBlock > textBlock.
-    """
-    #tree = etree.fromstring(s)
-    
-    folder = "data/protocols/" + package_id + "/"
-    fname = "original.xml"
-    overwrite = True
-    if load or save:
-        if not os.path.exists(folder):
-            os.mkdir(folder)
-    
-    if load:
-        fnames = os.listdir(folder)
-        if fname in fnames:
-            s = open(folder + fname).read()
-            overwrite = False
-            return etree.fromstring(s.encode("utf-8"))
-    
+def get_kb_blocks(package_id, archive):
     package = archive.get(protocol_id)
     root = etree.Element("protocol", id=package_id)
     for ix, fname in enumerate(fetch_files(package)):
@@ -200,7 +179,42 @@ def get_blocks(package_id, archive, load=True, save=True):
                 tblock = re.sub('([a-zåäö,])- ([a-zåäö])', '\\1\\2', tblock)
                 text_block_e = etree.SubElement(content_block_e, "textBlock", ix=str(tb_ix))
                 text_block_e.text = tblock
+
+    return root
+
+def get_blocks(protocol_id, archive, load=True, save=True):
+    """
+    Get content and text blocks from an OCR output XML file. Concatenate words into sentences.
+
+    Args:
+        protocol_id: ID of the protocol
+        archive: KBlab archive
+        load: Load the file from disk if available
+        save: Save the downloaded file to disk
+
+    Returns an lxml elem tree with the structure page > contentBlock > textBlock.
+    """    
+    folder = "data/protocols/" + protocol_id + "/"
+    fname = "original.xml"
+    root = None
+    overwrite = True
+    if load or save:
+        if not os.path.exists(folder):
+            os.mkdir(folder)
+
+    # Attempt to load from disk
+    if load:
+        fnames = os.listdir(folder)
+        if fname in fnames:
+            s = open(folder + fname).read()
+            overwrite = False
+            root = etree.fromstring(s.encode("utf-8"))
     
+    # Load from server if local copy is not available
+    if root is None:
+        root = get_kb_blocks(protocol_id, archive)
+    
+    # Save in case a new version was loaded from server
     if save and overwrite:
         fname = "original.xml"
         s = etree.tostring(root, pretty_print=True, encoding="utf-8", xml_declaration=True).decode("utf-8")

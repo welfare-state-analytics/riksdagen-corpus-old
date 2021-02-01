@@ -78,5 +78,11 @@ def load_patterns(year=None, phase="segmentation"):
     if year is not None:
         patterns = patterns[patterns["start"] >= year]
         patterns = patterns[patterns["end"] <= year]
-        
-    return patterns
+    
+    manual_path = "db/" + phase +"/manual.csv"
+    if os.path.exists(manual_path):
+        manual = pd.read_csv(manual_path)
+        manual["type"] = "manual"
+        return pd.concat([manual, patterns])
+    else:
+        return patterns
