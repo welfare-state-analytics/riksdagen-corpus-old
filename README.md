@@ -18,4 +18,4 @@ A full dataset is available under the zip download on this page. The unzipped fo
 
 ## Participate in curation
 
-The corpora are large and automatically curated and segmented. If you find any errors, it is possible to submit corrections to them. This is documented in the [project wiki](https://github.com/welfare-state-analytics/riksdagen-corpus/wiki).
+The corpora are large and automatically curated and segmented. If you find any errors, it is possible to submit corrections to them. This is documented in the [project wiki](https://github.com/welfare-state-analytics/riksdagen-corpus/wiki/Submit-corrections).
