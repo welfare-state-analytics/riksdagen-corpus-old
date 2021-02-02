@@ -96,27 +96,54 @@ def create_tei(root, metadata):
     body_div = etree.SubElement(body, "div")
     
     current_speaker = None
-    u = etree.SubElement(body_div, "u", who="UNK")
+    u = None
     
     for content_block in root:
         content_txt = '\n'.join(content_block.itertext())
         is_empty = content_txt == ""
-        cb_ix = content_block.attrib["ix"]
+        cb_ix = content_block.attrib["id"]
         segmentation = content_block.attrib.get("segmentation", None)
         if segmentation == "metadata":
             pass
             #print("Empty block")
-        else:
-            if segmentation == "speech_start":
-                current_speaker = "UNK"
-                u = etree.SubElement(body_div, "u", who=current_speaker)
-            
+        elif segmentation == "note":
             for textblock in content_block:
-                paragraph = textblock.text
+                note = etree.SubElement(body_div, "note")
+                note.text = textblock.text
+        else:
+            for textblock in content_block:
                 tb_segmentation = textblock.attrib.get("segmentation", None)
-                if paragraph != "" and tb_segmentation != "metadata":
-                    seg = etree.SubElement(u, "seg")
-                    seg.text = paragraph
+                if tb_segmentation == "speech_start":
+                    current_speaker = textblock.attrib.get("who", None)
+                    note = etree.SubElement(body_div, "note", type="speaker")                    
+                    u = etree.SubElement(body_div, "u")
+                    if current_speaker is not None:
+                        u.attrib["who"] = current_speaker
+                    u.attrib["{http://www.w3.org/XML/1998/namespace}id"] = textblock.attrib.get("id", None)
+                    
+                    # Introduction under <note> tag
+                    # Actual speech under <u> tag
+                    paragraph = textblock.text.split(":")
+                    introduction = paragraph[0] + ":"
+                    note.text = introduction
+                    if len(paragraph) > 1:
+                        rest_of_paragraph = ":".join(paragraph[1:]).strip()
+                        if len(rest_of_paragraph) > 0:
+                            seg = etree.SubElement(u, "seg")
+                            seg.text = rest_of_paragraph
+                elif tb_segmentation == "note":
+                    note = etree.SubElement(body_div, "note")
+                    note.text = textblock.text
+                else:
+                    paragraph = textblock.text
+                    tb_segmentation = textblock.attrib.get("segmentation", None)
+                    if paragraph != "" and tb_segmentation != "metadata":
+                        if u is not None:
+                            seg = etree.SubElement(u, "seg")
+                            seg.text = paragraph
+                        else:
+                            note = etree.SubElement(body_div, "note")
+                            note.text = paragraph
     return tei
 
 def gen_parlaclarin_corpus(protocol_db, archive, instance_db, curation_db=None, corpus_metadata=dict(), str_output=True):
@@ -126,9 +153,8 @@ def gen_parlaclarin_corpus(protocol_db, archive, instance_db, curation_db=None, 
     for ix, package in progressbar.progressbar(list(protocol_db.iterrows())):
         protocol_id = package["protocol_id"]
         pages = package["pages"]
-        package = archive.get(protocol_id)
         metadata = infer_metadata(protocol_id)
-        protocol = get_blocks(package, protocol_id)
+        protocol = get_blocks(protocol_id, archive)
         protocol = apply_curations(protocol, curation_db)
         protocol = apply_instances(protocol, instance_db)
         tei = create_tei(protocol, metadata)

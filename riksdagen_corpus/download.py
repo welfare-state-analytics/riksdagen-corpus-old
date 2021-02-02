@@ -7,6 +7,17 @@ from PyPDF2 import PdfFileReader, PdfFileWriter
 from lxml import etree
 from riksdagen_corpus.utils import read_html
 
+# Wrapper to KBLab archive class so that you don't need to 
+# log in if you don't actually use the archive
+class LazyArchive():
+    def __init__(self):
+        self.archive = None
+
+    def __getattr__(self, attr):
+        if self.archive == None:
+            self.archive = login_to_archive()
+        return getattr(self.archive, attr)
+
 def login_to_archive():
     """
     Prompts the user for username and password, and logs in to KBLab. Returns the resulting KBLab client archive.
@@ -18,6 +29,9 @@ def login_to_archive():
     return kblab.Archive('https://betalab.kb.se', auth=(username, password))
 
 def get_xml_blocks(xmlpath, htmlpath):
+    """
+    Load protocols with the new XML / HTML structure from 2013 ->
+    """
     xml_tree = etree.fromstring(open(xmlpath).read())
     html_tree = read_html(htmlpath)
     
@@ -30,7 +44,7 @@ def get_xml_blocks(xmlpath, htmlpath):
     
     cb_ix = 0
     tb_ix = 0
-    contentBlock = etree.SubElement(root, "contentBlock", ix=str(cb_ix))
+    contentBlock = etree.SubElement(root, "contentBlock", ix=str(cb_ix), page="0")
     for elem in html_tree:
         if elem.tag in ["p", "h1", "h2"]:
             elemtext = "".join(elem.itertext())
@@ -39,7 +53,7 @@ def get_xml_blocks(xmlpath, htmlpath):
             if linebreak:
                 tb_ix = 0
                 cb_ix += 1
-                contentBlock = etree.SubElement(root, "contentBlock", ix=str(cb_ix))
+                contentBlock = etree.SubElement(root, "contentBlock", ix=str(cb_ix), page="0")
             else:
                 textBlock = etree.SubElement(contentBlock, "textBlock", ix=str(tb_ix))
                 tblock = elemtext.strip()
@@ -54,10 +68,16 @@ def get_xml_blocks(xmlpath, htmlpath):
             parent = xml_element.getparent()
             if parent is not None:
                 parent.remove(xml_element)
-                    
+    
+    for content_block in root.findall(".//contentBlock"):
+        content_block.attrib["page"] = "0"
+    
     return root
     
 def get_html_blocks(fpath):
+    """
+    Load protocols with HTML structures between 1990-2013
+    """
     tree = read_html(fpath)
     id_class = "sidhuvud_beteckning"
 
@@ -68,7 +88,8 @@ def get_html_blocks(fpath):
             classes = div.attrib["class"].split()
             if id_class in classes:
                 desc = div.text
-
+    
+    root = None
     if desc is not None:
         desc = re.sub('[^0-9:\\-]+', '', desc)
         desc = desc.replace(":", "--")
@@ -91,8 +112,6 @@ def get_html_blocks(fpath):
                         tblock = tblock.replace("\n", " ")
                         textBlock = etree.SubElement(contentBlock, "textBlock", ix=str(tb_ix))
                         textBlock.text = tblock
-            
-            return root
         
         # Standard HTML structure, roughly 2003-2013
         elif len(tree.xpath("//div[@class='indrag']")) > 0:
@@ -124,43 +143,14 @@ def get_html_blocks(fpath):
                 if not content:
                     xml_element.getparent().remove(xml_element)
             
-            return root
-        else:
-            return None
-
-        
-        
-    else:
-        return None
-
-def get_blocks(package, package_id, load=True, save=True):
-    """
-    Get content and text blocks from an OCR output XML file. Concatenate words into sentences.
-
-    Args:
-        package: KBLab client package element
-        package_id: ID of the package
-        load: Load the file from disk if available
-        save: Save the downloaded file to disk
-
-    Returns an lxml elem tree with the structure page > contentBlock > textBlock.
-    """
-    #tree = etree.fromstring(s)
+    if root is not None:
+        for content_block in root.findall(".//contentBlock"):
+            content_block.attrib["page"] = "0"
     
-    folder = "data/protocols/" + package_id + "/"
-    fname = "original.xml"
-    overwrite = True
-    if load or save:
-        if not os.path.exists(folder):
-            os.mkdir(folder)
-    
-    if load:
-        fnames = os.listdir(folder)
-        if fname in fnames:
-            s = open(folder + fname).read()
-            overwrite = False
-            return etree.fromstring(s.encode("utf-8"))
-    
+    return root
+
+def get_kb_blocks(package_id, archive):
+    package = archive.get(protocol_id)
     root = etree.Element("protocol", id=package_id)
     for ix, fname in enumerate(fetch_files(package)):
         s = package.get_raw(fname).read()
@@ -189,7 +179,42 @@ def get_blocks(package, package_id, load=True, save=True):
                 tblock = re.sub('([a-zåäö,])- ([a-zåäö])', '\\1\\2', tblock)
                 text_block_e = etree.SubElement(content_block_e, "textBlock", ix=str(tb_ix))
                 text_block_e.text = tblock
+
+    return root
+
+def get_blocks(protocol_id, archive, load=True, save=True):
+    """
+    Get content and text blocks from an OCR output XML file. Concatenate words into sentences.
+
+    Args:
+        protocol_id: ID of the protocol
+        archive: KBlab archive
+        load: Load the file from disk if available
+        save: Save the downloaded file to disk
+
+    Returns an lxml elem tree with the structure page > contentBlock > textBlock.
+    """    
+    folder = "data/protocols/" + protocol_id + "/"
+    fname = "original.xml"
+    root = None
+    overwrite = True
+    if load or save:
+        if not os.path.exists(folder):
+            os.mkdir(folder)
+
+    # Attempt to load from disk
+    if load:
+        fnames = os.listdir(folder)
+        if fname in fnames:
+            s = open(folder + fname).read()
+            overwrite = False
+            root = etree.fromstring(s.encode("utf-8"))
     
+    # Load from server if local copy is not available
+    if root is None:
+        root = get_kb_blocks(protocol_id, archive)
+    
+    # Save in case a new version was loaded from server
     if save and overwrite:
         fname = "original.xml"
         s = etree.tostring(root, pretty_print=True, encoding="utf-8", xml_declaration=True).decode("utf-8")

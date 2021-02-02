@@ -1,6 +1,7 @@
 import pandas as pd
 import os
 from riksdagen_corpus.utils import infer_metadata
+import progressbar
 
 def year_iterator(file_db):
     file_db_years = sorted(list(set(file_db["year"])))
@@ -32,7 +33,8 @@ def _db_location(protocol_id=None, year=None, phase="segmentation"):
 def save_db(db, protocol_id=None, year=None, phase="segmentation"):
     folder = _db_location(protocol_id=protocol_id, year=year, phase=phase)
     if protocol_id is None and year is None:
-        for protocol_id in list(set(db["protocol_id"])):
+        print("Save the whole db...")
+        for protocol_id in progressbar.progressbar(list(set(db["protocol_id"]))):
             if type(protocol_id) == str:
                 current_db = db[db["protocol_id"] == protocol_id]
                 save_db(current_db, protocol_id=protocol_id, phase=phase)
@@ -50,7 +52,8 @@ def load_db(protocol_id=None, year=None, phase="segmentation"):
     if protocol_id is None and year is None:
         folder = "db/" + phase + "/instances/"
         dbs = []
-        for year in os.listdir(folder):
+        print("Load all DBs...")
+        for year in progressbar.progressbar(os.listdir(folder)):
             if os.path.isdir(folder + year):
                 year_db = load_db(protocol_id=None, year=int(year), phase=phase)
                 dbs.append(year_db)
@@ -75,5 +78,11 @@ def load_patterns(year=None, phase="segmentation"):
     if year is not None:
         patterns = patterns[patterns["start"] >= year]
         patterns = patterns[patterns["end"] <= year]
-        
-    return patterns
+    
+    manual_path = "db/" + phase +"/manual.csv"
+    if os.path.exists(manual_path):
+        manual = pd.read_csv(manual_path)
+        manual["type"] = "manual"
+        return pd.concat([manual, patterns])
+    else:
+        return patterns

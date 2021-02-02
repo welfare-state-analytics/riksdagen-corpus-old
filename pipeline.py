@@ -2,7 +2,7 @@ import pandas as pd
 import os
 import progressbar
 
-from riksdagen_corpus.download import login_to_archive
+from riksdagen_corpus.download import LazyArchive
 from riksdagen_corpus.segmentation import find_instances
 from riksdagen_corpus.curation import curation_workflow
 from riksdagen_corpus.export import gen_parlaclarin_corpus
@@ -15,13 +15,30 @@ def curations(file_db, archive, pattern_db):
     for corpus_year, package_ids, _ in year_iterator(file_db):
         print("Curating year:", corpus_year)
         
+        pattern_db_i = pattern_db[pattern_db["start"] <= corpus_year]
+        pattern_db_i = pattern_db_i[pattern_db_i["end"] >= corpus_year]
+
+        print(pattern_db_i)
+
         for protocol_id in progressbar.progressbar(package_ids):
-            instance_db = curation_workflow(protocol_id, archive, pattern_db)
+            instance_db = curation_workflow(protocol_id, archive, pattern_db_i)
             instance_dbs.append(instance_db)
 
     return pd.concat(instance_dbs)
 
 def segmentations(file_db, archive, pattern_db, mp_db):
+    import tensorflow as tf
+    import fasttext.util
+
+    model = tf.keras.models.load_model("segment-classifier")
+    ft = fasttext.load_model('cc.sv.300.bin')
+
+    classifier = dict(
+        model=model,
+        ft=ft,
+        dim=ft.get_word_vector("hej").shape[0]
+    )
+
     instance_dbs = []
     for corpus_year, package_ids, _ in year_iterator(file_db):
         print("Segmenting year:", corpus_year)
@@ -31,10 +48,9 @@ def segmentations(file_db, archive, pattern_db, mp_db):
         
         p_mp_db = mp_db[mp_db["start"] <= corpus_year]
         p_mp_db = p_mp_db[p_mp_db["end"] >= corpus_year]
-        print(p_mp_db)
         
         for protocol_id in progressbar.progressbar(package_ids):
-            instance_db = find_instances(protocol_id, archive, p_pattern_db, p_mp_db)
+            instance_db = find_instances(protocol_id, archive, p_pattern_db, p_mp_db, classifier=classifier)
             save_db(instance_db, protocol_id=protocol_id, phase="segmentation")
             instance_dbs.append(instance_db)
     
@@ -60,17 +76,22 @@ def parlaclarin(file_db, archive, curations=None, segmentations=None):
 
 if __name__ == "__main__":
     
-    #file_db = pd.read_csv("db/protocols/scanned.csv")
-    file_db = pd.read_csv("db/protocols/digital_originals.csv")
+    file_dbs = []
+    file_dbs.append(pd.read_csv("db/protocols/scanned.csv"))
+    file_dbs.append(pd.read_csv("db/protocols/digital_originals.csv"))
+    file_db = pd.concat(file_dbs)
     
-    start_year = 2013
-    end_year = 2018
+    start_year = 1920
+    end_year = 2021
+
+    start_year = 1920
+    end_year = 1920
     
     file_db = file_db[file_db["year"] >= start_year]
     file_db = file_db[file_db["year"] <= end_year]
     
     mp_db = pd.read_csv("db/mp/members_of_parliament.csv")
-    archive = login_to_archive()
+    archive = LazyArchive()
     
     if True:
         curation_patterns = load_patterns(phase="curation")
@@ -81,7 +102,7 @@ if __name__ == "__main__":
         curation_db = load_db(phase="curation")
         print("Done.")
         
-    if True:
+    if False:
         segmentation_patterns = load_patterns(phase="segmentation")
         segmentation_db = segmentations(file_db, archive, segmentation_patterns, mp_db)
         save_db(segmentation_db, phase="segmentation")
