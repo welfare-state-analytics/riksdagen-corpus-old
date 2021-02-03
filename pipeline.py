@@ -9,21 +9,30 @@ from riksdagen_corpus.export import gen_parlaclarin_corpus
 from riksdagen_corpus.utils import infer_metadata
 from riksdagen_corpus.db import load_db, save_db, load_patterns, year_iterator
 
+def filter_db(db, year=None, protocol_id=None):
+    assert year is not None or protocol_id is not None, "Provide either year or protocol id"
+    if year is not None:
+        filtered_db = db[db["start"] <= year]
+        filtered_db = filtered_db[filtered_db["end"] >= year]
+        return filtered_db
+    else:
+        return db[db["protocol_id"] == protocol_id]
 
 def curations(file_db, archive, pattern_db):
     instance_dbs = []
     for corpus_year, package_ids, _ in year_iterator(file_db):
         print("Curating year:", corpus_year)
         
-        pattern_db_i = pattern_db[pattern_db["start"] <= corpus_year]
-        pattern_db_i = pattern_db_i[pattern_db_i["end"] >= corpus_year]
-
+        year_patterns = filter_db(pattern_db, year=corpus_year)
         print(pattern_db_i)
 
         for protocol_id in progressbar.progressbar(package_ids):
-            instance_db = curation_workflow(protocol_id, archive, pattern_db_i)
+            protocol_patterns = filter_db(pattern_db, protocol_id=protocol_id)
+            protocol_patterns = pd.concat([protocol_patterns, year_patterns])
+            instance_db = curation_workflow(protocol_id, archive, protocol_patterns)
             instance_dbs.append(instance_db)
 
+    print(pd.concat(instance_dbs))
     return pd.concat(instance_dbs)
 
 def segmentations(file_db, archive, pattern_db, mp_db):
@@ -38,20 +47,19 @@ def segmentations(file_db, archive, pattern_db, mp_db):
         ft=ft,
         dim=ft.get_word_vector("hej").shape[0]
     )
+    #classifier = None
 
     instance_dbs = []
     for corpus_year, package_ids, _ in year_iterator(file_db):
         print("Segmenting year:", corpus_year)
         
-        p_pattern_db = pattern_db[pattern_db["start"] <= corpus_year]
-        p_pattern_db = pattern_db[pattern_db["end"] >= corpus_year]
-        
-        p_mp_db = mp_db[mp_db["start"] <= corpus_year]
-        p_mp_db = p_mp_db[p_mp_db["end"] >= corpus_year]
+        year_patterns = filter_db(pattern_db, year=corpus_year)
+        year_mps = filter_db(mp_db, year=corpus_year)
         
         for protocol_id in progressbar.progressbar(package_ids):
-            instance_db = find_instances(protocol_id, archive, p_pattern_db, p_mp_db, classifier=classifier)
-            save_db(instance_db, protocol_id=protocol_id, phase="segmentation")
+            protocol_patterns = filter_db(pattern_db, protocol_id=protocol_id)
+            protocol_patterns = pd.concat([protocol_patterns, year_patterns])
+            instance_db = find_instances(protocol_id, archive, protocol_patterns, year_mps, classifier=classifier)
             instance_dbs.append(instance_db)
     
     return pd.concat(instance_dbs)
@@ -85,7 +93,7 @@ if __name__ == "__main__":
     end_year = 2021
 
     start_year = 1920
-    end_year = 1920
+    end_year = 1921
     
     file_db = file_db[file_db["year"] >= start_year]
     file_db = file_db[file_db["year"] <= end_year]
@@ -93,7 +101,7 @@ if __name__ == "__main__":
     mp_db = pd.read_csv("db/mp/members_of_parliament.csv")
     archive = LazyArchive()
     
-    if True:
+    if False:
         curation_patterns = load_patterns(phase="curation")
         curation_db = curations(file_db, archive, curation_patterns)
         save_db(curation_db, phase="curation")
@@ -102,7 +110,7 @@ if __name__ == "__main__":
         curation_db = load_db(phase="curation")
         print("Done.")
         
-    if False:
+    if True:
         segmentation_patterns = load_patterns(phase="segmentation")
         segmentation_db = segmentations(file_db, archive, segmentation_patterns, mp_db)
         save_db(segmentation_db, phase="segmentation")
@@ -111,7 +119,7 @@ if __name__ == "__main__":
         segmentation_db = load_db(phase="segmentation")
         print("Done.")
     
-    if True:
+    if False:
         parlaclarin(file_db, archive, curations=curation_db, segmentations=segmentation_db)
 
 

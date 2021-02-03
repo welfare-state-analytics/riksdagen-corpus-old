@@ -106,12 +106,16 @@ def find_instances_xml(root, pattern_db, mp_db, classifier):
     names_ids = list(zip(names,ids))
     
     expressions = dict()
+    manual = dict()
     for _, row in pattern_db.iterrows():
-        pattern = row['pattern']
-        exp = re.compile(pattern)
-        #Calculate digest for distringuishing patterns without ugly characters
-        pattern_digest = hashlib.md5(pattern.encode("utf-8")).hexdigest()[:16]
-        expressions[pattern_digest] = exp
+        if row["type"] == "regex":
+            pattern = row['pattern']
+            exp = re.compile(pattern)
+            #Calculate digest for distringuishing patterns without ugly characters
+            pattern_digest = hashlib.md5(pattern.encode("utf-8")).hexdigest()[:16]
+            expressions[pattern_digest] = exp
+        elif row["type"] == "manual":
+            manual[row["pattern"]] = row["segmentation"]
     
     prot_speeches = dict()
     for content_block in root:
@@ -125,6 +129,17 @@ def find_instances_xml(root, pattern_db, mp_db, classifier):
                 # Do not do segmentation if paragraph is empty
                 if type(paragraph) != str:
                     continue
+
+                for pattern, segmentation in manual.items():
+                    if pattern in paragraph:
+                        person = _detect_mp(matched_txt, names_ids)
+                        #person = _detect_mp(matched_txt, names_ids)
+                        d = {"protocol_id": protocol_id,
+                            "pattern": "manual",
+                            "segmentation": segmentation,
+                            "elem_id": tb_id,
+                            }
+                        continue
 
                 # Detect speaker introductions
                 segmentation = None

@@ -78,6 +78,8 @@ def load_patterns(year=None, phase="segmentation"):
     if year is not None:
         patterns = patterns[patterns["start"] >= year]
         patterns = patterns[patterns["end"] <= year]
+
+    patterns["protocol_id"] = None
     
     manual_path = "db/" + phase +"/manual.csv"
     if os.path.exists(manual_path):
