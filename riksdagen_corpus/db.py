@@ -88,3 +88,12 @@ def load_patterns(year=None, phase="segmentation"):
         return pd.concat([manual, patterns])
     else:
         return patterns
+
+def filter_db(db, year=None, protocol_id=None):
+    assert year is not None or protocol_id is not None, "Provide either year or protocol id"
+    if year is not None:
+        filtered_db = db[db["start"] <= year]
+        filtered_db = filtered_db[filtered_db["end"] >= year]
+        return filtered_db
+    else:
+        return db[db["protocol_id"] == protocol_id]

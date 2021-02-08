@@ -4,16 +4,15 @@ ultimately into the Parla-Clarin XML format.
 """
 import numpy as np
 import pandas as pd
-import re
-import hashlib
-import copy
+import re, hashlib, copy
 import progressbar
 from os import listdir
 from os.path import isfile, join
 from lxml import etree
 from riksdagen_corpus.mp import detect_mp
-from riksdagen_corpus.download import get_blocks, fetch_files, login_to_archive
+from riksdagen_corpus.download import get_blocks, fetch_files
 from riksdagen_corpus.utils import infer_metadata
+from riksdagen_corpus.db import filter_db, year_iterator
 
 # Classify paragraph
 def classify_paragraph(paragraph, classifier, prior=np.log([0.8, 0.2])):
@@ -208,3 +207,32 @@ def find_instances(protocol_id, archive, pattern_db, mp_db, classifier=None):
     instance_db["protocol_id"] = protocol_id
     return instance_db
     
+def segmentation_workflow(file_db, archive, pattern_db, mp_db, ml=True):
+    classifier = None
+    if ml:
+        import tensorflow as tf
+        import fasttext.util
+
+        model = tf.keras.models.load_model("segment-classifier")
+        ft = fasttext.load_model('cc.sv.300.bin')
+
+        classifier = dict(
+            model=model,
+            ft=ft,
+            dim=ft.get_word_vector("hej").shape[0]
+        )
+
+    instance_dbs = []
+    for corpus_year, package_ids, _ in year_iterator(file_db):
+        print("Segmenting year:", corpus_year)
+        
+        year_patterns = filter_db(pattern_db, year=corpus_year)
+        year_mps = filter_db(mp_db, year=corpus_year)
+        
+        for protocol_id in progressbar.progressbar(package_ids):
+            protocol_patterns = filter_db(pattern_db, protocol_id=protocol_id)
+            protocol_patterns = pd.concat([protocol_patterns, year_patterns])
+            instance_db = find_instances(protocol_id, archive, protocol_patterns, year_mps, classifier=classifier)
+            instance_dbs.append(instance_db)
+    
+    return pd.concat(instance_dbs)

@@ -5,9 +5,10 @@ import pandas as pd
 import progressbar, copy
 from lxml import etree
 from riksdagen_corpus.utils import infer_metadata
-from riksdagen_corpus.download import get_blocks, fetch_files, login_to_archive
+from riksdagen_corpus.download import get_blocks, fetch_files
 from riksdagen_corpus.curation import apply_curations
 from riksdagen_corpus.segmentation import apply_instances
+from riksdagen_corpus.db import filter_db, year_iterator
 
 # Generate parla clarin header
 def _pc_header(metadata):
@@ -163,3 +164,21 @@ def gen_parlaclarin_corpus(protocol_db, archive, instance_db, curation_db=None, 
     corpus_metadata["edition"] = "0.1.0"
     corpus = create_parlaclarin(teis, corpus_metadata)
     return corpus
+
+def parlaclarin_workflow(file_db, archive, curations=None, segmentations=None):
+    for corpus_year, package_ids, year_db in year_iterator(file_db):
+        print("Generate corpus for year", corpus_year)
+        current_instances = pd.merge(segmentations, year_db, on=['protocol_id'])
+        current_curations = pd.merge(curations, year_db, on=['protocol_id'])
+
+        corpus_metadata = dict(
+            document_title="Riksdagens protocols " + str(corpus_year),
+            authority="National Library of Sweden and the WESTAC project",
+            correction="Some data curation was done. It is documented in db/curation/instances"
+        )
+        parla_clarin_str = gen_parlaclarin_corpus(year_db, archive, current_instances, corpus_metadata=corpus_metadata, curation_db=current_curations)
+        
+        parlaclarin_path = "data/parla-clarin/" + "corpus" + str(corpus_year) + ".xml"
+        f = open(parlaclarin_path, "w")
+        f.write(parla_clarin_str)
+        f.close()
