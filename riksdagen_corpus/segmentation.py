@@ -4,7 +4,7 @@ ultimately into the Parla-Clarin XML format.
 """
 import numpy as np
 import pandas as pd
-import re, hashlib, copy
+import re, hashlib, copy, os
 import progressbar
 from os import listdir
 from os.path import isfile, join
@@ -214,7 +214,11 @@ def segmentation_workflow(file_db, archive, pattern_db, mp_db, ml=True):
         import fasttext.util
 
         model = tf.keras.models.load_model("segment-classifier")
-        ft = fasttext.load_model('cc.sv.300.bin')
+
+        # Load word vectors from disk or download with the fasttext module
+        vector_path = 'cc.sv.300.bin'
+        fasttext.util.download_model('sv', if_exists='ignore')
+        ft = fasttext.load_model(vector_path)
 
         classifier = dict(
             model=model,
