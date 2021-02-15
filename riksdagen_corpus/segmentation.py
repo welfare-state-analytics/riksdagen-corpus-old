@@ -166,7 +166,7 @@ def find_instances_xml(root, pattern_db, mp_db, classifier):
                         continue
 
                 # Detect speaker introductions
-                d = detect_introduction(paragraph, expressions)
+                d = detect_introduction(paragraph, expressions, names_ids)
 
                 # Do not do further segmentation if speech is detected
                 if d is not None:
