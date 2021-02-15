@@ -91,7 +91,35 @@ def detect_mp(matched_txt, names_ids, last_name=True):
                 person = identifier
 
     return person
-    
+
+def expression_dicts(pattern_db):
+    expressions = dict()
+    manual = dict()
+    for _, row in pattern_db.iterrows():
+        if row["type"] == "regex":
+            pattern = row['pattern']
+            exp = re.compile(pattern)
+            #Calculate digest for distringuishing patterns without ugly characters
+            pattern_digest = hashlib.md5(pattern.encode("utf-8")).hexdigest()[:16]
+            expressions[pattern_digest] = exp
+        elif row["type"] == "manual":
+            manual[row["pattern"]] = row["segmentation"]
+    return expressions, manual
+
+def detect_introduction(paragraph, expressions, names_ids):
+    for pattern_digest, exp in expressions.items():
+        for m in exp.finditer(paragraph):
+            matched_txt = m.group()
+            person = detect_mp(matched_txt, names_ids)
+            segmentation = "speech_start"
+            d = {
+            "pattern": pattern_digest,
+            "who": person,
+            "segmentation": segmentation,
+            }
+
+            return d
+
 # Instance detection
 def find_instances_xml(root, pattern_db, mp_db, classifier):
     """
@@ -112,17 +140,7 @@ def find_instances_xml(root, pattern_db, mp_db, classifier):
     ids = mp_db["id"]
     names_ids = list(zip(names,ids))
     
-    expressions = dict()
-    manual = dict()
-    for _, row in pattern_db.iterrows():
-        if row["type"] == "regex":
-            pattern = row['pattern']
-            exp = re.compile(pattern)
-            #Calculate digest for distringuishing patterns without ugly characters
-            pattern_digest = hashlib.md5(pattern.encode("utf-8")).hexdigest()[:16]
-            expressions[pattern_digest] = exp
-        elif row["type"] == "manual":
-            manual[row["pattern"]] = row["segmentation"]
+    expressions, manual = expression_dicts(pattern_db)
     
     prot_speeches = dict()
     for content_block in root:
@@ -141,34 +159,19 @@ def find_instances_xml(root, pattern_db, mp_db, classifier):
                     if pattern in paragraph:
                         person = detect_mp(paragraph, names_ids)
                         #person = detect_mp(matched_txt, names_ids)
-                        d = {"protocol_id": protocol_id,
-                            "pattern": "manual",
+                        d = {"pattern": "manual",
                             "segmentation": segmentation,
                             "elem_id": tb_id,
                             }
                         continue
 
                 # Detect speaker introductions
-                segmentation = None
-                for pattern_digest, exp in expressions.items():
-                    for m in exp.finditer(paragraph):
-                        matched_txt = m.group()
-                        person = detect_mp(matched_txt, names_ids)
-                        segmentation = "speech_start"
-                        d = {
-                        "protocol_id": protocol_id,
-                        "pattern": pattern_digest,
-                        "who": person,
-                        "segmentation": segmentation,
-                        "elem_id": tb_id,
-                        }
-
-                        data.append(d)
-
-                        break
+                d = detect_introduction(paragraph, expressions)
 
                 # Do not do further segmentation if speech is detected
-                if segmentation is not None:
+                if d is not None:
+                    d["elem_id"] = tb_id
+                    data.append(d)
                     continue
 
                 # Use ML model to classify paragraph
@@ -177,18 +180,19 @@ def find_instances_xml(root, pattern_db, mp_db, classifier):
                     if np.argmax(preds) == 1:
                         segmentation = "note"
                         d = {
-                        "protocol_id": protocol_id,
                         "segmentation": segmentation,
                         "elem_id": tb_id,
                         }
 
                         data.append(d)
         else:
-            d = {"protocol_id": protocol_id, "pattern": None, "who": None, "segmentation": "metadata"}
+            d = {"pattern": None, "who": None, "segmentation": "metadata"}
             d["elem_id"] = cb_id
             data.append(d)
 
-    return pd.DataFrame(data, columns=columns)
+    df = pd.DataFrame(data, columns=columns)
+    df["protocol_id"] = protocol_id
+    return df
 
 def apply_instances(protocol, instance_db):
     protocol_id = protocol.attrib["id"]
