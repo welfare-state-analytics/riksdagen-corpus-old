@@ -98,15 +98,20 @@ def create_tei(root, metadata):
     
     current_speaker = None
     u = None
-    
+    prev_u = None
+
     for content_block in root:
         content_txt = '\n'.join(content_block.itertext())
         is_empty = content_txt == ""
         cb_ix = content_block.attrib["id"]
         segmentation = content_block.attrib.get("segmentation", None)
         if segmentation == "metadata":
-            pass
-            #print("Empty block")
+            if prev_u is None:
+                prev_u = u
+                u = None
+            for textblock in content_block:
+                note = etree.SubElement(body_div, "note")
+                note.text = textblock.text
         elif segmentation == "note":
             for textblock in content_block:
                 note = etree.SubElement(body_div, "note")
@@ -115,11 +120,14 @@ def create_tei(root, metadata):
             for textblock in content_block:
                 tb_segmentation = textblock.attrib.get("segmentation", None)
                 if tb_segmentation == "speech_start":
+                    prev_u = None
                     current_speaker = textblock.attrib.get("who", None)
                     note = etree.SubElement(body_div, "note", type="speaker")                    
                     u = etree.SubElement(body_div, "u")
                     if current_speaker is not None:
                         u.attrib["who"] = current_speaker
+                    else:
+                        u.attrib["who"] = "unknown"
                     u.attrib["{http://www.w3.org/XML/1998/namespace}id"] = textblock.attrib.get("id", None)
                     
                     # Introduction under <note> tag
@@ -133,13 +141,31 @@ def create_tei(root, metadata):
                             seg = etree.SubElement(u, "seg")
                             seg.text = rest_of_paragraph
                 elif tb_segmentation == "note":
+                    if prev_u is None:
+                        prev_u = u
+                        u = None
+                    note = etree.SubElement(body_div, "note")
+                    note.text = textblock.text
+                elif tb_segmentation == "metadata":
+                    if prev_u is None:
+                        prev_u = u
+                        u = None
                     note = etree.SubElement(body_div, "note")
                     note.text = textblock.text
                 else:
                     paragraph = textblock.text
-                    tb_segmentation = textblock.attrib.get("segmentation", None)
-                    if paragraph != "" and tb_segmentation != "metadata":
+                    if paragraph != "":
                         if u is not None:
+                            seg = etree.SubElement(u, "seg")
+                            seg.text = paragraph
+                        elif prev_u is not None:
+                            prev_u.attrib["next"] = "cont"
+                            u = etree.SubElement(body_div, "u")
+                            if current_speaker is not None:
+                                u.attrib["who"] = current_speaker
+                            else:
+                                u.attrib["who"] = "unknown"
+                            u.attrib["prev"] = "cont"
                             seg = etree.SubElement(u, "seg")
                             seg.text = paragraph
                         else:
@@ -149,9 +175,9 @@ def create_tei(root, metadata):
 
 def gen_parlaclarin_corpus(protocol_db, archive, instance_db, curation_db=None, corpus_metadata=dict(), str_output=True):
     teis = []
-    print("Pages in total", protocol_db["pages"].sum())
+    #print("Pages in total", protocol_db["pages"].sum())
     
-    for ix, package in progressbar.progressbar(list(protocol_db.iterrows())):
+    for ix, package in list(protocol_db.iterrows()):
         protocol_id = package["protocol_id"]
         pages = package["pages"]
         metadata = infer_metadata(protocol_id)
@@ -182,3 +208,27 @@ def parlaclarin_workflow(file_db, archive, curations=None, segmentations=None):
         f = open(parlaclarin_path, "w")
         f.write(parla_clarin_str)
         f.close()
+
+def parlaclarin_workflow_individual(file_db, archive, curations=None, segmentations=None):
+    for corpus_year, package_ids, year_db in year_iterator(file_db):
+        print("Generate corpus for year", corpus_year)
+        current_instances = pd.merge(segmentations, year_db, on=['protocol_id'])
+        current_curations = pd.merge(curations, year_db, on=['protocol_id'])
+
+        corpus_metadata = dict(
+            document_title="Riksdagens protocols " + str(corpus_year),
+            authority="National Library of Sweden and the WESTAC project",
+            correction="Some data curation was done. It is documented in db/curation/instances"
+        )
+
+        year_db = file_db[file_db["year"] ==corpus_year]
+        for ix, row in progressbar.progressbar(list(year_db.iterrows())):
+            df = pd.DataFrame([row], columns = year_db.columns)
+            protocol_id = row["protocol_id"]
+            parla_clarin_str = gen_parlaclarin_corpus(df, archive, current_instances, corpus_metadata=corpus_metadata, curation_db=current_curations)
+            
+            parlaclarin_path = "data/new-parlaclarin/" + protocol_id+ ".xml"
+            f = open(parlaclarin_path, "w")
+            f.write(parla_clarin_str)
+            f.close()
+

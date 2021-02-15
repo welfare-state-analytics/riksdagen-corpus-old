@@ -63,25 +63,33 @@ def _is_metadata_block(txt0):
     # TODO: replace with ML algorithm
     return float(len1) / float(len0) < 0.85 and len0 < 150
 
-def _detect_mp(matched_txt, names_ids):
+def detect_mp(matched_txt, names_ids, last_name=True):
+    """
+    Match the introduced speaker in a text snippet
+    """
     person = None
+
+    # Prefer uppercase
     for name, identifier in names_ids:
-        if name in matched_txt:
+        if name.upper() in matched_txt:
             person = identifier
-    
+
     if person == None:
         for name, identifier in names_ids:
-            if name.upper() in matched_txt:
+            if name in matched_txt:
                 person = identifier
-    
+
     # Only match last name if full name is not found
-    if person == None:
+    if last_name and person is None:
         for name, identifier in names_ids:
             last_name = " " + name.split()[-1]
+            
             if last_name in matched_txt:
                 person = identifier
             elif last_name.upper() in matched_txt:
+                #print(matched_txt, last_name, last_name.upper())
                 person = identifier
+
     return person
     
 # Instance detection
@@ -131,8 +139,8 @@ def find_instances_xml(root, pattern_db, mp_db, classifier):
 
                 for pattern, segmentation in manual.items():
                     if pattern in paragraph:
-                        person = _detect_mp(matched_txt, names_ids)
-                        #person = _detect_mp(matched_txt, names_ids)
+                        person = detect_mp(paragraph, names_ids)
+                        #person = detect_mp(matched_txt, names_ids)
                         d = {"protocol_id": protocol_id,
                             "pattern": "manual",
                             "segmentation": segmentation,
@@ -145,7 +153,7 @@ def find_instances_xml(root, pattern_db, mp_db, classifier):
                 for pattern_digest, exp in expressions.items():
                     for m in exp.finditer(paragraph):
                         matched_txt = m.group()
-                        person = _detect_mp(matched_txt, names_ids)
+                        person = detect_mp(matched_txt, names_ids)
                         segmentation = "speech_start"
                         d = {
                         "protocol_id": protocol_id,
@@ -232,7 +240,8 @@ def segmentation_workflow(file_db, archive, pattern_db, mp_db, ml=True):
         
         year_patterns = filter_db(pattern_db, year=corpus_year)
         year_mps = filter_db(mp_db, year=corpus_year)
-        
+        print(year_mps)
+
         for protocol_id in progressbar.progressbar(package_ids):
             protocol_patterns = filter_db(pattern_db, protocol_id=protocol_id)
             protocol_patterns = pd.concat([protocol_patterns, year_patterns])
