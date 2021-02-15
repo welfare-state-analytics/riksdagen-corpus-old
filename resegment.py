@@ -1,5 +1,5 @@
 from riksdagen_corpus.db import filter_db, load_patterns
-from riksdagen_corpus.refine import detect_mps, find_introductions
+from riksdagen_corpus.refine import detect_mps, find_introductions, format_texts
 from riksdagen_corpus.utils import infer_metadata
 from lxml import etree
 import pandas as pd
@@ -19,10 +19,10 @@ names_ids = list(zip(names,ids))
 
 pattern_db = load_patterns()
 root = find_introductions(root,pattern_db, names_ids)
+root = detect_mps(root,names_ids)
+#root = format_texts(root)
 
-new_root = detect_mps(root,names_ids)
-
-b = etree.tostring(new_root, pretty_print=True, encoding="utf-8")
+b = etree.tostring(root, pretty_print=True, encoding="utf-8")
 
 f = open("output.xml", "wb")
 f.write(b)
