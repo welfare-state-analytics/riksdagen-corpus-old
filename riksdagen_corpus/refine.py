@@ -12,11 +12,8 @@ def _iter(root):
 
 def detect_mps(root, mp_db):
     """
-    Find instances of curation patterns in all files in a folder.
-
-    Args:
-        pattern_db: Patterns to be matched as a Pandas DataFrame.
-        folder: Folder of files to be searched.
+    Re-detect MPs in a parla clarin protocol, based on the (updated)
+    MP database.
     """
     current_speaker = None
 
@@ -59,10 +56,20 @@ def find_introductions(root, pattern_db, names_ids):
                     seg.tag = "{http://www.tei-c.org/ns/1.0}note"
                     seg.attrib["type"] = "speaker"
 
-                    u_parent.insert(ix + 1, seg)
+                    if u is not None:
+                        u.addnext(seg)
+                    else:
+                        elem.addnext(seg)
+
                     u = etree.Element("{http://www.tei-c.org/ns/1.0}u")
-                    u.attrib["who"] = introduction["who"]
-                    u_parent.insert(ix + 2, u)
+                    
+                    if introduction["who"] is not None:
+                        u.attrib["who"] = introduction["who"]
+                    else:
+                        u.attrib["who"] = "unknown"
+
+                    seg.addnext(u)
+
                 elif u is not None:
                     u.append(seg)
 
@@ -72,8 +79,7 @@ def find_introductions(root, pattern_db, names_ids):
                 
             if introduction is not None:
                 if not elem.attrib.get("type", None) == "speaker":
-                    print("NEW", elem.text)
-                    elem.tag = "{http://www.tei-c.org/ns/1.0}note"
+                    print("NEW note", elem.text)
                 else:
                     print("OLD", elem.text)
 
