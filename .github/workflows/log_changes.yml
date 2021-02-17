@@ -33,7 +33,6 @@ jobs:
         uses: futuratrepadeira/changed-files@v3.3.0
         with:
           repo-token: ${{ github.token }}
-          result-encoding: "json"
       
       - name: Write updated into file
         run: 
