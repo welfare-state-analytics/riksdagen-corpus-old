@@ -71,6 +71,13 @@ def find_introductions(root, pattern_db, names_ids):
                         u.attrib["who"] = "unknown"
 
                     seg.addnext(u)
+                    if seg.text[-1] != ":":
+                        ix = seg.text.index(":")
+                        rest = seg.text[ix+1:]
+                        seg.text = seg.text[:ix+1]
+                        new_seg = etree.SubElement(u, "{http://www.tei-c.org/ns/1.0}seg")
+                        new_seg.text = rest
+
                     
                 elif u is not None:
                     u.append(seg)
@@ -88,7 +95,7 @@ def find_introductions(root, pattern_db, names_ids):
                 else:
                     print("OLD", elem.text)
 
-    return etree.fromstring(etree.tostring(root))
+    return root
 
 def format_paragraph(paragraph, spaces = 12):
     words = paragraph.strip().split()
