@@ -33,20 +33,90 @@ ultimately into the Parla-Clarin XML format.</p>
 Implements the segmentation of the data into speeches and
 ultimately into the Parla-Clarin XML format.
 &#34;&#34;&#34;
-
+import numpy as np
 import pandas as pd
-import re
+import re, hashlib, copy
+import progressbar
 from os import listdir
 from os.path import isfile, join
 from lxml import etree
 from riksdagen_corpus.mp import detect_mp
-from riksdagen_corpus.download import get_blocks, fetch_files, login_to_archive
-from riksdagen_corpus.curation import get_curated_blocks
-import hashlib
-import copy
+from riksdagen_corpus.download import get_blocks, fetch_files
+from riksdagen_corpus.utils import infer_metadata
+from riksdagen_corpus.db import filter_db, year_iterator
 
+# Classify paragraph
+def classify_paragraph(paragraph, classifier, prior=np.log([0.8, 0.2])):
+    &#34;&#34;&#34;
+    Classify paragraph into speeches / descriptions with provided classifier
+
+    &#34;&#34;&#34;
+    words = paragraph.split()
+    V = len(words)
+    if V == 0:
+        return prior
+
+    x = np.zeros((V, classifier[&#34;dim&#34;]))
+
+    ft = classifier[&#34;ft&#34;]
+    for ix, word in enumerate(words):
+        vec = ft.get_word_vector(word)
+        x[ix] = vec
+
+    pred = classifier[&#34;model&#34;].predict(x, batch_size=V)
+    return np.sum(pred, axis=0) + prior
+
+def _is_metadata_block(txt0):
+    txt1 = re.sub(&#34;[^a-zA-ZåäöÅÄÖ ]+&#34;, &#34;&#34;, txt0)
+    len0 = len(txt0)
+    
+    # Empty blocks should not be classified as metadata
+    if len(txt0.strip()) == 0:
+        return False
+        
+    # Metadata generally don&#39;t introduce other things
+    if txt0.strip()[-1] == &#34;:&#34;:
+        return False
+
+    # Or list MPs
+    if &#34;Anf.&#34; in txt0:
+        return False
+    
+    len1 = len(txt1)
+    len2 = len(txt0.strip())
+    if len2 == 0:
+        return False
+    
+    # Crude heuristic. Skip if
+    # a) over 15% is non alphabetic characters
+    # and b) length is under 150 characters
+    
+    # TODO: replace with ML algorithm
+    return float(len1) / float(len0) &lt; 0.85 and len0 &lt; 150
+
+def _detect_mp(matched_txt, names_ids):
+    person = None
+    for name, identifier in names_ids:
+        if name in matched_txt:
+            person = identifier
+    
+    if person == None:
+        for name, identifier in names_ids:
+            if name.upper() in matched_txt:
+                person = identifier
+    
+    # Only match last name if full name is not found
+    if person == None:
+        for name, identifier in names_ids:
+            last_name = &#34; &#34; + name.split()[-1]
+            if last_name in matched_txt:
+                person = identifier
+            elif last_name.upper() in matched_txt:
+                person = identifier
+    return person
+    
 # Instance detection
-def find_instances_xml(root, pattern_db, protocol_id, mp_db=None):
+def find_instances_xml(root, pattern_db, mp_db, classifier):
     &#34;&#34;&#34;
     Find instances of segment start and end patterns in a txt file.
 
@@ -54,268 +124,149 @@ def find_instances_xml(root, pattern_db, protocol_id, mp_db=None):
         root: root of an lxml tree to be pattern matched.
         pattern_db: Patterns to be matched as a Pandas DataFrame.
     &#34;&#34;&#34;
-    columns = [&#39;filename&#39;, &#39;pattern&#39;, &#39;txt&#39;, &#34;person&#34;]
+    columns = [&#39;protocol_id&#39;, &#34;elem_id&#34;, &#34;pattern&#34;, &#34;segmentation&#34;, &#34;who&#34;, &#34;id&#34;]
     data = []
-    names = []
-    if mp_db is not None:
-        mp_db = mp_db[mp_db[&#39;Riksdagsledamot&#39;].notnull()]
-        names = mp_db[&#34;Riksdagsledamot&#34;]
-        
-    for row in pattern_db.iterrows():
-        row = row[1]
-        pattern = row[&#39;pattern&#39;]
-
-        #print(&#34;PATTERN:&#34;, pattern)
-        exp = re.compile(pattern)
-        #print(&#34;EXP&#34;, exp)
-            
-        for content_block in root:
-            content_txt = &#39;\n&#39;.join(content_block.itertext())
-            
-            if not _is_metadata_block(content_txt):
-                for m in exp.finditer(content_txt):
-                    matched_txt = m.group()
-                    person = None
-                    for name in names:
-                        if name in matched_txt:
-                            person = name
-                    
-                    if person == None:
-                        for name in names:
-                            if name.upper() in matched_txt:
-                                person = name
-                            
-                    
-                    # Only match last name if full name is not found
-                    if person == None:
-                        for name in names:
-                            last_name = &#34; &#34; + name.split()[-1]
-                            if last_name in matched_txt:
-                                person = name
-                            elif last_name.upper() in matched_txt:
-                                person = name
-                    
-                    # Calculate digest for distringuishing patterns without ugly characters
-                    pattern_digest = hashlib.md5(pattern.encode(&#34;utf-8&#34;)).hexdigest()[:16]
-                    d = {&#34;filename&#34;: protocol_id, &#34;pattern&#34;: pattern_digest, &#34;txt&#34;: matched_txt, &#34;person&#34;: person }
-                    data.append(d)
-
-    return  pd.DataFrame(data, columns=columns)
-
-def find_instances_html(filename, pattern_db):
-    &#34;&#34;&#34;
-    Find instances of segment start and end patterns in an html file (digital originals).
-
-    Args:
-        pattern_db: Patterns to be matched as a Pandas DataFrame.
-        filename: Path to file to be searched.
-    &#34;&#34;&#34;
-    # TODO: implement
-    columns = [&#39;filename&#39;, &#39;loc&#39;, &#39;pattern&#39;, &#39;txt&#39;]
-    instance_db = pd.DataFrame(columns = columns) 
-    return instance_db
-
-# Parla Clarin generation
-def infer_metadata(filename):
-    metadata = dict()
-
-    metadata[&#34;protocol&#34;] = filename.split(&#34;/&#34;)[-1].split(&#34;.&#34;)[0]
-    split = filename.split(&#34;/&#34;)[-1].split(&#34;_&#34;)
+    protocol_id = root.attrib[&#34;id&#34;]
+    metadata = infer_metadata(protocol_id)
+    pattern_rows = list(pattern_db.iterrows())
     
-    # Year
-    for s in split:
-        s = s[:4]
-        if s.isdigit():
-            year = int(s)
-            if year &gt; 1800 and year &lt; 2100:
-                metadata[&#34;year&#34;] = year
-
-    # Chamber
-    metadata[&#34;chamber&#34;] = None
-    if &#34;_ak_&#34; in filename:
-        metadata[&#34;chamber&#34;] = &#34;ak&#34;
-    elif &#34;_fk_&#34; in filename:
-        metadata[&#34;chamber&#34;] = &#34;fk&#34;
-
-    # TODO: Month and day
-    # TODO: Day of the week
-    print(&#34;Metadata&#34;, metadata)
-    return metadata
-
-# Generate parla clarin header
-def _pc_header(metadata):
-    teiHeader = etree.Element(&#34;teiHeader&#34;)
+    mp_db = mp_db[mp_db[&#34;chamber&#34;] == metadata[&#34;chamber&#34;]]
+    names = mp_db[&#34;name&#34;]
+    ids = mp_db[&#34;id&#34;]
+    names_ids = list(zip(names,ids))
     
-    # fileDesc
-    fileDesc = etree.SubElement(teiHeader, &#34;fileDesc&#34;)
+    expressions = dict()
+    manual = dict()
+    for _, row in pattern_db.iterrows():
+        if row[&#34;type&#34;] == &#34;regex&#34;:
+            pattern = row[&#39;pattern&#39;]
+            exp = re.compile(pattern)
+            #Calculate digest for distringuishing patterns without ugly characters
+            pattern_digest = hashlib.md5(pattern.encode(&#34;utf-8&#34;)).hexdigest()[:16]
+            expressions[pattern_digest] = exp
+        elif row[&#34;type&#34;] == &#34;manual&#34;:
+            manual[row[&#34;pattern&#34;]] = row[&#34;segmentation&#34;]
     
-    titleStmt = etree.SubElement(fileDesc, &#34;titleStmt&#34;)
-    title = etree.SubElement(titleStmt, &#34;title&#34;)
-    title.text = metadata.get(&#34;document_title&#34;, &#34;N/A&#34;)
-    
-    if &#34;edition&#34; in metadata:
-        editionStmt = etree.SubElement(fileDesc, &#34;editionStmt&#34;)
-        edition = etree.SubElement(editionStmt, &#34;edition&#34;)
-        edition.text = metadata.get(&#34;edition&#34;, &#34;N/A&#34;)
-
-    extent = etree.SubElement(fileDesc, &#34;extent&#34;)
-    publicationStmt = etree.SubElement(fileDesc, &#34;publicationStmt&#34;)
-    authority = etree.SubElement(publicationStmt, &#34;authority&#34;)
-    authority.text = metadata.get(&#34;authority&#34;, &#34;N/A&#34;)
-    
-    sourceDesc = etree.SubElement(fileDesc, &#34;sourceDesc&#34;)
-    sourceBibl = etree.SubElement(sourceDesc, &#34;bibl&#34;)
-    sourceTitle = etree.SubElement(sourceBibl, &#34;title&#34;)
-    sourceTitle.text = metadata.get(&#34;document_title&#34;, &#34;N/A&#34;)
-    
-    # encodingDesc
-    encodingDesc = etree.SubElement(teiHeader, &#34;encodingDesc&#34;)
-    editorialDecl = etree.SubElement(encodingDesc, &#34;editorialDecl&#34;)
-    correction = etree.SubElement(editorialDecl, &#34;correction&#34;)
-    correction_p = etree.SubElement(correction, &#34;p&#34;)
-    correction_p.text = metadata.get(&#34;correction&#34;, &#34;No correction of source texts was performed.&#34;)
-    
-    return teiHeader
-    
-def create_parlaclarin(teis, metadata):
-    if type(teis) != list:
-        tei = teis
-        return create_parlaclarin([tei], metadata)
-    
-    teiCorpus = etree.Element(&#34;teiCorpus&#34;, xmlns=&#34;http://www.tei-c.org/ns/1.0&#34;)
-    teiHeader = _pc_header(metadata)
-    teiCorpus.append(teiHeader)
-    
-    for tei in teis:
-        teiCorpus.append(tei)
-    
-    teiCorpusTree = etree.ElementTree(teiCorpus)
-    
-    for xml_element in teiCorpusTree.iter():
-        content = xml_element.xpath(&#39;normalize-space()&#39;)
-        if not content:
-            xml_element.getparent().remove(xml_element)
-            
-    s = etree.tostring(teiCorpusTree, pretty_print=True, encoding=&#34;utf-8&#34;, xml_declaration=True).decode(&#34;utf-8&#34;)
-    return s
-    
-def create_tei(root, metadata, instance_db=pd.DataFrame(columns= [&#34;filename&#34;, &#34;pattern&#34;, &#34;txt&#34;, &#34;person&#34;])):
-    &#34;&#34;&#34;
-    Create a Parla-Clarin TEI element from a list of segments.
-
-    Args:
-        txts: a list of lists of strings, corresponds to content blocks and paragraphs, respectively.
-        metadata: Metadata of the parliamentary session
-    &#34;&#34;&#34;
-    metadata = copy.deepcopy(metadata)
-    
-    tei = etree.Element(&#34;TEI&#34;)
-    protocol_id = metadata[&#34;protocol&#34;]
-    metadata[&#34;document_title&#34;] = protocol_id.replace(&#34;_&#34;, &#34; &#34;).split(&#34;-&#34;)[0].replace(&#34;prot&#34;, &#34;Protokoll&#34;)
-    documentHeader = _pc_header(metadata)
-    tei.append(documentHeader)
-    
-    text = etree.SubElement(tei, &#34;text&#34;)
-    front = etree.SubElement(text, &#34;front&#34;)
-    preface = etree.SubElement(front, &#34;div&#34;, type=&#34;preface&#34;)
-    etree.SubElement(preface, &#34;head&#34;).text = protocol_id.split(&#34;.&#34;)[0]
-    if &#34;date&#34; not in metadata:
-        year = metadata.get(&#34;year&#34;, 2020)
-        metadata[&#34;date&#34;] = str(year) + &#34;-01-01&#34;
-        
-    etree.SubElement(preface, &#34;docDate&#34;, when=metadata[&#34;date&#34;]).text = metadata.get(&#34;date&#34;, &#34;2020-01-01&#34;)
-
-    body = etree.SubElement(text, &#34;body&#34;)
-    body_div = etree.SubElement(body, &#34;div&#34;)
-    
-    current_speaker = None
-    u = etree.SubElement(body_div, &#34;u&#34;, who=&#34;UNK&#34;)
-    
-    instance_rows = list(instance_db.iterrows())
-    for content_block in root.findall(&#34;.//contentBlock&#34;):
+    prot_speeches = dict()
+    for content_block in root:
+        cb_id = content_block.attrib[&#34;id&#34;]
         content_txt = &#39;\n&#39;.join(content_block.itertext())
-        is_empty = content_txt == &#34;&#34;
-        
-        if is_empty:
-            pass
-            #print(&#34;Empty block&#34;)
-        else:
+        if not _is_metadata_block(content_txt):
             for textblock in content_block:
-                #paragraph = &#39;&#39;.join(textblock.itertext())
+                tb_id = textblock.attrib[&#34;id&#34;]
                 paragraph = textblock.text
-                if paragraph != &#34;&#34;:
-                    for ix, match_row in instance_rows:
-                        matchable_txt = match_row[&#34;txt&#34;]
-                        
-                        if matchable_txt in paragraph:
-                            current_speaker = match_row[&#34;person&#34;]
-                            if type(current_speaker) != str:
-                                current_speaker = None
-                            if current_speaker is not None:
-                                u = etree.SubElement(body_div, &#34;u&#34;, who=current_speaker)
-                            else:
-                                u = etree.SubElement(body_div, &#34;u&#34;, who=&#34;UNK&#34;)
-                            
-                    
-                    seg = etree.SubElement(u, &#34;seg&#34;)
-                    seg.text = paragraph
-    
-    return tei
 
-def gen_parlaclarin_corpus(protocol_db, archive, instance_db, curation_instance_db=None, corpus_metadata=dict(), str_output=True):
-    teis = []
-    
-    print(&#34;Pages in total&#34;, protocol_db[&#34;pages&#34;].sum())
-    
-    for ix, package in protocol_db.iterrows():
-        package_id = package[&#34;package_id&#34;]
-        pages = package[&#34;pages&#34;]
-        print(&#34;Create TEI for&#34;, package_id, &#34;, pages&#34;, pages)
-        package = archive.get(package_id)
-        metadata = infer_metadata(package_id.replace(&#34;-&#34;, &#34;_&#34;))
-        xml_files = fetch_files(package)
-        
-        protocol = etree.Element(&#34;protocol&#34;)
-        for filename in xml_files:
-            if curation_instance_db is None:
-                page_content_blocks = get_blocks(filename, package, package_id)
-            else:
-                page_content_blocks = get_curated_blocks(filename, package, package_id, curation_instance_db)
-            protocol.append(page_content_blocks)
-        
-        current_instances = instance_db[instance_db[&#34;filename&#34;] == package_id]
-        print(&#34;create tei&#34;)
-        tei = create_tei(protocol, metadata, instance_db=current_instances)
-        teis.append(tei)
-    
-    corpus_metadata[&#34;edition&#34;] = &#34;0.1.0&#34;
-    corpus = create_parlaclarin(teis, corpus_metadata)
-    return corpus
+                # Do not do segmentation if paragraph is empty
+                if type(paragraph) != str:
+                    continue
 
-def instance_workflow(package_id, archive, pattern_db, mp_db):
-    package = archive.get(package_id)
-    metadata = infer_metadata(package_id.replace(&#34;-&#34;, &#34;_&#34;))
-    year = metadata[&#34;year&#34;]
-    pattern_db = pattern_db[pattern_db[&#34;start&#34;] &lt;= year]
-    pattern_db = pattern_db[pattern_db[&#34;end&#34;] &gt;= year]
-    
-    print(&#34;Instance detenction, package:&#34;, package_id)
-    
-    mp_db = mp_db[mp_db[&#34;start&#34;] &lt;= year]
-    mp_db = mp_db[mp_db[&#34;end&#34;] &gt;= year]
-    
-    xml_files = fetch_files(package)
-    instance_dbs = []
+                for pattern, segmentation in manual.items():
+                    if pattern in paragraph:
+                        person = _detect_mp(matched_txt, names_ids)
+                        #person = _detect_mp(matched_txt, names_ids)
+                        d = {&#34;protocol_id&#34;: protocol_id,
+                            &#34;pattern&#34;: &#34;manual&#34;,
+                            &#34;segmentation&#34;: segmentation,
+                            &#34;elem_id&#34;: tb_id,
+                            }
+                        continue
 
-    for filename in xml_files:
-        page_content_blocks = get_blocks(filename, package, package_id)
-        instance_db = find_instances_xml(page_content_blocks, pattern_db, package_id, mp_db=mp_db)
-        instance_dbs.append(instance_db)
+                # Detect speaker introductions
+                segmentation = None
+                for pattern_digest, exp in expressions.items():
+                    for m in exp.finditer(paragraph):
+                        matched_txt = m.group()
+                        person = _detect_mp(matched_txt, names_ids)
+                        segmentation = &#34;speech_start&#34;
+                        d = {
+                        &#34;protocol_id&#34;: protocol_id,
+                        &#34;pattern&#34;: pattern_digest,
+                        &#34;who&#34;: person,
+                        &#34;segmentation&#34;: segmentation,
+                        &#34;elem_id&#34;: tb_id,
+                        }
+
+                        data.append(d)
+
+                        break
+
+                # Do not do further segmentation if speech is detected
+                if segmentation is not None:
+                    continue
+
+                # Use ML model to classify paragraph
+                if classifier is not None:
+                    preds = classify_paragraph(paragraph, classifier)
+                    if np.argmax(preds) == 1:
+                        segmentation = &#34;note&#34;
+                        d = {
+                        &#34;protocol_id&#34;: protocol_id,
+                        &#34;segmentation&#34;: segmentation,
+                        &#34;elem_id&#34;: tb_id,
+                        }
+
+                        data.append(d)
+        else:
+            d = {&#34;protocol_id&#34;: protocol_id, &#34;pattern&#34;: None, &#34;who&#34;: None, &#34;segmentation&#34;: &#34;metadata&#34;}
+            d[&#34;elem_id&#34;] = cb_id
+            data.append(d)
+
+    return pd.DataFrame(data, columns=columns)
+
+def apply_instances(protocol, instance_db):
+    protocol_id = protocol.attrib[&#34;id&#34;]
     
-    instance_db = pd.concat(instance_dbs)
-    instance_db[&#34;filename&#34;] = package_id
+    applicable_instances = instance_db[instance_db[&#34;protocol_id&#34;] == protocol_id]
+    applicable_instances = applicable_instances.drop_duplicates(subset=[&#39;elem_id&#39;])
+
+    for _, row in applicable_instances.iterrows():
+        elem_id = row[&#34;elem_id&#34;]
+        for target in protocol.xpath(&#34;//*[@id=&#39;&#34; + elem_id + &#34;&#39;]&#34;):
+            target.attrib[&#34;segmentation&#34;] = row[&#34;segmentation&#34;]
+            if type(row[&#34;who&#34;]) == str:
+                target.attrib[&#34;who&#34;] = row[&#34;who&#34;]
+
+            if type(row[&#34;id&#34;]) == str:
+                target.attrib[&#34;id&#34;] = row[&#34;id&#34;]
+
+    return protocol
+    
+def find_instances(protocol_id, archive, pattern_db, mp_db, classifier=None):
+    page_content_blocks = get_blocks(protocol_id, archive)
+    instance_db = find_instances_xml(page_content_blocks, pattern_db, mp_db, classifier=classifier)
+    
+    instance_db[&#34;protocol_id&#34;] = protocol_id
     return instance_db
-    </code></pre>
+    
+def segmentation_workflow(file_db, archive, pattern_db, mp_db, ml=True):
+    classifier = None
+    if ml:
+        import tensorflow as tf
+        import fasttext.util
+
+        model = tf.keras.models.load_model(&#34;segment-classifier&#34;)
+        ft = fasttext.load_model(&#39;cc.sv.300.bin&#39;)
+
+        classifier = dict(
+            model=model,
+            ft=ft,
+            dim=ft.get_word_vector(&#34;hej&#34;).shape[0]
+        )
+
+    instance_dbs = []
+    for corpus_year, package_ids, _ in year_iterator(file_db):
+        print(&#34;Segmenting year:&#34;, corpus_year)
+        
+        year_patterns = filter_db(pattern_db, year=corpus_year)
+        year_mps = filter_db(mp_db, year=corpus_year)
+        
+        for protocol_id in progressbar.progressbar(package_ids):
+            protocol_patterns = filter_db(pattern_db, protocol_id=protocol_id)
+            protocol_patterns = pd.concat([protocol_patterns, year_patterns])
+            instance_db = find_instances(protocol_id, archive, protocol_patterns, year_mps, classifier=classifier)
+            instance_dbs.append(instance_db)
+    
+    return pd.concat(instance_dbs)</code></pre>
 </details>
 </section>
 <section>
@@ -325,8 +276,8 @@ def instance_workflow(package_id, archive, pattern_db, mp_db):
 <section>
 <h2 class="section-title" id="header-functions">Functions</h2>
 <dl>
-<dt id="riksdagen_corpus.segmentation.create_parlaclarin"><code class="name flex">
-<span>def <span class="ident">create_parlaclarin</span></span>(<span>teis, metadata)</span>
+<dt id="riksdagen_corpus.segmentation.apply_instances"><code class="name flex">
+<span>def <span class="ident">apply_instances</span></span>(<span>protocol, instance_db)</span>
 </code></dt>
 <dd>
 <div class="desc"></div>
@@ -334,143 +285,74 @@ def instance_workflow(package_id, archive, pattern_db, mp_db):
 <summary>
 <span>Expand source code</span>
 </summary>
-<pre><code class="python">def create_parlaclarin(teis, metadata):
-    if type(teis) != list:
-        tei = teis
-        return create_parlaclarin([tei], metadata)
+<pre><code class="python">def apply_instances(protocol, instance_db):
+    protocol_id = protocol.attrib[&#34;id&#34;]
     
-    teiCorpus = etree.Element(&#34;teiCorpus&#34;, xmlns=&#34;http://www.tei-c.org/ns/1.0&#34;)
-    teiHeader = _pc_header(metadata)
-    teiCorpus.append(teiHeader)
-    
-    for tei in teis:
-        teiCorpus.append(tei)
-    
-    teiCorpusTree = etree.ElementTree(teiCorpus)
-    
-    for xml_element in teiCorpusTree.iter():
-        content = xml_element.xpath(&#39;normalize-space()&#39;)
-        if not content:
-            xml_element.getparent().remove(xml_element)
-            
-    s = etree.tostring(teiCorpusTree, pretty_print=True, encoding=&#34;utf-8&#34;, xml_declaration=True).decode(&#34;utf-8&#34;)
-    return s</code></pre>
+    applicable_instances = instance_db[instance_db[&#34;protocol_id&#34;] == protocol_id]
+    applicable_instances = applicable_instances.drop_duplicates(subset=[&#39;elem_id&#39;])
+
+    for _, row in applicable_instances.iterrows():
+        elem_id = row[&#34;elem_id&#34;]
+        for target in protocol.xpath(&#34;//*[@id=&#39;&#34; + elem_id + &#34;&#39;]&#34;):
+            target.attrib[&#34;segmentation&#34;] = row[&#34;segmentation&#34;]
+            if type(row[&#34;who&#34;]) == str:
+                target.attrib[&#34;who&#34;] = row[&#34;who&#34;]
+
+            if type(row[&#34;id&#34;]) == str:
+                target.attrib[&#34;id&#34;] = row[&#34;id&#34;]
+
+    return protocol</code></pre>
 </details>
 </dd>
-<dt id="riksdagen_corpus.segmentation.create_tei"><code class="name flex">
-<span>def <span class="ident">create_tei</span></span>(<span>root, metadata, instance_db=Empty DataFrame
-Columns: [filename, pattern, txt, person]
-Index: [])</span>
+<dt id="riksdagen_corpus.segmentation.classify_paragraph"><code class="name flex">
+<span>def <span class="ident">classify_paragraph</span></span>(<span>paragraph, classifier, prior=array([-0.22314355, -1.60943791]))</span>
 </code></dt>
 <dd>
-<div class="desc"><p>Create a Parla-Clarin TEI element from a list of segments.</p>
-<h2 id="args">Args</h2>
-<dl>
-<dt><strong><code>txts</code></strong></dt>
-<dd>a list of lists of strings, corresponds to content blocks and paragraphs, respectively.</dd>
-<dt><strong><code>metadata</code></strong></dt>
-<dd>Metadata of the parliamentary session</dd>
-</dl></div>
+<div class="desc"><p>Classify paragraph into speeches / descriptions with provided classifier</p></div>
 <details class="source">
 <summary>
 <span>Expand source code</span>
 </summary>
-<pre><code class="python">def create_tei(root, metadata, instance_db=pd.DataFrame(columns= [&#34;filename&#34;, &#34;pattern&#34;, &#34;txt&#34;, &#34;person&#34;])):
+<pre><code class="python">def classify_paragraph(paragraph, classifier, prior=np.log([0.8, 0.2])):
     &#34;&#34;&#34;
-    Create a Parla-Clarin TEI element from a list of segments.
+    Classify paragraph into speeches / descriptions with provided classifier
 
-    Args:
-        txts: a list of lists of strings, corresponds to content blocks and paragraphs, respectively.
-        metadata: Metadata of the parliamentary session
     &#34;&#34;&#34;
-    metadata = copy.deepcopy(metadata)
-    
-    tei = etree.Element(&#34;TEI&#34;)
-    protocol_id = metadata[&#34;protocol&#34;]
-    metadata[&#34;document_title&#34;] = protocol_id.replace(&#34;_&#34;, &#34; &#34;).split(&#34;-&#34;)[0].replace(&#34;prot&#34;, &#34;Protokoll&#34;)
-    documentHeader = _pc_header(metadata)
-    tei.append(documentHeader)
-    
-    text = etree.SubElement(tei, &#34;text&#34;)
-    front = etree.SubElement(text, &#34;front&#34;)
-    preface = etree.SubElement(front, &#34;div&#34;, type=&#34;preface&#34;)
-    etree.SubElement(preface, &#34;head&#34;).text = protocol_id.split(&#34;.&#34;)[0]
-    if &#34;date&#34; not in metadata:
-        year = metadata.get(&#34;year&#34;, 2020)
-        metadata[&#34;date&#34;] = str(year) + &#34;-01-01&#34;
-        
-    etree.SubElement(preface, &#34;docDate&#34;, when=metadata[&#34;date&#34;]).text = metadata.get(&#34;date&#34;, &#34;2020-01-01&#34;)
+    words = paragraph.split()
+    V = len(words)
+    if V == 0:
+        return prior
 
-    body = etree.SubElement(text, &#34;body&#34;)
-    body_div = etree.SubElement(body, &#34;div&#34;)
-    
-    current_speaker = None
-    u = etree.SubElement(body_div, &#34;u&#34;, who=&#34;UNK&#34;)
-    
-    instance_rows = list(instance_db.iterrows())
-    for content_block in root.findall(&#34;.//contentBlock&#34;):
-        content_txt = &#39;\n&#39;.join(content_block.itertext())
-        is_empty = content_txt == &#34;&#34;
-        
-        if is_empty:
-            pass
-            #print(&#34;Empty block&#34;)
-        else:
-            for textblock in content_block:
-                #paragraph = &#39;&#39;.join(textblock.itertext())
-                paragraph = textblock.text
-                if paragraph != &#34;&#34;:
-                    for ix, match_row in instance_rows:
-                        matchable_txt = match_row[&#34;txt&#34;]
-                        
-                        if matchable_txt in paragraph:
-                            current_speaker = match_row[&#34;person&#34;]
-                            if type(current_speaker) != str:
-                                current_speaker = None
-                            if current_speaker is not None:
-                                u = etree.SubElement(body_div, &#34;u&#34;, who=current_speaker)
-                            else:
-                                u = etree.SubElement(body_div, &#34;u&#34;, who=&#34;UNK&#34;)
-                            
-                    
-                    seg = etree.SubElement(u, &#34;seg&#34;)
-                    seg.text = paragraph
-    
-    return tei</code></pre>
+    x = np.zeros((V, classifier[&#34;dim&#34;]))
+
+    ft = classifier[&#34;ft&#34;]
+    for ix, word in enumerate(words):
+        vec = ft.get_word_vector(word)
+        x[ix] = vec
+
+    pred = classifier[&#34;model&#34;].predict(x, batch_size=V)
+    return np.sum(pred, axis=0) + prior</code></pre>
 </details>
 </dd>
-<dt id="riksdagen_corpus.segmentation.find_instances_html"><code class="name flex">
-<span>def <span class="ident">find_instances_html</span></span>(<span>filename, pattern_db)</span>
+<dt id="riksdagen_corpus.segmentation.find_instances"><code class="name flex">
+<span>def <span class="ident">find_instances</span></span>(<span>protocol_id, archive, pattern_db, mp_db, classifier=None)</span>
 </code></dt>
 <dd>
-<div class="desc"><p>Find instances of segment start and end patterns in an html file (digital originals).</p>
-<h2 id="args">Args</h2>
-<dl>
-<dt><strong><code>pattern_db</code></strong></dt>
-<dd>Patterns to be matched as a Pandas DataFrame.</dd>
-<dt><strong><code>filename</code></strong></dt>
-<dd>Path to file to be searched.</dd>
-</dl></div>
+<div class="desc"></div>
 <details class="source">
 <summary>
 <span>Expand source code</span>
 </summary>
-<pre><code class="python">def find_instances_html(filename, pattern_db):
-    &#34;&#34;&#34;
-    Find instances of segment start and end patterns in an html file (digital originals).
-
-    Args:
-        pattern_db: Patterns to be matched as a Pandas DataFrame.
-        filename: Path to file to be searched.
-    &#34;&#34;&#34;
-    # TODO: implement
-    columns = [&#39;filename&#39;, &#39;loc&#39;, &#39;pattern&#39;, &#39;txt&#39;]
-    instance_db = pd.DataFrame(columns = columns) 
+<pre><code class="python">def find_instances(protocol_id, archive, pattern_db, mp_db, classifier=None):
+    page_content_blocks = get_blocks(protocol_id, archive)
+    instance_db = find_instances_xml(page_content_blocks, pattern_db, mp_db, classifier=classifier)
+    
+    instance_db[&#34;protocol_id&#34;] = protocol_id
     return instance_db</code></pre>
 </details>
 </dd>
 <dt id="riksdagen_corpus.segmentation.find_instances_xml"><code class="name flex">
-<span>def <span class="ident">find_instances_xml</span></span>(<span>root, pattern_db, protocol_id, mp_db=None)</span>
+<span>def <span class="ident">find_instances_xml</span></span>(<span>root, pattern_db, mp_db, classifier)</span>
 </code></dt>
 <dd>
 <div class="desc"><p>Find instances of segment start and end patterns in a txt file.</p>
@@ -485,7 +367,7 @@ Index: [])</span>
 <summary>
 <span>Expand source code</span>
 </summary>
-<pre><code class="python">def find_instances_xml(root, pattern_db, protocol_id, mp_db=None):
+<pre><code class="python">def find_instances_xml(root, pattern_db, mp_db, classifier):
     &#34;&#34;&#34;
     Find instances of segment start and end patterns in a txt file.
 
@@ -493,57 +375,98 @@ Index: [])</span>
         root: root of an lxml tree to be pattern matched.
         pattern_db: Patterns to be matched as a Pandas DataFrame.
     &#34;&#34;&#34;
-    columns = [&#39;filename&#39;, &#39;pattern&#39;, &#39;txt&#39;, &#34;person&#34;]
+    columns = [&#39;protocol_id&#39;, &#34;elem_id&#34;, &#34;pattern&#34;, &#34;segmentation&#34;, &#34;who&#34;, &#34;id&#34;]
     data = []
-    names = []
-    if mp_db is not None:
-        mp_db = mp_db[mp_db[&#39;Riksdagsledamot&#39;].notnull()]
-        names = mp_db[&#34;Riksdagsledamot&#34;]
-        
-    for row in pattern_db.iterrows():
-        row = row[1]
-        pattern = row[&#39;pattern&#39;]
+    protocol_id = root.attrib[&#34;id&#34;]
+    metadata = infer_metadata(protocol_id)
+    pattern_rows = list(pattern_db.iterrows())
+    
+    mp_db = mp_db[mp_db[&#34;chamber&#34;] == metadata[&#34;chamber&#34;]]
+    names = mp_db[&#34;name&#34;]
+    ids = mp_db[&#34;id&#34;]
+    names_ids = list(zip(names,ids))
+    
+    expressions = dict()
+    manual = dict()
+    for _, row in pattern_db.iterrows():
+        if row[&#34;type&#34;] == &#34;regex&#34;:
+            pattern = row[&#39;pattern&#39;]
+            exp = re.compile(pattern)
+            #Calculate digest for distringuishing patterns without ugly characters
+            pattern_digest = hashlib.md5(pattern.encode(&#34;utf-8&#34;)).hexdigest()[:16]
+            expressions[pattern_digest] = exp
+        elif row[&#34;type&#34;] == &#34;manual&#34;:
+            manual[row[&#34;pattern&#34;]] = row[&#34;segmentation&#34;]
+    
+    prot_speeches = dict()
+    for content_block in root:
+        cb_id = content_block.attrib[&#34;id&#34;]
+        content_txt = &#39;\n&#39;.join(content_block.itertext())
+        if not _is_metadata_block(content_txt):
+            for textblock in content_block:
+                tb_id = textblock.attrib[&#34;id&#34;]
+                paragraph = textblock.text
 
-        #print(&#34;PATTERN:&#34;, pattern)
-        exp = re.compile(pattern)
-        #print(&#34;EXP&#34;, exp)
-            
-        for content_block in root:
-            content_txt = &#39;\n&#39;.join(content_block.itertext())
-            
-            if not _is_metadata_block(content_txt):
-                for m in exp.finditer(content_txt):
-                    matched_txt = m.group()
-                    person = None
-                    for name in names:
-                        if name in matched_txt:
-                            person = name
-                    
-                    if person == None:
-                        for name in names:
-                            if name.upper() in matched_txt:
-                                person = name
-                            
-                    
-                    # Only match last name if full name is not found
-                    if person == None:
-                        for name in names:
-                            last_name = &#34; &#34; + name.split()[-1]
-                            if last_name in matched_txt:
-                                person = name
-                            elif last_name.upper() in matched_txt:
-                                person = name
-                    
-                    # Calculate digest for distringuishing patterns without ugly characters
-                    pattern_digest = hashlib.md5(pattern.encode(&#34;utf-8&#34;)).hexdigest()[:16]
-                    d = {&#34;filename&#34;: protocol_id, &#34;pattern&#34;: pattern_digest, &#34;txt&#34;: matched_txt, &#34;person&#34;: person }
-                    data.append(d)
+                # Do not do segmentation if paragraph is empty
+                if type(paragraph) != str:
+                    continue
 
-    return  pd.DataFrame(data, columns=columns)</code></pre>
+                for pattern, segmentation in manual.items():
+                    if pattern in paragraph:
+                        person = _detect_mp(matched_txt, names_ids)
+                        #person = _detect_mp(matched_txt, names_ids)
+                        d = {&#34;protocol_id&#34;: protocol_id,
+                            &#34;pattern&#34;: &#34;manual&#34;,
+                            &#34;segmentation&#34;: segmentation,
+                            &#34;elem_id&#34;: tb_id,
+                            }
+                        continue
+
+                # Detect speaker introductions
+                segmentation = None
+                for pattern_digest, exp in expressions.items():
+                    for m in exp.finditer(paragraph):
+                        matched_txt = m.group()
+                        person = _detect_mp(matched_txt, names_ids)
+                        segmentation = &#34;speech_start&#34;
+                        d = {
+                        &#34;protocol_id&#34;: protocol_id,
+                        &#34;pattern&#34;: pattern_digest,
+                        &#34;who&#34;: person,
+                        &#34;segmentation&#34;: segmentation,
+                        &#34;elem_id&#34;: tb_id,
+                        }
+
+                        data.append(d)
+
+                        break
+
+                # Do not do further segmentation if speech is detected
+                if segmentation is not None:
+                    continue
+
+                # Use ML model to classify paragraph
+                if classifier is not None:
+                    preds = classify_paragraph(paragraph, classifier)
+                    if np.argmax(preds) == 1:
+                        segmentation = &#34;note&#34;
+                        d = {
+                        &#34;protocol_id&#34;: protocol_id,
+                        &#34;segmentation&#34;: segmentation,
+                        &#34;elem_id&#34;: tb_id,
+                        }
+
+                        data.append(d)
+        else:
+            d = {&#34;protocol_id&#34;: protocol_id, &#34;pattern&#34;: None, &#34;who&#34;: None, &#34;segmentation&#34;: &#34;metadata&#34;}
+            d[&#34;elem_id&#34;] = cb_id
+            data.append(d)
+
+    return pd.DataFrame(data, columns=columns)</code></pre>
 </details>
 </dd>
-<dt id="riksdagen_corpus.segmentation.gen_parlaclarin_corpus"><code class="name flex">
-<span>def <span class="ident">gen_parlaclarin_corpus</span></span>(<span>protocol_db, archive, instance_db, curation_instance_db=None, corpus_metadata={}, str_output=True)</span>
+<dt id="riksdagen_corpus.segmentation.segmentation_workflow"><code class="name flex">
+<span>def <span class="ident">segmentation_workflow</span></span>(<span>file_db, archive, pattern_db, mp_db, ml=True)</span>
 </code></dt>
 <dd>
 <div class="desc"></div>
@@ -551,105 +474,35 @@ Index: [])</span>
 <summary>
 <span>Expand source code</span>
 </summary>
-<pre><code class="python">def gen_parlaclarin_corpus(protocol_db, archive, instance_db, curation_instance_db=None, corpus_metadata=dict(), str_output=True):
-    teis = []
-    
-    print(&#34;Pages in total&#34;, protocol_db[&#34;pages&#34;].sum())
-    
-    for ix, package in protocol_db.iterrows():
-        package_id = package[&#34;package_id&#34;]
-        pages = package[&#34;pages&#34;]
-        print(&#34;Create TEI for&#34;, package_id, &#34;, pages&#34;, pages)
-        package = archive.get(package_id)
-        metadata = infer_metadata(package_id.replace(&#34;-&#34;, &#34;_&#34;))
-        xml_files = fetch_files(package)
-        
-        protocol = etree.Element(&#34;protocol&#34;)
-        for filename in xml_files:
-            if curation_instance_db is None:
-                page_content_blocks = get_blocks(filename, package, package_id)
-            else:
-                page_content_blocks = get_curated_blocks(filename, package, package_id, curation_instance_db)
-            protocol.append(page_content_blocks)
-        
-        current_instances = instance_db[instance_db[&#34;filename&#34;] == package_id]
-        print(&#34;create tei&#34;)
-        tei = create_tei(protocol, metadata, instance_db=current_instances)
-        teis.append(tei)
-    
-    corpus_metadata[&#34;edition&#34;] = &#34;0.1.0&#34;
-    corpus = create_parlaclarin(teis, corpus_metadata)
-    return corpus</code></pre>
-</details>
-</dd>
-<dt id="riksdagen_corpus.segmentation.infer_metadata"><code class="name flex">
-<span>def <span class="ident">infer_metadata</span></span>(<span>filename)</span>
-</code></dt>
-<dd>
-<div class="desc"></div>
-<details class="source">
-<summary>
-<span>Expand source code</span>
-</summary>
-<pre><code class="python">def infer_metadata(filename):
-    metadata = dict()
+<pre><code class="python">def segmentation_workflow(file_db, archive, pattern_db, mp_db, ml=True):
+    classifier = None
+    if ml:
+        import tensorflow as tf
+        import fasttext.util
 
-    metadata[&#34;protocol&#34;] = filename.split(&#34;/&#34;)[-1].split(&#34;.&#34;)[0]
-    split = filename.split(&#34;/&#34;)[-1].split(&#34;_&#34;)
-    
-    # Year
-    for s in split:
-        s = s[:4]
-        if s.isdigit():
-            year = int(s)
-            if year &gt; 1800 and year &lt; 2100:
-                metadata[&#34;year&#34;] = year
+        model = tf.keras.models.load_model(&#34;segment-classifier&#34;)
+        ft = fasttext.load_model(&#39;cc.sv.300.bin&#39;)
 
-    # Chamber
-    metadata[&#34;chamber&#34;] = None
-    if &#34;_ak_&#34; in filename:
-        metadata[&#34;chamber&#34;] = &#34;ak&#34;
-    elif &#34;_fk_&#34; in filename:
-        metadata[&#34;chamber&#34;] = &#34;fk&#34;
+        classifier = dict(
+            model=model,
+            ft=ft,
+            dim=ft.get_word_vector(&#34;hej&#34;).shape[0]
+        )
 
-    # TODO: Month and day
-    # TODO: Day of the week
-    print(&#34;Metadata&#34;, metadata)
-    return metadata</code></pre>
-</details>
-</dd>
-<dt id="riksdagen_corpus.segmentation.instance_workflow"><code class="name flex">
-<span>def <span class="ident">instance_workflow</span></span>(<span>package_id, archive, pattern_db, mp_db)</span>
-</code></dt>
-<dd>
-<div class="desc"></div>
-<details class="source">
-<summary>
-<span>Expand source code</span>
-</summary>
-<pre><code class="python">def instance_workflow(package_id, archive, pattern_db, mp_db):
-    package = archive.get(package_id)
-    metadata = infer_metadata(package_id.replace(&#34;-&#34;, &#34;_&#34;))
-    year = metadata[&#34;year&#34;]
-    pattern_db = pattern_db[pattern_db[&#34;start&#34;] &lt;= year]
-    pattern_db = pattern_db[pattern_db[&#34;end&#34;] &gt;= year]
-    
-    print(&#34;Instance detenction, package:&#34;, package_id)
-    
-    mp_db = mp_db[mp_db[&#34;start&#34;] &lt;= year]
-    mp_db = mp_db[mp_db[&#34;end&#34;] &gt;= year]
-    
-    xml_files = fetch_files(package)
     instance_dbs = []
-
-    for filename in xml_files:
-        page_content_blocks = get_blocks(filename, package, package_id)
-        instance_db = find_instances_xml(page_content_blocks, pattern_db, package_id, mp_db=mp_db)
-        instance_dbs.append(instance_db)
+    for corpus_year, package_ids, _ in year_iterator(file_db):
+        print(&#34;Segmenting year:&#34;, corpus_year)
+        
+        year_patterns = filter_db(pattern_db, year=corpus_year)
+        year_mps = filter_db(mp_db, year=corpus_year)
+        
+        for protocol_id in progressbar.progressbar(package_ids):
+            protocol_patterns = filter_db(pattern_db, protocol_id=protocol_id)
+            protocol_patterns = pd.concat([protocol_patterns, year_patterns])
+            instance_db = find_instances(protocol_id, archive, protocol_patterns, year_mps, classifier=classifier)
+            instance_dbs.append(instance_db)
     
-    instance_db = pd.concat(instance_dbs)
-    instance_db[&#34;filename&#34;] = package_id
-    return instance_db</code></pre>
+    return pd.concat(instance_dbs)</code></pre>
 </details>
 </dd>
 </dl>
@@ -670,13 +523,11 @@ Index: [])</span>
 </li>
 <li><h3><a href="#header-functions">Functions</a></h3>
 <ul class="">
-<li><code><a title="riksdagen_corpus.segmentation.create_parlaclarin" href="#riksdagen_corpus.segmentation.create_parlaclarin">create_parlaclarin</a></code></li>
-<li><code><a title="riksdagen_corpus.segmentation.create_tei" href="#riksdagen_corpus.segmentation.create_tei">create_tei</a></code></li>
-<li><code><a title="riksdagen_corpus.segmentation.find_instances_html" href="#riksdagen_corpus.segmentation.find_instances_html">find_instances_html</a></code></li>
+<li><code><a title="riksdagen_corpus.segmentation.apply_instances" href="#riksdagen_corpus.segmentation.apply_instances">apply_instances</a></code></li>
+<li><code><a title="riksdagen_corpus.segmentation.classify_paragraph" href="#riksdagen_corpus.segmentation.classify_paragraph">classify_paragraph</a></code></li>
+<li><code><a title="riksdagen_corpus.segmentation.find_instances" href="#riksdagen_corpus.segmentation.find_instances">find_instances</a></code></li>
 <li><code><a title="riksdagen_corpus.segmentation.find_instances_xml" href="#riksdagen_corpus.segmentation.find_instances_xml">find_instances_xml</a></code></li>
-<li><code><a title="riksdagen_corpus.segmentation.gen_parlaclarin_corpus" href="#riksdagen_corpus.segmentation.gen_parlaclarin_corpus">gen_parlaclarin_corpus</a></code></li>
-<li><code><a title="riksdagen_corpus.segmentation.infer_metadata" href="#riksdagen_corpus.segmentation.infer_metadata">infer_metadata</a></code></li>
-<li><code><a title="riksdagen_corpus.segmentation.instance_workflow" href="#riksdagen_corpus.segmentation.instance_workflow">instance_workflow</a></code></li>
+<li><code><a title="riksdagen_corpus.segmentation.segmentation_workflow" href="#riksdagen_corpus.segmentation.segmentation_workflow">segmentation_workflow</a></code></li>
 </ul>
 </li>
 </ul>

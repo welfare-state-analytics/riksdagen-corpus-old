@@ -4,16 +4,15 @@ ultimately into the Parla-Clarin XML format.
 """
 import numpy as np
 import pandas as pd
-import re
-import hashlib
-import copy
+import re, hashlib, copy, os
 import progressbar
 from os import listdir
 from os.path import isfile, join
 from lxml import etree
 from riksdagen_corpus.mp import detect_mp
-from riksdagen_corpus.download import get_blocks, fetch_files, login_to_archive
+from riksdagen_corpus.download import get_blocks, fetch_files
 from riksdagen_corpus.utils import infer_metadata
+from riksdagen_corpus.db import filter_db, year_iterator
 
 # Classify paragraph
 def classify_paragraph(paragraph, classifier, prior=np.log([0.8, 0.2])):
@@ -64,27 +63,63 @@ def _is_metadata_block(txt0):
     # TODO: replace with ML algorithm
     return float(len1) / float(len0) < 0.85 and len0 < 150
 
-def _detect_mp(matched_txt, names_ids):
+def detect_mp(matched_txt, names_ids, last_name=True):
+    """
+    Match the introduced speaker in a text snippet
+    """
     person = None
+
+    # Prefer uppercase
     for name, identifier in names_ids:
-        if name in matched_txt:
+        if name.upper() in matched_txt:
             person = identifier
-    
+
     if person == None:
         for name, identifier in names_ids:
-            if name.upper() in matched_txt:
+            if name in matched_txt:
                 person = identifier
-    
+
     # Only match last name if full name is not found
-    if person == None:
+    if last_name and person is None:
         for name, identifier in names_ids:
             last_name = " " + name.split()[-1]
+            
             if last_name in matched_txt:
                 person = identifier
             elif last_name.upper() in matched_txt:
+                #print(matched_txt, last_name, last_name.upper())
                 person = identifier
+
     return person
-    
+
+def expression_dicts(pattern_db):
+    expressions = dict()
+    manual = dict()
+    for _, row in pattern_db.iterrows():
+        if row["type"] == "regex":
+            pattern = row['pattern']
+            exp = re.compile(pattern)
+            #Calculate digest for distringuishing patterns without ugly characters
+            pattern_digest = hashlib.md5(pattern.encode("utf-8")).hexdigest()[:16]
+            expressions[pattern_digest] = exp
+        elif row["type"] == "manual":
+            manual[row["pattern"]] = row["segmentation"]
+    return expressions, manual
+
+def detect_introduction(paragraph, expressions, names_ids):
+    for pattern_digest, exp in expressions.items():
+        for m in exp.finditer(paragraph):
+            matched_txt = m.group()
+            person = detect_mp(matched_txt, names_ids)
+            segmentation = "speech_start"
+            d = {
+            "pattern": pattern_digest,
+            "who": person,
+            "segmentation": segmentation,
+            }
+
+            return d
+
 # Instance detection
 def find_instances_xml(root, pattern_db, mp_db, classifier):
     """
@@ -105,17 +140,7 @@ def find_instances_xml(root, pattern_db, mp_db, classifier):
     ids = mp_db["id"]
     names_ids = list(zip(names,ids))
     
-    expressions = dict()
-    manual = dict()
-    for _, row in pattern_db.iterrows():
-        if row["type"] == "regex":
-            pattern = row['pattern']
-            exp = re.compile(pattern)
-            #Calculate digest for distringuishing patterns without ugly characters
-            pattern_digest = hashlib.md5(pattern.encode("utf-8")).hexdigest()[:16]
-            expressions[pattern_digest] = exp
-        elif row["type"] == "manual":
-            manual[row["pattern"]] = row["segmentation"]
+    expressions, manual = expression_dicts(pattern_db)
     
     prot_speeches = dict()
     for content_block in root:
@@ -132,36 +157,21 @@ def find_instances_xml(root, pattern_db, mp_db, classifier):
 
                 for pattern, segmentation in manual.items():
                     if pattern in paragraph:
-                        person = _detect_mp(matched_txt, names_ids)
-                        #person = _detect_mp(matched_txt, names_ids)
-                        d = {"protocol_id": protocol_id,
-                            "pattern": "manual",
+                        person = detect_mp(paragraph, names_ids)
+                        #person = detect_mp(matched_txt, names_ids)
+                        d = {"pattern": "manual",
                             "segmentation": segmentation,
                             "elem_id": tb_id,
                             }
                         continue
 
                 # Detect speaker introductions
-                segmentation = None
-                for pattern_digest, exp in expressions.items():
-                    for m in exp.finditer(paragraph):
-                        matched_txt = m.group()
-                        person = _detect_mp(matched_txt, names_ids)
-                        segmentation = "speech_start"
-                        d = {
-                        "protocol_id": protocol_id,
-                        "pattern": pattern_digest,
-                        "who": person,
-                        "segmentation": segmentation,
-                        "elem_id": tb_id,
-                        }
-
-                        data.append(d)
-
-                        break
+                d = detect_introduction(paragraph, expressions, names_ids)
 
                 # Do not do further segmentation if speech is detected
-                if segmentation is not None:
+                if d is not None:
+                    d["elem_id"] = tb_id
+                    data.append(d)
                     continue
 
                 # Use ML model to classify paragraph
@@ -170,18 +180,19 @@ def find_instances_xml(root, pattern_db, mp_db, classifier):
                     if np.argmax(preds) == 1:
                         segmentation = "note"
                         d = {
-                        "protocol_id": protocol_id,
                         "segmentation": segmentation,
                         "elem_id": tb_id,
                         }
 
                         data.append(d)
         else:
-            d = {"protocol_id": protocol_id, "pattern": None, "who": None, "segmentation": "metadata"}
+            d = {"pattern": None, "who": None, "segmentation": "metadata"}
             d["elem_id"] = cb_id
             data.append(d)
 
-    return pd.DataFrame(data, columns=columns)
+    df = pd.DataFrame(data, columns=columns)
+    df["protocol_id"] = protocol_id
+    return df
 
 def apply_instances(protocol, instance_db):
     protocol_id = protocol.attrib["id"]
@@ -208,3 +219,37 @@ def find_instances(protocol_id, archive, pattern_db, mp_db, classifier=None):
     instance_db["protocol_id"] = protocol_id
     return instance_db
     
+def segmentation_workflow(file_db, archive, pattern_db, mp_db, ml=True):
+    classifier = None
+    if ml:
+        import tensorflow as tf
+        import fasttext.util
+
+        model = tf.keras.models.load_model("segment-classifier")
+
+        # Load word vectors from disk or download with the fasttext module
+        vector_path = 'cc.sv.300.bin'
+        fasttext.util.download_model('sv', if_exists='ignore')
+        ft = fasttext.load_model(vector_path)
+
+        classifier = dict(
+            model=model,
+            ft=ft,
+            dim=ft.get_word_vector("hej").shape[0]
+        )
+
+    instance_dbs = []
+    for corpus_year, package_ids, _ in year_iterator(file_db):
+        print("Segmenting year:", corpus_year)
+        
+        year_patterns = filter_db(pattern_db, year=corpus_year)
+        year_mps = filter_db(mp_db, year=corpus_year)
+        print(year_mps)
+
+        for protocol_id in progressbar.progressbar(package_ids):
+            protocol_patterns = filter_db(pattern_db, protocol_id=protocol_id)
+            protocol_patterns = pd.concat([protocol_patterns, year_patterns])
+            instance_db = find_instances(protocol_id, archive, protocol_patterns, year_mps, classifier=classifier)
+            instance_dbs.append(instance_db)
+    
+    return pd.concat(instance_dbs)

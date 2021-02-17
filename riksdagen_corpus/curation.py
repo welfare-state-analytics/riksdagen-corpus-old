@@ -4,11 +4,13 @@ Provides functions for the curation of the parliamentary data.
 
 import pandas as pd
 import re, hashlib
+import progressbar
 from os import listdir
 from lxml import etree
 from os.path import isfile, join
-from riksdagen_corpus.download import get_blocks, fetch_files, login_to_archive
+from riksdagen_corpus.download import get_blocks, fetch_files
 from riksdagen_corpus.utils import infer_metadata
+from riksdagen_corpus.db import filter_db, year_iterator
 
 def _langmod_loss(sentence):
     return 0.0
@@ -31,7 +33,7 @@ def find_instances(root, pattern_db, c_hashes = dict()):
         pattern_db: Patterns to be matched as a Pandas DataFrame.
         folder: Folder of files to be searched.
     """
-    columns=["pattern", "txt", "replacement"]
+    columns = ["pattern", "txt", "replacement"]
     data = []
     protocol_id = root.attrib["id"]
     expressions = dict()
@@ -107,11 +109,23 @@ def apply_curations(protocol, instance_db):
         f.write(b)
         f.close()
     return protocol
-
-def curation_workflow(package_id, archive, pattern_db):
-    page_content_blocks = get_blocks(package_id, archive)
-    instance_db = find_instances(page_content_blocks, pattern_db)
-    instance_db["protocol_id"] = package_id
-    instance_db = instance_db.drop_duplicates()
-    return instance_db
     
+def curation_workflow(file_db, archive, pattern_db):
+    instance_dbs = []
+    for corpus_year, package_ids, _ in year_iterator(file_db):
+        print("Curating year:", corpus_year)
+        
+        year_patterns = filter_db(pattern_db, year=corpus_year)
+        print(pattern_db)
+        for protocol_id in progressbar.progressbar(package_ids):
+            protocol_patterns = filter_db(pattern_db, protocol_id=protocol_id)
+            protocol_patterns = pd.concat([protocol_patterns, year_patterns])
+            page_content_blocks = get_blocks(protocol_id, archive)
+            instance_db = find_instances(page_content_blocks, protocol_patterns)
+            instance_db = instance_db.drop_duplicates()
+            instance_dbs.append(instance_db)
+
+    print(pd.concat(instance_dbs))
+    instance_db = pd.concat(instance_dbs)
+    instance_db["protocol_id"] = protocol_id
+    return instance_db

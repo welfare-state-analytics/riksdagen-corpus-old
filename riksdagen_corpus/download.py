@@ -7,30 +7,30 @@ from PyPDF2 import PdfFileReader, PdfFileWriter
 from lxml import etree
 from riksdagen_corpus.utils import read_html
 
-# Wrapper to KBLab archive class so that you don't need to 
-# log in if you don't actually use the archive
 class LazyArchive():
+    """
+    Wrapper to KBLab archive class so that you don't need to 
+    log in if you don't actually use the archive
+    """
     def __init__(self):
         self.archive = None
 
     def __getattr__(self, attr):
         if self.archive == None:
-            self.archive = login_to_archive()
+            self.archive = _login_to_archive()
         return getattr(self.archive, attr)
 
-def login_to_archive():
-    """
-    Prompts the user for username and password, and logs in to KBLab. Returns the resulting KBLab client archive.
-    """
+def _login_to_archive():
     username = input("Username: ")
     password = getpass.getpass()
     print("Password set for user:", username)
     
     return kblab.Archive('https://betalab.kb.se', auth=(username, password))
 
-def get_xml_blocks(xmlpath, htmlpath):
+def read_xml_blocks(xmlpath, htmlpath):
     """
-    Load protocols with the new XML / HTML structure from 2013 ->
+    Load protocols with the new XML / HTML structure (from 2013 onwards)
+    and convert it to the simple XML 'blocks' schema.
     """
     xml_tree = etree.fromstring(open(xmlpath).read())
     html_tree = read_html(htmlpath)
@@ -58,7 +58,7 @@ def get_xml_blocks(xmlpath, htmlpath):
                 textBlock = etree.SubElement(contentBlock, "textBlock", ix=str(tb_ix))
                 tblock = elemtext.strip()
                 tblock = tblock.replace("\n", " ")
-                tblock = re.sub("\s+", " ", tblock)
+                tblock = re.sub("\\s+", " ", tblock)
                 textBlock.text = tblock
                 tb_ix += 1
     
@@ -74,9 +74,10 @@ def get_xml_blocks(xmlpath, htmlpath):
     
     return root
     
-def get_html_blocks(fpath):
+def read_html_blocks(fpath):
     """
-    Load protocols with HTML structures between 1990-2013
+    Read a protocol with HTML structures between 1990-2013, and
+    convert it to the simple XML 'blocks' schema
     """
     tree = read_html(fpath)
     id_class = "sidhuvud_beteckning"
@@ -134,7 +135,7 @@ def get_html_blocks(fpath):
                     textBlock = etree.SubElement(contentBlock, "textBlock", ix=str(tb_ix))
                     tblock = elemtext.strip()
                     tblock = tblock.replace("\n", " ")
-                    tblock = re.sub("\s+", " ", tblock)
+                    tblock = re.sub("\\s+", " ", tblock)
                     textBlock.text = tblock
                     tb_ix += 1
             
@@ -149,7 +150,10 @@ def get_html_blocks(fpath):
     
     return root
 
-def get_kb_blocks(package_id, archive):
+def dl_kb_blocks(package_id, archive):
+    """
+    Download protocol from betalab, convert it to the simple XML 'blocks' schema
+    """
     package = archive.get(protocol_id)
     root = etree.Element("protocol", id=package_id)
     for ix, fname in enumerate(fetch_files(package)):
@@ -212,14 +216,14 @@ def get_blocks(protocol_id, archive, load=True, save=True):
     
     # Load from server if local copy is not available
     if root is None:
-        root = get_kb_blocks(protocol_id, archive)
+        root = dl_kb_blocks(protocol_id, archive)
     
     # Save in case a new version was loaded from server
     if save and overwrite:
         fname = "original.xml"
-        s = etree.tostring(root, pretty_print=True, encoding="utf-8", xml_declaration=True).decode("utf-8")
-        f = open(folder + fname, "w")
-        f.write(s)
+        sb = etree.tostring(root, pretty_print=True, encoding="utf-8", xml_declaration=True)
+        f = open(folder + fname, "wb")
+        f.write(sb)
         f.close()
         
     return root
@@ -227,20 +231,16 @@ def get_blocks(protocol_id, archive, load=True, save=True):
 def count_pages(start, end):
     years = range(start, end)
     archive = login_to_archive()
-    
     rows = []
-    
+
     for year in progressbar.progressbar(years):
         params = { 'tags': 'protokoll', 'meta.created': str(year)}
         package_ids = archive.search(params, max=365)
         
         for package_id in package_ids:
             package = archive.get(package_id)
-            filelist = package.list()
-            
-            jp2list = [f for f in filelist if f.split(".")[-1] == "jp2"]
+            jp2list = fetch_files(package, extension="jp2")
             page_count = len(jp2list)
-            
             rows.append([package_id, year, page_count])
     
     columns = ["protocol_id", "year", "pages"]
@@ -265,10 +265,8 @@ def fetch_files(package, extension="xml"):
 
     Args:
         package: KBLab client package
-        extension: File extension of the files that you want to fetch. String, or None which outputs all filetypes.
-        return_files: Whether to return filenames or files zipped with filenames. Boolean, default value False returns just filenames.
-
-    Depending on return_files, either outputs a list of filenames, or a list of file and filename tuples (String, String).
+        extension: File extension of the files that you want to fetch.
+        String, or None which outputs all filetypes.
     """
     filelist = package.list()
     if extension is not None:
@@ -278,6 +276,10 @@ def fetch_files(package, extension="xml"):
     return filelist
 
 def generate_sets(decade, interval=10, set_size=2, txt_dir=None):
+    """
+    Generate train and test sets to be annotated for curation and segmentation.
+    These test sets are saved in data/curation
+    """
     # Read pages dataframe, filter relevant data and sort
     total = 2 * set_size
     pages = pd.read_csv("db/protocols/pages.csv")
@@ -351,6 +353,9 @@ def _get_seed(string):
     return int(digest, 16)
 
 def randomize_ordinals(files):
+    """
+    Create pseudo-random ordinal numbers for a database
+    """
     columns = ["package_id", "year", "pagenumber", "ordinal"]
     data = []
     for index, row in files.iterrows():

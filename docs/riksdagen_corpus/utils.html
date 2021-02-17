@@ -34,93 +34,74 @@ Provides useful utilities for the other modules as well as for general use.
 import lxml
 from lxml import etree
 import xml.etree.ElementTree as et
-import sys, re
+import sys, re, os
 from bs4 import BeautifulSoup
 import pandas as pd
 
-def clean_html(raw_html):
+def infer_metadata(filename):
+    metadata = dict()
+    filename = filename.replace(&#34;-&#34;, &#34;_&#34;)
+    metadata[&#34;protocol&#34;] = filename.split(&#34;/&#34;)[-1].split(&#34;.&#34;)[0]
+    split = filename.split(&#34;/&#34;)[-1].split(&#34;_&#34;)
+    
+    # Year
+    for s in split:
+        s = s[:4]
+        if s.isdigit():
+            year = int(s)
+            if year &gt; 1800 and year &lt; 2100:
+                metadata[&#34;year&#34;] = year
+
+    # Chamber
+    metadata[&#34;chamber&#34;] = &#34;Enkammarriksdagen&#34;
+    if &#34;_ak_&#34; in filename:
+        metadata[&#34;chamber&#34;] = &#34;Andra kammaren&#34;
+    elif &#34;_fk_&#34; in filename:
+        metadata[&#34;chamber&#34;] = &#34;Första kammaren&#34;
+    
+    try:
+        metadata[&#34;number&#34;] = int(split[-1])
+    except:
+        print(&#34;Number parsing unsuccesful&#34;, filename)
+        
+    return metadata
+
+def _clean_html(raw_html):
+    # Clean the HTML code in the Riksdagen XML text format
     raw_html = raw_html.replace(&#34;\n&#34;, &#34; NEWLINE &#34;)
     cleanr = re.compile(&#39;&lt;.*?&gt;&#39;)
     cleantext = re.sub(cleanr, &#39;&#39;, raw_html)
     cleantext = cleantext.replace(&#34; NEWLINE &#34;, &#34;\n&#34;)
     return cleantext
 
-def read_xml(outpath):
-    xml_path = sys.argv[1]
-    xml = open(xml_path).read()
-    s = clean_html(xml)
+def read_riksdagen_xml(path):
+    &#34;&#34;&#34;
+    Read Riksdagen XML text format and return a tuple
+    consisting of an etree of , as well as the HTML
+    inside the text element
+    &#34;&#34;&#34;
+    # TODO: implement
 
-    print(s)
+    xml, cleaned_html
 
-    f = open(xml_path)
+def read_html(path):
+    &#34;&#34;&#34;
+    Read a HTML file and turn it into valid XML
+    &#34;&#34;&#34;
+    f = open(path)
     soup = BeautifulSoup(f)
     f.close()
-    g = open(outpath, &#39;w&#39;)
-    g.write(soup.prettify())
-    g.close()
-
+    pretty_html = soup.prettify()
+    return etree.fromstring(pretty_html)
+    
 def validate_xml_schema(xml_path, schema_path):
     xml_file = lxml.etree.parse(xml_path)
 
-    xml_validator = lxml.etree.XMLSchema(file=schema_path)
-    is_valid = xml_validator.validate(xml_file)
+    schema = lxml.etree.XMLSchema(file=schema_path)
+    is_valid = schema.validate(xml_file)
 
-    #schema = xmlschema.XMLSchema(schema_path)
     return is_valid
 
-def validate_parla_clarin_example():
-    xml_path = &#34;data/parla-clarin/official-example.xml&#34;
-
-    #s = open(xml_path).read()[:50]
-    
-    #print(&#34;Example Parla-clarin XML: &#39;&#34;, s, &#34; [...]&#39;&#34;)
-    schema_path = &#34;schemas/parla-clarin.xsd&#34;
-
-    valid = validate_xml_schema(xml_path, schema_path)
-
-    print(&#34;XML is valid&#34;, valid)
-    
-def update_db(updated_db, db_path, check_columns=True, remove=None, replace=None):
-    &#34;&#34;&#34;
-    Update pandas JSON database on disk with new rows.
-
-    Args:
-        updated_db: New rows as a Pandas DataFrame.
-        db_path: Path to the JSON on disk
-        check_columns: Checks that the columns of the original DB and the new rows match. Boolean.
-        remove: Remove these rows from the original database. List of lists of strings. 
-        replace: Replace exisiting values considering these columns as the index. List of strings (columns).
-    &#34;&#34;&#34;
-
-    old_db = pd.read_json(db_path, orient=&#34;records&#34;, lines=True)
-    print(&#34;Old&#34;, old_db)
-    print(&#34;Updates&#34;, updated_db)
-    if check_columns:
-        assert tuple(old_db.columns) == tuple(updated_db.columns)
-
-    new_db = pd.concat([old_db, updated_db], sort=False)
-
-    # TODO: Remove rows from the original dataframe
-
-
-    # Replace duplicates based on the given column combinations
-    if replace is not None:
-        new_db = new_db.groupby(replace).last().reset_index()
-    print(&#34;New&#34;, new_db)
-    new_db.to_json(db_path, orient=&#34;records&#34;, lines=True)
-    print(&#34;New on disk&#34;, pd.read_json(db_path, orient=&#34;records&#34;, lines=True))
-
-
-def update_test():
-    db_path = &#34;test.json&#34;
-
-    d1 = {&#39;name&#39;: [&#34;A&#34;, &#34;A&#34;, &#34;C&#34;], &#39;country&#39;: [&#34;SWE&#34;, &#34;FIN&#34;,&#34;FIN&#34;], &#39;value&#39;: [3, 2, 4]}
-    d2 = {&#39;name&#39;: [&#34;C&#34;, &#34;C&#34;], &#39;country&#39;: [&#34;FIN&#34;, &#34;GER&#34;], &#39;value&#39;: [8,7]}
-
-    df1 = pd.DataFrame(data=d1)
-    df2 = pd.DataFrame(data=d2)
-    df1.to_json(db_path, orient=&#34;records&#34;, lines=True)
-    update_db(df2, db_path, replace=[&#34;name&#34;, &#34;country&#34;])
 
 def parlaclarin_to_md(tree):
     &#34;&#34;&#34;
@@ -172,8 +153,8 @@ if __name__ == &#39;__main__&#39;:
 <section>
 <h2 class="section-title" id="header-functions">Functions</h2>
 <dl>
-<dt id="riksdagen_corpus.utils.clean_html"><code class="name flex">
-<span>def <span class="ident">clean_html</span></span>(<span>raw_html)</span>
+<dt id="riksdagen_corpus.utils.infer_metadata"><code class="name flex">
+<span>def <span class="ident">infer_metadata</span></span>(<span>filename)</span>
 </code></dt>
 <dd>
 <div class="desc"></div>
@@ -181,12 +162,33 @@ if __name__ == &#39;__main__&#39;:
 <summary>
 <span>Expand source code</span>
 </summary>
-<pre><code class="python">def clean_html(raw_html):
-    raw_html = raw_html.replace(&#34;\n&#34;, &#34; NEWLINE &#34;)
-    cleanr = re.compile(&#39;&lt;.*?&gt;&#39;)
-    cleantext = re.sub(cleanr, &#39;&#39;, raw_html)
-    cleantext = cleantext.replace(&#34; NEWLINE &#34;, &#34;\n&#34;)
-    return cleantext</code></pre>
+<pre><code class="python">def infer_metadata(filename):
+    metadata = dict()
+    filename = filename.replace(&#34;-&#34;, &#34;_&#34;)
+    metadata[&#34;protocol&#34;] = filename.split(&#34;/&#34;)[-1].split(&#34;.&#34;)[0]
+    split = filename.split(&#34;/&#34;)[-1].split(&#34;_&#34;)
+    
+    # Year
+    for s in split:
+        s = s[:4]
+        if s.isdigit():
+            year = int(s)
+            if year &gt; 1800 and year &lt; 2100:
+                metadata[&#34;year&#34;] = year
+
+    # Chamber
+    metadata[&#34;chamber&#34;] = &#34;Enkammarriksdagen&#34;
+    if &#34;_ak_&#34; in filename:
+        metadata[&#34;chamber&#34;] = &#34;Andra kammaren&#34;
+    elif &#34;_fk_&#34; in filename:
+        metadata[&#34;chamber&#34;] = &#34;Första kammaren&#34;
+    
+    try:
+        metadata[&#34;number&#34;] = int(split[-1])
+    except:
+        print(&#34;Number parsing unsuccesful&#34;, filename)
+        
+    return metadata</code></pre>
 </details>
 </dd>
 <dt id="riksdagen_corpus.utils.parlaclarin_to_md"><code class="name flex">
@@ -233,28 +235,46 @@ if __name__ == &#39;__main__&#39;:
     return &#34;\n&#34;.join(segment_txts)</code></pre>
 </details>
 </dd>
-<dt id="riksdagen_corpus.utils.read_xml"><code class="name flex">
-<span>def <span class="ident">read_xml</span></span>(<span>outpath)</span>
+<dt id="riksdagen_corpus.utils.read_html"><code class="name flex">
+<span>def <span class="ident">read_html</span></span>(<span>path)</span>
 </code></dt>
 <dd>
-<div class="desc"></div>
+<div class="desc"><p>Read a HTML file and turn it into valid XML</p></div>
 <details class="source">
 <summary>
 <span>Expand source code</span>
 </summary>
-<pre><code class="python">def read_xml(outpath):
-    xml_path = sys.argv[1]
-    xml = open(xml_path).read()
-    s = clean_html(xml)
-
-    print(s)
-
-    f = open(xml_path)
+<pre><code class="python">def read_html(path):
+    &#34;&#34;&#34;
+    Read a HTML file and turn it into valid XML
+    &#34;&#34;&#34;
+    f = open(path)
     soup = BeautifulSoup(f)
     f.close()
-    g = open(outpath, &#39;w&#39;)
-    g.write(soup.prettify())
-    g.close()</code></pre>
+    pretty_html = soup.prettify()
+    return etree.fromstring(pretty_html)</code></pre>
+</details>
+</dd>
+<dt id="riksdagen_corpus.utils.read_riksdagen_xml"><code class="name flex">
+<span>def <span class="ident">read_riksdagen_xml</span></span>(<span>path)</span>
+</code></dt>
+<dd>
+<div class="desc"><p>Read Riksdagen XML text format and return a tuple
+consisting of an etree of , as well as the HTML
+inside the text element</p></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def read_riksdagen_xml(path):
+    &#34;&#34;&#34;
+    Read Riksdagen XML text format and return a tuple
+    consisting of an etree of , as well as the HTML
+    inside the text element
+    &#34;&#34;&#34;
+    # TODO: implement
+
+    xml, cleaned_html</code></pre>
 </details>
 </dd>
 <dt id="riksdagen_corpus.utils.speeches_with_name"><code class="name flex">
@@ -281,102 +301,6 @@ if __name__ == &#39;__main__&#39;:
     return texts</code></pre>
 </details>
 </dd>
-<dt id="riksdagen_corpus.utils.update_db"><code class="name flex">
-<span>def <span class="ident">update_db</span></span>(<span>updated_db, db_path, check_columns=True, remove=None, replace=None)</span>
-</code></dt>
-<dd>
-<div class="desc"><p>Update pandas JSON database on disk with new rows.</p>
-<h2 id="args">Args</h2>
-<dl>
-<dt><strong><code>updated_db</code></strong></dt>
-<dd>New rows as a Pandas DataFrame.</dd>
-<dt><strong><code>db_path</code></strong></dt>
-<dd>Path to the JSON on disk</dd>
-<dt><strong><code>check_columns</code></strong></dt>
-<dd>Checks that the columns of the original DB and the new rows match. Boolean.</dd>
-<dt><strong><code>remove</code></strong></dt>
-<dd>Remove these rows from the original database. List of lists of strings. </dd>
-<dt><strong><code>replace</code></strong></dt>
-<dd>Replace exisiting values considering these columns as the index. List of strings (columns).</dd>
-</dl></div>
-<details class="source">
-<summary>
-<span>Expand source code</span>
-</summary>
-<pre><code class="python">def update_db(updated_db, db_path, check_columns=True, remove=None, replace=None):
-    &#34;&#34;&#34;
-    Update pandas JSON database on disk with new rows.
-
-    Args:
-        updated_db: New rows as a Pandas DataFrame.
-        db_path: Path to the JSON on disk
-        check_columns: Checks that the columns of the original DB and the new rows match. Boolean.
-        remove: Remove these rows from the original database. List of lists of strings. 
-        replace: Replace exisiting values considering these columns as the index. List of strings (columns).
-    &#34;&#34;&#34;
-
-    old_db = pd.read_json(db_path, orient=&#34;records&#34;, lines=True)
-    print(&#34;Old&#34;, old_db)
-    print(&#34;Updates&#34;, updated_db)
-    if check_columns:
-        assert tuple(old_db.columns) == tuple(updated_db.columns)
-
-    new_db = pd.concat([old_db, updated_db], sort=False)
-
-    # TODO: Remove rows from the original dataframe
-
-
-    # Replace duplicates based on the given column combinations
-    if replace is not None:
-        new_db = new_db.groupby(replace).last().reset_index()
-    print(&#34;New&#34;, new_db)
-    new_db.to_json(db_path, orient=&#34;records&#34;, lines=True)
-    print(&#34;New on disk&#34;, pd.read_json(db_path, orient=&#34;records&#34;, lines=True))</code></pre>
-</details>
-</dd>
-<dt id="riksdagen_corpus.utils.update_test"><code class="name flex">
-<span>def <span class="ident">update_test</span></span>(<span>)</span>
-</code></dt>
-<dd>
-<div class="desc"></div>
-<details class="source">
-<summary>
-<span>Expand source code</span>
-</summary>
-<pre><code class="python">def update_test():
-    db_path = &#34;test.json&#34;
-
-    d1 = {&#39;name&#39;: [&#34;A&#34;, &#34;A&#34;, &#34;C&#34;], &#39;country&#39;: [&#34;SWE&#34;, &#34;FIN&#34;,&#34;FIN&#34;], &#39;value&#39;: [3, 2, 4]}
-    d2 = {&#39;name&#39;: [&#34;C&#34;, &#34;C&#34;], &#39;country&#39;: [&#34;FIN&#34;, &#34;GER&#34;], &#39;value&#39;: [8,7]}
-
-    df1 = pd.DataFrame(data=d1)
-    df2 = pd.DataFrame(data=d2)
-    df1.to_json(db_path, orient=&#34;records&#34;, lines=True)
-    update_db(df2, db_path, replace=[&#34;name&#34;, &#34;country&#34;])</code></pre>
-</details>
-</dd>
-<dt id="riksdagen_corpus.utils.validate_parla_clarin_example"><code class="name flex">
-<span>def <span class="ident">validate_parla_clarin_example</span></span>(<span>)</span>
-</code></dt>
-<dd>
-<div class="desc"></div>
-<details class="source">
-<summary>
-<span>Expand source code</span>
-</summary>
-<pre><code class="python">def validate_parla_clarin_example():
-    xml_path = &#34;data/parla-clarin/official-example.xml&#34;
-
-    #s = open(xml_path).read()[:50]
-    
-    #print(&#34;Example Parla-clarin XML: &#39;&#34;, s, &#34; [...]&#39;&#34;)
-    schema_path = &#34;schemas/parla-clarin.xsd&#34;
-
-    valid = validate_xml_schema(xml_path, schema_path)
-
-    print(&#34;XML is valid&#34;, valid)</code></pre>
-</details>
-</dd>
 <dt id="riksdagen_corpus.utils.validate_xml_schema"><code class="name flex">
 <span>def <span class="ident">validate_xml_schema</span></span>(<span>xml_path, schema_path)</span>
 </code></dt>
@@ -389,10 +313,9 @@ if __name__ == &#39;__main__&#39;:
 <pre><code class="python">def validate_xml_schema(xml_path, schema_path):
     xml_file = lxml.etree.parse(xml_path)
 
-    xml_validator = lxml.etree.XMLSchema(file=schema_path)
-    is_valid = xml_validator.validate(xml_file)
+    schema = lxml.etree.XMLSchema(file=schema_path)
+    is_valid = schema.validate(xml_file)
 
-    #schema = xmlschema.XMLSchema(schema_path)
     return is_valid</code></pre>
 </details>
 </dd>
@@ -413,15 +336,13 @@ if __name__ == &#39;__main__&#39;:
 </ul>
 </li>
 <li><h3><a href="#header-functions">Functions</a></h3>
-<ul class="">
-<li><code><a title="riksdagen_corpus.utils.clean_html" href="#riksdagen_corpus.utils.clean_html">clean_html</a></code></li>
+<ul class="two-column">
+<li><code><a title="riksdagen_corpus.utils.infer_metadata" href="#riksdagen_corpus.utils.infer_metadata">infer_metadata</a></code></li>
 <li><code><a title="riksdagen_corpus.utils.parlaclarin_to_md" href="#riksdagen_corpus.utils.parlaclarin_to_md">parlaclarin_to_md</a></code></li>
 <li><code><a title="riksdagen_corpus.utils.parlaclarin_to_txt" href="#riksdagen_corpus.utils.parlaclarin_to_txt">parlaclarin_to_txt</a></code></li>
-<li><code><a title="riksdagen_corpus.utils.read_xml" href="#riksdagen_corpus.utils.read_xml">read_xml</a></code></li>
+<li><code><a title="riksdagen_corpus.utils.read_html" href="#riksdagen_corpus.utils.read_html">read_html</a></code></li>
+<li><code><a title="riksdagen_corpus.utils.read_riksdagen_xml" href="#riksdagen_corpus.utils.read_riksdagen_xml">read_riksdagen_xml</a></code></li>
 <li><code><a title="riksdagen_corpus.utils.speeches_with_name" href="#riksdagen_corpus.utils.speeches_with_name">speeches_with_name</a></code></li>
-<li><code><a title="riksdagen_corpus.utils.update_db" href="#riksdagen_corpus.utils.update_db">update_db</a></code></li>
-<li><code><a title="riksdagen_corpus.utils.update_test" href="#riksdagen_corpus.utils.update_test">update_test</a></code></li>
-<li><code><a title="riksdagen_corpus.utils.validate_parla_clarin_example" href="#riksdagen_corpus.utils.validate_parla_clarin_example">validate_parla_clarin_example</a></code></li>
 <li><code><a title="riksdagen_corpus.utils.validate_xml_schema" href="#riksdagen_corpus.utils.validate_xml_schema">validate_xml_schema</a></code></li>
 </ul>
 </li>

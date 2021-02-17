@@ -32,7 +32,10 @@ Handles the data on the members of parliament.
 &#34;&#34;&#34;
 
 import pandas as pd
-import os
+import os, re
+import progressbar
+import hashlib
+import unicodedata
 
 def create_database(path):
     extension = path.split(&#34;.&#34;)[-1]
@@ -40,9 +43,10 @@ def create_database(path):
     if extension == &#34;csv&#34;:
         print(&#34;Read:&#34;, path)
         df = pd.read_csv(path, skip_blank_lines=True)
+
+        # Drop columns where everything is null
         nulls = df.isnull().values.all(axis=0)
         nulls = zip(df.columns, nulls)
-        
         for column_name, null in nulls:
             if null:
                 del df[column_name]
@@ -76,9 +80,17 @@ def create_database(path):
                     
                     datapoint = []
                     # Add name
-                    datapoint.append(row[0])
+                    name = row[0]
+                    datapoint.append(name)
                     # Add party
-                    datapoint.append(row[-1])
+                    possible_parties = [s for s in row if &#34;f.&#34; not in s]
+                    party = possible_parties[-1]
+                    party = re.sub(r&#39;\(.*?\)&#39;, &#39;&#39;, party)
+                    party = re.sub(r&#39;\[.*?\]&#39;, &#39;&#39;, party).strip()
+                    if len(party) &lt; 4 or party.lower() != party:
+                        datapoint.append(party)
+                    else:
+                        datapoint.append(None)
                     # Add &#39;län&#39; / region
                     datapoint.append(lan)
                     rows.append(datapoint)
@@ -88,15 +100,22 @@ def create_database(path):
         print(&#34;File type not supported.&#34;, path)
         return None
     
-    # Harmonize name to be Riksdagsledamot
+    # Harmonize column names
     new_columns = list(df.columns)
     for column_ix, column_name in enumerate(df.columns):
-        if column_name in [&#34;Ledamot&#34;, &#34;Riksdagsledamot&#34;]:
-            new_columns[column_ix] = &#34;Riksdagsledamot&#34;
+        if column_name in [&#34;Ledamot&#34;, &#34;Riksdagsledamot&#34;, &#34;Namn&#34;]:
+            new_columns[column_ix] = &#34;name&#34;
+        if column_name in [&#34;Parti&#34;]:
+            new_columns[column_ix] = &#34;party&#34;
+        if column_name in [&#34;Yrke&#34;]:
+            new_columns[column_ix] = &#34;occupation&#34;
+        if column_name in [&#34;Valkrets&#34;]:
+            new_columns[column_ix] = &#34;district&#34;
+
     df.columns = new_columns
     
     # Drop unnecessary columns
-    retain = [&#34;Riksdagsledamot&#34;, &#34;Parti&#34;, &#34;Valkrets&#34;, &#34;Yrke&#34;]
+    retain = [&#34;name&#34;, &#34;party&#34;, &#34;district&#34;, &#34;occupation&#34;]
     for column_name in df.columns:
         if column_name not in retain:
             del df[column_name]
@@ -116,12 +135,19 @@ def create_database(path):
         df[&#34;start&#34;] = int(year_str[:4])
         df[&#34;end&#34;] = int(year_str[-4:])
     elif len(year_str) == 4:
-        df[&#34;start&#34;] = int(year_str)
-        df[&#34;end&#34;] = int(year_str)
+        # TODO: Currently using +-3 year heuristic because exact terms
+        # are unavailable.
+        if chamber == &#34;Första kammaren&#34;:
+            df[&#34;start&#34;] = int(year_str) - 3
+            df[&#34;end&#34;] = int(year_str) + 3
+        else:
+            df[&#34;start&#34;] = int(year_str)
+            df[&#34;end&#34;] = int(year_str)
     
     return df
 
 def create_full_database(dirs):
+    mp_dbs = []
     for d in dirs:
         for path in os.listdir(d):
             full_path = os.path.join(d, path)
@@ -130,8 +156,94 @@ def create_full_database(dirs):
                 mp_dbs.append(mp_db)
     mp_db = pd.concat(mp_dbs)
     
-    return mp_db.sort_values(by=[&#34;start&#34;, &#34;chamber&#34;, &#34;Riksdagsledamot&#34;], ignore_index=True)
+    mp_db = mp_db.sort_values(by=[&#34;start&#34;, &#34;chamber&#34;, &#34;name&#34;], ignore_index=True)
+
+    columnsTitles = [&#39;name&#39; , &#39;party&#39;, &#39;district&#39;, &#39;chamber&#39;, &#39;start&#39;, &#39;end&#39;, &#39;occupation&#39;]
+    mp_db = mp_db.reindex(columns=columnsTitles)
+
+    mp_db = mp_db[mp_db[&#34;name&#34;].notnull()]
+
+    return mp_db
+
+def add_gender(mp_db, names):
+    print(&#34;Add gender...&#34;)
+    mp_db[&#34;gender&#34;] = None
+
+    name_to_gender = {}
+    for i, namerow in names.iterrows():
+        name = namerow[&#34;name&#34;]
+        gender = namerow[&#34;gender&#34;]
+        if gender == &#34;masculine&#34;:
+            gender = &#34;man&#34;
+        elif gender == &#34;feminine&#34;:
+            gender = &#34;woman&#34;
+        name_to_gender[name] = gender
+
+    for i, row in progressbar.progressbar(list(mp_db.iterrows())):
+        first_name = row[&#34;name&#34;].split()[0]
+        if first_name in name_to_gender:
+            mp_db.loc[i, &#39;gender&#39;] = name_to_gender[first_name]
+
+    return mp_db
+
+def clean_names(mp_db):
+    print(&#34;Clean names...&#34;)
+    for i, row in progressbar.progressbar(list(mp_db.iterrows())):
+        name = row[&#34;name&#34;]
+        name = name.split(&#34; i &#34;)[0]
+        if &#34;[&#34; in name:
+            name = name.split(&#34;[&#34;)[0]
+        if &#34;ersatt av&#34; in name:
+            name = name.split(&#34;ersatt av:&#34;)[-1]
+        assert name != &#34;&#34;, &#34;names can&#39;t be empty: &#34; + row[&#34;name&#34;]
+        mp_db.loc[i, &#39;name&#39;] = name
+
+    return mp_db
+
+def replace_party_abbreviations(mp_db, party_db):
+    print(&#34;Replace party abbreviations...&#34;)
+    party_dict = dict()
+    for _, row in party_db.iterrows():
+        party = row[&#34;party&#34;]
+        abbreviation = row[&#34;abbreviation&#34;]
+        party_dict[abbreviation] = party
     
+    
+    for i, row in progressbar.progressbar(list(mp_db.iterrows())):
+        current_party = row[&#34;party&#34;]
+        if type(current_party) == str:
+            # Check if &#39;party&#39; attribute is in the list of abbreviations
+            row_party = current_party.strip().lower()
+            if row_party in party_dict:
+                mp_db.loc[i, &#39;party&#39;] = party_dict[row_party]
+    
+    return mp_db
+
+def add_id(mp_db):
+    print(&#34;Add id...&#34;)
+    columns = mp_db.columns
+    mp_db[&#34;id&#34;] = None
+    print(&#34;columns used for generation:&#34;, &#34;, &#34;.join(columns))
+    for i, row in progressbar.progressbar(list(mp_db.iterrows())):
+        name = unicodedata.normalize(&#34;NFD&#34;, row[&#34;name&#34;])
+        name = name.encode(&#34;ascii&#34;, &#34;ignore&#34;).decode(&#34;utf-8&#34;)
+        name = name.lower().replace(&#34; &#34;, &#34;_&#34;)
+        name = name.replace(&#34;.&#34;, &#34;&#34;).replace(&#34;(&#34;, &#34;&#34;).replace(&#34;)&#34;, &#34;&#34;).replace(&#34;:&#34;, &#34;&#34;)
+        party = row.get(&#34;party&#34;)
+
+        pattern = [name]
+        for column in columns:
+            value = row[column]
+            if type(value) != str:
+                value = str(value)
+            pattern.append(value)
+
+        pattern = &#34;_&#34;.join(pattern).replace(&#34; &#34;, &#34;_&#34;).lower()
+
+        digest = hashlib.md5(pattern.encode(&#34;utf-8&#34;)).hexdigest()
+        mp_db.loc[i, &#39;id&#39;] = name + &#34;_&#34; + digest[:6]
+
+    return mp_db
 def detect_mp(introduction, metadata, mp_db):
     &#34;&#34;&#34;
     Detect which member of parliament is mentioned in a given introduction.
@@ -146,34 +258,10 @@ def detect_mp(introduction, metadata, mp_db):
     mp_db = mp_db[(mp_db[&#34;start&#34;] &lt;= year) &amp; (mp_db[&#34;end&#34;] &gt;= year)]
 
     for ix, row in mp_db.iterrows():
-        name = row[&#34;Riksdagsledamot&#34;]
+        name = row[&#34;name&#34;]
         last_name = &#34; &#34;.join(name.split()[1:])
         if last_name in introduction:
-            return row
-
-if __name__ == &#39;__main__&#39;:
-    &#39;&#39;&#39;
-    mp_db = create_database(&#34;data/mp/1971-1973.csv&#34;)
-    print(mp_db)
-
-    introduction = &#34;Anf. Palme yttrade:&#34;
-
-    metadata = dict(
-        year=1972,
-    )
-
-    mp = detect_mp(introduction, metadata, mp_db)
-
-    print(&#34;MP:&#34;, mp)
-    &#39;&#39;&#39;
-    
-    mp_dbs = []
-    dirs = [&#34;data/mp/&#34;, &#34;data/mp/fk/&#34;, &#34;data/mp/ak/&#34;]
-
-    mp_dbs = create_full_database(dirs)
-    print(mp_dbs)
-    
-    mp_dbs.to_csv(&#34;db/mp/1921-2022.csv&#34;)</code></pre>
+            return row</code></pre>
 </details>
 </section>
 <section>
@@ -183,6 +271,97 @@ if __name__ == &#39;__main__&#39;:
 <section>
 <h2 class="section-title" id="header-functions">Functions</h2>
 <dl>
+<dt id="riksdagen_corpus.mp.add_gender"><code class="name flex">
+<span>def <span class="ident">add_gender</span></span>(<span>mp_db, names)</span>
+</code></dt>
+<dd>
+<div class="desc"></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def add_gender(mp_db, names):
+    print(&#34;Add gender...&#34;)
+    mp_db[&#34;gender&#34;] = None
+
+    name_to_gender = {}
+    for i, namerow in names.iterrows():
+        name = namerow[&#34;name&#34;]
+        gender = namerow[&#34;gender&#34;]
+        if gender == &#34;masculine&#34;:
+            gender = &#34;man&#34;
+        elif gender == &#34;feminine&#34;:
+            gender = &#34;woman&#34;
+        name_to_gender[name] = gender
+
+    for i, row in progressbar.progressbar(list(mp_db.iterrows())):
+        first_name = row[&#34;name&#34;].split()[0]
+        if first_name in name_to_gender:
+            mp_db.loc[i, &#39;gender&#39;] = name_to_gender[first_name]
+
+    return mp_db</code></pre>
+</details>
+</dd>
+<dt id="riksdagen_corpus.mp.add_id"><code class="name flex">
+<span>def <span class="ident">add_id</span></span>(<span>mp_db)</span>
+</code></dt>
+<dd>
+<div class="desc"></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def add_id(mp_db):
+    print(&#34;Add id...&#34;)
+    columns = mp_db.columns
+    mp_db[&#34;id&#34;] = None
+    print(&#34;columns used for generation:&#34;, &#34;, &#34;.join(columns))
+    for i, row in progressbar.progressbar(list(mp_db.iterrows())):
+        name = unicodedata.normalize(&#34;NFD&#34;, row[&#34;name&#34;])
+        name = name.encode(&#34;ascii&#34;, &#34;ignore&#34;).decode(&#34;utf-8&#34;)
+        name = name.lower().replace(&#34; &#34;, &#34;_&#34;)
+        name = name.replace(&#34;.&#34;, &#34;&#34;).replace(&#34;(&#34;, &#34;&#34;).replace(&#34;)&#34;, &#34;&#34;).replace(&#34;:&#34;, &#34;&#34;)
+        party = row.get(&#34;party&#34;)
+
+        pattern = [name]
+        for column in columns:
+            value = row[column]
+            if type(value) != str:
+                value = str(value)
+            pattern.append(value)
+
+        pattern = &#34;_&#34;.join(pattern).replace(&#34; &#34;, &#34;_&#34;).lower()
+
+        digest = hashlib.md5(pattern.encode(&#34;utf-8&#34;)).hexdigest()
+        mp_db.loc[i, &#39;id&#39;] = name + &#34;_&#34; + digest[:6]
+
+    return mp_db</code></pre>
+</details>
+</dd>
+<dt id="riksdagen_corpus.mp.clean_names"><code class="name flex">
+<span>def <span class="ident">clean_names</span></span>(<span>mp_db)</span>
+</code></dt>
+<dd>
+<div class="desc"></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def clean_names(mp_db):
+    print(&#34;Clean names...&#34;)
+    for i, row in progressbar.progressbar(list(mp_db.iterrows())):
+        name = row[&#34;name&#34;]
+        name = name.split(&#34; i &#34;)[0]
+        if &#34;[&#34; in name:
+            name = name.split(&#34;[&#34;)[0]
+        if &#34;ersatt av&#34; in name:
+            name = name.split(&#34;ersatt av:&#34;)[-1]
+        assert name != &#34;&#34;, &#34;names can&#39;t be empty: &#34; + row[&#34;name&#34;]
+        mp_db.loc[i, &#39;name&#39;] = name
+
+    return mp_db</code></pre>
+</details>
+</dd>
 <dt id="riksdagen_corpus.mp.create_database"><code class="name flex">
 <span>def <span class="ident">create_database</span></span>(<span>path)</span>
 </code></dt>
@@ -198,9 +377,10 @@ if __name__ == &#39;__main__&#39;:
     if extension == &#34;csv&#34;:
         print(&#34;Read:&#34;, path)
         df = pd.read_csv(path, skip_blank_lines=True)
+
+        # Drop columns where everything is null
         nulls = df.isnull().values.all(axis=0)
         nulls = zip(df.columns, nulls)
-        
         for column_name, null in nulls:
             if null:
                 del df[column_name]
@@ -234,9 +414,17 @@ if __name__ == &#39;__main__&#39;:
                     
                     datapoint = []
                     # Add name
-                    datapoint.append(row[0])
+                    name = row[0]
+                    datapoint.append(name)
                     # Add party
-                    datapoint.append(row[-1])
+                    possible_parties = [s for s in row if &#34;f.&#34; not in s]
+                    party = possible_parties[-1]
+                    party = re.sub(r&#39;\(.*?\)&#39;, &#39;&#39;, party)
+                    party = re.sub(r&#39;\[.*?\]&#39;, &#39;&#39;, party).strip()
+                    if len(party) &lt; 4 or party.lower() != party:
+                        datapoint.append(party)
+                    else:
+                        datapoint.append(None)
                     # Add &#39;län&#39; / region
                     datapoint.append(lan)
                     rows.append(datapoint)
@@ -246,15 +434,22 @@ if __name__ == &#39;__main__&#39;:
         print(&#34;File type not supported.&#34;, path)
         return None
     
-    # Harmonize name to be Riksdagsledamot
+    # Harmonize column names
     new_columns = list(df.columns)
     for column_ix, column_name in enumerate(df.columns):
-        if column_name in [&#34;Ledamot&#34;, &#34;Riksdagsledamot&#34;]:
-            new_columns[column_ix] = &#34;Riksdagsledamot&#34;
+        if column_name in [&#34;Ledamot&#34;, &#34;Riksdagsledamot&#34;, &#34;Namn&#34;]:
+            new_columns[column_ix] = &#34;name&#34;
+        if column_name in [&#34;Parti&#34;]:
+            new_columns[column_ix] = &#34;party&#34;
+        if column_name in [&#34;Yrke&#34;]:
+            new_columns[column_ix] = &#34;occupation&#34;
+        if column_name in [&#34;Valkrets&#34;]:
+            new_columns[column_ix] = &#34;district&#34;
+
     df.columns = new_columns
     
     # Drop unnecessary columns
-    retain = [&#34;Riksdagsledamot&#34;, &#34;Parti&#34;, &#34;Valkrets&#34;, &#34;Yrke&#34;]
+    retain = [&#34;name&#34;, &#34;party&#34;, &#34;district&#34;, &#34;occupation&#34;]
     for column_name in df.columns:
         if column_name not in retain:
             del df[column_name]
@@ -274,8 +469,14 @@ if __name__ == &#39;__main__&#39;:
         df[&#34;start&#34;] = int(year_str[:4])
         df[&#34;end&#34;] = int(year_str[-4:])
     elif len(year_str) == 4:
-        df[&#34;start&#34;] = int(year_str)
-        df[&#34;end&#34;] = int(year_str)
+        # TODO: Currently using +-3 year heuristic because exact terms
+        # are unavailable.
+        if chamber == &#34;Första kammaren&#34;:
+            df[&#34;start&#34;] = int(year_str) - 3
+            df[&#34;end&#34;] = int(year_str) + 3
+        else:
+            df[&#34;start&#34;] = int(year_str)
+            df[&#34;end&#34;] = int(year_str)
     
     return df</code></pre>
 </details>
@@ -290,6 +491,7 @@ if __name__ == &#39;__main__&#39;:
 <span>Expand source code</span>
 </summary>
 <pre><code class="python">def create_full_database(dirs):
+    mp_dbs = []
     for d in dirs:
         for path in os.listdir(d):
             full_path = os.path.join(d, path)
@@ -298,7 +500,14 @@ if __name__ == &#39;__main__&#39;:
                 mp_dbs.append(mp_db)
     mp_db = pd.concat(mp_dbs)
     
-    return mp_db.sort_values(by=[&#34;start&#34;, &#34;chamber&#34;, &#34;Riksdagsledamot&#34;], ignore_index=True)</code></pre>
+    mp_db = mp_db.sort_values(by=[&#34;start&#34;, &#34;chamber&#34;, &#34;name&#34;], ignore_index=True)
+
+    columnsTitles = [&#39;name&#39; , &#39;party&#39;, &#39;district&#39;, &#39;chamber&#39;, &#39;start&#39;, &#39;end&#39;, &#39;occupation&#39;]
+    mp_db = mp_db.reindex(columns=columnsTitles)
+
+    mp_db = mp_db[mp_db[&#34;name&#34;].notnull()]
+
+    return mp_db</code></pre>
 </details>
 </dd>
 <dt id="riksdagen_corpus.mp.detect_mp"><code class="name flex">
@@ -328,10 +537,39 @@ mp_db: MP database as a Pandas DataFrame.</p></div>
     mp_db = mp_db[(mp_db[&#34;start&#34;] &lt;= year) &amp; (mp_db[&#34;end&#34;] &gt;= year)]
 
     for ix, row in mp_db.iterrows():
-        name = row[&#34;Riksdagsledamot&#34;]
+        name = row[&#34;name&#34;]
         last_name = &#34; &#34;.join(name.split()[1:])
         if last_name in introduction:
             return row</code></pre>
+</details>
+</dd>
+<dt id="riksdagen_corpus.mp.replace_party_abbreviations"><code class="name flex">
+<span>def <span class="ident">replace_party_abbreviations</span></span>(<span>mp_db, party_db)</span>
+</code></dt>
+<dd>
+<div class="desc"></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def replace_party_abbreviations(mp_db, party_db):
+    print(&#34;Replace party abbreviations...&#34;)
+    party_dict = dict()
+    for _, row in party_db.iterrows():
+        party = row[&#34;party&#34;]
+        abbreviation = row[&#34;abbreviation&#34;]
+        party_dict[abbreviation] = party
+    
+    
+    for i, row in progressbar.progressbar(list(mp_db.iterrows())):
+        current_party = row[&#34;party&#34;]
+        if type(current_party) == str:
+            # Check if &#39;party&#39; attribute is in the list of abbreviations
+            row_party = current_party.strip().lower()
+            if row_party in party_dict:
+                mp_db.loc[i, &#39;party&#39;] = party_dict[row_party]
+    
+    return mp_db</code></pre>
 </details>
 </dd>
 </dl>
@@ -352,9 +590,13 @@ mp_db: MP database as a Pandas DataFrame.</p></div>
 </li>
 <li><h3><a href="#header-functions">Functions</a></h3>
 <ul class="">
+<li><code><a title="riksdagen_corpus.mp.add_gender" href="#riksdagen_corpus.mp.add_gender">add_gender</a></code></li>
+<li><code><a title="riksdagen_corpus.mp.add_id" href="#riksdagen_corpus.mp.add_id">add_id</a></code></li>
+<li><code><a title="riksdagen_corpus.mp.clean_names" href="#riksdagen_corpus.mp.clean_names">clean_names</a></code></li>
 <li><code><a title="riksdagen_corpus.mp.create_database" href="#riksdagen_corpus.mp.create_database">create_database</a></code></li>
 <li><code><a title="riksdagen_corpus.mp.create_full_database" href="#riksdagen_corpus.mp.create_full_database">create_full_database</a></code></li>
 <li><code><a title="riksdagen_corpus.mp.detect_mp" href="#riksdagen_corpus.mp.detect_mp">detect_mp</a></code></li>
+<li><code><a title="riksdagen_corpus.mp.replace_party_abbreviations" href="#riksdagen_corpus.mp.replace_party_abbreviations">replace_party_abbreviations</a></code></li>
 </ul>
 </li>
 </ul>
