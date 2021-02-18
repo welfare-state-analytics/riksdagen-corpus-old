@@ -1,5 +1,7 @@
 from lxml import etree
 from riksdagen_corpus.segmentation import detect_mp, expression_dicts, detect_introduction
+import re
+import datetime
 
 def _iter(root):
     for body in root.findall(".//{http://www.tei-c.org/ns/1.0}body"):
@@ -128,3 +130,80 @@ def format_texts(root):
             elem.text = None
 
     return root
+
+def detect_date(root, protocol_year):
+    month_numbers = dict(
+        januari=1,
+        februari=2,
+        mars=3,
+        april=4,
+        maj=5,
+        juni=6,
+        juli=7,
+        augusti=8,
+        september=9,
+        oktober=10,
+        november=11,
+        december=12,
+        )
+
+    dates = set()
+    expression = "\\w{3,5}dagen den (\\d{1,2})\\.? (\\w{3,9}) (\\d{4})"
+    expression2 = "\\w{3,5}dagen den (\\d{1,2})\\.? (\\w{3,9})"
+    for ix, elem_tuple in enumerate(list(_iter(root))):
+        tag, elem = elem_tuple
+        if tag == "note" and type(elem.text) == str and len(elem.text) < 50:
+            matches = re.search(expression, elem.text)
+            matches2 = re.search(expression2, elem.text)
+            if matches is not None:
+                day = int(matches.group(1).replace(".", ""))
+                month = matches.group(2).lower()
+                month = month_numbers.get(month)
+                year = int(matches.group(3))
+
+                if month is None and year > 1800:
+                    print("Could not parse:", matches.group(0))
+                else:
+                    elem.attrib["type"] = "date"
+                    date = None
+                    try:
+                        date = datetime.datetime(year, month, day)
+                        dates.add(date)
+                    except ValueError:
+                        print("Whoopsie!")
+            elif matches2 is not None:
+                day = int(matches2.group(1).replace(".", ""))
+                month = matches2.group(2).lower()
+                month = month_numbers.get(month)
+
+                if month is None:
+                    print("Could not parse:", matches2.group(0))
+                else:
+                    date = None
+                    elem.attrib["type"] = "date"
+                    try:
+                        date = datetime.datetime(protocol_year, month, day)
+                        dates.add(date)
+                    except ValueError:
+                        print("Whoopsie!")
+
+    dates = sorted(list(dates))
+    for text in root.findall(".//{http://www.tei-c.org/ns/1.0}text"):
+        for front in text.findall("{http://www.tei-c.org/ns/1.0}front"):
+            if len(dates) > 0:
+                for docDate in front.findall("{http://www.tei-c.org/ns/1.0}docDate"):
+                    docDate.getparent().remove(docDate)
+
+                for div in front.findall("{http://www.tei-c.org/ns/1.0}div"):
+                    if div.attrib.get("type") == "preface":
+                        for docDate in div.findall("{http://www.tei-c.org/ns/1.0}docDate"):
+                            docDate.getparent().remove(docDate)
+                        for date in dates:
+                            formatted = date.strftime("%Y-%m-%d")
+                            docDate = etree.SubElement(div, "docDate")
+                            docDate.text = formatted
+                            docDate.attrib["when"] = formatted
+
+
+    return root, dates
+
