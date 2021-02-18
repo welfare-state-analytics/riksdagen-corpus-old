@@ -103,18 +103,20 @@ def find_introductions(root, pattern_db, names_ids):
     return root
 
 def format_paragraph(paragraph, spaces = 12):
-    words = paragraph.strip().split()
+    words = paragraph.replace("\n", "").strip().split()
     s = "\n" + " " * spaces
     row = ""
 
     for word in words:
         if len(row) > 60:
             s += row.strip() + "\n" + " " * spaces
-            row = ""
+            row = word
         else:
             row += " " + word
 
-    s += row.strip() + "\n" + " " * (spaces - 2)
+    if len(row.strip()) > 0:
+        s += row.strip() + "\n" + " " * (spaces - 2)
+
     if s.strip() == "":
         return None
     return s
