@@ -14,7 +14,7 @@ def _iter(root):
                 else:
                     yield None
 
-def detect_mps(root, mp_db):
+def detect_mps(root, mp_db, pattern_db):
     """
     Re-detect MPs in a parla clarin protocol, based on the (updated)
     MP database.
