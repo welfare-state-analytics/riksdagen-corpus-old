@@ -29,10 +29,11 @@ def detect_mps(root, mp_db):
                 elem.attrib["who"] = "unknown"
         elif tag == "note":
             if elem.attrib.get("type", None) == "speaker":
-                current_speaker = detect_mp(elem.text, mp_db)
-                print(elem.text, "SPEAKER", current_speaker)
+                if type(elem.text) == str:
+                    current_speaker = detect_mp(elem.text, mp_db)
+                    pass#print(elem.text, "SPEAKER", current_speaker)
 
-    return etree.fromstring(etree.tostring(root))
+    return root
 
 def find_introductions(root, pattern_db, names_ids):
     """
@@ -55,47 +56,49 @@ def find_introductions(root, pattern_db, names_ids):
             u_parent = elem.getparent()
             u_parent.text = None
             for seg in list(elem):
-                introduction = detect_introduction(seg.text, expressions, names_ids)
-                if introduction is not None:
-                    print("NEW", seg.text)
-                    seg.tag = "{http://www.tei-c.org/ns/1.0}note"
-                    seg.attrib["type"] = "speaker"
-                    if u is not None:
-                        u.addnext(seg)
-                    else:
-                        elem.addnext(seg)
+                if type(seg.text) == str:
+                    introduction = detect_introduction(seg.text, expressions, names_ids)
+                    if introduction is not None:
+                        pass#print("NEW", seg.text)
+                        seg.tag = "{http://www.tei-c.org/ns/1.0}note"
+                        seg.attrib["type"] = "speaker"
+                        if u is not None:
+                            u.addnext(seg)
+                        else:
+                            elem.addnext(seg)
 
-                    u = etree.Element("{http://www.tei-c.org/ns/1.0}u")
-                    #u.text = None
-                    if introduction["who"] is not None:
-                        u.attrib["who"] = introduction["who"]
-                    else:
-                        u.attrib["who"] = "unknown"
+                        u = etree.Element("{http://www.tei-c.org/ns/1.0}u")
+                        #u.text = None
+                        if introduction["who"] is not None:
+                            u.attrib["who"] = introduction["who"]
+                        else:
+                            u.attrib["who"] = "unknown"
 
-                    seg.addnext(u)
-                    if seg.text[-1] != ":":
-                        ix = seg.text.index(":")
-                        rest = seg.text[ix+1:]
-                        seg.text = seg.text[:ix+1]
-                        new_seg = etree.SubElement(u, "{http://www.tei-c.org/ns/1.0}seg")
-                        new_seg.text = rest
+                        seg.addnext(u)
+                        if seg.text[-1] != ":":
+                            ix = seg.text.index(":")
+                            rest = seg.text[ix+1:]
+                            seg.text = seg.text[:ix+1]
+                            new_seg = etree.SubElement(u, "{http://www.tei-c.org/ns/1.0}seg")
+                            new_seg.text = rest
 
-                    
-                elif u is not None:
-                    u.append(seg)
-                    u.text = None
+                        
+                    elif u is not None:
+                        u.append(seg)
+                        u.text = None
 
         elif tag == "note":
             parent = elem.getparent()
             parent.text = None
             #if not elem.attrib.get("type", None) == "speaker":
-            introduction = detect_introduction(elem.text, expressions, names_ids)
-                
-            if introduction is not None:
-                if not elem.attrib.get("type", None) == "speaker":
-                    print("NEW note", elem.text)
-                else:
-                    print("OLD", elem.text)
+            if type(elem.text) == str:
+                introduction = detect_introduction(elem.text, expressions, names_ids)
+                    
+                if introduction is not None:
+                    if not elem.attrib.get("type", None) == "speaker":
+                        pass#print("NEW note", elem.text)
+                    else:
+                        pass#print("OLD", elem.text)
 
     return root
 
@@ -105,7 +108,7 @@ def format_paragraph(paragraph, spaces = 12):
     row = ""
 
     for word in words:
-        if len(row) > 50:
+        if len(row) > 60:
             s += row.strip() + "\n" + " " * spaces
             row = ""
         else:
@@ -203,7 +206,6 @@ def detect_date(root, protocol_year):
                             docDate = etree.SubElement(div, "docDate")
                             docDate.text = formatted
                             docDate.attrib["when"] = formatted
-
 
     return root, dates
 

@@ -6,18 +6,17 @@ import pandas as pd
 import os
 import progressbar
 
-protocol_ids = ["prot-1955-höst-ak--29"]
 pc_folder = "data/new-parlaclarin/"
 protocol_ids = os.listdir(pc_folder)
 protocol_ids = [protocol_id.replace(".xml", "") for protocol_id in protocol_ids if protocol_id.split(".")[-1] == "xml"]
 
 mp_db = pd.read_csv("db/mp/members_of_parliament.csv")
 
+parser = etree.XMLParser(remove_blank_text=True)
 for protocol_id in progressbar.progressbar(protocol_ids):
     metadata = infer_metadata(protocol_id)
-    
-    s = open(pc_folder + protocol_id + ".xml").read().encode("utf-8")
-    root = etree.fromstring(s)
+    filename = pc_folder + protocol_id + ".xml"
+    root = etree.parse(filename, parser).getroot()
 
     year = metadata["year"]
     year_mp_db = filter_db(mp_db, year=year)
@@ -27,10 +26,10 @@ for protocol_id in progressbar.progressbar(protocol_ids):
 
     pattern_db = load_patterns()
     root = find_introductions(root,pattern_db,names_ids)
-    #root = detect_mps(root,names_ids)
-    #root = format_texts(root)
+    root = detect_mps(root,names_ids)
+    root = format_texts(root)
 
-    b = etree.tostring(root, pretty_print=True, encoding="utf-8")
+    b = etree.tostring(root, pretty_print=True, encoding="utf-8", xml_declaration=True)
 
     f = open(pc_folder + protocol_id + ".xml", "wb")
     f.write(b)
