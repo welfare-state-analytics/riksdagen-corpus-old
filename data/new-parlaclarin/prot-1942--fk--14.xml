@@ -1,4 +1,6 @@
-<teiCorpus xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+<?xml version='1.0' encoding='utf-8'?>
+<teiCorpus xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
     <fileDesc>
       <titleStmt>
         <title>Riksdagens protocols 1942</title>
@@ -54,7 +56,8 @@
         </div>
       </front>
       <body>
-        <div><note>RIKSDAGENS PROTOKOLL.</note>
+        <div>
+          <note>RIKSDAGENS PROTOKOLL.</note>
           <note>1942. Första kammaren. Nr 14.</note>
           <note>Torsdagen den 9 april.</note>
           <note>Kammaren sammanträdde kl. 2 e. m.</note>
@@ -916,8 +919,11 @@
           </u>
           <note type="speaker">:</note>
           <u who="karl_schlyter_95b20c" xml:id="i-52d12a3428ac5805">
-            </u><note type="speaker">Herr Schlyter:</note><u who="karl_schlyter_95b20c"><seg> Herr talman! Jag ber att få yrka bifall till utskottets örslag.</seg></u>
-          
+            </u>
+          <note type="speaker">Herr Schlyter:</note>
+          <u who="karl_schlyter_95b20c">
+            <seg> Herr talman! Jag ber att få yrka bifall till utskottets örslag.</seg>
+          </u>
           <note>Överläggningen ansågs härmed slutad, varefter herr talmannen yttrade, att 1 avseende på den nu föredragna paragrafen yrkats dels att densamma skulle godkännas, dels ock, av herr Olsson, Karl Johan, att nämnda paragraf skulle godkännas med den lydelse, som förordats i den av honom m. fl. vid 20 kap. 2 och 3 $$ anförda reservationen.</note>
           <note>Sedermera gjorde herr talmannen propositioner enligt berörda yrkanden och förklarade sig finna propositionen på godkännande av utskottets förslag till paragrafens lydelse vara med övervägande ja besvarad.</note>
           <note>Herr Olsson, Karl Johan, begärde votering, i anledning varav uppsattes samt efter given varsel upplästes och godkändes en så lydande omröstningsproposition:</note>
