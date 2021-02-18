@@ -1,4 +1,6 @@
-<teiCorpus xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+<?xml version='1.0' encoding='utf-8'?>
+<teiCorpus xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
     <fileDesc>
       <titleStmt>
         <title>Riksdagens protocols 1987</title>
@@ -52,13 +54,15 @@
           <head>prot-198788--86</head>
           <docDate when="1987-01-01">1987-01-01</docDate>
         </div>
+        <docDate when="1987-03-17">1987-03-17</docDate>
       </front>
       <body>
-        <div><note>Riksdagens protokoll 1987/88:86</note>
+        <div>
+          <note>Riksdagens protokoll 1987/88:86</note>
           <note>17 mars 1988</note>
           <note>FARS</note>
           <note>Protokoll 1987/88:86</note>
-          <note>Debatter m. m. Torsdagen den 17 mars</note>
+          <note type="date">Debatter m. m. Torsdagen den 17 mars</note>
           <note>Särskilda regionalpolitiska insatser i delar av Bergslagen och norra</note>
           <note>SOT OR ULASKIVN: flla, &gt; os on bg Url vener Vreeo sk LS AR BG Mineralpolitik m. m, .... ATIDFINADDN = 2805. &lt;hr kar bo VASER RER oe Aktivt folkstyre i kommuner och landsting . Postväsende NR Transportrådet, transportstöd m. m. Närdepappersmaärknåden fW.:m,;74&gt;5 » sösesser » v8se fo 00 vr pa Fossa Meddelande om interpellationer</note>
           <note>1987/88:212 av Alf Svensson (c) om situationen inom vårdsek-</note>
@@ -68,7 +72,7 @@
           <note>1987/88:405 av Elving Andersson (c) om helikopterdivisionen i BEVISEN ip en Ro sen OM ä SANNE DORA Se RS sr CN rk</note>
           <note>1987/88:406 av Lennart Alsén (fp) om Karlskronavarvet... ....</note>
           <note>Avgjorda ärenden</note>
-          <note>Torsdagen den 17 mars</note>
+          <note type="date">Torsdagen den 17 mars</note>
           <note>Justitieutskottets betänkande</note>
           <note>1987/88:23 om anslag till polisverksamheten rörande brott mot Filkstä Fäkerbot fi; MT Cköcrg. ok. ann fr R oe ro ÅR Sa FÄRRE</note>
           <note>Lagutskottets betänkande</note>
@@ -89,7 +93,7 @@
           <note>Näringsutskottets betänkande 1987/88:19 om särskilda regionalpolitiska insatser i delar av Bergslagen och norra Sverigesinland «.....s.sssssssrsssseresr</note>
           <note>1987/88:86 Prot. 1987/88:86</note>
           <note>17 mars 1988</note>
-          <note>Torsdagen den 17 mars Kl. 12.00</note>
+          <note type="date">Torsdagen den 17 mars Kl. 12.00</note>
           <note>Förhandlingarna leddes till en början av förste vice talmannen.</note>
           <note>1$ Föredrogs och hänvisades Propositionerna</note>
           <note>1987/88:123 till näringsutskottet 1987/88:139 till lagutskottet</note>
@@ -2466,7 +2470,10 @@
           <note>18 $ Meddelande om interpellationer Meddelades att följande interpellationer framställts den 17 mars</note>
           <note type="speaker">1987/88:</note>
           <u who="alf_svensson_b5507b" xml:id="i-60ffc61e55d09993">
-            </u><note type="speaker">212 av Alf Svensson (c) till socialministern om situationen inom vårdsektorn:</note><u who="alf_svensson_b5507b"><seg>Så gott som dagligen rapporterar TV, radio och tidningar om den svenska sjukvårdskrisen:</seg>
+            </u>
+          <note type="speaker">212 av Alf Svensson (c) till socialministern om situationen inom vårdsektorn:</note>
+          <u who="alf_svensson_b5507b">
+            <seg>Så gott som dagligen rapporterar TV, radio och tidningar om den svenska sjukvårdskrisen:</seg>
             <seg>- 250 hjärtpatienter i Gävleborgs län står i kö för kranskärlsoperation</seg>
             <seg>— patienter dör i väntan på operation</seg>
             <seg>— läkare föreslår att patienter skall sändas exempelvis till England för operation</seg>
@@ -2477,10 +2484,12 @@
             <seg>Landsting efter landsting söker nu överträffa varandra i jakten på utbildad personal. Lönepåslag, semestererbjudanden, hjälp med bostad etc. utannonseras som lockbeten i den dragkamp som måhända kan hjälpa enstaka landstingsledningar att slippa känna sig illa till mods, men som förvisso inte nämnvärt kan komma att förbättra den bekymmersamma situationen för vårt lands många sjuka.</seg>
             <seg>Vilka initiativ avser sjukvårdsministern att vidta för att förändra situationen inom svensk sjukvård, för patienter och personal?</seg>
           </u>
-            
           <note type="speaker">1987/88:</note>
           <u who="alf_svensson_b5507b" xml:id="i-dec30953e3c3dc92" next="cont">
-            </u><note type="speaker">213 av Alf Svensson (c) till miljöoch energiministern om Saabs etablering på Kockumsområdet i Malmö:</note><u who="alf_svensson_b5507b"><seg>Regeringens medverkan till Saabs etablering på Kockumsområdet i Malmö har med all rätt rönt stor uppmärksamhet. Många har med fog gjort gällande att ett så centralt och naturskönt beläget område mer hade lämpat sig för bostadsbyggande än för tung industri. Det är emellertid fruktan för att en redan alltför hårt förorenad region skall drabbas av ytterligare miljöförstöring som självfallet väckt störst uppmärksamhet.</seg>
+            </u>
+          <note type="speaker">213 av Alf Svensson (c) till miljöoch energiministern om Saabs etablering på Kockumsområdet i Malmö:</note>
+          <u who="alf_svensson_b5507b">
+            <seg>Regeringens medverkan till Saabs etablering på Kockumsområdet i Malmö har med all rätt rönt stor uppmärksamhet. Många har med fog gjort gällande att ett så centralt och naturskönt beläget område mer hade lämpat sig för bostadsbyggande än för tung industri. Det är emellertid fruktan för att en redan alltför hårt förorenad region skall drabbas av ytterligare miljöförstöring som självfallet väckt störst uppmärksamhet.</seg>
             <seg>När regeringen gav Saab tillstånd att etablera sig på Kockumsområdet i Malmö gjordes det gällande att en förutsättning för etableringen var att bästa tillgängliga teknik för att rena utsläppen från fabriken skulle användas.</seg>
             <seg> </seg>
             <seg> </seg>
@@ -2489,7 +2498,6 @@
             <seg>Regeringens miljöpolitiska proposition presenterades nära nog samtidigt som koncessionsnämndens ovan refererade beslut fick offentlighet. Diskrepansen mellan ord och handling måste te sig häpnadsväckande för de allra flesta.</seg>
             <seg>Mot bakgrund av ovanstående vill jag fråga statsrådet:</seg>
           </u>
-            
           <note>Meddelande om frågor</note>
           <u who="alf_svensson_b5507b" prev="cont">
             <seg>Eftersom koncessionsnämndens beslut beträffande Saabs industrier på Kockumsområdet inte synes stå i överensstämmelse med de miljöpolitiska mål som regeringens proposition innehåller, vill jag fråga om regeringen avser att vidta några åtgärder.</seg>
@@ -2498,13 +2506,15 @@
           <note>den 17 mars</note>
           <note type="speaker">1987/88:</note>
           <u who="bengt_goransson_09627b" xml:id="i-2f8b5c059dcc646e" next="cont">
-            </u><note type="speaker">404 av Alf Wennerfors (m) till statsrådet Bengt Göransson om elevers rätt till ledighet från skolarbetet:</note><u who="bengt_goransson_09627b"><seg>Det har blivit alltmer vanligt att elever i grundskolan och deras föräldrar begär ledigheter — ofta en hel vecka — utöver de ordinarie ledigheterna såsom exempelvis jullov, februarilov och påsklov.</seg>
+            </u>
+          <note type="speaker">404 av Alf Wennerfors (m) till statsrådet Bengt Göransson om elevers rätt till ledighet från skolarbetet:</note>
+          <u who="bengt_goransson_09627b">
+            <seg>Det har blivit alltmer vanligt att elever i grundskolan och deras föräldrar begär ledigheter — ofta en hel vecka — utöver de ordinarie ledigheterna såsom exempelvis jullov, februarilov och påsklov.</seg>
             <seg>Olika principer huruvida sådana extra ”semesterledigheter” skall beviljas tycks gälla i de olika skolkommunerna. I en del kommuner tycks sådana ledigheter beviljas utan inskränkningar. I andra kommuner är man strängare med hänvisning till att elevernas regelbundna skolgång är viktigare än allt annat. I några kommuner har grundskolerektorer beviljat ledighet för extra ”semestervecka” med familjen endast under förutsättning att elevens ledighet tas igen under de ordinarie loven.</seg>
             <seg> </seg>
             <seg>125 I Stöder skolministern principen att elever i grundskolan i allt större</seg>
             <seg>omfattning skall erhålla extra ledigheter utöver de ordinarie loven?</seg>
           </u>
-            
           <note>TOR</note>
           <u who="bengt_goransson_09627b" prev="cont">
             <seg> </seg>
@@ -2514,7 +2524,10 @@
           </u>
           <note type="speaker">Prot. 1987/88:</note>
           <u who="elving_andersson_9a2fd8" xml:id="i-9cde7c815349611b" next="cont">
-            </u><note type="speaker">86 = 1987/88:405 av Elving Andersson (c) till försvarsministern om helikopter- 17 mars 1988 divisionen i Säve:</note><u who="elving_andersson_9a2fd8"><seg> </seg>
+            </u>
+          <note type="speaker">86 = 1987/88:405 av Elving Andersson (c) till försvarsministern om helikopter- 17 mars 1988 divisionen i Säve:</note>
+          <u who="elving_andersson_9a2fd8">
+            <seg> </seg>
             <seg>Meddelande om frågor Återigen hotas verksamheten vid 2. helikopterdivisionen på Säve. Denna gång utreds möjligheterna att slå samman helikopterdivisionerna till en enhet med placering på Tullinge.</seg>
             <seg>Det är av mycket stort värde att 2. helikopterdivisionen finns stationerad på Säve. Förutom de militära aspekterna och västkustens försvarsoch incidentberedskap fyller också divisionen andra mycket angelägna uppgifter. Det gäller inte minst sjöräddning och annan service för bl. a. fiskare och övrig skärgårdsbefolkning. Helikopterdivisionen har också utvecklat ett mycket värdefullt samarbete med Mölndals sjukhus.</seg>
             <seg>Jag vill därför fråga försvarsministern:</seg>
@@ -2523,7 +2536,6 @@
             <seg>Karlskronavarvets utsatta ekonomiska läge, till stor del beroende på ojämna beställningar från marinen, är en källa till stora bekymmer framför allt för de anställda. Varvet som ingår i den statliga Celsiuskoncernen behöver kompletterande beställningar för att bibehålla kompetens och kunnande. Regering och riksdag har enligt ett tidigare uttalande ett ansvar för varvet.</seg>
             <seg>Mot bakgrund av detta vill jag fråga industriministern vilka åtgärder han tänker vidta för att medverka till en förbättrad situation för Karlskronavarvet.</seg>
           </u>
-            
           <note>20 &amp; Kammaren åtskildes kl. 22.24.</note>
           <note>In fidem</note>
           <note>BERTIL BJÖRNSSON</note>
@@ -2541,7 +2553,7 @@
             <seg> </seg>
           </u>
           <note>Förteckning över talare (Siffrorna avser sida i protokollet)</note>
-          <note>Torsdagen den 17 mars</note>
+          <note type="date">Torsdagen den 17 mars</note>
           <note>Talmannen 26</note>
           <note>Andersson, John (vpk) 57</note>
           <note>Boo, Karl (c) 70</note>

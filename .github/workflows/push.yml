@@ -28,14 +28,3 @@ jobs:
     - name: Test with unittest
       run: |
         python -m unittest test.schemas
-        
-    - name: Changed Files Exporter
-      id: changedfiles
-      uses: futuratrepadeira/changed-files@v3.3.0
-      with:
-        repo-token: ${{ github.token }}
-
-    - name: Validate changed files
-      run: |
-        python validate_parlaclarin.py ${{steps.changedfiles.outputs.files_updated}}
-        python validate_parlaclarin.py ${{steps.changedfiles.outputs.files_created}}

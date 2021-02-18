@@ -1,4 +1,6 @@
-<teiCorpus xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+<?xml version='1.0' encoding='utf-8'?>
+<teiCorpus xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
     <fileDesc>
       <titleStmt>
         <title>Riksdagens protocols 2005</title>
@@ -52,12 +54,14 @@
           <head>prot-200506--45</head>
           <docDate when="2005-01-01">2005-01-01</docDate>
         </div>
+        <docDate when="2005-12-06">2005-12-06</docDate>
       </front>
       <body>
-        <div><note>﻿</note>
+        <div>
+          <note>﻿</note>
           <note>Riksdagens protokoll</note>
           <note>2005/06:45</note>
-          <note>Tisdagen den 6 december</note>
+          <note type="date">Tisdagen den 6 december</note>
           <note>Kl. 09:00 - 23:03</note>
           <note>1 § Justering av protokoll</note>
           <note>Justerades protokollet för den 30 november.</note>
@@ -1925,8 +1929,9 @@
             <seg>För oss handlar det om att det är svårt. Det är ett ställningstagande. Det finns argument både för och emot. Det skulle bära mig emot att kalla andra partiers argument för fåniga.</seg>
             <seg>Att det kan uppfattas som diskriminerande har inte varit något tungt vägande skäl för oss socialdemokrater att avstå från att lagstifta det svenska språket. Vi har sagt att vi kan se att det finns en risk att det inträffar. Vi vill inte stå bakom en lagstiftning där det kan finnas en risk att den uppfattas som diskriminerande.</seg>
             <seg>För oss har det tyngsta skälet varit att vi känner en viss respekt för den lagstiftande makt vi som har förtroendet att sitta här i riksdagen har fått. Vi tycker inte att det finns någon anledning att ha en symbollagstiftning utan normerande verkan när vi får den effekt vi vill ha ändå.</seg>
-            </u><note type="speaker">Anf. 200 FÖRSTE VICE TALMANNEN:</note><u who="unknown"/>
-          
+          </u>
+          <note type="speaker">Anf. 200 FÖRSTE VICE TALMANNEN:</note>
+          <u who="unknown"/>
           <note>Jag får be debattörerna att vårda språket enligt 2 kap. 12 § riksdagsordningen.</note>
           <note type="speaker">Anf. 201 ANNA LINDGREN (m) replik:</note>
           <u who="anna_lindgren_34c7b1" xml:id="i-54dae3b31c185705">
