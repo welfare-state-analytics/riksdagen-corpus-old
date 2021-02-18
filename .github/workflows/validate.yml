@@ -33,8 +33,6 @@ jobs:
           pip install lxml
           pip install bs4
           pip install pandas
-          pip install kblab-client
-          pip install PyPDF2
           pip install progressbar2
 
       - name: Validate changed files
