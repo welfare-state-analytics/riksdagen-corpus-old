@@ -12,13 +12,17 @@ class Test(unittest.TestCase):
         total = len(mp_db)
         mp_db_columns = mp_db.columns
         print("Columns:", ", ".join(list(mp_db_columns)))
-        mp_db_columns = ["name", "party", "district", "chamber", "id"]
+        mp_db_columns = dict(name=1.0,
+                            party=0.95,
+                            district=0.95,
+                            chamber=0.95,
+                            id=1.0)
         print("Test:", ", ".join(list(mp_db_columns)))
-        for column in mp_db_columns:
+        for column, percentage in mp_db_columns.items():
             column_count = len(mp_db[mp_db[column].isnull()])
             valid_ratio = 1. - (column_count / total)
             print(column, valid_ratio)
-            self.assertGreaterEqual(valid_ratio, lower_limit)
+            self.assertGreaterEqual(valid_ratio, percentage)
 
 if __name__ == '__main__':
     unittest.main()
