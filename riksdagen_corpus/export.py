@@ -112,10 +112,12 @@ def create_tei(root, metadata):
             for textblock in content_block:
                 note = etree.SubElement(body_div, "note")
                 note.text = textblock.text
+                note.attrib["{http://www.w3.org/XML/1998/namespace}id"] = textblock.attrib.get("id", None)
         elif segmentation == "note":
             for textblock in content_block:
                 note = etree.SubElement(body_div, "note")
                 note.text = textblock.text
+                note.attrib["{http://www.w3.org/XML/1998/namespace}id"] = textblock.attrib.get("id", None)
         else:
             for textblock in content_block:
                 tb_segmentation = textblock.attrib.get("segmentation", None)
@@ -128,13 +130,13 @@ def create_tei(root, metadata):
                         u.attrib["who"] = current_speaker
                     else:
                         u.attrib["who"] = "unknown"
-                    u.attrib["{http://www.w3.org/XML/1998/namespace}id"] = textblock.attrib.get("id", None)
                     
                     # Introduction under <note> tag
                     # Actual speech under <u> tag
                     paragraph = textblock.text.split(":")
                     introduction = paragraph[0] + ":"
                     note.text = introduction
+                    note.attrib["{http://www.w3.org/XML/1998/namespace}id"] = textblock.attrib.get("id", None)
                     if len(paragraph) > 1:
                         rest_of_paragraph = ":".join(paragraph[1:]).strip()
                         if len(rest_of_paragraph) > 0:
@@ -146,6 +148,7 @@ def create_tei(root, metadata):
                         u = None
                     note = etree.SubElement(body_div, "note")
                     note.text = textblock.text
+                    note.attrib["{http://www.w3.org/XML/1998/namespace}id"] = textblock.attrib.get("id", None)
                 elif tb_segmentation == "metadata":
                     if prev_u is None:
                         prev_u = u
@@ -158,6 +161,7 @@ def create_tei(root, metadata):
                         if u is not None:
                             seg = etree.SubElement(u, "seg")
                             seg.text = paragraph
+                            seg.attrib["{http://www.w3.org/XML/1998/namespace}id"] = textblock.attrib.get("id", None)
                         elif prev_u is not None:
                             prev_u.attrib["next"] = "cont"
                             u = etree.SubElement(body_div, "u")
@@ -168,9 +172,11 @@ def create_tei(root, metadata):
                             u.attrib["prev"] = "cont"
                             seg = etree.SubElement(u, "seg")
                             seg.text = paragraph
+                            note.attrib["{http://www.w3.org/XML/1998/namespace}id"] = textblock.attrib.get("id", None)
                         else:
                             note = etree.SubElement(body_div, "note")
                             note.text = paragraph
+                            note.attrib["{http://www.w3.org/XML/1998/namespace}id"] = textblock.attrib.get("id", None)
     return tei
 
 def gen_parlaclarin_corpus(protocol_db, archive, instance_db, curation_db=None, corpus_metadata=dict(), str_output=True):

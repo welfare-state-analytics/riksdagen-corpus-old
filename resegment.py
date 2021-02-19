@@ -1,5 +1,5 @@
 from riksdagen_corpus.db import filter_db, load_patterns
-from riksdagen_corpus.refine import detect_mps, find_introductions, format_texts
+from riksdagen_corpus.refine import detect_mps, find_introductions, format_texts, update_ids
 from riksdagen_corpus.utils import infer_metadata
 from lxml import etree
 import pandas as pd
@@ -26,9 +26,9 @@ for protocol_id in progressbar.progressbar(protocol_ids):
 
     pattern_db = load_patterns()
     root = find_introductions(root,pattern_db,names_ids)
-    root = detect_mps(root,names_ids)
+    root = detect_mps(root,names_ids,pattern_db)
     root = format_texts(root)
-
+    root = update_ids(root, protocol_id)
     b = etree.tostring(root, pretty_print=True, encoding="utf-8", xml_declaration=True)
 
     f = open(pc_folder + protocol_id + ".xml", "wb")

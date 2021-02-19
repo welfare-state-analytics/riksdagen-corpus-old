@@ -10,6 +10,7 @@ import xml.etree.ElementTree as et
 import sys, re, os
 from bs4 import BeautifulSoup
 import pandas as pd
+import hashlib
 
 def infer_metadata(filename):
     metadata = dict()
@@ -38,6 +39,19 @@ def infer_metadata(filename):
         print("Number parsing unsuccesful", filename)
         
     return metadata
+
+def element_hash(elem, protocol_id, chars=16):
+    elem_text = elem.text
+    if elem_text is None:
+        elem_text = ""
+    elem_text = elem_text.strip()
+    elem_tag = elem.tag
+    xml_id = "{http://www.w3.org/XML/1998/namespace}id"
+    elem_attrib = str({key: value for key, value in elem.attrib.items() if key != xml_id})
+    seed = protocol_id + "\n" + elem_text + "\n" + elem_tag + "\n" + elem_attrib
+    encoded_seed = seed.encode("utf-8")
+    digest = hashlib.md5(encoded_seed).hexdigest()
+    return digest[:chars]
 
 def _clean_html(raw_html):
     # Clean the HTML code in the Riksdagen XML text format
@@ -89,8 +103,8 @@ def parlaclarin_to_txt(tree):
     segments = tree.findall('.//seg')
 
     for segment in segments:
-    	etree.strip_tags(segment, 'seg')
-    	#print(type(segment))
+        etree.strip_tags(segment, 'seg')
+        #print(type(segment))
     #return 
     segment_txts = [etree.tostring(segment, pretty_print=True, encoding="UTF-8").decode("utf-8") for segment in segments]
     segment_txts = [txt.replace("<seg>", "").replace("</seg>", "") for txt in segment_txts]

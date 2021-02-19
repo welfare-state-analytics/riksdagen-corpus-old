@@ -1,5 +1,6 @@
 from lxml import etree
 from riksdagen_corpus.segmentation import detect_mp, expression_dicts, detect_introduction
+from riksdagen_corpus.utils import element_hash
 import re
 import datetime
 
@@ -211,3 +212,32 @@ def detect_date(root, protocol_year):
 
     return root, dates
 
+def update_ids(root, protocol_id):
+    ids = set()
+    for tag, elem in _iter(root):
+        updated_hash = element_hash(elem, protocol_id)
+        hash_ix = 0
+        updated_id = "i-" + updated_hash + "-" + str(hash_ix)
+
+        while updated_id in ids:
+            hash_ix += 1
+            updated_id = "i-" + updated_hash + "-" + str(hash_ix)
+
+        elem.attrib["{http://www.w3.org/XML/1998/namespace}id"] = updated_id
+        ids.add(updated_id)
+
+        if tag == "u":
+            for subelem in elem:
+                updated_hash = element_hash(subelem, protocol_id)
+                hash_ix = 0
+                updated_id = "i-" + updated_hash + "-" + str(hash_ix)
+
+                while updated_id in ids:
+                    hash_ix += 1
+                    updated_id = "i-" + updated_hash + "-" + str(hash_ix)
+
+                subelem.attrib["{http://www.w3.org/XML/1998/namespace}id"] = updated_id
+                ids.add(updated_id)
+
+
+    return root
