@@ -11,7 +11,9 @@ class Test(unittest.TestCase):
 
         total = len(mp_db)
         mp_db_columns = mp_db.columns
-
+        print("Columns:", ", ".join(list(mp_db_columns)))
+        mp_db_columns = ["name", "party", "district", "chamber", "id"]
+        print("Test:", ", ".join(list(mp_db_columns)))
         for column in mp_db_columns:
             column_count = len(mp_db[mp_db[column].isnull()])
             valid_ratio = 1. - (column_count / total)

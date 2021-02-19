@@ -28,3 +28,4 @@ jobs:
     - name: Test with unittest
       run: |
         python -m unittest test.schemas
+        python -m unittest test.db
