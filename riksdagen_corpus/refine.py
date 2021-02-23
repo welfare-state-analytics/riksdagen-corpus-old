@@ -12,6 +12,8 @@ def _iter(root):
                     yield "u", elem
                 elif elem.tag == "{http://www.tei-c.org/ns/1.0}note":
                     yield "note", elem
+                elif elem.tag == "{http://www.tei-c.org/ns/1.0}pb":
+                    yield "pb", elem
                 else:
                     yield None
 
@@ -134,6 +136,11 @@ def format_texts(root):
                 else:
                     seg.text = None
             elem.text = None
+        elif tag == "pb":
+            if "{http://www.w3.org/XML/1998/namespace}url" in elem.attrib:
+                url = elem.attrib["{http://www.w3.org/XML/1998/namespace}url"]
+                del elem.attrib["{http://www.w3.org/XML/1998/namespace}url"]
+                elem.attrib["facs"] = url
 
     return root
 
@@ -238,6 +245,5 @@ def update_ids(root, protocol_id):
 
                 subelem.attrib["{http://www.w3.org/XML/1998/namespace}id"] = updated_id
                 ids.add(updated_id)
-
 
     return root

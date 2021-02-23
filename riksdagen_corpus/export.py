@@ -61,7 +61,8 @@ def create_parlaclarin(teis, metadata):
     
     for xml_element in teiCorpusTree.iter():
         content = xml_element.xpath('normalize-space()')
-        if not content:
+
+        if not content and len(xml_element.attrib) == 0:
             xml_element.getparent().remove(xml_element)
             
     s = etree.tostring(teiCorpusTree, pretty_print=True, encoding="utf-8", xml_declaration=True).decode("utf-8")
@@ -97,10 +98,22 @@ def create_tei(root, metadata):
     body_div = etree.SubElement(body, "div")
     
     current_speaker = None
+    current_page = 0
     u = None
     prev_u = None
 
     for content_block in root:
+        new_page = content_block.attrib.get("page", current_page)
+        new_page = int(new_page)
+        if new_page != current_page:
+            current_page = new_page
+            pb = etree.SubElement(body_div, "pb")
+            pb.attrib["n"] = str(current_page)
+            # TODO: Fix url
+            page_url = "https://betalab.kb.se/" + protocol_id + "/"
+            page_filename = protocol_id.replace("-","_") + '-{:03d}'.format(current_page) + ".jp2/_view"
+            pb.attrib["facs"] = page_url + page_filename
+
         content_txt = '\n'.join(content_block.itertext())
         is_empty = content_txt == ""
         cb_ix = content_block.attrib["id"]
@@ -208,7 +221,8 @@ def parlaclarin_workflow(file_db, archive, curations=None, segmentations=None):
             authority="National Library of Sweden and the WESTAC project",
             correction="Some data curation was done. It is documented in db/curation/instances"
         )
-        parla_clarin_str = gen_parlaclarin_corpus(year_db, archive, current_instances, corpus_metadata=corpus_metadata, curation_db=current_curations)
+        parla_clarin_str = gen_parlaclarin_corpus(year_db, archive, current_instances,
+            corpus_metadata=corpus_metadata, curation_db=current_curations)
         
         parlaclarin_path = "data/parla-clarin/" + "corpus" + str(corpus_year) + ".xml"
         f = open(parlaclarin_path, "w")
@@ -227,13 +241,14 @@ def parlaclarin_workflow_individual(file_db, archive, curations=None, segmentati
             correction="Some data curation was done. It is documented in db/curation/instances"
         )
 
-        year_db = file_db[file_db["year"] ==corpus_year]
+        year_db = file_db[file_db["year"] == corpus_year]
         for ix, row in progressbar.progressbar(list(year_db.iterrows())):
             df = pd.DataFrame([row], columns = year_db.columns)
             protocol_id = row["protocol_id"]
-            parla_clarin_str = gen_parlaclarin_corpus(df, archive, current_instances, corpus_metadata=corpus_metadata, curation_db=current_curations)
+            parla_clarin_str = gen_parlaclarin_corpus(df, archive, current_instances,
+                corpus_metadata=corpus_metadata, curation_db=current_curations)
             
-            parlaclarin_path = "data/new-parlaclarin/" + protocol_id+ ".xml"
+            parlaclarin_path = "data/new-parlaclarin/" + protocol_id + ".xml"
             f = open(parlaclarin_path, "w")
             f.write(parla_clarin_str)
             f.close()
