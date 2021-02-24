@@ -18,18 +18,19 @@ class Test(unittest.TestCase):
 
         def test_one_protocol(root, mp_ids, mp_db):
             found = True
-            year = None
+            years = []
             date = None
             for docDate in root.findall(".//{http://www.tei-c.org/ns/1.0}docDate"):
                 docDateYear = docDate.attrib.get("when", "unknown")
                 date = docDateYear
                 docDateYear = int(docDateYear.split("-")[0])
-                year = docDateYear
+                years.append(docDateYear)
 
-            if year not in mp_ids:
-                year_db = filter_db(mp_db, year=year)
-                ids = list(year_db["id"])
-                mp_ids[year] = ids
+            for year in years:
+                if year not in mp_ids:
+                    year_db = filter_db(mp_db, year=year)
+                    ids = list(year_db["id"])
+                    mp_ids[year] = ids
 
             for body in root.findall(".//{http://www.tei-c.org/ns/1.0}body"):
                 for div in body.findall("{http://www.tei-c.org/ns/1.0}div"):
@@ -37,8 +38,14 @@ class Test(unittest.TestCase):
                         if elem.tag == "{http://www.tei-c.org/ns/1.0}u":
                             who = elem.attrib.get("who", "unknown")
                             if who != "unknown":
-                                if who not in mp_ids[year]:
+                                elem_found = False
+                                for year in years:
+                                    if who in mp_ids[year]:
+                                        elem_found = True
+
+                                if not elem_found:
                                     found = False
+
             return found
 
         folder = "data/new-parlaclarin/"
