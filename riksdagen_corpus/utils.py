@@ -44,7 +44,8 @@ def element_hash(elem, protocol_id, chars=16):
     elem_text = elem.text
     if elem_text is None:
         elem_text = ""
-    elem_text = elem_text.strip()
+    elem_text = elem_text.strip().replace("\n", " ")
+    elem_text = ' '.join(elem_text.split())
     elem_tag = elem.tag
     xml_id = "{http://www.w3.org/XML/1998/namespace}id"
     elem_attrib = str({key: value for key, value in elem.attrib.items() if key != xml_id})

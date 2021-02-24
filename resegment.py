@@ -19,6 +19,14 @@ for protocol_id in progressbar.progressbar(protocol_ids):
     root = etree.parse(filename, parser).getroot()
 
     year = metadata["year"]
+    #print(year, type(year))
+    years = [int(elem.attrib.get("when").split("-")[0]) for elem in root.findall(".//{http://www.tei-c.org/ns/1.0}docDate")]
+
+    if not year in years:
+        year = years[0]
+
+    if str(year) not in protocol_id:
+        print(protocol_id, year)
     year_mp_db = filter_db(mp_db, year=year)
     names = year_mp_db["name"]
     ids = year_mp_db["id"]
