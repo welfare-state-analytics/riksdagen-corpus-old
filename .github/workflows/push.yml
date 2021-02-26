@@ -8,7 +8,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        python-version: [3.7, 3.8]
+        python-version: [3.8]
 
     steps:
     - uses: actions/checkout@v2
@@ -28,4 +28,6 @@ jobs:
     - name: Test with unittest
       run: |
         python -m unittest test.schemas
+        python -m unittest test.db
+        python -m unittest test.mp
 

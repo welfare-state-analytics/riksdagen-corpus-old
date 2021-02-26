@@ -51,6 +51,30 @@ class Test(unittest.TestCase):
         valid = validate_xml_schema(parlaclarin_path, schema_path)
         self.assertEqual(valid, True)
 
+    # Parla-clarin generated from example OCR XML
+    def test_generated_example(self):
+        schema_path = "schemas/parla-clarin.xsd"
+        protocol_id1 = "prot-1955--ak--22" # Andra kammaren
+        protocol_id2 = "prot-1933--fk--5" # Första kammaren
+        protocol_id3 = "prot-197879--14" # Enkammarsriksdagen
+        protocol_id4 = "prot-199596--35" # Digital original
+
+        folder = "data/new-parlaclarin/"
+        parlaclarin_path1 = folder + protocol_id1 + ".xml"
+        parlaclarin_path2 = folder + protocol_id2 + ".xml"
+        parlaclarin_path3 = folder + protocol_id3 + ".xml"
+        parlaclarin_path4 = folder + protocol_id4 + ".xml"
+
+        valid1 = validate_xml_schema(parlaclarin_path1, schema_path)
+        valid2 = validate_xml_schema(parlaclarin_path2, schema_path)
+        valid3 = validate_xml_schema(parlaclarin_path3, schema_path)
+        valid4 = validate_xml_schema(parlaclarin_path4, schema_path)
+
+        self.assertEqual(valid1, True)
+        self.assertEqual(valid2, True)
+        self.assertEqual(valid3, True)
+        self.assertEqual(valid4, True)
+
 
 if __name__ == '__main__':
     # begin the unittest.main()

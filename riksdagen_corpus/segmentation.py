@@ -85,7 +85,12 @@ def detect_mp(matched_txt, names_ids, last_name=True):
             last_name = " " + name.split()[-1]
             
             if last_name in matched_txt:
-                person = identifier
+                ix = matched_txt.index(last_name)
+                aftermatch = matched_txt[ix + len(last_name):]
+                aftermatch = aftermatch[:1]
+                if aftermatch in [" ", ":", ","]:
+                    person = identifier
+
             elif last_name.upper() in matched_txt:
                 #print(matched_txt, last_name, last_name.upper())
                 person = identifier
