@@ -203,10 +203,15 @@ def detect_date(root, protocol_year):
     dates = sorted(list(dates))
     for text in root.findall(".//{http://www.tei-c.org/ns/1.0}text"):
         for front in text.findall("{http://www.tei-c.org/ns/1.0}front"):
-            if len(dates) > 0:
-                for docDate in front.findall("{http://www.tei-c.org/ns/1.0}docDate"):
-                    docDate.getparent().remove(docDate)
 
+            # Remove old docDates
+            for docDate in front.findall("{http://www.tei-c.org/ns/1.0}docDate"):
+                docDate.getparent().remove(docDate)
+            for div in front.findall("{http://www.tei-c.org/ns/1.0}div"):
+                for docDate in div.findall("{http://www.tei-c.org/ns/1.0}docDate"):
+                    docDate.getparent().remove(docDate)
+            
+            if len(dates) > 0:
                 for div in front.findall("{http://www.tei-c.org/ns/1.0}div"):
                     if div.attrib.get("type") == "preface":
                         for docDate in div.findall("{http://www.tei-c.org/ns/1.0}docDate"):
@@ -216,6 +221,13 @@ def detect_date(root, protocol_year):
                             docDate = etree.SubElement(div, "docDate")
                             docDate.text = formatted
                             docDate.attrib["when"] = formatted
+            else:
+                for div in front.findall("{http://www.tei-c.org/ns/1.0}div"):
+                    if div.attrib.get("type") == "preface":
+                        formatted = str(protocol_year)
+                        docDate = etree.SubElement(div, "docDate")
+                        docDate.text = formatted
+                        docDate.attrib["when"] = formatted
 
     return root, dates
 
