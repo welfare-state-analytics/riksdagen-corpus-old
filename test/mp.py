@@ -48,7 +48,7 @@ class Test(unittest.TestCase):
 
             return found
 
-        folder = "data/new-parlaclarin/"
+        folder = "corpus/"
         mp_db = pd.read_csv("db/mp/members_of_parliament.csv")
         mp_ids = {}
 

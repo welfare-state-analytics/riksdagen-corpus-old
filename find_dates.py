@@ -6,7 +6,7 @@ import pandas as pd
 import os
 import progressbar
 
-pc_folder = "data/new-parlaclarin/"
+pc_folder = "corpus/"
 protocol_ids = os.listdir(pc_folder)
 protocol_ids = [protocol_id.replace(".xml", "") for protocol_id in protocol_ids if protocol_id.split(".")[-1] == "xml"]
 

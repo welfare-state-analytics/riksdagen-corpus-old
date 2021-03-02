@@ -248,7 +248,7 @@ def parlaclarin_workflow_individual(file_db, archive, curations=None, segmentati
             parla_clarin_str = gen_parlaclarin_corpus(df, archive, current_instances,
                 corpus_metadata=corpus_metadata, curation_db=current_curations)
             
-            parlaclarin_path = "data/new-parlaclarin/" + protocol_id + ".xml"
+            parlaclarin_path = "corpus/" + protocol_id + ".xml"
             f = open(parlaclarin_path, "w")
             f.write(parla_clarin_str)
             f.close()
