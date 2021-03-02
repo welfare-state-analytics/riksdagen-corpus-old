@@ -18,14 +18,6 @@ class Test(unittest.TestCase):
         valid = validate_xml_schema(parlaclarin_path, schema_path)
         self.assertEqual(valid, True)
 
-    # Official example parla-clarin 
-    def test_protocol(self):
-        schema_path = "schemas/protocol.xsd"
-        protocol_path = "data/protocols/prot-198990--93/original.xml"
-        
-        valid = validate_xml_schema(protocol_path, schema_path)
-        self.assertEqual(valid, True)
-
     # Parla-clarin generated from example OCR XML
     def test_generated_example(self):
         schema_path = "schemas/parla-clarin.xsd"
