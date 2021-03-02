@@ -53,7 +53,7 @@ class Test(unittest.TestCase):
         mp_ids = {}
 
         failed_protocols = []
-        for protocol_id in progressbar.progressbar(os.listdir("data/new-parlaclarin/")):
+        for protocol_id in progressbar.progressbar(os.listdir(folder)):
             protocol_id = protocol_id.split(".")[0]
             root = etree.parse(folder + protocol_id + ".xml", parser).getroot()
             if not test_one_protocol(root, mp_ids, mp_db):
