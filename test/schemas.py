@@ -59,7 +59,7 @@ class Test(unittest.TestCase):
         protocol_id3 = "prot-197879--14" # Enkammarsriksdagen
         protocol_id4 = "prot-199596--35" # Digital original
 
-        folder = "data/new-parlaclarin/"
+        folder = "corpus/"
         parlaclarin_path1 = folder + protocol_id1 + ".xml"
         parlaclarin_path2 = folder + protocol_id2 + ".xml"
         parlaclarin_path3 = folder + protocol_id3 + ".xml"
