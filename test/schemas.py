@@ -46,10 +46,10 @@ class Test(unittest.TestCase):
     # Parla-clarin generated from example OCR XML
     def test_generated_example(self):
         schema_path = "schemas/parla-clarin.xsd"
-        protocol_id1 = "prot-1955--ak--22" # Andra kammaren
-        protocol_id2 = "prot-1933--fk--5" # Första kammaren
-        protocol_id3 = "prot-197879--14" # Enkammarsriksdagen
-        protocol_id4 = "prot-199596--35" # Digital original
+        protocol_id1 = "1955/prot-1955--ak--22" # Andra kammaren
+        protocol_id2 = "1933/prot-1933--fk--5" # Första kammaren
+        protocol_id3 = "197879/prot-197879--14" # Enkammarsriksdagen
+        protocol_id4 = "199596/prot-199596--35" # Digital original
 
         folder = "corpus/"
         parlaclarin_path1 = folder + protocol_id1 + ".xml"
