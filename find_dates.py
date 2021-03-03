@@ -7,29 +7,25 @@ import os
 import progressbar
 
 pc_folder = "corpus/"
-protocol_ids = os.listdir(pc_folder)
-protocol_ids = [protocol_id.replace(".xml", "") for protocol_id in protocol_ids if protocol_id.split(".")[-1] == "xml"]
-
 folders = os.listdir(pc_folder)
-
-mp_db = pd.read_csv("db/mp/members_of_parliament.csv")
 
 parser = etree.XMLParser(remove_blank_text=True)
 for outfolder in progressbar.progressbar(folders):
-    outfolder = outfolder + "/"
-    protocol_ids = os.listdir(pc_folder + outfolder)
-    protocol_ids = [protocol_id.replace(".xml", "") for protocol_id in protocol_ids if protocol_id.split(".")[-1] == "xml"]
+    if os.path.isdir(pc_folder + outfolder):
+        outfolder = outfolder + "/"
+        protocol_ids = os.listdir(pc_folder + outfolder)
+        protocol_ids = [protocol_id.replace(".xml", "") for protocol_id in protocol_ids if protocol_id.split(".")[-1] == "xml"]
 
-    for protocol_id in protocol_ids:
-        metadata = infer_metadata(protocol_id)
-        filename = pc_folder + outfolder + protocol_id + ".xml"
-        
-        root = etree.parse(filename, parser)
-        root, dates = detect_date(root, metadata["year"])
+        for protocol_id in protocol_ids:
+            metadata = infer_metadata(protocol_id)
+            filename = pc_folder + outfolder + protocol_id + ".xml"
+            
+            root = etree.parse(filename, parser)
+            root, dates = detect_date(root, metadata["year"])
 
-        b = etree.tostring(root, pretty_print=True, encoding="utf-8", xml_declaration=True)
+            b = etree.tostring(root, pretty_print=True, encoding="utf-8", xml_declaration=True)
 
-        f = open(filename, "wb")
-        f.write(b)
-        f.close()
-        
+            f = open(filename, "wb")
+            f.write(b)
+            f.close()
+            
