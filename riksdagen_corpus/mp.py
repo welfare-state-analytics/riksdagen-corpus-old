@@ -152,6 +152,8 @@ def add_gender(mp_db, names):
 
     for i, row in progressbar.progressbar(list(mp_db.iterrows())):
         first_name = row["name"].split()[0]
+        if "-" in first_name:
+            first_name = first_name.split("-")[0]
         if first_name in name_to_gender:
             mp_db.loc[i, 'gender'] = name_to_gender[first_name]
 

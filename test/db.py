@@ -5,9 +5,7 @@ import yaml
 class Test(unittest.TestCase):
 
     # Test that each column in the MP DB contains at least 95% valid values
-    def test_mp_db(self):
-        lower_limit = 0.95
-        
+    def test_mp_db(self):        
         mp_db = pd.read_csv("db/mp/members_of_parliament.csv")
 
         total = len(mp_db)
@@ -17,7 +15,8 @@ class Test(unittest.TestCase):
                             party=0.95,
                             district=0.95,
                             chamber=0.95,
-                            id=1.0)
+                            id=1.0,
+                            gender=0.95)
         print("Test:", ", ".join(list(mp_db_columns)))
         for column, percentage in mp_db_columns.items():
             column_count = len(mp_db[mp_db[column].isnull()])
