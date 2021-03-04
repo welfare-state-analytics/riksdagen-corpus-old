@@ -13,7 +13,7 @@ The full data set consists of multiple parts:
 A full dataset is available under the zip download on this page. The unzipped folder is structured in  the following manner
 
 - Annual protocol files in the ```corpus/``` folder
-- List of MPs ```db/protocol/members_of_parliament.csv```
+- List of MPs ```db/mp/members_of_parliament.csv```
 
 ## Participate in the curation process
 
