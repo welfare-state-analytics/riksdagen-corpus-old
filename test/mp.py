@@ -53,11 +53,14 @@ class Test(unittest.TestCase):
         mp_ids = {}
 
         failed_protocols = []
-        for protocol_id in progressbar.progressbar(os.listdir(folder)):
-            protocol_id = protocol_id.split(".")[0]
-            root = etree.parse(folder + protocol_id + ".xml", parser).getroot()
-            if not test_one_protocol(root, mp_ids, mp_db):
-                failed_protocols.append(protocol_id)
+        for outfolder in progressbar.progressbar(os.listdir(folder)):
+            outfolder = outfolder + "/"
+            if os.path.isdir(folder + outfolder):
+                for protocol_id in os.listdir(folder + outfolder):
+                    protocol_id = protocol_id.split(".")[0]
+                    root = etree.parse(folder + outfolder + protocol_id + ".xml", parser).getroot()
+                    if not test_one_protocol(root, mp_ids, mp_db):
+                        failed_protocols.append(protocol_id)
 
         print("Protocols with inactive MPs tagged as speakers:", ", ".join(failed_protocols))
         self.assertEqual(len(failed_protocols) == 0, True)
