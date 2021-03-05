@@ -3,13 +3,13 @@ from riksdagen_corpus.refine import detect_mps, find_introductions, format_texts
 from riksdagen_corpus.utils import infer_metadata
 from lxml import etree
 import pandas as pd
-import os
-import progressbar
+import os, progressbar
 
-pc_folder = "corpus/"
+root = ""#"../"
+pc_folder = root + "corpus/"
 folders = os.listdir(pc_folder)
 
-mp_db = pd.read_csv("db/mp/members_of_parliament.csv")
+mp_db = pd.read_csv(root + "db/mp/members_of_parliament.csv")
 
 parser = etree.XMLParser(remove_blank_text=True)
 for outfolder in progressbar.progressbar(folders):
