@@ -40,17 +40,29 @@ def infer_metadata(filename):
         
     return metadata
 
-def element_hash(elem, protocol_id, chars=16):
+def element_hash(elem, protocol_id="", chars=16):
+    """
+    Calculate a deterministic hash for an XML element
+    """
+    # The hash seed consists of 
+    # 1. Element text without line breaks
     elem_text = elem.text
     if elem_text is None:
         elem_text = ""
     elem_text = elem_text.strip().replace("\n", " ")
     elem_text = ' '.join(elem_text.split())
+    # 2. The element tag
     elem_tag = elem.tag
+    # 3. The element attributes in alphabetical order,
+    # excluding the XML ID and XML n
     xml_id = "{http://www.w3.org/XML/1998/namespace}id"
-    elem_attrib = str({key: value for key, value in elem.attrib.items() if key != xml_id})
+    xml_n = "{http://www.w3.org/XML/1998/namespace}n"
+    excluded = [xml_id, xml_n, "prev", "next"]
+    elem_attrib = {key: value for key, value in elem.attrib.items() if key not in excluded}
+    elem_attrib = str(sorted(elem_attrib.items()))
     seed = protocol_id + "\n" + elem_text + "\n" + elem_tag + "\n" + elem_attrib
     encoded_seed = seed.encode("utf-8")
+    # Finally, the hash is calculated via MD5
     digest = hashlib.md5(encoded_seed).hexdigest()
     return digest[:chars]
 

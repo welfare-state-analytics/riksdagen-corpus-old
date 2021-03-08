@@ -23,18 +23,29 @@ def detect_mps(root, mp_db, pattern_db):
     MP database.
     """
     current_speaker = None
+    prev = None
 
     for tag, elem in _iter(root):
         if tag == "u":
+            if "prev" in elem.attrib:
+                del elem.attrib["prev"]
+            if "next" in elem.attrib:
+                del elem.attrib["next"]
             if current_speaker is not None:
                 elem.attrib["who"] = current_speaker
+                if prev is None:
+                    prev = elem
+                else:
+                    elem.attrib["prev"] = prev.attrib["{http://www.w3.org/XML/1998/namespace}id"]
+                    prev.attrib["next"] = elem.attrib["{http://www.w3.org/XML/1998/namespace}id"]
             else:
                 elem.attrib["who"] = "unknown"
+                prev = None
         elif tag == "note":
             if elem.attrib.get("type", None) == "speaker":
                 if type(elem.text) == str:
                     current_speaker = detect_mp(elem.text, mp_db)
-                    pass#print(elem.text, "SPEAKER", current_speaker)
+                    prev = None
 
     return root
 
@@ -233,21 +244,18 @@ def detect_date(root, protocol_year):
 
 def update_ids(root, protocol_id):
     ids = set()
+    xml_id = "{http://www.w3.org/XML/1998/namespace}id"
     for tag, elem in _iter(root):
-        updated_hash = element_hash(elem, protocol_id)
-        hash_ix = 0
-        updated_id = "i-" + updated_hash + "-" + str(hash_ix)
-
-        while updated_id in ids:
-            hash_ix += 1
-            updated_id = "i-" + updated_hash + "-" + str(hash_ix)
-
-        elem.attrib["{http://www.w3.org/XML/1998/namespace}id"] = updated_id
-        ids.add(updated_id)
-
         if tag == "u":
-            for subelem in elem:
-                updated_hash = element_hash(subelem, protocol_id)
+            if xml_id in elem.attrib:
+                ids.add(elem.attrib[xml_id])
+        elif xml_id in elem.attrib:
+            del elem.attrib[xml_id]
+
+    for tag, elem in _iter(root):
+        if tag == "u":
+            if xml_id not in elem.attrib:
+                updated_hash = element_hash(elem, protocol_id)
                 hash_ix = 0
                 updated_id = "i-" + updated_hash + "-" + str(hash_ix)
 
@@ -255,7 +263,46 @@ def update_ids(root, protocol_id):
                     hash_ix += 1
                     updated_id = "i-" + updated_hash + "-" + str(hash_ix)
 
-                subelem.attrib["{http://www.w3.org/XML/1998/namespace}id"] = updated_id
+                elem.attrib[xml_id] = updated_id
                 ids.add(updated_id)
+
+            for subelem in elem:
+                if xml_id in subelem.attrib:
+                    del subelem.attrib[xml_id]
+
+    return root
+
+def update_hashes(root, protocol_id, manual=False):
+    """
+    Update XML element hashes to keep track which element has been manually modified
+    """
+    xml_n = "{http://www.w3.org/XML/1998/namespace}n"
+    n = "n"
+    for tag, elem in _iter(root):
+        if xml_n in elem.attrib:
+            del elem.attrib[xml_n]
+
+        # Page beginnings <pb> use the n attribute for other purposes
+        if tag != "pb":
+            elem_hash = element_hash(elem, protocol_id=protocol_id, chars=8)
+
+            if not manual:
+                if elem_hash != "manual":
+                    elem.attrib[n] = elem_hash
+            else:
+                if elem.attrib[n] != elem_hash:
+                    elem.attrib[n] = "manual"
+
+            if tag == "u":
+                for subelem in elem:
+                    subelem_hash = element_hash(subelem, protocol_id=protocol_id, chars=8)
+
+                    if not manual:
+                        if subelem_hash != "manual":
+                            subelem.attrib[n] = subelem_hash
+                    else:
+                        if subelem.attrib[n] != subelem_hash:
+                            subelem.attrib[n] = "manual"
+
 
     return root
