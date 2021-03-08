@@ -57,7 +57,8 @@ def element_hash(elem, protocol_id="", chars=16):
     # excluding the XML ID and XML n
     xml_id = "{http://www.w3.org/XML/1998/namespace}id"
     xml_n = "{http://www.w3.org/XML/1998/namespace}n"
-    excluded = [xml_id, xml_n, "prev", "next"]
+    n = "n"
+    excluded = [xml_id, xml_n, n, "prev", "next"]
     elem_attrib = {key: value for key, value in elem.attrib.items() if key not in excluded}
     elem_attrib = str(sorted(elem_attrib.items()))
     seed = protocol_id + "\n" + elem_text + "\n" + elem_tag + "\n" + elem_attrib

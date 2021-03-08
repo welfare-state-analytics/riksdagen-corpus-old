@@ -290,6 +290,8 @@ def update_hashes(root, protocol_id, manual=False):
                 if elem_hash != "manual":
                     elem.attrib[n] = elem_hash
             else:
+                print(elem.attrib)
+                print(elem.attrib[n], elem_hash)
                 if elem.attrib[n] != elem_hash:
                     elem.attrib[n] = "manual"
 
@@ -303,6 +305,5 @@ def update_hashes(root, protocol_id, manual=False):
                     else:
                         if subelem.attrib[n] != subelem_hash:
                             subelem.attrib[n] = "manual"
-
 
     return root
