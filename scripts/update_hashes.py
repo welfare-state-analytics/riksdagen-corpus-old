@@ -18,4 +18,4 @@ if __name__ == '__main__':
     # begin the unittest.main()
     paths = sys.argv[1:]
     print("Update hashes", ", ".join(paths), "...")
-    exit_code = update(paths, manual=False)
+    exit_code = update(paths, manual=True)
