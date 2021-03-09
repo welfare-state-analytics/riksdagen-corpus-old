@@ -53,21 +53,10 @@ jobs:
         uses: futuratrepadeira/changed-files@v3.3.0
         with:
           repo-token: ${{ github.token }}
-      
-      - name: Write updated into file
-        run: 
-             echo ${{steps.changedfiles.outputs.files_updated}} >> .updated/${{github.event.pull_request.head.ref}}-pr-${{github.event.pull_request.number}}.json;
 
-      - name: Write created into file
-        run: 
-             echo ${{steps.changedfiles.outputs.files_created}} >> .created/${{github.event.pull_request.head.ref}}-pr-${{github.event.pull_request.number}}.json;
-
-      - name: Write deleted into file
-        run: 
-             echo ${{steps.changedfiles.outputs.files_deleted}} >> .deleted/${{github.event.pull_request.head.ref}}-pr-${{github.event.pull_request.number}}.json;
       - name: Update hashes
         run:
-             PYTHONPATH="$PYTHONPATH:." python scripts/update_hashes.py echo ${{steps.changedfiles.outputs.files_updated}}
+             PYTHONPATH="$PYTHONPATH:." python scripts/update_hashes.py ${{steps.changedfiles.outputs.files_updated}}
       - name: Commit files
         id: commit
         run: |
