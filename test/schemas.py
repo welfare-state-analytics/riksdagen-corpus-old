@@ -28,7 +28,7 @@ class Test(unittest.TestCase):
         content_blocks = get_blocks(protocol_id, None)
         metadata = infer_metadata(fname.split(".")[0])
 
-        mp_db = pd.read_csv("db/mp/members_of_parliament.csv")
+        mp_db = pd.read_csv("corpus/members_of_parliament.csv")
         segmentation_patterns = load_patterns(phase="segmentation")
         segmentation_db = find_instances(protocol_id, None, segmentation_patterns, mp_db)
         protocol = apply_instances(content_blocks, segmentation_db)

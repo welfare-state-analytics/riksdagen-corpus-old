@@ -49,7 +49,7 @@ class Test(unittest.TestCase):
             return found
 
         folder = "corpus/"
-        mp_db = pd.read_csv("db/mp/members_of_parliament.csv")
+        mp_db = pd.read_csv("corpus/members_of_parliament.csv")
         mp_ids = {}
 
         failed_protocols = []

@@ -22,7 +22,7 @@ def main():
     file_db = file_db[file_db["year"] >= start_year]
     file_db = file_db[file_db["year"] <= end_year]
     
-    mp_db = pd.read_csv("db/mp/members_of_parliament.csv")
+    mp_db = pd.read_csv("corpus/members_of_parliament.csv")
     archive = LazyArchive()
     
     if False:

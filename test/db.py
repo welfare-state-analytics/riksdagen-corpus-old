@@ -6,7 +6,7 @@ class Test(unittest.TestCase):
 
     # Test that each column in the MP DB contains at least 95% valid values
     def test_mp_db(self):        
-        mp_db = pd.read_csv("db/mp/members_of_parliament.csv")
+        mp_db = pd.read_csv("corpus/members_of_parliament.csv")
 
         total = len(mp_db)
         mp_db_columns = mp_db.columns
@@ -25,7 +25,7 @@ class Test(unittest.TestCase):
             self.assertGreaterEqual(valid_ratio, percentage)
 
     def test_not_decreased(self):
-        mp_db = pd.read_csv("db/mp/members_of_parliament.csv")
+        mp_db = pd.read_csv("corpus/members_of_parliament.csv")
         data = None
         dpath = "test/mpstats.yml"
         with open(dpath, 'r') as stream:

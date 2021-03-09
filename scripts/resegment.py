@@ -9,7 +9,7 @@ root = ""#"../"
 pc_folder = root + "corpus/"
 folders = os.listdir(pc_folder)
 
-mp_db = pd.read_csv(root + "db/mp/members_of_parliament.csv")
+mp_db = pd.read_csv(root + "corpus/members_of_parliament.csv")
 
 parser = etree.XMLParser(remove_blank_text=True)
 for outfolder in progressbar.progressbar(folders):
