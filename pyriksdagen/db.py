@@ -22,7 +22,7 @@ def _db_location(protocol_id=None, year=None, phase="segmentation"):
         metadata = infer_metadata(protocol_id)
         year = metadata["year"]
     year_str = str(year)
-    folder = "db/" + phase + "/instances/"
+    folder = "input/" + phase + "/instances/"
     if not os.path.exists(folder):
         os.mkdir(folder)
     folder = folder + year_str + "/"
@@ -50,7 +50,7 @@ def load_db(protocol_id=None, year=None, phase="segmentation"):
     folder = _db_location(protocol_id=protocol_id, year=year, phase=phase)
     # Everything
     if protocol_id is None and year is None:
-        folder = "db/" + phase + "/instances/"
+        folder = "input/" + phase + "/instances/"
         dbs = []
         print("Load all DBs...")
         for year in progressbar.progressbar(os.listdir(folder)):
@@ -73,7 +73,7 @@ def load_db(protocol_id=None, year=None, phase="segmentation"):
             return pd.read_csv(folder + protocol_id + ".csv")
 
 def load_patterns(year=None, phase="segmentation"):
-    fpath = "db/" + phase +"/patterns.json"
+    fpath = "input/" + phase +"/patterns.json"
     patterns = pd.read_json(fpath, orient="records", lines=True)
     if year is not None:
         patterns = patterns[patterns["start"] >= year]
@@ -81,7 +81,7 @@ def load_patterns(year=None, phase="segmentation"):
 
     patterns["protocol_id"] = None
     
-    manual_path = "db/" + phase +"/manual.csv"
+    manual_path = "input/" + phase +"/manual.csv"
     if os.path.exists(manual_path):
         manual = pd.read_csv(manual_path)
         manual["type"] = "manual"

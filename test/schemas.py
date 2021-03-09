@@ -13,7 +13,7 @@ class Test(unittest.TestCase):
     # Official example parla-clarin 
     def test_official_example(self):
         schema_path = "schemas/parla-clarin.xsd"
-        parlaclarin_path = "data/parla-clarin/official-example.xml"
+        parlaclarin_path = "input/parla-clarin/official-example.xml"
         
         valid = validate_xml_schema(parlaclarin_path, schema_path)
         self.assertEqual(valid, True)
@@ -35,7 +35,7 @@ class Test(unittest.TestCase):
         tei = create_tei(protocol, metadata)
         parla_clarin_str = create_parlaclarin(tei, metadata)
         
-        parlaclarin_path = "data/parla-clarin/generated-example.xml"
+        parlaclarin_path = "input/parla-clarin/generated-example.xml"
         f = open(parlaclarin_path, "w")
         f.write(parla_clarin_str)
         f.close()

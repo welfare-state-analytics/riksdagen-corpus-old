@@ -13,7 +13,7 @@ classdict = {
 }
 
 def get_files(traintest="train/", indices=[0]):
-    folder = "data/curation/"
+    folder = "input/curation/"
     for decennium in os.listdir(folder):
         decennium_path = folder + decennium + "/"
         if os.path.isdir(decennium_path):

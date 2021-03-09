@@ -6,8 +6,8 @@ import pandas as pd
 from pyriksdagen.download import get_html_blocks, get_xml_blocks
 from pyriksdagen.utils import infer_metadata
 
-dataraw = "data/raw/"
-outfolder = "data/protocols/"
+dataraw = "input/raw/"
+outfolder = "input/protocols/"
 folders = os.listdir(dataraw)
 folders = [dataraw + folder for folder in folders if os.path.isdir(dataraw + folder)]
 folders = [folder for folder in folders if "-xml" not in folder]
@@ -55,4 +55,4 @@ for folder in sorted(folders):
 protocol_db = pd.DataFrame(rows, columns=columns)
 print(protocol_db)
 
-protocol_db.to_csv("db/protocols/digital_originals.csv")
+protocol_db.to_csv("input/protocols/digital_originals.csv")

@@ -9,8 +9,8 @@ from pyriksdagen.db import load_db, save_db, load_patterns
 
 def main():    
     file_dbs = []
-    file_dbs.append(pd.read_csv("db/protocols/scanned.csv"))
-    file_dbs.append(pd.read_csv("db/protocols/digital_originals.csv"))
+    file_dbs.append(pd.read_csv("input/protocols/scanned.csv"))
+    file_dbs.append(pd.read_csv("input/protocols/digital_originals.csv"))
     file_db = pd.concat(file_dbs)
     
     start_year = 1920

@@ -10,7 +10,7 @@ if __name__ == "__main__":
     
     filelist = package.list()
     xml_list = [f for f in filelist if f.split(".")[-1] == "xml"]
-    #s = open("data/xml/prot_1972__57-137.xml").read()
+    #s = open("input/xml/prot_1972__57-137.xml").read()
         
     metadata = infer_metadata(package_id + ".txt")
 

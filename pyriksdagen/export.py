@@ -219,12 +219,12 @@ def parlaclarin_workflow(file_db, archive, curations=None, segmentations=None):
         corpus_metadata = dict(
             document_title="Riksdagens protocols " + str(corpus_year),
             authority="National Library of Sweden and the WESTAC project",
-            correction="Some data curation was done. It is documented in db/curation/instances"
+            correction="Some data curation was done. It is documented in input/curation/instances"
         )
         parla_clarin_str = gen_parlaclarin_corpus(year_db, archive, current_instances,
             corpus_metadata=corpus_metadata, curation_db=current_curations)
         
-        parlaclarin_path = "data/parla-clarin/" + "corpus" + str(corpus_year) + ".xml"
+        parlaclarin_path = "input/parla-clarin/" + "corpus" + str(corpus_year) + ".xml"
         f = open(parlaclarin_path, "w")
         f.write(parla_clarin_str)
         f.close()
@@ -238,7 +238,7 @@ def parlaclarin_workflow_individual(file_db, archive, curations=None, segmentati
         corpus_metadata = dict(
             document_title="Riksdagens protocols " + str(corpus_year),
             authority="National Library of Sweden and the WESTAC project",
-            correction="Some data curation was done. It is documented in db/curation/instances"
+            correction="Some data curation was done. It is documented in input/curation/instances"
         )
 
         year_db = file_db[file_db["year"] == corpus_year]

@@ -5,7 +5,7 @@ def validate(parlaclarin_paths):
 
     # Official example parla-clarin 
     schema_path = "schemas/parla-clarin.xsd"
-    #parlaclarin_path = "data/parla-clarin/official-example.xml"
+    #parlaclarin_path = "input/parla-clarin/official-example.xml"
     
     for parlaclarin_path in parlaclarin_paths:
         if parlaclarin_path.split(".")[-1] == "xml":

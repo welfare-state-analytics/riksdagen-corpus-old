@@ -11,6 +11,6 @@ def check_unchanged(changed, files_and_dirs):
     sys.exit(0)
 
 if __name__ == '__main__':
-    files_not_supposed_to_change = ["data/curation/"]
+    files_not_supposed_to_change = ["input/curation/"]
     changed = sys.argv[1:]
     check_unchanged(changed, files_not_supposed_to_change)

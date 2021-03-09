@@ -198,7 +198,7 @@ def get_blocks(protocol_id, archive, load=True, save=True):
 
     Returns an lxml elem tree with the structure page > contentBlock > textBlock.
     """    
-    folder = "data/protocols/" + protocol_id + "/"
+    folder = "input/protocols/" + protocol_id + "/"
     fname = "original.xml"
     root = None
     overwrite = True
@@ -278,11 +278,11 @@ def fetch_files(package, extension="xml"):
 def generate_sets(decade, interval=10, set_size=2, txt_dir=None):
     """
     Generate train and test sets to be annotated for curation and segmentation.
-    These test sets are saved in data/curation
+    These test sets are saved in input/curation
     """
     # Read pages dataframe, filter relevant data and sort
     total = 2 * set_size
-    pages = pd.read_csv("db/protocols/pages.csv")
+    pages = pd.read_csv("input/protocols/pages.csv")
     pages_decade = pages[(pages["year"] >= decade) & (pages["year"] < decade + interval)]
     pages_decade = pages_decade.sort_values('ordinal')
     pages_decade = pages_decade.head(n=total)
@@ -291,7 +291,7 @@ def generate_sets(decade, interval=10, set_size=2, txt_dir=None):
     print(pages_decade)
     
     # Create folder for the decennium
-    outfolder = "data/curation/" + str(decade) + "-" + str(decade + interval-1) + "/"
+    outfolder = "input/curation/" + str(decade) + "-" + str(decade + interval-1) + "/"
     _create_dirs(outfolder)
     
     # Ask for credentials and establish connection 

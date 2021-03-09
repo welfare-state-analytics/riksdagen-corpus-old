@@ -7,7 +7,7 @@ columns = mp_db.columns
 
 dbs = []
 for year in progressbar.progressbar(list(range(1920, 2021))):
-	corpora_path = "data/parla-clarin/corpus" + str(year) + ".xml"
+	corpora_path = "input/parla-clarin/corpus" + str(year) + ".xml"
 
 	year_rows = []
 
