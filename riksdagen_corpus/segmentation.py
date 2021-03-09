@@ -230,7 +230,7 @@ def segmentation_workflow(file_db, archive, pattern_db, mp_db, ml=True):
         import tensorflow as tf
         import fasttext.util
 
-        model = tf.keras.models.load_model("segment-classifier")
+        model = tf.keras.models.load_model("data/segment-classifier")
 
         # Load word vectors from disk or download with the fasttext module
         vector_path = 'cc.sv.300.bin'
