@@ -1,6 +1,6 @@
 import pandas as pd
 import os
-from riksdagen_corpus.utils import infer_metadata
+from pyriksdagen.utils import infer_metadata
 import progressbar
 
 def year_iterator(file_db):

@@ -4,11 +4,11 @@ Parla Clarin generation
 import pandas as pd
 import progressbar, copy
 from lxml import etree
-from riksdagen_corpus.utils import infer_metadata
-from riksdagen_corpus.download import get_blocks, fetch_files
-from riksdagen_corpus.curation import apply_curations
-from riksdagen_corpus.segmentation import apply_instances
-from riksdagen_corpus.db import filter_db, year_iterator
+from pyriksdagen.utils import infer_metadata
+from pyriksdagen.download import get_blocks, fetch_files
+from pyriksdagen.curation import apply_curations
+from pyriksdagen.segmentation import apply_instances
+from pyriksdagen.db import filter_db, year_iterator
 
 # Generate parla clarin header
 def _pc_header(metadata):

@@ -1,5 +1,5 @@
 import sys
-from riksdagen_corpus.utils import validate_xml_schema
+from pyriksdagen.utils import validate_xml_schema
 
 def validate(parlaclarin_paths):
 

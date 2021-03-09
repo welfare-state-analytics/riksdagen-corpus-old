@@ -1,7 +1,7 @@
 import pandas as pd
-from riksdagen_corpus.mp import create_full_database
-from riksdagen_corpus.mp import add_gender, add_id, clean_names
-from riksdagen_corpus.mp import replace_party_abbreviations
+from pyriksdagen.mp import create_full_database
+from pyriksdagen.mp import add_gender, add_id, clean_names
+from pyriksdagen.mp import replace_party_abbreviations
 
 dirs = ["data/mp/", "data/mp/fk/", "data/mp/ak/"]
 mp_db = create_full_database(dirs)

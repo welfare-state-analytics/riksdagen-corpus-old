@@ -1,6 +1,6 @@
 from lxml import etree
-from riksdagen_corpus.segmentation import detect_mp, expression_dicts, detect_introduction
-from riksdagen_corpus.utils import element_hash
+from pyriksdagen.segmentation import detect_mp, expression_dicts, detect_introduction
+from pyriksdagen.utils import element_hash
 import re
 import datetime
 

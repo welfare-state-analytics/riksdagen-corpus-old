@@ -1,11 +1,11 @@
 import pandas as pd
 import progressbar
-from riksdagen_corpus.download import LazyArchive
-from riksdagen_corpus.segmentation import segmentation_workflow
-from riksdagen_corpus.curation import curation_workflow
-from riksdagen_corpus.export import parlaclarin_workflow
-from riksdagen_corpus.export import parlaclarin_workflow_individual
-from riksdagen_corpus.db import load_db, save_db, load_patterns
+from pyriksdagen.download import LazyArchive
+from pyriksdagen.segmentation import segmentation_workflow
+from pyriksdagen.curation import curation_workflow
+from pyriksdagen.export import parlaclarin_workflow
+from pyriksdagen.export import parlaclarin_workflow_individual
+from pyriksdagen.db import load_db, save_db, load_patterns
 
 def main():    
     file_dbs = []

@@ -8,9 +8,9 @@ import progressbar
 from os import listdir
 from lxml import etree
 from os.path import isfile, join
-from riksdagen_corpus.download import get_blocks, fetch_files
-from riksdagen_corpus.utils import infer_metadata
-from riksdagen_corpus.db import filter_db, year_iterator
+from pyriksdagen.download import get_blocks, fetch_files
+from pyriksdagen.utils import infer_metadata
+from pyriksdagen.db import filter_db, year_iterator
 
 def _langmod_loss(sentence):
     return 0.0

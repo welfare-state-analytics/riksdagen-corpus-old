@@ -2,11 +2,11 @@ import unittest
 
 import pandas as pd
 from lxml import etree
-from riksdagen_corpus.utils import validate_xml_schema, infer_metadata
-from riksdagen_corpus.download import get_blocks
-from riksdagen_corpus.export import create_tei, create_parlaclarin
-from riksdagen_corpus.segmentation import find_instances, apply_instances
-from riksdagen_corpus.db import load_patterns
+from pyriksdagen.utils import validate_xml_schema, infer_metadata
+from pyriksdagen.download import get_blocks
+from pyriksdagen.export import create_tei, create_parlaclarin
+from pyriksdagen.segmentation import find_instances, apply_instances
+from pyriksdagen.db import load_patterns
 
 class Test(unittest.TestCase):
 

@@ -3,8 +3,8 @@ from lxml import etree
 import progressbar
 import pandas as pd
 
-from riksdagen_corpus.download import get_html_blocks, get_xml_blocks
-from riksdagen_corpus.utils import infer_metadata
+from pyriksdagen.download import get_html_blocks, get_xml_blocks
+from pyriksdagen.utils import infer_metadata
 
 dataraw = "data/raw/"
 outfolder = "data/protocols/"

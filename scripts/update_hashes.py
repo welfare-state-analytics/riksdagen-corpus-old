@@ -1,5 +1,5 @@
 import sys
-from riksdagen_corpus.refine import update_hashes
+from pyriksdagen.refine import update_hashes
 from lxml import etree
 
 def update(parlaclarin_paths, manual=True):

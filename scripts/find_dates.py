@@ -1,6 +1,6 @@
-from riksdagen_corpus.db import filter_db, load_patterns
-from riksdagen_corpus.refine import detect_date
-from riksdagen_corpus.utils import infer_metadata
+from pyriksdagen.db import filter_db, load_patterns
+from pyriksdagen.refine import detect_date
+from pyriksdagen.utils import infer_metadata
 from lxml import etree
 import pandas as pd
 import os

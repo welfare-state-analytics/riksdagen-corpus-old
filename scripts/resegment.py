@@ -1,6 +1,6 @@
-from riksdagen_corpus.db import filter_db, load_patterns
-from riksdagen_corpus.refine import detect_mps, find_introductions, format_texts, update_ids, update_hashes
-from riksdagen_corpus.utils import infer_metadata
+from pyriksdagen.db import filter_db, load_patterns
+from pyriksdagen.refine import detect_mps, find_introductions, format_texts, update_ids, update_hashes
+from pyriksdagen.utils import infer_metadata
 from lxml import etree
 import pandas as pd
 import os, progressbar
