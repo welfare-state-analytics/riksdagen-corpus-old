@@ -37,5 +37,5 @@ jobs:
 
       - name: Validate changed files
         run: |
-          python validate_parlaclarin.py ${{steps.changedfiles.outputs.files_updated}}
-          python validate_parlaclarin.py ${{steps.changedfiles.outputs.files_created}}
+          PYTHONPATH="$PYTHONPATH:." python test/validate_parlaclarin.py ${{steps.changedfiles.outputs.files_updated}}
+          PYTHONPATH="$PYTHONPATH:." python test/validate_parlaclarin.py ${{steps.changedfiles.outputs.files_created}}
