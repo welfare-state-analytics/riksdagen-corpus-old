@@ -20,7 +20,7 @@
     <encodingDesc>
       <editorialDecl>
         <correction>
-          <p>Some data curation was done. It is documented in db/curation/instances</p>
+          <p>Some data curation was done. It is documented in input/curation/instances</p>
         </correction>
       </editorialDecl>
     </encodingDesc>
@@ -59,6 +59,7 @@
       </front>
       <body>
         <div>
+          <pb n="0" facs="https://betalab.kb.se/prot-1951--ak--6/prot_1951__ak__6-000.jp2/_view"/>
           <note n="2253ee75"/>
           <note n="1dc61537">
             RIKSDAGENS PROTOKOLL
@@ -136,7 +137,7 @@
             26
           </note>
           <pb n="2" facs="https://betalab.kb.se/prot-1951--ak--6/prot_1951__ak__6-002.jp2/_view"/>
-          <note n="67eda94e">
+          <note type="date" n="d81d026e">
             Lördagen den 10 februari 1951.
           </note>
           <note n="209742e5">
@@ -228,7 +229,7 @@
           <note type="speaker" n="a8410f05">
             Herr HÅSTAD, som yttrade:
           </note>
-          <u who="elis_hastad_88824c" xml:id="i-4ad57027b935e1d0-0" next="i-0d333e3601166e16-0" n="52ad4d61">
+          <u who="elis_hastad_88824c" xml:id="i-52ad4d6169467a30-0" next="i-52ad4d6169467a30-2" n="52ad4d61">
             <seg n="50e45d8e">
               Herr talman! Med hänsyn till ärendenas omfattning tillåter jag
               mig hemställa, att tiden för avgivande av motioner i anledning
@@ -244,21 +245,9 @@
           <note n="6cdc2ee1">
             $ 7.
           </note>
-          <u who="elis_hastad_88824c" xml:id="i-0d333e3601166e16-0" prev="i-4ad57027b935e1d0-0" n="52ad4d61">
+          <u who="elis_hastad_88824c" xml:id="i-52ad4d6169467a30-1" prev="i-52ad4d6169467a30-0" n="52ad4d61">
             <seg n="ce06dc2c">
               Till bordläggning anmäldes:
-            </seg>
-            <seg n="1eeda1c8">
-              Svar på fråga ang. åtgärder för att mins-
-            </seg>
-            <seg n="6898d9a6">
-              ka möjligheterna för utlänningar att i
-            </seg>
-            <seg n="00aa3f4a">
-              samband med utländska fartygs besök i
-            </seg>
-            <seg n="5db6b62c">
-              svensk hamn komma in i landet utan reguljär passkontroll.
             </seg>
           </u>
           <note n="1b14c21c">
@@ -318,7 +307,7 @@
           <note n="ec69fd3b">
             tredje lagutskottets utlåtande nr 1, i
           </note>
-          <note n="67eda94e">
+          <note type="date" n="d81d026e">
             Lördagen den 10 februari 1951.
           </note>
           <note n="07c89e32">
@@ -369,7 +358,7 @@
             In fidem Gunnar Britth.
           </note>
           <pb n="4" facs="https://betalab.kb.se/prot-1951--ak--6/prot_1951__ak__6-004.jp2/_view"/>
-          <note n="23b81b7d">
+          <note type="date" n="ff0bf3c6">
             Tisdagen den 13 februari 1951.
           </note>
           <note n="ce927976">
@@ -390,6 +379,20 @@
           <note n="2a4de024">
             8 2.
           </note>
+          <u who="elis_hastad_88824c" xml:id="i-52ad4d6169467a30-2" prev="i-52ad4d6169467a30-0" n="52ad4d61">
+            <seg n="1eeda1c8">
+              Svar på fråga ang. åtgärder för att mins-
+            </seg>
+            <seg n="6898d9a6">
+              ka möjligheterna för utlänningar att i
+            </seg>
+            <seg n="00aa3f4a">
+              samband med utländska fartygs besök i
+            </seg>
+            <seg n="5db6b62c">
+              svensk hamn komma in i landet utan reguljär passkontroll.
+            </seg>
+          </u>
           <note n="86530e23">
             Herr talmannen lämnade på begäran ordet till
           </note>
@@ -397,7 +400,7 @@
             Chefen för inrikesdepartementet, herr statsrådet MOSSBERG, som
             yYyttrade:
           </note>
-          <u who="unknown" xml:id="i-add10bb89ed5af4d-0" n="84d86e83">
+          <u who="unknown" xml:id="i-84d86e83234009cf-0" n="84d86e83">
             <seg n="466df256">
               Herr talman! »Har regeringen övervägt lämpliga utvägar att minska
               möjligheterna för utlänningar att i samband med utländska fartygs
@@ -461,15 +464,20 @@
           <note n="e75f0ecb">
             6 Nr 6.
           </note>
-          <note n="23b81b7d">
+          <note type="date" n="ff0bf3c6">
             Tisdagen den 13 februari 1951.
           </note>
-          <u who="unknown" xml:id="i-e6eb18f0966e0ba8-0" n="84d86e83">
+          <u who="unknown" xml:id="i-84d86e83234009cf-1" n="84d86e83">
             <seg n="f94ece27">
               Svar på fråga ang. åtgärder för att minska möjligheterna för
               utlänningar att i samband med utländska fartygs besök i svensk
               hamn komma in i landet utan reguljär
             </seg>
+          </u>
+          <note n="f56d70f0">
+            passkontroll.
+          </note>
+          <u who="unknown" xml:id="i-84d86e83234009cf-2" n="84d86e83">
             <seg n="a5e3efb0">
               hamnar, som tillhöra öststaterna, torde emellertid vara betydligt
               mera rigorös. Hamnområdena där äro strängt bevakade.
@@ -504,16 +512,13 @@
               Herr talman! Med detta har jag besvarat den framställda frågan.
             </seg>
           </u>
-          <note n="f56d70f0">
-            passkontroll.
-          </note>
           <note n="e48aac1c">
             Härpå anförde
           </note>
           <note type="speaker" n="1d2c7f51">
             Herr andre vice talmannen OLSSON:
           </note>
-          <u who="carl_petrus_olsson_d755c7" xml:id="i-86960aecb5c67539-0" next="i-dc4293ccc464cd26-0" n="eab7cfe3">
+          <u who="carl_petrus_olsson_d755c7" xml:id="i-eab7cfe3a5ad2390-0" next="i-eab7cfe3a5ad2390-2" n="eab7cfe3">
             <seg n="d033a9af">
               Herr talman! Jag ber att få betyga herr statsrådet och chefen
               för inrikesdepartementet min tacksamhet för det snara och välvilliga
@@ -553,19 +558,15 @@
             bord vilan-
           </note>
           <pb n="6" facs="https://betalab.kb.se/prot-1951--ak--6/prot_1951__ak__6-006.jp2/_view"/>
-          <note n="23b81b7d">
+          <note type="date" n="ff0bf3c6">
             Tisdagen den 13 februari 1951.
           </note>
           <note n="ab4206f5">
             Nr 6. 7
           </note>
-          <u who="carl_petrus_olsson_d755c7" xml:id="i-dc4293ccc464cd26-0" prev="i-86960aecb5c67539-0" n="eab7cfe3">
+          <u who="carl_petrus_olsson_d755c7" xml:id="i-eab7cfe3a5ad2390-1" prev="i-eab7cfe3a5ad2390-0" n="eab7cfe3">
             <seg n="4916aa3e">
               Interpellation ang. åtgärder för minskning i antalet tillgrepp
-              av bilar.
-            </seg>
-            <seg n="b45ab626">
-              $ 5 Interpellation ang. åtgärder för minskning i antalet tillgrepp
               av bilar.
             </seg>
           </u>
@@ -605,10 +606,16 @@
             tredje lagutskottets utlåtande nr 1 samt jordbruksutskottets utlåtande
             nr 2.
           </note>
+          <u who="carl_petrus_olsson_d755c7" xml:id="i-eab7cfe3a5ad2390-2" prev="i-eab7cfe3a5ad2390-0" n="eab7cfe3">
+            <seg n="b45ab626">
+              $ 5 Interpellation ang. åtgärder för minskning i antalet tillgrepp
+              av bilar.
+            </seg>
+          </u>
           <note type="speaker" n="8927d6f9">
             Herr BIRKE erhöll på begäran ordet och yttrade:
           </note>
-          <u who="emanuel_birke_d886af" xml:id="i-ff02923d04f432c4-0" next="i-3e6841d22e7907c7-0" n="992f0659">
+          <u who="emanuel_birke_d886af" xml:id="i-992f0659494717b5-0" next="i-992f0659494717b5-1" n="992f0659">
             <seg n="0aba4854">
               Herr talman! I anledning av vid 1950 års riksdag väckta motioner
               anhöll riksdagen samma år hos Kungl. Maj:t om utredning rörande
@@ -675,7 +682,7 @@
           <note n="1c50cec8">
             8 Nr 6.
           </note>
-          <note n="7f0f22a4">
+          <note type="date" n="b722502e">
             Onsdagen den 14 februari 1951.
           </note>
           <note n="161ea1f7">
@@ -717,7 +724,7 @@
           <note n="f617ca59">
             Svar på interpellation ang. lämpligheten
           </note>
-          <u who="emanuel_birke_d886af" xml:id="i-3e6841d22e7907c7-0" prev="i-ff02923d04f432c4-0" n="992f0659">
+          <u who="emanuel_birke_d886af" xml:id="i-992f0659494717b5-1" prev="i-992f0659494717b5-0" n="992f0659">
             <seg n="f48dd413">
               av att i vissa fall tillskapa ett jordbruk
             </seg>
@@ -733,7 +740,7 @@
             Chefen för jordbruksdepartementet, herr statsrådet STRÄNG, som
             yttrade:
           </note>
-          <u who="gunnar_strang_097e01" xml:id="i-90149b5bb970d5a4-0" next="i-e578d48d9c8516e4-0" n="c9e892fe">
+          <u who="gunnar_strang_097e01" xml:id="i-84d86e83234009cf-3" next="i-84d86e83234009cf-4" n="c9e892fe">
             <seg n="b232972d">
               Herr talman! Med andra kammarens tillstånd har herr Jonsson i
               Skedsbygd frågat mig, om jag anser det riktigt att av tvenne var
@@ -779,7 +786,7 @@
             </seg>
           </u>
           <pb n="8" facs="https://betalab.kb.se/prot-1951--ak--6/prot_1951__ak__6-008.jp2/_view"/>
-          <note n="7f0f22a4">
+          <note type="date" n="b722502e">
             Onsdagen den 14 februari 1951.
           </note>
           <note n="798165e5">
@@ -790,7 +797,7 @@
             tillskapa ett jordbruk av två var för sig fullt bärkraftiga jordbruksfastigheter,
             m. m.
           </note>
-          <u who="gunnar_strang_097e01" xml:id="i-e578d48d9c8516e4-0" prev="i-90149b5bb970d5a4-0" n="c9e892fe">
+          <u who="gunnar_strang_097e01" xml:id="i-84d86e83234009cf-4" prev="i-84d86e83234009cf-3" n="c9e892fe">
             <seg n="b2cc1b94">
               nämnda fastigheten skiljes från jordbruket.
             </seg>
@@ -830,7 +837,7 @@
           <note type="speaker" n="3d00ca8c">
             Herr JONSSON i Skedsbygd:
           </note>
-          <u who="sigfrid_jonsson_10ec5b" xml:id="i-2ef364261997c030-0" next="i-f99dc008ccf330f0-0" n="0938d295">
+          <u who="sigfrid_jonsson_10ec5b" xml:id="i-2c1a434b30e02c27-0" next="i-2c1a434b30e02c27-8" n="0938d295">
             <seg n="65f9660e">
               Herr talman! När jag ber att till statsrådet och chefen för jordbruksdepartementet
               få framföra mitt tack för det avgivna svaret på mina i interpellationen
@@ -879,7 +886,7 @@
           <note n="753cae2c">
             10 Nr 6.
           </note>
-          <note n="7f0f22a4">
+          <note type="date" n="b722502e">
             Onsdagen den 14 februari 1951.
           </note>
           <note n="161ea1f7">
@@ -887,7 +894,7 @@
             tillskapa ett jordbruk av två var för sig fullt bärkraftiga jordbruksfastigheter,
             m. m.
           </note>
-          <u who="sigfrid_jonsson_10ec5b" xml:id="i-f99dc008ccf330f0-0" prev="i-2ef364261997c030-0" n="0938d295">
+          <u who="sigfrid_jonsson_10ec5b" xml:id="i-2c1a434b30e02c27-1" prev="i-2c1a434b30e02c27-0" n="0938d295">
             <seg n="f520111d">
               skogsfastighet på närmare 300 tunnland, där en familj har haft
               och, enligt de förhållanden som råda på orten, i framtiden skulle
@@ -966,6 +973,20 @@
               de båda huvudfastigheterna. Naturligtvis hade det, om nu Överstahult
               1? ovillkorligen skulle styckas, varit önskvärt att denna
             </seg>
+          </u>
+          <pb n="10" facs="https://betalab.kb.se/prot-1951--ak--6/prot_1951__ak__6-010.jp2/_view"/>
+          <note type="date" n="b722502e">
+            Onsdagen den 14 februari 1951.
+          </note>
+          <note n="a38574dd">
+            Nr 6. 11
+          </note>
+          <note n="161ea1f7">
+            Svar på interpellation ang. lämpligheten av att i vissa fall
+            tillskapa ett jordbruk av två var för sig fullt bärkraftiga jordbruksfastigheter,
+            m. m.
+          </note>
+          <u who="sigfrid_jonsson_10ec5b" xml:id="i-2c1a434b30e02c27-2" prev="i-2c1a434b30e02c27-0" n="0938d295">
             <seg n="8c9a12bd">
               mindre fastighet hade fått förvärva en del av den skogsmark,
               som sålunda avskildes från en av huvudfastigheterna. Såsom framgår
@@ -996,6 +1017,12 @@
               på de längst bort från gården belägna mossarna. Denna plantering
               har totalt misslyckats och ger inte någon som helst avkastning.
             </seg>
+          </u>
+          <note n="a829388c">
+            År 1949 förvärvades den andra gården, Överstahult 1? på 151 hektar,
+            av
+          </note>
+          <u who="sigfrid_jonsson_10ec5b" xml:id="i-2c1a434b30e02c27-3" prev="i-2c1a434b30e02c27-0" n="0938d295">
             <seg n="748a20d0">
               en person från Kronobergs län, som var jordbrukare och korgmakare.
               Han hade, förmodar jag, fått tillstånd att köpa gården därför
@@ -1031,6 +1058,20 @@
               Lägger man till mera jord, kan inte jordbruket skötas utan lejd
               arbetskraft. Därtill kommer att de åkerskiften, som vid en samman-
             </seg>
+          </u>
+          <pb n="11" facs="https://betalab.kb.se/prot-1951--ak--6/prot_1951__ak__6-011.jp2/_view"/>
+          <note n="c22d2db9">
+            12 Nr 6.
+          </note>
+          <note type="date" n="b722502e">
+            Onsdagen den 14 februari 1951.
+          </note>
+          <note n="161ea1f7">
+            Svar på interpellation ang. lämpligheten av att i vissa fall
+            tillskapa ett jordbruk av två var för sig fullt bärkraftiga jordbruksfastigheter,
+            m. m.
+          </note>
+          <u who="sigfrid_jonsson_10ec5b" xml:id="i-2c1a434b30e02c27-4" prev="i-2c1a434b30e02c27-0" n="0938d295">
             <seg n="b3cde608">
               slagning tillföras en gård, kanske som i detta fall äro belägna
               på ett sådant sätt, att de inte kunna direkt sammanföras med gårdens
@@ -1100,6 +1141,20 @@
               jordbruk bildats. En rationalisering av våra mindre jordoch skogsbruk
               efter den principen som här tillämpats måste leda
             </seg>
+          </u>
+          <pb n="12" facs="https://betalab.kb.se/prot-1951--ak--6/prot_1951__ak__6-012.jp2/_view"/>
+          <note type="date" n="b722502e">
+            Onsdagen den 14 februari 1951.
+          </note>
+          <note n="9a51d32f">
+            Nr 6. 13
+          </note>
+          <note n="161ea1f7">
+            Svar på interpellation ang. lämpligheten av att i vissa fall
+            tillskapa ett jordbruk av två var för sig fullt bärkraftiga jordbruksfastigheter,
+            m. m.
+          </note>
+          <u who="sigfrid_jonsson_10ec5b" xml:id="i-2c1a434b30e02c27-5" prev="i-2c1a434b30e02c27-0" n="0938d295">
             <seg n="b5037e37">
               till, att skogsbygden inom orten snabbt avfolkas, och den småländska
               skogsbygden blir helt en ödebygd.»
@@ -1179,6 +1234,20 @@
             <seg n="cf506049">
               Vad skogsmarken beträffar är det en
             </seg>
+          </u>
+          <pb n="13" facs="https://betalab.kb.se/prot-1951--ak--6/prot_1951__ak__6-013.jp2/_view"/>
+          <note n="a1ad7fd3">
+            14 Nr 6.
+          </note>
+          <note type="date" n="b722502e">
+            Onsdagen den 14 februari 1951.
+          </note>
+          <note n="161ea1f7">
+            Svar på interpellation ang. lämpligheten av att i vissa fall
+            tillskapa ett jordbruk av två var för sig fullt bärkraftiga jordbruksfastigheter,
+            m. m.
+          </note>
+          <u who="sigfrid_jonsson_10ec5b" xml:id="i-2c1a434b30e02c27-6" prev="i-2c1a434b30e02c27-0" n="0938d295">
             <seg n="00849851">
               av de bästa marknaturer i Bäckebo socken, och jag tror att tillväxten
               där är omkring 400—500 kbm per år.
@@ -1260,6 +1329,20 @@
               Vi ha här på vår inte hälften så stora gård kunnat klara oss bra.
               Far och mor ha fött upp en stor familj, re-
             </seg>
+          </u>
+          <pb n="14" facs="https://betalab.kb.se/prot-1951--ak--6/prot_1951__ak__6-014.jp2/_view"/>
+          <note type="date" n="b722502e">
+            Onsdagen den 14 februari 1951.
+          </note>
+          <note n="d27c540d">
+            Nr 6. 15
+          </note>
+          <note n="161ea1f7">
+            Svar på interpellation ang. lämpligheten av att i vissa fall
+            tillskapa ett jordbruk av två var för sig fullt bärkraftiga jordbruksfastigheter,
+            m. m.
+          </note>
+          <u who="sigfrid_jonsson_10ec5b" xml:id="i-2c1a434b30e02c27-7" prev="i-2c1a434b30e02c27-0" n="0938d295">
             <seg n="03ab9119">
               noverat och byggt, odlat och brutit sten, och vi i vår tur klara
               oss bra, tack vare kombinationen jord och skog.
@@ -1341,6 +1424,20 @@
               som på egen bekostnad rest dit, när han fick höra talas om opinionen
               i kommunen. Han sade, att hade han sett gården tidigare,
             </seg>
+          </u>
+          <pb n="15" facs="https://betalab.kb.se/prot-1951--ak--6/prot_1951__ak__6-015.jp2/_view"/>
+          <note n="04a87566">
+            16 Nr 6.
+          </note>
+          <note type="date" n="b722502e">
+            Onsdagen den 14 februari 1951.
+          </note>
+          <note n="161ea1f7">
+            Svar på interpellation ang. lämpligheten av att i vissa fall
+            tillskapa ett jordbruk av två var för sig fullt bärkraftiga jordbruksfastigheter,
+            m. m.
+          </note>
+          <u who="sigfrid_jonsson_10ec5b" xml:id="i-2c1a434b30e02c27-8" prev="i-2c1a434b30e02c27-0" n="0938d295">
             <seg n="2f722443">
               hade han aldrig gått med på avstyckningen. Jag har även personligen
               samtalat med en annan ledamot av nämnden, som efter de upplysningar
@@ -1370,82 +1467,6 @@
               att frångå denna min inställning.
             </seg>
           </u>
-          <pb n="10" facs="https://betalab.kb.se/prot-1951--ak--6/prot_1951__ak__6-010.jp2/_view"/>
-          <note n="7f0f22a4">
-            Onsdagen den 14 februari 1951.
-          </note>
-          <note n="a38574dd">
-            Nr 6. 11
-          </note>
-          <note n="161ea1f7">
-            Svar på interpellation ang. lämpligheten av att i vissa fall
-            tillskapa ett jordbruk av två var för sig fullt bärkraftiga jordbruksfastigheter,
-            m. m.
-          </note>
-          <note n="a829388c">
-            År 1949 förvärvades den andra gården, Överstahult 1? på 151 hektar,
-            av
-          </note>
-          <pb n="11" facs="https://betalab.kb.se/prot-1951--ak--6/prot_1951__ak__6-011.jp2/_view"/>
-          <note n="c22d2db9">
-            12 Nr 6.
-          </note>
-          <note n="7f0f22a4">
-            Onsdagen den 14 februari 1951.
-          </note>
-          <note n="161ea1f7">
-            Svar på interpellation ang. lämpligheten av att i vissa fall
-            tillskapa ett jordbruk av två var för sig fullt bärkraftiga jordbruksfastigheter,
-            m. m.
-          </note>
-          <pb n="12" facs="https://betalab.kb.se/prot-1951--ak--6/prot_1951__ak__6-012.jp2/_view"/>
-          <note n="7f0f22a4">
-            Onsdagen den 14 februari 1951.
-          </note>
-          <note n="9a51d32f">
-            Nr 6. 13
-          </note>
-          <note n="161ea1f7">
-            Svar på interpellation ang. lämpligheten av att i vissa fall
-            tillskapa ett jordbruk av två var för sig fullt bärkraftiga jordbruksfastigheter,
-            m. m.
-          </note>
-          <pb n="13" facs="https://betalab.kb.se/prot-1951--ak--6/prot_1951__ak__6-013.jp2/_view"/>
-          <note n="a1ad7fd3">
-            14 Nr 6.
-          </note>
-          <note n="7f0f22a4">
-            Onsdagen den 14 februari 1951.
-          </note>
-          <note n="161ea1f7">
-            Svar på interpellation ang. lämpligheten av att i vissa fall
-            tillskapa ett jordbruk av två var för sig fullt bärkraftiga jordbruksfastigheter,
-            m. m.
-          </note>
-          <pb n="14" facs="https://betalab.kb.se/prot-1951--ak--6/prot_1951__ak__6-014.jp2/_view"/>
-          <note n="7f0f22a4">
-            Onsdagen den 14 februari 1951.
-          </note>
-          <note n="d27c540d">
-            Nr 6. 15
-          </note>
-          <note n="161ea1f7">
-            Svar på interpellation ang. lämpligheten av att i vissa fall
-            tillskapa ett jordbruk av två var för sig fullt bärkraftiga jordbruksfastigheter,
-            m. m.
-          </note>
-          <pb n="15" facs="https://betalab.kb.se/prot-1951--ak--6/prot_1951__ak__6-015.jp2/_view"/>
-          <note n="04a87566">
-            16 Nr 6.
-          </note>
-          <note n="7f0f22a4">
-            Onsdagen den 14 februari 1951.
-          </note>
-          <note n="161ea1f7">
-            Svar på interpellation ang. lämpligheten av att i vissa fall
-            tillskapa ett jordbruk av två var för sig fullt bärkraftiga jordbruksfastigheter,
-            m. m.
-          </note>
           <note n="a39df43c">
             I detta anförande instämde herrar Norup, Pettersson i Norregård,
             Boman i Stafsund, Ericsson i Näs, Carlsson i Bakeröd, Persson
@@ -1455,7 +1476,7 @@
           <note type="speaker" n="c2d43f0a">
             Chefen för jordbruksdepartementet, herr statsrådet STRÄNG:
           </note>
-          <u who="gunnar_strang_097e01" xml:id="i-90149b5bb970d5a4-1" next="i-e578d48d9c8516e4-1" n="c9e892fe">
+          <u who="gunnar_strang_097e01" xml:id="i-84d86e83234009cf-5" next="i-84d86e83234009cf-9" n="c9e892fe">
             <seg n="206dc298">
               Herr talman! Jag har i interpellationssvaret deklare-
             </seg>
@@ -1495,7 +1516,7 @@
             </seg>
           </u>
           <pb n="16" facs="https://betalab.kb.se/prot-1951--ak--6/prot_1951__ak__6-016.jp2/_view"/>
-          <note n="7f0f22a4">
+          <note type="date" n="b722502e">
             Onsdagen den 14 februari 1951.
           </note>
           <note n="6d9c87e8">
@@ -1506,7 +1527,7 @@
             tillskapa ett jordbruk av två var för sig fullt bärkraftiga jordbruksfastigheter,
             m. m.
           </note>
-          <u who="gunnar_strang_097e01" xml:id="i-e578d48d9c8516e4-1" prev="i-90149b5bb970d5a4-1" n="c9e892fe">
+          <u who="gunnar_strang_097e01" xml:id="i-84d86e83234009cf-6" prev="i-84d86e83234009cf-5" n="c9e892fe">
             <seg n="cbcd3dfd">
               Vad lantbruksnämnden haft att röra sig med när den handlagt detta
               ärende har varit en diskussion med ägaren till fastigheten, som
@@ -1575,6 +1596,23 @@
               titla på denna fastighet. Jag inskränker mig till att konstatera,
               att lantbruksnämndens representanter varit ute och gjort markbe-
             </seg>
+          </u>
+          <note n="8c600398">
+            2— Andra kammarens protokoll 1951. Nr 6.
+          </note>
+          <pb n="17" facs="https://betalab.kb.se/prot-1951--ak--6/prot_1951__ak__6-017.jp2/_view"/>
+          <note n="5578e286">
+            18 Nr 6.
+          </note>
+          <note type="date" n="b722502e">
+            Onsdagen den 14 februari 1951.
+          </note>
+          <note n="161ea1f7">
+            Svar på interpellation ang. lämpligheten av att i vissa fall
+            tillskapa ett jordbruk av två var för sig fullt bärkraftiga jordbruksfastigheter,
+            m. m.
+          </note>
+          <u who="gunnar_strang_097e01" xml:id="i-84d86e83234009cf-7" prev="i-84d86e83234009cf-5" n="c9e892fe">
             <seg n="cc4ec461">
               siktningar på fastigheten. Lantbruksnämnden har inte bara en
               gång utan även tidigare med avsevärd tids mellanrum diskuterat
@@ -1607,6 +1645,12 @@
               samt andra planeringsmyndigheter — som även undersökt ärendet
               och icke funnit anledning att frångå lantbruksnämndens beslut.
             </seg>
+          </u>
+          <note n="0cca8cd9">
+            Herr Jonsson i Skedsbygd kom vid flera tillfällen tillbaka till
+            att denna
+          </note>
+          <u who="gunnar_strang_097e01" xml:id="i-84d86e83234009cf-8" prev="i-84d86e83234009cf-5" n="c9e892fe">
             <seg n="f5c52a14">
               fastighet var att betrakta som en av plusvarianterna inom Kalmar
               län — inom kommunen hör jag herr Jonsson säger nu, ja, det är
@@ -1641,6 +1685,20 @@
               fick behålla en fastighet på 100 hektar skog — en ren skogsfastighet
               alltså — medan Gunnar Johansson fick en fastighet, som består
             </seg>
+          </u>
+          <pb n="18" facs="https://betalab.kb.se/prot-1951--ak--6/prot_1951__ak__6-018.jp2/_view"/>
+          <note type="date" n="b722502e">
+            Onsdagen den 14 februari 1951.
+          </note>
+          <note n="04c2773b">
+            Nr 6. 19
+          </note>
+          <note n="161ea1f7">
+            Svar på interpellation ang. lämpligheten av att i vissa fall
+            tillskapa ett jordbruk av två var för sig fullt bärkraftiga jordbruksfastigheter,
+            m. m.
+          </note>
+          <u who="gunnar_strang_097e01" xml:id="i-84d86e83234009cf-9" prev="i-84d86e83234009cf-5" n="c9e892fe">
             <seg n="7f4cbcb4">
               av 15 hektar åker, 10 hektar bete, 1390 hektar skog samt 30 hektar
               mossar och impediment.
@@ -1698,41 +1756,10 @@
               inte tyngre vägande än omdömet från lantbruksnämndens tjänstemän.
             </seg>
           </u>
-          <note n="8c600398">
-            2— Andra kammarens protokoll 1951. Nr 6.
-          </note>
-          <pb n="17" facs="https://betalab.kb.se/prot-1951--ak--6/prot_1951__ak__6-017.jp2/_view"/>
-          <note n="5578e286">
-            18 Nr 6.
-          </note>
-          <note n="7f0f22a4">
-            Onsdagen den 14 februari 1951.
-          </note>
-          <note n="161ea1f7">
-            Svar på interpellation ang. lämpligheten av att i vissa fall
-            tillskapa ett jordbruk av två var för sig fullt bärkraftiga jordbruksfastigheter,
-            m. m.
-          </note>
-          <note n="0cca8cd9">
-            Herr Jonsson i Skedsbygd kom vid flera tillfällen tillbaka till
-            att denna
-          </note>
-          <pb n="18" facs="https://betalab.kb.se/prot-1951--ak--6/prot_1951__ak__6-018.jp2/_view"/>
-          <note n="7f0f22a4">
-            Onsdagen den 14 februari 1951.
-          </note>
-          <note n="04c2773b">
-            Nr 6. 19
-          </note>
-          <note n="161ea1f7">
-            Svar på interpellation ang. lämpligheten av att i vissa fall
-            tillskapa ett jordbruk av två var för sig fullt bärkraftiga jordbruksfastigheter,
-            m. m.
-          </note>
           <note type="speaker" n="bb7d4888">
             Herr SVENSSON i Vä:
           </note>
-          <u who="waldemar_svensson_bc8fa2" xml:id="i-37381c385d42e219-0" next="i-ea2f64e80006e95d-0" n="c89f4a1b">
+          <u who="waldemar_svensson_bc8fa2" xml:id="i-c89f4a1b1dfa7f2f-0" next="i-c89f4a1b1dfa7f2f-1" n="c89f4a1b">
             <seg n="b92eabe3">
               Herr talman! Jag känner personligen inte till det speciella fall,
               som det här är fråga om, och jag skall därför inte syssla med
@@ -1755,7 +1782,7 @@
           <note n="394f57f2">
             20 Nr 6.
           </note>
-          <note n="7f0f22a4">
+          <note type="date" n="b722502e">
             Onsdagen den 14 februari 1951.
           </note>
           <note n="161ea1f7">
@@ -1763,7 +1790,7 @@
             tillskapa ett jordbruk av två var för sig fullt bärkraftiga jordbruksfastigheter,
             m. m.
           </note>
-          <u who="waldemar_svensson_bc8fa2" xml:id="i-ea2f64e80006e95d-0" prev="i-37381c385d42e219-0" n="c89f4a1b">
+          <u who="waldemar_svensson_bc8fa2" xml:id="i-c89f4a1b1dfa7f2f-1" prev="i-c89f4a1b1dfa7f2f-0" n="c89f4a1b">
             <seg n="11cb7fae">
               centrum. Detta gör, att brukningen blir svårare, arbetsammare
               och dyrare. Det krävs mera arbetskraft — om nu sådan över huvud
@@ -1800,7 +1827,7 @@
           <note type="speaker" n="cd5520e6">
             Herr NILSON i Spånstad:
           </note>
-          <u who="hjalmar_nilson_b2ad6f" xml:id="i-57449b04ef34de9a-0" next="i-733c334ff75af9d1-0" n="32ab44df">
+          <u who="hjalmar_nilson_b2ad6f" xml:id="i-32ab44dfe5492a04-0" next="i-32ab44dfe5492a04-1" n="32ab44df">
             <seg n="2b117389">
               Herr talman! Jag har med största intresse följt vad som här sagts
               och demonstrerats. Jag har följt diskussionen därför att jag
@@ -1843,7 +1870,7 @@
             </seg>
           </u>
           <pb n="20" facs="https://betalab.kb.se/prot-1951--ak--6/prot_1951__ak__6-020.jp2/_view"/>
-          <note n="7f0f22a4">
+          <note type="date" n="b722502e">
             Onsdagen den 14 februari 1951.
           </note>
           <note n="34724cd6">
@@ -1854,7 +1881,7 @@
             tillskapa ett jordbruk av två var för sig fullt bärkraftiga jordbruksfastigheter,
             m. m.
           </note>
-          <u who="hjalmar_nilson_b2ad6f" xml:id="i-733c334ff75af9d1-0" prev="i-57449b04ef34de9a-0" n="32ab44df">
+          <u who="hjalmar_nilson_b2ad6f" xml:id="i-32ab44dfe5492a04-1" prev="i-32ab44dfe5492a04-0" n="32ab44df">
             <seg n="01145d1d">
               även jordbrukets representanter i lant-
             </seg>
@@ -1894,7 +1921,7 @@
           <note type="speaker" n="e83466c5">
             Herr JANSSON i Aspeboda:
           </note>
-          <u who="robert_jansson_47e63b" xml:id="i-d09fce5915801655-0" next="i-ecedca36c206856b-0" n="4718ea05">
+          <u who="robert_jansson_47e63b" xml:id="i-4718ea0564a1f409-0" next="i-4718ea0564a1f409-1" n="4718ea05">
             <seg n="60504b21">
               Herr talman! Jag har lyssnat till debatten och måste säga, att
               vid det bär laget finns
@@ -1940,7 +1967,7 @@
           <note n="e4e30186">
             22 Nr 6.
           </note>
-          <note n="7f0f22a4">
+          <note type="date" n="b722502e">
             Onsdagen den 14 februari 1951.
           </note>
           <note n="161ea1f7">
@@ -1948,7 +1975,7 @@
             tillskapa ett jordbruk av två var för sig fullt bärkraftiga jordbruksfastigheter,
             m. m.
           </note>
-          <u who="robert_jansson_47e63b" xml:id="i-ecedca36c206856b-0" prev="i-d09fce5915801655-0" n="4718ea05">
+          <u who="robert_jansson_47e63b" xml:id="i-4718ea0564a1f409-1" prev="i-4718ea0564a1f409-0" n="4718ea05">
             <seg n="19cc880d">
               bygderna, skulle många säkert vilja följa skollärarens exempel.
               Jag kanske inte heller gör mig skyldig till någon överdrift om
@@ -1978,7 +2005,7 @@
           <note type="speaker" n="0d17216e">
             Herr JOHNSSON i Kastanjegården:
           </note>
-          <u who="pehr_johnsson_9e3130" xml:id="i-ad4369a5f016a5fd-0" next="i-57c7e36b3fe579c5-0" n="9993d6fb">
+          <u who="pehr_johnsson_9e3130" xml:id="i-e20e1a6e4fa415dd-0" next="i-e20e1a6e4fa415dd-5" n="9993d6fb">
             <seg n="195b48cc">
               Herr talman! När det gäller lagen om inskränkning i rätten att
               förvärva jordbruksfastighet äro ju inte jag och herr Jonsson i
@@ -2024,7 +2051,7 @@
             </seg>
           </u>
           <pb n="22" facs="https://betalab.kb.se/prot-1951--ak--6/prot_1951__ak__6-022.jp2/_view"/>
-          <note n="7f0f22a4">
+          <note type="date" n="b722502e">
             Onsdagen den 14 februari 1951.
           </note>
           <note n="0171c2cb">
@@ -2035,7 +2062,7 @@
             tillskapa ett jordbruk av två var för sig fullt bärkraftiga jordbruksfastigheter,
             m. m.
           </note>
-          <u who="pehr_johnsson_9e3130" xml:id="i-57c7e36b3fe579c5-0" prev="i-ad4369a5f016a5fd-0" n="9993d6fb">
+          <u who="pehr_johnsson_9e3130" xml:id="i-e20e1a6e4fa415dd-1" prev="i-e20e1a6e4fa415dd-0" n="9993d6fb">
             <seg n="8ea2c69c">
               ning. Det råder ingen tvekan om att de dubbla byggnaderna bli
               en belastning för den jordbrukare, som nu köpt fastigheten. Givetvis
@@ -2051,22 +2078,6 @@
               i Skedsbygd här rest, har sitt fulla berättigande. Det är alldeles
               nödvändigt att ge akt på hur de olika lagarna tillämpas i detta
               sammanhang.
-            </seg>
-            <seg n="7d36b069">
-              träde gjorda, men då bordlagda anhållan att få framställa interpellation
-              till herr statsrådet och chefen för justitiedepartementet angående
-              åtgärder för åstadkommande av en minskning i antalet tillgrepp
-              av bilar.
-            </seg>
-            <seg n="723430ca">
-              Föredrogos vart efter annat:
-            </seg>
-            <seg n="d491cd33">
-              justitiedepartementets verksamhetsom-
-            </seg>
-            <seg n="52025a38">
-              av nedsatt telefonabonnemangsavgift för vissa av telegrafverkets
-              pensionärer.
             </seg>
           </u>
           <note n="2fdb8e03">
@@ -2086,6 +2097,14 @@
             8 3. Föredrogs den av herr Birke vid kammarens nästföregående
             samman-
           </note>
+          <u who="pehr_johnsson_9e3130" xml:id="i-e20e1a6e4fa415dd-2" prev="i-e20e1a6e4fa415dd-0" n="9993d6fb">
+            <seg n="7d36b069">
+              träde gjorda, men då bordlagda anhållan att få framställa interpellation
+              till herr statsrådet och chefen för justitiedepartementet angående
+              åtgärder för åstadkommande av en minskning i antalet tillgrepp
+              av bilar.
+            </seg>
+          </u>
           <note n="2999f9bf">
             Kammaren biföll denna anhållan.
           </note>
@@ -2103,6 +2122,11 @@
           <note n="1b650e44">
             3 5.
           </note>
+          <u who="pehr_johnsson_9e3130" xml:id="i-e20e1a6e4fa415dd-3" prev="i-e20e1a6e4fa415dd-0" n="9993d6fb">
+            <seg n="723430ca">
+              Föredrogos vart efter annat:
+            </seg>
+          </u>
           <note n="dd066e79">
             första lagutskottets utlåtande nr 3, i anledning av Kungl. Maj:ts
             proposition med förslag till lag angående fortsatt giltighet av
@@ -2150,6 +2174,11 @@
             å tillläggsstat II till riksstaten för budgetåret 1950/51, i vad
             propositionen avser
           </note>
+          <u who="pehr_johnsson_9e3130" xml:id="i-e20e1a6e4fa415dd-4" prev="i-e20e1a6e4fa415dd-0" n="9993d6fb">
+            <seg n="d491cd33">
+              justitiedepartementets verksamhetsom-
+            </seg>
+          </u>
           <note n="a75142b9">
             råde, jämte i ämnet väckt motion; nr 19, i anledning av Kungl.
             Maj:ts
@@ -2158,7 +2187,7 @@
           <note n="d64b8d6c">
             24 Nr 6.
           </note>
-          <note n="7f0f22a4">
+          <note type="date" n="b722502e">
             Onsdagen den 14 februari 1951.
           </note>
           <note n="87009a67">
@@ -2207,6 +2236,12 @@
           <note n="e7701e5c">
             8 8 Motioner ang. skattefrihet för förmånen
           </note>
+          <u who="pehr_johnsson_9e3130" xml:id="i-e20e1a6e4fa415dd-5" prev="i-e20e1a6e4fa415dd-0" n="9993d6fb">
+            <seg n="52025a38">
+              av nedsatt telefonabonnemangsavgift för vissa av telegrafverkets
+              pensionärer.
+            </seg>
+          </u>
           <note n="73913901">
             Föredrogs bevillningsutskottets betänkande nr 4, i anledning
             av väckta motioner angående skattefrihet för förmånen av nedsatt
@@ -2237,7 +2272,7 @@
           <note type="speaker" n="3da8ebc5">
             Herr NYBERG:
           </note>
-          <u who="olaus_nyberg_863286" xml:id="i-a031eb033a1f429e-0" next="i-d52d36a3a2292023-0" n="6caa0168">
+          <u who="olaus_nyberg_863286" xml:id="i-6caa01687fb1bcff-0" next="i-6caa01687fb1bcff-2" n="6caa0168">
             <seg n="97a1fd7e">
               Herr talman! Eftersom utskottet enhälligt avstyrkt denna motion
               har jag inga förhoppningar att den skall kunna vinna kammarens
@@ -2263,7 +2298,7 @@
             </seg>
           </u>
           <pb n="24" facs="https://betalab.kb.se/prot-1951--ak--6/prot_1951__ak__6-024.jp2/_view"/>
-          <note n="7f0f22a4">
+          <note type="date" n="b722502e">
             Onsdagen den 14 februari 1951.
           </note>
           <note n="aefaaa5f">
@@ -2276,7 +2311,7 @@
           <note n="2cc03cef">
             vissa av telegrafverkets pensionärer.
           </note>
-          <u who="olaus_nyberg_863286" xml:id="i-d52d36a3a2292023-0" prev="i-a031eb033a1f429e-0" n="6caa0168">
+          <u who="olaus_nyberg_863286" xml:id="i-6caa01687fb1bcff-1" prev="i-6caa01687fb1bcff-0" n="6caa0168">
             <seg n="22e67941">
               skottet stannat vid detta som skäl för sitt ställningstagande.
               Utskottet har emellertid tillagt, »att utskottet ej heller anser
@@ -2346,18 +2381,12 @@
               för förmånen av nedsatt abonnemangsavgift vid ett inkomstläge
               intill 8000 kronor». Då det
             </seg>
-            <seg n="aae63000">
-              för närvarande synes råda en viss tveksamhet om hur skattelagarna
-              skola tolkas på denna punkt, tycker jag att inte något galet skulle
-              ske, om riksdagen bifölle det förslag som här behandlas. Jag ber
-              alltså att få yrka bifall till motionen.
-            </seg>
           </u>
           <pb n="25" facs="https://betalab.kb.se/prot-1951--ak--6/prot_1951__ak__6-025.jp2/_view"/>
           <note n="394f57f2">
             20 Nr 6.
           </note>
-          <note n="7f0f22a4">
+          <note type="date" n="b722502e">
             Onsdagen den 14 februari 1951.
           </note>
           <note n="099295a6">
@@ -2365,10 +2394,18 @@
             med anledning av den av riksdagen år 1949 begärda översynen av
             socialvården.
           </note>
+          <u who="olaus_nyberg_863286" xml:id="i-6caa01687fb1bcff-2" prev="i-6caa01687fb1bcff-0" n="6caa0168">
+            <seg n="aae63000">
+              för närvarande synes råda en viss tveksamhet om hur skattelagarna
+              skola tolkas på denna punkt, tycker jag att inte något galet skulle
+              ske, om riksdagen bifölle det förslag som här behandlas. Jag ber
+              alltså att få yrka bifall till motionen.
+            </seg>
+          </u>
           <note type="speaker" n="0c1e8322">
             Herr OLSSON i Gävle:
           </note>
-          <u who="carl_petrus_olsson_d755c7" xml:id="i-86960aecb5c67539-1" next="i-dc4293ccc464cd26-1" n="eab7cfe3">
+          <u who="carl_petrus_olsson_d755c7" xml:id="i-eab7cfe3a5ad2390-3" next="i-eab7cfe3a5ad2390-5" n="eab7cfe3">
             <seg n="6d47c651">
               Herr talman! Jag skulle ju kunna nöja mig med att säga, att i
               detta hus har man aldrig praktiserat den metoden, att man uppdragit
@@ -2420,12 +2457,9 @@
           <note n="0dfb5bc8">
             8 9.
           </note>
-          <u who="carl_petrus_olsson_d755c7" xml:id="i-dc4293ccc464cd26-1" prev="i-86960aecb5c67539-1" n="eab7cfe3">
+          <u who="carl_petrus_olsson_d755c7" xml:id="i-eab7cfe3a5ad2390-4" prev="i-eab7cfe3a5ad2390-3" n="eab7cfe3">
             <seg n="723430ca">
               Föredrogos vart efter annat:
-            </seg>
-            <seg n="4d029e96">
-              åtgärder, som vidtagits med anledning
             </seg>
           </u>
           <note n="f74ac715">
@@ -2447,6 +2481,11 @@
           <note n="2079b3b0">
             Interpellation ang. redogörelse för de
           </note>
+          <u who="carl_petrus_olsson_d755c7" xml:id="i-eab7cfe3a5ad2390-5" prev="i-eab7cfe3a5ad2390-3" n="eab7cfe3">
+            <seg n="4d029e96">
+              åtgärder, som vidtagits med anledning
+            </seg>
+          </u>
           <note n="11357b97">
             av den av riksdagen år 1949 begärda översynen av socialvården.
           </note>
@@ -2456,14 +2495,14 @@
           <note type="speaker" n="6126863c">
             Herr HJALMARSON, som anförde:
           </note>
-          <u who="jarl_hjalmarson_8b8a90" xml:id="i-803c54d8e809d792-0" next="i-648a34cfb418a1df-0" n="98f62571">
+          <u who="jarl_hjalmarson_8b8a90" xml:id="i-98f6257130ab0e4b-0" next="i-98f6257130ab0e4b-3" n="98f62571">
             <seg n="68e2b07e">
               Herr talman! I två likalydande motioner år 1949 (II: 73 och I:
               70) hemställdes, att riksdagen i skrivelse till Kungl.
             </seg>
           </u>
           <pb n="26" facs="https://betalab.kb.se/prot-1951--ak--6/prot_1951__ak__6-026.jp2/_view"/>
-          <note n="7f0f22a4">
+          <note type="date" n="b722502e">
             Onsdagen den 14 februari 1951.
           </note>
           <note n="1d6fb2ac">
@@ -2474,7 +2513,7 @@
             med anledning av den av riksdagen år 1949 begärda översynen av
             socialvården.
           </note>
-          <u who="jarl_hjalmarson_8b8a90" xml:id="i-648a34cfb418a1df-0" prev="i-803c54d8e809d792-0" n="98f62571">
+          <u who="jarl_hjalmarson_8b8a90" xml:id="i-98f6257130ab0e4b-1" prev="i-98f6257130ab0e4b-0" n="98f62571">
             <seg n="29c090dd">
               Maj:t måtte anhålla att en översyn av socialvården företoges
               utan avvaktande av det utredningsarbete, som redan påginge rörande
@@ -2533,10 +2572,37 @@
               att en samordning av socialvården med det snaraste kommer till
               stånd.
             </seg>
+          </u>
+          <note n="05485f0e">
+            Riksdagen beslöt med anledning av motionerna att i skriveise
+            till Kungl. Maj:t (nr 287) hemställa att översyn av socialvården
+            måtte företagas i fråga om samordning mellan dess olika delar
+            av de krav i olika hänseenden, som skilda reformförslag kunna
+            medföra, samt att denna översyn måtte företagas inom vederbörande
+            departement.
+          </note>
+          <note n="c0eef8da">
+            Sedan motionen framlades har förslag framlagts om en socialhjälpslag.
+          </note>
+          <u who="jarl_hjalmarson_8b8a90" xml:id="i-98f6257130ab0e4b-2" prev="i-98f6257130ab0e4b-0" n="98f62571">
             <seg n="b1841b65">
               Denna hiälpreform kommer otvivelaktigt att ställa stora anspråk
               på statskas-
             </seg>
+          </u>
+          <pb n="27" facs="https://betalab.kb.se/prot-1951--ak--6/prot_1951__ak__6-027.jp2/_view"/>
+          <note n="5f185ccb">
+            28 Nr 6.
+          </note>
+          <note type="date" n="b722502e">
+            Onsdagen den 14 februari 1951.
+          </note>
+          <note n="099295a6">
+            Interpellation ang. redogörelse för de åtgärder, som vidtagits
+            med anledning av den av riksdagen år 1949 begärda översynen av
+            socialvården.
+          </note>
+          <u who="jarl_hjalmarson_8b8a90" xml:id="i-98f6257130ab0e4b-3" prev="i-98f6257130ab0e4b-0" n="98f62571">
             <seg n="ab5d7d93">
               san. Detta gör det än mer angeläget att hela socialvården planlägges
               och samordnas så, att minsta möjliga tilläggsutgift för staten
@@ -2590,29 +2656,6 @@
               få rikta följande fråga:
             </seg>
           </u>
-          <note n="05485f0e">
-            Riksdagen beslöt med anledning av motionerna att i skriveise
-            till Kungl. Maj:t (nr 287) hemställa att översyn av socialvården
-            måtte företagas i fråga om samordning mellan dess olika delar
-            av de krav i olika hänseenden, som skilda reformförslag kunna
-            medföra, samt att denna översyn måtte företagas inom vederbörande
-            departement.
-          </note>
-          <note n="c0eef8da">
-            Sedan motionen framlades har förslag framlagts om en socialhjälpslag.
-          </note>
-          <pb n="27" facs="https://betalab.kb.se/prot-1951--ak--6/prot_1951__ak__6-027.jp2/_view"/>
-          <note n="5f185ccb">
-            28 Nr 6.
-          </note>
-          <note n="7f0f22a4">
-            Onsdagen den 14 februari 1951.
-          </note>
-          <note n="099295a6">
-            Interpellation ang. redogörelse för de åtgärder, som vidtagits
-            med anledning av den av riksdagen år 1949 begärda översynen av
-            socialvården.
-          </note>
           <note n="2edf7824">
             Vill herr statsrådet lämna kammaren redogörelse för de åtgärder
             som inom vederbörande departement må vara vidtagna med anledning
@@ -2644,7 +2687,7 @@
             motionen nr 398 av herr Senander m. fl.;
           </note>
           <pb n="28" facs="https://betalab.kb.se/prot-1951--ak--6/prot_1951__ak__6-028.jp2/_view"/>
-          <note n="7f0f22a4">
+          <note type="date" n="b722502e">
             Onsdagen den 14 februari 1951.
           </note>
           <note n="1222308b">

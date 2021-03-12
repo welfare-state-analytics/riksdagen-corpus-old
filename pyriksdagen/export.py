@@ -102,6 +102,12 @@ def create_tei(root, metadata):
     u = None
     prev_u = None
 
+    pb = etree.SubElement(body_div, "pb")
+    pb.attrib["n"] = str(current_page)
+    page_url = "https://betalab.kb.se/" + protocol_id + "/"
+    page_filename = protocol_id.replace("-","_") + '-{:03d}'.format(current_page) + ".jp2/_view"
+    pb.attrib["facs"] = page_url + page_filename
+
     for content_block in root:
         new_page = content_block.attrib.get("page", current_page)
         new_page = int(new_page)
@@ -109,10 +115,13 @@ def create_tei(root, metadata):
             current_page = new_page
             pb = etree.SubElement(body_div, "pb")
             pb.attrib["n"] = str(current_page)
-            # TODO: Fix url
             page_url = "https://betalab.kb.se/" + protocol_id + "/"
             page_filename = protocol_id.replace("-","_") + '-{:03d}'.format(current_page) + ".jp2/_view"
             pb.attrib["facs"] = page_url + page_filename
+
+            if prev_u is None:
+                prev_u = u
+                u = None
 
         content_txt = '\n'.join(content_block.itertext())
         is_empty = content_txt == ""
@@ -177,6 +186,7 @@ def create_tei(root, metadata):
                             seg.attrib["{http://www.w3.org/XML/1998/namespace}id"] = textblock.attrib.get("id", None)
                         elif prev_u is not None:
                             prev_u.attrib["next"] = "cont"
+                            prev_u = None
                             u = etree.SubElement(body_div, "u")
                             if current_speaker is not None:
                                 u.attrib["who"] = current_speaker
@@ -248,7 +258,9 @@ def parlaclarin_workflow_individual(file_db, archive, curations=None, segmentati
             parla_clarin_str = gen_parlaclarin_corpus(df, archive, current_instances,
                 corpus_metadata=corpus_metadata, curation_db=current_curations)
             
-            parlaclarin_path = "corpus/" + protocol_id + ".xml"
+            yearstr = protocol_id[5:]
+            yearstr = yearstr.split("-")[0]
+            parlaclarin_path = "corpus/" + yearstr + "/" + protocol_id + ".xml"
             f = open(parlaclarin_path, "w")
             f.write(parla_clarin_str)
             f.close()

@@ -20,7 +20,7 @@
     <encodingDesc>
       <editorialDecl>
         <correction>
-          <p>Some data curation was done. It is documented in db/curation/instances</p>
+          <p>Some data curation was done. It is documented in input/curation/instances</p>
         </correction>
       </editorialDecl>
     </encodingDesc>
@@ -57,12 +57,13 @@
       </front>
       <body>
         <div>
+          <pb n="0" facs="https://betalab.kb.se/prot-1932--ak--39/prot_1932__ak__39-000.jp2/_view"/>
           <note n="d3f4e9e9">
             RIKSDAGENS PROTOKOLL. 1932. Andra kammaren. Nr 39.
           </note>
           <note n="bb88940e"/>
           <note n="bb88940e"/>
-          <note n="267ae0b9">
+          <note type="date" n="beb21299">
             Fredagen den 29 april. Kl. 3.30 e. m.
           </note>
           <note n="9ad50bb6">
@@ -78,7 +79,7 @@
           <note type="speaker" n="70a577ba">
             Herr Engberg:
           </note>
-          <u who="arthur_engberg_9325cc" xml:id="i-8f4b69bd3a5e542c-0" next="i-ab30bdaf2dab0e95-0" n="8e0e0206">
+          <u who="arthur_engberg_9325cc" xml:id="i-8e0e020673cf0fb0-0" next="i-8e0e020673cf0fb0-1" n="8e0e0206">
             <seg n="2f885cc4">
               Herr talman! Det hände här i kammaren för åtskilliga år sedan,
               att jag råkade titta i ett tryckt riksdagsprotokoll och fann,
@@ -144,7 +145,7 @@
           <note type="date" n="9b64097e">
             2 Fredagen den 29 april.
           </note>
-          <u who="arthur_engberg_9325cc" xml:id="i-ab30bdaf2dab0e95-0" prev="i-8f4b69bd3a5e542c-0" n="8e0e0206">
+          <u who="arthur_engberg_9325cc" xml:id="i-8e0e020673cf0fb0-1" prev="i-8e0e020673cf0fb0-0" n="8e0e0206">
             <seg n="f00f10e5">
               vad stenograferna ha utskrivit som vad herr statsrådet Gyllenswärd
               har satt i stället. Stenograferna ha utskrivit: »Det är nämligen
@@ -217,7 +218,7 @@
           <note type="speaker" n="0b9c3a79">
             Herr statsrådet Gyllenswärd:
           </note>
-          <u who="unknown" xml:id="i-ce621bfab613f453-0" n="c807c0eb">
+          <u who="unknown" xml:id="i-c807c0ebf096bc66-0" n="c807c0eb">
             <seg n="f06ada6e">
               Herr talman! Med anledning av herr Engbergs anförande vill jag
               bara säga, att när jag fick stenogrammet från andra kammaren,
@@ -226,10 +227,10 @@
             </seg>
           </u>
           <pb n="2" facs="https://betalab.kb.se/prot-1932--ak--39/prot_1932__ak__39-002.jp2/_view"/>
-          <note n="441b4e94">
+          <note type="date" n="c03ada15">
             Fredagen den 29 april. 3 Nr 39.
           </note>
-          <u who="unknown" xml:id="i-f491ca4a750147a8-0" n="c807c0eb">
+          <u who="unknown" xml:id="i-c807c0ebf096bc66-1" n="c807c0eb">
             <seg n="4dbbf4a3">
               måste jag säga. Vederbörande stenograf hade synbarligen missförstått
               mitt yttrande. De justeringar, jag gjort, gjorde jag med ledning
@@ -261,7 +262,7 @@
           <note type="speaker" n="70a577ba">
             Herr Engberg:
           </note>
-          <u who="arthur_engberg_9325cc" xml:id="i-ffe156a1a95b30b5-0" n="8e0e0206">
+          <u who="arthur_engberg_9325cc" xml:id="i-8e0e020673cf0fb0-2" n="8e0e0206">
             <seg n="d126b065">
               Herr talman! Statsrådet kan omedelbart övertyga sig om, att detta
               icke står i kanten utan är bortstruket utan att ha fått någon
@@ -282,7 +283,7 @@
           <note type="speaker" n="b69fbd57">
             Herr statsrådet Larsson avlämnade Kungl. Maj:
           </note>
-          <u who="viktor_larsson_2a0aa2" xml:id="i-a5a634ac831e0f10-0" next="i-04fb53731219ec2a-0" n="c6d3b7fe">
+          <u who="viktor_larsson_2a0aa2" xml:id="i-439630fb3db5b0aa-0" next="i-439630fb3db5b0aa-7" n="c6d3b7fe">
             <seg n="44ffd82a">
               ts propositioner:
             </seg>
@@ -332,7 +333,7 @@
           <note type="date" n="ac550296">
             4 Fredagen den 29 april.
           </note>
-          <u who="viktor_larsson_2a0aa2" xml:id="i-04fb53731219ec2a-0" prev="i-a5a634ac831e0f10-0" n="c6d3b7fe">
+          <u who="viktor_larsson_2a0aa2" xml:id="i-439630fb3db5b0aa-1" prev="i-439630fb3db5b0aa-0" n="c6d3b7fe">
             <seg n="25464e41">
               son i Skövde till mig riktat en interpellation i anledning av
               att samvetsömma värnpliktiga, vilka erhållit tillstånd att i stället
@@ -355,14 +356,74 @@
             <seg n="7a922af4">
               Med anledning härav får jag anföra följande.
             </seg>
+          </u>
+          <note n="6621f164">
+            Den första lagstiftningen om värnpliktiga, vilka hysa samvetsbetänkligheter
+            mot värnpliktstjänstgöring, trädde i tillämpning den 1 januari
+            1921. Nu gällande bestämmelser i ämnet återfinnas i lagen den
+            12 juni 1925 (nr 338). Enligt föreskrift i sagda lag må värnpliktig,
+            som på grund av religiös övertygelse eller av annan jämförlig
+            orsak hyser allvarliga samvetsbetänkligheter mot värnpliktstjänstgöring
+            i den ordning, värnpliktslagen föreskriver, därest samvetsbetänkligheterna
+            avse varje tjänstgöring vid krigsmakten, i stället för sådan tjänstgöring
+            utföra civilt arbete för statens räkning. För tillämpningen av
+            nämnda lag erforderliga föreskrifter äro meddelade i kungörelsen
+            den 23 december 1925 (nr 516). Enligt denna kungörelse skall här
+            avsedd värnpliktig inkallas för fullgörande av honom åliggande
+            civilt arbete i enlighet med i kommandoväg utfärdade bestämmelser.
+            Hittills ha, efter överenskommelser med domänstyrelsen och vattenfallsstyrelsen,
+            ifrågavarande värnpliktiga sysselsatts vid vissa av domänstyrelsen
+            anordnade arbeten ävensom vid statens vattenfallsverk.
+          </note>
+          <note n="397be3ae">
+            De genom domänstyrelsen anordnade arbetena hava huvudsakligen
+            bestått i skogsoch vägarbeten under överinseende av vederbörande
+            revirförvaltare å kronoparker inom följande revir, nämligen: kronoparken
+            Halle-Hunneberg och kronoparken Kroppefjäll, båda inom Hunnebergs
+            revir, kronoparken Mackmyra inom Gästriklands revir, Hamra kronopark
+            inom Hamra revir (Dalarna) samt kronoparken Torvsjöån inom Volgsjö
+            revir (Vilhelmina socken, Lappland). Inom Hunnebergs revir har
+            under de senare åren sysselsättning genomsnittligt per år beretts
+            omkring 70 man, varav huvuddelen eller omkring 60 man arbetat
+            å Halle-Hunnebergs kronopark samt återstoden å kronoparken Kroppefjäll.
+            Å de övriga platserna har arbetsstyrkan under de senare åren utgjort
+            i genomsnitt per år: å Mackmyra kronopark 60 man, å Hamra kronopark
+            likaledes 60 man samt å kronoparken Torvsjöån 30 man. Arbetena
+            å respektive platser hava i regel bedrivits: de inom Hunnebergs
+            och Gästriklands revir under hela året med undantag för någon
+            eller några månader under själva vintern, de inom Hamra revir
+            under månaderna maj—november samt de inom Volgsjö revir under
+            månaderna maj—oktober. För ordnande av förläggningsförhållandena
+            för civilarbetarna å kronoparkerna har hittills anvisats närmare
+            62,000 kronor från lantförsvarets anslag till extra utgifter.
+            Av detta belopp belöper å förläggningen inom Hunnebergs revir
+            i runt tal 13,000 kronor. Att utgifterna för denna förläggning
+            kunnat hållas så pass låga har sin orsak 1; Se förläggningsutrymmen
+            kunnat beredas utan några omfattande nybyggnader.
+          </note>
+          <u who="viktor_larsson_2a0aa2" xml:id="i-439630fb3db5b0aa-2" prev="i-439630fb3db5b0aa-0" n="c6d3b7fe">
             <seg n="ee6be530">
               Vad angår de genom vattenfallsstyrelsens försorg bedrivna arbetena,
               hava dessa huvudsakligen utförts vid kraftverk och stamlinjebyggnader.
             </seg>
+          </u>
+          <pb n="4" facs="https://betalab.kb.se/prot-1932--ak--39/prot_1932__ak__39-004.jp2/_view"/>
+          <note type="date" n="5b71a6bf">
+            Fredagen den 29 april. 5
+          </note>
+          <u who="viktor_larsson_2a0aa2" xml:id="i-439630fb3db5b0aa-3" prev="i-439630fb3db5b0aa-0" n="c6d3b7fe">
             <seg n="bd4ee72b">
               I anledning av den till mig riktade interpellationen har jag
               funnit mig böra
             </seg>
+          </u>
+          <note n="1ee503d4">
+            införskaffa yttranden från domänstyrelsen och vattenfallsstyrelsen,
+            länsstyrelserna 1 Älvsborgs och Skaraborgs län — kronoparken Halle-Hunneberg
+            ligger inom både Älvsborgs och Skaraborgs län — ävensom från statens
+            ar-
+          </note>
+          <u who="viktor_larsson_2a0aa2" xml:id="i-439630fb3db5b0aa-4" prev="i-439630fb3db5b0aa-0" n="c6d3b7fe">
             <seg n="85e6d303">
               betslöshetskommission, och jag ber nu få lämna en redogörelse
               för innehållet uti de avgivna yttrandena.
@@ -426,6 +487,24 @@
               grad önskvärt, om man kunde finna en sådan lösning, att civilarbetarna
               finge stanna på nuvarande förläggnings-
             </seg>
+          </u>
+          <note n="39a1a64c">
+            Nr 39.
+          </note>
+          <note n="70a2b5fa">
+            Svar å interpellation. (Forts.)
+          </note>
+          <pb n="5" facs="https://betalab.kb.se/prot-1932--ak--39/prot_1932__ak__39-005.jp2/_view"/>
+          <note n="39a1a64c">
+            Nr 39.
+          </note>
+          <note n="70a2b5fa">
+            Svar å interpellation. (Forts.)
+          </note>
+          <note type="date" n="0ce5d7bb">
+            6 Fredagen den 29 april.
+          </note>
+          <u who="viktor_larsson_2a0aa2" xml:id="i-439630fb3db5b0aa-5" prev="i-439630fb3db5b0aa-0" n="c6d3b7fe">
             <seg n="e6a8cb57">
               ort, samtidigt som ortsbefolkningens krav i rimlig grad tillgodoses
               genom att den användes för en del av de där möjliga arbetena.
@@ -493,6 +572,12 @@
               sysselsättas med produktivt arbete, kan å den nya arbetsorten
               med-
             </seg>
+          </u>
+          <pb n="6" facs="https://betalab.kb.se/prot-1932--ak--39/prot_1932__ak__39-006.jp2/_view"/>
+          <note type="date" n="cc46b28b">
+            Fredagen den 29 april. 7
+          </note>
+          <u who="viktor_larsson_2a0aa2" xml:id="i-439630fb3db5b0aa-6" prev="i-439630fb3db5b0aa-0" n="c6d3b7fe">
             <seg n="2621da7c">
               föra enahanda svårigheter som de i interpellationen åsyftade.
               I fråga om möjligheten att bereda de arbetslösa i Flo och Vänersnäs
@@ -561,6 +646,24 @@
               ett vägföretag å orten. Enligt vad jag under hand erfarit har
               Flo kommun nyligen hos arbetslöshetskommissionen
             </seg>
+          </u>
+          <note n="39a1a64c">
+            Nr 39.
+          </note>
+          <note n="70a2b5fa">
+            Svar å interpellation. (Forts.)
+          </note>
+          <pb n="7" facs="https://betalab.kb.se/prot-1932--ak--39/prot_1932__ak__39-007.jp2/_view"/>
+          <note n="39a1a64c">
+            Nr 39.
+          </note>
+          <note n="70a2b5fa">
+            Svar å interpellation. (Forts.)
+          </note>
+          <note type="date" n="26bf3678">
+            8 Fredagen den 29 april.
+          </note>
+          <u who="viktor_larsson_2a0aa2" xml:id="i-439630fb3db5b0aa-7" prev="i-439630fb3db5b0aa-0" n="c6d3b7fe">
             <seg n="42c1dad5">
               anhållit att få disponera största möjliga antal platser vid statens
               reservarbeten. Denna ansökning har emellertid avslagits, väsentligen
@@ -584,103 +687,13 @@
               Halle-Hunneberg sysselsatta civilarbetarna.
             </seg>
           </u>
-          <note n="6621f164">
-            Den första lagstiftningen om värnpliktiga, vilka hysa samvetsbetänkligheter
-            mot värnpliktstjänstgöring, trädde i tillämpning den 1 januari
-            1921. Nu gällande bestämmelser i ämnet återfinnas i lagen den
-            12 juni 1925 (nr 338). Enligt föreskrift i sagda lag må värnpliktig,
-            som på grund av religiös övertygelse eller av annan jämförlig
-            orsak hyser allvarliga samvetsbetänkligheter mot värnpliktstjänstgöring
-            i den ordning, värnpliktslagen föreskriver, därest samvetsbetänkligheterna
-            avse varje tjänstgöring vid krigsmakten, i stället för sådan tjänstgöring
-            utföra civilt arbete för statens räkning. För tillämpningen av
-            nämnda lag erforderliga föreskrifter äro meddelade i kungörelsen
-            den 23 december 1925 (nr 516). Enligt denna kungörelse skall här
-            avsedd värnpliktig inkallas för fullgörande av honom åliggande
-            civilt arbete i enlighet med i kommandoväg utfärdade bestämmelser.
-            Hittills ha, efter överenskommelser med domänstyrelsen och vattenfallsstyrelsen,
-            ifrågavarande värnpliktiga sysselsatts vid vissa av domänstyrelsen
-            anordnade arbeten ävensom vid statens vattenfallsverk.
-          </note>
-          <note n="397be3ae">
-            De genom domänstyrelsen anordnade arbetena hava huvudsakligen
-            bestått i skogsoch vägarbeten under överinseende av vederbörande
-            revirförvaltare å kronoparker inom följande revir, nämligen: kronoparken
-            Halle-Hunneberg och kronoparken Kroppefjäll, båda inom Hunnebergs
-            revir, kronoparken Mackmyra inom Gästriklands revir, Hamra kronopark
-            inom Hamra revir (Dalarna) samt kronoparken Torvsjöån inom Volgsjö
-            revir (Vilhelmina socken, Lappland). Inom Hunnebergs revir har
-            under de senare åren sysselsättning genomsnittligt per år beretts
-            omkring 70 man, varav huvuddelen eller omkring 60 man arbetat
-            å Halle-Hunnebergs kronopark samt återstoden å kronoparken Kroppefjäll.
-            Å de övriga platserna har arbetsstyrkan under de senare åren utgjort
-            i genomsnitt per år: å Mackmyra kronopark 60 man, å Hamra kronopark
-            likaledes 60 man samt å kronoparken Torvsjöån 30 man. Arbetena
-            å respektive platser hava i regel bedrivits: de inom Hunnebergs
-            och Gästriklands revir under hela året med undantag för någon
-            eller några månader under själva vintern, de inom Hamra revir
-            under månaderna maj—november samt de inom Volgsjö revir under
-            månaderna maj—oktober. För ordnande av förläggningsförhållandena
-            för civilarbetarna å kronoparkerna har hittills anvisats närmare
-            62,000 kronor från lantförsvarets anslag till extra utgifter.
-            Av detta belopp belöper å förläggningen inom Hunnebergs revir
-            i runt tal 13,000 kronor. Att utgifterna för denna förläggning
-            kunnat hållas så pass låga har sin orsak 1; Se förläggningsutrymmen
-            kunnat beredas utan några omfattande nybyggnader.
-          </note>
-          <pb n="4" facs="https://betalab.kb.se/prot-1932--ak--39/prot_1932__ak__39-004.jp2/_view"/>
-          <note type="date" n="5b71a6bf">
-            Fredagen den 29 april. 5
-          </note>
-          <note n="1ee503d4">
-            införskaffa yttranden från domänstyrelsen och vattenfallsstyrelsen,
-            länsstyrelserna 1 Älvsborgs och Skaraborgs län — kronoparken Halle-Hunneberg
-            ligger inom både Älvsborgs och Skaraborgs län — ävensom från statens
-            ar-
-          </note>
-          <note n="39a1a64c">
-            Nr 39.
-          </note>
-          <note n="70a2b5fa">
-            Svar å interpellation. (Forts.)
-          </note>
-          <pb n="5" facs="https://betalab.kb.se/prot-1932--ak--39/prot_1932__ak__39-005.jp2/_view"/>
-          <note n="39a1a64c">
-            Nr 39.
-          </note>
-          <note n="70a2b5fa">
-            Svar å interpellation. (Forts.)
-          </note>
-          <note type="date" n="0ce5d7bb">
-            6 Fredagen den 29 april.
-          </note>
-          <pb n="6" facs="https://betalab.kb.se/prot-1932--ak--39/prot_1932__ak__39-006.jp2/_view"/>
-          <note type="date" n="cc46b28b">
-            Fredagen den 29 april. 7
-          </note>
-          <note n="39a1a64c">
-            Nr 39.
-          </note>
-          <note n="70a2b5fa">
-            Svar å interpellation. (Forts.)
-          </note>
-          <pb n="7" facs="https://betalab.kb.se/prot-1932--ak--39/prot_1932__ak__39-007.jp2/_view"/>
-          <note n="39a1a64c">
-            Nr 39.
-          </note>
-          <note n="70a2b5fa">
-            Svar å interpellation. (Forts.)
-          </note>
-          <note type="date" n="26bf3678">
-            8 Fredagen den 29 april.
-          </note>
           <note n="4cc37326">
             Vidare yttrade:
           </note>
           <note type="speaker" n="17f575b0">
             Herr Magnusson i Skövde:
           </note>
-          <u who="otto_magnusson_096c60" xml:id="i-c8c93b96baaeb312-0" next="i-dab304a29bff4d8a-0" n="f6353580">
+          <u who="otto_magnusson_096c60" xml:id="i-f6353580174c5f14-0" next="i-f6353580174c5f14-1" n="f6353580">
             <seg n="40f8557f">
               Herr talman! Dagens sensation är ju redan avverkad genom det
               som förevarit före interpellationssvaret, och jag har för min
@@ -732,7 +745,7 @@
           <note type="date" n="a943ae6a">
             Fredagen den 29 april. 9
           </note>
-          <u who="otto_magnusson_096c60" xml:id="i-dab304a29bff4d8a-0" prev="i-c8c93b96baaeb312-0" n="f6353580">
+          <u who="otto_magnusson_096c60" xml:id="i-f6353580174c5f14-1" prev="i-f6353580174c5f14-0" n="f6353580">
             <seg n="db213c4e">
               där har ej i större mån haft sitt arbete inriktat på kronoparken
               och är mindre lämpad för arbete där, vartill kommer, att Västra
@@ -828,7 +841,7 @@
           <note type="speaker" n="6c9cb5ee">
             Herr Olsson i Gävle:
           </note>
-          <u who="oscar_olsson_9c8ca4" xml:id="i-2798956de918c169-0" next="i-9cd333ab600a6123-0" n="16c82279">
+          <u who="oscar_olsson_9c8ca4" xml:id="i-059577c53fb80a45-0" next="i-059577c53fb80a45-1" n="16c82279">
             <seg n="ae58ef64">
               Herr talman! Att jag tar till ordet i den föreliggande frågan
               förklaras därav, att i det län, som jag representerar, ha vi två
@@ -905,7 +918,7 @@
           <note type="date" n="fd2fd2ae">
             Fredagen den 29 april. 11
           </note>
-          <u who="oscar_olsson_9c8ca4" xml:id="i-9cd333ab600a6123-0" prev="i-2798956de918c169-0" n="16c82279">
+          <u who="oscar_olsson_9c8ca4" xml:id="i-059577c53fb80a45-1" prev="i-059577c53fb80a45-0" n="16c82279">
             <seg n="df691737">
               pliktsåldern, så har det ifrån samma socknar skickats gamla gifta
               personer med familj till arbetslöshetskommissionens förläggningar
@@ -967,7 +980,7 @@
           <note type="speaker" n="22f2b11a">
             Herr Hansson i Trollhättan:
           </note>
-          <u who="sigfrid_hansson_55faf3" xml:id="i-662e14fcadd7d9fa-0" next="i-25c8bce8e756b39c-0" n="97e21470">
+          <u who="sigfrid_hansson_55faf3" xml:id="i-7c8db79dd787d516-0" next="i-7c8db79dd787d516-1" n="97e21470">
             <seg n="01dd4cc7">
               Herr talman! Jag wvill från början säga, att jag väl förstår,
               att detta är en mycket ömtålig angelägenhet. Eftersom försvarsministern
@@ -998,7 +1011,7 @@
           <note type="date" n="0b5bd1c8">
             12 Fredagen den 29 april.
           </note>
-          <u who="sigfrid_hansson_55faf3" xml:id="i-25c8bce8e756b39c-0" prev="i-662e14fcadd7d9fa-0" n="97e21470">
+          <u who="sigfrid_hansson_55faf3" xml:id="i-7c8db79dd787d516-1" prev="i-7c8db79dd787d516-0" n="97e21470">
             <seg n="4a3387c5">
               Hur ligger det till med denna sak? Redan för tio år sedan förekom
               det diskussion om huruvida dessa samvetsömma skulle komma till
@@ -1068,7 +1081,7 @@
           <note type="speaker" n="1fedcc60">
             Chefen för försvarsdepartementet herr statsrådet Rundqvist:
           </note>
-          <u who="unknown" xml:id="i-ce621bfab613f453-1" n="c807c0eb">
+          <u who="unknown" xml:id="i-c807c0ebf096bc66-2" n="c807c0eb">
             <seg n="0f16724d">
               Herr talman! Såsom framgår av vad interpellanten yttrat och de
               övriga talarna anfört äro svårigheterna betydande, när det gäller
@@ -1079,7 +1092,7 @@
           <note type="date" n="42ca91d0">
             Fredagen den 29 april. 13
           </note>
-          <u who="unknown" xml:id="i-f491ca4a750147a8-1" n="c807c0eb">
+          <u who="unknown" xml:id="i-c807c0ebf096bc66-3" n="c807c0eb">
             <seg n="fe017c68">
               denna sak. Uppenbart är, att svårigheterna alltjämt ökas. Det
               är nämligen så, att medan man år 1921 hade en siffra på 158 stycken
@@ -1145,6 +1158,27 @@
               för att förläggning skulle kunna ordnas. Det är ju fråga om betydande
               kontingenter, som
             </seg>
+          </u>
+          <note n="39a1a64c">
+            Nr 39.
+          </note>
+          <note n="70a2b5fa">
+            Svar å interpellation. (Forts.)
+          </note>
+          <pb n="13" facs="https://betalab.kb.se/prot-1932--ak--39/prot_1932__ak__39-013.jp2/_view"/>
+          <note n="39a1a64c">
+            Nr 39.
+          </note>
+          <note n="353a4dcc">
+            Svar å interpellation.
+          </note>
+          <note n="fe5e7ba6">
+            (Forts. )
+          </note>
+          <note type="date" n="6ad7b943">
+            14 Fredagen den 29 april.
+          </note>
+          <u who="unknown" xml:id="i-c807c0ebf096bc66-4" n="c807c0eb">
             <seg n="0a52ad3f">
               kräva en viss bekvämlighet, motsvarande den som värnpliktiga
               i allmänhet åtnjuta. Under sådana förhållanden ansåge utredningsmännen
@@ -1199,29 +1233,10 @@
               som herr Olsson berörde.
             </seg>
           </u>
-          <note n="39a1a64c">
-            Nr 39.
-          </note>
-          <note n="70a2b5fa">
-            Svar å interpellation. (Forts.)
-          </note>
-          <pb n="13" facs="https://betalab.kb.se/prot-1932--ak--39/prot_1932__ak__39-013.jp2/_view"/>
-          <note n="39a1a64c">
-            Nr 39.
-          </note>
-          <note n="353a4dcc">
-            Svar å interpellation.
-          </note>
-          <note n="fe5e7ba6">
-            (Forts. )
-          </note>
-          <note type="date" n="6ad7b943">
-            14 Fredagen den 29 april.
-          </note>
           <note type="speaker" n="17f575b0">
             Herr Magnusson i Skövde:
           </note>
-          <u who="otto_magnusson_096c60" xml:id="i-c8c93b96baaeb312-1" next="i-dab304a29bff4d8a-1" n="f6353580">
+          <u who="otto_magnusson_096c60" xml:id="i-f6353580174c5f14-2" next="i-f6353580174c5f14-3" n="f6353580">
             <seg n="a0bb539e">
               Herr talman! Vad herr statsrådet sist anförde föranledde mig
               att begära ordet blott för att påpeka att den omständigheten,
@@ -1243,7 +1258,7 @@
           <note type="date" n="548a77fe">
             Fredagen den 29 april. 15
           </note>
-          <u who="otto_magnusson_096c60" xml:id="i-dab304a29bff4d8a-1" prev="i-c8c93b96baaeb312-1" n="f6353580">
+          <u who="otto_magnusson_096c60" xml:id="i-f6353580174c5f14-3" prev="i-f6353580174c5f14-2" n="f6353580">
             <seg n="27e160fc">
               selsätta, lära svårigheterna att blott använda dem till överflödsarbeten.
               bli domänstyrelsen övermäktiga på en sådan plats som Halle-Hunnebergs
@@ -1263,7 +1278,7 @@
           <note type="speaker" n="6c9cb5ee">
             Herr Olsson i Gävle:
           </note>
-          <u who="oscar_olsson_9c8ca4" xml:id="i-2798956de918c169-1" next="i-9cd333ab600a6123-1" n="16c82279">
+          <u who="oscar_olsson_9c8ca4" xml:id="i-059577c53fb80a45-2" next="i-059577c53fb80a45-3" n="16c82279">
             <seg n="9cffedb0">
               Herr talman! Jag inregistrerar med tacksamhet herr försvarsministerns
               förklaring och uttalande, att enligt hans mening man icke skall
@@ -1343,7 +1358,7 @@
             Anmäldes och godkändes följande förslag till riksdagens skrivelser
             till Konungen, nämligen:
           </note>
-          <u who="oscar_olsson_9c8ca4" xml:id="i-9cd333ab600a6123-1" prev="i-2798956de918c169-1" n="16c82279">
+          <u who="oscar_olsson_9c8ca4" xml:id="i-059577c53fb80a45-3" prev="i-059577c53fb80a45-2" n="16c82279">
             <seg n="4944bf04">
               från statsutskottet:
             </seg>

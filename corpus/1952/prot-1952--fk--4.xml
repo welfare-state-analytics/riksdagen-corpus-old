@@ -20,7 +20,7 @@
     <encodingDesc>
       <editorialDecl>
         <correction>
-          <p>Some data curation was done. It is documented in db/curation/instances</p>
+          <p>Some data curation was done. It is documented in input/curation/instances</p>
         </correction>
       </editorialDecl>
     </encodingDesc>
@@ -52,6 +52,8 @@
       <front>
         <div type="preface">
           <head>prot-1952--fk--4</head>
+          <docDate when="1935-01-30">1935-01-30</docDate>
+          <docDate when="1935-02-06">1935-02-06</docDate>
           <docDate when="1952-01-30">1952-01-30</docDate>
           <docDate when="1952-02-02">1952-02-02</docDate>
           <docDate when="1952-02-05">1952-02-05</docDate>
@@ -60,6 +62,7 @@
       </front>
       <body>
         <div>
+          <pb n="0" facs="https://betalab.kb.se/prot-1952--fk--4/prot_1952__fk__4-000.jp2/_view"/>
           <note n="8e014cf7">
             RIKSDAGENS Fl PROTOKOLL
           </note>
@@ -135,7 +138,7 @@
             1 Första kammarens protokoll 1952. Nr 4.
           </note>
           <pb n="2" facs="https://betalab.kb.se/prot-1952--fk--4/prot_1952__fk__4-002.jp2/_view"/>
-          <note n="11487b15">
+          <note type="date" n="20c2d426">
             Onsdagen den 30 januari 1952.
           </note>
           <note type="date" n="ec4c2039">
@@ -304,7 +307,7 @@
             nr 270, av herr Sundelin, i anledning av Kungl. Maj:ts framställning
             om anslag till stipendier åt lärjungar vid högre läroanstalter;
           </note>
-          <note n="1c345845">
+          <note type="date" n="aa96a145">
             Onsdagen den 30 januari 19352.
           </note>
           <note n="5e5f5e4b">
@@ -370,7 +373,7 @@
             nr 285, av herr Bergh, om visst mili-
           </note>
           <pb n="4" facs="https://betalab.kb.se/prot-1952--fk--4/prot_1952__fk__4-004.jp2/_view"/>
-          <note n="11487b15">
+          <note type="date" n="20c2d426">
             Onsdagen den 30 januari 1952.
           </note>
           <note n="53efe251">
@@ -572,7 +575,7 @@
             Föredrogos och hänvisades tiil kammarens allmänna beredningsutskott
             nedannämnda motioner:
           </note>
-          <note n="11487b15">
+          <note type="date" n="20c2d426">
             Onsdagen den 30 januari 1952.
           </note>
           <note n="1968940b">
@@ -628,7 +631,7 @@
             utredningsmaterial beträffande den framtida ungdomsvården m. m.;
           </note>
           <pb n="6" facs="https://betalab.kb.se/prot-1952--fk--4/prot_1952__fk__4-006.jp2/_view"/>
-          <note n="11487b15">
+          <note type="date" n="20c2d426">
             Onsdagen den 30 januari 1952.
           </note>
           <note n="618e80b8">
@@ -789,7 +792,7 @@
             nr 33, med förslag till förordning om fortsatt giltighet av förordningen
             den 8
           </note>
-          <note n="11487b15">
+          <note type="date" n="20c2d426">
             Onsdagen den 30 januari 1952.
           </note>
           <note n="66a1a70a">
@@ -817,7 +820,7 @@
             G. H. Berggren.
           </note>
           <pb n="8" facs="https://betalab.kb.se/prot-1952--fk--4/prot_1952__fk__4-008.jp2/_view"/>
-          <note n="4ea44fce">
+          <note type="date" n="72e30bce">
             Lördagen den 2 februari 1952.
           </note>
           <note type="date" n="1bf81962">
@@ -877,7 +880,7 @@
           <note type="speaker" n="a103a156">
             Herr MOGÅRD erhöll på begäran ordet och yttrade:
           </note>
-          <u who="bertil_mogard_529a14" xml:id="i-70e725239065e3d2-0" next="i-668dcf0d21dccc33-0" n="184cea64">
+          <u who="bertil_mogard_529a14" xml:id="i-184cea64efee805b-0" next="i-184cea64efee805b-4" n="184cea64">
             <seg n="a80f1fe2">
               Herr talman! En väsentlig del av landets musikaliska fostran
               liksom av det musikintresse, som förefinnes i landet, torde vila
@@ -919,7 +922,7 @@
             Interpellation ang. de statsunderstödda symfoniorkestrarnas ställning
             m. m.
           </note>
-          <u who="bertil_mogard_529a14" xml:id="i-668dcf0d21dccc33-0" prev="i-70e725239065e3d2-0" n="184cea64">
+          <u who="bertil_mogard_529a14" xml:id="i-184cea64efee805b-1" prev="i-184cea64efee805b-0" n="184cea64">
             <seg n="90d3da98">
               läget för orkesterföreningarnas pensionerade musiker. Man kan
               härigenom befara en mycket olycklig flykt från orkesterföreningarna
@@ -943,13 +946,6 @@
               om kammarens tillstånd att till statsrådet och chefen för ecklesiastikdepartementet
               få ställa följande frågor:
             </seg>
-            <seg n="333baeb7">
-              2) Vilka åtgärder kunna nu vidtagas för att ge dessa orkestrars
-              musiker och pensionärer ekonomisk trygghet och skälig kompensation
-              för dyrtiden?
-            </seg>
-            <seg n="5c18d21e"/>
-            <seg n="5c18d21e"/>
           </u>
           <note n="e2836bce">
             1) är herr statsrådet i tillfälle att lämna kammaren meddelande
@@ -957,6 +953,13 @@
             års musikutredning anfört i fråga om de statsunderstödda symfoniorkestrarna?
             och
           </note>
+          <u who="bertil_mogard_529a14" xml:id="i-184cea64efee805b-2" prev="i-184cea64efee805b-0" n="184cea64">
+            <seg n="333baeb7">
+              2) Vilka åtgärder kunna nu vidtagas för att ge dessa orkestrars
+              musiker och pensionärer ekonomisk trygghet och skälig kompensation
+              för dyrtiden?
+            </seg>
+          </u>
           <note n="b23a01dc">
             På gjord proposition medgav kammaren, att ifrågavarande spörsmål
             finge framställas.
@@ -1013,7 +1016,7 @@
             G. H. Berggren.
           </note>
           <pb n="10" facs="https://betalab.kb.se/prot-1952--fk--4/prot_1952__fk__4-010.jp2/_view"/>
-          <note n="35497748">
+          <note type="date" n="158bd702">
             Tisdagen den 5 februari 1952.
           </note>
           <note n="c5df032e">
@@ -1025,6 +1028,7 @@
           <note n="3916fbe6">
             Kammaren sammanträdde kl. 4 eftermiddagen.
           </note>
+          <u who="bertil_mogard_529a14" xml:id="i-184cea64efee805b-3" prev="i-184cea64efee805b-0" n="184cea64"/>
           <note n="ed159a86">
             Fru Lindström anmälde, att hon åter infunnit sig vid riksdagen.
           </note>
@@ -1060,6 +1064,7 @@
             nr 39, med förslag till lag angående ändring i lagen den 30 juni
             1943 (nr 431) om allmänna vägar, m. m.
           </note>
+          <u who="bertil_mogard_529a14" xml:id="i-184cea64efee805b-4" prev="i-184cea64efee805b-0" n="184cea64"/>
           <note n="e1716af0">
             Föredrogos och bordlades ånyo konstitutionsutskottets utlåtanden
             nr 1 och 2, statsutskottets utlåtande nr 23 samt andra lagutskottets
@@ -1085,7 +1090,7 @@
           <note type="speaker" n="b46f44fd">
             Herr LUNDGREN erhöll på begäran ordet och anförde:
           </note>
-          <u who="per_lundgren_9faf40" xml:id="i-6a08bb1297b8ff02-0" next="i-736dc1f0128fbd21-0" n="5ec00d8f">
+          <u who="per_lundgren_9faf40" xml:id="i-5ec00d8f462498c0-0" next="i-5ec00d8f462498c0-1" n="5ec00d8f">
             <seg n="57058135">
               Herr talman! Enligt polislagen 8 15 skall stad, som håller statspolis,
               få full ersättning för de verkliga kostnaderna härför, däri inbegripna
@@ -1109,13 +1114,13 @@
           <note n="5ae5d412">
             12 Nr 4.
           </note>
-          <note n="35497748">
+          <note type="date" n="158bd702">
             Tisdagen den 5 februari 1952.
           </note>
           <note n="9fdbb243">
             Interpellation ang. städernas kostnader för pensionering av statspolismän.
           </note>
-          <u who="per_lundgren_9faf40" xml:id="i-736dc1f0128fbd21-0" prev="i-6a08bb1297b8ff02-0" n="5ec00d8f">
+          <u who="per_lundgren_9faf40" xml:id="i-5ec00d8f462498c0-1" prev="i-5ec00d8f462498c0-0" n="5ec00d8f">
             <seg n="1dd5476d">
               högre än det statsbidrag som städerna få för detta ändamål. De
               få alltså icke den ersättning för hållandet av statspolis som
@@ -1167,7 +1172,7 @@
             G. H. Berggren.
           </note>
           <pb n="12" facs="https://betalab.kb.se/prot-1952--fk--4/prot_1952__fk__4-012.jp2/_view"/>
-          <note n="3526bfc2">
+          <note type="date" n="90b5b999">
             Onsdagen den 6 februari 1952.
           </note>
           <note n="28acaf10">
@@ -1182,7 +1187,7 @@
           <note type="speaker" n="cb3480ab">
             Herr TALMANNEN yttrade:
           </note>
-          <u who="unknown" xml:id="i-58151f7bcb42dfac-0" n="21868503">
+          <u who="unknown" xml:id="i-218685037b12c612-0" n="21868503">
             <seg n="40319c14">
               Englands konung är död. Ehuru hans hälsa under senare tid varit
               vacklande, har dock dödsbudet kommit helt oväntat. Den bortgångne
@@ -1200,7 +1205,7 @@
           <note n="8a0c1fb1">
             Detta anförande åhördes av kammarens ledamöter stående.
           </note>
-          <u who="unknown" xml:id="i-a42c0186f3975853-0" n="21868503">
+          <u who="unknown" xml:id="i-218685037b12c612-1" n="21868503">
             <seg n="58a15e3d">
               Om bättre beredskap mot muloch klövsjukan.
             </seg>
@@ -1212,6 +1217,15 @@
               angrepp av muloch klövsjukan än som varit fallet då den nu grasserande
               epizootien ankom?»
             </seg>
+          </u>
+          <note n="9713c96e">
+            Herr statsrådet och chefen för jordbruksdepartementet NORUP,
+            som tiilkännagivit att han hade för avsikt att vid detta sammanträde
+            besvara nämnda fråga, erhöll ordet och anförde: Herr talman! Med
+            första kammarens tillstånd har herr B. A. Nilsson frågat mig,
+            om
+          </note>
+          <u who="unknown" xml:id="i-218685037b12c612-2" n="21868503">
             <seg n="c68e8bc5">
               jag ämnar vidtaga åtgärder för att vårt land må vara bättre rustat
               att möta ett eventuellt angrepp av muloch klövsjuka än vad som
@@ -1234,17 +1248,10 @@
               är möjligt att få den utan att kostnaderna bli orimligt stora.
             </seg>
           </u>
-          <note n="9713c96e">
-            Herr statsrådet och chefen för jordbruksdepartementet NORUP,
-            som tiilkännagivit att han hade för avsikt att vid detta sammanträde
-            besvara nämnda fråga, erhöll ordet och anförde: Herr talman! Med
-            första kammarens tillstånd har herr B. A. Nilsson frågat mig,
-            om
-          </note>
           <note type="speaker" n="fc5b174c">
             Herr NILSSON, BROR:
           </note>
-          <u who="torsten_nilsson_420e37" xml:id="i-74da2a287c642929-0" next="i-957b898cb8f028da-0" n="ea73d04a">
+          <u who="torsten_nilsson_420e37" xml:id="i-0ee6e90f2da98558-0" next="i-0ee6e90f2da98558-1" n="ea73d04a">
             <seg n="bc978d45">
               Herr talman! Jag ber att få tacka herr statsrådet och chefen
               för jordbruksdepartementet för det snabba svaret på min fråga.
@@ -1266,7 +1273,7 @@
             Kungl. Maj:ts proposition nr 40, med förslag till lag om sammanföring
             av samfälld vägmark med angränsande fastighet m. m.
           </note>
-          <u who="torsten_nilsson_420e37" xml:id="i-957b898cb8f028da-0" prev="i-74da2a287c642929-0" n="ea73d04a">
+          <u who="torsten_nilsson_420e37" xml:id="i-0ee6e90f2da98558-1" prev="i-0ee6e90f2da98558-0" n="ea73d04a">
             <seg n="5c18d21e"/>
           </u>
           <note n="3916d242">
@@ -1314,7 +1321,7 @@
             570) om anställande av distriktsbarnmorskor m. m., bifölls vad
             utskottet i detta utlåtande hemställt.
           </note>
-          <note n="3526bfc2">
+          <note type="date" n="90b5b999">
             Onsdagen den 6 februari 1952.
           </note>
           <note n="759cec6c">
@@ -1363,7 +1370,7 @@
             och II: 413 bifalla förevarande proposition.
           </note>
           <pb n="14" facs="https://betalab.kb.se/prot-1952--fk--4/prot_1952__fk__4-014.jp2/_view"/>
-          <note n="3526bfc2">
+          <note type="date" n="90b5b999">
             Onsdagen den 6 februari 1952.
           </note>
           <note n="e0ece311">
@@ -1375,7 +1382,7 @@
           <note type="speaker" n="30a242b7">
             Herr PERSSON, OLA:
           </note>
-          <u who="sven_persson_57201c" xml:id="i-8cac7e1d6572e9cf-0" n="c37a8fed">
+          <u who="sven_persson_57201c" xml:id="i-2079bb63529fb46e-0" n="c37a8fed">
             <seg n="fdc132a5">
               Herr talman! Utskottet tillstyrker enhälligt propositionen om
               förlängning av tjänstgöringstiden med 20 dagar för huvuddelen
@@ -1437,7 +1444,7 @@
           <note type="speaker" n="472882fc">
             Herr NORMAN:
           </note>
-          <u who="david_norman_bc42aa" xml:id="i-e93c8bbc1e87d0a7-0" next="i-4cf613441f678cee-0" n="8eaf85fd">
+          <u who="david_norman_bc42aa" xml:id="i-8eaf85fde94ff336-0" next="i-8eaf85fde94ff336-1" n="8eaf85fd">
             <seg n="131e38d1">
               Herr talman! När tiden för den första tjänstgöringen sänktes
               först till elva månader och sedan till nio, sades det uttryckligen
@@ -1466,13 +1473,13 @@
           <note n="f629885f">
             16 Nr 4.
           </note>
-          <note n="3526bfc2">
+          <note type="date" n="90b5b999">
             Onsdagen den 6 februari 1952.
           </note>
           <note n="759cec6c">
             Ang. förlängd tjänstgöring för arméns värnpliktiga.
           </note>
-          <u who="david_norman_bc42aa" xml:id="i-4cf613441f678cee-0" prev="i-e93c8bbc1e87d0a7-0" n="8eaf85fd">
+          <u who="david_norman_bc42aa" xml:id="i-8eaf85fde94ff336-1" prev="i-8eaf85fde94ff336-0" n="8eaf85fd">
             <seg n="43abf179">
               vi nu fått denna proposition. Med utgångspunkt alltså från vad
               som tidigare har förevarit i frågan och mot bakgrunden av att
@@ -1502,7 +1509,7 @@
           <note type="speaker" n="6db3db68">
             Herr ANDRE VICE TALMANNEN:
           </note>
-          <u who="unknown" xml:id="i-58151f7bcb42dfac-1" n="21868503">
+          <u who="unknown" xml:id="i-218685037b12c612-3" n="21868503">
             <seg n="12b3b4d2">
               Herr talman! Eftersom det har blivit diskussion i ärendet kanske
               det kan få framhållas några synpunkter även från det håll som
@@ -1557,13 +1564,13 @@
             </seg>
           </u>
           <pb n="16" facs="https://betalab.kb.se/prot-1952--fk--4/prot_1952__fk__4-016.jp2/_view"/>
-          <note n="3526bfc2">
+          <note type="date" n="90b5b999">
             Onsdagen den 6 februari 1952.
           </note>
           <note n="917f377c">
             Nr 4. 17
           </note>
-          <u who="unknown" xml:id="i-a42c0186f3975853-1" n="21868503">
+          <u who="unknown" xml:id="i-218685037b12c612-4" n="21868503">
             <seg n="e2e51561">
               Om indexreglering av värnpliktigs familjepenning.
             </seg>
@@ -1594,7 +1601,7 @@
           <note type="speaker" n="c4f5eec6">
             Herr OLA PERSSON:
           </note>
-          <u who="ola_persson_d33b74" xml:id="i-885cb289ffe1a2ea-0" n="4fad41c1">
+          <u who="ola_persson_d33b74" xml:id="i-2079bb63529fb46e-1" n="4fad41c1">
             <seg n="6e8de2b1">
               Herr talman! Till utskottets ärade ordförande, som anmärkte på
               hänvisningen till en huvudmotion, vill jag säga att det är fel
@@ -1618,7 +1625,7 @@
           <note type="speaker" n="748fa5be">
             Herr SJÖDAHL:
           </note>
-          <u who="edgar_sjodahl_c32dc0" xml:id="i-ee76145538a89886-0" next="i-6d075cfc1bb3c53f-0" n="d92a70c3">
+          <u who="edgar_sjodahl_c32dc0" xml:id="i-d92a70c32900df3e-0" next="i-d92a70c32900df3e-3" n="d92a70c3">
             <seg n="1b019e5e">
               Herr talman! Jag skulle bara vilja till herr Ola Persson på göteborgsbänken
               rikta en fråga och samtidigt lämna en räkneuppgift. Detta må kanske
@@ -1654,17 +1661,9 @@
             och förklarades den förra propositionen, som upprepades, vara
             med övervägande ja besvarad.
           </note>
-          <u who="edgar_sjodahl_c32dc0" xml:id="i-6d075cfc1bb3c53f-0" prev="i-ee76145538a89886-0" n="d92a70c3">
+          <u who="edgar_sjodahl_c32dc0" xml:id="i-d92a70c32900df3e-1" prev="i-d92a70c32900df3e-0" n="d92a70c3">
             <seg n="e2e51561">
               Om indexreglering av värnpliktigs familjepenning.
-            </seg>
-            <seg n="e2e51561">
-              Om indexreglering av värnpliktigs familjepenning.
-            </seg>
-            <seg n="65513487">
-              Det av Kungl. Maj:t framlagda förslaget avsåg en av levnadskostnadernas
-              stegring betingad höjning av nu gällande maximibelopp för värnpliktigs
-              familjepenning.
             </seg>
           </u>
           <note n="f66e0ccb">
@@ -1676,9 +1675,14 @@
           <note n="d67fcbc5">
             18 Nr 4.
           </note>
-          <note n="3526bfc2">
+          <note type="date" n="90b5b999">
             Onsdagen den 6 februari 1952.
           </note>
+          <u who="edgar_sjodahl_c32dc0" xml:id="i-d92a70c32900df3e-2" prev="i-d92a70c32900df3e-0" n="d92a70c3">
+            <seg n="e2e51561">
+              Om indexreglering av värnpliktigs familjepenning.
+            </seg>
+          </u>
           <note n="0324b987">
             förordningen den 29 mars 1946 (nr 99), dels ock i ämnet väckta
             motioner.
@@ -1690,6 +1694,13 @@
             fogat förslag till förordning om ändring i 6 8 familjebidragsförordningen
             den 29 mars 1946 (nr 99).
           </note>
+          <u who="edgar_sjodahl_c32dc0" xml:id="i-d92a70c32900df3e-3" prev="i-d92a70c32900df3e-0" n="d92a70c3">
+            <seg n="65513487">
+              Det av Kungl. Maj:t framlagda förslaget avsåg en av levnadskostnadernas
+              stegring betingad höjning av nu gällande maximibelopp för värnpliktigs
+              familjepenning.
+            </seg>
+          </u>
           <note n="f6c47e5a">
             I samband med propositionen hade utskottet till behandling förehaft
             två i anledning av densamma väckta motioner, nämligen inom första
@@ -1740,7 +1751,7 @@
           <note type="speaker" n="395bda7f">
             Herr SUNNE:
           </note>
-          <u who="johan_sunne_bf4497" xml:id="i-f6bf83d05fc10373-0" next="i-e43429d2a355ac66-0" n="e7730ec2">
+          <u who="johan_sunne_bf4497" xml:id="i-e7730ec20a901774-0" next="i-e7730ec20a901774-2" n="e7730ec2">
             <seg n="fb6d30f0">
               Herr talman! I proposition nr 19 har statsrådet och chefen för
               försvarsdepartementet föreslagit att maximibeloppen för familjepenning
@@ -1775,13 +1786,13 @@
             </seg>
           </u>
           <pb n="18" facs="https://betalab.kb.se/prot-1952--fk--4/prot_1952__fk__4-018.jp2/_view"/>
-          <note n="3526bfc2">
+          <note type="date" n="90b5b999">
             Onsdagen den 6 februari 1952.
           </note>
           <note n="719b2783">
             Nr 4, 19
           </note>
-          <u who="johan_sunne_bf4497" xml:id="i-e43429d2a355ac66-0" prev="i-f6bf83d05fc10373-0" n="e7730ec2">
+          <u who="johan_sunne_bf4497" xml:id="i-e7730ec20a901774-1" prev="i-e7730ec20a901774-0" n="e7730ec2">
             <seg n="e2e51561">
               Om indexreglering av värnpliktigs familjepenning.
             </seg>
@@ -1847,6 +1858,28 @@
               denna tanke. Uttalandet innebär kanske ett löfte för framtiden,
               även om innebörden kan uttryckas med de bekanta or-
             </seg>
+          </u>
+          <note n="5884a9fe">
+            den: »Orsa kompani lovar ingenting bestämt.» I motion nr 313
+            i denna kammare
+          </note>
+          <note n="492492cb">
+            och 414 i andra kammaren har föreslagits, att riksdagen måtte
+            i skrivelse till Kungl. Maj:t begära utredning angående automatisk
+            indexreglering av familjepenningen samt rörande bestämmelser om
+            förlängt familjebidrag för värnpliktiga, som fullgöra första tjänstgöring.
+            I motionen framhålles att värnpliktiga, som inkallas till övningar
+            under kor: tare eller Jängre tid, i vissa fall få göra icke oväsentliga
+            ekonomiska uppoffringar. Detta gäller särskilt de något
+          </note>
+          <pb n="19" facs="https://betalab.kb.se/prot-1952--fk--4/prot_1952__fk__4-019.jp2/_view"/>
+          <note n="a495b06e">
+            20 Nr 4.
+          </note>
+          <note type="date" n="90b5b999">
+            Onsdagen den 6 februari 1952.
+          </note>
+          <u who="johan_sunne_bf4497" xml:id="i-e7730ec20a901774-2" prev="i-e7730ec20a901774-0" n="e7730ec2">
             <seg n="e2e51561">
               Om indexreglering av värnpliktigs familjepenning.
             </seg>
@@ -1894,30 +1927,10 @@
               den vid utskottsutlåtandet fogade reservationen.
             </seg>
           </u>
-          <note n="5884a9fe">
-            den: »Orsa kompani lovar ingenting bestämt.» I motion nr 313
-            i denna kammare
-          </note>
-          <note n="492492cb">
-            och 414 i andra kammaren har föreslagits, att riksdagen måtte
-            i skrivelse till Kungl. Maj:t begära utredning angående automatisk
-            indexreglering av familjepenningen samt rörande bestämmelser om
-            förlängt familjebidrag för värnpliktiga, som fullgöra första tjänstgöring.
-            I motionen framhålles att värnpliktiga, som inkallas till övningar
-            under kor: tare eller Jängre tid, i vissa fall få göra icke oväsentliga
-            ekonomiska uppoffringar. Detta gäller särskilt de något
-          </note>
-          <pb n="19" facs="https://betalab.kb.se/prot-1952--fk--4/prot_1952__fk__4-019.jp2/_view"/>
-          <note n="a495b06e">
-            20 Nr 4.
-          </note>
-          <note n="3526bfc2">
-            Onsdagen den 6 februari 1952.
-          </note>
           <note type="speaker" n="8c0e0c86">
             Herr SÖDERQUIST:
           </note>
-          <u who="unknown" xml:id="i-e3c0e9e0b8b1b750-0" n="21868503">
+          <u who="unknown" xml:id="i-218685037b12c612-5" n="21868503">
             <seg n="23b8ced5">
               Herr talman! Jag ber att som motionär i detta ärende få säga
               några ord.
@@ -1958,19 +1971,19 @@
           <note type="speaker" n="472882fc">
             Herr NORMAN:
           </note>
-          <u who="david_norman_bc42aa" xml:id="i-e93c8bbc1e87d0a7-1" next="i-4cf613441f678cee-1" n="8eaf85fd">
+          <u who="david_norman_bc42aa" xml:id="i-8eaf85fde94ff336-2" next="i-8eaf85fde94ff336-4" n="8eaf85fd">
             <seg n="e665288f">
               Herr talman! Personligen har jag haft ett särskilt skäl att in-
             </seg>
           </u>
           <pb n="20" facs="https://betalab.kb.se/prot-1952--fk--4/prot_1952__fk__4-020.jp2/_view"/>
-          <note n="5c5c4780">
+          <note type="date" n="4cf41cfb">
             Onsdagen den 6 februari 19352.
           </note>
           <note n="ee6014a1">
             Nr 4. 21
           </note>
-          <u who="david_norman_bc42aa" xml:id="i-4cf613441f678cee-1" prev="i-e93c8bbc1e87d0a7-1" n="8eaf85fd">
+          <u who="david_norman_bc42aa" xml:id="i-8eaf85fde94ff336-3" prev="i-8eaf85fde94ff336-2" n="8eaf85fd">
             <seg n="e2e51561">
               Om indexreglering av värnpliktigs familjepenning.
             </seg>
@@ -2060,6 +2073,15 @@
               se till att det inte blir någon ytterligare försämring i läget
               för de värn-
             </seg>
+          </u>
+          <pb n="21" facs="https://betalab.kb.se/prot-1952--fk--4/prot_1952__fk__4-021.jp2/_view"/>
+          <note n="eb04108c">
+            22 Nr 4.
+          </note>
+          <note type="date" n="90b5b999">
+            Onsdagen den 6 februari 1952.
+          </note>
+          <u who="david_norman_bc42aa" xml:id="i-8eaf85fde94ff336-4" prev="i-8eaf85fde94ff336-2" n="8eaf85fd">
             <seg n="e2e51561">
               Om indexreglering av värnpliktigs familjepenning.
             </seg>
@@ -2112,20 +2134,13 @@
               mest beaktansvärt.
             </seg>
           </u>
-          <pb n="21" facs="https://betalab.kb.se/prot-1952--fk--4/prot_1952__fk__4-021.jp2/_view"/>
-          <note n="eb04108c">
-            22 Nr 4.
-          </note>
-          <note n="3526bfc2">
-            Onsdagen den 6 februari 1952.
-          </note>
           <note n="dada974e">
             Jag hemställer om bifall till utskottets förslag.
           </note>
           <note type="speaker" n="8c0e0c86">
             Herr SÖDERQUIST:
           </note>
-          <u who="unknown" xml:id="i-e3c0e9e0b8b1b750-1" n="21868503">
+          <u who="unknown" xml:id="i-218685037b12c612-6" n="21868503">
             <seg n="e302c6d9">
               Herr talman! Herr Norman säger, att man inte lämpligen skulle
               kunna registrera varje förändring beträffande penningvärdet och
@@ -2157,7 +2172,7 @@
           <note type="speaker" n="472882fc">
             Herr NORMAN:
           </note>
-          <u who="david_norman_bc42aa" xml:id="i-e93c8bbc1e87d0a7-2" next="i-4cf613441f678cee-2" n="8eaf85fd">
+          <u who="david_norman_bc42aa" xml:id="i-8eaf85fde94ff336-5" next="i-8eaf85fde94ff336-6" n="8eaf85fd">
             <seg n="6452c356">
               Herr talman! När herr Söderquist här talade om de nuvarande tillämpningsreglerna
               kommer jag att tänka på att jag faktiskt glömt säga en sak, nämligen
@@ -2165,13 +2180,13 @@
             </seg>
           </u>
           <pb n="22" facs="https://betalab.kb.se/prot-1952--fk--4/prot_1952__fk__4-022.jp2/_view"/>
-          <note n="3526bfc2">
+          <note type="date" n="90b5b999">
             Onsdagen den 6 februari 1952.
           </note>
           <note n="61040ccc">
             Nr 4. 23
           </note>
-          <u who="david_norman_bc42aa" xml:id="i-4cf613441f678cee-2" prev="i-e93c8bbc1e87d0a7-2" n="8eaf85fd">
+          <u who="david_norman_bc42aa" xml:id="i-8eaf85fde94ff336-6" prev="i-8eaf85fde94ff336-5" n="8eaf85fd">
             <seg n="e2e51561">
               Om indexreglering av värnpliktigs familjepenning.
             </seg>
@@ -2191,7 +2206,7 @@
           <note type="speaker" n="00baf647">
             Herr BENGTSON:
           </note>
-          <u who="unknown" xml:id="i-58151f7bcb42dfac-2" n="21868503">
+          <u who="unknown" xml:id="i-218685037b12c612-7" n="21868503">
             <seg n="c490cef9">
               Herr talman! Man måste ställa sig betänksam till en indexreglering
               av löner och sådana förmåner, som kunna verka direkt inflationsdrivande.
@@ -2262,10 +2277,10 @@
           <note n="987a787d">
             24 Nr 4.
           </note>
-          <note n="3526bfc2">
+          <note type="date" n="90b5b999">
             Onsdagen den 6 februari 1952.
           </note>
-          <u who="unknown" xml:id="i-a42c0186f3975853-2" n="21868503">
+          <u who="unknown" xml:id="i-218685037b12c612-8" n="21868503">
             <seg n="e2e51561">
               Om indexreglering av värnpliktigs familjepenning.
             </seg>
@@ -2315,7 +2330,7 @@
           <note type="speaker" n="395bda7f">
             Herr SUNNE:
           </note>
-          <u who="johan_sunne_bf4497" xml:id="i-9b83484ccd534666-0" n="e7730ec2">
+          <u who="johan_sunne_bf4497" xml:id="i-e7730ec20a901774-3" n="e7730ec2">
             <seg n="b0c8c12b">
               Herr talman! Utskottets ärade ordförande nämnde att han gärna
               skulle se, att man kunde komma bort från indextänkandet och införa
@@ -2354,7 +2369,7 @@
           <note type="speaker" n="020d196f">
             Herr WISTRAND:
           </note>
-          <u who="karl_wistrand_ca0ba6" xml:id="i-5b0b852c071a0883-0" next="i-7eb94c25b46fb937-0" n="c4bb4183">
+          <u who="karl_wistrand_ca0ba6" xml:id="i-c4bb4183aab43fd0-0" next="i-c4bb4183aab43fd0-2" n="c4bb4183">
             <seg n="8bce77d1">
               Herr talman! Jag har i utskottet medverkat till att ifrågavarande
               familjebidrag höjas till ett belopp som i denna stund ger kompensation
@@ -2362,13 +2377,13 @@
             </seg>
           </u>
           <pb n="24" facs="https://betalab.kb.se/prot-1952--fk--4/prot_1952__fk__4-024.jp2/_view"/>
-          <note n="3526bfc2">
+          <note type="date" n="90b5b999">
             Onsdagen den 6 februari 1952.
           </note>
           <note n="979d6091">
             Nr 4. 25
           </note>
-          <u who="karl_wistrand_ca0ba6" xml:id="i-7eb94c25b46fb937-0" prev="i-5b0b852c071a0883-0" n="c4bb4183">
+          <u who="karl_wistrand_ca0ba6" xml:id="i-c4bb4183aab43fd0-1" prev="i-c4bb4183aab43fd0-0" n="c4bb4183">
             <seg n="e2e51561">
               Om indexreglering av värnpliktigs familjepenning.
             </seg>
@@ -2421,18 +2436,20 @@
               Vi böra sålunda enligt min mening vara en smula försiktiga, innan
               vi rent förutsättningslöst binda staten vid ut-
             </seg>
+          </u>
+          <note n="019a9e39">
+            Första kammarens protokoll 1952. Nr 4.
+          </note>
+          <u who="karl_wistrand_ca0ba6" xml:id="i-c4bb4183aab43fd0-2" prev="i-c4bb4183aab43fd0-0" n="c4bb4183">
             <seg n="0edcd769">
               giftsökningar, som vi inte veta hur de komma att motsvara våra
               finansiella möjligheter i ett framtida läge.
             </seg>
           </u>
-          <note n="019a9e39">
-            Första kammarens protokoll 1952. Nr 4.
-          </note>
           <note type="speaker" n="472882fc">
             Herr NORMAN:
           </note>
-          <u who="david_norman_bc42aa" xml:id="i-c929fba02f593f72-0" n="8eaf85fd">
+          <u who="david_norman_bc42aa" xml:id="i-8eaf85fde94ff336-7" n="8eaf85fd">
             <seg n="c2f47caa">
               Herr talman! Herr Sunne är pessimist. Han säger: »Vi se, hur
               penningvärdet försämras undan för undan. Här har nu indexsiffran
@@ -2456,7 +2473,7 @@
           <note type="speaker" n="00baf647">
             Herr BENGTSON:
           </note>
-          <u who="unknown" xml:id="i-58151f7bcb42dfac-3" n="21868503">
+          <u who="unknown" xml:id="i-218685037b12c612-9" n="21868503">
             <seg n="965f4c08">
               Herr talman! När herr Wistrand säger, att de sociala förmånerna
               ha samma inflationspådrivande verkan som lönerna, kan man säga
@@ -2483,10 +2500,10 @@
           <note n="6ad3d9f0">
             26 Nr 4.
           </note>
-          <note n="5c5c4780">
+          <note type="date" n="4cf41cfb">
             Onsdagen den 6 februari 19352.
           </note>
-          <u who="unknown" xml:id="i-a42c0186f3975853-3" n="21868503">
+          <u who="unknown" xml:id="i-218685037b12c612-10" n="21868503">
             <seg n="e2e51561">
               Om indexreglering av värnpliktigs familjepenning.
             </seg>
@@ -2503,7 +2520,7 @@
           <note type="speaker" n="020d196f">
             Herr WISTRAND:
           </note>
-          <u who="karl_wistrand_ca0ba6" xml:id="i-2b6e2f4567436a9c-0" n="c4bb4183">
+          <u who="karl_wistrand_ca0ba6" xml:id="i-c4bb4183aab43fd0-3" n="c4bb4183">
             <seg n="ae234787">
               Herr talman! Det är visserligen riktigt, att personer, som komma
               i åtnjutande av dessa sociala förmåner, i allmänhet inte ha stöd
@@ -2515,7 +2532,7 @@
           <note type="speaker" n="395bda7f">
             Herr SUNNE:
           </note>
-          <u who="johan_sunne_bf4497" xml:id="i-f6bf83d05fc10373-1" next="i-e43429d2a355ac66-1" n="e7730ec2">
+          <u who="johan_sunne_bf4497" xml:id="i-e7730ec20a901774-4" next="i-e7730ec20a901774-5" n="e7730ec2">
             <seg n="09a34953">
               Herr talman! Herr ordföranden i andra lagutskottet är så optimistisk,
               att han blivit lyrisk. Jag undrar, hur pass mycket optimism han
@@ -2591,7 +2608,7 @@
             utskottsbetänkande fattade samma beslut som första kammaren.
           </note>
           <pb n="26" facs="https://betalab.kb.se/prot-1952--fk--4/prot_1952__fk__4-026.jp2/_view"/>
-          <note n="3526bfc2">
+          <note type="date" n="90b5b999">
             Onsdagen den 6 februari 1952.
           </note>
           <note n="bb97e8c1">
@@ -2608,7 +2625,7 @@
             nr 41, om godkännande av protokoll angående handelsutbytet mellan
             Sverige och Portugal m. m.; samt
           </note>
-          <u who="johan_sunne_bf4497" xml:id="i-e43429d2a355ac66-1" prev="i-f6bf83d05fc10373-1" n="e7730ec2">
+          <u who="johan_sunne_bf4497" xml:id="i-e7730ec20a901774-5" prev="i-e7730ec20a901774-4" n="e7730ec2">
             <seg n="c78f8444">
               nor 44, angående anslag för budgetåret 1952/53 till lindring
               i mindre bemedlades kostnader för djursjukvård.
@@ -2664,7 +2681,7 @@
           <note type="speaker" n="8dc06d85">
             Ordet lämnades på begäran till herr LUNDGREN, som yttrade:
           </note>
-          <u who="per_lundgren_9faf40" xml:id="i-6a08bb1297b8ff02-1" next="i-736dc1f0128fbd21-1" n="5ec00d8f">
+          <u who="per_lundgren_9faf40" xml:id="i-5ec00d8f462498c0-2" next="i-5ec00d8f462498c0-3" n="5ec00d8f">
             <seg n="08f849cc">
               Herr talman! Umeå stads elverk har i skrivelse till kontrollstyrelsen
               den ”/; 1951 hemställt, att kontrollstyrelsen måtte medgiva att
@@ -2703,13 +2720,13 @@
           <note n="22e61412">
             28 Nr 4.
           </note>
-          <note n="3526bfc2">
+          <note type="date" n="90b5b999">
             Onsdagen den 6 februari 1952.
           </note>
           <note n="489a4467">
             Interpellation ang. beskattningen av elverkens kraftöverskott.
           </note>
-          <u who="per_lundgren_9faf40" xml:id="i-736dc1f0128fbd21-1" prev="i-6a08bb1297b8ff02-1" n="5ec00d8f">
+          <u who="per_lundgren_9faf40" xml:id="i-5ec00d8f462498c0-3" prev="i-5ec00d8f462498c0-2" n="5ec00d8f">
             <seg n="ad10f691">
               finansdepartementet få framställa följande frågor:
             </seg>

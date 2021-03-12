@@ -20,7 +20,7 @@
     <encodingDesc>
       <editorialDecl>
         <correction>
-          <p>Some data curation was done. It is documented in db/curation/instances</p>
+          <p>Some data curation was done. It is documented in input/curation/instances</p>
         </correction>
       </editorialDecl>
     </encodingDesc>
@@ -52,6 +52,7 @@
       <front>
         <div type="preface">
           <head>prot-1958-a-fk--15</head>
+          <docDate when="1935-04-18">1935-04-18</docDate>
           <docDate when="1958-04-17">1958-04-17</docDate>
           <docDate when="1958-04-18">1958-04-18</docDate>
           <docDate when="1958-04-19">1958-04-19</docDate>
@@ -59,6 +60,7 @@
       </front>
       <body>
         <div>
+          <pb n="0" facs="https://betalab.kb.se/prot-1958-a-fk--15/prot_1958_a_fk__15-000.jp2/_view"/>
           <note n="adfcc2da">
             RIKSDAGENS PROTOKOLL
           </note>
@@ -102,7 +104,7 @@
             38 Ändringar i vägtrafikförordningen m, IM, s.sssssesreses ser
             sees 44
           </note>
-          <note n="5485144a">
+          <note type="date" n="e7661116">
             Samtliga avgjorda ärenden Fredagen den 18 april
           </note>
           <note n="103aeb3c">
@@ -161,7 +163,7 @@
             44
           </note>
           <pb n="2" facs="https://betalab.kb.se/prot-1958-a-fk--15/prot_1958_a_fk__15-002.jp2/_view"/>
-          <note n="82419747">
+          <note type="date" n="4c5687e8">
             Torsdagen den 17 april 1958
           </note>
           <note n="ee832c9a">
@@ -249,7 +251,7 @@
           <note n="dec69d0e">
             4 Nr 15
           </note>
-          <note n="47441d7b">
+          <note type="date" n="14215bc3">
             Fredagen den 18 april 1958
           </note>
           <note type="date" n="7a87a38f">
@@ -347,7 +349,7 @@
             regeringens syn på konjunk-
           </note>
           <pb n="4" facs="https://betalab.kb.se/prot-1958-a-fk--15/prot_1958_a_fk__15-004.jp2/_view"/>
-          <note n="47441d7b">
+          <note type="date" n="14215bc3">
             Fredagen den 18 april 1958
           </note>
           <note n="b1b76e33">
@@ -419,7 +421,7 @@
           <note type="speaker" n="4de1f13e">
             Herr SUNDIN (cp):
           </note>
-          <u who="sven_sundin_f0cdf1" xml:id="i-751c5e412ca594d0-0" next="i-281eb526fe923138-0" n="c262c6ce">
+          <u who="sven_sundin_f0cdf1" xml:id="i-c262c6ce64e05f49-0" next="i-c262c6ce64e05f49-3" n="c262c6ce">
             <seg n="fad2d379">
               Herr talman! Jag ber att till statsrådet och chefen för finansdepartementet
               få framföra mitt tack för det svar som han har lämnat på min interpellation.
@@ -455,7 +457,7 @@
           <note n="7c99ca7d">
             6 Nr 15 Fredagen den
           </note>
-          <u who="sven_sundin_f0cdf1" xml:id="i-281eb526fe923138-0" prev="i-751c5e412ca594d0-0" n="c262c6ce">
+          <u who="sven_sundin_f0cdf1" xml:id="i-c262c6ce64e05f49-1" prev="i-c262c6ce64e05f49-0" n="c262c6ce">
             <seg n="484a707d">
               Ang. en redogörelse för regeringens syn minna om vad jag har
               sagt i min interpellation, nämligen att den regering, som fanns
@@ -501,6 +503,14 @@
             <seg n="f8a90a6d">
               Därutöver vill jag bara framföra några principiella synpunkter.
             </seg>
+          </u>
+          <note n="63d52811">
+            18 april 1958
+          </note>
+          <note n="fc7db76c">
+            på konjunkturpolitiken m. m.
+          </note>
+          <u who="sven_sundin_f0cdf1" xml:id="i-c262c6ce64e05f49-2" prev="i-c262c6ce64e05f49-0" n="c262c6ce">
             <seg n="34b739b8">
               I varje dagstidning som vi slår upp får vi läsa om nedläggande
               av driften vid de eller de industrierna eller också om indragning
@@ -542,22 +552,9 @@
               Herr talman! Allra sist vill jag hop-
             </seg>
             <seg n="11088a74"/>
-            <seg n="018567a7">
-              pas att det, som finansministern inte har skrivit i sitt svar,
-              skall vara till finnandes mellan raderna på ett sådant sätt, att
-              småföretagsamheten och jordbruket i vårt land inom en mycket snar
-              framtid skall få uppleva, att en räntesänkning förverkligas under
-              medverkan av finansministern.
-            </seg>
           </u>
-          <note n="63d52811">
-            18 april 1958
-          </note>
-          <note n="fc7db76c">
-            på konjunkturpolitiken m. m.
-          </note>
           <pb n="6" facs="https://betalab.kb.se/prot-1958-a-fk--15/prot_1958_a_fk__15-006.jp2/_view"/>
-          <note n="47441d7b">
+          <note type="date" n="14215bc3">
             Fredagen den 18 april 1958
           </note>
           <note n="6dd371d3">
@@ -567,10 +564,19 @@
             Ang. en redogörelse för regeringens syn på konjunkturpolitiken
             m, m.
           </note>
+          <u who="sven_sundin_f0cdf1" xml:id="i-c262c6ce64e05f49-3" prev="i-c262c6ce64e05f49-0" n="c262c6ce">
+            <seg n="018567a7">
+              pas att det, som finansministern inte har skrivit i sitt svar,
+              skall vara till finnandes mellan raderna på ett sådant sätt, att
+              småföretagsamheten och jordbruket i vårt land inom en mycket snar
+              framtid skall få uppleva, att en räntesänkning förverkligas under
+              medverkan av finansministern.
+            </seg>
+          </u>
           <note type="speaker" n="a652de32">
             Herr PERSSON, HELMER, (k):
           </note>
-          <u who="ragnar_persson_b00e1e" xml:id="i-4b629b2c057e0944-0" n="94e32e9e">
+          <u who="ragnar_persson_b00e1e" xml:id="i-94e32e9e1ccd2766-0" n="94e32e9e">
             <seg n="3299447c">
               Herr talman! Det är ju alltid intressant att få ta del av regeringens
               syn på konjunkturpolitiken, men det hade varit ännu mera intressant
@@ -618,7 +624,7 @@
           <note type="speaker" n="ada4a255">
             Herr statsrådet STRÄNG:
           </note>
-          <u who="gunnar_strang_f38b12" xml:id="i-a66fa60c1318abb1-0" next="i-ca600f640b0747a7-0" n="e9c115ca">
+          <u who="gunnar_strang_f38b12" xml:id="i-e9c115cab47815a5-0" next="i-e9c115cab47815a5-1" n="e9c115ca">
             <seg n="af257409">
               Herr talman! Jag är naturligtvis tacksam över den erkänsla interpellanten
               visade mig, när han uttalade sin oreserverade beundran över hur
@@ -654,7 +660,7 @@
           <note n="0a207cd4">
             8 Nr 15
           </note>
-          <u who="gunnar_strang_f38b12" xml:id="i-ca600f640b0747a7-0" prev="i-a66fa60c1318abb1-0" n="e9c115ca">
+          <u who="gunnar_strang_f38b12" xml:id="i-e9c115cab47815a5-1" prev="i-e9c115cab47815a5-0" n="e9c115ca">
             <seg n="2eaaa34f">
               Ang. en redogörelse för regeringens syn
             </seg>
@@ -690,7 +696,7 @@
           <note type="speaker" n="4de1f13e">
             Herr SUNDIN (cp):
           </note>
-          <u who="sven_sundin_f0cdf1" xml:id="i-751c5e412ca594d0-1" next="i-281eb526fe923138-1" n="c262c6ce">
+          <u who="sven_sundin_f0cdf1" xml:id="i-c262c6ce64e05f49-4" next="i-c262c6ce64e05f49-5" n="c262c6ce">
             <seg n="48faf299">
               Herr talman! Jag skall bara helt kort sammanfatta vad som enligt
               mitt förmenande kan utläsas av finansministerns sista yttrande.
@@ -702,13 +708,13 @@
               avgav här i kammaren och som
             </seg>
           </u>
-          <note n="47441d7b">
+          <note type="date" n="14215bc3">
             Fredagen den 18 april 1958
           </note>
           <note n="fc7db76c">
             på konjunkturpolitiken m. m.
           </note>
-          <u who="sven_sundin_f0cdf1" xml:id="i-281eb526fe923138-1" prev="i-751c5e412ca594d0-1" n="c262c6ce">
+          <u who="sven_sundin_f0cdf1" xml:id="i-c262c6ce64e05f49-5" prev="i-c262c6ce64e05f49-4" n="c262c6ce">
             <seg n="a840e825">
               vi behandlade för några veckor sedan, där det tydligt och klart
               framgick att även de, som inte ville ha en räntesänkning, ändå
@@ -725,7 +731,7 @@
           <note type="speaker" n="a652de32">
             Herr PERSSON, HELMER, (k):
           </note>
-          <u who="ragnar_persson_b00e1e" xml:id="i-4b629b2c057e0944-1" n="94e32e9e">
+          <u who="ragnar_persson_b00e1e" xml:id="i-94e32e9e1ccd2766-1" n="94e32e9e">
             <seg n="eda743bd">
               ..
             </seg>
@@ -747,7 +753,7 @@
           <note type="speaker" n="df6da67a">
             Herr statsrådet LANGE:
           </note>
-          <u who="gunnar_lange_b0a78d" xml:id="i-b580f5105eae6b0d-0" next="i-05890eb2bbd4adfb-0" n="70608fa2">
+          <u who="gunnar_lange_b0a78d" xml:id="i-70608fa2be5c7a93-0" next="i-70608fa2be5c7a93-1" n="70608fa2">
             <seg n="3cf0ab91">
               Herr talman! Jag skulle inte ha blandat mig i denna debatt om
               det inte hade varit för att lämna herr Helmer Persson ett meddelande,
@@ -762,7 +768,7 @@
             <seg n="11088a74"/>
           </u>
           <pb n="8" facs="https://betalab.kb.se/prot-1958-a-fk--15/prot_1958_a_fk__15-008.jp2/_view"/>
-          <note n="47441d7b">
+          <note type="date" n="14215bc3">
             Fredagen den 18 april 1958
           </note>
           <note n="f78a568e">
@@ -772,7 +778,7 @@
             Ang. värnpliktstjänstgöringen för utländska läkare med svenskt
             medborgarskap
           </note>
-          <u who="gunnar_lange_b0a78d" xml:id="i-05890eb2bbd4adfb-0" prev="i-b580f5105eae6b0d-0" n="70608fa2">
+          <u who="gunnar_lange_b0a78d" xml:id="i-70608fa2be5c7a93-1" prev="i-70608fa2be5c7a93-0" n="70608fa2">
             <seg n="388e8993">
               naturligt att man avvaktar det förslag, som Norrbottens järnverks
               ledning kan komma fram till, innan man vidtar några åtgärder.
@@ -788,7 +794,7 @@
           <note type="speaker" n="a652de32">
             Herr PERSSON, HELMER, (k):
           </note>
-          <u who="ragnar_persson_b00e1e" xml:id="i-4b629b2c057e0944-2" n="94e32e9e">
+          <u who="ragnar_persson_b00e1e" xml:id="i-94e32e9e1ccd2766-2" n="94e32e9e">
             <seg n="84ff3f1d">
               Herr talman! Jag vill endast till handelsministern säga, att
               jag vet att man skyller på att styrelsen inte har kommit med något
@@ -803,7 +809,7 @@
           <note type="speaker" n="df6da67a">
             Herr statsrådet LANGE:
           </note>
-          <u who="gunnar_lange_b0a78d" xml:id="i-b580f5105eae6b0d-1" next="i-05890eb2bbd4adfb-1" n="70608fa2">
+          <u who="gunnar_lange_b0a78d" xml:id="i-70608fa2be5c7a93-2" next="i-70608fa2be5c7a93-6" n="70608fa2">
             <seg n="d76f1c55">
               Herr talman! Den vinken har Norrbottens järnverks styrelse för
               länge sedan fått, och det är anledningen till att styrelsen seriöst
@@ -814,10 +820,23 @@
             överläggningen förklarades härmed slutad. Ang. värnpliktstjänstgöringen
             för ut-
           </note>
-          <u who="gunnar_lange_b0a78d" xml:id="i-05890eb2bbd4adfb-1" prev="i-b580f5105eae6b0d-1" n="70608fa2">
+          <u who="gunnar_lange_b0a78d" xml:id="i-70608fa2be5c7a93-3" prev="i-70608fa2be5c7a93-2" n="70608fa2">
             <seg n="3e8aacbd">
               ländska läkare med svenskt medborgarskap
             </seg>
+          </u>
+          <note n="8b580655">
+            Ordet lämnades till herr statsrådet och chefen för försvarsdepartementet
+            AN- DERSSON, som meddelat, att han äm-
+          </note>
+          <note n="c8d5f9fe">
+            nade vid detta sammanträde besvara herr Kaijsers interpellation
+            angående värnpliktstjänstgöringen för utländska
+          </note>
+          <note n="bf1d9bec">
+            läkare med svenskt medborgarskap, och nu yttrade:
+          </note>
+          <u who="gunnar_lange_b0a78d" xml:id="i-70608fa2be5c7a93-4" prev="i-70608fa2be5c7a93-2" n="70608fa2">
             <seg n="5ba09585">
               Herr talman! Med kammarens tillstånd har herr Kaijser frågat
               mig, om jag observerat hur värnpliktstjänstgöringen
@@ -844,6 +863,13 @@
               läkare under sin framtida tjänst skall av egen erfarenhet känna
               till vad han kan kräva av underlydande sjukvårdspersonal.
             </seg>
+          </u>
+          <note n="b5611615">
+            Fackutbildningen fullgöres i form av fackutbildningskurs och
+            kirurgassistenttjänstgöring. Efter avslutad fackutbildning krigsplaceras
+            värnpliktiga läkare vanligen som bataljonsläkare vid sjukvårdstross.
+          </note>
+          <u who="gunnar_lange_b0a78d" xml:id="i-70608fa2be5c7a93-5" prev="i-70608fa2be5c7a93-2" n="70608fa2">
             <seg n="7f2e634b">
               Till svar på de i interpellationen framställda frågorna vill
               jag framhålla följande.
@@ -865,6 +891,19 @@
               fråga om befrielsens omfattning tillämpas samma grunder som för
               andra värnpliktiga. För de läkare som erhåller
             </seg>
+          </u>
+          <pb n="9" facs="https://betalab.kb.se/prot-1958-a-fk--15/prot_1958_a_fk__15-009.jp2/_view"/>
+          <note n="bf4907c0">
+            10 Nr 15
+          </note>
+          <note type="date" n="14215bc3">
+            Fredagen den 18 april 1958
+          </note>
+          <note n="11731fa1">
+            Ang. värnpliktstjänstgöringen för utländska läkare med svenskt
+            medborgarskap.
+          </note>
+          <u who="gunnar_lange_b0a78d" xml:id="i-70608fa2be5c7a93-6" prev="i-70608fa2be5c7a93-2" n="70608fa2">
             <seg n="8dbefc74">
               befrielse från en del av värnpliktstjänstgöringen minskas i första
               hand soldatoch befälsutbildningen.
@@ -880,37 +919,10 @@
               interpellation.
             </seg>
           </u>
-          <note n="8b580655">
-            Ordet lämnades till herr statsrådet och chefen för försvarsdepartementet
-            AN- DERSSON, som meddelat, att han äm-
-          </note>
-          <note n="c8d5f9fe">
-            nade vid detta sammanträde besvara herr Kaijsers interpellation
-            angående värnpliktstjänstgöringen för utländska
-          </note>
-          <note n="bf1d9bec">
-            läkare med svenskt medborgarskap, och nu yttrade:
-          </note>
-          <note n="b5611615">
-            Fackutbildningen fullgöres i form av fackutbildningskurs och
-            kirurgassistenttjänstgöring. Efter avslutad fackutbildning krigsplaceras
-            värnpliktiga läkare vanligen som bataljonsläkare vid sjukvårdstross.
-          </note>
-          <pb n="9" facs="https://betalab.kb.se/prot-1958-a-fk--15/prot_1958_a_fk__15-009.jp2/_view"/>
-          <note n="bf4907c0">
-            10 Nr 15
-          </note>
-          <note n="47441d7b">
-            Fredagen den 18 april 1958
-          </note>
-          <note n="11731fa1">
-            Ang. värnpliktstjänstgöringen för utländska läkare med svenskt
-            medborgarskap.
-          </note>
           <note type="speaker" n="9df07a86">
             Herr KAIJSER (h):
           </note>
-          <u who="rolf_kaijser_f8a29e" xml:id="i-24c11bd76b754b83-0" next="i-98f4e853298469f8-0" n="e584cae0">
+          <u who="rolf_kaijser_f8a29e" xml:id="i-e584cae08ce23856-0" next="i-e584cae08ce23856-4" n="e584cae0">
             <seg n="cb0e0353">
               Herr talman! Jag ber att till herr statsrådet och chefen för
               försvarsdepartementet få framföra mitt tack för det svar som han
@@ -962,7 +974,7 @@
             fortsatt tjänstgöring på sätt och i den ordning arméöverläkaren
             bestämmer».
           </note>
-          <u who="rolf_kaijser_f8a29e" xml:id="i-98f4e853298469f8-0" prev="i-24c11bd76b754b83-0" n="e584cae0">
+          <u who="rolf_kaijser_f8a29e" xml:id="i-e584cae08ce23856-1" prev="i-e584cae08ce23856-0" n="e584cae0">
             <seg n="8891e5c2">
               Detta är precis motsatsen till den praxis som nu utbildats. Att
               beslutet kom den 23 november 1955 låter ju som om detta fall låg
@@ -988,6 +1000,18 @@
               För den som i likhet med mig hyser ett mycket starkt intresse
               för försvaret ter det sig ju angeläget, att den dyrbara
             </seg>
+          </u>
+          <pb n="10" facs="https://betalab.kb.se/prot-1958-a-fk--15/prot_1958_a_fk__15-010.jp2/_view"/>
+          <note type="date" n="14215bc3">
+            Fredagen den 18 april 1958
+          </note>
+          <note n="06ec5484">
+            Nr 15 11
+          </note>
+          <note n="c01c9754">
+            Ang. vissa spörsmål i samband med utbyggnaden av Halmsjöfältet
+          </note>
+          <u who="rolf_kaijser_f8a29e" xml:id="i-e584cae08ce23856-2" prev="i-e584cae08ce23856-0" n="e584cae0">
             <seg n="7e137804">
               tid, som våra värnpliktiga måste ägna åt det, och de stora pengar,
               som går till detta ändamål, verkligen får en så rationell användning
@@ -997,6 +1021,20 @@
               över detta och vill än en gång till försvarsministern uttala mitt
               tack för svaret.
             </seg>
+          </u>
+          <note n="49525034">
+            Överläggningen ansågs härmed slutad.
+          </note>
+          <note n="c01c9754">
+            Ang. vissa spörsmål i samband med utbyggnaden av Halmsjöfältet
+          </note>
+          <note n="8fb4b8d2">
+            Herr statsrådet och chefen för kommunikationsdepartementet SKOGLUND,
+            som förklarat sig ämna vid detta sammanträde besvara herr Ohlons
+            interpellation angående vissa spörsmål i samband med utbyggnaden
+            av Halmsjöfältet, fick nu ordet och anförde:
+          </note>
+          <u who="rolf_kaijser_f8a29e" xml:id="i-e584cae08ce23856-3" prev="i-e584cae08ce23856-0" n="e584cae0">
             <seg n="6d6e66b2">
               Herr talman! I en interpellation har herr Ohlon riktat tre frågor
               till mig rörande storflygplatsens utbyggande.
@@ -1064,6 +1102,18 @@
               förflyttning av infanterikadettskolan. Förflyttningen av A 1 är
               beroende
             </seg>
+          </u>
+          <pb n="11" facs="https://betalab.kb.se/prot-1958-a-fk--15/prot_1958_a_fk__15-011.jp2/_view"/>
+          <note n="c3865978">
+            12 Nr 15
+          </note>
+          <note type="date" n="14215bc3">
+            Fredagen den 18 april 1958
+          </note>
+          <note n="c01c9754">
+            Ang. vissa spörsmål i samband med utbyggnaden av Halmsjöfältet
+          </note>
+          <u who="rolf_kaijser_f8a29e" xml:id="i-e584cae08ce23856-4" prev="i-e584cae08ce23856-0" n="e584cae0">
             <seg n="4a19764a">
               bl. a. av om vissa markfrågor kan lösas. Även om A 1 senare skulle
               komma att flyttas, kommer likväl både I 1 och Ing 1 att finnas
@@ -1088,42 +1138,10 @@
               ändamål är f. n. föremål för prövning inom försvarsdepartementet.
             </seg>
           </u>
-          <pb n="10" facs="https://betalab.kb.se/prot-1958-a-fk--15/prot_1958_a_fk__15-010.jp2/_view"/>
-          <note n="47441d7b">
-            Fredagen den 18 april 1958
-          </note>
-          <note n="06ec5484">
-            Nr 15 11
-          </note>
-          <note n="c01c9754">
-            Ang. vissa spörsmål i samband med utbyggnaden av Halmsjöfältet
-          </note>
-          <note n="49525034">
-            Överläggningen ansågs härmed slutad.
-          </note>
-          <note n="c01c9754">
-            Ang. vissa spörsmål i samband med utbyggnaden av Halmsjöfältet
-          </note>
-          <note n="8fb4b8d2">
-            Herr statsrådet och chefen för kommunikationsdepartementet SKOGLUND,
-            som förklarat sig ämna vid detta sammanträde besvara herr Ohlons
-            interpellation angående vissa spörsmål i samband med utbyggnaden
-            av Halmsjöfältet, fick nu ordet och anförde:
-          </note>
-          <pb n="11" facs="https://betalab.kb.se/prot-1958-a-fk--15/prot_1958_a_fk__15-011.jp2/_view"/>
-          <note n="c3865978">
-            12 Nr 15
-          </note>
-          <note n="47441d7b">
-            Fredagen den 18 april 1958
-          </note>
-          <note n="c01c9754">
-            Ang. vissa spörsmål i samband med utbyggnaden av Halmsjöfältet
-          </note>
           <note type="speaker" n="379f9b1d">
             Herr OHLON (fp):
           </note>
-          <u who="sven_ohlon_a527b9" xml:id="i-1c801ac700a76ae5-0" next="i-adfcaec97e11e373-0" n="8ee5ce0f">
+          <u who="sven_ohlon_a527b9" xml:id="i-8ee5ce0febc54b70-0" next="i-8ee5ce0febc54b70-3" n="8ee5ce0f">
             <seg n="6c41a18f">
               Herr talman! Jag vill tacka statsrådet och chefen för kommunikationsdepartementet
               för svaret, liksom jag också vill tacka för hans tillmötesgående
@@ -1184,7 +1202,7 @@
             </seg>
           </u>
           <pb n="12" facs="https://betalab.kb.se/prot-1958-a-fk--15/prot_1958_a_fk__15-012.jp2/_view"/>
-          <note n="47441d7b">
+          <note type="date" n="14215bc3">
             Fredagen den 18 april 1958
           </note>
           <note n="3a33ede3">
@@ -1193,7 +1211,7 @@
           <note n="c01c9754">
             Ang. vissa spörsmål i samband med utbyggnaden av Halmsjöfältet
           </note>
-          <u who="sven_ohlon_a527b9" xml:id="i-adfcaec97e11e373-0" prev="i-1c801ac700a76ae5-0" n="8ee5ce0f">
+          <u who="sven_ohlon_a527b9" xml:id="i-8ee5ce0febc54b70-1" prev="i-8ee5ce0febc54b70-0" n="8ee5ce0f">
             <seg n="a68857f8">
               man emellertid kommit på bättre iankar. Det närbelägna Bromma
               flygfält skall finnas kvar. Såvitt jag vet har ingen på luftfartshåll
@@ -1279,6 +1297,18 @@
               möjligheterna att utnyttja Barkarby som civilflygfält, för den
               händelse att halm-
             </seg>
+          </u>
+          <pb n="13" facs="https://betalab.kb.se/prot-1958-a-fk--15/prot_1958_a_fk__15-013.jp2/_view"/>
+          <note n="43889d7d">
+            14 Nr 15
+          </note>
+          <note type="date" n="14215bc3">
+            Fredagen den 18 april 1958
+          </note>
+          <note n="c01c9754">
+            Ang. vissa spörsmål i samband med utbyggnaden av Halmsjöfältet
+          </note>
+          <u who="sven_ohlon_a527b9" xml:id="i-8ee5ce0febc54b70-2" prev="i-8ee5ce0febc54b70-0" n="8ee5ce0f">
             <seg n="265ac5dd">
               sjöprojektet skulle visa sig vara ett misslyckande. Jag vill
               belysa varför.
@@ -1359,25 +1389,9 @@
               detta flygfälts användbarhet skulle besannas. Vid ett närmare
               studium av denna fråga har åtminstone
             </seg>
-            <seg n="2e0248ad">
-              jag efter hand kommit till den slutsatsen, att dessa farhågor
-              är starkt grundade. Enligt de undersökningar jag har gjort, sedan
-              riksdagen fattade sitt beslut, så delas min uppfattning av den
-              överväldigande delen av luftfartssakkunniga här i landet.
-            </seg>
           </u>
-          <pb n="13" facs="https://betalab.kb.se/prot-1958-a-fk--15/prot_1958_a_fk__15-013.jp2/_view"/>
-          <note n="43889d7d">
-            14 Nr 15
-          </note>
-          <note n="47441d7b">
-            Fredagen den 18 april 1958
-          </note>
-          <note n="c01c9754">
-            Ang. vissa spörsmål i samband med utbyggnaden av Halmsjöfältet
-          </note>
           <pb n="14" facs="https://betalab.kb.se/prot-1958-a-fk--15/prot_1958_a_fk__15-014.jp2/_view"/>
-          <note n="47441d7b">
+          <note type="date" n="14215bc3">
             Fredagen den 18 april 1958
           </note>
           <note n="472c5bc9">
@@ -1386,10 +1400,18 @@
           <note n="c01c9754">
             Ang. vissa spörsmål i samband med utbyggnaden av Halmsjöfältet
           </note>
+          <u who="sven_ohlon_a527b9" xml:id="i-8ee5ce0febc54b70-3" prev="i-8ee5ce0febc54b70-0" n="8ee5ce0f">
+            <seg n="2e0248ad">
+              jag efter hand kommit till den slutsatsen, att dessa farhågor
+              är starkt grundade. Enligt de undersökningar jag har gjort, sedan
+              riksdagen fattade sitt beslut, så delas min uppfattning av den
+              överväldigande delen av luftfartssakkunniga här i landet.
+            </seg>
+          </u>
           <note type="speaker" n="574c2c1c">
             Herr statsrådet SKOGLUND:
           </note>
-          <u who="martin_skoglund_efe6f0" xml:id="i-8893da9fe90fbced-0" n="5e11f1c9">
+          <u who="martin_skoglund_efe6f0" xml:id="i-f298818b7e0c4d3c-0" n="5e11f1c9">
             <seg n="ff10ed13">
               Herr talman! Till herr Ohlons historieskrivning beträffande den
               senaste riksdagsbehandlingen — alltså höstsessionens behandling
@@ -1437,7 +1459,7 @@
           <note type="speaker" n="379f9b1d">
             Herr OHLON (fp):
           </note>
-          <u who="sven_ohlon_a527b9" xml:id="i-1c801ac700a76ae5-1" next="i-adfcaec97e11e373-1" n="8ee5ce0f">
+          <u who="sven_ohlon_a527b9" xml:id="i-8ee5ce0febc54b70-4" next="i-8ee5ce0febc54b70-7" n="8ee5ce0f">
             <seg n="e3b939a0">
               Herr talman! Det är nog snarare herr statsrådet än &lt;luftfartsmyndigheterna,
               som behöver arbetsro!
@@ -1477,13 +1499,13 @@
           <note n="cba87c6c">
             16 Nr 15
           </note>
-          <note n="47441d7b">
+          <note type="date" n="14215bc3">
             Fredagen den 18 april 1958
           </note>
           <note n="01066bf8">
             Ang. garanti för krediter till Uddevallavarvet Aktiebolag
           </note>
-          <u who="sven_ohlon_a527b9" xml:id="i-adfcaec97e11e373-1" prev="i-1c801ac700a76ae5-1" n="8ee5ce0f">
+          <u who="sven_ohlon_a527b9" xml:id="i-8ee5ce0febc54b70-5" prev="i-8ee5ce0febc54b70-4" n="8ee5ce0f">
             <seg n="ef9cd385">
               den summan också bör lägga kostnaden för flyttningen av infanteriets
               skjutskola från Rosersberg; jag vill minnas att den belöpte sig
@@ -1510,43 +1532,6 @@
               för detta projekt varit.
             </seg>
             <seg n="11088a74"/>
-            <seg n="e39384e0">
-              I. att riksdagen måtte bemyndiga fullmäktige i riksgäldskontoret
-              att ikläda staten garanti intill ett belopp av högst 30 000 000
-              kronor för krediter till Uddevallavarvet Aktiebolag;
-            </seg>
-            <seg n="889fba42">
-              Herr talman! Med första kammarens tillstånd har herr Öhman till
-              mig riktat följande frågor:
-            </seg>
-            <seg n="779c65cb">
-              Har statsrådet möjligheter att inför riksdagen lämna en redogörelse
-              för orsakerna till den likviditetskris som drabbat Thordénvarvet
-              i Uddevalla?
-            </seg>
-            <seg n="ce5c2318">
-              Vilka åtgärder ämnar statsrådet vidtaga för att säkra varvsdriftens
-              fortsättande och därmed arbete och utkomstmöjligheter för de anställda?
-            </seg>
-            <seg n="440b5316">
-              I anledning av interpellationen vill jag anföra följande.
-            </seg>
-            <seg n="b73b7d85">
-              Såsom jag uttalat i propositionen angående garanti för krediter
-              åt Uddevallavarvet Aktiebolag är den kris, varav bolaget drabbats,
-              såväl en likviditetssom en solvenskris. Det ligger i sakens natur
-              att de omständigheter som lett till krisen delvis är av sådan
-              karaktär att de inte kan offentliggöras. Utskottet har emellertid
-              erhållit en grundlig orientcering om krisens bakgrund. De upplysningar
-              som därvid lämnats har, i den mån de kunnat offentliggöras, fogats
-              såsom en bilaga till utlåtandet. Hur krisen uppkommit, har dock
-              inte varit avgörande för mitt ställningstagande till frågan om
-              en statlig medverkan i stödaktionen. Det väsentliga har för mig
-              varit att trygga sysselsättningen vid varvet.
-            </seg>
-            <seg n="f77bd85d">
-              Den andra frågan torde få anses besvarad genom propositionen.
-            </seg>
           </u>
           <note n="1be73dc6">
             Överläggningen förklarades härmed
@@ -1598,6 +1583,13 @@
             Utskottet hade i det nu ifrågavarande utlåtandet av angivna orsaker
             hemställt,
           </note>
+          <u who="sven_ohlon_a527b9" xml:id="i-8ee5ce0febc54b70-6" prev="i-8ee5ce0febc54b70-4" n="8ee5ce0f">
+            <seg n="e39384e0">
+              I. att riksdagen måtte bemyndiga fullmäktige i riksgäldskontoret
+              att ikläda staten garanti intill ett belopp av högst 30 000 000
+              kronor för krediter till Uddevallavarvet Aktiebolag;
+            </seg>
+          </u>
           <note n="b4a6f1f4">
             II. att riksdagen måtte, i anledning av motionerna I: 405 och
             II: 509, såvitt nu vore i fråga, uttala att statens nu ifrågavarande
@@ -1622,16 +1614,50 @@
             angående krislä-
           </note>
           <pb n="16" facs="https://betalab.kb.se/prot-1958-a-fk--15/prot_1958_a_fk__15-016.jp2/_view"/>
-          <note n="47441d7b">
+          <note type="date" n="14215bc3">
             Fredagen den 18 april 1958
           </note>
           <note n="eefa1684">
             Ang. garanti för get vid Thordénvarvet i Uddevalla, och nu yttrade:
           </note>
+          <u who="sven_ohlon_a527b9" xml:id="i-8ee5ce0febc54b70-7" prev="i-8ee5ce0febc54b70-4" n="8ee5ce0f">
+            <seg n="889fba42">
+              Herr talman! Med första kammarens tillstånd har herr Öhman till
+              mig riktat följande frågor:
+            </seg>
+            <seg n="779c65cb">
+              Har statsrådet möjligheter att inför riksdagen lämna en redogörelse
+              för orsakerna till den likviditetskris som drabbat Thordénvarvet
+              i Uddevalla?
+            </seg>
+            <seg n="ce5c2318">
+              Vilka åtgärder ämnar statsrådet vidtaga för att säkra varvsdriftens
+              fortsättande och därmed arbete och utkomstmöjligheter för de anställda?
+            </seg>
+            <seg n="440b5316">
+              I anledning av interpellationen vill jag anföra följande.
+            </seg>
+            <seg n="b73b7d85">
+              Såsom jag uttalat i propositionen angående garanti för krediter
+              åt Uddevallavarvet Aktiebolag är den kris, varav bolaget drabbats,
+              såväl en likviditetssom en solvenskris. Det ligger i sakens natur
+              att de omständigheter som lett till krisen delvis är av sådan
+              karaktär att de inte kan offentliggöras. Utskottet har emellertid
+              erhållit en grundlig orientcering om krisens bakgrund. De upplysningar
+              som därvid lämnats har, i den mån de kunnat offentliggöras, fogats
+              såsom en bilaga till utlåtandet. Hur krisen uppkommit, har dock
+              inte varit avgörande för mitt ställningstagande till frågan om
+              en statlig medverkan i stödaktionen. Det väsentliga har för mig
+              varit att trygga sysselsättningen vid varvet.
+            </seg>
+            <seg n="f77bd85d">
+              Den andra frågan torde få anses besvarad genom propositionen.
+            </seg>
+          </u>
           <note type="speaker" n="ab696fcb">
             Herr ÖHMAN (k):
           </note>
-          <u who="gunnar_ohman_b23ff2" xml:id="i-1227a8a18a953dd3-0" next="i-507f471c6c76935b-0" n="c7c327bc">
+          <u who="gunnar_ohman_b23ff2" xml:id="i-c7c327bcbdd575a4-0" next="i-c7c327bcbdd575a4-2" n="c7c327bc">
             <seg n="edb544d2">
               Herr talman! Jag ber att få tacka statsrådet för det ytterst
               koncentrerade svaret på mina frågor; men jag får kanske i svaret
@@ -1651,7 +1677,7 @@
           <note n="1bbc1424">
             Nr 15 17
           </note>
-          <u who="gunnar_ohman_b23ff2" xml:id="i-507f471c6c76935b-0" prev="i-1227a8a18a953dd3-0" n="c7c327bc">
+          <u who="gunnar_ohman_b23ff2" xml:id="i-c7c327bcbdd575a4-1" prev="i-c7c327bcbdd575a4-0" n="c7c327bc">
             <seg n="0295fee8">
               krediter till Uddevallavarvet Aktiebolag selsättningen vid företaget.
               I propositionen, som nu tillstyrkes av utskottet, förordas som
@@ -1689,6 +1715,15 @@
               de anställda, som kännetecknar läget i ett land där storfinansen
               alltjämt har de avgörande eckonomiska maktpositionerna.
             </seg>
+          </u>
+          <pb n="17" facs="https://betalab.kb.se/prot-1958-a-fk--15/prot_1958_a_fk__15-017.jp2/_view"/>
+          <note n="e3e863af">
+            18 Nr 15
+          </note>
+          <note type="date" n="14215bc3">
+            Fredagen den 18 april 1958
+          </note>
+          <u who="gunnar_ohman_b23ff2" xml:id="i-c7c327bcbdd575a4-2" prev="i-c7c327bcbdd575a4-0" n="c7c327bc">
             <seg n="f2585a9a">
               Om befrielse från skyldighet att i allmän självdeklaration redovisa
               viss förmögenhet
@@ -1727,13 +1762,6 @@
               betydande näring, som varvsindustrien ändå är.
             </seg>
           </u>
-          <pb n="17" facs="https://betalab.kb.se/prot-1958-a-fk--15/prot_1958_a_fk__15-017.jp2/_view"/>
-          <note n="e3e863af">
-            18 Nr 15
-          </note>
-          <note n="47441d7b">
-            Fredagen den 18 april 1958
-          </note>
           <note n="aacd2780">
             Det är därför, herr talman, som jag, även om utskottet inte funnit
             motionen falla inom ramen för propositionsförslaget, ändå yrkar
@@ -1742,7 +1770,7 @@
           <note type="speaker" n="eb8db26c">
             Herr HOLMQVIST (s):
           </note>
-          <u who="eric_holmqvist_e530b7" xml:id="i-4ed4275c8c7429e7-0" next="i-222ef4278e6f2a06-0" n="d25ddb15">
+          <u who="eric_holmqvist_e530b7" xml:id="i-d25ddb154310e016-0" next="i-d25ddb154310e016-4" n="d25ddb15">
             <seg n="d799f809">
               Herr talman! Jag skall inte blanda mig i ett eventuellt meningsutbyte
               mellan finansministern och herr Öhman i anslutning till interpellationssvaret.
@@ -1779,24 +1807,10 @@
             nr 35, i anledning av väckta motioner angående förfarandet i kammarrätten,
             m. m., bifölls vad utskottet i detta betänkande hemställt.
           </note>
-          <u who="eric_holmqvist_e530b7" xml:id="i-222ef4278e6f2a06-0" prev="i-4ed4275c8c7429e7-0" n="d25ddb15">
+          <u who="eric_holmqvist_e530b7" xml:id="i-d25ddb154310e016-1" prev="i-d25ddb154310e016-0" n="d25ddb15">
             <seg n="f2585a9a">
               Om befrielse från skyldighet att i allmän självdeklaration redovisa
               viss förmögenhet
-            </seg>
-            <seg n="f2585a9a">
-              Om befrielse från skyldighet att i allmän självdeklaration redovisa
-              viss förmögenhet
-            </seg>
-            <seg n="1d0f8bb7">
-              I det av Kungl. Maj:t framlagda förordningsförslaget hade bl.
-              a., i syfte att förenkla deklarationsförfarandet, föreslagits,
-              att löntagare skulle befrias från skyldighet att i allmän självdeklaration
-              redovisa förmögenhet, om bruttovärdet av hans tillgångar icke
-              överstege 50 000 kronor.
-            </seg>
-            <seg n="0d2c7153">
-              II) av herr Kollberg, som dock ej antytt sin mening.
             </seg>
           </u>
           <note n="7d38c1ef">
@@ -1804,12 +1818,18 @@
             av Kungl. Maj:ts proposition med förslag till för-
           </note>
           <pb n="18" facs="https://betalab.kb.se/prot-1958-a-fk--15/prot_1958_a_fk__15-018.jp2/_view"/>
-          <note n="47441d7b">
+          <note type="date" n="14215bc3">
             Fredagen den 18 april 1958
           </note>
           <note n="ab99f7ec">
             Nr 135 19
           </note>
+          <u who="eric_holmqvist_e530b7" xml:id="i-d25ddb154310e016-2" prev="i-d25ddb154310e016-0" n="d25ddb15">
+            <seg n="f2585a9a">
+              Om befrielse från skyldighet att i allmän självdeklaration redovisa
+              viss förmögenhet
+            </seg>
+          </u>
           <note n="8132bbdb">
             ordning om ändrad lydelse av 25 8 och 129 8 8 mom. taxeringsförordningen
             den 23 november 1956 (ur 623) jämte i ämnet väckta motioner.
@@ -1821,6 +1841,15 @@
             ändrad lydelse av 25 $ och 129 8 8 mom. taxeringsförordningen
             den 23 november 1956 (nr 623).
           </note>
+          <u who="eric_holmqvist_e530b7" xml:id="i-d25ddb154310e016-3" prev="i-d25ddb154310e016-0" n="d25ddb15">
+            <seg n="1d0f8bb7">
+              I det av Kungl. Maj:t framlagda förordningsförslaget hade bl.
+              a., i syfte att förenkla deklarationsförfarandet, föreslagits,
+              att löntagare skulle befrias från skyldighet att i allmän självdeklaration
+              redovisa förmögenhet, om bruttovärdet av hans tillgångar icke
+              överstege 50 000 kronor.
+            </seg>
+          </u>
           <note n="b55fabf9">
             Till utskottet hade hänvisats följande i anledning av propositionen
             väckta motioner, nämligen
@@ -1869,10 +1898,15 @@
             till förordning om ändrad lydelse av 25 8 och 129 8 8 mom. taxeringsförordningen
             den 23 november 1956 (nr 623).
           </note>
+          <u who="eric_holmqvist_e530b7" xml:id="i-d25ddb154310e016-4" prev="i-d25ddb154310e016-0" n="d25ddb15">
+            <seg n="0d2c7153">
+              II) av herr Kollberg, som dock ej antytt sin mening.
+            </seg>
+          </u>
           <note type="speaker" n="f773d084">
             Herr ERIKSSON (s):
           </note>
-          <u who="einar_eriksson_09f0d6" xml:id="i-d7ea9ec989ce65bc-0" next="i-dbf52879e5893641-0" n="9e06a92e">
+          <u who="einar_eriksson_09f0d6" xml:id="i-9e06a92e90341cd3-0" next="i-9e06a92e90341cd3-2" n="9e06a92e">
             <seg n="c9766f3a">
               Herr talman! I den proposition, som föreliggande betänkande behandlar,
               har finansministern bl. a. föreslagit en viss förenkling av löntagarnas
@@ -1898,10 +1932,10 @@
           <note n="9de57049">
             20 Nr 15
           </note>
-          <note n="47441d7b">
+          <note type="date" n="14215bc3">
             Fredagen den 18 april 1958
           </note>
-          <u who="einar_eriksson_09f0d6" xml:id="i-dbf52879e5893641-0" prev="i-d7ea9ec989ce65bc-0" n="9e06a92e">
+          <u who="einar_eriksson_09f0d6" xml:id="i-9e06a92e90341cd3-1" prev="i-9e06a92e90341cd3-0" n="9e06a92e">
             <seg n="f2585a9a">
               Om befrielse från skyldighet att i allmän självdeklaration redovisa
               viss förmögenhet
@@ -1980,6 +2014,15 @@
               inte känner sig ha något behov av den omsorg, som motionären här
               har ifrågasatt.
             </seg>
+          </u>
+          <pb n="20" facs="https://betalab.kb.se/prot-1958-a-fk--15/prot_1958_a_fk__15-020.jp2/_view"/>
+          <note type="date" n="14215bc3">
+            Fredagen den 18 april 1958
+          </note>
+          <note n="d8bb339e">
+            Nr 15 21
+          </note>
+          <u who="einar_eriksson_09f0d6" xml:id="i-9e06a92e90341cd3-2" prev="i-9e06a92e90341cd3-0" n="9e06a92e">
             <seg n="f2585a9a">
               Om befrielse från skyldighet att i allmän självdeklaration redovisa
               viss förmögenhet
@@ -2024,17 +2067,10 @@
               herr talman, yrka bifall till reservationen.
             </seg>
           </u>
-          <pb n="20" facs="https://betalab.kb.se/prot-1958-a-fk--15/prot_1958_a_fk__15-020.jp2/_view"/>
-          <note n="47441d7b">
-            Fredagen den 18 april 1958
-          </note>
-          <note n="d8bb339e">
-            Nr 15 21
-          </note>
           <note type="speaker" n="1e13a636">
             Herr SJÖDAHL (s):
           </note>
-          <u who="edgar_sjodahl_74b27f" xml:id="i-7f5a1f5136d4a911-0" next="i-e60d4b2b4b7663cc-0" n="3619b958">
+          <u who="edgar_sjodahl_74b27f" xml:id="i-3619b958aaa1a396-0" next="i-3619b958aaa1a396-5" n="3619b958">
             <seg n="69d23b6e">
               Herr talman! Herr Eriksson nämnde bland annat, att det var högst
               ovanligt att en finansminister inbjöd till förenklingar av deklarationen.
@@ -2077,10 +2113,10 @@
           <note n="96687611">
             22 da ah
           </note>
-          <note n="47441d7b">
+          <note type="date" n="14215bc3">
             Fredagen den 18 april 1958
           </note>
-          <u who="edgar_sjodahl_74b27f" xml:id="i-e60d4b2b4b7663cc-0" prev="i-7f5a1f5136d4a911-0" n="3619b958">
+          <u who="edgar_sjodahl_74b27f" xml:id="i-3619b958aaa1a396-1" prev="i-3619b958aaa1a396-0" n="3619b958">
             <seg n="f2585a9a">
               Om befrielse från skyldighet att i allmän självdeklaration redovisa
               viss förmögenhet
@@ -2163,6 +2199,18 @@
               i taxeringsarbetet. Det visade sig att inemot hälften av förmögenhetsdeklarationerna
               var av vär-
             </seg>
+          </u>
+          <note n="69747b63">
+            bevillningsut-
+          </note>
+          <pb n="22" facs="https://betalab.kb.se/prot-1958-a-fk--15/prot_1958_a_fk__15-022.jp2/_view"/>
+          <note type="date" n="14215bc3">
+            Fredagen den 18 april 1958
+          </note>
+          <note n="c274bdad">
+            Nr 15 23
+          </note>
+          <u who="edgar_sjodahl_74b27f" xml:id="i-3619b958aaa1a396-2" prev="i-3619b958aaa1a396-0" n="3619b958">
             <seg n="f2585a9a">
               Om befrielse från skyldighet att i allmän självdeklaration redovisa
               viss förmögenhet
@@ -2241,6 +2289,15 @@
               deklarationer utan att därmed beröva taxeringsnämnderna de för
               dem
             </seg>
+          </u>
+          <pb n="23" facs="https://betalab.kb.se/prot-1958-a-fk--15/prot_1958_a_fk__15-023.jp2/_view"/>
+          <note n="cd3a834a">
+            24 Nr 15
+          </note>
+          <note type="date" n="14215bc3">
+            Fredagen den 18 april 1958
+          </note>
+          <u who="edgar_sjodahl_74b27f" xml:id="i-3619b958aaa1a396-3" prev="i-3619b958aaa1a396-0" n="3619b958">
             <seg n="f2585a9a">
               Om befrielse från skyldighet att i allmän självdeklaration redovisa
               viss förmögenhet
@@ -2276,6 +2333,11 @@
               honom och hans medhjälpare all framgång i detta arbete, även om
               det förslag som nu framkommit inte tyckts oss lämpligt.
             </seg>
+          </u>
+          <note n="a730789f">
+            Jag ber, herr talman, att få yrka bifall till utskottets förslag.
+          </note>
+          <u who="edgar_sjodahl_74b27f" xml:id="i-3619b958aaa1a396-4" prev="i-3619b958aaa1a396-0" n="3619b958">
             <seg n="5923df26">
               Herr ERIKSSON (s) kort genmäle: Herr talman! Herr Sjödahl påstod
               att jag sagt mig vara besvärad av den sak-
@@ -2321,6 +2383,18 @@
               Herr talman! Endast en kort replik. Herr Eriksson nämnde att
               han inte alls känner sig besvärad över den sakkun-
             </seg>
+          </u>
+          <pb n="24" facs="https://betalab.kb.se/prot-1958-a-fk--15/prot_1958_a_fk__15-024.jp2/_view"/>
+          <note type="date" n="14215bc3">
+            Fredagen den 18 april 1958
+          </note>
+          <note n="bf4bd5f1">
+            Nr 15
+          </note>
+          <note n="a1faa90d">
+            25
+          </note>
+          <u who="edgar_sjodahl_74b27f" xml:id="i-3619b958aaa1a396-5" prev="i-3619b958aaa1a396-0" n="3619b958">
             <seg n="f2585a9a">
               Om befrielse från skyldighet att i allmän självdeklaration redovisa
               viss förmögenhet
@@ -2334,40 +2408,10 @@
               sakkunskap som finns i bevillningsutskottet.
             </seg>
           </u>
-          <note n="69747b63">
-            bevillningsut-
-          </note>
-          <pb n="22" facs="https://betalab.kb.se/prot-1958-a-fk--15/prot_1958_a_fk__15-022.jp2/_view"/>
-          <note n="47441d7b">
-            Fredagen den 18 april 1958
-          </note>
-          <note n="c274bdad">
-            Nr 15 23
-          </note>
-          <pb n="23" facs="https://betalab.kb.se/prot-1958-a-fk--15/prot_1958_a_fk__15-023.jp2/_view"/>
-          <note n="cd3a834a">
-            24 Nr 15
-          </note>
-          <note n="47441d7b">
-            Fredagen den 18 april 1958
-          </note>
-          <note n="a730789f">
-            Jag ber, herr talman, att få yrka bifall till utskottets förslag.
-          </note>
-          <pb n="24" facs="https://betalab.kb.se/prot-1958-a-fk--15/prot_1958_a_fk__15-024.jp2/_view"/>
-          <note n="47441d7b">
-            Fredagen den 18 april 1958
-          </note>
-          <note n="bf4bd5f1">
-            Nr 15
-          </note>
-          <note n="a1faa90d">
-            25
-          </note>
           <note type="speaker" n="ada4a255">
             Herr statsrådet STRÄNG:
           </note>
-          <u who="gunnar_strang_f38b12" xml:id="i-a66fa60c1318abb1-1" next="i-ca600f640b0747a7-1" n="e9c115ca">
+          <u who="gunnar_strang_f38b12" xml:id="i-e9c115cab47815a5-2" next="i-e9c115cab47815a5-5" n="e9c115ca">
             <seg n="33a1a5e9">
               Herr talman! Jag kanske skulle börja med att redovisa mitt enkla
               motiv för att presentera riksdagen denna proposition om förenklad
@@ -2442,10 +2486,10 @@
           <note n="187e6662">
             26 Nr 15
           </note>
-          <note n="47441d7b">
+          <note type="date" n="14215bc3">
             Fredagen den 18 april 1958
           </note>
-          <u who="gunnar_strang_f38b12" xml:id="i-ca600f640b0747a7-1" prev="i-a66fa60c1318abb1-1" n="e9c115ca">
+          <u who="gunnar_strang_f38b12" xml:id="i-e9c115cab47815a5-3" prev="i-e9c115cab47815a5-2" n="e9c115ca">
             <seg n="f2585a9a">
               Om befrielse från skyldighet att i allmän självdeklaration redovisa
               viss förmögenhet
@@ -2530,6 +2574,18 @@
               att säga, som skattedeklarant på något sätt abnorm, Nej, han gruffar
               naturligtvis ett slag och är irriterad
             </seg>
+          </u>
+          <pb n="26" facs="https://betalab.kb.se/prot-1958-a-fk--15/prot_1958_a_fk__15-026.jp2/_view"/>
+          <note type="date" n="14215bc3">
+            Fredagen den 18 april 1958
+          </note>
+          <note n="bf4bd5f1">
+            Nr 15
+          </note>
+          <note n="9394c231">
+            27
+          </note>
+          <u who="gunnar_strang_f38b12" xml:id="i-e9c115cab47815a5-4" prev="i-e9c115cab47815a5-2" n="e9c115ca">
             <seg n="f2585a9a">
               Om befrielse från skyldighet att i allmän självdeklaration redovisa
               viss förmögenhet
@@ -2612,6 +2668,15 @@
               detta på något sätt vara orättvist mot fria företagare och jordbrukare.
               Vad jag
             </seg>
+          </u>
+          <pb n="27" facs="https://betalab.kb.se/prot-1958-a-fk--15/prot_1958_a_fk__15-027.jp2/_view"/>
+          <note n="42ff56a7">
+            28 Nr 15
+          </note>
+          <note type="date" n="14215bc3">
+            Fredagen den 18 april 1958
+          </note>
+          <u who="gunnar_strang_f38b12" xml:id="i-e9c115cab47815a5-5" prev="i-e9c115cab47815a5-2" n="e9c115ca">
             <seg n="f2585a9a">
               Om befrielse från skyldighet att i allmän självdeklaration redovisa
               viss förmögenhet
@@ -2675,27 +2740,10 @@
               till regeringens proposition.
             </seg>
           </u>
-          <pb n="26" facs="https://betalab.kb.se/prot-1958-a-fk--15/prot_1958_a_fk__15-026.jp2/_view"/>
-          <note n="47441d7b">
-            Fredagen den 18 april 1958
-          </note>
-          <note n="bf4bd5f1">
-            Nr 15
-          </note>
-          <note n="9394c231">
-            27
-          </note>
-          <pb n="27" facs="https://betalab.kb.se/prot-1958-a-fk--15/prot_1958_a_fk__15-027.jp2/_view"/>
-          <note n="42ff56a7">
-            28 Nr 15
-          </note>
-          <note n="47441d7b">
-            Fredagen den 18 april 1958
-          </note>
           <note type="speaker" n="1e13a636">
             Herr SJÖDAHL (s):
           </note>
-          <u who="edgar_sjodahl_74b27f" xml:id="i-7f5a1f5136d4a911-1" next="i-e60d4b2b4b7663cc-1" n="3619b958">
+          <u who="edgar_sjodahl_74b27f" xml:id="i-3619b958aaa1a396-6" next="i-3619b958aaa1a396-8" n="3619b958">
             <seg n="2864a650">
               Herr talman! Det är för mig en något ovan situation att här i
               en debatt uppträda mot finansministern. Men även sådant får bäras,
@@ -2724,10 +2772,10 @@
             </seg>
           </u>
           <pb n="28" facs="https://betalab.kb.se/prot-1958-a-fk--15/prot_1958_a_fk__15-028.jp2/_view"/>
-          <note n="47441d7b">
+          <note type="date" n="14215bc3">
             Fredagen den 18 april 1958
           </note>
-          <u who="edgar_sjodahl_74b27f" xml:id="i-e60d4b2b4b7663cc-1" prev="i-7f5a1f5136d4a911-1" n="3619b958">
+          <u who="edgar_sjodahl_74b27f" xml:id="i-3619b958aaa1a396-7" prev="i-3619b958aaa1a396-6" n="3619b958">
             <seg n="f2585a9a">
               Om befrielse från skyldighet att i allmän självdeklaration redovisa
               viss förmögenhet
@@ -2811,6 +2859,15 @@
               samarbetar inte bara med den respekt, som bevillningsutskottet
               är skyldigt finansministern i hans svåra uppgift, utan även
             </seg>
+          </u>
+          <pb n="29" facs="https://betalab.kb.se/prot-1958-a-fk--15/prot_1958_a_fk__15-029.jp2/_view"/>
+          <note n="6cc0f3d7">
+            30 Nr 15
+          </note>
+          <note type="date" n="14215bc3">
+            Fredagen den 18 april 1958
+          </note>
+          <u who="edgar_sjodahl_74b27f" xml:id="i-3619b958aaa1a396-8" prev="i-3619b958aaa1a396-6" n="3619b958">
             <seg n="f2585a9a">
               Om befrielse från skyldighet att i allmän självdeklaration redovisa
               viss förmögenhet
@@ -2822,17 +2879,10 @@
               från bevillningsutskottet!
             </seg>
           </u>
-          <pb n="29" facs="https://betalab.kb.se/prot-1958-a-fk--15/prot_1958_a_fk__15-029.jp2/_view"/>
-          <note n="6cc0f3d7">
-            30 Nr 15
-          </note>
-          <note n="47441d7b">
-            Fredagen den 18 april 1958
-          </note>
           <note type="speaker" n="b667f545">
             Herr ANDERSSON, ALVAR, (cp):
           </note>
-          <u who="torsten_andersson_214d82" xml:id="i-d9d9e7f0f3da141c-0" next="i-ddeb49415bbe90ba-0" n="3bce8f9c">
+          <u who="torsten_andersson_214d82" xml:id="i-30dca5b2afd1229e-0" next="i-30dca5b2afd1229e-1" n="3bce8f9c">
             <seg n="7d43f707">
               Herr talman! Även om jag inte varit motionär i denna fråga och
               fått motionen bifallen i utskottet, hade det kanske varit rätt
@@ -2904,13 +2954,13 @@
             </seg>
           </u>
           <pb n="30" facs="https://betalab.kb.se/prot-1958-a-fk--15/prot_1958_a_fk__15-030.jp2/_view"/>
-          <note n="47441d7b">
+          <note type="date" n="14215bc3">
             Fredagen den 18 april 1958
           </note>
           <note n="66b916cd">
             Nr 15 Jl
           </note>
-          <u who="torsten_andersson_214d82" xml:id="i-ddeb49415bbe90ba-0" prev="i-d9d9e7f0f3da141c-0" n="3bce8f9c">
+          <u who="torsten_andersson_214d82" xml:id="i-30dca5b2afd1229e-1" prev="i-30dca5b2afd1229e-0" n="3bce8f9c">
             <seg n="f2585a9a">
               Om befrielse från skyldighet att i allmän självdeklaration redovisa
               viss förmögenhet
@@ -2968,7 +3018,7 @@
           <note type="speaker" n="ada4a255">
             Herr statsrådet STRÄNG:
           </note>
-          <u who="gunnar_strang_f38b12" xml:id="i-a66fa60c1318abb1-2" next="i-ca600f640b0747a7-2" n="e9c115ca">
+          <u who="gunnar_strang_f38b12" xml:id="i-e9c115cab47815a5-6" next="i-e9c115cab47815a5-7" n="e9c115ca">
             <seg n="5e0c789c">
               Herr talman! Det var bara ett par uttalanden i herr Sjödahls
               sista inlägg, som jag har litet svårt att låta stå alldeles oemotsagda.
@@ -3005,10 +3055,10 @@
           <note n="9161df0e">
             32 Nr 15
           </note>
-          <note n="47441d7b">
+          <note type="date" n="14215bc3">
             Fredagen den 18 april 1958
           </note>
-          <u who="gunnar_strang_f38b12" xml:id="i-ca600f640b0747a7-2" prev="i-a66fa60c1318abb1-2" n="e9c115ca">
+          <u who="gunnar_strang_f38b12" xml:id="i-e9c115cab47815a5-7" prev="i-e9c115cab47815a5-6" n="e9c115ca">
             <seg n="f2585a9a">
               Om befrielse från skyldighet att i allmän självdeklaration redovisa
               viss förmögenhet
@@ -3044,7 +3094,7 @@
           <note type="speaker" n="b809432f">
             Herr SPETZ (fp):
           </note>
-          <u who="gunnar_spetz_78e294" xml:id="i-eb297ac06bd92298-0" n="7cc6f8ed">
+          <u who="gunnar_spetz_78e294" xml:id="i-7cc6f8ed1d9e560d-0" n="7cc6f8ed">
             <seg n="87c40094">
               Herr talman! Jag skall försöka att inte ta upp någon av de synpunkter
               som tidigare har ventilerats i denna debatt utan om möjligt komma
@@ -3094,7 +3144,7 @@
           <note type="speaker" n="ada4a255">
             Herr statsrådet STRÄNG:
           </note>
-          <u who="gunnar_strang_f38b12" xml:id="i-a66fa60c1318abb1-3" next="i-ca600f640b0747a7-3" n="e9c115ca">
+          <u who="gunnar_strang_f38b12" xml:id="i-e9c115cab47815a5-8" next="i-e9c115cab47815a5-9" n="e9c115ca">
             <seg n="58056dd3">
               Herr talman! Jag tror inte att herr Spetz skall driva det hela
               in absurdum på det sätt som han gjort, när han tolkat vad jag
@@ -3104,13 +3154,13 @@
             </seg>
           </u>
           <pb n="32" facs="https://betalab.kb.se/prot-1958-a-fk--15/prot_1958_a_fk__15-032.jp2/_view"/>
-          <note n="47441d7b">
+          <note type="date" n="14215bc3">
             Fredagen den 18 april 1958
           </note>
           <note n="4e6471e2">
             Nr 15 33
           </note>
-          <u who="gunnar_strang_f38b12" xml:id="i-ca600f640b0747a7-3" prev="i-a66fa60c1318abb1-3" n="e9c115ca">
+          <u who="gunnar_strang_f38b12" xml:id="i-e9c115cab47815a5-9" prev="i-e9c115cab47815a5-8" n="e9c115ca">
             <seg n="f2585a9a">
               Om befrielse från skyldighet att i allmän självdeklaration redovisa
               viss förmögenhet
@@ -3142,7 +3192,7 @@
           <note type="speaker" n="b809432f">
             Herr SPETZ (fp):
           </note>
-          <u who="gunnar_spetz_78e294" xml:id="i-eb297ac06bd92298-1" n="7cc6f8ed">
+          <u who="gunnar_spetz_78e294" xml:id="i-7cc6f8ed1d9e560d-1" n="7cc6f8ed">
             <seg n="eb1781b7">
               Herr talman! Finansministern beskyllde nyss herr Sjödahl för
               överdrift, men jag undrar vad man skall kalla det, när finansministern
@@ -3157,7 +3207,7 @@
           <note type="speaker" n="b667f545">
             Herr ANDERSSON, ALVAR, (cp):
           </note>
-          <u who="torsten_andersson_214d82" xml:id="i-d9d9e7f0f3da141c-1" next="i-ddeb49415bbe90ba-1" n="3bce8f9c">
+          <u who="torsten_andersson_214d82" xml:id="i-30dca5b2afd1229e-2" next="i-30dca5b2afd1229e-7" n="3bce8f9c">
             <seg n="b9ad9bd0">
               Herr talman! Finansministern sade att han av mig hade fått stoff
               till en decka-
@@ -3166,40 +3216,11 @@
           <note n="657e438f">
             3 Första kammarens protokoll 1958. Nr 15
           </note>
-          <u who="torsten_andersson_214d82" xml:id="i-ddeb49415bbe90ba-1" prev="i-d9d9e7f0f3da141c-1" n="3bce8f9c">
+          <u who="torsten_andersson_214d82" xml:id="i-30dca5b2afd1229e-3" prev="i-30dca5b2afd1229e-2" n="3bce8f9c">
             <seg n="46f79e84">
               re, och det må vara honom väl unnat att använda det på det sättet,
               men jag tror att det stoff jag dragit fram mera lämpar sig för
               sanna berättelser ur levande livet.
-            </seg>
-            <seg n="79327ef8">
-              Ja;
-            </seg>
-            <seg n="7cf214e6">
-              Nej;
-            </seg>
-            <seg n="5dbcbf4d">
-              Det av Kungl. Maj:t framlagda förordningsförslaget om sjömansskatt
-              innebar bland annat, att sjöman anställd ombord på svenskt handelsfartyg
-              med en bruttodräktighet av minst 100 ton skulle erlägga sjömansskatt
-              för sin inkomst ombord. Sjömansskatt skulle dock inte utgå på
-              fartyg, som huvudsakligen användes inomskärs vid kusterna eller
-              i annan inre fart. Sjömansskatten skulle utgå i stället för statlig
-              och kommunal inkomstskatt samt avgifterna till folkpensioneringen
-              och den allmänna sjukförsäkringen. Skatten skulle vara en definitiv
-              källskatt. Sjömannen bleve inte skyldig att deklarera för inkomsten
-              ombord och skulle inte heller taxeras för denna inkomst. För inkomst
-              i land skulle däremot taxering åsättas efter vanliga regler.
-            </seg>
-            <seg n="20a76956">
-              I Sverige bosatta sjömän skulle erlägga skatt efter två sjömansskattetabeller,
-              en för fjärrfart och en för närfart. Om fartyget huvudsakligen
-              användes i nordsjö-
-            </seg>
-            <seg n="94bae14c">
-              fart eller oceanfart skulle sjömansskatt erläggas efter tabellen
-              för fjärrfart. Å övriga fartyg skulle sjömansskatt utgå efter
-              tabellen för närfart.
             </seg>
           </u>
           <note n="533c0774">
@@ -3220,9 +3241,19 @@
             Den, som bifaller vad bevillningsutskottet hemställt i sitt betänkande
             nr 39, röstar
           </note>
+          <u who="torsten_andersson_214d82" xml:id="i-30dca5b2afd1229e-4" prev="i-30dca5b2afd1229e-2" n="3bce8f9c">
+            <seg n="79327ef8">
+              Ja;
+            </seg>
+          </u>
           <note n="9f17c1c2">
             Den, det ej vill, röstar
           </note>
+          <u who="torsten_andersson_214d82" xml:id="i-30dca5b2afd1229e-5" prev="i-30dca5b2afd1229e-2" n="3bce8f9c">
+            <seg n="7cf214e6">
+              Nej;
+            </seg>
+          </u>
           <note n="5390927d">
             Vinner Nej, antages det förslag, som innefattas i den av herr
             Eriksson m. fl. vid betänkandet avgivna reservationen.
@@ -3285,9 +3316,36 @@
             6) förordning om ändring i uppbördsförordningen den 5 juni 1953
             (nr 272).
           </note>
+          <u who="torsten_andersson_214d82" xml:id="i-30dca5b2afd1229e-6" prev="i-30dca5b2afd1229e-2" n="3bce8f9c">
+            <seg n="5dbcbf4d">
+              Det av Kungl. Maj:t framlagda förordningsförslaget om sjömansskatt
+              innebar bland annat, att sjöman anställd ombord på svenskt handelsfartyg
+              med en bruttodräktighet av minst 100 ton skulle erlägga sjömansskatt
+              för sin inkomst ombord. Sjömansskatt skulle dock inte utgå på
+              fartyg, som huvudsakligen användes inomskärs vid kusterna eller
+              i annan inre fart. Sjömansskatten skulle utgå i stället för statlig
+              och kommunal inkomstskatt samt avgifterna till folkpensioneringen
+              och den allmänna sjukförsäkringen. Skatten skulle vara en definitiv
+              källskatt. Sjömannen bleve inte skyldig att deklarera för inkomsten
+              ombord och skulle inte heller taxeras för denna inkomst. För inkomst
+              i land skulle däremot taxering åsättas efter vanliga regler.
+            </seg>
+            <seg n="20a76956">
+              I Sverige bosatta sjömän skulle erlägga skatt efter två sjömansskattetabeller,
+              en för fjärrfart och en för närfart. Om fartyget huvudsakligen
+              användes i nordsjö-
+            </seg>
+          </u>
           <note n="63d52811">
             18 april 1958
           </note>
+          <u who="torsten_andersson_214d82" xml:id="i-30dca5b2afd1229e-7" prev="i-30dca5b2afd1229e-2" n="3bce8f9c">
+            <seg n="94bae14c">
+              fart eller oceanfart skulle sjömansskatt erläggas efter tabellen
+              för fjärrfart. Å övriga fartyg skulle sjömansskatt utgå efter
+              tabellen för närfart.
+            </seg>
+          </u>
           <note n="5afa63ce">
             Till bevillningsutskottet hade hänvisats följande i anledning
             av propositionen väckta motioner, nämligen
@@ -3350,7 +3408,7 @@
             2) motionen II: 466, av herr Senander m. fl.,
           </note>
           <pb n="34" facs="https://betalab.kb.se/prot-1958-a-fk--15/prot_1958_a_fk__15-034.jp2/_view"/>
-          <note n="47441d7b">
+          <note type="date" n="14215bc3">
             Fredagen den 18 april 1958
           </note>
           <note n="b959e142">
@@ -3387,7 +3445,7 @@
           <note type="speaker" n="b809432f">
             Herr SPETZ (fp):
           </note>
-          <u who="gunnar_spetz_78e294" xml:id="i-8738139f68db8125-0" next="i-e019df16599c76c9-0" n="7cc6f8ed">
+          <u who="gunnar_spetz_78e294" xml:id="i-7cc6f8ed1d9e560d-2" next="i-7cc6f8ed1d9e560d-5" n="7cc6f8ed">
             <seg n="7c41f44e">
               Herr talman! Frågan om en definitiv källskatt för sjömän har
               länge varit aktuell. Med utskottet kan jag också uttala min tillfredsställelse
@@ -3457,7 +3515,7 @@
           <note n="152eebf0">
             Förordningsförslag om sjömansskatt m. m.
           </note>
-          <u who="gunnar_spetz_78e294" xml:id="i-e019df16599c76c9-0" prev="i-8738139f68db8125-0" n="7cc6f8ed">
+          <u who="gunnar_spetz_78e294" xml:id="i-7cc6f8ed1d9e560d-3" prev="i-7cc6f8ed1d9e560d-2" n="7cc6f8ed">
             <seg n="62e8fecc">
               varon från hemlandet medför också, att vissa sociala förmåner
               icke kan utnyttjas av dessa sjömän på samma sätt som av andra
@@ -3499,6 +3557,11 @@
               en stor grupp sjömän under tre till fyra månader om året sysslar
               med islands-
             </seg>
+          </u>
+          <note type="date" n="14215bc3">
+            Fredagen den 18 april 1958
+          </note>
+          <u who="gunnar_spetz_78e294" xml:id="i-7cc6f8ed1d9e560d-4" prev="i-7cc6f8ed1d9e560d-2" n="7cc6f8ed">
             <seg n="3bf03c73">
               fiske, som ju inte kommer att taxeras enligt denna förfatining.
               Alla dessa grupper är deklarationsskyldiga, oavsett om de erlägger
@@ -3539,6 +3602,18 @@
               bortfaller behovet av tvenne skattetabeller, och därmed bortfaller
               en källa till irritation.
             </seg>
+          </u>
+          <pb n="36" facs="https://betalab.kb.se/prot-1958-a-fk--15/prot_1958_a_fk__15-036.jp2/_view"/>
+          <note type="date" n="14215bc3">
+            Fredagen den 18 april 1958
+          </note>
+          <note n="ee832c9a">
+            Nr 15 3
+          </note>
+          <note n="152eebf0">
+            Förordningsförslag om sjömansskatt m. m.
+          </note>
+          <u who="gunnar_spetz_78e294" xml:id="i-7cc6f8ed1d9e560d-5" prev="i-7cc6f8ed1d9e560d-2" n="7cc6f8ed">
             <seg n="b71b4d30">
               Slutsatsen av denna redovisning blir enligt min mening, att även
               praktiska skäl talar för en begränsning.
@@ -3562,23 +3637,10 @@
               min reservation,
             </seg>
           </u>
-          <note n="47441d7b">
-            Fredagen den 18 april 1958
-          </note>
-          <pb n="36" facs="https://betalab.kb.se/prot-1958-a-fk--15/prot_1958_a_fk__15-036.jp2/_view"/>
-          <note n="47441d7b">
-            Fredagen den 18 april 1958
-          </note>
-          <note n="ee832c9a">
-            Nr 15 3
-          </note>
-          <note n="152eebf0">
-            Förordningsförslag om sjömansskatt m. m.
-          </note>
           <note type="speaker" n="1e13a636">
             Herr SJÖDAHL (s):
           </note>
-          <u who="edgar_sjodahl_74b27f" xml:id="i-7f5a1f5136d4a911-2" next="i-e60d4b2b4b7663cc-2" n="3619b958">
+          <u who="edgar_sjodahl_74b27f" xml:id="i-3619b958aaa1a396-9" next="i-3619b958aaa1a396-11" n="3619b958">
             <seg n="3046424b">
               Herr talman! Jag instämmer i vad reservanten redan anfört, att
               det är en stor och svår fråga som härmed bragts till ett avgörande.
@@ -3646,13 +3708,10 @@
           <note n="cd471647">
             38 Nr 15
           </note>
-          <note n="47441d7b">
+          <note type="date" n="14215bc3">
             Fredagen den 18 april 1958
           </note>
-          <u who="edgar_sjodahl_74b27f" xml:id="i-e60d4b2b4b7663cc-2" prev="i-7f5a1f5136d4a911-2" n="3619b958">
-            <seg n="68020a6a">
-              Om full sysselsättning och trygghet i anställningen
-            </seg>
+          <u who="edgar_sjodahl_74b27f" xml:id="i-3619b958aaa1a396-10" prev="i-3619b958aaa1a396-9" n="3619b958">
             <seg n="68020a6a">
               Om full sysselsättning och trygghet i anställningen
             </seg>
@@ -3676,6 +3735,11 @@
             s. k. riskgarantier, bifölls vad utskottet i detta betänkande
             hemställt.
           </note>
+          <u who="edgar_sjodahl_74b27f" xml:id="i-3619b958aaa1a396-11" prev="i-3619b958aaa1a396-9" n="3619b958">
+            <seg n="68020a6a">
+              Om full sysselsättning och trygghet i anställningen
+            </seg>
+          </u>
           <note n="a2aae846">
             Föredrogs ånyo bankoutskottets utlåtande nr 19, i anledning av
             väckta motioner om utredning och förslag i frågan om full sysselsättning
@@ -3716,7 +3780,7 @@
           <note type="speaker" n="ed8c9fc8">
             Herr OLSSON, ERIK, (s):
           </note>
-          <u who="ernst_olsson_7f64d7" xml:id="i-e8b64ec1b90084e0-0" next="i-dec408cc8d3da468-0" n="6b9445e3">
+          <u who="ernst_olsson_7f64d7" xml:id="i-6b9445e3fcd1155a-0" next="i-6b9445e3fcd1155a-3" n="6b9445e3">
             <seg n="b39023bc">
               Herr talman! Den avfolkning av landsbygden som under senare år
               fortgått i allt snabbare takt har väckt allmän oro och bekymmer.
@@ -3744,13 +3808,13 @@
             </seg>
           </u>
           <pb n="38" facs="https://betalab.kb.se/prot-1958-a-fk--15/prot_1958_a_fk__15-038.jp2/_view"/>
-          <note n="47441d7b">
+          <note type="date" n="14215bc3">
             Fredagen den 18 april 1958
           </note>
           <note n="f4a7f467">
             Nr 15 39
           </note>
-          <u who="ernst_olsson_7f64d7" xml:id="i-dec408cc8d3da468-0" prev="i-e8b64ec1b90084e0-0" n="6b9445e3">
+          <u who="ernst_olsson_7f64d7" xml:id="i-6b9445e3fcd1155a-1" prev="i-6b9445e3fcd1155a-0" n="6b9445e3">
             <seg n="68020a6a">
               Om full sysselsättning och trygghet i anställningen
             </seg>
@@ -3831,6 +3895,15 @@
               Järpens samhälle är ett municip med inte fullt tusentalet invånare
               men ett litet bra sam-
             </seg>
+          </u>
+          <pb n="39" facs="https://betalab.kb.se/prot-1958-a-fk--15/prot_1958_a_fk__15-039.jp2/_view"/>
+          <note n="915b1c95">
+            40 Nr 13
+          </note>
+          <note type="date" n="14215bc3">
+            Fredagen den 18 april 1958
+          </note>
+          <u who="ernst_olsson_7f64d7" xml:id="i-6b9445e3fcd1155a-2" prev="i-6b9445e3fcd1155a-0" n="6b9445e3">
             <seg n="68020a6a">
               Om full sysselsättning och trygghet i anställningen
             </seg>
@@ -3912,6 +3985,15 @@
               skogsförvaltning och alltså försvunnit ifrån Tegefors verk som
               fö-
             </seg>
+          </u>
+          <pb n="40" facs="https://betalab.kb.se/prot-1958-a-fk--15/prot_1958_a_fk__15-040.jp2/_view"/>
+          <note type="date" n="14215bc3">
+            Fredagen den 18 april 1958
+          </note>
+          <note n="480cd36c">
+            Nr 15 41
+          </note>
+          <u who="ernst_olsson_7f64d7" xml:id="i-6b9445e3fcd1155a-3" prev="i-6b9445e3fcd1155a-0" n="6b9445e3">
             <seg n="68020a6a">
               Om full sysselsättning och trygghet i anställningen
             </seg>
@@ -3971,20 +4053,6 @@
               sådant uttalande ger ju faktiskt ganska litet i sak.
             </seg>
           </u>
-          <pb n="39" facs="https://betalab.kb.se/prot-1958-a-fk--15/prot_1958_a_fk__15-039.jp2/_view"/>
-          <note n="915b1c95">
-            40 Nr 13
-          </note>
-          <note n="47441d7b">
-            Fredagen den 18 april 1958
-          </note>
-          <pb n="40" facs="https://betalab.kb.se/prot-1958-a-fk--15/prot_1958_a_fk__15-040.jp2/_view"/>
-          <note n="47441d7b">
-            Fredagen den 18 april 1958
-          </note>
-          <note n="480cd36c">
-            Nr 15 41
-          </note>
           <note n="f9416d46">
             Med dessa ord ber jag, herr talman, att få yrka bifall till den
             vid utskottets utlåtande fogade reservationen nr 2 av herrar Hagnell
@@ -3993,7 +4061,7 @@
           <note type="speaker" n="a2522b5a">
             Herr BOO (s):
           </note>
-          <u who="fritiof_boo_f33de2" xml:id="i-533c851910776db9-0" next="i-014026afcea24872-0" n="fc076e27">
+          <u who="fritiof_boo_f33de2" xml:id="i-fc076e278723d70b-0" next="i-fc076e278723d70b-1" n="fc076e27">
             <seg n="34a61bd7">
               Herr talman! Motionärerna har med utgångspunkt från ett aktuellt
               fall framställt krav på en utredning av den betydelsefulla frågan
@@ -4024,10 +4092,10 @@
           <note n="17ee8883">
             42 Nr 15
           </note>
-          <note n="47441d7b">
+          <note type="date" n="14215bc3">
             Fredagen den 18 april 1958
           </note>
-          <u who="fritiof_boo_f33de2" xml:id="i-014026afcea24872-0" prev="i-533c851910776db9-0" n="fc076e27">
+          <u who="fritiof_boo_f33de2" xml:id="i-fc076e278723d70b-1" prev="i-fc076e278723d70b-0" n="fc076e27">
             <seg n="68020a6a">
               Om full sysselsättning och trygghet i anställningen
             </seg>
@@ -4108,7 +4176,7 @@
           <note type="speaker" n="ed8c9fc8">
             Herr OLSSON, ERIK, (s):
           </note>
-          <u who="ernst_olsson_7f64d7" xml:id="i-e8b64ec1b90084e0-1" next="i-dec408cc8d3da468-1" n="6b9445e3">
+          <u who="ernst_olsson_7f64d7" xml:id="i-6b9445e3fcd1155a-4" next="i-6b9445e3fcd1155a-5" n="6b9445e3">
             <seg n="c89b91e2">
               Herr talman! Utskottets ärade v. ordförande säger att ett samhällsingripande
               i sådana fall som detta är orimligt. Jag undrar bara vad som skett
@@ -4118,13 +4186,13 @@
             </seg>
           </u>
           <pb n="42" facs="https://betalab.kb.se/prot-1958-a-fk--15/prot_1958_a_fk__15-042.jp2/_view"/>
-          <note n="47441d7b">
+          <note type="date" n="14215bc3">
             Fredagen den 18 april 1958
           </note>
           <note n="be5f50a8">
             Nr 15 43
           </note>
-          <u who="ernst_olsson_7f64d7" xml:id="i-dec408cc8d3da468-1" prev="i-e8b64ec1b90084e0-1" n="6b9445e3">
+          <u who="ernst_olsson_7f64d7" xml:id="i-6b9445e3fcd1155a-5" prev="i-6b9445e3fcd1155a-4" n="6b9445e3">
             <seg n="68020a6a">
               Om full sysselsättning och trygghet i anställningen
             </seg>
@@ -4153,7 +4221,7 @@
           <note type="speaker" n="a2522b5a">
             Herr BOO (s):
           </note>
-          <u who="fritiof_boo_f33de2" xml:id="i-533c851910776db9-1" next="i-014026afcea24872-1" n="fc076e27">
+          <u who="fritiof_boo_f33de2" xml:id="i-fc076e278723d70b-2" next="i-fc076e278723d70b-8" n="fc076e27">
             <seg n="044e8ddd">
               Herr talman! Jag vill säga till herr Olsson att jag inte anser,
               att ett samhällsingripande i och för sig är orimligt, om det finns
@@ -4207,50 +4275,19 @@
             Den, som bifaller vad bankoutskottet hemställt i sitt utlåtande
             nr 19, röstar
           </note>
-          <u who="fritiof_boo_f33de2" xml:id="i-014026afcea24872-1" prev="i-533c851910776db9-1" n="fc076e27">
+          <u who="fritiof_boo_f33de2" xml:id="i-fc076e278723d70b-3" prev="i-fc076e278723d70b-2" n="fc076e27">
             <seg n="79327ef8">
               Ja;
-            </seg>
-            <seg n="7cf214e6">
-              Nej;
-            </seg>
-            <seg n="2564d053">
-              syfte att göra personundersökningen mera effektiv och hindra
-              att körkort tilldelades den, vilken bruste i de egenskaper, som
-              borde fordras av en motorförare.
-            </seg>
-            <seg n="4afdf876">
-              viss för motorfordon
-            </seg>
-            <seg n="e5a55c29">
-              18 april 1958 Nr 15 45 ändringar i vägtrafikförordningen m. m.
-              »Det i motionerna I:339 och II: 437 framförda förslaget om att
-              körkort skall vara provisoriskt under två år, räknat från dagen
-              för dess utfärdande, och benämnas nybörjarkort kan utskottet icke
-              ansluta sig till. Enligt förslaget har bestämmelsen om provisoriskt
-              körkort icke förenats med några andra praktiska bestämmelser än
-              just den, att det skall benämnas nybörjarkörkort. Den psykologiska
-              betydelsen av en sådan benämning — motionärerna synes lägga stor
-              vikt härvid — torde i hög grad vara beroende av i vilken mån till
-              benämningen är knutna några särstadganden för innehavaren av körkort
-              av ifrågavarande slag. Den skärpta tillsyn över de nyblivna förarna,
-              som synes vara ett av ledmotiven för motionärerna, skapas eller
-              främjas icke blott och bart genom att de nyutfärdade körkorten
-              erhåller en särskild benämning. Därtill fordras också att särskilda
-              kontrollåtgärder sättes in mot innehavare av körkort, varom här
-              är fråga. Några praktiska förslag i sådant avseende innehåller
-              motionerna icke. För övrigt vill utskottet för sin del gärna ansluta
-              sig till departementschefens uttalande, att manöverfel, som beror
-              på bristande rutin hos en nybliven förare, i regel bör bedömas
-              milt.»
-            </seg>
-            <seg n="c0dbe110">
-              av fru Svensson, som dock ej antytt sin mening.
             </seg>
           </u>
           <note n="9f17c1c2">
             Den, det ej vill, röstar
           </note>
+          <u who="fritiof_boo_f33de2" xml:id="i-fc076e278723d70b-4" prev="i-fc076e278723d70b-2" n="fc076e27">
+            <seg n="7cf214e6">
+              Nej;
+            </seg>
+          </u>
           <note n="9fb6aabe">
             Vinner Nej, antages det förslag, som innefattas i den av herrar
             Hagnell och Nilsson i Östersund vid utlåtandet avgivna reservationen.
@@ -4269,7 +4306,7 @@
           <note n="349c743a">
             44 Nr 15
           </note>
-          <note n="47441d7b">
+          <note type="date" n="14215bc3">
             Fredagen den 18 april 1958
           </note>
           <note n="ad57dbfa">
@@ -4334,6 +4371,13 @@
             I propositionen hade bland annat föreslagits vissa ändringar
             i reglerna om förarprov och utfärdande av körkort i
           </note>
+          <u who="fritiof_boo_f33de2" xml:id="i-fc076e278723d70b-5" prev="i-fc076e278723d70b-2" n="fc076e27">
+            <seg n="2564d053">
+              syfte att göra personundersökningen mera effektiv och hindra
+              att körkort tilldelades den, vilken bruste i de egenskaper, som
+              borde fordras av en motorförare.
+            </seg>
+          </u>
           <note n="f8030939">
             I anledning av propositionen nr 69 hade inom riksdagen väckts
             15 motioner, nämligen
@@ -4390,6 +4434,11 @@
           <note n="7db4f553">
             Ang.
           </note>
+          <u who="fritiof_boo_f33de2" xml:id="i-fc076e278723d70b-6" prev="i-fc076e278723d70b-2" n="fc076e27">
+            <seg n="4afdf876">
+              viss för motorfordon
+            </seg>
+          </u>
           <note n="e2078065">
             samt
           </note>
@@ -4465,6 +4514,30 @@
             I motiveringen hade utskottet beträffande körkortsgivningen yttrat
             bland annat:
           </note>
+          <u who="fritiof_boo_f33de2" xml:id="i-fc076e278723d70b-7" prev="i-fc076e278723d70b-2" n="fc076e27">
+            <seg n="e5a55c29">
+              18 april 1958 Nr 15 45 ändringar i vägtrafikförordningen m. m.
+              »Det i motionerna I:339 och II: 437 framförda förslaget om att
+              körkort skall vara provisoriskt under två år, räknat från dagen
+              för dess utfärdande, och benämnas nybörjarkort kan utskottet icke
+              ansluta sig till. Enligt förslaget har bestämmelsen om provisoriskt
+              körkort icke förenats med några andra praktiska bestämmelser än
+              just den, att det skall benämnas nybörjarkörkort. Den psykologiska
+              betydelsen av en sådan benämning — motionärerna synes lägga stor
+              vikt härvid — torde i hög grad vara beroende av i vilken mån till
+              benämningen är knutna några särstadganden för innehavaren av körkort
+              av ifrågavarande slag. Den skärpta tillsyn över de nyblivna förarna,
+              som synes vara ett av ledmotiven för motionärerna, skapas eller
+              främjas icke blott och bart genom att de nyutfärdade körkorten
+              erhåller en särskild benämning. Därtill fordras också att särskilda
+              kontrollåtgärder sättes in mot innehavare av körkort, varom här
+              är fråga. Några praktiska förslag i sådant avseende innehåller
+              motionerna icke. För övrigt vill utskottet för sin del gärna ansluta
+              sig till departementschefens uttalande, att manöverfel, som beror
+              på bristande rutin hos en nybliven förare, i regel bör bedömas
+              milt.»
+            </seg>
+          </u>
           <note n="869080f4">
             Reservationer hade anförts I. beträffande körkortsgivningen:
           </note>
@@ -4476,6 +4549,11 @@
           <note n="99001c13">
             II. beträffande trafikregler m. m.:
           </note>
+          <u who="fritiof_boo_f33de2" xml:id="i-fc076e278723d70b-8" prev="i-fc076e278723d70b-2" n="fc076e27">
+            <seg n="c0dbe110">
+              av fru Svensson, som dock ej antytt sin mening.
+            </seg>
+          </u>
           <note n="cd64a0c4">
             Den av herrar Edström och Jönsson i Jämtlands Sikås avgivna reservationen
             innebar, att utskottets yttrande beträffande körkortsgivningen
@@ -4491,7 +4569,7 @@
           <note n="17ca2e81">
             46 Nr 15
           </note>
-          <note n="47441d7b">
+          <note type="date" n="14215bc3">
             Fredagen den 18 april 1958
           </note>
           <note n="ad57dbfa">
@@ -4516,7 +4594,7 @@
           <note type="speaker" n="ff64d054">
             Herr EDSTRÖM (fp):
           </note>
-          <u who="gunnar_edstrom_4b2aba" xml:id="i-188224e600f51a92-0" next="i-1bd7e22a70a6cf75-0" n="901c50df">
+          <u who="gunnar_edstrom_4b2aba" xml:id="i-901c50dfc34c79d3-0" next="i-901c50dfc34c79d3-1" n="901c50df">
             <seg n="cddf8a71">
               Herr talman! Föreliggande proposition nr 69 är tyvärr ur flera
               synpunkter — jag måste säga det — ett halvverk, cnär utredningsarbetet
@@ -4591,7 +4669,7 @@
           <note n="7db4f553">
             Ang.
           </note>
-          <u who="gunnar_edstrom_4b2aba" xml:id="i-1bd7e22a70a6cf75-0" prev="i-188224e600f51a92-0" n="901c50df">
+          <u who="gunnar_edstrom_4b2aba" xml:id="i-901c50dfc34c79d3-1" prev="i-901c50dfc34c79d3-0" n="901c50df">
             <seg n="1f12cd9d">
               uppspåra olämpliga förare, utan främst verka som korrektiv mot
               två olycksfrämjande förhållanden, vilka i regel föreligger hos
@@ -4651,7 +4729,7 @@
           <note type="speaker" n="a905e725">
             Herr SVENSSON, AXEL, (s):
           </note>
-          <u who="rikard_svensson_8b9764" xml:id="i-4df8b236fd9597a6-0" next="i-eef9a0b06fbf1596-0" n="4cc7fd4d">
+          <u who="rikard_svensson_8b9764" xml:id="i-4cc7fd4da39953e2-0" next="i-4cc7fd4da39953e2-3" n="4cc7fd4d">
             <seg n="4e04af31">
               Herr talman! Utöver vad som här sagts ifrån reservantens sida
               skulle jag endast vilja göra några personliga kommentarer till
@@ -4691,13 +4769,13 @@
           <note n="06980081">
             48 Nr 15
           </note>
-          <note n="c11941ee">
+          <note type="date" n="8a021c62">
             Fredagen den 18 april 19358
           </note>
           <note n="ad57dbfa">
             Ang. ändringar i vägtrafikförordningen m. m.
           </note>
-          <u who="rikard_svensson_8b9764" xml:id="i-eef9a0b06fbf1596-0" prev="i-4df8b236fd9597a6-0" n="4cc7fd4d">
+          <u who="rikard_svensson_8b9764" xml:id="i-4cc7fd4da39953e2-1" prev="i-4cc7fd4da39953e2-0" n="4cc7fd4d">
             <seg n="b0394b28">
               förklarligt. När en större olycka händer på våra vägar har vi
               alltid fått uppleva en rad motioner, som vill förebygga liknande
@@ -4785,6 +4863,15 @@
               Jag tycker ju att våra åklagaroch domstolsmyndigheter väl får
               lugna sig
             </seg>
+          </u>
+          <pb n="48" facs="https://betalab.kb.se/prot-1958-a-fk--15/prot_1958_a_fk__15-048.jp2/_view"/>
+          <note n="af015bfc">
+            Fredagen den
+          </note>
+          <note n="7db4f553">
+            Ang.
+          </note>
+          <u who="rikard_svensson_8b9764" xml:id="i-4cc7fd4da39953e2-2" prev="i-4cc7fd4da39953e2-0" n="4cc7fd4d">
             <seg n="0ba232cc">
               och inte tillämpa lagbestämmelser, förrän de är beslutade av
               riksdagen. Jag förstår inte med vilken rätt man grundar sina yrkanden
@@ -4825,6 +4912,17 @@
               just med de yrkesmän, som läkarna på detta område är, om alla
               de olika trafikolycksfallen. Låt oss lyssna till dem
             </seg>
+          </u>
+          <note n="84fc2a9a">
+            4 Första kammarens protokoll 1958. Nr 15
+          </note>
+          <note n="7903578a">
+            18 april 19358 Nr 15 49
+          </note>
+          <note n="fa187e55">
+            ändringar i vägtrafikförordningen m. m.
+          </note>
+          <u who="rikard_svensson_8b9764" xml:id="i-4cc7fd4da39953e2-3" prev="i-4cc7fd4da39953e2-0" n="4cc7fd4d">
             <seg n="42495a35">
               och försöka att i samråd med dem komma till rätta med en del
               av de problem, som just nu vållar så mycket bryderi på trafikens
@@ -4837,26 +4935,10 @@
               gjort, och jag ber att få yrka bifall till utskottets förslag.
             </seg>
           </u>
-          <pb n="48" facs="https://betalab.kb.se/prot-1958-a-fk--15/prot_1958_a_fk__15-048.jp2/_view"/>
-          <note n="af015bfc">
-            Fredagen den
-          </note>
-          <note n="7db4f553">
-            Ang.
-          </note>
-          <note n="84fc2a9a">
-            4 Första kammarens protokoll 1958. Nr 15
-          </note>
-          <note n="7903578a">
-            18 april 19358 Nr 15 49
-          </note>
-          <note n="fa187e55">
-            ändringar i vägtrafikförordningen m. m.
-          </note>
           <note type="speaker" n="bd0b8962">
             Herr LUNDSTRÖM (fp):
           </note>
-          <u who="birger_lundstrom_391380" xml:id="i-292eaa669828a55a-0" next="i-c64d67c32b0d3c07-0" n="70a99f00">
+          <u who="birger_lundstrom_391380" xml:id="i-70a99f00bd03035c-0" next="i-70a99f00bd03035c-2" n="70a99f00">
             <seg n="afa14640">
               Herr talman! Tillsammans med någr2 andra ledamöter har jag väckt
               en motion som innefattar förslag till en del ändringar i regeringsförslaget.
@@ -4891,13 +4973,13 @@
           <note n="6cc0f3d7">
             30 Nr 15
           </note>
-          <note n="47441d7b">
+          <note type="date" n="14215bc3">
             Fredagen den 18 april 1958
           </note>
           <note n="ad57dbfa">
             Ang. ändringar i vägtrafikförordningen m. m.
           </note>
-          <u who="birger_lundstrom_391380" xml:id="i-c64d67c32b0d3c07-0" prev="i-292eaa669828a55a-0" n="70a99f00">
+          <u who="birger_lundstrom_391380" xml:id="i-70a99f00bd03035c-1" prev="i-70a99f00bd03035c-0" n="70a99f00">
             <seg n="26bd5682">
               i gång som lagförslaget föreskriver, Vidare anser vi att en mer
               omfattande undersökning bör företagas endast när vid den preliminära
@@ -4978,18 +5060,20 @@
               olyckor och ytterligare offer. Det är något som borde vara onödigt,
               och det borde vara riksdagen angeläget att
             </seg>
-            <seg n="dd13197c">
-              Ang. snarast möjligt åstadkomma en förändring.
-            </seg>
           </u>
           <pb n="50" facs="https://betalab.kb.se/prot-1958-a-fk--15/prot_1958_a_fk__15-050.jp2/_view"/>
           <note n="af015bfc">
             Fredagen den
           </note>
+          <u who="birger_lundstrom_391380" xml:id="i-70a99f00bd03035c-2" prev="i-70a99f00bd03035c-0" n="70a99f00">
+            <seg n="dd13197c">
+              Ang. snarast möjligt åstadkomma en förändring.
+            </seg>
+          </u>
           <note type="speaker" n="8c2bc77e">
             Herr ELOWSSON, NILS, (s):
           </note>
-          <u who="nils_elowsson_c48876" xml:id="i-c1e2771613581368-0" next="i-e93b7fa636bd1ce2-0" n="7084151c">
+          <u who="nils_elowsson_c48876" xml:id="i-7084151cb5210892-0" next="i-7084151cb5210892-1" n="7084151c">
             <seg n="aa19cf80">
               Herr talman! Det har varit ett genomgående drag både i propositionen
               och i de motioner, som väckts i samband med den, att man velat
@@ -5070,13 +5154,13 @@
           <note n="908ffa45">
             d2 Nr 15
           </note>
-          <note n="47441d7b">
+          <note type="date" n="14215bc3">
             Fredagen den 18 april 1958
           </note>
           <note n="ad57dbfa">
             Ang. ändringar i vägtrafikförordningen m. m.
           </note>
-          <u who="nils_elowsson_c48876" xml:id="i-e93b7fa636bd1ce2-0" prev="i-c1e2771613581368-0" n="7084151c">
+          <u who="nils_elowsson_c48876" xml:id="i-7084151cb5210892-1" prev="i-7084151cb5210892-0" n="7084151c">
             <seg n="d62493ce">
               Bekymmer för att polisens arbetskraft inte skall räcka till har
               däremot andra motionärer inte haft, när de framställt krav på
@@ -5115,7 +5199,7 @@
           <note type="speaker" n="b605c063">
             Herr NYSTRÖM (s):
           </note>
-          <u who="hjalmar_nystrom_eb8f18" xml:id="i-a52d103f66d97139-0" next="i-a1e40b468fcbf6f3-0" n="bffb53fc">
+          <u who="hjalmar_nystrom_eb8f18" xml:id="i-bffb53fc1cd858f1-0" next="i-bffb53fc1cd858f1-2" n="bffb53fc">
             <seg n="777f15d0">
               Herr talman! Jag har inte begärt ordet för att beröra de problem,
               som herr Edström m. fl. har brottats med här ti-
@@ -5126,7 +5210,7 @@
             andra lagutskottets utlåtande och motivering i vad avser trafikregler
             m, m.
           </note>
-          <u who="hjalmar_nystrom_eb8f18" xml:id="i-a1e40b468fcbf6f3-0" prev="i-a52d103f66d97139-0" n="bffb53fc">
+          <u who="hjalmar_nystrom_eb8f18" xml:id="i-bffb53fc1cd858f1-1" prev="i-bffb53fc1cd858f1-0" n="bffb53fc">
             <seg n="b460a354">
               Nämnas bör då att i motionerna nr 341 i denna kammare och 433
               i andra kammaren har hemställts, att riksdagen vid behandlingen
@@ -5161,6 +5245,15 @@
               sitt inlägg, när det gäller föreskrifter på trafikregleringens
               område, och det kanske är riktigt.
             </seg>
+          </u>
+          <pb n="52" facs="https://betalab.kb.se/prot-1958-a-fk--15/prot_1958_a_fk__15-052.jp2/_view"/>
+          <note n="af015bfc">
+            Fredagen den
+          </note>
+          <note n="7db4f553">
+            Ang.
+          </note>
+          <u who="hjalmar_nystrom_eb8f18" xml:id="i-bffb53fc1cd858f1-2" prev="i-bffb53fc1cd858f1-0" n="bffb53fc">
             <seg n="5aa51679">
               Det är just detta senare, frågan om problemets lösning genom
               propaganda, som har varit upphovet till motionerna i denna fråga.
@@ -5196,17 +5289,10 @@
               Jag har, herr talman, inget yrkande,
             </seg>
           </u>
-          <pb n="52" facs="https://betalab.kb.se/prot-1958-a-fk--15/prot_1958_a_fk__15-052.jp2/_view"/>
-          <note n="af015bfc">
-            Fredagen den
-          </note>
-          <note n="7db4f553">
-            Ang.
-          </note>
           <note type="speaker" n="574c2c1c">
             Herr statsrådet SKOGLUND:
           </note>
-          <u who="martin_skoglund_efe6f0" xml:id="i-8893da9fe90fbced-1" n="5e11f1c9">
+          <u who="martin_skoglund_efe6f0" xml:id="i-f298818b7e0c4d3c-1" n="5e11f1c9">
             <seg n="3637de7f">
               Herr talman! Jag skall inte förlänga debatten med många ord,
               men jag har ett behov att till andra lagutskottet få framföra
@@ -5232,7 +5318,7 @@
           <note type="speaker" n="ff64d054">
             Herr EDSTRÖM (fp):
           </note>
-          <u who="gunnar_edstrom_4b2aba" xml:id="i-279dad9345bac837-0" n="901c50df">
+          <u who="gunnar_edstrom_4b2aba" xml:id="i-901c50dfc34c79d3-2" n="901c50df">
             <seg n="faf0c6e8">
               Herr talman! Herr statsrådet har kanske i någon mån missuppfattat
               vad jag sade, För att belysa det vill jag understryka en sak:
@@ -5259,7 +5345,7 @@
           <note type="speaker" n="574c2c1c">
             Herr statsrådet SKOGLUND:
           </note>
-          <u who="martin_skoglund_efe6f0" xml:id="i-5bde5bc739b5b567-0" next="i-52c521f49b0ddb53-0" n="5e11f1c9">
+          <u who="martin_skoglund_efe6f0" xml:id="i-f298818b7e0c4d3c-2" next="i-f298818b7e0c4d3c-3" n="5e11f1c9">
             <seg n="de0e74c8">
               Herr talman! Herr Edström försökte nu presentera en modifiering
               av sitt ti-
@@ -5269,13 +5355,13 @@
           <note n="d2b46e84">
             534 Nr 15
           </note>
-          <note n="47441d7b">
+          <note type="date" n="14215bc3">
             Fredagen den 18 april 1958
           </note>
           <note n="ad57dbfa">
             Ang. ändringar i vägtrafikförordningen m. m.
           </note>
-          <u who="martin_skoglund_efe6f0" xml:id="i-52c521f49b0ddb53-0" prev="i-5bde5bc739b5b567-0" n="5e11f1c9">
+          <u who="martin_skoglund_efe6f0" xml:id="i-f298818b7e0c4d3c-3" prev="i-f298818b7e0c4d3c-2" n="5e11f1c9">
             <seg n="8e04bdbc">
               digare uttalande. Han sade, att förslaget var dilettantmässigt
               utformat, framför allt ur vetenskaplig synpunkt. Men, herr Edström,
@@ -5287,7 +5373,7 @@
           <note type="speaker" n="ff64d054">
             Herr EDSTRÖM (fp):
           </note>
-          <u who="gunnar_edstrom_4b2aba" xml:id="i-188224e600f51a92-1" next="i-1bd7e22a70a6cf75-1" n="901c50df">
+          <u who="gunnar_edstrom_4b2aba" xml:id="i-901c50dfc34c79d3-3" next="i-901c50dfc34c79d3-4" n="901c50df">
             <seg n="35fe6a66">
               Herr talman! Jag hänvisar till det gamla romarspråket: nemo repente
               fuit turpissimus — ingen blir med ens alltigenom dålig. Men om
@@ -5384,7 +5470,7 @@
             och Bohus län m. fl. fastigheter; samt
           </note>
           <pb n="54" facs="https://betalab.kb.se/prot-1958-a-fk--15/prot_1958_a_fk__15-054.jp2/_view"/>
-          <note n="f57f142b">
+          <note type="date" n="fc5a935d">
             Lördagen den 19 april 1958
           </note>
           <note n="77f940b0">
@@ -5450,7 +5536,7 @@
           <note n="ea9870d7">
             Kammaren sammanträdde kl. 14.00.
           </note>
-          <u who="gunnar_edstrom_4b2aba" xml:id="i-1bd7e22a70a6cf75-1" prev="i-188224e600f51a92-1" n="901c50df">
+          <u who="gunnar_edstrom_4b2aba" xml:id="i-901c50dfc34c79d3-4" prev="i-901c50dfc34c79d3-3" n="901c50df">
             <seg n="11088a74"/>
           </u>
           <note n="76d6295c">

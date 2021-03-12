@@ -20,7 +20,7 @@
     <encodingDesc>
       <editorialDecl>
         <correction>
-          <p>Some data curation was done. It is documented in db/curation/instances</p>
+          <p>Some data curation was done. It is documented in input/curation/instances</p>
         </correction>
       </editorialDecl>
     </encodingDesc>
@@ -52,12 +52,14 @@
       <front>
         <div type="preface">
           <head>prot-1975--39</head>
+          <docDate when="1975-03-13">1975-03-13</docDate>
           <docDate when="1975-03-14">1975-03-14</docDate>
           <docDate when="1975-03-18">1975-03-18</docDate>
         </div>
       </front>
       <body>
         <div>
+          <pb n="0" facs="https://betalab.kb.se/prot-1975--39/prot_1975__39-000.jp2/_view"/>
           <note n="31ef7e35"/>
           <note n="9087b3bf">
             Riksdagens protokoll
@@ -68,7 +70,7 @@
           <note n="1ed9090e">
             Debatter m. m.
           </note>
-          <note n="beb1b3a8">
+          <note type="date" n="c75415cf">
             Torsdagen den 13 mars kl. 12.00
           </note>
           <note n="223ce8ac">
@@ -142,7 +144,7 @@
           <note n="169342dd">
             Nr 36-39 år 1975
           </note>
-          <note n="a7711e05">
+          <note type="date" n="5e1d789f">
             Torsdagen den 13 mars kl. 19.30
           </note>
           <note n="705d1dba">
@@ -197,7 +199,7 @@
           <note n="5b8c1ffe">
             Samtliga avgjorda ärenden
           </note>
-          <note n="beb1b3a8">
+          <note type="date" n="c75415cf">
             Torsdagen den 13 mars kl. 12.00
           </note>
           <note n="a581d43d">
@@ -256,7 +258,7 @@
             Socialförsäkringsutskottets betänkande Nr 4 om revidering av
             inkomstbegreppet för beräkning av ATP
           </note>
-          <note n="a7711e05">
+          <note type="date" n="5e1d789f">
             Torsdagen den 13 mars kl. 19.30
           </note>
           <note n="0234acea">
@@ -305,7 +307,7 @@
           <note n="c9e0d722">
             Nr 39
           </note>
-          <note n="f4b1e367">
+          <note type="date" n="7bf6498c">
             Tisdagen den 18 mars KI. 16.00
           </note>
           <note n="8adb6164">
@@ -418,7 +420,7 @@
           <note type="speaker" n="05f1d5c1">
             Herr TORWALD (c):
           </note>
-          <u who="rune_torwald_ea5ac3" xml:id="i-f9166045b291e4ad-0" n="bc06fcb5">
+          <u who="rune_torwald_ea5ac3" xml:id="i-bc06fcb5e8c15dce-0" next="i-bc06fcb5e8c15dce-1" n="bc06fcb5">
             <seg n="82312e12">
               Herr talman! Låt mig först få tacka kommunministern för det utförliga
               svaret på min fråga.
@@ -465,13 +467,13 @@
               vid bekämpningen?
             </seg>
             <seg n="3e68dc6c"/>
-            <seg n="3e68dc6c"/>
           </u>
           <pb n="7" facs="https://betalab.kb.se/prot-1975--39/prot_1975__39-007.jp2/_view"/>
+          <u who="rune_torwald_ea5ac3" xml:id="i-bc06fcb5e8c15dce-1" prev="i-bc06fcb5e8c15dce-0" n="bc06fcb5"/>
           <note type="speaker" n="9a1ba4c5">
             Fru FREDGARDH (c):
           </note>
-          <u who="unknown" xml:id="i-7055b4edcdd39565-0" n="110a37a6">
+          <u who="unknown" xml:id="i-110a37a62c537c38-0" n="110a37a6">
             <seg n="e19d5bf8">
               Herr talman! Jag vill först tacka kommunministern för det svar
               som han har gett.
@@ -558,7 +560,7 @@
           <note type="speaker" n="564eff48">
             Herr kommunministern GUSTAFSSON:
           </note>
-          <u who="torsten_gustafsson_d224e4" xml:id="i-1075157968b338fb-0" n="2e364068">
+          <u who="torsten_gustafsson_d224e4" xml:id="i-c2e59236039b3887-0" n="2e364068">
             <seg n="d021aa5e">
               Herr talman! Herr Torwald har frågat mig vilka hjälpmedel som
               har utnyttjats för att hindra oljan från att flyta i land på stränderna,
@@ -599,7 +601,7 @@
           <note type="speaker" n="05f1d5c1">
             Herr TORWALD (c):
           </note>
-          <u who="rune_torwald_ea5ac3" xml:id="i-f9166045b291e4ad-1" n="bc06fcb5">
+          <u who="rune_torwald_ea5ac3" xml:id="i-bc06fcb5e8c15dce-2" next="i-bc06fcb5e8c15dce-3" n="bc06fcb5">
             <seg n="ff510ffd">
               Herr talman! Det är ju beklagligt om jag inte har varit konkret
               nog i min fråga. Jag har alltså frågat: Vilka hjälpmedel har utnyttjats?
@@ -623,6 +625,9 @@
               att med länsornas hjälp
             </seg>
             <seg n="3e68dc6c"/>
+          </u>
+          <pb n="9" facs="https://betalab.kb.se/prot-1975--39/prot_1975__39-009.jp2/_view"/>
+          <u who="rune_torwald_ea5ac3" xml:id="i-bc06fcb5e8c15dce-3" prev="i-bc06fcb5e8c15dce-2" n="bc06fcb5">
             <seg n="15025306">
               skydda vissa strandavsnitt, som det heter. Det är ju bra om de
               möjligheterna funnits, och jag hoppas att så varit fallet, men
@@ -630,11 +635,10 @@
               tillgängliga löpmeter länsor torde ha varit synnerligen litet.
             </seg>
           </u>
-          <pb n="9" facs="https://betalab.kb.se/prot-1975--39/prot_1975__39-009.jp2/_view"/>
           <note type="speaker" n="9a1ba4c5">
             Fru FREDGARDH (c):
           </note>
-          <u who="unknown" xml:id="i-7055b4edcdd39565-1" n="110a37a6">
+          <u who="unknown" xml:id="i-110a37a62c537c38-1" n="110a37a6">
             <seg n="65941bfd">
               Herr talman! Jag uppskattar kommunministerns positiva inställning
               till frågan om ersättningar till kommunerna. Men även om 3 000
@@ -650,7 +654,7 @@
           <note type="speaker" n="564eff48">
             Herr kommunministern GUSTAFSSON:
           </note>
-          <u who="torsten_gustafsson_d224e4" xml:id="i-1075157968b338fb-1" n="2e364068">
+          <u who="torsten_gustafsson_d224e4" xml:id="i-c2e59236039b3887-1" n="2e364068">
             <seg n="19ff9888">
               Herr talman! Herr Torwald säger att det har rått tveksamhet beträffande
               katamaranernas användning när det gäller oljebekämpning. Den tveksamheten
@@ -674,7 +678,7 @@
           <note type="speaker" n="05f1d5c1">
             Herr TORWALD (c):
           </note>
-          <u who="rune_torwald_ea5ac3" xml:id="i-0e8447a37de2c42e-0" next="i-6076d66af803489b-0" n="bc06fcb5">
+          <u who="rune_torwald_ea5ac3" xml:id="i-bc06fcb5e8c15dce-4" next="i-bc06fcb5e8c15dce-5" n="bc06fcb5">
             <seg n="6972ab62">
               Herr talman! Kommunministern säger att jag skulle vara relativt
               ensam om uppfattningen att det hela inte fungerar särskilt tillfredsställande.
@@ -720,7 +724,7 @@
           <note n="fa8fe0f8">
             Om bevarande av
           </note>
-          <u who="rune_torwald_ea5ac3" xml:id="i-6076d66af803489b-0" prev="i-0e8447a37de2c42e-0" n="bc06fcb5">
+          <u who="rune_torwald_ea5ac3" xml:id="i-bc06fcb5e8c15dce-5" prev="i-bc06fcb5e8c15dce-4" n="bc06fcb5">
             <seg n="984580e8">
               förutvarande Kronobageriet på Östermalm i Stockholm
             </seg>
@@ -731,7 +735,7 @@
           <note type="speaker" n="564eff48">
             Herr kommunministern GUSTAFSSON:
           </note>
-          <u who="torsten_gustafsson_d224e4" xml:id="i-c27cf4ae5c2a1788-0" next="i-1de47d0efc90dc01-0" n="2e364068">
+          <u who="torsten_gustafsson_d224e4" xml:id="i-c2e59236039b3887-2" next="i-c2e59236039b3887-4" n="2e364068">
             <seg n="8a0dbf58">
               Herr talman! Jag beklagar om jag är felaktigt underrättad när
               det gäller möjligheterna för herr Torwald att studera den utrustning
@@ -758,11 +762,17 @@
           <note n="ba0688a3">
             Överläggningen var härmed slutad.
           </note>
-          <u who="torsten_gustafsson_d224e4" xml:id="i-1de47d0efc90dc01-0" prev="i-c27cf4ae5c2a1788-0" n="2e364068">
+          <u who="torsten_gustafsson_d224e4" xml:id="i-c2e59236039b3887-3" prev="i-c2e59236039b3887-2" n="2e364068">
             <seg n="4b7e27a9">
               $ 4 Om bevarande av förutvarande Kronobageriet på Östermalm i
               Stockholm
             </seg>
+          </u>
+          <note n="7eb54b1e">
+            Herr utbildningsministern ZACHRISSON erhöll ordet för att besvara
+            fru af Ugglas (m) den 12 februari anmälda fråga, nr 78, och anförde:
+          </note>
+          <u who="torsten_gustafsson_d224e4" xml:id="i-c2e59236039b3887-4" prev="i-c2e59236039b3887-2" n="2e364068">
             <seg n="8ac79564">
               Herr talman! Fru af Ugglas har frågat mig om jag är beredd att
               ge Kronobageriet en alternativ användning som bevarar den unika
@@ -788,14 +798,10 @@
               bevaras.
             </seg>
           </u>
-          <note n="7eb54b1e">
-            Herr utbildningsministern ZACHRISSON erhöll ordet för att besvara
-            fru af Ugglas (m) den 12 februari anmälda fråga, nr 78, och anförde:
-          </note>
           <note type="speaker" n="4cdcc53b">
             Fru AF UGGLAS (m):
           </note>
-          <u who="margaretha_af_ugglas_e43680" xml:id="i-e82dada21f43e7dc-0" n="add7a465">
+          <u who="margaretha_af_ugglas_e43680" xml:id="i-1154e288c69de3b3-0" next="i-1154e288c69de3b3-1" n="add7a465">
             <seg n="1f22b31b">
               Herr talman! Jag tackar utbildningsministern för svaret, som
               naturligtvis inte gör mig särskilt glad. Staten framhärdar i sin
@@ -803,7 +809,9 @@
               planer med en viss,
             </seg>
             <seg n="3e68dc6c"/>
-            <seg n="3e68dc6c"/>
+          </u>
+          <pb n="11" facs="https://betalab.kb.se/prot-1975--39/prot_1975__39-011.jp2/_view"/>
+          <u who="margaretha_af_ugglas_e43680" xml:id="i-1154e288c69de3b3-1" prev="i-1154e288c69de3b3-0" n="add7a465">
             <seg n="b09ff077">
               men i sammanhanget ändå smärre, modifikation. Vissa gamla takstolar
               och bjälklag från 1600-talet skall nu få vara kvar, men enligt
@@ -856,11 +864,10 @@
               Vad saken gäller är att bevara den historiska byggnadens egenart!
             </seg>
           </u>
-          <pb n="11" facs="https://betalab.kb.se/prot-1975--39/prot_1975__39-011.jp2/_view"/>
           <note type="speaker" n="7adda9c3">
             Herr utbildningsministern ZACHRISSON:
           </note>
-          <u who="bertil_zachrisson_ef6e90" xml:id="i-b007d7f65b450b43-0" next="i-3277b4973f01b940-0" n="f53171ee">
+          <u who="bertil_zachrisson_ef6e90" xml:id="i-f53171ee3d566f70-0" next="i-f53171ee3d566f70-3" n="f53171ee">
             <seg n="b4ba4c5a">
               Herr talman! Jo, jag känner ganska mycket för Kronobageriet.
               Det är en gammal fin byggnad, men den har genom tiderna använts
@@ -894,13 +901,33 @@
           <note n="bc2fe1b8">
             Kronobageriet på
           </note>
-          <u who="bertil_zachrisson_ef6e90" xml:id="i-3277b4973f01b940-0" prev="i-b007d7f65b450b43-0" n="f53171ee">
+          <u who="bertil_zachrisson_ef6e90" xml:id="i-f53171ee3d566f70-1" prev="i-f53171ee3d566f70-0" n="f53171ee">
             <seg n="a3465f9a">
               Östermalm i Stockholm
             </seg>
+          </u>
+          <note n="9c290d4e">
+            175
+          </note>
+          <pb n="12" facs="https://betalab.kb.se/prot-1975--39/prot_1975__39-012.jp2/_view"/>
+          <note n="c9e0d722">
+            Nr 39
+          </note>
+          <note type="date" n="c4ba8152">
+            Tisdagen den 18 mars 1975
+          </note>
+          <note n="fa8fe0f8">
+            Om bevarande av
+          </note>
+          <u who="bertil_zachrisson_ef6e90" xml:id="i-f53171ee3d566f70-2" prev="i-f53171ee3d566f70-0" n="f53171ee">
             <seg n="984580e8">
               förutvarande Kronobageriet på Östermalm i Stockholm
             </seg>
+          </u>
+          <note n="e0f69ffc">
+            176
+          </note>
+          <u who="bertil_zachrisson_ef6e90" xml:id="i-f53171ee3d566f70-3" prev="i-f53171ee3d566f70-0" n="f53171ee">
             <seg n="691515a6">
               när det gäller att ta ställning till vetenskapliga data, litet
               olika skolor. Men de som vi för närvarande har anledning att mest
@@ -917,26 +944,10 @@
               samtidigt som den blir tillgänglig för nya aktiviteter.
             </seg>
           </u>
-          <note n="9c290d4e">
-            175
-          </note>
-          <pb n="12" facs="https://betalab.kb.se/prot-1975--39/prot_1975__39-012.jp2/_view"/>
-          <note n="c9e0d722">
-            Nr 39
-          </note>
-          <note type="date" n="c4ba8152">
-            Tisdagen den 18 mars 1975
-          </note>
-          <note n="fa8fe0f8">
-            Om bevarande av
-          </note>
-          <note n="e0f69ffc">
-            176
-          </note>
           <note type="speaker" n="4cdcc53b">
             Fru AF UGGLAS (m):
           </note>
-          <u who="margaretha_af_ugglas_e43680" xml:id="i-e82dada21f43e7dc-1" n="add7a465">
+          <u who="margaretha_af_ugglas_e43680" xml:id="i-1154e288c69de3b3-2" n="add7a465">
             <seg n="71f941a5">
               Herr talman! Jag måste nog utgå från att utbildningsministern
               inte har besökt Kronobageriet, eftersom utbildningsministern har
@@ -960,7 +971,7 @@
           <note type="speaker" n="7adda9c3">
             Herr utbildningsministern ZACHRISSON:
           </note>
-          <u who="bertil_zachrisson_ef6e90" xml:id="i-b007d7f65b450b43-1" next="i-3277b4973f01b940-1" n="f53171ee">
+          <u who="bertil_zachrisson_ef6e90" xml:id="i-f53171ee3d566f70-4" next="i-f53171ee3d566f70-8" n="f53171ee">
             <seg n="a87377f9">
               Herr talman! Vi har den meningen, fru af Ugglas, att arbetet
               äras bäst genom att nya aktiviteter ständigt får komma till uttryck
@@ -974,15 +985,24 @@
           <note n="f02f0214">
             Fru AF UGGLAS (m)
           </note>
-          <u who="bertil_zachrisson_ef6e90" xml:id="i-3277b4973f01b940-1" prev="i-b007d7f65b450b43-1" n="f53171ee">
+          <u who="bertil_zachrisson_ef6e90" xml:id="i-f53171ee3d566f70-5" prev="i-f53171ee3d566f70-4" n="f53171ee">
             <seg n="23735cb5">
               Herr talman! Någon form av användning tycker jag självfallet
               också Kronobageriet skall ha, men jag skulle vilja se det som
               ett museum i sig, ett museum där man verkligen tar vara på Kronobageriets
               egna, unika kvaliteter.
             </seg>
-            <seg n="3e68dc6c"/>
-            <seg n="3e68dc6c"/>
+          </u>
+          <note n="2f2af5b0">
+            Tomma byggnader — även tomma bostäder — finns det f. ö. gott
+            om på andra platser runt om i Storstockholm.
+          </note>
+          <note n="ba0688a3">
+            Överläggningen var härmed slutad.
+          </note>
+          <u who="bertil_zachrisson_ef6e90" xml:id="i-f53171ee3d566f70-6" prev="i-f53171ee3d566f70-4" n="f53171ee"/>
+          <pb n="13" facs="https://betalab.kb.se/prot-1975--39/prot_1975__39-013.jp2/_view"/>
+          <u who="bertil_zachrisson_ef6e90" xml:id="i-f53171ee3d566f70-7" prev="i-f53171ee3d566f70-4" n="f53171ee">
             <seg n="d7bf5acf">
               $5 Om transportfrågor i samband med Stålverk 80 Nr 39 Tisdagen
               den Herr industriministern JOHANSSON erhöll ordet för att besvara
@@ -1029,18 +1049,7 @@
               varv bör självfallet kunna komma i fråga när det gäller byggnation
               av de aktuella specialfartygen.
             </seg>
-            <seg n="98a0fe90">
-              Om transportfrågor i samband med Stålverk 80
-            </seg>
           </u>
-          <note n="2f2af5b0">
-            Tomma byggnader — även tomma bostäder — finns det f. ö. gott
-            om på andra platser runt om i Storstockholm.
-          </note>
-          <note n="ba0688a3">
-            Överläggningen var härmed slutad.
-          </note>
-          <pb n="13" facs="https://betalab.kb.se/prot-1975--39/prot_1975__39-013.jp2/_view"/>
           <note n="c9ec93dc">
             TI!
           </note>
@@ -1054,13 +1063,18 @@
           <note type="date" n="c4ba8152">
             Tisdagen den 18 mars 1975
           </note>
+          <u who="bertil_zachrisson_ef6e90" xml:id="i-f53171ee3d566f70-8" prev="i-f53171ee3d566f70-4" n="f53171ee">
+            <seg n="98a0fe90">
+              Om transportfrågor i samband med Stålverk 80
+            </seg>
+          </u>
           <note n="4166c032">
             178
           </note>
           <note type="speaker" n="01e55c07">
             Herr ROSQVIST (s):
           </note>
-          <u who="birger_rosqvist_6d7892" xml:id="i-48fc4237f3d2197c-0" next="i-ba79c546844f9976-0" n="63618ffb">
+          <u who="birger_rosqvist_6d7892" xml:id="i-63618ffbc1ae6aed-0" next="i-63618ffbc1ae6aed-3" n="63618ffb">
             <seg n="b9702d33">
               Herr talman! Jag vill tacka industriministern för svaret. Det
               var hämtat helt från NJA och delgav oss de synpunkter som man
@@ -1125,6 +1139,9 @@
               även i metertjock is. Det är ett resonemang
             </seg>
             <seg n="3e68dc6c"/>
+          </u>
+          <pb n="15" facs="https://betalab.kb.se/prot-1975--39/prot_1975__39-015.jp2/_view"/>
+          <u who="birger_rosqvist_6d7892" xml:id="i-63618ffbc1ae6aed-1" prev="i-63618ffbc1ae6aed-0" n="63618ffb">
             <seg n="a1e3dcf6">
               som inte hör hemma i verkligheten. Om man räknar med att krypa
               fram «Nr 39 i 2, 3 eller 4 knops fart så är det möjligt att man
@@ -1176,7 +1193,6 @@
               ge möjligheter till ändrade 179
             </seg>
           </u>
-          <pb n="15" facs="https://betalab.kb.se/prot-1975--39/prot_1975__39-015.jp2/_view"/>
           <pb n="16" facs="https://betalab.kb.se/prot-1975--39/prot_1975__39-016.jp2/_view"/>
           <note n="c9e0d722">
             Nr 39
@@ -1184,10 +1200,15 @@
           <note type="date" n="c4ba8152">
             Tisdagen den 18 mars 1975
           </note>
-          <u who="birger_rosqvist_6d7892" xml:id="i-ba79c546844f9976-0" prev="i-48fc4237f3d2197c-0" n="63618ffb">
+          <u who="birger_rosqvist_6d7892" xml:id="i-63618ffbc1ae6aed-2" prev="i-63618ffbc1ae6aed-0" n="63618ffb">
             <seg n="98a0fe90">
               Om transportfrågor i samband med Stålverk 80
             </seg>
+          </u>
+          <note n="eed22504">
+            180
+          </note>
+          <u who="birger_rosqvist_6d7892" xml:id="i-63618ffbc1ae6aed-3" prev="i-63618ffbc1ae6aed-0" n="63618ffb">
             <seg n="9aa1d994">
               och höjda frakttariffer. Detta är någonting som inte går att
               förutse, och det är inte möjligt att mitt i vintern eller ens
@@ -1236,13 +1257,10 @@
               den framtida sysselsättningen.
             </seg>
           </u>
-          <note n="eed22504">
-            180
-          </note>
           <note type="speaker" n="8426ff44">
             Herr HUGOSSON (s):
           </note>
-          <u who="kurt_hugosson_f5d6a2" xml:id="i-1d8a3aa34ee7e590-0" n="c94d8587">
+          <u who="kurt_hugosson_f5d6a2" xml:id="i-c94d8587550eca06-0" next="i-c94d8587550eca06-1" n="c94d8587">
             <seg n="65001507">
               Herr talman! Industriministern säger i interpellationssvaret
               bl. a.: ”Ett av alternativen som studeras innebär att en terminalhamn
@@ -1264,6 +1282,9 @@
               man åtminstone
             </seg>
             <seg n="3e68dc6c"/>
+          </u>
+          <pb n="17" facs="https://betalab.kb.se/prot-1975--39/prot_1975__39-017.jp2/_view"/>
+          <u who="kurt_hugosson_f5d6a2" xml:id="i-c94d8587550eca06-1" prev="i-c94d8587550eca06-0" n="c94d8587">
             <seg n="6da98e78">
               från visst håll i den gruppen tycks ha bestämt sig för att den
               omlast- - Nr 39 ningshamn eller terminalhamn som det här är fråga
@@ -1295,11 +1316,10 @@
               riksplan vi har antagit.
             </seg>
           </u>
-          <pb n="17" facs="https://betalab.kb.se/prot-1975--39/prot_1975__39-017.jp2/_view"/>
           <note type="speaker" n="ab80a6a6">
             Herr industriministern JOHANSSON:
           </note>
-          <u who="tyra_johansson_f311f3" xml:id="i-f0b6d191296e72ae-0" next="i-4b193083f9e2ff55-0" n="936691cd">
+          <u who="tyra_johansson_f311f3" xml:id="i-936691cd3052f6b6-0" next="i-936691cd3052f6b6-3" n="936691cd">
             <seg n="7d344ce9">
               Herr talman! Jag vill upprepa vad jag sade i mitt svar, nämligen
               att utredningarna om sjötransportsystemet kommer att resultera
@@ -1332,10 +1352,15 @@
           <note type="date" n="c4ba8152">
             Tisdagen den 18 mars 1975
           </note>
-          <u who="tyra_johansson_f311f3" xml:id="i-4b193083f9e2ff55-0" prev="i-f0b6d191296e72ae-0" n="936691cd">
+          <u who="tyra_johansson_f311f3" xml:id="i-936691cd3052f6b6-1" prev="i-936691cd3052f6b6-0" n="936691cd">
             <seg n="98a0fe90">
               Om transportfrågor i samband med Stålverk 80
             </seg>
+          </u>
+          <note n="aceaf776">
+            182
+          </note>
+          <u who="tyra_johansson_f311f3" xml:id="i-936691cd3052f6b6-2" prev="i-936691cd3052f6b6-0" n="936691cd">
             <seg n="dee48608">
               pris de erbjuder. Det är en kommersiell företagsverksamhet NJA
               bedriver, och i det avseendet måste man försöka nå ett så godtagbart
@@ -1402,6 +1427,9 @@
               en debatt
             </seg>
             <seg n="3e68dc6c"/>
+          </u>
+          <pb n="19" facs="https://betalab.kb.se/prot-1975--39/prot_1975__39-019.jp2/_view"/>
+          <u who="tyra_johansson_f311f3" xml:id="i-936691cd3052f6b6-3" prev="i-936691cd3052f6b6-0" n="936691cd">
             <seg n="2c10b25c">
               om transportfrågorna. Herr Rosqvist är speciellt kunnig i dessa
               frågor Nr 39 och har ett stort och levande intresse för dem, och
@@ -1425,14 +1453,10 @@
               USA än från Polen trots att Polen ligger mycket närmare.
             </seg>
           </u>
-          <note n="aceaf776">
-            182
-          </note>
-          <pb n="19" facs="https://betalab.kb.se/prot-1975--39/prot_1975__39-019.jp2/_view"/>
           <note type="speaker" n="8426ff44">
             Herr HUGOSSON (s):
           </note>
-          <u who="kurt_hugosson_f5d6a2" xml:id="i-11244e7a5adbd827-0" next="i-00d7a332ce4aaafb-0" n="c94d8587">
+          <u who="kurt_hugosson_f5d6a2" xml:id="i-c94d8587550eca06-2" next="i-c94d8587550eca06-8" n="c94d8587">
             <seg n="6f98b1e1">
               Herr talman! Jag ber att få tacka industriministern för klarläggandet
               i den här debatten, att någon som helst bindning till en speciell
@@ -1456,13 +1480,38 @@
           <note n="ba0688a3">
             Överläggningen var härmed slutad.
           </note>
-          <u who="kurt_hugosson_f5d6a2" xml:id="i-00d7a332ce4aaafb-0" prev="i-11244e7a5adbd827-0" n="c94d8587">
+          <u who="kurt_hugosson_f5d6a2" xml:id="i-c94d8587550eca06-3" prev="i-c94d8587550eca06-2" n="c94d8587">
             <seg n="5500c5fe">
               86 Om reformplaner på kriminalvårdens område
             </seg>
+          </u>
+          <note n="649ca9b2">
+            Herr justitieministern GEIJER erhöll ordet för att besvara fru
+            Kristenssons (m) den 28 februari anmälda interpellation, nr 39,
+            och anförde: Herr talman! Fru Kristensson har frågat mig vad mina
+            reformplaner på kriminalvårdens område mera preciserat innebär
+            samt hur dessa planer är förenliga med de av riksdagen nyligen
+            beslutade riktlinjerna för an- 183
+          </note>
+          <pb n="20" facs="https://betalab.kb.se/prot-1975--39/prot_1975__39-020.jp2/_view"/>
+          <note n="c9e0d722">
+            Nr 39
+          </note>
+          <note type="date" n="c4ba8152">
+            Tisdagen den 18 mars 1975
+          </note>
+          <note n="f6c0a58d">
+            Om reformplaner
+          </note>
+          <u who="kurt_hugosson_f5d6a2" xml:id="i-c94d8587550eca06-4" prev="i-c94d8587550eca06-2" n="c94d8587">
             <seg n="ddd6abdc">
               på kriminalvårdens område
             </seg>
+          </u>
+          <note n="39ec9092">
+            184
+          </note>
+          <u who="kurt_hugosson_f5d6a2" xml:id="i-c94d8587550eca06-5" prev="i-c94d8587550eca06-2" n="c94d8587">
             <seg n="dffbfaca">
               staltsbyggandet inom kriminalvården och med vårt nuvarande påföljdssystem.
             </seg>
@@ -1529,6 +1578,9 @@
               vad man numera
             </seg>
             <seg n="3e68dc6c"/>
+          </u>
+          <pb n="21" facs="https://betalab.kb.se/prot-1975--39/prot_1975__39-021.jp2/_view"/>
+          <u who="kurt_hugosson_f5d6a2" xml:id="i-c94d8587550eca06-6" prev="i-c94d8587550eca06-2" n="c94d8587">
             <seg n="7b1277e4">
               vet om dem som döms till frihetsstraff och om verkan av sådana
               påföljder. Nr 39 finns det starka skäl att försöka gå vidare.
@@ -1579,9 +1631,26 @@
               sådana som ägnar sig åt yrkesmässig brottslighet, t. ex. narkotikalangare
               m.fl. Det är naturligtvis mycket svårt att 185
             </seg>
+          </u>
+          <pb n="22" facs="https://betalab.kb.se/prot-1975--39/prot_1975__39-022.jp2/_view"/>
+          <note n="c9e0d722">
+            Nr 39
+          </note>
+          <note type="date" n="c4ba8152">
+            Tisdagen den 18 mars 1975
+          </note>
+          <note n="f6c0a58d">
+            Om reformplaner
+          </note>
+          <u who="kurt_hugosson_f5d6a2" xml:id="i-c94d8587550eca06-7" prev="i-c94d8587550eca06-2" n="c94d8587">
             <seg n="ddd6abdc">
               på kriminalvårdens område
             </seg>
+          </u>
+          <note n="e07646d8">
+            186
+          </note>
+          <u who="kurt_hugosson_f5d6a2" xml:id="i-c94d8587550eca06-8" prev="i-c94d8587550eca06-2" n="c94d8587">
             <seg n="2d453df0">
               i siffror ange hur stor denna gruppär. Att den är relativt liten
               i förhållande till det antal som nu finns i kriminalvårdsanstalterna
@@ -1626,45 +1695,10 @@
               till beläggningsutvecklingen på kriminalvårdens anstalter.
             </seg>
           </u>
-          <note n="649ca9b2">
-            Herr justitieministern GEIJER erhöll ordet för att besvara fru
-            Kristenssons (m) den 28 februari anmälda interpellation, nr 39,
-            och anförde: Herr talman! Fru Kristensson har frågat mig vad mina
-            reformplaner på kriminalvårdens område mera preciserat innebär
-            samt hur dessa planer är förenliga med de av riksdagen nyligen
-            beslutade riktlinjerna för an- 183
-          </note>
-          <pb n="20" facs="https://betalab.kb.se/prot-1975--39/prot_1975__39-020.jp2/_view"/>
-          <note n="c9e0d722">
-            Nr 39
-          </note>
-          <note type="date" n="c4ba8152">
-            Tisdagen den 18 mars 1975
-          </note>
-          <note n="f6c0a58d">
-            Om reformplaner
-          </note>
-          <note n="39ec9092">
-            184
-          </note>
-          <pb n="21" facs="https://betalab.kb.se/prot-1975--39/prot_1975__39-021.jp2/_view"/>
-          <pb n="22" facs="https://betalab.kb.se/prot-1975--39/prot_1975__39-022.jp2/_view"/>
-          <note n="c9e0d722">
-            Nr 39
-          </note>
-          <note type="date" n="c4ba8152">
-            Tisdagen den 18 mars 1975
-          </note>
-          <note n="f6c0a58d">
-            Om reformplaner
-          </note>
-          <note n="e07646d8">
-            186
-          </note>
           <note type="speaker" n="55354348">
             Fru KRISTENSSON (m):
           </note>
-          <u who="valter_kristensson_83c505" xml:id="i-9249a31d7150cea4-0" next="i-522cb3dafd538350-0" n="db8093c6">
+          <u who="valter_kristensson_83c505" xml:id="i-db8093c68c9b1e4a-0" next="i-db8093c68c9b1e4a-14" n="db8093c6">
             <seg n="b5e526a6">
               Herr talman! Jag ber att få tacka justitieministern för det mycket
               utförliga svaret på min interpellation.
@@ -1682,6 +1716,9 @@
               år — redan i slutet av 1970-talet eller
             </seg>
             <seg n="3e68dc6c"/>
+          </u>
+          <pb n="23" facs="https://betalab.kb.se/prot-1975--39/prot_1975__39-023.jp2/_view"/>
+          <u who="valter_kristensson_83c505" xml:id="i-db8093c68c9b1e4a-1" prev="i-db8093c68c9b1e4a-0" n="db8093c6">
             <seg n="ff7323d0">
               i början av 1980-talet — inte skulle behöva räkna med mer än
               500-700 Nr 39 intagna på våra fångvårdsanstalter. Tisdagen den
@@ -1735,7 +1772,6 @@
               187
             </seg>
           </u>
-          <pb n="23" facs="https://betalab.kb.se/prot-1975--39/prot_1975__39-023.jp2/_view"/>
           <pb n="24" facs="https://betalab.kb.se/prot-1975--39/prot_1975__39-024.jp2/_view"/>
           <note n="c9e0d722">
             Nr 39
@@ -1746,10 +1782,15 @@
           <note n="f6c0a58d">
             Om reformplaner
           </note>
-          <u who="valter_kristensson_83c505" xml:id="i-522cb3dafd538350-0" prev="i-9249a31d7150cea4-0" n="db8093c6">
+          <u who="valter_kristensson_83c505" xml:id="i-db8093c68c9b1e4a-2" prev="i-db8093c68c9b1e4a-0" n="db8093c6">
             <seg n="ddd6abdc">
               på kriminalvårdens område
             </seg>
+          </u>
+          <note n="1c078311">
+            188
+          </note>
+          <u who="valter_kristensson_83c505" xml:id="i-db8093c68c9b1e4a-3" prev="i-db8093c68c9b1e4a-0" n="db8093c6">
             <seg n="742e7329">
               i så fall ha preciserat på ett tydligare sätt. Som ordförande
               i justitieutskottet måste jag bestämt hävda att vi då borde ha
@@ -1808,6 +1849,9 @@
               är det fråga om hur riksdagen kommer att se på detta. Det är ju
             </seg>
             <seg n="3e68dc6c"/>
+          </u>
+          <pb n="25" facs="https://betalab.kb.se/prot-1975--39/prot_1975__39-025.jp2/_view"/>
+          <u who="valter_kristensson_83c505" xml:id="i-db8093c68c9b1e4a-4" prev="i-db8093c68c9b1e4a-0" n="db8093c6">
             <seg n="fe8632f4">
               vi här i riksdagen som trots allt är lagstiftare, så det får
               bli en bedömning - Nr 39 från riksdagens sida. Tisdagen den När
@@ -1860,9 +1904,23 @@
               isoleringsstraffet inom anstalterna. Även det var en begäran från
               utskottets 189
             </seg>
+          </u>
+          <pb n="26" facs="https://betalab.kb.se/prot-1975--39/prot_1975__39-026.jp2/_view"/>
+          <note n="c9e0d722">
+            Nr 39
+          </note>
+          <note type="date" n="c4ba8152">
+            Tisdagen den 18 mars 1975
+          </note>
+          <u who="valter_kristensson_83c505" xml:id="i-db8093c68c9b1e4a-5" prev="i-db8093c68c9b1e4a-0" n="db8093c6">
             <seg n="63764617">
               Om reformplaner på kriminalvårdens område
             </seg>
+          </u>
+          <note n="7e9eac00">
+            190
+          </note>
+          <u who="valter_kristensson_83c505" xml:id="i-db8093c68c9b1e4a-6" prev="i-db8093c68c9b1e4a-0" n="db8093c6">
             <seg n="225df3b0">
               sida som riksdagen biföll. Men mig veterligen har departementet
               ännu inte vidtagit några åtgärder — i varje fall inte sådana som
@@ -1902,6 +1960,13 @@
               talmannen och kammaren med att läsa upp hela listan. Jag tänkte
               börja 1974 för att begränsa det hela litet. Det gäller:
             </seg>
+          </u>
+          <note n="796182ae">
+            Lag om vissa anställningsbefrämjande åtgärder, där man stadgar
+            böter eller fängelse i högst ett år för lämnande av oriktiga uppgifter
+            i vissa fall.
+          </note>
+          <u who="valter_kristensson_83c505" xml:id="i-db8093c68c9b1e4a-7" prev="i-db8093c68c9b1e4a-0" n="db8093c6">
             <seg n="f471811f">
               Brott mot bestämmelserna i kungl. kungörelsen om internationell
               vägtransport av farligt gods, böter eller fängelse i högst sex
@@ -1925,7 +1990,14 @@
               Lag om bevakningsföretag, bedrivande av verksamhet utan auktorisation,
               böter eller fängelse i högst sex månader.
             </seg>
-            <seg n="3e68dc6c"/>
+          </u>
+          <note n="ed946a19">
+            Lag om prisreglering på fiskets område, oriktig uppgift som leder
+            till
+          </note>
+          <u who="valter_kristensson_83c505" xml:id="i-db8093c68c9b1e4a-8" prev="i-db8093c68c9b1e4a-0" n="db8093c6"/>
+          <pb n="27" facs="https://betalab.kb.se/prot-1975--39/prot_1975__39-027.jp2/_view"/>
+          <u who="valter_kristensson_83c505" xml:id="i-db8093c68c9b1e4a-9" prev="i-db8093c68c9b1e4a-0" n="db8093c6">
             <seg n="9b7e4126">
               undandragande av avgift, böter eller fängelse i högst två år.
             </seg>
@@ -2011,6 +2083,12 @@
               av landets förråd av vissa livsmedel, böter eller fängelse i högst
               ett år.
             </seg>
+          </u>
+          <note n="aa357731">
+            Uppförande av byggnad i strid med lagen om ändring i naturvårdslagen,
+            böter eller fängelse i högst sex månader.
+          </note>
+          <u who="valter_kristensson_83c505" xml:id="i-db8093c68c9b1e4a-10" prev="i-db8093c68c9b1e4a-0" n="db8093c6">
             <seg n="254424d2">
               Brott mot lagen om avveckling av hyresregleringen, böter eller
               fängelse i högst ett år. — Nu har jag inte så mycket kvar, herr
@@ -2025,16 +2103,48 @@
               kommer att anta, finns dock en hel del bestämmelser där det stadgas
               om fängelsestraff.
             </seg>
+          </u>
+          <note type="date" n="ac6cd126">
+            Nr 39 Tisdagen den 18 mars 1975
+          </note>
+          <u who="valter_kristensson_83c505" xml:id="i-db8093c68c9b1e4a-11" prev="i-db8093c68c9b1e4a-0" n="db8093c6">
             <seg n="63764617">
               Om reformplaner på kriminalvårdens område
             </seg>
+          </u>
+          <note n="284c65a5">
+            191
+          </note>
+          <pb n="28" facs="https://betalab.kb.se/prot-1975--39/prot_1975__39-028.jp2/_view"/>
+          <note n="c9e0d722">
+            Nr 39
+          </note>
+          <note type="date" n="c4ba8152">
+            Tisdagen den 18 mars 1975
+          </note>
+          <note n="f6c0a58d">
+            Om reformplaner
+          </note>
+          <u who="valter_kristensson_83c505" xml:id="i-db8093c68c9b1e4a-12" prev="i-db8093c68c9b1e4a-0" n="db8093c6">
             <seg n="ddd6abdc">
               på kriminalvårdens område
             </seg>
+          </u>
+          <note n="950f956b">
+            Lag om ändring i brottsbalken, avseende olovlig avlyssning, böter
+            eller fängelse i högst två år.
+          </note>
+          <u who="valter_kristensson_83c505" xml:id="i-db8093c68c9b1e4a-13" prev="i-db8093c68c9b1e4a-0" n="db8093c6">
             <seg n="7cb0dd69">
               Lag om ändring i radiolagen, olovligt innehav av radiosändare,
               böter eller fängelse i högst ett år.
             </seg>
+          </u>
+          <note n="8242f6ce">
+            Lag om ändring i trafikbrottslagen, straffbestämmelser för fordonsförare
+            utvidgade att även omfatta spårvagnsförare.
+          </note>
+          <u who="valter_kristensson_83c505" xml:id="i-db8093c68c9b1e4a-14" prev="i-db8093c68c9b1e4a-0" n="db8093c6">
             <seg n="e62dfe04">
               Förbud mot yrkesmässig nedsmältning av mynt, fängelse i högst
               ett år.
@@ -2088,62 +2198,10 @@
               på min konkreta fråga.
             </seg>
           </u>
-          <note n="1c078311">
-            188
-          </note>
-          <pb n="25" facs="https://betalab.kb.se/prot-1975--39/prot_1975__39-025.jp2/_view"/>
-          <pb n="26" facs="https://betalab.kb.se/prot-1975--39/prot_1975__39-026.jp2/_view"/>
-          <note n="c9e0d722">
-            Nr 39
-          </note>
-          <note type="date" n="c4ba8152">
-            Tisdagen den 18 mars 1975
-          </note>
-          <note n="7e9eac00">
-            190
-          </note>
-          <note n="796182ae">
-            Lag om vissa anställningsbefrämjande åtgärder, där man stadgar
-            böter eller fängelse i högst ett år för lämnande av oriktiga uppgifter
-            i vissa fall.
-          </note>
-          <note n="ed946a19">
-            Lag om prisreglering på fiskets område, oriktig uppgift som leder
-            till
-          </note>
-          <pb n="27" facs="https://betalab.kb.se/prot-1975--39/prot_1975__39-027.jp2/_view"/>
-          <note n="aa357731">
-            Uppförande av byggnad i strid med lagen om ändring i naturvårdslagen,
-            böter eller fängelse i högst sex månader.
-          </note>
-          <note n="72540115">
-            Nr 39 Tisdagen den 18 mars 1975
-          </note>
-          <note n="284c65a5">
-            191
-          </note>
-          <pb n="28" facs="https://betalab.kb.se/prot-1975--39/prot_1975__39-028.jp2/_view"/>
-          <note n="c9e0d722">
-            Nr 39
-          </note>
-          <note type="date" n="c4ba8152">
-            Tisdagen den 18 mars 1975
-          </note>
-          <note n="f6c0a58d">
-            Om reformplaner
-          </note>
-          <note n="950f956b">
-            Lag om ändring i brottsbalken, avseende olovlig avlyssning, böter
-            eller fängelse i högst två år.
-          </note>
-          <note n="8242f6ce">
-            Lag om ändring i trafikbrottslagen, straffbestämmelser för fordonsförare
-            utvidgade att även omfatta spårvagnsförare.
-          </note>
           <note type="speaker" n="a5b477a8">
             Herr justitieministern GEIJER:
           </note>
-          <u who="lennart_geijer_1243ae" xml:id="i-a87d6a7be3635f44-0" next="i-bb6e6ae32b268bab-0" n="90dbde9f">
+          <u who="lennart_geijer_1243ae" xml:id="i-90dbde9f9fb8f9d5-0" next="i-90dbde9f9fb8f9d5-5" n="90dbde9f">
             <seg n="f72a4029">
               Herr talman! Jag skall försöka följa samma tågordning som fru
               Kristensson efter mina anteckningar.
@@ -2155,6 +2213,9 @@
               Att göra någon prognos är ju inte lätt, och jag har i allmänhet
               försökt
             </seg>
+          </u>
+          <pb n="29" facs="https://betalab.kb.se/prot-1975--39/prot_1975__39-029.jp2/_view"/>
+          <u who="lennart_geijer_1243ae" xml:id="i-90dbde9f9fb8f9d5-1" prev="i-90dbde9f9fb8f9d5-0" n="90dbde9f">
             <seg n="2a479ded">
               undvika att ange några konkreta siffror; i en prognos bör man
               kanske Nr 39 inte alltför starkt konkretisera sig. Tisdagen den
@@ -2207,7 +2268,6 @@
               bestämmelser när det gäller permissioner osv.? 193
             </seg>
           </u>
-          <pb n="29" facs="https://betalab.kb.se/prot-1975--39/prot_1975__39-029.jp2/_view"/>
           <note n="39a28093">
             13 Riksdagens protokoll 1975. Nr 36-39
           </note>
@@ -2221,10 +2281,15 @@
           <note n="f6c0a58d">
             Om reformplaner
           </note>
-          <u who="lennart_geijer_1243ae" xml:id="i-bb6e6ae32b268bab-0" prev="i-a87d6a7be3635f44-0" n="90dbde9f">
+          <u who="lennart_geijer_1243ae" xml:id="i-90dbde9f9fb8f9d5-2" prev="i-90dbde9f9fb8f9d5-0" n="90dbde9f">
             <seg n="ddd6abdc">
               på kriminalvårdens område
             </seg>
+          </u>
+          <note n="f9448a77">
+            194
+          </note>
+          <u who="lennart_geijer_1243ae" xml:id="i-90dbde9f9fb8f9d5-3" prev="i-90dbde9f9fb8f9d5-0" n="90dbde9f">
             <seg n="8c70ed2f">
               Så säger fru Kristensson att jag kanske borde ta kontakt med
               övervakningsnämnderna för att ta del av deras erfarenhet beträffande
@@ -2287,6 +2352,9 @@
               på sina håll tack vare att vi har fått möjligheter att tala om
               vad det finns för statistik
             </seg>
+          </u>
+          <pb n="31" facs="https://betalab.kb.se/prot-1975--39/prot_1975__39-031.jp2/_view"/>
+          <u who="lennart_geijer_1243ae" xml:id="i-90dbde9f9fb8f9d5-4" prev="i-90dbde9f9fb8f9d5-0" n="90dbde9f">
             <seg n="6d4d9841">
               och hur den skall brukas. Fru Kristensson gjorde ju också reservationer,
               Nr 39 men icke förty fortsatte hon sedan med att plocka ut några
@@ -2339,14 +2407,7 @@
               man kan tänka sig ekonomiska sanktioner i stället för straff-
               195 bestämmelser.
             </seg>
-            <seg n="ddd6abdc">
-              på kriminalvårdens område
-            </seg>
           </u>
-          <note n="f9448a77">
-            194
-          </note>
-          <pb n="31" facs="https://betalab.kb.se/prot-1975--39/prot_1975__39-031.jp2/_view"/>
           <pb n="32" facs="https://betalab.kb.se/prot-1975--39/prot_1975__39-032.jp2/_view"/>
           <note n="c9e0d722">
             Nr 39
@@ -2357,13 +2418,18 @@
           <note n="f6c0a58d">
             Om reformplaner
           </note>
+          <u who="lennart_geijer_1243ae" xml:id="i-90dbde9f9fb8f9d5-5" prev="i-90dbde9f9fb8f9d5-0" n="90dbde9f">
+            <seg n="ddd6abdc">
+              på kriminalvårdens område
+            </seg>
+          </u>
           <note n="a14dc7c7">
             196
           </note>
           <note type="speaker" n="55354348">
             Fru KRISTENSSON (m):
           </note>
-          <u who="valter_kristensson_83c505" xml:id="i-9249a31d7150cea4-1" next="i-522cb3dafd538350-1" n="db8093c6">
+          <u who="valter_kristensson_83c505" xml:id="i-db8093c68c9b1e4a-15" next="i-db8093c68c9b1e4a-20" n="db8093c6">
             <seg n="dc5693f0">
               Herr talman! Jag håller med herr justiteministern om att det
               sannerligen inte är lätt att göra prognoser, och därför tycker
@@ -2422,6 +2488,9 @@
               och andra förseelser skulle vara genomförda. På det svarade justitieministern:
               Det blir successivt inom ett par tre fyra år.
             </seg>
+          </u>
+          <pb n="33" facs="https://betalab.kb.se/prot-1975--39/prot_1975__39-033.jp2/_view"/>
+          <u who="valter_kristensson_83c505" xml:id="i-db8093c68c9b1e4a-16" prev="i-db8093c68c9b1e4a-15" n="db8093c6">
             <seg n="8e9fa525">
               Sedan frågade intervjuaren hur lång tid det kommer att ta innan
               fäng- = Nr 39 elserna i stort sett är tomma. Efter att ha inlett
@@ -2474,7 +2543,6 @@
               samhällets allmänna socialoch 197
             </seg>
           </u>
-          <pb n="33" facs="https://betalab.kb.se/prot-1975--39/prot_1975__39-033.jp2/_view"/>
           <pb n="34" facs="https://betalab.kb.se/prot-1975--39/prot_1975__39-034.jp2/_view"/>
           <note n="c9e0d722">
             Nr 39
@@ -2485,10 +2553,15 @@
           <note n="f6c0a58d">
             Om reformplaner
           </note>
-          <u who="valter_kristensson_83c505" xml:id="i-522cb3dafd538350-1" prev="i-9249a31d7150cea4-1" n="db8093c6">
+          <u who="valter_kristensson_83c505" xml:id="i-db8093c68c9b1e4a-17" prev="i-db8093c68c9b1e4a-15" n="db8093c6">
             <seg n="ddd6abdc">
               på kriminalvårdens område
             </seg>
+          </u>
+          <note n="7f99c097">
+            198
+          </note>
+          <u who="valter_kristensson_83c505" xml:id="i-db8093c68c9b1e4a-18" prev="i-db8093c68c9b1e4a-15" n="db8093c6">
             <seg n="ebf47f9e">
               sjukvård och de intagna. Var det en reform bara på papperet,
               en reform som herr statsrådet nu är beredd att ompröva? Skulle
@@ -2552,6 +2625,13 @@
               att man skulle gå igenom och försöka gallra ut all onödig lagstiftning.
               Det går inte att
             </seg>
+          </u>
+          <pb n="35" facs="https://betalab.kb.se/prot-1975--39/prot_1975__39-035.jp2/_view"/>
+          <note n="45399b63">
+            i ett samhälle bara lägga på lag efter lag utan att samtidigt
+            fundera över — Nr 39
+          </note>
+          <u who="valter_kristensson_83c505" xml:id="i-db8093c68c9b1e4a-19" prev="i-db8093c68c9b1e4a-15" n="db8093c6">
             <seg n="211078f2">
               om det inte vore möjligt att gallra ut en del. Summan av den
               lagstiftning Tisdagen den
@@ -2569,27 +2649,21 @@
               Herr talman! Jag nödgas ändå återkomma till den grundläggande
               frågan — på kriminalvårdens
             </seg>
+          </u>
+          <note n="d36095bb">
+            om vilken variant som egentligen skall vara herr statsrådets
+            officiella område
+          </note>
+          <u who="valter_kristensson_83c505" xml:id="i-db8093c68c9b1e4a-20" prev="i-db8093c68c9b1e4a-15" n="db8093c6">
             <seg n="543f3956">
               när det gäller utvecklingen på detta område beträffande antalet
               intagna.
             </seg>
           </u>
-          <note n="7f99c097">
-            198
-          </note>
-          <pb n="35" facs="https://betalab.kb.se/prot-1975--39/prot_1975__39-035.jp2/_view"/>
-          <note n="45399b63">
-            i ett samhälle bara lägga på lag efter lag utan att samtidigt
-            fundera över — Nr 39
-          </note>
-          <note n="d36095bb">
-            om vilken variant som egentligen skall vara herr statsrådets
-            officiella område
-          </note>
           <note type="speaker" n="a5b477a8">
             Herr justitieministern GEIJER:
           </note>
-          <u who="lennart_geijer_1243ae" xml:id="i-a87d6a7be3635f44-1" next="i-bb6e6ae32b268bab-1" n="90dbde9f">
+          <u who="lennart_geijer_1243ae" xml:id="i-90dbde9f9fb8f9d5-6" next="i-90dbde9f9fb8f9d5-9" n="90dbde9f">
             <seg n="9df2a4ce">
               Herr talman! Det är två frågor. Den ena gäller att bedöma den
               pågående minskningen av fängelseantalet mot bakgrund av de bestämmelser
@@ -2652,16 +2726,26 @@
           <note n="f6c0a58d">
             Om reformplaner
           </note>
-          <u who="lennart_geijer_1243ae" xml:id="i-bb6e6ae32b268bab-1" prev="i-a87d6a7be3635f44-1" n="90dbde9f">
+          <u who="lennart_geijer_1243ae" xml:id="i-90dbde9f9fb8f9d5-7" prev="i-90dbde9f9fb8f9d5-6" n="90dbde9f">
             <seg n="ddd6abdc">
               på kriminalvårdens område
             </seg>
+          </u>
+          <note n="7e6f6538">
+            200
+          </note>
+          <u who="lennart_geijer_1243ae" xml:id="i-90dbde9f9fb8f9d5-8" prev="i-90dbde9f9fb8f9d5-6" n="90dbde9f">
             <seg n="0370dd77">
               vi har redan börjat göra det. Vår avsikt är att se till att det
               successivt blir lokalanstalter på sådana håll i landet där man
               inte kan bygga om gamla anstalter eller använda andra anstalter
               som lokalanstalter.
             </seg>
+          </u>
+          <note n="30873a49">
+            Herr WESTBERG i Ljusdal (fp):
+          </note>
+          <u who="lennart_geijer_1243ae" xml:id="i-90dbde9f9fb8f9d5-9" prev="i-90dbde9f9fb8f9d5-6" n="90dbde9f">
             <seg n="4491c434">
               Herr talman! Det är en mycket viktig debatt som pågår här, och
               jag vill gärna säga några ord i detta sammanhang.
@@ -2714,22 +2798,19 @@
               och skola samt ungdoms- Organisationer ett gemensamt ansvar.
             </seg>
           </u>
-          <note n="7e6f6538">
-            200
-          </note>
-          <note n="30873a49">
-            Herr WESTBERG i Ljusdal (fp):
-          </note>
           <note type="speaker" n="55354348">
             Fru KRISTENSSON (m):
           </note>
-          <u who="valter_kristensson_83c505" xml:id="i-9249a31d7150cea4-2" next="i-522cb3dafd538350-2" n="db8093c6">
+          <u who="valter_kristensson_83c505" xml:id="i-db8093c68c9b1e4a-21" next="i-db8093c68c9b1e4a-28" n="db8093c6">
             <seg n="623f3793">
               Herr talman! Till justitieministerns senaste inlägg vill jag
               bara säga att jag är mycket glad över det besked som herr justitieministern
               nu lämnade kammaren, nämligen att er avsikt inte var att komma
               med
             </seg>
+          </u>
+          <pb n="37" facs="https://betalab.kb.se/prot-1975--39/prot_1975__39-037.jp2/_view"/>
+          <u who="valter_kristensson_83c505" xml:id="i-db8093c68c9b1e4a-22" prev="i-db8093c68c9b1e4a-21" n="db8093c6">
             <seg n="02e5809a">
               en precisering och en tidsangivelse som gav sken av att vi får
               tänka Nr 39
@@ -2775,12 +2856,11 @@
               enlighet med
             </seg>
           </u>
-          <pb n="37" facs="https://betalab.kb.se/prot-1975--39/prot_1975__39-037.jp2/_view"/>
           <note n="b3619c97">
             de riktlinjer som riksdagen antog 1973. Herr statsrådet säger
             emellertid
           </note>
-          <u who="valter_kristensson_83c505" xml:id="i-522cb3dafd538350-2" prev="i-9249a31d7150cea4-2" n="db8093c6">
+          <u who="valter_kristensson_83c505" xml:id="i-db8093c68c9b1e4a-23" prev="i-db8093c68c9b1e4a-21" n="db8093c6">
             <seg n="c8723b2e">
               att lokalanstalterna enligt hans mening skulle vara ett mycket
               bra al-
@@ -2803,10 +2883,22 @@
             <seg n="114f685d">
               att känna.
             </seg>
+          </u>
+          <note n="ba0688a3">
+            Överläggningen var härmed slutad.
+          </note>
+          <u who="valter_kristensson_83c505" xml:id="i-db8093c68c9b1e4a-24" prev="i-db8093c68c9b1e4a-21" n="db8093c6">
             <seg n="8d20672e">
               $7 Om försöksverksamheten med praktiska inslag på grundskolans
               högstadium
             </seg>
+          </u>
+          <note n="3f4c554c">
+            Fru statsrådet HJELM-WALLÉN erhöll ordet för att besvara herr
+            Elmstedts (c) den 26 februari anmälda interpellation, nr 36, och
+            anförde:
+          </note>
+          <u who="valter_kristensson_83c505" xml:id="i-db8093c68c9b1e4a-25" prev="i-db8093c68c9b1e4a-21" n="db8093c6">
             <seg n="11ce664f">
               Herr talman! Herr Elmstedt har frågat mig om jag anser att avsikten
               med riksdagens beslut år 1974 beträffande försöksverksamhet med
@@ -2832,9 +2924,29 @@
               framhålla att som grund för utskottets skrivning 1972 låg bl.a.
               en motion från ett 201
             </seg>
+          </u>
+          <note n="a3dc6b67">
+            14 Riksdagens protokoll 1975. Nr 36-39
+          </note>
+          <pb n="38" facs="https://betalab.kb.se/prot-1975--39/prot_1975__39-038.jp2/_view"/>
+          <note n="c9e0d722">
+            Nr 39
+          </note>
+          <note type="date" n="c4ba8152">
+            Tisdagen den 18 mars 1975
+          </note>
+          <note n="deb46ea5">
+            Om försöksverk-
+          </note>
+          <u who="valter_kristensson_83c505" xml:id="i-db8093c68c9b1e4a-26" prev="i-db8093c68c9b1e4a-21" n="db8093c6">
             <seg n="e3db380b">
               samheten med praktiska inslag på grundskolans högstadium
             </seg>
+          </u>
+          <note n="ce3271a7">
+            202
+          </note>
+          <u who="valter_kristensson_83c505" xml:id="i-db8093c68c9b1e4a-27" prev="i-db8093c68c9b1e4a-21" n="db8093c6">
             <seg n="5608433c">
               antal socialdemokrater, vilka hemställde att man med förtur skulle
               ta upp frågan om en förstärkning av de praktiska inslagen i ämnena
@@ -2855,6 +2967,14 @@
               Den av mig här nämnda utskottsskrivningen har också kommit att
               prägla olika förslag från SIA.
             </seg>
+          </u>
+          <note n="ab7fdf05">
+            I anledning av utskottets betänkande 1974 uppdrog Kungl. Maj:t
+            den 31 maj 1974 åt skolöverstyrelsen att utforma och inkomma med
+            förslag rörande olika modeller för försöksverksamhet med ökning
+            av de praktiska inslagen i undervisningen på grundskolans högstadium.
+          </note>
+          <u who="valter_kristensson_83c505" xml:id="i-db8093c68c9b1e4a-28" prev="i-db8093c68c9b1e4a-21" n="db8093c6">
             <seg n="1bd12c4c">
               Efter vad jag erfarit har skolöverstyrelsen dels tillsatt en
               arbetsgrupp med uppgift att utarbeta förslag enligt nämnda uppdrag,
@@ -2891,44 +3011,17 @@
               Herr Elmstedts fråga kan sålunda besvaras med ja.
             </seg>
           </u>
-          <note n="ba0688a3">
-            Överläggningen var härmed slutad.
-          </note>
-          <note n="3f4c554c">
-            Fru statsrådet HJELM-WALLÉN erhöll ordet för att besvara herr
-            Elmstedts (c) den 26 februari anmälda interpellation, nr 36, och
-            anförde:
-          </note>
-          <note n="a3dc6b67">
-            14 Riksdagens protokoll 1975. Nr 36-39
-          </note>
-          <pb n="38" facs="https://betalab.kb.se/prot-1975--39/prot_1975__39-038.jp2/_view"/>
-          <note n="c9e0d722">
-            Nr 39
-          </note>
-          <note type="date" n="c4ba8152">
-            Tisdagen den 18 mars 1975
-          </note>
-          <note n="deb46ea5">
-            Om försöksverk-
-          </note>
-          <note n="ce3271a7">
-            202
-          </note>
-          <note n="ab7fdf05">
-            I anledning av utskottets betänkande 1974 uppdrog Kungl. Maj:t
-            den 31 maj 1974 åt skolöverstyrelsen att utforma och inkomma med
-            förslag rörande olika modeller för försöksverksamhet med ökning
-            av de praktiska inslagen i undervisningen på grundskolans högstadium.
-          </note>
           <note type="speaker" n="f3dbb38e">
             Herr ELMSTEDT (c):
           </note>
-          <u who="claes_elmstedt_a43363" xml:id="i-d69ba1fb0a51f771-0" next="i-511f8674c5498bab-0" n="1886c545">
+          <u who="claes_elmstedt_a43363" xml:id="i-1886c545d0095590-0" next="i-1886c545d0095590-8" n="1886c545">
             <seg n="6756df10">
               Herr talman! Jag ber att få tacka statsrådet Hjelm-Wallén för
               svaret på interpellationen.
             </seg>
+          </u>
+          <pb n="39" facs="https://betalab.kb.se/prot-1975--39/prot_1975__39-039.jp2/_view"/>
+          <u who="claes_elmstedt_a43363" xml:id="i-1886c545d0095590-1" prev="i-1886c545d0095590-0" n="1886c545">
             <seg n="f445516a">
               Jag delar statsrådets bedömning att det rådde stor enighet 1968
               då beslutet om grundskolans framtida utformning fattades. Men
@@ -2989,7 +3082,6 @@
               den verksamhet som man hoppats på efter framställningen 1972.
             </seg>
           </u>
-          <pb n="39" facs="https://betalab.kb.se/prot-1975--39/prot_1975__39-039.jp2/_view"/>
           <note n="c9e0d722">
             Nr 39
           </note>
@@ -3002,16 +3094,36 @@
           <note n="c46dfe7e">
             samheten med
           </note>
-          <u who="claes_elmstedt_a43363" xml:id="i-511f8674c5498bab-0" prev="i-d69ba1fb0a51f771-0" n="1886c545">
+          <u who="claes_elmstedt_a43363" xml:id="i-1886c545d0095590-2" prev="i-1886c545d0095590-0" n="1886c545">
             <seg n="ad122f83">
               praktiska inslag på
             </seg>
             <seg n="90aabc1a">
               grundskolans högstadium
             </seg>
+          </u>
+          <note n="d14c2c46">
+            203
+          </note>
+          <pb n="40" facs="https://betalab.kb.se/prot-1975--39/prot_1975__39-040.jp2/_view"/>
+          <note n="c9e0d722">
+            Nr 39
+          </note>
+          <note type="date" n="c4ba8152">
+            Tisdagen den 18 mars 1975
+          </note>
+          <note n="deb46ea5">
+            Om försöksverk-
+          </note>
+          <u who="claes_elmstedt_a43363" xml:id="i-1886c545d0095590-3" prev="i-1886c545d0095590-0" n="1886c545">
             <seg n="e3db380b">
               samheten med praktiska inslag på grundskolans högstadium
             </seg>
+          </u>
+          <note n="5a5085f0">
+            204
+          </note>
+          <u who="claes_elmstedt_a43363" xml:id="i-1886c545d0095590-4" prev="i-1886c545d0095590-0" n="1886c545">
             <seg n="26892ced">
               Nu sägs i svaret att regeringen den 31 maj 1974 gav skolöverstyrelsen
               i uppdrag att utforma och inkomma med förslag rörande olika metoder
@@ -3061,6 +3173,11 @@
               det gäller utarbetandet av de förslag som riksdagen sagt ifrån
               skall komma.
             </seg>
+          </u>
+          <note n="ecf13951">
+            Herr JONSSON i Alingsås (fp):
+          </note>
+          <u who="claes_elmstedt_a43363" xml:id="i-1886c545d0095590-5" prev="i-1886c545d0095590-0" n="1886c545">
             <seg n="aa543d99">
               Herr talman! Det ämne som tagits upp här i interpellationen,
               dvs. de praktiska inslagen i skolundervisningen, har ju diskuterats
@@ -3072,6 +3189,9 @@
             <seg n="eb4ff650">
               Jag hör till dem som beklagar att det dröjt så länge innan regeringen
             </seg>
+          </u>
+          <pb n="41" facs="https://betalab.kb.se/prot-1975--39/prot_1975__39-041.jp2/_view"/>
+          <u who="claes_elmstedt_a43363" xml:id="i-1886c545d0095590-6" prev="i-1886c545d0095590-0" n="1886c545">
             <seg n="72321204">
               handlat. Det hänvisas, som också här tidigare sagts, i interpellationssvaret
               — Nr 39 till det uppdrag som Kungl. Maj:t den sista maj i fjol
@@ -3124,36 +3244,7 @@
               Tyvärr har inte riksdagens majoritet varit beredd att utvidga
               frågan till att också omfatta gymnasieskolan. 205
             </seg>
-            <seg n="e3db380b">
-              samheten med praktiska inslag på grundskolans högstadium
-            </seg>
-            <seg n="cd9513fd">
-              Men jag hoppas att det kan bli en ändring på den punkten, så
-              att ett enhälligt utbildningsutskott och en samfälld riksdag kan
-              uttala att även inom gymnasieskolan bör man försöka få ett bättre
-              inslag av praktisk verksamhet på de linjer som nu saknar det.
-            </seg>
           </u>
-          <note n="d14c2c46">
-            203
-          </note>
-          <pb n="40" facs="https://betalab.kb.se/prot-1975--39/prot_1975__39-040.jp2/_view"/>
-          <note n="c9e0d722">
-            Nr 39
-          </note>
-          <note type="date" n="c4ba8152">
-            Tisdagen den 18 mars 1975
-          </note>
-          <note n="deb46ea5">
-            Om försöksverk-
-          </note>
-          <note n="5a5085f0">
-            204
-          </note>
-          <note n="ecf13951">
-            Herr JONSSON i Alingsås (fp):
-          </note>
-          <pb n="41" facs="https://betalab.kb.se/prot-1975--39/prot_1975__39-041.jp2/_view"/>
           <pb n="42" facs="https://betalab.kb.se/prot-1975--39/prot_1975__39-042.jp2/_view"/>
           <note n="c9e0d722">
             Nr 39
@@ -3164,13 +3255,26 @@
           <note n="deb46ea5">
             Om försöksverk-
           </note>
+          <u who="claes_elmstedt_a43363" xml:id="i-1886c545d0095590-7" prev="i-1886c545d0095590-0" n="1886c545">
+            <seg n="e3db380b">
+              samheten med praktiska inslag på grundskolans högstadium
+            </seg>
+          </u>
           <note n="5fafbd67">
             206
           </note>
+          <u who="claes_elmstedt_a43363" xml:id="i-1886c545d0095590-8" prev="i-1886c545d0095590-0" n="1886c545">
+            <seg n="cd9513fd">
+              Men jag hoppas att det kan bli en ändring på den punkten, så
+              att ett enhälligt utbildningsutskott och en samfälld riksdag kan
+              uttala att även inom gymnasieskolan bör man försöka få ett bättre
+              inslag av praktisk verksamhet på de linjer som nu saknar det.
+            </seg>
+          </u>
           <note type="speaker" n="a6137e6f">
             Fru SUNDBERG (m):
           </note>
-          <u who="ingrid_sundberg_9ea165" xml:id="i-2bc44df32318e5f6-0" next="i-45048949871a9c85-0" n="42ed4cdb">
+          <u who="ingrid_sundberg_9ea165" xml:id="i-42ed4cdb0f2a9f3a-0" next="i-42ed4cdb0f2a9f3a-4" n="42ed4cdb">
             <seg n="3abd9b95">
               Herr talman! Mycket var positivt i statsrådet Hjelm-Walléns svar,
               och jag skall inskränka mig till att ställa ett par konkreta frågor.
@@ -3227,6 +3331,9 @@
               uttalande och påtalat nödvändigheten av att öka de praktiska inslagen
               i undervisningen?
             </seg>
+          </u>
+          <pb n="43" facs="https://betalab.kb.se/prot-1975--39/prot_1975__39-043.jp2/_view"/>
+          <u who="ingrid_sundberg_9ea165" xml:id="i-42ed4cdb0f2a9f3a-1" prev="i-42ed4cdb0f2a9f3a-0" n="42ed4cdb">
             <seg n="01775e0e">
               Den tredje frågan är: I vad mån har detta riksdagens uttalande
               nått — Nr 39 ut, som information, till lärare och till de lokala
@@ -3250,11 +3357,10 @@
               upp eller låst alla aktiviteter på de områden som jag har berört.
             </seg>
           </u>
-          <pb n="43" facs="https://betalab.kb.se/prot-1975--39/prot_1975__39-043.jp2/_view"/>
           <note n="5296b173">
             Fru statsrådet HJELM-WALLÉN:
           </note>
-          <u who="ingrid_sundberg_9ea165" xml:id="i-45048949871a9c85-0" prev="i-2bc44df32318e5f6-0" n="42ed4cdb">
+          <u who="ingrid_sundberg_9ea165" xml:id="i-42ed4cdb0f2a9f3a-2" prev="i-42ed4cdb0f2a9f3a-0" n="42ed4cdb">
             <seg n="d44d62bd">
               Herr talman! Jag vill först konstatera att representanter för
               olika partier nu tycks vara ganska ense i upplevelsen att dagens
@@ -3298,10 +3404,23 @@
               det uttalande som riksdagen gjort. Nu går inte sådant arbete särskilt
               snabbt, 207
             </seg>
-            <seg n="3e68dc6c"/>
+          </u>
+          <pb n="44" facs="https://betalab.kb.se/prot-1975--39/prot_1975__39-044.jp2/_view"/>
+          <note n="c9e0d722">
+            Nr 39
+          </note>
+          <note type="date" n="c4ba8152">
+            Tisdagen den 18 mars 1975
+          </note>
+          <u who="ingrid_sundberg_9ea165" xml:id="i-42ed4cdb0f2a9f3a-3" prev="i-42ed4cdb0f2a9f3a-0" n="42ed4cdb">
             <seg n="2978264e">
               Om försöksverksamheten med praktiska inslag på grundskolans högstadium
             </seg>
+          </u>
+          <note n="71db1dc5">
+            208
+          </note>
+          <u who="ingrid_sundberg_9ea165" xml:id="i-42ed4cdb0f2a9f3a-4" prev="i-42ed4cdb0f2a9f3a-0" n="42ed4cdb">
             <seg n="d8fadfd9">
               och därför är det svårt att uppvisa konkreta resultat i dag.
               Än mindre kan man göra det i det sammanhang som fru Sundberg nämnde,
@@ -3343,20 +3462,10 @@
               svara honom sedan.
             </seg>
           </u>
-          <pb n="44" facs="https://betalab.kb.se/prot-1975--39/prot_1975__39-044.jp2/_view"/>
-          <note n="c9e0d722">
-            Nr 39
-          </note>
-          <note type="date" n="c4ba8152">
-            Tisdagen den 18 mars 1975
-          </note>
-          <note n="71db1dc5">
-            208
-          </note>
           <note type="speaker" n="a6137e6f">
             Fru SUNDBERG (m):
           </note>
-          <u who="ingrid_sundberg_9ea165" xml:id="i-5242642eb44f35ed-0" n="42ed4cdb">
+          <u who="ingrid_sundberg_9ea165" xml:id="i-42ed4cdb0f2a9f3a-5" next="i-42ed4cdb0f2a9f3a-6" n="42ed4cdb">
             <seg n="be56dc10">
               Herr talman! Statsrådet Hjelm-Wallén sade att man bedriver ett
               läroplansarbete och därmed skall utröna vilka praktiska moment
@@ -3376,6 +3485,9 @@
               jag tycker att man redan från början borde inventera så att man
               kan säga sig: Här finns detta och detta gjort,
             </seg>
+          </u>
+          <pb n="45" facs="https://betalab.kb.se/prot-1975--39/prot_1975__39-045.jp2/_view"/>
+          <u who="ingrid_sundberg_9ea165" xml:id="i-42ed4cdb0f2a9f3a-6" prev="i-42ed4cdb0f2a9f3a-5" n="42ed4cdb">
             <seg n="740f134e">
               och det kan vi pröva med en gång. På det sättet skulle man kunna
               Nr 39
@@ -3428,11 +3540,10 @@
               av den arten att eleverna ändå förhåller sig passiva.
             </seg>
           </u>
-          <pb n="45" facs="https://betalab.kb.se/prot-1975--39/prot_1975__39-045.jp2/_view"/>
           <note type="speaker" n="f3dbb38e">
             Herr ELMSTEDT (c):
           </note>
-          <u who="claes_elmstedt_a43363" xml:id="i-d69ba1fb0a51f771-1" next="i-511f8674c5498bab-1" n="1886c545">
+          <u who="claes_elmstedt_a43363" xml:id="i-1886c545d0095590-9" next="i-1886c545d0095590-13" n="1886c545">
             <seg n="26adcf6b">
               Herr talman! Vi kanske inte skall träta så mycket om den snö
               som föll i fjol, men det skorrar litet när statsrådet säger att
@@ -3488,10 +3599,18 @@
           <note n="deb46ea5">
             Om försöksverk-
           </note>
-          <u who="claes_elmstedt_a43363" xml:id="i-511f8674c5498bab-1" prev="i-d69ba1fb0a51f771-1" n="1886c545">
+          <u who="claes_elmstedt_a43363" xml:id="i-1886c545d0095590-10" prev="i-1886c545d0095590-9" n="1886c545">
             <seg n="e3db380b">
               samheten med praktiska inslag på grundskolans högstadium
             </seg>
+          </u>
+          <note n="131dedec">
+            210
+          </note>
+          <note n="ecf13951">
+            Herr JONSSON i Alingsås (fp):
+          </note>
+          <u who="claes_elmstedt_a43363" xml:id="i-1886c545d0095590-11" prev="i-1886c545d0095590-9" n="1886c545">
             <seg n="d486c4a3">
               Herr talman! Enigheten sträcker sig ändå så långt att vi ser
               ut att bli överens om att vi behöver starkare inslag av de praktiska
@@ -3523,6 +3642,11 @@
               innebär inte att jag inte har förhoppning om att det skall ges
               en god yrkesförberedelse också i den delen av skollivet.
             </seg>
+          </u>
+          <note n="5296b173">
+            Fru statsrådet HJELM-WALLÉN:
+          </note>
+          <u who="claes_elmstedt_a43363" xml:id="i-1886c545d0095590-12" prev="i-1886c545d0095590-9" n="1886c545">
             <seg n="42b59349">
               Herr talman! Jag har uppfattat situationen så att vi har möjlighet
               att också diskutera enskilda fall. Eftersom jag hade anledning
@@ -3553,6 +3677,9 @@
               bara till att vi skall få förslaget under våren. Jag konstaterar
               då att plane-
             </seg>
+          </u>
+          <pb n="47" facs="https://betalab.kb.se/prot-1975--39/prot_1975__39-047.jp2/_view"/>
+          <u who="claes_elmstedt_a43363" xml:id="i-1886c545d0095590-13" prev="i-1886c545d0095590-9" n="1886c545">
             <seg n="14f4b5f8">
               ringstiden för kommunerna förmodligen blir för kort för att man
               på grund- = Nr 39
@@ -3564,20 +3691,10 @@
               om försöksverksamhet hos regeringen.
             </seg>
           </u>
-          <note n="131dedec">
-            210
-          </note>
-          <note n="ecf13951">
-            Herr JONSSON i Alingsås (fp):
-          </note>
-          <note n="5296b173">
-            Fru statsrådet HJELM-WALLÉN:
-          </note>
-          <pb n="47" facs="https://betalab.kb.se/prot-1975--39/prot_1975__39-047.jp2/_view"/>
           <note type="speaker" n="139befeb">
             Om försöksverk- Herr ELMSTEDT (c):
           </note>
-          <u who="claes_elmstedt_a43363" xml:id="i-d69ba1fb0a51f771-2" next="i-511f8674c5498bab-2" n="1886c545">
+          <u who="claes_elmstedt_a43363" xml:id="i-1886c545d0095590-14" next="i-1886c545d0095590-16" n="1886c545">
             <seg n="56342df9">
               samheten med
             </seg>
@@ -3608,16 +3725,12 @@
           <note n="5296b173">
             Fru statsrådet HJELM-WALLÉN:
           </note>
-          <u who="claes_elmstedt_a43363" xml:id="i-511f8674c5498bab-2" prev="i-d69ba1fb0a51f771-2" n="1886c545">
+          <u who="claes_elmstedt_a43363" xml:id="i-1886c545d0095590-15" prev="i-1886c545d0095590-14" n="1886c545">
             <seg n="030181b2">
               Herr talman! Karlskogafallet minns jag mycket väl, och jag har
               tagit fram beslutet. Det grunnade vi ganska mycket på. Vi har
               inte avslagit den ansökan — jag kan läsa upp precis vad som står
               i beslutet:
-            </seg>
-            <seg n="cd4abd33">
-              De två hänvisningarna i beslutet gäller för det första möjligheten
-              till befrielse och för det andra möjligheten till jämkad studiegång.
             </seg>
           </u>
           <note n="c2f43438">
@@ -3625,10 +3738,16 @@
             (1962:319) och i 2 kap. 11 $ andra stycket skolstadgan (1971:235)
             lämnar Kungl. Maj:t ansökningen utan åtgärd.”
           </note>
+          <u who="claes_elmstedt_a43363" xml:id="i-1886c545d0095590-16" prev="i-1886c545d0095590-14" n="1886c545">
+            <seg n="cd4abd33">
+              De två hänvisningarna i beslutet gäller för det första möjligheten
+              till befrielse och för det andra möjligheten till jämkad studiegång.
+            </seg>
+          </u>
           <note type="speaker" n="f3dbb38e">
             Herr ELMSTEDT (c):
           </note>
-          <u who="claes_elmstedt_a43363" xml:id="i-d69ba1fb0a51f771-3" next="i-511f8674c5498bab-3" n="1886c545">
+          <u who="claes_elmstedt_a43363" xml:id="i-1886c545d0095590-17" next="i-1886c545d0095590-19" n="1886c545">
             <seg n="35e8784a">
               Herr talman! Jag är inte helt övertygad om att man i Karlskoga
               uppfattar det som en välvillig behandling att departementet lämnar
@@ -3641,13 +3760,18 @@
           <note n="5296b173">
             Fru statsrådet HJELM-WALLÉN:
           </note>
-          <u who="claes_elmstedt_a43363" xml:id="i-511f8674c5498bab-3" prev="i-d69ba1fb0a51f771-3" n="1886c545">
+          <u who="claes_elmstedt_a43363" xml:id="i-1886c545d0095590-18" prev="i-1886c545d0095590-17" n="1886c545">
             <seg n="dab15553">
               Herr talman! Men vad vi påpekade för skolstyrelsen i Karlskoga
               var att möjligheten att göra det som skolstyrelsen önskade redan
               fanns. På det kan man inte grunda påståenden om någon negativ
               praxis.
             </seg>
+          </u>
+          <note n="ecf13951">
+            Herr JONSSON i Alingsås (fp):
+          </note>
+          <u who="claes_elmstedt_a43363" xml:id="i-1886c545d0095590-19" prev="i-1886c545d0095590-17" n="1886c545">
             <seg n="a94e0843">
               Herr talman! Låt vara att statsrådet har rätt i sitt senaste
               inlägg. Men vi kan ändå konstatera att det man hänvisar till —
@@ -3656,9 +3780,6 @@
               bättre saker än enbart dessa bägge
             </seg>
           </u>
-          <note n="ecf13951">
-            Herr JONSSON i Alingsås (fp):
-          </note>
           <note n="ac1ef98e">
             åtgärder. 211
           </note>
@@ -3797,7 +3918,7 @@
           <note type="speaker" n="df723990">
             Herr TALMANNEN:
           </note>
-          <u who="unknown" xml:id="i-ce18125fe03698e8-0" n="110a37a6"/>
+          <u who="unknown" xml:id="i-110a37a62c537c38-2" n="110a37a6"/>
           <note n="8f7f49ae">
             Jag får anmoda dem som önskar yttra sig när inrikesutskottets
             betänkande nr 3 skall avgöras att anmäla detta till kammarkansliet
@@ -3871,7 +3992,7 @@
           <note type="date" n="c4ba8152">
             Tisdagen den 18 mars 1975
           </note>
-          <u who="unknown" xml:id="i-fd59934e284fee2f-0" n="110a37a6"/>
+          <u who="unknown" xml:id="i-110a37a62c537c38-3" n="110a37a6"/>
           <note n="71766121">
             214
           </note>

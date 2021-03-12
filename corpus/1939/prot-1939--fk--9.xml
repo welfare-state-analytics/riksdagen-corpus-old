@@ -20,7 +20,7 @@
     <encodingDesc>
       <editorialDecl>
         <correction>
-          <p>Some data curation was done. It is documented in db/curation/instances</p>
+          <p>Some data curation was done. It is documented in input/curation/instances</p>
         </correction>
       </editorialDecl>
     </encodingDesc>
@@ -58,6 +58,7 @@
       </front>
       <body>
         <div>
+          <pb n="0" facs="https://betalab.kb.se/prot-1939--fk--9/prot_1939__fk__9-000.jp2/_view"/>
           <note n="cd40b610">
             RIKSDAGENS PROTOKOLL.
           </note>
@@ -163,7 +164,7 @@
             » »
           </note>
           <pb n="1" facs="https://betalab.kb.se/prot-1939--fk--9/prot_1939__fk__9-001.jp2/_view"/>
-          <note n="53b7e2b9">
+          <note type="date" n="918f71da">
             2 Nr 9. Onsdagen den 8 februari 1939.
           </note>
           <note n="66809a1d">
@@ -265,7 +266,7 @@
             ona;
           </note>
           <pb n="2" facs="https://betalab.kb.se/prot-1939--fk--9/prot_1939__fk__9-002.jp2/_view"/>
-          <note n="e37cad06">
+          <note type="date" n="ac53ed17">
             Onsdagen den 8 februari 1939. Nr 9. 3
           </note>
           <note n="afc97a70">
@@ -323,7 +324,7 @@
           <note type="speaker" n="81bbf2b2">
             Herr Svensson, Martin:
           </note>
-          <u who="martin_svensson_c28434" xml:id="i-e7d068c95b6362b5-0" next="i-d0a4cd718558d0ed-0" n="9aaa1354">
+          <u who="martin_svensson_c28434" xml:id="i-9aaa13545df7d203-0" next="i-9aaa13545df7d203-1" n="9aaa1354">
             <seg n="605046f7">
               Herr talman! Vid denna punkt har fogats en reservation av herr
               Domö. Som reservanten inte är här närvarande och inte heller har
@@ -362,10 +363,10 @@
             </seg>
           </u>
           <pb n="3" facs="https://betalab.kb.se/prot-1939--fk--9/prot_1939__fk__9-003.jp2/_view"/>
-          <note n="3c17e4d2">
+          <note type="date" n="622bb960">
             4 Nr 9. Onsdagen den 8 februari 1939.
           </note>
-          <u who="martin_svensson_c28434" xml:id="i-d0a4cd718558d0ed-0" prev="i-e7d068c95b6362b5-0" n="9aaa1354">
+          <u who="martin_svensson_c28434" xml:id="i-9aaa13545df7d203-1" prev="i-9aaa13545df7d203-0" n="9aaa1354">
             <seg n="bd0ad12d">
               Anslag till beredskapsarbeten. (Forts.) kommuner i allmänhet,
               att erhålla statsbidrag för dessa arbeten, har reservanten önskat,
@@ -393,7 +394,7 @@
           <note type="speaker" n="9aa3b7cd">
             Herr Pauli:
           </note>
-          <u who="ivan_pauli_af5780" xml:id="i-72ec9e10232e6c3b-0" n="8e71ad39">
+          <u who="ivan_pauli_af5780" xml:id="i-8e71ad39665faf2a-0" n="8e71ad39">
             <seg n="16a40e24">
               Herr talman! Det kan ju kanske tyckas överflödigt att från utskottets
               sida något ytterligare säges än vad betänkandet innehåller, eftersom
@@ -435,7 +436,7 @@
           <note type="speaker" n="0fa0eb1d">
             Herr statsrådet Möller:
           </note>
-          <u who="gustav_moller_bbfd92" xml:id="i-b0111f08abae679a-0" next="i-2b74cc28916c766d-0" n="3eff561b">
+          <u who="gustav_moller_bbfd92" xml:id="i-3eff561b3f47c9fe-0" next="i-3eff561b3f47c9fe-2" n="3eff561b">
             <seg n="cc94d719">
               Herr talman! Jag skall bara be att få lämna en upplysning till
               denna debatt.
@@ -448,10 +449,10 @@
             </seg>
           </u>
           <pb n="4" facs="https://betalab.kb.se/prot-1939--fk--9/prot_1939__fk__9-004.jp2/_view"/>
-          <note n="eedd5d40">
+          <note type="date" n="b0463425">
             Onsdagen den 8 februari 1939. Nr 9. 5
           </note>
-          <u who="gustav_moller_bbfd92" xml:id="i-2b74cc28916c766d-0" prev="i-b0111f08abae679a-0" n="3eff561b">
+          <u who="gustav_moller_bbfd92" xml:id="i-3eff561b3f47c9fe-1" prev="i-3eff561b3f47c9fe-0" n="3eff561b">
             <seg n="495a50ec">
               Anslag till beredskapsarbeten. (Forts.) betraktar som särskilt
               arbetslöshetstyngda. På den punkten föreslås alltså ingen nyhet.
@@ -468,13 +469,6 @@
               för fördelningen av pengarna. Det kanske är skäl att detta blir
               sagt, eftersom man varit tveksam om vad som menades med den formulering
               av grunderna för anslagets fördelning, som givits i propositionen.
-            </seg>
-            <seg n="ef06eed3">
-              » Utskottet, som finner behovet av en ytterligare utbyggnad av
-              Skenäsanstalten klart ådagalagt, tillstyrker Kungl. Maj:ts förslag.
-              Utskottet önskar därvid särskilt betona angelägenheten av att
-              inom anstalten tillgänglig arbetskraft i största möjliga utsträckning
-              anlitas för byggnadsarbetenas utförande.
             </seg>
           </u>
           <note n="6a66e762">
@@ -513,6 +507,15 @@
           <note n="5b4809a6">
             Utskottet hade i det nu föreliggande utlåtandet yttrat:
           </note>
+          <u who="gustav_moller_bbfd92" xml:id="i-3eff561b3f47c9fe-2" prev="i-3eff561b3f47c9fe-0" n="3eff561b">
+            <seg n="ef06eed3">
+              » Utskottet, som finner behovet av en ytterligare utbyggnad av
+              Skenäsanstalten klart ådagalagt, tillstyrker Kungl. Maj:ts förslag.
+              Utskottet önskar därvid särskilt betona angelägenheten av att
+              inom anstalten tillgänglig arbetskraft i största möjliga utsträckning
+              anlitas för byggnadsarbetenas utförande.
+            </seg>
+          </u>
           <note n="afc98bdb">
             Under åberopande härav hemställer utskottet, att riksdagen må
             såsom kapitalinvestering i statens allmänna fastighetsfond till
@@ -523,7 +526,7 @@
           <note type="speaker" n="81bbf2b2">
             Herr Svensson, Martin:
           </note>
-          <u who="martin_svensson_c28434" xml:id="i-e7d068c95b6362b5-1" next="i-d0a4cd718558d0ed-1" n="9aaa1354">
+          <u who="martin_svensson_c28434" xml:id="i-9aaa13545df7d203-2" next="i-9aaa13545df7d203-5" n="9aaa1354">
             <seg n="61de4991">
               Herr talman! Sedan statsutskottet behandlade detta ärende, har
               tredje avdelningen blivit inbjuden till Skenäs av ungdomsfängelsenämnden
@@ -531,10 +534,10 @@
             </seg>
           </u>
           <pb n="5" facs="https://betalab.kb.se/prot-1939--fk--9/prot_1939__fk__9-005.jp2/_view"/>
-          <note n="c9968658">
+          <note type="date" n="afee4f9d">
             6 Nr 9. Onsdagen den 8 februari 1939.
           </note>
-          <u who="martin_svensson_c28434" xml:id="i-d0a4cd718558d0ed-1" prev="i-e7d068c95b6362b5-1" n="9aaa1354">
+          <u who="martin_svensson_c28434" xml:id="i-9aaa13545df7d203-3" prev="i-9aaa13545df7d203-2" n="9aaa1354">
             <seg n="e4d27db8">
               Anslag till utbyggande av fångvårdens ungdomsanstalt å Skenäs.
               (Forts.) behandlade dessa nya ärenden. För dem som voro närvarande
@@ -561,6 +564,12 @@
               kunde förläggas närmare de två förutvarande. Vid besök på platsen
               ansåg man, att lämplig byggnadstomt stod att finna.
             </seg>
+          </u>
+          <note n="bb5cda73">
+            Jag vill därför föreslå i stället för den motivering, som finnes
+            i betänkandet nr 24, en annan motivering, så lydande:
+          </note>
+          <u who="martin_svensson_c28434" xml:id="i-9aaa13545df7d203-4" prev="i-9aaa13545df7d203-2" n="9aaa1354">
             <seg n="fba31c89">
               »Utskottet finner behovet av en ytterligare utbyggnad av Skenäsanstalten
               klart ådagalagt. Utskottet har därför intet att erinra mot att
@@ -575,15 +584,7 @@
               av att inom anstalten tillgänglig arbetskraft i största möjliga
               utsträckning anlitas för arbetenas utförande.
             </seg>
-            <seg n="4cf05ef4">
-              Jag skall således, herr talman, be att få yrka bifall till utskottets
-              kläm men med den motivering, som jag nyss lämnat här.
-            </seg>
           </u>
-          <note n="bb5cda73">
-            Jag vill därför föreslå i stället för den motivering, som finnes
-            i betänkandet nr 24, en annan motivering, så lydande:
-          </note>
           <note n="f2585cce">
             Under åberopande härav hemställer utskottet» o. s. v., samma
             kläm som nu finnes i utskottets betänkande nr 24.
@@ -592,10 +593,16 @@
             Ett likalydande förslag till ändring av -utskottsmotiveringen
             kommer att framläggas i andra kammaren.
           </note>
+          <u who="martin_svensson_c28434" xml:id="i-9aaa13545df7d203-5" prev="i-9aaa13545df7d203-2" n="9aaa1354">
+            <seg n="4cf05ef4">
+              Jag skall således, herr talman, be att få yrka bifall till utskottets
+              kläm men med den motivering, som jag nyss lämnat här.
+            </seg>
+          </u>
           <note type="speaker" n="48638839">
             Herr statsrådet Westman:
           </note>
-          <u who="kg_westman_9817c4" xml:id="i-fe91fa3740198d53-0" next="i-7de642649a22a1cc-0" n="15d84fed">
+          <u who="kg_westman_9817c4" xml:id="i-31a761155f49c9af-0" next="i-31a761155f49c9af-7" n="15d84fed">
             <seg n="090b5e1f">
               Jag beklagar, att jag på grund av vistelse i medkammaren blivit
               förhindrad att höra det anförande, som den föregående ärade talaren
@@ -618,10 +625,10 @@
             </seg>
           </u>
           <pb n="6" facs="https://betalab.kb.se/prot-1939--fk--9/prot_1939__fk__9-006.jp2/_view"/>
-          <note n="10e99024">
+          <note type="date" n="1a9ad470">
             Onsdagen den 8 februari 1939. Nr 9. 7
           </note>
-          <u who="kg_westman_9817c4" xml:id="i-7de642649a22a1cc-0" prev="i-fe91fa3740198d53-0" n="15d84fed">
+          <u who="kg_westman_9817c4" xml:id="i-31a761155f49c9af-1" prev="i-31a761155f49c9af-0" n="15d84fed">
             <seg n="65727b6d">
               Anslag till utbyggande av fångvårdens ungdomsanstalt å Skenäs.
               (Forts.) en uppfostran i frihet skall äga rum, inte vara nog försiktig,
@@ -638,26 +645,6 @@
               frågan en ny omprövning och därvid efter bästa förstånd väga dessa
               båda synpunkter emot varandra på nytt.
             </seg>
-            <seg n="c60a97a6">
-              » Utskottet finner behovet av en ytterligare utbyggnad av Skenäsanstalten
-              klart ådagalagt. Utskottet har därför intet att erinra mot att
-              de planerade nybyggnaderna komma till utförande. Vid besök å Skenäs
-              har utskottet emellertid erhållit den uppfattningen, att driftkostnaderna
-              för den utbyggda anstalten skulle kunna begränsas, därest den
-              nya logementsbyggnaden förlades på ett kortare avstånd från anstalten
-              i övrigt än det föreliggande förslaget avser. Utskottet finner
-              därför önskvärt, att en omprövning verkställes av frågan rörande
-              logementsbyggnadens förläggning, innan arbetet med dennas uppförande
-              påbörjas. I övrigt vill utskottet allenast betona angelägenheten
-              av att inom anstalten tillgänglig arbetskraft i största möjliga
-              utsträckning anlitas för arbetenas utförande.»
-            </seg>
-            <seg n="682c81e7"/>
-            <seg n="682c81e7"/>
-            <seg n="682c81e7"/>
-            <seg n="682c81e7"/>
-            <seg n="682c81e7"/>
-            <seg n="682c81e7"/>
           </u>
           <note n="843f70c2">
             Sedan överläggningen ansetts härmed slutad, yttrade herr talmannen,
@@ -674,12 +661,29 @@
             yrkats, av herr Svensson, Martin, att densamma skulle godkännas
             i följande ändrade avfattning:
           </note>
+          <u who="kg_westman_9817c4" xml:id="i-31a761155f49c9af-2" prev="i-31a761155f49c9af-0" n="15d84fed">
+            <seg n="c60a97a6">
+              » Utskottet finner behovet av en ytterligare utbyggnad av Skenäsanstalten
+              klart ådagalagt. Utskottet har därför intet att erinra mot att
+              de planerade nybyggnaderna komma till utförande. Vid besök å Skenäs
+              har utskottet emellertid erhållit den uppfattningen, att driftkostnaderna
+              för den utbyggda anstalten skulle kunna begränsas, därest den
+              nya logementsbyggnaden förlades på ett kortare avstånd från anstalten
+              i övrigt än det föreliggande förslaget avser. Utskottet finner
+              därför önskvärt, att en omprövning verkställes av frågan rörande
+              logementsbyggnadens förläggning, innan arbetet med dennas uppförande
+              påbörjas. I övrigt vill utskottet allenast betona angelägenheten
+              av att inom anstalten tillgänglig arbetskraft i största möjliga
+              utsträckning anlitas för arbetenas utförande.»
+            </seg>
+          </u>
           <note n="b913e48f">
             Sedermera gjordes propositioner, först på godkännande av utskottets
             motivering oförändrad samt vidare enligt herr Martin Svenssons
             yrkande; och förklarades den senare propositionen vara med övervägande
             ja besvarad.
           </note>
+          <u who="kg_westman_9817c4" xml:id="i-31a761155f49c9af-3" prev="i-31a761155f49c9af-0" n="15d84fed"/>
           <note n="2bfaf391">
             Föredrogos ånyo statsutskottets utlåtanden:
           </note>
@@ -710,7 +714,7 @@
             anslag för anordnande av
           </note>
           <pb n="7" facs="https://betalab.kb.se/prot-1939--fk--9/prot_1939__fk__9-007.jp2/_view"/>
-          <note n="b7d6efc2">
+          <note type="date" n="d6c765f8">
             8 Nr 9. Onsdagen den 8 februari 1939.
           </note>
           <note n="ae9ac996">
@@ -735,6 +739,9 @@
           <note n="7d415872">
             Vad utskottet i dessa utlåtanden hemställt bifölls.
           </note>
+          <u who="kg_westman_9817c4" xml:id="i-31a761155f49c9af-4" prev="i-31a761155f49c9af-0" n="15d84fed">
+            <seg n="682c81e7"/>
+          </u>
           <note n="ae83436f">
             Föredrogos ånyo jordbruksutskottets utlåtanden:
           </note>
@@ -752,6 +759,7 @@
           <note n="7d415872">
             Vad utskottet i dessa utlåtanden hemställt bifölls.
           </note>
+          <u who="kg_westman_9817c4" xml:id="i-31a761155f49c9af-5" prev="i-31a761155f49c9af-0" n="15d84fed"/>
           <note n="4da6b038">
             Vid förnyad föredragning av statsutskottets utlåtande nr 28,
             i anledning av Kungl. Maj:ts proposition angående understöd åt
@@ -759,6 +767,7 @@
             för verksamheten vid åkerbrukskolonien Hall, bifölls vad utskottet
             i detta utlåtande hemställt.
           </note>
+          <u who="kg_westman_9817c4" xml:id="i-31a761155f49c9af-6" prev="i-31a761155f49c9af-0" n="15d84fed"/>
           <note n="cbefdde5">
             Vid föredragning av Kungl. Maj:ts denna dag avlämnade propositioner
             nr 62, 63, 67 och 69 blevo desamma på begäran bordlagda.
@@ -806,7 +815,7 @@
             In fidem G. H. Berggren.
           </note>
           <pb n="8" facs="https://betalab.kb.se/prot-1939--fk--9/prot_1939__fk__9-008.jp2/_view"/>
-          <note n="9a03e22b">
+          <note type="date" n="d3a9686a">
             Fredagen den 10 februari 1939. Nr 9. 9
           </note>
           <note type="date" n="29453e5e">
@@ -815,10 +824,11 @@
           <note n="1f337441">
             Kammaren sammanträdde kl. 4 e. m.
           </note>
+          <u who="kg_westman_9817c4" xml:id="i-31a761155f49c9af-7" prev="i-31a761155f49c9af-0" n="15d84fed"/>
           <note type="speaker" n="00d9b685">
             Herr statsrådet Wigforss avlämnade Kungl. Maj:
           </note>
-          <u who="ernst_wigforss_881974" xml:id="i-317b159673027a9c-0" next="i-7fa36f798734dbcc-0" n="57dcafaf">
+          <u who="ernst_wigforss_881974" xml:id="i-dc3727b71f5ed965-0" next="i-dc3727b71f5ed965-6" n="57dcafaf">
             <seg n="76018551">
               ts proposition nr 72, med förslag till förordning om visst undantag
               från stämpelplikt enligt förordningen den 19 november 1914 (nr
@@ -837,22 +847,11 @@
             skrivelser till Konungen: nr 15, angående utgifterna å tilläggsstaten
             för budgetåret 1938/39 för kapi-
           </note>
-          <u who="ernst_wigforss_881974" xml:id="i-7fa36f798734dbcc-0" prev="i-317b159673027a9c-0" n="57dcafaf">
+          <u who="ernst_wigforss_881974" xml:id="i-dc3727b71f5ed965-1" prev="i-dc3727b71f5ed965-0" n="57dcafaf">
             <seg n="7771990e">
               talinvestering i avseende å postverket, telegrafverket, statens
               järnvägar och statens vattenfallsverk;
             </seg>
-            <seg n="034b6883">
-              M. Svensson. Axel Lindqvist. L. Tjällgren. Carl Björling.
-            </seg>
-            <seg n="034b6883">
-              M. Svensson. Axel Lindqvist. L. Tjällgren. Carl Björling.
-            </seg>
-            <seg n="034b6883">
-              M. Svensson. Axel Lindqvist. L. Tjällgren. Carl Björling.
-            </seg>
-            <seg n="682c81e7"/>
-            <seg n="682c81e7"/>
           </u>
           <note n="6b81506b">
             nr 16, i anledning av Kungl. Maj:ts förslag om anslag å tilläggsstat
@@ -899,7 +898,7 @@
             Första kammarens protokoll 1939. Nr 9.
           </note>
           <pb n="9" facs="https://betalab.kb.se/prot-1939--fk--9/prot_1939__fk__9-009.jp2/_view"/>
-          <note n="98ba6af0">
+          <note type="date" n="8507a691">
             10 Nr 9. Fredagen den 10 februari 1939.
           </note>
           <note n="8bc3880c">
@@ -939,6 +938,11 @@
             1 följd varav herr revisionssekreteraren Knut Harald Nissen blivit
             utsedd till justitieombudsmannens efterträdare.
           </note>
+          <u who="ernst_wigforss_881974" xml:id="i-dc3727b71f5ed965-2" prev="i-dc3727b71f5ed965-0" n="57dcafaf">
+            <seg n="034b6883">
+              M. Svensson. Axel Lindqvist. L. Tjällgren. Carl Björling.
+            </seg>
+          </u>
           <note n="2b9fdd16">
             År 1939 den 8 februari sammanträdde kamrarnas valmän för att
             utse riksdagens militieombudsman; och befunnos efter valförrättningens
@@ -949,6 +953,11 @@
             1 följd varav förutvarande statsrådet Frans Gustaf Sture Centerwall
             blivit till riksdagens militieombudsman utsedd.
           </note>
+          <u who="ernst_wigforss_881974" xml:id="i-dc3727b71f5ed965-3" prev="i-dc3727b71f5ed965-0" n="57dcafaf">
+            <seg n="034b6883">
+              M. Svensson. Axel Lindqvist. L. Tjällgren. Carl Björling.
+            </seg>
+          </u>
           <note n="d8a48d39">
             År 1939 den 8 februari sammanträdde kamrarnas valmän för att
             utse den man, som skall efterträda riksdagens militieombudsman,
@@ -966,6 +975,11 @@
             i följd varav herr byråchefen Carl Gustaf Ingemar Hellquist blivit
             utsedd till militieombudsmannens efterträdare.
           </note>
+          <u who="ernst_wigforss_881974" xml:id="i-dc3727b71f5ed965-4" prev="i-dc3727b71f5ed965-0" n="57dcafaf">
+            <seg n="034b6883">
+              M. Svensson. Axel Lindqvist. L. Tjällgren. Carl Björling.
+            </seg>
+          </u>
           <note n="cac87acc">
             På framställning av herr talmannen beslöts att riksdagens kanslideputerade
             skulle genom utdrag av protokollet underrättas om dessa val samt
@@ -974,7 +988,7 @@
             med anmälan om de verkställda valen.
           </note>
           <pb n="10" facs="https://betalab.kb.se/prot-1939--fk--9/prot_1939__fk__9-010.jp2/_view"/>
-          <note n="64067bb8">
+          <note type="date" n="15c649af">
             Fredagen den 10 februari 1939. Nr 9. 11
           </note>
           <note n="d5b40141">
@@ -1000,11 +1014,13 @@
             nr 69, angående bestridande av kostnader för kronans deltagande
             i utvidgad reglering av Skattungen och Oresjön i Dalälvens flodområde.
           </note>
+          <u who="ernst_wigforss_881974" xml:id="i-dc3727b71f5ed965-5" prev="i-dc3727b71f5ed965-0" n="57dcafaf"/>
           <note n="f1f73c50">
             Föredrogos, men bordlades ånyo på flera ledamöters begäran statsutskottets
             utlåtanden nr 3, 30 och 31 samt andra lagutskottets utlåtanden
             nr 1 och 2.
           </note>
+          <u who="ernst_wigforss_881974" xml:id="i-dc3727b71f5ed965-6" prev="i-dc3727b71f5ed965-0" n="57dcafaf"/>
           <note n="e055a209">
             På framställning av herr talmannen beslöts att statsutskottets
             utlåtande nr 30, i anledning av Kungl. Maj:ts proposition angående

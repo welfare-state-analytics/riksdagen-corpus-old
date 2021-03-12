@@ -20,7 +20,7 @@
     <encodingDesc>
       <editorialDecl>
         <correction>
-          <p>Some data curation was done. It is documented in db/curation/instances</p>
+          <p>Some data curation was done. It is documented in input/curation/instances</p>
         </correction>
       </editorialDecl>
     </encodingDesc>
@@ -52,17 +52,19 @@
       <front>
         <div type="preface">
           <head>prot-1935--ak--19</head>
-          <docDate when="1935">1935</docDate>
+          <docDate when="1935-03-15">1935-03-15</docDate>
+          <docDate when="1935-03-16">1935-03-16</docDate>
         </div>
       </front>
       <body>
         <div>
+          <pb n="0" facs="https://betalab.kb.se/prot-1935--ak--19/prot_1935__ak__19-000.jp2/_view"/>
           <note n="9f1fd7f5">
             RIKSDAGENS PROTOKOLL. 1935. Andra kammaren. Nr 19.
           </note>
           <note n="d23f3060"/>
           <note n="d23f3060"/>
-          <note n="a8321fcc">
+          <note type="date" n="6cd8ed1c">
             Fredagen den 15 mars. Kl. 4 e. m.
           </note>
           <note n="74bb88cd">
@@ -78,7 +80,7 @@
           <note type="speaker" n="6ccd3950">
             Ordet lämnades härefter på begäran till herr Skoglund, som yttrade:
           </note>
-          <u who="martin_skoglund_5dc1f8" xml:id="i-4c7e9fa4e10f02ad-0" n="226f38de">
+          <u who="martin_skoglund_5dc1f8" xml:id="i-226f38de3c2cfef6-0" n="226f38de">
             <seg n="0467d134">
               Herr talman! Jag hemställer, att kammaren måtte besluta en till
               tjugu dagar utsträckt motionstid för Kungl. Maj:ts proposition
@@ -94,7 +96,7 @@
           <note type="speaker" n="fce919b6">
             Härpå erhölls ordet av herr Olsson i Staxäng, vilken anförde:
           </note>
-          <u who="oscar_olsson_600f9e" xml:id="i-8761d2bfb0363ebb-0" next="i-bf71ddd255980bdf-0" n="3ecff473">
+          <u who="oscar_olsson_600f9e" xml:id="i-1e3856d600a640ea-0" next="i-1e3856d600a640ea-2" n="3ecff473">
             <seg n="ecc6270a">
               Herr talman! Interpellation. Riksdagen anhöll år 1934 i skrivelse
               nr 298 till Kungl. Maj:t om utredning och förslag till anordningar
@@ -113,7 +115,7 @@
             tillfälliga utskott anförde i sina i denna punkt likalydande utlåtanden
             följande:
           </note>
-          <u who="oscar_olsson_600f9e" xml:id="i-bf71ddd255980bdf-0" prev="i-8761d2bfb0363ebb-0" n="3ecff473">
+          <u who="oscar_olsson_600f9e" xml:id="i-1e3856d600a640ea-1" prev="i-1e3856d600a640ea-0" n="3ecff473">
             <seg n="de2505fa">
               »Med motionärerna delar utskottet uppfattningen, att ett rationellt
               ordnat bokföringsoch räkenskapsväsen i den kommunala förvaltningen
@@ -136,6 +138,18 @@
               orånad garanti för medel, som omhänderhavas för kommuners räkning.
               De synnerligen skif-
             </seg>
+          </u>
+          <note n="4d88facd">
+            Andra kammarens protokoll 1935. Nr 19. 1
+          </note>
+          <pb n="1" facs="https://betalab.kb.se/prot-1935--ak--19/prot_1935__ak__19-001.jp2/_view"/>
+          <note n="583119bb">
+            Interpellation.
+          </note>
+          <note type="date" n="dd6faabb">
+            2 Nr 19. Fredagen den 15 mars.
+          </note>
+          <u who="oscar_olsson_600f9e" xml:id="i-1e3856d600a640ea-2" prev="i-1e3856d600a640ea-0" n="3ecff473">
             <seg n="21aa0faf">
               Interpellation. (Forts.) tande förhållandena inom olika kommuner
               ävensom nödig hänsyn till den självstyrelse, som gällande lag
@@ -167,16 +181,6 @@
               inom snar framtid kan föreläggas riksdagen?
             </seg>
           </u>
-          <note n="4d88facd">
-            Andra kammarens protokoll 1935. Nr 19. 1
-          </note>
-          <pb n="1" facs="https://betalab.kb.se/prot-1935--ak--19/prot_1935__ak__19-001.jp2/_view"/>
-          <note n="583119bb">
-            Interpellation.
-          </note>
-          <note n="d81d4591">
-            2 Nr 19. Fredagen den 15 mars.
-          </note>
           <note n="ab492d0d">
             Tfrågavarande anhållan blev på begäran bordlagd.
           </note>
@@ -186,7 +190,7 @@
           <note type="speaker" n="130af4c3">
             Herr talmannen gav härefter ordet till herr Lithander, som yttrade:
           </note>
-          <u who="edvard_lithander_2ecf38" xml:id="i-920700151ed0a36b-0" next="i-60a40d2a429dd5a6-0" n="0fb79baf">
+          <u who="edvard_lithander_2ecf38" xml:id="i-0fb79baf29d830b8-0" next="i-0fb79baf29d830b8-12" n="0fb79baf">
             <seg n="3fe85372">
               Herr talman! Med anledning av herr finansminister Wigforss” uttalande
               den 3 februari 1935 i Örebro enligt referat av T. T., därvid finansministern
@@ -205,11 +209,16 @@
           <note n="f4b9197c">
             »Till Hans Majestät Konungen och Regeringen.
           </note>
-          <u who="edvard_lithander_2ecf38" xml:id="i-60a40d2a429dd5a6-0" prev="i-920700151ed0a36b-0" n="0fb79baf">
+          <u who="edvard_lithander_2ecf38" xml:id="i-0fb79baf29d830b8-1" prev="i-0fb79baf29d830b8-0" n="0fb79baf">
             <seg n="3f575dc2">
               Beder underdånigast om Eders Majestät ville upptaga till prövning
               att rättvisa vederfares mig.
             </seg>
+          </u>
+          <note n="88798724">
+            Undertecknad beder härmed!
+          </note>
+          <u who="edvard_lithander_2ecf38" xml:id="i-0fb79baf29d830b8-2" prev="i-0fb79baf29d830b8-0" n="0fb79baf">
             <seg n="e3e80b27">
               Då jag som innehavare av egen fabrikation av Cigarr och Cigarrcigarretter
               vid Tobaksmonopolets ikraftträdande berövades min inkomst på fabrikationen,
@@ -229,6 +238,12 @@
             <seg n="243d63e5">
               Och då jag visavi min inkomst under dessa 20 år anser mig lidande,
             </seg>
+          </u>
+          <pb n="2" facs="https://betalab.kb.se/prot-1935--ak--19/prot_1935__ak__19-002.jp2/_view"/>
+          <note type="date" n="2cfa5b2a">
+            Fredagen den 15 mars. Nr 19. 3
+          </note>
+          <u who="edvard_lithander_2ecf38" xml:id="i-0fb79baf29d830b8-3" prev="i-0fb79baf29d830b8-0" n="0fb79baf">
             <seg n="1b8689f9">
               Interpellation. (Forts.) beder jag härmed att den skäliga ersättningen
               jämte ränta under de gångna 20 åren måtte bliva mig tillerkänd
@@ -237,6 +252,15 @@
             <seg n="acc1b2ee">
               Underdånigast Svensk Medborgarinna Flora Swensson. F. d. cigarrfabrikant.
             </seg>
+          </u>
+          <note n="d7215060">
+            Stockholm den 5 mars 1934.» oo | | Till finansminister Wigforss
+            avsändes den 26 juni 1934 följande skrivelse:
+          </note>
+          <note n="9c8ae416">
+            »Till Hans Excellens Finansminister Wigforss.
+          </note>
+          <u who="edvard_lithander_2ecf38" xml:id="i-0fb79baf29d830b8-4" prev="i-0fb79baf29d830b8-0" n="0fb79baf">
             <seg n="7abb2ef1">
               Till min stora förvåning har just nu uppgifter ej överensstämmande
               med dem Jag inlämnat, kommit till min kännedom genom papper insända
@@ -293,6 +317,11 @@
               av grosshandlare Torsten Molin, grosshandlare Frans Lundberg och
               grosshandlare Einar Malmberg.
             </seg>
+          </u>
+          <note n="910bbe21">
+            15 st. papper och 6 intyg inalles 21 papper.
+          </note>
+          <u who="edvard_lithander_2ecf38" xml:id="i-0fb79baf29d830b8-5" prev="i-0fb79baf29d830b8-0" n="0fb79baf">
             <seg n="4fca9b9a">
               Jag börjar fundera var mina inlämnade uppgifter hamnat då utredningen
               givit så dåligt resultat. Inte för att jag missunnar någon sin
@@ -304,6 +333,23 @@
               är inte möjligt. Och tänk alla år framåt det är mycket pengars
               förlust, sade han.
             </seg>
+          </u>
+          <pb n="3" facs="https://betalab.kb.se/prot-1935--ak--19/prot_1935__ak__19-003.jp2/_view"/>
+          <note type="date" n="1ce9eb5b">
+            4 Nr 19. Fredagen den 15 mars.
+          </note>
+          <note n="612b46b0">
+            Interpellation. (Forts.)
+          </note>
+          <note n="fa1958cd">
+            Dessutom äro inlämnade uppgifter på till återförsäljning av mitt
+            eget fabrikat: fröken Bina Södergren Malmskillnadsgatan 34, fru
+            Malm Import Regeringsgatan 45, fru Tiloblin Tobakshandel Dalagatan
+            56, fru Johansson Sveavägen 96, dåvarande Badstugatan, och herr
+            Gustaf Gyllenhammar, Götgatan 15 — av dessa är intyg lämnade och
+            av mig insända.
+          </note>
+          <u who="edvard_lithander_2ecf38" xml:id="i-0fb79baf29d830b8-6" prev="i-0fb79baf29d830b8-0" n="0fb79baf">
             <seg n="f24f26a4">
               Fabrikationen har jag innehaft från 1902 alltså tolv år innan
               monopolet trädde i kraft, man startar ju ett företag med framåtanda
@@ -319,6 +365,19 @@
               till rätta den orättvisa, som blivit mot mig begången och tillämpa
               för mig: Vi kämpa för rättvisa frihet och bröd
             </seg>
+          </u>
+          <note n="ad8666eb">
+            vördsamt Svensk medborgarinna Flora Swensson, f. d. cigarrfabrikant.
+            Stockholm 26 juni 1934.»
+          </note>
+          <note n="61c3b0a6">
+            Till finansminister Wigforss riktades ånyo en skrivelse den 5
+            juli 1934 av följande lydelse:
+          </note>
+          <note n="47825751">
+            » Till Hans Excellens Finansminister Wigforss.
+          </note>
+          <u who="edvard_lithander_2ecf38" xml:id="i-0fb79baf29d830b8-7" prev="i-0fb79baf29d830b8-0" n="0fb79baf">
             <seg n="74925311">
               Åberopande mina insända uppgifter vill jag härmed vördsamt bedja
               att något göres att rättvisa vederfares mig.
@@ -373,6 +432,19 @@
             <seg n="39925652">
               Och är mitt hopp att rättänkandet hos statsmakterna skall segra.
             </seg>
+          </u>
+          <note n="42f74d27">
+            Vördsamt Svensk medborgarinna Flora Swensson. F. d. cigarrfabrikant.
+            Stockholm 5 juli 1934.»
+          </note>
+          <pb n="4" facs="https://betalab.kb.se/prot-1935--ak--19/prot_1935__ak__19-004.jp2/_view"/>
+          <note type="date" n="b496f078">
+            Fredagen den 15 mars. Nr 19. 5
+          </note>
+          <note n="612b46b0">
+            Interpellation. (Forts.)
+          </note>
+          <u who="edvard_lithander_2ecf38" xml:id="i-0fb79baf29d830b8-8" prev="i-0fb79baf29d830b8-0" n="0fb79baf">
             <seg n="aac68c28">
               Finansminister Wigforss har emellertid ingenting åtgjort.
             </seg>
@@ -413,75 +485,7 @@
               fall eller i andra liknande, där folk kommit i misär på grund
               av redan införda monopol?
             </seg>
-            <seg n="ada00a5d">
-              från statsutskottet:
-            </seg>
-            <seg n="3733a2b2">
-              från jordbruksutskottet:
-            </seg>
-            <seg n="f6e1c6a6">
-              från riksdagens kansli, nr 75, angående ett rationellt och vinstgivande
-              tillgodogörande av svenska frukter och bär.
-            </seg>
-            <seg n="d8742a7d">
-              besluta, att Davidssonska donationen för jordbrukets främjande
-              i Västbo härad befriades från skattskyldighet till staten.
-            </seg>
           </u>
-          <note n="88798724">
-            Undertecknad beder härmed!
-          </note>
-          <pb n="2" facs="https://betalab.kb.se/prot-1935--ak--19/prot_1935__ak__19-002.jp2/_view"/>
-          <note n="f3b4b84c">
-            Fredagen den 15 mars. Nr 19. 3
-          </note>
-          <note n="d7215060">
-            Stockholm den 5 mars 1934.» oo | | Till finansminister Wigforss
-            avsändes den 26 juni 1934 följande skrivelse:
-          </note>
-          <note n="9c8ae416">
-            »Till Hans Excellens Finansminister Wigforss.
-          </note>
-          <note n="910bbe21">
-            15 st. papper och 6 intyg inalles 21 papper.
-          </note>
-          <pb n="3" facs="https://betalab.kb.se/prot-1935--ak--19/prot_1935__ak__19-003.jp2/_view"/>
-          <note n="77cd5694">
-            4 Nr 19. Fredagen den 15 mars.
-          </note>
-          <note n="612b46b0">
-            Interpellation. (Forts.)
-          </note>
-          <note n="fa1958cd">
-            Dessutom äro inlämnade uppgifter på till återförsäljning av mitt
-            eget fabrikat: fröken Bina Södergren Malmskillnadsgatan 34, fru
-            Malm Import Regeringsgatan 45, fru Tiloblin Tobakshandel Dalagatan
-            56, fru Johansson Sveavägen 96, dåvarande Badstugatan, och herr
-            Gustaf Gyllenhammar, Götgatan 15 — av dessa är intyg lämnade och
-            av mig insända.
-          </note>
-          <note n="ad8666eb">
-            vördsamt Svensk medborgarinna Flora Swensson, f. d. cigarrfabrikant.
-            Stockholm 26 juni 1934.»
-          </note>
-          <note n="61c3b0a6">
-            Till finansminister Wigforss riktades ånyo en skrivelse den 5
-            juli 1934 av följande lydelse:
-          </note>
-          <note n="47825751">
-            » Till Hans Excellens Finansminister Wigforss.
-          </note>
-          <note n="42f74d27">
-            Vördsamt Svensk medborgarinna Flora Swensson. F. d. cigarrfabrikant.
-            Stockholm 5 juli 1934.»
-          </note>
-          <pb n="4" facs="https://betalab.kb.se/prot-1935--ak--19/prot_1935__ak__19-004.jp2/_view"/>
-          <note n="aa7671c8">
-            Fredagen den 15 mars. Nr 19. 5
-          </note>
-          <note n="612b46b0">
-            Interpellation. (Forts.)
-          </note>
           <note n="9240993c">
             Jämväl denna framställning bordlades.
           </note>
@@ -492,6 +496,11 @@
             Anmäldes och godkändes följande förslag till riksdagens skrivelser
             till Konungen, nämligen:
           </note>
+          <u who="edvard_lithander_2ecf38" xml:id="i-0fb79baf29d830b8-9" prev="i-0fb79baf29d830b8-0" n="0fb79baf">
+            <seg n="ada00a5d">
+              från statsutskottet:
+            </seg>
+          </u>
           <note n="50fb10fa">
             nr 84, i anledning av Kungl. Maj:ts proposition angående rätt
             för löjtnanterna E. V. Ekman och C. O. Friberg samt furiren H.
@@ -520,6 +529,11 @@
             av den internationella arbetsorganisationens konferens år 1934
             fattade beslut;
           </note>
+          <u who="edvard_lithander_2ecf38" xml:id="i-0fb79baf29d830b8-10" prev="i-0fb79baf29d830b8-0" n="0fb79baf">
+            <seg n="3733a2b2">
+              från jordbruksutskottet:
+            </seg>
+          </u>
           <note n="d62df949">
             nr 89, i anledning av väckta motioner om lagstiftning rörande
             fiskets skyddande mot förorening av vattnet i vattendragen;
@@ -530,7 +544,7 @@
             län;
           </note>
           <pb n="5" facs="https://betalab.kb.se/prot-1935--ak--19/prot_1935__ak__19-005.jp2/_view"/>
-          <note n="2164e49d">
+          <note type="date" n="a9e854a9">
             6 Nr 19. Fredagen den 15 mars.
           </note>
           <note n="38f6bc67">
@@ -566,6 +580,12 @@
             markupplåtelse för utvidgning av universitetets i Uppsala idrottsplats;
             samt
           </note>
+          <u who="edvard_lithander_2ecf38" xml:id="i-0fb79baf29d830b8-11" prev="i-0fb79baf29d830b8-0" n="0fb79baf">
+            <seg n="f6e1c6a6">
+              från riksdagens kansli, nr 75, angående ett rationellt och vinstgivande
+              tillgodogörande av svenska frukter och bär.
+            </seg>
+          </u>
           <note n="8d32c8ae">
             8 6. Justerades protokollsutdrag. 8 7. Ledighet från riksdagsgöromålen
             beviljades: herr Sjögren under 6 dagar fr.o.m. den 18 mars, &gt;
@@ -579,10 +599,10 @@
             Per Cronvall.
           </note>
           <pb n="6" facs="https://betalab.kb.se/prot-1935--ak--19/prot_1935__ak__19-006.jp2/_view"/>
-          <note n="33bc7d62">
+          <note type="date" n="9d8c0484">
             Lördagen den 16 mars. Nr 19. 7
           </note>
-          <note n="d9a0d692">
+          <note type="date" n="2da67652">
             Lördagen den 16 mars. Kl. 11 f. m.
           </note>
           <note n="f9a9d06b">
@@ -640,6 +660,12 @@
             ningsutskottet hänvisad motion, nr 45, hade föreslagits, att
             riksdagen måtte donationen.
           </note>
+          <u who="edvard_lithander_2ecf38" xml:id="i-0fb79baf29d830b8-12" prev="i-0fb79baf29d830b8-0" n="0fb79baf">
+            <seg n="d8742a7d">
+              besluta, att Davidssonska donationen för jordbrukets främjande
+              i Västbo härad befriades från skattskyldighet till staten.
+            </seg>
+          </u>
           <note n="b00a109c">
             Utskottet hemställde, att förevarande motion icke måtte föranleda
             någon riksdagens åtgärd.
@@ -650,7 +676,7 @@
             riksdagens bifall.
           </note>
           <pb n="7" facs="https://betalab.kb.se/prot-1935--ak--19/prot_1935__ak__19-007.jp2/_view"/>
-          <note n="b713994d">
+          <note type="date" n="c6867133">
             8 Nr 19. Lördagen den 16 mars.
           </note>
           <note n="bbe866f2">
@@ -663,7 +689,7 @@
           <note type="speaker" n="ae35abfb">
             Herr von Seth:
           </note>
-          <u who="torgil_von_seth_2a63c0" xml:id="i-df2fcdb110893c8a-0" n="6310e172">
+          <u who="torgil_von_seth_2a63c0" xml:id="i-4fd6605f2b262287-0" n="6310e172">
             <seg n="68501376">
               I Västbo härad i Jönköpings län inneha jordbrukarna i allmänhet
               mindre arealer och befinna sig många gånger i dåliga ekonomiska
@@ -704,7 +730,7 @@
           <note type="speaker" n="ede49e88">
             Herr Olsson i Gävle:
           </note>
-          <u who="oscar_olsson_600f9e" xml:id="i-8761d2bfb0363ebb-1" next="i-bf71ddd255980bdf-1" n="3ecff473">
+          <u who="oscar_olsson_600f9e" xml:id="i-1e3856d600a640ea-3" next="i-1e3856d600a640ea-5" n="3ecff473">
             <seg n="964cabfd">
               Herr talman! När utskottet avstyrkt den föreliggande motionen,
               har detta närmast skett av rent principiella skäl.
@@ -740,7 +766,7 @@
             och biföll kammaren utskottets hemställan.
           </note>
           <pb n="8" facs="https://betalab.kb.se/prot-1935--ak--19/prot_1935__ak__19-008.jp2/_view"/>
-          <note n="0a02f9f0">
+          <note type="date" n="dadee46c">
             Nr 19. Lördagen den 16 mars. 9
           </note>
           <note n="e79d8cb8">
@@ -817,14 +843,10 @@
             att tillämpas tills vidare från och med budgetåret 1935/1936;
             samt
           </note>
-          <u who="oscar_olsson_600f9e" xml:id="i-bf71ddd255980bdf-1" prev="i-8761d2bfb0363ebb-1" n="3ecff473">
+          <u who="oscar_olsson_600f9e" xml:id="i-1e3856d600a640ea-4" prev="i-1e3856d600a640ea-3" n="3ecff473">
             <seg n="5591f20a">
               ce) till riksförsäkringsanstalten: avlöningar för budgetåret
               1935/1936 anvisa ett förslagsanslag av 1,348,300 kronor.
-            </seg>
-            <seg n="35722c2a">
-              c) till riksförsäkringsanstalten: avlöningar för budgetåret 1935/1936
-              anvisa ett förslagsanslag av 1,346,900 kronor.
             </seg>
           </u>
           <note n="4ceb3881">
@@ -837,7 +859,7 @@
             Ang. riksförsäkringsanstalten.
           </note>
           <pb n="9" facs="https://betalab.kb.se/prot-1935--ak--19/prot_1935__ak__19-009.jp2/_view"/>
-          <note n="8f8b0bbd">
+          <note type="date" n="37d3a2b4">
             10 Nr 19. Lördagen den 16 mars.
           </note>
           <note n="94c7ae60">
@@ -853,13 +875,19 @@
             att tillämpas tills vidare från och med budgetåret 1935/1936;
             samt
           </note>
+          <u who="oscar_olsson_600f9e" xml:id="i-1e3856d600a640ea-5" prev="i-1e3856d600a640ea-3" n="3ecff473">
+            <seg n="35722c2a">
+              c) till riksförsäkringsanstalten: avlöningar för budgetåret 1935/1936
+              anvisa ett förslagsanslag av 1,346,900 kronor.
+            </seg>
+          </u>
           <note n="b48817e9">
             Sedan utskottets hemställan föredragits, anförde:
           </note>
           <note type="speaker" n="a95d6026">
             Herr Strindlund:
           </note>
-          <u who="gerhard_strindlund_5420b3" xml:id="i-fa25a753e2410aee-0" next="i-ec5096c74a5a5406-0" n="8d44e40e">
+          <u who="gerhard_strindlund_5420b3" xml:id="i-8d44e40edb9b5697-0" next="i-8d44e40edb9b5697-1" n="8d44e40e">
             <seg n="52b65efd">
               Herr talman! Vid denna punkt har herr Svensson i Grönvik och
               undertecknad fogat en reservation, och jag anhåller att med några
@@ -919,10 +947,10 @@
             </seg>
           </u>
           <pb n="10" facs="https://betalab.kb.se/prot-1935--ak--19/prot_1935__ak__19-010.jp2/_view"/>
-          <note n="e7c9468b">
+          <note type="date" n="e8e60a0a">
             Lördagen den 16 mars. Nr 19. 11
           </note>
-          <u who="gerhard_strindlund_5420b3" xml:id="i-ec5096c74a5a5406-0" prev="i-fa25a753e2410aee-0" n="8d44e40e">
+          <u who="gerhard_strindlund_5420b3" xml:id="i-8d44e40edb9b5697-1" prev="i-8d44e40edb9b5697-0" n="8d44e40e">
             <seg n="e66b091c">
               Ang. riksförsäkringsanstalten. (Forts.) riksförsäkringsanstalten
               skulle vara av betydelse vid bedömandet av anstaltens anslagsäskanden.
@@ -954,7 +982,7 @@
           <note type="speaker" n="b8ed107a">
             Herr Jansson:
           </note>
-          <u who="unknown" xml:id="i-e8b24f3ea676b40e-0" n="916a03cc">
+          <u who="unknown" xml:id="i-916a03cc4d2e57ee-0" n="916a03cc">
             <seg n="495fa19e">
               Herr talman! Reservanterna ha grundat sin reservation på de förhållanden
               som herr Strindlund nyss relaterat, det vill säga att en omorganisation
@@ -1008,10 +1036,10 @@
           <note n="46dc098b">
             m. m.
           </note>
-          <note n="f764c890">
+          <note type="date" n="6d612b3d">
             12 Nr 19. Lördagen den 16 mars.
           </note>
-          <u who="unknown" xml:id="i-d894e12effbfba6b-0" n="916a03cc">
+          <u who="unknown" xml:id="i-916a03cc4d2e57ee-1" n="916a03cc">
             <seg n="3e6621a2">
               Ang. riksförsäkringsanstalten. (Forts.) . därför att det rent
               av är en rättfärdighetsgärning som riksdagen utför genom att gå
@@ -1033,7 +1061,7 @@
           <note type="speaker" n="a95d6026">
             Herr Strindlund:
           </note>
-          <u who="gerhard_strindlund_5420b3" xml:id="i-fa25a753e2410aee-1" next="i-ec5096c74a5a5406-1" n="8d44e40e">
+          <u who="gerhard_strindlund_5420b3" xml:id="i-8d44e40edb9b5697-2" next="i-8d44e40edb9b5697-4" n="8d44e40e">
             <seg n="f78dd2d4">
               Herr talman! Jag fäste mig vid ett uttryck i den motivering för
               utskottsmajoritetens ståndpunkt, som herr Jansson nyss förebragt.
@@ -1084,15 +1112,10 @@
           <note n="7da585ad">
             Punkterna 17—40. Vad utskottet hemställt bifölls.
           </note>
-          <u who="gerhard_strindlund_5420b3" xml:id="i-ec5096c74a5a5406-1" prev="i-fa25a753e2410aee-1" n="8d44e40e">
+          <u who="gerhard_strindlund_5420b3" xml:id="i-8d44e40edb9b5697-3" prev="i-8d44e40edb9b5697-2" n="8d44e40e">
             <seg n="c64feaeb">
               Punkten 41, angående statens tvångsarbetsanstalt i Landskrona
               och statens alkoholistanstalt därstädes: avlöningar.
-            </seg>
-            <seg n="ae79106e">
-              ce) till statens tvångsarbetsanstalt i Landskrona och statens
-              alkoholistanstalt därstädes: avlöningar för budgetåret 1935/1936
-              anvisa ett förslagsanslag av 97,900 kronor.
             </seg>
           </u>
           <note n="199cd256">
@@ -1100,7 +1123,7 @@
             föreslagit riksdagen att
           </note>
           <pb n="12" facs="https://betalab.kb.se/prot-1935--ak--19/prot_1935__ak__19-012.jp2/_view"/>
-          <note n="69700c41">
+          <note type="date" n="964b32f1">
             Lördagen den 16 mars. Nr 19. 13
           </note>
           <note n="6415ab18">
@@ -1137,13 +1160,20 @@
             att tilllämpas tills vidare från och med budgetåret 1935/1936;
             samt
           </note>
+          <u who="gerhard_strindlund_5420b3" xml:id="i-8d44e40edb9b5697-4" prev="i-8d44e40edb9b5697-2" n="8d44e40e">
+            <seg n="ae79106e">
+              ce) till statens tvångsarbetsanstalt i Landskrona och statens
+              alkoholistanstalt därstädes: avlöningar för budgetåret 1935/1936
+              anvisa ett förslagsanslag av 97,900 kronor.
+            </seg>
+          </u>
           <note n="4732e1cc">
             Efter föredragning av utskottets hemställan yttrade:
           </note>
           <note type="speaker" n="b2924961">
             Fru Nordgren:
           </note>
-          <u who="olivia_nordgren_158499" xml:id="i-24521831b7c75813-0" n="2cf37b3f">
+          <u who="olivia_nordgren_158499" xml:id="i-2cf37b3f4caed049-0" n="2cf37b3f">
             <seg n="c2860bf3">
               Herr talman! Statsutskottet har under denna punkt avstyrkt ett
               i statsverkspropositionen framlagt förslag om ett personligt lönetillägg
@@ -1193,7 +1223,7 @@
             </seg>
           </u>
           <pb n="13" facs="https://betalab.kb.se/prot-1935--ak--19/prot_1935__ak__19-013.jp2/_view"/>
-          <note n="7f9b322d">
+          <note type="date" n="076850a8">
             14 Nr 19. Lördagen den 16 mars.
           </note>
           <note n="13d31842">
@@ -1206,7 +1236,7 @@
           <note type="speaker" n="b8ed107a">
             Herr Jansson:
           </note>
-          <u who="unknown" xml:id="i-d423d98531bef70a-0" n="916a03cc">
+          <u who="unknown" xml:id="i-916a03cc4d2e57ee-2" n="916a03cc">
             <seg n="6c7a72c0">
               Herr talman! Det är klart, att man kan föra fram motiv av olika
               slag för en löneförhöjning sådan som denna. Inom statsutskottet
@@ -1256,7 +1286,7 @@
           <note type="speaker" n="b2924961">
             Fru Nordgren:
           </note>
-          <u who="olivia_nordgren_158499" xml:id="i-6124d19a909f6991-0" next="i-4584bd39c964677e-0" n="2cf37b3f">
+          <u who="olivia_nordgren_158499" xml:id="i-2cf37b3f4caed049-1" next="i-2cf37b3f4caed049-2" n="2cf37b3f">
             <seg n="3e46b587">
               Herr talman! Det är mycket möjligt, att det förhåller sig så,
               som herr Jansson säger, nämligen att man här bort gå fram på den
@@ -1279,7 +1309,7 @@
             </seg>
           </u>
           <pb n="14" facs="https://betalab.kb.se/prot-1935--ak--19/prot_1935__ak__19-014.jp2/_view"/>
-          <note n="c8b4ea59">
+          <note type="date" n="812ba2a1">
             Lördagen den 16 mars. Nr 19. 15
           </note>
           <note n="4141fd67">
@@ -1287,7 +1317,7 @@
             stalten i Svartsjö, och vid den anstalten är direktören placerad
             tre lönegrader högre, om jag icke tar fel.
           </note>
-          <u who="olivia_nordgren_158499" xml:id="i-4584bd39c964677e-0" prev="i-6124d19a909f6991-0" n="2cf37b3f">
+          <u who="olivia_nordgren_158499" xml:id="i-2cf37b3f4caed049-2" prev="i-2cf37b3f4caed049-1" n="2cf37b3f">
             <seg n="792fa8a2">
               Slutligen vill jag framhålla, att om man vill vinna några resultat
               av verksamheten vid anstalten i Landskrona, böra lönerna för personalen
@@ -1320,7 +1350,7 @@
           <note type="speaker" n="a082aefb">
             Herr Eriksson i Falun:
           </note>
-          <u who="carl_eriksson_6fb94f" xml:id="i-feb2bd3cb3881785-0" next="i-a27a3127dd8a041f-0" n="b51af54a">
+          <u who="carl_eriksson_6fb94f" xml:id="i-f8d137e94462b16d-0" next="i-f8d137e94462b16d-2" n="b51af54a">
             <seg n="b8b858f5">
               Herr talman! Som kammaren finner, har statsutskottet under denna
               punkt avstyrkt den motion, som jag tillsammans med några andra
@@ -1364,10 +1394,16 @@
           <note n="2eedc0e3">
             Ang. uppförande eller inrättande av
           </note>
-          <u who="carl_eriksson_6fb94f" xml:id="i-a27a3127dd8a041f-0" prev="i-feb2bd3cb3881785-0" n="b51af54a">
+          <u who="carl_eriksson_6fb94f" xml:id="i-f8d137e94462b16d-1" prev="i-f8d137e94462b16d-0" n="b51af54a">
             <seg n="4d8ff77f">
               arbetshem.
             </seg>
+          </u>
+          <pb n="15" facs="https://betalab.kb.se/prot-1935--ak--19/prot_1935__ak__19-015.jp2/_view"/>
+          <note type="date" n="7f90cad2">
+            16 Nr 19. Lördagen den 16 mars.
+          </note>
+          <u who="carl_eriksson_6fb94f" xml:id="i-f8d137e94462b16d-2" prev="i-f8d137e94462b16d-0" n="b51af54a">
             <seg n="1e1469f6">
               Ang. uppförande eller inrättande av arbetshem. (Forts.) flytta
               svårdisciplinerbara interner, vilka vid överflyttningen likväl
@@ -1416,10 +1452,6 @@
               och jag har intet yrkande.
             </seg>
           </u>
-          <pb n="15" facs="https://betalab.kb.se/prot-1935--ak--19/prot_1935__ak__19-015.jp2/_view"/>
-          <note n="d374e1cf">
-            16 Nr 19. Lördagen den 16 mars.
-          </note>
           <note n="2c9a854e">
             I detta yttrande instämde herrar Osberg, Gustafson i Kasenberg,
             Holmström, Pettersson i Rosta och Beck.
@@ -1427,7 +1459,7 @@
           <note type="speaker" n="b8ed107a">
             Herr Jansson:
           </note>
-          <u who="unknown" xml:id="i-e8b24f3ea676b40e-1" n="916a03cc">
+          <u who="unknown" xml:id="i-916a03cc4d2e57ee-3" n="916a03cc">
             <seg n="103e687f">
               Herr talman! Det vore ju egentligen alldeles onödigt att yttra
               sig i denna fråga, när den föregående talaren, som ju är en av
@@ -1456,10 +1488,10 @@
             </seg>
           </u>
           <pb n="16" facs="https://betalab.kb.se/prot-1935--ak--19/prot_1935__ak__19-016.jp2/_view"/>
-          <note n="7e6b47e0">
+          <note type="date" n="3dd9978f">
             Lördagen den 16 mars. Nr 19. 17
           </note>
-          <u who="unknown" xml:id="i-d894e12effbfba6b-1" n="916a03cc">
+          <u who="unknown" xml:id="i-916a03cc4d2e57ee-4" n="916a03cc">
             <seg n="953eb4e7">
               Ang. uppförande eller inrättande av arbetshem. (Forts.) som skall
               verkställa denna ändring eller vem som har fastställt dessa reglementen,
@@ -1472,7 +1504,7 @@
           <note type="speaker" n="b9715ce2">
             Chefen för socialdepartementet, herr statsrådet Möller:
           </note>
-          <u who="gustav_moller_0eb28c" xml:id="i-7b8d17ce2ee1400b-0" n="638d850f">
+          <u who="gustav_moller_0eb28c" xml:id="i-916a03cc4d2e57ee-5" n="638d850f">
             <seg n="02f7372e">
               Herr talman! Att detta ärende icke kommit inför riksdagen i form
               av en kungl. proposition, beror helt av finansiella skäl. Med
@@ -1502,7 +1534,7 @@
           <note type="speaker" n="338d660c">
             Herr Bengtsson i Norup, som anförde:
           </note>
-          <u who="carl_bengtsson_a1c569" xml:id="i-5a4ce9a25f8053fc-0" n="b3164465">
+          <u who="carl_bengtsson_a1c569" xml:id="i-8eaae4736464c630-0" n="b3164465">
             <seg n="8c3d89bf">
               Herr talman! Denna punkt gäller sjukvårdsstatsbidrag till uppförande
               av tuberkulossjukvårdsanstalter. Till dessa an- nstalter. stalters
@@ -1540,7 +1572,7 @@
           <note n="6dbdd645">
             Ang. överståthållarämbetet.
           </note>
-          <note n="27f026fe">
+          <note type="date" n="a072637d">
             18 Nr 19. Lördagen den 16 mars.
           </note>
           <note n="2d744160">
@@ -1550,7 +1582,7 @@
           <note type="speaker" n="b9715ce2">
             Chefen för socialdepartementet, herr statsrådet Möller:
           </note>
-          <u who="gustav_moller_0eb28c" xml:id="i-7b8d17ce2ee1400b-1" n="638d850f">
+          <u who="gustav_moller_0eb28c" xml:id="i-916a03cc4d2e57ee-6" n="638d850f">
             <seg n="bbe8b183">
               Herr talman! Jag är oviss, huruvida jag uppfattat herr Bengtssons
               i Norup fråga riktigt. Gäller det att här på stående fot avge
@@ -1572,7 +1604,7 @@
           <note type="speaker" n="e9b2ec89">
             Herr Bengtsson i Norup:
           </note>
-          <u who="carl_bengtsson_a1c569" xml:id="i-f7fb138e6c27b858-0" next="i-941fe89cda808f68-0" n="b3164465">
+          <u who="carl_bengtsson_a1c569" xml:id="i-8eaae4736464c630-1" next="i-8eaae4736464c630-2" n="b3164465">
             <seg n="c2afff4a">
               Herr talman! Naturligtvis menade jag kommande budgetår, ty man
               kan ju inte taga något där ingenting finns att taga. och jag har
@@ -1627,7 +1659,7 @@
             föreslagits, att riksdagen måtte vidtaga så-
           </note>
           <pb n="18" facs="https://betalab.kb.se/prot-1935--ak--19/prot_1935__ak__19-018.jp2/_view"/>
-          <note n="7f6cbb0f">
+          <note type="date" n="f547f399">
             Lördagen den 16 mars. Nr 19. 19
           </note>
           <note n="442ba004">
@@ -1638,7 +1670,7 @@
             ock" sekreteraren tillerkändes en årlig avlöningsförstärkning
             av 2,500
           </note>
-          <u who="carl_bengtsson_a1c569" xml:id="i-941fe89cda808f68-0" prev="i-f7fb138e6c27b858-0" n="b3164465">
+          <u who="carl_bengtsson_a1c569" xml:id="i-8eaae4736464c630-2" prev="i-8eaae4736464c630-1" n="b3164465">
             <seg n="d8d6db04">
               ronor.
             </seg>
@@ -1653,7 +1685,7 @@
           <note type="speaker" n="4ae2cb24">
             Herr Höglund:
           </note>
-          <u who="zata_hoglund_5d1d5c" xml:id="i-a36775587d765afc-0" next="i-bfd3d126f413d7dc-0" n="71b8774b">
+          <u who="zata_hoglund_5d1d5c" xml:id="i-b7131c7fecf7611b-0" next="i-b7131c7fecf7611b-1" n="71b8774b">
             <seg n="d15df1bc">
               Herr talman! Jag har tillåtit mig att på denna punkt ställa ja
               förslag i överensstämmelse med en framställning från överståthållaräm-
@@ -1715,10 +1747,10 @@
             </seg>
           </u>
           <pb n="19" facs="https://betalab.kb.se/prot-1935--ak--19/prot_1935__ak__19-019.jp2/_view"/>
-          <note n="31c51311">
+          <note type="date" n="e6e9bea0">
             20 Nr 19. Lördagen den 16 mars.
           </note>
-          <u who="zata_hoglund_5d1d5c" xml:id="i-bfd3d126f413d7dc-0" prev="i-a36775587d765afc-0" n="71b8774b">
+          <u who="zata_hoglund_5d1d5c" xml:id="i-b7131c7fecf7611b-1" prev="i-b7131c7fecf7611b-0" n="71b8774b">
             <seg n="a3677448">
               Ang. överståthållarämbetet. (Forts.) denna post och därmed följande
               ansvar växt ganska väsentligt, varför det måste anses rimligt
@@ -1736,7 +1768,7 @@
           <note type="speaker" n="b8ed107a">
             Herr Jansson:
           </note>
-          <u who="unknown" xml:id="i-d423d98531bef70a-1" n="916a03cc">
+          <u who="unknown" xml:id="i-916a03cc4d2e57ee-7" n="916a03cc">
             <seg n="ba141050">
               Herr talman! Detta är ju i princip samma fråga som varit uppe
               tidigare, då vi diskuterade personligt lönetillägg. Det finns
@@ -1791,7 +1823,7 @@
           <note type="speaker" n="4ae2cb24">
             Herr Höglund:
           </note>
-          <u who="zata_hoglund_5d1d5c" xml:id="i-a36775587d765afc-1" next="i-bfd3d126f413d7dc-1" n="71b8774b">
+          <u who="zata_hoglund_5d1d5c" xml:id="i-b7131c7fecf7611b-2" next="i-b7131c7fecf7611b-3" n="71b8774b">
             <seg n="4cfd6d67">
               Herr talman! Jag begär icke, att överståthållarämbetet skall
               gynnas framför länsstyrelserna. Motionen innebär icke något sådant.
@@ -1806,10 +1838,10 @@
             </seg>
           </u>
           <pb n="20" facs="https://betalab.kb.se/prot-1935--ak--19/prot_1935__ak__19-020.jp2/_view"/>
-          <note n="8b7c5abf">
+          <note type="date" n="e1e2b728">
             Lördagen den 16 mars. Nr 19. 21
           </note>
-          <u who="zata_hoglund_5d1d5c" xml:id="i-bfd3d126f413d7dc-1" prev="i-a36775587d765afc-1" n="71b8774b">
+          <u who="zata_hoglund_5d1d5c" xml:id="i-b7131c7fecf7611b-3" prev="i-b7131c7fecf7611b-2" n="71b8774b">
             <seg n="bb4daad3">
               Ang. överståthållarämbetet. (Forts.) skilt rikta socialministerns
               uppmärksamhet på. Han sade, att det tenderar till att bli ett
@@ -1858,7 +1890,7 @@
           <note type="speaker" n="ffb0ea97">
             Herr Arnemark:
           </note>
-          <u who="gustaf_arnemark_265ba4" xml:id="i-4ec1b5ddc0a2c9d4-0" next="i-f592ed4673f2b331-0" n="494b3de0">
+          <u who="gustaf_arnemark_265ba4" xml:id="i-494b3de0ab0d8a26-0" next="i-494b3de0ab0d8a26-1" n="494b3de0">
             <seg n="2a3f6f68">
               Herr talman! Jag skall be att i egenskap av motionär få yttra
               några korta ord under denna punkt. Det gäller den fråga, som beröres
@@ -1893,10 +1925,10 @@
             Ang. länsstyrelserna.
           </note>
           <pb n="21" facs="https://betalab.kb.se/prot-1935--ak--19/prot_1935__ak__19-021.jp2/_view"/>
-          <note n="51b366cf">
+          <note type="date" n="91b0ef7f">
             22 Nr 19. Lördagen den 16 mars.
           </note>
-          <u who="gustaf_arnemark_265ba4" xml:id="i-f592ed4673f2b331-0" prev="i-4ec1b5ddc0a2c9d4-0" n="494b3de0">
+          <u who="gustaf_arnemark_265ba4" xml:id="i-494b3de0ab0d8a26-1" prev="i-494b3de0ab0d8a26-0" n="494b3de0">
             <seg n="e54ad4af">
               Ang. länsstyrelserna. (Forts.) mell kompetens — 1 varje fall
               relativt hög, såsom t. ex. studentexamen, landsfiskalsexamen och
@@ -1944,7 +1976,7 @@
           <note type="speaker" n="b9715ce2">
             Chefen för socialdepartementet, herr statsrådet Möller:
           </note>
-          <u who="gustav_moller_0eb28c" xml:id="i-1d98e3f8eb1232c8-0" next="i-164285317b1869ba-0" n="638d850f">
+          <u who="gustav_moller_0eb28c" xml:id="i-916a03cc4d2e57ee-8" next="i-916a03cc4d2e57ee-10" n="638d850f">
             <seg n="d4b39fb2">
               Herr talman! Jag kan meddela kammaren, att en utredning, som
               avser att möjliggöra ett mera bestämt omdöme om personalbehovet,
@@ -1977,10 +2009,10 @@
             </seg>
           </u>
           <pb n="22" facs="https://betalab.kb.se/prot-1935--ak--19/prot_1935__ak__19-022.jp2/_view"/>
-          <note n="0a36e050">
+          <note type="date" n="ab3a17b2">
             Lördagen den 16 mars. i Nr 19. 23
           </note>
-          <u who="gustav_moller_0eb28c" xml:id="i-164285317b1869ba-0" prev="i-1d98e3f8eb1232c8-0" n="638d850f">
+          <u who="gustav_moller_0eb28c" xml:id="i-916a03cc4d2e57ee-9" prev="i-916a03cc4d2e57ee-8" n="638d850f">
             <seg n="987186ad">
               Ang. länsstyrelserna. (Forts.) i gång den nämnda utredningen.
               Såsom den arbetar, böra resultaten kunna föreligga utan alltför
@@ -2047,6 +2079,15 @@
               rätt handlat mot personalen, och det är heller icke riktigt mot
               den allmänhet, vars intressen vi skola tillgodose.
             </seg>
+          </u>
+          <pb n="23" facs="https://betalab.kb.se/prot-1935--ak--19/prot_1935__ak__19-023.jp2/_view"/>
+          <note type="date" n="73425cb3">
+            24 Nr 19. | Lördagen den 16 mars.
+          </note>
+          <note n="e7edc06e">
+            Ang. länsstyrelserna. (Forts.)
+          </note>
+          <u who="gustav_moller_0eb28c" xml:id="i-916a03cc4d2e57ee-10" prev="i-916a03cc4d2e57ee-8" n="638d850f">
             <seg n="7c35b2ab">
               Jag ber därför att med tacksamhet få taga fasta på statsrådets
               inställning att så snabbt som möjligt bedriva den igångsatta utredningen.
@@ -2059,17 +2100,10 @@
               enligt det förra alternativet av de nu rådande förhållandena.
             </seg>
           </u>
-          <pb n="23" facs="https://betalab.kb.se/prot-1935--ak--19/prot_1935__ak__19-023.jp2/_view"/>
-          <note n="d29aabbe">
-            24 Nr 19. | Lördagen den 16 mars.
-          </note>
-          <note n="e7edc06e">
-            Ang. länsstyrelserna. (Forts.)
-          </note>
           <note type="speaker" n="a082aefb">
             Herr Eriksson i Falun:
           </note>
-          <u who="carl_eriksson_6fb94f" xml:id="i-feb2bd3cb3881785-1" next="i-a27a3127dd8a041f-1" n="b51af54a">
+          <u who="carl_eriksson_6fb94f" xml:id="i-f8d137e94462b16d-3" next="i-f8d137e94462b16d-4" n="b51af54a">
             <seg n="795c1468">
               Herr talman! Efter de två anföranden, som hållits i denna fråga,
               kan det synas som om det vore obehövligt att säga något ytterligare.
@@ -2132,10 +2166,10 @@
             </seg>
           </u>
           <pb n="24" facs="https://betalab.kb.se/prot-1935--ak--19/prot_1935__ak__19-024.jp2/_view"/>
-          <note n="40f67a7f">
+          <note type="date" n="08575406">
             Lördagen den 16 mars. Nr 19. 25
           </note>
-          <u who="carl_eriksson_6fb94f" xml:id="i-a27a3127dd8a041f-1" prev="i-feb2bd3cb3881785-1" n="b51af54a">
+          <u who="carl_eriksson_6fb94f" xml:id="i-f8d137e94462b16d-4" prev="i-f8d137e94462b16d-3" n="b51af54a">
             <seg n="a10549cd">
               Ang. länsstyrelserna. (Forts.) ning av denna fråga. Jag vet mycket
               väl, att frågan om landsfiskalernas ställning och arbetsuppgifter
@@ -2159,7 +2193,7 @@
           <note type="speaker" n="d8060f59">
             Herr Jacobsson:
           </note>
-          <u who="gosta_jacobsson_0a5947" xml:id="i-73c10c1e8600d990-0" n="9631f7fa">
+          <u who="gosta_jacobsson_0a5947" xml:id="i-9631f7fa5338015c-0" n="9631f7fa">
             <seg n="c259a378">
               Herr talman! Det är för mig som motionär synnerligen tacksamt
               att höra dessa deklarationer såväl från socialministerns sida
@@ -2193,12 +2227,12 @@
             Vid nu skedd föredragning av punkten 135, angående statspolisorganisatio-
             Ang. statsnen:
           </note>
-          <u who="unknown" xml:id="i-d423d98531bef70a-2" n="916a03cc"/>
+          <u who="unknown" xml:id="i-e4869913d8f09164-0" n="916a03cc"/>
           <note type="speaker" n="6527ec4f">
             statspolisintendenten, erhölls på begäran ordet av polisorganiaa=
             tonen. Herr Brädefors, som yttrade:
           </note>
-          <u who="johan_bradefors_0b9753" xml:id="i-8d639fd732cb1a54-0" n="e4869913">
+          <u who="johan_bradefors_0b9753" xml:id="i-e4869913d8f09164-1" n="e4869913">
             <seg n="22b82447">
               Herr talman! Jag vill vid denna första punkt, som handlar om
               polisväsendet, göra en deklaration rörande det kommunistiska partiets
@@ -2220,7 +2254,7 @@
             </seg>
           </u>
           <pb n="25" facs="https://betalab.kb.se/prot-1935--ak--19/prot_1935__ak__19-025.jp2/_view"/>
-          <note n="190e9fd7">
+          <note type="date" n="d2c8c184">
             26 Nr 19. Lördagen den 16 mars.
           </note>
           <note n="686bb55e">
@@ -2229,7 +2263,7 @@
           <note type="speaker" n="b8ed107a">
             Herr Jansson:
           </note>
-          <u who="unknown" xml:id="i-d423d98531bef70a-3" n="916a03cc">
+          <u who="unknown" xml:id="i-916a03cc4d2e57ee-11" n="916a03cc">
             <seg n="328bfa44">
               Herr talman! Jag ber att få yrka bifall till utskottets hemställan.
             </seg>
@@ -2271,7 +2305,7 @@
           <note type="speaker" n="02f9e655">
             mingsekyl- Herr Strindlund:
           </note>
-          <u who="gerhard_strindlund_5420b3" xml:id="i-7c80c31c9a1ebb2b-0" n="8d44e40e">
+          <u who="gerhard_strindlund_5420b3" xml:id="i-8d44e40edb9b5697-5" n="8d44e40e">
             <seg n="927697f5">
               Herr talman! Här föreligga nu i detta utskottsutlå- '9t&amp;- tande
               trenne förslag om befrielse från utdömt skadestånd och återbetalningsskyldighet.
@@ -2293,7 +2327,7 @@
           <note type="speaker" n="dab219dd">
             Herr Holmgren:
           </note>
-          <u who="bjorn_frithiofsson_holmgren_3c0011" xml:id="i-59e050f835e8cde9-0" n="1c8dfc84">
+          <u who="bjorn_frithiofsson_holmgren_3c0011" xml:id="i-1c8dfc8468ea4ab8-0" n="1c8dfc84">
             <seg n="5dbaddd4">
               Herr talman! Vad herr Strindlund framförde har mycket fog för
               sig, och det är självklart, att man inte i varje fall skall låta
@@ -2311,7 +2345,7 @@
             bifallen.
           </note>
           <pb n="26" facs="https://betalab.kb.se/prot-1935--ak--19/prot_1935__ak__19-026.jp2/_view"/>
-          <note n="cda916f0">
+          <note type="date" n="af3186e9">
             v Lördagen den 16 mars. Nr 19. 27
           </note>
           <note n="f32248db">
@@ -2398,7 +2432,7 @@
           <note n="2f10c096">
             &gt;
           </note>
-          <note n="b27c46f3">
+          <note type="date" n="0e61d9cf">
             28 Nr 19. Lördagen den 16 mars.
           </note>
           <note n="8ac8adfa">
@@ -2414,7 +2448,7 @@
           <note type="speaker" n="b751ab51">
             Herr Jonsson i Eskilstuna:
           </note>
-          <u who="evert_jonsson_c087b3" xml:id="i-a93f4c459d11571c-0" next="i-c64888d6ef91394f-0" n="2a1737d5">
+          <u who="evert_jonsson_c087b3" xml:id="i-28b69953dabad578-0" next="i-28b69953dabad578-1" n="2a1737d5">
             <seg n="c7f98d7d">
               Herr vice talman! Kammaren skall här slita en tvist i en skolorganisatorisk
               fråga. Jag vet ju sedan gammalt, att kammaren betraktar sådana
@@ -2480,10 +2514,10 @@
             </seg>
           </u>
           <pb n="28" facs="https://betalab.kb.se/prot-1935--ak--19/prot_1935__ak__19-028.jp2/_view"/>
-          <note n="d33dbc7a">
+          <note type="date" n="84bdfd13">
             Lördagen den 16 mars. Nr 19. 29
           </note>
-          <u who="evert_jonsson_c087b3" xml:id="i-c64888d6ef91394f-0" prev="i-a93f4c459d11571c-0" n="2a1737d5">
+          <u who="evert_jonsson_c087b3" xml:id="i-28b69953dabad578-1" prev="i-28b69953dabad578-0" n="2a1737d5">
             <seg n="eadda20f">
               Ang. högre allmänt läroverk i Haparanda. (Forts.) les, på samma
               sätt som de skulle få vara det enligt Kungl. Maj:ts förslag.
@@ -2517,7 +2551,7 @@
           <note type="speaker" n="2db4cf8d">
             Herr Svensson i Grönvik:
           </note>
-          <u who="martin_svensson_8ed440" xml:id="i-b6cf7b5285e4ddc0-0" next="i-e248890b3594cd1e-0" n="ceb52a7a">
+          <u who="martin_svensson_8ed440" xml:id="i-1fcc838563bb365d-0" next="i-1fcc838563bb365d-1" n="ceb52a7a">
             <seg n="a49661f1">
               Herr talman! Det var tydligt, att den närmast föregående talaren
               endast med en viss tvekan anslutit sig till Kungl. Maj:ts förslag,
@@ -2562,10 +2596,10 @@
             </seg>
           </u>
           <pb n="29" facs="https://betalab.kb.se/prot-1935--ak--19/prot_1935__ak__19-029.jp2/_view"/>
-          <note n="3a5604fb">
+          <note type="date" n="fd50edf1">
             30 Nr 19. Lördagen den 16 mars.
           </note>
-          <u who="martin_svensson_8ed440" xml:id="i-e248890b3594cd1e-0" prev="i-b6cf7b5285e4ddc0-0" n="ceb52a7a">
+          <u who="martin_svensson_8ed440" xml:id="i-1fcc838563bb365d-1" prev="i-1fcc838563bb365d-0" n="ceb52a7a">
             <seg n="443bd71d">
               Ang. högre allmänt läroverk i Haparanda. (Forts.) jag möjligen
               kan ha, så är det på det sättet, att man går inte i skolan för
@@ -2602,7 +2636,7 @@
           <note type="speaker" n="b356c1d4">
             Chefen för ecklesiastikdepartementet, herr statsrådet Engberg:
           </note>
-          <u who="arthur_engberg_53e65e" xml:id="i-0632a9b57ff88881-0" next="i-9d681789d090a200-0" n="58f6fb7f">
+          <u who="arthur_engberg_53e65e" xml:id="i-58f6fb7f823b8995-0" next="i-58f6fb7f823b8995-2" n="58f6fb7f">
             <seg n="335b2b6c">
               Herr talman! Det var icke utan en viss förvåning, som jag mottog
               statsutskottets utlåtande. I fjol utkämpades, såsom redan en ärad
@@ -2645,10 +2679,10 @@
             </seg>
           </u>
           <pb n="30" facs="https://betalab.kb.se/prot-1935--ak--19/prot_1935__ak__19-030.jp2/_view"/>
-          <note n="95b3b792">
+          <note type="date" n="75cc9ea8">
             Lördagen den 16 mars. Nr 19. 31
           </note>
-          <u who="arthur_engberg_53e65e" xml:id="i-9d681789d090a200-0" prev="i-0632a9b57ff88881-0" n="58f6fb7f">
+          <u who="arthur_engberg_53e65e" xml:id="i-58f6fb7f823b8995-1" prev="i-58f6fb7f823b8995-0" n="58f6fb7f">
             <seg n="5ff34e45">
               Ang. högre allmänt läroverk i Haparanda. (Forts.) villigt. Om
               vi taga de andra, som icke välja finska — ty endast en viss procent
@@ -2721,6 +2755,12 @@
               den synpunkten har man alldeles för litet beaktat,
             </seg>
             <seg n="9cd98764"/>
+          </u>
+          <pb n="31" facs="https://betalab.kb.se/prot-1935--ak--19/prot_1935__ak__19-031.jp2/_view"/>
+          <note type="date" n="fc1c081e">
+            32 Nr 19. Lördagen den 16 mars.
+          </note>
+          <u who="arthur_engberg_53e65e" xml:id="i-58f6fb7f823b8995-2" prev="i-58f6fb7f823b8995-0" n="58f6fb7f">
             <seg n="4cd07019">
               Ang. högre allmänt läroverk i Haparanda. (Forts.) då man talar
               om svårigheterna. Svårigheterna göra sig gällande starkast enligt
@@ -2763,17 +2803,13 @@
               reservationen.
             </seg>
           </u>
-          <pb n="31" facs="https://betalab.kb.se/prot-1935--ak--19/prot_1935__ak__19-031.jp2/_view"/>
-          <note n="a434e6f2">
-            32 Nr 19. Lördagen den 16 mars.
-          </note>
           <note n="62e8deca">
             Herr talmannen återtog nu ledningen av förhandlingarna.
           </note>
           <note type="speaker" n="36988af1">
             Herr Anderson i Råstock:
           </note>
-          <u who="erik_anderson_274172" xml:id="i-9f9f546e774c32f4-0" next="i-c676ba7fe1671613-0" n="7a90ea82">
+          <u who="erik_anderson_274172" xml:id="i-ec8acc9b595b1781-0" next="i-ec8acc9b595b1781-1" n="7a90ea82">
             <seg n="6a8695ea">
               Herr talman! Det är icke lätt för en lekman att våga sig på att
               ge uttryck för sin uppfattning i denna fråga, men när andra ledamöter
@@ -2802,10 +2838,10 @@
             </seg>
           </u>
           <pb n="32" facs="https://betalab.kb.se/prot-1935--ak--19/prot_1935__ak__19-032.jp2/_view"/>
-          <note n="a3b0e30a">
+          <note type="date" n="e20d6a78">
             Lördagen den 16 mars. Nr 19. 33
           </note>
-          <u who="erik_anderson_274172" xml:id="i-c676ba7fe1671613-0" prev="i-9f9f546e774c32f4-0" n="7a90ea82">
+          <u who="erik_anderson_274172" xml:id="i-ec8acc9b595b1781-1" prev="i-ec8acc9b595b1781-0" n="7a90ea82">
             <seg n="566a7048">
               Ang. högre allmänt läroverk i Haparanda. (Forts.) tid nu vara
               hur som helst. Jag är likväl fullt övertygad, såsom jag sagt,
@@ -2847,7 +2883,7 @@
           <note type="speaker" n="0a987d26">
             Herr Hage:
           </note>
-          <u who="ernst_hage_3db714" xml:id="i-eaaed3c21416411d-0" next="i-4ccc3c0c55cc5831-0" n="8f698415">
+          <u who="ernst_hage_3db714" xml:id="i-8f6984150feca941-0" next="i-8f6984150feca941-2" n="8f698415">
             <seg n="a7c45c16">
               Herr talman! Det finns ett gammalt ordspråk, som säger, att man
               icke skall syna en skänkt häst i munnen. Det kan möjligen hända,
@@ -2887,10 +2923,10 @@
             Andra kammarens protokoll 1935. Nr 19. 3
           </note>
           <pb n="33" facs="https://betalab.kb.se/prot-1935--ak--19/prot_1935__ak__19-033.jp2/_view"/>
-          <note n="fde6bbc2">
+          <note type="date" n="5d73fc88">
             34 Nr 19. Lördagen den 16 mars.
           </note>
-          <u who="ernst_hage_3db714" xml:id="i-4ccc3c0c55cc5831-0" prev="i-eaaed3c21416411d-0" n="8f698415">
+          <u who="ernst_hage_3db714" xml:id="i-8f6984150feca941-1" prev="i-8f6984150feca941-0" n="8f698415">
             <seg n="e470448e">
               Ang. högre allmänt läroverk i Haparanda. (Forts.) träffar de
               två språken, franskan och engelskan, tror jag för min del, att
@@ -2967,6 +3003,12 @@
               härtill kommer också, att undervisningen icke får den effekt,
               som den eljest skulle få.
             </seg>
+          </u>
+          <pb n="34" facs="https://betalab.kb.se/prot-1935--ak--19/prot_1935__ak__19-034.jp2/_view"/>
+          <note type="date" n="2fc3065b">
+            Lördagen den 16 mars. Nr 19. 35
+          </note>
+          <u who="ernst_hage_3db714" xml:id="i-8f6984150feca941-2" prev="i-8f6984150feca941-0" n="8f698415">
             <seg n="f97b1c53">
               Ang. högre allmänt läroverk i Haparanda. (Forts.) Detta är ungefär
               mina synpunkter på frågan. För mig är denna fråga icke någon hjärtesak,
@@ -2976,14 +3018,10 @@
               få yrka bifall till utskottets förslag.
             </seg>
           </u>
-          <pb n="34" facs="https://betalab.kb.se/prot-1935--ak--19/prot_1935__ak__19-034.jp2/_view"/>
-          <note n="a8b81998">
-            Lördagen den 16 mars. Nr 19. 35
-          </note>
           <note type="speaker" n="b356c1d4">
             Chefen för ecklesiastikdepartementet, herr statsrådet Engberg:
           </note>
-          <u who="arthur_engberg_53e65e" xml:id="i-c4fdc8ae7a3912d6-0" n="58f6fb7f">
+          <u who="arthur_engberg_53e65e" xml:id="i-58f6fb7f823b8995-3" n="58f6fb7f">
             <seg n="4767ba8a">
               Herr talman! När jag lyssnade till den siste ärade talaren, blev
               jag ganska häpen. Han lever nämligen i den föreställningen, att
@@ -3028,7 +3066,7 @@
           <note type="speaker" n="6306c258">
             Herr Holmdahl:
           </note>
-          <u who="otto_holmdahl_9568f6" xml:id="i-b1eaa8c4c14004a8-0" next="i-09d9b6b9f96d0dba-0" n="358b480f">
+          <u who="otto_holmdahl_9568f6" xml:id="i-358b480f4c82a4c8-0" next="i-358b480f4c82a4c8-2" n="358b480f">
             <seg n="f7adfab5">
               Herr talman! Det är otvivelaktigt, såsom den näst föregående
               talaren yttrade, att den meningsskiljaktighet, som här föreligger,
@@ -3051,10 +3089,10 @@
             </seg>
           </u>
           <pb n="35" facs="https://betalab.kb.se/prot-1935--ak--19/prot_1935__ak__19-035.jp2/_view"/>
-          <note n="7bc7e1f0">
+          <note type="date" n="11e18451">
             36 Nr 19. Lördagen den 16 mars.
           </note>
-          <u who="otto_holmdahl_9568f6" xml:id="i-09d9b6b9f96d0dba-0" prev="i-b1eaa8c4c14004a8-0" n="358b480f">
+          <u who="otto_holmdahl_9568f6" xml:id="i-358b480f4c82a4c8-1" prev="i-358b480f4c82a4c8-0" n="358b480f">
             <seg n="fddd25f8">
               Ang. högre allmänt läroverk i Haparanda. (Forts.) domen där uppe.
               Herr statsrådet har gjort en utmärkt insats genom att taga upp
@@ -3123,6 +3161,15 @@
               under de två sista åren i gymnasiet än engelskan har, och därför
               blir det en lättnad, om man byter ut franska mot engelska.
             </seg>
+          </u>
+          <pb n="36" facs="https://betalab.kb.se/prot-1935--ak--19/prot_1935__ak__19-036.jp2/_view"/>
+          <note type="date" n="3abafa1d">
+            Lördagen den 16 mars. Nr 19. 37
+          </note>
+          <note n="ed62b1a0">
+            Ang. högre allmänt läroverk i Haparanda. (Forts.)
+          </note>
+          <u who="otto_holmdahl_9568f6" xml:id="i-358b480f4c82a4c8-2" prev="i-358b480f4c82a4c8-0" n="358b480f">
             <seg n="4714a4d0">
               Sedan jag härmed framhållit det huvudskäl, som överstyrelsen
               har anfört för sitt förslag och som statsutskottets majoritet
@@ -3193,27 +3240,20 @@
               Herr talman! Jag tillåter mig yrka bifall till utskottets förslag.
             </seg>
           </u>
-          <pb n="36" facs="https://betalab.kb.se/prot-1935--ak--19/prot_1935__ak__19-036.jp2/_view"/>
-          <note n="ccced12b">
-            Lördagen den 16 mars. Nr 19. 37
-          </note>
-          <note n="ed62b1a0">
-            Ang. högre allmänt läroverk i Haparanda. (Forts.)
-          </note>
           <note type="speaker" n="b356c1d4">
             Chefen för ecklesiastikdepartementet, herr statsrådet Engberg:
           </note>
-          <u who="arthur_engberg_53e65e" xml:id="i-0632a9b57ff88881-1" next="i-9d681789d090a200-1" n="58f6fb7f">
+          <u who="arthur_engberg_53e65e" xml:id="i-58f6fb7f823b8995-4" next="i-58f6fb7f823b8995-6" n="58f6fb7f">
             <seg n="ed1bf2da">
               Herr talman! Den föregående ärade talaren ansåg, att ingenting
               hade framkommit,
             </seg>
           </u>
           <pb n="37" facs="https://betalab.kb.se/prot-1935--ak--19/prot_1935__ak__19-037.jp2/_view"/>
-          <note n="8ab69290">
+          <note type="date" n="5dcc77fd">
             38 Nr 19. Lördagen den 16 mars.
           </note>
-          <u who="arthur_engberg_53e65e" xml:id="i-9d681789d090a200-1" prev="i-0632a9b57ff88881-1" n="58f6fb7f">
+          <u who="arthur_engberg_53e65e" xml:id="i-58f6fb7f823b8995-5" prev="i-58f6fb7f823b8995-4" n="58f6fb7f">
             <seg n="2b0503f9">
               Ang. högre allmänt läroverk i Haparanda. (Forts.) - som på något
               sätt kunde rubba skolöverstyrelsens ståndpunkt. Är det någon av
@@ -3258,6 +3298,11 @@
               där uppe. Vid sådant förhållande änka jag anse, att det skäl,
               som herr Holmdahl här förde i fält, icke är håll-
             </seg>
+          </u>
+          <note n="104fabbd">
+            art.
+          </note>
+          <u who="arthur_engberg_53e65e" xml:id="i-58f6fb7f823b8995-6" prev="i-58f6fb7f823b8995-4" n="58f6fb7f">
             <seg n="44e08747">
               När herr Holmdahl i början sade, att detta bara var en obetydlig
               detalj, så visar dock hela fullföljandet av hans polemik, att
@@ -3267,13 +3312,10 @@
               jag kammaren fästa avseende vid.
             </seg>
           </u>
-          <note n="104fabbd">
-            art.
-          </note>
           <note type="speaker" n="12ec0b0e">
             Herr Magnusson i Skövde:
           </note>
-          <u who="karl_magnusson_942538" xml:id="i-fecf6f3feefe1766-0" next="i-b4c340b36eeb610d-0" n="aec529f0">
+          <u who="karl_magnusson_942538" xml:id="i-b12bb9cae1059605-0" next="i-b12bb9cae1059605-1" n="aec529f0">
             <seg n="76751e42">
               Herr talman! Jag skulle icke ha uppträtt 1 denna debatt, om icke
               ett avstående från begärda rätten att tala till äventyrs skulle
@@ -3293,10 +3335,10 @@
             </seg>
           </u>
           <pb n="38" facs="https://betalab.kb.se/prot-1935--ak--19/prot_1935__ak__19-038.jp2/_view"/>
-          <note n="e4ae018a">
+          <note type="date" n="636baf28">
             Lördagen den 16 mars. Nr 19. 39
           </note>
-          <u who="karl_magnusson_942538" xml:id="i-b4c340b36eeb610d-0" prev="i-fecf6f3feefe1766-0" n="aec529f0">
+          <u who="karl_magnusson_942538" xml:id="i-b12bb9cae1059605-1" prev="i-b12bb9cae1059605-0" n="aec529f0">
             <seg n="57444093">
               Ang. högre allmänt läroverk i Haparanda. (Forts.) tillräckligt
               sakkunnigt, lämnar jag därhän. Men jag skulle också vilja ifrågasätta,
@@ -3332,7 +3374,7 @@
           <note type="speaker" n="0a987d26">
             Herr Hage:
           </note>
-          <u who="ernst_hage_3db714" xml:id="i-a160fac9c771d901-0" n="8f698415">
+          <u who="ernst_hage_3db714" xml:id="i-8f6984150feca941-3" n="8f698415">
             <seg n="7d19624e">
               Herr talman! Jag skulle icke ha begärt ordet, om det icke varit
               så, att herr statsrådet hade riktat en direkt fråga till mig.
@@ -3374,17 +3416,17 @@
           <note type="speaker" n="84d4e27f">
             Herr Persson i Falla:
           </note>
-          <u who="swen_persson_206517" xml:id="i-cf21e3a9f4dfa6d4-0" next="i-db7e2ab7006080e1-0" n="2cb9947b">
+          <u who="swen_persson_206517" xml:id="i-94453ce8564d2dc0-0" next="i-94453ce8564d2dc0-1" n="2cb9947b">
             <seg n="4adc646b">
               Herr talman! Såsom här förut har erinrats, har denna fråga icke
               den stora betydelse, som den debatt, som här har upp-
             </seg>
           </u>
           <pb n="39" facs="https://betalab.kb.se/prot-1935--ak--19/prot_1935__ak__19-039.jp2/_view"/>
-          <note n="c43fdcd3">
+          <note type="date" n="2737f33c">
             40 Nr 19. Lördagen den 16 mars.
           </note>
-          <u who="swen_persson_206517" xml:id="i-db7e2ab7006080e1-0" prev="i-cf21e3a9f4dfa6d4-0" n="2cb9947b">
+          <u who="swen_persson_206517" xml:id="i-94453ce8564d2dc0-1" prev="i-94453ce8564d2dc0-0" n="2cb9947b">
             <seg n="ef8ec913">
               Ang. högre allmänt läroverk i Haparanda. (Forts.) rullats, närmast
               skulle kunna få en att tro. Frågan har mycket begränsad räckvidd,
@@ -3435,7 +3477,7 @@
           <note type="speaker" n="9c79d829">
             Herr Nyblom:
           </note>
-          <u who="georg_nyblom_e8b201" xml:id="i-5b39870444e9e566-0" next="i-6a3d2167d9bab194-0" n="229cc34b">
+          <u who="georg_nyblom_e8b201" xml:id="i-229cc34bc53996b2-0" next="i-229cc34bc53996b2-1" n="229cc34b">
             <seg n="901be44d">
               Herr talman! Jag är för min del ganska förvånad över att man
               här har tagit upp en så stor strid i en fråga, som i själva verket
@@ -3461,10 +3503,10 @@
             </seg>
           </u>
           <pb n="40" facs="https://betalab.kb.se/prot-1935--ak--19/prot_1935__ak__19-040.jp2/_view"/>
-          <note n="ceacd8b1">
+          <note type="date" n="64b34146">
             Lördagen den 16 mars. Nr 19. 41
           </note>
-          <u who="georg_nyblom_e8b201" xml:id="i-6a3d2167d9bab194-0" prev="i-5b39870444e9e566-0" n="229cc34b">
+          <u who="georg_nyblom_e8b201" xml:id="i-229cc34bc53996b2-1" prev="i-229cc34bc53996b2-0" n="229cc34b">
             <seg n="c90b3df7">
               Ang. högre allmänt läroverk i Haparanda. (Forts.) därför icke
               skall i onödan taga upp en strid om denna sak, som redan är avgjord
@@ -3481,7 +3523,7 @@
           <note type="speaker" n="36988af1">
             Herr Anderson i Råstock:
           </note>
-          <u who="erik_anderson_274172" xml:id="i-c2b734bbccb51282-0" n="7a90ea82">
+          <u who="erik_anderson_274172" xml:id="i-ec8acc9b595b1781-2" n="7a90ea82">
             <seg n="fbc4484b">
               Herr talman! Min ärade länskamrat på Örebrobänken tog förfärligt
               illa vid sig av det enkla konstaterande, som statsrådet Engberg
@@ -3496,7 +3538,7 @@
           <note type="speaker" n="2db4cf8d">
             Herr Svensson i Grönvik:
           </note>
-          <u who="martin_svensson_8ed440" xml:id="i-f5aa9a11a24f92f4-0" n="ceb52a7a">
+          <u who="martin_svensson_8ed440" xml:id="i-1fcc838563bb365d-2" n="ceb52a7a">
             <seg n="cef21d61">
               Herr talman! Jag vill uttrycka min förvåning över att den här
               frågan, som egentligen är en praktisk tillämpningsfråga, kommit
@@ -3532,7 +3574,7 @@
           <note type="speaker" n="84d4e27f">
             Herr Persson i Falla:
           </note>
-          <u who="swen_persson_206517" xml:id="i-cf21e3a9f4dfa6d4-1" next="i-db7e2ab7006080e1-1" n="2cb9947b">
+          <u who="swen_persson_206517" xml:id="i-94453ce8564d2dc0-2" next="i-94453ce8564d2dc0-3" n="2cb9947b">
             <seg n="0c00bf2e">
               Herr talman! Det var endast ett yttrande, som efter mitt första
               anförande fälldes av statsutskottets ärade ordförande och som
@@ -3557,13 +3599,13 @@
           <note n="a3fa7a26">
             Ang. statens övertagande av Gävle Ockelbo järnväg m. m.
           </note>
-          <note n="bb73b719">
+          <note type="date" n="16ba8430">
             42 Nr 19. Lördagen den 16 mars.
           </note>
           <note n="ed62b1a0">
             Ang. högre allmänt läroverk i Haparanda. (Forts.)
           </note>
-          <u who="swen_persson_206517" xml:id="i-db7e2ab7006080e1-1" prev="i-cf21e3a9f4dfa6d4-1" n="2cb9947b">
+          <u who="swen_persson_206517" xml:id="i-94453ce8564d2dc0-3" prev="i-94453ce8564d2dc0-2" n="2cb9947b">
             <seg n="158c849d">
               Så skulle jag vilja säga ett ord till. Vi känna alla den parlamentariska
               maktställning statsutskottets ärade ordförande har och hur hårdhänt
@@ -3576,7 +3618,7 @@
           <note type="speaker" n="0b530ad2">
             Herr Annderson i Råstock:
           </note>
-          <u who="unknown" xml:id="i-e8b24f3ea676b40e-2" n="916a03cc">
+          <u who="unknown" xml:id="i-916a03cc4d2e57ee-12" n="916a03cc">
             <seg n="c69f688c">
               Herr talman! Jag tror, att i denna lilla replikväxling det är
               svårt att göra skillnad i sistnämnda avseende mellan herr Persson
@@ -3632,7 +3674,7 @@
             av väckta motioner om statens övertagande av Gävle—Ockelbo järnväg
             m. m. Därvid an-
           </note>
-          <u who="unknown" xml:id="i-d894e12effbfba6b-2" n="916a03cc">
+          <u who="unknown" xml:id="i-916a03cc4d2e57ee-13" n="916a03cc">
             <seg n="76307eec">
               förde:
             </seg>
@@ -3640,7 +3682,7 @@
           <note type="speaker" n="ede49e88">
             Herr Olsson i Gävle:
           </note>
-          <u who="oscar_olsson_600f9e" xml:id="i-8761d2bfb0363ebb-2" next="i-bf71ddd255980bdf-2" n="3ecff473">
+          <u who="oscar_olsson_600f9e" xml:id="i-1e3856d600a640ea-6" next="i-1e3856d600a640ea-7" n="3ecff473">
             <seg n="0616ec41">
               Herr talman! Det är icke min avsikt att ställa något yrkande
               i anledning av statsutskottets hemställan på grund av den motion,
@@ -3656,10 +3698,10 @@
             </seg>
           </u>
           <pb n="42" facs="https://betalab.kb.se/prot-1935--ak--19/prot_1935__ak__19-042.jp2/_view"/>
-          <note n="487e3137">
+          <note type="date" n="b3992ae8">
             Lördagen den 16 mars. Nr 19. 43
           </note>
-          <u who="oscar_olsson_600f9e" xml:id="i-bf71ddd255980bdf-2" prev="i-8761d2bfb0363ebb-2" n="3ecff473">
+          <u who="oscar_olsson_600f9e" xml:id="i-1e3856d600a640ea-7" prev="i-1e3856d600a640ea-6" n="3ecff473">
             <seg n="6908c4f7">
               Ang. statens övertagande av Gävle—Ockelbo järnväg m. m. (Forts.)
               omprövning man skall söka låta den omfatta allt, som kan komma
@@ -3722,7 +3764,7 @@
           <note type="speaker" n="829d5ed1">
             Chefen för kommunikationsdepartementet, herr statsrådet Leo:
           </note>
-          <u who="unknown" xml:id="i-e8b24f3ea676b40e-3" n="916a03cc">
+          <u who="unknown" xml:id="i-916a03cc4d2e57ee-14" n="916a03cc">
             <seg n="63db3d66">
               Herr talman! TI anledning av vad herr Olsson i Gävle yttrat vill
               jag bara säga, att det är självfallet, att frågan kommer att bliva
@@ -3739,27 +3781,15 @@
             </seg>
           </u>
           <pb n="43" facs="https://betalab.kb.se/prot-1935--ak--19/prot_1935__ak__19-043.jp2/_view"/>
-          <note n="c9be6249">
+          <note type="date" n="66cc722c">
             44 Nr 19. Lördagen den 16 mars.
           </note>
-          <u who="unknown" xml:id="i-d894e12effbfba6b-3" n="916a03cc">
+          <u who="unknown" xml:id="i-916a03cc4d2e57ee-15" n="916a03cc">
             <seg n="2434219a">
               Ang. statens övertagande av Gävle—Ockelbo järnväg m. m. (Forts.)
               statsbana utan en enskild järnväg och att man icke kan utan vidare
               ålägga vare sig järnvägsstyrelsen eller staten att taga på sig
               kostnader för driftens fortsatta upphållande.
-            </seg>
-            <seg n="f183e1ac">
-              Slutligen föredrogos vart för sig första lagutskottets utlåtanden:
-            </seg>
-            <seg n="7ea9d5f8">
-              $ 15. Justerades protokollsutdrag. $ 16. Ledighet från riksdagsgöromålen
-              beviljades: herr Johansson i Djursnäs under 2 dagar fr.o.m. den
-              18 mars, &gt; Landgren &gt; 2 &gt; &gt; &gt; 18 &gt; &gt; Björklund &gt; 4 &gt; &gt; &gt; 18 &gt;
-              &gt; Englund 2 11 &gt; &gt; &gt; 20 &gt; &gt; Bäcklund &gt; 4 &gt; &gt; &gt; 16 &gt;» &gt; Mårtensson
-              &gt; 5 &gt; &gt; &gt; 18 &gt; &gt; Törnkvist i Karlskrona &gt; (OR &gt; &gt; 20 &gt; &gt; Nilsson
-              i Hörby &gt; 2 a &gt; &gt; 17 &gt; &gt; Holmström &gt; 3 &gt;» &gt; &gt; 17 &gt; &gt; Hage » 3
-              » » &gt; 17 &gt; och &gt; Jacobsson &gt; 2 &gt; &gt; &gt; 17 &gt;
             </seg>
           </u>
           <note n="dca16436">
@@ -3768,6 +3798,11 @@
           <note n="8a9a69fd">
             $ 12.
           </note>
+          <u who="unknown" xml:id="i-916a03cc4d2e57ee-16" n="916a03cc">
+            <seg n="f183e1ac">
+              Slutligen föredrogos vart för sig första lagutskottets utlåtanden:
+            </seg>
+          </u>
           <note n="b83477ab">
             nr 22, i anledning av Kungl. Maj:ts proposition med förslag till
             lag angående ändrad lydelse av 77, 78 och 79 $$ lagen den 12 maj
@@ -3846,7 +3881,7 @@
             i vissa fall till mejerikonsulent med delaktighet i statens pensionsanstalt;
           </note>
           <pb n="44" facs="https://betalab.kb.se/prot-1935--ak--19/prot_1935__ak__19-044.jp2/_view"/>
-          <note n="6e755ac7">
+          <note type="date" n="9e0c6db9">
             Lördagen den 16 mars. Nr 19. 45
           </note>
           <note n="07cba3d8">
@@ -3911,6 +3946,17 @@
             nr 26, i anledning av väckt motion om revision av lagen om ekonomiska
             föreningar.
           </note>
+          <u who="unknown" xml:id="i-916a03cc4d2e57ee-17" n="916a03cc">
+            <seg n="7ea9d5f8">
+              $ 15. Justerades protokollsutdrag. $ 16. Ledighet från riksdagsgöromålen
+              beviljades: herr Johansson i Djursnäs under 2 dagar fr.o.m. den
+              18 mars, &gt; Landgren &gt; 2 &gt; &gt; &gt; 18 &gt; &gt; Björklund &gt; 4 &gt; &gt; &gt; 18 &gt;
+              &gt; Englund 2 11 &gt; &gt; &gt; 20 &gt; &gt; Bäcklund &gt; 4 &gt; &gt; &gt; 16 &gt;» &gt; Mårtensson
+              &gt; 5 &gt; &gt; &gt; 18 &gt; &gt; Törnkvist i Karlskrona &gt; (OR &gt; &gt; 20 &gt; &gt; Nilsson
+              i Hörby &gt; 2 a &gt; &gt; 17 &gt; &gt; Holmström &gt; 3 &gt;» &gt; &gt; 17 &gt; &gt; Hage » 3
+              » » &gt; 17 &gt; och &gt; Jacobsson &gt; 2 &gt; &gt; &gt; 17 &gt;
+            </seg>
+          </u>
           <note n="2f1b0364">
             Kammarens ledamöter åtskildes härefter kl. 2.24 e. m.
           </note>

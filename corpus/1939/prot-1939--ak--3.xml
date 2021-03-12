@@ -20,7 +20,7 @@
     <encodingDesc>
       <editorialDecl>
         <correction>
-          <p>Some data curation was done. It is documented in db/curation/instances</p>
+          <p>Some data curation was done. It is documented in input/curation/instances</p>
         </correction>
       </editorialDecl>
     </encodingDesc>
@@ -52,17 +52,19 @@
       <front>
         <div type="preface">
           <head>prot-1939--ak--3</head>
-          <docDate when="1939">1939</docDate>
+          <docDate when="1939-01-16">1939-01-16</docDate>
+          <docDate when="1939-01-17">1939-01-17</docDate>
         </div>
       </front>
       <body>
         <div>
+          <pb n="0" facs="https://betalab.kb.se/prot-1939--ak--3/prot_1939__ak__3-000.jp2/_view"/>
           <note n="bfd088a3">
             RIKSDAGENS PROTOKOLL. 1939. Andra kammaren. Nr 3.
           </note>
           <note n="7e2f5ed6"/>
           <note n="7e2f5ed6"/>
-          <note n="87d31fa8">
+          <note type="date" n="7bc9f4cb">
             Måndagen den 16 januari. Kl. 11 f. m.
           </note>
           <note n="692e18ae">
@@ -142,7 +144,7 @@
             Andra kammarens protokoll 1939. Nr 3. 1
           </note>
           <pb n="1" facs="https://betalab.kb.se/prot-1939--ak--3/prot_1939__ak__3-001.jp2/_view"/>
-          <note n="b3f5735e">
+          <note type="date" n="54cf0eb9">
             2 Nr 3. Måndagen den 16 januari 1939.
           </note>
           <note n="45514b5b">
@@ -236,7 +238,7 @@
           <note type="speaker" n="e805bbea">
             Herr statsrådet Wigforss avlämnade Kungl. Maj:
           </note>
-          <u who="ernst_wigforss_881974" xml:id="i-b679c6f066a3331b-0" n="5e85f0ac">
+          <u who="ernst_wigforss_881974" xml:id="i-5e85f0ac0277bace-0" n="5e85f0ac">
             <seg n="b6d65693">
               ts propositioner:
             </seg>
@@ -247,7 +249,7 @@
             skatt å vissa lotterivinster;
           </note>
           <pb n="2" facs="https://betalab.kb.se/prot-1939--ak--3/prot_1939__ak__3-002.jp2/_view"/>
-          <note n="a493f003">
+          <note type="date" n="2f76e695">
             Måndagen den 16 januari 1939. Nr 3. 3
           </note>
           <note n="96b1852c">
@@ -326,7 +328,7 @@
             » Paulsen, » Holmgren, » Andersson i Falkenberg,
           </note>
           <pb n="3" facs="https://betalab.kb.se/prot-1939--ak--3/prot_1939__ak__3-003.jp2/_view"/>
-          <note n="b9fb7c04">
+          <note type="date" n="73221c51">
             4 Nr 3. Måndagen den 16 januari 1939.
           </note>
           <note n="b7de0ff9">
@@ -413,7 +415,7 @@
             Dessa personer hade alltså utsetts till ledamöter i utskottet.
           </note>
           <pb n="4" facs="https://betalab.kb.se/prot-1939--ak--3/prot_1939__ak__3-004.jp2/_view"/>
-          <note n="1f105f9c">
+          <note type="date" n="29df1f97">
             Måndagen den 16 januari 1939. Nr 3. 5
           </note>
           <note n="94a19569">
@@ -511,7 +513,7 @@
             för tiden 1 juli 1937—30 juni 1938 m. m.
           </note>
           <pb n="5" facs="https://betalab.kb.se/prot-1939--ak--3/prot_1939__ak__3-005.jp2/_view"/>
-          <note n="c89c5c4f">
+          <note type="date" n="2e48f690">
             6 Nr 3. Måndagen den 16 januari 1939.
           </note>
           <note n="121bd654">
@@ -549,7 +551,7 @@
             Herr talmannen lämnade ordet till herr förste vice talmannen,
             som yttrade:
           </note>
-          <u who="unknown" xml:id="i-948e95ffbe51a05c-0" n="965c364d">
+          <u who="unknown" xml:id="i-965c364def3807c6-0" n="965c364d">
             <seg n="3a3639db">
               Herr talman! Jag tillåter mig hemställa, att Kungl. Maj:ts propositioner
               nr 1, angående statsverkets tillstånd och behov under budgetåret
@@ -598,7 +600,7 @@
             krigsrådet L. Norrman och jur. kand. M. D. Hjertstrand;
           </note>
           <pb n="6" facs="https://betalab.kb.se/prot-1939--ak--3/prot_1939__ak__3-006.jp2/_view"/>
-          <note n="373fed45">
+          <note type="date" n="d28512e0">
             Måndagen den 16 januari 1939. Nr 3. 7
           </note>
           <note n="193f88c9">
@@ -627,13 +629,9 @@
             skicklighet såsom stenografer; och blev alltså frågan om besättandet
             av dessa båda tjänster tills vidare uppskjuten.
           </note>
-          <u who="unknown" xml:id="i-a142b779a8c5ef61-0" n="965c364d">
+          <u who="unknown" xml:id="i-965c364def3807c6-1" n="965c364d">
             <seg n="629885a5">
               Ät kanslisten Gärdin uppdrogs att föra kammarens diarier.
-            </seg>
-            <seg n="609276c4">
-              Det skulle åligga de antagna vaktmästarna att vid behov och i
-              den mån så ske kunde utföra jämväl annan tjänstgöring hos riksdagen.
             </seg>
           </u>
           <note n="aed4ba44">
@@ -668,8 +666,14 @@
             Till förste vaktmästare förordnades Carlberg, och åt Hellborg
             uppdrogs att ombestyra utdelning av ankommande postförsändelser.
           </note>
+          <u who="unknown" xml:id="i-965c364def3807c6-2" n="965c364d">
+            <seg n="609276c4">
+              Det skulle åligga de antagna vaktmästarna att vid behov och i
+              den mån så ske kunde utföra jämväl annan tjänstgöring hos riksdagen.
+            </seg>
+          </u>
           <pb n="7" facs="https://betalab.kb.se/prot-1939--ak--3/prot_1939__ak__3-007.jp2/_view"/>
-          <note n="d5a16099">
+          <note type="date" n="ad6da9cc">
             8 Nr 3. Måndagen den 16 januari 1939.
           </note>
           <note n="64117640">
@@ -723,7 +727,7 @@
           <note type="speaker" n="0dcfd2d4">
             herr Karlsson i Grängesberg:
           </note>
-          <u who="karl_karlsson_32ad04" xml:id="i-a27bb6dc94655592-0" n="15aa8d4f">
+          <u who="karl_karlsson_32ad04" xml:id="i-c194a7fb2266655f-0" n="15aa8d4f">
             <seg n="8acdabdf">
               .
             </seg>
@@ -755,7 +759,7 @@
           <note type="speaker" n="2668138c">
             herr Holmbäck:
           </note>
-          <u who="ake_holmback_b1ec7c" xml:id="i-389d3f7f566e1c7e-0" n="1bf7450a"/>
+          <u who="ake_holmback_b1ec7c" xml:id="i-1bf7450aee129de9-0" n="1bf7450a"/>
           <note n="49119e91">
             nr 15, om löneklassberäkning för vaktmästaren vid botaniska institutionen
             vid universitetet i Uppsala P. A. Pettersson; och
@@ -774,7 +778,7 @@
             med lättare utländska viner;
           </note>
           <pb n="8" facs="https://betalab.kb.se/prot-1939--ak--3/prot_1939__ak__3-008.jp2/_view"/>
-          <note n="c50f71c5">
+          <note type="date" n="c45d855c">
             Måndagen den 16 januari 1939. Nr 3. 9
           </note>
           <note n="034dc050">
@@ -799,7 +803,7 @@
           <note type="speaker" n="3f0c041d">
             herr Nyblom:
           </note>
-          <u who="georg_nyblom_f3f1ef" xml:id="i-d9e741f8583256c6-0" n="e4b284e3"/>
+          <u who="georg_nyblom_f3f1ef" xml:id="i-e4b284e3c75e1ef3-0" n="e4b284e3"/>
           <note n="a711892c">
             nr 23, angående anordnande av ett statens emissionsinstitut med
             ensamrätt att i landet emittera vissa obligationer; och
@@ -823,7 +827,7 @@
           <note type="speaker" n="f07daeae">
             herr Hagberg i Luleå m. fl.:
           </note>
-          <u who="hilding_hagberg_50faf1" xml:id="i-ef630b09a44af12d-0" n="8e0ea7b6"/>
+          <u who="hilding_hagberg_50faf1" xml:id="i-8e0ea7b6a225d9d3-0" n="8e0ea7b6"/>
           <note n="a319a893">
             nr 28, om vissa ändringar i förordningen om erkända arbetslöshetskassor;
           </note>
@@ -843,7 +847,7 @@
           <note type="speaker" n="01fd9ee8">
             herr Herou m. fl.:
           </note>
-          <u who="viktor_herou_a176dc" xml:id="i-5dbfa58dfe5d23ca-0" next="i-39ef1da578d4bb78-0" n="6f7181c0"/>
+          <u who="viktor_herou_a176dc" xml:id="i-6f7181c05c2c7804-0" next="i-6f7181c05c2c7804-2" n="6f7181c0"/>
           <note n="73d610c6">
             nr 32, om höjning av anslaget för bidrag till nyodling, betesförbättring,
             stenröjning och jordkörning å ofullständiga jordbruk; och
@@ -870,10 +874,10 @@
             Sune Norrman.
           </note>
           <pb n="9" facs="https://betalab.kb.se/prot-1939--ak--3/prot_1939__ak__3-009.jp2/_view"/>
-          <note n="fc178e93">
+          <note type="date" n="460ce89c">
             10 Nr 3. Tisdagen den 17 januari 1939.
           </note>
-          <note n="715a1871">
+          <note type="date" n="0f037fce">
             Tisdagen den 17 januari. Kl. 11 f. m.
           </note>
           <note n="7c9fbcaa">
@@ -930,7 +934,7 @@
             » Nilsson i Steneberg, » Hellberg,
           </note>
           <pb n="10" facs="https://betalab.kb.se/prot-1939--ak--3/prot_1939__ak__3-010.jp2/_view"/>
-          <note n="17a18a23">
+          <note type="date" n="a9f0bb98">
             Tisdagen den 17 januari 1939. Nr 3. 11
           </note>
           <note n="b1105b0f">
@@ -997,19 +1001,16 @@
             » Olsson i Kullenbergstorp, &gt;» Karlsson i Grängesberg, &gt; Thorell
             och
           </note>
-          <u who="viktor_herou_a176dc" xml:id="i-39ef1da578d4bb78-0" prev="i-5dbfa58dfe5d23ca-0" n="6f7181c0">
+          <u who="viktor_herou_a176dc" xml:id="i-6f7181c05c2c7804-1" prev="i-6f7181c05c2c7804-0" n="6f7181c0">
             <seg n="d1cf2537">
               » De Geer i Lesjöfors.
-            </seg>
-            <seg n="c5c0ca86">
-              &gt;» Lundbom,
             </seg>
           </u>
           <note n="a95a2028">
             Dessa personer hade alltså utsetts till suppleanter i utskottet.
           </note>
           <pb n="11" facs="https://betalab.kb.se/prot-1939--ak--3/prot_1939__ak__3-011.jp2/_view"/>
-          <note n="9c91d976">
+          <note type="date" n="9c6775ae">
             12 Nr 3. Tisdagen den 17 januari 1939.
           </note>
           <note n="832eb0b3">
@@ -1108,7 +1109,7 @@
             » Hansson i Örebro, » Barnekow,
           </note>
           <pb n="12" facs="https://betalab.kb.se/prot-1939--ak--3/prot_1939__ak__3-012.jp2/_view"/>
-          <note n="95ca9a05">
+          <note type="date" n="2abaed44">
             Tisdagen den 17 januari 1939. Nr 3. 13
           </note>
           <note n="67c96096">
@@ -1146,6 +1147,11 @@
           <note n="86b59a88">
             &gt;» Karlsson i Munkedal, » Pettersson i Rosta,
           </note>
+          <u who="viktor_herou_a176dc" xml:id="i-6f7181c05c2c7804-2" prev="i-6f7181c05c2c7804-0" n="6f7181c0">
+            <seg n="c5c0ca86">
+              &gt;» Lundbom,
+            </seg>
+          </u>
           <note n="24c19b6b">
             &gt;» Hilding,
           </note>
@@ -1204,7 +1210,7 @@
             nr 9, med förslag till lag om ändring i vissa delar av vattenlagen;
           </note>
           <pb n="13" facs="https://betalab.kb.se/prot-1939--ak--3/prot_1939__ak__3-013.jp2/_view"/>
-          <note n="1bd7bfc3">
+          <note type="date" n="36c9b870">
             14 Nr 3. Tisdagen den 17 januari 1939.
           </note>
           <note n="bc448886">
@@ -1317,7 +1323,7 @@
             nr 22 av herr Hallén m. fl.;
           </note>
           <pb n="14" facs="https://betalab.kb.se/prot-1939--ak--3/prot_1939__ak__3-014.jp2/_view"/>
-          <note n="9618a8c1">
+          <note type="date" n="96e1f7bc">
             Tisdagen den 17 januari 1939. Nr 3. 15
           </note>
           <note n="994579f3">
@@ -1416,7 +1422,7 @@
             av muloch klövsjukans spridande m. m.;
           </note>
           <pb n="15" facs="https://betalab.kb.se/prot-1939--ak--3/prot_1939__ak__3-015.jp2/_view"/>
-          <note n="9f8d33c9">
+          <note type="date" n="e53a21b8">
             16 Nr 3. Tisdagen den 17 januari 1939.
           </note>
           <note n="3c889fee">

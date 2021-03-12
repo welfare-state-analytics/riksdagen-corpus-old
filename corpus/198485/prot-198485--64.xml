@@ -20,7 +20,7 @@
     <encodingDesc>
       <editorialDecl>
         <correction>
-          <p>Some data curation was done. It is documented in db/curation/instances</p>
+          <p>Some data curation was done. It is documented in input/curation/instances</p>
         </correction>
       </editorialDecl>
     </encodingDesc>
@@ -57,10 +57,12 @@
           <docDate when="1984-01-21">1984-01-21</docDate>
           <docDate when="1984-01-22">1984-01-22</docDate>
           <docDate when="1984-01-23">1984-01-23</docDate>
+          <docDate when="1985-01-18">1985-01-18</docDate>
         </div>
       </front>
       <body>
         <div>
+          <pb n="0" facs="https://betalab.kb.se/prot-198485--64/prot_198485__64-000.jp2/_view"/>
           <note n="312b71f9">
             Riksdagens protokoll
           </note>
@@ -68,7 +70,7 @@
             1984/85:63—67 17-23 januari 1985
           </note>
           <note n="d5c4db26"/>
-          <note n="4851a871">
+          <note type="date" n="55fb667c">
             Debatter m. m. Torsdagen den 17 januari
           </note>
           <note n="0180cabf">
@@ -252,7 +254,7 @@
             i ungdomslag .. 1984/85:362 av Gunilla André (c) om skyldigheten
             för kommun att betala in medel på likviditetskontO .......ss--ssssss&gt;s
           </note>
-          <note n="91edc946">
+          <note type="date" n="010acbde">
             Avgjorda ärenden Måndagen den 21 januari
           </note>
           <note n="46658509">
@@ -292,7 +294,7 @@
           <note n="17703957">
             Nr 64
           </note>
-          <note n="8ba47067">
+          <note type="date" n="eae29f88">
             Fredagen den 18 januari 1985
           </note>
           <note n="f4386b38">
@@ -301,7 +303,7 @@
           <note n="ae4f92b9">
             1984/85:64
           </note>
-          <note n="36a2b2f1">
+          <note type="date" n="6c65c87a">
             Fredagen den 18 januari KL. 10.00
           </note>
           <note n="038e0912">
@@ -361,7 +363,7 @@
           <note n="17703957">
             Nr 64
           </note>
-          <note n="8ba47067">
+          <note type="date" n="eae29f88">
             Fredagen den 18 januari 1985
           </note>
           <note n="f4386b38">
@@ -374,7 +376,7 @@
           <note type="speaker" n="c5e8e6e1">
             Anf. 2 PÄR GRANSTEDT (c):
           </note>
-          <u who="par_granstedt_758505" xml:id="i-a5cdd2b8044f761c-0" next="i-566d0edf7b61ef57-0" n="7a5cc83f">
+          <u who="par_granstedt_758505" xml:id="i-7a5cc83fdd62dc88-0" next="i-7a5cc83fdd62dc88-2" n="7a5cc83f">
             <seg n="516d0659">
               Herr talman! Jag ber att få tacka försvarsministern för svaret
               på min fråga.
@@ -437,7 +439,7 @@
           <note n="b9906182">
             Anf. 3 Försvarsminister ANDERS THUNBORG:
           </note>
-          <u who="par_granstedt_758505" xml:id="i-566d0edf7b61ef57-0" prev="i-a5cdd2b8044f761c-0" n="7a5cc83f">
+          <u who="par_granstedt_758505" xml:id="i-7a5cc83fdd62dc88-1" prev="i-7a5cc83fdd62dc88-0" n="7a5cc83f">
             <seg n="4678869b">
               Herr talman! I Sverige har endast några enstaka fall av senapsgasbomber
               förekommit. Resurserna har hittills räckt och kommer med de nya
@@ -445,7 +447,9 @@
             </seg>
             <seg n="40438348"/>
             <seg n="40438348"/>
-            <seg n="40438348"/>
+          </u>
+          <pb n="7" facs="https://betalab.kb.se/prot-198485--64/prot_198485__64-007.jp2/_view"/>
+          <u who="par_granstedt_758505" xml:id="i-7a5cc83fdd62dc88-2" prev="i-7a5cc83fdd62dc88-0" n="7a5cc83f">
             <seg n="e390e6ed">
               Danskarna har däremot ett stort problem. Under 1984 har man fått
               upp 40-50 bomber, eller hela två ton. Danskarna har också talat
@@ -474,11 +478,10 @@
               vid dessa möten haft ett utbyte av praktiska erfarenheter.
             </seg>
           </u>
-          <pb n="7" facs="https://betalab.kb.se/prot-198485--64/prot_198485__64-007.jp2/_view"/>
           <note type="speaker" n="22856162">
             Anf. 4 PÄR GRANSTEDT (c):
           </note>
-          <u who="par_granstedt_758505" xml:id="i-a5cdd2b8044f761c-1" next="i-566d0edf7b61ef57-1" n="7a5cc83f">
+          <u who="par_granstedt_758505" xml:id="i-7a5cc83fdd62dc88-3" next="i-7a5cc83fdd62dc88-8" n="7a5cc83f">
             <seg n="2c36716d">
               Herr talman! Det var just denna s. k. nöddumpning som föranledde
               min fråga. Det är klart att dumpning är dumpning även om man kallar
@@ -506,15 +509,53 @@
           <note n="ef1438fe">
             Överläggningen var härmed avslutad.
           </note>
-          <u who="par_granstedt_758505" xml:id="i-566d0edf7b61ef57-1" prev="i-a5cdd2b8044f761c-1" n="7a5cc83f">
+          <u who="par_granstedt_758505" xml:id="i-7a5cc83fdd62dc88-4" prev="i-7a5cc83fdd62dc88-3" n="7a5cc83f"/>
+          <note n="17703957">
+            Nr 64
+          </note>
+          <note type="date" n="eae29f88">
+            Fredagen den 18 januari 1985
+          </note>
+          <note n="9e040354">
+            Om förstöring av
+          </note>
+          <u who="par_granstedt_758505" xml:id="i-7a5cc83fdd62dc88-5" prev="i-7a5cc83fdd62dc88-3" n="7a5cc83f">
             <seg n="02dcdcaf">
               gasbomber från andra världskriget
             </seg>
+          </u>
+          <note n="49efa728">
+            61
+          </note>
+          <pb n="8" facs="https://betalab.kb.se/prot-198485--64/prot_198485__64-008.jp2/_view"/>
+          <u who="par_granstedt_758505" xml:id="i-7a5cc83fdd62dc88-6" prev="i-7a5cc83fdd62dc88-3" n="7a5cc83f">
             <seg n="40438348"/>
-            <seg n="40438348"/>
+          </u>
+          <note n="17703957">
+            Nr 64
+          </note>
+          <note type="date" n="eae29f88">
+            Fredagen den 18 januari 1985
+          </note>
+          <note n="edfaea8c">
+            Om åtgärden att ut-
+          </note>
+          <u who="par_granstedt_758505" xml:id="i-7a5cc83fdd62dc88-7" prev="i-7a5cc83fdd62dc88-3" n="7a5cc83f">
             <seg n="043f0502">
               rusta isbrytare med kanoner
             </seg>
+          </u>
+          <note n="11ee73e8">
+            62
+          </note>
+          <note n="4bfff197">
+            4 8 Svar på fråga 1984/85:305 om åtgärden att utrusta isbrytare
+            med kanoner
+          </note>
+          <note n="d1efd9cf">
+            Anf. 5 Försvarsminister ANDERS THUNBORG:
+          </note>
+          <u who="par_granstedt_758505" xml:id="i-7a5cc83fdd62dc88-8" prev="i-7a5cc83fdd62dc88-3" n="7a5cc83f">
             <seg n="416884aa">
               Herr talman! Birger Rosqvist har frågat vilka tankar som ligger
               bakom åtgärden att nu utrusta isbrytarflottan med kanoner.
@@ -540,42 +581,10 @@
               demontera pjäserna i samband med t. ex. krigsförbandsövningar.
             </seg>
           </u>
-          <note n="17703957">
-            Nr 64
-          </note>
-          <note n="8ba47067">
-            Fredagen den 18 januari 1985
-          </note>
-          <note n="9e040354">
-            Om förstöring av
-          </note>
-          <note n="49efa728">
-            61
-          </note>
-          <pb n="8" facs="https://betalab.kb.se/prot-198485--64/prot_198485__64-008.jp2/_view"/>
-          <note n="17703957">
-            Nr 64
-          </note>
-          <note n="8ba47067">
-            Fredagen den 18 januari 1985
-          </note>
-          <note n="edfaea8c">
-            Om åtgärden att ut-
-          </note>
-          <note n="11ee73e8">
-            62
-          </note>
-          <note n="4bfff197">
-            4 8 Svar på fråga 1984/85:305 om åtgärden att utrusta isbrytare
-            med kanoner
-          </note>
-          <note n="d1efd9cf">
-            Anf. 5 Försvarsminister ANDERS THUNBORG:
-          </note>
           <note type="speaker" n="75696f55">
             Anf. 6 BIRGER ROSQVIST (s):
           </note>
-          <u who="birger_rosqvist_109696" xml:id="i-1f0f3aaf5213c701-0" next="i-c7100816f64df421-0" n="3d834f23">
+          <u who="birger_rosqvist_109696" xml:id="i-3d834f232d87e59e-0" next="i-3d834f232d87e59e-3" n="3d834f23">
             <seg n="e828948e">
               Herr talman! Isbrytarna är bra på att bryta is och på att dra
               fartyg genom packis och isvallar. De har stort djupgående och
@@ -612,7 +621,9 @@
             </seg>
             <seg n="40438348"/>
             <seg n="40438348"/>
-            <seg n="40438348"/>
+          </u>
+          <pb n="9" facs="https://betalab.kb.se/prot-198485--64/prot_198485__64-009.jp2/_view"/>
+          <u who="birger_rosqvist_109696" xml:id="i-3d834f232d87e59e-1" prev="i-3d834f232d87e59e-0" n="3d834f23">
             <seg n="1671dc7f">
               Det rör sig om 50-100 man ombord på isbrytarna. Det gäller en
               för — Nr 64 vintertrafiken nödvändig assistansmöjlighet för sjöfarten,
@@ -630,27 +641,28 @@
               Kan vi ta en sådan risk, för att tjäna så litet?
             </seg>
           </u>
-          <pb n="9" facs="https://betalab.kb.se/prot-198485--64/prot_198485__64-009.jp2/_view"/>
-          <note n="8ba47067">
+          <note type="date" n="eae29f88">
             Fredagen den 18 januari 1985
           </note>
-          <u who="birger_rosqvist_109696" xml:id="i-c7100816f64df421-0" prev="i-1f0f3aaf5213c701-0" n="3d834f23">
+          <u who="birger_rosqvist_109696" xml:id="i-3d834f232d87e59e-2" prev="i-3d834f232d87e59e-0" n="3d834f23">
             <seg n="e170fd95">
               Om åtgärden att utrusta isbrytare med kanoner
             </seg>
+          </u>
+          <note n="1bfb508a">
+            Anf. 7 Försvarsminister ANDERS THUNBORG:
+          </note>
+          <u who="birger_rosqvist_109696" xml:id="i-3d834f232d87e59e-3" prev="i-3d834f232d87e59e-0" n="3d834f23">
             <seg n="f721d055">
               Herr talman! Vi skall komma ihåg att vi är i fredstid. Om isbrytarna
               skall komma in i den svenska marinen i en militär situation måste
               det vara krig. Det är ett helt annat läge än det vi nu har.
             </seg>
           </u>
-          <note n="1bfb508a">
-            Anf. 7 Försvarsminister ANDERS THUNBORG:
-          </note>
           <note type="speaker" n="0c8dd17e">
             Anf. 8 BIRGER ROSQVIST (s):
           </note>
-          <u who="birger_rosqvist_109696" xml:id="i-1f0f3aaf5213c701-1" next="i-c7100816f64df421-1" n="3d834f23">
+          <u who="birger_rosqvist_109696" xml:id="i-3d834f232d87e59e-4" next="i-3d834f232d87e59e-8" n="3d834f23">
             <seg n="248ae4d2">
               Herr talman! Men, försvarsministern, nu finns ju kanonerna där.
               De skall inte användas i fredstid utan i krigstid, säger försvarsministern.
@@ -687,12 +699,30 @@
           <note n="1f1e1170">
             63
           </note>
-          <u who="birger_rosqvist_109696" xml:id="i-c7100816f64df421-1" prev="i-1f0f3aaf5213c701-1" n="3d834f23">
+          <u who="birger_rosqvist_109696" xml:id="i-3d834f232d87e59e-5" prev="i-3d834f232d87e59e-4" n="3d834f23"/>
+          <pb n="10" facs="https://betalab.kb.se/prot-198485--64/prot_198485__64-010.jp2/_view"/>
+          <u who="birger_rosqvist_109696" xml:id="i-3d834f232d87e59e-6" prev="i-3d834f232d87e59e-4" n="3d834f23">
             <seg n="40438348"/>
-            <seg n="40438348"/>
+          </u>
+          <note n="17703957">
+            Nr 64
+          </note>
+          <note type="date" n="eae29f88">
+            Fredagen den 18 januari 1985
+          </note>
+          <u who="birger_rosqvist_109696" xml:id="i-3d834f232d87e59e-7" prev="i-3d834f232d87e59e-4" n="3d834f23">
             <seg n="f977f835">
               Om stärkt katastrofberedskap vid utsläpp av giftig gas
             </seg>
+          </u>
+          <note n="3681ee1a">
+            58 Svar på fråga 1984/85:345 om stärkt katastrofberedskap vid
+            utsläpp av giftig gas
+          </note>
+          <note n="1d007811">
+            Anf. 9 Försvarsminister ANDERS THUNBORG:
+          </note>
+          <u who="birger_rosqvist_109696" xml:id="i-3d834f232d87e59e-8" prev="i-3d834f232d87e59e-4" n="3d834f23">
             <seg n="902f9a75">
               Herr talman! Lars Ernestam har frågat vilka åtgärder jag tänker
               vidta för att stärka katastrofberedskapen och motverka olyckor
@@ -733,24 +763,10 @@
               senare år.
             </seg>
           </u>
-          <pb n="10" facs="https://betalab.kb.se/prot-198485--64/prot_198485__64-010.jp2/_view"/>
-          <note n="17703957">
-            Nr 64
-          </note>
-          <note n="8ba47067">
-            Fredagen den 18 januari 1985
-          </note>
-          <note n="3681ee1a">
-            58 Svar på fråga 1984/85:345 om stärkt katastrofberedskap vid
-            utsläpp av giftig gas
-          </note>
-          <note n="1d007811">
-            Anf. 9 Försvarsminister ANDERS THUNBORG:
-          </note>
           <note type="speaker" n="22725e79">
             Anf. 10 LARS ERNESTAM (fp):
           </note>
-          <u who="lars_ernestam_0ffff0" xml:id="i-0c91403700057de6-0" next="i-5fa6c8439a555940-0" n="9cb6a797">
+          <u who="lars_ernestam_0ffff0" xml:id="i-9cb6a797d9efc408-0" next="i-9cb6a797d9efc408-2" n="9cb6a797">
             <seg n="c22c42f8">
               Herr talman! Jag tackar försvarsministern för svaret, som jag
               glädjande nog har fått mycket snabbt — endast en vecka efter det
@@ -776,7 +792,9 @@
             </seg>
             <seg n="40438348"/>
             <seg n="40438348"/>
-            <seg n="40438348"/>
+          </u>
+          <pb n="11" facs="https://betalab.kb.se/prot-198485--64/prot_198485__64-011.jp2/_view"/>
+          <u who="lars_ernestam_0ffff0" xml:id="i-9cb6a797d9efc408-1" prev="i-9cb6a797d9efc408-0" n="9cb6a797">
             <seg n="2c231537">
               som händer i andra länder och förstår att olyckor kan inträffa
               också här i Sverige blir vi oroade. Det finns naturligtvis gaser,
@@ -799,11 +817,10 @@
               bästa resultatet?
             </seg>
           </u>
-          <pb n="11" facs="https://betalab.kb.se/prot-198485--64/prot_198485__64-011.jp2/_view"/>
           <note n="425d238b">
             Anf. 11 Försvarsminister ANDERS THUNBORG:
           </note>
-          <u who="lars_ernestam_0ffff0" xml:id="i-5fa6c8439a555940-0" prev="i-0c91403700057de6-0" n="9cb6a797">
+          <u who="lars_ernestam_0ffff0" xml:id="i-9cb6a797d9efc408-2" prev="i-9cb6a797d9efc408-0" n="9cb6a797">
             <seg n="c1580122">
               Herr talman! När det gäller den nya myndigheten vill jag säga
               till Lars Ernestam: Det viktiga är inte myndigheten i sig — det
@@ -835,7 +852,7 @@
           <note type="speaker" n="79e48a1b">
             Anf. 12 LARS ERNESTAM (fp):
           </note>
-          <u who="lars_ernestam_0ffff0" xml:id="i-0c91403700057de6-1" next="i-5fa6c8439a555940-1" n="9cb6a797">
+          <u who="lars_ernestam_0ffff0" xml:id="i-9cb6a797d9efc408-3" next="i-9cb6a797d9efc408-8" n="9cb6a797">
             <seg n="8e728f34">
               Herr talman! Jag ställde frågan om de centrala ämbetsverken,
               för det finns ganska många sådana som vart och ett har sin pusselbit
@@ -855,13 +872,29 @@
           <note n="08e7d918">
             S Riksdagens protokoll 1984/85:63-67
           </note>
-          <u who="lars_ernestam_0ffff0" xml:id="i-5fa6c8439a555940-1" prev="i-0c91403700057de6-1" n="9cb6a797">
+          <u who="lars_ernestam_0ffff0" xml:id="i-9cb6a797d9efc408-4" prev="i-9cb6a797d9efc408-3" n="9cb6a797"/>
+          <note n="17703957">
+            Nr 64
+          </note>
+          <note type="date" n="eae29f88">
+            Fredagen den 18 januari 1985
+          </note>
+          <u who="lars_ernestam_0ffff0" xml:id="i-9cb6a797d9efc408-5" prev="i-9cb6a797d9efc408-3" n="9cb6a797">
             <seg n="f977f835">
               Om stärkt katastrofberedskap vid utsläpp av giftig gas
             </seg>
+          </u>
+          <pb n="12" facs="https://betalab.kb.se/prot-198485--64/prot_198485__64-012.jp2/_view"/>
+          <u who="lars_ernestam_0ffff0" xml:id="i-9cb6a797d9efc408-6" prev="i-9cb6a797d9efc408-3" n="9cb6a797">
             <seg n="40438348"/>
-            <seg n="40438348"/>
-            <seg n="40438348"/>
+          </u>
+          <note n="17703957">
+            Nr 64
+          </note>
+          <note type="date" n="eae29f88">
+            Fredagen den 18 januari 1985
+          </note>
+          <u who="lars_ernestam_0ffff0" xml:id="i-9cb6a797d9efc408-7" prev="i-9cb6a797d9efc408-3" n="9cb6a797">
             <seg n="5581d6d4">
               Om principerna för statlig upphandling
             </seg>
@@ -874,6 +907,11 @@
               den samordningspunkt där man vid sådana här olyckor snabbt kan
               få fram de riskfaktorer som föreligger?
             </seg>
+          </u>
+          <note n="92ac22ce">
+            Anf. 13 Försvarsminister ANDERS THUNBORG:
+          </note>
+          <u who="lars_ernestam_0ffff0" xml:id="i-9cb6a797d9efc408-8" prev="i-9cb6a797d9efc408-3" n="9cb6a797">
             <seg n="dedfa1bb">
               Herr talman! När Lars Ernestam noterar alla dessa myndigheter
               vill jag säga att jag har gjort precis detsamma. Alla har sin
@@ -883,26 +921,10 @@
               av samordningsaspekten.
             </seg>
           </u>
-          <note n="17703957">
-            Nr 64
-          </note>
-          <note n="8ba47067">
-            Fredagen den 18 januari 1985
-          </note>
-          <pb n="12" facs="https://betalab.kb.se/prot-198485--64/prot_198485__64-012.jp2/_view"/>
-          <note n="17703957">
-            Nr 64
-          </note>
-          <note n="8ba47067">
-            Fredagen den 18 januari 1985
-          </note>
-          <note n="92ac22ce">
-            Anf. 13 Försvarsminister ANDERS THUNBORG:
-          </note>
           <note type="speaker" n="df8408f0">
             Anf. 14 LARS ERNESTAM (fp):
           </note>
-          <u who="lars_ernestam_0ffff0" xml:id="i-0c91403700057de6-2" next="i-5fa6c8439a555940-2" n="9cb6a797">
+          <u who="lars_ernestam_0ffff0" xml:id="i-9cb6a797d9efc408-9" next="i-9cb6a797d9efc408-20" n="9cb6a797">
             <seg n="faccfcc9">
               Herr talman! Jag tackar för den upplysningen.
             </seg>
@@ -931,7 +953,7 @@
           <note n="ce4add3e">
             Anf. 15 Finansminister KJELL-OLOF FELDT:
           </note>
-          <u who="lars_ernestam_0ffff0" xml:id="i-5fa6c8439a555940-2" prev="i-0c91403700057de6-2" n="9cb6a797">
+          <u who="lars_ernestam_0ffff0" xml:id="i-9cb6a797d9efc408-10" prev="i-9cb6a797d9efc408-9" n="9cb6a797">
             <seg n="651aff5d">
               Herr talman! Hans Petersson i Hallstahammar har frågat mig om
               regeringen avser att se över principerna för statlig upphandling,
@@ -952,7 +974,9 @@
             </seg>
             <seg n="40438348"/>
             <seg n="40438348"/>
-            <seg n="40438348"/>
+          </u>
+          <pb n="13" facs="https://betalab.kb.se/prot-198485--64/prot_198485__64-013.jp2/_view"/>
+          <u who="lars_ernestam_0ffff0" xml:id="i-9cb6a797d9efc408-11" prev="i-9cb6a797d9efc408-9" n="9cb6a797">
             <seg n="40438348"/>
             <seg n="e64a0ce2">
               anbudsgivarna och att i övrigt göra bedömningar i enlighet med
@@ -964,6 +988,11 @@
               ger mig anledning att ta initiativ till en ändring av principerna
               för statlig upphandling.
             </seg>
+          </u>
+          <note n="5d57d7bc">
+            Anf. 16 HANS PETERSSON i Hallstahammar (vpk):
+          </note>
+          <u who="lars_ernestam_0ffff0" xml:id="i-9cb6a797d9efc408-12" prev="i-9cb6a797d9efc408-9" n="9cb6a797">
             <seg n="b9240b1f">
               Herr talman! Jag tackar finansministern för svaret.
             </seg>
@@ -1012,6 +1041,11 @@
               om de inte skall omarbetas? Anvisningarnas utformning har ju också
               en viss betydelse.
             </seg>
+          </u>
+          <note n="a3042d84">
+            Anf. 17 Finansminister KJELL-OLOF FELDT:
+          </note>
+          <u who="lars_ernestam_0ffff0" xml:id="i-9cb6a797d9efc408-13" prev="i-9cb6a797d9efc408-9" n="9cb6a797">
             <seg n="f8e89afb">
               Herr talman! För det första vill jag upprepa att jag anser det
               synnerligen olämpligt att vi här i kammaren diskuterar enskilda
@@ -1023,12 +1057,33 @@
               att noggrannare kontrollera uppgifter som han ger spridning åt.
               Han är
             </seg>
+          </u>
+          <note n="17703957">
+            Nr 64
+          </note>
+          <note type="date" n="eae29f88">
+            Fredagen den 18 januari 1985
+          </note>
+          <u who="lars_ernestam_0ffff0" xml:id="i-9cb6a797d9efc408-14" prev="i-9cb6a797d9efc408-9" n="9cb6a797">
             <seg n="5581d6d4">
               Om principerna för statlig upphandling
             </seg>
+          </u>
+          <note n="fb08cd83">
+            67
+          </note>
+          <u who="lars_ernestam_0ffff0" xml:id="i-9cb6a797d9efc408-15" prev="i-9cb6a797d9efc408-9" n="9cb6a797"/>
+          <pb n="14" facs="https://betalab.kb.se/prot-198485--64/prot_198485__64-014.jp2/_view"/>
+          <u who="lars_ernestam_0ffff0" xml:id="i-9cb6a797d9efc408-16" prev="i-9cb6a797d9efc408-9" n="9cb6a797">
             <seg n="40438348"/>
-            <seg n="40438348"/>
-            <seg n="40438348"/>
+          </u>
+          <note n="17703957">
+            Nr 64
+          </note>
+          <note type="date" n="eae29f88">
+            Fredagen den 18 januari 1985
+          </note>
+          <u who="lars_ernestam_0ffff0" xml:id="i-9cb6a797d9efc408-17" prev="i-9cb6a797d9efc408-9" n="9cb6a797">
             <seg n="3770d867">
               Om löntagarfonderna
             </seg>
@@ -1043,6 +1098,11 @@
               statliga upphandlingen skulle vara felaktiga — och det var ju
               detta som Hans Petersson frågade mig om.
             </seg>
+          </u>
+          <note n="07601371">
+            Anf. 18 HANS PETERSSON i Hallstahammar (vpk):
+          </note>
+          <u who="lars_ernestam_0ffff0" xml:id="i-9cb6a797d9efc408-18" prev="i-9cb6a797d9efc408-9" n="9cb6a797">
             <seg n="9d303c63">
               Herr talman! Beträffande kontroll av uppgifterna: Regeringen
               har fått exakt samma uppgifter. Det gäller utlåtanden från Soliditet
@@ -1068,6 +1128,14 @@
               borde kunna se litet djupare på den statliga upphandlingen, eftersom
               man har gjort på detta sätt i det aktuella fallet.
             </seg>
+          </u>
+          <note n="ef1438fe">
+            Överläggningen var härmed avslutad.
+          </note>
+          <note n="0a889a99">
+            7 8 Svar på interpellation 1984/85:79 om löntagarfonderna
+          </note>
+          <u who="lars_ernestam_0ffff0" xml:id="i-9cb6a797d9efc408-19" prev="i-9cb6a797d9efc408-9" n="9cb6a797">
             <seg n="2a6b75d4">
               Anf. 19 Finansminister KJELL-OLOF FELDT: Herr talman! Gunnar
               Hökmark har ställt sex frågor till mig om löntagarfonderna.
@@ -1094,7 +1162,9 @@
             </seg>
             <seg n="40438348"/>
             <seg n="40438348"/>
-            <seg n="40438348"/>
+          </u>
+          <pb n="15" facs="https://betalab.kb.se/prot-198485--64/prot_198485__64-015.jp2/_view"/>
+          <u who="lars_ernestam_0ffff0" xml:id="i-9cb6a797d9efc408-20" prev="i-9cb6a797d9efc408-9" n="9cb6a797">
             <seg n="ff839e38">
               6. Vill finansministern redogöra för fondernas förmögenhetsutveckling
               under det gångna året?
@@ -1158,43 +1228,10 @@
               kan som sagt komma att ske inom några veckor.
             </seg>
           </u>
-          <pb n="13" facs="https://betalab.kb.se/prot-198485--64/prot_198485__64-013.jp2/_view"/>
-          <note n="5d57d7bc">
-            Anf. 16 HANS PETERSSON i Hallstahammar (vpk):
-          </note>
-          <note n="a3042d84">
-            Anf. 17 Finansminister KJELL-OLOF FELDT:
-          </note>
-          <note n="17703957">
-            Nr 64
-          </note>
-          <note n="8ba47067">
-            Fredagen den 18 januari 1985
-          </note>
-          <note n="fb08cd83">
-            67
-          </note>
-          <pb n="14" facs="https://betalab.kb.se/prot-198485--64/prot_198485__64-014.jp2/_view"/>
-          <note n="17703957">
-            Nr 64
-          </note>
-          <note n="8ba47067">
-            Fredagen den 18 januari 1985
-          </note>
-          <note n="07601371">
-            Anf. 18 HANS PETERSSON i Hallstahammar (vpk):
-          </note>
-          <note n="ef1438fe">
-            Överläggningen var härmed avslutad.
-          </note>
-          <note n="0a889a99">
-            7 8 Svar på interpellation 1984/85:79 om löntagarfonderna
-          </note>
-          <pb n="15" facs="https://betalab.kb.se/prot-198485--64/prot_198485__64-015.jp2/_view"/>
           <note type="speaker" n="cb3c9529">
             Anf. 20 GUNNAR HÖKMARK (m):
           </note>
-          <u who="gunnar_hokmark_a83d51" xml:id="i-25c7140c5fbb79f8-0" next="i-e6b0de6aeb3b2bc9-0" n="cd202ef4">
+          <u who="gunnar_hokmark_a83d51" xml:id="i-cd202ef4a4ea2770-0" next="i-cd202ef4a4ea2770-14" n="cd202ef4">
             <seg n="c6e7ec44">
               Herr talman! Först av allt vill jag be att få tacka finansministern
               för hans svar på min interpellation. För debatten om löntagarfonder
@@ -1207,19 +1244,34 @@
           <note n="17703957">
             Nr 64
           </note>
-          <note n="8ba47067">
+          <note type="date" n="eae29f88">
             Fredagen den 18 januari 1985
           </note>
-          <u who="gunnar_hokmark_a83d51" xml:id="i-e6b0de6aeb3b2bc9-0" prev="i-25c7140c5fbb79f8-0" n="cd202ef4">
+          <u who="gunnar_hokmark_a83d51" xml:id="i-cd202ef4a4ea2770-1" prev="i-cd202ef4a4ea2770-0" n="cd202ef4">
             <seg n="3770d867">
               Om löntagarfonderna
             </seg>
             <seg n="40438348"/>
+          </u>
+          <pb n="16" facs="https://betalab.kb.se/prot-198485--64/prot_198485__64-016.jp2/_view"/>
+          <u who="gunnar_hokmark_a83d51" xml:id="i-cd202ef4a4ea2770-2" prev="i-cd202ef4a4ea2770-0" n="cd202ef4">
             <seg n="40438348"/>
-            <seg n="40438348"/>
+          </u>
+          <note n="17703957">
+            Nr 64
+          </note>
+          <note type="date" n="eae29f88">
+            Fredagen den 18 januari 1985
+          </note>
+          <u who="gunnar_hokmark_a83d51" xml:id="i-cd202ef4a4ea2770-3" prev="i-cd202ef4a4ea2770-0" n="cd202ef4">
             <seg n="3770d867">
               Om löntagarfonderna
             </seg>
+          </u>
+          <note n="50c21a6c">
+            70
+          </note>
+          <u who="gunnar_hokmark_a83d51" xml:id="i-cd202ef4a4ea2770-4" prev="i-cd202ef4a4ea2770-0" n="cd202ef4">
             <seg n="fafe66b7">
               tagits mot målen med löntagarfonder, som socialdemokratin utmålade
               dem.
@@ -1290,6 +1342,9 @@
             </seg>
             <seg n="40438348"/>
             <seg n="40438348"/>
+          </u>
+          <pb n="17" facs="https://betalab.kb.se/prot-198485--64/prot_198485__64-017.jp2/_view"/>
+          <u who="gunnar_hokmark_a83d51" xml:id="i-cd202ef4a4ea2770-5" prev="i-cd202ef4a4ea2770-0" n="cd202ef4">
             <seg n="8abba401">
               företag, kan man sälja sin aktie, men till fonderna skall vi
               allesammans tvingas betala.
@@ -1363,12 +1418,42 @@
               fonderna är
             </seg>
             <seg n="40438348"/>
+          </u>
+          <note n="17703957">
+            Nr 64
+          </note>
+          <note type="date" n="eae29f88">
+            Fredagen den 18 januari 1985
+          </note>
+          <note n="4464bad9">
+            Om löntagarfon-
+          </note>
+          <note n="e51af7a3">
+            derna
+          </note>
+          <u who="gunnar_hokmark_a83d51" xml:id="i-cd202ef4a4ea2770-6" prev="i-cd202ef4a4ea2770-0" n="cd202ef4"/>
+          <note n="11b89b93">
+            7n
+          </note>
+          <pb n="18" facs="https://betalab.kb.se/prot-198485--64/prot_198485__64-018.jp2/_view"/>
+          <u who="gunnar_hokmark_a83d51" xml:id="i-cd202ef4a4ea2770-7" prev="i-cd202ef4a4ea2770-0" n="cd202ef4">
             <seg n="40438348"/>
-            <seg n="40438348"/>
-            <seg n="40438348"/>
+          </u>
+          <note n="17703957">
+            Nr 64
+          </note>
+          <note type="date" n="eae29f88">
+            Fredagen den 18 januari 1985
+          </note>
+          <u who="gunnar_hokmark_a83d51" xml:id="i-cd202ef4a4ea2770-8" prev="i-cd202ef4a4ea2770-0" n="cd202ef4">
             <seg n="3770d867">
               Om löntagarfonderna
             </seg>
+          </u>
+          <note n="7017a6d6">
+            72
+          </note>
+          <u who="gunnar_hokmark_a83d51" xml:id="i-cd202ef4a4ea2770-9" prev="i-cd202ef4a4ea2770-0" n="cd202ef4">
             <seg n="943aad27">
               ju rätt så hemliga — är den nyemission som företaget Ljusne Kätting
               gjorde med 10 miljoner till Norrfonden. Företagets VD sitter också
@@ -1426,6 +1511,11 @@
               lovade, någonting annat än den makt till facket som är det egentliga
               syftet med löntagarfonderna.
             </seg>
+          </u>
+          <note n="fc7594ff">
+            Anf. 21 Finansminister KJELL-OLOF FELDT:
+          </note>
+          <u who="gunnar_hokmark_a83d51" xml:id="i-cd202ef4a4ea2770-10" prev="i-cd202ef4a4ea2770-0" n="cd202ef4">
             <seg n="da85699a">
               Herr talman! Jag hyser en viss tvekan inför att gå in i en debatt
               med en slagordsmaskin av typen Gunnar Hökmark. Det mesta av det
@@ -1444,7 +1534,9 @@
             </seg>
             <seg n="40438348"/>
             <seg n="40438348"/>
-            <seg n="40438348"/>
+          </u>
+          <pb n="19" facs="https://betalab.kb.se/prot-198485--64/prot_198485__64-019.jp2/_view"/>
+          <u who="gunnar_hokmark_a83d51" xml:id="i-cd202ef4a4ea2770-11" prev="i-cd202ef4a4ea2770-0" n="cd202ef4">
             <seg n="81defe78">
               uppgifter om enskilda människor, om deras sjukdomar, deras mellanhavanden
               med myndigheterna av sådant slag att det skulle kunna skada dem
@@ -1513,11 +1605,41 @@
               ni inte. Ni vågar
             </seg>
             <seg n="40438348"/>
+          </u>
+          <note n="17703957">
+            Nr 64
+          </note>
+          <note type="date" n="eae29f88">
+            Fredagen den 18 januari 1985
+          </note>
+          <note n="4464bad9">
+            Om löntagarfon-
+          </note>
+          <note n="e51af7a3">
+            derna
+          </note>
+          <note n="2a86f5ea">
+            73
+          </note>
+          <pb n="20" facs="https://betalab.kb.se/prot-198485--64/prot_198485__64-020.jp2/_view"/>
+          <u who="gunnar_hokmark_a83d51" xml:id="i-cd202ef4a4ea2770-12" prev="i-cd202ef4a4ea2770-0" n="cd202ef4">
             <seg n="40438348"/>
-            <seg n="40438348"/>
+          </u>
+          <note n="17703957">
+            Nr 64
+          </note>
+          <note type="date" n="eae29f88">
+            Fredagen den 18 januari 1985
+          </note>
+          <u who="gunnar_hokmark_a83d51" xml:id="i-cd202ef4a4ea2770-13" prev="i-cd202ef4a4ea2770-0" n="cd202ef4">
             <seg n="3770d867">
               Om löntagarfonderna
             </seg>
+          </u>
+          <note n="fc4999bd">
+            74
+          </note>
+          <u who="gunnar_hokmark_a83d51" xml:id="i-cd202ef4a4ea2770-14" prev="i-cd202ef4a4ea2770-0" n="cd202ef4">
             <seg n="c5fdccad">
               aldrig kräva insyn någonstans i det privata maktmaskineriet.
               Det kommer tvärtom ilskna fnysningar i Svenska Dagbladet så fort
@@ -1540,75 +1662,10 @@
               visat.
             </seg>
           </u>
-          <pb n="16" facs="https://betalab.kb.se/prot-198485--64/prot_198485__64-016.jp2/_view"/>
-          <note n="17703957">
-            Nr 64
-          </note>
-          <note n="8ba47067">
-            Fredagen den 18 januari 1985
-          </note>
-          <note n="50c21a6c">
-            70
-          </note>
-          <pb n="17" facs="https://betalab.kb.se/prot-198485--64/prot_198485__64-017.jp2/_view"/>
-          <note n="17703957">
-            Nr 64
-          </note>
-          <note n="8ba47067">
-            Fredagen den 18 januari 1985
-          </note>
-          <note n="4464bad9">
-            Om löntagarfon-
-          </note>
-          <note n="e51af7a3">
-            derna
-          </note>
-          <note n="11b89b93">
-            7n
-          </note>
-          <pb n="18" facs="https://betalab.kb.se/prot-198485--64/prot_198485__64-018.jp2/_view"/>
-          <note n="17703957">
-            Nr 64
-          </note>
-          <note n="8ba47067">
-            Fredagen den 18 januari 1985
-          </note>
-          <note n="7017a6d6">
-            72
-          </note>
-          <note n="fc7594ff">
-            Anf. 21 Finansminister KJELL-OLOF FELDT:
-          </note>
-          <pb n="19" facs="https://betalab.kb.se/prot-198485--64/prot_198485__64-019.jp2/_view"/>
-          <note n="17703957">
-            Nr 64
-          </note>
-          <note n="8ba47067">
-            Fredagen den 18 januari 1985
-          </note>
-          <note n="4464bad9">
-            Om löntagarfon-
-          </note>
-          <note n="e51af7a3">
-            derna
-          </note>
-          <note n="2a86f5ea">
-            73
-          </note>
-          <pb n="20" facs="https://betalab.kb.se/prot-198485--64/prot_198485__64-020.jp2/_view"/>
-          <note n="17703957">
-            Nr 64
-          </note>
-          <note n="8ba47067">
-            Fredagen den 18 januari 1985
-          </note>
-          <note n="fc4999bd">
-            74
-          </note>
           <note type="speaker" n="2afbec01">
             Anf. 22 GUNNAR HÖKMARK (m):
           </note>
-          <u who="gunnar_hokmark_a83d51" xml:id="i-25c7140c5fbb79f8-1" next="i-e6b0de6aeb3b2bc9-1" n="cd202ef4">
+          <u who="gunnar_hokmark_a83d51" xml:id="i-cd202ef4a4ea2770-15" next="i-cd202ef4a4ea2770-41" n="cd202ef4">
             <seg n="a2defce3">
               Herr talman! Jag befann mig i riksdagen när vi samlades för att
               ta emot budgeten från finansministern. Efter att ha hört hans
@@ -1652,7 +1709,9 @@
             </seg>
             <seg n="40438348"/>
             <seg n="40438348"/>
-            <seg n="40438348"/>
+          </u>
+          <pb n="21" facs="https://betalab.kb.se/prot-198485--64/prot_198485__64-021.jp2/_view"/>
+          <u who="gunnar_hokmark_a83d51" xml:id="i-cd202ef4a4ea2770-16" prev="i-cd202ef4a4ea2770-15" n="cd202ef4">
             <seg n="40438348"/>
             <seg n="fcc2c558">
               fredagar och om han anser att någon åtgärd har vidtagits för
@@ -1683,7 +1742,6 @@
               inflytande över företagen?
             </seg>
           </u>
-          <pb n="21" facs="https://betalab.kb.se/prot-198485--64/prot_198485__64-021.jp2/_view"/>
           <note n="ef1438fe">
             Överläggningen var härmed avslutad.
           </note>
@@ -1717,66 +1775,29 @@
           <note n="4f8378f1">
             1984/85:556 till jordbruksutskottet
           </note>
-          <u who="gunnar_hokmark_a83d51" xml:id="i-e6b0de6aeb3b2bc9-1" prev="i-25c7140c5fbb79f8-1" n="cd202ef4">
+          <u who="gunnar_hokmark_a83d51" xml:id="i-cd202ef4a4ea2770-17" prev="i-cd202ef4a4ea2770-15" n="cd202ef4"/>
+          <note n="17703957">
+            Nr 64
+          </note>
+          <note type="date" n="eae29f88">
+            Fredagen den 18 januari 1985
+          </note>
+          <u who="gunnar_hokmark_a83d51" xml:id="i-cd202ef4a4ea2770-18" prev="i-cd202ef4a4ea2770-15" n="cd202ef4">
             <seg n="3770d867">
               Om löntagarfonderna
             </seg>
-            <seg n="40438348"/>
-            <seg n="40438348"/>
-            <seg n="40438348"/>
-            <seg n="40438348"/>
-            <seg n="40438348"/>
-            <seg n="40438348"/>
-            <seg n="7d6565ff">
-              1984/85:595 av Elving Andersson och Kjell Mattsson Förbud för
-              ubåtar att öva inom fiskeområden
-            </seg>
-            <seg n="40438348"/>
-            <seg n="40438348"/>
-            <seg n="580de998">
-              Livsåskådningsfrågor i vårdutbildningen
-            </seg>
-            <seg n="40438348"/>
-            <seg n="40438348"/>
-            <seg n="40438348"/>
-            <seg n="40438348"/>
-            <seg n="50d73c1c">
-              1984/85:623 av Bo Finnkvist och Gunnar Olsson En samordning av
-              regionalpolitiska åtgärder och upprustningen av vägnätet
-            </seg>
-            <seg n="40438348"/>
-            <seg n="40438348"/>
-            <seg n="40438348"/>
-            <seg n="40438348"/>
-            <seg n="40438348"/>
-            <seg n="40438348"/>
-            <seg n="40438348"/>
-            <seg n="0fe1e314">
-              Ytterligare anslag till energisparstöd Fredagen den
-            </seg>
-            <seg n="40438348"/>
-            <seg n="40438348"/>
-            <seg n="40438348"/>
-            <seg n="40438348"/>
-            <seg n="40438348"/>
-            <seg n="40438348"/>
-            <seg n="40438348"/>
+          </u>
+          <note n="62c90796">
+            75
+          </note>
+          <pb n="22" facs="https://betalab.kb.se/prot-198485--64/prot_198485__64-022.jp2/_view"/>
+          <u who="gunnar_hokmark_a83d51" xml:id="i-cd202ef4a4ea2770-19" prev="i-cd202ef4a4ea2770-15" n="cd202ef4">
             <seg n="40438348"/>
           </u>
           <note n="17703957">
             Nr 64
           </note>
-          <note n="8ba47067">
-            Fredagen den 18 januari 1985
-          </note>
-          <note n="62c90796">
-            75
-          </note>
-          <pb n="22" facs="https://betalab.kb.se/prot-198485--64/prot_198485__64-022.jp2/_view"/>
-          <note n="17703957">
-            Nr 64
-          </note>
-          <note n="8ba47067">
+          <note type="date" n="eae29f88">
             Fredagen den 18 januari 1985
           </note>
           <note n="e1d45f27">
@@ -1851,7 +1872,13 @@
           <note n="e3141481">
             1984/85:578 av Knut Wachtmeister Skattefri inkomst från fritidshus
           </note>
+          <u who="gunnar_hokmark_a83d51" xml:id="i-cd202ef4a4ea2770-20" prev="i-cd202ef4a4ea2770-15" n="cd202ef4">
+            <seg n="40438348"/>
+          </u>
           <pb n="23" facs="https://betalab.kb.se/prot-198485--64/prot_198485__64-023.jp2/_view"/>
+          <u who="gunnar_hokmark_a83d51" xml:id="i-cd202ef4a4ea2770-21" prev="i-cd202ef4a4ea2770-15" n="cd202ef4">
+            <seg n="40438348"/>
+          </u>
           <note n="5089576c">
             1984/85:579 av Knut Wachtmeister Nr 64
           </note>
@@ -1910,6 +1937,12 @@
           <note n="c0842dfd">
             1984/85:594 av Ulf Adelsohn m. fl. Säkerhetsoch försvarspolitiken
           </note>
+          <u who="gunnar_hokmark_a83d51" xml:id="i-cd202ef4a4ea2770-22" prev="i-cd202ef4a4ea2770-15" n="cd202ef4">
+            <seg n="7d6565ff">
+              1984/85:595 av Elving Andersson och Kjell Mattsson Förbud för
+              ubåtar att öva inom fiskeområden
+            </seg>
+          </u>
           <note n="02592818">
             1984/85:596 av Gunnar Björk i Gävle m. fl. Olycksfallsfrekvensen
             inom försvarsmakten
@@ -1917,11 +1950,13 @@
           <note n="e4b66300">
             7
           </note>
+          <u who="gunnar_hokmark_a83d51" xml:id="i-cd202ef4a4ea2770-23" prev="i-cd202ef4a4ea2770-15" n="cd202ef4"/>
           <pb n="24" facs="https://betalab.kb.se/prot-198485--64/prot_198485__64-024.jp2/_view"/>
+          <u who="gunnar_hokmark_a83d51" xml:id="i-cd202ef4a4ea2770-24" prev="i-cd202ef4a4ea2770-15" n="cd202ef4"/>
           <note n="17703957">
             Nr 64
           </note>
-          <note n="8ba47067">
+          <note type="date" n="eae29f88">
             Fredagen den 18 januari 1985
           </note>
           <note n="aafe9f65">
@@ -1983,6 +2018,11 @@
           <note n="19de4984">
             -1984/85:611 av Ann-Cathrine Haglund och Birgitta Rydle
           </note>
+          <u who="gunnar_hokmark_a83d51" xml:id="i-cd202ef4a4ea2770-25" prev="i-cd202ef4a4ea2770-15" n="cd202ef4">
+            <seg n="580de998">
+              Livsåskådningsfrågor i vårdutbildningen
+            </seg>
+          </u>
           <note n="f070ba87">
             1984/85:612 av Birgitta Hambraeus m. fl. Vidgade ramar för utbildning
             inom vård-, socialoch konsumtionssektorn
@@ -1994,7 +2034,13 @@
           <note n="c5dc4999">
             1984/85:614 av Marianne Karlsson Den konsumentekonomiska utbildningen
           </note>
+          <u who="gunnar_hokmark_a83d51" xml:id="i-cd202ef4a4ea2770-26" prev="i-cd202ef4a4ea2770-15" n="cd202ef4">
+            <seg n="40438348"/>
+          </u>
           <pb n="25" facs="https://betalab.kb.se/prot-198485--64/prot_198485__64-025.jp2/_view"/>
+          <u who="gunnar_hokmark_a83d51" xml:id="i-cd202ef4a4ea2770-27" prev="i-cd202ef4a4ea2770-15" n="cd202ef4">
+            <seg n="40438348"/>
+          </u>
           <note n="f1aa6651">
             1984/85:615 av Ove Karlsson m. fl. Bibehållande i viss omfattning
             av den ettåriga konsumentekonomiska gymnasielinjen
@@ -2025,6 +2071,12 @@
             1984/85:622 av Kerstin Andersson m. fl. Tåguppehåll i Vårgårda
             m. fl. orter
           </note>
+          <u who="gunnar_hokmark_a83d51" xml:id="i-cd202ef4a4ea2770-28" prev="i-cd202ef4a4ea2770-15" n="cd202ef4">
+            <seg n="50d73c1c">
+              1984/85:623 av Bo Finnkvist och Gunnar Olsson En samordning av
+              regionalpolitiska åtgärder och upprustningen av vägnätet
+            </seg>
+          </u>
           <note n="97356982">
             1984/85:624 av Ingvar Johnsson och Wivi-Anne Radesjö Generellt
             användande av bilbälte
@@ -2059,20 +2111,23 @@
             1984/85:632 av Ivar Franzén och Anna Wohlin-Andersson Åtgärder
             mot kväveläckaget från åkermark
           </note>
+          <u who="gunnar_hokmark_a83d51" xml:id="i-cd202ef4a4ea2770-29" prev="i-cd202ef4a4ea2770-15" n="cd202ef4"/>
           <note n="17703957">
             Nr 64
           </note>
-          <note n="8ba47067">
+          <note type="date" n="eae29f88">
             Fredagen den 18 januari 1985
           </note>
+          <u who="gunnar_hokmark_a83d51" xml:id="i-cd202ef4a4ea2770-30" prev="i-cd202ef4a4ea2770-15" n="cd202ef4"/>
           <note n="76b84083">
             oa
           </note>
           <pb n="26" facs="https://betalab.kb.se/prot-198485--64/prot_198485__64-026.jp2/_view"/>
+          <u who="gunnar_hokmark_a83d51" xml:id="i-cd202ef4a4ea2770-31" prev="i-cd202ef4a4ea2770-15" n="cd202ef4"/>
           <note n="17703957">
             Nr 64
           </note>
-          <note n="8ba47067">
+          <note type="date" n="eae29f88">
             Fredagen den 18 januari 1985
           </note>
           <note n="8ef92cc7">
@@ -2145,10 +2200,21 @@
           <note n="d1967145">
             1984/85:650 av Anna Wohlin-Andersson m. fl. En sammanhållen skärgårdspolitik
           </note>
+          <u who="gunnar_hokmark_a83d51" xml:id="i-cd202ef4a4ea2770-32" prev="i-cd202ef4a4ea2770-15" n="cd202ef4">
+            <seg n="40438348"/>
+          </u>
           <pb n="27" facs="https://betalab.kb.se/prot-198485--64/prot_198485__64-027.jp2/_view"/>
+          <u who="gunnar_hokmark_a83d51" xml:id="i-cd202ef4a4ea2770-33" prev="i-cd202ef4a4ea2770-15" n="cd202ef4">
+            <seg n="40438348"/>
+          </u>
           <note n="3a072342">
             1984/85:651 av Tore Claeson och Larz Johansson Nr 64
           </note>
+          <u who="gunnar_hokmark_a83d51" xml:id="i-cd202ef4a4ea2770-34" prev="i-cd202ef4a4ea2770-15" n="cd202ef4">
+            <seg n="0fe1e314">
+              Ytterligare anslag till energisparstöd Fredagen den
+            </seg>
+          </u>
           <note n="802f14b7">
             1984/85:652 av Margareta Gard 18 januari 1985 Ändring i bostadsfinansieringsförordningen
           </note>
@@ -2214,7 +2280,9 @@
           <note n="645d6401">
             81 6 Riksdagens protokoll 1984/85:63-67
           </note>
+          <u who="gunnar_hokmark_a83d51" xml:id="i-cd202ef4a4ea2770-35" prev="i-cd202ef4a4ea2770-15" n="cd202ef4"/>
           <pb n="28" facs="https://betalab.kb.se/prot-198485--64/prot_198485__64-028.jp2/_view"/>
+          <u who="gunnar_hokmark_a83d51" xml:id="i-cd202ef4a4ea2770-36" prev="i-cd202ef4a4ea2770-15" n="cd202ef4"/>
           <note n="579a2c24">
             Nr 64 1984/85:668 av Thorbjörn Fälldin m. fl.
           </note>
@@ -2231,7 +2299,9 @@
           <note n="7e14e58d">
             82
           </note>
+          <u who="gunnar_hokmark_a83d51" xml:id="i-cd202ef4a4ea2770-37" prev="i-cd202ef4a4ea2770-15" n="cd202ef4"/>
           <pb n="29" facs="https://betalab.kb.se/prot-198485--64/prot_198485__64-029.jp2/_view"/>
+          <u who="gunnar_hokmark_a83d51" xml:id="i-cd202ef4a4ea2770-38" prev="i-cd202ef4a4ea2770-15" n="cd202ef4"/>
           <note n="88d50aad">
             Förteckning över talare 1984/85 (Siffrorna avser sida i protokollen)
             63-67
@@ -2347,10 +2417,12 @@
           <note n="8f9ee073">
             Israelsson, Karin (c) 112 147
           </note>
+          <u who="gunnar_hokmark_a83d51" xml:id="i-cd202ef4a4ea2770-39" prev="i-cd202ef4a4ea2770-15" n="cd202ef4"/>
           <pb n="30" facs="https://betalab.kb.se/prot-198485--64/prot_198485__64-030.jp2/_view"/>
           <note n="acfed265">
             1984/85 63-67
           </note>
+          <u who="gunnar_hokmark_a83d51" xml:id="i-cd202ef4a4ea2770-40" prev="i-cd202ef4a4ea2770-15" n="cd202ef4"/>
           <note n="6a1908f8">
             Johansson, Marie-Ann (vpk) 117, 118, 119 Karlsson, Ingvar, i
             Bengtsfors (c) 103, 104, 105 Lundkvist, Svante, jordbruksminister
@@ -2368,6 +2440,9 @@
           <note n="09c6a6a4">
             minab/gotab Stockholm 1985 79891
           </note>
+          <u who="gunnar_hokmark_a83d51" xml:id="i-cd202ef4a4ea2770-41" prev="i-cd202ef4a4ea2770-15" n="cd202ef4">
+            <seg n="40438348"/>
+          </u>
         </div>
       </body>
     </text>

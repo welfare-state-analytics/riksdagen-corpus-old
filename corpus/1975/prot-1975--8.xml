@@ -20,7 +20,7 @@
     <encodingDesc>
       <editorialDecl>
         <correction>
-          <p>Some data curation was done. It is documented in db/curation/instances</p>
+          <p>Some data curation was done. It is documented in input/curation/instances</p>
         </correction>
       </editorialDecl>
     </encodingDesc>
@@ -61,6 +61,7 @@
       </front>
       <body>
         <div>
+          <pb n="0" facs="https://betalab.kb.se/prot-1975--8/prot_1975__8-000.jp2/_view"/>
           <note n="bfb3acec">
             Riksdagens protokoll
           </note>
@@ -68,7 +69,7 @@
             Nr 8-12 21-27 januari 1975
           </note>
           <note n="6e5e0c40"/>
-          <note n="688eaf81">
+          <note type="date" n="f167c22c">
             Debatter m. m. Tisdagen den 21 januari
           </note>
           <note n="f884372b">
@@ -317,7 +318,7 @@
           <note n="527c1fce">
             Tisdagen den
           </note>
-          <note n="b7b66fe0">
+          <note type="date" n="8050bbbf">
             å ; - 21j i 1975 Tisdagen den 21 januari rr
           </note>
           <note n="4e94f934">
@@ -386,7 +387,7 @@
           <note n="13e8d321">
             Nr 8
           </note>
-          <note n="719e5900">
+          <note type="date" n="8151d5b1">
             Tisdagen den 21 januari 1975
           </note>
           <note n="9e031155">
@@ -572,7 +573,7 @@
           <note n="13e8d321">
             Nr 8
           </note>
-          <note n="719e5900">
+          <note type="date" n="8151d5b1">
             Tisdagen den 21 januari 1975
           </note>
           <pb n="8" facs="https://betalab.kb.se/prot-1975--8/prot_1975__8-008.jp2/_view"/>
@@ -793,14 +794,14 @@
           <note n="13e8d321">
             Nr 8
           </note>
-          <note n="719e5900">
+          <note type="date" n="8151d5b1">
             Tisdagen den 21 januari 1975
           </note>
           <pb n="10" facs="https://betalab.kb.se/prot-1975--8/prot_1975__8-010.jp2/_view"/>
           <note n="13e8d321">
             Nr 8
           </note>
-          <note n="719e5900">
+          <note type="date" n="8151d5b1">
             Tisdagen den 21 januari 1975
           </note>
           <note n="1009a855">
@@ -840,7 +841,7 @@
             Nr 36 av herr Werner i Tyresö (vpk) till herr försvarsministern
             om principerna för export av krigsmateriel:
           </note>
-          <u who="marten_werner_8179f0" xml:id="i-215e039001df1fd6-0" n="001a76d9">
+          <u who="marten_werner_8179f0" xml:id="i-001a76d9e5b57079-0" n="001a76d9">
             <seg n="dd993343">
               Enligt pressuppgifter har den svenska regeringen deklarerat att
               den är redo att sälja Viggen till länder även under tider av krig.
@@ -861,7 +862,7 @@
             Nr 37 av herr Persson i Karlstad (s) till herr utbildningsministern
             om ökat antal AMS-kurser för utbildning av motorfordonsförare:
           </note>
-          <u who="magnus_persson_5f26a2" xml:id="i-7c9ede0aa2e09825-0" n="86141c8c">
+          <u who="magnus_persson_5f26a2" xml:id="i-86141c8ca036f531-0" n="86141c8c">
             <seg n="9247e642">
               Antalet sökande till kurser för utbildning av motorfordonsförare
               har stigit markant under senare tid, och väntetiden för antagning
@@ -883,13 +884,16 @@
             Nr 38 av herr Lorentzon (vpk) till herr kommunministern om tidpunkten
             för tillsättande av landshövding i Västernorrlands län:
           </note>
-          <u who="gustav_lorentzon_f918b6" xml:id="i-0190cbea14bcf570-0" n="c3887a15">
+          <u who="gustav_lorentzon_f918b6" xml:id="i-c3887a15bf922fac-0" next="i-c3887a15bf922fac-1" n="c3887a15">
             <seg n="986fe2b7">
               Sedan en tid har Västernorrlands län varit utan landshövding.
               Under den tidigare landshövdingen Kurt Nordgrens långvariga sjukdom
               och efter dennes bortgång har landshövdingens uppgifter fått skötas
               av un-
             </seg>
+          </u>
+          <pb n="11" facs="https://betalab.kb.se/prot-1975--8/prot_1975__8-011.jp2/_view"/>
+          <u who="gustav_lorentzon_f918b6" xml:id="i-c3887a15bf922fac-1" prev="i-c3887a15bf922fac-0" n="c3887a15">
             <seg n="65cf2b7e">
               derordnade tjänstemän. Västernorrlands län har sysselsättningsmässigt
               oerhörda svårigheter. En landshövdings insatser skulle i detta
@@ -911,12 +915,11 @@
               i Västernorrlands län?
             </seg>
           </u>
-          <pb n="11" facs="https://betalab.kb.se/prot-1975--8/prot_1975__8-011.jp2/_view"/>
           <note type="speaker" n="dde716e8">
             Nr 39 av herr Clarkson (m) till herr jordbruksministern om tillfälligt
             ekonomiskt stöd åt växthusodlarna:
           </note>
-          <u who="rolf_clarkson_70a77e" xml:id="i-f4054f4486121be2-0" next="i-5dd0aadd397fc525-0" n="d7d4e526">
+          <u who="rolf_clarkson_70a77e" xml:id="i-d7d4e5260c89886a-0" next="i-d7d4e5260c89886a-1" n="d7d4e526">
             <seg n="ab67427d">
               Framför allt på grund av de kraftigt ökade oljepriserna har de
               svenska växthusodlarna råkat in i en svår kris. Många länder i
@@ -934,7 +937,7 @@
             Nr 40 av herr Clarkson (m) tili herr kommunikationsministern
             om färjförbindelsen mellan Ystad och Swinouj$scie i Polen:
           </note>
-          <u who="rolf_clarkson_70a77e" xml:id="i-5dd0aadd397fc525-0" prev="i-f4054f4486121be2-0" n="d7d4e526">
+          <u who="rolf_clarkson_70a77e" xml:id="i-d7d4e5260c89886a-1" prev="i-d7d4e5260c89886a-0" n="d7d4e526">
             <seg n="4cd3175e">
               Trafiken mellan Ystad och Swinoujscie kan endast säkerställas
               om reservfärja finnes. SJ har en sådan men ämnar sälja den.
@@ -948,7 +951,7 @@
             Nr 41 av herr Nygren (s) till herr jordbruksministern om de planerade
             kraftverksbyggena i Ångermanälven:
           </note>
-          <u who="arne_nygren_a1f1db" xml:id="i-b9fedfd82f5ae25b-0" next="i-c613ecdc82734bf9-0" n="53f9eaf3">
+          <u who="arne_nygren_a1f1db" xml:id="i-53f9eaf3e985bc3a-0" next="i-53f9eaf3e985bc3a-1" n="53f9eaf3">
             <seg n="1c45f4d7">
               När räknar statsrådet med att ett besked kan meddelas från regeringen
               om byggstart för de planerade kraftverksbyggena i Ångermanälven?
@@ -966,14 +969,14 @@
           <note n="13e8d321">
             Nr 8
           </note>
-          <note n="719e5900">
+          <note type="date" n="8151d5b1">
             Tisdagen den 21 januari 1975
           </note>
           <note n="5fefb065">
             Meddelande om frågor
           </note>
           <pb n="12" facs="https://betalab.kb.se/prot-1975--8/prot_1975__8-012.jp2/_view"/>
-          <u who="arne_nygren_a1f1db" xml:id="i-c613ecdc82734bf9-0" prev="i-b9fedfd82f5ae25b-0" n="53f9eaf3"/>
+          <u who="arne_nygren_a1f1db" xml:id="i-53f9eaf3e985bc3a-1" prev="i-53f9eaf3e985bc3a-0" n="53f9eaf3"/>
           <pb n="13" facs="https://betalab.kb.se/prot-1975--8/prot_1975__8-013.jp2/_view"/>
           <note n="ed94a4ef">
             Förteckning över talare Nr 812 (Siffrorna avser sida i protokollen)
@@ -1001,7 +1004,7 @@
             Malmö (m) 46, 47 "Westberg i Ljusdal (fp) 42 "&gt; Wijkman (m) 34,
             35
           </note>
-          <note n="4e75f351">
+          <note type="date" n="5d83450c">
             Måndagen den 27 januari Herr talmannen 111
           </note>
           <note n="42220e60">

@@ -20,7 +20,7 @@
     <encodingDesc>
       <editorialDecl>
         <correction>
-          <p>Some data curation was done. It is documented in db/curation/instances</p>
+          <p>Some data curation was done. It is documented in input/curation/instances</p>
         </correction>
       </editorialDecl>
     </encodingDesc>
@@ -58,6 +58,7 @@
       </front>
       <body>
         <div>
+          <pb n="0" facs="https://betalab.kb.se/prot-1922--fk--11/prot_1922__fk__11-000.jp2/_view"/>
           <note n="df03bbe3">
             RIKSDAGENS PROTOKOLL.
           </note>
@@ -348,7 +349,7 @@
           <note n="a9e1e9f6">
             ”
           </note>
-          <note n="54b2267d">
+          <note type="date" n="61f8cf41">
             Onsdagen den 22 februari. 3 Nr 1.
           </note>
           <note n="9a8c97b0">
@@ -564,7 +565,7 @@
             ” 29 ”» ,
           </note>
           <pb n="4" facs="https://betalab.kb.se/prot-1922--fk--11/prot_1922__fk__11-004.jp2/_view"/>
-          <note n="a20e7877">
+          <note type="date" n="555bd65c">
             Onsdagen den 22 februari. 5 Nr 1.
           </note>
           <note n="58e911be">
@@ -637,7 +638,7 @@
           <note n="f03b6369">
             Nr 11.
           </note>
-          <note n="d83adcb7">
+          <note type="date" n="d437a3ea">
             6 Onsdagen den 22 februari.
           </note>
           <note n="92c584a2">
@@ -803,7 +804,7 @@
           <note n="f03b6369">
             Nr 11.
           </note>
-          <note n="9564fdb9">
+          <note type="date" n="a2ccc37b">
             8 Onsdagen den 22 februari.
           </note>
           <note n="30c58c98">
@@ -853,7 +854,7 @@
             ÅA. Wachtmeister. Malte Sommelius. Gust. Nilsson. Ant. Wikström.
           </note>
           <pb n="8" facs="https://betalab.kb.se/prot-1922--fk--11/prot_1922__fk__11-008.jp2/_view"/>
-          <note n="100237ab">
+          <note type="date" n="0ba41da5">
             Onsdagen den 22 februari. 9
           </note>
           <note n="daca13a6">
@@ -887,7 +888,7 @@
           <note type="speaker" n="44406038">
             Herr statsrådet Sandler avlämnade Kungl. Maj:
           </note>
-          <u who="rickard_sandler_03eb69" xml:id="i-b5df3afd3c9dc82b-0" next="i-f8c139bafc06d889-0" n="4c568610">
+          <u who="rickard_sandler_03eb69" xml:id="i-4c568610075f9d34-0" next="i-4c568610075f9d34-3" n="4c568610">
             <seg n="ca9d1a8f">
               ts proposition nr 71, angående höjning av kontrollavgifterna
               för guldoch silverarbeten m. m.
@@ -921,13 +922,30 @@
           <note n="b07ce44a">
             Nr 1.
           </note>
-          <u who="rickard_sandler_03eb69" xml:id="i-f8c139bafc06d889-0" prev="i-b5df3afd3c9dc82b-0" n="4c568610">
+          <u who="rickard_sandler_03eb69" xml:id="i-4c568610075f9d34-1" prev="i-4c568610075f9d34-0" n="4c568610">
             <seg n="fe1fcc9d">
               Anslag till vägundersökningar.
             </seg>
+          </u>
+          <pb n="9" facs="https://betalab.kb.se/prot-1922--fk--11/prot_1922__fk__11-009.jp2/_view"/>
+          <note n="f03b6369">
+            Nr 11.
+          </note>
+          <u who="rickard_sandler_03eb69" xml:id="i-4c568610075f9d34-2" prev="i-4c568610075f9d34-0" n="4c568610">
             <seg n="fe1fcc9d">
               Anslag till vägundersökningar.
             </seg>
+          </u>
+          <note n="25f2f59c">
+            (Forts.)
+          </note>
+          <note type="date" n="f755e2fc">
+            10 Onsdagen den 22 februari.
+          </note>
+          <note n="f582b143">
+            Utskottet hade i den nu föredragna punkten yttrat:
+          </note>
+          <u who="rickard_sandler_03eb69" xml:id="i-4c568610075f9d34-3" prev="i-4c568610075f9d34-0" n="4c568610">
             <seg n="504b5702">
               ”Utskottet har icke kunnat tillstyrka att för ifrågavarande ändamål
               under första halvåret 1923 beräknas högre belopp än 105,000 kronor
@@ -939,19 +957,6 @@
               utskottet i nästföljande punkt gör framställning.
             </seg>
           </u>
-          <pb n="9" facs="https://betalab.kb.se/prot-1922--fk--11/prot_1922__fk__11-009.jp2/_view"/>
-          <note n="f03b6369">
-            Nr 11.
-          </note>
-          <note n="25f2f59c">
-            (Forts.)
-          </note>
-          <note n="264a3cf4">
-            10 Onsdagen den 22 februari.
-          </note>
-          <note n="f582b143">
-            Utskottet hade i den nu föredragna punkten yttrat:
-          </note>
           <note n="ac13d2c6">
             Utskottet får nu hemställa, att riksdagen må upptaga det ordinarie
             reservationsanslaget till vägundersökningar, nu 90,000 kronor,
@@ -960,7 +965,7 @@
           <note type="speaker" n="587d611a">
             Herr statsrådet Ör ne:
           </note>
-          <u who="unknown" xml:id="i-a87476b8c3beea4b-0" n="24ccb2f9">
+          <u who="unknown" xml:id="i-24ccb2f93fd35c72-0" n="24ccb2f9">
             <seg n="cc497b4e">
               Herr greve och talman, mina herrar! De nedsättningar, som statsutskottet
               har föreslagit i de av Kungl. Maj:t under sjätte huvudtiteln äskade
@@ -1001,10 +1006,10 @@
             </seg>
           </u>
           <pb n="10" facs="https://betalab.kb.se/prot-1922--fk--11/prot_1922__fk__11-010.jp2/_view"/>
-          <note n="69514d45">
+          <note type="date" n="eb97b2ce">
             Onsdagen den 22 februari. 11
           </note>
-          <u who="unknown" xml:id="i-beda1c5e5c942238-0" n="24ccb2f9">
+          <u who="unknown" xml:id="i-24ccb2f93fd35c72-1" n="24ccb2f9">
             <seg n="2bb5539e">
               undersökningarna borde begränsas: att avse sådana företag, som
               under den närmaste tiden kunde komma till utförande. Vidare måste
@@ -1061,6 +1066,24 @@
               är den förste att ansluta mig till klagomålen i den riktningen.
               Den frikostighet, riksdagen
             </seg>
+          </u>
+          <note n="b07ce44a">
+            Nr 1.
+          </note>
+          <note n="11f2c530">
+            Anslag till vägundersökningar. (Forts.)
+          </note>
+          <pb n="11" facs="https://betalab.kb.se/prot-1922--fk--11/prot_1922__fk__11-011.jp2/_view"/>
+          <note n="4b9b5247">
+            Nr HH.
+          </note>
+          <note n="11f2c530">
+            Anslag till vägundersökningar. (Forts.)
+          </note>
+          <note type="date" n="cf52839f">
+            12 Onsdagen den 22 februari.
+          </note>
+          <u who="unknown" xml:id="i-24ccb2f93fd35c72-2" n="24ccb2f9">
             <seg n="156820f7">
               visat de närmaste föregående åren i fråga om anslag till anläggningar
               av nya vägar, och den högkonjunktur, vari vägbyggnadsarbetena
@@ -1091,26 +1114,10 @@
               har framlagt.
             </seg>
           </u>
-          <note n="b07ce44a">
-            Nr 1.
-          </note>
-          <note n="11f2c530">
-            Anslag till vägundersökningar. (Forts.)
-          </note>
-          <pb n="11" facs="https://betalab.kb.se/prot-1922--fk--11/prot_1922__fk__11-011.jp2/_view"/>
-          <note n="4b9b5247">
-            Nr HH.
-          </note>
-          <note n="11f2c530">
-            Anslag till vägundersökningar. (Forts.)
-          </note>
-          <note n="c86bd49b">
-            12 Onsdagen den 22 februari.
-          </note>
           <note type="speaker" n="fce38109">
             Herr förste vice talmannen:
           </note>
-          <u who="unknown" xml:id="i-a87476b8c3beea4b-1" n="24ccb2f9">
+          <u who="unknown" xml:id="i-24ccb2f93fd35c72-3" n="24ccb2f9">
             <seg n="bbb11d31">
               Herr greve och talman! Statsrådet började med att säga, att det
               var en blygsam prutning, som statsutskottet gjort på denna huvudtitel.
@@ -1145,14 +1152,14 @@
             </seg>
           </u>
           <pb n="12" facs="https://betalab.kb.se/prot-1922--fk--11/prot_1922__fk__11-012.jp2/_view"/>
-          <note n="183ef024">
+          <note type="date" n="7ab7d87a">
             Onsdagen den 22 februari. 13 Nr 11.
           </note>
           <note n="e1bb6781">
             den icke annat än yrka bifall till statsutskottets hemställan
             i denna punkt.
           </note>
-          <u who="unknown" xml:id="i-beda1c5e5c942238-1" n="24ccb2f9">
+          <u who="unknown" xml:id="i-24ccb2f93fd35c72-4" n="24ccb2f9">
             <seg n="d345aaa1">
               Vad sedan beträffar de siffror, som statsrådet anförde, får man
               ju i alla fall säga, att det finns visst fog för regeringen att
@@ -1176,7 +1183,7 @@
           <note type="speaker" n="208a3b26">
             Herr Kvarnzelius:
           </note>
-          <u who="herman_kvarnzelius_1c79c5" xml:id="i-1af0d382bf60d876-0" next="i-678d79c81cc58bff-0" n="e2353ad6">
+          <u who="herman_kvarnzelius_1c79c5" xml:id="i-e2353ad627ff338c-0" next="i-e2353ad627ff338c-1" n="e2353ad6">
             <seg n="4ffc0c11">
               Herr greve och talman! Jag skulle icke hava behövt begära ordet,
               sedan herr förste vice talmannen yttrat sig, om jag icke velat
@@ -1222,7 +1229,7 @@
             Anslag till vägundersökningar. (Forts.)
           </note>
           <pb n="13" facs="https://betalab.kb.se/prot-1922--fk--11/prot_1922__fk__11-013.jp2/_view"/>
-          <note n="eea937bd">
+          <note type="date" n="fa44d95c">
             Nr 11. 14 Onsdagen den 22 februari.
           </note>
           <note n="6d20f49c">
@@ -1237,7 +1244,7 @@
             av anslaget till vägundersökningar å extra stat för tiden 1 januari—30
             juni 1923 anvisa
           </note>
-          <u who="herman_kvarnzelius_1c79c5" xml:id="i-678d79c81cc58bff-0" prev="i-1af0d382bf60d876-0" n="e2353ad6">
+          <u who="herman_kvarnzelius_1c79c5" xml:id="i-e2353ad627ff338c-1" prev="i-e2353ad627ff338c-0" n="e2353ad6">
             <seg n="b5ad34c6">
               ett förslagsanslag, högst, 60,000 kronor.”
             </seg>
@@ -1245,7 +1252,7 @@
           <note type="speaker" n="d72f3945">
             Herr förste vicetalmannen :
           </note>
-          <u who="unknown" xml:id="i-14ea2eb46541e5ba-0" n="24ccb2f9">
+          <u who="unknown" xml:id="i-24ccb2f93fd35c72-5" n="24ccb2f9">
             <seg n="c99c11bc">
               I överensstämmelse med vad jag nyss hade äran anföra får jag
               hemställa, att beloppet 60,000 kronor höjes till 100,000 kronor.
@@ -1285,7 +1292,7 @@
           <note type="speaker" n="7923b8ae">
             Herr statsrådet Olsson avlämnade Kungl. Maj:
           </note>
-          <u who="valerius_olsson_5015ad" xml:id="i-9874f6494820222e-0" next="i-96ea2d7c151bb293-0" n="009feefa">
+          <u who="valerius_olsson_5015ad" xml:id="i-d6d7ef0334f3b040-0" next="i-d6d7ef0334f3b040-7" n="009feefa">
             <seg n="cea3721c">
               ts propositioner: nr 65, angående tilloch ombyggnad vid allmänna
               barnbördshuset;
@@ -1298,7 +1305,7 @@
             regementens förutvarande mötesplats Axvalls hed.
           </note>
           <pb n="14" facs="https://betalab.kb.se/prot-1922--fk--11/prot_1922__fk__11-014.jp2/_view"/>
-          <note n="e1a1ccb5">
+          <note type="date" n="052c34d8">
             Onsdagen den 22 februari. 15
           </note>
           <note n="b6cc41d6">
@@ -1331,52 +1338,21 @@
             antaga följande förslag till ändrad lydelse av anm. 2 till rubrikerna
             nr 196 och 197 i tulltaxan:
           </note>
-          <u who="valerius_olsson_5015ad" xml:id="i-96ea2d7c151bb293-0" prev="i-9874f6494820222e-0" n="009feefa">
+          <u who="valerius_olsson_5015ad" xml:id="i-d6d7ef0334f3b040-1" prev="i-d6d7ef0334f3b040-0" n="009feefa">
             <seg n="688c36fc">
               ”2. Vid förtullning ssssssssesssrersereererr enes rrnnnen utgör
-            </seg>
-            <seg n="4d6774bb">
-              för cigarrer och cigarrcigarretter ...........sseseseseseserea
-              25 kr. per kg.
-            </seg>
-            <seg n="2929963c">
-              titet för cigarrer och cigarrcigarretter ...................0+
-              50 kr. per kg.
-            </seg>
-            <seg n="3e4f3294">
-              i propositionen eftersträvades, eller, om detta visade sig omöjligt,
-              2. att riksdagen endast så till vida måtte bifalla den föreliggande
-              propositionen, att viss skatteförhöjning av lägre grad än den
-              föreslagna vidtoges, och att densamma likformigt komme att drabba
-              såväl i riket
-            </seg>
-            <seg n="0a817943">
-              tillverkade som importerade tobaksvaror.
-            </seg>
-            <seg n="0c2f794d">
-              Ånm. I skattehänseende utgöres skillnaden mellan cigarr och cigarrcigarrett
-              därav, att den senare saknar spets, har skuren inlaga samt i vikt
-              understiger 3.3 kg. per 1,000 st.
-            </seg>
-            <seg n="1d86eef6">
-              ”2. Vid förtullning sssssssssssrrsrerrsrserrsrr utgör
-            </seg>
-            <seg n="aa887468">
-              Fetter ssandseessåäese sma nen en nosoe KKR BONNIER KNARK KR
-              KR NORA KKR 25 kr. per kg. för Cigarrettef ssssmsseseersrerrerrrrrrrerrerrrrrrs
-              rss rr sr sr sr sena 30 &gt; » » » arbetad tobak, andra Slag ssmessssessersrrrrrrrrerrrrera
-              6 &gt;» » »
-            </seg>
-            <seg n="f2d975a0">
-              b) för vad som överskjuter den under a) härovan åsyftade kvantitet
-              för cigarrer och cigarrcigarretter ..................... 50 kr.
-              per kg.
             </seg>
           </u>
           <note n="512a1fa7">
             a) för kvantitet icke överstigande den av Kungl. Maj:t enligt
             3 mom. av nämnda 8 fastställda
           </note>
+          <u who="valerius_olsson_5015ad" xml:id="i-d6d7ef0334f3b040-2" prev="i-d6d7ef0334f3b040-0" n="009feefa">
+            <seg n="4d6774bb">
+              för cigarrer och cigarrcigarretter ...........sseseseseseserea
+              25 kr. per kg.
+            </seg>
+          </u>
           <note n="a0061dc9">
             ss CIgAffelléf osssesslsessnsstssnsosESsssKOSKON KONEKERSSES
             ENAS 30 &gt;» » »
@@ -1386,6 +1362,12 @@
             &gt; » » b) för vad som överskjuter den under a) härovan åsyftade
             kvan-
           </note>
+          <u who="valerius_olsson_5015ad" xml:id="i-d6d7ef0334f3b040-3" prev="i-d6d7ef0334f3b040-0" n="009feefa">
+            <seg n="2929963c">
+              titet för cigarrer och cigarrcigarretter ...................0+
+              50 kr. per kg.
+            </seg>
+          </u>
           <note n="64a5e85b">
             för Cigarretter | :ss«sss:sesssseseenssesseevessssiken sken sas
             serNesNS 60 &gt; » »
@@ -1421,7 +1403,7 @@
             Om särskild skatt å tobaksvaror m. m.
           </note>
           <pb n="15" facs="https://betalab.kb.se/prot-1922--fk--11/prot_1922__fk__11-015.jp2/_view"/>
-          <note n="ca83dab8">
+          <note type="date" n="278e6f53">
             Nr 11. 16 Onsdagen den 22 februari.
           </note>
           <note n="247af8ba">
@@ -1430,6 +1412,18 @@
             skulle finna annan utväg att varor m. m. (Forts) på den indirekta
             beskattningens väg nå den ökade inkomstsiffra, som
           </note>
+          <u who="valerius_olsson_5015ad" xml:id="i-d6d7ef0334f3b040-4" prev="i-d6d7ef0334f3b040-0" n="009feefa">
+            <seg n="3e4f3294">
+              i propositionen eftersträvades, eller, om detta visade sig omöjligt,
+              2. att riksdagen endast så till vida måtte bifalla den föreliggande
+              propositionen, att viss skatteförhöjning av lägre grad än den
+              föreslagna vidtoges, och att densamma likformigt komme att drabba
+              såväl i riket
+            </seg>
+            <seg n="0a817943">
+              tillverkade som importerade tobaksvaror.
+            </seg>
+          </u>
           <note n="c85658bf">
             Utskottet hade i det föreliggande betänkandet under åberopande
             av vad däri anförts hemställt, att riksdagen måtte, med avslag
@@ -1478,8 +1472,15 @@
             för 1 st. » cigarrcigarret- » cCigarrcigarretter......... 2.5
             » » 1»; ter........ 2.5 » » 13&gt;.
           </note>
+          <u who="valerius_olsson_5015ad" xml:id="i-d6d7ef0334f3b040-5" prev="i-d6d7ef0334f3b040-0" n="009feefa">
+            <seg n="0c2f794d">
+              Ånm. I skattehänseende utgöres skillnaden mellan cigarr och cigarrcigarrett
+              därav, att den senare saknar spets, har skuren inlaga samt i vikt
+              understiger 3.3 kg. per 1,000 st.
+            </seg>
+          </u>
           <pb n="16" facs="https://betalab.kb.se/prot-1922--fk--11/prot_1922__fk__11-016.jp2/_view"/>
-          <note n="a048b2e2">
+          <note type="date" n="6efcd182">
             Onsdagen den 22 februari. 17
           </note>
           <note n="bee2fd4b">
@@ -1536,10 +1537,28 @@
             2) föreslagits, antaga följande förslag till ändrad lydelse av
             anm. 2 till rubrikerna nr 196 och 197 i tulltaxan:
           </note>
+          <u who="valerius_olsson_5015ad" xml:id="i-d6d7ef0334f3b040-6" prev="i-d6d7ef0334f3b040-0" n="009feefa">
+            <seg n="1d86eef6">
+              ”2. Vid förtullning sssssssssssrrsrerrsrserrsrr utgör
+            </seg>
+          </u>
           <note n="78911fa6">
             a) för kvantitet icke överstigande den av Kungl. Maj:t enligt
             3 mom. av nämnda paragraf fastställda för cigarrer och cigarrcigar-
           </note>
+          <u who="valerius_olsson_5015ad" xml:id="i-d6d7ef0334f3b040-7" prev="i-d6d7ef0334f3b040-0" n="009feefa">
+            <seg n="aa887468">
+              Fetter ssandseessåäese sma nen en nosoe KKR BONNIER KNARK KR
+              KR NORA KKR 25 kr. per kg. för Cigarrettef ssssmsseseersrerrerrrrrrrerrerrrrrrs
+              rss rr sr sr sr sena 30 &gt; » » » arbetad tobak, andra Slag ssmessssessersrrrrrrrrerrrrera
+              6 &gt;» » »
+            </seg>
+            <seg n="f2d975a0">
+              b) för vad som överskjuter den under a) härovan åsyftade kvantitet
+              för cigarrer och cigarrcigarretter ..................... 50 kr.
+              per kg.
+            </seg>
+          </u>
           <note n="acb38d18">
             Första kammarens protokoll 1922. Nr 11. 2
           </note>
@@ -1568,7 +1587,7 @@
           <note n="a399aa2c">
             varor m. m. (Forts.)
           </note>
-          <note n="5bad11ce">
+          <note type="date" n="6c584456">
             18 Onsdagen den 22 februari.
           </note>
           <note n="ac81d60b">
@@ -1610,7 +1629,7 @@
           <note type="speaker" n="4476e156">
             Herr Nilson, Karl August:
           </note>
-          <u who="erik_agabus_nilson_5a0fbc" xml:id="i-d7524e6df7d92e99-0" next="i-a93c7662b38dd87d-0" n="d57a665c">
+          <u who="erik_agabus_nilson_5a0fbc" xml:id="i-da9419335b891c67-0" next="i-da9419335b891c67-5" n="d57a665c">
             <seg n="e4eae16c">
               Herr talman! Såsom kammaren väl finner, är det föreliggande betänkandet
               som så många gånger förr resultat av en kompromiss. Att denna
@@ -1639,10 +1658,10 @@
             </seg>
           </u>
           <pb n="18" facs="https://betalab.kb.se/prot-1922--fk--11/prot_1922__fk__11-018.jp2/_view"/>
-          <note n="f49b16eb">
+          <note type="date" n="611d5e1d">
             Onsdagen den 22 februari. 19 Nr HN.
           </note>
-          <u who="erik_agabus_nilson_5a0fbc" xml:id="i-a93c7662b38dd87d-0" prev="i-d7524e6df7d92e99-0" n="d57a665c">
+          <u who="erik_agabus_nilson_5a0fbc" xml:id="i-da9419335b891c67-1" prev="i-da9419335b891c67-0" n="d57a665c">
             <seg n="e6c61356">
               icke helt och hållet omöjliggjordes, åtminstone i ganska stor
               utsträckning Om särskild hindrades. En skattesats av O öre, som
@@ -1696,6 +1715,18 @@
               gräns att reservationsvis föreslå en högre skattesats än den av
               Kungl. Maj:t föreslagna.
             </seg>
+          </u>
+          <pb n="19" facs="https://betalab.kb.se/prot-1922--fk--11/prot_1922__fk__11-019.jp2/_view"/>
+          <note n="f03b6369">
+            Nr 11.
+          </note>
+          <note n="15ea9779">
+            Om särskild
+          </note>
+          <note type="date" n="edb76f45">
+            20 Onsdagen den 22 februari.
+          </note>
+          <u who="erik_agabus_nilson_5a0fbc" xml:id="i-da9419335b891c67-2" prev="i-da9419335b891c67-0" n="d57a665c">
             <seg n="eb1632a5">
               Jag skall därför, herr talman, be att få yrka bifall till vad
               utskottet
@@ -1704,6 +1735,14 @@
               skatt å tobaksi övrigt föreslagit, men beträffande skattesatsen
               på cigarretter bifall till
             </seg>
+          </u>
+          <note n="e093b47d">
+            varor m. Mm.
+          </note>
+          <note n="25f2f59c">
+            (Forts.)
+          </note>
+          <u who="erik_agabus_nilson_5a0fbc" xml:id="i-da9419335b891c67-3" prev="i-da9419335b891c67-0" n="d57a665c">
             <seg n="ff26d616">
               vad Kungl. Maj:t föreslagit, nämligen ett halvt öre per styck.
             </seg>
@@ -1756,6 +1795,12 @@
               erkänner det själv, då han säger, att orsaken till denna stegrade
               import ligger framförallt däri,
             </seg>
+          </u>
+          <pb n="20" facs="https://betalab.kb.se/prot-1922--fk--11/prot_1922__fk__11-020.jp2/_view"/>
+          <note type="date" n="ac98fa83">
+            Onsdagen den 22 februari. 21 NF 11.
+          </note>
+          <u who="erik_agabus_nilson_5a0fbc" xml:id="i-da9419335b891c67-4" prev="i-da9419335b891c67-0" n="d57a665c">
             <seg n="e2097c32">
               att konkurrensen å den inhemska tobaksmarknaden till alldeles
               över- Om särskild vägande del härrör från länder med i hög grad
@@ -1831,6 +1876,24 @@
               med 4 öre. Men varför skall man vara tvungen att lämna en återförsäljningsrabatt
               av 22
             </seg>
+          </u>
+          <pb n="21" facs="https://betalab.kb.se/prot-1922--fk--11/prot_1922__fk__11-021.jp2/_view"/>
+          <note n="f03b6369">
+            Nr 11.
+          </note>
+          <note n="15ea9779">
+            Om särskild
+          </note>
+          <note n="fc775f3d">
+            skatt å tobaks-
+          </note>
+          <note n="a399aa2c">
+            varor m. m. (Forts.)
+          </note>
+          <note type="date" n="daed7aa5">
+            22 Onsdagen den 22 februari.
+          </note>
+          <u who="erik_agabus_nilson_5a0fbc" xml:id="i-da9419335b891c67-5" prev="i-da9419335b891c67-0" n="d57a665c">
             <seg n="999b99c3">
               procent, när monopolet blott lämnar 15 procent? Jo, säger man,
               det är därför att tobaksmonopolet lovar, att om handlandena kunna
@@ -1886,42 +1949,6 @@
             </seg>
             <seg n="ca5d0387"/>
           </u>
-          <pb n="19" facs="https://betalab.kb.se/prot-1922--fk--11/prot_1922__fk__11-019.jp2/_view"/>
-          <note n="f03b6369">
-            Nr 11.
-          </note>
-          <note n="15ea9779">
-            Om särskild
-          </note>
-          <note n="0c30cf4e">
-            20 Onsdagen den 22 februari.
-          </note>
-          <note n="e093b47d">
-            varor m. Mm.
-          </note>
-          <note n="25f2f59c">
-            (Forts.)
-          </note>
-          <pb n="20" facs="https://betalab.kb.se/prot-1922--fk--11/prot_1922__fk__11-020.jp2/_view"/>
-          <note n="1f00004c">
-            Onsdagen den 22 februari. 21 NF 11.
-          </note>
-          <pb n="21" facs="https://betalab.kb.se/prot-1922--fk--11/prot_1922__fk__11-021.jp2/_view"/>
-          <note n="f03b6369">
-            Nr 11.
-          </note>
-          <note n="15ea9779">
-            Om särskild
-          </note>
-          <note n="fc775f3d">
-            skatt å tobaks-
-          </note>
-          <note n="a399aa2c">
-            varor m. m. (Forts.)
-          </note>
-          <note n="280ca181">
-            22 Onsdagen den 22 februari.
-          </note>
           <pb n="22" facs="https://betalab.kb.se/prot-1922--fk--11/prot_1922__fk__11-022.jp2/_view"/>
           <note type="date" n="2d331fad">
             Onsdagen den 22 februari.
@@ -1929,7 +1956,7 @@
           <note type="speaker" n="239eeacc">
             Herr Lindgren:
           </note>
-          <u who="anders_lindgren_f9be89" xml:id="i-04599ff74e625a02-0" next="i-e50b213643440ffd-0" n="d86247d3">
+          <u who="anders_lindgren_f9be89" xml:id="i-891fecf042c438aa-0" next="i-891fecf042c438aa-1" n="d86247d3">
             <seg n="ed3e8102">
               Herr greve och talman! Jag är minst sagt tveksam, huruvida det
               kan vara välbetänkt att antaga vare sig Kungl. Maj :ts proposition
@@ -2006,10 +2033,10 @@
           <note n="25f2f59c">
             (Forts.)
           </note>
-          <note n="7ece6a63">
+          <note type="date" n="8cc1c218">
             24 Onsdagen den 22 februari.
           </note>
-          <u who="anders_lindgren_f9be89" xml:id="i-e50b213643440ffd-0" prev="i-04599ff74e625a02-0" n="d86247d3">
+          <u who="anders_lindgren_f9be89" xml:id="i-891fecf042c438aa-1" prev="i-891fecf042c438aa-0" n="d86247d3">
             <seg n="01e93207">
               hand av hänsynen till det statsfinansiella intresset” har jag
               svårt att förstå. Möjligen är det en felskrivning, för så vitt
@@ -2049,7 +2076,7 @@
           <note type="speaker" n="436e6e8a">
             Herr Nilsson, Gustaf :
           </note>
-          <u who="per_nilsson_60ce3c" xml:id="i-854fd610c8a3706a-0" next="i-1f8e929a8de389c2-0" n="d1270706">
+          <u who="per_nilsson_60ce3c" xml:id="i-7026979eaa1d6417-0" next="i-7026979eaa1d6417-5" n="d1270706">
             <seg n="df0bf223">
               Utskottets ärade vice ordförande, friherre Fleming, började sitt
               anförande med att betona, att han visserligen gått med på utskottets
@@ -2075,10 +2102,10 @@
             </seg>
           </u>
           <pb n="24" facs="https://betalab.kb.se/prot-1922--fk--11/prot_1922__fk__11-024.jp2/_view"/>
-          <note n="dd2cf75d">
+          <note type="date" n="bbc1bd66">
             Onsdagen den 22 februari. 25
           </note>
-          <u who="per_nilsson_60ce3c" xml:id="i-1f8e929a8de389c2-0" prev="i-854fd610c8a3706a-0" n="d1270706">
+          <u who="per_nilsson_60ce3c" xml:id="i-7026979eaa1d6417-1" prev="i-7026979eaa1d6417-0" n="d1270706">
             <seg n="a7508957">
               gått till omkring 200 miljoner, d. v. s. en inkomst under dessa
               fem år av cirka 40 miljoner om året. Om man nu, såsom den siste
@@ -2137,6 +2164,36 @@
               dessa 12 miljoner är det endast något över 2 miljoner, som föreslås
               att tagas ut på den utländska importen. Av återstående miljoner
             </seg>
+          </u>
+          <note n="f03b6369">
+            Nr 11.
+          </note>
+          <note n="15ea9779">
+            Om särskild
+          </note>
+          <note n="fc775f3d">
+            skatt å tobaks-
+          </note>
+          <note n="a399aa2c">
+            varor m. m. (Forts.)
+          </note>
+          <pb n="25" facs="https://betalab.kb.se/prot-1922--fk--11/prot_1922__fk__11-025.jp2/_view"/>
+          <note n="f03b6369">
+            Nr 11.
+          </note>
+          <note n="15ea9779">
+            Om särskild
+          </note>
+          <note n="fc775f3d">
+            skatt å tobaks-
+          </note>
+          <note n="a399aa2c">
+            varor m. m. (Forts.)
+          </note>
+          <note type="date" n="f0476996">
+            26 Onsdagen den 22 februari.
+          </note>
+          <u who="per_nilsson_60ce3c" xml:id="i-7026979eaa1d6417-2" prev="i-7026979eaa1d6417-0" n="d1270706">
             <seg n="25f91c2a">
               skulle icke mera än 7 tagas ut på cigarrettillverkningen och
               de övriga 3 miljonerna på snusfabrikationen och röktobaken. Då
@@ -2191,6 +2248,12 @@
               gent emot importörerna. Denna utveckling har icke varit avsedd
               den dag, då monopolet 1914 infördes. Det är
             </seg>
+          </u>
+          <pb n="26" facs="https://betalab.kb.se/prot-1922--fk--11/prot_1922__fk__11-026.jp2/_view"/>
+          <note type="date" n="ce0e4b6e">
+            Onsdagen den 22 februari. 27
+          </note>
+          <u who="per_nilsson_60ce3c" xml:id="i-7026979eaa1d6417-3" prev="i-7026979eaa1d6417-0" n="d1270706">
             <seg n="a9b17fda">
               på grund av denna utveckling i importhänseende man vill återföra
               importen till de dimensioner den hade 1914. Det är detta, som
@@ -2250,10 +2313,39 @@
               och man skulle bortse från statsfinansiella behov av ökade inkomster,
               skulle jag
             </seg>
+          </u>
+          <note n="f03b6369">
+            Nr 11.
+          </note>
+          <note n="15ea9779">
+            Om särskild
+          </note>
+          <note n="fc775f3d">
+            skatt å tobaks-
+          </note>
+          <note n="e5b2b6b6">
+            varor m. Mm. (Forts.)
+          </note>
+          <pb n="27" facs="https://betalab.kb.se/prot-1922--fk--11/prot_1922__fk__11-027.jp2/_view"/>
+          <note n="f03b6369">
+            Nr 11.
+          </note>
+          <note type="date" n="db54ddaa">
+            28 Onsdagen den 22 februari.
+          </note>
+          <u who="per_nilsson_60ce3c" xml:id="i-7026979eaa1d6417-4" prev="i-7026979eaa1d6417-0" n="d1270706">
             <seg n="19ea3e95">
               Om särskild också vara med om åtgärder att minska konsumtionen
               av cigarretter
             </seg>
+          </u>
+          <note n="f9576d02">
+            skatt å tobaksm.
+          </note>
+          <note n="dc83ce5c">
+            varor mm. (Forts.)
+          </note>
+          <u who="per_nilsson_60ce3c" xml:id="i-7026979eaa1d6417-5" prev="i-7026979eaa1d6417-0" n="d1270706">
             <seg n="52fcc439">
               särskilt bland ungdom. Men någon sådan fråga har icke blivit
               förelagd riksdagen, och det är nu icke fråga om att bringa ned
@@ -2290,67 +2382,10 @@
               att få yrka bifall till utskottets förslag.
             </seg>
           </u>
-          <note n="f03b6369">
-            Nr 11.
-          </note>
-          <note n="15ea9779">
-            Om särskild
-          </note>
-          <note n="fc775f3d">
-            skatt å tobaks-
-          </note>
-          <note n="a399aa2c">
-            varor m. m. (Forts.)
-          </note>
-          <pb n="25" facs="https://betalab.kb.se/prot-1922--fk--11/prot_1922__fk__11-025.jp2/_view"/>
-          <note n="f03b6369">
-            Nr 11.
-          </note>
-          <note n="15ea9779">
-            Om särskild
-          </note>
-          <note n="fc775f3d">
-            skatt å tobaks-
-          </note>
-          <note n="a399aa2c">
-            varor m. m. (Forts.)
-          </note>
-          <note n="3b9e5967">
-            26 Onsdagen den 22 februari.
-          </note>
-          <pb n="26" facs="https://betalab.kb.se/prot-1922--fk--11/prot_1922__fk__11-026.jp2/_view"/>
-          <note n="5034aaa7">
-            Onsdagen den 22 februari. 27
-          </note>
-          <note n="f03b6369">
-            Nr 11.
-          </note>
-          <note n="15ea9779">
-            Om särskild
-          </note>
-          <note n="fc775f3d">
-            skatt å tobaks-
-          </note>
-          <note n="e5b2b6b6">
-            varor m. Mm. (Forts.)
-          </note>
-          <pb n="27" facs="https://betalab.kb.se/prot-1922--fk--11/prot_1922__fk__11-027.jp2/_view"/>
-          <note n="f03b6369">
-            Nr 11.
-          </note>
-          <note n="dcb4a6c7">
-            28 Onsdagen den 22 februari.
-          </note>
-          <note n="f9576d02">
-            skatt å tobaksm.
-          </note>
-          <note n="dc83ce5c">
-            varor mm. (Forts.)
-          </note>
           <note type="speaker" n="9da2bb66">
             Herr Heyman:
           </note>
-          <u who="knut_aron_heyman_544b29" xml:id="i-3d08894369ca0212-0" next="i-29cb61f48cdcc2de-0" n="2dbe8ee0">
+          <u who="knut_aron_heyman_544b29" xml:id="i-2dbe8ee0a512e8a1-0" next="i-2dbe8ee0a512e8a1-4" n="2dbe8ee0">
             <seg n="111f8199">
               Herr greve och talman! Då jag i utskottet gick till behandling
               av föreliggande fråga, lutade jag mest till den åsikten, att denna
@@ -2374,10 +2409,10 @@
             </seg>
           </u>
           <pb n="28" facs="https://betalab.kb.se/prot-1922--fk--11/prot_1922__fk__11-028.jp2/_view"/>
-          <note n="0a93fb35">
+          <note type="date" n="c44e2ed0">
             Onsdagen den 22 februari. 29
           </note>
-          <u who="knut_aron_heyman_544b29" xml:id="i-29cb61f48cdcc2de-0" prev="i-3d08894369ca0212-0" n="2dbe8ee0">
+          <u who="knut_aron_heyman_544b29" xml:id="i-2dbe8ee0a512e8a1-1" prev="i-2dbe8ee0a512e8a1-0" n="2dbe8ee0">
             <seg n="0458d466">
               förande av stycketalsskatt å cigarrer, cigarreigarretter och
               cigarretter, har härvid hållits obruten. Det har endast varit
@@ -2432,6 +2467,33 @@
               vid 15 96, men i detta nu hava importörerna, för att mera få detaljhandlarna
               på sin sida, velat och även kunnat höja återförsälj-
             </seg>
+          </u>
+          <note n="dd3ec8ce">
+            Nr Tl.
+          </note>
+          <note n="027d471d">
+            Om särskild skatt å tobaksvaror m. m.
+          </note>
+          <note n="25f2f59c">
+            (Forts.)
+          </note>
+          <pb n="29" facs="https://betalab.kb.se/prot-1922--fk--11/prot_1922__fk__11-029.jp2/_view"/>
+          <note n="f03b6369">
+            Nr 11.
+          </note>
+          <note n="15ea9779">
+            Om särskild
+          </note>
+          <note n="fc775f3d">
+            skatt å tobaks-
+          </note>
+          <note n="a399aa2c">
+            varor m. m. (Forts.)
+          </note>
+          <note type="date" n="7642963b">
+            30 Onsdagen den 22 februari.
+          </note>
+          <u who="knut_aron_heyman_544b29" xml:id="i-2dbe8ee0a512e8a1-2" prev="i-2dbe8ee0a512e8a1-0" n="2dbe8ee0">
             <seg n="b44d9ff4">
               ningsrabatten till 30 å 35 6 och monopolet har, för att icke
               alldeles bliva distanserat av importörerna, nödgats följa efter
@@ -2486,6 +2548,12 @@
               emellertid köper en vara, som med tull, frakt, skatt och andra
               engångskostnader inkal-
             </seg>
+          </u>
+          <pb n="30" facs="https://betalab.kb.se/prot-1922--fk--11/prot_1922__fk__11-030.jp2/_view"/>
+          <note type="date" n="86cd2de8">
+            Onsdagen den 22 februari. 31
+          </note>
+          <u who="knut_aron_heyman_544b29" xml:id="i-2dbe8ee0a512e8a1-3" prev="i-2dbe8ee0a512e8a1-0" n="2dbe8ee0">
             <seg n="f3fb97c0">
               kyleras till 100 kronor, och man å denna vill hava 30 Jo bruttovinst,
               så säljer man den till 130 kronor men icke till 130 kronor plus
@@ -2543,45 +2611,7 @@
               att varufördyringarna proportionellt växa med antalet onödiga
               mellanhänder. — Märkvär-
             </seg>
-            <seg n="70294f14">
-              digt är emellertid att finna hur litet den konsumerande allmänheten
-              reagerar mot det ofta mycket höga tullskydd, som otvivelaktigt
-              ligger i mellanhandelsomkostnaderna och hur känslig samma allmänhet
-              är, då jordbruket eller industrien för sin tillvaro ifrågasätter
-              ett tullskydd, som många gånger endast utgör en bråkdel av vad
-              de onödigt många mellanhänderna oundgängligen behöva även vid
-              en mycket blygsam existens.
-            </seg>
           </u>
-          <note n="dd3ec8ce">
-            Nr Tl.
-          </note>
-          <note n="027d471d">
-            Om särskild skatt å tobaksvaror m. m.
-          </note>
-          <note n="25f2f59c">
-            (Forts.)
-          </note>
-          <pb n="29" facs="https://betalab.kb.se/prot-1922--fk--11/prot_1922__fk__11-029.jp2/_view"/>
-          <note n="f03b6369">
-            Nr 11.
-          </note>
-          <note n="15ea9779">
-            Om särskild
-          </note>
-          <note n="fc775f3d">
-            skatt å tobaks-
-          </note>
-          <note n="a399aa2c">
-            varor m. m. (Forts.)
-          </note>
-          <note n="c680a1c7">
-            30 Onsdagen den 22 februari.
-          </note>
-          <pb n="30" facs="https://betalab.kb.se/prot-1922--fk--11/prot_1922__fk__11-030.jp2/_view"/>
-          <note n="b9131e4c">
-            Onsdagen den 22 februari. 31
-          </note>
           <note n="e4ef4bc5">
             Nr 11:
           </note>
@@ -2607,9 +2637,20 @@
           <note n="a399aa2c">
             varor m. m. (Forts.)
           </note>
-          <note n="934d2652">
+          <note type="date" n="ca4ee0c9">
             32 Onsdagen den 22 februari.
           </note>
+          <u who="knut_aron_heyman_544b29" xml:id="i-2dbe8ee0a512e8a1-4" prev="i-2dbe8ee0a512e8a1-0" n="2dbe8ee0">
+            <seg n="70294f14">
+              digt är emellertid att finna hur litet den konsumerande allmänheten
+              reagerar mot det ofta mycket höga tullskydd, som otvivelaktigt
+              ligger i mellanhandelsomkostnaderna och hur känslig samma allmänhet
+              är, då jordbruket eller industrien för sin tillvaro ifrågasätter
+              ett tullskydd, som många gånger endast utgör en bråkdel av vad
+              de onödigt många mellanhänderna oundgängligen behöva även vid
+              en mycket blygsam existens.
+            </seg>
+          </u>
           <note n="b2a6a8d4">
             Jag har, herr talman, med dessa ord velat hemställa om bifall
             till utskottets förslag.
@@ -2617,7 +2658,7 @@
           <note type="speaker" n="b844898b">
             Herr Åström:
           </note>
-          <u who="ernst_astrom_d7cae1" xml:id="i-0a1f4a859e8cbd29-0" next="i-c18dd88c9e47e047-0" n="e8d333e6">
+          <u who="ernst_astrom_d7cae1" xml:id="i-e8d333e65ec514bb-0" next="i-e8d333e65ec514bb-6" n="e8d333e6">
             <seg n="34e52185">
               Om jag kommer till samma slut som den siste ärade talaren, blir
               det på grund av helt andra premisser än dem han utgick från. Han
@@ -2663,10 +2704,10 @@
             </seg>
           </u>
           <pb n="32" facs="https://betalab.kb.se/prot-1922--fk--11/prot_1922__fk__11-032.jp2/_view"/>
-          <note n="2ff2fc8b">
+          <note type="date" n="b03062b1">
             Onsdagen den 22 februari. 33
           </note>
-          <u who="ernst_astrom_d7cae1" xml:id="i-c18dd88c9e47e047-0" prev="i-0a1f4a859e8cbd29-0" n="e8d333e6">
+          <u who="ernst_astrom_d7cae1" xml:id="i-e8d333e65ec514bb-1" prev="i-e8d333e65ec514bb-0" n="e8d333e6">
             <seg n="24cee91a">
               siffrorna å de övriga posterna. Orsaken till denna utveckling
               har förut blivit berörd, nämligen av herr Gustaf Nilsson, då han
@@ -2720,6 +2761,39 @@
               utan de hava skaffat sig agenter, som gått omkring i husen för
               att för-
             </seg>
+          </u>
+          <note n="7d2f9fe1">
+            Första kammarens protokoll 1922. Nr 11. 3
+          </note>
+          <note n="f03b6369">
+            Nr 11.
+          </note>
+          <note n="15ea9779">
+            Om särskild
+          </note>
+          <note n="fc775f3d">
+            skatt å tobaks-
+          </note>
+          <note n="a399aa2c">
+            varor m. m. (Forts.)
+          </note>
+          <pb n="33" facs="https://betalab.kb.se/prot-1922--fk--11/prot_1922__fk__11-033.jp2/_view"/>
+          <note n="f03b6369">
+            Nr 11.
+          </note>
+          <note n="15ea9779">
+            Om särskild
+          </note>
+          <note n="fc775f3d">
+            skatt å tobaks-
+          </note>
+          <note n="a399aa2c">
+            varor m. m. (Forts.)
+          </note>
+          <note type="date" n="55efb69c">
+            34 Onsdagen den 22 februari.
+          </note>
+          <u who="ernst_astrom_d7cae1" xml:id="i-e8d333e65ec514bb-2" prev="i-e8d333e65ec514bb-0" n="e8d333e6">
             <seg n="e5e7d0c6">
               sälja sina varor. Och icke nog med detta; i vissa fall har man
               försålt tobaksvaror till sådant pris, som enligt priskuranter
@@ -2776,6 +2850,12 @@
               tobakshandlare erkända återförsäljarna. Därifrån avgå alla affärer,
               som av en eller annan anledning kom-
             </seg>
+          </u>
+          <pb n="34" facs="https://betalab.kb.se/prot-1922--fk--11/prot_1922__fk__11-034.jp2/_view"/>
+          <note type="date" n="6a037568">
+            Onsdagen den 22 februari. 35
+          </note>
+          <u who="ernst_astrom_d7cae1" xml:id="i-e8d333e65ec514bb-3" prev="i-e8d333e65ec514bb-0" n="e8d333e6">
             <seg n="639105e0">
               mit att byta ägare. Man kan förstå huru pass exakt detta är.
               Då, såsom fallet ofta är i ett äktenskap eller i en familj, man
@@ -2784,9 +2864,19 @@
               såsom — specialaffär. På samma sätt är det, om en änka, som har
               en tobaksaffär, dör, och något
             </seg>
+          </u>
+          <note n="f03b6369">
+            Nr 11.
+          </note>
+          <u who="ernst_astrom_d7cae1" xml:id="i-e8d333e65ec514bb-4" prev="i-e8d333e65ec514bb-0" n="e8d333e6">
             <seg n="334aabf1">
               Om särskild skatt å tobaks-
             </seg>
+          </u>
+          <note n="a399aa2c">
+            varor m. m. (Forts.)
+          </note>
+          <u who="ernst_astrom_d7cae1" xml:id="i-e8d333e65ec514bb-5" prev="i-e8d333e65ec514bb-0" n="e8d333e6">
             <seg n="86da6a58">
               av barnen övertager affären. Då existerar icke heller den såsom
               speciell -
@@ -2844,6 +2934,24 @@
               så skulle följden hava blivit, att varorna under denna korta tid
               kommit att i synnerligen stor utsträckning uttagas. Staten hade
             </seg>
+          </u>
+          <pb n="35" facs="https://betalab.kb.se/prot-1922--fk--11/prot_1922__fk__11-035.jp2/_view"/>
+          <note n="f03b6369">
+            Nr 11.
+          </note>
+          <note n="15ea9779">
+            Om särskild
+          </note>
+          <note n="fc775f3d">
+            skatt å tobaks-
+          </note>
+          <note n="a399aa2c">
+            varor m. m. (Forts.)
+          </note>
+          <note type="date" n="384e2c47">
+            36 Onsdagen den 22 februari.
+          </note>
+          <u who="ernst_astrom_d7cae1" xml:id="i-e8d333e65ec514bb-6" prev="i-e8d333e65ec514bb-0" n="e8d333e6">
             <seg n="b909b069">
               fått in den gamla skatten, tullen och licensavgiften, samt även
               den nypålagda skatten på en ofantligt mycket kortare tid än som
@@ -2875,67 +2983,10 @@
               och skilja dem från cigarrerna.
             </seg>
           </u>
-          <note n="7d2f9fe1">
-            Första kammarens protokoll 1922. Nr 11. 3
-          </note>
-          <note n="f03b6369">
-            Nr 11.
-          </note>
-          <note n="15ea9779">
-            Om särskild
-          </note>
-          <note n="fc775f3d">
-            skatt å tobaks-
-          </note>
-          <note n="a399aa2c">
-            varor m. m. (Forts.)
-          </note>
-          <pb n="33" facs="https://betalab.kb.se/prot-1922--fk--11/prot_1922__fk__11-033.jp2/_view"/>
-          <note n="f03b6369">
-            Nr 11.
-          </note>
-          <note n="15ea9779">
-            Om särskild
-          </note>
-          <note n="fc775f3d">
-            skatt å tobaks-
-          </note>
-          <note n="a399aa2c">
-            varor m. m. (Forts.)
-          </note>
-          <note n="9599ff4b">
-            34 Onsdagen den 22 februari.
-          </note>
-          <pb n="34" facs="https://betalab.kb.se/prot-1922--fk--11/prot_1922__fk__11-034.jp2/_view"/>
-          <note n="5f40d4fb">
-            Onsdagen den 22 februari. 35
-          </note>
-          <note n="f03b6369">
-            Nr 11.
-          </note>
-          <note n="a399aa2c">
-            varor m. m. (Forts.)
-          </note>
-          <pb n="35" facs="https://betalab.kb.se/prot-1922--fk--11/prot_1922__fk__11-035.jp2/_view"/>
-          <note n="f03b6369">
-            Nr 11.
-          </note>
-          <note n="15ea9779">
-            Om särskild
-          </note>
-          <note n="fc775f3d">
-            skatt å tobaks-
-          </note>
-          <note n="a399aa2c">
-            varor m. m. (Forts.)
-          </note>
-          <note n="7983287a">
-            36 Onsdagen den 22 februari.
-          </note>
           <note type="speaker" n="884d5a8f">
             Herr Boman:
           </note>
-          <u who="gustaf_boman_7e6b47" xml:id="i-81b130def29fbb75-0" next="i-455b06ac0a3b7ab1-0" n="8e4bd694">
+          <u who="gustaf_boman_7e6b47" xml:id="i-8e4bd6945d8883b9-0" next="i-8e4bd6945d8883b9-2" n="8e4bd694">
             <seg n="1ecb30a7">
               Herr talman! Då vi i början av riksdagen fingo mottaga denna
               proposition, blev åtminstone jag i hög grad förvånad över, att
@@ -2962,14 +3013,14 @@
             </seg>
           </u>
           <pb n="36" facs="https://betalab.kb.se/prot-1922--fk--11/prot_1922__fk__11-036.jp2/_view"/>
-          <note n="d90c58ea">
+          <note type="date" n="28a18b09">
             Onsdagen den 22 februari. 37
           </note>
           <note n="04e72686">
             värdefullt att veta vid behandlingen av den föreliggande propositionen
             liksom av utskottets förslag.
           </note>
-          <u who="gustaf_boman_7e6b47" xml:id="i-455b06ac0a3b7ab1-0" prev="i-81b130def29fbb75-0" n="8e4bd694">
+          <u who="gustaf_boman_7e6b47" xml:id="i-8e4bd6945d8883b9-1" prev="i-8e4bd6945d8883b9-0" n="8e4bd694">
             <seg n="238ed3d9">
               Det föreliggande förslaget innefattar en utväg att vinna skydd
               för det svenska monopolets cigarrtillverkning i första hand och
@@ -3026,6 +3077,27 @@
               är nu tobaken i cigarretten icke precis densamma men jag har tämligen
               god kännedom om artikeln
             </seg>
+          </u>
+          <note n="f03b6369">
+            Nr 11.
+          </note>
+          <note n="027d471d">
+            Om särskild skatt å tobaksvaror m. m.
+          </note>
+          <note n="25f2f59c">
+            (Forts.)
+          </note>
+          <pb n="37" facs="https://betalab.kb.se/prot-1922--fk--11/prot_1922__fk__11-037.jp2/_view"/>
+          <note n="f03b6369">
+            Nr 11.
+          </note>
+          <note n="3f7318c6">
+            Om särskild skatt å tobaksvaror m. m. (Forts.)
+          </note>
+          <note type="date" n="d0d0392d">
+            38 Onsdagen den 22 februari.
+          </note>
+          <u who="gustaf_boman_7e6b47" xml:id="i-8e4bd6945d8883b9-2" prev="i-8e4bd6945d8883b9-0" n="8e4bd694">
             <seg n="a0085064">
               snus. Konsumtionen av den artikeln är ungefär densamma nu som
               före kriget. . Före kriget betalade den snuskonsumerande allmänheten
@@ -3064,29 +3136,10 @@
               Tills vidare vågar jag, herr talman, hemställa om återremiss.
             </seg>
           </u>
-          <note n="f03b6369">
-            Nr 11.
-          </note>
-          <note n="027d471d">
-            Om särskild skatt å tobaksvaror m. m.
-          </note>
-          <note n="25f2f59c">
-            (Forts.)
-          </note>
-          <pb n="37" facs="https://betalab.kb.se/prot-1922--fk--11/prot_1922__fk__11-037.jp2/_view"/>
-          <note n="f03b6369">
-            Nr 11.
-          </note>
-          <note n="3f7318c6">
-            Om särskild skatt å tobaksvaror m. m. (Forts.)
-          </note>
-          <note n="b09db8b1">
-            38 Onsdagen den 22 februari.
-          </note>
           <note type="speaker" n="aa4cbfc3">
             Herr Rune:
           </note>
-          <u who="axel_olof_rune_ead048" xml:id="i-3f85fbfea567916b-0" next="i-ff2d581c788c382f-0" n="0e46213f">
+          <u who="axel_olof_rune_ead048" xml:id="i-0e46213fa0d4459e-0" next="i-0e46213fa0d4459e-2" n="0e46213f">
             <seg n="d3c95454">
               Herr talman, mina herrar! De anmärkningar, som riktats mot utskottsbetänkandet
               och Kungl. Maj:ts förslag, vilka ju i huvudsak äro rätt lika,
@@ -3112,10 +3165,10 @@
             </seg>
           </u>
           <pb n="38" facs="https://betalab.kb.se/prot-1922--fk--11/prot_1922__fk__11-038.jp2/_view"/>
-          <note n="78112d52">
+          <note type="date" n="2b80b44b">
             Onsdagen den 22 februari. 39
           </note>
-          <u who="axel_olof_rune_ead048" xml:id="i-ff2d581c788c382f-0" prev="i-3f85fbfea567916b-0" n="0e46213f">
+          <u who="axel_olof_rune_ead048" xml:id="i-0e46213fa0d4459e-1" prev="i-0e46213fa0d4459e-0" n="0e46213f">
             <seg n="e1fb951a">
               tobaksmonopolet. Jag tror icke, att det kommer att visa sig i
               framtiden, att importen blir omöjliggjord genom den lösning av
@@ -3176,6 +3229,36 @@
               den största rollen. Därför är det inte underligt, att såväl Kungl.
               Maj:t som utskottet
             </seg>
+          </u>
+          <note n="f03b6369">
+            Nr 11.
+          </note>
+          <note n="15ea9779">
+            Om särskild
+          </note>
+          <note n="19bf8e01">
+            skatt å tobak s-
+          </note>
+          <note n="a399aa2c">
+            varor m. m. (Forts.)
+          </note>
+          <pb n="39" facs="https://betalab.kb.se/prot-1922--fk--11/prot_1922__fk__11-039.jp2/_view"/>
+          <note n="f03b6369">
+            Nr 11.
+          </note>
+          <note n="15ea9779">
+            Om särskild
+          </note>
+          <note n="fc775f3d">
+            skatt å tobaks-
+          </note>
+          <note n="4bd410dd">
+            varor nm. m. (Forts.)
+          </note>
+          <note type="date" n="f8d578e4">
+            40 Onsdagen den 22 februari.
+          </note>
+          <u who="axel_olof_rune_ead048" xml:id="i-0e46213fa0d4459e-2" prev="i-0e46213fa0d4459e-0" n="0e46213f">
             <seg n="52c5c1ed">
               särskilt fäst sig vid dessa artiklar och lagt skatten så, att
               man på dessa varor skulle få in den ökade intäkt man vill ernå.
@@ -3218,38 +3301,10 @@
               förslag.
             </seg>
           </u>
-          <note n="f03b6369">
-            Nr 11.
-          </note>
-          <note n="15ea9779">
-            Om särskild
-          </note>
-          <note n="19bf8e01">
-            skatt å tobak s-
-          </note>
-          <note n="a399aa2c">
-            varor m. m. (Forts.)
-          </note>
-          <pb n="39" facs="https://betalab.kb.se/prot-1922--fk--11/prot_1922__fk__11-039.jp2/_view"/>
-          <note n="f03b6369">
-            Nr 11.
-          </note>
-          <note n="15ea9779">
-            Om särskild
-          </note>
-          <note n="fc775f3d">
-            skatt å tobaks-
-          </note>
-          <note n="4bd410dd">
-            varor nm. m. (Forts.)
-          </note>
-          <note n="9c51a47a">
-            40 Onsdagen den 22 februari.
-          </note>
           <note type="speaker" n="fb3650ee">
             Herr statsrådet Thorsson:
           </note>
-          <u who="fv_thorsson_e1328c" xml:id="i-cfe127aef9b460ae-0" next="i-8d53bd3ea7f356cf-0" n="4add5dd0">
+          <u who="fv_thorsson_e1328c" xml:id="i-24ccb2f93fd35c72-6" next="i-24ccb2f93fd35c72-9" n="4add5dd0">
             <seg n="44f54623">
               Herr greve och talman! Jag skall icke länge upptaga kammarens
               tid med detta ärende. Det har yttrats så mycket i detsamma, att
@@ -3271,10 +3326,10 @@
             </seg>
           </u>
           <pb n="40" facs="https://betalab.kb.se/prot-1922--fk--11/prot_1922__fk__11-040.jp2/_view"/>
-          <note n="e18aead7">
+          <note type="date" n="e917b0ae">
             Onsdagen den 22 februari. 41
           </note>
-          <u who="fv_thorsson_e1328c" xml:id="i-8d53bd3ea7f356cf-0" prev="i-cfe127aef9b460ae-0" n="4add5dd0">
+          <u who="fv_thorsson_e1328c" xml:id="i-24ccb2f93fd35c72-7" prev="i-24ccb2f93fd35c72-6" n="4add5dd0">
             <seg n="2ae3b505">
               monopolets införande, och detta ställdes i samband med att man
               rent av med denna skattekälla, om jag icke missminner mig, ville
@@ -3332,6 +3387,33 @@
               avsevärt höjda försäljningsprovisioner till återförsäljarna, och
               människorna äro en gång
             </seg>
+          </u>
+          <note n="f03b6369">
+            Nr 11.
+          </note>
+          <note n="15ea9779">
+            Om särskild
+          </note>
+          <note n="fc775f3d">
+            skatt å tobaks-
+          </note>
+          <note n="a399aa2c">
+            varor m. m. (Forts.)
+          </note>
+          <pb n="41" facs="https://betalab.kb.se/prot-1922--fk--11/prot_1922__fk__11-041.jp2/_view"/>
+          <note n="f03b6369">
+            Nr 11.
+          </note>
+          <note n="027d471d">
+            Om särskild skatt å tobaksvaror m. m.
+          </note>
+          <note n="25f2f59c">
+            (Forts.)
+          </note>
+          <note type="date" n="290a7f40">
+            42 Onsdagen den 22 februari.
+          </note>
+          <u who="fv_thorsson_e1328c" xml:id="i-24ccb2f93fd35c72-8" prev="i-24ccb2f93fd35c72-6" n="4add5dd0">
             <seg n="7e65de56">
               sådana här i livet, att om de hava två saker att utbjuda och
               det på den ena lämnas tjugufem procent och på den andra femton
@@ -3389,6 +3471,12 @@
               ställning anser sig böra framlägga. Det är kanske oriktigt att
               säga direktiv, utan hellre bör man säga de
             </seg>
+          </u>
+          <pb n="42" facs="https://betalab.kb.se/prot-1922--fk--11/prot_1922__fk__11-042.jp2/_view"/>
+          <note type="date" n="3d84a9cd">
+            Onsdagen den 22 februari. 43
+          </note>
+          <u who="fv_thorsson_e1328c" xml:id="i-24ccb2f93fd35c72-9" prev="i-24ccb2f93fd35c72-6" n="4add5dd0">
             <seg n="d270b070">
               förslag, som man i all anspråkslöshet söker få fram till täckande
               av statens ekonomiska behov.
@@ -3403,39 +3491,10 @@
               jag se till, att även dessa kryphål täppas till snarast möjligt.
             </seg>
           </u>
-          <note n="f03b6369">
-            Nr 11.
-          </note>
-          <note n="15ea9779">
-            Om särskild
-          </note>
-          <note n="fc775f3d">
-            skatt å tobaks-
-          </note>
-          <note n="a399aa2c">
-            varor m. m. (Forts.)
-          </note>
-          <pb n="41" facs="https://betalab.kb.se/prot-1922--fk--11/prot_1922__fk__11-041.jp2/_view"/>
-          <note n="f03b6369">
-            Nr 11.
-          </note>
-          <note n="027d471d">
-            Om särskild skatt å tobaksvaror m. m.
-          </note>
-          <note n="25f2f59c">
-            (Forts.)
-          </note>
-          <note n="efb8ddf1">
-            42 Onsdagen den 22 februari.
-          </note>
-          <pb n="42" facs="https://betalab.kb.se/prot-1922--fk--11/prot_1922__fk__11-042.jp2/_view"/>
-          <note n="c0308152">
-            Onsdagen den 22 februari. 43
-          </note>
           <note type="speaker" n="02aa57a1">
             Herr Nilsson, Gustaf:
           </note>
-          <u who="per_nilsson_60ce3c" xml:id="i-854fd610c8a3706a-1" next="i-1f8e929a8de389c2-1" n="d1270706">
+          <u who="per_nilsson_60ce3c" xml:id="i-7026979eaa1d6417-6" next="i-7026979eaa1d6417-7" n="d1270706">
             <seg n="113b1efa">
               Herr talman! Jag begärde ordet med anledning av det yrkande om
               återremiss, som här är gjort. Jag vill bara stryka under, att
@@ -3501,10 +3560,10 @@
           <note n="25f2f59c">
             (Forts.)
           </note>
-          <note n="c4bbddc2">
+          <note type="date" n="8235edff">
             44 Onsdagen den 22 februari.
           </note>
-          <u who="per_nilsson_60ce3c" xml:id="i-1f8e929a8de389c2-1" prev="i-854fd610c8a3706a-1" n="d1270706">
+          <u who="per_nilsson_60ce3c" xml:id="i-7026979eaa1d6417-7" prev="i-7026979eaa1d6417-6" n="d1270706">
             <seg n="ab5a7ba9">
               att cigarrcigarretten saknar spets och har skuren inlaga, och
               att man bara skulle behålla bestämmelsen, att cigarrcigarretten
@@ -3536,7 +3595,7 @@
           <note type="speaker" n="239eeacc">
             Herr Lindgren:
           </note>
-          <u who="anders_lindgren_f9be89" xml:id="i-04599ff74e625a02-1" next="i-e50b213643440ffd-1" n="d86247d3">
+          <u who="anders_lindgren_f9be89" xml:id="i-891fecf042c438aa-2" next="i-891fecf042c438aa-3" n="d86247d3">
             <seg n="a56ac116">
               Herr statsrådet och chefen för finansdepartementet har tydligen
               missuppfattat mitt yttrande här. Jag har nämligen icke talat för
@@ -3566,13 +3625,13 @@
             </seg>
           </u>
           <pb n="44" facs="https://betalab.kb.se/prot-1922--fk--11/prot_1922__fk__11-044.jp2/_view"/>
-          <note n="365b4e35">
+          <note type="date" n="e76b21e6">
             Onsdagen den 22 februari. 4
           </note>
           <note n="2bac5d63">
             An
           </note>
-          <u who="anders_lindgren_f9be89" xml:id="i-e50b213643440ffd-1" prev="i-04599ff74e625a02-1" n="d86247d3">
+          <u who="anders_lindgren_f9be89" xml:id="i-891fecf042c438aa-3" prev="i-891fecf042c438aa-2" n="d86247d3">
             <seg n="dedb87af">
               av dessa skatter, nämligen tobaksmonopolet, icke är så väl justerat,
               att man kan nå det mesta möjliga.
@@ -3587,7 +3646,7 @@
           <note type="speaker" n="4476e156">
             Herr Nilson, Karl August:
           </note>
-          <u who="erik_agabus_nilson_5a0fbc" xml:id="i-78479dc4bded84b7-0" n="d57a665c">
+          <u who="erik_agabus_nilson_5a0fbc" xml:id="i-da9419335b891c67-6" n="d57a665c">
             <seg n="4808883a">
               Endast ett par ord med anledning av de invändningar, som gjorts
               mot min reservation! Det är särskilt herr Gustaf Nilsson, som
@@ -3657,13 +3716,13 @@
           <note n="a399aa2c">
             varor m. m. (Forts.)
           </note>
-          <note n="c468cfd4">
+          <note type="date" n="558a912f">
             46 Onsdagen den 22 februari.
           </note>
           <note type="speaker" n="b844898b">
             Herr Åström:
           </note>
-          <u who="ernst_astrom_d7cae1" xml:id="i-cf3e27f85ea56cc7-0" n="e8d333e6">
+          <u who="ernst_astrom_d7cae1" xml:id="i-e8d333e65ec514bb-7" n="e8d333e6">
             <seg n="8145a70f">
               Med anledning av ett yttrande av herr Gustaf Nilsson ber jag
               få säga några ord. Jag skall dock icke etablera någon debatt med
@@ -3711,7 +3770,7 @@
           <note type="speaker" n="02aa57a1">
             Herr Nilsson, Gustaf:
           </note>
-          <u who="per_nilsson_60ce3c" xml:id="i-854fd610c8a3706a-2" next="i-1f8e929a8de389c2-2" n="d1270706">
+          <u who="per_nilsson_60ce3c" xml:id="i-7026979eaa1d6417-8" next="i-7026979eaa1d6417-9" n="d1270706">
             <seg n="91e0e462">
               Herr talman! Endast ett par ord till herr Åström! Jag kan icke
               låta i protokollet stå oemotsagt herr Åströms yttrande, att tobaksmonopolet
@@ -3725,10 +3784,10 @@
             </seg>
           </u>
           <pb n="46" facs="https://betalab.kb.se/prot-1922--fk--11/prot_1922__fk__11-046.jp2/_view"/>
-          <note n="741352eb">
+          <note type="date" n="06291855">
             Onsdagen den 22 februari. 47
           </note>
-          <u who="per_nilsson_60ce3c" xml:id="i-1f8e929a8de389c2-2" prev="i-854fd610c8a3706a-2" n="d1270706">
+          <u who="per_nilsson_60ce3c" xml:id="i-7026979eaa1d6417-9" prev="i-7026979eaa1d6417-8" n="d1270706">
             <seg n="1b904e06">
               inne och blir fördärvat, om det skall ligga lång tid. Det är
               en realisationspremie, och det är icke ett erkännande, att man
@@ -3738,7 +3797,7 @@
           <note type="speaker" n="b844898b">
             Herr Åström:
           </note>
-          <u who="ernst_astrom_d7cae1" xml:id="i-cf3e27f85ea56cc7-1" n="e8d333e6">
+          <u who="ernst_astrom_d7cae1" xml:id="i-e8d333e65ec514bb-8" n="e8d333e6">
             <seg n="3a7d6a6e">
               Jag vill endast be herr Nilsson om ursäkt för att jag trodde
               för gott om monopolets styrelse.
@@ -3770,7 +3829,7 @@
           <note type="speaker" n="f94bd116">
             Herr statsrådet Åkerman avlämnade Kungl. Maj:
           </note>
-          <u who="assar_emanuel_akerman_2be0d5" xml:id="i-540ece4a97540479-0" next="i-078b86274ed4cdd1-0" n="d63fa535">
+          <u who="assar_emanuel_akerman_2be0d5" xml:id="i-d63fa535f198e7bb-0" next="i-d63fa535f198e7bb-1" n="d63fa535">
             <seg n="0e54a438">
               ts proposition nr 28, med förslag till lag om tiden för företagande
               av rannsakning med häktad.
@@ -3802,7 +3861,7 @@
           <note n="82f3721e">
             Nr il.
           </note>
-          <note n="f7650c7b">
+          <note type="date" n="22f878d1">
             48 Onsdagen den 22 februari.
           </note>
           <note n="90c470c4">
@@ -3874,7 +3933,7 @@
             skandinaviskt, baltiskt eller allmänt småstatligt initiativ beträffande
           </note>
           <pb n="48" facs="https://betalab.kb.se/prot-1922--fk--11/prot_1922__fk__11-048.jp2/_view"/>
-          <note n="76436b50">
+          <note type="date" n="2c6103a8">
             Onsdagen den 22 februari. 49
           </note>
           <note n="47e74ae9">
@@ -3896,7 +3955,7 @@
             i frivilligt understöd för det oundgängliga ideella föreningsväsendet
             i Sverige.
           </note>
-          <u who="assar_emanuel_akerman_2be0d5" xml:id="i-078b86274ed4cdd1-0" prev="i-540ece4a97540479-0" n="d63fa535">
+          <u who="assar_emanuel_akerman_2be0d5" xml:id="i-d63fa535f198e7bb-1" prev="i-d63fa535f198e7bb-0" n="d63fa535">
             <seg n="51472d0b">
               Justerades protokollsutdrag för denna dag.
             </seg>
@@ -3918,7 +3977,7 @@
             Nr 11,
           </note>
           <pb n="49" facs="https://betalab.kb.se/prot-1922--fk--11/prot_1922__fk__11-049.jp2/_view"/>
-          <note n="49174052">
+          <note type="date" n="17039e49">
             Nr 11. 50 Fredagen den 24 februari.
           </note>
           <note type="date" n="ec577c03">
@@ -3930,7 +3989,7 @@
           <note type="speaker" n="a1a2eba1">
             Herr statsrådet Svensson avlämnade Kungl. Maj:
           </note>
-          <u who="nils_svensson_573186" xml:id="i-143290ca89cd5b3a-0" next="i-40ad791d91489ca8-0" n="d2b7db91">
+          <u who="nils_svensson_573186" xml:id="i-cea9d65b0f4b709d-0" next="i-cea9d65b0f4b709d-1" n="d2b7db91">
             <seg n="5124e886">
               ts propositioner:
             </seg>
@@ -3942,7 +4001,7 @@
             nr 73, angående bestridande av kostnader för avhjälpande av vissa
             stormskador inom Älvsborgs fästning och Nya varvet; och
           </note>
-          <u who="nils_svensson_573186" xml:id="i-40ad791d91489ca8-0" prev="i-143290ca89cd5b3a-0" n="d2b7db91">
+          <u who="nils_svensson_573186" xml:id="i-cea9d65b0f4b709d-1" prev="i-cea9d65b0f4b709d-0" n="d2b7db91">
             <seg n="3fca0990">
               nr 74, angående bestridande av kostnader för utsändande av Stockholms
               stads större isbrytarfartyg »Isbrytaren II» till av is blockerade
@@ -3982,7 +4041,7 @@
             angående vissa ändringar i vallagen.
           </note>
           <pb n="50" facs="https://betalab.kb.se/prot-1922--fk--11/prot_1922__fk__11-050.jp2/_view"/>
-          <note n="1ac95034">
+          <note type="date" n="623f354c">
             Fredagen den 24 februari. 51 Nr 11.
           </note>
           <note n="678305f2">

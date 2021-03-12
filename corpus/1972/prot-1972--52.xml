@@ -20,7 +20,7 @@
     <encodingDesc>
       <editorialDecl>
         <correction>
-          <p>Some data curation was done. It is documented in db/curation/instances</p>
+          <p>Some data curation was done. It is documented in input/curation/instances</p>
         </correction>
       </editorialDecl>
     </encodingDesc>
@@ -58,6 +58,7 @@
       </front>
       <body>
         <div>
+          <pb n="0" facs="https://betalab.kb.se/prot-1972--52/prot_1972__52-000.jp2/_view"/>
           <note n="a63a816c"/>
           <note n="a63a816c"/>
           <note n="1502c30e">
@@ -67,7 +68,7 @@
             Nr 50—52 4—5 april 1972
           </note>
           <note n="a63a816c"/>
-          <note n="fffc8a0c">
+          <note type="date" n="435eb224">
             Debatter m. m. Tisdagen den 4 april
           </note>
           <note n="ddc4cbf4">
@@ -86,7 +87,7 @@
             Hermansson (vpk) ang. förekomsten av åsiktsregistrering SIGNS
             SKOLAN OR a EG ala oc jöllå 60 RNE DINNER
           </note>
-          <note n="ea510208">
+          <note type="date" n="2002df1f">
             Onsdagen den 5 april kl. 10.00
           </note>
           <note n="6ee518c0">
@@ -147,7 +148,7 @@
             (fp) ang. effekterna för Sverige av planerade flygfält i Norge
             nära svenska gränsen .......
           </note>
-          <note n="cb72af5f">
+          <note type="date" n="7ed44f4f">
             Onsdagen den 5 april kl. 19.30
           </note>
           <note n="1971f9bb">
@@ -173,7 +174,7 @@
           <note n="00600ded">
             Samtliga avgjorda ärenden
           </note>
-          <note n="ea510208">
+          <note type="date" n="2002df1f">
             Onsdagen den 5 april kl. 10.00
           </note>
           <note n="1484f489">
@@ -186,7 +187,7 @@
             transportstöd för Gotland =. ........ Nr 6 ang. överlåtelse av
             staten tillhörig mark m. m, ........
           </note>
-          <note n="cb72af5f">
+          <note type="date" n="7ed44f4f">
             Onsdagen den 5 april kl. 19.30
           </note>
           <note n="ee9afdfc">
@@ -243,7 +244,7 @@
           <note n="ad9d7d6d">
             Nr 52
           </note>
-          <note n="fb1c3ec4">
+          <note type="date" n="b102eb0a">
             Onsdagen den 5 april KIL. 19.30
           </note>
           <note n="5c543bc8">
@@ -262,7 +263,7 @@
           <note type="speaker" n="52bd8fb5">
             Fröken HÖRLEN (fp):
           </note>
-          <u who="unknown" xml:id="i-d464c4e6888fbad2-0" n="fe603ee5">
+          <u who="unknown" xml:id="i-fe603ee52230c4f8-0" n="fe603ee5">
             <seg n="54287d0f">
               Herr talman! Strax före påsk rapporterades enligt Dagens Nyheter
               att var tredje elev i Stockholmsskolorna har använt narkotika.
@@ -329,7 +330,7 @@
           <note n="20e7bda9">
             142
           </note>
-          <u who="unknown" xml:id="i-5950b5595f9b85c0-0" n="fe603ee5">
+          <u who="unknown" xml:id="i-fe603ee52230c4f8-1" n="fe603ee5">
             <seg n="90072eb3">
               sådana specialtjänster när det gäller elevvården är emellertid
               som att kasta ut en för kort lina till den drunknande. Den nödställde
@@ -375,6 +376,11 @@
               innebära sådana ekonomiska konsekvenser, att ett beslut i riksdagen
               förr eller senare blir nödvändigt.
             </seg>
+          </u>
+          <note n="b69aff08">
+            Fröken ANDERSSON i Stockholm (c):
+          </note>
+          <u who="unknown" xml:id="i-fe603ee52230c4f8-2" n="fe603ee5">
             <seg n="5c0e3fc0">
               Herr talman! ”Strukturförändringar i näringslivet leder till
               att nya grupper hamnar i riskzonen för en ogynnsam utveckling.
@@ -390,7 +396,9 @@
               föräldrarna inte upplever samma möjlighet att växa in i den nya
               miljön.”
             </seg>
-            <seg n="ad136b6c"/>
+          </u>
+          <pb n="5" facs="https://betalab.kb.se/prot-1972--52/prot_1972__52-005.jp2/_view"/>
+          <u who="unknown" xml:id="i-fe603ee52230c4f8-3" n="fe603ee5">
             <seg n="d3e209b9">
               Herr talman! Så beskriver barnstugeutredningen i sin diskussions-PM
               den situation som är verklighet för många, många barnfamiljer
@@ -439,15 +447,7 @@
               vi skall kunna komma fram till metoder för att nå samtliga föräldrar.
               De välanpassade har ju redan möjligheter.
             </seg>
-            <seg n="31937292">
-              Herr talman! Jag ber med detta få yrka bifall till reservationen
-              4 vid föreliggande betänkande.
-            </seg>
           </u>
-          <note n="b69aff08">
-            Fröken ANDERSSON i Stockholm (c):
-          </note>
-          <pb n="5" facs="https://betalab.kb.se/prot-1972--52/prot_1972__52-005.jp2/_view"/>
           <note n="6c0e4045">
             När utskottsmajoriteten avstyrker motionen hänvisar man till
             riksdagens skrivelse den 25 november 1970 vari anmälts beslut
@@ -499,10 +499,16 @@
             Kungl. Maj:t till känna vad i reservationen med anledning av motion
             1105 anförts om föräldrautbildning.
           </note>
+          <u who="unknown" xml:id="i-fe603ee52230c4f8-4" n="fe603ee5">
+            <seg n="31937292">
+              Herr talman! Jag ber med detta få yrka bifall till reservationen
+              4 vid föreliggande betänkande.
+            </seg>
+          </u>
           <note type="speaker" n="3e91b494">
             Herr ROMANUS (fp):
           </note>
-          <u who="gabriel_romanus_711246" xml:id="i-bf0a35c0c0d1e87d-0" next="i-3b4da926dd111506-0" n="12da5fb5">
+          <u who="gabriel_romanus_711246" xml:id="i-12da5fb564b96929-0" next="i-12da5fb564b96929-6" n="12da5fb5">
             <seg n="f527c882">
               Herr talman! Fröken Andersson har just utförligt motiverat behovet
               av en effektiv föräldrautbildning. Jag har inte mycket att tillägga
@@ -559,6 +565,9 @@
               redan välanpassade, även om det i första hand är föräldrar utan
               stora problem, som kommer att anmäla sig till utbildning-
             </seg>
+          </u>
+          <pb n="7" facs="https://betalab.kb.se/prot-1972--52/prot_1972__52-007.jp2/_view"/>
+          <u who="gabriel_romanus_711246" xml:id="i-12da5fb564b96929-1" prev="i-12da5fb564b96929-0" n="12da5fb5">
             <seg n="6b981419">
               en. Det viktigaste är ju att förebygga svårigheter. Förebyggande
               verksamhet är säkert i detta fall, liksom i så många andra, en
@@ -625,11 +634,10 @@
               Herr talman! Jag ber att få yrka bifall till reservationen 4.
             </seg>
           </u>
-          <pb n="7" facs="https://betalab.kb.se/prot-1972--52/prot_1972__52-007.jp2/_view"/>
           <note n="408561e9">
             Herr WERNER i Malmö (m):
           </note>
-          <u who="gabriel_romanus_711246" xml:id="i-3b4da926dd111506-0" prev="i-bf0a35c0c0d1e87d-0" n="12da5fb5">
+          <u who="gabriel_romanus_711246" xml:id="i-12da5fb564b96929-2" prev="i-12da5fb564b96929-0" n="12da5fb5">
             <seg n="71a67c76">
               Herr talman! Jag vill börja med att ställa mig bakom kravet på
               kristna skolor med stöd från stat och kommun. Det är egentligen
@@ -637,11 +645,33 @@
               sådan valfrihet för föräldrarna rimmar bäst med de internationella
               konventioner som
             </seg>
-            <seg n="ad136b6c"/>
-            <seg n="ad136b6c"/>
+          </u>
+          <note n="ad9d7d6d">
+            Nr 52
+          </note>
+          <note type="date" n="4d6cfbaf">
+            Onsdagen den 5 april 1972
+          </note>
+          <u who="gabriel_romanus_711246" xml:id="i-12da5fb564b96929-3" prev="i-12da5fb564b96929-0" n="12da5fb5"/>
+          <note n="a29a34fd">
+            Vissa gemensamma frågor 145
+          </note>
+          <pb n="8" facs="https://betalab.kb.se/prot-1972--52/prot_1972__52-008.jp2/_view"/>
+          <note n="ad9d7d6d">
+            Nr 52
+          </note>
+          <note type="date" n="4d6cfbaf">
+            Onsdagen den 5 april 1972
+          </note>
+          <u who="gabriel_romanus_711246" xml:id="i-12da5fb564b96929-4" prev="i-12da5fb564b96929-0" n="12da5fb5">
             <seg n="8720748e">
               Vissa gemensamma frågor
             </seg>
+          </u>
+          <note n="6b9e530e">
+            146
+          </note>
+          <u who="gabriel_romanus_711246" xml:id="i-12da5fb564b96929-5" prev="i-12da5fb564b96929-0" n="12da5fb5">
             <seg n="ec738fc3">
               regering och riksdag biträtt. Man må ha olika värderingar av
               den kristna skolan, men man torde inte kunna förneka att den har
@@ -708,6 +738,9 @@
               motioner i samma fråga. Det är visserligen god konfessionell kristendom
               att den
             </seg>
+          </u>
+          <pb n="9" facs="https://betalab.kb.se/prot-1972--52/prot_1972__52-009.jp2/_view"/>
+          <u who="gabriel_romanus_711246" xml:id="i-12da5fb564b96929-6" prev="i-12da5fb564b96929-0" n="12da5fb5">
             <seg n="ad6f9971">
               ena handen inte vet vad den andra gör, men när två utskott behandlar
               samma fråga bör väl det ena ta reda på vad det andra har skrivit
@@ -734,26 +767,6 @@
               detta.
             </seg>
           </u>
-          <note n="ad9d7d6d">
-            Nr 52
-          </note>
-          <note type="date" n="4d6cfbaf">
-            Onsdagen den 5 april 1972
-          </note>
-          <note n="a29a34fd">
-            Vissa gemensamma frågor 145
-          </note>
-          <pb n="8" facs="https://betalab.kb.se/prot-1972--52/prot_1972__52-008.jp2/_view"/>
-          <note n="ad9d7d6d">
-            Nr 52
-          </note>
-          <note type="date" n="4d6cfbaf">
-            Onsdagen den 5 april 1972
-          </note>
-          <note n="6b9e530e">
-            146
-          </note>
-          <pb n="9" facs="https://betalab.kb.se/prot-1972--52/prot_1972__52-009.jp2/_view"/>
           <note n="499fc15f">
             Jag vill, herr talman, ansluta mig till reservationerna 1, 2
             och 4.
@@ -761,7 +774,7 @@
           <note type="speaker" n="089104d8">
             Fru DAHL (s):
           </note>
-          <u who="birgitta_dahl_7fb5f2" xml:id="i-1f3c19b2141bb280-0" next="i-20543c58475d6a1b-0" n="10f0f69e">
+          <u who="birgitta_dahl_7fb5f2" xml:id="i-aaba953098f08018-0" next="i-aaba953098f08018-7" n="10f0f69e">
             <seg n="8e57f650">
               Herr talman! Herr Werner sade att samlevnadssvårigheterna inte
               följer samlevnadsformerna. Nej, det är just det, herr Werner.
@@ -817,7 +830,23 @@
             147
           </note>
           <pb n="10" facs="https://betalab.kb.se/prot-1972--52/prot_1972__52-010.jp2/_view"/>
-          <u who="birgitta_dahl_7fb5f2" xml:id="i-20543c58475d6a1b-0" prev="i-1f3c19b2141bb280-0" n="10f0f69e">
+          <u who="birgitta_dahl_7fb5f2" xml:id="i-aaba953098f08018-1" prev="i-aaba953098f08018-0" n="10f0f69e"/>
+          <note n="ad9d7d6d">
+            Nr 52
+          </note>
+          <note type="date" n="4d6cfbaf">
+            Onsdagen den 5 april 1972
+          </note>
+          <note n="00ca2bf0">
+            Vissa gemensamma
+          </note>
+          <note n="59bba09f">
+            frågor
+          </note>
+          <note n="c6b75e92">
+            148
+          </note>
+          <u who="birgitta_dahl_7fb5f2" xml:id="i-aaba953098f08018-2" prev="i-aaba953098f08018-0" n="10f0f69e">
             <seg n="08d11f20">
               promemoria framlagt ett förslag om hur föräldrautbildningen skall
               kunna organiseras i den framtida barnstugeverksamheten. Där talar
@@ -883,6 +912,9 @@
               var inte poängen i vad jag sade, utan det var just att hur människor
               än lever
             </seg>
+          </u>
+          <pb n="11" facs="https://betalab.kb.se/prot-1972--52/prot_1972__52-011.jp2/_view"/>
+          <u who="birgitta_dahl_7fb5f2" xml:id="i-aaba953098f08018-3" prev="i-aaba953098f08018-0" n="10f0f69e">
             <seg n="a81527a1">
               samman så kommer de alltid att dras med samlevnadssvårigheterna.
               Formerna löser inte frågorna därvidlag, och därför behöver vi
@@ -953,9 +985,38 @@
               här motionen går ut på. Utskottet nämner det heller inte i sitt
               betänkande. Det beror väl på att utskottet i övrigt bättre
             </seg>
+          </u>
+          <note n="ad9d7d6d">
+            Nr 52
+          </note>
+          <note type="date" n="4d6cfbaf">
+            Onsdagen den 5 april 1972
+          </note>
+          <note n="00ca2bf0">
+            Vissa gemensamma
+          </note>
+          <note n="59bba09f">
+            frågor
+          </note>
+          <note n="823411a8">
+            149
+          </note>
+          <pb n="12" facs="https://betalab.kb.se/prot-1972--52/prot_1972__52-012.jp2/_view"/>
+          <note n="ad9d7d6d">
+            Nr 52
+          </note>
+          <note type="date" n="4d6cfbaf">
+            Onsdagen den 5 april 1972
+          </note>
+          <u who="birgitta_dahl_7fb5f2" xml:id="i-aaba953098f08018-4" prev="i-aaba953098f08018-0" n="10f0f69e">
             <seg n="8720748e">
               Vissa gemensamma frågor
             </seg>
+          </u>
+          <note n="4fadb1a6">
+            150
+          </note>
+          <u who="birgitta_dahl_7fb5f2" xml:id="i-aaba953098f08018-5" prev="i-aaba953098f08018-0" n="10f0f69e">
             <seg n="1fedb475">
               än fru Dahl har förstått vad vi talar om, nämligen en föräldraskola
               för alla och inte bara för en begränsad kategori. Att tala om
@@ -1024,6 +1085,9 @@
               åtgärd som man arbetar för fullt med inom socialstyrelsen. Och
               jag tror det vore bra om vi kunde
             </seg>
+          </u>
+          <pb n="13" facs="https://betalab.kb.se/prot-1972--52/prot_1972__52-013.jp2/_view"/>
+          <u who="birgitta_dahl_7fb5f2" xml:id="i-aaba953098f08018-6" prev="i-aaba953098f08018-0" n="10f0f69e">
             <seg n="b77d8713">
               erkänna att de här frågorna är så svåra att det inte finns några
               enkla patentlösningar.
@@ -1097,6 +1161,39 @@
               Så länge man inte har en tillstymmelse till detta kan man inte
               säga att
             </seg>
+          </u>
+          <note n="ad9d7d6d">
+            Nr 52
+          </note>
+          <note type="date" n="4d6cfbaf">
+            Onsdagen den 5 april 1972
+          </note>
+          <note n="00ca2bf0">
+            Vissa gemensamma
+          </note>
+          <note n="59bba09f">
+            frågor
+          </note>
+          <note n="3d4b3e1e">
+            151
+          </note>
+          <pb n="14" facs="https://betalab.kb.se/prot-1972--52/prot_1972__52-014.jp2/_view"/>
+          <note n="ad9d7d6d">
+            Nr 52
+          </note>
+          <note n="33dac969">
+            Onsdagen den S april 1972
+          </note>
+          <note n="00ca2bf0">
+            Vissa gemensamma
+          </note>
+          <note n="59bba09f">
+            frågor
+          </note>
+          <note n="30520237">
+            152
+          </note>
+          <u who="birgitta_dahl_7fb5f2" xml:id="i-aaba953098f08018-7" prev="i-aaba953098f08018-0" n="10f0f69e">
             <seg n="21b842ff">
               motionens krav är överspelat. Men det var vad fru Dahl sade.
               Jag lyssnade mycket noga och fäste mig vid det uttrycket. Om man
@@ -1161,84 +1258,11 @@
               hade fel.
             </seg>
           </u>
-          <note n="ad9d7d6d">
-            Nr 52
-          </note>
-          <note type="date" n="4d6cfbaf">
-            Onsdagen den 5 april 1972
-          </note>
-          <note n="00ca2bf0">
-            Vissa gemensamma
-          </note>
-          <note n="59bba09f">
-            frågor
-          </note>
-          <note n="c6b75e92">
-            148
-          </note>
-          <pb n="11" facs="https://betalab.kb.se/prot-1972--52/prot_1972__52-011.jp2/_view"/>
-          <note n="ad9d7d6d">
-            Nr 52
-          </note>
-          <note type="date" n="4d6cfbaf">
-            Onsdagen den 5 april 1972
-          </note>
-          <note n="00ca2bf0">
-            Vissa gemensamma
-          </note>
-          <note n="59bba09f">
-            frågor
-          </note>
-          <note n="823411a8">
-            149
-          </note>
-          <pb n="12" facs="https://betalab.kb.se/prot-1972--52/prot_1972__52-012.jp2/_view"/>
-          <note n="ad9d7d6d">
-            Nr 52
-          </note>
-          <note type="date" n="4d6cfbaf">
-            Onsdagen den 5 april 1972
-          </note>
-          <note n="4fadb1a6">
-            150
-          </note>
-          <pb n="13" facs="https://betalab.kb.se/prot-1972--52/prot_1972__52-013.jp2/_view"/>
-          <note n="ad9d7d6d">
-            Nr 52
-          </note>
-          <note type="date" n="4d6cfbaf">
-            Onsdagen den 5 april 1972
-          </note>
-          <note n="00ca2bf0">
-            Vissa gemensamma
-          </note>
-          <note n="59bba09f">
-            frågor
-          </note>
-          <note n="3d4b3e1e">
-            151
-          </note>
-          <pb n="14" facs="https://betalab.kb.se/prot-1972--52/prot_1972__52-014.jp2/_view"/>
-          <note n="ad9d7d6d">
-            Nr 52
-          </note>
-          <note n="33dac969">
-            Onsdagen den S april 1972
-          </note>
-          <note n="00ca2bf0">
-            Vissa gemensamma
-          </note>
-          <note n="59bba09f">
-            frågor
-          </note>
-          <note n="30520237">
-            152
-          </note>
           <pb n="15" facs="https://betalab.kb.se/prot-1972--52/prot_1972__52-015.jp2/_view"/>
           <note type="speaker" n="d404b870">
             Herr utbildningsministern CARLSSON:
           </note>
-          <u who="ingvar_carlsson_5ceec2" xml:id="i-851e98ce1565d70b-0" n="ce334b52">
+          <u who="ingvar_carlsson_5ceec2" xml:id="i-ce334b52123860d0-0" n="ce334b52">
             <seg n="37808f91">
               Herr talman! Jag reagerade mot herr Werners underkännande av
               fru Dahl som företrädare för det socialdemokratiska partiet i
@@ -1263,7 +1287,7 @@
           <note type="speaker" n="1d993d6c">
             Fru MOGÅRD (m):
           </note>
-          <u who="britt_mogard_279f45" xml:id="i-de1e8d35e8a50840-0" next="i-dde6989dd4b7f099-0" n="f56091c7">
+          <u who="britt_mogard_279f45" xml:id="i-ccfbd0d8ea340d38-0" next="i-ccfbd0d8ea340d38-8" n="f56091c7">
             <seg n="0ffc5303">
               Herr talman! Debatten om de enskilda skolornas vara eller icke
               vara har förts med olika argument. Från ett håll har det hävdats
@@ -1324,7 +1348,23 @@
             153
           </note>
           <pb n="16" facs="https://betalab.kb.se/prot-1972--52/prot_1972__52-016.jp2/_view"/>
-          <u who="britt_mogard_279f45" xml:id="i-dde6989dd4b7f099-0" prev="i-de1e8d35e8a50840-0" n="f56091c7">
+          <u who="britt_mogard_279f45" xml:id="i-ccfbd0d8ea340d38-1" prev="i-ccfbd0d8ea340d38-0" n="f56091c7"/>
+          <note n="ad9d7d6d">
+            Nr 52
+          </note>
+          <note type="date" n="4d6cfbaf">
+            Onsdagen den 5 april 1972
+          </note>
+          <note n="00ca2bf0">
+            Vissa gemensamma
+          </note>
+          <note n="59bba09f">
+            frågor
+          </note>
+          <note n="801be5aa">
+            154
+          </note>
+          <u who="britt_mogard_279f45" xml:id="i-ccfbd0d8ea340d38-2" prev="i-ccfbd0d8ea340d38-0" n="f56091c7">
             <seg n="7fcd8995">
               samma sätt är det självfallet inte möjligt att föra en politik
               som ensidigt siktar in sig på att garantera och säkerställa valfriheten
@@ -1391,6 +1431,9 @@
               belysta. Att då avstyrka kravet på en utredning av förslagets
               konsekvenser med hänvisning till att förslaget får
             </seg>
+          </u>
+          <pb n="17" facs="https://betalab.kb.se/prot-1972--52/prot_1972__52-017.jp2/_view"/>
+          <u who="britt_mogard_279f45" xml:id="i-ccfbd0d8ea340d38-3" prev="i-ccfbd0d8ea340d38-0" n="f56091c7">
             <seg n="5e1c7654">
               konsekvenser får nog anses tyda på en mycket svår argumentbrist.
             </seg>
@@ -1436,6 +1479,11 @@
               2, för vilken beklagligt nog — och förvånande nog — endast representanter
               för moderata samlingspartiet står.
             </seg>
+          </u>
+          <note n="a08f4cf3">
+            Herr NILSSON i Agnäs (m):
+          </note>
+          <u who="britt_mogard_279f45" xml:id="i-ccfbd0d8ea340d38-4" prev="i-ccfbd0d8ea340d38-0" n="f56091c7">
             <seg n="94789bad">
               Herr talman! Ett skolalternativ i Sverige enligt principen att
               skolpengen skall följa eleven, som det talas om i motionen 1148
@@ -1453,7 +1501,48 @@
               ett kompakt motstånd mot alternativ, mot tanken på att skolpengen
               skall följa eleven.
             </seg>
-            <seg n="ad136b6c"/>
+          </u>
+          <note n="5ee3434a">
+            I skollagen den 6 juni 1962 står det i I kap. 1 8 att när skolan
+            arbetar skall den göra det i samarbete med hemmen. Det bör vara
+            samförstånd och samarbete med alla hem. I 6 kap. 33 $ står: ”Skolplikt
+            må fullgöras i annan offentlig skola än grundskolan eller i enskild
+            statsunderstödd skola enligt bestämmelser, som utfärdas av Konungen
+            eller den myndighet Konungen förordnar.”
+          </note>
+          <note n="ad9d7d6d">
+            Nr 52
+          </note>
+          <note type="date" n="4d6cfbaf">
+            Onsdagen den 5 april 1972
+          </note>
+          <note n="00ca2bf0">
+            Vissa gemensamma
+          </note>
+          <note n="59bba09f">
+            frågor
+          </note>
+          <note n="c81379db">
+            155
+          </note>
+          <pb n="18" facs="https://betalab.kb.se/prot-1972--52/prot_1972__52-018.jp2/_view"/>
+          <u who="britt_mogard_279f45" xml:id="i-ccfbd0d8ea340d38-5" prev="i-ccfbd0d8ea340d38-0" n="f56091c7"/>
+          <note n="ad9d7d6d">
+            Nr 52
+          </note>
+          <note type="date" n="4d6cfbaf">
+            Onsdagen den 5 april 1972
+          </note>
+          <note n="00ca2bf0">
+            Vissa gemensamma
+          </note>
+          <note n="59bba09f">
+            frågor
+          </note>
+          <note n="d216038a">
+            156
+          </note>
+          <u who="britt_mogard_279f45" xml:id="i-ccfbd0d8ea340d38-6" prev="i-ccfbd0d8ea340d38-0" n="f56091c7">
             <seg n="e8fc3bac">
               Det borde alltså vara möjligt att i Sverige säga: Ni får, om
               ni vill, ordna skolor själva med kristen prägel och kristen anda
@@ -1523,6 +1612,9 @@
               på ungdomsgårdarna. Enligt uppgift i Dagens Nyheter i dag i en
               insändare av Fru Kristensson har
             </seg>
+          </u>
+          <pb n="19" facs="https://betalab.kb.se/prot-1972--52/prot_1972__52-019.jp2/_view"/>
+          <u who="britt_mogard_279f45" xml:id="i-ccfbd0d8ea340d38-7" prev="i-ccfbd0d8ea340d38-0" n="f56091c7">
             <seg n="4d53f646">
               Kumlafängelsets interner en medelålder av 23 år. Det gäller här
               människor som har gått i vår skola, och 80—85 procent av dem är
@@ -1589,85 +1681,7 @@
               på den bibel som är anledningen till att rättssamhället i Sverige
               har existerat till i dag.
             </seg>
-            <seg n="ad136b6c"/>
-            <seg n="62dffff5">
-              Det finns naturligtvis ett alternativ till, och det är den totalitära
-              statens. Jag är en av dem som underkänner Marx som filosof och
-              samhällsbyggare. Han är död. Men i de kommunistiska länder som
-              åberopar Marx finns en skola med ordning och som syftar till att
-              bevara det samhället, ett samhälle som jag inte i och för sig
-              skulle trivas i men där det utan tvivel är annorlunda i skolan.
-              Jag har här 20 punkter som är ordningsregler enligt det ryska
-              undervisningsväsendet — jag skall inte läsa upp dem, så förskräcks
-              inte! Det är ett långt stycke. Men jag kan gärna låna ut det om
-              det är någon som är intresserad. Det finns en mängd saker där,
-              som jag gärna skulle se respekterade också i den svenska skolan.
-              Skall vi behålla demokratin, rättssamhället, friheten och tankens
-              rymd i Sverige, måste också vi behålla och befästa våra grundvalar.
-            </seg>
-            <seg n="d27a4efa">
-              Vi som vill ha ett kristet skolalternativ tycker så.
-            </seg>
           </u>
-          <note n="ad9d7d6d">
-            Nr 52
-          </note>
-          <note type="date" n="4d6cfbaf">
-            Onsdagen den 5 april 1972
-          </note>
-          <note n="00ca2bf0">
-            Vissa gemensamma
-          </note>
-          <note n="59bba09f">
-            frågor
-          </note>
-          <note n="801be5aa">
-            154
-          </note>
-          <pb n="17" facs="https://betalab.kb.se/prot-1972--52/prot_1972__52-017.jp2/_view"/>
-          <note n="a08f4cf3">
-            Herr NILSSON i Agnäs (m):
-          </note>
-          <note n="5ee3434a">
-            I skollagen den 6 juni 1962 står det i I kap. 1 8 att när skolan
-            arbetar skall den göra det i samarbete med hemmen. Det bör vara
-            samförstånd och samarbete med alla hem. I 6 kap. 33 $ står: ”Skolplikt
-            må fullgöras i annan offentlig skola än grundskolan eller i enskild
-            statsunderstödd skola enligt bestämmelser, som utfärdas av Konungen
-            eller den myndighet Konungen förordnar.”
-          </note>
-          <note n="ad9d7d6d">
-            Nr 52
-          </note>
-          <note type="date" n="4d6cfbaf">
-            Onsdagen den 5 april 1972
-          </note>
-          <note n="00ca2bf0">
-            Vissa gemensamma
-          </note>
-          <note n="59bba09f">
-            frågor
-          </note>
-          <note n="c81379db">
-            155
-          </note>
-          <pb n="18" facs="https://betalab.kb.se/prot-1972--52/prot_1972__52-018.jp2/_view"/>
-          <note n="ad9d7d6d">
-            Nr 52
-          </note>
-          <note type="date" n="4d6cfbaf">
-            Onsdagen den 5 april 1972
-          </note>
-          <note n="00ca2bf0">
-            Vissa gemensamma
-          </note>
-          <note n="59bba09f">
-            frågor
-          </note>
-          <note n="d216038a">
-            156
-          </note>
-          <pb n="19" facs="https://betalab.kb.se/prot-1972--52/prot_1972__52-019.jp2/_view"/>
           <note n="ad9d7d6d">
             Nr 52
           </note>
@@ -1699,10 +1713,30 @@
           <note n="5e5582ce">
             158
           </note>
+          <u who="britt_mogard_279f45" xml:id="i-ccfbd0d8ea340d38-8" prev="i-ccfbd0d8ea340d38-0" n="f56091c7">
+            <seg n="62dffff5">
+              Det finns naturligtvis ett alternativ till, och det är den totalitära
+              statens. Jag är en av dem som underkänner Marx som filosof och
+              samhällsbyggare. Han är död. Men i de kommunistiska länder som
+              åberopar Marx finns en skola med ordning och som syftar till att
+              bevara det samhället, ett samhälle som jag inte i och för sig
+              skulle trivas i men där det utan tvivel är annorlunda i skolan.
+              Jag har här 20 punkter som är ordningsregler enligt det ryska
+              undervisningsväsendet — jag skall inte läsa upp dem, så förskräcks
+              inte! Det är ett långt stycke. Men jag kan gärna låna ut det om
+              det är någon som är intresserad. Det finns en mängd saker där,
+              som jag gärna skulle se respekterade också i den svenska skolan.
+              Skall vi behålla demokratin, rättssamhället, friheten och tankens
+              rymd i Sverige, måste också vi behålla och befästa våra grundvalar.
+            </seg>
+            <seg n="d27a4efa">
+              Vi som vill ha ett kristet skolalternativ tycker så.
+            </seg>
+          </u>
           <note type="speaker" n="48297645">
             Herr WIKSTRÖM (fp):
           </note>
-          <u who="jan-erik_wikstrom_9d5b79" xml:id="i-bf6cdf63c7ac1ff5-0" next="i-33d3fe8ac79306b6-0" n="e52fdbab">
+          <u who="jan-erik_wikstrom_9d5b79" xml:id="i-a7bffff4b4ba59b0-0" next="i-a7bffff4b4ba59b0-13" n="e52fdbab">
             <seg n="c254ee6f">
               Herr talman! Jag måste börja med att beklaga att jag tvingas
               ta några fler minuter i anspråk än jag ursprungligen hade angivit,
@@ -1750,6 +1784,9 @@
               skäl för ett bidrag”. Förutom stöd till experimentoch friskolor
               nämnde departementschefen
             </seg>
+          </u>
+          <pb n="21" facs="https://betalab.kb.se/prot-1972--52/prot_1972__52-021.jp2/_view"/>
+          <u who="jan-erik_wikstrom_9d5b79" xml:id="i-a7bffff4b4ba59b0-1" prev="i-a7bffff4b4ba59b0-0" n="e52fdbab">
             <seg n="fdaeddf0">
               även s.k. nationalitetsskolor. Slutligen anförde han: Redan utgående
               statsbidrag torde sålunda böra indragas endast om starka skäl
@@ -1817,7 +1854,6 @@
               dem som i första hand vill ha privatskolor av
             </seg>
           </u>
-          <pb n="21" facs="https://betalab.kb.se/prot-1972--52/prot_1972__52-021.jp2/_view"/>
           <note n="ad9d7d6d">
             Nr 52
           </note>
@@ -1840,10 +1876,15 @@
           <note type="date" n="4d6cfbaf">
             Onsdagen den 5 april 1972
           </note>
-          <u who="jan-erik_wikstrom_9d5b79" xml:id="i-33d3fe8ac79306b6-0" prev="i-bf6cdf63c7ac1ff5-0" n="e52fdbab">
+          <u who="jan-erik_wikstrom_9d5b79" xml:id="i-a7bffff4b4ba59b0-2" prev="i-a7bffff4b4ba59b0-0" n="e52fdbab">
             <seg n="8720748e">
               Vissa gemensamma frågor
             </seg>
+          </u>
+          <note n="9a21fa0c">
+            160
+          </note>
+          <u who="jan-erik_wikstrom_9d5b79" xml:id="i-a7bffff4b4ba59b0-3" prev="i-a7bffff4b4ba59b0-0" n="e52fdbab">
             <seg n="2a2c8514">
               pedagogiska eller andra motiv. Jag vill gärna upprepa frågan:
               Vilken är moderata samlingspartiets uppfattning i fråga om ett
@@ -1907,6 +1948,9 @@
               skulle vända sig enbart till de välanpassade, till fromma föräldrars
               mer eller mindre fromma barn, medan samhället i den
             </seg>
+          </u>
+          <pb n="23" facs="https://betalab.kb.se/prot-1972--52/prot_1972__52-023.jp2/_view"/>
+          <u who="jan-erik_wikstrom_9d5b79" xml:id="i-a7bffff4b4ba59b0-4" prev="i-a7bffff4b4ba59b0-0" n="e52fdbab">
             <seg n="d8f76143">
               vanliga skolan skulle dra försorg om alla andra. Både med tanke
               på Nr 52 samhörigheten i samhället och med tanke på budet att
@@ -1976,7 +2020,28 @@
               han talade om visar ganska bra vad det handlar om. I interpellationen
               talas det bara 161
             </seg>
-            <seg n="ad136b6c"/>
+          </u>
+          <note n="c651bd2c">
+            6 Riksdagens protokoll 1972. Nr 50—52
+          </note>
+          <u who="jan-erik_wikstrom_9d5b79" xml:id="i-a7bffff4b4ba59b0-5" prev="i-a7bffff4b4ba59b0-0" n="e52fdbab"/>
+          <pb n="24" facs="https://betalab.kb.se/prot-1972--52/prot_1972__52-024.jp2/_view"/>
+          <note n="ad9d7d6d">
+            Nr 52
+          </note>
+          <note type="date" n="34bc57a0">
+            | Onsdagen den 5 april 1972
+          </note>
+          <note n="9178b6a8">
+            | Vissa gemensamma
+          </note>
+          <note n="59bba09f">
+            frågor
+          </note>
+          <note n="944fce96">
+            162
+          </note>
+          <u who="jan-erik_wikstrom_9d5b79" xml:id="i-a7bffff4b4ba59b0-6" prev="i-a7bffff4b4ba59b0-0" n="e52fdbab">
             <seg n="d7281b27">
               om att det är bra med privatskolor, eftersom det ibland behövs
               en lugnare skolmiljö. De kan vara ett billigare alternativ, och
@@ -2048,6 +2113,9 @@
               och det finns ingen anledning att tro att det skulle vara annorlunda
               i fortsättningen.
             </seg>
+          </u>
+          <pb n="25" facs="https://betalab.kb.se/prot-1972--52/prot_1972__52-025.jp2/_view"/>
+          <u who="jan-erik_wikstrom_9d5b79" xml:id="i-a7bffff4b4ba59b0-7" prev="i-a7bffff4b4ba59b0-0" n="e52fdbab">
             <seg n="33c559e1">
               Nu håller dessa enskilda skolor med enskilda huvudmän på att
               slås ut. Vad vi nu vill är att få till stånd en utredning som
@@ -2112,7 +2180,40 @@
               Det är bara en liten del som är det. De vill gärna skicka sina
               barn till en kristen skola för att få hjälp.
             </seg>
-            <seg n="ad136b6c"/>
+          </u>
+          <note n="ad9d7d6d">
+            Nr 52
+          </note>
+          <note type="date" n="4d6cfbaf">
+            Onsdagen den 5 april 1972
+          </note>
+          <note n="00ca2bf0">
+            Vissa gemensamma
+          </note>
+          <note n="59bba09f">
+            frågor
+          </note>
+          <note n="b9424280">
+            163
+          </note>
+          <pb n="26" facs="https://betalab.kb.se/prot-1972--52/prot_1972__52-026.jp2/_view"/>
+          <u who="jan-erik_wikstrom_9d5b79" xml:id="i-a7bffff4b4ba59b0-8" prev="i-a7bffff4b4ba59b0-0" n="e52fdbab"/>
+          <note n="ad9d7d6d">
+            Nr 52
+          </note>
+          <note type="date" n="4d6cfbaf">
+            Onsdagen den 5 april 1972
+          </note>
+          <note n="00ca2bf0">
+            Vissa gemensamma
+          </note>
+          <note n="59bba09f">
+            frågor
+          </note>
+          <note n="ac1e7b27">
+            164
+          </note>
+          <u who="jan-erik_wikstrom_9d5b79" xml:id="i-a7bffff4b4ba59b0-9" prev="i-a7bffff4b4ba59b0-0" n="e52fdbab">
             <seg n="b809295b">
               Herr WERNER i Malmö (m) kort genmäle:
             </seg>
@@ -2186,6 +2287,9 @@
               skolor som finns, dels ge möjlighet till nya sådana skolor med
               alternativa huvudmän
             </seg>
+          </u>
+          <pb n="27" facs="https://betalab.kb.se/prot-1972--52/prot_1972__52-027.jp2/_view"/>
+          <u who="jan-erik_wikstrom_9d5b79" xml:id="i-a7bffff4b4ba59b0-10" prev="i-a7bffff4b4ba59b0-0" n="e52fdbab">
             <seg n="c4abb909">
               att växa upp. Vi vill att villkoren för att detta skall kunna
               ske skall undersökas i form av en utredning. Läs vad reservationen
@@ -2238,6 +2342,16 @@
               om moderata samlingspartiets skolpolitik än med en utredning av
               den typ som reservationen förordar.
             </seg>
+          </u>
+          <note n="b8099465">
+            Herr tredje vice talmannen anmälde att herr Nordstrandh anhållit
+            att till protokollet få antecknat att han inte ägde rätt till
+            ytterligare replik.
+          </note>
+          <note n="8119a64d">
+            Herr BERNDTSON i Linköping (vpk):
+          </note>
+          <u who="jan-erik_wikstrom_9d5b79" xml:id="i-a7bffff4b4ba59b0-11" prev="i-a7bffff4b4ba59b0-0" n="e52fdbab">
             <seg n="c0ecd60e">
               Herr talman! Det är naturligt om skolmiljön ställes under debatt.
               I skolan skall ungdomarna tillbringa en stor del av sin tid. Där
@@ -2254,10 +2368,38 @@
               av dagens debatt här i kammaren. Låt mig, herr talman, återknyta
               till detta problem efter den pikanta
             </seg>
+          </u>
+          <note n="ad9d7d6d">
+            Nr 52
+          </note>
+          <note type="date" n="4d6cfbaf">
+            Onsdagen den 5 april 1972
+          </note>
+          <note n="00ca2bf0">
+            Vissa gemensamma
+          </note>
+          <note n="59bba09f">
+            frågor
+          </note>
+          <note n="da26e928">
+            165
+          </note>
+          <pb n="28" facs="https://betalab.kb.se/prot-1972--52/prot_1972__52-028.jp2/_view"/>
+          <note n="ad9d7d6d">
+            Nr 52
+          </note>
+          <note n="33dac969">
+            Onsdagen den S april 1972
+          </note>
+          <u who="jan-erik_wikstrom_9d5b79" xml:id="i-a7bffff4b4ba59b0-12" prev="i-a7bffff4b4ba59b0-0" n="e52fdbab">
             <seg n="8720748e">
               Vissa gemensamma frågor
             </seg>
-            <seg n="ad136b6c"/>
+          </u>
+          <note n="7f2644b4">
+            166
+          </note>
+          <u who="jan-erik_wikstrom_9d5b79" xml:id="i-a7bffff4b4ba59b0-13" prev="i-a7bffff4b4ba59b0-0" n="e52fdbab">
             <seg n="4d8cdf45">
               uppgörelse mellan moderater och folkpartister som vi nyss har
               åhört i en annan frågeställning.
@@ -2311,99 +2453,10 @@
               problemen skall kunna angripas på ett verkningsfullt sätt.
             </seg>
           </u>
-          <note n="9a21fa0c">
-            160
-          </note>
-          <pb n="23" facs="https://betalab.kb.se/prot-1972--52/prot_1972__52-023.jp2/_view"/>
-          <note n="c651bd2c">
-            6 Riksdagens protokoll 1972. Nr 50—52
-          </note>
-          <pb n="24" facs="https://betalab.kb.se/prot-1972--52/prot_1972__52-024.jp2/_view"/>
-          <note n="ad9d7d6d">
-            Nr 52
-          </note>
-          <note n="94604467">
-            | Onsdagen den 5 april 1972
-          </note>
-          <note n="9178b6a8">
-            | Vissa gemensamma
-          </note>
-          <note n="59bba09f">
-            frågor
-          </note>
-          <note n="944fce96">
-            162
-          </note>
-          <pb n="25" facs="https://betalab.kb.se/prot-1972--52/prot_1972__52-025.jp2/_view"/>
-          <note n="ad9d7d6d">
-            Nr 52
-          </note>
-          <note type="date" n="4d6cfbaf">
-            Onsdagen den 5 april 1972
-          </note>
-          <note n="00ca2bf0">
-            Vissa gemensamma
-          </note>
-          <note n="59bba09f">
-            frågor
-          </note>
-          <note n="b9424280">
-            163
-          </note>
-          <pb n="26" facs="https://betalab.kb.se/prot-1972--52/prot_1972__52-026.jp2/_view"/>
-          <note n="ad9d7d6d">
-            Nr 52
-          </note>
-          <note type="date" n="4d6cfbaf">
-            Onsdagen den 5 april 1972
-          </note>
-          <note n="00ca2bf0">
-            Vissa gemensamma
-          </note>
-          <note n="59bba09f">
-            frågor
-          </note>
-          <note n="ac1e7b27">
-            164
-          </note>
-          <pb n="27" facs="https://betalab.kb.se/prot-1972--52/prot_1972__52-027.jp2/_view"/>
-          <note n="b8099465">
-            Herr tredje vice talmannen anmälde att herr Nordstrandh anhållit
-            att till protokollet få antecknat att han inte ägde rätt till
-            ytterligare replik.
-          </note>
-          <note n="8119a64d">
-            Herr BERNDTSON i Linköping (vpk):
-          </note>
-          <note n="ad9d7d6d">
-            Nr 52
-          </note>
-          <note type="date" n="4d6cfbaf">
-            Onsdagen den 5 april 1972
-          </note>
-          <note n="00ca2bf0">
-            Vissa gemensamma
-          </note>
-          <note n="59bba09f">
-            frågor
-          </note>
-          <note n="da26e928">
-            165
-          </note>
-          <pb n="28" facs="https://betalab.kb.se/prot-1972--52/prot_1972__52-028.jp2/_view"/>
-          <note n="ad9d7d6d">
-            Nr 52
-          </note>
-          <note n="33dac969">
-            Onsdagen den S april 1972
-          </note>
-          <note n="7f2644b4">
-            166
-          </note>
           <note type="speaker" n="422fd7fe">
             Herr ALEMYR (s):
           </note>
-          <u who="stig_alemyr_967892" xml:id="i-fc0c7effe12d34dc-0" next="i-a083323ffa97a226-0" n="d2c06655">
+          <u who="stig_alemyr_967892" xml:id="i-d2c0665538f69355-0" next="i-d2c0665538f69355-4" n="d2c06655">
             <seg n="0fd15350">
               Herr talman! Under denna första punkt i utskottets betänkande
               har det förekommit en lång diskussion. Till punkten har det fogats
@@ -2421,6 +2474,9 @@
               som skulle vara önskvärt för att debatten skulle bli överskådlig
               och lätt att följa.
             </seg>
+          </u>
+          <pb n="29" facs="https://betalab.kb.se/prot-1972--52/prot_1972__52-029.jp2/_view"/>
+          <u who="stig_alemyr_967892" xml:id="i-d2c0665538f69355-1" prev="i-d2c0665538f69355-0" n="d2c06655">
             <seg n="7015f4db">
               Kammarens ärade ledamöter har klart för sig att det här betänkandet
               om skolan är ett av de största som årets riksdag har att ta ställning
@@ -2484,7 +2540,6 @@
               vi decentraliserar beslutsfunk-
             </seg>
           </u>
-          <pb n="29" facs="https://betalab.kb.se/prot-1972--52/prot_1972__52-029.jp2/_view"/>
           <note n="ad9d7d6d">
             Nr 52
           </note>
@@ -2501,8 +2556,23 @@
             167
           </note>
           <pb n="30" facs="https://betalab.kb.se/prot-1972--52/prot_1972__52-030.jp2/_view"/>
-          <u who="stig_alemyr_967892" xml:id="i-a083323ffa97a226-0" prev="i-fc0c7effe12d34dc-0" n="d2c06655">
-            <seg n="ad136b6c"/>
+          <u who="stig_alemyr_967892" xml:id="i-d2c0665538f69355-2" prev="i-d2c0665538f69355-0" n="d2c06655"/>
+          <note n="ad9d7d6d">
+            Nr 52
+          </note>
+          <note type="date" n="4d6cfbaf">
+            Onsdagen den 5 april 1972
+          </note>
+          <note n="00ca2bf0">
+            Vissa gemensamma
+          </note>
+          <note n="59bba09f">
+            frågor
+          </note>
+          <note n="237e05b9">
+            168
+          </note>
+          <u who="stig_alemyr_967892" xml:id="i-d2c0665538f69355-3" prev="i-d2c0665538f69355-0" n="d2c06655">
             <seg n="855c20c3">
               tionerna ut till kommunerna, och andra dagen gå en annan väg
               och kräva en stark centralisering så att beslutsfunktionerna skall
@@ -2571,6 +2641,9 @@
               sida skall ge råd i den här riktningen, när kommunalmännen börjar
               planera sina skolor. Något direkt ingripande i den kommunala självbestämmande-
             </seg>
+          </u>
+          <pb n="31" facs="https://betalab.kb.se/prot-1972--52/prot_1972__52-031.jp2/_view"/>
+          <u who="stig_alemyr_967892" xml:id="i-d2c0665538f69355-4" prev="i-d2c0665538f69355-0" n="d2c06655">
             <seg n="8f9c482d">
               rätten rör det sig faktiskt inte om, herr Alemyr, och det är
               inte heller avsett.
@@ -2629,26 +2702,10 @@
               självstyrelsen klart pekar ut som de riktiga.
             </seg>
           </u>
-          <note n="ad9d7d6d">
-            Nr 52
-          </note>
-          <note type="date" n="4d6cfbaf">
-            Onsdagen den 5 april 1972
-          </note>
-          <note n="00ca2bf0">
-            Vissa gemensamma
-          </note>
-          <note n="59bba09f">
-            frågor
-          </note>
-          <note n="237e05b9">
-            168
-          </note>
-          <pb n="31" facs="https://betalab.kb.se/prot-1972--52/prot_1972__52-031.jp2/_view"/>
           <note type="speaker" n="1d993d6c">
             Fru MOGÅRD (m):
           </note>
-          <u who="britt_mogard_279f45" xml:id="i-de1e8d35e8a50840-1" next="i-dde6989dd4b7f099-1" n="f56091c7">
+          <u who="britt_mogard_279f45" xml:id="i-ccfbd0d8ea340d38-9" next="i-ccfbd0d8ea340d38-11" n="f56091c7">
             <seg n="42b90acb">
               Herr talman! Genom att inte lyssna ordentligt och genom att avsiktligt
               misstolka gjorde herr Alemyr en magistral betygsättning av halten
@@ -2679,7 +2736,23 @@
             169
           </note>
           <pb n="32" facs="https://betalab.kb.se/prot-1972--52/prot_1972__52-032.jp2/_view"/>
-          <u who="britt_mogard_279f45" xml:id="i-dde6989dd4b7f099-1" prev="i-de1e8d35e8a50840-1" n="f56091c7">
+          <u who="britt_mogard_279f45" xml:id="i-ccfbd0d8ea340d38-10" prev="i-ccfbd0d8ea340d38-9" n="f56091c7"/>
+          <note n="ad9d7d6d">
+            Nr 52
+          </note>
+          <note type="date" n="4d6cfbaf">
+            Onsdagen den 5 april 1972
+          </note>
+          <note n="00ca2bf0">
+            Vissa gemensamma
+          </note>
+          <note n="59bba09f">
+            frågor
+          </note>
+          <note n="2c9a0711">
+            170
+          </note>
+          <u who="britt_mogard_279f45" xml:id="i-ccfbd0d8ea340d38-11" prev="i-ccfbd0d8ea340d38-9" n="f56091c7">
             <seg n="fe717df1">
               debatt, även om den råkar föras under jämlikhetsbanerets täckmantel?
             </seg>
@@ -2701,25 +2774,10 @@
               i det avseendet är riktig?
             </seg>
           </u>
-          <note n="ad9d7d6d">
-            Nr 52
-          </note>
-          <note type="date" n="4d6cfbaf">
-            Onsdagen den 5 april 1972
-          </note>
-          <note n="00ca2bf0">
-            Vissa gemensamma
-          </note>
-          <note n="59bba09f">
-            frågor
-          </note>
-          <note n="2c9a0711">
-            170
-          </note>
           <note type="speaker" n="422fd7fe">
             Herr ALEMYR (s):
           </note>
-          <u who="stig_alemyr_967892" xml:id="i-42bd74677b4adac6-0" n="d2c06655">
+          <u who="stig_alemyr_967892" xml:id="i-d2c0665538f69355-5" n="d2c06655">
             <seg n="89c466ab">
               Herr talman! På en enda punkt är jag beredd att revidera mitt
               påstående i talarstolen, nämligen det som jag sade om reservationerna
@@ -2752,7 +2810,7 @@
           <note type="speaker" n="1d993d6c">
             Fru MOGÅRD (m):
           </note>
-          <u who="britt_mogard_279f45" xml:id="i-de1e8d35e8a50840-2" next="i-dde6989dd4b7f099-2" n="f56091c7">
+          <u who="britt_mogard_279f45" xml:id="i-ccfbd0d8ea340d38-12" next="i-ccfbd0d8ea340d38-21" n="f56091c7">
             <seg n="0a79f461">
               Herr talman! De ideologiska skillnader som kommer till uttryck
               i reservationen A 2 kommer alltså även till uttryck mellan UNESCO-konventionen
@@ -2764,6 +2822,9 @@
               därför att det bara är en liten grupp som står bakom den. Jag
               tycker att det är
             </seg>
+          </u>
+          <pb n="33" facs="https://betalab.kb.se/prot-1972--52/prot_1972__52-033.jp2/_view"/>
+          <u who="britt_mogard_279f45" xml:id="i-ccfbd0d8ea340d38-13" prev="i-ccfbd0d8ea340d38-12" n="f56091c7">
             <seg n="9d70d3ff">
               ganska typiskt för den socialdemokratiska kollektivistiska synen
               att anse att man inte behöver bry sig så särskilt mycket om en
@@ -2771,7 +2832,6 @@
               uppfattning ideologiskt sett.
             </seg>
           </u>
-          <pb n="33" facs="https://betalab.kb.se/prot-1972--52/prot_1972__52-033.jp2/_view"/>
           <note n="80ccbdab">
             Överläggningen var härmed slutad.
           </note>
@@ -2789,19 +2849,168 @@
             Den som vill att kammaren bifaller utbildningsutskottets hemställan
             i betänkandet nr 2 punkten 1 mom. 1 röstar ja,
           </note>
-          <u who="britt_mogard_279f45" xml:id="i-dde6989dd4b7f099-2" prev="i-de1e8d35e8a50840-2" n="f56091c7">
+          <u who="britt_mogard_279f45" xml:id="i-ccfbd0d8ea340d38-14" prev="i-ccfbd0d8ea340d38-12" n="f56091c7">
             <seg n="4cec1429">
               den det ej vill röstar nej.
             </seg>
+          </u>
+          <note n="0b62fa43">
+            Vinner nej har kammaren bifallit reservationen nr A 1 av herr
+            Wikström m. fl.
+          </note>
+          <note n="1f447d30">
+            Vid omröstning genom uppresning förklarades flertalet av kammarens
+            ledamöter ha röstat för ja-propositionen. Då herr Jonsson i Alingsås
+            begärde rösträkning verkställdes votering med omröstningsapparat.
+            Denna omröstning gav följande resultat:
+          </note>
+          <note n="2593a89d">
+            Ja — 162 Nej — 146 Avstår — s
+          </note>
+          <note n="2221d9fe">
+            Mom. 2 Utskottets hemställan bifölls.
+          </note>
+          <note n="aa2ba644">
+            Mom. 3
+          </note>
+          <note n="6e7c2248">
+            Propositioner gavs på bifall till dels utskottets hemställan,
+            dels reservationen nr A 2 av herrar Nordstrandh och Strindberg,
+            och förklarades den förra propositionen vara med övervägande ja
+            besvarad. Sedan herr Nordstrandh begärt votering upplästes och
+            godkändes följande voteringsproposition:
+          </note>
+          <note n="7df693e1">
+            Den som vill att kammaren bifaller utbildningsutskottets hemställan
+            i betänkandet nr 2 punkten I mom. 3 röstar ja,
+          </note>
+          <u who="britt_mogard_279f45" xml:id="i-ccfbd0d8ea340d38-15" prev="i-ccfbd0d8ea340d38-12" n="f56091c7">
             <seg n="4cec1429">
               den det ej vill röstar nej.
             </seg>
+          </u>
+          <note n="b7297748">
+            Vinner nej har kammaren bifallit reservationen nr A 2 av herrar
+            Nordstrandh och Strindberg.
+          </note>
+          <note n="310d2ec0">
+            Vid omröstning genom uppresning förklarades flertalet av kammarens
+            ledamöter ha röstat för ja-propositionen. Då herr Nordstrandh
+            begärde rösträkning verkställdes votering med omröstningsapparat.
+            Denna omröstning gav följande resultat:
+          </note>
+          <note n="1606208f">
+            Ja — 271 Nej — 38 Avstår — s
+          </note>
+          <note n="ad9d7d6d">
+            Nr 52
+          </note>
+          <note type="date" n="4d6cfbaf">
+            Onsdagen den 5 april 1972
+          </note>
+          <note n="00ca2bf0">
+            Vissa gemensamma
+          </note>
+          <note n="59bba09f">
+            frågor
+          </note>
+          <pb n="34" facs="https://betalab.kb.se/prot-1972--52/prot_1972__52-034.jp2/_view"/>
+          <note n="ad9d7d6d">
+            Nr 52
+          </note>
+          <note type="date" n="4d6cfbaf">
+            Onsdagen den 5 april 1972
+          </note>
+          <note n="00ca2bf0">
+            Vissa gemensamma
+          </note>
+          <note n="59bba09f">
+            frågor
+          </note>
+          <note n="3a228efd">
+            172
+          </note>
+          <note n="5033a703">
+            Mom. 4 Utskottets hemställan bifölls.
+          </note>
+          <note n="1ff8c21b">
+            Mom. 5
+          </note>
+          <note n="3da9b4e1">
+            Propositioner gavs på bifall till dels utskottets hemställan,
+            dels reservationen nr A 3 av herrar Wikström och Jonsson i Alingsås,
+            och förklarades den förra propositionen vara med övervägande ja
+            besvarad. Sedan herr Jonsson i Alingsås begärt votering upplästes
+            och godkändes följande voteringsproposition:
+          </note>
+          <note n="303a7892">
+            Den som vill att kammaren bifaller utbildningsutskottets hemställan
+            i betänkandet nr 2 punkten I mom. 5 röstar ja,
+          </note>
+          <u who="britt_mogard_279f45" xml:id="i-ccfbd0d8ea340d38-16" prev="i-ccfbd0d8ea340d38-12" n="f56091c7">
             <seg n="4cec1429">
               den det ej vill röstar nej.
             </seg>
+          </u>
+          <note n="8eae0f56">
+            Vinner nej har kammaren bifallit reservationen nr A 3 av herrar
+            Wikström och Jonsson i Alingsås.
+          </note>
+          <note n="1f447d30">
+            Vid omröstning genom uppresning förklarades flertalet av kammarens
+            ledamöter ha röstat för ja-propositionen. Då herr Jonsson i Alingsås
+            begärde rösträkning verkställdes votering med omröstningsapparat.
+            Denna omröstning gav följande resultat:
+          </note>
+          <note n="21a199f1">
+            Ja — 2SS Nej — 53 Avstår — 6
+          </note>
+          <note n="2b689bae">
+            Mom. 6
+          </note>
+          <note n="dcb01bd8">
+            Propositioner gavs på bifall till dels utskottets hemställan,
+            dels reservationen nr A 4 av herr Wikström m. fl., och förklarades
+            den förra propositionen vara med övervägande ja besvarad. Sedan
+            herr Jonsson i Alingsås begärt votering upplästes och godkändes
+            följande voteringsproposition:
+          </note>
+          <note n="8ecaefc6">
+            Den som vill att kammaren bifaller utbildningsutskottets hemställan
+            i betänkandet nr 2 punkten I mom. 6 röstar ja,
+          </note>
+          <u who="britt_mogard_279f45" xml:id="i-ccfbd0d8ea340d38-17" prev="i-ccfbd0d8ea340d38-12" n="f56091c7">
             <seg n="4cec1429">
               den det ej vill röstar nej.
             </seg>
+          </u>
+          <note n="1fcd93f0">
+            Vinner nej har kammaren bifallit reservationen nr A 4 av herr
+            Wikström m. fl.
+          </note>
+          <note n="1f447d30">
+            Vid omröstning genom uppresning förklarades flertalet av kammarens
+            ledamöter ha röstat för ja-propositionen. Då herr Jonsson i Alingsås
+            begärde rösträkning verkställdes votering med omröstningsapparat.
+            Denna omröstning gav följande resultat:
+          </note>
+          <note n="9da2e90e">
+            Ja — 190 Nej — 119 Avstår — =S
+          </note>
+          <note n="fa67de90">
+            Mom. 7 och 8 Utskottets hemställan bifölls.
+          </note>
+          <note n="21b7df57">
+            Punkten 2 Utskottets hemställan bifölls.
+          </note>
+          <pb n="35" facs="https://betalab.kb.se/prot-1972--52/prot_1972__52-035.jp2/_view"/>
+          <note n="6670a795">
+            Punkten 3 Läroboksnämnden
+          </note>
+          <note n="a08f4cf3">
+            Herr NILSSON i Agnäs (m):
+          </note>
+          <u who="britt_mogard_279f45" xml:id="i-ccfbd0d8ea340d38-18" prev="i-ccfbd0d8ea340d38-12" n="f56091c7">
             <seg n="7198d4e4">
               Herr talman! Jag skall bara säga några få ord vid denna punkt.
             </seg>
@@ -2843,12 +3052,62 @@
               gäller läromedlen. Men den frågan blir det som sagt anledning
               att ta upp senare, och jag har för dagen inget yrkande.
             </seg>
+          </u>
+          <note n="d4c9bed5">
+            Herr WESTBERG i Ljusdal (fp):
+          </note>
+          <u who="britt_mogard_279f45" xml:id="i-ccfbd0d8ea340d38-19" prev="i-ccfbd0d8ea340d38-12" n="f56091c7">
             <seg n="503d3d23">
               Herr talman! Som motionär angående skolans undervisning i sexualoch
               samlevnadsfrågor vill jag gärna med några ord kommentera föreliggande
               utskottsbetänkande med avseende på punkten 3.
             </seg>
-            <seg n="ad136b6c"/>
+          </u>
+          <note n="8501d805">
+            Utskottet har behandlat den av oss avgivna motionen 1168 välvilligt.
+            I betänkandet sägs att utskottet vid sina ställningstaganden till
+            motionen ”haft som en självklar utgångspunkt att innehållet i
+            skolans sexualundervisning bedrivs i överensstämmelse med vad
+            som angetts för olika skolstadier i läroplan och andra anvisningar,
+            intill dess beslut om eventuella förändringar i vederbörlig ordning
+            fattats i anledning av USSU:s förslag”. Jag finner detta uttalande
+            vara helt tillfredsställande och i god överensstämmelse med de
+            synpunkter som anförts i motionen.
+          </note>
+          <note n="2584135a">
+            Utskottet hänvisar därjämte till skolöverstyrelsens skrivelse
+            till länsskolnämnder och skolstyrelser i december förra året angående
+            läromedel i sexualoch samlevnadsundervisningen och fogar därtill
+            denna skrivelse som bilaga till utskottsbetänkandet. Jag tolkar
+            detta som ett viktigt
+          </note>
+          <note n="ad9d7d6d">
+            Nr 52
+          </note>
+          <note type="date" n="4d6cfbaf">
+            Onsdagen den 5 april 1972
+          </note>
+          <note n="d28edc26">
+            Läroboksnämnden
+          </note>
+          <note n="24a2089b">
+            173
+          </note>
+          <pb n="36" facs="https://betalab.kb.se/prot-1972--52/prot_1972__52-036.jp2/_view"/>
+          <u who="britt_mogard_279f45" xml:id="i-ccfbd0d8ea340d38-20" prev="i-ccfbd0d8ea340d38-12" n="f56091c7"/>
+          <note n="ad9d7d6d">
+            Nr 52
+          </note>
+          <note type="date" n="4d6cfbaf">
+            Onsdagen den 5 april 1972
+          </note>
+          <note n="d28edc26">
+            Läroboksnämnden
+          </note>
+          <note n="7f28a9ac">
+            174
+          </note>
+          <u who="britt_mogard_279f45" xml:id="i-ccfbd0d8ea340d38-21" prev="i-ccfbd0d8ea340d38-12" n="f56091c7">
             <seg n="5d8c5ff6">
               ställningstagande från utskottets sida, ett ställningstagande
               som innebär att utskottet ställer sig bakom de synpunkter som
@@ -2912,7 +3171,7 @@
           <note type="speaker" n="c4cd3194">
             Fru ERIKSSON i Stockholm (s):
           </note>
-          <u who="olle_eriksson_406b8f" xml:id="i-95b437763e5c2ba8-0" n="b5612edd">
+          <u who="olle_eriksson_406b8f" xml:id="i-b5612edd88c70841-0" next="i-ccfbd0d8ea340d38-24" n="b5612edd">
             <seg n="d5fc40ff">
               Herr talman! Jag skall inte prata sex — det var inte min avsikt
               — utan jag ämnar tala om läroböckerna för invandrarbarnen. Det
@@ -2924,6 +3183,9 @@
               Det är naturligtvis inte tal om annat än att sexualundervisningen
               är en
             </seg>
+          </u>
+          <pb n="37" facs="https://betalab.kb.se/prot-1972--52/prot_1972__52-037.jp2/_view"/>
+          <u who="olle_eriksson_406b8f" xml:id="i-ccfbd0d8ea340d38-22" prev="i-b5612edd88c70841-0" n="b5612edd">
             <seg n="5308bd18">
               chock för invandrarbarnen. Det blir en miljökollision, som ibland
               skapar spänning och oro. Och jag känner till, genom kontakt med
@@ -2986,7 +3248,34 @@
               Vi måste underlätta för dem att lära det som står i de svenska
               läroböckerna, även om de inte kan det svenska språket perfekt.
             </seg>
-            <seg n="ad136b6c"/>
+          </u>
+          <note n="ad9d7d6d">
+            Nr 52
+          </note>
+          <note type="date" n="4d6cfbaf">
+            Onsdagen den 5 april 1972
+          </note>
+          <note n="d28edc26">
+            Läroboksnämnden
+          </note>
+          <note n="9da8e57b">
+            175
+          </note>
+          <pb n="38" facs="https://betalab.kb.se/prot-1972--52/prot_1972__52-038.jp2/_view"/>
+          <u who="olle_eriksson_406b8f" xml:id="i-ccfbd0d8ea340d38-23" prev="i-b5612edd88c70841-0" n="b5612edd"/>
+          <note n="ad9d7d6d">
+            Nr 52
+          </note>
+          <note type="date" n="4d6cfbaf">
+            Onsdagen den 5 april 1972
+          </note>
+          <note n="d28edc26">
+            Läroboksnämnden
+          </note>
+          <note n="73fae185">
+            176
+          </note>
+          <u who="olle_eriksson_406b8f" xml:id="i-ccfbd0d8ea340d38-24" prev="i-b5612edd88c70841-0" n="b5612edd">
             <seg n="40fb6faf">
               I en av grekjuntans böcker, fysikboken, såg jag hur man förklarade
               att vatten hade tre olika tillstånd: is, ånga och vatten. Men
@@ -3017,223 +3306,10 @@
               man ägnat det tillräcklig uppmärksamhet.
             </seg>
           </u>
-          <note n="0b62fa43">
-            Vinner nej har kammaren bifallit reservationen nr A 1 av herr
-            Wikström m. fl.
-          </note>
-          <note n="1f447d30">
-            Vid omröstning genom uppresning förklarades flertalet av kammarens
-            ledamöter ha röstat för ja-propositionen. Då herr Jonsson i Alingsås
-            begärde rösträkning verkställdes votering med omröstningsapparat.
-            Denna omröstning gav följande resultat:
-          </note>
-          <note n="2593a89d">
-            Ja — 162 Nej — 146 Avstår — s
-          </note>
-          <note n="2221d9fe">
-            Mom. 2 Utskottets hemställan bifölls.
-          </note>
-          <note n="aa2ba644">
-            Mom. 3
-          </note>
-          <note n="6e7c2248">
-            Propositioner gavs på bifall till dels utskottets hemställan,
-            dels reservationen nr A 2 av herrar Nordstrandh och Strindberg,
-            och förklarades den förra propositionen vara med övervägande ja
-            besvarad. Sedan herr Nordstrandh begärt votering upplästes och
-            godkändes följande voteringsproposition:
-          </note>
-          <note n="7df693e1">
-            Den som vill att kammaren bifaller utbildningsutskottets hemställan
-            i betänkandet nr 2 punkten I mom. 3 röstar ja,
-          </note>
-          <note n="b7297748">
-            Vinner nej har kammaren bifallit reservationen nr A 2 av herrar
-            Nordstrandh och Strindberg.
-          </note>
-          <note n="310d2ec0">
-            Vid omröstning genom uppresning förklarades flertalet av kammarens
-            ledamöter ha röstat för ja-propositionen. Då herr Nordstrandh
-            begärde rösträkning verkställdes votering med omröstningsapparat.
-            Denna omröstning gav följande resultat:
-          </note>
-          <note n="1606208f">
-            Ja — 271 Nej — 38 Avstår — s
-          </note>
-          <note n="ad9d7d6d">
-            Nr 52
-          </note>
-          <note type="date" n="4d6cfbaf">
-            Onsdagen den 5 april 1972
-          </note>
-          <note n="00ca2bf0">
-            Vissa gemensamma
-          </note>
-          <note n="59bba09f">
-            frågor
-          </note>
-          <pb n="34" facs="https://betalab.kb.se/prot-1972--52/prot_1972__52-034.jp2/_view"/>
-          <note n="ad9d7d6d">
-            Nr 52
-          </note>
-          <note type="date" n="4d6cfbaf">
-            Onsdagen den 5 april 1972
-          </note>
-          <note n="00ca2bf0">
-            Vissa gemensamma
-          </note>
-          <note n="59bba09f">
-            frågor
-          </note>
-          <note n="3a228efd">
-            172
-          </note>
-          <note n="5033a703">
-            Mom. 4 Utskottets hemställan bifölls.
-          </note>
-          <note n="1ff8c21b">
-            Mom. 5
-          </note>
-          <note n="3da9b4e1">
-            Propositioner gavs på bifall till dels utskottets hemställan,
-            dels reservationen nr A 3 av herrar Wikström och Jonsson i Alingsås,
-            och förklarades den förra propositionen vara med övervägande ja
-            besvarad. Sedan herr Jonsson i Alingsås begärt votering upplästes
-            och godkändes följande voteringsproposition:
-          </note>
-          <note n="303a7892">
-            Den som vill att kammaren bifaller utbildningsutskottets hemställan
-            i betänkandet nr 2 punkten I mom. 5 röstar ja,
-          </note>
-          <note n="8eae0f56">
-            Vinner nej har kammaren bifallit reservationen nr A 3 av herrar
-            Wikström och Jonsson i Alingsås.
-          </note>
-          <note n="1f447d30">
-            Vid omröstning genom uppresning förklarades flertalet av kammarens
-            ledamöter ha röstat för ja-propositionen. Då herr Jonsson i Alingsås
-            begärde rösträkning verkställdes votering med omröstningsapparat.
-            Denna omröstning gav följande resultat:
-          </note>
-          <note n="21a199f1">
-            Ja — 2SS Nej — 53 Avstår — 6
-          </note>
-          <note n="2b689bae">
-            Mom. 6
-          </note>
-          <note n="dcb01bd8">
-            Propositioner gavs på bifall till dels utskottets hemställan,
-            dels reservationen nr A 4 av herr Wikström m. fl., och förklarades
-            den förra propositionen vara med övervägande ja besvarad. Sedan
-            herr Jonsson i Alingsås begärt votering upplästes och godkändes
-            följande voteringsproposition:
-          </note>
-          <note n="8ecaefc6">
-            Den som vill att kammaren bifaller utbildningsutskottets hemställan
-            i betänkandet nr 2 punkten I mom. 6 röstar ja,
-          </note>
-          <note n="1fcd93f0">
-            Vinner nej har kammaren bifallit reservationen nr A 4 av herr
-            Wikström m. fl.
-          </note>
-          <note n="1f447d30">
-            Vid omröstning genom uppresning förklarades flertalet av kammarens
-            ledamöter ha röstat för ja-propositionen. Då herr Jonsson i Alingsås
-            begärde rösträkning verkställdes votering med omröstningsapparat.
-            Denna omröstning gav följande resultat:
-          </note>
-          <note n="9da2e90e">
-            Ja — 190 Nej — 119 Avstår — =S
-          </note>
-          <note n="fa67de90">
-            Mom. 7 och 8 Utskottets hemställan bifölls.
-          </note>
-          <note n="21b7df57">
-            Punkten 2 Utskottets hemställan bifölls.
-          </note>
-          <pb n="35" facs="https://betalab.kb.se/prot-1972--52/prot_1972__52-035.jp2/_view"/>
-          <note n="6670a795">
-            Punkten 3 Läroboksnämnden
-          </note>
-          <note n="a08f4cf3">
-            Herr NILSSON i Agnäs (m):
-          </note>
-          <note n="d4c9bed5">
-            Herr WESTBERG i Ljusdal (fp):
-          </note>
-          <note n="8501d805">
-            Utskottet har behandlat den av oss avgivna motionen 1168 välvilligt.
-            I betänkandet sägs att utskottet vid sina ställningstaganden till
-            motionen ”haft som en självklar utgångspunkt att innehållet i
-            skolans sexualundervisning bedrivs i överensstämmelse med vad
-            som angetts för olika skolstadier i läroplan och andra anvisningar,
-            intill dess beslut om eventuella förändringar i vederbörlig ordning
-            fattats i anledning av USSU:s förslag”. Jag finner detta uttalande
-            vara helt tillfredsställande och i god överensstämmelse med de
-            synpunkter som anförts i motionen.
-          </note>
-          <note n="2584135a">
-            Utskottet hänvisar därjämte till skolöverstyrelsens skrivelse
-            till länsskolnämnder och skolstyrelser i december förra året angående
-            läromedel i sexualoch samlevnadsundervisningen och fogar därtill
-            denna skrivelse som bilaga till utskottsbetänkandet. Jag tolkar
-            detta som ett viktigt
-          </note>
-          <note n="ad9d7d6d">
-            Nr 52
-          </note>
-          <note type="date" n="4d6cfbaf">
-            Onsdagen den 5 april 1972
-          </note>
-          <note n="d28edc26">
-            Läroboksnämnden
-          </note>
-          <note n="24a2089b">
-            173
-          </note>
-          <pb n="36" facs="https://betalab.kb.se/prot-1972--52/prot_1972__52-036.jp2/_view"/>
-          <note n="ad9d7d6d">
-            Nr 52
-          </note>
-          <note type="date" n="4d6cfbaf">
-            Onsdagen den 5 april 1972
-          </note>
-          <note n="d28edc26">
-            Läroboksnämnden
-          </note>
-          <note n="7f28a9ac">
-            174
-          </note>
-          <pb n="37" facs="https://betalab.kb.se/prot-1972--52/prot_1972__52-037.jp2/_view"/>
-          <note n="ad9d7d6d">
-            Nr 52
-          </note>
-          <note type="date" n="4d6cfbaf">
-            Onsdagen den 5 april 1972
-          </note>
-          <note n="d28edc26">
-            Läroboksnämnden
-          </note>
-          <note n="9da8e57b">
-            175
-          </note>
-          <pb n="38" facs="https://betalab.kb.se/prot-1972--52/prot_1972__52-038.jp2/_view"/>
-          <note n="ad9d7d6d">
-            Nr 52
-          </note>
-          <note type="date" n="4d6cfbaf">
-            Onsdagen den 5 april 1972
-          </note>
-          <note n="d28edc26">
-            Läroboksnämnden
-          </note>
-          <note n="73fae185">
-            176
-          </note>
           <note type="speaker" n="422fd7fe">
             Herr ALEMYR (s):
           </note>
-          <u who="stig_alemyr_967892" xml:id="i-fc0c7effe12d34dc-1" n="d2c06655">
+          <u who="stig_alemyr_967892" xml:id="i-d2c0665538f69355-6" n="d2c06655">
             <seg n="90e486cd">
               Herr talman! Frågan om läromedlen är väl en av de svåraste och
               mest komplicerade frågeställningar vi har i skolan för närvarande.
@@ -3269,12 +3345,15 @@
           <note type="speaker" n="fba3828d">
             Herr JOHANSSON i Trollhättan (s):
           </note>
-          <u who="tage_johansson_2ede8d" xml:id="i-bcae4da488b8d79b-0" next="i-e4f4ce878bb1dc08-0" n="e71a3fb9">
+          <u who="tage_johansson_2ede8d" xml:id="i-e71a3fb92a1d328b-0" next="i-d2c0665538f69355-9" n="e71a3fb9">
             <seg n="1afeee71">
               Herr talman! I läromedelsutredningens betänkande har detta tagits
               upp, och betänkandet är, som herr Alemyr nyss påpekat, ute på
               remiss.
             </seg>
+          </u>
+          <pb n="39" facs="https://betalab.kb.se/prot-1972--52/prot_1972__52-039.jp2/_view"/>
+          <u who="tage_johansson_2ede8d" xml:id="i-d2c0665538f69355-7" prev="i-e71a3fb92a1d328b-0" n="e71a3fb9">
             <seg n="8fff2aa8">
               Man kan alltså förvänta att ytterligare en del synpunkter kommer
               in på hur denna mycket viktiga men besvärliga fråga om läromedel
@@ -3298,7 +3377,6 @@
               finna goda lösningar av detta mycket viktiga men svårlösta problem.
             </seg>
           </u>
-          <pb n="39" facs="https://betalab.kb.se/prot-1972--52/prot_1972__52-039.jp2/_view"/>
           <note n="c5d9096e">
             Överläggningen var härmed slutad. Utskottets hemställan bifölls.
           </note>
@@ -3350,10 +3428,7 @@
           <note type="date" n="4d6cfbaf">
             Onsdagen den 5 april 1972
           </note>
-          <u who="tage_johansson_2ede8d" xml:id="i-e4f4ce878bb1dc08-0" prev="i-bcae4da488b8d79b-0" n="e71a3fb9">
-            <seg n="03935367">
-              Bidrag till driften
-            </seg>
+          <u who="tage_johansson_2ede8d" xml:id="i-d2c0665538f69355-8" prev="i-e71a3fb92a1d328b-0" n="e71a3fb9">
             <seg n="03935367">
               Bidrag till driften
             </seg>
@@ -3371,6 +3446,11 @@
           <note type="date" n="4d6cfbaf">
             Onsdagen den 5 april 1972
           </note>
+          <u who="tage_johansson_2ede8d" xml:id="i-d2c0665538f69355-9" prev="i-e71a3fb92a1d328b-0" n="e71a3fb9">
+            <seg n="03935367">
+              Bidrag till driften
+            </seg>
+          </u>
           <note n="154b8d49">
             av grundskolor m.m.
           </note>
@@ -3453,7 +3533,7 @@
           <note type="speaker" n="5891f5f1">
             Herr HENMARK (fp):
           </note>
-          <u who="martin_henmark_1f05bd" xml:id="i-85e00407bf161a5e-0" next="i-832c67cec95e750d-0" n="cde5d57b">
+          <u who="martin_henmark_1f05bd" xml:id="i-cde5d57b62dd4970-0" next="i-cde5d57b62dd4970-11" n="cde5d57b">
             <seg n="64e59bef">
               Herr talman! Med anledning av ett uttalande här att man skall
               försöka att få skolorna så billiga som möjligt, av vilket åtminstone
@@ -3462,6 +3542,9 @@
               något mindre, skulle jag allra först vilja säga att det kanske
               inte alltid är säkert att det är så, om
             </seg>
+          </u>
+          <pb n="41" facs="https://betalab.kb.se/prot-1972--52/prot_1972__52-041.jp2/_view"/>
+          <u who="martin_henmark_1f05bd" xml:id="i-cde5d57b62dd4970-1" prev="i-cde5d57b62dd4970-0" n="cde5d57b">
             <seg n="ecbeff03">
               man tar i betraktande alla de utgifter som är förenade med att
               driva en skola. Jag anser därvid att man inte skall ta i betraktande
@@ -3532,21 +3615,43 @@
               uttryck. Men de finns likväl, och det är
             </seg>
           </u>
-          <pb n="41" facs="https://betalab.kb.se/prot-1972--52/prot_1972__52-041.jp2/_view"/>
           <note n="ad9d7d6d">
             Nr 52
           </note>
           <note type="date" n="4d6cfbaf">
             Onsdagen den 5 april 1972
           </note>
-          <u who="martin_henmark_1f05bd" xml:id="i-832c67cec95e750d-0" prev="i-85e00407bf161a5e-0" n="cde5d57b">
+          <u who="martin_henmark_1f05bd" xml:id="i-cde5d57b62dd4970-2" prev="i-cde5d57b62dd4970-0" n="cde5d57b">
             <seg n="03935367">
               Bidrag till driften
             </seg>
-            <seg n="ad136b6c"/>
+          </u>
+          <note n="3ac36604">
+            av grundskolor m. m.
+          </note>
+          <note n="2ebba6f7">
+            179
+          </note>
+          <pb n="42" facs="https://betalab.kb.se/prot-1972--52/prot_1972__52-042.jp2/_view"/>
+          <u who="martin_henmark_1f05bd" xml:id="i-cde5d57b62dd4970-3" prev="i-cde5d57b62dd4970-0" n="cde5d57b"/>
+          <note n="ad9d7d6d">
+            Nr 52
+          </note>
+          <note type="date" n="4d6cfbaf">
+            Onsdagen den 5 april 1972
+          </note>
+          <u who="martin_henmark_1f05bd" xml:id="i-cde5d57b62dd4970-4" prev="i-cde5d57b62dd4970-0" n="cde5d57b">
             <seg n="03935367">
               Bidrag till driften
             </seg>
+          </u>
+          <note n="2d5df5b1">
+            av grundskolor mm.
+          </note>
+          <note n="ff418a98">
+            180
+          </note>
+          <u who="martin_henmark_1f05bd" xml:id="i-cde5d57b62dd4970-5" prev="i-cde5d57b62dd4970-0" n="cde5d57b">
             <seg n="66937fff">
               en hel del människor som stöter sig på dessa uttryck.
             </seg>
@@ -3618,6 +3723,9 @@
               fattas. Jag är säker på att den inte är det, ty en opinion håller
               i dagens läge på att tränga sig fram i denna fråga.
             </seg>
+          </u>
+          <pb n="43" facs="https://betalab.kb.se/prot-1972--52/prot_1972__52-043.jp2/_view"/>
+          <u who="martin_henmark_1f05bd" xml:id="i-cde5d57b62dd4970-6" prev="i-cde5d57b62dd4970-0" n="cde5d57b">
             <seg n="8c93d81f">
               Vi vet att det redan har grundats alternativa skolor som fungerar
               i dag, och på många ställen arbetas det mycket målmedvetet för
@@ -3630,6 +3738,15 @@
               då måste vi ge statsstöd på bägge håll. Det blir dyrt för staten,
               och jag tror att vi skall undvika en sådan lösning.
             </seg>
+          </u>
+          <note n="27879b54">
+            Under detta anförande övertog herr talmannen ledningen av kammarens
+            förhandlingar.
+          </note>
+          <note n="a08f4cf3">
+            Herr NILSSON i Agnäs (m):
+          </note>
+          <u who="martin_henmark_1f05bd" xml:id="i-cde5d57b62dd4970-7" prev="i-cde5d57b62dd4970-0" n="cde5d57b">
             <seg n="928d7c62">
               Herr talman! Jag är rädd att jag håller på längre än 4 minuter
               på grund av vad som hänt förut här i kammaren.
@@ -3677,11 +3794,42 @@
               hand ansvaret för sina barns fostran. I ett av våra grannländer
               har detta uttryckts så att
             </seg>
-            <seg n="ad136b6c"/>
+          </u>
+          <note n="ad9d7d6d">
+            Nr 52
+          </note>
+          <note type="date" n="4d6cfbaf">
+            Onsdagen den 5 april 1972
+          </note>
+          <u who="martin_henmark_1f05bd" xml:id="i-cde5d57b62dd4970-8" prev="i-cde5d57b62dd4970-0" n="cde5d57b">
             <seg n="03935367">
               Bidrag till driften
             </seg>
-            <seg n="ad136b6c"/>
+          </u>
+          <note n="154b8d49">
+            av grundskolor m.m.
+          </note>
+          <note n="494b05c0">
+            181
+          </note>
+          <pb n="44" facs="https://betalab.kb.se/prot-1972--52/prot_1972__52-044.jp2/_view"/>
+          <note n="10b650fa">
+            | — Nr52
+          </note>
+          <note n="4192d292">
+            Onsdagen den | 5 april 1972
+          </note>
+          <note n="aff02ab0">
+            | Bidrag till driften
+          </note>
+          <note n="6654281a">
+            av grundskolor I m.m.
+          </note>
+          <u who="martin_henmark_1f05bd" xml:id="i-cde5d57b62dd4970-9" prev="i-cde5d57b62dd4970-0" n="cde5d57b"/>
+          <note n="f4799823">
+            182
+          </note>
+          <u who="martin_henmark_1f05bd" xml:id="i-cde5d57b62dd4970-10" prev="i-cde5d57b62dd4970-0" n="cde5d57b">
             <seg n="25044f60">
               skolan kallas ”hemmets förlängda arm”. Föräldrarna lämnar över
               en del av sitt föräldraansvar och sin fostrarplikt till skolan.
@@ -3742,6 +3890,9 @@
               som myter och sagor till stor del, då anser man det självklart
               bättre att barnen slipper delta i en sådan undervisning.
             </seg>
+          </u>
+          <pb n="45" facs="https://betalab.kb.se/prot-1972--52/prot_1972__52-045.jp2/_view"/>
+          <u who="martin_henmark_1f05bd" xml:id="i-cde5d57b62dd4970-11" prev="i-cde5d57b62dd4970-0" n="cde5d57b">
             <seg n="6faa78bf">
               Jag har i min bänk exempel på läromedel, som används i undervisning
               i svensk skola och som enligt min uppfattning helt enkelt är fruktansvärda,
@@ -3761,66 +3912,10 @@
               ber att få yrka bifall till motionen 193.
             </seg>
           </u>
-          <note n="3ac36604">
-            av grundskolor m. m.
-          </note>
-          <note n="2ebba6f7">
-            179
-          </note>
-          <pb n="42" facs="https://betalab.kb.se/prot-1972--52/prot_1972__52-042.jp2/_view"/>
-          <note n="ad9d7d6d">
-            Nr 52
-          </note>
-          <note type="date" n="4d6cfbaf">
-            Onsdagen den 5 april 1972
-          </note>
-          <note n="2d5df5b1">
-            av grundskolor mm.
-          </note>
-          <note n="ff418a98">
-            180
-          </note>
-          <pb n="43" facs="https://betalab.kb.se/prot-1972--52/prot_1972__52-043.jp2/_view"/>
-          <note n="27879b54">
-            Under detta anförande övertog herr talmannen ledningen av kammarens
-            förhandlingar.
-          </note>
-          <note n="a08f4cf3">
-            Herr NILSSON i Agnäs (m):
-          </note>
-          <note n="ad9d7d6d">
-            Nr 52
-          </note>
-          <note type="date" n="4d6cfbaf">
-            Onsdagen den 5 april 1972
-          </note>
-          <note n="154b8d49">
-            av grundskolor m.m.
-          </note>
-          <note n="494b05c0">
-            181
-          </note>
-          <pb n="44" facs="https://betalab.kb.se/prot-1972--52/prot_1972__52-044.jp2/_view"/>
-          <note n="10b650fa">
-            | — Nr52
-          </note>
-          <note n="4192d292">
-            Onsdagen den | 5 april 1972
-          </note>
-          <note n="aff02ab0">
-            | Bidrag till driften
-          </note>
-          <note n="6654281a">
-            av grundskolor I m.m.
-          </note>
-          <note n="f4799823">
-            182
-          </note>
-          <pb n="45" facs="https://betalab.kb.se/prot-1972--52/prot_1972__52-045.jp2/_view"/>
           <note type="speaker" n="4811fe1d">
             Herr NORDSTRANDH (m):
           </note>
-          <u who="ove_nordstrandh_28da32" xml:id="i-3c72797c39953406-0" n="94caa002">
+          <u who="ove_nordstrandh_28da32" xml:id="i-94caa002375c822e-0" n="94caa002">
             <seg n="801bbd03">
               Herr talman! Vid den punkt som nu behandlas har fru Sundberg
               och jag fogat ett särskilt yttrande i anledning av motionen 704
@@ -3844,7 +3939,7 @@
           <note type="speaker" n="422fd7fe">
             Herr ALEMYR (s):
           </note>
-          <u who="stig_alemyr_967892" xml:id="i-fc0c7effe12d34dc-2" next="i-a083323ffa97a226-1" n="d2c06655">
+          <u who="stig_alemyr_967892" xml:id="i-d2c0665538f69355-10" next="i-d2c0665538f69355-14" n="d2c06655">
             <seg n="a1383dfb">
               Herr talman! Det som herr Nordstrandh nu senast sade får naturligtvis
               stå för hans egen räkning. Det särskilda yttrandet vill jag inte
@@ -3875,14 +3970,37 @@
           <note type="date" n="4d6cfbaf">
             Onsdagen den 5 april 1972
           </note>
-          <u who="stig_alemyr_967892" xml:id="i-a083323ffa97a226-1" prev="i-fc0c7effe12d34dc-2" n="d2c06655">
+          <u who="stig_alemyr_967892" xml:id="i-d2c0665538f69355-11" prev="i-d2c0665538f69355-10" n="d2c06655">
             <seg n="03935367">
               Bidrag till driften
             </seg>
-            <seg n="ad136b6c"/>
+          </u>
+          <note n="3ac36604">
+            av grundskolor m. m.
+          </note>
+          <note n="e2589dcd">
+            183
+          </note>
+          <pb n="46" facs="https://betalab.kb.se/prot-1972--52/prot_1972__52-046.jp2/_view"/>
+          <u who="stig_alemyr_967892" xml:id="i-d2c0665538f69355-12" prev="i-d2c0665538f69355-10" n="d2c06655"/>
+          <note n="ad9d7d6d">
+            Nr 52
+          </note>
+          <note type="date" n="4d6cfbaf">
+            Onsdagen den 5 april 1972
+          </note>
+          <u who="stig_alemyr_967892" xml:id="i-d2c0665538f69355-13" prev="i-d2c0665538f69355-10" n="d2c06655">
             <seg n="03935367">
               Bidrag till driften
             </seg>
+          </u>
+          <note n="154b8d49">
+            av grundskolor m.m.
+          </note>
+          <note n="94047246">
+            184
+          </note>
+          <u who="stig_alemyr_967892" xml:id="i-d2c0665538f69355-14" prev="i-d2c0665538f69355-10" n="d2c06655">
             <seg n="40ee41ab">
               I stället måste målsättningen vara, då det gäller både läroplanerna
               och läromedlen, att göra undervisningen så allsidig som möjligt,
@@ -3912,29 +4030,10 @@
               Herr talman! Jag ber att få yrka bifall till utskottets hemställan.
             </seg>
           </u>
-          <note n="3ac36604">
-            av grundskolor m. m.
-          </note>
-          <note n="e2589dcd">
-            183
-          </note>
-          <pb n="46" facs="https://betalab.kb.se/prot-1972--52/prot_1972__52-046.jp2/_view"/>
-          <note n="ad9d7d6d">
-            Nr 52
-          </note>
-          <note type="date" n="4d6cfbaf">
-            Onsdagen den 5 april 1972
-          </note>
-          <note n="154b8d49">
-            av grundskolor m.m.
-          </note>
-          <note n="94047246">
-            184
-          </note>
           <note type="speaker" n="4811fe1d">
             Herr NORDSTRANDH (m):
           </note>
-          <u who="ove_nordstrandh_28da32" xml:id="i-b36729dfd5245db9-0" next="i-c408e11a5f72459b-0" n="94caa002">
+          <u who="ove_nordstrandh_28da32" xml:id="i-94caa002375c822e-1" next="i-94caa002375c822e-2" n="94caa002">
             <seg n="5fd73902">
               Herr talman! Vad vi sagt i det särskilda yttrandet står givetvis
               för vår räkning. Om jag inte missminner mig har vi här — jag säger
@@ -3946,7 +4045,7 @@
           <note n="a08f4cf3">
             Herr NILSSON i Agnäs (m):
           </note>
-          <u who="ove_nordstrandh_28da32" xml:id="i-c408e11a5f72459b-0" prev="i-b36729dfd5245db9-0" n="94caa002">
+          <u who="ove_nordstrandh_28da32" xml:id="i-94caa002375c822e-2" prev="i-94caa002375c822e-1" n="94caa002">
             <seg n="3ab06c99">
               Herr talman! När jag hör herr Alemyr tala i år i debatten tycker
               jag att han har gjort framsteg — ja, jag vet att han är intelligent
@@ -3979,7 +4078,7 @@
           <note type="speaker" n="5891f5f1">
             Herr HENMARK (fp):
           </note>
-          <u who="martin_henmark_1f05bd" xml:id="i-91c5734068eee31f-0" n="cde5d57b">
+          <u who="martin_henmark_1f05bd" xml:id="i-cde5d57b62dd4970-12" n="cde5d57b">
             <seg n="cc4eb0ba">
               Herr talman! Jag beklagar att utskottets företrädare har så svårt
               att läsa motioner. Men det kanske är samma mått av förmåga som
@@ -3991,7 +4090,7 @@
           <note type="speaker" n="422fd7fe">
             Herr ALEMYR (s):
           </note>
-          <u who="stig_alemyr_967892" xml:id="i-42bd74677b4adac6-1" n="d2c06655">
+          <u who="stig_alemyr_967892" xml:id="i-d2c0665538f69355-15" n="d2c06655">
             <seg n="f8d9c41e">
               Herr talman! På s. 15 i betänkandet säger utskottet att enligt
               motionärernas mening ”är detta en olycklig utveckling som skapar
@@ -4032,7 +4131,7 @@
           <note type="speaker" n="5891f5f1">
             Herr HENMARK (fp):
           </note>
-          <u who="martin_henmark_1f05bd" xml:id="i-85e00407bf161a5e-1" next="i-832c67cec95e750d-1" n="cde5d57b">
+          <u who="martin_henmark_1f05bd" xml:id="i-cde5d57b62dd4970-13" next="i-cde5d57b62dd4970-17" n="cde5d57b">
             <seg n="530fdf0b">
               Herr talman! Punkten 13 gäller Bidrag till driften av riksinternatskolor.
               Jag har tillsammans med några medmotionärer hemställt att organisationskommittén
@@ -4056,15 +4155,40 @@
           <note type="date" n="4d6cfbaf">
             Onsdagen den 5 april 1972
           </note>
-          <u who="martin_henmark_1f05bd" xml:id="i-832c67cec95e750d-1" prev="i-85e00407bf161a5e-1" n="cde5d57b">
+          <u who="martin_henmark_1f05bd" xml:id="i-cde5d57b62dd4970-14" prev="i-cde5d57b62dd4970-13" n="cde5d57b">
             <seg n="03935367">
               Bidrag till driften
             </seg>
             <seg n="6d6af2fb">
               riksinternatskolor
             </seg>
+          </u>
+          <note n="35e7d225">
+            185
+          </note>
+          <pb n="48" facs="https://betalab.kb.se/prot-1972--52/prot_1972__52-048.jp2/_view"/>
+          <note n="5f1fd26f">
+            |
+          </note>
+          <note n="5f1fd26f">
+            |
+          </note>
+          <note n="ad9d7d6d">
+            Nr 52
+          </note>
+          <note n="2f820125">
+            Onsdagen den
+          </note>
+          <note n="6d7045d8">
+            5 april 1972 Bidrag till driften riksinternatskolor
+          </note>
+          <u who="martin_henmark_1f05bd" xml:id="i-cde5d57b62dd4970-15" prev="i-cde5d57b62dd4970-13" n="cde5d57b">
             <seg n="ad136b6c"/>
-            <seg n="ad136b6c"/>
+          </u>
+          <note n="bdb5319c">
+            186
+          </note>
+          <u who="martin_henmark_1f05bd" xml:id="i-cde5d57b62dd4970-16" prev="i-cde5d57b62dd4970-13" n="cde5d57b">
             <seg n="77d79d15">
               lägga fram några fakta som jag tycker bör bringas till protokollet
               och som jag hoppas att organisationskommittén för riksinternatskolor
@@ -4132,6 +4256,9 @@
             <seg n="c42604fa">
               Ur regionalpolitisk synpunkt — det är ju modernt att tala om
             </seg>
+          </u>
+          <pb n="49" facs="https://betalab.kb.se/prot-1972--52/prot_1972__52-049.jp2/_view"/>
+          <u who="martin_henmark_1f05bd" xml:id="i-cde5d57b62dd4970-17" prev="i-cde5d57b62dd4970-13" n="cde5d57b">
             <seg n="83127b90">
               regionalpolitik — är det väldigt betydelsefullt för Osby samhälle
               att få ha kvar sin skola. Osby har satsat mycket på utbildningen
@@ -4142,33 +4269,10 @@
               att fortsätta sin utveckling.
             </seg>
           </u>
-          <note n="35e7d225">
-            185
-          </note>
-          <pb n="48" facs="https://betalab.kb.se/prot-1972--52/prot_1972__52-048.jp2/_view"/>
-          <note n="5f1fd26f">
-            |
-          </note>
-          <note n="5f1fd26f">
-            |
-          </note>
-          <note n="ad9d7d6d">
-            Nr 52
-          </note>
-          <note n="2f820125">
-            Onsdagen den
-          </note>
-          <note n="6d7045d8">
-            5 april 1972 Bidrag till driften riksinternatskolor
-          </note>
-          <note n="bdb5319c">
-            186
-          </note>
-          <pb n="49" facs="https://betalab.kb.se/prot-1972--52/prot_1972__52-049.jp2/_view"/>
           <note type="speaker" n="dcd72f21">
             Fru SUNDBERG (m):
           </note>
-          <u who="ingrid_sundberg_825daf" xml:id="i-4c210ab8281b711d-0" next="i-f999522cdcca4be9-0" n="414dccee">
+          <u who="ingrid_sundberg_825daf" xml:id="i-414dcceecf4aba49-0" next="i-414dcceecf4aba49-3" n="414dccee">
             <seg n="97fb1020">
               Herr talman! Vid punkten 13 i utskottets betänkande finns ingen
               reservation med anledning av motionen — där jag för resten är
@@ -4230,19 +4334,36 @@
           <note type="date" n="4d6cfbaf">
             Onsdagen den 5 april 1972
           </note>
-          <u who="ingrid_sundberg_825daf" xml:id="i-f999522cdcca4be9-0" prev="i-4c210ab8281b711d-0" n="414dccee">
+          <u who="ingrid_sundberg_825daf" xml:id="i-414dcceecf4aba49-1" prev="i-414dcceecf4aba49-0" n="414dccee">
             <seg n="03935367">
               Bidrag till driften
             </seg>
             <seg n="6d6af2fb">
               riksinternatskolor
             </seg>
+          </u>
+          <note n="cc1670cd">
+            187
+          </note>
+          <pb n="50" facs="https://betalab.kb.se/prot-1972--52/prot_1972__52-050.jp2/_view"/>
+          <note n="ad9d7d6d">
+            Nr 52
+          </note>
+          <note type="date" n="4d6cfbaf">
+            Onsdagen den 5 april 1972
+          </note>
+          <u who="ingrid_sundberg_825daf" xml:id="i-414dcceecf4aba49-2" prev="i-414dcceecf4aba49-0" n="414dccee">
             <seg n="03935367">
               Bidrag till driften
             </seg>
             <seg n="6d6af2fb">
               riksinternatskolor
             </seg>
+          </u>
+          <note n="62c70850">
+            188
+          </note>
+          <u who="ingrid_sundberg_825daf" xml:id="i-414dcceecf4aba49-3" prev="i-414dcceecf4aba49-0" n="414dccee">
             <seg n="1d4cd5cc">
               är i dag att nettokostnaden för föräldrar för att hålla ett barn
               i ett riksinternat torde närma sig 10 000 kronor per år. Det bör
@@ -4287,23 +4408,10 @@
               vidare här i riksdagen.
             </seg>
           </u>
-          <note n="cc1670cd">
-            187
-          </note>
-          <pb n="50" facs="https://betalab.kb.se/prot-1972--52/prot_1972__52-050.jp2/_view"/>
-          <note n="ad9d7d6d">
-            Nr 52
-          </note>
-          <note type="date" n="4d6cfbaf">
-            Onsdagen den 5 april 1972
-          </note>
-          <note n="62c70850">
-            188
-          </note>
           <note type="speaker" n="422fd7fe">
             Herr ALEMYR (s):
           </note>
-          <u who="stig_alemyr_967892" xml:id="i-fc0c7effe12d34dc-3" next="i-a083323ffa97a226-2" n="d2c06655">
+          <u who="stig_alemyr_967892" xml:id="i-d2c0665538f69355-16" next="i-d2c0665538f69355-18" n="d2c06655">
             <seg n="3ae67a9b">
               Herr talman! Motionen 685 aktualiserar i en av sina båda delar
               en intressant frågeställning, som riksdagen väl så småningom får
@@ -4326,7 +4434,9 @@
               — så skall de lokaliseras till andra delar av landet än där de
               för närvarande ligger. Får vi uppleva
             </seg>
-            <seg n="ad136b6c"/>
+          </u>
+          <pb n="51" facs="https://betalab.kb.se/prot-1972--52/prot_1972__52-051.jp2/_view"/>
+          <u who="stig_alemyr_967892" xml:id="i-d2c0665538f69355-17" prev="i-d2c0665538f69355-16" n="d2c06655">
             <seg n="633af5cd">
               ett sådant behov, så kanske det blir tal om en förläggning till
               Skåne, till Västkusten eller till Norrland. Men också detta är
@@ -4340,7 +4450,6 @@
               Herr talman! Jag ber att få yrka bifall till utskottets hemställan.
             </seg>
           </u>
-          <pb n="51" facs="https://betalab.kb.se/prot-1972--52/prot_1972__52-051.jp2/_view"/>
           <note n="c5d9096e">
             Överläggningen var härmed slutad. Utskottets hemställan bifölls.
           </note>
@@ -4378,7 +4487,7 @@
             1. utfärdade nya och till dagens samhällsplanering bättre anpassade
             bestämmelser för statsbidrag till skolbyggnader,
           </note>
-          <u who="stig_alemyr_967892" xml:id="i-a083323ffa97a226-2" prev="i-fc0c7effe12d34dc-3" n="d2c06655">
+          <u who="stig_alemyr_967892" xml:id="i-d2c0665538f69355-18" prev="i-d2c0665538f69355-16" n="d2c06655">
             <seg n="37f12e3b">
               2. föranstaltade om att försöksoch forskningsarbetet kring nya
               skolbyggnadsmetoder intensifierades så att skolbyggnaderna kunde
@@ -4479,7 +4588,7 @@
           <note type="speaker" n="4811fe1d">
             Herr NORDSTRANDH (m):
           </note>
-          <u who="ove_nordstrandh_28da32" xml:id="i-3c72797c39953406-1" n="94caa002">
+          <u who="ove_nordstrandh_28da32" xml:id="i-94caa002375c822e-3" n="94caa002">
             <seg n="9764ef45">
               Herr talman! Skolbyggnadsinvesteringarna har under senare år
               legat mycket högt. En fortsatt rask stegring av kostnaderna för
@@ -4517,7 +4626,7 @@
           <note type="speaker" n="422fd7fe">
             Herr ALEMYR (s):
           </note>
-          <u who="stig_alemyr_967892" xml:id="i-fc0c7effe12d34dc-4" next="i-a083323ffa97a226-3" n="d2c06655">
+          <u who="stig_alemyr_967892" xml:id="i-d2c0665538f69355-19" next="i-d2c0665538f69355-22" n="d2c06655">
             <seg n="1d3a1060">
               Herr talman! Det anslag som det här gäller är ett förslagsanslag,
               och därför är det ganska ointressant om man skriver ner det med
@@ -4555,16 +4664,9 @@
             Den som vill att kammaren bifaller utbildningsutskottets hemställan
             i betänkandet nr 2 punkten 19 mom. 2 röstar ja,
           </note>
-          <u who="stig_alemyr_967892" xml:id="i-a083323ffa97a226-3" prev="i-fc0c7effe12d34dc-4" n="d2c06655">
+          <u who="stig_alemyr_967892" xml:id="i-d2c0665538f69355-20" prev="i-d2c0665538f69355-19" n="d2c06655">
             <seg n="4cec1429">
               den det ej vill röstar nej.
-            </seg>
-            <seg n="ad136b6c"/>
-            <seg n="265ab245">
-              Bidrag till byggnadsarbeten inom skol-
-            </seg>
-            <seg n="8855f09e">
-              på utbildningsoch forskningsorganisationen i Linköping
             </seg>
           </u>
           <note n="cfc78c71">
@@ -4595,6 +4697,11 @@
           <note type="date" n="4d6cfbaf">
             Onsdagen den 5 april 1972
           </note>
+          <u who="stig_alemyr_967892" xml:id="i-d2c0665538f69355-21" prev="i-d2c0665538f69355-19" n="d2c06655">
+            <seg n="265ab245">
+              Bidrag till byggnadsarbeten inom skol-
+            </seg>
+          </u>
           <note n="733bbada">
             väsendet m. m.
           </note>
@@ -4611,6 +4718,11 @@
           <note n="6ecda7c9">
             Ändrad benämning
           </note>
+          <u who="stig_alemyr_967892" xml:id="i-d2c0665538f69355-22" prev="i-d2c0665538f69355-19" n="d2c06655">
+            <seg n="8855f09e">
+              på utbildningsoch forskningsorganisationen i Linköping
+            </seg>
+          </u>
           <note n="2e819c22">
             192
           </note>
@@ -4626,7 +4738,7 @@
           <note type="speaker" n="085d4e6d">
             Herr STRINDBERG (m):
           </note>
-          <u who="per-olof_strindberg_51260a" xml:id="i-8879b9e1edb2675d-0" next="i-28c4274b2aba0784-0" n="2afb3db5"/>
+          <u who="per-olof_strindberg_51260a" xml:id="i-3f0f9bb7e02b8973-0" next="i-3f0f9bb7e02b8973-5" n="2afb3db5"/>
           <note n="4f2576f9">
             Herr talman! Förra året väcktes en motion om att högskolenheten
             i Linköping skulle erhålla benämningen Linköpings universitet.
@@ -4634,7 +4746,7 @@
             universitet ännu ej var en korrekt benämning. Det kan diskuteras
             om den motiveringen var korrekt, men jag lämnar det därhän.
           </note>
-          <u who="per-olof_strindberg_51260a" xml:id="i-28c4274b2aba0784-0" prev="i-8879b9e1edb2675d-0" n="2afb3db5">
+          <u who="per-olof_strindberg_51260a" xml:id="i-3f0f9bb7e02b8973-1" prev="i-3f0f9bb7e02b8973-0" n="2afb3db5">
             <seg n="01632c2a">
               Utbyggnaden i Linköping har emellertid skett i snabb takt, och
               högskolenheten uppfyller nu alla de krav man rimligtvis kan ställa
@@ -4685,6 +4797,9 @@
               framsteg, men ett mycket litet sådant. Allmänt kallas den redan
               nu för högskola
             </seg>
+          </u>
+          <pb n="55" facs="https://betalab.kb.se/prot-1972--52/prot_1972__52-055.jp2/_view"/>
+          <u who="per-olof_strindberg_51260a" xml:id="i-3f0f9bb7e02b8973-2" prev="i-3f0f9bb7e02b8973-0" n="2afb3db5">
             <seg n="c4394141">
               och står under den benämningen exempelvis i statskalendern —
               mera officiellt kan det väl knappast bli. Benämningen högskola
@@ -4711,86 +4826,7 @@
               universitet bör stå en enig riksdag, även när det gäller en sådan
               sak som benämningen.
             </seg>
-            <seg n="62d055a2">
-              I statsverkspropositionen redogörs för verkställd utredning och
-              departementschefens ställningstagande. Civilministern har stått
-              inför ett mycket svårt avgörande. Det finns två huvudalternativ,
-              antingen att man tar ett fristående organ eller att exekutionsväsendets
-              centrala funktioner förs över till riksskatteverket.
-            </seg>
-            <seg n="f42a4e75">
-              Det är svårt att fatta avgörandet för departementschefen därför
-              att det sedan åtta år tillbaka finns ett provisoriskt fristående
-              organ, benämnt EON, exekutionsväsendets organisationsnämnd, och
-              det fungerar bra. Enligt departementschefen har nämnden skött
-              dessa uppgifter på ett utmärkt sätt så att centralmyndighetsfunktionerna
-              löper smidigt och effektivt. Sällan har man hört ett statsorgan
-              föras till avrättning följt av så ampla vitsord av den som utför
-              dess exekution.
-            </seg>
-            <seg n="613a750f">
-              Det är svårt även ur en annan synpunkt, nämligen att riksskatteverket,
-              dit centralfunktionen nu föreslås gå, inte vill ha denna uppgift.
-              Detta borde ha redovisats tydligare i propositionen. Riksrevisionsverket
-              har sagt att det kan bli rationaliseringsvinster men dessa kan
-              knappast bli betydande, och riksskatteverket säger att det är
-              mest ändamålsenligt med en fristående myndighet.
-            </seg>
-            <seg n="d0f41fd1">
-              Det är svårt även ur en tredje synpunkt, nämligen att statens
-              rationaliseringsorgan, statskontoret, i sitt yttrande visserligen
-              tillstyrker riksskatteverket som central myndighet men anför allvarliga
-              farhågor för lösningen och framhåller att de skäl som utredningen
-              anfört mot att knyta uppgifterna till ett självständigt verk av
-              liten omfattning inte bör vara avgörande. Ställningstagandet borde
-              enligt statskontoret i stället ske med utgångspunkt i verksamhetens
-              behov och behovet av samordning.
-            </seg>
-            <seg n="ba5d96ef">
-              Det är svårt även ur en fjärde synpunkt; civilministern måste
-              nu säga adjö till denna välskötta verksamhet, då den försvinner
-              från civildepartementet och förs över till finansdepartementet.
-              En misstanke insmyger sig att det är den mäktige finansministern
-              som vid det i propositionen redovisade samrådet dekreterat den
-              föreslagna lösningen med riksskatteverket som centralorgan.
-            </seg>
-            <seg n="82e197b5">
-              Propositionens redovisning av remissutlåtanden förefaller tillrättalagd
-              för den mening som departementschefen företräder. Det hindrar
-              naturligtvis inte sanningen från att komma fram, eftersom enskilda
-              riksdagsmän och utskott har alla möjligheter att skaffa sig egna
-              uppgifter. Men det är klart att man blir misstänksam, då viktiga
-              upplysningar undanhålls, såsom nu beträffande frågan om centralorganet.
-              Jag menar att det hade varit klädsamt om riksskatteverkets yttrande
-              redovisats på annat sätt än genom en uppräkning och statskontorets
-              tveksamhet kommit till synes i propositionen. Och hur räknas remissorganen?
-              Det står att åtskilliga remissorgan anser att riksskatteverket
-              skall vara centralorgan och att ett tiotal anser att ett fristående
-              verk skall vara centralorgan. ”Åtskilliga” tycks vara mer än tio,
-              och när man räknar dem visar det sig att ”åtskilliga” betyder
-              tretton och ”ett tiotal” betyder elva; det är alltså nästan samma
-              antal.
-            </seg>
-            <seg n="dbf77f46">
-              Mitt råd till civilministern är att han i fortsättningen skall
-              granska sina propositionsskrivare litet noggrannare på den här
-              punkten. Statsrådet Lundkvist brukar strida med öppet visir; varför
-              inte göra det i den här frågan?
-            </seg>
-            <seg n="4348b8b2">
-              Jag utgår från att herr Sjöholm i sitt anförande kommer att ta
-              upp de praktiska konsekvenserna av ställningstagandet i propositionen
-              och därför förbigår jag dem nu. Med dessa ord, herr talman, ber
-              jag att få yrka bifall till reservationen 1 vid civilutskottets
-              betänkande nr 7, som inte innebär att vi skall inrätta något nytt
-              ämbetsverk utan går ut på att man
-            </seg>
-            <seg n="0d0dc482">
-              skall permanenta exekutionsväsendets organisationsnämnd och ge
-              det nya verket arbetsro efter allt utredande.
-            </seg>
           </u>
-          <pb n="55" facs="https://betalab.kb.se/prot-1972--52/prot_1972__52-055.jp2/_view"/>
           <note n="d2129bee">
             Med detta anförande — i vilket herrar Henrikson (s), Dahlgren
             (c) och Persson i Skänninge (s) instämde — var överläggningen
@@ -4934,7 +4970,85 @@
             Herr talman! Civilutskottets betänkande nr 7 behandlar bl.a.
             ett förslag från civildepartementet om centralorgan inom exekutionsväsendet.
           </note>
+          <u who="per-olof_strindberg_51260a" xml:id="i-3f0f9bb7e02b8973-3" prev="i-3f0f9bb7e02b8973-0" n="2afb3db5">
+            <seg n="62d055a2">
+              I statsverkspropositionen redogörs för verkställd utredning och
+              departementschefens ställningstagande. Civilministern har stått
+              inför ett mycket svårt avgörande. Det finns två huvudalternativ,
+              antingen att man tar ett fristående organ eller att exekutionsväsendets
+              centrala funktioner förs över till riksskatteverket.
+            </seg>
+          </u>
           <pb n="57" facs="https://betalab.kb.se/prot-1972--52/prot_1972__52-057.jp2/_view"/>
+          <u who="per-olof_strindberg_51260a" xml:id="i-3f0f9bb7e02b8973-4" prev="i-3f0f9bb7e02b8973-0" n="2afb3db5">
+            <seg n="f42a4e75">
+              Det är svårt att fatta avgörandet för departementschefen därför
+              att det sedan åtta år tillbaka finns ett provisoriskt fristående
+              organ, benämnt EON, exekutionsväsendets organisationsnämnd, och
+              det fungerar bra. Enligt departementschefen har nämnden skött
+              dessa uppgifter på ett utmärkt sätt så att centralmyndighetsfunktionerna
+              löper smidigt och effektivt. Sällan har man hört ett statsorgan
+              föras till avrättning följt av så ampla vitsord av den som utför
+              dess exekution.
+            </seg>
+            <seg n="613a750f">
+              Det är svårt även ur en annan synpunkt, nämligen att riksskatteverket,
+              dit centralfunktionen nu föreslås gå, inte vill ha denna uppgift.
+              Detta borde ha redovisats tydligare i propositionen. Riksrevisionsverket
+              har sagt att det kan bli rationaliseringsvinster men dessa kan
+              knappast bli betydande, och riksskatteverket säger att det är
+              mest ändamålsenligt med en fristående myndighet.
+            </seg>
+            <seg n="d0f41fd1">
+              Det är svårt även ur en tredje synpunkt, nämligen att statens
+              rationaliseringsorgan, statskontoret, i sitt yttrande visserligen
+              tillstyrker riksskatteverket som central myndighet men anför allvarliga
+              farhågor för lösningen och framhåller att de skäl som utredningen
+              anfört mot att knyta uppgifterna till ett självständigt verk av
+              liten omfattning inte bör vara avgörande. Ställningstagandet borde
+              enligt statskontoret i stället ske med utgångspunkt i verksamhetens
+              behov och behovet av samordning.
+            </seg>
+            <seg n="ba5d96ef">
+              Det är svårt även ur en fjärde synpunkt; civilministern måste
+              nu säga adjö till denna välskötta verksamhet, då den försvinner
+              från civildepartementet och förs över till finansdepartementet.
+              En misstanke insmyger sig att det är den mäktige finansministern
+              som vid det i propositionen redovisade samrådet dekreterat den
+              föreslagna lösningen med riksskatteverket som centralorgan.
+            </seg>
+            <seg n="82e197b5">
+              Propositionens redovisning av remissutlåtanden förefaller tillrättalagd
+              för den mening som departementschefen företräder. Det hindrar
+              naturligtvis inte sanningen från att komma fram, eftersom enskilda
+              riksdagsmän och utskott har alla möjligheter att skaffa sig egna
+              uppgifter. Men det är klart att man blir misstänksam, då viktiga
+              upplysningar undanhålls, såsom nu beträffande frågan om centralorganet.
+              Jag menar att det hade varit klädsamt om riksskatteverkets yttrande
+              redovisats på annat sätt än genom en uppräkning och statskontorets
+              tveksamhet kommit till synes i propositionen. Och hur räknas remissorganen?
+              Det står att åtskilliga remissorgan anser att riksskatteverket
+              skall vara centralorgan och att ett tiotal anser att ett fristående
+              verk skall vara centralorgan. ”Åtskilliga” tycks vara mer än tio,
+              och när man räknar dem visar det sig att ”åtskilliga” betyder
+              tretton och ”ett tiotal” betyder elva; det är alltså nästan samma
+              antal.
+            </seg>
+            <seg n="dbf77f46">
+              Mitt råd till civilministern är att han i fortsättningen skall
+              granska sina propositionsskrivare litet noggrannare på den här
+              punkten. Statsrådet Lundkvist brukar strida med öppet visir; varför
+              inte göra det i den här frågan?
+            </seg>
+            <seg n="4348b8b2">
+              Jag utgår från att herr Sjöholm i sitt anförande kommer att ta
+              upp de praktiska konsekvenserna av ställningstagandet i propositionen
+              och därför förbigår jag dem nu. Med dessa ord, herr talman, ber
+              jag att få yrka bifall till reservationen 1 vid civilutskottets
+              betänkande nr 7, som inte innebär att vi skall inrätta något nytt
+              ämbetsverk utan går ut på att man
+            </seg>
+          </u>
           <note n="85a9646b">
             1" Riksdagens protokoll 1972. Nr 50—52
           </note>
@@ -4963,10 +5077,16 @@
           <note n="19bb72bc">
             196
           </note>
+          <u who="per-olof_strindberg_51260a" xml:id="i-3f0f9bb7e02b8973-5" prev="i-3f0f9bb7e02b8973-0" n="2afb3db5">
+            <seg n="0d0dc482">
+              skall permanenta exekutionsväsendets organisationsnämnd och ge
+              det nya verket arbetsro efter allt utredande.
+            </seg>
+          </u>
           <note type="speaker" n="b62a2672">
             Herr SJÖHOLM (fp):
           </note>
-          <u who="sten_sjoholm_975406" xml:id="i-1ba2ece1fd009917-0" n="88207d6f">
+          <u who="sten_sjoholm_975406" xml:id="i-88207d6f2bd852df-0" next="i-88207d6f2bd852df-1" n="88207d6f">
             <seg n="83807200">
               Herr talman! Jag har några synpunkter i detta ärende, som jag
               faktiskt vill göra anspråk på att inte vara helt främmande för.
@@ -5023,6 +5143,9 @@
               verk. Allmänheten kan anse sig ha större fog för att göra gällande
               att kronofogdemyndigheterna — om de sorterar
             </seg>
+          </u>
+          <pb n="59" facs="https://betalab.kb.se/prot-1972--52/prot_1972__52-059.jp2/_view"/>
+          <u who="sten_sjoholm_975406" xml:id="i-88207d6f2bd852df-1" prev="i-88207d6f2bd852df-0" n="88207d6f">
             <seg n="5c20f858">
               under ett fiskalt verk — går de fiskala ärendena i första hand,
               så att människor, som har enskilda fordringar, blir lidande. Det
@@ -5068,11 +5191,10 @@
               till reservationen 1 av herr Tobé m. fl.
             </seg>
           </u>
-          <pb n="59" facs="https://betalab.kb.se/prot-1972--52/prot_1972__52-059.jp2/_view"/>
           <note type="speaker" n="c8078bca">
             Herr GREBÄCK (c):
           </note>
-          <u who="erik_greback_f48d1a" xml:id="i-9d3c06b14651d232-0" next="i-b9ab49b9e9aefae2-0" n="4a33f9f5">
+          <u who="erik_greback_f48d1a" xml:id="i-4a33f9f5cc746dd8-0" next="i-4a33f9f5cc746dd8-5" n="4a33f9f5">
             <seg n="59cdd554">
               Herr talman! Jag vill inte alls förneka att man kan komma fram
               till de slutsatser som motionären herr Sjöholm och reservanten
@@ -5118,7 +5240,7 @@
           <note n="15d07c4f">
             198
           </note>
-          <u who="erik_greback_f48d1a" xml:id="i-b9ab49b9e9aefae2-0" prev="i-9d3c06b14651d232-0" n="4a33f9f5">
+          <u who="erik_greback_f48d1a" xml:id="i-4a33f9f5cc746dd8-1" prev="i-4a33f9f5cc746dd8-0" n="4a33f9f5">
             <seg n="b889c574">
               verket. Jag återkommer senare till hur utskottet bedömer frågan
               om centralorganets ställning inom riksskatteverkets ram.
@@ -5184,6 +5306,9 @@
               utvecklingen, ytterligare tänkbara reformer och länsberedningens
               arbete kan leda till ställnings-
             </seg>
+          </u>
+          <pb n="61" facs="https://betalab.kb.se/prot-1972--52/prot_1972__52-061.jp2/_view"/>
+          <u who="erik_greback_f48d1a" xml:id="i-4a33f9f5cc746dd8-2" prev="i-4a33f9f5cc746dd8-0" n="4a33f9f5">
             <seg n="d3108716">
               taganden som inte får bindas av den med hänsyn till nu rådande
               förhållanden valda organisationsformen. Detta talar i sin tur
@@ -5253,6 +5378,33 @@
               bör naturligtvis betänka sig mer än en gång innan man inrättar
               ett nytt ämbetsverk.
             </seg>
+          </u>
+          <note n="ad9d7d6d">
+            Nr 52
+          </note>
+          <note type="date" n="4d6cfbaf">
+            Onsdagen den 5 april 1972
+          </note>
+          <note n="5b328154">
+            Centralorgan inom exekutionsväsendet
+          </note>
+          <note n="46c95e7c">
+            199
+          </note>
+          <pb n="62" facs="https://betalab.kb.se/prot-1972--52/prot_1972__52-062.jp2/_view"/>
+          <note n="ad9d7d6d">
+            Nr 52
+          </note>
+          <note type="date" n="4d6cfbaf">
+            Onsdagen den 5 april 1972
+          </note>
+          <note n="5b328154">
+            Centralorgan inom exekutionsväsendet
+          </note>
+          <note n="e2551461">
+            200
+          </note>
+          <u who="erik_greback_f48d1a" xml:id="i-4a33f9f5cc746dd8-3" prev="i-4a33f9f5cc746dd8-0" n="4a33f9f5">
             <seg n="a80ce9ee">
               Herr TOBÉ (fp) kort genmäle:
             </seg>
@@ -5287,6 +5439,11 @@
               uppdragen på ett utmärkt sätt. Jag tycker att man skall låta nämnden
               fortsätta att fullgöra dessa uppdrag på ett utmärkt sätt.
             </seg>
+          </u>
+          <note n="0f1fc83c">
+            Herr ANDERSSON i Knäred (c):
+          </note>
+          <u who="erik_greback_f48d1a" xml:id="i-4a33f9f5cc746dd8-4" prev="i-4a33f9f5cc746dd8-0" n="4a33f9f5">
             <seg n="c59b1713">
               Herr talman! Det torde i alla fall vara obestridligt att man,
               om man bygger ut exekutionsväsendets organisationsnämnd till ett
@@ -5323,6 +5480,9 @@
               Jag vill vidare framhålla att det i.och för sig inte är så märkligt
               om
             </seg>
+          </u>
+          <pb n="63" facs="https://betalab.kb.se/prot-1972--52/prot_1972__52-063.jp2/_view"/>
+          <u who="erik_greback_f48d1a" xml:id="i-4a33f9f5cc746dd8-5" prev="i-4a33f9f5cc746dd8-0" n="4a33f9f5">
             <seg n="75fc1c58">
               dessa uppgifter läggs på riksskatteverket. Detta verk har ju
               en mängd Nr 52 andra arbetsuppgifter som i och för sig ligger
@@ -5336,43 +5496,13 @@
               Jag vill med dessa ord få yrka bifall till utskottets hemställan.
             </seg>
           </u>
-          <pb n="61" facs="https://betalab.kb.se/prot-1972--52/prot_1972__52-061.jp2/_view"/>
-          <note n="ad9d7d6d">
-            Nr 52
-          </note>
-          <note type="date" n="4d6cfbaf">
-            Onsdagen den 5 april 1972
-          </note>
-          <note n="5b328154">
-            Centralorgan inom exekutionsväsendet
-          </note>
-          <note n="46c95e7c">
-            199
-          </note>
-          <pb n="62" facs="https://betalab.kb.se/prot-1972--52/prot_1972__52-062.jp2/_view"/>
-          <note n="ad9d7d6d">
-            Nr 52
-          </note>
-          <note type="date" n="4d6cfbaf">
-            Onsdagen den 5 april 1972
-          </note>
-          <note n="5b328154">
-            Centralorgan inom exekutionsväsendet
-          </note>
-          <note n="e2551461">
-            200
-          </note>
-          <note n="0f1fc83c">
-            Herr ANDERSSON i Knäred (c):
-          </note>
-          <pb n="63" facs="https://betalab.kb.se/prot-1972--52/prot_1972__52-063.jp2/_view"/>
           <note n="5b328154">
             Centralorgan inom exekutionsväsendet
           </note>
           <note type="speaker" n="b62a2672">
             Herr SJÖHOLM (fp):
           </note>
-          <u who="sten_sjoholm_975406" xml:id="i-1ba2ece1fd009917-1" n="88207d6f">
+          <u who="sten_sjoholm_975406" xml:id="i-88207d6f2bd852df-2" n="88207d6f">
             <seg n="8041b7d2">
               Herr talman! Jag får tacka herr Andersson i Knäred för förklaringen,
               som jag dock inte fann särskilt tungt vägande. Han säger att man
@@ -5390,7 +5520,7 @@
           <note type="speaker" n="c8078bca">
             Herr GREBÄCK (c):
           </note>
-          <u who="erik_greback_f48d1a" xml:id="i-57d5052c766b2854-0" n="4a33f9f5">
+          <u who="erik_greback_f48d1a" xml:id="i-4a33f9f5cc746dd8-6" n="4a33f9f5">
             <seg n="9d20abde">
               Herr talman! Herr Sjöholm sade att vi redan har en nämnd — varför
               då inte låta den fortsätta med sin verksamhet? Man hade ju tillsatt
@@ -5408,7 +5538,7 @@
           <note type="speaker" n="f7eb470e">
             Herr civilministern LUNDKVIST:
           </note>
-          <u who="svante_lundkvist_30a3d3" xml:id="i-8610d4d99defa93d-0" next="i-067c77f05e404b0b-0" n="c57d1987">
+          <u who="svante_lundkvist_30a3d3" xml:id="i-c57d198710a07561-0" next="i-c57d198710a07561-1" n="c57d1987">
             <seg n="a6179c88">
               Herr talman! Det är egentligen bara ett påstående som herr Sjöholm
               fällde som ger mig anledning att begära ordet. Jag kan i övrigt
@@ -5463,7 +5593,7 @@
             Den som vill att kammaren bifaller civilutskottets hemställan
             i betänkandet nr 7 punkten 2 mom. 1 röstar ja,
           </note>
-          <u who="svante_lundkvist_30a3d3" xml:id="i-067c77f05e404b0b-0" prev="i-8610d4d99defa93d-0" n="c57d1987">
+          <u who="svante_lundkvist_30a3d3" xml:id="i-c57d198710a07561-1" prev="i-c57d198710a07561-0" n="c57d1987">
             <seg n="4cec1429">
               den det ej vill röstar nej.
             </seg>
@@ -5528,7 +5658,7 @@
           <note type="speaker" n="c09a3431">
             Herr WENNER FORS (m):
           </note>
-          <u who="unknown" xml:id="i-c478ae50289dcbce-0" n="fe603ee5">
+          <u who="unknown" xml:id="i-fe603ee52230c4f8-5" n="fe603ee5">
             <seg n="ce7d9105">
               Nr 52
             </seg>
@@ -5568,7 +5698,7 @@
           <note type="speaker" n="c8078bca">
             Herr GREBÄCK (c):
           </note>
-          <u who="erik_greback_f48d1a" xml:id="i-9d3c06b14651d232-1" next="i-b9ab49b9e9aefae2-1" n="4a33f9f5"/>
+          <u who="erik_greback_f48d1a" xml:id="i-4a33f9f5cc746dd8-7" next="i-4a33f9f5cc746dd8-11" n="4a33f9f5"/>
           <note n="f9b75445">
             Herr talman! Vid behandlingen av motionen av herr Magnusson i
             Borås och herr Komstedt konstaterar utskottet att i det betänkande
@@ -5579,13 +5709,82 @@
             till den förestående prövningen avstyrker utskottet motionen i
             fråga.
           </note>
-          <u who="erik_greback_f48d1a" xml:id="i-b9ab49b9e9aefae2-1" prev="i-9d3c06b14651d232-1" n="4a33f9f5">
+          <u who="erik_greback_f48d1a" xml:id="i-4a33f9f5cc746dd8-8" prev="i-4a33f9f5cc746dd8-7" n="4a33f9f5">
             <seg n="bbfa85e6">
               Jag ber att få yrka bifall till utskottets hemställan.
             </seg>
+          </u>
+          <note n="80ccbdab">
+            Överläggningen var härmed slutad.
+          </note>
+          <note n="9701c9d9">
+            Mom. I Utskottets hemställan bifölls.
+          </note>
+          <note n="ddf3800a">
+            Mom. 2
+          </note>
+          <note n="13f50ee4">
+            Propositioner gavs på bifall till dels utskottets hemställan,
+            dels reservationen nr 2 av fröken Ljungberg och herr Wennerfors,
+            och förklarades den förra propositionen vara med övervägande ja
+            besvarad. Sedan herr Wennerfors begärt votering upplästes och
+            godkändes följande voteringsproposition:
+          </note>
+          <note n="9d3f32cb">
+            Den som vill att kammaren bifaller civilutskottets hemställan
+            i betänkan-
+          </note>
+          <note n="b1aa0a4a">
+            det nr 7 punkten 6 mom. 2 röstar ja,
+          </note>
+          <u who="erik_greback_f48d1a" xml:id="i-4a33f9f5cc746dd8-9" prev="i-4a33f9f5cc746dd8-7" n="4a33f9f5">
             <seg n="4cec1429">
               den det ej vill röstar nej.
             </seg>
+          </u>
+          <note n="7958591b">
+            Vinner nej har kammaren bifallit reservationen nr 2 av fröken
+            Ljungberg
+          </note>
+          <note n="4a149001">
+            och herr Wennerfors. 203
+          </note>
+          <pb n="66" facs="https://betalab.kb.se/prot-1972--52/prot_1972__52-066.jp2/_view"/>
+          <note n="ad9d7d6d">
+            Nr 52
+          </note>
+          <note type="date" n="4d6cfbaf">
+            Onsdagen den 5 april 1972
+          </note>
+          <note n="64111b2d">
+            Bidrag till kostna-
+          </note>
+          <note n="9835d74d">
+            der för kommunal beredskap
+          </note>
+          <note n="6da2a049">
+            204
+          </note>
+          <note n="cd1cc4e2">
+            Vid omröstning genom uppresning förklarades flertalet av kammarens
+            ledamöter ha röstat för ja-propositionen. Då herr Wennerfors begärde
+            rösträkning verkställdes votering med omröstningsapparat. Denna
+            omröstning gav följande resultat:
+          </note>
+          <note n="5dd77128">
+            Ja — 277 Nej — 34 Avstår — 1
+          </note>
+          <note n="bc85fb6e">
+            Punkterna 7—-10 Kammaren biföll vad utskottet i dessa punkter
+            hemställt.
+          </note>
+          <note n="574b628d">
+            Punkten 11 Bidrag till kostnader för kommunal beredskap
+          </note>
+          <note n="9f82870e">
+            Herr ERIKSSON i Ulfsbyn (c):
+          </note>
+          <u who="erik_greback_f48d1a" xml:id="i-4a33f9f5cc746dd8-10" prev="i-4a33f9f5cc746dd8-7" n="4a33f9f5">
             <seg n="45b840d7">
               Herr talman! Under punkt 11 i civilutskottets betänkande nr 7
               har utskottet med en mycket kort motivering avstyrkt motionen
@@ -5630,6 +5829,9 @@
               om det kan godtas just med hänsyn till de krav som bör ställas
               på totalförsvarets samlade beredskap.
             </seg>
+          </u>
+          <pb n="67" facs="https://betalab.kb.se/prot-1972--52/prot_1972__52-067.jp2/_view"/>
+          <u who="erik_greback_f48d1a" xml:id="i-4a33f9f5cc746dd8-11" prev="i-4a33f9f5cc746dd8-7" n="4a33f9f5">
             <seg n="bf7996d5">
               En detalj att peka på är att vi har en utbildad kader planläggningsledare.
               Omkring 25 av dessa blir nästa budgetår utan sysselsättning, om
@@ -5647,76 +5849,10 @@
               jag från att framställa något yrkande.
             </seg>
           </u>
-          <note n="80ccbdab">
-            Överläggningen var härmed slutad.
-          </note>
-          <note n="9701c9d9">
-            Mom. I Utskottets hemställan bifölls.
-          </note>
-          <note n="ddf3800a">
-            Mom. 2
-          </note>
-          <note n="13f50ee4">
-            Propositioner gavs på bifall till dels utskottets hemställan,
-            dels reservationen nr 2 av fröken Ljungberg och herr Wennerfors,
-            och förklarades den förra propositionen vara med övervägande ja
-            besvarad. Sedan herr Wennerfors begärt votering upplästes och
-            godkändes följande voteringsproposition:
-          </note>
-          <note n="9d3f32cb">
-            Den som vill att kammaren bifaller civilutskottets hemställan
-            i betänkan-
-          </note>
-          <note n="b1aa0a4a">
-            det nr 7 punkten 6 mom. 2 röstar ja,
-          </note>
-          <note n="7958591b">
-            Vinner nej har kammaren bifallit reservationen nr 2 av fröken
-            Ljungberg
-          </note>
-          <note n="4a149001">
-            och herr Wennerfors. 203
-          </note>
-          <pb n="66" facs="https://betalab.kb.se/prot-1972--52/prot_1972__52-066.jp2/_view"/>
-          <note n="ad9d7d6d">
-            Nr 52
-          </note>
-          <note type="date" n="4d6cfbaf">
-            Onsdagen den 5 april 1972
-          </note>
-          <note n="64111b2d">
-            Bidrag till kostna-
-          </note>
-          <note n="9835d74d">
-            der för kommunal beredskap
-          </note>
-          <note n="6da2a049">
-            204
-          </note>
-          <note n="cd1cc4e2">
-            Vid omröstning genom uppresning förklarades flertalet av kammarens
-            ledamöter ha röstat för ja-propositionen. Då herr Wennerfors begärde
-            rösträkning verkställdes votering med omröstningsapparat. Denna
-            omröstning gav följande resultat:
-          </note>
-          <note n="5dd77128">
-            Ja — 277 Nej — 34 Avstår — 1
-          </note>
-          <note n="bc85fb6e">
-            Punkterna 7—-10 Kammaren biföll vad utskottet i dessa punkter
-            hemställt.
-          </note>
-          <note n="574b628d">
-            Punkten 11 Bidrag till kostnader för kommunal beredskap
-          </note>
-          <note n="9f82870e">
-            Herr ERIKSSON i Ulfsbyn (c):
-          </note>
-          <pb n="67" facs="https://betalab.kb.se/prot-1972--52/prot_1972__52-067.jp2/_view"/>
           <note type="speaker" n="c8078bca">
             Herr GREBÄCK (c):
           </note>
-          <u who="erik_greback_f48d1a" xml:id="i-9d3c06b14651d232-2" next="i-b9ab49b9e9aefae2-2" n="4a33f9f5">
+          <u who="erik_greback_f48d1a" xml:id="i-4a33f9f5cc746dd8-12" next="i-4a33f9f5cc746dd8-15" n="4a33f9f5">
             <seg n="c5517492">
               Herr talman! Jag ber att helt kort och gott få återfalla på vad
               utskottet har sagt när det har behandlat motionsyrkandet på den
@@ -5736,7 +5872,7 @@
           <note n="9f82870e">
             Herr ERIKSSON i Ulfsbyn (c):
           </note>
-          <u who="erik_greback_f48d1a" xml:id="i-b9ab49b9e9aefae2-2" prev="i-9d3c06b14651d232-2" n="4a33f9f5">
+          <u who="erik_greback_f48d1a" xml:id="i-4a33f9f5cc746dd8-13" prev="i-4a33f9f5cc746dd8-12" n="4a33f9f5">
             <seg n="5d8ba538">
               Herr talman! Jag noterar med tacksamhet att civilutskottets ordförande,
               herr Grebäck, och vi motionärer är helt överens om vikten av den
@@ -5761,10 +5897,6 @@
               bättre skall tillgodose de äskanden som rör bidrag till kostnader
               för den kommunala beredskapen.
             </seg>
-            <seg n="175614f5">
-              Bidrag till kostnader för kommunal
-            </seg>
-            <seg n="ad136b6c"/>
           </u>
           <note n="80ccbdab">
             Överläggningen var härmed slutad.
@@ -5778,6 +5910,11 @@
           <note type="date" n="4d6cfbaf">
             Onsdagen den 5 april 1972
           </note>
+          <u who="erik_greback_f48d1a" xml:id="i-4a33f9f5cc746dd8-14" prev="i-4a33f9f5cc746dd8-12" n="4a33f9f5">
+            <seg n="175614f5">
+              Bidrag till kostnader för kommunal
+            </seg>
+          </u>
           <note n="56c52bce">
             beredskap
           </note>
@@ -5785,6 +5922,7 @@
             205
           </note>
           <pb n="68" facs="https://betalab.kb.se/prot-1972--52/prot_1972__52-068.jp2/_view"/>
+          <u who="erik_greback_f48d1a" xml:id="i-4a33f9f5cc746dd8-15" prev="i-4a33f9f5cc746dd8-12" n="4a33f9f5"/>
           <note n="ad9d7d6d">
             Nr 52
           </note>
@@ -5834,7 +5972,7 @@
           <note type="speaker" n="c8078bca">
             Herr GREBÄCK (c):
           </note>
-          <u who="erik_greback_f48d1a" xml:id="i-9d3c06b14651d232-3" next="i-b9ab49b9e9aefae2-3" n="4a33f9f5"/>
+          <u who="erik_greback_f48d1a" xml:id="i-4a33f9f5cc746dd8-16" next="i-4a33f9f5cc746dd8-18" n="4a33f9f5"/>
           <note n="b6480eb4">
             Herr talman! Civilutskottet har haft att behandla en motion av
             herr Hellström m. fl. om kommunalisering av sotningsväsendet,
@@ -5842,7 +5980,7 @@
             tillsättande av en utredning med syfte att lägga förslag om formerna
             för en kommunalisering av sotningsväsendet”.
           </note>
-          <u who="erik_greback_f48d1a" xml:id="i-b9ab49b9e9aefae2-3" prev="i-9d3c06b14651d232-3" n="4a33f9f5">
+          <u who="erik_greback_f48d1a" xml:id="i-4a33f9f5cc746dd8-17" prev="i-4a33f9f5cc746dd8-16" n="4a33f9f5">
             <seg n="131ac43b">
               Det är, efter vad jag tycker, en ganska märklig hemställan. Men
               vad som är ännu märkligare är att utskottets majoritet har gått
@@ -5867,6 +6005,9 @@
               ett övervägande om sotningsväsendets organisation. Det brukar
               ju
             </seg>
+          </u>
+          <pb n="69" facs="https://betalab.kb.se/prot-1972--52/prot_1972__52-069.jp2/_view"/>
+          <u who="erik_greback_f48d1a" xml:id="i-4a33f9f5cc746dd8-18" prev="i-4a33f9f5cc746dd8-16" n="4a33f9f5">
             <seg n="62131c24">
               framhållas i sådana här sammanhang att genom kommunreformen har
               kommunerna fått ökade resurser och större möjligheter att utöva
@@ -5925,11 +6066,10 @@
               Herr talman! Jag ber att få yrka bifall till reservationen.
             </seg>
           </u>
-          <pb n="69" facs="https://betalab.kb.se/prot-1972--52/prot_1972__52-069.jp2/_view"/>
           <note type="speaker" n="83c04608">
             Herr HELLSTRÖM (s):
           </note>
-          <u who="mats_hellstrom_a6967f" xml:id="i-6f89ce2b5b1954ae-0" next="i-a650bf58cdd84909-0" n="ca00b3b3">
+          <u who="mats_hellstrom_a6967f" xml:id="i-ca00b3b3cd9445ea-0" next="i-ca00b3b3cd9445ea-3" n="ca00b3b3">
             <seg n="cc627ee2">
               Herr talman! Herr Grebäcks anförande och reservationen utgår
               från att det skulle vara någonting egendomligt att lägga på kommunerna
@@ -5943,11 +6083,34 @@
           <note type="date" n="4d6cfbaf">
             Onsdagen den 5 april 1972
           </note>
-          <u who="mats_hellstrom_a6967f" xml:id="i-a650bf58cdd84909-0" prev="i-6f89ce2b5b1954ae-0" n="ca00b3b3">
+          <u who="mats_hellstrom_a6967f" xml:id="i-ca00b3b3cd9445ea-1" prev="i-ca00b3b3cd9445ea-0" n="ca00b3b3">
             <seg n="cecde200">
               En kommunalisering av sotnings-
             </seg>
-            <seg n="ad136b6c"/>
+          </u>
+          <note n="2edb4201">
+            väsendet
+          </note>
+          <note n="fe2ee909">
+            207
+          </note>
+          <pb n="70" facs="https://betalab.kb.se/prot-1972--52/prot_1972__52-070.jp2/_view"/>
+          <note n="ad9d7d6d">
+            Nr 52
+          </note>
+          <note type="date" n="4d6cfbaf">
+            Onsdagen den 5 april 1972
+          </note>
+          <note n="5bf5eb8e">
+            En kommunalise-
+          </note>
+          <note n="c85b3aa8">
+            ring av sotningsväsendet
+          </note>
+          <note n="2b2bd8cf">
+            208
+          </note>
+          <u who="mats_hellstrom_a6967f" xml:id="i-ca00b3b3cd9445ea-2" prev="i-ca00b3b3cd9445ea-0" n="ca00b3b3">
             <seg n="c51a6f71">
               Enligt brandlagen ligger ju sotningsväsendet inom ramen för varje
               kommuns skyldighet att hålla ett brandförsvar, och hela brandförsvaret
@@ -6013,6 +6176,9 @@
               som helst konkurrens mellan mästarna. Detta tillsammans med den
               orationella driften i många
             </seg>
+          </u>
+          <pb n="71" facs="https://betalab.kb.se/prot-1972--52/prot_1972__52-071.jp2/_view"/>
+          <u who="mats_hellstrom_a6967f" xml:id="i-ca00b3b3cd9445ea-3" prev="i-ca00b3b3cd9445ea-0" n="ca00b3b3">
             <seg n="39f7f326">
               privata sotningsföretag leder till orimligt höga sotningstaxor.
               De taxorna kan också pressas vid en kommunalisering.
@@ -6023,36 +6189,13 @@
               annat yrkande än om bifall till utskottets hemställan.
             </seg>
           </u>
-          <note n="2edb4201">
-            väsendet
-          </note>
-          <note n="fe2ee909">
-            207
-          </note>
-          <pb n="70" facs="https://betalab.kb.se/prot-1972--52/prot_1972__52-070.jp2/_view"/>
-          <note n="ad9d7d6d">
-            Nr 52
-          </note>
-          <note type="date" n="4d6cfbaf">
-            Onsdagen den 5 april 1972
-          </note>
-          <note n="5bf5eb8e">
-            En kommunalise-
-          </note>
-          <note n="c85b3aa8">
-            ring av sotningsväsendet
-          </note>
-          <note n="2b2bd8cf">
-            208
-          </note>
-          <pb n="71" facs="https://betalab.kb.se/prot-1972--52/prot_1972__52-071.jp2/_view"/>
           <note n="c66b2ed3">
             I detta anförande instämde herr Alf Pettersson i Malmö (s).
           </note>
           <note type="speaker" n="71b6ea76">
             Herr HÖGSTRÖM (s):
           </note>
-          <u who="ivar_hogstrom_de9832" xml:id="i-97d88c925c83b652-0" n="56065969">
+          <u who="ivar_hogstrom_de9832" xml:id="i-560659694945e0f5-0" n="56065969">
             <seg n="e5656a8e">
               Herr talman! Jag skulle kunna nöja mig med att understryka vad
               herr Hellström här anfört, men låt mig ändå säga några ord med
@@ -6080,7 +6223,7 @@
           <note type="speaker" n="c8078bca">
             Herr GREBÄCK (c):
           </note>
-          <u who="erik_greback_f48d1a" xml:id="i-57d5052c766b2854-1" n="4a33f9f5">
+          <u who="erik_greback_f48d1a" xml:id="i-4a33f9f5cc746dd8-19" n="4a33f9f5">
             <seg n="7625fd95">
               Herr talman! Tycker ändå inte herr Högström som kommunalman att
               kommunalmännen skall kunna klara upp den här saken utan att behöva
@@ -6103,7 +6246,7 @@
           <note type="speaker" n="71b6ea76">
             Herr HÖGSTRÖM (s):
           </note>
-          <u who="ivar_hogstrom_de9832" xml:id="i-5312b83d4551bcc8-0" next="i-c1f03079cc652067-0" n="56065969">
+          <u who="ivar_hogstrom_de9832" xml:id="i-560659694945e0f5-1" next="i-560659694945e0f5-6" n="56065969">
             <seg n="cd3ea6bb">
               Herr talman! Jag vill ännu en gång understryka vad som anförs
               i motionen om de krav som rests icke minst av de anställda på
@@ -6118,22 +6261,9 @@
           <note n="33dac969">
             Onsdagen den S april 1972
           </note>
-          <u who="ivar_hogstrom_de9832" xml:id="i-c1f03079cc652067-0" prev="i-5312b83d4551bcc8-0" n="56065969">
+          <u who="ivar_hogstrom_de9832" xml:id="i-560659694945e0f5-2" prev="i-560659694945e0f5-1" n="56065969">
             <seg n="cecde200">
               En kommunalisering av sotnings-
-            </seg>
-            <seg n="c834e424">
-              en översyn av formerna för verksamheten. Jag tycker inte det
-              är märkligt i något avseende.
-            </seg>
-            <seg n="4cec1429">
-              den det ej vill röstar nej.
-            </seg>
-            <seg n="8bc406bf">
-              Börjesson i Falköping (c) 79
-            </seg>
-            <seg n="afd80d3a">
-              Tobé (fp) 194, 200
             </seg>
           </u>
           <note n="2edb4201">
@@ -6158,6 +6288,12 @@
           <note n="b8f1f3f4">
             210
           </note>
+          <u who="ivar_hogstrom_de9832" xml:id="i-560659694945e0f5-3" prev="i-560659694945e0f5-1" n="56065969">
+            <seg n="c834e424">
+              en översyn av formerna för verksamheten. Jag tycker inte det
+              är märkligt i något avseende.
+            </seg>
+          </u>
           <note n="80ccbdab">
             Överläggningen var härmed slutad.
           </note>
@@ -6171,6 +6307,11 @@
             Den som vill att kammaren bifaller civilutskottets hemställan
             i betänkandet nr 8 röstar ja,
           </note>
+          <u who="ivar_hogstrom_de9832" xml:id="i-560659694945e0f5-4" prev="i-560659694945e0f5-1" n="56065969">
+            <seg n="4cec1429">
+              den det ej vill röstar nej.
+            </seg>
+          </u>
           <note n="5751ee20">
             Vinner nej har kammaren bifallit reservationen av herr Grebäck
             m. fl.
@@ -6246,6 +6387,11 @@
           <note n="cafef620">
             Ahlmark (fp) 138
           </note>
+          <u who="ivar_hogstrom_de9832" xml:id="i-560659694945e0f5-5" prev="i-560659694945e0f5-1" n="56065969">
+            <seg n="8bc406bf">
+              Börjesson i Falköping (c) 79
+            </seg>
+          </u>
           <note n="253fe0df">
             Dahlgren (c) 30, 39, 41, 48, 52
           </note>
@@ -6337,7 +6483,7 @@
           <note n="7e81ae2d">
             212
           </note>
-          <note n="cb72af5f">
+          <note type="date" n="7ed44f4f">
             Onsdagen den 5 april kl. 19.30
           </note>
           <note n="9012735d">
@@ -6412,6 +6558,11 @@
           <note n="565461df">
             Sundberg (m) 187
           </note>
+          <u who="ivar_hogstrom_de9832" xml:id="i-560659694945e0f5-6" prev="i-560659694945e0f5-1" n="56065969">
+            <seg n="afd80d3a">
+              Tobé (fp) 194, 200
+            </seg>
+          </u>
           <note n="4f6dea8a">
             Wennerfors (m) 203
           </note>

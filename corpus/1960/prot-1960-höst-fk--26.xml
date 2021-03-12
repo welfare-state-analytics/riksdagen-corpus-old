@@ -20,7 +20,7 @@
     <encodingDesc>
       <editorialDecl>
         <correction>
-          <p>Some data curation was done. It is documented in db/curation/instances</p>
+          <p>Some data curation was done. It is documented in input/curation/instances</p>
         </correction>
       </editorialDecl>
     </encodingDesc>
@@ -53,11 +53,13 @@
         <div type="preface">
           <head>prot-1960-höst-fk--26</head>
           <docDate when="1960-11-18">1960-11-18</docDate>
+          <docDate when="1960-11-22">1960-11-22</docDate>
           <docDate when="1960-11-23">1960-11-23</docDate>
         </div>
       </front>
       <body>
         <div>
+          <pb n="0" facs="https://betalab.kb.se/prot-1960-höst-fk--26/prot_1960_höst_fk__26-000.jp2/_view"/>
           <note n="411ed48b">
             AP NR
           </note>
@@ -142,7 +144,7 @@
             29 29
           </note>
           <pb n="2" facs="https://betalab.kb.se/prot-1960-höst-fk--26/prot_1960_höst_fk__26-002.jp2/_view"/>
-          <note n="15782f8c">
+          <note type="date" n="145a993e">
             Fredagen den 18 november 1960
           </note>
           <note n="db025930">
@@ -259,7 +261,7 @@
           <note n="3ea3c6dd">
             4 Nr 26
           </note>
-          <note n="15782f8c">
+          <note type="date" n="145a993e">
             Fredagen den 18 november 1960
           </note>
           <note n="4408944a">
@@ -345,7 +347,7 @@
             In fidem K.-G. Lindelöw
           </note>
           <pb n="4" facs="https://betalab.kb.se/prot-1960-höst-fk--26/prot_1960_höst_fk__26-004.jp2/_view"/>
-          <note n="46cb1038">
+          <note type="date" n="3100e533">
             Tisdagen den 22 november 1960
           </note>
           <note n="a2be8511">
@@ -474,7 +476,7 @@
           <note type="speaker" n="143f4739">
             Herr JONASSON (cp):
           </note>
-          <u who="bertil_jonasson_4d58ce" xml:id="i-66312e431d642167-0" next="i-7be7c290828c5a7a-0" n="44ee522d">
+          <u who="bertil_jonasson_4d58ce" xml:id="i-44ee522d4084ac4b-0" next="i-44ee522d4084ac4b-8" n="44ee522d">
             <seg n="ebd68cc7">
               Herr talman! Jag ber att få framföra mitt tack till statsrådet
               och chefen för jordbruksdepartementet för svaret på min interpellation.
@@ -490,10 +492,10 @@
               och inre
             </seg>
           </u>
-          <note n="46cb1038">
+          <note type="date" n="3100e533">
             Tisdagen den 22 november 1960
           </note>
-          <u who="bertil_jonasson_4d58ce" xml:id="i-7be7c290828c5a7a-0" prev="i-66312e431d642167-0" n="44ee522d">
+          <u who="bertil_jonasson_4d58ce" xml:id="i-44ee522d4084ac4b-1" prev="i-44ee522d4084ac4b-0" n="44ee522d">
             <seg n="b3d799c1">
               rationaliseringen har småbruket synnerligen svårt att hänga med.
               En övergång till större enheter kan vara riktig på vissa håll
@@ -525,10 +527,29 @@
               om att vi måste räkna med att ha småbruket kvar även framöver,
               men småbruket behöver stöd.
             </seg>
+          </u>
+          <note n="c0fb302e">
+            Tidigare hade vi producentbidrag, men i enlighet med proposition
+            nr 149 i fjol beslutade riksdagen att ersätta producentbidraget
+            med ett behovsprövat arealbidrag. Detta beslut hade föregåtts
+            av en särskild utredning.
+          </note>
+          <u who="bertil_jonasson_4d58ce" xml:id="i-44ee522d4084ac4b-2" prev="i-44ee522d4084ac4b-0" n="44ee522d">
             <seg n="8d3616d7">
               Enligt det förslag som utredningen om småbrukarstödet lade fram
               skulle arealtilläggen kosta 50 miljoner kronor årligen.
             </seg>
+          </u>
+          <note n="930449a4">
+            Regeringen prutade på detta förslag beträffande både belopp och
+            areal och föreslog skärpta bestämmelser. Riksdagens majoritet
+            beslutade i enlighet med
+          </note>
+          <pb n="6" facs="https://betalab.kb.se/prot-1960-höst-fk--26/prot_1960_höst_fk__26-006.jp2/_view"/>
+          <note type="date" n="3100e533">
+            Tisdagen den 22 november 1960
+          </note>
+          <u who="bertil_jonasson_4d58ce" xml:id="i-44ee522d4084ac4b-3" prev="i-44ee522d4084ac4b-0" n="44ee522d">
             <seg n="24665fc7">
               propositionen, men vi i centerpartiet önskade gå längre beträffande
               stödåtgärderna till jordbruket.
@@ -573,6 +594,14 @@
               från 50 000 till 80 000 kronor. Denna höjning av taxeringsvärdena
               skedde på grund
             </seg>
+          </u>
+          <note n="f680902a">
+            Nr 26 7
+          </note>
+          <note n="a09546cf">
+            Ang. 1959 års arealtillägg till småbrukare
+          </note>
+          <u who="bertil_jonasson_4d58ce" xml:id="i-44ee522d4084ac4b-4" prev="i-44ee522d4084ac4b-0" n="44ee522d">
             <seg n="9aadb7c7">
               av penningvärdets försämring. Ett tidigare taxeringsvärde på
               50000 kronor blir med 60 procents förhöjning 80 000 kronor. Lönsamheten
@@ -612,12 +641,26 @@
               svar beträffande användningen av de tio miljoner kronorna, men
               på den punkten får jag väl nöja
             </seg>
+          </u>
+          <pb n="7" facs="https://betalab.kb.se/prot-1960-höst-fk--26/prot_1960_höst_fk__26-007.jp2/_view"/>
+          <note n="ca509b6c">
+            8 Nr 26
+          </note>
+          <note n="a09546cf">
+            Ang. 1959 års arealtillägg till småbrukare
+          </note>
+          <u who="bertil_jonasson_4d58ce" xml:id="i-44ee522d4084ac4b-5" prev="i-44ee522d4084ac4b-0" n="44ee522d">
             <seg n="f233f69d">
               mig med det besked som jag har fått. Kanske förhåller det sig
               så att regeringen anser sig ha bättre användning för de tio miljoner
               kronorna för att täcka penningbehovet vid Operans reparation än
               för att ge de mindre jordbrukarna de tidigare utlovade medlen.
             </seg>
+          </u>
+          <note n="2203fb95">
+            Herr statsrådet NETZÉN:
+          </note>
+          <u who="bertil_jonasson_4d58ce" xml:id="i-44ee522d4084ac4b-6" prev="i-44ee522d4084ac4b-0" n="44ee522d">
             <seg n="c9a2d71c">
               Herr talman! Jag tänker inte ge mig in på något försök att göra
               jämförelser mellan Operan och småbrukarstödet: det kanske är en
@@ -647,6 +690,11 @@
               ju för det första beroende på antalet stödberättigade från det
               ena året till det andra, i vilken takt minskning-
             </seg>
+          </u>
+          <note type="date" n="3100e533">
+            Tisdagen den 22 november 1960
+          </note>
+          <u who="bertil_jonasson_4d58ce" xml:id="i-44ee522d4084ac4b-7" prev="i-44ee522d4084ac4b-0" n="44ee522d">
             <seg n="450db45f">
               en skulle komma att fortgå och hur länge man kunde räkna med
               att behålla det ungefärliga antalet. För det andra hade man att
@@ -685,50 +733,9 @@
               Herr Jonassons önskan om jämkning av tillämpningsföreskrifterna
               får väl bli
             </seg>
-            <seg n="9712fd6b">
-              en senare fråga, som tas upp när problemet i sin helhet kan bedömas.
-              De nu gällande tillämpningsföreskrifterna utgår från de riktlinjer,
-              som riksdagsbeslutet innebar, och man kan inte gärna förbrå de
-              verkställande myndigheterna att dessa föreskrifter tillämpas så
-              länge de nuvarande bestämmelserna gäller.
-            </seg>
           </u>
-          <note n="c0fb302e">
-            Tidigare hade vi producentbidrag, men i enlighet med proposition
-            nr 149 i fjol beslutade riksdagen att ersätta producentbidraget
-            med ett behovsprövat arealbidrag. Detta beslut hade föregåtts
-            av en särskild utredning.
-          </note>
-          <note n="930449a4">
-            Regeringen prutade på detta förslag beträffande både belopp och
-            areal och föreslog skärpta bestämmelser. Riksdagens majoritet
-            beslutade i enlighet med
-          </note>
-          <pb n="6" facs="https://betalab.kb.se/prot-1960-höst-fk--26/prot_1960_höst_fk__26-006.jp2/_view"/>
-          <note n="46cb1038">
-            Tisdagen den 22 november 1960
-          </note>
-          <note n="f680902a">
-            Nr 26 7
-          </note>
-          <note n="a09546cf">
-            Ang. 1959 års arealtillägg till småbrukare
-          </note>
-          <pb n="7" facs="https://betalab.kb.se/prot-1960-höst-fk--26/prot_1960_höst_fk__26-007.jp2/_view"/>
-          <note n="ca509b6c">
-            8 Nr 26
-          </note>
-          <note n="a09546cf">
-            Ang. 1959 års arealtillägg till småbrukare
-          </note>
-          <note n="2203fb95">
-            Herr statsrådet NETZÉN:
-          </note>
-          <note n="46cb1038">
-            Tisdagen den 22 november 1960
-          </note>
           <pb n="8" facs="https://betalab.kb.se/prot-1960-höst-fk--26/prot_1960_höst_fk__26-008.jp2/_view"/>
-          <note n="46cb1038">
+          <note type="date" n="3100e533">
             Tisdagen den 22 november 1960
           </note>
           <note n="fb8d9d3f">
@@ -737,10 +744,19 @@
           <note n="855d96db">
             Interpellation ang. den kommunala demokratien
           </note>
+          <u who="bertil_jonasson_4d58ce" xml:id="i-44ee522d4084ac4b-8" prev="i-44ee522d4084ac4b-0" n="44ee522d">
+            <seg n="9712fd6b">
+              en senare fråga, som tas upp när problemet i sin helhet kan bedömas.
+              De nu gällande tillämpningsföreskrifterna utgår från de riktlinjer,
+              som riksdagsbeslutet innebar, och man kan inte gärna förbrå de
+              verkställande myndigheterna att dessa föreskrifter tillämpas så
+              länge de nuvarande bestämmelserna gäller.
+            </seg>
+          </u>
           <note type="speaker" n="143f4739">
             Herr JONASSON (cp):
           </note>
-          <u who="bertil_jonasson_4d58ce" xml:id="i-66312e431d642167-1" next="i-7be7c290828c5a7a-1" n="44ee522d">
+          <u who="bertil_jonasson_4d58ce" xml:id="i-44ee522d4084ac4b-9" next="i-44ee522d4084ac4b-13" n="44ee522d">
             <seg n="bc8fefe2">
               Herr talman! Jordbruksministern sade att det viktigaste är att
               de stödberättigade får sina understöd på det sätt som anges i
@@ -797,7 +813,7 @@
           <note n="6fe9562d">
             Herr HEDBLOM (fp) erhöll på begäran ordet och yttrade:
           </note>
-          <u who="bertil_jonasson_4d58ce" xml:id="i-7be7c290828c5a7a-1" prev="i-66312e431d642167-1" n="44ee522d">
+          <u who="bertil_jonasson_4d58ce" xml:id="i-44ee522d4084ac4b-10" prev="i-44ee522d4084ac4b-9" n="44ee522d">
             <seg n="c47453e2">
               Herr talman! Utredningen om den kommunala indelningen har för
               någon tid sedan erhållit nya direktiv att framlägga förslag med
@@ -808,6 +824,31 @@
               ett medel att stärka kommuninvånarnas möjligheter att göra sin
               röst hörd i de kommunala frågorna.
             </seg>
+          </u>
+          <note n="76896495">
+            Som bekant framlade 1950 års folkomröstningsoch valsättsutredning
+            1952 ett betänkande med förslag till lag om kommunal folkomröstning.
+            Utredningen, som bestod av representanter för samtliga demokratiska
+            partier, underströk att det kunde vara av värde om en i lag reglerad
+            möjlighet funnes att erhålla ett omedelbart uttryck för kommuninvånarnas
+            inställning till betydelsefulla kommunala frågor. Det skulle ankomma
+            på fullmäktige att fritt bedöma, när förutsättningar kunde anses
+            föreligga för kommunal folkomröstning. Val samt frå: gan om grunden
+            för utdebitering av allmän kommunalskatt skulle undantagas från
+            omröstning enligt förslaget. Utredningens förslag resulterade
+            icke i någon proposition till riksdagen.
+          </note>
+          <pb n="9" facs="https://betalab.kb.se/prot-1960-höst-fk--26/prot_1960_höst_fk__26-009.jp2/_view"/>
+          <note n="71aa906a">
+            10 Nr 26
+          </note>
+          <note type="date" n="3100e533">
+            Tisdagen den 22 november 1960
+          </note>
+          <note n="855d96db">
+            Interpellation ang. den kommunala demokratien
+          </note>
+          <u who="bertil_jonasson_4d58ce" xml:id="i-44ee522d4084ac4b-11" prev="i-44ee522d4084ac4b-9" n="44ee522d">
             <seg n="ed37b313">
               Genom den nya kommunindelningsreform, som nu signaleras, kommer
               ännu större enheter än de som tillkom 19352, att skapas. Möjligheterna
@@ -846,34 +887,7 @@
               och genom att låta utreda frågan om möjlighet för kommuner att
               inrätta lokala organ av typen stadsdelsråd?
             </seg>
-            <seg n="7fc0b15b"/>
-            <seg n="2735729b">
-              Om viss förstärkning av undervisningen i matematik
-            </seg>
           </u>
-          <note n="76896495">
-            Som bekant framlade 1950 års folkomröstningsoch valsättsutredning
-            1952 ett betänkande med förslag till lag om kommunal folkomröstning.
-            Utredningen, som bestod av representanter för samtliga demokratiska
-            partier, underströk att det kunde vara av värde om en i lag reglerad
-            möjlighet funnes att erhålla ett omedelbart uttryck för kommuninvånarnas
-            inställning till betydelsefulla kommunala frågor. Det skulle ankomma
-            på fullmäktige att fritt bedöma, när förutsättningar kunde anses
-            föreligga för kommunal folkomröstning. Val samt frå: gan om grunden
-            för utdebitering av allmän kommunalskatt skulle undantagas från
-            omröstning enligt förslaget. Utredningens förslag resulterade
-            icke i någon proposition till riksdagen.
-          </note>
-          <pb n="9" facs="https://betalab.kb.se/prot-1960-höst-fk--26/prot_1960_höst_fk__26-009.jp2/_view"/>
-          <note n="71aa906a">
-            10 Nr 26
-          </note>
-          <note n="46cb1038">
-            Tisdagen den 22 november 1960
-          </note>
-          <note n="855d96db">
-            Interpellation ang. den kommunala demokratien
-          </note>
           <note n="0c0ec6a2">
             På gjord proposition medgav kammaren, att ifrågavarande spörsmål
             finge framställas.
@@ -886,7 +900,7 @@
             In fidem K.-G. Lindelöw
           </note>
           <pb n="10" facs="https://betalab.kb.se/prot-1960-höst-fk--26/prot_1960_höst_fk__26-010.jp2/_view"/>
-          <note n="bad153df">
+          <note type="date" n="3fb6f95f">
             Onsdagen den 23 november 1960
           </note>
           <note n="0ac67d94">
@@ -898,9 +912,15 @@
           <note n="7fbc3e21">
             Kammaren sammanträdde kl. 14.00.
           </note>
+          <u who="bertil_jonasson_4d58ce" xml:id="i-44ee522d4084ac4b-12" prev="i-44ee522d4084ac4b-9" n="44ee522d"/>
           <note n="4ee5a7dc">
             Herr Undén anmälde, att han infunnit sig vid riksdagen.
           </note>
+          <u who="bertil_jonasson_4d58ce" xml:id="i-44ee522d4084ac4b-13" prev="i-44ee522d4084ac4b-9" n="44ee522d">
+            <seg n="2735729b">
+              Om viss förstärkning av undervisningen i matematik
+            </seg>
+          </u>
           <note n="65773ec5">
             Föredrogs ånyo statsutskottets utlåtande nr 170, i anledning
             av väckta motioner om viss förstärkning av undervisningen i matematik.
@@ -928,7 +948,7 @@
           <note type="speaker" n="819754af">
             Herr LARSSON, THORSTEN, (cp):
           </note>
-          <u who="ake_larsson_fee83f" xml:id="i-841be9362cf2381f-0" next="i-673c4697524a047f-0" n="9a545529">
+          <u who="ake_larsson_fee83f" xml:id="i-9a54552916e67f7e-0" next="i-9a54552916e67f7e-1" n="9a545529">
             <seg n="6eee51e2">
               Herr talman! De här motionerna kan inte sägas ha fått något större
               gensvar i utskottet, men inte desto mindre dristar jag mig att
@@ -978,10 +998,10 @@
           <note n="3afb0129">
             12 Nr 26
           </note>
-          <note n="bad153df">
+          <note type="date" n="3fb6f95f">
             Onsdagen den 23 november 1960
           </note>
-          <u who="ake_larsson_fee83f" xml:id="i-673c4697524a047f-0" prev="i-841be9362cf2381f-0" n="9a545529">
+          <u who="ake_larsson_fee83f" xml:id="i-9a54552916e67f7e-1" prev="i-9a54552916e67f7e-0" n="9a545529">
             <seg n="2735729b">
               Om viss förstärkning av undervisningen i matematik
             </seg>
@@ -1022,7 +1042,7 @@
           <note type="speaker" n="b0b8e18d">
             Herr NÄSSTRÖM (s):
           </note>
-          <u who="emil_nasstrom_a66c00" xml:id="i-ddb86a94f185c9c4-0" n="827d6808">
+          <u who="emil_nasstrom_a66c00" xml:id="i-827d6808618ca4b0-0" n="827d6808">
             <seg n="ef98ae39">
               Herr talman! Utskottet har givit en ganska utförlig framställning
               av frågan såväl i reciten som i utskottets eget utlåtande angående
@@ -1069,7 +1089,7 @@
           <note type="speaker" n="819754af">
             Herr LARSSON, THORSTEN, (cp):
           </note>
-          <u who="ake_larsson_fee83f" xml:id="i-841be9362cf2381f-1" next="i-673c4697524a047f-1" n="9a545529">
+          <u who="ake_larsson_fee83f" xml:id="i-9a54552916e67f7e-2" next="i-9a54552916e67f7e-3" n="9a545529">
             <seg n="a338ace8">
               Herr talman! Herr Näsström sade att han har litet svårt att förstå
               vad jag egentligen ville veta. Jag ber att få upprepa än en gång
@@ -1081,10 +1101,10 @@
             </seg>
           </u>
           <pb n="12" facs="https://betalab.kb.se/prot-1960-höst-fk--26/prot_1960_höst_fk__26-012.jp2/_view"/>
-          <note n="bad153df">
+          <note type="date" n="3fb6f95f">
             Onsdagen den 23 november 1960
           </note>
-          <u who="ake_larsson_fee83f" xml:id="i-673c4697524a047f-1" prev="i-841be9362cf2381f-1" n="9a545529">
+          <u who="ake_larsson_fee83f" xml:id="i-9a54552916e67f7e-3" prev="i-9a54552916e67f7e-2" n="9a545529">
             <seg n="1e11e48e">
               skulle alltså icke skapa de av motionärerna själva åsyftade förutsättningarna
               för en i möjligaste mån likvärdig undervisning i matematik för
@@ -1127,7 +1147,7 @@
           <note type="speaker" n="b0b8e18d">
             Herr NÄSSTRÖM (s):
           </note>
-          <u who="emil_nasstrom_a66c00" xml:id="i-66ba07887a0049b8-0" next="i-f40db4634ec60abb-0" n="827d6808">
+          <u who="emil_nasstrom_a66c00" xml:id="i-827d6808618ca4b0-1" next="i-827d6808618ca4b0-2" n="827d6808">
             <seg n="3cc3a840">
               Herr talman! Med anledning av vad herr Larsson anfört vill jag
               bara nämna
@@ -1139,7 +1159,7 @@
           <note n="0f252616">
             Ang. statsbidraget till folkhögskolor
           </note>
-          <u who="emil_nasstrom_a66c00" xml:id="i-f40db4634ec60abb-0" prev="i-66ba07887a0049b8-0" n="827d6808">
+          <u who="emil_nasstrom_a66c00" xml:id="i-827d6808618ca4b0-2" prev="i-827d6808618ca4b0-1" n="827d6808">
             <seg n="d0ae72ea">
               att centerpartiets skolexpert herr Larsson i Hedenäset har varit
               med i utskottet och därvid icke gjort de invändningar som framförts
@@ -1178,7 +1198,7 @@
           <note type="speaker" n="9325a9b2">
             Herr JOHANSSON, TAGE, (s):
           </note>
-          <u who="tage_johansson_8a7244" xml:id="i-2a4fb02bc4607538-0" next="i-2108d6ebadeb4889-0" n="748c7d63">
+          <u who="tage_johansson_8a7244" xml:id="i-748c7d6334d04586-0" next="i-748c7d6334d04586-2" n="748c7d63">
             <seg n="80f258d0">
               Herr talman! I de motioner, som behandlats i detta utlåtande,
               har vi motionärer föreslagit, att riksdagen i skrivelse till Kungl.
@@ -1195,7 +1215,7 @@
           <note n="0f252616">
             Ang. statsbidraget till folkhögskolor
           </note>
-          <u who="tage_johansson_8a7244" xml:id="i-2108d6ebadeb4889-0" prev="i-2a4fb02bc4607538-0" n="748c7d63">
+          <u who="tage_johansson_8a7244" xml:id="i-748c7d6334d04586-1" prev="i-748c7d6334d04586-0" n="748c7d63">
             <seg n="f9818468">
               der kurstiden i stället för som nu endast för dag då undervisning
               pågår.
@@ -1243,6 +1263,11 @@
               om bidragen till lantbruksundervisningsanstalterna och att man
               bör avvakta denna ut-
             </seg>
+          </u>
+          <note type="date" n="3fb6f95f">
+            Onsdagen den 23 november 1960
+          </note>
+          <u who="tage_johansson_8a7244" xml:id="i-748c7d6334d04586-2" prev="i-748c7d6334d04586-0" n="748c7d63">
             <seg n="4f68cd68">
               redning, innan man ändrar bidragen till folkhögskolorna. Jag
               tycker inte att denna hänvisning till en utredning om andra skolors
@@ -1265,13 +1290,10 @@
               som jag vet är väsentlig för folkhögskolorna.
             </seg>
           </u>
-          <note n="bad153df">
-            Onsdagen den 23 november 1960
-          </note>
           <note type="speaker" n="b0b8e18d">
             Herr NÄSSTRÖM (s):
           </note>
-          <u who="emil_nasstrom_a66c00" xml:id="i-ddb86a94f185c9c4-1" n="827d6808">
+          <u who="emil_nasstrom_a66c00" xml:id="i-827d6808618ca4b0-3" n="827d6808">
             <seg n="415a513f">
               Herr talman! Enligt beslut av 1957 års riksdag skall driftbidraget
               till folkhögskolorna utges efter samma grunder som gäller för
@@ -1332,7 +1354,7 @@
           <note type="speaker" n="6b2837f4">
             Herr KAIJSER (h):
           </note>
-          <u who="rolf_kaijser_f8a29e" xml:id="i-a5349cfa4307d54e-0" next="i-77c4b1cf85a35663-0" n="04425918">
+          <u who="rolf_kaijser_f8a29e" xml:id="i-04425918a2329615-0" next="i-04425918a2329615-2" n="04425918">
             <seg n="c7ae3cd1">
               Herr talman! Enligt gällande bestämmelser är det så att en övningslärare
               som tjänstgör som konsulent eller som instruktör i ämnen kan få
@@ -1346,7 +1368,7 @@
             november 1960 Nr 26 15 begäres att man skall jämställa en folkskollärare
             med en övningslärare i detta sammanhang.
           </note>
-          <u who="rolf_kaijser_f8a29e" xml:id="i-77c4b1cf85a35663-0" prev="i-a5349cfa4307d54e-0" n="04425918">
+          <u who="rolf_kaijser_f8a29e" xml:id="i-04425918a2329615-1" prev="i-04425918a2329615-0" n="04425918">
             <seg n="bbe7ec4a">
               Frågan har varit remitterad till tre instanser. Skolöverstyrelsen
               påpekar att det är sällan som det förekommer att en folkskollärare
@@ -1384,6 +1406,15 @@
               I reservationen yrkas bifall till motionsyrkandet, vilket förefaller
               vara ctt praktiskt sätt att ordna en sak, som för
             </seg>
+          </u>
+          <pb n="15" facs="https://betalab.kb.se/prot-1960-höst-fk--26/prot_1960_höst_fk__26-015.jp2/_view"/>
+          <note n="6d2d98a3">
+            16 Nr 26
+          </note>
+          <note type="date" n="3fb6f95f">
+            Onsdagen den 23 november 1960
+          </note>
+          <u who="rolf_kaijser_f8a29e" xml:id="i-04425918a2329615-2" prev="i-04425918a2329615-0" n="04425918">
             <seg n="a49d9d89">
               Om vissa folkskollärares jämställande med övningslärare i fråga
               om undervisnings-
@@ -1396,20 +1427,13 @@
               Jag ber, herr talman, att få yrka bifall till reservationen.
             </seg>
           </u>
-          <pb n="15" facs="https://betalab.kb.se/prot-1960-höst-fk--26/prot_1960_höst_fk__26-015.jp2/_view"/>
-          <note n="6d2d98a3">
-            16 Nr 26
-          </note>
-          <note n="bad153df">
-            Onsdagen den 23 november 1960
-          </note>
           <note n="a544df7d">
             Häri instämde herr Källqvist (fp).
           </note>
           <note type="speaker" n="b0b8e18d">
             Herr NÄSSTRÖM (s):
           </note>
-          <u who="emil_nasstrom_a66c00" xml:id="i-66ba07887a0049b8-1" next="i-f40db4634ec60abb-1" n="827d6808">
+          <u who="emil_nasstrom_a66c00" xml:id="i-827d6808618ca4b0-4" next="i-827d6808618ca4b0-10" n="827d6808">
             <seg n="e3f1373b">
               Herr talman! Jag vill bara framhålla, att den institution som
               mest har att göra med dessa frågor är statens lönenämnd, och lönenämnden
@@ -1495,57 +1519,15 @@
             Utskottets hemställan bifölls.
           </note>
           <pb n="16" facs="https://betalab.kb.se/prot-1960-höst-fk--26/prot_1960_höst_fk__26-016.jp2/_view"/>
-          <note n="bad153df">
+          <note type="date" n="3fb6f95f">
             Onsdagen den 23 november 1960
           </note>
           <note n="653ad420">
             Nr 26 17
           </note>
-          <u who="emil_nasstrom_a66c00" xml:id="i-f40db4634ec60abb-1" prev="i-66ba07887a0049b8-1" n="827d6808">
+          <u who="emil_nasstrom_a66c00" xml:id="i-827d6808618ca4b0-5" prev="i-827d6808618ca4b0-4" n="827d6808">
             <seg n="5cf3442e">
               Ang. åtgärder mot mörkerolyckor i trafiken
-            </seg>
-            <seg n="5cf3442e">
-              Ang. åtgärder mot mörkerolyckor i trafiken
-            </seg>
-            <seg n="acedbab0">
-              1) att en uppmjukning av vänsterregeln skulle ske på så sätt,
-              att trafiken på leder med stark trafik och genomfartstrafik skulle
-              kunna framgå utan att lämna från vänster kommande fordon företräde
-              och att en dylik »genomfartsled» utmärktes med särskilt vägmärke,
-              förslagsvis en på ena spetsen ställd mindre triangel,
-            </seg>
-            <seg n="14c57b02">
-              2) att den nu föreskrivna skyldigheten att ha cyklar och mopeder
-              utrustade med belysningsoch reflexanordningar
-            </seg>
-            <seg n="1eca30c9">
-              vid färd på väg under mörker skulle utsträckas till att gälla
-              även vid färd under dager, dock endast vid färd på allmän väg,
-            </seg>
-            <seg n="5855d47c">
-              3) att gående på väg utan belysning och utan gångbana i mörker
-              borde vara utrustad med lykta eller på kläderna på lämpligt sätt
-              fastsatta reflexanordningar,
-            </seg>
-            <seg n="fdd41a84">
-              5) att dragfordon med tillkopplad släpvagn skulle vara utrustad
-              med en på vänstra, främre stänkskärmen på en pejlstång av böjligt
-              material placerad skylt med texten »Släp», samt
-            </seg>
-            <seg n="ec8daa50">
-              6) att vägmärke innefattande förbud mot omkörning obligatoriskt
-              skulle uppsättas även vid vägens högra kant.
-            </seg>
-            <seg n="5cf3442e">
-              Ang. åtgärder mot mörkerolyckor i trafiken
-            </seg>
-            <seg n="38e2b3f5">
-              med moped på allmän väg borde således icke stadgas. Icke heller
-              beträffande cyklar borde sådan inskränkning göras. Utskottet hade
-              jämväl tillstyrkt bifall till motionerna i vad gällde förslaget
-              att gående i mörker skulle i vissa fall utrustas med lykta eller
-              reflexanordning.
             </seg>
           </u>
           <note n="2bcbeef8">
@@ -1564,6 +1546,11 @@
             57, i anledning av väckt motion om viss ändring i folkpensioneringslagen,
             bifölls vad utskottet i detta utlåtande hemställt.
           </note>
+          <u who="emil_nasstrom_a66c00" xml:id="i-827d6808618ca4b0-6" prev="i-827d6808618ca4b0-4" n="827d6808">
+            <seg n="5cf3442e">
+              Ang. åtgärder mot mörkerolyckor i trafiken
+            </seg>
+          </u>
           <note n="847f741d">
             Föredrogs ånyo andra lagutskottets utlåtande nr 63, i anledning
             av väckta motioner om åtgärder mot mörkerolyckor i trafiken, m.
@@ -1580,13 +1567,48 @@
             till ändringar och kompletteringar av gällande trafiklagstiftning.
             Motionärerna hade sålunda föreslagit,
           </note>
+          <u who="emil_nasstrom_a66c00" xml:id="i-827d6808618ca4b0-7" prev="i-827d6808618ca4b0-4" n="827d6808">
+            <seg n="acedbab0">
+              1) att en uppmjukning av vänsterregeln skulle ske på så sätt,
+              att trafiken på leder med stark trafik och genomfartstrafik skulle
+              kunna framgå utan att lämna från vänster kommande fordon företräde
+              och att en dylik »genomfartsled» utmärktes med särskilt vägmärke,
+              förslagsvis en på ena spetsen ställd mindre triangel,
+            </seg>
+            <seg n="14c57b02">
+              2) att den nu föreskrivna skyldigheten att ha cyklar och mopeder
+              utrustade med belysningsoch reflexanordningar
+            </seg>
+          </u>
           <note n="2eaff441">
             2 Första kammarens protokoll 1960. Nr 26
           </note>
+          <u who="emil_nasstrom_a66c00" xml:id="i-827d6808618ca4b0-8" prev="i-827d6808618ca4b0-4" n="827d6808">
+            <seg n="1eca30c9">
+              vid färd på väg under mörker skulle utsträckas till att gälla
+              även vid färd under dager, dock endast vid färd på allmän väg,
+            </seg>
+            <seg n="5855d47c">
+              3) att gående på väg utan belysning och utan gångbana i mörker
+              borde vara utrustad med lykta eller på kläderna på lämpligt sätt
+              fastsatta reflexanordningar,
+            </seg>
+          </u>
           <note n="f9597ef7">
             4) att lagfästa bestämmelser om vägbelysningens utformning skulle
             införas,
           </note>
+          <u who="emil_nasstrom_a66c00" xml:id="i-827d6808618ca4b0-9" prev="i-827d6808618ca4b0-4" n="827d6808">
+            <seg n="fdd41a84">
+              5) att dragfordon med tillkopplad släpvagn skulle vara utrustad
+              med en på vänstra, främre stänkskärmen på en pejlstång av böjligt
+              material placerad skylt med texten »Släp», samt
+            </seg>
+            <seg n="ec8daa50">
+              6) att vägmärke innefattande förbud mot omkörning obligatoriskt
+              skulle uppsättas även vid vägens högra kant.
+            </seg>
+          </u>
           <note n="6ff2d4a7">
             Med hänvisning till dessa förslag hade motionärerna hemställt,
             att riksdagen i skrivelse till Kungl. Maj:t måtte begära sådana
@@ -1624,9 +1646,21 @@
           <note n="11fbf93e">
             18 Nr 26
           </note>
-          <note n="bad153df">
+          <note type="date" n="3fb6f95f">
             Onsdagen den 23 november 1960
           </note>
+          <u who="emil_nasstrom_a66c00" xml:id="i-827d6808618ca4b0-10" prev="i-827d6808618ca4b0-4" n="827d6808">
+            <seg n="5cf3442e">
+              Ang. åtgärder mot mörkerolyckor i trafiken
+            </seg>
+            <seg n="38e2b3f5">
+              med moped på allmän väg borde således icke stadgas. Icke heller
+              beträffande cyklar borde sådan inskränkning göras. Utskottet hade
+              jämväl tillstyrkt bifall till motionerna i vad gällde förslaget
+              att gående i mörker skulle i vissa fall utrustas med lykta eller
+              reflexanordning.
+            </seg>
+          </u>
           <note n="f70b369e">
             Reservationer hade avgivits
           </note>
@@ -1664,7 +1698,7 @@
           <note type="speaker" n="c53bbcbf">
             Herr SVENSSON, AXEL, (s):
           </note>
-          <u who="rikard_svensson_8b9764" xml:id="i-cd35d58509983ccd-0" next="i-fca8305d5dd393f6-0" n="a370f0de">
+          <u who="rikard_svensson_8b9764" xml:id="i-a370f0def7e95899-0" next="i-a370f0def7e95899-1" n="a370f0de">
             <seg n="96f7b4f5">
               Herr talman! Det framgår av utlåtandet, att vi delat oss inom
               utskottet när det gäller frågan om belysningsanordningar för cyklar.
@@ -1714,13 +1748,13 @@
             </seg>
           </u>
           <pb n="18" facs="https://betalab.kb.se/prot-1960-höst-fk--26/prot_1960_höst_fk__26-018.jp2/_view"/>
-          <note n="bad153df">
+          <note type="date" n="3fb6f95f">
             Onsdagen den 23 november 1960
           </note>
           <note n="8cb1ec34">
             Nr 26 19
           </note>
-          <u who="rikard_svensson_8b9764" xml:id="i-fca8305d5dd393f6-0" prev="i-cd35d58509983ccd-0" n="a370f0de">
+          <u who="rikard_svensson_8b9764" xml:id="i-a370f0def7e95899-1" prev="i-a370f0def7e95899-0" n="a370f0de">
             <seg n="5cf3442e">
               Ang. åtgärder mot mörkerolyckor i trafiken
             </seg>
@@ -1728,7 +1762,7 @@
           <note type="speaker" n="1dc7f9ec">
             Herr RINGABY (h):
           </note>
-          <u who="per-eric_ringaby_0eacac" xml:id="i-c1d9ab0c5856ce67-0" next="i-add906cd03ce9f6b-0" n="dd5dba17">
+          <u who="per-eric_ringaby_0eacac" xml:id="i-0819e84beda61a14-0" next="i-0819e84beda61a14-1" n="dd5dba17">
             <seg n="4a1aca71">
               Herr talman! Jag kan börja med att instämma i herr Svenssons
               yrkande. Därutöver vill jag också säga ett par ord om den andra
@@ -1810,10 +1844,10 @@
           <note n="00e20b3c">
             20 Nr 26
           </note>
-          <note n="bad153df">
+          <note type="date" n="3fb6f95f">
             Onsdagen den 23 november 1960
           </note>
-          <u who="per-eric_ringaby_0eacac" xml:id="i-add906cd03ce9f6b-0" prev="i-c1d9ab0c5856ce67-0" n="dd5dba17">
+          <u who="per-eric_ringaby_0eacac" xml:id="i-0819e84beda61a14-1" prev="i-0819e84beda61a14-0" n="dd5dba17">
             <seg n="5cf3442e">
               Ang. åtgärder mot mörkerolyckor i trafiken
             </seg>
@@ -1840,7 +1874,7 @@
           <note type="speaker" n="097fe58b">
             Herr SVENINGSSON (h):
           </note>
-          <u who="ragnar_sveningsson_beca8b" xml:id="i-ad79e2267b9a4744-0" next="i-610afc715e56b3a1-0" n="80870edb">
+          <u who="ragnar_sveningsson_beca8b" xml:id="i-80870edb27db7465-0" next="i-80870edb27db7465-1" n="80870edb">
             <seg n="1f1f3cba">
               Herr talman! Jag skall inte direkt lägga mig i den debatt som
               här förekommer utan mer anlägga några allmänna synpunkter på trafikproblemet
@@ -1907,13 +1941,13 @@
             </seg>
           </u>
           <pb n="20" facs="https://betalab.kb.se/prot-1960-höst-fk--26/prot_1960_höst_fk__26-020.jp2/_view"/>
-          <note n="bad153df">
+          <note type="date" n="3fb6f95f">
             Onsdagen den 23 november 1960
           </note>
           <note n="6017edf3">
             Nr 26 21
           </note>
-          <u who="ragnar_sveningsson_beca8b" xml:id="i-610afc715e56b3a1-0" prev="i-ad79e2267b9a4744-0" n="80870edb">
+          <u who="ragnar_sveningsson_beca8b" xml:id="i-80870edb27db7465-1" prev="i-80870edb27db7465-0" n="80870edb">
             <seg n="5cf3442e">
               Ang. åtgärder mot mörkerolyckor i trafiken
             </seg>
@@ -1963,7 +1997,7 @@
           <note type="speaker" n="7e756726">
             Herr SUNNE (fp):
           </note>
-          <u who="johan_sunne_33225b" xml:id="i-40291d6e424d6908-0" next="i-d01cf04590c5acae-0" n="c09b2e49">
+          <u who="johan_sunne_33225b" xml:id="i-c09b2e4979374e0d-0" next="i-c09b2e4979374e0d-1" n="c09b2e49">
             <seg n="a82d30ca">
               Herr talman! Jag skall fatta mig mycket kort. Jag vill bara lämna
               några synpunkter beträffande lyse och reflexanordning på cykeln,
@@ -2011,10 +2045,10 @@
           <note n="1dd97229">
             22 Nr 26
           </note>
-          <note n="bad153df">
+          <note type="date" n="3fb6f95f">
             Onsdagen den 23 november 1960
           </note>
-          <u who="johan_sunne_33225b" xml:id="i-d01cf04590c5acae-0" prev="i-40291d6e424d6908-0" n="c09b2e49">
+          <u who="johan_sunne_33225b" xml:id="i-c09b2e4979374e0d-1" prev="i-c09b2e4979374e0d-0" n="c09b2e49">
             <seg n="5cf3442e">
               Ang. åtgärder mot mörkerolyckor i trafiken
             </seg>
@@ -2069,7 +2103,7 @@
           <note type="speaker" n="0dd22623">
             Herr förste vice talmannen STRAND (s):
           </note>
-          <u who="axel_strand_c798f7" xml:id="i-eebfefead7fcdaac-0" next="i-f1d991aeee1c334d-0" n="12dc648e">
+          <u who="axel_strand_c798f7" xml:id="i-12dc648ef38be751-0" next="i-12dc648ef38be751-6" n="12dc648e">
             <seg n="e3f134e0">
               Herr talman! Det är glädjande att konstatera den enighet som
               råder såväl inom utskottet som också här i kammaren om nödvändigheten
@@ -2105,13 +2139,13 @@
             </seg>
           </u>
           <pb n="22" facs="https://betalab.kb.se/prot-1960-höst-fk--26/prot_1960_höst_fk__26-022.jp2/_view"/>
-          <note n="bad153df">
+          <note type="date" n="3fb6f95f">
             Onsdagen den 23 november 1960
           </note>
           <note n="4566523d">
             Nr 26 23
           </note>
-          <u who="axel_strand_c798f7" xml:id="i-f1d991aeee1c334d-0" prev="i-eebfefead7fcdaac-0" n="12dc648e">
+          <u who="axel_strand_c798f7" xml:id="i-12dc648ef38be751-1" prev="i-12dc648ef38be751-0" n="12dc648e">
             <seg n="5cf3442e">
               Ang. åtgärder mot mörkerolyckor i trafiken
             </seg>
@@ -2187,6 +2221,15 @@
               av en bilist, undgår bilisten inte ansvar, förutsatt att den gående
               iakttagit all den försiktighet som man kan
             </seg>
+          </u>
+          <pb n="23" facs="https://betalab.kb.se/prot-1960-höst-fk--26/prot_1960_höst_fk__26-023.jp2/_view"/>
+          <note n="d415ad10">
+            24 Nr 26
+          </note>
+          <note type="date" n="3fb6f95f">
+            Onsdagen den 23 november 1960
+          </note>
+          <u who="axel_strand_c798f7" xml:id="i-12dc648ef38be751-2" prev="i-12dc648ef38be751-0" n="12dc648e">
             <seg n="5cf3442e">
               Ang. åtgärder mot mörkerolyckor i trafiken
             </seg>
@@ -2243,6 +2286,11 @@
               Med dessa ord, herr talman, ber jag att få yrka bifall till utskottets
               hemställan.
             </seg>
+          </u>
+          <note n="667c5b68">
+            Herr SVENSSON, AXEL, (s) kort genmäle:
+          </note>
+          <u who="axel_strand_c798f7" xml:id="i-12dc648ef38be751-3" prev="i-12dc648ef38be751-0" n="12dc648e">
             <seg n="8e9a94e5">
               Herr talman! Jag vill understryka den enighet som råder mellan
               reservanter och majoritet när det gäller att söka förhindra dödsfall
@@ -2267,6 +2315,15 @@
               garage två cyklar med belysningsanordning, men dessa cyklar användes
               aldrig därför att cyklar har blivit omo-
             </seg>
+          </u>
+          <pb n="24" facs="https://betalab.kb.se/prot-1960-höst-fk--26/prot_1960_höst_fk__26-024.jp2/_view"/>
+          <note type="date" n="3fb6f95f">
+            Onsdagen den 23 november 1960
+          </note>
+          <note n="b9b3fd30">
+            Nr 26 25
+          </note>
+          <u who="axel_strand_c798f7" xml:id="i-12dc648ef38be751-4" prev="i-12dc648ef38be751-0" n="12dc648e">
             <seg n="5cf3442e">
               Ang. åtgärder mot mörkerolyckor i trafiken
             </seg>
@@ -2330,6 +2387,11 @@
               får ingen annan effekt än att skaderegleringen för de drabbade
               blir ofördelaktigare.
             </seg>
+          </u>
+          <note n="712cd4ce">
+            Herr förste vice talmannen STRAND (s) kort genmäle:
+          </note>
+          <u who="axel_strand_c798f7" xml:id="i-12dc648ef38be751-5" prev="i-12dc648ef38be751-0" n="12dc648e">
             <seg n="455caa09">
               Herr talman! Jag har inte precis tänkt att försöka ta upp någon
               debatt med herr Ringaby angående &lt;lagtillämpningen, men jag har
@@ -2349,6 +2411,15 @@
               herr Svensson säga att jag tycker att det var ctt underligt argument
               när han påpekade att många cyklister, även om de har be-
             </seg>
+          </u>
+          <pb n="25" facs="https://betalab.kb.se/prot-1960-höst-fk--26/prot_1960_höst_fk__26-025.jp2/_view"/>
+          <note n="99117638">
+            26 Nr 26
+          </note>
+          <note type="date" n="3fb6f95f">
+            Onsdagen den 23 november 1960
+          </note>
+          <u who="axel_strand_c798f7" xml:id="i-12dc648ef38be751-6" prev="i-12dc648ef38be751-0" n="12dc648e">
             <seg n="5cf3442e">
               Ang. åtgärder mot mörkerolyckor i trafiken
             </seg>
@@ -2397,37 +2468,10 @@
               dömd som medansvarig till olyckan.
             </seg>
           </u>
-          <pb n="23" facs="https://betalab.kb.se/prot-1960-höst-fk--26/prot_1960_höst_fk__26-023.jp2/_view"/>
-          <note n="d415ad10">
-            24 Nr 26
-          </note>
-          <note n="bad153df">
-            Onsdagen den 23 november 1960
-          </note>
-          <note n="667c5b68">
-            Herr SVENSSON, AXEL, (s) kort genmäle:
-          </note>
-          <pb n="24" facs="https://betalab.kb.se/prot-1960-höst-fk--26/prot_1960_höst_fk__26-024.jp2/_view"/>
-          <note n="bad153df">
-            Onsdagen den 23 november 1960
-          </note>
-          <note n="b9b3fd30">
-            Nr 26 25
-          </note>
-          <note n="712cd4ce">
-            Herr förste vice talmannen STRAND (s) kort genmäle:
-          </note>
-          <pb n="25" facs="https://betalab.kb.se/prot-1960-höst-fk--26/prot_1960_höst_fk__26-025.jp2/_view"/>
-          <note n="99117638">
-            26 Nr 26
-          </note>
-          <note n="bad153df">
-            Onsdagen den 23 november 1960
-          </note>
           <note type="speaker" n="c0f0c6f1">
             Herr EDSTRÖM (fp):
           </note>
-          <u who="gunnar_edstrom_4b2aba" xml:id="i-7c1e0ed21a24ab4d-0" next="i-0c1bc6f167dfc22a-0" n="43f2ead6">
+          <u who="gunnar_edstrom_4b2aba" xml:id="i-43f2ead606ba102b-0" next="i-43f2ead606ba102b-1" n="43f2ead6">
             <seg n="14ad74b6">
               Herr talman! Som motionär vill jag gärna framföra ett tack till
               utskottet, särskilt till dess majoritet, för dess positiva inställning
@@ -2464,13 +2508,13 @@
             </seg>
           </u>
           <pb n="26" facs="https://betalab.kb.se/prot-1960-höst-fk--26/prot_1960_höst_fk__26-026.jp2/_view"/>
-          <note n="bad153df">
+          <note type="date" n="3fb6f95f">
             Onsdagen den 23 november 1960
           </note>
           <note n="342f305d">
             Nr 26 27
           </note>
-          <u who="gunnar_edstrom_4b2aba" xml:id="i-0c1bc6f167dfc22a-0" prev="i-7c1e0ed21a24ab4d-0" n="43f2ead6">
+          <u who="gunnar_edstrom_4b2aba" xml:id="i-43f2ead606ba102b-1" prev="i-43f2ead606ba102b-0" n="43f2ead6">
             <seg n="5cf3442e">
               Ang. åtgärder mot mörkerolyckor i trafiken
             </seg>
@@ -2515,7 +2559,7 @@
           <note type="speaker" n="93332ac6">
             Herr ALEXANDERSON (fp):
           </note>
-          <u who="unknown" xml:id="i-ed6d59d6ec10b4b3-0" n="8f3bbd36">
+          <u who="unknown" xml:id="i-8f3bbd36d764276f-0" n="8f3bbd36">
             <seg n="e494c026">
               Herr talman! Jag kan instämma i de yttranden som förekommit om
               att det är mycket tillfredsställande att enighe-
@@ -2565,10 +2609,10 @@
           <note n="cd36cc3f">
             28 Nr 26
           </note>
-          <note n="bad153df">
+          <note type="date" n="3fb6f95f">
             Onsdagen den 23 november 1960
           </note>
-          <u who="unknown" xml:id="i-59f6bad7db5d31c3-0" n="8f3bbd36">
+          <u who="unknown" xml:id="i-8f3bbd36d764276f-1" n="8f3bbd36">
             <seg n="5cf3442e">
               Ang. åtgärder mot mörkerolyckor i trafiken
             </seg>
@@ -2608,15 +2652,6 @@
               tror man ju för övrigt snarast att utskottet skall hamna i den
               kläm som återfinnes i reservationen.
             </seg>
-            <seg n="02751cae">
-              Ja;
-            </seg>
-            <seg n="09b6fb39">
-              Nej;
-            </seg>
-            <seg n="afb444af">
-              givit, att de avstode från att rösta.
-            </seg>
           </u>
           <note n="8830024f">
             Med dessa ord ber jag för min del att få yrka bifall till den
@@ -2648,9 +2683,19 @@
             Den, som bifaller vad andra lagutskottet hemställt i sitt utlåtande
             nr 63 punkten A 1, röstar
           </note>
+          <u who="unknown" xml:id="i-8f3bbd36d764276f-2" n="8f3bbd36">
+            <seg n="02751cae">
+              Ja;
+            </seg>
+          </u>
           <note n="019ef4c9">
             Den, det ej vill, röstar
           </note>
+          <u who="unknown" xml:id="i-8f3bbd36d764276f-3" n="8f3bbd36">
+            <seg n="09b6fb39">
+              Nej;
+            </seg>
+          </u>
           <note n="75949112">
             Vinner Nej, antages det förslag, som innefattas i den av herr
             Axel Svensson m. fl. vid utlåtandet avgivna reservationen.
@@ -2672,8 +2717,13 @@
           <note n="21b9062c">
             Därjämte hade 12 ledamöter tillkänna-
           </note>
+          <u who="unknown" xml:id="i-8f3bbd36d764276f-4" n="8f3bbd36">
+            <seg n="afb444af">
+              givit, att de avstode från att rösta.
+            </seg>
+          </u>
           <pb n="28" facs="https://betalab.kb.se/prot-1960-höst-fk--26/prot_1960_höst_fk__26-028.jp2/_view"/>
-          <note n="bad153df">
+          <note type="date" n="3fb6f95f">
             Onsdagen den 23 november 1960
           </note>
           <note n="8329f990">
@@ -2722,7 +2772,7 @@
           <note type="speaker" n="9ad74fc6">
             Herr TALMANNEN anförde:
           </note>
-          <u who="unknown" xml:id="i-3d5ca2f050a94934-0" n="8f3bbd36">
+          <u who="unknown" xml:id="i-8f3bbd36d764276f-5" n="8f3bbd36">
             <seg n="eda5a121">
               Jag ber att få lämna några uppgifter om det fortsatta arbetet.
             </seg>

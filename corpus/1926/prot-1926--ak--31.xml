@@ -20,7 +20,7 @@
     <encodingDesc>
       <editorialDecl>
         <correction>
-          <p>Some data curation was done. It is documented in db/curation/instances</p>
+          <p>Some data curation was done. It is documented in input/curation/instances</p>
         </correction>
       </editorialDecl>
     </encodingDesc>
@@ -58,6 +58,7 @@
       </front>
       <body>
         <div>
+          <pb n="0" facs="https://betalab.kb.se/prot-1926--ak--31/prot_1926__ak__31-000.jp2/_view"/>
           <note n="d8b404b2">
             RIKSDAGENS PROTOKOLL. 1926. Andra kammaren. Nr 3I.
           </note>
@@ -188,7 +189,7 @@
           <note type="date" n="a462ce23">
             Onsdagen den 5 maj. 3
           </note>
-          <note n="47ee99da">
+          <note type="date" n="f426329d">
             Onsdagen den 5 maj. Kl. 11 f. m.
           </note>
           <note n="1e0dee7e">
@@ -262,7 +263,7 @@
           <note type="speaker" n="f98e3188">
             Herr Bengtsson i Norup:
           </note>
-          <u who="sven_bengtsson_d702e5" xml:id="i-65bb64e1c701deac-0" next="i-33f5a5423d48e8d3-0" n="99764b3d">
+          <u who="sven_bengtsson_d702e5" xml:id="i-99764b3d63bf2255-0" next="i-99764b3d63bf2255-1" n="99764b3d">
             <seg n="2b9ac9d3">
               Herr talman! Då det nu är känt, att första kammaren tagit utskottets
               förslag i denna fråga, torde det icke vara så stora
@@ -286,7 +287,7 @@
           <note type="date" n="a86c6947">
             4 Onsdagen den 5 maj.
           </note>
-          <u who="sven_bengtsson_d702e5" xml:id="i-33f5a5423d48e8d3-0" prev="i-65bb64e1c701deac-0" n="99764b3d">
+          <u who="sven_bengtsson_d702e5" xml:id="i-99764b3d63bf2255-1" prev="i-99764b3d63bf2255-0" n="99764b3d">
             <seg n="7f6df71f">
               möjligheter att i denna kammare få igenom den reservation, som
               jag yrkat bifall till. Men jag har måst ansluta mig till denna
@@ -319,7 +320,7 @@
           <note type="speaker" n="f5312c7b">
             Herr Jönsson i Revinge:
           </note>
-          <u who="john_jonsson_0a85f5" xml:id="i-bff50d9c378a3def-0" next="i-7693d27a5fc8a855-0" n="526a1fe5">
+          <u who="john_jonsson_0a85f5" xml:id="i-526a1fe53e17c671-0" next="i-526a1fe53e17c671-1" n="526a1fe5">
             <seg n="d539fbfb">
               Herr talman, mina herrar! Den vetenskapliga forskningen i vårt
               land torde väl vara ganska väl tillgodosedd genom de framstående
@@ -368,7 +369,7 @@
           <note type="date" n="f1e1e4a5">
             Onsdagen den 5 maj. 5
           </note>
-          <u who="john_jonsson_0a85f5" xml:id="i-7693d27a5fc8a855-0" prev="i-bff50d9c378a3def-0" n="526a1fe5">
+          <u who="john_jonsson_0a85f5" xml:id="i-526a1fe53e17c671-1" prev="i-526a1fe53e17c671-0" n="526a1fe5">
             <seg n="00768059">
               med det antal docenter, som de redan ha, så vet jag icke, varför
               riksdagen skulle ställa sig mera konungsk än konungen själv och
@@ -405,7 +406,7 @@
           <note type="speaker" n="a42c2a39">
             Chefen för ecklesiastikdepartementet herr statsrådet Olsson:
           </note>
-          <u who="valerius_olsson_426ca3" xml:id="i-b8fe0b25212f1591-0" next="i-18186032fe73bf58-0" n="f5a4a0eb">
+          <u who="valerius_olsson_426ca3" xml:id="i-a66c6625918d1ec8-0" next="i-a66c6625918d1ec8-2" n="f5a4a0eb">
             <seg n="cf318fc5">
               Herr talman! När man läser utskottets utlåtande, är det rätt
               lustigt att se, hur utskottet liksom stretar emot förslaget. I
@@ -466,10 +467,18 @@
           <note n="087e3e99">
             universiteten .
           </note>
-          <u who="valerius_olsson_426ca3" xml:id="i-18186032fe73bf58-0" prev="i-b8fe0b25212f1591-0" n="f5a4a0eb">
+          <u who="valerius_olsson_426ca3" xml:id="i-a66c6625918d1ec8-1" prev="i-a66c6625918d1ec8-0" n="f5a4a0eb">
             <seg n="0631c3e5">
               och Karolinska institutet.
             </seg>
+          </u>
+          <note n="d5e2dbed">
+            (Forts.)
+          </note>
+          <note type="date" n="15648beb">
+            6 Onsdagen den 5 maj.
+          </note>
+          <u who="valerius_olsson_426ca3" xml:id="i-a66c6625918d1ec8-2" prev="i-a66c6625918d1ec8-0" n="f5a4a0eb">
             <seg n="5a6094fd">
               naturligtvis bör fyllas på något sätt. Därför yrka docenterna
               som kår att få dessa stipendier förlängda, sträckta ut över en
@@ -534,16 +543,10 @@
               bjuda på tre stycken.
             </seg>
           </u>
-          <note n="d5e2dbed">
-            (Forts.)
-          </note>
-          <note type="date" n="15648beb">
-            6 Onsdagen den 5 maj.
-          </note>
           <note type="speaker" n="19e472d5">
             Herr Lindskog:
           </note>
-          <u who="claes_lindskog_462b2f" xml:id="i-ad8f4546fa1cb8a8-0" next="i-7c95f55082bc96fa-0" n="22106da8">
+          <u who="claes_lindskog_462b2f" xml:id="i-22106da894847a7c-0" next="i-22106da894847a7c-5" n="22106da8">
             <seg n="297c3fed">
               Herr talman! Som möjligen en och annan här i kammaren erinrar
               sig, var jag i fjol i en kammardebatt alldeles bestämt emot varje
@@ -555,7 +558,7 @@
           <note type="date" n="c7a0fa1a">
             Onsdagen den 5 maj. 7
           </note>
-          <u who="claes_lindskog_462b2f" xml:id="i-7c95f55082bc96fa-0" prev="i-ad8f4546fa1cb8a8-0" n="22106da8">
+          <u who="claes_lindskog_462b2f" xml:id="i-22106da894847a7c-1" prev="i-22106da894847a7c-0" n="22106da8">
             <seg n="deaa1c18">
               T år ligger däremot frågan på en helt annan bog. Här har från
               ecklesiastikministern kommit ett förslag om, vad som här kallas
@@ -623,14 +626,43 @@
               är ett forskarstipendium. Det skall ges bort åt vilken forskare
               som helst, i Lund, Uppsala eller Stockholm. Vi
             </seg>
+          </u>
+          <note n="98821741">
+            Nr 81.
+          </note>
+          <note n="3add7e8b">
+            Ang. forskarstipendier för docenter vid universiteten och Karolinska
+            institutet.
+          </note>
+          <note n="d5e2dbed">
+            (Forts.)
+          </note>
+          <pb n="7" facs="https://betalab.kb.se/prot-1926--ak--31/prot_1926__ak__31-007.jp2/_view"/>
+          <note n="246e1c8c">
+            Nr 31.
+          </note>
+          <note type="date" n="b83a452e">
+            8 Onsdagen den 5 maj.
+          </note>
+          <u who="claes_lindskog_462b2f" xml:id="i-22106da894847a7c-2" prev="i-22106da894847a7c-0" n="22106da8">
             <seg n="88b2124e">
               Ang. forskartänka oss att det blir ansökningar — som Kungl. Maj:t
               tänkt det — det blir stipendier för låt oss säga fem forskare
               från Lund, fem forskare från Uppsala och två for-
             </seg>
+          </u>
+          <note n="8e5b2eac">
+            docenter vid universiteten
+          </note>
+          <u who="claes_lindskog_462b2f" xml:id="i-22106da894847a7c-3" prev="i-22106da894847a7c-0" n="22106da8">
             <seg n="f17bc375">
               oc Karolinska institutet.
             </seg>
+          </u>
+          <note n="d5e2dbed">
+            (Forts.)
+          </note>
+          <u who="claes_lindskog_462b2f" xml:id="i-22106da894847a7c-4" prev="i-22106da894847a7c-0" n="22106da8">
             <seg n="378a5930">
               skare i Stockholm, summa summarum tolv, var och en inom olika
               vetenskapsgrenar. Det gör tolv olika vetenskapsgrenar. Det skall
@@ -700,6 +732,12 @@
               bland överåriga docenter tolv stycken genier, tror jag är att
               överskatta de tillgångar, man har vid universiteten; jag
             </seg>
+          </u>
+          <pb n="8" facs="https://betalab.kb.se/prot-1926--ak--31/prot_1926__ak__31-008.jp2/_view"/>
+          <note type="date" n="24cddf23">
+            Onsdagen den 5 maj. 9
+          </note>
+          <u who="claes_lindskog_462b2f" xml:id="i-22106da894847a7c-5" prev="i-22106da894847a7c-0" n="22106da8">
             <seg n="5bc10bb4">
               tror nog, att man får anbringa blygsammare mått, och därför har
               jag för min del varit med om att understödja ett förslag om ett
@@ -750,40 +788,13 @@
             </seg>
             <seg n="718e6f92"/>
           </u>
-          <note n="98821741">
-            Nr 81.
-          </note>
-          <note n="3add7e8b">
-            Ang. forskarstipendier för docenter vid universiteten och Karolinska
-            institutet.
-          </note>
-          <note n="d5e2dbed">
-            (Forts.)
-          </note>
-          <pb n="7" facs="https://betalab.kb.se/prot-1926--ak--31/prot_1926__ak__31-007.jp2/_view"/>
-          <note n="246e1c8c">
-            Nr 31.
-          </note>
-          <note type="date" n="b83a452e">
-            8 Onsdagen den 5 maj.
-          </note>
-          <note n="8e5b2eac">
-            docenter vid universiteten
-          </note>
-          <note n="d5e2dbed">
-            (Forts.)
-          </note>
-          <pb n="8" facs="https://betalab.kb.se/prot-1926--ak--31/prot_1926__ak__31-008.jp2/_view"/>
-          <note type="date" n="24cddf23">
-            Onsdagen den 5 maj. 9
-          </note>
           <note n="80d4c675">
             Häruti instämde herr Jonsson.
           </note>
           <note type="speaker" n="53aa6c50">
             Herr Holmdahl:
           </note>
-          <u who="otto_holmdahl_977879" xml:id="i-ef5a1d86a3211278-0" next="i-9b6dc8bf2c5a9ef0-0" n="81e2b5ce">
+          <u who="otto_holmdahl_977879" xml:id="i-81e2b5ceb345a582-0" next="i-81e2b5ceb345a582-3" n="81e2b5ce">
             <seg n="1efe7896">
               Herr talman, mina damer och herrar! Utskottet har i princip upptagit
               Kungl. Maj:ts här föreliggande förslag, och jag tillåter mig konstatera
@@ -831,7 +842,7 @@
           <note type="date" n="82a8dea7">
             10 Onsdagen den 5 maj.
           </note>
-          <u who="otto_holmdahl_977879" xml:id="i-9b6dc8bf2c5a9ef0-0" prev="i-ef5a1d86a3211278-0" n="81e2b5ce">
+          <u who="otto_holmdahl_977879" xml:id="i-81e2b5ceb345a582-1" prev="i-81e2b5ceb345a582-0" n="81e2b5ce">
             <seg n="d6a32b98">
               att visa sig föra annat i sitt sköte än som åsyftats med densamma.
               Dessa betänkligheter hava nu återigen betonats och understrukits
@@ -900,6 +911,12 @@
               När därtill kommer, att det blir universitetsmyndigheterna själva,
               som naturligtvis få tillfälle att yttra sig om dessa villkor
             </seg>
+          </u>
+          <pb n="10" facs="https://betalab.kb.se/prot-1926--ak--31/prot_1926__ak__31-010.jp2/_view"/>
+          <note type="date" n="badc8421">
+            Onsdagen den 5 maj. 11
+          </note>
+          <u who="otto_holmdahl_977879" xml:id="i-81e2b5ceb345a582-2" prev="i-81e2b5ceb345a582-0" n="81e2b5ce">
             <seg n="cdbf3633">
               och att Kungl. Maj:t kommer att fastställa dem efter universitetsmyndigheternas
               hörande, så tror jag verkligen icke, att man behöver hysa större
@@ -928,15 +945,7 @@
               det syfte man vill vinna med denna nya anordning kan äventyras,
               om man tager till för knappt.
             </seg>
-            <seg n="cb18ba8a">
-              u Med herr Holmdahl förenade sig herrar Lindman, Löfgren i Stockholm
-              och Andrén.
-            </seg>
           </u>
-          <pb n="10" facs="https://betalab.kb.se/prot-1926--ak--31/prot_1926__ak__31-010.jp2/_view"/>
-          <note type="date" n="badc8421">
-            Onsdagen den 5 maj. 11
-          </note>
           <note n="de2fa009">
             När jag för min del icke kan finna, att de farhågor, som utskottet
             här så starkt gjort gällande — och enligt mitt förmenande för
@@ -945,10 +954,16 @@
             anledning att yrka bifall till den av herr Oscar Olsson m. fl.
             avgivna vid utlåtandet fogade reservationen.
           </note>
+          <u who="otto_holmdahl_977879" xml:id="i-81e2b5ceb345a582-3" prev="i-81e2b5ceb345a582-0" n="81e2b5ce">
+            <seg n="cb18ba8a">
+              u Med herr Holmdahl förenade sig herrar Lindman, Löfgren i Stockholm
+              och Andrén.
+            </seg>
+          </u>
           <note type="speaker" n="f5312c7b">
             Herr Jönsson i Revinge:
           </note>
-          <u who="john_jonsson_0a85f5" xml:id="i-bff50d9c378a3def-1" next="i-7693d27a5fc8a855-1" n="526a1fe5">
+          <u who="john_jonsson_0a85f5" xml:id="i-526a1fe53e17c671-2" next="i-526a1fe53e17c671-3" n="526a1fe5">
             <seg n="ee6923c6">
               Herr talman! Jag kan icke underlåta att yttra några ord med anledning
               av att herr ecklesiastikministern gjorde gällande, att anslutning
@@ -1004,7 +1019,7 @@
           <note type="date" n="50934f3b">
             12 Onsdagen den 5 maj.
           </note>
-          <u who="john_jonsson_0a85f5" xml:id="i-7693d27a5fc8a855-1" prev="i-bff50d9c378a3def-1" n="526a1fe5">
+          <u who="john_jonsson_0a85f5" xml:id="i-526a1fe53e17c671-3" prev="i-526a1fe53e17c671-2" n="526a1fe5">
             <seg n="8a7552b9">
               då är klart, att om bland dessa tolv endast kan väljas ut sju,
               stöter man på samma svårigheter — kanske inte riktigt men närapå
@@ -1035,7 +1050,7 @@
           <note type="speaker" n="00043653">
             Chefen för finansdepartementet herr statsrådet Wigforss:
           </note>
-          <u who="ernst_wigforss_3d0794" xml:id="i-87ab7038d44056e0-0" next="i-67da92fd6cd9a4a7-0" n="70d81154">
+          <u who="ernst_wigforss_3d0794" xml:id="i-6198c41e65d7a77a-0" next="i-6198c41e65d7a77a-1" n="70d81154">
             <seg n="2db81b94">
               Herr talman! Kanske synes det egendomligt, att jag tar till ordet
               i denna fråga. Men när Jag nu begär ordet sker detta mest därför
@@ -1090,7 +1105,7 @@
           <note type="date" n="30919c81">
             Onsdagen den 5 maj. 13
           </note>
-          <u who="ernst_wigforss_3d0794" xml:id="i-67da92fd6cd9a4a7-0" prev="i-87ab7038d44056e0-0" n="70d81154">
+          <u who="ernst_wigforss_3d0794" xml:id="i-6198c41e65d7a77a-1" prev="i-6198c41e65d7a77a-0" n="70d81154">
             <seg n="46b27ce2">
               gåvningar, som den ena gången efter den andra få lämna sitt vetenskapliga
               arbete, därför att de icke kunna existera på detta sitt arbete.
@@ -1160,7 +1175,7 @@
           <note type="speaker" n="a42c2a39">
             Chefen för ecklesiastikdepartementet herr statsrådet Olsson:
           </note>
-          <u who="valerius_olsson_426ca3" xml:id="i-b8fe0b25212f1591-1" next="i-18186032fe73bf58-1" n="f5a4a0eb">
+          <u who="valerius_olsson_426ca3" xml:id="i-a66c6625918d1ec8-3" next="i-a66c6625918d1ec8-4" n="f5a4a0eb">
             <seg n="396662bf">
               Herr talman! Det är behagligt även för en medlem å statsrådsbänken,
               att se kammaren något lugnad. Jag får eljest betyga, att jag till
@@ -1200,7 +1215,7 @@
           <note type="date" n="5f7fac27">
             14 Onsdagen den 5 maj.
           </note>
-          <u who="valerius_olsson_426ca3" xml:id="i-18186032fe73bf58-1" prev="i-b8fe0b25212f1591-1" n="f5a4a0eb">
+          <u who="valerius_olsson_426ca3" xml:id="i-a66c6625918d1ec8-4" prev="i-a66c6625918d1ec8-3" n="f5a4a0eb">
             <seg n="3bd6173a">
               sök att ordna för docenterna som kår. Det är naturligtvis också
               riktigt, att man här bör gå försiktigt fram, men jag kan inte
@@ -1229,7 +1244,7 @@
           <note type="speaker" n="c292ff3c">
             Herr Månsson i Furuvik:
           </note>
-          <u who="nils_mansson_51db5b" xml:id="i-960bbf00ee1351bc-0" next="i-c5937612576c068a-0" n="34cf535f">
+          <u who="nils_mansson_51db5b" xml:id="i-34cf535f3474329d-0" next="i-34cf535f3474329d-3" n="34cf535f">
             <seg n="e7fda2d8">
               Herr talman! Gentemot herr finansministerns yttrande vill jag
               framhålla, att vi nog vilja tillvarataga forskarbegåvningarna,
@@ -1283,7 +1298,7 @@
           <note type="date" n="adf3b312">
             Onsdagen den 5 maj. 15
           </note>
-          <u who="nils_mansson_51db5b" xml:id="i-c5937612576c068a-0" prev="i-960bbf00ee1351bc-0" n="34cf535f">
+          <u who="nils_mansson_51db5b" xml:id="i-34cf535f3474329d-1" prev="i-34cf535f3474329d-0" n="34cf535f">
             <seg n="d53f7534">
               mycket hårt bedömda i synnerhet av chefen för ecklesiastikdepartementet,
               skall jag tillåta mig säga ett par ord.
@@ -1325,12 +1340,6 @@
               att vid en kommande riksdag få anslagsbeloppet utökat, ifall det
               visar sig kunna väl fylla det avsedda ändamålet. Jag ber alltså
               att få yrka bifall till herr Bergqvists m. fl. reservation.
-            </seg>
-            <seg n="0631c3e5">
-              och Karolinska institutet.
-            </seg>
-            <seg n="d1a03a25">
-              Föredrogos vart för sig statsutskottets utlåtanden:
             </seg>
           </u>
           <note n="6b2b2911">
@@ -1376,11 +1385,16 @@
           <note n="39f3daba">
             Ang. forskar - stipendier för docenter vid universiteten
           </note>
+          <u who="nils_mansson_51db5b" xml:id="i-34cf535f3474329d-2" prev="i-34cf535f3474329d-0" n="34cf535f">
+            <seg n="0631c3e5">
+              och Karolinska institutet.
+            </seg>
+          </u>
           <note n="d5e2dbed">
             (Forts.)
           </note>
           <pb n="15" facs="https://betalab.kb.se/prot-1926--ak--31/prot_1926__ak__31-015.jp2/_view"/>
-          <note n="834b58e4">
+          <note type="date" n="74c2ac34">
             Nr 31. 16 Onsdagen den 5 maj.
           </note>
           <note n="098737a1">
@@ -1414,6 +1428,11 @@
           <note n="45a3111f">
             $ 2.
           </note>
+          <u who="nils_mansson_51db5b" xml:id="i-34cf535f3474329d-3" prev="i-34cf535f3474329d-0" n="34cf535f">
+            <seg n="d1a03a25">
+              Föredrogos vart för sig statsutskottets utlåtanden:
+            </seg>
+          </u>
           <note n="f4156322">
             nr 98, i anledning av Kungl. Maj:ts proposition angående statsbidrag
             för undervisning i slöjd åt vid vissa sjukvårdsanstalter intagna
@@ -1466,17 +1485,17 @@
             bort hemställa om bifall till Kungl. Maj:ts förslag.
           </note>
           <pb n="16" facs="https://betalab.kb.se/prot-1926--ak--31/prot_1926__ak__31-016.jp2/_view"/>
-          <note n="9a2b0054">
+          <note type="date" n="b61aec79">
             Onsdagen den 5 maj. 17 Nr 81.
           </note>
           <note type="speaker" n="1ba9eca2">
             Efter föredragning av utskottets hemställan yttrade:
           </note>
-          <u who="unknown" xml:id="i-4d42173ec09a1dad-0" n="6198c41e"/>
+          <u who="unknown" xml:id="i-e3ea3a61c895cc89-0" n="6198c41e"/>
           <note type="speaker" n="1cf47e69">
             I fråga om möblering för Herr Anderson i Råstock:
           </note>
-          <u who="ivar_anderson_5cc143" xml:id="i-9b07f4ce606ba367-0" next="i-c7818dcecc639ad3-0" n="e3ea3a61">
+          <u who="ivar_anderson_5cc143" xml:id="i-e3ea3a61c895cc89-1" next="i-e3ea3a61c895cc89-2" n="e3ea3a61">
             <seg n="53f33518">
               Herr talman! Som kammarens ledamöter torde den för lands-
             </seg>
@@ -1489,7 +1508,7 @@
             tjänpositionen. " Om herrarna taga del av propositionens innehåll,
             skola ni finna, att frågan (Forts.)
           </note>
-          <u who="ivar_anderson_5cc143" xml:id="i-c7818dcecc639ad3-0" prev="i-9b07f4ce606ba367-0" n="e3ea3a61">
+          <u who="ivar_anderson_5cc143" xml:id="i-e3ea3a61c895cc89-2" prev="i-e3ea3a61c895cc89-1" n="e3ea3a61">
             <seg n="a8cf3fa8">
               om bostad för landshövdingen i Stockholms län varit svävande
               i ungefär fem
@@ -1559,7 +1578,7 @@
           <note type="speaker" n="3da21ab2">
             Herr Jansson i Falun:
           </note>
-          <u who="robert_jansson_bbbeff" xml:id="i-263317924b2fcfe0-0" next="i-cf1fa5f375fcfe6a-0" n="26f4fbf7">
+          <u who="robert_jansson_bbbeff" xml:id="i-26f4fbf7df66d69e-0" next="i-26f4fbf7df66d69e-2" n="26f4fbf7">
             <seg n="373ce5bd">
               Herr talman! Herr Anderson i Råstock yttrade, att landshövdingen
               i Stockholms län icke fått samma förmåner som andra landshövdingar
@@ -1608,16 +1627,9 @@
             möblering för vissa rum i den för landshövdingen i Stockholms
             län avsedda tjän-
           </note>
-          <u who="robert_jansson_bbbeff" xml:id="i-cf1fa5f375fcfe6a-0" prev="i-263317924b2fcfe0-0" n="26f4fbf7">
+          <u who="robert_jansson_bbbeff" xml:id="i-26f4fbf7df66d69e-1" prev="i-26f4fbf7df66d69e-0" n="26f4fbf7">
             <seg n="4bc6f3c9">
               stebostaden.
-            </seg>
-            <seg n="b358f927">
-              Detta är emellertid enligt min mening en underordnad sak, att
-              det här gäller en provisorisk bostad. Huvudsaken är att villkoret
-              icke är fästat vid bostaden utan vid tillträdesdagen. Det är detta,
-              som varit det för utskottsmajoriteten avgörande, och jag ber på
-              grund härav få yrka bifall till utskottets förslag.
             </seg>
           </u>
           <note n="d5e2dbed">
@@ -1626,10 +1638,19 @@
           <note type="date" n="6e4458d4">
             18 Onsdagen den 5 maj.
           </note>
+          <u who="robert_jansson_bbbeff" xml:id="i-26f4fbf7df66d69e-2" prev="i-26f4fbf7df66d69e-0" n="26f4fbf7">
+            <seg n="b358f927">
+              Detta är emellertid enligt min mening en underordnad sak, att
+              det här gäller en provisorisk bostad. Huvudsaken är att villkoret
+              icke är fästat vid bostaden utan vid tillträdesdagen. Det är detta,
+              som varit det för utskottsmajoriteten avgörande, och jag ber på
+              grund härav få yrka bifall till utskottets förslag.
+            </seg>
+          </u>
           <note type="speaker" n="2eacf516">
             Chefen för socialdepartementet herr statsrådet Möller:
           </note>
-          <u who="frits_gustav_moller_787aa1" xml:id="i-2bd775f7fb172eaa-0" n="8afbbbe0">
+          <u who="frits_gustav_moller_787aa1" xml:id="i-6198c41e65d7a77a-2" n="8afbbbe0">
             <seg n="b02d77c3">
               Herr talman! Det förefaller mig, som om det resonemang, vilket
               ligger bakom avslagsyrkandet från statsutskottsmajoritetens sida,
@@ -1696,7 +1717,7 @@
           <note type="speaker" n="008632a4">
             Herr Olsson i Kullenbergstorp:
           </note>
-          <u who="valerius_olsson_426ca3" xml:id="i-b8fe0b25212f1591-2" next="i-18186032fe73bf58-2" n="f5a4a0eb">
+          <u who="valerius_olsson_426ca3" xml:id="i-a66c6625918d1ec8-5" next="i-a66c6625918d1ec8-9" n="f5a4a0eb">
             <seg n="7bc34229">
               Herr talman! Att herr statsrådet icke fann utskottsmajoritetens
               avslagsyrkande synnerligen bärande motiverat, förundrar oss ju
@@ -1704,10 +1725,10 @@
             </seg>
           </u>
           <pb n="18" facs="https://betalab.kb.se/prot-1926--ak--31/prot_1926__ak__31-018.jp2/_view"/>
-          <note n="65b3f3e4">
+          <note type="date" n="f22ff39f">
             Onsdagen den 5 maj. 19 Nr 31.
           </note>
-          <u who="valerius_olsson_426ca3" xml:id="i-18186032fe73bf58-2" prev="i-b8fe0b25212f1591-2" n="f5a4a0eb">
+          <u who="valerius_olsson_426ca3" xml:id="i-a66c6625918d1ec8-6" prev="i-a66c6625918d1ec8-5" n="f5a4a0eb">
             <seg n="3e4bc5b9">
               ägsnna proposition har givetvis herr statsrådet klargjort sin
               ställning till möblering för C . vissa rum + När då herr statsrådet
@@ -1772,6 +1793,15 @@
               icke kunnat godtaga, och vi anse, att icke minsta orätt skett
               landshövdingen i Stockholms län,
             </seg>
+          </u>
+          <pb n="19" facs="https://betalab.kb.se/prot-1926--ak--31/prot_1926__ak__31-019.jp2/_view"/>
+          <note n="246e1c8c">
+            Nr 31.
+          </note>
+          <note type="date" n="a344a1fc">
+            20 Onsdagen den 5 maj.
+          </note>
+          <u who="valerius_olsson_426ca3" xml:id="i-a66c6625918d1ec8-7" prev="i-a66c6625918d1ec8-5" n="f5a4a0eb">
             <seg n="bb5390cc">
               I fråga om om han i den här privata bostaden på hotell Rosenbad
               får möblera dessa rum,
@@ -1787,9 +1817,20 @@
               hövdingen i — Det är på dessa skäl, herr talman, jag ber att
               få yrka bifall till utskottets
             </seg>
+          </u>
+          <note n="b830cd9e">
+            Stockholms län hemställan.
+          </note>
+          <u who="valerius_olsson_426ca3" xml:id="i-a66c6625918d1ec8-8" prev="i-a66c6625918d1ec8-5" n="f5a4a0eb">
             <seg n="93662f27">
               avsedda tjän-
             </seg>
+          </u>
+          <note n="1b07b740">
+            stebostaden. . S o - . . (Forts.) Chefen för socialdepartementet
+            herr statsrådet Möller: Ja, jag skall icke
+          </note>
+          <u who="valerius_olsson_426ca3" xml:id="i-a66c6625918d1ec8-9" prev="i-a66c6625918d1ec8-5" n="f5a4a0eb">
             <seg n="b0d7e87f">
               taga kammarens uppmärksamhet så lång tid i anspråk.
             </seg>
@@ -1823,24 +1864,10 @@
               icke kan fatta.
             </seg>
           </u>
-          <pb n="19" facs="https://betalab.kb.se/prot-1926--ak--31/prot_1926__ak__31-019.jp2/_view"/>
-          <note n="246e1c8c">
-            Nr 31.
-          </note>
-          <note type="date" n="a344a1fc">
-            20 Onsdagen den 5 maj.
-          </note>
-          <note n="b830cd9e">
-            Stockholms län hemställan.
-          </note>
-          <note n="1b07b740">
-            stebostaden. . S o - . . (Forts.) Chefen för socialdepartementet
-            herr statsrådet Möller: Ja, jag skall icke
-          </note>
           <note type="speaker" n="3da21ab2">
             Herr Jansson i Falun:
           </note>
-          <u who="robert_jansson_bbbeff" xml:id="i-263317924b2fcfe0-1" next="i-cf1fa5f375fcfe6a-1" n="26f4fbf7">
+          <u who="robert_jansson_bbbeff" xml:id="i-26f4fbf7df66d69e-3" next="i-26f4fbf7df66d69e-9" n="26f4fbf7">
             <seg n="cffec6b4">
               Med anledning av herr statsrådets sista anförande vill jag framhålla,
               att det icke är bostadens egenskap av att vara provisorisk som
@@ -1876,7 +1903,7 @@
             </seg>
           </u>
           <pb n="20" facs="https://betalab.kb.se/prot-1926--ak--31/prot_1926__ak__31-020.jp2/_view"/>
-          <note n="6e851576">
+          <note type="date" n="a69c9c28">
             Onsdagen den 5 maj. 21 Nr 81.
           </note>
           <note n="d656ee49">
@@ -1971,7 +1998,7 @@
           <note type="date" n="40a77bf2">
             292 Onsdagen den 5 maj.
           </note>
-          <u who="robert_jansson_bbbeff" xml:id="i-cf1fa5f375fcfe6a-1" prev="i-263317924b2fcfe0-1" n="26f4fbf7">
+          <u who="robert_jansson_bbbeff" xml:id="i-26f4fbf7df66d69e-4" prev="i-26f4fbf7df66d69e-3" n="26f4fbf7">
             <seg n="e423f023">
               28. Av den städerna tillkommande andel av skattemedlen skola
               åttio procent fördelas mellan de särskilda städerna i förhållande
@@ -1980,6 +2007,22 @@
             <seg n="d538150b">
               skattemedel. dem influtit i automobilskatt.
             </seg>
+          </u>
+          <note n="d5e2dbed">
+            (Forts.)
+          </note>
+          <note n="e46533cc">
+            Angående fördelningen av återstående tjugu procent förordnar
+            Konungen.
+          </note>
+          <note n="eb169eb9">
+            3 8.
+          </note>
+          <note n="ce763d6d">
+            1 mom. Av landsbygdens andel av skattemedlen fördelas åttiofem
+            procent på följande sätt:
+          </note>
+          <u who="robert_jansson_bbbeff" xml:id="i-26f4fbf7df66d69e-5" prev="i-26f4fbf7df66d69e-3" n="26f4fbf7">
             <seg n="e44526aa">
               a) Till väghållningsdistrikt, vars samtliga vägar övertagits
               till underhåll medelst vägkassan, utgår bidrag med en tiondel
@@ -2015,6 +2058,11 @@
               ändamålsenligt användande av ifrågavarande skattemedel, och återstoden
               mellan länen fördelas på sätt Konungen förordnar.
             </seg>
+          </u>
+          <note n="2594207a">
+            48.
+          </note>
+          <u who="robert_jansson_bbbeff" xml:id="i-26f4fbf7df66d69e-6" prev="i-26f4fbf7df66d69e-3" n="26f4fbf7">
             <seg n="d4670f0e">
               Konungen äger att av skattemedel, som enligt 3 $ 1 mom. b) och
               2 mom. skola tillgodokomma visst län,. årligen bevilja bidrag
@@ -2028,49 +2076,7 @@
               bliver i enahanda ordning utdelat eller om dess användning annorledes
               förordnas.
             </seg>
-            <seg n="bc30ea7d">
-              a) Till väghållningsdistrikt, vars vägar helt eller delvis övertagits
-              till underhåll medelst vägkassan, utgår bidrag med en tiondel
-              av distriktets verkliga kostnad under året näst före det, varunder
-              automobilskattemedlen influtit, för vägunderhåll och vinterväghållning
-              å sålunda övertagna vägar. Hava distriktets samtliga vägar övertagits,
-              må i nämnda kostnad jämväl inbegripas all förvaltningskostnad,
-              som icke uppenbarligen avser byggande av väg. Sådant bidrag utgår
-              dock icke, med mindre vägunderhållet hela det år, var-
-            </seg>
-            <seg n="5e6e263c">
-              fördelning av automobilskattemedel.
-            </seg>
-            <seg n="6d848090">
-              (Forts,) de kostnaden.
-            </seg>
-            <seg n="d86472ce">
-              Till grund för beräknandet av ovan berörda verkliga kostnad skola
-              läggas på föreskrivet sätt förda och granskade räkenskaper. Beträffande
-              väghållningsdistrikt, som endast delvis övertagit distriktets
-              vägar till underhåll av vägkassan, skola räkenskaperna vara så
-              förda, att härav framgår huru stor del av distriktets kostnader
-              för vägunderhåll, som belöper å till underhåll av vägkassan övertagna
-              vägsträckor, ävensom för vinterväghållning.
-            </seg>
           </u>
-          <note n="d5e2dbed">
-            (Forts.)
-          </note>
-          <note n="e46533cc">
-            Angående fördelningen av återstående tjugu procent förordnar
-            Konungen.
-          </note>
-          <note n="eb169eb9">
-            3 8.
-          </note>
-          <note n="ce763d6d">
-            1 mom. Av landsbygdens andel av skattemedlen fördelas åttiofem
-            procent på följande sätt:
-          </note>
-          <note n="2594207a">
-            48.
-          </note>
           <note n="3698b50b">
             Denna förordning träder i kraft den 1 januari 1927, från och
             med vilken dag förordningen den 20 juni 1924 (nr 258) om fördelning
@@ -2152,6 +2158,18 @@
             1 mom. Av landsbygdens andel av skattemedlen fördelas åttiofem
             procent på följande sätt:
           </note>
+          <u who="robert_jansson_bbbeff" xml:id="i-26f4fbf7df66d69e-7" prev="i-26f4fbf7df66d69e-3" n="26f4fbf7">
+            <seg n="bc30ea7d">
+              a) Till väghållningsdistrikt, vars vägar helt eller delvis övertagits
+              till underhåll medelst vägkassan, utgår bidrag med en tiondel
+              av distriktets verkliga kostnad under året näst före det, varunder
+              automobilskattemedlen influtit, för vägunderhåll och vinterväghållning
+              å sålunda övertagna vägar. Hava distriktets samtliga vägar övertagits,
+              må i nämnda kostnad jämväl inbegripas all förvaltningskostnad,
+              som icke uppenbarligen avser byggande av väg. Sådant bidrag utgår
+              dock icke, med mindre vägunderhållet hela det år, var-
+            </seg>
+          </u>
           <note n="98821741">
             Nr 81.
           </note>
@@ -2161,11 +2179,16 @@
           <note n="4c5b074e">
             förordning om
           </note>
+          <u who="robert_jansson_bbbeff" xml:id="i-26f4fbf7df66d69e-8" prev="i-26f4fbf7df66d69e-3" n="26f4fbf7">
+            <seg n="5e6e263c">
+              fördelning av automobilskattemedel.
+            </seg>
+          </u>
           <note n="d5e2dbed">
             (Forts.)
           </note>
           <pb n="23" facs="https://betalab.kb.se/prot-1926--ak--31/prot_1926__ak__31-023.jp2/_view"/>
-          <note n="d392e417">
+          <note type="date" n="3b792a07">
             Nr 31. 24 Onsdagen den 5 maj.
           </note>
           <note n="0f5733b8">
@@ -2176,6 +2199,20 @@
             den 23 skattemedel. Oktober 1891 angående väghållningsbesvärets
             utgörande på landet uppskatta-
           </note>
+          <u who="robert_jansson_bbbeff" xml:id="i-26f4fbf7df66d69e-9" prev="i-26f4fbf7df66d69e-3" n="26f4fbf7">
+            <seg n="6d848090">
+              (Forts,) de kostnaden.
+            </seg>
+            <seg n="d86472ce">
+              Till grund för beräknandet av ovan berörda verkliga kostnad skola
+              läggas på föreskrivet sätt förda och granskade räkenskaper. Beträffande
+              väghållningsdistrikt, som endast delvis övertagit distriktets
+              vägar till underhåll av vägkassan, skola räkenskaperna vara så
+              förda, att härav framgår huru stor del av distriktets kostnader
+              för vägunderhåll, som belöper å till underhåll av vägkassan övertagna
+              vägsträckor, ävensom för vinterväghållning.
+            </seg>
+          </u>
           <note n="60d14172">
             Försummar väghållningsdistrikt att förebringa nöjaktig utredning
             om storleken av samma kostnad, må, i den ordning Konungen bestämmer,
@@ -2197,7 +2234,7 @@
           <note type="speaker" n="008632a4">
             Herr Olsson i Kullenbergstorp:
           </note>
-          <u who="valerius_olsson_426ca3" xml:id="i-b8fe0b25212f1591-3" next="i-18186032fe73bf58-3" n="f5a4a0eb">
+          <u who="valerius_olsson_426ca3" xml:id="i-a66c6625918d1ec8-10" next="i-a66c6625918d1ec8-16" n="f5a4a0eb">
             <seg n="81e552a5">
               Herr talman! Då vi i år återigen ha den obligatoriska vägdebatten,
               så befinner sig frågan nu i ett annat läge än under föregående
@@ -2241,10 +2278,10 @@
             </seg>
           </u>
           <pb n="24" facs="https://betalab.kb.se/prot-1926--ak--31/prot_1926__ak__31-024.jp2/_view"/>
-          <note n="99eb809d">
+          <note type="date" n="6d03b602">
             Onsdagen den 5 maj. 95 Nr 81.
           </note>
-          <u who="valerius_olsson_426ca3" xml:id="i-18186032fe73bf58-3" prev="i-b8fe0b25212f1591-3" n="f5a4a0eb">
+          <u who="valerius_olsson_426ca3" xml:id="i-a66c6625918d1ec8-11" prev="i-a66c6625918d1ec8-10" n="f5a4a0eb">
             <seg n="3eaaae88">
               för resten behövligt att ordna saken på detta sätt? Det är det,
               som är det . Ang huvudsakligen avgörande. Ty vare sig pengarna
@@ -2318,6 +2355,18 @@
               ur jorden! Den där billigheten har alltså försvunnit. Det var
               nog ett sanningens ord, när en ledamot
             </seg>
+          </u>
+          <pb n="25" facs="https://betalab.kb.se/prot-1926--ak--31/prot_1926__ak__31-025.jp2/_view"/>
+          <note n="75995394">
+            Nr 381.
+          </note>
+          <note n="df0b6cee">
+            Ang. förordning om fördelning av automobilskattemedel. (Forts.)
+          </note>
+          <note type="date" n="ab13eb2d">
+            26 Onsdagen den 5 maj.
+          </note>
+          <u who="valerius_olsson_426ca3" xml:id="i-a66c6625918d1ec8-12" prev="i-a66c6625918d1ec8-10" n="f5a4a0eb">
             <seg n="8b9f26c9">
               i statsutskottet motiverade utskottets förslag därmed, att det
               ställer sig så dyrt, om vägkassan övertager det hela, så att det
@@ -2387,6 +2436,16 @@
               Men detta blir för dyrt, och skall underhållsfrågan läggas på
               den bogen, då orka vi icke lösa den ännu på mansåldrar.
             </seg>
+          </u>
+          <note n="8a1bd7ed">
+            Härmed, herr talman, skall jag sluta och ber att såsom frågan
+            nu ligger få yrka bifall till herrar Kvarnzelius m. fl. reservation.
+          </note>
+          <pb n="26" facs="https://betalab.kb.se/prot-1926--ak--31/prot_1926__ak__31-026.jp2/_view"/>
+          <note type="date" n="3951af2c">
+            Onsdagen den 5 maj. 27 Nr 31.
+          </note>
+          <u who="valerius_olsson_426ca3" xml:id="i-a66c6625918d1ec8-13" prev="i-a66c6625918d1ec8-10" n="f5a4a0eb">
             <seg n="490d42a4">
               Chefen för kommunikationsdepartementet herr statsrådet Larsson:
               Herr = An. talman! Med anledning av herr Olssons i Kullenbergstorp
@@ -2415,6 +2474,27 @@
               Jag hoppas, att herr Olsson i Kullenbergstorp icke vill göra
               några erinringar mot dessa uttalanden.
             </seg>
+          </u>
+          <note n="a5685b20">
+            Jag skall vidare med anledning av herr Olssons anförande gå något
+            tillbaka 1 tiden och erinra om vad som förekom vid förra årets
+            riksdag. Jag gör detta därför, att herr Olsson fann det egendomligt,
+            att Kungl. Maj:t lagt propositionen just så som den nu föreligger.
+            Vid förra årets riksdag väcktes nämligen en motion av herrar C.
+            G. Ekman m. fl. i första kammaren och herr Hamilton m. fl. i denna
+            kammare. I dessa likalydande motioner yrkades »att av den andel
+            av automobilskattemedlen, som tillkomme landsbygden, erforderligt
+            belopp skulle ställas till förfogande för att beträffande de väghållningsdistrikt
+            inom landet, där samtliga vägar övertagits till underhåll medelst
+            vägkassan, användas för tilldelning av ett ytterligare väghållningsbidrag
+            å 15 procent utöver det ordinarie bidrag av 30 procent, som nu
+            utginge enligt gällande väglag». ped anledning av dessa motioner
+            beslöt riksdagen en skrivelse i vilken det bl. a.
+          </note>
+          <note n="846f0d91">
+            eter:
+          </note>
+          <u who="valerius_olsson_426ca3" xml:id="i-a66c6625918d1ec8-14" prev="i-a66c6625918d1ec8-10" n="f5a4a0eb">
             <seg n="fd38eb0c">
               »Ett beslut i av motionärerna angiven riktning torde också, enligt
               vad från sakkunnigt håll vitsordats, bidraga till ökad trygghet
@@ -2444,6 +2524,21 @@
               han ju från sina utgångspunkter möjligen också ha skäl till, men
               det borde inte be-
             </seg>
+          </u>
+          <pb n="27" facs="https://betalab.kb.se/prot-1926--ak--31/prot_1926__ak__31-027.jp2/_view"/>
+          <note n="246e1c8c">
+            Nr 31.
+          </note>
+          <note n="39682d13">
+            Ang. förordning om fördelning av automobilskattemedel.
+          </note>
+          <note n="d5e2dbed">
+            (Forts.)
+          </note>
+          <note type="date" n="bc610fa1">
+            28 Onsdagen den 5 maj.
+          </note>
+          <u who="valerius_olsson_426ca3" xml:id="i-a66c6625918d1ec8-15" prev="i-a66c6625918d1ec8-10" n="f5a4a0eb">
             <seg n="265cfc0d">
               höva väcka förvåning hos herr Olsson i Kullenbergstorp, att Kungl.
               Maj:t har sökt effektuera de önskemål, som riksdagen förra året
@@ -2523,6 +2618,9 @@
               svårt att här kunna öva en effektiv kontroll. Detta är ett av
               skälen till att varken de sak-
             </seg>
+          </u>
+          <pb n="28" facs="https://betalab.kb.se/prot-1926--ak--31/prot_1926__ak__31-028.jp2/_view"/>
+          <u who="valerius_olsson_426ca3" xml:id="i-a66c6625918d1ec8-16" prev="i-a66c6625918d1ec8-10" n="f5a4a0eb">
             <seg n="6a6dfa82">
               Onsdagen den 5 maj. 99 Nr 81. kunniga eller jag för min del lika
               litet som riksdagen, då denna fråga tidi- . Ang. gare varit före
@@ -2564,61 +2662,10 @@
             <seg n="718e6f92"/>
             <seg n="718e6f92"/>
           </u>
-          <pb n="25" facs="https://betalab.kb.se/prot-1926--ak--31/prot_1926__ak__31-025.jp2/_view"/>
-          <note n="75995394">
-            Nr 381.
-          </note>
-          <note n="df0b6cee">
-            Ang. förordning om fördelning av automobilskattemedel. (Forts.)
-          </note>
-          <note type="date" n="ab13eb2d">
-            26 Onsdagen den 5 maj.
-          </note>
-          <note n="8a1bd7ed">
-            Härmed, herr talman, skall jag sluta och ber att såsom frågan
-            nu ligger få yrka bifall till herrar Kvarnzelius m. fl. reservation.
-          </note>
-          <pb n="26" facs="https://betalab.kb.se/prot-1926--ak--31/prot_1926__ak__31-026.jp2/_view"/>
-          <note n="3d99a753">
-            Onsdagen den 5 maj. 27 Nr 31.
-          </note>
-          <note n="a5685b20">
-            Jag skall vidare med anledning av herr Olssons anförande gå något
-            tillbaka 1 tiden och erinra om vad som förekom vid förra årets
-            riksdag. Jag gör detta därför, att herr Olsson fann det egendomligt,
-            att Kungl. Maj:t lagt propositionen just så som den nu föreligger.
-            Vid förra årets riksdag väcktes nämligen en motion av herrar C.
-            G. Ekman m. fl. i första kammaren och herr Hamilton m. fl. i denna
-            kammare. I dessa likalydande motioner yrkades »att av den andel
-            av automobilskattemedlen, som tillkomme landsbygden, erforderligt
-            belopp skulle ställas till förfogande för att beträffande de väghållningsdistrikt
-            inom landet, där samtliga vägar övertagits till underhåll medelst
-            vägkassan, användas för tilldelning av ett ytterligare väghållningsbidrag
-            å 15 procent utöver det ordinarie bidrag av 30 procent, som nu
-            utginge enligt gällande väglag». ped anledning av dessa motioner
-            beslöt riksdagen en skrivelse i vilken det bl. a.
-          </note>
-          <note n="846f0d91">
-            eter:
-          </note>
-          <pb n="27" facs="https://betalab.kb.se/prot-1926--ak--31/prot_1926__ak__31-027.jp2/_view"/>
-          <note n="246e1c8c">
-            Nr 31.
-          </note>
-          <note n="39682d13">
-            Ang. förordning om fördelning av automobilskattemedel.
-          </note>
-          <note n="d5e2dbed">
-            (Forts.)
-          </note>
-          <note type="date" n="bc610fa1">
-            28 Onsdagen den 5 maj.
-          </note>
-          <pb n="28" facs="https://betalab.kb.se/prot-1926--ak--31/prot_1926__ak__31-028.jp2/_view"/>
           <note type="speaker" n="996944a1">
             Herr Anderson i Råstock:
           </note>
-          <u who="ivar_anderson_5cc143" xml:id="i-8fdbb5786abc5a80-0" next="i-c7818dcecc639ad3-1" n="e3ea3a61">
+          <u who="ivar_anderson_5cc143" xml:id="i-e3ea3a61c895cc89-3" next="i-e3ea3a61c895cc89-6" n="e3ea3a61">
             <seg n="dd373f55">
               Herr talman! Efter herr statsrådets klarläggande anförande är
               det givetvis inte så mycket att säga från utskottsmajoritetens
@@ -2645,7 +2692,7 @@
             till underhållsbidrag av bilskattemedel även till sådana vägdistrikt,
             finner utskottet icke kunna frånkännas giltighet.»
           </note>
-          <u who="ivar_anderson_5cc143" xml:id="i-c7818dcecc639ad3-1" prev="i-8fdbb5786abc5a80-0" n="e3ea3a61">
+          <u who="ivar_anderson_5cc143" xml:id="i-e3ea3a61c895cc89-4" prev="i-e3ea3a61c895cc89-3" n="e3ea3a61">
             <seg n="c8c96f05">
               Nu kan man säga, och det har också sagts i utskottet, att den
               där formuleringen är något för dunkel, men om man ser efter vad
@@ -2660,6 +2707,12 @@
               man endast övertagit vissa vägar, men bibehåller naturaunderhållet
               för de övriga på det gamla sättet. Ja, men
             </seg>
+          </u>
+          <pb n="29" facs="https://betalab.kb.se/prot-1926--ak--31/prot_1926__ak__31-029.jp2/_view"/>
+          <note type="date" n="6b58e8c9">
+            Nr 81. 30 Onsdagen den 5 maj.
+          </note>
+          <u who="ivar_anderson_5cc143" xml:id="i-e3ea3a61c895cc89-5" prev="i-e3ea3a61c895cc89-3" n="e3ea3a61">
             <seg n="85118058">
               — Ang. det är nog bara en tidsfråga, när vägkassan även inom
               de distrikt, där man så
@@ -2738,6 +2791,12 @@
               Då jag misstänker, att man kommer att tala om orättvisor o. dyl.,
               därför att
             </seg>
+          </u>
+          <pb n="30" facs="https://betalab.kb.se/prot-1926--ak--31/prot_1926__ak__31-030.jp2/_view"/>
+          <note type="date" n="9ef4d0f4">
+            Onsdagen den 5 maj. 31 Nr 31.
+          </note>
+          <u who="ivar_anderson_5cc143" xml:id="i-e3ea3a61c895cc89-6" prev="i-e3ea3a61c895cc89-3" n="e3ea3a61">
             <seg n="245a1a4f">
               de väghållningsdistrikt, som endast delvis övertagit underhållet,
               icke skola ,. Ang: kunna få med av detta bidrag, så vill jag påpeka,
@@ -2777,14 +2836,6 @@
               förslag.
             </seg>
           </u>
-          <pb n="29" facs="https://betalab.kb.se/prot-1926--ak--31/prot_1926__ak__31-029.jp2/_view"/>
-          <note n="5be113a1">
-            Nr 81. 30 Onsdagen den 5 maj.
-          </note>
-          <pb n="30" facs="https://betalab.kb.se/prot-1926--ak--31/prot_1926__ak__31-030.jp2/_view"/>
-          <note n="02a3cb99">
-            Onsdagen den 5 maj. 31 Nr 31.
-          </note>
           <note n="2007feba">
             Häruti instämde herrar Persson i Fritorp, Carlsson-Frosterud
             och Pettersson i Hällbacken.
@@ -2792,7 +2843,7 @@
           <note type="speaker" n="eb7b55d4">
             Herr Månsson i Erlandsro:
           </note>
-          <u who="nils_mansson_51db5b" xml:id="i-960bbf00ee1351bc-1" next="i-c5937612576c068a-1" n="34cf535f">
+          <u who="nils_mansson_51db5b" xml:id="i-34cf535f3474329d-4" next="i-34cf535f3474329d-6" n="34cf535f">
             <seg n="a5438157">
               Herr talman, mina damer och herrar! Då jag är en av motionärerna
               i den här frågan, anser jag mig böra framhålla de motiv, som föranlett
@@ -2834,7 +2885,7 @@
           <note type="date" n="9144af36">
             32 Onsdagen den 5 maj.
           </note>
-          <u who="nils_mansson_51db5b" xml:id="i-c5937612576c068a-1" prev="i-960bbf00ee1351bc-1" n="34cf535f">
+          <u who="nils_mansson_51db5b" xml:id="i-34cf535f3474329d-5" prev="i-34cf535f3474329d-4" n="34cf535f">
             <seg n="1fe19f32">
               till den före år 1922 förefintliga motorfordonstrafiken och den
               därav förorsakade ökning i underhållskostnader, framstår den nu
@@ -2905,6 +2956,12 @@
               Dessa personer ha visserligen i många fall goda teoretiska förutsättningar,
               men det har ofta brustit, när
             </seg>
+          </u>
+          <pb n="32" facs="https://betalab.kb.se/prot-1926--ak--31/prot_1926__ak__31-032.jp2/_view"/>
+          <note type="date" n="95ec33b9">
+            Onsdagen den 5 maj. 33 — Nr 31.
+          </note>
+          <u who="nils_mansson_51db5b" xml:id="i-34cf535f3474329d-6" prev="i-34cf535f3474329d-4" n="34cf535f">
             <seg n="fa527b7a">
               det gällt att praktiskt utföra arbetet och att verka som arbetsledare.
               Det är Ang. ofta, som man fått se stora missgrepp härutinnan vållat
@@ -2978,10 +3035,6 @@
               man skall kunna göra denna utdebitering riktig.
             </seg>
           </u>
-          <pb n="32" facs="https://betalab.kb.se/prot-1926--ak--31/prot_1926__ak__31-032.jp2/_view"/>
-          <note n="cb5e8354">
-            Onsdagen den 5 maj. 33 — Nr 31.
-          </note>
           <note n="7f6f19da">
             Andra kammarens protokoll 1926. Nr 31. 3
           </note>
@@ -3010,7 +3063,7 @@
           <note type="speaker" n="f98e3188">
             Herr Bengtsson i Norup:
           </note>
-          <u who="sven_bengtsson_d702e5" xml:id="i-65bb64e1c701deac-1" next="i-33f5a5423d48e8d3-1" n="99764b3d">
+          <u who="sven_bengtsson_d702e5" xml:id="i-99764b3d63bf2255-2" next="i-99764b3d63bf2255-3" n="99764b3d">
             <seg n="6f04527b">
               Herr talman! Efter det sakliga anförande, som herr statsrådet
               här höll, och i vilket han redogjorde för, hur han kommit till
@@ -3076,10 +3129,10 @@
             </seg>
           </u>
           <pb n="34" facs="https://betalab.kb.se/prot-1926--ak--31/prot_1926__ak__31-034.jp2/_view"/>
-          <note n="b6ded838">
+          <note type="date" n="2485cfd7">
             Onsdagen den 5 maj. 35 Nr 8L
           </note>
-          <u who="sven_bengtsson_d702e5" xml:id="i-33f5a5423d48e8d3-1" prev="i-65bb64e1c701deac-1" n="99764b3d">
+          <u who="sven_bengtsson_d702e5" xml:id="i-99764b3d63bf2255-3" prev="i-99764b3d63bf2255-2" n="99764b3d">
             <seg n="37c300ad">
               Jag har, herr talman, intet mer att tillägga utan ber att få
               yrka bifall till Ang. nn Pe förordning om utskottets förslag.
@@ -3089,7 +3142,7 @@
           <note type="speaker" n="2e9181a6">
             Herr Schill:
           </note>
-          <u who="august_schill_2928a5" xml:id="i-d930d505c133eda6-0" next="i-d0555b9bd7bcdde0-0" n="e5e2180b">
+          <u who="august_schill_2928a5" xml:id="i-e5e2180b9b74225a-0" next="i-e5e2180b9b74225a-1" n="e5e2180b">
             <seg n="fb5f65a4">
               Herr förste vice talman! Jag har inte begärt ordet för att skattemedel.
               i likhet med en del reservanter rikta en anmärkning mot regeringen
@@ -3174,7 +3227,7 @@
           <note type="date" n="7f15cc52">
             36 Onsdagen den 5 maj.
           </note>
-          <u who="august_schill_2928a5" xml:id="i-d0555b9bd7bcdde0-0" prev="i-d930d505c133eda6-0" n="e5e2180b">
+          <u who="august_schill_2928a5" xml:id="i-e5e2180b9b74225a-1" prev="i-e5e2180b9b74225a-0" n="e5e2180b">
             <seg n="b24b01bc">
               lighet både beträffande bidrag och i skattehänseende kommer till
               stånd, skall jag inte en enda dag ställa mig tveksam mot vägkassans
@@ -3215,7 +3268,7 @@
           <note type="speaker" n="a5fec256">
             Herr Bergström i Bäckland:
           </note>
-          <u who="petrus_bergstrom_a9b15f" xml:id="i-b158c1ccda67c507-0" next="i-1859d2fe8993114e-0" n="daefbd51">
+          <u who="petrus_bergstrom_a9b15f" xml:id="i-d80b91373f393730-0" next="i-d80b91373f393730-1" n="daefbd51">
             <seg n="a84a185c">
               Herr talman! Jag kommer ihåg ett litet uttryck i en allmogeberättelse,
               som jag hört berättas i mina bygder, när jag tänker på mina vägmotioner:
@@ -3258,7 +3311,7 @@
           <note type="date" n="0830c922">
             Onsdagen den 5 maj. 37
           </note>
-          <u who="petrus_bergstrom_a9b15f" xml:id="i-1859d2fe8993114e-0" prev="i-b158c1ccda67c507-0" n="daefbd51">
+          <u who="petrus_bergstrom_a9b15f" xml:id="i-d80b91373f393730-1" prev="i-d80b91373f393730-0" n="daefbd51">
             <seg n="138536d9">
               heten och vara mån om att hålla detta intresse vid makt. Det
               vill jag ha sagt, att detta intresse är icke något stort träd
@@ -3322,7 +3375,7 @@
           <note type="speaker" n="87b21ac9">
             Herr Wiklund:
           </note>
-          <u who="adolf_wiklund_330bfb" xml:id="i-5f73bbe18231d594-0" next="i-35e79ee9bbb9425f-0" n="83f77eec">
+          <u who="adolf_wiklund_330bfb" xml:id="i-83f77eecd6c99f4b-0" next="i-83f77eecd6c99f4b-1" n="83f77eec">
             <seg n="dfbc37bd">
               Herr talman! Det lär väl finnas ganska ringa förhoppning att
               reservationen skall bifallas, i synnerhet sedan första kammaren,
@@ -3355,7 +3408,7 @@
           <note type="date" n="32579e1e">
             38 Onsdagen den 5 maj.
           </note>
-          <u who="adolf_wiklund_330bfb" xml:id="i-35e79ee9bbb9425f-0" prev="i-5f73bbe18231d594-0" n="83f77eec">
+          <u who="adolf_wiklund_330bfb" xml:id="i-83f77eecd6c99f4b-1" prev="i-83f77eecd6c99f4b-0" n="83f77eec">
             <seg n="68d50c47">
               dan beslutat, att alla vägar skola övertagas av vägkassan. Men
               vi veta ju alla, att det finns vissa väghållningsdistrikt, där
@@ -3401,7 +3454,7 @@
           <note type="speaker" n="438c9e75">
             Herr Andersson i Grimbo:
           </note>
-          <u who="olof_andersson_a3a894" xml:id="i-d640e63597b53396-0" next="i-c133e47ef2ddf087-0" n="6a65895a">
+          <u who="olof_andersson_a3a894" xml:id="i-6a65895a23d2636d-0" next="i-6a65895a23d2636d-2" n="6a65895a">
             <seg n="288c7373">
               Herr talman! Jag skall först be att få vända mig mot ett uttalande
               av herr Bengtsson i Norup. Han sade nämligen, att vägarna underhållas
@@ -3431,10 +3484,10 @@
             </seg>
           </u>
           <pb n="38" facs="https://betalab.kb.se/prot-1926--ak--31/prot_1926__ak__31-038.jp2/_view"/>
-          <note n="38e85f85">
+          <note type="date" n="cc96f347">
             Onsdagen den 5 maj. 39 Nr .
           </note>
-          <u who="olof_andersson_a3a894" xml:id="i-c133e47ef2ddf087-0" prev="i-d640e63597b53396-0" n="6a65895a">
+          <u who="olof_andersson_a3a894" xml:id="i-6a65895a23d2636d-1" prev="i-6a65895a23d2636d-0" n="6a65895a">
             <seg n="dfed19a9">
               kurvor och kurvlutningar m. m. Detta blir väl inte beroende av
               om vägunder- Ang. hållet ombesörjes av vägkassan eller in natura.
@@ -3522,6 +3575,21 @@
               för propositionen framhöll, att ett bifall till densamma skulle
               komma att påskynda vägkassornas övertagande
             </seg>
+          </u>
+          <pb n="39" facs="https://betalab.kb.se/prot-1926--ak--31/prot_1926__ak__31-039.jp2/_view"/>
+          <note n="f9ea1ce0">
+            Nr 31
+          </note>
+          <note n="39682d13">
+            Ang. förordning om fördelning av automobilskattemedel.
+          </note>
+          <note n="d5e2dbed">
+            (Forts.)
+          </note>
+          <note type="date" n="836f3f63">
+            40 Onsdagen den 5 maj.
+          </note>
+          <u who="olof_andersson_a3a894" xml:id="i-6a65895a23d2636d-2" prev="i-6a65895a23d2636d-0" n="6a65895a">
             <seg n="90cb1fca">
               av underhållet, så vill jag säga, att det var mig mycket oväntat
               att från statsrådsbänken få höra ett sådant uttalande, vilket
@@ -3544,26 +3612,13 @@
               Jag ber, herr talman, att få yrka bifall till reservationen.
             </seg>
           </u>
-          <pb n="39" facs="https://betalab.kb.se/prot-1926--ak--31/prot_1926__ak__31-039.jp2/_view"/>
-          <note n="f9ea1ce0">
-            Nr 31
-          </note>
-          <note n="39682d13">
-            Ang. förordning om fördelning av automobilskattemedel.
-          </note>
-          <note n="d5e2dbed">
-            (Forts.)
-          </note>
-          <note type="date" n="836f3f63">
-            40 Onsdagen den 5 maj.
-          </note>
           <note n="3710db52">
             Herr talmannen återtog nu ledningen av förhandlingarna.
           </note>
           <note type="speaker" n="d7674992">
             Herr Bernström:
           </note>
-          <u who="erik_bernstrom_dba5ed" xml:id="i-753bddece4ef75e2-0" n="f72e0fd6">
+          <u who="erik_bernstrom_dba5ed" xml:id="i-f72e0fd672effd9d-0" n="f72e0fd6">
             <seg n="4bb880a6">
               Herr talman! Då utskottet i nu föreliggande utlåtande vill såsom
               villkor för bidrag av bilskattemedlen till vägunderhållet bibehålla,
@@ -3608,13 +3663,13 @@
             Gustafson i Kasenberg, Anderson i Storegården och Göranson.
           </note>
           <pb n="40" facs="https://betalab.kb.se/prot-1926--ak--31/prot_1926__ak__31-040.jp2/_view"/>
-          <note n="53c9fd88">
+          <note type="date" n="62e5c381">
             Onsdagen den 5 maj. 41 Nr 81
           </note>
           <note type="speaker" n="81093705">
             Herr Andersson i Rasjön:
           </note>
-          <u who="olof_andersson_a3a894" xml:id="i-d640e63597b53396-1" next="i-c133e47ef2ddf087-1" n="6a65895a">
+          <u who="olof_andersson_a3a894" xml:id="i-6a65895a23d2636d-3" next="i-6a65895a23d2636d-4" n="6a65895a">
             <seg n="c2ff2b98">
               Herr talman! De flesta för att inte säga alla Ang. av de talare,
               som uppträtt till försvar för reservanternas ståndpunkt, ha arguförordning
@@ -3700,7 +3755,7 @@
           <note type="date" n="cfa9d952">
             492 Onsdagen den 5 maj.
           </note>
-          <u who="olof_andersson_a3a894" xml:id="i-c133e47ef2ddf087-1" prev="i-d640e63597b53396-1" n="6a65895a">
+          <u who="olof_andersson_a3a894" xml:id="i-6a65895a23d2636d-4" prev="i-6a65895a23d2636d-3" n="6a65895a">
             <seg n="efb1e9a6">
               der det att huvudvägarna, som kanske alltfort äro delade på naturaunderhåll,
               icke skulle komma i åtnjutande av något bidrag alls efter den
@@ -3766,7 +3821,7 @@
           <note type="speaker" n="008632a4">
             Herr Olsson i Kullenbergstorp:
           </note>
-          <u who="valerius_olsson_426ca3" xml:id="i-b8fe0b25212f1591-4" next="i-18186032fe73bf58-4" n="f5a4a0eb">
+          <u who="valerius_olsson_426ca3" xml:id="i-a66c6625918d1ec8-17" next="i-a66c6625918d1ec8-21" n="f5a4a0eb">
             <seg n="743c7a22">
               Herr talman! Att jag skulle få riktigt på pälsen till följd av
               mina kätterska åsikter i vägfrågan, det väntade jag, och det har
@@ -3775,10 +3830,10 @@
             </seg>
           </u>
           <pb n="42" facs="https://betalab.kb.se/prot-1926--ak--31/prot_1926__ak__31-042.jp2/_view"/>
-          <note n="52021741">
+          <note type="date" n="c6d5939f">
             Onsdagen den 5 maj. 43 Nr 81.
           </note>
-          <u who="valerius_olsson_426ca3" xml:id="i-18186032fe73bf58-4" prev="i-b8fe0b25212f1591-4" n="f5a4a0eb">
+          <u who="valerius_olsson_426ca3" xml:id="i-a66c6625918d1ec8-18" prev="i-a66c6625918d1ec8-17" n="f5a4a0eb">
             <seg n="51ec69d0">
               Den siste ärade talaren sade, att han kunde med gott samvete
               gå in för ut- Ang. skottets förslag. Jag hade verkligen hoppats,
@@ -3845,6 +3900,21 @@
               rättelse, då anmärkning gjorts.» Oaktat de höllo på, att samtliga
               vägar skulle tagas in till underhåll av vägdistrikten,
             </seg>
+          </u>
+          <pb n="43" facs="https://betalab.kb.se/prot-1926--ak--31/prot_1926__ak__31-043.jp2/_view"/>
+          <note n="246e1c8c">
+            Nr 31.
+          </note>
+          <note n="39682d13">
+            Ang. förordning om fördelning av automobilskattemedel.
+          </note>
+          <note n="d5e2dbed">
+            (Forts.)
+          </note>
+          <note type="date" n="390ddb81">
+            44 Onsdagen den 5 maj.
+          </note>
+          <u who="valerius_olsson_426ca3" xml:id="i-a66c6625918d1ec8-19" prev="i-a66c6625918d1ec8-17" n="f5a4a0eb">
             <seg n="388ca603">
               voro de på det klara med, att det ej bleve så idealiskt, att
               man kunde undvara vägsynerna. De trodde ej vägstyrelsen mer än
@@ -3918,6 +3988,12 @@
               underhållna? Äro de sämre underhållna i det länet än i andra län?
               Äro kostnaderna för primärvä-
             </seg>
+          </u>
+          <pb n="44" facs="https://betalab.kb.se/prot-1926--ak--31/prot_1926__ak__31-044.jp2/_view"/>
+          <note type="date" n="5089ee20">
+            Onsdagen den 5 maj. 45 Nr ål.
+          </note>
+          <u who="valerius_olsson_426ca3" xml:id="i-a66c6625918d1ec8-20" prev="i-a66c6625918d1ec8-17" n="f5a4a0eb">
             <seg n="03ff7e84">
               garnas underhåll där mindre än i andra län? Kan man fälla det
               totalomdömet Ang. om Malmöhus läns vägar, att därom kan sägas,
@@ -4052,29 +4128,7 @@
               min åsikt om, att i grund och botten, när man målar upp det så
               vackert från de här
             </seg>
-            <seg n="f69ebb11">
-              distrikten, som övertagit alla vägarna, om det utmärkta underhållet,
-              så är det icke pudelns kärna, utan det är pengar, som man skall
-              kapa åt sig genom dessa 10 procents bidrag.
-            </seg>
           </u>
-          <pb n="43" facs="https://betalab.kb.se/prot-1926--ak--31/prot_1926__ak__31-043.jp2/_view"/>
-          <note n="246e1c8c">
-            Nr 31.
-          </note>
-          <note n="39682d13">
-            Ang. förordning om fördelning av automobilskattemedel.
-          </note>
-          <note n="d5e2dbed">
-            (Forts.)
-          </note>
-          <note type="date" n="390ddb81">
-            44 Onsdagen den 5 maj.
-          </note>
-          <pb n="44" facs="https://betalab.kb.se/prot-1926--ak--31/prot_1926__ak__31-044.jp2/_view"/>
-          <note n="4c36f6fa">
-            Onsdagen den 5 maj. 45 Nr ål.
-          </note>
           <pb n="45" facs="https://betalab.kb.se/prot-1926--ak--31/prot_1926__ak__31-045.jp2/_view"/>
           <note n="246e1c8c">
             Nr 31.
@@ -4088,10 +4142,17 @@
           <note type="date" n="1487113f">
             46 Onsdagen den 5 maj.
           </note>
+          <u who="valerius_olsson_426ca3" xml:id="i-a66c6625918d1ec8-21" prev="i-a66c6625918d1ec8-17" n="f5a4a0eb">
+            <seg n="f69ebb11">
+              distrikten, som övertagit alla vägarna, om det utmärkta underhållet,
+              så är det icke pudelns kärna, utan det är pengar, som man skall
+              kapa åt sig genom dessa 10 procents bidrag.
+            </seg>
+          </u>
           <note type="speaker" n="daccc2ca">
             Herr Kristensson i Göteborg:
           </note>
-          <u who="emil_kristensson_be2e8b" xml:id="i-9c57940ce062c569-0" n="ad17ed6e">
+          <u who="emil_kristensson_be2e8b" xml:id="i-ad17ed6e200fb09a-0" n="ad17ed6e">
             <seg n="46059997">
               När reservantintresset spikade sitt blodomlopp på väggen, anade
               jag, att vi skulle få en långvarig debatt här, trots det förhållandet,
@@ -4152,7 +4213,7 @@
           <note type="speaker" n="72711bbb">
             Herr Nilsson i Antnäs:
           </note>
-          <u who="per_nilsson_4adcd2" xml:id="i-79afdf9e87047873-0" next="i-c9092521507205ec-0" n="09e1d2b9">
+          <u who="per_nilsson_4adcd2" xml:id="i-09e1d2b9d41fad6f-0" next="i-09e1d2b9d41fad6f-1" n="09e1d2b9">
             <seg n="6d73382c">
               Herr talman! Det ser ut, som skulle man hela tiden under den
               föregående behandlingen av denna fråga ha velat begagna en slags
@@ -4165,10 +4226,10 @@
             </seg>
           </u>
           <pb n="46" facs="https://betalab.kb.se/prot-1926--ak--31/prot_1926__ak__31-046.jp2/_view"/>
-          <note n="b5056a3e">
+          <note type="date" n="86fe1b39">
             Onsdagen den 5 maj. 47 Nr 81.
           </note>
-          <u who="per_nilsson_4adcd2" xml:id="i-c9092521507205ec-0" prev="i-79afdf9e87047873-0" n="09e1d2b9">
+          <u who="per_nilsson_4adcd2" xml:id="i-09e1d2b9d41fad6f-1" prev="i-09e1d2b9d41fad6f-0" n="09e1d2b9">
             <seg n="b253e7f1">
               att naturavägunderhållet fortfarande användes. Då kan det icke
               vara lämpligt, = Ang. örordning om
@@ -4238,7 +4299,7 @@
           <note type="speaker" n="996944a1">
             Herr Anderson i Råstock:
           </note>
-          <u who="ivar_anderson_5cc143" xml:id="i-8fdbb5786abc5a80-1" next="i-c7818dcecc639ad3-2" n="e3ea3a61">
+          <u who="ivar_anderson_5cc143" xml:id="i-e3ea3a61c895cc89-7" next="i-e3ea3a61c895cc89-8" n="e3ea3a61">
             <seg n="bef5b168">
               Herr talman! Jag begärde ordet för att bemöta berr Olssons i
               Kullenbergstorp påstående, att statsrådet Larssons partivänner
@@ -4267,7 +4328,7 @@
           <note type="date" n="3127e954">
             48 Onsdagen den 5 maj.
           </note>
-          <u who="ivar_anderson_5cc143" xml:id="i-c7818dcecc639ad3-2" prev="i-8fdbb5786abc5a80-1" n="e3ea3a61">
+          <u who="ivar_anderson_5cc143" xml:id="i-e3ea3a61c895cc89-8" prev="i-e3ea3a61c895cc89-7" n="e3ea3a61">
             <seg n="f69c9fca">
               ende får utskottet erinra bland annat om en vid senaste riksdag
               vidtagen förändring i gällande författning, varigenom avsågs att
@@ -4340,7 +4401,7 @@
           <note type="speaker" n="824d989f">
             Herr Persson i Falla:
           </note>
-          <u who="swen_persson_e5d4dc" xml:id="i-c1e018fc63fb0564-0" next="i-1a0441d14f3a101d-0" n="b9d251b0">
+          <u who="swen_persson_e5d4dc" xml:id="i-c95f7486c967622c-0" next="i-c95f7486c967622c-4" n="b9d251b0">
             <seg n="dbe40b05">
               Herr talman! Denna fråga har så ingående och så länge diskuterats,
               att det nu icke kan vara mycket att säga i själva saken. Jag skall
@@ -4357,7 +4418,7 @@
           <note type="date" n="78edf2c0">
             Onsdagen den 5 maj. 49 J
           </note>
-          <u who="swen_persson_e5d4dc" xml:id="i-1a0441d14f3a101d-0" prev="i-c1e018fc63fb0564-0" n="b9d251b0">
+          <u who="swen_persson_e5d4dc" xml:id="i-c95f7486c967622c-1" prev="i-c95f7486c967622c-0" n="b9d251b0">
             <seg n="ac4e65cc">
               Anderssons i Rasjön anförande i fjol, då samma fråga var under
               behandling, kan konstatera, att han gjort en fullständig omsvängning.
@@ -4438,9 +4499,38 @@
               sätt, och jag förmodar, att det finnes så mycket förstånd bland
               dem, som
             </seg>
+          </u>
+          <note n="d9fcc415">
+            Andra kammarens protokoll 1926. Nr 31. 4
+          </note>
+          <note n="246e1c8c">
+            Nr 31.
+          </note>
+          <note n="79f1c374">
+            Ang.
+          </note>
+          <note n="4c5b074e">
+            förordning om
+          </note>
+          <u who="swen_persson_e5d4dc" xml:id="i-c95f7486c967622c-2" prev="i-c95f7486c967622c-0" n="b9d251b0">
             <seg n="5e6e263c">
               fördelning av automobilskattemedel.
             </seg>
+          </u>
+          <note n="d5e2dbed">
+            (Forts.)
+          </note>
+          <pb n="49" facs="https://betalab.kb.se/prot-1926--ak--31/prot_1926__ak__31-049.jp2/_view"/>
+          <note n="246e1c8c">
+            Nr 31.
+          </note>
+          <note n="79f1c374">
+            Ang.
+          </note>
+          <note type="date" n="d72dcab7">
+            50 Onsdagen den 5 maj.
+          </note>
+          <u who="swen_persson_e5d4dc" xml:id="i-c95f7486c967622c-3" prev="i-c95f7486c967622c-0" n="b9d251b0">
             <seg n="ce3f9b0f">
               ute i vägdistrikten syssla med saken, att de utan tvångsmedel
               själva ordna det
@@ -4452,6 +4542,11 @@
             <seg n="5e6e263c">
               fördelning av automobilskattemedel.
             </seg>
+          </u>
+          <note n="d5e2dbed">
+            (Forts.)
+          </note>
+          <u who="swen_persson_e5d4dc" xml:id="i-c95f7486c967622c-4" prev="i-c95f7486c967622c-0" n="b9d251b0">
             <seg n="fe27f7af">
               Jag tror, att vi kunna låta denna sak ordna sig rent praktiskt.
               Jag är övertygad, att man kan ha det förtroende till de personer,
@@ -4468,38 +4563,10 @@
               Jag ber, herr talman, att få yrka bifall till reservationen.
             </seg>
           </u>
-          <note n="d9fcc415">
-            Andra kammarens protokoll 1926. Nr 31. 4
-          </note>
-          <note n="246e1c8c">
-            Nr 31.
-          </note>
-          <note n="79f1c374">
-            Ang.
-          </note>
-          <note n="4c5b074e">
-            förordning om
-          </note>
-          <note n="d5e2dbed">
-            (Forts.)
-          </note>
-          <pb n="49" facs="https://betalab.kb.se/prot-1926--ak--31/prot_1926__ak__31-049.jp2/_view"/>
-          <note n="246e1c8c">
-            Nr 31.
-          </note>
-          <note n="79f1c374">
-            Ang.
-          </note>
-          <note type="date" n="d72dcab7">
-            50 Onsdagen den 5 maj.
-          </note>
-          <note n="d5e2dbed">
-            (Forts.)
-          </note>
           <note type="speaker" n="29d10847">
             Herr förste vice talmannen Hamilton:
           </note>
-          <u who="raoul_hamilton_422bb1" xml:id="i-acc7bdf0a6a3c38d-0" n="bd0be9aa">
+          <u who="raoul_hamilton_422bb1" xml:id="i-bd0be9aac56366f1-0" n="bd0be9aa">
             <seg n="325f8249">
               Herr talman! Jag ber att få taga avstånd från den del av herr
               Olssons i Kullenbergstorp anförande, däri han beklagade, att regeringen
@@ -4556,7 +4623,7 @@
           <note type="speaker" n="008632a4">
             Herr Olsson i Kullenbergstorp:
           </note>
-          <u who="valerius_olsson_426ca3" xml:id="i-b8fe0b25212f1591-5" next="i-18186032fe73bf58-5" n="f5a4a0eb">
+          <u who="valerius_olsson_426ca3" xml:id="i-a66c6625918d1ec8-22" next="i-a66c6625918d1ec8-23" n="f5a4a0eb">
             <seg n="c0452b51">
               Herr talman! Jag tycker, att det är tämligen starkt att säga
               till oss, som hysa en annan mening, att vi därigenom svika lantmännen.
@@ -4571,10 +4638,10 @@
             </seg>
           </u>
           <pb n="50" facs="https://betalab.kb.se/prot-1926--ak--31/prot_1926__ak__31-050.jp2/_view"/>
-          <note n="f96b659d">
+          <note type="date" n="1b2defa4">
             Onsdagen den 5 maj. 51 Nr 31.
           </note>
-          <u who="valerius_olsson_426ca3" xml:id="i-18186032fe73bf58-5" prev="i-b8fe0b25212f1591-5" n="f5a4a0eb">
+          <u who="valerius_olsson_426ca3" xml:id="i-a66c6625918d1ec8-23" prev="i-a66c6625918d1ec8-22" n="f5a4a0eb">
             <seg n="06c13b51">
               Till herr Anderson i Råstock skall jag be att få säga bara ett
               par ord, då Ang. han talade om att jag hade ändrat åsikt. Det
@@ -4622,7 +4689,7 @@
           <note type="speaker" n="81093705">
             Herr Andersson i Rasjön:
           </note>
-          <u who="olof_andersson_a3a894" xml:id="i-e337eec3e51daae8-0" n="6a65895a">
+          <u who="olof_andersson_a3a894" xml:id="i-6a65895a23d2636d-5" n="6a65895a">
             <seg n="f12e4407">
               Herr talman! Med anledning av vad herr Persson i Faila anförde
               har jag tagit mig för att leta fram protokollet från fjolårets
@@ -4649,7 +4716,7 @@
           <note type="speaker" n="996944a1">
             Herr Anderson i Råstock:
           </note>
-          <u who="ivar_anderson_5cc143" xml:id="i-8fdbb5786abc5a80-2" next="i-c7818dcecc639ad3-3" n="e3ea3a61">
+          <u who="ivar_anderson_5cc143" xml:id="i-e3ea3a61c895cc89-9" next="i-e3ea3a61c895cc89-13" n="e3ea3a61">
             <seg n="c5047911">
               Herr talman! "Till herr Persson i Falla skulle jag endast vilja
               säga, att hemma i det vägdistrikt, som Jag tillhör, förhåller
@@ -4660,10 +4727,10 @@
             </seg>
           </u>
           <pb n="51" facs="https://betalab.kb.se/prot-1926--ak--31/prot_1926__ak__31-051.jp2/_view"/>
-          <note n="04f53200">
+          <note type="date" n="2838b95d">
             Nr 31. 52 Onsdagen den 5 maj.
           </note>
-          <u who="ivar_anderson_5cc143" xml:id="i-c7818dcecc639ad3-3" prev="i-8fdbb5786abc5a80-2" n="e3ea3a61">
+          <u who="ivar_anderson_5cc143" xml:id="i-e3ea3a61c895cc89-10" prev="i-e3ea3a61c895cc89-9" n="e3ea3a61">
             <seg n="54cfc242">
               förordning om far en gång i livet fick sätta till tre dagar per
               gång för att underhålla ett litet fördelning av Vägstycke två
@@ -4690,21 +4757,6 @@
             </seg>
             <seg n="910960b2">
               Jag vidhåller mitt yrkande.
-            </seg>
-            <seg n="6ab67b16">
-              telegrafverket verket av riksbankens fastighet i Umeå. av riksbankens
-            </seg>
-            <seg n="8892c100">
-              överlåta den riksbanken tillhöriga fastigheten i Umeå mot en
-              köpeskilling av
-            </seg>
-            <seg n="7093bdd3">
-              hyresbestämmelser mellan riksbanken samt postoch telegrafverken
-              fortfa-
-            </seg>
-            <seg n="33633746">
-              rande tills vidare under minst 10 år disponera den nuvarande
-              banklokalen inom fastigheten.
             </seg>
           </u>
           <note n="760572d9">
@@ -4747,6 +4799,11 @@
             nr 40, i anledning avyttrande till av fullmäktiges i riksbanken
             framställning angående avyttrande till telegraf-
           </note>
+          <u who="ivar_anderson_5cc143" xml:id="i-e3ea3a61c895cc89-11" prev="i-e3ea3a61c895cc89-9" n="e3ea3a61">
+            <seg n="6ab67b16">
+              telegrafverket verket av riksbankens fastighet i Umeå. av riksbankens
+            </seg>
+          </u>
           <note n="b6c9865e">
             fastighet i I anledning av en utav fullmäktige i riksbanken uti
             skrivelse till bankout-
@@ -4762,10 +4819,26 @@
           <note n="e2cb05f6">
             riksdagen måtte bemyndiga fullmäktige i riksbanken att till telegrafverket
           </note>
+          <u who="ivar_anderson_5cc143" xml:id="i-e3ea3a61c895cc89-12" prev="i-e3ea3a61c895cc89-9" n="e3ea3a61">
+            <seg n="8892c100">
+              överlåta den riksbanken tillhöriga fastigheten i Umeå mot en
+              köpeskilling av
+            </seg>
+          </u>
           <note n="e27d5490">
             232,000 kronor och med förbehåll att riksbanken finge i enlighet
             med gällande
           </note>
+          <u who="ivar_anderson_5cc143" xml:id="i-e3ea3a61c895cc89-13" prev="i-e3ea3a61c895cc89-9" n="e3ea3a61">
+            <seg n="7093bdd3">
+              hyresbestämmelser mellan riksbanken samt postoch telegrafverken
+              fortfa-
+            </seg>
+            <seg n="33633746">
+              rande tills vidare under minst 10 år disponera den nuvarande
+              banklokalen inom fastigheten.
+            </seg>
+          </u>
           <pb n="52" facs="https://betalab.kb.se/prot-1926--ak--31/prot_1926__ak__31-052.jp2/_view"/>
           <note n="92565367">
             Onsdagen den 5 maj. 53 Sedan utskottets hemställan föredragits,
@@ -4774,7 +4847,7 @@
           <note type="speaker" n="cc2a3700">
             Herr Kloo:
           </note>
-          <u who="oskar_kloo_bab991" xml:id="i-ee9beffebdf26f02-0" n="bbfc49b9">
+          <u who="oskar_kloo_bab991" xml:id="i-bbfc49b9ee767862-0" n="bbfc49b9">
             <seg n="d7f50d63">
               Herr talman! Ehuru jag icke reserverat mig mot utskottets hemställan,
               anser jag, då jag inom utskottet röstat emot fullmäktiges förslag,
@@ -4803,7 +4876,7 @@
           <note type="speaker" n="6bd2a0fc">
             Herr Wikström:
           </note>
-          <u who="anton_wikstrom_5ca843" xml:id="i-75030a99dd039c30-0" n="ea035399">
+          <u who="anton_wikstrom_5ca843" xml:id="i-ea035399d7685b86-0" n="ea035399">
             <seg n="0dece139">
               Jag tänker, att kammaren är mest tillfredsställd med att jag
               icke ingår på något bemötande, och jag inskränker mig därför helt
@@ -4813,7 +4886,7 @@
           <note type="speaker" n="daccc2ca">
             Herr Kristensson i Göteborg:
           </note>
-          <u who="emil_kristensson_be2e8b" xml:id="i-22b96db256b644fb-0" next="i-eb4154ecf59a2d7d-0" n="ad17ed6e">
+          <u who="emil_kristensson_be2e8b" xml:id="i-ad17ed6e200fb09a-1" next="i-ad17ed6e200fb09a-3" n="ad17ed6e">
             <seg n="1d0caa53">
               Herr talman! Blott ett par ord!
             </seg>
@@ -4843,7 +4916,7 @@
             motion om inrättande av ett riksbankens avdelningskontor i Hälsingborg.
             Ordet begärdes därvid av
           </note>
-          <u who="emil_kristensson_be2e8b" xml:id="i-eb4154ecf59a2d7d-0" prev="i-22b96db256b644fb-0" n="ad17ed6e">
+          <u who="emil_kristensson_be2e8b" xml:id="i-ad17ed6e200fb09a-2" prev="i-ad17ed6e200fb09a-1" n="ad17ed6e">
             <seg n="5ab71fe4">
               Herr Lovén, som anförde: Herr talman! Det kan ju kanske förefalla
               underligt, att jag icke reserverat mig till förmån för min egen
@@ -4862,28 +4935,6 @@
               endast är en mellanhand mellan sedelpressarna och de affärsdrivande
               bankerna, en mellanhand mellan allmänheten och storbankerna, har
               man icke
-            </seg>
-            <seg n="5336c68b">
-              velat vara med om att utöka avdelningskontoren. Tyska riksbanken,
-              som i stort är en förebild för Sveriges riksbanks organisation,
-              har över fyrahundra kontor över hela landet, och denna riksbank
-              står på ett helt annat sätt allmänheten till tjänst med ordnandet
-              av affärer, än Sveriges riksbank gör. Jag tror knappast, att det
-              vore möjligt för en aldrig så solid firma att få sina bankaffärer
-              ordnade i Sveriges riksbank, utan det skall gå genom en mellanhand
-              av någon av vårt lands storbanker.
-            </seg>
-            <seg n="75b3ddba">
-              Det är icke utan, att det skulle kunna vara intressant nog att
-              taga upp en debatt om en eventuell omläggning av riksbankens affärspolitik,
-              men jag skall icke göra det nu. Jag skall komma tillbaka med motionen
-              i en annan form, än den har i år, och då få vi se, vad resultatet
-              blir.
-            </seg>
-            <seg n="4a1a384f">
-              Med dessa ord har jag velat angiva anledningen, varför jag icke
-              reserverat mig i utskottet, och jag har, herr talman, icke något
-              yrkande.
             </seg>
           </u>
           <note n="246e1c8c">
@@ -4913,6 +4964,30 @@
           <note type="date" n="719b73b6">
             54 Onsdagen den 5 maj.
           </note>
+          <u who="emil_kristensson_be2e8b" xml:id="i-ad17ed6e200fb09a-3" prev="i-ad17ed6e200fb09a-1" n="ad17ed6e">
+            <seg n="5336c68b">
+              velat vara med om att utöka avdelningskontoren. Tyska riksbanken,
+              som i stort är en förebild för Sveriges riksbanks organisation,
+              har över fyrahundra kontor över hela landet, och denna riksbank
+              står på ett helt annat sätt allmänheten till tjänst med ordnandet
+              av affärer, än Sveriges riksbank gör. Jag tror knappast, att det
+              vore möjligt för en aldrig så solid firma att få sina bankaffärer
+              ordnade i Sveriges riksbank, utan det skall gå genom en mellanhand
+              av någon av vårt lands storbanker.
+            </seg>
+            <seg n="75b3ddba">
+              Det är icke utan, att det skulle kunna vara intressant nog att
+              taga upp en debatt om en eventuell omläggning av riksbankens affärspolitik,
+              men jag skall icke göra det nu. Jag skall komma tillbaka med motionen
+              i en annan form, än den har i år, och då få vi se, vad resultatet
+              blir.
+            </seg>
+            <seg n="4a1a384f">
+              Med dessa ord har jag velat angiva anledningen, varför jag icke
+              reserverat mig i utskottet, och jag har, herr talman, icke något
+              yrkande.
+            </seg>
+          </u>
           <note n="5d5f05ea">
             Vidare yttrades ej. Utskottets hemställan bifölls.
           </note>
@@ -4937,7 +5012,7 @@
           <note type="speaker" n="fcfd7ec7">
             Herr Eriksson i Västbro:
           </note>
-          <u who="gustaf_eriksson_48ce1f" xml:id="i-4859fc7d37b23948-0" next="i-bb5df7767f5febfc-0" n="44e295ed">
+          <u who="gustaf_eriksson_48ce1f" xml:id="i-44e295edaa3127b6-0" next="i-44e295edaa3127b6-2" n="44e295ed">
             <seg n="163c85c1">
               Herr talman, mina herrar! Utskottet har funnit det mindre lämpligt,
               att riksdagen på grund av den föreliggande motionen ingår på en
@@ -4978,7 +5053,7 @@
           <note type="date" n="73f7542b">
             Onsdagen den 5 maj. 55
           </note>
-          <u who="gustaf_eriksson_48ce1f" xml:id="i-bb5df7767f5febfc-0" prev="i-4859fc7d37b23948-0" n="44e295ed">
+          <u who="gustaf_eriksson_48ce1f" xml:id="i-44e295edaa3127b6-1" prev="i-44e295edaa3127b6-0" n="44e295ed">
             <seg n="29e3c6a0">
               intensiv användning. Detta har numera inträffat. Utnyttjningstiden
               har nu ungefär fördubblats, men föreningarna tillåtas ej övergå
@@ -5054,6 +5129,18 @@
               endast tillfällig. Taxeförändringen skulle emellertid förhindra
               ruin för ett stort antal föreningar och möj-
             </seg>
+          </u>
+          <note n="246e1c8c">
+            Nr 31.
+          </note>
+          <note n="5e255e09">
+            Ang. vissa taxor för leverans av elektrisk kraft. (Forts.)
+          </note>
+          <pb n="55" facs="https://betalab.kb.se/prot-1926--ak--31/prot_1926__ak__31-055.jp2/_view"/>
+          <note type="date" n="1ac0bb32">
+            Nr 31. 56 Onsdagen den 5 maj.
+          </note>
+          <u who="gustaf_eriksson_48ce1f" xml:id="i-44e295edaa3127b6-2" prev="i-44e295edaa3127b6-0" n="44e295ed">
             <seg n="d1cc5d93">
               Ang. vissa liggöra ett allmännare tillgodogörande av den elektriska
               kraften, vilket stats-' taxor för makterna tydligen givit till
@@ -5065,23 +5152,13 @@
               vilken torde
             </seg>
           </u>
-          <note n="246e1c8c">
-            Nr 31.
-          </note>
-          <note n="5e255e09">
-            Ang. vissa taxor för leverans av elektrisk kraft. (Forts.)
-          </note>
-          <pb n="55" facs="https://betalab.kb.se/prot-1926--ak--31/prot_1926__ak__31-055.jp2/_view"/>
-          <note n="149b31a9">
-            Nr 31. 56 Onsdagen den 5 maj.
-          </note>
           <note n="eb78d532">
             återkomma till nästa års riksdag.
           </note>
           <note type="speaker" n="c49413ed">
             Herr Lindberg:
           </note>
-          <u who="elof_lindberg_454a63" xml:id="i-533df91d7a192fe3-0" next="i-ecc69ec0d8cdf1ff-0" n="f71d7909">
+          <u who="elof_lindberg_454a63" xml:id="i-f71d79097836f8b2-0" next="i-f71d79097836f8b2-11" n="f71d7909">
             <seg n="dc7f2445">
               Herr talman! Jag vill på utskottets vägnar blott säga ett par
               ord och därvid påpeka, att motionärerna icke krävt en utredning
@@ -5155,73 +5232,13 @@
           <note n="fed8efdd">
             1 8.
           </note>
-          <u who="elof_lindberg_454a63" xml:id="i-ecc69ec0d8cdf1ff-0" prev="i-533df91d7a192fe3-0" n="f71d7909">
+          <u who="elof_lindberg_454a63" xml:id="i-f71d79097836f8b2-1" prev="i-f71d79097836f8b2-0" n="f71d7909">
             <seg n="bfabc213">
               1 mom. Av statsverkets behållna inkomster av brännsvinstillverkningsskatt,
               rusdrycksförsäljningsmedel, omsättningsoch utskänkningsskatt å
               spritdrycker, maltskatt samt statsverket tillkommande andel i
               aktiebolaget Vinoch spritcentralens vinst skall för varje statsregleringsår
               till en särskild fond avsättas ett belopp av 4,000,000 kronor.
-            </seg>
-            <seg n="6289aacf">
-              &gt; » 1927—19285. . cc cc cs vv &gt; 83,000,000
-            </seg>
-            <seg n="34e87e75">
-              &gt; &gt; 1928—1929 . &gt; -81,000,000
-            </seg>
-            <seg n="041cfeb0">
-              &gt; &gt; 1930—1931. . ... oo... . +. &gt; 77,000,000
-            </seg>
-            <seg n="e2f590ce">
-              Fonden, som benämnes statsverkets fond av rusdrycksmedel, är
-              avsedd att användas för reglering av sådana ekonomiska förhållanden,
-              som äro en följd av mera ingripande åtgärder till rusdryckshanteringens
-              begränsande eller avveckling.
-            </seg>
-            <seg n="718e6f92"/>
-            <seg n="f16c227c">
-              Fonden, som benämnes statsverkets fond av rusdrycksmedel, är
-              avsedd att användas för reglering av sådana ekonomiska förhållanden,
-              som äro en följd av mera ingripande åtgärder till rusdryckshanteringens
-              begränsande eller avveckling, varjämte bidrag ur fonden kunna
-              lämnas för åtgärder till nykterhetens främjande;
-            </seg>
-            <seg n="8d93b543">
-              - verkets fond av rusdrycksmedel ville besluta, att någon kapitalavsättning
-              till
-            </seg>
-            <seg n="a061ede5">
-              statsverkets fond av rusdrycksmedel icke vidare skulle äga rum.
-            </seg>
-            <seg n="ebc75f38">
-              IT) för avsättning till statsverkets fond av rusdrycksmedel för
-              budgetåret 1926—1927 anvisa
-            </seg>
-            <seg n="25ac558e">
-              b) såsom överskott å statsverkets fond av rusdrycksmedel ett
-              förslagsanslag av 2,700,000 kronor.
-            </seg>
-            <seg n="aab36b85">
-              1 mom. Av statsverkets behållna inkomster av brännvinstillverkningsskatt,
-              rusdrycksförsäljningsmedel, omsättningsoch utskänkningsskatt å
-              spritdrycker, maltskatt samt statsverket tillkommande medel i
-              aktiebolaget Vinoch spritcentralens vinst skall för varje statsregleringsår
-              till en särskild fond avsättas så stort belopp, att detta, jämte
-              till fonden för samma tid enligt 4 $ lagd ränteavkastning, uppgår
-              till 5,000,000 kronor.
-            </seg>
-            <seg n="5419b1f8">
-              Fonden, som benämnes statsverkets fond av rusdrycksmedel, är
-              avsedd att användas för reglering av sådana ekonomiska förhållanden,
-              som äro en följd av mera ingripande åtgärder till rusdryckshanteringens
-              begränsande eller avveckling, varjämte bidrag ur fonden kunna
-              lämnas för åtgärder till nykterhetens främjande.
-            </seg>
-            <seg n="e2f590ce">
-              Fonden, som benämnes statsverkets fond av rusdrycksmedel, är
-              avsedd att användas för reglering av sådana ekonomiska förhållanden,
-              som äro en följd av mera ingripande åtgärder till rusdryckshanteringens
-              begränsande eller avveckling.
             </seg>
           </u>
           <note n="09f12df3">
@@ -5234,12 +5251,34 @@
             för statsregleringsåret 1926—1927 . . . . cc co. - - - - kronor
             85,000,000
           </note>
+          <u who="elof_lindberg_454a63" xml:id="i-f71d79097836f8b2-2" prev="i-f71d79097836f8b2-0" n="f71d7909">
+            <seg n="6289aacf">
+              &gt; » 1927—19285. . cc cc cs vv &gt; 83,000,000
+            </seg>
+            <seg n="34e87e75">
+              &gt; &gt; 1928—1929 . &gt; -81,000,000
+            </seg>
+          </u>
           <note n="19c5b4ba">
             &gt; &gt; 1929—1930. . .. co.cc. ss. 2 — 79,000,000
           </note>
+          <u who="elof_lindberg_454a63" xml:id="i-f71d79097836f8b2-3" prev="i-f71d79097836f8b2-0" n="f71d7909">
+            <seg n="041cfeb0">
+              &gt; &gt; 1930—1931. . ... oo... . +. &gt; 77,000,000
+            </seg>
+          </u>
           <note n="ad2bad6e">
             » &gt; 1931—1932. . oc cv vv 2 2 75,000,000 28.
           </note>
+          <u who="elof_lindberg_454a63" xml:id="i-f71d79097836f8b2-4" prev="i-f71d79097836f8b2-0" n="f71d7909">
+            <seg n="e2f590ce">
+              Fonden, som benämnes statsverkets fond av rusdrycksmedel, är
+              avsedd att användas för reglering av sådana ekonomiska förhållanden,
+              som äro en följd av mera ingripande åtgärder till rusdryckshanteringens
+              begränsande eller avveckling.
+            </seg>
+            <seg n="718e6f92"/>
+          </u>
           <note n="47baab95">
             Denna förordning träder i kraft den 1 juli 1926 och gäller till
             och med den 30 juni 1932.
@@ -5261,6 +5300,15 @@
           <note n="a724903f">
             28.
           </note>
+          <u who="elof_lindberg_454a63" xml:id="i-f71d79097836f8b2-5" prev="i-f71d79097836f8b2-0" n="f71d7909">
+            <seg n="f16c227c">
+              Fonden, som benämnes statsverkets fond av rusdrycksmedel, är
+              avsedd att användas för reglering av sådana ekonomiska förhållanden,
+              som äro en följd av mera ingripande åtgärder till rusdryckshanteringens
+              begränsande eller avveckling, varjämte bidrag ur fonden kunna
+              lämnas för åtgärder till nykterhetens främjande;
+            </seg>
+          </u>
           <note n="1401549c">
             de ävenledes likalydande motionerna nr 184 inom första kammaren
             av herr Bergman m. fl. och nr 237 inom andra kammaren av herr
@@ -5303,6 +5351,15 @@
           <note type="date" n="43127138">
             58 Onsdagen den 5 maj.
           </note>
+          <u who="elof_lindberg_454a63" xml:id="i-f71d79097836f8b2-6" prev="i-f71d79097836f8b2-0" n="f71d7909">
+            <seg n="8d93b543">
+              - verkets fond av rusdrycksmedel ville besluta, att någon kapitalavsättning
+              till
+            </seg>
+            <seg n="a061ede5">
+              statsverkets fond av rusdrycksmedel icke vidare skulle äga rum.
+            </seg>
+          </u>
           <note n="26880916">
             Utskottet hemställde, att riksdagen i anledning av Kungl. Maj:ts
             förevarande förslag och med bifall till motionerna I:183 och ITI:238
@@ -5314,11 +5371,23 @@
             lydelse av 1 och 2 88 i förordningen den 18 juli 1913 (nr 199)
             angående statsverkets fond av rusdrycksmedel (Bil. A); samt
           </note>
+          <u who="elof_lindberg_454a63" xml:id="i-f71d79097836f8b2-7" prev="i-f71d79097836f8b2-0" n="f71d7909">
+            <seg n="ebc75f38">
+              IT) för avsättning till statsverkets fond av rusdrycksmedel för
+              budgetåret 1926—1927 anvisa
+            </seg>
+          </u>
           <note n="82fc639e">
             a) enligt 1 8 i förordningen angående statsverkets fond av rusdrycksmedel
             i dess sålunda angivna förändrade lydelse ett förslagsanslag av
             2,300,000 kronor; och
           </note>
+          <u who="elof_lindberg_454a63" xml:id="i-f71d79097836f8b2-8" prev="i-f71d79097836f8b2-0" n="f71d7909">
+            <seg n="25ac558e">
+              b) såsom överskott å statsverkets fond av rusdrycksmedel ett
+              förslagsanslag av 2,700,000 kronor.
+            </seg>
+          </u>
           <note n="66261a2e">
             Den under I) av utskottets hemställan omförmälda bilagan var
             av följande lydelse:
@@ -5336,6 +5405,17 @@
           <note n="b26dc053">
             18.
           </note>
+          <u who="elof_lindberg_454a63" xml:id="i-f71d79097836f8b2-9" prev="i-f71d79097836f8b2-0" n="f71d7909">
+            <seg n="aab36b85">
+              1 mom. Av statsverkets behållna inkomster av brännvinstillverkningsskatt,
+              rusdrycksförsäljningsmedel, omsättningsoch utskänkningsskatt å
+              spritdrycker, maltskatt samt statsverket tillkommande medel i
+              aktiebolaget Vinoch spritcentralens vinst skall för varje statsregleringsår
+              till en särskild fond avsättas så stort belopp, att detta, jämte
+              till fonden för samma tid enligt 4 $ lagd ränteavkastning, uppgår
+              till 5,000,000 kronor.
+            </seg>
+          </u>
           <note n="bc4bbae3">
             2 mom. Under (se statsverkspropositionen) — —— ———— — — — vänligen
             ——————— ee een 75,000,000.
@@ -5343,6 +5423,15 @@
           <note n="4ddcacb1">
             2 8.
           </note>
+          <u who="elof_lindberg_454a63" xml:id="i-f71d79097836f8b2-10" prev="i-f71d79097836f8b2-0" n="f71d7909">
+            <seg n="5419b1f8">
+              Fonden, som benämnes statsverkets fond av rusdrycksmedel, är
+              avsedd att användas för reglering av sådana ekonomiska förhållanden,
+              som äro en följd av mera ingripande åtgärder till rusdryckshanteringens
+              begränsande eller avveckling, varjämte bidrag ur fonden kunna
+              lämnas för åtgärder till nykterhetens främjande.
+            </seg>
+          </u>
           <note n="3ff4c819">
             Denna förordning träder i kraft den 1 juli 1926.
           </note>
@@ -5359,13 +5448,21 @@
           <note n="a724903f">
             28.
           </note>
+          <u who="elof_lindberg_454a63" xml:id="i-f71d79097836f8b2-11" prev="i-f71d79097836f8b2-0" n="f71d7909">
+            <seg n="e2f590ce">
+              Fonden, som benämnes statsverkets fond av rusdrycksmedel, är
+              avsedd att användas för reglering av sådana ekonomiska förhållanden,
+              som äro en följd av mera ingripande åtgärder till rusdryckshanteringens
+              begränsande eller avveckling.
+            </seg>
+          </u>
           <note n="82fcb4b9">
             Efter föredragning av utskottets hemställan yttrade:
           </note>
           <note type="speaker" n="008632a4">
             Herr Olsson i Kullenbergstorp:
           </note>
-          <u who="valerius_olsson_426ca3" xml:id="i-bf2772a9370619fa-0" n="f5a4a0eb">
+          <u who="valerius_olsson_426ca3" xml:id="i-a66c6625918d1ec8-24" n="f5a4a0eb">
             <seg n="f2b929fe">
               Herr talman! Till det föreliggande utskottsutlåtandet har jag
               tillåtit mig foga en reservation. Den går emellertid icke ut på
@@ -5478,7 +5575,7 @@
           <note type="speaker" n="66c2d8a3">
             Herr Olsson i Gävle:
           </note>
-          <u who="valerius_olsson_426ca3" xml:id="i-b8fe0b25212f1591-6" next="i-18186032fe73bf58-6" n="f5a4a0eb">
+          <u who="valerius_olsson_426ca3" xml:id="i-a66c6625918d1ec8-25" next="i-a66c6625918d1ec8-26" n="f5a4a0eb">
             <seg n="9b6f0316">
               Herr talman! Jag har, när detta ärende nu föreligger till kammarens
               avgörande, ansett mig böra uttala ett beklagande av att utskottet
@@ -5546,7 +5643,7 @@
           <note type="date" n="64ee9950">
             Onsdagen den 5 maj. 61
           </note>
-          <u who="valerius_olsson_426ca3" xml:id="i-18186032fe73bf58-6" prev="i-b8fe0b25212f1591-6" n="f5a4a0eb">
+          <u who="valerius_olsson_426ca3" xml:id="i-a66c6625918d1ec8-26" prev="i-a66c6625918d1ec8-25" n="f5a4a0eb">
             <seg n="1b1bac2f">
               utan att det sker en verkligt klargörande uppgörelse mellan anhängarna
               av 1913 års principer och motståndarna till såväl rusdrycksmedelsfonden
@@ -5571,7 +5668,7 @@
           <note type="speaker" n="eee3c1fd">
             Herr Mosesson:
           </note>
-          <u who="gustav_mosesson_ad473c" xml:id="i-c219beca13421bfa-0" n="d8ceb005">
+          <u who="gustav_mosesson_ad473c" xml:id="i-d8ceb005b44afd7e-0" n="d8ceb005">
             <seg n="80bd7285">
               Herr talman! Jag kan i det väsentliga instämma i vad herr Olsson
               i Gävle sade, men utöver vad han anförde, skall jag be att till
@@ -5601,7 +5698,7 @@
           <note type="speaker" n="996944a1">
             Herr Anderson i Råstock:
           </note>
-          <u who="ivar_anderson_5cc143" xml:id="i-8fdbb5786abc5a80-3" next="i-c7818dcecc639ad3-4" n="e3ea3a61">
+          <u who="ivar_anderson_5cc143" xml:id="i-e3ea3a61c895cc89-14" next="i-e3ea3a61c895cc89-15" n="e3ea3a61">
             <seg n="58c41e76">
               Herr talman! Jag nödgas till en början med beklagande förklara,
               att den siste ärade talaren icke kan få annat svar på sina frågor,
@@ -5659,7 +5756,7 @@
           <note type="date" n="39407f5f">
             62 Onsdagen den 5 maj.
           </note>
-          <u who="ivar_anderson_5cc143" xml:id="i-c7818dcecc639ad3-4" prev="i-8fdbb5786abc5a80-3" n="e3ea3a61">
+          <u who="ivar_anderson_5cc143" xml:id="i-e3ea3a61c895cc89-15" prev="i-e3ea3a61c895cc89-14" n="e3ea3a61">
             <seg n="4d1efffb">
               Vidare vill jag säga herr Olsson i Kullenbergstorp, att han naturligtvis
               har rätt, och likaså herr Adolv Olsson, i påståendet att det varit
@@ -5705,7 +5802,7 @@
           <note type="speaker" n="f98e3188">
             Herr Bengtsson i Norup:
           </note>
-          <u who="sven_bengtsson_d702e5" xml:id="i-778dfe5a885d756b-0" n="99764b3d">
+          <u who="sven_bengtsson_d702e5" xml:id="i-99764b3d63bf2255-4" n="99764b3d">
             <seg n="da7b8b7a">
               Herr talman! Jag vill beträffande det anförande som hölls av
               herr Olsson i Gävle säga. att jag kan instämma i detta i så måtto,
@@ -5728,7 +5825,7 @@
           <note type="speaker" n="00043653">
             Chefen för finansdepartementet herr statsrådet Wigforss:
           </note>
-          <u who="ernst_wigforss_3d0794" xml:id="i-87ab7038d44056e0-1" next="i-67da92fd6cd9a4a7-1" n="70d81154">
+          <u who="ernst_wigforss_3d0794" xml:id="i-6198c41e65d7a77a-3" next="i-6198c41e65d7a77a-5" n="70d81154">
             <seg n="9d5fdda7">
               Herr talman! Det är ej för att förlänga debatten onödigtvis,
               som jag nu tar till orda, men det är klart, att eftersom jag haft
@@ -5746,10 +5843,10 @@
             </seg>
           </u>
           <pb n="62" facs="https://betalab.kb.se/prot-1926--ak--31/prot_1926__ak__31-062.jp2/_view"/>
-          <note n="a6cbe821">
+          <note type="date" n="522670c2">
             Onsdagen den 5 maj. 63 Nr 381.
           </note>
-          <u who="ernst_wigforss_3d0794" xml:id="i-67da92fd6cd9a4a7-1" prev="i-87ab7038d44056e0-1" n="70d81154">
+          <u who="ernst_wigforss_3d0794" xml:id="i-6198c41e65d7a77a-4" prev="i-6198c41e65d7a77a-3" n="70d81154">
             <seg n="d89b3ebb">
               fonderas, och det som skall användas för budgetändamål skall
               klart och tydligt Ang. gå till budgeten. Nu har man fortfarande
@@ -5790,9 +5887,6 @@
               sida, och på denna punkt kan jag således inte anmäla något som
               helst missnöje gent emot den kompromiss, som här har ingåtts.
             </seg>
-            <seg n="1b72f8ba">
-              : all oc . personal inom. tioner. Därvid anförde: den civila
-            </seg>
           </u>
           <note n="9256d4c8">
             Sedan överläggningen härmed förklarats avslutad gav herr förste
@@ -5810,10 +5904,15 @@
             under budgetåret 1926—1927 löneförbättring för viss personal inom
             den civila statsförvaltningen jämte i ämnet väckta mo- «för viss
           </note>
+          <u who="ernst_wigforss_3d0794" xml:id="i-6198c41e65d7a77a-5" prev="i-6198c41e65d7a77a-3" n="70d81154">
+            <seg n="1b72f8ba">
+              : all oc . personal inom. tioner. Därvid anförde: den civila
+            </seg>
+          </u>
           <note type="speaker" n="3ac940ec">
             3 . . statsförvalt- Herr Anderson i Råstock:
           </note>
-          <u who="ivar_anderson_5cc143" xml:id="i-9b07f4ce606ba367-1" n="e3ea3a61">
+          <u who="ivar_anderson_5cc143" xml:id="i-e3ea3a61c895cc89-16" n="e3ea3a61">
             <seg n="7baa9c9f">
               Herr talman! Jag har i utskottet förbehållit ningen.
             </seg>
@@ -5857,7 +5956,7 @@
           <note type="speaker" n="13bed630">
             Herr Forssell, som yttrade:
           </note>
-          <u who="arne_forssell_15fa03" xml:id="i-8c2541f7bf560ac4-0" n="d6de9a38">
+          <u who="arne_forssell_15fa03" xml:id="i-d6de9a38f203004b-0" n="d6de9a38">
             <seg n="59615cae">
               Herr förste vice talman! TI den nu föreliggande frågan har jag
               tillsammans med herrar Lithander och Christenson väckt en motion,
@@ -5922,7 +6021,7 @@
           <note type="speaker" n="3666cc56">
             Herr Osberg:
           </note>
-          <u who="oscar_osberg_fe354a" xml:id="i-a1230dc3cf3d6f5d-0" next="i-363d099bee673117-0" n="3f25fcc2">
+          <u who="oscar_osberg_fe354a" xml:id="i-3f25fcc27606764b-0" next="i-3f25fcc27606764b-1" n="3f25fcc2">
             <seg n="a01236bb">
               Herr talman! Endast några ord i denna fråga. | Vid riksdagens
               början fick jag en påstötning från en av de bestämmande i lantbruksstyrelsen,
@@ -5933,7 +6032,7 @@
           <note type="date" n="b04218e2">
             Onsdagen den 5 maj. 65
           </note>
-          <u who="oscar_osberg_fe354a" xml:id="i-363d099bee673117-0" prev="i-a1230dc3cf3d6f5d-0" n="3f25fcc2">
+          <u who="oscar_osberg_fe354a" xml:id="i-3f25fcc27606764b-1" prev="i-3f25fcc27606764b-0" n="3f25fcc2">
             <seg n="a22808d5">
               skulle föra fram detta förslag. Det lilla belopp, som fanns kvar,
               var nämligen inte tillräckligt för att tillgodose de krav, som

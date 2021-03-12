@@ -20,7 +20,7 @@
     <encodingDesc>
       <editorialDecl>
         <correction>
-          <p>Some data curation was done. It is documented in db/curation/instances</p>
+          <p>Some data curation was done. It is documented in input/curation/instances</p>
         </correction>
       </editorialDecl>
     </encodingDesc>
@@ -52,17 +52,19 @@
       <front>
         <div type="preface">
           <head>prot-1929--ak--6</head>
-          <docDate when="1929">1929</docDate>
+          <docDate when="1929-01-25">1929-01-25</docDate>
+          <docDate when="1929-01-26">1929-01-26</docDate>
         </div>
       </front>
       <body>
         <div>
+          <pb n="0" facs="https://betalab.kb.se/prot-1929--ak--6/prot_1929__ak__6-000.jp2/_view"/>
           <note n="5453e41c">
             RIKSDAGENS PROTOKOLL. 1929. Andra kammaren. Nr 6.
           </note>
           <note n="9895de6d"/>
           <note n="9895de6d"/>
-          <note n="31ee544b">
+          <note type="date" n="ed66720f">
             Fredagen den 25 januari. Kl. 3.30 e. m.
           </note>
           <note n="22f2498c">
@@ -152,7 +154,7 @@
           <note n="908b8618">
             Nr 6.
           </note>
-          <note n="dff21d8c">
+          <note type="date" n="fae358a7">
             2 Fredagen den 25 januari.
           </note>
           <note n="9809af10">
@@ -177,7 +179,7 @@
           <note type="speaker" n="8866fdf1">
             Herr statsrådet Beskow avlämnade Kungl. Maj:
           </note>
-          <u who="unknown" xml:id="i-3a96f66a73dc340b-0" n="2898997c">
+          <u who="unknown" xml:id="i-2898997cb9bb22b8-0" n="2898997c">
             <seg n="4c7a0d62">
               ts propositioner:
             </seg>
@@ -253,7 +255,7 @@
             vid införseln av utländska köttvaror;
           </note>
           <pb n="2" facs="https://betalab.kb.se/prot-1929--ak--6/prot_1929__ak__6-002.jp2/_view"/>
-          <note n="1c80dc19">
+          <note type="date" n="875adedd">
             Fredagen den 25 januari. 3
           </note>
           <note n="c4263486">
@@ -302,22 +304,12 @@
             taxebestämmelserna för användningen av elektrisk kraft från statens
             vattenfallsverk; och
           </note>
-          <u who="unknown" xml:id="i-9f510543ec7b551f-0" n="2898997c">
+          <u who="unknown" xml:id="i-2898997cb9bb22b8-1" n="2898997c">
             <seg n="246ee137">
               herr Andersson i Stockholm m. fl., nr 319, med förslag om förbud
               mot att kommendera eller på annat sätt söka förmå värnpliktiga
               eller fast anställda militärer att ingripa mot i konflikt varande
               arbetare.
-            </seg>
-            <seg n="cf255aeb">
-              &gt; Björkman &gt;» 838 &gt; &gt; denna dag, &gt; Magnusson i Kalmar &gt; od &gt;
-              &gt; den 26 jan., &gt; Ljung &gt; 3 &gt; &gt; &gt;. 26 &gt; &gt; Holmgren &gt; 5 &gt; &gt; » 1
-              febr., &gt; Olsson i Torsby &gt;» 8&amp; &gt; &gt; &gt; 30 jan., &gt; Johanson i Huskvarna
-              &gt; 8 &gt; &gt; denna dag, &gt; Andersson i Löbbo &gt;» 5 &gt; &gt; den 26 jan., &gt;
-              Johnsson i Norrahammar &gt;» 4 2 ? &gt; 26 &gt; &gt; Ström &gt; 3 &gt; &gt; &gt; 29 &gt;
-              &gt; Ryberg &gt; 5 &gt; &gt; &gt; 29 &gt; &gt; Hammarlund &gt; 5 2 &gt; &gt; 26 &gt; &gt; Carlsson
-              i Solberga &gt; 5 2 &gt; &gt; 28 &gt; &gt; Anderson i Storegården EE &gt; denna
-              dag och &gt; Danielsson &gt; 5 &gt; &gt;» den 28 jan.
             </seg>
           </u>
           <note n="5a78ba38">
@@ -358,7 +350,7 @@
           <note n="908b8618">
             Nr 6.
           </note>
-          <note n="96632c3e">
+          <note type="date" n="3a27b82e">
             4 Fredagen den 25 januari.
           </note>
           <note n="71747d62">
@@ -378,6 +370,18 @@
           <note n="425c56dc">
             herr Ros under 11 dagar fr. o. m. den 26 jan.,
           </note>
+          <u who="unknown" xml:id="i-2898997cb9bb22b8-2" n="2898997c">
+            <seg n="cf255aeb">
+              &gt; Björkman &gt;» 838 &gt; &gt; denna dag, &gt; Magnusson i Kalmar &gt; od &gt;
+              &gt; den 26 jan., &gt; Ljung &gt; 3 &gt; &gt; &gt;. 26 &gt; &gt; Holmgren &gt; 5 &gt; &gt; » 1
+              febr., &gt; Olsson i Torsby &gt;» 8&amp; &gt; &gt; &gt; 30 jan., &gt; Johanson i Huskvarna
+              &gt; 8 &gt; &gt; denna dag, &gt; Andersson i Löbbo &gt;» 5 &gt; &gt; den 26 jan., &gt;
+              Johnsson i Norrahammar &gt;» 4 2 ? &gt; 26 &gt; &gt; Ström &gt; 3 &gt; &gt; &gt; 29 &gt;
+              &gt; Ryberg &gt; 5 &gt; &gt; &gt; 29 &gt; &gt; Hammarlund &gt; 5 2 &gt; &gt; 26 &gt; &gt; Carlsson
+              i Solberga &gt; 5 2 &gt; &gt; 28 &gt; &gt; Anderson i Storegården EE &gt; denna
+              dag och &gt; Danielsson &gt; 5 &gt; &gt;» den 28 jan.
+            </seg>
+          </u>
           <note n="300f91e0">
             Kammarens ledamöter åtskildes härefter kl. 3.50 e. m. In fidem
           </note>
@@ -385,10 +389,10 @@
             Per Cronvall.
           </note>
           <pb n="4" facs="https://betalab.kb.se/prot-1929--ak--6/prot_1929__ak__6-004.jp2/_view"/>
-          <note n="fa4589d9">
+          <note type="date" n="fc1bd4f4">
             Lördagen den 26 januari. 5
           </note>
-          <note n="e32f0b80">
+          <note type="date" n="a62af1f3">
             Lördagen den 26 januari. Kl. 2 e. m.
           </note>
           <note n="22f2498c">
@@ -421,7 +425,7 @@
           <note type="speaker" n="4a893bab">
             Herr statsrådet Malmberg avlämnade Kungl. Maj:
           </note>
-          <u who="unknown" xml:id="i-3a96f66a73dc340b-1" n="2898997c">
+          <u who="unknown" xml:id="i-2898997cb9bb22b8-3" n="2898997c">
             <seg n="4c7a0d62">
               ts propositioner:
             </seg>
@@ -475,7 +479,7 @@
           <note n="908b8618">
             Nr 6.
           </note>
-          <note n="4b67f3be">
+          <note type="date" n="934196b3">
             6 Lördagen den 26 januari.
           </note>
           <note n="4102cf6f">
@@ -496,7 +500,7 @@
             anledning av remiss från första kammaren av en av herr U. Leander
             väckt motion.
           </note>
-          <u who="unknown" xml:id="i-9f510543ec7b551f-1" n="2898997c">
+          <u who="unknown" xml:id="i-2898997cb9bb22b8-4" n="2898997c">
             <seg n="e4147d0f">
               $ 7. Justerades protokollsutdrag. $ 8. Ledighet från riksdagsgöromålen
               beviljades: herr Spångberg under 5 dagar fr.o.m. den 28 jan.,

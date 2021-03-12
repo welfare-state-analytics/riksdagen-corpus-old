@@ -20,7 +20,7 @@
     <encodingDesc>
       <editorialDecl>
         <correction>
-          <p>Some data curation was done. It is documented in db/curation/instances</p>
+          <p>Some data curation was done. It is documented in input/curation/instances</p>
         </correction>
       </editorialDecl>
     </encodingDesc>
@@ -59,6 +59,7 @@
       </front>
       <body>
         <div>
+          <pb n="0" facs="https://betalab.kb.se/prot-1946-höst-fk--34/prot_1946_höst_fk__34-000.jp2/_view"/>
           <note n="6b166171">
             RIKSDAGENS PROTOKOLL. 1946. Första kammaren. Nr 34.
           </note>
@@ -73,7 +74,7 @@
           <note type="speaker" n="af13a4d9">
             Herr statsrådet Quensel avlämnade Kungl. Maj:
           </note>
-          <u who="unknown" xml:id="i-4ec8334952890947-0" n="eb6f890e">
+          <u who="unknown" xml:id="i-eb6f890e90e1a42e-0" n="eb6f890e">
             <seg n="e548d99e">
               ts proposition nr 357, med förslag till förordning angående ändrad
               iydelse av 2 $ förordningen den 22 december 1939 (nr 877) om skatt
@@ -132,13 +133,13 @@
           <note n="e1e4846f">
             Interpellation ang. tilldelningen av hönsfoder.
           </note>
-          <note n="4ea02e14">
+          <note type="date" n="721881ee">
             2 Nr 34. Tisdagen den 29 oktober 1946.
           </note>
           <note type="speaker" n="86e4f4e5">
             Herr Persson, Karl, erhöll på begäran ordet och anförde:
           </note>
-          <u who="karl_persson_c1d757" xml:id="i-ab6768e634633682-0" next="i-d806f65239d7b420-0" n="f9888768">
+          <u who="karl_persson_c1d757" xml:id="i-f98887687120da82-0" next="i-f98887687120da82-1" n="f9888768">
             <seg n="a5d4c41c">
               Herr talman! Läget på äggmarknaden är för närvarande synnerligen
               dåligt med, även sett ur säsongmässiga synpunkter, mycket liten
@@ -215,10 +216,10 @@
             </seg>
           </u>
           <pb n="2" facs="https://betalab.kb.se/prot-1946-höst-fk--34/prot_1946_höst_fk__34-002.jp2/_view"/>
-          <note n="2340e0b6">
+          <note type="date" n="cc40f7cb">
             Tisdagen den 29 oktober 1946. Nr 34. 3
           </note>
-          <u who="karl_persson_c1d757" xml:id="i-d806f65239d7b420-0" prev="i-ab6768e634633682-0" n="f9888768">
+          <u who="karl_persson_c1d757" xml:id="i-f98887687120da82-1" prev="i-f98887687120da82-0" n="f9888768">
             <seg n="4c9af24c">
               Interpellation ang. tilldelningen av hönsfoder. (Forts.) 60,
               lämnas tilldelning med 80 Z. Men även med 80 4 reducering får
@@ -256,7 +257,7 @@
           <note type="speaker" n="6d216b92">
             Ordet lämnades på begäran till herr Holmbäck, som yttrade:
           </note>
-          <u who="ake_holmback_3cac39" xml:id="i-edf482a2f4839f9f-0" next="i-1e05758667d26bd7-0" n="9222e496">
+          <u who="ake_holmback_3cac39" xml:id="i-9222e496c536f5fd-0" next="i-9222e496c536f5fd-4" n="9222e496">
             <seg n="9ae5c37d">
               Herr talman! De flesta av de flyktingar, som ännu vistas i Sverige,
               ha funnit arbete på den öppna arbetsmarknaden, motsvarande deras
@@ -306,14 +307,14 @@
             m. m.
           </note>
           <pb n="3" facs="https://betalab.kb.se/prot-1946-höst-fk--34/prot_1946_höst_fk__34-003.jp2/_view"/>
-          <note n="0026240e">
+          <note type="date" n="6af50bf9">
             4 Nr 34. Tisdagen den 29 oktober 1946.
           </note>
           <note n="44224716">
             le ang. de intellektuella flyktingarnas arbetsförhållanden m.
             m. Forts.
           </note>
-          <u who="ake_holmback_3cac39" xml:id="i-1e05758667d26bd7-0" prev="i-edf482a2f4839f9f-0" n="9222e496">
+          <u who="ake_holmback_3cac39" xml:id="i-9222e496c536f5fd-1" prev="i-9222e496c536f5fd-0" n="9222e496">
             <seg n="5eb39347">
               De frågor, som berörts i det föregående, ha på sista tiden tilldragit
               sig en betydande uppmärksamhet. Man har ansett de villkor, under
@@ -335,6 +336,13 @@
               kammarens tillstånd att få interpellera herr statsrådet och chefen
               för socialdepartementet och till honom rikta följande frågor:
             </seg>
+          </u>
+          <note n="65b2604d">
+            1) Anser herr statsrådet de förhållanden tillfredsställande,
+            under vilka den i det föregående berörda gruppen arkivarbetare
+            leva?
+          </note>
+          <u who="ake_holmback_3cac39" xml:id="i-9222e496c536f5fd-2" prev="i-9222e496c536f5fd-0" n="9222e496">
             <seg n="feb629d6">
               2) Hur ställer sig herr statsrådet, vid ett nekande svar på den
               första frågan, till tanken att hänskjuta förevarande flyktingkategoris
@@ -344,150 +352,7 @@
             <seg n="07befebf">
               Det sålunda begärda tillståndet lämnades av kammaren.
             </seg>
-            <seg n="8a9b9d40">
-              Till svar på den första frågan erinrar jag, att Kungl. Maj:t
-              den 4 oktober 1946 på min hemställan bemyndigat chefen för försvarsdepartementet
-              att tillkalla utredningsmän för att inom departementet biträda
-              med översyn av försvarets centrala förvaltningsmyndigheters organisation.
-              Enligt sina direktiv har utredningen att bl. a. uppmärksamma den
-              av riksdagen berörda frågan om krigsmaterielverkets uppgifter
-              och organisation.
-            </seg>
-            <seg n="622c847e">
-              Vad beträffar den andra frågan vill jag som min mening framhålla,
-              att — i enlighet med vanligen tillämpade regler sådana åtgärder
-              icke böra vidtagas som kunna föregripa den översyn av krigsmaterielverkets
-              organisation. som sålunda inletts. Däremot bör naturligtvis denna
-              översyn icke hindra sådana åtgärder som ej äro av föregripande
-              natur och som äro nödvändiga eller önskvärda för att trygga statsverksamhetens
-              gång. När riksdagen — samtidigt med att riksdagen begärde en omprövning
-              av krigsmaterielverkets uppgifter m. m. — i likhet med riksdagens
-              revisorer yttrade att, i avbidan på resultatet av denna översyn,
-              ytterligare bestående anskaffningsuppgifter icke borde överföras
-              till krigsmaterielverket, har bakom detta uttalande säkerligen
-              legat den uppfattning, åt vilken jag nyss givit uttryck.
-            </seg>
-            <seg n="d20578f6">
-              Interpellanten har erinrat om två beslut av Kungl. Maj:t på finansministerns
-              föredragning, genom vilka nya uppgifter överförts till verket
-              och vilka — efter vad av interpellationen kan utläsas — icke skulle
-              ha stått i överensstämmelse med berörda riksdagsuttalande. Enligt
-              det ena beslutet skall krigsmaterielverket upphandla kontorsinventarier
-              — i första hand möbler — för statsverkets behov och i samband
-              därmed ta hand om och distribuera krisorganens övertaliga kontorsinventarier.
-              Enligt det andra beslutet har verket ålagts att utöva förmedlingsverksamhet
-              för att främja ett ekonomiskt utnyttjande av statsmyndigheterna
-              tillhörig teknisk materiel. Båda dessa beslut ha tilllkommit efter
-              framställning från statens sakrevision, som funnit det av ekonomiska
-              skäl nödvändigt att åtgärder i antydd riktning vidtoges. Utan
-              att ingå på motiven härför — dessa äro i detta sammanhang icke
-              aktuella — vill jag erinra om skälen till att just krigsmaterielverket
-              ansetts böra erhålla de angivna uppgifterna. Vid en utredning
-              rörande avveckling av övertaliga kontorsinventarier fann sakrevisionen,
-              att krigsmaterielverket redan upphandlade kontorsinventarier i
-              icke obetydliga kvantiteter för försvarets behov och till priser,
-              som kunde anses vara förmånliga för statsverket. Verket förfogade
-              över personal för ändamålet och kunde utan att bygga ut sin organisation
-              övertaga motsvarande bestyr även för övriga delar av statsförvaltningen.
-              Vad beträffar den andra av de uppgifter som ålagts verket — förmedlingsverksamhet
-              i fråga om teknisk materiel — var läget ungefär detsamma. Inom
-              krigsmaterielverket fanns redan en organisation, som dels förvaltade
-              ett stort antal för krigsindustrien avsedda maskiner och dels
-              verkade för ett gemensamt utnyttjande av de militära verkstädernas
-              bestånd av maskiner och inventarier m. m. Denna organisation kunde
-              enligt sakrevisionens utredning utan nämnvärd kostnadsökning påtaga
-              sig även uppgiften att fungera som ett för statsförvaltningen
-              gemensamt clearingorgan för det berörda ändamålet. I båda fallen
-              är det fråga om provisoriska anordningar; vad beträffar upphandlingen
-              av kontorsinventarier har detta även kommit till uttryck i de
-              av Kungl. Maj:t meddelade bestämmelserna. Det sistnämnda uppdraget
-              är i enlighet med förslag av sakrevisionen avsett att åvila krigsmaterielverket
-              endast tills vidare så länge avvecklingen av krisorganens kontorsinventarier
-              pågår.
-            </seg>
-            <seg n="fee1784d">
-              Hade de av interpellanten angivna arbetsuppgifterna ålagts något
-              annat organ än krigsmaterielverket, hade förvaltningskostnaderna
-              sannolikt blivit större. Med sitt uttalande kan riksdagen knappast
-              ha menat, att statsverket
-            </seg>
-            <seg n="a755fa03"/>
-            <seg n="83c6b320">
-              Ang. omprövning av krigsmaterielverkets arbetsuppgifter m. m.
-              (Forts.) skulle lägga ned särskilda kostnader för att bygga ut
-              sin förvaltningsorganisation endast för att undvika att ett för
-              uppgifterna i huvudsak redan rustat verk, krigsmaterielverket,
-              anlitades. I detta sammanhang är det av intresse att konstatera,
-              att ordföranden för riksdagens revisorer, på vilkas tillskyndan
-              riksdagen gjorde sitt uttalande, såsom ledamot av statens sakrevisior.
-              biträdde revisionens förslag om att de ifrågavarande arbetsuppgifterna
-              skulle — på sätt som senare skedde uppdragas åt krigsmaterielverket
-              samtidigt som han såsom en av riksdagens revisorer understödde
-              uttalandet att nya anskaffningsuppgifter icke skulle överföras
-              till verket. I dessa båda egenskaver fungerade då interpellanten.
-            </seg>
-            <seg n="4b3c20ff">
-              Furuvida krigsmaterielverket även i fortsättningen bör omhänderha
-              arbetsuppgifter av ifrågavarande slag är självfallet en fråga,
-              som kommer under övervägande vid den utredning om försvarets förvaltningsorganisation,
-              som enligt det föregående i dagarna påbörjas.
-            </seg>
-            <seg n="2984b1ff">
-              Interpellantens tredje fråga avser huruvida jag har för avsikt
-              att till förnyad prövning upptaga frågan om tillstånd för generaldirektören
-              Ödeen att åtaga sig uppdrag vid sidan av tjänsten, nämligen att
-              vara sakkunnig hos Ödeens ingenjörsbyrås aktiebolag, i vilket
-              företag generaldirektören Ödeen har aktiemajoriteten. En framställning
-              från honom om tillstånd att åtaga sig detta uppdrag bifölls den
-              9 juni 1944 av Kungl. Maj:t på statsrådet Ewerlöfs föreredragning.
-              Bolaget har till ändamål att idka konsulterande ingenjörsverksamhet
-              ävensom annan därmed förenlig verksamhet. Ödeen har för några
-              år sedan avsagt sig uppdraget såsom ledamot i bolagsstyrelsen.
-            </seg>
-            <seg n="27f4ae2a">
-              Riksdagens revisorer ha i sin senaste berättelse bringat denna
-              förening av statstjänst med enskilt uppdrag till riksdagens kännedom,
-              och riksdagen har i anledning därav anfört, att vad i ärendet
-              förekommit otvetydigt givit vid handen, att denna tillståndsfråga
-              borde upptagas till förnyad prövning. De betänkligheter mot förening
-              av enskilt uppdrag med statstjänst, som föranlett riksdagen att
-              till behandling upptaga denna fråga, torde hänföra sig dels därtill
-              att leverantörer till krigsmaterielverket kunna tänkas ifrågakomma
-              såsom kunder i ingenjörsbyrån, vilket med hänsyn till generaldirektören
-              Ödeens intressegemenskap med byrån kunde vålla komplikationer,
-              dels därtill att sakkunniguppdraget kunde ta för stor del av tiden
-              i anspråk till förfång för statstjänsten.
-            </seg>
-            <seg n="f0687b40">
-              Det faller sig givetvis svårt och är ej heller lämpligt eller
-              behövligt att i ett fall som det föreliggande, då fråga är om
-              en ämbetsmans enskilda förhållanden, gå närmare in på detaljer
-              i detta sammanhang. Allmänt anser jag mig dock böra framhålla
-              följande. Att en sådan förening av enskild verksamhet med statstjänst,
-              varom här är fråga, i undantagsfall medges, är oundvikligt, och
-              dylika fall ha också tidigare förekommit. Vissa statstjänster
-              äro nämligen av den art att de böra beklädas av personer med teknisk,
-              industriell eller merkantil erfarenhet. Det är ur statsnyttans
-              synpunkt av den största vikt att så sker. Sådana tjänster måste
-              i viss utsträckning rekryteras bland näringslivets män. Att dessa
-              ibland icke vilja helt släppa sin kontakt med yrkesverksamheten
-              är förklarligt; bland annat måste de ha ett naturligt och starkt
-              intresse av att trygga sina utkomstmöjligheter i händelse av statstjänstens
-              upphörande. När staten för viktiga befattningar har behov av att
-              förvärva kvalificerade yrkesmiin, har staten följaktligen stundom
-              att acceptera förhållanden av här antydd art. Så har i det föreliggande
-              fallet skett, och regeringen har sedermera icke funnit anledning
-              till ändrat ställningstagande. Vid den prövning regeringen ägnat
-              frågan har icke kunnat påvisas, att någr: komplikationer eller
-              olägenheter av den art som i det föregående angivits
-            </seg>
-            <seg n="a755fa03"/>
           </u>
-          <note n="65b2604d">
-            1) Anser herr statsrådet de förhållanden tillfredsställande,
-            under vilka den i det föregående berörda gruppen arkivarbetare
-            leva?
-          </note>
           <note n="2d0b64dc">
             Justerades protokollsutdrag för denna dag, varefter kammarens
             sammanträde avslutades kl. 4.15 eftermiddagen.
@@ -496,7 +361,7 @@
             In fidem G. H. Berggren.
           </note>
           <pb n="4" facs="https://betalab.kb.se/prot-1946-höst-fk--34/prot_1946_höst_fk__34-004.jp2/_view"/>
-          <note n="0b78876c">
+          <note type="date" n="3717f2ee">
             Onsdagen den 30 oktober 1946. Nr 34. 5
           </note>
           <note type="date" n="e325f3ea">
@@ -573,19 +438,161 @@
             Ang. omprövning av krigsmaterielverkets arbetsuppgifter m. m.
           </note>
           <pb n="5" facs="https://betalab.kb.se/prot-1946-höst-fk--34/prot_1946_höst_fk__34-005.jp2/_view"/>
-          <note n="33ccbbab">
+          <note type="date" n="bc41ba9d">
             6 Nr 34. Onsdagen den 30 oktober 1946.
           </note>
           <note n="02237a8f">
             Ang. omprövning av krigsmaterielverkets arbetsuppgifter m. m.
             (Forts.)
           </note>
+          <u who="ake_holmback_3cac39" xml:id="i-9222e496c536f5fd-3" prev="i-9222e496c536f5fd-0" n="9222e496">
+            <seg n="8a9b9d40">
+              Till svar på den första frågan erinrar jag, att Kungl. Maj:t
+              den 4 oktober 1946 på min hemställan bemyndigat chefen för försvarsdepartementet
+              att tillkalla utredningsmän för att inom departementet biträda
+              med översyn av försvarets centrala förvaltningsmyndigheters organisation.
+              Enligt sina direktiv har utredningen att bl. a. uppmärksamma den
+              av riksdagen berörda frågan om krigsmaterielverkets uppgifter
+              och organisation.
+            </seg>
+            <seg n="622c847e">
+              Vad beträffar den andra frågan vill jag som min mening framhålla,
+              att — i enlighet med vanligen tillämpade regler sådana åtgärder
+              icke böra vidtagas som kunna föregripa den översyn av krigsmaterielverkets
+              organisation. som sålunda inletts. Däremot bör naturligtvis denna
+              översyn icke hindra sådana åtgärder som ej äro av föregripande
+              natur och som äro nödvändiga eller önskvärda för att trygga statsverksamhetens
+              gång. När riksdagen — samtidigt med att riksdagen begärde en omprövning
+              av krigsmaterielverkets uppgifter m. m. — i likhet med riksdagens
+              revisorer yttrade att, i avbidan på resultatet av denna översyn,
+              ytterligare bestående anskaffningsuppgifter icke borde överföras
+              till krigsmaterielverket, har bakom detta uttalande säkerligen
+              legat den uppfattning, åt vilken jag nyss givit uttryck.
+            </seg>
+            <seg n="d20578f6">
+              Interpellanten har erinrat om två beslut av Kungl. Maj:t på finansministerns
+              föredragning, genom vilka nya uppgifter överförts till verket
+              och vilka — efter vad av interpellationen kan utläsas — icke skulle
+              ha stått i överensstämmelse med berörda riksdagsuttalande. Enligt
+              det ena beslutet skall krigsmaterielverket upphandla kontorsinventarier
+              — i första hand möbler — för statsverkets behov och i samband
+              därmed ta hand om och distribuera krisorganens övertaliga kontorsinventarier.
+              Enligt det andra beslutet har verket ålagts att utöva förmedlingsverksamhet
+              för att främja ett ekonomiskt utnyttjande av statsmyndigheterna
+              tillhörig teknisk materiel. Båda dessa beslut ha tilllkommit efter
+              framställning från statens sakrevision, som funnit det av ekonomiska
+              skäl nödvändigt att åtgärder i antydd riktning vidtoges. Utan
+              att ingå på motiven härför — dessa äro i detta sammanhang icke
+              aktuella — vill jag erinra om skälen till att just krigsmaterielverket
+              ansetts böra erhålla de angivna uppgifterna. Vid en utredning
+              rörande avveckling av övertaliga kontorsinventarier fann sakrevisionen,
+              att krigsmaterielverket redan upphandlade kontorsinventarier i
+              icke obetydliga kvantiteter för försvarets behov och till priser,
+              som kunde anses vara förmånliga för statsverket. Verket förfogade
+              över personal för ändamålet och kunde utan att bygga ut sin organisation
+              övertaga motsvarande bestyr även för övriga delar av statsförvaltningen.
+              Vad beträffar den andra av de uppgifter som ålagts verket — förmedlingsverksamhet
+              i fråga om teknisk materiel — var läget ungefär detsamma. Inom
+              krigsmaterielverket fanns redan en organisation, som dels förvaltade
+              ett stort antal för krigsindustrien avsedda maskiner och dels
+              verkade för ett gemensamt utnyttjande av de militära verkstädernas
+              bestånd av maskiner och inventarier m. m. Denna organisation kunde
+              enligt sakrevisionens utredning utan nämnvärd kostnadsökning påtaga
+              sig även uppgiften att fungera som ett för statsförvaltningen
+              gemensamt clearingorgan för det berörda ändamålet. I båda fallen
+              är det fråga om provisoriska anordningar; vad beträffar upphandlingen
+              av kontorsinventarier har detta även kommit till uttryck i de
+              av Kungl. Maj:t meddelade bestämmelserna. Det sistnämnda uppdraget
+              är i enlighet med förslag av sakrevisionen avsett att åvila krigsmaterielverket
+              endast tills vidare så länge avvecklingen av krisorganens kontorsinventarier
+              pågår.
+            </seg>
+            <seg n="fee1784d">
+              Hade de av interpellanten angivna arbetsuppgifterna ålagts något
+              annat organ än krigsmaterielverket, hade förvaltningskostnaderna
+              sannolikt blivit större. Med sitt uttalande kan riksdagen knappast
+              ha menat, att statsverket
+            </seg>
+            <seg n="a755fa03"/>
+          </u>
           <pb n="6" facs="https://betalab.kb.se/prot-1946-höst-fk--34/prot_1946_höst_fk__34-006.jp2/_view"/>
-          <note n="c7eca3dd">
+          <note type="date" n="e34e29ed">
             Onsdagen den 30 oktober 1946. Nr 34. 7
           </note>
+          <u who="ake_holmback_3cac39" xml:id="i-9222e496c536f5fd-4" prev="i-9222e496c536f5fd-0" n="9222e496">
+            <seg n="83c6b320">
+              Ang. omprövning av krigsmaterielverkets arbetsuppgifter m. m.
+              (Forts.) skulle lägga ned särskilda kostnader för att bygga ut
+              sin förvaltningsorganisation endast för att undvika att ett för
+              uppgifterna i huvudsak redan rustat verk, krigsmaterielverket,
+              anlitades. I detta sammanhang är det av intresse att konstatera,
+              att ordföranden för riksdagens revisorer, på vilkas tillskyndan
+              riksdagen gjorde sitt uttalande, såsom ledamot av statens sakrevisior.
+              biträdde revisionens förslag om att de ifrågavarande arbetsuppgifterna
+              skulle — på sätt som senare skedde uppdragas åt krigsmaterielverket
+              samtidigt som han såsom en av riksdagens revisorer understödde
+              uttalandet att nya anskaffningsuppgifter icke skulle överföras
+              till verket. I dessa båda egenskaver fungerade då interpellanten.
+            </seg>
+            <seg n="4b3c20ff">
+              Furuvida krigsmaterielverket även i fortsättningen bör omhänderha
+              arbetsuppgifter av ifrågavarande slag är självfallet en fråga,
+              som kommer under övervägande vid den utredning om försvarets förvaltningsorganisation,
+              som enligt det föregående i dagarna påbörjas.
+            </seg>
+            <seg n="2984b1ff">
+              Interpellantens tredje fråga avser huruvida jag har för avsikt
+              att till förnyad prövning upptaga frågan om tillstånd för generaldirektören
+              Ödeen att åtaga sig uppdrag vid sidan av tjänsten, nämligen att
+              vara sakkunnig hos Ödeens ingenjörsbyrås aktiebolag, i vilket
+              företag generaldirektören Ödeen har aktiemajoriteten. En framställning
+              från honom om tillstånd att åtaga sig detta uppdrag bifölls den
+              9 juni 1944 av Kungl. Maj:t på statsrådet Ewerlöfs föreredragning.
+              Bolaget har till ändamål att idka konsulterande ingenjörsverksamhet
+              ävensom annan därmed förenlig verksamhet. Ödeen har för några
+              år sedan avsagt sig uppdraget såsom ledamot i bolagsstyrelsen.
+            </seg>
+            <seg n="27f4ae2a">
+              Riksdagens revisorer ha i sin senaste berättelse bringat denna
+              förening av statstjänst med enskilt uppdrag till riksdagens kännedom,
+              och riksdagen har i anledning därav anfört, att vad i ärendet
+              förekommit otvetydigt givit vid handen, att denna tillståndsfråga
+              borde upptagas till förnyad prövning. De betänkligheter mot förening
+              av enskilt uppdrag med statstjänst, som föranlett riksdagen att
+              till behandling upptaga denna fråga, torde hänföra sig dels därtill
+              att leverantörer till krigsmaterielverket kunna tänkas ifrågakomma
+              såsom kunder i ingenjörsbyrån, vilket med hänsyn till generaldirektören
+              Ödeens intressegemenskap med byrån kunde vålla komplikationer,
+              dels därtill att sakkunniguppdraget kunde ta för stor del av tiden
+              i anspråk till förfång för statstjänsten.
+            </seg>
+            <seg n="f0687b40">
+              Det faller sig givetvis svårt och är ej heller lämpligt eller
+              behövligt att i ett fall som det föreliggande, då fråga är om
+              en ämbetsmans enskilda förhållanden, gå närmare in på detaljer
+              i detta sammanhang. Allmänt anser jag mig dock böra framhålla
+              följande. Att en sådan förening av enskild verksamhet med statstjänst,
+              varom här är fråga, i undantagsfall medges, är oundvikligt, och
+              dylika fall ha också tidigare förekommit. Vissa statstjänster
+              äro nämligen av den art att de böra beklädas av personer med teknisk,
+              industriell eller merkantil erfarenhet. Det är ur statsnyttans
+              synpunkt av den största vikt att så sker. Sådana tjänster måste
+              i viss utsträckning rekryteras bland näringslivets män. Att dessa
+              ibland icke vilja helt släppa sin kontakt med yrkesverksamheten
+              är förklarligt; bland annat måste de ha ett naturligt och starkt
+              intresse av att trygga sina utkomstmöjligheter i händelse av statstjänstens
+              upphörande. När staten för viktiga befattningar har behov av att
+              förvärva kvalificerade yrkesmiin, har staten följaktligen stundom
+              att acceptera förhållanden av här antydd art. Så har i det föreliggande
+              fallet skett, och regeringen har sedermera icke funnit anledning
+              till ändrat ställningstagande. Vid den prövning regeringen ägnat
+              frågan har icke kunnat påvisas, att någr: komplikationer eller
+              olägenheter av den art som i det föregående angivits
+            </seg>
+            <seg n="a755fa03"/>
+          </u>
           <pb n="7" facs="https://betalab.kb.se/prot-1946-höst-fk--34/prot_1946_höst_fk__34-007.jp2/_view"/>
-          <note n="b95bfa94">
+          <note type="date" n="5a4171b7">
             8 Nr 34. Onsdagen den 30 oktober 1946.
           </note>
           <note n="3df9e869">
@@ -597,7 +604,7 @@
           <note type="speaker" n="a170141a">
             Herr Wistrand:
           </note>
-          <u who="karl_wistrand_ca0ba6" xml:id="i-ec3617f755944ff1-0" next="i-50afa167348cc400-0" n="451a2803">
+          <u who="karl_wistrand_ca0ba6" xml:id="i-451a280360f1b47e-0" next="i-451a280360f1b47e-1" n="451a2803">
             <seg n="c2acf753">
               Herr talman! Jag skall be att få tacka herr statsrådet för svaret.
             </seg>
@@ -668,10 +675,10 @@
             </seg>
           </u>
           <pb n="8" facs="https://betalab.kb.se/prot-1946-höst-fk--34/prot_1946_höst_fk__34-008.jp2/_view"/>
-          <note n="444825e2">
+          <note type="date" n="211659f7">
             Onsdagen den 30 oktober 1946. Nr 34. 9
           </note>
-          <u who="karl_wistrand_ca0ba6" xml:id="i-50afa167348cc400-0" prev="i-ec3617f755944ff1-0" n="451a2803">
+          <u who="karl_wistrand_ca0ba6" xml:id="i-451a280360f1b47e-1" prev="i-451a280360f1b47e-0" n="451a2803">
             <seg n="b8043dcf">
               Ang. omprövning av krigsmaterielverkets arbetsuppgifter m. m.
               (Forts.) motsats emot att det hittills inte har vidtagits några
@@ -735,7 +742,7 @@
           <note type="speaker" n="7e12d944">
             Herr statsrådet Vougt:
           </note>
-          <u who="allan_vougt_9dd505" xml:id="i-4f4be43b702d4471-0" next="i-03e70550b6ec0821-0" n="2d95d51f">
+          <u who="allan_vougt_9dd505" xml:id="i-eb6f890e90e1a42e-1" next="i-eb6f890e90e1a42e-7" n="2d95d51f">
             <seg n="d72388bb">
               Herr talman! Vad beträffar punkten 2 var herr Wistrand ännu my
               cket mera kortfattad än beträffande punkten 1, och i punkten 2
@@ -748,10 +755,10 @@
             </seg>
           </u>
           <pb n="9" facs="https://betalab.kb.se/prot-1946-höst-fk--34/prot_1946_höst_fk__34-009.jp2/_view"/>
-          <note n="abddd307">
+          <note type="date" n="b20a64fa">
             10 Nr 34. Onsdagen den 30 oktober 1946.
           </note>
-          <u who="allan_vougt_9dd505" xml:id="i-03e70550b6ec0821-0" prev="i-4f4be43b702d4471-0" n="2d95d51f">
+          <u who="allan_vougt_9dd505" xml:id="i-eb6f890e90e1a42e-2" prev="i-eb6f890e90e1a42e-1" n="2d95d51f">
             <seg n="63f527e9">
               Ang. omprövning av krigsmaterielverkets arbetsuppgifter m. m.
               (Forts.) på att ge krigsmaterielverket nya arbetsuppgifter efter
@@ -805,6 +812,41 @@
               härtill synes, såvitt kunnat inhämtas från kommunikationsdepartementet,
               icke ha meddelats av Kungl. Maj:t.
             </seg>
+          </u>
+          <note n="6c7704ed">
+            Förutom av generaldirektören bedrevs under denna tid privat arkitektpraktik
+            jämväl av åtskilliga andra befattningshavare i byggnadsstyrelsen.
+          </note>
+          <note n="8fd189a9">
+            I kungörelse den 6 juni 1925 angående utsträckt tillämpning av
+            avlöningsreglementet den 22 juni 1921 för befattningshavare vid
+            statsdepartement och vissa andra verk stadgades beträffande byggnadsstyrelsen
+            följande: »Med ordinarie befattning må ej förenas enskilt arkitektuppdrag,
+            som, vad angår chefen, Kungl. Maj:t och, vad angår annan befattning,
+            styrelsen finner inverka hinderligt för tjänstgöringen i ämbetsverket.&gt;
+            Bestämmelsen tolkades av vederbörande inom byggnadsstyrelsen såsom
+            icke innebärande skyldighet för befattningshavare att hos Kungl.
+            Maj:t respektive styrelsen från fall till fall göra anmälan om
+            och inhämta medgivande till innehav av enskilda arkitektuppdrag.
+          </note>
+          <note n="75272d90">
+            Den här saken uppmärksammades emellertid av 1931 års riksdagsrevisorer,
+            vilka verkställde en undersökning i ämnet avseende budgetåren
+            1929—31. Beträffande den här nämnde generaldirektören inhämtades
+            av revisorerna att han under denna tid fullföljt tillhopa 17 privata
+            arkitektuppdrag, vilka — med
+          </note>
+          <pb n="10" facs="https://betalab.kb.se/prot-1946-höst-fk--34/prot_1946_höst_fk__34-010.jp2/_view"/>
+          <note type="date" n="85ebcd08">
+            Onsdagen den 30 oktober 1946. Nr 34. 11
+          </note>
+          <note n="03b5bd66">
+            Ang. omprövning av krigsmaterielverkets arbetsuppgifter m. m.
+            (Forts.) undantag för vissa prisdomaruppgifter — utförts på hans
+            arkitektkontor av där anställda arkitekter och en ingenjör under
+            hans överinseende.
+          </note>
+          <u who="allan_vougt_9dd505" xml:id="i-eb6f890e90e1a42e-3" prev="i-eb6f890e90e1a42e-1" n="2d95d51f">
             <seg n="fbcba7b1">
               Revisorerna uttalade, att de inte förbisågo att det även ur det
               allmännas synpunkt kunde vara till fördel, att de hos byggnadsstyrelsen
@@ -835,6 +877,18 @@
               från Kungl. Maj:ts sida av de förhållanden, under vilka han dittills
               hade uppehållit befattningen.
             </seg>
+          </u>
+          <note n="c5e7f5f9">
+            Statsutskottet uttalade i anledning av vad revisorerna anfört,
+            att utskottet ställde sig synnerligen betäinksamt inför de förhållanden,
+            som hade uppdagats, och utskottet ansåg att medgivande att inneha
+            enskilt arkitektuppdrag borde inhämtas i varje särskilt fall.
+          </note>
+          <note n="6d03ba31">
+            Ärendet föranledde från utskottets sida endast en omförmälan
+            till riksdagen, och riksdagen vidtog icke någon särskild åtgärd.
+          </note>
+          <u who="allan_vougt_9dd505" xml:id="i-eb6f890e90e1a42e-4" prev="i-eb6f890e90e1a42e-1" n="2d95d51f">
             <seg n="0ab167fc">
               Aven 1934 års riksdagsrevisorer uppmärksammade dessa förhållanden
               inom byggnadsstyrelsen, och de gåvo uttryck åt samma uppfattning
@@ -865,6 +919,12 @@
               till ett sådant beroende av förhållandena i samhället, att han
               kan komma i kon-
             </seg>
+          </u>
+          <pb n="11" facs="https://betalab.kb.se/prot-1946-höst-fk--34/prot_1946_höst_fk__34-011.jp2/_view"/>
+          <note type="date" n="e46eb097">
+            12 NE 34, Onsdagen den 30 oktober 1946.
+          </note>
+          <u who="allan_vougt_9dd505" xml:id="i-eb6f890e90e1a42e-5" prev="i-eb6f890e90e1a42e-1" n="2d95d51f">
             <seg n="f2655a36">
               Ang. omprövning av krigsmaterielverkets arbetsuppgifter m. m.
               (Forts.) flikt med sin plikt i tjänsten? Jag måste svara, att
@@ -935,6 +995,17 @@
               Ödeen skulle ha sagt, att firman var oförhindrad att mottaga uppdrag
               från krigsmaterielindustrien. Jag
             </seg>
+          </u>
+          <pb n="12" facs="https://betalab.kb.se/prot-1946-höst-fk--34/prot_1946_höst_fk__34-012.jp2/_view"/>
+          <note type="date" n="0a605cea">
+            Onsdagen den 30 oktober 1946. Nr 34. 13
+          </note>
+          <note n="b2443fd6">
+            Ang. omprövning av krigsmaterielverkets arbetsuppgifter m. m.
+            (Forts.) be att få läsa upp vad som enligt generaldirektör Ödeen
+            förekom vid tillfället.
+          </note>
+          <u who="allan_vougt_9dd505" xml:id="i-eb6f890e90e1a42e-6" prev="i-eb6f890e90e1a42e-1" n="2d95d51f">
             <seg n="c22f8d92">
               Generaldirektör Ödeen anför: »Vid detta tillfälle framställde
               revisorernas ordförande till mig en fråga av ungefär följande
@@ -999,6 +1070,12 @@
               i våra verk äro inte några diktatorer, herr Wistrand! Det går
               inte till på det sättet att generaldirektören och chefen
             </seg>
+          </u>
+          <pb n="13" facs="https://betalab.kb.se/prot-1946-höst-fk--34/prot_1946_höst_fk__34-013.jp2/_view"/>
+          <note type="date" n="9a0fdad6">
+            14 Nr 34. Onsdagen den 30 oktober 1946.
+          </note>
+          <u who="allan_vougt_9dd505" xml:id="i-eb6f890e90e1a42e-7" prev="i-eb6f890e90e1a42e-1" n="2d95d51f">
             <seg n="2dca7690">
               Ang. omprövning av krigsmaterielverkets arbetsuppgifter m. m.
               (Forts.) säger, att »nu skall vi göra upp det där på det viset»
@@ -1017,70 +1094,10 @@
               »inför vederbörligt forum».
             </seg>
           </u>
-          <note n="6c7704ed">
-            Förutom av generaldirektören bedrevs under denna tid privat arkitektpraktik
-            jämväl av åtskilliga andra befattningshavare i byggnadsstyrelsen.
-          </note>
-          <note n="8fd189a9">
-            I kungörelse den 6 juni 1925 angående utsträckt tillämpning av
-            avlöningsreglementet den 22 juni 1921 för befattningshavare vid
-            statsdepartement och vissa andra verk stadgades beträffande byggnadsstyrelsen
-            följande: »Med ordinarie befattning må ej förenas enskilt arkitektuppdrag,
-            som, vad angår chefen, Kungl. Maj:t och, vad angår annan befattning,
-            styrelsen finner inverka hinderligt för tjänstgöringen i ämbetsverket.&gt;
-            Bestämmelsen tolkades av vederbörande inom byggnadsstyrelsen såsom
-            icke innebärande skyldighet för befattningshavare att hos Kungl.
-            Maj:t respektive styrelsen från fall till fall göra anmälan om
-            och inhämta medgivande till innehav av enskilda arkitektuppdrag.
-          </note>
-          <note n="75272d90">
-            Den här saken uppmärksammades emellertid av 1931 års riksdagsrevisorer,
-            vilka verkställde en undersökning i ämnet avseende budgetåren
-            1929—31. Beträffande den här nämnde generaldirektören inhämtades
-            av revisorerna att han under denna tid fullföljt tillhopa 17 privata
-            arkitektuppdrag, vilka — med
-          </note>
-          <pb n="10" facs="https://betalab.kb.se/prot-1946-höst-fk--34/prot_1946_höst_fk__34-010.jp2/_view"/>
-          <note n="43c53d58">
-            Onsdagen den 30 oktober 1946. Nr 34. 11
-          </note>
-          <note n="03b5bd66">
-            Ang. omprövning av krigsmaterielverkets arbetsuppgifter m. m.
-            (Forts.) undantag för vissa prisdomaruppgifter — utförts på hans
-            arkitektkontor av där anställda arkitekter och en ingenjör under
-            hans överinseende.
-          </note>
-          <note n="c5e7f5f9">
-            Statsutskottet uttalade i anledning av vad revisorerna anfört,
-            att utskottet ställde sig synnerligen betäinksamt inför de förhållanden,
-            som hade uppdagats, och utskottet ansåg att medgivande att inneha
-            enskilt arkitektuppdrag borde inhämtas i varje särskilt fall.
-          </note>
-          <note n="6d03ba31">
-            Ärendet föranledde från utskottets sida endast en omförmälan
-            till riksdagen, och riksdagen vidtog icke någon särskild åtgärd.
-          </note>
-          <pb n="11" facs="https://betalab.kb.se/prot-1946-höst-fk--34/prot_1946_höst_fk__34-011.jp2/_view"/>
-          <note n="389ccdcf">
-            12 NE 34, Onsdagen den 30 oktober 1946.
-          </note>
-          <pb n="12" facs="https://betalab.kb.se/prot-1946-höst-fk--34/prot_1946_höst_fk__34-012.jp2/_view"/>
-          <note n="e7d16bbc">
-            Onsdagen den 30 oktober 1946. Nr 34. 13
-          </note>
-          <note n="b2443fd6">
-            Ang. omprövning av krigsmaterielverkets arbetsuppgifter m. m.
-            (Forts.) be att få läsa upp vad som enligt generaldirektör Ödeen
-            förekom vid tillfället.
-          </note>
-          <pb n="13" facs="https://betalab.kb.se/prot-1946-höst-fk--34/prot_1946_höst_fk__34-013.jp2/_view"/>
-          <note n="7153dc60">
-            14 Nr 34. Onsdagen den 30 oktober 1946.
-          </note>
           <note type="speaker" n="917f5137">
             Herr von Heland:
           </note>
-          <u who="erik_von_heland_39e120" xml:id="i-4c29a60b6c4ab5c6-0" next="i-a051fac9e397ace5-0" n="a94b4721">
+          <u who="erik_von_heland_39e120" xml:id="i-a94b4721d4fdd072-0" next="i-a94b4721d4fdd072-1" n="a94b4721">
             <seg n="3e46a0a5">
               Herr talman! Med anledning av herr statsrådets senaste anförande
               vill jag endast framhålla en synpunkt på förhållandet mellan statsrevisionen
@@ -1140,10 +1157,10 @@
             </seg>
           </u>
           <pb n="14" facs="https://betalab.kb.se/prot-1946-höst-fk--34/prot_1946_höst_fk__34-014.jp2/_view"/>
-          <note n="db58a3b1">
+          <note type="date" n="b7657887">
             Onsdagen den 30 oktober 1946. Nr 34. 15
           </note>
-          <u who="erik_von_heland_39e120" xml:id="i-a051fac9e397ace5-0" prev="i-4c29a60b6c4ab5c6-0" n="a94b4721">
+          <u who="erik_von_heland_39e120" xml:id="i-a94b4721d4fdd072-1" prev="i-a94b4721d4fdd072-0" n="a94b4721">
             <seg n="25cd1d41">
               Ang. omprövning av krigsmaterielverkets arbetsuppgifter m. rm.
               (Forts.) om statsmakterna föranleda, att allmänheten alldeles
@@ -1164,7 +1181,7 @@
           <note type="speaker" n="e9a8bb2b">
             Herr Johansson, Johan Bernhard:
           </note>
-          <u who="johan_bernhard_johansson_ca4e64" xml:id="i-8e734a1bfd4e9670-0" next="i-12e919ef7272ce78-0" n="ca733f3b">
+          <u who="johan_bernhard_johansson_ca4e64" xml:id="i-ca733f3b1e46d286-0" next="i-ca733f3b1e46d286-1" n="ca733f3b">
             <seg n="6dff0477">
               Herr talman! Den fråga, som berördes i senare delen av interpellationen,
               och det svar som herr statsrådet har givit därpå — generaldirektör
@@ -1227,7 +1244,7 @@
             </seg>
           </u>
           <pb n="15" facs="https://betalab.kb.se/prot-1946-höst-fk--34/prot_1946_höst_fk__34-015.jp2/_view"/>
-          <note n="b2e5f80c">
+          <note type="date" n="86418f45">
             16 Nr 34. Onsdagen den 30 oktober 1946.
           </note>
           <note n="ed021514">
@@ -1235,7 +1252,7 @@
             (Forts.) slut föranledde en ändring, tycker jag statsrådet har
             intagit en mycket svag ståndpunkt.
           </note>
-          <u who="johan_bernhard_johansson_ca4e64" xml:id="i-12e919ef7272ce78-0" prev="i-8e734a1bfd4e9670-0" n="ca733f3b">
+          <u who="johan_bernhard_johansson_ca4e64" xml:id="i-ca733f3b1e46d286-1" prev="i-ca733f3b1e46d286-0" n="ca733f3b">
             <seg n="4dab34e5">
               Herr statsrådet har i sitt senare anförande förklarat, att de
               problem, som man rör sig kring, äro förtjänta av uppmärksamhet.
@@ -1269,7 +1286,7 @@
           <note type="speaker" n="5e38ec39">
             Herr Wetter:
           </note>
-          <u who="unknown" xml:id="i-d85b944c6c5d69d5-0" n="eb6f890e">
+          <u who="unknown" xml:id="i-eb6f890e90e1a42e-8" n="eb6f890e">
             <seg n="07f51b2b">
               Herr talman! Den, som arbetar eller har arbetat inom försvarets
               förvaltningsorganisation, kan nog inte komma ifrån — även om man
@@ -1310,10 +1327,10 @@
             </seg>
           </u>
           <pb n="16" facs="https://betalab.kb.se/prot-1946-höst-fk--34/prot_1946_höst_fk__34-016.jp2/_view"/>
-          <note n="0a1b77e3">
+          <note type="date" n="c1ad6634">
             Onsdagen den 30 oktober 1946. Nr 34. 17
           </note>
-          <u who="unknown" xml:id="i-2acdfa55bf5c7b8c-0" n="eb6f890e">
+          <u who="unknown" xml:id="i-eb6f890e90e1a42e-9" n="eb6f890e">
             <seg n="7b291785">
               Ang. omprövning av krigsmaterielverkets arbetsuppgifter m. m.
               (Forts.) egen konsultationsbyrå med uppgift att lämna goda råd
@@ -1341,7 +1358,7 @@
           <note type="speaker" n="a170141a">
             Herr Wistrand:
           </note>
-          <u who="karl_wistrand_ca0ba6" xml:id="i-194991260be90b1a-0" n="451a2803">
+          <u who="karl_wistrand_ca0ba6" xml:id="i-451a280360f1b47e-2" n="451a2803">
             <seg n="da724578">
               Herr talman! Statsrådets svar på min interpellation har redan
               tillräckligt belysts vid dagens sammanträde, och när jag begärde
@@ -1398,7 +1415,7 @@
             Första kammarens protokoll 1946. Nr 34. 2
           </note>
           <pb n="17" facs="https://betalab.kb.se/prot-1946-höst-fk--34/prot_1946_höst_fk__34-017.jp2/_view"/>
-          <note n="4edb7e30">
+          <note type="date" n="32cb5f67">
             18 Nr 34. Onsdagen den 30 oktober 1946.
           </note>
           <note n="02237a8f">
@@ -1408,7 +1425,7 @@
           <note type="speaker" n="5ffb3ddf">
             Herr Forslund:
           </note>
-          <u who="albert_forslund_7b3dd2" xml:id="i-df74c3f37eaf5673-0" n="2b145ef4">
+          <u who="albert_forslund_7b3dd2" xml:id="i-2b145ef4d6f52e71-0" n="2b145ef4">
             <seg n="c0297436">
               Herr talman! Jag skall inte blanda mig i diskussionen i annan
               mån än att jag vill återföra den till den principiella frågan
@@ -1484,7 +1501,7 @@
           <note type="speaker" n="7e12d944">
             Herr statsrådet Vougt:
           </note>
-          <u who="allan_vougt_9dd505" xml:id="i-4f4be43b702d4471-1" next="i-03e70550b6ec0821-1" n="2d95d51f">
+          <u who="allan_vougt_9dd505" xml:id="i-eb6f890e90e1a42e-10" next="i-eb6f890e90e1a42e-14" n="2d95d51f">
             <seg n="5196f4da">
               Herr talman! Jag vill försäkra den siste ärade talaren att jag
               helt omfattar det ideal, som han här uppställer. Det är i högsta
@@ -1496,7 +1513,7 @@
             </seg>
           </u>
           <pb n="18" facs="https://betalab.kb.se/prot-1946-höst-fk--34/prot_1946_höst_fk__34-018.jp2/_view"/>
-          <note n="c1d1ad53">
+          <note type="date" n="c60751bc">
             Onsdagen den 30 oktober 1946. Nr 34. 19
           </note>
           <note n="88f28923">
@@ -1505,7 +1522,7 @@
             några regler, som man skulle kunna gå efter, i stället för att
             syssla med de individuella fallen?
           </note>
-          <u who="allan_vougt_9dd505" xml:id="i-03e70550b6ec0821-1" prev="i-4f4be43b702d4471-1" n="2d95d51f">
+          <u who="allan_vougt_9dd505" xml:id="i-eb6f890e90e1a42e-11" prev="i-eb6f890e90e1a42e-10" n="2d95d51f">
             <seg n="8753db36">
               Hur svårt problemet är skall jag nu försöka belysa genom att
               ta upp en av de anmärkningar, som framfördes av herr Sandén, en
@@ -1572,10 +1589,21 @@
               hos mig att en undersökning beträffande dessa anmärkningar skulle
               verkställas. Detta föranledde mig att upp-
             </seg>
+          </u>
+          <note n="d80b2d33">
+            5
+          </note>
+          <u who="allan_vougt_9dd505" xml:id="i-eb6f890e90e1a42e-12" prev="i-eb6f890e90e1a42e-10" n="2d95d51f">
             <seg n="23718421">
               draga åt sakrevisionen att verkställa den begärda utredningen
               angående, som
             </seg>
+          </u>
+          <pb n="19" facs="https://betalab.kb.se/prot-1946-höst-fk--34/prot_1946_höst_fk__34-019.jp2/_view"/>
+          <note type="date" n="38a057ca">
+            20 Nr 34. Onsdagen den 30 oktober 1946.
+          </note>
+          <u who="allan_vougt_9dd505" xml:id="i-eb6f890e90e1a42e-13" prev="i-eb6f890e90e1a42e-10" n="2d95d51f">
             <seg n="2da2297b">
               Ang. omprövning av krigsmaterielverkets arbetsuppgifter m. m.
               (Forts.) det hette, vissa förhållanden i samband med anskaffningen
@@ -1645,6 +1673,16 @@
               ut från de militära förvaltningarna, och det är mänskligt om man
               där känner missnöje med detta.
             </seg>
+          </u>
+          <pb n="20" facs="https://betalab.kb.se/prot-1946-höst-fk--34/prot_1946_höst_fk__34-020.jp2/_view"/>
+          <note type="date" n="5b089af6">
+            Onsdagen den 30 oktober 1946. Nr 34. 21
+          </note>
+          <note n="02237a8f">
+            Ang. omprövning av krigsmaterielverkets arbetsuppgifter m. m.
+            (Forts.)
+          </note>
+          <u who="allan_vougt_9dd505" xml:id="i-eb6f890e90e1a42e-14" prev="i-eb6f890e90e1a42e-10" n="2d95d51f">
             <seg n="87ee9eb4">
               Jag omnämnde nyss den utredning, som på sakrevisionens uppdrag
               har verkställts av f. d. generaldirektören Granholm. Den utredningen
@@ -1667,25 +1705,10 @@
               det inte funnits saklig anledning till kritik i vissa avseenden.
             </seg>
           </u>
-          <note n="d80b2d33">
-            5
-          </note>
-          <pb n="19" facs="https://betalab.kb.se/prot-1946-höst-fk--34/prot_1946_höst_fk__34-019.jp2/_view"/>
-          <note n="3bd74e55">
-            20 Nr 34. Onsdagen den 30 oktober 1946.
-          </note>
-          <pb n="20" facs="https://betalab.kb.se/prot-1946-höst-fk--34/prot_1946_höst_fk__34-020.jp2/_view"/>
-          <note n="e82ca4a3">
-            Onsdagen den 30 oktober 1946. Nr 34. 21
-          </note>
-          <note n="02237a8f">
-            Ang. omprövning av krigsmaterielverkets arbetsuppgifter m. m.
-            (Forts.)
-          </note>
           <note type="speaker" n="493526b0">
             Herr Wistrand erhöll nu ordet för kort genmäle och yttrade:
           </note>
-          <u who="karl_wistrand_ca0ba6" xml:id="i-194991260be90b1a-1" n="451a2803">
+          <u who="karl_wistrand_ca0ba6" xml:id="i-451a280360f1b47e-3" n="451a2803">
             <seg n="53c810c3">
               Herr talman! När herr statsrådet nu drar fram ännu ett yttrande
               av sakrevisionen, vill Jag erinra om att riksdagens revisorer
@@ -1718,7 +1741,7 @@
           <note type="speaker" n="f9c0c83c">
             Hans excellens herr statsministern Erlander:
           </note>
-          <u who="unknown" xml:id="i-d85b944c6c5d69d5-1" n="eb6f890e">
+          <u who="unknown" xml:id="i-eb6f890e90e1a42e-15" n="eb6f890e">
             <seg n="aca638af">
               Herr talman! Det råder väl ingen tvekan om att den opinion, som
               här kommit till uttryck, hos åtminstone vissa av talesmännen bottnar
@@ -1742,10 +1765,10 @@
           <note n="1788de3e">
             pa vo
           </note>
-          <note n="5608ed57">
+          <note type="date" n="8ef7a617">
             Nr 34. Onsdagen den 30 oktober 1946.
           </note>
-          <u who="unknown" xml:id="i-2acdfa55bf5c7b8c-1" n="eb6f890e">
+          <u who="unknown" xml:id="i-eb6f890e90e1a42e-16" n="eb6f890e">
             <seg n="bf4106ff">
               Ang. omprövning av krigsmaterielverkets arbetsuppgifter m. m.
               (Forts.) var i så hög grad utslagsgivande för användningen av
@@ -1799,7 +1822,7 @@
           <note type="speaker" n="90e80ae5">
             Herr Herlitz:
           </note>
-          <u who="nils_herlitz_45342c" xml:id="i-1acbdda6a399f389-0" next="i-d3578a7701771894-0" n="7095cedd">
+          <u who="nils_herlitz_45342c" xml:id="i-7095cedd11ae465c-0" next="i-7095cedd11ae465c-1" n="7095cedd">
             <seg n="52b3e560">
               Herr talman! Om det ärende, som nu närmast är i fråga, har jag
               ingen som helst kännedom, och jag ber att vad jag säger inte fattas
@@ -1823,10 +1846,10 @@
             </seg>
           </u>
           <pb n="22" facs="https://betalab.kb.se/prot-1946-höst-fk--34/prot_1946_höst_fk__34-022.jp2/_view"/>
-          <note n="46841160">
+          <note type="date" n="c9c10f5d">
             Onsdagen den 30 oktober 1946. Nr 34. 23
           </note>
-          <u who="nils_herlitz_45342c" xml:id="i-d3578a7701771894-0" prev="i-1acbdda6a399f389-0" n="7095cedd">
+          <u who="nils_herlitz_45342c" xml:id="i-7095cedd11ae465c-1" prev="i-7095cedd11ae465c-0" n="7095cedd">
             <seg n="ec11e296">
               Ang. omprövning av krigsmaterielverkets arbetsuppgifter m. m.
               (Forts.) fälle då man gör ett försök att komma till rätta med
@@ -1880,7 +1903,7 @@
           <note type="speaker" n="917f5137">
             Herr von Heland:
           </note>
-          <u who="erik_von_heland_39e120" xml:id="i-4c29a60b6c4ab5c6-1" next="i-a051fac9e397ace5-1" n="a94b4721">
+          <u who="erik_von_heland_39e120" xml:id="i-a94b4721d4fdd072-2" next="i-a94b4721d4fdd072-3" n="a94b4721">
             <seg n="e6cc7107">
               Herr talman! Det är mycket egendomligt att de som tillhörde statsrevisionen
               i det aktuella fallet ha en så väsentligt olika uppfattning mot
@@ -1909,7 +1932,7 @@
             </seg>
           </u>
           <pb n="23" facs="https://betalab.kb.se/prot-1946-höst-fk--34/prot_1946_höst_fk__34-023.jp2/_view"/>
-          <note n="048c48ea">
+          <note type="date" n="df91115b">
             24 Nr 34. Onsdagen den 30 oktober 1946.
           </note>
           <note n="2e5046c3">
@@ -1917,7 +1940,7 @@
             (Forts.) Men uppgifterna om dessa utgiftsbesparingar ha ju av
             statsrevisorerna på mycket viktiga punkter påvisats vara felaktiga.
           </note>
-          <u who="erik_von_heland_39e120" xml:id="i-a051fac9e397ace5-1" prev="i-4c29a60b6c4ab5c6-1" n="a94b4721">
+          <u who="erik_von_heland_39e120" xml:id="i-a94b4721d4fdd072-3" prev="i-a94b4721d4fdd072-2" n="a94b4721">
             <seg n="443724a9">
               Sedan till historieskrivningen. Hans excellens herr statsministern
               sade, att det här var fråga om en man som arbetat upp en firma,
@@ -1968,7 +1991,7 @@
           <note type="speaker" n="7e12d944">
             Herr statsrådet Vougt:
           </note>
-          <u who="allan_vougt_9dd505" xml:id="i-4f4be43b702d4471-2" next="i-03e70550b6ec0821-2" n="2d95d51f">
+          <u who="allan_vougt_9dd505" xml:id="i-eb6f890e90e1a42e-17" next="i-eb6f890e90e1a42e-19" n="2d95d51f">
             <seg n="d54037d0">
               Herr talman! Jag måste be om ursäkt för att jag ånyo begär ordet.
               Jag är medveten om att denna detaljdiskussion kanske drar ut för
@@ -1993,7 +2016,7 @@
             </seg>
           </u>
           <pb n="24" facs="https://betalab.kb.se/prot-1946-höst-fk--34/prot_1946_höst_fk__34-024.jp2/_view"/>
-          <note n="a99259f6">
+          <note type="date" n="8c986232">
             Onsdagen den 30 oktober 1946. Nr 34. 25
           </note>
           <note n="51957bb9">
@@ -2023,7 +2046,7 @@
             generaldirektör i fabriksstyrelsen och samtidigt till generaldirektör
             och chef för krigsmaterielverket.»
           </note>
-          <u who="allan_vougt_9dd505" xml:id="i-03e70550b6ec0821-2" prev="i-4f4be43b702d4471-2" n="2d95d51f">
+          <u who="allan_vougt_9dd505" xml:id="i-eb6f890e90e1a42e-18" prev="i-eb6f890e90e1a42e-17" n="2d95d51f">
             <seg n="9098822e">
               Herr von Heland kan gå till denna promemoria, som jag gärna ställer
               till förfogande, och han skall finna att det är i högsta grad
@@ -2067,14 +2090,9 @@
               emot bakgrunden av den totala värdesumman för de av verket omhänderhavda
               anskaffningarna, varvid bör
             </seg>
-            <seg n="dfec8ada">
-              Med den auktoritet som bland annat sakrevisionen förlänat denna
-              utredning har jag ansett att det kunde vara värt att ge kammaren
-              del av dessa uttalanden, när nu debatten lider mot sitt slut.
-            </seg>
           </u>
           <pb n="25" facs="https://betalab.kb.se/prot-1946-höst-fk--34/prot_1946_höst_fk__34-025.jp2/_view"/>
-          <note n="aea34beb">
+          <note type="date" n="c91511b4">
             26 Nr 34. Onsdagen den 30 oktober 1946.
           </note>
           <note n="104640d8">
@@ -2085,10 +2103,17 @@
             läget samt av tidsförhållandena 1 övrigt, som rått i landet vid
             olika anskaffningstillfällen och under olika anskaffningsperioder.»
           </note>
+          <u who="allan_vougt_9dd505" xml:id="i-eb6f890e90e1a42e-19" prev="i-eb6f890e90e1a42e-17" n="2d95d51f">
+            <seg n="dfec8ada">
+              Med den auktoritet som bland annat sakrevisionen förlänat denna
+              utredning har jag ansett att det kunde vara värt att ge kammaren
+              del av dessa uttalanden, när nu debatten lider mot sitt slut.
+            </seg>
+          </u>
           <note type="speaker" n="5e38ec39">
             Herr Wetter:
           </note>
-          <u who="unknown" xml:id="i-4ec8334952890947-1" n="eb6f890e">
+          <u who="unknown" xml:id="i-eb6f890e90e1a42e-20" n="eb6f890e">
             <seg n="c9b3feba">
               Herr talman! Jag har svårt att förstå att försvarsministern överhuvud
               taget har rätt att snedvrida mitt yttrande på sätt som skett,
@@ -2118,7 +2143,7 @@
           <note type="speaker" n="7e12d944">
             Herr statsrådet Vougt:
           </note>
-          <u who="allan_vougt_9dd505" xml:id="i-12c6ced39d6813fd-0" n="2d95d51f">
+          <u who="allan_vougt_9dd505" xml:id="i-eb6f890e90e1a42e-21" n="2d95d51f">
             <seg n="15e3afc8">
               Herr talman! Jag hoppas att herr Wetter av protokollet skall
               finna att vad jag sade om det korsdrag, i vilket krigsmaterielverket
@@ -2159,7 +2184,7 @@
             i Uppsala m. m.;
           </note>
           <pb n="26" facs="https://betalab.kb.se/prot-1946-höst-fk--34/prot_1946_höst_fk__34-026.jp2/_view"/>
-          <note n="8a3680d1">
+          <note type="date" n="02109c00">
             Onsdagen den 30 oktober 1946. Nr 34. 27
           </note>
           <note n="c8aae17e">
@@ -2207,7 +2232,7 @@
           <note type="speaker" n="1c29c556">
             Fru Svenson erhöll på begäran ordet och anförde:
           </note>
-          <u who="unknown" xml:id="i-d85b944c6c5d69d5-2" n="eb6f890e">
+          <u who="unknown" xml:id="i-eb6f890e90e1a42e-22" n="eb6f890e">
             <seg n="36751ec1">
               Herr talman! Riksdagen har i år vid sin vårsession bifallit förslag
               om förbättringar av landsbygdens telefonförhållanden. Förbättringarna
@@ -2248,14 +2273,14 @@
             Interpellation om förbättring av landsbygdens telefonförhållanden.
           </note>
           <pb n="27" facs="https://betalab.kb.se/prot-1946-höst-fk--34/prot_1946_höst_fk__34-027.jp2/_view"/>
-          <note n="a8ab3530">
+          <note type="date" n="6e626a9a">
             28 Nr 34. Onsdagen den 30 oktober 1946.
           </note>
           <note n="ac77be85">
             Interpellation om förbättring av landsbygdens telefonförhållanden.
             (Forts.)
           </note>
-          <u who="unknown" xml:id="i-2acdfa55bf5c7b8c-2" n="eb6f890e">
+          <u who="unknown" xml:id="i-eb6f890e90e1a42e-23" n="eb6f890e">
             <seg n="d591d120">
               Det skall icke förnekas, att materialsvårigheterna och bristen
               på arbetskraft 1 viss mån fördröja genomförandet av de förbättringar
@@ -2286,23 +2311,19 @@
               kammarens tillstånd att till statsrådet och chefen för kommunikationsdepartementet
               få rikta följande frågor:
             </seg>
-            <seg n="2b92d119">
-              Om så icke skulle vara fallet, är statsrådet beredd att låta
-              föranstalta om sådana åtgärder, att genomförandet av nämnda förbättringsarbeten
-              påskyndas?
-            </seg>
-            <seg n="6a05c11f">
-              O. Ahlbom,
-            </seg>
-            <seg n="434eee01">
-              Den begärda ledigheten beviljades.
-            </seg>
           </u>
           <note n="2d5a9af6">
             Anser statsrådet att förbättringarna av landsbygdens telefonförhållanden
             bedrivas i den takt som riksdagen avsåg skulle ske, när den fattade
             beslut därom vid vårsessionen”?
           </note>
+          <u who="unknown" xml:id="i-eb6f890e90e1a42e-24" n="eb6f890e">
+            <seg n="2b92d119">
+              Om så icke skulle vara fallet, är statsrådet beredd att låta
+              föranstalta om sådana åtgärder, att genomförandet av nämnda förbättringsarbeten
+              påskyndas?
+            </seg>
+          </u>
           <note n="940f152f">
             På gjord proposition medgav kammaren, att ifrågavarande spörsmål
             finge framställas.
@@ -2315,7 +2336,7 @@
             In fidem G. H. Berggren.
           </note>
           <pb n="28" facs="https://betalab.kb.se/prot-1946-höst-fk--34/prot_1946_höst_fk__34-028.jp2/_view"/>
-          <note n="8175c7d1">
+          <note type="date" n="f2380b7f">
             Lördagen den 2 november 1946. Nr 34. 29
           </note>
           <note type="date" n="874a9772">
@@ -2391,11 +2412,21 @@
           <note n="cc71bb01">
             Sveg den 28 oktober 1946.
           </note>
+          <u who="unknown" xml:id="i-eb6f890e90e1a42e-25" n="eb6f890e">
+            <seg n="6a05c11f">
+              O. Ahlbom,
+            </seg>
+          </u>
           <note n="25b545cd">
             provinsialläkare.
           </note>
+          <u who="unknown" xml:id="i-eb6f890e90e1a42e-26" n="eb6f890e">
+            <seg n="434eee01">
+              Den begärda ledigheten beviljades.
+            </seg>
+          </u>
           <pb n="29" facs="https://betalab.kb.se/prot-1946-höst-fk--34/prot_1946_höst_fk__34-029.jp2/_view"/>
-          <note n="5d1b8203">
+          <note type="date" n="fc5ef062">
             30 Nr 34. Lördagen den 2 november 1946.
           </note>
           <note n="3c42775d">

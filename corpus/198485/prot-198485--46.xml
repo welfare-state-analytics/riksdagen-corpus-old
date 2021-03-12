@@ -20,7 +20,7 @@
     <encodingDesc>
       <editorialDecl>
         <correction>
-          <p>Some data curation was done. It is documented in db/curation/instances</p>
+          <p>Some data curation was done. It is documented in input/curation/instances</p>
         </correction>
       </editorialDecl>
     </encodingDesc>
@@ -59,6 +59,7 @@
       </front>
       <body>
         <div>
+          <pb n="0" facs="https://betalab.kb.se/prot-198485--46/prot_198485__46-000.jp2/_view"/>
           <note n="a4238056"/>
           <note n="136d4c69">
             Riksdagens protokoll
@@ -67,7 +68,7 @@
             1984/85:45-47 6-10 december 1984
           </note>
           <note n="a4238056"/>
-          <note n="1478ce5d">
+          <note type="date" n="fdbd88bc">
             Debatter m. m. Torsdagen den 6 december
           </note>
           <note n="ede4a963">
@@ -338,7 +339,7 @@
             av medel för byggande av samlingslokaler m. Mm. s.sssssssssssssress
           </note>
           <note n="a4238056"/>
-          <note n="3b00333d">
+          <note type="date" n="cfea2a01">
             Avgjorda ärenden Torsdagen den 6 december
           </note>
           <note n="d271da66">
@@ -408,7 +409,7 @@
           <note n="2a6a603a">
             1984/85:46
           </note>
-          <note n="c6b1cbf9">
+          <note type="date" n="c5fb14e8">
             Fredagen den 7 december KI. 09.00
           </note>
           <note n="e1d064df">
@@ -465,7 +466,7 @@
           <note n="e84ba081">
             Nr 46
           </note>
-          <note n="baae98f9">
+          <note type="date" n="78b214e4">
             Fredagen den 7 december 1984
           </note>
           <note n="848ad461">
@@ -484,7 +485,7 @@
           <note n="e84ba081">
             Nr 46
           </note>
-          <note n="baae98f9">
+          <note type="date" n="78b214e4">
             Fredagen den 7 december 1984
           </note>
           <note n="e37344c8">
@@ -639,7 +640,7 @@
           <note n="e84ba081">
             Nr 46
           </note>
-          <note n="baae98f9">
+          <note type="date" n="78b214e4">
             Fredagen den 7 december 1984
           </note>
           <note n="ef2e877f">
@@ -658,7 +659,7 @@
           <note n="e84ba081">
             Nr 46
           </note>
-          <note n="baae98f9">
+          <note type="date" n="78b214e4">
             Fredagen den 7 december 1984
           </note>
           <note n="ef2e877f">
@@ -710,7 +711,7 @@
           <note type="speaker" n="2bdf0800">
             Anf. 6 BO LUNDGREN (m):
           </note>
-          <u who="bo_lundgren_c993b1" xml:id="i-a7b2bea4612fcd29-0" next="i-327adb7c56ae0bde-0" n="bbefd4eb">
+          <u who="bo_lundgren_c993b1" xml:id="i-bbefd4eb359f7b18-0" next="i-bbefd4eb359f7b18-6" n="bbefd4eb">
             <seg n="db12972f">
               Herr talman! Låt mig först tacka finansministern för svaret.
             </seg>
@@ -737,15 +738,16 @@
             </seg>
             <seg n="bd89dd31"/>
             <seg n="bd89dd31"/>
-            <seg n="bd89dd31"/>
-            <seg n="bd89dd31"/>
           </u>
           <pb n="9" facs="https://betalab.kb.se/prot-198485--46/prot_198485__46-009.jp2/_view"/>
+          <u who="bo_lundgren_c993b1" xml:id="i-bbefd4eb359f7b18-1" prev="i-bbefd4eb359f7b18-0" n="bbefd4eb">
+            <seg n="bd89dd31"/>
+          </u>
           <note n="92fecb87">
             ningsreglerna på skatteområdet avvika från motsvarande regler
             på andra rättsområden?
           </note>
-          <u who="bo_lundgren_c993b1" xml:id="i-327adb7c56ae0bde-0" prev="i-a7b2bea4612fcd29-0" n="bbefd4eb">
+          <u who="bo_lundgren_c993b1" xml:id="i-bbefd4eb359f7b18-2" prev="i-bbefd4eb359f7b18-0" n="bbefd4eb">
             <seg n="39a6f954">
               Vi är helt överens om att man skall utgå från att ingen skenbosättning
               skall kunna äga rum och att vi skall undvika skatteflykt. Vi är
@@ -782,6 +784,11 @@
               på detta område bör anstå. Vilka mindre ingripande åtgärder är
               finansministern beredd att vidta?
             </seg>
+          </u>
+          <note n="92d25ae9">
+            Anf. 7 Finansminister KJELL-OLOF FELDT:
+          </note>
+          <u who="bo_lundgren_c993b1" xml:id="i-bbefd4eb359f7b18-3" prev="i-bbefd4eb359f7b18-0" n="bbefd4eb">
             <seg n="2c632ee6">
               Herr talman! Att reglerna i dag inte alltid överensstämmer på
               olika områden har naturligtvis delvis sin grund i att lagstiftningarna
@@ -812,24 +819,7 @@
               bosatt. Det är också därför jag drar mig för att nu ställa ut
               några löften som innebär att vi,
             </seg>
-            <seg n="bd89dd31"/>
-            <seg n="0d312719">
-              greppeti skattelagstiftningen
-            </seg>
-            <seg n="7d4bb993">
-              utan en ordentlig analys både av de intressekonflikter som föreligger
-              och av det sakliga läget, skulle ta oss för att börja ändra på
-              någotdera av begreppen, vare sig de hänför sig till sociallagstiftningen
-              eller till skattelagstiftningen. Det är inte bra som det är i
-              dag — det är vi överens om. Men vi känner oss inte i stånd att
-              utan just den analys som folkbokföringskommittén gör åstadkomma
-              en förändring som skulle kunna accepteras av alla de intressen
-              och parter som här är företrädda.
-            </seg>
           </u>
-          <note n="92d25ae9">
-            Anf. 7 Finansminister KJELL-OLOF FELDT:
-          </note>
           <note n="e84ba081">
             Nr 46
           </note>
@@ -852,22 +842,40 @@
             47
           </note>
           <pb n="10" facs="https://betalab.kb.se/prot-198485--46/prot_198485__46-010.jp2/_view"/>
+          <u who="bo_lundgren_c993b1" xml:id="i-bbefd4eb359f7b18-4" prev="i-bbefd4eb359f7b18-0" n="bbefd4eb"/>
           <note n="e84ba081">
             Nr 46
           </note>
-          <note n="baae98f9">
+          <note type="date" n="78b214e4">
             Fredagen den 7 december 1984
           </note>
           <note n="ef2e877f">
             Om hemvistbe-
           </note>
+          <u who="bo_lundgren_c993b1" xml:id="i-bbefd4eb359f7b18-5" prev="i-bbefd4eb359f7b18-0" n="bbefd4eb">
+            <seg n="0d312719">
+              greppeti skattelagstiftningen
+            </seg>
+          </u>
           <note n="d2b2395c">
             48
           </note>
+          <u who="bo_lundgren_c993b1" xml:id="i-bbefd4eb359f7b18-6" prev="i-bbefd4eb359f7b18-0" n="bbefd4eb">
+            <seg n="7d4bb993">
+              utan en ordentlig analys både av de intressekonflikter som föreligger
+              och av det sakliga läget, skulle ta oss för att börja ändra på
+              någotdera av begreppen, vare sig de hänför sig till sociallagstiftningen
+              eller till skattelagstiftningen. Det är inte bra som det är i
+              dag — det är vi överens om. Men vi känner oss inte i stånd att
+              utan just den analys som folkbokföringskommittén gör åstadkomma
+              en förändring som skulle kunna accepteras av alla de intressen
+              och parter som här är företrädda.
+            </seg>
+          </u>
           <note type="speaker" n="80180a0f">
             Anf. 8 BO LUNDGREN (m):
           </note>
-          <u who="bo_lundgren_c993b1" xml:id="i-a7b2bea4612fcd29-1" next="i-327adb7c56ae0bde-1" n="bbefd4eb">
+          <u who="bo_lundgren_c993b1" xml:id="i-bbefd4eb359f7b18-7" next="i-bbefd4eb359f7b18-8" n="bbefd4eb">
             <seg n="f648fc56">
               Herr talman! Som finansministern själv säger finns det här en
               mängd komplikationer i fråga om de relationer Sverige har med
@@ -907,7 +915,7 @@
           <note n="9b7ace10">
             Anf. 9 Finansminister KJELL-OLOF FELDT:
           </note>
-          <u who="bo_lundgren_c993b1" xml:id="i-327adb7c56ae0bde-1" prev="i-a7b2bea4612fcd29-1" n="bbefd4eb">
+          <u who="bo_lundgren_c993b1" xml:id="i-bbefd4eb359f7b18-8" prev="i-bbefd4eb359f7b18-7" n="bbefd4eb">
             <seg n="88cbf2cb">
               Herr talman! Folkbokföringskommittén tillsattes 1983. Såvitt
               jag kan erinra mig gäller samma regel för denna kommitté som för
@@ -920,13 +928,15 @@
           <note type="speaker" n="9d554420">
             Anf. 10 BO LUNDGREN (m):
           </note>
-          <u who="bo_lundgren_c993b1" xml:id="i-a7b2bea4612fcd29-2" next="i-327adb7c56ae0bde-2" n="bbefd4eb">
+          <u who="bo_lundgren_c993b1" xml:id="i-bbefd4eb359f7b18-9" next="i-bbefd4eb359f7b18-15" n="bbefd4eb">
             <seg n="1fdea25f">
               Herr talman! Detta tycker jag i så fall är mycket tillfredsställande,
               och jag hoppas att kommittén också tar fasta på det.
             </seg>
             <seg n="bd89dd31"/>
-            <seg n="bd89dd31"/>
+          </u>
+          <pb n="11" facs="https://betalab.kb.se/prot-198485--46/prot_198485__46-011.jp2/_view"/>
+          <u who="bo_lundgren_c993b1" xml:id="i-bbefd4eb359f7b18-10" prev="i-bbefd4eb359f7b18-9" n="bbefd4eb">
             <seg n="bd89dd31"/>
             <seg n="5b2d091c">
               I uttalanden från representanter för kommittén har det förefallit
@@ -939,14 +949,13 @@
               har lyssnat på den här frågedebatten.
             </seg>
           </u>
-          <pb n="11" facs="https://betalab.kb.se/prot-198485--46/prot_198485__46-011.jp2/_view"/>
           <note n="46230fe6">
             Överläggningen var härmed avslutad.
           </note>
           <note n="f1450925">
             4$ Svar på fråga 1984/85:267 om ökat nordiskt samarbete på kapitalmarknadsområdet
           </note>
-          <u who="bo_lundgren_c993b1" xml:id="i-327adb7c56ae0bde-2" prev="i-a7b2bea4612fcd29-2" n="bbefd4eb">
+          <u who="bo_lundgren_c993b1" xml:id="i-bbefd4eb359f7b18-11" prev="i-bbefd4eb359f7b18-9" n="bbefd4eb">
             <seg n="74f35373">
               Anf. 11 Finansminister KJELL-OLOF FELDT: Herr talman! Lennart
               Pettersson har frågat mig
@@ -995,13 +1004,47 @@
               allt vad det innebär, enbart för att kunna åberopa en undantagsklausul
               i OECD:s kapitalliberaliseringsstadga.
             </seg>
+          </u>
+          <note n="8063e1e9">
+            4 Riksdagens protokoll 1984/85:45-47
+          </note>
+          <note n="f07b0263">
+            Nr 46 Fredagen den
+          </note>
+          <note n="8bb3029e">
+            7 december 1984
+          </note>
+          <note n="8523418b">
+            Om ökat nordiskt
+          </note>
+          <u who="bo_lundgren_c993b1" xml:id="i-bbefd4eb359f7b18-12" prev="i-bbefd4eb359f7b18-9" n="bbefd4eb">
             <seg n="d97ea309">
               samarbete på kapitalmarknadsom-
             </seg>
-            <seg n="bd89dd31"/>
+          </u>
+          <note n="afd6cd5e">
+            rådet
+          </note>
+          <note n="e5c95cc1">
+            49
+          </note>
+          <pb n="12" facs="https://betalab.kb.se/prot-198485--46/prot_198485__46-012.jp2/_view"/>
+          <u who="bo_lundgren_c993b1" xml:id="i-bbefd4eb359f7b18-13" prev="i-bbefd4eb359f7b18-9" n="bbefd4eb"/>
+          <note n="e84ba081">
+            Nr 46
+          </note>
+          <note type="date" n="78b214e4">
+            Fredagen den 7 december 1984
+          </note>
+          <u who="bo_lundgren_c993b1" xml:id="i-bbefd4eb359f7b18-14" prev="i-bbefd4eb359f7b18-9" n="bbefd4eb">
             <seg n="bb3d54ed">
               Om ökat nordiskt samarbete på kapitalmarknadsområdet
             </seg>
+          </u>
+          <note n="d816a77e">
+            50
+          </note>
+          <u who="bo_lundgren_c993b1" xml:id="i-bbefd4eb359f7b18-15" prev="i-bbefd4eb359f7b18-9" n="bbefd4eb">
             <seg n="4866518b">
               När det gäller möjligheten till valutapolitiskt samarbete vill
               jag erinra om att detta utretts och diskuterats åtskilligt i den
@@ -1042,38 +1085,10 @@
               som det kan innehålla.
             </seg>
           </u>
-          <note n="8063e1e9">
-            4 Riksdagens protokoll 1984/85:45-47
-          </note>
-          <note n="f07b0263">
-            Nr 46 Fredagen den
-          </note>
-          <note n="8bb3029e">
-            7 december 1984
-          </note>
-          <note n="8523418b">
-            Om ökat nordiskt
-          </note>
-          <note n="afd6cd5e">
-            rådet
-          </note>
-          <note n="e5c95cc1">
-            49
-          </note>
-          <pb n="12" facs="https://betalab.kb.se/prot-198485--46/prot_198485__46-012.jp2/_view"/>
-          <note n="e84ba081">
-            Nr 46
-          </note>
-          <note n="baae98f9">
-            Fredagen den 7 december 1984
-          </note>
-          <note n="d816a77e">
-            50
-          </note>
           <note type="speaker" n="ec254783">
             Anf. 12 LENNART PETTERSSON (s):
           </note>
-          <u who="lennart_pettersson_922b92" xml:id="i-a20bcbf56aaf2093-0" next="i-089ec5b58acf5961-0" n="1ab28f90">
+          <u who="lennart_pettersson_922b92" xml:id="i-1ab28f90af0f1985-0" next="i-1ab28f90af0f1985-6" n="1ab28f90">
             <seg n="c05e78a6">
               Herr talman! Jag ber att få tacka statsrådet för svaret.
             </seg>
@@ -1100,7 +1115,9 @@
               det nordiska samarbetet, måste det ske på det
             </seg>
             <seg n="bd89dd31"/>
-            <seg n="bd89dd31"/>
+          </u>
+          <pb n="13" facs="https://betalab.kb.se/prot-198485--46/prot_198485__46-013.jp2/_view"/>
+          <u who="lennart_pettersson_922b92" xml:id="i-1ab28f90af0f1985-1" prev="i-1ab28f90af0f1985-0" n="1ab28f90">
             <seg n="bd89dd31"/>
             <seg n="bd89dd31"/>
             <seg n="effef819">
@@ -1137,11 +1154,10 @@
               Det är min bestämda uppfattning.
             </seg>
           </u>
-          <pb n="13" facs="https://betalab.kb.se/prot-198485--46/prot_198485__46-013.jp2/_view"/>
           <note n="dc46de6b">
             Anf. 13 Finansminister KJELL-OLOF FELDT:
           </note>
-          <u who="lennart_pettersson_922b92" xml:id="i-089ec5b58acf5961-0" prev="i-a20bcbf56aaf2093-0" n="1ab28f90">
+          <u who="lennart_pettersson_922b92" xml:id="i-1ab28f90af0f1985-2" prev="i-1ab28f90af0f1985-0" n="1ab28f90">
             <seg n="7666a369">
               Herr talman! Lennart Pettersson frågar vem det är som bromsar.
               Det är ingen som bromsar när det gäller huruvida vi kan ha en
@@ -1168,16 +1184,44 @@
               icke är EMS-medlem i fråga om en valutapolitisk åtgärd inom EMS.
               Det har lett till att de konsultationsprocedurer som vi
             </seg>
+          </u>
+          <note n="e84ba081">
+            Nr 46
+          </note>
+          <note n="a6dfc2b3">
+            Fredagen den
+          </note>
+          <note n="8bb3029e">
+            7 december 1984
+          </note>
+          <u who="lennart_pettersson_922b92" xml:id="i-1ab28f90af0f1985-3" prev="i-1ab28f90af0f1985-0" n="1ab28f90">
             <seg n="3103a010">
               Om ökat nordiskt samarbete på kapi-
             </seg>
             <seg n="31857e3d">
               talmarknadsområdet
             </seg>
-            <seg n="bd89dd31"/>
+          </u>
+          <note n="d743fd46">
+            51
+          </note>
+          <pb n="14" facs="https://betalab.kb.se/prot-198485--46/prot_198485__46-014.jp2/_view"/>
+          <u who="lennart_pettersson_922b92" xml:id="i-1ab28f90af0f1985-4" prev="i-1ab28f90af0f1985-0" n="1ab28f90"/>
+          <note n="e84ba081">
+            Nr 46
+          </note>
+          <note type="date" n="78b214e4">
+            Fredagen den 7 december 1984
+          </note>
+          <u who="lennart_pettersson_922b92" xml:id="i-1ab28f90af0f1985-5" prev="i-1ab28f90af0f1985-0" n="1ab28f90">
             <seg n="bb3d54ed">
               Om ökat nordiskt samarbete på kapitalmarknadsområdet
             </seg>
+          </u>
+          <note n="73897cd8">
+            52
+          </note>
+          <u who="lennart_pettersson_922b92" xml:id="i-1ab28f90af0f1985-6" prev="i-1ab28f90af0f1985-0" n="1ab28f90">
             <seg n="1c8c99b8">
               kunnat komma överens om på det nordiska planet måste vara informella.
             </seg>
@@ -1198,32 +1242,10 @@
               till det mål som Lennart Pettersson talar om.
             </seg>
           </u>
-          <note n="e84ba081">
-            Nr 46
-          </note>
-          <note n="a6dfc2b3">
-            Fredagen den
-          </note>
-          <note n="8bb3029e">
-            7 december 1984
-          </note>
-          <note n="d743fd46">
-            51
-          </note>
-          <pb n="14" facs="https://betalab.kb.se/prot-198485--46/prot_198485__46-014.jp2/_view"/>
-          <note n="e84ba081">
-            Nr 46
-          </note>
-          <note n="baae98f9">
-            Fredagen den 7 december 1984
-          </note>
-          <note n="73897cd8">
-            52
-          </note>
           <note type="speaker" n="84d53a66">
             Anf. 14 LENNART PETTERSSON (s):
           </note>
-          <u who="lennart_pettersson_922b92" xml:id="i-a20bcbf56aaf2093-1" next="i-089ec5b58acf5961-1" n="1ab28f90">
+          <u who="lennart_pettersson_922b92" xml:id="i-1ab28f90af0f1985-7" next="i-1ab28f90af0f1985-9" n="1ab28f90">
             <seg n="ca79590a">
               Herr talman! Den svenska regeringen har ju myntat uttrycket Norden
               som en hemmamarknad. Jag tror att finansministern och jag är överens
@@ -1252,7 +1274,7 @@
           <note n="ac4323b7">
             Anf. 15 Finansminister KJELL-OLOF FELDT:
           </note>
-          <u who="lennart_pettersson_922b92" xml:id="i-089ec5b58acf5961-1" prev="i-a20bcbf56aaf2093-1" n="1ab28f90">
+          <u who="lennart_pettersson_922b92" xml:id="i-1ab28f90af0f1985-8" prev="i-1ab28f90af0f1985-7" n="1ab28f90">
             <seg n="dc02c30b">
               Herr talman! För det första: Jag tror inte att Lennart Pettersson
               vet vad han talar om. OECD ställer inte upp några förbud, utan
@@ -1274,17 +1296,18 @@
             </seg>
             <seg n="bd89dd31"/>
             <seg n="bd89dd31"/>
-            <seg n="bd89dd31"/>
+          </u>
+          <pb n="15" facs="https://betalab.kb.se/prot-198485--46/prot_198485__46-015.jp2/_view"/>
+          <u who="lennart_pettersson_922b92" xml:id="i-1ab28f90af0f1985-9" prev="i-1ab28f90af0f1985-7" n="1ab28f90">
             <seg n="689092c6">
               Jag tycker att Lennart Pettersson skall ge den här frågan rimliga
               dimensioner.
             </seg>
           </u>
-          <pb n="15" facs="https://betalab.kb.se/prot-198485--46/prot_198485__46-015.jp2/_view"/>
           <note type="speaker" n="68579526">
             Anf. 16 LENNART PETTERSSON (s):
           </note>
-          <u who="lennart_pettersson_922b92" xml:id="i-a20bcbf56aaf2093-2" next="i-089ec5b58acf5961-2" n="1ab28f90">
+          <u who="lennart_pettersson_922b92" xml:id="i-1ab28f90af0f1985-10" next="i-1ab28f90af0f1985-16" n="1ab28f90">
             <seg n="e19a2bff">
               Herr talman! Jag vill säga till finansministern att jag nog vet
               vad jag talar om. Jag har sysslat med handelspolitiska frågor
@@ -1327,7 +1350,7 @@
           <note n="216fb539">
             Anf. 17 Utrikesminister LENNART BODSTRÖM:
           </note>
-          <u who="lennart_pettersson_922b92" xml:id="i-089ec5b58acf5961-2" prev="i-a20bcbf56aaf2093-2" n="1ab28f90">
+          <u who="lennart_pettersson_922b92" xml:id="i-1ab28f90af0f1985-11" prev="i-1ab28f90af0f1985-10" n="1ab28f90">
             <seg n="ea4fb21e">
               Herr talman! Ingrid Sundberg har frågat mig vilka åtgärder jag
               ämnar vidta för att söka upphäva det tjeckiska beslutet att neka
@@ -1353,16 +1376,41 @@
               av förtroende som gynnar utvecklingen av goda förbindelser mellan
               staterna.
             </seg>
+          </u>
+          <note n="e84ba081">
+            Nr 46
+          </note>
+          <note type="date" n="78b214e4">
+            Fredagen den 7 december 1984
+          </note>
+          <u who="lennart_pettersson_922b92" xml:id="i-1ab28f90af0f1985-12" prev="i-1ab28f90af0f1985-10" n="1ab28f90">
             <seg n="3e3b1a54">
               Om svårigheterna för journalister att få visum till Tjeckoslovakien
             </seg>
+          </u>
+          <note n="a3fef7c5">
+            53
+          </note>
+          <u who="lennart_pettersson_922b92" xml:id="i-1ab28f90af0f1985-13" prev="i-1ab28f90af0f1985-10" n="1ab28f90">
             <seg n="bd89dd31"/>
-            <seg n="bd89dd31"/>
-            <seg n="bd89dd31"/>
+          </u>
+          <pb n="16" facs="https://betalab.kb.se/prot-198485--46/prot_198485__46-016.jp2/_view"/>
+          <u who="lennart_pettersson_922b92" xml:id="i-1ab28f90af0f1985-14" prev="i-1ab28f90af0f1985-10" n="1ab28f90"/>
+          <note n="e84ba081">
+            Nr 46
+          </note>
+          <note type="date" n="78b214e4">
+            Fredagen den 7 december 1984
+          </note>
+          <u who="lennart_pettersson_922b92" xml:id="i-1ab28f90af0f1985-15" prev="i-1ab28f90af0f1985-10" n="1ab28f90">
             <seg n="3e3b1a54">
               Om svårigheterna för journalister att få visum till Tjeckoslovakien
             </seg>
-            <seg n="bd89dd31"/>
+          </u>
+          <note n="6eb43ff0">
+            54
+          </note>
+          <u who="lennart_pettersson_922b92" xml:id="i-1ab28f90af0f1985-16" prev="i-1ab28f90af0f1985-10" n="1ab28f90">
             <seg n="f63df6c6">
               Sveriges ambassadör i Prag påtalade på ett tidigt stadium i utrikesministeriet
               i Prag det stora intresse som föreligger från svenska massmedia
@@ -1379,29 +1427,10 @@
               från TV 1.
             </seg>
           </u>
-          <note n="e84ba081">
-            Nr 46
-          </note>
-          <note n="baae98f9">
-            Fredagen den 7 december 1984
-          </note>
-          <note n="a3fef7c5">
-            53
-          </note>
-          <pb n="16" facs="https://betalab.kb.se/prot-198485--46/prot_198485__46-016.jp2/_view"/>
-          <note n="e84ba081">
-            Nr 46
-          </note>
-          <note n="baae98f9">
-            Fredagen den 7 december 1984
-          </note>
-          <note n="6eb43ff0">
-            54
-          </note>
           <note type="speaker" n="55482a77">
             Anf. 18 INGRID SUNDBERG (m):
           </note>
-          <u who="ingrid_sundberg_86e5e0" xml:id="i-3657d7edd55e6ace-0" next="i-c15df2b82d38a475-0" n="a0c3dda6">
+          <u who="ingrid_sundberg_86e5e0" xml:id="i-a0c3dda6d76533bf-0" next="i-a0c3dda6d76533bf-2" n="a0c3dda6">
             <seg n="51c629ea">
               Herr talman! Jag tackar utrikesministern för svaret, som jag
               tycker andas en viss uppgivenhet inför statsmyndigheter. Både
@@ -1460,17 +1489,18 @@
             </seg>
             <seg n="bd89dd31"/>
             <seg n="bd89dd31"/>
-            <seg n="bd89dd31"/>
+          </u>
+          <pb n="17" facs="https://betalab.kb.se/prot-198485--46/prot_198485__46-017.jp2/_view"/>
+          <u who="ingrid_sundberg_86e5e0" xml:id="i-a0c3dda6d76533bf-1" prev="i-a0c3dda6d76533bf-0" n="a0c3dda6">
             <seg n="ccaac97a">
               utrikesministern skulle kunna redovisa någon åtgärd från den
               svenska ambassadens i Prag sida.
             </seg>
           </u>
-          <pb n="17" facs="https://betalab.kb.se/prot-198485--46/prot_198485__46-017.jp2/_view"/>
           <note n="324019a0">
             Anf. 19 Utrikesminister LENNART BODSTRÖM:
           </note>
-          <u who="ingrid_sundberg_86e5e0" xml:id="i-c15df2b82d38a475-0" prev="i-3657d7edd55e6ace-0" n="a0c3dda6">
+          <u who="ingrid_sundberg_86e5e0" xml:id="i-a0c3dda6d76533bf-2" prev="i-a0c3dda6d76533bf-0" n="a0c3dda6">
             <seg n="b9cdb398">
               Herr talman! Jag har i mitt svar sagt att svenska ambassaden
               i Prag till det tjeckiska utrikesministeriet framhållit det angelägna
@@ -1489,7 +1519,7 @@
           <note type="speaker" n="1397656f">
             Anf. 20 INGRID SUNDBERG (m):
           </note>
-          <u who="ingrid_sundberg_86e5e0" xml:id="i-c6dd90745dd9e7be-0" n="a0c3dda6">
+          <u who="ingrid_sundberg_86e5e0" xml:id="i-a0c3dda6d76533bf-3" n="a0c3dda6">
             <seg n="56322035">
               Herr talman! De naturliga åtgärderna skulle ha varit att ambassaden
               i Prag hela tiden hade hållit sig informerad om de visumansökningar
@@ -1523,7 +1553,7 @@
           <note type="speaker" n="ba3c37f2">
             Anf. 22 INGRID SUNDBERG (m):
           </note>
-          <u who="ingrid_sundberg_86e5e0" xml:id="i-3657d7edd55e6ace-1" next="i-c15df2b82d38a475-1" n="a0c3dda6">
+          <u who="ingrid_sundberg_86e5e0" xml:id="i-a0c3dda6d76533bf-4" next="i-a0c3dda6d76533bf-10" n="a0c3dda6">
             <seg n="2705d4dd">
               Herr talman! Det är väl ändå en skillnad, herr utrikesminister,
               mellan att begära omprövning av en visumansökan med hänvisning
@@ -1544,20 +1574,45 @@
           <note n="e84ba081">
             Nr 46
           </note>
-          <note n="baae98f9">
+          <note type="date" n="78b214e4">
             Fredagen den 7 december 1984
           </note>
-          <u who="ingrid_sundberg_86e5e0" xml:id="i-c15df2b82d38a475-1" prev="i-3657d7edd55e6ace-1" n="a0c3dda6">
+          <u who="ingrid_sundberg_86e5e0" xml:id="i-a0c3dda6d76533bf-5" prev="i-a0c3dda6d76533bf-4" n="a0c3dda6">
             <seg n="3e3b1a54">
               Om svårigheterna för journalister att få visum till Tjeckoslovakien
             </seg>
+          </u>
+          <note n="c9fc85aa">
+            55
+          </note>
+          <u who="ingrid_sundberg_86e5e0" xml:id="i-a0c3dda6d76533bf-6" prev="i-a0c3dda6d76533bf-4" n="a0c3dda6">
             <seg n="bd89dd31"/>
-            <seg n="bd89dd31"/>
-            <seg n="bd89dd31"/>
+          </u>
+          <pb n="18" facs="https://betalab.kb.se/prot-198485--46/prot_198485__46-018.jp2/_view"/>
+          <u who="ingrid_sundberg_86e5e0" xml:id="i-a0c3dda6d76533bf-7" prev="i-a0c3dda6d76533bf-4" n="a0c3dda6"/>
+          <note n="e84ba081">
+            Nr 46
+          </note>
+          <note type="date" n="78b214e4">
+            Fredagen den 7 december 1984
+          </note>
+          <u who="ingrid_sundberg_86e5e0" xml:id="i-a0c3dda6d76533bf-8" prev="i-a0c3dda6d76533bf-4" n="a0c3dda6">
             <seg n="f354825c">
               Om vissa krediter till Nicaragua
             </seg>
-            <seg n="bd89dd31"/>
+          </u>
+          <note n="15ac0a3b">
+            56
+          </note>
+          <u who="ingrid_sundberg_86e5e0" xml:id="i-a0c3dda6d76533bf-9" prev="i-a0c3dda6d76533bf-4" n="a0c3dda6"/>
+          <note n="0b3dbcac">
+            6 $ Svar på frågorna 1984/85:171 och 173 om vissa krediter till
+            Nicaragua
+          </note>
+          <note n="88539e64">
+            Anf. 23 Utrikesminister LENNART BODSTRÖM:
+          </note>
+          <u who="ingrid_sundberg_86e5e0" xml:id="i-a0c3dda6d76533bf-10" prev="i-a0c3dda6d76533bf-4" n="a0c3dda6">
             <seg n="c373db16">
               Herr talman! Margaretha af Ugglas har frågat mig om statsministerns
               löfte om en kredit till Nicaragua skall ses som ett gängse inslag
@@ -1610,30 +1665,10 @@
               Nicaragua med upphandling enligt de regler som gäller för importstöd.
             </seg>
           </u>
-          <note n="c9fc85aa">
-            55
-          </note>
-          <pb n="18" facs="https://betalab.kb.se/prot-198485--46/prot_198485__46-018.jp2/_view"/>
-          <note n="e84ba081">
-            Nr 46
-          </note>
-          <note n="baae98f9">
-            Fredagen den 7 december 1984
-          </note>
-          <note n="15ac0a3b">
-            56
-          </note>
-          <note n="0b3dbcac">
-            6 $ Svar på frågorna 1984/85:171 och 173 om vissa krediter till
-            Nicaragua
-          </note>
-          <note n="88539e64">
-            Anf. 23 Utrikesminister LENNART BODSTRÖM:
-          </note>
           <note type="speaker" n="d215681c">
             Anf. 24 MARGARETHA AF UGGLAS (m):
           </note>
-          <u who="margaretha_af_ugglas_97506e" xml:id="i-4ff5a18003dfef15-0" n="e4054d3d">
+          <u who="margaretha_af_ugglas_97506e" xml:id="i-bce2dcbb0c4edfd0-0" next="i-bce2dcbb0c4edfd0-1" n="e4054d3d">
             <seg n="1738fbbc">
               Herr talman! Jag skall be att få tacka utrikesministern för svaret
               på min fråga.
@@ -1649,7 +1684,9 @@
               besök
             </seg>
             <seg n="bd89dd31"/>
-            <seg n="bd89dd31"/>
+          </u>
+          <pb n="19" facs="https://betalab.kb.se/prot-198485--46/prot_198485__46-019.jp2/_view"/>
+          <u who="margaretha_af_ugglas_97506e" xml:id="i-bce2dcbb0c4edfd0-1" prev="i-bce2dcbb0c4edfd0-0" n="e4054d3d">
             <seg n="bd89dd31"/>
             <seg n="563ca421">
               i Nicaragua, men återigen kan jag, liksom i BPA-affären, notera
@@ -1691,11 +1728,10 @@
               i icke konstitutionella former!
             </seg>
           </u>
-          <pb n="19" facs="https://betalab.kb.se/prot-198485--46/prot_198485__46-019.jp2/_view"/>
           <note type="speaker" n="bbdaee87">
             Anf. 25 RUNE ÅNGSTRÖM (fp):
           </note>
-          <u who="rune_angstrom_beb583" xml:id="i-01f6d6c8108b0a8e-0" next="i-f0f49985df792199-0" n="e5c03631">
+          <u who="rune_angstrom_beb583" xml:id="i-e5c03631bd285adb-0" next="i-e5c03631bd285adb-6" n="e5c03631">
             <seg n="d409e072">
               Herr talman! Jag tackar utrikesministern för svaret. Utrikesministern
               säger i det att statsministern inte har lämnat några löften efter
@@ -1734,18 +1770,35 @@
           <note n="e84ba081">
             Nr 46
           </note>
-          <note n="baae98f9">
+          <note type="date" n="78b214e4">
             Fredagen den 7 december 1984
           </note>
-          <u who="rune_angstrom_beb583" xml:id="i-f0f49985df792199-0" prev="i-01f6d6c8108b0a8e-0" n="e5c03631">
+          <u who="rune_angstrom_beb583" xml:id="i-e5c03631bd285adb-1" prev="i-e5c03631bd285adb-0" n="e5c03631">
             <seg n="f354825c">
               Om vissa krediter till Nicaragua
             </seg>
-            <seg n="bd89dd31"/>
-            <seg n="bd89dd31"/>
+          </u>
+          <note n="41a420e9">
+            57
+          </note>
+          <u who="rune_angstrom_beb583" xml:id="i-e5c03631bd285adb-2" prev="i-e5c03631bd285adb-0" n="e5c03631"/>
+          <pb n="20" facs="https://betalab.kb.se/prot-198485--46/prot_198485__46-020.jp2/_view"/>
+          <u who="rune_angstrom_beb583" xml:id="i-e5c03631bd285adb-3" prev="i-e5c03631bd285adb-0" n="e5c03631"/>
+          <note n="e84ba081">
+            Nr 46
+          </note>
+          <note type="date" n="78b214e4">
+            Fredagen den 7 december 1984
+          </note>
+          <u who="rune_angstrom_beb583" xml:id="i-e5c03631bd285adb-4" prev="i-e5c03631bd285adb-0" n="e5c03631">
             <seg n="f354825c">
               Om vissa krediter till Nicaragua
             </seg>
+          </u>
+          <note n="04e5c7d4">
+            58
+          </note>
+          <u who="rune_angstrom_beb583" xml:id="i-e5c03631bd285adb-5" prev="i-e5c03631bd285adb-0" n="e5c03631">
             <seg n="71d0a458">
               krediten. Medelsramen för det innevarande budgetåret är 75 milj.
               kr. Om nästa budgetår får en belastning av den här krediten betyder
@@ -1753,6 +1806,11 @@
               varje fall minskas. Vad är det då som skall minskas eller avbrytas?
               Och vilka biståndsarbetare är det som då skall resa hem i förtid?
             </seg>
+          </u>
+          <note n="685dc24b">
+            Anf. 26 Utrikesminister LENNART BODSTRÖM:
+          </note>
+          <u who="rune_angstrom_beb583" xml:id="i-e5c03631bd285adb-6" prev="i-e5c03631bd285adb-0" n="e5c03631">
             <seg n="920f1db8">
               Herr talman! Som jag tidigare har framhållit berördes under statsministerns
               besök i Nicaragua biståndsfrågor i allmänhet. Det torde vara en
@@ -1776,26 +1834,10 @@
               vara det naturliga tillvägagångssättet.
             </seg>
           </u>
-          <note n="41a420e9">
-            57
-          </note>
-          <pb n="20" facs="https://betalab.kb.se/prot-198485--46/prot_198485__46-020.jp2/_view"/>
-          <note n="e84ba081">
-            Nr 46
-          </note>
-          <note n="baae98f9">
-            Fredagen den 7 december 1984
-          </note>
-          <note n="04e5c7d4">
-            58
-          </note>
-          <note n="685dc24b">
-            Anf. 26 Utrikesminister LENNART BODSTRÖM:
-          </note>
           <note type="speaker" n="ad002f26">
             Anf. 27 MARGARETHA AF UGGLAS (m):
           </note>
-          <u who="margaretha_af_ugglas_97506e" xml:id="i-4ff5a18003dfef15-1" n="e4054d3d">
+          <u who="margaretha_af_ugglas_97506e" xml:id="i-bce2dcbb0c4edfd0-2" n="e4054d3d">
             <seg n="93737856">
               Herr talman! Jag är också glad att detta är en undantagsåtgärd,
               men min fråga kvarstår, varför regeringen inte hanterade det här
@@ -1819,7 +1861,7 @@
           <note type="speaker" n="4bf6d341">
             Anf. 28 RUNE ÅNGSTRÖM (fp):
           </note>
-          <u who="rune_angstrom_beb583" xml:id="i-01f6d6c8108b0a8e-1" next="i-f0f49985df792199-1" n="e5c03631">
+          <u who="rune_angstrom_beb583" xml:id="i-e5c03631bd285adb-7" next="i-e5c03631bd285adb-9" n="e5c03631">
             <seg n="59e0eeec">
               Herr talman! Jag måste rätta utrikesministern beträffande en
               uppgift i hans senaste anförande. Han sade att det var på förslag
@@ -1833,7 +1875,9 @@
               på hemmaplan. Sedan meddelades Nicaragua detta beslut.
             </seg>
             <seg n="bd89dd31"/>
-            <seg n="bd89dd31"/>
+          </u>
+          <pb n="21" facs="https://betalab.kb.se/prot-198485--46/prot_198485__46-021.jp2/_view"/>
+          <u who="rune_angstrom_beb583" xml:id="i-e5c03631bd285adb-8" prev="i-e5c03631bd285adb-7" n="e5c03631">
             <seg n="bd89dd31"/>
             <seg n="e56b1bf1">
               Jag vill än en gång fråga: Finns det någon långsiktig planering
@@ -1843,11 +1887,10 @@
               utfaller och beloppet och räntorna inte kan betalas?
             </seg>
           </u>
-          <pb n="21" facs="https://betalab.kb.se/prot-198485--46/prot_198485__46-021.jp2/_view"/>
           <note n="9910f020">
             Anf. 29 Utrikesminister LENNART BODSTRÖM:
           </note>
-          <u who="rune_angstrom_beb583" xml:id="i-f0f49985df792199-1" prev="i-01f6d6c8108b0a8e-1" n="e5c03631">
+          <u who="rune_angstrom_beb583" xml:id="i-e5c03631bd285adb-9" prev="i-e5c03631bd285adb-7" n="e5c03631">
             <seg n="35ac68a0">
               Herr talman! Båda frågeställarna tycks utgå från att denna kredit
               inte kommer att kunna återbetalas. Regeringens förhoppning är
@@ -1862,7 +1905,7 @@
           <note type="speaker" n="e2ca279a">
             Anf. 30 RUNE ÅNGSTRÖM (fp):
           </note>
-          <u who="rune_angstrom_beb583" xml:id="i-01f6d6c8108b0a8e-2" next="i-f0f49985df792199-2" n="e5c03631">
+          <u who="rune_angstrom_beb583" xml:id="i-e5c03631bd285adb-10" next="i-e5c03631bd285adb-11" n="e5c03631">
             <seg n="40efdb06">
               Herr talman! Att vi utgår från att Nicaragua inte kan återbetala
               krediten följer av den bedömning som exportkreditnämnden har gjort.
@@ -1880,7 +1923,7 @@
           <note n="9fad1e4f">
             Anf. 31 Utrikesminister LENNART BODSTRÖM:
           </note>
-          <u who="rune_angstrom_beb583" xml:id="i-f0f49985df792199-2" prev="i-01f6d6c8108b0a8e-2" n="e5c03631">
+          <u who="rune_angstrom_beb583" xml:id="i-e5c03631bd285adb-11" prev="i-e5c03631bd285adb-10" n="e5c03631">
             <seg n="c9e8a688">
               Herr talman! Det väsentliga för Margaretha af Ugglas och Rune
               Ångström tycks ha varit att denna omedelbara hjälp inte skulle
@@ -1891,7 +1934,7 @@
           <note type="speaker" n="29753d05">
             Anf. 32 MARGARETHA AF UGGLAS (m):
           </note>
-          <u who="margaretha_af_ugglas_97506e" xml:id="i-cf3c928c485b2d5a-0" next="i-137cf846eeed9db0-0" n="e4054d3d">
+          <u who="margaretha_af_ugglas_97506e" xml:id="i-bce2dcbb0c4edfd0-3" next="i-bce2dcbb0c4edfd0-16" n="e4054d3d">
             <seg n="f3b82531">
               Herr talman! Nej, utrikesministern, så får man inte formulera
               det. Den krångliga kredit som har medfört alla dessa besvärligheter
@@ -1910,19 +1953,38 @@
           <note n="e84ba081">
             Nr 46
           </note>
-          <note n="baae98f9">
+          <note type="date" n="78b214e4">
             Fredagen den 7 december 1984
           </note>
-          <u who="margaretha_af_ugglas_97506e" xml:id="i-137cf846eeed9db0-0" prev="i-cf3c928c485b2d5a-0" n="e4054d3d">
+          <u who="margaretha_af_ugglas_97506e" xml:id="i-bce2dcbb0c4edfd0-4" prev="i-bce2dcbb0c4edfd0-3" n="e4054d3d">
             <seg n="f354825c">
               Om vissa krediter till Nicaragua
             </seg>
+          </u>
+          <note n="37c3d264">
+            59
+          </note>
+          <u who="margaretha_af_ugglas_97506e" xml:id="i-bce2dcbb0c4edfd0-5" prev="i-bce2dcbb0c4edfd0-3" n="e4054d3d">
             <seg n="bd89dd31"/>
-            <seg n="bd89dd31"/>
-            <seg n="bd89dd31"/>
+          </u>
+          <pb n="22" facs="https://betalab.kb.se/prot-198485--46/prot_198485__46-022.jp2/_view"/>
+          <u who="margaretha_af_ugglas_97506e" xml:id="i-bce2dcbb0c4edfd0-6" prev="i-bce2dcbb0c4edfd0-3" n="e4054d3d"/>
+          <note n="e84ba081">
+            Nr 46
+          </note>
+          <note type="date" n="78b214e4">
+            Fredagen den 7 december 1984
+          </note>
+          <u who="margaretha_af_ugglas_97506e" xml:id="i-bce2dcbb0c4edfd0-7" prev="i-bce2dcbb0c4edfd0-3" n="e4054d3d">
             <seg n="37114733">
               Om den politiska utvecklingen i Zimbabwe
             </seg>
+          </u>
+          <note n="f75c926e">
+            7 $&amp; Svar på fråga 1984/85:226 om den politiska utvecklingen
+            i Zimbabwe
+          </note>
+          <u who="margaretha_af_ugglas_97506e" xml:id="i-bce2dcbb0c4edfd0-8" prev="i-bce2dcbb0c4edfd0-3" n="e4054d3d">
             <seg n="e8e3431c">
               Anf. 33 Utrikesminister LENNART BODSTRÖM:
             </seg>
@@ -1990,7 +2052,9 @@
             </seg>
             <seg n="bd89dd31"/>
             <seg n="bd89dd31"/>
-            <seg n="bd89dd31"/>
+          </u>
+          <pb n="23" facs="https://betalab.kb.se/prot-198485--46/prot_198485__46-023.jp2/_view"/>
+          <u who="margaretha_af_ugglas_97506e" xml:id="i-bce2dcbb0c4edfd0-9" prev="i-bce2dcbb0c4edfd0-3" n="e4054d3d">
             <seg n="07bc6796">
               oppositionspolitikerna, ZAPU:s ledare Nkomo och UANC:s ledare
               biskop Muzoreva. Däremot har jag hört att Ian Smith lär har uttryckt
@@ -2054,17 +2118,46 @@
               överger planerna på enpartisystem och bibehåller flerpartisystem,
               som är det enda som kan förenas med demokrati.
             </seg>
+          </u>
+          <note n="e84ba081">
+            Nr 46
+          </note>
+          <note type="date" n="78b214e4">
+            Fredagen den 7 december 1984
+          </note>
+          <note n="b5ce3d93">
+            Om den politiska
+          </note>
+          <u who="margaretha_af_ugglas_97506e" xml:id="i-bce2dcbb0c4edfd0-10" prev="i-bce2dcbb0c4edfd0-3" n="e4054d3d">
             <seg n="4719703e">
               utvecklingen i Zimbabwe
             </seg>
+          </u>
+          <note n="7d8568f6">
+            61
+          </note>
+          <u who="margaretha_af_ugglas_97506e" xml:id="i-bce2dcbb0c4edfd0-11" prev="i-bce2dcbb0c4edfd0-3" n="e4054d3d">
             <seg n="bd89dd31"/>
+          </u>
+          <pb n="24" facs="https://betalab.kb.se/prot-198485--46/prot_198485__46-024.jp2/_view"/>
+          <u who="margaretha_af_ugglas_97506e" xml:id="i-bce2dcbb0c4edfd0-12" prev="i-bce2dcbb0c4edfd0-3" n="e4054d3d">
             <seg n="bd89dd31"/>
-            <seg n="bd89dd31"/>
-            <seg n="bd89dd31"/>
+          </u>
+          <note n="e84ba081">
+            Nr 46
+          </note>
+          <note type="date" n="78b214e4">
+            Fredagen den 7 december 1984
+          </note>
+          <u who="margaretha_af_ugglas_97506e" xml:id="i-bce2dcbb0c4edfd0-13" prev="i-bce2dcbb0c4edfd0-3" n="e4054d3d">
             <seg n="56dd6745">
               Om den politiska situationen i Chile
             </seg>
-            <seg n="bd89dd31"/>
+          </u>
+          <note n="f15a8dff">
+            62
+          </note>
+          <u who="margaretha_af_ugglas_97506e" xml:id="i-bce2dcbb0c4edfd0-14" prev="i-bce2dcbb0c4edfd0-3" n="e4054d3d">
             <seg n="228b9d59">
               Anf. 37 Utrikesminister LENNART BODSTRÖM:
             </seg>
@@ -2129,6 +2222,14 @@
               Jag tycker det är allvarligt att man går en sådan utveckling
               till mötes i Zimbabwe.
             </seg>
+          </u>
+          <note n="46230fe6">
+            Överläggningen var härmed avslutad.
+          </note>
+          <note n="b85c204e">
+            8$ Svar på fråga 1984/85:228 om den politiska situationen i Chile
+          </note>
+          <u who="margaretha_af_ugglas_97506e" xml:id="i-bce2dcbb0c4edfd0-15" prev="i-bce2dcbb0c4edfd0-3" n="e4054d3d">
             <seg n="39a23087">
               Anf. 39 Utrikesminister LENNART BODSTRÖM: Herr talman! Eva Hjelmström
               har frågat mig på vilket sätt regeringen i dag söker uttrycka
@@ -2136,7 +2237,9 @@
             </seg>
             <seg n="bd89dd31"/>
             <seg n="bd89dd31"/>
-            <seg n="bd89dd31"/>
+          </u>
+          <pb n="25" facs="https://betalab.kb.se/prot-198485--46/prot_198485__46-025.jp2/_view"/>
+          <u who="margaretha_af_ugglas_97506e" xml:id="i-bce2dcbb0c4edfd0-16" prev="i-bce2dcbb0c4edfd0-3" n="e4054d3d">
             <seg n="d841fa64">
               nella sammanhang vill verka för minoriteternas rättigheter i
               Chile.
@@ -2186,54 +2289,10 @@
               även fortsättningsvis att ägna intresse åt den chilenska urbefolkningen.
             </seg>
           </u>
-          <note n="37c3d264">
-            59
-          </note>
-          <pb n="22" facs="https://betalab.kb.se/prot-198485--46/prot_198485__46-022.jp2/_view"/>
-          <note n="e84ba081">
-            Nr 46
-          </note>
-          <note n="baae98f9">
-            Fredagen den 7 december 1984
-          </note>
-          <note n="f75c926e">
-            7 $&amp; Svar på fråga 1984/85:226 om den politiska utvecklingen
-            i Zimbabwe
-          </note>
-          <pb n="23" facs="https://betalab.kb.se/prot-198485--46/prot_198485__46-023.jp2/_view"/>
-          <note n="e84ba081">
-            Nr 46
-          </note>
-          <note n="baae98f9">
-            Fredagen den 7 december 1984
-          </note>
-          <note n="b5ce3d93">
-            Om den politiska
-          </note>
-          <note n="7d8568f6">
-            61
-          </note>
-          <pb n="24" facs="https://betalab.kb.se/prot-198485--46/prot_198485__46-024.jp2/_view"/>
-          <note n="e84ba081">
-            Nr 46
-          </note>
-          <note n="baae98f9">
-            Fredagen den 7 december 1984
-          </note>
-          <note n="f15a8dff">
-            62
-          </note>
-          <note n="46230fe6">
-            Överläggningen var härmed avslutad.
-          </note>
-          <note n="b85c204e">
-            8$ Svar på fråga 1984/85:228 om den politiska situationen i Chile
-          </note>
-          <pb n="25" facs="https://betalab.kb.se/prot-198485--46/prot_198485__46-025.jp2/_view"/>
           <note type="speaker" n="5ddf6735">
             Anf. 40 EVA HJELMSTRÖM (vpk):
           </note>
-          <u who="eva_hjelmstrom_af2d84" xml:id="i-582baffd77622f26-0" next="i-b5ae57c301b270eb-0" n="effcf672">
+          <u who="eva_hjelmstrom_af2d84" xml:id="i-effcf672206974df-0" next="i-effcf672206974df-5" n="effcf672">
             <seg n="807cc96a">
               Herr talman! Jag tackar utrikesministern för svaret. Låt mig
               kort konstatera att jag tycker att det är ett mycket bra svar.
@@ -2256,20 +2315,42 @@
           <note n="e84ba081">
             Nr 46
           </note>
-          <note n="baae98f9">
+          <note type="date" n="78b214e4">
             Fredagen den 7 december 1984
           </note>
-          <u who="eva_hjelmstrom_af2d84" xml:id="i-b5ae57c301b270eb-0" prev="i-582baffd77622f26-0" n="effcf672">
+          <u who="eva_hjelmstrom_af2d84" xml:id="i-effcf672206974df-1" prev="i-effcf672206974df-0" n="effcf672">
             <seg n="dd97e7d5">
               Om den politiska Situationen i Chile
             </seg>
+          </u>
+          <note n="3e2936cb">
+            63
+          </note>
+          <u who="eva_hjelmstrom_af2d84" xml:id="i-effcf672206974df-2" prev="i-effcf672206974df-0" n="effcf672">
             <seg n="bd89dd31"/>
-            <seg n="bd89dd31"/>
-            <seg n="bd89dd31"/>
+          </u>
+          <pb n="26" facs="https://betalab.kb.se/prot-198485--46/prot_198485__46-026.jp2/_view"/>
+          <u who="eva_hjelmstrom_af2d84" xml:id="i-effcf672206974df-3" prev="i-effcf672206974df-0" n="effcf672"/>
+          <note n="e84ba081">
+            Nr 46
+          </note>
+          <note type="date" n="78b214e4">
+            Fredagen den 7 december 1984
+          </note>
+          <u who="eva_hjelmstrom_af2d84" xml:id="i-effcf672206974df-4" prev="i-effcf672206974df-0" n="effcf672">
             <seg n="38813b6b">
               Om information om den sovjetiske medborgarrättskämpen Anatolij
               Sjtjaranskij
             </seg>
+          </u>
+          <note n="b432bb4a">
+            64
+          </note>
+          <note n="b0e9106f">
+            9 $ Svar på fråga 1984/85:232 om information om den sovjetiske
+            medborgarrättskämpen Anatolij Sjtjaranskij
+          </note>
+          <u who="eva_hjelmstrom_af2d84" xml:id="i-effcf672206974df-5" prev="i-effcf672206974df-0" n="effcf672">
             <seg n="0cc0b779">
               Anf. 41 Utrikesminister LENNART BODSTRÖM:
             </seg>
@@ -2296,27 +2377,10 @@
               om frigivning och utresa för Sjtjaranskij.
             </seg>
           </u>
-          <note n="3e2936cb">
-            63
-          </note>
-          <pb n="26" facs="https://betalab.kb.se/prot-198485--46/prot_198485__46-026.jp2/_view"/>
-          <note n="e84ba081">
-            Nr 46
-          </note>
-          <note n="baae98f9">
-            Fredagen den 7 december 1984
-          </note>
-          <note n="b432bb4a">
-            64
-          </note>
-          <note n="b0e9106f">
-            9 $ Svar på fråga 1984/85:232 om information om den sovjetiske
-            medborgarrättskämpen Anatolij Sjtjaranskij
-          </note>
           <note type="speaker" n="7c1deb35">
             Anf. 42 RUNE TORWALD (c):
           </note>
-          <u who="rune_torwald_83b8fb" xml:id="i-e2a55d48711abf21-0" next="i-7f0ad546b5eeafcb-0" n="fd277c9e">
+          <u who="rune_torwald_83b8fb" xml:id="i-fd277c9e812f73f3-0" next="i-fd277c9e812f73f3-6" n="fd277c9e">
             <seg n="71e487c5">
               Herr talman! Jag vill gärna uttrycka min stora tacksamhet över
               det utförliga och klart positiva svaret. Låt mig bara ge en kompletterande
@@ -2360,7 +2424,9 @@
             </seg>
             <seg n="bd89dd31"/>
             <seg n="bd89dd31"/>
-            <seg n="bd89dd31"/>
+          </u>
+          <pb n="27" facs="https://betalab.kb.se/prot-198485--46/prot_198485__46-027.jp2/_view"/>
+          <u who="rune_torwald_83b8fb" xml:id="i-fd277c9e812f73f3-1" prev="i-fd277c9e812f73f3-0" n="fd277c9e">
             <seg n="e748c657">
               hade någon uppgift om var Sjtjaranskij befann sig vid tillfället.
               Det var därför jag ställde min fråga. Lyckligtvis fick jag redan
@@ -2377,14 +2443,13 @@
               gång för svaret.
             </seg>
           </u>
-          <pb n="27" facs="https://betalab.kb.se/prot-198485--46/prot_198485__46-027.jp2/_view"/>
           <note n="46230fe6">
             Överläggningen var härmed avslutad.
           </note>
           <note n="61be157a">
             10 $ Svar på interpellation 1984/85:61 om hanteringen av importstödet
           </note>
-          <u who="rune_torwald_83b8fb" xml:id="i-7f0ad546b5eeafcb-0" prev="i-e2a55d48711abf21-0" n="fd277c9e">
+          <u who="rune_torwald_83b8fb" xml:id="i-fd277c9e812f73f3-2" prev="i-fd277c9e812f73f3-0" n="fd277c9e">
             <seg n="55d38df0">
               Anf. 43 Utrikesminister LENNART BODSTRÖM:
             </seg>
@@ -2434,12 +2499,36 @@
               hur importstödet bör utformas för att det på bästa sätt skall
               kunna anpassas efter
             </seg>
+          </u>
+          <note n="9e7962b5">
+            S Riksdagens protokoll 1984/85:45-47
+          </note>
+          <note n="e84ba081">
+            Nr 46
+          </note>
+          <note type="date" n="78b214e4">
+            Fredagen den 7 december 1984
+          </note>
+          <u who="rune_torwald_83b8fb" xml:id="i-fd277c9e812f73f3-3" prev="i-fd277c9e812f73f3-0" n="fd277c9e">
             <seg n="15f88921">
               Om hanteringen av importstödet
             </seg>
+          </u>
+          <note n="076aa18a">
+            65
+          </note>
+          <u who="rune_torwald_83b8fb" xml:id="i-fd277c9e812f73f3-4" prev="i-fd277c9e812f73f3-0" n="fd277c9e">
             <seg n="bd89dd31"/>
-            <seg n="bd89dd31"/>
-            <seg n="bd89dd31"/>
+          </u>
+          <pb n="28" facs="https://betalab.kb.se/prot-198485--46/prot_198485__46-028.jp2/_view"/>
+          <u who="rune_torwald_83b8fb" xml:id="i-fd277c9e812f73f3-5" prev="i-fd277c9e812f73f3-0" n="fd277c9e"/>
+          <note n="e84ba081">
+            Nr 46
+          </note>
+          <note type="date" n="78b214e4">
+            Fredagen den 7 december 1984
+          </note>
+          <u who="rune_torwald_83b8fb" xml:id="i-fd277c9e812f73f3-6" prev="i-fd277c9e812f73f3-0" n="fd277c9e">
             <seg n="15f88921">
               Om hanteringen av importstödet
             </seg>
@@ -2466,29 +2555,10 @@
               ytterligare.
             </seg>
           </u>
-          <note n="9e7962b5">
-            S Riksdagens protokoll 1984/85:45-47
-          </note>
-          <note n="e84ba081">
-            Nr 46
-          </note>
-          <note n="baae98f9">
-            Fredagen den 7 december 1984
-          </note>
-          <note n="076aa18a">
-            65
-          </note>
-          <pb n="28" facs="https://betalab.kb.se/prot-198485--46/prot_198485__46-028.jp2/_view"/>
-          <note n="e84ba081">
-            Nr 46
-          </note>
-          <note n="baae98f9">
-            Fredagen den 7 december 1984
-          </note>
           <note type="speaker" n="57dc6f2f">
             Anf. 44 MARGARETHA AF UGGLAS (m):
           </note>
-          <u who="margaretha_af_ugglas_97506e" xml:id="i-cf3c928c485b2d5a-1" next="i-137cf846eeed9db0-1" n="e4054d3d">
+          <u who="margaretha_af_ugglas_97506e" xml:id="i-bce2dcbb0c4edfd0-17" next="i-bce2dcbb0c4edfd0-24" n="e4054d3d">
             <seg n="64382908">
               Herr talman! Jag ber att få tacka utrikesministern för svaret
               på mina frågor.
@@ -2538,7 +2608,9 @@
             </seg>
             <seg n="bd89dd31"/>
             <seg n="bd89dd31"/>
-            <seg n="bd89dd31"/>
+          </u>
+          <pb n="29" facs="https://betalab.kb.se/prot-198485--46/prot_198485__46-029.jp2/_view"/>
+          <u who="margaretha_af_ugglas_97506e" xml:id="i-bce2dcbb0c4edfd0-18" prev="i-bce2dcbb0c4edfd0-17" n="e4054d3d">
             <seg n="bd89dd31"/>
             <seg n="71f1b014">
               importstödets hantering.
@@ -2558,12 +2630,11 @@
               var
             </seg>
           </u>
-          <pb n="29" facs="https://betalab.kb.se/prot-198485--46/prot_198485__46-029.jp2/_view"/>
           <note n="0c58f4f0">
             43 90, dvs. 1,2 miljarder kronor. Under tidsperioden 1971/72-1981/82,
             alltså”
           </note>
-          <u who="margaretha_af_ugglas_97506e" xml:id="i-137cf846eeed9db0-1" prev="i-cf3c928c485b2d5a-1" n="e4054d3d">
+          <u who="margaretha_af_ugglas_97506e" xml:id="i-bce2dcbb0c4edfd0-19" prev="i-bce2dcbb0c4edfd0-17" n="e4054d3d">
             <seg n="ada5981d">
               under en tioårsperiod, har 16 200 milj. kr. utbetalats i importstöd.
             </seg>
@@ -2620,14 +2691,44 @@
               ”Det är min bestämda uppfattning att vi så snart som möjligt
               bör övergå till
             </seg>
+          </u>
+          <note n="e84ba081">
+            Nr 46
+          </note>
+          <note n="a6dfc2b3">
+            Fredagen den
+          </note>
+          <note n="8bb3029e">
+            7 december 1984
+          </note>
+          <u who="margaretha_af_ugglas_97506e" xml:id="i-bce2dcbb0c4edfd0-20" prev="i-bce2dcbb0c4edfd0-17" n="e4054d3d">
             <seg n="c11bf455">
               Om hanteringen av
             </seg>
-            <seg n="bd89dd31"/>
+          </u>
+          <note n="0c0a9b3a">
+            importstödet
+          </note>
+          <note n="ac5ff56c">
+            67
+          </note>
+          <pb n="30" facs="https://betalab.kb.se/prot-198485--46/prot_198485__46-030.jp2/_view"/>
+          <u who="margaretha_af_ugglas_97506e" xml:id="i-bce2dcbb0c4edfd0-21" prev="i-bce2dcbb0c4edfd0-17" n="e4054d3d"/>
+          <note n="e84ba081">
+            Nr 46
+          </note>
+          <note type="date" n="78b214e4">
+            Fredagen den 7 december 1984
+          </note>
+          <u who="margaretha_af_ugglas_97506e" xml:id="i-bce2dcbb0c4edfd0-22" prev="i-bce2dcbb0c4edfd0-17" n="e4054d3d">
             <seg n="15f88921">
               Om hanteringen av importstödet
             </seg>
-            <seg n="bd89dd31"/>
+          </u>
+          <note n="46f5a393">
+            68
+          </note>
+          <u who="margaretha_af_ugglas_97506e" xml:id="i-bce2dcbb0c4edfd0-23" prev="i-bce2dcbb0c4edfd0-17" n="e4054d3d">
             <seg n="4e3d7fc9">
               ett system där biståndsmyndigheterna får visa hur effektivt de
               kan använda de pengar de begär. I själva verket vore detta naturligt
@@ -2693,7 +2794,9 @@
               att mycket som vi händelsevis skulle anse vara deras
             </seg>
             <seg n="bd89dd31"/>
-            <seg n="bd89dd31"/>
+          </u>
+          <pb n="31" facs="https://betalab.kb.se/prot-198485--46/prot_198485__46-031.jp2/_view"/>
+          <u who="margaretha_af_ugglas_97506e" xml:id="i-bce2dcbb0c4edfd0-24" prev="i-bce2dcbb0c4edfd0-17" n="e4054d3d">
             <seg n="34243255">
               största behov inte nödvändigtvis behöver vara det, om man i u-länderna
               har en annan uppfattning.
@@ -2713,36 +2816,10 @@
               ta sitt eget ansvar.
             </seg>
           </u>
-          <note n="e84ba081">
-            Nr 46
-          </note>
-          <note n="a6dfc2b3">
-            Fredagen den
-          </note>
-          <note n="8bb3029e">
-            7 december 1984
-          </note>
-          <note n="0c0a9b3a">
-            importstödet
-          </note>
-          <note n="ac5ff56c">
-            67
-          </note>
-          <pb n="30" facs="https://betalab.kb.se/prot-198485--46/prot_198485__46-030.jp2/_view"/>
-          <note n="e84ba081">
-            Nr 46
-          </note>
-          <note n="baae98f9">
-            Fredagen den 7 december 1984
-          </note>
-          <note n="46f5a393">
-            68
-          </note>
-          <pb n="31" facs="https://betalab.kb.se/prot-198485--46/prot_198485__46-031.jp2/_view"/>
           <note type="speaker" n="a45b4dc4">
             Anf. 46 MARGARETHA AF UGGLAS (m):
           </note>
-          <u who="margaretha_af_ugglas_97506e" xml:id="i-cf3c928c485b2d5a-2" next="i-137cf846eeed9db0-2" n="e4054d3d">
+          <u who="margaretha_af_ugglas_97506e" xml:id="i-bce2dcbb0c4edfd0-25" next="i-bce2dcbb0c4edfd0-31" n="e4054d3d">
             <seg n="c9fa4666">
               Herr talman! Jag tycker mig i utrikesministerns senaste inlägg
               spåra en viss öppning, en viss flexibilitet, som visar att utrikesministern
@@ -2779,7 +2856,7 @@
           <note n="f70b72ba">
             Anf. 47 Jordbruksminister SVANTE LUNDKVIST:
           </note>
-          <u who="margaretha_af_ugglas_97506e" xml:id="i-137cf846eeed9db0-2" prev="i-cf3c928c485b2d5a-2" n="e4054d3d">
+          <u who="margaretha_af_ugglas_97506e" xml:id="i-bce2dcbb0c4edfd0-26" prev="i-bce2dcbb0c4edfd0-25" n="e4054d3d">
             <seg n="a21df7f2">
               Herr talman! Bengt Kindbom har frågat mig om regeringen är beredd
               att anslå de medel som erfordras för byggande av en informationsanläggning
@@ -2791,14 +2868,45 @@
               Hornborgasjön. Mot bakgrund av den betydande naturvårdssatsning
               som restaurering-
             </seg>
+          </u>
+          <note n="e84ba081">
+            Nr 46
+          </note>
+          <note type="date" n="78b214e4">
+            Fredagen den 7 december 1984
+          </note>
+          <note n="419de287">
+            Om en informa-
+          </note>
+          <u who="margaretha_af_ugglas_97506e" xml:id="i-bce2dcbb0c4edfd0-27" prev="i-bce2dcbb0c4edfd0-25" n="e4054d3d">
             <seg n="c3a90ee9">
               tionsanläggning vid Hornborgasjön
             </seg>
-            <seg n="bd89dd31"/>
-            <seg n="bd89dd31"/>
+          </u>
+          <note n="35730449">
+            69
+          </note>
+          <u who="margaretha_af_ugglas_97506e" xml:id="i-bce2dcbb0c4edfd0-28" prev="i-bce2dcbb0c4edfd0-25" n="e4054d3d"/>
+          <pb n="32" facs="https://betalab.kb.se/prot-198485--46/prot_198485__46-032.jp2/_view"/>
+          <u who="margaretha_af_ugglas_97506e" xml:id="i-bce2dcbb0c4edfd0-29" prev="i-bce2dcbb0c4edfd0-25" n="e4054d3d"/>
+          <note n="e84ba081">
+            Nr 46
+          </note>
+          <note type="date" n="78b214e4">
+            Fredagen den 7 december 1984
+          </note>
+          <note n="419de287">
+            Om en informa-
+          </note>
+          <u who="margaretha_af_ugglas_97506e" xml:id="i-bce2dcbb0c4edfd0-30" prev="i-bce2dcbb0c4edfd0-25" n="e4054d3d">
             <seg n="c3a90ee9">
               tionsanläggning vid Hornborgasjön
             </seg>
+          </u>
+          <note n="07927f6c">
+            70
+          </note>
+          <u who="margaretha_af_ugglas_97506e" xml:id="i-bce2dcbb0c4edfd0-31" prev="i-bce2dcbb0c4edfd0-25" n="e4054d3d">
             <seg n="0ab36e1d">
               en av Hornborgasjön utgör, finner jag det naturligt att en anläggning
               av detta slag kommer till stånd. Detta har under hand meddelats
@@ -2808,35 +2916,10 @@
               Jag vill därför inte här föregripa resultatet av dessa överläggningar.
             </seg>
           </u>
-          <note n="e84ba081">
-            Nr 46
-          </note>
-          <note n="baae98f9">
-            Fredagen den 7 december 1984
-          </note>
-          <note n="419de287">
-            Om en informa-
-          </note>
-          <note n="35730449">
-            69
-          </note>
-          <pb n="32" facs="https://betalab.kb.se/prot-198485--46/prot_198485__46-032.jp2/_view"/>
-          <note n="e84ba081">
-            Nr 46
-          </note>
-          <note n="baae98f9">
-            Fredagen den 7 december 1984
-          </note>
-          <note n="419de287">
-            Om en informa-
-          </note>
-          <note n="07927f6c">
-            70
-          </note>
           <note type="speaker" n="a8b72a32">
             Anf. 48 BENGT KINDBOM (c):
           </note>
-          <u who="bengt_kindbom_298d6a" xml:id="i-d2ded067d93b4d36-0" next="i-c6b6e12d0350169a-0" n="2ea8d2ab">
+          <u who="bengt_kindbom_298d6a" xml:id="i-2ea8d2ab98c88bc9-0" next="i-2ea8d2ab98c88bc9-2" n="2ea8d2ab">
             <seg n="d45f99fb">
               Herr talman! Jag ber att få tacka jordbruksministern för svaret
               på frågan. Jag utgår från att jordbruksministern anser att restaureringen
@@ -2885,7 +2968,7 @@
           <note n="5f37a506">
             Anf. 49 Jordbruksminister SVANTE LUNDKVIST:
           </note>
-          <u who="bengt_kindbom_298d6a" xml:id="i-c6b6e12d0350169a-0" prev="i-d2ded067d93b4d36-0" n="2ea8d2ab">
+          <u who="bengt_kindbom_298d6a" xml:id="i-2ea8d2ab98c88bc9-1" prev="i-2ea8d2ab98c88bc9-0" n="2ea8d2ab">
             <seg n="0b974e5e">
               Herr talman! Det är naturligtvis riktigt, som Bengt Kindbom säger,
               att jag anser att Hornborgasjön är ett riksintresse. Det har vi
@@ -2901,7 +2984,9 @@
             </seg>
             <seg n="bd89dd31"/>
             <seg n="bd89dd31"/>
-            <seg n="bd89dd31"/>
+          </u>
+          <pb n="33" facs="https://betalab.kb.se/prot-198485--46/prot_198485__46-033.jp2/_view"/>
+          <u who="bengt_kindbom_298d6a" xml:id="i-2ea8d2ab98c88bc9-2" prev="i-2ea8d2ab98c88bc9-0" n="2ea8d2ab">
             <seg n="bd89dd31"/>
             <seg n="0691df37">
               Det skulle vara fel av mig att då precisera vilket resultat naturvårdsverket
@@ -2912,11 +2997,10 @@
               Naturvårdsverket har uppdraget att slutföra överläggningarna.
             </seg>
           </u>
-          <pb n="33" facs="https://betalab.kb.se/prot-198485--46/prot_198485__46-033.jp2/_view"/>
           <note type="speaker" n="2c6ce353">
             Anf. 50 BENGT KINDBOM (c):
           </note>
-          <u who="bengt_kindbom_298d6a" xml:id="i-d2ded067d93b4d36-1" next="i-c6b6e12d0350169a-1" n="2ea8d2ab">
+          <u who="bengt_kindbom_298d6a" xml:id="i-2ea8d2ab98c88bc9-3" next="i-2ea8d2ab98c88bc9-8" n="2ea8d2ab">
             <seg n="02d57931">
               Herr talman! Det är bra att vi är överens om värdet av Hornborgasjön.
               Jag erinrar mig att socialdemokraterna under oppositionstiden
@@ -2951,11 +3035,17 @@
             Anf. 51 Statsrådet BENGT GÖRANSSON: Herr talman! Eva Hjelmström
             har frågat mig följande:
           </note>
-          <u who="bengt_kindbom_298d6a" xml:id="i-c6b6e12d0350169a-1" prev="i-d2ded067d93b4d36-1" n="2ea8d2ab">
+          <u who="bengt_kindbom_298d6a" xml:id="i-2ea8d2ab98c88bc9-4" prev="i-2ea8d2ab98c88bc9-3" n="2ea8d2ab">
             <seg n="26f6955b">
               1. Vilka åtgärder avser regeringen att vidta för att förbättra
               mediaundervisningen på alla nivåer inom skola och förskola?
             </seg>
+          </u>
+          <note n="cc581287">
+            2. På vilket sätt avser regeringen att motverka kommersialiseringen
+            av etern genom kabel-TV-utbyggnaden m. m.?
+          </note>
+          <u who="bengt_kindbom_298d6a" xml:id="i-2ea8d2ab98c88bc9-5" prev="i-2ea8d2ab98c88bc9-3" n="2ea8d2ab">
             <seg n="519ce153">
               3. Vilka åtgärder avser regeringen att vidta vad gäller kulturoch
               mediaområdet för att förbättra just barnens och ungdomens villkor
@@ -2975,8 +3065,41 @@
               I den kommande budgetpropositionen återkommer jag till frågan
               om ytterligare åtgärder för att stimulera kultur i skolan.
             </seg>
-            <seg n="bd89dd31"/>
-            <seg n="bd89dd31"/>
+          </u>
+          <note n="e84ba081">
+            Nr 46
+          </note>
+          <note type="date" n="78b214e4">
+            Fredagen den 7 december 1984
+          </note>
+          <note n="f5da1238">
+            Om medieunder-
+          </note>
+          <note n="efe7b47b">
+            visningen i skolan, m.m.
+          </note>
+          <note n="41b0b25d">
+            7n
+          </note>
+          <u who="bengt_kindbom_298d6a" xml:id="i-2ea8d2ab98c88bc9-6" prev="i-2ea8d2ab98c88bc9-3" n="2ea8d2ab"/>
+          <pb n="34" facs="https://betalab.kb.se/prot-198485--46/prot_198485__46-034.jp2/_view"/>
+          <u who="bengt_kindbom_298d6a" xml:id="i-2ea8d2ab98c88bc9-7" prev="i-2ea8d2ab98c88bc9-3" n="2ea8d2ab"/>
+          <note n="e84ba081">
+            Nr 46
+          </note>
+          <note type="date" n="78b214e4">
+            Fredagen den 7 december 1984
+          </note>
+          <note n="f5da1238">
+            Om medieunder-
+          </note>
+          <note n="efe7b47b">
+            visningen i skolan, m.m.
+          </note>
+          <note n="7dc4b283">
+            72
+          </note>
+          <u who="bengt_kindbom_298d6a" xml:id="i-2ea8d2ab98c88bc9-8" prev="i-2ea8d2ab98c88bc9-3" n="2ea8d2ab">
             <seg n="950d3b6a">
               När det gäller frågor inom kulturoch medieområdet utanför skolsektorn
               pågår f.n. ett beredningsarbete inom regeringskansliet som omfattar
@@ -3007,45 +3130,10 @@
               och kvalitetskänsla genom eget skapande.
             </seg>
           </u>
-          <note n="cc581287">
-            2. På vilket sätt avser regeringen att motverka kommersialiseringen
-            av etern genom kabel-TV-utbyggnaden m. m.?
-          </note>
-          <note n="e84ba081">
-            Nr 46
-          </note>
-          <note n="baae98f9">
-            Fredagen den 7 december 1984
-          </note>
-          <note n="f5da1238">
-            Om medieunder-
-          </note>
-          <note n="efe7b47b">
-            visningen i skolan, m.m.
-          </note>
-          <note n="41b0b25d">
-            7n
-          </note>
-          <pb n="34" facs="https://betalab.kb.se/prot-198485--46/prot_198485__46-034.jp2/_view"/>
-          <note n="e84ba081">
-            Nr 46
-          </note>
-          <note n="baae98f9">
-            Fredagen den 7 december 1984
-          </note>
-          <note n="f5da1238">
-            Om medieunder-
-          </note>
-          <note n="efe7b47b">
-            visningen i skolan, m.m.
-          </note>
-          <note n="7dc4b283">
-            72
-          </note>
           <note type="speaker" n="56ff0eb1">
             Anf. 52 EVA HJELMSTRÖM (vpk):
           </note>
-          <u who="eva_hjelmstrom_af2d84" xml:id="i-582baffd77622f26-1" next="i-b5ae57c301b270eb-1" n="effcf672">
+          <u who="eva_hjelmstrom_af2d84" xml:id="i-effcf672206974df-6" next="i-effcf672206974df-10" n="effcf672">
             <seg n="0bce2185">
               Herr talman! Jag tackar kulturministern för svaret på min interpellation,
               men jag tycker att det är ett mycket tunt svar.
@@ -3080,7 +3168,9 @@
             </seg>
             <seg n="bd89dd31"/>
             <seg n="bd89dd31"/>
-            <seg n="bd89dd31"/>
+          </u>
+          <pb n="35" facs="https://betalab.kb.se/prot-198485--46/prot_198485__46-035.jp2/_view"/>
+          <u who="eva_hjelmstrom_af2d84" xml:id="i-effcf672206974df-7" prev="i-effcf672206974df-6" n="effcf672">
             <seg n="bd89dd31"/>
             <seg n="47db7019">
               från lärarorganisationer, från elevorganisationer och även från
@@ -3151,18 +3241,41 @@
               och ständigt kommer att handla om
             </seg>
           </u>
-          <pb n="35" facs="https://betalab.kb.se/prot-198485--46/prot_198485__46-035.jp2/_view"/>
           <note n="f07b0263">
             Nr 46 Fredagen den
           </note>
           <note n="8bb3029e">
             7 december 1984
           </note>
-          <u who="eva_hjelmstrom_af2d84" xml:id="i-b5ae57c301b270eb-1" prev="i-582baffd77622f26-1" n="effcf672">
+          <u who="eva_hjelmstrom_af2d84" xml:id="i-effcf672206974df-8" prev="i-effcf672206974df-6" n="effcf672">
             <seg n="686b5c02">
               Om medieundervisningen i skolan,
             </seg>
-            <seg n="bd89dd31"/>
+          </u>
+          <note n="f54ffe78">
+            m.m.
+          </note>
+          <note n="6a4a4f20">
+            33
+          </note>
+          <pb n="36" facs="https://betalab.kb.se/prot-198485--46/prot_198485__46-036.jp2/_view"/>
+          <u who="eva_hjelmstrom_af2d84" xml:id="i-effcf672206974df-9" prev="i-effcf672206974df-6" n="effcf672"/>
+          <note n="e84ba081">
+            Nr 46
+          </note>
+          <note type="date" n="78b214e4">
+            Fredagen den 7 december 1984
+          </note>
+          <note n="f5da1238">
+            Om medieunder-
+          </note>
+          <note n="efe7b47b">
+            visningen i skolan, m.m.
+          </note>
+          <note n="1dc7d061">
+            74
+          </note>
+          <u who="eva_hjelmstrom_af2d84" xml:id="i-effcf672206974df-10" prev="i-effcf672206974df-6" n="effcf672">
             <seg n="02278fd5">
               video. Det är ju inte bara videovåldet vi skall motverka. Jag
               har i min interpellation tagit upp andra utbud från medierna som
@@ -3181,32 +3294,10 @@
               Det finns andra medier som är lika ruskiga.
             </seg>
           </u>
-          <note n="f54ffe78">
-            m.m.
-          </note>
-          <note n="6a4a4f20">
-            33
-          </note>
-          <pb n="36" facs="https://betalab.kb.se/prot-198485--46/prot_198485__46-036.jp2/_view"/>
-          <note n="e84ba081">
-            Nr 46
-          </note>
-          <note n="baae98f9">
-            Fredagen den 7 december 1984
-          </note>
-          <note n="f5da1238">
-            Om medieunder-
-          </note>
-          <note n="efe7b47b">
-            visningen i skolan, m.m.
-          </note>
-          <note n="1dc7d061">
-            74
-          </note>
           <note type="speaker" n="53a888ed">
             Anf. 53 INGRID SUNDBERG (m):
           </note>
-          <u who="ingrid_sundberg_86e5e0" xml:id="i-3657d7edd55e6ace-2" next="i-c15df2b82d38a475-2" n="a0c3dda6">
+          <u who="ingrid_sundberg_86e5e0" xml:id="i-a0c3dda6d76533bf-11" next="i-a0c3dda6d76533bf-20" n="a0c3dda6">
             <seg n="ec5f2c6a">
               Herr talman! Eva Hjelmström har visat på några problem i dagens
               massmediesituation. Utan att jag på något sätt delar hennes uppfattning
@@ -3261,7 +3352,9 @@
             </seg>
             <seg n="bd89dd31"/>
             <seg n="bd89dd31"/>
-            <seg n="bd89dd31"/>
+          </u>
+          <pb n="37" facs="https://betalab.kb.se/prot-198485--46/prot_198485__46-037.jp2/_view"/>
+          <u who="ingrid_sundberg_86e5e0" xml:id="i-a0c3dda6d76533bf-12" prev="i-a0c3dda6d76533bf-11" n="a0c3dda6">
             <seg n="bd89dd31"/>
             <seg n="b3726199">
               med problemet över huvud taget — det kommer nämligen alltid att
@@ -3311,11 +3404,10 @@
               egen uppfattning om hur de resurserna skall tas fram.
             </seg>
           </u>
-          <pb n="37" facs="https://betalab.kb.se/prot-198485--46/prot_198485__46-037.jp2/_view"/>
           <note n="be96deb1">
             Anf. 54 Statsrådet BENGT GÖRANSSON:
           </note>
-          <u who="ingrid_sundberg_86e5e0" xml:id="i-c15df2b82d38a475-2" prev="i-3657d7edd55e6ace-2" n="a0c3dda6">
+          <u who="ingrid_sundberg_86e5e0" xml:id="i-a0c3dda6d76533bf-13" prev="i-a0c3dda6d76533bf-11" n="a0c3dda6">
             <seg n="c23329c4">
               Herr talman! Eva Hjelmström uttalar i sitt inlägg uppfattningen
               att mitt svar är tunt. Det är det inte, men det är koncentrerat.
@@ -3335,8 +3427,41 @@
               tror alltså att det är en risk att ständigt utgå ifrån att barn
               och ungdomar i vårt samhälle i dag är
             </seg>
-            <seg n="bd89dd31"/>
-            <seg n="bd89dd31"/>
+          </u>
+          <note n="e84ba081">
+            Nr 46
+          </note>
+          <note type="date" n="78b214e4">
+            Fredagen den 7 december 1984
+          </note>
+          <note n="f5da1238">
+            Om medieunder-
+          </note>
+          <note n="efe7b47b">
+            visningen i skolan, m.m.
+          </note>
+          <note n="408e27b9">
+            15
+          </note>
+          <u who="ingrid_sundberg_86e5e0" xml:id="i-a0c3dda6d76533bf-14" prev="i-a0c3dda6d76533bf-11" n="a0c3dda6"/>
+          <pb n="38" facs="https://betalab.kb.se/prot-198485--46/prot_198485__46-038.jp2/_view"/>
+          <u who="ingrid_sundberg_86e5e0" xml:id="i-a0c3dda6d76533bf-15" prev="i-a0c3dda6d76533bf-11" n="a0c3dda6"/>
+          <note n="e84ba081">
+            Nr 46
+          </note>
+          <note type="date" n="78b214e4">
+            Fredagen den 7 december 1984
+          </note>
+          <note n="f5da1238">
+            Om medieunder-
+          </note>
+          <note n="762abceb">
+            visningen iskolan, m.m.
+          </note>
+          <note n="f59918e7">
+            76
+          </note>
+          <u who="ingrid_sundberg_86e5e0" xml:id="i-a0c3dda6d76533bf-16" prev="i-a0c3dda6d76533bf-11" n="a0c3dda6">
             <seg n="2788cfb8">
               tillspillogivna — det är de inte.
             </seg>
@@ -3408,7 +3533,9 @@
             </seg>
             <seg n="bd89dd31"/>
             <seg n="bd89dd31"/>
-            <seg n="bd89dd31"/>
+          </u>
+          <pb n="39" facs="https://betalab.kb.se/prot-198485--46/prot_198485__46-039.jp2/_view"/>
+          <u who="ingrid_sundberg_86e5e0" xml:id="i-a0c3dda6d76533bf-17" prev="i-a0c3dda6d76533bf-11" n="a0c3dda6">
             <seg n="bd89dd31"/>
             <seg n="bd89dd31"/>
             <seg n="53e5f422">
@@ -3475,52 +3602,7 @@
               ut på avvägar — staketbyggarna avser sällan att deras egna rörelser
               skall begränsas av de staket som man sätter upp.
             </seg>
-            <seg n="686b5c02">
-              Om medieundervisningen i skolan,
-            </seg>
-            <seg n="bd89dd31"/>
-            <seg n="583c5edf">
-              Jag tycker att det är viktigt att slå fast föräldraansvaret.
-              Det är viktigt att slå fast att varje människa har möjlighet att
-              ta ansvar för sig själv i samverkan med andra. Mot den bakgrunden
-              blir skolan den i särklass viktigaste kulturinstitutionen, och
-              den synen kommer att återspeglas i budgetpropositionen. I det
-              perspektivet tycker jag att det är ganska bra om biografbyråns
-              roll blir att hyfsa.
-            </seg>
           </u>
-          <note n="e84ba081">
-            Nr 46
-          </note>
-          <note n="baae98f9">
-            Fredagen den 7 december 1984
-          </note>
-          <note n="f5da1238">
-            Om medieunder-
-          </note>
-          <note n="efe7b47b">
-            visningen i skolan, m.m.
-          </note>
-          <note n="408e27b9">
-            15
-          </note>
-          <pb n="38" facs="https://betalab.kb.se/prot-198485--46/prot_198485__46-038.jp2/_view"/>
-          <note n="e84ba081">
-            Nr 46
-          </note>
-          <note n="baae98f9">
-            Fredagen den 7 december 1984
-          </note>
-          <note n="f5da1238">
-            Om medieunder-
-          </note>
-          <note n="762abceb">
-            visningen iskolan, m.m.
-          </note>
-          <note n="f59918e7">
-            76
-          </note>
-          <pb n="39" facs="https://betalab.kb.se/prot-198485--46/prot_198485__46-039.jp2/_view"/>
           <note n="e84ba081">
             Nr 46
           </note>
@@ -3530,6 +3612,11 @@
           <note n="8bb3029e">
             7 december 1984
           </note>
+          <u who="ingrid_sundberg_86e5e0" xml:id="i-a0c3dda6d76533bf-18" prev="i-a0c3dda6d76533bf-11" n="a0c3dda6">
+            <seg n="686b5c02">
+              Om medieundervisningen i skolan,
+            </seg>
+          </u>
           <note n="f54ffe78">
             m.m.
           </note>
@@ -3537,10 +3624,11 @@
             7
           </note>
           <pb n="40" facs="https://betalab.kb.se/prot-198485--46/prot_198485__46-040.jp2/_view"/>
+          <u who="ingrid_sundberg_86e5e0" xml:id="i-a0c3dda6d76533bf-19" prev="i-a0c3dda6d76533bf-11" n="a0c3dda6"/>
           <note n="e84ba081">
             Nr 46
           </note>
-          <note n="baae98f9">
+          <note type="date" n="78b214e4">
             Fredagen den 7 december 1984
           </note>
           <note n="f5da1238">
@@ -3552,10 +3640,21 @@
           <note n="f330a2bf">
             78
           </note>
+          <u who="ingrid_sundberg_86e5e0" xml:id="i-a0c3dda6d76533bf-20" prev="i-a0c3dda6d76533bf-11" n="a0c3dda6">
+            <seg n="583c5edf">
+              Jag tycker att det är viktigt att slå fast föräldraansvaret.
+              Det är viktigt att slå fast att varje människa har möjlighet att
+              ta ansvar för sig själv i samverkan med andra. Mot den bakgrunden
+              blir skolan den i särklass viktigaste kulturinstitutionen, och
+              den synen kommer att återspeglas i budgetpropositionen. I det
+              perspektivet tycker jag att det är ganska bra om biografbyråns
+              roll blir att hyfsa.
+            </seg>
+          </u>
           <note type="speaker" n="023cc4fe">
             Anf. 55 EVA HJELMSTRÖM (vpk):
           </note>
-          <u who="eva_hjelmstrom_af2d84" xml:id="i-582baffd77622f26-2" next="i-b5ae57c301b270eb-2" n="effcf672">
+          <u who="eva_hjelmstrom_af2d84" xml:id="i-effcf672206974df-11" next="i-effcf672206974df-13" n="effcf672">
             <seg n="522afdbd">
               Herr talman! Jag förväntade mig inga siffror i dag, men jag förväntade
               mig en viljeinriktning. Den skall tydligen fattas som att skolan
@@ -3613,7 +3712,9 @@
               men jag tycker inte att
             </seg>
             <seg n="bd89dd31"/>
-            <seg n="bd89dd31"/>
+          </u>
+          <pb n="41" facs="https://betalab.kb.se/prot-198485--46/prot_198485__46-041.jp2/_view"/>
+          <u who="eva_hjelmstrom_af2d84" xml:id="i-effcf672206974df-12" prev="i-effcf672206974df-11" n="effcf672">
             <seg n="78bb0745">
               biografbyråns resurser riktigt räcker till. Jag vill att informationen
               skall ut i alla skolor runt om i landet. Det är först då den får
@@ -3627,11 +3728,10 @@
               min mening.
             </seg>
           </u>
-          <pb n="41" facs="https://betalab.kb.se/prot-198485--46/prot_198485__46-041.jp2/_view"/>
           <note n="ac02abcd">
             Anf. 56 Statsrådet BENGT GÖRANSSON:
           </note>
-          <u who="eva_hjelmstrom_af2d84" xml:id="i-b5ae57c301b270eb-2" prev="i-582baffd77622f26-2" n="effcf672">
+          <u who="eva_hjelmstrom_af2d84" xml:id="i-effcf672206974df-13" prev="i-effcf672206974df-11" n="effcf672">
             <seg n="a06d69e4">
               Herr talman! Låt mig bara säga en sak till om kabel-TV-försöken.
               För att det inte skall bli några missförstånd vill jag understryka
@@ -3650,7 +3750,7 @@
           <note type="speaker" n="2e838735">
             Anf. 57 EVA HJELMSTRÖM (vpk):
           </note>
-          <u who="eva_hjelmstrom_af2d84" xml:id="i-582baffd77622f26-3" next="i-b5ae57c301b270eb-3" n="effcf672">
+          <u who="eva_hjelmstrom_af2d84" xml:id="i-effcf672206974df-14" next="i-effcf672206974df-20" n="effcf672">
             <seg n="f8dfe97f">
               Herr talman! Inte heller jag grundar min uppfattning enbart på
               ett studiebesök i Upplands Väsby. Jag har varit i kontakt med
@@ -3701,7 +3801,7 @@
           <note n="e84ba081">
             Nr 46
           </note>
-          <note n="baae98f9">
+          <note type="date" n="78b214e4">
             Fredagen den 7 december 1984
           </note>
           <note n="f5da1238">
@@ -3713,29 +3813,18 @@
           <note n="ba1c881b">
             79
           </note>
-          <u who="eva_hjelmstrom_af2d84" xml:id="i-b5ae57c301b270eb-3" prev="i-582baffd77622f26-3" n="effcf672">
-            <seg n="bd89dd31"/>
-            <seg n="1b2b5fdf">
-              1984/85:5 Folkrörelser
-            </seg>
-            <seg n="c451a50e">
-              1984/85:18 Vattenvård
-            </seg>
-            <seg n="bd89dd31"/>
-            <seg n="bd89dd31"/>
-            <seg n="bd89dd31"/>
-            <seg n="bd89dd31"/>
-          </u>
+          <u who="eva_hjelmstrom_af2d84" xml:id="i-effcf672206974df-15" prev="i-effcf672206974df-14" n="effcf672"/>
           <pb n="42" facs="https://betalab.kb.se/prot-198485--46/prot_198485__46-042.jp2/_view"/>
           <note n="e84ba081">
             Nr 46
           </note>
-          <note n="baae98f9">
+          <note type="date" n="78b214e4">
             Fredagen den 7 december 1984
           </note>
           <note n="c0ca2e31">
             80
           </note>
+          <u who="eva_hjelmstrom_af2d84" xml:id="i-effcf672206974df-16" prev="i-effcf672206974df-14" n="effcf672"/>
           <note n="ef01b33a">
             1984/85:21 Beskattning vid anställdas förvärv av aktier i vissa
             fall, m. m. (prop. 1984/85:80) 1984/85:22 Beskattning av vissa
@@ -3771,6 +3860,11 @@
           <note n="9414b613">
             Kulturutskottets betänkanden
           </note>
+          <u who="eva_hjelmstrom_af2d84" xml:id="i-effcf672206974df-17" prev="i-effcf672206974df-14" n="effcf672">
+            <seg n="1b2b5fdf">
+              1984/85:5 Folkrörelser
+            </seg>
+          </u>
           <note n="799671d1">
             1984/85:6 Vissa ortnamnsfrågor
           </note>
@@ -3793,6 +3887,11 @@
           <note n="9353205e">
             1984/85:17 Samerna och rennäringen
           </note>
+          <u who="eva_hjelmstrom_af2d84" xml:id="i-effcf672206974df-18" prev="i-effcf672206974df-14" n="effcf672">
+            <seg n="c451a50e">
+              1984/85:18 Vattenvård
+            </seg>
+          </u>
           <note n="535767b8">
             1984/85:19 Tilläggsbudget I till statsbudgeten för budgetåret
             1984/85 (prop. 1984/85:25 delvis)
@@ -3811,7 +3910,13 @@
             1984/85:8 Ändringar i bestämmelserna om räntebidrag till följd
             av fastighetsskatten m.m. (prop. 1984/85:85 delvis)
           </note>
+          <u who="eva_hjelmstrom_af2d84" xml:id="i-effcf672206974df-19" prev="i-effcf672206974df-14" n="effcf672">
+            <seg n="bd89dd31"/>
+          </u>
           <pb n="43" facs="https://betalab.kb.se/prot-198485--46/prot_198485__46-043.jp2/_view"/>
+          <u who="eva_hjelmstrom_af2d84" xml:id="i-effcf672206974df-20" prev="i-effcf672206974df-14" n="effcf672">
+            <seg n="bd89dd31"/>
+          </u>
           <note n="e1dd2cd7">
             15 8 Meddelande om frågor Meddelades att följande frågor framställts
             den 6 december
@@ -3819,12 +3924,12 @@
           <note type="speaker" n="eddbf112">
             1984/85:
           </note>
-          <u who="unknown" xml:id="i-940f0cbf1781ed79-0" n="f206ce4b"/>
+          <u who="unknown" xml:id="i-0618259d18cc16d4-0" n="f206ce4b"/>
           <note type="speaker" n="4c6a6fda">
             289 av Margareta Persson (s) till socialministern om lekmännens
             inflytande i försäkringskassornas pensionsdelegationer:
           </note>
-          <u who="sigvard_persson_1d3cf1" xml:id="i-75fa4936e3aa01ec-0" next="i-6e8bba6b3e489018-0" n="0618259d">
+          <u who="sigvard_persson_1d3cf1" xml:id="i-0618259d18cc16d4-1" next="i-0618259d18cc16d4-12" n="0618259d">
             <seg n="295535cb">
               De förtroendevaldas inflytande i försäkringskassornas pensiondelegationer
               är begränsat. Nu har en avhandling vid Lunds universitet konstaterat
@@ -3850,7 +3955,7 @@
             bostadsministern om vinstdelningsskattens betydelse vid bostadspolitiska
             bedömningar:
           </note>
-          <u who="sigvard_persson_1d3cf1" xml:id="i-6e8bba6b3e489018-0" prev="i-75fa4936e3aa01ec-0" n="0618259d">
+          <u who="sigvard_persson_1d3cf1" xml:id="i-0618259d18cc16d4-2" prev="i-0618259d18cc16d4-1" n="0618259d">
             <seg n="24b60ce1">
               Propositionen om löntagarfonder lades fram för mer än ett år
               sedan. Enligt denna skall bostadsförvaltande privatägda bolag
@@ -3876,29 +3981,6 @@
               Är bostadsministern nu beredd att redogöra för hur vinstdelningsskatten
               skall vägas in vid de bostadspolitiska bedömningarna?
             </seg>
-            <seg n="bd89dd31"/>
-            <seg n="bd89dd31"/>
-            <seg n="bd89dd31"/>
-            <seg n="bd89dd31"/>
-            <seg n="bd89dd31"/>
-            <seg n="bd89dd31"/>
-            <seg n="bd89dd31"/>
-            <seg n="0f49fed5">
-              Bergdahl, Hugo (fp) 114, 115
-            </seg>
-            <seg n="07da915a">
-              Blom, Lennart (m) 98, 100
-            </seg>
-            <seg n="a5e12c45">
-              Gennser, Margit (m) 99, 100
-            </seg>
-            <seg n="7a886192">
-              Petersson, Per (m) 113, 115
-            </seg>
-            <seg n="53b46673">
-              Samuelson, Björn (vpk) 85
-            </seg>
-            <seg n="bd89dd31"/>
           </u>
           <note n="2daee7a0">
             6 Riksdagens protokoll 1984/85:45-47
@@ -3906,7 +3988,7 @@
           <note n="e84ba081">
             Nr 46
           </note>
-          <note n="baae98f9">
+          <note type="date" n="78b214e4">
             Fredagen den 7 december 1984
           </note>
           <note n="8a13edcd">
@@ -3918,11 +4000,13 @@
           <note n="166b48e8">
             81
           </note>
+          <u who="sigvard_persson_1d3cf1" xml:id="i-0618259d18cc16d4-3" prev="i-0618259d18cc16d4-1" n="0618259d"/>
           <pb n="44" facs="https://betalab.kb.se/prot-198485--46/prot_198485__46-044.jp2/_view"/>
+          <u who="sigvard_persson_1d3cf1" xml:id="i-0618259d18cc16d4-4" prev="i-0618259d18cc16d4-1" n="0618259d"/>
           <note n="09d82429">
             Nr 46 16 8 Kammaren åtskildes kl. 11.17.
           </note>
-          <note n="4d613158">
+          <note type="date" n="b19844cf">
             Fredagen den 7 december 1984 — In fidem
           </note>
           <note n="37e54169">
@@ -3934,7 +4018,11 @@
           <note n="9d7ea2e8">
             82
           </note>
+          <u who="sigvard_persson_1d3cf1" xml:id="i-0618259d18cc16d4-5" prev="i-0618259d18cc16d4-1" n="0618259d"/>
           <pb n="45" facs="https://betalab.kb.se/prot-198485--46/prot_198485__46-045.jp2/_view"/>
+          <u who="sigvard_persson_1d3cf1" xml:id="i-0618259d18cc16d4-6" prev="i-0618259d18cc16d4-1" n="0618259d">
+            <seg n="bd89dd31"/>
+          </u>
           <note n="aaea2094">
             Förteckning över talare (Siffrorna avser sida i protokollen)
           </note>
@@ -4042,13 +4130,23 @@
           <note n="2ff84652">
             127
           </note>
+          <u who="sigvard_persson_1d3cf1" xml:id="i-0618259d18cc16d4-7" prev="i-0618259d18cc16d4-1" n="0618259d"/>
           <pb n="46" facs="https://betalab.kb.se/prot-198485--46/prot_198485__46-046.jp2/_view"/>
+          <u who="sigvard_persson_1d3cf1" xml:id="i-0618259d18cc16d4-8" prev="i-0618259d18cc16d4-1" n="0618259d"/>
           <note n="a366657c">
             1984/85 45-47
           </note>
           <note n="8828c85e">
             128
           </note>
+          <u who="sigvard_persson_1d3cf1" xml:id="i-0618259d18cc16d4-9" prev="i-0618259d18cc16d4-1" n="0618259d">
+            <seg n="0f49fed5">
+              Bergdahl, Hugo (fp) 114, 115
+            </seg>
+            <seg n="07da915a">
+              Blom, Lennart (m) 98, 100
+            </seg>
+          </u>
           <note n="5f644ae9">
             Bodström, Lennart, utrikesminister 120, 121, 122, 123
           </note>
@@ -4068,6 +4166,11 @@
           <note n="fcf1bc2a">
             Feldt, Kjell-Olof, finansminister 96, 98, 100, 101, 102
           </note>
+          <u who="sigvard_persson_1d3cf1" xml:id="i-0618259d18cc16d4-10" prev="i-0618259d18cc16d4-1" n="0618259d">
+            <seg n="a5e12c45">
+              Gennser, Margit (m) 99, 100
+            </seg>
+          </u>
           <note n="bf9075e4">
             Granstedt, Pär (c) 108
           </note>
@@ -4084,6 +4187,14 @@
           <note n="2768ff59">
             Nilsson, Tore (m) 90, 93, 94, 95
           </note>
+          <u who="sigvard_persson_1d3cf1" xml:id="i-0618259d18cc16d4-11" prev="i-0618259d18cc16d4-1" n="0618259d">
+            <seg n="7a886192">
+              Petersson, Per (m) 113, 115
+            </seg>
+            <seg n="53b46673">
+              Samuelson, Björn (vpk) 85
+            </seg>
+          </u>
           <note n="298b1937">
             Thunborg, Anders, försvarsminister 109, 110, 111, 112, 113, 115,
             116, 117, 118, 120
@@ -4103,6 +4214,7 @@
           <note n="b394a8ef">
             minab/gotab Stockholm 1984 79517
           </note>
+          <u who="sigvard_persson_1d3cf1" xml:id="i-0618259d18cc16d4-12" prev="i-0618259d18cc16d4-1" n="0618259d"/>
         </div>
       </body>
     </text>

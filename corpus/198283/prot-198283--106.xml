@@ -20,7 +20,7 @@
     <encodingDesc>
       <editorialDecl>
         <correction>
-          <p>Some data curation was done. It is documented in db/curation/instances</p>
+          <p>Some data curation was done. It is documented in input/curation/instances</p>
         </correction>
       </editorialDecl>
     </encodingDesc>
@@ -58,6 +58,7 @@
       </front>
       <body>
         <div>
+          <pb n="0" facs="https://betalab.kb.se/prot-198283--106/prot_198283__106-000.jp2/_view"/>
           <note n="b15d504c"/>
           <note n="0c125ebd">
             Riksdagens protokoll
@@ -158,7 +159,7 @@
           <note n="7ac0bfcc">
             Anslag till polisväsendet och åklagarväsendet ...
           </note>
-          <note n="83992755">
+          <note type="date" n="8a97b3cc">
             Avgjorda ärenden Onsdagen den 23 mars
           </note>
           <note n="2d14752a">
@@ -228,7 +229,7 @@
           <note n="32a68b80">
             1982/83:106
           </note>
-          <note n="3c1716f6">
+          <note type="date" n="690b75ec">
             Onsdagen den 23 mars em. KI. 19.30
           </note>
           <note n="f9370a12">
@@ -373,14 +374,16 @@
           <note type="speaker" n="b1b7ffd0">
             Anf. 117 HUGO HEGELAND (m):
           </note>
-          <u who="hugo_hegeland_a16e34" xml:id="i-bf7ca786f649347a-0" n="75bbf108">
+          <u who="hugo_hegeland_a16e34" xml:id="i-75bbf108e065ae5c-0" next="i-75bbf108e065ae5c-1" n="75bbf108">
             <seg n="3aadd016">
               Herr talman! Talman Ingemund Bengtsson efterlyste för ett par
               dagar sedan en livligare debatt här i kammaren. När det plötsligt
               var litet liv här
             </seg>
             <seg n="d68dc161"/>
-            <seg n="d68dc161"/>
+          </u>
+          <pb n="5" facs="https://betalab.kb.se/prot-198283--106/prot_198283__106-005.jp2/_view"/>
+          <u who="hugo_hegeland_a16e34" xml:id="i-75bbf108e065ae5c-1" prev="i-75bbf108e065ae5c-0" n="75bbf108">
             <seg n="d68dc161"/>
             <seg n="738421ed">
               blev vi, till vår stora häpnad, avbrutna tio minuter i sex, trots
@@ -436,11 +439,10 @@
               från att konsumera.
             </seg>
           </u>
-          <pb n="5" facs="https://betalab.kb.se/prot-198283--106/prot_198283__106-005.jp2/_view"/>
           <note type="speaker" n="250a58ed">
             Anf. 118 ROLF RÄMGÅRD (c):
           </note>
-          <u who="rolf_ramgard_7ceee9" xml:id="i-f55fcbafe31c0f60-0" next="i-0ccfe665ca683082-0" n="3f191460">
+          <u who="rolf_ramgard_7ceee9" xml:id="i-3f191460058bc446-0" next="i-3f191460058bc446-3" n="3f191460">
             <seg n="1d5aa9b5">
               Herr talman! Bo Södersten har en viss teknik i debatten. I sitt
               anförande gav han och i sin första replikomgång återkom han till
@@ -449,7 +451,7 @@
               kvarstår att vi f. n. har en sparkvot på
             </seg>
           </u>
-          <note n="5d40caa4">
+          <note type="date" n="44461ee8">
             Nr 106 Onsdagen den 23 mars 1983
           </note>
           <note n="4ea42e51">
@@ -458,9 +460,24 @@
           <note n="b3079666">
             121
           </note>
-          <u who="rolf_ramgard_7ceee9" xml:id="i-0ccfe665ca683082-0" prev="i-f55fcbafe31c0f60-0" n="3f191460">
+          <u who="rolf_ramgard_7ceee9" xml:id="i-3f191460058bc446-1" prev="i-3f191460058bc446-0" n="3f191460"/>
+          <pb n="6" facs="https://betalab.kb.se/prot-198283--106/prot_198283__106-006.jp2/_view"/>
+          <u who="rolf_ramgard_7ceee9" xml:id="i-3f191460058bc446-2" prev="i-3f191460058bc446-0" n="3f191460">
             <seg n="d68dc161"/>
-            <seg n="d68dc161"/>
+          </u>
+          <note n="d4d136ea">
+            Nr 106
+          </note>
+          <note type="date" n="0e3263e3">
+            Onsdagen den 23 mars 1983
+          </note>
+          <note n="4ea42e51">
+            Lönsparande, m.m.
+          </note>
+          <note n="528fd45d">
+            122
+          </note>
+          <u who="rolf_ramgard_7ceee9" xml:id="i-3f191460058bc446-3" prev="i-3f191460058bc446-0" n="3f191460">
             <seg n="112eda4a">
               1,1 96, vilket i historiska perspektiv är mycket lågt — sparandet
               har aldrig varit så lågt.
@@ -527,29 +544,19 @@
               enighet om detta.
             </seg>
           </u>
-          <pb n="6" facs="https://betalab.kb.se/prot-198283--106/prot_198283__106-006.jp2/_view"/>
-          <note n="d4d136ea">
-            Nr 106
-          </note>
-          <note type="date" n="0e3263e3">
-            Onsdagen den 23 mars 1983
-          </note>
-          <note n="4ea42e51">
-            Lönsparande, m.m.
-          </note>
-          <note n="528fd45d">
-            122
-          </note>
           <note type="speaker" n="384914cc">
             Anf. 119 BO SÖDERSTEN (s):
           </note>
-          <u who="bo_sodersten_de3701" xml:id="i-101509bb70cd7ac7-0" next="i-e7827d1daebb493d-0" n="5e79dff1">
+          <u who="bo_sodersten_de3701" xml:id="i-5e79dff16b613e70-0" next="i-5e79dff16b613e70-4" n="5e79dff1">
             <seg n="8234b64d">
               Herr talman! Rolf Wirtén vill inte gärna tala om det förflutna,
               och han beskyller mig för att vara demagog. Låt oss då se på några
               enkla grundläggande fakta. Låt oss ta det stora aggregatet bruttonationalproduk-
             </seg>
             <seg n="d68dc161"/>
+          </u>
+          <pb n="7" facs="https://betalab.kb.se/prot-198283--106/prot_198283__106-007.jp2/_view"/>
+          <u who="bo_sodersten_de3701" xml:id="i-5e79dff16b613e70-1" prev="i-5e79dff16b613e70-0" n="5e79dff1">
             <seg n="bd257b55">
               ten och se hur den utvecklats här hemma under den borgerliga
               tiden och hur den har utvecklats utomlands.
@@ -619,7 +626,6 @@
             </seg>
             <seg n="d68dc161"/>
           </u>
-          <pb n="7" facs="https://betalab.kb.se/prot-198283--106/prot_198283__106-007.jp2/_view"/>
           <note n="d4d136ea">
             Nr 106
           </note>
@@ -629,8 +635,22 @@
           <note n="4ea42e51">
             Lönsparande, m.m.
           </note>
-          <u who="bo_sodersten_de3701" xml:id="i-e7827d1daebb493d-0" prev="i-101509bb70cd7ac7-0" n="5e79dff1">
-            <seg n="d68dc161"/>
+          <u who="bo_sodersten_de3701" xml:id="i-5e79dff16b613e70-2" prev="i-5e79dff16b613e70-0" n="5e79dff1"/>
+          <pb n="8" facs="https://betalab.kb.se/prot-198283--106/prot_198283__106-008.jp2/_view"/>
+          <u who="bo_sodersten_de3701" xml:id="i-5e79dff16b613e70-3" prev="i-5e79dff16b613e70-0" n="5e79dff1"/>
+          <note n="d4d136ea">
+            Nr 106
+          </note>
+          <note type="date" n="0e3263e3">
+            Onsdagen den 23 mars 1983
+          </note>
+          <note n="4ea42e51">
+            Lönsparande, m.m.
+          </note>
+          <note n="3575dcac">
+            124
+          </note>
+          <u who="bo_sodersten_de3701" xml:id="i-5e79dff16b613e70-4" prev="i-5e79dff16b613e70-0" n="5e79dff1">
             <seg n="1cc6bffe">
               Vi har talat en del om allmän ekonomisk politik, men i reservationen
               föreligger två konkreta förslag. Det första förslaget är ett krav
@@ -655,23 +675,10 @@
               med så småningom.
             </seg>
           </u>
-          <pb n="8" facs="https://betalab.kb.se/prot-198283--106/prot_198283__106-008.jp2/_view"/>
-          <note n="d4d136ea">
-            Nr 106
-          </note>
-          <note type="date" n="0e3263e3">
-            Onsdagen den 23 mars 1983
-          </note>
-          <note n="4ea42e51">
-            Lönsparande, m.m.
-          </note>
-          <note n="3575dcac">
-            124
-          </note>
           <note type="speaker" n="de335776">
             Anf. 120 HUGO HEGELAND (m):
           </note>
-          <u who="hugo_hegeland_a16e34" xml:id="i-bf7ca786f649347a-1" n="75bbf108">
+          <u who="hugo_hegeland_a16e34" xml:id="i-75bbf108e065ae5c-2" n="75bbf108">
             <seg n="e037ff60">
               Herr talman! Tyvärr hör Bo Södersten väldigt dåligt upp, eftersom
               jag aldrig har sagt att det var socialdemokraternas fel att budgetunderskottet
@@ -709,7 +716,7 @@
           <note type="speaker" n="647507b1">
             Anf. 121 ROLF RÄMGÅRD (c):
           </note>
-          <u who="rolf_ramgard_7ceee9" xml:id="i-610ca2e3daab5a13-0" n="3f191460">
+          <u who="rolf_ramgard_7ceee9" xml:id="i-3f191460058bc446-4" next="i-3f191460058bc446-5" n="3f191460">
             <seg n="12229887">
               Herr talman! Bo Södersten överdriver farhågorna beträffande det
               förslag som centern har framlagt i sin partimotion om en 50-procentig
@@ -719,6 +726,9 @@
               Det är ju detta som har saknats. Vi menar att
             </seg>
             <seg n="d68dc161"/>
+          </u>
+          <pb n="9" facs="https://betalab.kb.se/prot-198283--106/prot_198283__106-009.jp2/_view"/>
+          <u who="rolf_ramgard_7ceee9" xml:id="i-3f191460058bc446-5" prev="i-3f191460058bc446-4" n="3f191460">
             <seg n="875587e6">
               en kommitté skulle ta sig an denna fråga och försöka få fram
               de reella förutsättningarna för sparstimulanser.
@@ -742,11 +752,10 @@
               en större upplåning inom landet. Det är tekniken för detta sparande.
             </seg>
           </u>
-          <pb n="9" facs="https://betalab.kb.se/prot-198283--106/prot_198283__106-009.jp2/_view"/>
           <note type="speaker" n="a2bb30e1">
             Anf. 122 BO SÖDERSTEN (s):
           </note>
-          <u who="bo_sodersten_de3701" xml:id="i-101509bb70cd7ac7-1" next="i-e7827d1daebb493d-1" n="5e79dff1">
+          <u who="bo_sodersten_de3701" xml:id="i-5e79dff16b613e70-5" next="i-5e79dff16b613e70-9" n="5e79dff1">
             <seg n="65c5acbc">
               Herr talman! Hugo Hegeland försöker påstå att Sverige skulle
               ha haft ett större budgetunderskott med en socialdemokratisk politik.
@@ -783,14 +792,7 @@
           <note n="52c5f49f">
             Överläggningen var härmed avslutad.
           </note>
-          <u who="bo_sodersten_de3701" xml:id="i-e7827d1daebb493d-1" prev="i-101509bb70cd7ac7-1" n="5e79dff1">
-            <seg n="d68dc161"/>
-            <seg n="d68dc161"/>
-            <seg n="d68dc161"/>
-            <seg n="8892f746">
-              Utbyggnad av vattenkraft
-            </seg>
-          </u>
+          <u who="bo_sodersten_de3701" xml:id="i-5e79dff16b613e70-6" prev="i-5e79dff16b613e70-5" n="5e79dff1"/>
           <note n="d4d136ea">
             Nr 106
           </note>
@@ -803,13 +805,22 @@
           <note n="d20bd59d">
             125
           </note>
+          <u who="bo_sodersten_de3701" xml:id="i-5e79dff16b613e70-7" prev="i-5e79dff16b613e70-5" n="5e79dff1"/>
           <pb n="10" facs="https://betalab.kb.se/prot-198283--106/prot_198283__106-010.jp2/_view"/>
+          <u who="bo_sodersten_de3701" xml:id="i-5e79dff16b613e70-8" prev="i-5e79dff16b613e70-5" n="5e79dff1">
+            <seg n="d68dc161"/>
+          </u>
           <note n="d4d136ea">
             Nr 106
           </note>
           <note type="date" n="0e3263e3">
             Onsdagen den 23 mars 1983
           </note>
+          <u who="bo_sodersten_de3701" xml:id="i-5e79dff16b613e70-9" prev="i-5e79dff16b613e70-5" n="5e79dff1">
+            <seg n="8892f746">
+              Utbyggnad av vattenkraft
+            </seg>
+          </u>
           <note n="2878413e">
             126
           </note>
@@ -851,7 +862,7 @@
           <note type="speaker" n="b1e62def">
             Anf. 123 KERSTIN EKMAN (fp):
           </note>
-          <u who="kerstin_ekman_ca5d8a" xml:id="i-2df367448c4441a7-0" n="a6fe60fc">
+          <u who="kerstin_ekman_ca5d8a" xml:id="i-a6fe60fcf05f4990-0" next="i-a6fe60fcf05f4990-1" n="a6fe60fc">
             <seg n="f2a73323">
               Herr talman! Vi har från folkpartiet i motion 1099 upprepat vårt
               krav: Ge lagstadgat skydd till våra fyra orörda huvudälvar!
@@ -886,7 +897,9 @@
               Jag vill nämna följande som exempel:
             </seg>
             <seg n="d68dc161"/>
-            <seg n="d68dc161"/>
+          </u>
+          <pb n="11" facs="https://betalab.kb.se/prot-198283--106/prot_198283__106-011.jp2/_view"/>
+          <u who="kerstin_ekman_ca5d8a" xml:id="i-a6fe60fcf05f4990-1" prev="i-a6fe60fcf05f4990-0" n="a6fe60fc">
             <seg n="d68dc161"/>
             <seg n="e5315b8c">
               Kalix älv är i dag en 40 mil fritt strömmande älv. En utbyggnad
@@ -931,7 +944,6 @@
               sig för inte ske.
             </seg>
           </u>
-          <pb n="11" facs="https://betalab.kb.se/prot-198283--106/prot_198283__106-011.jp2/_view"/>
           <note n="347c0092">
             Herr talman! Jag yrkar bifall till reservationerna 1, 3, 4 och
             7 vid civilutskottets betänkande 1982/83:11.
@@ -939,7 +951,7 @@
           <note type="speaker" n="0c447659">
             Anf. 124 TORE CLAESON (vpk):
           </note>
-          <u who="tore_claeson_f6b379" xml:id="i-297a522fd7588e65-0" next="i-8c6a1f324431194b-0" n="b0da6115">
+          <u who="tore_claeson_f6b379" xml:id="i-b0da6115c0996bdc-0" next="i-b0da6115c0996bdc-4" n="b0da6115">
             <seg n="2f9eab73">
               Herr talman! Såsom vi anför i motiven till vår motion — vpk-motionen
               1110 — kan man på sikt åstadkomma ett årligt eltillskott på 66
@@ -979,11 +991,24 @@
             RN RA a
           </note>
           <pb n="12" facs="https://betalab.kb.se/prot-198283--106/prot_198283__106-012.jp2/_view"/>
-          <u who="tore_claeson_f6b379" xml:id="i-8c6a1f324431194b-0" prev="i-297a522fd7588e65-0" n="b0da6115">
+          <u who="tore_claeson_f6b379" xml:id="i-b0da6115c0996bdc-1" prev="i-b0da6115c0996bdc-0" n="b0da6115">
             <seg n="d68dc161"/>
+          </u>
+          <note n="d4d136ea">
+            Nr 106
+          </note>
+          <note type="date" n="0e3263e3">
+            Onsdagen den 23 mars 1983
+          </note>
+          <u who="tore_claeson_f6b379" xml:id="i-b0da6115c0996bdc-2" prev="i-b0da6115c0996bdc-0" n="b0da6115">
             <seg n="8892f746">
               Utbyggnad av vattenkraft
             </seg>
+          </u>
+          <note n="06074ac2">
+            128
+          </note>
+          <u who="tore_claeson_f6b379" xml:id="i-b0da6115c0996bdc-3" prev="i-b0da6115c0996bdc-0" n="b0da6115">
             <seg n="3a69b944">
               instämma i det här kravet och ge den utredning som finns — vattenkraftberedningen
               — i uppdrag att utreda frågan om bevarandevärden.
@@ -1055,7 +1080,9 @@
               undanta Strängsforsen nu
             </seg>
             <seg n="d68dc161"/>
-            <seg n="d68dc161"/>
+          </u>
+          <pb n="13" facs="https://betalab.kb.se/prot-198283--106/prot_198283__106-013.jp2/_view"/>
+          <u who="tore_claeson_f6b379" xml:id="i-b0da6115c0996bdc-4" prev="i-b0da6115c0996bdc-0" n="b0da6115">
             <seg n="4d48dd6c">
               och inte lämna frågan öppen för ett regeringens senare beslut
               med visst innehåll.
@@ -1093,20 +1120,10 @@
               vid utskottsbetänkandet.
             </seg>
           </u>
-          <note n="d4d136ea">
-            Nr 106
-          </note>
-          <note type="date" n="0e3263e3">
-            Onsdagen den 23 mars 1983
-          </note>
-          <note n="06074ac2">
-            128
-          </note>
-          <pb n="13" facs="https://betalab.kb.se/prot-198283--106/prot_198283__106-013.jp2/_view"/>
           <note type="speaker" n="1eb9cc9a">
             Anf. 125 KJELL MATTSSON (c):
           </note>
-          <u who="lisa_mattsson_27541b" xml:id="i-6ebc81599079e119-0" next="i-01031927b709c3c2-0" n="0ab8d94b">
+          <u who="lisa_mattsson_27541b" xml:id="i-0ab8d94bec218cd4-0" next="i-0ab8d94bec218cd4-5" n="0ab8d94b">
             <seg n="d87b5eef">
               Herr talman! Jag kan instämma i det sista som Tore Claeson sade,
               dvs. att vi nyligen har diskuterat vattenkraftsfrågorna och att
@@ -1153,14 +1170,31 @@
           <note n="1322d5a3">
             23 mars 1983
           </note>
-          <u who="lisa_mattsson_27541b" xml:id="i-01031927b709c3c2-0" prev="i-6ebc81599079e119-0" n="0ab8d94b">
+          <u who="lisa_mattsson_27541b" xml:id="i-0ab8d94bec218cd4-1" prev="i-0ab8d94bec218cd4-0" n="0ab8d94b">
             <seg n="8892f746">
               Utbyggnad av vattenkraft
             </seg>
-            <seg n="d68dc161"/>
+          </u>
+          <note n="c76e80cf">
+            129
+          </note>
+          <pb n="14" facs="https://betalab.kb.se/prot-198283--106/prot_198283__106-014.jp2/_view"/>
+          <u who="lisa_mattsson_27541b" xml:id="i-0ab8d94bec218cd4-2" prev="i-0ab8d94bec218cd4-0" n="0ab8d94b"/>
+          <note n="d4d136ea">
+            Nr 106
+          </note>
+          <note type="date" n="0e3263e3">
+            Onsdagen den 23 mars 1983
+          </note>
+          <u who="lisa_mattsson_27541b" xml:id="i-0ab8d94bec218cd4-3" prev="i-0ab8d94bec218cd4-0" n="0ab8d94b">
             <seg n="8892f746">
               Utbyggnad av vattenkraft
             </seg>
+          </u>
+          <note n="72cbb674">
+            130
+          </note>
+          <u who="lisa_mattsson_27541b" xml:id="i-0ab8d94bec218cd4-4" prev="i-0ab8d94bec218cd4-0" n="0ab8d94b">
             <seg n="ee4c9c9c">
               majoritet för att det inte denna gång skall göras några ingrepp
               i beslutsgången.
@@ -1231,7 +1265,9 @@
               bland dem som är skyddade från
             </seg>
             <seg n="d68dc161"/>
-            <seg n="d68dc161"/>
+          </u>
+          <pb n="15" facs="https://betalab.kb.se/prot-198283--106/prot_198283__106-015.jp2/_view"/>
+          <u who="lisa_mattsson_27541b" xml:id="i-0ab8d94bec218cd4-5" prev="i-0ab8d94bec218cd4-0" n="0ab8d94b">
             <seg n="62f790d4">
               utbyggnad och dessutom se till att vi minskar vattenkraftens
               roll i energipolitiken. Annars går yrkandena inte ihop för er.
@@ -1241,24 +1277,10 @@
               hemställan.
             </seg>
           </u>
-          <note n="c76e80cf">
-            129
-          </note>
-          <pb n="14" facs="https://betalab.kb.se/prot-198283--106/prot_198283__106-014.jp2/_view"/>
-          <note n="d4d136ea">
-            Nr 106
-          </note>
-          <note type="date" n="0e3263e3">
-            Onsdagen den 23 mars 1983
-          </note>
-          <note n="72cbb674">
-            130
-          </note>
-          <pb n="15" facs="https://betalab.kb.se/prot-198283--106/prot_198283__106-015.jp2/_view"/>
           <note type="speaker" n="f1d90fb5">
             Anf. 126 TORE CLAESON (vpk) replik:
           </note>
-          <u who="tore_claeson_f6b379" xml:id="i-30e0eaa566c91863-0" n="b0da6115">
+          <u who="tore_claeson_f6b379" xml:id="i-b0da6115c0996bdc-5" n="b0da6115">
             <seg n="a4c01514">
               Herr talman! Jag skall uppehålla mig bara vid två saker av dem
               som Kjell Mattsson tog upp, delvis i polemik mot innehållet i
@@ -1302,7 +1324,7 @@
           <note type="speaker" n="443163c3">
             Anf. 127 KERSTIN EKMAN (fp) replik:
           </note>
-          <u who="kerstin_ekman_ca5d8a" xml:id="i-6703aafd6faf04ed-0" next="i-c88372dc8254c262-0" n="a6fe60fc">
+          <u who="kerstin_ekman_ca5d8a" xml:id="i-a6fe60fcf05f4990-2" next="i-a6fe60fcf05f4990-6" n="a6fe60fc">
             <seg n="a34201f3">
               Herr talman! Kjell Mattssons betygsättning beträffande om vårt
               ställningstagande är käckt eller inte får stå för Kjell Mattsson
@@ -1329,14 +1351,31 @@
           <note n="1322d5a3">
             23 mars 1983
           </note>
-          <u who="kerstin_ekman_ca5d8a" xml:id="i-c88372dc8254c262-0" prev="i-6703aafd6faf04ed-0" n="a6fe60fc">
+          <u who="kerstin_ekman_ca5d8a" xml:id="i-a6fe60fcf05f4990-3" prev="i-a6fe60fcf05f4990-2" n="a6fe60fc">
             <seg n="8892f746">
               Utbyggnad av vattenkraft
             </seg>
-            <seg n="d68dc161"/>
+          </u>
+          <note n="eb200f39">
+            131
+          </note>
+          <pb n="16" facs="https://betalab.kb.se/prot-198283--106/prot_198283__106-016.jp2/_view"/>
+          <u who="kerstin_ekman_ca5d8a" xml:id="i-a6fe60fcf05f4990-4" prev="i-a6fe60fcf05f4990-2" n="a6fe60fc"/>
+          <note n="d4d136ea">
+            Nr 106
+          </note>
+          <note type="date" n="0e3263e3">
+            Onsdagen den 23 mars 1983
+          </note>
+          <u who="kerstin_ekman_ca5d8a" xml:id="i-a6fe60fcf05f4990-5" prev="i-a6fe60fcf05f4990-2" n="a6fe60fc">
             <seg n="8892f746">
               Utbyggnad av vattenkraft
             </seg>
+          </u>
+          <note n="52a991b8">
+            132
+          </note>
+          <u who="kerstin_ekman_ca5d8a" xml:id="i-a6fe60fcf05f4990-6" prev="i-a6fe60fcf05f4990-2" n="a6fe60fc">
             <seg n="887b09b8">
               man borde ha skyddet. Nu talar man emot förslaget och säger att
               skyddet kommer. Men ta det nu då, när vi har ett förslag!
@@ -1354,23 +1393,10 @@
               att vi behöver ett lagstadgat skydd och behöver det nu.
             </seg>
           </u>
-          <note n="eb200f39">
-            131
-          </note>
-          <pb n="16" facs="https://betalab.kb.se/prot-198283--106/prot_198283__106-016.jp2/_view"/>
-          <note n="d4d136ea">
-            Nr 106
-          </note>
-          <note type="date" n="0e3263e3">
-            Onsdagen den 23 mars 1983
-          </note>
-          <note n="52a991b8">
-            132
-          </note>
           <note type="speaker" n="a49540c3">
             Anf. 128 KJELL MATTSSON (c) replik:
           </note>
-          <u who="lisa_mattsson_27541b" xml:id="i-a8ad404983bbc023-0" n="0ab8d94b">
+          <u who="lisa_mattsson_27541b" xml:id="i-0ab8d94bec218cd4-6" n="0ab8d94b">
             <seg n="681a1a2a">
               Herr talman! Det arbete som vattenkraftsberedningen skall göra
               är ett mycket preciserat uppdrag, nämligen att försöka lägga fram
@@ -1413,7 +1439,7 @@
           <note type="speaker" n="fccc2ae2">
             Anf. 129 TORE CLAESON (vpk) replik:
           </note>
-          <u who="tore_claeson_f6b379" xml:id="i-30e0eaa566c91863-1" n="b0da6115">
+          <u who="tore_claeson_f6b379" xml:id="i-b0da6115c0996bdc-6" next="i-b0da6115c0996bdc-7" n="b0da6115">
             <seg n="776fd62d">
               Herr talman! Det finns två saker som gör det angeläget att riksdagen
               ger en mening till känna beträffande den fortsatta vattenkraftsutbyggnaden
@@ -1429,7 +1455,9 @@
               Vi
             </seg>
             <seg n="d68dc161"/>
-            <seg n="d68dc161"/>
+          </u>
+          <pb n="17" facs="https://betalab.kb.se/prot-198283--106/prot_198283__106-017.jp2/_view"/>
+          <u who="tore_claeson_f6b379" xml:id="i-b0da6115c0996bdc-7" prev="i-b0da6115c0996bdc-6" n="b0da6115">
             <seg n="53575ae7">
               hari vår reservation inte ensidigt bitit oss fast vid att vattenkraftsberedningen
               skall göra denna utredning, utan vi har sagt dels att en sådan
@@ -1444,11 +1472,10 @@
               och beslutar sig för att beställa en sådan utredning.
             </seg>
           </u>
-          <pb n="17" facs="https://betalab.kb.se/prot-198283--106/prot_198283__106-017.jp2/_view"/>
           <note type="speaker" n="572cd1c1">
             Anf. 130 KERSTIN EKMAN (fp) replik:
           </note>
-          <u who="kerstin_ekman_ca5d8a" xml:id="i-2df367448c4441a7-1" n="a6fe60fc">
+          <u who="kerstin_ekman_ca5d8a" xml:id="i-a6fe60fcf05f4990-7" n="a6fe60fc">
             <seg n="1fd1e593">
               Herr talman! Faktum kvarstår i alla fall, Kjell Mattsson: det
               finns en osäkerhet bland kraftbolagen, man projekterar för utbyggnad,
@@ -1459,7 +1486,7 @@
           <note type="speaker" n="dcfc1b49">
             Anf. 1331 MARGARETA GARD (m):
           </note>
-          <u who="margareta_gard_f2a460" xml:id="i-7957d20816162d39-0" next="i-e1d1c0268db9d436-0" n="d59bd7cc">
+          <u who="margareta_gard_f2a460" xml:id="i-3f02759db149104b-0" next="i-3f02759db149104b-4" n="d59bd7cc">
             <seg n="6811d55e">
               Herr talman! Vattenkraftens stora betydelse för den industriella
               utvecklingen i vårt land glöms så ofta bort i debatten. I stället
@@ -1509,15 +1536,33 @@
           <note type="date" n="0e3263e3">
             Onsdagen den 23 mars 1983
           </note>
-          <u who="margareta_gard_f2a460" xml:id="i-e1d1c0268db9d436-0" prev="i-7957d20816162d39-0" n="d59bd7cc">
+          <u who="margareta_gard_f2a460" xml:id="i-3f02759db149104b-1" prev="i-3f02759db149104b-0" n="d59bd7cc">
             <seg n="8892f746">
               Utbyggnad av vattenkraft
             </seg>
+          </u>
+          <note n="f3cd1737">
+            133
+          </note>
+          <pb n="18" facs="https://betalab.kb.se/prot-198283--106/prot_198283__106-018.jp2/_view"/>
+          <u who="margareta_gard_f2a460" xml:id="i-3f02759db149104b-2" prev="i-3f02759db149104b-0" n="d59bd7cc">
             <seg n="d68dc161"/>
-            <seg n="d68dc161"/>
+          </u>
+          <note n="d4d136ea">
+            Nr 106
+          </note>
+          <note type="date" n="0e3263e3">
+            Onsdagen den 23 mars 1983
+          </note>
+          <u who="margareta_gard_f2a460" xml:id="i-3f02759db149104b-3" prev="i-3f02759db149104b-0" n="d59bd7cc">
             <seg n="8892f746">
               Utbyggnad av vattenkraft
             </seg>
+          </u>
+          <note n="b27c728e">
+            134
+          </note>
+          <u who="margareta_gard_f2a460" xml:id="i-3f02759db149104b-4" prev="i-3f02759db149104b-0" n="d59bd7cc">
             <seg n="888736bf">
               vattenkraften överlägsen alla andra energislag som f. n. används
               i vårt land. Den är helt och hållet en inhemsk energiresurs och
@@ -1578,23 +1623,10 @@
               det här anförda.
             </seg>
           </u>
-          <note n="f3cd1737">
-            133
-          </note>
-          <pb n="18" facs="https://betalab.kb.se/prot-198283--106/prot_198283__106-018.jp2/_view"/>
-          <note n="d4d136ea">
-            Nr 106
-          </note>
-          <note type="date" n="0e3263e3">
-            Onsdagen den 23 mars 1983
-          </note>
-          <note n="b27c728e">
-            134
-          </note>
           <note type="speaker" n="04e6f721">
             Anf. 132 TORE CLAESON (vpk) replik:
           </note>
-          <u who="tore_claeson_f6b379" xml:id="i-30e0eaa566c91863-2" n="b0da6115">
+          <u who="tore_claeson_f6b379" xml:id="i-b0da6115c0996bdc-8" next="i-b0da6115c0996bdc-9" n="b0da6115">
             <seg n="1034a594">
               Herr talman! Margareta Gard var kritisk mot dem som förespråkar
               och vill hålla fast vid tidigare beslut om att bevara de fyra
@@ -1602,7 +1634,9 @@
               om. Och hon gjorde i det
             </seg>
             <seg n="d68dc161"/>
-            <seg n="d68dc161"/>
+          </u>
+          <pb n="19" facs="https://betalab.kb.se/prot-198283--106/prot_198283__106-019.jp2/_view"/>
+          <u who="tore_claeson_f6b379" xml:id="i-b0da6115c0996bdc-9" prev="i-b0da6115c0996bdc-8" n="b0da6115">
             <seg n="a6a209e9">
               sammanhanget en koppling till frågan om kärnkraft.
             </seg>
@@ -1636,11 +1670,10 @@
               säga i klartext.
             </seg>
           </u>
-          <pb n="19" facs="https://betalab.kb.se/prot-198283--106/prot_198283__106-019.jp2/_view"/>
           <note type="speaker" n="f6b680cc">
             Anf. 133 KERSTIN EKMAN (fp) replik:
           </note>
-          <u who="kerstin_ekman_ca5d8a" xml:id="i-6703aafd6faf04ed-1" next="i-c88372dc8254c262-1" n="a6fe60fc">
+          <u who="kerstin_ekman_ca5d8a" xml:id="i-a6fe60fcf05f4990-8" next="i-a6fe60fcf05f4990-11" n="a6fe60fc">
             <seg n="d38e37b3">
               Herr talman! De som har följt de inlägg som jag har gjort här
               i kammaren vad gäller de fyra huvudälvarna kan konstatera att
@@ -1673,14 +1706,10 @@
               arbeta med.
             </seg>
           </u>
-          <note n="5d40caa4">
+          <note type="date" n="44461ee8">
             Nr 106 Onsdagen den 23 mars 1983
           </note>
-          <u who="kerstin_ekman_ca5d8a" xml:id="i-c88372dc8254c262-1" prev="i-6703aafd6faf04ed-1" n="a6fe60fc">
-            <seg n="8892f746">
-              Utbyggnad av vattenkraft
-            </seg>
-            <seg n="d68dc161"/>
+          <u who="kerstin_ekman_ca5d8a" xml:id="i-a6fe60fcf05f4990-9" prev="i-a6fe60fcf05f4990-8" n="a6fe60fc">
             <seg n="8892f746">
               Utbyggnad av vattenkraft
             </seg>
@@ -1689,19 +1718,25 @@
             135
           </note>
           <pb n="20" facs="https://betalab.kb.se/prot-198283--106/prot_198283__106-020.jp2/_view"/>
+          <u who="kerstin_ekman_ca5d8a" xml:id="i-a6fe60fcf05f4990-10" prev="i-a6fe60fcf05f4990-8" n="a6fe60fc"/>
           <note n="d4d136ea">
             Nr 106
           </note>
           <note type="date" n="0e3263e3">
             Onsdagen den 23 mars 1983
           </note>
+          <u who="kerstin_ekman_ca5d8a" xml:id="i-a6fe60fcf05f4990-11" prev="i-a6fe60fcf05f4990-8" n="a6fe60fc">
+            <seg n="8892f746">
+              Utbyggnad av vattenkraft
+            </seg>
+          </u>
           <note n="97ffe275">
             136
           </note>
           <note type="speaker" n="259bdb1c">
             Anf. 1334 MARGARETA GARD (m) replik:
           </note>
-          <u who="margareta_gard_f2a460" xml:id="i-4472b0a076cf6a5d-0" n="d59bd7cc">
+          <u who="margareta_gard_f2a460" xml:id="i-3f02759db149104b-5" n="d59bd7cc">
             <seg n="ec90e1a9">
               Herr talman! Det rör sig, Tore Claeson och Kerstin Ekman, om
               så stora tal när det gäller kärnkraften att man inte kan hänvisa
@@ -1731,7 +1766,7 @@
           <note type="speaker" n="1e9703df">
             Anf. 135 TORE CLAESON (vpk) replik:
           </note>
-          <u who="tore_claeson_f6b379" xml:id="i-30e0eaa566c91863-3" n="b0da6115">
+          <u who="tore_claeson_f6b379" xml:id="i-b0da6115c0996bdc-10" n="b0da6115">
             <seg n="a6180bcd">
               Herr talman! Jag diskuterar gärna kärnkraften, kärnkraftens avveckling
               och energifrågorna i allmänhet med Margareta Gard, och det kommer
@@ -1753,7 +1788,7 @@
           <note type="speaker" n="1781707d">
             Anf. 136 KERSTIN EKMAN (fp) replik:
           </note>
-          <u who="kerstin_ekman_ca5d8a" xml:id="i-2df367448c4441a7-2" n="a6fe60fc">
+          <u who="kerstin_ekman_ca5d8a" xml:id="i-a6fe60fcf05f4990-12" next="i-a6fe60fcf05f4990-13" n="a6fe60fc">
             <seg n="a9ea9878">
               Herr talman! Det har gjorts beräkningar som visar att de vattendrag
               som är värda att bygga ut motsvarar ungefär 34 TWh. De stora outbyggda
@@ -1769,13 +1804,13 @@
               ställa er bakom dem som vill bygga ut t. ex. Kalix älv?
             </seg>
             <seg n="d68dc161"/>
-            <seg n="d68dc161"/>
           </u>
           <pb n="21" facs="https://betalab.kb.se/prot-198283--106/prot_198283__106-021.jp2/_view"/>
+          <u who="kerstin_ekman_ca5d8a" xml:id="i-a6fe60fcf05f4990-13" prev="i-a6fe60fcf05f4990-12" n="a6fe60fc"/>
           <note type="speaker" n="2422aa66">
             Anf. 1337 MARGARETA GARD (m) replik:
           </note>
-          <u who="margareta_gard_f2a460" xml:id="i-4472b0a076cf6a5d-1" n="d59bd7cc">
+          <u who="margareta_gard_f2a460" xml:id="i-3f02759db149104b-6" n="d59bd7cc">
             <seg n="7c9b02b9">
               Herr talman! Till Tore Claeson, det kan för resten innefatta
               också Kerstin Ekman, vill jag säga att man inte kan säga nej till
@@ -1800,7 +1835,7 @@
           <note type="speaker" n="e6ad63a1">
             Anf. 138 MAGNUS PERSSON (s):
           </note>
-          <u who="magnus_persson_8bc30d" xml:id="i-21d27eda7afdf915-0" next="i-93c201f2b25c2aee-0" n="5f259e73">
+          <u who="magnus_persson_8bc30d" xml:id="i-5f259e7300f61000-0" next="i-5f259e7300f61000-6" n="5f259e73">
             <seg n="b83779db">
               Herr talman! Riksdagen har i dag att ta ställning till civilutskottets
               betänkande 1982/83:11 som gäller utbyggnad av vattenkraft. När
@@ -1854,19 +1889,41 @@
           <note n="1322d5a3">
             23 mars 1983
           </note>
-          <u who="magnus_persson_8bc30d" xml:id="i-93c201f2b25c2aee-0" prev="i-21d27eda7afdf915-0" n="5f259e73">
+          <u who="magnus_persson_8bc30d" xml:id="i-5f259e7300f61000-1" prev="i-5f259e7300f61000-0" n="5f259e73">
             <seg n="8892f746">
               Utbyggnad av vattenkraft
             </seg>
-            <seg n="d68dc161"/>
+          </u>
+          <note n="f4f316c9">
+            137
+          </note>
+          <pb n="22" facs="https://betalab.kb.se/prot-198283--106/prot_198283__106-022.jp2/_view"/>
+          <u who="magnus_persson_8bc30d" xml:id="i-5f259e7300f61000-2" prev="i-5f259e7300f61000-0" n="5f259e73"/>
+          <note n="d4d136ea">
+            Nr 106
+          </note>
+          <note type="date" n="0e3263e3">
+            Onsdagen den 23 mars 1983
+          </note>
+          <u who="magnus_persson_8bc30d" xml:id="i-5f259e7300f61000-3" prev="i-5f259e7300f61000-0" n="5f259e73">
             <seg n="8892f746">
               Utbyggnad av vattenkraft
             </seg>
+          </u>
+          <note n="2900b954">
+            138
+          </note>
+          <u who="magnus_persson_8bc30d" xml:id="i-5f259e7300f61000-4" prev="i-5f259e7300f61000-0" n="5f259e73">
             <seg n="af2d6ec4">
               Utskottsmajoriteten avvisar motionskravet och menar att det inte
               finns tillräckliga skäl att förorda någon riksdagens extraordinära
               åtgärd enligt motionsförslaget.
             </seg>
+          </u>
+          <note n="e7a92158">
+            Så till reservationen gällande Strängsforsen.
+          </note>
+          <u who="magnus_persson_8bc30d" xml:id="i-5f259e7300f61000-5" prev="i-5f259e7300f61000-0" n="5f259e73">
             <seg n="3c652bf6">
               Vpk yrkar i motion 402 att riksdagen nu bör uttala sig för att
               för all framtid bevara den aktuella älvsträckan Kärrbackstrand-Höljes
@@ -1926,7 +1983,9 @@
               synen på framtida kraftverks-
             </seg>
             <seg n="d68dc161"/>
-            <seg n="d68dc161"/>
+          </u>
+          <pb n="23" facs="https://betalab.kb.se/prot-198283--106/prot_198283__106-023.jp2/_view"/>
+          <u who="magnus_persson_8bc30d" xml:id="i-5f259e7300f61000-6" prev="i-5f259e7300f61000-0" n="5f259e73">
             <seg n="11f04c9c">
               utbyggnader har vi haft sedan lång tid. Vi stannade för det synsättet
               redan år 1977 och har envist förfäktat våra ståndpunkter i åtskilliga
@@ -1950,23 +2009,6 @@
               på det här området.
             </seg>
           </u>
-          <note n="f4f316c9">
-            137
-          </note>
-          <pb n="22" facs="https://betalab.kb.se/prot-198283--106/prot_198283__106-022.jp2/_view"/>
-          <note n="d4d136ea">
-            Nr 106
-          </note>
-          <note type="date" n="0e3263e3">
-            Onsdagen den 23 mars 1983
-          </note>
-          <note n="2900b954">
-            138
-          </note>
-          <note n="e7a92158">
-            Så till reservationen gällande Strängsforsen.
-          </note>
-          <pb n="23" facs="https://betalab.kb.se/prot-198283--106/prot_198283__106-023.jp2/_view"/>
           <note n="1fb2813d">
             Herr talman! Med detta vill jag yrka bifall till civilutskottets
             hemställan på samtliga punkter i betänkandet 1982/83:11 och avslag
@@ -1975,7 +2017,7 @@
           <note type="speaker" n="9e5da798">
             Anf. 139 BJÖRN SAMUELSON (vpk):
           </note>
-          <u who="bjorn_samuelson_376212" xml:id="i-4b5e67b2cbd7d910-0" next="i-1dc091edb62d8395-0" n="ea2a00e6">
+          <u who="bjorn_samuelson_376212" xml:id="i-ea2a00e6affca7bc-0" next="i-ea2a00e6affca7bc-5" n="ea2a00e6">
             <seg n="dbd423fb">
               Herr talman! En sak har jag i alla fall lärt mig på den korta
               tid som jag haft tillfälle att delta i arbetet i det här huset,
@@ -2028,16 +2070,33 @@
           <note n="1322d5a3">
             23 mars 1983
           </note>
-          <u who="bjorn_samuelson_376212" xml:id="i-1dc091edb62d8395-0" prev="i-4b5e67b2cbd7d910-0" n="ea2a00e6">
+          <u who="bjorn_samuelson_376212" xml:id="i-ea2a00e6affca7bc-1" prev="i-ea2a00e6affca7bc-0" n="ea2a00e6">
             <seg n="8892f746">
               Utbyggnad av vattenkraft
             </seg>
+          </u>
+          <note n="642572c9">
+            139
+          </note>
+          <pb n="24" facs="https://betalab.kb.se/prot-198283--106/prot_198283__106-024.jp2/_view"/>
+          <u who="bjorn_samuelson_376212" xml:id="i-ea2a00e6affca7bc-2" prev="i-ea2a00e6affca7bc-0" n="ea2a00e6">
             <seg n="d68dc161"/>
-            <seg n="d68dc161"/>
-            <seg n="d68dc161"/>
+          </u>
+          <note n="d4d136ea">
+            Nr 106
+          </note>
+          <note type="date" n="0e3263e3">
+            Onsdagen den 23 mars 1983
+          </note>
+          <u who="bjorn_samuelson_376212" xml:id="i-ea2a00e6affca7bc-3" prev="i-ea2a00e6affca7bc-0" n="ea2a00e6">
             <seg n="8892f746">
               Utbyggnad av vattenkraft
             </seg>
+          </u>
+          <note n="a0080dc1">
+            140
+          </note>
+          <u who="bjorn_samuelson_376212" xml:id="i-ea2a00e6affca7bc-4" prev="i-ea2a00e6affca7bc-0" n="ea2a00e6">
             <seg n="2c66adb4">
               protester. Magnus Persson skulle säga att det skulle kosta flera
               hundra miljoner kronor i jämförelse med Sölvbacka. Men gör man
@@ -2103,26 +2162,14 @@
               att gå tillbaka och se hur
             </seg>
             <seg n="d68dc161"/>
-            <seg n="d68dc161"/>
+          </u>
+          <pb n="25" facs="https://betalab.kb.se/prot-198283--106/prot_198283__106-025.jp2/_view"/>
+          <u who="bjorn_samuelson_376212" xml:id="i-ea2a00e6affca7bc-5" prev="i-ea2a00e6affca7bc-0" n="ea2a00e6">
             <seg n="bcf8526c">
               debatten har vuxit fram när det gäller Strängsforsens eventuella
               utbyggnad.
             </seg>
           </u>
-          <note n="642572c9">
-            139
-          </note>
-          <pb n="24" facs="https://betalab.kb.se/prot-198283--106/prot_198283__106-024.jp2/_view"/>
-          <note n="d4d136ea">
-            Nr 106
-          </note>
-          <note type="date" n="0e3263e3">
-            Onsdagen den 23 mars 1983
-          </note>
-          <note n="a0080dc1">
-            140
-          </note>
-          <pb n="25" facs="https://betalab.kb.se/prot-198283--106/prot_198283__106-025.jp2/_view"/>
           <note n="41ff82be">
             Med dessa enkla ord, herr talman, yrkar jag bifall till de vid
             betänkandet fogade reservationerna av Tore Claeson.
@@ -2130,7 +2177,7 @@
           <note type="speaker" n="9db1c025">
             Anf. 140 MAGNUS PERSSON (s) replik:
           </note>
-          <u who="magnus_persson_8bc30d" xml:id="i-d8916217ff7748e8-0" n="5f259e73">
+          <u who="magnus_persson_8bc30d" xml:id="i-5f259e7300f61000-7" n="5f259e73">
             <seg n="33f0c607">
               Herr talman! Låt mig helt kort få säga till Björn Samuelson,
               att om nu sökanden har begärt att få inkomma med kompletterande
@@ -2146,7 +2193,7 @@
           <note type="speaker" n="a50fc5a1">
             Anf. 141 BJÖRN SAMUELSON (vpk) replik:
           </note>
-          <u who="bjorn_samuelson_376212" xml:id="i-1adbc7b15f5dfd39-0" n="ea2a00e6">
+          <u who="bjorn_samuelson_376212" xml:id="i-ea2a00e6affca7bc-6" n="ea2a00e6">
             <seg n="57e40732">
               Herr talman! Det är inte första gången som jag här i kammaren
               hör att representanter för socialdemokraterna på Värmlandsbänken
@@ -2166,7 +2213,7 @@
           <note type="speaker" n="4220e77b">
             Anf. 142 MAGNUS PERSSON (s) replik:
           </note>
-          <u who="magnus_persson_8bc30d" xml:id="i-d8916217ff7748e8-1" n="5f259e73">
+          <u who="magnus_persson_8bc30d" xml:id="i-5f259e7300f61000-8" n="5f259e73">
             <seg n="8de3f24e">
               Herr talman! Låt mig bara till sist säga att de sökande har begärt
               att få komma in med kompletteringar. Det finns en rad frågeställningar,
@@ -2179,7 +2226,7 @@
           <note type="speaker" n="9f722382">
             Anf. 143 BO SÖDERSTEN (s):
           </note>
-          <u who="bo_sodersten_de3701" xml:id="i-101509bb70cd7ac7-2" next="i-e7827d1daebb493d-2" n="5e79dff1">
+          <u who="bo_sodersten_de3701" xml:id="i-5e79dff16b613e70-10" next="i-5e79dff16b613e70-14" n="5e79dff1">
             <seg n="40644e20">
               Herr talman! Tillsammans med Bengt-Ola Ryttar har jag motionerat
               om att den vattenkraftsberedning som utreder frågan om ytterligare
@@ -2204,14 +2251,31 @@
           <note n="1322d5a3">
             23 mars 1983
           </note>
-          <u who="bo_sodersten_de3701" xml:id="i-e7827d1daebb493d-2" prev="i-101509bb70cd7ac7-2" n="5e79dff1">
+          <u who="bo_sodersten_de3701" xml:id="i-5e79dff16b613e70-11" prev="i-5e79dff16b613e70-10" n="5e79dff1">
             <seg n="8892f746">
               Utbyggnad av vattenkraft
             </seg>
-            <seg n="d68dc161"/>
+          </u>
+          <note n="3766da8f">
+            141
+          </note>
+          <pb n="26" facs="https://betalab.kb.se/prot-198283--106/prot_198283__106-026.jp2/_view"/>
+          <u who="bo_sodersten_de3701" xml:id="i-5e79dff16b613e70-12" prev="i-5e79dff16b613e70-10" n="5e79dff1"/>
+          <note n="d4d136ea">
+            Nr 106
+          </note>
+          <note type="date" n="0e3263e3">
+            Onsdagen den 23 mars 1983
+          </note>
+          <u who="bo_sodersten_de3701" xml:id="i-5e79dff16b613e70-13" prev="i-5e79dff16b613e70-10" n="5e79dff1">
             <seg n="8892f746">
               Utbyggnad av vattenkraft
             </seg>
+          </u>
+          <note n="3723b84e">
+            142
+          </note>
+          <u who="bo_sodersten_de3701" xml:id="i-5e79dff16b613e70-14" prev="i-5e79dff16b613e70-10" n="5e79dff1">
             <seg n="489299b4">
               att avstå från att bygga ut Västerdalälven. Men det har runnit
               rätt mycket vatten under broarna sedan dess.
@@ -2243,23 +2307,10 @@
               finns all anledning att komma tillbaka till den här frågan i framtiden.
             </seg>
           </u>
-          <note n="3766da8f">
-            141
-          </note>
-          <pb n="26" facs="https://betalab.kb.se/prot-198283--106/prot_198283__106-026.jp2/_view"/>
-          <note n="d4d136ea">
-            Nr 106
-          </note>
-          <note type="date" n="0e3263e3">
-            Onsdagen den 23 mars 1983
-          </note>
-          <note n="3723b84e">
-            142
-          </note>
           <note type="speaker" n="52efacb9">
             Anf. 144 KJELL MATTSSON (c):
           </note>
-          <u who="lisa_mattsson_27541b" xml:id="i-a8ad404983bbc023-1" n="0ab8d94b">
+          <u who="lisa_mattsson_27541b" xml:id="i-0ab8d94bec218cd4-7" n="0ab8d94b">
             <seg n="5b811303">
               Herr talman! Jag skall inte gå in i någon diskussion om vilka
               älvsträckor som skall tas i anspråk. Inledningsvis konstaterade
@@ -2273,7 +2324,7 @@
           <note type="speaker" n="bc05c5d9">
             Anf. 145 BO SÖDERSTEN (s):
           </note>
-          <u who="bo_sodersten_de3701" xml:id="i-2a6cbb42b84d3309-0" n="5e79dff1">
+          <u who="bo_sodersten_de3701" xml:id="i-5e79dff16b613e70-15" n="5e79dff1">
             <seg n="2288f3a8">
               Herr talman! När man hör Kjell Mattsson verkar det som om han
               är litet ängslig för verkligheten. Det enda som vi önskar är information,
@@ -2284,7 +2335,7 @@
           <note type="speaker" n="66e6a6d9">
             Anf. 146 KJELL MATTSSON (c):
           </note>
-          <u who="lisa_mattsson_27541b" xml:id="i-a8ad404983bbc023-2" n="0ab8d94b">
+          <u who="lisa_mattsson_27541b" xml:id="i-0ab8d94bec218cd4-8" n="0ab8d94b">
             <seg n="15015f7b">
               Herr talman! Om Bo Södersten läser innantill kan han konstatera
               att vi refererar till att vattenkraftsberedningen har fått ett
@@ -2297,7 +2348,7 @@
           <note type="speaker" n="a51379e4">
             Anf. 147 BO SÖDERSTEN (s):
           </note>
-          <u who="bo_sodersten_de3701" xml:id="i-2a6cbb42b84d3309-1" n="5e79dff1">
+          <u who="bo_sodersten_de3701" xml:id="i-5e79dff16b613e70-16" n="5e79dff1">
             <seg n="749b1d04">
               Herr talman! Civilutskottet har mycket sorgfälligt undvikit varje
               form av sakdiskussion när det gäller de här kanske litet besvärliga
@@ -2309,7 +2360,7 @@
           <note type="speaker" n="2c496830">
             Anf. 148 GÖTHE KNUTSON (m):
           </note>
-          <u who="gothe_knutson_09ded1" xml:id="i-734d32b18b50f6ce-0" n="3cb3ac17">
+          <u who="gothe_knutson_09ded1" xml:id="i-5ccfa5c797993002-0" n="3cb3ac17">
             <seg n="5a5da98d">
               Herr talman! Med anledning av ett återkommande påstående om att
               en effektivisering av befintliga kraftverk i Klarälven skulle
@@ -2373,7 +2424,7 @@
           <note type="speaker" n="8b33e9b0">
             Anf. 149 BJÖRN SAMUELSON (vpk):
           </note>
-          <u who="bjorn_samuelson_376212" xml:id="i-4b5e67b2cbd7d910-1" next="i-1dc091edb62d8395-1" n="ea2a00e6">
+          <u who="bjorn_samuelson_376212" xml:id="i-ea2a00e6affca7bc-7" next="i-ea2a00e6affca7bc-11" n="ea2a00e6">
             <seg n="8ad00874">
               Herr talman! Så har tolken för Värmlands folk varit uppe och
               talat i riksdagen igen!
@@ -2394,15 +2445,32 @@
           <note n="1322d5a3">
             23 mars 1983
           </note>
-          <u who="bjorn_samuelson_376212" xml:id="i-1dc091edb62d8395-1" prev="i-4b5e67b2cbd7d910-1" n="ea2a00e6">
+          <u who="bjorn_samuelson_376212" xml:id="i-ea2a00e6affca7bc-8" prev="i-ea2a00e6affca7bc-7" n="ea2a00e6">
             <seg n="8892f746">
               Utbyggnad av vattenkraft
             </seg>
             <seg n="d68dc161"/>
-            <seg n="d68dc161"/>
+          </u>
+          <note n="47104d8b">
+            143
+          </note>
+          <pb n="28" facs="https://betalab.kb.se/prot-198283--106/prot_198283__106-028.jp2/_view"/>
+          <u who="bjorn_samuelson_376212" xml:id="i-ea2a00e6affca7bc-9" prev="i-ea2a00e6affca7bc-7" n="ea2a00e6"/>
+          <note n="d4d136ea">
+            Nr 106
+          </note>
+          <note type="date" n="0e3263e3">
+            Onsdagen den 23 mars 1983
+          </note>
+          <u who="bjorn_samuelson_376212" xml:id="i-ea2a00e6affca7bc-10" prev="i-ea2a00e6affca7bc-7" n="ea2a00e6">
             <seg n="8892f746">
               Utbyggnad av vattenkraft
             </seg>
+          </u>
+          <note n="375c89a7">
+            144
+          </note>
+          <u who="bjorn_samuelson_376212" xml:id="i-ea2a00e6affca7bc-11" prev="i-ea2a00e6affca7bc-7" n="ea2a00e6">
             <seg n="3eea92a9">
               årskilowattimme. Man kan få ytterligare 50 GWh om man kan sträcka
               sig upp till 2:50 per årskilowattimme. Och det finns exempel på
@@ -2422,23 +2490,10 @@
               Det är väl det som Göthe Knutson åsyftar.
             </seg>
           </u>
-          <note n="47104d8b">
-            143
-          </note>
-          <pb n="28" facs="https://betalab.kb.se/prot-198283--106/prot_198283__106-028.jp2/_view"/>
-          <note n="d4d136ea">
-            Nr 106
-          </note>
-          <note type="date" n="0e3263e3">
-            Onsdagen den 23 mars 1983
-          </note>
-          <note n="375c89a7">
-            144
-          </note>
           <note type="speaker" n="8f4dcb5c">
             Anf. 150 GÖTHE KNUTSON (m):
           </note>
-          <u who="gothe_knutson_09ded1" xml:id="i-5584e8cf90a9f399-0" next="i-fde0e9673d4dfc38-0" n="3cb3ac17">
+          <u who="gothe_knutson_09ded1" xml:id="i-5ccfa5c797993002-1" next="i-5ccfa5c797993002-8" n="3cb3ac17">
             <seg n="b4606558">
               Herr talman! Beträffande uppgifternas riktighet utgår jag från
               att de är korrekta, eftersom det är samma siffror i de båda länstidningarna.
@@ -2483,11 +2538,53 @@
             hemställan bifölls med 297 röster mot 14 för reservation 5 av
             Tore Claeson.
           </note>
-          <u who="gothe_knutson_09ded1" xml:id="i-fde0e9673d4dfc38-0" prev="i-5584e8cf90a9f399-0" n="3cb3ac17">
-            <seg n="d68dc161"/>
+          <u who="gothe_knutson_09ded1" xml:id="i-5ccfa5c797993002-2" prev="i-5ccfa5c797993002-1" n="3cb3ac17"/>
+          <pb n="29" facs="https://betalab.kb.se/prot-198283--106/prot_198283__106-029.jp2/_view"/>
+          <note n="b2370e5f">
+            Mom. 6 (Kymmens kraftverk m. m.) Nr 106 Hemställan Onsdagen den
+            Utskottets hemställan bifölls med 296 röster mot 15 för reservation
+            6 av — 23 mars 1983
+          </note>
+          <note n="d32acdbe">
+            Tore Claeson.
+          </note>
+          <u who="gothe_knutson_09ded1" xml:id="i-5ccfa5c797993002-3" prev="i-5ccfa5c797993002-1" n="3cb3ac17">
             <seg n="fdbecbd2">
               Förbud under
             </seg>
+          </u>
+          <note n="7460c53d">
+            viss tid mot nybyggnad av djurstallar för nötkreatur, m. m.
+          </note>
+          <note n="a6f95b7d">
+            Motivering Utskottets motivering, som ställdes mot den i reservation
+            7 av Kerstin Ekman anförda motiveringen, godkändes med acklamation.
+          </note>
+          <note n="a71c698e">
+            Avsnittet Allmänt om ändring i gällande riktlinjer Utskottets
+            motivering godkändes med 296 röster mot 14 för godkännande av
+            den i reservation 8 av Tore Claeson anförda motiveringen.
+          </note>
+          <note n="9811782a">
+            Mom. 7 (Strängsforsen) Utskottets hemställan bifölls med 295
+            röster mot 15 för reservation 9 av Tore Claeson.
+          </note>
+          <note n="c4b31d48">
+            Övriga moment Utskottets hemställan bifölls.
+          </note>
+          <note n="80e1963a">
+            188 Förbud under viss tid mot nybyggnad av djurstallar för nötkreatur,
+            m. m.
+          </note>
+          <note n="3765aa26">
+            Föredrogs jordbruksutskottets betänkande 1982/83:27 om förbud
+            under viss tid mot nybyggnad av djurstallar för nötkreatur, svin
+            och fjäderfä (prop. 1982/83:112).
+          </note>
+          <note n="9b040a8b">
+            Anf. 151 ARNE ANDERSSON i Ljung (m):
+          </note>
+          <u who="gothe_knutson_09ded1" xml:id="i-5ccfa5c797993002-4" prev="i-5ccfa5c797993002-1" n="3cb3ac17">
             <seg n="f2178f33">
               Herr talman! Regeringen har i proposition 112 föreslagit förbud
               under viss tid mot nybyggnad av djurstallar för nötkreatur, svin
@@ -2515,10 +2612,30 @@
               en väsentlig reparation eller en ombyggnad har utförts eller om
               den planeras för de närmaste åren. För de 145
             </seg>
-            <seg n="d68dc161"/>
+          </u>
+          <note n="79fda6a8">
+            10 Riksdagens protokoll 1982/83:105-106
+          </note>
+          <pb n="30" facs="https://betalab.kb.se/prot-198283--106/prot_198283__106-030.jp2/_view"/>
+          <u who="gothe_knutson_09ded1" xml:id="i-5ccfa5c797993002-5" prev="i-5ccfa5c797993002-1" n="3cb3ac17"/>
+          <note n="d4d136ea">
+            Nr 106
+          </note>
+          <note type="date" n="0e3263e3">
+            Onsdagen den 23 mars 1983
+          </note>
+          <u who="gothe_knutson_09ded1" xml:id="i-5ccfa5c797993002-6" prev="i-5ccfa5c797993002-1" n="3cb3ac17">
             <seg n="fdbecbd2">
               Förbud under
             </seg>
+          </u>
+          <note n="7460c53d">
+            viss tid mot nybyggnad av djurstallar för nötkreatur, m. m.
+          </note>
+          <note n="b8ba0f70">
+            146
+          </note>
+          <u who="gothe_knutson_09ded1" xml:id="i-5ccfa5c797993002-7" prev="i-5ccfa5c797993002-1" n="3cb3ac17">
             <seg n="a8a1f140">
               berördas privatekonomi har det emellertid avgörande betydelse
               om arbetet hunnit utföras före detta regeringens ingrepp.
@@ -2587,7 +2704,9 @@
               yrkat på större möjligheter för
             </seg>
             <seg n="d68dc161"/>
-            <seg n="d68dc161"/>
+          </u>
+          <pb n="31" facs="https://betalab.kb.se/prot-198283--106/prot_198283__106-031.jp2/_view"/>
+          <u who="gothe_knutson_09ded1" xml:id="i-5ccfa5c797993002-8" prev="i-5ccfa5c797993002-1" n="3cb3ac17">
             <seg n="ca9be328">
               dispenser i anslutning till det nu föreliggande regeringsförslaget,
               som man i Nr 106 Övrigt ansluter sig till. Detta är enligt min
@@ -2606,63 +2725,6 @@
               som är fogade till detta betänkande.
             </seg>
           </u>
-          <pb n="29" facs="https://betalab.kb.se/prot-198283--106/prot_198283__106-029.jp2/_view"/>
-          <note n="b2370e5f">
-            Mom. 6 (Kymmens kraftverk m. m.) Nr 106 Hemställan Onsdagen den
-            Utskottets hemställan bifölls med 296 röster mot 15 för reservation
-            6 av — 23 mars 1983
-          </note>
-          <note n="d32acdbe">
-            Tore Claeson.
-          </note>
-          <note n="7460c53d">
-            viss tid mot nybyggnad av djurstallar för nötkreatur, m. m.
-          </note>
-          <note n="a6f95b7d">
-            Motivering Utskottets motivering, som ställdes mot den i reservation
-            7 av Kerstin Ekman anförda motiveringen, godkändes med acklamation.
-          </note>
-          <note n="a71c698e">
-            Avsnittet Allmänt om ändring i gällande riktlinjer Utskottets
-            motivering godkändes med 296 röster mot 14 för godkännande av
-            den i reservation 8 av Tore Claeson anförda motiveringen.
-          </note>
-          <note n="9811782a">
-            Mom. 7 (Strängsforsen) Utskottets hemställan bifölls med 295
-            röster mot 15 för reservation 9 av Tore Claeson.
-          </note>
-          <note n="c4b31d48">
-            Övriga moment Utskottets hemställan bifölls.
-          </note>
-          <note n="80e1963a">
-            188 Förbud under viss tid mot nybyggnad av djurstallar för nötkreatur,
-            m. m.
-          </note>
-          <note n="3765aa26">
-            Föredrogs jordbruksutskottets betänkande 1982/83:27 om förbud
-            under viss tid mot nybyggnad av djurstallar för nötkreatur, svin
-            och fjäderfä (prop. 1982/83:112).
-          </note>
-          <note n="9b040a8b">
-            Anf. 151 ARNE ANDERSSON i Ljung (m):
-          </note>
-          <note n="79fda6a8">
-            10 Riksdagens protokoll 1982/83:105-106
-          </note>
-          <pb n="30" facs="https://betalab.kb.se/prot-198283--106/prot_198283__106-030.jp2/_view"/>
-          <note n="d4d136ea">
-            Nr 106
-          </note>
-          <note type="date" n="0e3263e3">
-            Onsdagen den 23 mars 1983
-          </note>
-          <note n="7460c53d">
-            viss tid mot nybyggnad av djurstallar för nötkreatur, m. m.
-          </note>
-          <note n="b8ba0f70">
-            146
-          </note>
-          <pb n="31" facs="https://betalab.kb.se/prot-198283--106/prot_198283__106-031.jp2/_view"/>
           <note n="7460c53d">
             viss tid mot nybyggnad av djurstallar för nötkreatur, m. m.
           </note>
@@ -2673,7 +2735,7 @@
           <note type="speaker" n="34f6d669">
             Anf. 152 BÖRJE STENSSON (fp):
           </note>
-          <u who="borje_stensson_2285c7" xml:id="i-017d410fb0ec2da1-0" next="i-dcd1c8234848a92a-0" n="61282ee7">
+          <u who="borje_stensson_2285c7" xml:id="i-61282ee7c6985c5f-0" next="i-61282ee7c6985c5f-4" n="61282ee7">
             <seg n="df2a6320">
               Herr talman! Torka ger hungerkatastrof i Etiopien — ungefär så
               föll orden i Dagens eko i dag på morgonen.
@@ -2718,19 +2780,27 @@
               klarlagt att det finns ett så direkt samband mellan s. k. överproduktion
               och pågående 147
             </seg>
-            <seg n="d68dc161"/>
           </u>
           <pb n="32" facs="https://betalab.kb.se/prot-198283--106/prot_198283__106-032.jp2/_view"/>
+          <u who="borje_stensson_2285c7" xml:id="i-61282ee7c6985c5f-1" prev="i-61282ee7c6985c5f-0" n="61282ee7"/>
           <note n="d4d136ea">
             Nr 106
           </note>
           <note type="date" n="0e3263e3">
             Onsdagen den 23 mars 1983
           </note>
-          <u who="borje_stensson_2285c7" xml:id="i-dcd1c8234848a92a-0" prev="i-017d410fb0ec2da1-0" n="61282ee7">
+          <u who="borje_stensson_2285c7" xml:id="i-61282ee7c6985c5f-2" prev="i-61282ee7c6985c5f-0" n="61282ee7">
             <seg n="fdbecbd2">
               Förbud under
             </seg>
+          </u>
+          <note n="7460c53d">
+            viss tid mot nybyggnad av djurstallar för nötkreatur, m. m.
+          </note>
+          <note n="ce0c0b40">
+            148
+          </note>
+          <u who="borje_stensson_2285c7" xml:id="i-61282ee7c6985c5f-3" prev="i-61282ee7c6985c5f-0" n="61282ee7">
             <seg n="8b547ff6">
               byggnationer och moderniseringar inom svenskt jordbruk? Folkpartiet
               svarar nej på den frågan.
@@ -2799,6 +2869,9 @@
               vill nu regeringen och centerpartiet bryta. Det är närmast obegripligt.
             </seg>
             <seg n="d68dc161"/>
+          </u>
+          <pb n="33" facs="https://betalab.kb.se/prot-198283--106/prot_198283__106-033.jp2/_view"/>
+          <u who="borje_stensson_2285c7" xml:id="i-61282ee7c6985c5f-4" prev="i-61282ee7c6985c5f-0" n="61282ee7">
             <seg n="022a79f3">
               Förbud och reglering av byggverksamheten i fråga kommer sannolikt
               att Nr 106 medföra utslagning av en del serviceföretag. Jag frågar
@@ -2816,17 +2889,10 @@
               viss tid mot nybyggnad av djurstallar för nötkrea-
             </seg>
           </u>
-          <note n="7460c53d">
-            viss tid mot nybyggnad av djurstallar för nötkreatur, m. m.
-          </note>
-          <note n="ce0c0b40">
-            148
-          </note>
-          <pb n="33" facs="https://betalab.kb.se/prot-198283--106/prot_198283__106-033.jp2/_view"/>
           <note type="speaker" n="8c29c450">
             på tur, m. m. Anf. 153 HÅKAN STRÖMBERG (s):
           </note>
-          <u who="hakan_stromberg_77e7e3" xml:id="i-5d6c3f2fc97413f1-0" next="i-45dcc463cc9bc413-0" n="1af1d89c">
+          <u who="hakan_stromberg_77e7e3" xml:id="i-1af1d89c46499878-0" next="i-1af1d89c46499878-5" n="1af1d89c">
             <seg n="9f293239">
               Herr talman! I det betänkande som nu föreligger har jordbruksutskottet
               behandlat regeringens proposition angående förbud mot nybyggnad
@@ -2877,19 +2943,27 @@
               kan vara såväl ur arbetsmiljösom ur djurhälsosynpunkt direkt olämpliga.
               I sådana 149
             </seg>
-            <seg n="d68dc161"/>
           </u>
           <pb n="34" facs="https://betalab.kb.se/prot-198283--106/prot_198283__106-034.jp2/_view"/>
+          <u who="hakan_stromberg_77e7e3" xml:id="i-1af1d89c46499878-1" prev="i-1af1d89c46499878-0" n="1af1d89c"/>
           <note n="d4d136ea">
             Nr 106
           </note>
           <note type="date" n="0e3263e3">
             Onsdagen den 23 mars 1983
           </note>
-          <u who="hakan_stromberg_77e7e3" xml:id="i-45dcc463cc9bc413-0" prev="i-5d6c3f2fc97413f1-0" n="1af1d89c">
+          <u who="hakan_stromberg_77e7e3" xml:id="i-1af1d89c46499878-2" prev="i-1af1d89c46499878-0" n="1af1d89c">
             <seg n="fdbecbd2">
               Förbud under
             </seg>
+          </u>
+          <note n="7460c53d">
+            viss tid mot nybyggnad av djurstallar för nötkreatur, m. m.
+          </note>
+          <note n="d1691379">
+            150
+          </note>
+          <u who="hakan_stromberg_77e7e3" xml:id="i-1af1d89c46499878-3" prev="i-1af1d89c46499878-0" n="1af1d89c">
             <seg n="bf995f5c">
               fall anser utskottet att dispenser bör kunna ges för nybyggnad.
               Av praktiska skäl kan i vissa fall dispens ges också för viss
@@ -2952,13 +3026,20 @@
               det vara nödvändigt att under den tid som utredningen arbetar
               stoppa utbyggnaden av vissa djurstallar.
             </seg>
+          </u>
+          <note n="0e67ab61">
+            Därför, herr talman, yrkar jag bifall till utskottets hemställan.
+          </note>
+          <u who="hakan_stromberg_77e7e3" xml:id="i-1af1d89c46499878-4" prev="i-1af1d89c46499878-0" n="1af1d89c">
             <seg n="c0813da2">
               Anf. 154 ARNE ANDERSSON i Ljung (m) replik: Herr talman! Utskottets
               vice ordförande Håkan Strömberg är onekligen en generös natur
               — det vill jag hålla honom räkning för. Men det är utan tvivel
             </seg>
             <seg n="d68dc161"/>
-            <seg n="d68dc161"/>
+          </u>
+          <pb n="35" facs="https://betalab.kb.se/prot-198283--106/prot_198283__106-035.jp2/_view"/>
+          <u who="hakan_stromberg_77e7e3" xml:id="i-1af1d89c46499878-5" prev="i-1af1d89c46499878-0" n="1af1d89c">
             <seg n="4dee01f2">
               ett medgivande som vi tar fasta på då han konstaterar att man
               inte skall räkna — Nr 106
@@ -3012,20 +3093,10 @@
           <note n="7460c53d">
             viss tid mot nybyggnad av djurstallar för nötkreatur, m. m.
           </note>
-          <note n="d1691379">
-            150
-          </note>
-          <note n="0e67ab61">
-            Därför, herr talman, yrkar jag bifall till utskottets hemställan.
-          </note>
-          <pb n="35" facs="https://betalab.kb.se/prot-198283--106/prot_198283__106-035.jp2/_view"/>
-          <note n="7460c53d">
-            viss tid mot nybyggnad av djurstallar för nötkreatur, m. m.
-          </note>
           <note type="speaker" n="cc4a14e5">
             Anf. 155 BÖRJE STENSSON (fp) replik:
           </note>
-          <u who="borje_stensson_2285c7" xml:id="i-017d410fb0ec2da1-1" next="i-dcd1c8234848a92a-1" n="61282ee7">
+          <u who="borje_stensson_2285c7" xml:id="i-61282ee7c6985c5f-5" next="i-61282ee7c6985c5f-8" n="61282ee7">
             <seg n="b346fd5f">
               Herr talman! Först vill jag yrka bifall till de två reservationer
               som jag har undertecknat i utskottets betänkande. Jag glömde att
@@ -3045,20 +3116,29 @@
               exempelvis en avspärrning med tanke på vilka krav som då måste
               ställas på det egna jordbrukets produktionsförmåga. 151
             </seg>
-            <seg n="d68dc161"/>
-            <seg n="d68dc161"/>
           </u>
           <pb n="36" facs="https://betalab.kb.se/prot-198283--106/prot_198283__106-036.jp2/_view"/>
+          <u who="borje_stensson_2285c7" xml:id="i-61282ee7c6985c5f-6" prev="i-61282ee7c6985c5f-5" n="61282ee7">
+            <seg n="d68dc161"/>
+          </u>
           <note n="d4d136ea">
             Nr 106
           </note>
           <note type="date" n="0e3263e3">
             Onsdagen den 23 mars 1983
           </note>
-          <u who="borje_stensson_2285c7" xml:id="i-dcd1c8234848a92a-1" prev="i-017d410fb0ec2da1-1" n="61282ee7">
+          <u who="borje_stensson_2285c7" xml:id="i-61282ee7c6985c5f-7" prev="i-61282ee7c6985c5f-5" n="61282ee7">
             <seg n="fdbecbd2">
               Förbud under
             </seg>
+          </u>
+          <note n="7460c53d">
+            viss tid mot nybyggnad av djurstallar för nötkreatur, m. m.
+          </note>
+          <note n="423dc290">
+            182
+          </note>
+          <u who="borje_stensson_2285c7" xml:id="i-61282ee7c6985c5f-8" prev="i-61282ee7c6985c5f-5" n="61282ee7">
             <seg n="563bb940">
               Man kanske kan säga att det f. n. råder ett visst överskott av
               mjölkprodukter. Men det kan delvis, förmodligen till största delen,
@@ -3076,16 +3156,10 @@
               legat lågt med.
             </seg>
           </u>
-          <note n="7460c53d">
-            viss tid mot nybyggnad av djurstallar för nötkreatur, m. m.
-          </note>
-          <note n="423dc290">
-            182
-          </note>
           <note type="speaker" n="08adf35a">
             Anf. 156 HÅKAN STRÖMBERG (s) replik:
           </note>
-          <u who="hakan_stromberg_77e7e3" xml:id="i-5d6c3f2fc97413f1-1" next="i-45dcc463cc9bc413-1" n="1af1d89c">
+          <u who="hakan_stromberg_77e7e3" xml:id="i-1af1d89c46499878-6" next="i-1af1d89c46499878-8" n="1af1d89c">
             <seg n="fb7a5800">
               Herr talman! När Börje Stensson börjar tala om vår livsmedelsimport
               vill jag påpeka att denna har med konsumtionsmönstret att göra.
@@ -3120,7 +3194,7 @@
           <note n="dcb6618e">
             Anf. 157 ARNE ANDERSSON i Ljung (m) replik:
           </note>
-          <u who="hakan_stromberg_77e7e3" xml:id="i-45dcc463cc9bc413-1" prev="i-5d6c3f2fc97413f1-1" n="1af1d89c">
+          <u who="hakan_stromberg_77e7e3" xml:id="i-1af1d89c46499878-7" prev="i-1af1d89c46499878-6" n="1af1d89c">
             <seg n="24c805da">
               Herr talman! Jag är onekligen imponerad av Håkan Strömbergs tal
               om ökat handlingsutrymme. Håkan Strömberg gör sig till en skicklig
@@ -3138,6 +3212,9 @@
               riksdagsbeslut ha någon
             </seg>
             <seg n="d68dc161"/>
+          </u>
+          <pb n="37" facs="https://betalab.kb.se/prot-198283--106/prot_198283__106-037.jp2/_view"/>
+          <u who="hakan_stromberg_77e7e3" xml:id="i-1af1d89c46499878-8" prev="i-1af1d89c46499878-6" n="1af1d89c">
             <seg n="aa1efe4e">
               betydelse måste det nästan uteslutande vara fråga om ett ovillkorligt
               beslut. Nr 106 Håkan Strömberg har f. ö. också bekräftat detta
@@ -3159,14 +3236,13 @@
               det.
             </seg>
           </u>
-          <pb n="37" facs="https://betalab.kb.se/prot-198283--106/prot_198283__106-037.jp2/_view"/>
           <note n="7460c53d">
             viss tid mot nybyggnad av djurstallar för nötkreatur, m. m.
           </note>
           <note type="speaker" n="1a1e5e82">
             Anf. 158 BÖRJE STENSSON (fp) replik:
           </note>
-          <u who="borje_stensson_2285c7" xml:id="i-263fd0aa599435d0-0" n="61282ee7">
+          <u who="borje_stensson_2285c7" xml:id="i-61282ee7c6985c5f-9" n="61282ee7">
             <seg n="b3be3edd">
               Herr talman! Nej, Håkan Strömberg, jag vill inte att vi skall
               ändra på den marknad vi har. Vi är i den värld vi lever i tvingade
@@ -3199,7 +3275,7 @@
           <note type="speaker" n="78d346d4">
             Anf. 159 HÅKAN STRÖMBERG (s) replik:
           </note>
-          <u who="hakan_stromberg_77e7e3" xml:id="i-5d6c3f2fc97413f1-2" next="i-45dcc463cc9bc413-2" n="1af1d89c">
+          <u who="hakan_stromberg_77e7e3" xml:id="i-1af1d89c46499878-9" next="i-1af1d89c46499878-12" n="1af1d89c">
             <seg n="0eee0c0a">
               Herr talman! Jag är en ivrig förespråkare för ett starkt samhälle.
               Där människorna har en stark köpkraft, där blommar också näringslivet.
@@ -3209,20 +3285,29 @@
               och som inte borde slås ut, nämligen de unga och nyetablerade
               lantbrukarna, som svenskt lantbruk skall bygga sin 153
             </seg>
-            <seg n="d68dc161"/>
-            <seg n="d68dc161"/>
           </u>
           <pb n="38" facs="https://betalab.kb.se/prot-198283--106/prot_198283__106-038.jp2/_view"/>
+          <u who="hakan_stromberg_77e7e3" xml:id="i-1af1d89c46499878-10" prev="i-1af1d89c46499878-9" n="1af1d89c">
+            <seg n="d68dc161"/>
+          </u>
           <note n="d4d136ea">
             Nr 106
           </note>
           <note type="date" n="0e3263e3">
             Onsdagen den 23 mars 1983
           </note>
-          <u who="hakan_stromberg_77e7e3" xml:id="i-45dcc463cc9bc413-2" prev="i-5d6c3f2fc97413f1-2" n="1af1d89c">
+          <u who="hakan_stromberg_77e7e3" xml:id="i-1af1d89c46499878-11" prev="i-1af1d89c46499878-9" n="1af1d89c">
             <seg n="fdbecbd2">
               Förbud under
             </seg>
+          </u>
+          <note n="7460c53d">
+            viss tid mot nybyggnad av djurstallar för nötkreatur, m. m.
+          </note>
+          <note n="1ecbfa9e">
+            154
+          </note>
+          <u who="hakan_stromberg_77e7e3" xml:id="i-1af1d89c46499878-12" prev="i-1af1d89c46499878-9" n="1af1d89c">
             <seg n="55a51c56">
               framtid på. För egen del ser de det också som en möjlighet att
               genom ökade investeringar försöka klara sig ur de svåra problem
@@ -3238,16 +3323,10 @@
               har.
             </seg>
           </u>
-          <note n="7460c53d">
-            viss tid mot nybyggnad av djurstallar för nötkreatur, m. m.
-          </note>
-          <note n="1ecbfa9e">
-            154
-          </note>
           <note type="speaker" n="6f6e2e73">
             Anf. 160 SVEN ERIC LORENTZON (m):
           </note>
-          <u who="sven_eric_lorentzon_eb5b5d" xml:id="i-42c73477b342a7a0-0" n="2ed12360">
+          <u who="sven_eric_lorentzon_eb5b5d" xml:id="i-2ed123601f558f45-0" next="i-2ed123601f558f45-1" n="2ed12360">
             <seg n="14f9d3ad">
               Herr talman! Jag trodde att vi mer skulle diskutera investeringsstoppet
               och kanske mindre livsmedelspolitiken. Men jag är övertygad om
@@ -3301,6 +3380,9 @@
               andra företag sträva efter
             </seg>
             <seg n="d68dc161"/>
+          </u>
+          <pb n="39" facs="https://betalab.kb.se/prot-198283--106/prot_198283__106-039.jp2/_view"/>
+          <u who="sven_eric_lorentzon_eb5b5d" xml:id="i-2ed123601f558f45-1" prev="i-2ed123601f558f45-0" n="2ed12360">
             <seg n="5c592db1">
               ekonomiskt optimum. Om företag av olika skäl, ofta skatteskäl,
               investerar Nr 106 ytterligare, kan det naturligtvis ifrågasättas.
@@ -3331,14 +3413,13 @@
               utskottsbetänkande.
             </seg>
           </u>
-          <pb n="39" facs="https://betalab.kb.se/prot-198283--106/prot_198283__106-039.jp2/_view"/>
           <note n="7460c53d">
             viss tid mot nybyggnad av djurstallar för nötkreatur, m. m.
           </note>
           <note type="speaker" n="108951ca">
             Anf. 161 EINAR LARSSON (c):
           </note>
-          <u who="einar_larsson_a08696" xml:id="i-35e0c2adc478d1a3-0" next="i-fcb3c4ed89c09b46-0" n="96f30e19">
+          <u who="einar_larsson_a08696" xml:id="i-96f30e19737a7fd3-0" next="i-96f30e19737a7fd3-5" n="96f30e19">
             <seg n="1216937e">
               Herr talman! Den omsorg och det intresse som moderaterna här
               har visat centerns ställningstagande måste härröra från deras
@@ -3377,19 +3458,27 @@
               försiktighet är egentligen den elementära orsaken till dagens
               debatt om s. k. överskotts- 155
             </seg>
-            <seg n="d68dc161"/>
           </u>
           <pb n="40" facs="https://betalab.kb.se/prot-198283--106/prot_198283__106-040.jp2/_view"/>
+          <u who="einar_larsson_a08696" xml:id="i-96f30e19737a7fd3-1" prev="i-96f30e19737a7fd3-0" n="96f30e19"/>
           <note n="d4d136ea">
             Nr 106
           </note>
           <note type="date" n="0e3263e3">
             Onsdagen den 23 mars 1983
           </note>
-          <u who="einar_larsson_a08696" xml:id="i-fcb3c4ed89c09b46-0" prev="i-35e0c2adc478d1a3-0" n="96f30e19">
+          <u who="einar_larsson_a08696" xml:id="i-96f30e19737a7fd3-2" prev="i-96f30e19737a7fd3-0" n="96f30e19">
             <seg n="fdbecbd2">
               Förbud under
             </seg>
+          </u>
+          <note n="1230ccb7">
+            viss tid mot nybyggnad av djurstallar för nötkreatur, m.m.
+          </note>
+          <note n="b9dfa313">
+            156
+          </note>
+          <u who="einar_larsson_a08696" xml:id="i-96f30e19737a7fd3-3" prev="i-96f30e19737a7fd3-0" n="96f30e19">
             <seg n="b2766f83">
               problem. Det är också orsaken till den panikbromsning som regeringen
               gör sig skyldig till och som här i debatten mötts med begofad
@@ -3425,6 +3514,11 @@
               Det har medfört en utskottsskrivning som ger utrymme för en i
               praktiken vettig hantering.
             </seg>
+          </u>
+          <note n="0b29d7da">
+            Anf. 162 ARNE ANDERSSON i Ljung (m):
+          </note>
+          <u who="einar_larsson_a08696" xml:id="i-96f30e19737a7fd3-4" prev="i-96f30e19737a7fd3-0" n="96f30e19">
             <seg n="dee8d118">
               Herr talman! I en viktig jordbrukspolitisk fråga har jordbruksutskottets
               ordförande ägnat sig åt ett trafikpolitiskt anförande, där han
@@ -3456,7 +3550,9 @@
               ni i det
             </seg>
             <seg n="d68dc161"/>
-            <seg n="d68dc161"/>
+          </u>
+          <pb n="41" facs="https://betalab.kb.se/prot-198283--106/prot_198283__106-041.jp2/_view"/>
+          <u who="einar_larsson_a08696" xml:id="i-96f30e19737a7fd3-5" prev="i-96f30e19737a7fd3-0" n="96f30e19">
             <seg n="d68dc161"/>
             <seg n="b2fe1940">
               särskilda yttrandet uttalade ert gillande av de motioner som
@@ -3480,20 +3576,10 @@
           <note n="1230ccb7">
             viss tid mot nybyggnad av djurstallar för nötkreatur, m.m.
           </note>
-          <note n="b9dfa313">
-            156
-          </note>
-          <note n="0b29d7da">
-            Anf. 162 ARNE ANDERSSON i Ljung (m):
-          </note>
-          <pb n="41" facs="https://betalab.kb.se/prot-198283--106/prot_198283__106-041.jp2/_view"/>
-          <note n="1230ccb7">
-            viss tid mot nybyggnad av djurstallar för nötkreatur, m.m.
-          </note>
           <note type="speaker" n="9ba412a6">
             Anf. 163 SVEN ERIC LORENTZON (m):
           </note>
-          <u who="sven_eric_lorentzon_eb5b5d" xml:id="i-42c73477b342a7a0-1" n="2ed12360">
+          <u who="sven_eric_lorentzon_eb5b5d" xml:id="i-2ed123601f558f45-2" n="2ed12360">
             <seg n="47d909a6">
               Herr talman! Även om vi har utomordentligt goda kontakter med
               jordbrukets ekonomiska och fackliga organisationer, är vi inte
@@ -3517,7 +3603,7 @@
           <note type="speaker" n="a1cfd969">
             Anf. 164 EINAR LARSSON (c):
           </note>
-          <u who="einar_larsson_a08696" xml:id="i-35e0c2adc478d1a3-1" next="i-fcb3c4ed89c09b46-1" n="96f30e19">
+          <u who="einar_larsson_a08696" xml:id="i-96f30e19737a7fd3-6" next="i-96f30e19737a7fd3-9" n="96f30e19">
             <seg n="f75a114c">
               Herr talman! Arne Andersson i Ljung uttryckte besvikelse över
               att centern inte har intagit samma ståndpunkt som moderaterna.
@@ -3542,20 +3628,27 @@
               moderaterna har rätt på denna punkt, vilket jag betvivlar. Jag
               tror trots allt 157
             </seg>
-            <seg n="d68dc161"/>
           </u>
           <pb n="42" facs="https://betalab.kb.se/prot-198283--106/prot_198283__106-042.jp2/_view"/>
+          <u who="einar_larsson_a08696" xml:id="i-96f30e19737a7fd3-7" prev="i-96f30e19737a7fd3-6" n="96f30e19"/>
           <note n="d4d136ea">
             Nr 106
           </note>
           <note type="date" n="0e3263e3">
             Onsdagen den 23 mars 1983
           </note>
-          <u who="einar_larsson_a08696" xml:id="i-fcb3c4ed89c09b46-1" prev="i-35e0c2adc478d1a3-1" n="96f30e19">
+          <u who="einar_larsson_a08696" xml:id="i-96f30e19737a7fd3-8" prev="i-96f30e19737a7fd3-6" n="96f30e19">
             <seg n="fdbecbd2">
               Förbud under
             </seg>
-            <seg n="d68dc161"/>
+          </u>
+          <note n="7460c53d">
+            viss tid mot nybyggnad av djurstallar för nötkreatur, m. m.
+          </note>
+          <note n="8fbacbdf">
+            158
+          </note>
+          <u who="einar_larsson_a08696" xml:id="i-96f30e19737a7fd3-9" prev="i-96f30e19737a7fd3-6" n="96f30e19">
             <seg n="9d6c9a09">
               att hut går hem i längden, och folk i allmänhet accepterar det
               som är sakligt, riktigt och rätt. Därför anser jag att vi i det
@@ -3613,16 +3706,10 @@
               Detta med djurstallar är, herr talman, någonting i hästväg.
             </seg>
           </u>
-          <note n="7460c53d">
-            viss tid mot nybyggnad av djurstallar för nötkreatur, m. m.
-          </note>
-          <note n="8fbacbdf">
-            158
-          </note>
           <note type="speaker" n="4ee09e5b">
             Anf. 166 SVEN ERIC LORENTZON (m):
           </note>
-          <u who="sven_eric_lorentzon_eb5b5d" xml:id="i-42c73477b342a7a0-2" n="2ed12360">
+          <u who="sven_eric_lorentzon_eb5b5d" xml:id="i-2ed123601f558f45-3" next="i-2ed123601f558f45-4" n="2ed12360">
             <seg n="ce1c68c8">
               Herr talman! Kära Einar Larsson, jag trodde att även Einar Larsson
               hade kontakter med de olika branschorganisationerna. Inte minst
@@ -3630,6 +3717,9 @@
               slaktsidan osv. uttalat
             </seg>
             <seg n="d68dc161"/>
+          </u>
+          <pb n="43" facs="https://betalab.kb.se/prot-198283--106/prot_198283__106-043.jp2/_view"/>
+          <u who="sven_eric_lorentzon_eb5b5d" xml:id="i-2ed123601f558f45-4" prev="i-2ed123601f558f45-3" n="2ed12360">
             <seg n="25bfab0b">
               att man är beredd att själva försöka lösa problemet.
             </seg>
@@ -3651,11 +3741,10 @@
               att näringen mår bra av mer planstyrning.
             </seg>
           </u>
-          <pb n="43" facs="https://betalab.kb.se/prot-198283--106/prot_198283__106-043.jp2/_view"/>
           <note type="speaker" n="4c640d1c">
             Anf. 167 EINAR LARSSON (c):
           </note>
-          <u who="einar_larsson_a08696" xml:id="i-35e0c2adc478d1a3-2" next="i-fcb3c4ed89c09b46-2" n="96f30e19">
+          <u who="einar_larsson_a08696" xml:id="i-96f30e19737a7fd3-10" next="i-96f30e19737a7fd3-12" n="96f30e19">
             <seg n="c922fa89">
               Herr talman! Med ett försök till viss hänsyn till kammarens arbetsförhållanden
               vill jag bara mycket kortfattat säga att jag inte har talat om
@@ -3707,8 +3796,7 @@
             159
           </note>
           <pb n="44" facs="https://betalab.kb.se/prot-198283--106/prot_198283__106-044.jp2/_view"/>
-          <u who="einar_larsson_a08696" xml:id="i-fcb3c4ed89c09b46-2" prev="i-35e0c2adc478d1a3-2" n="96f30e19">
-            <seg n="d68dc161"/>
+          <u who="einar_larsson_a08696" xml:id="i-96f30e19737a7fd3-11" prev="i-96f30e19737a7fd3-10" n="96f30e19">
             <seg n="d68dc161"/>
           </u>
           <note n="d4d136ea">
@@ -3717,6 +3805,7 @@
           <note type="date" n="0e3263e3">
             Onsdagen den 23 mars 1983
           </note>
+          <u who="einar_larsson_a08696" xml:id="i-96f30e19737a7fd3-12" prev="i-96f30e19737a7fd3-10" n="96f30e19"/>
           <note n="cd61da4e">
             Anslag till polisväsendet och åklagarväsendet
           </note>
@@ -3726,7 +3815,7 @@
           <note type="speaker" n="02f3278f">
             Anf. 168 TALMANNEN:
           </note>
-          <u who="unknown" xml:id="i-a1bf378cd59b88f2-0" n="15d07413">
+          <u who="unknown" xml:id="i-15d07413a1f80161-0" n="15d07413">
             <seg n="cb50428c">
               Justitieutskottets betänkanden 20 och 21 debatteras i ett sammanhang
               och yrkanden beträffande båda dessa betänkanden får framställas
@@ -3736,7 +3825,7 @@
           <note type="speaker" n="9fb97e1b">
             Anf. 169 BJÖRN KÖRLOF (m):
           </note>
-          <u who="bjorn_korlof_dd8bad" xml:id="i-bcdc820ef36b8fcb-0" n="ba1ae094">
+          <u who="bjorn_korlof_dd8bad" xml:id="i-ba1ae094110f5c4c-0" next="i-ba1ae094110f5c4c-1" n="ba1ae094">
             <seg n="682c9ae7">
               Herr talman! Låt mig kortfattat anföra några synpunkter på de
               moderata reservationerna till ett av de betänkanden från justitieutskottet
@@ -3802,7 +3891,9 @@
               Men jag vill understryka att vi gör detta i avvaktan på de
             </seg>
             <seg n="d68dc161"/>
-            <seg n="d68dc161"/>
+          </u>
+          <pb n="45" facs="https://betalab.kb.se/prot-198283--106/prot_198283__106-045.jp2/_view"/>
+          <u who="bjorn_korlof_dd8bad" xml:id="i-ba1ae094110f5c4c-1" prev="i-ba1ae094110f5c4c-0" n="ba1ae094">
             <seg n="d68dc161"/>
             <seg n="5e68ddfa">
               båda kommissionerna mot narkotikabrottslighet och ekonomisk brottslighet.
@@ -3836,7 +3927,6 @@
               som justitieministern totalt avdelar.
             </seg>
           </u>
-          <pb n="45" facs="https://betalab.kb.se/prot-198283--106/prot_198283__106-045.jp2/_view"/>
           <note n="0460e51e">
             Jag vill mot denna bakgrund också yrka bifall till reservation
             7 vid justitieutskottets betänkande nr 20.
@@ -3844,7 +3934,7 @@
           <note type="speaker" n="36c9d051">
             Anf. 170 KARIN SÖDER (c):
           </note>
-          <u who="karin_soder_c54954" xml:id="i-453d54ddb7587d50-0" next="i-c94a09ac6f5ca35b-0" n="529bcfd7">
+          <u who="karin_soder_c54954" xml:id="i-529bcfd701eb339e-0" next="i-529bcfd701eb339e-6" n="529bcfd7">
             <seg n="cebba788">
               Herr talman! Det råder en bred enighet om att den ekonomiska
               brottsligheten är ett stort problem i vårt samhälle. Denna form
@@ -3893,7 +3983,23 @@
             161
           </note>
           <pb n="46" facs="https://betalab.kb.se/prot-198283--106/prot_198283__106-046.jp2/_view"/>
-          <u who="karin_soder_c54954" xml:id="i-c94a09ac6f5ca35b-0" prev="i-453d54ddb7587d50-0" n="529bcfd7">
+          <u who="karin_soder_c54954" xml:id="i-529bcfd701eb339e-1" prev="i-529bcfd701eb339e-0" n="529bcfd7"/>
+          <note n="d4d136ea">
+            Nr 106
+          </note>
+          <note type="date" n="0e3263e3">
+            Onsdagen den 23 mars 1983
+          </note>
+          <note n="2d6cdc69">
+            Anslag till polis-
+          </note>
+          <note n="eb5e4995">
+            väsendet och åklagarväsendet
+          </note>
+          <note n="ad9176ea">
+            162
+          </note>
+          <u who="karin_soder_c54954" xml:id="i-529bcfd701eb339e-2" prev="i-529bcfd701eb339e-0" n="529bcfd7">
             <seg n="25db9c14">
               bedrägerier och gäldenärsbrott.
             </seg>
@@ -3960,7 +4066,9 @@
               inte något nytt. Redan 1977, när
             </seg>
             <seg n="d68dc161"/>
-            <seg n="d68dc161"/>
+          </u>
+          <pb n="47" facs="https://betalab.kb.se/prot-198283--106/prot_198283__106-047.jp2/_view"/>
+          <u who="karin_soder_c54954" xml:id="i-529bcfd701eb339e-3" prev="i-529bcfd701eb339e-0" n="529bcfd7">
             <seg n="d68dc161"/>
             <seg n="869f29f6">
               den icke-socialistiska regeringen gav BRÅ uppdraget att utföra
@@ -4029,7 +4137,40 @@
               Den motiveringen är ett praktexempel på hur arbetet fördröjs.
               Avvakta
             </seg>
-            <seg n="d68dc161"/>
+          </u>
+          <note n="d4d136ea">
+            Nr 106
+          </note>
+          <note type="date" n="0e3263e3">
+            Onsdagen den 23 mars 1983
+          </note>
+          <note n="2d6cdc69">
+            Anslag till polis-
+          </note>
+          <note n="eb5e4995">
+            väsendet och åklagarväsendet
+          </note>
+          <note n="1a10eed6">
+            163
+          </note>
+          <pb n="48" facs="https://betalab.kb.se/prot-198283--106/prot_198283__106-048.jp2/_view"/>
+          <u who="karin_soder_c54954" xml:id="i-529bcfd701eb339e-4" prev="i-529bcfd701eb339e-0" n="529bcfd7"/>
+          <note n="d4d136ea">
+            Nr 106
+          </note>
+          <note type="date" n="0e3263e3">
+            Onsdagen den 23 mars 1983
+          </note>
+          <note n="2d6cdc69">
+            Anslag till polis-
+          </note>
+          <note n="eb5e4995">
+            väsendet och åklagarväsendet
+          </note>
+          <note n="fe44e24d">
+            164
+          </note>
+          <u who="karin_soder_c54954" xml:id="i-529bcfd701eb339e-5" prev="i-529bcfd701eb339e-0" n="529bcfd7">
             <seg n="a63bfd02">
               kommissionen, säger man. Nu är det faktiskt så, att sedan utskottet
               tog ställning har kommissionen föreslagit regeringen åtgärder
@@ -4091,7 +4232,9 @@
               beslut om eventuella omfördel-
             </seg>
             <seg n="d68dc161"/>
-            <seg n="d68dc161"/>
+          </u>
+          <pb n="49" facs="https://betalab.kb.se/prot-198283--106/prot_198283__106-049.jp2/_view"/>
+          <u who="karin_soder_c54954" xml:id="i-529bcfd701eb339e-6" prev="i-529bcfd701eb339e-0" n="529bcfd7">
             <seg n="9bf810b7">
               ningar.” Men när det gäller åklagarverksamheten, ja, då är det
               i stället den allestädes närvarande eko-kommissionen som skall
@@ -4122,58 +4265,10 @@
               för kommer Gunilla André att behandla.
             </seg>
           </u>
-          <note n="d4d136ea">
-            Nr 106
-          </note>
-          <note type="date" n="0e3263e3">
-            Onsdagen den 23 mars 1983
-          </note>
-          <note n="2d6cdc69">
-            Anslag till polis-
-          </note>
-          <note n="eb5e4995">
-            väsendet och åklagarväsendet
-          </note>
-          <note n="ad9176ea">
-            162
-          </note>
-          <pb n="47" facs="https://betalab.kb.se/prot-198283--106/prot_198283__106-047.jp2/_view"/>
-          <note n="d4d136ea">
-            Nr 106
-          </note>
-          <note type="date" n="0e3263e3">
-            Onsdagen den 23 mars 1983
-          </note>
-          <note n="2d6cdc69">
-            Anslag till polis-
-          </note>
-          <note n="eb5e4995">
-            väsendet och åklagarväsendet
-          </note>
-          <note n="1a10eed6">
-            163
-          </note>
-          <pb n="48" facs="https://betalab.kb.se/prot-198283--106/prot_198283__106-048.jp2/_view"/>
-          <note n="d4d136ea">
-            Nr 106
-          </note>
-          <note type="date" n="0e3263e3">
-            Onsdagen den 23 mars 1983
-          </note>
-          <note n="2d6cdc69">
-            Anslag till polis-
-          </note>
-          <note n="eb5e4995">
-            väsendet och åklagarväsendet
-          </note>
-          <note n="fe44e24d">
-            164
-          </note>
-          <pb n="49" facs="https://betalab.kb.se/prot-198283--106/prot_198283__106-049.jp2/_view"/>
           <note type="speaker" n="e20841bb">
             Anf. 171 BJÖRN KÖRLOF (m) replik:
           </note>
-          <u who="bjorn_korlof_dd8bad" xml:id="i-f4832e0e72400b09-0" next="i-60e7f244168a26ba-0" n="ba1ae094">
+          <u who="bjorn_korlof_dd8bad" xml:id="i-ba1ae094110f5c4c-2" next="i-ba1ae094110f5c4c-4" n="ba1ae094">
             <seg n="77c78dc8">
               Herr talman! Även om jag inte blev direkt apostroferad, konstaterar
               jag att det naturligtvis ligger en viss kritik mot oss moderater
@@ -4212,7 +4307,7 @@
           <note n="463c9676">
             12 Riksdagens protokoll 1982/83:105-106
           </note>
-          <note n="5d40caa4">
+          <note type="date" n="44461ee8">
             Nr 106 Onsdagen den 23 mars 1983
           </note>
           <note n="cd61da4e">
@@ -4222,12 +4317,7 @@
             165
           </note>
           <pb n="50" facs="https://betalab.kb.se/prot-198283--106/prot_198283__106-050.jp2/_view"/>
-          <u who="bjorn_korlof_dd8bad" xml:id="i-60e7f244168a26ba-0" prev="i-f4832e0e72400b09-0" n="ba1ae094">
-            <seg n="72fa8ac7">
-              inte kunna stå bakom dem, just därför att det inte finns några
-              budgetmedel reserverade.
-            </seg>
-          </u>
+          <u who="bjorn_korlof_dd8bad" xml:id="i-ba1ae094110f5c4c-3" prev="i-ba1ae094110f5c4c-2" n="ba1ae094"/>
           <note n="d4d136ea">
             Nr 106
           </note>
@@ -4243,10 +4333,16 @@
           <note n="d317d075">
             166
           </note>
+          <u who="bjorn_korlof_dd8bad" xml:id="i-ba1ae094110f5c4c-4" prev="i-ba1ae094110f5c4c-2" n="ba1ae094">
+            <seg n="72fa8ac7">
+              inte kunna stå bakom dem, just därför att det inte finns några
+              budgetmedel reserverade.
+            </seg>
+          </u>
           <note type="speaker" n="2117411d">
             Anf. 172 KARIN SÖDER (c) replik:
           </note>
-          <u who="karin_soder_c54954" xml:id="i-f1e4c360ff66a943-0" n="529bcfd7">
+          <u who="karin_soder_c54954" xml:id="i-529bcfd701eb339e-7" n="529bcfd7">
             <seg n="f1b7f5f9">
               Herr talman! Det är glädjande att Björn Körlof är överens med
               oss som representerar centern i utskottet. Ment. ex. när det gäller
@@ -4284,7 +4380,7 @@
           <note type="speaker" n="3fd074b8">
             Anf. 173 BJÖRN KÖRLOF (m) replik:
           </note>
-          <u who="bjorn_korlof_dd8bad" xml:id="i-f4832e0e72400b09-1" next="i-60e7f244168a26ba-1" n="ba1ae094">
+          <u who="bjorn_korlof_dd8bad" xml:id="i-ba1ae094110f5c4c-5" next="i-ba1ae094110f5c4c-13" n="ba1ae094">
             <seg n="644e691c">
               Herr talman! Jag skall inte tvista med Karin Söder om huruvida
               centerns budgetförslag håller eller inte. Det är litet svårt att
@@ -4312,13 +4408,13 @@
             </seg>
             <seg n="d68dc161"/>
             <seg n="d68dc161"/>
-            <seg n="d68dc161"/>
           </u>
           <pb n="51" facs="https://betalab.kb.se/prot-198283--106/prot_198283__106-051.jp2/_view"/>
+          <u who="bjorn_korlof_dd8bad" xml:id="i-ba1ae094110f5c4c-6" prev="i-ba1ae094110f5c4c-5" n="ba1ae094"/>
           <note n="8caae306">
             Anf. 174 HANS PETERSSON i Röstånga (fp):
           </note>
-          <u who="bjorn_korlof_dd8bad" xml:id="i-60e7f244168a26ba-1" prev="i-f4832e0e72400b09-1" n="ba1ae094">
+          <u who="bjorn_korlof_dd8bad" xml:id="i-ba1ae094110f5c4c-7" prev="i-ba1ae094110f5c4c-5" n="ba1ae094">
             <seg n="070f9fd6">
               Herr talman! Den del av årets budgetproposition som handlar om
               polisväsendet är ovanlig så till vida att den innebär en nedskärning
@@ -4390,8 +4486,38 @@
               och senare kan bli föremål för repressalier underrättas om permissioner
               och frisläpp-
             </seg>
-            <seg n="d68dc161"/>
-            <seg n="d68dc161"/>
+          </u>
+          <note n="d4d136ea">
+            Nr 106
+          </note>
+          <note type="date" n="0e3263e3">
+            Onsdagen den 23 mars 1983
+          </note>
+          <note n="2d6cdc69">
+            Anslag till polis-
+          </note>
+          <note n="eb5e4995">
+            väsendet och åklagarväsendet
+          </note>
+          <note n="827286ef">
+            167
+          </note>
+          <pb n="52" facs="https://betalab.kb.se/prot-198283--106/prot_198283__106-052.jp2/_view"/>
+          <u who="bjorn_korlof_dd8bad" xml:id="i-ba1ae094110f5c4c-8" prev="i-ba1ae094110f5c4c-5" n="ba1ae094"/>
+          <note n="d4d136ea">
+            Nr 106
+          </note>
+          <note type="date" n="0e3263e3">
+            Onsdagen den 23 mars 1983
+          </note>
+          <u who="bjorn_korlof_dd8bad" xml:id="i-ba1ae094110f5c4c-9" prev="i-ba1ae094110f5c4c-5" n="ba1ae094"/>
+          <note n="cd61da4e">
+            Anslag till polisväsendet och åklagarväsendet
+          </note>
+          <note n="a1dd04bb">
+            168
+          </note>
+          <u who="bjorn_korlof_dd8bad" xml:id="i-ba1ae094110f5c4c-10" prev="i-ba1ae094110f5c4c-5" n="ba1ae094">
             <seg n="555bc104">
               ningar. Vi anser dessutom att vittnena bör kunna få ersättning
               för ökade levnadsomkostnader om de hotas och tillfälligt måste
@@ -4468,7 +4594,9 @@
               kan
             </seg>
             <seg n="d68dc161"/>
-            <seg n="d68dc161"/>
+          </u>
+          <pb n="53" facs="https://betalab.kb.se/prot-198283--106/prot_198283__106-053.jp2/_view"/>
+          <u who="bjorn_korlof_dd8bad" xml:id="i-ba1ae094110f5c4c-11" prev="i-ba1ae094110f5c4c-5" n="ba1ae094">
             <seg n="d68dc161"/>
             <seg n="6d77aaa1">
               konstatera att en sådan höjning till viss del har kommit i och
@@ -4539,7 +4667,40 @@
               Förhållandet är likadant när det gäller åklagarväsendet. Den
               ökade
             </seg>
-            <seg n="d68dc161"/>
+          </u>
+          <note n="d4d136ea">
+            Nr 106
+          </note>
+          <note type="date" n="0e3263e3">
+            Onsdagen den 23 mars 1983
+          </note>
+          <note n="2d6cdc69">
+            Anslag till polis-
+          </note>
+          <note n="eb5e4995">
+            väsendet och åklagarväsendet
+          </note>
+          <note n="c4375b7c">
+            169
+          </note>
+          <pb n="54" facs="https://betalab.kb.se/prot-198283--106/prot_198283__106-054.jp2/_view"/>
+          <u who="bjorn_korlof_dd8bad" xml:id="i-ba1ae094110f5c4c-12" prev="i-ba1ae094110f5c4c-5" n="ba1ae094"/>
+          <note n="d4d136ea">
+            Nr 106
+          </note>
+          <note type="date" n="0e3263e3">
+            Onsdagen den 23 mars 1983
+          </note>
+          <note n="2d6cdc69">
+            Anslag till polis-
+          </note>
+          <note n="eb5e4995">
+            väsendet och åklagarväsendet
+          </note>
+          <note n="47671e25">
+            170
+          </note>
+          <u who="bjorn_korlof_dd8bad" xml:id="i-ba1ae094110f5c4c-13" prev="i-ba1ae094110f5c4c-5" n="ba1ae094">
             <seg n="a502873f">
               aktiviteten till följd av de under senare år trots allt ökade
               resurserna till polisen har också medfört att arbetsbördan har
@@ -4592,70 +4753,10 @@
               som finns i motion 1605 som tas upp i de båda föreliggande betänkandena.
             </seg>
           </u>
-          <note n="d4d136ea">
-            Nr 106
-          </note>
-          <note type="date" n="0e3263e3">
-            Onsdagen den 23 mars 1983
-          </note>
-          <note n="2d6cdc69">
-            Anslag till polis-
-          </note>
-          <note n="eb5e4995">
-            väsendet och åklagarväsendet
-          </note>
-          <note n="827286ef">
-            167
-          </note>
-          <pb n="52" facs="https://betalab.kb.se/prot-198283--106/prot_198283__106-052.jp2/_view"/>
-          <note n="d4d136ea">
-            Nr 106
-          </note>
-          <note type="date" n="0e3263e3">
-            Onsdagen den 23 mars 1983
-          </note>
-          <note n="cd61da4e">
-            Anslag till polisväsendet och åklagarväsendet
-          </note>
-          <note n="a1dd04bb">
-            168
-          </note>
-          <pb n="53" facs="https://betalab.kb.se/prot-198283--106/prot_198283__106-053.jp2/_view"/>
-          <note n="d4d136ea">
-            Nr 106
-          </note>
-          <note type="date" n="0e3263e3">
-            Onsdagen den 23 mars 1983
-          </note>
-          <note n="2d6cdc69">
-            Anslag till polis-
-          </note>
-          <note n="eb5e4995">
-            väsendet och åklagarväsendet
-          </note>
-          <note n="c4375b7c">
-            169
-          </note>
-          <pb n="54" facs="https://betalab.kb.se/prot-198283--106/prot_198283__106-054.jp2/_view"/>
-          <note n="d4d136ea">
-            Nr 106
-          </note>
-          <note type="date" n="0e3263e3">
-            Onsdagen den 23 mars 1983
-          </note>
-          <note n="2d6cdc69">
-            Anslag till polis-
-          </note>
-          <note n="eb5e4995">
-            väsendet och åklagarväsendet
-          </note>
-          <note n="47671e25">
-            170
-          </note>
           <note type="speaker" n="ae22fcd6">
             Anf. 176 ARNE NYGREN (s):
           </note>
-          <u who="arne_nygren_03f640" xml:id="i-2092531d000470b4-0" next="i-ab87093fc4291465-0" n="c92abfa5">
+          <u who="arne_nygren_03f640" xml:id="i-c92abfa5559b479f-0" next="i-c92abfa5559b479f-4" n="c92abfa5">
             <seg n="ea06adbb">
               Herr talman! 1981 års polisberedning räknar med att om en dryg
               månad till regeringen överlämna ett slutbetänkande i de för en
@@ -4671,7 +4772,9 @@
             </seg>
             <seg n="d68dc161"/>
             <seg n="d68dc161"/>
-            <seg n="d68dc161"/>
+          </u>
+          <pb n="55" facs="https://betalab.kb.se/prot-198283--106/prot_198283__106-055.jp2/_view"/>
+          <u who="arne_nygren_03f640" xml:id="i-c92abfa5559b479f-1" prev="i-c92abfa5559b479f-0" n="c92abfa5">
             <seg n="d68dc161"/>
             <seg n="99d1a85f">
               Mycket av förutsättningarna för en polisreform har förändrats
@@ -4742,7 +4845,6 @@
               Att överlåta det till polisberedningen, som befinner sig på slutvarvet
             </seg>
           </u>
-          <pb n="55" facs="https://betalab.kb.se/prot-198283--106/prot_198283__106-055.jp2/_view"/>
           <note n="d4d136ea">
             Nr 106
           </note>
@@ -4759,7 +4861,23 @@
             171
           </note>
           <pb n="56" facs="https://betalab.kb.se/prot-198283--106/prot_198283__106-056.jp2/_view"/>
-          <u who="arne_nygren_03f640" xml:id="i-ab87093fc4291465-0" prev="i-2092531d000470b4-0" n="c92abfa5">
+          <u who="arne_nygren_03f640" xml:id="i-c92abfa5559b479f-2" prev="i-c92abfa5559b479f-0" n="c92abfa5"/>
+          <note n="d4d136ea">
+            Nr 106
+          </note>
+          <note type="date" n="0e3263e3">
+            Onsdagen den 23 mars 1983
+          </note>
+          <note n="2d6cdc69">
+            Anslag till polis-
+          </note>
+          <note n="eb5e4995">
+            väsendet och åklagarväsendet
+          </note>
+          <note n="96a1b406">
+            172
+          </note>
+          <u who="arne_nygren_03f640" xml:id="i-c92abfa5559b479f-3" prev="i-c92abfa5559b479f-0" n="c92abfa5">
             <seg n="bb0d4f92">
               i sitt arbete, är ett mycket märkligt handlingssätt.
             </seg>
@@ -4824,7 +4942,9 @@
               som man anser
             </seg>
             <seg n="d68dc161"/>
-            <seg n="d68dc161"/>
+          </u>
+          <pb n="57" facs="https://betalab.kb.se/prot-198283--106/prot_198283__106-057.jp2/_view"/>
+          <u who="arne_nygren_03f640" xml:id="i-c92abfa5559b479f-4" prev="i-c92abfa5559b479f-0" n="c92abfa5">
             <seg n="deefa9f5">
               behövliga och föreslå regeringen beräknade nya tjänster.
             </seg>
@@ -4881,22 +5001,6 @@
               frågan.
             </seg>
           </u>
-          <note n="d4d136ea">
-            Nr 106
-          </note>
-          <note type="date" n="0e3263e3">
-            Onsdagen den 23 mars 1983
-          </note>
-          <note n="2d6cdc69">
-            Anslag till polis-
-          </note>
-          <note n="eb5e4995">
-            väsendet och åklagarväsendet
-          </note>
-          <note n="96a1b406">
-            172
-          </note>
-          <pb n="57" facs="https://betalab.kb.se/prot-198283--106/prot_198283__106-057.jp2/_view"/>
           <note n="e54b18f9">
             Herr talman! Med dessa kommentarer till justitieutskottets betänkande
             nr 20 yrkar jag bifall till dess hemställan på samtliga punkter.
@@ -4904,7 +5008,7 @@
           <note type="speaker" n="7365ffb9">
             Anf. 177 BJÖRN KÖRLOF (m) replik:
           </note>
-          <u who="bjorn_korlof_dd8bad" xml:id="i-f4832e0e72400b09-2" next="i-60e7f244168a26ba-2" n="ba1ae094">
+          <u who="bjorn_korlof_dd8bad" xml:id="i-ba1ae094110f5c4c-14" next="i-ba1ae094110f5c4c-20" n="ba1ae094">
             <seg n="fdd9fb6a">
               Herr talman! I nattens sena timmar svingar sig Arne Nygren upp
               till stora oratoriska höjder, men jag tycker inte att det fanns
@@ -4921,8 +5025,31 @@
           <note type="date" n="0e3263e3">
             Onsdagen den 23 mars 1983
           </note>
-          <u who="bjorn_korlof_dd8bad" xml:id="i-60e7f244168a26ba-2" prev="i-f4832e0e72400b09-2" n="ba1ae094">
-            <seg n="d68dc161"/>
+          <u who="bjorn_korlof_dd8bad" xml:id="i-ba1ae094110f5c4c-15" prev="i-ba1ae094110f5c4c-14" n="ba1ae094"/>
+          <note n="cd61da4e">
+            Anslag till polisväsendet och åklagarväsendet
+          </note>
+          <note n="bbad8ae4">
+            173
+          </note>
+          <pb n="58" facs="https://betalab.kb.se/prot-198283--106/prot_198283__106-058.jp2/_view"/>
+          <u who="bjorn_korlof_dd8bad" xml:id="i-ba1ae094110f5c4c-16" prev="i-ba1ae094110f5c4c-14" n="ba1ae094"/>
+          <note n="d4d136ea">
+            Nr 106
+          </note>
+          <note type="date" n="0e3263e3">
+            Onsdagen den 23 mars 1983
+          </note>
+          <note n="2d6cdc69">
+            Anslag till polis-
+          </note>
+          <note n="eb5e4995">
+            väsendet och åklagarväsendet
+          </note>
+          <note n="2eaa6640">
+            174
+          </note>
+          <u who="bjorn_korlof_dd8bad" xml:id="i-ba1ae094110f5c4c-17" prev="i-ba1ae094110f5c4c-14" n="ba1ae094">
             <seg n="32e5de92">
               också i olika departementschefers skrivningar i budgetpropositionen,
               trots olika politiska förtecken — att de prioriteringar som måste
@@ -4960,6 +5087,11 @@
               strid om detta. Vi bör försöka behandla de här frågorna sakligt,
               som vi alltid har gjort i justitieutskottet.
             </seg>
+          </u>
+          <note n="7ad06746">
+            Anf. 178 HANS PETERSSON i Röstånga (fp) replik:
+          </note>
+          <u who="bjorn_korlof_dd8bad" xml:id="i-ba1ae094110f5c4c-18" prev="i-ba1ae094110f5c4c-14" n="ba1ae094">
             <seg n="1d98affa">
               Herr talman! Låt mig börja med rekryteringen till polishögskolorna.
               Det är ju riktigt att majoriteten instämmer i motionsyrkandena
@@ -4982,7 +5114,9 @@
               därför vet vi inte i dag vad som kommer att ske. I
             </seg>
             <seg n="d68dc161"/>
-            <seg n="d68dc161"/>
+          </u>
+          <pb n="59" facs="https://betalab.kb.se/prot-198283--106/prot_198283__106-059.jp2/_view"/>
+          <u who="bjorn_korlof_dd8bad" xml:id="i-ba1ae094110f5c4c-19" prev="i-ba1ae094110f5c4c-14" n="ba1ae094">
             <seg n="7dc6ea47">
               vår reservation har vi av den anledningen prioriterat inrättandet
               av 20 nya polistjänster med inriktning på narkotika.
@@ -4999,6 +5133,11 @@
               nya polistjänster. Det gäller 2,7 milj. kr., och det är inte dimmigt,
               om man inte vill göra det dimmigt.
             </seg>
+          </u>
+          <note n="663f8521">
+            Anf. 179 TOMMY FRANZÉN (vpk) replik:
+          </note>
+          <u who="bjorn_korlof_dd8bad" xml:id="i-ba1ae094110f5c4c-20" prev="i-ba1ae094110f5c4c-14" n="ba1ae094">
             <seg n="f70384a1">
               Herr talman! Jag skall göra vad jag kan för att vi skall sluta
               kl. 24.00.
@@ -5026,39 +5165,10 @@
               upp, och det ser jag som ett friskhetstecken.
             </seg>
           </u>
-          <note n="cd61da4e">
-            Anslag till polisväsendet och åklagarväsendet
-          </note>
-          <note n="bbad8ae4">
-            173
-          </note>
-          <pb n="58" facs="https://betalab.kb.se/prot-198283--106/prot_198283__106-058.jp2/_view"/>
-          <note n="d4d136ea">
-            Nr 106
-          </note>
-          <note type="date" n="0e3263e3">
-            Onsdagen den 23 mars 1983
-          </note>
-          <note n="2d6cdc69">
-            Anslag till polis-
-          </note>
-          <note n="eb5e4995">
-            väsendet och åklagarväsendet
-          </note>
-          <note n="2eaa6640">
-            174
-          </note>
-          <note n="7ad06746">
-            Anf. 178 HANS PETERSSON i Röstånga (fp) replik:
-          </note>
-          <pb n="59" facs="https://betalab.kb.se/prot-198283--106/prot_198283__106-059.jp2/_view"/>
-          <note n="663f8521">
-            Anf. 179 TOMMY FRANZÉN (vpk) replik:
-          </note>
           <note type="speaker" n="db183a7d">
             Anf. 180 KARIN SÖDER (c) replik:
           </note>
-          <u who="karin_soder_c54954" xml:id="i-453d54ddb7587d50-1" next="i-c94a09ac6f5ca35b-1" n="529bcfd7">
+          <u who="karin_soder_c54954" xml:id="i-529bcfd701eb339e-8" next="i-529bcfd701eb339e-11" n="529bcfd7">
             <seg n="d14bd97d">
               Herr talman! Jag vill säga till Arne Nygren att om jag inte hade
               kunnat förutse, genom erfarenheter, att Arne Nygren skulle påstå
@@ -5091,8 +5201,31 @@
           <note type="date" n="0e3263e3">
             Onsdagen den 23 mars 1983
           </note>
-          <u who="karin_soder_c54954" xml:id="i-c94a09ac6f5ca35b-1" prev="i-453d54ddb7587d50-1" n="529bcfd7">
-            <seg n="d68dc161"/>
+          <u who="karin_soder_c54954" xml:id="i-529bcfd701eb339e-9" prev="i-529bcfd701eb339e-8" n="529bcfd7"/>
+          <note n="cd61da4e">
+            Anslag till polisväsendet och åklagarväsendet
+          </note>
+          <note n="af6f6aa1">
+            175
+          </note>
+          <pb n="60" facs="https://betalab.kb.se/prot-198283--106/prot_198283__106-060.jp2/_view"/>
+          <u who="karin_soder_c54954" xml:id="i-529bcfd701eb339e-10" prev="i-529bcfd701eb339e-8" n="529bcfd7"/>
+          <note n="d4d136ea">
+            Nr 106
+          </note>
+          <note type="date" n="0e3263e3">
+            Onsdagen den 23 mars 1983
+          </note>
+          <note n="2d6cdc69">
+            Anslag till polis-
+          </note>
+          <note n="eb5e4995">
+            väsendet och åklagarväsendet
+          </note>
+          <note n="0833918c">
+            176
+          </note>
+          <u who="karin_soder_c54954" xml:id="i-529bcfd701eb339e-11" prev="i-529bcfd701eb339e-8" n="529bcfd7">
             <seg n="da4815c2">
               ten säger att trafikolyckorna har minskat. Men det innehåller
               mycket litet förutseende för vad som kan hända. Jag vill också
@@ -5115,32 +5248,10 @@
               har den rätta kunskapen, får i uppdrag att göra de här prioriteringarna.
             </seg>
           </u>
-          <note n="cd61da4e">
-            Anslag till polisväsendet och åklagarväsendet
-          </note>
-          <note n="af6f6aa1">
-            175
-          </note>
-          <pb n="60" facs="https://betalab.kb.se/prot-198283--106/prot_198283__106-060.jp2/_view"/>
-          <note n="d4d136ea">
-            Nr 106
-          </note>
-          <note type="date" n="0e3263e3">
-            Onsdagen den 23 mars 1983
-          </note>
-          <note n="2d6cdc69">
-            Anslag till polis-
-          </note>
-          <note n="eb5e4995">
-            väsendet och åklagarväsendet
-          </note>
-          <note n="0833918c">
-            176
-          </note>
           <note type="speaker" n="537f97c6">
             Anf. 181 ARNE NYGREN (s) replik:
           </note>
-          <u who="arne_nygren_03f640" xml:id="i-54cfb0f0d8c01ecc-0" n="c92abfa5">
+          <u who="arne_nygren_03f640" xml:id="i-c92abfa5559b479f-5" next="i-c92abfa5559b479f-6" n="c92abfa5">
             <seg n="20957faf">
               Herr talman! Det finns 13 borgerliga reservationer fogade till
               betänkandet. Men inte på en enda punkt i motförslagen till regeringens
@@ -5187,10 +5298,11 @@
               om var man vill göra förstärkningar.
             </seg>
             <seg n="d68dc161"/>
-            <seg n="d68dc161"/>
-            <seg n="d68dc161"/>
           </u>
           <pb n="61" facs="https://betalab.kb.se/prot-198283--106/prot_198283__106-061.jp2/_view"/>
+          <u who="arne_nygren_03f640" xml:id="i-c92abfa5559b479f-6" prev="i-c92abfa5559b479f-5" n="c92abfa5">
+            <seg n="d68dc161"/>
+          </u>
           <note n="f7e5764a">
             Kammaren beslöt att förhandlingarna skulle fortsättas vid morgondagens
             sammanträde.
@@ -5198,7 +5310,7 @@
           <note type="speaker" n="6aa44c26">
             208 Anf. 182 TALMANNEN:
           </note>
-          <u who="unknown" xml:id="i-18931e1096048413-0" n="15d07413"/>
+          <u who="unknown" xml:id="i-15d07413a1f80161-1" n="15d07413"/>
           <note n="a5aecce4">
             På morgondagens föredragningslista upptas konstitutionsutskottets
             betänkande 26 främst bland två gånger bordlagda ärenden. 218 Kammaren
@@ -5219,30 +5331,13 @@
           <note type="date" n="0e3263e3">
             Onsdagen den 23 mars 1983
           </note>
-          <u who="unknown" xml:id="i-376b64530ab16ed2-0" n="15d07413">
-            <seg n="d68dc161"/>
-            <seg n="d68dc161"/>
-            <seg n="9ca16126">
-              Fridolfsson, Filip (m) 70
-            </seg>
-            <seg n="4bb498ec">
-              Hegeland, Hugo (m) 102, 111
-            </seg>
-            <seg n="bda09f1c">
-              Wirtén, Rolf (fp) 106, 110
-            </seg>
-            <seg n="d68dc161"/>
-            <seg n="d68dc161"/>
-            <seg n="d68dc161"/>
-            <seg n="1c70b767">
-              Kl. 19.30
-            </seg>
-            <seg n="d68dc161"/>
-          </u>
+          <u who="unknown" xml:id="i-15d07413a1f80161-2" n="15d07413"/>
           <note n="f547f00d">
             177
           </note>
+          <u who="unknown" xml:id="i-15d07413a1f80161-3" n="15d07413"/>
           <pb n="62" facs="https://betalab.kb.se/prot-198283--106/prot_198283__106-062.jp2/_view"/>
+          <u who="unknown" xml:id="i-15d07413a1f80161-4" n="15d07413"/>
           <note n="ab6e4b34">
             1982/83 105-106
           </note>
@@ -5284,10 +5379,20 @@
           <note n="4f2dbd99">
             Franzén, Ivar (c) 56, 59, 61, 63
           </note>
+          <u who="unknown" xml:id="i-15d07413a1f80161-5" n="15d07413">
+            <seg n="9ca16126">
+              Fridolfsson, Filip (m) 70
+            </seg>
+          </u>
           <note n="12662c08">
             Gadd, Arne (s) 66, 77, 78, 87, 90, 91, 94, 95, 98, 100, 101 Hansson,
             Lilly (s) 17, 22, 25
           </note>
+          <u who="unknown" xml:id="i-15d07413a1f80161-6" n="15d07413">
+            <seg n="4bb498ec">
+              Hegeland, Hugo (m) 102, 111
+            </seg>
+          </u>
           <note n="75341dad">
             Häll, Karl-Erik (s) 48, 51
           </note>
@@ -5335,10 +5440,23 @@
             Sten (m) 25, 30, 31, 34, 35 Söderqvist, Oswald (vpk) 56, 59, 62,
             63 Södersten, Bo (s) 107, 112
           </note>
+          <u who="unknown" xml:id="i-15d07413a1f80161-7" n="15d07413">
+            <seg n="bda09f1c">
+              Wirtén, Rolf (fp) 106, 110
+            </seg>
+          </u>
           <note n="0627d92b">
             Wärnberg, Erik (s) 70, 77, 78, 81, 83, 84, 94, 95
           </note>
+          <u who="unknown" xml:id="i-15d07413a1f80161-8" n="15d07413">
+            <seg n="d68dc161"/>
+          </u>
           <pb n="63" facs="https://betalab.kb.se/prot-198283--106/prot_198283__106-063.jp2/_view"/>
+          <u who="unknown" xml:id="i-15d07413a1f80161-9" n="15d07413">
+            <seg n="1c70b767">
+              Kl. 19.30
+            </seg>
+          </u>
           <note n="6e323ffd">
             Talmannen 160, 177
           </note>
@@ -5394,6 +5512,7 @@
           <note n="dd589b75">
             minab/gotab Stockholm 1983 75163
           </note>
+          <u who="unknown" xml:id="i-15d07413a1f80161-10" n="15d07413"/>
         </div>
       </body>
     </text>

@@ -20,7 +20,7 @@
     <encodingDesc>
       <editorialDecl>
         <correction>
-          <p>Some data curation was done. It is documented in db/curation/instances</p>
+          <p>Some data curation was done. It is documented in input/curation/instances</p>
         </correction>
       </editorialDecl>
     </encodingDesc>
@@ -52,6 +52,7 @@
       <front>
         <div type="preface">
           <head>prot-1958-b-fk--3</head>
+          <docDate when="1958-07-03">1958-07-03</docDate>
           <docDate when="1958-07-08">1958-07-08</docDate>
           <docDate when="1958-07-11">1958-07-11</docDate>
           <docDate when="1958-07-15">1958-07-15</docDate>
@@ -60,6 +61,7 @@
       </front>
       <body>
         <div>
+          <pb n="0" facs="https://betalab.kb.se/prot-1958-b-fk--3/prot_1958_b_fk__3-000.jp2/_view"/>
           <note n="3e32b9f6">
             RIKSDAGENS PROTOKOLL
           </note>
@@ -71,7 +73,7 @@
           <note n="7223b62e">
             3—16 juli
           </note>
-          <note n="2db718d5">
+          <note type="date" n="3fce26ef">
             Debatter m. m. Torsdagen den 3 juli Sid.
           </note>
           <note n="a344d86c">
@@ -106,7 +108,7 @@
             allmänna barnbidrag ...... 96 Vissa ändringar i lagen om allmän
             sjukförsäkring, m. m. .......... 98
           </note>
-          <note n="d13269ba">
+          <note type="date" n="51263cfc">
             Samtliga avgjorda ärenden Onsdagen den 16 juli
           </note>
           <note n="9040863d">
@@ -201,13 +203,13 @@
             99 99
           </note>
           <pb n="2" facs="https://betalab.kb.se/prot-1958-b-fk--3/prot_1958_b_fk__3-002.jp2/_view"/>
-          <note n="2136d69c">
+          <note type="date" n="ff0868af">
             Torsdagen den 3 juli 1958 fm.
           </note>
           <note n="5ebf4f5b">
             Nr B 3 3
           </note>
-          <note n="fa97893d">
+          <note type="date" n="9d03de21">
             Torsdagen den 3 juli förmiddagen
           </note>
           <note n="a98a8bb8">
@@ -354,7 +356,7 @@
           <note n="994d0d87">
             4 Nr B 3
           </note>
-          <note n="2136d69c">
+          <note type="date" n="ff0868af">
             Torsdagen den 3 juli 1958 fm.
           </note>
           <note n="76620775">
@@ -466,7 +468,7 @@
             or B 143 av herr Lundström och fru
           </note>
           <pb n="4" facs="https://betalab.kb.se/prot-1958-b-fk--3/prot_1958_b_fk__3-004.jp2/_view"/>
-          <note n="339ed2bf">
+          <note type="date" n="f062dfe4">
             Torsdagen den 3 juli 1958 em.
           </note>
           <note n="89a017b9">
@@ -532,7 +534,7 @@
           <note n="4fdfe22d">
             K.-G. Lindelöw
           </note>
-          <note n="1dca995e">
+          <note type="date" n="8ea9b34f">
             Torsdagen den 3 juli eftermiddagen
           </note>
           <note n="c98e2a14">
@@ -663,7 +665,7 @@
             förslag till 1959 års riksdag angående sänkning av motorfordonsskatten
             för den tyngre biltrafiken;
           </note>
-          <note n="339ed2bf">
+          <note type="date" n="f062dfe4">
             Torsdagen den 3 juli 1958 em.
           </note>
           <note n="86ee1ab6">
@@ -1618,7 +1620,7 @@
           <note type="speaker" n="860c3ee6">
             Herr OLOFSSON, UNO, (fp):
           </note>
-          <u who="uno_olofsson_c1a8e2" xml:id="i-18e66ed8a3636973-0" next="i-7959060c3e6710e9-0" n="5eeb0d66">
+          <u who="uno_olofsson_c1a8e2" xml:id="i-5eeb0d6650dc5aaa-0" next="i-5eeb0d6650dc5aaa-3" n="5eeb0d66">
             <seg n="4acf548f">
               Herr talman! Till herr statsrådet och chefen för finansdepartementet
               vill jag framföra mitt tack för interpellationens besvarande,
@@ -1652,7 +1654,7 @@
           <note n="fc128cf4">
             Ang. personalbristen vid allmänna sjukvårdsinrättningar
           </note>
-          <u who="uno_olofsson_c1a8e2" xml:id="i-7959060c3e6710e9-0" prev="i-18e66ed8a3636973-0" n="5eeb0d66">
+          <u who="uno_olofsson_c1a8e2" xml:id="i-5eeb0d6650dc5aaa-1" prev="i-5eeb0d6650dc5aaa-0" n="5eeb0d66">
             <seg n="8416ae2d">
               som såväl staten som enskilda nedlägger på dessa företag, torde
               det stå klart för oss alla, att den mark, som här tas i anspråk,
@@ -1665,6 +1667,23 @@
               uppskisserade, i stort sett kan hållas och att denna fråga kan
               lösas inom rimlig tid, ber jag än en gång att få tacka för svaret.
             </seg>
+          </u>
+          <note n="cdd154de">
+            Överläggningen förklarades härmed
+          </note>
+          <note n="238a230d">
+            slutad.
+          </note>
+          <note n="fc128cf4">
+            Ang. personalbristen vid allmänna sjukvårdsinrättningar
+          </note>
+          <note n="24fa7511">
+            Ordet lämnades härefter till herr statsrådet och chefen för inrikesdepartementet
+            JOHANSSON, som meddelat, att han ämnade vid detta sammanträde
+            besvara herr Anders Johanssons interpellation angående personalbristen
+            vid allmänna sjukvårdsinrättningar, och nu yttrade:
+          </note>
+          <u who="uno_olofsson_c1a8e2" xml:id="i-5eeb0d6650dc5aaa-2" prev="i-5eeb0d6650dc5aaa-0" n="5eeb0d66">
             <seg n="16602fed">
               Herr talman! Ledamoten av denna kammare, herr Anders Johansson
               i Kråkered, har frågat mig, vilka åtgärder jag ämnar vidtaga utöver
@@ -1725,6 +1744,23 @@
               anser att så är fallet. Antalet synes för övrigt med nuvarande
               utbildningskapacitet vara uppnått inom en mycket snar framtid.
             </seg>
+          </u>
+          <note n="959fdec7">
+            I syfte att diskutera vilka möjligheter som kunde finnas att
+            komma till rätta med de svårigheter, som yppat sig på sjuksköterskefronten,
+            kallade jag i maj månad i år till konferenser i inrikesde-
+          </note>
+          <pb n="14" facs="https://betalab.kb.se/prot-1958-b-fk--3/prot_1958_b_fk__3-014.jp2/_view"/>
+          <note type="date" n="d07b076c">
+            Tisdagen den 15 juli 1958
+          </note>
+          <note n="efccf404">
+            Nr B 3 15
+          </note>
+          <note n="be12e2c9">
+            Ang. personalbristen vid allmänna sjukvårdsinrättninggr
+          </note>
+          <u who="uno_olofsson_c1a8e2" xml:id="i-5eeb0d6650dc5aaa-3" prev="i-5eeb0d6650dc5aaa-0" n="5eeb0d66">
             <seg n="fdafb1c6">
               partementet representanter för medicinalstyrelsen, = arbetsmarknadsstyrelsen
               och sjukvårdens huvudmän samt Svensk sjuksköterskeförening. Det
@@ -1808,36 +1844,6 @@
               Herr talman! Härmed anser jag mig ha besvarat interpellationen.
             </seg>
           </u>
-          <note n="cdd154de">
-            Överläggningen förklarades härmed
-          </note>
-          <note n="238a230d">
-            slutad.
-          </note>
-          <note n="fc128cf4">
-            Ang. personalbristen vid allmänna sjukvårdsinrättningar
-          </note>
-          <note n="24fa7511">
-            Ordet lämnades härefter till herr statsrådet och chefen för inrikesdepartementet
-            JOHANSSON, som meddelat, att han ämnade vid detta sammanträde
-            besvara herr Anders Johanssons interpellation angående personalbristen
-            vid allmänna sjukvårdsinrättningar, och nu yttrade:
-          </note>
-          <note n="959fdec7">
-            I syfte att diskutera vilka möjligheter som kunde finnas att
-            komma till rätta med de svårigheter, som yppat sig på sjuksköterskefronten,
-            kallade jag i maj månad i år till konferenser i inrikesde-
-          </note>
-          <pb n="14" facs="https://betalab.kb.se/prot-1958-b-fk--3/prot_1958_b_fk__3-014.jp2/_view"/>
-          <note type="date" n="d07b076c">
-            Tisdagen den 15 juli 1958
-          </note>
-          <note n="efccf404">
-            Nr B 3 15
-          </note>
-          <note n="be12e2c9">
-            Ang. personalbristen vid allmänna sjukvårdsinrättninggr
-          </note>
           <pb n="15" facs="https://betalab.kb.se/prot-1958-b-fk--3/prot_1958_b_fk__3-015.jp2/_view"/>
           <note n="ec9b3ff9">
             16 Nr B 3
@@ -1851,7 +1857,7 @@
           <note type="speaker" n="21b4eb1f">
             Herr JOHANSSON, ANDERS, (fp):
           </note>
-          <u who="tage_johansson_8a7244" xml:id="i-2c68d1ed6a813e5c-0" next="i-1a66ccb2b7a1cf74-0" n="1c2d31ac">
+          <u who="tage_johansson_8a7244" xml:id="i-1c2d31acd4429a3f-0" next="i-1c2d31acd4429a3f-2" n="1c2d31ac">
             <seg n="8d73eea0">
               Herr talman! Jag ber att få rikta ett tack till inrikesministern
               för det svar han här har lämnat på min interpellation. Jag finner
@@ -1942,7 +1948,7 @@
           <note n="fc128cf4">
             Ang. personalbristen vid allmänna sjukvårdsinrättningar
           </note>
-          <u who="tage_johansson_8a7244" xml:id="i-1a66ccb2b7a1cf74-0" prev="i-2c68d1ed6a813e5c-0" n="1c2d31ac">
+          <u who="tage_johansson_8a7244" xml:id="i-1c2d31acd4429a3f-1" prev="i-1c2d31acd4429a3f-0" n="1c2d31ac">
             <seg n="dfa352d8">
               maste samma medborgerliga rättigheter som männen, så är det inte
               för mycket begärt att kvinnorna också skall på något sätt svara
@@ -1983,6 +1989,11 @@
               mig, för vår organisation på sjukvårdsfronten, och den står heller
               inte i rimlig överensstämmelse med de uppoffringar och kostna-
             </seg>
+          </u>
+          <note n="bf814d22">
+            2 Första kammarens protokoll 1958. Nr B 3
+          </note>
+          <u who="tage_johansson_8a7244" xml:id="i-1c2d31acd4429a3f-2" prev="i-1c2d31acd4429a3f-0" n="1c2d31ac">
             <seg n="d9ca77fd">
               der som vi årligen nedlägger för att allt bättre betjäna de sjuka.
             </seg>
@@ -1992,13 +2003,10 @@
               som jag ånyo tackar honom för svaret.
             </seg>
           </u>
-          <note n="bf814d22">
-            2 Första kammarens protokoll 1958. Nr B 3
-          </note>
           <note type="speaker" n="ff3bface">
             Herr EDSTRÖM (fp):
           </note>
-          <u who="gunnar_edstrom_4b2aba" xml:id="i-eff74398ff36cb8c-0" next="i-1eb3f5c0772bbe95-0" n="6f122ac9">
+          <u who="gunnar_edstrom_4b2aba" xml:id="i-6f122ac95bfe9706-0" next="i-6f122ac95bfe9706-2" n="6f122ac9">
             <seg n="9fe049b2">
               Herr talman! Jag vill i likhet med interpellanten tacka inrikesministern
               för det positiva svar han givit på interpellationen. Framför allt
@@ -2043,7 +2051,7 @@
           <note n="fc128cf4">
             Ang. personalbristen vid allmänna sjukvårdsinrättningar
           </note>
-          <u who="gunnar_edstrom_4b2aba" xml:id="i-1eb3f5c0772bbe95-0" prev="i-eff74398ff36cb8c-0" n="6f122ac9">
+          <u who="gunnar_edstrom_4b2aba" xml:id="i-6f122ac95bfe9706-1" prev="i-6f122ac95bfe9706-0" n="6f122ac9">
             <seg n="fc219fb3">
               viktiga områden inom sjukvården. Kronikervården är i stort mindre
               väl utbyggd än sjukvårdens övriga delar. Stängda platser på sådana
@@ -2121,10 +2129,6 @@
               töva för länge. Även om vi får ny skola, har vi därmed inte nya
               sköterskor. Det tar ytterligare tre år
             </seg>
-            <seg n="973b234c">
-              innan de är färdiga. Skyndsam behandling av frågan är därför
-              av synnerlig vikt för vårt samhälle.
-            </seg>
           </u>
           <pb n="18" facs="https://betalab.kb.se/prot-1958-b-fk--3/prot_1958_b_fk__3-018.jp2/_view"/>
           <note type="date" n="d07b076c">
@@ -2136,10 +2140,16 @@
           <note n="fc128cf4">
             Ang. personalbristen vid allmänna sjukvårdsinrättningar
           </note>
+          <u who="gunnar_edstrom_4b2aba" xml:id="i-6f122ac95bfe9706-2" prev="i-6f122ac95bfe9706-0" n="6f122ac9">
+            <seg n="973b234c">
+              innan de är färdiga. Skyndsam behandling av frågan är därför
+              av synnerlig vikt för vårt samhälle.
+            </seg>
+          </u>
           <note type="speaker" n="60685ee8">
             Herr KAIJSER (h):
           </note>
-          <u who="rolf_kaijser_f8a29e" xml:id="i-b82576d38d945105-0" next="i-b860a58948352057-0" n="1b22da7a">
+          <u who="rolf_kaijser_f8a29e" xml:id="i-1b22da7a952ded80-0" next="i-1b22da7a952ded80-5" n="1b22da7a">
             <seg n="d634ee6b">
               Herr talman! Jag vill också uttrycka den glädje jag erfor, när
               jag hörde inrikesministerns positiva svar, men det var ju inte
@@ -2225,7 +2235,7 @@
           <note n="fc128cf4">
             Ang. personalbristen vid allmänna sjukvårdsinrättningar
           </note>
-          <u who="rolf_kaijser_f8a29e" xml:id="i-b860a58948352057-0" prev="i-b82576d38d945105-0" n="1b22da7a">
+          <u who="rolf_kaijser_f8a29e" xml:id="i-1b22da7a952ded80-1" prev="i-1b22da7a952ded80-0" n="1b22da7a">
             <seg n="4c3fead4">
               som är nödvändig för ett gott resultat. Redan när den i och för
               sig nödvändiga arbetstidsregleringen för sjuksköterskor genomfördes,
@@ -2307,12 +2317,42 @@
               det inte riktigt så, men jag tror att det är angeläget att göra
               sjuksköterskearbetet
             </seg>
+          </u>
+          <pb n="20" facs="https://betalab.kb.se/prot-1958-b-fk--3/prot_1958_b_fk__3-020.jp2/_view"/>
+          <note type="date" n="d07b076c">
+            Tisdagen den 15 juli 1958
+          </note>
+          <note n="6e585283">
+            Nr B 3 21
+          </note>
+          <note n="a6808665">
+            Ang. samebefolkningens fortsatta utövning av renskötseln, m.
+            m.
+          </note>
+          <u who="rolf_kaijser_f8a29e" xml:id="i-1b22da7a952ded80-2" prev="i-1b22da7a952ded80-0" n="1b22da7a">
             <seg n="bb433434">
               även ur ekonomisk synpunkt så lockande och vinstgivande för de
               gifta sjuksköterskorna, att det för många av dem kan bli ett verkligt
               tänkbart alternativ till en sommarledighet långt borta från sjukhusets
               hank och stör.
             </seg>
+          </u>
+          <note n="e9951018">
+            Överläggningen ansågs härmed slutad.
+          </note>
+          <note n="1a21bd60">
+            Ang. samebefolkningens fortsatta utöv-
+          </note>
+          <note n="c786e7b3">
+            ning av renskötseln, m. m.
+          </note>
+          <note n="86e213d8">
+            Herr statsrådet och chefen för jordbruksdepartementet NETZÉN,
+            som förklarat sig ämna vid detta sammanträde besvara herr Uno
+            Olofssons interpellation angående samebefolkningens fortsatta
+            utövning av renskötseln, m. m., fick nu ordet och anförde:
+          </note>
+          <u who="rolf_kaijser_f8a29e" xml:id="i-1b22da7a952ded80-3" prev="i-1b22da7a952ded80-0" n="1b22da7a">
             <seg n="82bb6718">
               Herr talman! Med första kammarens tillstånd har herr Olofsson
               frågat statsministern, om denne är villig att medverka till att
@@ -2379,6 +2419,19 @@
               ur Kultsjön i Vilhelmina socken såsom villkor för detta regleringsföretag
               bland annat föreskrivit att sökan-
             </seg>
+          </u>
+          <pb n="21" facs="https://betalab.kb.se/prot-1958-b-fk--3/prot_1958_b_fk__3-021.jp2/_view"/>
+          <note n="a58cf126">
+            22 Nr B 3
+          </note>
+          <note type="date" n="d07b076c">
+            Tisdagen den 15 juli 1958
+          </note>
+          <note n="a6808665">
+            Ang. samebefolkningens fortsatta utövning av renskötseln, m.
+            m.
+          </note>
+          <u who="rolf_kaijser_f8a29e" xml:id="i-1b22da7a952ded80-4" prev="i-1b22da7a952ded80-0" n="1b22da7a">
             <seg n="1d08b6b7">
               dena skall inom viss kortare tid, efter det verkställbart tillstånd
               till reglering föreligger, till statskontoret inbetala ett större
@@ -2398,6 +2451,14 @@
               som skall diskuteras vid nästkommande överläggningar rörande sagda
               konvention.
             </seg>
+          </u>
+          <note n="d13f4b11">
+            Beträffande bostadsfrågans ordnande för de nomadiserande samerna
+            torde jag få hänvisa till vad chefen för socialdepartementet anfört
+            i sitt den 15 april i år i andra kammaren avgivna svar på en av
+            fru Jäderberg i detta ärende framställd interpellation.
+          </note>
+          <u who="rolf_kaijser_f8a29e" xml:id="i-1b22da7a952ded80-5" prev="i-1b22da7a952ded80-0" n="1b22da7a">
             <seg n="e2b7e7bd">
               Bland åtgärderna för att underlätta för samerna att övergå från
               renskötseln till andra näringsfång har i interpellationen särskilt
@@ -2447,53 +2508,10 @@
             </seg>
             <seg n="8542c5ae"/>
           </u>
-          <pb n="20" facs="https://betalab.kb.se/prot-1958-b-fk--3/prot_1958_b_fk__3-020.jp2/_view"/>
-          <note type="date" n="d07b076c">
-            Tisdagen den 15 juli 1958
-          </note>
-          <note n="6e585283">
-            Nr B 3 21
-          </note>
-          <note n="a6808665">
-            Ang. samebefolkningens fortsatta utövning av renskötseln, m.
-            m.
-          </note>
-          <note n="e9951018">
-            Överläggningen ansågs härmed slutad.
-          </note>
-          <note n="1a21bd60">
-            Ang. samebefolkningens fortsatta utöv-
-          </note>
-          <note n="c786e7b3">
-            ning av renskötseln, m. m.
-          </note>
-          <note n="86e213d8">
-            Herr statsrådet och chefen för jordbruksdepartementet NETZÉN,
-            som förklarat sig ämna vid detta sammanträde besvara herr Uno
-            Olofssons interpellation angående samebefolkningens fortsatta
-            utövning av renskötseln, m. m., fick nu ordet och anförde:
-          </note>
-          <pb n="21" facs="https://betalab.kb.se/prot-1958-b-fk--3/prot_1958_b_fk__3-021.jp2/_view"/>
-          <note n="a58cf126">
-            22 Nr B 3
-          </note>
-          <note type="date" n="d07b076c">
-            Tisdagen den 15 juli 1958
-          </note>
-          <note n="a6808665">
-            Ang. samebefolkningens fortsatta utövning av renskötseln, m.
-            m.
-          </note>
-          <note n="d13f4b11">
-            Beträffande bostadsfrågans ordnande för de nomadiserande samerna
-            torde jag få hänvisa till vad chefen för socialdepartementet anfört
-            i sitt den 15 april i år i andra kammaren avgivna svar på en av
-            fru Jäderberg i detta ärende framställd interpellation.
-          </note>
           <note type="speaker" n="860c3ee6">
             Herr OLOFSSON, UNO, (fp):
           </note>
-          <u who="uno_olofsson_c1a8e2" xml:id="i-18e66ed8a3636973-1" next="i-7959060c3e6710e9-1" n="5eeb0d66">
+          <u who="uno_olofsson_c1a8e2" xml:id="i-5eeb0d6650dc5aaa-4" next="i-5eeb0d6650dc5aaa-12" n="5eeb0d66">
             <seg n="2ec2a99a">
               Herr talman! Till statsrådet och chefen för jordbruksdepartementet
               ber jag att få framföra mitt tack för svaret på min interpellation,
@@ -2516,7 +2534,7 @@
             Ang. samebefolkningens fortsatta utövning av renskötseln, m.
             m.
           </note>
-          <u who="uno_olofsson_c1a8e2" xml:id="i-7959060c3e6710e9-1" prev="i-18e66ed8a3636973-1" n="5eeb0d66">
+          <u who="uno_olofsson_c1a8e2" xml:id="i-5eeb0d6650dc5aaa-5" prev="i-5eeb0d6650dc5aaa-4" n="5eeb0d66">
             <seg n="547cefd3">
               Det är känt för många, även bland samerna, att det pågår ett
               antal utredningar, och jag delar nog statsrådets uppfattning,
@@ -2557,20 +2575,180 @@
             <seg n="7ff90332">
               Jag ber än en gång att få tacka för svaret.
             </seg>
+          </u>
+          <note n="3136438e">
+            Överläggningen förklarades slutad.
+          </note>
+          <note n="630c13ba">
+            härmed
+          </note>
+          <note n="70c62c10">
+            Föredrogs och lades till handlingarna den av bankoutskottet jämlikt
+            $ 21 riksdagsstadgan gjorda anmälan, att till utskottet från fullmäktige
+            i riksbanken inkommit framställning om pension till änkefru Nanny
+            Ingvall, född Rundgren.
+          </note>
+          <note n="59afba62">
+            Föredrogos och bordlades ånyo konstitutionsutskottets memorial
+            nr B 1, statsutskottets utlåtanden och memorial nr B1,B3,B4,B13,B
+            15—B 21, B 23— B 25 och B 27—B 37, första lagutskottets utlåtanden
+            nr B 2, B 3 och B 6, andra lagutskottets utlåtanden nr B 2—B 7
+            samt jordbruksutskottets utlåtanden nr B 1—B 3.
+          </note>
+          <note n="806493c4">
+            På framställning av herr talmannen beslöts att på föredragningslistan
+            för morgondagens sammanträde statsutskottets utlåtande nr B 15
+            skulle uppföras närmast efter samma utskotts utlåtande nr B 1
+            samt att jordbruksutskottets utlåtande nr B 3 skulle sättas omedelbart
+            efter dessa båda ärenden.
+          </note>
+          <note n="c0cc4cad">
+            Justerades protokollsutdrag för denna dag, varefter kammarens
+            sammanträde avslutades kl. 16.52.
+          </note>
+          <note n="fa4d3228">
+            In fidem
+          </note>
+          <note n="4fdfe22d">
+            K.-G. Lindelöw
+          </note>
+          <pb n="23" facs="https://betalab.kb.se/prot-1958-b-fk--3/prot_1958_b_fk__3-023.jp2/_view"/>
+          <note n="c5b9624d">
+            24 Nr B 3
+          </note>
+          <note type="date" n="af1e8ca4">
+            Onsdagen den 16 juli 1958
+          </note>
+          <note type="date" n="4f1da8db">
+            Onsdagen den 16 juli
+          </note>
+          <note n="58b59270">
+            Kammaren sammanträdde kl. 10.00.
+          </note>
+          <note n="fbb44c1d">
+            Upplästes en till kammaren inkommen ansökning, som jämte därvid
+            fogat läkarintyg var så lydande:
+          </note>
+          <note n="0c55a9bd">
+            Till riksdagens första kammare
+          </note>
+          <note n="56d33903">
+            Undertecknad får med stöd av bifogade läkarintyg vördsamt anhålla
+            om ledighet från riksdagsarbetet under den tid, som finnes angiven
+            i läkarintyget.
+          </note>
+          <note n="fdfeba9e">
+            Nöttja den 14 juli 1958 Fritiof Karlsson
+          </note>
+          <u who="uno_olofsson_c1a8e2" xml:id="i-5eeb0d6650dc5aaa-6" prev="i-5eeb0d6650dc5aaa-4" n="5eeb0d66">
             <seg n="41f00781">
               Riksdagsman Fritiof Karlsson från Nöttja, som lider av inflammation
               i höger stortå, är på grund härav oförmögen att inställa sig i
               riksdagen under 14 dagar från dato intygas härmed.
             </seg>
+          </u>
+          <note n="0e76d3f4">
+            Ljungby den 14 juli 1958 Elis Lindgren lasarettsläkare
+          </note>
+          <u who="uno_olofsson_c1a8e2" xml:id="i-5eeb0d6650dc5aaa-7" prev="i-5eeb0d6650dc5aaa-4" n="5eeb0d66">
             <seg n="42de223f">
               Den begärda ledigheten beviljades.
             </seg>
+          </u>
+          <note n="0b8b4d7a">
+            Föredrogs ånyo konstitutionsutskottets memorial nr B 1 angående
+            granskning av de i statsrådet förda protokoll.
+          </note>
+          <note n="9dfb22eb">
+            Till konstitutionsutskottet hade på därom hos vederbörande gjord
+            framställning blivit överlämnade de under tiden från och med den
+            10 januari 1957 till och med den 9 januari 1958 i statsrådet förda
+            protokoll.
+          </note>
+          <note n="c785ab4d">
+            Därjämte hade på därom särskilt gjord framställning överlämnats
+            utdrag av det över finansärenden den 7 februari 1958 förda protokoll
+            i vad det avsåg avlåtande av proposition nr 50 till innevarande
+            års A-riksdag.
+          </note>
+          <note n="a05cf9cb">
+            Utskottets nu föreliggande memorial var indelat i två särskilda,
+            med A och B betecknade punkter.
+          </note>
+          <note n="9184bfcd">
+            I punkten A hade utskottet anmält, att vid den granskning av
+            nyss omförmälda protokoll och av övriga handlingar, som i överensstämmelse
+            med grundlagens föreskrift av utskottet företagits, anledning
+            icke förekommit att mot någon ledamot av statsrådet tillämpa $
+            106 regeringsformen.
+          </note>
+          <note n="c5a4f014">
+            I punkten B hade utskottet anmält, att granskningen ej heller
+            givit utskottet anledning till anmälan enligt $ 107 regeringsformen
+            mot någon ledamot av statsrådet.
+          </note>
+          <note n="d55b6d80">
+            Vid punktvis skedd föredragning av förevarande memorial lades
+            detsamma till handlingarna.
+          </note>
+          <note n="41fda763">
+            Vid memorialet funnos fogade dels tre särskilda, med I—III betecknade
+            reservationer, innefattande avslagna yrkanden om anmälan enligt
+            $ 107 regeringsformen, dels ock två reservationer avseende avslagna
+            yrkanden angående omförmälan.
+          </note>
+          <note n="192ce4a7">
+            Herr talmannen anförde, att därest några yttranden komme att
+            föranledas av de vid memorialet fogade reservationerna, han ville
+            framhålla som ett önskemål, att dessa yttranden anknötes till
+            reservationerna gruppvis, så att varje reservation diskuterades
+            särskilt för sig och, sedan den slutbehandlats, icke vidare återupptoges
+            i den fortsatta debatten.
+          </note>
+          <note n="14888eeb">
+            Ang. viss medelsanvisning till anskaffning av flygmateriel m.
+            m.
+          </note>
+          <note n="887e5571">
+            Enligt en med I betecknad reservation hade herrar Ollén, Källqvist,
+            von Friesen, Braconier och Hammar ansett, att utskottet bort göra
+            anmälan jämlikt $ 107 regeringsformen mot föredragande departementschefen,
+            statsrådet Nilsson, med anledning av att Kungl. Maj:t enligt
+          </note>
+          <pb n="24" facs="https://betalab.kb.se/prot-1958-b-fk--3/prot_1958_b_fk__3-024.jp2/_view"/>
+          <note type="date" n="af1e8ca4">
+            Onsdagen den 16 juli 1958
+          </note>
+          <note n="86906603">
+            Nr B 3 25
+          </note>
+          <note n="14888eeb">
+            Ang. viss medelsanvisning till anskaffning av flygmateriel m.
+            m.
+          </note>
+          <u who="uno_olofsson_c1a8e2" xml:id="i-5eeb0d6650dc5aaa-8" prev="i-5eeb0d6650dc5aaa-4" n="5eeb0d66">
             <seg n="4ecd17f0">
               statsrådsprotokollet över försvarsären-
             </seg>
+          </u>
+          <note n="ab3d7197">
+            den den 8 mars 1957 fattat beslut — utan
+          </note>
+          <note n="375566c4">
+            att riksdagen underrättats — om tagande
+          </note>
+          <u who="uno_olofsson_c1a8e2" xml:id="i-5eeb0d6650dc5aaa-9" prev="i-5eeb0d6650dc5aaa-4" n="5eeb0d66">
             <seg n="07ecb915">
               i anspråk av visst reservationsanslag till
             </seg>
+          </u>
+          <note n="0087e7b0">
+            anskaffning av flygmateriel m. m. Härom anförde nu:
+          </note>
+          <note n="b8f4998b">
+            Herr OLLÉN (fp):
+          </note>
+          <u who="uno_olofsson_c1a8e2" xml:id="i-5eeb0d6650dc5aaa-10" prev="i-5eeb0d6650dc5aaa-4" n="5eeb0d66">
             <seg n="0eabb925">
               Herr talman! Frågan om det ökade behovet av betalningsmedel för
               inköp av flygmateriel har vid olika tillfällen, främst i remissdebatten
@@ -2643,6 +2821,19 @@
               nu aktuella fallet, rör främst budgetåret 1956/ 57. Det bör därför
               nämnas, att riksdagen för detta budgetår i vanlig ordning läm-
             </seg>
+          </u>
+          <pb n="25" facs="https://betalab.kb.se/prot-1958-b-fk--3/prot_1958_b_fk__3-025.jp2/_view"/>
+          <note n="f51df844">
+            26 Nr B 3
+          </note>
+          <note type="date" n="af1e8ca4">
+            Onsdagen den 16 juli 1958
+          </note>
+          <note n="14888eeb">
+            Ang. viss medelsanvisning till anskaffning av flygmateriel m.
+            m.
+          </note>
+          <u who="uno_olofsson_c1a8e2" xml:id="i-5eeb0d6650dc5aaa-11" prev="i-5eeb0d6650dc5aaa-4" n="5eeb0d66">
             <seg n="698e547d">
               nade beställningsbemyndigande för 640 miljoner kronor och anvisade
               betalningsanslag på 475 miljoner kronor. Under löpande budgetår
@@ -2728,6 +2919,19 @@
               på eget omdöme beroende omprövning av skatteoch anslagsfrågor,
               som regeringsformen anförtrott åt Sveriges riksdag.»
             </seg>
+          </u>
+          <pb n="26" facs="https://betalab.kb.se/prot-1958-b-fk--3/prot_1958_b_fk__3-026.jp2/_view"/>
+          <note type="date" n="af1e8ca4">
+            Onsdagen den 16 juli 1958
+          </note>
+          <note n="6e585283">
+            Nr B 3 21
+          </note>
+          <note n="14888eeb">
+            Ang. viss medelsanvisning till anskaffning av flygmateriel m.
+            m.
+          </note>
+          <u who="uno_olofsson_c1a8e2" xml:id="i-5eeb0d6650dc5aaa-12" prev="i-5eeb0d6650dc5aaa-4" n="5eeb0d66">
             <seg n="248ff241">
               Det finns, herr talman, enligt min mening all anledning att stryka
               under detta uttalande och därvid ge uttryck åt den förhoppningen,
@@ -2740,182 +2944,10 @@
               sida beträffande rikets finanser och allt vad därtill hör.
             </seg>
           </u>
-          <note n="3136438e">
-            Överläggningen förklarades slutad.
-          </note>
-          <note n="630c13ba">
-            härmed
-          </note>
-          <note n="70c62c10">
-            Föredrogs och lades till handlingarna den av bankoutskottet jämlikt
-            $ 21 riksdagsstadgan gjorda anmälan, att till utskottet från fullmäktige
-            i riksbanken inkommit framställning om pension till änkefru Nanny
-            Ingvall, född Rundgren.
-          </note>
-          <note n="59afba62">
-            Föredrogos och bordlades ånyo konstitutionsutskottets memorial
-            nr B 1, statsutskottets utlåtanden och memorial nr B1,B3,B4,B13,B
-            15—B 21, B 23— B 25 och B 27—B 37, första lagutskottets utlåtanden
-            nr B 2, B 3 och B 6, andra lagutskottets utlåtanden nr B 2—B 7
-            samt jordbruksutskottets utlåtanden nr B 1—B 3.
-          </note>
-          <note n="806493c4">
-            På framställning av herr talmannen beslöts att på föredragningslistan
-            för morgondagens sammanträde statsutskottets utlåtande nr B 15
-            skulle uppföras närmast efter samma utskotts utlåtande nr B 1
-            samt att jordbruksutskottets utlåtande nr B 3 skulle sättas omedelbart
-            efter dessa båda ärenden.
-          </note>
-          <note n="c0cc4cad">
-            Justerades protokollsutdrag för denna dag, varefter kammarens
-            sammanträde avslutades kl. 16.52.
-          </note>
-          <note n="fa4d3228">
-            In fidem
-          </note>
-          <note n="4fdfe22d">
-            K.-G. Lindelöw
-          </note>
-          <pb n="23" facs="https://betalab.kb.se/prot-1958-b-fk--3/prot_1958_b_fk__3-023.jp2/_view"/>
-          <note n="c5b9624d">
-            24 Nr B 3
-          </note>
-          <note type="date" n="af1e8ca4">
-            Onsdagen den 16 juli 1958
-          </note>
-          <note type="date" n="4f1da8db">
-            Onsdagen den 16 juli
-          </note>
-          <note n="58b59270">
-            Kammaren sammanträdde kl. 10.00.
-          </note>
-          <note n="fbb44c1d">
-            Upplästes en till kammaren inkommen ansökning, som jämte därvid
-            fogat läkarintyg var så lydande:
-          </note>
-          <note n="0c55a9bd">
-            Till riksdagens första kammare
-          </note>
-          <note n="56d33903">
-            Undertecknad får med stöd av bifogade läkarintyg vördsamt anhålla
-            om ledighet från riksdagsarbetet under den tid, som finnes angiven
-            i läkarintyget.
-          </note>
-          <note n="fdfeba9e">
-            Nöttja den 14 juli 1958 Fritiof Karlsson
-          </note>
-          <note n="0e76d3f4">
-            Ljungby den 14 juli 1958 Elis Lindgren lasarettsläkare
-          </note>
-          <note n="0b8b4d7a">
-            Föredrogs ånyo konstitutionsutskottets memorial nr B 1 angående
-            granskning av de i statsrådet förda protokoll.
-          </note>
-          <note n="9dfb22eb">
-            Till konstitutionsutskottet hade på därom hos vederbörande gjord
-            framställning blivit överlämnade de under tiden från och med den
-            10 januari 1957 till och med den 9 januari 1958 i statsrådet förda
-            protokoll.
-          </note>
-          <note n="c785ab4d">
-            Därjämte hade på därom särskilt gjord framställning överlämnats
-            utdrag av det över finansärenden den 7 februari 1958 förda protokoll
-            i vad det avsåg avlåtande av proposition nr 50 till innevarande
-            års A-riksdag.
-          </note>
-          <note n="a05cf9cb">
-            Utskottets nu föreliggande memorial var indelat i två särskilda,
-            med A och B betecknade punkter.
-          </note>
-          <note n="9184bfcd">
-            I punkten A hade utskottet anmält, att vid den granskning av
-            nyss omförmälda protokoll och av övriga handlingar, som i överensstämmelse
-            med grundlagens föreskrift av utskottet företagits, anledning
-            icke förekommit att mot någon ledamot av statsrådet tillämpa $
-            106 regeringsformen.
-          </note>
-          <note n="c5a4f014">
-            I punkten B hade utskottet anmält, att granskningen ej heller
-            givit utskottet anledning till anmälan enligt $ 107 regeringsformen
-            mot någon ledamot av statsrådet.
-          </note>
-          <note n="d55b6d80">
-            Vid punktvis skedd föredragning av förevarande memorial lades
-            detsamma till handlingarna.
-          </note>
-          <note n="41fda763">
-            Vid memorialet funnos fogade dels tre särskilda, med I—III betecknade
-            reservationer, innefattande avslagna yrkanden om anmälan enligt
-            $ 107 regeringsformen, dels ock två reservationer avseende avslagna
-            yrkanden angående omförmälan.
-          </note>
-          <note n="192ce4a7">
-            Herr talmannen anförde, att därest några yttranden komme att
-            föranledas av de vid memorialet fogade reservationerna, han ville
-            framhålla som ett önskemål, att dessa yttranden anknötes till
-            reservationerna gruppvis, så att varje reservation diskuterades
-            särskilt för sig och, sedan den slutbehandlats, icke vidare återupptoges
-            i den fortsatta debatten.
-          </note>
-          <note n="14888eeb">
-            Ang. viss medelsanvisning till anskaffning av flygmateriel m.
-            m.
-          </note>
-          <note n="887e5571">
-            Enligt en med I betecknad reservation hade herrar Ollén, Källqvist,
-            von Friesen, Braconier och Hammar ansett, att utskottet bort göra
-            anmälan jämlikt $ 107 regeringsformen mot föredragande departementschefen,
-            statsrådet Nilsson, med anledning av att Kungl. Maj:t enligt
-          </note>
-          <pb n="24" facs="https://betalab.kb.se/prot-1958-b-fk--3/prot_1958_b_fk__3-024.jp2/_view"/>
-          <note type="date" n="af1e8ca4">
-            Onsdagen den 16 juli 1958
-          </note>
-          <note n="86906603">
-            Nr B 3 25
-          </note>
-          <note n="14888eeb">
-            Ang. viss medelsanvisning till anskaffning av flygmateriel m.
-            m.
-          </note>
-          <note n="ab3d7197">
-            den den 8 mars 1957 fattat beslut — utan
-          </note>
-          <note n="375566c4">
-            att riksdagen underrättats — om tagande
-          </note>
-          <note n="0087e7b0">
-            anskaffning av flygmateriel m. m. Härom anförde nu:
-          </note>
-          <note n="b8f4998b">
-            Herr OLLÉN (fp):
-          </note>
-          <pb n="25" facs="https://betalab.kb.se/prot-1958-b-fk--3/prot_1958_b_fk__3-025.jp2/_view"/>
-          <note n="f51df844">
-            26 Nr B 3
-          </note>
-          <note type="date" n="af1e8ca4">
-            Onsdagen den 16 juli 1958
-          </note>
-          <note n="14888eeb">
-            Ang. viss medelsanvisning till anskaffning av flygmateriel m.
-            m.
-          </note>
-          <pb n="26" facs="https://betalab.kb.se/prot-1958-b-fk--3/prot_1958_b_fk__3-026.jp2/_view"/>
-          <note type="date" n="af1e8ca4">
-            Onsdagen den 16 juli 1958
-          </note>
-          <note n="6e585283">
-            Nr B 3 21
-          </note>
-          <note n="14888eeb">
-            Ang. viss medelsanvisning till anskaffning av flygmateriel m.
-            m.
-          </note>
           <note type="speaker" n="91d1b653">
             Herr ELMGREN (s):
           </note>
-          <u who="bengt_elmgren_b51caf" xml:id="i-7818b25a6b1d3930-0" next="i-b70aeab9761d51b0-0" n="c46c625d">
+          <u who="bengt_elmgren_b51caf" xml:id="i-c46c625da46c04eb-0" next="i-c46c625da46c04eb-3" n="c46c625d">
             <seg n="37849148">
               Herr talman! Gentemot de principer, som herr Ollén här har angivit,
               nämligen att riksdagen bör slå vakt om sin i grundlagen givna
@@ -2999,12 +3031,17 @@
             Ang. viss medelsanvisning till anskaffning av flygmateriel m.
             m.
           </note>
-          <u who="bengt_elmgren_b51caf" xml:id="i-b70aeab9761d51b0-0" prev="i-7818b25a6b1d3930-0" n="c46c625d">
+          <u who="bengt_elmgren_b51caf" xml:id="i-c46c625da46c04eb-1" prev="i-c46c625da46c04eb-0" n="c46c625d">
             <seg n="fe34aceb">
               försvar ur den reservation, som herr Ollén själv skrivit under.
               Sedan har det också upplysts i utskottet, att informationer lämnats
               till första avdelningen från annat håll än flygförvaltningen.
             </seg>
+          </u>
+          <note n="50573a32">
+            Herr HANSON, PER-OLOF, (fp):
+          </note>
+          <u who="bengt_elmgren_b51caf" xml:id="i-c46c625da46c04eb-2" prev="i-c46c625da46c04eb-0" n="c46c625d">
             <seg n="49d33dcf">
               Herr talman! Man kan ju verkligen fråga sig i detta fall, om
               det kan vara tillräckligt att meddela en utskottsavdelning en
@@ -3082,6 +3119,19 @@
               Ett annat sätt att uttrycka saken vore väl att säga, att de nuvarande
               förhållan-
             </seg>
+          </u>
+          <pb n="28" facs="https://betalab.kb.se/prot-1958-b-fk--3/prot_1958_b_fk__3-028.jp2/_view"/>
+          <note type="date" n="af1e8ca4">
+            Onsdagen den 16 juli 1958
+          </note>
+          <note n="a3071e7c">
+            Nr B 3 29
+          </note>
+          <note n="14888eeb">
+            Ang. viss medelsanvisning till anskaffning av flygmateriel m.
+            m.
+          </note>
+          <u who="bengt_elmgren_b51caf" xml:id="i-c46c625da46c04eb-3" prev="i-c46c625da46c04eb-0" n="c46c625d">
             <seg n="ef7dd776">
               dena är ett tecken på riksdagens minskade inflytande — herr Ollén
               var inne på den saken — och den bristande självkänsla som den
@@ -3098,24 +3148,10 @@
               de gamla formerna.
             </seg>
           </u>
-          <note n="50573a32">
-            Herr HANSON, PER-OLOF, (fp):
-          </note>
-          <pb n="28" facs="https://betalab.kb.se/prot-1958-b-fk--3/prot_1958_b_fk__3-028.jp2/_view"/>
-          <note type="date" n="af1e8ca4">
-            Onsdagen den 16 juli 1958
-          </note>
-          <note n="a3071e7c">
-            Nr B 3 29
-          </note>
-          <note n="14888eeb">
-            Ang. viss medelsanvisning till anskaffning av flygmateriel m.
-            m.
-          </note>
           <note type="speaker" n="91d1b653">
             Herr ELMGREN (s):
           </note>
-          <u who="bengt_elmgren_b51caf" xml:id="i-7818b25a6b1d3930-1" next="i-b70aeab9761d51b0-1" n="c46c625d">
+          <u who="bengt_elmgren_b51caf" xml:id="i-c46c625da46c04eb-4" next="i-c46c625da46c04eb-5" n="c46c625d">
             <seg n="0239043f">
               Herr talman! Med anledning av det principiella uttalande, som
               herr Per-Olof Hanson har gjort, skall jag be att få säga några
@@ -3151,7 +3187,7 @@
           <note n="50573a32">
             Herr HANSON, PER-OLOF, (fp):
           </note>
-          <u who="bengt_elmgren_b51caf" xml:id="i-b70aeab9761d51b0-1" prev="i-7818b25a6b1d3930-1" n="c46c625d">
+          <u who="bengt_elmgren_b51caf" xml:id="i-c46c625da46c04eb-5" prev="i-c46c625da46c04eb-4" n="c46c625d">
             <seg n="fe89eea5">
               Herr talman! Min avsikt var inte att måla i svart eller vitt,
               utan jag ville ta upp frågan om den praxis som här utbrett sig.
@@ -3177,7 +3213,7 @@
           <note type="speaker" n="91d1b653">
             Herr ELMGREN (s):
           </note>
-          <u who="bengt_elmgren_b51caf" xml:id="i-7818b25a6b1d3930-2" next="i-b70aeab9761d51b0-2" n="c46c625d">
+          <u who="bengt_elmgren_b51caf" xml:id="i-c46c625da46c04eb-6" next="i-c46c625da46c04eb-7" n="c46c625d">
             <seg n="a4f7c827">
               Herr talman! Det förekommer i alla fall majoritetsanmärkningar
               även på senare tid. Härom året gjorde utskottsmajoriteten en anmärkning,
@@ -3197,7 +3233,7 @@
           <note n="50573a32">
             Herr HANSON, PER-OLOF, (fp):
           </note>
-          <u who="bengt_elmgren_b51caf" xml:id="i-b70aeab9761d51b0-2" prev="i-7818b25a6b1d3930-2" n="c46c625d">
+          <u who="bengt_elmgren_b51caf" xml:id="i-c46c625da46c04eb-7" prev="i-c46c625da46c04eb-6" n="c46c625d">
             <seg n="90c5e51e">
               Herr talman! Som jag antydde i mitt förra anförande, gjordes
               härom året en anmärkning, och om jag inte minns alldeles fel var
@@ -3215,7 +3251,7 @@
           <note type="speaker" n="91d1b653">
             Herr ELMGREN (s):
           </note>
-          <u who="bengt_elmgren_b51caf" xml:id="i-7818b25a6b1d3930-3" next="i-b70aeab9761d51b0-3" n="c46c625d">
+          <u who="bengt_elmgren_b51caf" xml:id="i-c46c625da46c04eb-8" next="i-c46c625da46c04eb-11" n="c46c625d">
             <seg n="36e7a32e">
               Herr talman! Det var inte alls några politiska skäl som herr
               Hanson tror, som härom året föranledde anmärkningen, utan det
@@ -3264,7 +3300,7 @@
           <note n="50573a32">
             Herr HANSON, PER-OLOF, (fp):
           </note>
-          <u who="bengt_elmgren_b51caf" xml:id="i-b70aeab9761d51b0-3" prev="i-7818b25a6b1d3930-3" n="c46c625d">
+          <u who="bengt_elmgren_b51caf" xml:id="i-c46c625da46c04eb-9" prev="i-c46c625da46c04eb-8" n="c46c625d">
             <seg n="81dab8ae">
               Herr talman! Denna punkt på programmet gäller något så ovanligt
               som en alltför energisk revisor. Det vanliga här i landet är att
@@ -3292,6 +3328,18 @@
               Det är alldeles uppenbart av handlingarna, att det rådde mycket
               delade meningar om huruvida stadshypotekskassan över huvud
             </seg>
+          </u>
+          <pb n="30" facs="https://betalab.kb.se/prot-1958-b-fk--3/prot_1958_b_fk__3-030.jp2/_view"/>
+          <note type="date" n="af1e8ca4">
+            Onsdagen den 16 juli 1958
+          </note>
+          <note n="38d6e698">
+            Nr B 3 3l
+          </note>
+          <note n="cbac7002">
+            Ang. förordnande av revisor i stadshypotekskassan och bostadskreditkassan
+          </note>
+          <u who="bengt_elmgren_b51caf" xml:id="i-c46c625da46c04eb-10" prev="i-c46c625da46c04eb-8" n="c46c625d">
             <seg n="fa3ca6bf">
               taget hade rätt att köpa den fastighet det gällde för placering
               av reservfondsmedel. Det framgår på sid. 8 i konstitutionsutskottets
@@ -3342,6 +3390,11 @@
               åtgärd vidtagits av det ansvariga statsrådet just på begäran från
               den part, mot vilken Baarsen riktat revisionsanmärkning-
             </seg>
+          </u>
+          <note n="47bb1c93">
+            ar. Som kammarens ledamöter kan se,
+          </note>
+          <u who="bengt_elmgren_b51caf" xml:id="i-c46c625da46c04eb-11" prev="i-c46c625da46c04eb-8" n="c46c625d">
             <seg n="ab2224c8">
               slutar ju reservationen på denna punkt med ett ganska modest
               uttalande om att man i sådana här sammanhang måste vara försiktig.
@@ -3363,23 +3416,10 @@
               framförts är väl motiverad.
             </seg>
           </u>
-          <pb n="30" facs="https://betalab.kb.se/prot-1958-b-fk--3/prot_1958_b_fk__3-030.jp2/_view"/>
-          <note type="date" n="af1e8ca4">
-            Onsdagen den 16 juli 1958
-          </note>
-          <note n="38d6e698">
-            Nr B 3 3l
-          </note>
-          <note n="cbac7002">
-            Ang. förordnande av revisor i stadshypotekskassan och bostadskreditkassan
-          </note>
-          <note n="47bb1c93">
-            ar. Som kammarens ledamöter kan se,
-          </note>
           <note type="speaker" n="91d1b653">
             Herr ELMGREN (s):
           </note>
-          <u who="bengt_elmgren_b51caf" xml:id="i-7818b25a6b1d3930-4" next="i-b70aeab9761d51b0-4" n="c46c625d">
+          <u who="bengt_elmgren_b51caf" xml:id="i-c46c625da46c04eb-12" next="i-c46c625da46c04eb-13" n="c46c625d">
             <seg n="a9f2e399">
               Herr talman! Herr Hanson började med att säga, att det här gällde
               en revisor som var för energisk. Jag vill då bara påpeka, att
@@ -3404,7 +3444,7 @@
           <note n="bd4893fd">
             Ang. förfaringssättet vid beslut om införande av sockerskatt
           </note>
-          <u who="bengt_elmgren_b51caf" xml:id="i-b70aeab9761d51b0-4" prev="i-7818b25a6b1d3930-4" n="c46c625d">
+          <u who="bengt_elmgren_b51caf" xml:id="i-c46c625da46c04eb-13" prev="i-c46c625da46c04eb-12" n="c46c625d">
             <seg n="040567b5">
               ombudsmannen, som man snart väntar få se publicerad och som kommer
               att belysa förhållandena. Det är vidare en av herr Hanson icke
@@ -3436,7 +3476,7 @@
           <note type="speaker" n="95bcfe6d">
             Herr SVENINGSSON (h):
           </note>
-          <u who="ragnar_sveningsson_beca8b" xml:id="i-e42105c6abe7b86f-0" next="i-6df48b6283194e92-0" n="2045c1f4">
+          <u who="ragnar_sveningsson_beca8b" xml:id="i-2045c1f4706e3afc-0" next="i-2045c1f4706e3afc-1" n="2045c1f4">
             <seg n="84568dbf">
               Herr talman! När det gäller det sätt varpå sockerskatten infördes
               i början av februari månad i år med 20 öre per kg socker, har
@@ -3493,7 +3533,7 @@
           <note n="c646bc1c">
             Om ändrad ordning för
           </note>
-          <u who="ragnar_sveningsson_beca8b" xml:id="i-6df48b6283194e92-0" prev="i-e42105c6abe7b86f-0" n="2045c1f4">
+          <u who="ragnar_sveningsson_beca8b" xml:id="i-2045c1f4706e3afc-1" prev="i-2045c1f4706e3afc-0" n="2045c1f4">
             <seg n="8ec6179c">
               ha förfarit med dessa skattepengar, om propositionen om sockerskatten
               blivit avslagen, har man inte talat om.
@@ -3510,7 +3550,7 @@
           <note type="speaker" n="91d1b653">
             Herr ELMGREN (s):
           </note>
-          <u who="bengt_elmgren_b51caf" xml:id="i-7818b25a6b1d3930-5" next="i-b70aeab9761d51b0-5" n="c46c625d">
+          <u who="bengt_elmgren_b51caf" xml:id="i-c46c625da46c04eb-14" next="i-c46c625da46c04eb-15" n="c46c625d">
             <seg n="f616e218">
               Herr talman! Herr Sveningsson medgav, att det i detta fall träffats
               en överenskommelse mellan partiledarna och att det fanns en betydande
@@ -3608,7 +3648,7 @@
           <note n="938c5ebe">
             Om ändrad ordning för vissa anslags uppförande under nionde huvudtiteln
           </note>
-          <u who="bengt_elmgren_b51caf" xml:id="i-b70aeab9761d51b0-5" prev="i-7818b25a6b1d3930-5" n="c46c625d">
+          <u who="bengt_elmgren_b51caf" xml:id="i-c46c625da46c04eb-15" prev="i-c46c625da46c04eb-14" n="c46c625d">
             <seg n="2bd2fd83">
               dragsanslag till extra utgiftsanslag, vilken överflyttning beräknas
               medgiva en total minskning av medelsbehovet med omkring 20 procent
@@ -3623,7 +3663,7 @@
           <note type="speaker" n="a84e0542">
             Fröken ANDERSSON (h):
           </note>
-          <u who="torsten_andersson_214d82" xml:id="i-ae181d0249756507-0" n="e7864e3b">
+          <u who="torsten_andersson_214d82" xml:id="i-fae40246912944e8-0" n="e7864e3b">
             <seg n="d34495d6">
               Herr talman! Den här frågan liksom så många andra diskuterades
               ju i denna kammare för bara några månader sedan. Jag anser att
@@ -3639,7 +3679,7 @@
           <note type="speaker" n="f388200a">
             Herr HOLMQVIST (s):
           </note>
-          <u who="eric_holmqvist_e530b7" xml:id="i-1f1a9302627847ee-0" next="i-ca10e3c7824a271e-0" n="eea2fd6d">
+          <u who="eric_holmqvist_e530b7" xml:id="i-eea2fd6d45d19dc9-0" next="i-eea2fd6d45d19dc9-2" n="eea2fd6d">
             <seg n="0921ad9c">
               Herr talman! Jag ber att få yrka bifall till utskottets förslag.
             </seg>
@@ -3665,7 +3705,7 @@
             97 av herr Ewerlöf m. fl. och II: B 129 av herr Hjalmarson m.
             fl. hade hemställts, att
           </note>
-          <u who="eric_holmqvist_e530b7" xml:id="i-ca10e3c7824a271e-0" prev="i-1f1a9302627847ee-0" n="eea2fd6d">
+          <u who="eric_holmqvist_e530b7" xml:id="i-eea2fd6d45d19dc9-1" prev="i-eea2fd6d45d19dc9-0" n="eea2fd6d">
             <seg n="587aca8e">
               riksdagen måtte såvitt angick IX. huvudtiteln dels godkänna i
               motionerna förordad överflyttning av medel från sakoch bidragsanslag
@@ -3674,12 +3714,6 @@
               ca 2,5 miljoner kronor, dels ock besluta att Kungl. Maj:t vid
               budgetårets slut skulle till riksdagen lämna en redovisning för
               de extra utgiftsmedlens användning under det förflutna budgetåret.
-            </seg>
-            <seg n="07fc4809">
-              1) godkänna i motionerna förordad överflyttning av medel från
-              sakoch bidragsanslag till extra utgiftsanslag, vilken överflyttning
-              beräknas medgiva en total minskning av medelsbehovet med omkring
-              20 procent eller ca 2,5 miljoner kronor;
             </seg>
           </u>
           <note n="fb8b8e04">
@@ -3699,6 +3733,14 @@
             att riksdagen må, med bifall till motionerna I:B 97 och II: B
             129,
           </note>
+          <u who="eric_holmqvist_e530b7" xml:id="i-eea2fd6d45d19dc9-2" prev="i-eea2fd6d45d19dc9-0" n="eea2fd6d">
+            <seg n="07fc4809">
+              1) godkänna i motionerna förordad överflyttning av medel från
+              sakoch bidragsanslag till extra utgiftsanslag, vilken överflyttning
+              beräknas medgiva en total minskning av medelsbehovet med omkring
+              20 procent eller ca 2,5 miljoner kronor;
+            </seg>
+          </u>
           <note n="7a436ceb">
             2) besluta att Kungl. Maj:t vid budgetårets slut skall till riksdagen
             lämna en redovisning för de extra utgiftsmedlens användning under
@@ -3707,7 +3749,7 @@
           <note type="speaker" n="22a18e44">
             Herr MANNERSKANTZ (h):
           </note>
-          <u who="axel_mannerskantz_48b900" xml:id="i-5640997de71d344c-0" n="6bb5b173">
+          <u who="axel_mannerskantz_48b900" xml:id="i-6bb5b173cd23ced7-0" n="6bb5b173">
             <seg n="44855497">
               Herr talman! Jag ber att få yrka bifall till den vid utskottsutlåtandet
               fogade reservationen.
@@ -3716,7 +3758,7 @@
           <note type="speaker" n="c7588572">
             Herr LARSSON, SIGFRID, (cp):
           </note>
-          <u who="ake_larsson_fee83f" xml:id="i-c719c466168c81a4-0" next="i-3c8d4e5a0d5e5ef0-0" n="302c0fb7">
+          <u who="ake_larsson_fee83f" xml:id="i-302c0fb7c88e57cd-0" next="i-302c0fb7c88e57cd-32" n="302c0fb7">
             <seg n="ea992e91">
               Herr talman! Jag yrkar bifall till utskottets förslag.
             </seg>
@@ -3982,209 +4024,13 @@
           <note n="d13e75bd">
             HI. för budgetåret 1958/59 anvisa
           </note>
-          <u who="ake_larsson_fee83f" xml:id="i-3c8d4e5a0d5e5ef0-0" prev="i-c719c466168c81a4-0" n="302c0fb7">
+          <u who="ake_larsson_fee83f" xml:id="i-302c0fb7c88e57cd-1" prev="i-302c0fb7c88e57cd-0" n="302c0fb7">
             <seg n="c07876d2">
               a) till Kapitalmedelsförluster och ränteeftergifter å vissa bostadsbyggnadslån
               ett förslagsanslag av 150 000 000 kronor;
             </seg>
             <seg n="8bca83f2">
               b) till Bostadsrabatter ett förslagsanslag av 150 000 000 kronor;
-            </seg>
-            <seg n="3d115641">
-              2) till Bostadsstyrelsen: Omkostnader ett förslagsanslag av 673
-              500 kronor;
-            </seg>
-            <seg n="1b9b304b">
-              dels preliminära beslut angående lån, som skulle utgå från lånefonden
-              för bostadsbyggande, finge meddelas intill ett belopp av 700 000
-              000 kronor,
-            </seg>
-            <seg n="c1bf8b4c">
-              dels preliminära beslut angående lån, som skulle utgå från anslaget
-              till räntefria lån till bostadsbyggande, finge meddelas intill
-              ett belopp av 130 000 000 kronor;
-            </seg>
-            <seg n="3bcad792">
-              a) under statens utlåningsfonder
-            </seg>
-            <seg n="b2569672">
-              1) till Lånefonden för bostadsbyggande ett investeringsanslag
-              av 600 000 000 kronor;
-            </seg>
-            <seg n="75260db8">
-              2) till Lånefonden för maskinanskaffning inom byggnadsindustrien
-              ett investeringsanslag av 100 kronor;
-            </seg>
-            <seg n="fff3ea9a">
-              b) under fonden för låneunderstöd till Räntefria lån till bostadsbyggande
-              ett investeringsanslag av 180 000 000 kronor.
-            </seg>
-            <seg n="4cc05ac4">
-              1) att tertiärlånets övre gräns för fastigheter, som påbörjats
-              efter den 1 juli 1958 skulle sänkas till 97 procent för företagsformer
-              som nu finge låna upp till 100 procent samt till 92 procent för
-              kooperativa företag som nu finge låna upp till 95 procent;
-            </seg>
-            <seg n="227033c2">
-              2) att ränteeftergifterna för bottenlån skulle ersättas med ett
-              schablonbidrag enligt i motionerna angivna riktlinjer;
-            </seg>
-            <seg n="e521390a">
-              3) att räntan på tertiäroch egnahemslån ovanför bottenkrediterna
-              för hus, som belånades efter den 1 juli 1958, skulle höjas från
-              4 till 5 procent och att bostadsstödets omfattning i övrigt skulle
-              regleras genom schablonbidraget; samt
-            </seg>
-            <seg n="82c24468">
-              4) att vid försäljning rätt skulle medges köparen att återlåna
-              den del av egnahemseller tertiärlånet som amorterats utöver vad
-              som föreskrivits i lånevillkoren.
-            </seg>
-            <seg n="370e04ef">
-              ett samarbete kommunerna emellan vore nödvändigt för att dessa
-              gemensamt skulle kunna bereda bostadssökande bostad på det för
-              den enskilde mest lämpliga sättet.
-            </seg>
-            <seg n="5a37ab8d">
-              1. uttala, att minst 65 000 lägenheter borde igångsättas under
-              nästa budgetår;
-            </seg>
-            <seg n="0d0d8ace">
-              3) att den räntefria stående delen av egnahemslån och av förbättringslån
-              skulle fastställas till 3 000 kronor;
-            </seg>
-            <seg n="1e967cb5">
-              4) att räntefri stående del av egnahemslån icke skulle behöva
-              återbetalas i andra fall än då egnahemmet försålts med vinst och
-              endast i den mån köpeskillingen Ööverstigit senast åsatt taxeringsvärde
-              samt i intet fall, om det räntefria stående lånet innehafts mer
-              än tio år;
-            </seg>
-            <seg n="f203f958">
-              10) alt familjebostadsbidrag skulle ut-
-            </seg>
-            <seg n="324483f3">
-              gå till alla ur standardsynpunkt godtagbara lägenheter oavsett
-              produktionsåret;
-            </seg>
-            <seg n="b84d73d7">
-              11) att minst en av revisorerna i fråga om s. k. allmännyttigt
-              bostadsföretag, som inte var aktiebolag, skulle vara auktoriserad
-              revisor, därest företaget förvaltade minst 500 bostadslägenheter;
-            </seg>
-            <seg n="a405a73d">
-              12) att preliminära beslut icke skulle meddelas angående lån
-              från Lånefonden för bostadsbyggande för budgetåret 1958/59;
-            </seg>
-            <seg n="2202cb13">
-              13) att till Lånefonden för bostadsbyggande skulle anvisas ett
-              investeringsanslag av 100 000 009 kronor;
-            </seg>
-            <seg n="e6d86331">
-              1) tertiärlån, som utlämnades tidigast den 1 september 1958,
-              skulle beviljas upp till 85 Z av den totala produktionskostnaden
-              mot enbart inteckningssäkerhet, oavsett förvaltningsformerna,
-              och upp till 97 70 för s. k. allmännyttiga företag mot kommunal
-              borgen och upp till 92 för kooperativa och enskilda företag mot
-              borgen av kommun, industriföretag eller annat företag av motsvarande
-              ekonomisk styrka samt, till den del de översteg 85 Io av belåningsvärdet,
-              amorteras på 25 år;
-            </seg>
-            <seg n="79a99bdf">
-              2) vid utgivande av statliga bostadslån en förvaltningsavgift
-              om 0,5 9 skulle uttagas i samband med lånets utbetalande;
-            </seg>
-            <seg n="917aa669">
-              C. 1) att medgiva, att preliminära beslut angående lån, som skulle
-              utgå från anslaget till räntefria lån till bostadsbyggande, finge
-              meddelas intill ett belopp av 60 000 000 kronor;
-            </seg>
-            <seg n="1a3c5c29">
-              2) att till Bostadsrabatter anvisa ett förslagsanslag av 162
-              000 000 kronor;
-            </seg>
-            <seg n="9f704955">
-              4) att å kapitalbudgeten under fonden för låneunderstöd till
-              Räntefria lån till bostadsbyggande anvisa ett investeringsanslag
-              av 115 000 000 kronor; samt
-            </seg>
-            <seg n="d9cc1f53">
-              dels preliminära beslut angående lån, som skulle utgå från anslaget
-              till räntefria lån till bostadsbyggande, finge meddelas intill
-              ett belopp av 140 000 000 kronor,
-            </seg>
-            <seg n="734da1be">
-              till Bidrag till viss bostadsförbättringsverksamhet ett reservationsanslag
-              av 30 000 000 kronor,
-            </seg>
-            <seg n="e91740ee">
-              till Lånefonden för bostadsbyggande 680 000 000 kronor,
-            </seg>
-            <seg n="28e4162b">
-              å kapitalbudgeten under fonden för låneunderstöd till Räntefria
-              lån till bostadsbyggande ett investeringsanslag av 190 000 000
-              kronor.
-            </seg>
-            <seg n="98d5dac4">
-              XII. beträffande statligt lån till förvärv
-            </seg>
-            <seg n="703985f4">
-              XXXIV. till Lånefonden för maskinanskaffning inom byggnadsindustrien
-              för budgetåret 1958/59 under statens utlåningsfonder anvisa ett
-              investeringsanslag av 100 kronor;
-            </seg>
-            <seg n="0a4d41e2">
-              XXXVIII. godkänna under punkten in-
-            </seg>
-            <seg n="71dac854">
-              1) till Bostadsstyrelsen: Avlöningar ett förslagsanslag av 47502
-              700 kronor;
-            </seg>
-            <seg n="3d115641">
-              2) till Bostadsstyrelsen: Omkostnader ett förslagsanslag av 673
-              500 kronor;
-            </seg>
-            <seg n="de542fad">
-              kostnader ett förslagsanslag av 603 000 kronor;
-            </seg>
-            <seg n="998371ba">
-              1) beträffande bostadsbyggandets storlek och inriktning
-            </seg>
-            <seg n="ac2bcf90">
-              2) beträffande införande av ett kreditgarantisystem på bostadsområdet
-            </seg>
-            <seg n="bcf18f0c">
-              4) beträffande avveckling av de generella subventionerna
-            </seg>
-            <seg n="aeb94105">
-              ortsdifferentierade
-            </seg>
-            <seg n="86592b56">
-              12) beträffande räntesatsen för tertiärlån
-            </seg>
-            <seg n="6e1fdc15">
-              14) gräns
-            </seg>
-            <seg n="c4fd81fd">
-              beträffande tertiärlånets övre
-            </seg>
-            <seg n="2ddecb98">
-              15) beträffande den räntefria stående delen av egnahemslån
-            </seg>
-            <seg n="6e5232e3">
-              16) beträffande räntesatsen för egnahemslån
-            </seg>
-            <seg n="9ed5fa09">
-              22) beträffande preliminära beslut angående lån som skulle utgå
-              från lånefonden för bostadsbyggande
-            </seg>
-            <seg n="5b071d69">
-              23) beträffande preliminära beslut angående lån, som skulle utgå
-              från anslaget till räntefria lån till bostadsbyggande,
-            </seg>
-            <seg n="2f4ed86c">
-              för bostadsbyggande för budgetåret 1958/59 under statens utlåningsfonder
-              anvisa ett investeringsanslag
             </seg>
           </u>
           <note n="76762c25">
@@ -4220,6 +4066,12 @@
             1) till Bostadsstyrelsen: Avlöningar ett förslagsanslag av 4
             502 700 kronor;
           </note>
+          <u who="ake_larsson_fee83f" xml:id="i-302c0fb7c88e57cd-2" prev="i-302c0fb7c88e57cd-0" n="302c0fb7">
+            <seg n="3d115641">
+              2) till Bostadsstyrelsen: Omkostnader ett förslagsanslag av 673
+              500 kronor;
+            </seg>
+          </u>
           <note n="1d8b9f08">
             3) till Länsbostadsnämnderna: Avlöningar ett förslagsanslag av
             4072 000 kronor;
@@ -4246,9 +4098,38 @@
           <note n="7670f9f0">
             I. medgiva, att under budgetåret 1958/ 59
           </note>
+          <u who="ake_larsson_fee83f" xml:id="i-302c0fb7c88e57cd-3" prev="i-302c0fb7c88e57cd-0" n="302c0fb7">
+            <seg n="1b9b304b">
+              dels preliminära beslut angående lån, som skulle utgå från lånefonden
+              för bostadsbyggande, finge meddelas intill ett belopp av 700 000
+              000 kronor,
+            </seg>
+            <seg n="c1bf8b4c">
+              dels preliminära beslut angående lån, som skulle utgå från anslaget
+              till räntefria lån till bostadsbyggande, finge meddelas intill
+              ett belopp av 130 000 000 kronor;
+            </seg>
+          </u>
           <note n="52b2b375">
             II. för budgetåret 1958/59 anvisa
           </note>
+          <u who="ake_larsson_fee83f" xml:id="i-302c0fb7c88e57cd-4" prev="i-302c0fb7c88e57cd-0" n="302c0fb7">
+            <seg n="3bcad792">
+              a) under statens utlåningsfonder
+            </seg>
+            <seg n="b2569672">
+              1) till Lånefonden för bostadsbyggande ett investeringsanslag
+              av 600 000 000 kronor;
+            </seg>
+            <seg n="75260db8">
+              2) till Lånefonden för maskinanskaffning inom byggnadsindustrien
+              ett investeringsanslag av 100 kronor;
+            </seg>
+            <seg n="fff3ea9a">
+              b) under fonden för låneunderstöd till Räntefria lån till bostadsbyggande
+              ett investeringsanslag av 180 000 000 kronor.
+            </seg>
+          </u>
           <note n="25944c09">
             I samband med Kungl. Maj:ts förevarande förslag hade utskottet
             till behandling förehaft följande motioner, nämligen
@@ -4308,6 +4189,29 @@
             och II: B 21 (av herrar Gustafsson i Skellefteå och Wedén) hade
             hemställts, att riksdagen måtte besluta
           </note>
+          <u who="ake_larsson_fee83f" xml:id="i-302c0fb7c88e57cd-5" prev="i-302c0fb7c88e57cd-0" n="302c0fb7">
+            <seg n="4cc05ac4">
+              1) att tertiärlånets övre gräns för fastigheter, som påbörjats
+              efter den 1 juli 1958 skulle sänkas till 97 procent för företagsformer
+              som nu finge låna upp till 100 procent samt till 92 procent för
+              kooperativa företag som nu finge låna upp till 95 procent;
+            </seg>
+            <seg n="227033c2">
+              2) att ränteeftergifterna för bottenlån skulle ersättas med ett
+              schablonbidrag enligt i motionerna angivna riktlinjer;
+            </seg>
+            <seg n="e521390a">
+              3) att räntan på tertiäroch egnahemslån ovanför bottenkrediterna
+              för hus, som belånades efter den 1 juli 1958, skulle höjas från
+              4 till 5 procent och att bostadsstödets omfattning i övrigt skulle
+              regleras genom schablonbidraget; samt
+            </seg>
+            <seg n="82c24468">
+              4) att vid försäljning rätt skulle medges köparen att återlåna
+              den del av egnahemseller tertiärlånet som amorterats utöver vad
+              som föreskrivits i lånevillkoren.
+            </seg>
+          </u>
           <note n="0637603a">
             I motionen I:B 106 (av herr Gustaf Elofsson) hade hemställts,
             att riksdagen måtte i skrivelse till Kungl. Maj:t anhålla om åtgärder
@@ -4327,6 +4231,13 @@
             lämnande av ekonomiskt stöd åt bostadsproduktionen kunde främja
             småhusbyggnationen och huruvida och i vilken form
           </note>
+          <u who="ake_larsson_fee83f" xml:id="i-302c0fb7c88e57cd-6" prev="i-302c0fb7c88e57cd-0" n="302c0fb7">
+            <seg n="370e04ef">
+              ett samarbete kommunerna emellan vore nödvändigt för att dessa
+              gemensamt skulle kunna bereda bostadssökande bostad på det för
+              den enskilde mest lämpliga sättet.
+            </seg>
+          </u>
           <note n="03508e4b">
             I de likalydande motionerna I:B 105 (av herr Rikard Svensson)
             och II: B 139 (av herr Persson i Växjö) hade hemställts, att riksdagen
@@ -4339,6 +4250,12 @@
             II: B 20 (av herr Ohlin m. fl.) hade föreslagits, att riksdagen
             måtte
           </note>
+          <u who="ake_larsson_fee83f" xml:id="i-302c0fb7c88e57cd-7" prev="i-302c0fb7c88e57cd-0" n="302c0fb7">
+            <seg n="5a37ab8d">
+              1. uttala, att minst 65 000 lägenheter borde igångsättas under
+              nästa budgetår;
+            </seg>
+          </u>
           <note n="171d55a2">
             2. besluta, att ränta på de tertiäroch egnahemslån, som utbetalades
             efter den 1 juli 1958, skulle vara obunden samt att övergång till
@@ -4455,6 +4372,19 @@
             2) att de ortsdifferentierade tilläggslånen (kungörelse 587:1948)
             skulle upphöra att utgå fr, o. m. den 1 september 1958;
           </note>
+          <u who="ake_larsson_fee83f" xml:id="i-302c0fb7c88e57cd-8" prev="i-302c0fb7c88e57cd-0" n="302c0fb7">
+            <seg n="0d0d8ace">
+              3) att den räntefria stående delen av egnahemslån och av förbättringslån
+              skulle fastställas till 3 000 kronor;
+            </seg>
+            <seg n="1e967cb5">
+              4) att räntefri stående del av egnahemslån icke skulle behöva
+              återbetalas i andra fall än då egnahemmet försålts med vinst och
+              endast i den mån köpeskillingen Ööverstigit senast åsatt taxeringsvärde
+              samt i intet fall, om det räntefria stående lånet innehafts mer
+              än tio år;
+            </seg>
+          </u>
           <note n="841821bb">
             5) att räntegarantien skulle upphöra, då den tidigare fastställda
             giltighetstiden å tio år utgått;
@@ -4478,6 +4408,11 @@
             fr. o. m. den 1 september 1958 förräntas efter en räntesats av
             6 Yo;
           </note>
+          <u who="ake_larsson_fee83f" xml:id="i-302c0fb7c88e57cd-9" prev="i-302c0fb7c88e57cd-0" n="302c0fb7">
+            <seg n="f203f958">
+              10) alt familjebostadsbidrag skulle ut-
+            </seg>
+          </u>
           <pb n="39" facs="https://betalab.kb.se/prot-1958-b-fk--3/prot_1958_b_fk__3-039.jp2/_view"/>
           <note n="5d963d7c">
             40 Nr B 3
@@ -4488,14 +4423,65 @@
           <note n="65c3bfd6">
             Anslag till främjande av bostadsförsörjningen m. m.
           </note>
+          <u who="ake_larsson_fee83f" xml:id="i-302c0fb7c88e57cd-10" prev="i-302c0fb7c88e57cd-0" n="302c0fb7">
+            <seg n="324483f3">
+              gå till alla ur standardsynpunkt godtagbara lägenheter oavsett
+              produktionsåret;
+            </seg>
+            <seg n="b84d73d7">
+              11) att minst en av revisorerna i fråga om s. k. allmännyttigt
+              bostadsföretag, som inte var aktiebolag, skulle vara auktoriserad
+              revisor, därest företaget förvaltade minst 500 bostadslägenheter;
+            </seg>
+            <seg n="a405a73d">
+              12) att preliminära beslut icke skulle meddelas angående lån
+              från Lånefonden för bostadsbyggande för budgetåret 1958/59;
+            </seg>
+            <seg n="2202cb13">
+              13) att till Lånefonden för bostadsbyggande skulle anvisas ett
+              investeringsanslag av 100 000 009 kronor;
+            </seg>
+          </u>
           <note n="2551043f">
             B. att, om förslaget under A. 1) ovan icke vunne riksdagens bifall,
           </note>
+          <u who="ake_larsson_fee83f" xml:id="i-302c0fb7c88e57cd-11" prev="i-302c0fb7c88e57cd-0" n="302c0fb7">
+            <seg n="e6d86331">
+              1) tertiärlån, som utlämnades tidigast den 1 september 1958,
+              skulle beviljas upp till 85 Z av den totala produktionskostnaden
+              mot enbart inteckningssäkerhet, oavsett förvaltningsformerna,
+              och upp till 97 70 för s. k. allmännyttiga företag mot kommunal
+              borgen och upp till 92 för kooperativa och enskilda företag mot
+              borgen av kommun, industriföretag eller annat företag av motsvarande
+              ekonomisk styrka samt, till den del de översteg 85 Io av belåningsvärdet,
+              amorteras på 25 år;
+            </seg>
+            <seg n="79a99bdf">
+              2) vid utgivande av statliga bostadslån en förvaltningsavgift
+              om 0,5 9 skulle uttagas i samband med lånets utbetalande;
+            </seg>
+            <seg n="917aa669">
+              C. 1) att medgiva, att preliminära beslut angående lån, som skulle
+              utgå från anslaget till räntefria lån till bostadsbyggande, finge
+              meddelas intill ett belopp av 60 000 000 kronor;
+            </seg>
+            <seg n="1a3c5c29">
+              2) att till Bostadsrabatter anvisa ett förslagsanslag av 162
+              000 000 kronor;
+            </seg>
+          </u>
           <note n="3bf47da1">
             3) att för budgetåret 1958/59 anvisa å driftbudgeten under femte
             huvudtiteln till Kapitalmedelsförluster och ränteeftergifter å
             vissa bostadsbyggnadslån ett förslagsanslag av 140 000 000 kronor;
           </note>
+          <u who="ake_larsson_fee83f" xml:id="i-302c0fb7c88e57cd-12" prev="i-302c0fb7c88e57cd-0" n="302c0fb7">
+            <seg n="9f704955">
+              4) att å kapitalbudgeten under fonden för låneunderstöd till
+              Räntefria lån till bostadsbyggande anvisa ett investeringsanslag
+              av 115 000 000 kronor; samt
+            </seg>
+          </u>
           <note n="4e6a4d43">
             D. att i övrigt beakta vad i motsvarande motioner vid årets förra
             riksdag anförts.
@@ -4518,6 +4504,13 @@
           <note n="c74727e3">
             medgiva, att under budgetåret 1958/59
           </note>
+          <u who="ake_larsson_fee83f" xml:id="i-302c0fb7c88e57cd-13" prev="i-302c0fb7c88e57cd-0" n="302c0fb7">
+            <seg n="d9cc1f53">
+              dels preliminära beslut angående lån, som skulle utgå från anslaget
+              till räntefria lån till bostadsbyggande, finge meddelas intill
+              ett belopp av 140 000 000 kronor,
+            </seg>
+          </u>
           <note n="aaae7be5">
             dels beslut om bidrag till inrättande av pensionärshem finge
             meddelas intill ett belopp av 10 000 000 kronor,
@@ -4525,10 +4518,26 @@
           <note n="59b389c7">
             dels för budgetåret 1958/59 anvisa
           </note>
+          <u who="ake_larsson_fee83f" xml:id="i-302c0fb7c88e57cd-14" prev="i-302c0fb7c88e57cd-0" n="302c0fb7">
+            <seg n="734da1be">
+              till Bidrag till viss bostadsförbättringsverksamhet ett reservationsanslag
+              av 30 000 000 kronor,
+            </seg>
+          </u>
           <note n="525e4c7b">
             till Bidrag till inrättande av pensionärshem ett reservationsanslag
             av 15 000 000 kronor,
           </note>
+          <u who="ake_larsson_fee83f" xml:id="i-302c0fb7c88e57cd-15" prev="i-302c0fb7c88e57cd-0" n="302c0fb7">
+            <seg n="e91740ee">
+              till Lånefonden för bostadsbyggande 680 000 000 kronor,
+            </seg>
+            <seg n="28e4162b">
+              å kapitalbudgeten under fonden för låneunderstöd till Räntefria
+              lån till bostadsbyggande ett investeringsanslag av 190 000 000
+              kronor.
+            </seg>
+          </u>
           <note n="81959929">
             Utskottet hade i det nu föredragna utlåtandet under åberopande
             av vad däri anförts hemställt, att riksdagen måtte
@@ -4603,6 +4612,11 @@
             I: B 157 och II: B 138, såvitt nu vore i fråga, godkänna vad utskottet
             anfört;
           </note>
+          <u who="ake_larsson_fee83f" xml:id="i-302c0fb7c88e57cd-16" prev="i-302c0fb7c88e57cd-0" n="302c0fb7">
+            <seg n="98d5dac4">
+              XII. beträffande statligt lån till förvärv
+            </seg>
+          </u>
           <note n="d64b2774">
             Nr B 3 41
           </note>
@@ -4750,6 +4764,13 @@
             budgetåret 1958/59 under statens utlåningsfonder anvisa ett investeringsanslag
             av 600 000 000 kronor;
           </note>
+          <u who="ake_larsson_fee83f" xml:id="i-302c0fb7c88e57cd-17" prev="i-302c0fb7c88e57cd-0" n="302c0fb7">
+            <seg n="703985f4">
+              XXXIV. till Lånefonden för maskinanskaffning inom byggnadsindustrien
+              för budgetåret 1958/59 under statens utlåningsfonder anvisa ett
+              investeringsanslag av 100 kronor;
+            </seg>
+          </u>
           <note n="f4caa4e4">
             XXXV. med bifall till Kungl. Maj:ts förslag ävensom med avslag
             å motionerna I:B 157 och II:B 138, I:B 73 och II: B 103 samt II:
@@ -4769,6 +4790,11 @@
             XXXVII. avslå i motionerna I:B 73 och II: B 103 framställt yrkande
             om uttagande av en särskild låneavgift;
           </note>
+          <u who="ake_larsson_fee83f" xml:id="i-302c0fb7c88e57cd-18" prev="i-302c0fb7c88e57cd-0" n="302c0fb7">
+            <seg n="0a4d41e2">
+              XXXVIII. godkänna under punkten in-
+            </seg>
+          </u>
           <pb n="42" facs="https://betalab.kb.se/prot-1958-b-fk--3/prot_1958_b_fk__3-042.jp2/_view"/>
           <note type="date" n="af1e8ca4">
             Onsdagen den 16 juli 1958
@@ -4792,6 +4818,16 @@
           <note n="b2f6eea6">
             XAXXXI. under femte huvudtiteln för budgetåret 1958/59 anvisa
           </note>
+          <u who="ake_larsson_fee83f" xml:id="i-302c0fb7c88e57cd-19" prev="i-302c0fb7c88e57cd-0" n="302c0fb7">
+            <seg n="71dac854">
+              1) till Bostadsstyrelsen: Avlöningar ett förslagsanslag av 47502
+              700 kronor;
+            </seg>
+            <seg n="3d115641">
+              2) till Bostadsstyrelsen: Omkostnader ett förslagsanslag av 673
+              500 kronor;
+            </seg>
+          </u>
           <note n="ce03228c">
             3) till Länsbostadsnämnderna: Avlö-
           </note>
@@ -4799,6 +4835,11 @@
             ningar ett förslagsanslag av 4072 000 kronor; 4) till Länsbostadsnämnderna:
             Om-
           </note>
+          <u who="ake_larsson_fee83f" xml:id="i-302c0fb7c88e57cd-20" prev="i-302c0fb7c88e57cd-0" n="302c0fb7">
+            <seg n="de542fad">
+              kostnader ett förslagsanslag av 603 000 kronor;
+            </seg>
+          </u>
           <note n="c1026216">
             XXXXII. besluta, att i förevarande sammanhang behandlade motioner,
             till den del de icke blivit under punkterna L—XXXXI. särskilt
@@ -4807,6 +4848,11 @@
           <note n="3eb86134">
             Reservationer hade anförts
           </note>
+          <u who="ake_larsson_fee83f" xml:id="i-302c0fb7c88e57cd-21" prev="i-302c0fb7c88e57cd-0" n="302c0fb7">
+            <seg n="998371ba">
+              1) beträffande bostadsbyggandets storlek och inriktning
+            </seg>
+          </u>
           <note n="d815f081">
             a) av herrar Ragnar Bergh, Skoglund i Doverstorp, Nilsson i Göingegården
             och Cassel, vilka ansett, att utskottets yttrande bort i viss
@@ -4849,6 +4895,11 @@
             i skrivelse till Kungl. Maj:t giva till känna vad reservanterna
             anfört;
           </note>
+          <u who="ake_larsson_fee83f" xml:id="i-302c0fb7c88e57cd-22" prev="i-302c0fb7c88e57cd-0" n="302c0fb7">
+            <seg n="ac2bcf90">
+              2) beträffande införande av ett kreditgarantisystem på bostadsområdet
+            </seg>
+          </u>
           <note n="4fd726eb">
             a) av herrar Ragnar Bergh, Skoglund i Doverstorp, Nilsson i Göingegården
             och Cassel, vilka ansett, att utskottets yttrande i denna del
@@ -4909,6 +4960,11 @@
             bägge motioner såvitt nu vore i fråga, i skrivelse till Kungl.
             Maj:t giva till känna vad reservanterna anfört;
           </note>
+          <u who="ake_larsson_fee83f" xml:id="i-302c0fb7c88e57cd-23" prev="i-302c0fb7c88e57cd-0" n="302c0fb7">
+            <seg n="bcf18f0c">
+              4) beträffande avveckling av de generella subventionerna
+            </seg>
+          </u>
           <note n="d68654d8">
             a) av herrar Ragnar Bergh, Skoglund i Doverstorp, Nilsson i Göingegården
             och Cassel, vilka ansett, att utskottets yttrande i förevarande
@@ -5021,6 +5077,11 @@
             II: B 20, samtliga motioner såvitt nu vore i fråga, i skrivelse
             till Kungl. Maj:t giva till känna vad reservanterna anfört;
           </note>
+          <u who="ake_larsson_fee83f" xml:id="i-302c0fb7c88e57cd-24" prev="i-302c0fb7c88e57cd-0" n="302c0fb7">
+            <seg n="aeb94105">
+              ortsdifferentierade
+            </seg>
+          </u>
           <note n="12347cb4">
             b) av herrar Ohlon, Sundelin och Jacobsson, fröken Elmén, herr
             Gustafsson 1 Skellefteå samt fröken Vinge, vilka ansett, att utskottets
@@ -5032,6 +5093,11 @@
             i skrivelse till Kungl. Maj:t giva till känna vad reservanterna
             anfört;
           </note>
+          <u who="ake_larsson_fee83f" xml:id="i-302c0fb7c88e57cd-25" prev="i-302c0fb7c88e57cd-0" n="302c0fb7">
+            <seg n="86592b56">
+              12) beträffande räntesatsen för tertiärlån
+            </seg>
+          </u>
           <note n="daf5437c">
             a) av herrar Ragnar Bergh, Skoglund i Doverstorp, Nilsson i Göingegården
             och Cassel, vilka ansett, att utskottets yttrande i angivna del
@@ -5087,6 +5153,11 @@
             II: B 20, såvitt nu vore i fråga, i skrivelse till Kungl. Maj:t
             giva till känna vad reservanterna anfört;
           </note>
+          <u who="ake_larsson_fee83f" xml:id="i-302c0fb7c88e57cd-26" prev="i-302c0fb7c88e57cd-0" n="302c0fb7">
+            <seg n="6e1fdc15">
+              14) gräns
+            </seg>
+          </u>
           <note n="1679fd45">
             a) av herrar Ragnar Bergh, Skoglund i Doverstorp, Nilsson i Göingegården
             och Cassel, vilka ansett, att utskottets yttrande i denna del
@@ -5097,6 +5168,11 @@
             II: B 138 ävensom med bifall till motionerna I: B 73 och II: B
             103, samtliga
           </note>
+          <u who="ake_larsson_fee83f" xml:id="i-302c0fb7c88e57cd-27" prev="i-302c0fb7c88e57cd-0" n="302c0fb7">
+            <seg n="c4fd81fd">
+              beträffande tertiärlånets övre
+            </seg>
+          </u>
           <note n="9eaf6646">
             motioner såvitt nu vore i fråga, i skrivelse till Kungl. Maj:t
             giva till känna vad reservanterna anfört;
@@ -5123,6 +5199,11 @@
             nu vore i fråga, i skrivelse till Kungl. Maj:t giva till känna
             vad reservanterna anfört;
           </note>
+          <u who="ake_larsson_fee83f" xml:id="i-302c0fb7c88e57cd-28" prev="i-302c0fb7c88e57cd-0" n="302c0fb7">
+            <seg n="2ddecb98">
+              15) beträffande den räntefria stående delen av egnahemslån
+            </seg>
+          </u>
           <note n="a9d06b9a">
             a) av herrar Ragnar Bergh, Skoglund i Doverstorp, Nilsson i Göingegården
             och Cassel, vilka ansett, att utskottets yttrande bort hava den
@@ -5159,6 +5240,11 @@
             motioner såvitt nu vore i fråga, i skrivelse till Kungl. Maj:t
             giva till känna vad reservanterna anfört;
           </note>
+          <u who="ake_larsson_fee83f" xml:id="i-302c0fb7c88e57cd-29" prev="i-302c0fb7c88e57cd-0" n="302c0fb7">
+            <seg n="6e5232e3">
+              16) beträffande räntesatsen för egnahemslån
+            </seg>
+          </u>
           <note n="7f0f313b">
             a) av herrar Ragnar Bergh, Skoglund i Doverstorp, Nilsson i Göingegården
             och Cassel, vilka ansett, att utskottets yttrande bort i angiven
@@ -5286,6 +5372,12 @@
             till Bostadsrabatter för budgetåret 1958/59 under femte huvudtiteln
             anvisa ett förslagsanslag av 155 000 000 kronor;
           </note>
+          <u who="ake_larsson_fee83f" xml:id="i-302c0fb7c88e57cd-30" prev="i-302c0fb7c88e57cd-0" n="302c0fb7">
+            <seg n="9ed5fa09">
+              22) beträffande preliminära beslut angående lån som skulle utgå
+              från lånefonden för bostadsbyggande
+            </seg>
+          </u>
           <note n="ab458e95">
             a) av herrar Ragnar Bergh, Skoglund i Doverstorp, Nilsson i Göingegården
             och Cassel, vilka ansett, att utskottets yttrande i denna del
@@ -5310,6 +5402,12 @@
             intill ett belopp av 675 000 000 kronor, varav 390 000 000 kronor
             finge disponeras för belåning av egnahem;
           </note>
+          <u who="ake_larsson_fee83f" xml:id="i-302c0fb7c88e57cd-31" prev="i-302c0fb7c88e57cd-0" n="302c0fb7">
+            <seg n="5b071d69">
+              23) beträffande preliminära beslut angående lån, som skulle utgå
+              från anslaget till räntefria lån till bostadsbyggande,
+            </seg>
+          </u>
           <pb n="48" facs="https://betalab.kb.se/prot-1958-b-fk--3/prot_1958_b_fk__3-048.jp2/_view"/>
           <note type="date" n="af1e8ca4">
             Onsdagen den 16 juli 1958
@@ -5353,6 +5451,12 @@
             I:B 73 och II: B 103, samtliga motioner såvitt nu vore i fråga,
             till Lånefonden
           </note>
+          <u who="ake_larsson_fee83f" xml:id="i-302c0fb7c88e57cd-32" prev="i-302c0fb7c88e57cd-0" n="302c0fb7">
+            <seg n="2f4ed86c">
+              för bostadsbyggande för budgetåret 1958/59 under statens utlåningsfonder
+              anvisa ett investeringsanslag
+            </seg>
+          </u>
           <note n="d6619ded">
             av 100 000 000 kronor;
           </note>
@@ -5385,7 +5489,7 @@
           <note type="speaker" n="22a18e44">
             Herr MANNERSKANTZ (h):
           </note>
-          <u who="axel_mannerskantz_48b900" xml:id="i-54ad753c7e2bfeaa-0" next="i-a6e0c6640c833a5f-0" n="6bb5b173">
+          <u who="axel_mannerskantz_48b900" xml:id="i-6bb5b173cd23ced7-1" next="i-6bb5b173cd23ced7-8" n="6bb5b173">
             <seg n="32adadce">
               Herr talman! Det är utan tvivel en stor och betydelsefull fråga
               att se till att människorna har goda bostäder att bo i. Man kan
@@ -5419,7 +5523,7 @@
           <note n="65c3bfd6">
             Anslag till främjande av bostadsförsörjningen m. m.
           </note>
-          <u who="axel_mannerskantz_48b900" xml:id="i-a6e0c6640c833a5f-0" prev="i-54ad753c7e2bfeaa-0" n="6bb5b173">
+          <u who="axel_mannerskantz_48b900" xml:id="i-6bb5b173cd23ced7-2" prev="i-6bb5b173cd23ced7-1" n="6bb5b173">
             <seg n="ecf372a8">
               att kostnaderna vid bostadsbyggandet stigit mycket och stigit
               mer än de genomsnittliga prishöjningarna och levnadskostnaderna
@@ -5502,6 +5606,15 @@
               i allmän ägo, under det att vi som har en annan åskådning menar
               att bostadsbyggandet i större utsträckning
             </seg>
+          </u>
+          <pb n="50" facs="https://betalab.kb.se/prot-1958-b-fk--3/prot_1958_b_fk__3-050.jp2/_view"/>
+          <note type="date" n="af1e8ca4">
+            Onsdagen den 16 juli 1958
+          </note>
+          <note n="a330e956">
+            Anslag till
+          </note>
+          <u who="axel_mannerskantz_48b900" xml:id="i-6bb5b173cd23ced7-3" prev="i-6bb5b173cd23ced7-1" n="6bb5b173">
             <seg n="bd25bb0f">
               än som nu skett under så många år ånyo bör skötas om av den enskilda
               företagsamheten, som på så många andra områden har visat sig kunna
@@ -5542,6 +5655,14 @@
               enighet, men när högern lägger fram konkreta förslag och anger
               den takt, i vilken de generella
             </seg>
+          </u>
+          <note n="ae7c11fb">
+            Nr B 3 51
+          </note>
+          <note n="3f8936ad">
+            främjande av bostadsförsörjningen m. m.
+          </note>
+          <u who="axel_mannerskantz_48b900" xml:id="i-6bb5b173cd23ced7-4" prev="i-6bb5b173cd23ced7-1" n="6bb5b173">
             <seg n="67bdd275">
               subventionerna skall avvecklas, så är folkpartiet och centerpartiet
               inte beredda att dra konsekvenserna av sin allmänna inställning,
@@ -5581,6 +5702,18 @@
               till dem som bygger husen. Det nuvarande systemet innnebär därför
               en onödig och
             </seg>
+          </u>
+          <pb n="51" facs="https://betalab.kb.se/prot-1958-b-fk--3/prot_1958_b_fk__3-051.jp2/_view"/>
+          <note n="6542bda0">
+            52 Nr B 3
+          </note>
+          <note type="date" n="af1e8ca4">
+            Onsdagen den 16 juli 1958
+          </note>
+          <note n="65c3bfd6">
+            Anslag till främjande av bostadsförsörjningen m. m.
+          </note>
+          <u who="axel_mannerskantz_48b900" xml:id="i-6bb5b173cd23ced7-5" prev="i-6bb5b173cd23ced7-1" n="6bb5b173">
             <seg n="1a08ced3">
               fördyrande omgång. Även finansministern börjar — om jag inte
               fattat honom fel — komma fram till den åsikten, att det system
@@ -5661,6 +5794,18 @@
               de enskilda. Men tanken är att man skall gå emot större jämställdhet,
               så att även de s. k. allmännyttiga och kooperativa före-
             </seg>
+          </u>
+          <pb n="52" facs="https://betalab.kb.se/prot-1958-b-fk--3/prot_1958_b_fk__3-052.jp2/_view"/>
+          <note type="date" n="af1e8ca4">
+            Onsdagen den 16 juli 1958
+          </note>
+          <note n="f8f36d9b">
+            Nr B 3 53
+          </note>
+          <note n="65c3bfd6">
+            Anslag till främjande av bostadsförsörjningen m. m.
+          </note>
+          <u who="axel_mannerskantz_48b900" xml:id="i-6bb5b173cd23ced7-6" prev="i-6bb5b173cd23ced7-1" n="6bb5b173">
             <seg n="c1779bd9">
               tagen får samma villkor som de enskilda.
             </seg>
@@ -5744,6 +5889,18 @@
               förstärka hyresnivåskillnaderna genom att låta dem gälla längre
               tid. De hus, som byggts ti-
             </seg>
+          </u>
+          <pb n="53" facs="https://betalab.kb.se/prot-1958-b-fk--3/prot_1958_b_fk__3-053.jp2/_view"/>
+          <note n="7a57dd8b">
+            54 Nr B 3
+          </note>
+          <note type="date" n="af1e8ca4">
+            Onsdagen den 16 juli 1958
+          </note>
+          <note n="65c3bfd6">
+            Anslag till främjande av bostadsförsörjningen m. m.
+          </note>
+          <u who="axel_mannerskantz_48b900" xml:id="i-6bb5b173cd23ced7-7" prev="i-6bb5b173cd23ced7-1" n="6bb5b173">
             <seg n="d44b6412">
               digare, var betydligt billigare, men det finns ingen anledning
               att i oändlighet bibehålla de tidigare lämnade räntegarantierna.
@@ -5788,6 +5945,16 @@
               följa med i de reservationer, som finns fogade till utskottsutlåtandet,
               så framgår väl resten där.
             </seg>
+          </u>
+          <note n="174ccaa2">
+            Jag ber alltså, herr talman, att få yrka bifall till reservationerna
+            nr 1 a, 2 a, 4 a,
+          </note>
+          <note n="26a961f9">
+            5, 6, 7, 10, 11 a, 12 a, 14 a, 15 a, 16 a, 17 a, 19, 20, 21,
+            22 a, 23 a, 24, 25 och 26.
+          </note>
+          <u who="axel_mannerskantz_48b900" xml:id="i-6bb5b173cd23ced7-8" prev="i-6bb5b173cd23ced7-1" n="6bb5b173">
             <seg n="3ade1d53">
               Sedan vill jag meddela, att jag för min del kommer att begära
               votering endast på vissa av punkterna, nämligen de som antingen
@@ -5802,61 +5969,10 @@
               står i dessa reservationer.
             </seg>
           </u>
-          <pb n="50" facs="https://betalab.kb.se/prot-1958-b-fk--3/prot_1958_b_fk__3-050.jp2/_view"/>
-          <note type="date" n="af1e8ca4">
-            Onsdagen den 16 juli 1958
-          </note>
-          <note n="a330e956">
-            Anslag till
-          </note>
-          <note n="ae7c11fb">
-            Nr B 3 51
-          </note>
-          <note n="3f8936ad">
-            främjande av bostadsförsörjningen m. m.
-          </note>
-          <pb n="51" facs="https://betalab.kb.se/prot-1958-b-fk--3/prot_1958_b_fk__3-051.jp2/_view"/>
-          <note n="6542bda0">
-            52 Nr B 3
-          </note>
-          <note type="date" n="af1e8ca4">
-            Onsdagen den 16 juli 1958
-          </note>
-          <note n="65c3bfd6">
-            Anslag till främjande av bostadsförsörjningen m. m.
-          </note>
-          <pb n="52" facs="https://betalab.kb.se/prot-1958-b-fk--3/prot_1958_b_fk__3-052.jp2/_view"/>
-          <note type="date" n="af1e8ca4">
-            Onsdagen den 16 juli 1958
-          </note>
-          <note n="f8f36d9b">
-            Nr B 3 53
-          </note>
-          <note n="65c3bfd6">
-            Anslag till främjande av bostadsförsörjningen m. m.
-          </note>
-          <pb n="53" facs="https://betalab.kb.se/prot-1958-b-fk--3/prot_1958_b_fk__3-053.jp2/_view"/>
-          <note n="7a57dd8b">
-            54 Nr B 3
-          </note>
-          <note type="date" n="af1e8ca4">
-            Onsdagen den 16 juli 1958
-          </note>
-          <note n="65c3bfd6">
-            Anslag till främjande av bostadsförsörjningen m. m.
-          </note>
-          <note n="174ccaa2">
-            Jag ber alltså, herr talman, att få yrka bifall till reservationerna
-            nr 1 a, 2 a, 4 a,
-          </note>
-          <note n="26a961f9">
-            5, 6, 7, 10, 11 a, 12 a, 14 a, 15 a, 16 a, 17 a, 19, 20, 21,
-            22 a, 23 a, 24, 25 och 26.
-          </note>
           <note type="speaker" n="bfe40977">
             Herr JACOBSSON (fp):
           </note>
-          <u who="per_jacobsson_d94319" xml:id="i-42601f35fe50555b-0" next="i-50e24c9508ac19b0-0" n="9250610d">
+          <u who="per_jacobsson_d94319" xml:id="i-9250610dbaf9c0c4-0" next="i-9250610dbaf9c0c4-4" n="9250610d">
             <seg n="59633322">
               Herr talman! Till det föreliggande utskottsutlåtandet har fogats
               ett flertal reservationer, där vi intar en i förhållande till
@@ -5887,7 +6003,7 @@
           <note n="a330e956">
             Anslag till
           </note>
-          <u who="per_jacobsson_d94319" xml:id="i-50e24c9508ac19b0-0" prev="i-42601f35fe50555b-0" n="9250610d">
+          <u who="per_jacobsson_d94319" xml:id="i-9250610dbaf9c0c4-1" prev="i-9250610dbaf9c0c4-0" n="9250610d">
             <seg n="ce7c4d04">
               ningarna för att ett sådant program skall kunna genomföras anser
               vi också alltjämt vara, att ett effektivt bostadssparande främjas
@@ -5931,6 +6047,14 @@
               därför realistiskt att bedöma utvecklingen så, att småhusbebyggelsen
               i
             </seg>
+          </u>
+          <note n="91e3b155">
+            Nr B 3 55
+          </note>
+          <note n="3f8936ad">
+            främjande av bostadsförsörjningen m. m.
+          </note>
+          <u who="per_jacobsson_d94319" xml:id="i-9250610dbaf9c0c4-2" prev="i-9250610dbaf9c0c4-0" n="9250610d">
             <seg n="5f42759b">
               fortsättningen måste få en större andel av den totala bostadsproduktionen.
               Den ambition man ibland tycker sig spåra i mindre städer och samhällen,
@@ -5968,6 +6092,18 @@
               utnyttjas. Med de kreditrestriktioner som under lång tid varit
               gällande har dock
             </seg>
+          </u>
+          <pb n="55" facs="https://betalab.kb.se/prot-1958-b-fk--3/prot_1958_b_fk__3-055.jp2/_view"/>
+          <note n="e946efb7">
+            56 Nr B 3
+          </note>
+          <note type="date" n="af1e8ca4">
+            Onsdagen den 16 juli 1958
+          </note>
+          <note n="65c3bfd6">
+            Anslag till främjande av bostadsförsörjningen m. m.
+          </note>
+          <u who="per_jacobsson_d94319" xml:id="i-9250610dbaf9c0c4-3" prev="i-9250610dbaf9c0c4-0" n="9250610d">
             <seg n="939dede3">
               möjligheten för den som är i huvudsak obemedlad att förvärva
               ett sådant egnahem varit så gott som stängd.
@@ -6053,6 +6189,15 @@
               Jag framhöll inledningsvis, att bostadsbyggandet visar en betydande
               om-
             </seg>
+          </u>
+          <pb n="56" facs="https://betalab.kb.se/prot-1958-b-fk--3/prot_1958_b_fk__3-056.jp2/_view"/>
+          <note type="date" n="af1e8ca4">
+            Onsdagen den 16 juli 1958
+          </note>
+          <note n="a330e956">
+            Anslag till
+          </note>
+          <u who="per_jacobsson_d94319" xml:id="i-9250610dbaf9c0c4-4" prev="i-9250610dbaf9c0c4-0" n="9250610d">
             <seg n="a126d370">
               fattning under de senaste åren. Det måste bedömas som en i hög
               grad angelägen uppgift, att bostadsproduktionen om möjligt kan
@@ -6067,29 +6212,6 @@
               anslagsramen.
             </seg>
           </u>
-          <note n="91e3b155">
-            Nr B 3 55
-          </note>
-          <note n="3f8936ad">
-            främjande av bostadsförsörjningen m. m.
-          </note>
-          <pb n="55" facs="https://betalab.kb.se/prot-1958-b-fk--3/prot_1958_b_fk__3-055.jp2/_view"/>
-          <note n="e946efb7">
-            56 Nr B 3
-          </note>
-          <note type="date" n="af1e8ca4">
-            Onsdagen den 16 juli 1958
-          </note>
-          <note n="65c3bfd6">
-            Anslag till främjande av bostadsförsörjningen m. m.
-          </note>
-          <pb n="56" facs="https://betalab.kb.se/prot-1958-b-fk--3/prot_1958_b_fk__3-056.jp2/_view"/>
-          <note type="date" n="af1e8ca4">
-            Onsdagen den 16 juli 1958
-          </note>
-          <note n="a330e956">
-            Anslag till
-          </note>
           <note n="c20cbded">
             Herr talman! Jag ber att få yrka bifall till samtliga de reservationer,
             som i anslutning till detta utskottsutlåtande avgivits av herr
@@ -6098,7 +6220,7 @@
           <note type="speaker" n="896808a6">
             Herr ANDERSSON, ALVAR, (cp):
           </note>
-          <u who="torsten_andersson_214d82" xml:id="i-4d2be61dfca3fc29-0" next="i-80ac6c3b45fcef40-0" n="e7864e3b">
+          <u who="torsten_andersson_214d82" xml:id="i-fae40246912944e8-1" next="i-fae40246912944e8-5" n="e7864e3b">
             <seg n="952c8f5c">
               Herr talman! Den proposition och det utskottsutlåtande, som är
               föremål för diskussion, tillhör något av det mest invecklade vi
@@ -6131,7 +6253,7 @@
           <note n="3f8936ad">
             främjande av bostadsförsörjningen m. m.
           </note>
-          <u who="torsten_andersson_214d82" xml:id="i-80ac6c3b45fcef40-0" prev="i-4d2be61dfca3fc29-0" n="e7864e3b">
+          <u who="torsten_andersson_214d82" xml:id="i-fae40246912944e8-2" prev="i-fae40246912944e8-1" n="e7864e3b">
             <seg n="bc724507">
               mycket viktigt ur många synpunkter. Det befrämjar människors
               sparande — må vara att sparandet är förenat med viss tvångsmässighet,
@@ -6170,6 +6292,18 @@
               över att myndigheterna vägrar avstyckning av tomter, som väl skulle
               lämpa sig för bebyggelse, och så-
             </seg>
+          </u>
+          <pb n="57" facs="https://betalab.kb.se/prot-1958-b-fk--3/prot_1958_b_fk__3-057.jp2/_view"/>
+          <note n="448d866a">
+            58 Nr B 3
+          </note>
+          <note type="date" n="af1e8ca4">
+            Onsdagen den 16 juli 1958
+          </note>
+          <note n="65c3bfd6">
+            Anslag till främjande av bostadsförsörjningen m. m.
+          </note>
+          <u who="torsten_andersson_214d82" xml:id="i-fae40246912944e8-3" prev="i-fae40246912944e8-1" n="e7864e3b">
             <seg n="069b0aa7">
               lunda faktiskt hindrar den bebyggelse som människorna på orten
               önskar. Riksdagen har här gjort uttalanden, som emellertid föga
@@ -6249,6 +6383,18 @@
               någon här i huset skulle komma på den idén att i en motion föreslå,
               att människorna skulle
             </seg>
+          </u>
+          <pb n="58" facs="https://betalab.kb.se/prot-1958-b-fk--3/prot_1958_b_fk__3-058.jp2/_view"/>
+          <note type="date" n="af1e8ca4">
+            Onsdagen den 16 juli 1958
+          </note>
+          <note n="1e397922">
+            Nr B 3 59
+          </note>
+          <note n="65c3bfd6">
+            Anslag till främjande av bostadsförsörjningen m. m.
+          </note>
+          <u who="torsten_andersson_214d82" xml:id="i-fae40246912944e8-4" prev="i-fae40246912944e8-1" n="e7864e3b">
             <seg n="68815400">
               få subventioner för att skaffa sig en televisionsapparat eller
               en bil för helt och hållet privat bruk, skulle jag tro att en
@@ -6327,6 +6473,18 @@
               än för den äldre fastigheten. Det är något skevt i detta. Vi har
               velat få en översyn över denna fråga, och jag tror
             </seg>
+          </u>
+          <pb n="59" facs="https://betalab.kb.se/prot-1958-b-fk--3/prot_1958_b_fk__3-059.jp2/_view"/>
+          <note n="d029d1ad">
+            60 Nr B 3
+          </note>
+          <note type="date" n="af1e8ca4">
+            Onsdagen den 16 juli 1958
+          </note>
+          <note n="65c3bfd6">
+            Anslag till främjande av bostadsförsörjningen m. m.
+          </note>
+          <u who="torsten_andersson_214d82" xml:id="i-fae40246912944e8-5" prev="i-fae40246912944e8-1" n="e7864e3b">
             <seg n="a9aed7be">
               att det skulle vara klokt att göra en sådan.
             </seg>
@@ -6381,36 +6539,6 @@
               detta stora problem.
             </seg>
           </u>
-          <pb n="57" facs="https://betalab.kb.se/prot-1958-b-fk--3/prot_1958_b_fk__3-057.jp2/_view"/>
-          <note n="448d866a">
-            58 Nr B 3
-          </note>
-          <note type="date" n="af1e8ca4">
-            Onsdagen den 16 juli 1958
-          </note>
-          <note n="65c3bfd6">
-            Anslag till främjande av bostadsförsörjningen m. m.
-          </note>
-          <pb n="58" facs="https://betalab.kb.se/prot-1958-b-fk--3/prot_1958_b_fk__3-058.jp2/_view"/>
-          <note type="date" n="af1e8ca4">
-            Onsdagen den 16 juli 1958
-          </note>
-          <note n="1e397922">
-            Nr B 3 59
-          </note>
-          <note n="65c3bfd6">
-            Anslag till främjande av bostadsförsörjningen m. m.
-          </note>
-          <pb n="59" facs="https://betalab.kb.se/prot-1958-b-fk--3/prot_1958_b_fk__3-059.jp2/_view"/>
-          <note n="d029d1ad">
-            60 Nr B 3
-          </note>
-          <note type="date" n="af1e8ca4">
-            Onsdagen den 16 juli 1958
-          </note>
-          <note n="65c3bfd6">
-            Anslag till främjande av bostadsförsörjningen m. m.
-          </note>
           <note n="ad6fdbad">
             Herr talman! Jag ber med detta att få yrka bifall till följande
             reservationer: 1 b, 3 a, 4 c, 8, 9, 12 b, 14 c, 16 b, 17 b, 22
@@ -6419,7 +6547,7 @@
           <note type="speaker" n="cf3766e9">
             Herr NORLING (k):
           </note>
-          <u who="anton_norling_f07fc9" xml:id="i-268c4775527de3a3-0" next="i-341d0553a1b70783-0" n="eeed90c7">
+          <u who="anton_norling_f07fc9" xml:id="i-eeed90c7626d4de3-0" next="i-eeed90c7626d4de3-3" n="eeed90c7">
             <seg n="dc3d8c3a">
               Herr talman! även om bostadsbyggandet under år 1957 ökade till
               det högsta antal bostäder som byggts sedan 1947, så har eftersläpningen
@@ -6452,7 +6580,7 @@
           <note n="a330e956">
             Anslag till
           </note>
-          <u who="anton_norling_f07fc9" xml:id="i-341d0553a1b70783-0" prev="i-268c4775527de3a3-0" n="eeed90c7">
+          <u who="anton_norling_f07fc9" xml:id="i-eeed90c7626d4de3-1" prev="i-eeed90c7626d4de3-0" n="eeed90c7">
             <seg n="6c8fa3e6">
               ter har bostadsläget försämrats under senare år, för det första
               på grund av det höga ränteläget, som gjort att hyrorna stigit
@@ -6498,6 +6626,14 @@
               Även i årets proposition föreslås åtgärder som innebär försämringar
               jäm-
             </seg>
+          </u>
+          <note n="32ec7453">
+            Nr B 3 61
+          </note>
+          <note n="3f8936ad">
+            främjande av bostadsförsörjningen m. m.
+          </note>
+          <u who="anton_norling_f07fc9" xml:id="i-eeed90c7626d4de3-2" prev="i-eeed90c7626d4de3-0" n="eeed90c7">
             <seg n="a69aa14d">
               fört med tidigare lånebestämmelser. En sådan åtgärd utgör enligt
               vår mening den ändring av lånebestämmelserna som föreslås beträffande
@@ -6538,6 +6674,18 @@
               att omfatta bostäder som byggts tidigare än den 1 juli 1946, om
               dessa bostäder fyller standardkraven,
             </seg>
+          </u>
+          <pb n="61" facs="https://betalab.kb.se/prot-1958-b-fk--3/prot_1958_b_fk__3-061.jp2/_view"/>
+          <note n="60099f62">
+            62 Nr B 3
+          </note>
+          <note type="date" n="af1e8ca4">
+            Onsdagen den 16 juli 1958
+          </note>
+          <note n="65c3bfd6">
+            Anslag till främjande av bostadsförsörjningen m. m.
+          </note>
+          <u who="anton_norling_f07fc9" xml:id="i-eeed90c7626d4de3-3" prev="i-eeed90c7626d4de3-0" n="eeed90c7">
             <seg n="b3413a0b">
               Under rubriken förbättringslån m. m. har avsevärda försämringar
               av nuvarande bestämmelser föreslagits i propositionen. Räntan
@@ -6565,26 +6713,10 @@
               till motionen i andra kammaren B 104.
             </seg>
           </u>
-          <note n="32ec7453">
-            Nr B 3 61
-          </note>
-          <note n="3f8936ad">
-            främjande av bostadsförsörjningen m. m.
-          </note>
-          <pb n="61" facs="https://betalab.kb.se/prot-1958-b-fk--3/prot_1958_b_fk__3-061.jp2/_view"/>
-          <note n="60099f62">
-            62 Nr B 3
-          </note>
-          <note type="date" n="af1e8ca4">
-            Onsdagen den 16 juli 1958
-          </note>
-          <note n="65c3bfd6">
-            Anslag till främjande av bostadsförsörjningen m. m.
-          </note>
           <note type="speaker" n="5cffbab8">
             Herr ELOFSSON, GUSTAF, (cp):
           </note>
-          <u who="gustaf_elofsson_1079e1" xml:id="i-94b1cc4f0195b5d0-0" next="i-ad3584cc3a57da9f-0" n="ae2e646f">
+          <u who="gustaf_elofsson_1079e1" xml:id="i-ae2e646f25e298f0-0" next="i-ae2e646f25e298f0-2" n="ae2e646f">
             <seg n="505f46e1">
               Herr talman! Ingen vill väl förneka att de åtgärder som vidtagits
               för bostadsbyggandet varit till mycket stort gagn. Samhällets
@@ -6654,7 +6786,7 @@
           <note n="65c3bfd6">
             Anslag till främjande av bostadsförsörjningen m. m.
           </note>
-          <u who="gustaf_elofsson_1079e1" xml:id="i-ad3584cc3a57da9f-0" prev="i-94b1cc4f0195b5d0-0" n="ae2e646f">
+          <u who="gustaf_elofsson_1079e1" xml:id="i-ae2e646f25e298f0-1" prev="i-ae2e646f25e298f0-0" n="ae2e646f">
             <seg n="5a04dabc">
               bekräftat, att det i mycket stor utsträckning är ogifta människor
               som söker bostad, inte på grund av att de skall gifta sig, utan
@@ -6732,6 +6864,18 @@
               ett system med behovsprövning skulle medföra ökade hyreskostnader.
               Jag kan inte förstå att det skall behöva bli nämnvärt höjda
             </seg>
+          </u>
+          <pb n="63" facs="https://betalab.kb.se/prot-1958-b-fk--3/prot_1958_b_fk__3-063.jp2/_view"/>
+          <note n="391c401e">
+            64 Nr B 3
+          </note>
+          <note type="date" n="af1e8ca4">
+            Onsdagen den 16 juli 1958
+          </note>
+          <note n="65c3bfd6">
+            Anslag till främjande av bostadsförsörjningen m. m.
+          </note>
+          <u who="gustaf_elofsson_1079e1" xml:id="i-ae2e646f25e298f0-2" prev="i-ae2e646f25e298f0-0" n="ae2e646f">
             <seg n="0eeba87a">
               kostnader om man avvecklar de generella subventionerna, under
               förutsättning att man håller en normal ränta. Jag tror inte att
@@ -6800,20 +6944,10 @@
               i det yrkande som herr Alvar Andersson ställde i sitt anförande.
             </seg>
           </u>
-          <pb n="63" facs="https://betalab.kb.se/prot-1958-b-fk--3/prot_1958_b_fk__3-063.jp2/_view"/>
-          <note n="391c401e">
-            64 Nr B 3
-          </note>
-          <note type="date" n="af1e8ca4">
-            Onsdagen den 16 juli 1958
-          </note>
-          <note n="65c3bfd6">
-            Anslag till främjande av bostadsförsörjningen m. m.
-          </note>
           <note type="speaker" n="a9fb4d3c">
             Herr BERGMAN (s):
           </note>
-          <u who="per_bergman_132698" xml:id="i-5d4275f1012c3eeb-0" next="i-0757c1f169035fce-0" n="5ef4af0a">
+          <u who="per_bergman_132698" xml:id="i-5ef4af0a5919aaf4-0" next="i-5ef4af0a5919aaf4-8" n="5ef4af0a">
             <seg n="206e2161">
               Herr talman! Jag tror att herr talmannen har all förståelse för
               — och att han därvidlag har kammaren med sig i sin bedömning —
@@ -6834,7 +6968,7 @@
           <note n="65c3bfd6">
             Anslag till främjande av bostadsförsörjningen m. m.
           </note>
-          <u who="per_bergman_132698" xml:id="i-0757c1f169035fce-0" prev="i-5d4275f1012c3eeb-0" n="5ef4af0a">
+          <u who="per_bergman_132698" xml:id="i-5ef4af0a5919aaf4-1" prev="i-5ef4af0a5919aaf4-0" n="5ef4af0a">
             <seg n="d9a796ed">
               originaltappning sedan. Vi har ju herr statsrådet och chefen
               för socialdepartementet här, och han brukar gå upp i debatten
@@ -6876,6 +7010,11 @@
               olika index, som registrerar kostnadsutvecklingen i samhället,
               d. v. s. byggnadskostnadsindex
             </seg>
+          </u>
+          <note n="11c9fc0d">
+            3 Första kammarens protokoll 1958. Nr B 3
+          </note>
+          <u who="per_bergman_132698" xml:id="i-5ef4af0a5919aaf4-2" prev="i-5ef4af0a5919aaf4-0" n="5ef4af0a">
             <seg n="67654daa">
               beträffande bostäderna, även om detta index inte ger fullt korrekt
               utslag. Jag tog även partiprisindex, som kanske är sämre, men
@@ -6914,6 +7053,18 @@
               också att lägenheterna är avsevärt mycket bättre och större nu.
               Räknar vi det i rumsenheter, får vi för 1939 siffran
             </seg>
+          </u>
+          <pb n="65" facs="https://betalab.kb.se/prot-1958-b-fk--3/prot_1958_b_fk__3-065.jp2/_view"/>
+          <note n="fd16a85a">
+            66 Nr B 3
+          </note>
+          <note type="date" n="af1e8ca4">
+            Onsdagen den 16 juli 1958
+          </note>
+          <note n="65c3bfd6">
+            Anslag till främjande av bostadsförsörjningen m. m.
+          </note>
+          <u who="per_bergman_132698" xml:id="i-5ef4af0a5919aaf4-3" prev="i-5ef4af0a5919aaf4-0" n="5ef4af0a">
             <seg n="96cc2152">
               180 000 och för 1957 siffran 230 000 rumsenheter. Hur man än
               mäter och väger, var det alltså inte mer under den tid då det
@@ -6992,6 +7143,18 @@
               gränser för belåning av bostadsfastigheter. Men den där visan
               skall väl
             </seg>
+          </u>
+          <pb n="66" facs="https://betalab.kb.se/prot-1958-b-fk--3/prot_1958_b_fk__3-066.jp2/_view"/>
+          <note type="date" n="af1e8ca4">
+            Onsdagen den 16 juli 1958
+          </note>
+          <note n="e1a61172">
+            Nr B 3 67
+          </note>
+          <note n="65c3bfd6">
+            Anslag till främjande av bostadsförsörjningen m. m.
+          </note>
+          <u who="per_bergman_132698" xml:id="i-5ef4af0a5919aaf4-4" prev="i-5ef4af0a5919aaf4-0" n="5ef4af0a">
             <seg n="cf71c8ed">
               dras, och vi får nog räkna med att det skall fortsätta länge.
               I det fallet har folkpartiet också varit med. Jag återkommer till
@@ -7074,6 +7237,18 @@
               av de statliga bostadslånen. Den extra amortering, som gjorts
               utöver den från början fastställda, skulle av en köpare kun-
             </seg>
+          </u>
+          <pb n="67" facs="https://betalab.kb.se/prot-1958-b-fk--3/prot_1958_b_fk__3-067.jp2/_view"/>
+          <note n="a5d79e53">
+            68 Nr B 3
+          </note>
+          <note type="date" n="af1e8ca4">
+            Onsdagen den 16 juli 1958
+          </note>
+          <note n="65c3bfd6">
+            Anslag till främjande av bostadsförsörjningen m. m.
+          </note>
+          <u who="per_bergman_132698" xml:id="i-5ef4af0a5919aaf4-5" prev="i-5ef4af0a5919aaf4-0" n="5ef4af0a">
             <seg n="62a8c65d">
               na få återlånas vid försäljning. Det möter ju inte alls några
               hinder att man gör en sådan amortering på bottenlånet, det har
@@ -7150,6 +7325,15 @@
               skall ske på bekostnad av flerfamiljshusen. Det är en väsentlig
               fråga. Men jag vill fästa kammarens uppmärksamhet på
             </seg>
+          </u>
+          <pb n="68" facs="https://betalab.kb.se/prot-1958-b-fk--3/prot_1958_b_fk__3-068.jp2/_view"/>
+          <note type="date" n="af1e8ca4">
+            Onsdagen den 16 juli 1958
+          </note>
+          <note n="a330e956">
+            Anslag till
+          </note>
+          <u who="per_bergman_132698" xml:id="i-5ef4af0a5919aaf4-6" prev="i-5ef4af0a5919aaf4-0" n="5ef4af0a">
             <seg n="789f3740">
               att om riksdagen biföll den reservationen, skulle det leda till,
               inte att det blev 2 000 flerfamiljslägenheter mindre, utan 5000
@@ -7191,6 +7375,14 @@
               låneansökan hade inkommit; 6 400 lägenheter på två och ett halv
               års tid är en oerhört låg siffra. Det har väl
             </seg>
+          </u>
+          <note n="7b487843">
+            Nr B 3 69
+          </note>
+          <note n="3f8936ad">
+            främjande av bostadsförsörjningen m. m.
+          </note>
+          <u who="per_bergman_132698" xml:id="i-5ef4af0a5919aaf4-7" prev="i-5ef4af0a5919aaf4-0" n="5ef4af0a">
             <seg n="4f2fcbd6">
               hänt litet under maj och juni och de sista veckorna, men inte
               är det av så avgörande betydelse som man skulle kunna hoppas och
@@ -7230,6 +7422,18 @@
               Med detta vill jag, herr talman, yrka bifall till utskottets
               hemställan på alla punkter.
             </seg>
+          </u>
+          <pb n="69" facs="https://betalab.kb.se/prot-1958-b-fk--3/prot_1958_b_fk__3-069.jp2/_view"/>
+          <note n="8b922d1f">
+            70 Nr B 3
+          </note>
+          <note type="date" n="af1e8ca4">
+            Onsdagen den 16 juli 1958
+          </note>
+          <note n="65c3bfd6">
+            Anslag till främjande av bostadsförsörjningen m. m.
+          </note>
+          <u who="per_bergman_132698" xml:id="i-5ef4af0a5919aaf4-8" prev="i-5ef4af0a5919aaf4-0" n="5ef4af0a">
             <seg n="e0f1e3fa">
               Herr ANDERSSON, ALVAR, (cp) kort genmäle:
             </seg>
@@ -7278,66 +7482,10 @@
               att andra vill inte bygga i städerna.
             </seg>
           </u>
-          <note n="11c9fc0d">
-            3 Första kammarens protokoll 1958. Nr B 3
-          </note>
-          <pb n="65" facs="https://betalab.kb.se/prot-1958-b-fk--3/prot_1958_b_fk__3-065.jp2/_view"/>
-          <note n="fd16a85a">
-            66 Nr B 3
-          </note>
-          <note type="date" n="af1e8ca4">
-            Onsdagen den 16 juli 1958
-          </note>
-          <note n="65c3bfd6">
-            Anslag till främjande av bostadsförsörjningen m. m.
-          </note>
-          <pb n="66" facs="https://betalab.kb.se/prot-1958-b-fk--3/prot_1958_b_fk__3-066.jp2/_view"/>
-          <note type="date" n="af1e8ca4">
-            Onsdagen den 16 juli 1958
-          </note>
-          <note n="e1a61172">
-            Nr B 3 67
-          </note>
-          <note n="65c3bfd6">
-            Anslag till främjande av bostadsförsörjningen m. m.
-          </note>
-          <pb n="67" facs="https://betalab.kb.se/prot-1958-b-fk--3/prot_1958_b_fk__3-067.jp2/_view"/>
-          <note n="a5d79e53">
-            68 Nr B 3
-          </note>
-          <note type="date" n="af1e8ca4">
-            Onsdagen den 16 juli 1958
-          </note>
-          <note n="65c3bfd6">
-            Anslag till främjande av bostadsförsörjningen m. m.
-          </note>
-          <pb n="68" facs="https://betalab.kb.se/prot-1958-b-fk--3/prot_1958_b_fk__3-068.jp2/_view"/>
-          <note type="date" n="af1e8ca4">
-            Onsdagen den 16 juli 1958
-          </note>
-          <note n="a330e956">
-            Anslag till
-          </note>
-          <note n="7b487843">
-            Nr B 3 69
-          </note>
-          <note n="3f8936ad">
-            främjande av bostadsförsörjningen m. m.
-          </note>
-          <pb n="69" facs="https://betalab.kb.se/prot-1958-b-fk--3/prot_1958_b_fk__3-069.jp2/_view"/>
-          <note n="8b922d1f">
-            70 Nr B 3
-          </note>
-          <note type="date" n="af1e8ca4">
-            Onsdagen den 16 juli 1958
-          </note>
-          <note n="65c3bfd6">
-            Anslag till främjande av bostadsförsörjningen m. m.
-          </note>
           <note type="speaker" n="22a18e44">
             Herr MANNERSKANTZ (h):
           </note>
-          <u who="axel_mannerskantz_48b900" xml:id="i-54ad753c7e2bfeaa-1" next="i-a6e0c6640c833a5f-1" n="6bb5b173">
+          <u who="axel_mannerskantz_48b900" xml:id="i-6bb5b173cd23ced7-9" next="i-6bb5b173cd23ced7-12" n="6bb5b173">
             <seg n="6fd94ccb">
               Herr talman! Jag gjorde några små anteckningar, medan herr Bergman
               talade. Jag såg, hur han myste av inre tillfredsställelse, när
@@ -7379,7 +7527,7 @@
           <note n="a330e956">
             Anslag till
           </note>
-          <u who="axel_mannerskantz_48b900" xml:id="i-a6e0c6640c833a5f-1" prev="i-54ad753c7e2bfeaa-1" n="6bb5b173">
+          <u who="axel_mannerskantz_48b900" xml:id="i-6bb5b173cd23ced7-10" prev="i-6bb5b173cd23ced7-9" n="6bb5b173">
             <seg n="6055e8f4">
               nadsindex — som jag tror att jag nämnde — ligger på en lägre
               siffra än byggnadsindex, det vill jag fortfarande hävda. Emellertid
@@ -7418,6 +7566,14 @@
               Göteborg, fastän säljaren fått egnahemslån på den räntefria stående
               delen. Kan han inte sälja egnahemmet
             </seg>
+          </u>
+          <note n="8a71ee5c">
+            Nr B 3 71
+          </note>
+          <note n="3f8936ad">
+            främjande av bostadsförsörjningen m. m.
+          </note>
+          <u who="axel_mannerskantz_48b900" xml:id="i-6bb5b173cd23ced7-11" prev="i-6bb5b173cd23ced7-9" n="6bb5b173">
             <seg n="8882f333">
               utan att bli av med den räntefria stående delen, så låser ju
               det läget. Där har vi föreslagit det korrektivet, att om säljaren
@@ -7457,6 +7613,18 @@
             <seg n="7df6beb0">
               När det gäller tilläggslånen är herr
             </seg>
+          </u>
+          <pb n="71" facs="https://betalab.kb.se/prot-1958-b-fk--3/prot_1958_b_fk__3-071.jp2/_view"/>
+          <note n="0425f352">
+            72 Nr B 3
+          </note>
+          <note type="date" n="af1e8ca4">
+            Onsdagen den 16 juli 1958
+          </note>
+          <note n="65c3bfd6">
+            Anslag till främjande av bostadsförsörjningen m. m.
+          </note>
+          <u who="axel_mannerskantz_48b900" xml:id="i-6bb5b173cd23ced7-12" prev="i-6bb5b173cd23ced7-9" n="6bb5b173">
             <seg n="1ec3eae7">
               Bergman tydligen ense med oss om att de bör avvecklas, och då
               är ju frågan närmast, hur snabbt man skall gripa in. Herr Andersson
@@ -7489,26 +7657,10 @@
               Jag har inte blivit övertygad om att jag haft fel i mina yrkanden.
             </seg>
           </u>
-          <note n="8a71ee5c">
-            Nr B 3 71
-          </note>
-          <note n="3f8936ad">
-            främjande av bostadsförsörjningen m. m.
-          </note>
-          <pb n="71" facs="https://betalab.kb.se/prot-1958-b-fk--3/prot_1958_b_fk__3-071.jp2/_view"/>
-          <note n="0425f352">
-            72 Nr B 3
-          </note>
-          <note type="date" n="af1e8ca4">
-            Onsdagen den 16 juli 1958
-          </note>
-          <note n="65c3bfd6">
-            Anslag till främjande av bostadsförsörjningen m. m.
-          </note>
           <note type="speaker" n="a9fb4d3c">
             Herr BERGMAN (s):
           </note>
-          <u who="per_bergman_132698" xml:id="i-5d4275f1012c3eeb-1" next="i-0757c1f169035fce-1" n="5ef4af0a">
+          <u who="per_bergman_132698" xml:id="i-5ef4af0a5919aaf4-9" next="i-5ef4af0a5919aaf4-10" n="5ef4af0a">
             <seg n="72fa036a">
               Herr talman! Med hänsyn till vad herr Mannerskantz slutade sitt
               anförande med, vill jag påpeka, att herr Mannerskantz påminner
@@ -7568,7 +7720,7 @@
           <note n="65c3bfd6">
             Anslag till främjande av bostadsförsörjningen m. m.
           </note>
-          <u who="per_bergman_132698" xml:id="i-0757c1f169035fce-1" prev="i-5d4275f1012c3eeb-1" n="5ef4af0a">
+          <u who="per_bergman_132698" xml:id="i-5ef4af0a5919aaf4-10" prev="i-5ef4af0a5919aaf4-9" n="5ef4af0a">
             <seg n="362a3c74">
               Herr Mannerskantz sade att jag njöt av att det inte fanns någon
               borgerlig samling i riksdagen. Det är väl förståeligt, att det
@@ -7585,7 +7737,7 @@
           <note type="speaker" n="bfe40977">
             Herr JACOBSSON (fp):
           </note>
-          <u who="per_jacobsson_d94319" xml:id="i-bc24bb58824f71bb-0" n="9250610d">
+          <u who="per_jacobsson_d94319" xml:id="i-9250610dbaf9c0c4-5" n="9250610d">
             <seg n="4e816b66">
               Herr talman! Jag skall inte blanda mig i striden mellan herr
               Mannerskantz och herr Bergman om förutsättningarna för en borgerlig
@@ -7628,7 +7780,7 @@
           <note type="speaker" n="a9fb4d3c">
             Herr BERGMAN (s):
           </note>
-          <u who="per_bergman_132698" xml:id="i-75af7321c7e5f382-0" n="5ef4af0a">
+          <u who="per_bergman_132698" xml:id="i-5ef4af0a5919aaf4-11" n="5ef4af0a">
             <seg n="7ee99c5b">
               Herr talman! Jag tycker att det är bättre att hålla mer än man
               lovar, särskilt i sådana här ansvarsfyllda sammanhang, och inte
@@ -7647,7 +7799,7 @@
           <note type="speaker" n="f8f895ef">
             Herr statsrådet NILSSON:
           </note>
-          <u who="yngve_nilsson_1ed349" xml:id="i-150212db97953e4a-0" next="i-7d09f60f83dd1e2b-0" n="fdb4929c">
+          <u who="yngve_nilsson_1ed349" xml:id="i-fdb4929caf102faf-0" next="i-fdb4929caf102faf-2" n="fdb4929c">
             <seg n="3314c837">
               Herr talman! Jag har egentligen ingen anledning att blanda mig
               i denna stillsamma diskussion, som har ägt rum i bostadsfrågan
@@ -7670,7 +7822,7 @@
           <note n="65c3bfd6">
             Anslag till främjande av bostadsförsörjningen m. m.
           </note>
-          <u who="yngve_nilsson_1ed349" xml:id="i-7d09f60f83dd1e2b-0" prev="i-150212db97953e4a-0" n="fdb4929c">
+          <u who="yngve_nilsson_1ed349" xml:id="i-fdb4929caf102faf-1" prev="i-fdb4929caf102faf-0" n="fdb4929c">
             <seg n="722b095d">
               herr Jacobsson, när han säger att motsättningarna i själva verket
               inte är så starka som de nu kan tyda på. Likaväl kan jag instämma
@@ -7748,6 +7900,18 @@
               klagomål från andra håll än dem herr Bergman representerar, och
               det ankom-
             </seg>
+          </u>
+          <pb n="74" facs="https://betalab.kb.se/prot-1958-b-fk--3/prot_1958_b_fk__3-074.jp2/_view"/>
+          <note type="date" n="af1e8ca4">
+            Onsdagen den 16 juli 1958
+          </note>
+          <note n="771e2107">
+            Nr B 3 75
+          </note>
+          <note n="65c3bfd6">
+            Anslag till främjande av bostadsförsörjningen m. m.
+          </note>
+          <u who="yngve_nilsson_1ed349" xml:id="i-fdb4929caf102faf-2" prev="i-fdb4929caf102faf-0" n="fdb4929c">
             <seg n="606a7a73">
               mer då enligt mitt förmenande närmast på bostadsstyrelsen att
               följa utvecklingen och föreslå de ändringar i bestämmelserna som
@@ -7765,20 +7929,10 @@
               undersökningar föreligger.
             </seg>
           </u>
-          <pb n="74" facs="https://betalab.kb.se/prot-1958-b-fk--3/prot_1958_b_fk__3-074.jp2/_view"/>
-          <note type="date" n="af1e8ca4">
-            Onsdagen den 16 juli 1958
-          </note>
-          <note n="771e2107">
-            Nr B 3 75
-          </note>
-          <note n="65c3bfd6">
-            Anslag till främjande av bostadsförsörjningen m. m.
-          </note>
           <note type="speaker" n="22a18e44">
             Herr MANNERSKANTZ (h):
           </note>
-          <u who="axel_mannerskantz_48b900" xml:id="i-5640997de71d344c-1" n="6bb5b173">
+          <u who="axel_mannerskantz_48b900" xml:id="i-6bb5b173cd23ced7-13" n="6bb5b173">
             <seg n="4e0370ad">
               Herr talman! Jag vill endast vänligt och försynt reagera mot
               den sista delen av socialministerns påstående rörande vad jag
@@ -7822,7 +7976,7 @@
           <note type="speaker" n="f8f895ef">
             Herr statsrådet NILSSON:
           </note>
-          <u who="yngve_nilsson_1ed349" xml:id="i-150212db97953e4a-1" next="i-7d09f60f83dd1e2b-1" n="fdb4929c">
+          <u who="yngve_nilsson_1ed349" xml:id="i-fdb4929caf102faf-3" next="i-fdb4929caf102faf-4" n="fdb4929c">
             <seg n="3e1693fa">
               Herr talman! Vad jag påpekade när det gällde herr Mannerskantz”
               tidigare anförande var, att han satte etiketten socialism på den
@@ -7854,7 +8008,7 @@
           <note n="65c3bfd6">
             Anslag till främjande av bostadsförsörjningen m. m.
           </note>
-          <u who="yngve_nilsson_1ed349" xml:id="i-7d09f60f83dd1e2b-1" prev="i-150212db97953e4a-1" n="fdb4929c">
+          <u who="yngve_nilsson_1ed349" xml:id="i-fdb4929caf102faf-4" prev="i-fdb4929caf102faf-3" n="fdb4929c">
             <seg n="ad9f7ead">
               denna omfattning senare hade kommit till stånd utan samhällets
               ingripande. Såsom jag sade är det ett enstaka år, som man nu håller
@@ -7879,7 +8033,7 @@
           <note type="speaker" n="22a18e44">
             Herr MANNERSKANTZ (h):
           </note>
-          <u who="axel_mannerskantz_48b900" xml:id="i-54ad753c7e2bfeaa-2" next="i-a6e0c6640c833a5f-2" n="6bb5b173">
+          <u who="axel_mannerskantz_48b900" xml:id="i-6bb5b173cd23ced7-14" next="i-6bb5b173cd23ced7-50" n="6bb5b173">
             <seg n="b632e9ab">
               Herr talman! Jag har inte bestritt, att det har gjorts många
               goda saker med statligt bistånd, och jag är övertygad om att sådan
@@ -7971,120 +8125,19 @@
             nr B 37 antager bifall till reservationen 1 b av herr Ivar Johansson
             m. fl., röstar
           </note>
-          <u who="axel_mannerskantz_48b900" xml:id="i-a6e0c6640c833a5f-2" prev="i-54ad753c7e2bfeaa-2" n="6bb5b173">
+          <u who="axel_mannerskantz_48b900" xml:id="i-6bb5b173cd23ced7-15" prev="i-6bb5b173cd23ced7-14" n="6bb5b173">
             <seg n="6fca1c05">
               Ja;
-            </seg>
-            <seg n="cae75d86">
-              Nej;
-            </seg>
-            <seg n="6fca1c05">
-              Ja;
-            </seg>
-            <seg n="cae75d86">
-              Nej;
-            </seg>
-            <seg n="6fca1c05">
-              Ja;
-            </seg>
-            <seg n="cae75d86">
-              Nej;
-            </seg>
-            <seg n="4175a7c4">
-              Jäs
-            </seg>
-            <seg n="cae75d86">
-              Nej;
-            </seg>
-            <seg n="6fca1c05">
-              Ja;
-            </seg>
-            <seg n="cae75d86">
-              Nej;
-            </seg>
-            <seg n="e6b3ae71">
-              givit, att de avstode från att rösta,
-            </seg>
-            <seg n="cae75d86">
-              Nej;
-            </seg>
-            <seg n="8631e899">
-              mannen förklarade, att enligt hans uppfattning flertalet röstat
-              för ja-propositionen.
-            </seg>
-            <seg n="80049df2">
-              givit, att de avstode från att rösta.
-            </seg>
-            <seg n="95de4ccc">
-              Jag
-            </seg>
-            <seg n="cae75d86">
-              Nej;
-            </seg>
-            <seg n="6fca1c05">
-              Ja;
-            </seg>
-            <seg n="cae75d86">
-              Nej;
-            </seg>
-            <seg n="6fca1c05">
-              Ja;
-            </seg>
-            <seg n="cae75d86">
-              Nej;
-            </seg>
-            <seg n="2c741069">
-              JAG
-            </seg>
-            <seg n="cae75d86">
-              Nej;
-            </seg>
-            <seg n="6f13b4d9">
-              Nej — 36.
-            </seg>
-            <seg n="6fca1c05">
-              Ja;
-            </seg>
-            <seg n="cae75d86">
-              Nej;
-            </seg>
-            <seg n="39ed5de5">
-              nagivit, att de avstode från att rösta.
-            </seg>
-            <seg n="6fca1c05">
-              Ja;
-            </seg>
-            <seg n="cae75d86">
-              Nej;
-            </seg>
-            <seg n="6fca1c05">
-              Ja;
-            </seg>
-            <seg n="cae75d86">
-              Nej;
-            </seg>
-            <seg n="80049df2">
-              givit, att de avstode från att rösta.
-            </seg>
-            <seg n="6fca1c05">
-              Ja;
-            </seg>
-            <seg n="cae75d86">
-              Nej;
-            </seg>
-            <seg n="6fca1c05">
-              Ja;
-            </seg>
-            <seg n="cae75d86">
-              Nej;
-            </seg>
-            <seg n="39ed5de5">
-              nagivit, att de avstode från att rösta.
             </seg>
           </u>
           <note n="b997ce70">
             Den, det ej vill, röstar
           </note>
+          <u who="axel_mannerskantz_48b900" xml:id="i-6bb5b173cd23ced7-16" prev="i-6bb5b173cd23ced7-14" n="6bb5b173">
+            <seg n="cae75d86">
+              Nej;
+            </seg>
+          </u>
           <note n="45c73aa6">
             Vinner Nej, har till kontraproposition i förstnämnda votering
             antagits bifall till reservationen 1 a av herr Ragnar Bergh m.
@@ -8142,9 +8195,19 @@
             Den, som bifaller vad statsutskottet hemställt i sitt utlåtande
             nr B 37 punkten I, röstar
           </note>
+          <u who="axel_mannerskantz_48b900" xml:id="i-6bb5b173cd23ced7-17" prev="i-6bb5b173cd23ced7-14" n="6bb5b173">
+            <seg n="6fca1c05">
+              Ja;
+            </seg>
+          </u>
           <note n="b997ce70">
             Den, det ej vill, röstar
           </note>
+          <u who="axel_mannerskantz_48b900" xml:id="i-6bb5b173cd23ced7-18" prev="i-6bb5b173cd23ced7-14" n="6bb5b173">
+            <seg n="cae75d86">
+              Nej;
+            </seg>
+          </u>
           <note n="1d1010d9">
             Vinner Nej, bifalles reservationen 1 b av herr Ivar Johansson
             m. fl.
@@ -8198,9 +8261,19 @@
             Den, som bifaller vad statsutskottet hemställt i sitt utlåtande
             nr B 37 punkten II, röstar
           </note>
+          <u who="axel_mannerskantz_48b900" xml:id="i-6bb5b173cd23ced7-19" prev="i-6bb5b173cd23ced7-14" n="6bb5b173">
+            <seg n="6fca1c05">
+              Ja;
+            </seg>
+          </u>
           <note n="b997ce70">
             Den, det ej vill, röstar
           </note>
+          <u who="axel_mannerskantz_48b900" xml:id="i-6bb5b173cd23ced7-20" prev="i-6bb5b173cd23ced7-14" n="6bb5b173">
+            <seg n="cae75d86">
+              Nej;
+            </seg>
+          </u>
           <note n="acf19bda">
             Vinner Nej, bifalles reservationen 2 b
           </note>
@@ -8239,9 +8312,19 @@
             Den, som bifaller vad statsutskottet hemställt i sitt utlåtande
             nr B 37 punkten III, röstar
           </note>
+          <u who="axel_mannerskantz_48b900" xml:id="i-6bb5b173cd23ced7-21" prev="i-6bb5b173cd23ced7-14" n="6bb5b173">
+            <seg n="4175a7c4">
+              Jäs
+            </seg>
+          </u>
           <note n="b997ce70">
             Den, det ej vill, röstar
           </note>
+          <u who="axel_mannerskantz_48b900" xml:id="i-6bb5b173cd23ced7-22" prev="i-6bb5b173cd23ced7-14" n="6bb5b173">
+            <seg n="cae75d86">
+              Nej;
+            </seg>
+          </u>
           <note n="115945ef">
             Vinner Nej, bifalles reservationen 3 a av herr Ohlon m. fl.
           </note>
@@ -8294,9 +8377,19 @@
             Den, som bifaller vad statsutskottet hemställt i sitt utlåtande
             nr B 37 punkten IV, röstar
           </note>
+          <u who="axel_mannerskantz_48b900" xml:id="i-6bb5b173cd23ced7-23" prev="i-6bb5b173cd23ced7-14" n="6bb5b173">
+            <seg n="6fca1c05">
+              Ja;
+            </seg>
+          </u>
           <note n="b997ce70">
             Den, det ej vill, röstar
           </note>
+          <u who="axel_mannerskantz_48b900" xml:id="i-6bb5b173cd23ced7-24" prev="i-6bb5b173cd23ced7-14" n="6bb5b173">
+            <seg n="cae75d86">
+              Nej;
+            </seg>
+          </u>
           <note n="b608c234">
             Vinner Nej, bifalles utskottets hemställan med den ändring i
             motiveringen, som föreslagits i reservationen 4 b av herr Ohlon
@@ -8318,6 +8411,11 @@
           <note n="387f2024">
             Därjämte hade 17 ledamöter tillkänna-
           </note>
+          <u who="axel_mannerskantz_48b900" xml:id="i-6bb5b173cd23ced7-25" prev="i-6bb5b173cd23ced7-14" n="6bb5b173">
+            <seg n="e6b3ae71">
+              givit, att de avstode från att rösta,
+            </seg>
+          </u>
           <note n="5253737b">
             Härpå gjordes i enlighet med de angående punkten V förekomna
             yrkandena propositioner, först på bifall till utskottets hemställan
@@ -8378,6 +8476,11 @@
           <note n="b997ce70">
             Den, det ej vill, röstar
           </note>
+          <u who="axel_mannerskantz_48b900" xml:id="i-6bb5b173cd23ced7-26" prev="i-6bb5b173cd23ced7-14" n="6bb5b173">
+            <seg n="cae75d86">
+              Nej;
+            </seg>
+          </u>
           <note n="26d46866">
             Vinner Nej, bifalles reservationen 8
           </note>
@@ -8398,6 +8501,12 @@
           <note n="65c3bfd6">
             Anslag till främjande av bostadsförsörjningen m. m.
           </note>
+          <u who="axel_mannerskantz_48b900" xml:id="i-6bb5b173cd23ced7-27" prev="i-6bb5b173cd23ced7-14" n="6bb5b173">
+            <seg n="8631e899">
+              mannen förklarade, att enligt hans uppfattning flertalet röstat
+              för ja-propositionen.
+            </seg>
+          </u>
           <note n="443182c7">
             Då emellertid herr Andersson, Alvar, begärde rösträkning, verkställdes
             nu votering medelst omröstningsapparat; och befunnos vid omröstningens
@@ -8409,6 +8518,11 @@
           <note n="7722bdb9">
             Därjämte hade 18 ledamöter tillkänna-
           </note>
+          <u who="axel_mannerskantz_48b900" xml:id="i-6bb5b173cd23ced7-28" prev="i-6bb5b173cd23ced7-14" n="6bb5b173">
+            <seg n="80049df2">
+              givit, att de avstode från att rösta.
+            </seg>
+          </u>
           <note n="dee626be">
             Ytterligare gjorde herr talmannen i enlighet med de beträffande
             punkten XII framställda yrkandena propositioner, först på bifall
@@ -8426,9 +8540,19 @@
             Den, som bifaller vad statsutskottet hemställt i sitt utlåtande
             nr B 37 punkten XII, röstar
           </note>
+          <u who="axel_mannerskantz_48b900" xml:id="i-6bb5b173cd23ced7-29" prev="i-6bb5b173cd23ced7-14" n="6bb5b173">
+            <seg n="95de4ccc">
+              Jag
+            </seg>
+          </u>
           <note n="b997ce70">
             Den, det ej vill, röstar
           </note>
+          <u who="axel_mannerskantz_48b900" xml:id="i-6bb5b173cd23ced7-30" prev="i-6bb5b173cd23ced7-14" n="6bb5b173">
+            <seg n="cae75d86">
+              Nej;
+            </seg>
+          </u>
           <note n="de096457">
             Vinner Nej, bifalles reservationen 9
           </note>
@@ -8484,9 +8608,19 @@
             Den, som bifaller vad statutskottet hemställt i sitt utlåtande
             nr B 37 punkten XV, röstar
           </note>
+          <u who="axel_mannerskantz_48b900" xml:id="i-6bb5b173cd23ced7-31" prev="i-6bb5b173cd23ced7-14" n="6bb5b173">
+            <seg n="6fca1c05">
+              Ja;
+            </seg>
+          </u>
           <note n="b997ce70">
             Den, det ej vill, röstar
           </note>
+          <u who="axel_mannerskantz_48b900" xml:id="i-6bb5b173cd23ced7-32" prev="i-6bb5b173cd23ced7-14" n="6bb5b173">
+            <seg n="cae75d86">
+              Nej;
+            </seg>
+          </u>
           <note n="95529971">
             Vinner Nej, bifalles reservationen 11 b av herr Ohlon m. fl.
           </note>
@@ -8568,9 +8702,19 @@
             nr B 37 antager bifall till reservationen 12 b av herr Ivar Johansson
             m. fl., röstar
           </note>
+          <u who="axel_mannerskantz_48b900" xml:id="i-6bb5b173cd23ced7-33" prev="i-6bb5b173cd23ced7-14" n="6bb5b173">
+            <seg n="6fca1c05">
+              Ja;
+            </seg>
+          </u>
           <note n="b997ce70">
             Den, det ej vill, röstar
           </note>
+          <u who="axel_mannerskantz_48b900" xml:id="i-6bb5b173cd23ced7-34" prev="i-6bb5b173cd23ced7-14" n="6bb5b173">
+            <seg n="cae75d86">
+              Nej;
+            </seg>
+          </u>
           <note n="573cda98">
             Vinner Nej, har till kontraproposition i förstnämnda votering
             antagits bifall till reservationen 12 a av herr Ragnar Bergh m.
@@ -8590,9 +8734,19 @@
             XVI i statsutskottets utlåtande nr B 37 antager bifall till reservationen
             12 c av herr Ohlon m. fl., röstar
           </note>
+          <u who="axel_mannerskantz_48b900" xml:id="i-6bb5b173cd23ced7-35" prev="i-6bb5b173cd23ced7-14" n="6bb5b173">
+            <seg n="2c741069">
+              JAG
+            </seg>
+          </u>
           <note n="b997ce70">
             Den, det ej vill, röstar
           </note>
+          <u who="axel_mannerskantz_48b900" xml:id="i-6bb5b173cd23ced7-36" prev="i-6bb5b173cd23ced7-14" n="6bb5b173">
+            <seg n="cae75d86">
+              Nej;
+            </seg>
+          </u>
           <note n="199d202f">
             Vinner Nej, har till kontraproposition i nämnda votering antagits
             bifall till reservationen 12 b av herr Ivar Johansson m. fl.
@@ -8623,6 +8777,11 @@
           <note n="88859ba4">
             Ja — 34;
           </note>
+          <u who="axel_mannerskantz_48b900" xml:id="i-6bb5b173cd23ced7-37" prev="i-6bb5b173cd23ced7-14" n="6bb5b173">
+            <seg n="6f13b4d9">
+              Nej — 36.
+            </seg>
+          </u>
           <note n="ddfaa95b">
             Därjämte hade 68 ledamöter tillkännagivit, att de avstode från
             att rösta.
@@ -8635,9 +8794,19 @@
             Den, som bifaller vad statsutskottet hemställt i sitt utlåtande
             nr B 37 punkten XVI, röstar
           </note>
+          <u who="axel_mannerskantz_48b900" xml:id="i-6bb5b173cd23ced7-38" prev="i-6bb5b173cd23ced7-14" n="6bb5b173">
+            <seg n="6fca1c05">
+              Ja;
+            </seg>
+          </u>
           <note n="b997ce70">
             Den, det ej vill, röstar
           </note>
+          <u who="axel_mannerskantz_48b900" xml:id="i-6bb5b173cd23ced7-39" prev="i-6bb5b173cd23ced7-14" n="6bb5b173">
+            <seg n="cae75d86">
+              Nej;
+            </seg>
+          </u>
           <note n="3544fe04">
             Vinner Nej, bifalles reservationen 12 b
           </note>
@@ -8660,6 +8829,11 @@
           <note n="de765354">
             Därjämte hade 22 ledamöter tillkän-
           </note>
+          <u who="axel_mannerskantz_48b900" xml:id="i-6bb5b173cd23ced7-40" prev="i-6bb5b173cd23ced7-14" n="6bb5b173">
+            <seg n="39ed5de5">
+              nagivit, att de avstode från att rösta.
+            </seg>
+          </u>
           <note n="0f59c4b4">
             Ytterligare gjorde herr talmannen enligt de i fråga om punkten
             XVII framställda yrkandena propositioner, först på bifall till
@@ -8678,9 +8852,19 @@
             Den, som bifaller vad statsutskottet hemställt i sitt utlåtande
             nr B 37 punkten XVII, röstar
           </note>
+          <u who="axel_mannerskantz_48b900" xml:id="i-6bb5b173cd23ced7-41" prev="i-6bb5b173cd23ced7-14" n="6bb5b173">
+            <seg n="6fca1c05">
+              Ja;
+            </seg>
+          </u>
           <note n="b997ce70">
             Den, det ej vill, röstar
           </note>
+          <u who="axel_mannerskantz_48b900" xml:id="i-6bb5b173cd23ced7-42" prev="i-6bb5b173cd23ced7-14" n="6bb5b173">
+            <seg n="cae75d86">
+              Nej;
+            </seg>
+          </u>
           <note n="ae592b74">
             Vinner Nej, bifalles reservationen 13 av herr Ohlon m. fl.
           </note>
@@ -8747,9 +8931,19 @@
             nr B 37 antager bifall till reservationen 14 c av herr Ivar Johansson
             m. fl., röstar
           </note>
+          <u who="axel_mannerskantz_48b900" xml:id="i-6bb5b173cd23ced7-43" prev="i-6bb5b173cd23ced7-14" n="6bb5b173">
+            <seg n="6fca1c05">
+              Ja;
+            </seg>
+          </u>
           <note n="b997ce70">
             Den, det ej vill, röstar
           </note>
+          <u who="axel_mannerskantz_48b900" xml:id="i-6bb5b173cd23ced7-44" prev="i-6bb5b173cd23ced7-14" n="6bb5b173">
+            <seg n="cae75d86">
+              Nej;
+            </seg>
+          </u>
           <note n="ff83755a">
             Vinner Nej, har till kontraproposition i förstnämnda votering
             antagits bifall till reservationen 14 a av herr Ragnar Bergh m.,
@@ -8771,6 +8965,11 @@
           <note n="7fdbe0df">
             Därjämte hade 80 ledamöter tillkänna-
           </note>
+          <u who="axel_mannerskantz_48b900" xml:id="i-6bb5b173cd23ced7-45" prev="i-6bb5b173cd23ced7-14" n="6bb5b173">
+            <seg n="80049df2">
+              givit, att de avstode från att rösta.
+            </seg>
+          </u>
           <note n="f1ccd0f0">
             I följd härav uppsattes, upplästes och godkändes för den första
             förvoteringen en omröstningsproposition av följande lydelse:
@@ -8780,9 +8979,19 @@
             XVIII i statsutskottets utlåtande nr B 37 antager bifall till
             reservationen 14 hb av herr Ohlon m. fl., röstar
           </note>
+          <u who="axel_mannerskantz_48b900" xml:id="i-6bb5b173cd23ced7-46" prev="i-6bb5b173cd23ced7-14" n="6bb5b173">
+            <seg n="6fca1c05">
+              Ja;
+            </seg>
+          </u>
           <note n="b997ce70">
             Den, det ej vill, röstar
           </note>
+          <u who="axel_mannerskantz_48b900" xml:id="i-6bb5b173cd23ced7-47" prev="i-6bb5b173cd23ced7-14" n="6bb5b173">
+            <seg n="cae75d86">
+              Nej;
+            </seg>
+          </u>
           <note n="9b047a8a">
             Vinner Nej, har till kontraproposition i nämnda votering antagits
             bifall till reservationen 14 a av herr Ragnar Bergh m; fl;
@@ -8812,9 +9021,19 @@
             Den, som bifaller vad statsutskottet hemställt i sitt utlåtande
             nr B 37 punkten XVIII, röstar
           </note>
+          <u who="axel_mannerskantz_48b900" xml:id="i-6bb5b173cd23ced7-48" prev="i-6bb5b173cd23ced7-14" n="6bb5b173">
+            <seg n="6fca1c05">
+              Ja;
+            </seg>
+          </u>
           <note n="b997ce70">
             Den, det ej vill, röstar
           </note>
+          <u who="axel_mannerskantz_48b900" xml:id="i-6bb5b173cd23ced7-49" prev="i-6bb5b173cd23ced7-14" n="6bb5b173">
+            <seg n="cae75d86">
+              Nej;
+            </seg>
+          </u>
           <note n="e307326d">
             Vinner Nej, bifalles reservationen 14 a av herr Ragnar Bergh
             m. fl.
@@ -8835,6 +9054,11 @@
           <note n="70678232">
             Därjämte hade 42 ledamöter tillkän-
           </note>
+          <u who="axel_mannerskantz_48b900" xml:id="i-6bb5b173cd23ced7-50" prev="i-6bb5b173cd23ced7-14" n="6bb5b173">
+            <seg n="39ed5de5">
+              nagivit, att de avstode från att rösta.
+            </seg>
+          </u>
           <note n="70d871a5">
             Vidare gjordes enligt de rörande punkten XIX förekomna yrkandena
             propositioner, först på bifall till utskottets
@@ -9045,7 +9269,7 @@
           <note type="speaker" n="8e6e2593">
             Herr ARVIDSON (h):
           </note>
-          <u who="john-arvid_arvidson_e491a7" xml:id="i-f86d066690c75d0a-0" n="ef0ef715">
+          <u who="john-arvid_arvidson_e491a7" xml:id="i-7e626c9416523b13-0" n="ef0ef715">
             <seg n="38fb3718">
               Herr talman! Jag skall kort och gott be att få yrka bifall till
               den vid utlåtandet fogade reservationen.
@@ -9054,7 +9278,7 @@
           <note type="speaker" n="72a59421">
             Herr AHLKVIST (s):
           </note>
-          <u who="emil_ahlkvist_1104a0" xml:id="i-a22ca0c5b486b782-0" n="a4bc1f5c">
+          <u who="emil_ahlkvist_1104a0" xml:id="i-a4bc1f5c2b1a325b-0" n="a4bc1f5c">
             <seg n="fc1058fc">
               Herr talman! Då herr Arvidson fattade sig så kort, kan jag nöja
               mig med att yrka bifall till utskottets hemställan.
@@ -9149,7 +9373,7 @@
           <note type="speaker" n="22a18e44">
             Herr MANNERSKANTZ (h):
           </note>
-          <u who="axel_mannerskantz_48b900" xml:id="i-54ad753c7e2bfeaa-3" next="i-a6e0c6640c833a5f-3" n="6bb5b173">
+          <u who="axel_mannerskantz_48b900" xml:id="i-6bb5b173cd23ced7-51" next="i-6bb5b173cd23ced7-52" n="6bb5b173">
             <seg n="a94b5f2a">
               Herr talman! I detta utlåtande har jag antecknat en blank reservation,
               och detta huvudsakligast av den anledningen, att jag ville understryka
@@ -9173,7 +9397,7 @@
           <note n="f651f49b">
             Ang. statsbidrag till erkända arbetslöshetskassor
           </note>
-          <u who="axel_mannerskantz_48b900" xml:id="i-a6e0c6640c833a5f-3" prev="i-54ad753c7e2bfeaa-3" n="6bb5b173">
+          <u who="axel_mannerskantz_48b900" xml:id="i-6bb5b173cd23ced7-52" prev="i-6bb5b173cd23ced7-51" n="6bb5b173">
             <seg n="027ed387">
               karolinska sjukhuset, skall vårdas på stadens och landstingets
               bekostnad. Nu har till detta knutits motsvarande åläggande för
@@ -9286,7 +9510,7 @@
           <note type="speaker" n="22a18e44">
             Herr MANNERSKANTZ (h):
           </note>
-          <u who="axel_mannerskantz_48b900" xml:id="i-5640997de71d344c-2" n="6bb5b173">
+          <u who="axel_mannerskantz_48b900" xml:id="i-6bb5b173cd23ced7-53" n="6bb5b173">
             <seg n="5d83706b">
               Herr talman! I detta utlåtande återfinnes en reservation av mig
               och herr Lothigius, som stöder en motion, vilken går ut på att
@@ -9359,7 +9583,7 @@
           <note type="speaker" n="dd66a7f8">
             Herr förste vice talmannen STRAND (s):
           </note>
-          <u who="axel_strand_c798f7" xml:id="i-a126e55351759f88-0" next="i-a39d7455054dca56-0" n="2c290c95">
+          <u who="axel_strand_c798f7" xml:id="i-2c290c957c89fc23-0" next="i-2c290c957c89fc23-2" n="2c290c95">
             <seg n="94243b56">
               Herr talman! När arbetslöshetskassorna fick sin nuvarande utformning
               speciellt med hänsyn till statsbidraget var det med ett konstaterande
@@ -9376,7 +9600,7 @@
           <note n="f651f49b">
             Ang. statsbidrag till erkända arbetslöshetskassor
           </note>
-          <u who="axel_strand_c798f7" xml:id="i-a39d7455054dca56-0" prev="i-a126e55351759f88-0" n="2c290c95">
+          <u who="axel_strand_c798f7" xml:id="i-2c290c957c89fc23-1" prev="i-2c290c957c89fc23-0" n="2c290c95">
             <seg n="dc050152">
               tantunderstöd vid arbetslöshet säkerligen fick den största effekten,
               om den kunde ordnas genom arbetslöshetskassorna, där medlemmarna
@@ -9453,6 +9677,22 @@
               när man försöker göra en jämförelse mellan vad byggnadsarbetarna
               och industriförbunden tar i anspråk
             </seg>
+          </u>
+          <pb n="89" facs="https://betalab.kb.se/prot-1958-b-fk--3/prot_1958_b_fk__3-089.jp2/_view"/>
+          <note n="6a5fa14a">
+            90 Nr B 3
+          </note>
+          <note type="date" n="af1e8ca4">
+            Onsdagen den 16 juli 1958
+          </note>
+          <note n="f651f49b">
+            Ang. statsbidrag till erkända arbetslöshetskassor
+          </note>
+          <note n="380598b3">
+            av statsbidraget. Jag hemställer därför om bifall till utskottets
+            hemställan i denna del.
+          </note>
+          <u who="axel_strand_c798f7" xml:id="i-2c290c957c89fc23-2" prev="i-2c290c957c89fc23-0" n="2c290c95">
             <seg n="b74daa4d">
               Herr Mannerskantz glömde bort att tala om att det fanns två reservationer
               i detta utlåtande. Den ena avser statsbidragsbestämmelserna, den
@@ -9475,20 +9715,6 @@
               än som för närvarande gäller.
             </seg>
           </u>
-          <pb n="89" facs="https://betalab.kb.se/prot-1958-b-fk--3/prot_1958_b_fk__3-089.jp2/_view"/>
-          <note n="6a5fa14a">
-            90 Nr B 3
-          </note>
-          <note type="date" n="af1e8ca4">
-            Onsdagen den 16 juli 1958
-          </note>
-          <note n="f651f49b">
-            Ang. statsbidrag till erkända arbetslöshetskassor
-          </note>
-          <note n="380598b3">
-            av statsbidraget. Jag hemställer därför om bifall till utskottets
-            hemställan i denna del.
-          </note>
           <note n="8115dee1">
             Jag yrkar, herr talman, bifall till utskottets hemställan även
             under punkten B.
@@ -9496,7 +9722,7 @@
           <note type="speaker" n="22a18e44">
             Herr MANNERSKANTZ (h):
           </note>
-          <u who="axel_mannerskantz_48b900" xml:id="i-54ad753c7e2bfeaa-4" next="i-a6e0c6640c833a5f-4" n="6bb5b173">
+          <u who="axel_mannerskantz_48b900" xml:id="i-6bb5b173cd23ced7-54" next="i-6bb5b173cd23ced7-55" n="6bb5b173">
             <seg n="483c4302">
               Herr talman! Att jag inte särskilt omnämnde den andra reservationen,
               berodde på att den så att säga är en bisats, som togs med, när
@@ -9558,7 +9784,7 @@
           <note n="f651f49b">
             Ang. statsbidrag till erkända arbetslöshetskassor
           </note>
-          <u who="axel_mannerskantz_48b900" xml:id="i-a6e0c6640c833a5f-4" prev="i-54ad753c7e2bfeaa-4" n="6bb5b173">
+          <u who="axel_mannerskantz_48b900" xml:id="i-6bb5b173cd23ced7-55" prev="i-6bb5b173cd23ced7-54" n="6bb5b173">
             <seg n="4b1b65f5">
               gäller de tre aktuella förbunden 5,6 miljoner kronor på murarna,
               7,9 på målarna och 32,5 på byggnadsarbetarna. I remissutlåtandena
@@ -9577,7 +9803,7 @@
           <note type="speaker" n="dd66a7f8">
             Herr förste vice talmannen STRAND (s):
           </note>
-          <u who="axel_strand_c798f7" xml:id="i-771219520b88137d-0" n="2c290c95">
+          <u who="axel_strand_c798f7" xml:id="i-2c290c957c89fc23-3" n="2c290c95">
             <seg n="9ce6e949">
               Herr talman! Med anledning av det som herr Mannerskantz här sist
               berörde vill jag säga, att det vore väl underligt, om arbetslöshetskassorna
@@ -9611,7 +9837,7 @@
           <note type="speaker" n="927fa624">
             Herr JOHANSSON, KNUT, (s):
           </note>
-          <u who="tage_johansson_8a7244" xml:id="i-2c68d1ed6a813e5c-1" next="i-1a66ccb2b7a1cf74-1" n="1c2d31ac">
+          <u who="tage_johansson_8a7244" xml:id="i-1c2d31acd4429a3f-3" next="i-1c2d31acd4429a3f-5" n="1c2d31ac">
             <seg n="41d1b28f">
               Herr talman! Det var herr Mannerskantz” sista inlägg som gav
               mig anledning begära ordet. Han berörde här bland annat frågan
@@ -9649,7 +9875,7 @@
           <note n="f651f49b">
             Ang. statsbidrag till erkända arbetslöshetskassor
           </note>
-          <u who="tage_johansson_8a7244" xml:id="i-1a66ccb2b7a1cf74-1" prev="i-2c68d1ed6a813e5c-1" n="1c2d31ac">
+          <u who="tage_johansson_8a7244" xml:id="i-1c2d31acd4429a3f-4" prev="i-1c2d31acd4429a3f-3" n="1c2d31ac">
             <seg n="32857b02">
               Beträffande den i motionerna, utlåtandet och reservationen berörda
               frågan om avgifterna kontra fondbildningen vill jag påminna om
@@ -9683,15 +9909,6 @@
               Jag har, herr talman, med detta velat göra en komplettering till
               vad som är anfört i utskottets utlåtande och av utskottets föredragande,
               och jag ber att få yrka bifall till utskottets hemställan.
-            </seg>
-            <seg n="db892ad9">
-              Det av Kungl. Maj:t framlagda lagförslaget innebar bland annat,
-              att barnvaccineringen liksom hittills skulle vara obligatorisk,
-              men en väsentlig uppmjukning hade skett i fråga om möjligheterna
-              att erhålla befrielse från ympningsplikten. Önskade någon, som
-              hyste allvarliga betänkligheter mot ympning, att barn under hans
-              vårdnad skulle befrias från ympningsplikten kunde, även om medicinska
-              skäl ej förelåge, befrielse erhållas.
             </seg>
           </u>
           <note n="8e2ec6b6">
@@ -9761,6 +9978,17 @@
             hade Kungl. Maj:t föreslagit riksdagen att antaga vid propositionen
             fogat förslag till lag om ympning mot smittkoppor.
           </note>
+          <u who="tage_johansson_8a7244" xml:id="i-1c2d31acd4429a3f-5" prev="i-1c2d31acd4429a3f-3" n="1c2d31ac">
+            <seg n="db892ad9">
+              Det av Kungl. Maj:t framlagda lagförslaget innebar bland annat,
+              att barnvaccineringen liksom hittills skulle vara obligatorisk,
+              men en väsentlig uppmjukning hade skett i fråga om möjligheterna
+              att erhålla befrielse från ympningsplikten. Önskade någon, som
+              hyste allvarliga betänkligheter mot ympning, att barn under hans
+              vårdnad skulle befrias från ympningsplikten kunde, även om medicinska
+              skäl ej förelåge, befrielse erhållas.
+            </seg>
+          </u>
           <note n="62bc503e">
             I samband med förevarande proposition hade utskottet behandlat
             de i anledning av propositionen väckta likalydande motionerna
@@ -9812,7 +10040,7 @@
           <note type="speaker" n="ff3bface">
             Herr EDSTRÖM (fp):
           </note>
-          <u who="gunnar_edstrom_4b2aba" xml:id="i-eff74398ff36cb8c-1" next="i-1eb3f5c0772bbe95-1" n="6f122ac9">
+          <u who="gunnar_edstrom_4b2aba" xml:id="i-6f122ac95bfe9706-3" next="i-6f122ac95bfe9706-5" n="6f122ac9">
             <seg n="3900b433">
               Herr talman! Då det gäller hälsovård och sjukvård bör åtgärder
               grunda sig på övertygelse och förtroende och inte på tvång, detta
@@ -9843,7 +10071,7 @@
           <note n="3b6ff9db">
             Lagförslag om ympning mot smittkoppor
           </note>
-          <u who="gunnar_edstrom_4b2aba" xml:id="i-1eb3f5c0772bbe95-1" prev="i-eff74398ff36cb8c-1" n="6f122ac9">
+          <u who="gunnar_edstrom_4b2aba" xml:id="i-6f122ac95bfe9706-4" prev="i-6f122ac95bfe9706-3" n="6f122ac9">
             <seg n="a2881d49">
               har ofta varit större än i smittkoppsvaccinationen. Det är rätt
               förklarligt, därför att en tvångsympning medför opposition och
@@ -9884,6 +10112,11 @@
               svag i sak, vilket väl knappast lär locka kommande lagstiftare
               som vishetsregel.
             </seg>
+          </u>
+          <note type="date" n="af1e8ca4">
+            Onsdagen den 16 juli 1958
+          </note>
+          <u who="gunnar_edstrom_4b2aba" xml:id="i-6f122ac95bfe9706-5" prev="i-6f122ac95bfe9706-3" n="6f122ac9">
             <seg n="7b8c88ae">
               Vad har man vunnit? En lag för lagens egen skull, fortsatt motvilja,
               olust och opposition, som — när det vid en hotande epidemi verkligen
@@ -9915,13 +10148,10 @@
               förslag.
             </seg>
           </u>
-          <note type="date" n="af1e8ca4">
-            Onsdagen den 16 juli 1958
-          </note>
           <note type="speaker" n="60685ee8">
             Herr KAIJSER (h):
           </note>
-          <u who="rolf_kaijser_f8a29e" xml:id="i-b82576d38d945105-1" next="i-b860a58948352057-1" n="1b22da7a">
+          <u who="rolf_kaijser_f8a29e" xml:id="i-1b22da7a952ded80-6" next="i-1b22da7a952ded80-7" n="1b22da7a">
             <seg n="ffe9c3ff">
               Herr talman! Det finns egentligen inte någon större anledning
               att ta till orda när herr Edström inte har framställt något yrkande,
@@ -9938,7 +10168,7 @@
           <note type="date" n="af1e8ca4">
             Onsdagen den 16 juli 1958
           </note>
-          <u who="rolf_kaijser_f8a29e" xml:id="i-b860a58948352057-1" prev="i-b82576d38d945105-1" n="1b22da7a">
+          <u who="rolf_kaijser_f8a29e" xml:id="i-1b22da7a952ded80-7" prev="i-1b22da7a952ded80-6" n="1b22da7a">
             <seg n="1696c299">
               land, Det är inte riktigt. År 1853 infördes tvångsvaccination,
               men åren 1897 och 1907 infördes samvetsklausuler, vilka har fört
@@ -10013,7 +10243,7 @@
           <note type="speaker" n="ff3bface">
             Herr EDSTRÖM (fp):
           </note>
-          <u who="gunnar_edstrom_4b2aba" xml:id="i-eff74398ff36cb8c-2" next="i-1eb3f5c0772bbe95-2" n="6f122ac9">
+          <u who="gunnar_edstrom_4b2aba" xml:id="i-6f122ac95bfe9706-6" next="i-6f122ac95bfe9706-7" n="6f122ac9">
             <seg n="f401e3b5">
               Herr talman! Jag vill endast replikera, när herr Kaijer säger,
               att jag far med vilseledande uppgifter så till vida att vaccinationen
@@ -10037,7 +10267,7 @@
           <note n="890c48e2">
             Ang. vissa ändringar i bestämmelserna om allmänna barnbidrag
           </note>
-          <u who="gunnar_edstrom_4b2aba" xml:id="i-1eb3f5c0772bbe95-2" prev="i-eff74398ff36cb8c-2" n="6f122ac9">
+          <u who="gunnar_edstrom_4b2aba" xml:id="i-6f122ac95bfe9706-7" prev="i-6f122ac95bfe9706-6" n="6f122ac9">
             <seg n="b7fa8950">
               Jag hävdar fortfarande den uppfattningen, att tvångsvaccinering
               icke är någon garanti för att få det bästa immunitetsskyddet.
@@ -10065,7 +10295,7 @@
           <note type="speaker" n="f8e97adc">
             Herr LINDBLOM (fp):
           </note>
-          <u who="erik_lindblom_c799df" xml:id="i-84d70810b7ef3c41-0" n="ba9e83aa">
+          <u who="erik_lindblom_c799df" xml:id="i-ba9e83aad84a9b17-0" n="ba9e83aa">
             <seg n="0a81c46b">
               Herr talman! Efter den vidlyftiga diskussion som förts mellan
               läkarna ber jag att få hemställa om bifall till den av fröken
@@ -10075,7 +10305,7 @@
           <note type="speaker" n="60685ee8">
             Herr KAIJSER (h):
           </note>
-          <u who="rolf_kaijser_f8a29e" xml:id="i-b82576d38d945105-2" next="i-b860a58948352057-2" n="1b22da7a">
+          <u who="rolf_kaijser_f8a29e" xml:id="i-1b22da7a952ded80-8" next="i-1b22da7a952ded80-10" n="1b22da7a">
             <seg n="de8ebeb4">
               Herr talman! Jag vill endast säga att den engelska lag, som gjorde
               vaccinationen helt frivillig, härstammar från 1948, men jag vill
@@ -10136,11 +10366,20 @@
             2) lag om ändring i lagen den 26 juli 1947 om särskilda barnbidrag
             till änkors och invaliders barn.
           </note>
-          <u who="rolf_kaijser_f8a29e" xml:id="i-b860a58948352057-2" prev="i-b82576d38d945105-2" n="1b22da7a">
+          <u who="rolf_kaijser_f8a29e" xml:id="i-1b22da7a952ded80-9" prev="i-1b22da7a952ded80-8" n="1b22da7a">
             <seg n="5bcaed95">
               De i motionerna framlagda lagförslagen avsågo ett slopande av
               det allmänna barnbidraget till äldsta barnet i var-
             </seg>
+          </u>
+          <pb n="96" facs="https://betalab.kb.se/prot-1958-b-fk--3/prot_1958_b_fk__3-096.jp2/_view"/>
+          <note type="date" n="af1e8ca4">
+            Onsdagen den 16 juli 1958
+          </note>
+          <note n="16429014">
+            Ang. vissa ändringar i
+          </note>
+          <u who="rolf_kaijser_f8a29e" xml:id="i-1b22da7a952ded80-10" prev="i-1b22da7a952ded80-8" n="1b22da7a">
             <seg n="2b4f8f1c">
               je familj och en differentiering av barnbidragen beträffande
               övriga barn. Sålunda hade bidraget föreslagits utgå med 400 kronor
@@ -10152,13 +10391,6 @@
               berättigat till allmänt barnbidrag.
             </seg>
           </u>
-          <pb n="96" facs="https://betalab.kb.se/prot-1958-b-fk--3/prot_1958_b_fk__3-096.jp2/_view"/>
-          <note type="date" n="af1e8ca4">
-            Onsdagen den 16 juli 1958
-          </note>
-          <note n="16429014">
-            Ang. vissa ändringar i
-          </note>
           <note n="c89ebc47">
             Utskottet hade i det nu ifrågavarande utlåtandet på åberopade
             grunder hemställt, att förevarande motioner, I: B 94 och II: B
@@ -10175,7 +10407,7 @@
           <note type="speaker" n="22a18e44">
             Herr MANNERSKANTZ (h):
           </note>
-          <u who="axel_mannerskantz_48b900" xml:id="i-5640997de71d344c-3" n="6bb5b173">
+          <u who="axel_mannerskantz_48b900" xml:id="i-6bb5b173cd23ced7-56" n="6bb5b173">
             <seg n="a2665643">
               Herr talman! Detta utlåtande rör en ändring i barnbidragsbestämmelserna.
               Saken var utförligt behandlad i våras, alltså i förra riksdagen,
@@ -10194,7 +10426,7 @@
           <note type="speaker" n="dd66a7f8">
             Herr förste vice talmannen STRAND (s):
           </note>
-          <u who="axel_strand_c798f7" xml:id="i-a126e55351759f88-1" next="i-a39d7455054dca56-1" n="2c290c95">
+          <u who="axel_strand_c798f7" xml:id="i-2c290c957c89fc23-4" next="i-2c290c957c89fc23-5" n="2c290c95">
             <seg n="53eeec90">
               Herr talman! Från utskottets sida har vi inget emot att acceptera
               herr Manner-
@@ -10209,7 +10441,7 @@
           <note n="7fda87c5">
             bestämmelserna om allmänna barnbidrag
           </note>
-          <u who="axel_strand_c798f7" xml:id="i-a39d7455054dca56-1" prev="i-a126e55351759f88-1" n="2c290c95">
+          <u who="axel_strand_c798f7" xml:id="i-2c290c957c89fc23-5" prev="i-2c290c957c89fc23-4" n="2c290c95">
             <seg n="61d9798c">
               skantz eget konstaterande, att motionen har mera formell karaktär
               än reell innebörd. Den behandlades av vårriksdagen, där den avslogs,
@@ -10322,7 +10554,7 @@
           <note type="speaker" n="22a18e44">
             Herr MANNERSKANTZ (h):
           </note>
-          <u who="axel_mannerskantz_48b900" xml:id="i-54ad753c7e2bfeaa-5" next="i-a6e0c6640c833a5f-5" n="6bb5b173">
+          <u who="axel_mannerskantz_48b900" xml:id="i-6bb5b173cd23ced7-57" next="i-6bb5b173cd23ced7-59" n="6bb5b173">
             <seg n="0a878a3a">
               Herr talman! Detta utlåtande har samma karaktär som det förra;
               frågan behandlades redan i våras. Den motion som föreligger är
@@ -10341,14 +10573,11 @@
           <note n="b5fedb6a">
             Herr förste vice talmannen STRAND (s)E
           </note>
-          <u who="axel_mannerskantz_48b900" xml:id="i-a6e0c6640c833a5f-5" prev="i-54ad753c7e2bfeaa-5" n="6bb5b173">
+          <u who="axel_mannerskantz_48b900" xml:id="i-6bb5b173cd23ced7-58" prev="i-6bb5b173cd23ced7-57" n="6bb5b173">
             <seg n="44bb142c">
               Herr talman! Som herr Mannerskantz sade, är denna motion av samma
               karaktär som den vi nyss behandlade. Jag tycker att den bör behandlas
               på samma sätt som den.
-            </seg>
-            <seg n="8d0f6fa5">
-              mentariska gruppens arbete i Rio de Janeiro.
             </seg>
           </u>
           <note n="b2f5664c">
@@ -10413,6 +10642,11 @@
             från den 19 innevarande månad till sommarsessionens slut för deltagande
             i interparla-
           </note>
+          <u who="axel_mannerskantz_48b900" xml:id="i-6bb5b173cd23ced7-59" prev="i-6bb5b173cd23ced7-57" n="6bb5b173">
+            <seg n="8d0f6fa5">
+              mentariska gruppens arbete i Rio de Janeiro.
+            </seg>
+          </u>
           <note n="46bf9ea7">
             Upplästes och lades till handlingarna följande till kammaren
             inkomna

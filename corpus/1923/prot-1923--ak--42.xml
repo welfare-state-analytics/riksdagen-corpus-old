@@ -20,7 +20,7 @@
     <encodingDesc>
       <editorialDecl>
         <correction>
-          <p>Some data curation was done. It is documented in db/curation/instances</p>
+          <p>Some data curation was done. It is documented in input/curation/instances</p>
         </correction>
       </editorialDecl>
     </encodingDesc>
@@ -52,18 +52,20 @@
       <front>
         <div type="preface">
           <head>prot-1923--ak--42</head>
-          <docDate when="1923">1923</docDate>
+          <docDate when="1923-05-20">1923-05-20</docDate>
+          <docDate when="1923-05-26">1923-05-26</docDate>
         </div>
       </front>
       <body>
         <div>
+          <pb n="0" facs="https://betalab.kb.se/prot-1923--ak--42/prot_1923__ak__42-000.jp2/_view"/>
           <note n="b3ab4c34">
             RIKSDAGENS PROTOKOLL. 1923. Andra kammaren. Nr 42.
           </note>
           <note n="d4e58e17"/>
           <note n="d4e58e17"/>
           <note n="d4e58e17"/>
-          <note n="002793a7">
+          <note type="date" n="61f5333d">
             Lördagen den 26 maj, e. m. Kl. 7 e. m.
           </note>
           <note n="188212e7">
@@ -129,7 +131,7 @@
           <note n="f7b3ef15">
             ändring i förordningen om ägors fredande emot skada av
           </note>
-          <note n="382c8cd2">
+          <note type="date" n="0263761d">
             2 or ; Lördagen den 26 maj, e. m.
           </note>
           <note n="5d1d63a1">
@@ -211,7 +213,7 @@
             innehåll, att där skogsvårdsstyxelse eller skogs-
           </note>
           <pb n="2" facs="https://betalab.kb.se/prot-1923--ak--42/prot_1923__ak__42-002.jp2/_view"/>
-          <note n="e5707b86">
+          <note type="date" n="7954de51">
             Lördagen den 26 maj, e. m. 3
           </note>
           <note n="1747c088">
@@ -224,7 +226,7 @@
           <note type="speaker" n="e6b037f7">
             Herr Lindman:
           </note>
-          <u who="arvid_lindman_c824c1" xml:id="i-5f5b294bf9d8e0ad-0" next="i-7a15ca9c027ea238-0" n="085ec44f">
+          <u who="arvid_lindman_c824c1" xml:id="i-085ec44fda86f6a7-0" next="i-085ec44fda86f6a7-3" n="085ec44f">
             <seg n="740db9f4">
               Herr talman! Till detta lagförslag har jag avgivit en reservation
               tillsammans med: herrar Borell, Norling, Johansson i Uppmälby
@@ -256,7 +258,7 @@
             styrelse ej finnes, vederbörande skogsstatstjänsteman äge lika
             behörighet att åtala överträdelse av förbud, som nyss sagts.
           </note>
-          <u who="arvid_lindman_c824c1" xml:id="i-7a15ca9c027ea238-0" prev="i-5f5b294bf9d8e0ad-0" n="085ec44f">
+          <u who="arvid_lindman_c824c1" xml:id="i-085ec44fda86f6a7-1" prev="i-085ec44fda86f6a7-0" n="085ec44f">
             <seg n="417c71a8">
               Böter, som för sådan överträdelse ådömas, fördelas, om allmän
               åklagare anställt åtalet, så, att en fjärdedel tillfaller honom
@@ -265,6 +267,11 @@
               tillfalla böterna skogsvårdskassan; har skogsstatstjänsteman anställt
               åtal, tillfalla de kronan.
             </seg>
+          </u>
+          <note n="7e1a796a">
+            Saknas — — — strafflagen.»
+          </note>
+          <u who="arvid_lindman_c824c1" xml:id="i-085ec44fda86f6a7-2" prev="i-085ec44fda86f6a7-0" n="085ec44f">
             <seg n="ad706168">
               Beträffande böterna ber jag att få framhålla, att vi icke föreslagit
               någon ändring, när allmän åklagare väcker åtal, och att, när skogsvårdsstyrelse
@@ -285,13 +292,7 @@
               Det är denna otydlighet, som mitt ändringsyrkande avser att rätta
               till.
             </seg>
-            <seg n="1bf93408">
-              Jag ber alltså, herr talman, att få framställa detta yrkande.
-            </seg>
           </u>
-          <note n="7e1a796a">
-            Saknas — — — strafflagen.»
-          </note>
           <note n="9e8e1a52">
             Nr 42,
           </note>
@@ -312,7 +313,7 @@
           <note n="67b1f4d4">
             ändring i förordningen om
           </note>
-          <note n="4b17f0e3">
+          <note type="date" n="0e6bc807">
             4 Lördagen den 26 maj, e. m.
           </note>
           <note n="57be74d9">
@@ -330,10 +331,15 @@
           <note n="616e9416">
             djur m. m. (Forts.)
           </note>
+          <u who="arvid_lindman_c824c1" xml:id="i-085ec44fda86f6a7-3" prev="i-085ec44fda86f6a7-0" n="085ec44f">
+            <seg n="1bf93408">
+              Jag ber alltså, herr talman, att få framställa detta yrkande.
+            </seg>
+          </u>
           <note type="speaker" n="18c68210">
             Herr Johansson i Kälkebo:
           </note>
-          <u who="olof_johansson_60e8b4" xml:id="i-d1c9d55312c040d7-0" n="f7f14719">
+          <u who="olof_johansson_60e8b4" xml:id="i-f7f1471920c0eb43-0" n="f7f14719">
             <seg n="93f7f975">
               Herr talman! Utskottets ordförande har här talat för sin reservation,
               som avser att utöver vad utskottet föreslagit utvidga rätten att
@@ -387,17 +393,17 @@
           <note type="speaker" n="3dad2672">
             Herr Johansson i Uppmälby:
           </note>
-          <u who="olof_johansson_60e8b4" xml:id="i-b5e31ed4c81d213f-0" next="i-378d4a25f8ee8405-0" n="f7f14719">
+          <u who="olof_johansson_60e8b4" xml:id="i-f7f1471920c0eb43-1" next="i-f7f1471920c0eb43-2" n="f7f14719">
             <seg n="2d3484fd">
               Herr talman! Frågan om skogsvårdsstyrelserna skola ha åtalsrätt
               synes åtminstone mig stå i ett nära
             </seg>
           </u>
           <pb n="4" facs="https://betalab.kb.se/prot-1923--ak--42/prot_1923__ak__42-004.jp2/_view"/>
-          <note n="f6b4f09b">
+          <note type="date" n="161abefa">
             Lördagen den 26 maj, e. m. 5
           </note>
-          <u who="olof_johansson_60e8b4" xml:id="i-378d4a25f8ee8405-0" prev="i-b5e31ed4c81d213f-0" n="f7f14719">
+          <u who="olof_johansson_60e8b4" xml:id="i-f7f1471920c0eb43-2" prev="i-f7f1471920c0eb43-1" n="f7f14719">
             <seg n="2dc131d3">
               samband med det beslut, som riksdagen i dag har fattat angående
               den allmänna skogsvårdslagen. Jag förstår icke, varför man skulle
@@ -426,7 +432,7 @@
           <note type="speaker" n="1d2efbd7">
             Herr Hage:
           </note>
-          <u who="ernst_hage_955b75" xml:id="i-c47247e825e99350-0" next="i-03dfa77b9457eb41-0" n="39b91c39">
+          <u who="ernst_hage_955b75" xml:id="i-39b91c394a7d5c8e-0" next="i-39b91c394a7d5c8e-2" n="39b91c39">
             <seg n="42539a36">
               Herr talman! Jag har begärt ordet för att säga, att såvitt jag
               kan förstå, gäller det här ändå något annat än att i allmänhet
@@ -465,16 +471,11 @@
             landstinget vilja vara med om detta, och då blir, tror jag, lagen
             i de:
           </note>
-          <u who="ernst_hage_955b75" xml:id="i-03dfa77b9457eb41-0" prev="i-c47247e825e99350-0" n="39b91c39">
+          <u who="ernst_hage_955b75" xml:id="i-39b91c394a7d5c8e-1" prev="i-39b91c394a7d5c8e-0" n="39b91c39">
             <seg n="d4fae4d1">
               allra flesta län en lag på papperet. Men detta sammanhänger därmed,
               att man inom utskottet haft den uppfattningen, att man borde ha
               det på det sättet, att endast när hushållningssällskapet och landstinget
-            </seg>
-            <seg n="af046b74">
-              hade en alldeles bestämd känsla av att det behövs en sådan lag,
-              då, men endast då, skall den såsom ett undantagsfall komma till
-              tillämpning 1 länet. Detta är innebörden i utskottets förslag.
             </seg>
           </u>
           <note n="9e8e1a52">
@@ -500,9 +501,16 @@
           <note n="7daf8bba">
             (Forts.)
           </note>
-          <note n="22b0dda9">
+          <note type="date" n="78f90ef3">
             6 Lördagen den 26 maj, e. m.
           </note>
+          <u who="ernst_hage_955b75" xml:id="i-39b91c394a7d5c8e-2" prev="i-39b91c394a7d5c8e-0" n="39b91c39">
+            <seg n="af046b74">
+              hade en alldeles bestämd känsla av att det behövs en sådan lag,
+              då, men endast då, skall den såsom ett undantagsfall komma till
+              tillämpning 1 länet. Detta är innebörden i utskottets förslag.
+            </seg>
+          </u>
           <note n="2293afea">
             Ja, herr talman, jag skall tillåta mig att med hänvisning till
             detta yrka bifall till utskottets förslag.
@@ -510,7 +518,7 @@
           <note type="speaker" n="532805b5">
             Herr Andersson i Rasjön:
           </note>
-          <u who="olof_andersson_b24b00" xml:id="i-89aaf58907ed812a-0" n="0c79c5d1">
+          <u who="olof_andersson_b24b00" xml:id="i-0c79c5d1ac376fd8-0" n="0c79c5d1">
             <seg n="83808270">
               Herr talman! Det är nog icke riktigt, såsom herr Hage förklarat,
               att denna lag skall bli en lag endast på papperet, ty vi äro ju
@@ -542,7 +550,7 @@
           <note type="speaker" n="e6b037f7">
             Herr Lindman:
           </note>
-          <u who="arvid_lindman_c824c1" xml:id="i-5f5b294bf9d8e0ad-1" next="i-7a15ca9c027ea238-1" n="085ec44f">
+          <u who="arvid_lindman_c824c1" xml:id="i-085ec44fda86f6a7-4" next="i-085ec44fda86f6a7-5" n="085ec44f">
             <seg n="d7a83e8b">
               Herr talman, mina herrar! Det är ju klart, att man vill, att
               det skall vara ett gott förhållande mellan skogsvårdsstyrelserna
@@ -564,10 +572,10 @@
             </seg>
           </u>
           <pb n="6" facs="https://betalab.kb.se/prot-1923--ak--42/prot_1923__ak__42-006.jp2/_view"/>
-          <note n="edf96279">
+          <note type="date" n="2d79589d">
             Lördagen den 26 maj, e. m, 7 Nr 42,
           </note>
-          <u who="arvid_lindman_c824c1" xml:id="i-7a15ca9c027ea238-1" prev="i-5f5b294bf9d8e0ad-1" n="085ec44f">
+          <u who="arvid_lindman_c824c1" xml:id="i-085ec44fda86f6a7-5" prev="i-085ec44fda86f6a7-4" n="085ec44f">
             <seg n="8d79b0d9">
               sen anmoda allmänna åklagaren. Men om denne icke vill eller icke
               Ang.
@@ -580,7 +588,7 @@
           <note type="speaker" n="18c68210">
             Herr Johansson i Kälkebo:
           </note>
-          <u who="olof_johansson_60e8b4" xml:id="i-d1c9d55312c040d7-1" n="f7f14719">
+          <u who="olof_johansson_60e8b4" xml:id="i-f7f1471920c0eb43-3" n="f7f14719">
             <seg n="8797af0e">
               Herr talman! Jag kan icke neka annans hemtill att jag måste anse,
               att vad den siste ärade talaren sade, föreföll djur mm: Ms mig
@@ -612,7 +620,7 @@
           <note type="speaker" n="91516061">
             Herr Sjöblom:
           </note>
-          <u who="per_henning_sjoblom_96c0a1" xml:id="i-9f46c5c3e38d0f38-0" next="i-9d0eee40cf6aed79-0" n="8b87e473">
+          <u who="per_henning_sjoblom_96c0a1" xml:id="i-8b87e47366e5a826-0" next="i-8b87e47366e5a826-1" n="8b87e473">
             <seg n="e4e8bd76">
               Ja, herr talman, jag vill blott tillägga till det som förut framhållits
               att genom denna skogsvårdslag, som nu antagits, och vidare genom
@@ -650,7 +658,7 @@
           <note n="67b1f4d4">
             ändring i förordningen om
           </note>
-          <note n="b20977c1">
+          <note type="date" n="903484fe">
             8 Lördagen den 26 maj, e. m.
           </note>
           <note n="312fffa8">
@@ -736,14 +744,14 @@
             inom första kammaren: nr 195 av herr Ingeström m. fl.,
           </note>
           <pb n="8" facs="https://betalab.kb.se/prot-1923--ak--42/prot_1923__ak__42-008.jp2/_view"/>
-          <note n="e19789b0">
+          <note type="date" n="ca1f832b">
             Lördagen den 26 maj, e. m. 9 Nr 42.
           </note>
           <note n="8143de3d">
             nr 201 av herr Johan Peter Johansson; och nr 207 av herr Enhörning;
             samt
           </note>
-          <u who="per_henning_sjoblom_96c0a1" xml:id="i-9d0eee40cf6aed79-0" prev="i-9f46c5c3e38d0f38-0" n="8b87e473">
+          <u who="per_henning_sjoblom_96c0a1" xml:id="i-8b87e47366e5a826-1" prev="i-8b87e47366e5a826-0" n="8b87e473">
             <seg n="73591045">
               inom andra kammaren:
             </seg>
@@ -789,7 +797,7 @@
           <note type="speaker" n="d1ac43eb">
             Herr Lindman, som yttrade:
           </note>
-          <u who="arvid_lindman_c824c1" xml:id="i-5f5b294bf9d8e0ad-2" next="i-7a15ca9c027ea238-2" n="085ec44f">
+          <u who="arvid_lindman_c824c1" xml:id="i-085ec44fda86f6a7-6" next="i-085ec44fda86f6a7-7" n="085ec44f">
             <seg n="688f7630">
               Herr talman! TI avseende å föredragningen av detta betänkande
               hemställes,
@@ -814,7 +822,7 @@
           <note n="83b70947">
             Denna hemställan bifölls.
           </note>
-          <u who="arvid_lindman_c824c1" xml:id="i-7a15ca9c027ea238-2" prev="i-5f5b294bf9d8e0ad-2" n="085ec44f">
+          <u who="arvid_lindman_c824c1" xml:id="i-085ec44fda86f6a7-7" prev="i-085ec44fda86f6a7-6" n="085ec44f">
             <seg n="97cf7124">
               Punkten A).
             </seg>
@@ -842,13 +850,13 @@
           <note n="52ade287">
             styrelser. (Forts.)
           </note>
-          <note n="d092a7f2">
+          <note type="date" n="660f97aa">
             10 Lördagen den 26 maj, e. m.
           </note>
           <note type="speaker" n="83781996">
             Herr Pettersson i Hällbacken:
           </note>
-          <u who="jakob_pettersson_24695e" xml:id="i-f6eebe4bc3cd140f-0" next="i-e110a9e823ed82c9-0" n="edfac573">
+          <u who="jakob_pettersson_24695e" xml:id="i-edfac5734f5e1e17-0" next="i-edfac5734f5e1e17-2" n="edfac573">
             <seg n="22e3d18e">
               Då riksdagen ingått för åvägabringandet av en för längre tid
               bestående skogslagsstiftning, som på ett ingripande sätt föreskriver
@@ -907,17 +915,22 @@
             </seg>
           </u>
           <pb n="10" facs="https://betalab.kb.se/prot-1923--ak--42/prot_1923__ak__42-010.jp2/_view"/>
-          <note n="bc8a469b">
+          <note type="date" n="1dbb7091">
             Lördagen den 26 maj, e. m. 11
           </note>
           <note n="9e8e1a52">
             Nr 42,
           </note>
-          <u who="jakob_pettersson_24695e" xml:id="i-e110a9e823ed82c9-0" prev="i-f6eebe4bc3cd140f-0" n="edfac573">
+          <u who="jakob_pettersson_24695e" xml:id="i-edfac5734f5e1e17-1" prev="i-edfac5734f5e1e17-0" n="edfac573">
             <seg n="619b0bb4">
               köper skog i ett annat, han först gör sig underrättad om huru
               i det Om förord-
             </seg>
+          </u>
+          <note n="a6f5f067">
+            sista området skogslagarna tillämpas av skogsvårdsstyrelsen.
+          </note>
+          <u who="jakob_pettersson_24695e" xml:id="i-edfac5734f5e1e17-2" prev="i-edfac5734f5e1e17-0" n="edfac573">
             <seg n="bf8ca12c">
               Ett annat moment, som jag i detta sammanhang icke kan underlåta
               att påtala, är att, då det gäller att från skogsvårdsavgifterna
@@ -936,13 +949,10 @@
               av detta ärende.
             </seg>
           </u>
-          <note n="a6f5f067">
-            sista området skogslagarna tillämpas av skogsvårdsstyrelsen.
-          </note>
           <note type="speaker" n="1d2efbd7">
             Herr Hage:
           </note>
-          <u who="ernst_hage_955b75" xml:id="i-c47247e825e99350-1" next="i-03dfa77b9457eb41-1" n="39b91c39">
+          <u who="ernst_hage_955b75" xml:id="i-39b91c394a7d5c8e-3" next="i-39b91c394a7d5c8e-4" n="39b91c39">
             <seg n="a7a7857d">
               Herr talman! Jag har vid 8 2 avgivit en reservation tillsammans
               med herr Andersson i Prästbol och eftersom man vid $ 1 har tillfälle
@@ -996,10 +1006,10 @@
           <note n="7daf8bba">
             (Forts.)
           </note>
-          <note n="29cd559a">
+          <note type="date" n="5eb449db">
             12 Lördagen den 26 maj, e. m.
           </note>
-          <u who="ernst_hage_955b75" xml:id="i-03dfa77b9457eb41-1" prev="i-c47247e825e99350-1" n="39b91c39">
+          <u who="ernst_hage_955b75" xml:id="i-39b91c394a7d5c8e-4" prev="i-39b91c394a7d5c8e-3" n="39b91c39">
             <seg n="254be30d">
               som regel fordrar högre skoglig utbildning för länsjägmästarebefattningen,
               men att man dock under vissa förhållanden tillåter, att en person
@@ -1035,7 +1045,7 @@
           <note type="speaker" n="e6b037f7">
             Herr Lindman:
           </note>
-          <u who="arvid_lindman_c824c1" xml:id="i-5f5b294bf9d8e0ad-3" next="i-7a15ca9c027ea238-3" n="085ec44f">
+          <u who="arvid_lindman_c824c1" xml:id="i-085ec44fda86f6a7-8" next="i-085ec44fda86f6a7-11" n="085ec44f">
             <seg n="55c138c6">
               Herr talman! Med avseende å det anförande, som herr Pettersson
               i Hällbacken hade, har jag intet att erinra däremot, då han enligt
@@ -1068,10 +1078,10 @@
             </seg>
           </u>
           <pb n="12" facs="https://betalab.kb.se/prot-1923--ak--42/prot_1923__ak__42-012.jp2/_view"/>
-          <note n="532b9114">
+          <note type="date" n="eb3533db">
             Lördagen den 26 maj, e. m. 13
           </note>
-          <u who="arvid_lindman_c824c1" xml:id="i-7a15ca9c027ea238-3" prev="i-5f5b294bf9d8e0ad-3" n="085ec44f">
+          <u who="arvid_lindman_c824c1" xml:id="i-085ec44fda86f6a7-9" prev="i-085ec44fda86f6a7-8" n="085ec44f">
             <seg n="0a879db9">
               träffande länsjägmästare i första stycket. — Jag kan, herr talman,
               icke förstå, att man över huvud taget skulle kunna hava någon
@@ -1086,6 +1096,12 @@
               lugnt kunna fatta sitt beslut i överensstämmelse med utskottets
               hemställan.
             </seg>
+          </u>
+          <note n="ebdc230a">
+            Vidare yttrades ej. Paragrafen godkändes. För 2 $ hade utskottet
+            föreslagit följande lydelse: 28.
+          </note>
+          <u who="arvid_lindman_c824c1" xml:id="i-085ec44fda86f6a7-10" prev="i-085ec44fda86f6a7-8" n="085ec44f">
             <seg n="0bf95945">
               Hos skogsvårdsstyrelse skall såsom biträde (länsjägmästare) vara
               anställd en skogligt bildad man, vilken avlagt fullständig avgångsexamen
@@ -1094,16 +1110,7 @@
               avgångsexamen från skogsinstitutets lägre kurs eller skogshögskolans
               forstmästarekurs.
             </seg>
-            <seg n="28bb1b72">
-              Hos skogsvårdsstyrelse skall såsom biträde (länsjägmästare) vara
-              anställd en skogligt bildad man, vilken avlagt fullständig avgångsexamen
-              från skogsinstitutets högre kurs eller skogshögskolans Jägmästarekurs.
-            </seg>
           </u>
-          <note n="ebdc230a">
-            Vidare yttrades ej. Paragrafen godkändes. För 2 $ hade utskottet
-            föreslagit följande lydelse: 28.
-          </note>
           <note n="c5bff2b1">
             Därjämte må skogsvårdsstyrelse, där så finnes erforderligt, anställa
             biträdande länsjägmästare med skoglig utbildning, som i första
@@ -1116,6 +1123,13 @@
           <note n="50cb4dd0">
             28.
           </note>
+          <u who="arvid_lindman_c824c1" xml:id="i-085ec44fda86f6a7-11" prev="i-085ec44fda86f6a7-8" n="085ec44f">
+            <seg n="28bb1b72">
+              Hos skogsvårdsstyrelse skall såsom biträde (länsjägmästare) vara
+              anställd en skogligt bildad man, vilken avlagt fullständig avgångsexamen
+              från skogsinstitutets högre kurs eller skogshögskolans Jägmästarekurs.
+            </seg>
+          </u>
           <note n="a06b9c68">
             Därjämte må skogsvårdsstyrelse, där så finnes erforderligt, anställa
             biträdande länsjägmästare; och må härtill utses jämväl person,
@@ -1128,7 +1142,7 @@
           <note type="speaker" n="9c9858e3">
             Herr Jansson i Edsbäcken:
           </note>
-          <u who="robert_jansson_379c60" xml:id="i-013406fa4e0d6d2b-0" next="i-f1944529de1f0f3d-0" n="91e9c83a">
+          <u who="robert_jansson_379c60" xml:id="i-91e9c83af60d6005-0" next="i-91e9c83af60d6005-1" n="91e9c83a">
             <seg n="3797333e">
               Herr talman! Som herrarna behagade finna har jag beträffande
               andra paragrafen väckt en motion, vari föreslagits, att skogsvårdsstyrelse
@@ -1153,10 +1167,10 @@
           <note n="472fb697">
             Om förordning ang. skogsvårdsstyrelser. (Forts.)
           </note>
-          <note n="b6e1a8af">
+          <note type="date" n="f744bf75">
             14 Lördagen den 26 maj, e. m.
           </note>
-          <u who="robert_jansson_379c60" xml:id="i-f1944529de1f0f3d-0" prev="i-013406fa4e0d6d2b-0" n="91e9c83a">
+          <u who="robert_jansson_379c60" xml:id="i-91e9c83af60d6005-1" prev="i-91e9c83af60d6005-0" n="91e9c83a">
             <seg n="1db3c5a9">
               mästare antagas den, som avlagt avgångsexamen från skogsinstitutets
               lägre kurs eller skogshögskolans forstmästarekurs.&gt; Nu hör jag
@@ -1181,7 +1195,7 @@
           <note type="speaker" n="e6b037f7">
             Herr Lindman:
           </note>
-          <u who="arvid_lindman_c824c1" xml:id="i-2d31806b470a7deb-0" n="085ec44f">
+          <u who="arvid_lindman_c824c1" xml:id="i-085ec44fda86f6a7-12" n="085ec44f">
             <seg n="49e58a9f">
               Herr talman! Åberopande vad jag nyss yttrade ber jag för min
               del att få yrka bifall till 2 $ oförändrad enligt utskottets förslag.
@@ -1217,17 +1231,17 @@
           <note type="speaker" n="9a296865">
             . Herr Lindman, som yttrade:
           </note>
-          <u who="arvid_lindman_c824c1" xml:id="i-5f5b294bf9d8e0ad-4" next="i-7a15ca9c027ea238-4" n="085ec44f">
+          <u who="arvid_lindman_c824c1" xml:id="i-085ec44fda86f6a7-13" next="i-085ec44fda86f6a7-14" n="085ec44f">
             <seg n="474f832f">
               Herr talman! TI $ 8 står det i andra stycket, att berättelsen
               angående revisionen av skogsvårdssty-
             </seg>
           </u>
           <pb n="14" facs="https://betalab.kb.se/prot-1923--ak--42/prot_1923__ak__42-014.jp2/_view"/>
-          <note n="545ab7eb">
+          <note type="date" n="ff5bb86b">
             Lördagen den 26 maj, e. m. 15
           </note>
-          <u who="arvid_lindman_c824c1" xml:id="i-7a15ca9c027ea238-4" prev="i-5f5b294bf9d8e0ad-4" n="085ec44f">
+          <u who="arvid_lindman_c824c1" xml:id="i-085ec44fda86f6a7-14" prev="i-085ec44fda86f6a7-13" n="085ec44f">
             <seg n="6c8ee63b">
               relsens förvaltning skall »till trycket befordras samt dels utdelas
               bland ledamöterna i landstinget och vederbörande hushållningssällskap
@@ -1303,7 +1317,7 @@
           <note n="e36d7052">
             Ang. skydd för partibeteckning vid allmänna val.
           </note>
-          <note n="9b256177">
+          <note type="date" n="a86fdac7">
             16 Lördagen den 26 maj, e. m.
           </note>
           <note n="6a684c20">
@@ -1318,7 +1332,7 @@
           <note type="speaker" n="154499ea">
             Herr Olsson i Gävle:
           </note>
-          <u who="valerius_olsson_5015ad" xml:id="i-c5eef7e8b398b465-0" next="i-f3e271e9c1eea83f-0" n="ae386522">
+          <u who="valerius_olsson_5015ad" xml:id="i-a7a7e841c3960711-0" next="i-a7a7e841c3960711-2" n="ae386522">
             <seg n="7839098a">
               Herr talman, mina herrar! Redan 1913 års sakkunniga, som skulle
               utreda de eventuella förändringar i valmetoden, vartill 1910 och
@@ -1367,10 +1381,10 @@
             </seg>
           </u>
           <pb n="16" facs="https://betalab.kb.se/prot-1923--ak--42/prot_1923__ak__42-016.jp2/_view"/>
-          <note n="e6697a50">
+          <note type="date" n="351602fb">
             Lördagen den 26 maj, e. m. 17
           </note>
-          <u who="valerius_olsson_5015ad" xml:id="i-f3e271e9c1eea83f-0" prev="i-c5eef7e8b398b465-0" n="ae386522">
+          <u who="valerius_olsson_5015ad" xml:id="i-a7a7e841c3960711-1" prev="i-a7a7e841c3960711-0" n="ae386522">
             <seg n="7552b368">
               för partibeteckning utan det påhäng, som underpartibeteckning
               och de officiella valsedlarna utgöra. Konstitutionsutskottet säger
@@ -1424,6 +1438,30 @@
               har åstadkommit ett resultat, som ingen från början velat tänka
               sig.
             </seg>
+          </u>
+          <note n="aa25fa38">
+            Andra kammarens protokoll 1923. Nr 42. 2
+          </note>
+          <note n="5316a5cf">
+            ka
+          </note>
+          <note n="9e8e1a52">
+            Nr 42,
+          </note>
+          <note n="1f1db22e">
+            Ang. skydd för partibeteckning vid allmänna val. (Forts.)
+          </note>
+          <pb n="17" facs="https://betalab.kb.se/prot-1923--ak--42/prot_1923__ak__42-017.jp2/_view"/>
+          <note n="9e8e1a52">
+            Nr 42,
+          </note>
+          <note n="1f1db22e">
+            Ang. skydd för partibeteckning vid allmänna val. (Forts.)
+          </note>
+          <note type="date" n="875597ba">
+            18 Lördagen den 26 maj, e. m.
+          </note>
+          <u who="valerius_olsson_5015ad" xml:id="i-a7a7e841c3960711-2" prev="i-a7a7e841c3960711-0" n="ae386522">
             <seg n="b1a02289">
               Man har nu sagt, att den motion, som jag här väckt, har för avsikt
               att hindra all samverkan mellan olika partier. Visst icke. Jag
@@ -1476,32 +1514,10 @@
               Herr talman, jag har intet yrkande.
             </seg>
           </u>
-          <note n="aa25fa38">
-            Andra kammarens protokoll 1923. Nr 42. 2
-          </note>
-          <note n="5316a5cf">
-            ka
-          </note>
-          <note n="9e8e1a52">
-            Nr 42,
-          </note>
-          <note n="1f1db22e">
-            Ang. skydd för partibeteckning vid allmänna val. (Forts.)
-          </note>
-          <pb n="17" facs="https://betalab.kb.se/prot-1923--ak--42/prot_1923__ak__42-017.jp2/_view"/>
-          <note n="9e8e1a52">
-            Nr 42,
-          </note>
-          <note n="1f1db22e">
-            Ang. skydd för partibeteckning vid allmänna val. (Forts.)
-          </note>
-          <note n="dd637663">
-            18 Lördagen den 26 maj, e. m.
-          </note>
           <note type="speaker" n="17655ae2">
             Herr Sävström:
           </note>
-          <u who="august_savstrom_ddaf2c" xml:id="i-4c90cebbd50d2f83-0" next="i-c09e8c1628b2d6ba-0" n="b05bc235">
+          <u who="august_savstrom_ddaf2c" xml:id="i-b05bc235c3260903-0" next="i-b05bc235c3260903-1" n="b05bc235">
             <seg n="30e4939d">
               Herr talman! Då utskottets ordförande inte är närvarande i kväll,
               skall jag be att med några ord få svara på det yttrande, som motionären
@@ -1510,10 +1526,10 @@
             </seg>
           </u>
           <pb n="18" facs="https://betalab.kb.se/prot-1923--ak--42/prot_1923__ak__42-018.jp2/_view"/>
-          <note n="2dbb0ff1">
+          <note type="date" n="edd277e8">
             Lördagen den 26 maj, e. m. 19
           </note>
-          <u who="august_savstrom_ddaf2c" xml:id="i-c09e8c1628b2d6ba-0" prev="i-4c90cebbd50d2f83-0" n="b05bc235">
+          <u who="august_savstrom_ddaf2c" xml:id="i-b05bc235c3260903-1" prev="i-b05bc235c3260903-0" n="b05bc235">
             <seg n="4742d68b">
               ning. Jag vill då nämna, att 1918 års riksdagsskrivelse innehöll
               icke endast detta krav om skydd för partibeteckning, utan också
@@ -1581,7 +1597,7 @@
           <note type="speaker" n="774e047b">
             Herr Pettersson i Köping:
           </note>
-          <u who="jakob_pettersson_24695e" xml:id="i-f6eebe4bc3cd140f-1" next="i-e110a9e823ed82c9-1" n="edfac573">
+          <u who="jakob_pettersson_24695e" xml:id="i-edfac5734f5e1e17-3" next="i-edfac5734f5e1e17-11" n="edfac573">
             <seg n="c8c16851">
               Herr talman! Då utskottet enhälligt avslagit den här föreliggande
               motionen, torde det kanske inte vara så värst stora utsikter att
@@ -1594,16 +1610,27 @@
           <note n="34375ba2">
             Ang. skydd för partibeteckning vid" allmänna val: (Forts.)
           </note>
-          <u who="jakob_pettersson_24695e" xml:id="i-e110a9e823ed82c9-1" prev="i-f6eebe4bc3cd140f-1" n="edfac573">
+          <u who="jakob_pettersson_24695e" xml:id="i-edfac5734f5e1e17-4" prev="i-edfac5734f5e1e17-3" n="edfac573">
             <seg n="a9662f4c">
               Ang. sänkning av räntan å vissa lån från pensionsförsäkringsfonden.
             </seg>
+          </u>
+          <pb n="19" facs="https://betalab.kb.se/prot-1923--ak--42/prot_1923__ak__42-019.jp2/_view"/>
+          <note n="3ebaf398">
+            Nr 42.
+          </note>
+          <u who="jakob_pettersson_24695e" xml:id="i-edfac5734f5e1e17-5" prev="i-edfac5734f5e1e17-3" n="edfac573">
             <seg n="fe3f4038">
               Ang. sänkning av räntan å vissa lån från pensionsförsälcringsfonden.
             </seg>
             <seg n="36a991f6">
               (Forts.)
             </seg>
+          </u>
+          <note type="date" n="e75c3855">
+            20 Lördagen den 26 maj, e. m.
+          </note>
+          <u who="jakob_pettersson_24695e" xml:id="i-edfac5734f5e1e17-6" prev="i-edfac5734f5e1e17-3" n="edfac573">
             <seg n="b2ce6e37">
               kammaren med på ett bifall. Som utskottet närmast synes grunda
               sitt avslagsyrkande på ett yttrande, avgivet av pensionsfullmäktige
@@ -1661,6 +1688,12 @@
               1919 i ganska stor utsträckning kunna jämnställas med de byggnadskostnader,
               som gällde
             </seg>
+          </u>
+          <pb n="20" facs="https://betalab.kb.se/prot-1923--ak--42/prot_1923__ak__42-020.jp2/_view"/>
+          <note type="date" n="8af3252f">
+            Lördagen den 26 maj, e. m. 21 Nr 42.
+          </note>
+          <u who="jakob_pettersson_24695e" xml:id="i-edfac5734f5e1e17-7" prev="i-edfac5734f5e1e17-3" n="edfac573">
             <seg n="aeded06e">
               åtminstone under senare delen av 1921. Dessutom få vi komma ihåg,
               Ang.
@@ -1726,10 +1759,21 @@
               Det är också tydligt, att pensionslånefonden den gången gick
               låntagarna till mötes så långt som möjligt, ty om man granskar
             </seg>
+          </u>
+          <pb n="21" facs="https://betalab.kb.se/prot-1923--ak--42/prot_1923__ak__42-021.jp2/_view"/>
+          <note type="date" n="a92b65e8">
+            Nr 42, 22 Lördagen den 26 maj, e. m.
+          </note>
+          <u who="jakob_pettersson_24695e" xml:id="i-edfac5734f5e1e17-8" prev="i-edfac5734f5e1e17-3" n="edfac573">
             <seg n="182ce00b">
               Ang. sänkning av räntan å vissa lån från pensiongförsäkringsfonden.
               (Forts.)
             </seg>
+          </u>
+          <note n="1f984c5c">
+            Ang. lag om sparbanker m. m.
+          </note>
+          <u who="jakob_pettersson_24695e" xml:id="i-edfac5734f5e1e17-9" prev="i-edfac5734f5e1e17-3" n="edfac573">
             <seg n="296b96ba">
               räntesatserna, som åsattes dessa lån och jämför dem med de räntesatser,
               som då i allmänhet voro gällande på penningmarknaden, så skall
@@ -1761,31 +1805,7 @@
               i sin motivering skall jag nöja mig med att helt kort yrka bifall
               till utskottets förslag.
             </seg>
-            <seg n="260f8d4e">
-              inom första kammaren:
-            </seg>
-            <seg n="73591045">
-              inom andra kammaren:
-            </seg>
           </u>
-          <pb n="19" facs="https://betalab.kb.se/prot-1923--ak--42/prot_1923__ak__42-019.jp2/_view"/>
-          <note n="3ebaf398">
-            Nr 42.
-          </note>
-          <note n="1e134f1a">
-            20 Lördagen den 26 maj, e. m.
-          </note>
-          <pb n="20" facs="https://betalab.kb.se/prot-1923--ak--42/prot_1923__ak__42-020.jp2/_view"/>
-          <note n="884c727a">
-            Lördagen den 26 maj, e. m. 21 Nr 42.
-          </note>
-          <pb n="21" facs="https://betalab.kb.se/prot-1923--ak--42/prot_1923__ak__42-021.jp2/_view"/>
-          <note n="8dc2dce4">
-            Nr 42, 22 Lördagen den 26 maj, e. m.
-          </note>
-          <note n="1f984c5c">
-            Ang. lag om sparbanker m. m.
-          </note>
           <note n="09465c32">
             Efter härmed slutad överläggning gav herr talmannen propositioner
             först på bifall till utskottets hemställan samt vidare på bifall
@@ -1825,7 +1845,7 @@
             hänvisats till bankoutskottet, hade Kungl. Maj:t, under åbe-
           </note>
           <pb n="22" facs="https://betalab.kb.se/prot-1923--ak--42/prot_1923__ak__42-022.jp2/_view"/>
-          <note n="6d914cd0">
+          <note type="date" n="588ff097">
             Lördagen den 26 maj, e. m. 23
           </note>
           <note n="a15cded0">
@@ -1845,6 +1865,11 @@
             upptagit jämväl följande i anledning av propositionen väckta,
             tiil utskottet likaledes hänvisade motioner, nämligen
           </note>
+          <u who="jakob_pettersson_24695e" xml:id="i-edfac5734f5e1e17-10" prev="i-edfac5734f5e1e17-3" n="edfac573">
+            <seg n="260f8d4e">
+              inom första kammaren:
+            </seg>
+          </u>
           <note n="d0d20f86">
             nr 154, av herrar Strutz och von Stockenström:;
           </note>
@@ -1852,6 +1877,11 @@
             nr 155, av herr Johan Bernhard Johansson m. fl.; och nr 156,
             av herr Johan Bernhard Johansson; samt
           </note>
+          <u who="jakob_pettersson_24695e" xml:id="i-edfac5734f5e1e17-11" prev="i-edfac5734f5e1e17-3" n="edfac573">
+            <seg n="73591045">
+              inom andra kammaren:
+            </seg>
+          </u>
           <note n="b00485df">
             nr 204, av herr Olsson i Kullenbergstorp m. fl.;
           </note>
@@ -1893,7 +1923,7 @@
           <note type="speaker" n="cf47ec07">
             Herr Eriksson i Grängesberg, som yttrade:
           </note>
-          <u who="johan_bernhard_eriksson_26d1af" xml:id="i-b132eaff59ed6f64-0" n="81d26c31">
+          <u who="johan_bernhard_eriksson_26d1af" xml:id="i-81d26c3172c5b7ca-0" n="81d26c31">
             <seg n="7a1d1385">
               Herr talman! I RE å föredragningen av bankoutskottets utlåtande,
               nr 64, hemställes:
@@ -1931,7 +1961,7 @@
           <note n="ae5c6a7c">
             m. m. (Forts.)
           </note>
-          <note n="fde454b1">
+          <note type="date" n="8b41e9e8">
             24 Lördagen den 26 maj, e. m.
           </note>
           <note n="a02a402a">
@@ -1955,7 +1985,7 @@
           <note type="speaker" n="1dcc200d">
             Herr Eriksson i Grängesberg:
           </note>
-          <u who="johan_bernhard_eriksson_26d1af" xml:id="i-6d0eb5a3a595a3fd-0" next="i-f0fb84b228011e44-0" n="81d26c31">
+          <u who="johan_bernhard_eriksson_26d1af" xml:id="i-81d26c3172c5b7ca-1" next="i-81d26c3172c5b7ca-5" n="81d26c31">
             <seg n="c2c33e6e">
               Herr talman! Den fråga vi nu gå att behandla, låg, som vi veta,
               på kamrarnas bord även i fjol, men avvisades då av riksdagen.
@@ -2004,10 +2034,10 @@
             </seg>
           </u>
           <pb n="24" facs="https://betalab.kb.se/prot-1923--ak--42/prot_1923__ak__42-024.jp2/_view"/>
-          <note n="f55744f5">
+          <note type="date" n="c7d881ad">
             Lördagen den 26 maj, e. m. 25
           </note>
-          <u who="johan_bernhard_eriksson_26d1af" xml:id="i-f0fb84b228011e44-0" prev="i-6d0eb5a3a595a3fd-0" n="81d26c31">
+          <u who="johan_bernhard_eriksson_26d1af" xml:id="i-81d26c3172c5b7ca-2" prev="i-81d26c3172c5b7ca-1" n="81d26c31">
             <seg n="c56345d3">
               dylik inspektör vore obehövlig, andra ha ansett att en dylik
               inspektör borde lyda under bankinspektionen, och slutligen har
@@ -2059,11 +2089,34 @@
               den erfarenhet, som denne inspektör skulle få, skulle han lätt
               märka de missgrepp, som komme att göras. Dessa missgrepp
             </seg>
+          </u>
+          <note n="9e8e1a52">
+            Nr 42,
+          </note>
+          <note n="1f984c5c">
+            Ang. lag om sparbanker m. m.
+          </note>
+          <note n="7daf8bba">
+            (Forts.)
+          </note>
+          <pb n="25" facs="https://betalab.kb.se/prot-1923--ak--42/prot_1923__ak__42-025.jp2/_view"/>
+          <note n="9e8e1a52">
+            Nr 42,
+          </note>
+          <note type="date" n="0165489d">
+            26 Lördagen den 26 maj, e. m.
+          </note>
+          <u who="johan_bernhard_eriksson_26d1af" xml:id="i-81d26c3172c5b7ca-3" prev="i-81d26c3172c5b7ca-1" n="81d26c31">
             <seg n="a75dde6c">
               Ang. lag om hade han att rätta. Han kan giva råd till andra bankers
               tillsyningssparbanker män, så att på ett håll gjorda missgrepp
               icke upprepas. Det förefal-
             </seg>
+          </u>
+          <note n="dcfd9dd4">
+            m. Mm. (Forts.)
+          </note>
+          <u who="johan_bernhard_eriksson_26d1af" xml:id="i-81d26c3172c5b7ca-4" prev="i-81d26c3172c5b7ca-1" n="81d26c31">
             <seg n="547df05b">
               ler åtminstone mig, att det skulle vara av betydande värde att
               få en sådan konsulterande rådgivande person i denna ställning,
@@ -2120,6 +2173,12 @@
               sparbanker och sparbanksmän, för vilka dylik inspektion ansetts
               nödig.
             </seg>
+          </u>
+          <pb n="26" facs="https://betalab.kb.se/prot-1923--ak--42/prot_1923__ak__42-026.jp2/_view"/>
+          <note type="date" n="f5b3c94c">
+            Lördagen den 26 maj, e. m. 27
+          </note>
+          <u who="johan_bernhard_eriksson_26d1af" xml:id="i-81d26c3172c5b7ca-5" prev="i-81d26c3172c5b7ca-1" n="81d26c31">
             <seg n="269452b6">
               Det är ju så att Danmarks, Norges och Finlands sparbanker äro
               fotade på ungefär samma grunder som Sveriges. Jag vet mycket väl,
@@ -2140,29 +2199,6 @@
               även i vårt land ett dylikt behov föreligger.
             </seg>
           </u>
-          <note n="9e8e1a52">
-            Nr 42,
-          </note>
-          <note n="1f984c5c">
-            Ang. lag om sparbanker m. m.
-          </note>
-          <note n="7daf8bba">
-            (Forts.)
-          </note>
-          <pb n="25" facs="https://betalab.kb.se/prot-1923--ak--42/prot_1923__ak__42-025.jp2/_view"/>
-          <note n="9e8e1a52">
-            Nr 42,
-          </note>
-          <note n="496be5fa">
-            26 Lördagen den 26 maj, e. m.
-          </note>
-          <note n="dcfd9dd4">
-            m. Mm. (Forts.)
-          </note>
-          <pb n="26" facs="https://betalab.kb.se/prot-1923--ak--42/prot_1923__ak__42-026.jp2/_view"/>
-          <note n="bfacdd5e">
-            Lördagen den 26 maj, e. m. 27
-          </note>
           <note n="0c6f675d">
             Jag skall, herr talman, icke nu vidare utveckla denna tanke,
             och jag kommer senare, herr talman, att framställa yrkande om
@@ -2175,7 +2211,7 @@
           <note type="speaker" n="bb279488">
             Herr Kloo:
           </note>
-          <u who="oskar_kloo_15894e" xml:id="i-dca9f164f7b5303d-0" next="i-170bbc4b7f25fa75-0" n="44bb2488">
+          <u who="oskar_kloo_15894e" xml:id="i-44bb2488bc20ecef-0" next="i-44bb2488bc20ecef-4" n="44bb2488">
             <seg n="565da9fd">
               Herr talman! Lika väl som utskottets ärade ordförande är jag
               av den meningen, att bankoutskottets utlåtande över denna lag
@@ -2226,10 +2262,10 @@
           <note n="7daf8bba">
             (Forts.)
           </note>
-          <note n="051d7da3">
+          <note type="date" n="daa74028">
             28 Lördagen den 26 maj, e. m.
           </note>
-          <u who="oskar_kloo_15894e" xml:id="i-170bbc4b7f25fa75-0" prev="i-dca9f164f7b5303d-0" n="44bb2488">
+          <u who="oskar_kloo_15894e" xml:id="i-44bb2488bc20ecef-1" prev="i-44bb2488bc20ecef-0" n="44bb2488">
             <seg n="931c0fba">
               ra uppgiften vore att vara ett slags reviderande eller kontrollerande
               person. Vad nu den första uppgiften beträffar eller att vara en
@@ -2287,6 +2323,12 @@
               honom i övrigt åliggande göromål, kunna inspektera mera än en
               sparbank i veckan, om inspektionen skall ske ordentligt och fullständigt,
             </seg>
+          </u>
+          <pb n="28" facs="https://betalab.kb.se/prot-1923--ak--42/prot_1923__ak__42-028.jp2/_view"/>
+          <note type="date" n="d766d39b">
+            Lördagen den 26 maj, e. m. 29
+          </note>
+          <u who="oskar_kloo_15894e" xml:id="i-44bb2488bc20ecef-2" prev="i-44bb2488bc20ecef-0" n="44bb2488">
             <seg n="8d14ea46">
               så att alla fonder, räkenskaper och utlåningsportföljer m. m.
               skola kunna granskas. Om man således medhinner en sparbank i veckan,
@@ -2343,6 +2385,24 @@
               sparhanksinspektören plus ombuden skulle tillsammans bli billigare,
               än
             </seg>
+          </u>
+          <note n="9e8e1a52">
+            Nr 42,
+          </note>
+          <note n="2788a5f3">
+            Ang. lag om sparbanker m. m. (Forts.)
+          </note>
+          <pb n="29" facs="https://betalab.kb.se/prot-1923--ak--42/prot_1923__ak__42-029.jp2/_view"/>
+          <note n="9e8e1a52">
+            Nr 42,
+          </note>
+          <note n="2788a5f3">
+            Ang. lag om sparbanker m. m. (Forts.)
+          </note>
+          <note type="date" n="521d3a3f">
+            30 Lördagen den 26 maj, e. m.
+          </note>
+          <u who="oskar_kloo_15894e" xml:id="i-44bb2488bc20ecef-3" prev="i-44bb2488bc20ecef-0" n="44bb2488">
             <seg n="ea6cd061">
               vad bara ombuden äro. Är det någon som kan utföra den uträkningen
               och upplysa mig i min okunnighet härvidlag, så skulle jag vara
@@ -2401,6 +2461,12 @@
               Han säger, att i våra grannländer har man infört en sådan sparbanksinspektör,
               och han undrade, om sparbankerna där äro sämre skötta
             </seg>
+          </u>
+          <pb n="30" facs="https://betalab.kb.se/prot-1923--ak--42/prot_1923__ak__42-030.jp2/_view"/>
+          <note type="date" n="149e14b8">
+            Lördagen den 26 maj, e. m. 31
+          </note>
+          <u who="oskar_kloo_15894e" xml:id="i-44bb2488bc20ecef-4" prev="i-44bb2488bc20ecef-0" n="44bb2488">
             <seg n="af4d4b26">
               än våra sparbanker. Ja, det skulle man nästan vara frestad att
               säga, att våra äro kanhända i mångt och mycket en smula bättre.
@@ -2418,34 +2484,10 @@
               framtiden mycket kostsamma sparbanksinspektör.
             </seg>
           </u>
-          <pb n="28" facs="https://betalab.kb.se/prot-1923--ak--42/prot_1923__ak__42-028.jp2/_view"/>
-          <note n="347209e3">
-            Lördagen den 26 maj, e. m. 29
-          </note>
-          <note n="9e8e1a52">
-            Nr 42,
-          </note>
-          <note n="2788a5f3">
-            Ang. lag om sparbanker m. m. (Forts.)
-          </note>
-          <pb n="29" facs="https://betalab.kb.se/prot-1923--ak--42/prot_1923__ak__42-029.jp2/_view"/>
-          <note n="9e8e1a52">
-            Nr 42,
-          </note>
-          <note n="2788a5f3">
-            Ang. lag om sparbanker m. m. (Forts.)
-          </note>
-          <note n="bd0996d6">
-            30 Lördagen den 26 maj, e. m.
-          </note>
-          <pb n="30" facs="https://betalab.kb.se/prot-1923--ak--42/prot_1923__ak__42-030.jp2/_view"/>
-          <note n="330b2e4c">
-            Lördagen den 26 maj, e. m. 31
-          </note>
           <note type="speaker" n="60ed49a3">
             Herr Strindlund:
           </note>
-          <u who="gerhard_strindlund_603828" xml:id="i-dd8bb78f065feedd-0" next="i-4493bb6dfb49673e-0" n="431d55aa">
+          <u who="gerhard_strindlund_603828" xml:id="i-431d55aac964de6a-0" next="i-431d55aac964de6a-4" n="431d55aa">
             <seg n="70f79871">
               Herr andre vice talman! Då jag är en av de fribytare, som under
               föregående riksdag förenade mig med dem inom bankoutskottet, som
@@ -2512,10 +2554,10 @@
           <note n="7daf8bba">
             (Forts.)
           </note>
-          <note n="7154868c">
+          <note type="date" n="9fcba25a">
             32 Lördagen den 26 maj, e. m.
           </note>
-          <u who="gerhard_strindlund_603828" xml:id="i-4493bb6dfb49673e-0" prev="i-dd8bb78f065feedd-0" n="431d55aa">
+          <u who="gerhard_strindlund_603828" xml:id="i-431d55aac964de6a-1" prev="i-431d55aac964de6a-0" n="431d55aa">
             <seg n="c846acaa">
               förfärligt stor entusiasm, det får jag ärligt bekänna. Men jag
               kan dock medge, att tidpunkten i år är så tillvida bättre, som
@@ -2572,6 +2614,12 @@
               men en tillväxt, där kanske stabiliteten hos desamma äventyrats.
               I propositionen har i år bl. a. föreslagits, att värdet utav växande
             </seg>
+          </u>
+          <pb n="32" facs="https://betalab.kb.se/prot-1923--ak--42/prot_1923__ak__42-032.jp2/_view"/>
+          <note type="date" n="2e0210f5">
+            Lördagen den 26 maj, e. m. 33
+          </note>
+          <u who="gerhard_strindlund_603828" xml:id="i-431d55aac964de6a-2" prev="i-431d55aac964de6a-0" n="431d55aa">
             <seg n="2b1269fd">
               skog, då det gäller jordbruksfastighet, icke skulle få medräknas
               bland de täckningsfria innehaven. Jag har icke — och i denna punkt
@@ -2625,6 +2673,33 @@
               något närmare ingå på den saken, då vi komma till 29 $, skall
               jag vid behandlingen av denna be att få återkomma.
             </seg>
+          </u>
+          <note n="4fcc86e7">
+            Andra kammarens protokoll 1923. Nr 49. 3
+          </note>
+          <note n="9e8e1a52">
+            Nr 42,
+          </note>
+          <note n="10b50f38">
+            Ang. lag om sparba nker m. m.
+          </note>
+          <note n="7daf8bba">
+            (Forts.)
+          </note>
+          <pb n="33" facs="https://betalab.kb.se/prot-1923--ak--42/prot_1923__ak__42-033.jp2/_view"/>
+          <note n="9e8e1a52">
+            Nr 42,
+          </note>
+          <note n="1f984c5c">
+            Ang. lag om sparbanker m. m.
+          </note>
+          <note n="7daf8bba">
+            (Forts.)
+          </note>
+          <note type="date" n="ba0156a3">
+            34 Lördagen den 26 maj, e. m.
+          </note>
+          <u who="gerhard_strindlund_603828" xml:id="i-431d55aac964de6a-3" prev="i-431d55aac964de6a-0" n="431d55aa">
             <seg n="8e24656b">
               Den tredje delen av lagförslaget handlar om tillsynen å sparbankerna.
               Denna är enligt Kungl. Maj:ts förslag fördelad mellan en sparbanksinspektör
@@ -2683,6 +2758,12 @@
               böra utses, som äga tillräcklig kompetens för uppdraget, och utskottet
               har
             </seg>
+          </u>
+          <pb n="34" facs="https://betalab.kb.se/prot-1923--ak--42/prot_1923__ak__42-034.jp2/_view"/>
+          <note type="date" n="37c68e7f">
+            Lördagen den 26 maj, e. m. 35
+          </note>
+          <u who="gerhard_strindlund_603828" xml:id="i-431d55aac964de6a-4" prev="i-431d55aac964de6a-0" n="431d55aa">
             <seg n="81650799">
               också på sätt och vis anvisat de medel, som härvidlag kunna behövas,
               då det införts bestämmelse om att kostnaderna skola delas mellan
@@ -2703,39 +2784,6 @@
               vid $ 29, där jag kommer att göra ett särskilt yrkande.
             </seg>
           </u>
-          <pb n="32" facs="https://betalab.kb.se/prot-1923--ak--42/prot_1923__ak__42-032.jp2/_view"/>
-          <note n="91d67711">
-            Lördagen den 26 maj, e. m. 33
-          </note>
-          <note n="4fcc86e7">
-            Andra kammarens protokoll 1923. Nr 49. 3
-          </note>
-          <note n="9e8e1a52">
-            Nr 42,
-          </note>
-          <note n="10b50f38">
-            Ang. lag om sparba nker m. m.
-          </note>
-          <note n="7daf8bba">
-            (Forts.)
-          </note>
-          <pb n="33" facs="https://betalab.kb.se/prot-1923--ak--42/prot_1923__ak__42-033.jp2/_view"/>
-          <note n="9e8e1a52">
-            Nr 42,
-          </note>
-          <note n="1f984c5c">
-            Ang. lag om sparbanker m. m.
-          </note>
-          <note n="7daf8bba">
-            (Forts.)
-          </note>
-          <note n="a1ddaef9">
-            34 Lördagen den 26 maj, e. m.
-          </note>
-          <pb n="34" facs="https://betalab.kb.se/prot-1923--ak--42/prot_1923__ak__42-034.jp2/_view"/>
-          <note n="a02c4e8b">
-            Lördagen den 26 maj, e. m. 35
-          </note>
           <note n="2851544f">
             Under detta anförande hade herr talmannen återtagit ledningen
             av förhandlingarna.
@@ -2743,7 +2791,7 @@
           <note type="speaker" n="831249c4">
             Herr Borggren:
           </note>
-          <u who="lars_borggren_204b6c" xml:id="i-cfbe0cf225a7e1e8-0" next="i-26de22ea33b36d46-0" n="deecc8b8">
+          <u who="lars_borggren_204b6c" xml:id="i-deecc8b8f135a3b0-0" next="i-deecc8b8f135a3b0-3" n="deecc8b8">
             <seg n="88795189">
               Herr talman! Ett förslag till sparbankslag förelåg ju redan vid
               förra årets riksdag, men blev då såväl avstyrkt av utskottet som
@@ -2797,14 +2845,22 @@
           <note n="d276aae5">
             NF 42,
           </note>
-          <note n="b3d67b6c">
+          <note type="date" n="b26cd954">
             36 Lördagen den 26 maj, e. m.
           </note>
-          <u who="lars_borggren_204b6c" xml:id="i-26de22ea33b36d46-0" prev="i-cfbe0cf225a7e1e8-0" n="deecc8b8">
+          <u who="lars_borggren_204b6c" xml:id="i-deecc8b8f135a3b0-1" prev="i-deecc8b8f135a3b0-0" n="deecc8b8">
             <seg n="db8ad1b8">
               Ang. lag om het än denne haft till sitt förfogande. Jag tror,
               att man skulle
             </seg>
+          </u>
+          <note n="0c007a23">
+            sparbanker m. m.
+          </note>
+          <note n="7daf8bba">
+            (Forts.)
+          </note>
+          <u who="lars_borggren_204b6c" xml:id="i-deecc8b8f135a3b0-2" prev="i-deecc8b8f135a3b0-0" n="deecc8b8">
             <seg n="184cd180">
               ha mycket gagn av en sådan befattning. Herr Kloo yttrade visserligen,
               att det skulle vara fråga om en rådgivande myndighet — och detta
@@ -2859,6 +2915,12 @@
               väg skulle få ett nytt ämbetsverk. Jag anser den sista farhågan
               ogrundad, och jag tror inte heller, att det skulle bli så dyrt,
             </seg>
+          </u>
+          <pb n="36" facs="https://betalab.kb.se/prot-1923--ak--42/prot_1923__ak__42-036.jp2/_view"/>
+          <note type="date" n="f8432624">
+            Lördagen den 26 maj, e. m. 37
+          </note>
+          <u who="lars_borggren_204b6c" xml:id="i-deecc8b8f135a3b0-3" prev="i-deecc8b8f135a3b0-0" n="deecc8b8">
             <seg n="ea3a549b">
               som man gjort gällande. Man räknade ut i utskottet, att sparbankerna
               skulle få bidraga med endast 50 kronor årligen. Då alltså summan
@@ -2873,20 +2935,10 @@
               endast att få yrka bifall till utskottets förslag i $ 1.
             </seg>
           </u>
-          <note n="0c007a23">
-            sparbanker m. m.
-          </note>
-          <note n="7daf8bba">
-            (Forts.)
-          </note>
-          <pb n="36" facs="https://betalab.kb.se/prot-1923--ak--42/prot_1923__ak__42-036.jp2/_view"/>
-          <note n="ba657774">
-            Lördagen den 26 maj, e. m. 37
-          </note>
           <note type="speaker" n="e9cb7b00">
             Herr Thorsson:
           </note>
-          <u who="fv_thorsson_e1328c" xml:id="i-e5501f5715b06765-0" next="i-8ae57deea285533a-0" n="4239cf29">
+          <u who="fv_thorsson_e1328c" xml:id="i-241c082af12b821f-0" next="i-241c082af12b821f-3" n="4239cf29">
             <seg n="8dde23da">
               Herr talman! Det utskottsutlåtande, som här föreligger, står
               i stort sett i anslutning till Kungl. Maj:ts förslag, om jag undantager
@@ -2952,7 +3004,7 @@
           <note n="9e8e1a52">
             Nr 42,
           </note>
-          <note n="9cb6f271">
+          <note type="date" n="4f88c0a0">
             38 Lördagen den 26 maj, e. m.
           </note>
           <note n="5561a6a5">
@@ -2965,7 +3017,7 @@
           <note n="7daf8bba">
             (Forts.)
           </note>
-          <u who="fv_thorsson_e1328c" xml:id="i-8ae57deea285533a-0" prev="i-e5501f5715b06765-0" n="4239cf29">
+          <u who="fv_thorsson_e1328c" xml:id="i-241c082af12b821f-1" prev="i-241c082af12b821f-0" n="4239cf29">
             <seg n="c610c6e2">
               1 ett par tre paragrafer, vilka ändringar mycket väl kunnat vidtagas
               i fjol, om icke bankoutskottet i fjol mera allmänt anslutit sig
@@ -3023,6 +3075,12 @@
               överhuvud taget icke kan ägna det intresse åt överinseendet av
               spar-
             </seg>
+          </u>
+          <pb n="38" facs="https://betalab.kb.se/prot-1923--ak--42/prot_1923__ak__42-038.jp2/_view"/>
+          <note type="date" n="0f4e4e1d">
+            Lördagen den 26 maj, e. m. 39
+          </note>
+          <u who="fv_thorsson_e1328c" xml:id="i-241c082af12b821f-2" prev="i-241c082af12b821f-0" n="4239cf29">
             <seg n="e0232bd9">
               banksverksamheten, som denna verksamhets utveckling i närvarande
               stund måste påkalla. Det är av den anledningen, jag har ansett
@@ -3080,6 +3138,30 @@
               vår bekännelse till den nationalekonomiska åskådning, som socialdemokraterna
               företräda, vid behandlingen av det här ärendet.
             </seg>
+          </u>
+          <note n="9e8e1a52">
+            Nr 42,
+          </note>
+          <note n="1f984c5c">
+            Ang. lag om sparbanker m. m.
+          </note>
+          <note n="7daf8bba">
+            (Forts.)
+          </note>
+          <pb n="39" facs="https://betalab.kb.se/prot-1923--ak--42/prot_1923__ak__42-039.jp2/_view"/>
+          <note n="9e8e1a52">
+            Nr 42,
+          </note>
+          <note n="1a5cdd55">
+            Ang. lag om sparban ker m. m.
+          </note>
+          <note n="7daf8bba">
+            (Forts.)
+          </note>
+          <note n="58b9a52b">
+            40 Lördagen den 26 möj, e. m.
+          </note>
+          <u who="fv_thorsson_e1328c" xml:id="i-241c082af12b821f-3" prev="i-241c082af12b821f-0" n="4239cf29">
             <seg n="4f988885">
               Jag skulle annars känna mig förfärligt illa tillstukad, ty jag
               räknar mig ju till socialdemokraterna också, om Jag på det viset
@@ -3138,36 +3220,10 @@
             </seg>
             <seg n="b4d0388d"/>
           </u>
-          <pb n="38" facs="https://betalab.kb.se/prot-1923--ak--42/prot_1923__ak__42-038.jp2/_view"/>
-          <note n="4330674f">
-            Lördagen den 26 maj, e. m. 39
-          </note>
-          <note n="9e8e1a52">
-            Nr 42,
-          </note>
-          <note n="1f984c5c">
-            Ang. lag om sparbanker m. m.
-          </note>
-          <note n="7daf8bba">
-            (Forts.)
-          </note>
-          <pb n="39" facs="https://betalab.kb.se/prot-1923--ak--42/prot_1923__ak__42-039.jp2/_view"/>
-          <note n="9e8e1a52">
-            Nr 42,
-          </note>
-          <note n="1a5cdd55">
-            Ang. lag om sparban ker m. m.
-          </note>
-          <note n="7daf8bba">
-            (Forts.)
-          </note>
-          <note n="58b9a52b">
-            40 Lördagen den 26 möj, e. m.
-          </note>
           <note type="speaker" n="e97b9c07">
             Herr Hamrin:
           </note>
-          <u who="felix_hamrin_08fc72" xml:id="i-fb9cbe116129003a-0" next="i-cb1b3f789b82b124-0" n="734bf0f3">
+          <u who="felix_hamrin_08fc72" xml:id="i-734bf0f3c3b0e57d-0" next="i-734bf0f3c3b0e57d-3" n="734bf0f3">
             <seg n="df6a88d1">
               Herr talman! Det var med stort intresse, som Jag för min del
               lyssnade till den föregående ärade tälärers anförande. Jag tror,
@@ -3176,10 +3232,10 @@
             </seg>
           </u>
           <pb n="40" facs="https://betalab.kb.se/prot-1923--ak--42/prot_1923__ak__42-040.jp2/_view"/>
-          <note n="e105b02c">
+          <note type="date" n="57afa756">
             Lördagen den 26 maj, e. m. 41
           </note>
-          <u who="felix_hamrin_08fc72" xml:id="i-cb1b3f789b82b124-0" prev="i-fb9cbe116129003a-0" n="734bf0f3">
+          <u who="felix_hamrin_08fc72" xml:id="i-734bf0f3c3b0e57d-1" prev="i-734bf0f3c3b0e57d-0" n="734bf0f3">
             <seg n="5d97aff9">
               vid handläggningen av detta ärende, ty om man erinrar sig behandlingen
               av sparbankslagen förra året, hade man väl skäl, förmodar jag,
@@ -3239,6 +3295,30 @@
               kostnaderna under den förutsättningen men också endast under denna
             </seg>
             <seg n="b4d0388d"/>
+          </u>
+          <note n="9e8e1a52">
+            Nr 42,
+          </note>
+          <note n="1f984c5c">
+            Ang. lag om sparbanker m. m.
+          </note>
+          <note n="7daf8bba">
+            (Forts.)
+          </note>
+          <pb n="41" facs="https://betalab.kb.se/prot-1923--ak--42/prot_1923__ak__42-041.jp2/_view"/>
+          <note n="3ebaf398">
+            Nr 42.
+          </note>
+          <note n="1f984c5c">
+            Ang. lag om sparbanker m. m.
+          </note>
+          <note n="7daf8bba">
+            (Forts.)
+          </note>
+          <note type="date" n="e2af4569">
+            42 Lördagen den 26 maj, e. m.
+          </note>
+          <u who="felix_hamrin_08fc72" xml:id="i-734bf0f3c3b0e57d-2" prev="i-734bf0f3c3b0e57d-0" n="734bf0f3">
             <seg n="ea798ca9">
               — att ett verkligt behov av den nya tjänsten uppstått. Men man
               kan väl ändå inte i detta fall påstå, att vissa svårigheter, som
@@ -3296,6 +3376,12 @@
               reglementen komma att innehålla bestämmelser därom, att vissa
               officiella institutioner skola utse ett antal huvudmän,
             </seg>
+          </u>
+          <pb n="42" facs="https://betalab.kb.se/prot-1923--ak--42/prot_1923__ak__42-042.jp2/_view"/>
+          <note type="date" n="9c39a1ad">
+            Lördagen den 26 maj, e. m. 43
+          </note>
+          <u who="felix_hamrin_08fc72" xml:id="i-734bf0f3c3b0e57d-3" prev="i-734bf0f3c3b0e57d-0" n="734bf0f3">
             <seg n="5be9eb6a">
               som sedan i sin ordning ha att utse styrelser. Det förekommer
               vidare i 8 25 särskilda bestämmelser om fondtäckningen, som uteslutande
@@ -3339,39 +3425,13 @@
               få yrka bifall till utskottets förslag.
             </seg>
           </u>
-          <note n="9e8e1a52">
-            Nr 42,
-          </note>
-          <note n="1f984c5c">
-            Ang. lag om sparbanker m. m.
-          </note>
-          <note n="7daf8bba">
-            (Forts.)
-          </note>
-          <pb n="41" facs="https://betalab.kb.se/prot-1923--ak--42/prot_1923__ak__42-041.jp2/_view"/>
-          <note n="3ebaf398">
-            Nr 42.
-          </note>
-          <note n="1f984c5c">
-            Ang. lag om sparbanker m. m.
-          </note>
-          <note n="7daf8bba">
-            (Forts.)
-          </note>
-          <note n="e0603b78">
-            42 Lördagen den 26 maj, e. m.
-          </note>
-          <pb n="42" facs="https://betalab.kb.se/prot-1923--ak--42/prot_1923__ak__42-042.jp2/_view"/>
-          <note n="5bf685f7">
-            Lördagen den 26 maj, e. m. 43
-          </note>
           <note n="3b17eb40">
             Herr Olofsson i Digernäs instämde häruti.
           </note>
           <note type="speaker" n="8a69f65c">
             Herr Lithander:
           </note>
-          <u who="edvard_lithander_35a588" xml:id="i-b8924e47e6285e7c-0" next="i-f32341ae9480d97a-0" n="a4fdef72">
+          <u who="edvard_lithander_35a588" xml:id="i-a4fdef72441201e8-0" next="i-a4fdef72441201e8-2" n="a4fdef72">
             <seg n="f6f1fb7a">
               Herr talman! Bankoutskottets ärade ordförande började sitt anförande
               med att säga — vad som för övrigt står i betänkandet — att vi
@@ -3399,7 +3459,7 @@
           <note n="9e8e1a52">
             Nr 42,
           </note>
-          <note n="760bbade">
+          <note type="date" n="45af9404">
             44 Lördagen den 26 maj, e. m.
           </note>
           <note n="5fc4ea3f">
@@ -3412,7 +3472,7 @@
           <note n="7daf8bba">
             (Forts.)
           </note>
-          <u who="edvard_lithander_35a588" xml:id="i-f32341ae9480d97a-0" prev="i-b8924e47e6285e7c-0" n="a4fdef72">
+          <u who="edvard_lithander_35a588" xml:id="i-a4fdef72441201e8-1" prev="i-a4fdef72441201e8-0" n="a4fdef72">
             <seg n="3e56e37a">
               ett betydligt säkrare sätt, än vad som ofta är fallet med affärsbankerna,
               som måste se till industriens och andra sådana behov. Jag har
@@ -3475,6 +3535,12 @@
             <seg n="2c3ddcc6">
               Ifråga om $ 29 skulle jag också vilja säga, att den siffra,
             </seg>
+          </u>
+          <pb n="44" facs="https://betalab.kb.se/prot-1923--ak--42/prot_1923__ak__42-044.jp2/_view"/>
+          <note type="date" n="de9640a2">
+            Lördagen den 26 maj, e. m. 45
+          </note>
+          <u who="edvard_lithander_35a588" xml:id="i-a4fdef72441201e8-2" prev="i-a4fdef72441201e8-0" n="a4fdef72">
             <seg n="f3b4fb76">
               som där förekommer, synes mig mycket godtycklig, nämligen att
               i kassareserven högst 100,000 kronor finge utgöras av inteckningar.
@@ -3522,10 +3588,6 @@
               till utskottets hemställan.
             </seg>
           </u>
-          <pb n="44" facs="https://betalab.kb.se/prot-1923--ak--42/prot_1923__ak__42-044.jp2/_view"/>
-          <note n="d28339a8">
-            Lördagen den 26 maj, e. m. 45
-          </note>
           <note n="bec85df6">
             Med herr Lithander förenade sig herrar Olsson i Berg och Persson
             i Fritorp.
@@ -3559,7 +3621,7 @@
           <note n="7daf8bba">
             (Forts.)
           </note>
-          <note n="7f63e407">
+          <note type="date" n="9c522d01">
             46 Lördagen den 26 maj, e. m.
           </note>
           <note n="38c1daaf">
@@ -3586,7 +3648,7 @@
           <note type="speaker" n="831249c4">
             Herr Borggren:
           </note>
-          <u who="lars_borggren_204b6c" xml:id="i-a10c0e8654b410ec-0" n="deecc8b8">
+          <u who="lars_borggren_204b6c" xml:id="i-deecc8b8f135a3b0-4" n="deecc8b8">
             <seg n="84daab0e">
               Herr talman! Jag ber att få yrka, att paragrafen måtte godkännas
               med den ändring. som jag och herr Bäcklund föreslagit i vår vid
@@ -3596,7 +3658,7 @@
           <note type="speaker" n="ebdb294e">
             | Herr Eriksson i Grängesberg:
           </note>
-          <u who="johan_bernhard_eriksson_26d1af" xml:id="i-6d0eb5a3a595a3fd-1" next="i-f0fb84b228011e44-1" n="81d26c31">
+          <u who="johan_bernhard_eriksson_26d1af" xml:id="i-81d26c3172c5b7ca-6" next="i-81d26c3172c5b7ca-7" n="81d26c31">
             <seg n="5d9744db">
               Herr talman! Jag ber att vid denna paragraf få yrka bifall till
               utskottets förslag.
@@ -3616,7 +3678,7 @@
           <note n="3e8a5e6f">
             $ 29.
           </note>
-          <u who="johan_bernhard_eriksson_26d1af" xml:id="i-f0fb84b228011e44-1" prev="i-6d0eb5a3a595a3fd-1" n="81d26c31">
+          <u who="johan_bernhard_eriksson_26d1af" xml:id="i-81d26c3172c5b7ca-7" prev="i-81d26c3172c5b7ca-6" n="81d26c31">
             <seg n="4a5144e0">
               Sparbank vare skyldig att i tillgångar, vilka kunna med lätthet
               förvandlas i penningar, redovisa ett belopp, som tillsammans med
@@ -3645,7 +3707,7 @@
           <note type="speaker" n="60ed49a3">
             Herr Strindlund:
           </note>
-          <u who="gerhard_strindlund_603828" xml:id="i-6b1e6ec15726159b-0" n="431d55aa">
+          <u who="gerhard_strindlund_603828" xml:id="i-431d55aac964de6a-5" n="431d55aa">
             <seg n="21d2d0d0">
               Herr talman! TI anslutning till min tidigare uttalade uppfattning,
               att förevarande paragraf, när den begränsar det innehav av inteckningar,
@@ -3663,7 +3725,7 @@
           <note type="speaker" n="1dcc200d">
             Herr Eriksson i Grängesberg:
           </note>
-          <u who="johan_bernhard_eriksson_26d1af" xml:id="i-6d0eb5a3a595a3fd-2" next="i-f0fb84b228011e44-2" n="81d26c31">
+          <u who="johan_bernhard_eriksson_26d1af" xml:id="i-81d26c3172c5b7ca-8" next="i-81d26c3172c5b7ca-9" n="81d26c31">
             <seg n="5cda5b08">
               Herr talman! Jag kan omöjligen förstå den senaste ärade talarens
               ovilja mot denna paragraf. Nog är det väl ändå en mer än berättigad
@@ -3699,7 +3761,7 @@
           <note n="f3a8b082">
             57 $ skulle enligt utskottets förslag lyda sålunda: 078:
           </note>
-          <u who="johan_bernhard_eriksson_26d1af" xml:id="i-f0fb84b228011e44-2" prev="i-6d0eb5a3a595a3fd-2" n="81d26c31">
+          <u who="johan_bernhard_eriksson_26d1af" xml:id="i-81d26c3172c5b7ca-9" prev="i-81d26c3172c5b7ca-8" n="81d26c31">
             <seg n="5c79cd79">
               Tillsynen över sparbank skall på sätt nedan stadgas utövas av
               Konungens befallningshavande i det län, där sparbankens styrelse
@@ -3729,7 +3791,7 @@
           <note n="7daf8bba">
             (Forts.)
           </note>
-          <note n="9da89d40">
+          <note type="date" n="e37e2d33">
             48 Lördagen den 26 maj, e m.
           </note>
           <note n="43aa8a97">
@@ -3747,7 +3809,7 @@
           <note type="speaker" n="1dcc200d">
             Herr Eriksson i Grängesberg:
           </note>
-          <u who="johan_bernhard_eriksson_26d1af" xml:id="i-b132eaff59ed6f64-1" n="81d26c31">
+          <u who="johan_bernhard_eriksson_26d1af" xml:id="i-81d26c3172c5b7ca-10" n="81d26c31">
             <seg n="7b7090d7">
               Herr talman! Ja, denna paragraf gäller den projekterade sparbanksinspektörens
               vara eller icke vara. Med hänvisning till vad såväl jag som andra
@@ -3759,7 +3821,7 @@
           <note type="speaker" n="e97b9c07">
             Herr Hamrin:
           </note>
-          <u who="felix_hamrin_08fc72" xml:id="i-e2ac93e46d484c39-0" n="734bf0f3">
+          <u who="felix_hamrin_08fc72" xml:id="i-734bf0f3c3b0e57d-4" n="734bf0f3">
             <seg n="31784bc6">
               Herr talman! Jag ber att med hänvisning till vad jag för en stund
               sedan yttrade få yrka bifall till utskottets hemställan i fråga
@@ -3769,7 +3831,7 @@
           <note type="speaker" n="bb279488">
             Herr Kloo:
           </note>
-          <u who="oskar_kloo_15894e" xml:id="i-dca9f164f7b5303d-1" next="i-170bbc4b7f25fa75-1" n="44bb2488">
+          <u who="oskar_kloo_15894e" xml:id="i-44bb2488bc20ecef-5" next="i-44bb2488bc20ecef-6" n="44bb2488">
             <seg n="ddc0f7ed">
               Herr talman! Även jag ber att med åberopande av vad jag förut
               anfört få yrka bifall till utskottets förslag.
@@ -3801,7 +3863,7 @@
             Återstående delar av lagförslaget. Godkändes.
           </note>
           <pb n="48" facs="https://betalab.kb.se/prot-1923--ak--42/prot_1923__ak__42-048.jp2/_view"/>
-          <note n="f038fd56">
+          <note type="date" n="a20a3e8c">
             Lördagen den 26 maj, e. m. 49 Nr 42,
           </note>
           <note n="335d8aa1">
@@ -3823,7 +3885,7 @@
             och ekonomisk förening att förvärva fast egendom, förening att
             dels ock en i ämnet väckt motion. Förstör. [a
           </note>
-          <u who="oskar_kloo_15894e" xml:id="i-170bbc4b7f25fa75-1" prev="i-dca9f164f7b5303d-1" n="44bb2488">
+          <u who="oskar_kloo_15894e" xml:id="i-44bb2488bc20ecef-6" prev="i-44bb2488bc20ecef-5" n="44bb2488">
             <seg n="53b1a0e8">
               ege .
             </seg>
@@ -3834,7 +3896,7 @@
           <note type="speaker" n="9e4ffe92">
             Herr Johanson i Huskvarna:
           </note>
-          <u who="oscar_johanson_18c7f6" xml:id="i-dd0c91980e9cf8e6-0" next="i-700cebd098946158-0" n="56cfd42c">
+          <u who="oscar_johanson_18c7f6" xml:id="i-56cfd42cf7cc54e8-0" next="i-56cfd42cf7cc54e8-2" n="56cfd42c">
             <seg n="19e456cc">
               Herr talman! Jag har tillsammans med en del andra ledamöter av
               kammaren väckt en motion i den föreliggande frågan, däri vi yrka,
@@ -3883,11 +3945,16 @@
           <note n="9e8e1a52">
             Nr 42,
           </note>
-          <u who="oscar_johanson_18c7f6" xml:id="i-700cebd098946158-0" prev="i-dd0c91980e9cf8e6-0" n="56cfd42c">
+          <u who="oscar_johanson_18c7f6" xml:id="i-56cfd42cf7cc54e8-1" prev="i-56cfd42cf7cc54e8-0" n="56cfd42c">
             <seg n="0716eb1e">
               Ang. förbud &gt; vissa fall för bolag och ekonomisk förening att
               förvärva fast egendom. (Forts.)
             </seg>
+          </u>
+          <note type="date" n="9ba7d6c8">
+            50 Lördagen den 26 maj, e. m.
+          </note>
+          <u who="oscar_johanson_18c7f6" xml:id="i-56cfd42cf7cc54e8-2" prev="i-56cfd42cf7cc54e8-0" n="56cfd42c">
             <seg n="811ae8ae">
               någon enskild kapitalstark person, som förklarat sig villig att,
               i händelse av avslag från Kungl. Maj:ts sida, övertaga det ifrågasatta
@@ -3935,13 +4002,10 @@
               herr talman, framställa något yrkande.
             </seg>
           </u>
-          <note n="06a0bfe8">
-            50 Lördagen den 26 maj, e. m.
-          </note>
           <note type="speaker" n="ffe2fdef">
             Herr Åkerlund:
           </note>
-          <u who="erik_akerlund_9f7d46" xml:id="i-6a12a79a5870ab00-0" next="i-b5f6e657a5c1c8a0-0" n="621f64e3">
+          <u who="erik_akerlund_9f7d46" xml:id="i-621f64e31cc84418-0" next="i-621f64e31cc84418-1" n="621f64e3">
             <seg n="a34b2b80">
               Herr talman! Jag hyser visserligen stora sympatier för kravet,
               att oegennyttiga egnahemsföreningar måtte erhålla så stor frihet
@@ -3961,7 +4025,7 @@
           <note n="b8e77c98">
             Lördagen den 26 måj, e in. 5T
           </note>
-          <u who="erik_akerlund_9f7d46" xml:id="i-b5f6e657a5c1c8a0-0" prev="i-6a12a79a5870ab00-0" n="621f64e3">
+          <u who="erik_akerlund_9f7d46" xml:id="i-621f64e31cc84418-1" prev="i-621f64e31cc84418-0" n="621f64e3">
             <seg n="06c84a3e">
               skall erhålla garanti för, att de, som sköta denna såk, göra
               det på ett oegennyttigt sätt utan att stoppa plånboken full. Frihet
@@ -3973,7 +4037,7 @@
           <note type="speaker" n="1fe4c68d">
             Herr Karlsson i Gasabäck:
           </note>
-          <u who="verner_karlsson_934de4" xml:id="i-aee0955c98d4771f-0" next="i-23064d9028dffed8-0" n="10d692e4">
+          <u who="verner_karlsson_934de4" xml:id="i-10d692e40d1d6fc8-0" next="i-10d692e40d1d6fc8-1" n="10d692e4">
             <seg n="ea2d24a0">
               Herr talman! Anledningen till att utskottet ieke kunnat biträda
               herr Johansons i Huskvarna m. fl. motion är ju den, att lagen
@@ -4021,7 +4085,7 @@
           <note n="cfde8604">
             $ 11.
           </note>
-          <u who="verner_karlsson_934de4" xml:id="i-23064d9028dffed8-0" prev="i-aee0955c98d4771f-0" n="10d692e4">
+          <u who="verner_karlsson_934de4" xml:id="i-10d692e40d1d6fc8-1" prev="i-10d692e40d1d6fc8-0" n="10d692e4">
             <seg n="092a7c73">
               Till bordläggning anmäldes:
             </seg>
@@ -4047,7 +4111,7 @@
           <note n="3ebaf398">
             Nr 42.
           </note>
-          <note n="7eb97bff">
+          <note type="date" n="7017785b">
             52 Lördagen den 20 maj, e. m.
           </note>
           <note n="15299c1e">

@@ -20,7 +20,7 @@
     <encodingDesc>
       <editorialDecl>
         <correction>
-          <p>Some data curation was done. It is documented in db/curation/instances</p>
+          <p>Some data curation was done. It is documented in input/curation/instances</p>
         </correction>
       </editorialDecl>
     </encodingDesc>
@@ -61,6 +61,7 @@
       </front>
       <body>
         <div>
+          <pb n="0" facs="https://betalab.kb.se/prot-198384--102/prot_198384__102-000.jp2/_view"/>
           <note n="b89b49f8"/>
           <note n="b89b49f8"/>
           <note n="51a0b003">
@@ -70,7 +71,7 @@
             1983/84:99-102 15-20 mars 1984
           </note>
           <note n="b89b49f8"/>
-          <note n="869a214a">
+          <note type="date" n="2354265a">
             Debatter m. m. Torsdagen den 15 mars
           </note>
           <note n="2227b188">
@@ -332,7 +333,7 @@
           <note n="d7b4f1b6">
             1983/84:102
           </note>
-          <note n="ded49317">
+          <note type="date" n="b6574fea">
             Tisdagen den 20 mars KL. 15.00
           </note>
           <note n="a94db499">
@@ -433,7 +434,7 @@
           <note type="speaker" n="2e74b947">
             Anf. 2 KERSTIN EKMAN (fp):
           </note>
-          <u who="kerstin_ekman_ca5d8a" xml:id="i-be887d3ed495aadc-0" next="i-106416ec7f71a5d2-0" n="600226f5">
+          <u who="kerstin_ekman_ca5d8a" xml:id="i-600226f557376952-0" next="i-600226f557376952-2" n="600226f5">
             <seg n="2e21e12c">
               Fru talman! Jag tackar socialministern för svaret.
             </seg>
@@ -475,7 +476,7 @@
           <note n="f58619ab">
             Anf. 3 Socialminister STEN ANDERSSON:
           </note>
-          <u who="kerstin_ekman_ca5d8a" xml:id="i-106416ec7f71a5d2-0" prev="i-be887d3ed495aadc-0" n="600226f5">
+          <u who="kerstin_ekman_ca5d8a" xml:id="i-600226f557376952-1" prev="i-600226f557376952-0" n="600226f5">
             <seg n="ff42b961">
               Fru talman! Förändringsarbetet är, som jag redan har sagt, i
               gång på det här området. Det behövs alltså inga nya initiativ.
@@ -500,7 +501,9 @@
               att förutse i regelsystemet. Om patienten i en sådan situation
               hade
             </seg>
-            <seg n="6a8fd35f"/>
+          </u>
+          <pb n="6" facs="https://betalab.kb.se/prot-198384--102/prot_198384__102-006.jp2/_view"/>
+          <u who="kerstin_ekman_ca5d8a" xml:id="i-600226f557376952-2" prev="i-600226f557376952-0" n="600226f5">
             <seg n="6a8fd35f"/>
             <seg n="aa089b73">
               uppmanats kontakta den ena av vårdgivarna, hade problemet antagligen
@@ -515,11 +518,10 @@
               någon att använda sitt sunda förnuft.
             </seg>
           </u>
-          <pb n="6" facs="https://betalab.kb.se/prot-198384--102/prot_198384__102-006.jp2/_view"/>
           <note type="speaker" n="22b75ea4">
             Anf. 4 KERSTIN EKMAN (fp):
           </note>
-          <u who="kerstin_ekman_ca5d8a" xml:id="i-be887d3ed495aadc-1" next="i-106416ec7f71a5d2-1" n="600226f5">
+          <u who="kerstin_ekman_ca5d8a" xml:id="i-600226f557376952-3" next="i-600226f557376952-6" n="600226f5">
             <seg n="245c4225">
               Fru talman! Jag är glad att socialministern är positiv. För patienternas
               på Gotland skull får vi väl hoppas att det blir en skyndsam handläggning,
@@ -540,7 +542,7 @@
           <note n="aac32106">
             Anf. 5 Arbetsmarknadsminister ANNA-GRETA LEIJON:
           </note>
-          <u who="kerstin_ekman_ca5d8a" xml:id="i-106416ec7f71a5d2-1" prev="i-be887d3ed495aadc-1" n="600226f5">
+          <u who="kerstin_ekman_ca5d8a" xml:id="i-600226f557376952-4" prev="i-600226f557376952-3" n="600226f5">
             <seg n="b5859a2b">
               Fru talman! Lars G. Ahlström har frågat mig om vilka åtgärder
               regeringen är beredd att vidta för att förhindra att subventionerad
@@ -580,12 +582,6 @@
               inom ramen för givna resurser välja produktion etc. som är lämplig
               för de arbetshandikappade.
             </seg>
-            <seg n="0b66c500">
-              Om subventioneringen av möbel-
-            </seg>
-            <seg n="63b10360">
-              ringen av möbelindustrin
-            </seg>
           </u>
           <note n="e37a086f">
             Nr 102
@@ -593,6 +589,11 @@
           <note type="date" n="ab8ee057">
             Tisdagen den 20 mars 1984
           </note>
+          <u who="kerstin_ekman_ca5d8a" xml:id="i-600226f557376952-5" prev="i-600226f557376952-3" n="600226f5">
+            <seg n="0b66c500">
+              Om subventioneringen av möbel-
+            </seg>
+          </u>
           <note n="05dd60da">
             industrin
           </note>
@@ -609,13 +610,18 @@
           <note n="a562ff37">
             Om subventione-
           </note>
+          <u who="kerstin_ekman_ca5d8a" xml:id="i-600226f557376952-6" prev="i-600226f557376952-3" n="600226f5">
+            <seg n="63b10360">
+              ringen av möbelindustrin
+            </seg>
+          </u>
           <note n="93d56a3b">
             96
           </note>
           <note type="speaker" n="adb330c5">
             Anf. 6 LARS AHLSTRÖM (m):
           </note>
-          <u who="lars_ahlstrom_5df09f" xml:id="i-5cca711b234b3a82-0" next="i-6507b54895922ce8-0" n="f192158f">
+          <u who="lars_ahlstrom_5df09f" xml:id="i-f192158f5eee5d96-0" next="i-f192158f5eee5d96-2" n="f192158f">
             <seg n="dc1f80e9">
               Fru talman! Jag ber att få tacka arbetsmarknadsministern för
               svaret, som dess värre inte gjorde vare sig mig eller den berörda
@@ -676,7 +682,7 @@
           <note n="b1d6ae6f">
             Anf. 7 Arbetsmarknadsminister ANNA-GRETA LEIJON:
           </note>
-          <u who="lars_ahlstrom_5df09f" xml:id="i-6507b54895922ce8-0" prev="i-5cca711b234b3a82-0" n="f192158f">
+          <u who="lars_ahlstrom_5df09f" xml:id="i-f192158f5eee5d96-1" prev="i-f192158f5eee5d96-0" n="f192158f">
             <seg n="69a66954">
               Fru talman! Lars Ahlström tackade för svaret, men av hans inlägg
               verkade det som om han varken hade läst svaret eller lyssnat när
@@ -690,7 +696,9 @@
             </seg>
             <seg n="6a8fd35f"/>
             <seg n="6a8fd35f"/>
-            <seg n="6a8fd35f"/>
+          </u>
+          <pb n="8" facs="https://betalab.kb.se/prot-198384--102/prot_198384__102-008.jp2/_view"/>
+          <u who="lars_ahlstrom_5df09f" xml:id="i-f192158f5eee5d96-2" prev="i-f192158f5eee5d96-0" n="f192158f">
             <seg n="6a8fd35f"/>
             <seg n="f4f87b4d">
               ute på arbetsmarknaden, som gärna skulle vilja se ett mindre
@@ -723,11 +731,10 @@
               har hänt på marknaden.
             </seg>
           </u>
-          <pb n="8" facs="https://betalab.kb.se/prot-198384--102/prot_198384__102-008.jp2/_view"/>
           <note type="speaker" n="7f9e85de">
             Anf. 8 LARS AHLSTRÖM (m):
           </note>
-          <u who="lars_ahlstrom_5df09f" xml:id="i-5cca711b234b3a82-1" next="i-6507b54895922ce8-1" n="f192158f">
+          <u who="lars_ahlstrom_5df09f" xml:id="i-f192158f5eee5d96-3" next="i-f192158f5eee5d96-6" n="f192158f">
             <seg n="130f761d">
               Fru talman! I mitt inlägg gav jag uttryck för den oro som branschen
               känner i dag — och där lever man ju i verkligheten. Jag sade också
@@ -757,16 +764,54 @@
           <note n="889ae774">
             Anf. 9 Arbetsmarknadsminister ANNA-GRETA LEIJON:
           </note>
-          <u who="lars_ahlstrom_5df09f" xml:id="i-6507b54895922ce8-1" prev="i-5cca711b234b3a82-1" n="f192158f">
+          <u who="lars_ahlstrom_5df09f" xml:id="i-f192158f5eee5d96-4" prev="i-f192158f5eee5d96-3" n="f192158f">
             <seg n="46b7e230">
               Fru talman! Bertil Fiskesjö har mot bakgrund av tidningsuppgifter
               om fackliga organisationers agerande i två fall frågat statsrådet
               Ingvar Carlsson om han är beredd att vidta åtgärder för att förhindra
               att den arbetsrättsliga
             </seg>
+          </u>
+          <note n="a7d29b0c">
+            7 Riksdagens protokoll 1983/84:99-102
+          </note>
+          <note n="e37a086f">
+            Nr 102
+          </note>
+          <note type="date" n="ab8ee057">
+            Tisdagen den 20 mars 1984
+          </note>
+          <note n="49c28bc7">
+            Om den enskildes
+          </note>
+          <note n="83e0ec7b">
+            frihet och arbets-
+          </note>
+          <note n="c1d9ffb5">
+            lagstiftningen
+          </note>
+          <note n="27a0a08d">
+            97
+          </note>
+          <pb n="9" facs="https://betalab.kb.se/prot-198384--102/prot_198384__102-009.jp2/_view"/>
+          <note n="e37a086f">
+            Nr 102
+          </note>
+          <note type="date" n="ab8ee057">
+            Tisdagen den 20 mars 1984
+          </note>
+          <note n="49c28bc7">
+            Om den enskildes
+          </note>
+          <u who="lars_ahlstrom_5df09f" xml:id="i-f192158f5eee5d96-5" prev="i-f192158f5eee5d96-3" n="f192158f">
             <seg n="2e8fe2bb">
               frihet och arbetslagstiftningen
             </seg>
+          </u>
+          <note n="d565d8ec">
+            98
+          </note>
+          <u who="lars_ahlstrom_5df09f" xml:id="i-f192158f5eee5d96-6" prev="i-f192158f5eee5d96-3" n="f192158f">
             <seg n="79042d42">
               lagstiftningen medför inskränkningar i den enskildes frihet.
               Arbetet inom regeringen är så fördelat att det är jag som skall
@@ -827,44 +872,10 @@
               betänkande i dessa frågor väntas i år.
             </seg>
           </u>
-          <note n="a7d29b0c">
-            7 Riksdagens protokoll 1983/84:99-102
-          </note>
-          <note n="e37a086f">
-            Nr 102
-          </note>
-          <note type="date" n="ab8ee057">
-            Tisdagen den 20 mars 1984
-          </note>
-          <note n="49c28bc7">
-            Om den enskildes
-          </note>
-          <note n="83e0ec7b">
-            frihet och arbets-
-          </note>
-          <note n="c1d9ffb5">
-            lagstiftningen
-          </note>
-          <note n="27a0a08d">
-            97
-          </note>
-          <pb n="9" facs="https://betalab.kb.se/prot-198384--102/prot_198384__102-009.jp2/_view"/>
-          <note n="e37a086f">
-            Nr 102
-          </note>
-          <note type="date" n="ab8ee057">
-            Tisdagen den 20 mars 1984
-          </note>
-          <note n="49c28bc7">
-            Om den enskildes
-          </note>
-          <note n="d565d8ec">
-            98
-          </note>
           <note type="speaker" n="0d4bfbe5">
             Anf. 10 BERTIL FISKESJÖ (c):
           </note>
-          <u who="bertil_fiskesjo_1d2691" xml:id="i-b4aeb429c413dff8-0" next="i-91b70029ca57f939-0" n="27324098">
+          <u who="bertil_fiskesjo_1d2691" xml:id="i-273240987b7fae3e-0" next="i-273240987b7fae3e-6" n="27324098">
             <seg n="0d7134ab">
               Fru talman! Jag är naturligtvis tacksam för att Anna-Greta Leijon
               tagit på sig uppgiften att svara på min fråga, och jag tackar
@@ -872,7 +883,9 @@
               skälet att han ganska ofta åker omkring
             </seg>
             <seg n="6a8fd35f"/>
-            <seg n="6a8fd35f"/>
+          </u>
+          <pb n="10" facs="https://betalab.kb.se/prot-198384--102/prot_198384__102-010.jp2/_view"/>
+          <u who="bertil_fiskesjo_1d2691" xml:id="i-273240987b7fae3e-1" prev="i-273240987b7fae3e-0" n="27324098">
             <seg n="6a8fd35f"/>
             <seg n="6341550f">
               och talar om frihet i allmänna ordalag, och jag hade här ett
@@ -927,11 +940,10 @@
               och jordnära frioch rättighet som vi alla bör slå vakt om.
             </seg>
           </u>
-          <pb n="10" facs="https://betalab.kb.se/prot-198384--102/prot_198384__102-010.jp2/_view"/>
           <note n="ef973109">
             Anf. 11 Arbetsmarknadsminister ANNA-GRETA LEIJON:
           </note>
-          <u who="bertil_fiskesjo_1d2691" xml:id="i-91b70029ca57f939-0" prev="i-b4aeb429c413dff8-0" n="27324098">
+          <u who="bertil_fiskesjo_1d2691" xml:id="i-273240987b7fae3e-2" prev="i-273240987b7fae3e-0" n="27324098">
             <seg n="7a57d8d9">
               Fru talman! När frågesvaret utarbetades läste vi naturligtvis
               de överenskommelser som Svenska riksidrottsförbundet och Svenska
@@ -942,13 +954,38 @@
               daghem. Det som Bertil Fiskesjö anser vara sunt förnuft är precis
               det som man uttalat i överenskom-
             </seg>
+          </u>
+          <note n="e37a086f">
+            Nr 102
+          </note>
+          <note type="date" n="ab8ee057">
+            Tisdagen den 20 mars 1984
+          </note>
+          <u who="bertil_fiskesjo_1d2691" xml:id="i-273240987b7fae3e-3" prev="i-273240987b7fae3e-0" n="27324098">
             <seg n="1c30eb8d">
               Om den enskildes frihet och arbetslagstiftningen
             </seg>
-            <seg n="6a8fd35f"/>
+          </u>
+          <pb n="11" facs="https://betalab.kb.se/prot-198384--102/prot_198384__102-011.jp2/_view"/>
+          <u who="bertil_fiskesjo_1d2691" xml:id="i-273240987b7fae3e-4" prev="i-273240987b7fae3e-0" n="27324098"/>
+          <note n="e37a086f">
+            Nr 102
+          </note>
+          <note type="date" n="ab8ee057">
+            Tisdagen den 20 mars 1984
+          </note>
+          <note n="cbae9628">
+            Om privatisering
+          </note>
+          <u who="bertil_fiskesjo_1d2691" xml:id="i-273240987b7fae3e-5" prev="i-273240987b7fae3e-0" n="27324098">
             <seg n="ba708d14">
               av nedläggningshotade järnvägslinjer
             </seg>
+          </u>
+          <note n="ad0fb7ae">
+            100
+          </note>
+          <u who="bertil_fiskesjo_1d2691" xml:id="i-273240987b7fae3e-6" prev="i-273240987b7fae3e-0" n="27324098">
             <seg n="443c1910">
               melsen och i det beslut som Kommunalarbetareförbundet har fattat.
               När det gäller de materiella frågorna kan jag inte finna att Kommunalarbetareförbundet
@@ -967,29 +1004,10 @@
               som både Bertil Fiskesjö och jag har sagt här.
             </seg>
           </u>
-          <note n="e37a086f">
-            Nr 102
-          </note>
-          <note type="date" n="ab8ee057">
-            Tisdagen den 20 mars 1984
-          </note>
-          <pb n="11" facs="https://betalab.kb.se/prot-198384--102/prot_198384__102-011.jp2/_view"/>
-          <note n="e37a086f">
-            Nr 102
-          </note>
-          <note type="date" n="ab8ee057">
-            Tisdagen den 20 mars 1984
-          </note>
-          <note n="cbae9628">
-            Om privatisering
-          </note>
-          <note n="ad0fb7ae">
-            100
-          </note>
           <note type="speaker" n="85aab28d">
             Anf. 12 BERTIL FISKESJÖ (c):
           </note>
-          <u who="bertil_fiskesjo_1d2691" xml:id="i-b4aeb429c413dff8-1" next="i-91b70029ca57f939-1" n="27324098">
+          <u who="bertil_fiskesjo_1d2691" xml:id="i-273240987b7fae3e-7" next="i-273240987b7fae3e-9" n="27324098">
             <seg n="1e641753">
               Fru talman! Jag ber att få tacka för detta tillägg till svaret.
               Det ligger ju i linje med vad jag själv menar, och jag tycker
@@ -1012,7 +1030,7 @@
           <note n="4dc5ea57">
             Anf. 13 Kommunikationsminister CURT BOSTRÖM:
           </note>
-          <u who="bertil_fiskesjo_1d2691" xml:id="i-91b70029ca57f939-1" prev="i-b4aeb429c413dff8-1" n="27324098">
+          <u who="bertil_fiskesjo_1d2691" xml:id="i-273240987b7fae3e-8" prev="i-273240987b7fae3e-7" n="27324098">
             <seg n="3fbd6664">
               Fru talman! Olle Grahn har frågat mig om hur jag ställer mig
               till möjligheten att från SJ och länshuvudmännen fristående intressen
@@ -1040,7 +1058,9 @@
               övervägas. Det var en tanke som exempelvis 1981 års separatredovisningssakkunniga
               var eniga om. Jag
             </seg>
-            <seg n="6a8fd35f"/>
+          </u>
+          <pb n="12" facs="https://betalab.kb.se/prot-198384--102/prot_198384__102-012.jp2/_view"/>
+          <u who="bertil_fiskesjo_1d2691" xml:id="i-273240987b7fae3e-9" prev="i-273240987b7fae3e-7" n="27324098">
             <seg n="6a8fd35f"/>
             <seg n="09453a8b">
               vill också nämna i sammanhanget att det finns ett ökat intresse
@@ -1049,11 +1069,10 @@
               på transportmarknaden.
             </seg>
           </u>
-          <pb n="12" facs="https://betalab.kb.se/prot-198384--102/prot_198384__102-012.jp2/_view"/>
           <note type="speaker" n="dbbe178c">
             Anf. 14 OLLE GRAHN (fp):
           </note>
-          <u who="olle_grahn_59fa41" xml:id="i-1cf7d48849d82fd6-0" next="i-b4593ae1017dbeb9-0" n="70fc8a15">
+          <u who="olle_grahn_59fa41" xml:id="i-70fc8a15ff767319-0" next="i-70fc8a15ff767319-5" n="70fc8a15">
             <seg n="8b99d153">
               Fru talman! Jag ber att få tacka kommunikationsministern för
               svaret på min fråga.
@@ -1102,7 +1121,7 @@
           <note n="9e667063">
             Anf. 15 Kommunikationsminister CURT BOSTRÖM:
           </note>
-          <u who="olle_grahn_59fa41" xml:id="i-b4593ae1017dbeb9-0" prev="i-1cf7d48849d82fd6-0" n="70fc8a15">
+          <u who="olle_grahn_59fa41" xml:id="i-70fc8a15ff767319-1" prev="i-70fc8a15ff767319-0" n="70fc8a15">
             <seg n="7217c2e4">
               Fru talman! Som jag nyss sade i mitt svar är det i dag inte onaturligt
               att man från näringslivets sida är intresserad av att överta vissa
@@ -1122,15 +1141,38 @@
               den regionala trafiken. Om huvudmännen vill ha kvar persontrafiken
               på en viss järnvägs-
             </seg>
-            <seg n="6a8fd35f"/>
+          </u>
+          <note n="e37a086f">
+            Nr 102
+          </note>
+          <note type="date" n="ab8ee057">
+            Tisdagen den 20 mars 1984
+          </note>
+          <u who="olle_grahn_59fa41" xml:id="i-70fc8a15ff767319-2" prev="i-70fc8a15ff767319-0" n="70fc8a15">
             <seg n="1454a707">
               Om privatisering av nedläggningshotade järnvägslinjer
             </seg>
-            <seg n="6a8fd35f"/>
-            <seg n="6a8fd35f"/>
+          </u>
+          <note n="6bba2ea3">
+            101
+          </note>
+          <pb n="13" facs="https://betalab.kb.se/prot-198384--102/prot_198384__102-013.jp2/_view"/>
+          <u who="olle_grahn_59fa41" xml:id="i-70fc8a15ff767319-3" prev="i-70fc8a15ff767319-0" n="70fc8a15"/>
+          <note n="e37a086f">
+            Nr 102
+          </note>
+          <note type="date" n="ab8ee057">
+            Tisdagen den 20 mars 1984
+          </note>
+          <u who="olle_grahn_59fa41" xml:id="i-70fc8a15ff767319-4" prev="i-70fc8a15ff767319-0" n="70fc8a15">
             <seg n="3e494db9">
               Om postverkets service i skärgårdsområden
             </seg>
+          </u>
+          <note n="f190022c">
+            102
+          </note>
+          <u who="olle_grahn_59fa41" xml:id="i-70fc8a15ff767319-5" prev="i-70fc8a15ff767319-0" n="70fc8a15">
             <seg n="1f8a5b2c">
               linje och är beredda att stå för kostnaderna, åtar sig SJ självfallet
               att svara för järnvägstrafiken på den linjen. Det förslag som
@@ -1149,29 +1191,10 @@
               fungerar och att verksamheten bedrivs på ett rationellt sätt.
             </seg>
           </u>
-          <note n="e37a086f">
-            Nr 102
-          </note>
-          <note type="date" n="ab8ee057">
-            Tisdagen den 20 mars 1984
-          </note>
-          <note n="6bba2ea3">
-            101
-          </note>
-          <pb n="13" facs="https://betalab.kb.se/prot-198384--102/prot_198384__102-013.jp2/_view"/>
-          <note n="e37a086f">
-            Nr 102
-          </note>
-          <note type="date" n="ab8ee057">
-            Tisdagen den 20 mars 1984
-          </note>
-          <note n="f190022c">
-            102
-          </note>
           <note type="speaker" n="efa5754c">
             Anf. 16 OLLE GRAHN (fp):
           </note>
-          <u who="olle_grahn_59fa41" xml:id="i-1cf7d48849d82fd6-1" next="i-b4593ae1017dbeb9-1" n="70fc8a15">
+          <u who="olle_grahn_59fa41" xml:id="i-70fc8a15ff767319-6" next="i-70fc8a15ff767319-7" n="70fc8a15">
             <seg n="afb87b7a">
               Fru talman! Jag delar den uppfattning som kommunikationsministern
               ger till känna i svaret. Kommunikationsministern säger där att
@@ -1198,7 +1221,7 @@
           <note n="36c58c64">
             Anf. 17 Kommunikationsminister CURT BOSTRÖM:
           </note>
-          <u who="olle_grahn_59fa41" xml:id="i-b4593ae1017dbeb9-1" prev="i-1cf7d48849d82fd6-1" n="70fc8a15">
+          <u who="olle_grahn_59fa41" xml:id="i-70fc8a15ff767319-7" prev="i-70fc8a15ff767319-6" n="70fc8a15">
             <seg n="308d7feb">
               Fru talman! Pär Granstedt har frågat mig om jag är beredd att
               verka för att postverket upprätthåller en god service i skärgårdsområden
@@ -1214,7 +1237,7 @@
           <note type="speaker" n="58198c73">
             Anf. 18 PÄR GRANSTEDT (c):
           </note>
-          <u who="par_granstedt_758505" xml:id="i-78389ec8d6056191-0" next="i-5354ab87952453db-0" n="0c26d861">
+          <u who="par_granstedt_758505" xml:id="i-0c26d8615b6857e7-0" next="i-0c26d8615b6857e7-4" n="0c26d861">
             <seg n="268ba9a4">
               Fru talman! Jag ber att få tacka kommunikationsministern för
               svaret på min fråga. Det var kort och koncist och kan vid första
@@ -1228,7 +1251,9 @@
               mot detta, och det hänger samman
             </seg>
             <seg n="6a8fd35f"/>
-            <seg n="6a8fd35f"/>
+          </u>
+          <pb n="14" facs="https://betalab.kb.se/prot-198384--102/prot_198384__102-014.jp2/_view"/>
+          <u who="par_granstedt_758505" xml:id="i-0c26d8615b6857e7-1" prev="i-0c26d8615b6857e7-0" n="0c26d861">
             <seg n="6a8fd35f"/>
             <seg n="63837fa7">
               med att det efter en eventuell nedläggning blir långt från Blidö
@@ -1275,11 +1300,10 @@
               där posten är hotad.
             </seg>
           </u>
-          <pb n="14" facs="https://betalab.kb.se/prot-198384--102/prot_198384__102-014.jp2/_view"/>
           <note n="e281a2ac">
             Anf. 19 Kommunikationsminister CURT BOSTRÖM:
           </note>
-          <u who="par_granstedt_758505" xml:id="i-5354ab87952453db-0" prev="i-78389ec8d6056191-0" n="0c26d861">
+          <u who="par_granstedt_758505" xml:id="i-0c26d8615b6857e7-2" prev="i-0c26d8615b6857e7-0" n="0c26d861">
             <seg n="384656ce">
               Fru talman! Pär Granstedt vet mycket väl att jag inte kommenterar
               det enskilda fallet. Det är f. n. under regeringens prövning,
@@ -1307,15 +1331,6 @@
               gånger. Det bevisar alla de brev och insändare som vi får ta del
               av. 103
             </seg>
-            <seg n="921f8fdd">
-              Om bättre samordning mellan SJ och länstrafikbolagen beträffande
-              månadskorts giltighet
-            </seg>
-            <seg n="9d3856cf">
-              Låt oss hjälpas åt, Pär Granstedt, att inte alltid ställa upp
-              på att opinionen har rätt. Vi måste visa fördelen av att få det
-              rullande postkontoret.
-            </seg>
           </u>
           <pb n="15" facs="https://betalab.kb.se/prot-198384--102/prot_198384__102-015.jp2/_view"/>
           <note n="e37a086f">
@@ -1324,13 +1339,26 @@
           <note type="date" n="ab8ee057">
             Tisdagen den 20 mars 1984
           </note>
+          <u who="par_granstedt_758505" xml:id="i-0c26d8615b6857e7-3" prev="i-0c26d8615b6857e7-0" n="0c26d861">
+            <seg n="921f8fdd">
+              Om bättre samordning mellan SJ och länstrafikbolagen beträffande
+              månadskorts giltighet
+            </seg>
+          </u>
           <note n="3ee0526b">
             104
           </note>
+          <u who="par_granstedt_758505" xml:id="i-0c26d8615b6857e7-4" prev="i-0c26d8615b6857e7-0" n="0c26d861">
+            <seg n="9d3856cf">
+              Låt oss hjälpas åt, Pär Granstedt, att inte alltid ställa upp
+              på att opinionen har rätt. Vi måste visa fördelen av att få det
+              rullande postkontoret.
+            </seg>
+          </u>
           <note type="speaker" n="93110506">
             Anf. 20 PÄR GRANSTEDT (c):
           </note>
-          <u who="par_granstedt_758505" xml:id="i-78389ec8d6056191-1" next="i-5354ab87952453db-1" n="0c26d861">
+          <u who="par_granstedt_758505" xml:id="i-0c26d8615b6857e7-5" next="i-0c26d8615b6857e7-8" n="0c26d861">
             <seg n="83cdfba6">
               Fru talman! Jag har inte avkrävt kommunikationsministern något
               definitivt besked i fallet Blidö. Det jag har efterfrågat är en
@@ -1362,11 +1390,16 @@
           <note n="ea28b3a4">
             Överläggningen var härmed avslutad.
           </note>
-          <u who="par_granstedt_758505" xml:id="i-5354ab87952453db-1" prev="i-78389ec8d6056191-1" n="0c26d861">
+          <u who="par_granstedt_758505" xml:id="i-0c26d8615b6857e7-6" prev="i-0c26d8615b6857e7-5" n="0c26d861">
             <seg n="ba477403">
               78 Svar på fråga 1983/84:397 om bättre samordning mellan SJ och
               länstrafikbolagen beträffande månadskorts giltighet
             </seg>
+          </u>
+          <note n="0bbf8460">
+            Anf. 21 Kommunikationsminister CURT BOSTRÖM:
+          </note>
+          <u who="par_granstedt_758505" xml:id="i-0c26d8615b6857e7-7" prev="i-0c26d8615b6857e7-5" n="0c26d861">
             <seg n="6264da36">
               Fru talman! Börje Stensson har, med hänvisning till ett fall
               där man trots länskort i två angränsande län inte kan resa över
@@ -1389,7 +1422,9 @@
               flera tågförbindelser samt att länskort kan gälla för
             </seg>
             <seg n="6a8fd35f"/>
-            <seg n="6a8fd35f"/>
+          </u>
+          <pb n="16" facs="https://betalab.kb.se/prot-198384--102/prot_198384__102-016.jp2/_view"/>
+          <u who="par_granstedt_758505" xml:id="i-0c26d8615b6857e7-8" prev="i-0c26d8615b6857e7-5" n="0c26d861">
             <seg n="6a8fd35f"/>
             <seg n="643f94a1">
               resor även över länsgränser. Resultatet har blivit att tåget
@@ -1414,14 +1449,10 @@
               ytterligare åtgärd.
             </seg>
           </u>
-          <note n="0bbf8460">
-            Anf. 21 Kommunikationsminister CURT BOSTRÖM:
-          </note>
-          <pb n="16" facs="https://betalab.kb.se/prot-198384--102/prot_198384__102-016.jp2/_view"/>
           <note type="speaker" n="1f6369b0">
             Anf. 22 BÖRJE STENSSON (fp):
           </note>
-          <u who="borje_stensson_2285c7" xml:id="i-0a3519470298701a-0" next="i-2676632f642a3caa-0" n="85a1b07e">
+          <u who="borje_stensson_2285c7" xml:id="i-85a1b07eb0513377-0" next="i-85a1b07eb0513377-5" n="85a1b07e">
             <seg n="3ef39f13">
               Fru talman! Jag ber att få tacka kommunikationsministern för
               svaret på min fråga. Jag tycker att svaret andas mycket av förståelse
@@ -1481,17 +1512,42 @@
           <note type="date" n="ab8ee057">
             Tisdagen den 20 mars 1984
           </note>
-          <u who="borje_stensson_2285c7" xml:id="i-2676632f642a3caa-0" prev="i-0a3519470298701a-0" n="85a1b07e">
+          <u who="borje_stensson_2285c7" xml:id="i-85a1b07eb0513377-1" prev="i-85a1b07eb0513377-0" n="85a1b07e">
             <seg n="124571f3">
               Om bättre samordning mellan och länstrafik-
             </seg>
+          </u>
+          <note n="d9d2b4a5">
+            SJ
+          </note>
+          <u who="borje_stensson_2285c7" xml:id="i-85a1b07eb0513377-2" prev="i-85a1b07eb0513377-0" n="85a1b07e">
             <seg n="71fc5c8d">
               bolagen beträffande månadskorts
             </seg>
+          </u>
+          <note n="9c5bd105">
+            giltighet
+          </note>
+          <note n="4dfe6353">
+            105
+          </note>
+          <pb n="17" facs="https://betalab.kb.se/prot-198384--102/prot_198384__102-017.jp2/_view"/>
+          <note n="e37a086f">
+            Nr 102
+          </note>
+          <note type="date" n="ab8ee057">
+            Tisdagen den 20 mars 1984
+          </note>
+          <u who="borje_stensson_2285c7" xml:id="i-85a1b07eb0513377-3" prev="i-85a1b07eb0513377-0" n="85a1b07e">
             <seg n="921f8fdd">
               Om bättre samordning mellan SJ och länstrafikbolagen beträffande
               månadskorts giltighet
             </seg>
+          </u>
+          <note n="ffaf17e0">
+            106
+          </note>
+          <u who="borje_stensson_2285c7" xml:id="i-85a1b07eb0513377-4" prev="i-85a1b07eb0513377-0" n="85a1b07e">
             <seg n="2aea8698">
               vid en justering av dessa riktlinjer kommunikationsministerns
               uppfattning kan avspegla sig — som jag läser mellan raderna här
@@ -1512,6 +1568,11 @@
               Tror inte kommunikationsministern att en litet smidigare hantering
               skulle vara god PR för både SJ och länstrafikbolagen?
             </seg>
+          </u>
+          <note n="8842b693">
+            Anf. 23 Kommunikationsminister CURT BOSTRÖM:
+          </note>
+          <u who="borje_stensson_2285c7" xml:id="i-85a1b07eb0513377-5" prev="i-85a1b07eb0513377-0" n="85a1b07e">
             <seg n="d61ee89f">
               Fru talman! Börje Stensson och jag har varit med om att här i
               riksdagen fatta beslutet att länshuvudmannen skall ha ansvaret
@@ -1541,32 +1602,10 @@
               kommer att göra allt för att underlätta för kollektivtrafiken.
             </seg>
           </u>
-          <note n="d9d2b4a5">
-            SJ
-          </note>
-          <note n="9c5bd105">
-            giltighet
-          </note>
-          <note n="4dfe6353">
-            105
-          </note>
-          <pb n="17" facs="https://betalab.kb.se/prot-198384--102/prot_198384__102-017.jp2/_view"/>
-          <note n="e37a086f">
-            Nr 102
-          </note>
-          <note type="date" n="ab8ee057">
-            Tisdagen den 20 mars 1984
-          </note>
-          <note n="ffaf17e0">
-            106
-          </note>
-          <note n="8842b693">
-            Anf. 23 Kommunikationsminister CURT BOSTRÖM:
-          </note>
           <note type="speaker" n="66b40c1e">
             Anf. 24 BÖRJE STENSSON (fp):
           </note>
-          <u who="borje_stensson_2285c7" xml:id="i-0a3519470298701a-1" next="i-2676632f642a3caa-1" n="85a1b07e">
+          <u who="borje_stensson_2285c7" xml:id="i-85a1b07eb0513377-6" next="i-85a1b07eb0513377-8" n="85a1b07e">
             <seg n="f19bb776">
               Fru talman! Jag är kommunikationsministern tacksam för den ambition
               han här visar. Jag kan inte tänka mig annat än att det också kommer
@@ -1583,7 +1622,9 @@
               exempelvis Kalmar och Växjö. Jag kan inte tänka mig att länstrafikbolagen
               i
             </seg>
-            <seg n="6a8fd35f"/>
+          </u>
+          <pb n="18" facs="https://betalab.kb.se/prot-198384--102/prot_198384__102-018.jp2/_view"/>
+          <u who="borje_stensson_2285c7" xml:id="i-85a1b07eb0513377-7" prev="i-85a1b07eb0513377-6" n="85a1b07e">
             <seg n="6a8fd35f"/>
             <seg n="bdbd1d6c">
               Kalmar och Kronobergs län har haft något emot att lösa problemen
@@ -1595,11 +1636,10 @@
               mycket för kilometrarna mellan Skruv och Emmaboda.
             </seg>
           </u>
-          <pb n="18" facs="https://betalab.kb.se/prot-198384--102/prot_198384__102-018.jp2/_view"/>
           <note n="8d38d9ec">
             Om handläggning-
           </note>
-          <u who="borje_stensson_2285c7" xml:id="i-2676632f642a3caa-1" prev="i-0a3519470298701a-1" n="85a1b07e">
+          <u who="borje_stensson_2285c7" xml:id="i-85a1b07eb0513377-8" prev="i-85a1b07eb0513377-6" n="85a1b07e">
             <seg n="8cbac410">
               Anf. 25 Kommunikationsminister CURT BOSTRÖM: en av felparke-
               Fru talman! Jag kan naturligtvis inte uttala mig om kostnaderna
@@ -1625,7 +1665,7 @@
           <note type="speaker" n="a14e1338">
             Anf. 26 BÖRJE STENSSON (fp):
           </note>
-          <u who="borje_stensson_2285c7" xml:id="i-0a3519470298701a-2" next="i-2676632f642a3caa-2" n="85a1b07e">
+          <u who="borje_stensson_2285c7" xml:id="i-85a1b07eb0513377-9" next="i-85a1b07eb0513377-20" n="85a1b07e">
             <seg n="ae691e11">
               Fru talman! Vi kanske inte med någon större framgång kan diskutera
               enskilda fall, men det är ändå nödvändigt att exemplifiera hur
@@ -1644,7 +1684,7 @@
           <note n="0580dce8">
             8$ Svar på fråga 1983/84:401 om handläggningen av felparkeringsärenden
           </note>
-          <u who="borje_stensson_2285c7" xml:id="i-2676632f642a3caa-2" prev="i-0a3519470298701a-2" n="85a1b07e">
+          <u who="borje_stensson_2285c7" xml:id="i-85a1b07eb0513377-10" prev="i-85a1b07eb0513377-9" n="85a1b07e">
             <seg n="70a10194">
               Anf. 27 Kommunikationsminister CURT BOSTRÖM: Fru talman! Gunnar
               Biörck i Värmdö har, med hänvisning till en tidningsartikel om
@@ -1658,10 +1698,27 @@
               anmälde till polisen i Östersund att hans bil aldrig varit i Östersund.
               Polismyndigheten beslöt 107
             </seg>
-            <seg n="6a8fd35f"/>
+          </u>
+          <pb n="19" facs="https://betalab.kb.se/prot-198384--102/prot_198384__102-019.jp2/_view"/>
+          <u who="borje_stensson_2285c7" xml:id="i-85a1b07eb0513377-11" prev="i-85a1b07eb0513377-9" n="85a1b07e"/>
+          <note n="e37a086f">
+            Nr 102
+          </note>
+          <note type="date" n="ab8ee057">
+            Tisdagen den 20 mars 1984
+          </note>
+          <note n="8d38d9ec">
+            Om handläggning-
+          </note>
+          <u who="borje_stensson_2285c7" xml:id="i-85a1b07eb0513377-12" prev="i-85a1b07eb0513377-9" n="85a1b07e">
             <seg n="efae27e7">
               en av felparkeringsärenden
             </seg>
+          </u>
+          <note n="d5ac90ca">
+            108
+          </note>
+          <u who="borje_stensson_2285c7" xml:id="i-85a1b07eb0513377-13" prev="i-85a1b07eb0513377-9" n="85a1b07e">
             <seg n="8cdcc138">
               emellertid att inte ta någon hänsyn till invändningen. Den beslutande
               tjänstemannen har därefter — sedan han insett att beslutet var
@@ -1706,6 +1763,12 @@
               kommit i kläm. Det kan ske på många sätt t.ex. genom att den enskilde
               får hjälp med att skriva en besvärsinlaga.
             </seg>
+          </u>
+          <note n="b1a1ad3b">
+            Under detta anförande övertog tredje vice talmannen ledningen
+            av kammarens förhandlingar.
+          </note>
+          <u who="borje_stensson_2285c7" xml:id="i-85a1b07eb0513377-14" prev="i-85a1b07eb0513377-9" n="85a1b07e">
             <seg n="53d8ac5a">
               Anf. 28 GUNNAR BIÖRCK i Värmdö (m):
             </seg>
@@ -1737,7 +1800,9 @@
               på, även om det sker märkliga saker också på ett lägre plan.
             </seg>
             <seg n="6a8fd35f"/>
-            <seg n="6a8fd35f"/>
+          </u>
+          <pb n="20" facs="https://betalab.kb.se/prot-198384--102/prot_198384__102-020.jp2/_view"/>
+          <u who="borje_stensson_2285c7" xml:id="i-85a1b07eb0513377-15" prev="i-85a1b07eb0513377-9" n="85a1b07e">
             <seg n="6a8fd35f"/>
             <seg n="44ef5849">
               Proposition 119, som justitieministern nyligen begåvat oss med,
@@ -1769,12 +1834,22 @@
             <seg n="8491508a">
               ”Orätt saköre gör ingen herre rik:
             </seg>
+          </u>
+          <note n="9931601f">
+            Men lag och rätt är Herrans pris.”
+          </note>
+          <u who="borje_stensson_2285c7" xml:id="i-85a1b07eb0513377-16" prev="i-85a1b07eb0513377-9" n="85a1b07e">
             <seg n="777493d5">
               Om man går tillbaka till punkt 7 i domarreglerna, finner man
               vidare följande ord: ” Alla lagar skola vara sådana, att de tjäna
               till det meniga bästa, och därföre då lagen bliver skadlig, så
               är det icke mera lag, utan olag, och bör avläggas.”
             </seg>
+          </u>
+          <note n="969fa22d">
+            Anf. 29 Kommunikationsminister CURT BOSTRÖM:
+          </note>
+          <u who="borje_stensson_2285c7" xml:id="i-85a1b07eb0513377-17" prev="i-85a1b07eb0513377-9" n="85a1b07e">
             <seg n="807db8a4">
               Herr talman! Gunnar Biörck i Värmdö ställde en fråga, nämligen
               hur felet i Östersund kunnat begås. Jag vet inte exakt hur det
@@ -1808,10 +1883,23 @@
               Men, Gunnar Biörck i Värmdö, något rättshaveri kan det ju aldrig
               bli 109
             </seg>
-            <seg n="6a8fd35f"/>
+          </u>
+          <pb n="21" facs="https://betalab.kb.se/prot-198384--102/prot_198384__102-021.jp2/_view"/>
+          <note n="e37a086f">
+            Nr 102
+          </note>
+          <note type="date" n="ab8ee057">
+            Tisdagen den 20 mars 1984
+          </note>
+          <u who="borje_stensson_2285c7" xml:id="i-85a1b07eb0513377-18" prev="i-85a1b07eb0513377-9" n="85a1b07e">
             <seg n="9ac8b7c2">
               Om aviserad nedläggning av Sveriges Radios musikskola
             </seg>
+          </u>
+          <note n="e50d0b08">
+            110
+          </note>
+          <u who="borje_stensson_2285c7" xml:id="i-85a1b07eb0513377-19" prev="i-85a1b07eb0513377-9" n="85a1b07e">
             <seg n="c8c5fefd">
               fråga om i det här sammanhanget. Som jag redogjorde för i mitt
               svar finns det ändock överklagningsmöjligheter under alla stadier
@@ -1830,6 +1918,18 @@
               ankommer kan kommunikationsministern räkna med min helhjärtade
               medverkan.
             </seg>
+          </u>
+          <note n="ea28b3a4">
+            Överläggningen var härmed avslutad.
+          </note>
+          <note n="257d534f">
+            9 $ Svar på frågorna 1983/84:399 och 418 om aviserad nedläggning
+            av Sveriges Radios musikskola
+          </note>
+          <note n="04caf72e">
+            Anf. 33 Statsrådet BENGT GÖRANSSON:
+          </note>
+          <u who="borje_stensson_2285c7" xml:id="i-85a1b07eb0513377-20" prev="i-85a1b07eb0513377-9" n="85a1b07e">
             <seg n="7c313abc">
               Herr talman! Jan-Erik Wikström har frågat mig vilka åtgärder
               jag avser att vidta för att bevara musikskolan i Edsberg.
@@ -1862,54 +1962,10 @@
               med de åtgärder som riksradion kan komma att vidta.
             </seg>
           </u>
-          <pb n="19" facs="https://betalab.kb.se/prot-198384--102/prot_198384__102-019.jp2/_view"/>
-          <note n="e37a086f">
-            Nr 102
-          </note>
-          <note type="date" n="ab8ee057">
-            Tisdagen den 20 mars 1984
-          </note>
-          <note n="8d38d9ec">
-            Om handläggning-
-          </note>
-          <note n="d5ac90ca">
-            108
-          </note>
-          <note n="b1a1ad3b">
-            Under detta anförande övertog tredje vice talmannen ledningen
-            av kammarens förhandlingar.
-          </note>
-          <pb n="20" facs="https://betalab.kb.se/prot-198384--102/prot_198384__102-020.jp2/_view"/>
-          <note n="9931601f">
-            Men lag och rätt är Herrans pris.”
-          </note>
-          <note n="969fa22d">
-            Anf. 29 Kommunikationsminister CURT BOSTRÖM:
-          </note>
-          <pb n="21" facs="https://betalab.kb.se/prot-198384--102/prot_198384__102-021.jp2/_view"/>
-          <note n="e37a086f">
-            Nr 102
-          </note>
-          <note type="date" n="ab8ee057">
-            Tisdagen den 20 mars 1984
-          </note>
-          <note n="e50d0b08">
-            110
-          </note>
-          <note n="ea28b3a4">
-            Överläggningen var härmed avslutad.
-          </note>
-          <note n="257d534f">
-            9 $ Svar på frågorna 1983/84:399 och 418 om aviserad nedläggning
-            av Sveriges Radios musikskola
-          </note>
-          <note n="04caf72e">
-            Anf. 33 Statsrådet BENGT GÖRANSSON:
-          </note>
           <note type="speaker" n="fab5e405">
             Anf. 34 JAN-ERIK WIKSTRÖM (fp):
           </note>
-          <u who="jan-erik_wikstrom_770992" xml:id="i-ac96e9b7024dbcb8-0" n="20a8871d">
+          <u who="jan-erik_wikstrom_770992" xml:id="i-aea9123fe1b9a859-0" next="i-aea9123fe1b9a859-1" n="20a8871d">
             <seg n="f22b78b9">
               Herr talman! Jag vill tacka Bengt Göransson för svaret.
             </seg>
@@ -1922,7 +1978,9 @@
             </seg>
             <seg n="6a8fd35f"/>
             <seg n="6a8fd35f"/>
-            <seg n="6a8fd35f"/>
+          </u>
+          <pb n="22" facs="https://betalab.kb.se/prot-198384--102/prot_198384__102-022.jp2/_view"/>
+          <u who="jan-erik_wikstrom_770992" xml:id="i-aea9123fe1b9a859-1" prev="i-aea9123fe1b9a859-0" n="20a8871d">
             <seg n="6a8fd35f"/>
             <seg n="d278dacd">
               Vid sidan av detta finns Edsbergs musikskola, som startades i
@@ -1972,11 +2030,10 @@
               sådant besked skulle vara befriande.
             </seg>
           </u>
-          <pb n="22" facs="https://betalab.kb.se/prot-198384--102/prot_198384__102-022.jp2/_view"/>
           <note type="speaker" n="42e2ecf1">
             Anf. 35 EVA HJELMSTRÖM (vpk):
           </note>
-          <u who="eva_hjelmstrom_af2d84" xml:id="i-14d6aefe1c9219a3-0" next="i-7a724d3d9984ca80-0" n="9f7963ec">
+          <u who="eva_hjelmstrom_af2d84" xml:id="i-9f7963ec3c3955d7-0" next="i-9f7963ec3c3955d7-4" n="9f7963ec">
             <seg n="4d5923de">
               Herr talman! Jag tackar kulturministern för svaret på C.-H. Hermanssons
               fråga vad gäller Edsbergs musikskola.
@@ -2022,10 +2079,22 @@
             111
           </note>
           <pb n="23" facs="https://betalab.kb.se/prot-198384--102/prot_198384__102-023.jp2/_view"/>
-          <u who="eva_hjelmstrom_af2d84" xml:id="i-7a724d3d9984ca80-0" prev="i-14d6aefe1c9219a3-0" n="9f7963ec">
+          <u who="eva_hjelmstrom_af2d84" xml:id="i-9f7963ec3c3955d7-1" prev="i-9f7963ec3c3955d7-0" n="9f7963ec"/>
+          <note n="e37a086f">
+            Nr 102
+          </note>
+          <note type="date" n="ab8ee057">
+            Tisdagen den 20 mars 1984
+          </note>
+          <u who="eva_hjelmstrom_af2d84" xml:id="i-9f7963ec3c3955d7-2" prev="i-9f7963ec3c3955d7-0" n="9f7963ec">
             <seg n="9ac8b7c2">
               Om aviserad nedläggning av Sveriges Radios musikskola
             </seg>
+          </u>
+          <note n="338f5abd">
+            112
+          </note>
+          <u who="eva_hjelmstrom_af2d84" xml:id="i-9f7963ec3c3955d7-3" prev="i-9f7963ec3c3955d7-0" n="9f7963ec">
             <seg n="0607401d">
               att hända? Där ställer jag samma fråga som Jan-Erik Wikström
               ställde. Kommer vi att få se den här utbildningen räddad? Vi har
@@ -2033,6 +2102,11 @@
               går in, kan man tänka sig att det blir en annan finansieringsform
               eller att Sveriges Radio får tillskott?
             </seg>
+          </u>
+          <note n="89c332ad">
+            Anf. 36 Statsrådet BENGT GÖRANSSON:
+          </note>
+          <u who="eva_hjelmstrom_af2d84" xml:id="i-9f7963ec3c3955d7-4" prev="i-9f7963ec3c3955d7-0" n="9f7963ec">
             <seg n="d4956890">
               Herr talman! Låt mig till båda frågeställarna mycket kort rikta
               följande ytterligare kommentarer.
@@ -2060,22 +2134,10 @@
               för ett sådant uppdrag.
             </seg>
           </u>
-          <note n="e37a086f">
-            Nr 102
-          </note>
-          <note type="date" n="ab8ee057">
-            Tisdagen den 20 mars 1984
-          </note>
-          <note n="338f5abd">
-            112
-          </note>
-          <note n="89c332ad">
-            Anf. 36 Statsrådet BENGT GÖRANSSON:
-          </note>
           <note type="speaker" n="59f552c6">
             Anf. 37 JAN-ERIK WIKSTRÖM (fp):
           </note>
-          <u who="jan-erik_wikstrom_770992" xml:id="i-6b3735073df59b5f-0" next="i-783dcf0fde968e5f-0" n="20a8871d">
+          <u who="jan-erik_wikstrom_770992" xml:id="i-aea9123fe1b9a859-2" next="i-aea9123fe1b9a859-5" n="20a8871d">
             <seg n="1821a0bf">
               Herr talman! Jag har all förståelse för att frågan måste beredas
               i lämpliga former. Men det skulle vara välgörande både för dem
@@ -2094,15 +2156,29 @@
           <note n="efe3f69d">
             Anf. 38 Statsrådet BENGT GÖRANSSON:
           </note>
-          <u who="jan-erik_wikstrom_770992" xml:id="i-783dcf0fde968e5f-0" prev="i-6b3735073df59b5f-0" n="20a8871d">
+          <u who="jan-erik_wikstrom_770992" xml:id="i-aea9123fe1b9a859-3" prev="i-aea9123fe1b9a859-2" n="20a8871d">
             <seg n="28d2d41a">
               Herr talman! Låt mig till det bara säga att regeringen inte skulle
               lämna ett uppdrag av denna art om den hade för avsikt att begrava
               frågan. Då hade det varit naturligare att jag vid det här tillfället
               hänvisat enbart till en handläggning inom Sveriges Radio.
             </seg>
+          </u>
+          <note n="ea28b3a4">
+            Överläggningen var härmed avslutad.
+          </note>
+          <pb n="24" facs="https://betalab.kb.se/prot-198384--102/prot_198384__102-024.jp2/_view"/>
+          <u who="jan-erik_wikstrom_770992" xml:id="i-aea9123fe1b9a859-4" prev="i-aea9123fe1b9a859-2" n="20a8871d">
             <seg n="6a8fd35f"/>
-            <seg n="6a8fd35f"/>
+          </u>
+          <note n="09a4b2b8">
+            10 $ Svar på fråga 1983/84:403 om åtgärder för att förhindra
+            nedläggning av Höglandsskolan
+          </note>
+          <note n="11e2a1f6">
+            Anf. 39 Statsrådet BENGT GÖRANSSON:
+          </note>
+          <u who="jan-erik_wikstrom_770992" xml:id="i-aea9123fe1b9a859-5" prev="i-aea9123fe1b9a859-2" n="20a8871d">
             <seg n="4a84ed4e">
               Herr'talman! Elisabeth Fleetwood har frågat mig vilka åtgärder
               jag avser att vidta för att bidra till att rädda vad hon kallar
@@ -2134,21 +2210,10 @@
               någon statlig instans om att ”rädda” just Höglandsskolans gymnasiedel.
             </seg>
           </u>
-          <note n="ea28b3a4">
-            Överläggningen var härmed avslutad.
-          </note>
-          <pb n="24" facs="https://betalab.kb.se/prot-198384--102/prot_198384__102-024.jp2/_view"/>
-          <note n="09a4b2b8">
-            10 $ Svar på fråga 1983/84:403 om åtgärder för att förhindra
-            nedläggning av Höglandsskolan
-          </note>
-          <note n="11e2a1f6">
-            Anf. 39 Statsrådet BENGT GÖRANSSON:
-          </note>
           <note type="speaker" n="31d26b5e">
             Anf. 40 ELISABETH FLEETWOOD (m):
           </note>
-          <u who="elisabeth_fleetwood_0391fb" xml:id="i-d995dc084da74d44-0" next="i-e5c9cff7456af202-0" n="9e309f94">
+          <u who="elisabeth_fleetwood_0391fb" xml:id="i-9e309f9437a7e302-0" next="i-9e309f9437a7e302-5" n="9e309f94">
             <seg n="994143c7">
               Herr talman! Jag ber att få tacka statsrådet Göransson för svaret.
             </seg>
@@ -2186,20 +2251,40 @@
           <note type="date" n="ab8ee057">
             Tisdagen den 20 mars 1984
           </note>
-          <u who="elisabeth_fleetwood_0391fb" xml:id="i-e5c9cff7456af202-0" prev="i-d995dc084da74d44-0" n="9e309f94">
+          <u who="elisabeth_fleetwood_0391fb" xml:id="i-9e309f9437a7e302-1" prev="i-9e309f9437a7e302-0" n="9e309f94">
             <seg n="0eaef645">
               Om åtgärder för att
             </seg>
             <seg n="93a48536">
               förhindra nedläggning av Höglands-
             </seg>
-            <seg n="6a8fd35f"/>
+          </u>
+          <note n="aa976ac0">
+            skolan
+          </note>
+          <note n="9b660871">
+            113
+          </note>
+          <pb n="25" facs="https://betalab.kb.se/prot-198384--102/prot_198384__102-025.jp2/_view"/>
+          <u who="elisabeth_fleetwood_0391fb" xml:id="i-9e309f9437a7e302-2" prev="i-9e309f9437a7e302-0" n="9e309f94"/>
+          <note n="e37a086f">
+            Nr 102
+          </note>
+          <note type="date" n="ab8ee057">
+            Tisdagen den 20 mars 1984
+          </note>
+          <u who="elisabeth_fleetwood_0391fb" xml:id="i-9e309f9437a7e302-3" prev="i-9e309f9437a7e302-0" n="9e309f94">
             <seg n="0eaef645">
               Om åtgärder för att
             </seg>
             <seg n="4cc006ef">
               förhindra nedläggning av Höglandsskolan
             </seg>
+          </u>
+          <note n="da13b847">
+            114
+          </note>
+          <u who="elisabeth_fleetwood_0391fb" xml:id="i-9e309f9437a7e302-4" prev="i-9e309f9437a7e302-0" n="9e309f94">
             <seg n="d1a62f8b">
               mentet var beredd att pröva frågan om två specialdestinerade
               klasser på gymnasiet, om en framställning kom från Stockholms
@@ -2231,6 +2316,11 @@
               här skolan? Man gjorde det i fråga om Adolf Fredrik. Det var mycket
               bra gjort. Gör någonting bra även i fallet Höglandsskolan!
             </seg>
+          </u>
+          <note n="bec00ad9">
+            Anf. 41 Statsrådet BENGT GÖRANSSON:
+          </note>
+          <u who="elisabeth_fleetwood_0391fb" xml:id="i-9e309f9437a7e302-5" prev="i-9e309f9437a7e302-0" n="9e309f94">
             <seg n="cc5b78ff">
               Herr talman! Den 24 mars i fjol hade Elisabeth Fleetwood och
               jag möjlighet att diskutera den här frågan i denna kammare. Vid
@@ -2256,29 +2346,10 @@
               jag måste respektera skolstyrelsens ställningstaganden.
             </seg>
           </u>
-          <note n="aa976ac0">
-            skolan
-          </note>
-          <note n="9b660871">
-            113
-          </note>
-          <pb n="25" facs="https://betalab.kb.se/prot-198384--102/prot_198384__102-025.jp2/_view"/>
-          <note n="e37a086f">
-            Nr 102
-          </note>
-          <note type="date" n="ab8ee057">
-            Tisdagen den 20 mars 1984
-          </note>
-          <note n="da13b847">
-            114
-          </note>
-          <note n="bec00ad9">
-            Anf. 41 Statsrådet BENGT GÖRANSSON:
-          </note>
           <note type="speaker" n="d7c71e5c">
             Anf. 42 ELISABETH FLEETWOOD (m):
           </note>
-          <u who="elisabeth_fleetwood_0391fb" xml:id="i-d995dc084da74d44-1" next="i-e5c9cff7456af202-1" n="9e309f94">
+          <u who="elisabeth_fleetwood_0391fb" xml:id="i-9e309f9437a7e302-6" next="i-9e309f9437a7e302-9" n="9e309f94">
             <seg n="c59639e4">
               Herr talman! Får jag först säga att jag inte missuppfattat Bengt
               Göransson. Jag är fullt medveten om att han inte har föreslagit
@@ -2287,15 +2358,16 @@
             </seg>
             <seg n="6a8fd35f"/>
             <seg n="6a8fd35f"/>
-            <seg n="6a8fd35f"/>
-            <seg n="6a8fd35f"/>
           </u>
           <pb n="26" facs="https://betalab.kb.se/prot-198384--102/prot_198384__102-026.jp2/_view"/>
+          <u who="elisabeth_fleetwood_0391fb" xml:id="i-9e309f9437a7e302-7" prev="i-9e309f9437a7e302-6" n="9e309f94">
+            <seg n="6a8fd35f"/>
+          </u>
           <note n="3b160534">
             medverka, trots att de socialdemokratiska ledamöterna Oskar Lindkvist
             och Stig Gustafsson i riksdagen väckt motioner för skolans bevarande.
           </note>
-          <u who="elisabeth_fleetwood_0391fb" xml:id="i-e5c9cff7456af202-1" prev="i-d995dc084da74d44-1" n="9e309f94">
+          <u who="elisabeth_fleetwood_0391fb" xml:id="i-9e309f9437a7e302-8" prev="i-9e309f9437a7e302-6" n="9e309f94">
             <seg n="2e450949">
               Bengt Göransson säger i svaret att han inte kan göra någonting
               om regeringen inte får en framställning från kommunen. Som jag
@@ -2317,6 +2389,11 @@
               och Bengt Göransson skall stå som trädgårdsmästare: tusen blommor
               — men bara i en färg.
             </seg>
+          </u>
+          <note n="cc439bd4">
+            Anf. 43 Statsrådet BENGT GÖRANSSON:
+          </note>
+          <u who="elisabeth_fleetwood_0391fb" xml:id="i-9e309f9437a7e302-9" prev="i-9e309f9437a7e302-6" n="9e309f94">
             <seg n="943c98be">
               Herr talman! Jag har konstaterat att den som kan göra framställning
               om utökning av antalet klasser eller specialdestinerade bidrag
@@ -2331,13 +2408,10 @@
               agera på de områden där de faktiskt har kompetensen?
             </seg>
           </u>
-          <note n="cc439bd4">
-            Anf. 43 Statsrådet BENGT GÖRANSSON:
-          </note>
           <note type="speaker" n="e7e5f8df">
             Anf. 44 ELISABETH FLEETWOOD (m):
           </note>
-          <u who="elisabeth_fleetwood_0391fb" xml:id="i-d995dc084da74d44-2" next="i-e5c9cff7456af202-2" n="9e309f94">
+          <u who="elisabeth_fleetwood_0391fb" xml:id="i-9e309f9437a7e302-10" next="i-9e309f9437a7e302-12" n="9e309f94">
             <seg n="3e3169ca">
               Herr talman! Jo, självfallet skall regeringen göra det, Bengt
               Göransson. Jag hoppas att skolstyrelsen kommer att inkomma med
@@ -2368,16 +2442,16 @@
           <note type="date" n="ab8ee057">
             Tisdagen den 20 mars 1984
           </note>
-          <u who="elisabeth_fleetwood_0391fb" xml:id="i-e5c9cff7456af202-2" prev="i-d995dc084da74d44-2" n="9e309f94">
+          <u who="elisabeth_fleetwood_0391fb" xml:id="i-9e309f9437a7e302-11" prev="i-9e309f9437a7e302-10" n="9e309f94">
             <seg n="23c56113">
               Om åtgärder för att förhindra nedläggning av Höglandsskolan
             </seg>
-            <seg n="6a8fd35f"/>
           </u>
           <note n="fdd2bdf0">
             115
           </note>
           <pb n="27" facs="https://betalab.kb.se/prot-198384--102/prot_198384__102-027.jp2/_view"/>
+          <u who="elisabeth_fleetwood_0391fb" xml:id="i-9e309f9437a7e302-12" prev="i-9e309f9437a7e302-10" n="9e309f94"/>
           <note n="e37a086f">
             Nr 102
           </note>
@@ -2414,12 +2488,12 @@
           <note type="speaker" n="123484d0">
             1983/84:
           </note>
-          <u who="unknown" xml:id="i-2c9bf88bf9b45b42-0" n="267adf41"/>
+          <u who="unknown" xml:id="i-cde83897e265e070-0" n="267adf41"/>
           <note type="speaker" n="6dbf8630">
             134 av Bertil Jonasson (c) till kommunikationsministern om tidigareläggning
             av vägbyggnadsprojekt i Värmlands län:
           </note>
-          <u who="bertil_jonasson_90b4e2" xml:id="i-8239bdfbe1cd60fa-0" n="cde83897">
+          <u who="bertil_jonasson_90b4e2" xml:id="i-cde83897e265e070-1" n="cde83897">
             <seg n="b25dd2d8">
               Länsstyrelsen i Värmlands län har hos regeringen hemställt om
               extra medel för tidigareläggning av vägbyggnadsprojekt. Bakgrunden
@@ -2444,12 +2518,12 @@
           <note type="speaker" n="123484d0">
             1983/84:
           </note>
-          <u who="unknown" xml:id="i-2c9bf88bf9b45b42-1" n="267adf41"/>
+          <u who="unknown" xml:id="i-76039db34d460a13-0" n="267adf41"/>
           <note type="speaker" n="ff9a95cc">
             441 av Anita Johansson (s) till statsrådet Anita Gradin om åtgärderna
             för att motverka den könsuppdelade arbetsmarknaden:
           </note>
-          <u who="anita_johansson_ce435c" xml:id="i-d7e5b0857194a111-0" n="76039db3">
+          <u who="anita_johansson_ce435c" xml:id="i-76039db34d460a13-1" next="i-76039db34d460a13-2" n="76039db3">
             <seg n="0b7750f0">
               Regeringen anvisade i kompletteringspropositionen — våren 1983
               — 100 milj. kr. till åtgärder för att främja rekryteringen till
@@ -2468,7 +2542,9 @@
               Anita Gradin:
             </seg>
             <seg n="6a8fd35f"/>
-            <seg n="6a8fd35f"/>
+          </u>
+          <pb n="28" facs="https://betalab.kb.se/prot-198384--102/prot_198384__102-028.jp2/_view"/>
+          <u who="anita_johansson_ce435c" xml:id="i-76039db34d460a13-2" prev="i-76039db34d460a13-1" n="76039db3">
             <seg n="6a8fd35f"/>
             <seg n="c59e0db3">
               1. På vilket sätt har de anvisade 10 milj. kr. använts för att
@@ -2480,16 +2556,15 @@
               under kampanjen?
             </seg>
           </u>
-          <pb n="28" facs="https://betalab.kb.se/prot-198384--102/prot_198384__102-028.jp2/_view"/>
           <note type="speaker" n="123484d0">
             1983/84:
           </note>
-          <u who="unknown" xml:id="i-1d046067b96e2844-0" n="267adf41"/>
+          <u who="unknown" xml:id="i-15fecc0b67ec1b96-0" n="267adf41"/>
           <note type="speaker" n="ffc6d293">
             442 av Lena Öhrsvik (s) till industriministern om samordningen
             mellan stiftelserna Servicecentralen i Gällivare och Samhällsföretag:
           </note>
-          <u who="lena_ohrsvik_0d615d" xml:id="i-9a971a699b236c14-0" next="i-ae68694cc945ea5d-0" n="15fecc0b">
+          <u who="lena_ohrsvik_0d615d" xml:id="i-15fecc0b67ec1b96-1" next="i-15fecc0b67ec1b96-6" n="15fecc0b">
             <seg n="e00dfe10">
               Inom industridepartementets verksamhetsområde inrättades 1979
               Stiftelsen Servicecentralen i Gällivare (SIGA). Den har sedan
@@ -2545,13 +2620,7 @@
             117
           </note>
           <pb n="29" facs="https://betalab.kb.se/prot-198384--102/prot_198384__102-029.jp2/_view"/>
-          <u who="lena_ohrsvik_0d615d" xml:id="i-ae68694cc945ea5d-0" prev="i-9a971a699b236c14-0" n="15fecc0b">
-            <seg n="6a8fd35f"/>
-            <seg n="6a8fd35f"/>
-            <seg n="6a8fd35f"/>
-            <seg n="6a8fd35f"/>
-            <seg n="6a8fd35f"/>
-          </u>
+          <u who="lena_ohrsvik_0d615d" xml:id="i-15fecc0b67ec1b96-2" prev="i-15fecc0b67ec1b96-1" n="15fecc0b"/>
           <note n="a1085e93">
             1983/84 99-102
           </note>
@@ -2667,7 +2736,11 @@
           <note n="967accf9">
             Grahn, Olle (fp) 101, 102
           </note>
+          <u who="lena_ohrsvik_0d615d" xml:id="i-15fecc0b67ec1b96-3" prev="i-15fecc0b67ec1b96-1" n="15fecc0b"/>
           <pb n="30" facs="https://betalab.kb.se/prot-198384--102/prot_198384__102-030.jp2/_view"/>
+          <u who="lena_ohrsvik_0d615d" xml:id="i-15fecc0b67ec1b96-4" prev="i-15fecc0b67ec1b96-1" n="15fecc0b">
+            <seg n="6a8fd35f"/>
+          </u>
           <note n="48ff1da1">
             Granstedt, Pär (c) 102, 104
           </note>
@@ -2689,9 +2762,11 @@
             119
           </note>
           <pb n="31" facs="https://betalab.kb.se/prot-198384--102/prot_198384__102-031.jp2/_view"/>
+          <u who="lena_ohrsvik_0d615d" xml:id="i-15fecc0b67ec1b96-5" prev="i-15fecc0b67ec1b96-1" n="15fecc0b"/>
           <note n="26aa7fc3">
             minab/gotab 78324 Stockholm 1984
           </note>
+          <u who="lena_ohrsvik_0d615d" xml:id="i-15fecc0b67ec1b96-6" prev="i-15fecc0b67ec1b96-1" n="15fecc0b"/>
         </div>
       </body>
     </text>

@@ -20,7 +20,7 @@
     <encodingDesc>
       <editorialDecl>
         <correction>
-          <p>Some data curation was done. It is documented in db/curation/instances</p>
+          <p>Some data curation was done. It is documented in input/curation/instances</p>
         </correction>
       </editorialDecl>
     </encodingDesc>
@@ -58,6 +58,7 @@
       </front>
       <body>
         <div>
+          <pb n="0" facs="https://betalab.kb.se/prot-1949-höst-ak--24/prot_1949_höst_ak__24-000.jp2/_view"/>
           <note n="b3a5af97">
             RIKSDAGENS PROTOKOLL
           </note>
@@ -115,7 +116,7 @@
             I — Andra kammarens protokoll 1949. Nr 24.
           </note>
           <pb n="2" facs="https://betalab.kb.se/prot-1949-höst-ak--24/prot_1949_höst_ak__24-002.jp2/_view"/>
-          <note n="9939c3f3">
+          <note type="date" n="1c1a9a91">
             Måndagen den 17 oktober 1949.
           </note>
           <note n="58332641">
@@ -278,7 +279,7 @@
             Den 1 juni innevarande år drabbades direktören Åke Wiberg av
             hjärtsjukdom
           </note>
-          <note n="69e30baf">
+          <note type="date" n="f3806cd4">
             Måndagen den 17 oktober. 1949.
           </note>
           <note n="291c72d8">
@@ -325,7 +326,7 @@
             för fullmäktige, välja ytterligare en suppleant.
           </note>
           <pb n="4" facs="https://betalab.kb.se/prot-1949-höst-ak--24/prot_1949_höst_ak__24-004.jp2/_view"/>
-          <note n="9939c3f3">
+          <note type="date" n="1c1a9a91">
             Måndagen den 17 oktober 1949.
           </note>
           <note n="22ab0dac">
@@ -350,7 +351,7 @@
           <note type="speaker" n="9359dc5a">
             Herr KRISTENSSON i Osby, som anförde:
           </note>
-          <u who="filip_kristensson_c7eed8" xml:id="i-1a687384c23a2172-0" next="i-56a374d111fa57e1-0" n="40ea1a14">
+          <u who="filip_kristensson_c7eed8" xml:id="i-40ea1a14ac4199f2-0" next="i-40ea1a14ac4199f2-3" n="40ea1a14">
             <seg n="b7d6d9fa">
               Herr talman! Vid ungdomsvårdsskolan i Ljungaskog i Kristianstads
               län ha särskilt i år talrika rymningar förekommit och i samband
@@ -407,10 +408,18 @@
           <note n="4f0f7168">
             Interpellation ang. redogörelse för om-
           </note>
-          <u who="filip_kristensson_c7eed8" xml:id="i-56a374d111fa57e1-0" prev="i-1a687384c23a2172-0" n="40ea1a14">
+          <u who="filip_kristensson_c7eed8" xml:id="i-40ea1a14ac4199f2-1" prev="i-40ea1a14ac4199f2-0" n="40ea1a14">
             <seg n="24999a33">
               fattningen av den statliga kredit, som
             </seg>
+          </u>
+          <note n="d50456df">
+            lämnats AB Svenska Reservoirpennfabriken, m. m.
+          </note>
+          <note n="3de2f1e8">
+            Ordet lämnades på begäran till
+          </note>
+          <u who="filip_kristensson_c7eed8" xml:id="i-40ea1a14ac4199f2-2" prev="i-40ea1a14ac4199f2-0" n="40ea1a14">
             <seg n="a1473775">
               Herr WEDÉN, som yttrade: Herr talman! De upplysningar, som under
               sommarmånaderna lämnats beträffande förhållandena vid Aktiebolaget
@@ -425,6 +434,21 @@
               alltifrån starten ha lämnat ett mycket otillfredsställande resultat.
               För närvarande förefaller de svenska
             </seg>
+          </u>
+          <pb n="5" facs="https://betalab.kb.se/prot-1949-höst-ak--24/prot_1949_höst_ak__24-005.jp2/_view"/>
+          <note n="80824844">
+            6 Nr 24.
+          </note>
+          <note type="date" n="1c1a9a91">
+            Måndagen den 17 oktober 1949.
+          </note>
+          <note n="b6eedf20">
+            Interpellation ang. nedläggandet av driften vid Svenska sockerfabriksaktiebolagets
+          </note>
+          <note n="b0605df6">
+            fabrik i Lidköping.
+          </note>
+          <u who="filip_kristensson_c7eed8" xml:id="i-40ea1a14ac4199f2-3" prev="i-40ea1a14ac4199f2-0" n="40ea1a14">
             <seg n="2beeb6e8">
               avnämarnas intresse för bolagets produkter vara synnerligen ringa,
               främst beroende på att dess pennor betinga ett alltför högt pris
@@ -454,25 +478,6 @@
               framställa följande frågor:
             </seg>
           </u>
-          <note n="d50456df">
-            lämnats AB Svenska Reservoirpennfabriken, m. m.
-          </note>
-          <note n="3de2f1e8">
-            Ordet lämnades på begäran till
-          </note>
-          <pb n="5" facs="https://betalab.kb.se/prot-1949-höst-ak--24/prot_1949_höst_ak__24-005.jp2/_view"/>
-          <note n="80824844">
-            6 Nr 24.
-          </note>
-          <note n="9939c3f3">
-            Måndagen den 17 oktober 1949.
-          </note>
-          <note n="b6eedf20">
-            Interpellation ang. nedläggandet av driften vid Svenska sockerfabriksaktiebolagets
-          </note>
-          <note n="b0605df6">
-            fabrik i Lidköping.
-          </note>
           <note n="e0da6148">
             1. Är herr statsrådet i tillfälle att lämna kammaren en redogörelse
             för omfattningen av den statliga kredit, som hittills i olika
@@ -495,7 +500,7 @@
           <note type="speaker" n="dd9418eb">
             Herr SVENSSON i Ljungskile erhöll på begäran ordet och anförde:
           </note>
-          <u who="waldemar_svensson_bc8fa2" xml:id="i-5022441f237b92bf-0" next="i-2dc8aeb10b208371-0" n="cdcc558a">
+          <u who="waldemar_svensson_bc8fa2" xml:id="i-cdcc558a264055e9-0" next="i-cdcc558a264055e9-3" n="cdcc558a">
             <seg n="c3dca218">
               Herr talman! Enligt meddelande i pressen ämnar Svenska sockerfabriksaktiebolaget
               lägga ned driften vid sockerfabriken i Lidköping, både beträffande
@@ -520,7 +525,7 @@
             1. Vill statsrådet inför riksdagen lämna en redogörelse för vad
             som förekommit i denna sak?
           </note>
-          <u who="waldemar_svensson_bc8fa2" xml:id="i-2dc8aeb10b208371-0" prev="i-5022441f237b92bf-0" n="cdcc558a">
+          <u who="waldemar_svensson_bc8fa2" xml:id="i-cdcc558a264055e9-1" prev="i-cdcc558a264055e9-0" n="cdcc558a">
             <seg n="1cd04312">
               2. Finns det någon möjlighet att förebygga Lidköpingsfabrikens
               nedläggning?
@@ -530,33 +535,37 @@
               inom detta område få lämna sina betor till annan fabrik till priser,
               som ej äro sämre än förut?
             </seg>
-            <seg n="a37f7378">
-              Interpellation ang. åtgärder mot olovliga tillgrepp av bilar.
-            </seg>
-            <seg n="a37f7378">
-              Interpellation ang. åtgärder mot olovliga tillgrepp av bilar.
-            </seg>
           </u>
           <note n="f4124161">
             Denna anhållan bordlades.
           </note>
           <pb n="6" facs="https://betalab.kb.se/prot-1949-höst-ak--24/prot_1949_höst_ak__24-006.jp2/_view"/>
-          <note n="9939c3f3">
+          <note type="date" n="1c1a9a91">
             Måndagen den 17 oktober 1949.
           </note>
           <note n="c43c7749">
             Nr 24. 7
           </note>
+          <u who="waldemar_svensson_bc8fa2" xml:id="i-cdcc558a264055e9-2" prev="i-cdcc558a264055e9-0" n="cdcc558a">
+            <seg n="a37f7378">
+              Interpellation ang. åtgärder mot olovliga tillgrepp av bilar.
+            </seg>
+          </u>
           <note n="66c777be">
             $ 8.
           </note>
+          <u who="waldemar_svensson_bc8fa2" xml:id="i-cdcc558a264055e9-3" prev="i-cdcc558a264055e9-0" n="cdcc558a">
+            <seg n="a37f7378">
+              Interpellation ang. åtgärder mot olovliga tillgrepp av bilar.
+            </seg>
+          </u>
           <note n="128be093">
             Herr talmannen lämnade på begäran ordet till
           </note>
           <note type="speaker" n="afdb9e03">
             Herr BIRKE, som yttrade:
           </note>
-          <u who="emanuel_birke_d886af" xml:id="i-0ec150e08f6c1628-0" next="i-845d008596677e9a-0" n="fe6fb227">
+          <u who="emanuel_birke_d886af" xml:id="i-fe6fb2270013b069-0" next="i-fe6fb2270013b069-2" n="fe6fb227">
             <seg n="1da58b15">
               Herr talman! De olovliga tillgreppen av bilar ha numera tagit
               sådan omfattning att det är tydligt att samhällets åtgärder för
@@ -610,7 +619,7 @@
           <note n="4cf3afd1">
             na nått sådan frekvens, att särskilda
           </note>
-          <u who="emanuel_birke_d886af" xml:id="i-845d008596677e9a-0" prev="i-0ec150e08f6c1628-0" n="fe6fb227">
+          <u who="emanuel_birke_d886af" xml:id="i-fe6fb2270013b069-1" prev="i-fe6fb2270013b069-0" n="fe6fb227">
             <seg n="a8cabfd7">
               åtgärder äro påkallade?
             </seg>
@@ -622,9 +631,6 @@
             </seg>
             <seg n="8fc8a275">
               baste och säkraste resultaten?
-            </seg>
-            <seg n="b179c8f2">
-              En namnsedel kasserades.
             </seg>
           </u>
           <note n="5886d532">
@@ -693,7 +699,7 @@
             ändring i lagen av den 12 maj 1917 (nr 189) om expropriation,
             m. m.; samt
           </note>
-          <note n="8da76b21">
+          <note type="date" n="560f2f87">
             Tisdagen den 18 oktober 1949.
           </note>
           <note n="a16b5de3">
@@ -735,6 +741,11 @@
             Företogs val av andre vice talman; och utsågs därtill herr Olsson
             i Mora med 159 röster.
           </note>
+          <u who="emanuel_birke_d886af" xml:id="i-fe6fb2270013b069-2" prev="i-fe6fb2270013b069-0" n="fe6fb227">
+            <seg n="b179c8f2">
+              En namnsedel kasserades.
+            </seg>
+          </u>
           <note n="b8a466a6">
             $ 3.
           </note>
@@ -803,7 +814,7 @@
             Föredrogs den av herr Wedén vid kammarens nästföregående sammanträ-
           </note>
           <pb n="8" facs="https://betalab.kb.se/prot-1949-höst-ak--24/prot_1949_höst_ak__24-008.jp2/_view"/>
-          <note n="8da76b21">
+          <note type="date" n="560f2f87">
             Tisdagen den 18 oktober 1949.
           </note>
           <note n="9de4fb33">
@@ -862,7 +873,7 @@
           <note type="speaker" n="c0d0e801">
             Herr SVENSSON i Stenkyrka, som anförde:
           </note>
-          <u who="waldemar_svensson_bc8fa2" xml:id="i-5022441f237b92bf-1" next="i-2dc8aeb10b208371-1" n="cdcc558a">
+          <u who="waldemar_svensson_bc8fa2" xml:id="i-cdcc558a264055e9-4" next="i-cdcc558a264055e9-5" n="cdcc558a">
             <seg n="b7423692">
               Herr talman! Tilläggsskatten på bensin, som infördes genom beslut
               av 1948 års riksdag, utgör en tung börda särskilt för landsbygdens
@@ -917,7 +928,7 @@
           <note n="9b0f65a3">
             10 Nr 24.
           </note>
-          <note n="8da76b21">
+          <note type="date" n="560f2f87">
             Tisdagen den 18 oktober 1949.
           </note>
           <note n="1dd0e67b">
@@ -927,7 +938,7 @@
           <note n="8e4621d2">
             skatten.
           </note>
-          <u who="waldemar_svensson_bc8fa2" xml:id="i-2dc8aeb10b208371-1" prev="i-5022441f237b92bf-1" n="cdcc558a">
+          <u who="waldemar_svensson_bc8fa2" xml:id="i-cdcc558a264055e9-5" prev="i-cdcc558a264055e9-4" n="cdcc558a">
             <seg n="4e90a422">
               torfordon. Då frågan om den skärpta indirekta beskattningens
               fortbestånd behandlades av årets riksdag underströk bevillningsutskottet

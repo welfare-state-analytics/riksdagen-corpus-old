@@ -20,7 +20,7 @@
     <encodingDesc>
       <editorialDecl>
         <correction>
-          <p>Some data curation was done. It is documented in db/curation/instances</p>
+          <p>Some data curation was done. It is documented in input/curation/instances</p>
         </correction>
       </editorialDecl>
     </encodingDesc>
@@ -59,6 +59,7 @@
       </front>
       <body>
         <div>
+          <pb n="0" facs="https://betalab.kb.se/prot-1944--fk--17/prot_1944__fk__17-000.jp2/_view"/>
           <note n="97f7d224">
             RIKSDAGENS PROTOKOLL.
           </note>
@@ -138,7 +139,7 @@
             Första kammarens protokoll 1944. Nr 17. 1
           </note>
           <pb n="1" facs="https://betalab.kb.se/prot-1944--fk--17/prot_1944__fk__17-001.jp2/_view"/>
-          <note n="90356673">
+          <note type="date" n="936f13e5">
             2 Nr 17. Tisdagen den 9 maj 1944.
           </note>
           <note n="3ab2b39e">
@@ -148,7 +149,7 @@
           <note type="speaker" n="23e41609">
             Herr statsrådet Domö avlämnade Kungl. Maj:
           </note>
-          <u who="unknown" xml:id="i-b85a8e579ad9361c-0" n="3ca02b77">
+          <u who="unknown" xml:id="i-3ca02b77e5456e44-0" n="3ca02b77">
             <seg n="d0b6b3ad">
               ts propositioner:
             </seg>
@@ -184,7 +185,7 @@
             In fidem G. H. Berggren.
           </note>
           <pb n="2" facs="https://betalab.kb.se/prot-1944--fk--17/prot_1944__fk__17-002.jp2/_view"/>
-          <note n="2126c6ff">
+          <note type="date" n="75499906">
             Onsdagen den 10 maj 1944. Nr 17. 3
           </note>
           <note type="date" n="2b24a42d">
@@ -201,7 +202,7 @@
             erhöll ordet och anförde: Herr talman! Ledamoten av denna kam-
             ” ningar. mare herr Holmberg har till mig riktat följande frågor:
           </note>
-          <u who="unknown" xml:id="i-d5928896933b18df-0" n="3ca02b77">
+          <u who="unknown" xml:id="i-3ca02b77e5456e44-1" n="3ca02b77">
             <seg n="4a6caa70">
               1. Har statsrådet observerat de svåra brister i brandskyddsanordningarna,
               som nu senast branden i dispensärbarnhemmet i Rödeby avslöjat?
@@ -233,26 +234,6 @@
               eldsvåda skulle ha varit utan inverkan på möjligheterna att rädda
               människoliv.
             </seg>
-            <seg n="fd10830e">
-              En annan sak är, att landsbygdens brandförsvar på många håll
-              är otillfredsställande och att detta inverkar även på möjligheterna
-              att upprätthålla ett effektivt brandskydd vid vårdanstalterna.
-              I denna del skulle ett genomförande av det förslag till ny brandlagstiftning,
-              som år 1942 framlagts av brandförsvarsutredningen, medföra flera
-              särskilt för landsbygdens del betydelsefulla förbättringar. Sålunda
-              skulle enligt förslaget varje kommun, även på landsbygden, bliva
-              pliktig att ordna ett brandförsvar, varmed bl. a. skulle följa
-              skyldighet att anskaffa brandredskap, hålla brandsyn o. s. v.
-              Det är min förhoppning, att ett lagförslag i ämnet, grundat på
-              utredningens betänkande, skall kunna föreläggas årets riksdag.
-            </seg>
-            <seg n="141e8c97">
-              Att tillskapa en särskild brandskyddslag för här ifrågavarande
-              anstalter synes icke erforderligt eller lämpligt. Den allmänna
-              brandlagstiftningen och de särskilda föreskrifter, som meddelas
-              av tillsynsmyndigheterna, torde ge tillräckliga möjligheter att
-              trygga tillkomsten av ur skyddssynpunkt effektiva anordningar.
-            </seg>
           </u>
           <note n="b60c0f77">
             I interpellationen göres gällande, att det beträffande anstalter
@@ -276,7 +257,7 @@
             samband med åsidosättande av de
           </note>
           <pb n="3" facs="https://betalab.kb.se/prot-1944--fk--17/prot_1944__fk__17-003.jp2/_view"/>
-          <note n="e3910f99">
+          <note type="date" n="29b3cef9">
             4 Nr 17. Onsdagen den 10 maj 1944.
           </note>
           <note n="3d26d19f">
@@ -286,10 +267,32 @@
             upptagit frågan om ytterligare åtgärder till förekommande av eldsolyckor
             vid vårdanstalterna.
           </note>
+          <u who="unknown" xml:id="i-3ca02b77e5456e44-2" n="3ca02b77">
+            <seg n="fd10830e">
+              En annan sak är, att landsbygdens brandförsvar på många håll
+              är otillfredsställande och att detta inverkar även på möjligheterna
+              att upprätthålla ett effektivt brandskydd vid vårdanstalterna.
+              I denna del skulle ett genomförande av det förslag till ny brandlagstiftning,
+              som år 1942 framlagts av brandförsvarsutredningen, medföra flera
+              särskilt för landsbygdens del betydelsefulla förbättringar. Sålunda
+              skulle enligt förslaget varje kommun, även på landsbygden, bliva
+              pliktig att ordna ett brandförsvar, varmed bl. a. skulle följa
+              skyldighet att anskaffa brandredskap, hålla brandsyn o. s. v.
+              Det är min förhoppning, att ett lagförslag i ämnet, grundat på
+              utredningens betänkande, skall kunna föreläggas årets riksdag.
+            </seg>
+            <seg n="141e8c97">
+              Att tillskapa en särskild brandskyddslag för här ifrågavarande
+              anstalter synes icke erforderligt eller lämpligt. Den allmänna
+              brandlagstiftningen och de särskilda föreskrifter, som meddelas
+              av tillsynsmyndigheterna, torde ge tillräckliga möjligheter att
+              trygga tillkomsten av ur skyddssynpunkt effektiva anordningar.
+            </seg>
+          </u>
           <note type="speaker" n="9bd209c1">
             Herr Holmberg:
           </note>
-          <u who="unknown" xml:id="i-b85a8e579ad9361c-1" n="3ca02b77">
+          <u who="unknown" xml:id="i-3ca02b77e5456e44-3" n="3ca02b77">
             <seg n="7087a2bd">
               Herr talman! Jag ber att till herr statsrådet och chefen för
               kommunikationsdepartementet få framföra mitt tack för det svar,
@@ -336,10 +339,10 @@
             </seg>
           </u>
           <pb n="4" facs="https://betalab.kb.se/prot-1944--fk--17/prot_1944__fk__17-004.jp2/_view"/>
-          <note n="c6b579a9">
+          <note type="date" n="da7e8989">
             Onsdagen den 10 maj 1944. Nr 17. 5
           </note>
-          <u who="unknown" xml:id="i-d5928896933b18df-1" n="3ca02b77">
+          <u who="unknown" xml:id="i-3ca02b77e5456e44-4" n="3ca02b77">
             <seg n="52e62997">
               Om förbättrat brandskydd vid barnhem m. fl. inrättningar. (Forts.)
               trappor. Om så inte är fallet, skola utanför fönstren finnas nödbalkonger
@@ -415,12 +418,23 @@
               fått del av dem, och hon hade inte heller någon som helst kännedom
               om deras existens. I vilken mån länsstyrelsen i egen-
             </seg>
+          </u>
+          <pb n="5" facs="https://betalab.kb.se/prot-1944--fk--17/prot_1944__fk__17-005.jp2/_view"/>
+          <note n="52ea0397">
+            Ang. upp-
+          </note>
+          <u who="unknown" xml:id="i-3ca02b77e5456e44-5" n="3ca02b77">
             <seg n="166629a5">
               skovet med uppjörandet av vissa reumatologiska
             </seg>
             <seg n="8e349edb">
               kliniker.
             </seg>
+          </u>
+          <note type="date" n="92dd74c2">
+            6 Nr 17. Onsdagen den 10 maj 1944.
+          </note>
+          <u who="unknown" xml:id="i-3ca02b77e5456e44-6" n="3ca02b77">
             <seg n="d322359c">
               Om förbättrat brandskydd vid barnhem m. fl. inrättningar. (Forts.)
               skap av övervakande myndighet har sökt kontrollera, att anvisningarna
@@ -489,6 +503,32 @@
               framlägga det nämnda lagförslaget.
             </seg>
             <seg n="209adbf0"/>
+          </u>
+          <note n="eb671c15">
+            Ordet lämnades härefter till herr statsrådet och chefen för ecklesiastikdepartementet
+            Bagge, som meddelat, att han ämnade vid detta sammanträde besvara
+            herr Wiklunds interpellation angående uppskovet med uppförandet
+            av vissa reumatologiska kliniker, och nu yttrade: Herr talman!
+            Med första kammarens tillstånd har dess ledamot herr Wiklund frågat
+            mig vilka de motiv
+          </note>
+          <pb n="6" facs="https://betalab.kb.se/prot-1944--fk--17/prot_1944__fk__17-006.jp2/_view"/>
+          <note type="date" n="c85ff7d5">
+            Onsdagen den 10 maj 1944. Nr 17. 7
+          </note>
+          <note n="72b3654a">
+            Ang. uppskovet med uppförandet av vissa reumatologiska kliniker.
+            (Forts.)
+          </note>
+          <note n="c8f397b1">
+            varit, som avhållit mig från att framlägga proposition angående
+            uppförande
+          </note>
+          <note n="1d1c188a">
+            vv reumatologiska specialkliniker vid undervisningssjukhusen
+            i Stockholm och ppsala.
+          </note>
+          <u who="unknown" xml:id="i-3ca02b77e5456e44-7" n="3ca02b77">
             <seg n="d8364c73">
               Såsom kammarens ledamöter torde erinra sig, fattade fjolårets
               riksdag principbeslut om att karolinska sjukhuset skulle utbyggas
@@ -552,6 +592,12 @@
               att karolinska institutets lärarkollegium finner det önskvärt
               icke endast att till sjuk-
             </seg>
+          </u>
+          <pb n="7" facs="https://betalab.kb.se/prot-1944--fk--17/prot_1944__fk__17-007.jp2/_view"/>
+          <note type="date" n="f4374887">
+            8 Nr 17. Onsdagen den 10 maj 1944.
+          </note>
+          <u who="unknown" xml:id="i-3ca02b77e5456e44-8" n="3ca02b77">
             <seg n="3c85e722">
               Ang. uppskovet med uppförandet av vissa reumatologiska kliniker.
               (Forts.) huset knytes den nu ifrågavarande reumatiska kliniken
@@ -619,6 +665,16 @@
               Det av civila byggnadsutredningen framlagda förslaget innebär
               sålunda en
             </seg>
+          </u>
+          <pb n="8" facs="https://betalab.kb.se/prot-1944--fk--17/prot_1944__fk__17-008.jp2/_view"/>
+          <note type="date" n="e3032e0e">
+            Onsdagen den 10 maj 1944. Nr 17. 9
+          </note>
+          <note n="81103c87">
+            Ång. uppskovet med uppförandet av vissa reumatologiska kliniker.
+            (Forts.)
+          </note>
+          <u who="unknown" xml:id="i-3ca02b77e5456e44-9" n="3ca02b77">
             <seg n="b460b1a8">
               principiellt annan lösning än den av reumatikervårdssakkunniga
               föreslagna. Uppenbarligen böra såväl nämnda sakkunniga som företrädarna
@@ -629,53 +685,10 @@
               i detta ärende icke läggas fram för riksdagen.
             </seg>
           </u>
-          <pb n="5" facs="https://betalab.kb.se/prot-1944--fk--17/prot_1944__fk__17-005.jp2/_view"/>
-          <note n="52ea0397">
-            Ang. upp-
-          </note>
-          <note n="d4f94018">
-            6 Nr 17. Onsdagen den 10 maj 1944.
-          </note>
-          <note n="eb671c15">
-            Ordet lämnades härefter till herr statsrådet och chefen för ecklesiastikdepartementet
-            Bagge, som meddelat, att han ämnade vid detta sammanträde besvara
-            herr Wiklunds interpellation angående uppskovet med uppförandet
-            av vissa reumatologiska kliniker, och nu yttrade: Herr talman!
-            Med första kammarens tillstånd har dess ledamot herr Wiklund frågat
-            mig vilka de motiv
-          </note>
-          <pb n="6" facs="https://betalab.kb.se/prot-1944--fk--17/prot_1944__fk__17-006.jp2/_view"/>
-          <note n="e182556a">
-            Onsdagen den 10 maj 1944. Nr 17. 7
-          </note>
-          <note n="72b3654a">
-            Ang. uppskovet med uppförandet av vissa reumatologiska kliniker.
-            (Forts.)
-          </note>
-          <note n="c8f397b1">
-            varit, som avhållit mig från att framlägga proposition angående
-            uppförande
-          </note>
-          <note n="1d1c188a">
-            vv reumatologiska specialkliniker vid undervisningssjukhusen
-            i Stockholm och ppsala.
-          </note>
-          <pb n="7" facs="https://betalab.kb.se/prot-1944--fk--17/prot_1944__fk__17-007.jp2/_view"/>
-          <note n="667f451a">
-            8 Nr 17. Onsdagen den 10 maj 1944.
-          </note>
-          <pb n="8" facs="https://betalab.kb.se/prot-1944--fk--17/prot_1944__fk__17-008.jp2/_view"/>
-          <note n="01817b6f">
-            Onsdagen den 10 maj 1944. Nr 17. 9
-          </note>
-          <note n="81103c87">
-            Ång. uppskovet med uppförandet av vissa reumatologiska kliniker.
-            (Forts.)
-          </note>
           <note type="speaker" n="b76363cd">
             Herr Wiklund:
           </note>
-          <u who="unknown" xml:id="i-b85a8e579ad9361c-2" n="3ca02b77">
+          <u who="unknown" xml:id="i-3ca02b77e5456e44-10" n="3ca02b77">
             <seg n="57e3bd11">
               Herr talman! Jag ber att till chefen för ecklesiastikdepartementet
               få framföra mitt hjärtliga tack för det utförliga svar, jag erhållit
@@ -742,10 +755,10 @@
             </seg>
           </u>
           <pb n="9" facs="https://betalab.kb.se/prot-1944--fk--17/prot_1944__fk__17-009.jp2/_view"/>
-          <note n="cbddd101">
+          <note type="date" n="be5820a0">
             10 Nr 17. Onsdagen den 10 maj 1944.
           </note>
-          <u who="unknown" xml:id="i-d5928896933b18df-2" n="3ca02b77">
+          <u who="unknown" xml:id="i-3ca02b77e5456e44-11" n="3ca02b77">
             <seg n="1057531a">
               Ång. uppskovet med uppförandet av vissa reumatologiska kliniker.
               (Forts.) delningarna föreslagits inrättade som ett »klimatologiskt
@@ -820,6 +833,12 @@
               de nuvarande
             </seg>
             <seg n="209adbf0"/>
+          </u>
+          <pb n="10" facs="https://betalab.kb.se/prot-1944--fk--17/prot_1944__fk__17-010.jp2/_view"/>
+          <note type="date" n="4dd6f0ec">
+            Onsdagen den 10 maj 1944. Nr 17. 11
+          </note>
+          <u who="unknown" xml:id="i-3ca02b77e5456e44-12" n="3ca02b77">
             <seg n="2ce7de95">
               Ang. uppskovet med uppförandet av vissa reumatologiska kliniker.
               (Forts.) vårdmöjligheternas oerhörda bristfällighet att visa sig.
@@ -845,14 +864,10 @@
               att så småningom försvinna.
             </seg>
           </u>
-          <pb n="10" facs="https://betalab.kb.se/prot-1944--fk--17/prot_1944__fk__17-010.jp2/_view"/>
-          <note n="e3ff9ad2">
-            Onsdagen den 10 maj 1944. Nr 17. 11
-          </note>
           <note type="speaker" n="170dc62e">
             Herr statsrådet Bagge:
           </note>
-          <u who="gosta_bagge_dce020" xml:id="i-904c5d13f1bfb3c3-0" n="13cf9d1d">
+          <u who="gosta_bagge_dce020" xml:id="i-3ca02b77e5456e44-13" n="13cf9d1d">
             <seg n="8a0412bc">
               Herr talman! När den ärade interpellanten sade, att denna fråga
               nu skulle köra in i utredningarnas återvändsgränd, tror jag att
@@ -896,7 +911,7 @@
           <note type="speaker" n="b76363cd">
             Herr Wiklund:
           </note>
-          <u who="unknown" xml:id="i-b85a8e579ad9361c-3" n="3ca02b77">
+          <u who="unknown" xml:id="i-3ca02b77e5456e44-14" n="3ca02b77">
             <seg n="6bb687a2">
               Herr talman! Jag ber att till herr statsrådet få framföra ett
               tack för det löfte han lämnat att ha speciellt den vetenskapliga
@@ -909,22 +924,13 @@
             av 54 och 56 $$ utlänningslagen den 11 juni 1937 (nr 344).
           </note>
           <pb n="11" facs="https://betalab.kb.se/prot-1944--fk--17/prot_1944__fk__17-011.jp2/_view"/>
-          <u who="unknown" xml:id="i-d5928896933b18df-3" n="3ca02b77">
+          <u who="unknown" xml:id="i-3ca02b77e5456e44-15" n="3ca02b77">
             <seg n="68db0291">
               Om snabbare lyllande av ledigheter
             </seg>
             <seg n="531380b1">
               inom Triksda-
             </seg>
-            <seg n="a1c3a328">
-              Har riksdagsman annorledes än i 21 $ sägs avgått före utgången
-              av den tid, för vilken han blivit vald, och skall platsen besättas
-              från den valkrets, som utsett den avgångne, då skall Konungens
-              befallningshavande vid offentlig förrättning, som hålles så snart
-              ske kan och varom underrättelse minst åtta dagar förut meddelas
-              genom anslag och medelst tryck så
-            </seg>
-            <seg n="209adbf0"/>
           </u>
           <note n="8265c44c">
             gens kamrar.
@@ -1001,6 +1007,16 @@
           <note n="0bdfeeb6">
             26 8.
           </note>
+          <u who="unknown" xml:id="i-3ca02b77e5456e44-16" n="3ca02b77">
+            <seg n="a1c3a328">
+              Har riksdagsman annorledes än i 21 $ sägs avgått före utgången
+              av den tid, för vilken han blivit vald, och skall platsen besättas
+              från den valkrets, som utsett den avgångne, då skall Konungens
+              befallningshavande vid offentlig förrättning, som hålles så snart
+              ske kan och varom underrättelse minst åtta dagar förut meddelas
+              genom anslag och medelst tryck så
+            </seg>
+          </u>
           <note n="f1ae6e0d">
             Har riksdagsman annorledes än i 21 $ sägs avgått före utgången
             av den tid, för vilken han blivit vald, och skall platsen besättas
@@ -1010,7 +1026,7 @@
             och införes i ortstidningar, verk-
           </note>
           <pb n="12" facs="https://betalab.kb.se/prot-1944--fk--17/prot_1944__fk__17-012.jp2/_view"/>
-          <note n="1d5b3761">
+          <note type="date" n="b41476ff">
             Onsdagen den 10 maj 1944. Nr 17. 13
           </note>
           <note n="c8c3cb72">
@@ -1029,6 +1045,7 @@
             der. Är i — — — platsen tilldelats. Efter avslutande — — — under
             försegling.
           </note>
+          <u who="unknown" xml:id="i-3ca02b77e5456e44-17" n="3ca02b77"/>
           <note n="b37b35a6">
             Denna lag träder i kraft den 1 januari 1945.
           </note>
@@ -1047,7 +1064,7 @@
           <note type="speaker" n="a5dbf45d">
             Herr Herlitz:
           </note>
-          <u who="nils_herlitz_e76c52" xml:id="i-1f67b9cbb04d805d-0" next="i-2316abb1878c0ea0-0" n="8e54a105">
+          <u who="nils_herlitz_e76c52" xml:id="i-8e54a1051379b380-0" next="i-8e54a1051379b380-2" n="8e54a105">
             <seg n="88027563">
               Herr talman! Jag är nästan generad över att behöva taga kammarens
               tid i anspråk och resa en debatt i ett ämne av så ringa betydelse
@@ -1096,10 +1113,10 @@
             </seg>
           </u>
           <pb n="13" facs="https://betalab.kb.se/prot-1944--fk--17/prot_1944__fk__17-013.jp2/_view"/>
-          <note n="57461492">
+          <note type="date" n="adda6e19">
             1i NE 17. Onsdagen den 10 maj 1944.
           </note>
-          <u who="nils_herlitz_e76c52" xml:id="i-2316abb1878c0ea0-0" prev="i-1f67b9cbb04d805d-0" n="8e54a105">
+          <u who="nils_herlitz_e76c52" xml:id="i-8e54a1051379b380-1" prev="i-8e54a1051379b380-0" n="8e54a105">
             <seg n="35687fc3">
               Om snabbare fyllande av ledigheter inom riksdagens kamrar. (Forts.)
               detta, men jag förmodar, att det måste vara utskottets tanke,
@@ -1173,21 +1190,23 @@
               2) rör en annan, härifrån fristående fråga, och på denna punkt
               ansluter Jag mig till utskottet.
             </seg>
-            <seg n="78f184b7">
-              Om snabbare fyllande av ledigheter inom riksdagens kamrar. (Forts.)
-            </seg>
           </u>
           <note n="0b472001">
             Häri instämde herr Källman.
           </note>
           <pb n="14" facs="https://betalab.kb.se/prot-1944--fk--17/prot_1944__fk__17-014.jp2/_view"/>
-          <note n="8caa1b78">
+          <note type="date" n="84884059">
             Onsdagen den 10 maj 1944. Nr 17. 15
           </note>
+          <u who="nils_herlitz_e76c52" xml:id="i-8e54a1051379b380-2" prev="i-8e54a1051379b380-0" n="8e54a105">
+            <seg n="78f184b7">
+              Om snabbare fyllande av ledigheter inom riksdagens kamrar. (Forts.)
+            </seg>
+          </u>
           <note type="speaker" n="7c088354">
             Herr Andersson, Jones Erik:
           </note>
-          <u who="sven_andersson_d78059" xml:id="i-27e74bb44b4eb505-0" n="8f070ec0">
+          <u who="sven_andersson_d78059" xml:id="i-c372a50dd014eef6-0" n="8f070ec0">
             <seg n="a7ea4b1a">
               Herr talman! Det är väl ostridigt, att den nu gällande ordningen
               för fyllande av uppkomna ledigheter är mer än nödigt omständlig
@@ -1248,7 +1267,7 @@
           <note type="speaker" n="862ef460">
             Herr Karlsson, Gottfrid:
           </note>
-          <u who="verner_karlsson_b59cac" xml:id="i-1d0dc4927870c657-0" next="i-2c5ce26e8af0fe28-0" n="24a42118">
+          <u who="verner_karlsson_b59cac" xml:id="i-1d5f072442ab88ce-0" next="i-1d5f072442ab88ce-1" n="24a42118">
             <seg n="77cd9dcf">
               Herr talman! Jag skulle kunna nöja mig med att instämma med herr
               Herlitz, då han enligt mitt förmenande uttömmande anfört de skäl,
@@ -1268,10 +1287,10 @@
             </seg>
           </u>
           <pb n="15" facs="https://betalab.kb.se/prot-1944--fk--17/prot_1944__fk__17-015.jp2/_view"/>
-          <note n="c20bb5da">
+          <note type="date" n="e66fcb50">
             16 Nr 17. Onsdagen den 10 maj 1944.
           </note>
-          <u who="verner_karlsson_b59cac" xml:id="i-2c5ce26e8af0fe28-0" prev="i-1d0dc4927870c657-0" n="24a42118">
+          <u who="verner_karlsson_b59cac" xml:id="i-1d5f072442ab88ce-1" prev="i-1d5f072442ab88ce-0" n="24a42118">
             <seg n="f675ba60">
               Om snabbare fyllande av ledigheter inom riksdagens kamrar. (Forts.)
               fall än då riksdagen är förpuppad. Och som herr Herlitz nämnde,
@@ -1290,7 +1309,7 @@
           <note type="speaker" n="d697e233">
             Herr Sandström:
           </note>
-          <u who="karl_gustaf_sandstrom_55ae8c" xml:id="i-7ae9cf6d9dd33c2d-0" n="017cfde4">
+          <u who="karl_gustaf_sandstrom_55ae8c" xml:id="i-017cfde4b894b14b-0" n="017cfde4">
             <seg n="18be4c9f">
               Herr talman! När man hörde min ärade vän herr Herlitz, kunde
               man nästan få den uppfattningen, att utskottet helt och hållet
@@ -1347,7 +1366,7 @@
           <note type="speaker" n="a5dbf45d">
             Herr Herlitz:
           </note>
-          <u who="nils_herlitz_e76c52" xml:id="i-1f67b9cbb04d805d-1" next="i-2316abb1878c0ea0-1" n="8e54a105">
+          <u who="nils_herlitz_e76c52" xml:id="i-8e54a1051379b380-3" next="i-8e54a1051379b380-4" n="8e54a105">
             <seg n="3735687f">
               Herr talman! Utskottets ärade vice ordförande beklagade, att
               jag hade gjort denna sak krångligare än den är, och jag lyssnade
@@ -1356,10 +1375,10 @@
             </seg>
           </u>
           <pb n="16" facs="https://betalab.kb.se/prot-1944--fk--17/prot_1944__fk__17-016.jp2/_view"/>
-          <note n="dddc8ec3">
+          <note type="date" n="eac7578c">
             Onsdagen den 10 maj 1944. Nr 17. i7
           </note>
-          <u who="nils_herlitz_e76c52" xml:id="i-2316abb1878c0ea0-1" prev="i-1f67b9cbb04d805d-1" n="8e54a105">
+          <u who="nils_herlitz_e76c52" xml:id="i-8e54a1051379b380-4" prev="i-8e54a1051379b380-3" n="8e54a105">
             <seg n="4c5301a8">
               Om snabbare fyllande av ledigheter inom riksdagens kamrar. (Forts.)
               dess ursprungliga enkelhet och reda upp de dunkla punkterna. Jag
@@ -1380,7 +1399,7 @@
           <note type="speaker" n="629fb3bb">
             Herr Källman:
           </note>
-          <u who="wilhelm_kallman_17860e" xml:id="i-f2936120d63f1612-0" n="6c4c7090">
+          <u who="wilhelm_kallman_17860e" xml:id="i-6c4c70906ee151f7-0" n="6c4c7090">
             <seg n="0de7b100">
               Herr talman! Jag kan inte neka mig nöjet att framhålla, att vad
               herr Sandström anförde endast innebar ett vitsordande av vad herr
@@ -1407,7 +1426,7 @@
           <note type="speaker" n="01619ce7">
             Herr Johanson, Karl August:
           </note>
-          <u who="karl_johanson_d34853" xml:id="i-bf2b0e8bbccddc75-0" next="i-b57296c1c218bc54-0" n="1be1cbfb">
+          <u who="karl_johanson_d34853" xml:id="i-1be1cbfb7318c9c5-0" next="i-1be1cbfb7318c9c5-6" n="1be1cbfb">
             <seg n="03d8a81a">
               Herr talman! Jag vill bara säga herr Källman, att det han här
               framfört om paragraf 32 mom. 2 är felaktigt. Utskottet har beaktat
@@ -1459,37 +1478,22 @@
           <note n="fd96ebf9">
             Om anslag till
           </note>
-          <u who="karl_johanson_d34853" xml:id="i-b57296c1c218bc54-0" prev="i-bf2b0e8bbccddc75-0" n="1be1cbfb">
+          <u who="karl_johanson_d34853" xml:id="i-1be1cbfb7318c9c5-1" prev="i-1be1cbfb7318c9c5-0" n="1be1cbfb">
             <seg n="8e443ad2">
               Svenska befolkningsförbundet jamil-
             </seg>
             <seg n="f55d702a">
               jevärnet.
             </seg>
+          </u>
+          <note type="date" n="bcbcfc49">
+            18 Nr 17. Onsdagen den 10 maj 1944.
+          </note>
+          <u who="karl_johanson_d34853" xml:id="i-1be1cbfb7318c9c5-2" prev="i-1be1cbfb7318c9c5-0" n="1be1cbfb">
             <seg n="78f184b7">
               Om snabbare fyllande av ledigheter inom riksdagens kamrar. (Forts.)
             </seg>
-            <seg n="e6d85351">
-              Med hänsyn till sakens vikt och betydelse är det motionärernas
-              varma förhoppning, att Kungl. Maj:t, vilket också utskottet synes
-              hålla för troligt, med det snaraste för riksdagen framlägger en
-              proposition på detta område, ett initiativ som vore desto mera
-              önskvärt som i annat fall en på privat initiativ inledd verksamhet
-              löper fara att allvarligt äventyras.
-            </seg>
-            <seg n="17923654">
-              Jag har, herr talman, som ärendet nu ligger till, för dagen intet
-              yrkande.
-            </seg>
-            <seg n="209adbf0"/>
-            <seg n="209adbf0"/>
-            <seg n="697a81a6">
-              b) till Statens byggnadslånebyrå: Omkostnader 225 000 kronor.
-            </seg>
           </u>
-          <note n="a8af191c">
-            18 Nr 17. Onsdagen den 10 maj 1944.
-          </note>
           <note n="b23bc7cb">
             Då emellertid herr Herlitz begärde rösträkning, verkställdes
             nu votering medelst omröstningsapparat; och befunnos vid omröstningens
@@ -1561,8 +1565,22 @@
             av Kungl. Maj:ts egna direktiv hittills föranlett åtgärd från
             regeringens sida.
           </note>
+          <u who="karl_johanson_d34853" xml:id="i-1be1cbfb7318c9c5-3" prev="i-1be1cbfb7318c9c5-0" n="1be1cbfb">
+            <seg n="e6d85351">
+              Med hänsyn till sakens vikt och betydelse är det motionärernas
+              varma förhoppning, att Kungl. Maj:t, vilket också utskottet synes
+              hålla för troligt, med det snaraste för riksdagen framlägger en
+              proposition på detta område, ett initiativ som vore desto mera
+              önskvärt som i annat fall en på privat initiativ inledd verksamhet
+              löper fara att allvarligt äventyras.
+            </seg>
+            <seg n="17923654">
+              Jag har, herr talman, som ärendet nu ligger till, för dagen intet
+              yrkande.
+            </seg>
+          </u>
           <pb n="18" facs="https://betalab.kb.se/prot-1944--fk--17/prot_1944__fk__17-018.jp2/_view"/>
-          <note n="581f6b7d">
+          <note type="date" n="b9ec70e6">
             Onsdagen den 10 maj 1944. Nr 17. 19
           </note>
           <note n="0319f45b">
@@ -1570,6 +1588,7 @@
             . Efter det överläggningen förklarats härmed slutad, bifölls vad
             utskottet i det under behandling varande utlåtandet hemställt.
           </note>
+          <u who="karl_johanson_d34853" xml:id="i-1be1cbfb7318c9c5-4" prev="i-1be1cbfb7318c9c5-0" n="1be1cbfb"/>
           <note n="9c66e745">
             Föredrogos ånyo statsutskottets utlåtanden:
           </note>
@@ -1585,6 +1604,7 @@
           <note n="82885393">
             Vad utskottet i dessa utlåtanden hemställt bifölls.
           </note>
+          <u who="karl_johanson_d34853" xml:id="i-1be1cbfb7318c9c5-5" prev="i-1be1cbfb7318c9c5-0" n="1be1cbfb"/>
           <note n="49bd6a49">
             Föredrogs ånyo och företogs punktvis till avgörande statsutskottets
             utlåtande nr 126, i anledning av Kungl. Maj:ts i statsverkspropositionen
@@ -1604,10 +1624,15 @@
           <note n="72e66739">
             a) till Statens byggnadslånebyrå: Avlöningar 735 000 kronor,
           </note>
+          <u who="karl_johanson_d34853" xml:id="i-1be1cbfb7318c9c5-6" prev="i-1be1cbfb7318c9c5-0" n="1be1cbfb">
+            <seg n="697a81a6">
+              b) till Statens byggnadslånebyrå: Omkostnader 225 000 kronor.
+            </seg>
+          </u>
           <note type="speaker" n="85e79068">
             Herr Mannerskantz:
           </note>
-          <u who="axel_mannerskantz_51eb6d" xml:id="i-d73613a7dd721c9a-0" next="i-668d55692bc63e36-0" n="48362159">
+          <u who="axel_mannerskantz_51eb6d" xml:id="i-483621597e5229ab-0" next="i-483621597e5229ab-1" n="48362159">
             <seg n="c112f8f4">
               Herr talman! Det är inte för att framställa något yrkande om
               ändring i statsutskottets och Kungl. Maj:ts förslag på denna punkt
@@ -1655,10 +1680,10 @@
           <note n="29a20f63">
             hem.
           </note>
-          <note n="bfc34504">
+          <note type="date" n="9efa17c6">
             20 Nr 17. Onsdagen den 10 maj 1944.
           </note>
-          <u who="axel_mannerskantz_51eb6d" xml:id="i-668d55692bc63e36-0" prev="i-d73613a7dd721c9a-0" n="48362159">
+          <u who="axel_mannerskantz_51eb6d" xml:id="i-483621597e5229ab-1" prev="i-483621597e5229ab-0" n="48362159">
             <seg n="e9190023">
               Anslag till statens byggnadslånebyrå. (Forts.) detta följer byggnadslånebyrån
               den, som det tycks, bestämda praxis att inte tillåta några andra
@@ -1744,7 +1769,7 @@
             IT: 110
           </note>
           <pb n="20" facs="https://betalab.kb.se/prot-1944--fk--17/prot_1944__fk__17-020.jp2/_view"/>
-          <note n="5c4bdd6e">
+          <note type="date" n="77611925">
             Onsdagen den 10 maj 1944. Nr 17. 21
           </note>
           <note n="7149e68e">
@@ -1758,7 +1783,7 @@
           <note type="speaker" n="3cff1bd4">
             Herr Nilsson Bernhard:
           </note>
-          <u who="torsten_nilsson_abc5a8" xml:id="i-fdf9cdafac2ad2ec-0" n="79f1007e">
+          <u who="torsten_nilsson_abc5a8" xml:id="i-ff678496aa7ccb4f-0" n="79f1007e">
             <seg n="6571ab9d">
               Herr talman! Såsom kammarens ledamöter finna av den vid denna
               punkt fogade reservationen, har det icke varit reservanternas
@@ -1805,7 +1830,7 @@
           <note type="speaker" n="4e76540e">
             Herr Anderson, Gustaf Iwar:
           </note>
-          <u who="iwar_anderson_f4e115" xml:id="i-edd88d71f21dac45-0" n="813d60a6">
+          <u who="iwar_anderson_f4e115" xml:id="i-04563d849cb7da72-0" n="813d60a6">
             <seg n="ab7ffd1b">
               Herr talman! Då reservanterna tydligen räkna med att ytterligare
               medel för lånebidrag till pensionärshem skola upptagas i beredskapsstaten,
@@ -1840,7 +1865,7 @@
           <note n="89afd732">
             Ang. förvärv av aktier i Västeråsbanan.
           </note>
-          <note n="60c50d03">
+          <note type="date" n="be80d71b">
             22 Nr 17. Onsdagen den 10 maj 1944.
           </note>
           <note n="8de4e996">
@@ -1849,7 +1874,7 @@
           <note type="speaker" n="969404bf">
             Herr statsrådet Möller:
           </note>
-          <u who="gustav_moller_bbfd92" xml:id="i-7518c78b95e2baf9-0" next="i-0638d00fcaab8c14-0" n="a7a70f60">
+          <u who="gustav_moller_bbfd92" xml:id="i-a7a70f60120ce0b9-0" next="i-a7a70f60120ce0b9-2" n="a7a70f60">
             <seg n="43705acf">
               Herr talman!Det ligger i sakens natur, att jag inte kan avstyrka
               den reservation, som är fogad till detta utlåtande. Å andra sidan
@@ -1902,28 +1927,9 @@
             Den, som bifaller vad statsutskottet hemställt i sitt utlåtande
             nr 126 punkten 4, röstar 3
           </note>
-          <u who="gustav_moller_bbfd92" xml:id="i-0638d00fcaab8c14-0" prev="i-7518c78b95e2baf9-0" n="a7a70f60">
+          <u who="gustav_moller_bbfd92" xml:id="i-a7a70f60120ce0b9-1" prev="i-a7a70f60120ce0b9-0" n="a7a70f60">
             <seg n="4f91cb16">
               a;
-            </seg>
-            <seg n="9eee3a3b">
-              a) besluta, att aktierna i Stockholm—Västerås—Bergslagens nya
-              järnvägsaktiebolag skulle på avtalade villkor förvärvas av staten;
-            </seg>
-            <seg n="35708143">
-              b) till Förvärv av aktierna i Stockholm—Västerås—Bergslagens
-              nya järnvägsaktiebolag för budgetåret 1944/45 under statens affärsverksfonder,
-              statens järnvägar, anvisa ett investeringsanslag av 25 200 000
-              kronor.
-            </seg>
-            <seg n="592ff4d7">
-              I motiveringen hade utskottet bland annat berört vissa olägenheter,
-              som föranletts av det inträffade uppskovet med Västeråsbanans
-              statsinlösen, samt uttalat en förväntan, att arbetet på övriga
-              privatägda banors införlivning med statsbanenätet skulle omedelbart
-              fortsättas så att det av statsmakterna år 1939 uppställda målet
-              nämligen ett i statens hand enhetligt drivet svenskt järnvägssystem
-              kunde snarast möjligt uppnås.
             </seg>
           </u>
           <note n="39114ee6">
@@ -1951,12 +1957,33 @@
             Maj:ts i ämnet framlagda förslag, hemställt, att riksdagen måtte
           </note>
           <pb n="22" facs="https://betalab.kb.se/prot-1944--fk--17/prot_1944__fk__17-022.jp2/_view"/>
-          <note n="c0d88f29">
+          <note type="date" n="16b99934">
             Onsdagen den 10 maj 1944. Nr 17. 23
           </note>
           <note n="efa78658">
             Ang. förvärv av aktier i Västeråsbanan. (Forts.)
           </note>
+          <u who="gustav_moller_bbfd92" xml:id="i-a7a70f60120ce0b9-2" prev="i-a7a70f60120ce0b9-0" n="a7a70f60">
+            <seg n="9eee3a3b">
+              a) besluta, att aktierna i Stockholm—Västerås—Bergslagens nya
+              järnvägsaktiebolag skulle på avtalade villkor förvärvas av staten;
+            </seg>
+            <seg n="35708143">
+              b) till Förvärv av aktierna i Stockholm—Västerås—Bergslagens
+              nya järnvägsaktiebolag för budgetåret 1944/45 under statens affärsverksfonder,
+              statens järnvägar, anvisa ett investeringsanslag av 25 200 000
+              kronor.
+            </seg>
+            <seg n="592ff4d7">
+              I motiveringen hade utskottet bland annat berört vissa olägenheter,
+              som föranletts av det inträffade uppskovet med Västeråsbanans
+              statsinlösen, samt uttalat en förväntan, att arbetet på övriga
+              privatägda banors införlivning med statsbanenätet skulle omedelbart
+              fortsättas så att det av statsmakterna år 1939 uppställda målet
+              nämligen ett i statens hand enhetligt drivet svenskt järnvägssystem
+              kunde snarast möjligt uppnås.
+            </seg>
+          </u>
           <note n="99471ff6">
             Reservation hade anmälts av herrar Holmström och Hall, vilka
             dock ej antytt sin mening.
@@ -1964,7 +1991,7 @@
           <note type="speaker" n="6f4c0981">
             Herr Holmström:
           </note>
-          <u who="nils_holmstrom_bd8c23" xml:id="i-dc3375a081909734-0" n="31c7cc39">
+          <u who="nils_holmstrom_bd8c23" xml:id="i-31c7cc396c48e0b0-0" n="31c7cc39">
             <seg n="c191f005">
               Herr talman! Jag har vid detta utlåtande en blank reservation.
               Den innebär att jag anser att, när det gäller statens förvärv
@@ -1979,7 +2006,7 @@
           <note type="speaker" n="9346bdb4">
             Herr Eklund:
           </note>
-          <u who="unknown" xml:id="i-f38bca7c217f4386-0" n="3ca02b77">
+          <u who="unknown" xml:id="i-3ca02b77e5456e44-18" n="3ca02b77">
             <seg n="202f82ea">
               Herr talman! Inte heller jag ämnar göra något annat yrkande än
               om bifall till utskottets hemställan, men som en av representanterna
@@ -2027,17 +2054,17 @@
           <note type="speaker" n="e5f988c8">
             Herr statsrådet Andersson:
           </note>
-          <u who="sven_andersson_d78059" xml:id="i-584217edd42c4c13-0" next="i-77812ee789985f7e-0" n="8f070ec0">
+          <u who="sven_andersson_d78059" xml:id="i-c372a50dd014eef6-1" next="i-c372a50dd014eef6-5" n="8f070ec0">
             <seg n="eadf355f">
               Den förste talaren uttalade det önskemålet, att propositionerna
               om förstatligande av järnvägar skulle innehålla mera sif-
             </seg>
           </u>
           <pb n="23" facs="https://betalab.kb.se/prot-1944--fk--17/prot_1944__fk__17-023.jp2/_view"/>
-          <note n="96f14a8c">
+          <note type="date" n="07fcc94f">
             24 Nr 17. Onsdagen den 10 maj 1944.
           </note>
-          <u who="sven_andersson_d78059" xml:id="i-77812ee789985f7e-0" prev="i-584217edd42c4c13-0" n="8f070ec0">
+          <u who="sven_andersson_d78059" xml:id="i-c372a50dd014eef6-2" prev="i-c372a50dd014eef6-1" n="8f070ec0">
             <seg n="5f4baf8f">
               Ang. förvärv av aktier i Västeråsbanan. (Forts.) fermaterial.
               Att så icke sker, beror ju förnämligast på att man inte vill tynga
@@ -2109,6 +2136,17 @@
               om förvärv av enskild järnväg på för staten skäliga villkor, hinder
               icke syntes böra möta att i avvaktan på den kom-
             </seg>
+          </u>
+          <pb n="24" facs="https://betalab.kb.se/prot-1944--fk--17/prot_1944__fk__17-024.jp2/_view"/>
+          <note type="date" n="d6edbd4f">
+            Onsdagen den 10 maj 1944. Nr 17. 25
+          </note>
+          <note n="68a97c6f">
+            Ang. förvärv av aktier i Västeråsbanan. (Forts.) mande utvecklingen
+            låta tills vidare anstå med övertagande av sådan järnväg. Detta
+            uttalande lämnades av 1941 års riksdag utan erinran.
+          </note>
+          <u who="sven_andersson_d78059" xml:id="i-c372a50dd014eef6-3" prev="i-c372a50dd014eef6-1" n="8f070ec0">
             <seg n="e71613b2">
               Det enda fall, då jag icke ansett mig kunna till riksdagen vidarebefordra
               ett förslag om statsinlösen av enskild bana, är S. W. B., med
@@ -2181,6 +2219,15 @@
               om. Därmed intet ont sagt om aktieägarna; de ha naturligtvis intresse
               av att få behålla så mycket som möjligt av rovet för egen del.
             </seg>
+          </u>
+          <pb n="25" facs="https://betalab.kb.se/prot-1944--fk--17/prot_1944__fk__17-025.jp2/_view"/>
+          <note type="date" n="d02911de">
+            26 Nr 17. Onsdagen den 10 maj 1944.
+          </note>
+          <note n="efa78658">
+            Ang. förvärv av aktier i Västeråsbanan. (Forts.)
+          </note>
+          <u who="sven_andersson_d78059" xml:id="i-c372a50dd014eef6-4" prev="i-c372a50dd014eef6-1" n="8f070ec0">
             <seg n="609ad769">
               Jag skulle alltså stanna i tacksamhetsskuld till utskottet, om
               jag finge veta, på vilket sätt staten skulle kunna tvinga järnvägsbolaget
@@ -2254,6 +2301,12 @@
               än under de näst föregående åren att komma fram till för staten
               rimliga uppgörelser. Ju närmare vi
             </seg>
+          </u>
+          <pb n="26" facs="https://betalab.kb.se/prot-1944--fk--17/prot_1944__fk__17-026.jp2/_view"/>
+          <note type="date" n="7a124ab1">
+            Onsdagen den 10 maj 1944. Nr 17. 27
+          </note>
+          <u who="sven_andersson_d78059" xml:id="i-c372a50dd014eef6-5" prev="i-c372a50dd014eef6-1" n="8f070ec0">
             <seg n="1fe628a5">
               Ang. förvärv av aktier i Västeråsbanan. (Forts.) komma fredskrisen,
               desto lättare bör det gå att komma överens med de enskilda Järnvägarnas
@@ -2272,30 +2325,10 @@
               skulle förvärva de enskilda järnvägarna, kosta vad det kosta vill.
             </seg>
           </u>
-          <pb n="24" facs="https://betalab.kb.se/prot-1944--fk--17/prot_1944__fk__17-024.jp2/_view"/>
-          <note n="8db6f795">
-            Onsdagen den 10 maj 1944. Nr 17. 25
-          </note>
-          <note n="68a97c6f">
-            Ang. förvärv av aktier i Västeråsbanan. (Forts.) mande utvecklingen
-            låta tills vidare anstå med övertagande av sådan järnväg. Detta
-            uttalande lämnades av 1941 års riksdag utan erinran.
-          </note>
-          <pb n="25" facs="https://betalab.kb.se/prot-1944--fk--17/prot_1944__fk__17-025.jp2/_view"/>
-          <note n="49ec5f6f">
-            26 Nr 17. Onsdagen den 10 maj 1944.
-          </note>
-          <note n="efa78658">
-            Ang. förvärv av aktier i Västeråsbanan. (Forts.)
-          </note>
-          <pb n="26" facs="https://betalab.kb.se/prot-1944--fk--17/prot_1944__fk__17-026.jp2/_view"/>
-          <note n="98dd487c">
-            Onsdagen den 10 maj 1944. Nr 17. 27
-          </note>
           <note type="speaker" n="0f9e9d38">
             Herr Forslund:
           </note>
-          <u who="albert_forslund_afb8e0" xml:id="i-42ebd59f4ec1f2ff-0" next="i-aea374aff5207bd8-0" n="6a379f69">
+          <u who="albert_forslund_afb8e0" xml:id="i-6a379f6916369597-0" next="i-6a379f6916369597-3" n="6a379f69">
             <seg n="23014558">
               Herr talman! Med hänsyn till det intresse jag hyser för järnvägsväsendets
               rationella utveckling och för en samordning på det sätt, som man
@@ -2353,10 +2386,10 @@
             </seg>
           </u>
           <pb n="27" facs="https://betalab.kb.se/prot-1944--fk--17/prot_1944__fk__17-027.jp2/_view"/>
-          <note n="aca4a2cf">
+          <note type="date" n="45d598d1">
             28 Nr 17. Onsdagen den 10 maj 1944.
           </note>
-          <u who="albert_forslund_afb8e0" xml:id="i-aea374aff5207bd8-0" prev="i-42ebd59f4ec1f2ff-0" n="6a379f69">
+          <u who="albert_forslund_afb8e0" xml:id="i-6a379f6916369597-1" prev="i-6a379f6916369597-0" n="6a379f69">
             <seg n="a102ee2e">
               Ang. förvärv av aktier i Västeråsbanan. (Forts.) kalkyl, som
               man då kommit till i det föreliggande förslaget, visar att grunderna
@@ -2428,6 +2461,12 @@
               kostnaderna för trafikanterna. De äro ju ingen ovidkommande part,
               utan människor till vilka man bör
             </seg>
+          </u>
+          <pb n="28" facs="https://betalab.kb.se/prot-1944--fk--17/prot_1944__fk__17-028.jp2/_view"/>
+          <note type="date" n="2da43e2e">
+            Onsdagen den 10 maj 1944. Nr 17. 29
+          </note>
+          <u who="albert_forslund_afb8e0" xml:id="i-6a379f6916369597-2" prev="i-6a379f6916369597-0" n="6a379f69">
             <seg n="34fabdba">
               Ang. förvärv av aktier i Västeråsbanan. (Forts.) ta all möjlig
               hänsyn. I det betänkande, som år 1938 avlämnades av 1936 års Järnvägskommitté,
@@ -2498,6 +2537,12 @@
               som man kan göra, att vad som här fördröjts under de två åren
               faktiskt har även fördröjt förstatligandet av de andra
             </seg>
+          </u>
+          <pb n="29" facs="https://betalab.kb.se/prot-1944--fk--17/prot_1944__fk__17-029.jp2/_view"/>
+          <note type="date" n="b2ebba41">
+            30 Nr 17. Onsdagen den 10 maj 1944.
+          </note>
+          <u who="albert_forslund_afb8e0" xml:id="i-6a379f6916369597-3" prev="i-6a379f6916369597-0" n="6a379f69">
             <seg n="6879c49d">
               Ang. förvärv av aktier i Viästeråsbanan. (Forts.) banor, som
               återstå. Nu invänder någon, och det gjorde statsrådet också, att
@@ -2564,18 +2609,10 @@
               samma väg men med något raskare takt.
             </seg>
           </u>
-          <pb n="28" facs="https://betalab.kb.se/prot-1944--fk--17/prot_1944__fk__17-028.jp2/_view"/>
-          <note n="8dd0e981">
-            Onsdagen den 10 maj 1944. Nr 17. 29
-          </note>
-          <pb n="29" facs="https://betalab.kb.se/prot-1944--fk--17/prot_1944__fk__17-029.jp2/_view"/>
-          <note n="a878fb7c">
-            30 Nr 17. Onsdagen den 10 maj 1944.
-          </note>
           <note type="speaker" n="e5f988c8">
             Herr statsrådet Andersson:
           </note>
-          <u who="sven_andersson_d78059" xml:id="i-584217edd42c4c13-1" next="i-77812ee789985f7e-1" n="8f070ec0">
+          <u who="sven_andersson_d78059" xml:id="i-c372a50dd014eef6-6" next="i-c372a50dd014eef6-7" n="8f070ec0">
             <seg n="7061e1d2">
               Herr talman! Kontentan av första delen av den föregående ärade
               talarens anförande var ju, att staten icke bör pruta på de belopp,
@@ -2585,10 +2622,10 @@
             </seg>
           </u>
           <pb n="30" facs="https://betalab.kb.se/prot-1944--fk--17/prot_1944__fk__17-030.jp2/_view"/>
-          <note n="6e1a1be0">
+          <note type="date" n="e1231ae4">
             Onsdagen den 10 maj 1944. Nr 17. 31
           </note>
-          <u who="sven_andersson_d78059" xml:id="i-77812ee789985f7e-1" prev="i-584217edd42c4c13-1" n="8f070ec0">
+          <u who="sven_andersson_d78059" xml:id="i-c372a50dd014eef6-7" prev="i-c372a50dd014eef6-6" n="8f070ec0">
             <seg n="7cd390cb">
               Ang. förvärv av aktier i Västeråsbanan. (Forts.) kanske icke
               är så lätt för statsmakterna att gå till förhandlingar med ägarna
@@ -2664,17 +2701,17 @@
           <note type="speaker" n="97e3f482">
             Herr Nilsson, Johan i Malmö:
           </note>
-          <u who="torsten_nilsson_abc5a8" xml:id="i-aecd99546fd131cf-0" next="i-52c332cccf302e29-0" n="79f1007e">
+          <u who="torsten_nilsson_abc5a8" xml:id="i-ff678496aa7ccb4f-1" next="i-ff678496aa7ccb4f-3" n="79f1007e">
             <seg n="700848c6">
               Herr talman! Herr kommunikationsministern uttalade ett visst
               missnöje med det sätt, varpå utskottet behandlat en del av
             </seg>
           </u>
           <pb n="31" facs="https://betalab.kb.se/prot-1944--fk--17/prot_1944__fk__17-031.jp2/_view"/>
-          <note n="f3e76585">
+          <note type="date" n="0c26ecb9">
             32 Nr 17. Onsdagen den 10 maj 1944.
           </note>
-          <u who="torsten_nilsson_abc5a8" xml:id="i-52c332cccf302e29-0" prev="i-aecd99546fd131cf-0" n="79f1007e">
+          <u who="torsten_nilsson_abc5a8" xml:id="i-ff678496aa7ccb4f-2" prev="i-ff678496aa7ccb4f-1" n="79f1007e">
             <seg n="ca64f17d">
               Ang. förvärv av aktier i Västeråsbanan. (Forts.) de angelägenheter,
               som nu äro föremål för överläggning. Han riktade sig särskilt
@@ -2747,6 +2784,12 @@
               dessa siffror, så att det kanske kan vara onödigt för mig att
               på nytt föra fram siffermaterialet i diskussionen
             </seg>
+          </u>
+          <pb n="32" facs="https://betalab.kb.se/prot-1944--fk--17/prot_1944__fk__17-032.jp2/_view"/>
+          <note type="date" n="16b99934">
+            Onsdagen den 10 maj 1944. Nr 17. 23
+          </note>
+          <u who="torsten_nilsson_abc5a8" xml:id="i-ff678496aa7ccb4f-3" prev="i-ff678496aa7ccb4f-1" n="79f1007e">
             <seg n="dbc98214">
               Ang. förvärv av aktier i Västeråsbanan. (Forts.) för att belysa
               utskottets ståndpunkt. Jag understryker emellertid, att vi inom
@@ -2757,17 +2800,13 @@
               ange.
             </seg>
           </u>
-          <pb n="32" facs="https://betalab.kb.se/prot-1944--fk--17/prot_1944__fk__17-032.jp2/_view"/>
-          <note n="c0d88f29">
-            Onsdagen den 10 maj 1944. Nr 17. 23
-          </note>
           <note n="a72c78bd">
             Jag ber, herr talman, att få yrka bifall till utskottets förslag.
           </note>
           <note type="speaker" n="0f9e9d38">
             Herr Forslund:
           </note>
-          <u who="albert_forslund_afb8e0" xml:id="i-49fb8cce6490f1d2-0" n="6a379f69">
+          <u who="albert_forslund_afb8e0" xml:id="i-6a379f6916369597-4" n="6a379f69">
             <seg n="e781a7a0">
               Herr talman! Herr statsrådet Andersson ville göra gällande, alt
               man av mitt resonemang skulle kunna draga den slutsatsen, att
@@ -2794,7 +2833,7 @@
           <note type="speaker" n="2649e5ef">
             Herr Sundberg:
           </note>
-          <u who="abel_sundberg_94c5c4" xml:id="i-d287752aa3097fca-0" n="25693f1a">
+          <u who="abel_sundberg_94c5c4" xml:id="i-bb078cb8cfa5c8cc-0" n="25693f1a">
             <seg n="5b620e30">
               Herr talman! Herr Johan Nilsson påtalade den stora förlust, som
               staten skulle ha åsamkats på grund av den minskade takt, varmed
@@ -2816,7 +2855,7 @@
           <note type="speaker" n="683477fa">
             Herr Nilsson, Johan, i Malmö:
           </note>
-          <u who="torsten_nilsson_abc5a8" xml:id="i-aecd99546fd131cf-1" next="i-52c332cccf302e29-1" n="79f1007e">
+          <u who="torsten_nilsson_abc5a8" xml:id="i-ff678496aa7ccb4f-4" next="i-ff678496aa7ccb4f-8" n="79f1007e">
             <seg n="762ec876">
               Herr talman! Herr Sundberg ifrågasätter riktigheten av mina påståenden
               om den förlust som staten lidit genom det försenade förstatligandet.
@@ -2843,7 +2882,7 @@
             Första kammarens protokoll 1944. Nr 17. 3
           </note>
           <pb n="33" facs="https://betalab.kb.se/prot-1944--fk--17/prot_1944__fk__17-033.jp2/_view"/>
-          <note n="234402f9">
+          <note type="date" n="eb593513">
             34 Nr 17. Onsdagen den 10 maj 1944.
           </note>
           <note n="c1ce0b76">
@@ -2862,7 +2901,34 @@
           <note n="b60c6f87">
             ker. Vad utskottet i dessa betänkanden hemställt bifölls.
           </note>
-          <u who="torsten_nilsson_abc5a8" xml:id="i-52c332cccf302e29-1" prev="i-aecd99546fd131cf-1" n="79f1007e">
+          <u who="torsten_nilsson_abc5a8" xml:id="i-ff678496aa7ccb4f-5" prev="i-ff678496aa7ccb4f-4" n="79f1007e"/>
+          <note n="13410afa">
+            Vid förnyad föredragning av bankoutskottets utlåtande nr 44,
+            i anledning av väckt motion angående ändring i visst avseende
+            av gällande bestämmelser om sparbanks utlåningsrörelse, bifölls
+            vad utskottet i detta utlåtande hemställt.
+          </note>
+          <note n="60becacc">
+            Ang. straffet — Föredrogs ånyo första lagutskottets utlåtande
+            nr 23, i anledning av väckt
+          </note>
+          <note n="f6b31bf0">
+            der alot, motion med förslag till lag om vissa ändringar i 8
+            kap. strafflagen. verksamhet I en inom första kammaren väckt,
+            till lagutskott hänvisad motion, nr 138, m. Me
+          </note>
+          <note n="0bfaa1c0">
+            vilken behandlats av första lagutskottet, hade herr Undén hemställt,
+            att riksdagen ville för sin del antaga i motionen infört förslag
+            till lag om vissa ändringar i 8 kap. strafflagen.
+          </note>
+          <note n="9e3e952e">
+            I det av motionären framlagda lagförslaget var 14 a $ så lydande:
+          </note>
+          <note n="f2e08a1f">
+            (Nuvarande lydelse:)
+          </note>
+          <u who="torsten_nilsson_abc5a8" xml:id="i-ff678496aa7ccb4f-6" prev="i-ff678496aa7ccb4f-4" n="79f1007e">
             <seg n="26cb56a7">
               Den som, i annat fall än förut är sagt, inom riket för främmande
               makts räkning bedriver hemlig underrättelseverksamhet i militärt
@@ -2870,6 +2936,11 @@
               till fängelse eller straffarbete i högst två år. Äro omständigheterna
               synnerligen mildrande, må till böter dömas.
             </seg>
+          </u>
+          <note n="4dc336d2">
+            (Föreslagen lydelse:)
+          </note>
+          <u who="torsten_nilsson_abc5a8" xml:id="i-ff678496aa7ccb4f-7" prev="i-ff678496aa7ccb4f-4" n="79f1007e">
             <seg n="899311df">
               Den som, i annat syfte än förut är sagt, mot ersättning eller
               på uppdrag av främmande makt bedriver verksamhet inom riket för
@@ -2878,6 +2949,62 @@
               till fängelse eller straffarbete i högst två år. Äro omständigheterna
               synnerligen mildrande, må till böter dömas.
             </seg>
+          </u>
+          <note n="e18e6237">
+            Motionärens förslag innebar vidare, att de i 8 kap. 26 och 28
+            $$ strafflagen upptagna bestämmelserna om straff för förberedelse
+            till olovlig underrättelseverksamhet och för underlåtenhet att
+            »upptäcka» sådan verksamhet skulle upp-
+          </note>
+          <note n="964f0fab">
+            hävas.
+          </note>
+          <note n="3720c097">
+            Utskottet hade i det nu föreliggande utlåtandet på åberopade
+            grunder hemställt, att riksdagen i anledning av förevarande motion,
+            I: 138, måtte besluta
+          </note>
+          <note n="709fcd27">
+            att för sin del antaga följande
+          </note>
+          <note n="50affbe9">
+            Förslag till
+          </note>
+          <note n="c9ed89a6">
+            Lag
+          </note>
+          <note n="4f2877a6">
+            om ändring i 8 kap. strafflagen.
+          </note>
+          <note n="1cb3353a">
+            Härigenom förordnas, att 8 kap. 14 a $ strafflagen skall erhålla
+            ändrad lydelse på sätt nedan angives samt att i samma kapitel
+            skall införas en ny paragraf, betecknad 28 a $, av den lydelse
+            nedan sägs.
+          </note>
+          <pb n="34" facs="https://betalab.kb.se/prot-1944--fk--17/prot_1944__fk__17-034.jp2/_view"/>
+          <note type="date" n="0cda3d41">
+            Onsdagen den 10 maj 1944. Nr 17. 35
+          </note>
+          <note n="cd5166a3">
+            Ang. straffet för olovlig underrättelseverksamhet m. m. (Forts.)
+            8 KAP.
+          </note>
+          <note n="76089238">
+            14 a 8. Den, som — — — böter dömas. Allmän åklagare må ej utan
+            Konungens lov väcka åtal för brott, som nu är sagt. 28 a $.
+          </note>
+          <note n="085f1263">
+            Allmän åklagare må ej utan Konungens lov väcka åtal för brott,
+            som avses i 26 eller 28 $, i vad de hänföra sig till 14 a 8.
+          </note>
+          <note n="bce7938e">
+            Denna lag träder i kraft den 1 juli 1944.
+          </note>
+          <note n="b82e0e6b">
+            I motiveringen hade utskottet anfört bland annat följande:
+          </note>
+          <u who="torsten_nilsson_abc5a8" xml:id="i-ff678496aa7ccb4f-8" prev="i-ff678496aa7ccb4f-4" n="79f1007e">
             <seg n="78480711">
               »Erfarenheten av de senaste årens tillämpning av 14 a 8 torde
               giva vid handen, att lagrummet erhållit en avfattning, som möjliggör
@@ -2927,91 +3054,8 @@
               understryka vikten av att så kommer att ske. Med
             </seg>
           </u>
-          <note n="13410afa">
-            Vid förnyad föredragning av bankoutskottets utlåtande nr 44,
-            i anledning av väckt motion angående ändring i visst avseende
-            av gällande bestämmelser om sparbanks utlåningsrörelse, bifölls
-            vad utskottet i detta utlåtande hemställt.
-          </note>
-          <note n="60becacc">
-            Ang. straffet — Föredrogs ånyo första lagutskottets utlåtande
-            nr 23, i anledning av väckt
-          </note>
-          <note n="f6b31bf0">
-            der alot, motion med förslag till lag om vissa ändringar i 8
-            kap. strafflagen. verksamhet I en inom första kammaren väckt,
-            till lagutskott hänvisad motion, nr 138, m. Me
-          </note>
-          <note n="0bfaa1c0">
-            vilken behandlats av första lagutskottet, hade herr Undén hemställt,
-            att riksdagen ville för sin del antaga i motionen infört förslag
-            till lag om vissa ändringar i 8 kap. strafflagen.
-          </note>
-          <note n="9e3e952e">
-            I det av motionären framlagda lagförslaget var 14 a $ så lydande:
-          </note>
-          <note n="f2e08a1f">
-            (Nuvarande lydelse:)
-          </note>
-          <note n="4dc336d2">
-            (Föreslagen lydelse:)
-          </note>
-          <note n="e18e6237">
-            Motionärens förslag innebar vidare, att de i 8 kap. 26 och 28
-            $$ strafflagen upptagna bestämmelserna om straff för förberedelse
-            till olovlig underrättelseverksamhet och för underlåtenhet att
-            »upptäcka» sådan verksamhet skulle upp-
-          </note>
-          <note n="964f0fab">
-            hävas.
-          </note>
-          <note n="3720c097">
-            Utskottet hade i det nu föreliggande utlåtandet på åberopade
-            grunder hemställt, att riksdagen i anledning av förevarande motion,
-            I: 138, måtte besluta
-          </note>
-          <note n="709fcd27">
-            att för sin del antaga följande
-          </note>
-          <note n="50affbe9">
-            Förslag till
-          </note>
-          <note n="c9ed89a6">
-            Lag
-          </note>
-          <note n="4f2877a6">
-            om ändring i 8 kap. strafflagen.
-          </note>
-          <note n="1cb3353a">
-            Härigenom förordnas, att 8 kap. 14 a $ strafflagen skall erhålla
-            ändrad lydelse på sätt nedan angives samt att i samma kapitel
-            skall införas en ny paragraf, betecknad 28 a $, av den lydelse
-            nedan sägs.
-          </note>
-          <pb n="34" facs="https://betalab.kb.se/prot-1944--fk--17/prot_1944__fk__17-034.jp2/_view"/>
-          <note n="fe1b9c3b">
-            Onsdagen den 10 maj 1944. Nr 17. 35
-          </note>
-          <note n="cd5166a3">
-            Ang. straffet för olovlig underrättelseverksamhet m. m. (Forts.)
-            8 KAP.
-          </note>
-          <note n="76089238">
-            14 a 8. Den, som — — — böter dömas. Allmän åklagare må ej utan
-            Konungens lov väcka åtal för brott, som nu är sagt. 28 a $.
-          </note>
-          <note n="085f1263">
-            Allmän åklagare må ej utan Konungens lov väcka åtal för brott,
-            som avses i 26 eller 28 $, i vad de hänföra sig till 14 a 8.
-          </note>
-          <note n="bce7938e">
-            Denna lag träder i kraft den 1 juli 1944.
-          </note>
-          <note n="b82e0e6b">
-            I motiveringen hade utskottet anfört bland annat följande:
-          </note>
           <pb n="35" facs="https://betalab.kb.se/prot-1944--fk--17/prot_1944__fk__17-035.jp2/_view"/>
-          <note n="43445051">
+          <note type="date" n="ec89053b">
             36 Nr 17. Onsdagen den 10 maj 1944.
           </note>
           <note n="edd0f8f4">
@@ -3038,7 +3082,7 @@
           <note type="speaker" n="bd0b24e4">
             Herr Branting:
           </note>
-          <u who="georg_branting_adc558" xml:id="i-53ec84ff6afae58a-0" next="i-197398d9b124f83c-0" n="4dd63d39">
+          <u who="georg_branting_adc558" xml:id="i-4dd63d3925b026de-0" next="i-4dd63d3925b026de-8" n="4dd63d39">
             <seg n="74530730">
               Herr talman, mina herrar! Den som läser första lagutskottets
               utlåtande i föreliggande ärende, således angående herr Undéns
@@ -3097,7 +3141,7 @@
             </seg>
           </u>
           <pb n="36" facs="https://betalab.kb.se/prot-1944--fk--17/prot_1944__fk__17-036.jp2/_view"/>
-          <note n="f6ba3d4d">
+          <note type="date" n="fc1a2261">
             Onsdagen den 10 maj 1944. Nr 17. 37
           </note>
           <note n="ca702ea2">
@@ -3106,7 +3150,7 @@
             också år 1942 ytterligare en rad utvidgningar och skärpningar
             av bestämmelserna i detta olycksaliga 8 kap.
           </note>
-          <u who="georg_branting_adc558" xml:id="i-197398d9b124f83c-0" prev="i-53ec84ff6afae58a-0" n="4dd63d39">
+          <u who="georg_branting_adc558" xml:id="i-4dd63d3925b026de-1" prev="i-4dd63d3925b026de-0" n="4dd63d39">
             <seg n="7b7a9488">
               Sedermera har ju dock en viss tillnyktring börjar göra sig gällande.
               Nu stå vi här i dag inför detta verkligen ganska märkliga utskottsutlåtande
@@ -3176,6 +3220,12 @@
               ”verksamhet synes överhuvud taget ha erhållit en vidsträcktare
               innehörd än som överensstäm-
             </seg>
+          </u>
+          <pb n="37" facs="https://betalab.kb.se/prot-1944--fk--17/prot_1944__fk__17-037.jp2/_view"/>
+          <note type="date" n="28826a5f">
+            38 Nr 17. Onsdagen den 10 maj 1944.
+          </note>
+          <u who="georg_branting_adc558" xml:id="i-4dd63d3925b026de-2" prev="i-4dd63d3925b026de-0" n="4dd63d39">
             <seg n="e4a2722a">
               Ang. straffet för olovlig underrättelseverksamhet m. m. (Forts.)
               mer med utskottets uppfattning om vad detta begrepp i förevarande
@@ -3247,6 +3297,12 @@
               Här blir det ju dock alltid fråga om ett politiskt avgörande.
               Själva brottets natur är sådan. Det kommer man icke ifrån.
             </seg>
+          </u>
+          <pb n="38" facs="https://betalab.kb.se/prot-1944--fk--17/prot_1944__fk__17-038.jp2/_view"/>
+          <note type="date" n="d329374c">
+            Onsdagen den 10 maj 1944. Nr 17. 39
+          </note>
+          <u who="georg_branting_adc558" xml:id="i-4dd63d3925b026de-3" prev="i-4dd63d3925b026de-0" n="4dd63d39">
             <seg n="452eadae">
               Ang. straffet för olovlig underrättelseverksamhet m. m. (Forts.)
               Då är det väl ändå bättre, har utskottet ansett — och det tycker
@@ -3320,6 +3376,12 @@
               en förprövning av Kungl. Maj:t? In tredje möjlighet hade naturligtvis
               också kunnat övervägas, och jag har för min del haft stora sym-
             </seg>
+          </u>
+          <pb n="39" facs="https://betalab.kb.se/prot-1944--fk--17/prot_1944__fk__17-039.jp2/_view"/>
+          <note type="date" n="93bd9323">
+            40 Nr 17. Onsdagen den 10 maj 1944.
+          </note>
+          <u who="georg_branting_adc558" xml:id="i-4dd63d3925b026de-4" prev="i-4dd63d3925b026de-0" n="4dd63d39">
             <seg n="36e7a3f1">
               Ang. straffet för olovlig underrättelseverksamhet m. m. (Forts.)
               patier för den linjen. Jag syftar på att det hade varit möjligt
@@ -3393,6 +3455,12 @@
               1940 införda principen, att vissa upplysningars inhämtande eller
               medde-
             </seg>
+          </u>
+          <pb n="40" facs="https://betalab.kb.se/prot-1944--fk--17/prot_1944__fk__17-040.jp2/_view"/>
+          <note type="date" n="6d544c4b">
+            Onsdagen den 10 maj 1944. Nr 17. 41
+          </note>
+          <u who="georg_branting_adc558" xml:id="i-4dd63d3925b026de-5" prev="i-4dd63d3925b026de-0" n="4dd63d39">
             <seg n="40c6fdee">
               Ang. straffet för olovlig underrättelseverksamhet m. m. (Forts.)
               lande skall kriminaliseras på den grunden, att de kunna innehålla
@@ -3466,6 +3534,12 @@
               med den förklaringen, att om flyktingar överlämnade sina iakttagelser
               rörande förhållandena 1 sitt hem-
             </seg>
+          </u>
+          <pb n="41" facs="https://betalab.kb.se/prot-1944--fk--17/prot_1944__fk__17-041.jp2/_view"/>
+          <note type="date" n="ba001835">
+            42 Nr 17. Onsdagen den 10 maj 1944.
+          </note>
+          <u who="georg_branting_adc558" xml:id="i-4dd63d3925b026de-6" prev="i-4dd63d3925b026de-0" n="4dd63d39">
             <seg n="90e1a15d">
               Ang. straffet för olovlig underrättelseverksamhet m. m. (Forts.)
               land, skulle det inte betraktas som en »verksamhet» — det var
@@ -3539,6 +3613,20 @@
               mig alltså för de avvisande argument, som anfördes från olika
               håll, och försökte
             </seg>
+          </u>
+          <pb n="42" facs="https://betalab.kb.se/prot-1944--fk--17/prot_1944__fk__17-042.jp2/_view"/>
+          <note type="date" n="daaa07bc">
+            Onsdagen den 10 maj 1944. Nr 17. 43
+          </note>
+          <note n="c7b17cd1">
+            Ang. straffet för olovlig underrättelseverksamhet m. m. (Forts.)
+            därför i stället i årets motion att skriva om paragrafen och inskränka
+            den till att strafflägga olovlig underrättelseverksamhet, avseende
+            hemliga militära förhållanden, och med ytterligare den begränsningen,
+            att bara sådana gärningar skulle straffas, som voro företagna
+            på uppdrag av främmande makt eller mot vederlag.
+          </note>
+          <u who="georg_branting_adc558" xml:id="i-4dd63d3925b026de-7" prev="i-4dd63d3925b026de-0" n="4dd63d39">
             <seg n="b2c40af2">
               Jag skall inte gå närmare in på att försvara denna formulering,
               eftersom utskottet har valt en annan väg och frågan på det viset
@@ -3602,6 +3690,15 @@
               för tyskarnas nazistparti och spionera på statslösa flyktingar
             </seg>
             <seg n="209adbf0"/>
+          </u>
+          <pb n="43" facs="https://betalab.kb.se/prot-1944--fk--17/prot_1944__fk__17-043.jp2/_view"/>
+          <note type="date" n="a82b0b42">
+            44 Nr 17. Onsdagen den 10 maj 1944.
+          </note>
+          <note n="edd0f8f4">
+            Ang. straffet för olovlig underrättelseverksamhet m. m. (Forts.)
+          </note>
+          <u who="georg_branting_adc558" xml:id="i-4dd63d3925b026de-8" prev="i-4dd63d3925b026de-0" n="4dd63d39">
             <seg n="d4453bd7">
               i Sverige. Det kan ju inte skada Sveriges förhållande till någon
               annan makt, om vi tolerera detta. Dessa statslösa ha överhuvud
@@ -3637,49 +3734,10 @@
               som jag har tillåtit mig föreslå i år.
             </seg>
           </u>
-          <pb n="37" facs="https://betalab.kb.se/prot-1944--fk--17/prot_1944__fk__17-037.jp2/_view"/>
-          <note n="1c9d86aa">
-            38 Nr 17. Onsdagen den 10 maj 1944.
-          </note>
-          <pb n="38" facs="https://betalab.kb.se/prot-1944--fk--17/prot_1944__fk__17-038.jp2/_view"/>
-          <note n="db1db741">
-            Onsdagen den 10 maj 1944. Nr 17. 39
-          </note>
-          <pb n="39" facs="https://betalab.kb.se/prot-1944--fk--17/prot_1944__fk__17-039.jp2/_view"/>
-          <note n="b443c5c4">
-            40 Nr 17. Onsdagen den 10 maj 1944.
-          </note>
-          <pb n="40" facs="https://betalab.kb.se/prot-1944--fk--17/prot_1944__fk__17-040.jp2/_view"/>
-          <note n="683bccb7">
-            Onsdagen den 10 maj 1944. Nr 17. 41
-          </note>
-          <pb n="41" facs="https://betalab.kb.se/prot-1944--fk--17/prot_1944__fk__17-041.jp2/_view"/>
-          <note n="adf09dc4">
-            42 Nr 17. Onsdagen den 10 maj 1944.
-          </note>
-          <pb n="42" facs="https://betalab.kb.se/prot-1944--fk--17/prot_1944__fk__17-042.jp2/_view"/>
-          <note n="1a2214a7">
-            Onsdagen den 10 maj 1944. Nr 17. 43
-          </note>
-          <note n="c7b17cd1">
-            Ang. straffet för olovlig underrättelseverksamhet m. m. (Forts.)
-            därför i stället i årets motion att skriva om paragrafen och inskränka
-            den till att strafflägga olovlig underrättelseverksamhet, avseende
-            hemliga militära förhållanden, och med ytterligare den begränsningen,
-            att bara sådana gärningar skulle straffas, som voro företagna
-            på uppdrag av främmande makt eller mot vederlag.
-          </note>
-          <pb n="43" facs="https://betalab.kb.se/prot-1944--fk--17/prot_1944__fk__17-043.jp2/_view"/>
-          <note n="386d3457">
-            44 Nr 17. Onsdagen den 10 maj 1944.
-          </note>
-          <note n="edd0f8f4">
-            Ang. straffet för olovlig underrättelseverksamhet m. m. (Forts.)
-          </note>
           <note type="speaker" n="b880e4f4">
             Herr statsrådet Bergquist:
           </note>
-          <u who="thorwald_bergquist_05360b" xml:id="i-724908f9ea124c35-0" next="i-c3538158556889a3-0" n="db4d791f">
+          <u who="thorwald_bergquist_05360b" xml:id="i-8f4e4a61d501e9e0-0" next="i-8f4e4a61d501e9e0-5" n="db4d791f">
             <seg n="a34562d4">
               Herr talman! Då första lagutskottet här har föreslagit en ganska
               betydelsefull ändring i gällande allmänna strafflag, tillåter
@@ -3719,10 +3777,10 @@
             </seg>
           </u>
           <pb n="44" facs="https://betalab.kb.se/prot-1944--fk--17/prot_1944__fk__17-044.jp2/_view"/>
-          <note n="c308a0e5">
+          <note type="date" n="33018ccb">
             Onsdagen den 10 maj 1944. Nr 17. 45
           </note>
-          <u who="thorwald_bergquist_05360b" xml:id="i-c3538158556889a3-0" prev="i-724908f9ea124c35-0" n="db4d791f">
+          <u who="thorwald_bergquist_05360b" xml:id="i-8f4e4a61d501e9e0-1" prev="i-8f4e4a61d501e9e0-0" n="db4d791f">
             <seg n="81c886e8">
               Ang. straffet för olovlig underrättelseverksamhet m. m. (Forts.)
               ömtåliga natur handläggas de ju i mycket stor utsträckning inom
@@ -3795,6 +3853,17 @@
               vederbörande har gjort sig skyldig till olovlig underrättelseverksamhet.
               Jag skall inte
             </seg>
+          </u>
+          <pb n="45" facs="https://betalab.kb.se/prot-1944--fk--17/prot_1944__fk__17-045.jp2/_view"/>
+          <note type="date" n="4457c793">
+            46 Nr 17. Onsdagen den 10 maj 1944.
+          </note>
+          <note n="95f718ab">
+            Ang. straffet för olovlig underrättelseverksamhet m. m. (Forts.)
+            vidare ingå på detta mål. Det ligger nu under högsta domstolens
+            prövning, och vi få avvakta dess utslag.
+          </note>
+          <u who="thorwald_bergquist_05360b" xml:id="i-8f4e4a61d501e9e0-2" prev="i-8f4e4a61d501e9e0-0" n="db4d791f">
             <seg n="71e3013a">
               Det tredje skälet till att jag ej ansåg mig böra lägga fram förslag
               var att vi, som herr Undén påpekade i sitt anförande här, ha fått
@@ -3865,6 +3934,12 @@
               eller såväl militär som politisk underrättelseverksamhet. Så vitt
               man kan se
             </seg>
+          </u>
+          <pb n="46" facs="https://betalab.kb.se/prot-1944--fk--17/prot_1944__fk__17-046.jp2/_view"/>
+          <note type="date" n="ba9cfb37">
+            Onsdagen den 10 maj 1944. Nr 17. 47
+          </note>
+          <u who="thorwald_bergquist_05360b" xml:id="i-8f4e4a61d501e9e0-3" prev="i-8f4e4a61d501e9e0-0" n="db4d791f">
             <seg n="c1683f7f">
               Ang. straffet för olovlig underrättelseverksamhet m. m. (Forts.)
               av utslagen, dömdes under åren 1942 och 1943 sammanlagt endast
@@ -3939,6 +4014,12 @@
               blott en tillfällig åtgärd. I praxis har man kommit att i viss
               mån bortse från
             </seg>
+          </u>
+          <pb n="47" facs="https://betalab.kb.se/prot-1944--fk--17/prot_1944__fk__17-047.jp2/_view"/>
+          <note type="date" n="d4cc9ab3">
+            48 Nr 17. Onsdagen den 10 maj 1944.
+          </note>
+          <u who="thorwald_bergquist_05360b" xml:id="i-8f4e4a61d501e9e0-4" prev="i-8f4e4a61d501e9e0-0" n="db4d791f">
             <seg n="f736f3c8">
               Äng. straffet för olovlig underrättelseverksamhet m. m. (Forts.)
               detta. men under den senaste tiden har så vitt jag vet icke förekommit
@@ -4013,6 +4094,12 @@
               utskottet, såsom också herr Branting mycket riktigt har anmärkt,
               på ett sådant bedömande av straffmätningen. Jag
             </seg>
+          </u>
+          <pb n="48" facs="https://betalab.kb.se/prot-1944--fk--17/prot_1944__fk__17-048.jp2/_view"/>
+          <note type="date" n="701eeddd">
+            Onsdagen den 10 maj 1944. Nr 17. 49
+          </note>
+          <u who="thorwald_bergquist_05360b" xml:id="i-8f4e4a61d501e9e0-5" prev="i-8f4e4a61d501e9e0-0" n="db4d791f">
             <seg n="ec75208a">
               Ang. straffet för olovlig underrättelseverksamhet m. m. (Forts.)
               anser för min del att detta icke är lämpligt. Lagutskottet kan
@@ -4069,34 +4156,13 @@
               ånyo skall tagas under övervägande.
             </seg>
           </u>
-          <pb n="45" facs="https://betalab.kb.se/prot-1944--fk--17/prot_1944__fk__17-045.jp2/_view"/>
-          <note n="f7ca24e7">
-            46 Nr 17. Onsdagen den 10 maj 1944.
-          </note>
-          <note n="95f718ab">
-            Ang. straffet för olovlig underrättelseverksamhet m. m. (Forts.)
-            vidare ingå på detta mål. Det ligger nu under högsta domstolens
-            prövning, och vi få avvakta dess utslag.
-          </note>
-          <pb n="46" facs="https://betalab.kb.se/prot-1944--fk--17/prot_1944__fk__17-046.jp2/_view"/>
-          <note n="9317b21d">
-            Onsdagen den 10 maj 1944. Nr 17. 47
-          </note>
-          <pb n="47" facs="https://betalab.kb.se/prot-1944--fk--17/prot_1944__fk__17-047.jp2/_view"/>
-          <note n="f242d253">
-            48 Nr 17. Onsdagen den 10 maj 1944.
-          </note>
-          <pb n="48" facs="https://betalab.kb.se/prot-1944--fk--17/prot_1944__fk__17-048.jp2/_view"/>
-          <note n="59ecdc46">
-            Onsdagen den 10 maj 1944. Nr 17. 49
-          </note>
           <note n="4167ef56">
             I herr Linnérs yttrande instämde herr Siljeström.
           </note>
           <note type="speaker" n="9fa1eca9">
             Herr Schlyter:
           </note>
-          <u who="karl_schlyter_95b20c" xml:id="i-95f8399b7e5a8d9e-0" next="i-d95cc23f54bb5fb0-0" n="5bafda20">
+          <u who="karl_schlyter_95b20c" xml:id="i-5bafda2077d13d8f-0" next="i-5bafda2077d13d8f-3" n="5bafda20">
             <seg n="df95b962">
               Herr talman! Första lagutskottet måste sätta stort värde på de
               erkännsamma ord, som den ärade motionären riktade till utskottet
@@ -4119,7 +4185,7 @@
             Första kammarens protokoll 1944. Nr 17. 4
           </note>
           <pb n="49" facs="https://betalab.kb.se/prot-1944--fk--17/prot_1944__fk__17-049.jp2/_view"/>
-          <note n="d6d46c56">
+          <note type="date" n="c3512350">
             50 Nr 17. Onsdagen den 10 maj 1944.
           </note>
           <note n="0874fcde">
@@ -4130,7 +4196,7 @@
             förlägga prövningen av frågan huruvida åtal skall väckas eller
             ej.
           </note>
-          <u who="karl_schlyter_95b20c" xml:id="i-d95cc23f54bb5fb0-0" prev="i-95f8399b7e5a8d9e-0" n="5bafda20">
+          <u who="karl_schlyter_95b20c" xml:id="i-5bafda2077d13d8f-1" prev="i-5bafda2077d13d8f-0" n="5bafda20">
             <seg n="507370c8">
               Herr Undén antog, att utskottet till ett kommande år skulle vara
               moget att ansluta sig till den linje, som han i år har förordat.
@@ -4196,6 +4262,12 @@
               att pröva huruvida åtal skall väckas eller inte — att justitieministern
               skall sitta med lagparagrafen framför sig
             </seg>
+          </u>
+          <pb n="50" facs="https://betalab.kb.se/prot-1944--fk--17/prot_1944__fk__17-050.jp2/_view"/>
+          <note type="date" n="bfd68617">
+            Onsdagen den 10 maj 1944. Nr 17. 51
+          </note>
+          <u who="karl_schlyter_95b20c" xml:id="i-5bafda2077d13d8f-2" prev="i-5bafda2077d13d8f-0" n="5bafda20">
             <seg n="3241565b">
               Ang. straffet för olovlig underrättelseverksamhet m. m. (Forts.)
               och överväga: »Falla dessa fakta under denna paragraf, och skall
@@ -4271,6 +4343,12 @@
               skulle kunna komma att göra sig i särskilt hög grad gällande genom
               att det på pap-
             </seg>
+          </u>
+          <pb n="51" facs="https://betalab.kb.se/prot-1944--fk--17/prot_1944__fk__17-051.jp2/_view"/>
+          <note type="date" n="a9063e21">
+            52 Nr 17. Onsdagen den 10 maj 1944.
+          </note>
+          <u who="karl_schlyter_95b20c" xml:id="i-5bafda2077d13d8f-3" prev="i-5bafda2077d13d8f-0" n="5bafda20">
             <seg n="4db84cfd">
               Ang. straffet för olovlig underrättelseverksamhet m. m. (Forts.)
               peret står, att justitieministern ansvarar för åtalsprövningen,
@@ -4289,18 +4367,10 @@
               förslag.
             </seg>
           </u>
-          <pb n="50" facs="https://betalab.kb.se/prot-1944--fk--17/prot_1944__fk__17-050.jp2/_view"/>
-          <note n="b4c997d6">
-            Onsdagen den 10 maj 1944. Nr 17. 51
-          </note>
-          <pb n="51" facs="https://betalab.kb.se/prot-1944--fk--17/prot_1944__fk__17-051.jp2/_view"/>
-          <note n="223644c7">
-            52 Nr 17. Onsdagen den 10 maj 1944.
-          </note>
           <note type="speaker" n="6ab04b55">
             Herr andre vice talmannen:
           </note>
-          <u who="unknown" xml:id="i-f38bca7c217f4386-1" n="3ca02b77">
+          <u who="unknown" xml:id="i-3ca02b77e5456e44-19" n="3ca02b77">
             <seg n="103ce04d">
               Herr talman! Jag vill uttala min tillfredsställelse över att
               första lagutskottet, efter den långvariga och förmodligen ingående
@@ -4349,7 +4419,7 @@
           <note type="speaker" n="4c7da9c6">
             Herr Linderot:
           </note>
-          <u who="sven_linderot_5a7e8e" xml:id="i-0343113e76d6e84e-0" next="i-b411a2419d6a7cde-0" n="ec367b74">
+          <u who="sven_linderot_5a7e8e" xml:id="i-d79626aaafa8ccf5-0" next="i-d79626aaafa8ccf5-2" n="ec367b74">
             <seg n="e82ad6a7">
               Herr talman! Den här diskuterade frågan ingår även i föl- Jande
               utlåtande, som lagutskottet har avgivit i anledning av vår motion,
@@ -4368,10 +4438,10 @@
             </seg>
           </u>
           <pb n="52" facs="https://betalab.kb.se/prot-1944--fk--17/prot_1944__fk__17-052.jp2/_view"/>
-          <note n="7f52132a">
+          <note type="date" n="3901e699">
             Onsdagen den 10 maj 1944. Nr 17. 53
           </note>
-          <u who="sven_linderot_5a7e8e" xml:id="i-b411a2419d6a7cde-0" prev="i-0343113e76d6e84e-0" n="ec367b74">
+          <u who="sven_linderot_5a7e8e" xml:id="i-d79626aaafa8ccf5-1" prev="i-d79626aaafa8ccf5-0" n="ec367b74">
             <seg n="1cd97c25">
               Ang. straffet för olovlig underrätteiseverksamhet m. m. (Forts.)
               Trots att jag således icke kan vara alldeles tillfredsställd med
@@ -4444,6 +4514,15 @@
               som bör eftersträvas, att regeringen skall taga politisk ståndpunkt
               till om åtal får anställas eller icke.
             </seg>
+          </u>
+          <pb n="53" facs="https://betalab.kb.se/prot-1944--fk--17/prot_1944__fk__17-053.jp2/_view"/>
+          <note type="date" n="ee51d864">
+            54 Nr 17, Onsdagen den 10 maj 1944.
+          </note>
+          <note n="edd0f8f4">
+            Ang. straffet för olovlig underrättelseverksamhet m. m. (Forts.)
+          </note>
+          <u who="sven_linderot_5a7e8e" xml:id="i-d79626aaafa8ccf5-2" prev="i-d79626aaafa8ccf5-0" n="ec367b74">
             <seg n="e8e74198">
               Jag har för min del endast velat göra dessa kommentarer till
               diskussionen. Jag har givetvis icke något särskilt yrkande, utan
@@ -4465,17 +4544,10 @@
               mig till vad herr Branting och herr Åkerberg i det stycket anfört.
             </seg>
           </u>
-          <pb n="53" facs="https://betalab.kb.se/prot-1944--fk--17/prot_1944__fk__17-053.jp2/_view"/>
-          <note n="029f2bdb">
-            54 Nr 17, Onsdagen den 10 maj 1944.
-          </note>
-          <note n="edd0f8f4">
-            Ang. straffet för olovlig underrättelseverksamhet m. m. (Forts.)
-          </note>
           <note type="speaker" n="ca1567f4">
             Herr Siljeström:
           </note>
-          <u who="unknown" xml:id="i-f38bca7c217f4386-2" n="3ca02b77">
+          <u who="unknown" xml:id="i-3ca02b77e5456e44-20" n="3ca02b77">
             <seg n="b7eda776">
               Herr talman! Redan vid läsningen av föreliggande utlåtande ställde
               jag mig ytterst tveksam inför den lösning beträffande åtalsfrågan,
@@ -4534,7 +4606,7 @@
             </seg>
           </u>
           <pb n="54" facs="https://betalab.kb.se/prot-1944--fk--17/prot_1944__fk__17-054.jp2/_view"/>
-          <note n="67ce4592">
+          <note type="date" n="7d70a58c">
             Onsdagen den 10 maj 1944. Nr 17. 55
           </note>
           <note n="edd0f8f4">
@@ -4543,7 +4615,7 @@
           <note type="speaker" n="9fa1eca9">
             Herr Schlyter:
           </note>
-          <u who="karl_schlyter_95b20c" xml:id="i-95f8399b7e5a8d9e-1" next="i-d95cc23f54bb5fb0-1" n="5bafda20">
+          <u who="karl_schlyter_95b20c" xml:id="i-5bafda2077d13d8f-4" next="i-5bafda2077d13d8f-5" n="5bafda20">
             <seg n="73f171ad">
               Herr talman! Jag undrar om herr Siljeström glömt bort den tid,
               då han själv såsom expeditionschef i justitiedepartementet var
@@ -4584,7 +4656,7 @@
             den förra propositionen, som upprepades, vara med övervägande
             ja besvarad.
           </note>
-          <u who="karl_schlyter_95b20c" xml:id="i-d95cc23f54bb5fb0-1" prev="i-95f8399b7e5a8d9e-1" n="5bafda20"/>
+          <u who="karl_schlyter_95b20c" xml:id="i-5bafda2077d13d8f-5" prev="i-5bafda2077d13d8f-4" n="5bafda20"/>
           <note n="ed8c31a6">
             Herr statsrådet Bergquist avlämnade Kungl. Maj:ts proposition
             nr 263, med förslag till förordning om ändrad lydelse av 6 $ förordningen
@@ -4665,7 +4737,7 @@
           <note type="speaker" n="9bd209c1">
             Herr Holmberg:
           </note>
-          <u who="unknown" xml:id="i-b85a8e579ad9361c-4" n="3ca02b77">
+          <u who="unknown" xml:id="i-3ca02b77e5456e44-21" n="3ca02b77">
             <seg n="f973b8ae">
               Herr talman! Det torde inte vara någon överdrift att säga, att
               de lagar vilka beröras i de föreliggande motionerna ha tillkommit
@@ -4711,10 +4783,10 @@
             </seg>
           </u>
           <pb n="56" facs="https://betalab.kb.se/prot-1944--fk--17/prot_1944__fk__17-056.jp2/_view"/>
-          <note n="bd50bd6c">
+          <note type="date" n="59526580">
             Onsdagen den 10 maj 1944. Nr 17. 57
           </note>
-          <u who="unknown" xml:id="i-d5928896933b18df-4" n="3ca02b77">
+          <u who="unknown" xml:id="i-3ca02b77e5456e44-22" n="3ca02b77">
             <seg n="5c22186a">
               Om revision av 8 kap. strafflagen m. m. (Forts.) motsats till
               detta rättsmedvetande, och det förefaller som om de som haft tillfälle
@@ -4784,6 +4856,12 @@
               inte kunde uttala sig i denna fråga. Vi vände oss då till säkerhetspolisen
               med begäran om undersökning och framhöllo, att
             </seg>
+          </u>
+          <pb n="57" facs="https://betalab.kb.se/prot-1944--fk--17/prot_1944__fk__17-057.jp2/_view"/>
+          <note type="date" n="9485460d">
+            58 Nr 17. Onsdagen den 10 maj 1944.
+          </note>
+          <u who="unknown" xml:id="i-3ca02b77e5456e44-23" n="3ca02b77">
             <seg n="674958a2">
               Om revision av 8 kap. strafflagen m. m. (Forts.) det absolut
               inte kunde vara nödvändigt att på det sättet sabotera försändelserna.
@@ -4844,14 +4922,10 @@
               jag skall tillåta mig att här yrka bifall till densamma.
             </seg>
           </u>
-          <pb n="57" facs="https://betalab.kb.se/prot-1944--fk--17/prot_1944__fk__17-057.jp2/_view"/>
-          <note n="bec1ee65">
-            58 Nr 17. Onsdagen den 10 maj 1944.
-          </note>
           <note type="speaker" n="2057b9f6">
             Herr Johanson, Karl Emil:
           </note>
-          <u who="karl_johanson_d34853" xml:id="i-bf2b0e8bbccddc75-1" next="i-b57296c1c218bc54-1" n="1be1cbfb">
+          <u who="karl_johanson_d34853" xml:id="i-1be1cbfb7318c9c5-7" next="i-1be1cbfb7318c9c5-8" n="1be1cbfb">
             <seg n="613fb12c">
               Herr talman! Såsom framgår av det rätt omfattande utskottsutlåtandet
               är det ej vare sig likgiltighet för de i motionerna avhandlade
@@ -4866,7 +4940,7 @@
             </seg>
           </u>
           <pb n="58" facs="https://betalab.kb.se/prot-1944--fk--17/prot_1944__fk__17-058.jp2/_view"/>
-          <note n="478f57fa">
+          <note type="date" n="bf0a526c">
             Onsdagen den 10 maj 1944. Nr 17. 59
           </note>
           <note n="4215daf1">
@@ -4886,7 +4960,7 @@
           <note n="426a8da5">
             Motionerna avse synbarligen endast ändring i sistnämnda hänseende.
           </note>
-          <u who="karl_johanson_d34853" xml:id="i-b57296c1c218bc54-1" prev="i-bf2b0e8bbccddc75-1" n="1be1cbfb">
+          <u who="karl_johanson_d34853" xml:id="i-1be1cbfb7318c9c5-8" prev="i-1be1cbfb7318c9c5-7" n="1be1cbfb">
             <seg n="688eab51">
               Utskottet framhåller, att det mången gång är svårt eller till
               och med omöjligt att på förhand avgöra huruvida under handläggning
@@ -4948,7 +5022,7 @@
             icke måtte till någon riksdagens åtgärd föranleda.
           </note>
           <pb n="59" facs="https://betalab.kb.se/prot-1944--fk--17/prot_1944__fk__17-059.jp2/_view"/>
-          <note n="98d031ce">
+          <note type="date" n="d2a9bf65">
             60 Nr 17. Onsdagen den 10 maj 1944.
           </note>
           <note n="4215daf1">
@@ -4957,7 +5031,7 @@
           <note type="speaker" n="9fa1eca9">
             Herr Schlyter:
           </note>
-          <u who="karl_schlyter_95b20c" xml:id="i-95f8399b7e5a8d9e-2" next="i-d95cc23f54bb5fb0-2" n="5bafda20">
+          <u who="karl_schlyter_95b20c" xml:id="i-5bafda2077d13d8f-6" next="i-5bafda2077d13d8f-7" n="5bafda20">
             <seg n="b1b78f60">
               Herr talman! Såsom den föregående talaren redan har framhållit,
               är utskottsmajoritetens och reservanternas motivering hela utlåtandet
@@ -5030,7 +5104,7 @@
             </seg>
           </u>
           <pb n="60" facs="https://betalab.kb.se/prot-1944--fk--17/prot_1944__fk__17-060.jp2/_view"/>
-          <note n="f417e206">
+          <note type="date" n="d10054dd">
             Onsdagen den 10 maj 1944. Nr 17. 61
           </note>
           <note n="6edf2615">
@@ -5039,7 +5113,7 @@
             överväga frågan, huruvida den skall utesluta offentligheten eller
             icke.
           </note>
-          <u who="karl_schlyter_95b20c" xml:id="i-d95cc23f54bb5fb0-2" prev="i-95f8399b7e5a8d9e-2" n="5bafda20">
+          <u who="karl_schlyter_95b20c" xml:id="i-5bafda2077d13d8f-7" prev="i-5bafda2077d13d8f-6" n="5bafda20">
             <seg n="95604d44">
               Under senare år har man på många områden kunnat konstatera, att
               likgil- 'tigheten för gammal uppfattning om offentlighetens betydelse
@@ -5072,7 +5146,7 @@
           <note type="speaker" n="ca1567f4">
             Herr Siljeström:
           </note>
-          <u who="unknown" xml:id="i-b85a8e579ad9361c-5" n="3ca02b77">
+          <u who="unknown" xml:id="i-3ca02b77e5456e44-24" n="3ca02b77">
             <seg n="adbd4b6d">
               Herr talman! Såsom första lagutskottets ordförande framhållit,
               föreligger icke någon större skiljaktighet mellan reservanterna
@@ -5115,10 +5189,10 @@
             </seg>
           </u>
           <pb n="61" facs="https://betalab.kb.se/prot-1944--fk--17/prot_1944__fk__17-061.jp2/_view"/>
-          <note n="149ee896">
+          <note type="date" n="e28cd0d0">
             62 Nr 17. Onsdagen den 10 maj 1944.
           </note>
-          <u who="unknown" xml:id="i-d5928896933b18df-5" n="3ca02b77">
+          <u who="unknown" xml:id="i-3ca02b77e5456e44-25" n="3ca02b77">
             <seg n="2630b561">
               Om revision av 8 kap. strafflagen m. m. (Forts.) har vid ett
               annat tillfälle, då denna fråga bragtes på tal, jag tror av herr
@@ -5167,7 +5241,7 @@
           <note type="speaker" n="4c7da9c6">
             Herr Linderot:
           </note>
-          <u who="sven_linderot_5a7e8e" xml:id="i-0343113e76d6e84e-1" next="i-b411a2419d6a7cde-1" n="ec367b74">
+          <u who="sven_linderot_5a7e8e" xml:id="i-d79626aaafa8ccf5-3" next="i-d79626aaafa8ccf5-4" n="ec367b74">
             <seg n="dc7ab5b6">
               Herr talman! Det var herr Siljeströms yttrande om domstolarnas
               okränkbarhet och ofelbarhet, som uppkallade mig. Det är inte första
@@ -5196,7 +5270,7 @@
             </seg>
           </u>
           <pb n="62" facs="https://betalab.kb.se/prot-1944--fk--17/prot_1944__fk__17-062.jp2/_view"/>
-          <note n="d4da6308">
+          <note type="date" n="4de50bc1">
             Onsdagen den 10 maj 1944. Nr 17. 63
           </note>
           <note n="11a890f5">
@@ -5206,7 +5280,7 @@
             herr justitieministern själv, anser vara av den art, att man knappast
             kan fälla en rättrådig dom enligt den.
           </note>
-          <u who="sven_linderot_5a7e8e" xml:id="i-b411a2419d6a7cde-1" prev="i-0343113e76d6e84e-1" n="ec367b74">
+          <u who="sven_linderot_5a7e8e" xml:id="i-d79626aaafa8ccf5-4" prev="i-d79626aaafa8ccf5-3" n="ec367b74">
             <seg n="127fe18a">
               Herr talman, jag har i fråga om själva saken ingenting mer att
               anföra än vad herr Holmberg tidigare har anfört såsom motivering
@@ -5231,7 +5305,7 @@
           <note type="speaker" n="bd0b24e4">
             Herr Branting:
           </note>
-          <u who="georg_branting_adc558" xml:id="i-ef9e45224bafe694-0" n="4dd63d39">
+          <u who="georg_branting_adc558" xml:id="i-4dd63d3925b026de-9" n="4dd63d39">
             <seg n="4dee1ccb">
               Herr talman! Herr Siljeström protesterade med stor kraft mot
               herr Holmbergs misstanke, att möjligen resultatet av domstolarnas
@@ -5283,7 +5357,7 @@
             </seg>
           </u>
           <pb n="63" facs="https://betalab.kb.se/prot-1944--fk--17/prot_1944__fk__17-063.jp2/_view"/>
-          <note n="8ac89945">
+          <note type="date" n="609863ff">
             64 Nr 17. Onsdagen den 10 maj 1944.
           </note>
           <note n="9fd12cee">
@@ -5294,7 +5368,7 @@
           <note type="speaker" n="9bd209c1">
             Herr Holmberg:
           </note>
-          <u who="unknown" xml:id="i-f38bca7c217f4386-3" n="3ca02b77">
+          <u who="unknown" xml:id="i-3ca02b77e5456e44-26" n="3ca02b77">
             <seg n="62f5bf08">
               Herr talman! Jag vill bara tillåta mig att påpeka för herr Siljeström,
               att jag inte generaliserade på det sätt, som han ville göra gällande.
@@ -5327,7 +5401,7 @@
           <note type="speaker" n="2051e4ce">
             Herr Gärde:
           </note>
-          <u who="natanael_garde_462e5a" xml:id="i-4ae4614be502d716-0" next="i-0c60ede98c88f927-0" n="7f75ad04">
+          <u who="natanael_garde_462e5a" xml:id="i-7f75ad043793b547-0" next="i-7f75ad043793b547-1" n="7f75ad04">
             <seg n="4e64a6bc">
               Herr talman! Det kan icke råda någon som helst meningsskiljaktighet
               om värdet för rättsskipningen av offentligheten. Sedan uråldriga
@@ -5366,10 +5440,10 @@
             </seg>
           </u>
           <pb n="64" facs="https://betalab.kb.se/prot-1944--fk--17/prot_1944__fk__17-064.jp2/_view"/>
-          <note n="180eb9d1">
+          <note type="date" n="a614246d">
             Onsdagen den 10 maj 1944. Nr 17. 65
           </note>
-          <u who="natanael_garde_462e5a" xml:id="i-0c60ede98c88f927-0" prev="i-4ae4614be502d716-0" n="7f75ad04">
+          <u who="natanael_garde_462e5a" xml:id="i-7f75ad043793b547-1" prev="i-7f75ad043793b547-0" n="7f75ad04">
             <seg n="be89fddf">
               Om revision av 8 kap. strafflagen m. m. (Forts.) ningar som påkalla
               sekretess. Domstolen måste fatta sitt beslut, innan rättegången
@@ -5426,7 +5500,7 @@
           <note type="speaker" n="9fa1eca9">
             Herr Schlyter:
           </note>
-          <u who="karl_schlyter_95b20c" xml:id="i-95f8399b7e5a8d9e-3" next="i-d95cc23f54bb5fb0-3" n="5bafda20">
+          <u who="karl_schlyter_95b20c" xml:id="i-5bafda2077d13d8f-8" next="i-5bafda2077d13d8f-9" n="5bafda20">
             <seg n="1cd0f55d">
               Herr talman! Ehuru ordföranden i den sakkunnigkommitté, till
               vilken man tänker sig att denna fråga skulle överlämnas, gjort
@@ -5445,10 +5519,10 @@
             Första kammarens protokoll 1944. Nr 17. 5
           </note>
           <pb n="65" facs="https://betalab.kb.se/prot-1944--fk--17/prot_1944__fk__17-065.jp2/_view"/>
-          <note n="de58ea13">
+          <note type="date" n="78ea54fc">
             66 Nr 17. Onsdagen den 10 maj 1944.
           </note>
-          <u who="karl_schlyter_95b20c" xml:id="i-d95cc23f54bb5fb0-3" prev="i-95f8399b7e5a8d9e-3" n="5bafda20">
+          <u who="karl_schlyter_95b20c" xml:id="i-5bafda2077d13d8f-9" prev="i-5bafda2077d13d8f-8" n="5bafda20">
             <seg n="f80a953d">
               Om revision av 8 kap. strafflagen m. m. (Forts.) meningen, att
               ett överklagande av beslut om handläggning inom lyckta dörrar
@@ -5519,7 +5593,7 @@
           <note type="speaker" n="4c7da9c6">
             Herr Linderot:
           </note>
-          <u who="sven_linderot_5a7e8e" xml:id="i-0343113e76d6e84e-2" next="i-b411a2419d6a7cde-2" n="ec367b74">
+          <u who="sven_linderot_5a7e8e" xml:id="i-d79626aaafa8ccf5-5" next="i-d79626aaafa8ccf5-6" n="ec367b74">
             <seg n="9dbc36f4">
               Herr talman! Jag begärde ordet närmast för att lämna en upplysning
               till dem, som kanske inte haft tillfälle att läsa min motion.
@@ -5529,10 +5603,10 @@
             </seg>
           </u>
           <pb n="66" facs="https://betalab.kb.se/prot-1944--fk--17/prot_1944__fk__17-066.jp2/_view"/>
-          <note n="d98a055c">
+          <note type="date" n="83025111">
             Onsdagen den 10 maj 1944. Nr 17. 67
           </note>
-          <u who="sven_linderot_5a7e8e" xml:id="i-b411a2419d6a7cde-2" prev="i-0343113e76d6e84e-2" n="ec367b74">
+          <u who="sven_linderot_5a7e8e" xml:id="i-d79626aaafa8ccf5-6" prev="i-d79626aaafa8ccf5-5" n="ec367b74">
             <seg n="37699634">
               Om revision av 8 kap. strafflagen m. m. (Forts.) motionens yrkande
               har tydligt angivits, att sådant som med hänsyn till rikets försvarsläge
@@ -5567,7 +5641,7 @@
           <note type="speaker" n="2051e4ce">
             Herr Gärde:
           </note>
-          <u who="natanael_garde_462e5a" xml:id="i-9ae3350f96ad510b-0" n="7f75ad04">
+          <u who="natanael_garde_462e5a" xml:id="i-7f75ad043793b547-2" n="7f75ad04">
             <seg n="6f37f32a">
               Herr talman! Gentemot utskottets ärade ordförande vill jag säga,
               att klagorätten i fråga om häktning är av väsentligt annan karaktär
@@ -5605,7 +5679,7 @@
           <note type="speaker" n="bd0b24e4">
             Herr Branting:
           </note>
-          <u who="georg_branting_adc558" xml:id="i-53ec84ff6afae58a-1" next="i-197398d9b124f83c-1" n="4dd63d39">
+          <u who="georg_branting_adc558" xml:id="i-4dd63d3925b026de-10" next="i-4dd63d3925b026de-13" n="4dd63d39">
             <seg n="6263f467">
               Jag kan inte hjälpa, herr talman, att jag har det intrycket,
               att herr Gärde talar om detta spörsmål ur något väl teoretiska
@@ -5617,13 +5691,13 @@
             </seg>
           </u>
           <pb n="67" facs="https://betalab.kb.se/prot-1944--fk--17/prot_1944__fk__17-067.jp2/_view"/>
-          <note n="fd8e3884">
+          <note type="date" n="4344ee96">
             68 Nr 17. Onsdagen den 10 maj 1944.
           </note>
           <note n="4215daf1">
             Om revision av 8 kap. strafflagen m. m. (Forts.)
           </note>
-          <u who="georg_branting_adc558" xml:id="i-197398d9b124f83c-1" prev="i-53ec84ff6afae58a-1" n="4dd63d39">
+          <u who="georg_branting_adc558" xml:id="i-4dd63d3925b026de-11" prev="i-4dd63d3925b026de-10" n="4dd63d39">
             <seg n="728943be">
               Herr Gärde talar om dessa ting, som jag sade, ur teoretiska synpunkter.
               Han yttrade exempelvis, att domstolen redan från spionerimålets
@@ -5691,18 +5765,6 @@
               av saken, skall komma till intressanta och värdefulla resultat.
               Jag fasthåller därför vid reservationen.
             </seg>
-            <seg n="f09afba1">
-              Då herr talmannen fann tvekan kunna råda angående omröstningens
-              resul-
-            </seg>
-            <seg n="41c909ff">
-              Då någon med stöd av 3 $ kvarhållits mer än fem dygn, skall anmälan
-              därom ofördröjligen göras hos justitiekanslern. Har den misstänkte
-              ej inom femton dagar från första dagen av kvarhållandet förklarats
-              häktad, skall han frigivas, där ej justitiekanslern medgiver,
-              att han må kvarhållas under viss ytterligare tid, högst femton
-              dagar.
-            </seg>
           </u>
           <note n="52d0607c">
             Överläggningen ansågs härmed slutad, varefter herr talmannen
@@ -5712,7 +5774,7 @@
             i den vid utlåtandet avgivna reser-
           </note>
           <pb n="68" facs="https://betalab.kb.se/prot-1944--fk--17/prot_1944__fk__17-068.jp2/_view"/>
-          <note n="e3693aed">
+          <note type="date" n="6957af55">
             Onsdagen den 10 maj 1944. Nr 17. 69
           </note>
           <note n="dd085dcd">
@@ -5738,6 +5800,12 @@
             som ville rösta för ja-propositionen, och därefter de ledamöter,
             som ville rösta för nej-propositionen, reste sig från sina platser.
           </note>
+          <u who="georg_branting_adc558" xml:id="i-4dd63d3925b026de-12" prev="i-4dd63d3925b026de-10" n="4dd63d39">
+            <seg n="f09afba1">
+              Då herr talmannen fann tvekan kunna råda angående omröstningens
+              resul-
+            </seg>
+          </u>
           <note n="105cdaab">
             tet, verkställdes härefter votering medelst omröstningsapparat;
             och befunnos vid omröstningens slut rösterna hava utfallit sålunda:
@@ -5773,11 +5841,21 @@
             4 8. Åtgärd, varom — — — avsedda ändamålet. Har förordnande —
             — — upphäva detsamma.
           </note>
+          <u who="georg_branting_adc558" xml:id="i-4dd63d3925b026de-13" prev="i-4dd63d3925b026de-10" n="4dd63d39">
+            <seg n="41c909ff">
+              Då någon med stöd av 3 $ kvarhållits mer än fem dygn, skall anmälan
+              därom ofördröjligen göras hos justitiekanslern. Har den misstänkte
+              ej inom femton dagar från första dagen av kvarhållandet förklarats
+              häktad, skall han frigivas, där ej justitiekanslern medgiver,
+              att han må kvarhållas under viss ytterligare tid, högst femton
+              dagar.
+            </seg>
+          </u>
           <note n="2b93d10c">
             Ang. fortsatt giltighet av den 8. k. tvångsmedelslagen.
           </note>
           <pb n="69" facs="https://betalab.kb.se/prot-1944--fk--17/prot_1944__fk__17-069.jp2/_view"/>
-          <note n="15d53b08">
+          <note type="date" n="5121fbcc">
             70 Nr 17. Onsdagen den 10 maj 1944.
           </note>
           <note n="2b2a327c">
@@ -5793,7 +5871,7 @@
           <note type="speaker" n="8f2d814f">
             Herr Petersson, Knut:
           </note>
-          <u who="emil_petersson_16f8d7" xml:id="i-74c3d7f14701f393-0" next="i-403cbd2ea85178cd-0" n="bd10be57">
+          <u who="emil_petersson_16f8d7" xml:id="i-949fc813ad6f654e-0" next="i-949fc813ad6f654e-1" n="bd10be57">
             <seg n="d58aa145">
               Herr talman! Jag skall inte bli mångordig. Denna fråga dryftades
               rätt ingående, när den senast var före i kammaren. Det är kanske
@@ -5862,10 +5940,10 @@
             </seg>
           </u>
           <pb n="70" facs="https://betalab.kb.se/prot-1944--fk--17/prot_1944__fk__17-070.jp2/_view"/>
-          <note n="d1fd508d">
+          <note type="date" n="af08378a">
             Onsdagen den 10 maj 1944. Nr 17. ud
           </note>
-          <u who="emil_petersson_16f8d7" xml:id="i-403cbd2ea85178cd-0" prev="i-74c3d7f14701f393-0" n="bd10be57">
+          <u who="emil_petersson_16f8d7" xml:id="i-949fc813ad6f654e-1" prev="i-949fc813ad6f654e-0" n="bd10be57">
             <seg n="206792a1">
               Ang. fortsatt giltighet av den s. k. tvångsmedelslagen. (Forts.)
               nistern rikta en vädjan i sådant syfte. Skall lagen ännu en gång
@@ -5884,7 +5962,7 @@
           <note type="speaker" n="cdce2193">
             Herr Sehlyter:
           </note>
-          <u who="unknown" xml:id="i-b85a8e579ad9361c-6" n="3ca02b77">
+          <u who="unknown" xml:id="i-3ca02b77e5456e44-27" n="3ca02b77">
             <seg n="29105abd">
               Herr talman! Som representant för utskottet har jag verkligen
               svårt för att säga något enda ord till bemötande av herr Knut
@@ -5911,7 +5989,7 @@
             såsom något slags sedvanerätt acceptera en tillämpning av trafikmedelscensuren
             vid sidan om lagen, som tilläventyrs må ha insmugit sig.»
           </note>
-          <u who="unknown" xml:id="i-d5928896933b18df-6" n="3ca02b77">
+          <u who="unknown" xml:id="i-3ca02b77e5456e44-28" n="3ca02b77">
             <seg n="b9cd4742">
               Jag har under utskottets behandling denna gång konstaterat, att
               någon ändring icke har skett i det informationsväsende som grundas
@@ -5923,12 +6001,60 @@
               utskottets förväntan, att justitieombudsmannen går till botten
               med denna fråga.
             </seg>
+          </u>
+          <note n="a72c78bd">
+            Jag ber, herr talman, att få yrka bifall till utskottets förslag.
+          </note>
+          <note n="a5280bd5">
+            Efter härmed slutad överläggning bifölls vad utskottet i det
+            under behandling varande utlåtandet hemställt.
+          </note>
+          <note n="0d71bafb">
+            Vid förnyad föredragning av första lagutskottets utlåtande nr
+            26, i anledning av väckta motioner om verkställande av en undersökning
+            rörande verkningarna av 8 kap. strafflagen och lagen om vissa
+            tvångsmedel vid krig eller krigsfara m. m., bifölls vad utskottet
+            i detta utlåtande hemställt.
+          </note>
+          <note n="3357aa0b">
+            Föredrogs ånyo andra lagutskottets utlåtande nr 34, i anledning
+            av väckta motioner om tillfälligt förbud mot avstyckning, varigenom
+            åker och äng skiljas från jordbruksfastighets skogsmark.
+          </note>
+          <note n="db85c889">
+            | Andra lagutskottet hade till behandling förehaft två inom riksdagen
+            väckta, till lagutskott hänvisade motioner, nämligen nr 22 i första
+            kammaren av herr
+          </note>
+          <u who="unknown" xml:id="i-3ca02b77e5456e44-29" n="3ca02b77">
             <seg n="baa5ae1d">
               Om tillfälligt förbud mot viss avstyckning.
             </seg>
+          </u>
+          <pb n="71" facs="https://betalab.kb.se/prot-1944--fk--17/prot_1944__fk__17-071.jp2/_view"/>
+          <note type="date" n="02ca88a1">
+            72 Nr 17. Onsdagen den 10 maj 1944.
+          </note>
+          <u who="unknown" xml:id="i-3ca02b77e5456e44-30" n="3ca02b77">
             <seg n="fd41b68e">
               Om tillfälligt förbud mot viss avstyckning. (Forts.)
             </seg>
+          </u>
+          <note n="bce12e3f">
+            Andersson, Gustav Emil, m. fl. och nr 43, i andra kammaren av
+            herr Pettersson i Norregård m. fl.
+          </note>
+          <note n="86f15e47">
+            I motionerna, vilka voro likalydande, hade hemställts, att riksdagen
+            måtte besluta att i skrivelse till Kungl. Maj:t anhålla, att förslag
+            måtte föreläggas innevarande års riksdag om tillfälligt förbud
+            mot sådan avstyckning, som möjliggjorde att åker och äng skildes
+            från jordbruksfastighet tillhörande skogsmark.
+          </note>
+          <note n="1fb75fca">
+            Utskottet hade i det nu föreliggande utlåtandet anfört:
+          </note>
+          <u who="unknown" xml:id="i-3ca02b77e5456e44-31" n="3ca02b77">
             <seg n="f1333aae">
               »Enligt gällande bestämmelser om tilldelning av skog vid avstyckning
               från Jordbruksfastighet kan skog, som i förhållande till styckningsfastigheten
@@ -5958,48 +6084,6 @@
               ej erforderligt, att riksdagen gör någon framställning i frågan.
             </seg>
           </u>
-          <note n="a72c78bd">
-            Jag ber, herr talman, att få yrka bifall till utskottets förslag.
-          </note>
-          <note n="a5280bd5">
-            Efter härmed slutad överläggning bifölls vad utskottet i det
-            under behandling varande utlåtandet hemställt.
-          </note>
-          <note n="0d71bafb">
-            Vid förnyad föredragning av första lagutskottets utlåtande nr
-            26, i anledning av väckta motioner om verkställande av en undersökning
-            rörande verkningarna av 8 kap. strafflagen och lagen om vissa
-            tvångsmedel vid krig eller krigsfara m. m., bifölls vad utskottet
-            i detta utlåtande hemställt.
-          </note>
-          <note n="3357aa0b">
-            Föredrogs ånyo andra lagutskottets utlåtande nr 34, i anledning
-            av väckta motioner om tillfälligt förbud mot avstyckning, varigenom
-            åker och äng skiljas från jordbruksfastighets skogsmark.
-          </note>
-          <note n="db85c889">
-            | Andra lagutskottet hade till behandling förehaft två inom riksdagen
-            väckta, till lagutskott hänvisade motioner, nämligen nr 22 i första
-            kammaren av herr
-          </note>
-          <pb n="71" facs="https://betalab.kb.se/prot-1944--fk--17/prot_1944__fk__17-071.jp2/_view"/>
-          <note n="ac2d4e30">
-            72 Nr 17. Onsdagen den 10 maj 1944.
-          </note>
-          <note n="bce12e3f">
-            Andersson, Gustav Emil, m. fl. och nr 43, i andra kammaren av
-            herr Pettersson i Norregård m. fl.
-          </note>
-          <note n="86f15e47">
-            I motionerna, vilka voro likalydande, hade hemställts, att riksdagen
-            måtte besluta att i skrivelse till Kungl. Maj:t anhålla, att förslag
-            måtte föreläggas innevarande års riksdag om tillfälligt förbud
-            mot sådan avstyckning, som möjliggjorde att åker och äng skildes
-            från jordbruksfastighet tillhörande skogsmark.
-          </note>
-          <note n="1fb75fca">
-            Utskottet hade i det nu föreliggande utlåtandet anfört:
-          </note>
           <note n="eb03765d">
             På grund av vad sålunda anförts får utskottet hemställa, att
             förevarande motioner icke måtte föranleda till någon riksdagens
@@ -6012,7 +6096,7 @@
           <note type="speaker" n="13337161">
             Herr Andersson, Gustav Emil:
           </note>
-          <u who="sven_andersson_d78059" xml:id="i-584217edd42c4c13-2" next="i-77812ee789985f7e-2" n="8f070ec0">
+          <u who="sven_andersson_d78059" xml:id="i-c372a50dd014eef6-8" next="i-c372a50dd014eef6-12" n="8f070ec0">
             <seg n="ba23c61b">
               Herr talman! Jag har jämte tolv andra av kammarens ledamöter
               väckt en motion om åtgärders vidtagande för att förhindra den
@@ -6038,10 +6122,10 @@
             </seg>
           </u>
           <pb n="72" facs="https://betalab.kb.se/prot-1944--fk--17/prot_1944__fk__17-072.jp2/_view"/>
-          <note n="ff52623d">
+          <note type="date" n="ffb786fe">
             Onsdagen den 10 maj 1944. Nr 17. 73
           </note>
-          <u who="sven_andersson_d78059" xml:id="i-77812ee789985f7e-2" prev="i-584217edd42c4c13-2" n="8f070ec0">
+          <u who="sven_andersson_d78059" xml:id="i-c372a50dd014eef6-9" prev="i-c372a50dd014eef6-8" n="8f070ec0">
             <seg n="82ef69fa">
               Om tillfälligt förbud mot viss avstyckning. (Forts.) gårdar,
               avverka så mycket skog som möjligt och sedan sälja inägorna och
@@ -6119,6 +6203,12 @@
               förhållanden. Men den som har 5 hektar åker och bara 6 hektar
               skogs-
             </seg>
+          </u>
+          <pb n="73" facs="https://betalab.kb.se/prot-1944--fk--17/prot_1944__fk__17-073.jp2/_view"/>
+          <note type="date" n="eca88094">
+            74 Nr 17. Onsdagen den 10 maj 1944.
+          </note>
+          <u who="sven_andersson_d78059" xml:id="i-c372a50dd014eef6-10" prev="i-c372a50dd014eef6-8" n="8f070ec0">
             <seg n="b7aa16d3">
               Om tillfälligt förbud mot viss avstyckning. (Forts.) mark skulle
               ju rätteligen ha haft möjlighet att köpa åtminstone 25 hektar
@@ -6193,6 +6283,15 @@
               ty det ingår ju i deras direktiv, att de skola söka åstadkomma
               någonting bättre än den nuva-
             </seg>
+          </u>
+          <pb n="74" facs="https://betalab.kb.se/prot-1944--fk--17/prot_1944__fk__17-074.jp2/_view"/>
+          <note type="date" n="007acd9d">
+            Onsdagen den 10 maj 1944. Nr 17. t
+          </note>
+          <note n="a7aadcf6">
+            An
+          </note>
+          <u who="sven_andersson_d78059" xml:id="i-c372a50dd014eef6-11" prev="i-c372a50dd014eef6-8" n="8f070ec0">
             <seg n="bc831f4d">
               Om tillfälligt förbud mot viss avstyckning. (Forts.) rande lagstiftningen.
               Men så säger utskottet: »Om nu under tiden till dess de sakkunnigas
@@ -6260,6 +6359,12 @@
               stoppa sådant, inte ens i dessa kristider, då sådana tendenser
               göra sig mera märkbara än annars.
             </seg>
+          </u>
+          <pb n="75" facs="https://betalab.kb.se/prot-1944--fk--17/prot_1944__fk__17-075.jp2/_view"/>
+          <note type="date" n="f338787c">
+            76 Nr 17 Onsdagen den 10 maj 1944.
+          </note>
+          <u who="sven_andersson_d78059" xml:id="i-c372a50dd014eef6-12" prev="i-c372a50dd014eef6-8" n="8f070ec0">
             <seg n="fd41b68e">
               Om tillfälligt förbud mot viss avstyckning. (Forts.)
             </seg>
@@ -6274,28 +6379,13 @@
               kan ställa sig lika nonchalant som det gjort nu.
             </seg>
           </u>
-          <pb n="73" facs="https://betalab.kb.se/prot-1944--fk--17/prot_1944__fk__17-073.jp2/_view"/>
-          <note n="ddb8b2fa">
-            74 Nr 17. Onsdagen den 10 maj 1944.
-          </note>
-          <pb n="74" facs="https://betalab.kb.se/prot-1944--fk--17/prot_1944__fk__17-074.jp2/_view"/>
-          <note n="bab17a07">
-            Onsdagen den 10 maj 1944. Nr 17. t
-          </note>
-          <note n="a7aadcf6">
-            An
-          </note>
-          <pb n="75" facs="https://betalab.kb.se/prot-1944--fk--17/prot_1944__fk__17-075.jp2/_view"/>
-          <note n="6f033fce">
-            76 Nr 17 Onsdagen den 10 maj 1944.
-          </note>
           <note n="c7a7862d">
             I detta anförande instämde herr Nilsson, Bror.
           </note>
           <note type="speaker" n="3c5fc8df">
             Herr Norman:
           </note>
-          <u who="david_norman_cac0aa" xml:id="i-d6cd8913db41281d-0" next="i-685667b50136f42f-0" n="03025b93">
+          <u who="david_norman_cac0aa" xml:id="i-03025b93f1351204-0" next="i-03025b93f1351204-1" n="03025b93">
             <seg n="ccde9576">
               Det är mycket möjligt, att det hade varit av värde för utskottet
               att ha fått del av det material, som den ärade talaren här har
@@ -6354,10 +6444,10 @@
             </seg>
           </u>
           <pb n="76" facs="https://betalab.kb.se/prot-1944--fk--17/prot_1944__fk__17-076.jp2/_view"/>
-          <note n="e182556a">
+          <note type="date" n="c85ff7d5">
             Onsdagen den 10 maj 1944. Nr 17. 7
           </note>
-          <u who="david_norman_cac0aa" xml:id="i-685667b50136f42f-0" prev="i-d6cd8913db41281d-0" n="03025b93">
+          <u who="david_norman_cac0aa" xml:id="i-03025b93f1351204-1" prev="i-03025b93f1351204-0" n="03025b93">
             <seg n="fd41b68e">
               Om tillfälligt förbud mot viss avstyckning. (Forts.)
             </seg>
@@ -6417,7 +6507,7 @@
           <note type="speaker" n="13337161">
             Herr Andersson, Gustav Emil:
           </note>
-          <u who="sven_andersson_d78059" xml:id="i-584217edd42c4c13-3" next="i-77812ee789985f7e-3" n="8f070ec0">
+          <u who="sven_andersson_d78059" xml:id="i-c372a50dd014eef6-13" next="i-c372a50dd014eef6-15" n="8f070ec0">
             <seg n="02a322b4">
               Herr talman! Jag kan inte riktigt följa med andra lagutskottets
               ärade ordförande i hans resonemang här, när han bland annat säger
@@ -6439,10 +6529,10 @@
             Jordbruk.
           </note>
           <pb n="77" facs="https://betalab.kb.se/prot-1944--fk--17/prot_1944__fk__17-077.jp2/_view"/>
-          <note n="e0c39712">
+          <note type="date" n="abb612b4">
             78 Nr 17. Onsdagen den 10 maj 1944.
           </note>
-          <u who="sven_andersson_d78059" xml:id="i-77812ee789985f7e-3" prev="i-584217edd42c4c13-3" n="8f070ec0">
+          <u who="sven_andersson_d78059" xml:id="i-c372a50dd014eef6-14" prev="i-c372a50dd014eef6-13" n="8f070ec0">
             <seg n="fd41b68e">
               Om tillfälligt förbud mot viss avstyckning. (Forts.)
             </seg>
@@ -6515,18 +6605,20 @@
               kommer att forceras ännu mer, till skada för vårt lands jordbruk
               i framtiden.
             </seg>
+          </u>
+          <pb n="78" facs="https://betalab.kb.se/prot-1944--fk--17/prot_1944__fk__17-078.jp2/_view"/>
+          <note type="date" n="c408f634">
+            Onsdagen den 10 maj 1944. Nr 17. 79
+          </note>
+          <u who="sven_andersson_d78059" xml:id="i-c372a50dd014eef6-15" prev="i-c372a50dd014eef6-13" n="8f070ec0">
             <seg n="fd41b68e">
               Om tillfälligt förbud mot viss avstyckning. (Forts.)
             </seg>
           </u>
-          <pb n="78" facs="https://betalab.kb.se/prot-1944--fk--17/prot_1944__fk__17-078.jp2/_view"/>
-          <note n="f7a54b85">
-            Onsdagen den 10 maj 1944. Nr 17. 79
-          </note>
           <note type="speaker" n="040a0cb1">
             Herr von Heland:
           </note>
-          <u who="erik_von_heland_1636c2" xml:id="i-e708e01b00f72be1-0" n="2b25271a">
+          <u who="erik_von_heland_1636c2" xml:id="i-2b25271acbfb94c3-0" n="2b25271a">
             <seg n="dee85493">
               Herr talman! Även om jag inte är småbrukare, vågar jag ta till
               orda i denna fråga.
@@ -6589,7 +6681,7 @@
           <note type="speaker" n="85e79068">
             Herr Mannerskantz:
           </note>
-          <u who="axel_mannerskantz_51eb6d" xml:id="i-d73613a7dd721c9a-1" next="i-668d55692bc63e36-1" n="48362159">
+          <u who="axel_mannerskantz_51eb6d" xml:id="i-483621597e5229ab-2" next="i-483621597e5229ab-4" n="48362159">
             <seg n="dab5899c">
               När man skall motivera sin ståndpunkt i en fråga, skulle jag
               hålla före att man, åtminstone i denna kammare, lyckas bäst därmed,
@@ -6612,10 +6704,10 @@
             </seg>
           </u>
           <pb n="79" facs="https://betalab.kb.se/prot-1944--fk--17/prot_1944__fk__17-079.jp2/_view"/>
-          <note n="ce31316d">
+          <note type="date" n="952f197d">
             £0 Nr 17. Onsdagen den 10 maj 1944.
           </note>
-          <u who="axel_mannerskantz_51eb6d" xml:id="i-668d55692bc63e36-1" prev="i-d73613a7dd721c9a-1" n="48362159">
+          <u who="axel_mannerskantz_51eb6d" xml:id="i-483621597e5229ab-3" prev="i-483621597e5229ab-2" n="48362159">
             <seg n="882bc04a">
               Om tillfälligt förbud mol viss avstyckning. (Forts.) sådan lag
               skulle medföra skulle bli ett plus eller ett minus för jordbruket
@@ -6688,6 +6780,12 @@
               att få en sådan lag som man av motionärens under debatten här
               visade ganska stora
             </seg>
+          </u>
+          <pb n="80" facs="https://betalab.kb.se/prot-1944--fk--17/prot_1944__fk__17-080.jp2/_view"/>
+          <note type="date" n="6a71fbbc">
+            Onsdagen den 10 maj 1944. Nr 17. 81
+          </note>
+          <u who="axel_mannerskantz_51eb6d" xml:id="i-483621597e5229ab-4" prev="i-483621597e5229ab-2" n="48362159">
             <seg n="38104f75">
               Om tillfälligt förbud mot viss avstyckning. (Forts.) upprördhet
               skulle kunna tro, hade väl fastighetsbildningssakkunniga haft
@@ -6753,15 +6851,11 @@
               yrkande om bifall till motionen.
             </seg>
           </u>
-          <pb n="80" facs="https://betalab.kb.se/prot-1944--fk--17/prot_1944__fk__17-080.jp2/_view"/>
-          <note n="e347c6db">
-            Onsdagen den 10 maj 1944. Nr 17. 81
-          </note>
           <note type="speaker" n="c8bff149">
             Herr Andersson, Gustav Emil, erhöll nu ordet för kort genmäle
             och yttrade:
           </note>
-          <u who="sven_andersson_d78059" xml:id="i-584217edd42c4c13-4" next="i-77812ee789985f7e-4" n="8f070ec0">
+          <u who="sven_andersson_d78059" xml:id="i-c372a50dd014eef6-16" next="i-c372a50dd014eef6-17" n="8f070ec0">
             <seg n="bad08231">
               Herr talman! Först skall jag ge herr Mannerskantz rätt i att
               utskottet använt mycken tid för behandlingen av denna motion.
@@ -6780,10 +6874,10 @@
           <note n="3dc2c0ac">
             wo [a
           </note>
-          <note n="a667d1c0">
+          <note type="date" n="85b3a0ca">
             Nr 1G Onsdagen den 10 maj 1944.
           </note>
-          <u who="sven_andersson_d78059" xml:id="i-77812ee789985f7e-4" prev="i-584217edd42c4c13-4" n="8f070ec0">
+          <u who="sven_andersson_d78059" xml:id="i-c372a50dd014eef6-17" prev="i-c372a50dd014eef6-16" n="8f070ec0">
             <seg n="4b32c51f">
               Om tillfälligt förbud mot viss avstyckning. (Forts.) | vad saken
               här gäller, ty det förhållandet att utskottet inte vill göra något
@@ -6825,7 +6919,7 @@
           <note type="speaker" n="3c5fc8df">
             Herr Norman:
           </note>
-          <u who="david_norman_cac0aa" xml:id="i-d6cd8913db41281d-1" next="i-685667b50136f42f-1" n="03025b93">
+          <u who="david_norman_cac0aa" xml:id="i-03025b93f1351204-2" next="i-03025b93f1351204-3" n="03025b93">
             <seg n="fa0e6218">
               Herr talman! Herr Andersson nämnde herr Pettersson i Hällbacken.
               Det var närmast honom jag tänkte på, när jag påpekade, att det
@@ -6868,7 +6962,7 @@
           <note n="83efda8c">
             Onsdageu den 10 maj 1944. Nr 17. 83
           </note>
-          <u who="david_norman_cac0aa" xml:id="i-685667b50136f42f-1" prev="i-d6cd8913db41281d-1" n="03025b93">
+          <u who="david_norman_cac0aa" xml:id="i-03025b93f1351204-3" prev="i-03025b93f1351204-2" n="03025b93">
             <seg n="bd8ce403">
               Om tillfälligt förbud mot viss avstyckning. (Forts.) att om vi
               skreve så, vore en tillfällig lagstiftning meningslös. Det var
@@ -6894,7 +6988,7 @@
           <note type="speaker" n="040a0cb1">
             Herr von Heland:
           </note>
-          <u who="erik_von_heland_1636c2" xml:id="i-e708e01b00f72be1-1" n="2b25271a">
+          <u who="erik_von_heland_1636c2" xml:id="i-2b25271acbfb94c3-1" n="2b25271a">
             <seg n="49078abc">
               Herr talman! Som replik till utskottets försvarare synes det
               mig endast vara erforderligt att läsa upp ett par meningar ur
@@ -6923,7 +7017,7 @@
           <note type="speaker" n="13337161">
             Herr Andersson, Gustav Emil:
           </note>
-          <u who="sven_andersson_d78059" xml:id="i-584217edd42c4c13-5" next="i-77812ee789985f7e-5" n="8f070ec0">
+          <u who="sven_andersson_d78059" xml:id="i-c372a50dd014eef6-18" next="i-c372a50dd014eef6-21" n="8f070ec0">
             <seg n="0e348d32">
               Herr talman! Jag vill ännu en gång för utskottets ordförande
               framhålla, att det ju är fullständigt orimligt att påstå, att
@@ -6958,17 +7052,13 @@
             Ang. stats'idrag till åtj rder ör ökad skogsprod :ktion i Norrland
             m. m.
           </note>
-          <note n="ff5392af">
+          <note type="date" n="6a5e98a5">
             84 Nr 17. Onsdagen den 10 maj 1944.
           </note>
-          <u who="sven_andersson_d78059" xml:id="i-77812ee789985f7e-5" prev="i-584217edd42c4c13-5" n="8f070ec0">
+          <u who="sven_andersson_d78059" xml:id="i-c372a50dd014eef6-19" prev="i-c372a50dd014eef6-18" n="8f070ec0">
             <seg n="fd41b68e">
               Om tillfälligt förbud mot viss avstyckning. (Forts.)
             </seg>
-            <seg n="21046301">
-              Jäs
-            </seg>
-            <seg n="209adbf0"/>
           </u>
           <note n="3e6c0123">
             Herr von Heland begärde votering, 1 anledning varav uppsattes
@@ -6979,6 +7069,11 @@
             Den, som bifaller vad andra lagutskottet hemställt i sitt utlåtande
             nr 34, röstar
           </note>
+          <u who="sven_andersson_d78059" xml:id="i-c372a50dd014eef6-20" prev="i-c372a50dd014eef6-18" n="8f070ec0">
+            <seg n="21046301">
+              Jäs
+            </seg>
+          </u>
           <note n="cf3dbe2b">
             Nej; Vinner Nej, visas utlåtandet åter till utskottet.
           </note>
@@ -7013,6 +7108,7 @@
             20 november 1931 (nr 364) dels ock en i ämnet väckt motion, bifölls
             vad utskottet i detta utlåtande hemställt.
           </note>
+          <u who="sven_andersson_d78059" xml:id="i-c372a50dd014eef6-21" prev="i-c372a50dd014eef6-18" n="8f070ec0"/>
           <note n="ba18eada">
             Föredrogs ånyo jordbruksutskottets utlåtande nr 37, i anledning
             av väckta motioner angående viss ändring i villkoren för statsbidrag
@@ -7044,7 +7140,7 @@
           <note type="speaker" n="255e7db5">
             Herr Carlström:
           </note>
-          <u who="oscar_carlstrom_22c742" xml:id="i-2ff8934090253fb0-0" next="i-b3c0ef75d426115a-0" n="0c5140bb">
+          <u who="oscar_carlstrom_22c742" xml:id="i-12d0e4fc1d855497-0" next="i-12d0e4fc1d855497-2" n="0c5140bb">
             <seg n="35bf6cf7">
               Herr talman! I förevarande utlåtande föreslår utskottet, »att
               de likalydande motionerna I: 158 och IT: 324 icke må föranleda
@@ -7053,7 +7149,7 @@
             </seg>
           </u>
           <pb n="84" facs="https://betalab.kb.se/prot-1944--fk--17/prot_1944__fk__17-084.jp2/_view"/>
-          <note n="a686c6b4">
+          <note type="date" n="df31b52a">
             Onsdagen den 10 maj 1944. Nr 17. 85
           </note>
           <note n="6ff82125">
@@ -7069,7 +7165,7 @@
             under allmänna skogsvårdslagen och belägna inom Västernorrlands,
             Jämtlands, Västerbottens och Norrbottens län».
           </note>
-          <u who="oscar_carlstrom_22c742" xml:id="i-b3c0ef75d426115a-0" prev="i-2ff8934090253fb0-0" n="0c5140bb">
+          <u who="oscar_carlstrom_22c742" xml:id="i-12d0e4fc1d855497-1" prev="i-12d0e4fc1d855497-0" n="0c5140bb">
             <seg n="8a6fa4b6">
               När riksdagen år 1940 gick in för denna nya gren av understödsverksamhet,
               låg till grund för det förslag, som Kungl. Maj:t då framlade,
@@ -7133,6 +7229,16 @@
               Man kan få ett begrepp om omfattningen av dessa åtgärder inom
               det utöka-
             </seg>
+          </u>
+          <pb n="85" facs="https://betalab.kb.se/prot-1944--fk--17/prot_1944__fk__17-085.jp2/_view"/>
+          <note type="date" n="a2d5d90e">
+            86 Nr 17. Onsdagen den 10 maj 1944.
+          </note>
+          <note n="0458fe33">
+            Ang. a till åtgärder för ökad skogsproduktion i Norrland m. m.
+            Forts.
+          </note>
+          <u who="oscar_carlstrom_22c742" xml:id="i-12d0e4fc1d855497-2" prev="i-12d0e4fc1d855497-0" n="0c5140bb">
             <seg n="fe51cd63">
               de osa som det nu är fråga om, om man tar del av den norrländska
               skogsutredningens betänkande. Där uppskattas de sammanlagda åtgärderna
@@ -7198,35 +7304,27 @@
               till motionen
             </seg>
           </u>
-          <pb n="85" facs="https://betalab.kb.se/prot-1944--fk--17/prot_1944__fk__17-085.jp2/_view"/>
-          <note n="2560d38e">
-            86 Nr 17. Onsdagen den 10 maj 1944.
-          </note>
-          <note n="0458fe33">
-            Ang. a till åtgärder för ökad skogsproduktion i Norrland m. m.
-            Forts.
-          </note>
           <note n="ffc5d0dd">
             : 158. .
           </note>
           <note type="speaker" n="c1d74d38">
             Herr Näslund:
           </note>
-          <u who="per_naslund_ffa1e7" xml:id="i-abaa9788858e4386-0" next="i-535b619c1880a09f-0" n="a8211610">
+          <u who="per_naslund_ffa1e7" xml:id="i-a8211610a3cdbef4-0" next="i-a8211610a3cdbef4-1" n="a8211610">
             <seg n="ec16e0cb">
               Herr talman! Jag skall fatta mig kort i synnerhet som det icke
               råder några delade meningar mellan utskottsmajoriteten och motionärerna
             </seg>
           </u>
           <pb n="86" facs="https://betalab.kb.se/prot-1944--fk--17/prot_1944__fk__17-086.jp2/_view"/>
-          <note n="05882d0f">
+          <note type="date" n="a784129e">
             Onsdagen den 10 maj 1944. Nr 17. ST
           </note>
           <note n="fb2317b6">
             Ang. statsbidrag till åtgärder för ökad skogsprodulktion i Norrland
             m. m. (Forts.)
           </note>
-          <u who="per_naslund_ffa1e7" xml:id="i-535b619c1880a09f-0" prev="i-abaa9788858e4386-0" n="a8211610">
+          <u who="per_naslund_ffa1e7" xml:id="i-a8211610a3cdbef4-1" prev="i-a8211610a3cdbef4-0" n="a8211610">
             <seg n="488497ea">
               i fråga om själva syftet med strävandena att befrämja skogsvården
               i Norrland.
@@ -7293,7 +7391,7 @@
           <note type="speaker" n="a44089fc">
             Herr Svedberg:
           </note>
-          <u who="ellen_svedberg_8658e3" xml:id="i-5ead037a053f5749-0" next="i-a6c35c43d60e1916-0" n="a9deb379">
+          <u who="ellen_svedberg_8658e3" xml:id="i-8679707ad20fbc3b-0" next="i-8679707ad20fbc3b-1" n="a9deb379">
             <seg n="20331f5a">
               Herr talman! Jag har till utskottets utlåtande fogat en blank
               reservation, då jag inte kunnat följa utskottsmajoriteten särskilt
@@ -7314,14 +7412,14 @@
             </seg>
           </u>
           <pb n="87" facs="https://betalab.kb.se/prot-1944--fk--17/prot_1944__fk__17-087.jp2/_view"/>
-          <note n="ff1142ce">
+          <note type="date" n="cf4f3321">
             88 Nr 17. Onsdagen den 10 maj 1944.
           </note>
           <note n="cca399c6">
             Ang rigg OMR till åtgärder för ökad skogsproduktion i Norrland
             m. m. Forts.
           </note>
-          <u who="ellen_svedberg_8658e3" xml:id="i-a6c35c43d60e1916-0" prev="i-5ead037a053f5749-0" n="a9deb379">
+          <u who="ellen_svedberg_8658e3" xml:id="i-8679707ad20fbc3b-1" prev="i-8679707ad20fbc3b-0" n="a9deb379">
             <seg n="f9b47f54">
               hela denna tid ha de enskilda skogsägarna måst betala garantiskatt,
               men icke haft någon nytta av sina skogsarealer. Det känns givetvis
@@ -7393,17 +7491,17 @@
           <note type="speaker" n="c87c639b">
             Herr Bergh, Ragnar:
           </note>
-          <u who="unknown" xml:id="i-b85a8e579ad9361c-7" n="3ca02b77">
+          <u who="unknown" xml:id="i-8f4e4a61d501e9e0-6" n="3ca02b77">
             <seg n="ff38f564">
               Timmen börjar bli något sen, och sydoch mellansvenskarna betrakta
               måhända denna fråga som något periferisk. Jag skulle
             </seg>
           </u>
           <pb n="88" facs="https://betalab.kb.se/prot-1944--fk--17/prot_1944__fk__17-088.jp2/_view"/>
-          <note n="478f57fa">
+          <note type="date" n="bf0a526c">
             Onsdagen den 10 maj 1944. Nr 17. 59
           </note>
-          <u who="unknown" xml:id="i-d5928896933b18df-7" n="3ca02b77">
+          <u who="unknown" xml:id="i-8f4e4a61d501e9e0-7" n="3ca02b77">
             <seg n="fd2b3fb8">
               Ang. statsbidrag till åtgärder för ökad skogsproduktion i RR
               Forts.
@@ -7474,6 +7572,12 @@
               skulle komma fram till detta års riksdag. Jag förutsätter sålunda,
               att ett förslag kan komma fram först vid nästa års riks-
             </seg>
+          </u>
+          <pb n="89" facs="https://betalab.kb.se/prot-1944--fk--17/prot_1944__fk__17-089.jp2/_view"/>
+          <note type="date" n="18b6f581">
+            00 Nr 17. Onsdagen den 10 maj 1944.
+          </note>
+          <u who="unknown" xml:id="i-8f4e4a61d501e9e0-8" n="3ca02b77">
             <seg n="7d032c7a">
               Ang. statsbidrag till åtgärder för ökad skogsproduktion i Norrland
               m. m. (Forts.) dag, och därmed är själva inventeringen ett år
@@ -7521,17 +7625,13 @@
               Jag ber, herr talman, att få yrka bifall till motionen.
             </seg>
           </u>
-          <pb n="89" facs="https://betalab.kb.se/prot-1944--fk--17/prot_1944__fk__17-089.jp2/_view"/>
-          <note n="85547c37">
-            00 Nr 17. Onsdagen den 10 maj 1944.
-          </note>
           <note n="1d9feea7">
             I herr Ragnar Berghs yttrande instämde herr Velander.
           </note>
           <note type="speaker" n="c1d74d38">
             Herr Näslund:
           </note>
-          <u who="per_naslund_ffa1e7" xml:id="i-abaa9788858e4386-1" next="i-535b619c1880a09f-1" n="a8211610">
+          <u who="per_naslund_ffa1e7" xml:id="i-a8211610a3cdbef4-2" next="i-a8211610a3cdbef4-3" n="a8211610">
             <seg n="767578b1">
               Herr talman! Det må ursäktas mig, om jag gör ett konstaterande,
               det nämligen, att för varje timme som går, komma vi närmare den
@@ -7563,14 +7663,14 @@
           <note n="9ad8fcf7">
             -
           </note>
-          <note n="0fa50ad5">
+          <note type="date" n="73b9bbe1">
             Onsdagen den 10 maj 1944. Nr 17. 91
           </note>
           <note n="150a667d">
             Ang. statsbidrag till åtgärder för ökad skogsproduktion i Norte
             AR Forts.
           </note>
-          <u who="per_naslund_ffa1e7" xml:id="i-535b619c1880a09f-1" prev="i-abaa9788858e4386-1" n="a8211610">
+          <u who="per_naslund_ffa1e7" xml:id="i-a8211610a3cdbef4-3" prev="i-a8211610a3cdbef4-2" n="a8211610">
             <seg n="541db813">
               Och, herr Svedberg, vad beträffar utskottets rätt till initiativ
               på det här området, varigenom man skulle ha kommit till ett förnuftigare
@@ -7595,7 +7695,7 @@
           <note type="speaker" n="c87c639b">
             Herr Bergh, Ragnar:
           </note>
-          <u who="unknown" xml:id="i-f38bca7c217f4386-4" n="3ca02b77">
+          <u who="unknown" xml:id="i-8f4e4a61d501e9e0-9" n="3ca02b77">
             <seg n="0991881a">
               Endast en kort replik, herr talman!
             </seg>
@@ -7641,7 +7741,7 @@
           <note type="speaker" n="a44089fc">
             Herr Svedberg:
           </note>
-          <u who="ellen_svedberg_8658e3" xml:id="i-5ead037a053f5749-1" next="i-a6c35c43d60e1916-1" n="a9deb379">
+          <u who="ellen_svedberg_8658e3" xml:id="i-8679707ad20fbc3b-2" next="i-8679707ad20fbc3b-3" n="a9deb379">
             <seg n="16b6535d">
               Herr talman! Jag vill ytterligare anföra att efter de senaste
               årens stora tvångsuttagningar av ved i Norrland anse skogsägarna
@@ -7656,7 +7756,7 @@
             </seg>
           </u>
           <pb n="91" facs="https://betalab.kb.se/prot-1944--fk--17/prot_1944__fk__17-091.jp2/_view"/>
-          <note n="da602676">
+          <note type="date" n="ca7e6b75">
             92 Nr 17. Onsdagen den 10 maj 1944.
           </note>
           <note n="9a231402">
@@ -7671,7 +7771,7 @@
             inom Västerbottens och Norrbottens läns kustland», varjämte det
             hemställes att medel måtte ställas till skogsvårdsstyrelsens förfogande.
           </note>
-          <u who="ellen_svedberg_8658e3" xml:id="i-a6c35c43d60e1916-1" prev="i-5ead037a053f5749-1" n="a9deb379">
+          <u who="ellen_svedberg_8658e3" xml:id="i-8679707ad20fbc3b-3" prev="i-8679707ad20fbc3b-2" n="a9deb379">
             <seg n="a471c800">
               När herr Näslund själv varit med om att inom skogsvårdsstyrelsen
               förorda, att anslag även skulle komma kustlandet inom Västerbottens
@@ -7684,7 +7784,7 @@
           <note type="speaker" n="c1d74d38">
             Herr Näslund:
           </note>
-          <u who="per_naslund_ffa1e7" xml:id="i-abaa9788858e4386-2" next="i-535b619c1880a09f-2" n="a8211610">
+          <u who="per_naslund_ffa1e7" xml:id="i-a8211610a3cdbef4-4" next="i-a8211610a3cdbef4-5" n="a8211610">
             <seg n="6aa33e6c">
               Herr talman! Jag skall börja med att svara på herr Svedbergs
               anförande. Jag vill framhålla att när skogsvårdsstyrelsen i Västerbottens
@@ -7738,10 +7838,10 @@
             </seg>
           </u>
           <pb n="92" facs="https://betalab.kb.se/prot-1944--fk--17/prot_1944__fk__17-092.jp2/_view"/>
-          <note n="7fc46395">
+          <note type="date" n="05b63541">
             Onsdagen den 10 maj 1944. Nr 17. 93
           </note>
-          <u who="per_naslund_ffa1e7" xml:id="i-535b619c1880a09f-2" prev="i-abaa9788858e4386-2" n="a8211610">
+          <u who="per_naslund_ffa1e7" xml:id="i-a8211610a3cdbef4-5" prev="i-a8211610a3cdbef4-4" n="a8211610">
             <seg n="a94dd96c">
               Ang. statsbidrag till åtgärder för ökad skogsproduktion i Norrland
               m. m. (Forts.) git, det har jag under min femtonåriga riksdagsmannatid
@@ -7752,7 +7852,7 @@
           <note type="speaker" n="baa502ee">
             Herr Tjällgren:
           </note>
-          <u who="leonard_tjallgren_052905" xml:id="i-bc0e174132773691-0" n="f092a74b">
+          <u who="leonard_tjallgren_052905" xml:id="i-f092a74b09dee07f-0" n="f092a74b">
             <seg n="fc3e6051">
               Herr talman! Jag hade från början inte tänkt deltaga i denna
               debatt, utan trodde att denna fråga skulle kunna göras upp av
@@ -7818,7 +7918,7 @@
           <note type="speaker" n="255e7db5">
             Herr Carlström:
           </note>
-          <u who="oscar_carlstrom_22c742" xml:id="i-2ff8934090253fb0-1" next="i-b3c0ef75d426115a-1" n="0c5140bb">
+          <u who="oscar_carlstrom_22c742" xml:id="i-12d0e4fc1d855497-3" next="i-12d0e4fc1d855497-4" n="0c5140bb">
             <seg n="7bedc2a9">
               Herr talman! Jag vill efter herr Näslunds anförande förklara,
               att jag verkligen inte har någon möjlighet att följa med hans
@@ -7826,14 +7926,14 @@
             </seg>
           </u>
           <pb n="93" facs="https://betalab.kb.se/prot-1944--fk--17/prot_1944__fk__17-093.jp2/_view"/>
-          <note n="98510084">
+          <note type="date" n="c1871933">
             04 Nr 17; Onsdagen den 10 maj 1944.
           </note>
           <note n="fed1b552">
             Ang. rg ER till åtgärder för ökad skogsproduktion i Norrland
             m. m. (Forts.
           </note>
-          <u who="oscar_carlstrom_22c742" xml:id="i-b3c0ef75d426115a-1" prev="i-2ff8934090253fb0-1" n="0c5140bb">
+          <u who="oscar_carlstrom_22c742" xml:id="i-12d0e4fc1d855497-4" prev="i-12d0e4fc1d855497-3" n="0c5140bb">
             <seg n="6a0274cb">
               i Västerbottens län, och denna skogsvårdsstyrelse tillstyrkte
               på det varmaste bifall till motionen. Herr Näslund är själv medlem
@@ -7874,7 +7974,7 @@
           <note type="speaker" n="c87c639b">
             Herr Bergh, Ragnar:
           </note>
-          <u who="unknown" xml:id="i-b85a8e579ad9361c-8" n="3ca02b77">
+          <u who="unknown" xml:id="i-8f4e4a61d501e9e0-10" n="3ca02b77">
             <seg n="427ee8ee">
               Jag vill uttrycka min tacksamhet mot jordbruksutskottets ärade
               herr ordförande, framför allt därför att hans milda tonfall i
@@ -7910,14 +8010,14 @@
             </seg>
           </u>
           <pb n="94" facs="https://betalab.kb.se/prot-1944--fk--17/prot_1944__fk__17-094.jp2/_view"/>
-          <note n="8b06bafa">
+          <note type="date" n="b4ade6f9">
             Onsdagen den 10 maj 1944. Nr 17. 95
           </note>
           <note n="12914524">
             Ang. statsbidrag till åtgärder för ökad skogsproduktion i Norrland
             m. m.
           </note>
-          <u who="unknown" xml:id="i-d5928896933b18df-8" n="3ca02b77">
+          <u who="unknown" xml:id="i-8f4e4a61d501e9e0-11" n="3ca02b77">
             <seg n="016dd276">
               (Forts.) som naturligtvis äro mycket större än jag och sannolikt
               även större än herr Näslund.
@@ -7926,7 +8026,7 @@
           <note type="speaker" n="2c943293">
             Herr Tiällgren:
           </note>
-          <u who="unknown" xml:id="i-b85a8e579ad9361c-9" n="3ca02b77">
+          <u who="unknown" xml:id="i-3ca02b77e5456e44-32" n="3ca02b77">
             <seg n="26aaa2ee">
               Med anledning av att här påtalats, att motionen inte blivit
             </seg>
@@ -7979,7 +8079,7 @@
             Föredrogs ånyo jordbruksutskottets utlåtande nr 42, i anledning
             av väckta Ang. villkoren
           </note>
-          <u who="unknown" xml:id="i-d5928896933b18df-9" n="3ca02b77">
+          <u who="unknown" xml:id="i-3ca02b77e5456e44-33" n="3ca02b77">
             <seg n="9b3af438">
               motioner om viss ändring i villkoren för erhållande av bidrag
               och lån ur avdikningsanslaget och avdikningslånefonden.
@@ -8004,7 +8104,7 @@
           <note type="speaker" n="4ff9eafc">
             Herr Lodenius:
           </note>
-          <u who="unknown" xml:id="i-b85a8e579ad9361c-10" n="3ca02b77">
+          <u who="unknown" xml:id="i-3ca02b77e5456e44-34" n="3ca02b77">
             <seg n="8bb7a9a5">
               Herr talman! Efter de långa debatter, som ha pågått här i kammaren,
               och med hänsyn till den långt framskridna tiden kan det kanske
@@ -8019,10 +8119,10 @@
             avdikningslånejonden m. m.
           </note>
           <pb n="95" facs="https://betalab.kb.se/prot-1944--fk--17/prot_1944__fk__17-095.jp2/_view"/>
-          <note n="43925154">
+          <note type="date" n="8faaba42">
             96 Nr 17. Onsdagen den 10 maj 1944.
           </note>
-          <u who="unknown" xml:id="i-d5928896933b18df-10" n="3ca02b77">
+          <u who="unknown" xml:id="i-3ca02b77e5456e44-35" n="3ca02b77">
             <seg n="e9fd9e8a">
               Ang. villkoren för bidrag ur avdikningslånefonden m. m. (Forts.)
               praktiskt taget enhälligt utskott har avstyrkt motionerna — det
@@ -8092,7 +8192,7 @@
           <note type="speaker" n="baa502ee">
             Herr Tjällgren:
           </note>
-          <u who="leonard_tjallgren_052905" xml:id="i-d21f8b2379f4f48b-0" next="i-c69f64e2c744130c-0" n="f092a74b">
+          <u who="leonard_tjallgren_052905" xml:id="i-f092a74b09dee07f-1" next="i-f092a74b09dee07f-3" n="f092a74b">
             <seg n="d37b1728">
               På grund av den långt framskridna tiden skall jag endast be att
               med hänvisning till utskottets motivering få yrka bifall till
@@ -8105,7 +8205,7 @@
             på bifall till vad ut-
           </note>
           <pb n="96" facs="https://betalab.kb.se/prot-1944--fk--17/prot_1944__fk__17-096.jp2/_view"/>
-          <note n="c10c55eb">
+          <note type="date" n="c74dba83">
             Onsdagen den 10 maj 1944. Nr 17. 97
           </note>
           <note n="e17ce281">
@@ -8144,7 +8244,7 @@
             grunder hemställt, att de likalydande motionerna I:227 och II:
             334 icke måtte föranleda någon riksdagens åtgärd.
           </note>
-          <u who="leonard_tjallgren_052905" xml:id="i-c69f64e2c744130c-0" prev="i-d21f8b2379f4f48b-0" n="f092a74b">
+          <u who="leonard_tjallgren_052905" xml:id="i-f092a74b09dee07f-2" prev="i-f092a74b09dee07f-1" n="f092a74b">
             <seg n="45db6ea9">
               Herr Arrhén: Herr talman! I förevarande utlåtande har jordbruksutskottet
               avstyrkt motionärernas hemställan om en utredning angående möjligheterna
@@ -8184,6 +8284,21 @@
               övervägandena efter fredsslutet skola ske, finns det kanske inte
               mycken tid över för att utreda
             </seg>
+          </u>
+          <note n="8b12e395">
+            Första kammarens protokoll 1944. Nr 197. 7
+          </note>
+          <pb n="97" facs="https://betalab.kb.se/prot-1944--fk--17/prot_1944__fk__17-097.jp2/_view"/>
+          <note n="18b1e98c">
+            Om utredning
+          </note>
+          <note n="af666c2e">
+            rörande organisationsväsendet.
+          </note>
+          <note type="date" n="99ea9f63">
+            98 Nr 17. Onsdagen den 10 maj 1944.
+          </note>
+          <u who="leonard_tjallgren_052905" xml:id="i-f092a74b09dee07f-3" prev="i-f092a74b09dee07f-1" n="f092a74b">
             <seg n="691096b1">
               Om tryggande av landets försörjning med fisknät. (Forts.) frågan
               om det ekonomiskt och försörjningspolitiskt bästa sättet att trygga
@@ -8206,23 +8321,10 @@
               I: 227 framställda yrkandet om utredning.
             </seg>
           </u>
-          <note n="8b12e395">
-            Första kammarens protokoll 1944. Nr 197. 7
-          </note>
-          <pb n="97" facs="https://betalab.kb.se/prot-1944--fk--17/prot_1944__fk__17-097.jp2/_view"/>
-          <note n="18b1e98c">
-            Om utredning
-          </note>
-          <note n="af666c2e">
-            rörande organisationsväsendet.
-          </note>
-          <note n="fae54280">
-            98 Nr 17. Onsdagen den 10 maj 1944.
-          </note>
           <note type="speaker" n="baa502ee">
             Herr Tjällgren:
           </note>
-          <u who="leonard_tjallgren_052905" xml:id="i-bc0e174132773691-1" n="f092a74b">
+          <u who="leonard_tjallgren_052905" xml:id="i-f092a74b09dee07f-4" n="f092a74b">
             <seg n="1616e3eb">
               Även denna motion har remitterats till olika myndigheter, och
               dessas utlåtanden ha givit vid handen, att den ökade lagerhållning,
@@ -8273,7 +8375,7 @@
           <note type="speaker" n="c77ad212">
             Herr Nordenson:
           </note>
-          <u who="harald_nordenson_f88624" xml:id="i-31e9dbc017686cfe-0" next="i-6d2f129772f5b9de-0" n="8705e3e6">
+          <u who="harald_nordenson_f88624" xml:id="i-8705e3e64f565787-0" next="i-8705e3e64f565787-2" n="8705e3e6">
             <seg n="7f6aac81">
               Herr talman! Jag har blivit tillfrågad, om jag har väckt denna
               motion i egenskap av näringsidkare eller politiker, och på bägge
@@ -8281,10 +8383,10 @@
             </seg>
           </u>
           <pb n="98" facs="https://betalab.kb.se/prot-1944--fk--17/prot_1944__fk__17-098.jp2/_view"/>
-          <note n="8c6a9986">
+          <note type="date" n="7354aed9">
             Onsdagen den 10 maj 1944. Nr 17. 99
           </note>
-          <u who="harald_nordenson_f88624" xml:id="i-6d2f129772f5b9de-0" prev="i-31e9dbc017686cfe-0" n="8705e3e6">
+          <u who="harald_nordenson_f88624" xml:id="i-8705e3e64f565787-1" prev="i-8705e3e64f565787-0" n="8705e3e6">
             <seg n="70a1b228">
               Om utredning rörande organisationsväsendet. (Forts.) na kan jag
               svara nej. Det är varken näringspolitiska eller partipolitiska
@@ -8358,6 +8460,12 @@
               på detta område bär hän. Men om det skall vara möjligt, måste
               vi skaffa oss en allmän överblick
             </seg>
+          </u>
+          <pb n="99" facs="https://betalab.kb.se/prot-1944--fk--17/prot_1944__fk__17-099.jp2/_view"/>
+          <note type="date" n="bef10ccb">
+            100 Nr 17. Onsdagen den 10 maj 1944.
+          </note>
+          <u who="harald_nordenson_f88624" xml:id="i-8705e3e64f565787-2" prev="i-8705e3e64f565787-0" n="8705e3e6">
             <seg n="f8ec8723">
               Om utredning rörande organisationsväsendet. (Forts.) över alla
               hithörande synnerligen mångskiftande problem. Det förutsätter
@@ -8378,17 +8486,13 @@
               yrkande.
             </seg>
           </u>
-          <pb n="99" facs="https://betalab.kb.se/prot-1944--fk--17/prot_1944__fk__17-099.jp2/_view"/>
-          <note n="1a346caa">
-            100 Nr 17. Onsdagen den 10 maj 1944.
-          </note>
           <note n="5e6744e4">
             Häri instämde herr Herlitz.
           </note>
           <note type="speaker" n="ac219ff9">
             Herr Ekströmer:
           </note>
-          <u who="ivar_ekstromer_ac071e" xml:id="i-f35fd6f51c51d3e0-0" n="caa14bff">
+          <u who="ivar_ekstromer_ac071e" xml:id="i-caa14bff22152a1a-0" n="caa14bff">
             <seg n="c5719618">
               Med stort intresse har jag åhört herr Nordensons anföförande.
               Jag har märkt, att hans framställning kanske var ej så litet annorlunda
@@ -8450,7 +8554,7 @@
             nr 263,
           </note>
           <pb n="100" facs="https://betalab.kb.se/prot-1944--fk--17/prot_1944__fk__17-100.jp2/_view"/>
-          <note n="3fda94fc">
+          <note type="date" n="0bcae15d">
             Lördagen den 13 maj 1944. Nr 17. 101
           </note>
           <note n="b0420473">
@@ -8475,7 +8579,7 @@
           <note type="speaker" n="32f26afa">
             Herr statsrådet Ewerlöf avlämnade Kungl. Maj:
           </note>
-          <u who="knut_ewerlof_75b1ca" xml:id="i-1f81de9b52d57e17-0" n="e0646e17">
+          <u who="knut_ewerlof_75b1ca" xml:id="i-e0646e1741e59da4-0" n="e0646e17">
             <seg n="2758c807">
               ts propositioner: nr 253, angående prisreglerande åtgärder på
               jordbrukets område m. m.;
@@ -8487,7 +8591,7 @@
           <note type="speaker" n="4aab6168">
             Herr Johansson, Johan Bernhard, erhöll på begäran ordet och anförde:
           </note>
-          <u who="erik_johansson_3121ae" xml:id="i-bb9be97fc1565e8e-0" next="i-667d3cdb5806006e-0" n="5ffc9d2f">
+          <u who="erik_johansson_3121ae" xml:id="i-1d3a90ff543978fd-0" next="i-1d3a90ff543978fd-1" n="5ffc9d2f">
             <seg n="e218e52d">
               Herr talman! Jag hemställer, att kammaren för sin del ville besluta,
               att ett särskilt utskott, bestående av tjugufyra ledamöter, tolv
@@ -8513,7 +8617,7 @@
             Ett protokollsutdrag i ämnet justerades och avsändes till andra
             kammaren.
           </note>
-          <u who="erik_johansson_3121ae" xml:id="i-667d3cdb5806006e-0" prev="i-bb9be97fc1565e8e-0" n="5ffc9d2f"/>
+          <u who="erik_johansson_3121ae" xml:id="i-1d3a90ff543978fd-1" prev="i-1d3a90ff543978fd-0" n="5ffc9d2f"/>
           <note n="f389d34c">
             Anmäldes och godkändes riksdagens kanslis förslag till riksdagens
             skrivelser till Konungen:
@@ -8535,7 +8639,7 @@
             nämndemän jämte i ämnet väckta motioner;
           </note>
           <pb n="101" facs="https://betalab.kb.se/prot-1944--fk--17/prot_1944__fk__17-101.jp2/_view"/>
-          <note n="66cda63a">
+          <note type="date" n="28f77d1e">
             102 Nr 17. Lördagen den 13 maj 1944.
           </note>
           <note n="75c5dddf">
@@ -8626,7 +8730,7 @@
             av befatt-
           </note>
           <pb n="102" facs="https://betalab.kb.se/prot-1944--fk--17/prot_1944__fk__17-102.jp2/_view"/>
-          <note n="9131584c">
+          <note type="date" n="37af6f94">
             Lördagen den 13 maj 1944. Nr 17: 103
           </note>
           <note n="29bacf0c">
@@ -8736,7 +8840,7 @@
             beträffande
           </note>
           <pb n="103" facs="https://betalab.kb.se/prot-1944--fk--17/prot_1944__fk__17-103.jp2/_view"/>
-          <note n="301afff8">
+          <note type="date" n="b4c69163">
             104 Nr 17. Lördagen den 13 maj 1944.
           </note>
           <note n="67d2111d">

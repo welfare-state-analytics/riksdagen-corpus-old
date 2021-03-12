@@ -20,7 +20,7 @@
     <encodingDesc>
       <editorialDecl>
         <correction>
-          <p>Some data curation was done. It is documented in db/curation/instances</p>
+          <p>Some data curation was done. It is documented in input/curation/instances</p>
         </correction>
       </editorialDecl>
     </encodingDesc>
@@ -60,6 +60,7 @@
       </front>
       <body>
         <div>
+          <pb n="0" facs="https://betalab.kb.se/prot-1948--ak--10/prot_1948__ak__10-000.jp2/_view"/>
           <note n="78c817cd">
             RIKSDAGENS PROTOKOLL
           </note>
@@ -150,7 +151,7 @@
           <note n="4a223c0b">
             Nr 10. 3
           </note>
-          <note n="6470928a">
+          <note type="date" n="6e016287">
             Lördagen den 6 mars. Kl. 2 em.
           </note>
           <note n="1367478b">
@@ -165,7 +166,7 @@
           <note type="speaker" n="7231b160">
             Herr statsrådet Weijne avlämnade Kungl. Maj:
           </note>
-          <u who="unknown" xml:id="i-d96e3191fd6aaf24-0" n="9f528dde">
+          <u who="unknown" xml:id="i-9f528dde1da7f94e-0" n="9f528dde">
             <seg n="0911ca20">
               ts propositioner:
             </seg>
@@ -242,7 +243,7 @@
           <note type="speaker" n="84c7ffe9">
             Herr FÖRSTE VICE TALMANNEN erhöll på begäran ordet och yttrade:
           </note>
-          <u who="unknown" xml:id="i-8046f9d7dd79ae45-0" n="9f528dde">
+          <u who="unknown" xml:id="i-9f528dde1da7f94e-1" n="9f528dde">
             <seg n="23ab66ce">
               Herr talman! Med hänsyn till omfattningen av Kungl. Maj:ts proposition
               nr 80 tillåter jag mig hemställa, att kammaren ville besluta,
@@ -257,15 +258,9 @@
           <note n="a91ed882">
             8 5.
           </note>
-          <u who="unknown" xml:id="i-1b182051095bc94a-0" n="9f528dde">
+          <u who="unknown" xml:id="i-9f528dde1da7f94e-2" n="9f528dde">
             <seg n="22ceb54a">
               Till bordläggning anmäldes:
-            </seg>
-            <seg n="96e11a07">
-              huvudtiteln, avseende anslagen inom finansdepartementets verksamhetsområde;
-            </seg>
-            <seg n="b7de4338">
-              Interpellation angående värdering av skador å skog genom kraftledningsanläggningar.
             </seg>
           </u>
           <note n="8808e636">
@@ -306,6 +301,11 @@
             gjorda framställningar rörande egentliga statsutgifter för budgetåret
             1948/49 under sjunde
           </note>
+          <u who="unknown" xml:id="i-9f528dde1da7f94e-3" n="9f528dde">
+            <seg n="96e11a07">
+              huvudtiteln, avseende anslagen inom finansdepartementets verksamhetsområde;
+            </seg>
+          </u>
           <note n="e31c967e">
             nr 31, i anledning av Kungl. Maj:ts proposition angående fortsatt
             statsgaranti för exportkredit;
@@ -447,13 +447,18 @@
           <note n="4df516ea">
             $ 6.
           </note>
+          <u who="unknown" xml:id="i-9f528dde1da7f94e-4" n="9f528dde">
+            <seg n="b7de4338">
+              Interpellation angående värdering av skador å skog genom kraftledningsanläggningar.
+            </seg>
+          </u>
           <note n="232be971">
             Herr talmannen lämnade på begäran ordet till
           </note>
           <note type="speaker" n="950515c3">
             Herr JÖNSSON i Rossbol, som anförde:
           </note>
-          <u who="nils_jonsson_63e7f8" xml:id="i-c8bd3c27dd56633c-0" next="i-fc444e497cf18c11-0" n="43172ac4">
+          <u who="nils_jonsson_63e7f8" xml:id="i-43172ac4a4f912eb-0" next="i-43172ac4a4f912eb-5" n="43172ac4">
             <seg n="3b9dd8cf">
               Herr talman! Som en följd av de under senare tid i snabb takt
               utbyggda elkraftsanläggningarna i våra norrländska älvar, framför
@@ -466,7 +471,7 @@
           <note n="67eddec1">
             Nr 10. 5
           </note>
-          <u who="nils_jonsson_63e7f8" xml:id="i-fc444e497cf18c11-0" prev="i-c8bd3c27dd56633c-0" n="43172ac4">
+          <u who="nils_jonsson_63e7f8" xml:id="i-43172ac4a4f912eb-1" prev="i-43172ac4a4f912eb-0" n="43172ac4">
             <seg n="a5272117">
               ledningarna för elkraftens överförande till städer, industrier
               och övrig elkonsumtion efter norrlandskusten samt i mellersta
@@ -512,6 +517,12 @@
               skogsmark vid kraftledningars framdragande. Kommittén har avlämnat
               förslag till normer beträffande åker, men
             </seg>
+          </u>
+          <pb n="5" facs="https://betalab.kb.se/prot-1948--ak--10/prot_1948__ak__10-005.jp2/_view"/>
+          <note n="d735f2c9">
+            6 Nr 10.
+          </note>
+          <u who="nils_jonsson_63e7f8" xml:id="i-43172ac4a4f912eb-2" prev="i-43172ac4a4f912eb-0" n="43172ac4">
             <seg n="5fbcca77">
               ännu efter 4 års kommittéarbete vänta
             </seg>
@@ -537,24 +548,7 @@
               måst godtaga i förhållande till uppkomna skador oskäligt låga
               ersättningar.
             </seg>
-            <seg n="42904fce">
-              2. Är herr statsrådet villig medverka till att de markägare,
-              som under de senare åren nödgats godtaga skadeersättningar, grundade
-              på här förut antydda föråldrade normer, måtte tillerkännas en
-              på mera rättvisa normer grundad retroaktiv ekonomisk gottgörelse
-              utöver vad de tidigare bekommit?
-            </seg>
-            <seg n="514d0b9b">
-              från utrikesutskottet:
-            </seg>
-            <seg n="7f245a6f">
-              från statsutskottet:
-            </seg>
           </u>
-          <pb n="5" facs="https://betalab.kb.se/prot-1948--ak--10/prot_1948__ak__10-005.jp2/_view"/>
-          <note n="d735f2c9">
-            6 Nr 10.
-          </note>
           <note n="e60f4c04">
             Under hänvisning till det anförda får jag härmed anhålla om andra
             kammarens tillstånd att till herr statsrådet och chefen = för
@@ -565,6 +559,15 @@
             normer till ledning vid värdering av skador å skogsmark vid kraftledningsanläggningar
             komma att avlämna förslag därom inom den närmaste tiden?
           </note>
+          <u who="nils_jonsson_63e7f8" xml:id="i-43172ac4a4f912eb-3" prev="i-43172ac4a4f912eb-0" n="43172ac4">
+            <seg n="42904fce">
+              2. Är herr statsrådet villig medverka till att de markägare,
+              som under de senare åren nödgats godtaga skadeersättningar, grundade
+              på här förut antydda föråldrade normer, måtte tillerkännas en
+              på mera rättvisa normer grundad retroaktiv ekonomisk gottgörelse
+              utöver vad de tidigare bekommit?
+            </seg>
+          </u>
           <note n="4b5e5b07">
             Denna anhållan bordlades.
           </note>
@@ -578,10 +581,20 @@
             Anmäldes och godkändes följande förslag till riksdagens skrivelser
             till Konungen, nämligen
           </note>
+          <u who="nils_jonsson_63e7f8" xml:id="i-43172ac4a4f912eb-4" prev="i-43172ac4a4f912eb-0" n="43172ac4">
+            <seg n="514d0b9b">
+              från utrikesutskottet:
+            </seg>
+          </u>
           <note n="2614de00">
             nr 52, i anledning av Kungl. Maj:ts proposition angående godkännande
             av protokoll rörande det svensk-franska varuutbytet m. m.;
           </note>
+          <u who="nils_jonsson_63e7f8" xml:id="i-43172ac4a4f912eb-5" prev="i-43172ac4a4f912eb-0" n="43172ac4">
+            <seg n="7f245a6f">
+              från statsutskottet:
+            </seg>
+          </u>
           <note n="2033ee5a">
             nr 68, i anledning av Kungl. Maj:ts i statsverkspropositionen
             under statens affärsverksfonder gjorda framställningar om anslag
@@ -633,7 +646,7 @@
           <note n="33276c3b">
             Nr 10. 7
           </note>
-          <note n="68575a34">
+          <note type="date" n="46d47410">
             Tisdagen den 9 mars. KL. 4 em.
           </note>
           <note n="12a2709d">
@@ -657,7 +670,7 @@
           <note type="speaker" n="89ce09b6">
             Herr statsrådet Mossberg avlämnade Kungl. Maj:
           </note>
-          <u who="unknown" xml:id="i-d96e3191fd6aaf24-1" n="9f528dde">
+          <u who="unknown" xml:id="i-9f528dde1da7f94e-5" n="9f528dde">
             <seg n="0911ca20">
               ts propositioner:
             </seg>
@@ -695,7 +708,7 @@
             Chefen för inrikesdepartementet, herr statsrådet MOSSBERG, som
             anförde:
           </note>
-          <u who="unknown" xml:id="i-d96e3191fd6aaf24-2" n="9f528dde">
+          <u who="unknown" xml:id="i-9f528dde1da7f94e-6" n="9f528dde">
             <seg n="39da8d51">
               Herr talman! Herr Pettersson i Ersbacken har med kammarens tillstånd
               riktat följande fråga till chefen för socialdepartementet:
@@ -733,7 +746,7 @@
           <note type="speaker" n="7bcfa88d">
             Herr PETTERSSON i Ersbacken:
           </note>
-          <u who="georg_pettersson_629b62" xml:id="i-90f4f4f1198c84a8-0" next="i-6c7d13c3d282749e-0" n="d04f053b">
+          <u who="georg_pettersson_629b62" xml:id="i-719fb3b052bcbc5b-0" next="i-719fb3b052bcbc5b-1" n="d04f053b">
             <seg n="608f77a8">
               Herr talman! Jag ber att till statsrådet och chefen för inrikesdepartementet
               få framföra ett tack för svaret på min interpellation.
@@ -747,7 +760,7 @@
           <note n="69f0af82">
             8 Nr 10.
           </note>
-          <u who="georg_pettersson_629b62" xml:id="i-6c7d13c3d282749e-0" prev="i-90f4f4f1198c84a8-0" n="d04f053b">
+          <u who="georg_pettersson_629b62" xml:id="i-719fb3b052bcbc5b-1" prev="i-719fb3b052bcbc5b-0" n="d04f053b">
             <seg n="b04ee368">
               lägrets iordningställande. Även med hänsyn till den senare omständigheten
               är det glädjande att erfara, att statsrådet är beredd att upplåta
@@ -888,7 +901,7 @@
           <note type="speaker" n="93aa3ec0">
             Herr FALLA, som anförde:
           </note>
-          <u who="unknown" xml:id="i-8046f9d7dd79ae45-1" n="9f528dde">
+          <u who="unknown" xml:id="i-9f528dde1da7f94e-7" n="9f528dde">
             <seg n="cd6731c7">
               Herr talman! Under statens järnvägars förvaltning ligga mycket
               avsevärda jordområden. År 1946 räknades S. J:s banlinjer uppgå
@@ -917,7 +930,7 @@
           <note n="febfcb05">
             Nr 10. 9
           </note>
-          <u who="unknown" xml:id="i-1b182051095bc94a-1" n="9f528dde">
+          <u who="unknown" xml:id="i-9f528dde1da7f94e-8" n="9f528dde">
             <seg n="1f98aa52">
               emellertid S. J:s personal ute på linjerna att hålla sig med
               kor och hade därför ingen användning för vallslåttern. S. J:s
@@ -952,6 +965,12 @@
               Ogräshärdar. I kampen mot ogräset blir därför så långt möjligt
               igenläggning av öppna diken och i rätt tid utförd slåtter
             </seg>
+          </u>
+          <pb n="9" facs="https://betalab.kb.se/prot-1948--ak--10/prot_1948__ak__10-009.jp2/_view"/>
+          <note n="feb746a3">
+            10 Nr 10.
+          </note>
+          <u who="unknown" xml:id="i-9f528dde1da7f94e-9" n="9f528dde">
             <seg n="3e193d54">
               av befintliga slänter och dikesbankar ett nödvändigt led.
             </seg>
@@ -975,6 +994,13 @@
               att komma till rätta med nuvarande missförhållanden på detta område,
               även om svårigheterna därvid äro påtagliga och betydande.
             </seg>
+          </u>
+          <note n="7932a048">
+            Med hänvisning till vad sålunda anförts anhåller jag om andra
+            kammarens tillstånd att till herr statsrådet och chefen för kommunikationsdepartementet
+            få framställa följande frågor:
+          </note>
+          <u who="unknown" xml:id="i-9f528dde1da7f94e-10" n="9f528dde">
             <seg n="bdb13db8">
               1. Har statsrådet uppmärksammat det tillstånd beträffande växtligheten
               som råder på de statens järnvägars banlinjer omslutande banvallarna?
@@ -984,19 +1010,7 @@
               verksamma åtgärder för att få till stånd en bättre och så vitt
               möjligt tillfredsställande ordning i här berörda avseenden?
             </seg>
-            <seg n="f73044cc">
-              av samhällsekonomiska intressen vid
-            </seg>
           </u>
-          <pb n="9" facs="https://betalab.kb.se/prot-1948--ak--10/prot_1948__ak__10-009.jp2/_view"/>
-          <note n="feb746a3">
-            10 Nr 10.
-          </note>
-          <note n="7932a048">
-            Med hänvisning till vad sålunda anförts anhåller jag om andra
-            kammarens tillstånd att till herr statsrådet och chefen för kommunikationsdepartementet
-            få framställa följande frågor:
-          </note>
           <note n="4b5e5b07">
             Denna anhållan bordlades.
           </note>
@@ -1009,13 +1023,18 @@
           <note n="253b1890">
             Interpellation angående tillgodoseende
           </note>
+          <u who="unknown" xml:id="i-9f528dde1da7f94e-11" n="9f528dde">
+            <seg n="f73044cc">
+              av samhällsekonomiska intressen vid
+            </seg>
+          </u>
           <note n="9a4ad366">
             vägbyggnader.
           </note>
           <note type="speaker" n="f6c33d48">
             Ordet lämnades på begäran till herr VIGELSBO, som yttrade:
           </note>
-          <u who="sven_vigelsbo_a65904" xml:id="i-c56c59af381c732c-0" next="i-46c100a51dd8f48d-0" n="6541d8b0">
+          <u who="sven_vigelsbo_a65904" xml:id="i-6541d8b0f233e387-0" next="i-6541d8b0f233e387-6" n="6541d8b0">
             <seg n="42c3d2a2">
               Herr talman! Under de senaste åren, då tillgång på arbetskraft
               varit påtagligt liten, ha i stor utsträckning planerade och även
@@ -1049,7 +1068,7 @@
           <note type="date" n="70a0c9c4">
             Tisdagen den 9 mars 1948.
           </note>
-          <u who="sven_vigelsbo_a65904" xml:id="i-46c100a51dd8f48d-0" prev="i-c56c59af381c732c-0" n="6541d8b0">
+          <u who="sven_vigelsbo_a65904" xml:id="i-6541d8b0f233e387-1" prev="i-6541d8b0f233e387-0" n="6541d8b0">
             <seg n="89cb750f">
               för någonting; dyrbara byggnader, parkanläggningar och industriområden
               spolieras utan minsta betänkande. Kostnaderna bli naturligtvis
@@ -1087,6 +1106,11 @@
               som både kostsamt och opraktiskt. Under alla förhållanden ansågo
               dock ortsborna, att
             </seg>
+          </u>
+          <note n="342f0a20">
+            Nr 10. 11
+          </note>
+          <u who="sven_vigelsbo_a65904" xml:id="i-6541d8b0f233e387-2" prev="i-6541d8b0f233e387-0" n="6541d8b0">
             <seg n="4b56b4b5">
               den gamla vägen ej kunde slopas. Följaktligen överklagades beslutet
               hos länsstyrelsen, som dock avslog besvären. Inte heller hos Kungl.
@@ -1120,6 +1144,12 @@
               den gamla. Den sparsamhet som härmed kommer till uttryck synes
               sålunda vara minst sagt missriktad.
             </seg>
+          </u>
+          <pb n="11" facs="https://betalab.kb.se/prot-1948--ak--10/prot_1948__ak__10-011.jp2/_view"/>
+          <note n="20a6901c">
+            12 Nr 10.
+          </note>
+          <u who="sven_vigelsbo_a65904" xml:id="i-6541d8b0f233e387-3" prev="i-6541d8b0f233e387-0" n="6541d8b0">
             <seg n="53201c44">
               Det bör kanske i detta sammanhang kunna citeras vad en insändare
               i en ortstidning yttrade om detta speciella fall: Det har på dessa
@@ -1156,6 +1186,11 @@
               Nu är inte den föreslagna lösningen av riksvägen vid Sala den
               enda möj-
             </seg>
+          </u>
+          <note type="date" n="70a0c9c4">
+            Tisdagen den 9 mars 1948.
+          </note>
+          <u who="sven_vigelsbo_a65904" xml:id="i-6541d8b0f233e387-4" prev="i-6541d8b0f233e387-0" n="6541d8b0">
             <seg n="520a78a9">
               liga. Tvärtom skulle en västligare dragning av vägen inte bara
               bli rakare och helt läggas utanför Salberga sjukhusområde, den
@@ -1189,6 +1224,12 @@
               kronor som kunna inbesparas. Men framför allt när det gäller en
               riksväg borde även andra hänsyn kunna tagas,
             </seg>
+          </u>
+          <pb n="12" facs="https://betalab.kb.se/prot-1948--ak--10/prot_1948__ak__10-012.jp2/_view"/>
+          <note type="date" n="70a0c9c4">
+            Tisdagen den 9 mars 1948.
+          </note>
+          <u who="sven_vigelsbo_a65904" xml:id="i-6541d8b0f233e387-5" prev="i-6541d8b0f233e387-0" n="6541d8b0">
             <seg n="f1299446">
               såsom frågan om dess friläggning från tät bebyggelse o. s. v.
               När ett förbilligande, såsom i detta fall kan påvisas, är förenat
@@ -1221,6 +1262,24 @@
               sätt än vad nu sker vid vägbyggnadsprogrammens uppgörande även
               samhällsekonomiska intressen bli på ett tillbörligt sätt tillgodosedda?
             </seg>
+          </u>
+          <note n="4b5e5b07">
+            Denna anhållan bordlades.
+          </note>
+          <note n="9f97c1c0">
+            8 11.
+          </note>
+          <note n="798cfd9a">
+            Interpellation angående kostnaderna för slaktgodemännen.
+          </note>
+          <note n="a341ca55">
+            Herr HANSSON i Skediga erhöll på begäran ordet och anförde: Herr
+            tal-
+          </note>
+          <note n="a9697fc6">
+            Nr 10. 13
+          </note>
+          <u who="sven_vigelsbo_a65904" xml:id="i-6541d8b0f233e387-6" prev="i-6541d8b0f233e387-0" n="6541d8b0">
             <seg n="a232ddfa">
               man! I syfte att begränsa den vid sidan av ransoneringen skeende
               handeln med kött och fläsk har livsmedelskommissionen utfärdat
@@ -1259,36 +1318,6 @@
               verksamhet än som utgår enligt nu gällande grunder?
             </seg>
           </u>
-          <note n="342f0a20">
-            Nr 10. 11
-          </note>
-          <pb n="11" facs="https://betalab.kb.se/prot-1948--ak--10/prot_1948__ak__10-011.jp2/_view"/>
-          <note n="20a6901c">
-            12 Nr 10.
-          </note>
-          <note type="date" n="70a0c9c4">
-            Tisdagen den 9 mars 1948.
-          </note>
-          <pb n="12" facs="https://betalab.kb.se/prot-1948--ak--10/prot_1948__ak__10-012.jp2/_view"/>
-          <note type="date" n="70a0c9c4">
-            Tisdagen den 9 mars 1948.
-          </note>
-          <note n="4b5e5b07">
-            Denna anhållan bordlades.
-          </note>
-          <note n="9f97c1c0">
-            8 11.
-          </note>
-          <note n="798cfd9a">
-            Interpellation angående kostnaderna för slaktgodemännen.
-          </note>
-          <note n="a341ca55">
-            Herr HANSSON i Skediga erhöll på begäran ordet och anförde: Herr
-            tal-
-          </note>
-          <note n="a9697fc6">
-            Nr 10. 13
-          </note>
           <note n="4b5e5b07">
             Denna anhållan bordlades.
           </note>
@@ -1308,7 +1337,7 @@
           <note type="speaker" n="11f9307b">
             Herr DICKSON, som yttrade:
           </note>
-          <u who="james_dickson_589af6" xml:id="i-e795d43cf5db8193-0" next="i-8fe4b8a614a2c956-0" n="eae0ed27">
+          <u who="james_dickson_589af6" xml:id="i-eae0ed274cf5bb6e-0" next="i-eae0ed274cf5bb6e-1" n="eae0ed27">
             <seg n="a663d3a8">
               Herr talman! Jag har fått min uppmärksamhet fäst vid att en replik,
               som av mig gavs till herr Senander under debatten den 3 mars,
@@ -1318,10 +1347,10 @@
               icke alldeles vanlig form. Jag har velat föra det på tal, så
             </seg>
           </u>
-          <note n="2998a6f3">
+          <note type="date" n="d5c16eb2">
             Onsdagen den 10 mars 1948 fm.
           </note>
-          <u who="james_dickson_589af6" xml:id="i-8fe4b8a614a2c956-0" prev="i-e795d43cf5db8193-0" n="eae0ed27">
+          <u who="james_dickson_589af6" xml:id="i-eae0ed274cf5bb6e-1" prev="i-eae0ed274cf5bb6e-0" n="eae0ed27">
             <seg n="f5dce20c">
               att framtida hävdaforskare icke skola bibringas den uppfattningen,
               att jag inför den till mig av herr Senander riktade repliken!
@@ -1338,7 +1367,7 @@
           <note n="6b254e02">
             In fidem Gunnar Britth.
           </note>
-          <note n="dde2d697">
+          <note type="date" n="74292072">
             Onsdagen den 10 mars fm. KL. 11 fm.
           </note>
           <note n="12a2709d">
@@ -1347,7 +1376,7 @@
           <note type="speaker" n="442c8b0a">
             Herr statsrådet Sträng avlämnade Kungl. Maj:
           </note>
-          <u who="gunnar_strang_097e01" xml:id="i-99f51a9894a5dd42-0" n="bebbb2a2">
+          <u who="gunnar_strang_097e01" xml:id="i-9f528dde1da7f94e-12" n="bebbb2a2">
             <seg n="8eee712a">
               ts proposition nr 119, angående organisationen av den civila
               sjukvårdsberedskapen.
@@ -1408,7 +1437,7 @@
             Kammaren biföll denna anhållan.
           </note>
           <pb n="14" facs="https://betalab.kb.se/prot-1948--ak--10/prot_1948__ak__10-014.jp2/_view"/>
-          <note n="2998a6f3">
+          <note type="date" n="d5c16eb2">
             Onsdagen den 10 mars 1948 fm.
           </note>
           <note n="74b167e0">
@@ -1454,7 +1483,7 @@
           <note type="speaker" n="6be2e5b6">
             Herr LIEDBERG:
           </note>
-          <u who="gosta_liedberg_8fbab2" xml:id="i-f3cab8751b51da3b-0" next="i-a7e38ded9855fd99-0" n="a0981641">
+          <u who="gosta_liedberg_8fbab2" xml:id="i-a0981641fb5fec31-0" next="i-a0981641fb5fec31-1" n="a0981641">
             <seg n="4ad2e0d5">
               Herr talman! Utrikesutskottet har med synnerlig välvilja behandlat
               denna motion, men det kanske dock kan tillåtas mig att med några
@@ -1471,7 +1500,7 @@
           <note n="95400acd">
             Nr 10. 15
           </note>
-          <u who="gosta_liedberg_8fbab2" xml:id="i-a7e38ded9855fd99-0" prev="i-f3cab8751b51da3b-0" n="a0981641">
+          <u who="gosta_liedberg_8fbab2" xml:id="i-a0981641fb5fec31-1" prev="i-a0981641fb5fec31-0" n="a0981641">
             <seg n="87ccd8f7">
               kanske i lika hög grad av vår valutasituation, som har framtvingat
               den mycket minutiösa reglering som vi för närvarande måste, jag
@@ -1527,7 +1556,7 @@
           <note type="speaker" n="1a5c690d">
             Herr statsrådet Möller Kungl. Maj:
           </note>
-          <u who="gustav_moller_becc38" xml:id="i-b83da340ade9b586-0" n="74ede975">
+          <u who="gustav_moller_becc38" xml:id="i-481fa327ffc2000d-0" n="74ede975">
             <seg n="0911ca20">
               ts propositioner:
             </seg>
@@ -1581,7 +1610,7 @@
           <note type="speaker" n="e172dad4">
             Herr LARSSON i Stockholm:
           </note>
-          <u who="sven_larsson_525c0f" xml:id="i-8455bf4d5577ed54-0" next="i-20b085cd08eb4bcd-0" n="7e5b5411">
+          <u who="sven_larsson_525c0f" xml:id="i-b003acc988953bbd-0" next="i-b003acc988953bbd-8" n="7e5b5411">
             <seg n="91f8480c">
               Herr talman! Vi ha i det svenska statsskicket vissa dyrgripar,
               som bruka tagas fram vid mera högtidliga tillfällen, förkunnas
@@ -1590,10 +1619,10 @@
               livet är det
             </seg>
           </u>
-          <note n="2998a6f3">
+          <note type="date" n="d5c16eb2">
             Onsdagen den 10 mars 1948 fm.
           </note>
-          <u who="sven_larsson_525c0f" xml:id="i-20b085cd08eb4bcd-0" prev="i-8455bf4d5577ed54-0" n="7e5b5411">
+          <u who="sven_larsson_525c0f" xml:id="i-b003acc988953bbd-1" prev="i-b003acc988953bbd-0" n="7e5b5411">
             <seg n="b62f11f0">
               kanske inte så noga med respekten för denna princip, vilken,
               som vi alla veta, i den moderna förvaltningsstaten dagligen trädes
@@ -1630,6 +1659,12 @@
               oantastbara, medborgerliga frihet, deras rätt att hysa och yttra
               vilka åsikter i all-
             </seg>
+          </u>
+          <pb n="16" facs="https://betalab.kb.se/prot-1948--ak--10/prot_1948__ak__10-016.jp2/_view"/>
+          <note type="date" n="d5c16eb2">
+            Onsdagen den 10 mars 1948 fm.
+          </note>
+          <u who="sven_larsson_525c0f" xml:id="i-b003acc988953bbd-2" prev="i-b003acc988953bbd-0" n="7e5b5411">
             <seg n="c2cd472d">
               männa ting som de finna riktiga, så länge de lojalt och tillförlitligen
               fullgöra sin tjänst. Denna bild som jag här i all korthet sökt
@@ -1664,6 +1699,11 @@
               Man har därvid, som vi erinra oss, beslutat att ifrågavarande
               tjänstemän äro skyldiga gå över på avgångs-
             </seg>
+          </u>
+          <note n="4fa23923">
+            Nr 10. 17
+          </note>
+          <u who="sven_larsson_525c0f" xml:id="i-b003acc988953bbd-3" prev="i-b003acc988953bbd-0" n="7e5b5411">
             <seg n="290df0cd">
               stat, när statens intressen så kräva. Det är en utomordentligt
               allmän formulering; jag skall återkomma till möjligheten att ge
@@ -1700,6 +1740,15 @@
               i det svenska rättssamhället. Av dessa skäl ha vi under kriget
               nödgats erkänna nödvändigheten av in-
             </seg>
+          </u>
+          <note n="527cb5a0">
+            2 Andra kammarens protokoll 1948. Nr 10.
+          </note>
+          <pb n="17" facs="https://betalab.kb.se/prot-1948--ak--10/prot_1948__ak__10-017.jp2/_view"/>
+          <note n="22e12ea8">
+            18 Nr 10.
+          </note>
+          <u who="sven_larsson_525c0f" xml:id="i-b003acc988953bbd-4" prev="i-b003acc988953bbd-0" n="7e5b5411">
             <seg n="21c0531f">
               grepp, och jag har själv nödgats vara med om ingrepp emot på
               detta sätt illojala, otillförlitliga, för rikets säkerhet farliga
@@ -1737,6 +1786,11 @@
               de rent mänskliga värderingar, som äro oundgängliga förutsättningar
               för ett fritt politiskt liv, icke erkännas. Skyldigheten att tala
             </seg>
+          </u>
+          <note type="date" n="d5c16eb2">
+            Onsdagen den 10 mars 1948 fm.
+          </note>
+          <u who="sven_larsson_525c0f" xml:id="i-b003acc988953bbd-5" prev="i-b003acc988953bbd-0" n="7e5b5411">
             <seg n="fb4c0c85">
               sanning helt enkelt, respekten för människovärdet, respekten
               för den personliga integriteten och friheten. Det är dessa ting
@@ -1771,6 +1825,12 @@
               försök till sådana formuleringar som framkommo under behandlingen
               av avgångsstaten vid polisen. Jag tror icke,
             </seg>
+          </u>
+          <pb n="18" facs="https://betalab.kb.se/prot-1948--ak--10/prot_1948__ak__10-018.jp2/_view"/>
+          <note type="date" n="d5c16eb2">
+            Onsdagen den 10 mars 1948 fm.
+          </note>
+          <u who="sven_larsson_525c0f" xml:id="i-b003acc988953bbd-6" prev="i-b003acc988953bbd-0" n="7e5b5411">
             <seg n="819895a2">
               att man kan undgå det intrycket att alla sådana formuleringar,
               som ju måste grunda sig på en förmodan om hur vederbörande tjänsteman
@@ -1802,6 +1862,11 @@
               som motionärerna framfört. I utlåtandet har även i enlighet med
               vårt yrkande förutsatts att den utredning som
             </seg>
+          </u>
+          <note n="d880b0c9">
+            Nr 10. 19
+          </note>
+          <u who="sven_larsson_525c0f" xml:id="i-b003acc988953bbd-7" prev="i-b003acc988953bbd-0" n="7e5b5411">
             <seg n="0ff16b21">
               riksdagen flera gånger, 1942 och 1946, begärt om tjänstemännens
               rättsställning skall utsträckas även till de kommunala tjänstemännen.
@@ -1837,6 +1902,12 @@
               fråga i varje fall bör bliva tillräckligt utredd före utgången
               av nästa andrakammarperiod.
             </seg>
+          </u>
+          <pb n="19" facs="https://betalab.kb.se/prot-1948--ak--10/prot_1948__ak__10-019.jp2/_view"/>
+          <note n="e4724566">
+            20 Nr 10.
+          </note>
+          <u who="sven_larsson_525c0f" xml:id="i-b003acc988953bbd-8" prev="i-b003acc988953bbd-0" n="7e5b5411">
             <seg n="ca75a878">
               Alltså efter en första skrivelse i saken år 1942 är utskottet
               tillfredsställt om utredningen blir färdig till 1952, och detta
@@ -1850,34 +1921,6 @@
               hemställan.
             </seg>
           </u>
-          <pb n="16" facs="https://betalab.kb.se/prot-1948--ak--10/prot_1948__ak__10-016.jp2/_view"/>
-          <note n="2998a6f3">
-            Onsdagen den 10 mars 1948 fm.
-          </note>
-          <note n="4fa23923">
-            Nr 10. 17
-          </note>
-          <note n="527cb5a0">
-            2 Andra kammarens protokoll 1948. Nr 10.
-          </note>
-          <pb n="17" facs="https://betalab.kb.se/prot-1948--ak--10/prot_1948__ak__10-017.jp2/_view"/>
-          <note n="22e12ea8">
-            18 Nr 10.
-          </note>
-          <note n="2998a6f3">
-            Onsdagen den 10 mars 1948 fm.
-          </note>
-          <pb n="18" facs="https://betalab.kb.se/prot-1948--ak--10/prot_1948__ak__10-018.jp2/_view"/>
-          <note n="2998a6f3">
-            Onsdagen den 10 mars 1948 fm.
-          </note>
-          <note n="d880b0c9">
-            Nr 10. 19
-          </note>
-          <pb n="19" facs="https://betalab.kb.se/prot-1948--ak--10/prot_1948__ak__10-019.jp2/_view"/>
-          <note n="e4724566">
-            20 Nr 10.
-          </note>
           <note n="85bcaf19">
             Herr förste vice talmannen övertog nu ledningen av kammarens
             förhandlingar.
@@ -1885,7 +1928,7 @@
           <note type="speaker" n="51799be1">
             Herr KYLING:
           </note>
-          <u who="folke_kyling_673c7f" xml:id="i-3a438be9bed3218a-0" next="i-7e77bb89a17472f6-0" n="535eda8f">
+          <u who="folke_kyling_673c7f" xml:id="i-535eda8f03a692df-0" next="i-535eda8f03a692df-1" n="535eda8f">
             <seg n="62651ad5">
               Herr talman! Frågan om en revision av regeringsformens 35 och
               36 $$ har ju varit uppe i riksdagen vid flera tillfällen. Att
@@ -1912,10 +1955,10 @@
               alltså icke att få fram något för-
             </seg>
           </u>
-          <note n="2998a6f3">
+          <note type="date" n="d5c16eb2">
             Onsdagen den 10 mars 1948 fm.
           </note>
-          <u who="folke_kyling_673c7f" xml:id="i-7e77bb89a17472f6-0" prev="i-3a438be9bed3218a-0" n="535eda8f">
+          <u who="folke_kyling_673c7f" xml:id="i-535eda8f03a692df-1" prev="i-535eda8f03a692df-0" n="535eda8f">
             <seg n="2096f83b">
               slag till den här riksdagen, varför utskottet fick finna sig
               i att begära en utredning som borde föreligga färdig före nästa
@@ -1954,7 +1997,7 @@
             utskottets hemställan.
           </note>
           <pb n="20" facs="https://betalab.kb.se/prot-1948--ak--10/prot_1948__ak__10-020.jp2/_view"/>
-          <note n="2998a6f3">
+          <note type="date" n="d5c16eb2">
             Onsdagen den 10 mars 1948 fm.
           </note>
           <note n="9f97c1c0">
@@ -1982,7 +2025,7 @@
           <note type="speaker" n="6c5b4206">
             Herr LJUNGQVIST:
           </note>
-          <u who="gunnar_ljungqvist_cec163" xml:id="i-9ff57a2675864134-0" next="i-1f58637e588c8100-0" n="17f09c17">
+          <u who="gunnar_ljungqvist_cec163" xml:id="i-17f09c1742408849-0" next="i-17f09c1742408849-2" n="17f09c17">
             <seg n="cfe3d268">
               Herr talman! Några ledamöter av denna kammare ha väckt en motion,
               däri hemställes om en viss utvidgning av justitiedepartementets
@@ -2008,7 +2051,7 @@
           <note n="0a92c05a">
             Nr 10. 21
           </note>
-          <u who="gunnar_ljungqvist_cec163" xml:id="i-1f58637e588c8100-0" prev="i-9ff57a2675864134-0" n="17f09c17">
+          <u who="gunnar_ljungqvist_cec163" xml:id="i-17f09c1742408849-1" prev="i-17f09c1742408849-0" n="17f09c17">
             <seg n="9001d994">
               sina ansökningar kunna redovisa längre vistelsetid.
             </seg>
@@ -2047,6 +2090,12 @@
               till sju år och omedelbart till nio år. Är det således justitieministerns
               uppfattning, att det är möjligt att »inom rimlig tid»
             </seg>
+          </u>
+          <pb n="21" facs="https://betalab.kb.se/prot-1948--ak--10/prot_1948__ak__10-021.jp2/_view"/>
+          <note n="776813fb">
+            22: Nr 10.
+          </note>
+          <u who="gunnar_ljungqvist_cec163" xml:id="i-17f09c1742408849-2" prev="i-17f09c1742408849-0" n="17f09c17">
             <seg n="49de9e3c">
               komma ner till sju år? Vad menas i så fall med »rimlig tid»?
               Om det rör sig om exempelvis ett år, vill jag komplettera min
@@ -2074,17 +2123,13 @@
               efter justitieministerns eventuella svar.
             </seg>
           </u>
-          <pb n="21" facs="https://betalab.kb.se/prot-1948--ak--10/prot_1948__ak__10-021.jp2/_view"/>
-          <note n="776813fb">
-            22: Nr 10.
-          </note>
           <note n="a939528d">
             Herr talmannen återtog nu ledningen av förhandlingarna.
           </note>
           <note type="speaker" n="a13f2751">
             Chefen för justitiedepartementet, herr statsrådet ZETTERBERG:
           </note>
-          <u who="unknown" xml:id="i-8046f9d7dd79ae45-2" n="9f528dde">
+          <u who="unknown" xml:id="i-9f528dde1da7f94e-13" n="9f528dde">
             <seg n="8d583478">
               Herr talman! Jag skall be att genast få svara på vad den föregående
               ärade talaren frågade mig. Jag kan kanske — även om det ej är
@@ -2095,10 +2140,10 @@
               då från så-
             </seg>
           </u>
-          <note n="2998a6f3">
+          <note type="date" n="d5c16eb2">
             Onsdagen den 10 mars 1948 fm.
           </note>
-          <u who="unknown" xml:id="i-1b182051095bc94a-2" n="9f528dde">
+          <u who="unknown" xml:id="i-9f528dde1da7f94e-14" n="9f528dde">
             <seg n="98514e91">
               dana utlänningar, som komma från våra nordiska grannländer och
               för vilka lagens minimitid på fem år tillämpas. Under kriget höjdes
@@ -2134,6 +2179,12 @@
               ett par, tre hundra ärenden alltid finnas för att arbetet skall
               kunna löpa jämnt. Sedan balansen sålunda blivit något så
             </seg>
+          </u>
+          <pb n="22" facs="https://betalab.kb.se/prot-1948--ak--10/prot_1948__ak__10-022.jp2/_view"/>
+          <note type="date" n="d5c16eb2">
+            Onsdagen den 10 mars 1948 fm.
+          </note>
+          <u who="unknown" xml:id="i-9f528dde1da7f94e-15" n="9f528dde">
             <seg n="e08bdc0e">
               när liten, ha vi nu för några dagar sedan kunnat sätta ner normaltiden.
               Från justitiedepartementet har ett cirkulär härom utskickats till
@@ -2169,14 +2220,10 @@
               upp denna fråga till övervägande redan i höst.
             </seg>
           </u>
-          <pb n="22" facs="https://betalab.kb.se/prot-1948--ak--10/prot_1948__ak__10-022.jp2/_view"/>
-          <note n="2998a6f3">
-            Onsdagen den 10 mars 1948 fm.
-          </note>
           <note type="speaker" n="6c5b4206">
             Herr LJUNGQVIST:
           </note>
-          <u who="gunnar_ljungqvist_cec163" xml:id="i-9ff57a2675864134-1" next="i-1f58637e588c8100-1" n="17f09c17">
+          <u who="gunnar_ljungqvist_cec163" xml:id="i-17f09c1742408849-3" next="i-17f09c1742408849-5" n="17f09c17">
             <seg n="220ec7b4">
               Herr talman! Det nya skäl som justitieministern före-
             </seg>
@@ -2184,7 +2231,7 @@
           <note n="f421a14e">
             Nr 10. 23
           </note>
-          <u who="gunnar_ljungqvist_cec163" xml:id="i-1f58637e588c8100-1" prev="i-9ff57a2675864134-1" n="17f09c17">
+          <u who="gunnar_ljungqvist_cec163" xml:id="i-17f09c1742408849-4" prev="i-17f09c1742408849-3" n="17f09c17">
             <seg n="b9e12429">
               bragte och som ej redovisats i utskottets motivering, nämligen
               svårigheten för länsstyrelserna att bemästra arbetsbördan, är
@@ -2225,6 +2272,12 @@
               1954. Men då måste man under alla förhållanden vidtaga särskilda
               åtgärder för att möta denna
             </seg>
+          </u>
+          <pb n="23" facs="https://betalab.kb.se/prot-1948--ak--10/prot_1948__ak__10-023.jp2/_view"/>
+          <note n="cae00069">
+            24 Nr 10.
+          </note>
+          <u who="gunnar_ljungqvist_cec163" xml:id="i-17f09c1742408849-5" prev="i-17f09c1742408849-3" n="17f09c17">
             <seg n="5d4425e7">
               arbetsbelastning. En utökning av personalen, som skulle vara
               lämplig i år, om man genast ville sänka tiden till sju år, skulle
@@ -2237,10 +2290,6 @@
               alla tidigare ärenden.
             </seg>
           </u>
-          <pb n="23" facs="https://betalab.kb.se/prot-1948--ak--10/prot_1948__ak__10-023.jp2/_view"/>
-          <note n="cae00069">
-            24 Nr 10.
-          </note>
           <note n="1bad0f12">
             Efter härmed slutad överläggning biföll kammaren utskottets hemställan
             i denna punkt.
@@ -2257,7 +2306,7 @@
           <note type="speaker" n="73b8506a">
             Herr ERIKSSON i Stockholm:
           </note>
-          <u who="einar_eriksson_3a1248" xml:id="i-417a60f5a47859bd-0" n="53bd8c48">
+          <u who="einar_eriksson_3a1248" xml:id="i-5f04e8b10c7b211d-0" n="53bd8c48">
             <seg n="98c3d895">
               Herr talman! Sedan statsutskottet slutbehandlat det ärende som
               omnämnes i den nu föredragna punkten, ha vi fått meddelande, att
@@ -2280,7 +2329,7 @@
           <note n="9a1adb64">
             Punkten 48. Lades till handlingarna.
           </note>
-          <note n="2998a6f3">
+          <note type="date" n="d5c16eb2">
             Onsdagen den 10 mars 1948 fm.
           </note>
           <note n="afa87945">
@@ -2321,7 +2370,7 @@
           <note type="speaker" n="4522133b">
             Herr DICKSON:
           </note>
-          <u who="james_dickson_589af6" xml:id="i-e795d43cf5db8193-1" next="i-8fe4b8a614a2c956-1" n="eae0ed27">
+          <u who="james_dickson_589af6" xml:id="i-eae0ed274cf5bb6e-2" next="i-eae0ed274cf5bb6e-3" n="eae0ed27">
             <seg n="37000cc1">
               Herr talman! I den långa raden av stora utgifter, som vi nu ha
               att behandla under sjunde huvudtiteln, har jag fäst mig vid denna
@@ -2334,10 +2383,10 @@
             </seg>
           </u>
           <pb n="24" facs="https://betalab.kb.se/prot-1948--ak--10/prot_1948__ak__10-024.jp2/_view"/>
-          <note n="2998a6f3">
+          <note type="date" n="d5c16eb2">
             Onsdagen den 10 mars 1948 fm.
           </note>
-          <u who="james_dickson_589af6" xml:id="i-8fe4b8a614a2c956-1" prev="i-e795d43cf5db8193-1" n="eae0ed27">
+          <u who="james_dickson_589af6" xml:id="i-eae0ed274cf5bb6e-3" prev="i-eae0ed274cf5bb6e-2" n="eae0ed27">
             <seg n="4d221bdf">
               slutet av redogörelsen heter det, att nå-
             </seg>
@@ -2374,7 +2423,7 @@
           <note type="speaker" n="73b8506a">
             Herr ERIKSSON i Stockholm:
           </note>
-          <u who="einar_eriksson_3a1248" xml:id="i-5875145d2e2f1b4b-0" next="i-f5450d196b6acfea-0" n="53bd8c48">
+          <u who="einar_eriksson_3a1248" xml:id="i-5f04e8b10c7b211d-1" next="i-5f04e8b10c7b211d-2" n="53bd8c48">
             <seg n="35f61994">
               Jag förstår ju, att den föregående ärade
             </seg>
@@ -2388,7 +2437,7 @@
           <note n="69d0d09d">
             Nr 10. 25
           </note>
-          <u who="einar_eriksson_3a1248" xml:id="i-f5450d196b6acfea-0" prev="i-5875145d2e2f1b4b-0" n="53bd8c48">
+          <u who="einar_eriksson_3a1248" xml:id="i-5f04e8b10c7b211d-2" prev="i-5f04e8b10c7b211d-1" n="53bd8c48">
             <seg n="e4c6573a">
               redning av detta slag. Riksdagen har också tidigare beviljat
               särskilda anslag för ändamålet. Enligt min mening är det sålunda
@@ -2404,7 +2453,7 @@
           <note type="speaker" n="f654975d">
             Herr OLSSON i Gävle:
           </note>
-          <u who="kj_olsson_fad08f" xml:id="i-3b0d55ae66284879-0" n="e865523b">
+          <u who="kj_olsson_fad08f" xml:id="i-9ef3f2fed35f01ca-0" n="e865523b">
             <seg n="8ec7f8b4">
               Herr talman! Jag har ingen anledning att lägga mig i denna debatt,
               men nog anser jag, att herr Dicksons förslag tyder på att han
@@ -2437,7 +2486,7 @@
           <note type="speaker" n="4522133b">
             Herr DICKSON:
           </note>
-          <u who="james_dickson_589af6" xml:id="i-e795d43cf5db8193-2" next="i-8fe4b8a614a2c956-2" n="eae0ed27">
+          <u who="james_dickson_589af6" xml:id="i-eae0ed274cf5bb6e-4" next="i-eae0ed274cf5bb6e-5" n="eae0ed27">
             <seg n="8a9d895c">
               Herr talman! ödet vill visst, att det alltid skall bli herr Olsson
               i Gävle och jag, som skola diskutera dessa saker, och jag har
@@ -2486,7 +2535,7 @@
             nr 33, i anledning av Kungl. Maj:ts proposition angående vissa
             frågor om befrielse från ersättningsskyldighet.
           </note>
-          <note n="2998a6f3">
+          <note type="date" n="d5c16eb2">
             Onsdagen den 10 mars 1948 fm.
           </note>
           <note n="b25fd5a3">
@@ -2495,7 +2544,7 @@
           <note n="8a9a0f44">
             $ 14.
           </note>
-          <u who="james_dickson_589af6" xml:id="i-8fe4b8a614a2c956-2" prev="i-e795d43cf5db8193-2" n="eae0ed27">
+          <u who="james_dickson_589af6" xml:id="i-eae0ed274cf5bb6e-5" prev="i-eae0ed274cf5bb6e-4" n="eae0ed27">
             <seg n="a44fdc3a">
               Anslag under luftfartsfonden.
             </seg>
@@ -2512,7 +2561,7 @@
           <note type="speaker" n="0a1ac263">
             Herr OLSON i Göteborg:
           </note>
-          <u who="erik_olson_47ab83" xml:id="i-2ea7ca38a9e081d5-0" next="i-7afecea80814d675-0" n="ee7c72bb">
+          <u who="erik_olson_47ab83" xml:id="i-ee7c72bb8a7bd0b1-0" next="i-ee7c72bb8a7bd0b1-2" n="ee7c72bb">
             <seg n="ad0ba6c3">
               Herr talman! Jag skall inte uppehålla kammarens tid många minuter,
               eftersom det ju här föreligger ett enhälligt utskottsbetänkande.
@@ -2537,10 +2586,10 @@
             </seg>
           </u>
           <pb n="26" facs="https://betalab.kb.se/prot-1948--ak--10/prot_1948__ak__10-026.jp2/_view"/>
-          <note n="2998a6f3">
+          <note type="date" n="d5c16eb2">
             Onsdagen den 10 mars 1948 fm.
           </note>
-          <u who="erik_olson_47ab83" xml:id="i-7afecea80814d675-0" prev="i-2ea7ca38a9e081d5-0" n="ee7c72bb">
+          <u who="erik_olson_47ab83" xml:id="i-ee7c72bb8a7bd0b1-1" prev="i-ee7c72bb8a7bd0b1-0" n="ee7c72bb">
             <seg n="8f32bce2">
               landa flygfält finna vi att av luftfartsstyrelsen begärda 3 miljoner
               kronor till förbättring av själva flygkapaciteten och till åtgärder
@@ -2575,6 +2624,11 @@
               Utskottet har nu yrkat avslag på motionen, och något resultat
               är ej att för-
             </seg>
+          </u>
+          <note n="0a92c05a">
+            Nr 10. 21
+          </note>
+          <u who="erik_olson_47ab83" xml:id="i-ee7c72bb8a7bd0b1-2" prev="i-ee7c72bb8a7bd0b1-0" n="ee7c72bb">
             <seg n="34b63c44">
               vänta av ett yrkande om bifall till den motion, som väckts i
               denna kammare av mig och mina bänkkamrater hrr Olof Nilsson i
@@ -2584,13 +2638,10 @@
               detta ärende men avstå från att framställa något yrkande.
             </seg>
           </u>
-          <note n="0a92c05a">
-            Nr 10. 21
-          </note>
           <note type="speaker" n="bb91427f">
             Herr ANDERSSON i Malmö:
           </note>
-          <u who="sven_andersson_f5ed18" xml:id="i-1b62b8167265d875-0" next="i-c7e1d0b64d78572b-0" n="1de75209">
+          <u who="sven_andersson_f5ed18" xml:id="i-9e0e4b5aa7d00d06-0" next="i-9e0e4b5aa7d00d06-1" n="1de75209">
             <seg n="339e7b5c">
               Herr talman! Man kan ju mycket väl förstå, att en representant
               för Göteborgs stad ömmar speciellt för det flygfält, som ligger
@@ -2621,7 +2672,7 @@
           <note n="4d85a795">
             28 Nr 10.
           </note>
-          <u who="sven_andersson_f5ed18" xml:id="i-c7e1d0b64d78572b-0" prev="i-1b62b8167265d875-0" n="1de75209">
+          <u who="sven_andersson_f5ed18" xml:id="i-9e0e4b5aa7d00d06-1" prev="i-9e0e4b5aa7d00d06-0" n="1de75209">
             <seg n="b0abb987">
               bättringar som äro absolut nödvändiga. Längre är det i nuvarande
               läge nog inte klokt att gå.
@@ -2641,7 +2692,7 @@
           <note type="speaker" n="87342bd5">
             Herr statsrådet Nilsson avlämnade Kungl. Maj:
           </note>
-          <u who="johan_nilsson_7a04d9" xml:id="i-aa35bd4e7adbbc2a-0" n="cc808c64">
+          <u who="johan_nilsson_7a04d9" xml:id="i-2d1d97d8f07b3a0f-0" n="cc808c64">
             <seg n="9cfa9375">
               ts proposition, nr 135, angående anslag till den sociala hemhjälpsverksamheten
               — för budgetåret 1948/49.
@@ -2686,7 +2737,7 @@
             I en den 30 januari 1948 dagtecknad, till bevillningsutskottet
             hänvisad pro-
           </note>
-          <note n="2998a6f3">
+          <note type="date" n="d5c16eb2">
             Onsdagen den 10 mars 1948 fm.
           </note>
           <note n="c7011a20">
@@ -2733,7 +2784,7 @@
           <note type="speaker" n="0dec1f4e">
             Herr SENANDER:
           </note>
-          <u who="knut_senander_748c72" xml:id="i-d26757aa5966d21a-0" next="i-583a824bc96533f2-0" n="8b96ba00">
+          <u who="knut_senander_748c72" xml:id="i-8b96ba007646e3d1-0" next="i-8b96ba007646e3d1-1" n="8b96ba00">
             <seg n="af9fecaf">
               Herr talman! Jag vill inte hålla något längre försvarstal för
               den motion, som vi ingivit i förevarande fråga. Jag inskränker
@@ -2743,10 +2794,10 @@
             </seg>
           </u>
           <pb n="28" facs="https://betalab.kb.se/prot-1948--ak--10/prot_1948__ak__10-028.jp2/_view"/>
-          <note n="2998a6f3">
+          <note type="date" n="d5c16eb2">
             Onsdagen den 10 mars 1948 fm.
           </note>
-          <u who="knut_senander_748c72" xml:id="i-583a824bc96533f2-0" prev="i-d26757aa5966d21a-0" n="8b96ba00">
+          <u who="knut_senander_748c72" xml:id="i-8b96ba007646e3d1-1" prev="i-8b96ba007646e3d1-0" n="8b96ba00">
             <seg n="7440f653">
               motionen, där vi särskilt åberopat det resonemang som förts av
               förberedande instanser och av generalpoststyrelsen själv. Jag
@@ -2757,7 +2808,7 @@
           <note type="speaker" n="c6a930c3">
             Herr HAGBERG i Malmö:
           </note>
-          <u who="hilding_hagberg_a6b9a0" xml:id="i-65e191c41b642255-0" next="i-740875a4d9a10c30-0" n="043f6ac6">
+          <u who="hilding_hagberg_a6b9a0" xml:id="i-043f6ac6b11b8529-0" next="i-043f6ac6b11b8529-4" n="043f6ac6">
             <seg n="ab13ec68">
               Herr talman! Till detta bevillningsutskottets utlåtande har fogats
               en blank reservation. Då jag är en av undertecknarna av denna
@@ -2790,7 +2841,7 @@
           <note n="8851e8c1">
             Nr 10. 29
           </note>
-          <u who="hilding_hagberg_a6b9a0" xml:id="i-740875a4d9a10c30-0" prev="i-65e191c41b642255-0" n="043f6ac6">
+          <u who="hilding_hagberg_a6b9a0" xml:id="i-043f6ac6b11b8529-1" prev="i-043f6ac6b11b8529-0" n="043f6ac6">
             <seg n="09f36d7d">
               vande verksamhet över huvud taget kunna komma att få. Därför
               menar priskontrollnämnden, att en höjning av postavgifterna i
@@ -2827,6 +2878,12 @@
               Jag för min del försökte efter fattig förmåga att argumentera
               emot den
             </seg>
+          </u>
+          <pb n="29" facs="https://betalab.kb.se/prot-1948--ak--10/prot_1948__ak__10-029.jp2/_view"/>
+          <note n="0f7f1ea3">
+            30 Nr 10.
+          </note>
+          <u who="hilding_hagberg_a6b9a0" xml:id="i-043f6ac6b11b8529-2" prev="i-043f6ac6b11b8529-0" n="043f6ac6">
             <seg n="bfca6cf4">
               ifrågasatta höjningen. Jag menade nämligen, att den skulle innebära
               en ytterligare belastning på affärslivet. Jag har tyvärr, måste
@@ -2865,6 +2922,11 @@
               som på sina håll, enligt vad jag försport, inom näringslivet har
               föranlett både undran och jag tror också jag kan använda or-
             </seg>
+          </u>
+          <note type="date" n="d5c16eb2">
+            Onsdagen den 10 mars 1948 fm.
+          </note>
+          <u who="hilding_hagberg_a6b9a0" xml:id="i-043f6ac6b11b8529-3" prev="i-043f6ac6b11b8529-0" n="043f6ac6">
             <seg n="d3c5e129">
               det oro. Det talas i departementschefens diktamen om att de här
               ifrågasatta höjningarna ha avvägts så »att postverket utöver normal
@@ -2900,6 +2962,12 @@
               alltjämt att snurra.
             </seg>
             <seg n="047141ce"/>
+          </u>
+          <pb n="30" facs="https://betalab.kb.se/prot-1948--ak--10/prot_1948__ak__10-030.jp2/_view"/>
+          <note type="date" n="d5c16eb2">
+            Onsdagen den 10 mars 1948 fm.
+          </note>
+          <u who="hilding_hagberg_a6b9a0" xml:id="i-043f6ac6b11b8529-4" prev="i-043f6ac6b11b8529-0" n="043f6ac6">
             <seg n="5b62c8c3">
               Till slut, herr talman, endast ytterligare en liten anmärkning.
               Riksdagen har — det är ju ingen nyhet — vid skilda tillfällen
@@ -2922,21 +2990,10 @@
               Jag har intet yrkande.
             </seg>
           </u>
-          <pb n="29" facs="https://betalab.kb.se/prot-1948--ak--10/prot_1948__ak__10-029.jp2/_view"/>
-          <note n="0f7f1ea3">
-            30 Nr 10.
-          </note>
-          <note n="2998a6f3">
-            Onsdagen den 10 mars 1948 fm.
-          </note>
-          <pb n="30" facs="https://betalab.kb.se/prot-1948--ak--10/prot_1948__ak__10-030.jp2/_view"/>
-          <note n="2998a6f3">
-            Onsdagen den 10 mars 1948 fm.
-          </note>
           <note type="speaker" n="e11fc5b4">
             Herr BJÖRKLUND:
           </note>
-          <u who="john_bjork_006001" xml:id="i-1273bdaf7d1ae426-0" next="i-8271edf9495fa880-0" n="c3b2b5fe">
+          <u who="john_bjork_006001" xml:id="i-b26a40964db35d9c-0" next="i-b26a40964db35d9c-2" n="c3b2b5fe">
             <seg n="eb1b1ad8">
               Herr talman! Då herr Hagberg i Malmö inte framställde något yrkande,
               hade jag inte behövt begära ordet, om inte herr Senander yrkat
@@ -2960,7 +3017,7 @@
           <note n="8f97d392">
             Nr 10. 31
           </note>
-          <u who="john_bjork_006001" xml:id="i-8271edf9495fa880-0" prev="i-1273bdaf7d1ae426-0" n="c3b2b5fe">
+          <u who="john_bjork_006001" xml:id="i-b26a40964db35d9c-1" prev="i-b26a40964db35d9c-0" n="c3b2b5fe">
             <seg n="59aa8c11">
               verkets ekonomiska ställning i framtiden varit nödsakad att komma
               med en höjning på något annat porto. Såsom alla veta kommer postverket
@@ -2999,6 +3056,12 @@
               kan utgöra ett led i kampen mot den allmänna fördyringen. Jag
               skall inte
             </seg>
+          </u>
+          <pb n="31" facs="https://betalab.kb.se/prot-1948--ak--10/prot_1948__ak__10-031.jp2/_view"/>
+          <note n="18c2efb3">
+            32 Nr 10.
+          </note>
+          <u who="john_bjork_006001" xml:id="i-b26a40964db35d9c-2" prev="i-b26a40964db35d9c-0" n="c3b2b5fe">
             <seg n="968bc1df">
               förneka, att en sådan höjning är en skatt, som kanske inte skulle
               vara alldeles nödvändig för ögonblicket, om den inte utgjorde
@@ -3014,10 +3077,6 @@
               att få yrka bifall till utskottets hemställan.
             </seg>
           </u>
-          <pb n="31" facs="https://betalab.kb.se/prot-1948--ak--10/prot_1948__ak__10-031.jp2/_view"/>
-          <note n="18c2efb3">
-            32 Nr 10.
-          </note>
           <note n="7fc8b109">
             Sedan överläggningen härmed förklarats avslutad, gav herr talmannen
             propositioner dels på bifall till utskottets förevarande hemställan
@@ -3053,7 +3112,7 @@
           <note type="speaker" n="c5e03330">
             Herr statsrådet Vougt Kungl. Maj:
           </note>
-          <u who="allan_vougt_9dd505" xml:id="i-0d9eaf05798c10ee-0" next="i-433bf9c8bb89d741-0" n="ff304cd0">
+          <u who="allan_vougt_9dd505" xml:id="i-ff304cd03ffe69a9-0" next="i-ff304cd03ffe69a9-1" n="ff304cd0">
             <seg n="1afd414c">
               ts propositioner: nr 109, angående överlåtelse till Åkro-
             </seg>
@@ -3061,10 +3120,10 @@
           <note n="9c31bbf2">
             avlämnade
           </note>
-          <note n="2998a6f3">
+          <note type="date" n="d5c16eb2">
             Onsdagen den 10 mars 1948 fm.
           </note>
-          <u who="allan_vougt_9dd505" xml:id="i-433bf9c8bb89d741-0" prev="i-0d9eaf05798c10ee-0" n="ff304cd0">
+          <u who="allan_vougt_9dd505" xml:id="i-ff304cd03ffe69a9-1" prev="i-ff304cd03ffe69a9-0" n="ff304cd0">
             <seg n="9d22aa2d">
               kens vägsamfällighet av en lantförsvaret tillhörig bro över Kalix
               älv; och
@@ -3112,7 +3171,7 @@
           <note type="speaker" n="7219628e">
             Herr WIBERG:
           </note>
-          <u who="ake_wiberg_3e83f4" xml:id="i-0511e406130b6702-0" next="i-7aa7a94c8b096831-0" n="b7347a56">
+          <u who="ake_wiberg_3e83f4" xml:id="i-b7347a565a3eb25f-0" next="i-b7347a565a3eb25f-8" n="b7347a56">
             <seg n="6c68d169">
               Herr talman! Bankoutskottets dechargebetänkande i år är strängt
               taget ett ganska märkligt dokument. Det innehåller ett majoritetsutlåtande
@@ -3127,10 +3186,10 @@
             </seg>
           </u>
           <pb n="32" facs="https://betalab.kb.se/prot-1948--ak--10/prot_1948__ak__10-032.jp2/_view"/>
-          <note n="2998a6f3">
+          <note type="date" n="d5c16eb2">
             Onsdagen den 10 mars 1948 fm.
           </note>
-          <u who="ake_wiberg_3e83f4" xml:id="i-7aa7a94c8b096831-0" prev="i-0511e406130b6702-0" n="b7347a56">
+          <u who="ake_wiberg_3e83f4" xml:id="i-b7347a565a3eb25f-1" prev="i-b7347a565a3eb25f-0" n="b7347a56">
             <seg n="71f9e292">
               ske rättare sagt mot utevaron av en sådan finanspolitik, som
               vårt land i allra högsta grad behöver.
@@ -3165,6 +3224,11 @@
               också känt oss bundna i fråga om även sådana åtgärder som i och
               för sig
             </seg>
+          </u>
+          <note n="1776d569">
+            Nr 10. 33
+          </note>
+          <u who="ake_wiberg_3e83f4" xml:id="i-b7347a565a3eb25f-2" prev="i-b7347a565a3eb25f-0" n="b7347a56">
             <seg n="130886c5">
               kanske te sig något märkliga, t. ex. de fortsatta stora obligationsköpen,
               och detta även vid en tidpunkt, då en stark minoritet inom fullmäktige
@@ -3199,6 +3263,15 @@
               valuta och av vårt penningoch kreditväsende. Denna uppgift ankommer
               på det organ, som riksdagen har för detta ändamål och som
             </seg>
+          </u>
+          <note n="9bd6f180">
+            3 — Andra kammarens protokoll 1948. Nr 10.
+          </note>
+          <pb n="33" facs="https://betalab.kb.se/prot-1948--ak--10/prot_1948__ak__10-033.jp2/_view"/>
+          <note n="55e2f84f">
+            34 Nr 10.
+          </note>
+          <u who="ake_wiberg_3e83f4" xml:id="i-b7347a565a3eb25f-3" prev="i-b7347a565a3eb25f-0" n="b7347a56">
             <seg n="6dc37129">
               fördenskull har utrustats med erforderlig sakkunskap och som
               kan taga kontakter utåt med näringsliv och finansiell expertis,
@@ -3236,6 +3309,11 @@
               vad regeringen skall svara i anledning av de i form naturligtvis
               enligt gammal parlamentarisk sed milda men i sak nog så besvärliga
             </seg>
+          </u>
+          <note type="date" n="d5c16eb2">
+            Onsdagen den 10 mars 1948 fm.
+          </note>
+          <u who="ake_wiberg_3e83f4" xml:id="i-b7347a565a3eb25f-4" prev="i-b7347a565a3eb25f-0" n="b7347a56">
             <seg n="020ff248">
               påpekanden som såväl majoriteten som reservanterna ha gjort.
               Den faktiska utvecklingen kan man icke komma ifrån. Vårt valutaläge,
@@ -3267,6 +3345,12 @@
               att vi behövde låna. Regeringen har icke ens haft en överblick
               över vad licensgivning och köp enligt frilistan betytt i betalningsåtaganden
             </seg>
+          </u>
+          <pb n="34" facs="https://betalab.kb.se/prot-1948--ak--10/prot_1948__ak__10-034.jp2/_view"/>
+          <note type="date" n="d5c16eb2">
+            Onsdagen den 10 mars 1948 fm.
+          </note>
+          <u who="ake_wiberg_3e83f4" xml:id="i-b7347a565a3eb25f-5" prev="i-b7347a565a3eb25f-0" n="b7347a56">
             <seg n="4a2d7f73">
               för vårt land. Först helt nyligen har i detta hänseende ett tillfredsställande
               system införts, som möjliggör en Överblick. Det nya amerikanska
@@ -3303,6 +3387,11 @@
               men dock icke fullt så nödvändiga och viktiga ting? Har icke finansministerns
               tid i alltför hög grad upptagits av skattepolitik och fördelnings-
             </seg>
+          </u>
+          <note n="6778212c">
+            Nr 10. 35
+          </note>
+          <u who="ake_wiberg_3e83f4" xml:id="i-b7347a565a3eb25f-6" prev="i-b7347a565a3eb25f-0" n="b7347a56">
             <seg n="f822585d">
               problem? Ligger det ändå icke en viss sanning i att vi denna
               tid haft kanske icke så mycket en finansminister som en skatteminister?
@@ -3340,6 +3429,12 @@
               Jag skulle för min personliga del vilja göra ett litet tillägg
               i detta sammanhang. Jag kan icke låta bli att
             </seg>
+          </u>
+          <pb n="35" facs="https://betalab.kb.se/prot-1948--ak--10/prot_1948__ak__10-035.jp2/_view"/>
+          <note n="485a24b7">
+            36 Nr 10.
+          </note>
+          <u who="ake_wiberg_3e83f4" xml:id="i-b7347a565a3eb25f-7" prev="i-b7347a565a3eb25f-0" n="b7347a56">
             <seg n="88b15f63">
               erinra om den utrikespolitiska utvecklingen, som enligt mitt
               bedömande gör det i allra högsta grad önskvärt att söka överbrygga
@@ -3373,6 +3468,11 @@
               återvinner förtroendet för den svenska kronan. Kommer detta förtroende
               till stånd, skola vi finna, att de olyckliga följd-
             </seg>
+          </u>
+          <note type="date" n="d5c16eb2">
+            Onsdagen den 10 mars 1948 fm.
+          </note>
+          <u who="ake_wiberg_3e83f4" xml:id="i-b7347a565a3eb25f-8" prev="i-b7347a565a3eb25f-0" n="b7347a56">
             <seg n="da9ba8b3">
               verkningar, som inflationskonjunkturen på olika områden har fört
               med sig, icke minst på valutaområdet, successivt komma att försvinna.
@@ -3382,37 +3482,10 @@
               gemensamma ansträngningar, hårt arbete och sparsamhet.
             </seg>
           </u>
-          <note n="1776d569">
-            Nr 10. 33
-          </note>
-          <note n="9bd6f180">
-            3 — Andra kammarens protokoll 1948. Nr 10.
-          </note>
-          <pb n="33" facs="https://betalab.kb.se/prot-1948--ak--10/prot_1948__ak__10-033.jp2/_view"/>
-          <note n="55e2f84f">
-            34 Nr 10.
-          </note>
-          <note n="2998a6f3">
-            Onsdagen den 10 mars 1948 fm.
-          </note>
-          <pb n="34" facs="https://betalab.kb.se/prot-1948--ak--10/prot_1948__ak__10-034.jp2/_view"/>
-          <note n="2998a6f3">
-            Onsdagen den 10 mars 1948 fm.
-          </note>
-          <note n="6778212c">
-            Nr 10. 35
-          </note>
-          <pb n="35" facs="https://betalab.kb.se/prot-1948--ak--10/prot_1948__ak__10-035.jp2/_view"/>
-          <note n="485a24b7">
-            36 Nr 10.
-          </note>
-          <note n="2998a6f3">
-            Onsdagen den 10 mars 1948 fm.
-          </note>
           <note type="speaker" n="7c9452b4">
             Herr MOLANDER:
           </note>
-          <u who="_seth_molander_0526a4" xml:id="i-21ade7fab547e667-0" next="i-d54c3b0a8ec328db-0" n="b39c7a0d">
+          <u who="_seth_molander_0526a4" xml:id="i-2beebd5f3c0d6e45-0" next="i-2beebd5f3c0d6e45-5" n="b39c7a0d">
             <seg n="517fc15b">
               Herr talman! Även i år innehåller utlåtandet rörande granskning
               av riksbankens styrelse och förvaltning för det gångna året viktiga
@@ -3443,10 +3516,10 @@
             </seg>
           </u>
           <pb n="36" facs="https://betalab.kb.se/prot-1948--ak--10/prot_1948__ak__10-036.jp2/_view"/>
-          <note n="2998a6f3">
+          <note type="date" n="d5c16eb2">
             Onsdagen den 10 mars 1948 fm.
           </note>
-          <u who="_seth_molander_0526a4" xml:id="i-d54c3b0a8ec328db-0" prev="i-21ade7fab547e667-0" n="b39c7a0d">
+          <u who="_seth_molander_0526a4" xml:id="i-2beebd5f3c0d6e45-1" prev="i-2beebd5f3c0d6e45-0" n="b39c7a0d">
             <seg n="726c657a">
               tet, ifrån högern och folkpartiet, dela emellertid icke denna
               uppfattning. Deras argumentering, särskilt i fråga om importen
@@ -3481,6 +3554,11 @@
               likviditetssvårighet, som i hög grad bottnar i internationella
               förhållanden, över vilka vi icke alls råda. Det bör också i
             </seg>
+          </u>
+          <note n="4f4a8b65">
+            Nr 10. 37
+          </note>
+          <u who="_seth_molander_0526a4" xml:id="i-2beebd5f3c0d6e45-2" prev="i-2beebd5f3c0d6e45-0" n="b39c7a0d">
             <seg n="c4d229b6">
               detta sammanhang fastslås, att våra betalningsmöjligheter gentemot
               utlandet, om vi se dem på en smula längre sikt, måste anses vara
@@ -3515,6 +3593,12 @@
               lån på några tiotal miljoner dollar — så finna vi, att de på grund
               av villkorens rigorösa innehåll icke kunnat ut-
             </seg>
+          </u>
+          <pb n="37" facs="https://betalab.kb.se/prot-1948--ak--10/prot_1948__ak__10-037.jp2/_view"/>
+          <note n="ea023035">
+            38 Nr 10.
+          </note>
+          <u who="_seth_molander_0526a4" xml:id="i-2beebd5f3c0d6e45-3" prev="i-2beebd5f3c0d6e45-0" n="b39c7a0d">
             <seg n="242b9a2b">
               nyttja dessa lån. Det förefaller mycket sannolikt, att detsamma
               skulle ha kommit att gälla också för ett lån, som vi hade kunnat
@@ -3549,6 +3633,11 @@
               skulle komma att slå igenom praktiskt taget på alla områden. Och
               om hyrorna och livsmedelspriserna stiga ytterligare, så är det
             </seg>
+          </u>
+          <note type="date" n="d5c16eb2">
+            Onsdagen den 10 mars 1948 fm.
+          </note>
+          <u who="_seth_molander_0526a4" xml:id="i-2beebd5f3c0d6e45-4" prev="i-2beebd5f3c0d6e45-0" n="b39c7a0d">
             <seg n="172ebf85">
               väl väldigt svårt att kräva av löntagarna, att de fortfarande
               skulle tiga stilla och finna sig i en högst väsentlig standardsänkning.
@@ -3583,6 +3672,12 @@
               att se, om den andra sidan, den som representerar investeringsköpkraften,
               den köpkraft, som utgör det mest aktiva ele-
             </seg>
+          </u>
+          <pb n="38" facs="https://betalab.kb.se/prot-1948--ak--10/prot_1948__ak__10-038.jp2/_view"/>
+          <note type="date" n="d5c16eb2">
+            Onsdagen den 10 mars 1948 fm.
+          </note>
+          <u who="_seth_molander_0526a4" xml:id="i-2beebd5f3c0d6e45-5" prev="i-2beebd5f3c0d6e45-0" n="b39c7a0d">
             <seg n="13926c5d">
               mentet i efterfrågan, också är beredd till uppoffringar och lika
               angelägen att medverka till en återhållande eller i varje fall
@@ -3616,20 +3711,6 @@
               Herr talman! Jag ber att få yrka bifall till utskottets förslag.
             </seg>
           </u>
-          <note n="4f4a8b65">
-            Nr 10. 37
-          </note>
-          <pb n="37" facs="https://betalab.kb.se/prot-1948--ak--10/prot_1948__ak__10-037.jp2/_view"/>
-          <note n="ea023035">
-            38 Nr 10.
-          </note>
-          <note n="2998a6f3">
-            Onsdagen den 10 mars 1948 fm.
-          </note>
-          <pb n="38" facs="https://betalab.kb.se/prot-1948--ak--10/prot_1948__ak__10-038.jp2/_view"/>
-          <note n="2998a6f3">
-            Onsdagen den 10 mars 1948 fm.
-          </note>
           <note n="2f9f1ce7">
             Under detta anförande övertog herr förste vice talmannen ånyo
             ledningen av förhandlingarna.
@@ -3640,7 +3721,7 @@
           <note type="speaker" n="1c3516d8">
             Herr WIBERG erhöll på begäran ordet för kort genmäle och yttrade:
           </note>
-          <u who="ake_wiberg_3e83f4" xml:id="i-46474c334a80446f-0" n="b7347a56">
+          <u who="ake_wiberg_3e83f4" xml:id="i-b7347a565a3eb25f-9" n="b7347a56">
             <seg n="fb6d2d9d">
               Herr talman! Den föregående ärade talaren framhöll, att en räntestabilisering
               utgör en av hörnstenarna i den pågående kampen mot inflationen.
@@ -3674,7 +3755,7 @@
           <note type="speaker" n="4a32b6e9">
             Herr HALL:
           </note>
-          <u who="david_hall_faa3ea" xml:id="i-0dc720cd97f98882-0" next="i-4df14d0914512f32-0" n="78d66d24">
+          <u who="david_hall_faa3ea" xml:id="i-78d66d2497143dbc-0" next="i-78d66d2497143dbc-12" n="78d66d24">
             <seg n="d6b91d48">
               Herr talman! Reservanternas talesman, herr Wiberg, började sitt
               anförande med att konstatera, att utskottsutlåtandet var en försvarsskrift
@@ -3687,7 +3768,7 @@
           <note n="0d6eb3ef">
             40 Nr 10.
           </note>
-          <u who="david_hall_faa3ea" xml:id="i-4df14d0914512f32-0" prev="i-0dc720cd97f98882-0" n="78d66d24">
+          <u who="david_hall_faa3ea" xml:id="i-78d66d2497143dbc-1" prev="i-78d66d2497143dbc-0" n="78d66d24">
             <seg n="d57c053f">
               valtning under året. Huruvida utskottsutlåtandet skall läsas
               som en kritik mot regeringen eller ej, finner åtminstone jag för
@@ -3724,6 +3805,11 @@
               uppfattning om penningpolitiken, vilket hittills varit fallet
               under hela den tid som är aktuell,
             </seg>
+          </u>
+          <note type="date" n="d5c16eb2">
+            Onsdagen den 10 mars 1948 fm.
+          </note>
+          <u who="david_hall_faa3ea" xml:id="i-78d66d2497143dbc-2" prev="i-78d66d2497143dbc-0" n="78d66d24">
             <seg n="f185f062">
               uppkommer över huvud taget icke frågan om någon schism mellan
               riksbanken och Kungl. Maj:t. I och med att bankofullmäktige fullgöra
@@ -3757,6 +3843,12 @@
               att den sistnämnda uppfattningen är den i riksdagen förhärskande
               och den som bankofullmäkige haft besked att full-
             </seg>
+          </u>
+          <pb n="40" facs="https://betalab.kb.se/prot-1948--ak--10/prot_1948__ak__10-040.jp2/_view"/>
+          <note type="date" n="d5c16eb2">
+            Onsdagen den 10 mars 1948 fm.
+          </note>
+          <u who="david_hall_faa3ea" xml:id="i-78d66d2497143dbc-3" prev="i-78d66d2497143dbc-0" n="78d66d24">
             <seg n="9400dd31">
               följa, blir perspektivet litet klarare över vad som hänt och
               vad som händer.
@@ -3794,6 +3886,11 @@
               importen, som skedde efter kriget, var — därom tror jag alla äro
               eniga — framkallad av mycket starka behov inom det svenska nä-
             </seg>
+          </u>
+          <note n="9e483da1">
+            Nr 10. 41
+          </note>
+          <u who="david_hall_faa3ea" xml:id="i-78d66d2497143dbc-4" prev="i-78d66d2497143dbc-0" n="78d66d24">
             <seg n="7f55f3db">
               ringslivet. Inom handeln hade man brist på alla slags lager,
               vilket betydde att handeln arbetade trögt och otympligt. Det var
@@ -3826,6 +3923,12 @@
               utan under fem år. Det är en fråga som kritikerna skola ställa
               till sig själva,
             </seg>
+          </u>
+          <pb n="41" facs="https://betalab.kb.se/prot-1948--ak--10/prot_1948__ak__10-041.jp2/_view"/>
+          <note n="14cc3fdb">
+            42 Nr 10.
+          </note>
+          <u who="david_hall_faa3ea" xml:id="i-78d66d2497143dbc-5" prev="i-78d66d2497143dbc-0" n="78d66d24">
             <seg n="c9638e55">
               när de taga upp detta problem. Jag kan göra det med ganska rent
               samvete, eftersom jag var en av de första som påyrkade en mera
@@ -3863,6 +3966,11 @@
               sin valutaställning, även om åtgärderna ur den egna statens synpunkt
               kunna
             </seg>
+          </u>
+          <note type="date" n="d5c16eb2">
+            Onsdagen den 10 mars 1948 fm.
+          </note>
+          <u who="david_hall_faa3ea" xml:id="i-78d66d2497143dbc-6" prev="i-78d66d2497143dbc-0" n="78d66d24">
             <seg n="89b184f6">
               anses vara högst nödvändiga och aktuella. Först i januari 1948
               ha sålunda förhandlingarna om tillämpningen av det svensk-amerikanska
@@ -3900,6 +4008,12 @@
               Den andra anmärkningspunkten — den kommer kanske inte fram så
               tydligt i reservationen till föreliggande ut-
             </seg>
+          </u>
+          <pb n="42" facs="https://betalab.kb.se/prot-1948--ak--10/prot_1948__ak__10-042.jp2/_view"/>
+          <note type="date" n="d5c16eb2">
+            Onsdagen den 10 mars 1948 fm.
+          </note>
+          <u who="david_hall_faa3ea" xml:id="i-78d66d2497143dbc-7" prev="i-78d66d2497143dbc-0" n="78d66d24">
             <seg n="b10cadce">
               skottsutlåtande, och i själva utlåtandet skymtar den knappast
               som något bekymmer alls — är riksbankens stödköp av obligationer.
@@ -3933,6 +4047,11 @@
               i riksgäldskontoret. Det är därför rimligt att nämnda summa betraktas
               som skild från den övriga summan av skattkam-
             </seg>
+          </u>
+          <note n="4d6246cf">
+            Nr 10. 43
+          </note>
+          <u who="david_hall_faa3ea" xml:id="i-78d66d2497143dbc-8" prev="i-78d66d2497143dbc-0" n="78d66d24">
             <seg n="19cb45e5">
               marväxlar och obligationer. Den ursprungliga summan på 272 miljarder
               kronor blir efter detta avdrag genast något mindre avskräckande
@@ -3971,6 +4090,12 @@
               vi samtidigt haft en ström av pengar i motsatt riktning, från
               allmänheten till banken,
             </seg>
+          </u>
+          <pb n="43" facs="https://betalab.kb.se/prot-1948--ak--10/prot_1948__ak__10-043.jp2/_view"/>
+          <note n="fc8e6b76">
+            44 Nr 10.
+          </note>
+          <u who="david_hall_faa3ea" xml:id="i-78d66d2497143dbc-9" prev="i-78d66d2497143dbc-0" n="78d66d24">
             <seg n="77fc2e36">
               från näringslivet till riksbanken. Denna ström av pengar har
               riksbanken tagit emot för de utländska valutor den sålt. I dagens
@@ -4010,6 +4135,11 @@
               är så orörligt som man ibland framhållit. Vissa räntor ha befunnit
               sig i stigande, och detta har
             </seg>
+          </u>
+          <note type="date" n="d5c16eb2">
+            Onsdagen den 10 mars 1948 fm.
+          </note>
+          <u who="david_hall_faa3ea" xml:id="i-78d66d2497143dbc-10" prev="i-78d66d2497143dbc-0" n="78d66d24">
             <seg n="33f7ed3a">
               skett med riksbankens medgivande. Där har alltså förekommit någon
               anpassning. Men det angelägna har varit att hålla inteckningsräntorna
@@ -4042,6 +4172,12 @@
               i första hand drabba sådana ting, som icke äro oumbärliga. En
               dylik upp-
             </seg>
+          </u>
+          <pb n="44" facs="https://betalab.kb.se/prot-1948--ak--10/prot_1948__ak__10-044.jp2/_view"/>
+          <note type="date" n="d5c16eb2">
+            Onsdagen den 10 mars 1948 fm.
+          </note>
+          <u who="david_hall_faa3ea" xml:id="i-78d66d2497143dbc-11" prev="i-78d66d2497143dbc-0" n="78d66d24">
             <seg n="f6f68f4d">
               bromsning kan också otvivelaktigt ske utan att vårt ekonomiska
               liv tar allvarlig skada.
@@ -4077,6 +4213,11 @@
               än nu, då vi behandla granskningen av riksbankens och riksgäldskontorets
               styrelse och förvaltning för föregående
             </seg>
+          </u>
+          <note n="34f249a3">
+            Nr 10. 45
+          </note>
+          <u who="david_hall_faa3ea" xml:id="i-78d66d2497143dbc-12" prev="i-78d66d2497143dbc-0" n="78d66d24">
             <seg n="55640565">
               år, utveckla de synpunkter som för den närmaste tiden behöva
               anläggas på den ekonomiska politiken.
@@ -4098,48 +4239,10 @@
               alltid är förståndigt med litet eftertanke.
             </seg>
           </u>
-          <note n="2998a6f3">
-            Onsdagen den 10 mars 1948 fm.
-          </note>
-          <pb n="40" facs="https://betalab.kb.se/prot-1948--ak--10/prot_1948__ak__10-040.jp2/_view"/>
-          <note n="2998a6f3">
-            Onsdagen den 10 mars 1948 fm.
-          </note>
-          <note n="9e483da1">
-            Nr 10. 41
-          </note>
-          <pb n="41" facs="https://betalab.kb.se/prot-1948--ak--10/prot_1948__ak__10-041.jp2/_view"/>
-          <note n="14cc3fdb">
-            42 Nr 10.
-          </note>
-          <note n="2998a6f3">
-            Onsdagen den 10 mars 1948 fm.
-          </note>
-          <pb n="42" facs="https://betalab.kb.se/prot-1948--ak--10/prot_1948__ak__10-042.jp2/_view"/>
-          <note n="2998a6f3">
-            Onsdagen den 10 mars 1948 fm.
-          </note>
-          <note n="4d6246cf">
-            Nr 10. 43
-          </note>
-          <pb n="43" facs="https://betalab.kb.se/prot-1948--ak--10/prot_1948__ak__10-043.jp2/_view"/>
-          <note n="fc8e6b76">
-            44 Nr 10.
-          </note>
-          <note n="2998a6f3">
-            Onsdagen den 10 mars 1948 fm.
-          </note>
-          <pb n="44" facs="https://betalab.kb.se/prot-1948--ak--10/prot_1948__ak__10-044.jp2/_view"/>
-          <note n="2998a6f3">
-            Onsdagen den 10 mars 1948 fm.
-          </note>
-          <note n="34f249a3">
-            Nr 10. 45
-          </note>
           <note type="speaker" n="1c3516d8">
             Herr WIBERG erhöll på begäran ordet för kort genmäle och yttrade:
           </note>
-          <u who="ake_wiberg_3e83f4" xml:id="i-0511e406130b6702-1" next="i-7aa7a94c8b096831-1" n="b7347a56">
+          <u who="ake_wiberg_3e83f4" xml:id="i-b7347a565a3eb25f-10" next="i-b7347a565a3eb25f-12" n="b7347a56">
             <seg n="f9182ef3">
               Herr talman! Det är påfallande i hur försiktiga ordalag den föregående
               ärade talaren framförde sitt försvar av fullmäktigemajoritetens
@@ -4161,7 +4264,7 @@
           <note n="8e4fd863">
             46 Nr 10.
           </note>
-          <u who="ake_wiberg_3e83f4" xml:id="i-7aa7a94c8b096831-1" prev="i-0511e406130b6702-1" n="b7347a56">
+          <u who="ake_wiberg_3e83f4" xml:id="i-b7347a565a3eb25f-11" prev="i-b7347a565a3eb25f-10" n="b7347a56">
             <seg n="288652f9">
               ligga snubblande nära till hands att påminna den föregående ärade
               talaren om hans egna uttalanden beträffande den schweiziska riksbanksledningen.
@@ -4199,6 +4302,11 @@
               Herr Hall berörde också i sitt anförande vissa handelsavtal.
               Jag vill med
             </seg>
+          </u>
+          <note type="date" n="d5c16eb2">
+            Onsdagen den 10 mars 1948 fm.
+          </note>
+          <u who="ake_wiberg_3e83f4" xml:id="i-b7347a565a3eb25f-12" prev="i-b7347a565a3eb25f-10" n="b7347a56">
             <seg n="af91ce29">
               anledning därav säga, att samtidigt med att alla slussar lämnades
               öppna för strömmen av importvaror fortsatte statsmakterna, när
@@ -4208,16 +4316,13 @@
               mot dollar.
             </seg>
           </u>
-          <note n="2998a6f3">
-            Onsdagen den 10 mars 1948 fm.
-          </note>
           <note n="cd2df645">
             Vidare anförde:
           </note>
           <note type="speaker" n="e0fa859d">
             Herr FRÖDERBERG:
           </note>
-          <u who="gottfrid_froderberg_1dbbaa" xml:id="i-3461c5c406070097-0" next="i-ca7ab09225d936e0-0" n="5bf8cba4">
+          <u who="gottfrid_froderberg_1dbbaa" xml:id="i-5bf8cba464de66e0-0" next="i-5bf8cba464de66e0-3" n="5bf8cba4">
             <seg n="a1bee7e3">
               Herr talman! När riksdagen i dag går att behandla den ekonomiska
               politiken för år 1947, är det knappast möjligt att tillföra debatten
@@ -4246,10 +4351,10 @@
             </seg>
           </u>
           <pb n="46" facs="https://betalab.kb.se/prot-1948--ak--10/prot_1948__ak__10-046.jp2/_view"/>
-          <note n="2998a6f3">
+          <note type="date" n="d5c16eb2">
             Onsdagen den 10 mars 1948 fm.
           </note>
-          <u who="gottfrid_froderberg_1dbbaa" xml:id="i-ca7ab09225d936e0-0" prev="i-3461c5c406070097-0" n="5bf8cba4">
+          <u who="gottfrid_froderberg_1dbbaa" xml:id="i-5bf8cba464de66e0-1" prev="i-5bf8cba464de66e0-0" n="5bf8cba4">
             <seg n="c195d200">
               1946 började svårigheterna. Importen svällde och guldoch valutareserven
             </seg>
@@ -4290,6 +4395,11 @@
               sådana. Det säges att redan många fabriker hotas av tillfälligt
               driftsstopp eller köra med nedsatt drift
             </seg>
+          </u>
+          <note n="7baff104">
+            Nr 10. 47
+          </note>
+          <u who="gottfrid_froderberg_1dbbaa" xml:id="i-5bf8cba464de66e0-2" prev="i-5bf8cba464de66e0-0" n="5bf8cba4">
             <seg n="df95c536">
               i brist på utländska råvaror. Vad vi nu ha att hoppas på är en
               tidig vår med öppna norrlandshamnar, så att den byteshandel vi
@@ -4328,6 +4438,12 @@
               Jag hoppas att riksbanken i fortsättningen skall sträva efter
               att intaga en något mera självstän-
             </seg>
+          </u>
+          <pb n="47" facs="https://betalab.kb.se/prot-1948--ak--10/prot_1948__ak__10-047.jp2/_view"/>
+          <note n="b7223f5f">
+            48 Nr 10.
+          </note>
+          <u who="gottfrid_froderberg_1dbbaa" xml:id="i-5bf8cba464de66e0-3" prev="i-5bf8cba464de66e0-0" n="5bf8cba4">
             <seg n="53105ed3">
               dig ställning gentemot regeringen än vad den gjort under de senaste
               två åren. Riksbankens uttalande rörande den utländska kreditgivningen,
@@ -4341,17 +4457,10 @@
               Herr talman! Jag ber med dessa ord att få yrka bifall till reservationen.
             </seg>
           </u>
-          <note n="7baff104">
-            Nr 10. 47
-          </note>
-          <pb n="47" facs="https://betalab.kb.se/prot-1948--ak--10/prot_1948__ak__10-047.jp2/_view"/>
-          <note n="b7223f5f">
-            48 Nr 10.
-          </note>
           <note type="speaker" n="b63651b4">
             Herr MATTSSON:
           </note>
-          <u who="oscar_mattsson_449b66" xml:id="i-4b0cba012f74d066-0" next="i-98c3fea3e565c9b5-0" n="b8af5adc">
+          <u who="oscar_mattsson_449b66" xml:id="i-c937d3d90c058b05-0" next="i-c937d3d90c058b05-3" n="b8af5adc">
             <seg n="8e2687ba">
               Herr talman! Då jag till utskottets utlåtande fogat en blank
               reservation, ber jag att med några ord få anföra vad som enligt
@@ -4379,10 +4488,10 @@
               verksamt sätt meddelat regeringen sina synpunkter på läget och
             </seg>
           </u>
-          <note n="2998a6f3">
+          <note type="date" n="d5c16eb2">
             Onsdagen den 10 mars 1948 fm.
           </note>
-          <u who="oscar_mattsson_449b66" xml:id="i-98c3fea3e565c9b5-0" prev="i-4b0cba012f74d066-0" n="b8af5adc">
+          <u who="oscar_mattsson_449b66" xml:id="i-c937d3d90c058b05-1" prev="i-c937d3d90c058b05-0" n="b8af5adc">
             <seg n="23466998">
               sagt ifrån, att strängare åtgärder måste vidtagas, därest läget
               icke skulle bli ohållbart. Det har man haft tillfälle att konstatera,
@@ -4418,6 +4527,12 @@
               eller instruktion, ty på samma sätt försvarade sig ju priskontrollnämnden
               på sin tid när det påtalades, att den icke ingripit emot vissa
             </seg>
+          </u>
+          <pb n="48" facs="https://betalab.kb.se/prot-1948--ak--10/prot_1948__ak__10-048.jp2/_view"/>
+          <note type="date" n="d5c16eb2">
+            Onsdagen den 10 mars 1948 fm.
+          </note>
+          <u who="oscar_mattsson_449b66" xml:id="i-c937d3d90c058b05-2" prev="i-c937d3d90c058b05-0" n="b8af5adc">
             <seg n="286d7e44">
               prissättningar, som varit orimligt höga och givit anledning till
               stora förtjänster under kriget. Den i juli 1946 vidtagna valutaapprecieringen
@@ -4453,6 +4568,11 @@
               resultat icke kunde nås genom utgiftsbegränsningar inom ramen
               av tillgängliga statsinkom-
             </seg>
+          </u>
+          <note n="45cf03ee">
+            Nr 10. 49
+          </note>
+          <u who="oscar_mattsson_449b66" xml:id="i-c937d3d90c058b05-3" prev="i-c937d3d90c058b05-0" n="b8af5adc">
             <seg n="9cdb66d2">
               ster, syntes det motiverat att söka nya inkomstkällor eller att
               hårdare anlita inkomstformer, som redan tagits i anspråk.» Jag
@@ -4472,17 +4592,10 @@
               förslag.
             </seg>
           </u>
-          <pb n="48" facs="https://betalab.kb.se/prot-1948--ak--10/prot_1948__ak__10-048.jp2/_view"/>
-          <note n="2998a6f3">
-            Onsdagen den 10 mars 1948 fm.
-          </note>
-          <note n="45cf03ee">
-            Nr 10. 49
-          </note>
           <note type="speaker" n="0337104c">
             Herr von SETH:
           </note>
-          <u who="torgil_von_seth_8d3848" xml:id="i-b0591adf2eacebbf-0" next="i-fcd772094870c660-0" n="05f3e1d4">
+          <u who="torgil_von_seth_8d3848" xml:id="i-ef71e65ca3be7899-0" next="i-ef71e65ca3be7899-4" n="05f3e1d4">
             <seg n="737705bd">
               Herr talman! Som ordinarie ledamot av bankoutskottet står jag
               icke med mitt namn under detta utlåtande. Jag vill emellertid
@@ -4514,7 +4627,7 @@
           <note n="c0797c9e">
             50 Nr 10.
           </note>
-          <u who="torgil_von_seth_8d3848" xml:id="i-fcd772094870c660-0" prev="i-b0591adf2eacebbf-0" n="05f3e1d4">
+          <u who="torgil_von_seth_8d3848" xml:id="i-ef71e65ca3be7899-1" prev="i-ef71e65ca3be7899-0" n="05f3e1d4">
             <seg n="4b70ac90">
               starkt betonat hur inflationsriskerna ha spritt sig, hur de så
               att säga ackumulerat sig, och nödvändigheten av att man icke underskattade
@@ -4549,6 +4662,11 @@
               Medvetandet om huru världen såg ut efter kriget borde i stället
               ha medfört, att regeringen i ännu högre
             </seg>
+          </u>
+          <note type="date" n="d5c16eb2">
+            Onsdagen den 10 mars 1948 fm.
+          </note>
+          <u who="torgil_von_seth_8d3848" xml:id="i-ef71e65ca3be7899-2" prev="i-ef71e65ca3be7899-0" n="05f3e1d4">
             <seg n="7fa2d1aa">
               grad än eljest borde ha bemödat sig om att på det inrikespolitiska
               området föra en väl avvägd ekonomisk politik.
@@ -4587,6 +4705,12 @@
               tillfoga den reflexionen, att man får en stark känsla av att regeringen
               i stället för att stimulera de producerande krafterna i vårt
             </seg>
+          </u>
+          <pb n="50" facs="https://betalab.kb.se/prot-1948--ak--10/prot_1948__ak__10-050.jp2/_view"/>
+          <note type="date" n="d5c16eb2">
+            Onsdagen den 10 mars 1948 fm.
+          </note>
+          <u who="torgil_von_seth_8d3848" xml:id="i-ef71e65ca3be7899-3" prev="i-ef71e65ca3be7899-0" n="05f3e1d4">
             <seg n="71018482">
               land på olika områden lägger stenar i vägen för produktionens
               framåtskridande och utnyttjande. Regeringens stora fel består
@@ -4625,6 +4749,11 @@
               kritik mot bankofullmäktige, som man synbarligen ansett vara bundna
               till händer och fötter
             </seg>
+          </u>
+          <note n="13e68af5">
+            Nr 10. 51
+          </note>
+          <u who="torgil_von_seth_8d3848" xml:id="i-ef71e65ca3be7899-4" prev="i-ef71e65ca3be7899-0" n="05f3e1d4">
             <seg n="680e666f">
               genom regeringens allmänna finanspolitik. Reservanternas yttrande
               ger emellertid en betydligt klarare bild av dessa mycket komplicerade
@@ -4638,16 +4767,6 @@
               för regeringen, detta inte minst med tanke på framtiden.
             </seg>
           </u>
-          <note n="2998a6f3">
-            Onsdagen den 10 mars 1948 fm.
-          </note>
-          <pb n="50" facs="https://betalab.kb.se/prot-1948--ak--10/prot_1948__ak__10-050.jp2/_view"/>
-          <note n="2998a6f3">
-            Onsdagen den 10 mars 1948 fm.
-          </note>
-          <note n="13e68af5">
-            Nr 10. 51
-          </note>
           <note n="ecd90d19">
             Herr talman! Med dessa ord ber jag att få yrka bifall till den
             reservation, som avgivits av herr Wiberg m. fl.
@@ -4655,7 +4774,7 @@
           <note type="speaker" n="6959fcd3">
             Herr HAGBERG i Luleå:
           </note>
-          <u who="hilding_hagberg_a6b9a0" xml:id="i-65e191c41b642255-1" next="i-740875a4d9a10c30-1" n="043f6ac6">
+          <u who="hilding_hagberg_a6b9a0" xml:id="i-043f6ac6b11b8529-5" next="i-043f6ac6b11b8529-13" n="043f6ac6">
             <seg n="28c6e62b">
               Herr talman! Det parti jag representerar har ju inte haft möjlighet
               att i utskottet ge uttryck för några meningar om det godkännande
@@ -4683,7 +4802,7 @@
           <note n="24a9b5f6">
             H2 Nr 10.
           </note>
-          <u who="hilding_hagberg_a6b9a0" xml:id="i-740875a4d9a10c30-1" prev="i-65e191c41b642255-1" n="043f6ac6">
+          <u who="hilding_hagberg_a6b9a0" xml:id="i-043f6ac6b11b8529-6" prev="i-043f6ac6b11b8529-5" n="043f6ac6">
             <seg n="e208dc13">
               na uppskrivning hade skett — en uppskrivning med mer än 14 4,
               om jag inte minns fel — skulle importen under fjolåret, som uppgick
@@ -4718,6 +4837,11 @@
               gå så långt, att de licensgivande organen utfärdat importlicenser,
               för vilka det faktiskt inte fanns någon egentlig valutatäck-
             </seg>
+          </u>
+          <note type="date" n="d5c16eb2">
+            Onsdagen den 10 mars 1948 fm.
+          </note>
+          <u who="hilding_hagberg_a6b9a0" xml:id="i-043f6ac6b11b8529-7" prev="i-043f6ac6b11b8529-5" n="043f6ac6">
             <seg n="0348bba0">
               ning i riksbanken. Varför har man kommit därhän? Jo, därför att
               regeringen på den punkten föll undan för den borgerliga aktiviteten
@@ -4753,6 +4877,12 @@
               på att åstadkomma ett dollarlån eller något annat utländskt lån.
               Jag förstår att reservanterna mena, att man i god tid
             </seg>
+          </u>
+          <pb n="52" facs="https://betalab.kb.se/prot-1948--ak--10/prot_1948__ak__10-052.jp2/_view"/>
+          <note type="date" n="d5c16eb2">
+            Onsdagen den 10 mars 1948 fm.
+          </note>
+          <u who="hilding_hagberg_a6b9a0" xml:id="i-043f6ac6b11b8529-8" prev="i-043f6ac6b11b8529-5" n="043f6ac6">
             <seg n="227ea5c4">
               skulle ha gått in för att anskaffa ett stort utländskt lån. Jag
               skulle inte under alla förhållanden vilja rekommendera vidtagandet
@@ -4790,6 +4920,11 @@
               att ytterligare ett par miljarder tillförts de svenska kapitalisterna
               i form av profiter.
             </seg>
+          </u>
+          <note n="9e9dbca5">
+            Nr 10. 53
+          </note>
+          <u who="hilding_hagberg_a6b9a0" xml:id="i-043f6ac6b11b8529-9" prev="i-043f6ac6b11b8529-5" n="043f6ac6">
             <seg n="dffc4bc8">
               Kravet på räntehöjning, som framförs från de borgerligas sida,
               vill jag inte gå närmare in på. Jag vill endast notera hur herr
@@ -4826,6 +4961,12 @@
               så vill jag bara ställa den frågan: Vilkas köpkraftsöverskott?
               Om jag går med på att det finns ett köpkraftsöverskott —
             </seg>
+          </u>
+          <pb n="53" facs="https://betalab.kb.se/prot-1948--ak--10/prot_1948__ak__10-053.jp2/_view"/>
+          <note n="f5c79c49">
+            54 Nr 10.
+          </note>
+          <u who="hilding_hagberg_a6b9a0" xml:id="i-043f6ac6b11b8529-10" prev="i-043f6ac6b11b8529-5" n="043f6ac6">
             <seg n="8278c18c">
               åtminstone ett teoretiskt sådant — så skulle jag samtidigt vilja
               framhålla, att det framför allt är en ringa minoritet, som förvaltar
@@ -4859,6 +5000,11 @@
               i främmande länder, omkring 100 miljoner kronor, då är det en
               god grund att stå på om man även framdeles vill upp-
             </seg>
+          </u>
+          <note type="date" n="d5c16eb2">
+            Onsdagen den 10 mars 1948 fm.
+          </note>
+          <u who="hilding_hagberg_a6b9a0" xml:id="i-043f6ac6b11b8529-11" prev="i-043f6ac6b11b8529-5" n="043f6ac6">
             <seg n="0e2f3054">
               rätthålla en import som är större än exporten. Med detta vill
               jag säga, att jag för min del inte kan godkänna att man så där
@@ -4895,6 +5041,12 @@
               då plötsligt landets stora tillgångar på guld och valutor liksom
               rinna bort mellan fing-
             </seg>
+          </u>
+          <pb n="54" facs="https://betalab.kb.se/prot-1948--ak--10/prot_1948__ak__10-054.jp2/_view"/>
+          <note type="date" n="d5c16eb2">
+            Onsdagen den 10 mars 1948 fm.
+          </note>
+          <u who="hilding_hagberg_a6b9a0" xml:id="i-043f6ac6b11b8529-12" prev="i-043f6ac6b11b8529-5" n="043f6ac6">
             <seg n="7f779626">
               rarna. Man tvingas genomföra ett importstopp, som alla människor
               skratta åt, därför att det bara leder till en oerhörd ökning av
@@ -4931,6 +5083,11 @@
               inte mindre än 500 miljoner kronor, och skulle jag medräkna taxeökningar
               och sådant skulle beloppet bli ännu större.
             </seg>
+          </u>
+          <note n="586cc36a">
+            Nr 10. 55
+          </note>
+          <u who="hilding_hagberg_a6b9a0" xml:id="i-043f6ac6b11b8529-13" prev="i-043f6ac6b11b8529-5" n="043f6ac6">
             <seg n="86f9532f">
               I den mån detta utlåtande från bankoutskottet skall vara en sanktionering
               av en politik, som går ut på att sänka levnadsstandarden för folket
@@ -4938,37 +5095,13 @@
               kunna vi för vår del inte instämma i dessa uttalanden.
             </seg>
           </u>
-          <note n="2998a6f3">
-            Onsdagen den 10 mars 1948 fm.
-          </note>
-          <pb n="52" facs="https://betalab.kb.se/prot-1948--ak--10/prot_1948__ak__10-052.jp2/_view"/>
-          <note n="2998a6f3">
-            Onsdagen den 10 mars 1948 fm.
-          </note>
-          <note n="9e9dbca5">
-            Nr 10. 53
-          </note>
-          <pb n="53" facs="https://betalab.kb.se/prot-1948--ak--10/prot_1948__ak__10-053.jp2/_view"/>
-          <note n="f5c79c49">
-            54 Nr 10.
-          </note>
-          <note n="2998a6f3">
-            Onsdagen den 10 mars 1948 fm.
-          </note>
-          <pb n="54" facs="https://betalab.kb.se/prot-1948--ak--10/prot_1948__ak__10-054.jp2/_view"/>
-          <note n="2998a6f3">
-            Onsdagen den 10 mars 1948 fm.
-          </note>
-          <note n="586cc36a">
-            Nr 10. 55
-          </note>
           <note n="a939528d">
             Herr talmannen återtog nu ledningen av förhandlingarna.
           </note>
           <note type="speaker" n="c6a930c3">
             Herr HAGBERG i Malmö:
           </note>
-          <u who="hilding_hagberg_a6b9a0" xml:id="i-65e191c41b642255-2" next="i-740875a4d9a10c30-2" n="043f6ac6">
+          <u who="hilding_hagberg_a6b9a0" xml:id="i-043f6ac6b11b8529-14" next="i-043f6ac6b11b8529-21" n="043f6ac6">
             <seg n="e990b964">
               Herr talman! Det nyss hållna anförandet visar enligt min mening,
               att man synbarligen aldrig kan skriva tillräckligt tydligt i ett
@@ -4987,7 +5120,7 @@
             kompletterande ingrepp — vartill utskottet i det efterföljande
             skall återkomma — som apprecieringsbeslutet
           </note>
-          <u who="hilding_hagberg_a6b9a0" xml:id="i-740875a4d9a10c30-2" prev="i-65e191c41b642255-2" n="043f6ac6">
+          <u who="hilding_hagberg_a6b9a0" xml:id="i-043f6ac6b11b8529-15" prev="i-043f6ac6b11b8529-14" n="043f6ac6">
             <seg n="2b58f8df">
               borde ha givit anledning till, kommo icke i tid eller icke alls
               till stånd.»
@@ -5004,6 +5137,12 @@
               förblev ungefär lika stort som det hade varit, innan man vidtog
               apprecieringen.
             </seg>
+          </u>
+          <pb n="55" facs="https://betalab.kb.se/prot-1948--ak--10/prot_1948__ak__10-055.jp2/_view"/>
+          <note n="8300b97d">
+            56 Nr 10.
+          </note>
+          <u who="hilding_hagberg_a6b9a0" xml:id="i-043f6ac6b11b8529-16" prev="i-043f6ac6b11b8529-14" n="043f6ac6">
             <seg n="361905e1">
               Om herr Hagbergs i Luleå anförande torde i övrigt endast böra
               sägas, att det synes väl förenligt med det ekonomiska betraktelsesätt,
@@ -5043,6 +5182,11 @@
               Jag vill i detta sammanhang för kammaren påpeka den synnerliga
               försik-
             </seg>
+          </u>
+          <note type="date" n="d5c16eb2">
+            Onsdagen den 10 mars 1948 fm.
+          </note>
+          <u who="hilding_hagberg_a6b9a0" xml:id="i-043f6ac6b11b8529-17" prev="i-043f6ac6b11b8529-14" n="043f6ac6">
             <seg n="b120ebe8">
               tighet, med vilken herr Hall berörde just dessa spörsmål. Jag
               förstår mycket väl den återhållsamhet, som herr Hall lagt i dagen,
@@ -5082,6 +5226,12 @@
               i detta svåra spörsmål. Den institutionen är styrelsen för Kooperativa
               förbundet,
             </seg>
+          </u>
+          <pb n="56" facs="https://betalab.kb.se/prot-1948--ak--10/prot_1948__ak__10-056.jp2/_view"/>
+          <note type="date" n="d5c16eb2">
+            Onsdagen den 10 mars 1948 fm.
+          </note>
+          <u who="hilding_hagberg_a6b9a0" xml:id="i-043f6ac6b11b8529-18" prev="i-043f6ac6b11b8529-14" n="043f6ac6">
             <seg n="185306d8">
               som i kategoriska ordalag rekommenderat en räntehöjning. Jag
               vill erinra om det utförliga yttrande, som styrelsen för Kooperativa
@@ -5116,6 +5266,11 @@
               såvitt jag förstår, med den ståndpunkt, åt vilken herr Molander
               gav uttryck.
             </seg>
+          </u>
+          <note n="e83a421f">
+            Nr 10. 57
+          </note>
+          <u who="hilding_hagberg_a6b9a0" xml:id="i-043f6ac6b11b8529-19" prev="i-043f6ac6b11b8529-14" n="043f6ac6">
             <seg n="176d7133">
               Herr Hall har här hållit ett intressant anförande, där han även
               tog upp till dryftning den viktiga frågan om förhållandet mellan
@@ -5149,6 +5304,12 @@
               Jag tror, att det i denna penningpolitiska debatt skulle kunna
               ha ett visst intresse att bringa i erinran ett uttalan-
             </seg>
+          </u>
+          <pb n="57" facs="https://betalab.kb.se/prot-1948--ak--10/prot_1948__ak__10-057.jp2/_view"/>
+          <note n="6785bf67">
+            58 Nr 10.
+          </note>
+          <u who="hilding_hagberg_a6b9a0" xml:id="i-043f6ac6b11b8529-20" prev="i-043f6ac6b11b8529-14" n="043f6ac6">
             <seg n="47a1b817">
               de, som gjorts i finansplanen till årets statsverksproposition.
               Det är för övrigt enligt min mening rätt egendomligt, att detta
@@ -5181,6 +5342,11 @@
               en lång rad av dylika påpekanden. Jag skulle i detta sammanhang,
               för att ta några exempel ur högen, kunna erinra om Industriför-
             </seg>
+          </u>
+          <note type="date" n="d5c16eb2">
+            Onsdagen den 10 mars 1948 fm.
+          </note>
+          <u who="hilding_hagberg_a6b9a0" xml:id="i-043f6ac6b11b8529-21" prev="i-043f6ac6b11b8529-14" n="043f6ac6">
             <seg n="9d5b81b5">
               bundets skrivelse den 9 januari, de borgerliga partiernas gemensamma
               förklaring av den 11 mars, chefens för konjunkturinstitutet program
@@ -5206,32 +5372,11 @@
               året blivit bredare och tryggare än vad den för ögonblicket är.
             </seg>
           </u>
-          <pb n="55" facs="https://betalab.kb.se/prot-1948--ak--10/prot_1948__ak__10-055.jp2/_view"/>
-          <note n="8300b97d">
-            56 Nr 10.
-          </note>
-          <note n="2998a6f3">
-            Onsdagen den 10 mars 1948 fm.
-          </note>
-          <pb n="56" facs="https://betalab.kb.se/prot-1948--ak--10/prot_1948__ak__10-056.jp2/_view"/>
-          <note n="2998a6f3">
-            Onsdagen den 10 mars 1948 fm.
-          </note>
-          <note n="e83a421f">
-            Nr 10. 57
-          </note>
-          <pb n="57" facs="https://betalab.kb.se/prot-1948--ak--10/prot_1948__ak__10-057.jp2/_view"/>
-          <note n="6785bf67">
-            58 Nr 10.
-          </note>
-          <note n="2998a6f3">
-            Onsdagen den 10 mars 1948 fm.
-          </note>
           <note type="speaker" n="b6c15274">
             Herr HAGBERG i Luleå erhöll på begäran ordet för kort genmäle
             och yttrade:
           </note>
-          <u who="hilding_hagberg_a6b9a0" xml:id="i-65e191c41b642255-3" next="i-740875a4d9a10c30-3" n="043f6ac6">
+          <u who="hilding_hagberg_a6b9a0" xml:id="i-043f6ac6b11b8529-22" next="i-043f6ac6b11b8529-24" n="043f6ac6">
             <seg n="98072da8">
               Herr talman! När jag utgick från att folkpartiets och högerns
               representanter hade vänt sig mot den uppskrivning av svenska kronans
@@ -5244,10 +5389,10 @@
             </seg>
           </u>
           <pb n="58" facs="https://betalab.kb.se/prot-1948--ak--10/prot_1948__ak__10-058.jp2/_view"/>
-          <note n="2998a6f3">
+          <note type="date" n="d5c16eb2">
             Onsdagen den 10 mars 1948 fm.
           </note>
-          <u who="hilding_hagberg_a6b9a0" xml:id="i-740875a4d9a10c30-3" prev="i-65e191c41b642255-3" n="043f6ac6">
+          <u who="hilding_hagberg_a6b9a0" xml:id="i-043f6ac6b11b8529-23" prev="i-043f6ac6b11b8529-22" n="043f6ac6">
             <seg n="779e74da">
               om man framhåller som konsekvens av detta apprecieringsbeslut
               en massa ofördelaktiga saker, exempelvis att det ledde till att
@@ -5283,6 +5428,15 @@
               ju genomförts under alla förhållanden. Det är ju ett faktum, som
               man icke lär kunna komma ifrån.
             </seg>
+          </u>
+          <note n="9ab7f0be">
+            Herr HAGBERG i Malmö erhöll likaledes på begäran ordet för kort
+            genmäle
+          </note>
+          <note n="096adfd5">
+            Nr 10. 59
+          </note>
+          <u who="hilding_hagberg_a6b9a0" xml:id="i-043f6ac6b11b8529-24" prev="i-043f6ac6b11b8529-22" n="043f6ac6">
             <seg n="1678b975">
               och anförde: Herr talman! Högeroch folkpartireservanterna ha
               klart givit till känna sin ståndpunkt i fråga om apprecieringen
@@ -5302,18 +5456,11 @@
               blev inflationsgapet ungefär detsamma som det var före apprecieringen.
             </seg>
           </u>
-          <note n="9ab7f0be">
-            Herr HAGBERG i Malmö erhöll likaledes på begäran ordet för kort
-            genmäle
-          </note>
-          <note n="096adfd5">
-            Nr 10. 59
-          </note>
           <note type="speaker" n="560654d7">
             Herr HAGBERG i Luleå erhöll på begöran ånyo ordet för kort genmäle
             och yttrade:
           </note>
-          <u who="hilding_hagberg_a6b9a0" xml:id="i-9f608bb617cb40aa-0" n="043f6ac6">
+          <u who="hilding_hagberg_a6b9a0" xml:id="i-043f6ac6b11b8529-25" n="043f6ac6">
             <seg n="f0b6424a">
               Herr talman! Resultatet blir ju under alla förhållanden, att
               importen blev åtminstone 700 å 800 miljoner kronor billigare för
@@ -5332,7 +5479,7 @@
           <note type="speaker" n="363ac9ea">
             Herr OHLIN:
           </note>
-          <u who="bertil_ohlin_2d3e4b" xml:id="i-877c48d8dc3a2521-0" next="i-48b21169c16308f9-0" n="af4a1309">
+          <u who="bertil_ohlin_2d3e4b" xml:id="i-af4a1309e57c8314-0" next="i-af4a1309e57c8314-16" n="af4a1309">
             <seg n="3257b212">
               Herr talman! Jag har fått det intrycket under det senaste
             </seg>
@@ -5341,7 +5488,7 @@
           <note n="0ae11126">
             60 Nr 10.
           </note>
-          <u who="bertil_ohlin_2d3e4b" xml:id="i-48b21169c16308f9-0" prev="i-877c48d8dc3a2521-0" n="af4a1309">
+          <u who="bertil_ohlin_2d3e4b" xml:id="i-af4a1309e57c8314-1" prev="i-af4a1309e57c8314-0" n="af4a1309">
             <seg n="3c498be0">
               årets offentliga debatt, att man inom socialdemokratiska partiet
               Opponerat sig mot och icke kunnat acceptera den kritik, som från
@@ -5376,6 +5523,11 @@
               så blir väl svaret på den frågan, att det blivit alltmera uppenbart,
               att makten och ansvaret, när det gäller den
             </seg>
+          </u>
+          <note type="date" n="d5c16eb2">
+            Onsdagen den 10 mars 1948 fm.
+          </note>
+          <u who="bertil_ohlin_2d3e4b" xml:id="i-af4a1309e57c8314-2" prev="i-af4a1309e57c8314-0" n="af4a1309">
             <seg n="135ee894">
               ekonomiska politiken, numera i högre grad än tidigare vila hos
               regeringen. Riksbankspolitiken är endast en del av denna allmänna
@@ -5410,6 +5562,12 @@
               icke bankofullmäktige. Men man måste nog konstatera, att bankofullmäktige,
               då de icke ansett lämpligt att genom det klassiska medel som räntehöj-
             </seg>
+          </u>
+          <pb n="60" facs="https://betalab.kb.se/prot-1948--ak--10/prot_1948__ak__10-060.jp2/_view"/>
+          <note type="date" n="d5c16eb2">
+            Onsdagen den 10 mars 1948 fm.
+          </note>
+          <u who="bertil_ohlin_2d3e4b" xml:id="i-af4a1309e57c8314-3" prev="i-af4a1309e57c8314-0" n="af4a1309">
             <seg n="a2a28b09">
               ning utgör söka begränsa en investeringsverksamhet som blivit
               för stor, borde ha med all tänkbar kraft för regeringen framhållit,
@@ -5446,6 +5604,11 @@
               även på andra punkter framfört sin uppfattning till regeringen,
               och jag vill
             </seg>
+          </u>
+          <note n="38a0ad55">
+            Nr 10. 61
+          </note>
+          <u who="bertil_ohlin_2d3e4b" xml:id="i-af4a1309e57c8314-4" prev="i-af4a1309e57c8314-0" n="af4a1309">
             <seg n="8f5ca502">
               uttala min glädje över att utskottet ge-
             </seg>
@@ -5484,6 +5647,12 @@
               beträffar, var det tydligen först i september föregående år, som
               bankofullmäktige hade bestämt sig för att inta den ståndpunk-
             </seg>
+          </u>
+          <pb n="61" facs="https://betalab.kb.se/prot-1948--ak--10/prot_1948__ak__10-061.jp2/_view"/>
+          <note n="a331aa91">
+            62 Nr 10.
+          </note>
+          <u who="bertil_ohlin_2d3e4b" xml:id="i-af4a1309e57c8314-5" prev="i-af4a1309e57c8314-0" n="af4a1309">
             <seg n="a1617eb6">
               ten, att det var önskvärt med ett utländskt lån.
             </seg>
@@ -5520,6 +5689,11 @@
               ännu icke utnyttjade krediter, vilket måste syfta på rysskrediten.
               Detta klara uttalande på en punkt,
             </seg>
+          </u>
+          <note type="date" n="d5c16eb2">
+            Onsdagen den 10 mars 1948 fm.
+          </note>
+          <u who="bertil_ohlin_2d3e4b" xml:id="i-af4a1309e57c8314-6" prev="i-af4a1309e57c8314-0" n="af4a1309">
             <seg n="8654c616">
               där man kunde misstänka att regeringen inte med välvilja skulle
               se ett sådant uttalande, utgör en väsentlig post på fullmäktiges
@@ -5556,6 +5730,12 @@
               som är ett hårdvalutaland, att konkurrensen pressar ned priserna
               och gör att schweizarna kunna
             </seg>
+          </u>
+          <pb n="62" facs="https://betalab.kb.se/prot-1948--ak--10/prot_1948__ak__10-062.jp2/_view"/>
+          <note type="date" n="d5c16eb2">
+            Onsdagen den 10 mars 1948 fm.
+          </note>
+          <u who="bertil_ohlin_2d3e4b" xml:id="i-af4a1309e57c8314-7" prev="i-af4a1309e57c8314-0" n="af4a1309">
             <seg n="05d7160e">
               köpa extra billigt. Jag kan ta ett annat exempel. Häromdagen
               omtalade en importör för mig, att han från Holland hade köpt vissa
@@ -5594,6 +5774,11 @@
               få anknyta till den diskussion om centrala valutapolitiska frågor,
               som fördes under remissdebatten. På grund
             </seg>
+          </u>
+          <note n="687ea1e6">
+            Nr 10. ' 63
+          </note>
+          <u who="bertil_ohlin_2d3e4b" xml:id="i-af4a1309e57c8314-8" prev="i-af4a1309e57c8314-0" n="af4a1309">
             <seg n="7b8a5c46">
               av debattens längd ansåg jag det inte lämpligt att ta kammarens
               uppmärksamhet i anspråk långt fram på kvällen den tredje dagen
@@ -5635,6 +5820,12 @@
               1947 framhöll jag, att »den som icke har den offentliga utredningsapparaten
               till sitt förfogande kan självklart icke lämna nå-
             </seg>
+          </u>
+          <pb n="63" facs="https://betalab.kb.se/prot-1948--ak--10/prot_1948__ak__10-063.jp2/_view"/>
+          <note n="0d204dbb">
+            64 Nr 10.
+          </note>
+          <u who="bertil_ohlin_2d3e4b" xml:id="i-af4a1309e57c8314-9" prev="i-af4a1309e57c8314-0" n="af4a1309">
             <seg n="f4964178">
               got preciserat svar på frågan, hur stor investering som är förenlig
               med samhällsekonomisk balans. Men jag är benägen att tro att en
@@ -5673,6 +5864,11 @@
               en kvantitativ precisering för att sedan bedöma vilken investeringspolitik,
               som är möjlig inom ramen för en viss inkomstpolitik.»
             </seg>
+          </u>
+          <note type="date" n="d5c16eb2">
+            Onsdagen den 10 mars 1948 fm.
+          </note>
+          <u who="bertil_ohlin_2d3e4b" xml:id="i-af4a1309e57c8314-10" prev="i-af4a1309e57c8314-0" n="af4a1309">
             <seg n="32abf1e8">
               Herr talman! Jag skall inte trötta med flera citat, fastän jag
               har tolv sidor dylika. Jag tror att kammaren ursäktar mig, om
@@ -5712,6 +5908,12 @@
               att byggnadsregleringen hade skötts på ett sådant sätt, att man
               hade anledning till skepsis rörande själva bygg-
             </seg>
+          </u>
+          <pb n="64" facs="https://betalab.kb.se/prot-1948--ak--10/prot_1948__ak__10-064.jp2/_view"/>
+          <note type="date" n="d5c16eb2">
+            Onsdagen den 10 mars 1948 fm.
+          </note>
+          <u who="bertil_ohlin_2d3e4b" xml:id="i-af4a1309e57c8314-11" prev="i-af4a1309e57c8314-0" n="af4a1309">
             <seg n="871d0366">
               nadsregleringstekniken såsom ett effektivt medel på längre sikt.
               Jag förklarade att staten inte hade lyckats med sin centraldirigerande
@@ -5750,6 +5952,17 @@
               av en väg, som regeringen nu sedan ett halvår eller något sådant
               själv har slagit in på,
             </seg>
+          </u>
+          <note n="265f6372">
+            icke
+          </note>
+          <note n="41759c5e">
+            r
+          </note>
+          <note n="75df27cd">
+            Nr 10. 65
+          </note>
+          <u who="bertil_ohlin_2d3e4b" xml:id="i-af4a1309e57c8314-12" prev="i-af4a1309e57c8314-0" n="af4a1309">
             <seg n="bb05e964">
               inte kan betraktas som lyckat. I ett dussintals anföranden här
               i kammaren har en konsekvent linje i denna fråga hävdats, och
@@ -5792,6 +6005,15 @@
               och lönestopp. Herr statsminister! Är detta referat i Morgon-Tidningen
               verkligen rättvisande, är det ett uttryck för de parol-
             </seg>
+          </u>
+          <note n="4e23309a">
+            5—- Andra kammarens protokoll 1948. Nr 10.
+          </note>
+          <pb n="65" facs="https://betalab.kb.se/prot-1948--ak--10/prot_1948__ak__10-065.jp2/_view"/>
+          <note n="d1ad2c8a">
+            66 Nr i0.
+          </note>
+          <u who="bertil_ohlin_2d3e4b" xml:id="i-af4a1309e57c8314-13" prev="i-af4a1309e57c8314-0" n="af4a1309">
             <seg n="0f077456">
               ler som socialdemokratiska partiets ledning ger, när det gäller
               att karakterisera motståndarsidans ståndpunkt i den ekonomiska
@@ -5828,6 +6050,11 @@
               honom. Är det möjligen ett missförstånd, så att man i stället
               för FP tänkt på KF,
             </seg>
+          </u>
+          <note type="date" n="d5c16eb2">
+            Onsdagen den 10 mars 1948 fm.
+          </note>
+          <u who="bertil_ohlin_2d3e4b" xml:id="i-af4a1309e57c8314-14" prev="i-af4a1309e57c8314-0" n="af4a1309">
             <seg n="3b26905b">
               som bestämt har uttalat sig till förmån för en räntehöjning?
               Vad hyreshöjningen beträffar har ju statsministern ännu mindre
@@ -5868,6 +6095,12 @@
               med anledning av att herr Hagberg i Malmö eller någon annan högertalare
               kom in på saken
             </seg>
+          </u>
+          <pb n="66" facs="https://betalab.kb.se/prot-1948--ak--10/prot_1948__ak__10-066.jp2/_view"/>
+          <note type="date" n="d5c16eb2">
+            Onsdagen den 10 mars 1948 fm.
+          </note>
+          <u who="bertil_ohlin_2d3e4b" xml:id="i-af4a1309e57c8314-15" prev="i-af4a1309e57c8314-0" n="af4a1309">
             <seg n="ebe4a910">
               även i dag. Men för folkpartiets del vill jag alltså konstatera,
               att påståendet om att vi vilja ha prisstegring och lönestopp icke
@@ -5905,6 +6138,11 @@
               Jag har, herr talman, velat göra dessa påpekanden. Det framgår
               därav, att jag
             </seg>
+          </u>
+          <note n="e529a2db">
+            Nr 10. 67
+          </note>
+          <u who="bertil_ohlin_2d3e4b" xml:id="i-af4a1309e57c8314-16" prev="i-af4a1309e57c8314-0" n="af4a1309">
             <seg n="b1e76140">
               med allt erkännande av att bankoutskottets majoritet i sitt utlåtande
               gjort många värdefulla påpekanden i alla fall anser mig stå i
@@ -5913,71 +6151,10 @@
               det närmare. Jag ber alltså att få yrka bifall till reservationen.
             </seg>
           </u>
-          <note n="2998a6f3">
-            Onsdagen den 10 mars 1948 fm.
-          </note>
-          <pb n="60" facs="https://betalab.kb.se/prot-1948--ak--10/prot_1948__ak__10-060.jp2/_view"/>
-          <note n="2998a6f3">
-            Onsdagen den 10 mars 1948 fm.
-          </note>
-          <note n="38a0ad55">
-            Nr 10. 61
-          </note>
-          <pb n="61" facs="https://betalab.kb.se/prot-1948--ak--10/prot_1948__ak__10-061.jp2/_view"/>
-          <note n="a331aa91">
-            62 Nr 10.
-          </note>
-          <note n="2998a6f3">
-            Onsdagen den 10 mars 1948 fm.
-          </note>
-          <pb n="62" facs="https://betalab.kb.se/prot-1948--ak--10/prot_1948__ak__10-062.jp2/_view"/>
-          <note n="2998a6f3">
-            Onsdagen den 10 mars 1948 fm.
-          </note>
-          <note n="687ea1e6">
-            Nr 10. ' 63
-          </note>
-          <pb n="63" facs="https://betalab.kb.se/prot-1948--ak--10/prot_1948__ak__10-063.jp2/_view"/>
-          <note n="0d204dbb">
-            64 Nr 10.
-          </note>
-          <note n="2998a6f3">
-            Onsdagen den 10 mars 1948 fm.
-          </note>
-          <pb n="64" facs="https://betalab.kb.se/prot-1948--ak--10/prot_1948__ak__10-064.jp2/_view"/>
-          <note n="2998a6f3">
-            Onsdagen den 10 mars 1948 fm.
-          </note>
-          <note n="265f6372">
-            icke
-          </note>
-          <note n="41759c5e">
-            r
-          </note>
-          <note n="75df27cd">
-            Nr 10. 65
-          </note>
-          <note n="4e23309a">
-            5—- Andra kammarens protokoll 1948. Nr 10.
-          </note>
-          <pb n="65" facs="https://betalab.kb.se/prot-1948--ak--10/prot_1948__ak__10-065.jp2/_view"/>
-          <note n="d1ad2c8a">
-            66 Nr i0.
-          </note>
-          <note n="2998a6f3">
-            Onsdagen den 10 mars 1948 fm.
-          </note>
-          <pb n="66" facs="https://betalab.kb.se/prot-1948--ak--10/prot_1948__ak__10-066.jp2/_view"/>
-          <note n="2998a6f3">
-            Onsdagen den 10 mars 1948 fm.
-          </note>
-          <note n="e529a2db">
-            Nr 10. 67
-          </note>
           <note type="speaker" n="5da3e88d">
             Hans excellens herr statsministern ERLANDER:
           </note>
-          <u who="unknown" xml:id="i-8046f9d7dd79ae45-3" n="9f528dde">
+          <u who="unknown" xml:id="i-9f528dde1da7f94e-16" n="9f528dde">
             <seg n="78d4d314">
               Herr talman! Jag hade verkligen icke tänkt deltaga i dagens debatt,
               men tyvärr är det ju så att herr Ohlin och jag ha mycket svårt
@@ -6013,7 +6190,7 @@
           <note n="9c3b5ca9">
             68 Nr 10.
           </note>
-          <u who="unknown" xml:id="i-1b182051095bc94a-3" n="9f528dde">
+          <u who="unknown" xml:id="i-9f528dde1da7f94e-17" n="9f528dde">
             <seg n="cf9f112e">
               som uppstått genom att en betydande del av valutareserven försvunnit,
               är en sak, som framtiden får utvisa. Men vad som är uppenbart
@@ -6050,6 +6227,11 @@
               Till yttermera bevis för att det fanns en viss glidande framställning
               — för att
             </seg>
+          </u>
+          <note type="date" n="d5c16eb2">
+            Onsdagen den 10 mars 1948 fm.
+          </note>
+          <u who="unknown" xml:id="i-9f528dde1da7f94e-18" n="9f528dde">
             <seg n="d116ad47">
               begagna ett milt uttryck — i herr Ohlins uppträdande beträffande
               investeringarna hänvisade jag till vad herr Ohlin sagt vid ett
@@ -6087,6 +6269,12 @@
               roll om han sagt motsatsen vid andra tillfällen. Det måste vara
               mycket besvärligt för denna
             </seg>
+          </u>
+          <pb n="68" facs="https://betalab.kb.se/prot-1948--ak--10/prot_1948__ak__10-068.jp2/_view"/>
+          <note type="date" n="d5c16eb2">
+            Onsdagen den 10 mars 1948 fm.
+          </note>
+          <u who="unknown" xml:id="i-9f528dde1da7f94e-19" n="9f528dde">
             <seg n="c6db80a3">
               press att ideligen följa med i alla svängningar — kanske har
               man där en rörlighet i hjärnan som vi inte ha.
@@ -6127,6 +6315,11 @@
               När vi då finna att oppositionen vägrar att acceptera detta program,
               när oppositionen säger att den har en an-
             </seg>
+          </u>
+          <note n="427b13fb">
+            Nr 10. 69
+          </note>
+          <u who="unknown" xml:id="i-9f528dde1da7f94e-20" n="9f528dde">
             <seg n="9fade9e3">
               nan linje, då måste vi väl säga oss, att vi borde få reda på
               dessa alternativ till regeringspolitiken. Det är ingen näsvishet,
@@ -6151,20 +6344,10 @@
               att tala om vad ni vilja.
             </seg>
           </u>
-          <note n="2998a6f3">
-            Onsdagen den 10 mars 1948 fm.
-          </note>
-          <pb n="68" facs="https://betalab.kb.se/prot-1948--ak--10/prot_1948__ak__10-068.jp2/_view"/>
-          <note n="2998a6f3">
-            Onsdagen den 10 mars 1948 fm.
-          </note>
-          <note n="427b13fb">
-            Nr 10. 69
-          </note>
           <note type="speaker" n="f3aec7f2">
             Herr OHLIN erhöll på begäran ordet för kort genmäle och yttrade:
           </note>
-          <u who="bertil_ohlin_2d3e4b" xml:id="i-877c48d8dc3a2521-1" next="i-48b21169c16308f9-1" n="af4a1309">
+          <u who="bertil_ohlin_2d3e4b" xml:id="i-af4a1309e57c8314-17" next="i-af4a1309e57c8314-18" n="af4a1309">
             <seg n="0552cd71">
               Herr talman! Statsministern säger att när man har pressen samlad
               så är det för att säga något som är viktigt. Herr statsminister,
@@ -6185,7 +6368,7 @@
           <note n="f303f143">
             70 Nr 10.
           </note>
-          <u who="bertil_ohlin_2d3e4b" xml:id="i-48b21169c16308f9-1" prev="i-877c48d8dc3a2521-1" n="af4a1309">
+          <u who="bertil_ohlin_2d3e4b" xml:id="i-af4a1309e57c8314-18" prev="i-af4a1309e57c8314-17" n="af4a1309">
             <seg n="18bed71b">
               statsministern har andra vanor därvidlag, äro de för mig svårbegripliga.
             </seg>
@@ -6227,7 +6410,7 @@
               verkliga ståndpunkt.
             </seg>
           </u>
-          <note n="2998a6f3">
+          <note type="date" n="d5c16eb2">
             Onsdagen den 10 mars 1948 fm.
           </note>
           <note n="54e3d65f">
@@ -6236,7 +6419,7 @@
           <note type="speaker" n="5da3e88d">
             Hans excellens herr statsministern ERLANDER:
           </note>
-          <u who="unknown" xml:id="i-d96e3191fd6aaf24-3" n="9f528dde">
+          <u who="unknown" xml:id="i-9f528dde1da7f94e-21" n="9f528dde">
             <seg n="c395616f">
               Herr talman! Att det skall vara så svårt för herr Ohlin att tala
               om vad han vill. Han behöver ju bara tala om vari oppositionens
@@ -6285,7 +6468,7 @@
             m. m.;
           </note>
           <pb n="70" facs="https://betalab.kb.se/prot-1948--ak--10/prot_1948__ak__10-070.jp2/_view"/>
-          <note n="2998a6f3">
+          <note type="date" n="d5c16eb2">
             Onsdagen den 10 mars 1948 fm.
           </note>
           <note n="a4cd3242">
@@ -6323,7 +6506,7 @@
           <note type="speaker" n="ae939570">
             Herr JOHANSSON i Mysinge, som anförde:
           </note>
-          <u who="johan_bernhard_johansson_ca4e64" xml:id="i-b8b09f198672d546-0" next="i-e20506de06c4384d-0" n="990f0b21">
+          <u who="johan_bernhard_johansson_ca4e64" xml:id="i-2cf7912171389654-0" next="i-2cf7912171389654-3" n="990f0b21">
             <seg n="6221abb1">
               Herr talman! Det av riksdagen nyligen fattade beslutet om höjning
               av bensinskatten med 27 öre blir en kraftig belastning för motortrafiken,
@@ -6344,7 +6527,7 @@
           <note n="0f1bee6c">
             Nr 10. 71
           </note>
-          <u who="johan_bernhard_johansson_ca4e64" xml:id="i-e20506de06c4384d-0" prev="i-b8b09f198672d546-0" n="990f0b21">
+          <u who="johan_bernhard_johansson_ca4e64" xml:id="i-2cf7912171389654-1" prev="i-2cf7912171389654-0" n="990f0b21">
             <seg n="22fb12d8">
               bilismens män, och då särskilt företagarna, följas så långt som
               möjligt. Men ibland förhåller det sig så, att det allmännas reglerande
@@ -6381,6 +6564,12 @@
               Befolkningen utmed bussens väg kan sålunda inte mot en billig
               pen-
             </seg>
+          </u>
+          <pb n="71" facs="https://betalab.kb.se/prot-1948--ak--10/prot_1948__ak__10-071.jp2/_view"/>
+          <note n="7e642143">
+            72 Nr 10.
+          </note>
+          <u who="johan_bernhard_johansson_ca4e64" xml:id="i-2cf7912171389654-2" prev="i-2cf7912171389654-0" n="990f0b21">
             <seg n="3415bdef">
               ning få följa med bussen till samhället eller kyrkbyn, skolbarnen
               få inte utnyttja sin egen buss för en kortare eller längre skolresa,
@@ -6399,6 +6588,11 @@
               förbättringar i ovan påtalade föreskrifter. Men om dessa förbättringar
               skola komma landet till
             </seg>
+          </u>
+          <note type="date" n="3c4ab505">
+            Onsdagen den 10 mars 1948 em.
+          </note>
+          <u who="johan_bernhard_johansson_ca4e64" xml:id="i-2cf7912171389654-3" prev="i-2cf7912171389654-0" n="990f0b21">
             <seg n="7effff90">
               godo i bensinbesparande syfte och medverka till landsbygdens
               fortsatta utveckling är skyndsamhet av nöden.
@@ -6418,13 +6612,6 @@
               beredd att framlägga erforderliga förslag?
             </seg>
           </u>
-          <pb n="71" facs="https://betalab.kb.se/prot-1948--ak--10/prot_1948__ak__10-071.jp2/_view"/>
-          <note n="7e642143">
-            72 Nr 10.
-          </note>
-          <note n="137d13e2">
-            Onsdagen den 10 mars 1948 em.
-          </note>
           <note n="4b5e5b07">
             Denna anhållan bordlades.
           </note>
@@ -6437,7 +6624,7 @@
           <note n="8b794429">
             Gunnar Britth.
           </note>
-          <note n="17b71d86">
+          <note type="date" n="c4848a27">
             Onsdagen den 10 mars em. Kl. 7.30 em.
           </note>
           <note n="d61b5974">
@@ -6461,7 +6648,7 @@
           <note type="speaker" n="8f92d264">
             Herr FAGERHOLM, som anförde:
           </note>
-          <u who="per-hjalmar_fagerholm_c355c9" xml:id="i-32867eabb4c04b3d-0" next="i-a71da791a702ebd0-0" n="bfe23dc1">
+          <u who="per-hjalmar_fagerholm_c355c9" xml:id="i-e401b7e305ab3d5e-0" next="i-e401b7e305ab3d5e-11" n="bfe23dc1">
             <seg n="b0d492c1">
               Herr talman! Jag tillhör dem som un-
             </seg>
@@ -6485,10 +6672,10 @@
             </seg>
           </u>
           <pb n="72" facs="https://betalab.kb.se/prot-1948--ak--10/prot_1948__ak__10-072.jp2/_view"/>
-          <note n="137d13e2">
+          <note type="date" n="3c4ab505">
             Onsdagen den 10 mars 1948 em.
           </note>
-          <u who="per-hjalmar_fagerholm_c355c9" xml:id="i-a71da791a702ebd0-0" prev="i-32867eabb4c04b3d-0" n="bfe23dc1">
+          <u who="per-hjalmar_fagerholm_c355c9" xml:id="i-e401b7e305ab3d5e-1" prev="i-e401b7e305ab3d5e-0" n="bfe23dc1">
             <seg n="6b20c48d">
               långa försvarsskrift för riksbankens ledning och regeringspolitiken,
               som kommit till uttryck i utskottsmajoritetens förslag, icke är
@@ -6526,6 +6713,11 @@
               som man väntat att man skulle få från bankoutskottet. Kanske det
               var
             </seg>
+          </u>
+          <note n="de8f3b8f">
+            Nr 10. 73
+          </note>
+          <u who="per-hjalmar_fagerholm_c355c9" xml:id="i-e401b7e305ab3d5e-2" prev="i-e401b7e305ab3d5e-0" n="bfe23dc1">
             <seg n="4a38ceda">
               verklighetsfrämmande, men i varje fall hade jag hoppats på att
               man från bankoutskottet skulle ha mera realistiskt och rakt på
@@ -6565,6 +6757,12 @@
               avsikt att söka komma det svenska folkets levnadsstandard till
               livs. Jag får ju säga, alt om man jämför statsministerns
             </seg>
+          </u>
+          <pb n="73" facs="https://betalab.kb.se/prot-1948--ak--10/prot_1948__ak__10-073.jp2/_view"/>
+          <note n="d4d8880c">
+            74 Nr 10.
+          </note>
+          <u who="per-hjalmar_fagerholm_c355c9" xml:id="i-e401b7e305ab3d5e-3" prev="i-e401b7e305ab3d5e-0" n="bfe23dc1">
             <seg n="0f94450d">
               uttalande och herr Ohlins uttalande, tycker jag dock, att statsministerns
               uttalande i mångt och mycket var mera rakt på sak och mera realistiskt.
@@ -6599,6 +6797,11 @@
               sneglande på valtaktik. Vi behöva med andra ord få den balans
               i vår eko-
             </seg>
+          </u>
+          <note type="date" n="3c4ab505">
+            Onsdagen den 10 mars 1948 em.
+          </note>
+          <u who="per-hjalmar_fagerholm_c355c9" xml:id="i-e401b7e305ab3d5e-4" prev="i-e401b7e305ab3d5e-0" n="bfe23dc1">
             <seg n="9665e84f">
               nomi som bankoutskottet återkommer till under punkten 3:0 i sitt
               utlåtande, där det framhålles att grunden för framåtskridandet,
@@ -6626,6 +6829,14 @@
               detta utlåtande. De sakerna ha emellertid såvitt jag funnit blivit
               tillräckligt belysta redan förut.
             </seg>
+          </u>
+          <note n="aa492d66">
+            Härefter yttrade:
+          </note>
+          <note n="ac24c178">
+            Herr HJALMARSON: Herr talman!
+          </note>
+          <u who="per-hjalmar_fagerholm_c355c9" xml:id="i-e401b7e305ab3d5e-5" prev="i-e401b7e305ab3d5e-0" n="bfe23dc1">
             <seg n="e050a02b">
               Herr Ohlin berörde högerns ställningstagande till löneregleringen
               för statstjänstemännen 1944. Jag skall
@@ -6638,6 +6849,12 @@
               Det var icke så lätt att utan vidare förstå, vart herr Ohlin syftade
               med sitt
             </seg>
+          </u>
+          <pb n="74" facs="https://betalab.kb.se/prot-1948--ak--10/prot_1948__ak__10-074.jp2/_view"/>
+          <note type="date" n="3c4ab505">
+            Onsdagen den 10 mars 1948 em.
+          </note>
+          <u who="per-hjalmar_fagerholm_c355c9" xml:id="i-e401b7e305ab3d5e-6" prev="i-e401b7e305ab3d5e-0" n="bfe23dc1">
             <seg n="3ede66c3">
               uttalande. Men om jag icke missförstått det hela, skulle det
               innebära, antingen att högern ställde sig kritisk till löneregleringen
@@ -6676,6 +6893,11 @@
               Vid den tiden sade vi oss att vi för att förverkliga detta mål
               borde sträva efter att hålla penninginkomsten i görligaste mån
             </seg>
+          </u>
+          <note n="dc005646">
+            Nr 10. 75
+          </note>
+          <u who="per-hjalmar_fagerholm_c355c9" xml:id="i-e401b7e305ab3d5e-7" prev="i-e401b7e305ab3d5e-0" n="bfe23dc1">
             <seg n="474edbed">
               oförändrad men sänka priserna i takt med produktionens utveckling.
               Men mig veterligen har ej själva målsättningen: återställande
@@ -6714,6 +6936,12 @@
               Det skulle onekligen vara mycket intressant att från initierat
               håll få litet
             </seg>
+          </u>
+          <pb n="75" facs="https://betalab.kb.se/prot-1948--ak--10/prot_1948__ak__10-075.jp2/_view"/>
+          <note n="f303f143">
+            70 Nr 10.
+          </note>
+          <u who="per-hjalmar_fagerholm_c355c9" xml:id="i-e401b7e305ab3d5e-8" prev="i-e401b7e305ab3d5e-0" n="bfe23dc1">
             <seg n="5fc84484">
               närmare upplysning om vad det är för penningpolitiska medel man
               åsyftar för att åstadkomma denna stimulans åt Ssparandet. Hur
@@ -6749,6 +6977,11 @@
             <seg n="edfe0404">
               Man har i detta sammanhang särskilt berört förhållandena på bostadsmark-
             </seg>
+          </u>
+          <note type="date" n="3c4ab505">
+            Onsdagen den 10 mars 1948 em.
+          </note>
+          <u who="per-hjalmar_fagerholm_c355c9" xml:id="i-e401b7e305ab3d5e-9" prev="i-e401b7e305ab3d5e-0" n="bfe23dc1">
             <seg n="6bf6e5d4">
               naden. Utan att här ingå på frågan om vad som är den rätta höjden
               på räntan vill jag fästa uppmärksamheten på att den övervägande
@@ -6783,6 +7016,12 @@
               av våra lager. Men det måste väl ändå stå klart för envar, att
               när vi gjort
             </seg>
+          </u>
+          <pb n="76" facs="https://betalab.kb.se/prot-1948--ak--10/prot_1948__ak__10-076.jp2/_view"/>
+          <note type="date" n="3c4ab505">
+            Onsdagen den 10 mars 1948 em.
+          </note>
+          <u who="per-hjalmar_fagerholm_c355c9" xml:id="i-e401b7e305ab3d5e-10" prev="i-e401b7e305ab3d5e-0" n="bfe23dc1">
             <seg n="a122c423">
               oss av med i stort sett hela det rörelsekapital, som vi behöva
               för att på ett tillfredsställande sätt kunna sköta våra utländska
@@ -6815,48 +7054,16 @@
               år, när vi äro i den situationen jag nu försökt skissera? Jag
               tror att det är ganska många, som med
             </seg>
+          </u>
+          <note n="5033c3ce">
+            Nr 10. 77
+          </note>
+          <u who="per-hjalmar_fagerholm_c355c9" xml:id="i-e401b7e305ab3d5e-11" prev="i-e401b7e305ab3d5e-0" n="bfe23dc1">
             <seg n="8c9466d2">
               bävan se fram emot den dagen. Förvisso få vi alla dyrt umgälla
               den politik, som förts under de sista åren.
             </seg>
           </u>
-          <note n="de8f3b8f">
-            Nr 10. 73
-          </note>
-          <pb n="73" facs="https://betalab.kb.se/prot-1948--ak--10/prot_1948__ak__10-073.jp2/_view"/>
-          <note n="d4d8880c">
-            74 Nr 10.
-          </note>
-          <note n="137d13e2">
-            Onsdagen den 10 mars 1948 em.
-          </note>
-          <note n="aa492d66">
-            Härefter yttrade:
-          </note>
-          <note n="ac24c178">
-            Herr HJALMARSON: Herr talman!
-          </note>
-          <pb n="74" facs="https://betalab.kb.se/prot-1948--ak--10/prot_1948__ak__10-074.jp2/_view"/>
-          <note n="137d13e2">
-            Onsdagen den 10 mars 1948 em.
-          </note>
-          <note n="dc005646">
-            Nr 10. 75
-          </note>
-          <pb n="75" facs="https://betalab.kb.se/prot-1948--ak--10/prot_1948__ak__10-075.jp2/_view"/>
-          <note n="f303f143">
-            70 Nr 10.
-          </note>
-          <note n="137d13e2">
-            Onsdagen den 10 mars 1948 em.
-          </note>
-          <pb n="76" facs="https://betalab.kb.se/prot-1948--ak--10/prot_1948__ak__10-076.jp2/_view"/>
-          <note n="137d13e2">
-            Onsdagen den 10 mars 1948 em.
-          </note>
-          <note n="5033c3ce">
-            Nr 10. 77
-          </note>
           <note n="bc72fcd4">
             Herr talman! Jag ber att få yrka bifall till den av herr Wiberg
             m. fl. avgivna reservationen.
@@ -6864,7 +7071,7 @@
           <note type="speaker" n="4a32b6e9">
             Herr HALL:
           </note>
-          <u who="david_hall_faa3ea" xml:id="i-0dc720cd97f98882-1" next="i-4df14d0914512f32-1" n="78d66d24">
+          <u who="david_hall_faa3ea" xml:id="i-78d66d2497143dbc-13" next="i-78d66d2497143dbc-18" n="78d66d24">
             <seg n="bfc25479">
               Herr talman! Jag har några repliker att ge till de talare, som
               yttrat sig sedan jag sist hade ordet.
@@ -6902,7 +7109,7 @@
           <note n="752a41de">
             78 Nr 10.
           </note>
-          <u who="david_hall_faa3ea" xml:id="i-4df14d0914512f32-1" prev="i-0dc720cd97f98882-1" n="78d66d24">
+          <u who="david_hall_faa3ea" xml:id="i-78d66d2497143dbc-14" prev="i-78d66d2497143dbc-13" n="78d66d24">
             <seg n="5e06814e">
               svenska valutareserverna. Den tanken är ju inte ny utan har också
               förts fram i den offentliga diskussionen, nämligen att om vi i
@@ -6935,6 +7142,11 @@
               ganska ofullständig kännedom om detaljerna i den hushållning,
               som vi nu ha att brottas med. Jag medger att man därvidlag kan
             </seg>
+          </u>
+          <note type="date" n="3c4ab505">
+            Onsdagen den 10 mars 1948 em.
+          </note>
+          <u who="david_hall_faa3ea" xml:id="i-78d66d2497143dbc-15" prev="i-78d66d2497143dbc-13" n="78d66d24">
             <seg n="b77ada04">
               göra en reservation för den händelse att lånekrävarna mena, att
               det skall röra sig om miljardbelopp. Men det tror jag ingen gissat
@@ -6969,6 +7181,12 @@
               Det har gjoris några man kanske skulle kunna kalla ekonomiskt-filosofiska
               betraktelser här om hur svårt det är att vara ett svagt
             </seg>
+          </u>
+          <pb n="78" facs="https://betalab.kb.se/prot-1948--ak--10/prot_1948__ak__10-078.jp2/_view"/>
+          <note type="date" n="3c4ab505">
+            Onsdagen den 10 mars 1948 em.
+          </note>
+          <u who="david_hall_faa3ea" xml:id="i-78d66d2497143dbc-16" prev="i-78d66d2497143dbc-13" n="78d66d24">
             <seg n="f24664fd">
               valutaland och hur svårt det är att vara fattig o. s. v., o.
               s. v. Allt detta kan vara riktigt, men jag tror att man därvidlag
@@ -7004,6 +7222,11 @@
               det mesta man får ur dem är det, att de absolut ingenting veta.
               Det beskedet fick jag senast i går vid ett samtal om dessa ting,
             </seg>
+          </u>
+          <note n="94e22a28">
+            Nr 10. 79
+          </note>
+          <u who="david_hall_faa3ea" xml:id="i-78d66d2497143dbc-17" prev="i-78d66d2497143dbc-13" n="78d66d24">
             <seg n="c86b0c87">
               men om inte de, som på grund av sitt yrke ägna sig åt ekonomisk
               forskning, veta mera, kanske det är oskäligt att på regeringen
@@ -7038,6 +7261,12 @@
               Jag refererar dessa sakkunniga människors ståndpunkt utan att
               själv taga ställning till den, men det är klart att
             </seg>
+          </u>
+          <pb n="79" facs="https://betalab.kb.se/prot-1948--ak--10/prot_1948__ak__10-079.jp2/_view"/>
+          <note n="aed6eca2">
+            80 Nr 10.
+          </note>
+          <u who="david_hall_faa3ea" xml:id="i-78d66d2497143dbc-18" prev="i-78d66d2497143dbc-13" n="78d66d24">
             <seg n="f0f93e00">
               de som ha att handla inte kunna låta bli att taga intryck av
               vad folk, som man har anledning tro har gott omdöme och som representerar
@@ -7062,24 +7291,10 @@
               vara i de flesta andra länder.
             </seg>
           </u>
-          <note n="137d13e2">
-            Onsdagen den 10 mars 1948 em.
-          </note>
-          <pb n="78" facs="https://betalab.kb.se/prot-1948--ak--10/prot_1948__ak__10-078.jp2/_view"/>
-          <note n="137d13e2">
-            Onsdagen den 10 mars 1948 em.
-          </note>
-          <note n="94e22a28">
-            Nr 10. 79
-          </note>
-          <pb n="79" facs="https://betalab.kb.se/prot-1948--ak--10/prot_1948__ak__10-079.jp2/_view"/>
-          <note n="aed6eca2">
-            80 Nr 10.
-          </note>
           <note type="speaker" n="791e7293">
             Herr OHLIN erhöll på begäran ordet för kort genmäle och anförde:
           </note>
-          <u who="bertil_ohlin_2d3e4b" xml:id="i-877c48d8dc3a2521-2" next="i-48b21169c16308f9-2" n="af4a1309">
+          <u who="bertil_ohlin_2d3e4b" xml:id="i-af4a1309e57c8314-19" next="i-af4a1309e57c8314-20" n="af4a1309">
             <seg n="73cd5f9e">
               Herr talman! Herr Hall har inte upptäckt att det i kammaren framförts
               någon kritik mot riksbanksfullmäktige. Jag vill inte att detta
@@ -7095,10 +7310,10 @@
               inte har dolt sin mening att vi befinna
             </seg>
           </u>
-          <note n="137d13e2">
+          <note type="date" n="3c4ab505">
             Onsdagen den 10 mars 1948 em.
           </note>
-          <u who="bertil_ohlin_2d3e4b" xml:id="i-48b21169c16308f9-2" prev="i-877c48d8dc3a2521-2" n="af4a1309">
+          <u who="bertil_ohlin_2d3e4b" xml:id="i-af4a1309e57c8314-20" prev="i-af4a1309e57c8314-19" n="af4a1309">
             <seg n="ae917773">
               oss i ett läge som är rätt avlägset från balansens återställande.
             </seg>
@@ -7140,14 +7355,14 @@
             </seg>
           </u>
           <pb n="80" facs="https://betalab.kb.se/prot-1948--ak--10/prot_1948__ak__10-080.jp2/_view"/>
-          <note n="137d13e2">
+          <note type="date" n="3c4ab505">
             Onsdagen den 10 mars 1948 em.
           </note>
           <note type="speaker" n="655d3817">
             Herr HALL erhöll likaledes på begäran ordet för kort genmäle
             och yttrade:
           </note>
-          <u who="david_hall_faa3ea" xml:id="i-c2d4d1b6b78e846c-0" n="78d66d24">
+          <u who="david_hall_faa3ea" xml:id="i-78d66d2497143dbc-19" n="78d66d24">
             <seg n="fca077f2">
               Herr talman! Det gläder mig naturligtvis mycket att herr Ohlin
               träffat så snälla amerikanska bankdirektörer. Jag vet att det
@@ -7177,7 +7392,7 @@
           <note type="speaker" n="7219628e">
             Herr WIBERG:
           </note>
-          <u who="ake_wiberg_3e83f4" xml:id="i-0511e406130b6702-2" next="i-7aa7a94c8b096831-2" n="b7347a56">
+          <u who="ake_wiberg_3e83f4" xml:id="i-b7347a565a3eb25f-13" next="i-b7347a565a3eb25f-19" n="b7347a56">
             <seg n="64140c02">
               Herr talman! Den penningpolitiska debatten lider väl nu mot sitt
               slut, och jag vågar utirycka den förmodan att dagens överläggningar
@@ -7194,7 +7409,7 @@
           <note n="66c94954">
             Nr 10. 81
           </note>
-          <u who="ake_wiberg_3e83f4" xml:id="i-7aa7a94c8b096831-2" prev="i-0511e406130b6702-2" n="b7347a56">
+          <u who="ake_wiberg_3e83f4" xml:id="i-b7347a565a3eb25f-14" prev="i-b7347a565a3eb25f-13" n="b7347a56">
             <seg n="6d143e49">
               omfattas av experter på det praktiska livets område utanför riksdagen.
               För min del skall jag avsluta dagens debatt med några erinringar
@@ -7232,6 +7447,15 @@
               och de omvälvningar inom världshandeln som kriget medfört, en
               utveckling som med
             </seg>
+          </u>
+          <note n="fb946771">
+            6 — Andra kammarens protokoll 1948. Nr 10.
+          </note>
+          <pb n="81" facs="https://betalab.kb.se/prot-1948--ak--10/prot_1948__ak__10-081.jp2/_view"/>
+          <note n="d0eecd7f">
+            82 Nr 10.
+          </note>
+          <u who="ake_wiberg_3e83f4" xml:id="i-b7347a565a3eb25f-15" prev="i-b7347a565a3eb25f-13" n="b7347a56">
             <seg n="a5be486a">
               naturnödvändighet även drabbade Sverige, även dessa erkänna att
               en väsentlig orsak till valutakrisen ligger i det alltmer växande
@@ -7265,6 +7489,11 @@
               länder i de flesta fall har varit en tyst förutsättning för våra
               exportmöjligheter. Är det någon sannolikhet i att exempelvis Chile
             </seg>
+          </u>
+          <note type="date" n="3c4ab505">
+            Onsdagen den 10 mars 1948 em.
+          </note>
+          <u who="ake_wiberg_3e83f4" xml:id="i-b7347a565a3eb25f-16" prev="i-b7347a565a3eb25f-13" n="b7347a56">
             <seg n="b8abc046">
               skulle köpa ifrån Sverige i motsvarande mån som under 1947, då
               exporten dit uppgick till 22 miljoner kronor, om vi samtidigt
@@ -7298,6 +7527,12 @@
               i stället övertagits av Förenta staterna. Men detta land med sin
               enorma produktionskapacitet har alltid bedri-
             </seg>
+          </u>
+          <pb n="82" facs="https://betalab.kb.se/prot-1948--ak--10/prot_1948__ak__10-082.jp2/_view"/>
+          <note type="date" n="3c4ab505">
+            Onsdagen den 10 mars 1948 em.
+          </note>
+          <u who="ake_wiberg_3e83f4" xml:id="i-b7347a565a3eb25f-17" prev="i-b7347a565a3eb25f-13" n="b7347a56">
             <seg n="4d09f2c0">
               vit och kommer väl åtminstone under överskådlig framtid att bedriva
               ett slags nymerkantilism, för vilken ett exportöverskott framstår
@@ -7329,6 +7564,11 @@
               medger att så är fallet — vilket man emellertid kan göra endast
               i viss omfaltning — äro enligt min mening statsmakterna därmed
             </seg>
+          </u>
+          <note n="7c30a6e1">
+            Nr 10. 83
+          </note>
+          <u who="ake_wiberg_3e83f4" xml:id="i-b7347a565a3eb25f-18" prev="i-b7347a565a3eb25f-13" n="b7347a56">
             <seg n="8b14e8b9">
               inte ursäktade för att de låtit utvecklingen ha sin gång och
               för att de underlåtit att slå vakt om valutareserven.
@@ -7368,6 +7608,12 @@
               1938. Importen av vävnader, innehållande silke, uppgick till över
               56 miljoner mot 12,5
             </seg>
+          </u>
+          <pb n="83" facs="https://betalab.kb.se/prot-1948--ak--10/prot_1948__ak__10-083.jp2/_view"/>
+          <note n="583f34bb">
+            84 Nr 10.
+          </note>
+          <u who="ake_wiberg_3e83f4" xml:id="i-b7347a565a3eb25f-19" prev="i-b7347a565a3eb25f-13" n="b7347a56">
             <seg n="667870ed">
               miljoner år 1938. Av lättförståeliga skäl skall jag avstå från
               att nämna några siffror beträffande importen av nylonstrumpor
@@ -7387,34 +7633,13 @@
               såväl en annan ekonomisk politik som en annan valutaoch penningpolitik.
             </seg>
           </u>
-          <note n="fb946771">
-            6 — Andra kammarens protokoll 1948. Nr 10.
-          </note>
-          <pb n="81" facs="https://betalab.kb.se/prot-1948--ak--10/prot_1948__ak__10-081.jp2/_view"/>
-          <note n="d0eecd7f">
-            82 Nr 10.
-          </note>
-          <note n="137d13e2">
-            Onsdagen den 10 mars 1948 em.
-          </note>
-          <pb n="82" facs="https://betalab.kb.se/prot-1948--ak--10/prot_1948__ak__10-082.jp2/_view"/>
-          <note n="137d13e2">
-            Onsdagen den 10 mars 1948 em.
-          </note>
-          <note n="7c30a6e1">
-            Nr 10. 83
-          </note>
-          <pb n="83" facs="https://betalab.kb.se/prot-1948--ak--10/prot_1948__ak__10-083.jp2/_view"/>
-          <note n="583f34bb">
-            84 Nr 10.
-          </note>
           <note n="d32fbc14">
             Jag ber, herr talman, att få hemställa om bifall till reservationen.
           </note>
           <note type="speaker" n="f9629aaf">
             Herr ANDERSSON i Tungelsta:
           </note>
-          <u who="sven_andersson_f5ed18" xml:id="i-1b62b8167265d875-1" next="i-c7e1d0b64d78572b-1" n="1de75209">
+          <u who="sven_andersson_f5ed18" xml:id="i-9e0e4b5aa7d00d06-2" next="i-9e0e4b5aa7d00d06-3" n="1de75209">
             <seg n="b00721c5">
               Herr talman! Debatten har nu pågått så länge, att jag inte vill
               förlänga den med att närmare gå in på de olika spörsmål, som här
@@ -7436,10 +7661,10 @@
               resonemang,
             </seg>
           </u>
-          <note n="137d13e2">
+          <note type="date" n="3c4ab505">
             Onsdagen den 10 mars 1948 em.
           </note>
-          <u who="sven_andersson_f5ed18" xml:id="i-c7e1d0b64d78572b-1" prev="i-1b62b8167265d875-1" n="1de75209">
+          <u who="sven_andersson_f5ed18" xml:id="i-9e0e4b5aa7d00d06-3" prev="i-9e0e4b5aa7d00d06-2" n="1de75209">
             <seg n="1adc6740">
               som förts, och den kritik, som rests, inte bara här i kammaren,
               utan kanske i ännu större utsträckning i debatten ute i landet
@@ -7474,7 +7699,7 @@
           <note type="speaker" n="c6a930c3">
             Herr HAGBERG i Malmö:
           </note>
-          <u who="hilding_hagberg_a6b9a0" xml:id="i-65e191c41b642255-4" next="i-740875a4d9a10c30-4" n="043f6ac6">
+          <u who="hilding_hagberg_a6b9a0" xml:id="i-043f6ac6b11b8529-26" next="i-043f6ac6b11b8529-29" n="043f6ac6">
             <seg n="fa06d6fc">
               Herr talman! Jag skall inte ta upp någon polemik med min kollega
               och kamrat i bankofullmäktige, dess vice ordförande herr Hall.
@@ -7484,10 +7709,10 @@
             </seg>
           </u>
           <pb n="84" facs="https://betalab.kb.se/prot-1948--ak--10/prot_1948__ak__10-084.jp2/_view"/>
-          <note n="137d13e2">
+          <note type="date" n="3c4ab505">
             Onsdagen den 10 mars 1948 em.
           </note>
-          <u who="hilding_hagberg_a6b9a0" xml:id="i-740875a4d9a10c30-4" prev="i-65e191c41b642255-4" n="043f6ac6">
+          <u who="hilding_hagberg_a6b9a0" xml:id="i-043f6ac6b11b8529-27" prev="i-043f6ac6b11b8529-26" n="043f6ac6">
             <seg n="9398613f">
               det hela taget på samma sätt som han. Å andra sidan kan jag inte
               låta bli att knyta en kort kommentar till den relation, som herr
@@ -7525,6 +7750,11 @@
               diskussionsschema under de senaste månaderna och även lett till
               positiva åtgärder från full-
             </seg>
+          </u>
+          <note n="a25ea073">
+            Nr 10. 85
+          </note>
+          <u who="hilding_hagberg_a6b9a0" xml:id="i-043f6ac6b11b8529-28" prev="i-043f6ac6b11b8529-26" n="043f6ac6">
             <seg n="58206f22">
               mäktiges sida. Den passiva hållning, som jag tyckte herr Hall
               ville skildra såsom karakteristisk för bankofullmäktiges agerande
@@ -7561,6 +7791,12 @@
               åskådar en utveckling på inkomstoch lönefronten, som måste inge
               en allvarlig oro både
             </seg>
+          </u>
+          <pb n="85" facs="https://betalab.kb.se/prot-1948--ak--10/prot_1948__ak__10-085.jp2/_view"/>
+          <note n="3326fe1c">
+            86 Nr 10.
+          </note>
+          <u who="hilding_hagberg_a6b9a0" xml:id="i-043f6ac6b11b8529-29" prev="i-043f6ac6b11b8529-26" n="043f6ac6">
             <seg n="aadff30d">
               för penningvärdet och för hela vårt produktionsliv.
             </seg>
@@ -7578,17 +7814,10 @@
               än vad som nu är möjligt, åtminstone för en hel del av medborgarna.
             </seg>
           </u>
-          <note n="a25ea073">
-            Nr 10. 85
-          </note>
-          <pb n="85" facs="https://betalab.kb.se/prot-1948--ak--10/prot_1948__ak__10-085.jp2/_view"/>
-          <note n="3326fe1c">
-            86 Nr 10.
-          </note>
           <note type="speaker" n="469977b8">
             Herr SUNDBERG:
           </note>
-          <u who="hugo_sundberg_868ca3" xml:id="i-218f8719c4c7b56e-0" next="i-27c51fb160753cce-0" n="1ca650f5">
+          <u who="hugo_sundberg_868ca3" xml:id="i-a74a4411a5e99cd0-0" next="i-a74a4411a5e99cd0-1" n="1ca650f5">
             <seg n="80e77b74">
               Herr talman! Vad som närmast föranledde mig att begära ordet
               var ett yttrande av min värderade utskottskollega herr Fagerholm
@@ -7608,10 +7837,10 @@
               huruvida inte detsamma skulle bli fallet beträffande vårt land.
             </seg>
           </u>
-          <note n="137d13e2">
+          <note type="date" n="3c4ab505">
             Onsdagen den 10 mars 1948 em.
           </note>
-          <u who="hugo_sundberg_868ca3" xml:id="i-27c51fb160753cce-0" prev="i-218f8719c4c7b56e-0" n="1ca650f5">
+          <u who="hugo_sundberg_868ca3" xml:id="i-a74a4411a5e99cd0-1" prev="i-a74a4411a5e99cd0-0" n="1ca650f5">
             <seg n="40a840d0">
               Exempel saknas alltså inte på att lånevillkoren ha varit så hårda,
               att man inte kunnat utnyttja lånen.
@@ -7652,7 +7881,7 @@
             dels ock på
           </note>
           <pb n="86" facs="https://betalab.kb.se/prot-1948--ak--10/prot_1948__ak__10-086.jp2/_view"/>
-          <note n="137d13e2">
+          <note type="date" n="3c4ab505">
             Onsdagen den 10 mars 1948 em.
           </note>
           <note n="7ddcc8df">
@@ -7719,7 +7948,7 @@
           <note type="speaker" n="469977b8">
             Herr SUNDBERG:
           </note>
-          <u who="hugo_sundberg_868ca3" xml:id="i-218f8719c4c7b56e-1" next="i-27c51fb160753cce-1" n="1ca650f5">
+          <u who="hugo_sundberg_868ca3" xml:id="i-a74a4411a5e99cd0-2" next="i-a74a4411a5e99cd0-3" n="1ca650f5">
             <seg n="284638e8">
               Herr talman! Vid denna punkt är fogad en blank reservation av
               mig och herr Fröderberg. Jag ber att i korthet få anföra ett par
@@ -7759,7 +7988,7 @@
           <note n="9005966f">
             88 Nr 10.
           </note>
-          <u who="hugo_sundberg_868ca3" xml:id="i-27c51fb160753cce-1" prev="i-218f8719c4c7b56e-1" n="1ca650f5">
+          <u who="hugo_sundberg_868ca3" xml:id="i-a74a4411a5e99cd0-3" prev="i-a74a4411a5e99cd0-2" n="1ca650f5">
             <seg n="4e33da53">
               utgå med förhöjt belopp, utan ha inskränkt oss till att avge
               en blank reservation för att därmed uttala den bestämda förhoppningen,
@@ -7813,7 +8042,7 @@
             landskommuner. Genom beslutet hade godkänts utskottets utlåtande
             över motionerna, nr 39, i vilket utlåtande ut-
           </note>
-          <note n="137d13e2">
+          <note type="date" n="3c4ab505">
             Onsdagen den 10 mars 1948 em.
           </note>
           <note n="bbb392ac">
@@ -7837,7 +8066,7 @@
           <note type="speaker" n="4522133b">
             Herr DICKSON:
           </note>
-          <u who="james_dickson_589af6" xml:id="i-e795d43cf5db8193-3" next="i-8fe4b8a614a2c956-3" n="eae0ed27">
+          <u who="james_dickson_589af6" xml:id="i-eae0ed274cf5bb6e-6" next="i-eae0ed274cf5bb6e-9" n="eae0ed27">
             <seg n="e1d4ad0b">
               Herr talman! Jag har fått reda på att man vid utskottsbehandlingen
               har sagt sig icke förstå meningen med förevarande motion. Jag
@@ -7863,10 +8092,10 @@
             </seg>
           </u>
           <pb n="88" facs="https://betalab.kb.se/prot-1948--ak--10/prot_1948__ak__10-088.jp2/_view"/>
-          <note n="137d13e2">
+          <note type="date" n="3c4ab505">
             Onsdagen den 10 mars 1948 em.
           </note>
-          <u who="james_dickson_589af6" xml:id="i-8fe4b8a614a2c956-3" prev="i-e795d43cf5db8193-3" n="eae0ed27">
+          <u who="james_dickson_589af6" xml:id="i-eae0ed274cf5bb6e-7" prev="i-eae0ed274cf5bb6e-6" n="eae0ed27">
             <seg n="8e5c1030">
               band därmed fanns i utlåtandet en tabell, till vilken det i år
               hänvisas men vilken icke är intagen i detta års utlåtande. Den
@@ -7901,6 +8130,11 @@
               förorsakat eldsvådor, skall jag börja resonera, men till dess
               står jag
             </seg>
+          </u>
+          <note n="cfe5ba38">
+            Nr 10. 89
+          </note>
+          <u who="james_dickson_589af6" xml:id="i-eae0ed274cf5bb6e-8" prev="i-eae0ed274cf5bb6e-6" n="eae0ed27">
             <seg n="687124d9">
               fast vid min ståndpunkt. Och den ståndpunkten är den, att detta
               är en fråga som man icke skall lagstifta i. Man skall icke utfärda
@@ -7935,6 +8169,12 @@
             <seg n="8dc59dbb">
               att det kommer att bli ideliga lagbrott.
             </seg>
+          </u>
+          <pb n="89" facs="https://betalab.kb.se/prot-1948--ak--10/prot_1948__ak__10-089.jp2/_view"/>
+          <note n="7257e39d">
+            90 Nr 10.
+          </note>
+          <u who="james_dickson_589af6" xml:id="i-eae0ed274cf5bb6e-9" prev="i-eae0ed274cf5bb6e-6" n="eae0ed27">
             <seg n="81123043">
               Det blir en känsla av trots mot överheten, det blir olust och
               kanske litet ont samvete när vederbörande går och fruktar att
@@ -7974,14 +8214,7 @@
               motionen.
             </seg>
           </u>
-          <note n="cfe5ba38">
-            Nr 10. 89
-          </note>
-          <pb n="89" facs="https://betalab.kb.se/prot-1948--ak--10/prot_1948__ak__10-089.jp2/_view"/>
-          <note n="7257e39d">
-            90 Nr 10.
-          </note>
-          <note n="137d13e2">
+          <note type="date" n="3c4ab505">
             Onsdagen den 10 mars 1948 em.
           </note>
           <note n="f6fcc5af">
@@ -7991,7 +8224,7 @@
           <note type="speaker" n="9d7432c3">
             Herr LINDQVIST:
           </note>
-          <u who="axel_lindqvist_5866c9" xml:id="i-573b5a79070ea5cf-0" next="i-3a56a1b2b6261cce-0" n="2ebcd397">
+          <u who="axel_lindqvist_5866c9" xml:id="i-2ebcd3971eaf764c-0" next="i-2ebcd3971eaf764c-2" n="2ebcd397">
             <seg n="7afe3ac6">
               Herr talman! Jag kan icke för min del tala om för herr Dickson
               hur många halmstackar som blivit antända, och det har icke första
@@ -8028,10 +8261,10 @@
             <seg n="047141ce"/>
           </u>
           <pb n="90" facs="https://betalab.kb.se/prot-1948--ak--10/prot_1948__ak__10-090.jp2/_view"/>
-          <note n="137d13e2">
+          <note type="date" n="3c4ab505">
             Onsdagen den 10 mars 1948 em.
           </note>
-          <u who="axel_lindqvist_5866c9" xml:id="i-3a56a1b2b6261cce-0" prev="i-573b5a79070ea5cf-0" n="2ebcd397">
+          <u who="axel_lindqvist_5866c9" xml:id="i-2ebcd3971eaf764c-1" prev="i-2ebcd3971eaf764c-0" n="2ebcd397">
             <seg n="94a91470">
               vas i annan ordning än genom en tvångsoch förbudslagstiftning,
               varmed måste följa en irriterande kontrolloch övervakningstrafik,
@@ -8068,6 +8301,11 @@
               Det uttalande, som utskottet gjorde förra året, ha länsstyrelserna,
               såvitt jag vet, beaktat, och det har lett till de upp-
             </seg>
+          </u>
+          <note n="e423f9a6">
+            Nr 10. 91
+          </note>
+          <u who="axel_lindqvist_5866c9" xml:id="i-2ebcd3971eaf764c-2" prev="i-2ebcd3971eaf764c-0" n="2ebcd397">
             <seg n="78e4948f">
               mjukningar, som riksdagen gick in för i fjol. Det kan icke vara
               riktigt — det vill jag säga mera allvarligt till herr Dickson
@@ -8097,13 +8335,10 @@
               bifall till utskottets hemställan.
             </seg>
           </u>
-          <note n="e423f9a6">
-            Nr 10. 91
-          </note>
           <note type="speaker" n="4522133b">
             Herr DICKSON:
           </note>
-          <u who="james_dickson_589af6" xml:id="i-e795d43cf5db8193-4" next="i-8fe4b8a614a2c956-4" n="eae0ed27">
+          <u who="james_dickson_589af6" xml:id="i-eae0ed274cf5bb6e-10" next="i-eae0ed274cf5bb6e-11" n="eae0ed27">
             <seg n="9a427ad7">
               Herr talman! Vi ha nu sett ett exempel på en mycket erfaren och
               rutinerad riksdagsmans sätt att komma ifrån en besvärlig situation.
@@ -8119,7 +8354,7 @@
           <note n="0737b334">
             92 Nr 10.
           </note>
-          <u who="james_dickson_589af6" xml:id="i-8fe4b8a614a2c956-4" prev="i-e795d43cf5db8193-4" n="eae0ed27">
+          <u who="james_dickson_589af6" xml:id="i-eae0ed274cf5bb6e-11" prev="i-eae0ed274cf5bb6e-10" n="eae0ed27">
             <seg n="5297e3f8">
               lagutskottet, men nog tycker jag, att en utredning i denna fråga
               borde inrikta sig just på det som har det största intresset för
@@ -8142,7 +8377,7 @@
           <note type="speaker" n="326c27c1">
             Herr STAXÄNG:
           </note>
-          <u who="unknown" xml:id="i-8046f9d7dd79ae45-4" n="9f528dde">
+          <u who="unknown" xml:id="i-9f528dde1da7f94e-22" n="9f528dde">
             <seg n="22ca2f1f">
               Herr talman! Jag förstår ju att första lagutskottets högt värderade
               ordförande kräver strikt ordning, när man kommer med motioner,
@@ -8162,10 +8397,10 @@
               detta område. Då bestämdes,
             </seg>
           </u>
-          <note n="137d13e2">
+          <note type="date" n="3c4ab505">
             Onsdagen den 10 mars 1948 em.
           </note>
-          <u who="unknown" xml:id="i-1b182051095bc94a-4" n="9f528dde">
+          <u who="unknown" xml:id="i-9f528dde1da7f94e-23" n="9f528dde">
             <seg n="73e76b4e">
               att halmstack icke fick placeras på mindre avstånd från byggnad
               än 12 m. Det är riktigt, som herr Lindqvist säser, att fjolårets
@@ -8205,6 +8440,12 @@
               formulerat motionen — måste det vara tydligt, att man önskar,
               att bestämmelsen om tolvmetersgränsen
             </seg>
+          </u>
+          <pb n="92" facs="https://betalab.kb.se/prot-1948--ak--10/prot_1948__ak__10-092.jp2/_view"/>
+          <note type="date" n="3c4ab505">
+            Onsdagen den 10 mars 1948 em.
+          </note>
+          <u who="unknown" xml:id="i-9f528dde1da7f94e-24" n="9f528dde">
             <seg n="f7e06c2f">
               i fråga om halmstacks placering skall utgå. Det borde icke vara
               svårt att förstå, att meningen är, att det skall läggas i jordbrukarnas
@@ -8228,14 +8469,10 @@
               Jag ber att få yrka bifall till motionen.
             </seg>
           </u>
-          <pb n="92" facs="https://betalab.kb.se/prot-1948--ak--10/prot_1948__ak__10-092.jp2/_view"/>
-          <note n="137d13e2">
-            Onsdagen den 10 mars 1948 em.
-          </note>
           <note type="speaker" n="2675831f">
             Herr LINDQVIST erhöll på begäran ordet för kort genmäle och yttrade:
           </note>
-          <u who="axel_lindqvist_5866c9" xml:id="i-573b5a79070ea5cf-1" next="i-3a56a1b2b6261cce-1" n="2ebcd397">
+          <u who="axel_lindqvist_5866c9" xml:id="i-2ebcd3971eaf764c-3" next="i-2ebcd3971eaf764c-4" n="2ebcd397">
             <seg n="23331fd6">
               Herr talman! Jag hade inga siffror till hands, då herr Dickson
               efterlyste sådana. Förra årets lagutskott har återgivit några
@@ -8255,7 +8492,7 @@
           <note n="68026f5d">
             Nr 10. 93
           </note>
-          <u who="axel_lindqvist_5866c9" xml:id="i-3a56a1b2b6261cce-1" prev="i-573b5a79070ea5cf-1" n="2ebcd397">
+          <u who="axel_lindqvist_5866c9" xml:id="i-2ebcd3971eaf764c-4" prev="i-2ebcd3971eaf764c-3" n="2ebcd397">
             <seg n="508d899f">
               15,4 Jo legat på 9—15 meters avstånd från primärbranden,
             </seg>
@@ -8295,7 +8532,7 @@
             Herr DICKSON erhöll likaledes på begäran ordet för kort genmäle
             och anförde:
           </note>
-          <u who="james_dickson_589af6" xml:id="i-e795d43cf5db8193-5" next="i-8fe4b8a614a2c956-5" n="eae0ed27">
+          <u who="james_dickson_589af6" xml:id="i-eae0ed274cf5bb6e-12" next="i-eae0ed274cf5bb6e-16" n="eae0ed27">
             <seg n="99b1d42c">
               Herr talman! Det var just den tabellen som herr Lindqvist nu
               läste upp som jag tyckte var så rolig. Av den framgår det att
@@ -8318,7 +8555,7 @@
             ändrade bestämmelser i de nu gällande brandordningarna att bestämmelserna
             om visst avstånd mellan halmstack och byggnad måtte utgå.
           </note>
-          <u who="james_dickson_589af6" xml:id="i-8fe4b8a614a2c956-5" prev="i-e795d43cf5db8193-5" n="eae0ed27">
+          <u who="james_dickson_589af6" xml:id="i-eae0ed274cf5bb6e-13" prev="i-eae0ed274cf5bb6e-12" n="eae0ed27">
             <seg n="96ea1e9b">
               Är det riktigt så, herr Lindqvist? (Herr Lindqvist: Det tillkommer
               väl inte mig att avgöra.)
@@ -8327,9 +8564,20 @@
               Herr talman! Jag ber att få tillägga, att om herr Lindqvist nu
               inte förstår
             </seg>
+          </u>
+          <pb n="93" facs="https://betalab.kb.se/prot-1948--ak--10/prot_1948__ak__10-093.jp2/_view"/>
+          <note n="6eeecdda">
+            94 Nr 10.
+          </note>
+          <u who="james_dickson_589af6" xml:id="i-eae0ed274cf5bb6e-14" prev="i-eae0ed274cf5bb6e-12" n="eae0ed27">
             <seg n="ec0c2861">
               vad jag menar, vore jag tacksam att få besked om den saken.
             </seg>
+          </u>
+          <note n="1e4636fe">
+            Vidare yttrade:
+          </note>
+          <u who="james_dickson_589af6" xml:id="i-eae0ed274cf5bb6e-15" prev="i-eae0ed274cf5bb6e-12" n="eae0ed27">
             <seg n="8c2b5278">
               Herr förste vice talmannen MAGNUS- SON: Herr talman! Jag föranleddes
               att begära ordet, när utskottets ärade ordförande förklarade att
@@ -8364,6 +8612,11 @@
               att han inte utsätter sig för eldfara i onödan. Har han någon
               möjlighet att lägga
             </seg>
+          </u>
+          <note type="date" n="3c4ab505">
+            Onsdagen den 10 mars 1948 em.
+          </note>
+          <u who="james_dickson_589af6" xml:id="i-eae0ed274cf5bb6e-16" prev="i-eae0ed274cf5bb6e-12" n="eae0ed27">
             <seg n="3164c869">
               halmen så, att eldfaran är eliminerad, så gör han det.
             </seg>
@@ -8372,20 +8625,10 @@
               bortfalla.
             </seg>
           </u>
-          <pb n="93" facs="https://betalab.kb.se/prot-1948--ak--10/prot_1948__ak__10-093.jp2/_view"/>
-          <note n="6eeecdda">
-            94 Nr 10.
-          </note>
-          <note n="1e4636fe">
-            Vidare yttrade:
-          </note>
-          <note n="137d13e2">
-            Onsdagen den 10 mars 1948 em.
-          </note>
           <note type="speaker" n="4cade1d8">
             Herr OLSSON i Mellerud:
           </note>
-          <u who="kj_olsson_fad08f" xml:id="i-c1e2e77a44184063-0" next="i-88a1f0208b1ecc20-0" n="e865523b">
+          <u who="kj_olsson_fad08f" xml:id="i-9ef3f2fed35f01ca-1" next="i-9ef3f2fed35f01ca-2" n="e865523b">
             <seg n="e01e31bc">
               Herr talman! Vår vän herr Dickson förmenade att hans motion skulle
               ha vållat irritation i första lagutskottet. Då är emellertid herr
@@ -8423,10 +8666,10 @@
             </seg>
           </u>
           <pb n="94" facs="https://betalab.kb.se/prot-1948--ak--10/prot_1948__ak__10-094.jp2/_view"/>
-          <note n="137d13e2">
+          <note type="date" n="3c4ab505">
             Onsdagen den 10 mars 1948 em.
           </note>
-          <u who="kj_olsson_fad08f" xml:id="i-88a1f0208b1ecc20-0" prev="i-c1e2e77a44184063-0" n="e865523b">
+          <u who="kj_olsson_fad08f" xml:id="i-9ef3f2fed35f01ca-2" prev="i-9ef3f2fed35f01ca-1" n="e865523b">
             <seg n="3ffe86a5">
               skottet har emellertid enhälligt konstaterat, att det med hänsyn
               till det föreliggande materialet inte är tillrådligt att gå längre
@@ -8443,7 +8686,7 @@
           <note type="speaker" n="09479802">
             Herr SVENINGSSON:
           </note>
-          <u who="ragnar_sveningsson_d38f98" xml:id="i-6cfbd572452ad0bd-0" next="i-ccc46d315caa0650-0" n="5d2f44dc">
+          <u who="ragnar_sveningsson_d38f98" xml:id="i-5d2f44dc73c1821e-0" next="i-5d2f44dc73c1821e-1" n="5d2f44dc">
             <seg n="6ff99ea6">
               Herr talman! I sitt första anförande framböll herr Dickson att
               det var två jordbrukare som skrivit under första lagutskottets
@@ -8480,7 +8723,7 @@
           <note n="0e67686f">
             Nr 10. 95
           </note>
-          <u who="ragnar_sveningsson_d38f98" xml:id="i-ccc46d315caa0650-0" prev="i-6cfbd572452ad0bd-0" n="5d2f44dc">
+          <u who="ragnar_sveningsson_d38f98" xml:id="i-5d2f44dc73c1821e-1" prev="i-5d2f44dc73c1821e-0" n="5d2f44dc">
             <seg n="6b951aa7">
               om avståndet mellan halmstack och byggnad är något som jordbrukarna
               böra kunna klara upp själva tillsammans med försäkringsbolagen.
@@ -8511,7 +8754,7 @@
           <note type="speaker" n="85ed51ca">
             Herr HANSSON i Skediga:
           </note>
-          <u who="per_albin_hansson_dd458b" xml:id="i-2d59acd2aa23d1ad-0" next="i-6c03309a08df9556-0" n="754704ff">
+          <u who="per_albin_hansson_dd458b" xml:id="i-754704ff00ac46d2-0" next="i-754704ff00ac46d2-1" n="754704ff">
             <seg n="e6c418cf">
               Herr talman! Vi ha vid flera tillfällen diskuterat denna fråga
               i jordbruksorganisationen i min hemtrakt, och det framgick då
@@ -8525,7 +8768,7 @@
           <note n="d5495b21">
             96 Nr 10.
           </note>
-          <u who="per_albin_hansson_dd458b" xml:id="i-6c03309a08df9556-0" prev="i-2d59acd2aa23d1ad-0" n="754704ff">
+          <u who="per_albin_hansson_dd458b" xml:id="i-754704ff00ac46d2-1" prev="i-754704ff00ac46d2-0" n="754704ff">
             <seg n="c7d1d05c">
               har haft till följd att halmen i stor utsträckning brännes upp.
               Jag tror att denna bestämmelse icke har någon som helst betydelse
@@ -8557,7 +8800,7 @@
           <note type="speaker" n="0dba4b4b">
             Herr STJÄRNE:
           </note>
-          <u who="anders_stjarne_f84fc4" xml:id="i-fe4a163d301f65ab-0" next="i-9e5409c42655370c-0" n="2d49ec4f">
+          <u who="anders_stjarne_f84fc4" xml:id="i-2d49ec4fe527ea75-0" next="i-2d49ec4fe527ea75-1" n="2d49ec4f">
             <seg n="5ff39eaa">
               Herr talman! Jag har en känsla av att många av kammarens ledamöter
               anse den här frågan vara av så ringa betydelse, att man inte behöver
@@ -8571,10 +8814,10 @@
               som inte ha så gjort, att ia sig en sådan tur. På dessa mindre
             </seg>
           </u>
-          <note n="137d13e2">
+          <note type="date" n="3c4ab505">
             Onsdagen den 10 mars 1948 em.
           </note>
-          <u who="anders_stjarne_f84fc4" xml:id="i-9e5409c42655370c-0" prev="i-fe4a163d301f65ab-0" n="2d49ec4f">
+          <u who="anders_stjarne_f84fc4" xml:id="i-2d49ec4fe527ea75-1" prev="i-2d49ec4fe527ea75-0" n="2d49ec4f">
             <seg n="534a7820">
               jordbruk har jordbrukaren ingen möjlighet att tröska sin säd
               annat än på logen eller eventuellt på skullen som vi säga, alltså
@@ -8620,7 +8863,7 @@
             det av herr
           </note>
           <pb n="96" facs="https://betalab.kb.se/prot-1948--ak--10/prot_1948__ak__10-096.jp2/_view"/>
-          <note n="137d13e2">
+          <note type="date" n="3c4ab505">
             Onsdagen den 10 mars 1948 em.
           </note>
           <note n="b4ca88a1">
@@ -8683,7 +8926,7 @@
           <note type="speaker" n="894598cc">
             Herr HAGÅRD:
           </note>
-          <u who="alarik_hagard_d899ee" xml:id="i-8cd5b6fc6cdabada-0" next="i-07e562bda672d885-0" n="8003f308">
+          <u who="alarik_hagard_d899ee" xml:id="i-fec7a8e0db27b440-0" next="i-fec7a8e0db27b440-4" n="8003f308">
             <seg n="99b52d2f">
               Herr talman! Den blanka reservation, som finnes fogad till utskottets
               utlåtande, tarvar måhända någon motivering. Den skall bli ganska
@@ -8728,7 +8971,7 @@
           <note n="7d4b7c92">
             98 Nr 10.
           </note>
-          <u who="alarik_hagard_d899ee" xml:id="i-07e562bda672d885-0" prev="i-8cd5b6fc6cdabada-0" n="8003f308">
+          <u who="alarik_hagard_d899ee" xml:id="i-fec7a8e0db27b440-1" prev="i-fec7a8e0db27b440-0" n="8003f308">
             <seg n="eddefae0">
               i vårt land med vad som förekommit i våra grannländer, särskilt
               Danmark och Finland, får man anledning till en rätt ingående eftertanke.
@@ -8764,6 +9007,11 @@
               att ett överklagande av vederbörande kommuns beslut i principfrågan
               icke ägt rum under de
             </seg>
+          </u>
+          <note type="date" n="3c4ab505">
+            Onsdagen den 10 mars 1948 em.
+          </note>
+          <u who="alarik_hagard_d899ee" xml:id="i-fec7a8e0db27b440-2" prev="i-fec7a8e0db27b440-0" n="8003f308">
             <seg n="2a0ec4a7">
               gångna snart 15 åren. Men kanske får detta tolkas som ett uttryck
               för en samfälld uppfattning i de lika kommunerna om det lämpliga
@@ -8805,6 +9053,12 @@
               Jag skall sedan gå över till att med några ord beröra vad som
               säges i den motion, som givit anledning till ut-
             </seg>
+          </u>
+          <pb n="98" facs="https://betalab.kb.se/prot-1948--ak--10/prot_1948__ak__10-098.jp2/_view"/>
+          <note type="date" n="3c4ab505">
+            Onsdagen den 10 mars 1948 em.
+          </note>
+          <u who="alarik_hagard_d899ee" xml:id="i-fec7a8e0db27b440-3" prev="i-fec7a8e0db27b440-0" n="8003f308">
             <seg n="b78f7137">
               skottsutlåtandet. Motionärerna ha 1 föreliggande motion tydligen
               ansett tiden vara inne att nu återupptaga denna fråga till behandling
@@ -8839,6 +9093,11 @@
               tid, i varje fall innan den slutfört sitt arbete. Den fortsatta
               ut-
             </seg>
+          </u>
+          <note n="9d5746cb">
+            Nr 10. 99
+          </note>
+          <u who="alarik_hagard_d899ee" xml:id="i-fec7a8e0db27b440-4" prev="i-fec7a8e0db27b440-0" n="8003f308">
             <seg n="4174706a">
               vecklingen, icke minst de förändringar som skett inom socialförsäkringen,
               varvid speciellt de senaste årens beslut på detta område inverka,
@@ -8860,23 +9119,13 @@
               och det inom en ganska nära framtid.
             </seg>
           </u>
-          <note n="137d13e2">
-            Onsdagen den 10 mars 1948 em.
-          </note>
-          <pb n="98" facs="https://betalab.kb.se/prot-1948--ak--10/prot_1948__ak__10-098.jp2/_view"/>
-          <note n="137d13e2">
-            Onsdagen den 10 mars 1948 em.
-          </note>
-          <note n="9d5746cb">
-            Nr 10. 99
-          </note>
           <note n="3bca456b">
             I detta anförande instämde herrar Birke och Sveningsson.
           </note>
           <note type="speaker" n="b5685ff8">
             Fru LINDEROT:
           </note>
-          <u who="sven_linderot_b880b0" xml:id="i-9994ed746b14e434-0" next="i-e92373285a147ad0-0" n="1c2ed3d0">
+          <u who="sven_linderot_b880b0" xml:id="i-ccc0f10db863f072-0" next="i-ccc0f10db863f072-2" n="1c2ed3d0">
             <seg n="b8c9beeb">
               Herr talman! Jag vill uttala min glädje över att denna fråga
               har förts fram även i år. Det är ju två år sedan vi från vårt
@@ -8898,7 +9147,7 @@
           <note n="74249cda">
             100 Nr 10.
           </note>
-          <u who="sven_linderot_b880b0" xml:id="i-e92373285a147ad0-0" prev="i-9994ed746b14e434-0" n="1c2ed3d0">
+          <u who="sven_linderot_b880b0" xml:id="i-ccc0f10db863f072-1" prev="i-ccc0f10db863f072-0" n="1c2ed3d0">
             <seg n="76b9bae0">
               som behövs. Det behövs också förenkling av hela apparaten. Vi
               påpekade i vår motion, att det fanns inte mindre än 25 olika stödformer,
@@ -8933,6 +9182,11 @@
               utan framför allt underlätta arbetet för tjänstemännen och vara
               de hjälpsökande till gagn.
             </seg>
+          </u>
+          <note type="date" n="3c4ab505">
+            Onsdagen den 10 mars 1948 em.
+          </note>
+          <u who="sven_linderot_b880b0" xml:id="i-ccc0f10db863f072-2" prev="i-ccc0f10db863f072-0" n="1c2ed3d0">
             <seg n="33bb3f33">
               De hjälpsökande skulle i varje fall slippa att gå igenom de ingående
               undersökningarna av deras förhållanden mer än en gång. Jag tycker
@@ -8947,13 +9201,10 @@
               gäller en fråga, som måste lösas av statsmakterna.
             </seg>
           </u>
-          <note n="137d13e2">
-            Onsdagen den 10 mars 1948 em.
-          </note>
           <note type="speaker" n="fbb734a4">
             Herr OLOVSON i Västerås:
           </note>
-          <u who="emil_olovson_20c3d5" xml:id="i-23f0c66668c45b94-0" next="i-44aa3f0be46a1c23-0" n="a456dd76">
+          <u who="emil_olovson_20c3d5" xml:id="i-a456dd76d5237a2c-0" next="i-a456dd76d5237a2c-1" n="a456dd76">
             <seg n="3c21f555">
               Herr talman! När herr Hagård i sitt anförande konstaterade att
               riksdagen inte kommer ifrån själva sakfrågan, befinner han sig
@@ -8979,10 +9230,10 @@
             </seg>
           </u>
           <pb n="100" facs="https://betalab.kb.se/prot-1948--ak--10/prot_1948__ak__10-100.jp2/_view"/>
-          <note n="137d13e2">
+          <note type="date" n="3c4ab505">
             Onsdagen den 10 mars 1948 em.
           </note>
-          <u who="emil_olovson_20c3d5" xml:id="i-44aa3f0be46a1c23-0" prev="i-23f0c66668c45b94-0" n="a456dd76">
+          <u who="emil_olovson_20c3d5" xml:id="i-a456dd76d5237a2c-1" prev="i-a456dd76d5237a2c-0" n="a456dd76">
             <seg n="f0aaee11">
               personliga syn på saken ungefär detsamma som att försöka börja
               inreda och möblera ett hus innan man rest väggarna. Det finns
@@ -9021,7 +9272,7 @@
           <note type="speaker" n="55e11769">
             Herr DAHLGREN:
           </note>
-          <u who="gunnar_dahlgren_b4bb9d" xml:id="i-eb06e52edd65508d-0" next="i-0a48ac989be9473f-0" n="107c7514">
+          <u who="gunnar_dahlgren_b4bb9d" xml:id="i-107c751423a53553-0" next="i-107c751423a53553-3" n="107c7514">
             <seg n="000f0506">
               Herr talman! Vi ha i den motion som vi i år väckt i denna fråga
               framfört precis samma synpunkter som förra året. Vi ha hävdat
@@ -9037,7 +9288,7 @@
           <note n="ee080ee2">
             Nr 10. 101
           </note>
-          <u who="gunnar_dahlgren_b4bb9d" xml:id="i-0a48ac989be9473f-0" prev="i-eb06e52edd65508d-0" n="107c7514">
+          <u who="gunnar_dahlgren_b4bb9d" xml:id="i-107c751423a53553-1" prev="i-107c751423a53553-0" n="107c7514">
             <seg n="909a3475">
               och jämnt täcker kostnaderna för de dagliga behoven och att resultatet
               därav måste bli att alldeles för många arbetare av ekonomiska
@@ -9076,6 +9327,12 @@
               tiden på året, och utskottets ordförande tillade, att det vore
               mycket motiverat
             </seg>
+          </u>
+          <pb n="101" facs="https://betalab.kb.se/prot-1948--ak--10/prot_1948__ak__10-101.jp2/_view"/>
+          <note n="4e492c6e">
+            102 Nr 10.
+          </note>
+          <u who="gunnar_dahlgren_b4bb9d" xml:id="i-107c751423a53553-2" prev="i-107c751423a53553-0" n="107c7514">
             <seg n="403bc29d">
               med en sådan lönehöjning. Jag erinrar om vad jag nyligen sade,
               att Landsorganisationen redan 1946 gjorde ett sådant uttalande.
@@ -9113,6 +9370,11 @@
               vill bara erinra om vad Landsorganisationens ordförande, som också
               är leda-
             </seg>
+          </u>
+          <note type="date" n="3c4ab505">
+            Onsdagen den 10 mars 1948 em.
+          </note>
+          <u who="gunnar_dahlgren_b4bb9d" xml:id="i-107c751423a53553-3" prev="i-107c751423a53553-0" n="107c7514">
             <seg n="cba01917">
               mot av första kammaren, sade i årets remissdebatt på tal om lönesituationen.
               Jag citerar ordagrant ett utdrag ur hans tal: »Säger jag att arbetarna
@@ -9132,17 +9394,10 @@
               till motionen nr 114 i denna kammare.
             </seg>
           </u>
-          <pb n="101" facs="https://betalab.kb.se/prot-1948--ak--10/prot_1948__ak__10-101.jp2/_view"/>
-          <note n="4e492c6e">
-            102 Nr 10.
-          </note>
-          <note n="137d13e2">
-            Onsdagen den 10 mars 1948 em.
-          </note>
           <note type="speaker" n="fbb734a4">
             Herr OLOVSON i Västerås:
           </note>
-          <u who="emil_olovson_20c3d5" xml:id="i-ec9885f5df8be289-0" n="a456dd76">
+          <u who="emil_olovson_20c3d5" xml:id="i-a456dd76d5237a2c-2" n="a456dd76">
             <seg n="dc07c1f9">
               Herr talman! Jag har haft en mycket allvarlig överläggning med
               mig själv rörande, hur jag lämpligen borde ställa mig i den situation,
@@ -9170,7 +9425,7 @@
             dels på
           </note>
           <pb n="102" facs="https://betalab.kb.se/prot-1948--ak--10/prot_1948__ak__10-102.jp2/_view"/>
-          <note n="137d13e2">
+          <note type="date" n="3c4ab505">
             Onsdagen den 10 mars 1948 em.
           </note>
           <note n="b987b5ca">
@@ -9195,7 +9450,7 @@
           <note type="speaker" n="0351bc7b">
             Herr JACOBSON i Vilhelmina:
           </note>
-          <u who="uddo_jacobson_5de3d0" xml:id="i-5743811baa31a64c-0" next="i-decbaf3195b33d48-0" n="d237755d">
+          <u who="uddo_jacobson_5de3d0" xml:id="i-fe4c26b1ab2e07c7-0" next="i-fe4c26b1ab2e07c7-2" n="d237755d">
             <seg n="bf9f5a59">
               Herr talman! Jag har inte begärt ordet för att tacka andra lagutskottet
               för dess välvilliga behandling av förevarande motion. Jag skall
@@ -9224,14 +9479,11 @@
           <note n="265f3f9c">
             Nr 10. 103
           </note>
-          <u who="uddo_jacobson_5de3d0" xml:id="i-decbaf3195b33d48-0" prev="i-5743811baa31a64c-0" n="d237755d">
+          <u who="uddo_jacobson_5de3d0" xml:id="i-fe4c26b1ab2e07c7-1" prev="i-fe4c26b1ab2e07c7-0" n="d237755d">
             <seg n="f1682066">
               minstone för de norrländska ägostyckningsinnehavarna, när jag
               uttrycker deras stora belåtenhet över att det blev ett ministerskifte
               den gången.
-            </seg>
-            <seg n="80a89e3e">
-              Föredrogos vart efter annat:
             </seg>
           </u>
           <note n="fd1005a4">
@@ -9240,6 +9492,11 @@
           <note n="66ed6f16">
             $ 10.
           </note>
+          <u who="uddo_jacobson_5de3d0" xml:id="i-fe4c26b1ab2e07c7-2" prev="i-fe4c26b1ab2e07c7-0" n="d237755d">
+            <seg n="80a89e3e">
+              Föredrogos vart efter annat:
+            </seg>
+          </u>
           <note n="8a200b94">
             jordbruksutskottets utlåtande nr 6, i anledning av Kungl. Maj:ts
             proposition med förslag till lag om ändring i lagen den 11 maj
@@ -9275,7 +9532,7 @@
           <note type="speaker" n="4522133b">
             Herr DICKSON:
           </note>
-          <u who="james_dickson_589af6" xml:id="i-e795d43cf5db8193-6" next="i-8fe4b8a614a2c956-6" n="eae0ed27">
+          <u who="james_dickson_589af6" xml:id="i-eae0ed274cf5bb6e-17" next="i-eae0ed274cf5bb6e-18" n="eae0ed27">
             <seg n="eed453d8">
               Herr talman! Regeringen meddelade i oktober förra året förbud
               mot all rundflygning. Detta förbud har sedermera upphävts, i slutet
@@ -9289,7 +9546,7 @@
           <note n="402e7315">
             104 Nr 10.
           </note>
-          <u who="james_dickson_589af6" xml:id="i-8fe4b8a614a2c956-6" prev="i-e795d43cf5db8193-6" n="eae0ed27">
+          <u who="james_dickson_589af6" xml:id="i-eae0ed274cf5bb6e-18" prev="i-eae0ed274cf5bb6e-17" n="eae0ed27">
             <seg n="f7dd5db1">
               vågat sig på denna verksamhetsgren, äro enligt min mening värda
               en särskild eloge. Verkningarna av förbudet ha emellertid åtminstone
@@ -9315,7 +9572,7 @@
           <note type="speaker" n="f3a8f296">
             Herr HALLBERG:
           </note>
-          <u who="david_hall_faa3ea" xml:id="i-c2d4d1b6b78e846c-1" n="78d66d24">
+          <u who="david_hall_faa3ea" xml:id="i-78d66d2497143dbc-20" n="78d66d24">
             <seg n="0ff7ddff">
               Herr talman! Jag begärde ordet bara för att en liten smula reagera
               mot herr Dicksons framställning av de motiv, som han ansåg ha
@@ -9335,13 +9592,13 @@
               uppfattningen stå oemotsagd.
             </seg>
           </u>
-          <note n="137d13e2">
+          <note type="date" n="3c4ab505">
             Onsdagen den 10 mars 1948 em.
           </note>
           <note type="speaker" n="4522133b">
             Herr DICKSON:
           </note>
-          <u who="james_dickson_589af6" xml:id="i-e795d43cf5db8193-7" next="i-8fe4b8a614a2c956-7" n="eae0ed27">
+          <u who="james_dickson_589af6" xml:id="i-eae0ed274cf5bb6e-19" next="i-eae0ed274cf5bb6e-21" n="eae0ed27">
             <seg n="c79eb6bf">
               Herr talman! Regeringen saknade säkert inte möjligheter att upplysa
               allmänheten om att det slags bensin, som fordrades för drift av
@@ -9398,15 +9655,12 @@
             skrivelser tili Konungen, nämligen
           </note>
           <pb n="104" facs="https://betalab.kb.se/prot-1948--ak--10/prot_1948__ak__10-104.jp2/_view"/>
-          <note n="72cc5875">
+          <note type="date" n="314e5289">
             Fredagen den 12 mars 1948.
           </note>
-          <u who="james_dickson_589af6" xml:id="i-8fe4b8a614a2c956-7" prev="i-e795d43cf5db8193-7" n="eae0ed27">
+          <u who="james_dickson_589af6" xml:id="i-eae0ed274cf5bb6e-20" prev="i-eae0ed274cf5bb6e-19" n="eae0ed27">
             <seg n="514d0b9b">
               från utrikesutskottet:
-            </seg>
-            <seg n="db7db67f">
-              från bevillningsutskottet:
             </seg>
           </u>
           <note n="81cdab54">
@@ -9414,6 +9668,11 @@
             av förberedelsen till och förandet av Sveriges handelsavtalsförhandlingar;
             samt
           </note>
+          <u who="james_dickson_589af6" xml:id="i-eae0ed274cf5bb6e-21" prev="i-eae0ed274cf5bb6e-19" n="eae0ed27">
+            <seg n="db7db67f">
+              från bevillningsutskottet:
+            </seg>
+          </u>
           <note n="d2d3b979">
             or 71, i anledning av Kungl. Maj:ts proposition nr,59 angående
             höjning av vissa postavgifter;
@@ -9457,7 +9716,7 @@
           <note n="6b254e02">
             In fidem Gunnar Britth.
           </note>
-          <note n="4b47c288">
+          <note type="date" n="cdeb20bb">
             Fredagen den 12 mars. KL. 7.30 em.
           </note>
           <note n="888e41d1">
@@ -9472,7 +9731,7 @@
           <note type="speaker" n="704beef9">
             Herr statsrådet Ericsson avlämnade Kungl. Maj:
           </note>
-          <u who="eric_ericsson_bfac6c" xml:id="i-8a98cbb870988919-0" next="i-1346f3d64bbc6e9b-0" n="f3af5b3d">
+          <u who="eric_ericsson_bfac6c" xml:id="i-5372ed4ac500c259-0" next="i-5372ed4ac500c259-2" n="f3af5b3d">
             <seg n="0911ca20">
               ts propositioner:
             </seg>
@@ -9593,7 +9852,7 @@
             Luossavaara—Kiirunavaara aktiebolag samt Trafikaktiebolaget Grängesberg—Oxelösund
             rätt till viss malmbrytning utöver
           </note>
-          <note n="72cc5875">
+          <note type="date" n="314e5289">
             Fredagen den 12 mars 1948.
           </note>
           <note n="69aa1129">
@@ -9671,7 +9930,7 @@
             arbeten för budgetåret 1948/49;
           </note>
           <pb n="106" facs="https://betalab.kb.se/prot-1948--ak--10/prot_1948__ak__10-106.jp2/_view"/>
-          <note n="72cc5875">
+          <note type="date" n="314e5289">
             Fredagen den 12 mars 1948.
           </note>
           <note n="214eebb7">
@@ -9874,13 +10133,9 @@
           <note n="cd4b9477">
             8 6.
           </note>
-          <u who="eric_ericsson_bfac6c" xml:id="i-1346f3d64bbc6e9b-0" prev="i-8a98cbb870988919-0" n="f3af5b3d">
+          <u who="eric_ericsson_bfac6c" xml:id="i-5372ed4ac500c259-1" prev="i-5372ed4ac500c259-0" n="f3af5b3d">
             <seg n="22ceb54a">
               Till bordläggning anmäldes:
-            </seg>
-            <seg n="7481451a">
-              gående ersättning från kyrkofonden för Öövertalig personal vid
-              domänverket.
             </seg>
           </u>
           <note n="88557245">
@@ -9891,7 +10146,7 @@
             gjorda framställningar rörande egentliga statsutgifter för budgetåret
             1948/49 under tredje huvudtiteln, avseende anslagen
           </note>
-          <note n="72cc5875">
+          <note type="date" n="314e5289">
             Fredagen den 12 mars 1948.
           </note>
           <note n="80349c09">
@@ -9948,7 +10203,7 @@
             avbrytande av havandeskap; och
           </note>
           <pb n="108" facs="https://betalab.kb.se/prot-1948--ak--10/prot_1948__ak__10-108.jp2/_view"/>
-          <note n="72cc5875">
+          <note type="date" n="314e5289">
             Fredagen den 12 mars 1948.
           </note>
           <note n="aada8830">
@@ -10052,6 +10307,12 @@
             riksdagens skrivelse, nr 88, till Konungen i anledning av Kungl.
             Maj:ts proposition an-
           </note>
+          <u who="eric_ericsson_bfac6c" xml:id="i-5372ed4ac500c259-2" prev="i-5372ed4ac500c259-0" n="f3af5b3d">
+            <seg n="7481451a">
+              gående ersättning från kyrkofonden för Öövertalig personal vid
+              domänverket.
+            </seg>
+          </u>
           <note n="6548c7de">
             8 8.
           </note>
@@ -10069,7 +10330,7 @@
           <note n="c716b55a">
             Förteckning över avgjorda ärenden m. m.
           </note>
-          <note n="498adbf5">
+          <note type="date" n="c1e1d77f">
             Lördagen den 6 mars. Tisdagen den 9 mars.
           </note>
           <note n="7f7288a6">

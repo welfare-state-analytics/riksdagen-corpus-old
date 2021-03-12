@@ -20,7 +20,7 @@
     <encodingDesc>
       <editorialDecl>
         <correction>
-          <p>Some data curation was done. It is documented in db/curation/instances</p>
+          <p>Some data curation was done. It is documented in input/curation/instances</p>
         </correction>
       </editorialDecl>
     </encodingDesc>
@@ -52,18 +52,20 @@
       <front>
         <div type="preface">
           <head>prot-1940--ak--5</head>
-          <docDate when="1940">1940</docDate>
+          <docDate when="1940-01-22">1940-01-22</docDate>
+          <docDate when="1940-01-23">1940-01-23</docDate>
         </div>
       </front>
       <body>
         <div>
+          <pb n="0" facs="https://betalab.kb.se/prot-1940--ak--5/prot_1940__ak__5-000.jp2/_view"/>
           <note n="651c1e32">
             RIKSDAGENS PROTOKOLL. 1940. Andra kammaren. Nr 5.
           </note>
           <note n="0fc84d31"/>
           <note n="0fc84d31"/>
           <note n="0fc84d31"/>
-          <note n="411c129f">
+          <note type="date" n="164ddea5">
             Måndagen den 22 januari. KI. 11 f. m.
           </note>
           <note n="d2d5ff6a">
@@ -161,7 +163,7 @@
             Andra kammarens protokoll 1940. Nr 5. 1
           </note>
           <pb n="1" facs="https://betalab.kb.se/prot-1940--ak--5/prot_1940__ak__5-001.jp2/_view"/>
-          <note n="9349133e">
+          <note type="date" n="f9197b8a">
             2 Nr 5. Måndagen den 22 januari 1940.
           </note>
           <note n="7e000e9f">
@@ -265,7 +267,7 @@
             på landet m. m.;
           </note>
           <pb n="2" facs="https://betalab.kb.se/prot-1940--ak--5/prot_1940__ak__5-002.jp2/_view"/>
-          <note n="1de55c44">
+          <note type="date" n="0722ff16">
             Måndagen den 22 januari 1940. Nr 5. 3
           </note>
           <note n="a79cbc4e">
@@ -304,7 +306,7 @@
           <note type="speaker" n="02e56c26">
             herr Tornegård m. fl.:
           </note>
-          <u who="oscar_tornegard_e4c1b7" xml:id="i-86f937f6d77463fd-0" next="i-93f7cf46284d4e60-0" n="82e3f2e4">
+          <u who="oscar_tornegard_e4c1b7" xml:id="i-82e3f2e4b7423801-0" next="i-82e3f2e4b7423801-2" n="82e3f2e4">
             <seg n="584968d9">
               |
             </seg>
@@ -326,20 +328,9 @@
             m. m.; är SE Nolin m. fl., nr 90, om anslag för bidrag till jordbrukarungdomens
             för-
           </note>
-          <u who="oscar_tornegard_e4c1b7" xml:id="i-93f7cf46284d4e60-0" prev="i-86f937f6d77463fd-0" n="82e3f2e4">
+          <u who="oscar_tornegard_e4c1b7" xml:id="i-82e3f2e4b7423801-1" prev="i-82e3f2e4b7423801-0" n="82e3f2e4">
             <seg n="5a4aa722">
               und;
-            </seg>
-            <seg n="6be74fbd">
-              $ 7. Ledighet från riksdagsgöromålen beviljades: herr Holmgren
-              under 2 dagar fr.o.m. den 2 febr. &gt; Andersson i Lindome &gt; 12 &gt;
-              &gt; &gt; 23 jan., &gt;» Pettersson i Norregärd &gt; T &gt; &gt; &gt; 26 &gt; &gt; Andersson
-              i Falkenberg &gt; 6 &gt; &gt; &gt; 24 &gt; &gt; Nolin &gt; 35 3 &gt; &gt; 23 &gt; &gt; Persson
-              i Grytterud &gt; 4 &gt; &gt; &gt; 25 &gt; &gt; Gustafson i Vimmerby &gt; 7-2 &gt; &gt; 24
-              &gt; &gt; Mattsson &gt; 4 &gt; &gt; &gt; 24 &gt;» » Persson i Norrby &gt; 8 &gt; &gt; &gt; 23 &gt;
-              &gt;» Liedberg &gt; 4 &gt; &gt; &gt; 25 &gt; &gt; Staxäng &gt; 5 &gt; &gt; &gt; 25 &gt;» och &gt; Lindholm
-              &gt; 5 &gt; &gt; &gt;» 23 &gt; Kammarens ledamöter åtskildes härefter kl. 11.17
-              f. m. In fidem
             </seg>
           </u>
           <note n="5fdc1529">
@@ -357,14 +348,27 @@
           <note n="2efedb92">
             "Dessa motioner bordlades.
           </note>
+          <u who="oscar_tornegard_e4c1b7" xml:id="i-82e3f2e4b7423801-2" prev="i-82e3f2e4b7423801-0" n="82e3f2e4">
+            <seg n="6be74fbd">
+              $ 7. Ledighet från riksdagsgöromålen beviljades: herr Holmgren
+              under 2 dagar fr.o.m. den 2 febr. &gt; Andersson i Lindome &gt; 12 &gt;
+              &gt; &gt; 23 jan., &gt;» Pettersson i Norregärd &gt; T &gt; &gt; &gt; 26 &gt; &gt; Andersson
+              i Falkenberg &gt; 6 &gt; &gt; &gt; 24 &gt; &gt; Nolin &gt; 35 3 &gt; &gt; 23 &gt; &gt; Persson
+              i Grytterud &gt; 4 &gt; &gt; &gt; 25 &gt; &gt; Gustafson i Vimmerby &gt; 7-2 &gt; &gt; 24
+              &gt; &gt; Mattsson &gt; 4 &gt; &gt; &gt; 24 &gt;» » Persson i Norrby &gt; 8 &gt; &gt; &gt; 23 &gt;
+              &gt;» Liedberg &gt; 4 &gt; &gt; &gt; 25 &gt; &gt; Staxäng &gt; 5 &gt; &gt; &gt; 25 &gt;» och &gt; Lindholm
+              &gt; 5 &gt; &gt; &gt;» 23 &gt; Kammarens ledamöter åtskildes härefter kl. 11.17
+              f. m. In fidem
+            </seg>
+          </u>
           <note n="58579074">
             Sune Norrman.
           </note>
           <pb n="3" facs="https://betalab.kb.se/prot-1940--ak--5/prot_1940__ak__5-003.jp2/_view"/>
-          <note n="c12549e8">
+          <note type="date" n="517709be">
             4 Nr 5. Tisdagen den 23 januari 1940 f. m.
           </note>
-          <note n="5781e65e">
+          <note type="date" n="358147ad">
             Tisdagen den 23 januari. Kl. 2 e. m.
           </note>
           <note n="9b532e4a">
@@ -435,7 +439,7 @@
             av kammaren utsedda valmännen.
           </note>
           <pb n="4" facs="https://betalab.kb.se/prot-1940--ak--5/prot_1940__ak__5-004.jp2/_view"/>
-          <note n="99d8d498">
+          <note type="date" n="5c894286">
             Tisdagen den 23 januari 1940 f. m. Nr 5. 5
           </note>
           <note n="722168cd">
@@ -553,7 +557,7 @@
             inom riksdagens utskott,
           </note>
           <pb n="5" facs="https://betalab.kb.se/prot-1940--ak--5/prot_1940__ak__5-005.jp2/_view"/>
-          <note n="89453157">
+          <note type="date" n="0de2f189">
             6 Nr 5. Tisdagen den 23 januari 1940 f. m.
           </note>
           <note n="2ef57979">
@@ -581,12 +585,12 @@
           <note type="speaker" n="2329b125">
             herr Flyg m. fl.:
           </note>
-          <u who="nils_flyg_09bbf8" xml:id="i-f5dcc062649a902d-0" next="i-546e7644007c7370-0" n="5e582f96"/>
+          <u who="nils_flyg_09bbf8" xml:id="i-5e582f96d6ee5d99-0" next="i-5e582f96d6ee5d99-1" n="5e582f96"/>
           <note n="41debe26">
             nr 105, om upphävande av riksdagens år 1939 fattade beslut om
             byggandet av två kustförsvarsfartyg; och
           </note>
-          <u who="nils_flyg_09bbf8" xml:id="i-546e7644007c7370-0" prev="i-f5dcc062649a902d-0" n="5e582f96">
+          <u who="nils_flyg_09bbf8" xml:id="i-5e582f96d6ee5d99-1" prev="i-5e582f96d6ee5d99-0" n="5e582f96">
             <seg n="1100a47b">
               nr 106, om anslag till ekonomisk hjälp till Finland för inköp
               inom Sverige av vissa produkter;
@@ -615,7 +619,7 @@
           <note type="speaker" n="5591435d">
             herr Arnemark m. fl.:
           </note>
-          <u who="gustaf_arnemark_1fa7f2" xml:id="i-fd9edd5693692599-0" n="346586cf"/>
+          <u who="gustaf_arnemark_1fa7f2" xml:id="i-346586cfa840e5ac-0" n="346586cf"/>
           <note n="d2e065e3">
             nr 112, om anslag till anskaffning av inventarier för förvaring
             av handlingar å landstormsområdesbefälhavareexpeditioner; och
@@ -632,7 +636,7 @@
           <note type="speaker" n="fb7b64a3">
             herr Österström m. fl.:
           </note>
-          <u who="ivar_osterstrom_b8edc3" xml:id="i-55bf5f31ac251866-0" n="98a83368">
+          <u who="ivar_osterstrom_b8edc3" xml:id="i-98a8336894675f48-0" n="98a83368">
             <seg n="3b2319d9">
               nr 115, om anslag till stödjande av landsting och kommuner, vilkas
               ekonomiska ställning i synnerlig grad ogynnsamt påverkats av manskapsinkallelserna
@@ -656,7 +660,7 @@
           <note type="speaker" n="899d57b6">
             herr Vougt, nr 119, i anledning av Kungl. Maj:
           </note>
-          <u who="allan_vougt_18bf08" xml:id="i-3992fd78fd891679-0" next="i-2ac982f4882a9fdd-0" n="b200a8da">
+          <u who="allan_vougt_18bf08" xml:id="i-b200a8da35a89eea-0" next="i-b200a8da35a89eea-1" n="b200a8da">
             <seg n="00e65cc3">
               ts framställning om bidrag till utgivande av tidskriften »Le
               Nord»;
@@ -670,13 +674,13 @@
             inom flygvapnet av ytterligare minst en jaktflottilj; 3 herr Hage
             m. fl., nr 122, om anslag till elektrifiering av banan Långsele—
           </note>
-          <u who="allan_vougt_18bf08" xml:id="i-2ac982f4882a9fdd-0" prev="i-3992fd78fd891679-0" n="b200a8da">
+          <u who="allan_vougt_18bf08" xml:id="i-b200a8da35a89eea-1" prev="i-b200a8da35a89eea-0" n="b200a8da">
             <seg n="16dc9da5">
               oden;
             </seg>
           </u>
           <pb n="6" facs="https://betalab.kb.se/prot-1940--ak--5/prot_1940__ak__5-006.jp2/_view"/>
-          <note n="958773ff">
+          <note type="date" n="1641e514">
             Tisdagen den 23 januari 1940 f. m. Nr 5. 7
           </note>
           <note n="8e33520f">
@@ -728,7 +732,7 @@
             beträffar utnyttjande av motorfordon i jordbrukets tjänst;
           </note>
           <pb n="7" facs="https://betalab.kb.se/prot-1940--ak--5/prot_1940__ak__5-007.jp2/_view"/>
-          <note n="00092468">
+          <note type="date" n="563e4944">
             8 Nr 5. Tisdagen den 23 januari 1940 f. m.
           </note>
           <note n="e13d7c53">
@@ -773,10 +777,10 @@
             Sune Norrman.
           </note>
           <pb n="8" facs="https://betalab.kb.se/prot-1940--ak--5/prot_1940__ak__5-008.jp2/_view"/>
-          <note n="58369796">
+          <note type="date" n="c62b7c6b">
             Tisdagen den 23 januari 1940 e. m. Nr 5. 9
           </note>
-          <note n="e2e27c86">
+          <note type="date" n="54293c6f">
             Tisdagen den 23 januari. Kl. 7.30 e. m.
           </note>
           <note n="97f122e4">
@@ -860,7 +864,7 @@
             Andra kammarens protokoll 1940. Nr 5. 2
           </note>
           <pb n="9" facs="https://betalab.kb.se/prot-1940--ak--5/prot_1940__ak__5-009.jp2/_view"/>
-          <note n="356c282a">
+          <note type="date" n="8d2f07e4">
             10 Nr 5. Tisdagen den 23 januari 1940 e. m.
           </note>
           <note n="c25d2bf7">
@@ -879,7 +883,7 @@
           <note type="speaker" n="339410af">
             herr Lundgren m. fl.:
           </note>
-          <u who="_gustaf_edvard_lundgren_b57cb6" xml:id="i-1fb6e22d03823b58-0" n="72aa6492"/>
+          <u who="_gustaf_edvard_lundgren_b57cb6" xml:id="i-b47a95d6d32330ca-0" n="72aa6492"/>
           <note n="d3f011a5">
             nr 176, angående tullen &amp; å vissa slag av frukt; och
           </note>
@@ -890,7 +894,7 @@
           <note type="speaker" n="ca0ce0be">
             herr Persson i Falla m. fl.:
           </note>
-          <u who="ivar_persson_210656" xml:id="i-e64eb58993bcf876-0" n="28690aa2">
+          <u who="ivar_persson_210656" xml:id="i-cde6171712b885c9-0" n="28690aa2">
             <seg n="baf379a8">
               nr 178, angående utredning om praktiska åtgärder i syfte att
               tillgodogöra samhället och det produktiva livet de partiellt arbetsföras
@@ -937,7 +941,7 @@
           <note type="speaker" n="b9807d2b">
             herr Holmbäck:
           </note>
-          <u who="ake_holmback_b1ec7c" xml:id="i-22fa9fd30fb32fc3-0" n="0a3a6fa6"/>
+          <u who="ake_holmback_b1ec7c" xml:id="i-0a3a6fa6f378a8a6-0" n="0a3a6fa6"/>
           <note n="42b186ca">
             nr 189, angående utredning om rätten att företaga sjösänkning
             till förmån för gruva;
@@ -968,7 +972,7 @@
           <note type="speaker" n="b9807d2b">
             herr Holmbäck:
           </note>
-          <u who="ake_holmback_b1ec7c" xml:id="i-75e647f0cbf1b618-0" next="i-7eba8fe987cb7c2f-0" n="0a3a6fa6"/>
+          <u who="ake_holmback_b1ec7c" xml:id="i-0a3a6fa6f378a8a6-1" next="i-0a3a6fa6f378a8a6-2" n="0a3a6fa6"/>
           <note n="573b4641">
             nr 195, om anslag för bidrag till elektriska distributionsföreningar
             för elektrifieringsarbeten; och
@@ -982,7 +986,7 @@
             bostadsbyggnadsverksamheten i landet;
           </note>
           <pb n="10" facs="https://betalab.kb.se/prot-1940--ak--5/prot_1940__ak__5-010.jp2/_view"/>
-          <note n="2fc7c03c">
+          <note type="date" n="a9388bf1">
             Tisdagen den 23 januari 1940 e. m. Nr 5. il
           </note>
           <note n="817a972c">
@@ -997,7 +1001,7 @@
           <note n="f8427797">
             Dessa motioner bordlades.
           </note>
-          <u who="ake_holmback_b1ec7c" xml:id="i-7eba8fe987cb7c2f-0" prev="i-75e647f0cbf1b618-0" n="0a3a6fa6">
+          <u who="ake_holmback_b1ec7c" xml:id="i-0a3a6fa6f378a8a6-2" prev="i-0a3a6fa6f378a8a6-1" n="0a3a6fa6">
             <seg n="1547c880">
               $ 2. Ledighet från riksdagsgöromålen beviljades: herr Meijer
               under 11 dagar fr.o.m. den 27 jan., &gt; Eriksson i Frägsta &gt; 6 &gt;»

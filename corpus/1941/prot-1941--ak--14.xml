@@ -20,7 +20,7 @@
     <encodingDesc>
       <editorialDecl>
         <correction>
-          <p>Some data curation was done. It is documented in db/curation/instances</p>
+          <p>Some data curation was done. It is documented in input/curation/instances</p>
         </correction>
       </editorialDecl>
     </encodingDesc>
@@ -52,17 +52,19 @@
       <front>
         <div type="preface">
           <head>prot-1941--ak--14</head>
-          <docDate when="1941">1941</docDate>
+          <docDate when="1941-03-08">1941-03-08</docDate>
+          <docDate when="1941-03-11">1941-03-11</docDate>
         </div>
       </front>
       <body>
         <div>
+          <pb n="0" facs="https://betalab.kb.se/prot-1941--ak--14/prot_1941__ak__14-000.jp2/_view"/>
           <note n="340f54ff">
             RIKSDAGENS PROTOKOLL. 1941. Andra kammaren. Nr 14.
           </note>
           <note n="8eab9ef9"/>
           <note n="8eab9ef9"/>
-          <note n="891f73b9">
+          <note type="date" n="d64442a8">
             Lördagen den 8 mars. Kl. 4 e. m.
           </note>
           <note n="4fbb08f5">
@@ -115,7 +117,7 @@
             Andra kammarens protokoll 1941. Nr 14. 1
           </note>
           <pb n="1" facs="https://betalab.kb.se/prot-1941--ak--14/prot_1941__ak__14-001.jp2/_view"/>
-          <note n="5664ec9a">
+          <note type="date" n="2e8ec44a">
             2 Nr 14. Lördagen den 8 mars 1941.
           </note>
           <note n="3e108993">
@@ -209,7 +211,7 @@
             i Skara;
           </note>
           <pb n="2" facs="https://betalab.kb.se/prot-1941--ak--14/prot_1941__ak__14-002.jp2/_view"/>
-          <note n="5ede101e">
+          <note type="date" n="637a2aed">
             Lördagen den 8 mars 1941. Nr 14, 3
           </note>
           <note n="ed0f9eab">
@@ -283,7 +285,7 @@
           <note type="speaker" n="fbb33665">
             Fru Västberg:
           </note>
-          <u who="disa_vastberg_5dd07c" xml:id="i-0635d20b2a039c1d-0" next="i-abb6f4b0e0de2015-0" n="8c71ac28">
+          <u who="disa_vastberg_5dd07c" xml:id="i-8c71ac28234660f4-0" next="i-8c71ac28234660f4-1" n="8c71ac28">
             <seg n="47fe78fa">
               Herr talman! Det beslut av första kammaren, som genom det nu
               föredragna protokollsutdraget delgivits andra kammaren, sammanfaller
@@ -305,7 +307,7 @@
             delgivningen ej skulle föranleda någon andra kammarens åtgärd.
           </note>
           <pb n="3" facs="https://betalab.kb.se/prot-1941--ak--14/prot_1941__ak__14-003.jp2/_view"/>
-          <note n="80e6cc6b">
+          <note type="date" n="5b2c04ec">
             4 Nr 14. Lördagen den 8 mars 1941.
           </note>
           <note n="db424ff4">
@@ -364,7 +366,7 @@
             nr 14, i anledning av Kungl. Maj:ts proposition angående pension
             åt vissa i statens tjänst anställda personer; och
           </note>
-          <u who="disa_vastberg_5dd07c" xml:id="i-abb6f4b0e0de2015-0" prev="i-0635d20b2a039c1d-0" n="8c71ac28">
+          <u who="disa_vastberg_5dd07c" xml:id="i-8c71ac28234660f4-1" prev="i-8c71ac28234660f4-0" n="8c71ac28">
             <seg n="c980e9c1">
               ar 15, angående användande av riksbankens vinst för år 1940;
             </seg>
@@ -375,12 +377,12 @@
           <note type="speaker" n="a98c94e1">
             nr 13, i anledning av dels Kungl. Maj:
           </note>
-          <u who="unknown" xml:id="i-f2b522277d2850bf-0" n="d3065581"/>
+          <u who="unknown" xml:id="i-d3065581ef8fab6d-0" n="d3065581"/>
           <note type="speaker" n="b808116e">
             ts proposition med förslag till lag angående fortsatt giltighet
             av lagen den 9 januari 1940 (nr 3):
           </note>
-          <u who="unknown" xml:id="i-6d62b8a50e9acf51-0" n="d3065581">
+          <u who="unknown" xml:id="i-d3065581ef8fab6d-1" n="d3065581">
             <seg n="7aa5e4c8">
               om vissa tvångsmedel vid krig eller krigsfara m. m., dels ock
               i ämnet väckta motioner;
@@ -426,7 +428,7 @@
             av medel för utlämnande av krislån jämte i ämnet väckta motioner;
           </note>
           <pb n="4" facs="https://betalab.kb.se/prot-1941--ak--14/prot_1941__ak__14-004.jp2/_view"/>
-          <note n="7f030bd1">
+          <note type="date" n="ff585557">
             Lördagen den 8 mars 1941. Nr 14. 53
           </note>
           <note n="7fc8e7aa">
@@ -452,45 +454,9 @@
             Anmäldes och godkändes följande förslag till riksdagens skrivelser
             till Konungen, nämligen
           </note>
-          <u who="unknown" xml:id="i-eb348b670e216764-0" n="d3065581">
+          <u who="unknown" xml:id="i-d3065581ef8fab6d-2" n="d3065581">
             <seg n="9f758a0a">
               från statsutskottet:
-            </seg>
-            <seg n="0723df05">
-              från bankoutskottet:
-            </seg>
-            <seg n="0de98af0">
-              Wallén
-            </seg>
-            <seg n="592ab934">
-              Märtensson
-            </seg>
-            <seg n="48d8e2c8">
-              Kilbom
-            </seg>
-            <seg n="ecf9a63d">
-              vu vvrevswWwvYyvYvvrvyvyuvvyyvrvvuyvvYrVvVvuvwvsvvööå
-            </seg>
-            <seg n="4cb352a8">
-              vv vyYyvYvVvvVvVyYyvgy vvyuv svvvMNouvrvYEs vw Vusw
-            </seg>
-            <seg n="959e0f97">
-              vu vvYvvVvVuvvsvvYyuvvvyvvyvuyvuvYy rv svs Yvov
-            </seg>
-            <seg n="f829bdb4">
-              vs vwvwpwvvuwvYysyvysyvvvwvs voeswYsvYygrvvys Vv uv v vy v vYsvYvvYvvsevyvrvvysyvmsevyvvnoweevysvvyv
-            </seg>
-            <seg n="9f758a0a">
-              från statsutskottet:
-            </seg>
-            <seg n="53119a67">
-              fru Alvén &gt; 2 &gt; &gt; &gt; 12 &gt;
-            </seg>
-            <seg n="2fa6de6c">
-              herr Hallberg &gt; 3 &gt;» &gt; &gt; 13 &gt;
-            </seg>
-            <seg n="0d363a96">
-              fru Andersson &gt; 4 &gt; &gt; &gt; 14 &gt;
             </seg>
           </u>
           <note n="8c40f234">
@@ -498,6 +464,11 @@
             å tilläggsstat II till riksstaten för budgetåret 1940/41, i vad
             propositionen avser folkhushållningsdepartementets verksamhetsområde;
           </note>
+          <u who="unknown" xml:id="i-d3065581ef8fab6d-3" n="d3065581">
+            <seg n="0723df05">
+              från bankoutskottet:
+            </seg>
+          </u>
           <note n="115eb318">
             nr 12, angående regleringen för budgetåret 1941/42 av utgifterna
             under riksstatens tolfte huvudtitel, innefattande anslagen till
@@ -575,7 +546,7 @@
           <note n="17e84cf1">
             vv v v vw
           </note>
-          <note n="35cac87d">
+          <note type="date" n="30726f99">
             Nr 14. Lördagen den 8 mars 1941.
           </note>
           <note n="07e0167e">
@@ -590,6 +561,11 @@
           <note n="ce2c88b3">
             Olsson i Kullenbergstorp Hansson i Rubbestad Landgren
           </note>
+          <u who="unknown" xml:id="i-d3065581ef8fab6d-4" n="d3065581">
+            <seg n="0de98af0">
+              Wallén
+            </seg>
+          </u>
           <note n="b304cf9e">
             Werner i Höjen Lindberg i Umeå Larsson i Julita Bergström
           </note>
@@ -608,10 +584,20 @@
           <note n="e858bdb8">
             Svedberg
           </note>
+          <u who="unknown" xml:id="i-d3065581ef8fab6d-5" n="d3065581">
+            <seg n="592ab934">
+              Märtensson
+            </seg>
+          </u>
           <note n="5b8f29d6">
             Svensson i Ljungskile Pettersson i Hällbacken Sundström i Skövde
             Strindlund
           </note>
+          <u who="unknown" xml:id="i-d3065581ef8fab6d-6" n="d3065581">
+            <seg n="48d8e2c8">
+              Kilbom
+            </seg>
+          </u>
           <note n="2a3434c4">
             Edberg
           </note>
@@ -621,6 +607,11 @@
           <note n="479098a7">
             2
           </note>
+          <u who="unknown" xml:id="i-d3065581ef8fab6d-7" n="d3065581">
+            <seg n="ecf9a63d">
+              vu vvrevswWwvYyvYvvrvyvyuvvyyvrvvuyvvYrVvVvuvwvsvvööå
+            </seg>
+          </u>
           <note n="fac2b860">
             4
           </note>
@@ -637,12 +628,22 @@
           <note n="e23aa9ea">
             »
           </note>
+          <u who="unknown" xml:id="i-d3065581ef8fab6d-8" n="d3065581">
+            <seg n="4cb352a8">
+              vv vyYyvYvVvvVvVyYyvgy vvyuv svvvMNouvrvYEs vw Vusw
+            </seg>
+          </u>
           <note n="86c271a1">
             &gt;
           </note>
           <note n="86c271a1">
             &gt;
           </note>
+          <u who="unknown" xml:id="i-d3065581ef8fab6d-9" n="d3065581">
+            <seg n="959e0f97">
+              vu vvYvvVvVuvvsvvYyuvvvyvvyvuyvuvYy rv svs Yvov
+            </seg>
+          </u>
           <note n="56593665">
             Kammarens ledamöter åtskildes härefter kl. 4.16 e. m.
           </note>
@@ -655,14 +656,19 @@
           <note n="525d8d25">
             och
           </note>
+          <u who="unknown" xml:id="i-d3065581ef8fab6d-10" n="d3065581">
+            <seg n="f829bdb4">
+              vs vwvwpwvvuwvYysyvysyvvvwvs voeswYsvYygrvvys Vv uv v vy v vYsvYvvYvvsevyvrvvysyvmsevyvvnoweevysvvyv
+            </seg>
+          </u>
           <note n="edd6ba90">
             In fidem Sune Norrman.
           </note>
           <pb n="6" facs="https://betalab.kb.se/prot-1941--ak--14/prot_1941__ak__14-006.jp2/_view"/>
-          <note n="ce5284f7">
+          <note type="date" n="21b305e4">
             Tisdagen den 11 mars 1941. Nr 14. vi
           </note>
-          <note n="4f12ba37">
+          <note type="date" n="0703aea5">
             Tisdagen den 11 mars. Kl. 4 e. m.
           </note>
           <note n="35a09c46">
@@ -753,7 +759,7 @@
             tillfallna medel; och
           </note>
           <pb n="7" facs="https://betalab.kb.se/prot-1941--ak--14/prot_1941__ak__14-007.jp2/_view"/>
-          <note n="1cf55051">
+          <note type="date" n="c430a921">
             8 Nr 14. Tisdagen den 11 mars 1941.
           </note>
           <note n="5e1779d2">
@@ -807,6 +813,11 @@
             Anmäldes och godkändes följande förslag till riksdagens skrivelser
             till Konungen, nämligen
           </note>
+          <u who="unknown" xml:id="i-d3065581ef8fab6d-11" n="d3065581">
+            <seg n="9f758a0a">
+              från statsutskottet:
+            </seg>
+          </u>
           <note n="8708e17e">
             nr 1, i anledning av Kungl. Maj:ts i statsverkspropositionen
             gjorda framställningar rörande utgifterna för budgetåret 1941/42
@@ -848,7 +859,7 @@
             ock i ämnet väckta motioner;
           </note>
           <pb n="8" facs="https://betalab.kb.se/prot-1941--ak--14/prot_1941__ak__14-008.jp2/_view"/>
-          <note n="90c04ddf">
+          <note type="date" n="ca96e05d">
             Tisdagen den 11 mars 1941. Nr 14. 9
           </note>
           <note n="effaf99a">
@@ -906,6 +917,17 @@
             herr Lundgren under 6 dagar fr.o.m. den 13 mars, &gt; Jansson i
             Hällefors &gt; 4 &gt; &gt; &gt; 13 &gt;
           </note>
+          <u who="unknown" xml:id="i-d3065581ef8fab6d-12" n="d3065581">
+            <seg n="53119a67">
+              fru Alvén &gt; 2 &gt; &gt; &gt; 12 &gt;
+            </seg>
+            <seg n="2fa6de6c">
+              herr Hallberg &gt; 3 &gt;» &gt; &gt; 13 &gt;
+            </seg>
+            <seg n="0d363a96">
+              fru Andersson &gt; 4 &gt; &gt; &gt; 14 &gt;
+            </seg>
+          </u>
           <note n="94969472">
             herr Hermansson &gt; 3 &gt; &gt; &gt; 14 &gt; och &gt; Andersson i Falkenberg (sjuk)
             tills vidare &gt; &gt; 12 &gt;. Kammarens ledamöter åtskildes härefter

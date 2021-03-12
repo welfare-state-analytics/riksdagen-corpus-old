@@ -20,7 +20,7 @@
     <encodingDesc>
       <editorialDecl>
         <correction>
-          <p>Some data curation was done. It is documented in db/curation/instances</p>
+          <p>Some data curation was done. It is documented in input/curation/instances</p>
         </correction>
       </editorialDecl>
     </encodingDesc>
@@ -60,6 +60,7 @@
       </front>
       <body>
         <div>
+          <pb n="0" facs="https://betalab.kb.se/prot-1974--1/prot_1974__1-000.jp2/_view"/>
           <note n="da672c99"/>
           <note n="cc21d16d">
             Riksdagens protokoll
@@ -83,14 +84,14 @@
             av talmannen efter kammarsekreterarvalet ....... 24 Meddelande
             ang. sammanträdestider, m.m, —.....ssssscccs 26
           </note>
-          <note n="796e5111">
+          <note type="date" n="2ff7689e">
             Fredagen den 11 januari kl. 11.00
           </note>
           <note n="214001d7">
             Kungl. Maj:ts tal på rikssalen vid riksdagens öppnande ......
             2 Anförande av talmannen på rikssalen ......sssssssc cc rs 29
           </note>
-          <note n="3618da3f">
+          <note type="date" n="dfbb8a72">
             Fredagen den 11 januari kl. 15.00
           </note>
           <note n="9b3c917c">
@@ -415,7 +416,7 @@
           <note n="71f0beb3">
             Nr 1
           </note>
-          <note n="db534bdc">
+          <note type="date" n="e95ae2e2">
             Torsdagen den 10 januari Kl. 11.00
           </note>
           <note n="43ec5d25">
@@ -486,7 +487,7 @@
           <note n="71f0beb3">
             Nr 1
           </note>
-          <note n="57d43bcb">
+          <note type="date" n="69df9a14">
             Torsdagen den 10 januari 1974
           </note>
           <pb n="6" facs="https://betalab.kb.se/prot-1974--1/prot_1974__1-006.jp2/_view"/>
@@ -1900,7 +1901,7 @@
           <note type="speaker" n="4094dbe4">
             Herr FÖRSTE VICE TALMANNEN, som yttrade:
           </note>
-          <u who="unknown" xml:id="i-4d094d42d02b17aa-0" n="3708993b">
+          <u who="unknown" xml:id="i-3708993b8d8feeee-0" n="3708993b">
             <seg n="46009307">
               Herr talman! Mellan partierna har träffats överenskommelse om
               förslag till ledamöter och suppleanter i valberedningen. Förslagen
@@ -1934,7 +1935,7 @@
           <note type="speaker" n="71f3ffba">
             Herr TALMANNEN anförde:
           </note>
-          <u who="unknown" xml:id="i-9de326361d5556b7-0" n="3708993b">
+          <u who="unknown" xml:id="i-3708993b8d8feeee-1" n="3708993b">
             <seg n="e5b13423">
               Jag får härmed kalla valberedningens ledamöter och suppleanter
               att sammanträda i talmanskonferensens rum i eftermiddag kl. 16.00.
@@ -1946,9 +1947,7 @@
           <note n="484c0556">
             10 januari 1974
           </note>
-          <u who="unknown" xml:id="i-72944a5cb27aa380-0" n="3708993b">
-            <seg n="2a741535"/>
-          </u>
+          <u who="unknown" xml:id="i-3708993b8d8feeee-2" n="3708993b"/>
           <note n="a12bc8b6">
             25
           </note>
@@ -1959,6 +1958,7 @@
           <note n="484c0556">
             10 januari 1974
           </note>
+          <u who="unknown" xml:id="i-3708993b8d8feeee-3" n="3708993b"/>
           <note n="091a7694">
             26
           </note>
@@ -1995,7 +1995,7 @@
           <note type="speaker" n="71f3ffba">
             Herr TALMANNEN anförde:
           </note>
-          <u who="unknown" xml:id="i-9de326361d5556b7-1" n="3708993b"/>
+          <u who="unknown" xml:id="i-3708993b8d8feeee-4" n="3708993b"/>
           <note n="603e8514">
             Till kammarens ledamöter har utdelats bl. a. en preliminär plan
             för kammarens sammanträden under hela vårsessionen. Smärre avvikelser
@@ -2012,24 +2012,9 @@
           <note n="f07a0e1c">
             $ 16 Kammaren åtskildes kl. 11.34. In fidem
           </note>
-          <u who="unknown" xml:id="i-72944a5cb27aa380-1" n="3708993b">
+          <u who="unknown" xml:id="i-3708993b8d8feeee-5" n="3708993b">
             <seg n="3d778b63">
               SUNE K. JOHANSSON /Solveig Gemert
-            </seg>
-            <seg n="b93c9bab">
-              Sellgren (fp) 56
-            </seg>
-            <seg n="d2afaff0">
-              Sundberg (m) 50
-            </seg>
-            <seg n="9b41fed9">
-              Wirtén (fp) 55
-            </seg>
-            <seg n="137f12f3">
-              Bohman (m) 67
-            </seg>
-            <seg n="7bdab180">
-              Werner i Tyresö (vpk) 68
             </seg>
           </u>
           <pb n="27" facs="https://betalab.kb.se/prot-1974--1/prot_1974__1-027.jp2/_view"/>
@@ -2099,15 +2084,30 @@
           <note n="a5c09051">
             Palm (s) 39
           </note>
+          <u who="unknown" xml:id="i-3708993b8d8feeee-6" n="3708993b">
+            <seg n="b93c9bab">
+              Sellgren (fp) 56
+            </seg>
+          </u>
           <note n="ba74b1f3">
             Strindberg (m) 52
           </note>
+          <u who="unknown" xml:id="i-3708993b8d8feeee-7" n="3708993b">
+            <seg n="d2afaff0">
+              Sundberg (m) 50
+            </seg>
+          </u>
           <note n="d96fe749">
             Svensson i Malmö (vpk) 41, 42 Torwald (c) 38
           </note>
           <note n="cf6ff09d">
             Westberg i Ljusdal (fp) 39
           </note>
+          <u who="unknown" xml:id="i-3708993b8d8feeee-8" n="3708993b">
+            <seg n="9b41fed9">
+              Wirtén (fp) 55
+            </seg>
+          </u>
           <note type="date" n="1d2ce0e1">
             Tisdagen den 15 januari
           </note>
@@ -2129,6 +2129,11 @@
           <note n="be39594a">
             Björck i Nässjö (m) 87
           </note>
+          <u who="unknown" xml:id="i-3708993b8d8feeee-9" n="3708993b">
+            <seg n="137f12f3">
+              Bohman (m) 67
+            </seg>
+          </u>
           <note n="f77b9da7">
             Gustafson, Sven, i Göteborg (fp) 67 Hermansson (vpk) 68
           </note>
@@ -2138,6 +2143,11 @@
           <note n="d374f8c9">
             Nilsson i Agnäs (m) 89
           </note>
+          <u who="unknown" xml:id="i-3708993b8d8feeee-10" n="3708993b">
+            <seg n="7bdab180">
+              Werner i Tyresö (vpk) 68
+            </seg>
+          </u>
           <note n="088cdbc0">
             92” GOTAB 74 5979 S Stockholm 1974
           </note>

@@ -20,7 +20,7 @@
     <encodingDesc>
       <editorialDecl>
         <correction>
-          <p>Some data curation was done. It is documented in db/curation/instances</p>
+          <p>Some data curation was done. It is documented in input/curation/instances</p>
         </correction>
       </editorialDecl>
     </encodingDesc>
@@ -60,6 +60,7 @@
       </front>
       <body>
         <div>
+          <pb n="0" facs="https://betalab.kb.se/prot-1959--fk--3/prot_1959__fk__3-000.jp2/_view"/>
           <note n="ddca5b18">
             RIKSDAGENS PROTOKOLL
           </note>
@@ -203,7 +204,7 @@
             25
           </note>
           <pb n="2" facs="https://betalab.kb.se/prot-1959--fk--3/prot_1959__fk__3-002.jp2/_view"/>
-          <note n="e3a7e989">
+          <note type="date" n="b1153400">
             Onsdagen den 4 februari 1959
           </note>
           <note n="5469cdea">
@@ -218,7 +219,7 @@
           <note type="speaker" n="16731e12">
             Herr TALMANNEN yttrade:
           </note>
-          <u who="unknown" xml:id="i-02a3b257b741456e-0" n="e0e82d3d">
+          <u who="unknown" xml:id="i-e0e82d3da093af16-0" n="e0e82d3d">
             <seg n="8a052eeb">
               Åter har ett dödsbud nått vår krets. Det gäller denna gång ledamoten
               för Stockholms län och Uppsala län i denna kammare herr Gunnar
@@ -271,36 +272,9 @@
           <note n="3482a837">
             Uno Olofsson
           </note>
-          <u who="unknown" xml:id="i-f3442d8aaaf9b76c-0" n="e0e82d3d">
+          <u who="unknown" xml:id="i-e0e82d3da093af16-1" n="e0e82d3d">
             <seg n="b03da3ed">
               Den begärda ledigheten beviljades.
-            </seg>
-            <seg n="c9623be0">
-              Herr talman! Herr Ferdinand Nilsson har frågat mig, cm jag uppmärksammat,
-              att kommuner i åtskilliga fall utnyttjat den rätt att förvärva
-              fastigheter, som enligt riksdagsbeslut våren 1958 medgivits dem,
-              till inköp av jord och skog, som enligt vederbörande lantbruksnämnders
-              uppfattning erfordras för komplettering av närbelägna jordbruk,
-              samt om jag avser att vidtaga åtgärder
-            </seg>
-            <seg n="7683e692">
-              för att motverka sådana ur jordbrukspolitisk synpunkt betänkliga
-              förvärv.
-            </seg>
-            <seg n="8de8f745">
-              Med anledning av herr Nilssons första fråga torde jag få erinra
-              om att nämnda lagändring trädde i kraft den 24 juni 1958. Helt
-              naturligt har några säkrare erfarenheter angående lagändringens
-              verkningar inte kunnat vinnas under den relativt korta tid som
-              förflutit därefter. Vid en telefonförfrågan hos lantbruksdirektörerna
-              har också flertalet av dessa uppgivit att kommunförvärv, motverkande
-              den yttre rationaliseringen av jordbruk, icke observerats under
-              denna tid. I något eller några områden synes emellertid kommunerna
-              ha förvärvat en del skogsmark.
-            </seg>
-            <seg n="0f491f21">
-              Härmed, herr talman, anser jag mig ha besvarat herr Nilssons
-              frågor.
             </seg>
           </u>
           <note n="fbba05d7">
@@ -323,17 +297,44 @@
             som tillkännagivit, att han hade för avsikt att vid detta sammanträde
             besvara nämnda frågor, erhöll ordet och anförde:
           </note>
+          <u who="unknown" xml:id="i-e0e82d3da093af16-2" n="e0e82d3d">
+            <seg n="c9623be0">
+              Herr talman! Herr Ferdinand Nilsson har frågat mig, cm jag uppmärksammat,
+              att kommuner i åtskilliga fall utnyttjat den rätt att förvärva
+              fastigheter, som enligt riksdagsbeslut våren 1958 medgivits dem,
+              till inköp av jord och skog, som enligt vederbörande lantbruksnämnders
+              uppfattning erfordras för komplettering av närbelägna jordbruk,
+              samt om jag avser att vidtaga åtgärder
+            </seg>
+          </u>
           <pb n="3" facs="https://betalab.kb.se/prot-1959--fk--3/prot_1959__fk__3-003.jp2/_view"/>
           <note n="02d03d71">
             4 Nr 3
           </note>
-          <note n="e3a7e989">
+          <note type="date" n="b1153400">
             Onsdagen den 4 februari 1959
           </note>
           <note n="fbba05d7">
             Ang. kommunernas utnyttjande i visst avseende av rätten att förvärva
             fastighet
           </note>
+          <u who="unknown" xml:id="i-e0e82d3da093af16-3" n="e0e82d3d">
+            <seg n="7683e692">
+              för att motverka sådana ur jordbrukspolitisk synpunkt betänkliga
+              förvärv.
+            </seg>
+            <seg n="8de8f745">
+              Med anledning av herr Nilssons första fråga torde jag få erinra
+              om att nämnda lagändring trädde i kraft den 24 juni 1958. Helt
+              naturligt har några säkrare erfarenheter angående lagändringens
+              verkningar inte kunnat vinnas under den relativt korta tid som
+              förflutit därefter. Vid en telefonförfrågan hos lantbruksdirektörerna
+              har också flertalet av dessa uppgivit att kommunförvärv, motverkande
+              den yttre rationaliseringen av jordbruk, icke observerats under
+              denna tid. I något eller några områden synes emellertid kommunerna
+              ha förvärvat en del skogsmark.
+            </seg>
+          </u>
           <note n="bf7f0424">
             Med anledning av herr Nilssons andra fråga vill jag nämna, att
             jag enligt Kungl. Maj:ts den 16 maj 1958 givna bemyndigande tillkallat
@@ -344,10 +345,16 @@
             de av herr Nilsson påtalade förhållandena, är för närvarande under
             riksdagens behandling.
           </note>
+          <u who="unknown" xml:id="i-e0e82d3da093af16-4" n="e0e82d3d">
+            <seg n="0f491f21">
+              Härmed, herr talman, anser jag mig ha besvarat herr Nilssons
+              frågor.
+            </seg>
+          </u>
           <note type="speaker" n="1a17ab89">
             Herr NILSSON, FERDINAND, (cp):
           </note>
-          <u who="yngve_nilsson_1ed349" xml:id="i-fb65c218edeb816d-0" next="i-20a0a4f71a3d7b09-0" n="614bfab9">
+          <u who="yngve_nilsson_1ed349" xml:id="i-614bfab9fc975e25-0" next="i-614bfab9fc975e25-1" n="614bfab9">
             <seg n="fc753ee1">
               Herr talman! Jag ber att till herr statsrådet och chefen för
               jordbruksdepartementet få framföra mitt tack för att han varit
@@ -408,7 +415,7 @@
             I denna reservation gjordes inga erinringar mot att de
           </note>
           <pb n="4" facs="https://betalab.kb.se/prot-1959--fk--3/prot_1959__fk__3-004.jp2/_view"/>
-          <note n="e3a7e989">
+          <note type="date" n="b1153400">
             Onsdagen den 4 februari 1959
           </note>
           <note n="ba363eb2">
@@ -418,7 +425,7 @@
             Ang. kommunernas utnyttjande i visst avseende av rätten att förvärva
             fastighet
           </note>
-          <u who="yngve_nilsson_1ed349" xml:id="i-20a0a4f71a3d7b09-0" prev="i-fb65c218edeb816d-0" n="614bfab9">
+          <u who="yngve_nilsson_1ed349" xml:id="i-614bfab9fc975e25-1" prev="i-614bfab9fc975e25-0" n="614bfab9">
             <seg n="6a3b4264">
               kommunala förvärven inordnades under jordförvärvslagstiftningen.
               Tvärtom innehåller reservationen en önskan, att de bestämmelser,
@@ -474,7 +481,7 @@
           <note type="speaker" n="16731e12">
             Herr TALMANNEN yttrade:
           </note>
-          <u who="unknown" xml:id="i-3cdfc44a95d590ca-0" n="e0e82d3d">
+          <u who="unknown" xml:id="i-e0e82d3da093af16-5" n="e0e82d3d">
             <seg n="5d884d43">
               Jag vill erinra herr Nilsson om att det gäller en enkel fråga
               och att en längre sakdebatt nu inte bör förekomma.
@@ -483,7 +490,7 @@
           <note type="speaker" n="86356b6e">
             Herr Nilsson, Ferdinand, fortsatte:
           </note>
-          <u who="yngve_nilsson_1ed349" xml:id="i-fb65c218edeb816d-1" next="i-20a0a4f71a3d7b09-1" n="614bfab9">
+          <u who="yngve_nilsson_1ed349" xml:id="i-614bfab9fc975e25-2" next="i-614bfab9fc975e25-16" n="614bfab9">
             <seg n="9d1a22f0">
               Jag vill då bara summera ned fallet. Man hade gått i författning
               om att köpa 265 hektar skog, vilket köp nu är avslutat. Man förhandlar
@@ -505,7 +512,7 @@
           <note n="a7e7a7a1">
             Herr statsrådet NETZÉN:
           </note>
-          <u who="yngve_nilsson_1ed349" xml:id="i-20a0a4f71a3d7b09-1" prev="i-fb65c218edeb816d-1" n="614bfab9">
+          <u who="yngve_nilsson_1ed349" xml:id="i-614bfab9fc975e25-3" prev="i-614bfab9fc975e25-2" n="614bfab9">
             <seg n="a61487be">
               Herr talman! Jag är egentligen redan förekommen genom herr talmannens
               erinran till herr Nilsson. Jag hade uteslutande tänkt antyda vad
@@ -513,179 +520,6 @@
               När utskottsutlåtandet kommer, får kanske både herr Nilsson och
               jag tillfälle att återkomma till själva sakfrågan mindre ensidigt
               än det kan bli i en dialog oss emellan.
-            </seg>
-            <seg n="27951db7">
-              Herr talman! När 1956 års riksdag fattade beslut om förläggning
-              av vattenfallsstyrelsens förvaltningsbyggnad till Råcksta i Stockholm,
-              angavs kostnaderna för denna byggnad, exklusive tomtmarken, till
-              30 miljoner kronor. I årets statsverksproposition har statsrådet
-              och chefen för kommunikationsdepartementet redovisat nya kostnadsberäkningar
-              för detta byggnadskomplex. Kostnaderna beräknas nu uppgå till
-              69 miljoner kronor, d. v. s. ett belopp som är mer än dubbelt
-              så stort som det som förutsattes vid riksdagsbeslutet 1956.
-            </seg>
-            <seg n="3b8ef1c7">
-              Enligt den senaste redovisningen inriktar man sig nu på 25 å
-              30 procent fler kontorsplatser än som från början förutsattes.
-              Vidare konstateras nu, att såväl behovet av speciella lokaler
-              som omfattningen av erforderliga förbindelse-, transportoch ventilationsanordningar
-              m. m. underskattades år 1956. Slutligen framhålles, att byggnadskostnaderna
-              år 1956 beräknades på en orealistiskt låg medelkostnad per kubikmeter.
-              Den nu framräknade kostnadssiffran skulle däremot motsvara ett
-              normalt och för nuvarande läge i fråga om husbyggnadskostnader
-              representativt värde.
-            </seg>
-            <seg n="7955e613">
-              Det är för kammaren ingen ny erfarenhet, att de verkliga kostnaderna
-              för ett byggnadsprojekt visar sig överstiga de beräknade. Kostnadsskillnaden
-              är dock i detta fall anmärkningsvärt stor. Det måste förutsättas,
-              att den kostnadsberäkning, som redovisades 1956, var avgörande
-              för riksdagens ställningstagande, Det rådde delade meningar om
-            </seg>
-            <seg n="d7d52995">
-              den lämpligaste förläggningsorten för vattenfallsstyrelsens =
-              förvaltningsbyggnad. -Arbetsmarknadsstyrelsen = fann, främst ur
-              lokaliseringspolitiska synpunkter, starka skäl tala för en utflyttning
-              från Stockholm. I motioner och i reservation till statsutskottets
-              utlåtande hemställdes om förnyad prövning av möjligheterna att
-              förlägga förvaltningsbyggnaden till annan ort än Stockholm. Härvid
-              påvisades även möjligheten av att befintliga byggnader i viss
-              utsträckning kunde tas i anspråk för ändamålet, varigenom kostnaderna
-              för projektet skulle kunna reduceras.
-            </seg>
-            <seg n="0a76200b">
-              Man frågar sig vad anledningen är till att kostnaderna för vattenfallsstyrelsens
-              förvaltningsbyggnad sprungit i höjden på detta anmärkningsvärda
-              sätt, är det nu meningen, att byggnadskomplexet skall bli mera
-              omfattande än som förutsattes vid riksdagsbeslutet 1956? Avser
-              man att utöka personalen utöver vad som då förutsattes? Var verkligen
-              de byggnadskostnader, som redovisades till grund för riksdagsbeslutet
-              1956, baserade på en orealistiskt låg medelkostnad per kubikmeter?
-              Vad var i så fall anledningen till att de inte beräknades efter
-              ett normalt värde för husbyggnadskostnader? Det skulle vara värdefullt,
-              om statsrådet och chefen för kommunikationsdepartementet ville
-              lämna kammaren en redogörelse för kostnadsutvecklingen i fråga
-              vattenfallsstyrelsens förvaltningsbyggnad.
-            </seg>
-            <seg n="f93a3527">
-              De kostnadsberäkningar, som redovisas för riksdagen, är givetvis
-              av avgörande betydelse för riksdagens ställningstagande. Det är
-              därför nödvändigt, att beräkningarna blir så tillförlitliga som
-              möjligt. Detta är särskilt angeläget, när för de närmaste åren
-              statens finanser väntas bli mycket hårt ansträngda och upplåningsbehovet
-              måste bedömas som oroväckande stort. Sådana felberäkningar, som
-              framkommit i fråga om vattenfallsstyrelsens = förvaltningsbyggnad,
-              måste för framtiden undvikas. Då de statliga investeringarna till
-              stor del faller inom &lt;kkommunikationsdepartementets verksamhetsområde,
-              hoppas jag, att statsrådet och chefen för kom-
-            </seg>
-            <seg n="c5cf6072">
-              munikationsdepartementet också har möjlighet att redogöra för
-              huruvida regeringen har för avsikt att vidtaga åtgärder i syfte
-              att garantera att kostnadsberäkningar, som «redovisas = till grund
-              för riksdagsbeslut, får sådan tillförlitlighet, att de i stort
-              sett kan gälla som ram för ifrågavarande byggnadsoch anläggningskostnader.
-            </seg>
-            <seg n="9efb792e">
-              Med stöd av vad jag här har anfört anhåller jag om kammarens
-              tillstånd att till statsrådet och chefen för kommunikationsdepartementet
-              ställa följande frågor:
-            </seg>
-            <seg n="c06069ca">
-              1) Vill herr statsrådet lämna en redogörelse för orsakerna till
-              att kostnaderna för vattenfallsstyrelsens förvaltningsbyggnad
-              blivit mer än dubbelt större än vad förutsattes vid riksdagsbeslutet
-              1956?
-            </seg>
-            <seg n="610c5979">
-              2) Vill berr statsrådet vidare redogöra för huruvida regeringen
-              avser att vidtaga åtgärder i syfte att garantera att kostnadsberäkningar,
-              som redovisas till grund för riksdagsbeslut, kan få sådan tillförlitlighet,
-              att de i stort sett kan gälla som ram för ifrågavarande byggnadsoch
-              anläggningskostnader.
-            </seg>
-            <seg n="bd37b15a"/>
-            <seg n="dcc11535">
-              Under hänvisning till bilagda läkarintyg får jag härigenom anhålla
-              om ledighet från riksdagsgöromålen under två veckor från denna
-              dag.
-            </seg>
-            <seg n="b03da3ed">
-              Den begärda ledigheten beviljades.
-            </seg>
-            <seg n="f8c0464e">
-              De subjektiva besvären ha tilltagit på sistone, varför fullständig
-              vila är av nöden från och med den 9 februari 1959 tills vidare,
-              dock minst 3 veckor.
-            </seg>
-            <seg n="b03da3ed">
-              Den begärda ledigheten beviljades.
-            </seg>
-            <seg n="bd37b15a"/>
-            <seg n="a7acbbe6">
-              Herr talman! Konstnärligt utbyte över gränserna har blivit något
-              så naturligt
-            </seg>
-            <seg n="767dbe99">
-              12 Nr 3 och självklart för oss, att vi ej sällan förbiser dess
-              djupt ingripande och bestämmande betydelse för vårt kulturliv.
-              För vissa former av konstnärligt skapande reser dock dessa kulturkontakter
-              speciella, ej minst ekonomiska problem. Så är fallet med teaterkonsten.
-              För nutida svensk teaterkonst representativa gästspel i främmande
-              länder — och givetvis motsvarande gästspel från främmande länder
-              hos oss — drager ofta dryga kostnader.
-            </seg>
-            <seg n="a4d954b4">
-              Den snävt ekonomiska synpunkten får emellertid trots detta ej
-              bli den enda avgörande. Svenska gästspel på »stora scener» måste
-              anses ha en sådan stimulerande och fördjupande verkan för det
-              konstnärliga arbetet nu och i framtiden, att den omständigheten
-              bör tillmätas stor vikt. Därtill kommer att en god insats av denna
-              art är av markerat good Wwill-skapande karaktär. Den fäster uppmärksamheten
-              vid kulturarbetet och folkbildningen i vårt land, och på ett osökt
-              sätt vidgar den våra kulturella kontaktmöjligheter, något som
-              måste vara av speciellt värde särskilt för ett mindre land som
-              vårt. Ej minst torde detta vara fallet om gästspelet genomföres
-              av en teater, som förmått förena hög konstnärlig standard med
-              bred och fast förankring ej blott inom sitt egentliga verksamhetsområde
-              utan vida därutöver. Teaterverksamhet av detta slag är, enligt
-              vad erfarenheten givit vid handen, föremål för starkt och för
-              vårt land gynnsamt intresse i de stora kulturländerna och deras
-              ledande press.
-            </seg>
-            <seg n="9a0bb9b7">
-              Jag åberopar det anförda och anhåller om kammarens tillstånd
-              att få till statsrådet och chefen för handelsdepartementet rikta
-              följande fråga:
-            </seg>
-            <seg n="51344bd7">
-              Vill herr statsrådet lämna kammaren en översiktlig redogörelse
-              för de principer, som är vägledande vid fördelning av anslag till
-              kulturella ändamål ur den s. k. lotterimedelsfonden med speciell
-              hänsyn till möjligheterna att därvid ekonomiskt understödja gästspel
-              i utlandet av konstnärligt högtstående svenska teatrar?
-            </seg>
-            <seg n="edf54e02">
-              Det sålunda begärda tillståndet lämnades av kammaren.
-            </seg>
-            <seg n="bfce7580">
-              När kungl. marinförvaltningen i detta läge nu framlagt förslag
-              om genomgripande omorganisation i Stockholm, syftande till att
-              ställa marinverkstäderna där helt under chefen för örlogsvarvet,
-              kan detta icke undgå att väcka uppseende. Dels har beslut fattats
-              om Stockholmsvarvets förflyttning till Muskö, när denna anläggning
-              färdigställts, vilket beräknas ske om sex år, dels har varken
-              regering eller riksdag tagit ställning till avslutade och pågående
-              utredningar om :örlogsvarvens framtida organisation. Vad som sker
-              i organisatoriskt avseende vid örlogsvarvet i Stockholm kan lätt
-              få återverkningar även i Karlskrona. Mot denna bakgrund har man
-              icke minst bland de anställda på sistnämnda plats med förvåning
-              tagit del av ämbetsverkets framställning, som, om den bifalles,
-              ju skulle sätta den av riksdagen beslutade alltjämt gällande organisationen
-              ur kraft.
-            </seg>
-            <seg n="f24d5e38">
-              fen för försvarsdepartementet få rikta följande frågor:
             </seg>
           </u>
           <note n="faa096e0">
@@ -698,7 +532,7 @@
           <note n="8a55ab14">
             6 Nr 3
           </note>
-          <note n="e3a7e989">
+          <note type="date" n="b1153400">
             Onsdagen den 4 februari 1959
           </note>
           <note n="e6742f23">
@@ -790,8 +624,38 @@
           <note n="9416d9a5">
             Herr SUNDIN (cp) erhöll på begäran ordet och yttrade:
           </note>
+          <u who="yngve_nilsson_1ed349" xml:id="i-614bfab9fc975e25-4" prev="i-614bfab9fc975e25-2" n="614bfab9">
+            <seg n="27951db7">
+              Herr talman! När 1956 års riksdag fattade beslut om förläggning
+              av vattenfallsstyrelsens förvaltningsbyggnad till Råcksta i Stockholm,
+              angavs kostnaderna för denna byggnad, exklusive tomtmarken, till
+              30 miljoner kronor. I årets statsverksproposition har statsrådet
+              och chefen för kommunikationsdepartementet redovisat nya kostnadsberäkningar
+              för detta byggnadskomplex. Kostnaderna beräknas nu uppgå till
+              69 miljoner kronor, d. v. s. ett belopp som är mer än dubbelt
+              så stort som det som förutsattes vid riksdagsbeslutet 1956.
+            </seg>
+            <seg n="3b8ef1c7">
+              Enligt den senaste redovisningen inriktar man sig nu på 25 å
+              30 procent fler kontorsplatser än som från början förutsattes.
+              Vidare konstateras nu, att såväl behovet av speciella lokaler
+              som omfattningen av erforderliga förbindelse-, transportoch ventilationsanordningar
+              m. m. underskattades år 1956. Slutligen framhålles, att byggnadskostnaderna
+              år 1956 beräknades på en orealistiskt låg medelkostnad per kubikmeter.
+              Den nu framräknade kostnadssiffran skulle däremot motsvara ett
+              normalt och för nuvarande läge i fråga om husbyggnadskostnader
+              representativt värde.
+            </seg>
+            <seg n="7955e613">
+              Det är för kammaren ingen ny erfarenhet, att de verkliga kostnaderna
+              för ett byggnadsprojekt visar sig överstiga de beräknade. Kostnadsskillnaden
+              är dock i detta fall anmärkningsvärt stor. Det måste förutsättas,
+              att den kostnadsberäkning, som redovisades 1956, var avgörande
+              för riksdagens ställningstagande, Det rådde delade meningar om
+            </seg>
+          </u>
           <pb n="6" facs="https://betalab.kb.se/prot-1959--fk--3/prot_1959__fk__3-006.jp2/_view"/>
-          <note n="e3a7e989">
+          <note type="date" n="b1153400">
             Onsdagen den 4 februari 1959
           </note>
           <note n="0cfa8fcb">
@@ -801,13 +665,80 @@
             Interpellation ang. kostnaderna för uppförande av förvaltningsbyggnad
             för vatten-
           </note>
+          <u who="yngve_nilsson_1ed349" xml:id="i-614bfab9fc975e25-5" prev="i-614bfab9fc975e25-2" n="614bfab9">
+            <seg n="d7d52995">
+              den lämpligaste förläggningsorten för vattenfallsstyrelsens =
+              förvaltningsbyggnad. -Arbetsmarknadsstyrelsen = fann, främst ur
+              lokaliseringspolitiska synpunkter, starka skäl tala för en utflyttning
+              från Stockholm. I motioner och i reservation till statsutskottets
+              utlåtande hemställdes om förnyad prövning av möjligheterna att
+              förlägga förvaltningsbyggnaden till annan ort än Stockholm. Härvid
+              påvisades även möjligheten av att befintliga byggnader i viss
+              utsträckning kunde tas i anspråk för ändamålet, varigenom kostnaderna
+              för projektet skulle kunna reduceras.
+            </seg>
+            <seg n="0a76200b">
+              Man frågar sig vad anledningen är till att kostnaderna för vattenfallsstyrelsens
+              förvaltningsbyggnad sprungit i höjden på detta anmärkningsvärda
+              sätt, är det nu meningen, att byggnadskomplexet skall bli mera
+              omfattande än som förutsattes vid riksdagsbeslutet 1956? Avser
+              man att utöka personalen utöver vad som då förutsattes? Var verkligen
+              de byggnadskostnader, som redovisades till grund för riksdagsbeslutet
+              1956, baserade på en orealistiskt låg medelkostnad per kubikmeter?
+              Vad var i så fall anledningen till att de inte beräknades efter
+              ett normalt värde för husbyggnadskostnader? Det skulle vara värdefullt,
+              om statsrådet och chefen för kommunikationsdepartementet ville
+              lämna kammaren en redogörelse för kostnadsutvecklingen i fråga
+              vattenfallsstyrelsens förvaltningsbyggnad.
+            </seg>
+            <seg n="f93a3527">
+              De kostnadsberäkningar, som redovisas för riksdagen, är givetvis
+              av avgörande betydelse för riksdagens ställningstagande. Det är
+              därför nödvändigt, att beräkningarna blir så tillförlitliga som
+              möjligt. Detta är särskilt angeläget, när för de närmaste åren
+              statens finanser väntas bli mycket hårt ansträngda och upplåningsbehovet
+              måste bedömas som oroväckande stort. Sådana felberäkningar, som
+              framkommit i fråga om vattenfallsstyrelsens = förvaltningsbyggnad,
+              måste för framtiden undvikas. Då de statliga investeringarna till
+              stor del faller inom &lt;kkommunikationsdepartementets verksamhetsområde,
+              hoppas jag, att statsrådet och chefen för kom-
+            </seg>
+          </u>
           <note n="d37c65cd">
             fallsstyrelsen, m. m.
           </note>
+          <u who="yngve_nilsson_1ed349" xml:id="i-614bfab9fc975e25-6" prev="i-614bfab9fc975e25-2" n="614bfab9">
+            <seg n="c5cf6072">
+              munikationsdepartementet också har möjlighet att redogöra för
+              huruvida regeringen har för avsikt att vidtaga åtgärder i syfte
+              att garantera att kostnadsberäkningar, som «redovisas = till grund
+              för riksdagsbeslut, får sådan tillförlitlighet, att de i stort
+              sett kan gälla som ram för ifrågavarande byggnadsoch anläggningskostnader.
+            </seg>
+            <seg n="9efb792e">
+              Med stöd av vad jag här har anfört anhåller jag om kammarens
+              tillstånd att till statsrådet och chefen för kommunikationsdepartementet
+              ställa följande frågor:
+            </seg>
+            <seg n="c06069ca">
+              1) Vill herr statsrådet lämna en redogörelse för orsakerna till
+              att kostnaderna för vattenfallsstyrelsens förvaltningsbyggnad
+              blivit mer än dubbelt större än vad förutsattes vid riksdagsbeslutet
+              1956?
+            </seg>
+            <seg n="610c5979">
+              2) Vill berr statsrådet vidare redogöra för huruvida regeringen
+              avser att vidtaga åtgärder i syfte att garantera att kostnadsberäkningar,
+              som redovisas till grund för riksdagsbeslut, kan få sådan tillförlitlighet,
+              att de i stort sett kan gälla som ram för ifrågavarande byggnadsoch
+              anläggningskostnader.
+            </seg>
+          </u>
           <note n="0e8fa840">
             På gjord proposition medgav kammaren, att ifrågavarande spörsmål
             finge framställas.
           </note>
+          <u who="yngve_nilsson_1ed349" xml:id="i-614bfab9fc975e25-7" prev="i-614bfab9fc975e25-2" n="614bfab9"/>
           <note n="79ef9934">
             Anmäldes och bordlades följande under sammanträdet till herr
             talmannen avlämnade motioner:
@@ -840,7 +771,7 @@
             Maj:ts proposition med förslag till lag angående ändring i lagen
             den 29 juni 1946 (nr 431) om folkpensionering, m. m.
           </note>
-          <note n="24925dcc">
+          <note type="date" n="0e20eb13">
             Lördagen den 7 februari 1959
           </note>
           <note n="604bd587">
@@ -863,6 +794,13 @@
           <note n="dcc768c5">
             Till riksdagens första kammare
           </note>
+          <u who="yngve_nilsson_1ed349" xml:id="i-614bfab9fc975e25-8" prev="i-614bfab9fc975e25-2" n="614bfab9">
+            <seg n="dcc11535">
+              Under hänvisning till bilagda läkarintyg får jag härigenom anhålla
+              om ledighet från riksdagsgöromålen under två veckor från denna
+              dag.
+            </seg>
+          </u>
           <note n="97742b01">
             Luleå den 4 februari 1959
           </note>
@@ -880,6 +818,11 @@
           <note n="d1643c6d">
             S. Hedenstedt Med. dr, lasarettsläkare
           </note>
+          <u who="yngve_nilsson_1ed349" xml:id="i-614bfab9fc975e25-9" prev="i-614bfab9fc975e25-2" n="614bfab9">
+            <seg n="b03da3ed">
+              Den begärda ledigheten beviljades.
+            </seg>
+          </u>
           <note n="00788b86">
             Föredrogs och hänvisades till behandling av lagutskott Kungl.
             Maj:ts proposition nr 31, med förslag till lag om ändrad lydelse
@@ -923,7 +866,7 @@
             av särskild tullavgift för vissa varuslag.
           </note>
           <pb n="8" facs="https://betalab.kb.se/prot-1959--fk--3/prot_1959__fk__3-008.jp2/_view"/>
-          <note n="24925dcc">
+          <note type="date" n="0e20eb13">
             Lördagen den 7 februari 1959
           </note>
           <note n="40f42031">
@@ -1073,7 +1016,7 @@
             proposition med förslag till lag angående ändrad lydelse av punkten
             4 av övergångsbe-
           </note>
-          <note n="24925dcc">
+          <note type="date" n="0e20eb13">
             Lördagen den 7 februari 1959
           </note>
           <note n="66535bab">
@@ -1101,7 +1044,7 @@
             In fidem K.-G. Lindelöw
           </note>
           <pb n="10" facs="https://betalab.kb.se/prot-1959--fk--3/prot_1959__fk__3-010.jp2/_view"/>
-          <note n="8e48dace">
+          <note type="date" n="1f2cdfa6">
             Tisdagen den 10 februari 1959
           </note>
           <note n="fcfdabaa">
@@ -1139,12 +1082,24 @@
             lider av ulcus duodeni, senast konstaterat vid ventrikelröntgen
             vid centrallasarettets i Umeå röntgenavdelning den 7 januari 1959.
           </note>
+          <u who="yngve_nilsson_1ed349" xml:id="i-614bfab9fc975e25-10" prev="i-614bfab9fc975e25-2" n="614bfab9">
+            <seg n="f8c0464e">
+              De subjektiva besvären ha tilltagit på sistone, varför fullständig
+              vila är av nöden från och med den 9 februari 1959 tills vidare,
+              dock minst 3 veckor.
+            </seg>
+          </u>
           <note n="380858e8">
             Vindeln den 9 februari 1959
           </note>
           <note n="1f950252">
             S. O. Arvidsson Provinsialläkare
           </note>
+          <u who="yngve_nilsson_1ed349" xml:id="i-614bfab9fc975e25-11" prev="i-614bfab9fc975e25-2" n="614bfab9">
+            <seg n="b03da3ed">
+              Den begärda ledigheten beviljades.
+            </seg>
+          </u>
           <note n="250515ca">
             Föredrogos och hänvisades till statsutskottet Kungl. Maj:ts propositioner:
           </note>
@@ -1162,6 +1117,7 @@
             Maj:ts proposition nr 42, angående vissa anslag ur kyrkofonden
             m. m,
           </note>
+          <u who="yngve_nilsson_1ed349" xml:id="i-614bfab9fc975e25-12" prev="i-614bfab9fc975e25-2" n="614bfab9"/>
           <note n="e61ea55e">
             Föredrogos och hänvisades till jordbruksutskottet Kungl. Maj:ts
             propositioner:
@@ -1203,8 +1159,58 @@
           <note n="9b865c5a">
             Herr HAGBERG (h) erhöll på begäran ordet och anförde:
           </note>
+          <u who="yngve_nilsson_1ed349" xml:id="i-614bfab9fc975e25-13" prev="i-614bfab9fc975e25-2" n="614bfab9">
+            <seg n="a7acbbe6">
+              Herr talman! Konstnärligt utbyte över gränserna har blivit något
+              så naturligt
+            </seg>
+          </u>
           <pb n="11" facs="https://betalab.kb.se/prot-1959--fk--3/prot_1959__fk__3-011.jp2/_view"/>
-          <note n="8e48dace">
+          <u who="yngve_nilsson_1ed349" xml:id="i-614bfab9fc975e25-14" prev="i-614bfab9fc975e25-2" n="614bfab9">
+            <seg n="767dbe99">
+              12 Nr 3 och självklart för oss, att vi ej sällan förbiser dess
+              djupt ingripande och bestämmande betydelse för vårt kulturliv.
+              För vissa former av konstnärligt skapande reser dock dessa kulturkontakter
+              speciella, ej minst ekonomiska problem. Så är fallet med teaterkonsten.
+              För nutida svensk teaterkonst representativa gästspel i främmande
+              länder — och givetvis motsvarande gästspel från främmande länder
+              hos oss — drager ofta dryga kostnader.
+            </seg>
+            <seg n="a4d954b4">
+              Den snävt ekonomiska synpunkten får emellertid trots detta ej
+              bli den enda avgörande. Svenska gästspel på »stora scener» måste
+              anses ha en sådan stimulerande och fördjupande verkan för det
+              konstnärliga arbetet nu och i framtiden, att den omständigheten
+              bör tillmätas stor vikt. Därtill kommer att en god insats av denna
+              art är av markerat good Wwill-skapande karaktär. Den fäster uppmärksamheten
+              vid kulturarbetet och folkbildningen i vårt land, och på ett osökt
+              sätt vidgar den våra kulturella kontaktmöjligheter, något som
+              måste vara av speciellt värde särskilt för ett mindre land som
+              vårt. Ej minst torde detta vara fallet om gästspelet genomföres
+              av en teater, som förmått förena hög konstnärlig standard med
+              bred och fast förankring ej blott inom sitt egentliga verksamhetsområde
+              utan vida därutöver. Teaterverksamhet av detta slag är, enligt
+              vad erfarenheten givit vid handen, föremål för starkt och för
+              vårt land gynnsamt intresse i de stora kulturländerna och deras
+              ledande press.
+            </seg>
+            <seg n="9a0bb9b7">
+              Jag åberopar det anförda och anhåller om kammarens tillstånd
+              att få till statsrådet och chefen för handelsdepartementet rikta
+              följande fråga:
+            </seg>
+            <seg n="51344bd7">
+              Vill herr statsrådet lämna kammaren en översiktlig redogörelse
+              för de principer, som är vägledande vid fördelning av anslag till
+              kulturella ändamål ur den s. k. lotterimedelsfonden med speciell
+              hänsyn till möjligheterna att därvid ekonomiskt understödja gästspel
+              i utlandet av konstnärligt högtstående svenska teatrar?
+            </seg>
+            <seg n="edf54e02">
+              Det sålunda begärda tillståndet lämnades av kammaren.
+            </seg>
+          </u>
+          <note type="date" n="1f2cdfa6">
             Tisdagen den 10 februari 1959
           </note>
           <note n="6f8135b6">
@@ -1229,14 +1235,37 @@
             Karlskrona och Stockholm i tekniskt och ekonomiskt avseende direkt
             under kungl. marinförvaltningen.
           </note>
+          <u who="yngve_nilsson_1ed349" xml:id="i-614bfab9fc975e25-15" prev="i-614bfab9fc975e25-2" n="614bfab9">
+            <seg n="bfce7580">
+              När kungl. marinförvaltningen i detta läge nu framlagt förslag
+              om genomgripande omorganisation i Stockholm, syftande till att
+              ställa marinverkstäderna där helt under chefen för örlogsvarvet,
+              kan detta icke undgå att väcka uppseende. Dels har beslut fattats
+              om Stockholmsvarvets förflyttning till Muskö, när denna anläggning
+              färdigställts, vilket beräknas ske om sex år, dels har varken
+              regering eller riksdag tagit ställning till avslutade och pågående
+              utredningar om :örlogsvarvens framtida organisation. Vad som sker
+              i organisatoriskt avseende vid örlogsvarvet i Stockholm kan lätt
+              få återverkningar även i Karlskrona. Mot denna bakgrund har man
+              icke minst bland de anställda på sistnämnda plats med förvåning
+              tagit del av ämbetsverkets framställning, som, om den bifalles,
+              ju skulle sätta den av riksdagen beslutade alltjämt gällande organisationen
+              ur kraft.
+            </seg>
+          </u>
           <note n="f36ea2d4">
             Med anledning härav anhåller undertecknad att till herr statsrådet
             och che-
           </note>
           <pb n="12" facs="https://betalab.kb.se/prot-1959--fk--3/prot_1959__fk__3-012.jp2/_view"/>
-          <note n="1825ffe2">
+          <note type="date" n="de5c69b7">
             Onsdagen den 11 februari 1959
           </note>
+          <u who="yngve_nilsson_1ed349" xml:id="i-614bfab9fc975e25-16" prev="i-614bfab9fc975e25-2" n="614bfab9">
+            <seg n="f24d5e38">
+              fen för försvarsdepartementet få rikta följande frågor:
+            </seg>
+          </u>
           <note n="695aac69">
             Avser statsrådet att underställa riksdagen den av kungl. marinförvaltningen
             gjorda framställningen i berörda avseende och har statsrådet i
@@ -1313,7 +1342,7 @@
           <note type="speaker" n="947c81e7">
             Herr HANSSON, NILS, (fp):
           </note>
-          <u who="per-olof_hansson_a32e8b" xml:id="i-1f04598c1df89b96-0" next="i-83a20da2d1ea990d-0" n="2be991df">
+          <u who="per-olof_hansson_a32e8b" xml:id="i-ce3727462a871112-0" next="i-ce3727462a871112-1" n="2be991df">
             <seg n="6f941084">
               Herr talman! Jag har vid punkterna 2—4 fogat en blank reservation.
               Jag skall inte närmare gå in på punkt 2, eftersom den redan är
@@ -1340,10 +1369,10 @@
           <note n="24c0ff86">
             14 Nr 3
           </note>
-          <note n="1825ffe2">
+          <note type="date" n="de5c69b7">
             Onsdagen den 11 februari 1959
           </note>
-          <u who="per-olof_hansson_a32e8b" xml:id="i-83a20da2d1ea990d-0" prev="i-1f04598c1df89b96-0" n="2be991df">
+          <u who="per-olof_hansson_a32e8b" xml:id="i-ce3727462a871112-1" prev="i-ce3727462a871112-0" n="2be991df">
             <seg n="67b140a2">
               Om medverkan från riksdagen vid förhandlingar rörande statstjänstemännens
               löner
@@ -1385,7 +1414,7 @@
           <note type="speaker" n="065a3ec8">
             Herr JONSSON (s):
           </note>
-          <u who="jon_jonsson_f6f61a" xml:id="i-ba7fd7a18d8ee49d-0" next="i-7f0cff6f8e57b5ea-0" n="33c83bd2">
+          <u who="jon_jonsson_f6f61a" xml:id="i-33c83bd2343d1aef-0" next="i-33c83bd2343d1aef-4" n="33c83bd2">
             <seg n="ae627a8a">
               Herr talman! Eftersom reservanten inte framställde något yrkande
               har jag ingen anledning att närmare gå in på vad han här anfört,
@@ -1412,39 +1441,19 @@
             befrielse i vissa fall från betalningsskyldighet till kronan,
             bifölls vad utskottet i detta utlåtande hemställt.
           </note>
-          <u who="jon_jonsson_f6f61a" xml:id="i-7f0cff6f8e57b5ea-0" prev="i-ba7fd7a18d8ee49d-0" n="33c83bd2">
-            <seg n="67b140a2">
-              Om medverkan från riksdagen vid förhandlingar rörande statstjänstemännens
-              löner
-            </seg>
-            <seg n="67b140a2">
-              Om medverkan från riksdagen vid förhandlingar rörande statstjänstemännens
-              löner
-            </seg>
-            <seg n="56ff33a1">
-              » Utskottet vill i anledning av nämnda motionsyrkanden erinra
-              om de nu verksamma kommittéerna författningsutredningen och 1956
-              års förhandlingsrättsutredning. Båda dessa utredningar kan väntas
-              komma att uppmärksamma frågan om medverkan från riksdagens sida
-              i förhandlingsarbetet rörande statstjänstemännens löneoch anställningsförhållanden.
-              Ifrågavarande utredningar torde komma att slutföra sina uppdrag
-              inom berörda område inom en tämligen nära framtid. Under sådana
-              förhållanden anser utskottet det inte påkallat att nu tillstyrka
-              någon särskild hänvändelse till Kungl. Maj:t från riksdagens sida
-              av den i motionerna åsyftade innebörden. Ut-
-            </seg>
-            <seg n="d1bf5269">
-              skottet vill emellertid understryka vikten av att frågan om en
-              reglering av medverkan från riksdagens sida i ifrågavarande förhandlingsarbete
-              upptages till prövning så snart ske kan.»
-            </seg>
-          </u>
+          <u who="jon_jonsson_f6f61a" xml:id="i-33c83bd2343d1aef-1" prev="i-33c83bd2343d1aef-0" n="33c83bd2"/>
           <note n="1a485f49">
             Vid ånyo skedd föredragning av statsutskottets utlåtande nr 13,
             i anledning av Kungl. Maj:ts i statsverkspropositionen gjorda
             framställning om anslag för budgetåret 1959/60 till oförutsedda
             utgifter, bifölls vad utskottet i detta utlåtande hemställt.
           </note>
+          <u who="jon_jonsson_f6f61a" xml:id="i-33c83bd2343d1aef-2" prev="i-33c83bd2343d1aef-0" n="33c83bd2">
+            <seg n="67b140a2">
+              Om medverkan från riksdagen vid förhandlingar rörande statstjänstemännens
+              löner
+            </seg>
+          </u>
           <note n="8a23cc62">
             Föredrogs ånyo statsutskottets utlåtande nr 14, i anledning av
             Kungl. Maj:ts i statsverkspropositionen gjorda framställningar
@@ -1463,12 +1472,18 @@
             följande motioner, nämligen
           </note>
           <pb n="14" facs="https://betalab.kb.se/prot-1959--fk--3/prot_1959__fk__3-014.jp2/_view"/>
-          <note n="1825ffe2">
+          <note type="date" n="de5c69b7">
             Onsdagen den 11 februari 1959
           </note>
           <note n="bcc31a05">
             Nr 3 15
           </note>
+          <u who="jon_jonsson_f6f61a" xml:id="i-33c83bd2343d1aef-3" prev="i-33c83bd2343d1aef-0" n="33c83bd2">
+            <seg n="67b140a2">
+              Om medverkan från riksdagen vid förhandlingar rörande statstjänstemännens
+              löner
+            </seg>
+          </u>
           <note n="c67e74e6">
             dels en inom andra kammaren av herr Rubbestad väckt motion (II:
             336), vari hemställts, att riksdagen måtte i skrivelse till Kungl.
@@ -1503,6 +1518,25 @@
             I motiveringen hade utskottet beträffande motionerna II: 336
             samt I: 272 och II: 337 yttrat bland annat:
           </note>
+          <u who="jon_jonsson_f6f61a" xml:id="i-33c83bd2343d1aef-4" prev="i-33c83bd2343d1aef-0" n="33c83bd2">
+            <seg n="56ff33a1">
+              » Utskottet vill i anledning av nämnda motionsyrkanden erinra
+              om de nu verksamma kommittéerna författningsutredningen och 1956
+              års förhandlingsrättsutredning. Båda dessa utredningar kan väntas
+              komma att uppmärksamma frågan om medverkan från riksdagens sida
+              i förhandlingsarbetet rörande statstjänstemännens löneoch anställningsförhållanden.
+              Ifrågavarande utredningar torde komma att slutföra sina uppdrag
+              inom berörda område inom en tämligen nära framtid. Under sådana
+              förhållanden anser utskottet det inte påkallat att nu tillstyrka
+              någon särskild hänvändelse till Kungl. Maj:t från riksdagens sida
+              av den i motionerna åsyftade innebörden. Ut-
+            </seg>
+            <seg n="d1bf5269">
+              skottet vill emellertid understryka vikten av att frågan om en
+              reglering av medverkan från riksdagens sida i ifrågavarande förhandlingsarbete
+              upptages till prövning så snart ske kan.»
+            </seg>
+          </u>
           <note n="c9813339">
             Reservation hade avgivits av herr Rubbestad, som ansett, att
             det nyss återgivna stycket av utskottets yttrande bort erhålla
@@ -1523,7 +1557,7 @@
           <note type="speaker" n="1a17ab89">
             Herr NILSSON, FERDINAND, (cp):
           </note>
-          <u who="yngve_nilsson_1ed349" xml:id="i-fb65c218edeb816d-2" next="i-20a0a4f71a3d7b09-2" n="614bfab9">
+          <u who="yngve_nilsson_1ed349" xml:id="i-614bfab9fc975e25-17" next="i-614bfab9fc975e25-19" n="614bfab9">
             <seg n="90d4c44c">
               Herr talman! Såsom av utskottets utlåtande framgår har utskottet
               till behandling haft två motioner, som berör ett ganska betydelsefullt
@@ -1552,10 +1586,10 @@
           <note n="179d53dc">
             16 Nr 3
           </note>
-          <note n="1825ffe2">
+          <note type="date" n="de5c69b7">
             Onsdagen den 11 februari 1959
           </note>
-          <u who="yngve_nilsson_1ed349" xml:id="i-20a0a4f71a3d7b09-2" prev="i-fb65c218edeb816d-2" n="614bfab9">
+          <u who="yngve_nilsson_1ed349" xml:id="i-614bfab9fc975e25-18" prev="i-614bfab9fc975e25-17" n="614bfab9">
             <seg n="67b140a2">
               Om medverkan från riksdagen vid förhandlingar rörande statstjänstemännens
               löner
@@ -1582,30 +1616,6 @@
               binda sig angående formerna. Frågan är emellertid så betydelsefull,
               att den likväl skulle vara värd att positivt beaktas, innan den
               något osäkra tidpunkt kommer när utredningarna är klara.
-            </seg>
-            <seg n="1617d9db">
-              Jag har velat framlägga detta förslag för att få fram en mjukare
-              form, innan man fast reglerar vad det här gäller — en mjukare
-              form som innebär medverkan från riksdagen vid dessa förhandlingar.
-              Därigenom kommer förhandlingsfrågorna att få en mera allsidig
-              belysning.
-            </seg>
-            <seg n="9961397c">
-              Man har hänvisat till författningsutredningens förslag, men den
-              utredningen griper över så mycket. Vidare hänvisar man till förslaget
-              från 1956 års förhandlingsrättsutredning. Jag är inte Öövertygad
-              om att vi därifrån kan vänta några uppslag i denna riktning. I
-              direktiven för utredningen säger statsrådet, att utredningen har
-              att förhandla med representanter för de anställda. Punkt! Om jag
-              sedan ser på utredningens sammansättning, finner jag, att det
-              är 1 st. landshövding, som expert 1 st. docent och därutöver en
-              hovrättsfiskal. Det är alltså av dessa som man har att vänta en
-              »allsidig belysning».
-            </seg>
-            <seg n="5da0c3a7">
-              Under sådana förhållanden förefaller det mig vara rimligt att
-              framställa ett sådant yrkande som jag här har framställt. Yrkandet
-              innebär ju, att riksdagens representanter skall medverka som sakkunniga.
             </seg>
           </u>
           <note n="4e1ec1c3">
@@ -1637,10 +1647,36 @@
             C. i skrivelse till Kungl. Maj:t i anledning av motionerna I:272
             och II: 337 giva till känna vad utskottet därom anfört.»
           </note>
+          <u who="yngve_nilsson_1ed349" xml:id="i-614bfab9fc975e25-19" prev="i-614bfab9fc975e25-17" n="614bfab9">
+            <seg n="1617d9db">
+              Jag har velat framlägga detta förslag för att få fram en mjukare
+              form, innan man fast reglerar vad det här gäller — en mjukare
+              form som innebär medverkan från riksdagen vid dessa förhandlingar.
+              Därigenom kommer förhandlingsfrågorna att få en mera allsidig
+              belysning.
+            </seg>
+            <seg n="9961397c">
+              Man har hänvisat till författningsutredningens förslag, men den
+              utredningen griper över så mycket. Vidare hänvisar man till förslaget
+              från 1956 års förhandlingsrättsutredning. Jag är inte Öövertygad
+              om att vi därifrån kan vänta några uppslag i denna riktning. I
+              direktiven för utredningen säger statsrådet, att utredningen har
+              att förhandla med representanter för de anställda. Punkt! Om jag
+              sedan ser på utredningens sammansättning, finner jag, att det
+              är 1 st. landshövding, som expert 1 st. docent och därutöver en
+              hovrättsfiskal. Det är alltså av dessa som man har att vänta en
+              »allsidig belysning».
+            </seg>
+            <seg n="5da0c3a7">
+              Under sådana förhållanden förefaller det mig vara rimligt att
+              framställa ett sådant yrkande som jag här har framställt. Yrkandet
+              innebär ju, att riksdagens representanter skall medverka som sakkunniga.
+            </seg>
+          </u>
           <note type="speaker" n="87af2ab6">
             Fröken ANDERSSON (h):
           </note>
-          <u who="torsten_andersson_214d82" xml:id="i-b0acbeecfc3a04a2-0" next="i-28cff7b24c6b9577-0" n="9c60c4fd">
+          <u who="torsten_andersson_214d82" xml:id="i-b4a3818cc438bdb8-0" next="i-b4a3818cc438bdb8-1" n="9c60c4fd">
             <seg n="9a9e5bb0">
               Herr talman! Herr Nilssons förslag var så invecklat, att jag
               inte är säker på att jag fattade det i alla dess delar. Men i
@@ -1651,13 +1687,13 @@
             </seg>
           </u>
           <pb n="16" facs="https://betalab.kb.se/prot-1959--fk--3/prot_1959__fk__3-016.jp2/_view"/>
-          <note n="1825ffe2">
+          <note type="date" n="de5c69b7">
             Onsdagen den 11 februari 1959
           </note>
           <note n="1d727f31">
             Nr 3 17
           </note>
-          <u who="torsten_andersson_214d82" xml:id="i-28cff7b24c6b9577-0" prev="i-b0acbeecfc3a04a2-0" n="9c60c4fd">
+          <u who="torsten_andersson_214d82" xml:id="i-b4a3818cc438bdb8-1" prev="i-b4a3818cc438bdb8-0" n="9c60c4fd">
             <seg n="67b140a2">
               Om medverkan från riksdagen vid förhandlingar rörande statstjänstemännens
               löner
@@ -1683,7 +1719,7 @@
           <note type="speaker" n="1a17ab89">
             Herr NILSSON, FERDINAND, (cp):
           </note>
-          <u who="yngve_nilsson_1ed349" xml:id="i-0df2b4719cd1dada-0" n="614bfab9">
+          <u who="yngve_nilsson_1ed349" xml:id="i-614bfab9fc975e25-20" n="614bfab9">
             <seg n="25a57de2">
               Herr talman! Om det var svårt att uppfatta det förslag som jag
               här framförde, berodde det knappast på förslaget, ty det är relativt
@@ -1714,7 +1750,7 @@
           <note type="speaker" n="7b0cf9af">
             Herr ÅMAN (s):
           </note>
-          <u who="valter_aman_1c9e19" xml:id="i-7ea206b44a4e8fe0-0" next="i-c4e8903f2038e97c-0" n="563b3d11">
+          <u who="valter_aman_1c9e19" xml:id="i-563b3d11723799c6-0" next="i-563b3d11723799c6-1" n="563b3d11">
             <seg n="6e9d4478">
               Herr talman! Eftersom jag tillhör dem som har praktisk erfarenhet
               av detta förhandlingsarbete, vill jag gärna gendriva herr Nilsson
@@ -1759,10 +1795,10 @@
           <note n="df22606d">
             18 Nr 3
           </note>
-          <note n="1825ffe2">
+          <note type="date" n="de5c69b7">
             Onsdagen den 11 februari 1959
           </note>
-          <u who="valter_aman_1c9e19" xml:id="i-c4e8903f2038e97c-0" prev="i-7ea206b44a4e8fe0-0" n="563b3d11">
+          <u who="valter_aman_1c9e19" xml:id="i-563b3d11723799c6-1" prev="i-563b3d11723799c6-0" n="563b3d11">
             <seg n="67b140a2">
               Om medverkan från riksdagen vid förhandlingar rörande statstjänstemännens
               löner
@@ -1788,7 +1824,7 @@
           <note type="speaker" n="1a17ab89">
             Herr NILSSON, FERDINAND, (cp):
           </note>
-          <u who="yngve_nilsson_1ed349" xml:id="i-0df2b4719cd1dada-1" n="614bfab9">
+          <u who="yngve_nilsson_1ed349" xml:id="i-614bfab9fc975e25-21" n="614bfab9">
             <seg n="16ffbc3c">
               Herr talman! Jag konstaterar att den siste ärade talaren började
               sitt anförande med att säga, att han gärna ville gendriva vad
@@ -1813,7 +1849,7 @@
           <note type="speaker" n="7b0cf9af">
             Herr ÅMAN (s):
           </note>
-          <u who="valter_aman_1c9e19" xml:id="i-b0abedfb9d470e29-0" n="563b3d11">
+          <u who="valter_aman_1c9e19" xml:id="i-563b3d11723799c6-2" n="563b3d11">
             <seg n="b9ec6913">
               Herr talman! Bara en kort replik. Till herr Nilsson vill jag
               endast säga att vad jag ville framhålla var, att det inte är några
@@ -1824,7 +1860,7 @@
           <note type="speaker" n="1a17ab89">
             Herr NILSSON, FERDINAND, (cp):
           </note>
-          <u who="yngve_nilsson_1ed349" xml:id="i-0df2b4719cd1dada-2" n="614bfab9">
+          <u who="yngve_nilsson_1ed349" xml:id="i-614bfab9fc975e25-22" n="614bfab9">
             <seg n="9fe5447c">
               Herr talman! Jag vill helt kort säga, att jag känner till civilministerns
               existens och den befattning han tar med dessa ärenden. Men jag
@@ -1835,7 +1871,7 @@
           <note type="speaker" n="580ec99b">
             Herr SUNDIN (cp):
           </note>
-          <u who="sven_sundin_f0cdf1" xml:id="i-00f2514de05eee1b-0" n="928f9a34">
+          <u who="sven_sundin_f0cdf1" xml:id="i-928f9a3403e869a1-0" n="928f9a34">
             <seg n="59f6bbeb">
               Herr talman! I den i statsutskottets utlåtande här åberopade
               motionen i denna kammare nr 272 har det hemställts att det skulle
@@ -1857,7 +1893,7 @@
           <note type="speaker" n="d5d49872">
             Herr statsrådet LINDHOLM:
           </note>
-          <u who="sigurd_lindholm_a59de2" xml:id="i-c2bdb67fa4297b4d-0" next="i-f05a8f3197039b4b-0" n="7597ef7e"/>
+          <u who="sigurd_lindholm_a59de2" xml:id="i-e0e82d3da093af16-6" next="i-e0e82d3da093af16-7" n="7597ef7e"/>
           <note n="ba43a087">
             Herr talman! I anslutning till inrättandet av civildepartementet
             uppstod i riksdagen en diskussion om riksdagens medverkan och
@@ -1865,13 +1901,13 @@
             Denna diskus-
           </note>
           <pb n="18" facs="https://betalab.kb.se/prot-1959--fk--3/prot_1959__fk__3-018.jp2/_view"/>
-          <note n="1825ffe2">
+          <note type="date" n="de5c69b7">
             Onsdagen den 11 februari 1959
           </note>
           <note n="b442b920">
             Nr 3 19
           </note>
-          <u who="sigurd_lindholm_a59de2" xml:id="i-f05a8f3197039b4b-0" prev="i-c2bdb67fa4297b4d-0" n="7597ef7e">
+          <u who="sigurd_lindholm_a59de2" xml:id="i-e0e82d3da093af16-7" prev="i-e0e82d3da093af16-6" n="7597ef7e">
             <seg n="67b140a2">
               Om medverkan från riksdagen vid förhandlingar rörande statstjänstemännens
               löner
@@ -1941,7 +1977,7 @@
           <note type="speaker" n="7b0cf9af">
             Herr ÅMAN (s):
           </note>
-          <u who="valter_aman_1c9e19" xml:id="i-7ea206b44a4e8fe0-1" next="i-c4e8903f2038e97c-1" n="563b3d11">
+          <u who="valter_aman_1c9e19" xml:id="i-563b3d11723799c6-3" next="i-563b3d11723799c6-4" n="563b3d11">
             <seg n="41dad597">
               Herr talman! Jag vill bara konstatera, att herr Nilsson och jag
               egentligen är överens numera, sedan herr Nilsson medgav att tjänstemän
@@ -1963,10 +1999,10 @@
           <note n="9c3428ca">
             20 Nr 3
           </note>
-          <note n="1825ffe2">
+          <note type="date" n="de5c69b7">
             Onsdagen den 11 februari 1959
           </note>
-          <u who="valter_aman_1c9e19" xml:id="i-c4e8903f2038e97c-1" prev="i-7ea206b44a4e8fe0-1" n="563b3d11">
+          <u who="valter_aman_1c9e19" xml:id="i-563b3d11723799c6-4" prev="i-563b3d11723799c6-3" n="563b3d11">
             <seg n="67b140a2">
               Om medverkan från riksdagen vid förhandlingar rörande statstjänstemännens
               löner
@@ -1994,7 +2030,7 @@
           <note type="speaker" n="1a17ab89">
             Herr NILSSON, FERDINAND, (cp):
           </note>
-          <u who="yngve_nilsson_1ed349" xml:id="i-fb65c218edeb816d-3" next="i-20a0a4f71a3d7b09-3" n="614bfab9">
+          <u who="yngve_nilsson_1ed349" xml:id="i-614bfab9fc975e25-23" next="i-614bfab9fc975e25-25" n="614bfab9">
             <seg n="c6c3148f">
               Herr talman! Herr statsrådet gav herr Sundin, mig och andra,
               som har den uppfattningen att det nuvarande systemet inte är nöjaktigt,
@@ -2051,14 +2087,7 @@
             överläggningen framställda yrkandet; och förklarades den förra
             propositionen, som upprepades, vara med övervägande ja besvarad.
           </note>
-          <u who="yngve_nilsson_1ed349" xml:id="i-20a0a4f71a3d7b09-3" prev="i-fb65c218edeb816d-3" n="614bfab9">
-            <seg n="6b3370dd">
-              1) godkänna i motionerna förordnad överflyttning av medel från
-              sakoch bidragsanslag till diverse utgiftsanslag, vilken överflyttning
-              beräknades medgiva en total minskning av medelsbehovet med omkring
-              20 procent;
-            </seg>
-          </u>
+          <u who="yngve_nilsson_1ed349" xml:id="i-614bfab9fc975e25-24" prev="i-614bfab9fc975e25-23" n="614bfab9"/>
           <note n="c795bdac">
             Föredrogos ånyo statsutskottets utlåtanden:
           </note>
@@ -2078,7 +2107,7 @@
             propositionen avser socialdepartementets verksamhetsområde;
           </note>
           <pb n="20" facs="https://betalab.kb.se/prot-1959--fk--3/prot_1959__fk__3-020.jp2/_view"/>
-          <note n="1825ffe2">
+          <note type="date" n="de5c69b7">
             Onsdagen den 11 februari 1959
           </note>
           <note n="2ce6c0b9">
@@ -2171,6 +2200,14 @@
             angivits, samt att utskottet bort hemställa, att riksdagen måtte,
             i anledning av motionerna 1:120 och II: 139,
           </note>
+          <u who="yngve_nilsson_1ed349" xml:id="i-614bfab9fc975e25-25" prev="i-614bfab9fc975e25-23" n="614bfab9">
+            <seg n="6b3370dd">
+              1) godkänna i motionerna förordnad överflyttning av medel från
+              sakoch bidragsanslag till diverse utgiftsanslag, vilken överflyttning
+              beräknades medgiva en total minskning av medelsbehovet med omkring
+              20 procent;
+            </seg>
+          </u>
           <note n="baac4117">
             2) besluta, att Kungl. Maj:t vid budgetårets slut skulle till
             riksdagen lämna en redovisning för diverseanslagens användning
@@ -2180,7 +2217,7 @@
           <note n="a8cf0419">
             22 Nr 3
           </note>
-          <note n="1825ffe2">
+          <note type="date" n="de5c69b7">
             Onsdagen den 11 februari 1959
           </note>
           <note n="9020f8dc">
@@ -2189,7 +2226,7 @@
           <note type="speaker" n="87af2ab6">
             Fröken ANDERSSON (h):
           </note>
-          <u who="torsten_andersson_214d82" xml:id="i-b0acbeecfc3a04a2-1" next="i-28cff7b24c6b9577-1" n="9c60c4fd">
+          <u who="torsten_andersson_214d82" xml:id="i-b4a3818cc438bdb8-2" next="i-b4a3818cc438bdb8-4" n="9c60c4fd">
             <seg n="6fe139ff">
               Herr talman! Som kammarens ärade ledamöter vet, är detta inte
               någon ny fråga. Den behandlades förra året, och jag kan därför
@@ -2273,13 +2310,13 @@
             </seg>
           </u>
           <pb n="22" facs="https://betalab.kb.se/prot-1959--fk--3/prot_1959__fk__3-022.jp2/_view"/>
-          <note n="1825ffe2">
+          <note type="date" n="de5c69b7">
             Onsdagen den 11 februari 1959
           </note>
           <note n="583d66e9">
             Om ändrad ordning för
           </note>
-          <u who="torsten_andersson_214d82" xml:id="i-28cff7b24c6b9577-1" prev="i-b0acbeecfc3a04a2-1" n="9c60c4fd">
+          <u who="torsten_andersson_214d82" xml:id="i-b4a3818cc438bdb8-3" prev="i-b4a3818cc438bdb8-2" n="9c60c4fd">
             <seg n="9b33bc97">
               inte läser upp den. Är det så att någon fordrar det, skall jag
               gärna stå till tjänst, men jag har nämnt den här saken för att
@@ -2321,10 +2358,6 @@
               att nu ansluta sig till förslaget. Jag tycker för min del att
               det
             </seg>
-            <seg n="f53c3f19">
-              bästa sättet att pröva hur det hela verkar är att göra ett praktiskt
-              försök. Därför ber jag, herr talman, att få yrka bifall till reservationen.
-            </seg>
           </u>
           <note n="b0807f66">
             Nr 3 23
@@ -2332,10 +2365,16 @@
           <note n="54a27807">
             vissa anslags uppförande i statsbudgeten
           </note>
+          <u who="torsten_andersson_214d82" xml:id="i-b4a3818cc438bdb8-4" prev="i-b4a3818cc438bdb8-2" n="9c60c4fd">
+            <seg n="f53c3f19">
+              bästa sättet att pröva hur det hela verkar är att göra ett praktiskt
+              försök. Därför ber jag, herr talman, att få yrka bifall till reservationen.
+            </seg>
+          </u>
           <note type="speaker" n="6154bf45">
             Herr SUNDELIN (fp):
           </note>
-          <u who="gustaf_sundelin_a68d44" xml:id="i-a3235f45163131ae-0" n="9c69606f">
+          <u who="gustaf_sundelin_a68d44" xml:id="i-9c69606f18188e1b-0" n="9c69606f">
             <seg n="608e3167">
               Herr talman! Som fröken Andersson har erinrat om har denna fråga
               behandlats vid förra årets A-riksdag. Då beslöt ju riksdagen på
@@ -2379,7 +2418,7 @@
           <note n="b3c55568">
             24 Nr 3
           </note>
-          <note n="1825ffe2">
+          <note type="date" n="de5c69b7">
             Onsdagen den 11 februari 1959
           </note>
           <note n="9020f8dc">
@@ -2388,7 +2427,7 @@
           <note type="speaker" n="87af2ab6">
             Fröken ANDERSSON (h):
           </note>
-          <u who="torsten_andersson_214d82" xml:id="i-7f4e0c897d2f8f33-0" n="9c60c4fd">
+          <u who="torsten_andersson_214d82" xml:id="i-b4a3818cc438bdb8-5" n="9c60c4fd">
             <seg n="6879dc4e">
               Herr talman! Även förra året framfördes samma invändning, nämligen
               att det satt en utredning, varför riksdagen borde vänta. Nästa
@@ -2421,7 +2460,7 @@
           <note type="speaker" n="6154bf45">
             Herr SUNDELIN (fp):
           </note>
-          <u who="gustaf_sundelin_a68d44" xml:id="i-a4c398f44d3d8548-0" next="i-a893ebef455db600-0" n="9c69606f">
+          <u who="gustaf_sundelin_a68d44" xml:id="i-9c69606f18188e1b-1" next="i-9c69606f18188e1b-2" n="9c69606f">
             <seg n="7fe31d6f">
               Herr talman! Frågan om de besparingar som man här vill åstadkomma
               tog jag inte alls upp till behandling i mitt förra anförande.
@@ -2478,7 +2517,7 @@
             nu vo-
           </note>
           <pb n="24" facs="https://betalab.kb.se/prot-1959--fk--3/prot_1959__fk__3-024.jp2/_view"/>
-          <note n="1825ffe2">
+          <note type="date" n="de5c69b7">
             Onsdagen den 11 februari 1959
           </note>
           <note n="2854e83a">
@@ -2525,7 +2564,7 @@
             förhållande till utlandet m. m., bifölls vad utskottet i detta
             utlåtande hemställt.
           </note>
-          <u who="gustaf_sundelin_a68d44" xml:id="i-a893ebef455db600-0" prev="i-a4c398f44d3d8548-0" n="9c69606f"/>
+          <u who="gustaf_sundelin_a68d44" xml:id="i-9c69606f18188e1b-2" prev="i-9c69606f18188e1b-1" n="9c69606f"/>
           <note n="9649e796">
             Vid ånyo skedd föredragning av tredje lagutskottets utlåtande
             nr 1, i anledning av Kungl. Maj:ts proposition med förslag till

@@ -20,7 +20,7 @@
     <encodingDesc>
       <editorialDecl>
         <correction>
-          <p>Some data curation was done. It is documented in db/curation/instances</p>
+          <p>Some data curation was done. It is documented in input/curation/instances</p>
         </correction>
       </editorialDecl>
     </encodingDesc>
@@ -52,11 +52,12 @@
       <front>
         <div type="preface">
           <head>prot-1938--fk--1</head>
-          <docDate when="1938">1938</docDate>
+          <docDate when="1938-01-10">1938-01-10</docDate>
         </div>
       </front>
       <body>
         <div>
+          <pb n="0" facs="https://betalab.kb.se/prot-1938--fk--1/prot_1938__fk__1-000.jp2/_view"/>
           <note n="97cf89a8">
             RIKSDAGENS PROTOKOLL.
           </note>
@@ -72,7 +73,7 @@
             den uti riksdagens hus för kammaren anordnade samlingssal samma
             dag,
           </note>
-          <note n="5a9a3e51">
+          <note type="date" n="62c610e1">
             Måndagen den 10 januari, kl. 11 f. m.
           </note>
           <note n="578cf49e">
@@ -139,7 +140,7 @@
             Första kammarens protokoll 1938. Nr 1. 1
           </note>
           <pb n="1" facs="https://betalab.kb.se/prot-1938--fk--1/prot_1938__fk__1-001.jp2/_view"/>
-          <note n="84c90be5">
+          <note type="date" n="974df853">
             2 Nr 1. Måndagen den 10 januari 1938.
           </note>
           <note n="b9c6b3f9">
@@ -228,7 +229,7 @@
             mot-
           </note>
           <pb n="2" facs="https://betalab.kb.se/prot-1938--fk--1/prot_1938__fk__1-002.jp2/_view"/>
-          <note n="504e2980">
+          <note type="date" n="37deb230">
             Måndagen den 10 januari 1938. Nr 1. 3
           </note>
           <note n="b7509b13">
@@ -317,7 +318,7 @@
             for denne store sak.»
           </note>
           <pb n="3" facs="https://betalab.kb.se/prot-1938--fk--1/prot_1938__fk__1-003.jp2/_view"/>
-          <note n="b8348869">
+          <note type="date" n="7a203aa1">
             4 Nr 1. Måndagen den 10 januari 1938.
           </note>
           <note n="4c68f73f">
@@ -394,7 +395,7 @@
             Karl Knutsson Wistrand.
           </note>
           <pb n="4" facs="https://betalab.kb.se/prot-1938--fk--1/prot_1938__fk__1-004.jp2/_view"/>
-          <note n="dd3eb205">
+          <note type="date" n="c78d5e07">
             Måndagen den 10 januari 1938. Nr 1. 5
           </note>
           <note n="430e22cf">
@@ -478,7 +479,7 @@
             den 8 januari 1938. Hugo Appelgren, leg. läkare.
           </note>
           <pb n="5" facs="https://betalab.kb.se/prot-1938--fk--1/prot_1938__fk__1-005.jp2/_view"/>
-          <note n="ceb2ac4c">
+          <note type="date" n="8872f3ed">
             6 Nr 1. Måndagen den 10 januari 1938.
           </note>
           <note n="3ea7a669">
@@ -561,16 +562,16 @@
             Herr Lindhagen, som nu lämnade talmansplatsen, yttrade därvid
             till herr talmannen:
           </note>
-          <u who="carl_lindhagen_4fdf2c" xml:id="i-39511269872c842e-0" next="i-975450bfd6700584-0" n="eea78dcb">
+          <u who="carl_lindhagen_4fdf2c" xml:id="i-eea78dcbb14b29f5-0" next="i-eea78dcbb14b29f5-3" n="eea78dcb">
             <seg n="78ca0f47">
               Herr talman! Du har nu med samtliga avgivna röster återvalts
             </seg>
           </u>
           <pb n="6" facs="https://betalab.kb.se/prot-1938--fk--1/prot_1938__fk__1-006.jp2/_view"/>
-          <note n="00954c75">
+          <note type="date" n="068501b6">
             Måndagen den 10 januari 1938. Nr 1. 2
           </note>
-          <u who="carl_lindhagen_4fdf2c" xml:id="i-975450bfd6700584-0" prev="i-39511269872c842e-0" n="eea78dcb">
+          <u who="carl_lindhagen_4fdf2c" xml:id="i-eea78dcbb14b29f5-1" prev="i-eea78dcbb14b29f5-0" n="eea78dcb">
             <seg n="93fe94e2">
               till. Din viktiga befattning. Det återstår nu endast för mig
               att till Dig överlämna talmansklubban, denna brutala symbol, varmed
@@ -591,6 +592,11 @@
               vördsamt hemställa, att fungerande talmännen för sådana fall lägga
               bort silkesvantarna. Jag vet, att detta också är nationens vilja.
             </seg>
+          </u>
+          <note n="192639e2">
+            Herr talmannen intog talmansplatsen och yttrade:
+          </note>
+          <u who="carl_lindhagen_4fdf2c" xml:id="i-eea78dcbb14b29f5-2" prev="i-eea78dcbb14b29f5-0" n="eea78dcb">
             <seg n="11e9cdb9">
               Herr ålderspresident, mina herrar! Då det stora förtroendet att
               vara första kammarens talman ånyo lämnats mig, anhåller Jag att
@@ -616,14 +622,7 @@
               Jag hälsar såväl förutvarande som nytillkomna ledamöter välkomna
               och hoppas få förmånen av att vara innesluten i eder välvilja.
             </seg>
-            <seg n="79919792">
-              Denna hemställan bifölls. Justerades ett protokollsutdrag för
-              denna dag.
-            </seg>
           </u>
-          <note n="192639e2">
-            Herr talmannen intog talmansplatsen och yttrade:
-          </note>
           <note n="b7ac2b5b">
             På framställning av herr talmannen beslöt kammaren att nu företaga
             val av sekreterare.
@@ -652,7 +651,7 @@
             hade att meddela riksdagen.
           </note>
           <pb n="7" facs="https://betalab.kb.se/prot-1938--fk--1/prot_1938__fk__1-007.jp2/_view"/>
-          <note n="84da9703">
+          <note type="date" n="0641e78e">
             8 Nr 1. Måndagen den 10 januari 1938.
           </note>
           <note n="bb17232f">
@@ -662,6 +661,12 @@
             förhållande till ledamotsantalet i varje valkrets finge ske genom
             sekreteraren.
           </note>
+          <u who="carl_lindhagen_4fdf2c" xml:id="i-eea78dcbb14b29f5-3" prev="i-eea78dcbb14b29f5-0" n="eea78dcb">
+            <seg n="79919792">
+              Denna hemställan bifölls. Justerades ett protokollsutdrag för
+              denna dag.
+            </seg>
+          </u>
           <note n="946046c7">
             Kammarens sammanträde avslutades kl. 12.12 på dagen.
           </note>

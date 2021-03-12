@@ -6,8 +6,9 @@ from pyriksdagen.curation import curation_workflow
 from pyriksdagen.export import parlaclarin_workflow
 from pyriksdagen.export import parlaclarin_workflow_individual
 from pyriksdagen.db import load_db, save_db, load_patterns
+import argparse
 
-def main():    
+def main(args):    
     file_dbs = []
     file_dbs.append(pd.read_csv("input/protocols/scanned.csv"))
     file_dbs.append(pd.read_csv("input/protocols/digital_originals.csv"))
@@ -16,8 +17,11 @@ def main():
     start_year = 1920
     end_year = 2021
 
-    start_year = 1955
-    end_year = 1955
+    #start_year = 1989
+    start_year = args.start
+    end_year = args.end
+
+    print("Process files from", start_year, "to", end_year)
     
     file_db = file_db[file_db["year"] >= start_year]
     file_db = file_db[file_db["year"] <= end_year]
@@ -34,7 +38,7 @@ def main():
         curation_db = load_db(phase="curation")
         print("Done.")
         
-    if True:
+    if False:
         segmentation_patterns = load_patterns(phase="segmentation")
         segmentation_db = segmentation_workflow(file_db, archive, segmentation_patterns, mp_db, ml=False)
         save_db(segmentation_db, phase="segmentation")
@@ -48,4 +52,8 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    parser = argparse.ArgumentParser(description='Process some integers.')
+    parser.add_argument('--start', type=int, default=1920)
+    parser.add_argument('--end', type=int, default=2021)
+    args = parser.parse_args()
+    main(args)

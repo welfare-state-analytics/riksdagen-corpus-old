@@ -20,7 +20,7 @@
     <encodingDesc>
       <editorialDecl>
         <correction>
-          <p>Some data curation was done. It is documented in db/curation/instances</p>
+          <p>Some data curation was done. It is documented in input/curation/instances</p>
         </correction>
       </editorialDecl>
     </encodingDesc>
@@ -52,6 +52,7 @@
       <front>
         <div type="preface">
           <head>prot-197778--5</head>
+          <docDate when="1977-10-04">1977-10-04</docDate>
           <docDate when="1977-10-05">1977-10-05</docDate>
           <docDate when="1977-10-07">1977-10-07</docDate>
           <docDate when="1977-10-11">1977-10-11</docDate>
@@ -59,6 +60,7 @@
       </front>
       <body>
         <div>
+          <pb n="0" facs="https://betalab.kb.se/prot-197778--5/prot_197778__5-000.jp2/_view"/>
           <note n="acce7e74"/>
           <note n="e771b670">
             Riksdagens protokoll
@@ -69,7 +71,7 @@
           <note n="73a14051">
             Debatter m. m.
           </note>
-          <note n="a5d64d6d">
+          <note type="date" n="db9a7489">
             Tisdagen den 4 oktober kl. 11.00
           </note>
           <note n="82de7747">
@@ -78,7 +80,7 @@
             om Prinsessan Victorias födelse Eriäittare. för SOlsråd 5 MAN
             2: Nas omm sent RANN Meddelande om sammanträdestider m. m
           </note>
-          <note n="7e5b33eb">
+          <note type="date" n="e1f1354e">
             Tisdagen den 4 oktober kl. 14.00
           </note>
           <note n="68802558">
@@ -87,7 +89,7 @@
             regeringsförklaring. . ...
           </note>
           <note n="acce7e74"/>
-          <note n="722b7762">
+          <note type="date" n="8cee3ada">
             Tisdagen den 4 oktober kl. 16.00
           </note>
           <note n="ff11e440">
@@ -695,7 +697,7 @@
           <note n="9135df71">
             1977/78:5 Nr 5 Fredagen den
           </note>
-          <note n="cdcb15d8">
+          <note type="date" n="294a9ff0">
             Fredagen den 7 oktober KI. 15.00
           </note>
           <note n="2ba4eb7b">
@@ -816,12 +818,12 @@
           <note type="speaker" n="a2574c35">
             1977/78:
           </note>
-          <u who="unknown" xml:id="i-06da9a61170bbf56-0" n="9210d47c"/>
+          <u who="unknown" xml:id="i-f7fc8913b51a31ef-0" n="9210d47c"/>
           <note type="speaker" n="d08a0e2a">
             23 av Ingemar Konradsson (s) till kommunikationsministern om
             vissa åtgärder för att förbättra kollektivtrafiken:
           </note>
-          <u who="ingemar_konradsson_546229" xml:id="i-718e846b1779175a-0" next="i-0d5debaf0697a672-0" n="f7fc8913">
+          <u who="ingemar_konradsson_546229" xml:id="i-f7fc8913b51a31ef-1" next="i-f7fc8913b51a31ef-4" n="f7fc8913">
             <seg n="5d460a26">
               Av flera olika skäl är det angeläget att förbättra kollektivtrafiken.
               Stora befolkningsgrupper saknar fortfarande tillgång till egen
@@ -836,7 +838,9 @@
               vakt om trafiken
             </seg>
             <seg n="e381ca7c"/>
-            <seg n="e381ca7c"/>
+          </u>
+          <pb n="11" facs="https://betalab.kb.se/prot-197778--5/prot_197778__5-011.jp2/_view"/>
+          <u who="ingemar_konradsson_546229" xml:id="i-f7fc8913b51a31ef-2" prev="i-f7fc8913b51a31ef-1" n="f7fc8913">
             <seg n="8c072d94">
               och satsar nu stora belopp för att stödja verksamheten ute i
               länen. De kommunala bidragen till busstrafiken är långt större
@@ -901,8 +905,7 @@
               skulle
             </seg>
           </u>
-          <pb n="11" facs="https://betalab.kb.se/prot-197778--5/prot_197778__5-011.jp2/_view"/>
-          <note n="ed28adb6">
+          <note type="date" n="3eb4e0f0">
             Nr 5 Fredagen den 7 oktober 1977
           </note>
           <note n="72f005f9">
@@ -912,7 +915,20 @@
             173
           </note>
           <pb n="12" facs="https://betalab.kb.se/prot-197778--5/prot_197778__5-012.jp2/_view"/>
-          <u who="ingemar_konradsson_546229" xml:id="i-0d5debaf0697a672-0" prev="i-718e846b1779175a-0" n="f7fc8913">
+          <u who="ingemar_konradsson_546229" xml:id="i-f7fc8913b51a31ef-3" prev="i-f7fc8913b51a31ef-1" n="f7fc8913"/>
+          <note n="b2d3cce2">
+            Nr 5
+          </note>
+          <note type="date" n="a2b53c05">
+            Fredagen den 7 oktober 1977
+          </note>
+          <note n="72f005f9">
+            Anmälan av interpellationer
+          </note>
+          <note n="a5cd4835">
+            74
+          </note>
+          <u who="ingemar_konradsson_546229" xml:id="i-f7fc8913b51a31ef-4" prev="i-f7fc8913b51a31ef-1" n="f7fc8913">
             <seg n="8277c4c7">
               man också få med ett gemensamt huvudmannaskap för lokal och regional
               trafik i länen — det kan jag bekräfta från Örebro län.
@@ -945,29 +961,17 @@
               landsting och kommuner att förbättra kollektivtrafiken?
             </seg>
           </u>
-          <note n="b2d3cce2">
-            Nr 5
-          </note>
-          <note n="e70636bb">
-            Fredagen den 7 oktober 1977
-          </note>
-          <note n="72f005f9">
-            Anmälan av interpellationer
-          </note>
-          <note n="a5cd4835">
-            74
-          </note>
           <note n="fbf5939a">
             den 7 oktober
           </note>
           <note type="speaker" n="a2574c35">
             1977/78:
           </note>
-          <u who="unknown" xml:id="i-06da9a61170bbf56-1" n="9210d47c"/>
+          <u who="unknown" xml:id="i-26c4211d41012910-0" n="9210d47c"/>
           <note type="speaker" n="eceb11e6">
             24 av Tore Claeson (vpk) till bostadsministern om bostadspolitiken:
           </note>
-          <u who="tore_claeson_3f070e" xml:id="i-aadde435f59181c9-0" next="i-a8e5f6b4870225e4-0" n="26c4211d">
+          <u who="tore_claeson_3f070e" xml:id="i-26c4211d41012910-1" next="i-26c4211d41012910-9" n="26c4211d">
             <seg n="18450f81">
               Situationen på bostadsmarknaden blir mer och mer krisartad. Bostadsbyggandet
               minskar kraftigt. Antalet färdigställda lägenheter i flerfamiljshus
@@ -998,7 +1002,9 @@
               i tiden efter andra världskriget.
             </seg>
             <seg n="e381ca7c"/>
-            <seg n="e381ca7c"/>
+          </u>
+          <pb n="13" facs="https://betalab.kb.se/prot-197778--5/prot_197778__5-013.jp2/_view"/>
+          <u who="tore_claeson_3f070e" xml:id="i-26c4211d41012910-2" prev="i-26c4211d41012910-1" n="26c4211d">
             <seg n="d0b6c58f">
               Bristerna, orättvisorna och de ständiga hyreshöjningarna slår
               hårdast mot dem som har minst bärkraft. En ökad åtskillnad mellan
@@ -1084,11 +1090,10 @@
               Statlig bostadsbank med låg och fast ränta.
             </seg>
           </u>
-          <pb n="13" facs="https://betalab.kb.se/prot-197778--5/prot_197778__5-013.jp2/_view"/>
           <note n="b2d3cce2">
             Nr 5
           </note>
-          <note n="e70636bb">
+          <note type="date" n="a2b53c05">
             Fredagen den 7 oktober 1977
           </note>
           <note n="72f005f9">
@@ -1098,7 +1103,20 @@
             75
           </note>
           <pb n="14" facs="https://betalab.kb.se/prot-197778--5/prot_197778__5-014.jp2/_view"/>
-          <u who="tore_claeson_3f070e" xml:id="i-a8e5f6b4870225e4-0" prev="i-aadde435f59181c9-0" n="26c4211d">
+          <u who="tore_claeson_3f070e" xml:id="i-26c4211d41012910-3" prev="i-26c4211d41012910-1" n="26c4211d"/>
+          <note n="ce889cda">
+            Nr 5 Fredagen den
+          </note>
+          <note n="36400069">
+            7 oktober 1977
+          </note>
+          <note n="72f005f9">
+            Anmälan av interpellationer
+          </note>
+          <note n="26a100fe">
+            76
+          </note>
+          <u who="tore_claeson_3f070e" xml:id="i-26c4211d41012910-4" prev="i-26c4211d41012910-1" n="26c4211d">
             <seg n="269cbda1">
               All mark i kommunernas ägo, upplåtelse endast mot tomträtt.
             </seg>
@@ -1158,6 +1176,15 @@
               då det gäller bygg-, mark-, hyresoch saneringslagstiftningen,
               och när kan i så fall sådana förslag förväntas?
             </seg>
+          </u>
+          <note n="55e1e60a">
+            den 6 oktober
+          </note>
+          <note n="2d420557">
+            1977/78:25 av Grethe Lundblad 1(s) till jordbruksministern om
+            kontrollen över hanteringen av kemiska ämnen:
+          </note>
+          <u who="tore_claeson_3f070e" xml:id="i-26c4211d41012910-5" prev="i-26c4211d41012910-1" n="26c4211d">
             <seg n="be05ee27">
               Under de senaste månaderna har framkommit uppgifter om sådan
               hantering av farliga ämnen, de flesta klassificerade som gifter,
@@ -1175,7 +1202,9 @@
               lämna föreskrifter och utfärda tillstånd
             </seg>
             <seg n="e381ca7c"/>
-            <seg n="e381ca7c"/>
+          </u>
+          <pb n="15" facs="https://betalab.kb.se/prot-197778--5/prot_197778__5-015.jp2/_view"/>
+          <u who="tore_claeson_3f070e" xml:id="i-26c4211d41012910-6" prev="i-26c4211d41012910-1" n="26c4211d">
             <seg n="c87b3e0a">
               eller meddela förbud beträffande hantering och import.
             </seg>
@@ -1246,38 +1275,11 @@
             <seg n="de53e0e6">
               3. Kan missförhållandena vid BT Kemi i Teckomatorp påskynda upp-
             </seg>
-            <seg n="e381ca7c"/>
-            <seg n="e381ca7c"/>
-            <seg n="b2c2275f">
-              rättandet av ett fullständigt register över sammansättningen
-              av kemiska ämnen som hanteras i Sverige, och kommer ämnen innehållande
-              dioxin att prioriteras vid denna registrering?
-            </seg>
           </u>
-          <note n="ce889cda">
-            Nr 5 Fredagen den
-          </note>
-          <note n="36400069">
-            7 oktober 1977
-          </note>
-          <note n="72f005f9">
-            Anmälan av interpellationer
-          </note>
-          <note n="26a100fe">
-            76
-          </note>
-          <note n="55e1e60a">
-            den 6 oktober
-          </note>
-          <note n="2d420557">
-            1977/78:25 av Grethe Lundblad 1(s) till jordbruksministern om
-            kontrollen över hanteringen av kemiska ämnen:
-          </note>
-          <pb n="15" facs="https://betalab.kb.se/prot-197778--5/prot_197778__5-015.jp2/_view"/>
           <note n="b2d3cce2">
             Nr 5
           </note>
-          <note n="e70636bb">
+          <note type="date" n="a2b53c05">
             Fredagen den 7 oktober 1977
           </note>
           <note n="72f005f9">
@@ -1287,27 +1289,36 @@
             77
           </note>
           <pb n="16" facs="https://betalab.kb.se/prot-197778--5/prot_197778__5-016.jp2/_view"/>
+          <u who="tore_claeson_3f070e" xml:id="i-26c4211d41012910-7" prev="i-26c4211d41012910-1" n="26c4211d"/>
           <note n="b2d3cce2">
             Nr 5
           </note>
-          <note n="e70636bb">
+          <note type="date" n="a2b53c05">
             Fredagen den 7 oktober 1977
           </note>
+          <u who="tore_claeson_3f070e" xml:id="i-26c4211d41012910-8" prev="i-26c4211d41012910-1" n="26c4211d"/>
           <note n="72f005f9">
             Anmälan av interpellationer
           </note>
           <note n="8bea7adb">
             18
           </note>
+          <u who="tore_claeson_3f070e" xml:id="i-26c4211d41012910-9" prev="i-26c4211d41012910-1" n="26c4211d">
+            <seg n="b2c2275f">
+              rättandet av ett fullständigt register över sammansättningen
+              av kemiska ämnen som hanteras i Sverige, och kommer ämnen innehållande
+              dioxin att prioriteras vid denna registrering?
+            </seg>
+          </u>
           <note type="speaker" n="a2574c35">
             1977/78:
           </note>
-          <u who="unknown" xml:id="i-06da9a61170bbf56-2" n="9210d47c"/>
+          <u who="unknown" xml:id="i-8f128bdd31b9d852-0" n="9210d47c"/>
           <note type="speaker" n="4c22404c">
             26 av Jörn Svensson (vpk) till statsrådet Ingegerd Troedsson
             om den psykiatriska vården:
           </note>
-          <u who="jorn_svensson_904663" xml:id="i-a6de148423c37218-0" next="i-53f7dba2fb27df97-0" n="b6088f89">
+          <u who="jorn_svensson_904663" xml:id="i-b6088f89a19c5025-0" next="i-8f128bdd31b9d852-2" n="b6088f89">
             <seg n="33c22c2c">
               Under den gångna sommaren upprördes opinionen av det s. k. fallet
               Elisabeth, som blottade grovt orimliga förhållanden inom den psykiatriska
@@ -1363,15 +1374,15 @@
             1. Avser regeringen att initiera en allmän inspektion av förhållandena
             vid de psykiatriska institutionerna?
           </note>
-          <u who="jorn_svensson_904663" xml:id="i-53f7dba2fb27df97-0" prev="i-a6de148423c37218-0" n="b6088f89">
+          <u who="jorn_svensson_904663" xml:id="i-8f128bdd31b9d852-1" prev="i-b6088f89a19c5025-0" n="b6088f89">
             <seg n="fb8e9a38">
               2. När avser regeringen låta riksdagen diskutera den psykiatriska
               vårdens principer?
             </seg>
             <seg n="e381ca7c"/>
-            <seg n="e381ca7c"/>
           </u>
           <pb n="17" facs="https://betalab.kb.se/prot-197778--5/prot_197778__5-017.jp2/_view"/>
+          <u who="jorn_svensson_904663" xml:id="i-8f128bdd31b9d852-2" prev="i-b6088f89a19c5025-0" n="b6088f89"/>
           <note n="9ec8e0c1">
             3. Anser regeringen att tvångslagen LSPV och det omfattande upphävandet
             av medborgerliga frioch rättigheter är tillfredsställande?
@@ -1379,12 +1390,12 @@
           <note type="speaker" n="a2574c35">
             1977/78:
           </note>
-          <u who="unknown" xml:id="i-06da9a61170bbf56-3" n="9210d47c"/>
+          <u who="unknown" xml:id="i-04672640f4d24f95-0" n="9210d47c"/>
           <note type="speaker" n="ae550700">
             27 av Oskar Lindkvist (s) till statsrådet Birgit Friggebo om
             kravet på tillstånd till förvärv av hyresfastighet:
           </note>
-          <u who="oskar_lindkvist_a93a96" xml:id="i-d9737173be68d70b-0" next="i-64aa8ad2349c3a8f-0" n="04672640">
+          <u who="oskar_lindkvist_a93a96" xml:id="i-04672640f4d24f95-1" next="i-04672640f4d24f95-2" n="04672640">
             <seg n="45721a58">
               Riksdagen har (CU 1976/77:20) med anledning av en av mig m. fl.
               väckt motion (1976/77:924) gett regeringen till känna att en ytterligare
@@ -1416,7 +1427,7 @@
             1977/78:45 av Karin Flodström 4(s) till industriministern om
             åtgärder för att bevara sysselsättningen i Ljusnarsbergs kommun:
           </note>
-          <u who="oskar_lindkvist_a93a96" xml:id="i-64aa8ad2349c3a8f-0" prev="i-d9737173be68d70b-0" n="04672640">
+          <u who="oskar_lindkvist_a93a96" xml:id="i-04672640f4d24f95-2" prev="i-04672640f4d24f95-1" n="04672640">
             <seg n="0e582f71">
               Bastkärns gruva är i farozonen. Den ligger i Ljusnarsbergs kommun,
               som tidigare drabbats av flera industrinedläggningar, t. ex. Ställbergs,
@@ -1431,12 +1442,12 @@
           <note type="speaker" n="a2574c35">
             1977/78:
           </note>
-          <u who="unknown" xml:id="i-06da9a61170bbf56-4" n="9210d47c"/>
+          <u who="unknown" xml:id="i-9210d47c8bcc6fc9-0" n="9210d47c"/>
           <note type="speaker" n="9531209b">
             46 av Karin Flodström (s) till industriministern om utbetalningen
             av ersättning till översvämningsdrabbade industrier:
           </note>
-          <u who="unknown" xml:id="i-da776477111c2e90-0" n="9210d47c">
+          <u who="unknown" xml:id="i-9210d47c8bcc6fc9-1" n="9210d47c">
             <seg n="6921fd65">
               Nu har länsstyrelsen i Örebro län och de vårflodsdrabbade industrierna
               inlämnat räkningen till industridepartementet för de skador och
@@ -1446,7 +1457,7 @@
           <note n="b2d3cce2">
             Nr 5
           </note>
-          <note n="e70636bb">
+          <note type="date" n="a2b53c05">
             Fredagen den 7 oktober 1977
           </note>
           <note n="2a2ae91b">
@@ -1459,16 +1470,11 @@
             79
           </note>
           <pb n="18" facs="https://betalab.kb.se/prot-197778--5/prot_197778__5-018.jp2/_view"/>
-          <u who="unknown" xml:id="i-42cdc8335009c37e-0" n="9210d47c">
-            <seg n="c361507d">
-              Vilka möjligheter har de översvämningsdrabbade industrierna att
-              snabbt få sin begärda ersättning?
-            </seg>
-          </u>
+          <u who="unknown" xml:id="i-9210d47c8bcc6fc9-2" n="9210d47c"/>
           <note n="b2d3cce2">
             Nr 5
           </note>
-          <note n="e70636bb">
+          <note type="date" n="a2b53c05">
             Fredagen den 7 oktober 1977
           </note>
           <note n="2a2ae91b">
@@ -1480,15 +1486,21 @@
           <note n="713089cc">
             80
           </note>
+          <u who="unknown" xml:id="i-9210d47c8bcc6fc9-3" n="9210d47c">
+            <seg n="c361507d">
+              Vilka möjligheter har de översvämningsdrabbade industrierna att
+              snabbt få sin begärda ersättning?
+            </seg>
+          </u>
           <note type="speaker" n="a2574c35">
             1977/78:
           </note>
-          <u who="unknown" xml:id="i-da776477111c2e90-1" n="9210d47c"/>
+          <u who="unknown" xml:id="i-240de6f27cae03f8-0" n="9210d47c"/>
           <note type="speaker" n="5acfb3ea">
             47 av Nils Hjorth (s) till jordbruksministern om åtgärder för
             att minska antalet båtolyckor:
           </note>
-          <u who="nils_hjorth_b04c09" xml:id="i-98f0e7a7d86d62f4-0" n="240de6f2">
+          <u who="nils_hjorth_b04c09" xml:id="i-240de6f27cae03f8-1" n="240de6f2">
             <seg n="38d6ccc7">
               Under tiden januari-juli i år dödades 78 personer vid olyckor
               med fritidsbåtar, vilket är mer än dubbelt så många som under
@@ -1510,13 +1522,13 @@
           <note type="speaker" n="a2574c35">
             1977/78:
           </note>
-          <u who="unknown" xml:id="i-da776477111c2e90-2" n="9210d47c"/>
+          <u who="unknown" xml:id="i-b00a176fb8084dbd-0" n="9210d47c"/>
           <note type="speaker" n="3c58e8ec">
             48 av Inga Lantz (vpk) till statsrådet Ingegerd Troedsson om
             åtgärder mot marknadsföring av mjölkersättningsmedel för spädbarn
             i u-länder:
           </note>
-          <u who="ingegerd_troedsson_42de85" xml:id="i-e7beaaa98fbe2ef5-0" n="9d96121b">
+          <u who="ingegerd_troedsson_42de85" xml:id="i-9d96121b67f2dafe-0" n="9d96121b">
             <seg n="3d45c70a">
               Under de senaste dagarna har stor uppmärksamhet ägnats åt att
               flera multinationella livsmedelsföretag, bland dem Semper och
@@ -1539,12 +1551,12 @@
           <note type="speaker" n="a2574c35">
             1977/78:
           </note>
-          <u who="unknown" xml:id="i-da776477111c2e90-3" n="9210d47c"/>
+          <u who="unknown" xml:id="i-c5c842823a2537de-0" n="9210d47c"/>
           <note type="speaker" n="fcecef9a">
             49 av Georg Andersson (s) till utbildningsministern om sammansättningen
             av styrelsen för statens kulturråd:
           </note>
-          <u who="georg_andersson_9a29f8" xml:id="i-a8da57b7afedd74a-0" n="c5c84282">
+          <u who="georg_andersson_9a29f8" xml:id="i-c5c842823a2537de-1" next="i-c5c842823a2537de-2" n="c5c84282">
             <seg n="92fc5d8d">
               Kulturutskottet uttalade år 1974, bl. a. i anledning av partimotioner
               från moderata samlingspartiet och centerpartiet, att styrelsen
@@ -1560,19 +1572,20 @@
               vid tillsättande av ledamöter i statens kulturråd?
             </seg>
             <seg n="e381ca7c"/>
-            <seg n="e381ca7c"/>
-            <seg n="e381ca7c"/>
           </u>
           <pb n="19" facs="https://betalab.kb.se/prot-197778--5/prot_197778__5-019.jp2/_view"/>
+          <u who="georg_andersson_9a29f8" xml:id="i-c5c842823a2537de-2" prev="i-c5c842823a2537de-1" n="c5c84282">
+            <seg n="e381ca7c"/>
+          </u>
           <note type="speaker" n="a2574c35">
             1977/78:
           </note>
-          <u who="unknown" xml:id="i-06da9a61170bbf56-5" n="9210d47c"/>
+          <u who="unknown" xml:id="i-0241eba2bcd248a0-0" n="9210d47c"/>
           <note type="speaker" n="7a6fda3f">
             50 av Daniel Tarschys (fp) till utrikesministern om åtgärder
             för att förhindra avvisning från Polen av vissa svenska medborgare:
           </note>
-          <u who="daniel_tarschys_165695" xml:id="i-84252e7c5a87a7cd-0" next="i-e796b54e1fc1aaea-0" n="0241eba2">
+          <u who="daniel_tarschys_165695" xml:id="i-0241eba2bcd248a0-1" next="i-0241eba2bcd248a0-7" n="0241eba2">
             <seg n="7a6ed2cf">
               Sverige eftersträvar på alla områden goda förbindelser med Polen.
               Ett störande element i de svensk-polska relationerna har emellertid
@@ -1594,11 +1607,16 @@
             1. Har Polen upphört med sin stötande praxis att vid gränsen
             avvisa svenskar som tidigare varit polska medborgare?
           </note>
-          <u who="daniel_tarschys_165695" xml:id="i-e796b54e1fc1aaea-0" prev="i-84252e7c5a87a7cd-0" n="0241eba2">
+          <u who="daniel_tarschys_165695" xml:id="i-0241eba2bcd248a0-2" prev="i-0241eba2bcd248a0-1" n="0241eba2">
             <seg n="4e46ab2c">
               2. Om så inte är fallet, vilka ytterligare åtgärder avser regeringen
               att vidta?
             </seg>
+          </u>
+          <note n="fbf5939a">
+            den 7 oktober
+          </note>
+          <u who="daniel_tarschys_165695" xml:id="i-0241eba2bcd248a0-3" prev="i-0241eba2bcd248a0-1" n="0241eba2">
             <seg n="ec9a2b12">
               1977/78:51 av Kjell-Olof Feldt 4s) till statsministern om uttalande
               av ekonomiministern rörande den svenska kronans ställning:
@@ -1638,9 +1656,39 @@
             <seg n="3e52d74b">
               Med hänsyn till de vidsträckta konsekvenserna av Sveriges brådstör-
             </seg>
-            <seg n="e381ca7c"/>
-            <seg n="e381ca7c"/>
-            <seg n="e381ca7c"/>
+          </u>
+          <note n="75097a11">
+            6 Riksdagens protokoll 1977178:1-6
+          </note>
+          <note n="b2d3cce2">
+            Nr 5
+          </note>
+          <note type="date" n="a2b53c05">
+            Fredagen den 7 oktober 1977
+          </note>
+          <u who="daniel_tarschys_165695" xml:id="i-0241eba2bcd248a0-4" prev="i-0241eba2bcd248a0-1" n="0241eba2"/>
+          <note n="fd7c8c75">
+            Meddelande om frågor
+          </note>
+          <note n="d2d39954">
+            81
+          </note>
+          <pb n="20" facs="https://betalab.kb.se/prot-197778--5/prot_197778__5-020.jp2/_view"/>
+          <u who="daniel_tarschys_165695" xml:id="i-0241eba2bcd248a0-5" prev="i-0241eba2bcd248a0-1" n="0241eba2"/>
+          <note n="b2d3cce2">
+            Nr 5
+          </note>
+          <note type="date" n="a2b53c05">
+            Fredagen den 7 oktober 1977
+          </note>
+          <u who="daniel_tarschys_165695" xml:id="i-0241eba2bcd248a0-6" prev="i-0241eba2bcd248a0-1" n="0241eba2"/>
+          <note n="fd7c8c75">
+            Meddelande om frågor
+          </note>
+          <note n="77dd5b8f">
+            82
+          </note>
+          <u who="daniel_tarschys_165695" xml:id="i-0241eba2bcd248a0-7" prev="i-0241eba2bcd248a0-1" n="0241eba2">
             <seg n="df43cf90">
               tade uppbrott ur det västeuropeiska valutapolitiska samarbetet
               vill jag till ekonomiministern ställa följande fråga:
@@ -1651,46 +1699,15 @@
               medlemskap i valutaormen?
             </seg>
           </u>
-          <note n="fbf5939a">
-            den 7 oktober
-          </note>
-          <note n="75097a11">
-            6 Riksdagens protokoll 1977178:1-6
-          </note>
-          <note n="b2d3cce2">
-            Nr 5
-          </note>
-          <note n="e70636bb">
-            Fredagen den 7 oktober 1977
-          </note>
-          <note n="fd7c8c75">
-            Meddelande om frågor
-          </note>
-          <note n="d2d39954">
-            81
-          </note>
-          <pb n="20" facs="https://betalab.kb.se/prot-197778--5/prot_197778__5-020.jp2/_view"/>
-          <note n="b2d3cce2">
-            Nr 5
-          </note>
-          <note n="e70636bb">
-            Fredagen den 7 oktober 1977
-          </note>
-          <note n="fd7c8c75">
-            Meddelande om frågor
-          </note>
-          <note n="77dd5b8f">
-            82
-          </note>
           <note type="speaker" n="a2574c35">
             1977/78:
           </note>
-          <u who="unknown" xml:id="i-da776477111c2e90-4" n="9210d47c"/>
+          <u who="unknown" xml:id="i-0241eba2bcd248a0-8" n="9210d47c"/>
           <note type="speaker" n="bf9ea90a">
             53 av Daniel Tarschys (fp) till utbildningsministern om antagningssystemet
             till den nya högskolan:
           </note>
-          <u who="daniel_tarschys_165695" xml:id="i-84252e7c5a87a7cd-1" n="0241eba2">
+          <u who="daniel_tarschys_165695" xml:id="i-0241eba2bcd248a0-9" n="0241eba2">
             <seg n="bcbfceed">
               Vilka slutsatser drar regeringen av vårens och sommarens erfarenheter
               av antagningssystemet till den nya högskolan?
@@ -1699,12 +1716,12 @@
           <note type="speaker" n="a2574c35">
             1977/78:
           </note>
-          <u who="unknown" xml:id="i-da776477111c2e90-5" n="9210d47c"/>
+          <u who="unknown" xml:id="i-3a3a6df2d3decbd7-0" n="9210d47c"/>
           <note type="speaker" n="589bed7b">
             54 av Olle Östrand (5) till industriministern om ett nytt mälteri
             i Stockholm:
           </note>
-          <u who="olle_ostrand_286f03" xml:id="i-589edd7b943b4b6c-0" n="3a3a6df2">
+          <u who="olle_ostrand_286f03" xml:id="i-3a3a6df2d3decbd7-1" n="3a3a6df2">
             <seg n="91869e6b">
               Enligt uppgift har statsägda Pripps Bryggerier, som numera svarar
               för tre fjärdedelar av ölproduktionen och maltbehovet i landet,
@@ -1736,12 +1753,12 @@
           <note type="speaker" n="a2574c35">
             1977/78:
           </note>
-          <u who="unknown" xml:id="i-06da9a61170bbf56-6" n="9210d47c"/>
+          <u who="unknown" xml:id="i-61dc5eeedb6bacf8-0" n="9210d47c"/>
           <note type="speaker" n="30cf4c9a">
             55 av Inga Lantz (vpk) till statsrådet Britt Mogård om förstärkning
             av de pedagogiska resurserna i vissa kommuner:
           </note>
-          <u who="inga_lantz_b6a4e0" xml:id="i-24e3988e678fae66-0" next="i-7a73854d6ad52bc5-0" n="71d5db53">
+          <u who="inga_lantz_b6a4e0" xml:id="i-71d5db534ea2e826-0" next="i-61dc5eeedb6bacf8-4" n="71d5db53">
             <seg n="f61aeafc">
               Skolöverstyrelsen har i en undersökning visat på sambandet mellan
               föräldrars inkomst och möjligheterna för barnen att tillgodogöra
@@ -1759,14 +1776,14 @@
               att förstärka de pedagogiska resurserna i berörda kommuner?
             </seg>
             <seg n="e381ca7c"/>
-            <seg n="e381ca7c"/>
           </u>
           <pb n="21" facs="https://betalab.kb.se/prot-197778--5/prot_197778__5-021.jp2/_view"/>
+          <u who="inga_lantz_b6a4e0" xml:id="i-61dc5eeedb6bacf8-1" prev="i-71d5db534ea2e826-0" n="71d5db53"/>
           <note n="554276de">
             1977/78:56 av Lena Hjelm-Wallén (s) till statsrådet Britt Mogård
             om lokala ledningsorgan för skolan:
           </note>
-          <u who="inga_lantz_b6a4e0" xml:id="i-7a73854d6ad52bc5-0" prev="i-24e3988e678fae66-0" n="71d5db53">
+          <u who="inga_lantz_b6a4e0" xml:id="i-61dc5eeedb6bacf8-2" prev="i-71d5db534ea2e826-0" n="71d5db53">
             <seg n="e8ee4bc6">
               I ett frågesvar den 1 april 1977 angående förberedelsearbetet
               för SIA- reformen lovade statsrådet Mogård: ”Ett förslag om lokala
@@ -1778,8 +1795,6 @@
               framläggas och vilka grupper kommer att få del av det vidgade
               inflytandet —- i regeringsförklaringen nämns bara elever och lärare?
             </seg>
-            <seg n="e381ca7c"/>
-            <seg n="e381ca7c"/>
           </u>
           <note n="3192310a">
             $7 Kammaren åtskildes kl. 15.04. In fidem
@@ -1790,7 +1805,7 @@
           <note n="b2d3cce2">
             Nr 5
           </note>
-          <note n="e70636bb">
+          <note type="date" n="a2b53c05">
             Fredagen den 7 oktober 1977
           </note>
           <note n="2a2ae91b">
@@ -1803,6 +1818,7 @@
             83
           </note>
           <pb n="23" facs="https://betalab.kb.se/prot-197778--5/prot_197778__5-023.jp2/_view"/>
+          <u who="inga_lantz_b6a4e0" xml:id="i-61dc5eeedb6bacf8-3" prev="i-71d5db534ea2e826-0" n="71d5db53"/>
           <note n="fefb6374">
             1977/78 1-6
           </note>
@@ -1822,7 +1838,7 @@
           <note n="7d7f2ddd">
             Fälldin, Thorbjörn, statsminister 17
           </note>
-          <note n="079d1b70">
+          <note type="date" n="0a267cda">
             Fredagen den 7 oktober Talmannen 72
           </note>
           <note n="c7d60763">
@@ -1831,6 +1847,7 @@
           <note n="7e8bf6cc">
             GOTAB 55827 Stockholm 1977
           </note>
+          <u who="inga_lantz_b6a4e0" xml:id="i-61dc5eeedb6bacf8-4" prev="i-71d5db534ea2e826-0" n="71d5db53"/>
         </div>
       </body>
     </text>

@@ -20,7 +20,7 @@
     <encodingDesc>
       <editorialDecl>
         <correction>
-          <p>Some data curation was done. It is documented in db/curation/instances</p>
+          <p>Some data curation was done. It is documented in input/curation/instances</p>
         </correction>
       </editorialDecl>
     </encodingDesc>
@@ -59,6 +59,7 @@
       </front>
       <body>
         <div>
+          <pb n="0" facs="https://betalab.kb.se/prot-1936--fk--11/prot_1936__fk__11-000.jp2/_view"/>
           <note n="6463dcef">
             RIKSDAGENS PROTOKOLL.
           </note>
@@ -139,7 +140,7 @@
             Första kammarens protokoll 1936. Nr 11. 1
           </note>
           <pb n="1" facs="https://betalab.kb.se/prot-1936--fk--11/prot_1936__fk__11-001.jp2/_view"/>
-          <note n="00c8e071">
+          <note type="date" n="b090a5fa">
             2 Nr 11. Fredagen den 21 februari.
           </note>
           <note n="8abc4355">
@@ -232,13 +233,13 @@
             31 maj 1932 (nr 156) om anstånd 1 särskilt fall med gälds betalning.
           </note>
           <pb n="2" facs="https://betalab.kb.se/prot-1936--fk--11/prot_1936__fk__11-002.jp2/_view"/>
-          <note n="7096adfa">
+          <note type="date" n="e2e624a3">
             Fredagen den 21 februari. Nr 11. 3
           </note>
           <note type="speaker" n="95df173f">
             Herr Reuterskiöld erhöll på begäran ordet och yttrade:
           </note>
-          <u who="carl-axel_reuterskiold_611435" xml:id="i-d1a66b10bd07e7fd-0" n="d81b79ee">
+          <u who="carl-axel_reuterskiold_611435" xml:id="i-939d2dfff5d2458b-0" n="d81b79ee">
             <seg n="ca94e3f5">
               Herr talman! Genom bankoutskottets avgörande av en besvärsfråga
               rörande tillsättning av en befattning inom riksdagsbiblioteket
@@ -330,7 +331,7 @@
             In fidem G. H. Berggren.
           </note>
           <pb n="3" facs="https://betalab.kb.se/prot-1936--fk--11/prot_1936__fk__11-003.jp2/_view"/>
-          <note n="379a54e4">
+          <note type="date" n="f74d949b">
             4 Nr 11. Lördagen den 22 februari.
           </note>
           <note type="date" n="2eff8f95">
@@ -342,7 +343,7 @@
           <note type="speaker" n="680fc8ce">
             Herr statsrådet Schlyter avlämnade Kungl. Maj:
           </note>
-          <u who="karl_schlyter_cf9666" xml:id="i-e43fa205744cd36a-0" next="i-7c2588dad01315c6-0" n="1b7f57e2">
+          <u who="karl_schlyter_cf9666" xml:id="i-1b7f57e2c0013cec-0" next="i-1b7f57e2c0013cec-4" n="1b7f57e2">
             <seg n="8c8678bb">
               ts propositioner:
             </seg>
@@ -510,32 +511,12 @@
           <note n="ea2c076d">
             valmän utsedda: Bagge
           </note>
-          <u who="karl_schlyter_cf9666" xml:id="i-7c2588dad01315c6-0" prev="i-e43fa205744cd36a-0" n="1b7f57e2">
+          <u who="karl_schlyter_cf9666" xml:id="i-1b7f57e2c0013cec-1" prev="i-1b7f57e2c0013cec-0" n="1b7f57e2">
             <seg n="bc83f319">
               Bergström Björnsson
             </seg>
             <seg n="fd359979">
               Forssell Gabrielsson Granath Gustafson, Fritiof, Hamrin
-            </seg>
-            <seg n="995129eb">
-              rre Lagerfelt Linder
-            </seg>
-            <seg n="7f3fffe8">
-              Norling
-            </seg>
-            <seg n="587dfc75">
-              sedan ordningen dem emellan blivit genom lottning bestämd.
-            </seg>
-            <seg n="740897d6">
-              »Utskottet anser sig böra ytterligare understryka vikten av att
-              största möjliga sparsamhet iakttages vid handhavandet av statens
-              medel i förevarande hänseende. TI anslutning till de av riksdagen
-              tidigare gjorda uttalandena vill utskottet framhålla angelägenheten
-              av att vid beviljandet av fri rättegång all den försiktighet iakttages,
-              som utan eftersättande av berättigade intressen kan ske. Det synes
-              utskottet vidare böra övervägas, huruvida icke åtgärder, utöver
-              redan vidtagna, kunna ifrågakomma för att inom rimliga kostnader
-              ernå det med anslaget avsedda syftet.»
             </seg>
           </u>
           <note n="5af3bc1b">
@@ -544,6 +525,14 @@
           <note n="7c2c1e49">
             Karlsson, Gottfrid, Klefbeck
           </note>
+          <u who="karl_schlyter_cf9666" xml:id="i-1b7f57e2c0013cec-2" prev="i-1b7f57e2c0013cec-0" n="1b7f57e2">
+            <seg n="995129eb">
+              rre Lagerfelt Linder
+            </seg>
+            <seg n="7f3fffe8">
+              Norling
+            </seg>
+          </u>
           <note n="0786131e">
             Nylander Sandegård Svenson, Ernst Svensson, Martin, Tamm, Gustaf,
             Tjällgren Wagnsson, Ruben, Westman Åkerberg
@@ -582,6 +571,11 @@
           <note n="71e0be23">
             herr » » » » »
           </note>
+          <u who="karl_schlyter_cf9666" xml:id="i-1b7f57e2c0013cec-3" prev="i-1b7f57e2c0013cec-0" n="1b7f57e2">
+            <seg n="587dfc75">
+              sedan ordningen dem emellan blivit genom lottning bestämd.
+            </seg>
+          </u>
           <note n="c7fd4a1e">
             Hagman Hjalmarsson Bengtsson Björck, John, Gustavson, John, Sanne
           </note>
@@ -619,7 +613,7 @@
           <note n="79b495aa">
             Ang. statsverkets kostnader i anled-
           </note>
-          <note n="800801fb">
+          <note type="date" n="a6783308">
             6 Nr 11. Lördagen den 22 februari.
           </note>
           <note n="98d56772">
@@ -656,10 +650,23 @@
           <note n="2461814d">
             I motiveringen hade utskottet anfört bland annat:
           </note>
+          <u who="karl_schlyter_cf9666" xml:id="i-1b7f57e2c0013cec-4" prev="i-1b7f57e2c0013cec-0" n="1b7f57e2">
+            <seg n="740897d6">
+              »Utskottet anser sig böra ytterligare understryka vikten av att
+              största möjliga sparsamhet iakttages vid handhavandet av statens
+              medel i förevarande hänseende. TI anslutning till de av riksdagen
+              tidigare gjorda uttalandena vill utskottet framhålla angelägenheten
+              av att vid beviljandet av fri rättegång all den försiktighet iakttages,
+              som utan eftersättande av berättigade intressen kan ske. Det synes
+              utskottet vidare böra övervägas, huruvida icke åtgärder, utöver
+              redan vidtagna, kunna ifrågakomma för att inom rimliga kostnader
+              ernå det med anslaget avsedda syftet.»
+            </seg>
+          </u>
           <note type="speaker" n="46b54b45">
             Herr Sjödahl:
           </note>
-          <u who="edgar_sjodahl_6e9785" xml:id="i-d5d22dbe232d3625-0" next="i-82811665ab1f68ee-0" n="6715ef7d">
+          <u who="edgar_sjodahl_6e9785" xml:id="i-6715ef7d5eff8eb8-0" next="i-6715ef7d5eff8eb8-2" n="6715ef7d">
             <seg n="65db1830">
               Herr talman! Statsutskottet har i denna punkt uttalat, att de
               ersättningar, som av statsmedel utgå till rättegångsbiträden och
@@ -694,10 +701,10 @@
             </seg>
           </u>
           <pb n="6" facs="https://betalab.kb.se/prot-1936--fk--11/prot_1936__fk__11-006.jp2/_view"/>
-          <note n="55ddeb26">
+          <note type="date" n="aba909d2">
             Lördagen den 22 februari. Nr 11. 7
           </note>
-          <u who="edgar_sjodahl_6e9785" xml:id="i-82811665ab1f68ee-0" prev="i-d5d22dbe232d3625-0" n="6715ef7d">
+          <u who="edgar_sjodahl_6e9785" xml:id="i-6715ef7d5eff8eb8-1" prev="i-6715ef7d5eff8eb8-0" n="6715ef7d">
             <seg n="44bb486d">
               Ang. statsverkets kostnader i anledning av lagen om fri rättegång.
               (Forts.) behandling, och jag skulle verkligen önska, att det måtte
@@ -714,18 +721,6 @@
               bara vilja knyta dessa anmärkningar och samtidigt uttala en förhoppning,
               att ett initiativ till hjälp åt rättshjälpsanstalterna, direkt
               eller indirekt, snart måtte kunna tagas av Justitieministern.
-            </seg>
-            <seg n="ed12e773">
-              »Av statsrådsprotokollet liksom av motionerna framgår, att föreningen
-              Skyddsvärnet i Göteborg i en till departementschefen ställd skrivelse
-              gjort samma framställning som motionärerna. Departementschefen
-              har i anledning därav uttalat, att det berörda spörsmålet syntes
-              böra prövas vid pågående utredning angående villkorlig dom. Skrivelsen
-              har därför överlämnats till de sakkunniga, som omhänderhava denna
-              utredning för att tagas i övervägande vid fullgörande av deras
-              uppdrag. Då frågan om höjd ersättning till övervakare av villkorligt
-              dömda sålunda är föremål för utredning, anser sig utskottet icke
-              kunna tillstyrka förevarande motioner.
             </seg>
           </u>
           <note n="e3406b89">
@@ -757,6 +752,20 @@
           <note n="eb51788e">
             Utskottet hade i den nu ifrågavarande punkten yttrat:
           </note>
+          <u who="edgar_sjodahl_6e9785" xml:id="i-6715ef7d5eff8eb8-2" prev="i-6715ef7d5eff8eb8-0" n="6715ef7d">
+            <seg n="ed12e773">
+              »Av statsrådsprotokollet liksom av motionerna framgår, att föreningen
+              Skyddsvärnet i Göteborg i en till departementschefen ställd skrivelse
+              gjort samma framställning som motionärerna. Departementschefen
+              har i anledning därav uttalat, att det berörda spörsmålet syntes
+              böra prövas vid pågående utredning angående villkorlig dom. Skrivelsen
+              har därför överlämnats till de sakkunniga, som omhänderhava denna
+              utredning för att tagas i övervägande vid fullgörande av deras
+              uppdrag. Då frågan om höjd ersättning till övervakare av villkorligt
+              dömda sålunda är föremål för utredning, anser sig utskottet icke
+              kunna tillstyrka förevarande motioner.
+            </seg>
+          </u>
           <note n="671e4bc6">
             Under åberopande härav och då Kungl. Maj:ts förslag ej givit
             utskottet anledning till erinran, får utskottet hemställa, att
@@ -769,7 +778,7 @@
           <note type="speaker" n="71705f71">
             Herr Wangson, Otto:
           </note>
-          <u who="otto_wangson_b706bc" xml:id="i-0bb81db581172d33-0" next="i-9a9993e9614428c3-0" n="9aa46b74">
+          <u who="otto_wangson_b706bc" xml:id="i-9aa46b74e0084f03-0" next="i-9aa46b74e0084f03-1" n="9aa46b74">
             <seg n="eceb7a3c">
               Herr talman! Jag skall inte drista mig att mot ett enhälligt
               statsutskott göra något yrkande, men jag vill inför kammaren och
@@ -781,10 +790,10 @@
             </seg>
           </u>
           <pb n="7" facs="https://betalab.kb.se/prot-1936--fk--11/prot_1936__fk__11-007.jp2/_view"/>
-          <note n="e41631f3">
+          <note type="date" n="d1b522a5">
             8 Nr 11. Lördagen den 22 februari.
           </note>
-          <u who="otto_wangson_b706bc" xml:id="i-9a9993e9614428c3-0" prev="i-0bb81db581172d33-0" n="9aa46b74">
+          <u who="otto_wangson_b706bc" xml:id="i-9aa46b74e0084f03-1" prev="i-9aa46b74e0084f03-0" n="9aa46b74">
             <seg n="ff30e0c3">
               Ang. anslag till övervakning av villkorligt dömda. (Forts.) de
               villkorligt dömda, vilken övervakning i största utsträckning i
@@ -861,17 +870,17 @@
           <note type="speaker" n="f759c286">
             Herr Källman:
           </note>
-          <u who="wilhelm_kallman_816315" xml:id="i-ebdd872042b1c517-0" next="i-1225c8a99b03a6ef-0" n="a4faec8a">
+          <u who="wilhelm_kallman_816315" xml:id="i-a4faec8ab8cbdb51-0" next="i-a4faec8ab8cbdb51-1" n="a4faec8a">
             <seg n="5d953471">
               Herr talman! Det är uppenbart, att jag icke kommer att göra något
               yrkande. Det är ju första gången, som denna fråga väckts i riks-
             </seg>
           </u>
           <pb n="8" facs="https://betalab.kb.se/prot-1936--fk--11/prot_1936__fk__11-008.jp2/_view"/>
-          <note n="a17eaed8">
+          <note type="date" n="cac8e0bf">
             Lördagen den 22 februari. Nr 11. 9
           </note>
-          <u who="wilhelm_kallman_816315" xml:id="i-1225c8a99b03a6ef-0" prev="i-ebdd872042b1c517-0" n="a4faec8a">
+          <u who="wilhelm_kallman_816315" xml:id="i-a4faec8ab8cbdb51-1" prev="i-a4faec8ab8cbdb51-0" n="a4faec8a">
             <seg n="1db648a5">
               Om ersättning till övervakare av villkorligt frigivna. (Forts.)
               dagen. Den förtjänar emellertid att bli föremål för uppmärksamhet
@@ -917,7 +926,7 @@
           <note type="speaker" n="680fc8ce">
             Herr statsrådet Schlyter avlämnade Kungl. Maj:
           </note>
-          <u who="karl_schlyter_cf9666" xml:id="i-4bcbf256f6c7486c-0" n="1b7f57e2">
+          <u who="karl_schlyter_cf9666" xml:id="i-1b7f57e2c0013cec-5" n="1b7f57e2">
             <seg n="8c8678bb">
               ts propositioner:
             </seg>
@@ -945,7 +954,7 @@
             bifölls vad utskottet i detta utlåtande hemställt.
           </note>
           <pb n="9" facs="https://betalab.kb.se/prot-1936--fk--11/prot_1936__fk__11-009.jp2/_view"/>
-          <note n="b831f3c3">
+          <note type="date" n="4bdc15df">
             10 Nr 11. Lördagen den 22 februari.
           </note>
           <note n="95381164">
@@ -963,7 +972,7 @@
           <note type="speaker" n="56b62d65">
             Herr Nilsson, Johan, i Kristianstad:
           </note>
-          <u who="theodor_nilsson_c13799" xml:id="i-bce3eb80be206923-0" n="f76040b9">
+          <u who="theodor_nilsson_c13799" xml:id="i-f76040b9e33b76bf-0" n="f76040b9">
             <seg n="2d62b1bf">
               Då det konstaterats, att olika meningar gjort sig gällande angående
               detta ärendes formella behandling, anhåller lag, herr talman,
@@ -1030,7 +1039,7 @@
           <note type="speaker" n="fcfdc74c">
             Herr statsrådet Levinson avlämnade Kungl. Maj:
           </note>
-          <u who="unknown" xml:id="i-14657a3a0de7aab6-0" n="74637e91">
+          <u who="unknown" xml:id="i-74637e91988df103-0" n="74637e91">
             <seg n="8c8678bb">
               ts propositioner:
             </seg>
@@ -1093,7 +1102,7 @@
             eller 46 röster,
           </note>
           <pb n="11" facs="https://betalab.kb.se/prot-1936--fk--11/prot_1936__fk__11-011.jp2/_view"/>
-          <note n="69a33af2">
+          <note type="date" n="dcb9162c">
             12 Nr 11. Tisdagen den 25 februari.
           </note>
           <note n="d0fe7f9d">
@@ -1172,7 +1181,7 @@
             från viss betalningsskyldighet.
           </note>
           <pb n="12" facs="https://betalab.kb.se/prot-1936--fk--11/prot_1936__fk__11-012.jp2/_view"/>
-          <note n="f528477b">
+          <note type="date" n="857a4420">
             Tisdagen den 25 februari Nr 11. 13
           </note>
           <note n="8183fd5e">
@@ -1250,7 +1259,7 @@
             betänkanden nr 8—11.
           </note>
           <pb n="13" facs="https://betalab.kb.se/prot-1936--fk--11/prot_1936__fk__11-013.jp2/_view"/>
-          <note n="7bdf3f30">
+          <note type="date" n="323c10e9">
             14 Nr 11. Tisdagen den 25 februari.
           </note>
           <note n="78d9ac0c">

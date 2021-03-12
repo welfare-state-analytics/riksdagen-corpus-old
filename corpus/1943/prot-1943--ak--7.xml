@@ -20,7 +20,7 @@
     <encodingDesc>
       <editorialDecl>
         <correction>
-          <p>Some data curation was done. It is documented in db/curation/instances</p>
+          <p>Some data curation was done. It is documented in input/curation/instances</p>
         </correction>
       </editorialDecl>
     </encodingDesc>
@@ -52,17 +52,20 @@
       <front>
         <div type="preface">
           <head>prot-1943--ak--7</head>
-          <docDate when="1943">1943</docDate>
+          <docDate when="1943-02-23">1943-02-23</docDate>
+          <docDate when="1943-02-24">1943-02-24</docDate>
+          <docDate when="1943-02-27">1943-02-27</docDate>
         </div>
       </front>
       <body>
         <div>
+          <pb n="0" facs="https://betalab.kb.se/prot-1943--ak--7/prot_1943__ak__7-000.jp2/_view"/>
           <note n="ee7ba87a">
             RIKSDAGENS PROTOKOLL. 1943. Andra kammaren. Nr 7.
           </note>
           <note n="4cf095c5"/>
           <note n="4cf095c5"/>
-          <note n="365f0786">
+          <note type="date" n="b71dbbcb">
             Tisdagen den 23 februari. Kl. 4 e. m.
           </note>
           <note n="9306b1a2">
@@ -99,7 +102,7 @@
           <note type="speaker" n="c43e347e">
             Herr statsrådet Wigforss avlämnade Kungl. Maj:
           </note>
-          <u who="ernst_wigforss_5fc519" xml:id="i-c73ce1d1ab077280-0" n="9c0b1ef2">
+          <u who="ernst_wigforss_5fc519" xml:id="i-9c0b1ef2bd046493-0" n="9c0b1ef2">
             <seg n="87e410bf">
               ts propositioner:
             </seg>
@@ -157,7 +160,7 @@
             Andra kammarens protokoll 1943. Nr 7. I
           </note>
           <pb n="1" facs="https://betalab.kb.se/prot-1943--ak--7/prot_1943__ak__7-001.jp2/_view"/>
-          <note n="54b2348e">
+          <note type="date" n="5e76340d">
             2 Nr 7. Tisdagen den 23 februari 1943.
           </note>
           <note n="0ac73ebe">
@@ -254,10 +257,10 @@
             In fidem Sune Norrman.
           </note>
           <pb n="2" facs="https://betalab.kb.se/prot-1943--ak--7/prot_1943__ak__7-002.jp2/_view"/>
-          <note n="b736d9b1">
+          <note type="date" n="870ef297">
             Onsdagen den 24 februari 1943. Nr 7. 3
           </note>
-          <note n="0aaf0a1b">
+          <note type="date" n="c91c836a">
             Onsdagen den 24 februari. Kl. 11 f. m.
           </note>
           <note n="71f20c70">
@@ -266,7 +269,7 @@
           <note type="speaker" n="4a43484e">
             Chefen för socialdepartementet, herr statsrådet Möller, som anförde:
           </note>
-          <u who="gustav_moller_bbfd92" xml:id="i-6f5258518565c410-0" next="i-672838e908d7b506-0" n="48817699">
+          <u who="gustav_moller_bbfd92" xml:id="i-ccf482bbc2adb090-0" next="i-ccf482bbc2adb090-4" n="48817699">
             <seg n="0ba485d6">
               Herr talman! Med andra kammarens tillstånd har dess ledamot herr
               Gavelin till mig framställt följande spörsmål:
@@ -307,7 +310,7 @@
             län att verkställa förflyttning av arbetslaget i Ullatti, vilket
             också skedde den 27 januari.
           </note>
-          <u who="gustav_moller_bbfd92" xml:id="i-672838e908d7b506-0" prev="i-6f5258518565c410-0" n="48817699">
+          <u who="gustav_moller_bbfd92" xml:id="i-ccf482bbc2adb090-1" prev="i-ccf482bbc2adb090-0" n="48817699">
             <seg n="c738ed86">
               Det är naturligt, att speciella svårigheter föreligga för utnyttjandet
               av den ovana arbetskraften i skogen. Statens arbetsmarknadskommission
@@ -327,6 +330,27 @@
               skall till länsarbetsnämnden ingiva uppgifter om avverkningens
               art, arbetspriser, förläggningarnas beskaffenhet och
             </seg>
+          </u>
+          <note n="59799e15">
+            Svar på interpellation.
+          </note>
+          <pb n="3" facs="https://betalab.kb.se/prot-1943--ak--7/prot_1943__ak__7-003.jp2/_view"/>
+          <note type="date" n="6700bd6d">
+            4 Nr 7. Onsdagen den 24 februari 1943.
+          </note>
+          <note n="47cd30e2">
+            Svar på interpellation. (Forts.) belägenhet i förhållande till
+            arbetsplats, järnvägsstation m. m. Sammanförda i en rapport skola
+            dessa uppgifter giva tillräcklig vägledning för den ovane arbetaren,
+            redan innan han tillträder arbetet, att i huvudsak skaffa sig
+            en uppfattning om arbetsoch bostadsförhållanden. Sedan länsarbetsnämnden
+            med stöd av instruktörens uppgifter godkänt en avverkningstrakt,
+            ombesörjer nämnden anställande av instruktör och kocka till förläggningen.
+            Instruktören betalas helt av länsarbetsnämnden och är skyldig
+            att bl. a. biträda med tillsynen av mathållningens och förläggningens
+            rätta skötsel.
+          </note>
+          <u who="gustav_moller_bbfd92" xml:id="i-ccf482bbc2adb090-2" prev="i-ccf482bbc2adb090-0" n="48817699">
             <seg n="660f90f9">
               Den vid skogsarbete ovana arbetskraften måste i regel utplaceras
               i grupper, som vanligen uppgå till 10—12 man, detta för att lättare
@@ -364,6 +388,23 @@
               Arbetskraften har i sådana fall omplacerats. Ullatti var ett av
               dessa fall.
             </seg>
+          </u>
+          <note n="1266ded2">
+            Vad speciellt Norrbottens län beträffar så har i anledning av
+            de klagomål, som därifrån inkommit, en speciell utredning verkställts.
+            Förhållandena ha varit föremål för särskild behandling vid sammanträde
+            i Luleå den 6 februari med representanter för arbetsmarknadskommissionen,
+            länsarbetsnämnden, Munksunds A/B, gruvindustriarbetareförbundets
+            avdelningar i Kiruna och Malmberget samt skogsoch flottningsarbetareförbundet.
+            Härvid framkom att endast vid tre, Ullatti medräknat, av de 23
+            förläggningarna för riksarbetare avverkningsförhållandena varit
+            sådana, att de icke vunnit förbundets godkännande. I ett av dessa
+            tre fall gällde kritiken endast en del av avverkningstrakten.
+            I vissa andra fall hade de anmärkningar, som gjorts, motiverat
+            prisjusteringar, som vidtagits; i vissa fall hade anmärkningarna
+            ansetts obefogade.
+          </note>
+          <u who="gustav_moller_bbfd92" xml:id="i-ccf482bbc2adb090-3" prev="i-ccf482bbc2adb090-0" n="48817699">
             <seg n="2602c819">
               Att klagomål just framkommit från Norrbotten torde hänga samman
               därmed att transportmöjligheterna därstädes i många fall lägga
@@ -376,6 +417,12 @@
               Vad till sist Ullattiförläggningen beträffar har undersökningen,
               som fram-
             </seg>
+          </u>
+          <pb n="4" facs="https://betalab.kb.se/prot-1943--ak--7/prot_1943__ak__7-004.jp2/_view"/>
+          <note type="date" n="7ac57caa">
+            Onsdagen den 24 februari 1943. Nr 7. 5
+          </note>
+          <u who="gustav_moller_bbfd92" xml:id="i-ccf482bbc2adb090-4" prev="i-ccf482bbc2adb090-0" n="48817699">
             <seg n="cccc466e">
               Svar på interpellation. (Forts.) går av det anförda, givit vid
               handen att gruvarbetarnas klagomål varit berättigade. Bolaget
@@ -401,51 +448,13 @@
               enstaka fall komma att uppstå.
             </seg>
           </u>
-          <note n="59799e15">
-            Svar på interpellation.
-          </note>
-          <pb n="3" facs="https://betalab.kb.se/prot-1943--ak--7/prot_1943__ak__7-003.jp2/_view"/>
-          <note n="5df0b006">
-            4 Nr 7. Onsdagen den 24 februari 1943.
-          </note>
-          <note n="47cd30e2">
-            Svar på interpellation. (Forts.) belägenhet i förhållande till
-            arbetsplats, järnvägsstation m. m. Sammanförda i en rapport skola
-            dessa uppgifter giva tillräcklig vägledning för den ovane arbetaren,
-            redan innan han tillträder arbetet, att i huvudsak skaffa sig
-            en uppfattning om arbetsoch bostadsförhållanden. Sedan länsarbetsnämnden
-            med stöd av instruktörens uppgifter godkänt en avverkningstrakt,
-            ombesörjer nämnden anställande av instruktör och kocka till förläggningen.
-            Instruktören betalas helt av länsarbetsnämnden och är skyldig
-            att bl. a. biträda med tillsynen av mathållningens och förläggningens
-            rätta skötsel.
-          </note>
-          <note n="1266ded2">
-            Vad speciellt Norrbottens län beträffar så har i anledning av
-            de klagomål, som därifrån inkommit, en speciell utredning verkställts.
-            Förhållandena ha varit föremål för särskild behandling vid sammanträde
-            i Luleå den 6 februari med representanter för arbetsmarknadskommissionen,
-            länsarbetsnämnden, Munksunds A/B, gruvindustriarbetareförbundets
-            avdelningar i Kiruna och Malmberget samt skogsoch flottningsarbetareförbundet.
-            Härvid framkom att endast vid tre, Ullatti medräknat, av de 23
-            förläggningarna för riksarbetare avverkningsförhållandena varit
-            sådana, att de icke vunnit förbundets godkännande. I ett av dessa
-            tre fall gällde kritiken endast en del av avverkningstrakten.
-            I vissa andra fall hade de anmärkningar, som gjorts, motiverat
-            prisjusteringar, som vidtagits; i vissa fall hade anmärkningarna
-            ansetts obefogade.
-          </note>
-          <pb n="4" facs="https://betalab.kb.se/prot-1943--ak--7/prot_1943__ak__7-004.jp2/_view"/>
-          <note n="f333a974">
-            Onsdagen den 24 februari 1943. Nr 7. 5
-          </note>
           <note n="e67ca6ec">
             Härefter yttrade:
           </note>
           <note type="speaker" n="d21cf20b">
             Herr Gavelin:
           </note>
-          <u who="olof_gavelin_d6efe0" xml:id="i-1eb1ada6a65dd5c1-0" next="i-cef4608301bd3181-0" n="b703fdf3">
+          <u who="olof_gavelin_d6efe0" xml:id="i-b703fdf3c9b456e2-0" next="i-b703fdf3c9b456e2-1" n="b703fdf3">
             <seg n="24ffb053">
               Herr talman! Till herr statsrådet och chefen för socialdepartementet
               vill jag framföra mitt tack för svaret på interpellationen. Jag
@@ -498,13 +507,13 @@
             </seg>
           </u>
           <pb n="5" facs="https://betalab.kb.se/prot-1943--ak--7/prot_1943__ak__7-005.jp2/_view"/>
-          <note n="c272cf67">
+          <note type="date" n="177d43d8">
             6 Nr 7. Onsdagen den 24 februari 1943.
           </note>
           <note n="87172e10">
             Svar på interpellation. (Forts.)
           </note>
-          <u who="olof_gavelin_d6efe0" xml:id="i-cef4608301bd3181-0" prev="i-1eb1ada6a65dd5c1-0" n="b703fdf3">
+          <u who="olof_gavelin_d6efe0" xml:id="i-b703fdf3c9b456e2-1" prev="i-b703fdf3c9b456e2-0" n="b703fdf3">
             <seg n="549f6a48">
               Om sådana icke ernås, säga de, få riksarbetarna avsmak för skogsarbetet,
               och Jandets vedförsörjning äventyras.
@@ -520,7 +529,7 @@
           <note type="speaker" n="e47f36ee">
             Herr Jonsson i Alsen:
           </note>
-          <u who="sigfrid_jonsson_2c5193" xml:id="i-9e1ce0d9298ea101-0" next="i-e7c851e779d86ab5-0" n="7c9d9712">
+          <u who="sigfrid_jonsson_2c5193" xml:id="i-7422a516981c085a-0" next="i-7422a516981c085a-1" n="7c9d9712">
             <seg n="a0c8e058">
               Herr talman! När frågan om dessa riksarbetslag nu kommit inför
               kammaren kan det vara lämpligt att anföra några skogsarbetarsynpunkter.
@@ -585,10 +594,10 @@
             </seg>
           </u>
           <pb n="6" facs="https://betalab.kb.se/prot-1943--ak--7/prot_1943__ak__7-006.jp2/_view"/>
-          <note n="11663e22">
+          <note type="date" n="dee870cf">
             Onsdagen den 24 februari 1943. Nr 7. 7
           </note>
-          <u who="sigfrid_jonsson_2c5193" xml:id="i-e7c851e779d86ab5-0" prev="i-9e1ce0d9298ea101-0" n="7c9d9712">
+          <u who="sigfrid_jonsson_2c5193" xml:id="i-7422a516981c085a-1" prev="i-7422a516981c085a-0" n="7c9d9712">
             <seg n="e1ec9701">
               Svar på interpellation. (Forts.) hur det blir med den saken.
               Nu tror jag icke, att man väntar längre. Man börjar givetvis tänka,
@@ -613,7 +622,7 @@
           <note type="speaker" n="dd7c2bea">
             Herr Andersson i Göteborg:
           </note>
-          <u who="sven_andersson_d78059" xml:id="i-e289d50a8fe69d1a-0" n="78b54682">
+          <u who="sven_andersson_d78059" xml:id="i-78b54682b64bb65e-0" n="78b54682">
             <seg n="92dc716d">
               Herr talman! I anslutning till denna fråga om riksarbetslagen
               skulle jag vilja beröra de otillfredsställande förhållanden som
@@ -665,7 +674,7 @@
             förrätta nytt
           </note>
           <pb n="7" facs="https://betalab.kb.se/prot-1943--ak--7/prot_1943__ak__7-007.jp2/_view"/>
-          <note n="44883026">
+          <note type="date" n="99a8d172">
             38 Nr 7. Onsdagen den 24 februari 1943.
           </note>
           <note n="328f29db">
@@ -684,7 +693,7 @@
           <note type="speaker" n="228890d2">
             Herr statsrådet Möller avlämnade Kungl. Maj:
           </note>
-          <u who="gustav_moller_bbfd92" xml:id="i-6f5258518565c410-1" next="i-672838e908d7b506-1" n="48817699">
+          <u who="gustav_moller_bbfd92" xml:id="i-ccf482bbc2adb090-5" next="i-ccf482bbc2adb090-7" n="48817699">
             <seg n="888a1c42">
               ts proposition, nr 54, angående vissa anslag till riksförsäkringsanstalten
               för budgetåret 1943/44.
@@ -762,7 +771,7 @@
             punkterna endast rubrikerna skulle uppläsas.
           </note>
           <pb n="8" facs="https://betalab.kb.se/prot-1943--ak--7/prot_1943__ak__7-008.jp2/_view"/>
-          <note n="42ac4f2e">
+          <note type="date" n="3ff49e7c">
             Onsdagen den 24 februari 1943. Nr 7. 9
           </note>
           <note n="db561aa8">
@@ -780,23 +789,10 @@
             under statens affärsverksfonder + aletaverktn gjorda framställningar
             om anslag för budgetåret 1943/44 i avseende å post- 2 kapital-
           </note>
-          <u who="gustav_moller_bbfd92" xml:id="i-672838e908d7b506-1" prev="i-6f5258518565c410-1" n="48817699">
+          <u who="gustav_moller_bbfd92" xml:id="i-ccf482bbc2adb090-6" prev="i-ccf482bbc2adb090-5" n="48817699">
             <seg n="32d31920">
               verket, telegrafverket, statens järnvägar och statens vattenfallsverk.
               budgeten
-            </seg>
-            <seg n="5dca6cb2">
-              Punkten 20, angående fortsatt anläggning av dubbelspår vid statens
-              järn- = Fortsatt
-            </seg>
-            <seg n="10829cc6">
-              ös . anläggning av vägar. dubbelspår vid
-            </seg>
-            <seg n="6c474692">
-              Efter föredragning av punkten anförde: statens järn-
-            </seg>
-            <seg n="27db6252">
-              vagar.
             </seg>
           </u>
           <note n="1ce93918">
@@ -825,10 +821,25 @@
           <note n="c2603ea3">
             Punkterna 3—19. Vad utskottet hemställt bifölls.
           </note>
+          <u who="gustav_moller_bbfd92" xml:id="i-ccf482bbc2adb090-7" prev="i-ccf482bbc2adb090-5" n="48817699">
+            <seg n="5dca6cb2">
+              Punkten 20, angående fortsatt anläggning av dubbelspår vid statens
+              järn- = Fortsatt
+            </seg>
+            <seg n="10829cc6">
+              ös . anläggning av vägar. dubbelspår vid
+            </seg>
+            <seg n="6c474692">
+              Efter föredragning av punkten anförde: statens järn-
+            </seg>
+            <seg n="27db6252">
+              vagar.
+            </seg>
+          </u>
           <note type="speaker" n="6c09ca53">
             Herr Lindahl:
           </note>
-          <u who="lars_lindahl_f2fe83" xml:id="i-b207a7ecc7703842-0" next="i-91fe062445f7ba37-0" n="36131982">
+          <u who="lars_lindahl_f2fe83" xml:id="i-361319825a136f2e-0" next="i-361319825a136f2e-1" n="36131982">
             <seg n="e13b2d4c">
               Herr talman! Jag har begärt ordet för att uttrycka min till-
               " fredsställelse över utskottets utlåtande på denna punkt, som
@@ -865,10 +876,10 @@
             </seg>
           </u>
           <pb n="9" facs="https://betalab.kb.se/prot-1943--ak--7/prot_1943__ak__7-009.jp2/_view"/>
-          <note n="0d406798">
+          <note type="date" n="dabfc457">
             10 Nr 7. Onsdagen den 24 februari 1943.
           </note>
-          <u who="lars_lindahl_f2fe83" xml:id="i-91fe062445f7ba37-0" prev="i-b207a7ecc7703842-0" n="36131982">
+          <u who="lars_lindahl_f2fe83" xml:id="i-361319825a136f2e-1" prev="i-361319825a136f2e-0" n="36131982">
             <seg n="84623420">
               Fortsatt anläggning av dubbelspår vid statens järnvägar. (Forts.)
               stå under alla tider på dygnet. Jag föreställer mig att Järnvägsstyrelsen
@@ -929,7 +940,7 @@
           <note type="speaker" n="27e3a8f6">
             Chefen för kommunikationsdepartementet, herr statsrådet Andersson:
           </note>
-          <u who="sven_andersson_d78059" xml:id="i-d14ed0f328ded181-0" next="i-b67ab9ef76e6bb34-0" n="78b54682">
+          <u who="sven_andersson_d78059" xml:id="i-78b54682b64bb65e-1" next="i-78b54682b64bb65e-3" n="78b54682">
             <seg n="5eede213">
               Herr talman! Jag delar i väsentliga stycken den uppfattning,
               som den föregående talaren gjorde sig till tolk för. Det är givetvis
@@ -941,10 +952,10 @@
             </seg>
           </u>
           <pb n="10" facs="https://betalab.kb.se/prot-1943--ak--7/prot_1943__ak__7-010.jp2/_view"/>
-          <note n="593e4a4c">
+          <note type="date" n="fe74be47">
             Onsdagen den 24 februari 1943. Nr 7. 11
           </note>
-          <u who="sven_andersson_d78059" xml:id="i-b67ab9ef76e6bb34-0" prev="i-d14ed0f328ded181-0" n="78b54682">
+          <u who="sven_andersson_d78059" xml:id="i-78b54682b64bb65e-2" prev="i-78b54682b64bb65e-1" n="78b54682">
             <seg n="9aa08703">
               Fortsatt anläggning av dubbelspår vid statens järnvägar. (Forts.)
             </seg>
@@ -1023,6 +1034,12 @@
               Jag är den förste att beklaga att dubbelspårarbetena av dessa
               relaterade
             </seg>
+          </u>
+          <pb n="11" facs="https://betalab.kb.se/prot-1943--ak--7/prot_1943__ak__7-011.jp2/_view"/>
+          <note type="date" n="a5d78815">
+            12 Nr 7. Onsdagen den 24 februari 1943.
+          </note>
+          <u who="sven_andersson_d78059" xml:id="i-78b54682b64bb65e-3" prev="i-78b54682b64bb65e-1" n="78b54682">
             <seg n="7a16d075">
               Fortsatt anläggning av dubbelspår vid statens järnvägar. (Forts.)
               orsaker inte kunnat bedrivas i den omfattning som såväl jag som
@@ -1034,10 +1051,6 @@
               i bruk.
             </seg>
           </u>
-          <pb n="11" facs="https://betalab.kb.se/prot-1943--ak--7/prot_1943__ak__7-011.jp2/_view"/>
-          <note n="9766389e">
-            12 Nr 7. Onsdagen den 24 februari 1943.
-          </note>
           <note n="2f534734">
             Vidare yttrades ej. Utskottets hemställan bifölls.
           </note>
@@ -1107,7 +1120,7 @@
           <note type="speaker" n="66106200">
             Herr Gustafsson i Lekåsa:
           </note>
-          <u who="edvin_gustafsson_093a9d" xml:id="i-5d87e6e0fa10b70a-0" next="i-6f614e6f4c1aee14-0" n="df7b4f26">
+          <u who="edvin_gustafsson_093a9d" xml:id="i-df7b4f26ac2badfa-0" next="i-df7b4f26ac2badfa-1" n="df7b4f26">
             <seg n="387ba670">
               Herr talman! I det nu föredragna första lagutekottets utlåtande
               nr 8 framhålles, hurusom denna fråga vid många tidigare tillfällen,
@@ -1117,14 +1130,14 @@
             </seg>
           </u>
           <pb n="12" facs="https://betalab.kb.se/prot-1943--ak--7/prot_1943__ak__7-012.jp2/_view"/>
-          <note n="ab5a59bf">
+          <note type="date" n="771d2e91">
             Onsdagen den 24 februari 1943. Nr 7. 13
           </note>
           <note n="c8051b49">
             Motion angående åtgärder till förhindrande av för tidig skörd
             am grogekär. orts.
           </note>
-          <u who="edvin_gustafsson_093a9d" xml:id="i-6f614e6f4c1aee14-0" prev="i-5d87e6e0fa10b70a-0" n="df7b4f26">
+          <u who="edvin_gustafsson_093a9d" xml:id="i-df7b4f26ac2badfa-1" prev="i-df7b4f26ac2badfa-0" n="df7b4f26">
             <seg n="302e81bf">
               I utlåtandet säges: »Såsom utskottet i sitt vid föregående års
               riksdag avgivna utlåtande över den nu ånyo upptagna frågan framhållit,
@@ -1163,7 +1176,7 @@
           <note type="speaker" n="c44cbae8">
             Herr Grym:
           </note>
-          <u who="unknown" xml:id="i-2396352020f550e2-0" n="ccf482bb">
+          <u who="unknown" xml:id="i-ccf482bbc2adb090-8" n="ccf482bb">
             <seg n="374fe746">
               Herr talman! Utskottet har i sitt utlåtande framhållit, att frågan
               om åtgärder till förhindrande av skördandet av omogna skogsbär
@@ -1200,10 +1213,10 @@
             </seg>
           </u>
           <pb n="13" facs="https://betalab.kb.se/prot-1943--ak--7/prot_1943__ak__7-013.jp2/_view"/>
-          <note n="694d33e8">
+          <note type="date" n="e7138e01">
             14 Nr 7. Onsdagen den 24 februari 1943.
           </note>
-          <u who="unknown" xml:id="i-f38369f4d790c52f-0" n="ccf482bb">
+          <u who="unknown" xml:id="i-ccf482bbc2adb090-9" n="ccf482bb">
             <seg n="6fab9533">
               Motion angående åtgärder till förhindrande av för tidig skörd
               av skogsbär. (Forts.) sig om det inte är tillrådligt och bäst
@@ -1277,6 +1290,16 @@
               väg vissa mindre prov och jämförelser för att undersöka om det
               kommande årets hjortronskörd blir
             </seg>
+          </u>
+          <pb n="14" facs="https://betalab.kb.se/prot-1943--ak--7/prot_1943__ak__7-014.jp2/_view"/>
+          <note type="date" n="91a00888">
+            Onsdagen den 24 februari 1943. Nr 7. 15
+          </note>
+          <note n="95e8c27c">
+            Motion angående åtgärder till förhindrande av för tidig skörd
+            EA orts.
+          </note>
+          <u who="unknown" xml:id="i-ccf482bbc2adb090-10" n="ccf482bb">
             <seg n="f5abf13d">
               lidande genom för tidig plockning, och vi ha kommit till det
               bestämda resultatet, att så är fallet. Hjortronmyrar närmast bebyggelser,
@@ -1345,6 +1368,12 @@
               Många stockholmsbor, som man 1 övrigt har all anledning att respektera,
               ha ingen aning om hur bären skola se ut, när de
             </seg>
+          </u>
+          <pb n="15" facs="https://betalab.kb.se/prot-1943--ak--7/prot_1943__ak__7-015.jp2/_view"/>
+          <note type="date" n="5aad173f">
+            i6 Nr 7. Onsdagen den 24 februari 1943.
+          </note>
+          <u who="unknown" xml:id="i-ccf482bbc2adb090-11" n="ccf482bb">
             <seg n="a237d16f">
               Motion angående åtgärder till förhindrande av för tidig skörd
               av skogsbär. (Forts.) äro mogna. Lingon är för dem blott och bart
@@ -1394,22 +1423,10 @@
               att säga några ord i denna ingalunda betydelselösa fråga.
             </seg>
           </u>
-          <pb n="14" facs="https://betalab.kb.se/prot-1943--ak--7/prot_1943__ak__7-014.jp2/_view"/>
-          <note n="0bf549be">
-            Onsdagen den 24 februari 1943. Nr 7. 15
-          </note>
-          <note n="95e8c27c">
-            Motion angående åtgärder till förhindrande av för tidig skörd
-            EA orts.
-          </note>
-          <pb n="15" facs="https://betalab.kb.se/prot-1943--ak--7/prot_1943__ak__7-015.jp2/_view"/>
-          <note n="55e41bd3">
-            i6 Nr 7. Onsdagen den 24 februari 1943.
-          </note>
           <note type="speaker" n="243c66fc">
             Herr Hedlund i Östersund:
           </note>
-          <u who="verner_hedlund_9b7cc3" xml:id="i-ce5527a75235198d-0" next="i-aef97cd078a57be8-0" n="2d37e4be">
+          <u who="verner_hedlund_9b7cc3" xml:id="i-2d37e4be4d6a9057-0" next="i-2d37e4be4d6a9057-1" n="2d37e4be">
             <seg n="e148ac76">
               Herr talman! Första lagutskottet, som har haft att behandla detta
               ärende i flera omgångar, är fullt ense med motionärerna därom,
@@ -1438,10 +1455,10 @@
             </seg>
           </u>
           <pb n="16" facs="https://betalab.kb.se/prot-1943--ak--7/prot_1943__ak__7-016.jp2/_view"/>
-          <note n="7d8e84d4">
+          <note type="date" n="776858a7">
             Onsdagen den 24 februari 1943. Nr 7. 17
           </note>
-          <u who="verner_hedlund_9b7cc3" xml:id="i-aef97cd078a57be8-0" prev="i-ce5527a75235198d-0" n="2d37e4be">
+          <u who="verner_hedlund_9b7cc3" xml:id="i-2d37e4be4d6a9057-1" prev="i-2d37e4be4d6a9057-0" n="2d37e4be">
             <seg n="30e7d5ab">
               Motion angående åtgärder till förhindrande av för tidig skörd
               av skogsbär.
@@ -1476,7 +1493,7 @@
           <note type="speaker" n="afb922ea">
             Herr Pettersson i Dahl:
           </note>
-          <u who="john_pettersson_4531c2" xml:id="i-69595efd488a55ae-0" next="i-9aa279af1ee75f48-0" n="e6759215">
+          <u who="john_pettersson_4531c2" xml:id="i-e6759215ad0366a5-0" next="i-e6759215ad0366a5-2" n="e6759215">
             <seg n="060e5979">
               Herr talman! Det kan kanske anses egendomligt, att denna motion
               rörande åtgärder till förhindrande av för tidig bärplockning upprepade
@@ -1526,10 +1543,10 @@
             Andra kammarens protokoll 1943. Nr 7. 2
           </note>
           <pb n="17" facs="https://betalab.kb.se/prot-1943--ak--7/prot_1943__ak__7-017.jp2/_view"/>
-          <note n="b8dc79f0">
+          <note type="date" n="4a6e7ce4">
             18 NEG Onsdagen den 24 februari 1943.
           </note>
-          <u who="john_pettersson_4531c2" xml:id="i-9aa279af1ee75f48-0" prev="i-69595efd488a55ae-0" n="e6759215">
+          <u who="john_pettersson_4531c2" xml:id="i-e6759215ad0366a5-1" prev="i-e6759215ad0366a5-0" n="e6759215">
             <seg n="22fe779e">
               Mofton Spaden åtgärder till förhindrande av för tidig skörd av
               skogsbär. orts.
@@ -1605,6 +1622,12 @@
               Sedan säger utskottet, att i många fall torde ren okunnighet
               från allmän-
             </seg>
+          </u>
+          <pb n="18" facs="https://betalab.kb.se/prot-1943--ak--7/prot_1943__ak__7-018.jp2/_view"/>
+          <note type="date" n="bdd556a3">
+            Onsdagen den 24 februari 1943. Nr 7. 19
+          </note>
+          <u who="john_pettersson_4531c2" xml:id="i-e6759215ad0366a5-2" prev="i-e6759215ad0366a5-0" n="e6759215">
             <seg n="39bba4b6">
               Motion angående åtgärder till förhindrande av för tidig skörd
               av ogmtar. orts.
@@ -1643,14 +1666,10 @@
               som avgivits av herr Gustafsson i Lekåsa.
             </seg>
           </u>
-          <pb n="18" facs="https://betalab.kb.se/prot-1943--ak--7/prot_1943__ak__7-018.jp2/_view"/>
-          <note n="5db5665c">
-            Onsdagen den 24 februari 1943. Nr 7. 19
-          </note>
           <note type="speaker" n="831d8c6f">
             Herr förste vice talmannen Magnusson:
           </note>
-          <u who="karl_magnusson_7780f4" xml:id="i-5828767639d61c6d-0" next="i-19def51046397c87-0" n="5884c215">
+          <u who="karl_magnusson_7780f4" xml:id="i-5884c21535fe56e7-0" next="i-5884c21535fe56e7-2" n="5884c215">
             <seg n="ac9df31d">
               Herr talman! Jag ber kammaren om överseende för att jag tar till
               orda i denna sak, men det förefaller mig, som om ärendet för mångas
@@ -1691,10 +1710,10 @@
             </seg>
           </u>
           <pb n="19" facs="https://betalab.kb.se/prot-1943--ak--7/prot_1943__ak__7-019.jp2/_view"/>
-          <note n="07dc2c13">
+          <note type="date" n="ff55a2e3">
             20 Nr 7. Onsdagen den 24 februari 1943.
           </note>
-          <u who="karl_magnusson_7780f4" xml:id="i-19def51046397c87-0" prev="i-5828767639d61c6d-0" n="5884c215">
+          <u who="karl_magnusson_7780f4" xml:id="i-5884c21535fe56e7-1" prev="i-5884c21535fe56e7-0" n="5884c215">
             <seg n="c57c231d">
               Motion aa ME åtgärder till förhindrande av för tidig skörd av
               skogsbär. orts.
@@ -1769,6 +1788,12 @@
               — sedan jag tittat i hans eller hennes lingonkorg, säger: »Men
               det är ju för rasan-
             </seg>
+          </u>
+          <pb n="20" facs="https://betalab.kb.se/prot-1943--ak--7/prot_1943__ak__7-020.jp2/_view"/>
+          <note type="date" n="025d2975">
+            Onsdagen den 24 februari 1943. Nr 7. 21
+          </note>
+          <u who="karl_magnusson_7780f4" xml:id="i-5884c21535fe56e7-2" prev="i-5884c21535fe56e7-0" n="5884c215">
             <seg n="b0960199">
               Motion angående åtgärder till förhindrande av för tidig skörd
               ae fran. Forts.
@@ -1840,14 +1865,10 @@
               till reservationen.
             </seg>
           </u>
-          <pb n="20" facs="https://betalab.kb.se/prot-1943--ak--7/prot_1943__ak__7-020.jp2/_view"/>
-          <note n="146a4178">
-            Onsdagen den 24 februari 1943. Nr 7. 21
-          </note>
           <note type="speaker" n="3665b3f0">
             Herr Jacobson:
           </note>
-          <u who="uddo_jacobson_371ca5" xml:id="i-091976cc8217f166-0" next="i-eef5f830e139e95a-0" n="36131b3e">
+          <u who="uddo_jacobson_371ca5" xml:id="i-878079fcf6de4766-0" next="i-878079fcf6de4766-2" n="36131b3e">
             <seg n="909cc037">
               Herr talman! Herr Hedlund i Östersund framhöll i sitt anförande,
               att det skulle uppstå stora svårigheter för en dylik lagstiftning.
@@ -1856,10 +1877,10 @@
             </seg>
           </u>
           <pb n="21" facs="https://betalab.kb.se/prot-1943--ak--7/prot_1943__ak__7-021.jp2/_view"/>
-          <note n="530cf20c">
+          <note type="date" n="edac3da0">
             22 Nr 7. Onsdagen den 24 februari 1943.
           </note>
-          <u who="uddo_jacobson_371ca5" xml:id="i-eef5f830e139e95a-0" prev="i-091976cc8217f166-0" n="36131b3e">
+          <u who="uddo_jacobson_371ca5" xml:id="i-878079fcf6de4766-1" prev="i-878079fcf6de4766-0" n="36131b3e">
             <seg n="e740de1b">
               Motion angående åtgärder till förhindrande av för tidig skörd
               av skogsbär. (Forts.) varande förhållandena, åtminstone när det
@@ -1895,10 +1916,6 @@
             <seg n="1ebd3b1e">
               Jag ber att på det allra livligaste få yrka bifall till den reservation,
               som finns bifogad utskottsutlåtandet.
-            </seg>
-            <seg n="a25c723f">
-              ende utredangående utredning om rätt för hustru att bära sitt
-              eget i stället för mannens ning om rätt läkt för hustru att SI&amp;XtNAaMN.
             </seg>
           </u>
           <note n="3b7b262e">
@@ -1937,6 +1954,12 @@
             Motion angå- Föredrogs första lagutskottets utlåtande, nr I,
             i anledning av väckt motion
           </note>
+          <u who="uddo_jacobson_371ca5" xml:id="i-878079fcf6de4766-2" prev="i-878079fcf6de4766-0" n="36131b3e">
+            <seg n="a25c723f">
+              ende utredangående utredning om rätt för hustru att bära sitt
+              eget i stället för mannens ning om rätt läkt för hustru att SI&amp;XtNAaMN.
+            </seg>
+          </u>
           <note n="570b66d5">
             böra ot get I en inom andra kammaren väckt, till lagutskott hänvisad
             motion, nr 201, ? Stället för vilken behandlats av första lagutskottet,
@@ -1944,7 +1967,7 @@
             måtte i skrivelse till Kungl. Maj:t anhålla, att Kungl.
           </note>
           <pb n="22" facs="https://betalab.kb.se/prot-1943--ak--7/prot_1943__ak__7-022.jp2/_view"/>
-          <note n="527f1152">
+          <note type="date" n="184e95a8">
             Onsdagen den 24 februari 1943. Nr 7. 23
           </note>
           <note n="72f133c6">
@@ -1977,7 +2000,7 @@
           <note type="speaker" n="04d6baca">
             Fru Gustafson:
           </note>
-          <u who="ruth_gustafson_962d17" xml:id="i-4d552b338f63621f-0" next="i-e3faeebfbad66c45-0" n="bc7f3b8b">
+          <u who="ruth_gustafson_962d17" xml:id="i-bc7f3b8b4df14d0a-0" next="i-bc7f3b8b4df14d0a-1" n="bc7f3b8b">
             <seg n="9c37a93e">
               Herr talman! Denna fråga kan väl tyckas icke ha så stor betydelse
               då den, som vi veta, endast berör ett litet fåtal av landets kvinnor.
@@ -2031,14 +2054,14 @@
             </seg>
           </u>
           <pb n="23" facs="https://betalab.kb.se/prot-1943--ak--7/prot_1943__ak__7-023.jp2/_view"/>
-          <note n="4d82de4e">
+          <note type="date" n="bfe391b4">
             24 Nr 7. Onsdagen den 24 februari 1943.
           </note>
           <note n="bfc783cc">
             Motion angående utredning om rätt för hustru att bära sitt eget
             i stället för mannens släktnamn. (Forts.)
           </note>
-          <u who="ruth_gustafson_962d17" xml:id="i-e3faeebfbad66c45-0" prev="i-4d552b338f63621f-0" n="bc7f3b8b">
+          <u who="ruth_gustafson_962d17" xml:id="i-bc7f3b8b4df14d0a-1" prev="i-bc7f3b8b4df14d0a-0" n="bc7f3b8b">
             <seg n="ac3f0791">
               eget släktnamn under förnyad omprövning, får utskottet hemställa,
               att förevarande motion, II: 201, icke måtte till någon riksdagens
@@ -2081,7 +2104,7 @@
           <note type="speaker" n="c3f9e45c">
             Fru Eriksson:
           </note>
-          <u who="jonas_eriksson_c6de48" xml:id="i-0cd027f12b7a4e8e-0" next="i-cebe0aee9ddb3fcf-0" n="39b0a9fa">
+          <u who="jonas_eriksson_c6de48" xml:id="i-39b0a9faee917293-0" next="i-39b0a9faee917293-1" n="39b0a9fa">
             <seg n="7a38ef7f">
               Herr talman! Jag anser mig här representera landsbygdens fattiga
               husmödrar, som få leva och dö ganska namnlösa. Det gör, att jag
@@ -2122,14 +2145,14 @@
             </seg>
           </u>
           <pb n="24" facs="https://betalab.kb.se/prot-1943--ak--7/prot_1943__ak__7-024.jp2/_view"/>
-          <note n="7ab7ada7">
+          <note type="date" n="83e2b2e6">
             Onsdagen den 24 februari 1943. Nr 7. 25
           </note>
           <note n="bfc783cc">
             Motion angående utredning om rätt för hustru att bära sitt eget
             i stället för mannens släktnamn. (Forts.)
           </note>
-          <u who="jonas_eriksson_c6de48" xml:id="i-cebe0aee9ddb3fcf-0" prev="i-0cd027f12b7a4e8e-0" n="39b0a9fa">
+          <u who="jonas_eriksson_c6de48" xml:id="i-39b0a9faee917293-1" prev="i-39b0a9faee917293-0" n="39b0a9fa">
             <seg n="411319a2">
               bra att fortsätta med en verksamhet med ett nytt namn och göra
               detta lika känt som det förutvarande namnet. I dessa tider, då
@@ -2148,7 +2171,7 @@
           <note type="speaker" n="80510e13">
             Herr Lindqvist:
           </note>
-          <u who="axel_lindqvist_0a6f07" xml:id="i-27bd5ea0721a332f-0" next="i-f63e91d56e842481-0" n="c09f2364">
+          <u who="axel_lindqvist_0a6f07" xml:id="i-c09f2364fa3712c3-0" next="i-c09f2364fa3712c3-3" n="c09f2364">
             <seg n="194e6c2f">
               Herr talman! Jag kan i rätt mycket instämma med den föregående
               talarinnan. Hennes anförande åtföljdes av sådana bravorop, att
@@ -2179,7 +2202,7 @@
             Det hänvisar till att riksdagen i fjol avvisade motionen, och
             i anledning därav hemställer utskottet om avslag även i år.
           </note>
-          <u who="axel_lindqvist_0a6f07" xml:id="i-f63e91d56e842481-0" prev="i-27bd5ea0721a332f-0" n="c09f2364">
+          <u who="axel_lindqvist_0a6f07" xml:id="i-c09f2364fa3712c3-1" prev="i-c09f2364fa3712c3-0" n="c09f2364">
             <seg n="54c68a7d">
               Fru Gustafson har nog, trots att hon sitter i utskottet, missuppfattat
               vad utskottet skrivit, när fru Gustafson tror, att utskottets
@@ -2216,6 +2239,16 @@
               förra året och då föll. Men skulle riksdagens ledamöter i allmänhet
               resonera på det sättet, skulle de icke få igenom
             </seg>
+          </u>
+          <pb n="25" facs="https://betalab.kb.se/prot-1943--ak--7/prot_1943__ak__7-025.jp2/_view"/>
+          <note type="date" n="27a8e7b1">
+            26 Nr 7. Onsdagen den 24 februari 1943.
+          </note>
+          <note n="bfc783cc">
+            Motion angående utredning om rätt för hustru att bära sitt eget
+            i stället för mannens släktnamn. (Forts.)
+          </note>
+          <u who="axel_lindqvist_0a6f07" xml:id="i-c09f2364fa3712c3-2" prev="i-c09f2364fa3712c3-0" n="c09f2364">
             <seg n="ee774af2">
               många saker. Det finns så oändligt många frågor — det torde de
               flesta närvarande ledamöterna erkänna — som man fått föra fram
@@ -2288,6 +2321,16 @@
               med detta förslag, som tyvärr
             </seg>
             <seg n="e17cf5c1"/>
+          </u>
+          <pb n="26" facs="https://betalab.kb.se/prot-1943--ak--7/prot_1943__ak__7-026.jp2/_view"/>
+          <note type="date" n="a434aed2">
+            Onsdagen den 24 februari 1943. Nr 7. i”
+          </note>
+          <note n="bfc783cc">
+            Motion angående utredning om rätt för hustru att bära sitt eget
+            i stället för mannens släktnamn. (Forts.)
+          </note>
+          <u who="axel_lindqvist_0a6f07" xml:id="i-c09f2364fa3712c3-3" prev="i-c09f2364fa3712c3-0" n="c09f2364">
             <seg n="62a6f758">
               har fallit i första kammaren. Andra kammaren brukar ju ibland
               visa sig litet
@@ -2304,26 +2347,10 @@
               gången, ber jag, herr talman, att få yrka bifall till reservationen.
             </seg>
           </u>
-          <pb n="25" facs="https://betalab.kb.se/prot-1943--ak--7/prot_1943__ak__7-025.jp2/_view"/>
-          <note n="0ef4ea28">
-            26 Nr 7. Onsdagen den 24 februari 1943.
-          </note>
-          <note n="bfc783cc">
-            Motion angående utredning om rätt för hustru att bära sitt eget
-            i stället för mannens släktnamn. (Forts.)
-          </note>
-          <pb n="26" facs="https://betalab.kb.se/prot-1943--ak--7/prot_1943__ak__7-026.jp2/_view"/>
-          <note n="7821d217">
-            Onsdagen den 24 februari 1943. Nr 7. i”
-          </note>
-          <note n="bfc783cc">
-            Motion angående utredning om rätt för hustru att bära sitt eget
-            i stället för mannens släktnamn. (Forts.)
-          </note>
           <note type="speaker" n="4ca61e8c">
             Herr Olsson i Mellerud:
           </note>
-          <u who="gillis_olsson_157002" xml:id="i-a61514d4aae5cbb0-0" next="i-377e24fc1baf1310-0" n="59e94d08">
+          <u who="gillis_olsson_157002" xml:id="i-325c440a72bfe3b6-0" next="i-325c440a72bfe3b6-1" n="59e94d08">
             <seg n="e2bd3038">
               Herr talman! Det finns vissa frågor, som locka fram känslosynpunkter
               och bli bedömda med känsloskäl. När jag kom hit till riksdagen
@@ -2386,14 +2413,14 @@
             </seg>
           </u>
           <pb n="27" facs="https://betalab.kb.se/prot-1943--ak--7/prot_1943__ak__7-027.jp2/_view"/>
-          <note n="1a8d79e7">
+          <note type="date" n="9f635874">
             28 Nr 7. Onsdagen den 24 februari 1943.
           </note>
           <note n="bfc783cc">
             Motion angående utredning om rätt för hustru att bära sitt eget
             i stället för mannens släktnamn. (Forts.)
           </note>
-          <u who="gillis_olsson_157002" xml:id="i-377e24fc1baf1310-0" prev="i-a61514d4aae5cbb0-0" n="59e94d08">
+          <u who="gillis_olsson_157002" xml:id="i-325c440a72bfe3b6-1" prev="i-325c440a72bfe3b6-0" n="59e94d08">
             <seg n="13c07b2b">
               säkerligen kommer att få se denna framställning realiserad i
               en eller annan form. Jag återkommer sålunda till detta: frågan
@@ -2409,7 +2436,7 @@
           <note type="speaker" n="ffab4099">
             Fru Rydh Munck af Rosenschöld:
           </note>
-          <u who="unknown" xml:id="i-2396352020f550e2-1" n="ccf482bb">
+          <u who="unknown" xml:id="i-ccf482bbc2adb090-12" n="ccf482bb">
             <seg n="240f5817">
               Herr talman! J ag ber att i likhet med några av de föregående
               talarna få uttrycka min häpnad över utskottets motivering till
@@ -2470,14 +2497,14 @@
             </seg>
           </u>
           <pb n="28" facs="https://betalab.kb.se/prot-1943--ak--7/prot_1943__ak__7-028.jp2/_view"/>
-          <note n="561926d9">
+          <note type="date" n="52f29ea6">
             Onsdagen den 24 februari 1943. Nr 7. 29
           </note>
           <note n="bfc783cc">
             Motion angående utredning om rätt för hustru att bära sitt eget
             i stället för mannens släktnamn. (Forts.)
           </note>
-          <u who="unknown" xml:id="i-f38369f4d790c52f-1" n="ccf482bb">
+          <u who="unknown" xml:id="i-ccf482bbc2adb090-13" n="ccf482bb">
             <seg n="6fb987bf">
               finna emellertid ofta, att det är med deras yrkesutbildning förenligt,
               ja, för dem i hög grad befrämjande, att alltjämt som i gamla tider
@@ -2545,6 +2572,12 @@
               kompromissande mellan att sköta ett hem och draga försorg om barn
               samt ett arbete utanför hemmet, ett
             </seg>
+          </u>
+          <pb n="29" facs="https://betalab.kb.se/prot-1943--ak--7/prot_1943__ak__7-029.jp2/_view"/>
+          <note type="date" n="597d7b0a">
+            30 Nr 7. Onsdagen den 24 februari 1943.
+          </note>
+          <u who="unknown" xml:id="i-ccf482bbc2adb090-14" n="ccf482bb">
             <seg n="fdaa44bc">
               Motion angående utredning om rätt för hustru att bära sitt eget
               i stället för mannens släktnamn. (Forts.) - arbete, som samhället
@@ -2556,14 +2589,10 @@
               till reservationen.
             </seg>
           </u>
-          <pb n="29" facs="https://betalab.kb.se/prot-1943--ak--7/prot_1943__ak__7-029.jp2/_view"/>
-          <note n="738663b6">
-            30 Nr 7. Onsdagen den 24 februari 1943.
-          </note>
           <note type="speaker" n="243c66fc">
             Herr Hedlund i Östersund:
           </note>
-          <u who="verner_hedlund_9b7cc3" xml:id="i-ce5527a75235198d-1" next="i-aef97cd078a57be8-1" n="2d37e4be">
+          <u who="verner_hedlund_9b7cc3" xml:id="i-2d37e4be4d6a9057-2" next="i-2d37e4be4d6a9057-3" n="2d37e4be">
             <seg n="d80c4122">
               Herr talman! Om en enda kvinna skulle bli lidande av de bestämmelser,
               som finnas i namnfrågan, och om man i minsta mån skulle kunna
@@ -2625,14 +2654,14 @@
             </seg>
           </u>
           <pb n="30" facs="https://betalab.kb.se/prot-1943--ak--7/prot_1943__ak__7-030.jp2/_view"/>
-          <note n="c7b8e4be">
+          <note type="date" n="36be7fae">
             Onsdagen den 24 februari 1943. Nr 7. 31
           </note>
           <note n="72f133c6">
             Motion angående utredning om rätt för hustru att bära sitt eget
             i stället
           </note>
-          <u who="verner_hedlund_9b7cc3" xml:id="i-aef97cd078a57be8-1" prev="i-ce5527a75235198d-1" n="2d37e4be">
+          <u who="verner_hedlund_9b7cc3" xml:id="i-2d37e4be4d6a9057-3" prev="i-2d37e4be4d6a9057-2" n="2d37e4be">
             <seg n="cf015119">
               för mannens släktnamn. (Forts.) ärade talarinnans namn är icke
               bara klangfullt och vackert; det är charmerande, rent av.
@@ -2670,7 +2699,7 @@
             Fru Rydh Munck af Rosenschöld erhöll på begäran ordet för kort
             genmäle och yttrade:
           </note>
-          <u who="unknown" xml:id="i-1c8b2a8ada3afbbe-0" n="ccf482bb">
+          <u who="unknown" xml:id="i-ccf482bbc2adb090-15" n="ccf482bb">
             <seg n="71e6891c">
               Herr talman! Herr Hedlund i Östersund sade sig icke förstå mina
               och andra kvinnors skäl. Vi begära det icke heller, men vi kunna
@@ -2694,7 +2723,7 @@
             Fru Gustafson erhöll jämväl på begäran ordet för kort genmäle
             och anförde:
           </note>
-          <u who="ruth_gustafson_962d17" xml:id="i-1911603302b19999-0" n="bc7f3b8b">
+          <u who="ruth_gustafson_962d17" xml:id="i-bc7f3b8b4df14d0a-2" n="bc7f3b8b">
             <seg n="bb6f04a4">
               Herr talman! Herr Hedlund i Östersund hade vissa funderingar
               om vem som kunde vara mor till ett barn i ett äktenskap där hustrun
@@ -2708,7 +2737,7 @@
             Herr Hedlund i Östersund, som likaledes på begäran erhöll ordet
             för kort genmäle, yttrade:
           </note>
-          <u who="verner_hedlund_9b7cc3" xml:id="i-d0458d4740c619e3-0" n="2d37e4be">
+          <u who="verner_hedlund_9b7cc3" xml:id="i-2d37e4be4d6a9057-4" n="2d37e4be">
             <seg n="5065d617">
               Herr talman! Jag vill replikera fru Rydh, när hon säger, att
               även om jag icke kan förstå motionärernas krav, så bör jag kunna
@@ -2722,7 +2751,7 @@
             </seg>
           </u>
           <pb n="31" facs="https://betalab.kb.se/prot-1943--ak--7/prot_1943__ak__7-031.jp2/_view"/>
-          <note n="c7114022">
+          <note type="date" n="a5fc162b">
             32 Nr 7. Onsdagen den 24 februari 1943.
           </note>
           <note n="bfc783cc">
@@ -2735,7 +2764,7 @@
           <note type="speaker" n="bfcf95b6">
             Fru Ronnebäck:
           </note>
-          <u who="unknown" xml:id="i-1c8b2a8ada3afbbe-1" n="ccf482bb">
+          <u who="unknown" xml:id="i-ccf482bbc2adb090-16" n="ccf482bb">
             <seg n="89a746bb">
               Herr talman! Eftersom mitt namn nämnts i debatten och anförts
               i bevisföringen till förmån för utskottets motivering, skall Jag
@@ -2776,7 +2805,7 @@
           <note type="speaker" n="f5cf1263">
             Herr Kilbom:
           </note>
-          <u who="karl_kilbom_74b627" xml:id="i-baf96fa13e317b3e-0" next="i-89b385e729844ca5-0" n="39e0fd46">
+          <u who="karl_kilbom_74b627" xml:id="i-39e0fd46c419cdc5-0" next="i-39e0fd46c419cdc5-1" n="39e0fd46">
             <seg n="351b9550">
               Herr talman! Då jag föregående år icke var i tillfälle att ge
               tillkänna min mening i denna fråga, skall jag nu be att få ta
@@ -2816,10 +2845,10 @@
             </seg>
           </u>
           <pb n="32" facs="https://betalab.kb.se/prot-1943--ak--7/prot_1943__ak__7-032.jp2/_view"/>
-          <note n="ad645737">
+          <note type="date" n="ba3a8f81">
             Onsdagen den 24 februari 1943. Nr 7. 33
           </note>
-          <u who="karl_kilbom_74b627" xml:id="i-89b385e729844ca5-0" prev="i-baf96fa13e317b3e-0" n="39e0fd46">
+          <u who="karl_kilbom_74b627" xml:id="i-39e0fd46c419cdc5-1" prev="i-39e0fd46c419cdc5-0" n="39e0fd46">
             <seg n="6035a450">
               Motion angående utredning om rätt för hustru att bära sitt eget
               i stället för mannens släktnamn. (Forts.) tiska skäl för att de
@@ -2881,7 +2910,7 @@
           <note type="speaker" n="7ba8596c">
             Herr Hedlund i Rådom, som yttrade:
           </note>
-          <u who="verner_hedlund_9b7cc3" xml:id="i-ce5527a75235198d-2" next="i-aef97cd078a57be8-2" n="2d37e4be">
+          <u who="verner_hedlund_9b7cc3" xml:id="i-2d37e4be4d6a9057-5" next="i-2d37e4be4d6a9057-10" n="2d37e4be">
             <seg n="be856f4f">
               Herr talman! Priserna å sågtimmer sättas vanligen under förra
               hälften av varje avverkningssäsong och bruka därefter icke ändras
@@ -2906,10 +2935,10 @@
             Interpellation.
           </note>
           <pb n="33" facs="https://betalab.kb.se/prot-1943--ak--7/prot_1943__ak__7-033.jp2/_view"/>
-          <note n="db5728a6">
+          <note type="date" n="8f81df23">
             34 Nr 7. Onsdagen den 24 februari 1943.
           </note>
-          <u who="verner_hedlund_9b7cc3" xml:id="i-aef97cd078a57be8-2" prev="i-ce5527a75235198d-2" n="2d37e4be">
+          <u who="verner_hedlund_9b7cc3" xml:id="i-2d37e4be4d6a9057-6" prev="i-2d37e4be4d6a9057-5" n="2d37e4be">
             <seg n="7fb8871a">
               Interpellation. (Forts.) också för övrigt dragits av myndigheterna
               vid normalprissättningen å bl. a. massaved.
@@ -2984,12 +3013,25 @@
               i tekniskt hänseende särskilt framträdande beträffande sågtimret,
               råkar det emellertid
             </seg>
+          </u>
+          <pb n="34" facs="https://betalab.kb.se/prot-1943--ak--7/prot_1943__ak__7-034.jp2/_view"/>
+          <note type="date" n="875eed38">
+            Onsdagen den 24 februari 1943. Nr 7. 35
+          </note>
+          <u who="verner_hedlund_9b7cc3" xml:id="i-2d37e4be4d6a9057-7" prev="i-2d37e4be4d6a9057-5" n="2d37e4be">
             <seg n="ca39ffe9">
               Interpellation. (Forts.) vara så, att behovet av prisreglering
               här icke kan vara särdeles stort. De sågade varorna äro ju underkastade
               normalprisreglering och konsumenterna därför redan skyddade mot
               prisstegringar å dessa förnödenheter.
             </seg>
+          </u>
+          <note n="85dc6a6a">
+            Jag tillåter mig hemställa om kammarens tillstånd att under åberopande
+            av ovanstående till herr statsrådet och chefen för folkhushållningsdepartementet
+            framföra följande frågor:
+          </note>
+          <u who="verner_hedlund_9b7cc3" xml:id="i-2d37e4be4d6a9057-8" prev="i-2d37e4be4d6a9057-5" n="2d37e4be">
             <seg n="d46bb437">
               1) Anser statsrådet tillräckliga skäl föreligga för att landets
               skogsägare skola skriftväxla med statens priskontrollnämnd angående
@@ -3002,6 +3044,14 @@
               2) Om så icke är fallet, är statsrådet beredd att medverka till
               en ändring i detta avseende?
             </seg>
+          </u>
+          <note n="53fa7f1c">
+            Kammaren biföll denna anhållan.
+          </note>
+          <note n="76724dbd">
+            $ 12.
+          </note>
+          <u who="verner_hedlund_9b7cc3" xml:id="i-2d37e4be4d6a9057-9" prev="i-2d37e4be4d6a9057-5" n="2d37e4be">
             <seg n="39df8d96">
               Herr Janson i Frändesta erhöll på begäran ordet och anförde:
               Herr tal- Interpellation. man! De s. k. riksarbetslagen ha under
@@ -3043,6 +3093,13 @@
               i samband därmed, om det dock anses önskvärt att fortsätta på
               den inslagna vägen.
             </seg>
+          </u>
+          <note n="821c196c">
+            På grund av det ovan anförda hemställes om kammarens tillstånd
+            att till herr statsrådet och chefen för socialdepartementet framställa
+            följande frågor:
+          </note>
+          <u who="verner_hedlund_9b7cc3" xml:id="i-2d37e4be4d6a9057-10" prev="i-2d37e4be4d6a9057-5" n="2d37e4be">
             <seg n="f9fb4da4">
               Vilka erfarenheter ha myndigheterna haft av de s. k. riksarbetslagens
               verksamhet, särskilt med hänsyn till rekryteringen och konsekvenserna
@@ -3054,31 +3111,11 @@
               synpunkter?
             </seg>
           </u>
-          <pb n="34" facs="https://betalab.kb.se/prot-1943--ak--7/prot_1943__ak__7-034.jp2/_view"/>
-          <note n="4f6ee129">
-            Onsdagen den 24 februari 1943. Nr 7. 35
-          </note>
-          <note n="85dc6a6a">
-            Jag tillåter mig hemställa om kammarens tillstånd att under åberopande
-            av ovanstående till herr statsrådet och chefen för folkhushållningsdepartementet
-            framföra följande frågor:
-          </note>
-          <note n="53fa7f1c">
-            Kammaren biföll denna anhållan.
-          </note>
-          <note n="76724dbd">
-            $ 12.
-          </note>
-          <note n="821c196c">
-            På grund av det ovan anförda hemställes om kammarens tillstånd
-            att till herr statsrådet och chefen för socialdepartementet framställa
-            följande frågor:
-          </note>
           <note n="3cd1ef29">
             Denna anhållan blev av kammaren bifallen.
           </note>
           <pb n="35" facs="https://betalab.kb.se/prot-1943--ak--7/prot_1943__ak__7-035.jp2/_view"/>
-          <note n="cdf2194b">
+          <note type="date" n="8fb5de79">
             36 Nr 7. Onsdagen den 24 februari 1943.
           </note>
           <note n="7ee511ed">
@@ -3112,10 +3149,10 @@
             In fidem Sune Norrman.
           </note>
           <pb n="36" facs="https://betalab.kb.se/prot-1943--ak--7/prot_1943__ak__7-036.jp2/_view"/>
-          <note n="922af458">
+          <note type="date" n="8591f623">
             Lördagen den 27 februari 1943. Nr 7. 37
           </note>
-          <note n="4a6b6c0c">
+          <note type="date" n="caf579a7">
             Lördagen den 27 februari. Kl. 4 e. m.
           </note>
           <note n="708f2e35">
@@ -3128,7 +3165,7 @@
           <note type="speaker" n="c43e347e">
             Herr statsrådet Wigforss avlämnade Kungl. Maj:
           </note>
-          <u who="ernst_wigforss_5fc519" xml:id="i-c73ce1d1ab077280-1" n="9c0b1ef2">
+          <u who="ernst_wigforss_5fc519" xml:id="i-9c0b1ef2bd046493-1" n="9c0b1ef2">
             <seg n="87e410bf">
               ts propositioner:
             </seg>
@@ -3204,7 +3241,7 @@
           <note type="speaker" n="dd163879">
             Herr Hansson i Skediga, som anförde:
           </note>
-          <u who="per_albin_hansson_01f402" xml:id="i-f6d4201ea20b113d-0" next="i-abb7a373aa7c4728-0" n="9c373bfc">
+          <u who="per_albin_hansson_01f402" xml:id="i-9c373bfc61061e26-0" next="i-9c373bfc61061e26-2" n="9c373bfc">
             <seg n="cbf92ae2">
               Herr talman! Den nuvarande krisen har på många områden fört med
               sig förhållanden, som nödvändiggjort ingripanden från samhällets
@@ -3218,10 +3255,10 @@
             </seg>
           </u>
           <pb n="37" facs="https://betalab.kb.se/prot-1943--ak--7/prot_1943__ak__7-037.jp2/_view"/>
-          <note n="fccb012d">
+          <note type="date" n="ec3d83fc">
             38 Nr 7; Lördagen den 27 februari 1943.
           </note>
-          <u who="per_albin_hansson_01f402" xml:id="i-abb7a373aa7c4728-0" prev="i-f6d4201ea20b113d-0" n="9c373bfc">
+          <u who="per_albin_hansson_01f402" xml:id="i-9c373bfc61061e26-1" prev="i-9c373bfc61061e26-0" n="9c373bfc">
             <seg n="930aaad0">
               Interpellation. (Forts.) met med upprätthållande av biltrafiken
               i för samhället nödvändig omfattning tycks bli mera brännande
@@ -3297,6 +3334,12 @@
               antal lämpliga lastbilar, särskilt beträffande skogsbrukets, byggnadsindustriens,
               försvarets
             </seg>
+          </u>
+          <pb n="38" facs="https://betalab.kb.se/prot-1943--ak--7/prot_1943__ak__7-038.jp2/_view"/>
+          <note type="date" n="093a5def">
+            Lördagen den 27 februari 1943. Nr 7. 39
+          </note>
+          <u who="per_albin_hansson_01f402" xml:id="i-9c373bfc61061e26-2" prev="i-9c373bfc61061e26-0" n="9c373bfc">
             <seg n="b4760ae8">
               Interpellation. (Forts.) och jordbrukets behov, som denna ombyggnadsskyldighet
               säkerligen kommer att åstadkomma?
@@ -3309,10 +3352,6 @@
               i trafiken på stadsgator och permanentbelagda vägar?
             </seg>
           </u>
-          <pb n="38" facs="https://betalab.kb.se/prot-1943--ak--7/prot_1943__ak__7-038.jp2/_view"/>
-          <note n="dd76a4a3">
-            Lördagen den 27 februari 1943. Nr 7. 39
-          </note>
           <note n="53fa7f1c">
             Kammaren biföll denna anhållan.
           </note>
@@ -3322,7 +3361,7 @@
           <note type="speaker" n="cb968520">
             Herr Håstad, som yttrade:
           </note>
-          <u who="unknown" xml:id="i-1c8b2a8ada3afbbe-2" n="ccf482bb">
+          <u who="unknown" xml:id="i-ccf482bbc2adb090-17" n="ccf482bb">
             <seg n="3be93a79">
               Herr talman! 1939 års riksdag beslöt avlåta en skrivelse till
               Kungl. Maj:t med hemställan »om en allsidig och förutsättningslös
@@ -3379,7 +3418,7 @@
             Interpeliation.
           </note>
           <pb n="39" facs="https://betalab.kb.se/prot-1943--ak--7/prot_1943__ak__7-039.jp2/_view"/>
-          <note n="b20b8cd4">
+          <note type="date" n="e971a1f3">
             40 Nr 7. Lördagen den 27 februari 1943.
           </note>
           <note n="75e39822">
@@ -3484,7 +3523,7 @@
             av inträdesåldern för medlemskap i erkända sjukkassor;
           </note>
           <pb n="40" facs="https://betalab.kb.se/prot-1943--ak--7/prot_1943__ak__7-040.jp2/_view"/>
-          <note n="a63a0468">
+          <note type="date" n="e1b300a2">
             Lördagen den 27 februari 1943. Nr 7. 41
           </note>
           <note n="b4f5c8b7">

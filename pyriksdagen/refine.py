@@ -1,5 +1,5 @@
 from lxml import etree
-from pyriksdagen.segmentation import detect_mp, expression_dicts, detect_introduction
+from pyriksdagen.segmentation import detect_mp, expression_dicts, detect_introduction, classify_paragraph
 from pyriksdagen.utils import element_hash
 import re
 import datetime
@@ -17,6 +17,23 @@ def _iter(root):
                 else:
                     yield None
 
+def detect_manual_curations(root):
+    """
+    Re-detect MPs in a parla clarin protocol, based on the (updated)
+    MP database.
+    """
+    current_speaker = None
+    prev = None
+
+    for tag, elem in _iter(root):
+        if elem.attrib.get("n") == "manual":
+            print(elem)
+        if tag == "u":
+            for seg in elem:
+                if seg.attrib.get("n") == "manual":
+                    print(elem)
+
+    return root
 def detect_mps(root, mp_db, pattern_db):
     """
     Re-detect MPs in a parla clarin protocol, based on the (updated)
@@ -115,6 +132,59 @@ def find_introductions(root, pattern_db, names_ids):
                         pass#print("OLD", elem.text)
 
     return root
+
+def reclassify_paragrahps(root, classifier):
+    u = None
+    prev_elem = None
+    for ix, elem_tuple in enumerate(list(_iter(root))):
+
+        print("ix", ix)
+        tag, elem = elem_tuple
+        if tag == "u":
+            u = elem
+            for seg in list(elem):
+                if seg.attrib.get("n") != "manual" and type(seg.text) == str:
+                    prediction = classify_paragraph(paragraph, classifier)
+                    # If the paragraph is predicted to be a <note>
+                    if prediction[0] > prediction[1]:
+                        seg.tag = "{http://www.tei-c.org/ns/1.0}note"
+                        if prev_elem is not None:
+                            prev_elem.addnext(seg)
+                        prev_elem = seg
+                        u = None
+                    # If the paragraph is predicted to be a <seg>
+                    else:
+                        if u is None:
+                            u = etree.Element("{http://www.tei-c.org/ns/1.0}u")
+                            prev_elem.addnext(u)
+
+                        u.append(seg)
+                        prev_elem = u
+                        
+        elif tag == "note":
+            if elem.attrib.get("type") not in ["speaker", "date"] and elem.attrib["n"] is not "manual":
+                if type(elem.text) == str:
+                    paragraph = elem.text
+                    prediction = classify_paragraph(paragraph, classifier)
+                    # If the paragraph is predicted to be a <note>
+                    if prediction[0] > prediction[1]:
+                        u = None
+                        prev_elem = elem
+                    else:
+                        if u is None:
+                            u = etree.Element("{http://www.tei-c.org/ns/1.0}u")
+                            if prev_elem is not None:
+                                prev_elem.addnext(u)
+                            prev_elem = u
+                        elem.tag = "{http://www.tei-c.org/ns/1.0}seg"
+                        u.append(elem)
+                else:
+                    prev_elem = elem
+            else:
+                prev_elem = elem
+
+    return root
+
 
 def format_paragraph(paragraph, spaces = 12):
     words = paragraph.replace("\n", "").strip().split()

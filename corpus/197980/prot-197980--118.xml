@@ -20,7 +20,7 @@
     <encodingDesc>
       <editorialDecl>
         <correction>
-          <p>Some data curation was done. It is documented in db/curation/instances</p>
+          <p>Some data curation was done. It is documented in input/curation/instances</p>
         </correction>
       </editorialDecl>
     </encodingDesc>
@@ -56,10 +56,12 @@
           <docDate when="1979-04-11">1979-04-11</docDate>
           <docDate when="1979-04-14">1979-04-14</docDate>
           <docDate when="1979-04-15">1979-04-15</docDate>
+          <docDate when="1980-04-11">1980-04-11</docDate>
         </div>
       </front>
       <body>
         <div>
+          <pb n="0" facs="https://betalab.kb.se/prot-197980--118/prot_197980__118-000.jp2/_view"/>
           <note n="be197116"/>
           <note n="b39caefe">
             Riksdagens protokoll
@@ -276,7 +278,7 @@
             av Per-Olof Strindberg (m) om svenska hjälpåtgärder till kubaner
             vid den peruanska ambassaden i Havanna ......
           </note>
-          <note n="b3ccc96d">
+          <note type="date" n="1a2b9346">
             Samtliga avgjorda ärenden Torsdagen den 10 april
           </note>
           <note n="98b79f7d">
@@ -337,7 +339,7 @@
           <note n="0c6a8aa1">
             1979/80:118
           </note>
-          <note n="1afc9c4d">
+          <note type="date" n="2aae2ba5">
             Fredagen den 11 april KI. 09.00
           </note>
           <note n="6c52c7e9">
@@ -402,7 +404,7 @@
             En sådan överföring medges
           </note>
           <note n="be197116"/>
-          <note n="8e16bdc9">
+          <note type="date" n="24ac3f2d">
             Fredagen den 11 april 1980
           </note>
           <note n="ced5cb7d">
@@ -416,7 +418,7 @@
           <note n="5588ee63">
             Nr 118
           </note>
-          <note n="8e16bdc9">
+          <note type="date" n="24ac3f2d">
             Fredagen den 11 april 1980
           </note>
           <note n="f9a4f0b0">
@@ -569,7 +571,7 @@
           <note n="5588ee63">
             Nr 118
           </note>
-          <note n="8e16bdc9">
+          <note type="date" n="24ac3f2d">
             Fredagen den 11 april 1980
           </note>
           <note n="1156e159">
@@ -590,7 +592,7 @@
           <note n="5588ee63">
             Nr 118
           </note>
-          <note n="8e16bdc9">
+          <note type="date" n="24ac3f2d">
             Fredagen den 11 april 1980
           </note>
           <note n="1156e159">
@@ -754,7 +756,7 @@
           <note n="5588ee63">
             Nr 118
           </note>
-          <note n="8e16bdc9">
+          <note type="date" n="24ac3f2d">
             Fredagen den 11 april 1980
           </note>
           <note n="4e11190b">
@@ -811,12 +813,12 @@
           <note type="speaker" n="06610095">
             1979/80:
           </note>
-          <u who="unknown" xml:id="i-a84ed82efaed4b97-0" n="1145abb8"/>
+          <u who="unknown" xml:id="i-3d40464a35d0c48c-0" n="1145abb8"/>
           <note type="speaker" n="c332ea31">
             177 av Arne Nygren (s) till arbetsmarknadsministern om arbetsmarknaden
             i Norsjö kommun:
           </note>
-          <u who="arne_nygren_4ac0c2" xml:id="i-88573bfa770fcdc1-0" next="i-1224464ae56314f9-0" n="3d40464a">
+          <u who="arne_nygren_4ac0c2" xml:id="i-3d40464a35d0c48c-1" next="i-3d40464a35d0c48c-4" n="3d40464a">
             <seg n="acef8da7">
               Norsjö kommun i Västerbotten har drabbats mycket hårt av arbetslöshet
               och varsel om nedlagda arbetstillfällen. I kommunen, som har ca
@@ -838,13 +840,13 @@
               få lokaliseringsstöd för behövlig nybyggnad har försvårats på
               grund av bl. a.
             </seg>
-            <seg n="1e16b1fe"/>
           </u>
           <pb n="11" facs="https://betalab.kb.se/prot-197980--118/prot_197980__118-011.jp2/_view"/>
+          <u who="arne_nygren_4ac0c2" xml:id="i-3d40464a35d0c48c-2" prev="i-3d40464a35d0c48c-1" n="3d40464a"/>
           <note n="0ee3897b">
             protester från konkurrenter. Nr 118
           </note>
-          <u who="arne_nygren_4ac0c2" xml:id="i-1224464ae56314f9-0" prev="i-88573bfa770fcdc1-0" n="3d40464a">
+          <u who="arne_nygren_4ac0c2" xml:id="i-3d40464a35d0c48c-3" prev="i-3d40464a35d0c48c-1" n="3d40464a">
             <seg n="b58b878e">
               Om denna utveckling inte stoppas innebär det att samtliga tre
               industrifö- Fredagen den retag i Bastuträsk läggs ned och ortens
@@ -859,6 +861,11 @@
               bl. a. i samband med nedläggningen av gruvdriften i Adak, där
               samhället hade utlovat viss kompensation.
             </seg>
+          </u>
+          <note n="4e11190b">
+            Anmälan av interpellationer
+          </note>
+          <u who="arne_nygren_4ac0c2" xml:id="i-3d40464a35d0c48c-4" prev="i-3d40464a35d0c48c-1" n="3d40464a">
             <seg n="d6499b2f">
               Problemen i Norsjö kommun och särskilt i Bastuträsk samhälle
               är nu så allvarliga att de måste uppmärksammas i regeringen.
@@ -876,21 +883,18 @@
               den höga arbetslösheten i kommunen nedbringas?
             </seg>
           </u>
-          <note n="4e11190b">
-            Anmälan av interpellationer
-          </note>
           <note n="7ecafc1d">
             den 11 april
           </note>
           <note type="speaker" n="06610095">
             1979/80:
           </note>
-          <u who="unknown" xml:id="i-a84ed82efaed4b97-1" n="1145abb8"/>
+          <u who="unknown" xml:id="i-ba045a5cc01950b4-0" n="1145abb8"/>
           <note type="speaker" n="a557abad">
             178 av Rune Jonsson (s) till industriministern om åtgärder för
             att trygga tillgången på råvara till skogsindustrin:
           </note>
-          <u who="rune_jonsson_2fba6e" xml:id="i-abb9be9c77fa3af2-0" next="i-42c943025858c4e4-0" n="ba045a5c">
+          <u who="rune_jonsson_2fba6e" xml:id="i-ba045a5cc01950b4-1" next="i-ba045a5cc01950b4-10" n="ba045a5c">
             <seg n="3f3721d9">
               I samband med att staten blev delägare i skogsägarföretaget NCB
               ingicks en överenskommelse om att skogsägarna skulle trygga industriernas
@@ -927,14 +931,15 @@
               att avverka och därigenom trygga råvaran till fabriker inom skogsindustrin?
               95
             </seg>
-            <seg n="1e16b1fe"/>
-            <seg n="1e16b1fe"/>
           </u>
           <pb n="12" facs="https://betalab.kb.se/prot-197980--118/prot_197980__118-012.jp2/_view"/>
+          <u who="rune_jonsson_2fba6e" xml:id="i-ba045a5cc01950b4-2" prev="i-ba045a5cc01950b4-1" n="ba045a5c">
+            <seg n="1e16b1fe"/>
+          </u>
           <note n="5588ee63">
             Nr 118
           </note>
-          <note n="8e16bdc9">
+          <note type="date" n="24ac3f2d">
             Fredagen den 11 april 1980
           </note>
           <note n="23988486">
@@ -946,21 +951,9 @@
           <note n="d8e2fdf9">
             In fidem BENGT TÖRNELL /Solveig Gemert
           </note>
-          <u who="rune_jonsson_2fba6e" xml:id="i-42c943025858c4e4-0" prev="i-abb9be9c77fa3af2-0" n="ba045a5c">
-            <seg n="1e16b1fe"/>
-            <seg n="0d093030">
-              Biörck, Gunnar, i Värmdö (m) 60 Blächer, Raul (vpk) 38, 42
-            </seg>
-            <seg n="1e16b1fe"/>
-            <seg n="1e16b1fe"/>
-            <seg n="1cc5021b">
-              Romanus, Gabriel (fp) 114
-            </seg>
-            <seg n="1e16b1fe"/>
-            <seg n="1e16b1fe"/>
-            <seg n="1e16b1fe"/>
-          </u>
+          <u who="rune_jonsson_2fba6e" xml:id="i-ba045a5cc01950b4-3" prev="i-ba045a5cc01950b4-1" n="ba045a5c"/>
           <pb n="13" facs="https://betalab.kb.se/prot-197980--118/prot_197980__118-013.jp2/_view"/>
+          <u who="rune_jonsson_2fba6e" xml:id="i-ba045a5cc01950b4-4" prev="i-ba045a5cc01950b4-1" n="ba045a5c"/>
           <note n="40bea9df">
             1979/80 117-120
           </note>
@@ -989,6 +982,11 @@
             Andersson, Georg (s) 14, 15, 16 Andersson, John (vpk) 9, 10,
             11
           </note>
+          <u who="rune_jonsson_2fba6e" xml:id="i-ba045a5cc01950b4-5" prev="i-ba045a5cc01950b4-1" n="ba045a5c">
+            <seg n="0d093030">
+              Biörck, Gunnar, i Värmdö (m) 60 Blächer, Raul (vpk) 38, 42
+            </seg>
+          </u>
           <note n="b39155aa">
             Bråkenhielm, Anita (m) 43, 67, 71, 74 Dahlgren, Anders, jordbruksminister
             11, 13 Ekman, Kerstin (fp) 78
@@ -1058,7 +1056,9 @@
             Måndagen den 14 april Alsén, Hans (s) 101, 106, 107 Bernström,
             Bonnie (fp) 109, 111
           </note>
+          <u who="rune_jonsson_2fba6e" xml:id="i-ba045a5cc01950b4-6" prev="i-ba045a5cc01950b4-1" n="ba045a5c"/>
           <pb n="14" facs="https://betalab.kb.se/prot-197980--118/prot_197980__118-014.jp2/_view"/>
+          <u who="rune_jonsson_2fba6e" xml:id="i-ba045a5cc01950b4-7" prev="i-ba045a5cc01950b4-1" n="ba045a5c"/>
           <note n="8074fb2b">
             Boo, Karl, kommunminister 97
           </note>
@@ -1095,10 +1095,16 @@
           <note n="9ef9bf43">
             Olsson, Gunnar (s) 115, 116
           </note>
+          <u who="rune_jonsson_2fba6e" xml:id="i-ba045a5cc01950b4-8" prev="i-ba045a5cc01950b4-1" n="ba045a5c">
+            <seg n="1cc5021b">
+              Romanus, Gabriel (fp) 114
+            </seg>
+          </u>
           <note n="5a032a9b">
             Wikström, Jan-Erik, utbildningsminister 113, 115, 116, 117, 120,
             121
           </note>
+          <u who="rune_jonsson_2fba6e" xml:id="i-ba045a5cc01950b4-9" prev="i-ba045a5cc01950b4-1" n="ba045a5c"/>
           <note n="40bea9df">
             1979/80 117-120
           </note>
@@ -1109,6 +1115,9 @@
           <note n="00c33269">
             'GOTAB 65133 Stockholm 1980
           </note>
+          <u who="rune_jonsson_2fba6e" xml:id="i-ba045a5cc01950b4-10" prev="i-ba045a5cc01950b4-1" n="ba045a5c">
+            <seg n="1e16b1fe"/>
+          </u>
         </div>
       </body>
     </text>

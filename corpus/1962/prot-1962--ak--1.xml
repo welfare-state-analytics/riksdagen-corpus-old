@@ -20,7 +20,7 @@
     <encodingDesc>
       <editorialDecl>
         <correction>
-          <p>Some data curation was done. It is documented in db/curation/instances</p>
+          <p>Some data curation was done. It is documented in input/curation/instances</p>
         </correction>
       </editorialDecl>
     </encodingDesc>
@@ -53,10 +53,12 @@
         <div type="preface">
           <head>prot-1962--ak--1</head>
           <docDate when="1962-01-10">1962-01-10</docDate>
+          <docDate when="1962-01-11">1962-01-11</docDate>
         </div>
       </front>
       <body>
         <div>
+          <pb n="0" facs="https://betalab.kb.se/prot-1962--ak--1/prot_1962__ak__1-000.jp2/_view"/>
           <note n="c0a19d08">
             RIKSDAGENS
           </note>
@@ -67,7 +69,7 @@
           <note n="d4d065b0">
             10-11 januari
           </note>
-          <note n="dba25ebc">
+          <note type="date" n="21e97ae4">
             Debatter m. m. Onsdagen den 10 januari
           </note>
           <note n="82d4e757">
@@ -130,7 +132,7 @@
           <note n="b6a03def"/>
           <note n="b6a03def"/>
           <pb n="2" facs="https://betalab.kb.se/prot-1962--ak--1/prot_1962__ak__1-002.jp2/_view"/>
-          <note n="20626eae">
+          <note type="date" n="269dc0e1">
             Onsdagen den 10 januari 1962
           </note>
           <note n="4d2738a5">
@@ -144,7 +146,7 @@
           <note n="1e6d6922">
             ordnade samlingssalen.
           </note>
-          <note n="2911b92f">
+          <note type="date" n="41d3a94e">
             Onsdagen den 10 januari Kl. 11.00
           </note>
           <note n="1661cce7">
@@ -262,7 +264,7 @@
             valde fullmäktige i riksbanken och tre bland fullmäktige i riksgäldskontoret
             att närvara vid den granskning av riksdags-
           </note>
-          <note n="20626eae">
+          <note type="date" n="269dc0e1">
             Onsdagen den 10 januari 1962
           </note>
           <note n="bc986491">
@@ -317,7 +319,7 @@
             Vid protokollet var fogade de däri avsedda fullmakterna för byggnadssnic-
           </note>
           <pb n="4" facs="https://betalab.kb.se/prot-1962--ak--1/prot_1962__ak__1-004.jp2/_view"/>
-          <note n="20626eae">
+          <note type="date" n="269dc0e1">
             Onsdagen den 10 januari 1962
           </note>
           <note n="04c39873">
@@ -397,31 +399,17 @@
           <note type="speaker" n="a46d5893">
             Herr TALMANNEN yttrade:
           </note>
-          <u who="unknown" xml:id="i-bfa8c2c5c8022788-0" n="e4863b06"/>
+          <u who="unknown" xml:id="i-e4863b06b42e4f29-0" n="e4863b06"/>
           <note n="1bd7d3a5">
             Herr ålderspresident! Ärade kammarledamöter!
           </note>
-          <u who="unknown" xml:id="i-a9033767a345e2ce-0" n="e4863b06">
+          <u who="unknown" xml:id="i-e4863b06b42e4f29-1" n="e4863b06">
             <seg n="379407b8">
               Å egna och vice talmännens vägnar tackar jag för det stora förtroende
               som visats oss i det nyss förrättade valet.
             </seg>
             <seg n="3cafd030">
               Vår strävan förblir att söka motsvara detta förtroende.
-            </seg>
-            <seg n="a7e816a6">
-              Med stöd av bifogade läkarintyg får jag härmed vördsamt anhålla
-              om ledighet från riksdagsarbetet från den 10/1 tills vidare.
-            </seg>
-            <seg n="1b8b0eb0">
-              Ang. Henry Edvard Brandt, född 10.03.05, Strömma, Rävlanda, som
-              för närvarande är intagen på Borås lasarett för utredning av oklar
-              melaena, som patienten haft sedan 2—3 månaders tid. Då fallet
-              får anses tämligen oklart beräknas vårdtiden preliminärt att sträcka
-              sig kring 3—4 veckors ytterligare vårdtid.
-            </seg>
-            <seg n="1f12e742">
-              nom underrättelse om valets utgång och hälsade honom välkommen.
             </seg>
           </u>
           <note n="e6e644d2">
@@ -453,6 +441,12 @@
           <note n="e85d558b">
             Till Riksdagens andra kammare
           </note>
+          <u who="unknown" xml:id="i-e4863b06b42e4f29-2" n="e4863b06">
+            <seg n="a7e816a6">
+              Med stöd av bifogade läkarintyg får jag härmed vördsamt anhålla
+              om ledighet från riksdagsarbetet från den 10/1 tills vidare.
+            </seg>
+          </u>
           <note n="41ea15ff">
             Charlottenberg den 8 januari: 1962
           </note>
@@ -474,6 +468,15 @@
           <note n="e85d558b">
             Till Riksdagens andra kammare
           </note>
+          <u who="unknown" xml:id="i-e4863b06b42e4f29-3" n="e4863b06">
+            <seg n="1b8b0eb0">
+              Ang. Henry Edvard Brandt, född 10.03.05, Strömma, Rävlanda, som
+              för närvarande är intagen på Borås lasarett för utredning av oklar
+              melaena, som patienten haft sedan 2—3 månaders tid. Då fallet
+              får anses tämligen oklart beräknas vårdtiden preliminärt att sträcka
+              sig kring 3—4 veckors ytterligare vårdtid.
+            </seg>
+          </u>
           <note n="d7b0e107">
             Borås lasarett med. avd. den 8 januari 1962
           </note>
@@ -512,9 +515,14 @@
             Sedan sekreteraren på kallelse infunnit sig, meddelade herr talmannen
             ho-
           </note>
-          <note n="20626eae">
+          <note type="date" n="269dc0e1">
             Onsdagen den 10 januari 1962
           </note>
+          <u who="unknown" xml:id="i-e4863b06b42e4f29-4" n="e4863b06">
+            <seg n="1f12e742">
+              nom underrättelse om valets utgång och hälsade honom välkommen.
+            </seg>
+          </u>
           <note n="db726498">
             Protokollföringen övertogs härefter av sekreteraren.
           </note>
@@ -553,7 +561,7 @@
           <note type="speaker" n="5ff1b4a8">
             Herr TALMANNEN anförde:
           </note>
-          <u who="unknown" xml:id="i-bfa8c2c5c8022788-1" n="e4863b06"/>
+          <u who="unknown" xml:id="i-e4863b06b42e4f29-5" n="e4863b06"/>
           <note n="741bb9bb">
             Till kammarens ledamöter har utdelats en stencilerad plan över
             sammanträdena under tiden 10 januari—2 februari. Därav framgår
@@ -567,73 +575,15 @@
             Kammarens ledamöter åtskildes härefter kl. 12.11. In fidem Sune
             K. Johansson
           </note>
-          <u who="unknown" xml:id="i-a9033767a345e2ce-1" n="e4863b06">
-            <seg n="5e837fc8">
-              Det internationella läget ger även vid öppnandet av årets riksdag
-              anledning till oro och bekymmer. Framför allt gäller detta motsättningarna
-              mellan stormakterna, men tyvärr finnes även många andra konfliktanledningar.
-              Den rådande internationella spänningen har gjort det till en tvingande
-              nödvändighet att vidtaga vissa beredskapsåtgärder inom vårt försvar.
-            </seg>
-            <seg n="1ae83505">
-              Det svenska folket är redo att gemensamt med andra stater efter
-              måttet av sina krafter söka medverka till att åstadkomma fred
-              och ordnade förhållanden. Ett bevis härpå har under det gångna
-              året givits genom de svenska insatserna för det nya självständiga
-              Kongo. Som här nyss erinrats om har vi därvid smärtsamt berörts
-              av Dag Hammarskjölds bortgång och förlusten av övriga svenskar.
-              Jag instämmer i förhoppningen att de som offrat sina liv i Förenta
-              Nationernas och därmed i fredens tjänst icke gjort detta förgäves.
-              Vi delta-
-            </seg>
-            <seg n="2a74a92f">
-              ger i de anhörigas sorg och är förvissade om att de insatser
-              som här gjorts skall bli av bestående värde för fredens sak.
-            </seg>
-            <seg n="b6d61a6b">
-              Ett betydelsefullt led i de fortsatta fredssträvandena utgör
-              verksamheten för bistånd till utvecklingsländerna. I tacksamhet
-              för vår egen gynnade ställning hälsar vi med glädje de förslag
-              om ökade anslag för detta ändamål, som Eders Majestät ämnar förelägga
-              riksdagen.
-            </seg>
-            <seg n="ee5756b9">
-              I den för vårt lands ekonomi så utomordentligt viktiga frågan
-              om förhållandet till den europeiska ekonomiska gemenskapen vill
-              jag uttala förhoppningen att en associering skall kunna ernås
-              med fullt beaktande av vår alliansfria linje.
-            </seg>
-            <seg n="47e56edb">
-              På det inrikespolitiska planet konstaterar vi med stor tillfredsställelse
-              den gynnsamma utveckling som ägt rum, med en god ekonomisk konjunktur
-              och hög sysselsättning, som gett möjligheter till både stegrad
-              konsumtion och ökat sparande. Inflationsrisken och det ansträngda
-              läget på lånemarknaden måste emellertid alltfort ägnas stor uppmärksamhet
-              om vi skall kunna bibehålla den ekonomiska balans, som utgör förutsättningen
-              för bland annat de ytterligare framsteg på samhällslivets skilda
-              områden, som av Eders Majestät nu framlagda förslag innebär. Med
-              tillfredsställelse
-            </seg>
-            <seg n="4eef7fa1">
-              emotses de förebådade reformerna på undervisningsväsendets och
-              forskningens område, likaså den långa raden av socialpolitiska
-              åtgärder: höjning av folkpensionerna, ökat ekonomiskt stöd vid
-              barnsbörd samt åt invalider och handikappade, reformering av försäkringsskyddet
-              vid sjukdom och försök med allmän hälsokontroll. Andra kammaren
-              får vid den ingående och ansvarsmedvetna prövning, som dessa förslag
-              kommer att bli föremål för, tillfälle att medverka till en fortsatt
-              omdaning av vårt samhälle, syftande till ökad trygghet och trivsel
-              för den enskilde medborgaren.
-            </seg>
-          </u>
+          <u who="unknown" xml:id="i-e4863b06b42e4f29-6" n="e4863b06"/>
           <pb n="6" facs="https://betalab.kb.se/prot-1962--ak--1/prot_1962__ak__1-006.jp2/_view"/>
-          <note n="553a0a95">
+          <note type="date" n="22703a4c">
             Torsdagen den 11 januari 1962
           </note>
           <note n="8bda4388">
             Nr 1 7
           </note>
-          <note n="da15023e">
+          <note type="date" n="ab70f427">
             Torsdagen den 11 januari KI. 10.30
           </note>
           <note n="1661cce7">
@@ -698,13 +648,76 @@
           <note n="99ea2ae1">
             Eders Majestät!
           </note>
+          <u who="unknown" xml:id="i-e4863b06b42e4f29-7" n="e4863b06">
+            <seg n="5e837fc8">
+              Det internationella läget ger även vid öppnandet av årets riksdag
+              anledning till oro och bekymmer. Framför allt gäller detta motsättningarna
+              mellan stormakterna, men tyvärr finnes även många andra konfliktanledningar.
+              Den rådande internationella spänningen har gjort det till en tvingande
+              nödvändighet att vidtaga vissa beredskapsåtgärder inom vårt försvar.
+            </seg>
+            <seg n="1ae83505">
+              Det svenska folket är redo att gemensamt med andra stater efter
+              måttet av sina krafter söka medverka till att åstadkomma fred
+              och ordnade förhållanden. Ett bevis härpå har under det gångna
+              året givits genom de svenska insatserna för det nya självständiga
+              Kongo. Som här nyss erinrats om har vi därvid smärtsamt berörts
+              av Dag Hammarskjölds bortgång och förlusten av övriga svenskar.
+              Jag instämmer i förhoppningen att de som offrat sina liv i Förenta
+              Nationernas och därmed i fredens tjänst icke gjort detta förgäves.
+              Vi delta-
+            </seg>
+          </u>
           <pb n="7" facs="https://betalab.kb.se/prot-1962--ak--1/prot_1962__ak__1-007.jp2/_view"/>
           <note n="621e299c">
             8 Nr 1
           </note>
-          <note n="553a0a95">
+          <u who="unknown" xml:id="i-e4863b06b42e4f29-8" n="e4863b06">
+            <seg n="2a74a92f">
+              ger i de anhörigas sorg och är förvissade om att de insatser
+              som här gjorts skall bli av bestående värde för fredens sak.
+            </seg>
+            <seg n="b6d61a6b">
+              Ett betydelsefullt led i de fortsatta fredssträvandena utgör
+              verksamheten för bistånd till utvecklingsländerna. I tacksamhet
+              för vår egen gynnade ställning hälsar vi med glädje de förslag
+              om ökade anslag för detta ändamål, som Eders Majestät ämnar förelägga
+              riksdagen.
+            </seg>
+            <seg n="ee5756b9">
+              I den för vårt lands ekonomi så utomordentligt viktiga frågan
+              om förhållandet till den europeiska ekonomiska gemenskapen vill
+              jag uttala förhoppningen att en associering skall kunna ernås
+              med fullt beaktande av vår alliansfria linje.
+            </seg>
+            <seg n="47e56edb">
+              På det inrikespolitiska planet konstaterar vi med stor tillfredsställelse
+              den gynnsamma utveckling som ägt rum, med en god ekonomisk konjunktur
+              och hög sysselsättning, som gett möjligheter till både stegrad
+              konsumtion och ökat sparande. Inflationsrisken och det ansträngda
+              läget på lånemarknaden måste emellertid alltfort ägnas stor uppmärksamhet
+              om vi skall kunna bibehålla den ekonomiska balans, som utgör förutsättningen
+              för bland annat de ytterligare framsteg på samhällslivets skilda
+              områden, som av Eders Majestät nu framlagda förslag innebär. Med
+              tillfredsställelse
+            </seg>
+          </u>
+          <note type="date" n="22703a4c">
             Torsdagen den 11 januari 1962
           </note>
+          <u who="unknown" xml:id="i-e4863b06b42e4f29-9" n="e4863b06">
+            <seg n="4eef7fa1">
+              emotses de förebådade reformerna på undervisningsväsendets och
+              forskningens område, likaså den långa raden av socialpolitiska
+              åtgärder: höjning av folkpensionerna, ökat ekonomiskt stöd vid
+              barnsbörd samt åt invalider och handikappade, reformering av försäkringsskyddet
+              vid sjukdom och försök med allmän hälsokontroll. Andra kammaren
+              får vid den ingående och ansvarsmedvetna prövning, som dessa förslag
+              kommer att bli föremål för, tillfälle att medverka till en fortsatt
+              omdaning av vårt samhälle, syftande till ökad trygghet och trivsel
+              för den enskilde medborgaren.
+            </seg>
+          </u>
           <note n="cc2c3232">
             Andra kammaren betygar Eders Majestät sin undersåtliga vördnad.
           </note>

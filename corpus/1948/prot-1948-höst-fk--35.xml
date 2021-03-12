@@ -20,7 +20,7 @@
     <encodingDesc>
       <editorialDecl>
         <correction>
-          <p>Some data curation was done. It is documented in db/curation/instances</p>
+          <p>Some data curation was done. It is documented in input/curation/instances</p>
         </correction>
       </editorialDecl>
     </encodingDesc>
@@ -59,6 +59,7 @@
       </front>
       <body>
         <div>
+          <pb n="0" facs="https://betalab.kb.se/prot-1948-höst-fk--35/prot_1948_höst_fk__35-000.jp2/_view"/>
           <note n="5b072623">
             RIKSDAGENS PROTOKOLL
           </note>
@@ -92,7 +93,7 @@
             1 Första kammarens protokoll 1948. Nr 35.
           </note>
           <pb n="2" facs="https://betalab.kb.se/prot-1948-höst-fk--35/prot_1948_höst_fk__35-002.jp2/_view"/>
-          <note n="4016d861">
+          <note type="date" n="aca5b375">
             Tisdagen den 9 november 1948.
           </note>
           <note n="203e8a6e">
@@ -164,7 +165,7 @@
           <note n="633c1ecd">
             4 Nr 35.
           </note>
-          <note n="400148f9">
+          <note type="date" n="aa60b61c">
             Onsdagen den 10 november 1948.
           </note>
           <note type="date" n="5ea348b3">
@@ -182,7 +183,7 @@
           <note type="speaker" n="ec00c6ce">
             Herr förste vice talmannen erhöll på begäran ordet och anförde:
           </note>
-          <u who="unknown" xml:id="i-58cdca49afbf504c-0" n="fd321a12">
+          <u who="unknown" xml:id="i-fd321a121cdfce51-0" n="fd321a12">
             <seg n="1f8e77a6">
               Herr talman! Lordkanslern i brittiska överhuset och speakern
               (talmannen) i brittiska underhuset ha i skrivelser av den 28 sistlidne
@@ -239,7 +240,7 @@
           <note type="speaker" n="813bd853">
             Herr MANNERSKANTZ erhöll på begäran ordet och anförde:
           </note>
-          <u who="axel_mannerskantz_5968d4" xml:id="i-1ea539523f2623ed-0" next="i-6d35a9bf8c7dee7d-0" n="1499ad7f">
+          <u who="axel_mannerskantz_5968d4" xml:id="i-1499ad7fad82ca5d-0" next="i-1499ad7fad82ca5d-3" n="1499ad7f">
             <seg n="99f51413">
               Herr talman! Årets vårriksdag beslöt i skrivelse till Kungl.
               Maj:t anhålla om en översyn av gällande lagstiftning om skattebegränsning
@@ -259,13 +260,13 @@
             </seg>
           </u>
           <pb n="4" facs="https://betalab.kb.se/prot-1948-höst-fk--35/prot_1948_höst_fk__35-004.jp2/_view"/>
-          <note n="400148f9">
+          <note type="date" n="aa60b61c">
             Onsdagen den 10 november 1948.
           </note>
           <note n="f97601d8">
             Nr 35. 5
           </note>
-          <u who="axel_mannerskantz_5968d4" xml:id="i-6d35a9bf8c7dee7d-0" prev="i-1ea539523f2623ed-0" n="1499ad7f">
+          <u who="axel_mannerskantz_5968d4" xml:id="i-1499ad7fad82ca5d-1" prev="i-1499ad7fad82ca5d-0" n="1499ad7f">
             <seg n="4118ae57">
               Interpellation om brottslighetens bekämpande medelst skärpta
               straff.
@@ -308,6 +309,12 @@
               departementet få framställa följande frågor: Vad är anledningen
               till att den av
             </seg>
+          </u>
+          <note n="ca437d8b">
+            riksdagen begärda översynen av gällande lagstiftning om skattebegränsning
+            i syfte att möjliggöra den s. k. skattespär-
+          </note>
+          <u who="axel_mannerskantz_5968d4" xml:id="i-1499ad7fad82ca5d-2" prev="i-1499ad7fad82ca5d-0" n="1499ad7f">
             <seg n="f0832ae0">
               rens tillämpning redan i fråga om den preliminära skatten ännu
               icke verkställts?
@@ -317,24 +324,22 @@
               denna översyn, så att därav betingade förslag kunna föreläggas
               innevarande års riksdag?
             </seg>
+          </u>
+          <note n="470811f0">
+            På gjord proposition medgav kammaren, att ifrågavarande spörsmål
+            finge framställas.
+          </note>
+          <u who="axel_mannerskantz_5968d4" xml:id="i-1499ad7fad82ca5d-3" prev="i-1499ad7fad82ca5d-0" n="1499ad7f">
             <seg n="4118ae57">
               Interpellation om brottslighetens bekämpande medelst skärpta
               straff.
             </seg>
           </u>
-          <note n="ca437d8b">
-            riksdagen begärda översynen av gällande lagstiftning om skattebegränsning
-            i syfte att möjliggöra den s. k. skattespär-
-          </note>
-          <note n="470811f0">
-            På gjord proposition medgav kammaren, att ifrågavarande spörsmål
-            finge framställas.
-          </note>
           <note type="speaker" n="d2964e72">
             Ordet lämnades härefter på begäran till herr ELOFSSON, GUSTAF,
             som vttrade:
           </note>
-          <u who="gustaf_elofsson_b517a0" xml:id="i-97af1d86ec817c9f-0" next="i-a918f8c7da74da37-0" n="f3f833aa">
+          <u who="gustaf_elofsson_b517a0" xml:id="i-f3f833aa8bcab3f9-0" next="i-f3f833aa8bcab3f9-1" n="f3f833aa">
             <seg n="312f391d">
               Herr talman! Under den senaste tiden har brottsligheten inom
               vårt land på ett oroväckande sätt ökat; mord, rån, överfall, rymningar
@@ -374,10 +379,10 @@
           <note n="d24aefba">
             6 Nr 35.
           </note>
-          <note n="51774682">
+          <note type="date" n="d6982d49">
             Lördagen den 13 november 1948.
           </note>
-          <u who="gustaf_elofsson_b517a0" xml:id="i-a918f8c7da74da37-0" prev="i-97af1d86ec817c9f-0" n="f3f833aa">
+          <u who="gustaf_elofsson_b517a0" xml:id="i-f3f833aa8bcab3f9-1" prev="i-f3f833aa8bcab3f9-0" n="f3f833aa">
             <seg n="4118ae57">
               Interpellation om brottslighetens bekämpande medelst skärpta
               straff.

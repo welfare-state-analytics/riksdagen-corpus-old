@@ -20,7 +20,7 @@
     <encodingDesc>
       <editorialDecl>
         <correction>
-          <p>Some data curation was done. It is documented in db/curation/instances</p>
+          <p>Some data curation was done. It is documented in input/curation/instances</p>
         </correction>
       </editorialDecl>
     </encodingDesc>
@@ -53,6 +53,7 @@
         <div type="preface">
           <head>prot-198485--43</head>
           <docDate when="1984-11-28">1984-11-28</docDate>
+          <docDate when="1984-11-29">1984-11-29</docDate>
           <docDate when="1984-11-30">1984-11-30</docDate>
           <docDate when="1984-12-03">1984-12-03</docDate>
           <docDate when="1984-12-04">1984-12-04</docDate>
@@ -60,6 +61,7 @@
       </front>
       <body>
         <div>
+          <pb n="0" facs="https://betalab.kb.se/prot-198485--43/prot_198485__43-000.jp2/_view"/>
           <note n="f751ea61"/>
           <note n="f751ea61"/>
           <note n="962d3c55">
@@ -70,7 +72,7 @@
             1984/85:40-43 29 november-4 december 1984
           </note>
           <note n="f751ea61"/>
-          <note n="5199ea5c">
+          <note type="date" n="31d2d0c4">
             Debatter m. m. Torsdagen den 29 november
           </note>
           <note n="fe41ce92">
@@ -208,7 +210,7 @@
           <pb n="2" facs="https://betalab.kb.se/prot-198485--43/prot_198485__43-002.jp2/_view"/>
           <note n="f751ea61"/>
           <note n="f751ea61"/>
-          <note n="4a53eaf0">
+          <note type="date" n="a43eb177">
             Tisdagen den 4 december 1984/85
           </note>
           <note n="6cb29cb1">
@@ -278,7 +280,7 @@
             1984/85:278 av Kenth Skårvik (fp) om situationen i Uganda ...
             130
           </note>
-          <note n="7ede11ed">
+          <note type="date" n="fd883611">
             Avgjorda ärenden Torsdagen den 29 november
           </note>
           <note n="25dbe3d3">
@@ -340,7 +342,7 @@
           <note n="c7899bf7">
             Nr 43
           </note>
-          <note n="2f7e161c">
+          <note type="date" n="267b18fe">
             Tisdagen den 4 december 1984
           </note>
           <note n="fd626794">
@@ -349,7 +351,7 @@
           <note n="fe64405e">
             1984/85:43 Östergötland
           </note>
-          <note n="d15d1773">
+          <note type="date" n="2623b7e3">
             Tisdagen den 4 december KI. 15.00
           </note>
           <note n="0c9265fc">
@@ -397,7 +399,7 @@
           <note n="c7899bf7">
             Nr 43
           </note>
-          <note n="2f7e161c">
+          <note type="date" n="267b18fe">
             Tisdagen den 4 december 1984
           </note>
           <note n="f751ea61"/>
@@ -440,7 +442,7 @@
           <note type="speaker" n="d6eba156">
             Anf. 2 AGNE HANSSON (c):
           </note>
-          <u who="agne_hansson_a20cf7" xml:id="i-e1ed8bcb5f0662de-0" next="i-0d59ee20b3adb658-0" n="131142be">
+          <u who="agne_hansson_a20cf7" xml:id="i-bbfdbada490e15e1-0" next="i-bbfdbada490e15e1-2" n="131142be">
             <seg n="bb74735b">
               Herr talman! Jag vill tacka industriministern för svaret. Av
               svaret framgår att sydöstra Sverige skulle ha prioriterats vid
@@ -479,7 +481,9 @@
               medel
             </seg>
             <seg n="48cd55a7"/>
-            <seg n="48cd55a7"/>
+          </u>
+          <pb n="6" facs="https://betalab.kb.se/prot-198485--43/prot_198485__43-006.jp2/_view"/>
+          <u who="agne_hansson_a20cf7" xml:id="i-bbfdbada490e15e1-1" prev="i-bbfdbada490e15e1-0" n="131142be">
             <seg n="9e2dce0d">
               för detta område. Som svar på den andra delfrågan säger industriministern
               att han inte är beredd att nu vidta några åtgärder eller att avslöja
@@ -493,11 +497,10 @@
               område. Är industriministern beredd att göra det?
             </seg>
           </u>
-          <pb n="6" facs="https://betalab.kb.se/prot-198485--43/prot_198485__43-006.jp2/_view"/>
           <note n="52b4f056">
             Anf. 3 Industriminister THAGE PETERSON:
           </note>
-          <u who="agne_hansson_a20cf7" xml:id="i-0d59ee20b3adb658-0" prev="i-e1ed8bcb5f0662de-0" n="131142be">
+          <u who="agne_hansson_a20cf7" xml:id="i-bbfdbada490e15e1-2" prev="i-bbfdbada490e15e1-0" n="131142be">
             <seg n="ffd579f4">
               Herr talman! Det är inte så att regeringen har lämnat inre Småland
               och södra Östergötland utan insatser, Agne Hansson. Jag ber att
@@ -547,7 +550,7 @@
           <note type="speaker" n="7630a714">
             Anf. 4 AGNE HANSSON (c):
           </note>
-          <u who="agne_hansson_a20cf7" xml:id="i-e1ed8bcb5f0662de-1" next="i-0d59ee20b3adb658-1" n="131142be">
+          <u who="agne_hansson_a20cf7" xml:id="i-bbfdbada490e15e1-3" next="i-bbfdbada490e15e1-8" n="131142be">
             <seg n="a0ef5bee">
               Herr talman! Jag är medveten om att det har gjorts punktinsatser
               både nu och tidigare. Ibland, när man ser att regeringen lägger
@@ -565,18 +568,36 @@
           <note n="c7899bf7">
             Nr 43
           </note>
-          <note n="2f7e161c">
+          <note type="date" n="267b18fe">
             Tisdagen den 4 december 1984
           </note>
-          <u who="agne_hansson_a20cf7" xml:id="i-0d59ee20b3adb658-1" prev="i-e1ed8bcb5f0662de-1" n="131142be">
+          <u who="agne_hansson_a20cf7" xml:id="i-bbfdbada490e15e1-4" prev="i-bbfdbada490e15e1-3" n="131142be">
             <seg n="3a30605f">
               Om regionalpolitiska insatser iinre Småland och södra Östergötland
             </seg>
+          </u>
+          <note n="97ef277f">
+            105
+          </note>
+          <u who="agne_hansson_a20cf7" xml:id="i-bbfdbada490e15e1-5" prev="i-bbfdbada490e15e1-3" n="131142be">
             <seg n="48cd55a7"/>
-            <seg n="48cd55a7"/>
+          </u>
+          <pb n="7" facs="https://betalab.kb.se/prot-198485--43/prot_198485__43-007.jp2/_view"/>
+          <note n="c7899bf7">
+            Nr 43
+          </note>
+          <note type="date" n="267b18fe">
+            Tisdagen den 4 december 1984
+          </note>
+          <u who="agne_hansson_a20cf7" xml:id="i-bbfdbada490e15e1-6" prev="i-bbfdbada490e15e1-3" n="131142be">
             <seg n="a7346a5a">
               Om regionalpolitiska insatser i inre Småland och södra Östergötland
             </seg>
+          </u>
+          <note n="48b3de98">
+            106
+          </note>
+          <u who="agne_hansson_a20cf7" xml:id="i-bbfdbada490e15e1-7" prev="i-bbfdbada490e15e1-3" n="131142be">
             <seg n="704290b8">
               likartad utvecklingsstruktur. Hittillsvarande utveckling — med
               en befolkningsminskning på över 37 000 människor sedan 1960 —
@@ -602,6 +623,11 @@
               här område.
             </seg>
             <seg n="48cd55a7"/>
+          </u>
+          <note n="1013f603">
+            Anf. 5 Industriminister THAGE PETERSON:
+          </note>
+          <u who="agne_hansson_a20cf7" xml:id="i-bbfdbada490e15e1-8" prev="i-bbfdbada490e15e1-3" n="131142be">
             <seg n="b49e5dce">
               Herr talman! Jag har påmint herr Hansson om att regeringen ingalunda
               har glömt bort inre Småland och södra Östergötland. Jag gav flera
@@ -626,26 +652,10 @@
               regeringsperioden.
             </seg>
           </u>
-          <note n="97ef277f">
-            105
-          </note>
-          <pb n="7" facs="https://betalab.kb.se/prot-198485--43/prot_198485__43-007.jp2/_view"/>
-          <note n="c7899bf7">
-            Nr 43
-          </note>
-          <note n="2f7e161c">
-            Tisdagen den 4 december 1984
-          </note>
-          <note n="48b3de98">
-            106
-          </note>
-          <note n="1013f603">
-            Anf. 5 Industriminister THAGE PETERSON:
-          </note>
           <note type="speaker" n="e9e0e2fb">
             Anf. 6 AGNE HANSSON (c):
           </note>
-          <u who="agne_hansson_a20cf7" xml:id="i-e1ed8bcb5f0662de-2" next="i-0d59ee20b3adb658-2" n="131142be">
+          <u who="agne_hansson_a20cf7" xml:id="i-bbfdbada490e15e1-9" next="i-bbfdbada490e15e1-12" n="131142be">
             <seg n="5b501306">
               Herr talman! Regeringen har inte glömt bort området, säger industriministern.
               Men varför har då inte regeringen gett särskilda medel för regionala
@@ -661,8 +671,17 @@
           <note n="ca4adb69">
             Överläggningen var härmed avslutad.
           </note>
-          <u who="agne_hansson_a20cf7" xml:id="i-0d59ee20b3adb658-2" prev="i-e1ed8bcb5f0662de-2" n="131142be">
-            <seg n="48cd55a7"/>
+          <u who="agne_hansson_a20cf7" xml:id="i-bbfdbada490e15e1-10" prev="i-bbfdbada490e15e1-9" n="131142be"/>
+          <pb n="8" facs="https://betalab.kb.se/prot-198485--43/prot_198485__43-008.jp2/_view"/>
+          <u who="agne_hansson_a20cf7" xml:id="i-bbfdbada490e15e1-11" prev="i-bbfdbada490e15e1-9" n="131142be"/>
+          <note n="1925ab00">
+            4 $ Svar på fråga 1984/85:222 om beställning i Norge av en ny
+            tågfärja
+          </note>
+          <note n="2b76dd3f">
+            Anf. 7 Industriminister THAGE PETERSON:
+          </note>
+          <u who="agne_hansson_a20cf7" xml:id="i-bbfdbada490e15e1-12" prev="i-bbfdbada490e15e1-9" n="131142be">
             <seg n="9a7fe524">
               Herr talman! Wiggo Komstedt har frågat mig varför regeringen
               uppmanar privata företag att ta ansvaret för sysselsättningen
@@ -689,18 +708,10 @@
               deras möjligheter att lindra problemen i denna region.
             </seg>
           </u>
-          <pb n="8" facs="https://betalab.kb.se/prot-198485--43/prot_198485__43-008.jp2/_view"/>
-          <note n="1925ab00">
-            4 $ Svar på fråga 1984/85:222 om beställning i Norge av en ny
-            tågfärja
-          </note>
-          <note n="2b76dd3f">
-            Anf. 7 Industriminister THAGE PETERSON:
-          </note>
           <note type="speaker" n="ffd0945e">
             Anf. 8 WIGGO KOMSTEDT (m):
           </note>
-          <u who="wiggo_komstedt_c9b1f7" xml:id="i-56a7af95e2a59283-0" next="i-de9b378136de671a-0" n="67c12086">
+          <u who="wiggo_komstedt_c9b1f7" xml:id="i-75bd8f79bbf0a6aa-0" next="i-75bd8f79bbf0a6aa-5" n="67c12086">
             <seg n="6a065992">
               Herr talman! Jag ber att få tacka statsrådet för svaret.
             </seg>
@@ -744,23 +755,48 @@
           <note n="c7899bf7">
             Nr 43
           </note>
-          <note n="2f7e161c">
+          <note type="date" n="267b18fe">
             Tisdagen den 4 december 1984
           </note>
           <note n="2950b9fe">
             Om beställning i
           </note>
-          <u who="wiggo_komstedt_c9b1f7" xml:id="i-de9b378136de671a-0" prev="i-56a7af95e2a59283-0" n="67c12086">
+          <u who="wiggo_komstedt_c9b1f7" xml:id="i-75bd8f79bbf0a6aa-1" prev="i-75bd8f79bbf0a6aa-0" n="67c12086">
             <seg n="cf542c22">
               Norge av en ny tågfärja
             </seg>
+          </u>
+          <note n="0dc4bbd2">
+            107
+          </note>
+          <u who="wiggo_komstedt_c9b1f7" xml:id="i-75bd8f79bbf0a6aa-2" prev="i-75bd8f79bbf0a6aa-0" n="67c12086">
             <seg n="48cd55a7"/>
+          </u>
+          <pb n="9" facs="https://betalab.kb.se/prot-198485--43/prot_198485__43-009.jp2/_view"/>
+          <u who="wiggo_komstedt_c9b1f7" xml:id="i-75bd8f79bbf0a6aa-3" prev="i-75bd8f79bbf0a6aa-0" n="67c12086">
             <seg n="48cd55a7"/>
-            <seg n="48cd55a7"/>
-            <seg n="48cd55a7"/>
+          </u>
+          <note n="c7899bf7">
+            Nr 43
+          </note>
+          <note type="date" n="267b18fe">
+            Tisdagen den 4 december 1984
+          </note>
+          <note n="2950b9fe">
+            Om beställning i
+          </note>
+          <u who="wiggo_komstedt_c9b1f7" xml:id="i-75bd8f79bbf0a6aa-4" prev="i-75bd8f79bbf0a6aa-0" n="67c12086">
             <seg n="cf542c22">
               Norge av en ny tågfärja
             </seg>
+          </u>
+          <note n="f48c48f3">
+            108
+          </note>
+          <note n="e415aa55">
+            Anf. 9 Industriminister THAGE PETERSON:
+          </note>
+          <u who="wiggo_komstedt_c9b1f7" xml:id="i-75bd8f79bbf0a6aa-5" prev="i-75bd8f79bbf0a6aa-0" n="67c12086">
             <seg n="df66feaa">
               Herr talman! Möjligen får herr Komstedt bestämma sig för vilken
               fråga han har ställt och vilket statsråd han vill ställa den till.
@@ -815,29 +851,10 @@
               ha som grund för mitt handlande i företagskontaktsfrågor.
             </seg>
           </u>
-          <note n="0dc4bbd2">
-            107
-          </note>
-          <pb n="9" facs="https://betalab.kb.se/prot-198485--43/prot_198485__43-009.jp2/_view"/>
-          <note n="c7899bf7">
-            Nr 43
-          </note>
-          <note n="2f7e161c">
-            Tisdagen den 4 december 1984
-          </note>
-          <note n="2950b9fe">
-            Om beställning i
-          </note>
-          <note n="f48c48f3">
-            108
-          </note>
-          <note n="e415aa55">
-            Anf. 9 Industriminister THAGE PETERSON:
-          </note>
           <note type="speaker" n="2ae3e8a6">
             Anf. 10 WIGGO KOMSTEDT (m):
           </note>
-          <u who="wiggo_komstedt_c9b1f7" xml:id="i-56a7af95e2a59283-1" next="i-de9b378136de671a-1" n="67c12086">
+          <u who="wiggo_komstedt_c9b1f7" xml:id="i-75bd8f79bbf0a6aa-6" next="i-75bd8f79bbf0a6aa-8" n="67c12086">
             <seg n="ab5cb06a">
               Herr talman! Statsrådet säger att det här är den underligaste
               fråga som han har fått under hela sin tid som minister.
@@ -855,7 +872,9 @@
             </seg>
             <seg n="48cd55a7"/>
             <seg n="48cd55a7"/>
-            <seg n="48cd55a7"/>
+          </u>
+          <pb n="10" facs="https://betalab.kb.se/prot-198485--43/prot_198485__43-010.jp2/_view"/>
+          <u who="wiggo_komstedt_c9b1f7" xml:id="i-75bd8f79bbf0a6aa-7" prev="i-75bd8f79bbf0a6aa-6" n="67c12086">
             <seg n="48cd55a7"/>
             <seg n="d76382b5">
               i Norge och att parallellt med detta ett statligt varvsföretag
@@ -883,11 +902,10 @@
               att ni vet någonting om vad var och en gör.
             </seg>
           </u>
-          <pb n="10" facs="https://betalab.kb.se/prot-198485--43/prot_198485__43-010.jp2/_view"/>
           <note n="3f09b5d0">
             Anf. 11 Industriminister THAGE PETERSON:
           </note>
-          <u who="wiggo_komstedt_c9b1f7" xml:id="i-de9b378136de671a-1" prev="i-56a7af95e2a59283-1" n="67c12086">
+          <u who="wiggo_komstedt_c9b1f7" xml:id="i-75bd8f79bbf0a6aa-8" prev="i-75bd8f79bbf0a6aa-6" n="67c12086">
             <seg n="ac6df598">
               Herr talman! Det är på gränsen till omöjligt att reda ut vilken
               fråga som Wiggo Komstedt egentligen vill ha svar på. När denna
@@ -916,7 +934,7 @@
           <note type="speaker" n="a879b7df">
             Anf. 12 WIGGO KOMSTEDT (m):
           </note>
-          <u who="wiggo_komstedt_c9b1f7" xml:id="i-56a7af95e2a59283-2" next="i-de9b378136de671a-2" n="67c12086">
+          <u who="wiggo_komstedt_c9b1f7" xml:id="i-75bd8f79bbf0a6aa-9" next="i-75bd8f79bbf0a6aa-14" n="67c12086">
             <seg n="021708e9">
               Herr talman! Jag vet vilket statsråd jag har frågat. Bekymret
               är att regeringen har väldigt svårt att bestämma vem den skall
@@ -935,20 +953,44 @@
               besked på den punkten?
             </seg>
           </u>
-          <note n="d54b4cef">
+          <note type="date" n="69542598">
             Nr 43 Tisdagen den 4 december 1984
           </note>
-          <u who="wiggo_komstedt_c9b1f7" xml:id="i-de9b378136de671a-2" prev="i-56a7af95e2a59283-2" n="67c12086">
+          <u who="wiggo_komstedt_c9b1f7" xml:id="i-75bd8f79bbf0a6aa-10" prev="i-75bd8f79bbf0a6aa-9" n="67c12086">
             <seg n="efdad8e9">
               Om beställning i Norge av en ny tåg-
             </seg>
+          </u>
+          <note n="8134809e">
+            färja
+          </note>
+          <note n="7e7c7159">
+            109
+          </note>
+          <u who="wiggo_komstedt_c9b1f7" xml:id="i-75bd8f79bbf0a6aa-11" prev="i-75bd8f79bbf0a6aa-9" n="67c12086">
             <seg n="48cd55a7"/>
-            <seg n="48cd55a7"/>
-            <seg n="48cd55a7"/>
+          </u>
+          <pb n="11" facs="https://betalab.kb.se/prot-198485--43/prot_198485__43-011.jp2/_view"/>
+          <u who="wiggo_komstedt_c9b1f7" xml:id="i-75bd8f79bbf0a6aa-12" prev="i-75bd8f79bbf0a6aa-9" n="67c12086"/>
+          <note n="c7899bf7">
+            Nr 43
+          </note>
+          <note type="date" n="267b18fe">
+            Tisdagen den 4 december 1984
+          </note>
+          <u who="wiggo_komstedt_c9b1f7" xml:id="i-75bd8f79bbf0a6aa-13" prev="i-75bd8f79bbf0a6aa-9" n="67c12086">
             <seg n="45ddfc1d">
               Om remissbehandlingen av betänkandet” Regional utveckling och
               mellanregional utjämning”
             </seg>
+          </u>
+          <note n="f5d48137">
+            110
+          </note>
+          <note n="2f7cecdd">
+            Anf. 13 Industriminister THAGE PETERSON:
+          </note>
+          <u who="wiggo_komstedt_c9b1f7" xml:id="i-75bd8f79bbf0a6aa-14" prev="i-75bd8f79bbf0a6aa-9" n="67c12086">
             <seg n="fd87075e">
               Herr talman! Jag läser återigen den fråga som Wiggo Komstedt
               har undertecknat. Efter den inledande texten frågar han varför
@@ -970,29 +1012,10 @@
               mycket luddiga fråga.
             </seg>
           </u>
-          <note n="8134809e">
-            färja
-          </note>
-          <note n="7e7c7159">
-            109
-          </note>
-          <pb n="11" facs="https://betalab.kb.se/prot-198485--43/prot_198485__43-011.jp2/_view"/>
-          <note n="c7899bf7">
-            Nr 43
-          </note>
-          <note n="2f7e161c">
-            Tisdagen den 4 december 1984
-          </note>
-          <note n="f5d48137">
-            110
-          </note>
-          <note n="2f7cecdd">
-            Anf. 13 Industriminister THAGE PETERSON:
-          </note>
           <note type="speaker" n="84a1f95d">
             Anf. 14 WIGGO KOMSTEDT (m):
           </note>
-          <u who="wiggo_komstedt_c9b1f7" xml:id="i-56a7af95e2a59283-3" next="i-de9b378136de671a-3" n="67c12086">
+          <u who="wiggo_komstedt_c9b1f7" xml:id="i-75bd8f79bbf0a6aa-15" next="i-75bd8f79bbf0a6aa-17" n="67c12086">
             <seg n="4e5db517">
               Herr talman! Nej, statsrådets svar är inte alls besvärande. Jag
               har nämligen
@@ -1008,7 +1031,11 @@
             5 $ Svar på fråga 1984/85:244 om remissbehandlingen av betänkandet
             ”Regional utveckling och mellanregional utjämning”
           </note>
-          <u who="wiggo_komstedt_c9b1f7" xml:id="i-de9b378136de671a-3" prev="i-56a7af95e2a59283-3" n="67c12086">
+          <u who="wiggo_komstedt_c9b1f7" xml:id="i-75bd8f79bbf0a6aa-16" prev="i-75bd8f79bbf0a6aa-15" n="67c12086"/>
+          <note n="7b39d128">
+            Anf. 15 Industriminister THAGE PETERSON:
+          </note>
+          <u who="wiggo_komstedt_c9b1f7" xml:id="i-75bd8f79bbf0a6aa-17" prev="i-75bd8f79bbf0a6aa-15" n="67c12086">
             <seg n="f6479d9f">
               Herr talman! Per-Ola Eriksson har frågat mig vad avsikten är
               med påpekandet — som gjorts i skrivelsen från industridepartementet
@@ -1026,13 +1053,10 @@
               de olika förslag som de har att ta ställning till.
             </seg>
           </u>
-          <note n="7b39d128">
-            Anf. 15 Industriminister THAGE PETERSON:
-          </note>
           <note type="speaker" n="8f6c0481">
             Anf. 16 PER-OLA ERIKSSON (c):
           </note>
-          <u who="per-ola_eriksson_a96648" xml:id="i-368df39d21bd5958-0" next="i-92bc08636ae228ab-0" n="6790727c">
+          <u who="per-ola_eriksson_a96648" xml:id="i-330869197d7e23b0-0" next="i-330869197d7e23b0-6" n="6790727c">
             <seg n="27a838cd">
               Herr talman! Jag ber att få tacka industriministern för svaret
               på min fråga. Om industriministern tror att jag är nöjd med svaret,
@@ -1046,7 +1070,9 @@
               av remissinstanserna,
             </seg>
             <seg n="48cd55a7"/>
-            <seg n="48cd55a7"/>
+          </u>
+          <pb n="12" facs="https://betalab.kb.se/prot-198485--43/prot_198485__43-012.jp2/_view"/>
+          <u who="per-ola_eriksson_a96648" xml:id="i-330869197d7e23b0-1" prev="i-330869197d7e23b0-0" n="6790727c">
             <seg n="48cd55a7"/>
             <seg n="c6aa6923">
               speciellt de från de s.k. skogslänen. Om man på industridepartementet
@@ -1099,11 +1125,10 @@
               själva skall bestämma vad de skall gå miste om?
             </seg>
           </u>
-          <pb n="12" facs="https://betalab.kb.se/prot-198485--43/prot_198485__43-012.jp2/_view"/>
           <note n="a68cbfdb">
             Anf. 17 Industriminister THAGE PETERSON:
           </note>
-          <u who="per-ola_eriksson_a96648" xml:id="i-92bc08636ae228ab-0" prev="i-368df39d21bd5958-0" n="6790727c">
+          <u who="per-ola_eriksson_a96648" xml:id="i-330869197d7e23b0-2" prev="i-330869197d7e23b0-0" n="6790727c">
             <seg n="10d7b2c7">
               Herr talman! Jag kan notera att Per-Ola Eriksson själv var ledamot
               i kommittén. Han bör bättre än de flesta veta vilka direktiv som
@@ -1122,13 +1147,34 @@
               kommer att presentera regeringens syn på regionalpolitiken, och
               riksdagen får sedan ta
             </seg>
+          </u>
+          <note n="c7899bf7">
+            Nr 43
+          </note>
+          <note type="date" n="267b18fe">
+            Tisdagen den 4 december 1984
+          </note>
+          <u who="per-ola_eriksson_a96648" xml:id="i-330869197d7e23b0-3" prev="i-330869197d7e23b0-0" n="6790727c">
             <seg n="c254cddc">
               Om remissbehandlingen av betänkandet ”Regional utveckling och
               mellanregional utjämning”
             </seg>
+          </u>
+          <note n="bf16a995">
+            111
+          </note>
+          <u who="per-ola_eriksson_a96648" xml:id="i-330869197d7e23b0-4" prev="i-330869197d7e23b0-0" n="6790727c"/>
+          <pb n="13" facs="https://betalab.kb.se/prot-198485--43/prot_198485__43-013.jp2/_view"/>
+          <u who="per-ola_eriksson_a96648" xml:id="i-330869197d7e23b0-5" prev="i-330869197d7e23b0-0" n="6790727c">
             <seg n="48cd55a7"/>
-            <seg n="48cd55a7"/>
-            <seg n="48cd55a7"/>
+          </u>
+          <note n="c7899bf7">
+            Nr 43
+          </note>
+          <note type="date" n="267b18fe">
+            Tisdagen den 4 december 1984
+          </note>
+          <u who="per-ola_eriksson_a96648" xml:id="i-330869197d7e23b0-6" prev="i-330869197d7e23b0-0" n="6790727c">
             <seg n="45ddfc1d">
               Om remissbehandlingen av betänkandet” Regional utveckling och
               mellanregional utjämning”
@@ -1147,26 +1193,10 @@
               att förstärka regionalpolitiken.
             </seg>
           </u>
-          <note n="c7899bf7">
-            Nr 43
-          </note>
-          <note n="2f7e161c">
-            Tisdagen den 4 december 1984
-          </note>
-          <note n="bf16a995">
-            111
-          </note>
-          <pb n="13" facs="https://betalab.kb.se/prot-198485--43/prot_198485__43-013.jp2/_view"/>
-          <note n="c7899bf7">
-            Nr 43
-          </note>
-          <note n="2f7e161c">
-            Tisdagen den 4 december 1984
-          </note>
           <note type="speaker" n="9f5d2ee5">
             Anf. 18 PER-OLA ERIKSSON (c):
           </note>
-          <u who="per-ola_eriksson_a96648" xml:id="i-368df39d21bd5958-1" next="i-92bc08636ae228ab-1" n="6790727c">
+          <u who="per-ola_eriksson_a96648" xml:id="i-330869197d7e23b0-7" next="i-330869197d7e23b0-9" n="6790727c">
             <seg n="76024dec">
               Herr talman! Det är alldeles riktigt, som industriministern påpekar,
               att jag har tillhört den regionalpolitiska kommittén. Alla i kommittén
@@ -1205,7 +1235,7 @@
           <note n="45f52633">
             Anf. 19 Industriminister THAGE PETERSON:
           </note>
-          <u who="per-ola_eriksson_a96648" xml:id="i-92bc08636ae228ab-1" prev="i-368df39d21bd5958-1" n="6790727c">
+          <u who="per-ola_eriksson_a96648" xml:id="i-330869197d7e23b0-8" prev="i-330869197d7e23b0-7" n="6790727c">
             <seg n="46255536">
               Herr talman! Direktiven för kommittén fanns redan när kommittén
               började sitt arbete. Jag utgår från att Per-Ola Eriksson inte
@@ -1222,7 +1252,9 @@
               är det
             </seg>
             <seg n="48cd55a7"/>
-            <seg n="48cd55a7"/>
+          </u>
+          <pb n="14" facs="https://betalab.kb.se/prot-198485--43/prot_198485__43-014.jp2/_view"/>
+          <u who="per-ola_eriksson_a96648" xml:id="i-330869197d7e23b0-9" prev="i-330869197d7e23b0-7" n="6790727c">
             <seg n="48cd55a7"/>
             <seg n="8247c1f8">
               att under den borgerliga regeringen, när centern hade huvudansvaret
@@ -1231,11 +1263,10 @@
               från att herr Eriksson inte vill förneka den nedrustningen.
             </seg>
           </u>
-          <pb n="14" facs="https://betalab.kb.se/prot-198485--43/prot_198485__43-014.jp2/_view"/>
           <note type="speaker" n="b2715e5d">
             Anf. 20 PER-OLA ERIKSSON (c):
           </note>
-          <u who="per-ola_eriksson_a96648" xml:id="i-368df39d21bd5958-2" next="i-92bc08636ae228ab-2" n="6790727c">
+          <u who="per-ola_eriksson_a96648" xml:id="i-330869197d7e23b0-10" next="i-330869197d7e23b0-11" n="6790727c">
             <seg n="1d542ba3">
               Herr talman! För att börja med kommittédirektiven tycker jag
               att industriministern smiter från sitt ansvar. De skrevs av den
@@ -1258,7 +1289,7 @@
           <note n="a90792fd">
             Anf. 21 Industriminister THAGE PETERSON:
           </note>
-          <u who="per-ola_eriksson_a96648" xml:id="i-92bc08636ae228ab-2" prev="i-368df39d21bd5958-2" n="6790727c">
+          <u who="per-ola_eriksson_a96648" xml:id="i-330869197d7e23b0-11" prev="i-330869197d7e23b0-10" n="6790727c">
             <seg n="1da716a2">
               Herr talman! Jag ber att få protestera. Det står inte så i departementets
               missivskrivelse till remissinstanserna. Detta var en helt felaktig
@@ -1284,7 +1315,7 @@
           <note type="speaker" n="00dbf601">
             Anf. 22 PER-OLA ERIKSSON (c):
           </note>
-          <u who="per-ola_eriksson_a96648" xml:id="i-368df39d21bd5958-3" next="i-92bc08636ae228ab-3" n="6790727c">
+          <u who="per-ola_eriksson_a96648" xml:id="i-330869197d7e23b0-12" next="i-330869197d7e23b0-17" n="6790727c">
             <seg n="c51b382a">
               Herr talman! Det är riktigt som industriministern säger att det
               inte står uttryckligen i skrivelsen till remissinstanserna, men
@@ -1305,25 +1336,44 @@
           <note n="c7899bf7">
             Nr 43
           </note>
-          <note n="2f7e161c">
+          <note type="date" n="267b18fe">
             Tisdagen den 4 december 1984
           </note>
-          <u who="per-ola_eriksson_a96648" xml:id="i-92bc08636ae228ab-3" prev="i-368df39d21bd5958-3" n="6790727c">
+          <u who="per-ola_eriksson_a96648" xml:id="i-330869197d7e23b0-13" prev="i-330869197d7e23b0-12" n="6790727c">
             <seg n="c254cddc">
               Om remissbehandlingen av betänkandet ”Regional utveckling och
               mellanregional utjämning”
             </seg>
             <seg n="48cd55a7"/>
             <seg n="48cd55a7"/>
-            <seg n="48cd55a7"/>
+          </u>
+          <pb n="15" facs="https://betalab.kb.se/prot-198485--43/prot_198485__43-015.jp2/_view"/>
+          <u who="per-ola_eriksson_a96648" xml:id="i-330869197d7e23b0-14" prev="i-330869197d7e23b0-12" n="6790727c"/>
+          <note n="c7899bf7">
+            Nr 43
+          </note>
+          <note type="date" n="267b18fe">
+            Tisdagen den 4 december 1984
+          </note>
+          <u who="per-ola_eriksson_a96648" xml:id="i-330869197d7e23b0-15" prev="i-330869197d7e23b0-12" n="6790727c">
             <seg n="3451f606">
               Om vårdbidraget till barn med diabetes
             </seg>
             <seg n="48cd55a7"/>
+          </u>
+          <note n="2cef76a2">
+            114
+          </note>
+          <u who="per-ola_eriksson_a96648" xml:id="i-330869197d7e23b0-16" prev="i-330869197d7e23b0-12" n="6790727c">
             <seg n="44d5965a">
               det inte kommer att genomföras. Det är väl också ett tecken på
               att kraven och ambitionerna är betydligt större ute i länen.
             </seg>
+          </u>
+          <note n="bf4adf8f">
+            Anf. 23 Industriminister THAGE PETERSON:
+          </note>
+          <u who="per-ola_eriksson_a96648" xml:id="i-330869197d7e23b0-17" prev="i-330869197d7e23b0-12" n="6790727c">
             <seg n="6f3cae54">
               Herr talman! Det hedrar herr Eriksson att han tar tillbaka sitt
               yttrande och t.o.m. betecknar de reaktioner som han återgett här
@@ -1332,23 +1382,10 @@
               handlar om förfluten tid.
             </seg>
           </u>
-          <pb n="15" facs="https://betalab.kb.se/prot-198485--43/prot_198485__43-015.jp2/_view"/>
-          <note n="c7899bf7">
-            Nr 43
-          </note>
-          <note n="2f7e161c">
-            Tisdagen den 4 december 1984
-          </note>
-          <note n="2cef76a2">
-            114
-          </note>
-          <note n="bf4adf8f">
-            Anf. 23 Industriminister THAGE PETERSON:
-          </note>
           <note type="speaker" n="3fd981e8">
             Anf. 24 PER-OLA ERIKSSON (c):
           </note>
-          <u who="per-ola_eriksson_a96648" xml:id="i-368df39d21bd5958-4" next="i-92bc08636ae228ab-4" n="6790727c">
+          <u who="per-ola_eriksson_a96648" xml:id="i-330869197d7e23b0-18" next="i-330869197d7e23b0-20" n="6790727c">
             <seg n="3703a5ae">
               Herr talman! Jag slutar debatten med förhoppningen att industriministern,
               då han får in remissammanställningarna, inte på en enda punkt
@@ -1366,7 +1403,7 @@
           <note n="f85daa2e">
             Anf. 25 Socialminister STEN ANDERSSON:
           </note>
-          <u who="per-ola_eriksson_a96648" xml:id="i-92bc08636ae228ab-4" prev="i-368df39d21bd5958-4" n="6790727c">
+          <u who="per-ola_eriksson_a96648" xml:id="i-330869197d7e23b0-19" prev="i-330869197d7e23b0-18" n="6790727c">
             <seg n="036eb7ea">
               Herr talman! Kenth Skårvik har frågat mig dels om jag avser att
               vidta några åtgärder för att få en mindre restriktiv bedömning
@@ -1403,14 +1440,15 @@
               åtgärder i denna fråga.
             </seg>
             <seg n="48cd55a7"/>
-            <seg n="48cd55a7"/>
-            <seg n="48cd55a7"/>
           </u>
           <pb n="16" facs="https://betalab.kb.se/prot-198485--43/prot_198485__43-016.jp2/_view"/>
+          <u who="per-ola_eriksson_a96648" xml:id="i-330869197d7e23b0-20" prev="i-330869197d7e23b0-18" n="6790727c">
+            <seg n="48cd55a7"/>
+          </u>
           <note type="speaker" n="1ced641d">
             Anf. 26 KENTH SKÅRVIK (fp):
           </note>
-          <u who="kenth_skarvik_79b124" xml:id="i-023f87a173b17247-0" next="i-af3723009b6bb890-0" n="48e64566">
+          <u who="kenth_skarvik_79b124" xml:id="i-2577678bae7f8ebb-0" next="i-2577678bae7f8ebb-5" n="48e64566">
             <seg n="a3986cd7">
               Herr talman! Jag tackar socialministern för svaret, men jag känner
               mig litet skrämd av det sätt på vilket man i detta fall kan lägga
@@ -1479,7 +1517,7 @@
           <note n="6b5b744e">
             Anf. 27 Socialminister STEN ANDERSSON:
           </note>
-          <u who="kenth_skarvik_79b124" xml:id="i-af3723009b6bb890-0" prev="i-023f87a173b17247-0" n="48e64566">
+          <u who="kenth_skarvik_79b124" xml:id="i-2577678bae7f8ebb-1" prev="i-2577678bae7f8ebb-0" n="48e64566">
             <seg n="3113ff7c">
               Herr talman! Det är naturligtvis otillfredsställande med de långa
               väntetiderna. Vi har emellertid, trots att det är knappt om resurser,
@@ -1487,38 +1525,33 @@
               och vi är på god väg att göra det. Om vi kan hitta ytterligare
               förstärkningar skall vi naturligtvis sätta in dem.
             </seg>
-            <seg n="c99946a6">
-              till barn med diabetes
-            </seg>
-            <seg n="48cd55a7"/>
-            <seg n="48cd55a7"/>
-            <seg n="48cd55a7"/>
-            <seg n="3a084ea0">
-              Herr Skårvik tar upp ett enskilt fall. Dess värre — eller dess
-              bättre, det beror på hur man ser på saken — har vi inte ministerstyre
-              här i landet. Jag har alltså att redovisa regler och praxis, men
-              jag är i lag förbjuden att uttala mig i enskilda fall. Det gäller
-              också det fall som herr Skårvik tar upp, även om jag skulle ha
-              en personlig uppfattning i ärendet.
-            </seg>
           </u>
           <note n="c7899bf7">
             Nr 43
           </note>
-          <note n="2f7e161c">
+          <note type="date" n="267b18fe">
             Tisdagen den 4 december 1984
           </note>
           <note n="898d546e">
             Om vårdbidraget
           </note>
+          <u who="kenth_skarvik_79b124" xml:id="i-2577678bae7f8ebb-2" prev="i-2577678bae7f8ebb-0" n="48e64566">
+            <seg n="c99946a6">
+              till barn med diabetes
+            </seg>
+          </u>
           <note n="2cb47919">
             115
           </note>
+          <u who="kenth_skarvik_79b124" xml:id="i-2577678bae7f8ebb-3" prev="i-2577678bae7f8ebb-0" n="48e64566"/>
           <pb n="17" facs="https://betalab.kb.se/prot-198485--43/prot_198485__43-017.jp2/_view"/>
+          <u who="kenth_skarvik_79b124" xml:id="i-2577678bae7f8ebb-4" prev="i-2577678bae7f8ebb-0" n="48e64566">
+            <seg n="48cd55a7"/>
+          </u>
           <note n="c7899bf7">
             Nr 43
           </note>
-          <note n="2f7e161c">
+          <note type="date" n="267b18fe">
             Tisdagen den 4 december 1984
           </note>
           <note n="7b8889d0">
@@ -1530,10 +1563,20 @@
           <note n="267834ce">
             116
           </note>
+          <u who="kenth_skarvik_79b124" xml:id="i-2577678bae7f8ebb-5" prev="i-2577678bae7f8ebb-0" n="48e64566">
+            <seg n="3a084ea0">
+              Herr Skårvik tar upp ett enskilt fall. Dess värre — eller dess
+              bättre, det beror på hur man ser på saken — har vi inte ministerstyre
+              här i landet. Jag har alltså att redovisa regler och praxis, men
+              jag är i lag förbjuden att uttala mig i enskilda fall. Det gäller
+              också det fall som herr Skårvik tar upp, även om jag skulle ha
+              en personlig uppfattning i ärendet.
+            </seg>
+          </u>
           <note type="speaker" n="225567f3">
             Anf. 28 KENTH SKÅRVIK (fp):
           </note>
-          <u who="kenth_skarvik_79b124" xml:id="i-023f87a173b17247-1" next="i-af3723009b6bb890-1" n="48e64566">
+          <u who="kenth_skarvik_79b124" xml:id="i-2577678bae7f8ebb-6" next="i-2577678bae7f8ebb-8" n="48e64566">
             <seg n="6363dd80">
               Herr talman! Jag förstår de sist framförda synpunkterna mycket
               väl. Men vad jag frågade var om socialministern anser att rådande
@@ -1568,7 +1611,7 @@
           <note n="7c52e959">
             Anf. 29 Socialminister STEN ANDERSSON:
           </note>
-          <u who="kenth_skarvik_79b124" xml:id="i-af3723009b6bb890-1" prev="i-023f87a173b17247-1" n="48e64566">
+          <u who="kenth_skarvik_79b124" xml:id="i-2577678bae7f8ebb-7" prev="i-2577678bae7f8ebb-6" n="48e64566">
             <seg n="b9554c36">
               Herr talman! Gullan Lindblad har frågat mig om jag avser att
               ge direktiv till en översyn av bestämmelsen i 3 kap. 17 $ lagen
@@ -1592,7 +1635,9 @@
               Bestämmelsen om skyldighet att anmäla ändrad vistelseort ger försäkrings-
             </seg>
             <seg n="48cd55a7"/>
-            <seg n="48cd55a7"/>
+          </u>
+          <pb n="18" facs="https://betalab.kb.se/prot-198485--43/prot_198485__43-018.jp2/_view"/>
+          <u who="kenth_skarvik_79b124" xml:id="i-2577678bae7f8ebb-8" prev="i-2577678bae7f8ebb-6" n="48e64566">
             <seg n="48cd55a7"/>
             <seg n="79ee48d0">
               kassan möjlighet att kontrollera att den som får ersättning från
@@ -1619,11 +1664,10 @@
               och i så fall vilken ändring som bör vidtas.
             </seg>
           </u>
-          <pb n="18" facs="https://betalab.kb.se/prot-198485--43/prot_198485__43-018.jp2/_view"/>
           <note type="speaker" n="e16d52b0">
             Anf. 30 GULLAN LINDBLAD (m):
           </note>
-          <u who="gullan_lindblad_8ca10d" xml:id="i-4b679ce06038cdea-0" next="i-2efbd649869f69dd-0" n="a63eb144">
+          <u who="gullan_lindblad_8ca10d" xml:id="i-69bbf0d976e8653a-0" next="i-69bbf0d976e8653a-6" n="a63eb144">
             <seg n="c01fcdfb">
               Herr talman! Jag ber att få tacka socialministern för svaret.
               Men låt mig konstatera att socialministern inte har nått ända
@@ -1645,7 +1689,7 @@
             eller skäligen nedsättas, om försäkrad —— — ändrar vistelseort
             utan att underrätta den allmänna försäkringskassan”.
           </note>
-          <u who="gullan_lindblad_8ca10d" xml:id="i-2efbd649869f69dd-0" prev="i-4b679ce06038cdea-0" n="a63eb144">
+          <u who="gullan_lindblad_8ca10d" xml:id="i-69bbf0d976e8653a-1" prev="i-69bbf0d976e8653a-0" n="a63eb144">
             <seg n="cbba1b50">
               Det råder alltså i praktiken ett slags reseförbud vid mer än
               ett dygns frånvaro från hemkommunen. Hur tokig bestämmelsen i
@@ -1667,15 +1711,41 @@
               Men, herr talman, vi skall inte ha så befängda lagregler att
               tillsynsmyndigheten skall behöva lita till att reglerna inte efterlevs!
             </seg>
+          </u>
+          <note n="49023acf">
+            9 Riksdagens protokoll 1984/85:40-43
+          </note>
+          <note type="date" n="69542598">
+            Nr 43 Tisdagen den 4 december 1984
+          </note>
+          <u who="gullan_lindblad_8ca10d" xml:id="i-69bbf0d976e8653a-2" prev="i-69bbf0d976e8653a-0" n="a63eb144">
             <seg n="89517bec">
               Om en översyn av reglerna om föräldraförsäkring
             </seg>
+          </u>
+          <note n="e809de8c">
+            117
+          </note>
+          <u who="gullan_lindblad_8ca10d" xml:id="i-69bbf0d976e8653a-3" prev="i-69bbf0d976e8653a-0" n="a63eb144">
             <seg n="48cd55a7"/>
-            <seg n="48cd55a7"/>
-            <seg n="48cd55a7"/>
+          </u>
+          <pb n="19" facs="https://betalab.kb.se/prot-198485--43/prot_198485__43-019.jp2/_view"/>
+          <u who="gullan_lindblad_8ca10d" xml:id="i-69bbf0d976e8653a-4" prev="i-69bbf0d976e8653a-0" n="a63eb144"/>
+          <note n="c7899bf7">
+            Nr 43
+          </note>
+          <note type="date" n="267b18fe">
+            Tisdagen den 4 december 1984
+          </note>
+          <u who="gullan_lindblad_8ca10d" xml:id="i-69bbf0d976e8653a-5" prev="i-69bbf0d976e8653a-0" n="a63eb144">
             <seg n="89517bec">
               Om en översyn av reglerna om föräldraförsäkring
             </seg>
+          </u>
+          <note n="083601bc">
+            118
+          </note>
+          <u who="gullan_lindblad_8ca10d" xml:id="i-69bbf0d976e8653a-6" prev="i-69bbf0d976e8653a-0" n="a63eb144">
             <seg n="177150c4">
               I den nu aktuella propositionen om föräldraförsäkringen föreslås
               inte någon lagändring i det här stycket. Riksförsäkringsverket
@@ -1703,29 +1773,10 @@
             </seg>
             <seg n="48cd55a7"/>
           </u>
-          <note n="49023acf">
-            9 Riksdagens protokoll 1984/85:40-43
-          </note>
-          <note n="d54b4cef">
-            Nr 43 Tisdagen den 4 december 1984
-          </note>
-          <note n="e809de8c">
-            117
-          </note>
-          <pb n="19" facs="https://betalab.kb.se/prot-198485--43/prot_198485__43-019.jp2/_view"/>
-          <note n="c7899bf7">
-            Nr 43
-          </note>
-          <note n="2f7e161c">
-            Tisdagen den 4 december 1984
-          </note>
-          <note n="083601bc">
-            118
-          </note>
           <note type="speaker" n="30a4f831">
             Anf. 31 KARIN AHRLAND (fp):
           </note>
-          <u who="karin_ahrland_a04a5b" xml:id="i-28f661f1fa9ef0db-0" next="i-1ee6e7be0e281dcb-0" n="82e772a8">
+          <u who="karin_ahrland_a04a5b" xml:id="i-82e772a890c881ce-0" next="i-82e772a890c881ce-2" n="82e772a8">
             <seg n="f8799488">
               Herr talman! Jag tackar för svaret. Gullan Lindblad har redan
               redogjort för bakgrunden, så den skall jag inte trötta kammaren
@@ -1766,13 +1817,13 @@
             </seg>
             <seg n="48cd55a7"/>
             <seg n="48cd55a7"/>
-            <seg n="48cd55a7"/>
           </u>
           <pb n="20" facs="https://betalab.kb.se/prot-198485--43/prot_198485__43-020.jp2/_view"/>
+          <u who="karin_ahrland_a04a5b" xml:id="i-82e772a890c881ce-1" prev="i-82e772a890c881ce-0" n="82e772a8"/>
           <note n="1ed53a15">
             Anf. 32 Socialminister STEN ANDERSSON:
           </note>
-          <u who="karin_ahrland_a04a5b" xml:id="i-1ee6e7be0e281dcb-0" prev="i-28f661f1fa9ef0db-0" n="82e772a8">
+          <u who="karin_ahrland_a04a5b" xml:id="i-82e772a890c881ce-2" prev="i-82e772a890c881ce-0" n="82e772a8">
             <seg n="8f2d8718">
               Herr talman! Det är ju roligt att Karin Ahrland har kvicknat
               till. Karin Ahrland var ju tidigare ett av statsråden i socialdepartementet
@@ -1821,7 +1872,7 @@
           <note type="speaker" n="3df6a8d4">
             Anf. 33 GULLAN LINDBLAD (m):
           </note>
-          <u who="gullan_lindblad_8ca10d" xml:id="i-4b679ce06038cdea-1" next="i-2efbd649869f69dd-1" n="a63eb144">
+          <u who="gullan_lindblad_8ca10d" xml:id="i-69bbf0d976e8653a-7" next="i-69bbf0d976e8653a-11" n="a63eb144">
             <seg n="05d1bdbb">
               Herr talman! Jag har i min fråga framhållit att det är viktigt
               att socialförsäkringsförmånen inte uppbärs orättmätigt. Men det
@@ -1846,7 +1897,7 @@
           <note n="c7899bf7">
             Nr 43
           </note>
-          <note n="2f7e161c">
+          <note type="date" n="267b18fe">
             Tisdagen den 4 december 1984
           </note>
           <note n="7b8889d0">
@@ -1858,33 +1909,38 @@
           <note n="3051c8c2">
             119
           </note>
-          <u who="gullan_lindblad_8ca10d" xml:id="i-2efbd649869f69dd-1" prev="i-4b679ce06038cdea-1" n="a63eb144">
+          <u who="gullan_lindblad_8ca10d" xml:id="i-69bbf0d976e8653a-8" prev="i-69bbf0d976e8653a-7" n="a63eb144">
             <seg n="48cd55a7"/>
+          </u>
+          <pb n="21" facs="https://betalab.kb.se/prot-198485--43/prot_198485__43-021.jp2/_view"/>
+          <u who="gullan_lindblad_8ca10d" xml:id="i-69bbf0d976e8653a-9" prev="i-69bbf0d976e8653a-7" n="a63eb144">
             <seg n="48cd55a7"/>
-            <seg n="48cd55a7"/>
+          </u>
+          <note n="c7899bf7">
+            Nr 43
+          </note>
+          <note type="date" n="267b18fe">
+            Tisdagen den 4 december 1984
+          </note>
+          <u who="gullan_lindblad_8ca10d" xml:id="i-69bbf0d976e8653a-10" prev="i-69bbf0d976e8653a-7" n="a63eb144">
             <seg n="12a6bde3">
               Om ersättningen enligt sjukreseförordningen vid samåkning
             </seg>
+          </u>
+          <note n="a96dca9f">
+            120
+          </note>
+          <u who="gullan_lindblad_8ca10d" xml:id="i-69bbf0d976e8653a-11" prev="i-69bbf0d976e8653a-7" n="a63eb144">
             <seg n="d22d66d5">
               det är illa nog att paragrafen över huvud taget finns, eftersom
               det kan bli sådana här konsekvenser. Jag hoppas därför att det
               kommer ett förslag ganska snart.
             </seg>
           </u>
-          <pb n="21" facs="https://betalab.kb.se/prot-198485--43/prot_198485__43-021.jp2/_view"/>
-          <note n="c7899bf7">
-            Nr 43
-          </note>
-          <note n="2f7e161c">
-            Tisdagen den 4 december 1984
-          </note>
-          <note n="a96dca9f">
-            120
-          </note>
           <note type="speaker" n="1375e950">
             Anf. 34 KARIN AHRLAND (fp):
           </note>
-          <u who="karin_ahrland_a04a5b" xml:id="i-28f661f1fa9ef0db-1" next="i-1ee6e7be0e281dcb-1" n="82e772a8">
+          <u who="karin_ahrland_a04a5b" xml:id="i-82e772a890c881ce-3" next="i-82e772a890c881ce-4" n="82e772a8">
             <seg n="11a2f59d">
               Herr talman! Jag märker nu att Sten Andersson kanske inte upptäckte
               att jag inte sysslade med socialförsäkringsfrågor under min tid
@@ -1920,7 +1976,7 @@
           <note n="83892377">
             Anf. 36 Socialminister STEN ANDERSSON:
           </note>
-          <u who="karin_ahrland_a04a5b" xml:id="i-1ee6e7be0e281dcb-1" prev="i-28f661f1fa9ef0db-1" n="82e772a8">
+          <u who="karin_ahrland_a04a5b" xml:id="i-82e772a890c881ce-4" prev="i-82e772a890c881ce-3" n="82e772a8">
             <seg n="ffd85d4a">
               Herr talman! Wiggo Komstedt har frågat mig om jag inför kammaren
               vill redogöra för när och hur sjukreseförordningens regler om
@@ -1943,7 +1999,7 @@
           <note type="speaker" n="1ba9eb07">
             Anf. 37 WIGGO KOMSTEDT (m):
           </note>
-          <u who="wiggo_komstedt_c9b1f7" xml:id="i-56a7af95e2a59283-4" next="i-de9b378136de671a-4" n="67c12086">
+          <u who="wiggo_komstedt_c9b1f7" xml:id="i-75bd8f79bbf0a6aa-18" next="i-75bd8f79bbf0a6aa-21" n="67c12086">
             <seg n="8071fa1e">
               Herr talman! Jag ber att få tacka socialministern för svaret.
             </seg>
@@ -1954,9 +2010,11 @@
             lämnades för att man skulle komma till rätta med de märkliga ersättningsregler
             som
           </note>
-          <u who="wiggo_komstedt_c9b1f7" xml:id="i-de9b378136de671a-4" prev="i-56a7af95e2a59283-4" n="67c12086">
+          <u who="wiggo_komstedt_c9b1f7" xml:id="i-75bd8f79bbf0a6aa-19" prev="i-75bd8f79bbf0a6aa-18" n="67c12086">
             <seg n="48cd55a7"/>
-            <seg n="48cd55a7"/>
+          </u>
+          <pb n="22" facs="https://betalab.kb.se/prot-198485--43/prot_198485__43-022.jp2/_view"/>
+          <u who="wiggo_komstedt_c9b1f7" xml:id="i-75bd8f79bbf0a6aa-20" prev="i-75bd8f79bbf0a6aa-18" n="67c12086">
             <seg n="1b50c4b1">
               gäller i dag, t. ex. när man skjutsar eget barn till läkare.
             </seg>
@@ -1992,6 +2050,11 @@
               om den här samåkningen kommer till stånd? Jag vill också fråga
               socialministern vilket tidsperspektiv man har när det gäller försöksverksamheten.
             </seg>
+          </u>
+          <note n="f1572bd6">
+            Anf. 38 Socialminister STEN ANDERSSON:
+          </note>
+          <u who="wiggo_komstedt_c9b1f7" xml:id="i-75bd8f79bbf0a6aa-21" prev="i-75bd8f79bbf0a6aa-18" n="67c12086">
             <seg n="001ef00f">
               Herr talman! Wiggo Komstedt gjorde mig riktigt orolig. Jag har
               fem barn. Nu är det ju väldigt sällan de blir sjuka samtidigt,
@@ -2004,14 +2067,10 @@
               klart att reglerna skall ändras, om de ger sådana här utslag.
             </seg>
           </u>
-          <pb n="22" facs="https://betalab.kb.se/prot-198485--43/prot_198485__43-022.jp2/_view"/>
-          <note n="f1572bd6">
-            Anf. 38 Socialminister STEN ANDERSSON:
-          </note>
           <note type="speaker" n="beb55cd5">
             Anf. 39 WIGGO KOMSTEDT (m):
           </note>
-          <u who="wiggo_komstedt_c9b1f7" xml:id="i-56a7af95e2a59283-5" next="i-de9b378136de671a-5" n="67c12086">
+          <u who="wiggo_komstedt_c9b1f7" xml:id="i-75bd8f79bbf0a6aa-22" next="i-75bd8f79bbf0a6aa-28" n="67c12086">
             <seg n="65f957c8">
               Herr talman! Jag ber att få framföra ytterligare ett tack till
               socialministern. Det är roligt att vi är överens — det gäller
@@ -2035,22 +2094,48 @@
             har, med hänvisning till uppgifter i sydafrikanska tidningar om
             deltagande av sydafrikanska bågskyttar i världs-
           </note>
-          <u who="wiggo_komstedt_c9b1f7" xml:id="i-de9b378136de671a-5" prev="i-56a7af95e2a59283-5" n="67c12086">
+          <u who="wiggo_komstedt_c9b1f7" xml:id="i-75bd8f79bbf0a6aa-23" prev="i-75bd8f79bbf0a6aa-22" n="67c12086"/>
+          <note n="c7899bf7">
+            Nr 43
+          </note>
+          <note type="date" n="267b18fe">
+            Tisdagen den 4 december 1984
+          </note>
+          <u who="wiggo_komstedt_c9b1f7" xml:id="i-75bd8f79bbf0a6aa-24" prev="i-75bd8f79bbf0a6aa-22" n="67c12086">
             <seg n="3cc2a7aa">
               Om åtgärder mot sydafrikanskt deltagande i idrottstävlingar i
               Sverige
             </seg>
             <seg n="48cd55a7"/>
+          </u>
+          <note n="fa81ea2b">
+            121
+          </note>
+          <u who="wiggo_komstedt_c9b1f7" xml:id="i-75bd8f79bbf0a6aa-25" prev="i-75bd8f79bbf0a6aa-22" n="67c12086">
             <seg n="48cd55a7"/>
+          </u>
+          <pb n="23" facs="https://betalab.kb.se/prot-198485--43/prot_198485__43-023.jp2/_view"/>
+          <u who="wiggo_komstedt_c9b1f7" xml:id="i-75bd8f79bbf0a6aa-26" prev="i-75bd8f79bbf0a6aa-22" n="67c12086">
             <seg n="48cd55a7"/>
-            <seg n="48cd55a7"/>
-            <seg n="48cd55a7"/>
+          </u>
+          <note n="c7899bf7">
+            Nr 43
+          </note>
+          <note type="date" n="267b18fe">
+            Tisdagen den 4 december 1984
+          </note>
+          <u who="wiggo_komstedt_c9b1f7" xml:id="i-75bd8f79bbf0a6aa-27" prev="i-75bd8f79bbf0a6aa-22" n="67c12086">
             <seg n="864fc104">
               Om åtgärder mot sydafrikanskt deltagande i idrotts-
             </seg>
             <seg n="7317392c">
               tävlingar i Sverige
             </seg>
+          </u>
+          <note n="f6bf6718">
+            122
+          </note>
+          <u who="wiggo_komstedt_c9b1f7" xml:id="i-75bd8f79bbf0a6aa-28" prev="i-75bd8f79bbf0a6aa-22" n="67c12086">
             <seg n="fe57b7e8">
               mästerskapstävlingar i Sverige i höstas, frågat arbetsmarknadsministern
               vilka åtgärder som kommer att vidtas för att förhindra ett upprepande.
@@ -2105,29 +2190,10 @@
               inte är ansluten till Riksidrottsförbundet.
             </seg>
           </u>
-          <note n="c7899bf7">
-            Nr 43
-          </note>
-          <note n="2f7e161c">
-            Tisdagen den 4 december 1984
-          </note>
-          <note n="fa81ea2b">
-            121
-          </note>
-          <pb n="23" facs="https://betalab.kb.se/prot-198485--43/prot_198485__43-023.jp2/_view"/>
-          <note n="c7899bf7">
-            Nr 43
-          </note>
-          <note n="2f7e161c">
-            Tisdagen den 4 december 1984
-          </note>
-          <note n="f6bf6718">
-            122
-          </note>
           <note type="speaker" n="966feb31">
             Anf. 41 OSWALD SÖDERQVIST (vpk):
           </note>
-          <u who="oswald_soderqvist_92bfff" xml:id="i-ffca155c2919335f-0" next="i-057722115648659f-0" n="73d37d58">
+          <u who="oswald_soderqvist_92bfff" xml:id="i-82d90f44ff0e61dd-0" next="i-82d90f44ff0e61dd-2" n="73d37d58">
             <seg n="903d69ca">
               Herr talman! Jag tackar invandrarministern för svaret på min
               fråga. Det var ju utförligt och bra. Det är glädjande att vi på
@@ -2145,7 +2211,9 @@
               i fall där turistvisum används.
             </seg>
             <seg n="48cd55a7"/>
-            <seg n="48cd55a7"/>
+          </u>
+          <pb n="24" facs="https://betalab.kb.se/prot-198485--43/prot_198485__43-024.jp2/_view"/>
+          <u who="oswald_soderqvist_92bfff" xml:id="i-82d90f44ff0e61dd-1" prev="i-82d90f44ff0e61dd-0" n="73d37d58">
             <seg n="48cd55a7"/>
             <seg n="6449e6a2">
               Detta pekar hän emot att en skärpning av kontrollen måste genomföras.
@@ -2167,11 +2235,10 @@
               något praktiskt, resolut och reellt?
             </seg>
           </u>
-          <pb n="24" facs="https://betalab.kb.se/prot-198485--43/prot_198485__43-024.jp2/_view"/>
           <note n="5926a646">
             Anf. 42 Statsrådet ANITA GRADIN:
           </note>
-          <u who="oswald_soderqvist_92bfff" xml:id="i-057722115648659f-0" prev="i-ffca155c2919335f-0" n="73d37d58">
+          <u who="oswald_soderqvist_92bfff" xml:id="i-82d90f44ff0e61dd-2" prev="i-82d90f44ff0e61dd-0" n="73d37d58">
             <seg n="439daae5">
               Herr talman! Jag beklagar liksom Oswald Söderqvist att det hittills
               i år, trots våra mycket strikta bestämmelser, har lyckats för
@@ -2187,7 +2254,7 @@
           <note type="speaker" n="7da3f426">
             Anf. 43 OSWALD SÖDERQVIST (vpk):
           </note>
-          <u who="oswald_soderqvist_92bfff" xml:id="i-ffca155c2919335f-1" next="i-057722115648659f-1" n="73d37d58">
+          <u who="oswald_soderqvist_92bfff" xml:id="i-82d90f44ff0e61dd-3" next="i-82d90f44ff0e61dd-8" n="73d37d58">
             <seg n="7beb095b">
               Herr talman! Jag betvivlar ju inte regeringens goda vilja i det
               här fallet, att man vill försöka skärpa kontrollen via invandrarverket
@@ -2208,7 +2275,7 @@
           <note n="fdcaf932">
             Anf. 44 Statsrådet ANITA GRADIN:
           </note>
-          <u who="oswald_soderqvist_92bfff" xml:id="i-057722115648659f-1" prev="i-ffca155c2919335f-1" n="73d37d58">
+          <u who="oswald_soderqvist_92bfff" xml:id="i-82d90f44ff0e61dd-4" prev="i-82d90f44ff0e61dd-3" n="73d37d58">
             <seg n="6582ac97">
               Herr talman! När det gäller Sveriges agerande mot apartheidpolitiken
               vill jag ändå säga att vi verkligen har följt upp de beslut som
@@ -2217,43 +2284,49 @@
               vi kanske hoppades på när de här besluten på sin tid togs i Förenta
               nationerna.
             </seg>
+          </u>
+          <note n="c7899bf7">
+            Nr 43
+          </note>
+          <note type="date" n="267b18fe">
+            Tisdagen den 4 december 1984
+          </note>
+          <u who="oswald_soderqvist_92bfff" xml:id="i-82d90f44ff0e61dd-5" prev="i-82d90f44ff0e61dd-3" n="73d37d58">
             <seg n="864fc104">
               Om åtgärder mot sydafrikanskt deltagande i idrotts-
             </seg>
             <seg n="7317392c">
               tävlingar i Sverige
             </seg>
+          </u>
+          <note n="77475a7d">
+            123
+          </note>
+          <u who="oswald_soderqvist_92bfff" xml:id="i-82d90f44ff0e61dd-6" prev="i-82d90f44ff0e61dd-3" n="73d37d58">
             <seg n="48cd55a7"/>
+          </u>
+          <pb n="25" facs="https://betalab.kb.se/prot-198485--43/prot_198485__43-025.jp2/_view"/>
+          <u who="oswald_soderqvist_92bfff" xml:id="i-82d90f44ff0e61dd-7" prev="i-82d90f44ff0e61dd-3" n="73d37d58">
             <seg n="48cd55a7"/>
-            <seg n="48cd55a7"/>
-            <seg n="48cd55a7"/>
-            <seg n="483694da">
-              Om bättre passkontroll vid färjetrafiken till Ystad och Trelleborg
-            </seg>
           </u>
           <note n="c7899bf7">
             Nr 43
           </note>
-          <note n="2f7e161c">
+          <note type="date" n="267b18fe">
             Tisdagen den 4 december 1984
           </note>
-          <note n="77475a7d">
-            123
-          </note>
-          <pb n="25" facs="https://betalab.kb.se/prot-198485--43/prot_198485__43-025.jp2/_view"/>
-          <note n="c7899bf7">
-            Nr 43
-          </note>
-          <note n="2f7e161c">
-            Tisdagen den 4 december 1984
-          </note>
+          <u who="oswald_soderqvist_92bfff" xml:id="i-82d90f44ff0e61dd-8" prev="i-82d90f44ff0e61dd-3" n="73d37d58">
+            <seg n="483694da">
+              Om bättre passkontroll vid färjetrafiken till Ystad och Trelleborg
+            </seg>
+          </u>
           <note n="998092f6">
             124
           </note>
           <note type="speaker" n="529cc880">
             Anf. 45 OSWALD SÖDERQVIST (vpk):
           </note>
-          <u who="oswald_soderqvist_92bfff" xml:id="i-ffca155c2919335f-2" next="i-057722115648659f-2" n="73d37d58">
+          <u who="oswald_soderqvist_92bfff" xml:id="i-82d90f44ff0e61dd-9" next="i-82d90f44ff0e61dd-11" n="73d37d58">
             <seg n="17debb94">
               Herr talman! Jag uttrycker förhoppningen att regeringen fortsätter
               med detta arbete och om och om igen försöker skärpa kontrollen
@@ -2274,7 +2347,7 @@
           <note n="98249515">
             Anf. 46 Statsrådet ANITA GRADIN:
           </note>
-          <u who="oswald_soderqvist_92bfff" xml:id="i-057722115648659f-2" prev="i-ffca155c2919335f-2" n="73d37d58">
+          <u who="oswald_soderqvist_92bfff" xml:id="i-82d90f44ff0e61dd-10" prev="i-82d90f44ff0e61dd-9" n="73d37d58">
             <seg n="26e33818">
               Herr talman! Gullan Lindblad har frågat mig om jag har vidtagit
               åtgärder eller ämnar vidta åtgärder för att öka den:svenska polisens
@@ -2319,14 +2392,15 @@
             </seg>
             <seg n="48cd55a7"/>
             <seg n="48cd55a7"/>
-            <seg n="48cd55a7"/>
-            <seg n="48cd55a7"/>
           </u>
           <pb n="26" facs="https://betalab.kb.se/prot-198485--43/prot_198485__43-026.jp2/_view"/>
+          <u who="oswald_soderqvist_92bfff" xml:id="i-82d90f44ff0e61dd-11" prev="i-82d90f44ff0e61dd-9" n="73d37d58">
+            <seg n="48cd55a7"/>
+          </u>
           <note type="speaker" n="2f9d12f3">
             Anf. 47 GULLAN LINDBLAD (m):
           </note>
-          <u who="gullan_lindblad_8ca10d" xml:id="i-4b679ce06038cdea-2" next="i-2efbd649869f69dd-2" n="a63eb144">
+          <u who="gullan_lindblad_8ca10d" xml:id="i-69bbf0d976e8653a-12" next="i-69bbf0d976e8653a-16" n="a63eb144">
             <seg n="d2ca91a3">
               Herr talman! Jag ber att få tacka statsrådet för svaret. Jag
               kan konstatera att vissa saker är på gång, och det är bra. Jag
@@ -2395,19 +2469,40 @@
           <note n="c7899bf7">
             Nr 43
           </note>
-          <note n="2f7e161c">
+          <note type="date" n="267b18fe">
             Tisdagen den 4 december 1984
           </note>
-          <u who="gullan_lindblad_8ca10d" xml:id="i-2efbd649869f69dd-2" prev="i-4b679ce06038cdea-2" n="a63eb144">
+          <u who="gullan_lindblad_8ca10d" xml:id="i-69bbf0d976e8653a-13" prev="i-69bbf0d976e8653a-12" n="a63eb144">
             <seg n="483694da">
               Om bättre passkontroll vid färjetrafiken till Ystad och Trelleborg
             </seg>
             <seg n="48cd55a7"/>
+          </u>
+          <note n="9605c0d5">
+            Na An
+          </note>
+          <pb n="27" facs="https://betalab.kb.se/prot-198485--43/prot_198485__43-027.jp2/_view"/>
+          <u who="gullan_lindblad_8ca10d" xml:id="i-69bbf0d976e8653a-14" prev="i-69bbf0d976e8653a-12" n="a63eb144">
             <seg n="48cd55a7"/>
-            <seg n="48cd55a7"/>
+          </u>
+          <note n="c7899bf7">
+            Nr 43
+          </note>
+          <note type="date" n="267b18fe">
+            Tisdagen den 4 december 1984
+          </note>
+          <u who="gullan_lindblad_8ca10d" xml:id="i-69bbf0d976e8653a-15" prev="i-69bbf0d976e8653a-12" n="a63eb144">
             <seg n="483694da">
               Om bättre passkontroll vid färjetrafiken till Ystad och Trelleborg
             </seg>
+          </u>
+          <note n="4d7c4446">
+            126
+          </note>
+          <note n="05eb5a47">
+            Anf. 48 Statsrådet ANITA GRADIN:
+          </note>
+          <u who="gullan_lindblad_8ca10d" xml:id="i-69bbf0d976e8653a-16" prev="i-69bbf0d976e8653a-12" n="a63eb144">
             <seg n="7d4fea3c">
               Herr talman! De här frågorna är svåra, som Gullan Lindblad säger.
             </seg>
@@ -2433,26 +2528,10 @@
               att vi skall kunna hjälpas åt med olika problem i de här sammanhangen.
             </seg>
           </u>
-          <note n="9605c0d5">
-            Na An
-          </note>
-          <pb n="27" facs="https://betalab.kb.se/prot-198485--43/prot_198485__43-027.jp2/_view"/>
-          <note n="c7899bf7">
-            Nr 43
-          </note>
-          <note n="2f7e161c">
-            Tisdagen den 4 december 1984
-          </note>
-          <note n="4d7c4446">
-            126
-          </note>
-          <note n="05eb5a47">
-            Anf. 48 Statsrådet ANITA GRADIN:
-          </note>
           <note type="speaker" n="906a3908">
             Anf. 49 GULLAN LINDBLAD (m):
           </note>
-          <u who="gullan_lindblad_8ca10d" xml:id="i-4b679ce06038cdea-3" next="i-2efbd649869f69dd-3" n="a63eb144">
+          <u who="gullan_lindblad_8ca10d" xml:id="i-69bbf0d976e8653a-17" next="i-69bbf0d976e8653a-19" n="a63eb144">
             <seg n="3385633d">
               Herr talman! Jag tackar för det kompletterande svaret. Jag tycker
               att det är utmärkt med dessa vidgade internationella kontakter.
@@ -2482,7 +2561,7 @@
           <note n="fa48b03c">
             Anf. 50 Statsrådet ANITA GRADIN:
           </note>
-          <u who="gullan_lindblad_8ca10d" xml:id="i-2efbd649869f69dd-3" prev="i-4b679ce06038cdea-3" n="a63eb144">
+          <u who="gullan_lindblad_8ca10d" xml:id="i-69bbf0d976e8653a-18" prev="i-69bbf0d976e8653a-17" n="a63eb144">
             <seg n="192377f1">
               Herr talman! Jag tror att vi skall ta Gullan Lindblads siffror
               med en nypa salt. Med statistik kan man som bekant bevisa allt.
@@ -2499,7 +2578,9 @@
             </seg>
             <seg n="48cd55a7"/>
             <seg n="48cd55a7"/>
-            <seg n="48cd55a7"/>
+          </u>
+          <pb n="28" facs="https://betalab.kb.se/prot-198485--43/prot_198485__43-028.jp2/_view"/>
+          <u who="gullan_lindblad_8ca10d" xml:id="i-69bbf0d976e8653a-19" prev="i-69bbf0d976e8653a-17" n="a63eb144">
             <seg n="48cd55a7"/>
             <seg n="15f04962">
               information om alla överläggningar och mycket väl vet vad som
@@ -2507,11 +2588,10 @@
               oinformerat.
             </seg>
           </u>
-          <pb n="28" facs="https://betalab.kb.se/prot-198485--43/prot_198485__43-028.jp2/_view"/>
           <note type="speaker" n="d5f335f7">
             Tisdagen den 4 december 1984 Anf. 51 GULLAN LINDBLAD (m):
           </note>
-          <u who="gullan_lindblad_8ca10d" xml:id="i-4b679ce06038cdea-4" next="i-2efbd649869f69dd-4" n="a63eb144">
+          <u who="gullan_lindblad_8ca10d" xml:id="i-69bbf0d976e8653a-20" next="i-69bbf0d976e8653a-22" n="a63eb144">
             <seg n="6979925e">
               Herr talman! Att polisen i Trelleborg hade fått viss förstärkning
               var vi på Om bättre passdet klara med. Däremot var det först i
@@ -2535,12 +2615,17 @@
           <note n="b9fe2c44">
             och Trelleborg
           </note>
-          <u who="gullan_lindblad_8ca10d" xml:id="i-2efbd649869f69dd-4" prev="i-4b679ce06038cdea-4" n="a63eb144">
+          <u who="gullan_lindblad_8ca10d" xml:id="i-69bbf0d976e8653a-21" prev="i-69bbf0d976e8653a-20" n="a63eb144">
             <seg n="bf234dd4">
               kunnat avvisas. De andra har alltså mottagits, framför allt på
               grund av att de har saknat pass. I Ystad är det f.n. dess bättre
               endast ströfall som saknar pass.
             </seg>
+          </u>
+          <note n="6b186167">
+            Anf. 52 Statsrådet ANITA GRADIN:
+          </note>
+          <u who="gullan_lindblad_8ca10d" xml:id="i-69bbf0d976e8653a-22" prev="i-69bbf0d976e8653a-20" n="a63eb144">
             <seg n="d890a6aa">
               Herr talman! Nu skall man komma ihåg att antalet avvisade i och
               för sig skulle ha kunnat bli detsamma även om de flyktingar som
@@ -2549,13 +2634,10 @@
               ha en helhetssyn när man analyserar sådant här material.
             </seg>
           </u>
-          <note n="6b186167">
-            Anf. 52 Statsrådet ANITA GRADIN:
-          </note>
           <note type="speaker" n="81556420">
             Anf. 533 GULLAN LINDBLAD (m):
           </note>
-          <u who="gullan_lindblad_8ca10d" xml:id="i-4b679ce06038cdea-5" next="i-2efbd649869f69dd-5" n="a63eb144">
+          <u who="gullan_lindblad_8ca10d" xml:id="i-69bbf0d976e8653a-23" next="i-69bbf0d976e8653a-26" n="a63eb144">
             <seg n="2c27f388">
               Herr talman! Jag är medveten om att antalet avvisade skulle ha
               kunnat vara detsamma, men vi vet nu att de flyktingar som har
@@ -2577,20 +2659,17 @@
             13 $ Anmäldes och bordlades Skatteutskottets betänkande 1984/85:20
             Räntetillägg för räntefritt eller lågförräntat lån (prop. 1984/85:71)
           </note>
-          <u who="gullan_lindblad_8ca10d" xml:id="i-2efbd649869f69dd-5" prev="i-4b679ce06038cdea-5" n="a63eb144">
+          <u who="gullan_lindblad_8ca10d" xml:id="i-69bbf0d976e8653a-24" prev="i-69bbf0d976e8653a-23" n="a63eb144">
             <seg n="48cd55a7"/>
-            <seg n="48cd55a7"/>
-            <seg n="48cd55a7"/>
-            <seg n="e965a625">
-              Näringsutskottets betänkande 1984/85:7 Åtgärder mot plågsamma
-              djurförsök vid produktutveckling
-            </seg>
           </u>
           <pb n="29" facs="https://betalab.kb.se/prot-198485--43/prot_198485__43-029.jp2/_view"/>
+          <u who="gullan_lindblad_8ca10d" xml:id="i-69bbf0d976e8653a-25" prev="i-69bbf0d976e8653a-23" n="a63eb144">
+            <seg n="48cd55a7"/>
+          </u>
           <note n="c7899bf7">
             Nr 43
           </note>
-          <note n="2f7e161c">
+          <note type="date" n="267b18fe">
             Tisdagen den 4 december 1984
           </note>
           <note n="33a23893">
@@ -2602,6 +2681,12 @@
           <note n="2cb5bb48">
             128
           </note>
+          <u who="gullan_lindblad_8ca10d" xml:id="i-69bbf0d976e8653a-26" prev="i-69bbf0d976e8653a-23" n="a63eb144">
+            <seg n="e965a625">
+              Näringsutskottets betänkande 1984/85:7 Åtgärder mot plågsamma
+              djurförsök vid produktutveckling
+            </seg>
+          </u>
           <note n="91c42e6a">
             14 $ Meddelande om interpellation Meddelades att följande interpellation
             framställts den 4 december
@@ -2609,12 +2694,12 @@
           <note type="speaker" n="b0c43eca">
             1984/85:
           </note>
-          <u who="unknown" xml:id="i-bfb5dc7a75a780f3-0" n="8f620fb8"/>
+          <u who="unknown" xml:id="i-0ebbb547919cb8f8-0" n="8f620fb8"/>
           <note type="speaker" n="ae919128">
             75 av Margit Gennser (m) till utrikesministern om inriktningen
             av UNESCO:s verksamhet:
           </note>
-          <u who="margit_gennser_bbad3f" xml:id="i-6a6cf51e9bc8de97-0" n="98eeb095">
+          <u who="margit_gennser_bbad3f" xml:id="i-98eeb095a4ae2aca-0" n="98eeb095">
             <seg n="a1a4bd5f">
               USA, som bidragit med en fjärdedel av UNESCO:s budget, kommer
               att lämna organisationen. Storbritannien avser inom ett år att
@@ -2654,12 +2739,12 @@
           <note type="speaker" n="b0c43eca">
             1984/85:
           </note>
-          <u who="unknown" xml:id="i-bfb5dc7a75a780f3-1" n="8f620fb8"/>
+          <u who="unknown" xml:id="i-8dea9cf46078b7ce-0" n="8f620fb8"/>
           <note type="speaker" n="2e1928c9">
             275 av Christer Eirefelt (fp) till jordbruksministern om tillståndsprövningen
             för vattenbruk:
           </note>
-          <u who="christer_eirefelt_99085c" xml:id="i-765fda5e5fc068cd-0" n="17a6131e">
+          <u who="christer_eirefelt_99085c" xml:id="i-17a6131eb2e2642e-0" next="i-8dea9cf46078b7ce-1" n="17a6131e">
             <seg n="50eec4ae">
               Trots flera uttalanden om förenkling av tillståndsprövningen
               i anslutning till fiskodling hindras seriösa satsningar fortfarande
@@ -2667,7 +2752,9 @@
             </seg>
             <seg n="48cd55a7"/>
             <seg n="48cd55a7"/>
-            <seg n="48cd55a7"/>
+          </u>
+          <pb n="30" facs="https://betalab.kb.se/prot-198485--43/prot_198485__43-030.jp2/_view"/>
+          <u who="christer_eirefelt_99085c" xml:id="i-8dea9cf46078b7ce-1" prev="i-17a6131eb2e2642e-0" n="17a6131e">
             <seg n="48cd55a7"/>
             <seg n="12432b23">
               Det är uppenbart att enskilda företagare ofta kommer i kläm i
@@ -2700,19 +2787,18 @@
               i vattenbrukets administration?
             </seg>
           </u>
-          <pb n="30" facs="https://betalab.kb.se/prot-198485--43/prot_198485__43-030.jp2/_view"/>
           <note n="139dc4c1">
             den 4 december
           </note>
           <note type="speaker" n="b0c43eca">
             1984/85:
           </note>
-          <u who="unknown" xml:id="i-bfb5dc7a75a780f3-2" n="8f620fb8"/>
+          <u who="unknown" xml:id="i-58a48c1b3aeec349-0" n="8f620fb8"/>
           <note type="speaker" n="a3a63eb7">
             276 av Gunnel Liljegren (m) till utrikesministern om kvarhållande
             i Jugoslavien av jugoslaviske medborgaren Ivan Dragievic:
           </note>
-          <u who="gunnel_liljegren_c02ca2" xml:id="i-e36fb475861eaa5e-0" n="4c5f467d">
+          <u who="gunnel_liljegren_c02ca2" xml:id="i-4c5f467dc837b2d4-0" n="4c5f467d">
             <seg n="d88d8597">
               För ett halvt år sedan reste jugoslaven Ivan Dragievic på semester
               till sitt hemland, och han kvarhålls sedan dess mot sin vilja
@@ -2739,12 +2825,12 @@
           <note type="speaker" n="b0c43eca">
             1984/85:
           </note>
-          <u who="unknown" xml:id="i-b22a5e6161b8bf90-0" n="8f620fb8"/>
+          <u who="unknown" xml:id="i-84cd329aa948b977-0" n="8f620fb8"/>
           <note type="speaker" n="8a28bcd9">
             277 av Pär Granstedt (c) till jordbruksministern om förstöring
             av gasbomber från andra världskriget:
           </note>
-          <u who="par_granstedt_758505" xml:id="i-499eea5ce14ef367-0" next="i-2ca6cfdbf6fa2ac4-0" n="84cd329a">
+          <u who="par_granstedt_758505" xml:id="i-84cd329aa948b977-1" next="i-84cd329aa948b977-3" n="84cd329a">
             <seg n="5b75497c">
               Bomber med senapsgas från andra världskriget, vilka dumpats i
               Östersjön, utgör en allvarlig fara för fiskarena. Det är viktigt
@@ -2762,24 +2848,24 @@
           <note n="c7899bf7">
             Nr 43
           </note>
-          <note n="2f7e161c">
+          <note type="date" n="267b18fe">
             Tisdagen den 4 december 1984
           </note>
           <note n="eb7735b8">
             Meddelande om frågor
           </note>
-          <u who="par_granstedt_758505" xml:id="i-2ca6cfdbf6fa2ac4-0" prev="i-499eea5ce14ef367-0" n="84cd329a">
-            <seg n="48cd55a7"/>
-            <seg n="48cd55a7"/>
-          </u>
+          <u who="par_granstedt_758505" xml:id="i-84cd329aa948b977-2" prev="i-84cd329aa948b977-1" n="84cd329a"/>
           <note n="c5cf9c83">
             129
           </note>
           <pb n="31" facs="https://betalab.kb.se/prot-198485--43/prot_198485__43-031.jp2/_view"/>
+          <u who="par_granstedt_758505" xml:id="i-84cd329aa948b977-3" prev="i-84cd329aa948b977-1" n="84cd329a">
+            <seg n="48cd55a7"/>
+          </u>
           <note n="c7899bf7">
             Nr 43
           </note>
-          <note n="2f7e161c">
+          <note type="date" n="267b18fe">
             Tisdagen den 4 december 1984
           </note>
           <note n="d7ff8ae1">
@@ -2794,12 +2880,12 @@
           <note type="speaker" n="b0c43eca">
             1984/85:
           </note>
-          <u who="unknown" xml:id="i-b22a5e6161b8bf90-1" n="8f620fb8"/>
+          <u who="unknown" xml:id="i-2577678bae7f8ebb-9" n="8f620fb8"/>
           <note type="speaker" n="1451f218">
             278 av Kenth Skårvik (fp) till utrikesministern om situationen
             i Uganda:
           </note>
-          <u who="kenth_skarvik_79b124" xml:id="i-45a548c46cae9ef7-0" next="i-af3723009b6bb890-2" n="48e64566">
+          <u who="kenth_skarvik_79b124" xml:id="i-48e64566ee82fa53-0" next="i-2577678bae7f8ebb-16" n="48e64566">
             <seg n="414153aa">
               Enligt många och samstämmiga uppgifter fortsätter politiskt förtryck
               och massakrer på oskyldiga människor i Uganda.
@@ -2822,22 +2908,11 @@
           <note n="bee97215">
             /Solveig Gemert
           </note>
-          <u who="kenth_skarvik_79b124" xml:id="i-af3723009b6bb890-2" prev="i-45a548c46cae9ef7-0" n="48e64566">
-            <seg n="48cd55a7"/>
-            <seg n="48cd55a7"/>
-            <seg n="1ac0f146">
-              Lantz, Inga (vpk) 54, 56
-            </seg>
-            <seg n="48cd55a7"/>
-            <seg n="48cd55a7"/>
-            <seg n="48cd55a7"/>
-            <seg n="48cd55a7"/>
-            <seg n="48cd55a7"/>
-            <seg n="48cd55a7"/>
-            <seg n="48cd55a7"/>
+          <u who="kenth_skarvik_79b124" xml:id="i-2577678bae7f8ebb-10" prev="i-48e64566ee82fa53-0" n="48e64566">
             <seg n="48cd55a7"/>
           </u>
           <pb n="32" facs="https://betalab.kb.se/prot-198485--43/prot_198485__43-032.jp2/_view"/>
+          <u who="kenth_skarvik_79b124" xml:id="i-2577678bae7f8ebb-11" prev="i-48e64566ee82fa53-0" n="48e64566"/>
           <note n="25d0a356">
             Förteckning över talare (Siffrorna avser sida i protokollen)
           </note>
@@ -2893,6 +2968,11 @@
           <note n="2e410695">
             Körlof, Björn (m) 6, 8, 9, 10
           </note>
+          <u who="kenth_skarvik_79b124" xml:id="i-2577678bae7f8ebb-12" prev="i-48e64566ee82fa53-0" n="48e64566">
+            <seg n="1ac0f146">
+              Lantz, Inga (vpk) 54, 56
+            </seg>
+          </u>
           <note n="db67c379">
             Lövdén, Lars-Erik (s) 49, 50, 51
           </note>
@@ -2923,10 +3003,18 @@
             statsråd 79, 81 Holmberg, Bo, civilminister 79 Lestander, Paul
             (vpk) 80, 81, 82
           </note>
+          <u who="kenth_skarvik_79b124" xml:id="i-2577678bae7f8ebb-13" prev="i-48e64566ee82fa53-0" n="48e64566"/>
           <note n="28e620f6">
             1984/85 40-43
           </note>
+          <u who="kenth_skarvik_79b124" xml:id="i-2577678bae7f8ebb-14" prev="i-48e64566ee82fa53-0" n="48e64566">
+            <seg n="48cd55a7"/>
+            <seg n="48cd55a7"/>
+          </u>
           <pb n="33" facs="https://betalab.kb.se/prot-198485--43/prot_198485__43-033.jp2/_view"/>
+          <u who="kenth_skarvik_79b124" xml:id="i-2577678bae7f8ebb-15" prev="i-48e64566ee82fa53-0" n="48e64566">
+            <seg n="48cd55a7"/>
+          </u>
           <note n="28e620f6">
             1984/85 40-43
           </note>
@@ -2982,6 +3070,9 @@
           <note n="2e723179">
             minab/gotab Stockholm 1985 79523
           </note>
+          <u who="kenth_skarvik_79b124" xml:id="i-2577678bae7f8ebb-16" prev="i-48e64566ee82fa53-0" n="48e64566">
+            <seg n="48cd55a7"/>
+          </u>
         </div>
       </body>
     </text>

@@ -20,7 +20,7 @@
     <encodingDesc>
       <editorialDecl>
         <correction>
-          <p>Some data curation was done. It is documented in db/curation/instances</p>
+          <p>Some data curation was done. It is documented in input/curation/instances</p>
         </correction>
       </editorialDecl>
     </encodingDesc>
@@ -52,11 +52,15 @@
       <front>
         <div type="preface">
           <head>prot-1948-höst-ak--38</head>
+          <docDate when="1943-12-01">1943-12-01</docDate>
+          <docDate when="1948-11-27">1948-11-27</docDate>
+          <docDate when="1948-11-30">1948-11-30</docDate>
           <docDate when="1948-12-01">1948-12-01</docDate>
         </div>
       </front>
       <body>
         <div>
+          <pb n="0" facs="https://betalab.kb.se/prot-1948-höst-ak--38/prot_1948_höst_ak__38-000.jp2/_view"/>
           <note n="e223f01c">
             RIKSDAGENS
           </note>
@@ -151,13 +155,13 @@
             ess ss 25
           </note>
           <pb n="2" facs="https://betalab.kb.se/prot-1948-höst-ak--38/prot_1948_höst_ak__38-002.jp2/_view"/>
-          <note n="869f638c">
+          <note type="date" n="6d1bfae5">
             Lördagen den 27 november 1948.
           </note>
           <note n="ed46d64d">
             Nr 38. 3
           </note>
-          <note n="736d0aab">
+          <note type="date" n="dd8c05a4">
             Lördagen den 27 november. Kl. 2 em.
           </note>
           <note n="af019878">
@@ -252,7 +256,7 @@
           <note n="75ae9d42">
             4 Nr 38.
           </note>
-          <note n="869f638c">
+          <note type="date" n="6d1bfae5">
             Lördagen den 27 november 1948.
           </note>
           <note n="a16afa4c">
@@ -278,7 +282,7 @@
           <note type="speaker" n="86d92424">
             Herr KYLING, som yttrade:
           </note>
-          <u who="folke_kyling_673c7f" xml:id="i-199b02b022945c2a-0" n="f8b3698b">
+          <u who="folke_kyling_673c7f" xml:id="i-f8b3698b755af1d9-0" n="f8b3698b">
             <seg n="27587b57">
               Herr talman! Kungl. telegrafstyrelsen har nyligen gjort en framställning
               om avgiftshöjningar för vissa grenar av verkets kundtjänst, såsom
@@ -347,7 +351,7 @@
             Denna anhållan bordlades.
           </note>
           <pb n="4" facs="https://betalab.kb.se/prot-1948-höst-ak--38/prot_1948_höst_ak__38-004.jp2/_view"/>
-          <note n="aa47f1d5">
+          <note type="date" n="2d017da0">
             Tisdagen den 30 november 1948.
           </note>
           <note n="014ab360">
@@ -389,7 +393,7 @@
           <note n="b25c073d">
             Gunnar Britth.
           </note>
-          <note n="5f00d6d9">
+          <note type="date" n="36a21e6f">
             Tisdagen den 30 november. Kl. 4 em.
           </note>
           <note n="eb73f234">
@@ -404,7 +408,7 @@
           <note type="speaker" n="412f49fe">
             Herr statsrådet Ericsson avlämnade Kungl. Maj:
           </note>
-          <u who="eric_ericsson_bfac6c" xml:id="i-39def73195e4ba2d-0" next="i-0989c5333273db3e-0" n="623ae309">
+          <u who="eric_ericsson_bfac6c" xml:id="i-4dec662f7d00ff66-0" next="i-4dec662f7d00ff66-1" n="623ae309">
             <seg n="64bd7573">
               ts propositioner:
             </seg>
@@ -449,7 +453,7 @@
           <note n="bdf06c9c">
             Interpellation ang. bevarande av kon-
           </note>
-          <u who="eric_ericsson_bfac6c" xml:id="i-0989c5333273db3e-0" prev="i-39def73195e4ba2d-0" n="623ae309">
+          <u who="eric_ericsson_bfac6c" xml:id="i-4dec662f7d00ff66-1" prev="i-4dec662f7d00ff66-0" n="623ae309">
             <seg n="2d2baeb0">
               kurrenshemligheter åt företag, som lämna
             </seg>
@@ -463,7 +467,7 @@
           <note type="speaker" n="0ccfd133">
             Herr HENRIKSSON, som anförde:
           </note>
-          <u who="torsten_henriksson_96034e" xml:id="i-794c15556a3640c3-0" next="i-8798da0069d0cf5a-0" n="483989a6">
+          <u who="torsten_henriksson_96034e" xml:id="i-a8a042a86d2d0876-0" next="i-a8a042a86d2d0876-2" n="483989a6">
             <seg n="8888a80d">
               Herr talman! Helt nyligen har ett intressant spörsmål av stor
               principiell räckvidd aktualiserats. Vid ett glasbruk i södra Sverige
@@ -480,7 +484,7 @@
           <note n="d07cb130">
             Interpellation ang. kristidsnämndernas samhet.
           </note>
-          <u who="torsten_henriksson_96034e" xml:id="i-8798da0069d0cf5a-0" prev="i-794c15556a3640c3-0" n="483989a6">
+          <u who="torsten_henriksson_96034e" xml:id="i-a8a042a86d2d0876-1" prev="i-a8a042a86d2d0876-0" n="483989a6">
             <seg n="2d45a21d">
               landena vid landets glasindustrier. Liksom i övriga dylika fall
               har vid upplysningarnas inhämtande från kommitténs sida garanterats,
@@ -518,6 +522,11 @@
               att få problemet ventilerat, anhåller jag om kammarens tillstånd
               att till herr statsrådet och chefen
             </seg>
+          </u>
+          <note type="date" n="2d017da0">
+            Tisdagen den 30 november 1948.
+          </note>
+          <u who="torsten_henriksson_96034e" xml:id="i-a8a042a86d2d0876-2" prev="i-a8a042a86d2d0876-0" n="483989a6">
             <seg n="3783370a">
               kostnader för slaktgodemännens verk-
             </seg>
@@ -530,9 +539,6 @@
               som lämna konfidentiella upplysningar i samband med statligt utredningsarbete?
             </seg>
           </u>
-          <note n="aa47f1d5">
-            Tisdagen den 30 november 1948.
-          </note>
           <note n="06dcb563">
             Denna anhållan bordlades.
           </note>
@@ -546,7 +552,7 @@
           <note type="speaker" n="1dfdce72">
             Herr HANSSON i Skediga erhöll på begäran ordet och yttrade:
           </note>
-          <u who="per_albin_hansson_dd458b" xml:id="i-eebb4fd2c92b3a27-0" next="i-6747c7de7e7074e9-0" n="1a622cdc">
+          <u who="per_albin_hansson_dd458b" xml:id="i-1a622cdc50f2f717-0" next="i-1a622cdc50f2f717-1" n="1a622cdc">
             <seg n="f94d14af">
               Herr talman! I våras interpellerade jag dåvarande folkhushållningsministern
               angående ökat statsbidrag till kristidsnämndernas kostnader för
@@ -573,7 +579,7 @@
             </seg>
           </u>
           <pb n="6" facs="https://betalab.kb.se/prot-1948-höst-ak--38/prot_1948_höst_ak__38-006.jp2/_view"/>
-          <note n="328897a0">
+          <note type="date" n="4d9ef35f">
             Onsdagen den 1 december 1948.
           </note>
           <note n="e19e37c5">
@@ -586,7 +592,7 @@
           <note n="23b64daa">
             bruk och fiske.
           </note>
-          <u who="per_albin_hansson_dd458b" xml:id="i-6747c7de7e7074e9-0" prev="i-eebb4fd2c92b3a27-0" n="1a622cdc">
+          <u who="per_albin_hansson_dd458b" xml:id="i-1a622cdc50f2f717-1" prev="i-1a622cdc50f2f717-0" n="1a622cdc">
             <seg n="ed8c8df6">
               fande icke synes vara omedelbart förestående, får jag hemställa
               om kammarens tillstånd att till statsrådet och chefen för folkhushållningsdepartementet
@@ -625,7 +631,7 @@
           <note n="b25c073d">
             Gunnar Britth.
           </note>
-          <note n="2e020e3e">
+          <note type="date" n="16ec2692">
             Onsdagen den 1 december. KIL. 11 fm.
           </note>
           <note n="9743bbcc">
@@ -642,7 +648,7 @@
             Chefen för finansdepartementet, herr statsrådet WIGFORSS, som
             yttrade:
           </note>
-          <u who="ernst_wigforss_dc2db7" xml:id="i-1e6fc1fda52f4639-0" next="i-5d6db8857d66de00-0" n="10989be4">
+          <u who="ernst_wigforss_dc2db7" xml:id="i-df2041b94057a966-0" next="i-df2041b94057a966-1" n="10989be4">
             <seg n="652c39f7">
               Herr talman! I en med andra kammarens tillstånd framställd interpellation
               har herr Jonsson i Skedsbygd till mig framställt följande frågor:
@@ -682,7 +688,7 @@
           <note n="44cb55b7">
             8 Nr 38.
           </note>
-          <note n="328897a0">
+          <note type="date" n="4d9ef35f">
             Onsdagen den 1 december 1948.
           </note>
           <note n="e4f9490d">
@@ -692,7 +698,7 @@
           <note n="23b64daa">
             bruk och fiske.
           </note>
-          <u who="ernst_wigforss_dc2db7" xml:id="i-5d6db8857d66de00-0" prev="i-1e6fc1fda52f4639-0" n="10989be4">
+          <u who="ernst_wigforss_dc2db7" xml:id="i-df2041b94057a966-1" prev="i-df2041b94057a966-0" n="10989be4">
             <seg n="7baba0e8">
               nämnas att jag efter bemyndigande den 12 november 1948 tillkallat
               fem sakkunniga med uppdrag att utreda frågan om rätt till restitution
@@ -713,7 +719,7 @@
           <note type="speaker" n="408947c2">
             Herr JONSSON i Skedsbygd:
           </note>
-          <u who="jon_jonsson_68b030" xml:id="i-f0f8cfca8ed69ff9-0" next="i-f42a8539f263e533-0" n="326fe70c">
+          <u who="jon_jonsson_68b030" xml:id="i-d52ba1d121dcacc3-0" next="i-d52ba1d121dcacc3-1" n="326fe70c">
             <seg n="f8df5a01">
               Herr talman! Jag ber att till statsrådet och chefen för finansdepartementet
               få framföra mitt tack för interpellationssvaret.
@@ -775,7 +781,7 @@
             </seg>
           </u>
           <pb n="8" facs="https://betalab.kb.se/prot-1948-höst-ak--38/prot_1948_höst_ak__38-008.jp2/_view"/>
-          <note n="328897a0">
+          <note type="date" n="4d9ef35f">
             Onsdagen den 1 december 1948.
           </note>
           <note n="cb3d1e07">
@@ -788,7 +794,7 @@
           <note n="0da9c807">
             yrkesutbildningen.
           </note>
-          <u who="jon_jonsson_68b030" xml:id="i-f42a8539f263e533-0" prev="i-f0f8cfca8ed69ff9-0" n="326fe70c">
+          <u who="jon_jonsson_68b030" xml:id="i-d52ba1d121dcacc3-1" prev="i-d52ba1d121dcacc3-0" n="326fe70c">
             <seg n="88d239d3">
               planteringar av fisk m. m. Vid de kontakter jag i egenskap av
               fiskerinämndens ordförande haft med fiskarena inom södra Kalmar
@@ -812,7 +818,7 @@
           <note type="speaker" n="956ce013">
             Chefen för finansdepartementet, herr statsrådet WIGFORSS:
           </note>
-          <u who="ernst_wigforss_dc2db7" xml:id="i-d958facc5d97410c-0" n="10989be4">
+          <u who="ernst_wigforss_dc2db7" xml:id="i-df2041b94057a966-2" n="10989be4">
             <seg n="2d715f7b">
               Herr talman! De direktiv livsmedelskommissionen fått äro sådana,
               att, såvitt jag förstår, även de traktorer herr Jonsson i Skedsbygd
@@ -830,7 +836,7 @@
           <note type="speaker" n="408947c2">
             Herr JONSSON i Skedsbygd:
           </note>
-          <u who="jon_jonsson_68b030" xml:id="i-4dce11c1ec52f19a-0" n="326fe70c">
+          <u who="jon_jonsson_68b030" xml:id="i-d52ba1d121dcacc3-2" n="326fe70c">
             <seg n="200bf396">
               Herr talman! Jag ber att få tacka för det svar statsrådet nu
               lämnat på min fråga om tydningen av de direktiv livsmedelskommissionen
@@ -862,7 +868,7 @@
             Chefen för ecklesiastikdepartementet, herr statsrådet WEIJNE,
             som yttrade:
           </note>
-          <u who="unknown" xml:id="i-d63acc97efbe6133-0" n="463806db">
+          <u who="unknown" xml:id="i-463806db355dd63c-0" n="463806db">
             <seg n="20fbbce2">
               Herr talman! Ledamoten av andra kammaren herr Fahlman har till
               mig riktat följande frågor:
@@ -873,7 +879,7 @@
             angående kontroll över den privata yrkesutbildningen föranlett
             några utredningsåtgärder?
           </note>
-          <u who="unknown" xml:id="i-51d563e551fd2d09-0" n="463806db">
+          <u who="unknown" xml:id="i-463806db355dd63c-1" n="463806db">
             <seg n="e443962a">
               I så fall är herr statsrådet villig lämna en redogörelse för
               resultatet därav?
@@ -881,20 +887,6 @@
             <seg n="ee1d82b6">
               Om den begärda utredningen ännu icke verkställts, har herr statsrådet
               då för avsikt att inom den närmaste tiden föranstalta därom?»
-            </seg>
-            <seg n="e4e5a81d">
-              delegationen sysslar med den lägre yrkesutbildningen. I juni
-              1948 tillsattes emellertid inom ecklesiastikdepartementet en särskild
-              kommitté rörande de stadier av den tekniska utbildningen i vårt
-              land, som ligga mellan den lägre yrkesutbildningen och den tekniska
-              högskoleutbildningen. Två särskilda utredningar pågå således för
-              närvarande för översyn av hela yrkesundervisningen, den privata
-              såväl som den statliga och kom-
-            </seg>
-            <seg n="78e81a61">
-              munala. Syftet med 1946 års riksdagsskrivelse har således tillgodosetts.
-              Utredningarna pågå ännu, varför jag icke för närvarande ser mig
-              i stånd att lämna en redogörelse för några utredningsresultat.
             </seg>
           </u>
           <note n="8d907051">
@@ -905,11 +897,22 @@
           <note n="a64126a8">
             la bl. a. den av 1946 års riksdag begärda utredningen. Yrkesutbildnings-
           </note>
+          <u who="unknown" xml:id="i-463806db355dd63c-2" n="463806db">
+            <seg n="e4e5a81d">
+              delegationen sysslar med den lägre yrkesutbildningen. I juni
+              1948 tillsattes emellertid inom ecklesiastikdepartementet en särskild
+              kommitté rörande de stadier av den tekniska utbildningen i vårt
+              land, som ligga mellan den lägre yrkesutbildningen och den tekniska
+              högskoleutbildningen. Två särskilda utredningar pågå således för
+              närvarande för översyn av hela yrkesundervisningen, den privata
+              såväl som den statliga och kom-
+            </seg>
+          </u>
           <pb n="9" facs="https://betalab.kb.se/prot-1948-höst-ak--38/prot_1948_höst_ak__38-009.jp2/_view"/>
           <note n="6ac49d73">
             10 Nr 38.
           </note>
-          <note n="328897a0">
+          <note type="date" n="4d9ef35f">
             Onsdagen den 1 december 1948.
           </note>
           <note n="054cd7ad">
@@ -919,13 +922,20 @@
           <note n="2e96b225">
             verksamheten.
           </note>
+          <u who="unknown" xml:id="i-463806db355dd63c-3" n="463806db">
+            <seg n="78e81a61">
+              munala. Syftet med 1946 års riksdagsskrivelse har således tillgodosetts.
+              Utredningarna pågå ännu, varför jag icke för närvarande ser mig
+              i stånd att lämna en redogörelse för några utredningsresultat.
+            </seg>
+          </u>
           <note n="ea76eda6">
             Vidare anförde:
           </note>
           <note type="speaker" n="c335bbfd">
             Herr FAHLMAN:
           </note>
-          <u who="georg_fahlman_7a3dfd" xml:id="i-ce903edec3c735e0-0" n="529fc973">
+          <u who="georg_fahlman_7a3dfd" xml:id="i-529fc973eaa2fc2a-0" n="529fc973">
             <seg n="b589e0f6">
               Herr talman! Om jag förstått herr statsrådets svar riktigt, så
               har den kommitté, som skall utreda just det spörsmål jag frågat
@@ -940,7 +950,7 @@
           <note type="speaker" n="e19fe35b">
             Chefen för cecklesiastikdepartementet, herr statsrådet WEIJNE:
           </note>
-          <u who="unknown" xml:id="i-2d78b605535f0d52-0" n="463806db">
+          <u who="unknown" xml:id="i-463806db355dd63c-4" n="463806db">
             <seg n="331b4044">
               Herr talman! Jag är en aning förvånad över den slutsats herr
               Fahlman drager. Jag meddelade, att skolkommissionen i februari
@@ -970,7 +980,7 @@
           <note type="speaker" n="c335bbfd">
             Herr FAHLMAN:
           </note>
-          <u who="georg_fahlman_7a3dfd" xml:id="i-ce903edec3c735e0-1" n="529fc973">
+          <u who="georg_fahlman_7a3dfd" xml:id="i-529fc973eaa2fc2a-1" n="529fc973">
             <seg n="2fbe2a70">
               Jag ber att få tacka för det förtydligande, som lämnats av detta,
               som jag hade missuppfattat.
@@ -979,7 +989,7 @@
           <note type="speaker" n="a7a00860">
             Chefen för ecklesiastikdepartementet, herr statsrådet WEIJNE:
           </note>
-          <u who="unknown" xml:id="i-2d78b605535f0d52-1" n="463806db">
+          <u who="unknown" xml:id="i-463806db355dd63c-5" n="463806db">
             <seg n="45473eeb">
               Herr talman! Det var icke något förtydligande utan ett direkt
               återgivande av vad som står i svaret.
@@ -999,7 +1009,7 @@
             Chefen för folkhushållningsdepartementet, statsrådet fru KOCK,
             erhöll på begäran ordet och yttrade:
           </note>
-          <u who="unknown" xml:id="i-d63acc97efbe6133-1" n="463806db">
+          <u who="unknown" xml:id="i-463806db355dd63c-6" n="463806db">
             <seg n="29cc28c0">
               Herr talman! Ledamoten av denna kammare herr Sveningsson har
               frågat mig, vilka resultat som uppnåtts genom den nu förekommande
@@ -1020,7 +1030,7 @@
             </seg>
           </u>
           <pb n="10" facs="https://betalab.kb.se/prot-1948-höst-ak--38/prot_1948_höst_ak__38-010.jp2/_view"/>
-          <note n="328897a0">
+          <note type="date" n="4d9ef35f">
             Onsdagen den 1 december 1948.
           </note>
           <note n="6f10f755">
@@ -1038,7 +1048,7 @@
             22 februari i år samtliga då gällande förordnanden för slaktgodemän,
             och kristidsnämnderna ålades att utfärda nya sådana förordnanden.
           </note>
-          <u who="unknown" xml:id="i-51d563e551fd2d09-1" n="463806db">
+          <u who="unknown" xml:id="i-463806db355dd63c-7" n="463806db">
             <seg n="eb7f636a">
               Erfarenheterna under den tid, som därefter förflutit, ge vid
               handen, att den nya given otvivelaktigt medförde en betydande
@@ -1118,7 +1128,7 @@
           <note type="speaker" n="eeaede97">
             Herr SVENINGSSON:
           </note>
-          <u who="ragnar_sveningsson_d38f98" xml:id="i-e0be6816adab368b-0" next="i-bb0116d00003e975-0" n="933b8250">
+          <u who="ragnar_sveningsson_d38f98" xml:id="i-933b8250899f797c-0" next="i-933b8250899f797c-2" n="933b8250">
             <seg n="16a86551">
               Herr talman! Till statsrådet och chefen för folkhushållningsdepartementet
               ber jag att få uttala ett tack för det svar jag erhållit på den
@@ -1134,7 +1144,7 @@
           <note n="7aefe8d5">
             12 Nr 38.
           </note>
-          <note n="328897a0">
+          <note type="date" n="4d9ef35f">
             Onsdagen den 1 december 1948.
           </note>
           <note n="054cd7ad">
@@ -1144,7 +1154,7 @@
           <note n="2e96b225">
             verksamheten.
           </note>
-          <u who="ragnar_sveningsson_d38f98" xml:id="i-bb0116d00003e975-0" prev="i-e0be6816adab368b-0" n="933b8250">
+          <u who="ragnar_sveningsson_d38f98" xml:id="i-933b8250899f797c-1" prev="i-933b8250899f797c-0" n="933b8250">
             <seg n="0e1ee288">
               ret anförts, röra sig med siffror uppskattningsvis.
             </seg>
@@ -1215,6 +1225,22 @@
               anser detta kontrollsystem vara meningslöst och verkningslöst.
               Jag
             </seg>
+          </u>
+          <pb n="12" facs="https://betalab.kb.se/prot-1948-höst-ak--38/prot_1948_höst_ak__38-012.jp2/_view"/>
+          <note type="date" n="4d9ef35f">
+            Onsdagen den 1 december 1948.
+          </note>
+          <note n="9fbf0853">
+            Nr 38. 13
+          </note>
+          <note n="054cd7ad">
+            Svar på fråga ang. resultatet av den genom slaktgodemännen utförda
+            kontroll-
+          </note>
+          <note n="2e96b225">
+            verksamheten.
+          </note>
+          <u who="ragnar_sveningsson_d38f98" xml:id="i-933b8250899f797c-2" prev="i-933b8250899f797c-0" n="933b8250">
             <seg n="b1cd5e59">
               har också denna höst sett i tidningsreferat, att de kommunala
               organen i en hel del socknar, när de gjort upp den kommunala staten,
@@ -1232,24 +1258,10 @@
               som vi här få vidkännas.
             </seg>
           </u>
-          <pb n="12" facs="https://betalab.kb.se/prot-1948-höst-ak--38/prot_1948_höst_ak__38-012.jp2/_view"/>
-          <note n="328897a0">
-            Onsdagen den 1 december 1948.
-          </note>
-          <note n="9fbf0853">
-            Nr 38. 13
-          </note>
-          <note n="054cd7ad">
-            Svar på fråga ang. resultatet av den genom slaktgodemännen utförda
-            kontroll-
-          </note>
-          <note n="2e96b225">
-            verksamheten.
-          </note>
           <note type="speaker" n="f5b7ef4e">
             Chefen för folkhushållningsdepartementet, statsrådet fru KOCK:
           </note>
-          <u who="unknown" xml:id="i-2d78b605535f0d52-2" n="463806db">
+          <u who="unknown" xml:id="i-463806db355dd63c-8" n="463806db">
             <seg n="a4bb415b">
               Herr talman! Herr Sveningsson nämnde, att man skulle lägga upp
               denna kontroll på sådant sätt, att man endast kontrollerade dem
@@ -1287,7 +1299,7 @@
           <note type="speaker" n="eeaede97">
             Herr SVENINGSSON:
           </note>
-          <u who="ragnar_sveningsson_d38f98" xml:id="i-fb8dcf1cc0d4b511-0" n="933b8250">
+          <u who="ragnar_sveningsson_d38f98" xml:id="i-933b8250899f797c-3" n="933b8250">
             <seg n="d70f9ccd">
               Herr talman! Statsrådet efterlyser en förteckning över dem som
               icke äro fullt lojala mot samhället utan bedriva svart handel.
@@ -1313,7 +1325,7 @@
           <note type="speaker" n="f5b7ef4e">
             Chefen för folkhushållningsdepartementet, statsrådet fru KOCK:
           </note>
-          <u who="unknown" xml:id="i-d63acc97efbe6133-2" n="463806db">
+          <u who="unknown" xml:id="i-463806db355dd63c-9" n="463806db">
             <seg n="b52b0dfa">
               Herr talman! Med anledning av herr Svenings-
             </seg>
@@ -1322,14 +1334,19 @@
           <note n="3e5e403d">
             14 Nr 38.
           </note>
-          <note n="328897a0">
+          <note type="date" n="4d9ef35f">
             Onsdagen den 1 december 1948.
           </note>
-          <u who="unknown" xml:id="i-51d563e551fd2d09-2" n="463806db">
+          <u who="unknown" xml:id="i-463806db355dd63c-10" n="463806db">
             <seg n="5d5b4ee6">
               Svar på fråga ang. för julkonsumtionen avsedd leverans av mandel
               och nöt-
             </seg>
+          </u>
+          <note n="b7096c31">
+            kärnor, m. m.
+          </note>
+          <u who="unknown" xml:id="i-463806db355dd63c-11" n="463806db">
             <seg n="1917af26">
               sons sista yttrande vill jag framhålla, att den uppskattning
               man gör av den illegala slakten, som herr Sveningsson torde ha
@@ -1347,13 +1364,10 @@
               mindre antal fall att beivra.
             </seg>
           </u>
-          <note n="b7096c31">
-            kärnor, m. m.
-          </note>
           <note type="speaker" n="eeaede97">
             Herr SVENINGSSON:
           </note>
-          <u who="ragnar_sveningsson_d38f98" xml:id="i-e0be6816adab368b-1" next="i-bb0116d00003e975-1" n="933b8250">
+          <u who="ragnar_sveningsson_d38f98" xml:id="i-933b8250899f797c-4" next="i-933b8250899f797c-7" n="933b8250">
             <seg n="dffed8cf">
               Herr talman! Hudarna, som man räknat så många gånger, tror jag
               att man icke skall räkna allt för ofta eller fästa så mycket avseende
@@ -1375,7 +1389,7 @@
           <note n="71fae46f">
             Herr talmannen lämnade på begäran ordet till
           </note>
-          <u who="ragnar_sveningsson_d38f98" xml:id="i-bb0116d00003e975-1" prev="i-e0be6816adab368b-1" n="933b8250">
+          <u who="ragnar_sveningsson_d38f98" xml:id="i-933b8250899f797c-5" prev="i-933b8250899f797c-4" n="933b8250">
             <seg n="d45b87ad">
               Chefen för folkhushållningsdepartementet, statsrådet fru KOCK,
               som yvtt-
@@ -1418,10 +1432,24 @@
               med vissa svårigheter på grund av interna spanska förhållanden
               vad gäller mandelexporten.
             </seg>
+          </u>
+          <pb n="14" facs="https://betalab.kb.se/prot-1948-höst-ak--38/prot_1948_höst_ak__38-014.jp2/_view"/>
+          <note type="date" n="4d9ef35f">
+            Onsdagen den 1 december 1948.
+          </note>
+          <note n="888a4dd9">
+            Nr 38. 15
+          </note>
+          <u who="ragnar_sveningsson_d38f98" xml:id="i-933b8250899f797c-6" prev="i-933b8250899f797c-4" n="933b8250">
             <seg n="5d5b4ee6">
               Svar på fråga ang. för julkonsumtionen avsedd leverans av mandel
               och nöt-
             </seg>
+          </u>
+          <note n="b7096c31">
+            kärnor, m. m.
+          </note>
+          <u who="ragnar_sveningsson_d38f98" xml:id="i-933b8250899f797c-7" prev="i-933b8250899f797c-4" n="933b8250">
             <seg n="1058cea0">
               Härigenom ha de scnaste leveranserna något fördröjts.
             </seg>
@@ -1436,23 +1464,13 @@
               varöver varken importörerna eller myndigheterna kunna råda.
             </seg>
           </u>
-          <pb n="14" facs="https://betalab.kb.se/prot-1948-höst-ak--38/prot_1948_höst_ak__38-014.jp2/_view"/>
-          <note n="328897a0">
-            Onsdagen den 1 december 1948.
-          </note>
-          <note n="888a4dd9">
-            Nr 38. 15
-          </note>
-          <note n="b7096c31">
-            kärnor, m. m.
-          </note>
           <note n="ea76eda6">
             Vidare anförde:
           </note>
           <note type="speaker" n="c335bbfd">
             Herr FAHLMAN:
           </note>
-          <u who="georg_fahlman_7a3dfd" xml:id="i-a90f1614187bc564-0" next="i-20a5a9bd194d8848-0" n="529fc973">
+          <u who="georg_fahlman_7a3dfd" xml:id="i-529fc973eaa2fc2a-2" next="i-529fc973eaa2fc2a-4" n="529fc973">
             <seg n="bc7f8443">
               Herr talman! Jag ber att till statsrådet och chefen för folkhushållningsdepartementet
               få framföra mitt tack för svaret.
@@ -1523,14 +1541,19 @@
           <note n="b5dd91b9">
             16 Nr 38.
           </note>
-          <note n="328897a0">
+          <note type="date" n="4d9ef35f">
             Onsdagen den 1 december 1948.
           </note>
-          <u who="georg_fahlman_7a3dfd" xml:id="i-20a5a9bd194d8848-0" prev="i-a90f1614187bc564-0" n="529fc973">
+          <u who="georg_fahlman_7a3dfd" xml:id="i-529fc973eaa2fc2a-3" prev="i-529fc973eaa2fc2a-2" n="529fc973">
             <seg n="5d5b4ee6">
               Svar på fråga ang. för julkonsumtionen avsedd leverans av mandel
               och nöt-
             </seg>
+          </u>
+          <note n="b7096c31">
+            kärnor, m. m.
+          </note>
+          <u who="georg_fahlman_7a3dfd" xml:id="i-529fc973eaa2fc2a-4" prev="i-529fc973eaa2fc2a-2" n="529fc973">
             <seg n="e2637805">
               heter till en obegränsad ekonomisk anpassning. Förhandlingar
               med priskontrollnämnden ha vid många tillfällen varit alldeles
@@ -1584,13 +1607,10 @@
             </seg>
             <seg n="163b9444"/>
           </u>
-          <note n="b7096c31">
-            kärnor, m. m.
-          </note>
           <note type="speaker" n="c335bbfd">
             Herr FAHLMAN:
           </note>
-          <u who="georg_fahlman_7a3dfd" xml:id="i-a90f1614187bc564-1" next="i-20a5a9bd194d8848-1" n="529fc973">
+          <u who="georg_fahlman_7a3dfd" xml:id="i-529fc973eaa2fc2a-5" next="i-529fc973eaa2fc2a-6" n="529fc973">
             <seg n="f2e67100">
               Herr talman! Vad som kommit in har icke kunnat distribueras förrän
               under denna vecka till avnämarna. Och även om kvantiteten hade
@@ -1613,7 +1633,7 @@
             </seg>
           </u>
           <pb n="16" facs="https://betalab.kb.se/prot-1948-höst-ak--38/prot_1948_höst_ak__38-016.jp2/_view"/>
-          <note n="328897a0">
+          <note type="date" n="4d9ef35f">
             Onsdagen den 1 december 1948.
           </note>
           <note n="249e8753">
@@ -1626,7 +1646,7 @@
           <note n="80c45aa9">
             kompensationer m. m.
           </note>
-          <u who="georg_fahlman_7a3dfd" xml:id="i-20a5a9bd194d8848-1" prev="i-a90f1614187bc564-1" n="529fc973">
+          <u who="georg_fahlman_7a3dfd" xml:id="i-529fc973eaa2fc2a-6" prev="i-529fc973eaa2fc2a-5" n="529fc973">
             <seg n="7b1fcae8">
               är omkring 75 procent högre än tidigare — det är en ungefärlig
               siffra, som jag inte kan absolut stå för, men den håller sig däromkring.
@@ -1722,7 +1742,7 @@
           <note n="b6f8b6ca">
             18 Nr 38.
           </note>
-          <note n="328897a0">
+          <note type="date" n="4d9ef35f">
             Onsdagen den 1 december 1948.
           </note>
           <note n="96cf56f8">
@@ -1756,7 +1776,7 @@
           <note type="speaker" n="96cc90b5">
             Herr HAGBERG i Luleå:
           </note>
-          <u who="hilding_hagberg_a6b9a0" xml:id="i-3e0662d8ff468a09-0" next="i-f4b353a8e3ab80d7-0" n="f2ae20ff">
+          <u who="hilding_hagberg_a6b9a0" xml:id="i-f2ae20ff4b5759af-0" next="i-f2ae20ff4b5759af-4" n="f2ae20ff">
             <seg n="b8494ee5">
               Herr talman! Det ärende som nu formellt skall avgöras gäller
               Sveriges anslutning till en konvention om betalningsöverenskommelser
@@ -1809,7 +1829,7 @@
             </seg>
           </u>
           <pb n="18" facs="https://betalab.kb.se/prot-1948-höst-ak--38/prot_1948_höst_ak__38-018.jp2/_view"/>
-          <note n="328897a0">
+          <note type="date" n="4d9ef35f">
             Onsdagen den 1 december 1948.
           </note>
           <note n="0e499be0">
@@ -1822,7 +1842,7 @@
           <note n="80c45aa9">
             kompensationer m. m.
           </note>
-          <u who="hilding_hagberg_a6b9a0" xml:id="i-f4b353a8e3ab80d7-0" prev="i-3e0662d8ff468a09-0" n="f2ae20ff">
+          <u who="hilding_hagberg_a6b9a0" xml:id="i-f2ae20ff4b5759af-1" prev="i-f2ae20ff4b5759af-0" n="f2ae20ff">
             <seg n="c8d3d150">
               med regeringen åtminstone i fråga om utrikespolitiken tämligen
               eniga partiernas sida.
@@ -1892,6 +1912,22 @@
               driver fram en ny svensk utrikespolitik. Ännu i början av detta
               år talade
             </seg>
+          </u>
+          <pb n="19" facs="https://betalab.kb.se/prot-1948-höst-ak--38/prot_1948_höst_ak__38-019.jp2/_view"/>
+          <note n="cb1913c5">
+            20 Nr 38.
+          </note>
+          <note type="date" n="4d9ef35f">
+            Onsdagen den 1 december 1948.
+          </note>
+          <note n="96cf56f8">
+            Sveriges anslutning till en överenskommelse ang. intereuropeiska
+            betalningar och
+          </note>
+          <note n="80c45aa9">
+            kompensationer m. m.
+          </note>
+          <u who="hilding_hagberg_a6b9a0" xml:id="i-f2ae20ff4b5759af-2" prev="i-f2ae20ff4b5759af-0" n="f2ae20ff">
             <seg n="33556f94">
               som bekant regeringen om att vi skulle föra en alliansfri politik
               och att vi i händelse av stormaktskrig skulle försöka hålla vårt
@@ -1960,6 +1996,22 @@
               Nationerna redan i januari 1946 — vilket beslut konfirmerades
               i december 1946 — att man skulle tillsätta en särskild kommission
             </seg>
+          </u>
+          <pb n="20" facs="https://betalab.kb.se/prot-1948-höst-ak--38/prot_1948_höst_ak__38-020.jp2/_view"/>
+          <note n="ae7461ea">
+            Onsdagen den i december 1948.
+          </note>
+          <note n="6fd34a25">
+            Nr 38. 21
+          </note>
+          <note n="96cf56f8">
+            Sveriges anslutning till en överenskommelse ang. intereuropeiska
+            betalningar och
+          </note>
+          <note n="80c45aa9">
+            kompensationer m. m.
+          </note>
+          <u who="hilding_hagberg_a6b9a0" xml:id="i-f2ae20ff4b5759af-3" prev="i-f2ae20ff4b5759af-0" n="f2ae20ff">
             <seg n="0496f55c">
               med uppgift, för det första att förbereda förstöring av befintliga
               atomvapen, för det andra att genomföra förbud mot atomvapenkrig,
@@ -2029,6 +2081,22 @@
               såsom statsministern ganska riktigt uttryckte det den 29 juni
               detta
             </seg>
+          </u>
+          <pb n="21" facs="https://betalab.kb.se/prot-1948-höst-ak--38/prot_1948_höst_ak__38-021.jp2/_view"/>
+          <note n="a6a338a0">
+            22 Nr 38.
+          </note>
+          <note type="date" n="4d9ef35f">
+            Onsdagen den 1 december 1948.
+          </note>
+          <note n="96cf56f8">
+            Sveriges anslutning till en överenskommelse ang. intereuropeiska
+            betalningar och
+          </note>
+          <note n="80c45aa9">
+            kompensationer m. m.
+          </note>
+          <u who="hilding_hagberg_a6b9a0" xml:id="i-f2ae20ff4b5759af-4" prev="i-f2ae20ff4b5759af-0" n="f2ae20ff">
             <seg n="b0e23c5b">
               år, en fråga om liv och död för våra pojkar, en fråga om liv
               och död för vårt land, en fråga om huruvida man skall styra in
@@ -2057,52 +2125,10 @@
               bifall till den motion, som vi ha väckt.
             </seg>
           </u>
-          <pb n="19" facs="https://betalab.kb.se/prot-1948-höst-ak--38/prot_1948_höst_ak__38-019.jp2/_view"/>
-          <note n="cb1913c5">
-            20 Nr 38.
-          </note>
-          <note n="328897a0">
-            Onsdagen den 1 december 1948.
-          </note>
-          <note n="96cf56f8">
-            Sveriges anslutning till en överenskommelse ang. intereuropeiska
-            betalningar och
-          </note>
-          <note n="80c45aa9">
-            kompensationer m. m.
-          </note>
-          <pb n="20" facs="https://betalab.kb.se/prot-1948-höst-ak--38/prot_1948_höst_ak__38-020.jp2/_view"/>
-          <note n="ae7461ea">
-            Onsdagen den i december 1948.
-          </note>
-          <note n="6fd34a25">
-            Nr 38. 21
-          </note>
-          <note n="96cf56f8">
-            Sveriges anslutning till en överenskommelse ang. intereuropeiska
-            betalningar och
-          </note>
-          <note n="80c45aa9">
-            kompensationer m. m.
-          </note>
-          <pb n="21" facs="https://betalab.kb.se/prot-1948-höst-ak--38/prot_1948_höst_ak__38-021.jp2/_view"/>
-          <note n="a6a338a0">
-            22 Nr 38.
-          </note>
-          <note n="328897a0">
-            Onsdagen den 1 december 1948.
-          </note>
-          <note n="96cf56f8">
-            Sveriges anslutning till en överenskommelse ang. intereuropeiska
-            betalningar och
-          </note>
-          <note n="80c45aa9">
-            kompensationer m. m.
-          </note>
           <note type="speaker" n="d9395102">
             Herr SKOGLUND i Doverstorp:
           </note>
-          <u who="martin_skoglund_a58f6d" xml:id="i-66b971ba1290f322-0" next="i-c85ff9daf69a2020-0" n="a87e5d99">
+          <u who="martin_skoglund_a58f6d" xml:id="i-a87e5d99f367ad5b-0" next="i-a87e5d99f367ad5b-3" n="a87e5d99">
             <seg n="590df506">
               Herr talman! Själva syftet med Sveriges deltagande i Parisorganisationen
               är klart och kan inte på något sätt anses svårfattbart. Vi vilja
@@ -2145,13 +2171,13 @@
             </seg>
           </u>
           <pb n="22" facs="https://betalab.kb.se/prot-1948-höst-ak--38/prot_1948_höst_ak__38-022.jp2/_view"/>
-          <note n="328897a0">
+          <note type="date" n="4d9ef35f">
             Onsdagen den 1 december 1948.
           </note>
           <note n="d94e858b">
             Nr 38. 23
           </note>
-          <u who="martin_skoglund_a58f6d" xml:id="i-c85ff9daf69a2020-0" prev="i-66b971ba1290f322-0" n="a87e5d99">
+          <u who="martin_skoglund_a58f6d" xml:id="i-a87e5d99f367ad5b-1" prev="i-a87e5d99f367ad5b-0" n="a87e5d99">
             <seg n="90e70cbf">
               Pensionsreglering vid av staten övertagna enskilda trafikföretag.
             </seg>
@@ -2171,12 +2197,6 @@
               riksdagen måtte bifalla Kungl. Maj:ts proposition, vilket givetvis
               också innebär ett avslag på den av herr Hagberg m. fl. väckta
               motionen.
-            </seg>
-            <seg n="90e70cbf">
-              Pensionsreglering vid av staten övertagna enskilda trafikföretag.
-            </seg>
-            <seg n="90e70cbf">
-              Pensionsreglering vid av staten övertagna enskilda trafikföretag.
             </seg>
           </u>
           <note n="f7637836">
@@ -2209,6 +2229,11 @@
           <note n="ffa82cdd">
             8 10.
           </note>
+          <u who="martin_skoglund_a58f6d" xml:id="i-a87e5d99f367ad5b-2" prev="i-a87e5d99f367ad5b-0" n="a87e5d99">
+            <seg n="90e70cbf">
+              Pensionsreglering vid av staten övertagna enskilda trafikföretag.
+            </seg>
+          </u>
           <note n="2ca78d03">
             Föredrogs bankoutskottets utlåtande nr 56, i anledning av Kungl.
             Maj:ts proposition angående pensionsreglering för vissa förutvarande
@@ -2247,9 +2272,14 @@
           <note n="06ecf4e9">
             24 Nr 38.
           </note>
-          <note n="328897a0">
+          <note type="date" n="4d9ef35f">
             Onsdagen den 1 december 1948.
           </note>
+          <u who="martin_skoglund_a58f6d" xml:id="i-a87e5d99f367ad5b-3" prev="i-a87e5d99f367ad5b-0" n="a87e5d99">
+            <seg n="90e70cbf">
+              Pensionsreglering vid av staten övertagna enskilda trafikföretag.
+            </seg>
+          </u>
           <note n="2f4d078e">
             anställningshavare vid av staten övertagna enskilda trafikföretag
             m. fl. ävensom efterlevande till sådana anställningshavare.
@@ -2260,7 +2290,7 @@
           <note type="speaker" n="da6d2208">
             Herr HOLMSTRÖM:
           </note>
-          <u who="nils_holmstrom_4c09fc" xml:id="i-890d89625a2bebe9-0" n="9020a99a">
+          <u who="nils_holmstrom_4c09fc" xml:id="i-9020a99a6b29342b-0" n="9020a99a">
             <seg n="fa0006ef">
               Herr talman! Jag har i detta ärende avgivit en motion, i vilken
               jag yrkar »att riksdagen må bemyndiga Kungl. Maj:t att utfärda
@@ -2309,7 +2339,7 @@
           <note type="speaker" n="784f794a">
             Herr WIBERG:
           </note>
-          <u who="ake_wiberg_3e83f4" xml:id="i-a236a12f146d169d-0" next="i-3e6896f8337e9ba2-0" n="da63543a">
+          <u who="ake_wiberg_3e83f4" xml:id="i-da63543a8207e382-0" next="i-da63543a8207e382-1" n="da63543a">
             <seg n="e1e282aa">
               Herr talman! Till det yrkande om bifall till utskottets hemställan,
               som jag avser framställa, skall jag be att få knyta några korta
@@ -2338,7 +2368,7 @@
             </seg>
           </u>
           <pb n="24" facs="https://betalab.kb.se/prot-1948-höst-ak--38/prot_1948_höst_ak__38-024.jp2/_view"/>
-          <note n="328897a0">
+          <note type="date" n="4d9ef35f">
             Onsdagen den 1 december 1948.
           </note>
           <note n="0c91c10e">
@@ -2347,7 +2377,7 @@
           <note n="a540009f">
             Interpellation ang. redogörelse för regeringens stabiliseringspolitik.
           </note>
-          <u who="ake_wiberg_3e83f4" xml:id="i-3e6896f8337e9ba2-0" prev="i-a236a12f146d169d-0" n="da63543a">
+          <u who="ake_wiberg_3e83f4" xml:id="i-da63543a8207e382-1" prev="i-da63543a8207e382-0" n="da63543a">
             <seg n="3ba860d8">
               siella läge svårligen gå längre. Naturligtvis skulle man ha önskat,
               att tiderna varit sådana, att man kunnat tillmötesgå den stora
@@ -2400,7 +2430,7 @@
           <note type="speaker" n="166294db">
             Herr OHBLIN, som yttrade:
           </note>
-          <u who="unknown" xml:id="i-d63acc97efbe6133-3" n="463806db">
+          <u who="unknown" xml:id="i-463806db355dd63c-12" n="463806db">
             <seg n="3ea1636e">
               Herr talman! Den svenska samhällsekonomien utmärkes som allmänt
               erkännes sedan några år av en brist på balans. Den samlade efterfrågan
@@ -2410,7 +2440,7 @@
           <note n="c8b6f7ba">
             3—
           </note>
-          <u who="unknown" xml:id="i-51d563e551fd2d09-3" n="463806db">
+          <u who="unknown" xml:id="i-463806db355dd63c-13" n="463806db">
             <seg n="0ee86167">
               ster för konsumtion och för investering har varit och är alltjämt
               för stor i förhållande till det löpande produktionsresultatet.
@@ -2447,6 +2477,25 @@
               regeringens avsikter och åtaganden i fråga om prisnivåns stabilisering.
               En rad uttalanden synas antyda att regeringen
             </seg>
+          </u>
+          <note n="14b95354">
+            Andra kammarens protokoll 1948. Nr 38.
+          </note>
+          <pb n="25" facs="https://betalab.kb.se/prot-1948-höst-ak--38/prot_1948_höst_ak__38-025.jp2/_view"/>
+          <note n="8a9e862c">
+            26 Nr 38.
+          </note>
+          <note type="date" n="058c0245">
+            Onsdagen den 1 december 19438.
+          </note>
+          <note n="240fca72">
+            Interpellation ang. lättnader i kontrollen över försäljningsskattens
+            utgörande inom
+          </note>
+          <note n="bf34b13c">
+            guldsmedsbranschen.
+          </note>
+          <u who="unknown" xml:id="i-463806db355dd63c-14" n="463806db">
             <seg n="15773547">
               skulle sikta till en stabilisering av prisnivån som en förutsättning
               för de fackliga organisationernas återhållsamhet i fråga om inkomstbildningen.
@@ -2496,23 +2545,6 @@
               eller näringsorganisationer?
             </seg>
           </u>
-          <note n="14b95354">
-            Andra kammarens protokoll 1948. Nr 38.
-          </note>
-          <pb n="25" facs="https://betalab.kb.se/prot-1948-höst-ak--38/prot_1948_höst_ak__38-025.jp2/_view"/>
-          <note n="8a9e862c">
-            26 Nr 38.
-          </note>
-          <note n="51450dca">
-            Onsdagen den 1 december 19438.
-          </note>
-          <note n="240fca72">
-            Interpellation ang. lättnader i kontrollen över försäljningsskattens
-            utgörande inom
-          </note>
-          <note n="bf34b13c">
-            guldsmedsbranschen.
-          </note>
           <note n="67340a5d">
             Kammaren biföll denna anhållan.
           </note>
@@ -2526,7 +2558,7 @@
           <note type="speaker" n="5cf9630e">
             Herr HJALMARSON erhöll på begäran ordet och anförde:
           </note>
-          <u who="_jarl_hjalmarson_82cf3a" xml:id="i-5cddd7ea396d8605-0" next="i-4b8f82b873ae6cd4-0" n="6c7c38dc">
+          <u who="_jarl_hjalmarson_82cf3a" xml:id="i-4b31a88d3b901a2f-0" next="i-4b31a88d3b901a2f-1" n="6c7c38dc">
             <seg n="fd781f34">
               Herr talman! I början av detta år utfärdades en förordning om
               försäljningsskatt å bl. a. guldsmedsvaror. Enligt förordningen
@@ -2550,7 +2582,7 @@
             </seg>
           </u>
           <pb n="26" facs="https://betalab.kb.se/prot-1948-höst-ak--38/prot_1948_höst_ak__38-026.jp2/_view"/>
-          <note n="328897a0">
+          <note type="date" n="4d9ef35f">
             Onsdagen den 1 december 1948.
           </note>
           <note n="17ce5c4b">
@@ -2570,7 +2602,7 @@
             ävensom de anvisningar kontrolltjänsteman i enlighet med kontrollstyrelsens
             föreskrifter kan komma att lämna».
           </note>
-          <u who="_jarl_hjalmarson_82cf3a" xml:id="i-4b8f82b873ae6cd4-0" prev="i-5cddd7ea396d8605-0" n="6c7c38dc">
+          <u who="_jarl_hjalmarson_82cf3a" xml:id="i-4b31a88d3b901a2f-1" prev="i-4b31a88d3b901a2f-0" n="6c7c38dc">
             <seg n="5fcf52a1">
               Enligt förordningen äger kontrolltjänsteman vidare påfordra att
               när som helst erhålla tillträde till samtliga lokaler och utrymmen

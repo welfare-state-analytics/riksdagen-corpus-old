@@ -20,7 +20,7 @@
     <encodingDesc>
       <editorialDecl>
         <correction>
-          <p>Some data curation was done. It is documented in db/curation/instances</p>
+          <p>Some data curation was done. It is documented in input/curation/instances</p>
         </correction>
       </editorialDecl>
     </encodingDesc>
@@ -58,13 +58,14 @@
       </front>
       <body>
         <div>
+          <pb n="0" facs="https://betalab.kb.se/prot-1923--ak--33/prot_1923__ak__33-000.jp2/_view"/>
           <note n="71b56101">
             RIKSDAGENS PROTOKOLL. 1923. Andra kammaren. Nr 33.
           </note>
           <note n="14179218"/>
           <note n="14179218"/>
           <note n="14179218"/>
-          <note n="ba8dc899">
+          <note type="date" n="b7e145d7">
             Onsdagen den 9 maj. KIL. 11 f. m.
           </note>
           <note n="904ffb4a">
@@ -121,7 +122,7 @@
             Nr 33. 1
           </note>
           <pb n="1" facs="https://betalab.kb.se/prot-1923--ak--33/prot_1923__ak__33-001.jp2/_view"/>
-          <note n="b4d6c3a0">
+          <note type="date" n="c70ba25f">
             Nr 838. 2 Onsdagen den 9 maj.
           </note>
           <note n="2929df1e">
@@ -173,7 +174,7 @@
             i handelsföretag;
           </note>
           <pb n="2" facs="https://betalab.kb.se/prot-1923--ak--33/prot_1923__ak__33-002.jp2/_view"/>
-          <note n="c846b493">
+          <note type="date" n="6ac0f5e0">
             Onsdagen den 9 maj. 3 Nr 83.
           </note>
           <note n="d017eabc">
@@ -211,7 +212,7 @@
           <note type="speaker" n="2f1669d9">
             Herr Karlsson i Gasabäck, som yttrade:
           </note>
-          <u who="verner_karlsson_934de4" xml:id="i-05825fe5fefde991-0" n="0410bdd4">
+          <u who="verner_karlsson_934de4" xml:id="i-0410bdd446a36122-0" n="0410bdd4">
             <seg n="2ec9c880">
               Herr talman! Jag ber att få föreslå, att förevarande utskottsutlåtande
               må företagas till avgörande på det sätt, att först föredragas
@@ -241,7 +242,7 @@
           <note type="speaker" n="1d9085e9">
             Herr Sundling:
           </note>
-          <u who="ca_sundling_07d59b" xml:id="i-bc3f029854b9e5c1-0" next="i-30757102e162e1da-0" n="1217103e">
+          <u who="ca_sundling_07d59b" xml:id="i-013fff823474067d-0" next="i-013fff823474067d-3" n="1217103e">
             <seg n="470f51a5">
               Herr talman! Herr Magnusson i Skövde och Jag ha här avlämnat
               en liten reservation. Det förhåller sig, såsom herrarna torde
@@ -268,7 +269,7 @@
           <note type="date" n="6484fab3">
             4 Onsdagen den 9 maj.
           </note>
-          <u who="ca_sundling_07d59b" xml:id="i-30757102e162e1da-0" prev="i-bc3f029854b9e5c1-0" n="1217103e">
+          <u who="ca_sundling_07d59b" xml:id="i-013fff823474067d-1" prev="i-013fff823474067d-0" n="1217103e">
             <seg n="da822996">
               kommer det emellertid att verka rätt egendomligt på landsbygden,
             </seg>
@@ -276,6 +277,12 @@
               vissa vid den att harnen under vissa förhållanden inte få arbeta
               i jordbruk, innan
             </seg>
+          </u>
+          <note n="bb85cfe0">
+            internationella arbetsorganisationens konferens Geneve år 1921
+            fattade beslut. (Forts.)
+          </note>
+          <u who="ca_sundling_07d59b" xml:id="i-013fff823474067d-2" prev="i-013fff823474067d-0" n="1217103e">
             <seg n="234947cf">
               de fyllt 14 år, och särskilt kommer detta att innebära en stor
               olägenhet för de små jordbrukarna, vilka ha mycket stort behov
@@ -297,18 +304,16 @@
               punkter är riktig eller icke. Jag har, herr talman, intet yrkande
               att göra.
             </seg>
-            <seg n="c5cfd6f6">
-              De med V och VII—XI betecknade rekommendationerna och konventionsförslagen.
-            </seg>
           </u>
-          <note n="bb85cfe0">
-            internationella arbetsorganisationens konferens Geneve år 1921
-            fattade beslut. (Forts.)
-          </note>
           <note n="3dd3f3f1">
             Vidare yttrades ej. Utskottets hemställan beträffande förevarande
             konventionsförslag bifölls.
           </note>
+          <u who="ca_sundling_07d59b" xml:id="i-013fff823474067d-3" prev="i-013fff823474067d-0" n="1217103e">
+            <seg n="c5cfd6f6">
+              De med V och VII—XI betecknade rekommendationerna och konventionsförslagen.
+            </seg>
+          </u>
           <note n="7cc88dc3">
             Kammaren biföll vad utskottet i avseende å var och en av dessa
             delar hemställt.
@@ -320,7 +325,7 @@
           <note type="speaker" n="e8d1c23a">
             Herr Johanson i Stockholm, som yttrade:
           </note>
-          <u who="oscar_johanson_18c7f6" xml:id="i-144491ff21bea880-0" next="i-35ba3399f1521f7b-0" n="584e8767">
+          <u who="oscar_johanson_18c7f6" xml:id="i-584e876717167b05-0" next="i-584e876717167b05-4" n="584e8767">
             <seg n="e190a8d1">
               Herr talman, mina damer och herrar! Såsom framgår av utskottets
               utlåtande, ha socialdemokraterna här icke kunnat biträda utskottsmajoritetens
@@ -342,10 +347,10 @@
             </seg>
           </u>
           <pb n="4" facs="https://betalab.kb.se/prot-1923--ak--33/prot_1923__ak__33-004.jp2/_view"/>
-          <note n="2e488b37">
+          <note type="date" n="39127ce3">
             Onsdagen den 9 maj. 5 Nr 83.
           </note>
-          <u who="oscar_johanson_18c7f6" xml:id="i-35ba3399f1521f7b-0" prev="i-144491ff21bea880-0" n="584e8767">
+          <u who="oscar_johanson_18c7f6" xml:id="i-584e876717167b05-1" prev="i-584e876717167b05-0" n="584e8767">
             <seg n="f2612181">
               enligt landets eller traktens tradition eller sedvänja ägnas
               åt vila, : Ang. så är det uppenbart, att den icke kommer att ålägga
@@ -398,20 +403,6 @@
               framgår det av utskottets utlåtande, att reservanterna icke ha
               formulerat något yrkande. Vi ha ansett, att utskottet
             </seg>
-            <seg n="7c41d35b">
-              sationens
-            </seg>
-            <seg n="ac756874">
-              konferens
-            </seg>
-            <seg n="21cb594e">
-              (Forts.)
-            </seg>
-            <seg n="8de34925">
-              bort tillstyrka ratificering av konventionen. Men vi äro fullt
-              medvetna om, att det inte finns möjlighet härtill vid detta tillfälle.
-              Jag skall därför, herr talman, icke göra något yrkande.
-            </seg>
           </u>
           <pb n="5" facs="https://betalab.kb.se/prot-1923--ak--33/prot_1923__ak__33-005.jp2/_view"/>
           <note n="1cc1c4ad">
@@ -420,12 +411,25 @@
           <note n="c9bb495b">
             Ang. vissa vid den internationella arbetsorgani-
           </note>
+          <u who="oscar_johanson_18c7f6" xml:id="i-584e876717167b05-2" prev="i-584e876717167b05-0" n="584e8767">
+            <seg n="7c41d35b">
+              sationens
+            </seg>
+            <seg n="ac756874">
+              konferens
+            </seg>
+          </u>
           <note n="b193f6b5">
             i Gendve
           </note>
           <note n="20f4c427">
             år 1921 fattade beslut.
           </note>
+          <u who="oscar_johanson_18c7f6" xml:id="i-584e876717167b05-3" prev="i-584e876717167b05-0" n="584e8767">
+            <seg n="21cb594e">
+              (Forts.)
+            </seg>
+          </u>
           <note n="a3b15948">
             Ang. anstånd med fortsatt utarrendering av Bäckaskogs kungsgård
             m. Mm.
@@ -433,6 +437,13 @@
           <note type="date" n="2aacc4bd">
             6 Onsdagen den 9 maj.
           </note>
+          <u who="oscar_johanson_18c7f6" xml:id="i-584e876717167b05-4" prev="i-584e876717167b05-0" n="584e8767">
+            <seg n="8de34925">
+              bort tillstyrka ratificering av konventionen. Men vi äro fullt
+              medvetna om, att det inte finns möjlighet härtill vid detta tillfälle.
+              Jag skall därför, herr talman, icke göra något yrkande.
+            </seg>
+          </u>
           <note n="e65858fa">
             Vidare anfördes ej. Utskottets hemställan i fråga om förevarande
             konventionsförslag bifölls.
@@ -483,7 +494,7 @@
           <note type="speaker" n="8551bada">
             Herr Persson i Fritorp:
           </note>
-          <u who="swen_persson_409646" xml:id="i-0c5d411fdcda8245-0" next="i-6a74d9bcf0d99821-0" n="54a9c1ce">
+          <u who="swen_persson_409646" xml:id="i-87585e2f0b25f841-0" next="i-87585e2f0b25f841-5" n="54a9c1ce">
             <seg n="ca835ade">
               Herr talman, mina damer och herrar! Det ärende, som nu är föredraget
               till avgörande, är av en ganska ovanlig beskaffenhet, och det
@@ -500,10 +511,10 @@
             </seg>
           </u>
           <pb n="6" facs="https://betalab.kb.se/prot-1923--ak--33/prot_1923__ak__33-006.jp2/_view"/>
-          <note n="cccf531c">
+          <note type="date" n="589c3c93">
             Onsdagen den 9 maj. 7 Nr 383.
           </note>
-          <u who="swen_persson_409646" xml:id="i-6a74d9bcf0d99821-0" prev="i-0c5d411fdcda8245-0" n="54a9c1ce">
+          <u who="swen_persson_409646" xml:id="i-87585e2f0b25f841-1" prev="i-87585e2f0b25f841-0" n="54a9c1ce">
             <seg n="859222e9">
               icke från i går. Vissa delar av densamma hava tillkommit mycket
               Ang. långt tillbaka i tiden. Gården var under medeltiden ett kloster.
@@ -534,6 +545,12 @@
             <seg n="c10b1841">
               nad, lilla Bäckaskog, och dessutom finnes bostadshus för trädgårds-
             </seg>
+          </u>
+          <note n="61be96be">
+            mästare m. m. Någon bostadsbrist är alltså inte befintlig för
+            inne-
+          </note>
+          <u who="swen_persson_409646" xml:id="i-87585e2f0b25f841-2" prev="i-87585e2f0b25f841-0" n="54a9c1ce">
             <seg n="efd301c1">
               havaren av denna herrgård.
             </seg>
@@ -577,6 +594,18 @@
               att den bästa jorden ligger ungefär 3 kilometer ifrån gården.
               Vad det inne-
             </seg>
+          </u>
+          <pb n="7" facs="https://betalab.kb.se/prot-1923--ak--33/prot_1923__ak__33-007.jp2/_view"/>
+          <note n="1cc1c4ad">
+            Nr 33.
+          </note>
+          <note n="ea908463">
+            Ang.
+          </note>
+          <note n="a302a847">
+            8 Onsdagen den I maj.
+          </note>
+          <u who="swen_persson_409646" xml:id="i-87585e2f0b25f841-3" prev="i-87585e2f0b25f841-0" n="54a9c1ce">
             <seg n="d6b7f585">
               bär i kostnadsökning för driften kunna ju herrar jordbrukare
               själva
@@ -585,6 +614,11 @@
               anstånd med förstå. Då motionären synes förutsätta, att all åkerjorden
               skall
             </seg>
+          </u>
+          <note n="d052552f">
+            fortsatt
+          </note>
+          <u who="swen_persson_409646" xml:id="i-87585e2f0b25f841-4" prev="i-87585e2f0b25f841-0" n="54a9c1ce">
             <seg n="d95c3ae5">
               utärrendering StYCkas till småbruk, måste jag emellertid ställa
               mig något betänkav Bäckaskogs sam mot realiserandet av denna tanke.
@@ -594,6 +628,11 @@
               kungsgård nordligast belägna åkerfälten — jag kan ej säga hur
               stora de äro,
             </seg>
+          </u>
+          <note n="e3a5b860">
+            m. m. (Forts.)
+          </note>
+          <u who="swen_persson_409646" xml:id="i-87585e2f0b25f841-5" prev="i-87585e2f0b25f841-0" n="54a9c1ce">
             <seg n="a0eedc3a">
               fastän jag färdats där förbi väl hundra gånger, men jag tänker
               mig 100 åa 150 tunnland — av tyngre, synnerligen styvskött lerjord
@@ -643,30 +682,10 @@
               talman, att få yrka bifall till jordbruksutskottets hemställan.
             </seg>
           </u>
-          <note n="61be96be">
-            mästare m. m. Någon bostadsbrist är alltså inte befintlig för
-            inne-
-          </note>
-          <pb n="7" facs="https://betalab.kb.se/prot-1923--ak--33/prot_1923__ak__33-007.jp2/_view"/>
-          <note n="1cc1c4ad">
-            Nr 33.
-          </note>
-          <note n="ea908463">
-            Ang.
-          </note>
-          <note n="a302a847">
-            8 Onsdagen den I maj.
-          </note>
-          <note n="d052552f">
-            fortsatt
-          </note>
-          <note n="e3a5b860">
-            m. m. (Forts.)
-          </note>
           <note type="speaker" n="d952aafe">
             Herr Hermelin:
           </note>
-          <u who="richard_hermelin_b82754" xml:id="i-12e92d490fe4dea8-0" next="i-298ef2dddc469486-0" n="5876ee86">
+          <u who="richard_hermelin_b82754" xml:id="i-5876ee868dcd5a63-0" next="i-5876ee868dcd5a63-1" n="5876ee86">
             <seg n="f7fb5207">
               Herr talman! Vid detta utskottsutlåtande är fogad en reservation
               av herr Hellström, och då jag inom utskottet
@@ -676,7 +695,7 @@
           <note type="date" n="25183d1c">
             Onsdagen den 9 maj. 9
           </note>
-          <u who="richard_hermelin_b82754" xml:id="i-298ef2dddc469486-0" prev="i-12e92d490fe4dea8-0" n="5876ee86">
+          <u who="richard_hermelin_b82754" xml:id="i-5876ee868dcd5a63-1" prev="i-5876ee868dcd5a63-0" n="5876ee86">
             <seg n="d9698fc9">
               i visst avseende anslöt mig till hans uppfattning, så kanske
               jag får med några få ord redogöra för reservationens innebörd.
@@ -758,7 +777,7 @@
           <note type="speaker" n="64dc9e37">
             Chefen för jordbruksdepartementet, herr statsrådet Pettersson:
           </note>
-          <u who="jakob_pettersson_24695e" xml:id="i-5546f7eb2b41eef1-0" n="329cd1e1">
+          <u who="jakob_pettersson_24695e" xml:id="i-329cd1e163b0d554-0" n="329cd1e1">
             <seg n="90e5b9ea">
               Herr talman, mina damer och herrar! Jag ber att få yttra ett
               par ord med anledning av den vädjan, herr Swen Persson gjorde
@@ -787,7 +806,7 @@
           <note type="speaker" n="b11890f8">
             Herr Nilsson i Tånga:
           </note>
-          <u who="per_nilsson_60ce3c" xml:id="i-85ce578cb987f182-0" next="i-44e2dfa2eeb5c2b5-0" n="4b58950c">
+          <u who="per_nilsson_60ce3c" xml:id="i-4b58950c5d4d94bc-0" next="i-4b58950c5d4d94bc-1" n="4b58950c">
             <seg n="6b36e241">
               Herr talman! I fråga om herr statsrådets yttrande, att herr statsrådet
               tolkat detta såsom ett slags principuttalande, vill jag säga,
@@ -825,7 +844,7 @@
           <note n="400e22a1">
             Onsdagen den I maj. 11
           </note>
-          <u who="per_nilsson_60ce3c" xml:id="i-44e2dfa2eeb5c2b5-0" prev="i-85ce578cb987f182-0" n="4b58950c">
+          <u who="per_nilsson_60ce3c" xml:id="i-4b58950c5d4d94bc-1" prev="i-4b58950c5d4d94bc-0" n="4b58950c">
             <seg n="95861156">
               motiveringen omtalat, att olika alternativ kunna komma under
               prövning, och för att man skall få veta vilka de äro ansågo vi
@@ -838,7 +857,7 @@
           <note type="speaker" n="39ec131e">
             Herr Hamilton:
           </note>
-          <u who="raoul_hamilton_62a229" xml:id="i-e7cae09fcf347b29-0" n="1bab1db1">
+          <u who="raoul_hamilton_62a229" xml:id="i-1bab1db12b982b58-0" n="1bab1db1">
             <seg n="c1763fac">
               Herr talman! Jag ber att få taga fasta på det uttalande, som
               herr statsrådet och chefen för jordbruksdepartementet haft, att
@@ -881,7 +900,7 @@
           <note type="speaker" n="2347f953">
             Herr Larsson i Kroken:
           </note>
-          <u who="viktor_larsson_65d074" xml:id="i-340b092b119f7adb-0" next="i-376bca8217a1c500-0" n="f51abcd3">
+          <u who="viktor_larsson_65d074" xml:id="i-f51abcd3dd0e34d7-0" next="i-f51abcd3dd0e34d7-1" n="f51abcd3">
             <seg n="9b38e423">
               Herr talman! Jag skall med några korta ord uttala min tacksamhet
               och glädje över för det första att ett så gott som enhälligt utskott
@@ -914,7 +933,7 @@
           <note type="date" n="065b24c8">
             12 Onsdagen den 9 maj.
           </note>
-          <u who="viktor_larsson_65d074" xml:id="i-376bca8217a1c500-0" prev="i-340b092b119f7adb-0" n="f51abcd3">
+          <u who="viktor_larsson_65d074" xml:id="i-f51abcd3dd0e34d7-1" prev="i-f51abcd3dd0e34d7-0" n="f51abcd3">
             <seg n="444b1ebe">
               rättas. Arbetslösheten vid industrien gör det önskligt, att så
               många som möjligt kunna sysselsättas vid jordbruket. Då är det
@@ -939,7 +958,7 @@
           <note type="speaker" n="8551bada">
             Herr Persson i Fritorp:
           </note>
-          <u who="swen_persson_409646" xml:id="i-b3be3c57dc74e6cf-0" n="54a9c1ce">
+          <u who="swen_persson_409646" xml:id="i-87585e2f0b25f841-6" n="54a9c1ce">
             <seg n="b37843c9">
               Herr talman! Jag ber att på uppskattningsnämndens vägnar få till
               herr statsrådet frambära min tacksamhet för det svar jag fick
@@ -963,7 +982,7 @@
           <note type="speaker" n="39ec131e">
             Herr Hamilton:
           </note>
-          <u who="raoul_hamilton_62a229" xml:id="i-74982368b4bd701a-0" next="i-9b521d7c3f53b7c0-0" n="1bab1db1">
+          <u who="raoul_hamilton_62a229" xml:id="i-1bab1db12b982b58-1" next="i-1bab1db12b982b58-2" n="1bab1db1">
             <seg n="b15da28b">
               Herr talman! Det är kanske icke lämpligt att komma med någon
               anmärkning emot värderingsmännen, då en av dem är här närvarande.
@@ -989,7 +1008,7 @@
           <note type="date" n="a2fa6cfa">
             Onsdagen den 9 maj. 13
           </note>
-          <u who="raoul_hamilton_62a229" xml:id="i-9b521d7c3f53b7c0-0" prev="i-74982368b4bd701a-0" n="1bab1db1">
+          <u who="raoul_hamilton_62a229" xml:id="i-1bab1db12b982b58-2" prev="i-1bab1db12b982b58-1" n="1bab1db1">
             <seg n="9c7250da">
               styckning, och jag hoppas då, att han och hans kamrater vilja
               åstadkomma en förbättring därvidlag.
@@ -1023,7 +1042,7 @@
           <note type="speaker" n="39ec131e">
             Herr Hamilton:
           </note>
-          <u who="raoul_hamilton_62a229" xml:id="i-e7cae09fcf347b29-1" n="1bab1db1">
+          <u who="raoul_hamilton_62a229" xml:id="i-1bab1db12b982b58-3" n="1bab1db1">
             <seg n="6ae9b3b0">
               Herr talman! Jag har begärt ordet ännu en gång för att tacka
               herr statsrådet för vad han sade om samarbetet mellan staten och
@@ -1049,7 +1068,7 @@
           <note type="speaker" n="d952aafe">
             Herr Hermelin:
           </note>
-          <u who="richard_hermelin_b82754" xml:id="i-12e92d490fe4dea8-1" next="i-298ef2dddc469486-1" n="5876ee86">
+          <u who="richard_hermelin_b82754" xml:id="i-5876ee868dcd5a63-2" next="i-5876ee868dcd5a63-3" n="5876ee86">
             <seg n="85e606e4">
               Herr talman! Jag tror ej, att vi här på grund av en enskild motion
               skola draga upp en stor debatt i de jordpolitiska spörsmålen,
@@ -1074,7 +1093,7 @@
           <note type="date" n="f04275e1">
             14 Onsdagen den 9 maj.
           </note>
-          <u who="richard_hermelin_b82754" xml:id="i-298ef2dddc469486-1" prev="i-12e92d490fe4dea8-1" n="5876ee86">
+          <u who="richard_hermelin_b82754" xml:id="i-5876ee868dcd5a63-3" prev="i-5876ee868dcd5a63-2" n="5876ee86">
             <seg n="529f470d">
               med en principdebatt till ett annat tillfälle, nämligen om ej
               förr, då den stora jordreformen kommit fram. Då får man se till,
@@ -1086,7 +1105,7 @@
           <note type="speaker" n="74e9beb9">
             Herr Olsson i Broberg:
           </note>
-          <u who="valerius_olsson_5015ad" xml:id="i-aed25060793f4a69-0" n="2e99a71b">
+          <u who="valerius_olsson_5015ad" xml:id="i-8ad5e6d616cf803f-0" n="2e99a71b">
             <seg n="bf96a8e9">
               Herr talman! Det är riktigt, som herr Hermelin sist sade, att
               motionen ej kan ge anledning till en principdebatt i frågan, ty
@@ -1128,7 +1147,7 @@
           <note type="speaker" n="8551bada">
             Herr Persson i Fritorp:
           </note>
-          <u who="swen_persson_409646" xml:id="i-0c5d411fdcda8245-1" next="i-6a74d9bcf0d99821-1" n="54a9c1ce">
+          <u who="swen_persson_409646" xml:id="i-87585e2f0b25f841-7" next="i-87585e2f0b25f841-8" n="54a9c1ce">
             <seg n="b08f516e">
               Herr talman! Det är så, som den föregående talaren anförde, att
               vi i dag ha gott om tid, så att vi kunna tala en stund till. Jag
@@ -1150,7 +1169,7 @@
             på Lillö kungsgård, och vid uppskattningen av den egendomen var
             jag ej med.
           </note>
-          <u who="swen_persson_409646" xml:id="i-6a74d9bcf0d99821-1" prev="i-0c5d411fdcda8245-1" n="54a9c1ce">
+          <u who="swen_persson_409646" xml:id="i-87585e2f0b25f841-8" prev="i-87585e2f0b25f841-7" n="54a9c1ce">
             <seg n="bf4bbca4">
               Sedan jag alltså befriats från herr Hamiltons klander i den vägen
               och hans tal om, att jag skulle ha dåligt samvete, vill jag säga
@@ -1165,7 +1184,7 @@
           <note type="speaker" n="e70e7b50">
             Herr Olsson i Kullenbergstorp:
           </note>
-          <u who="valerius_olsson_5015ad" xml:id="i-3807f060a32ce6a4-0" next="i-29690c3648da88fa-0" n="2e99a71b">
+          <u who="valerius_olsson_5015ad" xml:id="i-8ad5e6d616cf803f-1" next="i-8ad5e6d616cf803f-2" n="2e99a71b">
             <seg n="a236c855">
               Herr talman! Det fälldes ett yttrande av den ärade talaren på
               Hallandsbänken, att han tyckte, att vi kunde skjuta upp principdiskussionen
@@ -1234,7 +1253,7 @@
           <note type="date" n="7eb503c0">
             16 Onsdagen den 9 maj.
           </note>
-          <u who="valerius_olsson_5015ad" xml:id="i-29690c3648da88fa-0" prev="i-3807f060a32ce6a4-0" n="2e99a71b">
+          <u who="valerius_olsson_5015ad" xml:id="i-8ad5e6d616cf803f-2" prev="i-8ad5e6d616cf803f-1" n="2e99a71b">
             <seg n="7448dc9c">
               möjligheter eller ej på den orten. Jag finner därför jordbruksutskottets
               uttalande bra, men förväntar naturligtvis, att slottet och parken
@@ -1261,7 +1280,7 @@
           <note type="speaker" n="b11890f8">
             Herr Nilsson i Tånga:
           </note>
-          <u who="per_nilsson_60ce3c" xml:id="i-2de4f3320b32976a-0" n="4b58950c">
+          <u who="per_nilsson_60ce3c" xml:id="i-4b58950c5d4d94bc-2" n="4b58950c">
             <seg n="d59f4441">
               Herr talman! Jag måste tyvärr upplysa kammaren om, att det vid
               behandlingen av detta ärende av förbiseende begåtts ett misstag,
@@ -1298,7 +1317,7 @@
           <note type="speaker" n="934d53e5">
             Herr Kilbom, som yttrade:
           </note>
-          <u who="karl_kilbom_271d17" xml:id="i-25d28ca1b9e0595d-0" next="i-ebc4f268785b3ac6-0" n="fb9b7030">
+          <u who="karl_kilbom_271d17" xml:id="i-fb9b7030679ee029-0" next="i-fb9b7030679ee029-9" n="fb9b7030">
             <seg n="af1a0796">
               Herr talman! Uti gällande lag om införsel i avlöning, pension
               eller livränta föreskrives, att om någon skattskyldig häftar för
@@ -1310,10 +1329,10 @@
             </seg>
           </u>
           <pb n="16" facs="https://betalab.kb.se/prot-1923--ak--33/prot_1923__ak__33-016.jp2/_view"/>
-          <note n="ea797e6c">
+          <note type="date" n="ee8a54be">
             Onsdagen den 9 maj. 17 Nr 33.
           </note>
-          <u who="karl_kilbom_271d17" xml:id="i-ebc4f268785b3ac6-0" prev="i-25d28ca1b9e0595d-0" n="fb9b7030">
+          <u who="karl_kilbom_271d17" xml:id="i-fb9b7030679ee029-1" prev="i-fb9b7030679ee029-0" n="fb9b7030">
             <seg n="c39164b2">
               bördskommissarierna. Då fråga uppstår om införsel, föreskrives
               Interpellation. att utmätningsman skall hos arbetsgivare eller
@@ -1367,6 +1386,24 @@
               schablonen, som i dessa frågor mer än annorstädes borde vara bannlyst.
               En dylik metod blir ej heller bättre än gyodtycket, ty
             </seg>
+          </u>
+          <note n="626ff3c3">
+            Andra kammarens protokoll 1923. Nr 33. 2
+          </note>
+          <note n="72d6f534">
+            pA
+          </note>
+          <pb n="17" facs="https://betalab.kb.se/prot-1923--ak--33/prot_1923__ak__33-017.jp2/_view"/>
+          <note n="31e92e88">
+            Nr 33,
+          </note>
+          <note n="8901942a">
+            Interpellation. (Forts.)
+          </note>
+          <note type="date" n="02cc7ec8">
+            18 Onsdagen den 9 maj.
+          </note>
+          <u who="karl_kilbom_271d17" xml:id="i-fb9b7030679ee029-2" prev="i-fb9b7030679ee029-0" n="fb9b7030">
             <seg n="8b0326d1">
               under det att den ene anser att blott 10 procent böra som regel
               uttagas av lönen, anser en annan sig icke kunna stanna vid mindre
@@ -1425,6 +1462,12 @@
               en tid uppehålla sig och barnen. Emellertid blev hon av fattigvårdsstyrelsens
               ordföran-
             </seg>
+          </u>
+          <pb n="18" facs="https://betalab.kb.se/prot-1923--ak--33/prot_1923__ak__33-018.jp2/_view"/>
+          <note type="date" n="1f21cc67">
+            Onsdagen den 9 maj. 19 Nr 33.
+          </note>
+          <u who="karl_kilbom_271d17" xml:id="i-fb9b7030679ee029-3" prev="i-fb9b7030679ee029-0" n="fb9b7030">
             <seg n="e4a51ee6">
               de utan egen begäran erbjuden att få taga varor på kredit hos
               en Interpellation. handlande, och använde sig därav, så att hon
@@ -1501,6 +1544,18 @@
               rättelse och en mera enhetlig lagtillämpning. Erfarenheten av
               gjorda överklaganden har dock visat, att överexekutor mycket säl-
             </seg>
+          </u>
+          <pb n="19" facs="https://betalab.kb.se/prot-1923--ak--33/prot_1923__ak__33-019.jp2/_view"/>
+          <note n="31e92e88">
+            Nr 33,
+          </note>
+          <note n="8901942a">
+            Interpellation. (Forts.)
+          </note>
+          <note type="date" n="b90f874a">
+            20 Onsdagen den 9 maj.
+          </note>
+          <u who="karl_kilbom_271d17" xml:id="i-fb9b7030679ee029-4" prev="i-fb9b7030679ee029-0" n="fb9b7030">
             <seg n="f03cfba9">
               lan vidtagit ändring i underexekutorernas beslut. Detta torde
               bero dels därpå, att utredningen i dylika mål oftast göres mycket
@@ -1523,65 +1578,7 @@
               Jag hemställer därför om kammarens tillstånd att till statsrådet
               och chefen för justitiedepartementet få framställa följande interpellation:
             </seg>
-            <seg n="3851a8aa">
-              3) Om det senare är fallet, hur snart kan det förväntas att sagda
-              åtgärder vidtagas?
-            </seg>
-            <seg n="464033c1">
-              Till bordläggning anmäldes:
-            </seg>
-            <seg n="0d79aeea">
-              &gt; Osberg &gt; 4 &gt; &gt; &gt; 10 &gt;
-            </seg>
-            <seg n="7646d7a1">
-              &gt; Rehn &gt; 4 &gt; &gt; &gt; 14 &gt;
-            </seg>
-            <seg n="85e77668">
-              &gt; Lundström &gt; 8 &gt; » &gt; 11 &gt;
-            </seg>
-            <seg n="7c2a814e">
-              &gt; Sköld &gt; 2 &gt; &gt; &gt; 10 &gt;
-            </seg>
-            <seg n="f6178e5a">
-              &gt; Nordling VE &gt; &gt; 10 &gt;
-            </seg>
-            <seg n="600d4caf">
-              &gt; Johansson i Edsbyn &gt; 10 &gt; &gt; » 11 &gt;»
-            </seg>
-            <seg n="22d29748">
-              &gt; Eriksson i Grängesberg &gt;» 2 &gt; &gt; » 10 &gt;»
-            </seg>
           </u>
-          <note n="626ff3c3">
-            Andra kammarens protokoll 1923. Nr 33. 2
-          </note>
-          <note n="72d6f534">
-            pA
-          </note>
-          <pb n="17" facs="https://betalab.kb.se/prot-1923--ak--33/prot_1923__ak__33-017.jp2/_view"/>
-          <note n="31e92e88">
-            Nr 33,
-          </note>
-          <note n="8901942a">
-            Interpellation. (Forts.)
-          </note>
-          <note type="date" n="02cc7ec8">
-            18 Onsdagen den 9 maj.
-          </note>
-          <pb n="18" facs="https://betalab.kb.se/prot-1923--ak--33/prot_1923__ak__33-018.jp2/_view"/>
-          <note n="16d45d6f">
-            Onsdagen den 9 maj. 19 Nr 33.
-          </note>
-          <pb n="19" facs="https://betalab.kb.se/prot-1923--ak--33/prot_1923__ak__33-019.jp2/_view"/>
-          <note n="31e92e88">
-            Nr 33,
-          </note>
-          <note n="8901942a">
-            Interpellation. (Forts.)
-          </note>
-          <note type="date" n="b90f874a">
-            20 Onsdagen den 9 maj.
-          </note>
           <note n="df8a2334">
             1) Ämnar statsrådet snarast möjligt gå i författning om att härovan
             påtalade brister i gällande lag om införsel i avlöning m. m. bliva
@@ -1596,6 +1593,12 @@
             och att den skattskyldige ej berövas vad som är nödvändigt för
             hans eget och hans familjs skäliga uppehälle?
           </note>
+          <u who="karl_kilbom_271d17" xml:id="i-fb9b7030679ee029-5" prev="i-fb9b7030679ee029-0" n="fb9b7030">
+            <seg n="3851a8aa">
+              3) Om det senare är fallet, hur snart kan det förväntas att sagda
+              åtgärder vidtagas?
+            </seg>
+          </u>
           <note n="d0d2bb67">
             Tfrågavarande anhållan bifölls.
           </note>
@@ -1631,6 +1634,11 @@
           <note n="6b191904">
             $ 12.
           </note>
+          <u who="karl_kilbom_271d17" xml:id="i-fb9b7030679ee029-6" prev="i-fb9b7030679ee029-0" n="fb9b7030">
+            <seg n="464033c1">
+              Till bordläggning anmäldes:
+            </seg>
+          </u>
           <note n="b1f986ea">
             Konstitutionsutskottets memorial, nr 19, angående fullbordad
             granskning av de i statsrådet förda protokoll;
@@ -1769,15 +1777,42 @@
           <note n="22ec075e">
             &gt; Danielsson &gt; 3 2 &gt; » 11
           </note>
+          <u who="karl_kilbom_271d17" xml:id="i-fb9b7030679ee029-7" prev="i-fb9b7030679ee029-0" n="fb9b7030">
+            <seg n="0d79aeea">
+              &gt; Osberg &gt; 4 &gt; &gt; &gt; 10 &gt;
+            </seg>
+            <seg n="7646d7a1">
+              &gt; Rehn &gt; 4 &gt; &gt; &gt; 14 &gt;
+            </seg>
+            <seg n="85e77668">
+              &gt; Lundström &gt; 8 &gt; » &gt; 11 &gt;
+            </seg>
+          </u>
           <note n="e9619216">
             &gt; Johansson i Sollefteå &gt;» 6 &gt;» &gt; » 11 &gt;
           </note>
+          <u who="karl_kilbom_271d17" xml:id="i-fb9b7030679ee029-8" prev="i-fb9b7030679ee029-0" n="fb9b7030">
+            <seg n="7c2a814e">
+              &gt; Sköld &gt; 2 &gt; &gt; &gt; 10 &gt;
+            </seg>
+            <seg n="f6178e5a">
+              &gt; Nordling VE &gt; &gt; 10 &gt;
+            </seg>
+            <seg n="600d4caf">
+              &gt; Johansson i Edsbyn &gt; 10 &gt; &gt; » 11 &gt;»
+            </seg>
+          </u>
           <note n="1e243069">
             &gt; Lagerkvist » 2 » » &gt; 10 »
           </note>
           <note n="b6cef5bb">
             Johanson i Huskvarna &gt;» 2 &gt; » » 10 &gt; och
           </note>
+          <u who="karl_kilbom_271d17" xml:id="i-fb9b7030679ee029-9" prev="i-fb9b7030679ee029-0" n="fb9b7030">
+            <seg n="22d29748">
+              &gt; Eriksson i Grängesberg &gt;» 2 &gt; &gt; » 10 &gt;»
+            </seg>
+          </u>
           <note n="cea532f0">
             Kammarens ledamöter åtskildes härefter kl. 12,40 e. m.
           </note>
@@ -1785,7 +1820,7 @@
             In fidem Per Cronvall.
           </note>
           <pb n="22" facs="https://betalab.kb.se/prot-1923--ak--33/prot_1923__ak__33-022.jp2/_view"/>
-          <note n="7706f89a">
+          <note type="date" n="b21e6906">
             Fredagen den 11 maj. 23 Nr 33.
           </note>
           <note type="date" n="60ed8085">
@@ -1856,7 +1891,7 @@
           <note type="speaker" n="263a468a">
             Herr förste vice talmannen, som yttrade:
           </note>
-          <u who="unknown" xml:id="i-5d2c948ba0f6778d-0" n="312ee45a">
+          <u who="unknown" xml:id="i-312ee45a1b5ef405-0" n="312ee45a">
             <seg n="2e63de18">
               Herr talman! Jag tillåter mig hemställa, att kammaren måtte besluta,
               att bankoutskottets utlåtande nr 44 och bankoutskottets utlåtande
@@ -1964,7 +1999,7 @@
           <note n="ca9a4c25">
             $ 10.
           </note>
-          <u who="unknown" xml:id="i-26f0433fda003ff1-0" n="312ee45a">
+          <u who="unknown" xml:id="i-312ee45a1b5ef405-1" n="312ee45a">
             <seg n="464033c1">
               Till bordläggning anmäldes:
             </seg>
@@ -2010,7 +2045,7 @@
             Nr 88.
           </note>
           <pb n="25" facs="https://betalab.kb.se/prot-1923--ak--33/prot_1923__ak__33-025.jp2/_view"/>
-          <note n="ea475df0">
+          <note type="date" n="550f6a50">
             Nr 83. = 26 Fredagen den 11 maj.
           </note>
           <note n="c8ac391a">

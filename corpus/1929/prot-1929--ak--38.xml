@@ -20,7 +20,7 @@
     <encodingDesc>
       <editorialDecl>
         <correction>
-          <p>Some data curation was done. It is documented in db/curation/instances</p>
+          <p>Some data curation was done. It is documented in input/curation/instances</p>
         </correction>
       </editorialDecl>
     </encodingDesc>
@@ -53,16 +53,18 @@
         <div type="preface">
           <head>prot-1929--ak--38</head>
           <docDate when="1929-05-21">1929-05-21</docDate>
+          <docDate when="1929-05-22">1929-05-22</docDate>
         </div>
       </front>
       <body>
         <div>
+          <pb n="0" facs="https://betalab.kb.se/prot-1929--ak--38/prot_1929__ak__38-000.jp2/_view"/>
           <note n="947d6158">
             RIKSDAGENS PROTOKOLL. 1929. Andra kammaren. Nr 38.
           </note>
           <note n="c704aa69"/>
           <note n="c704aa69"/>
-          <note n="158286b7">
+          <note type="date" n="29404b9a">
             Tisdagen den 21 maj. Kl. 3.30 e. m.
           </note>
           <note n="c7dc96a7">
@@ -223,10 +225,10 @@
             In fidem Per Cronvall.
           </note>
           <pb n="2" facs="https://betalab.kb.se/prot-1929--ak--38/prot_1929__ak__38-002.jp2/_view"/>
-          <note n="723649c1">
+          <note type="date" n="274f8d59">
             Onsdagen den 22 maj f. m. 3 Nr 38.
           </note>
-          <note n="9981b335">
+          <note type="date" n="d3832f11">
             Onsdagen den 22 maj. Kl. 11 f. m.
           </note>
           <note n="a312465e">
@@ -306,7 +308,7 @@
           <note n="affdaf2c">
             (Forts.)
           </note>
-          <note n="313b71aa">
+          <note type="date" n="9fb328a3">
             4 Onsdagen den 22 maj f. m.
           </note>
           <note n="87544803">
@@ -398,7 +400,7 @@
             att utskottet bort
           </note>
           <pb n="4" facs="https://betalab.kb.se/prot-1929--ak--38/prot_1929__ak__38-004.jp2/_view"/>
-          <note n="14b14715">
+          <note type="date" n="a0c79824">
             Onsdagen den 22 maj f. m. 5 Nr 88
           </note>
           <note n="3fee4746">
@@ -415,7 +417,7 @@
           <note type="speaker" n="fb71f720">
             Herr Mosesson, som yttrade:
           </note>
-          <u who="gustav_mosesson_7a936b" xml:id="i-8a9852e314e25e84-0" n="31cc93fe">
+          <u who="gustav_mosesson_7a936b" xml:id="i-31cc93fe603e2be3-0" n="31cc93fe">
             <seg n="6eb5a243">
               Herr talman! Jag hemställer, att statsutskottets utlåtande nr
               110 och andra kammarens första tillfälliga utskotts utlåtande
@@ -434,7 +436,7 @@
           <note type="speaker" n="6d1a7473">
             Herr Holmgren:
           </note>
-          <u who="bjorn_frithiofsson_holmgren_b7702f" xml:id="i-26ddd81b734a26c0-0" n="1fc5d486">
+          <u who="bjorn_frithiofsson_holmgren_b7702f" xml:id="i-1fc5d486d3d4c297-0" n="1fc5d486">
             <seg n="70312a29">
               Herr talman! Det torde vara obestritt och även av erfarenheten
               till fullo bestyrkt, att fortsättningsskolan på många håll icke
@@ -459,7 +461,7 @@
           <note type="speaker" n="f6b26aee">
             Herr Jonsson i Risinge:
           </note>
-          <u who="oscar_jonsson_23d6a2" xml:id="i-d457896a95ff0439-0" next="i-46a4656feccebe8e-0" n="bf1e89b5">
+          <u who="oscar_jonsson_23d6a2" xml:id="i-bf1e89b5d220c654-0" next="i-bf1e89b5d220c654-2" n="bf1e89b5">
             <seg n="eaa75c81">
               Herr talman! Då jag jämte några andra avgivit en motion i denna
               fråga, skall jag be att få säga några ord.
@@ -504,10 +506,10 @@
           <note n="9f7601fc">
             Ang. fortsättningsskolan. (Forts.)
           </note>
-          <note n="058b8865">
+          <note type="date" n="3398ac00">
             6 Onsdagen den 22 maj f. m.
           </note>
-          <u who="oscar_jonsson_23d6a2" xml:id="i-46a4656feccebe8e-0" prev="i-d457896a95ff0439-0" n="bf1e89b5">
+          <u who="oscar_jonsson_23d6a2" xml:id="i-bf1e89b5d220c654-1" prev="i-bf1e89b5d220c654-0" n="bf1e89b5">
             <seg n="6ea7c3e8">
               år i skolan, kan man sannerligen icke begära att de skola ha
               stor lust att längre hålla på med sin skolgång. De ha även då
@@ -577,6 +579,12 @@
               påstå, att allt vad ungdomen på detta sätt får lära är gott, men
               mycket gott kan man dock inhämta på detta sätt.
             </seg>
+          </u>
+          <pb n="6" facs="https://betalab.kb.se/prot-1929--ak--38/prot_1929__ak__38-006.jp2/_view"/>
+          <note type="date" n="07d3f02e">
+            Onsdagen den 22 maj f. m. 7
+          </note>
+          <u who="oscar_jonsson_23d6a2" xml:id="i-bf1e89b5d220c654-2" prev="i-bf1e89b5d220c654-0" n="bf1e89b5">
             <seg n="34778241">
               Statsutskottet har längre fram i sitt utlåtande påpekat den praktiska
               insikt, som är avsedd att lämnas i fortsättningsskolan, och jag
@@ -646,14 +654,10 @@
             </seg>
             <seg n="c8aeedef"/>
           </u>
-          <pb n="6" facs="https://betalab.kb.se/prot-1929--ak--38/prot_1929__ak__38-006.jp2/_view"/>
-          <note n="d142caaf">
-            Onsdagen den 22 maj f. m. 7
-          </note>
           <note type="speaker" n="50549847">
             Herr Bengtsson i Norup:
           </note>
-          <u who="sven_bengtsson_ebaa29" xml:id="i-d62858be413a034f-0" next="i-c6ea48e897dfbf30-0" n="fbd1fc7b">
+          <u who="sven_bengtsson_ebaa29" xml:id="i-fbd1fc7bdb111ddb-0" next="i-fbd1fc7bdb111ddb-3" n="fbd1fc7b">
             <seg n="41cad60e">
               Herr talman! Båda de föregående talarna synas, då de uttalade
               sig angående sin ställning till fortsättningsskolan, hava alltför
@@ -688,10 +692,10 @@
           <note n="2d3613a2">
             skolan. (Forts.)
           </note>
-          <note n="7cb77916">
+          <note type="date" n="9a84af6a">
             8 Onsdagen den 22 maj f. m.
           </note>
-          <u who="sven_bengtsson_ebaa29" xml:id="i-c6ea48e897dfbf30-0" prev="i-d62858be413a034f-0" n="fbd1fc7b">
+          <u who="sven_bengtsson_ebaa29" xml:id="i-fbd1fc7bdb111ddb-1" prev="i-fbd1fc7bdb111ddb-0" n="fbd1fc7b">
             <seg n="69d665d6">
               skolan ute på landsbygden. Jag tror det är för mycket sagt. I
               varje fall vill jag betona, att efter det 1842 års skolreform
@@ -766,6 +770,12 @@
               av fortsättningsskolan, att man t. ex. icke borde lägga jordbruksundervisningen
               i
             </seg>
+          </u>
+          <pb n="8" facs="https://betalab.kb.se/prot-1929--ak--38/prot_1929__ak__38-008.jp2/_view"/>
+          <note type="date" n="81e9b784">
+            Onsdagen den 22 maj f. m. 9
+          </note>
+          <u who="sven_bengtsson_ebaa29" xml:id="i-fbd1fc7bdb111ddb-2" prev="i-fbd1fc7bdb111ddb-0" n="fbd1fc7b">
             <seg n="3a75f520">
               skollärarnas händer. TI det fallet är jag alldeles ense med herr
               Jonsson. Jag tror det är bäst, att andra än skollärarna få sköta
@@ -838,6 +848,24 @@
               kan jag icke finna, att man har rätt gå emot en lagbestämmelse
               iör hela landet, bara därför att en del samhällen icke
             </seg>
+          </u>
+          <note n="86463bab">
+            Nr 38.
+          </note>
+          <note n="9f7601fc">
+            Ang. fortsättningsskolan. (Forts.)
+          </note>
+          <pb n="9" facs="https://betalab.kb.se/prot-1929--ak--38/prot_1929__ak__38-009.jp2/_view"/>
+          <note n="86463bab">
+            Nr 38.
+          </note>
+          <note n="1891f131">
+            Ang. tortsättningsskolan. (Forts.)
+          </note>
+          <note type="date" n="c8ad6356">
+            10 Onsdagen den 22 maj f. m.
+          </note>
+          <u who="sven_bengtsson_ebaa29" xml:id="i-fbd1fc7bdb111ddb-3" prev="i-fbd1fc7bdb111ddb-0" n="fbd1fc7b">
             <seg n="345be5ec">
               vilja hava densamma. Här komma vi icke förbi de farhågor, som
               både herr Holmgren och herr Jonsson i Risinge pekat på, nämligen
@@ -908,37 +936,17 @@
               hemställan. :
             </seg>
           </u>
-          <pb n="8" facs="https://betalab.kb.se/prot-1929--ak--38/prot_1929__ak__38-008.jp2/_view"/>
-          <note n="27b4cb95">
-            Onsdagen den 22 maj f. m. 9
-          </note>
-          <note n="86463bab">
-            Nr 38.
-          </note>
-          <note n="9f7601fc">
-            Ang. fortsättningsskolan. (Forts.)
-          </note>
-          <pb n="9" facs="https://betalab.kb.se/prot-1929--ak--38/prot_1929__ak__38-009.jp2/_view"/>
-          <note n="86463bab">
-            Nr 38.
-          </note>
-          <note n="1891f131">
-            Ang. tortsättningsskolan. (Forts.)
-          </note>
-          <note n="875972df">
-            10 Onsdagen den 22 maj f. m.
-          </note>
           <note n="ba0eb273">
             I detta yttrande instämde herr Osberg.
           </note>
           <pb n="10" facs="https://betalab.kb.se/prot-1929--ak--38/prot_1929__ak__38-010.jp2/_view"/>
-          <note n="546762a3">
+          <note type="date" n="d2994bd5">
             Onsdagen den 22 maj f. m. 11
           </note>
           <note type="speaker" n="2b002044">
             Herr Jonsson i Eskilstuna:
           </note>
-          <u who="oscar_jonsson_23d6a2" xml:id="i-d457896a95ff0439-1" next="i-46a4656feccebe8e-1" n="bf1e89b5">
+          <u who="oscar_jonsson_23d6a2" xml:id="i-bf1e89b5d220c654-3" next="i-bf1e89b5d220c654-5" n="bf1e89b5">
             <seg n="6eff7f76">
               Herr talman! Det har sina risker att behöva uppträda såsom herr
               Bengtsson i Norup, då man på en och samma gång måste försvara
@@ -1028,10 +1036,10 @@
           <note n="1891f131">
             Ang. tortsättningsskolan. (Forts.)
           </note>
-          <note n="96632108">
+          <note type="date" n="8ed0d46f">
             12 Onsdagen den 22 maj f. m.
           </note>
-          <u who="oscar_jonsson_23d6a2" xml:id="i-46a4656feccebe8e-1" prev="i-d457896a95ff0439-1" n="bf1e89b5">
+          <u who="oscar_jonsson_23d6a2" xml:id="i-bf1e89b5d220c654-4" prev="i-bf1e89b5d220c654-3" n="bf1e89b5">
             <seg n="c5d8bdd7">
               visa i läsämnena 0. s. v. Alltsammans gör, att man kanske till
               slut hesiterar och icke går in för den reform, som herr Weijne
@@ -1106,6 +1114,12 @@
               vi tänkt oss. De svårigheter, som skolöverstyrelsen talar om,
               sätta vi
             </seg>
+          </u>
+          <pb n="12" facs="https://betalab.kb.se/prot-1929--ak--38/prot_1929__ak__38-012.jp2/_view"/>
+          <note type="date" n="a55e67a6">
+            Onsdagen den 22 maj f. m. 13
+          </note>
+          <u who="oscar_jonsson_23d6a2" xml:id="i-bf1e89b5d220c654-5" prev="i-bf1e89b5d220c654-3" n="bf1e89b5">
             <seg n="1e500468">
               oss över, vi låtsas, som om detta utlåtande egentligen ej funnes,
               vi vilja ha den här reformen. Vi vilja ha sjuårig skola eller
@@ -1160,14 +1174,10 @@
               ha en aning om vad frågan gäller.
             </seg>
           </u>
-          <pb n="12" facs="https://betalab.kb.se/prot-1929--ak--38/prot_1929__ak__38-012.jp2/_view"/>
-          <note n="ea2147d6">
-            Onsdagen den 22 maj f. m. 13
-          </note>
           <note type="speaker" n="51e51731">
             Herr Mosesson:
           </note>
-          <u who="gustav_mosesson_7a936b" xml:id="i-eddd86e38327cba7-0" next="i-54b05e1644c38352-0" n="31cc93fe">
+          <u who="gustav_mosesson_7a936b" xml:id="i-31cc93fe603e2be3-1" next="i-31cc93fe603e2be3-4" n="31cc93fe">
             <seg n="3859a28e">
               Herr talman! Då jag i slutet på åttiotalet hade vid mycket unga
               år slutat sjätte klassen i en B-skola. gick min fattige fader
@@ -1205,10 +1215,10 @@
           <note n="9f7601fc">
             Ang. fortsättningsskolan. (Forts.)
           </note>
-          <note n="986ba9d6">
+          <note type="date" n="33cea89d">
             14 Onsdagen den 22 maj f. m.
           </note>
-          <u who="gustav_mosesson_7a936b" xml:id="i-54b05e1644c38352-0" prev="i-eddd86e38327cba7-0" n="31cc93fe">
+          <u who="gustav_mosesson_7a936b" xml:id="i-31cc93fe603e2be3-2" prev="i-31cc93fe603e2be3-1" n="31cc93fe">
             <seg n="16cc1d83">
               heter. Vi kunna ju icke precis behöva taga på oss domen att förneka
               de svårigheter, som kunna uppstå, därför att vi mena, att det
@@ -1242,6 +1252,16 @@
               jag, att det icke är särskilt påkallat att för deras räkning nu
               göra någon framställning till Kungl. Maj:t.
             </seg>
+          </u>
+          <note n="961707dc">
+            Motionärerna, herr Lindmark m. fl., ha tänkt sig att genom ett
+            tillägg till $ 27 mom. 5 i fortsättningsskolestadgan av orden:
+            »eller i följd av annan giltig orsak» efter orden sjukdom, lyte
+            eller sådant, skulle man kunna avlägsna en hel del svårigheter,
+            som nu vidlåda bestämmelserna i fortsättningsskolestadgan, mjuka
+            upp dessa bestämmelser.
+          </note>
+          <u who="gustav_mosesson_7a936b" xml:id="i-31cc93fe603e2be3-3" prev="i-31cc93fe603e2be3-1" n="31cc93fe">
             <seg n="ba7c72bd">
               Det fanns emellertid under utskottsdebatten, såvitt jag erinrar
               mig, icke en enda, som ville gå in för motionen — icke ens den
@@ -1274,6 +1294,12 @@
               med sin pojke — han heter Anders Pettersson — och åberopar liknande
               skäl, och får avslag? Eller man kan tänka på, hur det skulle
             </seg>
+          </u>
+          <pb n="14" facs="https://betalab.kb.se/prot-1929--ak--38/prot_1929__ak__38-014.jp2/_view"/>
+          <note type="date" n="2ce5ea50">
+            Onsdagen den 22 maj f. m. 15
+          </note>
+          <u who="gustav_mosesson_7a936b" xml:id="i-31cc93fe603e2be3-4" prev="i-31cc93fe603e2be3-1" n="31cc93fe">
             <seg n="79d331b4">
               ställa sig att förfara på ett sätt i ett skoldistrikt och på
               ett annat sätt i ett annat distrikt, ehuru förhållandena äro likadana;
@@ -1290,18 +1316,6 @@
               man skadade det kommande släktet.
             </seg>
           </u>
-          <note n="961707dc">
-            Motionärerna, herr Lindmark m. fl., ha tänkt sig att genom ett
-            tillägg till $ 27 mom. 5 i fortsättningsskolestadgan av orden:
-            »eller i följd av annan giltig orsak» efter orden sjukdom, lyte
-            eller sådant, skulle man kunna avlägsna en hel del svårigheter,
-            som nu vidlåda bestämmelserna i fortsättningsskolestadgan, mjuka
-            upp dessa bestämmelser.
-          </note>
-          <pb n="14" facs="https://betalab.kb.se/prot-1929--ak--38/prot_1929__ak__38-014.jp2/_view"/>
-          <note n="5aadf5af">
-            Onsdagen den 22 maj f. m. 15
-          </note>
           <note n="4098a152">
             Jag ber, herr talman, att i vad det gäller första tillfälliga
             utskottets utlåtande nr 9 få hemställa om bifall till reservationen.
@@ -1309,7 +1323,7 @@
           <note type="speaker" n="8527b349">
             Herr Ljung:
           </note>
-          <u who="erik_w_ljung_cfb64f" xml:id="i-5947fcf92449aeef-0" next="i-17f3ae82a7619cba-0" n="6ce99c93">
+          <u who="erik_w_ljung_cfb64f" xml:id="i-6ce99c93e7411444-0" next="i-6ce99c93e7411444-5" n="6ce99c93">
             <seg n="74242ab1">
               Herr talman! Enligt kammarens beslut skall statsutskottets utlåtande
               nr 110 och andra kammarens första tillfälliga utskotts utlåtande
@@ -1329,7 +1343,7 @@
             att besöka fortsättningsskola skall bero på prövning i varje särskilt
             fall av skolstyrelsen.
           </note>
-          <u who="erik_w_ljung_cfb64f" xml:id="i-17f3ae82a7619cba-0" prev="i-5947fcf92449aeef-0" n="6ce99c93">
+          <u who="erik_w_ljung_cfb64f" xml:id="i-6ce99c93e7411444-1" prev="i-6ce99c93e7411444-0" n="6ce99c93">
             <seg n="2069322d">
               Jag skall först tillåta mig framhålla, att denna bestämmelse
               blivit åtskilligt strängare än som från början var avsikten. Jag
@@ -1366,6 +1380,24 @@
               för längre tid än till det kalenderår, under vilket den fortsättningsskolepliktige
               fyller 15 år. Befrielse från skolpliktens fullgörande bör
             </seg>
+          </u>
+          <note n="86463bab">
+            Nr 38.
+          </note>
+          <note n="c6b0410a">
+            Ang. fortsättnings skolan. (Forts.)
+          </note>
+          <pb n="15" facs="https://betalab.kb.se/prot-1929--ak--38/prot_1929__ak__38-015.jp2/_view"/>
+          <note n="0ab086ba">
+            Nr 88.
+          </note>
+          <note n="9f7601fc">
+            Ang. fortsättningsskolan. (Forts.)
+          </note>
+          <note type="date" n="e5b358a9">
+            16 Onsdagen den 22 maj f. m.
+          </note>
+          <u who="erik_w_ljung_cfb64f" xml:id="i-6ce99c93e7411444-2" prev="i-6ce99c93e7411444-0" n="6ce99c93">
             <seg n="ce11ffbe">
               inträda, då inom ett skoldistrikt av någon särskild anledning
               fortsättningsskola ännu icke är inrättad, samt likaledes, om den
@@ -1436,6 +1468,12 @@
               skoldistrikt, som senast anordnat fortsättningsskolor, ha nämligen
               icke så länge hållit på med desamma. Men skol-
             </seg>
+          </u>
+          <pb n="16" facs="https://betalab.kb.se/prot-1929--ak--38/prot_1929__ak__38-016.jp2/_view"/>
+          <note type="date" n="bbe215d5">
+            Onsdagen den 22 maj f. m. 17
+          </note>
+          <u who="erik_w_ljung_cfb64f" xml:id="i-6ce99c93e7411444-3" prev="i-6ce99c93e7411444-0" n="6ce99c93">
             <seg n="8edbb7e4">
               överstyrelsen medger också, att det i vissa fall kan tänkas,
               att dessa svårigheter bli bestående och för detta ändamål menar
@@ -1508,7 +1546,28 @@
               nödgades avbryta densamma på grund av att han bevistade skolan.
               Även sjukdomsf:
             </seg>
-            <seg n="c8aeedef"/>
+          </u>
+          <note n="2c6e6267">
+            Andra kammarens protokoll 1929. Nr 38. 2
+          </note>
+          <u who="erik_w_ljung_cfb64f" xml:id="i-6ce99c93e7411444-4" prev="i-6ce99c93e7411444-0" n="6ce99c93"/>
+          <note n="38b12919">
+            Nr 35.
+          </note>
+          <note n="9f7601fc">
+            Ang. fortsättningsskolan. (Forts.)
+          </note>
+          <pb n="17" facs="https://betalab.kb.se/prot-1929--ak--38/prot_1929__ak__38-017.jp2/_view"/>
+          <note n="86463bab">
+            Nr 38.
+          </note>
+          <note n="9f7601fc">
+            Ang. fortsättningsskolan. (Forts.)
+          </note>
+          <note type="date" n="0af7db43">
+            18 Onsdagen den 22 maj f. m.
+          </note>
+          <u who="erik_w_ljung_cfb64f" xml:id="i-6ce99c93e7411444-5" prev="i-6ce99c93e7411444-0" n="6ce99c93">
             <seg n="dfc0fdf8">
               har redan anfört exempel på dylika orsaker till befrielse från
               fortsatt skolgång — borde ju kunna föranleda uppskov eller befrielse.
@@ -1542,49 +1601,10 @@
               ena eller andra förslaget kan komma att undergå.
             </seg>
           </u>
-          <note n="86463bab">
-            Nr 38.
-          </note>
-          <note n="c6b0410a">
-            Ang. fortsättnings skolan. (Forts.)
-          </note>
-          <pb n="15" facs="https://betalab.kb.se/prot-1929--ak--38/prot_1929__ak__38-015.jp2/_view"/>
-          <note n="0ab086ba">
-            Nr 88.
-          </note>
-          <note n="9f7601fc">
-            Ang. fortsättningsskolan. (Forts.)
-          </note>
-          <note n="0b97a906">
-            16 Onsdagen den 22 maj f. m.
-          </note>
-          <pb n="16" facs="https://betalab.kb.se/prot-1929--ak--38/prot_1929__ak__38-016.jp2/_view"/>
-          <note n="98f8ec77">
-            Onsdagen den 22 maj f. m. 17
-          </note>
-          <note n="2c6e6267">
-            Andra kammarens protokoll 1929. Nr 38. 2
-          </note>
-          <note n="38b12919">
-            Nr 35.
-          </note>
-          <note n="9f7601fc">
-            Ang. fortsättningsskolan. (Forts.)
-          </note>
-          <pb n="17" facs="https://betalab.kb.se/prot-1929--ak--38/prot_1929__ak__38-017.jp2/_view"/>
-          <note n="86463bab">
-            Nr 38.
-          </note>
-          <note n="9f7601fc">
-            Ang. fortsättningsskolan. (Forts.)
-          </note>
-          <note n="364d9e0a">
-            18 Onsdagen den 22 maj f. m.
-          </note>
           <note type="speaker" n="8b46a216">
             Herr Holmdahl:
           </note>
-          <u who="otto_holmdahl_eaa246" xml:id="i-b2341bf2ba5b66a9-0" next="i-12534268bb6acf64-0" n="b9743b1c">
+          <u who="otto_holmdahl_eaa246" xml:id="i-b9743b1c455d7a11-0" next="i-b9743b1c455d7a11-7" n="b9743b1c">
             <seg n="b746f0da">
               Herr talman! Åter har riksdagen på sitt bord ett knippe notioner,
               som berör fortsättningsskolan. Det har ju varit så under de senare
@@ -1628,10 +1648,10 @@
             </seg>
           </u>
           <pb n="18" facs="https://betalab.kb.se/prot-1929--ak--38/prot_1929__ak__38-018.jp2/_view"/>
-          <note n="1d3a5c32">
+          <note type="date" n="5852802f">
             Onsdagen den 22 maj f. m. 19
           </note>
-          <u who="otto_holmdahl_eaa246" xml:id="i-12534268bb6acf64-0" prev="i-b2341bf2ba5b66a9-0" n="b9743b1c">
+          <u who="otto_holmdahl_eaa246" xml:id="i-b9743b1c455d7a11-1" prev="i-b9743b1c455d7a11-0" n="b9743b1c">
             <seg n="8b0ee3a5">
               Utskottet har också ställt sig avvisande till de nämnda förslagen,
               och det motiv, som utskottet härför anför, har redan förut upprepats
@@ -1702,6 +1722,24 @@
               jag skulle vilja påstå, att därmed ha de förnämsta orsakerna till
               missnöje med den nya ordningen i dessa distrikt blivit undanröjda.
             </seg>
+          </u>
+          <note n="462b7602">
+            Nr 38,
+          </note>
+          <note n="9f7601fc">
+            Ang. fortsättningsskolan. (Forts.)
+          </note>
+          <pb n="19" facs="https://betalab.kb.se/prot-1929--ak--38/prot_1929__ak__38-019.jp2/_view"/>
+          <note n="5ab8e00f">
+            Nr 388.
+          </note>
+          <note n="9f7601fc">
+            Ang. fortsättningsskolan. (Forts.)
+          </note>
+          <note type="date" n="155165bd">
+            20 Onsdagen den 22 maj f. m.
+          </note>
+          <u who="otto_holmdahl_eaa246" xml:id="i-b9743b1c455d7a11-2" prev="i-b9743b1c455d7a11-0" n="b9743b1c">
             <seg n="48546971">
               Jag tror nämligen, att den allvarligaste olägenheten med den
               obligatoriska tvååriga fortsättningsskolan har varit, att den
@@ -1773,6 +1811,12 @@
               i den föreliggande frågan. Jag får säga, att i det läge, som hela
               detta frågekomplex vid detta års riksdag nu synes ha,
             </seg>
+          </u>
+          <pb n="20" facs="https://betalab.kb.se/prot-1929--ak--38/prot_1929__ak__38-020.jp2/_view"/>
+          <note type="date" n="32a6fbfc">
+            Onsdagen den 22 maj fi. m. 21
+          </note>
+          <u who="otto_holmdahl_eaa246" xml:id="i-b9743b1c455d7a11-3" prev="i-b9743b1c455d7a11-0" n="b9743b1c">
             <seg n="2001bc80">
               så förefaller det mig också, som om ett sådant utredningsförfarande
               vore den enda riktiga väg, på vilken man borde gå fram.
@@ -1849,6 +1893,24 @@
               ett helt skolår, då lärjungarna under åtta månader oavbrutet stå
               under lärarens tillsyn och ledning, än ge-
             </seg>
+          </u>
+          <note n="86463bab">
+            Nr 38.
+          </note>
+          <note n="9f7601fc">
+            Ang. fortsättningsskolan. (Forts.)
+          </note>
+          <pb n="21" facs="https://betalab.kb.se/prot-1929--ak--38/prot_1929__ak__38-021.jp2/_view"/>
+          <note n="86463bab">
+            Nr 38.
+          </note>
+          <note n="9f7601fc">
+            Ang. fortsättningsskolan. (Forts.)
+          </note>
+          <note type="date" n="0b9d04a5">
+            29 Onsdagen den 22 maj f. m.
+          </note>
+          <u who="otto_holmdahl_eaa246" xml:id="i-b9743b1c455d7a11-4" prev="i-b9743b1c455d7a11-0" n="b9743b1c">
             <seg n="4cc2876b">
               nom fortsättningsskolans i regel ej mer än 360 timmar omfattande,
               kanske till några få timmar i veckan eller till spridda tidsperioder
@@ -1921,6 +1983,12 @@
               Utskottet hävdar självt, då utskottet behandlar herr Jonssons
               i Risinge motion, att utskottet icke velat vara med om
             </seg>
+          </u>
+          <pb n="22" facs="https://betalab.kb.se/prot-1929--ak--38/prot_1929__ak__38-022.jp2/_view"/>
+          <note type="date" n="c4c6eb76">
+            Onsdagen den 22 maj f. m. 23
+          </note>
+          <u who="otto_holmdahl_eaa246" xml:id="i-b9743b1c455d7a11-5" prev="i-b9743b1c455d7a11-0" n="b9743b1c">
             <seg n="68ecd08e">
               en förändring, som kan sägas komma att medföra försämring av
               ungdomsskolorna, som dock flertalet av vårt folks barn måste vara
@@ -1985,6 +2053,14 @@
               också få bidraga till hemmets och sitt eget uppehälle genom att
               taga plats. Det är där, som denna obligatoriska fortsättningsskola
             </seg>
+          </u>
+          <note n="38b12919">
+            Nr 35.
+          </note>
+          <note n="9f7601fc">
+            Ang. fortsättningsskolan. (Forts.)
+          </note>
+          <u who="otto_holmdahl_eaa246" xml:id="i-b9743b1c455d7a11-6" prev="i-b9743b1c455d7a11-0" n="b9743b1c">
             <seg n="424e3330">
               i enskilda fall kan verka och kännas av befolkningen som verkligt
               orättvis.
@@ -1994,6 +2070,18 @@
               att söka undanröja. Men det sker icke genom detta förslag. Just
               i dessa rena lands-
             </seg>
+          </u>
+          <pb n="23" facs="https://betalab.kb.se/prot-1929--ak--38/prot_1929__ak__38-023.jp2/_view"/>
+          <note n="86463bab">
+            Nr 38.
+          </note>
+          <note n="9f7601fc">
+            Ang. fortsättningsskolan. (Forts.)
+          </note>
+          <note type="date" n="a7cfcf05">
+            24 Onsdagen den 22 maj f. m.
+          </note>
+          <u who="otto_holmdahl_eaa246" xml:id="i-b9743b1c455d7a11-7" prev="i-b9743b1c455d7a11-0" n="b9743b1c">
             <seg n="a1d13398">
               bygdsdistrikt, där man icke har ekonomiska möjligheter att inrätta
               en T-årig folkskola, där skulle man ha 8-årig skolplikt, under
@@ -2054,62 +2142,6 @@
               yrkande.
             </seg>
           </u>
-          <note n="462b7602">
-            Nr 38,
-          </note>
-          <note n="9f7601fc">
-            Ang. fortsättningsskolan. (Forts.)
-          </note>
-          <pb n="19" facs="https://betalab.kb.se/prot-1929--ak--38/prot_1929__ak__38-019.jp2/_view"/>
-          <note n="5ab8e00f">
-            Nr 388.
-          </note>
-          <note n="9f7601fc">
-            Ang. fortsättningsskolan. (Forts.)
-          </note>
-          <note n="8a569950">
-            20 Onsdagen den 22 maj f. m.
-          </note>
-          <pb n="20" facs="https://betalab.kb.se/prot-1929--ak--38/prot_1929__ak__38-020.jp2/_view"/>
-          <note n="eaf28bd3">
-            Onsdagen den 22 maj fi. m. 21
-          </note>
-          <note n="86463bab">
-            Nr 38.
-          </note>
-          <note n="9f7601fc">
-            Ang. fortsättningsskolan. (Forts.)
-          </note>
-          <pb n="21" facs="https://betalab.kb.se/prot-1929--ak--38/prot_1929__ak__38-021.jp2/_view"/>
-          <note n="86463bab">
-            Nr 38.
-          </note>
-          <note n="9f7601fc">
-            Ang. fortsättningsskolan. (Forts.)
-          </note>
-          <note n="8d9dcf4c">
-            29 Onsdagen den 22 maj f. m.
-          </note>
-          <pb n="22" facs="https://betalab.kb.se/prot-1929--ak--38/prot_1929__ak__38-022.jp2/_view"/>
-          <note n="380f115f">
-            Onsdagen den 22 maj f. m. 23
-          </note>
-          <note n="38b12919">
-            Nr 35.
-          </note>
-          <note n="9f7601fc">
-            Ang. fortsättningsskolan. (Forts.)
-          </note>
-          <pb n="23" facs="https://betalab.kb.se/prot-1929--ak--38/prot_1929__ak__38-023.jp2/_view"/>
-          <note n="86463bab">
-            Nr 38.
-          </note>
-          <note n="9f7601fc">
-            Ang. fortsättningsskolan. (Forts.)
-          </note>
-          <note n="7e5620a5">
-            24 Onsdagen den 22 maj f. m.
-          </note>
           <note n="80d0e8f5">
             Under detta anförande hade herr förste vice talmannen övertagit
             ledningen av kammarens förhandlingar.
@@ -2117,7 +2149,7 @@
           <note type="speaker" n="d53976fe">
             Herr Weijne:
           </note>
-          <u who="josef_weijne_748b1d" xml:id="i-a28fc7239a2b2f1f-0" next="i-6d91226f3524c9a7-0" n="f392be34">
+          <u who="josef_weijne_748b1d" xml:id="i-f392be34230ce0ec-0" next="i-f392be34230ce0ec-5" n="f392be34">
             <seg n="a9e0b8aa">
               Herr talman! Jag skall uppriktigt säga att det var med en viss
               nyfikenhet, som jag lyssnade på den föregående ärade talaren.
@@ -2130,10 +2162,10 @@
             </seg>
           </u>
           <pb n="24" facs="https://betalab.kb.se/prot-1929--ak--38/prot_1929__ak__38-024.jp2/_view"/>
-          <note n="632d693b">
+          <note type="date" n="dc33e2e2">
             Onsdagen den 22 maj f. m. 25
           </note>
-          <u who="josef_weijne_748b1d" xml:id="i-6d91226f3524c9a7-0" prev="i-a28fc7239a2b2f1f-0" n="f392be34">
+          <u who="josef_weijne_748b1d" xml:id="i-f392be34230ce0ec-1" prev="i-f392be34230ce0ec-0" n="f392be34">
             <seg n="b6a3613b">
               att han tillstyrker i sak — utan att formellt göra något yrkande
               — det yrkande, som har kommit upp i första tillfälliga utskottet,
@@ -2205,6 +2237,30 @@
               bli fråga om en bortovaro av två hela dagar. Över huvud behöver
               man knappast taga hänsyn
             </seg>
+          </u>
+          <note n="7d27619d">
+            till det.
+          </note>
+          <note n="86463bab">
+            Nr 38.
+          </note>
+          <note n="9f7601fc">
+            Ang. fortsättningsskolan. (Forts.)
+          </note>
+          <pb n="25" facs="https://betalab.kb.se/prot-1929--ak--38/prot_1929__ak__38-025.jp2/_view"/>
+          <note n="86463bab">
+            Nr 38.
+          </note>
+          <note n="24e3953a">
+            Ang. fortsättningsskolan.
+          </note>
+          <note n="affdaf2c">
+            (Forts.)
+          </note>
+          <note type="date" n="9845ab86">
+            26 Onsdagen den 22 maj f. m.
+          </note>
+          <u who="josef_weijne_748b1d" xml:id="i-f392be34230ce0ec-2" prev="i-f392be34230ce0ec-0" n="f392be34">
             <seg n="8251134f">
               Men även 600 är mera än 360, och det skall bevisas, att de 360
               är för mera. Hur skall det ske, när han ändå trots dessa bortförklaringar
@@ -2273,6 +2329,12 @@
               är just sysslolöshet, är rotlöshet överhuvud taget, och redan
               av den anledningen måste jag med skärpa opponera mig mot
             </seg>
+          </u>
+          <pb n="26" facs="https://betalab.kb.se/prot-1929--ak--38/prot_1929__ak__38-026.jp2/_view"/>
+          <note type="date" n="794a598b">
+            Onsdagen den 22 maj f. m. 27
+          </note>
+          <u who="josef_weijne_748b1d" xml:id="i-f392be34230ce0ec-3" prev="i-f392be34230ce0ec-0" n="f392be34">
             <seg n="37a4a903">
               en anordning, som kan få så svåra konsekvenser. Men, säger man,
               andra få plats, andra få de anställningar, som de, vilka äro förhindrade
@@ -2343,6 +2405,30 @@
               det ena eller det andra.
             </seg>
             <seg n="c8aeedef"/>
+          </u>
+          <note n="86463bab">
+            Nr 38.
+          </note>
+          <note n="9f7601fc">
+            Ang. fortsättningsskolan. (Forts.)
+          </note>
+          <pb n="27" facs="https://betalab.kb.se/prot-1929--ak--38/prot_1929__ak__38-027.jp2/_view"/>
+          <note n="86463bab">
+            Nr 38.
+          </note>
+          <note n="a1ac0cb6">
+            Ang.
+          </note>
+          <note n="3a4c32b6">
+            jortsättnings-
+          </note>
+          <note n="2d3613a2">
+            skolan. (Forts.)
+          </note>
+          <note type="date" n="6d74630c">
+            28 Onsdagen den 22 maj f. m.
+          </note>
+          <u who="josef_weijne_748b1d" xml:id="i-f392be34230ce0ec-4" prev="i-f392be34230ce0ec-0" n="f392be34">
             <seg n="38129935">
               Denna anordning är emellertid mest tillämplig för städer och
               samhällen. Detta var herr Holmdahl inne på, då han sade, att man
@@ -2417,6 +2503,12 @@
               Det står i utskottets utlåtande, att man begär en utredning,
               då det gäller
             </seg>
+          </u>
+          <pb n="28" facs="https://betalab.kb.se/prot-1929--ak--38/prot_1929__ak__38-028.jp2/_view"/>
+          <note type="date" n="2befd769">
+            Onsdagen den 22 maj f. m. 29
+          </note>
+          <u who="josef_weijne_748b1d" xml:id="i-f392be34230ce0ec-5" prev="i-f392be34230ce0ec-0" n="f392be34">
             <seg n="a96b36f3">
               den obligatoriska sjunde klassen. Jag har motionerat på det sättet,
               att det skulle gälla den frivilliga också. Jag tror, att det från
@@ -2440,58 +2532,6 @@
               kring fostrandet av vår ungdom.
             </seg>
           </u>
-          <note n="7d27619d">
-            till det.
-          </note>
-          <note n="86463bab">
-            Nr 38.
-          </note>
-          <note n="9f7601fc">
-            Ang. fortsättningsskolan. (Forts.)
-          </note>
-          <pb n="25" facs="https://betalab.kb.se/prot-1929--ak--38/prot_1929__ak__38-025.jp2/_view"/>
-          <note n="86463bab">
-            Nr 38.
-          </note>
-          <note n="24e3953a">
-            Ang. fortsättningsskolan.
-          </note>
-          <note n="affdaf2c">
-            (Forts.)
-          </note>
-          <note n="c294d51d">
-            26 Onsdagen den 22 maj f. m.
-          </note>
-          <pb n="26" facs="https://betalab.kb.se/prot-1929--ak--38/prot_1929__ak__38-026.jp2/_view"/>
-          <note n="6e1ad76f">
-            Onsdagen den 22 maj f. m. 27
-          </note>
-          <note n="86463bab">
-            Nr 38.
-          </note>
-          <note n="9f7601fc">
-            Ang. fortsättningsskolan. (Forts.)
-          </note>
-          <pb n="27" facs="https://betalab.kb.se/prot-1929--ak--38/prot_1929__ak__38-027.jp2/_view"/>
-          <note n="86463bab">
-            Nr 38.
-          </note>
-          <note n="a1ac0cb6">
-            Ang.
-          </note>
-          <note n="3a4c32b6">
-            jortsättnings-
-          </note>
-          <note n="2d3613a2">
-            skolan. (Forts.)
-          </note>
-          <note n="df0543d0">
-            28 Onsdagen den 22 maj f. m.
-          </note>
-          <pb n="28" facs="https://betalab.kb.se/prot-1929--ak--38/prot_1929__ak__38-028.jp2/_view"/>
-          <note n="ffe14762">
-            Onsdagen den 22 maj f. m. 29
-          </note>
           <note n="da050d21">
             Jag ber, herr talman, att få yrka bifall till statsutskottets
             förslag.
@@ -2504,7 +2544,7 @@
           <note type="speaker" n="b4c8ab1d">
             Herr Andersson i Ovanmyra:
           </note>
-          <u who="olof_andersson_0b1418" xml:id="i-5cccfd9393742a77-0" next="i-ccb75dd386f0925c-0" n="4eb3cd1d">
+          <u who="olof_andersson_0b1418" xml:id="i-4eb3cd1df96b6245-0" next="i-4eb3cd1df96b6245-2" n="4eb3cd1d">
             <seg n="f89736f2">
               Herr talman! Hela denna debatt ådagalägger otvivelaktigt, att
               ett visst och berättigat missnöje med fortsättningsskolan i dess
@@ -2567,10 +2607,10 @@
           <note n="9f7601fc">
             Ang. fortsättningsskolan. (Forts.)
           </note>
-          <note n="62296ad7">
+          <note type="date" n="528da832">
             30 Onsdagen den 22 maj f. m.
           </note>
-          <u who="olof_andersson_0b1418" xml:id="i-ccb75dd386f0925c-0" prev="i-5cccfd9393742a77-0" n="4eb3cd1d">
+          <u who="olof_andersson_0b1418" xml:id="i-4eb3cd1df96b6245-1" prev="i-4eb3cd1df96b6245-0" n="4eb3cd1d">
             <seg n="6ba2f738">
               nämnde t. ex. sådana ämnen som statsoch medborgarkunskap. Jag
               vill ifrågasätta, om det verkligen kan vara klokt och förståndigt
@@ -2637,6 +2677,12 @@
               en leda vid alltsamman, vilken verkar det rent motsatta mot vad
               man åsyftat. Detta är för övrigt en sak, som går
             </seg>
+          </u>
+          <pb n="30" facs="https://betalab.kb.se/prot-1929--ak--38/prot_1929__ak__38-030.jp2/_view"/>
+          <note type="date" n="5d36b82d">
+            Onsdagen den 22 maj f. m. 31
+          </note>
+          <u who="olof_andersson_0b1418" xml:id="i-4eb3cd1df96b6245-2" prev="i-4eb3cd1df96b6245-0" n="4eb3cd1d">
             <seg n="0685207a">
               igen såsom ett genomgående drag vid all undervisning, även vid
               elementarundervisningen. Vid studentfabrikationen t. ex. blir
@@ -2671,17 +2717,13 @@
               Jag ber, herr talman, att få yrka bifall till denna hemställan.
             </seg>
           </u>
-          <pb n="30" facs="https://betalab.kb.se/prot-1929--ak--38/prot_1929__ak__38-030.jp2/_view"/>
-          <note n="acbb87ea">
-            Onsdagen den 22 maj f. m. 31
-          </note>
           <note n="18daca02">
             Herr talmannen återtog nu ledningen av förhandlingarna.
           </note>
           <note type="speaker" n="cf62023c">
             Herr Lindmark:
           </note>
-          <u who="ewald_lindmark_4c2a50" xml:id="i-18245fcb47bfd6b2-0" next="i-66b3373edf317b00-0" n="f89240e8">
+          <u who="ewald_lindmark_4c2a50" xml:id="i-1b87c1e321412ac9-0" next="i-1b87c1e321412ac9-1" n="f89240e8">
             <seg n="1fc1bfa6">
               Herr talman! Jag vill till att börja med deklarera som min åsikt,
               att fortsättningsskolan är en bra skola. Det är möjligt, att i
@@ -2732,10 +2774,10 @@
           <note n="9f7601fc">
             Ang. fortsättningsskolan. (Forts.)
           </note>
-          <note n="906e3e7f">
+          <note type="date" n="1f4a5049">
             32 Onsdagen den 22 maj f. m.
           </note>
-          <u who="ewald_lindmark_4c2a50" xml:id="i-66b3373edf317b00-0" prev="i-18245fcb47bfd6b2-0" n="f89240e8">
+          <u who="ewald_lindmark_4c2a50" xml:id="i-1b87c1e321412ac9-1" prev="i-1b87c1e321412ac9-0" n="f89240e8">
             <seg n="55613495">
               liga landsbygden. Detta är redan framhållet, och jag ber att
               få understryka den synpunkten. Men med den motion, som jag väckt
@@ -2795,7 +2837,7 @@
           <note type="speaker" n="e89c58a9">
             Herr Pehrsson i Göteborg:
           </note>
-          <u who="per_pehrsson_c31216" xml:id="i-1adff9d35b027a68-0" next="i-03b0e66369136ac2-0" n="eb771ce5">
+          <u who="per_pehrsson_c31216" xml:id="i-eb771ce5e2b9f6db-0" next="i-eb771ce5e2b9f6db-2" n="eb771ce5">
             <seg n="3a928ebd">
               Herr talman! Då jag begärt ordet, så är det för att något se
               på denna fråga från min egen hemstads synpunkt. Jag skall icke
@@ -2815,10 +2857,10 @@
             </seg>
           </u>
           <pb n="32" facs="https://betalab.kb.se/prot-1929--ak--38/prot_1929__ak__38-032.jp2/_view"/>
-          <note n="6a7b20b7">
+          <note type="date" n="ec3f45f3">
             Onsdagen den 22 maj f. m. 33
           </note>
-          <u who="per_pehrsson_c31216" xml:id="i-03b0e66369136ac2-0" prev="i-1adff9d35b027a68-0" n="eb771ce5">
+          <u who="per_pehrsson_c31216" xml:id="i-eb771ce5e2b9f6db-1" prev="i-eb771ce5e2b9f6db-0" n="eb771ce5">
             <seg n="29f1baea">
               att man på detta sätt fick en stor del av barnen att taga den
               bättre undervisning, som jag tror erfarenheten ådagalagt, att
@@ -2885,6 +2927,30 @@
               för skolstyrelserna i stad såväl som på land, så att man kan laga
               efter omständigheterna, naturligtvis under fullt ansvar.
             </seg>
+          </u>
+          <note n="c935419d">
+            Andra kammarens protokoll 1929. Nr 38. 3
+          </note>
+          <note n="03c335c8">
+            Nr SN,
+          </note>
+          <note n="0c779064">
+            Ang. fortsättninasskolan.
+          </note>
+          <note n="a30728bc">
+            i Forts
+          </note>
+          <pb n="33" facs="https://betalab.kb.se/prot-1929--ak--38/prot_1929__ak__38-033.jp2/_view"/>
+          <note n="86463bab">
+            Nr 38.
+          </note>
+          <note n="9f7601fc">
+            Ang. fortsättningsskolan. (Forts.)
+          </note>
+          <note type="date" n="93762faf">
+            34 Onsdagen den 22 maj f. m.
+          </note>
+          <u who="per_pehrsson_c31216" xml:id="i-eb771ce5e2b9f6db-2" prev="i-eb771ce5e2b9f6db-0" n="eb771ce5">
             <seg n="0ff7ce0e">
               När jag här visat tillbaka på hur fortsättningsskoleorganisationen
               i vårt samhälle verkat, så vill jag säga, att bakom detta ligger
@@ -2922,32 +2988,10 @@
               kursplan, att erhålla befrielse från fortsättningsskolplikt.
             </seg>
           </u>
-          <note n="c935419d">
-            Andra kammarens protokoll 1929. Nr 38. 3
-          </note>
-          <note n="03c335c8">
-            Nr SN,
-          </note>
-          <note n="0c779064">
-            Ang. fortsättninasskolan.
-          </note>
-          <note n="a30728bc">
-            i Forts
-          </note>
-          <pb n="33" facs="https://betalab.kb.se/prot-1929--ak--38/prot_1929__ak__38-033.jp2/_view"/>
-          <note n="86463bab">
-            Nr 38.
-          </note>
-          <note n="9f7601fc">
-            Ang. fortsättningsskolan. (Forts.)
-          </note>
-          <note n="03c4b61a">
-            34 Onsdagen den 22 maj f. m.
-          </note>
           <note type="speaker" n="b717c133">
             Herr Bergström i Hälsingborg:
           </note>
-          <u who="petrus_bergstrom_96db56" xml:id="i-25813465d8aa53a6-0" next="i-feef258c9e6f9f1f-0" n="f5b5b7ba">
+          <u who="petrus_bergstrom_96db56" xml:id="i-8b62b64ca2358948-0" next="i-8b62b64ca2358948-2" n="f5b5b7ba">
             <seg n="82e23bba">
               Herr talman! Jag begärde ordet i anledning av den hållning, som
               herr Holmdahl intog i sitt anförande, rörande den fråga, som första
@@ -2984,10 +3028,10 @@
             </seg>
           </u>
           <pb n="34" facs="https://betalab.kb.se/prot-1929--ak--38/prot_1929__ak__38-034.jp2/_view"/>
-          <note n="efe52725">
+          <note type="date" n="2f825466">
             Onsdagen den 22 maj if. m. 35
           </note>
-          <u who="petrus_bergstrom_96db56" xml:id="i-feef258c9e6f9f1f-0" prev="i-25813465d8aa53a6-0" n="f5b5b7ba">
+          <u who="petrus_bergstrom_96db56" xml:id="i-8b62b64ca2358948-1" prev="i-8b62b64ca2358948-0" n="f5b5b7ba">
             <seg n="7fdf58ad">
               Jonssons i Risinge motion, därför att den utgjorde ett alltför
               radikalt ingrepp i den nya fortsättningsskoleorganisationen, som
@@ -3056,16 +3100,6 @@
               detta spörsmål, innan man sätter i gång en utredningsapparat,
               som väl ändå skulle ha till
             </seg>
-            <seg n="92872e1e">
-              syfte att mera definitivt avlägsna de svårigheter, som nog göra
-              sig gällande med fortsättningsskolepliktens tillämpning här och
-              var.
-            </seg>
-            <seg n="ab22bb7e">
-              Jag skall, herr talman, med dessa ord be att få yrka bifall till
-              den reservation, som avlämnats till första tillfälliga utskottets
-              utlåtande.
-            </seg>
           </u>
           <note n="86463bab">
             Nr 38.
@@ -3083,13 +3117,25 @@
           <note n="4a89a4b8">
             fortsättningsskolan. (Forts.)
           </note>
-          <note n="af67a803">
+          <note type="date" n="ce29b62a">
             36 Onsdagen den 22 maj f. m.
           </note>
+          <u who="petrus_bergstrom_96db56" xml:id="i-8b62b64ca2358948-2" prev="i-8b62b64ca2358948-0" n="f5b5b7ba">
+            <seg n="92872e1e">
+              syfte att mera definitivt avlägsna de svårigheter, som nog göra
+              sig gällande med fortsättningsskolepliktens tillämpning här och
+              var.
+            </seg>
+            <seg n="ab22bb7e">
+              Jag skall, herr talman, med dessa ord be att få yrka bifall till
+              den reservation, som avlämnats till första tillfälliga utskottets
+              utlåtande.
+            </seg>
+          </u>
           <note type="speaker" n="2b002044">
             Herr Jonsson i Eskilstuna:
           </note>
-          <u who="oscar_jonsson_23d6a2" xml:id="i-d457896a95ff0439-2" next="i-46a4656feccebe8e-2" n="bf1e89b5">
+          <u who="oscar_jonsson_23d6a2" xml:id="i-bf1e89b5d220c654-6" next="i-bf1e89b5d220c654-7" n="bf1e89b5">
             <seg n="672ce988">
               Herr talman! Jag skall endast be att i största korthet få komma
               med en replik. Jag vänder mig först till herr Pehrsson i Göteborg,
@@ -3158,10 +3204,10 @@
             </seg>
           </u>
           <pb n="36" facs="https://betalab.kb.se/prot-1929--ak--38/prot_1929__ak__38-036.jp2/_view"/>
-          <note n="481eaca5">
+          <note type="date" n="3f0ec6f5">
             Onsdagen den 22 maj f. m. 37
           </note>
-          <u who="oscar_jonsson_23d6a2" xml:id="i-46a4656feccebe8e-2" prev="i-d457896a95ff0439-2" n="bf1e89b5">
+          <u who="oscar_jonsson_23d6a2" xml:id="i-bf1e89b5d220c654-7" prev="i-bf1e89b5d220c654-6" n="bf1e89b5">
             <seg n="3fac7698">
               ordna fortsättningsskolan så som man lyckats göra på andra ställen,
               där man skött saken på ett bättre sätt än i Borås, skall man vara
@@ -3193,7 +3239,7 @@
           <note type="speaker" n="786e05dc">
             Herr Wallerius:
           </note>
-          <u who="adolf_wallerius_013511" xml:id="i-2a2bca09c4e3b814-0" next="i-795a2cf04db66c4f-0" n="6053c473">
+          <u who="adolf_wallerius_013511" xml:id="i-6053c47348bb0247-0" next="i-6053c47348bb0247-2" n="6053c473">
             <seg n="d4a42464">
               Herr talman! Genom de alltjämt återkommande debatterna om fortsättningsskolan
               har man, synes det mig, fört problemet betydligt framåt. Så t.
@@ -3253,10 +3299,10 @@
           <note n="9f7601fc">
             Ang. fortsättningsskolan. (Forts.)
           </note>
-          <note n="660433d9">
+          <note type="date" n="9940fe77">
             38 Onsdagen den 22 maj f. m.
           </note>
-          <u who="adolf_wallerius_013511" xml:id="i-795a2cf04db66c4f-0" prev="i-2a2bca09c4e3b814-0" n="6053c473">
+          <u who="adolf_wallerius_013511" xml:id="i-6053c47348bb0247-1" prev="i-6053c47348bb0247-0" n="6053c473">
             <seg n="2f7dc616">
               undervisningsplanen. Jag nämner detta endast såsom ett exempel
               på att frihet kan lämnas 1 ganska stor utsträckning. Jag håller
@@ -3329,6 +3375,12 @@
               till alla delar vill jag ha hän-
             </seg>
             <seg n="c8aeedef"/>
+          </u>
+          <pb n="38" facs="https://betalab.kb.se/prot-1929--ak--38/prot_1929__ak__38-038.jp2/_view"/>
+          <note type="date" n="4e19180e">
+            Onsdagen den 22 maj f. m. 39
+          </note>
+          <u who="adolf_wallerius_013511" xml:id="i-6053c47348bb0247-2" prev="i-6053c47348bb0247-0" n="6053c473">
             <seg n="5c7716a8">
               visat på de psykologiska faktorer, som göra sig gällande. Det
               är nog ohållbart att bara skriva på reaktionens konto, att det
@@ -3350,10 +3402,6 @@
               genomförd.
             </seg>
           </u>
-          <pb n="38" facs="https://betalab.kb.se/prot-1929--ak--38/prot_1929__ak__38-038.jp2/_view"/>
-          <note n="d5d29c39">
-            Onsdagen den 22 maj f. m. 39
-          </note>
           <note n="602ce008">
             Jag ber, herr talman, att få tillstyrka andra kammarens första
             tillfälliga utskotts hemställan.
@@ -3364,7 +3412,7 @@
           <note type="speaker" n="8b46a216">
             Herr Holmdahl:
           </note>
-          <u who="otto_holmdahl_eaa246" xml:id="i-b2341bf2ba5b66a9-1" next="i-12534268bb6acf64-1" n="b9743b1c">
+          <u who="otto_holmdahl_eaa246" xml:id="i-b9743b1c455d7a11-8" next="i-b9743b1c455d7a11-9" n="b9743b1c">
             <seg n="b112d808">
               Herr talman! Jag begärde ordet under herr Weijnes anförande för
               att replikera honom. Herr Weijne försökte göra gällande, att jag
@@ -3430,10 +3478,10 @@
           <note n="6a3cc446">
             Ang. jortsättningsskolan. (Forts.)
           </note>
-          <note n="a44d6352">
+          <note type="date" n="cee94562">
             40 Onsdagen den 22 maj f. m.
           </note>
-          <u who="otto_holmdahl_eaa246" xml:id="i-12534268bb6acf64-1" prev="i-b2341bf2ba5b66a9-1" n="b9743b1c">
+          <u who="otto_holmdahl_eaa246" xml:id="i-b9743b1c455d7a11-9" prev="i-b9743b1c455d7a11-8" n="b9743b1c">
             <seg n="d7ca756b">
               enligt mitt sätt att se på denna fråga föreligger det i allmänhet
               icke, när det gäller städer och stadsliknande samhällen, några
@@ -3510,13 +3558,13 @@
             </seg>
           </u>
           <pb n="40" facs="https://betalab.kb.se/prot-1929--ak--38/prot_1929__ak__38-040.jp2/_view"/>
-          <note n="ef0609d5">
+          <note type="date" n="da34ccd0">
             Onsdagen den 22 maj if. m. 41
           </note>
           <note type="speaker" n="29aaa38b">
             Herr Wigforss:
           </note>
-          <u who="ernst_wigforss_c2e2a2" xml:id="i-93d5f3f7f3cf907f-0" next="i-b615369e1bba62ea-0" n="ab51d423">
+          <u who="ernst_wigforss_c2e2a2" xml:id="i-ab51d423f3a9b2c8-0" next="i-ab51d423f3a9b2c8-1" n="ab51d423">
             <seg n="21d3e2b2">
               Herr talman! Jag skall icke försöka lägga något nytt i sak till
               den diskussion, som har förts här, och jag kan därför lova kammaren,
@@ -3606,10 +3654,10 @@
           <note n="9f7601fc">
             Ang. fortsättningsskolan. (Forts.)
           </note>
-          <note n="4cfff1a6">
+          <note type="date" n="45ac7bee">
             42 Onsdagen den 22 maj f. m.
           </note>
-          <u who="ernst_wigforss_c2e2a2" xml:id="i-b615369e1bba62ea-0" prev="i-93d5f3f7f3cf907f-0" n="ab51d423">
+          <u who="ernst_wigforss_c2e2a2" xml:id="i-ab51d423f3a9b2c8-1" prev="i-ab51d423f3a9b2c8-0" n="ab51d423">
             <seg n="95ec4600">
               distrikt för sig, för att utvägen skall avvisas. Jag upprepar,
               att det måste finnas ytterligt starka skäl för att riksdagen skall
@@ -3685,13 +3733,13 @@
             </seg>
           </u>
           <pb n="42" facs="https://betalab.kb.se/prot-1929--ak--38/prot_1929__ak__38-042.jp2/_view"/>
-          <note n="0e82025c">
+          <note type="date" n="196d4bf2">
             Onsdagen den 22 maj f. m. 43
           </note>
           <note type="speaker" n="7c5f327e">
             Herr Paulsen:
           </note>
-          <u who="anders_paulsen_9d6e0d" xml:id="i-1dd8c58d88dec7cd-0" n="6bb84b5e">
+          <u who="anders_paulsen_9d6e0d" xml:id="i-6bb84b5eed0e0af5-0" n="6bb84b5e">
             <seg n="dd40d81a">
               Herr talman! För dem, som några år varit i tillfälle att följa
               fortsättningsskolans verksamhet, har det icke kunnat fördöljas,
@@ -3722,7 +3770,7 @@
           <note type="speaker" n="f097f672">
             Herr Persson i Falla:
           </note>
-          <u who="swen_persson_9846aa" xml:id="i-68bd6e2df2c939b4-0" next="i-51d89ad76064005c-0" n="9183d01e">
+          <u who="swen_persson_9846aa" xml:id="i-38efffc971adf7ff-0" next="i-38efffc971adf7ff-1" n="9183d01e">
             <seg n="21f09f98">
               Herr talman! Detta är ju ingen ny fråga, ty under de senaste
               sex åren har ju, om jag minns rätt, varje riksdag haft att taga
@@ -3789,10 +3837,10 @@
           <note n="a03e7f57">
             Forts.)
           </note>
-          <note n="bd48e1a6">
+          <note type="date" n="ba93aac3">
             44 Onhsdagen den 22 maj f. m.
           </note>
-          <u who="swen_persson_9846aa" xml:id="i-51d89ad76064005c-0" prev="i-68bd6e2df2c939b4-0" n="9183d01e">
+          <u who="swen_persson_9846aa" xml:id="i-38efffc971adf7ff-1" prev="i-38efffc971adf7ff-0" n="9183d01e">
             <seg n="261ed3c9">
               motion sikte på att få fram möjligheter till en frivillig begränsning
               av fortsättningsskolan till en årskurs på 180 timmar. För min
@@ -3831,7 +3879,7 @@
           <note type="speaker" n="8527b349">
             Herr Ljung:
           </note>
-          <u who="erik_w_ljung_cfb64f" xml:id="i-5947fcf92449aeef-1" next="i-17f3ae82a7619cba-1" n="6ce99c93">
+          <u who="erik_w_ljung_cfb64f" xml:id="i-6ce99c93e7411444-6" next="i-6ce99c93e7411444-7" n="6ce99c93">
             <seg n="095fad06">
               Herr talman! Jag begärde ordet med anledning av ett yttrande
               av herr Bergström i Hälsingborg. TI sitt anförande framhöll han
@@ -3868,10 +3916,10 @@
             </seg>
           </u>
           <pb n="44" facs="https://betalab.kb.se/prot-1929--ak--38/prot_1929__ak__38-044.jp2/_view"/>
-          <note n="91b2623e">
+          <note type="date" n="65dba1ca">
             Onsdagen den 22 maj f. m. 45
           </note>
-          <u who="erik_w_ljung_cfb64f" xml:id="i-17f3ae82a7619cba-1" prev="i-5947fcf92449aeef-1" n="6ce99c93">
+          <u who="erik_w_ljung_cfb64f" xml:id="i-6ce99c93e7411444-7" prev="i-6ce99c93e7411444-6" n="6ce99c93">
             <seg n="1de9626c">
               reservanterna och skolöverstyrelsen äro eniga därom att det finns
               vissa förhållanden, som kunna kräva en närmare undersökning. Det
@@ -3898,7 +3946,7 @@
           <note type="speaker" n="d53976fe">
             Herr Weijne:
           </note>
-          <u who="josef_weijne_748b1d" xml:id="i-a28fc7239a2b2f1f-1" next="i-6d91226f3524c9a7-1" n="f392be34">
+          <u who="josef_weijne_748b1d" xml:id="i-f392be34230ce0ec-6" next="i-f392be34230ce0ec-7" n="f392be34">
             <seg n="95b28603">
               Herr talman! Jag skall blott tillåta mig ett par repliker till
               herr Jonsson i Eskilstuna och herr Holmdahl. Herr Jonsson försökte
@@ -3965,10 +4013,10 @@
           <note n="f5131c99">
             i Forts.)
           </note>
-          <note n="9093d0cd">
+          <note type="date" n="9a2ac7ad">
             46 Onsdagen den 22 maj f. m.
           </note>
-          <u who="josef_weijne_748b1d" xml:id="i-6d91226f3524c9a7-1" prev="i-a28fc7239a2b2f1f-1" n="f392be34">
+          <u who="josef_weijne_748b1d" xml:id="i-f392be34230ce0ec-7" prev="i-f392be34230ce0ec-6" n="f392be34">
             <seg n="86cba3fc">
               der för utskottets förslag, visserligen icke formellt. men tillråder
               dem av kammarens ledamöter, som vilja göra någonting positivt,
@@ -4006,7 +4054,7 @@
           <note type="speaker" n="b717c133">
             Herr Bergström i Hälsingborg:
           </note>
-          <u who="petrus_bergstrom_96db56" xml:id="i-25813465d8aa53a6-1" next="i-feef258c9e6f9f1f-1" n="f5b5b7ba">
+          <u who="petrus_bergstrom_96db56" xml:id="i-8b62b64ca2358948-3" next="i-8b62b64ca2358948-4" n="f5b5b7ba">
             <seg n="8df58496">
               Herr talman! Herr Ljung anmärkte mot att jag i mitt första anförande
               sökte i utskottsmajoritetens förslag lägga in samma innebörd,
@@ -4044,10 +4092,10 @@
             </seg>
           </u>
           <pb n="46" facs="https://betalab.kb.se/prot-1929--ak--38/prot_1929__ak__38-046.jp2/_view"/>
-          <note n="fff7fa7c">
+          <note type="date" n="df2ff965">
             Onsdagen den 22 maj i. m. 47
           </note>
-          <u who="petrus_bergstrom_96db56" xml:id="i-feef258c9e6f9f1f-1" prev="i-25813465d8aa53a6-1" n="f5b5b7ba">
+          <u who="petrus_bergstrom_96db56" xml:id="i-8b62b64ca2358948-4" prev="i-8b62b64ca2358948-3" n="f5b5b7ba">
             <seg n="f50f3e3c">
               i gällande skolstadga rörande fortsättningsskolpliktens fullgörande
               måtte komma till stånd för att förminska de motsättningar, som
@@ -4083,7 +4131,7 @@
           <note type="speaker" n="29aaa38b">
             Herr Wigforss:
           </note>
-          <u who="ernst_wigforss_c2e2a2" xml:id="i-d5df66c1310bcd2f-0" n="ab51d423">
+          <u who="ernst_wigforss_c2e2a2" xml:id="i-ab51d423f3a9b2c8-2" n="ab51d423">
             <seg n="37a470b5">
               Herr talman! Jag skall endast be att få ändra mitt yrkande. Det
               finns här så många yrkanden, att det vore önskvärt. att de, som
@@ -4101,7 +4149,7 @@
           <note type="speaker" n="7c5f327e">
             Herr Paulsen:
           </note>
-          <u who="anders_paulsen_9d6e0d" xml:id="i-1dd8c58d88dec7cd-1" n="6bb84b5e">
+          <u who="anders_paulsen_9d6e0d" xml:id="i-6bb84b5eed0e0af5-1" n="6bb84b5e">
             <seg n="638f3681">
               Herr talman! Då även jag yrkat bifall till statsutskottets förslag
               oförändrat, ber jag att få återtaga detta yrkande och instämma
@@ -4111,7 +4159,7 @@
           <note type="speaker" n="d53976fe">
             Herr Weijne:
           </note>
-          <u who="josef_weijne_748b1d" xml:id="i-78957aac72c1ca6e-0" n="f392be34">
+          <u who="josef_weijne_748b1d" xml:id="i-f392be34230ce0ec-8" n="f392be34">
             <seg n="979cc804">
               Herr talman! Jag skall be att få instämma i herr Wigforss” yrkande.
             </seg>
@@ -4146,7 +4194,7 @@
           <note n="9f7601fc">
             Ang. fortsättningsskolan. (Forts.)
           </note>
-          <note n="054ca680">
+          <note type="date" n="4a76fa0c">
             48 Onsdagen den 22 maj f. m.
           </note>
           <note n="d413edc4">
@@ -4222,7 +4270,7 @@
             Den, det ej vill, röstar
           </note>
           <pb n="48" facs="https://betalab.kb.se/prot-1929--ak--38/prot_1929__ak__38-048.jp2/_view"/>
-          <note n="b6822655">
+          <note type="date" n="610fb606">
             Onsdagen den 22 maj f. m. 49
           </note>
           <note n="01a099a8">
@@ -4323,7 +4371,7 @@
           <note n="0ffcadc7">
             Ang. omorganisation av vägväsendet. (Forts.)
           </note>
-          <note n="c0d1ec86">
+          <note type="date" n="7d6beac6">
             50 Onsdagen den 22 maj f. m.
           </note>
           <note n="863da89f">
@@ -4384,7 +4432,7 @@
           <note type="speaker" n="854700df">
             Herr Anderson i Råstock:
           </note>
-          <u who="ivar_anderson_887d5a" xml:id="i-02e2ce8d4b020d3a-0" next="i-718750b3a063f228-0" n="cd022209">
+          <u who="ivar_anderson_887d5a" xml:id="i-cd02220923006e35-0" next="i-cd02220923006e35-5" n="cd022209">
             <seg n="b0e5f0b5">
               Herr talman! Det är klart, att efter en så lång debatt, som den
               vi nu haft i skolfrågan, skall en fråga av praktisk betydelse
@@ -4415,10 +4463,10 @@
             </seg>
           </u>
           <pb n="50" facs="https://betalab.kb.se/prot-1929--ak--38/prot_1929__ak__38-050.jp2/_view"/>
-          <note n="8221a4e4">
+          <note type="date" n="fed95739">
             Onsdagen den 22 maj f. m. 1
           </note>
-          <u who="ivar_anderson_887d5a" xml:id="i-718750b3a063f228-0" prev="i-02e2ce8d4b020d3a-0" n="cd022209">
+          <u who="ivar_anderson_887d5a" xml:id="i-cd02220923006e35-1" prev="i-cd02220923006e35-0" n="cd022209">
             <seg n="8fbf44de">
               däremot inte alls, vad lokalkostnader och dylikt komma att gå
               till, och man har inte heller något begrepp om — i vidare mån
@@ -4495,6 +4543,18 @@
               sig till ordförandens i 1927 års kommitté förslag. Och vad värre
               är,
             </seg>
+          </u>
+          <pb n="51" facs="https://betalab.kb.se/prot-1929--ak--38/prot_1929__ak__38-051.jp2/_view"/>
+          <note n="86463bab">
+            Nr 38.
+          </note>
+          <note n="0ffcadc7">
+            Ang. omorganisation av vägväsendet. (Forts.)
+          </note>
+          <note type="date" n="b85ed7c1">
+            52 Onsdagen den 22 maj f. m.
+          </note>
+          <u who="ivar_anderson_887d5a" xml:id="i-cd02220923006e35-2" prev="i-cd02220923006e35-0" n="cd022209">
             <seg n="cb41d41e">
               är att över de andra förslagen, som kommo fram i fjol, hava länsstyrelserna
               icke ens beretts tillfälle att yttra sig.
@@ -4564,6 +4624,12 @@
               på den metod, som hittills tillämpats. Jag skall icke gå in på
               något bemötande av den saken,
             </seg>
+          </u>
+          <pb n="52" facs="https://betalab.kb.se/prot-1929--ak--38/prot_1929__ak__38-052.jp2/_view"/>
+          <note type="date" n="2578e3c9">
+            Onsdagen den 22 maj f. m. 53
+          </note>
+          <u who="ivar_anderson_887d5a" xml:id="i-cd02220923006e35-3" prev="i-cd02220923006e35-0" n="cd022209">
             <seg n="97f74f9b">
               men jag har papper här, i den här stora luntan, som visa, att
               vad de skulle komma att få i merinkomst på arbete enligt av reservanterna
@@ -4639,6 +4705,27 @@
               med bortseende från vägväsendet, kan jag icke neka mig nöjet att
               i detta sammanhang
             </seg>
+          </u>
+          <note n="86463bab">
+            Nr 38.
+          </note>
+          <note n="0ffcadc7">
+            Ang. omorganisation av vägväsendet. (Forts.)
+          </note>
+          <pb n="53" facs="https://betalab.kb.se/prot-1929--ak--38/prot_1929__ak__38-053.jp2/_view"/>
+          <note n="86463bab">
+            Nr 38.
+          </note>
+          <note n="b6819318">
+            Ang. omorganisation av vägväsendet.
+          </note>
+          <note n="affdaf2c">
+            (Forts.)
+          </note>
+          <note type="date" n="cd912b3d">
+            54 Onsdagen den 22 maj f. m.
+          </note>
+          <u who="ivar_anderson_887d5a" xml:id="i-cd02220923006e35-4" prev="i-cd02220923006e35-0" n="cd022209">
             <seg n="83f0b676">
               framhålla, att även där finns det viktiga uppgifter att fylla.
               Jag begagnar detta tillfälle att för dem, som i fjol ville avskaffa
@@ -4685,43 +4772,7 @@
               som ser till att svenska folkets på olika sätt årligen hopskrapade
               70 å 80 miljoner kronor bliva rätt använda.
             </seg>
-            <seg n="8605e53b">
-              Fortsattes det på förmiddagen började sammanträdet.
-            </seg>
           </u>
-          <pb n="51" facs="https://betalab.kb.se/prot-1929--ak--38/prot_1929__ak__38-051.jp2/_view"/>
-          <note n="86463bab">
-            Nr 38.
-          </note>
-          <note n="0ffcadc7">
-            Ang. omorganisation av vägväsendet. (Forts.)
-          </note>
-          <note n="8ce9daeb">
-            52 Onsdagen den 22 maj f. m.
-          </note>
-          <pb n="52" facs="https://betalab.kb.se/prot-1929--ak--38/prot_1929__ak__38-052.jp2/_view"/>
-          <note n="179be90e">
-            Onsdagen den 22 maj f. m. 53
-          </note>
-          <note n="86463bab">
-            Nr 38.
-          </note>
-          <note n="0ffcadc7">
-            Ang. omorganisation av vägväsendet. (Forts.)
-          </note>
-          <pb n="53" facs="https://betalab.kb.se/prot-1929--ak--38/prot_1929__ak__38-053.jp2/_view"/>
-          <note n="86463bab">
-            Nr 38.
-          </note>
-          <note n="b6819318">
-            Ang. omorganisation av vägväsendet.
-          </note>
-          <note n="affdaf2c">
-            (Forts.)
-          </note>
-          <note n="1baa80f8">
-            54 Onsdagen den 22 maj f. m.
-          </note>
           <note n="9fc43710">
             Med dessa ord som slutord ber jag att få yrka avslag på utskottets
             hemställan och bifall till den av mig m. fl. undertecknade reservationen.
@@ -4754,12 +4805,17 @@
           <note n="3ea7c44c">
             I
           </note>
-          <note n="ba5d4219">
+          <note type="date" n="e0bf138b">
             Onsdagen den 22 maj e. m. 5
           </note>
-          <note n="de91045c">
+          <note type="date" n="29df1380">
             Onsdagen den 22 maj. Kl. 7'e. m.
           </note>
+          <u who="ivar_anderson_887d5a" xml:id="i-cd02220923006e35-5" prev="i-cd02220923006e35-0" n="cd022209">
+            <seg n="8605e53b">
+              Fortsattes det på förmiddagen började sammanträdet.
+            </seg>
+          </u>
           <note n="c7dc96a7">
             $ 1.
           </note>
@@ -4773,7 +4829,7 @@
           <note type="speaker" n="59974c0f">
             Herr Persson i Fritorp, som anförde:
           </note>
-          <u who="swen_persson_9846aa" xml:id="i-68bd6e2df2c939b4-1" next="i-51d89ad76064005c-1" n="9183d01e">
+          <u who="swen_persson_9846aa" xml:id="i-38efffc971adf7ff-2" next="i-38efffc971adf7ff-4" n="9183d01e">
             <seg n="a60704bb">
               Herr talman, mina herrar! Jag kan börja på samma sätt som min
               ärade vän, statsutskottets vice ordförande, gjorde här i förmiddags,
@@ -4825,10 +4881,10 @@
           <note n="2059737c">
             Ang. omorganisation av vägväsendet. (Faorts.)
           </note>
-          <note n="e4701485">
+          <note type="date" n="6c31fc8d">
             56 Onsdagen den 22 maj e. m.
           </note>
-          <u who="swen_persson_9846aa" xml:id="i-51d89ad76064005c-1" prev="i-68bd6e2df2c939b4-1" n="9183d01e">
+          <u who="swen_persson_9846aa" xml:id="i-38efffc971adf7ff-3" prev="i-38efffc971adf7ff-2" n="9183d01e">
             <seg n="fd0a86d4">
               tagit. Jag kan icke underlåta att erinra därom, att Kungl. Maj:t
               i fjol föreslog en lön till dessa ingenjörer av 10,000 kronor,
@@ -4900,6 +4956,12 @@
               uppskjutet längre än som nödvändigt är, samt att utskottet förutsätter,
               att frågan därom — med beaktande av de särskilda synpunkter,
             </seg>
+          </u>
+          <pb n="56" facs="https://betalab.kb.se/prot-1929--ak--38/prot_1929__ak__38-056.jp2/_view"/>
+          <note type="date" n="a06f7611">
+            Onsdagen den 22 maj e. m. 57
+          </note>
+          <u who="swen_persson_9846aa" xml:id="i-38efffc971adf7ff-4" prev="i-38efffc971adf7ff-2" n="9183d01e">
             <seg n="0f5df2f6">
               som riksdagen 1928 framhållit — av Kungl. Maj:t beredes och förelägges
               riksdagen, så snart de i utskottets betänkande närmare angivna
@@ -4936,17 +4998,13 @@
               till statsutskottets hemställan.
             </seg>
           </u>
-          <pb n="56" facs="https://betalab.kb.se/prot-1929--ak--38/prot_1929__ak__38-056.jp2/_view"/>
-          <note n="9519933a">
-            Onsdagen den 22 maj e. m. 57
-          </note>
           <note n="46a3ec04">
             Vidare yttrade:
           </note>
           <note type="speaker" n="4ddd50f5">
             Herr Olsson i Kullenbergstorp:
           </note>
-          <u who="sven_olsson_ec46c1" xml:id="i-a611c78cf6822766-0" next="i-8e3ab7c7a6e28f16-0" n="1c912be9">
+          <u who="sven_olsson_ec46c1" xml:id="i-1c912be98792bf5d-0" next="i-1c912be98792bf5d-3" n="1c912be9">
             <seg n="efb4bf29">
               Herr talman! Jag skall icke synnerligen djupt ingå på det anförande,
               som statsutskottets ärade vice ordförande höll här före middagen
@@ -4996,10 +5054,10 @@
           <note n="0ffcadc7">
             Ang. omorganisation av vägväsendet. (Forts.)
           </note>
-          <note n="0f7e2f21">
+          <note type="date" n="230fe3c4">
             58 Onsdagen den 22 maj e. m.
           </note>
-          <u who="sven_olsson_ec46c1" xml:id="i-8e3ab7c7a6e28f16-0" prev="i-a611c78cf6822766-0" n="1c912be9">
+          <u who="sven_olsson_ec46c1" xml:id="i-1c912be98792bf5d-1" prev="i-1c912be98792bf5d-0" n="1c912be9">
             <seg n="2d6a8d37">
               kungl. propositionen eller rättare sagt utskottets hemställan.
               Jag tror inte det skulle vara riktigt nyttigt, om man nu sköte
@@ -5075,6 +5133,12 @@
               samma utbildningslinjer, som vägingenjörerna själva ha gjort.
               Jag
             </seg>
+          </u>
+          <pb n="58" facs="https://betalab.kb.se/prot-1929--ak--38/prot_1929__ak__38-058.jp2/_view"/>
+          <note type="date" n="4869074a">
+            Onsdagen den 22 maj e. m. 59
+          </note>
+          <u who="sven_olsson_ec46c1" xml:id="i-1c912be98792bf5d-2" prev="i-1c912be98792bf5d-0" n="1c912be9">
             <seg n="0fde2a43">
               vet icke, vad herrar landsövdingar ha att invända mot saken.
               Jag kan icke förstå dem. Det måtte vara en prestigefråga för dem
@@ -5150,6 +5214,24 @@
               fort det skall vara någonting nytt, skall man genast flyga upp
               med det
             </seg>
+          </u>
+          <note n="86463bab">
+            Nr 38.
+          </note>
+          <note n="0ffcadc7">
+            Ang. omorganisation av vägväsendet. (Forts.)
+          </note>
+          <pb n="59" facs="https://betalab.kb.se/prot-1929--ak--38/prot_1929__ak__38-059.jp2/_view"/>
+          <note n="86463bab">
+            Nr 38.
+          </note>
+          <note n="0ffcadc7">
+            Ang. omorganisation av vägväsendet. (Forts.)
+          </note>
+          <note type="date" n="d8e93ffb">
+            60 Onsdagen den 22 maj e. m.
+          </note>
+          <u who="sven_olsson_ec46c1" xml:id="i-1c912be98792bf5d-3" prev="i-1c912be98792bf5d-0" n="1c912be9">
             <seg n="3fe7b961">
               1 högsta toppen. Det är ett fel, som man borde lägga bort. Man
               bör försöka krypa, innan man kan gå, och icke organisera tjänster
@@ -5211,30 +5293,10 @@
               sammanhang med min motion.
             </seg>
           </u>
-          <pb n="58" facs="https://betalab.kb.se/prot-1929--ak--38/prot_1929__ak__38-058.jp2/_view"/>
-          <note n="74d8c9b6">
-            Onsdagen den 22 maj e. m. 59
-          </note>
-          <note n="86463bab">
-            Nr 38.
-          </note>
-          <note n="0ffcadc7">
-            Ang. omorganisation av vägväsendet. (Forts.)
-          </note>
-          <pb n="59" facs="https://betalab.kb.se/prot-1929--ak--38/prot_1929__ak__38-059.jp2/_view"/>
-          <note n="86463bab">
-            Nr 38.
-          </note>
-          <note n="0ffcadc7">
-            Ang. omorganisation av vägväsendet. (Forts.)
-          </note>
-          <note n="0c2c14e7">
-            60 Onsdagen den 22 maj e. m.
-          </note>
           <note type="speaker" n="cb8978ef">
             Herr Gardell i Gans:
           </note>
-          <u who="theodor_gardell_2a174e" xml:id="i-cd7a38b31226bbe8-0" next="i-b0b27cfa85a11b8e-0" n="93f5df57">
+          <u who="theodor_gardell_2a174e" xml:id="i-93f5df57ca383b34-0" next="i-93f5df57ca383b34-2" n="93f5df57">
             <seg n="1bbb7a20">
               Herr talman! Såväl Kungl. Maj:t som utskottet föreslår, att i
               vissa län utom Gotlands län skall finnas en vägingenjör. Som motiv
@@ -5254,10 +5316,10 @@
             </seg>
           </u>
           <pb n="60" facs="https://betalab.kb.se/prot-1929--ak--38/prot_1929__ak__38-060.jp2/_view"/>
-          <note n="c00fb55b">
+          <note type="date" n="0d8b5aac">
             Onsdagen den 22 maj e. m. 61
           </note>
-          <u who="theodor_gardell_2a174e" xml:id="i-b0b27cfa85a11b8e-0" prev="i-cd7a38b31226bbe8-0" n="93f5df57">
+          <u who="theodor_gardell_2a174e" xml:id="i-93f5df57ca383b34-1" prev="i-93f5df57ca383b34-0" n="93f5df57">
             <seg n="15b4846e">
               till allmänt underhåll. Jag vill därför tillbakavisa påståendet,
               att vägväsendet på Gotland är av ringa utsträckning.
@@ -5317,9 +5379,6 @@
               endast be att få yrka bifall till utskottsförslaget med det tillägget,
               att det skall införas en särskild vägingenjör för Gotlands län.
             </seg>
-            <seg n="a6cbb71f">
-              Jag ber att få framställa yrkande i enlighet härmed.
-            </seg>
           </u>
           <note n="1f449be0">
             Därför skall jag be att få föreslå att utskottets kläm må få
@@ -5330,10 +5389,15 @@
             enligt 20 löneklassen men med godkännande i övrigt av den av utskottet
             förordade organisationen — — — — — föranleda.»
           </note>
+          <u who="theodor_gardell_2a174e" xml:id="i-93f5df57ca383b34-2" prev="i-93f5df57ca383b34-0" n="93f5df57">
+            <seg n="a6cbb71f">
+              Jag ber att få framställa yrkande i enlighet härmed.
+            </seg>
+          </u>
           <note type="speaker" n="dbf7f3e3">
             Häruti instämde herr Svedman. Herr Hollertz:
           </note>
-          <u who="sven_hollertz_c88f06" xml:id="i-4f58a5a7a093e569-0" next="i-3b564747d7f0669e-0" n="d6340cb7">
+          <u who="sven_hollertz_c88f06" xml:id="i-d6340cb76e1eb4b2-0" next="i-d6340cb76e1eb4b2-2" n="d6340cb7">
             <seg n="3a1c261e">
               Herr talman! Då jag är intresserad av denna frågas lösning,
             </seg>
@@ -5355,10 +5419,10 @@
           <note n="0ffcadc7">
             Ang. omorganisation av vägväsendet. (Forts.)
           </note>
-          <note n="c753c576">
+          <note type="date" n="b66de3a0">
             62 Onsdagen den 22 maj e. m.
           </note>
-          <u who="sven_hollertz_c88f06" xml:id="i-3b564747d7f0669e-0" prev="i-4f58a5a7a093e569-0" n="d6340cb7">
+          <u who="sven_hollertz_c88f06" xml:id="i-d6340cb76e1eb4b2-1" prev="i-d6340cb76e1eb4b2-0" n="d6340cb7">
             <seg n="67aa25b8">
               Kungl. Maj:ts proposition innehåller, som redan förut framhållits,
               huvudsakligen vad riksdagen år 1928 begärt. Att en lösning av
@@ -5437,6 +5501,12 @@
               den debatt, som fördes i frågan föregående år, lämnades den uppgiften,
               att av alla de ärenden, som behand-
             </seg>
+          </u>
+          <pb n="62" facs="https://betalab.kb.se/prot-1929--ak--38/prot_1929__ak__38-062.jp2/_view"/>
+          <note type="date" n="11b04098">
+            Onsdagen den 22 maj e. m. 63
+          </note>
+          <u who="sven_hollertz_c88f06" xml:id="i-d6340cb76e1eb4b2-2" prev="i-d6340cb76e1eb4b2-0" n="d6340cb7">
             <seg n="8b84f1b9">
               lades av länsstyrelserna, hade cirka 90 Zz godkänts av vägoch
               vattenbyggnadsstyrelsen. Det torde alltså icke vara så farligt
@@ -5479,14 +5549,10 @@
               bifall till utskottets förslag.
             </seg>
           </u>
-          <pb n="62" facs="https://betalab.kb.se/prot-1929--ak--38/prot_1929__ak__38-062.jp2/_view"/>
-          <note n="4e73f894">
-            Onsdagen den 22 maj e. m. 63
-          </note>
           <note type="speaker" n="51e51731">
             Herr Mosesson:
           </note>
-          <u who="gustav_mosesson_7a936b" xml:id="i-eddd86e38327cba7-1" next="i-54b05e1644c38352-1" n="31cc93fe">
+          <u who="gustav_mosesson_7a936b" xml:id="i-31cc93fe603e2be3-5" next="i-31cc93fe603e2be3-6" n="31cc93fe">
             <seg n="cc438906">
               Det brukar, herr talman, vara så. att en enskild kammarledamot,
               som icke är insatt i ett föreliggande ärende, kan ha hjälp av
@@ -5534,10 +5600,10 @@
           <note n="0ffcadc7">
             Ang. omorganisation av vägväsendet. (Forts.)
           </note>
-          <note n="bc5ea3c3">
+          <note type="date" n="87e0213d">
             64 Onsdagen den 22 maj e. m.
           </note>
-          <u who="gustav_mosesson_7a936b" xml:id="i-54b05e1644c38352-1" prev="i-eddd86e38327cba7-1" n="31cc93fe">
+          <u who="gustav_mosesson_7a936b" xml:id="i-31cc93fe603e2be3-6" prev="i-31cc93fe603e2be3-5" n="31cc93fe">
             <seg n="8eaf9349">
               avgiva icke ett förslag, vilket sedan skall granskas av en annan
               och mera sakkunnig myndighet, utan ett förslag, som den beslutande
@@ -5556,7 +5622,7 @@
           <note type="speaker" n="854700df">
             Herr Anderson i Råstock:
           </note>
-          <u who="ivar_anderson_887d5a" xml:id="i-02e2ce8d4b020d3a-1" next="i-718750b3a063f228-1" n="cd022209">
+          <u who="ivar_anderson_887d5a" xml:id="i-cd02220923006e35-6" next="i-cd02220923006e35-11" n="cd022209">
             <seg n="3cdb62b9">
               Herr talman! Kammarledamöterna torde ursäkta mig, om vad jag
               nu kommer att säga blir litet rapsodiskt. Men så många talare
@@ -5618,10 +5684,10 @@
             </seg>
           </u>
           <pb n="64" facs="https://betalab.kb.se/prot-1929--ak--38/prot_1929__ak__38-064.jp2/_view"/>
-          <note n="aa2c5c58">
+          <note type="date" n="48394c89">
             Onsdagen den 22 maj e. m. 65
           </note>
-          <u who="ivar_anderson_887d5a" xml:id="i-718750b3a063f228-1" prev="i-02e2ce8d4b020d3a-1" n="cd022209">
+          <u who="ivar_anderson_887d5a" xml:id="i-cd02220923006e35-7" prev="i-cd02220923006e35-6" n="cd022209">
             <seg n="b504d255">
               område. Emellertid nämnde herr Olsson själv, att det var fråga
               om en arvodestjänst, något som i allmänhet icke — och allra minst
@@ -5695,6 +5761,27 @@
               påstå, att jag icke sagt mera i detta fall än vad jag verkligen
               helt och fullt
             </seg>
+          </u>
+          <note n="d2fe96d6">
+            Andra kammarens protokoll 1929. Nr 38. 5
+          </note>
+          <note n="0ab086ba">
+            Nr 88.
+          </note>
+          <note n="0ffcadc7">
+            Ang. omorganisation av vägväsendet. (Forts.)
+          </note>
+          <pb n="65" facs="https://betalab.kb.se/prot-1929--ak--38/prot_1929__ak__38-065.jp2/_view"/>
+          <note n="86463bab">
+            Nr 38.
+          </note>
+          <note n="0ffcadc7">
+            Ang. omorganisation av vägväsendet. (Forts.)
+          </note>
+          <note type="date" n="69bde8df">
+            66 Onsdagen den 22 maj e. m.
+          </note>
+          <u who="ivar_anderson_887d5a" xml:id="i-cd02220923006e35-8" prev="i-cd02220923006e35-6" n="cd022209">
             <seg n="f923505f">
               kan stå för. Och detta så mycket mera som ingen av dem, som plädera
               för utskottets förslag, kunnat bestrida en enda av mina uppgifter.
@@ -5769,6 +5856,12 @@
               och att de finge i sin tjänst anställa biträdande ingenjörer och
               andra, som voro behövliga. Det är det sy-
             </seg>
+          </u>
+          <pb n="66" facs="https://betalab.kb.se/prot-1929--ak--38/prot_1929__ak__38-066.jp2/_view"/>
+          <note type="date" n="1da441f5">
+            Onsdagen den 22 maj e. m. 67
+          </note>
+          <u who="ivar_anderson_887d5a" xml:id="i-cd02220923006e35-9" prev="i-cd02220923006e35-6" n="cd022209">
             <seg n="59c206fe">
               stem, som hittills gällt och som visserligen har sina oarter
               men som i alla fall haft den goda effekt, som jag förut berört.
@@ -5841,6 +5934,27 @@
               förslag icke heller i det hänseendet kommer att hålla i längden.
               Någonting måste göras för att
             </seg>
+          </u>
+          <note n="86463bab">
+            Nr 38.
+          </note>
+          <note n="0ffcadc7">
+            Ang. omorganisation av vägväsendet. (Forts.)
+          </note>
+          <pb n="67" facs="https://betalab.kb.se/prot-1929--ak--38/prot_1929__ak__38-067.jp2/_view"/>
+          <note n="0ab086ba">
+            Nr 88.
+          </note>
+          <note n="cbee4ad7">
+            Ang. omorganisation av väg-
+          </note>
+          <note n="affdaf2c">
+            (Forts.)
+          </note>
+          <note type="date" n="7343cbaa">
+            68 Onsdagen den 22 maj e. m.
+          </note>
+          <u who="ivar_anderson_887d5a" xml:id="i-cd02220923006e35-10" prev="i-cd02220923006e35-6" n="cd022209">
             <seg n="c4aa0965">
               undvika de stora resekostnader, som måste bli följden av att
               uppsalavägingenjören skall faktiskt tjäna två herrar, tjänstgöra
@@ -5918,6 +6032,12 @@
               bosatt. Det står i tidningarna, att den och den vägstyrelsen gjort
               framställning om att kaptenen eller majoren X skall
             </seg>
+          </u>
+          <pb n="68" facs="https://betalab.kb.se/prot-1929--ak--38/prot_1929__ak__38-068.jp2/_view"/>
+          <note type="date" n="73359c53">
+            Onsdagen den 22 maj e. m. 69
+          </note>
+          <u who="ivar_anderson_887d5a" xml:id="i-cd02220923006e35-11" prev="i-cd02220923006e35-6" n="cd022209">
             <seg n="d36336b0">
               förordnas till kontrollant vid det och det bygget. Jag misstänker,
               att förhållandena icke äro alltför olikartade på andra platser.
@@ -5983,56 +6103,10 @@
               den här stora frågan att förlora på. Jag vidhåller mitt yrkande.
             </seg>
           </u>
-          <note n="d2fe96d6">
-            Andra kammarens protokoll 1929. Nr 38. 5
-          </note>
-          <note n="0ab086ba">
-            Nr 88.
-          </note>
-          <note n="0ffcadc7">
-            Ang. omorganisation av vägväsendet. (Forts.)
-          </note>
-          <pb n="65" facs="https://betalab.kb.se/prot-1929--ak--38/prot_1929__ak__38-065.jp2/_view"/>
-          <note n="86463bab">
-            Nr 38.
-          </note>
-          <note n="0ffcadc7">
-            Ang. omorganisation av vägväsendet. (Forts.)
-          </note>
-          <note n="473bf484">
-            66 Onsdagen den 22 maj e. m.
-          </note>
-          <pb n="66" facs="https://betalab.kb.se/prot-1929--ak--38/prot_1929__ak__38-066.jp2/_view"/>
-          <note n="c0295478">
-            Onsdagen den 22 maj e. m. 67
-          </note>
-          <note n="86463bab">
-            Nr 38.
-          </note>
-          <note n="0ffcadc7">
-            Ang. omorganisation av vägväsendet. (Forts.)
-          </note>
-          <pb n="67" facs="https://betalab.kb.se/prot-1929--ak--38/prot_1929__ak__38-067.jp2/_view"/>
-          <note n="0ab086ba">
-            Nr 88.
-          </note>
-          <note n="cbee4ad7">
-            Ang. omorganisation av väg-
-          </note>
-          <note n="affdaf2c">
-            (Forts.)
-          </note>
-          <note n="2c6a8ffa">
-            68 Onsdagen den 22 maj e. m.
-          </note>
-          <pb n="68" facs="https://betalab.kb.se/prot-1929--ak--38/prot_1929__ak__38-068.jp2/_view"/>
-          <note n="9e324ba2">
-            Onsdagen den 22 maj e. m. 69
-          </note>
           <note type="speaker" n="fd224f6a">
             Herr förste vice talmannen Hamilton:
           </note>
-          <u who="raoul_hamilton_04963b" xml:id="i-350da5f8d3953cba-0" next="i-3a5117f509b24e50-0" n="0fb977b3">
+          <u who="raoul_hamilton_04963b" xml:id="i-0fb977b3435e4d6d-0" next="i-0fb977b3435e4d6d-1" n="0fb977b3">
             <seg n="d67720cc">
               Herr talman! Föredragningslistan upptager i afton många och viktiga
               ärenden, och jag skall därför giva mina kamrater ett gott exempel
@@ -6063,10 +6137,10 @@
           <note n="1c535052">
             väsendet. (Forts.)
           </note>
-          <note n="47e34010">
+          <note type="date" n="0675f914">
             70 Onsdagen den 22 maj e. m.
           </note>
-          <u who="raoul_hamilton_04963b" xml:id="i-3a5117f509b24e50-0" prev="i-350da5f8d3953cba-0" n="0fb977b3">
+          <u who="raoul_hamilton_04963b" xml:id="i-0fb977b3435e4d6d-1" prev="i-0fb977b3435e4d6d-0" n="0fb977b3">
             <seg n="56b70a68">
               icke minst, vägstyrelserna, försiggår under tröga och tidsödande
               former och har mången gång försinkat företag, som bort sättas
@@ -6124,7 +6198,7 @@
           <note type="speaker" n="cf62023c">
             Herr Lindmark:
           </note>
-          <u who="ewald_lindmark_4c2a50" xml:id="i-18245fcb47bfd6b2-1" next="i-66b3373edf317b00-1" n="f89240e8">
+          <u who="ewald_lindmark_4c2a50" xml:id="i-1b87c1e321412ac9-2" next="i-1b87c1e321412ac9-4" n="f89240e8">
             <seg n="32816a9c">
               Herr talman! Jag kan icke fördölja, att jag har den uppfattningen,
               att den ifrågasatta decentralisationen av vägväsendet verkligen
@@ -6147,10 +6221,10 @@
             </seg>
           </u>
           <pb n="70" facs="https://betalab.kb.se/prot-1929--ak--38/prot_1929__ak__38-070.jp2/_view"/>
-          <note n="57a4cc97">
+          <note type="date" n="0f361410">
             Onsdagen den 22 maj e. m. i
           </note>
-          <u who="ewald_lindmark_4c2a50" xml:id="i-66b3373edf317b00-1" prev="i-18245fcb47bfd6b2-1" n="f89240e8">
+          <u who="ewald_lindmark_4c2a50" xml:id="i-1b87c1e321412ac9-3" prev="i-1b87c1e321412ac9-2" n="f89240e8">
             <seg n="59916ed9">
               Det var därför med häpenhet jag tog del av utskottets förslag
               och konstaterade, att utskottet funnit skäligt att göra vägingenjörerna
@@ -6192,9 +6266,6 @@
               insatta i sitt sammanhang, får utskottets utlåtande i dessa delar
               således följande lydelse:
             </seg>
-            <seg n="0d346da0">
-              Nästa stycke kommer att lyda sålunda:
-            </seg>
           </u>
           <note n="f7fee692">
             »Vägingenjörerna föreslås att förordnas för en tid av sex år
@@ -6205,6 +6276,11 @@
             tjänstgöring hos länsstyrelsen. För sin del har utskottet häremot
             intet att erinra.»
           </note>
+          <u who="ewald_lindmark_4c2a50" xml:id="i-1b87c1e321412ac9-4" prev="i-1b87c1e321412ac9-2" n="f89240e8">
+            <seg n="0d346da0">
+              Nästa stycke kommer att lyda sålunda:
+            </seg>
+          </u>
           <note n="fcc3264d">
             »Enligt det i propositionen framlagda organisationsförslaget
             skola därjämte inom vissa län anställas biträdande ingenjörer.
@@ -6219,7 +6295,7 @@
           <note type="speaker" n="5a59c121">
             Herr Olofsson i Digernäs:
           </note>
-          <u who="johan_olofsson_3971a2" xml:id="i-dfe9c198f96b4dbf-0" next="i-a4da7d7dfbed5b48-0" n="6951c7f6">
+          <u who="johan_olofsson_3971a2" xml:id="i-6951c7f6a5d77da5-0" next="i-6951c7f6a5d77da5-2" n="6951c7f6">
             <seg n="e2142fd0">
               Herr talman! Jag föranleddes att begära ordet, när herr Anderson
               i Råstock talade om, att det var egentligen endast två stadsbor,
@@ -6249,10 +6325,10 @@
           <note n="0ffcadc7">
             Ang. omorganisation av vägväsendet. (Forts.)
           </note>
-          <note n="c0ce1816">
+          <note type="date" n="fa874695">
             12 Onsdagen den 22 maj e. m.
           </note>
-          <u who="johan_olofsson_3971a2" xml:id="i-a4da7d7dfbed5b48-0" prev="i-dfe9c198f96b4dbf-0" n="6951c7f6">
+          <u who="johan_olofsson_3971a2" xml:id="i-6951c7f6a5d77da5-1" prev="i-6951c7f6a5d77da5-0" n="6951c7f6">
             <seg n="47f3bb15">
               fråga, men vi ha dock, som sagt, varit med hela tiden och gjort
               våra meningar gällande både i det ena och det andra hänseendet.
@@ -6325,6 +6401,12 @@
               om vi antaga detta. Jag för min del undrar dock, om vi icke skulle
               få ändå större anledning att ångra oss, ifall vi gingo
             </seg>
+          </u>
+          <pb n="72" facs="https://betalab.kb.se/prot-1929--ak--38/prot_1929__ak__38-072.jp2/_view"/>
+          <note type="date" n="f04b2a47">
+            Onsdagen den 22 maj e. m. 73 Nr 88.
+          </note>
+          <u who="johan_olofsson_3971a2" xml:id="i-6951c7f6a5d77da5-2" prev="i-6951c7f6a5d77da5-0" n="6951c7f6">
             <seg n="940aab0a">
               på herr Andersons i Råstock linje. Det går naturligtvis icke
               att få fram ett Ang. omförslag. som är alldeles felfritt. men
@@ -6367,14 +6449,10 @@
               Jag ber att få yrka bifall till utskottets hemställan.
             </seg>
           </u>
-          <pb n="72" facs="https://betalab.kb.se/prot-1929--ak--38/prot_1929__ak__38-072.jp2/_view"/>
-          <note n="727fab00">
-            Onsdagen den 22 maj e. m. 73 Nr 88.
-          </note>
           <note type="speaker" n="d45715b0">
             Herr Persson i Fritorp:
           </note>
-          <u who="swen_persson_9846aa" xml:id="i-68bd6e2df2c939b4-2" next="i-51d89ad76064005c-2" n="9183d01e">
+          <u who="swen_persson_9846aa" xml:id="i-38efffc971adf7ff-5" next="i-38efffc971adf7ff-7" n="9183d01e">
             <seg n="c84b663b">
               Herr talman! Den siste ärade talaren hade en passus i sitt anförande,
               där han sade, att man snart kunde gå till votering i frågan, och
@@ -6422,10 +6500,10 @@
           <note n="1c535052">
             väsendet. (Forts.)
           </note>
-          <note n="cc972ffc">
+          <note type="date" n="80533b0a">
             T4 Onsdagen den 22 maj e. m.
           </note>
-          <u who="swen_persson_9846aa" xml:id="i-51d89ad76064005c-2" prev="i-68bd6e2df2c939b4-2" n="9183d01e">
+          <u who="swen_persson_9846aa" xml:id="i-38efffc971adf7ff-6" prev="i-38efffc971adf7ff-5" n="9183d01e">
             <seg n="8c7dba9f">
               några linjer för frågans lösande och sagt att så och så skall
               det vara, men om man inte kan göra det, skall man inte komma och
@@ -6451,6 +6529,11 @@
               Råstock icke skulle kunnat uppbringa en föndels på långa vägar,
               av hela andra kammaren till förmån för sitt
             </seg>
+          </u>
+          <note n="1b400abc">
+            örslag.
+          </note>
+          <u who="swen_persson_9846aa" xml:id="i-38efffc971adf7ff-7" prev="i-38efffc971adf7ff-5" n="9183d01e">
             <seg n="59648908">
               Sedan gick herr Anderson i Råstock in på min obetydliga ställning
               i samhället, på min borgerliga näring. Ja, jag vill säga att jag
@@ -6483,13 +6566,10 @@
               länsstyrelser i riket. Jag vidhåller mitt yrkande.
             </seg>
           </u>
-          <note n="1b400abc">
-            örslag.
-          </note>
           <note type="speaker" n="2ad4f80c">
             Herr Hollertz:
           </note>
-          <u who="sven_hollertz_c88f06" xml:id="i-4f58a5a7a093e569-1" next="i-3b564747d7f0669e-1" n="d6340cb7">
+          <u who="sven_hollertz_c88f06" xml:id="i-d6340cb76e1eb4b2-3" next="i-d6340cb76e1eb4b2-8" n="d6340cb7">
             <seg n="463d09f0">
               Herr talman! Jag skall bara komma med några korta repliker mot
               herr Anderson i Råstock. Han gjorde i ett föregående anförande
@@ -6509,10 +6589,10 @@
             </seg>
           </u>
           <pb n="74" facs="https://betalab.kb.se/prot-1929--ak--38/prot_1929__ak__38-074.jp2/_view"/>
-          <note n="2bc80e46">
+          <note type="date" n="5872ea6f">
             Onsdagen den 22 maj e. m. 75
           </note>
-          <u who="sven_hollertz_c88f06" xml:id="i-3b564747d7f0669e-1" prev="i-4f58a5a7a093e569-1" n="d6340cb7">
+          <u who="sven_hollertz_c88f06" xml:id="i-d6340cb76e1eb4b2-4" prev="i-d6340cb76e1eb4b2-3" n="d6340cb7">
             <seg n="f306c58d">
               ta, och den mannen har nog kännedom i vägfrågor 1 lika hög grad
               som någon annan.
@@ -6590,6 +6670,24 @@
               Länsstyrelsen är den huvudsakligen beslutande myndigheten, vägoch
               vattenbyggnadsstyrelsen är den verkställande och kon-
             </seg>
+          </u>
+          <note n="86463bab">
+            Nr 38.
+          </note>
+          <note n="0ffcadc7">
+            Ang. omorganisation av vägväsendet. (Forts.)
+          </note>
+          <pb n="75" facs="https://betalab.kb.se/prot-1929--ak--38/prot_1929__ak__38-075.jp2/_view"/>
+          <note n="0ab086ba">
+            Nr 88.
+          </note>
+          <note n="0ffcadc7">
+            Ang. omorganisation av vägväsendet. (Forts.)
+          </note>
+          <note type="date" n="01209f98">
+            76 Onsdagen den 22 maj e. m.
+          </note>
+          <u who="sven_hollertz_c88f06" xml:id="i-d6340cb76e1eb4b2-5" prev="i-d6340cb76e1eb4b2-3" n="d6340cb7">
             <seg n="2a25819d">
               'trollerande myndigheten. Emellertid äro gränserna mellan dessa
               båda myn-
@@ -6662,6 +6760,12 @@
               att den skall ytterligare skärpas. Vägingen- Jörerna, som hava
               att följa med vägarbetena under hela deras gång, måste an-
             </seg>
+          </u>
+          <pb n="76" facs="https://betalab.kb.se/prot-1929--ak--38/prot_1929__ak__38-076.jp2/_view"/>
+          <note type="date" n="882f59f8">
+            Onsdagen den 22 maj e. m. 77
+          </note>
+          <u who="sven_hollertz_c88f06" xml:id="i-d6340cb76e1eb4b2-6" prev="i-d6340cb76e1eb4b2-3" n="d6340cb7">
             <seg n="e0f03f29">
               tagas bliva väl i stånd att utföra den löpande kontrollen och
               detta bättre än de nuvarande distriktstjänstemännen, som hava
@@ -6733,6 +6837,24 @@
               så sker därefter en kameral granskning på vägoch vattenbyggnadsstyrelsens
               administrativa byrå, och efter den-
             </seg>
+          </u>
+          <note n="0ab086ba">
+            Nr 88.
+          </note>
+          <note n="0ffcadc7">
+            Ang. omorganisation av vägväsendet. (Forts.)
+          </note>
+          <pb n="77" facs="https://betalab.kb.se/prot-1929--ak--38/prot_1929__ak__38-077.jp2/_view"/>
+          <note n="86463bab">
+            Nr 38.
+          </note>
+          <note n="7905dbc8">
+            Ang. omorganisation av vägväsendet. (Forts )
+          </note>
+          <note type="date" n="53741ab0">
+            78 Onsdagen den 22 maj e. m.
+          </note>
+          <u who="sven_hollertz_c88f06" xml:id="i-d6340cb76e1eb4b2-7" prev="i-d6340cb76e1eb4b2-3" n="d6340cb7">
             <seg n="9945f9b6">
               samma godkänner vägoch vattenbyggnadsstyrelsen företaget. Efter
               den nu ifrågasatta ändringen skall vägingenjören verkställa den
@@ -6806,6 +6928,12 @@
               utbildade och erfarna krafter. De i sådant hänseende kompetenta,
               som nu utöva privat verksamhet, ha nog i regeln
             </seg>
+          </u>
+          <pb n="78" facs="https://betalab.kb.se/prot-1929--ak--38/prot_1929__ak__38-078.jp2/_view"/>
+          <note type="date" n="e60c0fc2">
+            Onsdagen den 22 maj e. m. 79
+          </note>
+          <u who="sven_hollertz_c88f06" xml:id="i-d6340cb76e1eb4b2-8" prev="i-d6340cb76e1eb4b2-3" n="d6340cb7">
             <seg n="311d7261">
               större inkomster än statstjänstemän kunna beräkna. De ha därför
               större pretentioner, och det är ju givet, att man måste taga hänsyn
@@ -6819,50 +6947,10 @@
               kan acceptera dem.
             </seg>
           </u>
-          <note n="86463bab">
-            Nr 38.
-          </note>
-          <note n="0ffcadc7">
-            Ang. omorganisation av vägväsendet. (Forts.)
-          </note>
-          <pb n="75" facs="https://betalab.kb.se/prot-1929--ak--38/prot_1929__ak__38-075.jp2/_view"/>
-          <note n="0ab086ba">
-            Nr 88.
-          </note>
-          <note n="0ffcadc7">
-            Ang. omorganisation av vägväsendet. (Forts.)
-          </note>
-          <note n="c758ff3a">
-            76 Onsdagen den 22 maj e. m.
-          </note>
-          <pb n="76" facs="https://betalab.kb.se/prot-1929--ak--38/prot_1929__ak__38-076.jp2/_view"/>
-          <note n="86319c13">
-            Onsdagen den 22 maj e. m. 77
-          </note>
-          <note n="0ab086ba">
-            Nr 88.
-          </note>
-          <note n="0ffcadc7">
-            Ang. omorganisation av vägväsendet. (Forts.)
-          </note>
-          <pb n="77" facs="https://betalab.kb.se/prot-1929--ak--38/prot_1929__ak__38-077.jp2/_view"/>
-          <note n="86463bab">
-            Nr 38.
-          </note>
-          <note n="7905dbc8">
-            Ang. omorganisation av vägväsendet. (Forts )
-          </note>
-          <note n="125d48b6">
-            78 Onsdagen den 22 maj e. m.
-          </note>
-          <pb n="78" facs="https://betalab.kb.se/prot-1929--ak--38/prot_1929__ak__38-078.jp2/_view"/>
-          <note n="a14e400b">
-            Onsdagen den 22 maj e. m. 79
-          </note>
           <note type="speaker" n="854700df">
             Herr Anderson i Råstock:
           </note>
-          <u who="ivar_anderson_887d5a" xml:id="i-02e2ce8d4b020d3a-2" next="i-718750b3a063f228-2" n="cd022209">
+          <u who="ivar_anderson_887d5a" xml:id="i-cd02220923006e35-12" next="i-cd02220923006e35-13" n="cd022209">
             <seg n="40c98eae">
               Herr talman! Jag får lov att taga vederbörande i tur och ordning
               efter den gamla bergslagsregeln: »folk först och bättre folk sedan.»
@@ -6941,10 +7029,10 @@
           <note n="0ffcadc7">
             Ang. omorganisation av vägväsendet. (Forts.)
           </note>
-          <note n="ed009148">
+          <note type="date" n="39f12471">
             80 Onsdagen den 22 maj e. m.
           </note>
-          <u who="ivar_anderson_887d5a" xml:id="i-718750b3a063f228-2" prev="i-02e2ce8d4b020d3a-2" n="cd022209">
+          <u who="ivar_anderson_887d5a" xml:id="i-cd02220923006e35-13" prev="i-cd02220923006e35-12" n="cd022209">
             <seg n="00cc75bf">
               relserna och andra myndigheter icke ha yttrat sig över 1928 års
               förslag, och det ha herrarna icke kunnat säga ett dugg om. Det
@@ -7018,7 +7106,7 @@
           <note type="speaker" n="4ddd50f5">
             Herr Olsson i Kullenbergstorp:
           </note>
-          <u who="sven_olsson_ec46c1" xml:id="i-a611c78cf6822766-1" next="i-8e3ab7c7a6e28f16-1" n="1c912be9">
+          <u who="sven_olsson_ec46c1" xml:id="i-1c912be98792bf5d-4" next="i-1c912be98792bf5d-6" n="1c912be9">
             <seg n="35f79dc2">
               Jag har litet svårt att förstå, vad den siste ärade talaren innerst
               syftar till. I fjol stod kampen mycket skarp i statsutskottet
@@ -7028,10 +7116,10 @@
             </seg>
           </u>
           <pb n="80" facs="https://betalab.kb.se/prot-1929--ak--38/prot_1929__ak__38-080.jp2/_view"/>
-          <note n="3475b10b">
+          <note type="date" n="b7bf3163">
             Onsdagen den 22 maj e. m. 81
           </note>
-          <u who="sven_olsson_ec46c1" xml:id="i-8e3ab7c7a6e28f16-1" prev="i-a611c78cf6822766-1" n="1c912be9">
+          <u who="sven_olsson_ec46c1" xml:id="i-1c912be98792bf5d-5" prev="i-1c912be98792bf5d-4" n="1c912be9">
             <seg n="64976d7f">
               man skall ha frågan om dem oavgjord, för att man skall kunna
               tvinga fram en sådan organisation av vägoch vattenbyggnadsstyrelsen,
@@ -7102,20 +7190,6 @@
               min reservation och utskottets förslag. Jag är dock fuilt förvissad
               om, att man även med den löneställning jag föreslagit skulle kunna
             </seg>
-            <seg n="69d9e702">
-              få verkligt dugligt folk. Men för att det icke skall uppstå splittring
-              mellan olika yrkanden utan verka med mera kraft med ett yrkande
-              att sätta emot utskottets förslag å ena sidan och herr Andersons
-              i Råstock hemställan å andra sidan, skall jag, herr talman, frånträda
-              mitt yrkande beträffande lönestöllningen, d. v. s. jag accepterar,
-              att vägingenjörerna komma i 30 löneklassen, men be att få vidhålla
-              yrkandet, att vägingenjörerna bli vägoch vattenbyggnadsstyrelsens
-              tjänstemän. Och för detta mitt yrkande kan jag ansluta mig till
-              den motivering, som framlades av herr Lindmark. Den duger för
-              mitt yvrkande, helst som jag själv icke motiverade detsamma i
-              mitt första anförande, i det att jag först önskade höra, huruvida
-              detsamma vann understöd från något håll i kammaren.
-            </seg>
           </u>
           <note n="9d945379">
             Andra kammarens protokoll 1929. Nr 38. 6
@@ -7133,13 +7207,29 @@
           <note n="0ffcadc7">
             Ang. omorganisation av vägväsendet. (Forts.)
           </note>
-          <note n="810e2418">
+          <note type="date" n="25813fd1">
             82 Onsdagen den 22 maj e. m.
           </note>
+          <u who="sven_olsson_ec46c1" xml:id="i-1c912be98792bf5d-6" prev="i-1c912be98792bf5d-4" n="1c912be9">
+            <seg n="69d9e702">
+              få verkligt dugligt folk. Men för att det icke skall uppstå splittring
+              mellan olika yrkanden utan verka med mera kraft med ett yrkande
+              att sätta emot utskottets förslag å ena sidan och herr Andersons
+              i Råstock hemställan å andra sidan, skall jag, herr talman, frånträda
+              mitt yrkande beträffande lönestöllningen, d. v. s. jag accepterar,
+              att vägingenjörerna komma i 30 löneklassen, men be att få vidhålla
+              yrkandet, att vägingenjörerna bli vägoch vattenbyggnadsstyrelsens
+              tjänstemän. Och för detta mitt yrkande kan jag ansluta mig till
+              den motivering, som framlades av herr Lindmark. Den duger för
+              mitt yvrkande, helst som jag själv icke motiverade detsamma i
+              mitt första anförande, i det att jag först önskade höra, huruvida
+              detsamma vann understöd från något håll i kammaren.
+            </seg>
+          </u>
           <note type="speaker" n="71fbfce9">
             Herr statsrådet Liibeck:
           </note>
-          <u who="unknown" xml:id="i-ae29c6226dd5e005-0" n="01083af7">
+          <u who="unknown" xml:id="i-01083af72dd894a6-0" n="01083af7">
             <seg n="318dfaf8">
               Herr talman! När jag tar till orda i denna fråga, så är det icke
               på grund av det motiv, som herr Olsson i Kullenbergstorp bär nyss
@@ -7173,7 +7263,7 @@
           <note type="speaker" n="51e51731">
             Herr Mosesson:
           </note>
-          <u who="gustav_mosesson_7a936b" xml:id="i-eddd86e38327cba7-2" next="i-54b05e1644c38352-2" n="31cc93fe">
+          <u who="gustav_mosesson_7a936b" xml:id="i-31cc93fe603e2be3-7" next="i-31cc93fe603e2be3-9" n="31cc93fe">
             <seg n="e54198bb">
               Två av kammarens aktade ledamöter ha sagt, att jag i mitt anförande
               menat, att det icke vore värdigt av riksdagen att taga det föreliggande
@@ -7201,7 +7291,7 @@
             av kontrapropo-
           </note>
           <pb n="82" facs="https://betalab.kb.se/prot-1929--ak--38/prot_1929__ak__38-082.jp2/_view"/>
-          <note n="958cf680">
+          <note type="date" n="80e47e77">
             Onsdagen den 22 maj e. m. 83
           </note>
           <note n="cda0794c">
@@ -7218,12 +7308,9 @@
             statsutskottets utlåtande nr 114 antager det av herr Lindmark
             under överläggningen framställda yrkandet, röstar
           </note>
-          <u who="gustav_mosesson_7a936b" xml:id="i-54b05e1644c38352-2" prev="i-eddd86e38327cba7-2" n="31cc93fe">
+          <u who="gustav_mosesson_7a936b" xml:id="i-31cc93fe603e2be3-8" prev="i-31cc93fe603e2be3-7" n="31cc93fe">
             <seg n="0c5f5b55">
               Ja;
-            </seg>
-            <seg n="61998e01">
-              Föredrogos vart för sig första lagutskottets utlåtanden:
             </seg>
           </u>
           <note n="a72ea8b0">
@@ -7272,6 +7359,11 @@
           <note n="17b05a4c">
             $ 2.
           </note>
+          <u who="gustav_mosesson_7a936b" xml:id="i-31cc93fe603e2be3-9" prev="i-31cc93fe603e2be3-7" n="31cc93fe">
+            <seg n="61998e01">
+              Föredrogos vart för sig första lagutskottets utlåtanden:
+            </seg>
+          </u>
           <note n="df759371">
             nr 32, i anledning av Kungl. Maj:ts proposition med förslag till
             lag om skiljemän och lag om ändrad lydelse av 46 $ utsökningslagen;
@@ -7312,7 +7404,7 @@
           <note n="8ba49e8a">
             Om ändring i vissa delar av lagen om fri rättegång. (Forts.)
           </note>
-          <note n="0c0819a9">
+          <note type="date" n="a8590400">
             84 Onsdagen den 22 maj e. m.
           </note>
           <note n="c8960352">
@@ -7352,7 +7444,7 @@
           <note type="speaker" n="4fcfb5e3">
             Herr Björkman, som yttrade:
           </note>
-          <u who="gustaf_adolf_bjorkman_3a52dd" xml:id="i-170f8b264232d3cf-0" n="eed8d964">
+          <u who="gustaf_adolf_bjorkman_3a52dd" xml:id="i-38c59caa30fdc4f5-0" n="eed8d964">
             <seg n="65bed7f9">
               Herr talman! TI avseende å föredragningen av första lagutskottets
               utlåtande nr 34 hemställer jag,
@@ -7386,7 +7478,7 @@
           <note type="speaker" n="062b702b">
             Herr Lindiey:
           </note>
-          <u who="unknown" xml:id="i-df98c781aea0bed6-0" n="01083af7">
+          <u who="unknown" xml:id="i-01083af72dd894a6-1" n="01083af7">
             <seg n="05f9534c">
               Herr talman, mina herrar! Som kammaren behagade finna, är vid
               detta utskottsutlåtande fogad en reservation av herrar Åkerman,
@@ -7408,10 +7500,10 @@
             </seg>
           </u>
           <pb n="84" facs="https://betalab.kb.se/prot-1929--ak--38/prot_1929__ak__38-084.jp2/_view"/>
-          <note n="eef0910e">
+          <note type="date" n="235e6b54">
             Onsdagen den 22 maj e. m. 85
           </note>
-          <u who="unknown" xml:id="i-607aef13633a4af5-0" n="01083af7">
+          <u who="unknown" xml:id="i-01083af72dd894a6-2" n="01083af7">
             <seg n="8a37436a">
               rättegångslagen, så att man skulle kunna råda bot på de missbruk,
               som man anser föreligga i fråga om utnyttjandet av denna lags
@@ -7479,7 +7571,7 @@
           <note type="speaker" n="49958f25">
             Herr Björkman:
           </note>
-          <u who="gustaf_adolf_bjorkman_3a52dd" xml:id="i-5e5d5a4f0f51a335-0" next="i-ffa477e09c9ebd9a-0" n="eed8d964">
+          <u who="gustaf_adolf_bjorkman_3a52dd" xml:id="i-38c59caa30fdc4f5-1" next="i-38c59caa30fdc4f5-7" n="eed8d964">
             <seg n="887f5c9b">
               Herr talman! Den siste ärade talaren begränsade i hög grad sitt
               anförande, och det skulle egentligen kanske vara för mig lämpligt
@@ -7503,10 +7595,10 @@
           <note n="a150c591">
             Om ändring t vissa delar av lagen om fri rättegång. (Forts.)
           </note>
-          <note n="d8dabdc6">
+          <note type="date" n="44f3f69f">
             86 Onsdagen den 22 maj e. m.
           </note>
-          <u who="gustaf_adolf_bjorkman_3a52dd" xml:id="i-ffa477e09c9ebd9a-0" prev="i-5e5d5a4f0f51a335-0" n="eed8d964">
+          <u who="gustaf_adolf_bjorkman_3a52dd" xml:id="i-38c59caa30fdc4f5-2" prev="i-38c59caa30fdc4f5-1" n="eed8d964">
             <seg n="a059d1c5">
               vation, som innehåller betänkligheter mot förslaget, men betänkligheterna
               blevo icke nu av honom så starkt accentuerade. Herr Lindley ansåg
@@ -7576,6 +7668,12 @@
               sätt, icke behöver ådraga några onödiga kostnader för statsverket,
               men å andra sidan, att
             </seg>
+          </u>
+          <pb n="86" facs="https://betalab.kb.se/prot-1929--ak--38/prot_1929__ak__38-086.jp2/_view"/>
+          <note type="date" n="9e82f33c">
+            Onsdagen den 22 maj e. m. 87
+          </note>
+          <u who="gustaf_adolf_bjorkman_3a52dd" xml:id="i-38c59caa30fdc4f5-3" prev="i-38c59caa30fdc4f5-1" n="eed8d964">
             <seg n="e0b69c6c">
               den har givit anledning till ökade kostnader, som måste bero
               på de missbruk som ägt rum i fråga om den fria rättegångens handhavande.
@@ -7645,6 +7743,24 @@
               använda. äro ju — jag betonar det åter — att man skall råda bot
               på missbruket men fort-
             </seg>
+          </u>
+          <note n="86463bab">
+            Nr 38.
+          </note>
+          <note n="1ffebb91">
+            Om ändring 1 vissa delar av lagen om fri rättegång. (Forts.)
+          </note>
+          <pb n="87" facs="https://betalab.kb.se/prot-1929--ak--38/prot_1929__ak__38-087.jp2/_view"/>
+          <note n="5ab8e00f">
+            Nr 388.
+          </note>
+          <note n="1ffebb91">
+            Om ändring 1 vissa delar av lagen om fri rättegång. (Forts.)
+          </note>
+          <note type="date" n="d990908a">
+            88 Onsdagen den 22 maj e. m.
+          </note>
+          <u who="gustaf_adolf_bjorkman_3a52dd" xml:id="i-38c59caa30fdc4f5-4" prev="i-38c59caa30fdc4f5-1" n="eed8d964">
             <seg n="90dca5d1">
               farande i berättigade fall hjälpa den fattiga parten till den
               fria rättegången. I detta syfte har det nu föreslagits en del
@@ -7715,6 +7831,12 @@
               isoleringen mellan domstol och part. Det är sålunda icke bara
               domaren på sitt kansli, som förordnar rättegångsbiträde.
             </seg>
+          </u>
+          <pb n="88" facs="https://betalab.kb.se/prot-1929--ak--38/prot_1929__ak__38-088.jp2/_view"/>
+          <note type="date" n="83682795">
+            Onsdagen den 22 maj e. m. 39
+          </note>
+          <u who="gustaf_adolf_bjorkman_3a52dd" xml:id="i-38c59caa30fdc4f5-5" prev="i-38c59caa30fdc4f5-1" n="eed8d964">
             <seg n="5a3599e8">
               Man kan på detta sätt få tillfälle att konfrontera parterna med
               varandra; motparten har möjlighet att yttra sig, och kanske att,
@@ -7782,6 +7904,27 @@
               att med en sådan bestämmelse just i avseende å fria rättegångsprocesserna
               skulle dessa processer lätt få en liten klatsch av fattigpro-
             </seg>
+          </u>
+          <note n="86463bab">
+            Nr 38.
+          </note>
+          <note n="1f8ba2b1">
+            Om ändring i vissa delar av lagen om tri rättegång.
+          </note>
+          <note n="affdaf2c">
+            (Forts.)
+          </note>
+          <pb n="89" facs="https://betalab.kb.se/prot-1929--ak--38/prot_1929__ak__38-089.jp2/_view"/>
+          <note n="86463bab">
+            Nr 38.
+          </note>
+          <note n="8ba49e8a">
+            Om ändring i vissa delar av lagen om fri rättegång. (Forts.)
+          </note>
+          <note type="date" n="8f1c8634">
+            920 Onsdagen den 22 maj e. m.
+          </note>
+          <u who="gustaf_adolf_bjorkman_3a52dd" xml:id="i-38c59caa30fdc4f5-6" prev="i-38c59caa30fdc4f5-1" n="eed8d964">
             <seg n="46f45c9b">
               cess över sig, ha vi icke ansett detta erforderligt utan ha alltså
               tagit bort detta stadgande. Men vi ha i vårt utlåtande också sagt,
@@ -7855,6 +7998,12 @@
               är synnerligen viktigt, att rättshjälpsanstalter av statsmakterna
               hjälpas till att
             </seg>
+          </u>
+          <pb n="90" facs="https://betalab.kb.se/prot-1929--ak--38/prot_1929__ak__38-090.jp2/_view"/>
+          <note type="date" n="27ee058d">
+            Onsdagen den 22 maj e. m. 91
+          </note>
+          <u who="gustaf_adolf_bjorkman_3a52dd" xml:id="i-38c59caa30fdc4f5-7" prev="i-38c59caa30fdc4f5-1" n="eed8d964">
             <seg n="fc9f7173">
               uppkomma och fortleva. Något härom ser jag dock icke i den av
               den förre talaren förordade reservationen, vari yrkas avslag å
@@ -7862,53 +8011,6 @@
               till första lagutskottets utlåtande.
             </seg>
           </u>
-          <pb n="86" facs="https://betalab.kb.se/prot-1929--ak--38/prot_1929__ak__38-086.jp2/_view"/>
-          <note n="4feedd7a">
-            Onsdagen den 22 maj e. m. 87
-          </note>
-          <note n="86463bab">
-            Nr 38.
-          </note>
-          <note n="1ffebb91">
-            Om ändring 1 vissa delar av lagen om fri rättegång. (Forts.)
-          </note>
-          <pb n="87" facs="https://betalab.kb.se/prot-1929--ak--38/prot_1929__ak__38-087.jp2/_view"/>
-          <note n="5ab8e00f">
-            Nr 388.
-          </note>
-          <note n="1ffebb91">
-            Om ändring 1 vissa delar av lagen om fri rättegång. (Forts.)
-          </note>
-          <note n="a42bd4ed">
-            88 Onsdagen den 22 maj e. m.
-          </note>
-          <pb n="88" facs="https://betalab.kb.se/prot-1929--ak--38/prot_1929__ak__38-088.jp2/_view"/>
-          <note n="1505fb42">
-            Onsdagen den 22 maj e. m. 39
-          </note>
-          <note n="86463bab">
-            Nr 38.
-          </note>
-          <note n="1f8ba2b1">
-            Om ändring i vissa delar av lagen om tri rättegång.
-          </note>
-          <note n="affdaf2c">
-            (Forts.)
-          </note>
-          <pb n="89" facs="https://betalab.kb.se/prot-1929--ak--38/prot_1929__ak__38-089.jp2/_view"/>
-          <note n="86463bab">
-            Nr 38.
-          </note>
-          <note n="8ba49e8a">
-            Om ändring i vissa delar av lagen om fri rättegång. (Forts.)
-          </note>
-          <note n="e2404dfc">
-            920 Onsdagen den 22 maj e. m.
-          </note>
-          <pb n="90" facs="https://betalab.kb.se/prot-1929--ak--38/prot_1929__ak__38-090.jp2/_view"/>
-          <note n="f1d52310">
-            Onsdagen den 22 maj e. m. 91
-          </note>
           <note n="cf4a5edf">
             Under detta yttrande hade herr förste vice talmannen övertagit
             ledningen av kammarens förhandlingar.
@@ -7916,7 +8018,7 @@
           <note type="speaker" n="af2d120d">
             Herr Lundstedt:
           </note>
-          <u who="vilhelm_lundstedt_8f4961" xml:id="i-f7ff7d2ce4f5dbe8-0" next="i-e5437ad9e57f141c-0" n="371ce580">
+          <u who="vilhelm_lundstedt_8f4961" xml:id="i-371ce580c57da1b3-0" next="i-371ce580c57da1b3-2" n="371ce580">
             <seg n="a27103f9">
               Herr talman! De gapande bänkarna vittna om, att denna debatt
               pågår i likgiltighetens tecken. Vare detta sagt med all respekt
@@ -7993,10 +8095,10 @@
           <note n="8ba49e8a">
             Om ändring i vissa delar av lagen om fri rättegång. (Forts.)
           </note>
-          <note n="f66aea7e">
+          <note type="date" n="248e2ade">
             92 Onsdagen den 22 maj e. m.
           </note>
-          <u who="vilhelm_lundstedt_8f4961" xml:id="i-e5437ad9e57f141c-0" prev="i-f7ff7d2ce4f5dbe8-0" n="371ce580">
+          <u who="vilhelm_lundstedt_8f4961" xml:id="i-371ce580c57da1b3-1" prev="i-371ce580c57da1b3-0" n="371ce580">
             <seg n="ddf29add">
               att erhålla lika god rättshjälp som de ekonomiskt bättre ställda,
               blir situationen icke desto mindre otillfredsställande — och mera
@@ -8068,6 +8170,12 @@
               att den tillämnade motparten saknar tillgångar. Saken blir då
               icke ostridig utan tvärtom stridig. Vad man bestämt menar
             </seg>
+          </u>
+          <pb n="92" facs="https://betalab.kb.se/prot-1929--ak--38/prot_1929__ak__38-092.jp2/_view"/>
+          <note type="date" n="013a4455">
+            Onsdagen den 22 maj e. m. 93
+          </note>
+          <u who="vilhelm_lundstedt_8f4961" xml:id="i-371ce580c57da1b3-2" prev="i-371ce580c57da1b3-0" n="371ce580">
             <seg n="eb74c69d">
               med ett dylikt exempel, vågar jag icke taga på mitt ansvar att
               uttyda. Så som det är framställt, giver det anledning till tvivelsmål,
@@ -8132,14 +8240,10 @@
               fl. avgivna reservationen.
             </seg>
           </u>
-          <pb n="92" facs="https://betalab.kb.se/prot-1929--ak--38/prot_1929__ak__38-092.jp2/_view"/>
-          <note n="6a447e7d">
-            Onsdagen den 22 maj e. m. 93
-          </note>
           <note type="speaker" n="406d684f">
             Chefen för justitiedepartementet herr statsrådet Bissmark:
           </note>
-          <u who="georg_bissmark_2b876e" xml:id="i-5d9416b9badbfc37-0" next="i-1638cd3afe827aa3-0" n="732cc9f2">
+          <u who="georg_bissmark_2b876e" xml:id="i-01083af72dd894a6-3" next="i-01083af72dd894a6-6" n="732cc9f2">
             <seg n="a3bbc51b">
               Herr talman! Jag skall först be att få instämma med herr Lundstedt
               i hans senaste yttrande, att det är omöjligt att utrensa missbruk
@@ -8164,10 +8268,10 @@
           <note n="08f6bc89">
             Om ändring i vissa delar av lagen om ini rättegång. (Forts.)
           </note>
-          <note n="e32a0b82">
+          <note type="date" n="07de1353">
             94 Onsdagen den 22 maj e. m.
           </note>
-          <u who="georg_bissmark_2b876e" xml:id="i-1638cd3afe827aa3-0" prev="i-5d9416b9badbfc37-0" n="732cc9f2">
+          <u who="georg_bissmark_2b876e" xml:id="i-01083af72dd894a6-4" prev="i-01083af72dd894a6-3" n="732cc9f2">
             <seg n="d93aad7d">
               brist på medel. Det finns ingen möjlighet att utsöndra alla de
               missbruk, som kunna förekomma, och även om denna lag antages,
@@ -8245,6 +8349,12 @@
               synnerligen ringa betydelse» för parten, att hans talan vinner
               prövning.
             </seg>
+          </u>
+          <pb n="94" facs="https://betalab.kb.se/prot-1929--ak--38/prot_1929__ak__38-094.jp2/_view"/>
+          <note type="date" n="c163d79e">
+            Onsdagen den 22 maj e. m. 95
+          </note>
+          <u who="georg_bissmark_2b876e" xml:id="i-01083af72dd894a6-5" prev="i-01083af72dd894a6-3" n="732cc9f2">
             <seg n="22c6f14f">
               Av reservanterna, vilkas yttrande åberopades av herr Lundstedt,
               anföres, att det kan vara ett intresse för parten att få sin talan
@@ -8314,21 +8424,7 @@
               detta i sin domsaga och förordar det nu till upptagande jämväl
               i andra domsagor.
             </seg>
-            <seg n="88b3d879">
-              Lagutskottets ärade vice ordförande har redan så utförligt redogjort
-              för såväl lagförslaget som de principer, som ligga till grund
-              för detsamma, att det kan vara onödigt att upptaga kammarens tid
-              vidare. Jag är tacksam för att ingen här har velat påstå, att
-              det här skulle dölja sig någon maskerad attack mot själva den
-              fria rättegången. Det är verkligen icke fallet, utan det har varit
-              ett försök att bortskära en del av de värsta missbruken utan att
-              skada själva saken.
-            </seg>
           </u>
-          <pb n="94" facs="https://betalab.kb.se/prot-1929--ak--38/prot_1929__ak__38-094.jp2/_view"/>
-          <note n="5b1f146e">
-            Onsdagen den 22 maj e. m. 95
-          </note>
           <note n="86463bab">
             Nr 38.
           </note>
@@ -8342,16 +8438,28 @@
           <note n="8ba49e8a">
             Om ändring i vissa delar av lagen om fri rättegång. (Forts.)
           </note>
-          <note n="0996e63b">
+          <note type="date" n="1ecee810">
             96 Onsdagen den 22 maj e. m.
           </note>
+          <u who="georg_bissmark_2b876e" xml:id="i-01083af72dd894a6-6" prev="i-01083af72dd894a6-3" n="732cc9f2">
+            <seg n="88b3d879">
+              Lagutskottets ärade vice ordförande har redan så utförligt redogjort
+              för såväl lagförslaget som de principer, som ligga till grund
+              för detsamma, att det kan vara onödigt att upptaga kammarens tid
+              vidare. Jag är tacksam för att ingen här har velat påstå, att
+              det här skulle dölja sig någon maskerad attack mot själva den
+              fria rättegången. Det är verkligen icke fallet, utan det har varit
+              ett försök att bortskära en del av de värsta missbruken utan att
+              skada själva saken.
+            </seg>
+          </u>
           <note n="18daca02">
             Herr talmannen återtog nu ledningen av förhandlingarna.
           </note>
           <note type="speaker" n="fb3f4b86">
             Herr Olsson i Ramsta:
           </note>
-          <u who="sven_olsson_ec46c1" xml:id="i-a611c78cf6822766-2" next="i-8e3ab7c7a6e28f16-2" n="1c912be9">
+          <u who="sven_olsson_ec46c1" xml:id="i-1c912be98792bf5d-7" next="i-1c912be98792bf5d-9" n="1c912be9">
             <seg n="1e4dec84">
               Herr talman, mina herrar! Professor Lundstedts fogliga och i
               varsam form framförda kritik mot det föreliggande förslaget vittnar
@@ -8420,10 +8528,10 @@
             bilda sig en närmare uppfattning om målets beskaffenhet och partens
           </note>
           <pb n="96" facs="https://betalab.kb.se/prot-1929--ak--38/prot_1929__ak__38-096.jp2/_view"/>
-          <note n="33acf4c9">
+          <note type="date" n="1463f50b">
             Onsdagen den 22 maj e. m. 97
           </note>
-          <u who="sven_olsson_ec46c1" xml:id="i-8e3ab7c7a6e28f16-2" prev="i-a611c78cf6822766-2" n="1c912be9">
+          <u who="sven_olsson_ec46c1" xml:id="i-1c912be98792bf5d-8" prev="i-1c912be98792bf5d-7" n="1c912be9">
             <seg n="4de29c54">
               förmåga att själv tillvarataga sina intressen, är oriktig. Oftast
               torde nämligen ansökan om fri rättegång och om förordnande av
@@ -8498,6 +8606,27 @@
               väl icke hava inträffat, att en domare, som varit en part behjälplig
               med uppsättandet av stämning, sedan,
             </seg>
+          </u>
+          <note n="2467a57c">
+            Andra kammarens protokoll 1929. Nr 38. 7
+          </note>
+          <note n="5ab8e00f">
+            Nr 388.
+          </note>
+          <note n="0a6e22f2">
+            Om ändring $ vissa delar av lagen om fri rättegång. (Forts.!
+          </note>
+          <pb n="97" facs="https://betalab.kb.se/prot-1929--ak--38/prot_1929__ak__38-097.jp2/_view"/>
+          <note n="0ab086ba">
+            Nr 88.
+          </note>
+          <note n="8ba49e8a">
+            Om ändring i vissa delar av lagen om fri rättegång. (Forts.)
+          </note>
+          <note type="date" n="5500fb9e">
+            98 Onsdagen den 22 maj e. m.
+          </note>
+          <u who="sven_olsson_ec46c1" xml:id="i-1c912be98792bf5d-9" prev="i-1c912be98792bf5d-7" n="1c912be9">
             <seg n="23c7e646">
               vid målets handläggning, skulle ansett sig på något sätt bunden.
               Ett färskt exempel, som bevisar detta mitt påstående, ha vi från
@@ -8545,29 +8674,10 @@
               framgång.
             </seg>
           </u>
-          <note n="2467a57c">
-            Andra kammarens protokoll 1929. Nr 38. 7
-          </note>
-          <note n="5ab8e00f">
-            Nr 388.
-          </note>
-          <note n="0a6e22f2">
-            Om ändring $ vissa delar av lagen om fri rättegång. (Forts.!
-          </note>
-          <pb n="97" facs="https://betalab.kb.se/prot-1929--ak--38/prot_1929__ak__38-097.jp2/_view"/>
-          <note n="0ab086ba">
-            Nr 88.
-          </note>
-          <note n="8ba49e8a">
-            Om ändring i vissa delar av lagen om fri rättegång. (Forts.)
-          </note>
-          <note n="7277c7d6">
-            98 Onsdagen den 22 maj e. m.
-          </note>
           <note type="speaker" n="406d684f">
             Chefen för justitiedepartementet herr statsrådet Bissmark:
           </note>
-          <u who="georg_bissmark_2b876e" xml:id="i-5d9416b9badbfc37-1" next="i-1638cd3afe827aa3-1" n="732cc9f2">
+          <u who="georg_bissmark_2b876e" xml:id="i-01083af72dd894a6-7" next="i-01083af72dd894a6-8" n="732cc9f2">
             <seg n="7ee2ea4a">
               Herr talman! Jag kan icke underlåta att göra ett litet påpekande.
               |
@@ -8579,7 +8689,7 @@
             med den påföljden, att parten blev dömd till något års straffarbete.
             'Är det sådan hjälp, som herr Olsson i Ramsta vill ge de medellösa?
           </note>
-          <u who="georg_bissmark_2b876e" xml:id="i-1638cd3afe827aa3-1" prev="i-5d9416b9badbfc37-1" n="732cc9f2">
+          <u who="georg_bissmark_2b876e" xml:id="i-01083af72dd894a6-8" prev="i-01083af72dd894a6-7" n="732cc9f2">
             <seg n="e52a54e0">
               Domhavanden har ju endast formell skyldighet att utfärda den
               stämning, som parten begär, så att den bestämmelsen täcker icke
@@ -8594,7 +8704,7 @@
           <note type="speaker" n="af2d120d">
             Herr Lundstedt:
           </note>
-          <u who="vilhelm_lundstedt_8f4961" xml:id="i-f7ff7d2ce4f5dbe8-1" next="i-e5437ad9e57f141c-1" n="371ce580">
+          <u who="vilhelm_lundstedt_8f4961" xml:id="i-371ce580c57da1b3-3" next="i-371ce580c57da1b3-5" n="371ce580">
             <seg n="e90e0017">
               Herr talman! Herr Olsson i Ramsta ansåg, att justitieministern
               verkligen hade lyckats med sin hovsamma revision av den gamla
@@ -8605,10 +8715,10 @@
             </seg>
           </u>
           <pb n="98" facs="https://betalab.kb.se/prot-1929--ak--38/prot_1929__ak__38-098.jp2/_view"/>
-          <note n="421a4cc5">
+          <note type="date" n="cb4a5d84">
             Onsdagen den 22 maj e. m. 99
           </note>
-          <u who="vilhelm_lundstedt_8f4961" xml:id="i-e5437ad9e57f141c-1" prev="i-f7ff7d2ce4f5dbe8-1" n="371ce580">
+          <u who="vilhelm_lundstedt_8f4961" xml:id="i-371ce580c57da1b3-4" prev="i-371ce580c57da1b3-3" n="371ce580">
             <seg n="6db29a1f">
               Vilka åsikter än herr justitieministern må ha i de avseenden,
               som jag berört, tror jag, att det likväl verkligen kvarstår, att
@@ -8679,14 +8789,6 @@
               nämligen att det icke kan hjälpas, att en mängd lagars, också
               den i detta ämne gäl-
             </seg>
-            <seg n="e8abda6e">
-              lande lagens tillämpning medför missbruk, men att man får lov
-              att med hänsyn till det utomordentligt betydelsefulla syfte, som
-              denna lag har — och som genom de föreslagna ändringarna i någon
-              mån skulle motverkas — låta det lilla onda följa med det stora
-              goda och icke ge inkörsportar för de möjligheter till godtycke,
-              som jag här förut berört.
-            </seg>
           </u>
           <note n="86463bab">
             Nr 38.
@@ -8701,13 +8803,23 @@
           <note n="133faa49">
             Om ändring € visså delar av lagen om fri rättegång. (Forts.)
           </note>
-          <note n="5b819cd3">
+          <note type="date" n="bfd67732">
             100 Onsdagen den 22 maj e. m.
           </note>
+          <u who="vilhelm_lundstedt_8f4961" xml:id="i-371ce580c57da1b3-5" prev="i-371ce580c57da1b3-3" n="371ce580">
+            <seg n="e8abda6e">
+              lande lagens tillämpning medför missbruk, men att man får lov
+              att med hänsyn till det utomordentligt betydelsefulla syfte, som
+              denna lag har — och som genom de föreslagna ändringarna i någon
+              mån skulle motverkas — låta det lilla onda följa med det stora
+              goda och icke ge inkörsportar för de möjligheter till godtycke,
+              som jag här förut berört.
+            </seg>
+          </u>
           <note type="speaker" n="406d684f">
             Chefen för justitiedepartementet herr statsrådet Bissmark:
           </note>
-          <u who="georg_bissmark_2b876e" xml:id="i-02e27a79e308f241-0" n="732cc9f2">
+          <u who="georg_bissmark_2b876e" xml:id="i-01083af72dd894a6-9" n="732cc9f2">
             <seg n="37798d7e">
               Herr talman! Jag kan icke underlåta att ge en enda liten replik.
             </seg>
@@ -8731,7 +8843,7 @@
           <note type="speaker" n="af2d120d">
             Herr Lundstedt:
           </note>
-          <u who="vilhelm_lundstedt_8f4961" xml:id="i-f7ff7d2ce4f5dbe8-2" next="i-e5437ad9e57f141c-2" n="371ce580">
+          <u who="vilhelm_lundstedt_8f4961" xml:id="i-371ce580c57da1b3-6" next="i-371ce580c57da1b3-7" n="371ce580">
             <seg n="89bd9e02">
               Herr talman! Jag vill endast gent emot herr justitieministern
               säga, att bortskärandet av dessa utväxter har ju till följd införandet
@@ -8761,7 +8873,7 @@
             förevarande förslag till lag om ändring i vissa delar av lagen
             den 19 juni 1919 (nr 367) om fri rättegång, röstar
           </note>
-          <u who="vilhelm_lundstedt_8f4961" xml:id="i-e5437ad9e57f141c-2" prev="i-f7ff7d2ce4f5dbe8-2" n="371ce580">
+          <u who="vilhelm_lundstedt_8f4961" xml:id="i-371ce580c57da1b3-7" prev="i-371ce580c57da1b3-6" n="371ce580">
             <seg n="0c5f5b55">
               Ja;
             </seg>
@@ -8781,7 +8893,7 @@
             förevarande paragraf.
           </note>
           <pb n="100" facs="https://betalab.kb.se/prot-1929--ak--38/prot_1929__ak__38-100.jp2/_view"/>
-          <note n="79c27432">
+          <note type="date" n="95b70e6e">
             Onsdagen den 22 maj e. m. 101
           </note>
           <note n="e1c2dab4">
@@ -8800,7 +8912,7 @@
           <note type="speaker" n="01fdd586">
             Herr Lindley:
           </note>
-          <u who="ernst_lindley_8e0c74" xml:id="i-f30297f0caec9dbd-0" n="cace4946">
+          <u who="ernst_lindley_8e0c74" xml:id="i-cace49466298385c-0" n="cace4946">
             <seg n="b784cdab">
               Herr talman! Med hänsyn till vad som förut anförts och vad som
               sagts i herr Åkermans m. fl. reservation ber jag att få yrka,
@@ -8812,7 +8924,7 @@
           <note type="speaker" n="49958f25">
             Herr Björkman:
           </note>
-          <u who="gustaf_adolf_bjorkman_3a52dd" xml:id="i-5e5d5a4f0f51a335-1" next="i-ffa477e09c9ebd9a-1" n="eed8d964">
+          <u who="gustaf_adolf_bjorkman_3a52dd" xml:id="i-38c59caa30fdc4f5-8" next="i-38c59caa30fdc4f5-10" n="eed8d964">
             <seg n="5fab33cc">
               Herr talman! På de skäl, som jag i mitt förra anförande över
               lagen i dess helhet anförde, ber jag att få yrka bifall till paragrafen
@@ -8844,7 +8956,7 @@
             anstå, till dess parten varit personligen tillstädes i målet och
             rätten därvid funnit, att behov av biträde föreligger.
           </note>
-          <u who="gustaf_adolf_bjorkman_3a52dd" xml:id="i-ffa477e09c9ebd9a-1" prev="i-5e5d5a4f0f51a335-1" n="eed8d964">
+          <u who="gustaf_adolf_bjorkman_3a52dd" xml:id="i-38c59caa30fdc4f5-9" prev="i-38c59caa30fdc4f5-8" n="eed8d964">
             <seg n="c59b40f5">
               Till rättegångsbiträde bör, om målets beskaffenhet det fordrar,
               förordnas någon som avlagt för utövande av domareämbete föreskrivna
@@ -8856,9 +8968,6 @@
             <seg n="c588c9a9">
               Vid förordnande av rättegångsbiträde må, när skäl därtill äro,
               biträdet berättigas att sätta annan lämplig person i sitt ställe.
-            </seg>
-            <seg n="f6a85a19">
-              Till rättegångsbiträde skäl därtill äro.
             </seg>
           </u>
           <note n="c35d6a29">
@@ -8893,6 +9002,11 @@
             bör i annat fall med beslut härom anstå till dess rätten vid målets
             handläggning finner behov av biträde föreligga.
           </note>
+          <u who="gustaf_adolf_bjorkman_3a52dd" xml:id="i-38c59caa30fdc4f5-10" prev="i-38c59caa30fdc4f5-8" n="eed8d964">
+            <seg n="f6a85a19">
+              Till rättegångsbiträde skäl därtill äro.
+            </seg>
+          </u>
           <note n="a1845711">
             Vid förordnande 1 sitt ställe; och
           </note>
@@ -8908,7 +9022,7 @@
           <note type="speaker" n="fb3f4b86">
             Herr Olsson i Ramsta:
           </note>
-          <u who="sven_olsson_ec46c1" xml:id="i-551a403dbf212f60-0" n="1c912be9">
+          <u who="sven_olsson_ec46c1" xml:id="i-1c912be98792bf5d-10" n="1c912be9">
             <seg n="75ba6e68">
               Herr talman! I anslutning till mitt nyss hållna yttrande ber
               jag att få yrka bifall till den av herr Schlyter avgivna reservationen
@@ -8918,7 +9032,7 @@
           <note type="speaker" n="49958f25">
             Herr Björkman:
           </note>
-          <u who="gustaf_adolf_bjorkman_3a52dd" xml:id="i-5e5d5a4f0f51a335-2" next="i-ffa477e09c9ebd9a-2" n="eed8d964">
+          <u who="gustaf_adolf_bjorkman_3a52dd" xml:id="i-38c59caa30fdc4f5-11" next="i-38c59caa30fdc4f5-12" n="eed8d964">
             <seg n="d3cae300">
               Herr talman! Jag skall fortfarande, med hänvisning till vad jag
               nyss yttrade i detta avseende samt särskilt också under påpekande
@@ -8936,7 +9050,7 @@
             på de därunder förekomna yrkandena; och godkände kammaren förevarande
             stycke enligt utskottets förslag.
           </note>
-          <u who="gustaf_adolf_bjorkman_3a52dd" xml:id="i-ffa477e09c9ebd9a-2" prev="i-5e5d5a4f0f51a335-2" n="eed8d964">
+          <u who="gustaf_adolf_bjorkman_3a52dd" xml:id="i-38c59caa30fdc4f5-12" prev="i-38c59caa30fdc4f5-11" n="eed8d964">
             <seg n="fe919ce0">
               Herr talman! Jag ber att få yrka avslag på andra stycket
             </seg>
@@ -8975,7 +9089,7 @@
             vad som eljest
           </note>
           <pb n="102" facs="https://betalab.kb.se/prot-1929--ak--38/prot_1929__ak__38-102.jp2/_view"/>
-          <note n="cb51025f">
+          <note type="date" n="eb0c9f01">
             Onsdagen den 22 maj e. m. 103 Nr 88.
           </note>
           <note n="672a2090">
@@ -9005,7 +9119,7 @@
           <note type="speaker" n="ab958e82">
             Herr Jonsson i Risinge, som anförde:
           </note>
-          <u who="oscar_jonsson_23d6a2" xml:id="i-9e565e1ee860603a-0" n="bf1e89b5">
+          <u who="oscar_jonsson_23d6a2" xml:id="i-bf1e89b5d220c654-8" n="bf1e89b5">
             <seg n="bb97d477">
               Herr talman! Jag skall endast yttra några få ord, då så mycket
               har sagts förut, men jag kan icke underlåta att påpeka, att just
@@ -9066,7 +9180,7 @@
           <note n="552a9190">
             Anmärkning mot ledamot av statsrådet. (Forts.)
           </note>
-          <note n="3149daad">
+          <note type="date" n="7d7627b8">
             104 Onsdagen den 22 maj e. m.
           </note>
           <note n="70581fd8">
@@ -9115,7 +9229,7 @@
           <note type="speaker" n="1aa9314d">
             Chefen för försvarsdepartementet herr statsrådet Malmberg:
           </note>
-          <u who="unknown" xml:id="i-df98c781aea0bed6-1" n="01083af7">
+          <u who="unknown" xml:id="i-01083af72dd894a6-10" n="01083af7">
             <seg n="90c0ee9c">
               Herr talman! Konstitutionsutskottets anmälan mot de regeringsbeslut,
               som på min föredragning fattats i fråga om den Langenskiöldska
@@ -9128,11 +9242,35 @@
           <note n="7d013b8c">
             2) föregripit en av riksdagen begärd utredning och
           </note>
-          <u who="unknown" xml:id="i-607aef13633a4af5-1" n="01083af7">
+          <u who="unknown" xml:id="i-01083af72dd894a6-11" n="01083af7">
             <seg n="2bec712f">
               3) tillrått ett beslut, som kan medföra betänkliga konsekvenser
               i fråga om andra sammanslutningar eller privata institutioner.
             </seg>
+          </u>
+          <note n="ada864fb">
+            Utskottet har icke angivit, när och i vad form riksdagen tillkännagivit
+            den mening, mot vilken de angivna besluten skulle stå i strid.
+            Av ordalagen i utskottets uttalande synes framgå, att det närmast
+            skulle vara mot 1917 års beslut att avskaffa den obligatoriska
+            militärutbildningen vid de allmänna läroverken m. fl. utbildningsanstalter.
+            Mot min förmodan, att detta beslut skulle avses, talar visserligen,
+            att i det i övrigt ganska fylliga memorialet 1917 års förhandlingar,
+            som av sid. 6 framgår, avfärdas endast med orden: »Utskottet erinrar
+            om, att de tidigare anordnade militärövningarna i skolorna — —
+            — genom riksdagens beslut — — — år 1917 alldeles avskaffades.»
+            Det synes mig emellertid vara allt skäl att litet närmare gå in
+            på vad som verkligen hände 1917 och de närmaste åren därefter.
+          </note>
+          <note n="93ed036b">
+            1917 års beslut fattades efter motion av herr E. A. Nilsson (nr
+            55 i andra
+          </note>
+          <pb n="104" facs="https://betalab.kb.se/prot-1929--ak--38/prot_1929__ak__38-104.jp2/_view"/>
+          <note type="date" n="99d4679b">
+            Onsdagen den 22 maj e. m. 105
+          </note>
+          <u who="unknown" xml:id="i-01083af72dd894a6-12" n="01083af7">
             <seg n="58308ff8">
               kammaren). I motionen anföres bland annat följande: »1914 års
               värnpliktslag ställer den studerande manliga ungdomen i ett alldeles
@@ -9202,6 +9340,30 @@
               då han såsom de-
             </seg>
             <seg n="c8aeedef"/>
+          </u>
+          <note n="86463bab">
+            Nr 38.
+          </note>
+          <note n="b314d82e">
+            Anmärkning mot ledamot av statsrådet.
+          </note>
+          <note n="affdaf2c">
+            (Forts.)
+          </note>
+          <pb n="105" facs="https://betalab.kb.se/prot-1929--ak--38/prot_1929__ak__38-105.jp2/_view"/>
+          <note n="0ab086ba">
+            Nr 88.
+          </note>
+          <note n="b314d82e">
+            Anmärkning mot ledamot av statsrådet.
+          </note>
+          <note n="affdaf2c">
+            (Forts.)
+          </note>
+          <note type="date" n="e23817e0">
+            106 Onsdagen den 22 maj e. m.
+          </note>
+          <u who="unknown" xml:id="i-01083af72dd894a6-13" n="01083af7">
             <seg n="3a524431">
               partementschef tog upp detta anslag. Riksdagen biföll även propositionen
               och ställde således dessa 3,000 kronor till förfogande åt en förening
@@ -9211,6 +9373,19 @@
               av i huvudsak samma natur som denna överlämna detta statsbidrag
               utan någon som helst statskontroll.
             </seg>
+          </u>
+          <note n="f5529af7">
+            Vad som senare hänt, är i huvudsak, att vid 1927 års riksdag
+            väcktes av herr Anderson 1 Linköping två motioner i andra kammaren
+            (nr 198 och 199), den ena om återinförande av obligatorisk militärutbildning
+            i de allmänna läroverken, den andra om anordnande på statens bekostnad
+            av en till ferietid förlagd militärutbildning för skolungdom.
+            Utskottsutlåtandena över dessa motioner återfinnas i konstitutionsutskottets
+            memorial på sidorna 9 och 10. $Sedan hänvisning skett till vissa
+            allmänna synpunkter beträffande de obligatoriska militärövningarna,
+            säges det på sid. 10:
+          </note>
+          <u who="unknown" xml:id="i-01083af72dd894a6-14" n="01083af7">
             <seg n="af762f84">
               »Härutöver vill utskottet framhålla, att det kan ifrågasättas,
               om det rent fysiskt sett är lämpligt för ynglingar i 16—19-årsåldern
@@ -9262,6 +9437,19 @@
               förordade beslutet kunde anses stå i strid mot riksdagens uttalade
               mening.
             </seg>
+          </u>
+          <note n="b7aaa9e4">
+            Anmärkningens andra punkt gäller, att jag skulle hava föregripit
+            den ovan nämnda av riksdagen begärda utredningen. Jag vill då
+            åter citera en punkt av riksdagens nyssnämnda skrivelse nr 239/1928.
+            Det heter där: »Riksdagen, som dock icke ansett sig böra bevilja
+            medel för det i motionen angivna ända-
+          </note>
+          <pb n="106" facs="https://betalab.kb.se/prot-1929--ak--38/prot_1929__ak__38-106.jp2/_view"/>
+          <note type="date" n="184b7e7e">
+            Onsdagen den 22 maj e. m. 107 Nr 38.
+          </note>
+          <u who="unknown" xml:id="i-01083af72dd894a6-15" n="01083af7">
             <seg n="ccf6613f">
               målet etc.», varefter riksdagen förordar en utredning. Utredningen
               i fråga Anmärkning har av den föregående regeringen uppdragits
@@ -9332,6 +9520,24 @@
               inom flertalet andra yrken, genom förutbildning ställa sig bättre
               i konkurrensen.
             </seg>
+          </u>
+          <note n="affdaf2c">
+            (Forts.)
+          </note>
+          <pb n="107" facs="https://betalab.kb.se/prot-1929--ak--38/prot_1929__ak__38-107.jp2/_view"/>
+          <note n="86463bab">
+            Nr 38.
+          </note>
+          <note n="b314d82e">
+            Anmärkning mot ledamot av statsrådet.
+          </note>
+          <note n="affdaf2c">
+            (Forts.)
+          </note>
+          <note type="date" n="80d52c45">
+            108 Onsdagen den 22 maj e. m.
+          </note>
+          <u who="unknown" xml:id="i-01083af72dd894a6-16" n="01083af7">
             <seg n="c0ee8230">
               Enligt min åsikt kan man i detta fall med fullt fog anse, att
               staten har ett så starkt grepp om kursen, att den skiljer sig
@@ -9363,92 +9569,10 @@
               kunna påvisas.
             </seg>
           </u>
-          <note n="ada864fb">
-            Utskottet har icke angivit, när och i vad form riksdagen tillkännagivit
-            den mening, mot vilken de angivna besluten skulle stå i strid.
-            Av ordalagen i utskottets uttalande synes framgå, att det närmast
-            skulle vara mot 1917 års beslut att avskaffa den obligatoriska
-            militärutbildningen vid de allmänna läroverken m. fl. utbildningsanstalter.
-            Mot min förmodan, att detta beslut skulle avses, talar visserligen,
-            att i det i övrigt ganska fylliga memorialet 1917 års förhandlingar,
-            som av sid. 6 framgår, avfärdas endast med orden: »Utskottet erinrar
-            om, att de tidigare anordnade militärövningarna i skolorna — —
-            — genom riksdagens beslut — — — år 1917 alldeles avskaffades.»
-            Det synes mig emellertid vara allt skäl att litet närmare gå in
-            på vad som verkligen hände 1917 och de närmaste åren därefter.
-          </note>
-          <note n="93ed036b">
-            1917 års beslut fattades efter motion av herr E. A. Nilsson (nr
-            55 i andra
-          </note>
-          <pb n="104" facs="https://betalab.kb.se/prot-1929--ak--38/prot_1929__ak__38-104.jp2/_view"/>
-          <note n="65ce5924">
-            Onsdagen den 22 maj e. m. 105
-          </note>
-          <note n="86463bab">
-            Nr 38.
-          </note>
-          <note n="b314d82e">
-            Anmärkning mot ledamot av statsrådet.
-          </note>
-          <note n="affdaf2c">
-            (Forts.)
-          </note>
-          <pb n="105" facs="https://betalab.kb.se/prot-1929--ak--38/prot_1929__ak__38-105.jp2/_view"/>
-          <note n="0ab086ba">
-            Nr 88.
-          </note>
-          <note n="b314d82e">
-            Anmärkning mot ledamot av statsrådet.
-          </note>
-          <note n="affdaf2c">
-            (Forts.)
-          </note>
-          <note n="6dcdcacb">
-            106 Onsdagen den 22 maj e. m.
-          </note>
-          <note n="f5529af7">
-            Vad som senare hänt, är i huvudsak, att vid 1927 års riksdag
-            väcktes av herr Anderson 1 Linköping två motioner i andra kammaren
-            (nr 198 och 199), den ena om återinförande av obligatorisk militärutbildning
-            i de allmänna läroverken, den andra om anordnande på statens bekostnad
-            av en till ferietid förlagd militärutbildning för skolungdom.
-            Utskottsutlåtandena över dessa motioner återfinnas i konstitutionsutskottets
-            memorial på sidorna 9 och 10. $Sedan hänvisning skett till vissa
-            allmänna synpunkter beträffande de obligatoriska militärövningarna,
-            säges det på sid. 10:
-          </note>
-          <note n="b7aaa9e4">
-            Anmärkningens andra punkt gäller, att jag skulle hava föregripit
-            den ovan nämnda av riksdagen begärda utredningen. Jag vill då
-            åter citera en punkt av riksdagens nyssnämnda skrivelse nr 239/1928.
-            Det heter där: »Riksdagen, som dock icke ansett sig böra bevilja
-            medel för det i motionen angivna ända-
-          </note>
-          <pb n="106" facs="https://betalab.kb.se/prot-1929--ak--38/prot_1929__ak__38-106.jp2/_view"/>
-          <note n="8109dfce">
-            Onsdagen den 22 maj e. m. 107 Nr 38.
-          </note>
-          <note n="affdaf2c">
-            (Forts.)
-          </note>
-          <pb n="107" facs="https://betalab.kb.se/prot-1929--ak--38/prot_1929__ak__38-107.jp2/_view"/>
-          <note n="86463bab">
-            Nr 38.
-          </note>
-          <note n="b314d82e">
-            Anmärkning mot ledamot av statsrådet.
-          </note>
-          <note n="affdaf2c">
-            (Forts.)
-          </note>
-          <note n="ace10add">
-            108 Onsdagen den 22 maj e. m.
-          </note>
           <note type="speaker" n="037206ca">
             Herr Sävström:
           </note>
-          <u who="august_savstrom_9194cb" xml:id="i-63b0db3a83121524-0" next="i-ba19b58b55968260-0" n="957a41c5">
+          <u who="august_savstrom_9194cb" xml:id="i-957a41c5ab973445-0" next="i-957a41c5ab973445-4" n="957a41c5">
             <seg n="ccccb214">
               Herr talman! Det föreliggande ärendet har ju väckt en viss uppmärksamhet
               i riksdagen, då det har framställts interpellation om saken och
@@ -9483,7 +9607,7 @@
             och de som förordade deras avskaffande, vitsordade enstämmigt,
             att övningarna inverkade störande på undervisningen.
           </note>
-          <u who="august_savstrom_9194cb" xml:id="i-ba19b58b55968260-0" prev="i-63b0db3a83121524-0" n="957a41c5">
+          <u who="august_savstrom_9194cb" xml:id="i-957a41c5ab973445-1" prev="i-957a41c5ab973445-0" n="957a41c5">
             <seg n="48cb0a52">
               Chefen för generalstaben anförde emellertid, att den främsta
               uppgiften för dessa militärövningar i skolorna vore att förbereda
@@ -9494,6 +9618,17 @@
               gällt dessa övningar i skolan under skoltiden, avsåg att utbilda
               reservbefäl.
             </seg>
+          </u>
+          <note n="dea3b36e">
+            Sedan riksdagen på grund av herr E. A. Nilsons i Örebro hemställan
+            beslutit avskaffande av dessa övningar, känna vi till, att herr
+            Anderson i Linköping
+          </note>
+          <pb n="108" facs="https://betalab.kb.se/prot-1929--ak--38/prot_1929__ak__38-108.jp2/_view"/>
+          <note type="date" n="60eea026">
+            Onsdagen den 22 maj e. m. 109
+          </note>
+          <u who="august_savstrom_9194cb" xml:id="i-957a41c5ab973445-2" prev="i-957a41c5ab973445-0" n="957a41c5">
             <seg n="b46c0af1">
               har gjort framställning efter framställning i syfte att här åstadkomma
               en ändring och återgång till de gamla förhållandena. 1927 väcktes
@@ -9570,31 +9705,15 @@
               När vi åberopat förhållandena uti vissa andra länder i Europa,
               där
             </seg>
-            <seg n="718e7b50">
-              Anmärkning mot ledamot ar statsrådet.
-            </seg>
-            <seg n="a394f551">
-              läget är helt annorlunda än här i vårt land, tror jag, att vi
-              med fog kunnat göra detta, och att jag nu icke behöver närmare
-              ingå på och redogöra för dem.
-            </seg>
-            <seg n="9034e2c9">
-              Herr talman! Jag skall på grund av det anförda be att få föreslå,
-              att kammaren måtte lägga denna anmälan till handlingarna.
-            </seg>
           </u>
-          <note n="dea3b36e">
-            Sedan riksdagen på grund av herr E. A. Nilsons i Örebro hemställan
-            beslutit avskaffande av dessa övningar, känna vi till, att herr
-            Anderson i Linköping
-          </note>
-          <pb n="108" facs="https://betalab.kb.se/prot-1929--ak--38/prot_1929__ak__38-108.jp2/_view"/>
-          <note n="66489d3c">
-            Onsdagen den 22 maj e. m. 109
-          </note>
           <note n="462b7602">
             Nr 38,
           </note>
+          <u who="august_savstrom_9194cb" xml:id="i-957a41c5ab973445-3" prev="i-957a41c5ab973445-0" n="957a41c5">
+            <seg n="718e7b50">
+              Anmärkning mot ledamot ar statsrådet.
+            </seg>
+          </u>
           <note n="affdaf2c">
             (Forts.)
           </note>
@@ -9608,13 +9727,24 @@
           <note n="affdaf2c">
             (Forts.)
           </note>
-          <note n="b33acf34">
+          <note type="date" n="bf12d1ca">
             110 Onsdagen den 22 maj e. m.
           </note>
+          <u who="august_savstrom_9194cb" xml:id="i-957a41c5ab973445-4" prev="i-957a41c5ab973445-0" n="957a41c5">
+            <seg n="a394f551">
+              läget är helt annorlunda än här i vårt land, tror jag, att vi
+              med fog kunnat göra detta, och att jag nu icke behöver närmare
+              ingå på och redogöra för dem.
+            </seg>
+            <seg n="9034e2c9">
+              Herr talman! Jag skall på grund av det anförda be att få föreslå,
+              att kammaren måtte lägga denna anmälan till handlingarna.
+            </seg>
+          </u>
           <note type="speaker" n="22ce74ed">
             Herr Holmström:
           </note>
-          <u who="nils_holmstrom_748680" xml:id="i-18e986f39869aa45-0" next="i-431ed9fd037e932a-0" n="a91a3bb0">
+          <u who="nils_holmstrom_748680" xml:id="i-a91a3bb0d90846ae-0" next="i-a91a3bb0d90846ae-3" n="a91a3bb0">
             <seg n="6328a487">
               Herr talman! Med anledning av vad den ärade talesmannen för utskottsmajoriteten
               här anfört skall jag anhålla att få säga några ord i huvudsaklig
@@ -9645,7 +9775,7 @@
             riksdagsbeslut, varigenom en motion, syftande till återupptagande
             i viss mån av dessa övningar, avslogs.
           </note>
-          <u who="nils_holmstrom_748680" xml:id="i-431ed9fd037e932a-0" prev="i-18e986f39869aa45-0" n="a91a3bb0">
+          <u who="nils_holmstrom_748680" xml:id="i-a91a3bb0d90846ae-1" prev="i-a91a3bb0d90846ae-0" n="a91a3bb0">
             <seg n="63d729c6">
               Herr statsrådet och chefen för försvarsdepartementet har nyss
               lämnat en redogörelse för innebörden av båda dessa riksdagsbeslut.
@@ -9687,6 +9817,12 @@
               Herr statsrådet förklarade, att de avsedda övningarna på Rommehed
               kunna
             </seg>
+          </u>
+          <pb n="110" facs="https://betalab.kb.se/prot-1929--ak--38/prot_1929__ak__38-110.jp2/_view"/>
+          <note type="date" n="ce18db6d">
+            Onsdagen den 22 maj e. m. 111
+          </note>
+          <u who="nils_holmstrom_748680" xml:id="i-a91a3bb0d90846ae-2" prev="i-a91a3bb0d90846ae-0" n="a91a3bb0">
             <seg n="26f38d67">
               bli till stor nytta just för denna av riksdagen begärda utredning.
               Och det ligger väl i sakens natur, att dessa övningar komma att
@@ -9764,26 +9900,7 @@
               De ledas. såsom herr statsrådet anförde, av statens officerare,
               de inspekteras av en hel del
             </seg>
-            <seg n="ed1a014d">
-              med klassföreståndare, gymnastiklärare och skolläkare. Staten
-              har genom sina organ sin hand helt över dessa utbildningskurser.
-            </seg>
-            <seg n="692fd084">
-              Ja, herr talman, hur man än ser på denna fråga, från formella
-              eller från principiella synpunkter, så kan man icke komma till
-              annat resultat, än att anmärkningen saknar grund.
-            </seg>
-            <seg n="d220926d">
-              Reservanterna inom konstitutionsutskottet ha ju också ansett
-              att anmälan icke bort till någon utskottets åtgärd föranleda.
-              Men då nu en anmärkning är framställd från utskottets sida, ber
-              jag, herr talman, att få yrka, att anmärkningen lägges till handlingarna.
-            </seg>
           </u>
-          <pb n="110" facs="https://betalab.kb.se/prot-1929--ak--38/prot_1929__ak__38-110.jp2/_view"/>
-          <note n="04ba57fc">
-            Onsdagen den 22 maj e. m. 111
-          </note>
           <note n="86463bab">
             Nr 38.
           </note>
@@ -9808,10 +9925,27 @@
             och civila — herr statsrådet räknade upp dem — och eleverna i
             kurserna uttagas av läroverkens rektorer efter samråd
           </note>
+          <u who="nils_holmstrom_748680" xml:id="i-a91a3bb0d90846ae-3" prev="i-a91a3bb0d90846ae-0" n="a91a3bb0">
+            <seg n="ed1a014d">
+              med klassföreståndare, gymnastiklärare och skolläkare. Staten
+              har genom sina organ sin hand helt över dessa utbildningskurser.
+            </seg>
+            <seg n="692fd084">
+              Ja, herr talman, hur man än ser på denna fråga, från formella
+              eller från principiella synpunkter, så kan man icke komma till
+              annat resultat, än att anmärkningen saknar grund.
+            </seg>
+            <seg n="d220926d">
+              Reservanterna inom konstitutionsutskottet ha ju också ansett
+              att anmälan icke bort till någon utskottets åtgärd föranleda.
+              Men då nu en anmärkning är framställd från utskottets sida, ber
+              jag, herr talman, att få yrka, att anmärkningen lägges till handlingarna.
+            </seg>
+          </u>
           <note type="speaker" n="0bac9ad7">
             Herr Olsson i Mora:
           </note>
-          <u who="sven_olsson_ec46c1" xml:id="i-a611c78cf6822766-3" next="i-8e3ab7c7a6e28f16-3" n="1c912be9">
+          <u who="sven_olsson_ec46c1" xml:id="i-1c912be98792bf5d-11" next="i-1c912be98792bf5d-12" n="1c912be9">
             <seg n="ad93057b">
               Herr talman! TI olikhet med den föregående ärade talaren, som
               ju är en karsk representant för vårt försvar, har jag ansett mig
@@ -9870,10 +10004,10 @@
             </seg>
           </u>
           <pb n="112" facs="https://betalab.kb.se/prot-1929--ak--38/prot_1929__ak__38-112.jp2/_view"/>
-          <note n="0d0fc10e">
+          <note type="date" n="4894a809">
             Onsdagen den 22 maj e. m. 113 Nr 38.
           </note>
-          <u who="sven_olsson_ec46c1" xml:id="i-8e3ab7c7a6e28f16-3" prev="i-a611c78cf6822766-3" n="1c912be9">
+          <u who="sven_olsson_ec46c1" xml:id="i-1c912be98792bf5d-12" prev="i-1c912be98792bf5d-11" n="1c912be9">
             <seg n="0f8c71d1">
               Kungl. Maj:ts beslut är i själva verket så mycket märkligare
               som det är en Anmärkning
@@ -9924,7 +10058,7 @@
           <note type="speaker" n="0df0f292">
             Herr Persson i Trången:
           </note>
-          <u who="swen_persson_9846aa" xml:id="i-68bd6e2df2c939b4-3" next="i-51d89ad76064005c-3" n="9183d01e">
+          <u who="swen_persson_9846aa" xml:id="i-38efffc971adf7ff-8" next="i-38efffc971adf7ff-9" n="9183d01e">
             <seg n="41090992">
               Herr talman! Jag tror, att om man uppmärksamt och opartiskt prövar
               alla de förhållanden, som legat till grund för herr statsrådets
@@ -9968,10 +10102,10 @@
           <note n="f70eb09f">
             ( Forts.)
           </note>
-          <note n="76f21e76">
+          <note type="date" n="39ad2713">
             114 Onsdagen den 22 maj e. m.
           </note>
-          <u who="swen_persson_9846aa" xml:id="i-51d89ad76064005c-3" prev="i-68bd6e2df2c939b4-3" n="9183d01e">
+          <u who="swen_persson_9846aa" xml:id="i-38efffc971adf7ff-9" prev="i-38efffc971adf7ff-8" n="9183d01e">
             <seg n="38103a77">
               ningen. I det hänseendet synes det mig, att utskottsmajoriteten
               kommit något utom den egentliga sakfrågan. Så länge vårt land
@@ -9989,7 +10123,7 @@
           <note type="speaker" n="29b62005">
             Herr Hansson i Stockholm:
           </note>
-          <u who="per_albin_hansson_6f9acd" xml:id="i-283ea66a0cedf583-0" next="i-81b5c91ba66cdd0b-0" n="70599219">
+          <u who="per_albin_hansson_6f9acd" xml:id="i-70599219915b8baf-0" next="i-70599219915b8baf-2" n="70599219">
             <seg n="2deb71dd">
               Herr talman! Egentligen har ju hela argumentationen för den ena
               eller andra ståndpunkten i förevarande ärende redan anförts. Jag
@@ -10049,10 +10183,10 @@
             </seg>
           </u>
           <pb n="114" facs="https://betalab.kb.se/prot-1929--ak--38/prot_1929__ak__38-114.jp2/_view"/>
-          <note n="feb33fa7">
+          <note type="date" n="294e2ff8">
             Onsdagen den 22 maj e. m. 115
           </note>
-          <u who="per_albin_hansson_6f9acd" xml:id="i-81b5c91ba66cdd0b-0" prev="i-283ea66a0cedf583-0" n="70599219">
+          <u who="per_albin_hansson_6f9acd" xml:id="i-70599219915b8baf-1" prev="i-70599219915b8baf-0" n="70599219">
             <seg n="cb84ff42">
               bestämt hava avrått regeringen från att med privata medel finansiera
               vad riksdagen icke själv velat vara med om.
@@ -10124,6 +10258,30 @@
               ser dock med en viss oro på tillvaron av en ganska stark, växande
               privat militär organisation, som kanske i ett givet
             </seg>
+          </u>
+          <note n="38b12919">
+            Nr 35.
+          </note>
+          <note n="b314d82e">
+            Anmärkning mot ledamot av statsrådet.
+          </note>
+          <note n="a03e7f57">
+            Forts.)
+          </note>
+          <pb n="115" facs="https://betalab.kb.se/prot-1929--ak--38/prot_1929__ak__38-115.jp2/_view"/>
+          <note n="e9094850">
+            Nr 3S.
+          </note>
+          <note n="b314d82e">
+            Anmärkning mot ledamot av statsrådet.
+          </note>
+          <note n="affdaf2c">
+            (Forts.)
+          </note>
+          <note type="date" n="41a03488">
+            116 Onsdagen den 22 maj e. m.
+          </note>
+          <u who="per_albin_hansson_6f9acd" xml:id="i-70599219915b8baf-2" prev="i-70599219915b8baf-0" n="70599219">
             <seg n="dbc1bd21">
               ögonblick av oro i samhället icke längre behärskas varken av
               den statliga kontrollen eller av den ledning, som försäkrar, att
@@ -10157,32 +10315,10 @@
               fara i en socialt upprörd tid.
             </seg>
           </u>
-          <note n="38b12919">
-            Nr 35.
-          </note>
-          <note n="b314d82e">
-            Anmärkning mot ledamot av statsrådet.
-          </note>
-          <note n="a03e7f57">
-            Forts.)
-          </note>
-          <pb n="115" facs="https://betalab.kb.se/prot-1929--ak--38/prot_1929__ak__38-115.jp2/_view"/>
-          <note n="e9094850">
-            Nr 3S.
-          </note>
-          <note n="b314d82e">
-            Anmärkning mot ledamot av statsrådet.
-          </note>
-          <note n="affdaf2c">
-            (Forts.)
-          </note>
-          <note n="92e0908c">
-            116 Onsdagen den 22 maj e. m.
-          </note>
           <note type="speaker" n="6d1a7473">
             Herr Holmgren:
           </note>
-          <u who="bjorn_frithiofsson_holmgren_b7702f" xml:id="i-fba362979d32a2df-0" next="i-f3dc9021d96fdedc-0" n="1fc5d486">
+          <u who="bjorn_frithiofsson_holmgren_b7702f" xml:id="i-1fc5d486d3d4c297-1" next="i-1fc5d486d3d4c297-2" n="1fc5d486">
             <seg n="346d087f">
               Herr talman! TI anledning av den fråga som nu är föremål för
               kammarens behandling skrev Karlskrona-tidningen den 8 maj detta
@@ -10225,10 +10361,10 @@
             </seg>
           </u>
           <pb n="116" facs="https://betalab.kb.se/prot-1929--ak--38/prot_1929__ak__38-116.jp2/_view"/>
-          <note n="5de36362">
+          <note type="date" n="563d7a09">
             Onsdagen den 22 maj e. m. 117
           </note>
-          <u who="bjorn_frithiofsson_holmgren_b7702f" xml:id="i-f3dc9021d96fdedc-0" prev="i-fba362979d32a2df-0" n="1fc5d486">
+          <u who="bjorn_frithiofsson_holmgren_b7702f" xml:id="i-1fc5d486d3d4c297-2" prev="i-1fc5d486d3d4c297-1" n="1fc5d486">
             <seg n="1730e893">
               nifestet. Samma parti, som då krävde detta, har nu och sedan
               många år tillbaka varje år nekat varje anslag av statsmedel till
@@ -10277,7 +10413,7 @@
           <note type="speaker" n="fd224f6a">
             Herr förste vice talmannen Hamilton:
           </note>
-          <u who="raoul_hamilton_04963b" xml:id="i-350da5f8d3953cba-1" next="i-3a5117f509b24e50-1" n="0fb977b3">
+          <u who="raoul_hamilton_04963b" xml:id="i-0fb977b3435e4d6d-2" next="i-0fb977b3435e4d6d-3" n="0fb977b3">
             <seg n="42c69415">
               Herr talman! Det förefaller mig. att vid detta tillfälle icke
               bör döljas, att den åtgärd, som herr statsrådet och chefen för
@@ -10332,10 +10468,10 @@
           <note n="affdaf2c">
             (Forts.)
           </note>
-          <note n="a3ddb2c5">
+          <note type="date" n="192bc16c">
             118 Onsdagen den 22 maj e. m.
           </note>
-          <u who="raoul_hamilton_04963b" xml:id="i-3a5117f509b24e50-1" prev="i-350da5f8d3953cba-1" n="0fb977b3">
+          <u who="raoul_hamilton_04963b" xml:id="i-0fb977b3435e4d6d-3" prev="i-0fb977b3435e4d6d-2" n="0fb977b3">
             <seg n="966b0425">
               ungdomen och med de otaliga föredrag, som hållits i syfte att
               uppväcka krigarandan hos ungdomen mitt under en tid, då Sveriges
@@ -10351,7 +10487,7 @@
           <note type="speaker" n="ec30dd1c">
             Herr Herou:
           </note>
-          <u who="viktor_herou_c29be7" xml:id="i-eac8ce04ffd68420-0" next="i-240889da730ee368-0" n="975af63d">
+          <u who="viktor_herou_c29be7" xml:id="i-975af63d06365df5-0" next="i-975af63d06365df5-2" n="975af63d">
             <seg n="5f758f27">
               Herr talman! De som här talat om »rikets sannskyldiga nytta»,
               om »fosterlandets försvar», om »staten som organ för samhällsviljan
@@ -10411,10 +10547,10 @@
             </seg>
           </u>
           <pb n="118" facs="https://betalab.kb.se/prot-1929--ak--38/prot_1929__ak__38-118.jp2/_view"/>
-          <note n="500a5da1">
+          <note type="date" n="7520d015">
             Onsdagen den 22 maj e. m. 119
           </note>
-          <u who="viktor_herou_c29be7" xml:id="i-240889da730ee368-0" prev="i-eac8ce04ffd68420-0" n="975af63d">
+          <u who="viktor_herou_c29be7" xml:id="i-975af63d06365df5-1" prev="i-975af63d06365df5-0" n="975af63d">
             <seg n="1b9bec82">
               utskottet icke gått så långt som anmälaren, att man vänt sig
               emot de privata militärövningarna över huvud. Det var kanske en
@@ -10486,6 +10622,27 @@
               om, hurusom en socialdemokratisk redaktör i Österrike efter Wien-händelserna
               — det karakteriserar alldeles ut-
             </seg>
+          </u>
+          <note n="86463bab">
+            Nr 38.
+          </note>
+          <note n="e001d18b">
+            Anmärknina mot ledamot ar statsrådet.
+          </note>
+          <note n="40842bd0">
+            (Forts.
+          </note>
+          <pb n="119" facs="https://betalab.kb.se/prot-1929--ak--38/prot_1929__ak__38-119.jp2/_view"/>
+          <note n="5ab8e00f">
+            Nr 388.
+          </note>
+          <note n="552a9190">
+            Anmärkning mot ledamot av statsrådet. (Forts.)
+          </note>
+          <note type="date" n="43256c8a">
+            120 Onsdagen den 22 maj e. m.
+          </note>
+          <u who="viktor_herou_c29be7" xml:id="i-975af63d06365df5-2" prev="i-975af63d06365df5-0" n="975af63d">
             <seg n="82094e7f">
               märkt den klassåskådning, som framför allt vi kommunister lägga
               på denna fråga — skrev, att de blodiga striderna i Wien med en
@@ -10506,25 +10663,6 @@
               Och ha således intet emot att pröva allvaret i utskottets anmärkning.
             </seg>
           </u>
-          <note n="86463bab">
-            Nr 38.
-          </note>
-          <note n="e001d18b">
-            Anmärknina mot ledamot ar statsrådet.
-          </note>
-          <note n="40842bd0">
-            (Forts.
-          </note>
-          <pb n="119" facs="https://betalab.kb.se/prot-1929--ak--38/prot_1929__ak__38-119.jp2/_view"/>
-          <note n="5ab8e00f">
-            Nr 388.
-          </note>
-          <note n="552a9190">
-            Anmärkning mot ledamot av statsrådet. (Forts.)
-          </note>
-          <note n="eefd791e">
-            120 Onsdagen den 22 maj e. m.
-          </note>
           <note n="a3f1b743">
             Herr talman! Jag yrkar, att utskottets anmälan må med gillande
             läggas till handlingarna.
@@ -10532,7 +10670,7 @@
           <note type="speaker" n="6918f5a5">
             Herr Månsson i Furuvik:
           </note>
-          <u who="nils_mansson_7fa152" xml:id="i-5563cdb8ee3787fb-0" next="i-e91192151ed60e1b-0" n="4d95292c">
+          <u who="nils_mansson_7fa152" xml:id="i-4d95292c2342a46b-0" next="i-4d95292c2342a46b-4" n="4d95292c">
             <seg n="5a50fa22">
               Herr talman! Jag tror icke, att sådana här små historier innebära
               någon fara för demokratien. Jag tror icke, att det skulle spela
@@ -10583,10 +10721,10 @@
             </seg>
           </u>
           <pb n="120" facs="https://betalab.kb.se/prot-1929--ak--38/prot_1929__ak__38-120.jp2/_view"/>
-          <note n="f3aad1a2">
+          <note type="date" n="b564e4df">
             Onsdagen den 22 maj e. m. 121
           </note>
-          <u who="nils_mansson_7fa152" xml:id="i-e91192151ed60e1b-0" prev="i-5563cdb8ee3787fb-0" n="4d95292c">
+          <u who="nils_mansson_7fa152" xml:id="i-4d95292c2342a46b-1" prev="i-4d95292c2342a46b-0" n="4d95292c">
             <seg n="9fd9f243">
               vad den beslutande församlingen skulle komma till för resultat,
               om dess medlemmar man efter man finge uttala sin mening. De ledande
@@ -10656,12 +10794,34 @@
               äro i fara att få dragas med så länge vi behålla den form för
               vårt militära system, som vi hade då.
             </seg>
+          </u>
+          <note n="384e6785">
+            Nr äN.
+          </note>
+          <u who="nils_mansson_7fa152" xml:id="i-4d95292c2342a46b-2" prev="i-4d95292c2342a46b-0" n="4d95292c">
             <seg n="9ff803bd">
               Anmärkning mot ledamot arv statsrådet.
             </seg>
+          </u>
+          <note n="be8a29e7">
+            (Fort
+          </note>
+          <pb n="121" facs="https://betalab.kb.se/prot-1929--ak--38/prot_1929__ak__38-121.jp2/_view"/>
+          <note n="6077f173">
+            Nr 388,
+          </note>
+          <u who="nils_mansson_7fa152" xml:id="i-4d95292c2342a46b-3" prev="i-4d95292c2342a46b-0" n="4d95292c">
             <seg n="73392d9b">
               Anmärkning mot !edamot av statsrådet.
             </seg>
+          </u>
+          <note n="affdaf2c">
+            (Forts.)
+          </note>
+          <note type="date" n="e1c24921">
+            122 Onsdagen den 22 maj e. m.
+          </note>
+          <u who="nils_mansson_7fa152" xml:id="i-4d95292c2342a46b-4" prev="i-4d95292c2342a46b-0" n="4d95292c">
             <seg n="15725b49">
               I denna vecka har Norge omorganiserat sin officersrekrytering.
               Den har gjorts mera demokratisk än förut, så att man kan från
@@ -10702,29 +10862,13 @@
               politiskt kunniga delen av befolkningen i vårt land.
             </seg>
           </u>
-          <note n="384e6785">
-            Nr äN.
-          </note>
-          <note n="be8a29e7">
-            (Fort
-          </note>
-          <pb n="121" facs="https://betalab.kb.se/prot-1929--ak--38/prot_1929__ak__38-121.jp2/_view"/>
-          <note n="6077f173">
-            Nr 388,
-          </note>
-          <note n="affdaf2c">
-            (Forts.)
-          </note>
-          <note n="ffc079d8">
-            122 Onsdagen den 22 maj e. m.
-          </note>
           <note n="638f02bd">
             Herr förste vice talmannen övertog nu ånyo ledningen av förhandlingarna.
           </note>
           <note type="speaker" n="29b62005">
             Herr Hansson i Stockholm:
           </note>
-          <u who="per_albin_hansson_6f9acd" xml:id="i-283ea66a0cedf583-1" next="i-81b5c91ba66cdd0b-1" n="70599219">
+          <u who="per_albin_hansson_6f9acd" xml:id="i-70599219915b8baf-3" next="i-70599219915b8baf-4" n="70599219">
             <seg n="503303ed">
               Herr talman! Jag fruktar att vi äro på god väg att komma ett
               gott stycke ifrån det förevarande ämnet. Ansvaret därför är herr
@@ -10761,10 +10905,10 @@
             </seg>
           </u>
           <pb n="122" facs="https://betalab.kb.se/prot-1929--ak--38/prot_1929__ak__38-122.jp2/_view"/>
-          <note n="6180cf89">
+          <note type="date" n="fa6557b6">
             Onsdagen den 22 maj e. m. 123
           </note>
-          <u who="per_albin_hansson_6f9acd" xml:id="i-81b5c91ba66cdd0b-1" prev="i-283ea66a0cedf583-1" n="70599219">
+          <u who="per_albin_hansson_6f9acd" xml:id="i-70599219915b8baf-4" prev="i-70599219915b8baf-3" n="70599219">
             <seg n="ffc0a209">
               ska egendomlig uppfattning om hans egen förmåga att följa med
               och förstå sin egen tid.
@@ -10802,7 +10946,7 @@
           <note type="speaker" n="22ce74ed">
             Herr Holmström:
           </note>
-          <u who="nils_holmstrom_748680" xml:id="i-18e986f39869aa45-1" next="i-431ed9fd037e932a-1" n="a91a3bb0">
+          <u who="nils_holmstrom_748680" xml:id="i-a91a3bb0d90846ae-4" next="i-a91a3bb0d90846ae-6" n="a91a3bb0">
             <seg n="f793e1fe">
               Herr talman! Det kan icke vara lämpligt att vid denna sena timma
               gå in i någon längre debatt. Jag begärde ordet med anledning av
@@ -10847,10 +10991,31 @@
           <note n="86463bab">
             Nr 38.
           </note>
-          <u who="nils_holmstrom_748680" xml:id="i-431ed9fd037e932a-1" prev="i-18e986f39869aa45-1" n="a91a3bb0">
+          <u who="nils_holmstrom_748680" xml:id="i-a91a3bb0d90846ae-5" prev="i-a91a3bb0d90846ae-4" n="a91a3bb0">
             <seg n="718e7b50">
               Anmärkning mot ledamot ar statsrådet.
             </seg>
+          </u>
+          <note n="40842bd0">
+            (Forts.
+          </note>
+          <pb n="123" facs="https://betalab.kb.se/prot-1929--ak--38/prot_1929__ak__38-123.jp2/_view"/>
+          <note n="86463bab">
+            Nr 38.
+          </note>
+          <note n="b314d82e">
+            Anmärkning mot ledamot av statsrådet.
+          </note>
+          <note n="affdaf2c">
+            (Forts.)
+          </note>
+          <note n="b314d82e">
+            Anmärkning mot ledamot av statsrådet.
+          </note>
+          <note type="date" n="046baef7">
+            124 Onsdagen den 22 maj e. m.
+          </note>
+          <u who="nils_holmstrom_748680" xml:id="i-a91a3bb0d90846ae-6" prev="i-a91a3bb0d90846ae-4" n="a91a3bb0">
             <seg n="ac571ea0">
               skolungdomens vapenövningar icke var fullständig. Riksdagen skulle
               icke sagt sitt sista ord vid de tillfällen, som herr statsrådet
@@ -10880,29 +11045,10 @@
               i herr Hanssons yttrande.
             </seg>
           </u>
-          <note n="40842bd0">
-            (Forts.
-          </note>
-          <pb n="123" facs="https://betalab.kb.se/prot-1929--ak--38/prot_1929__ak__38-123.jp2/_view"/>
-          <note n="86463bab">
-            Nr 38.
-          </note>
-          <note n="b314d82e">
-            Anmärkning mot ledamot av statsrådet.
-          </note>
-          <note n="affdaf2c">
-            (Forts.)
-          </note>
-          <note n="b314d82e">
-            Anmärkning mot ledamot av statsrådet.
-          </note>
-          <note n="4b5689a7">
-            124 Onsdagen den 22 maj e. m.
-          </note>
           <note type="speaker" n="29b62005">
             Herr Hansson i Stockholm:
           </note>
-          <u who="per_albin_hansson_6f9acd" xml:id="i-283ea66a0cedf583-2" next="i-81b5c91ba66cdd0b-2" n="70599219">
+          <u who="per_albin_hansson_6f9acd" xml:id="i-70599219915b8baf-5" next="i-70599219915b8baf-6" n="70599219">
             <seg n="9e392c9c">
               Herr talman! Jag vill endast fästa herr Holmströms uppmärksamhet
               därpå, att de ungdomsövningar, som herr statsrådet har erinrat
@@ -10928,7 +11074,7 @@
           <note n="d7800a51">
             Ja; Nej;
           </note>
-          <u who="per_albin_hansson_6f9acd" xml:id="i-81b5c91ba66cdd0b-2" prev="i-283ea66a0cedf583-2" n="70599219">
+          <u who="per_albin_hansson_6f9acd" xml:id="i-70599219915b8baf-6" prev="i-70599219915b8baf-5" n="70599219">
             <seg n="b2eb47fb">
               Vinner Nej, har kammaren lagt berörda anmälan med gillande till
               handlingarna.
@@ -10950,7 +11096,7 @@
           <note type="speaker" n="cdbfb76c">
             Ordet lämnades härefter på begäran till herr Flyg, som yttrade:
           </note>
-          <u who="nils_flyg_3e811d" xml:id="i-6290d9556a4ba376-0" n="a363188c">
+          <u who="nils_flyg_3e811d" xml:id="i-a363188c14a703b0-0" n="a363188c">
             <seg n="fb14c544">
               Herr talman! Det är anledning till anmärkning mot statsrådet
               och chefen för finansdepartementet, varom remiss begäres till
@@ -10958,7 +11104,7 @@
             </seg>
           </u>
           <pb n="124" facs="https://betalab.kb.se/prot-1929--ak--38/prot_1929__ak__38-124.jp2/_view"/>
-          <note n="402fcc64">
+          <note type="date" n="9d2caf97">
             Onsdagen den 22 maj e. m. 125
           </note>
           <note n="9851dcbd">
@@ -11056,7 +11202,7 @@
           <note n="462b7602">
             Nr 38,
           </note>
-          <note n="9f125540">
+          <note type="date" n="fe75a5a5">
             126 Onsdagen den 22 maj e. m.
           </note>
           <note n="9cc6b57c">

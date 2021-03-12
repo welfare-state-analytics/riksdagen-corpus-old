@@ -20,7 +20,7 @@
     <encodingDesc>
       <editorialDecl>
         <correction>
-          <p>Some data curation was done. It is documented in db/curation/instances</p>
+          <p>Some data curation was done. It is documented in input/curation/instances</p>
         </correction>
       </editorialDecl>
     </encodingDesc>
@@ -52,12 +52,14 @@
       <front>
         <div type="preface">
           <head>prot-197677--25</head>
+          <docDate when="1976-11-11">1976-11-11</docDate>
           <docDate when="1976-11-12">1976-11-12</docDate>
           <docDate when="1976-11-16">1976-11-16</docDate>
         </div>
       </front>
       <body>
         <div>
+          <pb n="0" facs="https://betalab.kb.se/prot-197677--25/prot_197677__25-000.jp2/_view"/>
           <note n="870bb078"/>
           <note n="870bb078"/>
           <note n="29fa9a96">
@@ -67,7 +69,7 @@
             1976/77:25-27 11-16 november1976
           </note>
           <note n="870bb078"/>
-          <note n="95029c93">
+          <note type="date" n="99b3bae4">
             Debatter m. m. Torsdagen den 11 november
           </note>
           <note n="e32f9e48">
@@ -387,7 +389,7 @@
           <note n="0e8f9a2b">
             1976/77:25
           </note>
-          <note n="b940ae5a">
+          <note type="date" n="c385335c">
             Torsdagen den 11 november KI. 14.00
           </note>
           <note n="3a4485e0">
@@ -449,7 +451,7 @@
           <note n="12d546b8">
             Nr 25
           </note>
-          <note n="151add49">
+          <note type="date" n="aa8d4d9e">
             Torsdagen den 11 november 1976
           </note>
           <note n="5d041d91">
@@ -462,7 +464,7 @@
           <note n="12d546b8">
             Nr 25
           </note>
-          <note n="151add49">
+          <note type="date" n="aa8d4d9e">
             Torsdagen den 11 november 1976
           </note>
           <note n="ea13831b">
@@ -525,7 +527,7 @@
           <note type="speaker" n="99acc911">
             Herr arbetsmarknadsministern AHLMARK:
           </note>
-          <u who="per_ahlmark_bc6eb4" xml:id="i-3d188c736665dac1-0" n="a60322a3">
+          <u who="per_ahlmark_bc6eb4" xml:id="i-a60322a39de818c9-0" next="i-a60322a39de818c9-1" n="a60322a3">
             <seg n="06e4601e">
               Herr talman! Sanktionsbestämmelserna kommer upp när vi diskuterar
               och tar ställning till en ny arbetsmiljölag.
@@ -538,7 +540,9 @@
               i gamla installationer. Det har visat sig att skyddsföreskrifterna
               inte alltid har följts
             </seg>
-            <seg n="ef890aca"/>
+          </u>
+          <pb n="6" facs="https://betalab.kb.se/prot-197677--25/prot_197677__25-006.jp2/_view"/>
+          <u who="per_ahlmark_bc6eb4" xml:id="i-a60322a39de818c9-1" prev="i-a60322a39de818c9-0" n="a60322a3">
             <seg n="ef890aca"/>
             <seg n="764fbc9e">
               vid sådana arbeten. Det är givetvis helt otillfredsställande.
@@ -576,7 +580,7 @@
           <note type="speaker" n="ef0e33c9">
             Herr HAGBERG i Borlänge (vpk):
           </note>
-          <u who="lars-ove_hagberg_ecae2c" xml:id="i-d2d3a490f022af2e-0" next="i-620654e3df16c2d7-0" n="18bc40bb">
+          <u who="lars-ove_hagberg_ecae2c" xml:id="i-18bc40bb41a55ab4-0" next="i-a60322a39de818c9-4" n="18bc40bb">
             <seg n="138be6e4">
               Herr talman! En av anledningarna till den nonchalans som kunnat
               förekomma är den debatt som förts bland s.k. experter, som säger
@@ -610,18 +614,28 @@
               och vilka
             </seg>
           </u>
-          <pb n="6" facs="https://betalab.kb.se/prot-197677--25/prot_197677__25-006.jp2/_view"/>
           <note n="12d546b8">
             Nr 25
           </note>
-          <note n="151add49">
+          <note type="date" n="aa8d4d9e">
             Torsdagen den 11 november 1976
           </note>
           <note n="5d041d91">
             Om förslag till lag om förbud mot asbest
           </note>
-          <u who="lars-ove_hagberg_ecae2c" xml:id="i-620654e3df16c2d7-0" prev="i-d2d3a490f022af2e-0" n="18bc40bb">
-            <seg n="ef890aca"/>
+          <u who="lars-ove_hagberg_ecae2c" xml:id="i-a60322a39de818c9-2" prev="i-18bc40bb41a55ab4-0" n="18bc40bb"/>
+          <pb n="7" facs="https://betalab.kb.se/prot-197677--25/prot_197677__25-007.jp2/_view"/>
+          <u who="lars-ove_hagberg_ecae2c" xml:id="i-a60322a39de818c9-3" prev="i-18bc40bb41a55ab4-0" n="18bc40bb"/>
+          <note n="12d546b8">
+            Nr 25
+          </note>
+          <note type="date" n="aa8d4d9e">
+            Torsdagen den 11 november 1976
+          </note>
+          <note n="ea13831b">
+            Om förslag till lag
+          </note>
+          <u who="lars-ove_hagberg_ecae2c" xml:id="i-a60322a39de818c9-4" prev="i-18bc40bb41a55ab4-0" n="18bc40bb">
             <seg n="0d7c2033">
               om förbud mot asbest
             </seg>
@@ -633,20 +647,10 @@
               hittills har tillämpats.
             </seg>
           </u>
-          <pb n="7" facs="https://betalab.kb.se/prot-197677--25/prot_197677__25-007.jp2/_view"/>
-          <note n="12d546b8">
-            Nr 25
-          </note>
-          <note n="151add49">
-            Torsdagen den 11 november 1976
-          </note>
-          <note n="ea13831b">
-            Om förslag till lag
-          </note>
           <note type="speaker" n="99acc911">
             Herr arbetsmarknadsministern AHLMARK:
           </note>
-          <u who="per_ahlmark_bc6eb4" xml:id="i-4951762347a75349-0" n="a60322a3">
+          <u who="per_ahlmark_bc6eb4" xml:id="i-a60322a39de818c9-5" n="a60322a3">
             <seg n="a9d77cbc">
               Herr talman! Jag har redan offentligt vid flera tillfällen skarpt
               kritiserat dem som nonchalerat asbestens faror. På den punkten
@@ -671,7 +675,7 @@
           <note type="speaker" n="ef0e33c9">
             Herr HAGBERG i Borlänge (vpk):
           </note>
-          <u who="lars-ove_hagberg_ecae2c" xml:id="i-d2d3a490f022af2e-1" n="18bc40bb">
+          <u who="lars-ove_hagberg_ecae2c" xml:id="i-18bc40bb41a55ab4-1" next="i-a60322a39de818c9-6" n="18bc40bb">
             <seg n="5cc9bdba">
               Herr talman! Asbesten är farlig för människan, och därför bör
               den stoppas så snart som möjligt. Jag anser naturligtvis att ett
@@ -703,13 +707,13 @@
               efter det att ett brott mot anvisningarna har upptäckts.
             </seg>
             <seg n="ef890aca"/>
-            <seg n="ef890aca"/>
           </u>
           <pb n="8" facs="https://betalab.kb.se/prot-197677--25/prot_197677__25-008.jp2/_view"/>
+          <u who="lars-ove_hagberg_ecae2c" xml:id="i-a60322a39de818c9-6" prev="i-18bc40bb41a55ab4-1" n="18bc40bb"/>
           <note type="speaker" n="99acc911">
             Herr arbetsmarknadsministern AHLMARK:
           </note>
-          <u who="per_ahlmark_bc6eb4" xml:id="i-3d188c736665dac1-1" n="a60322a3">
+          <u who="per_ahlmark_bc6eb4" xml:id="i-a60322a39de818c9-7" n="a60322a3">
             <seg n="4091d4b2">
               Herr talman! Det var bra att herr Hagberg i Borlänge sade att
               ett totalförbud inte löser problemen, utan att vi kan gå framåt
@@ -742,7 +746,7 @@
           <note type="speaker" n="ef0e33c9">
             Herr HAGBERG i Borlänge (vpk):
           </note>
-          <u who="lars-ove_hagberg_ecae2c" xml:id="i-d2d3a490f022af2e-2" next="i-620654e3df16c2d7-1" n="18bc40bb">
+          <u who="lars-ove_hagberg_ecae2c" xml:id="i-18bc40bb41a55ab4-2" next="i-a60322a39de818c9-15" n="18bc40bb">
             <seg n="47977fdc">
               Herr talman! Jag sade inte att jag accepterar det tillvägagångssätt
               som nu tillämpas utan jag sade, att det inte är något principiellt
@@ -759,10 +763,17 @@
           <note n="a3135f6d">
             Överläggningen var härmed slutad.
           </note>
-          <u who="lars-ove_hagberg_ecae2c" xml:id="i-620654e3df16c2d7-1" prev="i-d2d3a490f022af2e-2" n="18bc40bb">
+          <u who="lars-ove_hagberg_ecae2c" xml:id="i-a60322a39de818c9-8" prev="i-18bc40bb41a55ab4-2" n="18bc40bb">
             <seg n="ac005ba4">
               $ 3 Om åtgärder för att förbättra sysselsättningsläget i Blekinge
             </seg>
+          </u>
+          <note n="0ea262e2">
+            Herr arbetsmarknadsministern AHLMARK erhöll ordet för att besvara
+            herr Bengtssons i Sölvesborg (m) den 8 november anmälda fråga,
+            1976/77:54, och anförde:
+          </note>
+          <u who="lars-ove_hagberg_ecae2c" xml:id="i-a60322a39de818c9-9" prev="i-18bc40bb41a55ab4-2" n="18bc40bb">
             <seg n="0f552894">
               Herr talman! Herr Bengtsson i Sölvesborg har frågat mig vilka
               åtgärder jag avser vidta för att förbättra sysselsättningsläget
@@ -777,11 +788,28 @@
               För att stödja sysselsättningen intill dess att konjunkturuppgången
               blir
             </seg>
+          </u>
+          <note n="12d546b8">
+            Nr 25
+          </note>
+          <note type="date" n="aa8d4d9e">
+            Torsdagen den 11 november 1976
+          </note>
+          <u who="lars-ove_hagberg_ecae2c" xml:id="i-a60322a39de818c9-10" prev="i-18bc40bb41a55ab4-2" n="18bc40bb">
             <seg n="058629cb">
               Om åtgärder för att förbättra sysselsättningsläget i Blekinge
             </seg>
             <seg n="ef890aca"/>
-            <seg n="ef890aca"/>
+          </u>
+          <pb n="9" facs="https://betalab.kb.se/prot-197677--25/prot_197677__25-009.jp2/_view"/>
+          <u who="lars-ove_hagberg_ecae2c" xml:id="i-a60322a39de818c9-11" prev="i-18bc40bb41a55ab4-2" n="18bc40bb"/>
+          <note n="12d546b8">
+            Nr 25
+          </note>
+          <note type="date" n="aa8d4d9e">
+            Torsdagen den 11 november 1976
+          </note>
+          <u who="lars-ove_hagberg_ecae2c" xml:id="i-a60322a39de818c9-12" prev="i-18bc40bb41a55ab4-2" n="18bc40bb">
             <seg n="058629cb">
               Om åtgärder för att förbättra sysselsättningsläget i Blekinge
             </seg>
@@ -798,6 +826,14 @@
               industrinedläggning eller när ett område med ensidigt näringsliv
               behöver tillföras ytterligare industrier.
             </seg>
+          </u>
+          <note n="3fe78e39">
+            Arbetslösheten i Blekinge län ligger fortfarande på en förhållandevis
+            låg nivå. Antalet hos arbetsförmedlingarna anmälda arbetslösa
+            kassamedlemmar uppgick i oktober 1976 till 650 personer mot 826
+            i oktober 1975.
+          </note>
+          <u who="lars-ove_hagberg_ecae2c" xml:id="i-a60322a39de818c9-13" prev="i-18bc40bb41a55ab4-2" n="18bc40bb">
             <seg n="fc2966cc">
               I länet har antalet kvarstående lediga platser ökat — men bara
               litet —- vid motsvarande jämförelse. Inom industrin har antalet
@@ -814,6 +850,11 @@
               de äldres och handikappades ställning på arbetsmarknaden. Om arbetsmarknadsläget
               skulle försämras kommer ytterligare insatser att kunna göras.
             </seg>
+          </u>
+          <note n="7ff6ba1a">
+            Herr WACHTMEISTER i Johannishus (m):
+          </note>
+          <u who="lars-ove_hagberg_ecae2c" xml:id="i-a60322a39de818c9-14" prev="i-18bc40bb41a55ab4-2" n="18bc40bb">
             <seg n="20bb4292">
               Herr talman! Eftersom jag i dag har återinträtt i tjänst har
               herr Bengtsson i Sölvesborg inga möjligheter att själv ta emot
@@ -842,7 +883,9 @@
               svårigheter för andra företag. Och inte blir det för Blekinges
               del bättre av att så
             </seg>
-            <seg n="ef890aca"/>
+          </u>
+          <pb n="10" facs="https://betalab.kb.se/prot-197677--25/prot_197677__25-010.jp2/_view"/>
+          <u who="lars-ove_hagberg_ecae2c" xml:id="i-a60322a39de818c9-15" prev="i-18bc40bb41a55ab4-2" n="18bc40bb">
             <seg n="ef890aca"/>
             <seg n="46f3deb3">
               många företag i vårt län är filialarbetsplatser, som alltså har
@@ -864,38 +907,10 @@
               återstår för mig än att ännu en gång tacka för svaret.
             </seg>
           </u>
-          <note n="0ea262e2">
-            Herr arbetsmarknadsministern AHLMARK erhöll ordet för att besvara
-            herr Bengtssons i Sölvesborg (m) den 8 november anmälda fråga,
-            1976/77:54, och anförde:
-          </note>
-          <note n="12d546b8">
-            Nr 25
-          </note>
-          <note n="151add49">
-            Torsdagen den 11 november 1976
-          </note>
-          <pb n="9" facs="https://betalab.kb.se/prot-197677--25/prot_197677__25-009.jp2/_view"/>
-          <note n="12d546b8">
-            Nr 25
-          </note>
-          <note n="151add49">
-            Torsdagen den 11 november 1976
-          </note>
-          <note n="3fe78e39">
-            Arbetslösheten i Blekinge län ligger fortfarande på en förhållandevis
-            låg nivå. Antalet hos arbetsförmedlingarna anmälda arbetslösa
-            kassamedlemmar uppgick i oktober 1976 till 650 personer mot 826
-            i oktober 1975.
-          </note>
-          <note n="7ff6ba1a">
-            Herr WACHTMEISTER i Johannishus (m):
-          </note>
-          <pb n="10" facs="https://betalab.kb.se/prot-197677--25/prot_197677__25-010.jp2/_view"/>
           <note type="speaker" n="99acc911">
             Herr arbetsmarknadsministern AHLMARK:
           </note>
-          <u who="per_ahlmark_bc6eb4" xml:id="i-3d188c736665dac1-2" next="i-4a70aae05da910e6-0" n="a60322a3">
+          <u who="per_ahlmark_bc6eb4" xml:id="i-a60322a39de818c9-16" next="i-a60322a39de818c9-21" n="a60322a3">
             <seg n="2d5c8c1e">
               Herr talman! Herr Wachtmeister har alldeles rätt i att det framför
               allt är kvinnorna och ungdomarna i Blekinge län som har problem.
@@ -941,22 +956,38 @@
           <note n="12d546b8">
             Nr 25
           </note>
-          <note n="151add49">
+          <note type="date" n="aa8d4d9e">
             Torsdagen den 11 november 1976
           </note>
-          <u who="per_ahlmark_bc6eb4" xml:id="i-4a70aae05da910e6-0" prev="i-3d188c736665dac1-2" n="a60322a3">
+          <u who="per_ahlmark_bc6eb4" xml:id="i-a60322a39de818c9-17" prev="i-a60322a39de818c9-16" n="a60322a3">
             <seg n="058629cb">
               Om åtgärder för att förbättra sysselsättningsläget i Blekinge
             </seg>
             <seg n="ef890aca"/>
+          </u>
+          <pb n="11" facs="https://betalab.kb.se/prot-197677--25/prot_197677__25-011.jp2/_view"/>
+          <u who="per_ahlmark_bc6eb4" xml:id="i-a60322a39de818c9-18" prev="i-a60322a39de818c9-16" n="a60322a3">
             <seg n="ef890aca"/>
-            <seg n="ef890aca"/>
+          </u>
+          <note n="bd0f0911">
+            Nr 25 Torsdagen den
+          </note>
+          <note n="bbd26bc0">
+            11 november 1976
+          </note>
+          <u who="per_ahlmark_bc6eb4" xml:id="i-a60322a39de818c9-19" prev="i-a60322a39de818c9-16" n="a60322a3">
             <seg n="e8cd7de3">
               Om utrikesministerns tal i FN
             </seg>
             <seg n="13aa9058">
               $ 4 Om utrikesministerns tal i FN
             </seg>
+          </u>
+          <note n="40ec82b0">
+            Fru utrikesministern SÖDER erhöll ordet för att besvara herr
+            Siegbahns (m) den 8 november anmälda fråga, 1976/77:58, och anförde:
+          </note>
+          <u who="per_ahlmark_bc6eb4" xml:id="i-a60322a39de818c9-20" prev="i-a60322a39de818c9-16" n="a60322a3">
             <seg n="a37c5f5a">
               Herr talman! Herr Siegbahn har till mig ställt följande fråga:
             </seg>
@@ -973,6 +1004,12 @@
               2. Har detta i så fall, med eller utan tillstånd, lämnats ut
               till allmänheten av någon tjänsteman i departementet?
             </seg>
+          </u>
+          <note n="305ad6bd">
+            3. Vilka kommentarer önskar fru utrikesministern göra med anledning
+            av det inträffade?
+          </note>
+          <u who="per_ahlmark_bc6eb4" xml:id="i-a60322a39de818c9-21" prev="i-a60322a39de818c9-16" n="a60322a3">
             <seg n="0bc6c3cc">
               Som svar får jag meddela följande:
             </seg>
@@ -991,25 +1028,10 @@
               från min sida.
             </seg>
           </u>
-          <pb n="11" facs="https://betalab.kb.se/prot-197677--25/prot_197677__25-011.jp2/_view"/>
-          <note n="bd0f0911">
-            Nr 25 Torsdagen den
-          </note>
-          <note n="bbd26bc0">
-            11 november 1976
-          </note>
-          <note n="40ec82b0">
-            Fru utrikesministern SÖDER erhöll ordet för att besvara herr
-            Siegbahns (m) den 8 november anmälda fråga, 1976/77:58, och anförde:
-          </note>
-          <note n="305ad6bd">
-            3. Vilka kommentarer önskar fru utrikesministern göra med anledning
-            av det inträffade?
-          </note>
           <note type="speaker" n="a01910de">
             Herr SIEGBAHN (m):
           </note>
-          <u who="bo_siegbahn_f1f2f8" xml:id="i-2f06313e9c4584e1-0" n="ae20d9ba">
+          <u who="bo_siegbahn_f1f2f8" xml:id="i-ae20d9ba0e19f752-0" next="i-ae20d9ba0e19f752-1" n="ae20d9ba">
             <seg n="5cb9a3ca">
               Herr talman! Jag ber att få tacka fru utrikesministern Söder
               för svaret på min fråga.
@@ -1044,7 +1066,9 @@
               samman med nya inslag i utnämningspolitiken, som t. o. m. kommit
               till uttryck i den
             </seg>
-            <seg n="ef890aca"/>
+          </u>
+          <pb n="12" facs="https://betalab.kb.se/prot-197677--25/prot_197677__25-012.jp2/_view"/>
+          <u who="bo_siegbahn_f1f2f8" xml:id="i-ae20d9ba0e19f752-1" prev="i-ae20d9ba0e19f752-0" n="ae20d9ba">
             <seg n="ef890aca"/>
             <seg n="18d7f405">
               nya grundlagen. Även den tidigare regeringen hade vissa bekymmer
@@ -1086,11 +1110,10 @@
               mer principiella kommentarer i denna verkligt viktiga fråga.
             </seg>
           </u>
-          <pb n="12" facs="https://betalab.kb.se/prot-197677--25/prot_197677__25-012.jp2/_view"/>
           <note type="speaker" n="3bf27df2">
             Fru utrikesministern SÖDER:
           </note>
-          <u who="karin_soder_b4a0aa" xml:id="i-f91f18f9a1a1da54-0" next="i-889f06908f71051b-0" n="05a911f7">
+          <u who="karin_soder_b4a0aa" xml:id="i-05a911f7b7cf0147-0" next="i-05a911f7b7cf0147-3" n="05a911f7">
             <seg n="ea0ab348">
               Herr talman! Jag finner inte skäl att här kommentera olika enskildheter
               i de anklagelser som herr Siegbahn riktar mot tjänstemän i den
@@ -1115,16 +1138,26 @@
           <note n="12d546b8">
             Nr 25
           </note>
-          <note n="151add49">
+          <note type="date" n="aa8d4d9e">
             Torsdagen den 11 november 1976
           </note>
-          <u who="karin_soder_b4a0aa" xml:id="i-889f06908f71051b-0" prev="i-f91f18f9a1a1da54-0" n="05a911f7">
+          <u who="karin_soder_b4a0aa" xml:id="i-05a911f7b7cf0147-1" prev="i-05a911f7b7cf0147-0" n="05a911f7">
             <seg n="e8cd7de3">
               Om utrikesministerns tal i FN
             </seg>
             <seg n="ef890aca"/>
+          </u>
+          <pb n="13" facs="https://betalab.kb.se/prot-197677--25/prot_197677__25-013.jp2/_view"/>
+          <u who="karin_soder_b4a0aa" xml:id="i-05a911f7b7cf0147-2" prev="i-05a911f7b7cf0147-0" n="05a911f7">
             <seg n="ef890aca"/>
-            <seg n="ef890aca"/>
+          </u>
+          <note n="bd0f0911">
+            Nr 25 Torsdagen den
+          </note>
+          <note n="bbd26bc0">
+            11 november 1976
+          </note>
+          <u who="karin_soder_b4a0aa" xml:id="i-05a911f7b7cf0147-3" prev="i-05a911f7b7cf0147-0" n="05a911f7">
             <seg n="e8cd7de3">
               Om utrikesministerns tal i FN
             </seg>
@@ -1145,17 +1178,10 @@
               faktiskt har hållits.
             </seg>
           </u>
-          <pb n="13" facs="https://betalab.kb.se/prot-197677--25/prot_197677__25-013.jp2/_view"/>
-          <note n="bd0f0911">
-            Nr 25 Torsdagen den
-          </note>
-          <note n="bbd26bc0">
-            11 november 1976
-          </note>
           <note type="speaker" n="a01910de">
             Herr SIEGBAHN (m):
           </note>
-          <u who="bo_siegbahn_f1f2f8" xml:id="i-2f06313e9c4584e1-1" n="ae20d9ba">
+          <u who="bo_siegbahn_f1f2f8" xml:id="i-ae20d9ba0e19f752-2" n="ae20d9ba">
             <seg n="c9b60e14">
               Herr talman! Det är riktigt och klokt av fru Söder att göra det
               tillrättaläggandet att man inte skall kommentera tal som inte
@@ -1188,7 +1214,7 @@
           <note type="speaker" n="3bf27df2">
             Fru utrikesministern SÖDER:
           </note>
-          <u who="karin_soder_b4a0aa" xml:id="i-9f1c785b4f8c40fd-0" n="05a911f7">
+          <u who="karin_soder_b4a0aa" xml:id="i-05a911f7b7cf0147-4" next="i-05a911f7b7cf0147-5" n="05a911f7">
             <seg n="bd0b5943">
               Herr talman! Det är viktigt att i dessa sammanhang skilja på
               vad som sker under ämbetsmannaansvar och vad som är rent politiska
@@ -1207,18 +1233,19 @@
               vårt handlande. Regeringens politik har klart
             </seg>
             <seg n="ef890aca"/>
-            <seg n="ef890aca"/>
+          </u>
+          <pb n="14" facs="https://betalab.kb.se/prot-197677--25/prot_197677__25-014.jp2/_view"/>
+          <u who="karin_soder_b4a0aa" xml:id="i-05a911f7b7cf0147-5" prev="i-05a911f7b7cf0147-4" n="05a911f7">
             <seg n="ef890aca"/>
             <seg n="51a59383">
               framlagts. Det har varit nyanser som har diskuterats, och det
               anser jag att vi får tåla.
             </seg>
           </u>
-          <pb n="14" facs="https://betalab.kb.se/prot-197677--25/prot_197677__25-014.jp2/_view"/>
           <note type="speaker" n="a01910de">
             Herr SIEGBAHN (m):
           </note>
-          <u who="bo_siegbahn_f1f2f8" xml:id="i-fba57a1d16264aa5-0" next="i-661b3852c7854531-0" n="ae20d9ba">
+          <u who="bo_siegbahn_f1f2f8" xml:id="i-ae20d9ba0e19f752-3" next="i-ae20d9ba0e19f752-5" n="ae20d9ba">
             <seg n="f5911afc">
               Herr talman! Det är naturligtvis alldeles riktigt att man inte
               skall diskutera tal som inte har hållits. Men det har ju kommit
@@ -1240,11 +1267,18 @@
           <note n="a3135f6d">
             Överläggningen var härmed slutad.
           </note>
-          <u who="bo_siegbahn_f1f2f8" xml:id="i-661b3852c7854531-0" prev="i-fba57a1d16264aa5-0" n="ae20d9ba">
+          <u who="bo_siegbahn_f1f2f8" xml:id="i-ae20d9ba0e19f752-4" prev="i-ae20d9ba0e19f752-3" n="ae20d9ba">
             <seg n="c283d60e">
               $ 5 Om insatser från försvaret för att stimulera sysselsättningen
               i Nyköping
             </seg>
+          </u>
+          <note n="7ed85823">
+            Herr försvarsministern KRÖNMARK erhöll ordet för att besvara
+            fru Ludvigssons (s) den 28 oktober anmälda fråga, 1976/77:43,
+            och anförde:
+          </note>
+          <u who="bo_siegbahn_f1f2f8" xml:id="i-ae20d9ba0e19f752-5" prev="i-ae20d9ba0e19f752-3" n="ae20d9ba">
             <seg n="b6941b74">
               Herr talman! Fru Ludvigsson har frågat mig om jag ställer mig
               bakom försvarets rationaliseringsinstituts avstyrkan av en utlokalisering
@@ -1270,15 +1304,10 @@
               i Nyköping.
             </seg>
           </u>
-          <note n="7ed85823">
-            Herr försvarsministern KRÖNMARK erhöll ordet för att besvara
-            fru Ludvigssons (s) den 28 oktober anmälda fråga, 1976/77:43,
-            och anförde:
-          </note>
           <note type="speaker" n="f0a87976">
             Fru LUDVIGSSON (s):
           </note>
-          <u who="ingrid_ludvigsson_227cd1" xml:id="i-f8010dfc3515d81f-0" next="i-056c2b006c688283-0" n="d58e506e">
+          <u who="ingrid_ludvigsson_227cd1" xml:id="i-d58e506e6a806435-0" next="i-d58e506e6a806435-3" n="d58e506e">
             <seg n="f21c2efe">
               Herr talman! Jag ber att få tacka försvarsministern för svaret
               på min fråga, och jag vill gärna tolka det som en utfästelse från
@@ -1288,17 +1317,27 @@
           <note n="12d546b8">
             Nr 25
           </note>
-          <note n="151add49">
+          <note type="date" n="aa8d4d9e">
             Torsdagen den 11 november 1976
           </note>
-          <u who="ingrid_ludvigsson_227cd1" xml:id="i-056c2b006c688283-0" prev="i-f8010dfc3515d81f-0" n="d58e506e">
+          <u who="ingrid_ludvigsson_227cd1" xml:id="i-d58e506e6a806435-1" prev="i-d58e506e6a806435-0" n="d58e506e">
             <seg n="3f935fe2">
               Om insatser från försvaret för att stimulera sysselsättningen
               i Nyköping
             </seg>
             <seg n="ef890aca"/>
+          </u>
+          <pb n="15" facs="https://betalab.kb.se/prot-197677--25/prot_197677__25-015.jp2/_view"/>
+          <u who="ingrid_ludvigsson_227cd1" xml:id="i-d58e506e6a806435-2" prev="i-d58e506e6a806435-0" n="d58e506e">
             <seg n="ef890aca"/>
-            <seg n="ef890aca"/>
+          </u>
+          <note n="bd0f0911">
+            Nr 25 Torsdagen den
+          </note>
+          <note n="bbd26bc0">
+            11 november 1976
+          </note>
+          <u who="ingrid_ludvigsson_227cd1" xml:id="i-d58e506e6a806435-3" prev="i-d58e506e6a806435-0" n="d58e506e">
             <seg n="3f935fe2">
               Om insatser från försvaret för att stimulera sysselsättningen
               i Nyköping
@@ -1358,17 +1397,10 @@
               svar positivt.
             </seg>
           </u>
-          <pb n="15" facs="https://betalab.kb.se/prot-197677--25/prot_197677__25-015.jp2/_view"/>
-          <note n="bd0f0911">
-            Nr 25 Torsdagen den
-          </note>
-          <note n="bbd26bc0">
-            11 november 1976
-          </note>
           <note type="speaker" n="22da0189">
             Herr försvarsministern KRÖNMARK:
           </note>
-          <u who="eric_kronmark_be14ec" xml:id="i-339578d53491aac0-0" n="fdf2841f">
+          <u who="eric_kronmark_be14ec" xml:id="i-fdf2841f3d3515a0-0" next="i-fdf2841f3d3515a0-1" n="fdf2841f">
             <seg n="dedda37d">
               Herr talman! Jag förstår mycket väl den oro som fru Ludvigsson
               såsom representant för Nyköpingsregionen känner för den nedgång
@@ -1378,7 +1410,9 @@
               den mån det går att inom försvars-
             </seg>
             <seg n="ef890aca"/>
-            <seg n="ef890aca"/>
+          </u>
+          <pb n="16" facs="https://betalab.kb.se/prot-197677--25/prot_197677__25-016.jp2/_view"/>
+          <u who="eric_kronmark_be14ec" xml:id="i-fdf2841f3d3515a0-1" prev="i-fdf2841f3d3515a0-0" n="fdf2841f">
             <seg n="13aa14f1">
               departementets ram erbjuda alternativa sysselsättningar, sådana
               möjligheter noga prövas.
@@ -1404,11 +1438,10 @@
               inom andra samhällsområden.
             </seg>
           </u>
-          <pb n="16" facs="https://betalab.kb.se/prot-197677--25/prot_197677__25-016.jp2/_view"/>
           <note type="speaker" n="f0a87976">
             Fru LUDVIGSSON (s):
           </note>
-          <u who="ingrid_ludvigsson_227cd1" xml:id="i-f8010dfc3515d81f-1" next="i-056c2b006c688283-1" n="d58e506e">
+          <u who="ingrid_ludvigsson_227cd1" xml:id="i-d58e506e6a806435-4" next="i-d58e506e6a806435-17" n="d58e506e">
             <seg n="e5b4ae0a">
               Herr talman! Vi är överens om att det ytterst är staten som har
               arbetsgivaransvaret i detta sammanhang. Att jag har ställt denna
@@ -1422,10 +1455,17 @@
           <note n="a3135f6d">
             Överläggningen var härmed slutad.
           </note>
-          <u who="ingrid_ludvigsson_227cd1" xml:id="i-056c2b006c688283-1" prev="i-f8010dfc3515d81f-1" n="d58e506e">
+          <u who="ingrid_ludvigsson_227cd1" xml:id="i-d58e506e6a806435-5" prev="i-d58e506e6a806435-4" n="d58e506e">
             <seg n="23f0d88d">
               $ 6 Om tvånget inom socialvårdslagstiftningen
             </seg>
+          </u>
+          <note n="d1ac7ce0">
+            Herr socialministern GUSTAVSSON erhöll ordet för att besvara
+            herr Nilssons i Norrköping (s) den 27 oktober anmälda fråga, 1976/77:39,
+            och anförde:
+          </note>
+          <u who="ingrid_ludvigsson_227cd1" xml:id="i-d58e506e6a806435-6" prev="i-d58e506e6a806435-4" n="d58e506e">
             <seg n="4b0389ca">
               Herr talman! Herr Nilsson i Norrköping har - mot bakgrund av
               det uppdrag som fullgörs av socialutredningen — frågat mig om
@@ -1445,12 +1485,36 @@
               begränsning i samhällets möjligheter att vidta åtgärd mot den
               enskildes vilja. Tiden för omhändertagande skulle normalt
             </seg>
+          </u>
+          <note n="6d63621a">
+            2 Riksdagens protokoll 1976/77:25-27
+          </note>
+          <note n="12d546b8">
+            Nr 25
+          </note>
+          <note type="date" n="aa8d4d9e">
+            Torsdagen den 11 november 1976
+          </note>
+          <u who="ingrid_ludvigsson_227cd1" xml:id="i-d58e506e6a806435-7" prev="i-d58e506e6a806435-4" n="d58e506e">
             <seg n="5d84f5b9">
               Om tvånget inom socialvårdslagstiftningen
             </seg>
             <seg n="ef890aca"/>
+          </u>
+          <pb n="17" facs="https://betalab.kb.se/prot-197677--25/prot_197677__25-017.jp2/_view"/>
+          <u who="ingrid_ludvigsson_227cd1" xml:id="i-d58e506e6a806435-8" prev="i-d58e506e6a806435-4" n="d58e506e">
             <seg n="ef890aca"/>
-            <seg n="ef890aca"/>
+          </u>
+          <note n="12d546b8">
+            Nr 25
+          </note>
+          <note type="date" n="aa8d4d9e">
+            Torsdagen den 11 november 1976
+          </note>
+          <note n="91da30f8">
+            Om tvånget inom
+          </note>
+          <u who="ingrid_ludvigsson_227cd1" xml:id="i-d58e506e6a806435-9" prev="i-d58e506e6a806435-4" n="d58e506e">
             <seg n="251bd231">
               socialvårdslagstiftningen
             </seg>
@@ -1458,6 +1522,20 @@
               kunna omfatta högst tre månader och skyddet för annan person
               avvisades som grund för ingripande.
             </seg>
+          </u>
+          <note n="34838267">
+            Socialutredningens principbetänkande gjordes till föremål för
+            en omfattande remiss. Genom en skrivelse i februari 1975 överlämnade
+            den dåvarande regeringen remissyttrandena till utredningen för
+            beaktande i utredningens återstående arbete. I skrivelsen uttalades
+            bl. a. följande: ”Vid utformningen av förslaget till ny socialvårdslag
+            m. m. bör åtgärder utan den enskildes samtycke vad gäller barn
+            och ungdom regleras i särskild lag med utgångspunkt i det av utredningen
+            föreslagna förfarandet, innefattande socialnämndens medverkan.
+            Beträffande övriga åtgärder utan den enskildes samtycke bör utredningen
+            undersöka möjligheterna till enhetliga bestämmelser utanför socialvårdslagstiftningen.”
+          </note>
+          <u who="ingrid_ludvigsson_227cd1" xml:id="i-d58e506e6a806435-10" prev="i-d58e506e6a806435-4" n="d58e506e">
             <seg n="27bf6bb0">
               Skrivelsen från den dåvarande regeringen torde ha lett till att
               socialutredningen arbetar på att utforma ett lagförslag som i
@@ -1490,6 +1568,11 @@
               arbetsuppgifter inte har funnit anledning att ta initiativ till
               någon ändring eller komplettering av utredningens direktiv.
             </seg>
+          </u>
+          <note n="f712b252">
+            Herr NILSSON i Norrköping (s):
+          </note>
+          <u who="ingrid_ludvigsson_227cd1" xml:id="i-d58e506e6a806435-11" prev="i-d58e506e6a806435-4" n="d58e506e">
             <seg n="ab67a83f">
               Herr talman! Jag ber att få tacka herr socialministern för svaret
               på min fråga. Det har emellertid inte övertygat mig om att det
@@ -1504,7 +1587,9 @@
               Sven Aspling, tog intryck av debatten och gav socialutredningen
               tilläggsdirektiv. Målet för
             </seg>
-            <seg n="ef890aca"/>
+          </u>
+          <pb n="18" facs="https://betalab.kb.se/prot-197677--25/prot_197677__25-018.jp2/_view"/>
+          <u who="ingrid_ludvigsson_227cd1" xml:id="i-d58e506e6a806435-12" prev="i-d58e506e6a806435-4" n="d58e506e">
             <seg n="31576c9a">
               herr Aspling och socialdemokratin var att skapa behandlingsformer
               som byggde på frihet och demokrati.
@@ -1543,6 +1628,19 @@
               tunga remissinstanser som vill ha bort tvånget för vuxna inom
               socialvården.
             </seg>
+          </u>
+          <note n="a3135f6d">
+            Överläggningen var härmed slutad.
+          </note>
+          <note n="066bdeca">
+            $ 7 Om rätt till delpension för egenföretagare
+          </note>
+          <note n="24047f8e">
+            Herr socialministern GUSTAVSSON erhöll ordet för att besvara
+            herr Strindbergs (m) den 29 oktober anmälda fråga, 1976/77:52,
+            och anförde:
+          </note>
+          <u who="ingrid_ludvigsson_227cd1" xml:id="i-d58e506e6a806435-13" prev="i-d58e506e6a806435-4" n="d58e506e">
             <seg n="08b3cfdf">
               Herr talman! Herr Strindberg har frågat mig om jag är beredd
               att göra sådan förändring i lagen om delpensionsförsäkring att
@@ -1562,13 +1660,38 @@
               försäkringskassan. Kassan har möjlighet att genom fortlöpande
               kon-
             </seg>
+          </u>
+          <note n="12d546b8">
+            Nr 25
+          </note>
+          <note n="c8c39090">
+            Torsdagen den
+          </note>
+          <u who="ingrid_ludvigsson_227cd1" xml:id="i-d58e506e6a806435-14" prev="i-d58e506e6a806435-4" n="d58e506e">
             <seg n="7a2acb88">
               Om rätt till delpension för egenföretagare
             </seg>
-            <seg n="ef890aca"/>
+          </u>
+          <note n="bbd26bc0">
+            11 november 1976
+          </note>
+          <pb n="19" facs="https://betalab.kb.se/prot-197677--25/prot_197677__25-019.jp2/_view"/>
+          <u who="ingrid_ludvigsson_227cd1" xml:id="i-d58e506e6a806435-15" prev="i-d58e506e6a806435-4" n="d58e506e"/>
+          <note n="bd0f0911">
+            Nr 25 Torsdagen den
+          </note>
+          <note n="bbd26bc0">
+            11 november 1976
+          </note>
+          <u who="ingrid_ludvigsson_227cd1" xml:id="i-d58e506e6a806435-16" prev="i-d58e506e6a806435-4" n="d58e506e">
             <seg n="7a2acb88">
               Om rätt till delpension för egenföretagare
             </seg>
+          </u>
+          <note n="80babeb5">
+            20
+          </note>
+          <u who="ingrid_ludvigsson_227cd1" xml:id="i-d58e506e6a806435-17" prev="i-d58e506e6a806435-4" n="d58e506e">
             <seg n="e098af67">
               takt med arbetsgivaren utöva den kontroll som behövs för anpassningen
               av delpensionen till det aktuella inkomstbortfallet.
@@ -1602,80 +1725,10 @@
               om egenföretagarnas anslutning till delpensionsförsäkringen.
             </seg>
           </u>
-          <note n="d1ac7ce0">
-            Herr socialministern GUSTAVSSON erhöll ordet för att besvara
-            herr Nilssons i Norrköping (s) den 27 oktober anmälda fråga, 1976/77:39,
-            och anförde:
-          </note>
-          <note n="6d63621a">
-            2 Riksdagens protokoll 1976/77:25-27
-          </note>
-          <note n="12d546b8">
-            Nr 25
-          </note>
-          <note n="151add49">
-            Torsdagen den 11 november 1976
-          </note>
-          <pb n="17" facs="https://betalab.kb.se/prot-197677--25/prot_197677__25-017.jp2/_view"/>
-          <note n="12d546b8">
-            Nr 25
-          </note>
-          <note n="151add49">
-            Torsdagen den 11 november 1976
-          </note>
-          <note n="91da30f8">
-            Om tvånget inom
-          </note>
-          <note n="34838267">
-            Socialutredningens principbetänkande gjordes till föremål för
-            en omfattande remiss. Genom en skrivelse i februari 1975 överlämnade
-            den dåvarande regeringen remissyttrandena till utredningen för
-            beaktande i utredningens återstående arbete. I skrivelsen uttalades
-            bl. a. följande: ”Vid utformningen av förslaget till ny socialvårdslag
-            m. m. bör åtgärder utan den enskildes samtycke vad gäller barn
-            och ungdom regleras i särskild lag med utgångspunkt i det av utredningen
-            föreslagna förfarandet, innefattande socialnämndens medverkan.
-            Beträffande övriga åtgärder utan den enskildes samtycke bör utredningen
-            undersöka möjligheterna till enhetliga bestämmelser utanför socialvårdslagstiftningen.”
-          </note>
-          <note n="f712b252">
-            Herr NILSSON i Norrköping (s):
-          </note>
-          <pb n="18" facs="https://betalab.kb.se/prot-197677--25/prot_197677__25-018.jp2/_view"/>
-          <note n="a3135f6d">
-            Överläggningen var härmed slutad.
-          </note>
-          <note n="066bdeca">
-            $ 7 Om rätt till delpension för egenföretagare
-          </note>
-          <note n="24047f8e">
-            Herr socialministern GUSTAVSSON erhöll ordet för att besvara
-            herr Strindbergs (m) den 29 oktober anmälda fråga, 1976/77:52,
-            och anförde:
-          </note>
-          <note n="12d546b8">
-            Nr 25
-          </note>
-          <note n="c8c39090">
-            Torsdagen den
-          </note>
-          <note n="bbd26bc0">
-            11 november 1976
-          </note>
-          <pb n="19" facs="https://betalab.kb.se/prot-197677--25/prot_197677__25-019.jp2/_view"/>
-          <note n="bd0f0911">
-            Nr 25 Torsdagen den
-          </note>
-          <note n="bbd26bc0">
-            11 november 1976
-          </note>
-          <note n="80babeb5">
-            20
-          </note>
           <note type="speaker" n="3a11c055">
             Herr STRINDBERG (m):
           </note>
-          <u who="per-olof_strindberg_1e783a" xml:id="i-aafd6e4ea39dc34e-0" next="i-31bc7ae890c415c1-0" n="80edff13">
+          <u who="per-olof_strindberg_1e783a" xml:id="i-e62a6f3ff9ed136e-0" next="i-e62a6f3ff9ed136e-8" n="80edff13">
             <seg n="28e67230">
               Herr talman! Jag ber att få tacka socialministern för svaret
               på min fråga.
@@ -1708,7 +1761,9 @@
               Detta problem har tagits upp vid olika sammankomster med egen-
             </seg>
             <seg n="ef890aca"/>
-            <seg n="ef890aca"/>
+          </u>
+          <pb n="20" facs="https://betalab.kb.se/prot-197677--25/prot_197677__25-020.jp2/_view"/>
+          <u who="per-olof_strindberg_1e783a" xml:id="i-e62a6f3ff9ed136e-1" prev="i-e62a6f3ff9ed136e-0" n="80edff13">
             <seg n="db4f0a12">
               företagare, som jag deltagit i. Socialministern erinrar om att
               företrädare för egenföretagarnas organisationer låtit höra av
@@ -1730,14 +1785,19 @@
               resultat.
             </seg>
           </u>
-          <pb n="20" facs="https://betalab.kb.se/prot-197677--25/prot_197677__25-020.jp2/_view"/>
           <note n="a3135f6d">
             Överläggningen var härmed slutad.
           </note>
-          <u who="per-olof_strindberg_1e783a" xml:id="i-31bc7ae890c415c1-0" prev="i-aafd6e4ea39dc34e-0" n="80edff13">
+          <u who="per-olof_strindberg_1e783a" xml:id="i-e62a6f3ff9ed136e-2" prev="i-e62a6f3ff9ed136e-0" n="80edff13">
             <seg n="7f5fc078">
               $ 8 Om regeringens syn på stormarknadsetableringar
             </seg>
+          </u>
+          <note n="54e63f6a">
+            Fru bostadsministern OLSSON erhöll ordet för att besvara herr
+            Jonassons (c) den 28 oktober anmälda fråga, 1976/77:46, och anförde:
+          </note>
+          <u who="per-olof_strindberg_1e783a" xml:id="i-e62a6f3ff9ed136e-3" prev="i-e62a6f3ff9ed136e-0" n="80edff13">
             <seg n="eaf9561c">
               Herr talman! Herr Jonasson har frågat om jag är beredd att redovisa
               min syn på stormarknadsetableringar i de fall där relevant beslutsunderlag
@@ -1772,47 +1832,49 @@
               självfallet delvis beroende av omständigheterna i det enskilda
               ärendet. Ett minimikrav
             </seg>
+          </u>
+          <note n="12d546b8">
+            Nr 25
+          </note>
+          <note type="date" n="aa8d4d9e">
+            Torsdagen den 11 november 1976
+          </note>
+          <u who="per-olof_strindberg_1e783a" xml:id="i-e62a6f3ff9ed136e-4" prev="i-e62a6f3ff9ed136e-0" n="80edff13">
             <seg n="d8248927">
               Om regeringens syn på stormarknadsetableringar
             </seg>
-            <seg n="ef890aca"/>
-            <seg n="ef890aca"/>
+          </u>
+          <note n="a6724641">
+            21
+          </note>
+          <u who="per-olof_strindberg_1e783a" xml:id="i-e62a6f3ff9ed136e-5" prev="i-e62a6f3ff9ed136e-0" n="80edff13"/>
+          <pb n="21" facs="https://betalab.kb.se/prot-197677--25/prot_197677__25-021.jp2/_view"/>
+          <u who="per-olof_strindberg_1e783a" xml:id="i-e62a6f3ff9ed136e-6" prev="i-e62a6f3ff9ed136e-0" n="80edff13"/>
+          <note n="12d546b8">
+            Nr 25
+          </note>
+          <note type="date" n="aa8d4d9e">
+            Torsdagen den 11 november 1976
+          </note>
+          <u who="per-olof_strindberg_1e783a" xml:id="i-e62a6f3ff9ed136e-7" prev="i-e62a6f3ff9ed136e-0" n="80edff13">
             <seg n="d8248927">
               Om regeringens syn på stormarknadsetableringar
             </seg>
+          </u>
+          <note n="2863e6f4">
+            22
+          </note>
+          <u who="per-olof_strindberg_1e783a" xml:id="i-e62a6f3ff9ed136e-8" prev="i-e62a6f3ff9ed136e-0" n="80edff13">
             <seg n="b83800f4">
               måste dock enligt min mening vara att verkningarna för övrig
               handel — och därmed för konsumenterna — i den berörda regionen
               är noga belysta.
             </seg>
           </u>
-          <note n="54e63f6a">
-            Fru bostadsministern OLSSON erhöll ordet för att besvara herr
-            Jonassons (c) den 28 oktober anmälda fråga, 1976/77:46, och anförde:
-          </note>
-          <note n="12d546b8">
-            Nr 25
-          </note>
-          <note n="151add49">
-            Torsdagen den 11 november 1976
-          </note>
-          <note n="a6724641">
-            21
-          </note>
-          <pb n="21" facs="https://betalab.kb.se/prot-197677--25/prot_197677__25-021.jp2/_view"/>
-          <note n="12d546b8">
-            Nr 25
-          </note>
-          <note n="151add49">
-            Torsdagen den 11 november 1976
-          </note>
-          <note n="2863e6f4">
-            22
-          </note>
           <note type="speaker" n="6f58260d">
             Herr JONASSON (c):
           </note>
-          <u who="bertil_jonasson_ac2e42" xml:id="i-9eb9edcb5c8b35b7-0" next="i-efa1b8b8288d0824-0" n="c533fcbb">
+          <u who="bertil_jonasson_ac2e42" xml:id="i-c533fcbb01f796f3-0" next="i-c533fcbb01f796f3-8" n="c533fcbb">
             <seg n="bf3e7920">
               Herr talman! Jag vill tacka fru bostadsministern för svaret på
               min fråga.
@@ -1884,10 +1946,17 @@
             Överläggningen var härmed slutad.
           </note>
           <pb n="22" facs="https://betalab.kb.se/prot-197677--25/prot_197677__25-022.jp2/_view"/>
-          <u who="bertil_jonasson_ac2e42" xml:id="i-efa1b8b8288d0824-0" prev="i-9eb9edcb5c8b35b7-0" n="c533fcbb">
+          <u who="bertil_jonasson_ac2e42" xml:id="i-c533fcbb01f796f3-1" prev="i-c533fcbb01f796f3-0" n="c533fcbb">
             <seg n="7f79eae7">
               $ 9 Om interrailkort för pensionärer
             </seg>
+          </u>
+          <note n="8b6144af">
+            Herr kommunikationsministern TURESSON erhöll ordet för att besvara
+            herr Börjessons i Falköping (c) den 27 oktober anmälda fråga,
+            1976/77:41, och anförde:
+          </note>
+          <u who="bertil_jonasson_ac2e42" xml:id="i-c533fcbb01f796f3-2" prev="i-c533fcbb01f796f3-0" n="c533fcbb">
             <seg n="3b1e9303">
               Herr talman! Herr Börjesson i Falköping har frågat mig om jag
               vill medverka till att försäljning av interrailkort även skall
@@ -1916,6 +1985,11 @@
               Dessa undersökningar måste självfallet avvaktas innan man överväger
               att utvidga interrailkortets giltighet.
             </seg>
+          </u>
+          <note n="181f5141">
+            Herr BÖRJESSON i Falköping (c):
+          </note>
+          <u who="bertil_jonasson_ac2e42" xml:id="i-c533fcbb01f796f3-3" prev="i-c533fcbb01f796f3-0" n="c533fcbb">
             <seg n="81c33e5a">
               Herr talman! Låt mig allra först tacka kommunikationsministern
               för det lämnade svaret, som jag finner positivt. Jag är med andra
@@ -1948,14 +2022,53 @@
               ett berättigat intresse av sådan storlek att man finner skäl att
               införa interrailkort även för pensionärer.
             </seg>
+          </u>
+          <note n="a3135f6d">
+            Överläggningen var härmed slutad.
+          </note>
+          <note n="12d546b8">
+            Nr 25
+          </note>
+          <note type="date" n="aa8d4d9e">
+            Torsdagen den 11 november 1976
+          </note>
+          <u who="bertil_jonasson_ac2e42" xml:id="i-c533fcbb01f796f3-4" prev="i-c533fcbb01f796f3-0" n="c533fcbb">
             <seg n="04613384">
               Om interrailkort för pensionärer
             </seg>
-            <seg n="ef890aca"/>
-            <seg n="ef890aca"/>
+          </u>
+          <note n="f0068901">
+            ÅS
+          </note>
+          <u who="bertil_jonasson_ac2e42" xml:id="i-c533fcbb01f796f3-5" prev="i-c533fcbb01f796f3-0" n="c533fcbb"/>
+          <pb n="23" facs="https://betalab.kb.se/prot-197677--25/prot_197677__25-023.jp2/_view"/>
+          <u who="bertil_jonasson_ac2e42" xml:id="i-c533fcbb01f796f3-6" prev="i-c533fcbb01f796f3-0" n="c533fcbb"/>
+          <note n="12d546b8">
+            Nr 25
+          </note>
+          <note type="date" n="aa8d4d9e">
+            Torsdagen den 11 november 1976
+          </note>
+          <u who="bertil_jonasson_ac2e42" xml:id="i-c533fcbb01f796f3-7" prev="i-c533fcbb01f796f3-0" n="c533fcbb">
             <seg n="2f1106de">
               Om förlängning av
             </seg>
+          </u>
+          <note n="5e3a6faa">
+            ostkustbanan, m.m.
+          </note>
+          <note n="7db394d5">
+            24
+          </note>
+          <note n="c1648968">
+            $ 10 Om förlängning av ostkustbanan, m. m
+          </note>
+          <note n="0062895b">
+            Herr kommunikationsministern TURESSON erhöll ordet för att besvara
+            herr Jonssons i Husum (s) den 29 oktober anmälda fråga, 1976/77:50,
+            och anförde:
+          </note>
+          <u who="bertil_jonasson_ac2e42" xml:id="i-c533fcbb01f796f3-8" prev="i-c533fcbb01f796f3-0" n="c533fcbb">
             <seg n="f5245ed9">
               Herr talman! Herr Jonsson i Husum har frågat mig när jag avser
               att presentera förslag till industrispår mellan Örnsköldsvik och
@@ -1971,7 +2084,7 @@
           <note type="speaker" n="8319c607">
             Herr JONSSON i Husum (s):
           </note>
-          <u who="rune_jonsson_e11772" xml:id="i-a4500c5f9edccf46-0" n="feb19f11">
+          <u who="rune_jonsson_e11772" xml:id="i-feb19f1126df1891-0" next="i-c533fcbb01f796f3-9" n="feb19f11">
             <seg n="25e09561">
               Herr talman! Jag ber att få tacka kommunikationsministern för
               svaret. Anledningen till att jag har tagit upp denna fråga om
@@ -2011,54 +2124,13 @@
               måste nämligen få besked.
             </seg>
             <seg n="ef890aca"/>
-            <seg n="ef890aca"/>
           </u>
-          <note n="8b6144af">
-            Herr kommunikationsministern TURESSON erhöll ordet för att besvara
-            herr Börjessons i Falköping (c) den 27 oktober anmälda fråga,
-            1976/77:41, och anförde:
-          </note>
-          <note n="181f5141">
-            Herr BÖRJESSON i Falköping (c):
-          </note>
-          <note n="a3135f6d">
-            Överläggningen var härmed slutad.
-          </note>
-          <note n="12d546b8">
-            Nr 25
-          </note>
-          <note n="151add49">
-            Torsdagen den 11 november 1976
-          </note>
-          <note n="f0068901">
-            ÅS
-          </note>
-          <pb n="23" facs="https://betalab.kb.se/prot-197677--25/prot_197677__25-023.jp2/_view"/>
-          <note n="12d546b8">
-            Nr 25
-          </note>
-          <note n="151add49">
-            Torsdagen den 11 november 1976
-          </note>
-          <note n="5e3a6faa">
-            ostkustbanan, m.m.
-          </note>
-          <note n="7db394d5">
-            24
-          </note>
-          <note n="c1648968">
-            $ 10 Om förlängning av ostkustbanan, m. m
-          </note>
-          <note n="0062895b">
-            Herr kommunikationsministern TURESSON erhöll ordet för att besvara
-            herr Jonssons i Husum (s) den 29 oktober anmälda fråga, 1976/77:50,
-            och anförde:
-          </note>
           <pb n="24" facs="https://betalab.kb.se/prot-197677--25/prot_197677__25-024.jp2/_view"/>
+          <u who="rune_jonsson_e11772" xml:id="i-c533fcbb01f796f3-9" prev="i-feb19f1126df1891-0" n="feb19f11"/>
           <note type="speaker" n="28500bb8">
             Herr kommunikationsministern TURESSON:
           </note>
-          <u who="bo_turesson_39fd9f" xml:id="i-c3117e74529a4032-0" n="28c2d685">
+          <u who="bo_turesson_39fd9f" xml:id="i-28c2d685b524556a-0" n="28c2d685">
             <seg n="bc6f4e5e">
               Herr talman! Det är riktigt att ärendet ligger hos regeringen,
               och det har legat där länge. Jag förstår mycket väl att parterna
@@ -2090,7 +2162,7 @@
           <note type="speaker" n="8319c607">
             Herr JONSSON i Husum (s):
           </note>
-          <u who="rune_jonsson_e11772" xml:id="i-a4500c5f9edccf46-1" next="i-479971893337221d-0" n="feb19f11">
+          <u who="rune_jonsson_e11772" xml:id="i-feb19f1126df1891-1" next="i-28c2d685b524556a-7" n="feb19f11">
             <seg n="cb9a195a">
               Herr talman! Jag har förståelse för detta att man skall undersöka
               en sak riktigt. Men skillnaden är ju den att de borgerliga partierna
@@ -2104,10 +2176,17 @@
           <note n="a3135f6d">
             Överläggningen var härmed slutad.
           </note>
-          <u who="rune_jonsson_e11772" xml:id="i-479971893337221d-0" prev="i-a4500c5f9edccf46-1" n="feb19f11">
+          <u who="rune_jonsson_e11772" xml:id="i-28c2d685b524556a-1" prev="i-feb19f1126df1891-1" n="feb19f11">
             <seg n="9da54a41">
               8 11 Om fördelningen av visst anslag till statens vägverk
             </seg>
+          </u>
+          <note n="019a7b74">
+            Herr kommunikationsministern TURESSON erhöll ordet för att besvara
+            herr Perssons i Heden (c) den 29 oktober anmälda fråga, 1976/77:51,
+            och anförde:
+          </note>
+          <u who="rune_jonsson_e11772" xml:id="i-28c2d685b524556a-2" prev="i-feb19f1126df1891-1" n="feb19f11">
             <seg n="78de1d29">
               Herr talman! Herr Persson i Heden har frågat mig om jag vill
               redovisa fördelningen av det extra anslag på 200 milj. kr. till
@@ -2120,13 +2199,41 @@
               har vid dagens regeringssammanträde beslutat om fördelningen på
               län av det höjda byggnadsanslaget.
             </seg>
+          </u>
+          <note n="12d546b8">
+            Nr 25
+          </note>
+          <note type="date" n="aa8d4d9e">
+            Torsdagen den 11 november 1976
+          </note>
+          <u who="rune_jonsson_e11772" xml:id="i-28c2d685b524556a-3" prev="i-feb19f1126df1891-1" n="feb19f11">
             <seg n="366cf036">
               Om fördelningen av visst anslag till statens vägverk
             </seg>
-            <seg n="ef890aca"/>
+          </u>
+          <note n="b2a43fcc">
+            25
+          </note>
+          <u who="rune_jonsson_e11772" xml:id="i-28c2d685b524556a-4" prev="i-feb19f1126df1891-1" n="feb19f11"/>
+          <pb n="25" facs="https://betalab.kb.se/prot-197677--25/prot_197677__25-025.jp2/_view"/>
+          <note type="date" n="46181b78">
+            Nr 25 Torsdagen den 11 november 1976
+          </note>
+          <u who="rune_jonsson_e11772" xml:id="i-28c2d685b524556a-5" prev="i-feb19f1126df1891-1" n="feb19f11">
             <seg n="366cf036">
               Om fördelningen av visst anslag till statens vägverk
             </seg>
+          </u>
+          <note n="0519fa1b">
+            26
+          </note>
+          <note n="0c9d065d">
+            Vid fördelningen av de ökade anslagen har det förslag som vägverket
+            i våras lade fram vid sin föredragning inför trafikutskottet följts.
+            Förslaget redovisades i bilaga till trafikutskottets betänkande
+            nr 11.
+          </note>
+          <u who="rune_jonsson_e11772" xml:id="i-28c2d685b524556a-6" prev="i-feb19f1126df1891-1" n="feb19f11">
             <seg n="9d785ca3">
               Fördelningen av byggnadsanslaget följer därmed den prioritering
               som vägverket och länsstyrelserna har kommit överens om i samverkan
@@ -2142,6 +2249,11 @@
               En sådan fördelning medverkar till att hela landet får del i en
               förbättrad vägstandard.
             </seg>
+          </u>
+          <note n="3ce8e108">
+            Herr PERSSON i Heden (c):
+          </note>
+          <u who="rune_jonsson_e11772" xml:id="i-28c2d685b524556a-7" prev="i-feb19f1126df1891-1" n="feb19f11">
             <seg n="cffeb12c">
               Herr talman! Jag ber att få tacka statsrådet för det svar han
               har lämnat på min fråga.
@@ -2168,40 +2280,10 @@
               högst angeläget.
             </seg>
           </u>
-          <note n="019a7b74">
-            Herr kommunikationsministern TURESSON erhöll ordet för att besvara
-            herr Perssons i Heden (c) den 29 oktober anmälda fråga, 1976/77:51,
-            och anförde:
-          </note>
-          <note n="12d546b8">
-            Nr 25
-          </note>
-          <note n="151add49">
-            Torsdagen den 11 november 1976
-          </note>
-          <note n="b2a43fcc">
-            25
-          </note>
-          <pb n="25" facs="https://betalab.kb.se/prot-197677--25/prot_197677__25-025.jp2/_view"/>
-          <note n="f37b7680">
-            Nr 25 Torsdagen den 11 november 1976
-          </note>
-          <note n="0519fa1b">
-            26
-          </note>
-          <note n="0c9d065d">
-            Vid fördelningen av de ökade anslagen har det förslag som vägverket
-            i våras lade fram vid sin föredragning inför trafikutskottet följts.
-            Förslaget redovisades i bilaga till trafikutskottets betänkande
-            nr 11.
-          </note>
-          <note n="3ce8e108">
-            Herr PERSSON i Heden (c):
-          </note>
           <note type="speaker" n="28500bb8">
             Herr kommunikationsministern TURESSON:
           </note>
-          <u who="bo_turesson_39fd9f" xml:id="i-c3117e74529a4032-1" next="i-1c2772086298df5a-0" n="28c2d685">
+          <u who="bo_turesson_39fd9f" xml:id="i-28c2d685b524556a-8" next="i-28c2d685b524556a-17" n="28c2d685">
             <seg n="60765d9f">
               Herr talman! Med anledning av den sista frågan som herr Persson
               i Heden ställde vill jag säga att regeringen kommer att med utnyttjande
@@ -2213,7 +2295,7 @@
           <note n="3ce8e108">
             Herr PERSSON i Heden (c):
           </note>
-          <u who="bo_turesson_39fd9f" xml:id="i-1c2772086298df5a-0" prev="i-c3117e74529a4032-1" n="28c2d685">
+          <u who="bo_turesson_39fd9f" xml:id="i-28c2d685b524556a-9" prev="i-28c2d685b524556a-8" n="28c2d685">
             <seg n="44f7f5f9">
               Herr talman! Jag vill tacka för detta besked också, och jag föreställer
               mig att det hälsas med tillfredsställelse i de län där man nu
@@ -2221,10 +2303,22 @@
               att med de omnämnda medlen göra de förbättringar och byggnader
               som erfordras.
             </seg>
-            <seg n="ef890aca"/>
+          </u>
+          <note n="a3135f6d">
+            Överläggningen var härmed slutad.
+          </note>
+          <pb n="26" facs="https://betalab.kb.se/prot-197677--25/prot_197677__25-026.jp2/_view"/>
+          <u who="bo_turesson_39fd9f" xml:id="i-28c2d685b524556a-10" prev="i-28c2d685b524556a-8" n="28c2d685">
             <seg n="682ad490">
               $ 12 Om åtgärder med anledning av det låga vattenståndet i Vänern
             </seg>
+          </u>
+          <note n="11994572">
+            Herr kommunikationsministern TURESSON erhöll ordet för att besvara
+            herr Perssons i Karlstad (s) den 8 november anmälda fråga, 1976/77:53,
+            till herr jordbruksministern, och anförde:
+          </note>
+          <u who="bo_turesson_39fd9f" xml:id="i-28c2d685b524556a-11" prev="i-28c2d685b524556a-8" n="28c2d685">
             <seg n="12f7f889">
               Herr talman! Herr Persson i Karlstad har frågat jordbruksministern
               vilka åtgärder han är beredd att vidta med anledning av den bekymmersamma
@@ -2264,6 +2358,11 @@
               beslut som gör det möjligt att stänga småbåtsslussen i älven och
               minska behovet av avtappning från Vänern.
             </seg>
+          </u>
+          <note n="64777dcc">
+            Herr PERSSON i Karlstad (s):
+          </note>
+          <u who="bo_turesson_39fd9f" xml:id="i-28c2d685b524556a-12" prev="i-28c2d685b524556a-8" n="28c2d685">
             <seg n="3c5466fa">
               Herr talman! Jag ber att få tacka herr kommunikationsministern
               för svaret.
@@ -2291,14 +2390,39 @@
               Dessa tre orsaker har främst bidragit till att vi som bor och
               verkar
             </seg>
+          </u>
+          <note n="12d546b8">
+            Nr 25
+          </note>
+          <note type="date" n="aa8d4d9e">
+            Torsdagen den 11 november 1976
+          </note>
+          <u who="bo_turesson_39fd9f" xml:id="i-28c2d685b524556a-13" prev="i-28c2d685b524556a-8" n="28c2d685">
             <seg n="2084cdab">
               Om åtgärder med anledning av det låga vattenståndet i Vänern
             </seg>
-            <seg n="ef890aca"/>
-            <seg n="ef890aca"/>
+          </u>
+          <note n="4be8dd3c">
+            27
+          </note>
+          <u who="bo_turesson_39fd9f" xml:id="i-28c2d685b524556a-14" prev="i-28c2d685b524556a-8" n="28c2d685"/>
+          <pb n="27" facs="https://betalab.kb.se/prot-197677--25/prot_197677__25-027.jp2/_view"/>
+          <u who="bo_turesson_39fd9f" xml:id="i-28c2d685b524556a-15" prev="i-28c2d685b524556a-8" n="28c2d685"/>
+          <note n="12d546b8">
+            Nr 25
+          </note>
+          <note type="date" n="aa8d4d9e">
+            Torsdagen den 11 november 1976
+          </note>
+          <u who="bo_turesson_39fd9f" xml:id="i-28c2d685b524556a-16" prev="i-28c2d685b524556a-8" n="28c2d685">
             <seg n="2084cdab">
               Om åtgärder med anledning av det låga vattenståndet i Vänern
             </seg>
+          </u>
+          <note n="1752febd">
+            28
+          </note>
+          <u who="bo_turesson_39fd9f" xml:id="i-28c2d685b524556a-17" prev="i-28c2d685b524556a-8" n="28c2d685">
             <seg n="7defc49f">
               runt Vänern är mycket oroade och bekymrade för den framtida sjöfarten.
               Inte minst vintersjöfarten kommande säsong är i uppenbar fara,
@@ -2339,41 +2463,10 @@
               resultat. Jag skulle vilja ha ett förtydligande på den punkten.
             </seg>
           </u>
-          <note n="a3135f6d">
-            Överläggningen var härmed slutad.
-          </note>
-          <pb n="26" facs="https://betalab.kb.se/prot-197677--25/prot_197677__25-026.jp2/_view"/>
-          <note n="11994572">
-            Herr kommunikationsministern TURESSON erhöll ordet för att besvara
-            herr Perssons i Karlstad (s) den 8 november anmälda fråga, 1976/77:53,
-            till herr jordbruksministern, och anförde:
-          </note>
-          <note n="64777dcc">
-            Herr PERSSON i Karlstad (s):
-          </note>
-          <note n="12d546b8">
-            Nr 25
-          </note>
-          <note n="151add49">
-            Torsdagen den 11 november 1976
-          </note>
-          <note n="4be8dd3c">
-            27
-          </note>
-          <pb n="27" facs="https://betalab.kb.se/prot-197677--25/prot_197677__25-027.jp2/_view"/>
-          <note n="12d546b8">
-            Nr 25
-          </note>
-          <note n="151add49">
-            Torsdagen den 11 november 1976
-          </note>
-          <note n="1752febd">
-            28
-          </note>
           <note type="speaker" n="28500bb8">
             Herr kommunikationsministern TURESSON:
           </note>
-          <u who="bo_turesson_39fd9f" xml:id="i-c3117e74529a4032-2" next="i-1c2772086298df5a-1" n="28c2d685">
+          <u who="bo_turesson_39fd9f" xml:id="i-28c2d685b524556a-18" next="i-28c2d685b524556a-25" n="28c2d685">
             <seg n="8d090a51">
               Herr talman! Jag förstår herr Perssons i Karlstad farhågor när
               det gäller möjligheterna att få upp isbrytaren Ale, om vattenståndet
@@ -2403,7 +2496,7 @@
           <note n="64777dcc">
             Herr PERSSON i Karlstad (s):
           </note>
-          <u who="bo_turesson_39fd9f" xml:id="i-1c2772086298df5a-1" prev="i-c3117e74529a4032-2" n="28c2d685">
+          <u who="bo_turesson_39fd9f" xml:id="i-28c2d685b524556a-19" prev="i-28c2d685b524556a-18" n="28c2d685">
             <seg n="2289dad5">
               Herr talman! Det sist lämnade beskedet, att isbrytarna skall
               gå upp i Vänern, noterar jag med stor tillfredsställelse. Om samhället
@@ -2438,9 +2531,21 @@
               Sjöfarten bör ju prioriteras, eftersom den miljömässigt är klart
               överlägsen alla andra transportmedel i vårt universum.
             </seg>
+          </u>
+          <note n="a3135f6d">
+            Överläggningen var härmed slutad.
+          </note>
+          <u who="bo_turesson_39fd9f" xml:id="i-28c2d685b524556a-20" prev="i-28c2d685b524556a-18" n="28c2d685">
             <seg n="9e5b52cf">
               $ 13 Om åtgärder mot trafikolyckor på riksväg E 4 vid Rotebro
             </seg>
+          </u>
+          <note n="b04deb68">
+            Herr kommunikationsministern TURESSON erhöll ordet för att besvara
+            herr Romanus (fp) den 8 november anmälda fråga, 1976/77:55, och
+            anförde:
+          </note>
+          <u who="bo_turesson_39fd9f" xml:id="i-28c2d685b524556a-21" prev="i-28c2d685b524556a-18" n="28c2d685">
             <seg n="3f1fb32f">
               Herr talman! Herr Romanus har frågat mig vilka åtgärder som jag
               avser vidta på väg E 4 vid Rotebro i anledning av de allvarliga
@@ -2455,46 +2560,42 @@
               kollisioner med mötande trafik.
             </seg>
             <seg n="ef890aca"/>
+          </u>
+          <note n="12d546b8">
+            Nr 25
+          </note>
+          <note type="date" n="aa8d4d9e">
+            Torsdagen den 11 november 1976
+          </note>
+          <u who="bo_turesson_39fd9f" xml:id="i-28c2d685b524556a-22" prev="i-28c2d685b524556a-18" n="28c2d685">
             <seg n="13eeb8fb">
               Om åtgärder mot trafikolyckor på riksväg E 4 vid Rotebro
             </seg>
-            <seg n="ef890aca"/>
-            <seg n="ef890aca"/>
+          </u>
+          <note n="ad10ff66">
+            29
+          </note>
+          <u who="bo_turesson_39fd9f" xml:id="i-28c2d685b524556a-23" prev="i-28c2d685b524556a-18" n="28c2d685"/>
+          <pb n="29" facs="https://betalab.kb.se/prot-197677--25/prot_197677__25-029.jp2/_view"/>
+          <u who="bo_turesson_39fd9f" xml:id="i-28c2d685b524556a-24" prev="i-28c2d685b524556a-18" n="28c2d685"/>
+          <note n="12d546b8">
+            Nr 25
+          </note>
+          <note type="date" n="aa8d4d9e">
+            Torsdagen den 11 november 1976
+          </note>
+          <u who="bo_turesson_39fd9f" xml:id="i-28c2d685b524556a-25" prev="i-28c2d685b524556a-18" n="28c2d685">
             <seg n="da91b93e">
               Om innebörden i visst fall av avtalet med Sveriges Radio
             </seg>
           </u>
-          <note n="a3135f6d">
-            Överläggningen var härmed slutad.
-          </note>
-          <note n="b04deb68">
-            Herr kommunikationsministern TURESSON erhöll ordet för att besvara
-            herr Romanus (fp) den 8 november anmälda fråga, 1976/77:55, och
-            anförde:
-          </note>
-          <note n="12d546b8">
-            Nr 25
-          </note>
-          <note n="151add49">
-            Torsdagen den 11 november 1976
-          </note>
-          <note n="ad10ff66">
-            29
-          </note>
-          <pb n="29" facs="https://betalab.kb.se/prot-197677--25/prot_197677__25-029.jp2/_view"/>
-          <note n="12d546b8">
-            Nr 25
-          </note>
-          <note n="151add49">
-            Torsdagen den 11 november 1976
-          </note>
           <note n="34d25af0">
             30
           </note>
           <note type="speaker" n="e6113f37">
             Herr ROMANUS (fp):
           </note>
-          <u who="gabriel_romanus_a3513d" xml:id="i-982f7ae827cdaa73-0" next="i-2da60bdc69b376fe-0" n="7effa517">
+          <u who="gabriel_romanus_a3513d" xml:id="i-7effa51745e26512-0" next="i-7effa51745e26512-3" n="7effa517">
             <seg n="f20b0384">
               Herr talman! Det är inte vilken vägstump som helst som jag har
               frågat kommunikationsministern om, utan det här rör sig om ungefär
@@ -2534,10 +2635,17 @@
           <note n="a3135f6d">
             Överläggningen var härmed slutad.
           </note>
-          <u who="gabriel_romanus_a3513d" xml:id="i-2da60bdc69b376fe-0" prev="i-982f7ae827cdaa73-0" n="7effa517">
+          <u who="gabriel_romanus_a3513d" xml:id="i-7effa51745e26512-1" prev="i-7effa51745e26512-0" n="7effa517">
             <seg n="f071b259">
               $ 14 Om innebörden i visst fall av avtalet med Sveriges Radio
             </seg>
+          </u>
+          <note n="43c5f7f4">
+            Herr utbildningsministern WIKSTRÖM erhöll ordet för att besvara
+            herr Fågelsbos (c) den 19 oktober anmälda fråga, 1976/77:21, och
+            anförde:
+          </note>
+          <u who="gabriel_romanus_a3513d" xml:id="i-7effa51745e26512-2" prev="i-7effa51745e26512-0" n="7effa517">
             <seg n="65d563fd">
               Herr talman! Herr Fågelsbo har frågat mig om avtalet mellan staten
               och Sveriges Radio är så flexibelt att TV-program av typen Sånt
@@ -2559,18 +2667,13 @@
               Enligt vad jag har erfarit kommer radionämnden att ta upp det
               aktuella programmet.
             </seg>
-            <seg n="ef890aca"/>
           </u>
-          <note n="43c5f7f4">
-            Herr utbildningsministern WIKSTRÖM erhöll ordet för att besvara
-            herr Fågelsbos (c) den 19 oktober anmälda fråga, 1976/77:21, och
-            anförde:
-          </note>
           <pb n="30" facs="https://betalab.kb.se/prot-197677--25/prot_197677__25-030.jp2/_view"/>
+          <u who="gabriel_romanus_a3513d" xml:id="i-7effa51745e26512-3" prev="i-7effa51745e26512-0" n="7effa517"/>
           <note type="speaker" n="52c32e41">
             Herr FÅGELSBO (c):
           </note>
-          <u who="anton_e_fagelsbo_12dba3" xml:id="i-b05524cad5f5ef23-0" next="i-15375b957247f887-0" n="0901ed95">
+          <u who="anton_e_fagelsbo_12dba3" xml:id="i-0901ed95f83ce243-0" next="i-0901ed95f83ce243-7" n="0901ed95">
             <seg n="0b645efd">
               Herr talman! Jag vill framföra ett tack till utbildningsministern
               för att jag har fått min fråga besvarad. Jag ställde den efter
@@ -2611,10 +2714,17 @@
           <note n="a3135f6d">
             Överläggningen var härmed slutad.
           </note>
-          <u who="anton_e_fagelsbo_12dba3" xml:id="i-15375b957247f887-0" prev="i-b05524cad5f5ef23-0" n="0901ed95">
+          <u who="anton_e_fagelsbo_12dba3" xml:id="i-0901ed95f83ce243-1" prev="i-0901ed95f83ce243-0" n="0901ed95">
             <seg n="c03138d5">
               $ 15 Om den demografiska databasen i Haparanda
             </seg>
+          </u>
+          <note n="db8f18c3">
+            Herr utbildningsministern WIKSTRÖM erhöll ordet för att besvara
+            fru Winthers (fp) den 8 november anmälda fråga, 1976/77:56, och
+            anförde:
+          </note>
+          <u who="anton_e_fagelsbo_12dba3" xml:id="i-0901ed95f83ce243-2" prev="i-0901ed95f83ce243-0" n="0901ed95">
             <seg n="ecd5574e">
               Herr talman! Fru Winther har frågat mig om jag vill medverka
               till en permanentning av den demografiska databasens verksamhet
@@ -2633,50 +2743,51 @@
               verksamhet har vitsordats av flera berörda myndigheter. Frågan
               om en per-
             </seg>
+          </u>
+          <note n="12d546b8">
+            Nr 25
+          </note>
+          <note type="date" n="aa8d4d9e">
+            Torsdagen den 11 november 1976
+          </note>
+          <u who="anton_e_fagelsbo_12dba3" xml:id="i-0901ed95f83ce243-3" prev="i-0901ed95f83ce243-0" n="0901ed95">
             <seg n="89a2dd12">
               Om den demografiska databasen i Haparanda
             </seg>
-            <seg n="ef890aca"/>
-            <seg n="ef890aca"/>
-            <seg n="4b495e0f">
-              fiska databasen i Haparanda
-            </seg>
-            <seg n="68182a2d">
-              manentning av den demografiska databasens verksamhet behandlas
-              f. n. i samband med budgetarbetet inför budgetåret 1977/78.
-            </seg>
           </u>
-          <note n="db8f18c3">
-            Herr utbildningsministern WIKSTRÖM erhöll ordet för att besvara
-            fru Winthers (fp) den 8 november anmälda fråga, 1976/77:56, och
-            anförde:
-          </note>
-          <note n="12d546b8">
-            Nr 25
-          </note>
-          <note n="151add49">
-            Torsdagen den 11 november 1976
-          </note>
           <note n="e2346e8e">
             31
           </note>
+          <u who="anton_e_fagelsbo_12dba3" xml:id="i-0901ed95f83ce243-4" prev="i-0901ed95f83ce243-0" n="0901ed95"/>
           <pb n="31" facs="https://betalab.kb.se/prot-197677--25/prot_197677__25-031.jp2/_view"/>
+          <u who="anton_e_fagelsbo_12dba3" xml:id="i-0901ed95f83ce243-5" prev="i-0901ed95f83ce243-0" n="0901ed95"/>
           <note n="12d546b8">
             Nr 25
           </note>
-          <note n="151add49">
+          <note type="date" n="aa8d4d9e">
             Torsdagen den 11 november 1976
           </note>
           <note n="9ecd3ac6">
             Om den demogra-
           </note>
+          <u who="anton_e_fagelsbo_12dba3" xml:id="i-0901ed95f83ce243-6" prev="i-0901ed95f83ce243-0" n="0901ed95">
+            <seg n="4b495e0f">
+              fiska databasen i Haparanda
+            </seg>
+          </u>
           <note n="d569095e">
             32
           </note>
+          <u who="anton_e_fagelsbo_12dba3" xml:id="i-0901ed95f83ce243-7" prev="i-0901ed95f83ce243-0" n="0901ed95">
+            <seg n="68182a2d">
+              manentning av den demografiska databasens verksamhet behandlas
+              f. n. i samband med budgetarbetet inför budgetåret 1977/78.
+            </seg>
+          </u>
           <note type="speaker" n="7b525056">
             Fru WINTHER (fp):
           </note>
-          <u who="eva_winther_d915da" xml:id="i-c13ef5412a7e32c3-0" next="i-d1a6a7677a247acd-0" n="0894a204">
+          <u who="eva_winther_d915da" xml:id="i-0894a204de4b7636-0" next="i-0894a204de4b7636-3" n="0894a204">
             <seg n="ec1196f0">
               Herr talman! Jag skall be att få tacka utbildningsministern för
               svaret.
@@ -2741,7 +2852,9 @@
               3. Här finns en chans att fortsätta och vidareutveckla en trygg,
               bra
             </seg>
-            <seg n="ef890aca"/>
+          </u>
+          <pb n="32" facs="https://betalab.kb.se/prot-197677--25/prot_197677__25-032.jp2/_view"/>
+          <u who="eva_winther_d915da" xml:id="i-0894a204de4b7636-1" prev="i-0894a204de4b7636-0" n="0894a204">
             <seg n="5a11b98f">
               och meningsfull sysselsättning till en verkligt låg kostnad.
             </seg>
@@ -2752,14 +2865,20 @@
               gärna vilja ha ett besked om det av herr Wikström.
             </seg>
           </u>
-          <pb n="32" facs="https://betalab.kb.se/prot-197677--25/prot_197677__25-032.jp2/_view"/>
           <note n="a3135f6d">
             Överläggningen var härmed slutad.
           </note>
-          <u who="eva_winther_d915da" xml:id="i-d1a6a7677a247acd-0" prev="i-c13ef5412a7e32c3-0" n="0894a204">
+          <u who="eva_winther_d915da" xml:id="i-0894a204de4b7636-2" prev="i-0894a204de4b7636-0" n="0894a204">
             <seg n="e5bd4b80">
               $ 16 Om åtgärder för att trygga sysselsättningen i Kramfors
             </seg>
+          </u>
+          <note n="30a5a73b">
+            Herr industriministern ÅSLING erhöll ordet för att besvara herr
+            Lorentzons i Kramfors (vpk) den 22 oktober anmälda fråga, 1976/77:33,
+            och anförde:
+          </note>
+          <u who="eva_winther_d915da" xml:id="i-0894a204de4b7636-3" prev="i-0894a204de4b7636-0" n="0894a204">
             <seg n="faadc6b1">
               Herr talman! Herr Lorentzon i Kramfors har frågat mig om jag
               överväger åtgärder för att få ersättningsindustri till Kramfors
@@ -2784,7 +2903,7 @@
           <note type="speaker" n="5c1fb57c">
             Herr LORENTZON i Kramfors (vpk):
           </note>
-          <u who="sven_eric_lorentzon_d56641" xml:id="i-804ab96e78ab05d3-0" n="fbb98557">
+          <u who="sven_eric_lorentzon_d56641" xml:id="i-fbb9855775d6b061-0" next="i-0894a204de4b7636-7" n="fbb98557">
             <seg n="e5cddfc1">
               Herr talman! Jag tackar industriministern för svaret på min fråga,
               men jag vill omedelbart ställa en ny: När en riksdagsledamot ställer
@@ -2811,13 +2930,41 @@
               och sysselsättningen. Jag har ställt frågan: Hur blir det med
               den kortsiktiga
             </seg>
+          </u>
+          <note n="8083baa0">
+            3 Riksdagens protokoll 1976177:25-27
+          </note>
+          <note n="12d546b8">
+            Nr 25
+          </note>
+          <note type="date" n="aa8d4d9e">
+            Torsdagen den 11 november 1976
+          </note>
+          <u who="sven_eric_lorentzon_d56641" xml:id="i-0894a204de4b7636-4" prev="i-fbb9855775d6b061-0" n="fbb98557">
             <seg n="a1659b24">
               Om åtgärder för att trygga sysselsättningen i Kramfors
             </seg>
-            <seg n="ef890aca"/>
+          </u>
+          <note n="f14b2953">
+            33
+          </note>
+          <pb n="33" facs="https://betalab.kb.se/prot-197677--25/prot_197677__25-033.jp2/_view"/>
+          <u who="sven_eric_lorentzon_d56641" xml:id="i-0894a204de4b7636-5" prev="i-fbb9855775d6b061-0" n="fbb98557"/>
+          <note n="12d546b8">
+            Nr 25
+          </note>
+          <note type="date" n="aa8d4d9e">
+            Torsdagen den 11 november 1976
+          </note>
+          <u who="sven_eric_lorentzon_d56641" xml:id="i-0894a204de4b7636-6" prev="i-fbb9855775d6b061-0" n="fbb98557">
             <seg n="a1659b24">
               Om åtgärder för att trygga sysselsättningen i Kramfors
             </seg>
+          </u>
+          <note n="fd7136ec">
+            34
+          </note>
+          <u who="sven_eric_lorentzon_d56641" xml:id="i-0894a204de4b7636-7" prev="i-fbb9855775d6b061-0" n="fbb98557">
             <seg n="7db851b7">
               och den långsiktiga planeringen? Då har man bara ryckt på axlarna
               och sagt: Ja, men ni får ju så mycket beredskapsarbete, och tänk
@@ -2857,37 +3004,10 @@
               sig.
             </seg>
           </u>
-          <note n="30a5a73b">
-            Herr industriministern ÅSLING erhöll ordet för att besvara herr
-            Lorentzons i Kramfors (vpk) den 22 oktober anmälda fråga, 1976/77:33,
-            och anförde:
-          </note>
-          <note n="8083baa0">
-            3 Riksdagens protokoll 1976177:25-27
-          </note>
-          <note n="12d546b8">
-            Nr 25
-          </note>
-          <note n="151add49">
-            Torsdagen den 11 november 1976
-          </note>
-          <note n="f14b2953">
-            33
-          </note>
-          <pb n="33" facs="https://betalab.kb.se/prot-197677--25/prot_197677__25-033.jp2/_view"/>
-          <note n="12d546b8">
-            Nr 25
-          </note>
-          <note n="151add49">
-            Torsdagen den 11 november 1976
-          </note>
-          <note n="fd7136ec">
-            34
-          </note>
           <note type="speaker" n="f7ce3b2b">
             Herr industriministern ÅSLING:
           </note>
-          <u who="nils_asling_f5a3d5" xml:id="i-bcffea0ad2b379f5-0" n="a6de29f9">
+          <u who="nils_asling_f5a3d5" xml:id="i-a6de29f9cb5c9086-0" next="i-a6de29f9cb5c9086-1" n="a6de29f9">
             <seg n="5b99c766">
               Herr talman! Beträffande den presskommuniké som departementet
               lämnade i går förhåller det sig så att vi sedan lång tid tillbaka
@@ -2914,13 +3034,15 @@
               i Kramfors.
             </seg>
             <seg n="ef890aca"/>
-            <seg n="ef890aca"/>
+          </u>
+          <pb n="34" facs="https://betalab.kb.se/prot-197677--25/prot_197677__25-034.jp2/_view"/>
+          <u who="nils_asling_f5a3d5" xml:id="i-a6de29f9cb5c9086-1" prev="i-a6de29f9cb5c9086-0" n="a6de29f9">
             <seg n="ef890aca"/>
           </u>
           <note type="speaker" n="5c1fb57c">
             Herr LORENTZON i Kramfors (vpk):
           </note>
-          <u who="sven_eric_lorentzon_d56641" xml:id="i-804ab96e78ab05d3-1" next="i-1fa8c768978294cc-0" n="fbb98557">
+          <u who="sven_eric_lorentzon_d56641" xml:id="i-fbb9855775d6b061-1" next="i-a6de29f9cb5c9086-6" n="fbb98557">
             <seg n="b0750cdc">
               Herr talman! Industriministern säger att man inte skall undanhålla
               folket upplysningar, och om det är jag helt överens med honom.
@@ -2953,14 +3075,20 @@
               kan inte skoja med en hel bygd, som man nu har gjort i 45 år.
             </seg>
           </u>
-          <pb n="34" facs="https://betalab.kb.se/prot-197677--25/prot_197677__25-034.jp2/_view"/>
           <note n="a3135f6d">
             Överläggningen var härmed slutad.
           </note>
-          <u who="sven_eric_lorentzon_d56641" xml:id="i-1fa8c768978294cc-0" prev="i-804ab96e78ab05d3-1" n="fbb98557">
+          <u who="sven_eric_lorentzon_d56641" xml:id="i-a6de29f9cb5c9086-2" prev="i-fbb9855775d6b061-1" n="fbb98557">
             <seg n="d9c007fd">
               $ 17 Om införlivande av Gotland med det inre stödområdet
             </seg>
+          </u>
+          <note n="f465d6ee">
+            Herr industriministern ÅSLING erhöll ordet för att besvara herr
+            Schötts (m) den 27 oktober anmälda fråga, 1976/77:36, till herr
+            arbetsmarknadsministern, och anförde:
+          </note>
+          <u who="sven_eric_lorentzon_d56641" xml:id="i-a6de29f9cb5c9086-3" prev="i-fbb9855775d6b061-1" n="fbb98557">
             <seg n="55e7fc07">
               Herr talman! Herr Schött har frågat arbetsmarknadsministern om
               han är villig att medverka till att Gotland med dess många och
@@ -2981,10 +3109,30 @@
               Jag vill tillägga att sysselsättningsstöd som främst är förbehållet
               inre stödområdet försöksvis kan utgå även på Gotland.
             </seg>
+          </u>
+          <note n="12d546b8">
+            Nr 25
+          </note>
+          <note type="date" n="aa8d4d9e">
+            Torsdagen den 11 november 1976
+          </note>
+          <u who="sven_eric_lorentzon_d56641" xml:id="i-a6de29f9cb5c9086-4" prev="i-fbb9855775d6b061-1" n="fbb98557">
             <seg n="c18d60fc">
               Om införlivande av Gotland med det inre stödområdet
             </seg>
-            <seg n="ef890aca"/>
+          </u>
+          <note n="e1b32526">
+            35
+          </note>
+          <pb n="35" facs="https://betalab.kb.se/prot-197677--25/prot_197677__25-035.jp2/_view"/>
+          <u who="sven_eric_lorentzon_d56641" xml:id="i-a6de29f9cb5c9086-5" prev="i-fbb9855775d6b061-1" n="fbb98557"/>
+          <note n="12d546b8">
+            Nr 25
+          </note>
+          <note type="date" n="aa8d4d9e">
+            Torsdagen den 11 november 1976
+          </note>
+          <u who="sven_eric_lorentzon_d56641" xml:id="i-a6de29f9cb5c9086-6" prev="i-fbb9855775d6b061-1" n="fbb98557">
             <seg n="df814af1">
               Om införlivande av
             </seg>
@@ -2992,34 +3140,13 @@
               Gotland med det inre stödområdet
             </seg>
           </u>
-          <note n="f465d6ee">
-            Herr industriministern ÅSLING erhöll ordet för att besvara herr
-            Schötts (m) den 27 oktober anmälda fråga, 1976/77:36, till herr
-            arbetsmarknadsministern, och anförde:
-          </note>
-          <note n="12d546b8">
-            Nr 25
-          </note>
-          <note n="151add49">
-            Torsdagen den 11 november 1976
-          </note>
-          <note n="e1b32526">
-            35
-          </note>
-          <pb n="35" facs="https://betalab.kb.se/prot-197677--25/prot_197677__25-035.jp2/_view"/>
-          <note n="12d546b8">
-            Nr 25
-          </note>
-          <note n="151add49">
-            Torsdagen den 11 november 1976
-          </note>
           <note n="24a5e387">
             36
           </note>
           <note type="speaker" n="394db4aa">
             Herr SCHÖTT (m):
           </note>
-          <u who="lars_schott_039d4c" xml:id="i-1ce6f2fd618b62f6-0" n="9f3173ad">
+          <u who="lars_schott_039d4c" xml:id="i-9f3173ad99a02c4f-0" n="9f3173ad">
             <seg n="c738ed15">
               Herr talman! Först ber jag att få tacka industriminister Åsling
               för svaret på min fråga angående hans vilja att medverka till
@@ -3080,7 +3207,7 @@
           <note type="speaker" n="f7ce3b2b">
             Herr industriministern ÅSLING:
           </note>
-          <u who="nils_asling_f5a3d5" xml:id="i-f5e4fbe8eef4e656-0" n="a6de29f9">
+          <u who="nils_asling_f5a3d5" xml:id="i-a6de29f9cb5c9086-7" next="i-a6de29f9cb5c9086-8" n="a6de29f9">
             <seg n="0e48fcd4">
               Herr talman! Det kanske inte har varit möjligt inom ramen för
               mitt korta svar att närmare analysera situationen på Gotland.
@@ -3091,7 +3218,9 @@
               understryka att jag är medveten om detta.
             </seg>
             <seg n="ef890aca"/>
-            <seg n="ef890aca"/>
+          </u>
+          <pb n="36" facs="https://betalab.kb.se/prot-197677--25/prot_197677__25-036.jp2/_view"/>
+          <u who="nils_asling_f5a3d5" xml:id="i-a6de29f9cb5c9086-8" prev="i-a6de29f9cb5c9086-7" n="a6de29f9">
             <seg n="ef890aca"/>
             <seg n="d22979b4">
               Det måste dock, herr Schött, vara rimligt, när man är inne i
@@ -3106,11 +3235,10 @@
               ju vara en väsentlig favör för det gotländska näringslivet.
             </seg>
           </u>
-          <pb n="36" facs="https://betalab.kb.se/prot-197677--25/prot_197677__25-036.jp2/_view"/>
           <note type="speaker" n="394db4aa">
             Herr SCHÖTT (m):
           </note>
-          <u who="lars_schott_039d4c" xml:id="i-9c0a2f5598365136-0" next="i-6d4dcde3386bebb1-0" n="9f3173ad">
+          <u who="lars_schott_039d4c" xml:id="i-9f3173ad99a02c4f-1" next="i-9f3173ad99a02c4f-7" n="9f3173ad">
             <seg n="a969f362">
               Herr talman! Jag vill tacka för tillägget till svaret. Min kommentar
               är, att länsstyrelsen torde vara väl medveten om vilka förmåner
@@ -3131,10 +3259,16 @@
           <note n="a3135f6d">
             Överläggningen var härmed slutad.
           </note>
-          <u who="lars_schott_039d4c" xml:id="i-6d4dcde3386bebb1-0" prev="i-9c0a2f5598365136-0" n="9f3173ad">
+          <u who="lars_schott_039d4c" xml:id="i-9f3173ad99a02c4f-2" prev="i-9f3173ad99a02c4f-1" n="9f3173ad">
             <seg n="31f6de18">
               $ 18 Om åtgärder för att stimulera prospektering
             </seg>
+          </u>
+          <note n="e329428b">
+            Herr industriministern ÅSLING erhöll ordet för att besvara herr
+            Nyquists (s) den 28 oktober anmälda fråga, 1976/77:44, och anförde:
+          </note>
+          <u who="lars_schott_039d4c" xml:id="i-9f3173ad99a02c4f-3" prev="i-9f3173ad99a02c4f-1" n="9f3173ad">
             <seg n="6be7f912">
               Herr talman! Herr Nyquist har frågat mig om jag är beredd att
               vidta åtgärder för att stimulera prospekteringen inom landet,
@@ -3161,13 +3295,41 @@
               Jag räknar med att utredningen i det sammanhanget tar upp frågor
               som rör
             </seg>
+          </u>
+          <note n="bd0f0911">
+            Nr 25 Torsdagen den
+          </note>
+          <note n="bbd26bc0">
+            11 november 1976
+          </note>
+          <u who="lars_schott_039d4c" xml:id="i-9f3173ad99a02c4f-4" prev="i-9f3173ad99a02c4f-1" n="9f3173ad">
             <seg n="bd65dce0">
               Om åtgärder för att
             </seg>
-            <seg n="ef890aca"/>
+          </u>
+          <note n="ff886f27">
+            stimulera prospek-
+          </note>
+          <note n="050a1b57">
+            tering
+          </note>
+          <note n="2943d584">
+            37
+          </note>
+          <pb n="37" facs="https://betalab.kb.se/prot-197677--25/prot_197677__25-037.jp2/_view"/>
+          <u who="lars_schott_039d4c" xml:id="i-9f3173ad99a02c4f-5" prev="i-9f3173ad99a02c4f-1" n="9f3173ad"/>
+          <note type="date" n="46181b78">
+            Nr 25 Torsdagen den 11 november 1976
+          </note>
+          <u who="lars_schott_039d4c" xml:id="i-9f3173ad99a02c4f-6" prev="i-9f3173ad99a02c4f-1" n="9f3173ad">
             <seg n="7882317b">
               Om åtgärder för att stimulera prospektering
             </seg>
+          </u>
+          <note n="01f8830c">
+            38
+          </note>
+          <u who="lars_schott_039d4c" xml:id="i-9f3173ad99a02c4f-7" prev="i-9f3173ad99a02c4f-1" n="9f3173ad">
             <seg n="0bef401d">
               prospekteringen, t. ex. hur mycket vi skall prospektera och vilka
               metaller prospekteringen skall inriktas på.
@@ -3184,36 +3346,10 @@
               att gå närmare in på nu.
             </seg>
           </u>
-          <note n="e329428b">
-            Herr industriministern ÅSLING erhöll ordet för att besvara herr
-            Nyquists (s) den 28 oktober anmälda fråga, 1976/77:44, och anförde:
-          </note>
-          <note n="bd0f0911">
-            Nr 25 Torsdagen den
-          </note>
-          <note n="bbd26bc0">
-            11 november 1976
-          </note>
-          <note n="ff886f27">
-            stimulera prospek-
-          </note>
-          <note n="050a1b57">
-            tering
-          </note>
-          <note n="2943d584">
-            37
-          </note>
-          <pb n="37" facs="https://betalab.kb.se/prot-197677--25/prot_197677__25-037.jp2/_view"/>
-          <note n="f37b7680">
-            Nr 25 Torsdagen den 11 november 1976
-          </note>
-          <note n="01f8830c">
-            38
-          </note>
           <note type="speaker" n="ce254018">
             Herr NYQUIST (s):
           </note>
-          <u who="yngve_nyquist_a70a65" xml:id="i-de2ba056f385e45e-0" next="i-b4b8987e3ac2d524-0" n="97e66910">
+          <u who="yngve_nyquist_a70a65" xml:id="i-97e6691089f4a43d-0" next="i-97e6691089f4a43d-6" n="97e66910">
             <seg n="e0511ae1">
               Herr talman! Jag ber att få tacka herr statsrådet för svaret
               på min fråga.
@@ -3264,7 +3400,7 @@
             ledningen av kammarens förhandlingar, var överläggningen slutad.
           </note>
           <pb n="38" facs="https://betalab.kb.se/prot-197677--25/prot_197677__25-038.jp2/_view"/>
-          <u who="yngve_nyquist_a70a65" xml:id="i-b4b8987e3ac2d524-0" prev="i-de2ba056f385e45e-0" n="97e66910">
+          <u who="yngve_nyquist_a70a65" xml:id="i-97e6691089f4a43d-1" prev="i-97e6691089f4a43d-0" n="97e66910">
             <seg n="ef890aca"/>
             <seg n="d29fd5d4">
               $ 19 Om beskattningen av företag som driver verksamhet i flera
@@ -3273,6 +3409,12 @@
             <seg n="676404d7">
               kommuner Torsdagen den
             </seg>
+          </u>
+          <note n="47ae0ea3">
+            11 november 1976 Herr statsrådet MUNDEBO erhöll ordet för att
+            besvara herr Börjessons
+          </note>
+          <u who="yngve_nyquist_a70a65" xml:id="i-97e6691089f4a43d-2" prev="i-97e6691089f4a43d-0" n="97e66910">
             <seg n="5ea6b8ab">
               i Falköping (c) den 27 oktober anmälda fråga, 1976/77:40, till
               herr fis Om beskattningen nansministern, och anförde: av företag
@@ -3302,6 +3444,11 @@
               företagsskatteberedningens snart väntade förslag om nya principer
               för rörelsebeskattningen.
             </seg>
+          </u>
+          <note n="181f5141">
+            Herr BÖRJESSON i Falköping (c):
+          </note>
+          <u who="yngve_nyquist_a70a65" xml:id="i-97e6691089f4a43d-3" prev="i-97e6691089f4a43d-0" n="97e66910">
             <seg n="7b07895c">
               Herr talman! Jag ber att få framföra ett tack till statsrådet
               Mundebo för det svar han har lämnat på min fråga.
@@ -3323,13 +3470,27 @@
               min uppfattning att principen bör vara att huvuddelen av vinsten
               skall beskattas 39
             </seg>
-            <seg n="ef890aca"/>
+          </u>
+          <pb n="39" facs="https://betalab.kb.se/prot-197677--25/prot_197677__25-039.jp2/_view"/>
+          <u who="yngve_nyquist_a70a65" xml:id="i-97e6691089f4a43d-4" prev="i-97e6691089f4a43d-0" n="97e66910"/>
+          <note n="12d546b8">
+            Nr 25
+          </note>
+          <note type="date" n="aa8d4d9e">
+            Torsdagen den 11 november 1976
+          </note>
+          <u who="yngve_nyquist_a70a65" xml:id="i-97e6691089f4a43d-5" prev="i-97e6691089f4a43d-0" n="97e66910">
             <seg n="6917ac0c">
               Om vidgad rätt att
             </seg>
             <seg n="c450c920">
               avsätta medel på skogskonto
             </seg>
+          </u>
+          <note n="3a3547d9">
+            40
+          </note>
+          <u who="yngve_nyquist_a70a65" xml:id="i-97e6691089f4a43d-6" prev="i-97e6691089f4a43d-0" n="97e66910">
             <seg n="b406c635">
               i den kommun där varan är producerad. Jag delar statsrådet Mundebos
               uppfattning att denna inkomstfördelning kan vara komplicerad,
@@ -3350,27 +3511,10 @@
               men jag skulle gärna vilja ha det preciserat, om det är möjligt.
             </seg>
           </u>
-          <note n="47ae0ea3">
-            11 november 1976 Herr statsrådet MUNDEBO erhöll ordet för att
-            besvara herr Börjessons
-          </note>
-          <note n="181f5141">
-            Herr BÖRJESSON i Falköping (c):
-          </note>
-          <pb n="39" facs="https://betalab.kb.se/prot-197677--25/prot_197677__25-039.jp2/_view"/>
-          <note n="12d546b8">
-            Nr 25
-          </note>
-          <note n="151add49">
-            Torsdagen den 11 november 1976
-          </note>
-          <note n="3a3547d9">
-            40
-          </note>
           <note type="speaker" n="a4f8d60e">
             Herr statsrådet MUNDEBO:
           </note>
-          <u who="ingemar_mundebo_dfcfac" xml:id="i-a5823ae339c01a18-0" next="i-22dc438a5b0975af-0" n="00db0059">
+          <u who="ingemar_mundebo_dfcfac" xml:id="i-00db0059b2fc6a3c-0" next="i-00db0059b2fc6a3c-4" n="00db0059">
             <seg n="af562f17">
               Herr talman! Ett av skälen till att jag inte nu vill ge företagsskatteberedningen
               tilläggsdirektiv är att beredningen är i slutskedet av sitt arbete.
@@ -3384,7 +3528,7 @@
           <note n="181f5141">
             Herr BÖRJESSON i Falköping (c):
           </note>
-          <u who="ingemar_mundebo_dfcfac" xml:id="i-22dc438a5b0975af-0" prev="i-a5823ae339c01a18-0" n="00db0059">
+          <u who="ingemar_mundebo_dfcfac" xml:id="i-00db0059b2fc6a3c-1" prev="i-00db0059b2fc6a3c-0" n="00db0059">
             <seg n="b6b8684c">
               Herr talman! Jag ber att få tacka för det kompletterande svar
               som jag nu har fått. Det innehåller en klar precisering att vi
@@ -3398,9 +3542,20 @@
               betänkande innan ställning skall tas till denna viktiga principiella
               fråga.
             </seg>
+          </u>
+          <note n="a3135f6d">
+            Överläggningen var härmed slutad.
+          </note>
+          <u who="ingemar_mundebo_dfcfac" xml:id="i-00db0059b2fc6a3c-2" prev="i-00db0059b2fc6a3c-0" n="00db0059">
             <seg n="fea95382">
               $ 20 Om vidgad rätt att avsätta medel på skogskonto
             </seg>
+          </u>
+          <note n="4c3aafc9">
+            Herr statsrådet MUNDEBO erhöll ordet för att besvara herr Jonassons
+            (c) den 28 oktober anmälda fråga, 1976/77:47, och anförde:
+          </note>
+          <u who="ingemar_mundebo_dfcfac" xml:id="i-00db0059b2fc6a3c-3" prev="i-00db0059b2fc6a3c-0" n="00db0059">
             <seg n="28b2938c">
               Herr talman! Herr Jonasson har frågat mig om jag är beredd att
               medverka till att införa en generell möjlighet till ökad insättning
@@ -3411,7 +3566,9 @@
               för
             </seg>
             <seg n="ef890aca"/>
-            <seg n="ef890aca"/>
+          </u>
+          <pb n="40" facs="https://betalab.kb.se/prot-197677--25/prot_197677__25-040.jp2/_view"/>
+          <u who="ingemar_mundebo_dfcfac" xml:id="i-00db0059b2fc6a3c-4" prev="i-00db0059b2fc6a3c-0" n="00db0059">
             <seg n="7c318c1c">
               rotsåld skog och högst 40 96 av köpeskillingen för leveranstimmer.
               Skogs- — Nr 25 ägare som har drabbats av stormfällning har emellertid
@@ -3446,18 +3603,10 @@
               som f. n. sker inom finansdepartementet.
             </seg>
           </u>
-          <note n="a3135f6d">
-            Överläggningen var härmed slutad.
-          </note>
-          <note n="4c3aafc9">
-            Herr statsrådet MUNDEBO erhöll ordet för att besvara herr Jonassons
-            (c) den 28 oktober anmälda fråga, 1976/77:47, och anförde:
-          </note>
-          <pb n="40" facs="https://betalab.kb.se/prot-197677--25/prot_197677__25-040.jp2/_view"/>
           <note type="speaker" n="4aeab69b">
             Herr NORRBY (c):
           </note>
-          <u who="karl-eric_norrby_561f13" xml:id="i-161ad548749e102c-0" next="i-36cbb166d81ae9c4-0" n="6ffdd92d">
+          <u who="karl-eric_norrby_561f13" xml:id="i-a3aa2ae7af6c2a99-0" next="i-a3aa2ae7af6c2a99-6" n="6ffdd92d">
             <seg n="37347ded">
               Herr talman! Då herr Jonasson är förhindrad att närvara har han
               vidtalat mig att ta emot svaret på hans fråga, och jag tackar
@@ -3480,19 +3629,24 @@
               skogsägarna hugga bort skogen? frågas det. Anledningen härtill
               är att skogsägaren i så fall 41
             </seg>
-            <seg n="ef890aca"/>
           </u>
           <pb n="41" facs="https://betalab.kb.se/prot-197677--25/prot_197677__25-041.jp2/_view"/>
+          <u who="karl-eric_norrby_561f13" xml:id="i-a3aa2ae7af6c2a99-1" prev="i-a3aa2ae7af6c2a99-0" n="6ffdd92d"/>
           <note n="12d546b8">
             Nr 25
           </note>
-          <note n="151add49">
+          <note type="date" n="aa8d4d9e">
             Torsdagen den 11 november 1976
           </note>
-          <u who="karl-eric_norrby_561f13" xml:id="i-36cbb166d81ae9c4-0" prev="i-161ad548749e102c-0" n="6ffdd92d">
+          <u who="karl-eric_norrby_561f13" xml:id="i-a3aa2ae7af6c2a99-2" prev="i-a3aa2ae7af6c2a99-0" n="6ffdd92d">
             <seg n="bfcd9ca6">
               Om avstyckningar för bostadsändamål i jordbruksbygd
             </seg>
+          </u>
+          <note n="8836a65e">
+            42
+          </note>
+          <u who="karl-eric_norrby_561f13" xml:id="i-a3aa2ae7af6c2a99-3" prev="i-a3aa2ae7af6c2a99-0" n="6ffdd92d">
             <seg n="52767f35">
               måste avverka flera års tillväxt på en gång, och därigenom drabbas
               han av höga skatter. En utjämning av inkomsterna över flera år
@@ -3529,9 +3683,21 @@
             <seg n="a791480f">
               Därmed tackar jag än en gång för svaret.
             </seg>
+          </u>
+          <note n="a3135f6d">
+            Överläggningen var härmed slutad.
+          </note>
+          <u who="karl-eric_norrby_561f13" xml:id="i-a3aa2ae7af6c2a99-4" prev="i-a3aa2ae7af6c2a99-0" n="6ffdd92d">
             <seg n="f2f1bdde">
               $ 21 Om avstyckningar för bostadsändamål i jordbruksbygd
             </seg>
+          </u>
+          <note n="957a17af">
+            Fru bostadsministern OLSSON erhöll ordet för att besvara herr
+            Fågelsbos (c) den 12 oktober anmälda interpellation, 1976/77:2,
+            och anförde:
+          </note>
+          <u who="karl-eric_norrby_561f13" xml:id="i-a3aa2ae7af6c2a99-5" prev="i-a3aa2ae7af6c2a99-0" n="6ffdd92d">
             <seg n="eae5b446">
               Herr talman! Herr Fågelsbo har frågat mig om jag är beredd att
               medverka till att avstyckningar för bostadsändamål kan ske i de
@@ -3552,7 +3718,9 @@
               att byggnadsföretaget inte strider mot den allmänna lämplighetsregel
               som finns i 29 $ byggnadsstadgan.
             </seg>
-            <seg n="ef890aca"/>
+          </u>
+          <pb n="42" facs="https://betalab.kb.se/prot-197677--25/prot_197677__25-042.jp2/_view"/>
+          <u who="karl-eric_norrby_561f13" xml:id="i-a3aa2ae7af6c2a99-6" prev="i-a3aa2ae7af6c2a99-0" n="6ffdd92d">
             <seg n="ef890aca"/>
             <seg n="e07089ec">
               Vid dessa allmänna lämplighetsprövningar är det i första fallet
@@ -3580,22 +3748,10 @@
               ange, men frågan är föremål för regeringens prövning.
             </seg>
           </u>
-          <note n="8836a65e">
-            42
-          </note>
-          <note n="a3135f6d">
-            Överläggningen var härmed slutad.
-          </note>
-          <note n="957a17af">
-            Fru bostadsministern OLSSON erhöll ordet för att besvara herr
-            Fågelsbos (c) den 12 oktober anmälda interpellation, 1976/77:2,
-            och anförde:
-          </note>
-          <pb n="42" facs="https://betalab.kb.se/prot-197677--25/prot_197677__25-042.jp2/_view"/>
           <note type="speaker" n="52c32e41">
             Herr FÅGELSBO (c):
           </note>
-          <u who="anton_e_fagelsbo_12dba3" xml:id="i-b05524cad5f5ef23-1" next="i-15375b957247f887-1" n="0901ed95">
+          <u who="anton_e_fagelsbo_12dba3" xml:id="i-0901ed95f83ce243-8" next="i-0901ed95f83ce243-13" n="0901ed95">
             <seg n="9acb83b7">
               Herr talman! Jag vill rikta ett tack till fru statsrådet Olsson
               för att jag har fått min interpellation besvarad. Anledningen
@@ -3645,15 +3801,34 @@
           <note n="454f494d">
             Om avstyckningar
           </note>
-          <u who="anton_e_fagelsbo_12dba3" xml:id="i-15375b957247f887-1" prev="i-b05524cad5f5ef23-1" n="0901ed95">
+          <u who="anton_e_fagelsbo_12dba3" xml:id="i-0901ed95f83ce243-9" prev="i-0901ed95f83ce243-8" n="0901ed95">
             <seg n="96d9689f">
               för bostadsändamål
             </seg>
+          </u>
+          <note n="8869de98">
+            i jordbruksbygd
+          </note>
+          <note n="7911b983">
+            43
+          </note>
+          <pb n="43" facs="https://betalab.kb.se/prot-197677--25/prot_197677__25-043.jp2/_view"/>
+          <note n="12d546b8">
+            Nr 25
+          </note>
+          <note type="date" n="aa8d4d9e">
+            Torsdagen den 11 november 1976
+          </note>
+          <u who="anton_e_fagelsbo_12dba3" xml:id="i-0901ed95f83ce243-10" prev="i-0901ed95f83ce243-8" n="0901ed95">
             <seg n="4d1f7c31">
               Om tidpunkten för byggande av reaktor 3 vid kärnkraftverket i
               Simpevarp
             </seg>
-            <seg n="ef890aca"/>
+          </u>
+          <note n="d03ef220">
+            44
+          </note>
+          <u who="anton_e_fagelsbo_12dba3" xml:id="i-0901ed95f83ce243-11" prev="i-0901ed95f83ce243-8" n="0901ed95">
             <seg n="a082ec73">
               Det här är alltså ett exempel på hur den fråga som jag har framställt
               i min interpellation kan lösas. Och går det att fastställa ett
@@ -3670,10 +3845,22 @@
               av en statlig myndighet. Jag ifrågasätter då om inte samma möjlighet
               står till buds för andra.
             </seg>
+          </u>
+          <note n="a3135f6d">
+            Överläggningen var härmed slutad.
+          </note>
+          <u who="anton_e_fagelsbo_12dba3" xml:id="i-0901ed95f83ce243-12" prev="i-0901ed95f83ce243-8" n="0901ed95">
             <seg n="469affcd">
               $ 22 Om tidpunkten för byggande av reaktor 3 vid kärnkraftverket
               i Simpevarp
             </seg>
+          </u>
+          <note n="202845ae">
+            Herr statsrådet JOHANSSON erhöll ordet för att besvara herr Rosqvists
+            (s) den 21 oktober anmälda fråga, 1976/77:23, till herr arbetsmarknadsministern,
+            och anförde:
+          </note>
+          <u who="anton_e_fagelsbo_12dba3" xml:id="i-0901ed95f83ce243-13" prev="i-0901ed95f83ce243-8" n="0901ed95">
             <seg n="ba14d763">
               Herr talman! Herr Rosqvist har frågat arbetsmarknadsministern
               vilket besked han kan ge kommun, anläggningsarbetare samt stora
@@ -3698,34 +3885,10 @@
               kan påbörjas.
             </seg>
           </u>
-          <note n="8869de98">
-            i jordbruksbygd
-          </note>
-          <note n="7911b983">
-            43
-          </note>
-          <pb n="43" facs="https://betalab.kb.se/prot-197677--25/prot_197677__25-043.jp2/_view"/>
-          <note n="12d546b8">
-            Nr 25
-          </note>
-          <note n="151add49">
-            Torsdagen den 11 november 1976
-          </note>
-          <note n="d03ef220">
-            44
-          </note>
-          <note n="a3135f6d">
-            Överläggningen var härmed slutad.
-          </note>
-          <note n="202845ae">
-            Herr statsrådet JOHANSSON erhöll ordet för att besvara herr Rosqvists
-            (s) den 21 oktober anmälda fråga, 1976/77:23, till herr arbetsmarknadsministern,
-            och anförde:
-          </note>
           <note type="speaker" n="00606e67">
             Herr ROSQVIST (s):
           </note>
-          <u who="birger_rosqvist_c811a0" xml:id="i-79af2cec0fe28f77-0" n="9f43eb6a">
+          <u who="birger_rosqvist_c811a0" xml:id="i-9f43eb6a4a84ea39-0" next="i-9f43eb6a4a84ea39-1" n="9f43eb6a">
             <seg n="9e2343be">
               Herr talman! Jag tackar energiministern för svaret på min fråga.
               Varken jag, kommunen, företaget eller den arbetskraft som var
@@ -3742,7 +3905,9 @@
               kommunala och privata företag.
             </seg>
             <seg n="ef890aca"/>
-            <seg n="ef890aca"/>
+          </u>
+          <pb n="44" facs="https://betalab.kb.se/prot-197677--25/prot_197677__25-044.jp2/_view"/>
+          <u who="birger_rosqvist_c811a0" xml:id="i-9f43eb6a4a84ea39-1" prev="i-9f43eb6a4a84ea39-0" n="9f43eb6a">
             <seg n="ef890aca"/>
             <seg n="5ca3ae6e">
               Företaget i detta fall har inte bara att sätta i gång efter det
@@ -3779,11 +3944,10 @@
               ”godtagbart” och ”helt säker slutlig deponering”?
             </seg>
           </u>
-          <pb n="44" facs="https://betalab.kb.se/prot-197677--25/prot_197677__25-044.jp2/_view"/>
           <note type="speaker" n="ab017c2f">
             Herr statsrådet JOHANSSON:
           </note>
-          <u who="tyra_johansson_60ed7b" xml:id="i-0599ea338a654e53-0" next="i-77a15f19f0099349-0" n="f507d25b">
+          <u who="tyra_johansson_60ed7b" xml:id="i-f507d25b0636f9fd-0" next="i-f507d25b0636f9fd-3" n="f507d25b">
             <seg n="be4aaf9b">
               Herr talman! Herr Rosqvist har i sin fråga i första hand ägnat
               sig åt den arbetsmarknadspolitiska aspekten och frågat om tidpunkten
@@ -3817,14 +3981,9 @@
           <note n="bbd26bc0">
             11 november 1976
           </note>
-          <u who="tyra_johansson_60ed7b" xml:id="i-77a15f19f0099349-0" prev="i-0599ea338a654e53-0" n="f507d25b">
+          <u who="tyra_johansson_60ed7b" xml:id="i-f507d25b0636f9fd-1" prev="i-f507d25b0636f9fd-0" n="f507d25b">
             <seg n="76c4a84f">
               Om tidpunkten för byggande av reaktor 3 vid kärnkraftver-
-            </seg>
-            <seg n="ef890aca"/>
-            <seg n="4d1f7c31">
-              Om tidpunkten för byggande av reaktor 3 vid kärnkraftverket i
-              Simpevarp
             </seg>
           </u>
           <note n="3a85d826">
@@ -3834,19 +3993,26 @@
             n
           </note>
           <pb n="45" facs="https://betalab.kb.se/prot-197677--25/prot_197677__25-045.jp2/_view"/>
+          <u who="tyra_johansson_60ed7b" xml:id="i-f507d25b0636f9fd-2" prev="i-f507d25b0636f9fd-0" n="f507d25b"/>
           <note n="12d546b8">
             Nr 25
           </note>
-          <note n="151add49">
+          <note type="date" n="aa8d4d9e">
             Torsdagen den 11 november 1976
           </note>
+          <u who="tyra_johansson_60ed7b" xml:id="i-f507d25b0636f9fd-3" prev="i-f507d25b0636f9fd-0" n="f507d25b">
+            <seg n="4d1f7c31">
+              Om tidpunkten för byggande av reaktor 3 vid kärnkraftverket i
+              Simpevarp
+            </seg>
+          </u>
           <note n="5dbd5300">
             46
           </note>
           <note type="speaker" n="00606e67">
             Herr ROSQVIST (s):
           </note>
-          <u who="birger_rosqvist_c811a0" xml:id="i-79af2cec0fe28f77-1" n="9f43eb6a">
+          <u who="birger_rosqvist_c811a0" xml:id="i-9f43eb6a4a84ea39-2" n="9f43eb6a">
             <seg n="96cd55bf">
               Herr talman! Det är riktigt att jag ställt min fråga med tanke
               på arbetsmarknadssynpunkter. Sysselsättningsfrågorna är brännande
@@ -3880,7 +4046,7 @@
           <note type="speaker" n="ab017c2f">
             Herr statsrådet JOHANSSON:
           </note>
-          <u who="tyra_johansson_60ed7b" xml:id="i-3aa2565036fba828-0" n="f507d25b">
+          <u who="tyra_johansson_60ed7b" xml:id="i-f507d25b0636f9fd-4" n="f507d25b">
             <seg n="a78accb2">
               Herr talman! Även den sedan lång tid gällande atomenergilagen
               förutsätter att regeringen skall kunna gå in och ändra eller begränsa
@@ -3910,13 +4076,15 @@
           <note type="speaker" n="00606e67">
             Herr ROSQVIST (s):
           </note>
-          <u who="birger_rosqvist_c811a0" xml:id="i-79af2cec0fe28f77-2" n="9f43eb6a">
+          <u who="birger_rosqvist_c811a0" xml:id="i-9f43eb6a4a84ea39-3" next="i-9f43eb6a4a84ea39-4" n="9f43eb6a">
             <seg n="77c2ac21">
               Herr talman! Till det sista vill jag säga att länsmyndigheterna
               i Kalmar län arbetar för lokaliseringar till länet. Det måste
               i vissa fall ske ut-
             </seg>
-            <seg n="ef890aca"/>
+          </u>
+          <pb n="46" facs="https://betalab.kb.se/prot-197677--25/prot_197677__25-046.jp2/_view"/>
+          <u who="birger_rosqvist_c811a0" xml:id="i-9f43eb6a4a84ea39-4" prev="i-9f43eb6a4a84ea39-3" n="9f43eb6a">
             <seg n="ef890aca"/>
             <seg n="51abafdc">
               lokaliseringar från mera lyckligt lottade regioner.
@@ -3931,11 +4099,10 @@
               har fått här i dag.
             </seg>
           </u>
-          <pb n="46" facs="https://betalab.kb.se/prot-197677--25/prot_197677__25-046.jp2/_view"/>
           <note type="speaker" n="ab017c2f">
             Herr statsrådet JOHANSSON:
           </note>
-          <u who="tyra_johansson_60ed7b" xml:id="i-3aa2565036fba828-1" n="f507d25b">
+          <u who="tyra_johansson_60ed7b" xml:id="i-f507d25b0636f9fd-5" n="f507d25b">
             <seg n="386ff811">
               Herr talman! Grunden är naturligtvis att problemen med upparbetningen
               och deponeringen av det högaktiva avfallet icke har lösts. Villkor
@@ -3949,7 +4116,7 @@
           <note type="speaker" n="00606e67">
             Herr ROSQVIST (s):
           </note>
-          <u who="birger_rosqvist_c811a0" xml:id="i-79af2cec0fe28f77-3" n="9f43eb6a">
+          <u who="birger_rosqvist_c811a0" xml:id="i-9f43eb6a4a84ea39-5" n="9f43eb6a">
             <seg n="eab73429">
               Herr talman! Jag vill upplysa om att Oskarshamns kraftgrupp har
               upparbetningsavtal för Oskarshamn 1 och Oskarshamn 2 som gäller
@@ -3976,7 +4143,7 @@
           <note type="speaker" n="ab017c2f">
             Herr statsrådet JOHANSSON:
           </note>
-          <u who="tyra_johansson_60ed7b" xml:id="i-3aa2565036fba828-2" n="f507d25b">
+          <u who="tyra_johansson_60ed7b" xml:id="i-f507d25b0636f9fd-6" n="f507d25b">
             <seg n="a3155158">
               Herr talman! Det som herr Rosqvist nu nämner försvarar inte på
               något sätt att vi har haft ett villkorslöst tillstånd när det
@@ -3988,7 +4155,7 @@
           <note type="speaker" n="00606e67">
             Herr ROSQVIST (s):
           </note>
-          <u who="birger_rosqvist_c811a0" xml:id="i-37972930eeed2228-0" next="i-50a7d120970f6b11-0" n="9f43eb6a">
+          <u who="birger_rosqvist_c811a0" xml:id="i-9f43eb6a4a84ea39-6" next="i-9f43eb6a4a84ea39-11" n="9f43eb6a">
             <seg n="c1698458">
               Herr talman! Om problemen kommer eller inte kan energiministern
               och jag tvista om hur länge som helst, men Aka-utredningen har
@@ -4006,7 +4173,7 @@
           <note n="bbd26bc0">
             11 november 1976
           </note>
-          <u who="birger_rosqvist_c811a0" xml:id="i-50a7d120970f6b11-0" prev="i-37972930eeed2228-0" n="9f43eb6a">
+          <u who="birger_rosqvist_c811a0" xml:id="i-9f43eb6a4a84ea39-7" prev="i-9f43eb6a4a84ea39-6" n="9f43eb6a">
             <seg n="b14c0f73">
               Om tidpunkten för
             </seg>
@@ -4016,7 +4183,31 @@
             <seg n="d873ec9a">
               kärnkraftverket i
             </seg>
-            <seg n="ef890aca"/>
+          </u>
+          <note n="5a0b6ac5">
+            Simpevarp
+          </note>
+          <note n="fcf3f8c8">
+            47
+          </note>
+          <pb n="47" facs="https://betalab.kb.se/prot-197677--25/prot_197677__25-047.jp2/_view"/>
+          <u who="birger_rosqvist_c811a0" xml:id="i-9f43eb6a4a84ea39-8" prev="i-9f43eb6a4a84ea39-6" n="9f43eb6a"/>
+          <note n="12d546b8">
+            Nr 25
+          </note>
+          <note type="date" n="aa8d4d9e">
+            Torsdagen den 11 november 1976
+          </note>
+          <note n="fdafaaaf">
+            Om den framtida
+          </note>
+          <note n="1e5f9b5a">
+            Sysselsättningen för anställda vid kärnkraftsbyggen, m. m.
+          </note>
+          <note n="10c48dfd">
+            48
+          </note>
+          <u who="birger_rosqvist_c811a0" xml:id="i-9f43eb6a4a84ea39-9" prev="i-9f43eb6a4a84ea39-6" n="9f43eb6a">
             <seg n="87d21db0">
               remissinstanserna. Men förhåller det sig verkligen på det sättet?
               Press och massmedia har främst tagit fram de negativa synpunkter
@@ -4026,6 +4217,19 @@
               av representanter för samtliga politiska partier här i riksdagen,
               och de var eniga i sitt betänkande.
             </seg>
+          </u>
+          <note n="a3135f6d">
+            Överläggningen var härmed slutad.
+          </note>
+          <note n="b9484504">
+            $ 23 Om den framtida sysselsättningen för anställda vid kärnkraftsbyggen,
+            m. m.
+          </note>
+          <note n="db7219a9">
+            Herr statsrådet JOHANSSON erhöll ordet för att besvara herr Hjorths
+            (s) den 15 oktober anmälda interpellation, 1976/77:8, och anförde:
+          </note>
+          <u who="birger_rosqvist_c811a0" xml:id="i-9f43eb6a4a84ea39-10" prev="i-9f43eb6a4a84ea39-6" n="9f43eb6a">
             <seg n="f4e53256">
               Herr talman! Herr Hjorth har frågat mig
             </seg>
@@ -4073,7 +4277,9 @@
               av säkerheten. Borgensbelopp för investeringar i Forsmarksbolaget
               avses komma att ställas till vat-
             </seg>
-            <seg n="ef890aca"/>
+          </u>
+          <pb n="48" facs="https://betalab.kb.se/prot-197677--25/prot_197677__25-048.jp2/_view"/>
+          <u who="birger_rosqvist_c811a0" xml:id="i-9f43eb6a4a84ea39-11" prev="i-9f43eb6a4a84ea39-6" n="9f43eb6a">
             <seg n="4ac4ffde">
               tenfallsverkets disposition först efter särskild framställning
               från verket. Nr 25 Regeringen har då att pröva grunderna för framställningen,
@@ -4095,44 +4301,10 @@
               och privatekonomiska effekter kommer att behandlas.
             </seg>
           </u>
-          <note n="5a0b6ac5">
-            Simpevarp
-          </note>
-          <note n="fcf3f8c8">
-            47
-          </note>
-          <pb n="47" facs="https://betalab.kb.se/prot-197677--25/prot_197677__25-047.jp2/_view"/>
-          <note n="12d546b8">
-            Nr 25
-          </note>
-          <note n="151add49">
-            Torsdagen den 11 november 1976
-          </note>
-          <note n="fdafaaaf">
-            Om den framtida
-          </note>
-          <note n="1e5f9b5a">
-            Sysselsättningen för anställda vid kärnkraftsbyggen, m. m.
-          </note>
-          <note n="10c48dfd">
-            48
-          </note>
-          <note n="a3135f6d">
-            Överläggningen var härmed slutad.
-          </note>
-          <note n="b9484504">
-            $ 23 Om den framtida sysselsättningen för anställda vid kärnkraftsbyggen,
-            m. m.
-          </note>
-          <note n="db7219a9">
-            Herr statsrådet JOHANSSON erhöll ordet för att besvara herr Hjorths
-            (s) den 15 oktober anmälda interpellation, 1976/77:8, och anförde:
-          </note>
-          <pb n="48" facs="https://betalab.kb.se/prot-197677--25/prot_197677__25-048.jp2/_view"/>
           <note type="speaker" n="884f6cdd">
             Herr HJORTH (s):
           </note>
-          <u who="nils_hjorth_b04c09" xml:id="i-ed44daf0fa70811f-0" next="i-0052d947656427c9-0" n="df7a6c8c">
+          <u who="nils_hjorth_b04c09" xml:id="i-df7a6c8c7210c778-0" next="i-df7a6c8c7210c778-9" n="df7a6c8c">
             <seg n="0b4b6071">
               Herr talman! Innan jag går in på att kommentera energiministerns
               svar på min interpellation om kärnkraftverket i Forsmark, som
@@ -4173,7 +4345,20 @@
             4 Riksdagens protokoll 1976177:25-27
           </note>
           <pb n="49" facs="https://betalab.kb.se/prot-197677--25/prot_197677__25-049.jp2/_view"/>
-          <u who="nils_hjorth_b04c09" xml:id="i-0052d947656427c9-0" prev="i-ed44daf0fa70811f-0" n="df7a6c8c">
+          <u who="nils_hjorth_b04c09" xml:id="i-df7a6c8c7210c778-1" prev="i-df7a6c8c7210c778-0" n="df7a6c8c"/>
+          <note n="12d546b8">
+            Nr 25
+          </note>
+          <note type="date" n="aa8d4d9e">
+            Torsdagen den 11 november 1976
+          </note>
+          <note n="fdafaaaf">
+            Om den framtida
+          </note>
+          <note n="0f23ca3e">
+            sysselsättningen för anställda vid kärnkraftsbyggen, m.m.
+          </note>
+          <u who="nils_hjorth_b04c09" xml:id="i-df7a6c8c7210c778-2" prev="i-df7a6c8c7210c778-0" n="df7a6c8c">
             <seg n="2d57c084">
               tesatsen och det låga skatteunderlaget. Därför hälsades med tillfredsställelse
               förläggningen av det fjärde kärnkraftverket i vårt land till Forsmark.
@@ -4234,7 +4419,9 @@
               andra hör hemma i olika delar av Norduppland, i Hallstavik-Norrtäljeområdet,
             </seg>
             <seg n="ef890aca"/>
-            <seg n="ef890aca"/>
+          </u>
+          <pb n="50" facs="https://betalab.kb.se/prot-197677--25/prot_197677__25-050.jp2/_view"/>
+          <u who="nils_hjorth_b04c09" xml:id="i-df7a6c8c7210c778-3" prev="i-df7a6c8c7210c778-0" n="df7a6c8c">
             <seg n="ef890aca"/>
             <seg n="8ca3ce6c">
               Enköping, en del i Västerås samt ett mindre antal i övriga landet.
@@ -4287,11 +4474,25 @@
               ansvaret på de olika kraftbolagen och låta dem ensamma svara för
               följderna, om inte deras förslag 51
             </seg>
-            <seg n="ef890aca"/>
+          </u>
+          <pb n="51" facs="https://betalab.kb.se/prot-197677--25/prot_197677__25-051.jp2/_view"/>
+          <u who="nils_hjorth_b04c09" xml:id="i-df7a6c8c7210c778-4" prev="i-df7a6c8c7210c778-0" n="df7a6c8c"/>
+          <note n="bd0f0911">
+            Nr 25 Torsdagen den
+          </note>
+          <note n="bbd26bc0">
+            11 november 1976
+          </note>
+          <u who="nils_hjorth_b04c09" xml:id="i-df7a6c8c7210c778-5" prev="i-df7a6c8c7210c778-0" n="df7a6c8c">
             <seg n="729c1aa4">
               Om den framtida sysselsättningen för anställda vid kärnkraftsbyggen,
               m.m.
             </seg>
+          </u>
+          <note n="8d681990">
+            52
+          </note>
+          <u who="nils_hjorth_b04c09" xml:id="i-df7a6c8c7210c778-6" prev="i-df7a6c8c7210c778-0" n="df7a6c8c">
             <seg n="d0b76c47">
               kunde godkännas av regeringen. Många har ställt sig undrande
               till uttalanden av statsministern och även av energiministern
@@ -4351,7 +4552,9 @@
               avveckling skulle medföra oerhörda problem, främst
             </seg>
             <seg n="ef890aca"/>
-            <seg n="ef890aca"/>
+          </u>
+          <pb n="52" facs="https://betalab.kb.se/prot-197677--25/prot_197677__25-052.jp2/_view"/>
+          <u who="nils_hjorth_b04c09" xml:id="i-df7a6c8c7210c778-7" prev="i-df7a6c8c7210c778-0" n="df7a6c8c">
             <seg n="b5be8145">
               för sysselsättningen för alla berörda men även och i särskilt
               hög grad Nr 25 för de många som har byggt egnahem och som nu kan
@@ -4404,8 +4607,27 @@
               man kommer fram till? Det blir efter vad jag förstår rena gissningar.
               Skall då kraft- 53
             </seg>
+          </u>
+          <pb n="53" facs="https://betalab.kb.se/prot-197677--25/prot_197677__25-053.jp2/_view"/>
+          <u who="nils_hjorth_b04c09" xml:id="i-df7a6c8c7210c778-8" prev="i-df7a6c8c7210c778-0" n="df7a6c8c">
             <seg n="ef890aca"/>
-            <seg n="ef890aca"/>
+          </u>
+          <note n="12d546b8">
+            Nr 25
+          </note>
+          <note type="date" n="aa8d4d9e">
+            Torsdagen den 11 november 1976
+          </note>
+          <note n="fdafaaaf">
+            Om den framtida
+          </note>
+          <note n="0f23ca3e">
+            sysselsättningen för anställda vid kärnkraftsbyggen, m.m.
+          </note>
+          <note n="58770627">
+            54
+          </note>
+          <u who="nils_hjorth_b04c09" xml:id="i-df7a6c8c7210c778-9" prev="i-df7a6c8c7210c778-0" n="df7a6c8c">
             <seg n="cf5feaf6">
               bolagen ställas till ansvar för att de inte kunnat tolka regeringens
               intentioner i förväg? Man hinner väl inte heller utreda säkerhetskraven
@@ -4452,50 +4674,10 @@
               i synnerhet.
             </seg>
           </u>
-          <note n="12d546b8">
-            Nr 25
-          </note>
-          <note n="151add49">
-            Torsdagen den 11 november 1976
-          </note>
-          <note n="fdafaaaf">
-            Om den framtida
-          </note>
-          <note n="0f23ca3e">
-            sysselsättningen för anställda vid kärnkraftsbyggen, m.m.
-          </note>
-          <pb n="50" facs="https://betalab.kb.se/prot-197677--25/prot_197677__25-050.jp2/_view"/>
-          <pb n="51" facs="https://betalab.kb.se/prot-197677--25/prot_197677__25-051.jp2/_view"/>
-          <note n="bd0f0911">
-            Nr 25 Torsdagen den
-          </note>
-          <note n="bbd26bc0">
-            11 november 1976
-          </note>
-          <note n="8d681990">
-            52
-          </note>
-          <pb n="52" facs="https://betalab.kb.se/prot-197677--25/prot_197677__25-052.jp2/_view"/>
-          <pb n="53" facs="https://betalab.kb.se/prot-197677--25/prot_197677__25-053.jp2/_view"/>
-          <note n="12d546b8">
-            Nr 25
-          </note>
-          <note n="151add49">
-            Torsdagen den 11 november 1976
-          </note>
-          <note n="fdafaaaf">
-            Om den framtida
-          </note>
-          <note n="0f23ca3e">
-            sysselsättningen för anställda vid kärnkraftsbyggen, m.m.
-          </note>
-          <note n="58770627">
-            54
-          </note>
           <note type="speaker" n="ab017c2f">
             Herr statsrådet JOHANSSON:
           </note>
-          <u who="tyra_johansson_60ed7b" xml:id="i-0599ea338a654e53-1" next="i-77a15f19f0099349-1" n="f507d25b">
+          <u who="tyra_johansson_60ed7b" xml:id="i-f507d25b0636f9fd-7" next="i-f507d25b0636f9fd-13" n="f507d25b">
             <seg n="5292f195">
               Herr talman! Herr Hjorth har gjort en rundmålning av situationen
               i Östhammar med omnejd. Och visst finns det betydande problem
@@ -4511,7 +4693,9 @@
               medför problem. Det har vi ju erfarenhet av sedan tidigare,
             </seg>
             <seg n="ef890aca"/>
-            <seg n="ef890aca"/>
+          </u>
+          <pb n="54" facs="https://betalab.kb.se/prot-197677--25/prot_197677__25-054.jp2/_view"/>
+          <u who="tyra_johansson_60ed7b" xml:id="i-f507d25b0636f9fd-8" prev="i-f507d25b0636f9fd-7" n="f507d25b">
             <seg n="ef890aca"/>
             <seg n="fe8da0c9">
               inte minst på energisidan f. ö. genom utbyggnaden av älvarna.
@@ -4577,23 +4761,49 @@
               går inte att sätta några tvärstopp i den här hanteringen.
             </seg>
           </u>
-          <pb n="54" facs="https://betalab.kb.se/prot-197677--25/prot_197677__25-054.jp2/_view"/>
           <note n="bd0f0911">
             Nr 25 Torsdagen den
           </note>
           <note n="bbd26bc0">
             11 november 1976
           </note>
-          <u who="tyra_johansson_60ed7b" xml:id="i-77a15f19f0099349-1" prev="i-0599ea338a654e53-1" n="f507d25b">
+          <u who="tyra_johansson_60ed7b" xml:id="i-f507d25b0636f9fd-9" prev="i-f507d25b0636f9fd-7" n="f507d25b">
             <seg n="9145eaf7">
               Om den framtida sysselsättningen för
             </seg>
+          </u>
+          <note n="08dcac1b">
+            anställda vid
+          </note>
+          <note n="26f44825">
+            kärnkraftsbyggen,
+          </note>
+          <note n="9fe49a73">
+            m.m.
+          </note>
+          <note n="e1b32526">
+            35
+          </note>
+          <pb n="55" facs="https://betalab.kb.se/prot-197677--25/prot_197677__25-055.jp2/_view"/>
+          <u who="tyra_johansson_60ed7b" xml:id="i-f507d25b0636f9fd-10" prev="i-f507d25b0636f9fd-7" n="f507d25b">
             <seg n="ef890aca"/>
-            <seg n="ef890aca"/>
+          </u>
+          <note n="bd0f0911">
+            Nr 25 Torsdagen den
+          </note>
+          <note n="bbd26bc0">
+            11 november 1976
+          </note>
+          <u who="tyra_johansson_60ed7b" xml:id="i-f507d25b0636f9fd-11" prev="i-f507d25b0636f9fd-7" n="f507d25b">
             <seg n="c3f197d9">
               Om den framtida sysselsättningen för anställda vid kärnkrafisbyggen,
               m.m.
             </seg>
+          </u>
+          <note n="62fd4671">
+            56
+          </note>
+          <u who="tyra_johansson_60ed7b" xml:id="i-f507d25b0636f9fd-12" prev="i-f507d25b0636f9fd-7" n="f507d25b">
             <seg n="1cbae81d">
               Det heter också att jag redan har dömt ut möjligheten att klara
               villkoren. Det har jag inte gjort. Jag har sagt att kärnkraftsindustrin
@@ -4654,6 +4864,9 @@
               års energibeslut. Det har ju ofta sagts, bl. a. av regeringens
               representanter.
             </seg>
+          </u>
+          <pb n="56" facs="https://betalab.kb.se/prot-197677--25/prot_197677__25-056.jp2/_view"/>
+          <u who="tyra_johansson_60ed7b" xml:id="i-f507d25b0636f9fd-13" prev="i-f507d25b0636f9fd-7" n="f507d25b">
             <seg n="63b08d69">
               Men om vi nu på det här området framställer omöjliga krav, som
               inte Nr 25
@@ -4684,29 +4897,6 @@
               i kärnkrafts- — kärnkraftsbyggen,
             </seg>
           </u>
-          <note n="08dcac1b">
-            anställda vid
-          </note>
-          <note n="26f44825">
-            kärnkraftsbyggen,
-          </note>
-          <note n="9fe49a73">
-            m.m.
-          </note>
-          <note n="e1b32526">
-            35
-          </note>
-          <pb n="55" facs="https://betalab.kb.se/prot-197677--25/prot_197677__25-055.jp2/_view"/>
-          <note n="bd0f0911">
-            Nr 25 Torsdagen den
-          </note>
-          <note n="bbd26bc0">
-            11 november 1976
-          </note>
-          <note n="62fd4671">
-            56
-          </note>
-          <pb n="56" facs="https://betalab.kb.se/prot-197677--25/prot_197677__25-056.jp2/_view"/>
           <note n="423d86ca">
             samhället är stoppad? Så vill jag också ha svar på mina tidigare
             frågor — m. m.
@@ -4717,7 +4907,7 @@
           <note type="speaker" n="ab017c2f">
             Herr statsrådet JOHANSSON:
           </note>
-          <u who="tyra_johansson_60ed7b" xml:id="i-0599ea338a654e53-2" next="i-77a15f19f0099349-2" n="f507d25b">
+          <u who="tyra_johansson_60ed7b" xml:id="i-f507d25b0636f9fd-14" next="i-f507d25b0636f9fd-15" n="f507d25b">
             <seg n="437d5bed">
               Herr talman! Det är klart att jag har studerat den arbetsmarknadspolitiska
               situationen i den här delen av Uppsala län, eftersom den hör intimt
@@ -4779,7 +4969,7 @@
           <note n="12d546b8">
             Nr 25
           </note>
-          <note n="151add49">
+          <note type="date" n="aa8d4d9e">
             Torsdagen den 11 november 1976
           </note>
           <note n="fdafaaaf">
@@ -4788,7 +4978,7 @@
           <note n="0f23ca3e">
             sysselsättningen för anställda vid kärnkraftsbyggen, m.m.
           </note>
-          <u who="tyra_johansson_60ed7b" xml:id="i-77a15f19f0099349-2" prev="i-0599ea338a654e53-2" n="f507d25b">
+          <u who="tyra_johansson_60ed7b" xml:id="i-f507d25b0636f9fd-15" prev="i-f507d25b0636f9fd-14" n="f507d25b">
             <seg n="a3dd907c">
               ekonomiska ansvar. Därför avkrävs de alltså efterborgen. Konstigare
               än så är det inte.
@@ -4837,7 +5027,7 @@
           <note type="speaker" n="ab017c2f">
             Herr statsrådet JOHANSSON:
           </note>
-          <u who="tyra_johansson_60ed7b" xml:id="i-3aa2565036fba828-3" n="f507d25b">
+          <u who="tyra_johansson_60ed7b" xml:id="i-f507d25b0636f9fd-16" next="i-f507d25b0636f9fd-17" n="f507d25b">
             <seg n="3463aedc">
               Herr talman! Herr Hjorth talar om att det är fel att övervältra
               ansvar. Det är inte fråga om det. När villkorspropositionen har
@@ -4855,6 +5045,9 @@
               och sist och slutligt måste avgöra om de lösningar som kraftföretagen
               eventuellt presenterar är godtagbara eller icke. Det är ju så
             </seg>
+          </u>
+          <pb n="58" facs="https://betalab.kb.se/prot-197677--25/prot_197677__25-058.jp2/_view"/>
+          <u who="tyra_johansson_60ed7b" xml:id="i-f507d25b0636f9fd-17" prev="i-f507d25b0636f9fd-16" n="f507d25b">
             <seg n="b251b533">
               i alla miljökoncessionsärenden. Det är ingen ny princip, det
               är bara un- — Nr 25 derligt att man inte tidigare tillämpat den
@@ -4869,7 +5062,6 @@
               1956 gäl- — kärnkraftsbyggen, lande atomenergilagen. m.m.
             </seg>
           </u>
-          <pb n="58" facs="https://betalab.kb.se/prot-197677--25/prot_197677__25-058.jp2/_view"/>
           <note n="fd9b31fb">
             Herr andre vice talmannen anmälde att herr Hjorth anhållit att
             till protokollet få antecknat att han inte ägde rätt till ytterligare
@@ -4878,7 +5070,7 @@
           <note type="speaker" n="baccdb52">
             Herr LINDSTRÖM (s):
           </note>
-          <u who="ralf_lindstrom_28491e" xml:id="i-d6b72efbc3091482-0" next="i-5ec7a7c6998266bd-0" n="3282370f">
+          <u who="ralf_lindstrom_28491e" xml:id="i-3282370fe3344f40-0" next="i-3282370fe3344f40-2" n="3282370f">
             <seg n="6be1f773">
               Herr talman! Jag har under dagen lyssnat på den här frågeoch
               interpellationsdebatten. Inte mindre än två frågor och denna interpellation
@@ -4921,16 +5113,16 @@
               att få reda på det.
             </seg>
             <seg n="ef890aca"/>
-            <seg n="ef890aca"/>
           </u>
           <pb n="59" facs="https://betalab.kb.se/prot-197677--25/prot_197677__25-059.jp2/_view"/>
+          <u who="ralf_lindstrom_28491e" xml:id="i-3282370fe3344f40-1" prev="i-3282370fe3344f40-0" n="3282370f"/>
           <note n="bd0f0911">
             Nr 25 Torsdagen den
           </note>
           <note n="bbd26bc0">
             11 november 1976
           </note>
-          <u who="ralf_lindstrom_28491e" xml:id="i-5ec7a7c6998266bd-0" prev="i-d6b72efbc3091482-0" n="3282370f">
+          <u who="ralf_lindstrom_28491e" xml:id="i-3282370fe3344f40-2" prev="i-3282370fe3344f40-0" n="3282370f">
             <seg n="c3f197d9">
               Om den framtida sysselsättningen för anställda vid kärnkrafisbyggen,
               m.m.
@@ -4942,7 +5134,7 @@
           <note type="speaker" n="ab017c2f">
             Herr statsrådet JOHANSSON:
           </note>
-          <u who="tyra_johansson_60ed7b" xml:id="i-3aa2565036fba828-4" n="f507d25b">
+          <u who="tyra_johansson_60ed7b" xml:id="i-f507d25b0636f9fd-18" n="f507d25b">
             <seg n="7d11eae5">
               Herr talman! Herr Lindström säger att han är orolig för villkorspropositionen.
               Den är en klar uppföljning av vad som står i regeringsförklaringen.
@@ -4997,7 +5189,7 @@
           <note type="speaker" n="6b71f0bc">
             Herr LIDBOM (s):
           </note>
-          <u who="carl_lidbom_a32d9c" xml:id="i-e53e8b86311a9a7d-0" next="i-d95c1ef1e12216e8-0" n="57e546e3">
+          <u who="carl_lidbom_a32d9c" xml:id="i-57e546e3de86d65f-0" next="i-57e546e3de86d65f-4" n="57e546e3">
             <seg n="f495dea6">
               Herr talman! Jag lyssnade med intresse på svaret. Det var intressanta
               frågor som herr Hjorth hade ställt, om det skulle bli någon fortsättning
@@ -5011,7 +5203,9 @@
               gäller
             </seg>
             <seg n="ef890aca"/>
-            <seg n="ef890aca"/>
+          </u>
+          <pb n="60" facs="https://betalab.kb.se/prot-197677--25/prot_197677__25-060.jp2/_view"/>
+          <u who="carl_lidbom_a32d9c" xml:id="i-57e546e3de86d65f-1" prev="i-57e546e3de86d65f-0" n="57e546e3">
             <seg n="9fd201db">
               möjligheten att fortsätta bygget får vi visserligen reda på att
               det kommer = Nr 25 att anslås pengar och ges möjlighet för statens
@@ -5064,13 +5258,30 @@
               delägare i Forsmarksbolaget förutsätts 61
             </seg>
           </u>
-          <pb n="60" facs="https://betalab.kb.se/prot-197677--25/prot_197677__25-060.jp2/_view"/>
-          <note n="151add49">
+          <note type="date" n="aa8d4d9e">
             Torsdagen den 11 november 1976
           </note>
-          <u who="carl_lidbom_a32d9c" xml:id="i-d95c1ef1e12216e8-0" prev="i-e53e8b86311a9a7d-0" n="57e546e3">
+          <u who="carl_lidbom_a32d9c" xml:id="i-57e546e3de86d65f-2" prev="i-57e546e3de86d65f-0" n="57e546e3"/>
+          <pb n="61" facs="https://betalab.kb.se/prot-197677--25/prot_197677__25-061.jp2/_view"/>
+          <u who="carl_lidbom_a32d9c" xml:id="i-57e546e3de86d65f-3" prev="i-57e546e3de86d65f-0" n="57e546e3">
             <seg n="ef890aca"/>
-            <seg n="ef890aca"/>
+          </u>
+          <note n="12d546b8">
+            Nr 25
+          </note>
+          <note type="date" n="aa8d4d9e">
+            Torsdagen den 11 november 1976
+          </note>
+          <note n="fdafaaaf">
+            Om den framtida
+          </note>
+          <note n="0f23ca3e">
+            sysselsättningen för anställda vid kärnkraftsbyggen, m.m.
+          </note>
+          <note n="677682de">
+            62
+          </note>
+          <u who="carl_lidbom_a32d9c" xml:id="i-57e546e3de86d65f-4" prev="i-57e546e3de86d65f-0" n="57e546e3">
             <seg n="55b08a33">
               lämna efterborgen för sina andelar av säkerheten.” Vad är det
               för risk de löper där? På vilka villkor kan de bli sittande med
@@ -5085,26 +5296,10 @@
               herr Hjorth svar på dessa precisa frågor.
             </seg>
           </u>
-          <pb n="61" facs="https://betalab.kb.se/prot-197677--25/prot_197677__25-061.jp2/_view"/>
-          <note n="12d546b8">
-            Nr 25
-          </note>
-          <note n="151add49">
-            Torsdagen den 11 november 1976
-          </note>
-          <note n="fdafaaaf">
-            Om den framtida
-          </note>
-          <note n="0f23ca3e">
-            sysselsättningen för anställda vid kärnkraftsbyggen, m.m.
-          </note>
-          <note n="677682de">
-            62
-          </note>
           <note type="speaker" n="ab017c2f">
             Herr statsrådet JOHANSSON:
           </note>
-          <u who="tyra_johansson_60ed7b" xml:id="i-0599ea338a654e53-3" next="i-77a15f19f0099349-3" n="f507d25b">
+          <u who="tyra_johansson_60ed7b" xml:id="i-f507d25b0636f9fd-19" next="i-f507d25b0636f9fd-23" n="f507d25b">
             <seg n="31519477">
               Herr talman! Jag kan naturligtvis förklara för herr Lidbom igen
               det som framgått alldeles klart av tidigare inlägg i kärnkraftsdebatten,
@@ -5153,7 +5348,9 @@
               ekonomiska konsekvenserna i sammanhanget att framgå.
             </seg>
             <seg n="ef890aca"/>
-            <seg n="ef890aca"/>
+          </u>
+          <pb n="62" facs="https://betalab.kb.se/prot-197677--25/prot_197677__25-062.jp2/_view"/>
+          <u who="tyra_johansson_60ed7b" xml:id="i-f507d25b0636f9fd-20" prev="i-f507d25b0636f9fd-19" n="f507d25b">
             <seg n="9419747b">
               Det måste vara samhället — statsmakterna — som tar det slutliga
               an- - Nr 25 svaret för de här livsviktiga problemen. Någon annan
@@ -5204,11 +5401,10 @@
               att några fler aggregat inte får tas i drift?
             </seg>
           </u>
-          <pb n="62" facs="https://betalab.kb.se/prot-197677--25/prot_197677__25-062.jp2/_view"/>
           <note n="d67547ad">
             Herr INGEMUND BENGTSSON i Varberg (s):
           </note>
-          <u who="tyra_johansson_60ed7b" xml:id="i-77a15f19f0099349-3" prev="i-0599ea338a654e53-3" n="f507d25b">
+          <u who="tyra_johansson_60ed7b" xml:id="i-f507d25b0636f9fd-21" prev="i-f507d25b0636f9fd-19" n="f507d25b">
             <seg n="84f34304">
               Herr talman! Jag begärde ordet när statsrådet Johansson hävdade
               att de bekymmer och den oro man hyser på de orter som är direkt
@@ -5232,8 +5428,25 @@
               Detta argumentationssätt stillar inte heller den oro som finns
               i de 63
             </seg>
-            <seg n="ef890aca"/>
-            <seg n="ef890aca"/>
+          </u>
+          <pb n="63" facs="https://betalab.kb.se/prot-197677--25/prot_197677__25-063.jp2/_view"/>
+          <u who="tyra_johansson_60ed7b" xml:id="i-f507d25b0636f9fd-22" prev="i-f507d25b0636f9fd-19" n="f507d25b"/>
+          <note n="12d546b8">
+            Nr 25
+          </note>
+          <note type="date" n="aa8d4d9e">
+            Torsdagen den 11 november 1976
+          </note>
+          <note n="fdafaaaf">
+            Om den framtida
+          </note>
+          <note n="0f23ca3e">
+            sysselsättningen för anställda vid kärnkraftsbyggen, m.m.
+          </note>
+          <note n="4afcebc9">
+            64
+          </note>
+          <u who="tyra_johansson_60ed7b" xml:id="i-f507d25b0636f9fd-23" prev="i-f507d25b0636f9fd-19" n="f507d25b">
             <seg n="8c52377b">
               berörda kommunerna. Jag kommer själv från en sådan kommun.
             </seg>
@@ -5269,26 +5482,10 @@
               de olika besked som energiministern har lämnat.
             </seg>
           </u>
-          <pb n="63" facs="https://betalab.kb.se/prot-197677--25/prot_197677__25-063.jp2/_view"/>
-          <note n="12d546b8">
-            Nr 25
-          </note>
-          <note n="151add49">
-            Torsdagen den 11 november 1976
-          </note>
-          <note n="fdafaaaf">
-            Om den framtida
-          </note>
-          <note n="0f23ca3e">
-            sysselsättningen för anställda vid kärnkraftsbyggen, m.m.
-          </note>
-          <note n="4afcebc9">
-            64
-          </note>
           <note type="speaker" n="ddca478e">
             Herr SJÖNELL (c):
           </note>
-          <u who="bengt_sjonell_85e0b7" xml:id="i-f5ebead8fd433531-0" n="a8f9bb7f">
+          <u who="bengt_sjonell_85e0b7" xml:id="i-a8f9bb7fe9c00855-0" next="i-a8f9bb7fe9c00855-1" n="a8f9bb7f">
             <seg n="56caf87b">
               Herr talman! Jag hade i förstone inte tänkt lägga mig i denna
               debatt, men när herr Lidbom hade varit uppe i talarstolen och
@@ -5318,7 +5515,9 @@
               som inte är särskilt märkvärdig att begripa
             </seg>
             <seg n="ef890aca"/>
-            <seg n="ef890aca"/>
+          </u>
+          <pb n="64" facs="https://betalab.kb.se/prot-197677--25/prot_197677__25-064.jp2/_view"/>
+          <u who="bengt_sjonell_85e0b7" xml:id="i-a8f9bb7fe9c00855-1" prev="i-a8f9bb7fe9c00855-0" n="a8f9bb7f">
             <seg n="2dc82b0b">
               för någon, framför allt inte för de inblandade kraftföretagen.
               De har att Nr 25 bedöma om de vill göra en satsning på dessa villkor.
@@ -5351,11 +5550,10 @@
               är skäligen enkel att fatta.
             </seg>
           </u>
-          <pb n="64" facs="https://betalab.kb.se/prot-197677--25/prot_197677__25-064.jp2/_view"/>
           <note type="speaker" n="ab017c2f">
             Herr statsrådet JOHANSSON:
           </note>
-          <u who="tyra_johansson_60ed7b" xml:id="i-0599ea338a654e53-4" next="i-77a15f19f0099349-4" n="f507d25b">
+          <u who="tyra_johansson_60ed7b" xml:id="i-f507d25b0636f9fd-24" next="i-f507d25b0636f9fd-27" n="f507d25b">
             <seg n="45ce11ee">
               Herr talman! Det finns inte så mycket att tillägga efter herr
               Sjönells beskrivning av förslaget i tilläggsbudgeten. Jag vill
@@ -5382,9 +5580,27 @@
           <note n="62c238aa">
             S Riksdagens protokoll 1976177:25-27
           </note>
-          <u who="tyra_johansson_60ed7b" xml:id="i-77a15f19f0099349-4" prev="i-0599ea338a654e53-4" n="f507d25b">
+          <u who="tyra_johansson_60ed7b" xml:id="i-f507d25b0636f9fd-25" prev="i-f507d25b0636f9fd-24" n="f507d25b"/>
+          <pb n="65" facs="https://betalab.kb.se/prot-197677--25/prot_197677__25-065.jp2/_view"/>
+          <u who="tyra_johansson_60ed7b" xml:id="i-f507d25b0636f9fd-26" prev="i-f507d25b0636f9fd-24" n="f507d25b">
             <seg n="ef890aca"/>
-            <seg n="ef890aca"/>
+          </u>
+          <note n="12d546b8">
+            Nr 25
+          </note>
+          <note type="date" n="aa8d4d9e">
+            Torsdagen den 11 november 1976
+          </note>
+          <note n="fdafaaaf">
+            Om den framtida
+          </note>
+          <note n="0f23ca3e">
+            sysselsättningen för anställda vid kärnkraftsbyggen, m.m.
+          </note>
+          <note n="0cb263d2">
+            66
+          </note>
+          <u who="tyra_johansson_60ed7b" xml:id="i-f507d25b0636f9fd-27" prev="i-f507d25b0636f9fd-24" n="f507d25b">
             <seg n="e5117aeb">
               sonalen i varje fall än så länge uppgår till ett par hundra personer.
               Det är väl i stort sett samma relation i Ringhals — det kan vara
@@ -5399,26 +5615,10 @@
               generöst gentemot den tidigare socialdemokratiska regeringen.
             </seg>
           </u>
-          <pb n="65" facs="https://betalab.kb.se/prot-197677--25/prot_197677__25-065.jp2/_view"/>
-          <note n="12d546b8">
-            Nr 25
-          </note>
-          <note n="151add49">
-            Torsdagen den 11 november 1976
-          </note>
-          <note n="fdafaaaf">
-            Om den framtida
-          </note>
-          <note n="0f23ca3e">
-            sysselsättningen för anställda vid kärnkraftsbyggen, m.m.
-          </note>
-          <note n="0cb263d2">
-            66
-          </note>
           <note type="speaker" n="6b71f0bc">
             Herr LIDBOM (s):
           </note>
-          <u who="carl_lidbom_a32d9c" xml:id="i-3ffc4b73c1652ab2-0" n="57e546e3">
+          <u who="carl_lidbom_a32d9c" xml:id="i-57e546e3de86d65f-5" n="57e546e3">
             <seg n="fe3754a0">
               Herr talman! Det sägs i det förslag till tilläggsbudget som har
               offentliggjorts i dag — och det är bra att det sägs ifrån klart
@@ -5463,7 +5663,7 @@
           <note type="speaker" n="ab017c2f">
             Herr statsrådet JOHANSSON:
           </note>
-          <u who="tyra_johansson_60ed7b" xml:id="i-0599ea338a654e53-5" next="i-77a15f19f0099349-5" n="f507d25b">
+          <u who="tyra_johansson_60ed7b" xml:id="i-f507d25b0636f9fd-28" next="i-f507d25b0636f9fd-36" n="f507d25b">
             <seg n="5b680042">
               Herr talman! I tilläggsbudgeten föreslås finansiella lösningar
               under den bedömningsperiod som kraftföretagen skall ha efter det
@@ -5471,7 +5671,9 @@
               kommer också ersättningsfrågorna att behandlas.
             </seg>
             <seg n="ef890aca"/>
-            <seg n="ef890aca"/>
+          </u>
+          <pb n="66" facs="https://betalab.kb.se/prot-197677--25/prot_197677__25-066.jp2/_view"/>
+          <u who="tyra_johansson_60ed7b" xml:id="i-f507d25b0636f9fd-29" prev="i-f507d25b0636f9fd-28" n="f507d25b">
             <seg n="8e6a37ca">
               Nu har vi, herr Lidbom, distanserat oss ganska långt från vad
               den - Nr 25 här interpellationsdebatten huvudsakligen skulle gälla,
@@ -5479,8 +5681,7 @@
               diskussionen till dess att villkorspropositionen föreligger.
             </seg>
           </u>
-          <pb n="66" facs="https://betalab.kb.se/prot-197677--25/prot_197677__25-066.jp2/_view"/>
-          <note n="151add49">
+          <note type="date" n="aa8d4d9e">
             Torsdagen den 11 november 1976
           </note>
           <note n="28a29e2b">
@@ -5539,7 +5740,7 @@
             1976/77:39 av herr Glimnér (c) till herr finansministern om kustbevakningen
             i Gryt och Arkösund:
           </note>
-          <u who="tyra_johansson_60ed7b" xml:id="i-77a15f19f0099349-5" prev="i-0599ea338a654e53-5" n="f507d25b">
+          <u who="tyra_johansson_60ed7b" xml:id="i-f507d25b0636f9fd-30" prev="i-f507d25b0636f9fd-28" n="f507d25b">
             <seg n="4345069e">
               Tullverket har aviserat planer på avveckling av radiosambandscentralen
               i Gryt och av kustposteringen i Arkösund. Tullverkets kustbevakning
@@ -5548,7 +5749,22 @@
               service 67
             </seg>
             <seg n="ef890aca"/>
-            <seg n="ef890aca"/>
+          </u>
+          <pb n="67" facs="https://betalab.kb.se/prot-197677--25/prot_197677__25-067.jp2/_view"/>
+          <u who="tyra_johansson_60ed7b" xml:id="i-f507d25b0636f9fd-31" prev="i-f507d25b0636f9fd-28" n="f507d25b"/>
+          <note n="bd0f0911">
+            Nr 25 Torsdagen den
+          </note>
+          <note n="bbd26bc0">
+            11 november 1976
+          </note>
+          <note n="0055b1f9">
+            Anmälan av interpellationer
+          </note>
+          <note n="92950966">
+            68
+          </note>
+          <u who="tyra_johansson_60ed7b" xml:id="i-f507d25b0636f9fd-32" prev="i-f507d25b0636f9fd-28" n="f507d25b">
             <seg n="a212690a">
               genom den avveckling på vissa platser och centralisering av lotsväsendet
               som ägt rum. Likaså är polisens möjligheter till insatser för
@@ -5586,6 +5802,12 @@
               Är statsrådet beredd att medverka till att radiosambandscentralen
               i Gryt och kustposteringen i Arkösund icke indrages?
             </seg>
+          </u>
+          <note n="f0196de4">
+            1976/77:40 av herr Alsén (s) till herr arbetsmarknadsministern
+            om arbetsmarknadsproblemen i Uppsala län:
+          </note>
+          <u who="tyra_johansson_60ed7b" xml:id="i-f507d25b0636f9fd-33" prev="i-f507d25b0636f9fd-28" n="f507d25b">
             <seg n="05d739d8">
               Stora kortoch långsiktiga problem präglar i dag näringslivet
               och arbetsmarknaden i Uppsala län. Sedan länge har Uppsala kommuns
@@ -5613,7 +5835,9 @@
               I Söderfors innebär enligt pressuppgifter den förebådade försäljningen
             </seg>
             <seg n="ef890aca"/>
-            <seg n="ef890aca"/>
+          </u>
+          <pb n="68" facs="https://betalab.kb.se/prot-197677--25/prot_197677__25-068.jp2/_view"/>
+          <u who="tyra_johansson_60ed7b" xml:id="i-f507d25b0636f9fd-34" prev="i-f507d25b0636f9fd-28" n="f507d25b">
             <seg n="ef890aca"/>
             <seg n="67375176">
               av bruket till Uddeholm att närmare 200 arbetstillfällen försvinner.
@@ -5681,38 +5905,7 @@
               ar-
             </seg>
             <seg n="ef890aca"/>
-            <seg n="ef890aca"/>
-            <seg n="4df11246">
-              betsgrupp, förslagsvis sammansatt av representanter för regeringen,
-              statliga länsorgan, berörda kommuner och arbetsmarknadens parter,
-              med uppgift att framlägga förslag om åtgärder för att komma till
-              rätta med arbetsmarknadsproblemen i Uppsala län på kort och lång
-              sikt?
-            </seg>
-            <seg n="e3e6908b">
-              3. Är arbetsmarknadsministern, vid ett positivt ställningstagande
-              till fråga 2, med hänsyn till frågans akuta läge därvid beredd
-              att ägna Nordupplands situation speciell skyndsam uppmärksamhet?
-            </seg>
           </u>
-          <pb n="67" facs="https://betalab.kb.se/prot-197677--25/prot_197677__25-067.jp2/_view"/>
-          <note n="bd0f0911">
-            Nr 25 Torsdagen den
-          </note>
-          <note n="bbd26bc0">
-            11 november 1976
-          </note>
-          <note n="0055b1f9">
-            Anmälan av interpellationer
-          </note>
-          <note n="92950966">
-            68
-          </note>
-          <note n="f0196de4">
-            1976/77:40 av herr Alsén (s) till herr arbetsmarknadsministern
-            om arbetsmarknadsproblemen i Uppsala län:
-          </note>
-          <pb n="68" facs="https://betalab.kb.se/prot-197677--25/prot_197677__25-068.jp2/_view"/>
           <note n="bd0f0911">
             Nr 25 Torsdagen den
           </note>
@@ -5726,6 +5919,7 @@
             69
           </note>
           <pb n="69" facs="https://betalab.kb.se/prot-197677--25/prot_197677__25-069.jp2/_view"/>
+          <u who="tyra_johansson_60ed7b" xml:id="i-f507d25b0636f9fd-35" prev="i-f507d25b0636f9fd-28" n="f507d25b"/>
           <note n="bd0f0911">
             Nr 25 Torsdagen den
           </note>
@@ -5738,15 +5932,29 @@
           <note n="5d883015">
             70
           </note>
+          <u who="tyra_johansson_60ed7b" xml:id="i-f507d25b0636f9fd-36" prev="i-f507d25b0636f9fd-28" n="f507d25b">
+            <seg n="4df11246">
+              betsgrupp, förslagsvis sammansatt av representanter för regeringen,
+              statliga länsorgan, berörda kommuner och arbetsmarknadens parter,
+              med uppgift att framlägga förslag om åtgärder för att komma till
+              rätta med arbetsmarknadsproblemen i Uppsala län på kort och lång
+              sikt?
+            </seg>
+            <seg n="e3e6908b">
+              3. Är arbetsmarknadsministern, vid ett positivt ställningstagande
+              till fråga 2, med hänsyn till frågans akuta läge därvid beredd
+              att ägna Nordupplands situation speciell skyndsam uppmärksamhet?
+            </seg>
+          </u>
           <note type="speaker" n="deda4833">
             1976/77:
           </note>
-          <u who="unknown" xml:id="i-48889b4d6c47ed3d-0" n="ff13740b"/>
+          <u who="unknown" xml:id="i-c29f7c63db81e8df-0" n="ff13740b"/>
           <note type="speaker" n="17773ad2">
             41 av herr Lövenborg (vpk) till herr industriministern om åtgärder
             för att trygga sysselsättningen i Jokkmokks kommun:
           </note>
-          <u who="alf_lovenborg_ac7e87" xml:id="i-48b3959f6c30155a-0" n="c29f7c63">
+          <u who="alf_lovenborg_ac7e87" xml:id="i-c29f7c63db81e8df-1" n="c29f7c63">
             <seg n="7ae08eb3">
               Jokkmokks kommun måste bli föremål för en snabb statlig räddningsaktion.
               Vattenkraftsutbyggnaden, som under en rad år varit den stora sysselsättningskällan,
@@ -5797,11 +6005,11 @@
           <note type="speaker" n="deda4833">
             1976/77:
           </note>
-          <u who="unknown" xml:id="i-48889b4d6c47ed3d-1" n="ff13740b"/>
+          <u who="unknown" xml:id="i-9201c253d1b58f5a-0" n="ff13740b"/>
           <note type="speaker" n="337d4944">
             42 av fru Marklund (vpk) till herr statsministern om kvinnofrigörelsen:
           </note>
-          <u who="eivor_marklund_ff544c" xml:id="i-285f87ee5ac3b964-0" n="7766ad8d">
+          <u who="eivor_marklund_ff544c" xml:id="i-7766ad8ddb5a329b-0" next="i-9201c253d1b58f5a-1" n="7766ad8d">
             <seg n="a13b7473">
               Läget för kvinnofrigörelsen är ur en rad synvinklar oroande.
               Mot de senaste årens landvinningar på jämställdhetsområdet står
@@ -5809,7 +6017,9 @@
             </seg>
             <seg n="ef890aca"/>
             <seg n="ef890aca"/>
-            <seg n="ef890aca"/>
+          </u>
+          <pb n="70" facs="https://betalab.kb.se/prot-197677--25/prot_197677__25-070.jp2/_view"/>
+          <u who="eivor_marklund_ff544c" xml:id="i-9201c253d1b58f5a-1" prev="i-7766ad8ddb5a329b-0" n="7766ad8d">
             <seg n="ef890aca"/>
             <seg n="77c4e7a6">
               tendenser. En del av dessa tendenser förefaller ha förstärkts.
@@ -5867,16 +6077,15 @@
               lösningar?
             </seg>
           </u>
-          <pb n="70" facs="https://betalab.kb.se/prot-197677--25/prot_197677__25-070.jp2/_view"/>
           <note type="speaker" n="deda4833">
             1976/77:
           </note>
-          <u who="unknown" xml:id="i-75c2a8e182f17de5-0" n="ff13740b"/>
+          <u who="unknown" xml:id="i-547fc6df2f9c8757-0" n="ff13740b"/>
           <note type="speaker" n="891f96eb">
             43 av herr Lindkvist (s) till fru bostadsministern om åtgärder
             mot spekulation på bostadsmarknaden:
           </note>
-          <u who="oskar_lindkvist_a93a96" xml:id="i-2e741bbd2522c7c1-0" next="i-6a287478a19e6926-0" n="547fc6df">
+          <u who="oskar_lindkvist_a93a96" xml:id="i-547fc6df2f9c8757-1" next="i-547fc6df2f9c8757-3" n="547fc6df">
             <seg n="38e23de1">
               Enligt regeringsförklaringen skall byggande och förvaltning av
               bostäder ske i former som motverkar spekulation. Vad detta innebär
@@ -5896,11 +6105,12 @@
               till inlösen? Vad avser man 7
             </seg>
             <seg n="ef890aca"/>
-            <seg n="ef890aca"/>
+          </u>
+          <pb n="71" facs="https://betalab.kb.se/prot-197677--25/prot_197677__25-071.jp2/_view"/>
+          <u who="oskar_lindkvist_a93a96" xml:id="i-547fc6df2f9c8757-2" prev="i-547fc6df2f9c8757-1" n="547fc6df">
             <seg n="ef890aca"/>
             <seg n="ef890aca"/>
           </u>
-          <pb n="71" facs="https://betalab.kb.se/prot-197677--25/prot_197677__25-071.jp2/_view"/>
           <note n="bd0f0911">
             Nr 25 Torsdagen den
           </note>
@@ -5913,7 +6123,7 @@
           <note n="86549152">
             gå
           </note>
-          <u who="oskar_lindkvist_a93a96" xml:id="i-6a287478a19e6926-0" prev="i-2e741bbd2522c7c1-0" n="547fc6df">
+          <u who="oskar_lindkvist_a93a96" xml:id="i-547fc6df2f9c8757-3" prev="i-547fc6df2f9c8757-1" n="547fc6df">
             <seg n="b971ac39">
               att göra åt det faktum att lagfartsplikten inte efterlevs? Delar
               regeringen uppfattningen att det behövs åtgärder mot den svarta
@@ -5946,12 +6156,12 @@
           <note type="speaker" n="deda4833">
             1976/77:
           </note>
-          <u who="unknown" xml:id="i-48889b4d6c47ed3d-2" n="ff13740b"/>
+          <u who="unknown" xml:id="i-4242a9173d3d8f60-0" n="ff13740b"/>
           <note type="speaker" n="6def9a77">
             69 av herr Stridsman (c) till herr kommunministern om Luleå kommuns
             ekonomiska problem:
           </note>
-          <u who="torsten_stridsman_92795c" xml:id="i-0cc979073e6993d4-0" n="d3c62256">
+          <u who="torsten_stridsman_92795c" xml:id="i-d3c622567b55135f-0" n="d3c62256">
             <seg n="95f1088d">
               Med anledning av Stålverk 80-planerna har Luleå kommun i sin
               driftbudget för åren 1978-1981 räknat med ett extra skatteutjämningsbidrag
@@ -5974,12 +6184,12 @@
           <note type="speaker" n="deda4833">
             1976/77:
           </note>
-          <u who="unknown" xml:id="i-48889b4d6c47ed3d-3" n="ff13740b"/>
+          <u who="unknown" xml:id="i-1042f893e563d1ff-0" n="ff13740b"/>
           <note type="speaker" n="5d49dac3">
             70 av herr Östrand (s) till herr arbetsmarknadsministern om statsbidragen
             till beredskapsarbeten för arbetslös ungdom:
           </note>
-          <u who="olle_ostrand_286f03" xml:id="i-c59e2add2bce4e14-0" n="1042f893">
+          <u who="olle_ostrand_286f03" xml:id="i-1042f893e563d1ff-1" next="i-1042f893e563d1ff-2" n="1042f893">
             <seg n="e47bfc7c">
               För att stimulera sysselsättningen bland ungdomen vidtog den
               föregående regeringen en rad åtgärder. Bl. a. fick kommunerna
@@ -5989,7 +6199,9 @@
               försämring, då den totala
             </seg>
             <seg n="ef890aca"/>
-            <seg n="ef890aca"/>
+          </u>
+          <pb n="72" facs="https://betalab.kb.se/prot-197677--25/prot_197677__25-072.jp2/_view"/>
+          <u who="olle_ostrand_286f03" xml:id="i-1042f893e563d1ff-2" prev="i-1042f893e563d1ff-1" n="1042f893">
             <seg n="ef890aca"/>
             <seg n="5e9da0cb">
               arbetslösheten har ökat och man kan frukta att även ungdomsarbetslösheten
@@ -6005,16 +6217,15 @@
               ungdom under 25 år?
             </seg>
           </u>
-          <pb n="72" facs="https://betalab.kb.se/prot-197677--25/prot_197677__25-072.jp2/_view"/>
           <note type="speaker" n="deda4833">
             1976/77:
           </note>
-          <u who="unknown" xml:id="i-48889b4d6c47ed3d-4" n="ff13740b"/>
+          <u who="unknown" xml:id="i-80997aea7f937632-0" n="ff13740b"/>
           <note type="speaker" n="99358025">
             71 .av herr Björck i Nässjö (m) till fru utrikesministern om
             offentliggörande av UD:s material angående Raoul Wallenberg:
           </note>
-          <u who="anders_bjorck_1f98cf" xml:id="i-fac4cc1eaabbe7b8-0" n="80997aea">
+          <u who="anders_bjorck_1f98cf" xml:id="i-80997aea7f937632-1" n="80997aea">
             <seg n="40b9a7a4">
               Den svenske diplomaten Raoul Wallenbergs öde har under de senaste
               30 åren varit föremål för stort intresse hos den svenska allmänheten.
@@ -6043,12 +6254,12 @@
           <note type="speaker" n="deda4833">
             1976/77:
           </note>
-          <u who="unknown" xml:id="i-75c2a8e182f17de5-1" n="ff13740b"/>
+          <u who="unknown" xml:id="i-9bf0ca052a0023f7-0" n="ff13740b"/>
           <note type="speaker" n="ef45e925">
             72 av fru Leijon (s) till herr arbetsmarknadsministern om arbetet
             för jämställdhet mellan kvinnor och män:
           </note>
-          <u who="anna-greta_leijon_f4c50d" xml:id="i-e239b723c175e8cc-0" next="i-ad67ec1886d3409b-0" n="a2d6d8aa">
+          <u who="anna-greta_leijon_f4c50d" xml:id="i-a2d6d8aa3fe2f28c-0" next="i-9bf0ca052a0023f7-3" n="a2d6d8aa">
             <seg n="15533c1e">
               I regeringsdeklarationen anges att arbetet för jämställdhet mellan
               kvinnor och män skall påskyndas. Mot denna bakgrund vill jag nu,
@@ -6061,7 +6272,7 @@
             att utreda frågor om jämställdhet mellan män och kvinnor m. m.
             resp. den s.k. stora jämställdhetsdelegationen?
           </note>
-          <u who="anna-greta_leijon_f4c50d" xml:id="i-ad67ec1886d3409b-0" prev="i-e239b723c175e8cc-0" n="a2d6d8aa">
+          <u who="anna-greta_leijon_f4c50d" xml:id="i-9bf0ca052a0023f7-1" prev="i-a2d6d8aa3fe2f28c-0" n="a2d6d8aa">
             <seg n="d5b2ba24">
               2. Vilka åtgärder har under de fem veckor som förflutit vidtagits
               för att fullfölja de av den förutvarande lilla delegationen igångsatta
@@ -6072,23 +6283,6 @@
               tillfälle att få insyn i och kunna påverka regeringens budgetarbete?
             </seg>
             <seg n="ef890aca"/>
-            <seg n="ef890aca"/>
-            <seg n="ef890aca"/>
-            <seg n="1a271df7">
-              De beviljade avdragen för resor mellan bostad och arbetsplats
-              underlättar för många att bo kvar i mera glest befolkade bygder
-              utanför själva tätorterna. Detta har i sin tur bidragit till att
-              servicen i dessa bygder har kunnat upprätthållas. De höga drivmedelspriserna
-              och ökade kostnader i övrigt för att ha bil har dock medfört att
-              de nuvarande möjligheterna till reseavdrag är helt otillräckliga.
-            </seg>
-            <seg n="1184634f">
-              Med hänvisning till det anförda vill jag ställa följande fråga:
-            </seg>
-            <seg n="22c76583">
-              Kommer statsrådet att ta initiativ för att förbättra avdragsmöjligheterna
-              för resor med egen bil mellan bostad och arbetsplats?
-            </seg>
           </u>
           <note n="bd0f0911">
             Nr 25 Torsdagen den
@@ -6100,6 +6294,9 @@
             Meddelande om frågor
           </note>
           <pb n="73" facs="https://betalab.kb.se/prot-197677--25/prot_197677__25-073.jp2/_view"/>
+          <u who="anna-greta_leijon_f4c50d" xml:id="i-9bf0ca052a0023f7-2" prev="i-a2d6d8aa3fe2f28c-0" n="a2d6d8aa">
+            <seg n="ef890aca"/>
+          </u>
           <note n="12d546b8">
             Nr 25
           </note>
@@ -6120,15 +6317,32 @@
             statsrådet Mundebo om vidgad rätt till avdrag vid inkomsttaxeringen
             för bilresekostnader:
           </note>
+          <u who="anna-greta_leijon_f4c50d" xml:id="i-9bf0ca052a0023f7-3" prev="i-a2d6d8aa3fe2f28c-0" n="a2d6d8aa">
+            <seg n="1a271df7">
+              De beviljade avdragen för resor mellan bostad och arbetsplats
+              underlättar för många att bo kvar i mera glest befolkade bygder
+              utanför själva tätorterna. Detta har i sin tur bidragit till att
+              servicen i dessa bygder har kunnat upprätthållas. De höga drivmedelspriserna
+              och ökade kostnader i övrigt för att ha bil har dock medfört att
+              de nuvarande möjligheterna till reseavdrag är helt otillräckliga.
+            </seg>
+            <seg n="1184634f">
+              Med hänvisning till det anförda vill jag ställa följande fråga:
+            </seg>
+            <seg n="22c76583">
+              Kommer statsrådet att ta initiativ för att förbättra avdragsmöjligheterna
+              för resor med egen bil mellan bostad och arbetsplats?
+            </seg>
+          </u>
           <note type="speaker" n="deda4833">
             1976/77:
           </note>
-          <u who="unknown" xml:id="i-75c2a8e182f17de5-2" n="ff13740b"/>
+          <u who="unknown" xml:id="i-5c8944b3a4b74743-0" n="ff13740b"/>
           <note type="speaker" n="a4c242a4">
             74 av fru Andersson i Hjärtum (c) till fru bostadsministern om
             utbyggnaden av mindre tätorter:
           </note>
-          <u who="sven_g_andersson_70ded3" xml:id="i-6a3a1aae29f82962-0" next="i-b568463151b8d17e-0" n="5c8944b3">
+          <u who="sven_g_andersson_70ded3" xml:id="i-5c8944b3a4b74743-1" next="i-5c8944b3a4b74743-7" n="5c8944b3">
             <seg n="81f9e9ac">
               Från vissa ledande planerare har gjorts gällande att någon utbyggnad
               av mindre tätorter inte bör ske om det inte finns arbetstillfällen
@@ -6148,19 +6362,13 @@
           <note n="0bd4f0d3">
             SUNE K. JOHANSSON / Solveig Gemert
           </note>
-          <u who="sven_g_andersson_70ded3" xml:id="i-b568463151b8d17e-0" prev="i-6a3a1aae29f82962-0" n="5c8944b3">
-            <seg n="ef890aca"/>
-            <seg n="ef890aca"/>
-            <seg n="ef890aca"/>
-            <seg n="ef890aca"/>
-            <seg n="ef890aca"/>
-            <seg n="ef890aca"/>
-            <seg n="ef890aca"/>
-            <seg n="ef890aca"/>
-            <seg n="ef890aca"/>
+          <u who="sven_g_andersson_70ded3" xml:id="i-5c8944b3a4b74743-2" prev="i-5c8944b3a4b74743-1" n="5c8944b3">
             <seg n="ef890aca"/>
           </u>
           <pb n="74" facs="https://betalab.kb.se/prot-197677--25/prot_197677__25-074.jp2/_view"/>
+          <u who="sven_g_andersson_70ded3" xml:id="i-5c8944b3a4b74743-3" prev="i-5c8944b3a4b74743-1" n="5c8944b3">
+            <seg n="ef890aca"/>
+          </u>
           <note n="5fe819ec">
             Förteckning över talare 1976/77 (Siffrorna avser sida i protokollen)
             25-27
@@ -6196,7 +6404,11 @@
           <note n="4e7ae9f2">
             Herr Ullsten, statsråd 75, 77, 78, 79, 81
           </note>
+          <u who="sven_g_andersson_70ded3" xml:id="i-5c8944b3a4b74743-4" prev="i-5c8944b3a4b74743-1" n="5c8944b3">
+            <seg n="ef890aca"/>
+          </u>
           <pb n="75" facs="https://betalab.kb.se/prot-197677--25/prot_197677__25-075.jp2/_view"/>
+          <u who="sven_g_andersson_70ded3" xml:id="i-5c8944b3a4b74743-5" prev="i-5c8944b3a4b74743-1" n="5c8944b3"/>
           <note n="a7daff5d">
             1976/77 25-27
           </note>
@@ -6212,10 +6424,16 @@
             101 Herr Rejdnell (fp) 127 Åsling, industriminister 102, 110,
             115, 118, 119, 123, 125, 128
           </note>
+          <u who="sven_g_andersson_70ded3" xml:id="i-5c8944b3a4b74743-6" prev="i-5c8944b3a4b74743-1" n="5c8944b3">
+            <seg n="ef890aca"/>
+          </u>
           <pb n="77" facs="https://betalab.kb.se/prot-197677--25/prot_197677__25-077.jp2/_view"/>
           <note n="fc7509f7">
             GOTAB 52614 Stockholm 1976
           </note>
+          <u who="sven_g_andersson_70ded3" xml:id="i-5c8944b3a4b74743-7" prev="i-5c8944b3a4b74743-1" n="5c8944b3">
+            <seg n="ef890aca"/>
+          </u>
         </div>
       </body>
     </text>

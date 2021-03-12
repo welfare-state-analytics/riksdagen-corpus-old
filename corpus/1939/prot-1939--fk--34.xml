@@ -20,7 +20,7 @@
     <encodingDesc>
       <editorialDecl>
         <correction>
-          <p>Some data curation was done. It is documented in db/curation/instances</p>
+          <p>Some data curation was done. It is documented in input/curation/instances</p>
         </correction>
       </editorialDecl>
     </encodingDesc>
@@ -58,6 +58,7 @@
       </front>
       <body>
         <div>
+          <pb n="0" facs="https://betalab.kb.se/prot-1939--fk--34/prot_1939__fk__34-000.jp2/_view"/>
           <note n="bf8a077b">
             RIKSDAGENS PROTOKOLL. 1939. Första kammaren. Nr 34.
           </note>
@@ -125,7 +126,7 @@
             Första kammarens protokoll 1939. Nr 34. 1
           </note>
           <pb n="1" facs="https://betalab.kb.se/prot-1939--fk--34/prot_1939__fk__34-001.jp2/_view"/>
-          <note n="aab4d49e">
+          <note type="date" n="aac68789">
             2 Nr 34. Tisdagen den 30 maj 1939.
           </note>
           <note n="a184e32b">
@@ -230,7 +231,7 @@
             Hall m. m.; samt
           </note>
           <pb n="2" facs="https://betalab.kb.se/prot-1939--fk--34/prot_1939__fk__34-002.jp2/_view"/>
-          <note n="b1c01cff">
+          <note type="date" n="a2c66e4b">
             Tisdagen den 30 maj 1939. Nr 34. 3
           </note>
           <note n="aa3fe37d">
@@ -288,7 +289,7 @@
           <note n="9b21d90d">
             Förslag till arbetstidslag för detaljhandeln m. m.
           </note>
-          <note n="2973ed43">
+          <note type="date" n="345be590">
             4 Nr 34. Onsdagen den 31 maj 1939 f. m.
           </note>
           <note type="date" n="64927778">
@@ -360,7 +361,7 @@
             motionerna
           </note>
           <pb n="4" facs="https://betalab.kb.se/prot-1939--fk--34/prot_1939__fk__34-004.jp2/_view"/>
-          <note n="55ef1641">
+          <note type="date" n="9bb95b7a">
             Onsdagen den 31 maj 1939 f. m. Nr 34. 5
           </note>
           <note n="8a8ae129">
@@ -465,7 +466,7 @@
             delar av utskottets under A och C upptagna lagförslag.
           </note>
           <pb n="5" facs="https://betalab.kb.se/prot-1939--fk--34/prot_1939__fk__34-005.jp2/_view"/>
-          <note n="f6a8c91c">
+          <note type="date" n="c984b53b">
             6 Nr 34. Onsdagen den 31 maj 1939 f. m.
           </note>
           <note n="c3639c24">
@@ -477,7 +478,7 @@
           <note type="speaker" n="86289ca2">
             Herr Norman:
           </note>
-          <u who="david_norman_cac0aa" xml:id="i-a8b166491dfc657f-0" next="i-d0f384d4559fe27d-0" n="c22d206e">
+          <u who="david_norman_cac0aa" xml:id="i-c22d206e153ca27f-0" next="i-c22d206e153ca27f-3" n="c22d206e">
             <seg n="db632f0d">
               Herr talman! I avseende å föredragningen av andra lagutskottets
               utlåtande nr 31 föreslås,
@@ -531,7 +532,7 @@
           <note n="4b8e1bec">
             Denna paragraf lydde:
           </note>
-          <u who="david_norman_cac0aa" xml:id="i-d0f384d4559fe27d-0" prev="i-a8b166491dfc657f-0" n="c22d206e">
+          <u who="david_norman_cac0aa" xml:id="i-c22d206e153ca27f-1" prev="i-c22d206e153ca27f-0" n="c22d206e">
             <seg n="144a9ce2">
               Denna lag äger tillämpning å rörelse, som avser detaljhandel
               och i omedelbar anslutning därtill bedriven verksamhet eller som
@@ -539,6 +540,11 @@
               för såvitt i rörelsen till arbete av annat slag än nedan i a)—g)
               avses för arbetsgivares räkning 1 regel användas flera än en arbetstagare.
             </seg>
+          </u>
+          <note n="673705d8">
+            Från lagens tillämpning undantagas:
+          </note>
+          <u who="david_norman_cac0aa" xml:id="i-c22d206e153ca27f-2" prev="i-c22d206e153ca27f-0" n="c22d206e">
             <seg n="ecdcc41d">
               a) arbete, som utföres under sådana förhållanden, att det ej
               kan anses tillkomma arbetsgivaren att vaka över arbetets anordnande;
@@ -553,6 +559,11 @@
             <seg n="a87181ff">
               d) arbete, som bedrives av staten;
             </seg>
+          </u>
+          <note n="772f45dc">
+            e) husligt arbete;
+          </note>
+          <u who="david_norman_cac0aa" xml:id="i-c22d206e153ca27f-3" prev="i-c22d206e153ca27f-0" n="c22d206e">
             <seg n="2c6cd51c">
               f) sådant arbete i samband med hotell-, restaurangeller kaférörelse,
               som är att hänföra till allmänhetens direkta betjänande, under
@@ -560,19 +571,13 @@
               arbete; samt
             </seg>
           </u>
-          <note n="673705d8">
-            Från lagens tillämpning undantagas:
-          </note>
-          <note n="772f45dc">
-            e) husligt arbete;
-          </note>
           <note n="d194ad20">
             g) arbete, varå sjöarbetstidslagen äger tillämpning.
           </note>
           <note type="speaker" n="71edbb82">
             Herr Holmström:
           </note>
-          <u who="nils_holmstrom_bd8c23" xml:id="i-ebd97a2f42fda1b7-0" next="i-3ff4dd84e3b2526b-0" n="bbe2ae5c">
+          <u who="nils_holmstrom_bd8c23" xml:id="i-bbe2ae5c5caef4e7-0" next="i-bbe2ae5c5caef4e7-3" n="bbe2ae5c">
             <seg n="96841ebe">
               Herr talman! Jag skall i denna principdebatt endast uppehålla
               mig vid den första lagen. De yrkanden om ändringar i Kungl. Maj:ts
@@ -582,7 +587,7 @@
             </seg>
           </u>
           <pb n="6" facs="https://betalab.kb.se/prot-1939--fk--34/prot_1939__fk__34-006.jp2/_view"/>
-          <note n="45a3815e">
+          <note type="date" n="ae85d36c">
             Onsdagen den 31 maj 1939 f. m. Nr 34. 7
           </note>
           <note n="134d0826">
@@ -595,7 +600,7 @@
             framförts i motionen, icke dikterats av någon önskan att beröva
             de anställda dem tillkommande rimliga förmåner.
           </note>
-          <u who="nils_holmstrom_bd8c23" xml:id="i-3ff4dd84e3b2526b-0" prev="i-ebd97a2f42fda1b7-0" n="bbe2ae5c">
+          <u who="nils_holmstrom_bd8c23" xml:id="i-bbe2ae5c5caef4e7-1" prev="i-bbe2ae5c5caef4e7-0" n="bbe2ae5c">
             <seg n="88e380c8">
               Utredningens ledamöter ha ju tillkallats såsom sakkunniga, och
               när dessa sakkunniga nu äro eniga i sitt förslag, ha motionärerna
@@ -659,6 +664,12 @@
               dock innebär icke oväsentliga förbättringar i jämförelse med den
               kungl. propositionen.
             </seg>
+          </u>
+          <pb n="7" facs="https://betalab.kb.se/prot-1939--fk--34/prot_1939__fk__34-007.jp2/_view"/>
+          <note type="date" n="2d601505">
+            8 Nr 34. Onsdagen den 31 maj 1939 f. m.
+          </note>
+          <u who="nils_holmstrom_bd8c23" xml:id="i-bbe2ae5c5caef4e7-2" prev="i-bbe2ae5c5caef4e7-0" n="bbe2ae5c">
             <seg n="b80f8669">
               Förslag till arbetstidslag för detaljhandeln m. m. (Forts.) Jag
               sätter särskilt värde på vissa uttalanden i motiveringen, vilka
@@ -714,18 +725,7 @@
               komma, som jag framhöll, att underlätta lagens tillämpning till
               gagn för såväl köpmännen som de anställda.
             </seg>
-            <seg n="e1241d4a">
-              Herr talman! Då enligt mitt förmenande avlöningsfrågor böra avgöras
-              enligt parternas fria överenskommelse, och då jag, enligt vad
-              jag anfört, anser, att bestämmelser om avlöningar icke skola ingå
-              i arbetstidslagar, vill jag därför i denna principdebatt nu förklara
-              min anslutning till den av herr Skoglund avgivna reservationen.
-            </seg>
           </u>
-          <pb n="7" facs="https://betalab.kb.se/prot-1939--fk--34/prot_1939__fk__34-007.jp2/_view"/>
-          <note n="952327cd">
-            8 Nr 34. Onsdagen den 31 maj 1939 f. m.
-          </note>
           <note n="c287fac6">
             I motionen hemställes också, att lagen icke skall verka rubbning
             i avtal mellan arbetsgivare och arbetstagare, som gälla för viss
@@ -736,11 +736,20 @@
             icke tilländalupen tid. Den ändring utskottet i denna punkt förordat
             finner jag synnerligen väl motiverad.
           </note>
+          <u who="nils_holmstrom_bd8c23" xml:id="i-bbe2ae5c5caef4e7-3" prev="i-bbe2ae5c5caef4e7-0" n="bbe2ae5c">
+            <seg n="e1241d4a">
+              Herr talman! Då enligt mitt förmenande avlöningsfrågor böra avgöras
+              enligt parternas fria överenskommelse, och då jag, enligt vad
+              jag anfört, anser, att bestämmelser om avlöningar icke skola ingå
+              i arbetstidslagar, vill jag därför i denna principdebatt nu förklara
+              min anslutning till den av herr Skoglund avgivna reservationen.
+            </seg>
+          </u>
           <note n="392d840e">
             Häri instämde herr Andersson, Emil, och herr Björck.
           </note>
           <pb n="8" facs="https://betalab.kb.se/prot-1939--fk--34/prot_1939__fk__34-008.jp2/_view"/>
-          <note n="9c64ab36">
+          <note type="date" n="f568c48b">
             Onsdagen den 31 maj 1939 f. m. Nr 34. 9
           </note>
           <note n="c3639c24">
@@ -749,7 +758,7 @@
           <note type="speaker" n="94965ee9">
             Herr Petersson, Knut:
           </note>
-          <u who="knut_petersson_19fa44" xml:id="i-727934b35808ed8b-0" next="i-8388fadede44d9fe-0" n="4d2a3b6b">
+          <u who="knut_petersson_19fa44" xml:id="i-4d2a3b6b99ccda9c-0" next="i-4d2a3b6b99ccda9c-1" n="4d2a3b6b">
             <seg n="e3ee9ad3">
               Jag begärde ordet endast för att för kammaren få avlämna en kort
               redovisning.
@@ -825,10 +834,10 @@
             </seg>
           </u>
           <pb n="9" facs="https://betalab.kb.se/prot-1939--fk--34/prot_1939__fk__34-009.jp2/_view"/>
-          <note n="7d2ee318">
+          <note type="date" n="32e7427e">
             10 Nr 34. Onsdagen den 31 maj 1939 f. m.
           </note>
-          <u who="knut_petersson_19fa44" xml:id="i-8388fadede44d9fe-0" prev="i-727934b35808ed8b-0" n="4d2a3b6b">
+          <u who="knut_petersson_19fa44" xml:id="i-4d2a3b6b99ccda9c-1" prev="i-4d2a3b6b99ccda9c-0" n="4d2a3b6b">
             <seg n="0f215d37">
               Förslag till arbetstidslag för detaljhandeln m. m. (Forts.) rätt
               och billigt, att man jämväl berövar dem det stöd, som skulle komma
@@ -869,7 +878,7 @@
           <note type="speaker" n="166b5268">
             Herr Olsson, Oscar:
           </note>
-          <u who="oscar_olsson_ee7ca2" xml:id="i-21a595f3d6870fe3-0" next="i-56b7c442d8ae7675-0" n="f9ee82bc">
+          <u who="oscar_olsson_ee7ca2" xml:id="i-f9ee82bc34515435-0" next="i-f9ee82bc34515435-2" n="f9ee82bc">
             <seg n="b7d77490">
               I fråga om tillämpningsområdet för arbetstidslagen för detaljhandeln
               skulle jag vilja säga ett par ord. Det rör icke precis vad som
@@ -909,13 +918,13 @@
             </seg>
           </u>
           <pb n="10" facs="https://betalab.kb.se/prot-1939--fk--34/prot_1939__fk__34-010.jp2/_view"/>
-          <note n="eaff56bc">
+          <note type="date" n="7bfaf2e7">
             Onsdagen den 31 maj 1939 f. m. Nr 34. 11
           </note>
           <note n="c3639c24">
             Förslag till arbetstidslag för detaljhandeln m. m. (Forts.)
           </note>
-          <u who="oscar_olsson_ee7ca2" xml:id="i-56b7c442d8ae7675-0" prev="i-21a595f3d6870fe3-0" n="f9ee82bc">
+          <u who="oscar_olsson_ee7ca2" xml:id="i-f9ee82bc34515435-1" prev="i-f9ee82bc34515435-0" n="f9ee82bc">
             <seg n="b3075ec2">
               »Man har därvid även tagit i betraktande, att parterna redan
               ordnat arbetstidsförhållandena genom kollektivavtal och att man
@@ -986,6 +995,15 @@
               måste det vara en smula ruskigt att vara farmacevt under sådana
               förhållanden, tycker jag.
             </seg>
+          </u>
+          <pb n="11" facs="https://betalab.kb.se/prot-1939--fk--34/prot_1939__fk__34-011.jp2/_view"/>
+          <note type="date" n="7ca07399">
+            12 Nr 34. Onsdagen den 31 maj 1939 f. m.
+          </note>
+          <note n="c3639c24">
+            Förslag till arbetstidslag för detaljhandeln m. m. (Forts.)
+          </note>
+          <u who="oscar_olsson_ee7ca2" xml:id="i-f9ee82bc34515435-2" prev="i-f9ee82bc34515435-0" n="f9ee82bc">
             <seg n="ca3794d4">
               Jag har trots andra lagutskottets skrivsätt varit angelägen att
               föra fram dessa synpunkter i kammardebatten. Vad är det då, som
@@ -1024,17 +1042,10 @@
               yrkande.
             </seg>
           </u>
-          <pb n="11" facs="https://betalab.kb.se/prot-1939--fk--34/prot_1939__fk__34-011.jp2/_view"/>
-          <note n="b576ad44">
-            12 Nr 34. Onsdagen den 31 maj 1939 f. m.
-          </note>
-          <note n="c3639c24">
-            Förslag till arbetstidslag för detaljhandeln m. m. (Forts.)
-          </note>
           <note type="speaker" n="b876a0d2">
             Herr statsrådet Forslund:
           </note>
-          <u who="albert_forslund_afb8e0" xml:id="i-a8fe12c2b363f701-0" next="i-bd6654eac380441a-0" n="b18638bf">
+          <u who="albert_forslund_afb8e0" xml:id="i-b18638bfa95aafbd-0" next="i-b18638bfa95aafbd-4" n="b18638bf">
             <seg n="e6d500b5">
               Herr talman! TI anslutning till den föredragna punkten vill jag
               först påpeka angående själva arbetstidslagen, att det kan sägas
@@ -1070,7 +1081,7 @@
             </seg>
           </u>
           <pb n="12" facs="https://betalab.kb.se/prot-1939--fk--34/prot_1939__fk__34-012.jp2/_view"/>
-          <note n="87f1823c">
+          <note type="date" n="439bbb49">
             Onsdagen den 31 maj 1939 f. m. Nr 34. 13
           </note>
           <note n="e8b91f4b">
@@ -1087,7 +1098,7 @@
             den 10 maj i fjol och som trädde i kraft den 1 januari i år, innehöll
             icke heller någon sådan reservation.
           </note>
-          <u who="albert_forslund_afb8e0" xml:id="i-bd6654eac380441a-0" prev="i-a8fe12c2b363f701-0" n="b18638bf">
+          <u who="albert_forslund_afb8e0" xml:id="i-b18638bfa95aafbd-1" prev="i-b18638bfa95aafbd-0" n="b18638bf">
             <seg n="18059365">
               Jag måste då fråga mig: varför skall man då på detta område,
               där det endast är fråga om en fortsättning i det allmänna strävandet
@@ -1145,6 +1156,12 @@
               gäller på detta område, är föreskrivet att övertidsersättning
               skall utgå med
             </seg>
+          </u>
+          <pb n="13" facs="https://betalab.kb.se/prot-1939--fk--34/prot_1939__fk__34-013.jp2/_view"/>
+          <note type="date" n="793f9132">
+            14 Nr 34. Onsdagen den 31 maj 1939 f. m.
+          </note>
+          <u who="albert_forslund_afb8e0" xml:id="i-b18638bfa95aafbd-2" prev="i-b18638bfa95aafbd-0" n="b18638bf">
             <seg n="0e2b8adb">
               Förslag till arbetstidslag för detaljhandeln m. m. (Forts.) ett
               visst belopp i förhållande till lönen. I den kungl. propositionen
@@ -1219,6 +1236,12 @@
               än som få säljas även efter den vanliga butikstängningstiden.
               Här har
             </seg>
+          </u>
+          <pb n="14" facs="https://betalab.kb.se/prot-1939--fk--34/prot_1939__fk__34-014.jp2/_view"/>
+          <note type="date" n="65d24d7e">
+            Onsdagen den 31 maj 1939 f. m. Nr 34. 15
+          </note>
+          <u who="albert_forslund_afb8e0" xml:id="i-b18638bfa95aafbd-3" prev="i-b18638bfa95aafbd-0" n="b18638bf">
             <seg n="f056d165">
               Förslag till arbetstidslag för detaljhandeln m. m. (Forts.) utskottet
               emellertid gjort en väsentlig avvikelse, i det att utskottet medger,
@@ -1289,6 +1312,12 @@
               då man såsom utskottet inte rätt och slätt för tobaksförsäljningen
               bestämmer den vanliga för-
             </seg>
+          </u>
+          <pb n="15" facs="https://betalab.kb.se/prot-1939--fk--34/prot_1939__fk__34-015.jp2/_view"/>
+          <note type="date" n="36597622">
+            16 Nr 34. Onsdagen den 31 maj 1939 f. m.
+          </note>
+          <u who="albert_forslund_afb8e0" xml:id="i-b18638bfa95aafbd-4" prev="i-b18638bfa95aafbd-0" n="b18638bf">
             <seg n="8af7b9b1">
               Förslag till arbetstidslag för detaljhandeln m. m. (Forts.) säljningstiden
               för butiker, utan medger sådana kiosker, som försälja tobaksvaror,
@@ -1307,22 +1336,10 @@
               avslutad.
             </seg>
           </u>
-          <pb n="13" facs="https://betalab.kb.se/prot-1939--fk--34/prot_1939__fk__34-013.jp2/_view"/>
-          <note n="26f490c4">
-            14 Nr 34. Onsdagen den 31 maj 1939 f. m.
-          </note>
-          <pb n="14" facs="https://betalab.kb.se/prot-1939--fk--34/prot_1939__fk__34-014.jp2/_view"/>
-          <note n="fe3aed86">
-            Onsdagen den 31 maj 1939 f. m. Nr 34. 15
-          </note>
-          <pb n="15" facs="https://betalab.kb.se/prot-1939--fk--34/prot_1939__fk__34-015.jp2/_view"/>
-          <note n="82999503">
-            16 Nr 34. Onsdagen den 31 maj 1939 f. m.
-          </note>
           <note type="speaker" n="4b90e6b4">
             Herr von Horn:
           </note>
-          <u who="robert_von_horn_53ee40" xml:id="i-4f3330e9541dfcae-0" next="i-75ca7b0f74b04ba5-0" n="f988518d">
+          <u who="robert_von_horn_53ee40" xml:id="i-f988518d71e8dd95-0" next="i-f988518d71e8dd95-1" n="f988518d">
             <seg n="6f6080e3">
               Herr talman! I motion nr 274 i denna kammare ha friherre Beck-Friis
               och jag yrkat att riksdagen måtte avslå vad Kungl. Maj:t föreslagit
@@ -1376,14 +1393,14 @@
             och Södermanlands län, Stockholms och Skånes handelskammare samt
             Sveriges skomakeriidkares och skohandlares riksförbund.
           </note>
-          <u who="robert_von_horn_53ee40" xml:id="i-75ca7b0f74b04ba5-0" prev="i-4f3330e9541dfcae-0" n="f988518d">
+          <u who="robert_von_horn_53ee40" xml:id="i-f988518d71e8dd95-1" prev="i-f988518d71e8dd95-0" n="f988518d">
             <seg n="b287c979">
               Herr talman! Jag har inte vare sig av de uttalanden som utskottet
               gjort
             </seg>
           </u>
           <pb n="16" facs="https://betalab.kb.se/prot-1939--fk--34/prot_1939__fk__34-016.jp2/_view"/>
-          <note n="90576fc1">
+          <note type="date" n="c215c699">
             Onsdagen den 31 maj 1939 f. m. Nr 34. 17
           </note>
           <note n="0f714b36">
@@ -1397,7 +1414,7 @@
           <note type="speaker" n="86289ca2">
             Herr Norman:
           </note>
-          <u who="david_norman_cac0aa" xml:id="i-a8b166491dfc657f-1" next="i-d0f384d4559fe27d-1" n="c22d206e">
+          <u who="david_norman_cac0aa" xml:id="i-c22d206e153ca27f-4" next="i-c22d206e153ca27f-7" n="c22d206e">
             <seg n="ed8f753d">
               Herr talman! Jag hade först tänkt avvakta debattens fortgång
               ännu någon tid för att olika synpunkter skulle komma fram, men
@@ -1462,10 +1479,10 @@
             Första kammarens protokoll 1939. Nr 34. 2
           </note>
           <pb n="17" facs="https://betalab.kb.se/prot-1939--fk--34/prot_1939__fk__34-017.jp2/_view"/>
-          <note n="9dc8c3c6">
+          <note type="date" n="69afbff4">
             18 Nr 34. Onsdagen den 31 maj 1939 f. m.
           </note>
-          <u who="david_norman_cac0aa" xml:id="i-d0f384d4559fe27d-1" prev="i-a8b166491dfc657f-1" n="c22d206e">
+          <u who="david_norman_cac0aa" xml:id="i-c22d206e153ca27f-5" prev="i-c22d206e153ca27f-4" n="c22d206e">
             <seg n="8e670be6">
               Förslag till arbetstidslag för detaljhandeln m. m. (Forts.) det
               som under alla förhållanden kan vara behövligt eller nödvändigt.
@@ -1533,6 +1550,15 @@
               att uppskjuta lagens tillämpning — för ett visst företag — till
               den 1 januari 1941. Detta enda avtal utlöper näm-
             </seg>
+          </u>
+          <pb n="18" facs="https://betalab.kb.se/prot-1939--fk--34/prot_1939__fk__34-018.jp2/_view"/>
+          <note type="date" n="0b06ef66">
+            Onsdagen den 31 maj 1939 f. m. Nr 34. 19
+          </note>
+          <note n="c3639c24">
+            Förslag till arbetstidslag för detaljhandeln m. m. (Forts.)
+          </note>
+          <u who="david_norman_cac0aa" xml:id="i-c22d206e153ca27f-6" prev="i-c22d206e153ca27f-4" n="c22d206e">
             <seg n="d2560c2b">
               ligen så sent som vid den sistnämnda tidpunkten. De andra avtalen
               utlöpa i början av nästa år eller fram emot mitten av nästa år,
@@ -1599,6 +1625,12 @@
               som härvidlag alltid komma att göra sig gällande, på grund av
               att det är så olika intressen, som man här har att söka till-
             </seg>
+          </u>
+          <pb n="19" facs="https://betalab.kb.se/prot-1939--fk--34/prot_1939__fk__34-019.jp2/_view"/>
+          <note type="date" n="8ba2b952">
+            20 Nr 34. Onsdagen den 31 maj 1939 f. m.
+          </note>
+          <u who="david_norman_cac0aa" xml:id="i-c22d206e153ca27f-7" prev="i-c22d206e153ca27f-4" n="c22d206e">
             <seg n="0a07a474">
               Förslag till arbetstidslag för detaljhandeln m. m. (Forts.) godose,
               företagarnas intressen, de anställdas intressen och allmänhetens
@@ -1639,21 +1671,10 @@
               emellertid bifall till utskottets hemställan beträffande 1 8.
             </seg>
           </u>
-          <pb n="18" facs="https://betalab.kb.se/prot-1939--fk--34/prot_1939__fk__34-018.jp2/_view"/>
-          <note n="fac28d83">
-            Onsdagen den 31 maj 1939 f. m. Nr 34. 19
-          </note>
-          <note n="c3639c24">
-            Förslag till arbetstidslag för detaljhandeln m. m. (Forts.)
-          </note>
-          <pb n="19" facs="https://betalab.kb.se/prot-1939--fk--34/prot_1939__fk__34-019.jp2/_view"/>
-          <note n="2d52d171">
-            20 Nr 34. Onsdagen den 31 maj 1939 f. m.
-          </note>
           <note type="speaker" n="4d6ab68c">
             Herr statsrådet Möller:
           </note>
-          <u who="gustav_moller_bbfd92" xml:id="i-4d2b8c808d901f4b-0" n="c21c0453">
+          <u who="gustav_moller_bbfd92" xml:id="i-c21c04533ec3c49b-0" n="c21c0453">
             <seg n="8e753cb8">
               Jag skall, herr talman, bara i anledning av det anförande, som
               andra lagutskottets ärade ordförande här hållit, göra en enda
@@ -1675,7 +1696,7 @@
           <note type="speaker" n="dfdfc3e1">
             Herr Norman erhöll nu ordet för kort genmäle och anförde:
           </note>
-          <u who="david_norman_cac0aa" xml:id="i-6008fcadf676cc1a-0" n="c22d206e">
+          <u who="david_norman_cac0aa" xml:id="i-c22d206e153ca27f-8" n="c22d206e">
             <seg n="76cf8e98">
               Herr talman! Detta sammanhänger nog med att vi inom utskottet
               omedvetet känt oss påverkade av det skrivsätt, som använts, när
@@ -1687,7 +1708,7 @@
           <note type="speaker" n="70fa53d3">
             Herr Ekströmer:
           </note>
-          <u who="ivar_ekstromer_ac071e" xml:id="i-aa32a33d05f3f480-0" next="i-9455397a6873e70f-0" n="1538e41a">
+          <u who="ivar_ekstromer_ac071e" xml:id="i-1538e41a50450aa4-0" next="i-1538e41a50450aa4-2" n="1538e41a">
             <seg n="21cc6657">
               Herr talman! Jag vill endast säga några ord med anledning av
               statsrådet Forslunds erinringar mot utskottets förslag.
@@ -1699,10 +1720,10 @@
             </seg>
           </u>
           <pb n="20" facs="https://betalab.kb.se/prot-1939--fk--34/prot_1939__fk__34-020.jp2/_view"/>
-          <note n="aec0537a">
+          <note type="date" n="3bf62c28">
             Onsdagen den 31 maj 1939 f. m. Nr 34. 21
           </note>
-          <u who="ivar_ekstromer_ac071e" xml:id="i-9455397a6873e70f-0" prev="i-aa32a33d05f3f480-0" n="1538e41a">
+          <u who="ivar_ekstromer_ac071e" xml:id="i-1538e41a50450aa4-1" prev="i-1538e41a50450aa4-0" n="1538e41a">
             <seg n="631f4460">
               Förslag till arbetstidslag för detaljhandeln m. m. (Forts.) hället,
               den livliga kontakt, som den har med allmänheten, och de i förhållande
@@ -1776,6 +1797,12 @@
               Sedan skall jag tillåta mig att säga ett par ord om kioskerna
               och deras to-
             </seg>
+          </u>
+          <pb n="21" facs="https://betalab.kb.se/prot-1939--fk--34/prot_1939__fk__34-021.jp2/_view"/>
+          <note type="date" n="98ac99fc">
+            22 Nr 34. Onsdagen den 31 maj 1939 f. m.
+          </note>
+          <u who="ivar_ekstromer_ac071e" xml:id="i-1538e41a50450aa4-2" prev="i-1538e41a50450aa4-0" n="1538e41a">
             <seg n="b11772e1">
               Förslag till arbetstidslag för detaljhandeln m. m. (Forts.) baksförsäljning.
               Med det rörliga liv, som det svenska folket i våra dagar lyckligtvis
@@ -1810,17 +1837,13 @@
               från riksdagens sida.
             </seg>
           </u>
-          <pb n="21" facs="https://betalab.kb.se/prot-1939--fk--34/prot_1939__fk__34-021.jp2/_view"/>
-          <note n="0be0920f">
-            22 Nr 34. Onsdagen den 31 maj 1939 f. m.
-          </note>
           <note n="9b77a4c0">
             Jag ber, herr talman, att få yrka bifall till utskottets förslag.
           </note>
           <note type="speaker" n="44ba5b4b">
             Herr Linder:
           </note>
-          <u who="william_linder_ad11de" xml:id="i-8c94d58bf6177cbe-0" next="i-8f0259db1a2dcf12-0" n="03c32afb">
+          <u who="william_linder_ad11de" xml:id="i-03c32afb0210d7c7-0" next="i-03c32afb0210d7c7-1" n="03c32afb">
             <seg n="67abf6ff">
               Herr talman! Jag är i viss mån förekommen av herr Ekströmer,
               men jag vill i alla fall säga några ord med anledning av herr
@@ -1858,10 +1881,10 @@
             </seg>
           </u>
           <pb n="22" facs="https://betalab.kb.se/prot-1939--fk--34/prot_1939__fk__34-022.jp2/_view"/>
-          <note n="6733a7ca">
+          <note type="date" n="be3c6e0f">
             Onsdagen den 31 maj 1939 f. m. Nr 34. 23
           </note>
-          <u who="william_linder_ad11de" xml:id="i-8f0259db1a2dcf12-0" prev="i-8c94d58bf6177cbe-0" n="03c32afb">
+          <u who="william_linder_ad11de" xml:id="i-03c32afb0210d7c7-1" prev="i-03c32afb0210d7c7-0" n="03c32afb">
             <seg n="e4bc46aa">
               Förslag till arbetstidslag för detaljhandeln m. m. (Forts.) nat
               förslag, än att kioskerna måste få sina krav att ha rättighet
@@ -1903,7 +1926,7 @@
           <note type="speaker" n="638ed27c">
             Herr Åkerberg:
           </note>
-          <u who="harald_akerberg_0cb59b" xml:id="i-f291d3eae36743aa-0" next="i-395b069f2dc9838d-0" n="ac25fb34">
+          <u who="harald_akerberg_0cb59b" xml:id="i-ac25fb347ccc1ba0-0" next="i-ac25fb347ccc1ba0-2" n="ac25fb34">
             <seg n="1816e0ee">
               Herr talman! Jag har begärt ordet för att säga några ord beträffande
               kioskhandeln. Herr statsrådet och chefen för socialdepartementet
@@ -1939,13 +1962,13 @@
             </seg>
           </u>
           <pb n="23" facs="https://betalab.kb.se/prot-1939--fk--34/prot_1939__fk__34-023.jp2/_view"/>
-          <note n="46440d59">
+          <note type="date" n="cc39e98d">
             24 Nr 34. Onsdagen den 31 maj 1939 f. m.
           </note>
           <note n="c3639c24">
             Förslag till arbetstidslag för detaljhandeln m. m. (Forts.)
           </note>
-          <u who="harald_akerberg_0cb59b" xml:id="i-395b069f2dc9838d-0" prev="i-f291d3eae36743aa-0" n="ac25fb34">
+          <u who="harald_akerberg_0cb59b" xml:id="i-ac25fb347ccc1ba0-1" prev="i-ac25fb347ccc1ba0-0" n="ac25fb34">
             <seg n="9e17e9f3">
               Herr Linder medgav också i sitt anförande, att det förekommer
               vissa missförhållanden inom kioskhandeln. Han kallade kioskhandeln
@@ -2017,6 +2040,12 @@
               tre, men det är också maximum — men det finnes lika många fattiga
               blinda tobakshand-
             </seg>
+          </u>
+          <pb n="24" facs="https://betalab.kb.se/prot-1939--fk--34/prot_1939__fk__34-024.jp2/_view"/>
+          <note type="date" n="d16c2a91">
+            Onsdagen den 31 maj 1939 f. m. Nr 34. 25
+          </note>
+          <u who="harald_akerberg_0cb59b" xml:id="i-ac25fb347ccc1ba0-2" prev="i-ac25fb347ccc1ba0-0" n="ac25fb34">
             <seg n="60843ff3">
               Förslag till arbetstidslag för detaljhandeln m. m. (Forts.) lare,
               som blivit utkonkurrerade och utblottade och inte kunna fortsätta
@@ -2050,10 +2079,6 @@
               i den djungel, som herr Linder talade om.
             </seg>
           </u>
-          <pb n="24" facs="https://betalab.kb.se/prot-1939--fk--34/prot_1939__fk__34-024.jp2/_view"/>
-          <note n="4e2bf507">
-            Onsdagen den 31 maj 1939 f. m. Nr 34. 25
-          </note>
           <note n="288cdf29">
             Med hänvisning till vad jag nu yttrat, herr talman, kommer jag,
             när 11 8 1 butikstängningslagen föredrages, att yrka bifall till
@@ -2067,7 +2092,7 @@
           <note type="speaker" n="48c1415f">
             Herr Strand:
           </note>
-          <u who="axel_strand_85c226" xml:id="i-321d9d4f4deedc0d-0" next="i-f6715b081188dc20-0" n="84ec9f3a">
+          <u who="axel_strand_85c226" xml:id="i-84ec9f3a012d3ccb-0" next="i-84ec9f3a012d3ccb-2" n="84ec9f3a">
             <seg n="aeb449df">
               Herr talman! Mängden av de i denna fråga avlämnade motionerna
               avspeglar de mycket delade meningarna om de föreslagna bestämmelserna.
@@ -2098,7 +2123,7 @@
             </seg>
           </u>
           <pb n="25" facs="https://betalab.kb.se/prot-1939--fk--34/prot_1939__fk__34-025.jp2/_view"/>
-          <note n="d86a8290">
+          <note type="date" n="ab209cc1">
             26 Nr 34. Onsdagen den 31 maj 1939 f. m.
           </note>
           <note n="5857f79d">
@@ -2106,7 +2131,7 @@
             betyda, att omkring hälften av samtliga anställda icke falla under
             lagens bestämmelser.
           </note>
-          <u who="axel_strand_85c226" xml:id="i-f6715b081188dc20-0" prev="i-321d9d4f4deedc0d-0" n="84ec9f3a">
+          <u who="axel_strand_85c226" xml:id="i-84ec9f3a012d3ccb-1" prev="i-84ec9f3a012d3ccb-0" n="84ec9f3a">
             <seg n="ed0cbdef">
               Jag skulle vidare tro, att det andra av mig framställda yrkandet,
               beträffande definitionen på företagsledare, också är av den beskaffenhet,
@@ -2172,6 +2197,18 @@
               kan i förväg överenskommelse om viss ersättning träffas, gällande
               exempelvis hela avlöningsperioden, som i regel är en månad.
             </seg>
+          </u>
+          <pb n="26" facs="https://betalab.kb.se/prot-1939--fk--34/prot_1939__fk__34-026.jp2/_view"/>
+          <note type="date" n="5d3c31cd">
+            Onsdagen den 31 maj 1939 f. m. Nr 34. 2
+          </note>
+          <note n="1acc7e96">
+            -—
+          </note>
+          <note n="c3639c24">
+            Förslag till arbetstidslag för detaljhandeln m. m. (Forts.)
+          </note>
+          <u who="axel_strand_85c226" xml:id="i-84ec9f3a012d3ccb-2" prev="i-84ec9f3a012d3ccb-0" n="84ec9f3a">
             <seg n="e8e0cf6a">
               Till slut skulle jag vilja yttra ett par ord om de av statsrådet
               kritiserade övergångsbestämmelserna. Jag har vid utskottets behandling
@@ -2201,20 +2238,10 @@
               yrkande om utbyte av ordet »avtal» mot »kollektivavtal».
             </seg>
           </u>
-          <pb n="26" facs="https://betalab.kb.se/prot-1939--fk--34/prot_1939__fk__34-026.jp2/_view"/>
-          <note n="0458d343">
-            Onsdagen den 31 maj 1939 f. m. Nr 34. 2
-          </note>
-          <note n="1acc7e96">
-            -—
-          </note>
-          <note n="c3639c24">
-            Förslag till arbetstidslag för detaljhandeln m. m. (Forts.)
-          </note>
           <note type="speaker" n="14ffbd85">
             Herr Wistrand:
           </note>
-          <u who="karl_wistrand_53d818" xml:id="i-646eff921708673a-0" next="i-94b28f1a0e0b6768-0" n="4e7ed009">
+          <u who="karl_wistrand_53d818" xml:id="i-4e7ed00985e767e0-0" next="i-4e7ed00985e767e0-1" n="4e7ed009">
             <seg n="8ca2711d">
               Herr talman! Jag har begärt ordet uteslutande för att till herr
               socialministern få förnya den anmaning, som jag gjorde redan vid
@@ -2259,13 +2286,13 @@
             </seg>
           </u>
           <pb n="27" facs="https://betalab.kb.se/prot-1939--fk--34/prot_1939__fk__34-027.jp2/_view"/>
-          <note n="8b78db6e">
+          <note type="date" n="44d0bda6">
             28 Nr 34. Onsdagen den 31 maj 1939 f. m.
           </note>
           <note n="c3639c24">
             Förslag till arbetstidslag för detaljhandeln m. m. (Forts.)
           </note>
-          <u who="karl_wistrand_53d818" xml:id="i-94b28f1a0e0b6768-0" prev="i-646eff921708673a-0" n="4e7ed009">
+          <u who="karl_wistrand_53d818" xml:id="i-4e7ed00985e767e0-1" prev="i-4e7ed00985e767e0-0" n="4e7ed009">
             <seg n="ffddd5b4">
               1 nuvarande stund säga, vad som på det ena eller andra området
               är den bärande linjen i vår sociallagstiftning. Ingen kan säga,
@@ -2288,7 +2315,7 @@
           <note type="speaker" n="44ba5b4b">
             Herr Linder:
           </note>
-          <u who="william_linder_ad11de" xml:id="i-af9c56565e31b256-0" n="03c32afb">
+          <u who="william_linder_ad11de" xml:id="i-03c32afb0210d7c7-2" n="03c32afb">
             <seg n="89ea3e72">
               Herr talman! Då herr Åkerberg hade ordet, fällde han det uttrycket
               att kioskhandeln kunde betraktas som en landsplåga. Men vad är
@@ -2344,7 +2371,7 @@
             </seg>
           </u>
           <pb n="28" facs="https://betalab.kb.se/prot-1939--fk--34/prot_1939__fk__34-028.jp2/_view"/>
-          <note n="f747bc2b">
+          <note type="date" n="8e68a49a">
             Onsdagen den 31 maj 1939 f. m. Nr 34. 29
           </note>
           <note n="cf6c0cf3">
@@ -2355,7 +2382,7 @@
           <note type="speaker" n="964abdc6">
             Herr Gärde:
           </note>
-          <u who="natanael_garde_462e5a" xml:id="i-6259216aa05ad043-0" n="647b679e">
+          <u who="natanael_garde_462e5a" xml:id="i-647b679ec113d587-0" n="647b679e">
             <seg n="644d09f0">
               Herr talman! Jag skall inte alltför mycket förlänga denna debatt,
               men jag har fäst mig vid den diskussion, som här ägt rum angående
@@ -2414,7 +2441,7 @@
           <note type="speaker" n="08f19447">
             Herr Löfvander:
           </note>
-          <u who="axel_lofvander_e36ab2" xml:id="i-037558d8fd0eea98-0" next="i-2a3621af23088ee9-0" n="540feac5">
+          <u who="axel_lofvander_e36ab2" xml:id="i-540feac541c17a84-0" next="i-540feac541c17a84-1" n="540feac5">
             <seg n="6dac0d79">
               Herr talman! Jag har varit med om att underteckna en reservation,
               som är fogad till detta utskottsutlåtande, och jag skall med några
@@ -2431,10 +2458,10 @@
             </seg>
           </u>
           <pb n="29" facs="https://betalab.kb.se/prot-1939--fk--34/prot_1939__fk__34-029.jp2/_view"/>
-          <note n="240ded92">
+          <note type="date" n="303a061f">
             30 Nr 34. Onsdagen den 31 maj 1939 f. m.
           </note>
-          <u who="axel_lofvander_e36ab2" xml:id="i-2a3621af23088ee9-0" prev="i-037558d8fd0eea98-0" n="540feac5">
+          <u who="axel_lofvander_e36ab2" xml:id="i-540feac541c17a84-1" prev="i-540feac541c17a84-0" n="540feac5">
             <seg n="92026606">
               Förslag till arbetstidslag för detaljhandeln m. m. (Forts.) att
               kräva särskilt tillstånd, utan att man borde få ha dylika lokaler
@@ -2450,7 +2477,7 @@
           <note type="speaker" n="71edbb82">
             Herr Holmström:
           </note>
-          <u who="nils_holmstrom_bd8c23" xml:id="i-a0804a6617fe1dc1-0" n="bbe2ae5c">
+          <u who="nils_holmstrom_bd8c23" xml:id="i-bbe2ae5c5caef4e7-4" n="bbe2ae5c">
             <seg n="6a416837">
               Herr talman! Utskottets ärade ordförande raljerade med mig och
               menade tydligen, att jag hade gjort en logisk kullerbytta genom
@@ -2486,7 +2513,7 @@
           <note type="speaker" n="638ed27c">
             Herr Åkerberg:
           </note>
-          <u who="harald_akerberg_0cb59b" xml:id="i-f291d3eae36743aa-1" next="i-395b069f2dc9838d-1" n="ac25fb34">
+          <u who="harald_akerberg_0cb59b" xml:id="i-ac25fb347ccc1ba0-3" next="i-ac25fb347ccc1ba0-4" n="ac25fb34">
             <seg n="0d1a99b1">
               Herr Linder anförde gentemot mig att kioskrörelsen nu hade blivit
               så stor, att vi måste ta hänsyn till den i lagstiftningen. Jag
@@ -2521,13 +2548,13 @@
             </seg>
           </u>
           <pb n="30" facs="https://betalab.kb.se/prot-1939--fk--34/prot_1939__fk__34-030.jp2/_view"/>
-          <note n="5eba8680">
+          <note type="date" n="76dff1c6">
             Onsdagen den 31 maj 1939 f. m. Nr 34. 31
           </note>
           <note n="3a00dae0">
             Förslag till arbetstidslag för detaljhandeln m. m. (Forts.) ?
           </note>
-          <u who="harald_akerberg_0cb59b" xml:id="i-395b069f2dc9838d-1" prev="i-f291d3eae36743aa-1" n="ac25fb34">
+          <u who="harald_akerberg_0cb59b" xml:id="i-ac25fb347ccc1ba0-4" prev="i-ac25fb347ccc1ba0-3" n="ac25fb34">
             <seg n="79fd705e">
               Herr Linder bestred, att tobakshandeln i kioskerna skulle vara
               olaglig för närvarande och redogjorde för hur saken ligger till.
@@ -2575,7 +2602,7 @@
           <note type="speaker" n="53838713">
             Herr Walles:
           </note>
-          <u who="janne_walles_05ea4f" xml:id="i-8104c3347377d71e-0" next="i-da85db611e607e87-0" n="7df49454">
+          <u who="janne_walles_05ea4f" xml:id="i-a2ea617b4d2b78c7-0" next="i-a2ea617b4d2b78c7-1" n="7df49454">
             <seg n="b82c02b5">
               Herr talman! Då herr Åkerberg yttrade, att kioskerna uppväxa
               som svampar ur jorden, vill jag framhålla att denna starka tillväxt
@@ -2606,7 +2633,7 @@
             </seg>
           </u>
           <pb n="31" facs="https://betalab.kb.se/prot-1939--fk--34/prot_1939__fk__34-031.jp2/_view"/>
-          <note n="94b45f10">
+          <note type="date" n="69da954d">
             32 Nr 34. Onsdagen den 31 maj 1939 f. m.
           </note>
           <note n="7978a153">
@@ -2614,7 +2641,7 @@
             | som sagt finner i nuvarande situation klokast. Jag ber därför
             att få yrka bifall till utskottets förslag.
           </note>
-          <u who="janne_walles_05ea4f" xml:id="i-da85db611e607e87-0" prev="i-8104c3347377d71e-0" n="7df49454">
+          <u who="janne_walles_05ea4f" xml:id="i-a2ea617b4d2b78c7-1" prev="i-a2ea617b4d2b78c7-0" n="7df49454">
             <seg n="4b926dc0">
               Herr Linnér: Jag har begärt ordet med anledning av det förslag,
               som under debatten har framställts av herr Gärde. Jag tror, att
@@ -2639,7 +2666,7 @@
           <note type="speaker" n="964abdc6">
             Herr Gärde:
           </note>
-          <u who="natanael_garde_462e5a" xml:id="i-6259216aa05ad043-1" n="647b679e">
+          <u who="natanael_garde_462e5a" xml:id="i-647b679ec113d587-1" n="647b679e">
             <seg n="8c7b2ab6">
               Jag har lika litet som herr Linnér deltagit i ärendets behandling,
               eftersom jag inte tillhör andra lagutskottet. Jag tror dock, att
@@ -2666,7 +2693,7 @@
           <note type="speaker" n="70fa53d3">
             Herr Ekströmer:
           </note>
-          <u who="ivar_ekstromer_ac071e" xml:id="i-aa32a33d05f3f480-1" next="i-9455397a6873e70f-1" n="1538e41a">
+          <u who="ivar_ekstromer_ac071e" xml:id="i-1538e41a50450aa4-3" next="i-1538e41a50450aa4-4" n="1538e41a">
             <seg n="7efa00c0">
               Jag tror ej, att herr Gärde har rätt, när han sätter 8 8 i så
               oupplösligt samband med övergångsbestämmelserna. Dessa saker få
@@ -2685,7 +2712,7 @@
           <note n="1c30fb4d">
             4 $. Denna paragraf hade följande avfattning:
           </note>
-          <u who="ivar_ekstromer_ac071e" xml:id="i-9455397a6873e70f-1" prev="i-aa32a33d05f3f480-1" n="1538e41a">
+          <u who="ivar_ekstromer_ac071e" xml:id="i-1538e41a50450aa4-4" prev="i-1538e41a50450aa4-3" n="1538e41a">
             <seg n="66acc8f6">
               Arbetsgivare må icke använda arbetstagare till arbete under längre
               tid, raster oräknade, än 48 timmar i veckan. Arbetstiden må ej
@@ -2693,7 +2720,7 @@
             </seg>
           </u>
           <pb n="32" facs="https://betalab.kb.se/prot-1939--fk--34/prot_1939__fk__34-032.jp2/_view"/>
-          <note n="157b8e80">
+          <note type="date" n="12050927">
             Onsdagen den 31 maj 1939 f. m. Nr 34. 33
           </note>
           <note n="e261df4a">
@@ -2705,7 +2732,7 @@
           <note type="speaker" n="8d4a902f">
             Herr Mannerskantz:
           </note>
-          <u who="axel_mannerskantz_51eb6d" xml:id="i-9f704f9c4251e116-0" next="i-f5eb2e76d25f7c9a-0" n="c7efe077">
+          <u who="axel_mannerskantz_51eb6d" xml:id="i-c7efe077517764f0-0" next="i-c7efe077517764f0-1" n="c7efe077">
             <seg n="39ed6afc">
               I fråga om denna paragraf, som rör den arbetstid, som skulle
               få gälla, har jag tillåtit mig att väcka en motion, som går ut
@@ -2774,10 +2801,10 @@
             Första kammarens protokoll 1939. Nr 34. 3
           </note>
           <pb n="33" facs="https://betalab.kb.se/prot-1939--fk--34/prot_1939__fk__34-033.jp2/_view"/>
-          <note n="30f1108e">
+          <note type="date" n="6eb90d60">
             34 Nr 34. Onsdagen den 31 maj 1939 f. m.
           </note>
-          <u who="axel_mannerskantz_51eb6d" xml:id="i-f5eb2e76d25f7c9a-0" prev="i-9f704f9c4251e116-0" n="c7efe077">
+          <u who="axel_mannerskantz_51eb6d" xml:id="i-c7efe077517764f0-1" prev="i-c7efe077517764f0-0" n="c7efe077">
             <seg n="184e2a5b">
               Förslag till arbetstidslag för detaljhandeln m. m. (Forts.) fall
               tror jag att de äro eniga, man man kan ju inte alltid vara säker.
@@ -2792,7 +2819,7 @@
           <note type="speaker" n="86289ca2">
             Herr Norman:
           </note>
-          <u who="david_norman_cac0aa" xml:id="i-a8b166491dfc657f-2" next="i-d0f384d4559fe27d-2" n="c22d206e">
+          <u who="david_norman_cac0aa" xml:id="i-c22d206e153ca27f-9" next="i-c22d206e153ca27f-11" n="c22d206e">
             <seg n="113fab3c">
               Herr talman! Den överflyttningsrätt, som herr Mannerskantz önskar,
               är ju i viss mån tillgodosedd redan genom lagens nu föreslagna
@@ -2824,10 +2851,15 @@
           <note n="bacf0e24">
             5—7 $$. Godkändes.
           </note>
-          <u who="david_norman_cac0aa" xml:id="i-d0f384d4559fe27d-2" prev="i-a8b166491dfc657f-2" n="c22d206e">
+          <u who="david_norman_cac0aa" xml:id="i-c22d206e153ca27f-10" prev="i-c22d206e153ca27f-9" n="c22d206e">
             <seg n="f53062d1">
               8S$.
             </seg>
+          </u>
+          <note n="5fa46c23">
+            Denna paragraf var så lydande:
+          </note>
+          <u who="david_norman_cac0aa" xml:id="i-c22d206e153ca27f-11" prev="i-c22d206e153ca27f-9" n="c22d206e">
             <seg n="a0d9eb3b">
               För arbete å övertid är arbetsgivare pliktig att utgiva särskild
               ersättning.
@@ -2839,9 +2871,6 @@
               sin talan. Underlåtes det, vare arbetstagaren sin rätt förlustig.
             </seg>
           </u>
-          <note n="5fa46c23">
-            Denna paragraf var så lydande:
-          </note>
           <note n="b50a4f53">
             I den av herrar Mannerskantz och Bondeson väckta motionen, nr
             268, hade hemställts, att 8 $ sista stycket måtte erhålla följande
@@ -2860,7 +2889,7 @@
           <note type="speaker" n="14ffbd85">
             Herr Wistrand:
           </note>
-          <u who="karl_wistrand_53d818" xml:id="i-228f5363cb387260-0" n="4e7ed009">
+          <u who="karl_wistrand_53d818" xml:id="i-4e7ed00985e767e0-2" n="4e7ed009">
             <seg n="201871e2">
               Herr talman! Då jag försport att det framdeles kommer att yrkas
               återremiss beträffande övergångsbestämmelserna, och då dessa stå
@@ -2871,7 +2900,7 @@
           <note type="speaker" n="86289ca2">
             Herr Norman:
           </note>
-          <u who="david_norman_cac0aa" xml:id="i-a8b166491dfc657f-3" next="i-d0f384d4559fe27d-3" n="c22d206e">
+          <u who="david_norman_cac0aa" xml:id="i-c22d206e153ca27f-12" next="i-c22d206e153ca27f-13" n="c22d206e">
             <seg n="4a877e1b">
               Vad herr Wistrand har försport härleder sig från ett uttalande
               från min sida. På grund av de olika meningar som här gjort sig
@@ -2880,10 +2909,10 @@
             </seg>
           </u>
           <pb n="34" facs="https://betalab.kb.se/prot-1939--fk--34/prot_1939__fk__34-034.jp2/_view"/>
-          <note n="7bb816c4">
+          <note type="date" n="b1f8b27e">
             Onsdagen den 31 maj 1939 f. m. Nr 34. 35
           </note>
-          <u who="david_norman_cac0aa" xml:id="i-d0f384d4559fe27d-3" prev="i-a8b166491dfc657f-3" n="c22d206e">
+          <u who="david_norman_cac0aa" xml:id="i-c22d206e153ca27f-13" prev="i-c22d206e153ca27f-12" n="c22d206e">
             <seg n="66ec3cbc">
               Försl ag till arbetstidslag för detaljhandeln m. m. (Forts.)
               kanden om ändring i dessa som ha framställts, har jag övervägt
@@ -2898,7 +2927,7 @@
           <note type="speaker" n="8d4a902f">
             Herr Mannerskantz:
           </note>
-          <u who="axel_mannerskantz_51eb6d" xml:id="i-95aabfe4009840b4-0" n="c7efe077">
+          <u who="axel_mannerskantz_51eb6d" xml:id="i-c7efe077517764f0-2" n="c7efe077">
             <seg n="803c9c2e">
               Jag har motionerat om att preskriptionstiden för krav på övertidsersättning
               icke skall vara så lång som här föreslås. Enligt paragrafen skall
@@ -2923,7 +2952,7 @@
           <note type="speaker" n="14ffbd85">
             Herr Wistrand:
           </note>
-          <u who="karl_wistrand_53d818" xml:id="i-228f5363cb387260-1" n="4e7ed009">
+          <u who="karl_wistrand_53d818" xml:id="i-4e7ed00985e767e0-3" n="4e7ed009">
             <seg n="f9d37e07">
               Herr talman! Jag fattade inte, att utskottets ordförande direkt
               avstyrkte en återremiss av 8 $ utan gärna ser, att en sådan kommer
@@ -2937,7 +2966,7 @@
           <note type="speaker" n="4b90e6b4">
             Herr von Horn:
           </note>
-          <u who="robert_von_horn_53ee40" xml:id="i-ae564cd894ab203f-0" n="f988518d">
+          <u who="robert_von_horn_53ee40" xml:id="i-f988518d71e8dd95-2" n="f988518d">
             <seg n="166daaa9">
               Jag ber att få yrka bifall till den av herr Skoglund vid utskottsutlåtandet
               fogade reservationen.
@@ -2946,7 +2975,7 @@
           <note type="speaker" n="86289ca2">
             Herr Norman:
           </note>
-          <u who="david_norman_cac0aa" xml:id="i-6008fcadf676cc1a-1" n="c22d206e">
+          <u who="david_norman_cac0aa" xml:id="i-c22d206e153ca27f-14" n="c22d206e">
             <seg n="36599af0">
               Herr talman! I den fastställda föredragningsordningen heter det
               bland annat: »för den händelse utskottets förslag kommer att i
@@ -2965,7 +2994,7 @@
           <note type="speaker" n="44ba5b4b">
             Herr Linder:
           </note>
-          <u who="william_linder_ad11de" xml:id="i-af9c56565e31b256-1" n="03c32afb">
+          <u who="william_linder_ad11de" xml:id="i-03c32afb0210d7c7-3" n="03c32afb">
             <seg n="aaabba65">
               Herr talman! Jag skall be att få yrka bifall till utskottets
               förslag beträffande 8 $. I det sammanhanget ber jag också att
@@ -2982,7 +3011,7 @@
             <seg n="88a460d9"/>
           </u>
           <pb n="35" facs="https://betalab.kb.se/prot-1939--fk--34/prot_1939__fk__34-035.jp2/_view"/>
-          <note n="9465f07f">
+          <note type="date" n="1277ab0e">
             36 Nr 34. Onsdagen den 31 maj 1939 f. m.
           </note>
           <note n="aea9c9a0">
@@ -2994,7 +3023,7 @@
           <note type="speaker" n="14ffbd85">
             Herr Wistrand:
           </note>
-          <u who="karl_wistrand_53d818" xml:id="i-228f5363cb387260-2" n="4e7ed009">
+          <u who="karl_wistrand_53d818" xml:id="i-4e7ed00985e767e0-4" n="4e7ed009">
             <seg n="270f3bcf">
               Jag kan inte finna, att föredragningsordningen möjliggör sådana
               ändringar, som det här kan bli tal om, nämligen en uppgörelse
@@ -3008,7 +3037,7 @@
           <note type="speaker" n="4d6ab68c">
             Herr statsrådet Möller:
           </note>
-          <u who="gustav_moller_bbfd92" xml:id="i-4d2b8c808d901f4b-1" n="c21c0453">
+          <u who="gustav_moller_bbfd92" xml:id="i-c21c04533ec3c49b-1" n="c21c0453">
             <seg n="cf46a494">
               Jag vill bara påpeka, att ett återremissyrkande skall fylla ett
               visst bestämt ändamål. Såvitt jag har fattat det, är det beträffande
@@ -3028,7 +3057,7 @@
           <note type="speaker" n="14ffbd85">
             Herr Wistrand:
           </note>
-          <u who="karl_wistrand_53d818" xml:id="i-646eff921708673a-1" next="i-94b28f1a0e0b6768-1" n="4e7ed009">
+          <u who="karl_wistrand_53d818" xml:id="i-4e7ed00985e767e0-5" next="i-4e7ed00985e767e0-6" n="4e7ed009">
             <seg n="c39c8b87">
               Mitt yrkande är baserat just på att en sådan kompromiss har åstadkommits
               av utskottet. När man nu försöker riva upp den ena delen av denna
@@ -3076,7 +3105,7 @@
             ville rösta för ja-propo-
           </note>
           <pb n="36" facs="https://betalab.kb.se/prot-1939--fk--34/prot_1939__fk__34-036.jp2/_view"/>
-          <note n="07371daf">
+          <note type="date" n="e4dd5f29">
             Onsdagen den 31 maj 1939 f. m.
           </note>
           <note n="9b21d90d">
@@ -3117,7 +3146,7 @@
             i 6 $ förmäles, eller sjukdomsfall eller annan oförutsedd händelse
             tillfälligt-
           </note>
-          <u who="karl_wistrand_53d818" xml:id="i-94b28f1a0e0b6768-1" prev="i-646eff921708673a-1" n="4e7ed009">
+          <u who="karl_wistrand_53d818" xml:id="i-4e7ed00985e767e0-6" prev="i-4e7ed00985e767e0-5" n="4e7ed009">
             <seg n="689bfba1">
               vis föranleder till undantag, under arbetstiden infalla en sammanhängande
               rast om minst 30 minuter.
@@ -3141,7 +3170,7 @@
           <note type="speaker" n="9f4856d8">
             Herr Sten:
           </note>
-          <u who="hemming_sten_9755b4" xml:id="i-5191cc19a68318e6-0" n="caa0147f">
+          <u who="hemming_sten_9755b4" xml:id="i-caa0147f55499828-0" n="caa0147f">
             <seg n="15767dee">
               Herr talman! Då jag tillhör reservanterna till förmån för Kungl.
               Maj:ts förslag, och det är en ganska väsentlig försämring, som
@@ -3180,7 +3209,7 @@
             Häri instämde herr Västberg.
           </note>
           <pb n="37" facs="https://betalab.kb.se/prot-1939--fk--34/prot_1939__fk__34-037.jp2/_view"/>
-          <note n="8715ca9c">
+          <note type="date" n="58189f6e">
             38 Nr 34. Onsdagen den 31 maj 1939 f. m.
           </note>
           <note n="c3639c24">
@@ -3235,7 +3264,7 @@
           <note type="speaker" n="964abdc6">
             Herr Gärde:
           </note>
-          <u who="natanael_garde_462e5a" xml:id="i-6259216aa05ad043-2" n="647b679e">
+          <u who="natanael_garde_462e5a" xml:id="i-647b679ec113d587-2" n="647b679e">
             <seg n="2cdaaf7d">
               Jag skall be att få yrka återremiss till utskottet av dessa bestämmelser.
             </seg>
@@ -3243,7 +3272,7 @@
           <note type="speaker" n="9f4856d8">
             Herr Sten:
           </note>
-          <u who="hemming_sten_9755b4" xml:id="i-5191cc19a68318e6-1" n="caa0147f">
+          <u who="hemming_sten_9755b4" xml:id="i-caa0147f55499828-1" n="caa0147f">
             <seg n="d2c0b769">
               Herr talman! Jag anslöt mig både vid den preliminära och vid
               den definitiva behandlingen i utskottet till Kungl. Maj:ts förslag,
@@ -3266,7 +3295,7 @@
           <note type="speaker" n="44ba5b4b">
             Herr Linder:
           </note>
-          <u who="william_linder_ad11de" xml:id="i-af9c56565e31b256-2" n="03c32afb">
+          <u who="william_linder_ad11de" xml:id="i-03c32afb0210d7c7-4" n="03c32afb">
             <seg n="b59bb775">
               Herr talman! Jag ser mig föranlåten att yrka avslag på återremissyrkandet
               beträffande övergångsbestämmelserna. Dessa stå ju i sammanhang
@@ -3277,7 +3306,7 @@
             </seg>
           </u>
           <pb n="38" facs="https://betalab.kb.se/prot-1939--fk--34/prot_1939__fk__34-038.jp2/_view"/>
-          <note n="5d6b1e01">
+          <note type="date" n="223b2f5a">
             Onsdagen den 31 maj 1939 f. m. Nr 34. 39
           </note>
           <note n="791726a5">
@@ -3293,7 +3322,7 @@
           <note type="speaker" n="48c1415f">
             Herr Strand:
           </note>
-          <u who="axel_strand_85c226" xml:id="i-539ae8ab3227856f-0" n="84ec9f3a">
+          <u who="axel_strand_85c226" xml:id="i-84ec9f3a012d3ccb-3" n="84ec9f3a">
             <seg n="569b8550">
               Jag ber att få ansluta mig till återremissyrkandet med hänsyn
               till att beslutet eljest kan komma att bli olika i de båda kamrarna.
@@ -3305,7 +3334,7 @@
           <note type="speaker" n="86289ca2">
             Herr Norman:
           </note>
-          <u who="david_norman_cac0aa" xml:id="i-6008fcadf676cc1a-2" n="c22d206e">
+          <u who="david_norman_cac0aa" xml:id="i-c22d206e153ca27f-15" n="c22d206e">
             <seg n="ada1c5a2">
               Herr talman! Jag ber att få säga, att den överenskommelse, som
               är träffad i utskottet, inte har den karäktär, som vissa talare
@@ -3329,7 +3358,7 @@
           <note type="speaker" n="48c1415f">
             Herr Strand:
           </note>
-          <u who="axel_strand_85c226" xml:id="i-539ae8ab3227856f-1" n="84ec9f3a">
+          <u who="axel_strand_85c226" xml:id="i-84ec9f3a012d3ccb-4" n="84ec9f3a">
             <seg n="5f7af50b">
               För att det inte skall behöva bli något missförstånd beträffande
               min ställning till frågan, yrkar jag i stället bifall till utskottets
@@ -3340,7 +3369,7 @@
           <note type="speaker" n="94965ee9">
             Herr Petersson, Knut:
           </note>
-          <u who="knut_petersson_19fa44" xml:id="i-a1893feb7e9235a4-0" n="4d2a3b6b">
+          <u who="knut_petersson_19fa44" xml:id="i-4d2a3b6b99ccda9c-2" n="4d2a3b6b">
             <seg n="ffab9b51">
               Herr talman! Det kan inte gärna ha undgått första lagutskottets
               ärade ordförande, att det under debatten förekommit inlägg, som
@@ -3357,7 +3386,7 @@
           <note type="speaker" n="964abdc6">
             Herr Gärde:
           </note>
-          <u who="natanael_garde_462e5a" xml:id="i-6259216aa05ad043-3" n="647b679e">
+          <u who="natanael_garde_462e5a" xml:id="i-647b679ec113d587-3" n="647b679e">
             <seg n="3b3c7c70">
               Herr Strand anförde som motiv för sitt yrkande att inte någon
               tvekan skulle råda om hans uppfattning i frågan. Jag skall då
@@ -3374,7 +3403,7 @@
             </seg>
           </u>
           <pb n="39" facs="https://betalab.kb.se/prot-1939--fk--34/prot_1939__fk__34-039.jp2/_view"/>
-          <note n="ae664fac">
+          <note type="date" n="d915b791">
             40 Nr 34. Onsdagen den 31 maj 1939 f. m.
           </note>
           <note n="c3639c24">
@@ -3383,7 +3412,7 @@
           <note type="speaker" n="70fa53d3">
             Herr Ekströmer:
           </note>
-          <u who="ivar_ekstromer_ac071e" xml:id="i-bcfc3591be179431-0" n="1538e41a">
+          <u who="ivar_ekstromer_ac071e" xml:id="i-1538e41a50450aa4-5" n="1538e41a">
             <seg n="65ba495c">
               Jag vidhåller fortfarande, att det inte är enbart 8 $, som har
               samband med denna övergångsbestämmelse. Därför kan jag ej biträda
@@ -3461,7 +3490,7 @@
             Ja;
           </note>
           <pb n="40" facs="https://betalab.kb.se/prot-1939--fk--34/prot_1939__fk__34-040.jp2/_view"/>
-          <note n="f0925a28">
+          <note type="date" n="6a1e22bf">
             Onsdagen den 31 maj 1939 f. m. Nr 34. 41
           </note>
           <note n="aca9ad49">
@@ -3533,7 +3562,7 @@
             Punkten B. Utskottets hemställan bifölls.
           </note>
           <pb n="41" facs="https://betalab.kb.se/prot-1939--fk--34/prot_1939__fk__34-041.jp2/_view"/>
-          <note n="998bdf1c">
+          <note type="date" n="8068e34a">
             42 Nr 34. Onsdagen den 31 maj 1939 f. m.
           </note>
           <note n="0c69e74b">
@@ -3565,7 +3594,7 @@
           <note type="speaker" n="08f19447">
             Herr Löfvander:
           </note>
-          <u who="axel_lofvander_e36ab2" xml:id="i-2b49bb88b0b86722-0" n="540feac5">
+          <u who="axel_lofvander_e36ab2" xml:id="i-540feac541c17a84-2" n="540feac5">
             <seg n="a6447fe6">
               Herr talman! Beträffande denna paragraf ha jag och en del andra
               utskottsmedlemmar avgivit reservation med förslag om en tolfte
@@ -3581,7 +3610,7 @@
           <note type="speaker" n="70fa53d3">
             Herr Ekströmer:
           </note>
-          <u who="ivar_ekstromer_ac071e" xml:id="i-bcfc3591be179431-1" n="1538e41a">
+          <u who="ivar_ekstromer_ac071e" xml:id="i-1538e41a50450aa4-6" n="1538e41a">
             <seg n="872f210c">
               Herr talman! Herr Löfvander har tidigare i dag utvecklat denna
               reservation, så att det vore kanske inte mycket mer att tillägga.
@@ -3608,7 +3637,7 @@
           <note type="speaker" n="de23e512">
             Herr Ström, Fredrik:
           </note>
-          <u who="torsten_strom_0c0e6c" xml:id="i-f8f40445e408f88c-0" n="4d5d023d">
+          <u who="torsten_strom_0c0e6c" xml:id="i-84a46ff67641b8c6-0" n="4d5d023d">
             <seg n="1b66201d">
               Jag skulle kunnat nöja mig med att instämma med den siste ärade
               talaren, om jag inte velat understryka, hur svårt det är för smärre
@@ -3622,7 +3651,7 @@
             </seg>
           </u>
           <pb n="42" facs="https://betalab.kb.se/prot-1939--fk--34/prot_1939__fk__34-042.jp2/_view"/>
-          <note n="0733d2df">
+          <note type="date" n="334575fa">
             Onsdagen den 31 maj 1939 f. m. Nr 34. 43
           </note>
           <note n="c9454ef7">
@@ -3633,7 +3662,7 @@
           <note type="speaker" n="86289ca2">
             Herr Norman:
           </note>
-          <u who="david_norman_cac0aa" xml:id="i-6008fcadf676cc1a-3" n="c22d206e">
+          <u who="david_norman_cac0aa" xml:id="i-c22d206e153ca27f-16" n="c22d206e">
             <seg n="f4df6126">
               Herr talman! Herr Fredrik Ström framförde ett skäl, som är väl
               värt att överväga, men jag undrar, om han inte i sin motivering
@@ -3671,7 +3700,7 @@
           <note type="speaker" n="94965ee9">
             Herr Petersson, Knut:
           </note>
-          <u who="knut_petersson_19fa44" xml:id="i-727934b35808ed8b-1" next="i-8388fadede44d9fe-1" n="4d2a3b6b">
+          <u who="knut_petersson_19fa44" xml:id="i-4d2a3b6b99ccda9c-3" next="i-4d2a3b6b99ccda9c-4" n="4d2a3b6b">
             <seg n="bce06e10">
               Herr talman! Jag ber att få upplysa kammaren om att innebörden
               av den av herr Löfvander m. fl. avgivna reservationen egentligen
@@ -3704,13 +3733,13 @@
             </seg>
           </u>
           <pb n="43" facs="https://betalab.kb.se/prot-1939--fk--34/prot_1939__fk__34-043.jp2/_view"/>
-          <note n="ce7d045e">
+          <note type="date" n="07d16714">
             44 Nr 34. Onsdagen den 31 maj 1939 f. m.
           </note>
           <note n="c3639c24">
             Förslag till arbetstidslag för detaljhandeln m. m. (Forts.)
           </note>
-          <u who="knut_petersson_19fa44" xml:id="i-8388fadede44d9fe-1" prev="i-727934b35808ed8b-1" n="4d2a3b6b">
+          <u who="knut_petersson_19fa44" xml:id="i-4d2a3b6b99ccda9c-4" prev="i-4d2a3b6b99ccda9c-3" n="4d2a3b6b">
             <seg n="433917cb">
               ket ingalunda, det vill jag påpeka i anledning av herr Normans
               anförande, är detsamma som Kungl. Maj:ts förslag — innebär en
@@ -3790,7 +3819,7 @@
             19. Dock må rak-
           </note>
           <pb n="44" facs="https://betalab.kb.se/prot-1939--fk--34/prot_1939__fk__34-044.jp2/_view"/>
-          <note n="2eedb577">
+          <note type="date" n="d059232f">
             Onsdagen den 31 maj 1939 f. m. Nr 34. 45
           </note>
           <note n="4770f287">
@@ -3801,7 +3830,7 @@
           <note type="speaker" n="8d4a902f">
             Herr Mannerskantz:
           </note>
-          <u who="axel_mannerskantz_51eb6d" xml:id="i-95aabfe4009840b4-1" n="c7efe077">
+          <u who="axel_mannerskantz_51eb6d" xml:id="i-c7efe077517764f0-3" n="c7efe077">
             <seg n="a52a7624">
               Herr talman! Denna $ är egentligen en ganska betydelsefull $.
               Det är den, som avhandlar, hur länge Sveriges butiker skola få
@@ -3845,7 +3874,7 @@
           <note type="speaker" n="86289ca2">
             Herr Norman:
           </note>
-          <u who="david_norman_cac0aa" xml:id="i-a8b166491dfc657f-4" next="i-d0f384d4559fe27d-4" n="c22d206e">
+          <u who="david_norman_cac0aa" xml:id="i-c22d206e153ca27f-17" next="i-c22d206e153ca27f-24" n="c22d206e">
             <seg n="51b8247b">
               Personligen delar jag herr Mannerskantz' uppfattning om önskvärdheten
               av att komma fram till förordningar, som möjliggöra denna stängningstid
@@ -3874,7 +3903,7 @@
           <note n="f36fea01">
             46 Nr 34.
           </note>
-          <note n="07371daf">
+          <note type="date" n="e4dd5f29">
             Onsdagen den 31 maj 1939 f. m.
           </note>
           <note n="c3639c24">
@@ -3899,10 +3928,18 @@
             Tillstånd, varom i 1 mom. sägs, må endast givas, om synnerliga
             skäl där-
           </note>
-          <u who="david_norman_cac0aa" xml:id="i-d0f384d4559fe27d-4" prev="i-a8b166491dfc657f-4" n="c22d206e">
+          <u who="david_norman_cac0aa" xml:id="i-c22d206e153ca27f-18" prev="i-c22d206e153ca27f-17" n="c22d206e">
             <seg n="44b0cc43">
               till äro, med mindre ansökningen avser något av nedannämnda fall.
             </seg>
+          </u>
+          <note n="61867905">
+            I sås
+          </note>
+          <note n="28af8479">
+            dan händelse skola följande regler lända till efterrättelse:
+          </note>
+          <u who="david_norman_cac0aa" xml:id="i-c22d206e153ca27f-19" prev="i-c22d206e153ca27f-17" n="c22d206e">
             <seg n="a2bfe600">
               1) försäljning av konfektyrer, alkoholfria drycker, färsk frukt,
               levande blommor, tryckta skrifter och tändstickor, vilken bedrives
@@ -3915,6 +3952,15 @@
               icke är förbunden med handel med andra varor och i övrigt skäl
               därtill anses föreligga;
             </seg>
+          </u>
+          <note n="e7a92ffe">
+            2) försäljning i samband med nöjestillställning, idrottstävling,
+            friluftsbad eller dylikt må medgivas i den utsträckning, som med
+            hänsyn till förhållandena anses erforderlig; dock må tillståndet
+            i regel avse försäljning endast av de under 1) nämnda varuslagen
+            samt lagad mat och tobaksvaror;
+          </note>
+          <u who="david_norman_cac0aa" xml:id="i-c22d206e153ca27f-20" prev="i-c22d206e153ca27f-17" n="c22d206e">
             <seg n="2bed6f6a">
               3) försäljning i direkt anslutning till station för järnvägseller
               lufttrafik eller för mer betydande sjö-, spårvägseller busstrafik
@@ -3939,11 +3985,32 @@
               medgivas, såframt icke särskilda skäl till annat föranleda, i
               allmänhet dock icke någon veckodag längre än till klockan 22;
             </seg>
+          </u>
+          <note n="37c44568">
+            3) försäljning i samband med nöjestillställning, idrottstävling,
+            friluftsbad eller dylikt må medgivas i den utsträckning, som med
+            hänsyn till förhållandena anses erforderlig; dock må tillståndet
+            i regel avse försäljning endast av de under 1) nämnda varuslagen
+            samt lagad mat;
+          </note>
+          <u who="david_norman_cac0aa" xml:id="i-c22d206e153ca27f-21" prev="i-c22d206e153ca27f-17" n="c22d206e">
             <seg n="2f303ef6">
               4) försäljning i direkt anslutning till station för järnvägseller
               lufttrafik eller för mer betydande sjö-, spårvägseller busstrafik
               må medgivas i den utsträckning, som kan anses be-
             </seg>
+          </u>
+          <pb n="46" facs="https://betalab.kb.se/prot-1939--fk--34/prot_1939__fk__34-046.jp2/_view"/>
+          <note type="date" n="e4dd5f29">
+            Onsdagen den 31 maj 1939 f. m.
+          </note>
+          <note n="9b21d90d">
+            Förslag till arbetstidslag för detaljhandeln m. m.
+          </note>
+          <note n="3d7ba93c">
+            (i Kungl. Maj:ts förslag):
+          </note>
+          <u who="david_norman_cac0aa" xml:id="i-c22d206e153ca27f-22" prev="i-c22d206e153ca27f-17" n="c22d206e">
             <seg n="4d726251">
               tingad av de resandes behov; dock må tillståndet i regel avse
               försäljning endast av de under 1) nämnda varuslagen samt lagad
@@ -3954,50 +4021,7 @@
               som tillhandahållas i samband med korven, må medgivas i den utsträckning,
               som anses lämplig, dock endast från fastställd plats;
             </seg>
-            <seg n="bedc91b3">
-              tingad av de resandes behov; dock må tillståndet i regel avse
-              försäljning endast av de under 1) nämnda varuslagen samt lagad
-              mat och mindre pappersartiklar;
-            </seg>
-            <seg n="92f72c21">
-              5) försäljning utomhus av varm korv samt bröd, potatis och senap,
-              som tillhandahållas i samband med korven, må medgivas i den utsträckning,
-              som anses lämplig, dock endast från fastställd plats;
-            </seg>
-            <seg n="282575fb">
-              Nu föredrogs till en början
-            </seg>
           </u>
-          <note n="61867905">
-            I sås
-          </note>
-          <note n="28af8479">
-            dan händelse skola följande regler lända till efterrättelse:
-          </note>
-          <note n="e7a92ffe">
-            2) försäljning i samband med nöjestillställning, idrottstävling,
-            friluftsbad eller dylikt må medgivas i den utsträckning, som med
-            hänsyn till förhållandena anses erforderlig; dock må tillståndet
-            i regel avse försäljning endast av de under 1) nämnda varuslagen
-            samt lagad mat och tobaksvaror;
-          </note>
-          <note n="37c44568">
-            3) försäljning i samband med nöjestillställning, idrottstävling,
-            friluftsbad eller dylikt må medgivas i den utsträckning, som med
-            hänsyn till förhållandena anses erforderlig; dock må tillståndet
-            i regel avse försäljning endast av de under 1) nämnda varuslagen
-            samt lagad mat;
-          </note>
-          <pb n="46" facs="https://betalab.kb.se/prot-1939--fk--34/prot_1939__fk__34-046.jp2/_view"/>
-          <note n="07371daf">
-            Onsdagen den 31 maj 1939 f. m.
-          </note>
-          <note n="9b21d90d">
-            Förslag till arbetstidslag för detaljhandeln m. m.
-          </note>
-          <note n="3d7ba93c">
-            (i Kungl. Maj:ts förslag):
-          </note>
           <note n="311c4fed">
             5) öppethållande av lokal, där utställningar av verk av bildande
             konst ävensom alster av konsthantverk och konstindustri, avsedda
@@ -4010,6 +4034,18 @@
           <note n="7d90bab7">
             (Forts.) (i utskottets förslag:)
           </note>
+          <u who="david_norman_cac0aa" xml:id="i-c22d206e153ca27f-23" prev="i-c22d206e153ca27f-17" n="c22d206e">
+            <seg n="bedc91b3">
+              tingad av de resandes behov; dock må tillståndet i regel avse
+              försäljning endast av de under 1) nämnda varuslagen samt lagad
+              mat och mindre pappersartiklar;
+            </seg>
+            <seg n="92f72c21">
+              5) försäljning utomhus av varm korv samt bröd, potatis och senap,
+              som tillhandahållas i samband med korven, må medgivas i den utsträckning,
+              som anses lämplig, dock endast från fastställd plats;
+            </seg>
+          </u>
           <note n="75217a6f">
             6) öppethållande av lokal, där utställningar av verk av bildande
             konst ävensom alster av konsthantverk och konstindustri, avsedda
@@ -4030,6 +4066,11 @@
             samma lydelse som punkterna 1), 2) och 3) respektive i Kungl.
             Maj:ts förslag.
           </note>
+          <u who="david_norman_cac0aa" xml:id="i-c22d206e153ca27f-24" prev="i-c22d206e153ca27f-17" n="c22d206e">
+            <seg n="282575fb">
+              Nu föredrogs till en början
+            </seg>
+          </u>
           <note n="e0617bb0">
             11 $ 3 mom. med undantag av den punkt däri, som började med orden
             »6) öppethållande av lokal» och slutade med »så anses lämpligt».
@@ -4037,7 +4078,7 @@
           <note type="speaker" n="638ed27c">
             Herr Åkerberg:
           </note>
-          <u who="harald_akerberg_0cb59b" xml:id="i-bbc29280b71dc184-0" n="ac25fb34">
+          <u who="harald_akerberg_0cb59b" xml:id="i-ac25fb347ccc1ba0-5" n="ac25fb34">
             <seg n="a4cfaa06">
               Jag ber att med hänvisning till vad jag yttrat tidigare under
               diskussionen få yrka bifall till herrar Normans och Stens reservation,
@@ -4047,7 +4088,7 @@
           <note type="speaker" n="44ba5b4b">
             Herr Linder:
           </note>
-          <u who="william_linder_ad11de" xml:id="i-af9c56565e31b256-3" n="03c32afb">
+          <u who="william_linder_ad11de" xml:id="i-03c32afb0210d7c7-5" n="03c32afb">
             <seg n="f44f7c86">
               Jag skall be att få med hänvisning till vad jag förut anfört
               vid denna punkt yrka bifall till utskottets förslag.
@@ -4056,7 +4097,7 @@
           <note type="speaker" n="86289ca2">
             Herr Norman:
           </note>
-          <u who="david_norman_cac0aa" xml:id="i-a8b166491dfc657f-5" next="i-d0f384d4559fe27d-5" n="c22d206e">
+          <u who="david_norman_cac0aa" xml:id="i-c22d206e153ca27f-25" next="i-c22d206e153ca27f-26" n="c22d206e">
             <seg n="4e20ba4a">
               Jag skall inte förlänga diskussionen.
             </seg>
@@ -4083,13 +4124,13 @@
             </seg>
           </u>
           <pb n="47" facs="https://betalab.kb.se/prot-1939--fk--34/prot_1939__fk__34-047.jp2/_view"/>
-          <note n="3a6f390b">
+          <note type="date" n="a3f5c4ae">
             48 Nr 34. Onsdagen den 31 maj 1939 f. m
           </note>
           <note n="c3639c24">
             Förslag till arbetstidslag för detaljhandeln m. m. (Forts.)
           </note>
-          <u who="david_norman_cac0aa" xml:id="i-d0f384d4559fe27d-5" prev="i-a8b166491dfc657f-5" n="c22d206e">
+          <u who="david_norman_cac0aa" xml:id="i-c22d206e153ca27f-26" prev="i-c22d206e153ca27f-25" n="c22d206e">
             <seg n="b6cf5567">
               kiosk i detta fall till en affär, som säljer vissa varor. Säljer
               den dessa bestämda varor, så skall den ha möjlighet att hålla
@@ -4106,7 +4147,7 @@
           <note type="speaker" n="44ba5b4b">
             Herr Linder:
           </note>
-          <u who="william_linder_ad11de" xml:id="i-af9c56565e31b256-4" n="03c32afb">
+          <u who="william_linder_ad11de" xml:id="i-03c32afb0210d7c7-6" n="03c32afb">
             <seg n="4d236740">
               Utskottet har inte givit uttryck åt något annat än det, som är
               livets vanliga gång. Den kommitté, som sitter, kommer med ganska
@@ -4118,7 +4159,7 @@
           <note type="speaker" n="b876a0d2">
             Herr statsrådet Forslund:
           </note>
-          <u who="albert_forslund_afb8e0" xml:id="i-a8fe12c2b363f701-1" next="i-bd6654eac380441a-1" n="b18638bf">
+          <u who="albert_forslund_afb8e0" xml:id="i-b18638bfa95aafbd-5" next="i-b18638bfa95aafbd-6" n="b18638bf">
             <seg n="1ce3532f">
               Det lär visst vara andra gången, som den ärade talaren spår om
               kommitténs resultat i vad det gäller denna punkt. Jag undrar,
@@ -4170,10 +4211,10 @@
             </seg>
           </u>
           <pb n="48" facs="https://betalab.kb.se/prot-1939--fk--34/prot_1939__fk__34-048.jp2/_view"/>
-          <note n="f03eee69">
+          <note type="date" n="85f3b0bb">
             Onsdagen den 31 maj 1939 f. m. Nr 34. 49
           </note>
-          <u who="albert_forslund_afb8e0" xml:id="i-bd6654eac380441a-1" prev="i-a8fe12c2b363f701-1" n="b18638bf">
+          <u who="albert_forslund_afb8e0" xml:id="i-b18638bfa95aafbd-6" prev="i-b18638bfa95aafbd-5" n="b18638bf">
             <seg n="91950d80">
               Förslag till arbeistidslag för detaljhandeln m. m. (Forts.) innehavare
               i denna svåra situation. Jag tycker, att riksdagen bör tänka sig
@@ -4184,7 +4225,7 @@
           <note type="speaker" n="94965ee9">
             Herr Petersson, Knut:
           </note>
-          <u who="knut_petersson_19fa44" xml:id="i-a1893feb7e9235a4-1" n="4d2a3b6b">
+          <u who="knut_petersson_19fa44" xml:id="i-4d2a3b6b99ccda9c-5" n="4d2a3b6b">
             <seg n="1ff5fb9e">
               Herr talman! I anledning av socialministerns anförande skulle
               jag vilja påpeka, att när utskottets majoritet tagit ställning
@@ -4212,7 +4253,7 @@
           <note type="speaker" n="44ba5b4b">
             Herr Linder:
           </note>
-          <u who="william_linder_ad11de" xml:id="i-af9c56565e31b256-5" n="03c32afb">
+          <u who="william_linder_ad11de" xml:id="i-03c32afb0210d7c7-7" n="03c32afb">
             <seg n="33ee2fa9">
               Statsrådet förebrådde mig, att jag har anteciperat vad denna
               kommitté, som håller på att utreda speciellt tobakshandelns villkor,
@@ -4243,7 +4284,7 @@
           <note type="speaker" n="b876a0d2">
             Herr statsrådet Forslund:
           </note>
-          <u who="albert_forslund_afb8e0" xml:id="i-a8fe12c2b363f701-2" next="i-bd6654eac380441a-2" n="b18638bf">
+          <u who="albert_forslund_afb8e0" xml:id="i-b18638bfa95aafbd-7" next="i-b18638bfa95aafbd-8" n="b18638bf">
             <seg n="e673624e">
               Med anledning av herr Linders uttalande vill Jag säga, att den
               utredning, som pågår, icke har till syftemål att skapa bättre
@@ -4263,13 +4304,13 @@
             Första kammarens protokoll 1939. Nr 34. 4
           </note>
           <pb n="49" facs="https://betalab.kb.se/prot-1939--fk--34/prot_1939__fk__34-049.jp2/_view"/>
-          <note n="bdb0f4ff">
+          <note type="date" n="320692ef">
             50 Nr 34. Onsdagen den 31 maj 1939 f. m.
           </note>
           <note n="c3639c24">
             Förslag till arbetstidslag för detaljhandeln m. m. (Forts.)
           </note>
-          <u who="albert_forslund_afb8e0" xml:id="i-bd6654eac380441a-2" prev="i-a8fe12c2b363f701-2" n="b18638bf">
+          <u who="albert_forslund_afb8e0" xml:id="i-b18638bfa95aafbd-8" prev="i-b18638bfa95aafbd-7" n="b18638bf">
             <seg n="4a23eed0">
               vi böra iakttaga en viss försiktighet, när det gäller den affärsformen.
               Vi få nämligen komma ihåg, att det finns en äldre form av affärsrörelse,
@@ -4296,7 +4337,7 @@
           <note type="speaker" n="9e96e57f">
             Herr Bärg, Johan:
           </note>
-          <u who="anders_johan_barg_f35781" xml:id="i-b97efd38cfac64f3-0" n="73e4ab86">
+          <u who="anders_johan_barg_f35781" xml:id="i-73e4ab863b46e25d-0" n="73e4ab86">
             <seg n="146d14dd">
               Jag vet inte, herr talman, om ett bifall till det ena eller andra
               förslaget innebär ett framsteg eller en bakåtsträvan. Det är väl
@@ -4344,7 +4385,7 @@
           <note type="speaker" n="94965ee9">
             Herr Petersson, Knut:
           </note>
-          <u who="knut_petersson_19fa44" xml:id="i-727934b35808ed8b-2" next="i-8388fadede44d9fe-2" n="4d2a3b6b">
+          <u who="knut_petersson_19fa44" xml:id="i-4d2a3b6b99ccda9c-6" next="i-4d2a3b6b99ccda9c-7" n="4d2a3b6b">
             <seg n="ff49d053">
               Herr talman! Jag skulle kunna instämma i mycket av vad den siste
               ärade talaren sade. Även jag betraktar den föreslagna butikstängningslagen
@@ -4353,10 +4394,10 @@
             </seg>
           </u>
           <pb n="50" facs="https://betalab.kb.se/prot-1939--fk--34/prot_1939__fk__34-050.jp2/_view"/>
-          <note n="68b57150">
+          <note type="date" n="c5c5653c">
             Onsdagen den 31 maj 1939 f. m. Nr 34. 51
           </note>
-          <u who="knut_petersson_19fa44" xml:id="i-8388fadede44d9fe-2" prev="i-727934b35808ed8b-2" n="4d2a3b6b">
+          <u who="knut_petersson_19fa44" xml:id="i-4d2a3b6b99ccda9c-7" prev="i-4d2a3b6b99ccda9c-6" n="4d2a3b6b">
             <seg n="b143e21e">
               Förslag till arbetstidslag för detaljhandeln m. m. (Forts.) inte
               följa honom, när han säger att han befarar en mängd lagöverträdelser
@@ -4372,7 +4413,7 @@
           <note type="speaker" n="638ed27c">
             Herr Åkerberg:
           </note>
-          <u who="harald_akerberg_0cb59b" xml:id="i-bbc29280b71dc184-1" n="ac25fb34">
+          <u who="harald_akerberg_0cb59b" xml:id="i-ac25fb347ccc1ba0-6" n="ac25fb34">
             <seg n="d6770bac">
               Herr Petersson har två gånger påstått, att utskottets förslag
               innebär ett bibehållande av den nuvarande ordningen. Om man läser
@@ -4443,7 +4484,7 @@
           <note n="428cf716">
             gen m. m.
           </note>
-          <note n="0373e515">
+          <note type="date" n="6cc03d77">
             52 Nr 34. Onsdagen den 31 maj 1939 f. m.
           </note>
           <note n="bd12ded7">
@@ -4468,7 +4509,7 @@
           <note type="speaker" n="08f19447">
             Herr Löfvander:
           </note>
-          <u who="axel_lofvander_e36ab2" xml:id="i-2b49bb88b0b86722-1" n="540feac5">
+          <u who="axel_lofvander_e36ab2" xml:id="i-540feac541c17a84-3" n="540feac5">
             <seg n="9ce0b7a2">
               Med hänvisning till det beslut, som kammaren just fattat, ber
               jag att få yrka, att sjätte stycket i det ifrågavarande momentet
@@ -4523,7 +4564,7 @@
             upphäva den av 1935 års riksdag beslutade »lagen om varsel i arbetskonflikter».
           </note>
           <pb n="52" facs="https://betalab.kb.se/prot-1939--fk--34/prot_1939__fk__34-052.jp2/_view"/>
-          <note n="057116c6">
+          <note type="date" n="4c92ab24">
             Onsdagen den 31 maj 1939 f. m. Nr 34. 53
           </note>
           <note n="00f332c3">
@@ -4552,7 +4593,7 @@
           <note type="speaker" n="6e6b0cde">
             Herr Linderot:
           </note>
-          <u who="sven_linderot_5a7e8e" xml:id="i-558457532941fa7e-0" next="i-75d9711ff9d9f084-0" n="b47e5082">
+          <u who="sven_linderot_5a7e8e" xml:id="i-03c32afb0210d7c7-8" next="i-03c32afb0210d7c7-9" n="b47e5082">
             <seg n="af2cb351">
               Herr talman! Det är självfallet i år liksom tidigare lönlöst
               att mot ett enhälligt utskott söka uppnå ett positivt resultat
@@ -4603,10 +4644,10 @@
             </seg>
           </u>
           <pb n="53" facs="https://betalab.kb.se/prot-1939--fk--34/prot_1939__fk__34-053.jp2/_view"/>
-          <note n="8bcd2808">
+          <note type="date" n="8eb4ccea">
             54 Nr 34. Onsdagen den 31 maj 1939 f. m.
           </note>
-          <u who="sven_linderot_5a7e8e" xml:id="i-75d9711ff9d9f084-0" prev="i-558457532941fa7e-0" n="b47e5082">
+          <u who="sven_linderot_5a7e8e" xml:id="i-03c32afb0210d7c7-9" prev="i-03c32afb0210d7c7-8" n="b47e5082">
             <seg n="fe98176f">
               Om upphävande av kollektivavtalslagen m. m. (Forts.) partiets
               representanter, som ha tagit initiativet. Jag finner inte, att
@@ -4669,7 +4710,7 @@
           <note type="speaker" n="86289ca2">
             Herr Norman:
           </note>
-          <u who="david_norman_cac0aa" xml:id="i-a8b166491dfc657f-6" next="i-d0f384d4559fe27d-6" n="c22d206e">
+          <u who="david_norman_cac0aa" xml:id="i-c22d206e153ca27f-27" next="i-c22d206e153ca27f-28" n="c22d206e">
             <seg n="1eafee70">
               Herr Linderots anförande var avsett som en fruktansvärd salva
               mot andra lagutskottet, som han beskyllde för att inte ha handlagt
@@ -4685,10 +4726,10 @@
             </seg>
           </u>
           <pb n="54" facs="https://betalab.kb.se/prot-1939--fk--34/prot_1939__fk__34-054.jp2/_view"/>
-          <note n="55f3dd95">
+          <note type="date" n="155a40ce">
             Onsdagen den 31 maj 1939 f. m. Nr 34. 55
           </note>
-          <u who="david_norman_cac0aa" xml:id="i-d0f384d4559fe27d-6" prev="i-a8b166491dfc657f-6" n="c22d206e">
+          <u who="david_norman_cac0aa" xml:id="i-c22d206e153ca27f-28" prev="i-c22d206e153ca27f-27" n="c22d206e">
             <seg n="e742238e">
               Om upphävande av kollektivavtalslagen m. m. (Forts.) hävande
               av vissa lagar, däribland den s. k. varsellagen. Motionärerna
@@ -4718,7 +4759,7 @@
           <note type="speaker" n="6e6b0cde">
             Herr Linderot:
           </note>
-          <u who="sven_linderot_5a7e8e" xml:id="i-558457532941fa7e-1" next="i-75d9711ff9d9f084-1" n="b47e5082">
+          <u who="sven_linderot_5a7e8e" xml:id="i-03c32afb0210d7c7-10" next="i-03c32afb0210d7c7-22" n="b47e5082">
             <seg n="abdcd6da">
               Herr talman! Utskottets ärade ordförande sade, att det vore tvivelaktigt,
               om mitt yrkande överhuvud taget kunde ställas under proposition.
@@ -4769,122 +4810,15 @@
             övervägande ja besvarad.
           </note>
           <pb n="55" facs="https://betalab.kb.se/prot-1939--fk--34/prot_1939__fk__34-055.jp2/_view"/>
-          <u who="sven_linderot_5a7e8e" xml:id="i-75d9711ff9d9f084-1" prev="i-558457532941fa7e-1" n="b47e5082">
+          <u who="sven_linderot_5a7e8e" xml:id="i-03c32afb0210d7c7-11" prev="i-03c32afb0210d7c7-10" n="b47e5082">
             <seg n="20f3117d">
               Ang. prisreglerande åtgärder på jordbrukets om
             </seg>
             <seg n="60eea2f6">
               råde.
             </seg>
-            <seg n="697a43c1">
-              Ang. prisreglerande åtgärder på jordbrukets område. (Forts.)
-            </seg>
-            <seg n="7e85eb7b">
-              9) bemyndiga fullmäktige i riksgäldskontoret att efter beslut
-              av Kungl. Maj:t i mån av behov tillhandahålla svenska spannmålsaktiebolaget
-              svenska statens fyra procent obligationer, ouppsägbara från innehavarens
-              sida, till ett nominellt belopp av 25,000,000 kronor för att av
-              bolaget pantförskrivas såsom säkerhet för lån i riksbanken;
-            </seg>
-            <seg n="52268d60">
-              11) besluta, att av de avgifter för täckande av förluster å spannmålsregleringen,
-              vilka efter avdrag av restitutioner inflöte under budgetåret 1939/40,
-              skulle till fonden för mötande av sådana förluster överföras det
-              belopp, som överstege 2,000,000 kronor;
-            </seg>
-            <seg n="d102b7b0">
-              a) till Beredskapslagring av fodersäd ett förslagsanslag av 300,000
-              kronor;
-            </seg>
-            <seg n="1b252ba8">
-              b) till Avsättning till jordbrukets prisregleringsfond ett förslagsanslag
-              av 55,000,000 kronor;
-            </seg>
-            <seg n="f61421d2">
-              ec) till Avsättning till fonden för mötande av förluster å spannmålsregleringen
-              ett förslagsanslag av 6,000,000 kronor;
-            </seg>
-            <seg n="ac041441">
-              måtte, i den mån de icke kunde anses besvarade genom vad utskottet
-              förut anfört och hemställt, av riksdagen lämnas utan åtgärd.
-            </seg>
-            <seg n="697a43c1">
-              Ang. prisreglerande åtgärder på jordbrukets område. (Forts.)
-            </seg>
-            <seg n="d6bc9c39">
-              dels ville uttala sig för
-            </seg>
-            <seg n="701ffed9">
-              1) att den under månaderna kring årsskiftet 1938/39 uppnådda
-              genomsnittliga prisnivån för jordbrukets produkter borde betraktas
-              såsom en minimigräns, vilken endast undantagsvis skulle få underskridas;
-            </seg>
-            <seg n="e23f50a3">
-              2) att margarinaccisen skulle kunna höjas utöver vad Kungl. Maj:t
-              föreslagit i den utsträckning, som kunde erfordras för att möjliggöra
-              uttagandet av det eftersträvade smörpriset;
-            </seg>
-            <seg n="8440bfd5">
-              3) att för utförsel av fodersäd exporttillägg skulle få utbetalas
-              även för att säkerställa ett tillfredsställande fodersädespris
-              inom landet, för vilket ändamål det av Kungl. Maj:t begärda anslaget
-              å 2 milj. kr. skulle få överskridas och subsidiärt finansieras
-              med veteavgifter;
-            </seg>
-            <seg n="8a5b20fa">
-              4) att stödköpspriserna å brödspannmål borde, om förhållandena
-              så påkallade eller medgåve, höjas intill 18 kronor pr dt under
-              höstmånaderna med en mot lagringskostnaderna svarande successiv
-              stegring under efterföljande månader, varvid hittills gällande
-              prisskillnad mellan råg och vete ej längre borde tillämpas;
-            </seg>
-            <seg n="e8b21c4c">
-              1) att kostnaderna för beredskapslagret av brödsäd ej skulle
-              belasta fonden för mötande av förluster å spannmålsregleringen;
-            </seg>
-            <seg n="b6fe3e6e">
-              2) att det begärda anslaget ur jordbrukets prisregleringsfond
-              till särskilda åtgärder till befrämjande av jordbruket i Norrland
-              skulle höjas från 800,000 kronor till 1 miljon kronor;
-            </seg>
-            <seg n="0d8e24f2">
-              att till särskilda åtgärder till befrämjande av jordbruket i
-              Norrland skulle ur jordbrukets prisregleringsfond för budgetåret
-              1939/40 anvisas ett belopp av 1,000,000 kronor,
-            </seg>
-            <seg n="62428c58">
-              att bidrag till anläggande eller ombyggnad av andelsmejerier
-              i lappmarken och därmed jämförliga trakter av landet skulle utgå
-              med 40 procent av anläggningskostnaden, Kungl. Maj:t dock obetaget
-              att därest vederbörande hus-
-            </seg>
-            <seg n="c5dfd8a8">
-              Ang. prisreglerande åtgärder på jordbrukets område. (Forts.)
-              hållningssällskap på grund av särskilda förhållanden funne sig
-              böra tillstyrka högre bidrag än 40 procent besluta i enlighet
-              därmed, och
-            </seg>
-            <seg n="586f3439">
-              »På grund av särskilda omständigheter har riksdagen tidigare
-              i år på hemställan av Kungl. Maj:t medgivit, att under innevarande
-              regleringsperiod av jordbrukets prisregleringsfond må användas
-              högst 2 miljoner kronor för stödjande av en export av fodersäd.
-              I propositionen nr 230 har departementschefen på förslag av jordbruksutredningen
-              begärt enahanda bemyndigande för regleringsåret 1939/40. I motionen
-              I: 316 yrkas avslag å departementschefens hemställan i denna del.
-              TI likhet med departementschefen hyser utskottet principiella
-              betänkligheter mot att inordna exportstödjande åtgärder i regleringssystemet
-              på förevarande område. Då emellertid i propositionen förutsatts
-              att bemyndigandet skall tagas i anspråk endast vid en riklig foderskörd
-              och för att motverka ett starkare prisfall å fodersäd, anser sig
-              utskottet kunna tillstyrka detsamma. Utskottet delar departementschefens
-              åsikt, att exportstödet icke bör ha till syfte att säkerställa
-              ett visst prisläge å inhemskt foder, och kan således icke biträda
-              de yrkanden i motsatt riktning, som framställts i motionerna I:
-              328 och IT: 489.»
-            </seg>
           </u>
-          <note n="5a264164">
+          <note type="date" n="07c54eaf">
             56 Nr 34. Onsdagen den 31 maj 1939 f. m.
           </note>
           <note n="318f950d">
@@ -4976,9 +4910,14 @@
             råg samt därav framställda produkter;
           </note>
           <pb n="56" facs="https://betalab.kb.se/prot-1939--fk--34/prot_1939__fk__34-056.jp2/_view"/>
-          <note n="f50bdccc">
+          <note type="date" n="10dccda0">
             Onsdagen den 31 maj 1939 f. m. Nr 34. 57
           </note>
+          <u who="sven_linderot_5a7e8e" xml:id="i-03c32afb0210d7c7-12" prev="i-03c32afb0210d7c7-10" n="b47e5082">
+            <seg n="697a43c1">
+              Ang. prisreglerande åtgärder på jordbrukets område. (Forts.)
+            </seg>
+          </u>
           <note n="f692d327">
             7) medgiva, att Kungl. Maj:t finge, då särskilda skäl därtill
             föranledde, för tiden till och med den 31 augusti 1940 bestämma,
@@ -4993,14 +4932,45 @@
             augusti 1940 i huvudsaklig överensstämmelse med av departementschefen
             i statsrådsprotokollet angivna grunder;
           </note>
+          <u who="sven_linderot_5a7e8e" xml:id="i-03c32afb0210d7c7-13" prev="i-03c32afb0210d7c7-10" n="b47e5082">
+            <seg n="7e85eb7b">
+              9) bemyndiga fullmäktige i riksgäldskontoret att efter beslut
+              av Kungl. Maj:t i mån av behov tillhandahålla svenska spannmålsaktiebolaget
+              svenska statens fyra procent obligationer, ouppsägbara från innehavarens
+              sida, till ett nominellt belopp av 25,000,000 kronor för att av
+              bolaget pantförskrivas såsom säkerhet för lån i riksbanken;
+            </seg>
+          </u>
           <note n="6aa4b146">
             10) godkänna i 8 10 av avtal den 26 augusti 1938 mellan statens
             potatismjölsnämnd och Sveriges stärkelseproducenters förening
             u. p. a. av nämnden gjord utfästelse;
           </note>
+          <u who="sven_linderot_5a7e8e" xml:id="i-03c32afb0210d7c7-14" prev="i-03c32afb0210d7c7-10" n="b47e5082">
+            <seg n="52268d60">
+              11) besluta, att av de avgifter för täckande av förluster å spannmålsregleringen,
+              vilka efter avdrag av restitutioner inflöte under budgetåret 1939/40,
+              skulle till fonden för mötande av sådana förluster överföras det
+              belopp, som överstege 2,000,000 kronor;
+            </seg>
+          </u>
           <note n="f1f8f3d0">
             12) anvisa för budgetåret 1939/40:
           </note>
+          <u who="sven_linderot_5a7e8e" xml:id="i-03c32afb0210d7c7-15" prev="i-03c32afb0210d7c7-10" n="b47e5082">
+            <seg n="d102b7b0">
+              a) till Beredskapslagring av fodersäd ett förslagsanslag av 300,000
+              kronor;
+            </seg>
+            <seg n="1b252ba8">
+              b) till Avsättning till jordbrukets prisregleringsfond ett förslagsanslag
+              av 55,000,000 kronor;
+            </seg>
+            <seg n="f61421d2">
+              ec) till Avsättning till fonden för mötande av förluster å spannmålsregleringen
+              ett förslagsanslag av 6,000,000 kronor;
+            </seg>
+          </u>
           <note n="849e45de">
             B) att riksdagen måtte, i anledning av propositionen nr 231,
           </note>
@@ -5038,10 +5008,21 @@
           <note n="934c07f6">
             : 496,
           </note>
+          <u who="sven_linderot_5a7e8e" xml:id="i-03c32afb0210d7c7-16" prev="i-03c32afb0210d7c7-10" n="b47e5082">
+            <seg n="ac041441">
+              måtte, i den mån de icke kunde anses besvarade genom vad utskottet
+              förut anfört och hemställt, av riksdagen lämnas utan åtgärd.
+            </seg>
+          </u>
           <pb n="57" facs="https://betalab.kb.se/prot-1939--fk--34/prot_1939__fk__34-057.jp2/_view"/>
-          <note n="b7adb46b">
+          <note type="date" n="93a404c8">
             58 Nr 34. Onsdagen den 31 maj 1939 f. m.
           </note>
+          <u who="sven_linderot_5a7e8e" xml:id="i-03c32afb0210d7c7-17" prev="i-03c32afb0210d7c7-10" n="b47e5082">
+            <seg n="697a43c1">
+              Ang. prisreglerande åtgärder på jordbrukets område. (Forts.)
+            </seg>
+          </u>
           <note n="31fef502">
             I de likalydande motionerna I: 221 av herr von Heland och II:
             342 av herrar Andersson i Dunker och Wolgast hade hemställts,
@@ -5071,9 +5052,49 @@
             vid behandlingen av propositionen nr 230 angående prisreglerande
             åtgärder på jordbrukets område
           </note>
+          <u who="sven_linderot_5a7e8e" xml:id="i-03c32afb0210d7c7-18" prev="i-03c32afb0210d7c7-10" n="b47e5082">
+            <seg n="d6bc9c39">
+              dels ville uttala sig för
+            </seg>
+            <seg n="701ffed9">
+              1) att den under månaderna kring årsskiftet 1938/39 uppnådda
+              genomsnittliga prisnivån för jordbrukets produkter borde betraktas
+              såsom en minimigräns, vilken endast undantagsvis skulle få underskridas;
+            </seg>
+            <seg n="e23f50a3">
+              2) att margarinaccisen skulle kunna höjas utöver vad Kungl. Maj:t
+              föreslagit i den utsträckning, som kunde erfordras för att möjliggöra
+              uttagandet av det eftersträvade smörpriset;
+            </seg>
+            <seg n="8440bfd5">
+              3) att för utförsel av fodersäd exporttillägg skulle få utbetalas
+              även för att säkerställa ett tillfredsställande fodersädespris
+              inom landet, för vilket ändamål det av Kungl. Maj:t begärda anslaget
+              å 2 milj. kr. skulle få överskridas och subsidiärt finansieras
+              med veteavgifter;
+            </seg>
+            <seg n="8a5b20fa">
+              4) att stödköpspriserna å brödspannmål borde, om förhållandena
+              så påkallade eller medgåve, höjas intill 18 kronor pr dt under
+              höstmånaderna med en mot lagringskostnaderna svarande successiv
+              stegring under efterföljande månader, varvid hittills gällande
+              prisskillnad mellan råg och vete ej längre borde tillämpas;
+            </seg>
+          </u>
           <note n="6bb24247">
             dels ville besluta
           </note>
+          <u who="sven_linderot_5a7e8e" xml:id="i-03c32afb0210d7c7-19" prev="i-03c32afb0210d7c7-10" n="b47e5082">
+            <seg n="e8b21c4c">
+              1) att kostnaderna för beredskapslagret av brödsäd ej skulle
+              belasta fonden för mötande av förluster å spannmålsregleringen;
+            </seg>
+            <seg n="b6fe3e6e">
+              2) att det begärda anslaget ur jordbrukets prisregleringsfond
+              till särskilda åtgärder till befrämjande av jordbruket i Norrland
+              skulle höjas från 800,000 kronor till 1 miljon kronor;
+            </seg>
+          </u>
           <note n="099cedb7">
             " dels ville i övrigt beakta de i motionerna anförda synpunkterna.
           </note>
@@ -5082,10 +5103,31 @@
             m. fl. och II:483 av herr Sandberg m. fl. hemställts, att riksdagen
             vid behandling av Kungl. Maj:ts proposition nr 230 måtte besluta,
           </note>
+          <u who="sven_linderot_5a7e8e" xml:id="i-03c32afb0210d7c7-20" prev="i-03c32afb0210d7c7-10" n="b47e5082">
+            <seg n="0d8e24f2">
+              att till särskilda åtgärder till befrämjande av jordbruket i
+              Norrland skulle ur jordbrukets prisregleringsfond för budgetåret
+              1939/40 anvisas ett belopp av 1,000,000 kronor,
+            </seg>
+            <seg n="62428c58">
+              att bidrag till anläggande eller ombyggnad av andelsmejerier
+              i lappmarken och därmed jämförliga trakter av landet skulle utgå
+              med 40 procent av anläggningskostnaden, Kungl. Maj:t dock obetaget
+              att därest vederbörande hus-
+            </seg>
+          </u>
           <pb n="58" facs="https://betalab.kb.se/prot-1939--fk--34/prot_1939__fk__34-058.jp2/_view"/>
-          <note n="8a5d96be">
+          <note type="date" n="8b71a46f">
             Onsdagen den 31 maj 1939 f. m. Nr 34. 59
           </note>
+          <u who="sven_linderot_5a7e8e" xml:id="i-03c32afb0210d7c7-21" prev="i-03c32afb0210d7c7-10" n="b47e5082">
+            <seg n="c5dfd8a8">
+              Ang. prisreglerande åtgärder på jordbrukets område. (Forts.)
+              hållningssällskap på grund av särskilda förhållanden funne sig
+              böra tillstyrka högre bidrag än 40 procent besluta i enlighet
+              därmed, och
+            </seg>
+          </u>
           <note n="7084a648">
             att kungörelsen den 30 juni 1937 (nr 650) angående statsbidrag
             för sändningar av vissa fodermedel till Västerbottens eller Norrbottens
@@ -5095,6 +5137,27 @@
             I motiveringen hade utskottet beträffande fodermedelsregleringen
             anfört bland annat följande:
           </note>
+          <u who="sven_linderot_5a7e8e" xml:id="i-03c32afb0210d7c7-22" prev="i-03c32afb0210d7c7-10" n="b47e5082">
+            <seg n="586f3439">
+              »På grund av särskilda omständigheter har riksdagen tidigare
+              i år på hemställan av Kungl. Maj:t medgivit, att under innevarande
+              regleringsperiod av jordbrukets prisregleringsfond må användas
+              högst 2 miljoner kronor för stödjande av en export av fodersäd.
+              I propositionen nr 230 har departementschefen på förslag av jordbruksutredningen
+              begärt enahanda bemyndigande för regleringsåret 1939/40. I motionen
+              I: 316 yrkas avslag å departementschefens hemställan i denna del.
+              TI likhet med departementschefen hyser utskottet principiella
+              betänkligheter mot att inordna exportstödjande åtgärder i regleringssystemet
+              på förevarande område. Då emellertid i propositionen förutsatts
+              att bemyndigandet skall tagas i anspråk endast vid en riklig foderskörd
+              och för att motverka ett starkare prisfall å fodersäd, anser sig
+              utskottet kunna tillstyrka detsamma. Utskottet delar departementschefens
+              åsikt, att exportstödet icke bör ha till syfte att säkerställa
+              ett visst prisläge å inhemskt foder, och kan således icke biträda
+              de yrkanden i motsatt riktning, som framställts i motionerna I:
+              328 och IT: 489.»
+            </seg>
+          </u>
           <note n="069833ef">
             Vid utlåtandet hade reservationer avgivits av, utom andra,
           </note>
@@ -5147,7 +5210,7 @@
             likalydande, I:330, 1:331 och IT: 482, lika-
           </note>
           <pb n="59" facs="https://betalab.kb.se/prot-1939--fk--34/prot_1939__fk__34-059.jp2/_view"/>
-          <note n="3acdba83">
+          <note type="date" n="95459c6a">
             60 Nr 34. Onsdagen den 31 maj 1939 f. m.
           </note>
           <note n="41c5f302">
@@ -5193,7 +5256,7 @@
           <note type="speaker" n="8d4a902f">
             Herr Mannerskantz:
           </note>
-          <u who="axel_mannerskantz_51eb6d" xml:id="i-9f704f9c4251e116-1" next="i-f5eb2e76d25f7c9a-1" n="c7efe077">
+          <u who="axel_mannerskantz_51eb6d" xml:id="i-c7efe077517764f0-4" next="i-c7efe077517764f0-10" n="c7efe077">
             <seg n="0f64708e">
               Herr talman! Årets proposition angående jordbruksregleringen
               bör rättvisligen sägas innehålla något allvarligare försök, än
@@ -5231,10 +5294,10 @@
             </seg>
           </u>
           <pb n="60" facs="https://betalab.kb.se/prot-1939--fk--34/prot_1939__fk__34-060.jp2/_view"/>
-          <note n="5217d4ec">
+          <note type="date" n="cc7ed47d">
             Onsdagen den 31 maj 1939 f. m. Nr 34. 61
           </note>
-          <u who="axel_mannerskantz_51eb6d" xml:id="i-f5eb2e76d25f7c9a-1" prev="i-9f704f9c4251e116-1" n="c7efe077">
+          <u who="axel_mannerskantz_51eb6d" xml:id="i-c7efe077517764f0-5" prev="i-c7efe077517764f0-4" n="c7efe077">
             <seg n="49b05b0b">
               Angqy. prisreglerande åtgärder på jordbrukets område. (Forts.)
               redan vid ett pris av 1 krona 35 öre per kg. Denna åtskillnad
@@ -5308,6 +5371,12 @@
               som är landet största näringsgren, har ett kraftigt pulserande
               liv och kan sköta sina finanser tillräckligt väl. Det
             </seg>
+          </u>
+          <pb n="61" facs="https://betalab.kb.se/prot-1939--fk--34/prot_1939__fk__34-061.jp2/_view"/>
+          <note type="date" n="1cfbd6e5">
+            62 Nr 34. Onsdagen den 31 maj 1939 f. m.
+          </note>
+          <u who="axel_mannerskantz_51eb6d" xml:id="i-c7efe077517764f0-6" prev="i-c7efe077517764f0-4" n="c7efe077">
             <seg n="eac07519">
               Ang. prisreglerande åtgärder på jordbrukets område. (Forts.)
               är nog ingen överdrift att säga, att det svenska jordbruket är
@@ -5382,6 +5451,12 @@
               Vi importera nämligen margarinråvarorna till så billigt pris,
               att kostnaderna
             </seg>
+          </u>
+          <pb n="62" facs="https://betalab.kb.se/prot-1939--fk--34/prot_1939__fk__34-062.jp2/_view"/>
+          <note type="date" n="9fe0cdbf">
+            Onsdagen den 31 maj 1939 f. m. Nr 34. 63
+          </note>
+          <u who="axel_mannerskantz_51eb6d" xml:id="i-c7efe077517764f0-7" prev="i-c7efe077517764f0-4" n="c7efe077">
             <seg n="e5a633d9">
               Ang. prisreglerande åtgärder på jordbrukets område. (Forts.)
               för smörexporten uppvägas. Men detta resonemang håller som sagt
@@ -5458,6 +5533,12 @@
               öre från nuvarande 45 öre. För det andra har samme motionär i
               en annan motion, nämligen den som har
             </seg>
+          </u>
+          <pb n="63" facs="https://betalab.kb.se/prot-1939--fk--34/prot_1939__fk__34-063.jp2/_view"/>
+          <note type="date" n="4861e4e7">
+            64 Nr 34. Onsdagen den 31 maj 1939 f. m.
+          </note>
+          <u who="axel_mannerskantz_51eb6d" xml:id="i-c7efe077517764f0-8" prev="i-c7efe077517764f0-4" n="c7efe077">
             <seg n="b4be3c2f">
               Ang. prisreglerande åtgärder på jordbrukets område. (Forts.)
               nr 329 i första kammaren och 487 i andra kammaren, hänvisat till
@@ -5528,6 +5609,12 @@
               Enligt en tredje uppfattning slutligen, som kommit till uttryck
               i en reservation, avgiven av tre utav utskottets ledamö-
             </seg>
+          </u>
+          <pb n="64" facs="https://betalab.kb.se/prot-1939--fk--34/prot_1939__fk__34-064.jp2/_view"/>
+          <note type="date" n="b583d4de">
+            Onsdagen den 31 maj 1939 f. m. Nr 34. 65
+          </note>
+          <u who="axel_mannerskantz_51eb6d" xml:id="i-c7efe077517764f0-9" prev="i-c7efe077517764f0-4" n="c7efe077">
             <seg n="3056c493">
               Ang. prisreglerande åtgärder på jordbrukets område. (Forts.)
               ter, yrkas avslag på förslaget beträffande fodersädsexporten.
@@ -5598,6 +5685,15 @@
               betraktas såsom beredskapslager, skall bestämmas till 200,000
               ton, och att spannmålslagring utöver denna kvan-
             </seg>
+          </u>
+          <note n="d70a0a3d">
+            Första kammarens protokoll 1939. Nr 34. 5
+          </note>
+          <pb n="65" facs="https://betalab.kb.se/prot-1939--fk--34/prot_1939__fk__34-065.jp2/_view"/>
+          <note type="date" n="bbcb9f39">
+            66 Nr 34. Onsdagen den 31 maj 1939 f. m.
+          </note>
+          <u who="axel_mannerskantz_51eb6d" xml:id="i-c7efe077517764f0-10" prev="i-c7efe077517764f0-4" n="c7efe077">
             <seg n="5d9e9c95">
               Ang. prisreglerande åtgärder på jordbrukets område. (Forts.)
               titet bekostas genom veteavgiftsmedel såsom varande en form av
@@ -5625,29 +5721,6 @@
               kan hållas.
             </seg>
           </u>
-          <pb n="61" facs="https://betalab.kb.se/prot-1939--fk--34/prot_1939__fk__34-061.jp2/_view"/>
-          <note n="bc73efbf">
-            62 Nr 34. Onsdagen den 31 maj 1939 f. m.
-          </note>
-          <pb n="62" facs="https://betalab.kb.se/prot-1939--fk--34/prot_1939__fk__34-062.jp2/_view"/>
-          <note n="bf90cb70">
-            Onsdagen den 31 maj 1939 f. m. Nr 34. 63
-          </note>
-          <pb n="63" facs="https://betalab.kb.se/prot-1939--fk--34/prot_1939__fk__34-063.jp2/_view"/>
-          <note n="891c3fdb">
-            64 Nr 34. Onsdagen den 31 maj 1939 f. m.
-          </note>
-          <pb n="64" facs="https://betalab.kb.se/prot-1939--fk--34/prot_1939__fk__34-064.jp2/_view"/>
-          <note n="a7a2ed24">
-            Onsdagen den 31 maj 1939 f. m. Nr 34. 65
-          </note>
-          <note n="d70a0a3d">
-            Första kammarens protokoll 1939. Nr 34. 5
-          </note>
-          <pb n="65" facs="https://betalab.kb.se/prot-1939--fk--34/prot_1939__fk__34-065.jp2/_view"/>
-          <note n="0abde19e">
-            66 Nr 34. Onsdagen den 31 maj 1939 f. m.
-          </note>
           <note n="d1010124">
             Med hänsyn till dessa synpunkter, herr talman, skall jag be att
             få yrka bifall till såväl motiveringen som hemställan i den reservation,
@@ -5659,7 +5732,7 @@
           <note type="speaker" n="280b67bb">
             Herr von Heland:
           </note>
-          <u who="erik_von_heland_1636c2" xml:id="i-75f776b892db4cae-0" next="i-0fe5ee5d7e4c0432-0" n="857900c8">
+          <u who="erik_von_heland_1636c2" xml:id="i-857900c86c6d5aaf-0" next="i-857900c86c6d5aaf-2" n="857900c8">
             <seg n="1cd7073c">
               Herr talman! Varje jordbrukare erkänner, att jordbrukets läge
               förbättrats avsevärt sedan år 1932, men det är därför inte tillbörligt
@@ -5701,10 +5774,10 @@
             att jordbruksutredningen förklarat sig
           </note>
           <pb n="66" facs="https://betalab.kb.se/prot-1939--fk--34/prot_1939__fk__34-066.jp2/_view"/>
-          <note n="cab09cb1">
+          <note type="date" n="d8cb05a8">
             Onsdagen den 31 maj 1939 f. m. Nr 34. 67
           </note>
-          <u who="erik_von_heland_1636c2" xml:id="i-0fe5ee5d7e4c0432-0" prev="i-75f776b892db4cae-0" n="857900c8">
+          <u who="erik_von_heland_1636c2" xml:id="i-857900c86c6d5aaf-1" prev="i-857900c86c6d5aaf-0" n="857900c8">
             <seg n="20a18b8d">
               Ang. prisreglerande åtgärder på jordbrukets område. (Forts.)
               ha för avsikt att avlämna sitt slutbetänkande i sådan tid, att
@@ -5774,6 +5847,15 @@
               andra kammaren nu fattat beslut. att kunna vinna något med att
               yrka bifall till förslaget om för-
             </seg>
+          </u>
+          <note n="fe9e5b38">
+            Kartong.
+          </note>
+          <pb n="67" facs="https://betalab.kb.se/prot-1939--fk--34/prot_1939__fk__34-067.jp2/_view"/>
+          <note type="date" n="91b89574">
+            68 Nr 34. Onsdagen den 31 maj 1939 f. m.
+          </note>
+          <u who="erik_von_heland_1636c2" xml:id="i-857900c86c6d5aaf-2" prev="i-857900c86c6d5aaf-0" n="857900c8">
             <seg n="2eef7e06">
               Ang. prisreglerande åtgärder på jordbrukets område. (Forts.)
               höjning av margarinaccisens maximigräns. Däremot borde det ej
@@ -5793,13 +5875,6 @@
               motionen nr 221 i första kammaren.
             </seg>
           </u>
-          <note n="fe9e5b38">
-            Kartong.
-          </note>
-          <pb n="67" facs="https://betalab.kb.se/prot-1939--fk--34/prot_1939__fk__34-067.jp2/_view"/>
-          <note n="3507b74c">
-            68 Nr 34. Onsdagen den 31 maj 1939 f. m.
-          </note>
           <note n="75166ef1">
             I herr von Helands yttrande instämde herrar Aronsson, Holstenson,
             Anton Pettersson, Löfvander, Persson, John Gustavson, Friggeråker,
@@ -5808,7 +5883,7 @@
           <note type="speaker" n="15ee9dbb">
             Herr Andersson, Alfred:
           </note>
-          <u who="verner_andersson_b457ce" xml:id="i-fefc0f990a30ef41-0" next="i-4723d678b8d09d6e-0" n="6cb62110">
+          <u who="verner_andersson_b457ce" xml:id="i-6cb62110592383c7-0" next="i-6cb62110592383c7-3" n="6cb62110">
             <seg n="a773e3b2">
               Herr talman! TI sju års tid ha vi här i riksdagen haft att på
               förslag av regeringen taga ställning till och besluta om åtgärder
@@ -5858,10 +5933,10 @@
             </seg>
           </u>
           <pb n="68" facs="https://betalab.kb.se/prot-1939--fk--34/prot_1939__fk__34-068.jp2/_view"/>
-          <note n="a7fa9092">
+          <note type="date" n="f2726d16">
             Onsdagen den 31 maj 1939 f. m. Nr 34. 69
           </note>
-          <u who="verner_andersson_b457ce" xml:id="i-4723d678b8d09d6e-0" prev="i-fefc0f990a30ef41-0" n="6cb62110">
+          <u who="verner_andersson_b457ce" xml:id="i-6cb62110592383c7-1" prev="i-6cb62110592383c7-0" n="6cb62110">
             <seg n="9cf5ea4f">
               Ang. prisreglerande åtgärder på jordbrukets område. (Forts.)
               gande av fodermedlen intill en viss gräns. Detta krav på billigare
@@ -5931,6 +6006,12 @@
               flera djur än vad stråfodertillgången tillåter, och det är just
               däri vi ha en
             </seg>
+          </u>
+          <pb n="69" facs="https://betalab.kb.se/prot-1939--fk--34/prot_1939__fk__34-069.jp2/_view"/>
+          <note type="date" n="b6a25d93">
+            70 Nr 34. Onsdagen den 31 maj 1939 f. m.
+          </note>
+          <u who="verner_andersson_b457ce" xml:id="i-6cb62110592383c7-2" prev="i-6cb62110592383c7-0" n="6cb62110">
             <seg n="9046a643">
               Ang. prisreglerande åtgärder på jordbrukets område. (Forts.)
               naturlig spärr. Det kan visserligen sägas, att vi kunna utöka
@@ -6005,6 +6086,12 @@
               Nu kan det ju sägas: vad tjänar allt detta resonemang till, när
               icke något
             </seg>
+          </u>
+          <pb n="70" facs="https://betalab.kb.se/prot-1939--fk--34/prot_1939__fk__34-070.jp2/_view"/>
+          <note type="date" n="6baf402a">
+            Onsdagen den 31 maj 1939 f. m. Nr 34. 71
+          </note>
+          <u who="verner_andersson_b457ce" xml:id="i-6cb62110592383c7-3" prev="i-6cb62110592383c7-0" n="6cb62110">
             <seg n="806b9ac6">
               Ang. prisreglerande åtgärder på jordbrukets område. (Forts.)
               annat beslut kan förväntas än i enlighet med vad utskottet här
@@ -6063,21 +6150,13 @@
               m. fl. reservation, med vilken jag sympatiserar.
             </seg>
           </u>
-          <pb n="69" facs="https://betalab.kb.se/prot-1939--fk--34/prot_1939__fk__34-069.jp2/_view"/>
-          <note n="79a9fb63">
-            70 Nr 34. Onsdagen den 31 maj 1939 f. m.
-          </note>
-          <pb n="70" facs="https://betalab.kb.se/prot-1939--fk--34/prot_1939__fk__34-070.jp2/_view"/>
-          <note n="b1ad73f3">
-            Onsdagen den 31 maj 1939 f. m. Nr 34. 71
-          </note>
           <note n="ccacdd6b">
             Häri instimde herr Svedberg.
           </note>
           <note type="speaker" n="0d44a93f">
             Herr von Stockenström:
           </note>
-          <u who="bo_von_stockenstrom_f775dd" xml:id="i-98c15136646c288d-0" next="i-e0ac9886d155315b-0" n="e5b8b07a">
+          <u who="bo_von_stockenstrom_f775dd" xml:id="i-e5b8b07a57648f5a-0" next="i-e5b8b07a57648f5a-5" n="e5b8b07a">
             <seg n="6373948d">
               Herr talman! Jag skall APkränka mig till att säga några ord om
               den del av utskottsutlåtandet som berör mjölkregleringen.
@@ -6091,10 +6170,10 @@
             </seg>
           </u>
           <pb n="71" facs="https://betalab.kb.se/prot-1939--fk--34/prot_1939__fk__34-071.jp2/_view"/>
-          <note n="74917eb2">
+          <note type="date" n="cdc7027d">
             72 Nr 34. Onsdagen den 31 maj 1939 f. m.
           </note>
-          <u who="bo_von_stockenstrom_f775dd" xml:id="i-e0ac9886d155315b-0" prev="i-98c15136646c288d-0" n="e5b8b07a">
+          <u who="bo_von_stockenstrom_f775dd" xml:id="i-e5b8b07a57648f5a-1" prev="i-e5b8b07a57648f5a-0" n="e5b8b07a">
             <seg n="e479db6d">
               Ang. prisreglerande åtgärder på jordbrukets område. (Forts.)
               med andra ord, att för denna mjölkmängd kommer att utgå ett mjölkpris
@@ -6165,6 +6244,12 @@
               statens sida i syfte att ytterligare tränga tillbaka försäljningen
               av margarin, och i detta sammanhang fram-
             </seg>
+          </u>
+          <pb n="72" facs="https://betalab.kb.se/prot-1939--fk--34/prot_1939__fk__34-072.jp2/_view"/>
+          <note type="date" n="279b8f8d">
+            Onsdagen den 31 maj 1939 f. m. Nr 34. 73
+          </note>
+          <u who="bo_von_stockenstrom_f775dd" xml:id="i-e5b8b07a57648f5a-2" prev="i-e5b8b07a57648f5a-0" n="e5b8b07a">
             <seg n="fdba4239">
               Ang. prisreglerande åtgärder på jordbrukets område. (Forts.)
               håller också utskottet att smörexporten vid nuvarande exportpris
@@ -6232,6 +6317,12 @@
               betydande omfattning som nu äger rum? Visserligen kan smörexporten
               för ögonblicket med det pris som just nu erhålles
             </seg>
+          </u>
+          <pb n="73" facs="https://betalab.kb.se/prot-1939--fk--34/prot_1939__fk__34-073.jp2/_view"/>
+          <note type="date" n="279fe4ab">
+            74 Nr 34. Onsdagen den 31 maj 1939 f. m.
+          </note>
+          <u who="bo_von_stockenstrom_f775dd" xml:id="i-e5b8b07a57648f5a-3" prev="i-e5b8b07a57648f5a-0" n="e5b8b07a">
             <seg n="91d16dc9">
               Ang. prisreglerande åtgärder på jordbrukets område. (Forts.)
               för smöret anses nationalekonomiskt försvarlig, såsom jordbruksutredningen
@@ -6298,6 +6389,12 @@
               förbättrade produkter och det allmänna kravet på förbättrade produktionsförhållanden,
               som gör att
             </seg>
+          </u>
+          <pb n="74" facs="https://betalab.kb.se/prot-1939--fk--34/prot_1939__fk__34-074.jp2/_view"/>
+          <note type="date" n="5908c94e">
+            Onsdagen den 31 maj 1939 f. m. Nr 34. 75
+          </note>
+          <u who="bo_von_stockenstrom_f775dd" xml:id="i-e5b8b07a57648f5a-4" prev="i-e5b8b07a57648f5a-0" n="e5b8b07a">
             <seg n="5f404f08">
               Ang. prisreglerande åtgärder på jordbrukets område. (Forts.)
               detta arbete just nu bedrives mycket intensivt. Även ur denna
@@ -6329,22 +6426,7 @@
               genomgripande sätt kunna förbättra avsättningen av svenskt smör
               inom landet.
             </seg>
-            <seg n="629ac9ec">
-              Forts.
-            </seg>
           </u>
-          <pb n="72" facs="https://betalab.kb.se/prot-1939--fk--34/prot_1939__fk__34-072.jp2/_view"/>
-          <note n="fac34a44">
-            Onsdagen den 31 maj 1939 f. m. Nr 34. 73
-          </note>
-          <pb n="73" facs="https://betalab.kb.se/prot-1939--fk--34/prot_1939__fk__34-073.jp2/_view"/>
-          <note n="5c276594">
-            74 Nr 34. Onsdagen den 31 maj 1939 f. m.
-          </note>
-          <pb n="74" facs="https://betalab.kb.se/prot-1939--fk--34/prot_1939__fk__34-074.jp2/_view"/>
-          <note n="d9672c9c">
-            Onsdagen den 31 maj 1939 f. m. Nr 34. 75
-          </note>
           <note n="75e203b5">
             På framställning av herr talmannen beslöts, att den fortsatta
             överläggningen i förevarande fråga skulle uppskjutas till aftonsammanträdet.
@@ -6394,7 +6476,7 @@
             till maximiprislag, dels ock i ämnet väckta motioner;
           </note>
           <pb n="75" facs="https://betalab.kb.se/prot-1939--fk--34/prot_1939__fk__34-075.jp2/_view"/>
-          <note n="dbb2977a">
+          <note type="date" n="b7fadd4e">
             76 Nr 34. Onsdagen den 31 maj 1939 f. m
           </note>
           <note n="f8b902b0">
@@ -6451,7 +6533,7 @@
             In fidem G. H. Berggren.
           </note>
           <pb n="76" facs="https://betalab.kb.se/prot-1939--fk--34/prot_1939__fk__34-076.jp2/_view"/>
-          <note n="ff9c87df">
+          <note type="date" n="816eca19">
             Onsdagen den 31 maj 1939 e. m. Nr 34. 77
           </note>
           <note type="date" n="fd8eeef1">
@@ -6482,10 +6564,15 @@
           <note n="f04264ef">
             brukets ommed mera. råde.
           </note>
+          <u who="bo_von_stockenstrom_f775dd" xml:id="i-e5b8b07a57648f5a-5" prev="i-e5b8b07a57648f5a-0" n="e5b8b07a">
+            <seg n="629ac9ec">
+              Forts.
+            </seg>
+          </u>
           <note type="speaker" n="d1c58453">
             Herr Björnsson:
           </note>
-          <u who="edvard_bjornsson_4f4f58" xml:id="i-604bac213e18aa1b-0" next="i-f2f2408d4a8851c4-0" n="4ac7b9de">
+          <u who="edvard_bjornsson_4f4f58" xml:id="i-4ac7b9def231ab4d-0" next="i-4ac7b9def231ab4d-8" n="4ac7b9de">
             <seg n="35fbdd82">
               Herr talman! TI den proposition, som behandlas i före- | ) liggande
               utskottsutlåtande, förekommer det ett antal nyheter beträffande
@@ -6528,10 +6615,10 @@
             </seg>
           </u>
           <pb n="77" facs="https://betalab.kb.se/prot-1939--fk--34/prot_1939__fk__34-077.jp2/_view"/>
-          <note n="3fa9141c">
+          <note type="date" n="3543877c">
             78 Nr 34. Onsdagen den 31 maj 1939 e. m.
           </note>
-          <u who="edvard_bjornsson_4f4f58" xml:id="i-f2f2408d4a8851c4-0" prev="i-604bac213e18aa1b-0" n="4ac7b9de">
+          <u who="edvard_bjornsson_4f4f58" xml:id="i-4ac7b9def231ab4d-1" prev="i-4ac7b9def231ab4d-0" n="4ac7b9de">
             <seg n="a8ef8ede">
               Ang. prisreglerande åtgärder på jordbrukets område. (Forts.)
               mer att fatta. Jag har emellertid ingenting att erinra emot att
@@ -6605,6 +6692,12 @@
               vi strävade efter att eliminera exporten. Detta kunna vi naturligtvis
               göra genom ett kategoriskt
             </seg>
+          </u>
+          <pb n="78" facs="https://betalab.kb.se/prot-1939--fk--34/prot_1939__fk__34-078.jp2/_view"/>
+          <note type="date" n="d126cab4">
+            Onsdagen den 31 maj 1939 e. m. Nr 34. 79
+          </note>
+          <u who="edvard_bjornsson_4f4f58" xml:id="i-4ac7b9def231ab4d-2" prev="i-4ac7b9def231ab4d-0" n="4ac7b9de">
             <seg n="6639a352">
               Ang. prisreglerande åtgärder på jordbrukets område. (Forts.)
               importförbud på kraftfoder, om det verkligen vore till gagn för
@@ -6676,6 +6769,12 @@
               Vill man öka produktmjölkpriset med 1 öre på det sättet, att man
               genom mejerierna
             </seg>
+          </u>
+          <pb n="79" facs="https://betalab.kb.se/prot-1939--fk--34/prot_1939__fk__34-079.jp2/_view"/>
+          <note type="date" n="4d86a7c2">
+            80 Nr 34. Onsdagen den 31 maj 1939 e. m.
+          </note>
+          <u who="edvard_bjornsson_4f4f58" xml:id="i-4ac7b9def231ab4d-3" prev="i-4ac7b9def231ab4d-0" n="4ac7b9de">
             <seg n="6a32167e">
               Ang. prisreglerande åtgärder på jordbrukets område. (Forts.)
               delar ut 1 öre av statliga medel, kostar detta 23 miljoner kronor.
@@ -6752,6 +6851,12 @@
               Man säger, att exportpremien skall vara så stor, att
             </seg>
             <seg n="88a460d9"/>
+          </u>
+          <pb n="80" facs="https://betalab.kb.se/prot-1939--fk--34/prot_1939__fk__34-080.jp2/_view"/>
+          <note type="date" n="c1894260">
+            Onsdagen den 31 maj 1939 e. m. Nr 34. 81
+          </note>
+          <u who="edvard_bjornsson_4f4f58" xml:id="i-4ac7b9def231ab4d-4" prev="i-4ac7b9def231ab4d-0" n="4ac7b9de">
             <seg n="c37ba0f7">
               Ang. prisreglerande åtgärder på jordbrukets område. (Forts.)
               smörpriset blir det önskade. Höjer man det med 15 öre, vilket
@@ -6821,6 +6926,15 @@
               fattiga och rika. Jag vill påpeka, att på detta sätt vet man åtminstone
               att det smör, som köpes för rabatteringspeng-
             </seg>
+          </u>
+          <note n="35a6610f">
+            Första kammarens protokoll 1939. Nr 34. 6
+          </note>
+          <pb n="81" facs="https://betalab.kb.se/prot-1939--fk--34/prot_1939__fk__34-081.jp2/_view"/>
+          <note type="date" n="47bcd2df">
+            82 Nr 34. Onsdagen den 31 maj 1939 e. m.
+          </note>
+          <u who="edvard_bjornsson_4f4f58" xml:id="i-4ac7b9def231ab4d-5" prev="i-4ac7b9def231ab4d-0" n="4ac7b9de">
             <seg n="db712e08">
               Ang. prisreglerande åtgärder på iordbrukets område. (Forts.)
               arna, 1 de flesta fall innebär en nettoökning i den mån barnen
@@ -6897,6 +7011,12 @@
               stödköpspriset på vete till vad högern har funnit lämpligt att
               sätta i sina motioner, d. v. s. 18 kronor eller någonting
             </seg>
+          </u>
+          <pb n="82" facs="https://betalab.kb.se/prot-1939--fk--34/prot_1939__fk__34-082.jp2/_view"/>
+          <note type="date" n="64c02473">
+            Onsdagen den 31 maj 1939 e. m. Nr 34. 83
+          </note>
+          <u who="edvard_bjornsson_4f4f58" xml:id="i-4ac7b9def231ab4d-6" prev="i-4ac7b9def231ab4d-0" n="4ac7b9de">
             <seg n="697a43c1">
               Ang. prisreglerande åtgärder på jordbrukets område. (Forts.)
             </seg>
@@ -6970,6 +7090,12 @@
               inomlands, spelar det av högern föreslagna stödköpspriset alls
               ingen roll. Då behövs intet stödköp. Då utvecklar sig
             </seg>
+          </u>
+          <pb n="83" facs="https://betalab.kb.se/prot-1939--fk--34/prot_1939__fk__34-083.jp2/_view"/>
+          <note type="date" n="24117169">
+            84 Nr 34. Onsdagen den 31 maj 1939 e. m.
+          </note>
+          <u who="edvard_bjornsson_4f4f58" xml:id="i-4ac7b9def231ab4d-7" prev="i-4ac7b9def231ab4d-0" n="4ac7b9de">
             <seg n="9f83229c">
               Ang. prisreglerande åtgärder på jordbrukets område. (Forts.)
               marknaden med hjälp av våra exportpremier i form av utförselbevis
@@ -7047,6 +7173,12 @@
               sjunka, kan naturligtvis vara oförmånligt för dem, som driva kreatursfattiga
               eller kreaturslösa
             </seg>
+          </u>
+          <pb n="84" facs="https://betalab.kb.se/prot-1939--fk--34/prot_1939__fk__34-084.jp2/_view"/>
+          <note type="date" n="6ea84497">
+            Onsdagen den 31 maj 1939 e. m. Nr 34. 85
+          </note>
+          <u who="edvard_bjornsson_4f4f58" xml:id="i-4ac7b9def231ab4d-8" prev="i-4ac7b9def231ab4d-0" n="4ac7b9de">
             <seg n="4fc5b020">
               Ang. prisreglerande åtgärder på jordbrukets område. (Forts.)
               jordbruk. Jag tycker emellertid, att det icke är skäl att komplicera
@@ -7103,37 +7235,6 @@
               föreslagits.
             </seg>
           </u>
-          <pb n="78" facs="https://betalab.kb.se/prot-1939--fk--34/prot_1939__fk__34-078.jp2/_view"/>
-          <note n="91f17182">
-            Onsdagen den 31 maj 1939 e. m. Nr 34. 79
-          </note>
-          <pb n="79" facs="https://betalab.kb.se/prot-1939--fk--34/prot_1939__fk__34-079.jp2/_view"/>
-          <note n="c81cc4f7">
-            80 Nr 34. Onsdagen den 31 maj 1939 e. m.
-          </note>
-          <pb n="80" facs="https://betalab.kb.se/prot-1939--fk--34/prot_1939__fk__34-080.jp2/_view"/>
-          <note n="48239d3c">
-            Onsdagen den 31 maj 1939 e. m. Nr 34. 81
-          </note>
-          <note n="35a6610f">
-            Första kammarens protokoll 1939. Nr 34. 6
-          </note>
-          <pb n="81" facs="https://betalab.kb.se/prot-1939--fk--34/prot_1939__fk__34-081.jp2/_view"/>
-          <note n="722b6fe9">
-            82 Nr 34. Onsdagen den 31 maj 1939 e. m.
-          </note>
-          <pb n="82" facs="https://betalab.kb.se/prot-1939--fk--34/prot_1939__fk__34-082.jp2/_view"/>
-          <note n="4cec9fd2">
-            Onsdagen den 31 maj 1939 e. m. Nr 34. 83
-          </note>
-          <pb n="83" facs="https://betalab.kb.se/prot-1939--fk--34/prot_1939__fk__34-083.jp2/_view"/>
-          <note n="48acd3b4">
-            84 Nr 34. Onsdagen den 31 maj 1939 e. m.
-          </note>
-          <pb n="84" facs="https://betalab.kb.se/prot-1939--fk--34/prot_1939__fk__34-084.jp2/_view"/>
-          <note n="6eade0c2">
-            Onsdagen den 31 maj 1939 e. m. Nr 34. 85
-          </note>
           <note n="73ca9d55">
             I detta anförande instämde herr Andersson, Elon, och herr Karlsson,
             Oscar Gottfrid.
@@ -7141,7 +7242,7 @@
           <note type="speaker" n="1e2bc3ba">
             Herr Hagström:
           </note>
-          <u who="leonard_hagstrom_5dd22a" xml:id="i-cd1dd58fd6f67e46-0" next="i-fce02a387eeb9184-0" n="4a276199">
+          <u who="leonard_hagstrom_5dd22a" xml:id="i-4a27619934bd6924-0" next="i-4a27619934bd6924-8" n="4a276199">
             <seg n="46e5c3dd">
               Herr talman! Sammansatta bevillningsoch jordbruksutskottet har
               i sitt föreliggande utlåtande bland annat föreslagit den ändringen
@@ -7159,10 +7260,10 @@
             </seg>
           </u>
           <pb n="85" facs="https://betalab.kb.se/prot-1939--fk--34/prot_1939__fk__34-085.jp2/_view"/>
-          <note n="17a98215">
+          <note type="date" n="1e0122c1">
             86 Nr 34. Onsdagen den 31 maj 1939 e. m.
           </note>
-          <u who="leonard_hagstrom_5dd22a" xml:id="i-fce02a387eeb9184-0" prev="i-cd1dd58fd6f67e46-0" n="4a276199">
+          <u who="leonard_hagstrom_5dd22a" xml:id="i-4a27619934bd6924-1" prev="i-4a27619934bd6924-0" n="4a276199">
             <seg n="dc96ac89">
               Ang. prisreglerande åtgärder på jordbrukets område. (Forts.)
               kommer att mötas med den invändningen eller åtminstone den tysta
@@ -7231,6 +7332,12 @@
               beträffande Norrland främjas genom högre anslag till åtgärder,
               som ha allmänt erkänt gynnsamma verkningar, t. ex. mjölkregleringen
             </seg>
+          </u>
+          <pb n="86" facs="https://betalab.kb.se/prot-1939--fk--34/prot_1939__fk__34-086.jp2/_view"/>
+          <note type="date" n="9d6e9cda">
+            Onsdagen den 31 maj 1939 e. m. Nr 34. 87
+          </note>
+          <u who="leonard_hagstrom_5dd22a" xml:id="i-4a27619934bd6924-2" prev="i-4a27619934bd6924-0" n="4a276199">
             <seg n="d4dc1778">
               Ang. prisreglerande åtgärder på jordbrukets område. (Forts.)
               och uppförandet av mejerier och slakterier samt om möjligt, jag
@@ -7307,6 +7414,12 @@
               Det har uttalats betänkligheter mot att margarinaccisen inte
               höjes med sam-
             </seg>
+          </u>
+          <pb n="87" facs="https://betalab.kb.se/prot-1939--fk--34/prot_1939__fk__34-087.jp2/_view"/>
+          <note type="date" n="cc614a65">
+            88 Nr 34. Onsdagen den 31 maj 1939 e. m.
+          </note>
+          <u who="leonard_hagstrom_5dd22a" xml:id="i-4a27619934bd6924-3" prev="i-4a27619934bd6924-0" n="4a276199">
             <seg n="1aa69681">
               Ang. prisreglerande åtgärder på jordbrukets område. (Forts.)
               ma belopp som smörpriset. Jag tillåter mig dock påpeka, att margarinaccisen
@@ -7376,6 +7489,12 @@
               har för jordbruket och dess utövare, få vi naturligtvis inte glömma
               bort, att det dock finns ett stort antal människor i vårt
             </seg>
+          </u>
+          <pb n="88" facs="https://betalab.kb.se/prot-1939--fk--34/prot_1939__fk__34-088.jp2/_view"/>
+          <note type="date" n="54c555c9">
+            Onsdagen den 31 maj 1939 e. m. Nr 34. 89
+          </note>
+          <u who="leonard_hagstrom_5dd22a" xml:id="i-4a27619934bd6924-4" prev="i-4a27619934bd6924-0" n="4a276199">
             <seg n="7c2670f2">
               Ang. prisreglerande åtgärder på jordbrukets område. (Forts.)
               land, som inte kunna skaffa sig någon sysselsättning och därför
@@ -7444,6 +7563,12 @@
               tidigare fattat, har Kungl. Maj:t anvisat 450,000 kronor att användas
               för att stödja exporten av 10,000 ton foderspannmål. Detta
             </seg>
+          </u>
+          <pb n="89" facs="https://betalab.kb.se/prot-1939--fk--34/prot_1939__fk__34-089.jp2/_view"/>
+          <note type="date" n="057248b8">
+            90 Nr 34. Onsdagen den 31 maj 1939 e. m.
+          </note>
+          <u who="leonard_hagstrom_5dd22a" xml:id="i-4a27619934bd6924-5" prev="i-4a27619934bd6924-0" n="4a276199">
             <seg n="14bfd5f2">
               Ang. prisreglerande åtgärder på jordbrukets område. (Forts.)
               skulle alltså göra ett belopp av 4 kronor 50 öre per 100 kilogram.
@@ -7511,6 +7636,12 @@
               föreslå ett anslag på 800,000 kronor, gjorde jag det av den anledningen,
               att hela pro-
             </seg>
+          </u>
+          <pb n="90" facs="https://betalab.kb.se/prot-1939--fk--34/prot_1939__fk__34-090.jp2/_view"/>
+          <note type="date" n="f4ca3ba5">
+            Onsdagen den 31 maj 1939 e. m. Nr 34. 91
+          </note>
+          <u who="leonard_hagstrom_5dd22a" xml:id="i-4a27619934bd6924-6" prev="i-4a27619934bd6924-0" n="4a276199">
             <seg n="d44dc741">
               Ang. prisreglerande åtgärder på jordbrukets område. (Forts.)
               jektet inte är så genomtänkt ännu och inte heller så utrett, att
@@ -7580,6 +7711,12 @@
               2 kronor 80 öre. Det är möjligt, att jordbruksutredningen inte
               har räknat med ett högre pris än det nämnda, men
             </seg>
+          </u>
+          <pb n="91" facs="https://betalab.kb.se/prot-1939--fk--34/prot_1939__fk__34-091.jp2/_view"/>
+          <note type="date" n="6e9f3538">
+            92 Nr 34. Onsdagen den 31 maj 1939 e. m.
+          </note>
+          <u who="leonard_hagstrom_5dd22a" xml:id="i-4a27619934bd6924-7" prev="i-4a27619934bd6924-0" n="4a276199">
             <seg n="7636684b">
               Ang. prisreglerande åtgärder på jordbrukets område. (Forts.)
               Jordbruksutredningen skrev i alla fall, att priset borde kunna
@@ -7654,6 +7791,12 @@
               ju inte på världsmarknadsläget, ty skulle vi bygga på detta, så
               borde vi naturligt-
             </seg>
+          </u>
+          <pb n="92" facs="https://betalab.kb.se/prot-1939--fk--34/prot_1939__fk__34-092.jp2/_view"/>
+          <note type="date" n="633b9046">
+            Onsdagen den 31 maj 1939 e. m. Nr 34. 93
+          </note>
+          <u who="leonard_hagstrom_5dd22a" xml:id="i-4a27619934bd6924-8" prev="i-4a27619934bd6924-0" n="4a276199">
             <seg n="33b86996">
               Ang. prisreglerande åtgärder på jordbrukets område. (Forts.)
               vis därpå grunda många andra av våra åtgärder, ja, man kan säga,
@@ -7705,38 +7848,10 @@
               räknat med.
             </seg>
           </u>
-          <pb n="86" facs="https://betalab.kb.se/prot-1939--fk--34/prot_1939__fk__34-086.jp2/_view"/>
-          <note n="c47f99f4">
-            Onsdagen den 31 maj 1939 e. m. Nr 34. 87
-          </note>
-          <pb n="87" facs="https://betalab.kb.se/prot-1939--fk--34/prot_1939__fk__34-087.jp2/_view"/>
-          <note n="d199f86e">
-            88 Nr 34. Onsdagen den 31 maj 1939 e. m.
-          </note>
-          <pb n="88" facs="https://betalab.kb.se/prot-1939--fk--34/prot_1939__fk__34-088.jp2/_view"/>
-          <note n="bd9964bb">
-            Onsdagen den 31 maj 1939 e. m. Nr 34. 89
-          </note>
-          <pb n="89" facs="https://betalab.kb.se/prot-1939--fk--34/prot_1939__fk__34-089.jp2/_view"/>
-          <note n="92f87525">
-            90 Nr 34. Onsdagen den 31 maj 1939 e. m.
-          </note>
-          <pb n="90" facs="https://betalab.kb.se/prot-1939--fk--34/prot_1939__fk__34-090.jp2/_view"/>
-          <note n="85cca383">
-            Onsdagen den 31 maj 1939 e. m. Nr 34. 91
-          </note>
-          <pb n="91" facs="https://betalab.kb.se/prot-1939--fk--34/prot_1939__fk__34-091.jp2/_view"/>
-          <note n="102974ad">
-            92 Nr 34. Onsdagen den 31 maj 1939 e. m.
-          </note>
-          <pb n="92" facs="https://betalab.kb.se/prot-1939--fk--34/prot_1939__fk__34-092.jp2/_view"/>
-          <note n="8be421e9">
-            Onsdagen den 31 maj 1939 e. m. Nr 34. 93
-          </note>
           <note type="speaker" n="73b470a1">
             Herr Näslund:
           </note>
-          <u who="per_naslund_ffa1e7" xml:id="i-e21b8e1419c30f6b-0" next="i-3207d781c86753e0-0" n="3cd3811f">
+          <u who="per_naslund_ffa1e7" xml:id="i-3cd3811fe58b35a1-0" next="i-3cd3811fe58b35a1-2" n="3cd3811f">
             <seg n="e1a0399b">
               Herr talman! Jag har närmast begärt ordet med anledning av vad
               som i utlåtandet yttrats om användningen av det anslag på tidigare
@@ -7762,10 +7877,10 @@
             </seg>
           </u>
           <pb n="93" facs="https://betalab.kb.se/prot-1939--fk--34/prot_1939__fk__34-093.jp2/_view"/>
-          <note n="e9b6d862">
+          <note type="date" n="1e7cef97">
             94 Nr 34. Onsdagen den 31 maj 1939 e. m.
           </note>
-          <u who="per_naslund_ffa1e7" xml:id="i-3207d781c86753e0-0" prev="i-e21b8e1419c30f6b-0" n="3cd3811f">
+          <u who="per_naslund_ffa1e7" xml:id="i-3cd3811fe58b35a1-1" prev="i-3cd3811fe58b35a1-0" n="3cd3811f">
             <seg n="1a6212c8">
               Ang. prisreglerande åtgärder på jordbrukets område. (Forts.)
               ifrågakomma, och under sådana förhållanden ha vi motionärer ingenting
@@ -7837,6 +7952,12 @@
               och jag förmodar att rätt mycket kommer att sägas ytterligare.
               Jag ber bara att få deklarera, att jag kan acceptera det förslag,
             </seg>
+          </u>
+          <pb n="94" facs="https://betalab.kb.se/prot-1939--fk--34/prot_1939__fk__34-094.jp2/_view"/>
+          <note type="date" n="830fd898">
+            Onsdagen den 31 maj 1939 e. m. Nr 34. 95
+          </note>
+          <u who="per_naslund_ffa1e7" xml:id="i-3cd3811fe58b35a1-2" prev="i-3cd3811fe58b35a1-0" n="3cd3811f">
             <seg n="58bc0f48">
               Ang. prisreglerande åtgärder på jordbrukets område. (Forts.)
               som utskottet här kommit med, under den förhoppning, att jordbruksutredningen
@@ -7850,14 +7971,10 @@
               till föreliggande utskottsutlåtande.
             </seg>
           </u>
-          <pb n="94" facs="https://betalab.kb.se/prot-1939--fk--34/prot_1939__fk__34-094.jp2/_view"/>
-          <note n="167ca526">
-            Onsdagen den 31 maj 1939 e. m. Nr 34. 95
-          </note>
           <note type="speaker" n="e91ef99b">
             Herr Velander:
           </note>
-          <u who="gustaf_velander_0b764b" xml:id="i-6a6eaf5aef7450fd-0" next="i-6ab8f14264b87e90-0" n="998e963c">
+          <u who="gustaf_velander_0b764b" xml:id="i-998e963cf32dc910-0" next="i-998e963cf32dc910-1" n="998e963c">
             <seg n="d658f749">
               Herr talman! I den pågående mycket omfattande debatten skall
               jag begränsa mig till några få ord beträffande ett spörsmål, som
@@ -7916,10 +8033,10 @@
             </seg>
           </u>
           <pb n="95" facs="https://betalab.kb.se/prot-1939--fk--34/prot_1939__fk__34-095.jp2/_view"/>
-          <note n="87808529">
+          <note type="date" n="20acd96b">
             96 Nr 34. Onsdagen den 31 maj 1939 e. m.
           </note>
-          <u who="gustaf_velander_0b764b" xml:id="i-6ab8f14264b87e90-0" prev="i-6a6eaf5aef7450fd-0" n="998e963c">
+          <u who="gustaf_velander_0b764b" xml:id="i-998e963cf32dc910-1" prev="i-998e963cf32dc910-0" n="998e963c">
             <seg n="3e4ccd17">
               Ang. prisreglerande åtgärder på jordbrukets område. (Forts.)
               hållas i fråga om i exportvaror ingående tullbelagda importvaror.&gt;
@@ -7970,7 +8087,7 @@
           <note type="speaker" n="eb26ef28">
             Herr Bondeson:
           </note>
-          <u who="lennart_bondeson_3298d1" xml:id="i-52d351bb3e69691c-0" next="i-7b44c0e87e0138c7-0" n="c867b121">
+          <u who="lennart_bondeson_3298d1" xml:id="i-c867b121c4955ad2-0" next="i-c867b121c4955ad2-3" n="c867b121">
             <seg n="73e7fd5e">
               Herr talman! Herr Andersson i Bussjö har här i kammaren dragit
               upp ett problem, som jag trodde, att vi utdebatterat inom utskottet.
@@ -7996,10 +8113,10 @@
             </seg>
           </u>
           <pb n="96" facs="https://betalab.kb.se/prot-1939--fk--34/prot_1939__fk__34-096.jp2/_view"/>
-          <note n="c9817753">
+          <note type="date" n="1c1be687">
             Onsdagen den 31 maj 1939 e. m. Nr 34. 97
           </note>
-          <u who="lennart_bondeson_3298d1" xml:id="i-7b44c0e87e0138c7-0" prev="i-52d351bb3e69691c-0" n="c867b121">
+          <u who="lennart_bondeson_3298d1" xml:id="i-c867b121c4955ad2-1" prev="i-c867b121c4955ad2-0" n="c867b121">
             <seg n="697a43c1">
               Ang. prisreglerande åtgärder på jordbrukets område. (Forts.)
             </seg>
@@ -8073,6 +8190,15 @@
               Är det kanske skolstyrelsen, som skall göra det, eller har man
               mån-
             </seg>
+          </u>
+          <note n="ce60e82f">
+            Första kammarens protokoll 1939. Nr 34. 7
+          </note>
+          <pb n="97" facs="https://betalab.kb.se/prot-1939--fk--34/prot_1939__fk__34-097.jp2/_view"/>
+          <note type="date" n="77d628a4">
+            98 Nr 34. Onsdagen den 31 maj 1939 e. m.
+          </note>
+          <u who="lennart_bondeson_3298d1" xml:id="i-c867b121c4955ad2-2" prev="i-c867b121c4955ad2-0" n="c867b121">
             <seg n="d1d5c8cc">
               Ang. prisreglerande åtgärder på jordbrukets område. (Forts.)
               ne tänkt sig att överlämna utdelandet av smöret till barnavårdsnämnden
@@ -8144,6 +8270,12 @@
               över lag måtte kunna få till stånd ett lika pris för vete och
               råg.
             </seg>
+          </u>
+          <pb n="98" facs="https://betalab.kb.se/prot-1939--fk--34/prot_1939__fk__34-098.jp2/_view"/>
+          <note type="date" n="896faf1d">
+            Onsdagen den 31 maj 1939 e. m. Nr 34. 99
+          </note>
+          <u who="lennart_bondeson_3298d1" xml:id="i-c867b121c4955ad2-3" prev="i-c867b121c4955ad2-0" n="c867b121">
             <seg n="cfac7354">
               "Ang. prisreglerande åtgärder på jordbrukets område. (Forts.)
             </seg>
@@ -8161,21 +8293,10 @@
               välvilliga åtanke.
             </seg>
           </u>
-          <note n="ce60e82f">
-            Första kammarens protokoll 1939. Nr 34. 7
-          </note>
-          <pb n="97" facs="https://betalab.kb.se/prot-1939--fk--34/prot_1939__fk__34-097.jp2/_view"/>
-          <note n="5f97e3a7">
-            98 Nr 34. Onsdagen den 31 maj 1939 e. m.
-          </note>
-          <pb n="98" facs="https://betalab.kb.se/prot-1939--fk--34/prot_1939__fk__34-098.jp2/_view"/>
-          <note n="6d08a448">
-            Onsdagen den 31 maj 1939 e. m. Nr 34. 99
-          </note>
           <note type="speaker" n="59741988">
             Herr Heiding:
           </note>
-          <u who="arthur_heiding_349301" xml:id="i-83eb7726971e4c24-0" next="i-fd7ecc7f83e20183-0" n="0e76c138">
+          <u who="arthur_heiding_349301" xml:id="i-0e76c138d92acb35-0" next="i-0e76c138d92acb35-5" n="0e76c138">
             <seg n="152658a3">
               Herr talman! Under den debatt, som förekommit här, har det talats
               mycket om mjölkregleringen och därmed sammanhängande spörsmål.
@@ -8236,10 +8357,10 @@
             </seg>
           </u>
           <pb n="99" facs="https://betalab.kb.se/prot-1939--fk--34/prot_1939__fk__34-099.jp2/_view"/>
-          <note n="2583ae56">
+          <note type="date" n="be985526">
             100 Nr 34. Onsdagen den 31 maj 1939 e. m.
           </note>
-          <u who="arthur_heiding_349301" xml:id="i-fd7ecc7f83e20183-0" prev="i-83eb7726971e4c24-0" n="0e76c138">
+          <u who="arthur_heiding_349301" xml:id="i-0e76c138d92acb35-1" prev="i-0e76c138d92acb35-0" n="0e76c138">
             <seg n="c4bd814d">
               Ang. prisreglerande åtgärder på jordbrukets område. (Forts.)
               per kilogram. Det är alldeles uppenbart, att detta förhållande
@@ -8310,6 +8431,12 @@
               de större jordbrukarna fått vidkännas mycket höga utgifter, som
               en
             </seg>
+          </u>
+          <pb n="100" facs="https://betalab.kb.se/prot-1939--fk--34/prot_1939__fk__34-100.jp2/_view"/>
+          <note type="date" n="be874d0a">
+            Onsdagen den 31 maj 1939 e. m. Nr 34. 101
+          </note>
+          <u who="arthur_heiding_349301" xml:id="i-0e76c138d92acb35-2" prev="i-0e76c138d92acb35-0" n="0e76c138">
             <seg n="6a71e95d">
               Ang. prisreglerande åtgärder på iordbrukets område. (Forts.)
               del av de mindre jordbrukarna kanske kunnat undgå genom att de
@@ -8382,6 +8509,12 @@
               mindre jordbrukarna större inkomster, blir det väl ingen annan
               råd än att vi måste minska margarintillverkningen,
             </seg>
+          </u>
+          <pb n="101" facs="https://betalab.kb.se/prot-1939--fk--34/prot_1939__fk__34-101.jp2/_view"/>
+          <note type="date" n="5149dc4e">
+            102 Nr 34. Onsdagen den 31 maj 1939 e. m.
+          </note>
+          <u who="arthur_heiding_349301" xml:id="i-0e76c138d92acb35-3" prev="i-0e76c138d92acb35-0" n="0e76c138">
             <seg n="db32a5f5">
               Ang. prisreglerande åtgärder på jordbrukets område. (Forts.)
               och för att kunna göra detta är det väl nödvändigt att vi vidtaga
@@ -8455,6 +8588,12 @@
               det kan få, och det har jag även skrivit 1 propositionen. Beträffande
               utredningen kan jag meddela herr Velander,
             </seg>
+          </u>
+          <pb n="102" facs="https://betalab.kb.se/prot-1939--fk--34/prot_1939__fk__34-102.jp2/_view"/>
+          <note type="date" n="8d0827a5">
+            Onsdagen den 31 maj 1939 e. m. Nr 34. 103
+          </note>
+          <u who="arthur_heiding_349301" xml:id="i-0e76c138d92acb35-4" prev="i-0e76c138d92acb35-0" n="0e76c138">
             <seg n="3b2f660d">
               Ang. prisreglerande åtgärder på jordbrukets område. (Forts.)
               att jag sagt till kommunikationsministern, att ingenting hindrar
@@ -8525,6 +8664,12 @@
               är den som bidragit till att det finnes kvar en så stor kvantitet,
               som inte hunnit absorberas och inte kan säljas i marknaden.
             </seg>
+          </u>
+          <pb n="103" facs="https://betalab.kb.se/prot-1939--fk--34/prot_1939__fk__34-103.jp2/_view"/>
+          <note type="date" n="8ec69082">
+            104 Nr 34. Onsdagen den 31 maj 1939 e. m.
+          </note>
+          <u who="arthur_heiding_349301" xml:id="i-0e76c138d92acb35-5" prev="i-0e76c138d92acb35-0" n="0e76c138">
             <seg n="697a43c1">
               Ang. prisreglerande åtgärder på jordbrukets område. (Forts.)
             </seg>
@@ -8549,26 +8694,10 @@
               bli något resultat av de pågående undersökningarna.
             </seg>
           </u>
-          <pb n="100" facs="https://betalab.kb.se/prot-1939--fk--34/prot_1939__fk__34-100.jp2/_view"/>
-          <note n="7eafed19">
-            Onsdagen den 31 maj 1939 e. m. Nr 34. 101
-          </note>
-          <pb n="101" facs="https://betalab.kb.se/prot-1939--fk--34/prot_1939__fk__34-101.jp2/_view"/>
-          <note n="6a57db8c">
-            102 Nr 34. Onsdagen den 31 maj 1939 e. m.
-          </note>
-          <pb n="102" facs="https://betalab.kb.se/prot-1939--fk--34/prot_1939__fk__34-102.jp2/_view"/>
-          <note n="819c5123">
-            Onsdagen den 31 maj 1939 e. m. Nr 34. 103
-          </note>
-          <pb n="103" facs="https://betalab.kb.se/prot-1939--fk--34/prot_1939__fk__34-103.jp2/_view"/>
-          <note n="d8ec71e1">
-            104 Nr 34. Onsdagen den 31 maj 1939 e. m.
-          </note>
           <note type="speaker" n="55eed073">
             Herr Domö:
           </note>
-          <u who="unknown" xml:id="i-9ee63ddb34f5b396-0" n="61fe32a5">
+          <u who="unknown" xml:id="i-61fe32a5fbe0601f-0" n="61fe32a5">
             <seg n="b99cba23">
               Herr talman! Jag hade verkligen inte tänkt uppträda i denna debatt.
               Skälen för utskottets ståndpunkt och för reservanternas ståndpunkt
@@ -8623,10 +8752,10 @@
             </seg>
           </u>
           <pb n="104" facs="https://betalab.kb.se/prot-1939--fk--34/prot_1939__fk__34-104.jp2/_view"/>
-          <note n="5179b6d7">
+          <note type="date" n="3f800a43">
             Onsdagen den 31 maj 1939 e. m. Nr 34. 105
           </note>
-          <u who="unknown" xml:id="i-4489de8dc90b2b51-0" n="61fe32a5">
+          <u who="unknown" xml:id="i-61fe32a5fbe0601f-1" n="61fe32a5">
             <seg n="d62d97ea">
               Ang. prisreglerande åtgärder på iordbrukets område. (Forts.)
               bruksutredningen, som gick längre än det kanske skulle ha gjort,
@@ -8701,6 +8830,12 @@
               gränsen oförändrad. TI det fallet har emellertid tillkommit den
               omständighe-
             </seg>
+          </u>
+          <pb n="105" facs="https://betalab.kb.se/prot-1939--fk--34/prot_1939__fk__34-105.jp2/_view"/>
+          <note type="date" n="ecc361b4">
+            106 Nr 34. Onsdagen den 31 maj 1939 e. m.
+          </note>
+          <u who="unknown" xml:id="i-61fe32a5fbe0601f-2" n="61fe32a5">
             <seg n="6e53186e">
               Ang. prisreglerande åtgärder på jordbrukets område. (Forts.)
               ten, att Jordbruksministern har höjt den smörprisgräns, som man
@@ -8773,6 +8908,12 @@
               i olika editioner — tänkte jag, att det måste föreligga en missuppfattning,
               att veder-
             </seg>
+          </u>
+          <pb n="106" facs="https://betalab.kb.se/prot-1939--fk--34/prot_1939__fk__34-106.jp2/_view"/>
+          <note type="date" n="8ccbc8e3">
+            Onsdagen den 31 maj 1939 e. m. Nr 34. 107
+          </note>
+          <u who="unknown" xml:id="i-61fe32a5fbe0601f-3" n="61fe32a5">
             <seg n="3b287778">
               Ang. prisreglerande åtgärder på jordbrukets område. (Forts.)
               börande skribent inte tänkt igenom saken ordentligt eller inte
@@ -8843,6 +8984,12 @@
               verkligt tråkig — det andra, det som rörde mig personligen, är
               en liten episod, som må
             </seg>
+          </u>
+          <pb n="107" facs="https://betalab.kb.se/prot-1939--fk--34/prot_1939__fk__34-107.jp2/_view"/>
+          <note type="date" n="e1d43613">
+            108 Nr 34. Onsdagen den 31 maj 1939 e. m.
+          </note>
+          <u who="unknown" xml:id="i-61fe32a5fbe0601f-4" n="61fe32a5">
             <seg n="697a43c1">
               Ang. prisreglerande åtgärder på jordbrukets område. (Forts.)
             </seg>
@@ -8888,22 +9035,10 @@
               jordbruket det bästa resultatet?
             </seg>
           </u>
-          <pb n="105" facs="https://betalab.kb.se/prot-1939--fk--34/prot_1939__fk__34-105.jp2/_view"/>
-          <note n="6ce2df3e">
-            106 Nr 34. Onsdagen den 31 maj 1939 e. m.
-          </note>
-          <pb n="106" facs="https://betalab.kb.se/prot-1939--fk--34/prot_1939__fk__34-106.jp2/_view"/>
-          <note n="eb696eb7">
-            Onsdagen den 31 maj 1939 e. m. Nr 34. 107
-          </note>
-          <pb n="107" facs="https://betalab.kb.se/prot-1939--fk--34/prot_1939__fk__34-107.jp2/_view"/>
-          <note n="fe96f6f6">
-            108 Nr 34. Onsdagen den 31 maj 1939 e. m.
-          </note>
           <note type="speaker" n="723d27d6">
             Herr Tjällgren:
           </note>
-          <u who="leonard_tjallgren_052905" xml:id="i-f0288145d3330b12-0" next="i-1e251c554184bbd4-0" n="10874a5c">
+          <u who="leonard_tjallgren_052905" xml:id="i-10874a5c74e62941-0" next="i-10874a5c74e62941-2" n="10874a5c">
             <seg n="fdb14911">
               Herr talman! Då jag deltagit i utskottsbehandlingen av föreliggande
               ärende och dessutom tillhör utskottets majoritet, är det klart,
@@ -8937,10 +9072,10 @@
             </seg>
           </u>
           <pb n="108" facs="https://betalab.kb.se/prot-1939--fk--34/prot_1939__fk__34-108.jp2/_view"/>
-          <note n="342a3346">
+          <note type="date" n="372355f3">
             Onsdagen den 31 maj 1939 e. m. Nr 34. 109
           </note>
-          <u who="leonard_tjallgren_052905" xml:id="i-1e251c554184bbd4-0" prev="i-f0288145d3330b12-0" n="10874a5c">
+          <u who="leonard_tjallgren_052905" xml:id="i-10874a5c74e62941-1" prev="i-10874a5c74e62941-0" n="10874a5c">
             <seg n="d6a63913">
               Ang. prisreglerande åtgärder på jordbrukets område. (Forts.)
               slås i syfte att, såsom det står i utlåtandet, »bereda det mindre
@@ -9013,6 +9148,12 @@
               del motioner, som framförts här i riksdagen just beträffande åtgärderna
               för jordbrukets stödjande. Jag skulle tro, att hur långt
             </seg>
+          </u>
+          <pb n="109" facs="https://betalab.kb.se/prot-1939--fk--34/prot_1939__fk__34-109.jp2/_view"/>
+          <note type="date" n="503ebe2a">
+            110 Nr 34. Onsdagen den 31 maj 1939 e. m.
+          </note>
+          <u who="leonard_tjallgren_052905" xml:id="i-10874a5c74e62941-2" prev="i-10874a5c74e62941-0" n="10874a5c">
             <seg n="ebdc0876">
               Ang. prisreglerande åtgärder på jordbrukets område. (Forts.)
               Kungl. Maj:t än ginge i sina förslag, skulle det alltid komma
@@ -9024,14 +9165,10 @@
               till utskottets förslag.
             </seg>
           </u>
-          <pb n="109" facs="https://betalab.kb.se/prot-1939--fk--34/prot_1939__fk__34-109.jp2/_view"/>
-          <note n="91072c5d">
-            110 Nr 34. Onsdagen den 31 maj 1939 e. m.
-          </note>
           <note type="speaker" n="280b67bb">
             Herr von Heland:
           </note>
-          <u who="erik_von_heland_1636c2" xml:id="i-75f776b892db4cae-1" next="i-0fe5ee5d7e4c0432-1" n="857900c8">
+          <u who="erik_von_heland_1636c2" xml:id="i-857900c86c6d5aaf-3" next="i-857900c86c6d5aaf-5" n="857900c8">
             <seg n="254925de">
               Herr talman! Jordbruksministern har redan i det väsentliga bemött
               herr Björnsson, men jag kan inte underlåta att även i år gendriva
@@ -9099,10 +9236,10 @@
             </seg>
           </u>
           <pb n="110" facs="https://betalab.kb.se/prot-1939--fk--34/prot_1939__fk__34-110.jp2/_view"/>
-          <note n="c3193689">
+          <note type="date" n="09e67f61">
             Onsdagen den 31 maj 1939 e. m. Nr 34. 111
           </note>
-          <u who="erik_von_heland_1636c2" xml:id="i-0fe5ee5d7e4c0432-1" prev="i-75f776b892db4cae-1" n="857900c8">
+          <u who="erik_von_heland_1636c2" xml:id="i-857900c86c6d5aaf-4" prev="i-857900c86c6d5aaf-3" n="857900c8">
             <seg n="044e275c">
               Ang. prisreglerande åtgärder på jordbrukets område. (Forts.)
               säde av havre är billig, och arbetskraftskostnaden, den fasta
@@ -9174,6 +9311,12 @@
               undrar om man kan säga detta. Gälla inte alla de olika näringsfrågorna
               en avvägning av intressena
             </seg>
+          </u>
+          <pb n="111" facs="https://betalab.kb.se/prot-1939--fk--34/prot_1939__fk__34-111.jp2/_view"/>
+          <note type="date" n="9b8ae2f7">
+            112 Nr 34. Onsdagen den 31 maj 1939 e. m.
+          </note>
+          <u who="erik_von_heland_1636c2" xml:id="i-857900c86c6d5aaf-5" prev="i-857900c86c6d5aaf-3" n="857900c8">
             <seg n="3f2aafd1">
               Ang. prisreglerande åtgärder på jordbrukets område. (Forts.)
               mellan olika samhällsgrupper? Varför skall man då inte i samband
@@ -9205,14 +9348,10 @@
               velat opponera mig mot vissa av hans påståenden.
             </seg>
           </u>
-          <pb n="111" facs="https://betalab.kb.se/prot-1939--fk--34/prot_1939__fk__34-111.jp2/_view"/>
-          <note n="583a1be2">
-            112 Nr 34. Onsdagen den 31 maj 1939 e. m.
-          </note>
           <note type="speaker" n="8d4a902f">
             Herr Mannerskantz:
           </note>
-          <u who="axel_mannerskantz_51eb6d" xml:id="i-9f704f9c4251e116-2" next="i-f5eb2e76d25f7c9a-2" n="c7efe077">
+          <u who="axel_mannerskantz_51eb6d" xml:id="i-c7efe077517764f0-11" next="i-c7efe077517764f0-13" n="c7efe077">
             <seg n="1a175bba">
               Herr talman! Det är närmast för att bemöta några saker, som herr
               Björnsson sade, som jag har tagit till orda, och därvidlag vill
@@ -9255,10 +9394,10 @@
             </seg>
           </u>
           <pb n="112" facs="https://betalab.kb.se/prot-1939--fk--34/prot_1939__fk__34-112.jp2/_view"/>
-          <note n="880fdd27">
+          <note type="date" n="abf9d267">
             Onsdagen den 31 maj 1939 e. m. Nr 34. 113
           </note>
-          <u who="axel_mannerskantz_51eb6d" xml:id="i-f5eb2e76d25f7c9a-2" prev="i-9f704f9c4251e116-2" n="c7efe077">
+          <u who="axel_mannerskantz_51eb6d" xml:id="i-c7efe077517764f0-12" prev="i-c7efe077517764f0-11" n="c7efe077">
             <seg n="31dc40b6">
               Ang. prisreglerande åtgärder på jordbrukets område. (Forts.)
               den mjölken, om det går 25 kilogram mjölk på varje kilogram smör.
@@ -9330,6 +9469,15 @@
               även av den rena jordbruksproduktionen. Nöden driver dem till
               att förbättra
             </seg>
+          </u>
+          <note n="bb415872">
+            Första kammarens protokoll 1939. Nr 34. 8
+          </note>
+          <pb n="113" facs="https://betalab.kb.se/prot-1939--fk--34/prot_1939__fk__34-113.jp2/_view"/>
+          <note type="date" n="22b8a513">
+            114 Nr 34. Onsdagen den 31 maj 1939 e. m.
+          </note>
+          <u who="axel_mannerskantz_51eb6d" xml:id="i-c7efe077517764f0-13" prev="i-c7efe077517764f0-11" n="c7efe077">
             <seg n="694ec9ee">
               Ang. prisreglerande åtgärder på jordbrukets område. (Forts.)
               och öka ut sin produktion lika väl som ett högre pris givetvis
@@ -9381,17 +9529,10 @@
               att några göra detta.
             </seg>
           </u>
-          <note n="bb415872">
-            Första kammarens protokoll 1939. Nr 34. 8
-          </note>
-          <pb n="113" facs="https://betalab.kb.se/prot-1939--fk--34/prot_1939__fk__34-113.jp2/_view"/>
-          <note n="3bc5aa07">
-            114 Nr 34. Onsdagen den 31 maj 1939 e. m.
-          </note>
           <note type="speaker" n="4419faf0">
             Herr Nisser:
           </note>
-          <u who="william_nisser_5710aa" xml:id="i-202b8d86bd605561-0" next="i-cb0350aa5168aadf-0" n="96c006a6">
+          <u who="william_nisser_5710aa" xml:id="i-96c006a6c99ffb11-0" next="i-96c006a6c99ffb11-1" n="96c006a6">
             <seg n="1f8ed9e1">
               Herr talman! Herrar von Heland och Tjällgren ha redan citerat
               vad utskottet har uttalat rörande den föreslagna importavgiften
@@ -9418,10 +9559,10 @@
             </seg>
           </u>
           <pb n="114" facs="https://betalab.kb.se/prot-1939--fk--34/prot_1939__fk__34-114.jp2/_view"/>
-          <note n="63fd856d">
+          <note type="date" n="f623b3e8">
             Onsdagen den 31 maj 1939 e. m. Nr 34. 115
           </note>
-          <u who="william_nisser_5710aa" xml:id="i-cb0350aa5168aadf-0" prev="i-202b8d86bd605561-0" n="96c006a6">
+          <u who="william_nisser_5710aa" xml:id="i-96c006a6c99ffb11-1" prev="i-96c006a6c99ffb11-0" n="96c006a6">
             <seg n="223eb18c">
               Ang. prisreglerande åtgärder på jordbrukets område. (Forts.)
               synnerligen stor vikt, att man får en jämn tillförsel av en alltid
@@ -9448,7 +9589,7 @@
           <note type="speaker" n="5cd72987">
             Herr Andersson, Elon:
           </note>
-          <u who="verner_andersson_b457ce" xml:id="i-fefc0f990a30ef41-1" next="i-4723d678b8d09d6e-1" n="6cb62110">
+          <u who="verner_andersson_b457ce" xml:id="i-6cb62110592383c7-4" next="i-6cb62110592383c7-5" n="6cb62110">
             <seg n="8b8055dc">
               Herr talman! Jag tänker inte tala om utskottets förslag i dess
               helhet. Jag har biträtt detsamma med den förutsättningen, att
@@ -9501,10 +9642,10 @@
             </seg>
           </u>
           <pb n="115" facs="https://betalab.kb.se/prot-1939--fk--34/prot_1939__fk__34-115.jp2/_view"/>
-          <note n="2736345a">
+          <note type="date" n="e90e88a6">
             116 Nr 34. Onsdagen den 31 maj 1939 e. m.
           </note>
-          <u who="verner_andersson_b457ce" xml:id="i-4723d678b8d09d6e-1" prev="i-fefc0f990a30ef41-1" n="6cb62110">
+          <u who="verner_andersson_b457ce" xml:id="i-6cb62110592383c7-5" prev="i-6cb62110592383c7-4" n="6cb62110">
             <seg n="f1608c0a">
               Ang. prisreglerande åtgärder på jordbrukets område. (Forts.)
               provisoriet gälla den tid, för vilken det beslöts, och inte förlänga
@@ -9555,7 +9696,7 @@
           <note type="speaker" n="15ee9dbb">
             Herr Andersson, Alfred:
           </note>
-          <u who="verner_andersson_b457ce" xml:id="i-fefc0f990a30ef41-2" next="i-4723d678b8d09d6e-2" n="6cb62110">
+          <u who="verner_andersson_b457ce" xml:id="i-6cb62110592383c7-6" next="i-6cb62110592383c7-8" n="6cb62110">
             <seg n="cfa5fbbe">
               Herr talman! När jag i mitt första anförande talade om det stora
               antalet svin, på de stora jordbruken nere i Skåne — det var ju
@@ -9581,10 +9722,10 @@
             </seg>
           </u>
           <pb n="116" facs="https://betalab.kb.se/prot-1939--fk--34/prot_1939__fk__34-116.jp2/_view"/>
-          <note n="35a5d66f">
+          <note type="date" n="ca804895">
             Onsdagen den 31 maj 1939 e. m. Nr 34. 117
           </note>
-          <u who="verner_andersson_b457ce" xml:id="i-4723d678b8d09d6e-2" prev="i-fefc0f990a30ef41-2" n="6cb62110">
+          <u who="verner_andersson_b457ce" xml:id="i-6cb62110592383c7-7" prev="i-6cb62110592383c7-6" n="6cb62110">
             <seg n="ec24a3ce">
               Ang. prisreglerande åtgärder på jordbrukets område. (Forts.)
               tionen, finns ingen anledning för de små att göra det. De tro
@@ -9657,6 +9798,12 @@
               I varje hushåll på landet föder man ju upp en hushållsgris. Består
               hushållet
             </seg>
+          </u>
+          <pb n="117" facs="https://betalab.kb.se/prot-1939--fk--34/prot_1939__fk__34-117.jp2/_view"/>
+          <note type="date" n="7f4ae632">
+            118 Nr 34. Onsdagen den 31 maj 1939 e. m.
+          </note>
+          <u who="verner_andersson_b457ce" xml:id="i-6cb62110592383c7-8" prev="i-6cb62110592383c7-6" n="6cb62110">
             <seg n="b0471aa3">
               Ång. prisreglerande åtgärder på jordbrukets område. (Forts.)
               inte av fler än två personer, kan det räcka med en gris, om han
@@ -9723,14 +9870,10 @@
               i stället förädla sin foderproduktion till animaliska produkter.
             </seg>
           </u>
-          <pb n="117" facs="https://betalab.kb.se/prot-1939--fk--34/prot_1939__fk__34-117.jp2/_view"/>
-          <note n="9b662cdc">
-            118 Nr 34. Onsdagen den 31 maj 1939 e. m.
-          </note>
           <note type="speaker" n="d1c58453">
             Herr Björnsson:
           </note>
-          <u who="edvard_bjornsson_4f4f58" xml:id="i-604bac213e18aa1b-1" next="i-f2f2408d4a8851c4-1" n="4ac7b9de">
+          <u who="edvard_bjornsson_4f4f58" xml:id="i-4ac7b9def231ab4d-9" next="i-4ac7b9def231ab4d-12" n="4ac7b9de">
             <seg n="37bffe07">
               Herr talman! Jag blev verkligen mycket förvånad, när Jag hörde
               herr Bondeson rekommendera det högre stödköpspriset för råg av
@@ -9739,10 +9882,10 @@
             </seg>
           </u>
           <pb n="118" facs="https://betalab.kb.se/prot-1939--fk--34/prot_1939__fk__34-118.jp2/_view"/>
-          <note n="43743e69">
+          <note type="date" n="4a0660aa">
             Onsdagen den 31 maj 1939 e. m. Nr 34. 119
           </note>
-          <u who="edvard_bjornsson_4f4f58" xml:id="i-f2f2408d4a8851c4-1" prev="i-604bac213e18aa1b-1" n="4ac7b9de">
+          <u who="edvard_bjornsson_4f4f58" xml:id="i-4ac7b9def231ab4d-10" prev="i-4ac7b9def231ab4d-9" n="4ac7b9de">
             <seg n="f6692b04">
               Ang. prisreglerande åtgärder på jordbrukets område. (Forts.)
               bästa sättet att få upp priset på råg är väl, att det blir en
@@ -9816,6 +9959,12 @@
               har herr von Heland missförstått mig. Det parti jag tillhör beskylles
               av viss borgerlig press alltid för att uppamma un-
             </seg>
+          </u>
+          <pb n="119" facs="https://betalab.kb.se/prot-1939--fk--34/prot_1939__fk__34-119.jp2/_view"/>
+          <note type="date" n="662d1457">
+            120 Nr 34. Onsdagen den 31 maj 1939 e. m.
+          </note>
+          <u who="edvard_bjornsson_4f4f58" xml:id="i-4ac7b9def231ab4d-11" prev="i-4ac7b9def231ab4d-9" n="4ac7b9de">
             <seg n="e3c60836">
               Ang. prisreglerande åtgärder på jordbrukets område. (Forts.)
               derstödstagarandan i alla dess former. Då säger jag: jag begriper
@@ -9887,6 +10036,12 @@
               innebär, att intressenterna i denna jordbruksreglering visa så
               stor återhållsamhet som över-
             </seg>
+          </u>
+          <pb n="120" facs="https://betalab.kb.se/prot-1939--fk--34/prot_1939__fk__34-120.jp2/_view"/>
+          <note type="date" n="7cf03ea1">
+            Onsdagen den 31 maj 1939 e. m. Nr 34. 121
+          </note>
+          <u who="edvard_bjornsson_4f4f58" xml:id="i-4ac7b9def231ab4d-12" prev="i-4ac7b9def231ab4d-9" n="4ac7b9de">
             <seg n="3b761fbd">
               Ang. prisreglerande åtgärder på jordbrukets område. (Forts.)
               huvud taget är möjligt. Jag tror det räcker, om man sätter ett
@@ -9923,18 +10078,10 @@
               Herr talman! Jag har endast velat lämna dessa repliker.
             </seg>
           </u>
-          <pb n="119" facs="https://betalab.kb.se/prot-1939--fk--34/prot_1939__fk__34-119.jp2/_view"/>
-          <note n="83ad1e26">
-            120 Nr 34. Onsdagen den 31 maj 1939 e. m.
-          </note>
-          <pb n="120" facs="https://betalab.kb.se/prot-1939--fk--34/prot_1939__fk__34-120.jp2/_view"/>
-          <note n="72e09429">
-            Onsdagen den 31 maj 1939 e. m. Nr 34. 121
-          </note>
           <note type="speaker" n="eb26ef28">
             Herr Bondeson:
           </note>
-          <u who="lennart_bondeson_3298d1" xml:id="i-52d351bb3e69691c-1" next="i-7b44c0e87e0138c7-1" n="c867b121">
+          <u who="lennart_bondeson_3298d1" xml:id="i-c867b121c4955ad2-4" next="i-c867b121c4955ad2-5" n="c867b121">
             <seg n="8f4569e6">
               Herr talman! Endast ett par ord vid denna sena timme till bemötande
               av herr Björnsson.
@@ -9977,10 +10124,10 @@
             </seg>
           </u>
           <pb n="121" facs="https://betalab.kb.se/prot-1939--fk--34/prot_1939__fk__34-121.jp2/_view"/>
-          <note n="1e41abfc">
+          <note type="date" n="e7ebee69">
             122 Nr 34. Onsdagen den 31 maj 1939 e. m.
           </note>
-          <u who="lennart_bondeson_3298d1" xml:id="i-7b44c0e87e0138c7-1" prev="i-52d351bb3e69691c-1" n="c867b121">
+          <u who="lennart_bondeson_3298d1" xml:id="i-c867b121c4955ad2-5" prev="i-c867b121c4955ad2-4" n="c867b121">
             <seg n="18ad9385">
               Ang. prisreglerande åtgärder på jordbrukets område. (Forts.)
               avgift på kaseinet. Jag vill därför inte såsom jordbrukare uraktlåta
@@ -10009,7 +10156,7 @@
           <note type="speaker" n="15ee9dbb">
             Herr Andersson, Alfred:
           </note>
-          <u who="verner_andersson_b457ce" xml:id="i-fefc0f990a30ef41-3" next="i-4723d678b8d09d6e-3" n="6cb62110">
+          <u who="verner_andersson_b457ce" xml:id="i-6cb62110592383c7-9" next="i-6cb62110592383c7-12" n="6cb62110">
             <seg n="08c842ee">
               Herr talman! Jag beklagar att herr Bondeson missuppfattade mig
               i fråga om svinuppfödningen. Jag nämnde i själva verket ingenting
@@ -10061,7 +10208,7 @@
             sig anse denna proposition vara med övervägande ja besvarad.
           </note>
           <pb n="122" facs="https://betalab.kb.se/prot-1939--fk--34/prot_1939__fk__34-122.jp2/_view"/>
-          <note n="8a8362c2">
+          <note type="date" n="cbcd6c67">
             Onsdagen den 31 maj 1939 e. m. Nr 34. 123
           </note>
           <note n="1bbbf3f2">
@@ -10123,13 +10270,7 @@
             hemställt i sitt utlåtande nr 2 punkten C, såvitt angår motionerna
             I: 221 och II: 342, röstar
           </note>
-          <u who="verner_andersson_b457ce" xml:id="i-4723d678b8d09d6e-3" prev="i-fefc0f990a30ef41-3" n="6cb62110">
-            <seg n="e19f084b">
-              Ja;
-            </seg>
-            <seg n="697a43c1">
-              Ang. prisreglerande åtgärder på jordbrukets område. (Forts.)
-            </seg>
+          <u who="verner_andersson_b457ce" xml:id="i-6cb62110592383c7-10" prev="i-6cb62110592383c7-9" n="6cb62110">
             <seg n="e19f084b">
               Ja;
             </seg>
@@ -10164,9 +10305,14 @@
             att rösta.
           </note>
           <pb n="123" facs="https://betalab.kb.se/prot-1939--fk--34/prot_1939__fk__34-123.jp2/_view"/>
-          <note n="1416a9a5">
+          <note type="date" n="d1507a9b">
             124 Nr 34. Onsdagen den 31 maj 1939 e. m.
           </note>
+          <u who="verner_andersson_b457ce" xml:id="i-6cb62110592383c7-11" prev="i-6cb62110592383c7-9" n="6cb62110">
+            <seg n="697a43c1">
+              Ang. prisreglerande åtgärder på jordbrukets område. (Forts.)
+            </seg>
+          </u>
           <note n="9269893d">
             Sedermera gjordes i enlighet med de yrkanden, som framställts
             i fråga om utskottets hemställan i punkten C, i vad den avsåg
@@ -10201,6 +10347,11 @@
             Den, som godkänner motiveringen i sammansatta bevillningsoch
             jordbruksutskottets utlåtande nr 2, röstar
           </note>
+          <u who="verner_andersson_b457ce" xml:id="i-6cb62110592383c7-12" prev="i-6cb62110592383c7-9" n="6cb62110">
+            <seg n="e19f084b">
+              Ja;
+            </seg>
+          </u>
           <note n="88346375">
             Nej; Vinner Nej, godkännes motiveringen med den ändring, som
             förordats i den av herr Elon Andersson m. fl. därom anförda reservationen.
@@ -10244,7 +10395,7 @@
             för riksdagens fullmäktige i nämnda bank; samt
           </note>
           <pb n="124" facs="https://betalab.kb.se/prot-1939--fk--34/prot_1939__fk__34-124.jp2/_view"/>
-          <note n="b8e98c1e">
+          <note type="date" n="74d93f15">
             Onsdagen den 31 maj 1939 e. m. Nr 34. 125
           </note>
           <note n="832971b5">

@@ -20,7 +20,7 @@
     <encodingDesc>
       <editorialDecl>
         <correction>
-          <p>Some data curation was done. It is documented in db/curation/instances</p>
+          <p>Some data curation was done. It is documented in input/curation/instances</p>
         </correction>
       </editorialDecl>
     </encodingDesc>
@@ -52,17 +52,19 @@
       <front>
         <div type="preface">
           <head>prot-1945--ak--27</head>
-          <docDate when="1945">1945</docDate>
+          <docDate when="1943-06-09">1943-06-09</docDate>
+          <docDate when="1945-06-09">1945-06-09</docDate>
         </div>
       </front>
       <body>
         <div>
+          <pb n="0" facs="https://betalab.kb.se/prot-1945--ak--27/prot_1945__ak__27-000.jp2/_view"/>
           <note n="51363d2d">
             RIKSDAGENS PROTOKOLL. 1945. Andra kammaren. Nr 27.
           </note>
           <note n="01f69ddb"/>
           <note n="01f69ddb"/>
-          <note n="69416201">
+          <note type="date" n="993197c6">
             Lördagen den 9 juni. Kl. 11 fm.
           </note>
           <note n="39a0a4e9">
@@ -71,7 +73,7 @@
           <note type="speaker" n="a58be1f5">
             Herr statsrådet Rubbestad, som anförde:
           </note>
-          <u who="axel_rubbestad_10eaa5" xml:id="i-e6e4fb3303090c43-0" n="92043925">
+          <u who="axel_rubbestad_10eaa5" xml:id="i-92043925a735f7b6-0" n="92043925">
             <seg n="32200ff3">
               Herr talman! Med kammarens medgivande har herr Skoglund i Umeå
               frågat mig, om jag anser möjlighet föreligga för en sänkning av
@@ -103,7 +105,7 @@
           <note type="speaker" n="0233df22">
             Herr Skocelund i Umeå:
           </note>
-          <u who="unknown" xml:id="i-52f235572faf1420-0" n="f039916d">
+          <u who="unknown" xml:id="i-f039916d32387e3c-0" n="f039916d">
             <seg n="19191e8a">
               Herr talman! Jag ber att till statsrådet Rubbestad få framföra
               mitt tack för det svar, som nu lämnats på den av mig framställda
@@ -141,10 +143,10 @@
           <note n="77cf1da0">
             Svar på interpellation.
           </note>
-          <note n="67c2264d">
+          <note type="date" n="c77dba48">
             2 Nr 27. Lördagen den 9 juni 1945.
           </note>
-          <u who="unknown" xml:id="i-9ea3a511625e5acb-0" n="f039916d">
+          <u who="unknown" xml:id="i-f039916d32387e3c-1" n="f039916d">
             <seg n="56df6a0f">
               Svar på interpellation. (Forts.) som jag — inom parentes sagt
               — tror i sin nuvarande form nog i viss utsträckning missgynnar
@@ -199,7 +201,7 @@
           <note type="speaker" n="52e86aed">
             Herr statsrådet Rubbestad:
           </note>
-          <u who="axel_rubbestad_10eaa5" xml:id="i-e6e4fb3303090c43-1" n="92043925">
+          <u who="axel_rubbestad_10eaa5" xml:id="i-92043925a735f7b6-1" n="92043925">
             <seg n="b6add5d8">
               Herr talman! Jag vill bara svara på den fråga, som interpellanten
               framställde till mig, om jag är intresserad av att försöka få
@@ -223,20 +225,20 @@
             Chefen för försvarsdepartementet, herr statsrådet Sköld erhöll
             på begäran ordet och yttrade:
           </note>
-          <u who="per_edvin_skold_6a20fa" xml:id="i-7d8937cd6015498c-0" next="i-0ecbca19ba9e88f9-0" n="2d1a77fa">
+          <u who="per_edvin_skold_6a20fa" xml:id="i-2d1a77fa79406894-0" next="i-2d1a77fa79406894-4" n="2d1a77fa">
             <seg n="f8d8cc35">
               Herr talman! Med andra kammarens tillstånd har herr Håstad till
               mig framställt följande interpellation:
             </seg>
           </u>
           <pb n="2" facs="https://betalab.kb.se/prot-1945--ak--27/prot_1945__ak__27-002.jp2/_view"/>
-          <note n="80b5ee67">
+          <note type="date" n="b3d99d40">
             Lördagen den 9 juni 1945. Nr 27. 3
           </note>
           <note n="5836a489">
             Svar på interpellation. (Forts.)
           </note>
-          <u who="per_edvin_skold_6a20fa" xml:id="i-0ecbca19ba9e88f9-0" prev="i-7d8937cd6015498c-0" n="2d1a77fa">
+          <u who="per_edvin_skold_6a20fa" xml:id="i-2d1a77fa79406894-1" prev="i-2d1a77fa79406894-0" n="2d1a77fa">
             <seg n="2de98a40">
               Är det statsrådets uppfattning att de hastigt utfärdade bestämmelserna
               angående hemförlovning av frivilligt tjänstgörande militär personal
@@ -247,6 +249,21 @@
             <seg n="9238ca47">
               På denna fråga lämnar jag följande svar.
             </seg>
+          </u>
+          <note n="ae8ae639">
+            Frågor om inkallelse och hempermittering av beredskapsförband
+            avgöras enligt lämnat bemyndigande av överbefälhavaren. Viktigare
+            dylika frågor handläggas dock i samråd med försvarsministern och
+            underställas allt efter sin betydelse regeringens bedömande. Den
+            hemförlovning av frivilligt tjänstgörande militär personal och
+            krigsfrivilliga som i interpellationen avses föranleddes av en
+            högkvartersorder, utfärdad den 8 maj efter samråd med mig och
+            i överensstämmelse med regeringens mening. Ordern innebar att
+            flertalet luftbevakningsoch luftvärnsförband skulle utgå ur beredskapen
+            och personalen hempermitteras från och med den 19 maj i I. militärområdet
+            och från och med den 15 maj i de övriga.
+          </note>
+          <u who="per_edvin_skold_6a20fa" xml:id="i-2d1a77fa79406894-2" prev="i-2d1a77fa79406894-0" n="2d1a77fa">
             <seg n="1b073a2c">
               Krigsslutet kom väl i viss mån överraskande för alla. Att avvecklingen
               av beredskapen skulle kunna inledas så hastigt som nu blev fallet
@@ -276,6 +293,58 @@
               genom arméorder den 9 maj, alltså dagen efter högkvartersordern
               om beredskapens hävande i dessa delar.
             </seg>
+          </u>
+          <note n="f1d97007">
+            Emellertid fann man snart att arbetsuppgifter icke stodo till
+            buds i sådan omfattning att personalen skulle få tillräckligt
+            rådrum, särskilt icke kvinnlig personal. Att meddela bestämmelser
+            om personalens kvarhållande ehuru den icke kunde erhålla arbete
+            funno sig de militära myndigheterna med hänsyn till de ekonomiska
+            konsekvenserna icke kunna taga på sitt ansvar. Härutinnan erfordrades
+            beslut av Kungl. Maj:t. I detta läge ingavs efter samråd med mig
+            från överbefälhavaren en framställning till Kunel. Maj:t av innebörd,
+            att personalen skulle erhålla rätt till ledighet med bibehållna
+            förmåner till den 29 maj respektive den 2 juni, alltså under 14
+            dagar. Motsvarande förmån skulle tillkomma dem som på grund av
+            avvecklingsarbetet först senare kunde entledigas. Denna framställning
+            bifölls i konselj den 11 maj på så sätt att cheferna för armén
+            och marinen bemyndigades att meddela bestämmelser i ämnet i huvuadsaklig
+            överensstämmelse med det ingivna förslaget. Då det emellertid
+            var att förutse att motsvarande spörsmål inom kort skulle uppkomma
+            även annorstädes, utvidgades genom samma beslut bemyndigandet
+            till att gälla jämväl
+          </note>
+          <pb n="3" facs="https://betalab.kb.se/prot-1945--ak--27/prot_1945__ak__27-003.jp2/_view"/>
+          <note n="1e912d19">
+            Ha
+          </note>
+          <note type="date" n="f50019ce">
+            Nr 27. Lördagen den 9 juni 1945.
+          </note>
+          <note n="d8e01f47">
+            Svar på interpellation. (Forts.) andra förband och kategorier
+            av anställda än som i överbefälhavarens framställning avsetts.
+            Med stöd av detta bemyndigande, vilket expedierades ett par dagar
+            senare, utfärdades bestämmelser i ämnet genom arméorder den 13
+            och 16 maj samt genom meddelande från marinchefen den 15 maj och
+            marinorder den 22 maj.
+          </note>
+          <note n="9d72cf87">
+            Genom dessa bestämmelser har personalen bringats i ungefär samma
+            läge som vid avslutande av civil arbetsanställning. Det är härvid
+            att märka att pergonal med försörjningsplikt får — utöver ifrågavarande
+            ledighet med bibehållna förmåner — enligt krigsfamiljeförfattningarna
+            fortsättningsvis behålla eventuellt utgående familjebidrag under
+            ytterligare någon tid. Sålunda utgår familjepenning m. m. under
+            ytterligare fem dagar efter de 14 dagarnas utgång, och på särskild
+            ansökan och efter behovsprövning kan familjepenning m. m. därutöver
+            få behållas under ytterligare 20 dagar eller, om det gäller bostadsbidrag,
+            under ytterligare 30 dagar. Bestämmelserna innebära härjämte att
+            den personal, som så önskar och kan beredas arbete, skall få kvarstanna
+            för att utföra detta arbete med rätt att efter tjänstgöringens
+            slut behålla de angivna förmånerna.
+          </note>
+          <u who="per_edvin_skold_6a20fa" xml:id="i-2d1a77fa79406894-3" prev="i-2d1a77fa79406894-0" n="2d1a77fa">
             <seg n="564fd33e">
               Bestämmelserna avse i huvudsak endast personal, som sedan den
               1 januari 1945 varit i oavbruten tjänst, alltså icke personal
@@ -325,6 +394,12 @@
               Givetvis kan klandras att avvecklingsbestämmelser för ifrågavarande
               fall
             </seg>
+          </u>
+          <pb n="4" facs="https://betalab.kb.se/prot-1945--ak--27/prot_1945__ak__27-004.jp2/_view"/>
+          <note type="date" n="cff35976">
+            Lördagen den 9 juni 1945. Nr 27. 5
+          </note>
+          <u who="per_edvin_skold_6a20fa" xml:id="i-2d1a77fa79406894-4" prev="i-2d1a77fa79406894-0" n="2d1a77fa">
             <seg n="fdbc4794">
               Svar på interpellation. (Forts.) icke i förväg varit utfärdade,
               vilket lett till att en del av personalen under ett par dagar
@@ -341,80 +416,13 @@
               efter ett nytt läge.
             </seg>
           </u>
-          <note n="ae8ae639">
-            Frågor om inkallelse och hempermittering av beredskapsförband
-            avgöras enligt lämnat bemyndigande av överbefälhavaren. Viktigare
-            dylika frågor handläggas dock i samråd med försvarsministern och
-            underställas allt efter sin betydelse regeringens bedömande. Den
-            hemförlovning av frivilligt tjänstgörande militär personal och
-            krigsfrivilliga som i interpellationen avses föranleddes av en
-            högkvartersorder, utfärdad den 8 maj efter samråd med mig och
-            i överensstämmelse med regeringens mening. Ordern innebar att
-            flertalet luftbevakningsoch luftvärnsförband skulle utgå ur beredskapen
-            och personalen hempermitteras från och med den 19 maj i I. militärområdet
-            och från och med den 15 maj i de övriga.
-          </note>
-          <note n="f1d97007">
-            Emellertid fann man snart att arbetsuppgifter icke stodo till
-            buds i sådan omfattning att personalen skulle få tillräckligt
-            rådrum, särskilt icke kvinnlig personal. Att meddela bestämmelser
-            om personalens kvarhållande ehuru den icke kunde erhålla arbete
-            funno sig de militära myndigheterna med hänsyn till de ekonomiska
-            konsekvenserna icke kunna taga på sitt ansvar. Härutinnan erfordrades
-            beslut av Kungl. Maj:t. I detta läge ingavs efter samråd med mig
-            från överbefälhavaren en framställning till Kunel. Maj:t av innebörd,
-            att personalen skulle erhålla rätt till ledighet med bibehållna
-            förmåner till den 29 maj respektive den 2 juni, alltså under 14
-            dagar. Motsvarande förmån skulle tillkomma dem som på grund av
-            avvecklingsarbetet först senare kunde entledigas. Denna framställning
-            bifölls i konselj den 11 maj på så sätt att cheferna för armén
-            och marinen bemyndigades att meddela bestämmelser i ämnet i huvuadsaklig
-            överensstämmelse med det ingivna förslaget. Då det emellertid
-            var att förutse att motsvarande spörsmål inom kort skulle uppkomma
-            även annorstädes, utvidgades genom samma beslut bemyndigandet
-            till att gälla jämväl
-          </note>
-          <pb n="3" facs="https://betalab.kb.se/prot-1945--ak--27/prot_1945__ak__27-003.jp2/_view"/>
-          <note n="1e912d19">
-            Ha
-          </note>
-          <note n="60e13725">
-            Nr 27. Lördagen den 9 juni 1945.
-          </note>
-          <note n="d8e01f47">
-            Svar på interpellation. (Forts.) andra förband och kategorier
-            av anställda än som i överbefälhavarens framställning avsetts.
-            Med stöd av detta bemyndigande, vilket expedierades ett par dagar
-            senare, utfärdades bestämmelser i ämnet genom arméorder den 13
-            och 16 maj samt genom meddelande från marinchefen den 15 maj och
-            marinorder den 22 maj.
-          </note>
-          <note n="9d72cf87">
-            Genom dessa bestämmelser har personalen bringats i ungefär samma
-            läge som vid avslutande av civil arbetsanställning. Det är härvid
-            att märka att pergonal med försörjningsplikt får — utöver ifrågavarande
-            ledighet med bibehållna förmåner — enligt krigsfamiljeförfattningarna
-            fortsättningsvis behålla eventuellt utgående familjebidrag under
-            ytterligare någon tid. Sålunda utgår familjepenning m. m. under
-            ytterligare fem dagar efter de 14 dagarnas utgång, och på särskild
-            ansökan och efter behovsprövning kan familjepenning m. m. därutöver
-            få behållas under ytterligare 20 dagar eller, om det gäller bostadsbidrag,
-            under ytterligare 30 dagar. Bestämmelserna innebära härjämte att
-            den personal, som så önskar och kan beredas arbete, skall få kvarstanna
-            för att utföra detta arbete med rätt att efter tjänstgöringens
-            slut behålla de angivna förmånerna.
-          </note>
-          <pb n="4" facs="https://betalab.kb.se/prot-1945--ak--27/prot_1945__ak__27-004.jp2/_view"/>
-          <note n="b601eb8e">
-            Lördagen den 9 juni 1945. Nr 27. 5
-          </note>
           <note n="f27118ac">
             Härpå anförde
           </note>
           <note type="speaker" n="85111cfa">
             Herr Håstad:
           </note>
-          <u who="elis_hastad_bd294b" xml:id="i-b3b4fdc3ccdf470f-0" next="i-40426afcc19f4f0b-0" n="2f601a8e">
+          <u who="elis_hastad_bd294b" xml:id="i-2f601a8e35d022f1-0" next="i-2f601a8e35d022f1-1" n="2f601a8e">
             <seg n="522cf17f">
               Herr talman! Jag har stor anledning att uttala min tacksamhet
               för det svar som statsrådet här lämnat. Utan att vara fullt tillfredsställd
@@ -475,10 +483,10 @@
             </seg>
           </u>
           <pb n="5" facs="https://betalab.kb.se/prot-1945--ak--27/prot_1945__ak__27-005.jp2/_view"/>
-          <note n="02af5c54">
+          <note type="date" n="204c5432">
             6 Nr 27. Lördagen den 9 juni 1943.
           </note>
-          <u who="elis_hastad_bd294b" xml:id="i-40426afcc19f4f0b-0" prev="i-b3b4fdc3ccdf470f-0" n="2f601a8e">
+          <u who="elis_hastad_bd294b" xml:id="i-2f601a8e35d022f1-1" prev="i-2f601a8e35d022f1-0" n="2f601a8e">
             <seg n="b6ed3c4e">
               Svar på interpellation. (Forts.) ha ryckt in till denna frivilliga
               tjänstgöring, låt oss säga i januari skulle ha lättare att vinna
@@ -553,7 +561,7 @@
             Härmed var överläggningen slutad.
           </note>
           <pb n="6" facs="https://betalab.kb.se/prot-1945--ak--27/prot_1945__ak__27-006.jp2/_view"/>
-          <note n="35b70ec1">
+          <note type="date" n="1e8ee744">
             Lördagen den 9 juni 1945. Nr 27. 7
           </note>
           <note n="14129069">
@@ -563,7 +571,7 @@
             Chefen för försvarsdepartementet, herr statsrådet Sköld, som
             anförde:
           </note>
-          <u who="per_edvin_skold_6a20fa" xml:id="i-a79556272117cd61-0" n="2d1a77fa">
+          <u who="per_edvin_skold_6a20fa" xml:id="i-2d1a77fa79406894-5" n="2d1a77fa">
             <seg n="ab64e5df">
               Herr talman! I en med andra kammarens tillstånd framställd interpellation
               har herr Hansson i Skediga frågat mig, om jag har för avsikt att
@@ -632,7 +640,7 @@
           <note type="speaker" n="ab92b1e3">
             Herr Hansson i Skediga:
           </note>
-          <u who="per_albin_hansson_dd458b" xml:id="i-6dee95f1d2394635-0" next="i-f7bcb18baaa24b24-0" n="b4190440">
+          <u who="per_albin_hansson_dd458b" xml:id="i-b419044005a87096-0" next="i-b419044005a87096-2" n="b4190440">
             <seg n="7d00a689">
               Herr talman! Jag ber att till herr statsrådet och chefen för
               försvarsdepartementet få framföra mitt tack för det svar jag erhållit
@@ -651,10 +659,10 @@
             Svar på interpellation.
           </note>
           <pb n="7" facs="https://betalab.kb.se/prot-1945--ak--27/prot_1945__ak__27-007.jp2/_view"/>
-          <note n="edf06b5c">
+          <note type="date" n="1b4faa8c">
             8 Nr 27. Lördagen den 9 juni 1945.
           </note>
-          <u who="per_albin_hansson_dd458b" xml:id="i-f7bcb18baaa24b24-0" prev="i-6dee95f1d2394635-0" n="b4190440">
+          <u who="per_albin_hansson_dd458b" xml:id="i-b419044005a87096-1" prev="i-b419044005a87096-0" n="b4190440">
             <seg n="f9912673">
               Svar på interpellation. (Forts.) minst tre år, får han åtnjuta
               30 procents avdrag. Detta kan synas vara en välvillig inställning
@@ -731,6 +739,15 @@
               också skola kunna använda sig av ett dylikt erbjudande. Om så
               sker skall detta otvivelaktigt bli till gagn för det mindre jordbruket.
             </seg>
+          </u>
+          <pb n="8" facs="https://betalab.kb.se/prot-1945--ak--27/prot_1945__ak__27-008.jp2/_view"/>
+          <note type="date" n="28f85742">
+            Lördagen den 9 juni 1945. Nr 27. 9
+          </note>
+          <note n="5836a489">
+            Svar på interpellation. (Forts.)
+          </note>
+          <u who="per_albin_hansson_dd458b" xml:id="i-b419044005a87096-2" prev="i-b419044005a87096-0" n="b4190440">
             <seg n="4f4330e6">
               Den senare delen av herr statsrådets svar på interpellationen
               berörde frågan om de hästar, som enligt tidigare gällande bestämmelser
@@ -751,17 +768,10 @@
               sina respektive fodervärdar.
             </seg>
           </u>
-          <pb n="8" facs="https://betalab.kb.se/prot-1945--ak--27/prot_1945__ak__27-008.jp2/_view"/>
-          <note n="8302e1dd">
-            Lördagen den 9 juni 1945. Nr 27. 9
-          </note>
-          <note n="5836a489">
-            Svar på interpellation. (Forts.)
-          </note>
           <note type="speaker" n="204c088c">
             Herr Onsjö:
           </note>
-          <u who="unknown" xml:id="i-34b04e2623632bb3-0" n="f039916d">
+          <u who="unknown" xml:id="i-f039916d32387e3c-2" n="f039916d">
             <seg n="01972933">
               Herr talman! Vid behandlingen av denna fråga skulle jag vilja
               påpeka en sak, som jag tycker icke är som den borde vara. Jag
@@ -822,7 +832,7 @@
             Herr Gustafsson i TLekåsa instämde häruti.
           </note>
           <pb n="9" facs="https://betalab.kb.se/prot-1945--ak--27/prot_1945__ak__27-009.jp2/_view"/>
-          <note n="eab24697">
+          <note type="date" n="93af31b6">
             10 Nr 27. Lördagen den 9 juni 19453.
           </note>
           <note n="5836a489">
@@ -831,7 +841,7 @@
           <note type="speaker" n="02393dfb">
             Herr Thorell:
           </note>
-          <u who="edvard_thorell_8dc1be" xml:id="i-62ec63ab6bc8f59e-0" next="i-7e31e7fd957141a8-0" n="211dffb9">
+          <u who="edvard_thorell_8dc1be" xml:id="i-211dffb9e6a88638-0" next="i-211dffb9e6a88638-2" n="211dffb9">
             <seg n="0857483e">
               Herr talman! Mot det syfte, som interpellanten velat vinna med
               sin interpellation, har jag givetvis intet som helst att invända.
@@ -907,10 +917,10 @@
             </seg>
           </u>
           <pb n="10" facs="https://betalab.kb.se/prot-1945--ak--27/prot_1945__ak__27-010.jp2/_view"/>
-          <note n="9d694c0f">
+          <note type="date" n="716ec71c">
             Lördagen den 9 juni 1945. NE 206 i
           </note>
-          <u who="edvard_thorell_8dc1be" xml:id="i-7e31e7fd957141a8-0" prev="i-62ec63ab6bc8f59e-0" n="211dffb9">
+          <u who="edvard_thorell_8dc1be" xml:id="i-211dffb9e6a88638-1" prev="i-211dffb9e6a88638-0" n="211dffb9">
             <seg n="dd5fbfc0">
               Svar på interpellation. (Forts.) den bestämmelsen, att om de
               haft en häst i tio år, fingo de behålla hästen efter denna tid,
@@ -983,6 +993,12 @@
               slaktas då de utgå från truppförbanden till enskilda personer,
               tror jag inte,
             </seg>
+          </u>
+          <pb n="11" facs="https://betalab.kb.se/prot-1945--ak--27/prot_1945__ak__27-011.jp2/_view"/>
+          <note type="date" n="a883bf3e">
+            12 Nr 27. Lördagen den 9 juni 1945.
+          </note>
+          <u who="edvard_thorell_8dc1be" xml:id="i-211dffb9e6a88638-2" prev="i-211dffb9e6a88638-0" n="211dffb9">
             <seg n="37c1e0b9">
               Svar på interpellation. (Forts.) att denna uppgift är riktig.
               Jag vet att åtminstone i dessa trakter av landet mycket noggranna
@@ -1001,14 +1017,10 @@
               framföra 1 denna debatt.
             </seg>
           </u>
-          <pb n="11" facs="https://betalab.kb.se/prot-1945--ak--27/prot_1945__ak__27-011.jp2/_view"/>
-          <note n="998b7bcf">
-            12 Nr 27. Lördagen den 9 juni 1945.
-          </note>
           <note type="speaker" n="ce12a49e">
             Chefen för försvarsdepartementet, herr statsrådet Sköld:
           </note>
-          <u who="per_edvin_skold_6a20fa" xml:id="i-a79556272117cd61-1" n="2d1a77fa">
+          <u who="per_edvin_skold_6a20fa" xml:id="i-2d1a77fa79406894-6" n="2d1a77fa">
             <seg n="5a8492e7">
               Herr talman! Beträffande herr Thorells yttrande om den bestämmelsen,
               att en fodervärd, som haft en häst i tio år, därefter skulle få
@@ -1055,7 +1067,7 @@
           <note type="speaker" n="002aa1de">
             Herr Thorell erhöll på begäran ordet för kort genmäle och anförde:
           </note>
-          <u who="edvard_thorell_8dc1be" xml:id="i-62ec63ab6bc8f59e-1" next="i-7e31e7fd957141a8-1" n="211dffb9">
+          <u who="edvard_thorell_8dc1be" xml:id="i-211dffb9e6a88638-3" next="i-211dffb9e6a88638-4" n="211dffb9">
             <seg n="e0ab0c4d">
               Herr talman! Vad herr statsrådet sade är ju alldeles riktigt,
               och jag underströk även i mitt anförande, att jag avsåg de hästar,
@@ -1070,10 +1082,10 @@
             </seg>
           </u>
           <pb n="12" facs="https://betalab.kb.se/prot-1945--ak--27/prot_1945__ak__27-012.jp2/_view"/>
-          <note n="e0fdceab">
+          <note type="date" n="14454e5e">
             Lördagen den 9 juni 1945. Nr 27. 13
           </note>
-          <u who="edvard_thorell_8dc1be" xml:id="i-7e31e7fd957141a8-1" prev="i-62ec63ab6bc8f59e-1" n="211dffb9">
+          <u who="edvard_thorell_8dc1be" xml:id="i-211dffb9e6a88638-4" prev="i-211dffb9e6a88638-3" n="211dffb9">
             <seg n="056a4602">
               - Svar på interpellation. (Forts.) truppförbandens eget intresse.
               Även på detta området föreligger alltså ingen väsentlig meningsskiljaktighet.
@@ -1092,7 +1104,7 @@
           <note type="speaker" n="ab92b1e3">
             Herr Hansson i Skediga:
           </note>
-          <u who="per_albin_hansson_dd458b" xml:id="i-6dee95f1d2394635-1" next="i-f7bcb18baaa24b24-1" n="b4190440">
+          <u who="per_albin_hansson_dd458b" xml:id="i-b419044005a87096-3" next="i-b419044005a87096-4" n="b4190440">
             <seg n="0c16dfa1">
               Herr talman! Det är alldeles klart, att herr Thorell och jag
               skola ha vitt skilda uppfattningar i denna fråga. Han är affärsman
@@ -1157,10 +1169,10 @@
             </seg>
           </u>
           <pb n="13" facs="https://betalab.kb.se/prot-1945--ak--27/prot_1945__ak__27-013.jp2/_view"/>
-          <note n="e800c653">
+          <note type="date" n="a558fcfa">
             14 Nr 27; Lördagen den 9 juni 1945.
           </note>
-          <u who="per_albin_hansson_dd458b" xml:id="i-f7bcb18baaa24b24-1" prev="i-6dee95f1d2394635-1" n="b4190440">
+          <u who="per_albin_hansson_dd458b" xml:id="i-b419044005a87096-4" prev="i-b419044005a87096-3" n="b4190440">
             <seg n="c0a1ea1a">
               Svar på interpellation. (Forts.) och uttalar den förhoppningen,
               att även herr statsrådet ser på denna fråga ur Just sådana synpunkter
@@ -1183,7 +1195,7 @@
           <note type="speaker" n="101523fe">
             Herr Pettersson i Dahl:
           </note>
-          <u who="john_pettersson_b14c62" xml:id="i-6d7e5f79d0d0f202-0" n="37949ce4">
+          <u who="john_pettersson_b14c62" xml:id="i-37949ce4a8795d3e-0" n="37949ce4">
             <seg n="a7dc796b">
               Herr talman! Jag begärde ordet närmast i anledning av en passus
               i statsrådets yttrande, som knappast berörts av någon av dem som
@@ -1213,7 +1225,7 @@
           <note type="speaker" n="65323b89">
             Herr Paulsen:
           </note>
-          <u who="anders_paulsen_7536b4" xml:id="i-39e53272679af5bd-0" n="c2ec7ae6">
+          <u who="anders_paulsen_7536b4" xml:id="i-c2ec7ae65acf9d46-0" n="c2ec7ae6">
             <seg n="49285cb4">
               Herr talman! Det var en alldeles ny spekulation som herr Pettersson
               i Dahl nu kom med, då han föreslog, att vi skulle sälja hästar
@@ -1228,7 +1240,7 @@
           <note type="speaker" n="101523fe">
             Herr Pettersson i Dahl:
           </note>
-          <u who="john_pettersson_b14c62" xml:id="i-6d7e5f79d0d0f202-1" n="37949ce4">
+          <u who="john_pettersson_b14c62" xml:id="i-37949ce4a8795d3e-1" n="37949ce4">
             <seg n="9ee8c15c">
               Herr talman! Denna fråga har nog en större räckvidd än herr Paulsen
               tror. Vi hörde ju av statsrådets svar, att det är meningen att
@@ -1248,13 +1260,13 @@
             </seg>
           </u>
           <pb n="14" facs="https://betalab.kb.se/prot-1945--ak--27/prot_1945__ak__27-014.jp2/_view"/>
-          <note n="022e2fd0">
+          <note type="date" n="da20db39">
             Lördagen den 9 juni 1945. Nr 27. 15
           </note>
           <note type="speaker" n="22ef03cb">
             Svar på interpellation. (Forts.) Herr Paulsen:
           </note>
-          <u who="anders_paulsen_7536b4" xml:id="i-919483f5afbcc18b-0" next="i-16cfbf545c497741-0" n="c2ec7ae6">
+          <u who="anders_paulsen_7536b4" xml:id="i-c2ec7ae65acf9d46-1" next="i-c2ec7ae65acf9d46-3" n="c2ec7ae6">
             <seg n="9774a76b">
               Herr talman! Herr Pettersson i Dahl tycks tro, att prissättningen
               på hästar inte kommer att påverkas genom försäljning till utlandet.
@@ -1277,7 +1289,7 @@
             denna kammares tillstånd har dessinterpellation. ledamot herr
             Staxäng till mig framställt följande frågor, nämligen
           </note>
-          <u who="anders_paulsen_7536b4" xml:id="i-16cfbf545c497741-0" prev="i-919483f5afbcc18b-0" n="c2ec7ae6">
+          <u who="anders_paulsen_7536b4" xml:id="i-c2ec7ae65acf9d46-2" prev="i-c2ec7ae65acf9d46-1" n="c2ec7ae6">
             <seg n="772aaa2a">
               för det första om jag är beredd att medverka till att 1944 års
               tandläkarutbildningssakkunnigas arbete påskyndas så att dess förslag
@@ -1290,6 +1302,15 @@
               om möjligheterna att genom åtgärder av mer eller mindre provisorisk
               natur snabbt öka tillgången på tandläkare.
             </seg>
+          </u>
+          <note n="9eee1b39">
+            Den ärade interpellanten har i sin motivering för de framställda
+            frågorna hänvisat till en skrivelse, som socialstyrelsen nyligen
+            avlåtit till Kungl. Maj:t och i vilken hemställts om åtgärder
+            i det av interpellanten angivna syftet. Denna skrivelse har varit
+            remitterad till 1944 års tandläkarutbildningssakkunniga.
+          </note>
+          <u who="anders_paulsen_7536b4" xml:id="i-c2ec7ae65acf9d46-3" prev="i-c2ec7ae65acf9d46-1" n="c2ec7ae6">
             <seg n="4e12e82a">
               Med hänsyn till vad de sakkunniga i sitt utlåtande anfört kan
               jag i mitt svar till interpellanten fatta mig mycket kort. De
@@ -1304,20 +1325,13 @@
               kunna underställas nästa års riksdag.
             </seg>
           </u>
-          <note n="9eee1b39">
-            Den ärade interpellanten har i sin motivering för de framställda
-            frågorna hänvisat till en skrivelse, som socialstyrelsen nyligen
-            avlåtit till Kungl. Maj:t och i vilken hemställts om åtgärder
-            i det av interpellanten angivna syftet. Denna skrivelse har varit
-            remitterad till 1944 års tandläkarutbildningssakkunniga.
-          </note>
           <note n="a8727806">
             Härefter yttrade:
           </note>
           <note type="speaker" n="4c3eb4c5">
             Herr Staxäng:
           </note>
-          <u who="unknown" xml:id="i-52f235572faf1420-1" n="f039916d">
+          <u who="unknown" xml:id="i-f039916d32387e3c-3" n="f039916d">
             <seg n="a6bc0bb5">
               Herr talman! Jag ber att till herr statsrådet och chefen för
               ecklesiastikdepartementet få framföra mitt tack för svaret på
@@ -1343,13 +1357,13 @@
             </seg>
           </u>
           <pb n="15" facs="https://betalab.kb.se/prot-1945--ak--27/prot_1945__ak__27-015.jp2/_view"/>
-          <note n="8cf34541">
+          <note type="date" n="45fc2c4d">
             16 Nr 27. Lördagen den 9 juni 1945.
           </note>
           <note n="5836a489">
             Svar på interpellation. (Forts.)
           </note>
-          <u who="unknown" xml:id="i-9ea3a511625e5acb-1" n="f039916d">
+          <u who="unknown" xml:id="i-f039916d32387e3c-4" n="f039916d">
             <seg n="a0724716">
               Jag vill i detta sammanhang inte undanhålla kammaren vissa uppgifter
               i en skrivelse från Svenska tandläkaresällskapet och Sveriges
@@ -1421,6 +1435,12 @@
               att statsrådet verksamt kan påskynda frågan om tandläkarutbildningens
               ordnande. Om det visar sig nöd-
             </seg>
+          </u>
+          <pb n="16" facs="https://betalab.kb.se/prot-1945--ak--27/prot_1945__ak__27-016.jp2/_view"/>
+          <note type="date" n="4c891fdf">
+            Lördagen den 9 juni 1945. Nr 27. 17
+          </note>
+          <u who="unknown" xml:id="i-f039916d32387e3c-5" n="f039916d">
             <seg n="30992138">
               Svar på interpellation. (Forts.) vändigt vill jag hemställa,
               att statsrådet kompletterar den pågående utredningen med ytterligare
@@ -1431,14 +1451,10 @@
               stagnation, vari den för närvarande befinner sig.
             </seg>
           </u>
-          <pb n="16" facs="https://betalab.kb.se/prot-1945--ak--27/prot_1945__ak__27-016.jp2/_view"/>
-          <note n="8ea4a717">
-            Lördagen den 9 juni 1945. Nr 27. 17
-          </note>
           <note type="speaker" n="ab9b244c">
             Herr Fast:
           </note>
-          <u who="erik_fast_7422cf" xml:id="i-c2bc55de248f6ea6-0" next="i-aae5afed4e103852-0" n="bdc2113f">
+          <u who="erik_fast_7422cf" xml:id="i-bdc2113f3444fad5-0" next="i-bdc2113f3444fad5-1" n="bdc2113f">
             <seg n="97d747d0">
               Herr talman! Jag begärde ordet närmast för att ge uttryck åt
               den besvikelse, som landstingen i allmänhet känna i avseende på
@@ -1510,10 +1526,10 @@
             Andra kammarens protokoll 1945. Nr 27. 2
           </note>
           <pb n="17" facs="https://betalab.kb.se/prot-1945--ak--27/prot_1945__ak__27-017.jp2/_view"/>
-          <note n="1761a96b">
+          <note type="date" n="19c1a76d">
             18 Nr 27. Lördagen den 9 juni 1945.
           </note>
-          <u who="erik_fast_7422cf" xml:id="i-aae5afed4e103852-0" prev="i-c2bc55de248f6ea6-0" n="bdc2113f">
+          <u who="erik_fast_7422cf" xml:id="i-bdc2113f3444fad5-1" prev="i-bdc2113f3444fad5-0" n="bdc2113f">
             <seg n="02719a30">
               Svar på interpellation. (Forts.) annat avseende har icke den
               boskillnad, som ägt rum mellan staten och landstingen på detta
@@ -1561,7 +1577,7 @@
           <note type="speaker" n="1f82317f">
             Herr Mosesson:
           </note>
-          <u who="gustav_mosesson_f7cce6" xml:id="i-271b64c19e143ff0-0" next="i-ba5b26c0409b6610-0" n="8557bdea">
+          <u who="gustav_mosesson_f7cce6" xml:id="i-8557bdeae4c31f2c-0" next="i-8557bdeae4c31f2c-1" n="8557bdea">
             <seg n="35833525">
               Herr talman! Jag vill yttra några ord, som säkerligen, i den
               mån de komma till vederbörandes kännedom, komma att uppfattas
@@ -1597,10 +1613,10 @@
             </seg>
           </u>
           <pb n="18" facs="https://betalab.kb.se/prot-1945--ak--27/prot_1945__ak__27-018.jp2/_view"/>
-          <note n="05734c6c">
+          <note type="date" n="ccb63941">
             Lördagen den 9 juni 1945. Nr 27. 19
           </note>
-          <u who="gustav_mosesson_f7cce6" xml:id="i-ba5b26c0409b6610-0" prev="i-271b64c19e143ff0-0" n="8557bdea">
+          <u who="gustav_mosesson_f7cce6" xml:id="i-8557bdeae4c31f2c-1" prev="i-8557bdeae4c31f2c-0" n="8557bdea">
             <seg n="f73cea35">
               Svar på interpellation. (Forts.) fick denne missionär gå som
               extra elev vid tandläkarinstitutet. Han fick således samma praktiska
@@ -1628,7 +1644,7 @@
           <note type="speaker" n="ab9b244c">
             Herr Fast:
           </note>
-          <u who="erik_fast_7422cf" xml:id="i-c2bc55de248f6ea6-1" next="i-aae5afed4e103852-1" n="bdc2113f">
+          <u who="erik_fast_7422cf" xml:id="i-bdc2113f3444fad5-2" next="i-bdc2113f3444fad5-4" n="bdc2113f">
             <seg n="612f33fe">
               Herr talman! Det förhåller sig nog på det sättet, att vad som
               kan vara lämpligt i Afrika är icke lämpligt i Sverige. I sådant
@@ -1656,7 +1672,7 @@
           <note n="af07040a">
             Herr Birke instämde häruti.
           </note>
-          <u who="erik_fast_7422cf" xml:id="i-aae5afed4e103852-1" prev="i-c2bc55de248f6ea6-1" n="bdc2113f">
+          <u who="erik_fast_7422cf" xml:id="i-bdc2113f3444fad5-3" prev="i-bdc2113f3444fad5-2" n="bdc2113f">
             <seg n="500328f4">
               Chefen för ecklesiastikdepartementet, herr statsrådet Andrén:
               Herr talman! Jag har endast begärt ordet för att deklarera, att
@@ -1681,6 +1697,15 @@
               Mosessons anförande. Jag tror icke det vore lyckligt, ifall tandteknikerna
               utan vidare
             </seg>
+          </u>
+          <pb n="19" facs="https://betalab.kb.se/prot-1945--ak--27/prot_1945__ak__27-019.jp2/_view"/>
+          <note type="date" n="48fc5238">
+            20 Nr 27. Lördagen den 9 juni 1945.
+          </note>
+          <note n="5836a489">
+            Svar på interpellation. (Forts.)
+          </note>
+          <u who="erik_fast_7422cf" xml:id="i-bdc2113f3444fad5-4" prev="i-bdc2113f3444fad5-2" n="bdc2113f">
             <seg n="87b7365c">
               skulle få fungera såsom tandläkare. Vi skulle på det sättet få
               ett slags sekunda tandläkare, som icke skulle inge allmänheten
@@ -1698,17 +1723,10 @@
               väntar mig mycket av en reform även på det området.
             </seg>
           </u>
-          <pb n="19" facs="https://betalab.kb.se/prot-1945--ak--27/prot_1945__ak__27-019.jp2/_view"/>
-          <note n="53fa057d">
-            20 Nr 27. Lördagen den 9 juni 1945.
-          </note>
-          <note n="5836a489">
-            Svar på interpellation. (Forts.)
-          </note>
           <note type="speaker" n="1f82317f">
             Herr Mosesson:
           </note>
-          <u who="gustav_mosesson_f7cce6" xml:id="i-62478bf74160e6b1-0" n="8557bdea">
+          <u who="gustav_mosesson_f7cce6" xml:id="i-8557bdeae4c31f2c-2" n="8557bdea">
             <seg n="1712b5e3">
               Herr talman! Den omständigheten att den tandläkare, som jag talade
               om, hade varit i Kongo och hjälpt folk, innan han gick på institutet
@@ -1776,7 +1794,7 @@
           <note type="speaker" n="fd3e0e3d">
             BEonskgen Herr Wiberg:
           </note>
-          <u who="ake_wiberg_3e83f4" xml:id="i-081982cea2ae16e6-0" next="i-c77fc1614501ea4d-0" n="f7d5a469">
+          <u who="ake_wiberg_3e83f4" xml:id="i-f7d5a4693c6a7f41-0" next="i-f7d5a4693c6a7f41-2" n="f7d5a469">
             <seg n="230bd237">
               Herr talman! Jag behöver antagligen icke särskilt understryka,
               att jag helt och fullt ansluter mig till bankoutskottets uttalande,
@@ -1784,10 +1802,10 @@
             </seg>
           </u>
           <pb n="20" facs="https://betalab.kb.se/prot-1945--ak--27/prot_1945__ak__27-020.jp2/_view"/>
-          <note n="04c9999d">
+          <note type="date" n="d120a881">
             Lördagen den 9 juni 1945. Nr 27. 21
           </note>
-          <u who="ake_wiberg_3e83f4" xml:id="i-c77fc1614501ea4d-0" prev="i-081982cea2ae16e6-0" n="f7d5a469">
+          <u who="ake_wiberg_3e83f4" xml:id="i-f7d5a4693c6a7f41-1" prev="i-f7d5a4693c6a7f41-0" n="f7d5a469">
             <seg n="2929b7fa">
               Motion angående ordnande av riksdagshusets omgivningar. (Forts.)
               koutskottet förklarar, att »enligt utskottets mening framstår
@@ -1864,6 +1882,12 @@
               endast tänkbart utan också 1 högsta grad sannolikt, att beloppet
               med fördel skulle kunna användas till konst-
             </seg>
+          </u>
+          <pb n="21" facs="https://betalab.kb.se/prot-1945--ak--27/prot_1945__ak__27-021.jp2/_view"/>
+          <note type="date" n="135a779f">
+            22 Nr 27. Lördagen den 9 juni 1945.
+          </note>
+          <u who="ake_wiberg_3e83f4" xml:id="i-f7d5a4693c6a7f41-2" prev="i-f7d5a4693c6a7f41-0" n="f7d5a469">
             <seg n="f521d687">
               Motion angående ordnande av riksdagshusets omgivningar. (Forts.)
               närlig utsmyckning av omgivningarna, under förutsättning att det
@@ -1917,17 +1941,13 @@
               yrka bifall till utskottets förslag.
             </seg>
           </u>
-          <pb n="21" facs="https://betalab.kb.se/prot-1945--ak--27/prot_1945__ak__27-021.jp2/_view"/>
-          <note n="42464772">
-            22 Nr 27. Lördagen den 9 juni 1945.
-          </note>
           <note n="043ad75f">
             Herr Wallentheim instämde häruti.
           </note>
           <note type="speaker" n="a6f37630">
             Herr Svedman:
           </note>
-          <u who="gustaf_svedman_fc68c7" xml:id="i-40af5dd661d7ef13-0" n="b8cd7075">
+          <u who="gustaf_svedman_fc68c7" xml:id="i-b8cd7075e89771ee-0" n="b8cd7075">
             <seg n="11c79fbe">
               Herr talman! Jag har icke mycket att tillägga utöver herr Wibergs
               kommentarer till utskottets utlåtande. Jag vill endast säga, att
@@ -1950,7 +1970,7 @@
           <note type="speaker" n="7ed6ae00">
             Herr Lindqvist:
           </note>
-          <u who="axel_lindqvist_5866c9" xml:id="i-0642101eedc43e77-0" next="i-14c321220abe68c7-0" n="2d285eb4">
+          <u who="axel_lindqvist_5866c9" xml:id="i-2d285eb42b09ddfe-0" next="i-2d285eb42b09ddfe-1" n="2d285eb4">
             <seg n="8ddd64f6">
               Herr talman! I anledning av herr Wibergs anförande borde kanske
               någon av riksgäldsfullmäktige yttra sig. För min personliga del
@@ -1958,10 +1978,10 @@
             </seg>
           </u>
           <pb n="22" facs="https://betalab.kb.se/prot-1945--ak--27/prot_1945__ak__27-022.jp2/_view"/>
-          <note n="12d62986">
+          <note type="date" n="12bdefbb">
             Lördagen den 9 juni 1945. Nr 27. 23
           </note>
-          <u who="axel_lindqvist_5866c9" xml:id="i-14c321220abe68c7-0" prev="i-0642101eedc43e77-0" n="2d285eb4">
+          <u who="axel_lindqvist_5866c9" xml:id="i-2d285eb42b09ddfe-1" prev="i-2d285eb42b09ddfe-0" n="2d285eb4">
             <seg n="afd7b69f">
               Motion angående ordnande av riksdagshusets omgivningar. (Forts.)
               jag, att herr Wiberg överdriver något, när han talar om hur tröstlöst
@@ -2059,7 +2079,7 @@
             Anordnande av allmän folkräkning.
           </note>
           <pb n="23" facs="https://betalab.kb.se/prot-1945--ak--27/prot_1945__ak__27-023.jp2/_view"/>
-          <note n="01425465">
+          <note type="date" n="8bee36d0">
             24 Nr 27. Lördagen den 9 juni 1945.
           </note>
           <note n="76f488a3">
@@ -2105,7 +2125,7 @@
           <note type="speaker" n="cc885bf3">
             Herr Johanson i Norrköping:
           </note>
-          <u who="unknown" xml:id="i-52f235572faf1420-2" n="f039916d">
+          <u who="unknown" xml:id="i-f039916d32387e3c-6" n="f039916d">
             <seg n="6dbf3d33">
               Herr talman! I anledning av Kungl. Maj:ts proposition nr 298
               angående anordnande av allmän folkräkning har jag jämte några
@@ -2150,10 +2170,10 @@
             </seg>
           </u>
           <pb n="24" facs="https://betalab.kb.se/prot-1945--ak--27/prot_1945__ak__27-024.jp2/_view"/>
-          <note n="ff3be579">
+          <note type="date" n="f391227a">
             Lördagen den 9 juni 1945. Nr 27. 25
           </note>
-          <u who="unknown" xml:id="i-9ea3a511625e5acb-2" n="f039916d">
+          <u who="unknown" xml:id="i-f039916d32387e3c-7" n="f039916d">
             <seg n="c16f16ac">
               Anordnande av allmän folkräkning. (Forts.) befolkningsutredningens
               argument anser jag ensamt vara hållbara för vårt krav i motionen.
@@ -2182,7 +2202,7 @@
           <note type="speaker" n="8a13d4e6">
             Herr Eriksson i Stockholm:
           </note>
-          <u who="eskil_eriksson_e52563" xml:id="i-f3a30cdfd1fc2a66-0" n="55de66e4">
+          <u who="eskil_eriksson_e52563" xml:id="i-55de66e46a051b52-0" n="55de66e4">
             <seg n="a2515271">
               Herr talman! Det är klart, att man kan ha olika meningar rörande
               omfattningen av den utredning, varom här är fråga. Kungl. Maj:t
@@ -2223,7 +2243,7 @@
           <note type="speaker" n="447cbeaa">
             Fru Johansson:
           </note>
-          <u who="_lisa_johansson_23f369" xml:id="i-16365c652364602c-0" next="i-aebe8f1ab947c1dd-0" n="2c8b289c">
+          <u who="_lisa_johansson_23f369" xml:id="i-4df4414340da281f-0" next="i-4df4414340da281f-2" n="2c8b289c">
             <seg n="dded0b14">
               Herr talman! Jag vill blott med några ord understryka önskvärdheten
               av att den fråga, som vi fört fram i vår motion, så snart som
@@ -2238,10 +2258,18 @@
             Motion angående restitution till expeditionsvakten C. Eriksson
             av vissa er-
           </note>
-          <u who="_lisa_johansson_23f369" xml:id="i-aebe8f1ab947c1dd-0" prev="i-16365c652364602c-0" n="2c8b289c">
+          <u who="_lisa_johansson_23f369" xml:id="i-4df4414340da281f-1" prev="i-4df4414340da281f-0" n="2c8b289c">
             <seg n="ee1b0be9">
               sättningar för tjänstebostad +
             </seg>
+          </u>
+          <note n="af2d02d0">
+            m. m.
+          </note>
+          <note type="date" n="9849b033">
+            26 Nr 27. Lördagen den 9 juni 1945.
+          </note>
+          <u who="_lisa_johansson_23f369" xml:id="i-4df4414340da281f-2" prev="i-4df4414340da281f-0" n="2c8b289c">
             <seg n="635190b0">
               Motioner angående utsträckt rätt till fri förlossningsvård. (Forts.)
               kommer med ett betänkande i detta ämne. Det är då min förhoppning,
@@ -2283,12 +2311,6 @@
               har velat understryka behovet av att något göres.
             </seg>
           </u>
-          <note n="af2d02d0">
-            m. m.
-          </note>
-          <note n="e24bcad1">
-            26 Nr 27. Lördagen den 9 juni 1945.
-          </note>
           <note n="0cb18542">
             Efter härmed slutad överläggning biföll kammaren utskottets hemställan.
           </note>
@@ -2319,7 +2341,7 @@
           <note type="speaker" n="7709b988">
             Herr Lundberg:
           </note>
-          <u who="john_lundberg_667119" xml:id="i-7d4b5d77732c5c55-0" next="i-858536ca02f48ce4-0" n="2e75292d">
+          <u who="john_lundberg_667119" xml:id="i-2e75292d5f276b53-0" next="i-2e75292d5f276b53-2" n="2e75292d">
             <seg n="bd9c0587">
               Herr talman! Den motion, som jag väckt och nu skall behandlas,
               har till syfte att söka få till stånd en bättre tillsyn över till
@@ -2334,7 +2356,7 @@
             </seg>
           </u>
           <pb n="26" facs="https://betalab.kb.se/prot-1945--ak--27/prot_1945__ak__27-026.jp2/_view"/>
-          <note n="80ae808a">
+          <note type="date" n="ee923ec6">
             Lördagen den 9 juni 1945. Nr 27.
           </note>
           <note n="cd271df0">
@@ -2344,7 +2366,7 @@
             Motion angående restitution till expeditionsvakten C. Eriksson
             av vissa ersätt-
           </note>
-          <u who="john_lundberg_667119" xml:id="i-858536ca02f48ce4-0" prev="i-7d4b5d77732c5c55-0" n="2e75292d">
+          <u who="john_lundberg_667119" xml:id="i-2e75292d5f276b53-1" prev="i-2e75292d5f276b53-0" n="2e75292d">
             <seg n="b3b3b008">
               ningar för tjänstebostad m. m. (Forts.) skulle ha sett till att
               varken kungl. byggnadsstyrelsen eller länsstyrelsen skulle stötas
@@ -2419,6 +2441,18 @@
               får lov att mycket noga överväga, om han skall våga sig på att
               anföra klagan i ett sådant här ärende, ty en under:
             </seg>
+          </u>
+          <pb n="27" facs="https://betalab.kb.se/prot-1945--ak--27/prot_1945__ak__27-027.jp2/_view"/>
+          <note type="date" n="31aac6a6">
+            23 Nr 27. Lördagen den 9 juni 1945.
+          </note>
+          <note n="abe22ce6">
+            Motion angående restitution till expeditionsvakten C. Eriksson
+            av vissa ersättningar för tjänstebostad m. m. (Forts.) ordnad
+            är tyvärr en underordnad, och ofta tvingas han att tiga, för att
+            återverkningar inte skola komma på andra områden.
+          </note>
+          <u who="john_lundberg_667119" xml:id="i-2e75292d5f276b53-2" prev="i-2e75292d5f276b53-0" n="2e75292d">
             <seg n="3b605700">
               Jag skulle vilja säga ifrån, att om inte våra olika myndigheter
               se till, att de tillämpa lagar och förordningar, som gälla för
@@ -2466,16 +2500,6 @@
               och värmeavgifter för samtliga år som han varit anvisad tjänstebostad.
             </seg>
           </u>
-          <pb n="27" facs="https://betalab.kb.se/prot-1945--ak--27/prot_1945__ak__27-027.jp2/_view"/>
-          <note n="841ff582">
-            23 Nr 27. Lördagen den 9 juni 1945.
-          </note>
-          <note n="abe22ce6">
-            Motion angående restitution till expeditionsvakten C. Eriksson
-            av vissa ersättningar för tjänstebostad m. m. (Forts.) ordnad
-            är tyvärr en underordnad, och ofta tvingas han att tiga, för att
-            återverkningar inte skola komma på andra områden.
-          </note>
           <note n="0866fefa">
             Med hänvisning till vad jag anfört ber jag att få yrka bifall
             till motionen nr 136 i denna kammare. I denna motion yrkas, att
@@ -2489,7 +2513,7 @@
           <note type="speaker" n="8a13d4e6">
             Herr Eriksson i Stockholm:
           </note>
-          <u who="eskil_eriksson_e52563" xml:id="i-dd3997136ce60234-0" next="i-ddaf3773ae74c663-0" n="55de66e4">
+          <u who="eskil_eriksson_e52563" xml:id="i-55de66e46a051b52-1" next="i-55de66e46a051b52-3" n="55de66e4">
             <seg n="e865a0f0">
               Herr talman! Kammarens ledamöter erinra sig säkert, att vi föregående
               lördag hade en ganska animerad debatt som rörde löneförhållandena
@@ -2506,14 +2530,14 @@
             </seg>
           </u>
           <pb n="28" facs="https://betalab.kb.se/prot-1945--ak--27/prot_1945__ak__27-028.jp2/_view"/>
-          <note n="683248a4">
+          <note type="date" n="220b76e5">
             Lördagen den 9 juni 1945. Nr 27. 29
           </note>
           <note n="79f060a1">
             Motion angående restitution till expeditionsvakten C. Eriksson
             av vissa ersätt-
           </note>
-          <u who="eskil_eriksson_e52563" xml:id="i-ddaf3773ae74c663-0" prev="i-dd3997136ce60234-0" n="55de66e4">
+          <u who="eskil_eriksson_e52563" xml:id="i-55de66e46a051b52-2" prev="i-55de66e46a051b52-1" n="55de66e4">
             <seg n="b2cbb570">
               ningar för tjänstebostad m. m. (Forts.) när man inte läst författningen
               och inte gjort sin rätt gällande, så har man därmed förlorat sin
@@ -2585,6 +2609,16 @@
               Jag hemställer till de regeringsledamöter, som äro närvarande
               här, att man
             </seg>
+          </u>
+          <pb n="29" facs="https://betalab.kb.se/prot-1945--ak--27/prot_1945__ak__27-029.jp2/_view"/>
+          <note type="date" n="00f5c88d">
+            30 Nr 27. Lördagen den 9 juni 1945.
+          </note>
+          <note n="d76e86c1">
+            Motion angående restitution till expeditionsvakten C. Eriksson
+            av vissa ersättningar för tjänstebostad m. m. (Forts.)
+          </note>
+          <u who="eskil_eriksson_e52563" xml:id="i-55de66e46a051b52-3" prev="i-55de66e46a051b52-1" n="55de66e4">
             <seg n="6186baaf">
               fäster kungl. byggnadsstyrelsens uppmärksamhet på detta ärende
               och icke minst på denna debatt, därför att det ju förhåller sig
@@ -2615,18 +2649,10 @@
               ber att få yrka bifall till utskottets förslag.
             </seg>
           </u>
-          <pb n="29" facs="https://betalab.kb.se/prot-1945--ak--27/prot_1945__ak__27-029.jp2/_view"/>
-          <note n="f24fba0f">
-            30 Nr 27. Lördagen den 9 juni 1945.
-          </note>
-          <note n="d76e86c1">
-            Motion angående restitution till expeditionsvakten C. Eriksson
-            av vissa ersättningar för tjänstebostad m. m. (Forts.)
-          </note>
           <note type="speaker" n="7709b988">
             Herr Lundberg:
           </note>
-          <u who="john_lundberg_667119" xml:id="i-7d4b5d77732c5c55-1" next="i-858536ca02f48ce4-1" n="2e75292d">
+          <u who="john_lundberg_667119" xml:id="i-2e75292d5f276b53-3" next="i-2e75292d5f276b53-4" n="2e75292d">
             <seg n="bc21f92d">
               Herr talman! Efter herr Erikssons i Stockholm uttalande här skulle
               jag vilja säga, att då han talar om dessa tråkiga familjeförhållanden
@@ -2670,14 +2696,14 @@
             </seg>
           </u>
           <pb n="30" facs="https://betalab.kb.se/prot-1945--ak--27/prot_1945__ak__27-030.jp2/_view"/>
-          <note n="66a8be86">
+          <note type="date" n="bebab02e">
             Lördagen den 9 juni 1945. Nr 27. 31
           </note>
           <note n="79f060a1">
             Motion angående restitution till expeditionsvakten C. Eriksson
             av vissa ersätt-
           </note>
-          <u who="john_lundberg_667119" xml:id="i-858536ca02f48ce4-1" prev="i-7d4b5d77732c5c55-1" n="2e75292d">
+          <u who="john_lundberg_667119" xml:id="i-2e75292d5f276b53-4" prev="i-2e75292d5f276b53-3" n="2e75292d">
             <seg n="08db1e5f">
               ningar för tjänstebostad m. m. (Forts.) måste säga att jag finner
               detta i allra högsta grad anmärkningsvärt. När länsstyrelsen fått
@@ -2697,7 +2723,7 @@
           <note type="speaker" n="7e0c6498">
             Herr Lundstedt:
           </note>
-          <u who="vilhelm_lundstedt_d67848" xml:id="i-e6505dbce5634794-0" next="i-aa0a87e77dd24880-0" n="aefbdca6">
+          <u who="vilhelm_lundstedt_d67848" xml:id="i-aefbdca66cfcf88a-0" next="i-aefbdca66cfcf88a-1" n="aefbdca6">
             <seg n="f4ea3cf8">
               Herr talman! Med hänsyn till vad som förekommit i detta ärende
               och särskilt i anledning av herr Erikssons i Stockholm anförande
@@ -2768,7 +2794,7 @@
           <note n="00f20d19">
             [IA Doo
           </note>
-          <note n="60e13725">
+          <note type="date" n="f50019ce">
             Nr 27. Lördagen den 9 juni 1945.
           </note>
           <note n="d5fe7b3d">
@@ -2782,7 +2808,7 @@
           <note n="a284f9c4">
             I. att riksdagen, med bifall till förevarande proposition måtte
           </note>
-          <u who="vilhelm_lundstedt_d67848" xml:id="i-aa0a87e77dd24880-0" prev="i-e6505dbce5634794-0" n="aefbdca6">
+          <u who="vilhelm_lundstedt_d67848" xml:id="i-aefbdca66cfcf88a-1" prev="i-aefbdca66cfcf88a-0" n="aefbdca6">
             <seg n="4520258a">
               a) bevilja LKAB ett lån å 7 500 000 kronor på de villkor som
               i statsrådsprotokollet över finansärenden för den 23 februari
@@ -2811,7 +2837,7 @@
           <note type="speaker" n="8bbb6fa0">
             Herr Gavelin:
           </note>
-          <u who="johan-olof_gavelin_1f83d8" xml:id="i-f72dcb430aee5bef-0" next="i-3e4ff97ecc16e276-0" n="aaaa7a08">
+          <u who="johan-olof_gavelin_1f83d8" xml:id="i-42bf7455fed0fcfd-0" next="i-42bf7455fed0fcfd-3" n="aaaa7a08">
             <seg n="5114c2d6">
               Herr förste vice talman! I föreliggande utskottsutlåtande angående
               ett räntefritt lån till LKAB för gråbergsbrytning i Kiruna har
@@ -2867,13 +2893,13 @@
             arbetsvecka.
           </note>
           <pb n="32" facs="https://betalab.kb.se/prot-1945--ak--27/prot_1945__ak__27-032.jp2/_view"/>
-          <note n="ecc2053d">
+          <note type="date" n="86282883">
             Lördagen den 9 juni 1945. Nr 27. 33
           </note>
           <note n="35eb2239">
             Lån till Luossavaara—Kiirunavaara aktiebolag m. m. (Forts.)
           </note>
-          <u who="johan-olof_gavelin_1f83d8" xml:id="i-3e4ff97ecc16e276-0" prev="i-f72dcb430aee5bef-0" n="aaaa7a08">
+          <u who="johan-olof_gavelin_1f83d8" xml:id="i-42bf7455fed0fcfd-1" prev="i-42bf7455fed0fcfd-0" n="aaaa7a08">
             <seg n="0b223c1c">
               10. Kungl. Maj:t äger medgiva, att till komplettering av arbetsinkomsterna
               för LKAB:s anställda må. sedan arbetstiden vid gruvorna blivit
@@ -2949,23 +2975,12 @@
               men att en ändring är nödvändig, är ju redan alldeles klart ådagalagt.
               Det
             </seg>
-            <seg n="afc1c7ed">
-              Herr talman! För att i någon mån kunna få fram den synpunkten
-              att ur 3-miljonersfonden även böra få tagas medel till förstärkning
-              av pensioner till förtidspensionerade gruvarbetare, ber jag att
-              få föreslå följande tillägg till utskottsutlåtandet i vad det
-              rör motionerna.
-            </seg>
-            <seg n="a255fb59">
-              Herr talman! Med det av mig sålunda föreslagna tillägget ber
-              jag att få yrka bifall till utskottets förslag.
-            </seg>
           </u>
           <note n="1a1a9a5e">
             Andra kammarens protokoll 1945. Nr 27. 3
           </note>
           <pb n="33" facs="https://betalab.kb.se/prot-1945--ak--27/prot_1945__ak__27-033.jp2/_view"/>
-          <note n="2cec32ee">
+          <note type="date" n="56f35014">
             34 Nr 27. Lördagen den 9 juni 1945.
           </note>
           <note n="c5422d22">
@@ -2973,6 +2988,15 @@
             därför att hoppas, att Kungl. Maj:t med det snaraste kommer med
             förslag i frågan.
           </note>
+          <u who="johan-olof_gavelin_1f83d8" xml:id="i-42bf7455fed0fcfd-2" prev="i-42bf7455fed0fcfd-0" n="aaaa7a08">
+            <seg n="afc1c7ed">
+              Herr talman! För att i någon mån kunna få fram den synpunkten
+              att ur 3-miljonersfonden även böra få tagas medel till förstärkning
+              av pensioner till förtidspensionerade gruvarbetare, ber jag att
+              få föreslå följande tillägg till utskottsutlåtandet i vad det
+              rör motionerna.
+            </seg>
+          </u>
           <note n="fbbbcbd9">
             I det stycke, som börjar med orden »I väckta motioner», tillfogas
             efter den meningen, som slutar med orden »icke nu påkallas.»,
@@ -2983,10 +3007,16 @@
             av pension till förtidspensionerade gruvarbetare, torde förslag
             därom kunna förväntas från Kungl. Maj:t.»
           </note>
+          <u who="johan-olof_gavelin_1f83d8" xml:id="i-42bf7455fed0fcfd-3" prev="i-42bf7455fed0fcfd-0" n="aaaa7a08">
+            <seg n="a255fb59">
+              Herr talman! Med det av mig sålunda föreslagna tillägget ber
+              jag att få yrka bifall till utskottets förslag.
+            </seg>
+          </u>
           <note type="speaker" n="f6d64016">
             Herr statsrådet Erlander:
           </note>
-          <u who="unknown" xml:id="i-52f235572faf1420-3" n="f039916d">
+          <u who="unknown" xml:id="i-f039916d32387e3c-8" n="f039916d">
             <seg n="8466fa78">
               Herr talman! Jag vill med anledning av herr Gavelins anförande
               bara lämna ett par upplysningar, som kanske kunna vara av ett
@@ -3039,10 +3069,10 @@
             </seg>
           </u>
           <pb n="34" facs="https://betalab.kb.se/prot-1945--ak--27/prot_1945__ak__27-034.jp2/_view"/>
-          <note n="1566f2aa">
+          <note type="date" n="e65ec512">
             Lördagen den 9 juni 1945. Nr 27. 35
           </note>
-          <u who="unknown" xml:id="i-9ea3a511625e5acb-3" n="f039916d">
+          <u who="unknown" xml:id="i-f039916d32387e3c-9" n="f039916d">
             <seg n="cf64bc20">
               Lån till Luossavaara—Kiirunavaara aktiebolag m. m. (Forts.) så
               att man väl inte kan använda dessa fattiga tre miljoner kronor,
@@ -3068,7 +3098,7 @@
           <note type="speaker" n="8618d4d1">
             Herr Gavelin erhöll på begäran ordet för kort genmäle och yttrade:
           </note>
-          <u who="johan-olof_gavelin_1f83d8" xml:id="i-275b6c044fa0a19b-0" n="aaaa7a08">
+          <u who="johan-olof_gavelin_1f83d8" xml:id="i-42bf7455fed0fcfd-4" n="aaaa7a08">
             <seg n="dbcbda60">
               Herr talman! Vad som är Viktigt här är hur man skall bedöma frågan
               när det gäller en stark arbetsinskränkning, men jag utgår ifrån,
@@ -3103,7 +3133,7 @@
           <note type="speaker" n="5565b009">
             Herr Holmberg:
           </note>
-          <u who="helmer_holmberg_e06180" xml:id="i-c9f0a19c3ed01c33-0" next="i-0cb023ca65118c7b-0" n="a4ed64e4">
+          <u who="helmer_holmberg_e06180" xml:id="i-a4ed64e470e438ca-0" next="i-a4ed64e470e438ca-1" n="a4ed64e4">
             <seg n="b54693eb">
               Herr talman! Liksom herr Gavelin är jag förvånad över att finna
               våra motioner om bidrag ur 3-miljonersfonden avstyrkta av utskottet
@@ -3129,10 +3159,10 @@
             </seg>
           </u>
           <pb n="35" facs="https://betalab.kb.se/prot-1945--ak--27/prot_1945__ak__27-035.jp2/_view"/>
-          <note n="fcbbe9ce">
+          <note type="date" n="9695b054">
             36 Nr 27. Lördagen den 9 juni 1945.
           </note>
-          <u who="helmer_holmberg_e06180" xml:id="i-0cb023ca65118c7b-0" prev="i-c9f0a19c3ed01c33-0" n="a4ed64e4">
+          <u who="helmer_holmberg_e06180" xml:id="i-a4ed64e470e438ca-1" prev="i-a4ed64e470e438ca-0" n="a4ed64e4">
             <seg n="bf2fd85a">
               Lån till Luossavaara—Kiirunavaara aktiebolag m. m. (Forts.) pensation
               för förlorad arbetsförtjänst. För övrigt är detta en tillfällig
@@ -3205,7 +3235,7 @@
             </seg>
           </u>
           <pb n="36" facs="https://betalab.kb.se/prot-1945--ak--27/prot_1945__ak__27-036.jp2/_view"/>
-          <note n="b99446cc">
+          <note type="date" n="371fa194">
             Lördagen den 9 juni 1945. Nr 27. 37
           </note>
           <note n="2b0d4e7b">
@@ -3216,7 +3246,7 @@
           <note type="speaker" n="674c316e">
             Herr Hall:
           </note>
-          <u who="david_hall_faa3ea" xml:id="i-e658f6c168f00e32-0" n="35404828">
+          <u who="david_hall_faa3ea" xml:id="i-35404828378ac61d-0" n="35404828">
             <seg n="9f5295d0">
               Herr talman! Jag skulle kunna inskränka mig till att yrka bifall
               till utskottets hemställan. Första kammaren har ju redan bifallit
@@ -3266,7 +3296,7 @@
           <note type="speaker" n="5d5e90a2">
             Herr Hagberg i Luleå:
           </note>
-          <u who="hilding_hagberg_a6b9a0" xml:id="i-b0f8c62da96f099e-0" next="i-e3e50c6dc968b845-0" n="902345c2">
+          <u who="hilding_hagberg_a6b9a0" xml:id="i-902345c21b976f1b-0" next="i-902345c21b976f1b-1" n="902345c2">
             <seg n="95a3efa4">
               Herr talman! Jag ville bara i anledning av vad statsrådet Erlander
               yttrade om att man ordnat saken så att gruvarbetarna från arbetslöshetskassa
@@ -3292,10 +3322,10 @@
             </seg>
           </u>
           <pb n="37" facs="https://betalab.kb.se/prot-1945--ak--27/prot_1945__ak__27-037.jp2/_view"/>
-          <note n="79a50a2e">
+          <note type="date" n="96ea685d">
             38 Nr 27. Lördagen den 9 juni 1945.
           </note>
-          <u who="hilding_hagberg_a6b9a0" xml:id="i-e3e50c6dc968b845-0" prev="i-b0f8c62da96f099e-0" n="902345c2">
+          <u who="hilding_hagberg_a6b9a0" xml:id="i-902345c21b976f1b-1" prev="i-902345c21b976f1b-0" n="902345c2">
             <seg n="91f402e2">
               Lån till Luossavaara—Kiirunavaara aktiebolag m. m. (Forts.) tillgodose
               sina viktigaste behov. Situationen är mycket allvarlig även för
@@ -3341,7 +3371,7 @@
           <note type="speaker" n="f6d64016">
             Herr statsrådet Erlander:
           </note>
-          <u who="unknown" xml:id="i-52f235572faf1420-4" n="f039916d">
+          <u who="unknown" xml:id="i-f039916d32387e3c-10" n="f039916d">
             <seg n="cdc0f421">
               Herr talman! Jag vill med anledning av vad herr Hagberg nyss
               anfört bara fästa hans uppmärksamhet på att hur man än bär sig
@@ -3374,10 +3404,10 @@
             </seg>
           </u>
           <pb n="38" facs="https://betalab.kb.se/prot-1945--ak--27/prot_1945__ak__27-038.jp2/_view"/>
-          <note n="976ae840">
+          <note type="date" n="affc8dd3">
             Lördagen den 9 juni 1945. Nr 27. 39
           </note>
-          <u who="unknown" xml:id="i-9ea3a511625e5acb-4" n="f039916d">
+          <u who="unknown" xml:id="i-f039916d32387e3c-11" n="f039916d">
             <seg n="4f46e705">
               Lån till Luossavaara—Kiirunavaara aktiebolag m. m. (Forts.) den
               regering, som för tillfället sitter, kommer att följa denna fråga
@@ -3387,7 +3417,7 @@
           <note type="speaker" n="8bbb6fa0">
             Herr Gavelin:
           </note>
-          <u who="johan-olof_gavelin_1f83d8" xml:id="i-275b6c044fa0a19b-1" n="aaaa7a08">
+          <u who="johan-olof_gavelin_1f83d8" xml:id="i-42bf7455fed0fcfd-5" n="aaaa7a08">
             <seg n="f63e34aa">
               Herr talman! Efter de upplysningar utskottets talesman nyss lämnat
               kunde det måhända förefalla naturligt att jag skulle återkalla
@@ -3405,7 +3435,7 @@
           <note type="speaker" n="5d5e90a2">
             Herr Hagberg i Luleå:
           </note>
-          <u who="hilding_hagberg_a6b9a0" xml:id="i-964e540b2404fb22-0" n="902345c2">
+          <u who="hilding_hagberg_a6b9a0" xml:id="i-902345c21b976f1b-2" n="902345c2">
             <seg n="d759fb2c">
               Herr talman! Med anledning av statsrådet Erlanders anförande
               vill jag erinra om, att malmfonden tillkommit enbart för arbetarna
@@ -3464,7 +3494,7 @@
           <note type="speaker" n="5432f170">
             Herr statsrådet Wigforss avlämnade Kungl. Maj:
           </note>
-          <u who="ernst_wigforss_164f7a" xml:id="i-2e47b55d824cab6f-0" next="i-b8ba997fba9488a6-0" n="f9dbc1f5">
+          <u who="ernst_wigforss_164f7a" xml:id="i-f9dbc1f5675d92c7-0" next="i-f9dbc1f5675d92c7-2" n="f9dbc1f5">
             <seg n="632cfdde">
               ts proposition, nr 332, angående transport av vissa utländska
               medborgare genom Sverige.
@@ -3474,19 +3504,13 @@
             Denna proposition bordlades.
           </note>
           <pb n="39" facs="https://betalab.kb.se/prot-1945--ak--27/prot_1945__ak__27-039.jp2/_view"/>
-          <u who="ernst_wigforss_164f7a" xml:id="i-b8ba997fba9488a6-0" prev="i-2e47b55d824cab6f-0" n="f9dbc1f5">
+          <u who="ernst_wigforss_164f7a" xml:id="i-f9dbc1f5675d92c7-1" prev="i-f9dbc1f5675d92c7-0" n="f9dbc1f5">
             <seg n="ebeaa607">
               Inlösen av Trafikaktiebolaget Grängesberg— Ozxelösunds aktier
               i Iuossavaara—Kiirunavaara aktiebolag.
             </seg>
-            <seg n="007bdc14">
-              a) att riksdagen måtte förklara sig lämna utan erinran, att tillsägelse
-              om inlösen av de TGO tillhöriga aktierna i LKAB per den 30 september
-              1947 enligt bestämmelserna i gällande malmavtal icke skedde från
-              statens sida;
-            </seg>
           </u>
-          <note n="f0fb685e">
+          <note type="date" n="dc47cba6">
             40 Nr 27. Lördagen den 9 juni 1945.
           </note>
           <note n="c52dc4d4">
@@ -3527,6 +3551,14 @@
           <note n="ff8694f2">
             Utskottet hemställde,
           </note>
+          <u who="ernst_wigforss_164f7a" xml:id="i-f9dbc1f5675d92c7-2" prev="i-f9dbc1f5675d92c7-0" n="f9dbc1f5">
+            <seg n="007bdc14">
+              a) att riksdagen måtte förklara sig lämna utan erinran, att tillsägelse
+              om inlösen av de TGO tillhöriga aktierna i LKAB per den 30 september
+              1947 enligt bestämmelserna i gällande malmavtal icke skedde från
+              statens sida;
+            </seg>
+          </u>
           <note n="6be786c9">
             b) att motionerna I: 165 och II: 267 ej måtte av riksdagen bifallas;
           </note>
@@ -3539,7 +3571,7 @@
           <note type="speaker" n="5d5e90a2">
             Herr Hagberg i Luleå:
           </note>
-          <u who="hilding_hagberg_a6b9a0" xml:id="i-b0f8c62da96f099e-1" next="i-e3e50c6dc968b845-1" n="902345c2">
+          <u who="hilding_hagberg_a6b9a0" xml:id="i-902345c21b976f1b-3" next="i-902345c21b976f1b-5" n="902345c2">
             <seg n="55eedc71">
               Herr talman! Regeringen har i denna fråga föreslagit, att staten
               icke skall använda sig av sin avtalsenliga rätt att inlösa eller
@@ -3574,10 +3606,10 @@
             </seg>
           </u>
           <pb n="40" facs="https://betalab.kb.se/prot-1945--ak--27/prot_1945__ak__27-040.jp2/_view"/>
-          <note n="134e67ef">
+          <note type="date" n="4dd5f068">
             Lördagen den 9 juni 1945. Nr 27. 41
           </note>
-          <u who="hilding_hagberg_a6b9a0" xml:id="i-e3e50c6dc968b845-1" prev="i-b0f8c62da96f099e-1" n="902345c2">
+          <u who="hilding_hagberg_a6b9a0" xml:id="i-902345c21b976f1b-4" prev="i-902345c21b976f1b-3" n="902345c2">
             <seg n="987e85d6">
               Inlösen av Trafikaktiebolaget Grängesberg —Oxelösunds aktier
               i Luossavaara —Kiirunavaara aktiebolag. (Forts.)
@@ -3646,6 +3678,16 @@
               dock icke — vilket också synes vara finansministerns uppfattning
               — skall ställa frågan
             </seg>
+          </u>
+          <pb n="41" facs="https://betalab.kb.se/prot-1945--ak--27/prot_1945__ak__27-041.jp2/_view"/>
+          <note type="date" n="a2d6b4a2">
+            42 Nr 27. Lördagen den 9 juni 1945.
+          </note>
+          <note n="d186115e">
+            Inlösen av Trafikaktiebolaget Grängesberg—Ozxelösunds aktier
+            i Luossavaara — Kiirunavaara aktiebolag. (Forts.)
+          </note>
+          <u who="hilding_hagberg_a6b9a0" xml:id="i-902345c21b976f1b-5" prev="i-902345c21b976f1b-3" n="902345c2">
             <seg n="ac95748c">
               om gruvornas förstatligande på en oviss framtid. Det är emellertid
               motiverat att man mera konkret hade uttalat sig om hur man skall
@@ -3677,14 +3719,6 @@
               den viljan, om den bifaller motionen.
             </seg>
           </u>
-          <pb n="41" facs="https://betalab.kb.se/prot-1945--ak--27/prot_1945__ak__27-041.jp2/_view"/>
-          <note n="a9f8ffc3">
-            42 Nr 27. Lördagen den 9 juni 1945.
-          </note>
-          <note n="d186115e">
-            Inlösen av Trafikaktiebolaget Grängesberg—Ozxelösunds aktier
-            i Luossavaara — Kiirunavaara aktiebolag. (Forts.)
-          </note>
           <note n="f589c51a">
             Herr talman! Jag vill med det anförda alltså nöja mig med att
             yrka bifall till de av min partikamrat Linderot i första kammaren
@@ -3693,7 +3727,7 @@
           <note type="speaker" n="ed16c0ee">
             Herr Lövgren:
           </note>
-          <u who="oscar_lovgren_4dca2d" xml:id="i-78339f7b9713d7af-0" next="i-7330b1afe8a7c424-0" n="c193b486">
+          <u who="oscar_lovgren_4dca2d" xml:id="i-c193b48618c805e3-0" next="i-c193b48618c805e3-2" n="c193b486">
             <seg n="2c89033f">
               Herr talman! Jag väckte vid riksdagens början en motion med yrkande,
               att staten nu skulle använda sin inlösningsrätt och före utgågen
@@ -3728,10 +3762,10 @@
             </seg>
           </u>
           <pb n="42" facs="https://betalab.kb.se/prot-1945--ak--27/prot_1945__ak__27-042.jp2/_view"/>
-          <note n="3ded7aa6">
+          <note type="date" n="0d252299">
             Lördagen den 9 juni 1945. Nr 27. 43
           </note>
-          <u who="oscar_lovgren_4dca2d" xml:id="i-7330b1afe8a7c424-0" prev="i-78339f7b9713d7af-0" n="c193b486">
+          <u who="oscar_lovgren_4dca2d" xml:id="i-c193b48618c805e3-1" prev="i-c193b48618c805e3-0" n="c193b486">
             <seg n="51e9edc2">
               Inlösen av Trafikaktiebolaget Grängesberg—Oxelösunds aktier i
               Luossavaara Kiirunavaara aktiebolag. (Forts.)
@@ -3807,6 +3841,15 @@
               mig
             </seg>
             <seg n="98938369"/>
+          </u>
+          <pb n="43" facs="https://betalab.kb.se/prot-1945--ak--27/prot_1945__ak__27-043.jp2/_view"/>
+          <note n="c0f305db">
+            [ES Ha
+          </note>
+          <note type="date" n="f50019ce">
+            Nr 27. Lördagen den 9 juni 1945.
+          </note>
+          <u who="oscar_lovgren_4dca2d" xml:id="i-c193b48618c805e3-2" prev="i-c193b48618c805e3-0" n="c193b486">
             <seg n="174e0741">
               Inlösen av Trafikaktiebolaget Grängesberg —Ozxelösunds aktier
               i Luossavaara - —XKiirunavaara aktiebolag. (Forts.) att det var
@@ -3834,20 +3877,13 @@
               från statsmakternas sida att lösa problemet på det sättet.
             </seg>
           </u>
-          <pb n="43" facs="https://betalab.kb.se/prot-1945--ak--27/prot_1945__ak__27-043.jp2/_view"/>
-          <note n="c0f305db">
-            [ES Ha
-          </note>
-          <note n="60e13725">
-            Nr 27. Lördagen den 9 juni 1945.
-          </note>
           <note n="b995513e">
             Häruti instämde herr Gavelin.
           </note>
           <note type="speaker" n="674c316e">
             Herr Hall:
           </note>
-          <u who="david_hall_faa3ea" xml:id="i-03c7be2a7de32a48-0" next="i-c363f0b5f4af6b06-0" n="35404828">
+          <u who="david_hall_faa3ea" xml:id="i-35404828378ac61d-1" next="i-35404828378ac61d-3" n="35404828">
             <seg n="155af98e">
               Herr talman! Kammaren har observerat att utskottet skrivit så
               litet som möjligt kring denna sak, och det är med tanke på att
@@ -3890,10 +3926,10 @@
             </seg>
           </u>
           <pb n="44" facs="https://betalab.kb.se/prot-1945--ak--27/prot_1945__ak__27-044.jp2/_view"/>
-          <note n="e647d8bd">
+          <note type="date" n="e83e5661">
             Lördagen den 9 juni 1945. Nr 27:
           </note>
-          <u who="david_hall_faa3ea" xml:id="i-c363f0b5f4af6b06-0" prev="i-03c7be2a7de32a48-0" n="35404828">
+          <u who="david_hall_faa3ea" xml:id="i-35404828378ac61d-2" prev="i-35404828378ac61d-1" n="35404828">
             <seg n="eafacf85">
               Inlösen av Trafikaktiebolaget Grängesberg—Ozelösunds aktier i
               Luossavaara —Kiirunavaara aktiebolag. (Forts.)
@@ -3962,23 +3998,25 @@
               ju också därför, som utskottet inte velat skriva mera än vad det
               gjort på denna punkt.
             </seg>
-            <seg n="36808441">
-              Inlösen av Trafikaktiebolaget Grängesberg—Ozxelösunds aktier
-              i Luossavaara —Kiirunavaara aktiebolag. (Forts.)
-            </seg>
           </u>
           <note n="ca848070">
             Herr talman! Jag skall inskränka mig till dessa erinringar och
             yrkar bifall till utskottets hemställan.
           </note>
           <pb n="45" facs="https://betalab.kb.se/prot-1945--ak--27/prot_1945__ak__27-045.jp2/_view"/>
-          <note n="e76dfcf6">
+          <note type="date" n="92908897">
             46 Nr 27. Lördagen den 9 juni 1945.
           </note>
+          <u who="david_hall_faa3ea" xml:id="i-35404828378ac61d-3" prev="i-35404828378ac61d-1" n="35404828">
+            <seg n="36808441">
+              Inlösen av Trafikaktiebolaget Grängesberg—Ozxelösunds aktier
+              i Luossavaara —Kiirunavaara aktiebolag. (Forts.)
+            </seg>
+          </u>
           <note type="speaker" n="5d5e90a2">
             Herr Hagberg i Luleå:
           </note>
-          <u who="hilding_hagberg_a6b9a0" xml:id="i-b0f8c62da96f099e-2" next="i-e3e50c6dc968b845-2" n="902345c2">
+          <u who="hilding_hagberg_a6b9a0" xml:id="i-902345c21b976f1b-6" next="i-902345c21b976f1b-8" n="902345c2">
             <seg n="e532fc7a">
               Herr talman! Först några ord till den senaste talaren herr Hall
               med anledning av hans polemik mot mig. Det första som kan ha en
@@ -4049,10 +4087,10 @@
             </seg>
           </u>
           <pb n="46" facs="https://betalab.kb.se/prot-1945--ak--27/prot_1945__ak__27-046.jp2/_view"/>
-          <note n="42ebe886">
+          <note type="date" n="1debef05">
             Lördagen den 9 juni 1945. Nr 27. 47
           </note>
-          <u who="hilding_hagberg_a6b9a0" xml:id="i-e3e50c6dc968b845-2" prev="i-b0f8c62da96f099e-2" n="902345c2">
+          <u who="hilding_hagberg_a6b9a0" xml:id="i-902345c21b976f1b-7" prev="i-902345c21b976f1b-6" n="902345c2">
             <seg n="d1da906b">
               Inlösen av Trafikaktiebolaget Grängesberg—Ozxelösunds aktier
               i Luossavaara
@@ -4129,6 +4167,12 @@
               någonting, borde vara mycket tacksam över att kunna utnyttja denna
               möjlighet som herr Löv-
             </seg>
+          </u>
+          <pb n="47" facs="https://betalab.kb.se/prot-1945--ak--27/prot_1945__ak__27-047.jp2/_view"/>
+          <note type="date" n="19c1a76d">
+            18 Nr 27. Lördagen den 9 juni 1945.
+          </note>
+          <u who="hilding_hagberg_a6b9a0" xml:id="i-902345c21b976f1b-8" prev="i-902345c21b976f1b-6" n="902345c2">
             <seg n="3cc11aab">
               Inlösen av Trafikaktiebolaget Grängesberg —Oxzxelösunds aktier
               i Luossavaara — Kiirunavaara aktiebolag. (Forts.)
@@ -4154,14 +4198,10 @@
               skall kunna bringas till en så snar lösning som möjligt.
             </seg>
           </u>
-          <pb n="47" facs="https://betalab.kb.se/prot-1945--ak--27/prot_1945__ak__27-047.jp2/_view"/>
-          <note n="1761a96b">
-            18 Nr 27. Lördagen den 9 juni 1945.
-          </note>
           <note type="speaker" n="020358c5">
             Chefen för finansdepartementet, herr statsrådet Wigforss:
           </note>
-          <u who="ernst_wigforss_164f7a" xml:id="i-2e47b55d824cab6f-1" next="i-b8ba997fba9488a6-1" n="f9dbc1f5">
+          <u who="ernst_wigforss_164f7a" xml:id="i-f9dbc1f5675d92c7-3" next="i-f9dbc1f5675d92c7-4" n="f9dbc1f5">
             <seg n="52ed40a6">
               Herr talman! Efter det enhälliga statsutskottsutlåtandet hade
               jag inte trott att jag skulle behöva uppträda i kammaren. Det
@@ -4214,10 +4254,10 @@
             </seg>
           </u>
           <pb n="48" facs="https://betalab.kb.se/prot-1945--ak--27/prot_1945__ak__27-048.jp2/_view"/>
-          <note n="966bc4fc">
+          <note type="date" n="5414aeff">
             Lördagen den 9 juni 1945. Nr 27. 49
           </note>
-          <u who="ernst_wigforss_164f7a" xml:id="i-b8ba997fba9488a6-1" prev="i-2e47b55d824cab6f-1" n="f9dbc1f5">
+          <u who="ernst_wigforss_164f7a" xml:id="i-f9dbc1f5675d92c7-4" prev="i-f9dbc1f5675d92c7-3" n="f9dbc1f5">
             <seg n="2bd7bf61">
               Inlösen av Trafikaktiebolaget Grängesberg —Ozxelösunds aktier
               i Luossavaara —Kiirunavaara aktiebolag. (Forts.)
@@ -4239,7 +4279,7 @@
           <note type="speaker" n="5d5e90a2">
             Herr Hagberg i Luleå:
           </note>
-          <u who="hilding_hagberg_a6b9a0" xml:id="i-964e540b2404fb22-1" n="902345c2">
+          <u who="hilding_hagberg_a6b9a0" xml:id="i-902345c21b976f1b-9" n="902345c2">
             <seg n="0e062ab9">
               Herr talman! Jag konstaterar först vad som framgår klart av finansministerns
               anförande, att man icke genomfört någon prövning med hänsyn till
@@ -4277,7 +4317,7 @@
           <note type="speaker" n="020358c5">
             Chefen för finansdepartementet, herr statsrådet Wigforss:
           </note>
-          <u who="ernst_wigforss_164f7a" xml:id="i-2e47b55d824cab6f-2" next="i-b8ba997fba9488a6-2" n="f9dbc1f5">
+          <u who="ernst_wigforss_164f7a" xml:id="i-f9dbc1f5675d92c7-5" next="i-f9dbc1f5675d92c7-7" n="f9dbc1f5">
             <seg n="84a8f035">
               Herr talman! J ag ber endast att få påpeka att herr Hagberg i
               Luleå måste ha hört mitt yttrande något ytligt. Vad jag yttrade
@@ -4302,17 +4342,13 @@
             Andra kammarens protokoll 1945. Nr 27. 4
           </note>
           <pb n="49" facs="https://betalab.kb.se/prot-1945--ak--27/prot_1945__ak__27-049.jp2/_view"/>
-          <note n="612f80c3">
+          <note type="date" n="491cbc32">
             50 Nr 27. Lördagen den 9 juni 1945.
           </note>
-          <u who="ernst_wigforss_164f7a" xml:id="i-b8ba997fba9488a6-2" prev="i-2e47b55d824cab6f-2" n="f9dbc1f5">
+          <u who="ernst_wigforss_164f7a" xml:id="i-f9dbc1f5675d92c7-6" prev="i-f9dbc1f5675d92c7-5" n="f9dbc1f5">
             <seg n="92ab72d6">
               Inlösen av Trafikaktiebolaget Grängesberg Oxelösunds aktier i
               Luossavaara —Kiirunavaara aktiebolag. (Forts.)
-            </seg>
-            <seg n="a46f630e">
-              ende utredangående utredning om kontroll av agenturverksamheten.
-              ning om kon-
             </seg>
           </u>
           <note n="bf0ffdac">
@@ -4329,13 +4365,19 @@
             Motion angå- — Föredrogs första lagutskottets utlåtande, nr 43,
             i anledning av väckt motion
           </note>
+          <u who="ernst_wigforss_164f7a" xml:id="i-f9dbc1f5675d92c7-7" prev="i-f9dbc1f5675d92c7-5" n="f9dbc1f5">
+            <seg n="a46f630e">
+              ende utredangående utredning om kontroll av agenturverksamheten.
+              ning om kon-
+            </seg>
+          </u>
           <note n="36887e38">
             troll av agen- Sedan utskottets hemställan föredragits, yttrade:
           </note>
           <note type="speaker" n="03115838">
             turverksamheten. Herr Vigelsbo:
           </note>
-          <u who="sven_vigelsbo_a65904" xml:id="i-1a4ec4d7f2461696-0" next="i-03b6d77e460914ed-0" n="ee1a5489">
+          <u who="sven_vigelsbo_a65904" xml:id="i-ee1a5489b2309f93-0" next="i-ee1a5489b2309f93-1" n="ee1a5489">
             <seg n="464cddae">
               Herr talman! När jag läste första delen av motiveringen i detta
               utskottsutlåtande fick jag det intrycket, att det skulle sluta
@@ -4394,10 +4436,10 @@
             </seg>
           </u>
           <pb n="50" facs="https://betalab.kb.se/prot-1945--ak--27/prot_1945__ak__27-050.jp2/_view"/>
-          <note n="368f1429">
+          <note type="date" n="91a37d67">
             Lördagen den 9 juni 1945. Nr 27. 51
           </note>
-          <u who="sven_vigelsbo_a65904" xml:id="i-03b6d77e460914ed-0" prev="i-1a4ec4d7f2461696-0" n="ee1a5489">
+          <u who="sven_vigelsbo_a65904" xml:id="i-ee1a5489b2309f93-1" prev="i-ee1a5489b2309f93-0" n="ee1a5489">
             <seg n="702125f8">
               Motion angående utredning om kontroll av agenturverksamheten.
               (Forts.) veckling 1 gången tid och hur det upprepade gånger gjorts
@@ -4449,7 +4491,7 @@
           <note type="speaker" n="3ad52bd7">
             Herr Lindahl:
           </note>
-          <u who="lars_lindahl_7e3de0" xml:id="i-67036ec53bce420d-0" next="i-fe723bb43a27624b-0" n="3906e9e6">
+          <u who="lars_lindahl_7e3de0" xml:id="i-3906e9e67efe4510-0" next="i-3906e9e67efe4510-1" n="3906e9e6">
             <seg n="2383a589">
               Herr talman! Som man här ifrån motionärernas sida fattat sig
               så pass kort och det inte heller har ställts något yrkande, skall
@@ -4481,10 +4523,10 @@
           <note n="ed3a411e">
             Förslag till lag om semester.
           </note>
-          <note n="b4ae9234">
+          <note type="date" n="6e6b6ce3">
             52 Nr 27. Lördagen den 9 juni 1945.
           </note>
-          <u who="lars_lindahl_7e3de0" xml:id="i-fe723bb43a27624b-0" prev="i-67036ec53bce420d-0" n="3906e9e6">
+          <u who="lars_lindahl_7e3de0" xml:id="i-3906e9e67efe4510-1" prev="i-3906e9e67efe4510-0" n="3906e9e6">
             <seg n="c945a11f">
               Motion angående utredning om kontroll av agenturverksamheten.
               (Forts.) Kooperativa förbundet, att en person som är ohederlig
@@ -4524,7 +4566,7 @@
           <note type="speaker" n="8f58bc84">
             Herr Vigelsbo:
           </note>
-          <u who="sven_vigelsbo_a65904" xml:id="i-6aac7cfc367dc302-0" n="ee1a5489">
+          <u who="sven_vigelsbo_a65904" xml:id="i-ee1a5489b2309f93-2" n="ee1a5489">
             <seg n="613a8747">
               Herr talman! I ett remissyttrande som åberopas i första lagutskottets
               utlåtande talas det om att denna agenturverksamhet har jämförelsevis
@@ -4569,7 +4611,7 @@
             i 12 $ i lagförslaget måtte utgå.
           </note>
           <pb n="52" facs="https://betalab.kb.se/prot-1945--ak--27/prot_1945__ak__27-052.jp2/_view"/>
-          <note n="32f73821">
+          <note type="date" n="528388a1">
             Lördagen den 9 juni 1945. Nr 27. 53
           </note>
           <note n="b707eff1">
@@ -4607,7 +4649,7 @@
           <note type="speaker" n="e34e79cb">
             Herr Dahlgren:
           </note>
-          <u who="gunnar_dahlgren_b4bb9d" xml:id="i-60949b494871280e-0" next="i-5711907be03d8114-0" n="f3834377">
+          <u who="gunnar_dahlgren_b4bb9d" xml:id="i-f3834377c4822deb-0" next="i-f3834377c4822deb-1" n="f3834377">
             <seg n="faccb0b0">
               Herr talman! När propositionen om semesterlagen framlades i riksdagen,
               kan man utan överdrift säga att den på en del punkter ganska radikalt
@@ -4661,10 +4703,10 @@
             </seg>
           </u>
           <pb n="53" facs="https://betalab.kb.se/prot-1945--ak--27/prot_1945__ak__27-053.jp2/_view"/>
-          <note n="3f2a7e9f">
+          <note type="date" n="16312759">
             54 Nr 27. Lördagen den 9 juni 1945.
           </note>
-          <u who="gunnar_dahlgren_b4bb9d" xml:id="i-5711907be03d8114-0" prev="i-60949b494871280e-0" n="f3834377">
+          <u who="gunnar_dahlgren_b4bb9d" xml:id="i-f3834377c4822deb-1" prev="i-f3834377c4822deb-0" n="f3834377">
             <seg n="a42bf94c">
               Förslag till lag om semester. (Forts.) alltför tidig förslitning.
               Man räknade vid denna lags antagande med att arbetarna därigenom
@@ -4696,7 +4738,7 @@
           <note type="speaker" n="a94297a6">
             Herr von Friesen:
           </note>
-          <u who="bertil_von_friesen_09a66b" xml:id="i-d9b36491b468411c-0" next="i-e0d2a08f633452ca-0" n="4d3daa69">
+          <u who="bertil_von_friesen_09a66b" xml:id="i-4d3daa6911c45904-0" next="i-4d3daa6911c45904-1" n="4d3daa69">
             <seg n="d557055d">
               Herr talman! Jämte ett par andra ledamöter av kammaren har jag
               väckt en motion i anslutning till den kungl. propositionen, som
@@ -4748,10 +4790,10 @@
             </seg>
           </u>
           <pb n="54" facs="https://betalab.kb.se/prot-1945--ak--27/prot_1945__ak__27-054.jp2/_view"/>
-          <note n="959e34b8">
+          <note type="date" n="6542af08">
             Lördagen den 9 juni 1945. Nr 27. 55
           </note>
-          <u who="bertil_von_friesen_09a66b" xml:id="i-e0d2a08f633452ca-0" prev="i-d9b36491b468411c-0" n="4d3daa69">
+          <u who="bertil_von_friesen_09a66b" xml:id="i-4d3daa6911c45904-1" prev="i-4d3daa6911c45904-0" n="4d3daa69">
             <seg n="1a743d2a">
               Förslag till lag om semester. (Forts.) en liten exempelsamling.
               Den skulle helt säkert kunna fullständigas. Vad jag vill komma
@@ -4774,7 +4816,7 @@
           <note type="speaker" n="f9a3092c">
             Herr Nilson i Eskilstuna:
           </note>
-          <u who="johan_nilson_66c6dc" xml:id="i-cdeddfc3afe561b8-0" next="i-4a755a89de66f6e9-0" n="6f3f6466">
+          <u who="johan_nilson_66c6dc" xml:id="i-6f3f64668b2871b0-0" next="i-6f3f64668b2871b0-1" n="6f3f6466">
             <seg n="930b42eb">
               Herr talman! Jag har inte begärt ordet för att försvara utskottet
               eller bemöta de invändningar, som gjorts, utan endast för att
@@ -4832,10 +4874,10 @@
             </seg>
           </u>
           <pb n="55" facs="https://betalab.kb.se/prot-1945--ak--27/prot_1945__ak__27-055.jp2/_view"/>
-          <note n="f43d0740">
+          <note type="date" n="96ce2e7c">
             56 Nr 27. Lördagen den 9 juni 1945.
           </note>
-          <u who="johan_nilson_66c6dc" xml:id="i-4a755a89de66f6e9-0" prev="i-cdeddfc3afe561b8-0" n="6f3f6466">
+          <u who="johan_nilson_66c6dc" xml:id="i-6f3f64668b2871b0-1" prev="i-6f3f64668b2871b0-0" n="6f3f6466">
             <seg n="306dbdbd">
               Förslag till lag om semester. (Forts.) utan något yrkande velat
               fästa uppmärksamheten på denna vitala angelägenhet i hopp om att
@@ -4849,7 +4891,7 @@
           <note type="speaker" n="f6d64016">
             Herr statsrådet Erlander:
           </note>
-          <u who="unknown" xml:id="i-52f235572faf1420-5" n="f039916d">
+          <u who="unknown" xml:id="i-f039916d32387e3c-12" n="f039916d">
             <seg n="ec18849a">
               Herr talman! Jag ber först att få uttala min tillfredsställelse
               över att detta omfattande lagkomplex har gått igenom utskottets
@@ -4914,10 +4956,10 @@
             </seg>
           </u>
           <pb n="56" facs="https://betalab.kb.se/prot-1945--ak--27/prot_1945__ak__27-056.jp2/_view"/>
-          <note n="cdad50a8">
+          <note type="date" n="2affeb74">
             Lördagen den 9 juni 1945. Nr 27. 57
           </note>
-          <u who="unknown" xml:id="i-9ea3a511625e5acb-5" n="f039916d">
+          <u who="unknown" xml:id="i-f039916d32387e3c-13" n="f039916d">
             <seg n="99c026e8">
               Förslag till lag om semester. (Forts.) det är för en arbetsgivare
               att glömma bort att betala ut en ersättning, som inte utgår omedelbart
@@ -4989,6 +5031,12 @@
               anslutit sig till vad semesterkommitterade på denna punkt uttalat
               och i all syn-
             </seg>
+          </u>
+          <pb n="57" facs="https://betalab.kb.se/prot-1945--ak--27/prot_1945__ak__27-057.jp2/_view"/>
+          <note type="date" n="94e2bf2f">
+            58 Nr 27. Lördagen den 9 juni 1945.
+          </note>
+          <u who="unknown" xml:id="i-f039916d32387e3c-14" n="f039916d">
             <seg n="0388266c">
               Förslag till lag om semester. (Forts.) nerhet efter ändringarna
               i lagarna om arbetsfredslagstiftningen, ha att motse en utveckling
@@ -5003,15 +5051,11 @@
               det kan man ju inte annat än uttrycka sin glädje över.
             </seg>
           </u>
-          <pb n="57" facs="https://betalab.kb.se/prot-1945--ak--27/prot_1945__ak__27-057.jp2/_view"/>
-          <note n="5019531c">
-            58 Nr 27. Lördagen den 9 juni 1945.
-          </note>
           <note type="speaker" n="2bdd988a">
             Herr Nilson i Eskilstuna erhöll på begäran ordet för kort genmäle
             och yttrade:
           </note>
-          <u who="johan_nilson_66c6dc" xml:id="i-cdeddfc3afe561b8-1" next="i-4a755a89de66f6e9-1" n="6f3f6466">
+          <u who="johan_nilson_66c6dc" xml:id="i-6f3f64668b2871b0-2" next="i-6f3f64668b2871b0-5" n="6f3f6466">
             <seg n="0a7a117f">
               Herr talman! Jag är tacksam för den älskvärda uppmärksamhet,
               som herr statsrådet ägnade mitt korta anförande, men jag beklagar,
@@ -5029,7 +5073,7 @@
           <note n="f27118ac">
             Härpå anförde
           </note>
-          <u who="johan_nilson_66c6dc" xml:id="i-4a755a89de66f6e9-1" prev="i-cdeddfc3afe561b8-1" n="6f3f6466">
+          <u who="johan_nilson_66c6dc" xml:id="i-6f3f64668b2871b0-3" prev="i-6f3f64668b2871b0-2" n="6f3f6466">
             <seg n="3f142456">
               Fröken Andersson: Herr talman! Efter herr statsrådets anförande
               kan jag fatta mig mycket kort.
@@ -5075,6 +5119,12 @@
               göra avtalsvägen få till stånd en sammanhängande ledighet. Från
               jordbrukar-
             </seg>
+          </u>
+          <pb n="58" facs="https://betalab.kb.se/prot-1945--ak--27/prot_1945__ak__27-058.jp2/_view"/>
+          <note type="date" n="4f3bcc01">
+            Lördagen den 9 juni 1945. Nr 27. 59
+          </note>
+          <u who="johan_nilson_66c6dc" xml:id="i-6f3f64668b2871b0-4" prev="i-6f3f64668b2871b0-2" n="6f3f6466">
             <seg n="cc417f36">
               Förslag till lag om semester. (Forts.) håll framhölls inom utskottet
               just detta, att därest man partout skulle hålla 'på en sammanhängande
@@ -5109,15 +5159,7 @@
               jag har därför ingen anledning att nu gå in på dessa utan nöjer
               mig, herr talman, med att yrka bifall till utskottets förslag.
             </seg>
-            <seg n="ab2f31a7">
-              pliktiga för veckling av försvars p förens tre Utskottets hemställan
-              föredrogs; och anförde därvid:
-            </seg>
           </u>
-          <pb n="58" facs="https://betalab.kb.se/prot-1945--ak--27/prot_1945__ak__27-058.jp2/_view"/>
-          <note n="bc55e204">
-            Lördagen den 9 juni 1945. Nr 27. 59
-          </note>
           <note n="792deef8">
             - Överläggningen var härmed slutad. Herr talmannen gav propositioner
             dels på bifall till utskottets hemställan dels ock på bifall till
@@ -5161,7 +5203,7 @@
             Utskottets hemställan bifölls.
           </note>
           <pb n="59" facs="https://betalab.kb.se/prot-1945--ak--27/prot_1945__ak__27-059.jp2/_view"/>
-          <note n="a0298cd0">
+          <note type="date" n="ec3d48da">
             60 Nr 27. Lördagen den 9 juni 1945.
           </note>
           <note n="f7124516">
@@ -5173,10 +5215,16 @@
             till lag om inkallelse av värnpliktiga för avlelse av vär veckling
             av försvarsberedskap m. m.
           </note>
+          <u who="johan_nilson_66c6dc" xml:id="i-6f3f64668b2871b0-5" prev="i-6f3f64668b2871b0-2" n="6f3f6466">
+            <seg n="ab2f31a7">
+              pliktiga för veckling av försvars p förens tre Utskottets hemställan
+              föredrogs; och anförde därvid:
+            </seg>
+          </u>
           <note type="speaker" n="7b767ef7">
             skap m.m. Herr Thapper:
           </note>
-          <u who="fridolf_thapper_d79730" xml:id="i-ce15d68acc7448a2-0" n="de8d43be">
+          <u who="fridolf_thapper_d79730" xml:id="i-de8d43be1338dc84-0" n="de8d43be">
             <seg n="c184de96">
               Herr talman! Jag har intet annat yrkande än vad utskottet
             </seg>
@@ -5243,7 +5291,7 @@
             </seg>
           </u>
           <pb n="60" facs="https://betalab.kb.se/prot-1945--ak--27/prot_1945__ak__27-060.jp2/_view"/>
-          <note n="b16db54b">
+          <note type="date" n="d6f7f018">
             Lördagen den 9 juni 1945. Nr 27. 61
           </note>
           <note n="f196a1f8">
@@ -5253,7 +5301,7 @@
           <note type="speaker" n="81d59689">
             Herr Thapper:
           </note>
-          <u who="fridolf_thapper_d79730" xml:id="i-ce15d68acc7448a2-1" n="de8d43be">
+          <u who="fridolf_thapper_d79730" xml:id="i-de8d43be1338dc84-1" n="de8d43be">
             <seg n="cc1f1422">
               Herr talman! Jag vill säga, att jag tycker, att utskottet i motiveringen
               praktiskt taget har skärpt uttrycket och säger mer än vad arbetsmarknadskommissionen
@@ -5281,7 +5329,7 @@
           <note type="speaker" n="f4502469">
             Herr Törnkvist:
           </note>
-          <u who="algot_tornkvist_7e4035" xml:id="i-c484613e997c80ed-0" next="i-fdbea897da78a0c0-0" n="d501a667">
+          <u who="algot_tornkvist_7e4035" xml:id="i-d501a6674b0d8878-0" next="i-d501a6674b0d8878-1" n="d501a667">
             <seg n="1c47f8dd">
               Herr talman! Jag ger min anslutning till de synpunkter herr Thapper
               har uttalat, men därutöver vill jag tillägga, att vi få en diskussion
@@ -5319,7 +5367,7 @@
             TREE samt angående utredning av frågan om överförande i samhällets
             ägo av för stämma mar-
           </note>
-          <u who="algot_tornkvist_7e4035" xml:id="i-fdbea897da78a0c0-0" prev="i-c484613e997c80ed-0" n="d501a667">
+          <u who="algot_tornkvist_7e4035" xml:id="i-d501a6674b0d8878-1" prev="i-d501a6674b0d8878-0" n="d501a667">
             <seg n="300d0314">
               städernas bebyggelse nödvändig tomtmark. kens använd-
             </seg>
@@ -5336,7 +5384,7 @@
             av kommunikatio-
           </note>
           <pb n="61" facs="https://betalab.kb.se/prot-1945--ak--27/prot_1945__ak__27-061.jp2/_view"/>
-          <note n="6a0a9ae6">
+          <note type="date" n="9d25da89">
             62 Nr 27. Lördagen den 9 juni 1945.
           </note>
           <note n="b3190507">
@@ -5407,7 +5455,7 @@
           <note type="speaker" n="55d284ee">
             Herr Ljungqvist:
           </note>
-          <u who="gunnar_ljungqvist_cec163" xml:id="i-69465b03ebe59b2e-0" next="i-fb4513fb6d6fda2b-0" n="17dc4b3e">
+          <u who="gunnar_ljungqvist_cec163" xml:id="i-17dc4b3e6c41d600-0" next="i-17dc4b3e6c41d600-4" n="17dc4b3e">
             <seg n="d5d9c365">
               Herr talman! Såsom reservant till andra tillfälliga utskottets
               nu förevarande utlåtande må det tillåtas mig att här framlägga
@@ -5423,14 +5471,14 @@
             </seg>
           </u>
           <pb n="62" facs="https://betalab.kb.se/prot-1945--ak--27/prot_1945__ak__27-062.jp2/_view"/>
-          <note n="7473d275">
+          <note type="date" n="6f97903b">
             Lördagen den 9 juni 1945. Nr 27. 63
           </note>
           <note n="b3190507">
             Utredning om samhällsplanering och samhällets behov att bestämma
             markens användning, m. m. (Forts.)
           </note>
-          <u who="gunnar_ljungqvist_cec163" xml:id="i-fb4513fb6d6fda2b-0" prev="i-69465b03ebe59b2e-0" n="17dc4b3e">
+          <u who="gunnar_ljungqvist_cec163" xml:id="i-17dc4b3e6c41d600-1" prev="i-17dc4b3e6c41d600-0" n="17dc4b3e">
             <seg n="2272f566">
               nr 109 av herrar Hansson i Skediga och Boman i Stavsund är på
               sätt och vis begränsad i anseende till sin syftning. Den avser
@@ -5499,6 +5547,16 @@
               av samhällsplanering i lokal, regional eller nationell skala,
               av
             </seg>
+          </u>
+          <pb n="63" facs="https://betalab.kb.se/prot-1945--ak--27/prot_1945__ak__27-063.jp2/_view"/>
+          <note type="date" n="f9c6ec6d">
+            64 Nr 27. Lördagen den 9 juni 1945.
+          </note>
+          <note n="b3190507">
+            Utredning om samhällsplanering och samhällets behov att bestämma
+            markens användning, m. m. (Forts.)
+          </note>
+          <u who="gunnar_ljungqvist_cec163" xml:id="i-17dc4b3e6c41d600-2" prev="i-17dc4b3e6c41d600-0" n="17dc4b3e">
             <seg n="34a38f5a">
               samhälleligt understött bostadsbyggande, av kommunikationernas
               och industriens utveckling, befolkningsutvecklingen, jordbrukets
@@ -5570,6 +5628,12 @@
               vittomfattande och radikala åtgärder, i alla fall inte av den
               natur som
             </seg>
+          </u>
+          <pb n="64" facs="https://betalab.kb.se/prot-1945--ak--27/prot_1945__ak__27-064.jp2/_view"/>
+          <note type="date" n="6e92adc4">
+            Lördagen den 9 juni 1945. Nr 27. 65
+          </note>
+          <u who="gunnar_ljungqvist_cec163" xml:id="i-17dc4b3e6c41d600-3" prev="i-17dc4b3e6c41d600-0" n="17dc4b3e">
             <seg n="1a5f3b36">
               Utredning om samhällsplanering och samhällets behov att bestämma
               markens
@@ -5643,6 +5707,19 @@
               särskilt stark känsla för det egna hemmets och äganderiättens
               värde. Detta har visat sig på många sätt under utvecklingens
             </seg>
+          </u>
+          <note n="c302a252">
+            Andra kammarens protokoll 1945. Nr 27. 5
+          </note>
+          <pb n="65" facs="https://betalab.kb.se/prot-1945--ak--27/prot_1945__ak__27-065.jp2/_view"/>
+          <note type="date" n="23e92cae">
+            66 Nr 27. Lördagen den 9 juni 1945.
+          </note>
+          <note n="b3190507">
+            Utredning om samhällsplanering och samhällets behov att bestämma
+            markens användning, m. m. (Forts.)
+          </note>
+          <u who="gunnar_ljungqvist_cec163" xml:id="i-17dc4b3e6c41d600-4" prev="i-17dc4b3e6c41d600-0" n="17dc4b3e">
             <seg n="dcef3e82">
               gång. Man har alltid strävat, som ju också framgår av, vill jag
               minnas, inte minst yttrandet av kommerskollegium att förvandla
@@ -5713,31 +5790,8 @@
               som antytts i motionerna och delvis också 1 majoritetsutlåtandet.
             </seg>
           </u>
-          <pb n="63" facs="https://betalab.kb.se/prot-1945--ak--27/prot_1945__ak__27-063.jp2/_view"/>
-          <note n="be05add7">
-            64 Nr 27. Lördagen den 9 juni 1945.
-          </note>
-          <note n="b3190507">
-            Utredning om samhällsplanering och samhällets behov att bestämma
-            markens användning, m. m. (Forts.)
-          </note>
-          <pb n="64" facs="https://betalab.kb.se/prot-1945--ak--27/prot_1945__ak__27-064.jp2/_view"/>
-          <note n="af55687c">
-            Lördagen den 9 juni 1945. Nr 27. 65
-          </note>
-          <note n="c302a252">
-            Andra kammarens protokoll 1945. Nr 27. 5
-          </note>
-          <pb n="65" facs="https://betalab.kb.se/prot-1945--ak--27/prot_1945__ak__27-065.jp2/_view"/>
-          <note n="9296300c">
-            66 Nr 27. Lördagen den 9 juni 1945.
-          </note>
-          <note n="b3190507">
-            Utredning om samhällsplanering och samhällets behov att bestämma
-            markens användning, m. m. (Forts.)
-          </note>
           <pb n="66" facs="https://betalab.kb.se/prot-1945--ak--27/prot_1945__ak__27-066.jp2/_view"/>
-          <note n="8d288673">
+          <note type="date" n="f961480f">
             Lördagen den 9 juni 1945. Nr 27. 67
           </note>
           <note n="29ffc444">
@@ -5754,7 +5808,7 @@
           <note type="speaker" n="21f3c03d">
             Herr Hansson i Skegrie:
           </note>
-          <u who="per_albin_hansson_dd458b" xml:id="i-6dee95f1d2394635-2" next="i-f7bcb18baaa24b24-2" n="b4190440">
+          <u who="per_albin_hansson_dd458b" xml:id="i-b419044005a87096-5" next="i-b419044005a87096-8" n="b4190440">
             <seg n="72f0d339">
               Herr talman! Av den reservation, som av mig och herr Swedberg
               fogats till detta utskottsutlåtande, framgår, att vissa synpunkter
@@ -5817,14 +5871,14 @@
             </seg>
           </u>
           <pb n="67" facs="https://betalab.kb.se/prot-1945--ak--27/prot_1945__ak__27-067.jp2/_view"/>
-          <note n="8c557b69">
+          <note type="date" n="8cd9a870">
             68 Nr 27. Lördagen den 9 juni 1945.
           </note>
           <note n="b3190507">
             Utredning om samhällsplanering och samhällets behov att bestämma
             markens användning, m. m. (Forts.)
           </note>
-          <u who="per_albin_hansson_dd458b" xml:id="i-f7bcb18baaa24b24-2" prev="i-6dee95f1d2394635-2" n="b4190440">
+          <u who="per_albin_hansson_dd458b" xml:id="i-b419044005a87096-6" prev="i-b419044005a87096-5" n="b4190440">
             <seg n="59f9e0e9">
               blunda för att detta är en inkörsport för samhällets kontroll
               över produktionen och näringslivet. Att man med tillhjälp av ett
@@ -5895,6 +5949,16 @@
               resultat, som den i dagarna avslutade stadsplaneutredningen framlagt,
               kan jag inte finna
             </seg>
+          </u>
+          <pb n="68" facs="https://betalab.kb.se/prot-1945--ak--27/prot_1945__ak__27-068.jp2/_view"/>
+          <note type="date" n="c6c07be3">
+            Lördagen den 9 juni 1945. Nr 27. 69
+          </note>
+          <note n="b3190507">
+            Utredning om samhällsplanering och samhällets behov att bestämma
+            markens användning, m. m. (Forts.)
+          </note>
+          <u who="per_albin_hansson_dd458b" xml:id="i-b419044005a87096-7" prev="i-b419044005a87096-5" n="b4190440">
             <seg n="40424169">
               annat än att det område, som ligger mellan dessa båda kommittéers
               verksam - hetsfält, är synnerligen litet. Det kan ifrågasättas
@@ -5929,6 +5993,11 @@
               inte att man kan komma närmare målet än vad Femme stadsplaneutredning
               har kommit och den i fjol begärda utredningen kan
             </seg>
+          </u>
+          <note n="04ee98c7">
+            omma.
+          </note>
+          <u who="per_albin_hansson_dd458b" xml:id="i-b419044005a87096-8" prev="i-b419044005a87096-5" n="b4190440">
             <seg n="7890d0e0">
               Av dessa skäl anser jag, herr talman, att det icke är lämpligt
               att på detta stadium föranstalta om en utredning, som skulle läggas
@@ -5948,24 +6017,13 @@
               och herr Swedberg avgivna reservationen.
             </seg>
           </u>
-          <pb n="68" facs="https://betalab.kb.se/prot-1945--ak--27/prot_1945__ak__27-068.jp2/_view"/>
-          <note n="3719608b">
-            Lördagen den 9 juni 1945. Nr 27. 69
-          </note>
-          <note n="b3190507">
-            Utredning om samhällsplanering och samhällets behov att bestämma
-            markens användning, m. m. (Forts.)
-          </note>
-          <note n="04ee98c7">
-            omma.
-          </note>
           <note n="020eac82">
             Häruti instämde herr Swedberg.
           </note>
           <note type="speaker" n="d181437f">
             Herr Hagberg i Malmö:
           </note>
-          <u who="hilding_hagberg_a6b9a0" xml:id="i-b0f8c62da96f099e-3" next="i-e3e50c6dc968b845-3" n="902345c2">
+          <u who="hilding_hagberg_a6b9a0" xml:id="i-902345c21b976f1b-10" next="i-902345c21b976f1b-13" n="902345c2">
             <seg n="20be6b26">
               Herr talman! Jag har begärt ordet för att helt och fullt instämma
               i ett uttalande av utskottsmajoriteten. Det heter nämligen på
@@ -5986,14 +6044,14 @@
             </seg>
           </u>
           <pb n="69" facs="https://betalab.kb.se/prot-1945--ak--27/prot_1945__ak__27-069.jp2/_view"/>
-          <note n="dc63e9b5">
+          <note type="date" n="88afb6e0">
             70 Nr 27. Lördagen den 9 juni 1945.
           </note>
           <note n="b3190507">
             Utredning om samhällsplanering och samhällets behov att bestämma
             markens användning, m. m. (Forts.)
           </note>
-          <u who="hilding_hagberg_a6b9a0" xml:id="i-e3e50c6dc968b845-3" prev="i-b0f8c62da96f099e-3" n="902345c2">
+          <u who="hilding_hagberg_a6b9a0" xml:id="i-902345c21b976f1b-11" prev="i-902345c21b976f1b-10" n="902345c2">
             <seg n="1d2a255e">
               denna fråga, tycker man nog, att den är ganska enkel. Man säger
               sig, att vinsterna av en jordvärdestegring ofta äro oförtjänta,
@@ -6065,6 +6123,12 @@
               dessa svar bli så formulerade, att de tillfredsställa honom i
               full utsträckning, och om de
             </seg>
+          </u>
+          <pb n="70" facs="https://betalab.kb.se/prot-1945--ak--27/prot_1945__ak__27-070.jp2/_view"/>
+          <note type="date" n="fcf9ee42">
+            Lördagen den 9 juni 1945. Nr 27. 71
+          </note>
+          <u who="hilding_hagberg_a6b9a0" xml:id="i-902345c21b976f1b-12" prev="i-902345c21b976f1b-10" n="902345c2">
             <seg n="1a5f3b36">
               Utredning om samhällsplanering och samhällets behov att bestämma
               markens
@@ -6138,6 +6202,16 @@
               Även jag har vissa erfarenheter från England. Där finnes ju en
               industrialism, som inte alls har någon mot-
             </seg>
+          </u>
+          <pb n="71" facs="https://betalab.kb.se/prot-1945--ak--27/prot_1945__ak__27-071.jp2/_view"/>
+          <note type="date" n="f31320d8">
+            72 Nr 27. Lördagen den 9 juni 1945.
+          </note>
+          <note n="b3190507">
+            Utredning om samhällsplanering och samhällets behov att bestämma
+            markens användning, m. m. (Forts.)
+          </note>
+          <u who="hilding_hagberg_a6b9a0" xml:id="i-902345c21b976f1b-13" prev="i-902345c21b976f1b-10" n="902345c2">
             <seg n="12ebb34e">
               svarighet i Sverige, och industridistrikt av ett slag. som vi
               lyckligtvis ha varit alldeles förskonade från. De reflexioner,
@@ -6189,18 +6263,6 @@
               planering av detta slag, som motionärerna synas räkna med».
             </seg>
           </u>
-          <pb n="70" facs="https://betalab.kb.se/prot-1945--ak--27/prot_1945__ak__27-070.jp2/_view"/>
-          <note n="f21d8edb">
-            Lördagen den 9 juni 1945. Nr 27. 71
-          </note>
-          <pb n="71" facs="https://betalab.kb.se/prot-1945--ak--27/prot_1945__ak__27-071.jp2/_view"/>
-          <note n="b0f530d3">
-            72 Nr 27. Lördagen den 9 juni 1945.
-          </note>
-          <note n="b3190507">
-            Utredning om samhällsplanering och samhällets behov att bestämma
-            markens användning, m. m. (Forts.)
-          </note>
           <note n="bd7399f5">
             Herr talman! Jag hemställer om bifall till den av herrar Fahlman
             och Ljungqvist avgivna reservationen.
@@ -6208,7 +6270,7 @@
           <note type="speaker" n="1ad29e0d">
             Herr Jansson i Kalix:
           </note>
-          <u who="robert_jansson_249d07" xml:id="i-5339c3e2aabdbf46-0" next="i-fef57c966aa92044-0" n="f80ead94">
+          <u who="robert_jansson_249d07" xml:id="i-f80ead9440d096e4-0" next="i-f80ead9440d096e4-3" n="f80ead94">
             <seg n="09f855ea">
               Herr talman! Så vitt jag kunnat finna av de till utskottsutlåtandet
               fogade reservationerna äro reservanterna ense med utskottsmajoriteten
@@ -6228,14 +6290,21 @@
             </seg>
           </u>
           <pb n="72" facs="https://betalab.kb.se/prot-1945--ak--27/prot_1945__ak__27-072.jp2/_view"/>
-          <note n="7251d546">
+          <note type="date" n="6a8e8321">
             Lördagen den 9 juni 1945. Nr 27. 73
           </note>
-          <u who="robert_jansson_249d07" xml:id="i-fef57c966aa92044-0" prev="i-5339c3e2aabdbf46-0" n="f80ead94">
+          <u who="robert_jansson_249d07" xml:id="i-f80ead9440d096e4-1" prev="i-f80ead9440d096e4-0" n="f80ead94">
             <seg n="1a5f3b36">
               Utredning om samhällsplanering och samhällets behov att bestämma
               markens
             </seg>
+          </u>
+          <note n="62c26e0b">
+            användning, m. m. (Forts.) nerna i vissa fall ha intresse av
+            att, exempelvis i och för bebyggelsens lämpliga ordnande, komma
+            i besittning av lämpliga markområden.
+          </note>
+          <u who="robert_jansson_249d07" xml:id="i-f80ead9440d096e4-2" prev="i-f80ead9440d096e4-0" n="f80ead94">
             <seg n="c27a37bf">
               Herrar Hansson i Skegrie och Swedberg finna, så vitt jag rätt
               förstått innehållet i deras reservation, ingen anledning till
@@ -6306,6 +6375,16 @@
               Den erfarenhet man har av det nuvarande expropriationsförfarandet
               visar,
             </seg>
+          </u>
+          <pb n="73" facs="https://betalab.kb.se/prot-1945--ak--27/prot_1945__ak__27-073.jp2/_view"/>
+          <note type="date" n="23209480">
+            74 Nr 27. Lördagen den 9 juni 1945.
+          </note>
+          <note n="b3190507">
+            Utredning om samhällsplanering och samhällets behov att bestämma
+            markens användning, m. m. (Forts.)
+          </note>
+          <u who="robert_jansson_249d07" xml:id="i-f80ead9440d096e4-3" prev="i-f80ead9440d096e4-0" n="f80ead94">
             <seg n="1a67534c">
               att det medfört så betungande kostnader för de samhällen, som
               använt sig därav, att stadsplaneläggningen försvårats och i praktiken
@@ -6344,19 +6423,6 @@
               eller vad man vill kalla dem.
             </seg>
           </u>
-          <note n="62c26e0b">
-            användning, m. m. (Forts.) nerna i vissa fall ha intresse av
-            att, exempelvis i och för bebyggelsens lämpliga ordnande, komma
-            i besittning av lämpliga markområden.
-          </note>
-          <pb n="73" facs="https://betalab.kb.se/prot-1945--ak--27/prot_1945__ak__27-073.jp2/_view"/>
-          <note n="1cc25da7">
-            74 Nr 27. Lördagen den 9 juni 1945.
-          </note>
-          <note n="b3190507">
-            Utredning om samhällsplanering och samhällets behov att bestämma
-            markens användning, m. m. (Forts.)
-          </note>
           <note n="7c25fabd">
             Då utskottsmajoriteten funnit, att utredningen rörande motionerna
             II: 109, 346 och 449 behandar sådana frågor, som icke tidigare
@@ -6372,7 +6438,7 @@
           <note type="speaker" n="acdbde01">
             Herr Persson i Stockholm:
           </note>
-          <u who="set_persson_125ae3" xml:id="i-85451bb293c376d9-0" next="i-61dc0a2d481b10df-0" n="994d6b1d">
+          <u who="set_persson_125ae3" xml:id="i-994d6b1d594a15f4-0" next="i-994d6b1d594a15f4-3" n="994d6b1d">
             <seg n="1351aff0">
               Herr talman! Jag vill uttala min odelade tillfredsställelse med
               utskottsmajoritetens ställningstagande till de motioner, som nu
@@ -6396,14 +6462,14 @@
             </seg>
           </u>
           <pb n="74" facs="https://betalab.kb.se/prot-1945--ak--27/prot_1945__ak__27-074.jp2/_view"/>
-          <note n="fcfc3388">
+          <note type="date" n="3d174dd7">
             Lördagen den 9 juni 1945. Nr 27. 75
           </note>
           <note n="b3190507">
             Utredning om samhällsplanering och samhällets behov att bestämma
             markens användning, m. m. (Forts.)
           </note>
-          <u who="set_persson_125ae3" xml:id="i-61dc0a2d481b10df-0" prev="i-85451bb293c376d9-0" n="994d6b1d">
+          <u who="set_persson_125ae3" xml:id="i-994d6b1d594a15f4-1" prev="i-994d6b1d594a15f4-0" n="994d6b1d">
             <seg n="91c94f5d">
               att »man får icke undervärdera den betydelse, som den enskilda
               äganderätten
@@ -6475,6 +6541,16 @@
               vara lämpliga ur såväl hälsosynpunkt som ur synpunkten av nödvändigheten
               att tillgodose industriens behov av arbetskraft. Tomtjobbares
             </seg>
+          </u>
+          <pb n="75" facs="https://betalab.kb.se/prot-1945--ak--27/prot_1945__ak__27-075.jp2/_view"/>
+          <note type="date" n="dcf84b07">
+            76 Nr 27. Lördagen den 9 juni 1945.
+          </note>
+          <note n="b3190507">
+            Utredning om samhällsplanering och samhällets behov att bestämma
+            markens användning, m. m. (Forts.)
+          </note>
+          <u who="set_persson_125ae3" xml:id="i-994d6b1d594a15f4-2" prev="i-994d6b1d594a15f4-0" n="994d6b1d">
             <seg n="622219bc">
               och enskilda markägares oförtjänta inkomster av jordvärdestegring
               skola omöjliggöras. En nödvändig begränsning av stora städers
@@ -6543,6 +6619,16 @@
               program måste nu i största utsträckning få karaktären av ett dagspolitiskt
               handelsprogram för den riks-
             </seg>
+          </u>
+          <pb n="76" facs="https://betalab.kb.se/prot-1945--ak--27/prot_1945__ak__27-076.jp2/_view"/>
+          <note type="date" n="f03dc81e">
+            Lördagen den 9 juni 1945. Nr 27. TT
+          </note>
+          <note n="b3190507">
+            Utredning om samhällsplanering och samhällets behov att bestämma
+            markens användning, m. m. (Forts.)
+          </note>
+          <u who="set_persson_125ae3" xml:id="i-994d6b1d594a15f4-3" prev="i-994d6b1d594a15f4-0" n="994d6b1d">
             <seg n="77fbc9a5">
               dagsmajoritet, som tillika med hela arbetarrörelsen givit sin
               anslutning till detsamma. Det är därför att hoppas, att regeringen
@@ -6553,26 +6639,10 @@
               åtgärder redan inom en snar framtid.
             </seg>
           </u>
-          <pb n="75" facs="https://betalab.kb.se/prot-1945--ak--27/prot_1945__ak__27-075.jp2/_view"/>
-          <note n="a91d96a6">
-            76 Nr 27. Lördagen den 9 juni 1945.
-          </note>
-          <note n="b3190507">
-            Utredning om samhällsplanering och samhällets behov att bestämma
-            markens användning, m. m. (Forts.)
-          </note>
-          <pb n="76" facs="https://betalab.kb.se/prot-1945--ak--27/prot_1945__ak__27-076.jp2/_view"/>
-          <note n="300e3632">
-            Lördagen den 9 juni 1945. Nr 27. TT
-          </note>
-          <note n="b3190507">
-            Utredning om samhällsplanering och samhällets behov att bestämma
-            markens användning, m. m. (Forts.)
-          </note>
           <note type="speaker" n="02393dfb">
             Herr Thorell:
           </note>
-          <u who="edvard_thorell_8dc1be" xml:id="i-62ec63ab6bc8f59e-2" next="i-7e31e7fd957141a8-2" n="211dffb9">
+          <u who="edvard_thorell_8dc1be" xml:id="i-211dffb9e6a88638-5" next="i-211dffb9e6a88638-6" n="211dffb9">
             <seg n="973c3eeb">
               Herr talman! Jag har begärt ordet för att gå in på den motion,
               som min ärade företrädare här på talarstolen senast behandlade,
@@ -6635,14 +6705,14 @@
             </seg>
           </u>
           <pb n="77" facs="https://betalab.kb.se/prot-1945--ak--27/prot_1945__ak__27-077.jp2/_view"/>
-          <note n="8d3bf631">
+          <note type="date" n="3d05ca73">
             78 Nr 27. Lördagen den 9 juni 1945.
           </note>
           <note n="b3190507">
             Utredning om samhällsplanering och samhällets behov att bestämma
             markens användning, m. m. (Forts.)
           </note>
-          <u who="edvard_thorell_8dc1be" xml:id="i-7e31e7fd957141a8-2" prev="i-62ec63ab6bc8f59e-2" n="211dffb9">
+          <u who="edvard_thorell_8dc1be" xml:id="i-211dffb9e6a88638-6" prev="i-211dffb9e6a88638-5" n="211dffb9">
             <seg n="218b1622">
               Området är taxerat till omkring 1 000000 kronor. Då kunde man
               ju tänka sig, att när det gällde ett område utanför Stockholms
@@ -6704,7 +6774,7 @@
           <note type="speaker" n="0d89e03c">
             Herr Nilsson i Stockholm:
           </note>
-          <u who="torsten_nilsson_e19d74" xml:id="i-4af5f6fd97aa5c3a-0" next="i-1e35070ad01f5165-0" n="5a78839c">
+          <u who="torsten_nilsson_e19d74" xml:id="i-2847c7be645ff93f-0" next="i-2847c7be645ff93f-2" n="5a78839c">
             <seg n="b695c139">
               Herr talman! Jag fäste mig vid några vändningar, som herr Hagberg
               i Malmö hade i det anförande, som han höll för en liten stund
@@ -6721,14 +6791,14 @@
             </seg>
           </u>
           <pb n="78" facs="https://betalab.kb.se/prot-1945--ak--27/prot_1945__ak__27-078.jp2/_view"/>
-          <note n="ea75091c">
+          <note type="date" n="611ff676">
             Lördagen den 9 juni 1945. Nr 27. 79
           </note>
           <note n="b3190507">
             Utredning om samhällsplanering och samhällets behov att bestämma
             markens användning, m. m. (Forts.)
           </note>
-          <u who="torsten_nilsson_e19d74" xml:id="i-1e35070ad01f5165-0" prev="i-4af5f6fd97aa5c3a-0" n="5a78839c">
+          <u who="torsten_nilsson_e19d74" xml:id="i-2847c7be645ff93f-1" prev="i-2847c7be645ff93f-0" n="5a78839c">
             <seg n="efa771f3">
               det med den jordvärdestegringsskatt, som tid efter annan har
               dykt upp i dis-
@@ -6810,6 +6880,12 @@
               Det är anledningen till att den företeelse har uppstått, som man
               naturligtvis kan påvisa när det gäller
             </seg>
+          </u>
+          <pb n="79" facs="https://betalab.kb.se/prot-1945--ak--27/prot_1945__ak__27-079.jp2/_view"/>
+          <note type="date" n="448412e7">
+            80 Nr 27. Lördagen den 9 juni 1945.
+          </note>
+          <u who="torsten_nilsson_e19d74" xml:id="i-2847c7be645ff93f-2" prev="i-2847c7be645ff93f-0" n="5a78839c">
             <seg n="246a9474">
               Utredning om samhällsplanering och samhällets behov att bestämma
               markens användning, m. m. (Forts.) försäljning av såväl ecklesiastika
@@ -6861,10 +6937,6 @@
               korthet sagt få yrka bifall till utskottets förslag.
             </seg>
           </u>
-          <pb n="79" facs="https://betalab.kb.se/prot-1945--ak--27/prot_1945__ak__27-079.jp2/_view"/>
-          <note n="ed71fe66">
-            80 Nr 27. Lördagen den 9 juni 1945.
-          </note>
           <note n="556abe68">
             Herr talmannen, som under detta anförande återtagit ledningen
             av förhandlingarna, lämnade på begäran ordet för kort genmäle
@@ -6873,7 +6945,7 @@
           <note type="speaker" n="72271358">
             Herr Hagberg i Malmö, som yttrade:
           </note>
-          <u who="hilding_hagberg_a6b9a0" xml:id="i-b0f8c62da96f099e-4" next="i-e3e50c6dc968b845-4" n="902345c2">
+          <u who="hilding_hagberg_a6b9a0" xml:id="i-902345c21b976f1b-14" next="i-902345c21b976f1b-15" n="902345c2">
             <seg n="b9229cab">
               Herr talman! Den senaste ärade talaren bestred icke, att det
               allmänna, när det gäller försäljning till enskilda, understundom
@@ -6895,10 +6967,10 @@
             </seg>
           </u>
           <pb n="80" facs="https://betalab.kb.se/prot-1945--ak--27/prot_1945__ak__27-080.jp2/_view"/>
-          <note n="c5d36537">
+          <note type="date" n="cc111514">
             Lördagen den 9 juni 1945. Nr 27. 81
           </note>
-          <u who="hilding_hagberg_a6b9a0" xml:id="i-e3e50c6dc968b845-4" prev="i-b0f8c62da96f099e-4" n="902345c2">
+          <u who="hilding_hagberg_a6b9a0" xml:id="i-902345c21b976f1b-15" prev="i-902345c21b976f1b-14" n="902345c2">
             <seg n="1a5f3b36">
               Utredning om samhällsplanering och samhällets behov att bestämma
               markens
@@ -6929,7 +7001,7 @@
           <note type="speaker" n="05bc003e">
             Herr Karlsson i Granebo:
           </note>
-          <u who="verner_karlsson_dcdc3d" xml:id="i-a20857da89d9864b-0" next="i-3207083556e89bcd-0" n="cc5cab62">
+          <u who="verner_karlsson_dcdc3d" xml:id="i-cc5cab622072eb2f-0" next="i-cc5cab622072eb2f-1" n="cc5cab62">
             <seg n="1db06dec">
               Herr talman! J ag har med stort intresse följt denna debatt,
               emedan jag icke är alldeles främmande på de områden där diskussionen
@@ -6986,14 +7058,14 @@
             Andra kammarens protokoll 1945. Nr 27. 6
           </note>
           <pb n="81" facs="https://betalab.kb.se/prot-1945--ak--27/prot_1945__ak__27-081.jp2/_view"/>
-          <note n="6a09e137">
+          <note type="date" n="80b896fa">
             82 Nr 27. Lördagen den 9 juni 1945.
           </note>
           <note n="b3190507">
             Utredning om samhällsplanering och samhällets behov att bestämma
             markens användning, m. m. (Forts.)
           </note>
-          <u who="verner_karlsson_dcdc3d" xml:id="i-3207083556e89bcd-0" prev="i-a20857da89d9864b-0" n="cc5cab62">
+          <u who="verner_karlsson_dcdc3d" xml:id="i-cc5cab622072eb2f-1" prev="i-cc5cab622072eb2f-0" n="cc5cab62">
             <seg n="fd7ec53f">
               emot dessa ställer detta förslag, kan jag inte finna, att tiden
               är mogen för ett så genomgripande förslag som detta, utan jag
@@ -7031,7 +7103,7 @@
             Herr Nilsson i Stockholm, som nu på begäran erhöll ordet för
             kort genmäle, yttrade:
           </note>
-          <u who="torsten_nilsson_e19d74" xml:id="i-62481988227b3f56-0" n="5a78839c">
+          <u who="torsten_nilsson_e19d74" xml:id="i-2847c7be645ff93f-3" n="5a78839c">
             <seg n="a6218d86">
               Herr talman! Till den föregående ärade talaren vill jag för det
               första säga, att det kan vara alldeles riktigt, som han säger,
@@ -7056,7 +7128,7 @@
             Herr Karlsson i Granebo, som likaledes på begäran erhöll ordet
             för kort genmäle, anförde:
           </note>
-          <u who="verner_karlsson_dcdc3d" xml:id="i-12225adb006b43bb-0" n="cc5cab62">
+          <u who="verner_karlsson_dcdc3d" xml:id="i-cc5cab622072eb2f-2" n="cc5cab62">
             <seg n="540eb8d8">
               Herr talman! Med anledning av vad den föregående ärade talaren
               sade till sist i sitt anförande vill jag bara fråga: vad menar
@@ -7070,7 +7142,7 @@
             Jämväl herr Nilsson i Stockholm erhöll på begäran ordet för kort
             genmäle och yttrade:
           </note>
-          <u who="torsten_nilsson_e19d74" xml:id="i-62481988227b3f56-1" n="5a78839c">
+          <u who="torsten_nilsson_e19d74" xml:id="i-2847c7be645ff93f-4" n="5a78839c">
             <seg n="57c743e8">
               Herr talman! I fråga om det sista anförandet skulle jag bara
               kunna hänvisa till den utredning som man gjort i det konservativa
@@ -7082,7 +7154,7 @@
             </seg>
           </u>
           <pb n="82" facs="https://betalab.kb.se/prot-1945--ak--27/prot_1945__ak__27-082.jp2/_view"/>
-          <note n="4fccaa4f">
+          <note type="date" n="68a3a36a">
             Lördagen den 9 juni 1945. Nr 27. 83
           </note>
           <note n="b3190507">
@@ -7095,7 +7167,7 @@
           <note type="speaker" n="ab92b1e3">
             Herr Hansson i Skediga:
           </note>
-          <u who="per_albin_hansson_dd458b" xml:id="i-6dee95f1d2394635-3" next="i-f7bcb18baaa24b24-3" n="b4190440">
+          <u who="per_albin_hansson_dd458b" xml:id="i-b419044005a87096-9" next="i-b419044005a87096-10" n="b4190440">
             <seg n="2f3cc01a">
               Herr talman! Jag förstår, att jag på förmiddagen trampade herr
               Thorell på tårna, när jag var inne på interpellationssvaret om
@@ -7170,14 +7242,14 @@
             </seg>
           </u>
           <pb n="83" facs="https://betalab.kb.se/prot-1945--ak--27/prot_1945__ak__27-083.jp2/_view"/>
-          <note n="6011b715">
+          <note type="date" n="67132409">
             84 Nr 27. Lördagen den 9 juni 1945.
           </note>
           <note n="b3190507">
             Utredning om samhällsplanering och samhällets behov att bestämma
             markens användning, m. m. (Forts.)
           </note>
-          <u who="per_albin_hansson_dd458b" xml:id="i-f7bcb18baaa24b24-3" prev="i-6dee95f1d2394635-3" n="b4190440">
+          <u who="per_albin_hansson_dd458b" xml:id="i-b419044005a87096-10" prev="i-b419044005a87096-9" n="b4190440">
             <seg n="c04c2907">
               mästaren då inte vara med om. Dagen efter gick han emellertid
               för att göra upp om köpet efter detta pris, men nu ville tomtägaren
@@ -7209,7 +7281,7 @@
           <note type="speaker" n="0fef9c97">
             Herr Thorell erhöll på begäran ordet för kort genmäle och yttrade:
           </note>
-          <u who="edvard_thorell_8dc1be" xml:id="i-c08a9f61b91e4273-0" n="211dffb9">
+          <u who="edvard_thorell_8dc1be" xml:id="i-211dffb9e6a88638-7" n="211dffb9">
             <seg n="6ca6c66d">
               Herr talman! Jag skall först bara med några ord vända mig till
               herr Nilsson i Stockholm. Han sade, att om en stad inköpte jord,
@@ -7236,7 +7308,7 @@
           <note type="speaker" n="55d284ee">
             Herr Ljungqvist:
           </note>
-          <u who="gunnar_ljungqvist_cec163" xml:id="i-69465b03ebe59b2e-1" next="i-fb4513fb6d6fda2b-1" n="17dc4b3e">
+          <u who="gunnar_ljungqvist_cec163" xml:id="i-17dc4b3e6c41d600-5" next="i-17dc4b3e6c41d600-7" n="17dc4b3e">
             <seg n="7ea7a408">
               Herr talman! Det var ett par uttalanden av herr Jansson i Kalix,
               om vilka jag vill säga några korta meningar. Han var här inne
@@ -7262,14 +7334,14 @@
           <note n="d71f7969">
             oo I
           </note>
-          <note n="80ae808a">
+          <note type="date" n="ee923ec6">
             Lördagen den 9 juni 1945. Nr 27.
           </note>
           <note n="b3190507">
             Utredning om samhällsplanering och samhällets behov att bestämma
             markens användning, m. m. (Forts.)
           </note>
-          <u who="gunnar_ljungqvist_cec163" xml:id="i-fb4513fb6d6fda2b-1" prev="i-69465b03ebe59b2e-1" n="17dc4b3e">
+          <u who="gunnar_ljungqvist_cec163" xml:id="i-17dc4b3e6c41d600-6" prev="i-17dc4b3e6c41d600-5" n="17dc4b3e">
             <seg n="ed69cc17">
               man kan riskera, att en riksdirigering eller landsdirigering,
               om den inte sköts på ett förnuftigt sätt, kan bli till en tvångströja,
@@ -7337,6 +7409,18 @@
               tarva en översyn. Nya problem ha inställt sig som påkalla uppmärksamhet
               från det allmännas sida. Emellertid kan man konstatera, att de
             </seg>
+          </u>
+          <pb n="85" facs="https://betalab.kb.se/prot-1945--ak--27/prot_1945__ak__27-085.jp2/_view"/>
+          <note type="date" n="672d2227">
+            86 Nr 27. Lördagen den 9 juni 1945.
+          </note>
+          <note n="17078618">
+            Utredning om samhällsplanering och samhällets behov att bestämma
+            markens användning, m. m. (Forts.) flesta av de centrala problem,
+            som framhållits i den föreliggande motionen, redan gjorts till
+            föremål för utredningar.»
+          </note>
+          <u who="gunnar_ljungqvist_cec163" xml:id="i-17dc4b3e6c41d600-7" prev="i-17dc4b3e6c41d600-5" n="17dc4b3e">
             <seg n="f9d8adcc">
               Jag skulle vilja uttrycka det önskemålet, att man bleve korrekt
               citerad, ty blir man inte det, herr Persson, så kan det inte heller
@@ -7367,21 +7451,11 @@
               saknats, brukarna förblivit i eller nedsjunkit i en beroende ställning.»
             </seg>
           </u>
-          <pb n="85" facs="https://betalab.kb.se/prot-1945--ak--27/prot_1945__ak__27-085.jp2/_view"/>
-          <note n="71782dc4">
-            86 Nr 27. Lördagen den 9 juni 1945.
-          </note>
-          <note n="17078618">
-            Utredning om samhällsplanering och samhällets behov att bestämma
-            markens användning, m. m. (Forts.) flesta av de centrala problem,
-            som framhållits i den föreliggande motionen, redan gjorts till
-            föremål för utredningar.»
-          </note>
           <note type="speaker" n="2397b501">
             Herr Hansson i Skediga, som nu på begäran erhöll ordet för kort
             genmäle, yttrade:
           </note>
-          <u who="per_albin_hansson_dd458b" xml:id="i-adc8dae816076ba2-0" n="b4190440">
+          <u who="per_albin_hansson_dd458b" xml:id="i-b419044005a87096-11" n="b4190440">
             <seg n="b62ddb20">
               Herr talman! I sin replik till mig sade herr Thorell att det
               även inom mitt parti skulle finnas tomtjobbare. Jag tycker att
@@ -7401,7 +7475,7 @@
             Herr Thorell erhöll likaledes på begäran ordet för kort genmäle
             och anförde:
           </note>
-          <u who="edvard_thorell_8dc1be" xml:id="i-c08a9f61b91e4273-1" n="211dffb9">
+          <u who="edvard_thorell_8dc1be" xml:id="i-211dffb9e6a88638-8" n="211dffb9">
             <seg n="2996ecd4">
               Herr talman! Herr Hansson i Skediga har tydligen alldeles missuppfattat
               mitt anförande. Det var inte tomtjobberiet, utan jordäganderätten
@@ -7423,7 +7497,7 @@
             Herr Hansson i Skediga, som på begäran ånyo erhöll ordet för
             kort genmäle, yttrade:
           </note>
-          <u who="per_albin_hansson_dd458b" xml:id="i-6dee95f1d2394635-4" next="i-f7bcb18baaa24b24-4" n="b4190440">
+          <u who="per_albin_hansson_dd458b" xml:id="i-b419044005a87096-12" next="i-b419044005a87096-14" n="b4190440">
             <seg n="b0537c19">
               Herr talman! Jag trodde verkligen inte att herr Thorell hade
               så kort minne som han tycks ha. Det var bara en liten stund sedan
@@ -7431,14 +7505,19 @@
             </seg>
           </u>
           <pb n="86" facs="https://betalab.kb.se/prot-1945--ak--27/prot_1945__ak__27-086.jp2/_view"/>
-          <note n="08fcc889">
+          <note type="date" n="89c1edb8">
             Lördagen den 9 juni 1945. Nr 27. 87
           </note>
-          <u who="per_albin_hansson_dd458b" xml:id="i-f7bcb18baaa24b24-4" prev="i-6dee95f1d2394635-4" n="b4190440">
+          <u who="per_albin_hansson_dd458b" xml:id="i-b419044005a87096-13" prev="i-b419044005a87096-12" n="b4190440">
             <seg n="1a5f3b36">
               Utredning om samhällsplanering och samhällets behov att bestämma
               markens
             </seg>
+          </u>
+          <note n="c4880cff">
+            | användning, m. m. (Forts.)
+          </note>
+          <u who="per_albin_hansson_dd458b" xml:id="i-b419044005a87096-14" prev="i-b419044005a87096-12" n="b4190440">
             <seg n="3af0996a">
               för tomtjobbarna, men det tycks han nu ha glömt. Och så säger
               han till mig att jag skall följa med anförandena!
@@ -7450,14 +7529,11 @@
               men det är en skam att sådana anföranden skola hållas här i riksdagen.
             </seg>
           </u>
-          <note n="c4880cff">
-            | användning, m. m. (Forts.)
-          </note>
           <note type="speaker" n="b3a71a27">
             Herr Thorell erhöll likaledes på begäran ånyo ordet för kort
             genmäle och anförde:
           </note>
-          <u who="edvard_thorell_8dc1be" xml:id="i-c08a9f61b91e4273-2" n="211dffb9">
+          <u who="edvard_thorell_8dc1be" xml:id="i-211dffb9e6a88638-9" n="211dffb9">
             <seg n="557721c3">
               Herr talman! Jag förmodar att det anförande, som herr Hansson
               syftar på, var parlamentariskt oantastligt, då ju inte herr talmannens
@@ -7475,7 +7551,7 @@
           <note type="speaker" n="90b44a74">
             Herr Boman i Stavsund:
           </note>
-          <u who="rudolf_boman_6d4664" xml:id="i-49110e8b009d31d9-0" next="i-ae035f72c741dbb2-0" n="303c93c2">
+          <u who="rudolf_boman_6d4664" xml:id="i-303c93c20a291dcb-0" next="i-303c93c20a291dcb-1" n="303c93c2">
             <seg n="c1d1b20f">
               Det är, herr talman, närmast med anledning av att herr Thorell
               ägnade min ringa person ett så stort intresse i sitt anförande
@@ -7533,14 +7609,14 @@
             </seg>
           </u>
           <pb n="87" facs="https://betalab.kb.se/prot-1945--ak--27/prot_1945__ak__27-087.jp2/_view"/>
-          <note n="6a2685a7">
+          <note type="date" n="cf95b87d">
             88 Nr 27. Lördagen den 9 juni 1945.
           </note>
           <note n="b3190507">
             Utredning om samhällsplanering och samhällets behov att bestämma
             markens användning, m. m. (Forts.)
           </note>
-          <u who="rudolf_boman_6d4664" xml:id="i-ae035f72c741dbb2-0" prev="i-49110e8b009d31d9-0" n="303c93c2">
+          <u who="rudolf_boman_6d4664" xml:id="i-303c93c20a291dcb-1" prev="i-303c93c20a291dcb-0" n="303c93c2">
             <seg n="9b2e438f">
               frisk och stark, förklarade att han inte orkade gå tillbaka,
               och så fick han åka. Till slut tröttnade emellertid vår kompanichef
@@ -7556,7 +7632,7 @@
           <note type="speaker" n="e67e9f88">
             Herr Karlsson i Stuvsta:
           </note>
-          <u who="verner_karlsson_dcdc3d" xml:id="i-a20857da89d9864b-1" next="i-3207083556e89bcd-1" n="cc5cab62">
+          <u who="verner_karlsson_dcdc3d" xml:id="i-cc5cab622072eb2f-3" next="i-cc5cab622072eb2f-7" n="cc5cab62">
             <seg n="16a9d545">
               Herr talman! Efter herr Perssons i Stockholm anförande finns
               det inte någon särskild anledning för mig att ytterligare utveckla
@@ -7621,10 +7697,10 @@
             </seg>
           </u>
           <pb n="88" facs="https://betalab.kb.se/prot-1945--ak--27/prot_1945__ak__27-088.jp2/_view"/>
-          <note n="3a27849f">
+          <note type="date" n="c5f0a500">
             Lördagen den 9 juni 1945. Nr 27. 89
           </note>
-          <u who="verner_karlsson_dcdc3d" xml:id="i-3207083556e89bcd-1" prev="i-a20857da89d9864b-1" n="cc5cab62">
+          <u who="verner_karlsson_dcdc3d" xml:id="i-cc5cab622072eb2f-4" prev="i-cc5cab622072eb2f-3" n="cc5cab62">
             <seg n="1a5f3b36">
               Utredning om samhällsplanering och samhällets behov att bestämma
               markens
@@ -7633,15 +7709,6 @@
               användning, m. m. (Forts.) detta tal, ty det ger mig ännu ett
               mycket bergsäkert verkande slagträ mot det parti, som herr Thorell
               representerar.
-            </seg>
-            <seg n="0ac03c69">
-              Ja;
-            </seg>
-            <seg n="2c35da85">
-              från konstitutionsutskottet:
-            </seg>
-            <seg n="7db06fa4">
-              från jordbruksutskottet:
             </seg>
           </u>
           <note n="38a3f183">
@@ -7666,6 +7733,11 @@
             bifall till den av herrar Fahlman och Ljungqvist avgivna, vid
             utlåtandet fogade reservationen, röstar
           </note>
+          <u who="verner_karlsson_dcdc3d" xml:id="i-cc5cab622072eb2f-5" prev="i-cc5cab622072eb2f-3" n="cc5cab62">
+            <seg n="0ac03c69">
+              Ja;
+            </seg>
+          </u>
           <note n="088f3152">
             Nej; Vinner Nej, har kammaren till kontraproposition i nämnda
             votering antagit bifall till den av herrar Hansson i Skegrie och
@@ -7711,7 +7783,7 @@
             delgivas första kammaren.
           </note>
           <pb n="89" facs="https://betalab.kb.se/prot-1945--ak--27/prot_1945__ak__27-089.jp2/_view"/>
-          <note n="58725803">
+          <note type="date" n="e9926d48">
             90 Nr 27. Lördagen den 9 juni 1945.
           </note>
           <note n="c1f4e8b0">
@@ -7811,7 +7883,7 @@
             avser finansdepartementets verksamhetsområde;
           </note>
           <pb n="90" facs="https://betalab.kb.se/prot-1945--ak--27/prot_1945__ak__27-090.jp2/_view"/>
-          <note n="dc1858c5">
+          <note type="date" n="1b1dc1af">
             Lördagen den 9 juni 1945. Nr 27. 91
           </note>
           <note n="3d08c003">
@@ -7920,7 +7992,7 @@
             motioner om införande av högertrafik;
           </note>
           <pb n="91" facs="https://betalab.kb.se/prot-1945--ak--27/prot_1945__ak__27-091.jp2/_view"/>
-          <note n="87a99c2b">
+          <note type="date" n="a0146776">
             92 Nr 27. Lördagen den 9 juni 1945.
           </note>
           <note n="81b496f4">
@@ -7986,6 +8058,11 @@
             'Anmäldes och godkändes följande förslag till riksdagens skrivelser
             till Konungen, nämligen
           </note>
+          <u who="verner_karlsson_dcdc3d" xml:id="i-cc5cab622072eb2f-6" prev="i-cc5cab622072eb2f-3" n="cc5cab62">
+            <seg n="2c35da85">
+              från konstitutionsutskottet:
+            </seg>
+          </u>
           <note n="c80909a2">
             nr 364, i anledning av konstitutionsutskottets memorial nr 20
             med förslag till lag angående ändrad lydelse av 40 8 lagen den
@@ -8022,9 +8099,14 @@
             m. m.; samt
           </note>
           <pb n="92" facs="https://betalab.kb.se/prot-1945--ak--27/prot_1945__ak__27-092.jp2/_view"/>
-          <note n="920e112f">
+          <note type="date" n="7c63e8e0">
             Lördagen den 9 juni 1945. Nr 27. 93
           </note>
+          <u who="verner_karlsson_dcdc3d" xml:id="i-cc5cab622072eb2f-7" prev="i-cc5cab622072eb2f-3" n="cc5cab62">
+            <seg n="7db06fa4">
+              från jordbruksutskottet:
+            </seg>
+          </u>
           <note n="3a6330f3">
             nr 350, i anledning av Kungl. Maj:ts proposition med förslag
             till lag om ändrad lydelse av 4 8 lagen den 27 juni 1927 (nr 287)

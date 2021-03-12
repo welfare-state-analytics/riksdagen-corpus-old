@@ -20,7 +20,7 @@
     <encodingDesc>
       <editorialDecl>
         <correction>
-          <p>Some data curation was done. It is documented in db/curation/instances</p>
+          <p>Some data curation was done. It is documented in input/curation/instances</p>
         </correction>
       </editorialDecl>
     </encodingDesc>
@@ -59,6 +59,7 @@
       </front>
       <body>
         <div>
+          <pb n="0" facs="https://betalab.kb.se/prot-1949--ak--8/prot_1949__ak__8-000.jp2/_view"/>
           <note n="ca3f22f6"/>
           <note n="4649034b">
             1949 ANDRA KAMMAREN
@@ -239,13 +240,13 @@
             33
           </note>
           <pb n="2" facs="https://betalab.kb.se/prot-1949--ak--8/prot_1949__ak__8-002.jp2/_view"/>
-          <note n="c837ef4b">
+          <note type="date" n="f60241d7">
             Lördagen den 26 februari 1949.
           </note>
           <note n="392fe8c6">
             Nr 8. 3
           </note>
-          <note n="6bb69dee">
+          <note type="date" n="9bb73d18">
             Lördagen den 26 februari kl. 2 em.
           </note>
           <note n="2c24c9fa">
@@ -378,7 +379,7 @@
           <note n="d054bed7">
             4 Nr 8.
           </note>
-          <note n="c837ef4b">
+          <note type="date" n="f60241d7">
             Lördagen den 26 februari 1949.
           </note>
           <note n="5617fe10">
@@ -408,7 +409,7 @@
           <note type="speaker" n="1f024174">
             Herr JOHNSSON i Skoglösa:
           </note>
-          <u who="pehr_johnsson_9e3130" xml:id="i-9885768791e41ee0-0" n="ee982d81">
+          <u who="pehr_johnsson_9e3130" xml:id="i-927730561202eddb-0" n="ee982d81">
             <seg n="8dfdf41e">
               Herr talman! Jag ber att få framföra mitt tack till herr statsrådet
               och chefen för justitiedepartementet för svaret på min interpellation.
@@ -480,7 +481,7 @@
             in-
           </note>
           <pb n="4" facs="https://betalab.kb.se/prot-1949--ak--8/prot_1949__ak__8-004.jp2/_view"/>
-          <note n="c837ef4b">
+          <note type="date" n="f60241d7">
             Lördagen den 26 februari 1949.
           </note>
           <note n="1fc2c99d">
@@ -642,7 +643,7 @@
             nr 35, i anledning av Kungl. Maj:ts proposition angående utgifter
             å tillläggsstat II till riksstaten för budgetåret
           </note>
-          <note n="c837ef4b">
+          <note type="date" n="f60241d7">
             Lördagen den 26 februari 1949.
           </note>
           <note n="4b814d87">
@@ -697,7 +698,7 @@
           <note type="date" n="65333711">
             Tisdagen den 1 mars 1949.
           </note>
-          <note n="a4fe510e">
+          <note type="date" n="80277dbe">
             Tisdagen den 1 mars kl. 4 em.
           </note>
           <note n="560fd213">
@@ -731,7 +732,7 @@
           <note type="speaker" n="02392f48">
             Herr statsrådet Wigforss avlämnade Kungl. Maj:
           </note>
-          <u who="ernst_wigforss_dc2db7" xml:id="i-22a6bce695153cdf-0" next="i-7fff954e1ed43dc1-0" n="266fc3c8">
+          <u who="ernst_wigforss_dc2db7" xml:id="i-2d119c1456379d4a-0" next="i-2d119c1456379d4a-2" n="266fc3c8">
             <seg n="efc86d3a">
               ts propositioner:
             </seg>
@@ -760,11 +761,7 @@
             nr 62, med förslag till lag angående fortsatt giltighet av lagen
             den 30 juni 1943 (nr 444) om tillståndstvång för byggnadsarbete;
           </note>
-          <u who="ernst_wigforss_dc2db7" xml:id="i-7fff954e1ed43dc1-0" prev="i-22a6bce695153cdf-0" n="266fc3c8">
-            <seg n="58aed302">
-              nr 65, angående lån till Svenska lastbilaktiebolaget; och
-            </seg>
-          </u>
+          <u who="ernst_wigforss_dc2db7" xml:id="i-2d119c1456379d4a-1" prev="i-2d119c1456379d4a-0" n="266fc3c8"/>
           <note n="e69bee24">
             nr 63, angående reparation och ombyggnad av Falsterbokanalen
             m. m.;
@@ -774,6 +771,11 @@
             $ 2 förordningen den 3 augusti 1929 (nr 256) om Svenska bostadskreditkassan
             och om bostadskreditföreningar, m. m.;
           </note>
+          <u who="ernst_wigforss_dc2db7" xml:id="i-2d119c1456379d4a-2" prev="i-2d119c1456379d4a-0" n="266fc3c8">
+            <seg n="58aed302">
+              nr 65, angående lån till Svenska lastbilaktiebolaget; och
+            </seg>
+          </u>
           <note n="f1c6667b">
             nr 66, angående anslag för budgetåret 1949/50 till folkskolinspektionen.
           </note>
@@ -793,7 +795,7 @@
             Chefen för finansdepartementet, herr statsrådet WIGFORSS, som
             anförde:
           </note>
-          <u who="ernst_wigforss_dc2db7" xml:id="i-22a6bce695153cdf-1" next="i-7fff954e1ed43dc1-1" n="266fc3c8">
+          <u who="ernst_wigforss_dc2db7" xml:id="i-2d119c1456379d4a-3" next="i-2d119c1456379d4a-7" n="266fc3c8">
             <seg n="913bddd9">
               Herr talman! I en med andra kammarens tillstånd framställd interpellation
               har herr andre vice talmannen Skoglund till mig framställt följande
@@ -816,11 +818,23 @@
           <note n="b2647993">
             Vidare yttrade Herr HAGBERG i Malmö: Herr tal-
           </note>
-          <u who="ernst_wigforss_dc2db7" xml:id="i-7fff954e1ed43dc1-1" prev="i-22a6bce695153cdf-1" n="266fc3c8">
+          <u who="ernst_wigforss_dc2db7" xml:id="i-2d119c1456379d4a-4" prev="i-2d119c1456379d4a-3" n="266fc3c8">
             <seg n="e91f119b">
               man! Då herr andre vice talmannen Skoglund tyvärr icke haft tillfälle
               att
             </seg>
+          </u>
+          <pb n="7" facs="https://betalab.kb.se/prot-1949--ak--8/prot_1949__ak__8-007.jp2/_view"/>
+          <note n="e0d79905">
+            8 Nr 8.
+          </note>
+          <note type="date" n="65333711">
+            Tisdagen den 1 mars 1949.
+          </note>
+          <note n="5ea3f47f">
+            Svar på interpellation ang. uppskov med den allmänna fastighetstaxeringen.
+          </note>
+          <u who="ernst_wigforss_dc2db7" xml:id="i-2d119c1456379d4a-5" prev="i-2d119c1456379d4a-3" n="266fc3c8">
             <seg n="913553b1">
               närvara i kammaren i eftermiddag, ber jag att å hans vägnar få
               tacka herr finansministern för svaret.
@@ -886,24 +900,7 @@
               fråga som, det ligger i sakens natur, intresserar vidsträckta
               delar av landets befolkning.
             </seg>
-            <seg n="3003d609">
-              nr 51, angående anslag till lindring i mindre bemedlades kostnader
-              för djursjukvård.
-            </seg>
-            <seg n="79eb9002">
-              87.
-            </seg>
           </u>
-          <pb n="7" facs="https://betalab.kb.se/prot-1949--ak--8/prot_1949__ak__8-007.jp2/_view"/>
-          <note n="e0d79905">
-            8 Nr 8.
-          </note>
-          <note type="date" n="65333711">
-            Tisdagen den 1 mars 1949.
-          </note>
-          <note n="5ea3f47f">
-            Svar på interpellation ang. uppskov med den allmänna fastighetstaxeringen.
-          </note>
           <note n="50fbe420">
             Överläggningen var härmed slutad.
           </note>
@@ -948,6 +945,12 @@
             nr 49, angående anslag till vissa byggnadsarbeten å Bogesunds
             egendom m. m.; och
           </note>
+          <u who="ernst_wigforss_dc2db7" xml:id="i-2d119c1456379d4a-6" prev="i-2d119c1456379d4a-3" n="266fc3c8">
+            <seg n="3003d609">
+              nr 51, angående anslag till lindring i mindre bemedlades kostnader
+              för djursjukvård.
+            </seg>
+          </u>
           <note n="0b307571">
             Vid härefter skedd föredragning av propositionen nr 52, med förslag
             till förordning om uppskov med allmän fastighetstaxering, m. m.,
@@ -1003,6 +1006,11 @@
             nr 2 samt andra kammarens tredje tillfälliga utskotts utlåtanden
             nr 1 och 2.
           </note>
+          <u who="ernst_wigforss_dc2db7" xml:id="i-2d119c1456379d4a-7" prev="i-2d119c1456379d4a-3" n="266fc3c8">
+            <seg n="79eb9002">
+              87.
+            </seg>
+          </u>
           <note n="555b182d">
             Herr förste vice talmannen Carlström avlämnade en av honom undertecknad
             motion, nr 301, om tillsättande av ett tillfälligt utskott för
@@ -1024,7 +1032,7 @@
           <note type="speaker" n="bd0380b8">
             Herr SVENSSON i Ljungskile, som anförde:
           </note>
-          <u who="waldemar_svensson_bc8fa2" xml:id="i-62779d840993fe02-0" next="i-c03a7b5055e710dc-0" n="43c3123d">
+          <u who="waldemar_svensson_bc8fa2" xml:id="i-43c3123d75ccd8a3-0" next="i-43c3123d75ccd8a3-3" n="43c3123d">
             <seg n="2ffa4844">
               Herr talman! År 1947 fattade riksdagen principbeslut om riktlinjerna
               för den framtida jordbrukspolitiken. En av de frågor, som därvid
@@ -1059,7 +1067,7 @@
             Interpellation ang. tillämpningen av lagen om tillståndstvång
             för byggnadsarbete.
           </note>
-          <u who="waldemar_svensson_bc8fa2" xml:id="i-c03a7b5055e710dc-0" prev="i-62779d840993fe02-0" n="43c3123d">
+          <u who="waldemar_svensson_bc8fa2" xml:id="i-43c3123d75ccd8a3-1" prev="i-43c3123d75ccd8a3-0" n="43c3123d">
             <seg n="574174d4">
               tillgodosett. Vi skola komma ihåg, att hela detta förslag bygger
               på den grunden att ingen jordbrukare i detta land skall tvingas
@@ -1127,6 +1135,19 @@
               verksamhet bliva en levande realitet, och endast då kan man acceptera
               en beskrivning av den yttre
             </seg>
+          </u>
+          <pb n="10" facs="https://betalab.kb.se/prot-1949--ak--8/prot_1949__ak__8-010.jp2/_view"/>
+          <note type="date" n="65333711">
+            Tisdagen den 1 mars 1949.
+          </note>
+          <note n="51d99297">
+            Nr 8. 11
+          </note>
+          <note n="bb4c02bc">
+            Interpellation ang. tillämpningen av lagen om tillståndstvång
+            för byggnadsarbete.
+          </note>
+          <u who="waldemar_svensson_bc8fa2" xml:id="i-43c3123d75ccd8a3-2" prev="i-43c3123d75ccd8a3-0" n="43c3123d">
             <seg n="7f7add97">
               rationaliseringen, som i så hög grad gör det hela till en tillämpningsfråga
               som fallet är med statsrådets skrivsätt.»
@@ -1198,22 +1219,7 @@
               skall bedrivas i frivilliga former helt och fullt komma till uttryck
               vid beslutets genomförande?
             </seg>
-            <seg n="753fbc17">
-              Interpellation ang. åtgärder i syfte att neutralisera bensinransoneringens
-              icke gynnsamma återverkningar på turismen.
-            </seg>
           </u>
-          <pb n="10" facs="https://betalab.kb.se/prot-1949--ak--8/prot_1949__ak__8-010.jp2/_view"/>
-          <note type="date" n="65333711">
-            Tisdagen den 1 mars 1949.
-          </note>
-          <note n="51d99297">
-            Nr 8. 11
-          </note>
-          <note n="bb4c02bc">
-            Interpellation ang. tillämpningen av lagen om tillståndstvång
-            för byggnadsarbete.
-          </note>
           <note n="2e742123">
             Denna anhållan bordlades.
           </note>
@@ -1233,10 +1239,16 @@
           <note n="ac8ba670">
             8 9.
           </note>
+          <u who="waldemar_svensson_bc8fa2" xml:id="i-43c3123d75ccd8a3-3" prev="i-43c3123d75ccd8a3-0" n="43c3123d">
+            <seg n="753fbc17">
+              Interpellation ang. åtgärder i syfte att neutralisera bensinransoneringens
+              icke gynnsamma återverkningar på turismen.
+            </seg>
+          </u>
           <note type="speaker" n="903748d0">
             Herr von SETH erhöll på begäran ordet och yttrade:
           </note>
-          <u who="torgil_von_seth_698dc8" xml:id="i-7e15c17f77f6913a-0" n="19901987">
+          <u who="torgil_von_seth_698dc8" xml:id="i-2922fa7f8fa629c4-0" n="19901987">
             <seg n="f4f03abe">
               Herr talman! Som en direkt följd av den beklagliga valutabristen
               — speciellt beträffande s. k. hårdvalutor — ansågs det som bekant
@@ -1315,7 +1327,7 @@
           <note type="speaker" n="e18a2b7f">
             Herr von FRIESEN, som anförde:
           </note>
-          <u who="bertil_von_friesen_41b199" xml:id="i-7e01efd09891a0c4-0" next="i-a6f294ead942655c-0" n="8877a5a0">
+          <u who="bertil_von_friesen_41b199" xml:id="i-8877a5a0e47fc764-0" next="i-8877a5a0e47fc764-1" n="8877a5a0">
             <seg n="2464225c">
               Herr talman! Ett av de medicinska äm-
             </seg>
@@ -1331,7 +1343,7 @@
             Interpellation ang. medgivande av export av massaved till Bizonien,
             m. m.
           </note>
-          <u who="bertil_von_friesen_41b199" xml:id="i-a6f294ead942655c-0" prev="i-7e01efd09891a0c4-0" n="8877a5a0">
+          <u who="bertil_von_friesen_41b199" xml:id="i-8877a5a0e47fc764-1" prev="i-8877a5a0e47fc764-0" n="8877a5a0">
             <seg n="edcfc9c8">
               nesområden där under senaste år stora framsteg gjorts är bröstkirurgien
               (»thoraxkirurgien»). Sverige intar också här en ledande ställning,
@@ -1411,7 +1423,7 @@
           <note type="speaker" n="d33c9a30">
             Herr ANDERSSON i Björkäng, som yttrade:
           </note>
-          <u who="thure_andersson_bcee2b" xml:id="i-06d1254bb467eb56-0" next="i-903af5d42945e66e-0" n="7733755d">
+          <u who="thure_andersson_bcee2b" xml:id="i-7733755da66d2ef7-0" next="i-7733755da66d2ef7-1" n="7733755d">
             <seg n="02c7c154">
               Herr talman! Sedan en längre tid tillbaka ha underhandlingar
               förts mellan Skogsägareföreningarnas riksförbund och Sydsvenska
@@ -1435,7 +1447,7 @@
             Interpellation ang. hänsynstagande vid vissa militärinkallelser
             till jordbrukets be-
           </note>
-          <u who="thure_andersson_bcee2b" xml:id="i-903af5d42945e66e-0" prev="i-06d1254bb467eb56-0" n="7733755d">
+          <u who="thure_andersson_bcee2b" xml:id="i-7733755da66d2ef7-1" prev="i-7733755da66d2ef7-0" n="7733755d">
             <seg n="41ca7cf8">
               hov av arbetskraft för vårbruket.
             </seg>
@@ -1499,7 +1511,7 @@
           <note type="speaker" n="40f17e70">
             Herr LARSSON i Luttra erhöll på begäran ordet och anförde:
           </note>
-          <u who="yngve_larsson_848317" xml:id="i-7eb1e77eb8bf610b-0" next="i-69bf25b4eaad1621-0" n="a4638963">
+          <u who="yngve_larsson_848317" xml:id="i-a4638963e4c1188a-0" next="i-a4638963e4c1188a-4" n="a4638963">
             <seg n="2c83a223">
               Herr talman! I beredskapssyfte ha under den senaste tiden militärinkallelser
               skett avseende 30 dagars tjänstgöring. Särskilt i vad det gäller
@@ -1546,7 +1558,7 @@
           <note n="a8431581">
             Nr 8. 15
           </note>
-          <note n="dde57598">
+          <note type="date" n="f9992630">
             Onsdagen den 2 mars. Kl. 2 em.
           </note>
           <note n="560fd213">
@@ -1611,26 +1623,13 @@
           <note n="b46a1000">
             Till riksdagen.
           </note>
-          <u who="yngve_larsson_848317" xml:id="i-69bf25b4eaad1621-0" prev="i-7eb1e77eb8bf610b-0" n="a4638963">
+          <u who="yngve_larsson_848317" xml:id="i-a4638963e4c1188a-1" prev="i-a4638963e4c1188a-0" n="a4638963">
             <seg n="d88e9b92">
               Sedan Kungl. Maj:t den 30 december 1948 förordnat mig att vara
               vice ordförande i arbetsdomstolen, får jag med hänsyn till svårigheten
               att förena detta uppdrag med förtroendet att vara ställföreträdare
               för riksdagens justitieombudsman härmed vördsamt avsäga mig nämnda
               förtroende.
-            </seg>
-            <seg n="58aed302">
-              nr 65, angående lån till Svenska lastbilaktiebolaget; och
-            </seg>
-            <seg n="03a129b9">
-              träde gjorda, men då bordlagda anhållan att få framställa interpellation
-              till herr statsrådet och chefen för folkhushållningsdepartementet
-              angående åtgärder i syfte att neutralisera bensinransoneringens
-              icke gynnsamma återverkningar på turismen.
-            </seg>
-            <seg n="07e7a7f8">
-              för försvarsdepartementet angående hänsynstagande vid vissa militärinkallelser
-              till jordbrukets behov av arbetskraft för vårbruket.
             </seg>
           </u>
           <note n="f9d0db82">
@@ -1695,6 +1694,11 @@
           <note n="fd140109">
             till statsutskottet propositionerna:
           </note>
+          <u who="yngve_larsson_848317" xml:id="i-a4638963e4c1188a-2" prev="i-a4638963e4c1188a-0" n="a4638963">
+            <seg n="58aed302">
+              nr 65, angående lån till Svenska lastbilaktiebolaget; och
+            </seg>
+          </u>
           <note n="f1c6667b">
             nr 66, angående anslag för budgetåret 1949/50 till folkskolinspektionen.
           </note>
@@ -1740,6 +1744,14 @@
             8 5. Föredrogs den av herr von Seth vid kammarens nästföregående
             samman-
           </note>
+          <u who="yngve_larsson_848317" xml:id="i-a4638963e4c1188a-3" prev="i-a4638963e4c1188a-0" n="a4638963">
+            <seg n="03a129b9">
+              träde gjorda, men då bordlagda anhållan att få framställa interpellation
+              till herr statsrådet och chefen för folkhushållningsdepartementet
+              angående åtgärder i syfte att neutralisera bensinransoneringens
+              icke gynnsamma återverkningar på turismen.
+            </seg>
+          </u>
           <note n="6dd25b59">
             Kammaren biföll denna anhållan.
           </note>
@@ -1786,6 +1798,12 @@
           <note n="5782533c">
             Provisoriskt upphävande av tullen på glasflaskor.
           </note>
+          <u who="yngve_larsson_848317" xml:id="i-a4638963e4c1188a-4" prev="i-a4638963e4c1188a-0" n="a4638963">
+            <seg n="07e7a7f8">
+              för försvarsdepartementet angående hänsynstagande vid vissa militärinkallelser
+              till jordbrukets behov av arbetskraft för vårbruket.
+            </seg>
+          </u>
           <note n="6dd25b59">
             Kammaren biföll denna anhållan.
           </note>
@@ -1865,7 +1883,7 @@
           <note type="speaker" n="2a802f8a">
             Herr NORUP:
           </note>
-          <u who="sam_norup_4a1f7c" xml:id="i-ce99bf8d25dac681-0" next="i-a899809399020a26-0" n="3c3e2061">
+          <u who="sam_norup_4a1f7c" xml:id="i-3c3e2061901a1d21-0" next="i-3c3e2061901a1d21-1" n="3c3e2061">
             <seg n="cac316e6">
               Herr talman! I en motion, som väckts i första kammaren av herr
               von Heland och i denna kammare av mig, har hemställts, att man
@@ -1899,7 +1917,7 @@
           <note n="5782533c">
             Provisoriskt upphävande av tullen på glasflaskor.
           </note>
-          <u who="sam_norup_4a1f7c" xml:id="i-a899809399020a26-0" prev="i-ce99bf8d25dac681-0" n="3c3e2061">
+          <u who="sam_norup_4a1f7c" xml:id="i-3c3e2061901a1d21-1" prev="i-3c3e2061901a1d21-0" n="3c3e2061">
             <seg n="7fab2e0a">
               stånd, men jämt och ständigt ha vi fått höra, att man inte kunnat
               tillmötesgå de krav vi ställt. Vi ansågo då att vi inte längre
@@ -1950,7 +1968,7 @@
           <note type="speaker" n="6681bae4">
             Herr OLSSON i Gävle:
           </note>
-          <u who="carl_petrus_olsson_d755c7" xml:id="i-27fe7d4149884110-0" n="16711bb5">
+          <u who="carl_petrus_olsson_d755c7" xml:id="i-16711bb5796c371f-0" n="16711bb5">
             <seg n="f7a87ab3">
               Herr talman! Jag hemställer om bifall till utskottets förslag.
               Motionärerna och andra intresserade kunna naturligtvis disputera
@@ -2059,7 +2077,7 @@
           <note type="speaker" n="1988e1ab">
             Herr LINDAHL:
           </note>
-          <u who="lars_lindahl_55d687" xml:id="i-093b4071b43839c3-0" next="i-0e6751f516073cfd-0" n="6c8af319">
+          <u who="lars_lindahl_55d687" xml:id="i-6c8af31903b252ef-0" next="i-6c8af31903b252ef-1" n="6c8af319">
             <seg n="593bd081">
               Herr talman! Vid första lagutskottets förevarande utlåtande finnes
               fogad en reservation, och trots att denna reservation är klar
@@ -2098,7 +2116,7 @@
           <note n="3e9fb9a7">
             Ändrade bestämmelser om underhållsbidrag till frånskild make.
           </note>
-          <u who="lars_lindahl_55d687" xml:id="i-0e6751f516073cfd-0" prev="i-093b4071b43839c3-0" n="6c8af319">
+          <u who="lars_lindahl_55d687" xml:id="i-6c8af31903b252ef-1" prev="i-6c8af31903b252ef-0" n="6c8af319">
             <seg n="ac3c8542">
               att det även kunde finnas andra områden, där en utredning i detta
               sammanhang borde ske på grund av bland annat de förändrade ekonomiska
@@ -2150,7 +2168,7 @@
           <note type="speaker" n="b34d0fe6">
             Fru EWERLÖF:
           </note>
-          <u who="elsa_ewerlof_4d44ed" xml:id="i-3e00640589228d96-0" next="i-38767c33d3ef230f-0" n="e0878827">
+          <u who="elsa_ewerlof_4d44ed" xml:id="i-e0878827b4a030d1-0" next="i-e0878827b4a030d1-1" n="e0878827">
             <seg n="565658a9">
               Herr talman! Som motionär i denna fråga ber jag att få säga några
               ord.
@@ -2187,7 +2205,7 @@
           <note n="3e9fb9a7">
             Ändrade bestämmelser om underhållsbidrag till frånskild make.
           </note>
-          <u who="elsa_ewerlof_4d44ed" xml:id="i-38767c33d3ef230f-0" prev="i-3e00640589228d96-0" n="e0878827">
+          <u who="elsa_ewerlof_4d44ed" xml:id="i-e0878827b4a030d1-1" prev="i-e0878827b4a030d1-0" n="e0878827">
             <seg n="895a11a6">
               tydligt uttryck åt att en förskjutning i uppfattningen ägt rum
               och fortfarande gör sig gällande.
@@ -2255,7 +2273,7 @@
           <note type="speaker" n="02a59ecd">
             Fru JOHANSSON i Skövde:
           </note>
-          <u who="lisa_johansson_12f51f" xml:id="i-d5656d582809d27c-0" next="i-6498aede735bdda9-0" n="67268a20">
+          <u who="lisa_johansson_12f51f" xml:id="i-67268a20c1e5d680-0" next="i-67268a20c1e5d680-3" n="67268a20">
             <seg n="5a0a7a96">
               Herr talman! När det gäller underhållsbidrag till frånskild make
               kan ju underhållsskyldighet fastställas för såväl mannen som kvinnan.
@@ -2276,7 +2294,7 @@
           <note n="3e9fb9a7">
             Ändrade bestämmelser om underhållsbidrag till frånskild make.
           </note>
-          <u who="lisa_johansson_12f51f" xml:id="i-6498aede735bdda9-0" prev="i-d5656d582809d27c-0" n="67268a20">
+          <u who="lisa_johansson_12f51f" xml:id="i-67268a20c1e5d680-1" prev="i-67268a20c1e5d680-0" n="67268a20">
             <seg n="e9005695">
               är och hon under denna tid inte har haft förvärvsarbete, så ha
               nog hennes möjligheter att efter en skilsmässa erhålla ett mera
@@ -2309,6 +2327,12 @@
               att reservanterna inte mena, att de andra länderna skulle påverkas
               att gå över på den nuvarande svenska linjen.
             </seg>
+          </u>
+          <note n="e3fb09df">
+            En av reservanterna framhöll under utskottets behandling av ärendet,
+            att
+          </note>
+          <u who="lisa_johansson_12f51f" xml:id="i-67268a20c1e5d680-2" prev="i-67268a20c1e5d680-0" n="67268a20">
             <seg n="a922cd72">
               cen vanlig arbetare, om jag så får säga, faktiskt inte har råd
               att betala ett sådant högre bidrag, som eventuellt skulle komma
@@ -2345,6 +2369,18 @@
               i den underhållsskyldiges lön. Jag har under mitt arbete inom
               barnavården vid flerfaldiga tillfällen kunnat bevittna, huru-
             </seg>
+          </u>
+          <pb n="22" facs="https://betalab.kb.se/prot-1949--ak--8/prot_1949__ak__8-022.jp2/_view"/>
+          <note type="date" n="09f2ed33">
+            Onsdagen den 2 mars 1949.
+          </note>
+          <note n="75fb23a7">
+            Nr 8. 23
+          </note>
+          <note n="3e9fb9a7">
+            Ändrade bestämmelser om underhållsbidrag till frånskild make.
+          </note>
+          <u who="lisa_johansson_12f51f" xml:id="i-67268a20c1e5d680-3" prev="i-67268a20c1e5d680-0" n="67268a20">
             <seg n="5ab0db61">
               som frånskilda hustrur haft mycket stora bekymmer för hur de
               skulle kunna få ut det underhållsbidrag som de blivit tilldömda.
@@ -2360,24 +2396,10 @@
               få yrka bifall till utskottets hemställan.
             </seg>
           </u>
-          <note n="e3fb09df">
-            En av reservanterna framhöll under utskottets behandling av ärendet,
-            att
-          </note>
-          <pb n="22" facs="https://betalab.kb.se/prot-1949--ak--8/prot_1949__ak__8-022.jp2/_view"/>
-          <note type="date" n="09f2ed33">
-            Onsdagen den 2 mars 1949.
-          </note>
-          <note n="75fb23a7">
-            Nr 8. 23
-          </note>
-          <note n="3e9fb9a7">
-            Ändrade bestämmelser om underhållsbidrag till frånskild make.
-          </note>
           <note type="speaker" n="34111dac">
             Herr RYLANDER:
           </note>
-          <u who="olov_rylander_42a656" xml:id="i-48f84c6f4e2b07cd-0" next="i-9b62c5c36d7f6b04-0" n="281e6793">
+          <u who="olov_rylander_42a656" xml:id="i-281e6793f83cc9c3-0" next="i-281e6793f83cc9c3-1" n="281e6793">
             <seg n="682341b6">
               Herr talman! Reservanternas talesman herr Lindahl vitsordade
               ju behovet av en förnyad prövning av lagreglerna på här ifrågavarande
@@ -2449,7 +2471,7 @@
           <note n="3e9fb9a7">
             Ändrade bestämmelser om underhållsbidrag till frånskild make.
           </note>
-          <u who="olov_rylander_42a656" xml:id="i-9b62c5c36d7f6b04-0" prev="i-48f84c6f4e2b07cd-0" n="281e6793">
+          <u who="olov_rylander_42a656" xml:id="i-281e6793f83cc9c3-1" prev="i-281e6793f83cc9c3-0" n="281e6793">
             <seg n="1fa56d7d">
               tänka sig att det blir någon egentlig vinst av ett nordiskt samarbete.
               Vid det nordiska samarbete, som ägde rum då de nuvarande reglerna
@@ -2487,7 +2509,7 @@
           <note type="speaker" n="7b497887">
             Herr FAGERHOLM:
           </note>
-          <u who="per-hjalmar_fagerholm_cb93b9" xml:id="i-0e677274975448eb-0" next="i-7ea898489f4673a8-0" n="4bd79844">
+          <u who="per-hjalmar_fagerholm_cb93b9" xml:id="i-ab24702acdddff1c-0" next="i-ab24702acdddff1c-1" n="4bd79844">
             <seg n="c243cebf">
               Herr talman! Jag blev något förvånad, när jag såg utformningen
               av den reservation som fogats till utskottsutlåtandet. Enligt
@@ -2543,7 +2565,7 @@
           <note n="3e9fb9a7">
             Ändrade bestämmelser om underhållsbidrag till frånskild make.
           </note>
-          <u who="per-hjalmar_fagerholm_cb93b9" xml:id="i-7ea898489f4673a8-0" prev="i-0e677274975448eb-0" n="4bd79844">
+          <u who="per-hjalmar_fagerholm_cb93b9" xml:id="i-ab24702acdddff1c-1" prev="i-ab24702acdddff1c-0" n="4bd79844">
             <seg n="ad0fa8cb">
               na, vilket nu är mycket vanligt för att inte säga det vanligaste
               och därjämte en önskvärd utveckling, då möter det inte något som
@@ -2603,7 +2625,7 @@
           <note type="speaker" n="1988e1ab">
             Herr LINDAHL:
           </note>
-          <u who="lars_lindahl_55d687" xml:id="i-093b4071b43839c3-1" next="i-0e6751f516073cfd-1" n="6c8af319">
+          <u who="lars_lindahl_55d687" xml:id="i-6c8af31903b252ef-2" next="i-6c8af31903b252ef-3" n="6c8af319">
             <seg n="bcdc7bf4">
               Herr talman! Det förefaller vara litet synd om reservanterna,
               när utskottsdamerna gå på offensiven och försöka få kammaren att
@@ -2632,7 +2654,7 @@
           <note n="3e9fb9a7">
             Ändrade bestämmelser om underhållsbidrag till frånskild make.
           </note>
-          <u who="lars_lindahl_55d687" xml:id="i-0e6751f516073cfd-1" prev="i-093b4071b43839c3-1" n="6c8af319">
+          <u who="lars_lindahl_55d687" xml:id="i-6c8af31903b252ef-3" prev="i-6c8af31903b252ef-2" n="6c8af319">
             <seg n="c1c94a61">
               vanterna. Man får väl hålla sig till reservationen och inte till
               vad som till äventyrs kan ha sagts under en debatt i utskottet.
@@ -2656,7 +2678,7 @@
           <note type="speaker" n="7b497887">
             Herr FAGERHOLM:
           </note>
-          <u who="per-hjalmar_fagerholm_cb93b9" xml:id="i-0e677274975448eb-1" next="i-7ea898489f4673a8-1" n="4bd79844">
+          <u who="per-hjalmar_fagerholm_cb93b9" xml:id="i-ab24702acdddff1c-2" next="i-ab24702acdddff1c-4" n="4bd79844">
             <seg n="e4ebbf15">
               Herr talman! Den föregående ärade talaren nämnde att vi slagit
               an hjärtesträngar. Jag vill understryka att jag icke har sett
@@ -2720,10 +2742,7 @@
           <note n="c6bd0ab7">
             2 mars 1949. Nr 8. 27
           </note>
-          <u who="per-hjalmar_fagerholm_cb93b9" xml:id="i-7ea898489f4673a8-1" prev="i-0e677274975448eb-1" n="4bd79844">
-            <seg n="8bb25991">
-              Användning av byggnader på ofri grund som kreditobjekt.
-            </seg>
+          <u who="per-hjalmar_fagerholm_cb93b9" xml:id="i-ab24702acdddff1c-3" prev="i-ab24702acdddff1c-2" n="4bd79844">
             <seg n="8bb25991">
               Användning av byggnader på ofri grund som kreditobjekt.
             </seg>
@@ -2746,6 +2765,11 @@
           <note n="e1d4ff61">
             $ 13.
           </note>
+          <u who="per-hjalmar_fagerholm_cb93b9" xml:id="i-ab24702acdddff1c-4" prev="i-ab24702acdddff1c-2" n="4bd79844">
+            <seg n="8bb25991">
+              Användning av byggnader på ofri grund som kreditobjekt.
+            </seg>
+          </u>
           <note n="1b31501a">
             Föredrogs andra lagutskottets utlåtande nr 4, i anledning av
             väckta motioner angående utredning av möjligbeterna att använda
@@ -2758,7 +2782,7 @@
           <note type="speaker" n="1f024174">
             Herr JOHNSSON i Skoglösa:
           </note>
-          <u who="pehr_johnsson_9e3130" xml:id="i-9b6a412b3c3321b8-0" next="i-f02e0c6bf43df09f-0" n="ee982d81">
+          <u who="pehr_johnsson_9e3130" xml:id="i-927730561202eddb-1" next="i-927730561202eddb-2" n="ee982d81">
             <seg n="1c86c62e">
               Herr talman! Då jag har väckt den motion, som ligger till grund
               för det nu föredragna utskottsutlåtandet, tillåter jag mig yttra
@@ -2820,7 +2844,7 @@
           <note type="date" n="09f2ed33">
             Onsdagen den 2 mars 1949.
           </note>
-          <u who="pehr_johnsson_9e3130" xml:id="i-f02e0c6bf43df09f-0" prev="i-9b6a412b3c3321b8-0" n="ee982d81">
+          <u who="pehr_johnsson_9e3130" xml:id="i-927730561202eddb-2" prev="i-927730561202eddb-1" n="ee982d81">
             <seg n="8bb25991">
               Användning av byggnader på ofri grund som kreditobjekt.
             </seg>
@@ -2838,7 +2862,7 @@
           <note type="speaker" n="a7707e7a">
             Herr HELLBACKEN:
           </note>
-          <u who="unknown" xml:id="i-ed786b7390b98484-0" n="2d119c14">
+          <u who="unknown" xml:id="i-2d119c1456379d4a-8" n="2d119c14">
             <seg n="2e3648ca">
               Herr talman! I anledning av detta anförande av en av motionärerna
               kan det vara lämpligt erinra om att dessa byggnader, om vilka
@@ -2900,7 +2924,7 @@
           <note type="speaker" n="1f024174">
             Herr JOHNSSON i Skoglösa:
           </note>
-          <u who="pehr_johnsson_9e3130" xml:id="i-9b6a412b3c3321b8-1" next="i-f02e0c6bf43df09f-1" n="ee982d81">
+          <u who="pehr_johnsson_9e3130" xml:id="i-927730561202eddb-3" next="i-927730561202eddb-4" n="ee982d81">
             <seg n="f99beb08">
               Herr talman! Utskottets talesman yttrade här, att han ansåg att
               det skulle leda till egendomliga konsekvenser, om man skulle avhända
@@ -2917,7 +2941,7 @@
           <note n="63d544a7">
             Nr 8. 29
           </note>
-          <u who="pehr_johnsson_9e3130" xml:id="i-f02e0c6bf43df09f-1" prev="i-9b6a412b3c3321b8-1" n="ee982d81">
+          <u who="pehr_johnsson_9e3130" xml:id="i-927730561202eddb-4" prev="i-927730561202eddb-3" n="ee982d81">
             <seg n="2632a476">
               Främjande av vårt folks andliga och moraliska utveckling.
             </seg>
@@ -2949,7 +2973,7 @@
           <note type="speaker" n="a7707e7a">
             Herr HELLBACKEN:
           </note>
-          <u who="unknown" xml:id="i-ed786b7390b98484-1" n="2d119c14">
+          <u who="unknown" xml:id="i-2d119c1456379d4a-9" n="2d119c14">
             <seg n="d3747991">
               Herr talman! Jag vill påpeka, att i det av herr Johnsson i Skoglösa
               anförda exemplet från Malmö hamn har det skett en överenskommelse
@@ -2989,7 +3013,7 @@
           <note type="speaker" n="1f024174">
             Herr JOHNSSON i Skoglösa:
           </note>
-          <u who="pehr_johnsson_9e3130" xml:id="i-9b6a412b3c3321b8-2" next="i-f02e0c6bf43df09f-2" n="ee982d81">
+          <u who="pehr_johnsson_9e3130" xml:id="i-927730561202eddb-5" next="i-927730561202eddb-7" n="ee982d81">
             <seg n="35be12cd">
               Herr talman! Jag vill ännu en gång påpeka, att det inte gäller
               inlösning av mark.
@@ -3001,10 +3025,7 @@
           <note n="99184c0d">
             8 14.
           </note>
-          <u who="pehr_johnsson_9e3130" xml:id="i-f02e0c6bf43df09f-2" prev="i-9b6a412b3c3321b8-2" n="ee982d81">
-            <seg n="2632a476">
-              Främjande av vårt folks andliga och moraliska utveckling.
-            </seg>
+          <u who="pehr_johnsson_9e3130" xml:id="i-927730561202eddb-6" prev="i-927730561202eddb-5" n="ee982d81">
             <seg n="2632a476">
               Främjande av vårt folks andliga och moraliska utveckling.
             </seg>
@@ -3022,6 +3043,11 @@
           <note type="date" n="09f2ed33">
             Onsdagen den 2 mars 1949.
           </note>
+          <u who="pehr_johnsson_9e3130" xml:id="i-927730561202eddb-7" prev="i-927730561202eddb-5" n="ee982d81">
+            <seg n="2632a476">
+              Främjande av vårt folks andliga och moraliska utveckling.
+            </seg>
+          </u>
           <note n="b46feb22">
             I en inom andra kammaren väckt och till dess första tillfälliga
             utskott hänvisad motion, II: 149, av herrar Nyberg och Wirtén
@@ -3055,7 +3081,7 @@
           <note type="speaker" n="7800ca17">
             Herr NYBERG:
           </note>
-          <u who="olaus_nyberg_863286" xml:id="i-f2c97294aade0428-0" next="i-2bb2245220fc9214-0" n="637c55b8">
+          <u who="olaus_nyberg_863286" xml:id="i-637c55b85b7664e6-0" next="i-637c55b85b7664e6-2" n="637c55b8">
             <seg n="0f3e7789">
               Herr talman! även om det heter att »ensam är stark» lära väl
               utsikterna att få igenom något annat beslut än bifall till utskottets
@@ -3107,7 +3133,7 @@
           <note n="a6d253d0">
             Nr 8. 31
           </note>
-          <u who="olaus_nyberg_863286" xml:id="i-2bb2245220fc9214-0" prev="i-f2c97294aade0428-0" n="637c55b8">
+          <u who="olaus_nyberg_863286" xml:id="i-637c55b85b7664e6-1" prev="i-637c55b85b7664e6-0" n="637c55b8">
             <seg n="2632a476">
               Främjande av vårt folks andliga och moraliska utveckling.
             </seg>
@@ -3185,6 +3211,15 @@
               För det andra tror jag, att den skulle kunna åstadkomma ökad
               förståelse hos hela folket — icke blott i vissa kret-
             </seg>
+          </u>
+          <pb n="31" facs="https://betalab.kb.se/prot-1949--ak--8/prot_1949__ak__8-031.jp2/_view"/>
+          <note n="1c12edf9">
+            32 Nr 8.
+          </note>
+          <note type="date" n="09f2ed33">
+            Onsdagen den 2 mars 1949.
+          </note>
+          <u who="olaus_nyberg_863286" xml:id="i-637c55b85b7664e6-2" prev="i-637c55b85b7664e6-0" n="637c55b8">
             <seg n="2632a476">
               Främjande av vårt folks andliga och moraliska utveckling.
             </seg>
@@ -3226,17 +3261,10 @@
               fall till motionärernas önskemål än genom ett avslag.
             </seg>
           </u>
-          <pb n="31" facs="https://betalab.kb.se/prot-1949--ak--8/prot_1949__ak__8-031.jp2/_view"/>
-          <note n="1c12edf9">
-            32 Nr 8.
-          </note>
-          <note type="date" n="09f2ed33">
-            Onsdagen den 2 mars 1949.
-          </note>
           <note type="speaker" n="044cd5a3">
             Herr STÅHL:
           </note>
-          <u who="manne_stahl_537ee2" xml:id="i-eb047f6b94305c56-0" next="i-b49bfd5078f59b6f-0" n="10f86eea">
+          <u who="manne_stahl_537ee2" xml:id="i-10f86eea42210171-0" next="i-10f86eea42210171-1" n="10f86eea">
             <seg n="102bd24b">
               Herr talman! Det är självklart, att vi i utskottet liksom alla
               här i kammaren äro eniga om att man skall söka uppnå högsta moraliska
@@ -3272,13 +3300,13 @@
             </seg>
           </u>
           <pb n="32" facs="https://betalab.kb.se/prot-1949--ak--8/prot_1949__ak__8-032.jp2/_view"/>
-          <note n="6cabecb4">
+          <note type="date" n="2fff70f6">
             Onsdagen den 2 mars 1949. Hd
           </note>
           <note n="443b5df8">
             Nr 8. 33
           </note>
-          <u who="manne_stahl_537ee2" xml:id="i-b49bfd5078f59b6f-0" prev="i-eb047f6b94305c56-0" n="10f86eea">
+          <u who="manne_stahl_537ee2" xml:id="i-10f86eea42210171-1" prev="i-10f86eea42210171-0" n="10f86eea">
             <seg n="cd43d015">
               Nedsättning av inträdesavgifterna för nya telefonabonnemang.
             </seg>
@@ -3330,7 +3358,7 @@
           <note type="speaker" n="291d60a1">
             Herr von SETH:
           </note>
-          <u who="torgil_von_seth_698dc8" xml:id="i-8beefc72a0416fca-0" next="i-33528d29960da7e3-0" n="19901987">
+          <u who="torgil_von_seth_698dc8" xml:id="i-2922fa7f8fa629c4-1" next="i-2922fa7f8fa629c4-2" n="19901987">
             <seg n="da42decb">
               Herr talman! Innan jag går in på själva sakfrågan, varvid jag
               enligt min vana skall bli kort, vill jag påtala en oformlighet
@@ -3383,7 +3411,7 @@
           <note type="date" n="09f2ed33">
             Onsdagen den 2 mars 1949.
           </note>
-          <u who="torgil_von_seth_698dc8" xml:id="i-33528d29960da7e3-0" prev="i-8beefc72a0416fca-0" n="19901987">
+          <u who="torgil_von_seth_698dc8" xml:id="i-2922fa7f8fa629c4-2" prev="i-2922fa7f8fa629c4-1" n="19901987">
             <seg n="cd43d015">
               Nedsättning av inträdesavgifterna för nya telefonabonnemang.
             </seg>
@@ -3421,7 +3449,7 @@
           <note type="speaker" n="5ca3ac13">
             Herr JÖNSSON i Rossbol:
           </note>
-          <u who="nils_jonsson_83c564" xml:id="i-0f76417efc3d8c91-0" next="i-850f1675b1c813e2-0" n="97fd7a13">
+          <u who="nils_jonsson_83c564" xml:id="i-97fd7a13700bcb20-0" next="i-97fd7a13700bcb20-2" n="97fd7a13">
             <seg n="8a2b0c57">
               Herr talman! Herr von Seth påpekade i sitt anförande, att behandlingen
               av denna motion kommit i efterhand, då ju statsutskottets utlåtande
@@ -3476,7 +3504,7 @@
             till grund för monopoliseringen av den svenska fiskexporten, m.
             m.
           </note>
-          <u who="nils_jonsson_83c564" xml:id="i-850f1675b1c813e2-0" prev="i-0f76417efc3d8c91-0" n="97fd7a13">
+          <u who="nils_jonsson_83c564" xml:id="i-97fd7a13700bcb20-1" prev="i-97fd7a13700bcb20-0" n="97fd7a13">
             <seg n="cadcac34">
               gare spelar det ingen nämnvärd roll, om inträdesavgiften är 100
               eller 200 kronor. Den utgiften får ju denne ta på sitt omkostnadskonto,
@@ -3497,9 +3525,6 @@
             </seg>
             <seg n="94ee639f">
               Jag ber sålunda att få yrka bifall till utskottets utlåtande.
-            </seg>
-            <seg n="2d20d59f">
-              bemyndiganden, som ligga till grund för
             </seg>
           </u>
           <note n="e6f6c51e">
@@ -3552,13 +3577,18 @@
           <note n="7c995cdb">
             Interpellation ang. redogörelse för de
           </note>
+          <u who="nils_jonsson_83c564" xml:id="i-97fd7a13700bcb20-2" prev="i-97fd7a13700bcb20-0" n="97fd7a13">
+            <seg n="2d20d59f">
+              bemyndiganden, som ligga till grund för
+            </seg>
+          </u>
           <note n="9e89effc">
             monopoliseringen av den svenska fiskexporten, m. m.
           </note>
           <note type="speaker" n="73490825">
             Herr HJALMARSON erhöll på begäran ordet och yttrade:
           </note>
-          <u who="jarl_hjalmarson_8b8a90" xml:id="i-9c5eec2c112a5c59-0" next="i-50fbdf613eb4864a-0" n="e030b60f">
+          <u who="jarl_hjalmarson_8b8a90" xml:id="i-e030b60fa0061668-0" next="i-e030b60fa0061668-1" n="e030b60f">
             <seg n="78d101db">
               Herr talman! Under fjolårets riksdag uttrycktes från olika håll
               vissa farhågor inför det förslag till reglering av handeln med
@@ -3590,7 +3620,7 @@
             Interpellation ang. utredning av frågan om ett eventuellt norrlandsuniversitet,
             m. m.
           </note>
-          <u who="jarl_hjalmarson_8b8a90" xml:id="i-50fbdf613eb4864a-0" prev="i-9c5eec2c112a5c59-0" n="e030b60f">
+          <u who="jarl_hjalmarson_8b8a90" xml:id="i-e030b60fa0061668-1" prev="i-e030b60fa0061668-0" n="e030b60f">
             <seg n="151d70e1">
               lemmar att vinna inträde i dessa såsom ekonomiska föreningar
               uppträdande organisationer är således beroende på de ursprungliga
@@ -3642,7 +3672,7 @@
           <note type="speaker" n="24fc9d8f">
             Herr HOLMBERG, som anförde:
           </note>
-          <u who="helmer_holmberg_06d033" xml:id="i-296944a956563b6e-0" next="i-d25487db6adf9997-0" n="ef6251ef">
+          <u who="helmer_holmberg_06d033" xml:id="i-ef6251ef06b39ff1-0" next="i-ef6251ef06b39ff1-3" n="ef6251ef">
             <seg n="081ad3fc">
               I motioner till 1946 och 1948 års riksdagar föreslog den kommunistiska
               gruppen, att riksdagen skulle hemställa hos Kungl. Maj:t om utredning
@@ -3703,10 +3733,15 @@
           <note n="66cf0282">
             skatten på bensin.
           </note>
-          <u who="helmer_holmberg_06d033" xml:id="i-d25487db6adf9997-0" prev="i-296944a956563b6e-0" n="ef6251ef">
+          <u who="helmer_holmberg_06d033" xml:id="i-ef6251ef06b39ff1-1" prev="i-ef6251ef06b39ff1-0" n="ef6251ef">
             <seg n="cd5ea07f">
               fullständigt — norrländskt skulle kunna växa upp».
             </seg>
+          </u>
+          <note n="d7e14060">
+            Däremot vidtog riksdagen i fjol en åt-
+          </note>
+          <u who="helmer_holmberg_06d033" xml:id="i-ef6251ef06b39ff1-2" prev="i-ef6251ef06b39ff1-0" n="ef6251ef">
             <seg n="67c08626">
               gärd, som ligger i linje med synpunkterna i de kommunistiska
               motionerna. I dessa framhölls nämligen också, att statsmakterna
@@ -3740,6 +3775,11 @@
               myndigheter och andra intresserade i Norrbotten anse att även
               Luleå har förutsättningar och rättighet att få komma i fråga.
             </seg>
+          </u>
+          <note n="b0b10cc2">
+            universitet
+          </note>
+          <u who="helmer_holmberg_06d033" xml:id="i-ef6251ef06b39ff1-3" prev="i-ef6251ef06b39ff1-0" n="ef6251ef">
             <seg n="4d7f1439">
               När denna förklarliga konkurrens om förläggningen av de nya kulturinstitutionerna
               i Norrland avancerat så långt, att man börjat förse sig med byggnader
@@ -3762,12 +3802,6 @@
               och förorsaka onödiga kostnader och besvär?
             </seg>
           </u>
-          <note n="d7e14060">
-            Däremot vidtog riksdagen i fjol en åt-
-          </note>
-          <note n="b0b10cc2">
-            universitet
-          </note>
           <note n="2e742123">
             Denna anhållan bordlades.
           </note>
@@ -3784,7 +3818,7 @@
           <note type="speaker" n="52274266">
             Herr JANSSON i Aspeboda, som wttrade:
           </note>
-          <u who="robert_jansson_47e63b" xml:id="i-d6f41b47323c5b1e-0" next="i-b5f1265525de09a1-0" n="1bda547a">
+          <u who="robert_jansson_47e63b" xml:id="i-1bda547ababac5d4-0" next="i-1bda547ababac5d4-1" n="1bda547a">
             <seg n="dd362e22">
               Herr talman! Genom riksdagens beslut under år 1948 blevo bensinpriserna
               höjda. Som en följd härav ha en del förhållanden inträffat, som
@@ -3809,7 +3843,7 @@
             i skogarna föreligger överskott av arbetskraft i vissa delar av
             landet, m. m.
           </note>
-          <u who="robert_jansson_47e63b" xml:id="i-b5f1265525de09a1-0" prev="i-d6f41b47323c5b1e-0" n="1bda547a">
+          <u who="robert_jansson_47e63b" xml:id="i-1bda547ababac5d4-1" prev="i-1bda547ababac5d4-0" n="1bda547a">
             <seg n="79c88678">
               jag kunnat utröna därpå, att statsbidrag utbetalas endast å det
               kostnadsbelopp, som skoldistriktet intagit i sina kontrakt med
@@ -3886,7 +3920,7 @@
           <note type="speaker" n="0b76d53b">
             Herr HEDLUND i Rådom erhöll på begäran ordet och anförde:
           </note>
-          <u who="verner_hedlund_db974e" xml:id="i-b0b6cbfc33bf4e44-0" next="i-da833d76c9b5fcc1-0" n="9be59605">
+          <u who="verner_hedlund_db974e" xml:id="i-9be596057761a1b5-0" next="i-9be596057761a1b5-1" n="9be59605">
             <seg n="88ca5176">
               Herr talman! Som bekant är behovet av vägar ute i skogsbygderna
               utomordentligt stort. Svårigheterna för dem som bo i de väglösa
@@ -3915,7 +3949,7 @@
             i skogarna föreligger överskott av arbetskraft i vissa delar av
             landet, m. m.
           </note>
-          <u who="verner_hedlund_db974e" xml:id="i-da833d76c9b5fcc1-0" prev="i-b0b6cbfc33bf4e44-0" n="9be59605">
+          <u who="verner_hedlund_db974e" xml:id="i-9be596057761a1b5-1" prev="i-9be596057761a1b5-0" n="9be59605">
             <seg n="98718f51">
               Redan under stundande vår och sommar torde emellertid en viss
               arbetskraft komma att stå till förfogande för detta ändamål. I

@@ -20,7 +20,7 @@
     <encodingDesc>
       <editorialDecl>
         <correction>
-          <p>Some data curation was done. It is documented in db/curation/instances</p>
+          <p>Some data curation was done. It is documented in input/curation/instances</p>
         </correction>
       </editorialDecl>
     </encodingDesc>
@@ -52,17 +52,18 @@
       <front>
         <div type="preface">
           <head>prot-1946--ak--30</head>
-          <docDate when="1946">1946</docDate>
+          <docDate when="1946-06-28">1946-06-28</docDate>
         </div>
       </front>
       <body>
         <div>
+          <pb n="0" facs="https://betalab.kb.se/prot-1946--ak--30/prot_1946__ak__30-000.jp2/_view"/>
           <note n="1ce05270">
             RIKSDAGENS PROTOKOLL. 1946. Andra kammaren. Nr 30.
           </note>
           <note n="8a34b157"/>
           <note n="8a34b157"/>
-          <note n="461202c1">
+          <note type="date" n="efa548b6">
             Fredagen den 28 juni. Kl. 11 fm.
           </note>
           <note n="f20a1ab1">
@@ -107,7 +108,7 @@
           <note type="speaker" n="88e48c25">
             Herr Utbult:
           </note>
-          <u who="birger_utbult_e3769a" xml:id="i-d8b8a21eec1611c4-0" next="i-071f284ca64a9ee5-0" n="4c8f53f9">
+          <u who="birger_utbult_e3769a" xml:id="i-4c8f53f9603528fa-0" next="i-4c8f53f9603528fa-2" n="4c8f53f9">
             <seg n="60d7cf9c">
               Herr talman! Jag har icke begärt ordet för att göra något yrkande
               om ändring av det föreliggande förslaget till handelsavtal med
@@ -132,13 +133,19 @@
           <note n="b207efb3">
             Andra kammarens protokoll 19456. Nr 30. 1
           </note>
-          <u who="birger_utbult_e3769a" xml:id="i-071f284ca64a9ee5-0" prev="i-d8b8a21eec1611c4-0" n="4c8f53f9">
+          <u who="birger_utbult_e3769a" xml:id="i-4c8f53f9603528fa-1" prev="i-4c8f53f9603528fa-0" n="4c8f53f9">
             <seg n="522b3e61">
               Handelsöverenskommelse mellan Sverige och
             </seg>
             <seg n="d0f2fe15">
               Island.
             </seg>
+          </u>
+          <pb n="1" facs="https://betalab.kb.se/prot-1946--ak--30/prot_1946__ak__30-001.jp2/_view"/>
+          <note type="date" n="2c100e65">
+            2 Nr 30. Fredagen den 28 juni 1946 fm.
+          </note>
+          <u who="birger_utbult_e3769a" xml:id="i-4c8f53f9603528fa-2" prev="i-4c8f53f9603528fa-0" n="4c8f53f9">
             <seg n="15cc4c19">
               Handelsöverenskommelse mellan Sverige och Island. (Forts.)
             </seg>
@@ -184,14 +191,10 @@
               yrka bifall till det föreliggande avtalet med Island.
             </seg>
           </u>
-          <pb n="1" facs="https://betalab.kb.se/prot-1946--ak--30/prot_1946__ak__30-001.jp2/_view"/>
-          <note n="15d51c24">
-            2 Nr 30. Fredagen den 28 juni 1946 fm.
-          </note>
           <note type="speaker" n="b47646a2">
             Herr Fast:
           </note>
-          <u who="erik_fast_7422cf" xml:id="i-bca700a72ef90601-0" next="i-0702b6110c19ee81-0" n="707e534f">
+          <u who="erik_fast_7422cf" xml:id="i-707e534ff0b2abd0-0" next="i-707e534ff0b2abd0-5" n="707e534f">
             <seg n="3462190a">
               Herr talman! Vi ha ju här att göra med ett förhållande som icke
               bara berör Sverige utan även andra länder, med vilka Island har
@@ -227,7 +230,7 @@
             Efter härmed slutad överläggning biföll kammaren utskottets hemställan.
           </note>
           <pb n="2" facs="https://betalab.kb.se/prot-1946--ak--30/prot_1946__ak__30-002.jp2/_view"/>
-          <note n="b8982ede">
+          <note type="date" n="08dda520">
             Fredagen den 28 juni 1946 fm. Nr 30. 3
           </note>
           <note n="970da9f6">
@@ -289,7 +292,7 @@
             dels godkänna av departementschefen förordade ändrade grunder
             för tertiäroch tilläggslåneverksamheten i avseende å flerfamiljshus,
           </note>
-          <u who="erik_fast_7422cf" xml:id="i-0702b6110c19ee81-0" prev="i-bca700a72ef90601-0" n="707e534f">
+          <u who="erik_fast_7422cf" xml:id="i-707e534ff0b2abd0-1" prev="i-707e534ff0b2abd0-0" n="707e534f">
             <seg n="aebfe487">
               dels medgiva, att räntefoten för förbättringslån och lantarbetarbostadslån,
               vilka kunde komma att beviljas under budgetåret 1946/47, bestämdes
@@ -316,47 +319,6 @@
               av 6 000 000 kronor samt till Lån till bostadsförbättringsverksamhet
               ett investeringsanslag av 8 000 000 kronor.
             </seg>
-            <seg n="42eb18f1">
-              1) medgiva, att räntefoten för förbättringslån och lantarbetarbostadslån,
-              vilka komme att beviljas under budgetåret 1946/47, bestämdes till
-              3,25 4,
-            </seg>
-            <seg n="d0a789ce">
-              b) till Statens byggnadslånebyrå: Omkostnader 300 000 kronor,
-            </seg>
-            <seg n="60d30577">
-              Ek c) till Hyresrabatter för mindre bemedlade, barnrika familjer
-              10 000 000 ronor,
-            </seg>
-            <seg n="068a5a53">
-              2) under statens utlåningsfonder
-            </seg>
-            <seg n="d7fba174">
-              a) till Lånefonden för bostadsförsörjning för mindre bemedlade,
-              barnrika familjer ett investeringsanslag av 70 000 000 kronor,
-            </seg>
-            <seg n="9a92e7eb">
-              b) till Lånefonden för främjande av bostadsbyggande på landsbygden
-              ett investeringsanslag av 15000 000 kronor,
-            </seg>
-            <seg n="333a1a97">
-              c) till Lånefonden för bostadsbyggande ett investeringsanslag
-              av 220 000 000 kronor,
-            </seg>
-            <seg n="9bd4081d">
-              3) under fonden för låneunderstöd
-            </seg>
-            <seg n="b3c0e8f4">
-              a) till Tertiärlån till viss bostadsbyggnadsverksamhet ett investeringsan-
-            </seg>
-            <seg n="dde55157">
-              b) till Lån till uppförande och förbättring av lantarbetarbostäder
-              ett investeringsanslag av 6 000 000 kronor,
-            </seg>
-            <seg n="5675109f">
-              c) till Lån till bostadsförbättringsverksamhet ett investeringsanslag
-              av 8 000 000 kronor,
-            </seg>
           </u>
           <note n="4b533579">
             I samband med Kungl. Maj:ts förevarande förslag hade utskottet
@@ -368,7 +330,7 @@
             till Kungl. Maj:t
           </note>
           <pb n="3" facs="https://betalab.kb.se/prot-1946--ak--30/prot_1946__ak__30-003.jp2/_view"/>
-          <note n="9c6550ee">
+          <note type="date" n="35cf33ca">
             4 Nr 30. Fredagen den 28 juni 1946 fm.
           </note>
           <note n="d1809dd9">
@@ -446,7 +408,7 @@
             I: 365 och II:557 samt I:367 och IT:554 godkänna i nämnda statsrådsprotokoll
           </note>
           <pb n="4" facs="https://betalab.kb.se/prot-1946--ak--30/prot_1946__ak__30-004.jp2/_view"/>
-          <note n="3f7541f4">
+          <note type="date" n="070a8734">
             Fredagen den 28 juni 1946 fm. Nr 30. 5
           </note>
           <note n="9f577fb4">
@@ -495,6 +457,13 @@
           <note n="4bd3820a">
             J. med bifall till Kungl. Maj:ts förslag
           </note>
+          <u who="erik_fast_7422cf" xml:id="i-707e534ff0b2abd0-2" prev="i-707e534ff0b2abd0-0" n="707e534f">
+            <seg n="42eb18f1">
+              1) medgiva, att räntefoten för förbättringslån och lantarbetarbostadslån,
+              vilka komme att beviljas under budgetåret 1946/47, bestämdes till
+              3,25 4,
+            </seg>
+          </u>
           <note n="112ec497">
             2) för budgetåret 1946/47 under femte huvudtiteln såsom förslagsanslag
             anvisa
@@ -502,6 +471,15 @@
           <note n="590cf88c">
             a) till Statens byggnadslånebyrå: Avlöningar 1545 000 kronor,
           </note>
+          <u who="erik_fast_7422cf" xml:id="i-707e534ff0b2abd0-3" prev="i-707e534ff0b2abd0-0" n="707e534f">
+            <seg n="d0a789ce">
+              b) till Statens byggnadslånebyrå: Omkostnader 300 000 kronor,
+            </seg>
+            <seg n="60d30577">
+              Ek c) till Hyresrabatter för mindre bemedlade, barnrika familjer
+              10 000 000 ronor,
+            </seg>
+          </u>
           <note n="1e5d9fa1">
             K. med bifall till Kungl. Maj:ts förslag samt med avslag å motionerna
             I: 366 och II:558 i vad nämnda motioner avsåge anslagsfrågan till
@@ -517,16 +495,49 @@
             1) under femte huvudtiteln till Bidrag till inrättande av pensionärshem
             ett reservationsanslag av 9000 000 kronor,
           </note>
+          <u who="erik_fast_7422cf" xml:id="i-707e534ff0b2abd0-4" prev="i-707e534ff0b2abd0-0" n="707e534f">
+            <seg n="068a5a53">
+              2) under statens utlåningsfonder
+            </seg>
+            <seg n="d7fba174">
+              a) till Lånefonden för bostadsförsörjning för mindre bemedlade,
+              barnrika familjer ett investeringsanslag av 70 000 000 kronor,
+            </seg>
+            <seg n="9a92e7eb">
+              b) till Lånefonden för främjande av bostadsbyggande på landsbygden
+              ett investeringsanslag av 15000 000 kronor,
+            </seg>
+            <seg n="333a1a97">
+              c) till Lånefonden för bostadsbyggande ett investeringsanslag
+              av 220 000 000 kronor,
+            </seg>
+            <seg n="9bd4081d">
+              3) under fonden för låneunderstöd
+            </seg>
+            <seg n="b3c0e8f4">
+              a) till Tertiärlån till viss bostadsbyggnadsverksamhet ett investeringsan-
+            </seg>
+          </u>
           <note n="9d7396e4">
             slag av 50 000 000 kronor,
           </note>
           <pb n="5" facs="https://betalab.kb.se/prot-1946--ak--30/prot_1946__ak__30-005.jp2/_view"/>
-          <note n="14ec6e2a">
+          <note type="date" n="ab2863ee">
             6 Nr 30. Fredagen den 28 juni 1946 fm.
           </note>
           <note n="3c034f48">
             Åtgärder till främjande av bostadsförsörjningen. (Forts.)
           </note>
+          <u who="erik_fast_7422cf" xml:id="i-707e534ff0b2abd0-5" prev="i-707e534ff0b2abd0-0" n="707e534f">
+            <seg n="dde55157">
+              b) till Lån till uppförande och förbättring av lantarbetarbostäder
+              ett investeringsanslag av 6 000 000 kronor,
+            </seg>
+            <seg n="5675109f">
+              c) till Lån till bostadsförbättringsverksamhet ett investeringsanslag
+              av 8 000 000 kronor,
+            </seg>
+          </u>
           <note n="b69c428e">
             II. att i motionerna I:364 och II:555 framlagt förslag om skrivelse
             till Kungl. Maj:t ej måtte till någon riksdagens åtgärd föranleda,
@@ -605,7 +616,7 @@
           <note type="speaker" n="52534cda">
             Herr Birke:
           </note>
-          <u who="emanuel_birke_5bc988" xml:id="i-28c064688defce89-0" next="i-4dfcbd1a2cf6435f-0" n="fcbd1fd7">
+          <u who="emanuel_birke_5bc988" xml:id="i-fcbd1fd7020f4746-0" next="i-fcbd1fd7020f4746-1" n="fcbd1fd7">
             <seg n="6341d498">
               Herr talman! Statsutskottets majoritet tillstyrker, att tertiärlånens
               övre gräns för kommuner och allmännyttiga företag sättes till
@@ -622,10 +633,10 @@
             </seg>
           </u>
           <pb n="6" facs="https://betalab.kb.se/prot-1946--ak--30/prot_1946__ak__30-006.jp2/_view"/>
-          <note n="1052127d">
+          <note type="date" n="63fc8b59">
             Fredagen den 28 juni 1946 fm. Nr 30. 7
           </note>
-          <u who="emanuel_birke_5bc988" xml:id="i-4dfcbd1a2cf6435f-0" prev="i-28c064688defce89-0" n="fcbd1fd7">
+          <u who="emanuel_birke_5bc988" xml:id="i-fcbd1fd7020f4746-1" prev="i-fcbd1fd7020f4746-0" n="fcbd1fd7">
             <seg n="0b1db4d0">
               Åtgärder till främjande av bostadsförsörjningen. (Forts.) tig
               och icke väl genomtänkt byggnadsverksamhet kommer att äga rum.
@@ -693,7 +704,7 @@
           <note type="speaker" n="cdbfca98">
             Herr Kempe:
           </note>
-          <u who="gosta_kempe_526cac" xml:id="i-b91cf3255ffb772a-0" next="i-8979fe2d63f93f2d-0" n="b9538fb4">
+          <u who="gosta_kempe_526cac" xml:id="i-b9538fb49a8dae91-0" next="i-b9538fb49a8dae91-7" n="b9538fb4">
             <seg n="4b1808d4">
               Herr talman! Det är beklagligt, att den kungl. propositionen
               angående bostadspolitiken framlades så sent inför riksdagen och
@@ -715,10 +726,10 @@
             </seg>
           </u>
           <pb n="7" facs="https://betalab.kb.se/prot-1946--ak--30/prot_1946__ak__30-007.jp2/_view"/>
-          <note n="d1fad6e5">
+          <note type="date" n="07cc1f40">
             8 Nr 30. Fredagen den 28 juni 1946 fm.
           </note>
-          <u who="gosta_kempe_526cac" xml:id="i-8979fe2d63f93f2d-0" prev="i-b91cf3255ffb772a-0" n="b9538fb4">
+          <u who="gosta_kempe_526cac" xml:id="i-b9538fb49a8dae91-1" prev="i-b9538fb49a8dae91-0" n="b9538fb4">
             <seg n="6b34e671">
               Åtgärder till främjande av bostadsförsörjningen. (Forts.) tid
               har dessutom en skärpning inträtt i läget på grund av den stora
@@ -767,6 +778,14 @@
               i linje med arbetarrörelsens efterkrigsprogram och hyresgäströrelsens
               bostadspolitiska efterkrigsprogram.
             </seg>
+          </u>
+          <note n="7a68e9f9">
+            I motionen nr 158 i denna kammare ha vi från kommunistiska gruppen
+            framfört förslag om att staten skulle inlösa bostadsrättsinnehavarnas
+            andelar. Jag ber, herr talman, att i detta sammanhang få yrka
+            bifall till nämnda motion.
+          </note>
+          <u who="gosta_kempe_526cac" xml:id="i-b9538fb49a8dae91-2" prev="i-b9538fb49a8dae91-0" n="b9538fb4">
             <seg n="dadd3a5d">
               Det stora och allt överskuggande problemet, då det gäller bostadspolitiken,
               är frågan om att åstadkomma balans mellan hyror och inkomster.
@@ -784,6 +803,12 @@
               orsakerna till den höga hyresnivån. Vårt land intager en särställning.
               Vi ha de högsta
             </seg>
+          </u>
+          <pb n="8" facs="https://betalab.kb.se/prot-1946--ak--30/prot_1946__ak__30-008.jp2/_view"/>
+          <note type="date" n="a992e3cf">
+            Fredagen den 28 juni 1946 fm. Nr 30. 9
+          </note>
+          <u who="gosta_kempe_526cac" xml:id="i-b9538fb49a8dae91-3" prev="i-b9538fb49a8dae91-0" n="b9538fb4">
             <seg n="e2ca6680">
               Åtgärder till främjande av bostadsförsörjningen. (Forts.) hyrorna
               i världen, säger man. Och varför? Jo, därför att det knappast
@@ -853,6 +878,12 @@
               spela någon väsentlig roll i kampen mot dessa monopol. Byggnadslånebyrån
               fäster
             </seg>
+          </u>
+          <pb n="9" facs="https://betalab.kb.se/prot-1946--ak--30/prot_1946__ak__30-009.jp2/_view"/>
+          <note type="date" n="9ac2c25b">
+            10 Nr 30. Fredagen den 28 juni 1946 fm.
+          </note>
+          <u who="gosta_kempe_526cac" xml:id="i-b9538fb49a8dae91-4" prev="i-b9538fb49a8dae91-0" n="b9538fb4">
             <seg n="593f06b4">
               Åtgärder till främjande av bostadsförsörjningen. (Forts.) också
               uppmärksamheten på detta problem. Den uttalar: »Därest en kontinuerlig
@@ -928,6 +959,12 @@
               för 56 000 kronor, säger en hel del. Hyresgäströrelsens tidning
               Vår Bostad återgav ett annat exempel
             </seg>
+          </u>
+          <pb n="10" facs="https://betalab.kb.se/prot-1946--ak--30/prot_1946__ak__30-010.jp2/_view"/>
+          <note type="date" n="b6f47d6b">
+            Fredagen den 28 juni 1946 fm. Nr 30. 11
+          </note>
+          <u who="gosta_kempe_526cac" xml:id="i-b9538fb49a8dae91-5" prev="i-b9538fb49a8dae91-0" n="b9538fb4">
             <seg n="192c478b">
               Åtgärder till främjande av bostadsförsöriningen. (Forts.) på
               tomtjobberi. Det var från Sundbyberg, där en byggnadstomt om 48
@@ -994,6 +1031,15 @@
               är erforderlig för att man överhuvud taget skall kunna genomföra
               det fastställda programmet.
             </seg>
+          </u>
+          <pb n="11" facs="https://betalab.kb.se/prot-1946--ak--30/prot_1946__ak__30-011.jp2/_view"/>
+          <note type="date" n="0c919e01">
+            12 Nr 30. Fredagen den 28 juni 1946 fm.
+          </note>
+          <note n="0b2fcdea">
+            Åtgärder till främjande av bostadsförsörjningen. ( Forts.)
+          </note>
+          <u who="gosta_kempe_526cac" xml:id="i-b9538fb49a8dae91-6" prev="i-b9538fb49a8dae91-0" n="b9538fb4">
             <seg n="9390c692">
               Departementschefen framhåller att landsbygdens bostadsfråga skall
               lösas i ett större sammanhang men understryker samtidigt betydelsen
@@ -1064,6 +1110,12 @@
               landsvägar — numera anses det väl också naturligt att samhället
               skall
             </seg>
+          </u>
+          <pb n="12" facs="https://betalab.kb.se/prot-1946--ak--30/prot_1946__ak__30-012.jp2/_view"/>
+          <note type="date" n="bbf47c70">
+            Fredagen den 28 juni 1946 fm. Nr 30. 13
+          </note>
+          <u who="gosta_kempe_526cac" xml:id="i-b9538fb49a8dae91-7" prev="i-b9538fb49a8dae91-0" n="b9538fb4">
             <seg n="98ad71b9">
               Åtgärder till främjande av bostadsförsörjningen. (Forts.) svara
               för järnvägarna — så borde det vara lika naturligt att samhället
@@ -1103,35 +1155,6 @@
               själva ha möjlighet att flytta in i dem.
             </seg>
           </u>
-          <note n="7a68e9f9">
-            I motionen nr 158 i denna kammare ha vi från kommunistiska gruppen
-            framfört förslag om att staten skulle inlösa bostadsrättsinnehavarnas
-            andelar. Jag ber, herr talman, att i detta sammanhang få yrka
-            bifall till nämnda motion.
-          </note>
-          <pb n="8" facs="https://betalab.kb.se/prot-1946--ak--30/prot_1946__ak__30-008.jp2/_view"/>
-          <note n="517e98d2">
-            Fredagen den 28 juni 1946 fm. Nr 30. 9
-          </note>
-          <pb n="9" facs="https://betalab.kb.se/prot-1946--ak--30/prot_1946__ak__30-009.jp2/_view"/>
-          <note n="5f348fbf">
-            10 Nr 30. Fredagen den 28 juni 1946 fm.
-          </note>
-          <pb n="10" facs="https://betalab.kb.se/prot-1946--ak--30/prot_1946__ak__30-010.jp2/_view"/>
-          <note n="a3d4a0a5">
-            Fredagen den 28 juni 1946 fm. Nr 30. 11
-          </note>
-          <pb n="11" facs="https://betalab.kb.se/prot-1946--ak--30/prot_1946__ak__30-011.jp2/_view"/>
-          <note n="6f12cd30">
-            12 Nr 30. Fredagen den 28 juni 1946 fm.
-          </note>
-          <note n="0b2fcdea">
-            Åtgärder till främjande av bostadsförsörjningen. ( Forts.)
-          </note>
-          <pb n="12" facs="https://betalab.kb.se/prot-1946--ak--30/prot_1946__ak__30-012.jp2/_view"/>
-          <note n="7041c31f">
-            Fredagen den 28 juni 1946 fm. Nr 30. 13
-          </note>
           <note n="4e693f53">
             Herr talman! Jag ber att med dessa ord få yrka bifall till motionen
             nr 556 1 andra kammaren.
@@ -1139,7 +1162,7 @@
           <note type="speaker" n="9288faed">
             Herr Eriksson i Stockholm:
           </note>
-          <u who="einar_eriksson_3a1248" xml:id="i-60e0aad9ad039f5f-0" next="i-b0a8c42b4f7f0265-0" n="db27a90c">
+          <u who="einar_eriksson_3a1248" xml:id="i-6dd07ffcc393af36-0" next="i-6dd07ffcc393af36-4" n="db27a90c">
             <seg n="01bc3af5">
               Herr talman! Av det stora program för främjande av bostadsbyggandet
               som i början av detta år framlades av bostadssociala utredningen
@@ -1172,10 +1195,10 @@
             </seg>
           </u>
           <pb n="13" facs="https://betalab.kb.se/prot-1946--ak--30/prot_1946__ak__30-013.jp2/_view"/>
-          <note n="aec1a63c">
+          <note type="date" n="8e9be645">
             14 Nr 30. Fredagen den 28 juni 1946 fm.
           </note>
-          <u who="einar_eriksson_3a1248" xml:id="i-b0a8c42b4f7f0265-0" prev="i-60e0aad9ad039f5f-0" n="db27a90c">
+          <u who="einar_eriksson_3a1248" xml:id="i-6dd07ffcc393af36-1" prev="i-6dd07ffcc393af36-0" n="db27a90c">
             <seg n="a1ed3c0c">
               Åtgärder till främjande av bostadsförsörjningen. (Forts.) har
               emellertid till stor del sin förklaring däri, att den tid som
@@ -1245,6 +1268,15 @@
               heller rör frågan om målsättningen och utrymmesstandarden överhuvud
               taget.
             </seg>
+          </u>
+          <pb n="14" facs="https://betalab.kb.se/prot-1946--ak--30/prot_1946__ak__30-014.jp2/_view"/>
+          <note type="date" n="85765638">
+            Fredagen den 28 juni 1946 fm. Nr 30. 15
+          </note>
+          <note n="57b6da2c">
+            Åtgärder till främjande av bostadsförsörininyen. ( Forts.)
+          </note>
+          <u who="einar_eriksson_3a1248" xml:id="i-6dd07ffcc393af36-2" prev="i-6dd07ffcc393af36-0" n="db27a90c">
             <seg n="380173e0">
               Efter dessa mera allmänna synpunkter skall jag inskränka mig
               till att något beröra de frågor som tagits upp av de två föregående
@@ -1318,6 +1350,12 @@
               sakligen i eget förvärvsintresse, inte kan anses vara högt tilltaget.
               Och en in-
             </seg>
+          </u>
+          <pb n="15" facs="https://betalab.kb.se/prot-1946--ak--30/prot_1946__ak__30-015.jp2/_view"/>
+          <note type="date" n="5ee704e2">
+            16 Nr 30. Fredagen den 28 juni 1946 fm.
+          </note>
+          <u who="einar_eriksson_3a1248" xml:id="i-6dd07ffcc393af36-3" prev="i-6dd07ffcc393af36-0" n="db27a90c">
             <seg n="0f698d0e">
               Åtgärder till främjande av bostadsförsörjningen. (Forts.) sats
               till dessa belopp kan ju vara en garanti för att endast ekonomiskt
@@ -1391,6 +1429,12 @@
               ju betydligt större möjligheter att följa förvaltningen av en
               ekonomisk för-
             </seg>
+          </u>
+          <pb n="16" facs="https://betalab.kb.se/prot-1946--ak--30/prot_1946__ak__30-016.jp2/_view"/>
+          <note type="date" n="58dd0035">
+            Fredagen den 28 juni 1946 fm. Nr 30. i
+          </note>
+          <u who="einar_eriksson_3a1248" xml:id="i-6dd07ffcc393af36-4" prev="i-6dd07ffcc393af36-0" n="db27a90c">
             <seg n="e74780dc">
               Åtgärder till främjande av bostadsförsöriningen. (Forts.) ening
               med allt vad därmed sammanhänger än vad staten har. Av dessa skäl,
@@ -1449,25 +1493,10 @@
               samt ber att få yrka bifall till dess förslag i alla punkter.
             </seg>
           </u>
-          <pb n="14" facs="https://betalab.kb.se/prot-1946--ak--30/prot_1946__ak__30-014.jp2/_view"/>
-          <note n="de67e56e">
-            Fredagen den 28 juni 1946 fm. Nr 30. 15
-          </note>
-          <note n="57b6da2c">
-            Åtgärder till främjande av bostadsförsörininyen. ( Forts.)
-          </note>
-          <pb n="15" facs="https://betalab.kb.se/prot-1946--ak--30/prot_1946__ak__30-015.jp2/_view"/>
-          <note n="d9a7a99d">
-            16 Nr 30. Fredagen den 28 juni 1946 fm.
-          </note>
-          <pb n="16" facs="https://betalab.kb.se/prot-1946--ak--30/prot_1946__ak__30-016.jp2/_view"/>
-          <note n="261cc4e7">
-            Fredagen den 28 juni 1946 fm. Nr 30. i
-          </note>
           <note type="speaker" n="79660f6f">
             Herr Pettersson i Dahl:
           </note>
-          <u who="georg_pettersson_629b62" xml:id="i-8a8b1374fd311b40-0" next="i-12ea0cc8d3b3433c-0" n="5aa5cf3a">
+          <u who="georg_pettersson_629b62" xml:id="i-cc058a336affdb32-0" next="i-cc058a336affdb32-4" n="5aa5cf3a">
             <seg n="3438a185">
               Herr talman! Jag förstår att kammarens ledamöter efter tre dagars
               plena äro tacksamma för att debatterna inte bli för långa, och
@@ -1488,10 +1517,10 @@
             Andra kammarens protokoll 1946. Nr 30. 2
           </note>
           <pb n="17" facs="https://betalab.kb.se/prot-1946--ak--30/prot_1946__ak__30-017.jp2/_view"/>
-          <note n="603d61df">
+          <note type="date" n="5dca0ef6">
             18 Nr 30. Fredagen den 28 juni 1946 fm.
           </note>
-          <u who="georg_pettersson_629b62" xml:id="i-12ea0cc8d3b3433c-0" prev="i-8a8b1374fd311b40-0" n="5aa5cf3a">
+          <u who="georg_pettersson_629b62" xml:id="i-cc058a336affdb32-1" prev="i-cc058a336affdb32-0" n="5aa5cf3a">
             <seg n="af5691b1">
               Åtgärder till främjande av bostadsförsörjningen. (Forts.) till
               100 Zz av värdet och för kooperativa företag till 95 2 samt för
@@ -1566,6 +1595,12 @@
               Jag kan i detta sammanhang inte underlåta att hänvisa till ett
               tidigare
             </seg>
+          </u>
+          <pb n="18" facs="https://betalab.kb.se/prot-1946--ak--30/prot_1946__ak__30-018.jp2/_view"/>
+          <note type="date" n="cb58473f">
+            Fredagen den 28 juni 1946 im. Nr 30. 19
+          </note>
+          <u who="georg_pettersson_629b62" xml:id="i-cc058a336affdb32-2" prev="i-cc058a336affdb32-0" n="5aa5cf3a">
             <seg n="cbd500d6">
               Åtgärder till främjande av bostadsförsörjningen. (Forts.) anförande,
               som jag höll för någon tid sedan rörande finanspolitiken och industriernas
@@ -1603,6 +1638,11 @@
               motiverat att sänka räntan ända ned till 3 Z. Man jar emellertid
               hänvisat till att denna fråga kommer upp i ett annat samman-
             </seg>
+          </u>
+          <note n="656b1ad9">
+            ang.
+          </note>
+          <u who="georg_pettersson_629b62" xml:id="i-cc058a336affdb32-3" prev="i-cc058a336affdb32-0" n="5aa5cf3a">
             <seg n="0a71b12f">
               Jag vill här understryka att även denna fråga bör bli föremål
               för uppmärksamhet. Jag har tidigare påpekat att dessa mindre egnahemsfastigheter,
@@ -1638,6 +1678,12 @@
               vi yrkat på att den högsta belåningsgränsen skall generellt sänkas
               till högst 90 4 för såväl
             </seg>
+          </u>
+          <pb n="19" facs="https://betalab.kb.se/prot-1946--ak--30/prot_1946__ak__30-019.jp2/_view"/>
+          <note type="date" n="672a6a49">
+            20 Nr 30. Fredagen den 28 juni 1946 fm.
+          </note>
+          <u who="georg_pettersson_629b62" xml:id="i-cc058a336affdb32-4" prev="i-cc058a336affdb32-0" n="5aa5cf3a">
             <seg n="fa5252d6">
               Åtgärder till främjande av bostadsförsörjningen. (Forts.) kommunala
               som kooperativa och enskilda byggnadsföretag. Anledningen till
@@ -1649,17 +1695,6 @@
               vore enligt min uppfattning synnerligen välbehövligt.
             </seg>
           </u>
-          <pb n="18" facs="https://betalab.kb.se/prot-1946--ak--30/prot_1946__ak__30-018.jp2/_view"/>
-          <note n="78b47eab">
-            Fredagen den 28 juni 1946 im. Nr 30. 19
-          </note>
-          <note n="656b1ad9">
-            ang.
-          </note>
-          <pb n="19" facs="https://betalab.kb.se/prot-1946--ak--30/prot_1946__ak__30-019.jp2/_view"/>
-          <note n="acf49560">
-            20 Nr 30. Fredagen den 28 juni 1946 fm.
-          </note>
           <note n="117e01fa">
             Herr talman! Med dessa ord tillåter jag mig att hemställa om
             bifall till den vid detta utskottsutlåtande fogade reservationen
@@ -1675,7 +1710,7 @@
           <note type="speaker" n="6873cb53">
             Herr Skoglund i Umeå:
           </note>
-          <u who="martin_skoglund_a58f6d" xml:id="i-e6199e9fb37630f0-0" n="4749a51b">
+          <u who="martin_skoglund_a58f6d" xml:id="i-4749a51baa26db64-0" n="4749a51b">
             <seg n="fc5418d8">
               Herr talman! Ända sedan budgetåret 1933/34 har det som bekant
               utgått anslag till bostadsförbättringsbidrag på landsbygden. Från
@@ -1730,7 +1765,7 @@
             </seg>
           </u>
           <pb n="20" facs="https://betalab.kb.se/prot-1946--ak--30/prot_1946__ak__30-020.jp2/_view"/>
-          <note n="c91e53c2">
+          <note type="date" n="0ab33d1f">
             Fredagen den 28 juni 1946 fm. Nr 30. A
           </note>
           <note n="3c034f48">
@@ -1739,7 +1774,7 @@
           <note type="speaker" n="a8cf373c">
             Herr Olsson i Gävle:
           </note>
-          <u who="kj_olsson_fad08f" xml:id="i-c7b79fa831c1d973-0" next="i-26c5d14aa783721c-0" n="0055e5d5">
+          <u who="kj_olsson_fad08f" xml:id="i-142a8cb92c33a781-0" next="i-142a8cb92c33a781-2" n="0055e5d5">
             <seg n="bfa40bdc">
               Herr talman! Jag skulle vilja säga som statsutskottets talesman,
               att det är beklagligt att inte hela den fråga, som det här gäller,
@@ -1815,10 +1850,10 @@
             </seg>
           </u>
           <pb n="21" facs="https://betalab.kb.se/prot-1946--ak--30/prot_1946__ak__30-021.jp2/_view"/>
-          <note n="c6f51427">
+          <note type="date" n="639b87bb">
             22 Nr 30. Fredagen den 28 juni 1946 fm.
           </note>
-          <u who="kj_olsson_fad08f" xml:id="i-26c5d14aa783721c-0" prev="i-c7b79fa831c1d973-0" n="0055e5d5">
+          <u who="kj_olsson_fad08f" xml:id="i-142a8cb92c33a781-1" prev="i-142a8cb92c33a781-0" n="0055e5d5">
             <seg n="29ff8eec">
               Åtgärder till främjande av bostadsförsörjningen. (Forts.) den
               räntefria, stående delen och räntesänkningen. Om man följer samma
@@ -1891,6 +1926,12 @@
               inte i bostadssociala utredningens förslag — och det har skett
               Just med hänsyn
             </seg>
+          </u>
+          <pb n="22" facs="https://betalab.kb.se/prot-1946--ak--30/prot_1946__ak__30-022.jp2/_view"/>
+          <note type="date" n="5b1b12f2">
+            Fredagen den 28 juni 1946 fm. Nr 30. 23
+          </note>
+          <u who="kj_olsson_fad08f" xml:id="i-142a8cb92c33a781-2" prev="i-142a8cb92c33a781-0" n="0055e5d5">
             <seg n="7eeac69f">
               Åtgärder till främjande av bostadsförsörmingen. (Forls.) till
               vissa osunda företeelser. Förslaget var inte omotiverat — det
@@ -1940,14 +1981,10 @@
               med statsutskottet.
             </seg>
           </u>
-          <pb n="22" facs="https://betalab.kb.se/prot-1946--ak--30/prot_1946__ak__30-022.jp2/_view"/>
-          <note n="60895226">
-            Fredagen den 28 juni 1946 fm. Nr 30. 23
-          </note>
           <note type="speaker" n="20af6d00">
             Chefen för socialdepartementet, herr statsrådet Möller:
           </note>
-          <u who="gustav_moller_becc38" xml:id="i-078bee742f7f3c12-0" next="i-2fa54306d34e9885-0" n="57fa71b0">
+          <u who="gustav_moller_becc38" xml:id="i-64ec372ecf14afdd-0" next="i-64ec372ecf14afdd-4" n="57fa71b0">
             <seg n="c67b5cde">
               Herr talman! Det ärende som nu föreligger till kammarens prövning
               utgör det första steget, som vi skola taga på vägen till en klarare
@@ -1979,10 +2016,10 @@
             </seg>
           </u>
           <pb n="23" facs="https://betalab.kb.se/prot-1946--ak--30/prot_1946__ak__30-023.jp2/_view"/>
-          <note n="7dc185ca">
+          <note type="date" n="bf3d83a8">
             24 Nr 30. Fredagen den 28 juni 1946 fn.
           </note>
-          <u who="gustav_moller_becc38" xml:id="i-2fa54306d34e9885-0" prev="i-078bee742f7f3c12-0" n="57fa71b0">
+          <u who="gustav_moller_becc38" xml:id="i-64ec372ecf14afdd-1" prev="i-64ec372ecf14afdd-0" n="57fa71b0">
             <seg n="a8bc61d6">
               Åtgärder till främjande av bostadsförsörjningen. (Forts.) efter
               min mening önskvärt att riksdagens ledamöter göra klart för sig
@@ -2063,6 +2100,12 @@
               om den hyressänkning, som skedde på 1930-talet, från 1933 till
               1939. Den bringade vis-
             </seg>
+          </u>
+          <pb n="24" facs="https://betalab.kb.se/prot-1946--ak--30/prot_1946__ak__30-024.jp2/_view"/>
+          <note type="date" n="e316683d">
+            Fredagen den 28 juni 1946 im. Nr 30. 25
+          </note>
+          <u who="gustav_moller_becc38" xml:id="i-64ec372ecf14afdd-2" prev="i-64ec372ecf14afdd-0" n="57fa71b0">
             <seg n="4f25c2cc">
               Åtgärder till främjande av bostadsförsöriningen. (Forts.) serligen
               ned hyrorna något, men dessa blevo aldrig så låga, att de motsvarade
@@ -2137,6 +2180,12 @@
               Jag vågar spå — ehuru det är saker man inte gärna skall ge sig
               in på —
             </seg>
+          </u>
+          <pb n="25" facs="https://betalab.kb.se/prot-1946--ak--30/prot_1946__ak__30-025.jp2/_view"/>
+          <note type="date" n="d99a6cf9">
+            26 Nr 30. Fredagen den 28 juni 1946 fm.
+          </note>
+          <u who="gustav_moller_becc38" xml:id="i-64ec372ecf14afdd-3" prev="i-64ec372ecf14afdd-0" n="57fa71b0">
             <seg n="cff7187c">
               Åtgärder till främjande av bostadsförsörjningen. ( Forts.) att
               om fem år, när hela serien av de förslag ha förverkligats, som
@@ -2207,6 +2256,12 @@
               borgen, skulle då staten säga: »Nej, det är för stor risk. Vi
               måste
             </seg>
+          </u>
+          <pb n="26" facs="https://betalab.kb.se/prot-1946--ak--30/prot_1946__ak__30-026.jp2/_view"/>
+          <note type="date" n="fecbfb85">
+            Fredagen den 28 juni 1946 fm. Nr 30. 27
+          </note>
+          <u who="gustav_moller_becc38" xml:id="i-64ec372ecf14afdd-4" prev="i-64ec372ecf14afdd-0" n="57fa71b0">
             <seg n="f22bae61">
               Åtgärder till främjande av bostadsförsörjningen. (Forts.) sörja
               för att det blir en kapitaltillförsel för de sista tio procenten
@@ -2266,18 +2321,6 @@
               att andra kammaren kommer att följa statsutskottets majoritet.
             </seg>
           </u>
-          <pb n="24" facs="https://betalab.kb.se/prot-1946--ak--30/prot_1946__ak__30-024.jp2/_view"/>
-          <note n="df702369">
-            Fredagen den 28 juni 1946 im. Nr 30. 25
-          </note>
-          <pb n="25" facs="https://betalab.kb.se/prot-1946--ak--30/prot_1946__ak__30-025.jp2/_view"/>
-          <note n="723a2423">
-            26 Nr 30. Fredagen den 28 juni 1946 fm.
-          </note>
-          <pb n="26" facs="https://betalab.kb.se/prot-1946--ak--30/prot_1946__ak__30-026.jp2/_view"/>
-          <note n="964c542a">
-            Fredagen den 28 juni 1946 fm. Nr 30. 27
-          </note>
           <note n="6ea5a5e2">
             Under detta anförande hade herr förste vice talmannen övertagit
             ledningen av kammarens förhandlingar.
@@ -2286,7 +2329,7 @@
             Herr Pettersson i Dahl, som på begäran erhöll ordet för kort
             genmäle, anförde:
           </note>
-          <u who="georg_pettersson_629b62" xml:id="i-8a8b1374fd311b40-1" next="i-12ea0cc8d3b3433c-1" n="5aa5cf3a">
+          <u who="georg_pettersson_629b62" xml:id="i-cc058a336affdb32-5" next="i-cc058a336affdb32-6" n="5aa5cf3a">
             <seg n="f55d34ab">
               Herr talman! Herr Olsson i Gävle sade sig tro, att jag i mitt
               anförande gjort bostadssociala utredningen orätt. Jag sade i anförandet,
@@ -2300,13 +2343,13 @@
             </seg>
           </u>
           <pb n="27" facs="https://betalab.kb.se/prot-1946--ak--30/prot_1946__ak__30-027.jp2/_view"/>
-          <note n="8c96d89e">
+          <note type="date" n="b72d799a">
             28 Nr 30. Fredagen den 28 juni 1946 fm.
           </note>
           <note n="3c034f48">
             Åtgärder till främjande av bostadsförsörjningen. (Forts.)
           </note>
-          <u who="georg_pettersson_629b62" xml:id="i-12ea0cc8d3b3433c-1" prev="i-8a8b1374fd311b40-1" n="5aa5cf3a">
+          <u who="georg_pettersson_629b62" xml:id="i-cc058a336affdb32-6" prev="i-cc058a336affdb32-5" n="5aa5cf3a">
             <seg n="6a2fd697">
               Herr statsrådet talade om den klara målsättningen för bostadspolitiken
               i framtiden. Jag observerade, att statsrådet inte hade något ord
@@ -2331,7 +2374,7 @@
           <note type="speaker" n="20af6d00">
             Chefen för socialdepartementet, herr statsrådet Möller:
           </note>
-          <u who="gustav_moller_becc38" xml:id="i-60747cac26f054ff-0" n="57fa71b0">
+          <u who="gustav_moller_becc38" xml:id="i-64ec372ecf14afdd-5" n="57fa71b0">
             <seg n="bbec6d16">
               Herr talman! Jag måste göra en rättelse — herr Ohlin fäste min
               uppmärksamhet på det. Det var ett missförstånd av mig, när jag
@@ -2350,7 +2393,7 @@
             Herr Eriksson i Stockholm erhöll på begäran ordet för kort genmäle
             och anförde:
           </note>
-          <u who="einar_eriksson_3a1248" xml:id="i-60e0aad9ad039f5f-1" next="i-b0a8c42b4f7f0265-1" n="db27a90c">
+          <u who="einar_eriksson_3a1248" xml:id="i-6dd07ffcc393af36-5" next="i-6dd07ffcc393af36-6" n="db27a90c">
             <seg n="fb630972">
               Herr talman! Statsrådet och chefen för socialdepartementet var
               inte inne, när jag höll mitt anförande förut. Hade han det varit,
@@ -2391,10 +2434,10 @@
             </seg>
           </u>
           <pb n="28" facs="https://betalab.kb.se/prot-1946--ak--30/prot_1946__ak__30-028.jp2/_view"/>
-          <note n="29ddc1aa">
+          <note type="date" n="99be3074">
             Fredagen den 28 juni 1946 fm. Nr 30. 29
           </note>
-          <u who="einar_eriksson_3a1248" xml:id="i-b0a8c42b4f7f0265-1" prev="i-60e0aad9ad039f5f-1" n="db27a90c">
+          <u who="einar_eriksson_3a1248" xml:id="i-6dd07ffcc393af36-6" prev="i-6dd07ffcc393af36-5" n="db27a90c">
             <seg n="3fc07f13">
               Åtgärder till främjande av bostadsförsörjningyen. (Forts.) till
               att jag har biträtt ett avsteg ifrån den kungl. propositionen
@@ -2407,7 +2450,7 @@
             Herr Olsson i Gävle, som jämväl på begäran erhöll ordet för kort
             genmäle, yttrade:
           </note>
-          <u who="kj_olsson_fad08f" xml:id="i-d591fe3be2cfbeaf-0" n="0055e5d5">
+          <u who="kj_olsson_fad08f" xml:id="i-142a8cb92c33a781-3" n="0055e5d5">
             <seg n="642ec717">
               Herr talman! Jag vill endast till herr Pettersson i Dahl säga,
               liksom jag gjort i denna kammare många gånger och jag gör det
@@ -2428,7 +2471,7 @@
           <note type="speaker" n="437f8b05">
             Herr Holmberg:
           </note>
-          <u who="helmer_holmberg_e06180" xml:id="i-c6497b064cde66a7-0" next="i-fb7982dccf958107-0" n="39b489cd">
+          <u who="helmer_holmberg_e06180" xml:id="i-39b489cd92b77610-0" next="i-39b489cd92b77610-1" n="39b489cd">
             <seg n="f7b9e123">
               Herr talman! Jag har i en detalj av den bostadsplanering, som
               nu diskuteras, avlämnat en motion angående bostadsförbättringsbidrag,
@@ -2482,13 +2525,13 @@
             </seg>
           </u>
           <pb n="29" facs="https://betalab.kb.se/prot-1946--ak--30/prot_1946__ak__30-029.jp2/_view"/>
-          <note n="9b122a42">
+          <note type="date" n="21afb55e">
             30 Nr 30. Fredagen den 28 juni 1946 fm.
           </note>
           <note n="3c034f48">
             Åtgärder till främjande av bostadsförsörjningen. (Forts.)
           </note>
-          <u who="helmer_holmberg_e06180" xml:id="i-fb7982dccf958107-0" prev="i-c6497b064cde66a7-0" n="39b489cd">
+          <u who="helmer_holmberg_e06180" xml:id="i-39b489cd92b77610-1" prev="i-39b489cd92b77610-0" n="39b489cd">
             <seg n="13aa8992">
               Utskottet har inte anfört några egentliga skäl emot vår motion.
               Man har hänvisat till att det skall företagas en allmän omprövning
@@ -2521,7 +2564,7 @@
           <note type="speaker" n="f69bcbb5">
             Herr Ståhl:
           </note>
-          <u who="manne_stahl_e9a158" xml:id="i-f11676e2d839b11d-0" next="i-062de945e0fdf964-0" n="7a1cb553">
+          <u who="manne_stahl_e9a158" xml:id="i-7a1cb553e184c447-0" next="i-7a1cb553e184c447-4" n="7a1cb553">
             <seg n="6eb82a68">
               Herr talman! När jag begärde ordet var det för att få anföra
               ett par synpunkter i anslutning till min motion i detta ärende.
@@ -2567,10 +2610,10 @@
             </seg>
           </u>
           <pb n="30" facs="https://betalab.kb.se/prot-1946--ak--30/prot_1946__ak__30-030.jp2/_view"/>
-          <note n="0aef57b6">
+          <note type="date" n="e80114a4">
             Fredagen den 28 juni 1946 im. Nr 30. 31
           </note>
-          <u who="manne_stahl_e9a158" xml:id="i-062de945e0fdf964-0" prev="i-f11676e2d839b11d-0" n="7a1cb553">
+          <u who="manne_stahl_e9a158" xml:id="i-7a1cb553e184c447-1" prev="i-7a1cb553e184c447-0" n="7a1cb553">
             <seg n="326d9512">
               Åtgärder till främjande av bostadsförsörjningen. (Forts.) bristande
               statlig planhushållning, och det fick ske, trots att man, om jag
@@ -2640,6 +2683,12 @@
               att producera. Då svara både herr statsrådet och herr Olsson i
               Gävle: ja, det
             </seg>
+          </u>
+          <pb n="31" facs="https://betalab.kb.se/prot-1946--ak--30/prot_1946__ak__30-031.jp2/_view"/>
+          <note n="31d36de4">
+            32 Nr 30. Fredagen den 238 juni 1946 fm.
+          </note>
+          <u who="manne_stahl_e9a158" xml:id="i-7a1cb553e184c447-2" prev="i-7a1cb553e184c447-0" n="7a1cb553">
             <seg n="53b0be92">
               Åtgärder till främjande av bostadsförsörjningen. ( Forts.) är
               just det vi avsett. Då är man på det klara med syftet och uppläggningen
@@ -2709,6 +2758,12 @@
               i a'la
             </seg>
             <seg n="ddb5763a"/>
+          </u>
+          <pb n="32" facs="https://betalab.kb.se/prot-1946--ak--30/prot_1946__ak__30-032.jp2/_view"/>
+          <note type="date" n="ab7e8c6c">
+            Fredagen den 28 juni 1946 fm. Nr 30. 33
+          </note>
+          <u who="manne_stahl_e9a158" xml:id="i-7a1cb553e184c447-3" prev="i-7a1cb553e184c447-0" n="7a1cb553">
             <seg n="4ee85b75">
               Åtgärder till främjande av bostadsförsörjningen. (Forts.) kommuner
               kommer att verka så pass återhållande, som det ändå bör göra för
@@ -2785,6 +2840,12 @@
               billigt. I flera samhällen jag känner till hade man ett bostadsöverskott
               1939, när hyresnivån Andra kammarens protokoll 1946. Nr 30. d
             </seg>
+          </u>
+          <pb n="33" facs="https://betalab.kb.se/prot-1946--ak--30/prot_1946__ak__30-033.jp2/_view"/>
+          <note type="date" n="0d3e1771">
+            34 Nr 30. Fredagen den 28 juni 1946 fm.
+          </note>
+          <u who="manne_stahl_e9a158" xml:id="i-7a1cb553e184c447-4" prev="i-7a1cb553e184c447-0" n="7a1cb553">
             <seg n="7efcf39a">
               Åtgärder till främjande av bostadsförsörjningen. (Forts.) knöts
               fast. Därför har man många fastigheter med mycket låga hyror.
@@ -2829,18 +2890,6 @@
               utskottsutlåtandet.
             </seg>
           </u>
-          <pb n="31" facs="https://betalab.kb.se/prot-1946--ak--30/prot_1946__ak__30-031.jp2/_view"/>
-          <note n="31d36de4">
-            32 Nr 30. Fredagen den 238 juni 1946 fm.
-          </note>
-          <pb n="32" facs="https://betalab.kb.se/prot-1946--ak--30/prot_1946__ak__30-032.jp2/_view"/>
-          <note n="0f2b46ce">
-            Fredagen den 28 juni 1946 fm. Nr 30. 33
-          </note>
-          <pb n="33" facs="https://betalab.kb.se/prot-1946--ak--30/prot_1946__ak__30-033.jp2/_view"/>
-          <note n="e771aa02">
-            34 Nr 30. Fredagen den 28 juni 1946 fm.
-          </note>
           <note n="50c67720">
             I detta anförande instämde herr Stjärne.
           </note>
@@ -2848,7 +2897,7 @@
             Herr Oisson i Gävle erhöll på begäran ordet för kort genmäle
             och yttrade:
           </note>
-          <u who="unknown" xml:id="i-c21a09bde1b76e22-0" n="2116486a">
+          <u who="unknown" xml:id="i-2116486a2076b982-0" n="2116486a">
             <seg n="ef0f93c8">
               Herr talman! Det är naturligtvis riktigt, som herr Ståhl säger,
               att staten var medansvarig för vad som hände 1939. Men redan 1941
@@ -2877,10 +2926,10 @@
             </seg>
           </u>
           <pb n="34" facs="https://betalab.kb.se/prot-1946--ak--30/prot_1946__ak__30-034.jp2/_view"/>
-          <note n="a72698fe">
+          <note type="date" n="6996fb2b">
             Fredagen den 28 juni 1946 fm. Nr 30. 35
           </note>
-          <u who="unknown" xml:id="i-a7084ac9214d9a03-0" n="2116486a">
+          <u who="unknown" xml:id="i-2116486a2076b982-1" n="2116486a">
             <seg n="d9badbf7">
               Åtgärder till främjande av bostadsförsörjningen. (Forts.) tror,
               att han skulle kunna erkänna, att det går an att tala med byggnadslånebyrån,
@@ -2905,7 +2954,7 @@
             Herr Ståhl, som likaledes på begäran erhöll ordet för kort genmäle,
             anförde:
           </note>
-          <u who="manne_stahl_e9a158" xml:id="i-d764f585e8c0a95b-0" n="7a1cb553">
+          <u who="manne_stahl_e9a158" xml:id="i-7a1cb553e184c447-5" n="7a1cb553">
             <seg n="4b085abb">
               Herr talman! Jag vill säga till herr Olsson i Gävle, att jag
               har all respekt för byggnadslånebyrån, och jag har vid upprepade
@@ -2955,7 +3004,7 @@
           <note type="speaker" n="a8cf373c">
             Herr Olsson i Gävle:
           </note>
-          <u who="kj_olsson_fad08f" xml:id="i-c7b79fa831c1d973-1" next="i-26c5d14aa783721c-1" n="0055e5d5">
+          <u who="kj_olsson_fad08f" xml:id="i-142a8cb92c33a781-4" next="i-142a8cb92c33a781-5" n="0055e5d5">
             <seg n="7b971a9e">
               Herr talman! Jag vill fästa herr Ståhls uppmärksamhet därpå,
               att i bostadssociala utredningens betänkande finns utvecklad den
@@ -2967,10 +3016,10 @@
             </seg>
           </u>
           <pb n="35" facs="https://betalab.kb.se/prot-1946--ak--30/prot_1946__ak__30-035.jp2/_view"/>
-          <note n="312707f4">
+          <note type="date" n="273cc811">
             36 Nr 30. Fredagen den 28 juni 1946 fm.
           </note>
-          <u who="kj_olsson_fad08f" xml:id="i-26c5d14aa783721c-1" prev="i-c7b79fa831c1d973-1" n="0055e5d5">
+          <u who="kj_olsson_fad08f" xml:id="i-142a8cb92c33a781-5" prev="i-142a8cb92c33a781-4" n="0055e5d5">
             <seg n="6af65eef">
               Åtgärder till främjande av bostadsförsörjningen. (Forts.) organisationsförslag.
               Jag tror emellertid att herr Ståhl måste medge, att man inte kan
@@ -2998,7 +3047,7 @@
           <note type="speaker" n="cdbfca98">
             Herr Kempe:
           </note>
-          <u who="gosta_kempe_526cac" xml:id="i-6cf5459ca83acfdf-0" n="b9538fb4">
+          <u who="gosta_kempe_526cac" xml:id="i-b9538fb49a8dae91-8" n="b9538fb4">
             <seg n="629f0d03">
               Herr talman! Jag begärde närmast ordet för att ytterligare precisera
               mitt yrkande, men innan jag gör det, vill jag med stor tillfredsställelse
@@ -3043,7 +3092,7 @@
           <note type="speaker" n="73d0d7e4">
             Herr Skoglund i Doverstorp:
           </note>
-          <u who="martin_skoglund_a58f6d" xml:id="i-a00e46c0d7da60d1-0" next="i-f314dfa0bbd9da74-0" n="4749a51b">
+          <u who="martin_skoglund_a58f6d" xml:id="i-4749a51baa26db64-1" next="i-4749a51baa26db64-3" n="4749a51b">
             <seg n="a815aea8">
               Herr talman! Jag hade från början inte tänkt deltaga 1 denna
               debatt och jag kommer inte heller nu att yttra mig om vare sig
@@ -3060,10 +3109,10 @@
             </seg>
           </u>
           <pb n="36" facs="https://betalab.kb.se/prot-1946--ak--30/prot_1946__ak__30-036.jp2/_view"/>
-          <note n="11d2d495">
+          <note type="date" n="32b0cad3">
             Fredagen den 28 juni 1946 fm. Nr 30. 37
           </note>
-          <u who="martin_skoglund_a58f6d" xml:id="i-f314dfa0bbd9da74-0" prev="i-a00e46c0d7da60d1-0" n="4749a51b">
+          <u who="martin_skoglund_a58f6d" xml:id="i-4749a51baa26db64-2" prev="i-4749a51baa26db64-1" n="4749a51b">
             <seg n="eb7c314b">
               Åtgärder till främjande av bostadsförsörjningen. (Forts.) skulle
               skapa goda familjebostäder med tillfredsställande utrymmen och
@@ -3138,6 +3187,15 @@
               med andra familjer och icke bli koncentrerade till en särskild
               bebyggelse för detta ändamål.
             </seg>
+          </u>
+          <pb n="37" facs="https://betalab.kb.se/prot-1946--ak--30/prot_1946__ak__30-037.jp2/_view"/>
+          <note type="date" n="7f5d54f0">
+            38 Nr 30. Fredagen den 28 juni 1946 fm.
+          </note>
+          <note n="3c034f48">
+            Åtgärder till främjande av bostadsförsörjningen. (Forts.)
+          </note>
+          <u who="martin_skoglund_a58f6d" xml:id="i-4749a51baa26db64-3" prev="i-4749a51baa26db64-1" n="4749a51b">
             <seg n="c357096d">
               Jag har ägnat litet tid åt att studera vad man har lyckats åstadkomma,
               sedan staten, såsom det har ansetts, på ett så bra sätt subventionerat
@@ -3203,17 +3261,10 @@
               enkelt, som socialministern här skisserade upp.
             </seg>
           </u>
-          <pb n="37" facs="https://betalab.kb.se/prot-1946--ak--30/prot_1946__ak__30-037.jp2/_view"/>
-          <note n="57c6d9a7">
-            38 Nr 30. Fredagen den 28 juni 1946 fm.
-          </note>
-          <note n="3c034f48">
-            Åtgärder till främjande av bostadsförsörjningen. (Forts.)
-          </note>
           <note type="speaker" n="7702362d">
             Herr Ohlin:
           </note>
-          <u who="bertil_ohlin_2d3e4b" xml:id="i-294114cf28f886b7-0" next="i-e2e3927b7aa7107e-0" n="1e8f599e">
+          <u who="bertil_ohlin_2d3e4b" xml:id="i-1e8f599eb4068134-0" next="i-1e8f599eb4068134-2" n="1e8f599e">
             <seg n="78e3018e">
               Herr talman! Jag måste börja med att instämma med herr Skoglund
               i hans karakteristik av det anförande, som herr statsrådet och
@@ -3227,10 +3278,10 @@
             </seg>
           </u>
           <pb n="38" facs="https://betalab.kb.se/prot-1946--ak--30/prot_1946__ak__30-038.jp2/_view"/>
-          <note n="1663f44a">
+          <note type="date" n="c0303c03">
             Fredagen den 28 juni 1946 fm. Nr 30. 39
           </note>
-          <u who="bertil_ohlin_2d3e4b" xml:id="i-e2e3927b7aa7107e-0" prev="i-294114cf28f886b7-0" n="1e8f599e">
+          <u who="bertil_ohlin_2d3e4b" xml:id="i-1e8f599eb4068134-1" prev="i-1e8f599eb4068134-0" n="1e8f599e">
             <seg n="75d0d7f3">
               Åtgärder till främjande av bostadsförsörjningen. (Forts.) den
               reservation, på vilken jag står som en av undertecknarna, och
@@ -3308,6 +3359,12 @@
               Jag måste därför ställa den frågan till statsrådet Möller: Kan
               herr statsrådet
             </seg>
+          </u>
+          <pb n="39" facs="https://betalab.kb.se/prot-1946--ak--30/prot_1946__ak__30-039.jp2/_view"/>
+          <note type="date" n="d7217808">
+            40 Nr 30. Fredagen den 28 juni 1946 fm.
+          </note>
+          <u who="bertil_ohlin_2d3e4b" xml:id="i-1e8f599eb4068134-2" prev="i-1e8f599eb4068134-0" n="1e8f599e">
             <seg n="d9b2c1e8">
               Åtgärder till främjande av bostadsförsörjningen. (Forts.) förneka
               att det var den av de penningpolitiskt ansvariga myndigheterna
@@ -3371,17 +3428,13 @@
               i detta land en otjänst.
             </seg>
           </u>
-          <pb n="39" facs="https://betalab.kb.se/prot-1946--ak--30/prot_1946__ak__30-039.jp2/_view"/>
-          <note n="ed631d3d">
-            40 Nr 30. Fredagen den 28 juni 1946 fm.
-          </note>
           <note n="7af32b6c">
             Herr talmannen återtog nu ledningen av kammarens förhandlingar.
           </note>
           <note type="speaker" n="20af6d00">
             Chefen för socialdepartementet, herr statsrådet Möller:
           </note>
-          <u who="gustav_moller_becc38" xml:id="i-078bee742f7f3c12-1" next="i-2fa54306d34e9885-1" n="57fa71b0">
+          <u who="gustav_moller_becc38" xml:id="i-64ec372ecf14afdd-6" next="i-64ec372ecf14afdd-7" n="57fa71b0">
             <seg n="f1382dc9">
               Herr talman! Jag vet uppriktigt sagt inte om jag behöver försvara
               mig för att Jag varit frånvarande, när den store Ohlin yttrat
@@ -3390,10 +3443,10 @@
             </seg>
           </u>
           <pb n="40" facs="https://betalab.kb.se/prot-1946--ak--30/prot_1946__ak__30-040.jp2/_view"/>
-          <note n="509e2285">
+          <note type="date" n="8ea8c789">
             Fredagen den 28 juni 1946 fm. Nr 30. 41
           </note>
-          <u who="gustav_moller_becc38" xml:id="i-2fa54306d34e9885-1" prev="i-078bee742f7f3c12-1" n="57fa71b0">
+          <u who="gustav_moller_becc38" xml:id="i-64ec372ecf14afdd-7" prev="i-64ec372ecf14afdd-6" n="57fa71b0">
             <seg n="e4c8b0dc">
               Åtgärder till främjande av bostadsförsörjningen. (Forts.) är
               ledamot av första kammaren. Vidare vill jag omtala att min frånvaro
@@ -3437,7 +3490,7 @@
           <note type="speaker" n="7702362d">
             Herr Ohlin:
           </note>
-          <u who="bertil_ohlin_2d3e4b" xml:id="i-2ca3c20f06b3759f-0" n="1e8f599e">
+          <u who="bertil_ohlin_2d3e4b" xml:id="i-1e8f599eb4068134-3" n="1e8f599e">
             <seg n="f02cc947">
               Herr talman! Statsrådet Möller lämnade mycket ofullständiga upplysningar
               om sin närvaro och frånvaro i kamrarna — jag skall emellertid
@@ -3471,7 +3524,7 @@
             <seg n="ddb5763a"/>
           </u>
           <pb n="41" facs="https://betalab.kb.se/prot-1946--ak--30/prot_1946__ak__30-041.jp2/_view"/>
-          <note n="40fd4b00">
+          <note type="date" n="ded8b70b">
             492 Nr 30. Fredagen den 28 juni 1946 fm.
           </note>
           <note n="3c034f48">
@@ -3480,7 +3533,7 @@
           <note type="speaker" n="a8cf373c">
             Herr Olsson i Gävle:
           </note>
-          <u who="kj_olsson_fad08f" xml:id="i-c7b79fa831c1d973-2" next="i-26c5d14aa783721c-2" n="0055e5d5">
+          <u who="kj_olsson_fad08f" xml:id="i-142a8cb92c33a781-6" next="i-142a8cb92c33a781-10" n="0055e5d5">
             <seg n="83404756">
               Herr talman! Då jag inte vill att den skildring herr Skoglund
               gav skall stå oemotsagd i riksdagens protokoll, ber jag att få
@@ -3568,7 +3621,7 @@
             på bifall till utskottets
           </note>
           <pb n="42" facs="https://betalab.kb.se/prot-1946--ak--30/prot_1946__ak__30-042.jp2/_view"/>
-          <note n="df3a208f">
+          <note type="date" n="8519667f">
             Fredagen den 28 juni 1946 fm. Nr 30. 43
           </note>
           <note n="6b62f0c4">
@@ -3648,7 +3701,7 @@
             Anslag till arbetsmarknadens reglering m. m.
           </note>
           <pb n="43" facs="https://betalab.kb.se/prot-1946--ak--30/prot_1946__ak__30-043.jp2/_view"/>
-          <note n="525ddbff">
+          <note type="date" n="91cc55f3">
             44 Nr 30. Fredagen den 28 juni 1946 fm.
           </note>
           <note n="ae19de56">
@@ -3682,7 +3735,7 @@
             b) till Statens arbetsmarknadskommission m. m.: Omkostnader ett
             förslagsanslag av 850 000 kronor;
           </note>
-          <u who="kj_olsson_fad08f" xml:id="i-26c5d14aa783721c-2" prev="i-c7b79fa831c1d973-2" n="0055e5d5">
+          <u who="kj_olsson_fad08f" xml:id="i-142a8cb92c33a781-7" prev="i-142a8cb92c33a781-6" n="0055e5d5">
             <seg n="5fac5086">
               c) till Länsarbetsnämnderna och arbetsförmedlingsanstalterna:
               Avlöningar ett förslagsanslag av 9500 000 kronor;
@@ -3690,36 +3743,6 @@
             <seg n="17d5f0cb">
               d) till Länsarbetsnämnderna och arbetsförmedlingsanstalterna:
               Omkostnader ett förslagsanslag av 3 300 000 kronor;
-            </seg>
-            <seg n="8a81b2e6">
-              » Utskottet tillstyrker jämväl förslaget om särskilt ortstillägg
-              för arbetare, som hänvisas till beredskapsarbete utom hemorten.
-              Framhållas må att en tillämpning av ett dylikt bidragssystem icke
-              kommer att helt undanröja den olägenhet för den enskilde, som
-              är förenad med hänvisning till beredskapsarbete på annan ort.»
-            </seg>
-            <seg n="db20ff20">
-              »Kungl. Maj:ts förslag om försöksvis tillämpning av ortstillägg
-              innebär, att ett särskilt bidrag utbetalas till familjeförsörjande
-              arbetare, som anvisas arbete utom hemorten. Utskottet vill med
-              anledning härav framhålla, att beredskapsarbeten till sin natur
-              äro övervägande anläggningsarbeten. Det ligger i anläggningsverksamhetens
-              natur, att arbetsplatserna växla från tid till annan. Därför ha
-              sedan gammalt anläggningsindustriens arbetare levat på mera rörlig
-              fot än fabriksindustriens arbetare. Inom anläggningsindustrien
-              förekommer i allmänhet ingen merbetalning till arbetare, som ha
-              sina familjer
-            </seg>
-            <seg n="7de669e4">
-              Anslag till arbetsmarknadens reglering m. m. (Forts.) boende
-              på annan ort än den, där vederbörande har sitt arbete. Ett bifall
-              till förslaget skulle innebära ett uppenbart avsteg från principen
-              att vid beredskapsarbete den öppna marknadens lönesättning skall
-              tillämpas. Härtill kommer att inom de områden, där bidragen skulle
-              komma att utgå, arbetslöshet sedan länge varit en bestående företeelse
-              och att utbetalande av ortstillägg kan förväntas verka konserverande
-              på detta förhållande. På grund härav kan utskottet icke tillstyrka
-              förslaget i denna del»;
             </seg>
           </u>
           <note n="6e25e105">
@@ -3746,6 +3769,15 @@
             I sitt utlåtande hade utskottet å s. 20 i det tryckta utlåtandet
             anfört bland annat följande:
           </note>
+          <u who="kj_olsson_fad08f" xml:id="i-142a8cb92c33a781-8" prev="i-142a8cb92c33a781-6" n="0055e5d5">
+            <seg n="8a81b2e6">
+              » Utskottet tillstyrker jämväl förslaget om särskilt ortstillägg
+              för arbetare, som hänvisas till beredskapsarbete utom hemorten.
+              Framhållas må att en tillämpning av ett dylikt bidragssystem icke
+              kommer att helt undanröja den olägenhet för den enskilde, som
+              är förenad med hänvisning till beredskapsarbete på annan ort.»
+            </seg>
+          </u>
           <note n="99fbe1e7">
             Reservationer hade avgivits
           </note>
@@ -3755,10 +3787,37 @@
             i Dahl, Onsjö och Birke, vilka ansett, att ovan intagna stycke
             av utskottets yttrande bort hava följande lydelse:
           </note>
+          <u who="kj_olsson_fad08f" xml:id="i-142a8cb92c33a781-9" prev="i-142a8cb92c33a781-6" n="0055e5d5">
+            <seg n="db20ff20">
+              »Kungl. Maj:ts förslag om försöksvis tillämpning av ortstillägg
+              innebär, att ett särskilt bidrag utbetalas till familjeförsörjande
+              arbetare, som anvisas arbete utom hemorten. Utskottet vill med
+              anledning härav framhålla, att beredskapsarbeten till sin natur
+              äro övervägande anläggningsarbeten. Det ligger i anläggningsverksamhetens
+              natur, att arbetsplatserna växla från tid till annan. Därför ha
+              sedan gammalt anläggningsindustriens arbetare levat på mera rörlig
+              fot än fabriksindustriens arbetare. Inom anläggningsindustrien
+              förekommer i allmänhet ingen merbetalning till arbetare, som ha
+              sina familjer
+            </seg>
+          </u>
           <pb n="44" facs="https://betalab.kb.se/prot-1946--ak--30/prot_1946__ak__30-044.jp2/_view"/>
-          <note n="df3f18ae">
+          <note type="date" n="c1b89740">
             Fredagen den 28 juni 1946 fm. Nr 30. 45
           </note>
+          <u who="kj_olsson_fad08f" xml:id="i-142a8cb92c33a781-10" prev="i-142a8cb92c33a781-6" n="0055e5d5">
+            <seg n="7de669e4">
+              Anslag till arbetsmarknadens reglering m. m. (Forts.) boende
+              på annan ort än den, där vederbörande har sitt arbete. Ett bifall
+              till förslaget skulle innebära ett uppenbart avsteg från principen
+              att vid beredskapsarbete den öppna marknadens lönesättning skall
+              tillämpas. Härtill kommer att inom de områden, där bidragen skulle
+              komma att utgå, arbetslöshet sedan länge varit en bestående företeelse
+              och att utbetalande av ortstillägg kan förväntas verka konserverande
+              på detta förhållande. På grund härav kan utskottet icke tillstyrka
+              förslaget i denna del»;
+            </seg>
+          </u>
           <note n="382747a3">
             2) av herrar Larsson, Karl Andersson, Gustaf Karlsson, Mårtensson
             och Petterson i Degerfors;
@@ -3787,7 +3846,7 @@
           <note type="speaker" n="23af8f53">
             Herr Persson i Stockholm:
           </note>
-          <u who="karl_persson_c1d757" xml:id="i-69d738585abee224-0" next="i-a01504304f5657d6-0" n="a530c9ca">
+          <u who="karl_persson_c1d757" xml:id="i-39af21096fe8c520-0" next="i-39af21096fe8c520-1" n="a530c9ca">
             <seg n="ece97519">
               Herr talman! I den proposition, som nu skall behandlas, har skildrats
               hur Kungl. Maj:t planerat att förbättra de löneförmåner, som nu
@@ -3831,7 +3890,7 @@
             </seg>
           </u>
           <pb n="45" facs="https://betalab.kb.se/prot-1946--ak--30/prot_1946__ak__30-045.jp2/_view"/>
-          <note n="8c7d9f4a">
+          <note type="date" n="af9644a6">
             46 Nr 30. Fredagen den 28 juni 1946 fm.
           </note>
           <note n="73e0716f">
@@ -3842,7 +3901,7 @@
             och i fråga om innehållet i de nya lönebestämmelserna för de svenska
             arkivarbetarna.
           </note>
-          <u who="karl_persson_c1d757" xml:id="i-a01504304f5657d6-0" prev="i-69d738585abee224-0" n="a530c9ca">
+          <u who="karl_persson_c1d757" xml:id="i-39af21096fe8c520-1" prev="i-39af21096fe8c520-0" n="a530c9ca">
             <seg n="d043063a">
               Jag hade också i motionen framhållit, att det var ett missgrepp
               att »i administrativt hänseende sammanblanda åtgärder för arbetsanskaffning
@@ -3863,7 +3922,7 @@
           <note type="speaker" n="e6760bbc">
             Herr Falla:
           </note>
-          <u who="unknown" xml:id="i-ca8d2b55e66db339-0" n="2116486a">
+          <u who="unknown" xml:id="i-2116486a2076b982-2" n="2116486a">
             <seg n="b5c8b1a6">
               Herr talman! I den proposition och det utskottsutlåtande, som
               här behandlas, har föredragande statsrådet föreslagit, att ortstillägg
@@ -3916,7 +3975,7 @@
           <note type="speaker" n="88923509">
             Herr statsrådet Erlander:
           </note>
-          <u who="unknown" xml:id="i-c21a09bde1b76e22-1" n="2116486a">
+          <u who="unknown" xml:id="i-2116486a2076b982-3" n="2116486a">
             <seg n="eb5f174f">
               Herr talman! Eftersom föredragande statsrådet är förhindrad att
               närvara, har det kommit på min lott att ett ögonblick fuska i
@@ -3924,13 +3983,13 @@
             </seg>
           </u>
           <pb n="46" facs="https://betalab.kb.se/prot-1946--ak--30/prot_1946__ak__30-046.jp2/_view"/>
-          <note n="f0943f3a">
+          <note type="date" n="eb4f04a3">
             Fredagen den 28 juni 1946 fm. Nr 30. 47
           </note>
           <note n="b22787f1">
             Anslag till arbetsmarlInadens reglering m. m. (Forts.)
           </note>
-          <u who="unknown" xml:id="i-a7084ac9214d9a03-1" n="2116486a">
+          <u who="unknown" xml:id="i-2116486a2076b982-4" n="2116486a">
             <seg n="16c0a9fe">
               Jag vill gärna medge, att det kan vara anledning till en viss
               tveksamhet när man går att lägga ortstilläg till den öppna marknadens
@@ -4007,6 +4066,15 @@
               tilläggsanslag, men är det ändå icke säkrast att ha en liten marginal
               att tillgripa? Någon besparing kan det
             </seg>
+          </u>
+          <pb n="47" facs="https://betalab.kb.se/prot-1946--ak--30/prot_1946__ak__30-047.jp2/_view"/>
+          <note type="date" n="158fc16d">
+            48 Nr 30. Fredagen den 28 juni 1946 fm.
+          </note>
+          <note n="ae19de56">
+            Anslag till arbetsmarknadens reglering m. m. (Forts.)
+          </note>
+          <u who="unknown" xml:id="i-2116486a2076b982-5" n="2116486a">
             <seg n="dd324f33">
               uppenbarligen icke bli fråga om, eftersom alla äro överens om,
               att pengarna — naturligtvis med iakttagande av all nödig sparsamhet
@@ -4021,17 +4089,10 @@
               utgör.
             </seg>
           </u>
-          <pb n="47" facs="https://betalab.kb.se/prot-1946--ak--30/prot_1946__ak__30-047.jp2/_view"/>
-          <note n="0f4e79bd">
-            48 Nr 30. Fredagen den 28 juni 1946 fm.
-          </note>
-          <note n="ae19de56">
-            Anslag till arbetsmarknadens reglering m. m. (Forts.)
-          </note>
           <note type="speaker" n="ec820aa2">
             Herr Falla erhöll på begäran ordet för kort genmäle och yttrade:
           </note>
-          <u who="unknown" xml:id="i-ca8d2b55e66db339-1" n="2116486a">
+          <u who="unknown" xml:id="i-2116486a2076b982-6" n="2116486a">
             <seg n="bc298c17">
               Herr talman! Herr statsrådet Erlander sade, att han hade en annan
               hållhake än lönesättningen, nämligen en sträng återhållsamhet
@@ -4082,7 +4143,7 @@
           <note type="speaker" n="88923509">
             Herr statsrådet Erlander:
           </note>
-          <u who="unknown" xml:id="i-c21a09bde1b76e22-2" n="2116486a">
+          <u who="unknown" xml:id="i-2116486a2076b982-7" n="2116486a">
             <seg n="054d7336">
               Herr talman! Herr Falla var mycket rädd för att använda tvångsåtgärder
               under nuvarande förhållanden och påstod, att den metod jag anvisat
@@ -4095,10 +4156,10 @@
             </seg>
           </u>
           <pb n="48" facs="https://betalab.kb.se/prot-1946--ak--30/prot_1946__ak__30-048.jp2/_view"/>
-          <note n="00ec6aed">
+          <note type="date" n="b43f5d76">
             Fredagen den 28 juni 1946 fm. Nr 30. 49
           </note>
-          <u who="unknown" xml:id="i-a7084ac9214d9a03-2" n="2116486a">
+          <u who="unknown" xml:id="i-2116486a2076b982-8" n="2116486a">
             <seg n="f86b2241">
               Anslag till arbetsmarknadens reglering m. m. (Forts.) och jag
               genast finna vilken sugning som skulle uppkomma av den anledningen.
@@ -4137,7 +4198,7 @@
           <note type="speaker" n="4f1847a6">
             Herr Mårtensson:
           </note>
-          <u who="wiktor_martensson_66d1de" xml:id="i-f708405809c35454-0" next="i-52dd6b9a4c810f5d-0" n="08850005">
+          <u who="wiktor_martensson_66d1de" xml:id="i-088500052fe9841d-0" next="i-088500052fe9841d-2" n="08850005">
             <seg n="7d6bfe30">
               Herr talman! Efter statsrådet Erlanders klarläggande anförande
               torde det inte vara mycket att tillägga i denna fråga. Det kan
@@ -4177,7 +4238,7 @@
             Andra kammarens protokoll 1946. Nr 80. 4
           </note>
           <pb n="49" facs="https://betalab.kb.se/prot-1946--ak--30/prot_1946__ak__30-049.jp2/_view"/>
-          <note n="60601a1b">
+          <note type="date" n="8c60d091">
             50 Nr 30. Fredagen den 28 juni 1946 fm.
           </note>
           <note n="da1082ed">
@@ -4185,7 +4246,7 @@
             man går in för några nämnvärda ändringar i de bestämmelser, som
             för närvarande äro gällande för dessa hjälpformer.
           </note>
-          <u who="wiktor_martensson_66d1de" xml:id="i-52dd6b9a4c810f5d-0" prev="i-f708405809c35454-0" n="08850005">
+          <u who="wiktor_martensson_66d1de" xml:id="i-088500052fe9841d-1" prev="i-088500052fe9841d-0" n="08850005">
             <seg n="20ba5fd6">
               Herr Falla berörde även reservanternas förslag om sänkning av
               anslaget till arbetsmarknadens reglering med 4 miljoner kronor.
@@ -4230,10 +4291,6 @@
               ville taga frågan under förnyad omprövning och om möjligt avskaffa
               hela detta system.
             </seg>
-            <seg n="91fa85cc">
-              Sedan kammarens ledamöter härefter intagit sina platser och voteringspropositionen
-              blivit ännu en gång uppläst, verkställdes omröstning genom upp-
-            </seg>
           </u>
           <note n="a1ff67b4">
             Härmed var överläggningen slutad.
@@ -4262,8 +4319,14 @@
           <note n="8981bd58">
             Den, det ej vill, röstar
           </note>
+          <u who="wiktor_martensson_66d1de" xml:id="i-088500052fe9841d-2" prev="i-088500052fe9841d-0" n="08850005">
+            <seg n="91fa85cc">
+              Sedan kammarens ledamöter härefter intagit sina platser och voteringspropositionen
+              blivit ännu en gång uppläst, verkställdes omröstning genom upp-
+            </seg>
+          </u>
           <pb n="50" facs="https://betalab.kb.se/prot-1946--ak--30/prot_1946__ak__30-050.jp2/_view"/>
-          <note n="af7344e2">
+          <note type="date" n="ab8064b9">
             Fredagen den 28 juni 1946 fm. Nr 30. 51
           </note>
           <note n="a0d1a23d">
@@ -4349,7 +4412,7 @@
             Anslag till kontraspionage m. m.
           </note>
           <pb n="51" facs="https://betalab.kb.se/prot-1946--ak--30/prot_1946__ak__30-051.jp2/_view"/>
-          <note n="4e4c5289">
+          <note type="date" n="83301e01">
             52 Nr 30. Fredagen den 28 juni 1946 fm.
           </note>
           <note n="9620c868">
@@ -4376,7 +4439,7 @@
           <note type="speaker" n="f21b42eb">
             Herr Johansson i Stockholm:
           </note>
-          <u who="johan_bernhard_johansson_ca4e64" xml:id="i-1939f0908359e5a7-0" next="i-586e4fe3d41c0995-0" n="36ed0659">
+          <u who="johan_bernhard_johansson_ca4e64" xml:id="i-f9fdf0a2be7e9302-0" next="i-f9fdf0a2be7e9302-1" n="36ed0659">
             <seg n="89f4cb67">
               Herr talman! Den glädje man känner över att den så kallade säkerhetspolisen
               halvtannat år efter den tidpunkt, då dess försvinnande först utlovades,
@@ -4436,13 +4499,13 @@
             </seg>
           </u>
           <pb n="52" facs="https://betalab.kb.se/prot-1946--ak--30/prot_1946__ak__30-052.jp2/_view"/>
-          <note n="5360a300">
+          <note type="date" n="08f9eaa9">
             Fredagen den 28 juni 1946 fm. Nr 30. 53
           </note>
           <note n="7264078c">
             Anslag till kontraspionage m. m. (Forts.)
           </note>
-          <u who="johan_bernhard_johansson_ca4e64" xml:id="i-586e4fe3d41c0995-0" prev="i-1939f0908359e5a7-0" n="36ed0659">
+          <u who="johan_bernhard_johansson_ca4e64" xml:id="i-f9fdf0a2be7e9302-1" prev="i-f9fdf0a2be7e9302-0" n="36ed0659">
             <seg n="ccbb346b">
               Utskottet har i så måtto tillmötesgått våra önskningar härvidlag,
               att det anser, att denna del av frågan bör bli föremål för ytterligare
@@ -4460,7 +4523,7 @@
           <note type="speaker" n="88923509">
             Herr statsrådet Erlander:
           </note>
-          <u who="unknown" xml:id="i-ca8d2b55e66db339-2" n="2116486a">
+          <u who="unknown" xml:id="i-2116486a2076b982-9" n="2116486a">
             <seg n="ac63cba6">
               Herr talman! Jag får fortsätta att uppträda på mina gamla domäner
               även på denna punkt. Men jag skall icke låta mig lockas att fortsätta
@@ -4513,7 +4576,7 @@
           <note type="speaker" n="f21b42eb">
             Herr Johansson i Stockholm:
           </note>
-          <u who="johan_bernhard_johansson_ca4e64" xml:id="i-1939f0908359e5a7-1" next="i-586e4fe3d41c0995-1" n="36ed0659">
+          <u who="johan_bernhard_johansson_ca4e64" xml:id="i-f9fdf0a2be7e9302-2" next="i-f9fdf0a2be7e9302-5" n="36ed0659">
             <seg n="fa785855">
               Jag tänkte nog i allra första hand just på materialet om kommunisterna,
               det material, som för framtiden skall visa på vilka grunder antifascister
@@ -4535,7 +4598,7 @@
           <note n="24e18356">
             järnverk aktiebolag m. m.
           </note>
-          <note n="446403f8">
+          <note type="date" n="06eaa677">
             54 Nr 30. Fredagen den 28 juni 1946 fm.
           </note>
           <note n="916746ec">
@@ -4589,7 +4652,7 @@
             samt med avslag å motionerna I: 369 och IT: 559, i vad de avsåge
             a) och b) nedan,
           </note>
-          <u who="johan_bernhard_johansson_ca4e64" xml:id="i-586e4fe3d41c0995-1" prev="i-1939f0908359e5a7-1" n="36ed0659">
+          <u who="johan_bernhard_johansson_ca4e64" xml:id="i-f9fdf0a2be7e9302-3" prev="i-f9fdf0a2be7e9302-2" n="36ed0659">
             <seg n="db52a298">
               a) till Aktieteckning i Norrbottens järnverk aktiebolag för budgetåret
               1946/ H under fonden för statens aktier anvisa ett investeringsanslag
@@ -4603,15 +4666,6 @@
               garanti ej mindre i mån av behov för lån åt Norrbottens järnverks
               aktiebolag å högst 70 000 000 kronor än även för förlagslån åt
               bolaget till ett belopp av högst 6 000 000 kronor;
-            </seg>
-            <seg n="c500a8cc">
-              b) avslå Kungl. Maj:ts förslag om statlig garanti för lån och
-              förlagslån åt Norrbottens järnverk aktiebolag;
-            </seg>
-            <seg n="294c073d">
-              b) besluta, att staten genom riksgäldskontoret skall ställa garanti
-              för förlagslån åt Norrbottens järnverk aktiebolag till ett belopp
-              av högst 6 000 000 kronor;
             </seg>
           </u>
           <note n="cbb2bbb6">
@@ -4639,7 +4693,7 @@
             b) nedan,
           </note>
           <pb n="54" facs="https://betalab.kb.se/prot-1946--ak--30/prot_1946__ak__30-054.jp2/_view"/>
-          <note n="e7885d6a">
+          <note type="date" n="e986be37">
             Fredagen den 28 juni 1946 fm. Nr 30. 55
           </note>
           <note n="f4f101de">
@@ -4649,6 +4703,12 @@
             a) avslå Kungl. Maj:ts förslag om anslag till Aktieteckning i
             Norrbottens järnverk aktiebolag;
           </note>
+          <u who="johan_bernhard_johansson_ca4e64" xml:id="i-f9fdf0a2be7e9302-4" prev="i-f9fdf0a2be7e9302-2" n="36ed0659">
+            <seg n="c500a8cc">
+              b) avslå Kungl. Maj:ts förslag om statlig garanti för lån och
+              förlagslån åt Norrbottens järnverk aktiebolag;
+            </seg>
+          </u>
           <note n="78bc163c">
             TI. att riksdagen —— — 12 000 000 kronor;
           </note>
@@ -4670,6 +4730,13 @@
           <note n="e3064b11">
             a) till Aktieteckning —— — 30 500 000 kronor; |
           </note>
+          <u who="johan_bernhard_johansson_ca4e64" xml:id="i-f9fdf0a2be7e9302-5" prev="i-f9fdf0a2be7e9302-2" n="36ed0659">
+            <seg n="294c073d">
+              b) besluta, att staten genom riksgäldskontoret skall ställa garanti
+              för förlagslån åt Norrbottens järnverk aktiebolag till ett belopp
+              av högst 6 000 000 kronor;
+            </seg>
+          </u>
           <note n="0ef4e039">
             II. att riksdagen —— — 12 000 000 kronor;
           </note>
@@ -4685,7 +4752,7 @@
           <note type="speaker" n="e6760bbc">
             Herr Falla:
           </note>
-          <u who="unknown" xml:id="i-c21a09bde1b76e22-3" n="2116486a">
+          <u who="unknown" xml:id="i-2116486a2076b982-10" n="2116486a">
             <seg n="e2e2d9cb">
               Herr talman! Då jag till detta statsutskottets utlåtande fogat
               en blank reservation, ber jag att få något närmare motivera densamma.
@@ -4730,13 +4797,13 @@
             </seg>
           </u>
           <pb n="55" facs="https://betalab.kb.se/prot-1946--ak--30/prot_1946__ak__30-055.jp2/_view"/>
-          <note n="d39d707e">
+          <note type="date" n="725e299c">
             56 Nr 30. Fredagen den 28 juni 1946 fm.
           </note>
           <note n="f4f101de">
             Aktieteckning i Norrbottens järnverk aktiebolag m. m. (Forts.)
           </note>
-          <u who="unknown" xml:id="i-a7084ac9214d9a03-3" n="2116486a">
+          <u who="unknown" xml:id="i-2116486a2076b982-11" n="2116486a">
             <seg n="a7b41945">
               Av remissyttrandena har framgått, att beräkningen av det inhemska
               järnbehovet omkring år 1950 icke baserats på så noggranna undersökningar
@@ -4805,6 +4872,15 @@
               planhushållning, för vilken handelsministern är en av de främsta
               målsmännen och varav här presenteras ett första prov.
             </seg>
+          </u>
+          <pb n="56" facs="https://betalab.kb.se/prot-1946--ak--30/prot_1946__ak__30-056.jp2/_view"/>
+          <note type="date" n="92c6dd53">
+            Fredagen den 28 juni 1946 fm. Nr 30. 57
+          </note>
+          <note n="f4f101de">
+            Aktieteckning i Norrbottens järnverk aktiebolag m. m. (Forts.)
+          </note>
+          <u who="unknown" xml:id="i-2116486a2076b982-12" n="2116486a">
             <seg n="4fe5a297">
               Det är ett starkt spekulativt drag över såväl järnverkets styrelses
               framställning som departementschefens yttrande i propositionen.
@@ -4855,13 +4931,6 @@
               föreslagna avskrivningen kommer till stånd.
             </seg>
           </u>
-          <pb n="56" facs="https://betalab.kb.se/prot-1946--ak--30/prot_1946__ak__30-056.jp2/_view"/>
-          <note n="8f8f5728">
-            Fredagen den 28 juni 1946 fm. Nr 30. 57
-          </note>
-          <note n="f4f101de">
-            Aktieteckning i Norrbottens järnverk aktiebolag m. m. (Forts.)
-          </note>
           <note n="1c7de79a">
             Med hänvisning till vad jag sålunda anfört ber jag, herr talman,
             att få yrka avslag på utskottets hemställan i punkterna I a) och
@@ -4870,7 +4939,7 @@
           <note type="speaker" n="7702362d">
             Herr Ohlin:
           </note>
-          <u who="bertil_ohlin_2d3e4b" xml:id="i-294114cf28f886b7-1" next="i-e2e3927b7aa7107e-1" n="1e8f599e">
+          <u who="bertil_ohlin_2d3e4b" xml:id="i-1e8f599eb4068134-4" next="i-1e8f599eb4068134-7" n="1e8f599e">
             <seg n="e2367879">
               Herr talman! Den fråga som enligt mitt sätt att se föreligger
               till avgörande nu är närmast huruvida riksdagen skall fatta beslut,
@@ -4886,10 +4955,10 @@
             </seg>
           </u>
           <pb n="57" facs="https://betalab.kb.se/prot-1946--ak--30/prot_1946__ak__30-057.jp2/_view"/>
-          <note n="3202df7e">
+          <note type="date" n="41bee51b">
             58 Nr 30. Fredagen den 28 juni 1946 fm.
           </note>
-          <u who="bertil_ohlin_2d3e4b" xml:id="i-e2e3927b7aa7107e-1" prev="i-294114cf28f886b7-1" n="1e8f599e">
+          <u who="bertil_ohlin_2d3e4b" xml:id="i-1e8f599eb4068134-5" prev="i-1e8f599eb4068134-4" n="1e8f599e">
             <seg n="b4047035">
               Aktieteckning i Norrbottens järnverk aktiebolag m. m. (Forts.)
               det kommer att finnas möjligheter till avsättning på den svenska
@@ -4961,6 +5030,12 @@
               naturligt, att riksdagen får tid att verkligen studera den saken
               ingående. Då beslutar man sig alltså för en första
             </seg>
+          </u>
+          <pb n="58" facs="https://betalab.kb.se/prot-1946--ak--30/prot_1946__ak__30-058.jp2/_view"/>
+          <note type="date" n="7f9be03e">
+            Fredagen den 28 juni 1946 fm. Nr 30. 59
+          </note>
+          <u who="bertil_ohlin_2d3e4b" xml:id="i-1e8f599eb4068134-6" prev="i-1e8f599eb4068134-4" n="1e8f599e">
             <seg n="0104f873">
               Aktieteckning i Norrbottens järnverk aktiebolag m. m. (Forts.)
               etapp med ett järnverk på 200000 ton, och säger, att man sedan
@@ -5034,6 +5109,12 @@
               utveckling av Norrbottens näringsliv. Att då utnyttja naturtillgångarna
               genom att skapa
             </seg>
+          </u>
+          <pb n="59" facs="https://betalab.kb.se/prot-1946--ak--30/prot_1946__ak__30-059.jp2/_view"/>
+          <note type="date" n="eb6746fe">
+            60 Nr 30. Fredagen den 28 juni 1946 fm.
+          </note>
+          <u who="bertil_ohlin_2d3e4b" xml:id="i-1e8f599eb4068134-7" prev="i-1e8f599eb4068134-4" n="1e8f599e">
             <seg n="bbbbcb56">
               Aktieteckning i Norrbottens järnverk aktiebolag m. m. (Forts.)
               ett järnverk är ett viktigt led i sådana statliga försök. Jag
@@ -5067,18 +5148,10 @@
               bifall till den av herr Petersson och mig avgivna reservationen.
             </seg>
           </u>
-          <pb n="58" facs="https://betalab.kb.se/prot-1946--ak--30/prot_1946__ak__30-058.jp2/_view"/>
-          <note n="d34d03c4">
-            Fredagen den 28 juni 1946 fm. Nr 30. 59
-          </note>
-          <pb n="59" facs="https://betalab.kb.se/prot-1946--ak--30/prot_1946__ak__30-059.jp2/_view"/>
-          <note n="bcd35084">
-            60 Nr 30. Fredagen den 28 juni 1946 fm.
-          </note>
           <note type="speaker" n="3a89562b">
             Herr Andersson i Malmö:
           </note>
-          <u who="sven_andersson_f5ed18" xml:id="i-64ca84aeb7027788-0" next="i-402cb86833f51da1-0" n="6cf95b21">
+          <u who="sven_andersson_f5ed18" xml:id="i-a6dead58be8b5be4-0" next="i-a6dead58be8b5be4-2" n="6cf95b21">
             <seg n="f6fae563">
               Herr talman! Så vitt Jag förstod den föregående talaren rätt,
               ville han se denna fråga väsentligen såsom en norrlandsfråga.
@@ -5125,10 +5198,10 @@
             </seg>
           </u>
           <pb n="60" facs="https://betalab.kb.se/prot-1946--ak--30/prot_1946__ak__30-060.jp2/_view"/>
-          <note n="5f17050c">
+          <note type="date" n="b4a0d992">
             Fredagen den 28 juni 1946 fm. Nr 30. 61
           </note>
-          <u who="sven_andersson_f5ed18" xml:id="i-402cb86833f51da1-0" prev="i-64ca84aeb7027788-0" n="6cf95b21">
+          <u who="sven_andersson_f5ed18" xml:id="i-a6dead58be8b5be4-1" prev="i-a6dead58be8b5be4-0" n="6cf95b21">
             <seg n="a3fc2783">
               Aktieteckning i Norrbottens järnverk aktiebolag m. m. (Forts.)
               vara värt att göra det — anföra några rader av vad departementschefen
@@ -5199,6 +5272,12 @@
               haft farhågor för att arbetskraft från Mellansverige skulle dragas
               upp till
             </seg>
+          </u>
+          <pb n="61" facs="https://betalab.kb.se/prot-1946--ak--30/prot_1946__ak__30-061.jp2/_view"/>
+          <note type="date" n="279c0b22">
+            62 Nr 30. Fredagen den 28 juni 1946 fm.
+          </note>
+          <u who="sven_andersson_f5ed18" xml:id="i-a6dead58be8b5be4-2" prev="i-a6dead58be8b5be4-0" n="6cf95b21">
             <seg n="9351797e">
               Aktieteckning i Norrbottens järnverk aktiebolag m. m. (Forts.)
               Norrbotten. Jag tror emellertid, att man från styrelsens sida
@@ -5249,10 +5328,6 @@
               att jag, herr talman, nu yrkar bifall till utskottets förslag.
             </seg>
           </u>
-          <pb n="61" facs="https://betalab.kb.se/prot-1946--ak--30/prot_1946__ak__30-061.jp2/_view"/>
-          <note n="bb111363">
-            62 Nr 30. Fredagen den 28 juni 1946 fm.
-          </note>
           <note n="c5bc3e60">
             Som tiden nu var långt framskriden och flera talare hade anmält
             sig för yttrandes avgivande, beslöt kammaren på förslag av herr
@@ -5268,10 +5343,10 @@
             In fidem Gunnar Britth.
           </note>
           <pb n="62" facs="https://betalab.kb.se/prot-1946--ak--30/prot_1946__ak__30-062.jp2/_view"/>
-          <note n="5f813c90">
+          <note type="date" n="3fb0a3ef">
             Fredagen den 28 juni 1946 em. Nr 30. 63
           </note>
-          <note n="8732e839">
+          <note type="date" n="27f74c51">
             Fredagen den 28 juni. KI. 7.30 em.
           </note>
           <note n="3ef8c914">
@@ -5295,7 +5370,7 @@
           <note type="speaker" n="96b9fabe">
             Herr Olson i Göteborg, som anförde:
           </note>
-          <u who="erik_olson_47ab83" xml:id="i-a7f1d55c4347d400-0" next="i-418d0fb7a7dcc4c3-0" n="dae4a4f0">
+          <u who="erik_olson_47ab83" xml:id="i-dae4a4f0a1970046-0" next="i-dae4a4f0a1970046-2" n="dae4a4f0">
             <seg n="69e05313">
               Herr talman! Detta projekt är av en storleksordning, som förutsätter
               ett ansvarstagande, som blott få om ens någon varit i tillfälle
@@ -5344,10 +5419,10 @@
             </seg>
           </u>
           <pb n="63" facs="https://betalab.kb.se/prot-1946--ak--30/prot_1946__ak__30-063.jp2/_view"/>
-          <note n="cc526970">
+          <note type="date" n="6334db49">
             64 Nr 30. Fredagen den 28 juni 1946 em.
           </note>
-          <u who="erik_olson_47ab83" xml:id="i-418d0fb7a7dcc4c3-0" prev="i-a7f1d55c4347d400-0" n="dae4a4f0">
+          <u who="erik_olson_47ab83" xml:id="i-dae4a4f0a1970046-1" prev="i-dae4a4f0a1970046-0" n="dae4a4f0">
             <seg n="61a81737">
               Aktieteckning i Norrbottens järnverk aktiebolag m. m. (Forts.)
               ser då vår järnförsörjning ut, till vilken dessa 100000 ton under
@@ -5416,6 +5491,12 @@
               att få veta hur hög siffran är. Är den 30 Zz eller är den 35 Z,
               och är icke möjligen felkalkyleringen så pass grave-
             </seg>
+          </u>
+          <pb n="64" facs="https://betalab.kb.se/prot-1946--ak--30/prot_1946__ak__30-064.jp2/_view"/>
+          <note type="date" n="01099dbb">
+            Fredagen den 28 juni 1946 em. Nr 30. 65
+          </note>
+          <u who="erik_olson_47ab83" xml:id="i-dae4a4f0a1970046-2" prev="i-dae4a4f0a1970046-0" n="dae4a4f0">
             <seg n="f204bc42">
               Aktieteckning i Norrbottens järnverk aktiebolag m. m. (Forts.)
               rande. att den bort utgöra ett allvarligt memento i dagens svåra
@@ -5484,15 +5565,11 @@
               såsom det här återgivits, ägnat att skingra denna oro.
             </seg>
           </u>
-          <pb n="64" facs="https://betalab.kb.se/prot-1946--ak--30/prot_1946__ak__30-064.jp2/_view"/>
-          <note n="f86ce871">
-            Fredagen den 28 juni 1946 em. Nr 30. 65
-          </note>
           <note n="e1feff9b">
             Andra kammarens protokoll 1946. Nr 30. 5
           </note>
           <pb n="65" facs="https://betalab.kb.se/prot-1946--ak--30/prot_1946__ak__30-065.jp2/_view"/>
-          <note n="da6b51df">
+          <note type="date" n="bed63f39">
             66 Nr 30. Fredagen den 28 juni 1946 em.
           </note>
           <note n="afc8f356">
@@ -5510,7 +5587,7 @@
           <note type="speaker" n="4d746b10">
             Chefen för handelsdepartementet, herr statsrådet Myrdal:
           </note>
-          <u who="unknown" xml:id="i-c21a09bde1b76e22-4" n="2116486a">
+          <u who="unknown" xml:id="i-2116486a2076b982-13" n="2116486a">
             <seg n="fac89b46">
               Herr talman! I ett hänseende vill jag oförbehållsamt instämma
               med den siste ärade talaren. herr Olson i Göteborg, nämligen att
@@ -5578,10 +5655,10 @@
             </seg>
           </u>
           <pb n="66" facs="https://betalab.kb.se/prot-1946--ak--30/prot_1946__ak__30-066.jp2/_view"/>
-          <note n="7fb78a10">
+          <note type="date" n="a9780795">
             Fredagen den 28 juni 1946 em. Nr 30. 67
           </note>
-          <u who="unknown" xml:id="i-a7084ac9214d9a03-4" n="2116486a">
+          <u who="unknown" xml:id="i-2116486a2076b982-14" n="2116486a">
             <seg n="ad750bc6">
               Aktieteckning i Norrbottens järnverk aktiebolag m. m. (Forts.)
               och intensiva utredningar redan förut och så vitt man inte inom
@@ -5656,6 +5733,15 @@
               utlåtande och här i debatten. Jag skall emellertid be att få göra
               några allmänna anmärkningar, innan jag går in på dessa detaljfrågor.
             </seg>
+          </u>
+          <pb n="67" facs="https://betalab.kb.se/prot-1946--ak--30/prot_1946__ak__30-067.jp2/_view"/>
+          <note type="date" n="f5bf6fce">
+            68 Nr 30. Fredagen den 28 juni 1946 em.
+          </note>
+          <note n="41d594b2">
+            ÅAktieteckning 1 Norrbottens järnverk aktiebolag m. m. (Forts.)
+          </note>
+          <u who="unknown" xml:id="i-2116486a2076b982-15" n="2116486a">
             <seg n="d0ae45b9">
               Jag skulle först vilja påpeka och understryka, att denna fråga
               vid de olika tillfällen den behandlats i riksdagen dock fallit
@@ -5729,6 +5815,12 @@
               att förbättra sitt resultat. Jag kan vidare nämna, att bränsleåtgången
               per ton framställt tackjärn, vilken under inkör-
             </seg>
+          </u>
+          <pb n="68" facs="https://betalab.kb.se/prot-1946--ak--30/prot_1946__ak__30-068.jp2/_view"/>
+          <note type="date" n="a3f09fbe">
+            Fredagen den 28 juni 1946 em. Nr 30. 69
+          </note>
+          <u who="unknown" xml:id="i-2116486a2076b982-16" n="2116486a">
             <seg n="13f4cce5">
               Aktieteckning i Norrbottens järnverk aktiebolag m. m. (Forts.)
               ningsperioden uppgick till uppemot 557 kg, under det förgångna
@@ -5803,6 +5895,12 @@
               oss själva att
             </seg>
             <seg n="ddb5763a"/>
+          </u>
+          <pb n="69" facs="https://betalab.kb.se/prot-1946--ak--30/prot_1946__ak__30-069.jp2/_view"/>
+          <note type="date" n="b8d39b33">
+            70 Nr 30. Fredagen den 28 juni 1946 em.
+          </note>
+          <u who="unknown" xml:id="i-2116486a2076b982-17" n="2116486a">
             <seg n="658507be">
               Aktieteckning i Norrbottens järnverk aktiebolag m. m. (Forts.)
               Jernkontoret måhända är ett officiellt organ i en viss mening,
@@ -5879,6 +5977,12 @@
               mycket in i detalj kan jag knappast gå. Först skulle Jag vilja
               fästa kammarens uppmärksamhet på en uppenbar brist i logiken och
             </seg>
+          </u>
+          <pb n="70" facs="https://betalab.kb.se/prot-1946--ak--30/prot_1946__ak__30-070.jp2/_view"/>
+          <note type="date" n="f754b028">
+            Fredagen den 28 juni 1946 em. Nr 30. 71
+          </note>
+          <u who="unknown" xml:id="i-2116486a2076b982-18" n="2116486a">
             <seg n="6cadb7ef">
               Aktieteckning i Norrbottens järnverk aktiebolag m. m. (Forts.)
               en uppenbar motsättning i själva argumenteringen i denna reservation,
@@ -5953,6 +6057,12 @@
               Det är alldeles riktigt, att något detaljerat produktionsprogram
               inte har ut-
             </seg>
+          </u>
+          <pb n="71" facs="https://betalab.kb.se/prot-1946--ak--30/prot_1946__ak__30-071.jp2/_view"/>
+          <note type="date" n="367ee875">
+            72 Nr 30. Fredagen den 28 juni 1946 em.
+          </note>
+          <u who="unknown" xml:id="i-2116486a2076b982-19" n="2116486a">
             <seg n="f56dac5e">
               Aktieteckning i Norrbottens järnverk aktiebolag m. m. (Forts.)
               arbetats, men det är klart att det kommer att utarbetas. Hänsyn
@@ -6027,6 +6137,12 @@
               möjligt säkrar full sysselsättning. Vi ha pekat på de sär-
             </seg>
             <seg n="ddb5763a"/>
+          </u>
+          <pb n="72" facs="https://betalab.kb.se/prot-1946--ak--30/prot_1946__ak__30-072.jp2/_view"/>
+          <note type="date" n="0f08b75f">
+            Fredagen den 28 juni 1946 em. Nr 30. 3
+          </note>
+          <u who="unknown" xml:id="i-2116486a2076b982-20" n="2116486a">
             <seg n="1d7b84e2">
               Aktieteckning i Norrbottens järnverk aktiebolag m. m. (Forts.)
               skilda planer, som äro upplagda, och som komma att innebära att
@@ -6107,6 +6223,12 @@
               att vara 1 stånd att tillverka något tackjärn alls. Ett av de
               viktigaste skälen för att bygga
             </seg>
+          </u>
+          <pb n="73" facs="https://betalab.kb.se/prot-1946--ak--30/prot_1946__ak__30-073.jp2/_view"/>
+          <note type="date" n="f54be74c">
+            74 Nr 30. Fredagen den 28 juni 1946 em.
+          </note>
+          <u who="unknown" xml:id="i-2116486a2076b982-21" n="2116486a">
             <seg n="0ad159f7">
               Aktieteckning i Norrbottens järnverk aktiebolag m. m. (Forts.)
               upp detta järnverk i Norrbotten har ju dock alltid varit, att
@@ -6184,6 +6306,15 @@
               låta slå igen det helt och hållet? — eller skall jag köra det
               med subventioner.
             </seg>
+          </u>
+          <pb n="74" facs="https://betalab.kb.se/prot-1946--ak--30/prot_1946__ak__30-074.jp2/_view"/>
+          <note type="date" n="4392ae66">
+            Fredagen den 28 juni 1946 em. Nr 30. 75
+          </note>
+          <note n="f4f101de">
+            Aktieteckning i Norrbottens järnverk aktiebolag m. m. (Forts.)
+          </note>
+          <u who="unknown" xml:id="i-2116486a2076b982-22" n="2116486a">
             <seg n="8ffcd2cb">
               Ja, jag är ledsen om jag missförstått frågan, jag har den endast
               antecknad på ctt papper. — Eftersom detta järnverk planeras att
@@ -6250,59 +6381,21 @@
               det reagerar jag emot.
             </seg>
           </u>
-          <pb n="67" facs="https://betalab.kb.se/prot-1946--ak--30/prot_1946__ak__30-067.jp2/_view"/>
-          <note n="2267a037">
-            68 Nr 30. Fredagen den 28 juni 1946 em.
-          </note>
-          <note n="41d594b2">
-            ÅAktieteckning 1 Norrbottens järnverk aktiebolag m. m. (Forts.)
-          </note>
-          <pb n="68" facs="https://betalab.kb.se/prot-1946--ak--30/prot_1946__ak__30-068.jp2/_view"/>
-          <note n="dab231ab">
-            Fredagen den 28 juni 1946 em. Nr 30. 69
-          </note>
-          <pb n="69" facs="https://betalab.kb.se/prot-1946--ak--30/prot_1946__ak__30-069.jp2/_view"/>
-          <note n="cde0d1b3">
-            70 Nr 30. Fredagen den 28 juni 1946 em.
-          </note>
-          <pb n="70" facs="https://betalab.kb.se/prot-1946--ak--30/prot_1946__ak__30-070.jp2/_view"/>
-          <note n="e3f88bab">
-            Fredagen den 28 juni 1946 em. Nr 30. 71
-          </note>
-          <pb n="71" facs="https://betalab.kb.se/prot-1946--ak--30/prot_1946__ak__30-071.jp2/_view"/>
-          <note n="f1f83251">
-            72 Nr 30. Fredagen den 28 juni 1946 em.
-          </note>
-          <pb n="72" facs="https://betalab.kb.se/prot-1946--ak--30/prot_1946__ak__30-072.jp2/_view"/>
-          <note n="50d84df6">
-            Fredagen den 28 juni 1946 em. Nr 30. 3
-          </note>
-          <pb n="73" facs="https://betalab.kb.se/prot-1946--ak--30/prot_1946__ak__30-073.jp2/_view"/>
-          <note n="6ea23fb3">
-            74 Nr 30. Fredagen den 28 juni 1946 em.
-          </note>
-          <pb n="74" facs="https://betalab.kb.se/prot-1946--ak--30/prot_1946__ak__30-074.jp2/_view"/>
-          <note n="4f417cbc">
-            Fredagen den 28 juni 1946 em. Nr 30. 75
-          </note>
-          <note n="f4f101de">
-            Aktieteckning i Norrbottens järnverk aktiebolag m. m. (Forts.)
-          </note>
           <note type="speaker" n="ebcb5e0b">
             Herr Olson i Göteborg erhöll på begäran ordet för kort genmäle
             och anförde:
           </note>
-          <u who="erik_olson_47ab83" xml:id="i-a7f1d55c4347d400-1" next="i-418d0fb7a7dcc4c3-1" n="dae4a4f0">
+          <u who="erik_olson_47ab83" xml:id="i-dae4a4f0a1970046-3" next="i-dae4a4f0a1970046-4" n="dae4a4f0">
             <seg n="27f1aecc">
               Herr talman! Statsrådet Myrdal har i sitt uttömmande anförande
               svept
             </seg>
           </u>
           <pb n="75" facs="https://betalab.kb.se/prot-1946--ak--30/prot_1946__ak__30-075.jp2/_view"/>
-          <note n="77ebb47d">
+          <note type="date" n="4dc93099">
             26 Nr 30. Fredagen den 28 juni 1946 em.
           </note>
-          <u who="erik_olson_47ab83" xml:id="i-418d0fb7a7dcc4c3-1" prev="i-a7f1d55c4347d400-1" n="dae4a4f0">
+          <u who="erik_olson_47ab83" xml:id="i-dae4a4f0a1970046-4" prev="i-dae4a4f0a1970046-3" n="dae4a4f0">
             <seg n="f3950561">
               Aktieteckning i Norrbottens järnverk aktiebolag m. m. (Forts.)
               över betydande områden och inte bara berört de omständigheter,
@@ -6358,7 +6451,7 @@
           <note type="speaker" n="bf61f63b">
             Herr Lövgren:
           </note>
-          <u who="oscar_lovgren_4dca2d" xml:id="i-66da76db83ef7ea6-0" next="i-fc24d45c47be953a-0" n="10e2120f">
+          <u who="oscar_lovgren_4dca2d" xml:id="i-10e2120f9ff243a0-0" next="i-10e2120f9ff243a0-4" n="10e2120f">
             <seg n="4ed30657">
               Herr talman! Jag skall börja med att till statsrådet Myrdal och
               till statsutskottets majoritet framföra ett varmt tack för det
@@ -6386,13 +6479,13 @@
             </seg>
           </u>
           <pb n="76" facs="https://betalab.kb.se/prot-1946--ak--30/prot_1946__ak__30-076.jp2/_view"/>
-          <note n="f01df1f2">
+          <note type="date" n="7b5ac9d6">
             Fredagen den 28 juni 1946 em. Nr 30. 27
           </note>
           <note n="f4f101de">
             Aktieteckning i Norrbottens järnverk aktiebolag m. m. (Forts.)
           </note>
-          <u who="oscar_lovgren_4dca2d" xml:id="i-fc24d45c47be953a-0" prev="i-66da76db83ef7ea6-0" n="10e2120f">
+          <u who="oscar_lovgren_4dca2d" xml:id="i-10e2120f9ff243a0-1" prev="i-10e2120f9ff243a0-0" n="10e2120f">
             <seg n="2261781a">
               Det är sant att 1939 års urtima riksdag fattade beslut i anledning
               av en proposition, som gick ut på att man skulle bygga ett kokstackjärnverk
@@ -6462,6 +6555,12 @@
               detta Norrbottens järnverk och med LKAB. och det gick ut på att
               från och med 1920 skulle man börja bryta malm i Iuos-
             </seg>
+          </u>
+          <pb n="77" facs="https://betalab.kb.se/prot-1946--ak--30/prot_1946__ak__30-077.jp2/_view"/>
+          <note type="date" n="3c5c4975">
+            78 Nr 30. Fredagen den 28 juni 1946 em.
+          </note>
+          <u who="oscar_lovgren_4dca2d" xml:id="i-10e2120f9ff243a0-2" prev="i-10e2120f9ff243a0-0" n="10e2120f">
             <seg n="6dabb128">
               Aktieteckning i Norrbottens järnverk aktiebolag m. m. (Forts.)
               savaara malmfält. När det stora malmavtalet uppgjordes 1907 undantog
@@ -6535,6 +6634,12 @@
               När jag nu ser på reservationerna till statsutskottets betänkande
               får jag ju
             </seg>
+          </u>
+          <pb n="78" facs="https://betalab.kb.se/prot-1946--ak--30/prot_1946__ak__30-078.jp2/_view"/>
+          <note type="date" n="11d6ead4">
+            Fredagen den 28 juni 1946 em. Nr 30. 79
+          </note>
+          <u who="oscar_lovgren_4dca2d" xml:id="i-10e2120f9ff243a0-3" prev="i-10e2120f9ff243a0-0" n="10e2120f">
             <seg n="33949f80">
               Aktieteckning i Norrbottens järnverk aktiebolag m. m. (Forts.)
               säga, att jag känner mig inte ett enda dugg förvånad över dem.
@@ -6612,6 +6717,15 @@
               hela behovet för egen del, när vi ha möjlighet till det, då skulle
               man ju hamna i rena orimligheterna.
             </seg>
+          </u>
+          <pb n="79" facs="https://betalab.kb.se/prot-1946--ak--30/prot_1946__ak__30-079.jp2/_view"/>
+          <note type="date" n="d7beca3b">
+            80 Nr 30. Fredagen den 28 juni 1946 em.
+          </note>
+          <note n="f4f101de">
+            Aktieteckning i Norrbottens järnverk aktiebolag m. m. (Forts.)
+          </note>
+          <u who="oscar_lovgren_4dca2d" xml:id="i-10e2120f9ff243a0-4" prev="i-10e2120f9ff243a0-0" n="10e2120f">
             <seg n="3b2d8f9a">
               Beträffande frågan om järnverket förde herr Ohlin det resonemanget,
               att om man nu bygger ut för 5300 000 ton, får man 150 000 ton
@@ -6630,25 +6744,10 @@
               yrkande om bifall till utskottets förslag.
             </seg>
           </u>
-          <pb n="77" facs="https://betalab.kb.se/prot-1946--ak--30/prot_1946__ak__30-077.jp2/_view"/>
-          <note n="cbd2458b">
-            78 Nr 30. Fredagen den 28 juni 1946 em.
-          </note>
-          <pb n="78" facs="https://betalab.kb.se/prot-1946--ak--30/prot_1946__ak__30-078.jp2/_view"/>
-          <note n="d688efab">
-            Fredagen den 28 juni 1946 em. Nr 30. 79
-          </note>
-          <pb n="79" facs="https://betalab.kb.se/prot-1946--ak--30/prot_1946__ak__30-079.jp2/_view"/>
-          <note n="31953285">
-            80 Nr 30. Fredagen den 28 juni 1946 em.
-          </note>
-          <note n="f4f101de">
-            Aktieteckning i Norrbottens järnverk aktiebolag m. m. (Forts.)
-          </note>
           <note type="speaker" n="7702362d">
             Herr Ohlin:
           </note>
-          <u who="bertil_ohlin_2d3e4b" xml:id="i-294114cf28f886b7-2" next="i-e2e3927b7aa7107e-2" n="1e8f599e">
+          <u who="bertil_ohlin_2d3e4b" xml:id="i-1e8f599eb4068134-8" next="i-1e8f599eb4068134-12" n="1e8f599e">
             <seg n="4b29193c">
               Herr talman! Jag får kanske börja med en replik till herr Lövgren.
               Han karakteriserade min reservation så, att den är som folkpartiet:
@@ -6705,10 +6804,10 @@
             </seg>
           </u>
           <pb n="80" facs="https://betalab.kb.se/prot-1946--ak--30/prot_1946__ak__30-080.jp2/_view"/>
-          <note n="cbd8a2ec">
+          <note type="date" n="784b4271">
             Fredagen den 28 juni 1946 em. Nr 30. 81
           </note>
-          <u who="bertil_ohlin_2d3e4b" xml:id="i-e2e3927b7aa7107e-2" prev="i-294114cf28f886b7-2" n="1e8f599e">
+          <u who="bertil_ohlin_2d3e4b" xml:id="i-1e8f599eb4068134-9" prev="i-1e8f599eb4068134-8" n="1e8f599e">
             <seg n="b552bf2c">
               Aktieteckning i Norrbottens järnverk aktiebolag m. m. (Forts.)
               Jag tror herr Lövgren står allena, om han vill hävda, att vi skola
@@ -6785,6 +6884,20 @@
               valsverk m. m. är en liten obetydlighet. Låt mig än en gång säga,
               att ett samlat järnverk av denna omfattning är en mycket stor
             </seg>
+          </u>
+          <note n="0ba3c796">
+            Andra kammarens protokoll 1946. Nr 30. 6
+          </note>
+          <pb n="81" facs="https://betalab.kb.se/prot-1946--ak--30/prot_1946__ak__30-081.jp2/_view"/>
+          <note type="date" n="a12cf4eb">
+            82 Nr 30. Fredagen den 28 juni 1946 em.
+          </note>
+          <note n="fd6c7e28">
+            Aktieteckning i Norrbottens järnverk aktiebolag m. m. (Forts.)
+            anläggning mot bakgrund av den utveckling som järnverket tidigare
+            genomlupit.
+          </note>
+          <u who="bertil_ohlin_2d3e4b" xml:id="i-1e8f599eb4068134-10" prev="i-1e8f599eb4068134-8" n="1e8f599e">
             <seg n="6d9073a9">
               När herr Myrdal sedan går vidare och säger, att vårt förslag
               är lättsinnigt rent tekniskt, måste jag svara honom, att jag har
@@ -6856,6 +6969,12 @@
               antag, att utvecklingen blir sådan, att man finner, att man visserligen
               icke skall stanna vid 200 000:+ton
             </seg>
+          </u>
+          <pb n="82" facs="https://betalab.kb.se/prot-1946--ak--30/prot_1946__ak__30-082.jp2/_view"/>
+          <note type="date" n="8f23ad79">
+            Fredagen den 28 juni 1946 em. Nr 30. 83
+          </note>
+          <u who="bertil_ohlin_2d3e4b" xml:id="i-1e8f599eb4068134-11" prev="i-1e8f599eb4068134-8" n="1e8f599e">
             <seg n="8467839a">
               Aktieteckning i Norrbottens järnverk aktiebolag m. m. (Forts.)
               men bör bygga ut järnverket endast i mindre grad, t. ex. endast
@@ -6926,6 +7045,12 @@
               den också bör utnyttjas till fullo. Jag tror, att det är vissa
               risker
             </seg>
+          </u>
+          <pb n="83" facs="https://betalab.kb.se/prot-1946--ak--30/prot_1946__ak__30-083.jp2/_view"/>
+          <note type="date" n="0088222f">
+            84 Nr 30. Fredagen den 28 juni 1946 em.
+          </note>
+          <u who="bertil_ohlin_2d3e4b" xml:id="i-1e8f599eb4068134-12" prev="i-1e8f599eb4068134-8" n="1e8f599e">
             <seg n="31ad1ee4">
               Aktieteckning i Norrbottens järnverk aktiebolag m. m. (Forts.)
               för att det på detta sätt icke blir någon sådan organiserad frihandel
@@ -6958,30 +7083,10 @@
               går in för ett mycket högt uppsatt maximiprogram.
             </seg>
           </u>
-          <note n="0ba3c796">
-            Andra kammarens protokoll 1946. Nr 30. 6
-          </note>
-          <pb n="81" facs="https://betalab.kb.se/prot-1946--ak--30/prot_1946__ak__30-081.jp2/_view"/>
-          <note n="5c7689cb">
-            82 Nr 30. Fredagen den 28 juni 1946 em.
-          </note>
-          <note n="fd6c7e28">
-            Aktieteckning i Norrbottens järnverk aktiebolag m. m. (Forts.)
-            anläggning mot bakgrund av den utveckling som järnverket tidigare
-            genomlupit.
-          </note>
-          <pb n="82" facs="https://betalab.kb.se/prot-1946--ak--30/prot_1946__ak__30-082.jp2/_view"/>
-          <note n="88d93f65">
-            Fredagen den 28 juni 1946 em. Nr 30. 83
-          </note>
-          <pb n="83" facs="https://betalab.kb.se/prot-1946--ak--30/prot_1946__ak__30-083.jp2/_view"/>
-          <note n="0960c672">
-            84 Nr 30. Fredagen den 28 juni 1946 em.
-          </note>
           <note type="speaker" n="9a4e197f">
             Herr talmannen:
           </note>
-          <u who="unknown" xml:id="i-ca8d2b55e66db339-3" n="2116486a">
+          <u who="unknown" xml:id="i-2116486a2076b982-23" n="2116486a">
             <seg n="1bb422fe">
               Jag vill framhålla, att om vi skola kunna slutföra arbetet i
               rätt tid, är det nog nödvändigt, att man försöker koncentrera
@@ -6991,7 +7096,7 @@
           <note type="speaker" n="7dc3154d">
             Herr Lövgren, som på begäran erhöll ordet för kort genmäle, anförde:
           </note>
-          <u who="oscar_lovgren_4dca2d" xml:id="i-345afbf2637c74ce-0" n="10e2120f">
+          <u who="oscar_lovgren_4dca2d" xml:id="i-10e2120f9ff243a0-5" n="10e2120f">
             <seg n="d640cb26">
               Herr talman! Jag skall bara säga till herr Ohlin, att jag naturligtvis
               icke menar, att vi skola vägra att importera varor, som på grund
@@ -7016,7 +7121,7 @@
           <note type="speaker" n="3911a207">
             Herr Hagberg i Luleå:
           </note>
-          <u who="hilding_hagberg_a6b9a0" xml:id="i-1fff2267e75c839a-0" next="i-dc805b2b99c20816-0" n="fc0b6c7e">
+          <u who="hilding_hagberg_a6b9a0" xml:id="i-fc0b6c7e79f8970c-0" next="i-fc0b6c7e79f8970c-3" n="fc0b6c7e">
             <seg n="70530ec6">
               Herr talman! Man kan väl säga, att de argument som kunna anföras
               för och emot det föreliggande förslaget redan ha presterats. Därför
@@ -7034,13 +7139,13 @@
             </seg>
           </u>
           <pb n="84" facs="https://betalab.kb.se/prot-1946--ak--30/prot_1946__ak__30-084.jp2/_view"/>
-          <note n="67ecfdae">
+          <note type="date" n="621fc9b6">
             Fredagen den 28 juni 1946 em. Nr 30. 85
           </note>
           <note n="f4f101de">
             Aktieteckning i Norrbottens järnverk aktiebolag m. m. (Forts.)
           </note>
-          <u who="hilding_hagberg_a6b9a0" xml:id="i-dc805b2b99c20816-0" prev="i-1fff2267e75c839a-0" n="fc0b6c7e">
+          <u who="hilding_hagberg_a6b9a0" xml:id="i-fc0b6c7e79f8970c-1" prev="i-fc0b6c7e79f8970c-0" n="fc0b6c7e">
             <seg n="6a4e5ec1">
               Bara för några år sedan, jag tror det var 1942, var det en känd
               bruksdisponent, som står herr Ohlins parti mycket nära, som undervisade
@@ -7111,6 +7216,18 @@
               produkter. Det har gått för annan järnproduktion i Sverige. Varför
               skulle det då icke kunna gå
             </seg>
+          </u>
+          <pb n="85" facs="https://betalab.kb.se/prot-1946--ak--30/prot_1946__ak__30-085.jp2/_view"/>
+          <note type="date" n="be13bd64">
+            86 Nr 30. Fredagen den 28 juni 1946 em.
+          </note>
+          <note n="2048b688">
+            Aktieteckning i Norrbottens järnverk aktiebolag m. m. (Forts.)
+            för den järnförädling, som skulle kunna arbeta med utnyttjande
+            av storproduktionens fördelar och de naturliga resurser, som finnas
+            i Norrbotten.
+          </note>
+          <u who="hilding_hagberg_a6b9a0" xml:id="i-fc0b6c7e79f8970c-2" prev="i-fc0b6c7e79f8970c-0" n="fc0b6c7e">
             <seg n="2112930d">
               Inom den grupp, som jag företräder, äro alla eniga om att detta
               förslag från regeringens sida är ett bra förslag. Det är klart
@@ -7184,6 +7301,17 @@
               möjligt åstadkomma en stor järnförädling — att innan produktionen
               åter kommit i gång i' det krigs-
             </seg>
+          </u>
+          <pb n="86" facs="https://betalab.kb.se/prot-1946--ak--30/prot_1946__ak__30-086.jp2/_view"/>
+          <note type="date" n="7c53005b">
+            Fredagen den 28 juni 1946 em. Nr 30. 87
+          </note>
+          <note n="46e02f92">
+            Aktieteckning i Norrbottens järnverk aktiebolag m. m. (Forts.)
+            härjade Europa, har det svenska järnverket naturligtvis mycket
+            större möjligheter att erövra en internationell avsättningsmarknad.
+          </note>
+          <u who="hilding_hagberg_a6b9a0" xml:id="i-fc0b6c7e79f8970c-3" prev="i-fc0b6c7e79f8970c-0" n="fc0b6c7e">
             <seg n="9eff87f2">
               Det har också talats om att det behövs yrkesutbildat folk, som
               kanske får tagas från andra delar av landet. Jag tror att farhågorna
@@ -7233,29 +7361,10 @@
               utlåtande.
             </seg>
           </u>
-          <pb n="85" facs="https://betalab.kb.se/prot-1946--ak--30/prot_1946__ak__30-085.jp2/_view"/>
-          <note n="29e41a1a">
-            86 Nr 30. Fredagen den 28 juni 1946 em.
-          </note>
-          <note n="2048b688">
-            Aktieteckning i Norrbottens järnverk aktiebolag m. m. (Forts.)
-            för den järnförädling, som skulle kunna arbeta med utnyttjande
-            av storproduktionens fördelar och de naturliga resurser, som finnas
-            i Norrbotten.
-          </note>
-          <pb n="86" facs="https://betalab.kb.se/prot-1946--ak--30/prot_1946__ak__30-086.jp2/_view"/>
-          <note n="61f62688">
-            Fredagen den 28 juni 1946 em. Nr 30. 87
-          </note>
-          <note n="46e02f92">
-            Aktieteckning i Norrbottens järnverk aktiebolag m. m. (Forts.)
-            härjade Europa, har det svenska järnverket naturligtvis mycket
-            större möjligheter att erövra en internationell avsättningsmarknad.
-          </note>
           <note type="speaker" n="78171f78">
             Herr Falla erhöll på begäran ordet för kort genmäle och anförde:
           </note>
-          <u who="unknown" xml:id="i-c21a09bde1b76e22-5" n="2116486a">
+          <u who="unknown" xml:id="i-2116486a2076b982-24" n="2116486a">
             <seg n="b4494b10">
               Herr talman! Statsrådet Myrdal sade för en stund sedan att det
               skett en plötslig omsvängning i denna fråga. I stället för tidigare
@@ -7282,10 +7391,10 @@
             </seg>
           </u>
           <pb n="87" facs="https://betalab.kb.se/prot-1946--ak--30/prot_1946__ak__30-087.jp2/_view"/>
-          <note n="238f854b">
+          <note type="date" n="f49300c9">
             88 Nr 30. Fredagen den 28 juni 1946 em.
           </note>
-          <u who="unknown" xml:id="i-a7084ac9214d9a03-5" n="2116486a">
+          <u who="unknown" xml:id="i-2116486a2076b982-25" n="2116486a">
             <seg n="8a5fde06">
               Aktieteckning i Norrbottens järnverk aktiebolag m. m. (Forts.)
               min negativism — att beställa en stor utbyggnad av järnverket
@@ -7323,7 +7432,7 @@
           <note type="speaker" n="6946e025">
             Herr Olson i Göteborg:
           </note>
-          <u who="erik_olson_47ab83" xml:id="i-a7f1d55c4347d400-2" next="i-418d0fb7a7dcc4c3-2" n="dae4a4f0">
+          <u who="erik_olson_47ab83" xml:id="i-dae4a4f0a1970046-5" next="i-dae4a4f0a1970046-6" n="dae4a4f0">
             <seg n="c5c61445">
               Herr talman! Jag skall ställa mig talmannens maning till efterrättelse
               och yttra mig koncentrerat i detta mitt sista anförande — jag
@@ -7371,10 +7480,10 @@
             </seg>
           </u>
           <pb n="88" facs="https://betalab.kb.se/prot-1946--ak--30/prot_1946__ak__30-088.jp2/_view"/>
-          <note n="11204bca">
+          <note type="date" n="6e2e033e">
             Fredagen den 28 juni 1946 em. Nr 30. 89
           </note>
-          <u who="erik_olson_47ab83" xml:id="i-418d0fb7a7dcc4c3-2" prev="i-a7f1d55c4347d400-2" n="dae4a4f0">
+          <u who="erik_olson_47ab83" xml:id="i-dae4a4f0a1970046-6" prev="i-dae4a4f0a1970046-5" n="dae4a4f0">
             <seg n="96eea0d8">
               Aktieteckning i Norrbottens järnverk aktiebolag m. m. (Forts.)
               stånd och samvete än att bagatellisera dem, när de i alla fall
@@ -7448,7 +7557,7 @@
             </seg>
           </u>
           <pb n="89" facs="https://betalab.kb.se/prot-1946--ak--30/prot_1946__ak__30-089.jp2/_view"/>
-          <note n="763c218f">
+          <note type="date" n="d1e07352">
             90 Nr 30. Fredagen den 28 juni 1946 em.
           </note>
           <note n="f4f101de">
@@ -7457,7 +7566,7 @@
           <note type="speaker" n="196598e4">
             Herr Ljungqvist:
           </note>
-          <u who="gunnar_ljungqvist_cec163" xml:id="i-0b27d7833376bd04-0" next="i-4b80c8fa67d837e5-0" n="935dc619">
+          <u who="gunnar_ljungqvist_cec163" xml:id="i-935dc61908232fdf-0" next="i-935dc61908232fdf-3" n="935dc619">
             <seg n="25139af1">
               Herr talman! Jag tänker inte uttala mig i den omstridda frågan
               angående utbyggnaden av Norrbottens järnverk. I det fallet vill
@@ -7540,10 +7649,10 @@
             </seg>
           </u>
           <pb n="90" facs="https://betalab.kb.se/prot-1946--ak--30/prot_1946__ak__30-090.jp2/_view"/>
-          <note n="f2810398">
+          <note type="date" n="0af4e554">
             Fredagen den 28 juni 1946 em. Nr 30. 91
           </note>
-          <u who="gunnar_ljungqvist_cec163" xml:id="i-4b80c8fa67d837e5-0" prev="i-0b27d7833376bd04-0" n="935dc619">
+          <u who="gunnar_ljungqvist_cec163" xml:id="i-935dc61908232fdf-1" prev="i-935dc61908232fdf-0" n="935dc619">
             <seg n="7f069e56">
               Aktieteckning i Norrbottens järnverk aktiebolag m. m. (Forts.)
               För det första, att verkligen den så vitt jag vet av riksdagen
@@ -7553,15 +7662,6 @@
               karaktär genom att man uppenbart privilegierar järnverket i konkurrensen
               med andra, enskilda företag, som statsrådet Myrdal själv antydde
               såsom hotade.
-            </seg>
-            <seg n="18b20b52">
-              Nej:
-            </seg>
-            <seg n="651d0d2f">
-              Anslag till universiteten och den medicinska under-
-            </seg>
-            <seg n="bfc29d9d">
-              visningen
             </seg>
           </u>
           <note n="a1ff67b4">
@@ -7594,6 +7694,11 @@
           <note n="8981bd58">
             Den, det ej vill, röstar
           </note>
+          <u who="gunnar_ljungqvist_cec163" xml:id="i-935dc61908232fdf-2" prev="i-935dc61908232fdf-0" n="935dc619">
+            <seg n="18b20b52">
+              Nej:
+            </seg>
+          </u>
           <note n="d68b20fb">
             Vinner Nej, har kammaren till kontraproposition i nämnda votering
             antagit
@@ -7630,10 +7735,18 @@
             hemställan under punkten II. av kammaren bifallen.
           </note>
           <pb n="91" facs="https://betalab.kb.se/prot-1946--ak--30/prot_1946__ak__30-091.jp2/_view"/>
+          <u who="gunnar_ljungqvist_cec163" xml:id="i-935dc61908232fdf-3" prev="i-935dc61908232fdf-0" n="935dc619">
+            <seg n="651d0d2f">
+              Anslag till universiteten och den medicinska under-
+            </seg>
+            <seg n="bfc29d9d">
+              visningen
+            </seg>
+          </u>
           <note n="24e035a5">
             m. Mm.
           </note>
-          <note n="666a6105">
+          <note type="date" n="cc0d899a">
             92 Nr 30. Fredagen den 28 juni 1946 em.
           </note>
           <note n="f4f101de">
@@ -7718,7 +7831,7 @@
           <note type="speaker" n="7702362d">
             Herr Ohlin:
           </note>
-          <u who="bertil_ohlin_2d3e4b" xml:id="i-294114cf28f886b7-3" next="i-e2e3927b7aa7107e-3" n="1e8f599e">
+          <u who="bertil_ohlin_2d3e4b" xml:id="i-1e8f599eb4068134-13" next="i-1e8f599eb4068134-14" n="1e8f599e">
             <seg n="539e3efc">
               Herr talman! Utskottet har på s. 81 i sitt utlåtande gjort ett
               principiellt uttalande, som sträcker som långt utöver räckvidden
@@ -7727,14 +7840,14 @@
             </seg>
           </u>
           <pb n="92" facs="https://betalab.kb.se/prot-1946--ak--30/prot_1946__ak__30-092.jp2/_view"/>
-          <note n="fddf2067">
+          <note type="date" n="9d8676c4">
             Fredagen den 28 juni 1946 em. Nr 30. 93
           </note>
           <note n="6ebdc3a0">
             Anslag till universiteten och den medicinska undervisningen m.
             m. (Forts.)
           </note>
-          <u who="bertil_ohlin_2d3e4b" xml:id="i-e2e3927b7aa7107e-3" prev="i-294114cf28f886b7-3" n="1e8f599e">
+          <u who="bertil_ohlin_2d3e4b" xml:id="i-1e8f599eb4068134-14" prev="i-1e8f599eb4068134-13" n="1e8f599e">
             <seg n="d1e115f5">
               läkares rätt att erhålla ersättning för vissa intyg. Denna fråga
               sammanhänger ju nära med frågan om dessa underläkares arbetsförhållanden
@@ -7794,7 +7907,7 @@
           <note type="speaker" n="20b2f165">
             Herr Kristensson:
           </note>
-          <u who="filip_kristensson_35eabf" xml:id="i-7fdda710efd5aa77-0" next="i-3964fa0e59558446-0" n="65b8cfe2">
+          <u who="filip_kristensson_35eabf" xml:id="i-65b8cfe284b04610-0" next="i-65b8cfe284b04610-1" n="65b8cfe2">
             <seg n="75d8cb83">
               Herr talman! Samhällets åtgärder mot alkoholmissbruket ha hittills
               i stort sett varit inriktade på att begränsa de sociala skadeverkningarna.
@@ -7812,14 +7925,14 @@
             </seg>
           </u>
           <pb n="93" facs="https://betalab.kb.se/prot-1946--ak--30/prot_1946__ak__30-093.jp2/_view"/>
-          <note n="72cffb24">
+          <note type="date" n="77f92b6c">
             94 Nr 30. Fredagen den 28 juni 1946 em.
           </note>
           <note n="6ebdc3a0">
             Anslag till universiteten och den medicinska undervisningen m.
             m. (Forts.)
           </note>
-          <u who="filip_kristensson_35eabf" xml:id="i-3964fa0e59558446-0" prev="i-7fdda710efd5aa77-0" n="65b8cfe2">
+          <u who="filip_kristensson_35eabf" xml:id="i-65b8cfe284b04610-1" prev="i-65b8cfe284b04610-0" n="65b8cfe2">
             <seg n="d4200e91">
               Enligt min uppfattning är det på detta område ej tillräckligt
               med tillfälliga forskningsanslag. Jag har därför motionerat om
@@ -7842,7 +7955,7 @@
           <note type="speaker" n="22924e75">
             Herr von Friesen:
           </note>
-          <u who="bertil_von_friesen_09a66b" xml:id="i-fc8051f9dd4c2fe6-0" next="i-bd9ba3961844c477-0" n="2cbfc67a">
+          <u who="bertil_von_friesen_09a66b" xml:id="i-2cbfc67a52b5275d-0" next="i-2cbfc67a52b5275d-2" n="2cbfc67a">
             <seg n="024ed0ba">
               Herr talman! Jag vill med några ord beröra den fråga, som här
               i debatten har tagits upp av herr Ohlin och som rör intygsersättningen
@@ -7899,10 +8012,10 @@
             </seg>
           </u>
           <pb n="94" facs="https://betalab.kb.se/prot-1946--ak--30/prot_1946__ak__30-094.jp2/_view"/>
-          <note n="fddf2067">
+          <note type="date" n="9d8676c4">
             Fredagen den 28 juni 1946 em. Nr 30. 93
           </note>
-          <u who="bertil_von_friesen_09a66b" xml:id="i-bd9ba3961844c477-0" prev="i-fc8051f9dd4c2fe6-0" n="2cbfc67a">
+          <u who="bertil_von_friesen_09a66b" xml:id="i-2cbfc67a52b5275d-1" prev="i-2cbfc67a52b5275d-0" n="2cbfc67a">
             <seg n="fd32928f">
               Anslag till universiteten och den medicinska undervisningen m.
               m. (Forts.) ser både för den intygsbegärande personen och kanske
@@ -7976,6 +8089,12 @@
               att det inte bör föranleda någon alltför stor självövervinnelse
               för kammaren att ta detta lilla tillmötesgående steg.
             </seg>
+          </u>
+          <pb n="95" facs="https://betalab.kb.se/prot-1946--ak--30/prot_1946__ak__30-095.jp2/_view"/>
+          <note type="date" n="74bcb199">
+            96 Nr 30. Fredagen den 28 juni 1946 em.
+          </note>
+          <u who="bertil_von_friesen_09a66b" xml:id="i-2cbfc67a52b5275d-2" prev="i-2cbfc67a52b5275d-0" n="2cbfc67a">
             <seg n="fc164d0b">
               Anslag till universiteten och den medicinska undervisningen m.
               m. (Forts.) Jag tror också att det finns större utsikter, om man
@@ -7984,10 +8103,6 @@
               godtar utskottets skrivning i dess nuvarande formulering.
             </seg>
           </u>
-          <pb n="95" facs="https://betalab.kb.se/prot-1946--ak--30/prot_1946__ak__30-095.jp2/_view"/>
-          <note n="97438c2c">
-            96 Nr 30. Fredagen den 28 juni 1946 em.
-          </note>
           <note n="f06830e3">
             Jag tillåter mig alltså, herr talman, att yrka bifall till utskottets
             hemställan med den ändring, som under överläggningen har föreslagits
@@ -7996,7 +8111,7 @@
           <note type="speaker" n="ca6322f1">
             Chefen för ecklesiastikdepartementet, herr statsrådet Erlander:
           </note>
-          <u who="unknown" xml:id="i-c21a09bde1b76e22-6" n="2116486a">
+          <u who="unknown" xml:id="i-2116486a2076b982-26" n="2116486a">
             <seg n="58bfde16">
               Herr talman! Jag hade verkligen hoppats att jag vid denna sena
               timme inte skulle behöva ta upp tiden med annat än ett mycket
@@ -8061,10 +8176,10 @@
             </seg>
           </u>
           <pb n="96" facs="https://betalab.kb.se/prot-1946--ak--30/prot_1946__ak__30-096.jp2/_view"/>
-          <note n="6ac9eba7">
+          <note type="date" n="f34f7237">
             Fredagen den 28 juni 1946 em. Nr 30. 97
           </note>
-          <u who="unknown" xml:id="i-a7084ac9214d9a03-6" n="2116486a">
+          <u who="unknown" xml:id="i-2116486a2076b982-27" n="2116486a">
             <seg n="06f2a3fe">
               Anslag till universiteten och den medicinska undervisningen m.
               m. (Forts.) inte vilja dra läkare från landsorten till Stockholm
@@ -8108,7 +8223,7 @@
             Herr von Friesen erhöll på begäran ordet för kort genmäle och
             yttrade:
           </note>
-          <u who="bertil_von_friesen_09a66b" xml:id="i-25dfda05e035fc2d-0" n="2cbfc67a">
+          <u who="bertil_von_friesen_09a66b" xml:id="i-2cbfc67a52b5275d-3" n="2cbfc67a">
             <seg n="0df4e34c">
               Herr talman! Jag måste bekänna att det var med en viss överraskning
               som jag hörde den ton herr statsrådet särskilt i början av sitt
@@ -8145,7 +8260,7 @@
             Andra kammarens protokoll 1946. Nr 30. T
           </note>
           <pb n="97" facs="https://betalab.kb.se/prot-1946--ak--30/prot_1946__ak__30-097.jp2/_view"/>
-          <note n="c8e63308">
+          <note type="date" n="0ad78621">
             98 Nr 30. Fredagen den 28 juni 1946 em.
           </note>
           <note n="1c13af03">
@@ -8155,7 +8270,7 @@
           <note type="speaker" n="ca6322f1">
             Chefen för ecklesiastikdepartementet, herr statsrådet Erlander:
           </note>
-          <u who="unknown" xml:id="i-ca8d2b55e66db339-4" n="2116486a">
+          <u who="unknown" xml:id="i-2116486a2076b982-28" n="2116486a">
             <seg n="1298f1f5">
               Herr talman! Jag vill för det första konstatera, att det är icke
               riktigt samma delar av utskottets utlåtande som man på olika håll
@@ -8173,7 +8288,7 @@
           <note type="speaker" n="cdabc4d4">
             Herr Osterman:
           </note>
-          <u who="einar_osterman_d5779c" xml:id="i-e11db65c7f7059ca-0" next="i-78d786327cb55ccf-0" n="c5566100">
+          <u who="einar_osterman_d5779c" xml:id="i-c5566100e5b14734-0" next="i-c5566100e5b14734-1" n="c5566100">
             <seg n="2c2cbd37">
               Herr talman! I den fråga som berörts av herr Ohlin och herr von
               Friesen skulle jag också vilja yttra några ord. Någon kan invända,
@@ -8234,10 +8349,10 @@
             </seg>
           </u>
           <pb n="98" facs="https://betalab.kb.se/prot-1946--ak--30/prot_1946__ak__30-098.jp2/_view"/>
-          <note n="e5e631e5">
+          <note type="date" n="a4e99ff4">
             Fredagen den 28 juni 1946 em. Nr 30. 99
           </note>
-          <u who="einar_osterman_d5779c" xml:id="i-78d786327cb55ccf-0" prev="i-e11db65c7f7059ca-0" n="c5566100">
+          <u who="einar_osterman_d5779c" xml:id="i-c5566100e5b14734-1" prev="i-c5566100e5b14734-0" n="c5566100">
             <seg n="39f1295b">
               Anslag till universiteten och den medicinska undervisningen m.
               m. (Forts.) ståndpunkten alltför mycket vid de förhandålingar,
@@ -8268,7 +8383,7 @@
           <note type="speaker" n="e6760bbc">
             Herr Falla:
           </note>
-          <u who="unknown" xml:id="i-c21a09bde1b76e22-7" n="2116486a">
+          <u who="unknown" xml:id="i-2116486a2076b982-29" n="2116486a">
             <seg n="7298d6e0">
               Herr talman! Kammaren torde nog ha observerat, att det var en
               bestämd skillnad mellan det resonemang, som herr Ohlin först förde,
@@ -8319,14 +8434,14 @@
             </seg>
           </u>
           <pb n="99" facs="https://betalab.kb.se/prot-1946--ak--30/prot_1946__ak__30-099.jp2/_view"/>
-          <note n="32768887">
+          <note type="date" n="276e4607">
             100 Nr 30. Fredagen den 28 juni 1946 em.
           </note>
           <note n="85b426aa">
             Anslag till universiteten och den medicinska undervisningen m.
             m. (Forts. )
           </note>
-          <u who="unknown" xml:id="i-a7084ac9214d9a03-7" n="2116486a">
+          <u who="unknown" xml:id="i-2116486a2076b982-30" n="2116486a">
             <seg n="c4b510cc">
               Jag anser alltså, att det uttalande som utskottet här har gjort
               är ur principilell synpunkt riktigt. Det är angeläget, att man
@@ -8347,7 +8462,7 @@
           <note type="speaker" n="196598e4">
             Herr Ljungqvist:
           </note>
-          <u who="gunnar_ljungqvist_cec163" xml:id="i-0b27d7833376bd04-1" next="i-4b80c8fa67d837e5-1" n="935dc619">
+          <u who="gunnar_ljungqvist_cec163" xml:id="i-935dc61908232fdf-4" next="i-935dc61908232fdf-5" n="935dc619">
             <seg n="89e4b5d7">
               Herr talman! Jag hade icke tänkt blanda mig i denna debatt, men
               sedan jag hört statsrådet Erlander kan jag icke låta bli att göra
@@ -8411,14 +8526,14 @@
             </seg>
           </u>
           <pb n="100" facs="https://betalab.kb.se/prot-1946--ak--30/prot_1946__ak__30-100.jp2/_view"/>
-          <note n="b8ce8cec">
+          <note type="date" n="8e1b5d47">
             Fredagen den 28 juni 1946 em. Nr 30. 101
           </note>
           <note n="6ebdc3a0">
             Anslag till universiteten och den medicinska undervisningen m.
             m. (Forts.)
           </note>
-          <u who="gunnar_ljungqvist_cec163" xml:id="i-4b80c8fa67d837e5-1" prev="i-0b27d7833376bd04-1" n="935dc619">
+          <u who="gunnar_ljungqvist_cec163" xml:id="i-935dc61908232fdf-5" prev="i-935dc61908232fdf-4" n="935dc619">
             <seg n="289110bd">
               Nu har det blivit på det viset här i kväll, att statsrådet Erlander
               alldeles tydligt ådagalagt, att han icke har någon som helst förståelse
@@ -8442,7 +8557,7 @@
           <note type="speaker" n="e8414bbe">
             Herr Svensson i Grönvik:
           </note>
-          <u who="garda_svensson_88f1fa" xml:id="i-571d359aad0c0046-0" n="3a7fa80c">
+          <u who="garda_svensson_88f1fa" xml:id="i-58f947a5075a118b-0" n="3a7fa80c">
             <seg n="5385612f">
               Herr talman! Jag tror att det var flera än statsrådet och chefen
               för ecklesiastikdepartementet som blevo allvarligt överraskade
@@ -8494,7 +8609,7 @@
             Herr von Friesen, som på begäran erhöll ordet för kort genmäle,
             yttrade:
           </note>
-          <u who="bertil_von_friesen_09a66b" xml:id="i-fc8051f9dd4c2fe6-1" next="i-bd9ba3961844c477-1" n="2cbfc67a">
+          <u who="bertil_von_friesen_09a66b" xml:id="i-2cbfc67a52b5275d-4" next="i-2cbfc67a52b5275d-5" n="2cbfc67a">
             <seg n="0fad1b11">
               Herr talman! Då herr Svensson i likhet med statsrådet Erlander
               tagit upp frågan om konflikthotet vill jag säga, att deras indignation
@@ -8504,10 +8619,10 @@
             </seg>
           </u>
           <pb n="101" facs="https://betalab.kb.se/prot-1946--ak--30/prot_1946__ak__30-101.jp2/_view"/>
-          <note n="d4f6970c">
+          <note type="date" n="35e2a0be">
             102 Nr 30. Fredagen den 28 juni 1946 em.
           </note>
-          <u who="bertil_von_friesen_09a66b" xml:id="i-bd9ba3961844c477-1" prev="i-fc8051f9dd4c2fe6-1" n="2cbfc67a">
+          <u who="bertil_von_friesen_09a66b" xml:id="i-2cbfc67a52b5275d-5" prev="i-2cbfc67a52b5275d-4" n="2cbfc67a">
             <seg n="67e3593b">
               Anslag till universiteten och den medicinska undervisningen m.
               m. (Forts.) ningens ordförande om, att det icke kan ha varit dem
@@ -8543,7 +8658,7 @@
           <note type="speaker" n="ca6322f1">
             Chefen för ecklesiastikdepartementet, herr statsrådet Erlander:
           </note>
-          <u who="unknown" xml:id="i-ca8d2b55e66db339-5" n="2116486a">
+          <u who="unknown" xml:id="i-2116486a2076b982-31" n="2116486a">
             <seg n="207debfb">
               Herr talman! Jag vill med anledning av det sista anförandet av
               herr von Friesen säga, att jag, som 1 egenskap av departementschef
@@ -8578,7 +8693,7 @@
             Herr Svensson i Grönvik erhöll på begäran ordet för kort genmäle
             och yttrade:
           </note>
-          <u who="garda_svensson_88f1fa" xml:id="i-2b33bb6c347d2271-0" next="i-4cd2b2106a6336be-0" n="3a7fa80c">
+          <u who="garda_svensson_88f1fa" xml:id="i-58f947a5075a118b-1" next="i-58f947a5075a118b-2" n="3a7fa80c">
             <seg n="785463bb">
               Herr talman! Jag vill bara säga, att de läkare, som uppvaktade
               andra avdelningen, voro allt för kloka för att inför avdelningen
@@ -8591,14 +8706,14 @@
             </seg>
           </u>
           <pb n="102" facs="https://betalab.kb.se/prot-1946--ak--30/prot_1946__ak__30-102.jp2/_view"/>
-          <note n="1bb1db63">
+          <note type="date" n="08b54d27">
             Fredagen den 28 juni 1946 em. Nr 30. 103
           </note>
           <note n="6ebdc3a0">
             Anslag till universiteten och den medicinska undervisningen m.
             m. (Forts.)
           </note>
-          <u who="garda_svensson_88f1fa" xml:id="i-4cd2b2106a6336be-0" prev="i-2b33bb6c347d2271-0" n="3a7fa80c">
+          <u who="garda_svensson_88f1fa" xml:id="i-58f947a5075a118b-2" prev="i-58f947a5075a118b-1" n="3a7fa80c">
             <seg n="6077625a">
               Ytterligare en sak vill jag, herr talman, tillägga, nämligen
               att de läkare, som hade företräde inför avdelningen, blevo tillfrågade,
@@ -8614,7 +8729,7 @@
             Herr von Friesen, som likaledes erhöll ordet för kort genmäle,
             anförde:
           </note>
-          <u who="bertil_von_friesen_09a66b" xml:id="i-25dfda05e035fc2d-1" n="2cbfc67a">
+          <u who="bertil_von_friesen_09a66b" xml:id="i-2cbfc67a52b5275d-6" n="2cbfc67a">
             <seg n="7a1f506c">
               Herr talman! Till statsrådet Erlander vill jag endast säga, att
               jag av hans första anförande och i viss mån av propositionens
@@ -8635,7 +8750,7 @@
           <note type="speaker" n="ca6322f1">
             Chefen för ecklesiastikdepartementet, herr statsrådet Erlander:
           </note>
-          <u who="unknown" xml:id="i-ca8d2b55e66db339-6" n="2116486a">
+          <u who="unknown" xml:id="i-2116486a2076b982-32" n="2116486a">
             <seg n="3f06756c">
               Herr talman! Om jag icke hade trott, att det förelåg en överenskommelse,
               hade propositionen gått ut på Eo 26 och borttagande av intygsersättningen.
@@ -8644,7 +8759,7 @@
           <note type="speaker" n="2f0a1e74">
             Herr Mosesson:
           </note>
-          <u who="gustav_mosesson_f7cce6" xml:id="i-77c55bdced821eb9-0" next="i-f9c75b9e566e3e53-0" n="8e9c16b5">
+          <u who="gustav_mosesson_f7cce6" xml:id="i-8e9c16b5ca1920d0-0" next="i-8e9c16b5ca1920d0-2" n="8e9c16b5">
             <seg n="522698a5">
               Herr talman! Det var länge sedan jag hörde en så het debatt i
               andra kammaren som i kväll. Jag skall bara be att få säga några
@@ -8690,7 +8805,7 @@
             framställda yrkandet;
           </note>
           <pb n="103" facs="https://betalab.kb.se/prot-1946--ak--30/prot_1946__ak__30-103.jp2/_view"/>
-          <note n="98243d60">
+          <note type="date" n="d69bf990">
             104 Nr 30. Fredagen den 28 juni 1946 em.
           </note>
           <note n="c3f009ba">
@@ -8707,13 +8822,9 @@
             Den, som godkänner statsutskottets motivering i utskottets förevarande
             utlåtande nr 243, röstar
           </note>
-          <u who="gustav_mosesson_f7cce6" xml:id="i-f9c75b9e566e3e53-0" prev="i-77c55bdced821eb9-0" n="8e9c16b5">
+          <u who="gustav_mosesson_f7cce6" xml:id="i-8e9c16b5ca1920d0-1" prev="i-8e9c16b5ca1920d0-0" n="8e9c16b5">
             <seg n="8d8b4db5">
               Jag
-            </seg>
-            <seg n="37ec7199">
-              Kögskolö, eller ner angående upprättande av en högskola respektive
-              ett universitet i Norrland.
             </seg>
           </u>
           <note n="81b91ce4">
@@ -8763,6 +8874,12 @@
             $ 5. Motioner om Föredrogs statsutskottets utlåtande, nr 248,
             i anledning av väckta motio-
           </note>
+          <u who="gustav_mosesson_f7cce6" xml:id="i-8e9c16b5ca1920d0-2" prev="i-8e9c16b5ca1920d0-0" n="8e9c16b5">
+            <seg n="37ec7199">
+              Kögskolö, eller ner angående upprättande av en högskola respektive
+              ett universitet i Norrland.
+            </seg>
+          </u>
           <note n="f9829aa9">
             t Norrland. I en inom andra kammaren av herrar Skoglund i Umeå
             och Mäler väckt motion (II:21) hade hemställts, att riksdagen
@@ -8785,7 +8902,7 @@
           <note type="speaker" n="ae52fc16">
             Herr Åkerström:
           </note>
-          <u who="oskar_akerstrom_e1ab6e" xml:id="i-7e8115f0bfc1f1d0-0" next="i-67fcbbc577d3bb86-0" n="8427b4ad">
+          <u who="oskar_akerstrom_e1ab6e" xml:id="i-8427b4ad7ddf74be-0" next="i-8427b4ad7ddf74be-1" n="8427b4ad">
             <seg n="0ee6a589">
               Herr talman! Jag har i den föreliggande frågan avgivit en blank
               reservation för att jag skulle bli i tillfälle att i kammaren
@@ -8793,10 +8910,10 @@
             </seg>
           </u>
           <pb n="104" facs="https://betalab.kb.se/prot-1946--ak--30/prot_1946__ak__30-104.jp2/_view"/>
-          <note n="023bf30f">
+          <note type="date" n="1a261c60">
             Fredagen den 28 juni 1946 em. Nr 30. 105
           </note>
-          <u who="oskar_akerstrom_e1ab6e" xml:id="i-67fcbbc577d3bb86-0" prev="i-7e8115f0bfc1f1d0-0" n="8427b4ad">
+          <u who="oskar_akerstrom_e1ab6e" xml:id="i-8427b4ad7ddf74be-1" prev="i-8427b4ad7ddf74be-0" n="8427b4ad">
             <seg n="c1ce96b9">
               Motioner om högskola eller universitet i Norrland. (Forts.) tryck
               åt min uppfattning, att utskottet borde ha kunna allvarligt överväga
@@ -8831,7 +8948,7 @@
           <note type="speaker" n="6873cb53">
             Herr Skoglund i Umeå:
           </note>
-          <u who="martin_skoglund_a58f6d" xml:id="i-a00e46c0d7da60d1-1" next="i-f314dfa0bbd9da74-1" n="4749a51b">
+          <u who="martin_skoglund_a58f6d" xml:id="i-4749a51baa26db64-4" next="i-4749a51baa26db64-6" n="4749a51b">
             <seg n="259a9b50">
               Herr talman! Under de senaste åren har det här i landet pågått
               en ganska intensiv debatt omkring frågan om utbildningsmöjligheternas
@@ -8878,13 +8995,13 @@
             <seg n="ddb5763a"/>
           </u>
           <pb n="105" facs="https://betalab.kb.se/prot-1946--ak--30/prot_1946__ak__30-105.jp2/_view"/>
-          <note n="f3e7be24">
+          <note type="date" n="c23e5e42">
             Fredagen den 28 juni 1946 em. Nr 30. 107
           </note>
           <note n="02dc89c0">
             Motioner om högskola eller universitet i Norrland. (Forts.)
           </note>
-          <u who="martin_skoglund_a58f6d" xml:id="i-f314dfa0bbd9da74-1" prev="i-a00e46c0d7da60d1-1" n="4749a51b">
+          <u who="martin_skoglund_a58f6d" xml:id="i-4749a51baa26db64-5" prev="i-4749a51baa26db64-4" n="4749a51b">
             <seg n="134f859d">
               t. ex. de medicinska synpunkterna. Det är otvivelaktigt att Norrland
               har sådana problem, som med större fördel kunde och borde utforskas
@@ -8952,6 +9069,12 @@
               från statens sida än de för närvarande ha. När utskottet satt
               denna fråga i samband med den pågående universitetsutredningen,
             </seg>
+          </u>
+          <pb n="106" facs="https://betalab.kb.se/prot-1946--ak--30/prot_1946__ak__30-106.jp2/_view"/>
+          <note type="date" n="b5173dc8">
+            108 Nr 30. Fredagen den 28 juni 1946 em.
+          </note>
+          <u who="martin_skoglund_a58f6d" xml:id="i-4749a51baa26db64-6" prev="i-4749a51baa26db64-4" n="4749a51b">
             <seg n="bf9e8aa3">
               Motioner om högskola eller universitet i Norrland. (Forts.) vågar
               man väl också räkna med att en del av synpunkterna och förslagen
@@ -8969,14 +9092,10 @@
               239 och 21 i denna kammare.
             </seg>
           </u>
-          <pb n="106" facs="https://betalab.kb.se/prot-1946--ak--30/prot_1946__ak__30-106.jp2/_view"/>
-          <note n="a2b79843">
-            108 Nr 30. Fredagen den 28 juni 1946 em.
-          </note>
           <note type="speaker" n="e6760bbc">
             Herr Falla:
           </note>
-          <u who="unknown" xml:id="i-c21a09bde1b76e22-8" n="2116486a">
+          <u who="unknown" xml:id="i-2116486a2076b982-33" n="2116486a">
             <seg n="d1c4d899">
               Herr talman! Jag föreställer mig, att kammaren icke är särskilt
               intresserad av att vid denna tidpunkt på dagen och i slutet av
@@ -9011,7 +9130,7 @@
           <note n="90e9cf69">
             $ 6.
           </note>
-          <u who="unknown" xml:id="i-a7084ac9214d9a03-8" n="2116486a">
+          <u who="unknown" xml:id="i-2116486a2076b982-34" n="2116486a">
             <seg n="fcb6b47d">
               Föredrogos vart efter annat:
             </seg>
@@ -9048,7 +9167,7 @@
             hemställt.
           </note>
           <pb n="107" facs="https://betalab.kb.se/prot-1946--ak--30/prot_1946__ak__30-107.jp2/_view"/>
-          <note n="b4ee2253">
+          <note type="date" n="86488520">
             Fredagen den 28 juni 1946 em. Nr 30. 109
           </note>
           <note n="75b2f895">
@@ -9087,7 +9206,7 @@
           <note type="speaker" n="326f5f99">
             Herr Ljungberg:
           </note>
-          <u who="martin_ljungberg_35d0bd" xml:id="i-d94f1215fba07952-0" next="i-0a27e8152e569f3e-0" n="8ee5a074">
+          <u who="martin_ljungberg_35d0bd" xml:id="i-8ee5a07432433987-0" next="i-8ee5a07432433987-1" n="8ee5a074">
             <seg n="32048bfb">
               Herr talman! Bevillningsutskottet föreslår i sitt föreliggande
               utlåtande, att en av mig väckt motion i anledning av Kungl. Maj:ts
@@ -9146,10 +9265,10 @@
             året 1946/47, m. m.
           </note>
           <pb n="108" facs="https://betalab.kb.se/prot-1946--ak--30/prot_1946__ak__30-108.jp2/_view"/>
-          <note n="3bc2265b">
+          <note type="date" n="aa294b65">
             110 Nr 30. Fredagen den 28 juni 1946 em.
           </note>
-          <u who="martin_ljungberg_35d0bd" xml:id="i-0a27e8152e569f3e-0" prev="i-d94f1215fba07952-0" n="8ee5a074">
+          <u who="martin_ljungberg_35d0bd" xml:id="i-8ee5a07432433987-1" prev="i-8ee5a07432433987-0" n="8ee5a074">
             <seg n="66dcede0">
               Bevillningarna för budgetåret 1946/47, m. m. (Forts.) till prövning.
               Med hänsyn till den principella inställning till frågan, varåt
@@ -9224,13 +9343,13 @@
             </seg>
           </u>
           <pb n="109" facs="https://betalab.kb.se/prot-1946--ak--30/prot_1946__ak__30-109.jp2/_view"/>
-          <note n="88d2d09a">
+          <note type="date" n="ebe2a5d1">
             Fredagen den 28 juni 1946 em. Nr 30. 111
           </note>
           <note type="speaker" n="f11ddd4a">
             Bevillningarna för budgetåret 1946/47, m. m. (Forts.) Herr Björklund:
           </note>
-          <u who="anton_bjorklund_ae19e7" xml:id="i-3a401271a334e5be-0" n="063dba40">
+          <u who="anton_bjorklund_ae19e7" xml:id="i-063dba405e1eb47a-0" n="063dba40">
             <seg n="82ae2f61">
               Herr talman! Den föregående talaren läste upp vissa delar av
               utskottets motivering. För mig räcker det med denna motivering,
@@ -9240,7 +9359,7 @@
           <note type="speaker" n="82871cbf">
             Chefen för finansdepartementet, herr statsrådet Wigforss:
           </note>
-          <u who="ernst_wigforss_dc2db7" xml:id="i-e80a4b9339878834-0" n="2196f9cd">
+          <u who="ernst_wigforss_dc2db7" xml:id="i-7d0741505a842f86-0" n="2196f9cd">
             <seg n="028ec3fb">
               Herr talman! Eftersom jag fått en direkt fråga vill jag icke
               underlåta att ta kammarens tid i anspråk med att svara.
@@ -9270,7 +9389,7 @@
           <note type="speaker" n="326f5f99">
             Herr Ljungberg:
           </note>
-          <u who="martin_ljungberg_35d0bd" xml:id="i-d94f1215fba07952-1" next="i-0a27e8152e569f3e-1" n="8ee5a074">
+          <u who="martin_ljungberg_35d0bd" xml:id="i-8ee5a07432433987-2" next="i-8ee5a07432433987-3" n="8ee5a074">
             <seg n="43b4b39f">
               Herr talman! Herr statsrådet sade att taxehöjningarna vid järnvägarna
               varit så måttliga, att den trafikskatt, som nu utgår, mycket väl
@@ -9305,7 +9424,7 @@
           <note n="039dea07">
             58.
           </note>
-          <u who="martin_ljungberg_35d0bd" xml:id="i-0a27e8152e569f3e-1" prev="i-d94f1215fba07952-1" n="8ee5a074">
+          <u who="martin_ljungberg_35d0bd" xml:id="i-8ee5a07432433987-3" prev="i-8ee5a07432433987-2" n="8ee5a074">
             <seg n="fcb6b47d">
               Föredrogos vart efter annat:
             </seg>
@@ -9315,7 +9434,7 @@
             av utskottet vid behandling av vissa ärenden anlitade biträden;
           </note>
           <pb n="110" facs="https://betalab.kb.se/prot-1946--ak--30/prot_1946__ak__30-110.jp2/_view"/>
-          <note n="d92c4779">
+          <note type="date" n="17e01bb4">
             112 Nr 30. Fredagen den 28 juni 1946 em.
           </note>
           <note n="12df43fb">
@@ -9411,7 +9530,7 @@
           <note type="speaker" n="2d195f44">
             Herr Dickson:
           </note>
-          <u who="james_dickson_589af6" xml:id="i-72e53636bbe99eb6-0" next="i-2a08a9992b0189b4-0" n="c28d79ba">
+          <u who="james_dickson_589af6" xml:id="i-c28d79ba8d2a9381-0" next="i-c28d79ba8d2a9381-3" n="c28d79ba">
             <seg n="5cfdee4d">
               Herr talman! I det läge, som frågan nu har kommit, är det ju
               egentligen icke mycket att orda om, utan man får väl antaga, att
@@ -9420,10 +9539,10 @@
             </seg>
           </u>
           <pb n="111" facs="https://betalab.kb.se/prot-1946--ak--30/prot_1946__ak__30-111.jp2/_view"/>
-          <note n="54a96dda">
+          <note type="date" n="c81ecf8f">
             Fredagen den 28 juni 1946 em. Nr 30. 113
           </note>
-          <u who="james_dickson_589af6" xml:id="i-2a08a9992b0189b4-0" prev="i-72e53636bbe99eb6-0" n="c28d79ba">
+          <u who="james_dickson_589af6" xml:id="i-c28d79ba8d2a9381-1" prev="i-c28d79ba8d2a9381-0" n="c28d79ba">
             <seg n="28e2a89c">
               Motioner rörande storflygplats invid Stockholm. (Forts.) låten
               med detta förslag, och jag skall helt kort och gott föredraga
@@ -9499,6 +9618,15 @@
               blir det billigare att vänta med att anlägga ett sådant flygfält?
               Utredningen drager ju också kostnader. Det kan väl också
             </seg>
+          </u>
+          <note n="7ca50d9a">
+            Andra kammarens protokoll 1946. Nr 30. 8
+          </note>
+          <pb n="112" facs="https://betalab.kb.se/prot-1946--ak--30/prot_1946__ak__30-112.jp2/_view"/>
+          <note type="date" n="d3f801f0">
+            114 Nr 30. Fredagen den 28 juni 1946 em.
+          </note>
+          <u who="james_dickson_589af6" xml:id="i-c28d79ba8d2a9381-2" prev="i-c28d79ba8d2a9381-0" n="c28d79ba">
             <seg n="baf983ff">
               Motioner rörande storflygplats invid Stockholm. (Forts.) ifrågasättas,
               om inte de kronor, som i ett senare skede komma att nedläggas
@@ -9576,6 +9704,12 @@
               Det är möjligt att jag kommer att ta
             </seg>
             <seg n="ddb5763a"/>
+          </u>
+          <pb n="113" facs="https://betalab.kb.se/prot-1946--ak--30/prot_1946__ak__30-113.jp2/_view"/>
+          <note type="date" n="28f3a6c4">
+            Fredagen den 28 juni 1946 em. Nr 30. 115
+          </note>
+          <u who="james_dickson_589af6" xml:id="i-c28d79ba8d2a9381-3" prev="i-c28d79ba8d2a9381-0" n="c28d79ba">
             <seg n="46678414">
               Motioner rörande storflygplats invid Stockholm. (Forts.) kammarens
               tid i anspråk för någon replik senare. Jag skall nöja mig med
@@ -9583,21 +9717,10 @@
               till utskottets förslag.
             </seg>
           </u>
-          <note n="7ca50d9a">
-            Andra kammarens protokoll 1946. Nr 30. 8
-          </note>
-          <pb n="112" facs="https://betalab.kb.se/prot-1946--ak--30/prot_1946__ak__30-112.jp2/_view"/>
-          <note n="8f52ca8a">
-            114 Nr 30. Fredagen den 28 juni 1946 em.
-          </note>
-          <pb n="113" facs="https://betalab.kb.se/prot-1946--ak--30/prot_1946__ak__30-113.jp2/_view"/>
-          <note n="f0d83c3e">
-            Fredagen den 28 juni 1946 em. Nr 30. 115
-          </note>
           <note type="speaker" n="4f1847a6">
             Herr Mårtensson:
           </note>
-          <u who="wiktor_martensson_66d1de" xml:id="i-0df72f4b1f9a5f47-0" n="08850005">
+          <u who="wiktor_martensson_66d1de" xml:id="i-088500052fe9841d-3" n="08850005">
             <seg n="93277339">
               Herr talman! Jag skall vid denna sena timme irte upptaga någon
               lång debatt i denna fråga. Skillnaden mellan utskottsmajoritetens
@@ -9652,7 +9775,7 @@
           <note type="speaker" n="3a89562b">
             Herr Andersson i Malmö:
           </note>
-          <u who="sven_andersson_f5ed18" xml:id="i-64ca84aeb7027788-1" next="i-402cb86833f51da1-1" n="6cf95b21">
+          <u who="sven_andersson_f5ed18" xml:id="i-a6dead58be8b5be4-3" next="i-a6dead58be8b5be4-4" n="6cf95b21">
             <seg n="07de09b8">
               Herr talman! Jag skall be att med några ord få beröra hur utskottet
               ser på denna fråga. Jag vill från början framhålla att utskottet
@@ -9669,13 +9792,13 @@
             </seg>
           </u>
           <pb n="114" facs="https://betalab.kb.se/prot-1946--ak--30/prot_1946__ak__30-114.jp2/_view"/>
-          <note n="1cf17681">
+          <note type="date" n="9ebc4867">
             ii6 Nr 30. Fredagen den 28 juni 1946 em.
           </note>
           <note n="acad5417">
             Motioner rörande storflygplats invid Stockholm. (Forts.)
           </note>
-          <u who="sven_andersson_f5ed18" xml:id="i-402cb86833f51da1-1" prev="i-64ca84aeb7027788-1" n="6cf95b21">
+          <u who="sven_andersson_f5ed18" xml:id="i-a6dead58be8b5be4-4" prev="i-a6dead58be8b5be4-3" n="6cf95b21">
             <seg n="fc7e27af">
               Det är riktigt, som herr Mårtensson nämnde, att skillnaden mellan
               utskottsmajoritetens och reservanternas uppfattning inte är så
@@ -9731,7 +9854,7 @@
           <note type="speaker" n="c086f6a3">
             Herr Hall:
           </note>
-          <u who="david_hall_faa3ea" xml:id="i-047d4d9b31bde473-0" next="i-66bc35d915a0d25a-0" n="7dab64fe">
+          <u who="david_hall_faa3ea" xml:id="i-7dab64fe068b8adf-0" next="i-7dab64fe068b8adf-1" n="7dab64fe">
             <seg n="3b63b5ee">
               Herr talman! När det gäller en anläggning, som kostar över hundra
               miljoner kronor och som med nödvändighet måste planeras ganska
@@ -9756,10 +9879,10 @@
             </seg>
           </u>
           <pb n="115" facs="https://betalab.kb.se/prot-1946--ak--30/prot_1946__ak__30-115.jp2/_view"/>
-          <note n="cde81bf4">
+          <note type="date" n="38955119">
             Fredagen den 28 juni 1946 em. Nr 30. 117
           </note>
-          <u who="david_hall_faa3ea" xml:id="i-66bc35d915a0d25a-0" prev="i-047d4d9b31bde473-0" n="7dab64fe">
+          <u who="david_hall_faa3ea" xml:id="i-7dab64fe068b8adf-1" prev="i-7dab64fe068b8adf-0" n="7dab64fe">
             <seg n="bdec00b2">
               Motioner rörande storflygplats invid Stockholm. (Forts.) skulle
               få att gå litet fortare fram har jag betraktat som i hög grad
@@ -9832,7 +9955,7 @@
             Eindströra m. fl. avgivna reservationen.
           </note>
           <pb n="116" facs="https://betalab.kb.se/prot-1946--ak--30/prot_1946__ak__30-116.jp2/_view"/>
-          <note n="4c8b81da">
+          <note type="date" n="f9ae8860">
             118 Nr 30. Fredagen den 28 juni 1946 em.
           </note>
           <note n="acad5417">
@@ -9842,7 +9965,7 @@
             Herr Andersson i Malmö erhöll på begäran ordet för kort genmäle
             och yttrade:
           </note>
-          <u who="sven_andersson_f5ed18" xml:id="i-d4855ba5e46ad2f1-0" n="6cf95b21">
+          <u who="sven_andersson_f5ed18" xml:id="i-a6dead58be8b5be4-5" n="6cf95b21">
             <seg n="bf1eff79">
               Herr talman! Jag vet inte varifrån herr Hall har fått att utskottets
               förslag skulle vara en pekpinne åt regeringen. Det ha vi aldrig
@@ -9860,7 +9983,7 @@
             Herr Dickson, som jämväl på begäran erhöll ordet för kort genmäle,
             anförde:
           </note>
-          <u who="james_dickson_589af6" xml:id="i-d7b23be085f49d31-0" n="c28d79ba">
+          <u who="james_dickson_589af6" xml:id="i-c28d79ba8d2a9381-4" n="c28d79ba">
             <seg n="557d9cad">
               Herr talman! Jag delar herr Halls uppfattning att tiden inte
               är läglig för att sätta i gång med byggandet av detta flygfält.
@@ -9883,7 +10006,7 @@
             Herr Hall erhöll likaledes på begäran ordet för kort genmäle
             och yttrade:
           </note>
-          <u who="david_hall_faa3ea" xml:id="i-186af18320ffd29b-0" n="7dab64fe">
+          <u who="david_hall_faa3ea" xml:id="i-7dab64fe068b8adf-2" n="7dab64fe">
             <seg n="0fbcd0f9">
               Herr talman! Oberoende av vad riksdagen i dag beslutar lär det
               förhålla sig på det sättet, att ingen vare sig från Sydamerika
@@ -9907,7 +10030,7 @@
           <note type="speaker" n="82871cbf">
             Chefen för finansdepartementet, herr statsrådet Wigforss:
           </note>
-          <u who="ernst_wigforss_dc2db7" xml:id="i-213d62589e2d30cf-0" next="i-aef06e09f57835e8-0" n="2196f9cd">
+          <u who="ernst_wigforss_dc2db7" xml:id="i-7d0741505a842f86-1" next="i-7d0741505a842f86-5" n="2196f9cd">
             <seg n="ec7fc49a">
               Herr talman! Det är antagligen onödigt att jag i natt talar om
               samma sak som jag redan har haft anledning framföra i första kammaren
@@ -9932,13 +10055,13 @@
             </seg>
           </u>
           <pb n="117" facs="https://betalab.kb.se/prot-1946--ak--30/prot_1946__ak__30-117.jp2/_view"/>
-          <note n="86095ebb">
+          <note type="date" n="abd587d5">
             Fredagen den 28 juni 1946 em. Nr 30. 119
           </note>
           <note n="253a8d12">
             - Motioner rörande storflygplats invid Stockholm. (Forts.)
           </note>
-          <u who="ernst_wigforss_dc2db7" xml:id="i-aef06e09f57835e8-0" prev="i-213d62589e2d30cf-0" n="2196f9cd">
+          <u who="ernst_wigforss_dc2db7" xml:id="i-7d0741505a842f86-2" prev="i-7d0741505a842f86-1" n="2196f9cd">
             <seg n="d3fc7640">
               Ända sedan vårt svenska flyg började utveckla sig har jag därför
               fått spela rollen av att ständigt och jämt fråga flygets representanter:
@@ -10011,6 +10134,12 @@
               skulle bekostas av skattemedel, på grund av tveksamhet på annat
               håll tvingats komma fram till den
             </seg>
+          </u>
+          <pb n="118" facs="https://betalab.kb.se/prot-1946--ak--30/prot_1946__ak__30-118.jp2/_view"/>
+          <note type="date" n="84cfa478">
+            120 Nr 30. Fredagen den 28 juni 1946 em.
+          </note>
+          <u who="ernst_wigforss_dc2db7" xml:id="i-7d0741505a842f86-3" prev="i-7d0741505a842f86-1" n="2196f9cd">
             <seg n="1718eb0b">
               Motioner rörande storflygplats invid Stockholm. (Forts.) synpunkten,
               att det är möjligt att även en flygplats kan bära sig. Dessa talesmän
@@ -10085,6 +10214,12 @@
               enskild, som vill se till att inkomster och utgifter gå ihop.
               Detsamma
             </seg>
+          </u>
+          <pb n="119" facs="https://betalab.kb.se/prot-1946--ak--30/prot_1946__ak__30-119.jp2/_view"/>
+          <note type="date" n="6cefd38a">
+            Fredagen den 28 juni 1946 em. Nr 30. 121
+          </note>
+          <u who="ernst_wigforss_dc2db7" xml:id="i-7d0741505a842f86-4" prev="i-7d0741505a842f86-1" n="2196f9cd">
             <seg n="b7657801">
               Motioner rörande storflygplats invid Stockholm. (Forts.) gäller
               även för staten. Så länge man håller sig till de trångt budgetära
@@ -10159,6 +10294,12 @@
               löst. Då kommer frågan in som ett led i hela den allmänna imvesteringspolitiken,
               och det förefaller mig som
             </seg>
+          </u>
+          <pb n="120" facs="https://betalab.kb.se/prot-1946--ak--30/prot_1946__ak__30-120.jp2/_view"/>
+          <note type="date" n="f9544c15">
+            122 Nr 30. Fredagen den 28 juni 1946 em.
+          </note>
+          <u who="ernst_wigforss_dc2db7" xml:id="i-7d0741505a842f86-5" prev="i-7d0741505a842f86-1" n="2196f9cd">
             <seg n="571ebe5a">
               Motioner rörande storflygplats invid Stockholm. (Forts.) om det
               vore skäl för riksdagen att, såsom utskottets talesman herr Olof
@@ -10178,22 +10319,10 @@
               vilja att saken uppfattades på det sättet.
             </seg>
           </u>
-          <pb n="118" facs="https://betalab.kb.se/prot-1946--ak--30/prot_1946__ak__30-118.jp2/_view"/>
-          <note n="50d10bf2">
-            120 Nr 30. Fredagen den 28 juni 1946 em.
-          </note>
-          <pb n="119" facs="https://betalab.kb.se/prot-1946--ak--30/prot_1946__ak__30-119.jp2/_view"/>
-          <note n="c4ed1084">
-            Fredagen den 28 juni 1946 em. Nr 30. 121
-          </note>
-          <pb n="120" facs="https://betalab.kb.se/prot-1946--ak--30/prot_1946__ak__30-120.jp2/_view"/>
-          <note n="03363236">
-            122 Nr 30. Fredagen den 28 juni 1946 em.
-          </note>
           <note type="speaker" n="45730ace">
             Herr Dickson erhöll på begäran ordet för kort genmäle och vttrade:
           </note>
-          <u who="james_dickson_589af6" xml:id="i-d7b23be085f49d31-1" n="c28d79ba">
+          <u who="james_dickson_589af6" xml:id="i-c28d79ba8d2a9381-5" n="c28d79ba">
             <seg n="fa2d7c78">
               Herr talman! Det är ju sant vad finansministern nyss sade om
               de olika flygplatsförslagen, och dessutom ganska genant för sakkunskapen,
@@ -10246,7 +10375,7 @@
           <note type="speaker" n="2e0e3a2d">
             Herr Severin i Stockholm:
           </note>
-          <u who="frans_severin_5189a0" xml:id="i-803aa3cf864ee1f8-0" next="i-cb4e67419e1f97e6-0" n="ba7ec0d0">
+          <u who="frans_severin_5189a0" xml:id="i-ba7ec0d003e8dee4-0" next="i-ba7ec0d003e8dee4-2" n="ba7ec0d0">
             <seg n="f15f5327">
               Herr talman! Det är klart att man såsom finansministern kan invända
               mot de flyvgintresserade, att de icke vetat var de velat ha storflygplatsen.
@@ -10259,10 +10388,10 @@
             </seg>
           </u>
           <pb n="121" facs="https://betalab.kb.se/prot-1946--ak--30/prot_1946__ak__30-121.jp2/_view"/>
-          <note n="6fcdf79b">
+          <note type="date" n="23dd8c08">
             Fredagen den 28 juni 1946 em. Nr 30. 122
           </note>
-          <u who="frans_severin_5189a0" xml:id="i-cb4e67419e1f97e6-0" prev="i-803aa3cf864ee1f8-0" n="ba7ec0d0">
+          <u who="frans_severin_5189a0" xml:id="i-ba7ec0d003e8dee4-1" prev="i-ba7ec0d003e8dee4-0" n="ba7ec0d0">
             <seg n="9dc2b9a8">
               Motioner rörande storflygplats invid Stockholm. (Forts.) väl
               först för Grillby. Sedan ändrade sig två av ledamöterna i utredningen
@@ -10336,6 +10465,15 @@
               sina investeringar och inte några andra synpunkter, har också
               numera frångått sin uppfattning att hålla sig borta från investering
             </seg>
+          </u>
+          <pb n="122" facs="https://betalab.kb.se/prot-1946--ak--30/prot_1946__ak__30-122.jp2/_view"/>
+          <note type="date" n="df2f7ac0">
+            124 Nr 30. Fredagen den 28 juni 1946 em.
+          </note>
+          <note n="acad5417">
+            Motioner rörande storflygplats invid Stockholm. (Forts.)
+          </note>
+          <u who="frans_severin_5189a0" xml:id="i-ba7ec0d003e8dee4-2" prev="i-ba7ec0d003e8dee4-0" n="ba7ec0d0">
             <seg n="02ef001e">
               i flygbolag. Annars hade ju icke det nybildade flygbolaget SILA
               kunnat bildas med en aktieteckning om 24 miljoner kronor och ett
@@ -10409,15 +10547,8 @@
               yrkar jag bifall till utskottets förslag.
             </seg>
           </u>
-          <pb n="122" facs="https://betalab.kb.se/prot-1946--ak--30/prot_1946__ak__30-122.jp2/_view"/>
-          <note n="eaeaa4df">
-            124 Nr 30. Fredagen den 28 juni 1946 em.
-          </note>
-          <note n="acad5417">
-            Motioner rörande storflygplats invid Stockholm. (Forts.)
-          </note>
           <pb n="123" facs="https://betalab.kb.se/prot-1946--ak--30/prot_1946__ak__30-123.jp2/_view"/>
-          <note n="c00ab88c">
+          <note type="date" n="ac084902">
             Fredagen den 28 juni 1946 em. Nr 30. 125
           </note>
           <note n="acad5417">
@@ -10426,7 +10557,7 @@
           <note type="speaker" n="b5b97992">
             Herr Boman i Kieryd:
           </note>
-          <u who="sven_boman_30ae4e" xml:id="i-7b58fd473516c9fb-0" next="i-fde266e5847000a7-0" n="0aa2956d">
+          <u who="sven_boman_30ae4e" xml:id="i-e2b4d4c32be0f011-0" next="i-e2b4d4c32be0f011-4" n="0aa2956d">
             <seg n="178814ea">
               Herr talman! Jag skall vid denna sena timme inskränka mig till
               att deklarera att min uppfattning inom utskottet varit den, att
@@ -10452,18 +10583,9 @@
             Den, som vill, att kammaren bifaller statsutskottets hemställan
             i utskottets förevarande utlåtande nr 205, röstar
           </note>
-          <u who="sven_boman_30ae4e" xml:id="i-fde266e5847000a7-0" prev="i-7b58fd473516c9fb-0" n="0aa2956d">
+          <u who="sven_boman_30ae4e" xml:id="i-e2b4d4c32be0f011-1" prev="i-e2b4d4c32be0f011-0" n="0aa2956d">
             <seg n="1a461817">
               Ja; Nej:
-            </seg>
-            <seg n="fd2ec762">
-              Till bordläggning anmäldes:
-            </seg>
-            <seg n="9feba72b">
-              från utrikesutskottet:
-            </seg>
-            <seg n="26fe1b04">
-              från statsutskottet:
             </seg>
           </u>
           <note n="00009019">
@@ -10487,6 +10609,11 @@
           <note n="8981bd58">
             Den, det ej vill, röstar
           </note>
+          <u who="sven_boman_30ae4e" xml:id="i-e2b4d4c32be0f011-2" prev="i-e2b4d4c32be0f011-0" n="0aa2956d">
+            <seg n="fd2ec762">
+              Till bordläggning anmäldes:
+            </seg>
+          </u>
           <note n="bd05c8bc">
             statsutskottets memorial:
           </note>
@@ -10512,6 +10639,11 @@
             Anmäldes och godkändes följande förslag till riksdagens skrivelser
             till Konungen, nämligen
           </note>
+          <u who="sven_boman_30ae4e" xml:id="i-e2b4d4c32be0f011-3" prev="i-e2b4d4c32be0f011-0" n="0aa2956d">
+            <seg n="9feba72b">
+              från utrikesutskottet:
+            </seg>
+          </u>
           <note n="43b3c950">
             nr 433, 1 anledning av Kungl. Maj:ts proposition angående godkännande
             av en mellan Sverige och Turkiet träffad handelsöverenskommelse:
@@ -10521,12 +10653,17 @@
             nr 434, i anledning av Kungl. Maj:ts proposition angående godkännande
             av en mellan Sverige och Island träffad handelsöverenskommelse:;
           </note>
+          <u who="sven_boman_30ae4e" xml:id="i-e2b4d4c32be0f011-4" prev="i-e2b4d4c32be0f011-0" n="0aa2956d">
+            <seg n="26fe1b04">
+              från statsutskottet:
+            </seg>
+          </u>
           <note n="b3b8939c">
             nr 429, i anledning av Kungl. Maj:ts proposition angående anslag
             för budgetåret 1946/47 till civilförsvaret:
           </note>
           <pb n="124" facs="https://betalab.kb.se/prot-1946--ak--30/prot_1946__ak__30-124.jp2/_view"/>
-          <note n="08f9bf7b">
+          <note type="date" n="75e8030d">
             126 Nr 30. Fredagen den 28 juni 1946 em.
           </note>
           <note n="99a7dbe6">

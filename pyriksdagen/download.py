@@ -198,7 +198,7 @@ def get_blocks(protocol_id, archive, load=True, save=True):
 
     Returns an lxml elem tree with the structure page > contentBlock > textBlock.
     """    
-    folder = "input/protocols/" + protocol_id + "/"
+    folder = "input/raw/" + protocol_id + "/"
     fname = "original.xml"
     root = None
     overwrite = True

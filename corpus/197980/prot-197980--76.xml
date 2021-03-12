@@ -20,7 +20,7 @@
     <encodingDesc>
       <editorialDecl>
         <correction>
-          <p>Some data curation was done. It is documented in db/curation/instances</p>
+          <p>Some data curation was done. It is documented in input/curation/instances</p>
         </correction>
       </editorialDecl>
     </encodingDesc>
@@ -53,10 +53,13 @@
         <div type="preface">
           <head>prot-197980--76</head>
           <docDate when="1979-01-31">1979-01-31</docDate>
+          <docDate when="1979-02-01">1979-02-01</docDate>
+          <docDate when="1980-02-01">1980-02-01</docDate>
         </div>
       </front>
       <body>
         <div>
+          <pb n="0" facs="https://betalab.kb.se/prot-197980--76/prot_197980__76-000.jp2/_view"/>
           <note n="cda64279"/>
           <note n="9561f092">
             Riksdagens protokoll
@@ -166,7 +169,7 @@
           <note n="381334ed">
             1979/80:76
           </note>
-          <note n="8d89e663">
+          <note type="date" n="92c44f4c">
             Fredagen den 1 februari KI. 09.00
           </note>
           <note n="840080f6">
@@ -235,7 +238,7 @@
           <note n="2723bb09">
             Nr 76
           </note>
-          <note n="2eeedb76">
+          <note type="date" n="835dfedd">
             Fredagen den 1 februari 1980
           </note>
           <note n="e55966b7">
@@ -255,7 +258,7 @@
           <note n="2723bb09">
             Nr 76
           </note>
-          <note n="2eeedb76">
+          <note type="date" n="835dfedd">
             Fredagen den 1 februari 1980
           </note>
           <note n="6a7714b7">
@@ -284,7 +287,7 @@
           <note type="speaker" n="014014fc">
             SUNE JOHANSSON (s):
           </note>
-          <u who="sune_johansson_67246c" xml:id="i-776717480da115a8-0" n="32e5d86e">
+          <u who="sune_johansson_67246c" xml:id="i-32e5d86e01b36e14-0" next="i-32e5d86e01b36e14-1" n="32e5d86e">
             <seg n="d3c2c0f7">
               Herr talman! Jag vill börja med att uttala ett tack till industriministern
               för de i svaret på min fråga redovisade regeringsbesluten om stöd
@@ -335,7 +338,9 @@
               därifrån, kommit Hagfors eller
             </seg>
             <seg n="a574bc90"/>
-            <seg n="a574bc90"/>
+          </u>
+          <pb n="4" facs="https://betalab.kb.se/prot-197980--76/prot_197980__76-004.jp2/_view"/>
+          <u who="sune_johansson_67246c" xml:id="i-32e5d86e01b36e14-1" prev="i-32e5d86e01b36e14-0" n="32e5d86e">
             <seg n="be573579">
               Munkfors till del.
             </seg>
@@ -347,11 +352,10 @@
               beredd att verka för att något sådant kommer till stånd?
             </seg>
           </u>
-          <pb n="4" facs="https://betalab.kb.se/prot-197980--76/prot_197980__76-004.jp2/_view"/>
           <note type="speaker" n="5e7b08cd">
             BERTIL JONASSON (c):
           </note>
-          <u who="bertil_jonasson_e1930a" xml:id="i-08d14d7f47e65e2b-0" next="i-cd06cab5aa76c495-0" n="2209651e">
+          <u who="bertil_jonasson_e1930a" xml:id="i-2209651e6582ca61-0" next="i-2209651e6582ca61-4" n="2209651e">
             <seg n="2f759fc9">
               Herr talman! Jag skall också be att få tacka industriministern
               för svaret, speciellt för det som gäller de åtgärder som beslutades
@@ -414,17 +418,37 @@
           <note n="2723bb09">
             Nr 76
           </note>
-          <note n="2eeedb76">
+          <note type="date" n="835dfedd">
             Fredagen den 1 februari 1980
           </note>
-          <u who="bertil_jonasson_e1930a" xml:id="i-cd06cab5aa76c495-0" prev="i-08d14d7f47e65e2b-0" n="2209651e">
+          <u who="bertil_jonasson_e1930a" xml:id="i-2209651e6582ca61-1" prev="i-2209651e6582ca61-0" n="2209651e">
             <seg n="28137c20">
               Om åtgärder för att trygga sysselsättningen i Hagfors och Munkfors
             </seg>
-            <seg n="a574bc90"/>
+          </u>
+          <note n="22e832d3">
+            143
+          </note>
+          <pb n="5" facs="https://betalab.kb.se/prot-197980--76/prot_197980__76-005.jp2/_view"/>
+          <u who="bertil_jonasson_e1930a" xml:id="i-2209651e6582ca61-2" prev="i-2209651e6582ca61-0" n="2209651e"/>
+          <note n="2723bb09">
+            Nr 76
+          </note>
+          <note type="date" n="835dfedd">
+            Fredagen den 1 februari 1980
+          </note>
+          <note n="6a7714b7">
+            Om åtgärder för
+          </note>
+          <u who="bertil_jonasson_e1930a" xml:id="i-2209651e6582ca61-3" prev="i-2209651e6582ca61-0" n="2209651e">
             <seg n="9c753d22">
               att trygga sysselsättningen i Hagfors och Munkfors
             </seg>
+          </u>
+          <note n="c72dd989">
+            144
+          </note>
+          <u who="bertil_jonasson_e1930a" xml:id="i-2209651e6582ca61-4" prev="i-2209651e6582ca61-0" n="2209651e">
             <seg n="9485022a">
               någon som helst anvisning om alternativa handlingslinjer. Sådana
               har jag i viss mån saknat i de Värmlandsdebatter vi fört nu under
@@ -449,26 +473,10 @@
               och affärsidéer som kan innebära ökad sysselsättning.
             </seg>
           </u>
-          <note n="22e832d3">
-            143
-          </note>
-          <pb n="5" facs="https://betalab.kb.se/prot-197980--76/prot_197980__76-005.jp2/_view"/>
-          <note n="2723bb09">
-            Nr 76
-          </note>
-          <note n="2eeedb76">
-            Fredagen den 1 februari 1980
-          </note>
-          <note n="6a7714b7">
-            Om åtgärder för
-          </note>
-          <note n="c72dd989">
-            144
-          </note>
           <note type="speaker" n="014014fc">
             SUNE JOHANSSON (s):
           </note>
-          <u who="sune_johansson_67246c" xml:id="i-776717480da115a8-1" n="32e5d86e">
+          <u who="sune_johansson_67246c" xml:id="i-32e5d86e01b36e14-2" next="i-32e5d86e01b36e14-3" n="32e5d86e">
             <seg n="d387961c">
               Herr talman! Jag är inte speciellt pessimistisk i det här sammanhanget,
               lika litet som i något annat. Givetvis förstår jag de svårigheter
@@ -507,17 +515,18 @@
               svar på frågan om vad han eventuellt tänker göra i vad det gäller
               SSAB:s planer på en
             </seg>
-            <seg n="a574bc90"/>
+          </u>
+          <pb n="6" facs="https://betalab.kb.se/prot-197980--76/prot_197980__76-006.jp2/_view"/>
+          <u who="sune_johansson_67246c" xml:id="i-32e5d86e01b36e14-3" prev="i-32e5d86e01b36e14-2" n="32e5d86e">
             <seg n="a7ffc872">
               vägstålstillverkning, vilket inom Uddeholmsbolaget kommer att
               upplevas som en konkurrens.
             </seg>
           </u>
-          <pb n="6" facs="https://betalab.kb.se/prot-197980--76/prot_197980__76-006.jp2/_view"/>
           <note type="speaker" n="5e7b08cd">
             BERTIL JONASSON (c):
           </note>
-          <u who="bertil_jonasson_e1930a" xml:id="i-6650a55ba1fd5e01-0" n="2209651e">
+          <u who="bertil_jonasson_e1930a" xml:id="i-2209651e6582ca61-5" n="2209651e">
             <seg n="1e5433cc">
               Herr talman! Jag ber att få tacka industriministern för svaret
               att akuten ingalunda är stängd för Värmland.
@@ -567,7 +576,7 @@
           <note type="speaker" n="014014fc">
             SUNE JOHANSSON (s):
           </note>
-          <u who="sune_johansson_67246c" xml:id="i-555fb477a69ada52-0" next="i-b8d94c84655c2847-0" n="32e5d86e">
+          <u who="sune_johansson_67246c" xml:id="i-32e5d86e01b36e14-4" next="i-32e5d86e01b36e14-10" n="32e5d86e">
             <seg n="46f269fe">
               Herr talman! Beträffande det sista som industriministern yttrade
               vill jag säga att jag tror att jag har visat att jag arbetar för
@@ -589,17 +598,31 @@
           <note n="2723bb09">
             Nr 76
           </note>
-          <note n="2eeedb76">
+          <note type="date" n="835dfedd">
             Fredagen den 1 februari 1980
           </note>
-          <u who="sune_johansson_67246c" xml:id="i-b8d94c84655c2847-0" prev="i-555fb477a69ada52-0" n="32e5d86e">
+          <u who="sune_johansson_67246c" xml:id="i-32e5d86e01b36e14-5" prev="i-32e5d86e01b36e14-4" n="32e5d86e">
             <seg n="28137c20">
               Om åtgärder för att trygga sysselsättningen i Hagfors och Munkfors
             </seg>
-            <seg n="a574bc90"/>
+          </u>
+          <pb n="7" facs="https://betalab.kb.se/prot-197980--76/prot_197980__76-007.jp2/_view"/>
+          <u who="sune_johansson_67246c" xml:id="i-32e5d86e01b36e14-6" prev="i-32e5d86e01b36e14-4" n="32e5d86e"/>
+          <note n="2723bb09">
+            Nr 76
+          </note>
+          <note type="date" n="835dfedd">
+            Fredagen den 1 februari 1980
+          </note>
+          <u who="sune_johansson_67246c" xml:id="i-32e5d86e01b36e14-7" prev="i-32e5d86e01b36e14-4" n="32e5d86e">
             <seg n="73459837">
               Om framtidsmöjligheterna för svensk varvsindustri
             </seg>
+          </u>
+          <note n="315ddea2">
+            146
+          </note>
+          <u who="sune_johansson_67246c" xml:id="i-32e5d86e01b36e14-8" prev="i-32e5d86e01b36e14-4" n="32e5d86e">
             <seg n="c91b65f8">
               att se litet grand på företagens marknad. Jag kan berätta för
               industriministern att jag i fjol när jag var i Australien träffade
@@ -612,9 +635,21 @@
               om order än vänder sig till svenska brodereller systerföretag.
               Detta borde regeringen se över.
             </seg>
+          </u>
+          <note n="27ab082e">
+            Överläggningen var härmed avslutad.
+          </note>
+          <u who="sune_johansson_67246c" xml:id="i-32e5d86e01b36e14-9" prev="i-32e5d86e01b36e14-4" n="32e5d86e">
             <seg n="2bbc818f">
               $ 5 Om framtidsmöjligheterna för svensk varvsindustri
             </seg>
+          </u>
+          <note n="89e29e05">
+            Industriministern NILS ÅSLING erhöll ordet för att i ett sammanhang
+            besvara dels Hugo Bengtssons (s), dels Eric Jönssons (s) den 11
+            januari anmälda frågor, 1979/80:252 resp. 253, och anförde:
+          </note>
+          <u who="sune_johansson_67246c" xml:id="i-32e5d86e01b36e14-10" prev="i-32e5d86e01b36e14-4" n="32e5d86e">
             <seg n="936ee518">
               Herr talman! Hugo Bengtsson har frågat mig vilka åtgärder jag
               ämnar vidta för att trygga Öresundsvarvets fortbestånd och sysselsättningen
@@ -652,28 +687,10 @@
               mig om Öresundsvarvets eller Kockums varvs framtid.
             </seg>
           </u>
-          <pb n="7" facs="https://betalab.kb.se/prot-197980--76/prot_197980__76-007.jp2/_view"/>
-          <note n="2723bb09">
-            Nr 76
-          </note>
-          <note n="2eeedb76">
-            Fredagen den 1 februari 1980
-          </note>
-          <note n="315ddea2">
-            146
-          </note>
-          <note n="27ab082e">
-            Överläggningen var härmed avslutad.
-          </note>
-          <note n="89e29e05">
-            Industriministern NILS ÅSLING erhöll ordet för att i ett sammanhang
-            besvara dels Hugo Bengtssons (s), dels Eric Jönssons (s) den 11
-            januari anmälda frågor, 1979/80:252 resp. 253, och anförde:
-          </note>
           <note type="speaker" n="6ee349a1">
             HUGO BENGTSSON (s):
           </note>
-          <u who="hugo_bengtsson_715515" xml:id="i-814cccfb9633ed4b-0" n="ac28ca88">
+          <u who="hugo_bengtsson_715515" xml:id="i-ac28ca88aabc6e8d-0" next="i-ac28ca88aabc6e8d-1" n="ac28ca88">
             <seg n="ab1d5ad0">
               Herr talman! Jag ber att få tacka industriministern för svaret
               på
@@ -683,7 +700,9 @@
               Svenska Varv
             </seg>
             <seg n="a574bc90"/>
-            <seg n="a574bc90"/>
+          </u>
+          <pb n="8" facs="https://betalab.kb.se/prot-197980--76/prot_197980__76-008.jp2/_view"/>
+          <u who="hugo_bengtsson_715515" xml:id="i-ac28ca88aabc6e8d-1" prev="i-ac28ca88aabc6e8d-0" n="ac28ca88">
             <seg n="a7d93cbd">
               överlämnade till industriministern för några veckor sedan och
               mot bakgrund av de uttalanden som gjordes i det sammanhanget.
@@ -729,11 +748,10 @@
               förrän nya jobb har skaffats åt berörda arbetare.
             </seg>
           </u>
-          <pb n="8" facs="https://betalab.kb.se/prot-197980--76/prot_197980__76-008.jp2/_view"/>
           <note type="speaker" n="2d7e24cd">
             ERIC JÖNSSON (s):
           </note>
-          <u who="eric_jonsson_f47f16" xml:id="i-c473c906b0c479e0-0" next="i-cee6fd203f98c0c9-0" n="6c4ee757">
+          <u who="eric_jonsson_f47f16" xml:id="i-6c4ee7575bf06612-0" next="i-6c4ee7575bf06612-5" n="6c4ee757">
             <seg n="89754597">
               Herr talman! Får jag allra först säga tack till industriministern
               för svaret på min fråga beträffande Kockums varv. Det är synd
@@ -766,14 +784,31 @@
           <note n="53338ff5">
             Om framtidsmöj-
           </note>
-          <u who="eric_jonsson_f47f16" xml:id="i-cee6fd203f98c0c9-0" prev="i-c473c906b0c479e0-0" n="6c4ee757">
+          <u who="eric_jonsson_f47f16" xml:id="i-6c4ee7575bf06612-1" prev="i-6c4ee7575bf06612-0" n="6c4ee757">
             <seg n="abf3f6aa">
               ligheterna för svensk varvsindustri
             </seg>
-            <seg n="a574bc90"/>
+          </u>
+          <note n="1d94b2f8">
+            147
+          </note>
+          <pb n="9" facs="https://betalab.kb.se/prot-197980--76/prot_197980__76-009.jp2/_view"/>
+          <u who="eric_jonsson_f47f16" xml:id="i-6c4ee7575bf06612-2" prev="i-6c4ee7575bf06612-0" n="6c4ee757"/>
+          <note n="2723bb09">
+            Nr 76
+          </note>
+          <note type="date" n="835dfedd">
+            Fredagen den 1 februari 1980
+          </note>
+          <u who="eric_jonsson_f47f16" xml:id="i-6c4ee7575bf06612-3" prev="i-6c4ee7575bf06612-0" n="6c4ee757">
             <seg n="73459837">
               Om framtidsmöjligheterna för svensk varvsindustri
             </seg>
+          </u>
+          <note n="07bc9531">
+            148
+          </note>
+          <u who="eric_jonsson_f47f16" xml:id="i-6c4ee7575bf06612-4" prev="i-6c4ee7575bf06612-0" n="6c4ee757">
             <seg n="69bde8fe">
               Öresundsvarvet får ta nya order och får såvitt jag kan förstå
               en ny verkställande direktör. Industriministern har också sagt,
@@ -845,7 +880,9 @@
             </seg>
             <seg n="a574bc90"/>
             <seg n="a574bc90"/>
-            <seg n="a574bc90"/>
+          </u>
+          <pb n="10" facs="https://betalab.kb.se/prot-197980--76/prot_197980__76-010.jp2/_view"/>
+          <u who="eric_jonsson_f47f16" xml:id="i-6c4ee7575bf06612-5" prev="i-6c4ee7575bf06612-0" n="6c4ee757">
             <seg n="92c191ec">
               redan praktiserats i Göteborg i det s. k. P 80, som i vissa varianter
               skulle kunna fortleva, genom en massiv insats för alternativ sysselsättning
@@ -858,24 +895,10 @@
               den nya stora kolhamnen.
             </seg>
           </u>
-          <note n="1d94b2f8">
-            147
-          </note>
-          <pb n="9" facs="https://betalab.kb.se/prot-197980--76/prot_197980__76-009.jp2/_view"/>
-          <note n="2723bb09">
-            Nr 76
-          </note>
-          <note n="2eeedb76">
-            Fredagen den 1 februari 1980
-          </note>
-          <note n="07bc9531">
-            148
-          </note>
-          <pb n="10" facs="https://betalab.kb.se/prot-197980--76/prot_197980__76-010.jp2/_view"/>
           <note type="speaker" n="6ee349a1">
             HUGO BENGTSSON (s):
           </note>
-          <u who="hugo_bengtsson_715515" xml:id="i-814cccfb9633ed4b-1" n="ac28ca88">
+          <u who="hugo_bengtsson_715515" xml:id="i-ac28ca88aabc6e8d-2" n="ac28ca88">
             <seg n="fc0cf390">
               Herr talman! Jag noterar naturligtvis med tillfredsställelse
               de positiva dragen i industriministerns senaste uttalanden. Industriministern
@@ -924,7 +947,7 @@
           <note type="speaker" n="6ee349a1">
             HUGO BENGTSSON (s):
           </note>
-          <u who="hugo_bengtsson_715515" xml:id="i-b0eb2b45d9df52b8-0" next="i-7e824dc01925b0c2-0" n="ac28ca88">
+          <u who="hugo_bengtsson_715515" xml:id="i-ac28ca88aabc6e8d-3" next="i-ac28ca88aabc6e8d-9" n="ac28ca88">
             <seg n="794573d9">
               Herr talman! Jag är naturligtvis åtminstone delvis tillfredsställd
               med de uttalanden som industriministern nu gjort. Men jag förväntar
@@ -941,23 +964,51 @@
           <note n="53338ff5">
             Om framtidsmöj-
           </note>
-          <u who="hugo_bengtsson_715515" xml:id="i-7e824dc01925b0c2-0" prev="i-b0eb2b45d9df52b8-0" n="ac28ca88">
+          <u who="hugo_bengtsson_715515" xml:id="i-ac28ca88aabc6e8d-4" prev="i-ac28ca88aabc6e8d-3" n="ac28ca88">
             <seg n="f295e44b">
               ligheterna för Svensk varvsindustri
             </seg>
-            <seg n="a574bc90"/>
+          </u>
+          <note n="77078c62">
+            149
+          </note>
+          <pb n="11" facs="https://betalab.kb.se/prot-197980--76/prot_197980__76-011.jp2/_view"/>
+          <u who="hugo_bengtsson_715515" xml:id="i-ac28ca88aabc6e8d-5" prev="i-ac28ca88aabc6e8d-3" n="ac28ca88"/>
+          <note n="2723bb09">
+            Nr 76
+          </note>
+          <note type="date" n="835dfedd">
+            Fredagen den 1 februari 1980
+          </note>
+          <u who="hugo_bengtsson_715515" xml:id="i-ac28ca88aabc6e8d-6" prev="i-ac28ca88aabc6e8d-3" n="ac28ca88">
             <seg n="cd365019">
               Om åtgärder för att trygga sysselsättningen vid Ato Fritid i
               Osby
             </seg>
+          </u>
+          <note n="e425d373">
+            150
+          </note>
+          <u who="hugo_bengtsson_715515" xml:id="i-ac28ca88aabc6e8d-7" prev="i-ac28ca88aabc6e8d-3" n="ac28ca88">
             <seg n="7c0b3ba1">
               kommunen och regionen lokalisera meningsfull sysselsättning åt
               de människor som kan komma att behöva omplaceras.
             </seg>
+          </u>
+          <note n="27ab082e">
+            Överläggningen var härmed avslutad.
+          </note>
+          <u who="hugo_bengtsson_715515" xml:id="i-ac28ca88aabc6e8d-8" prev="i-ac28ca88aabc6e8d-3" n="ac28ca88">
             <seg n="c5238ea3">
               &amp; 6 Om åtgärder för att trygga sysselsättningen vid Ato Fritid
               i Osby
             </seg>
+          </u>
+          <note n="d33a5857">
+            Industriministern NILS ÅSLING erhöll ordet för att besvara Lennart
+            Bladhs (s) den 15 januari anmälda fråga, 1979/80:264, och anförde:
+          </note>
+          <u who="hugo_bengtsson_715515" xml:id="i-ac28ca88aabc6e8d-9" prev="i-ac28ca88aabc6e8d-3" n="ac28ca88">
             <seg n="a7cabb0c">
               Herr talman! Lennart Bladh har frågat mig dels om jag varit informerad
               om en aviserad nedläggning av Ato Fritid i Osby, dels vilka åtgärder
@@ -1005,30 +1056,10 @@
               Ato.
             </seg>
           </u>
-          <note n="77078c62">
-            149
-          </note>
-          <pb n="11" facs="https://betalab.kb.se/prot-197980--76/prot_197980__76-011.jp2/_view"/>
-          <note n="2723bb09">
-            Nr 76
-          </note>
-          <note n="2eeedb76">
-            Fredagen den 1 februari 1980
-          </note>
-          <note n="e425d373">
-            150
-          </note>
-          <note n="27ab082e">
-            Överläggningen var härmed avslutad.
-          </note>
-          <note n="d33a5857">
-            Industriministern NILS ÅSLING erhöll ordet för att besvara Lennart
-            Bladhs (s) den 15 januari anmälda fråga, 1979/80:264, och anförde:
-          </note>
           <note type="speaker" n="f82ad6af">
             LENNART BLADH (s):
           </note>
-          <u who="lennart_bladh_0dad7e" xml:id="i-faff0e17b9079415-0" next="i-f20fab11e2be9f28-0" n="00a2439e">
+          <u who="lennart_bladh_0dad7e" xml:id="i-00a2439eb206bbcf-0" next="i-00a2439eb206bbcf-5" n="00a2439e">
             <seg n="82f2bdbd">
               Herr talman! Jag ber att få tacka industriministern för svaret.
             </seg>
@@ -1043,7 +1074,9 @@
               sedan lång
             </seg>
             <seg n="a574bc90"/>
-            <seg n="a574bc90"/>
+          </u>
+          <pb n="12" facs="https://betalab.kb.se/prot-197980--76/prot_197980__76-012.jp2/_view"/>
+          <u who="lennart_bladh_0dad7e" xml:id="i-00a2439eb206bbcf-1" prev="i-00a2439eb206bbcf-0" n="00a2439e">
             <seg n="a574bc90"/>
             <seg n="6aa4f1f2">
               tid tillbaka. Jag kan nämna Broby Industrier, Östanå Bruk, Junesco
@@ -1111,26 +1144,15 @@
               hänsyn fälla avgörandet. Men jag
             </seg>
           </u>
-          <pb n="12" facs="https://betalab.kb.se/prot-197980--76/prot_197980__76-012.jp2/_view"/>
           <note n="2723bb09">
             Nr 76
           </note>
-          <note n="2eeedb76">
+          <note type="date" n="835dfedd">
             Fredagen den 1 februari 1980
           </note>
-          <u who="lennart_bladh_0dad7e" xml:id="i-f20fab11e2be9f28-0" prev="i-faff0e17b9079415-0" n="00a2439e">
+          <u who="lennart_bladh_0dad7e" xml:id="i-00a2439eb206bbcf-2" prev="i-00a2439eb206bbcf-0" n="00a2439e">
             <seg n="84ce7498">
               Om åtgärder för att trygga sysselsättningen vid
-            </seg>
-            <seg n="a574bc90"/>
-            <seg n="cd365019">
-              Om åtgärder för att trygga sysselsättningen vid Ato Fritid i
-              Osby
-            </seg>
-            <seg n="0028f021">
-              skall inte föregripa de här överläggningarna. Jag kan bara vitsorda
-              att de tar sikte på att man skall försöka finna en lösning för
-              hela den här krisdrabbade branschen.
             </seg>
           </u>
           <note n="e8298cf6">
@@ -1140,19 +1162,33 @@
             151
           </note>
           <pb n="13" facs="https://betalab.kb.se/prot-197980--76/prot_197980__76-013.jp2/_view"/>
+          <u who="lennart_bladh_0dad7e" xml:id="i-00a2439eb206bbcf-3" prev="i-00a2439eb206bbcf-0" n="00a2439e"/>
           <note n="2723bb09">
             Nr 76
           </note>
-          <note n="2eeedb76">
+          <note type="date" n="835dfedd">
             Fredagen den 1 februari 1980
           </note>
+          <u who="lennart_bladh_0dad7e" xml:id="i-00a2439eb206bbcf-4" prev="i-00a2439eb206bbcf-0" n="00a2439e">
+            <seg n="cd365019">
+              Om åtgärder för att trygga sysselsättningen vid Ato Fritid i
+              Osby
+            </seg>
+          </u>
           <note n="77e8e5d3">
             152
           </note>
+          <u who="lennart_bladh_0dad7e" xml:id="i-00a2439eb206bbcf-5" prev="i-00a2439eb206bbcf-0" n="00a2439e">
+            <seg n="0028f021">
+              skall inte föregripa de här överläggningarna. Jag kan bara vitsorda
+              att de tar sikte på att man skall försöka finna en lösning för
+              hela den här krisdrabbade branschen.
+            </seg>
+          </u>
           <note type="speaker" n="f82ad6af">
             LENNART BLADH (s):
           </note>
-          <u who="lennart_bladh_0dad7e" xml:id="i-8e6a8659da435d29-0" n="00a2439e">
+          <u who="lennart_bladh_0dad7e" xml:id="i-00a2439eb206bbcf-6" n="00a2439e">
             <seg n="48526d4e">
               Herr talman! Ibland kan man tala om ”Norrlandsproblem” även i
               mindre regioner, och Göingebygden är faktiskt Skånes ”Norrland”.
@@ -1195,7 +1231,7 @@
           <note type="speaker" n="f82ad6af">
             LENNART BLADH (s):
           </note>
-          <u who="lennart_bladh_0dad7e" xml:id="i-faff0e17b9079415-1" next="i-f20fab11e2be9f28-1" n="00a2439e">
+          <u who="lennart_bladh_0dad7e" xml:id="i-00a2439eb206bbcf-7" next="i-00a2439eb206bbcf-13" n="00a2439e">
             <seg n="fc0ba94d">
               Herr talman! I en artikel i Veckans Affärer nr 2 den 10 januari
               1980 har industriministern yttrat att både Gunboföretagen och
@@ -1206,11 +1242,19 @@
           <note n="27ab082e">
             Överläggningen var härmed avslutad.
           </note>
-          <u who="lennart_bladh_0dad7e" xml:id="i-f20fab11e2be9f28-1" prev="i-faff0e17b9079415-1" n="00a2439e">
-            <seg n="a574bc90"/>
+          <u who="lennart_bladh_0dad7e" xml:id="i-00a2439eb206bbcf-8" prev="i-00a2439eb206bbcf-7" n="00a2439e"/>
+          <pb n="14" facs="https://betalab.kb.se/prot-197980--76/prot_197980__76-014.jp2/_view"/>
+          <u who="lennart_bladh_0dad7e" xml:id="i-00a2439eb206bbcf-9" prev="i-00a2439eb206bbcf-7" n="00a2439e">
             <seg n="82fc5f70">
               $ 7 Om vissa fartygsleveranser från Sölvesborgs Varv
             </seg>
+          </u>
+          <note n="8e6bb385">
+            Industriministern NILS ÅSLING erhöll ordet för att besvara Torkel
+            Lindahls (fp) den 19 december anmälda interpellation, 1979/80:113,
+            och anförde:
+          </note>
+          <u who="lennart_bladh_0dad7e" xml:id="i-00a2439eb206bbcf-10" prev="i-00a2439eb206bbcf-7" n="00a2439e">
             <seg n="8c08d9bc">
               Herr talman! Torkel Lindahl har frågat mig om jag avser att såsom
               ägarrepresentant verka för att en snabb lösning kommer till stånd
@@ -1278,46 +1322,44 @@
               det olämpligt av mig att ta något initiativ i frågan. Jag utgår
               från att Svenska Varv på alla sätt påskyndar de pågående förhandlingarna.
             </seg>
-            <seg n="76a16b62">
-              leveranser från Sölvesborgs Varv
-            </seg>
-            <seg n="a574bc90"/>
-            <seg n="54e192bc">
-              Om vissa fartygsleveranser från Sölvesborgs Varv
-            </seg>
           </u>
-          <pb n="14" facs="https://betalab.kb.se/prot-197980--76/prot_197980__76-014.jp2/_view"/>
-          <note n="8e6bb385">
-            Industriministern NILS ÅSLING erhöll ordet för att besvara Torkel
-            Lindahls (fp) den 19 december anmälda interpellation, 1979/80:113,
-            och anförde:
-          </note>
           <note n="cd6753b9">
             11 Riksdagens protokoll 1979/80:75-76
           </note>
           <note n="2723bb09">
             Nr 76
           </note>
-          <note n="2eeedb76">
+          <note type="date" n="835dfedd">
             Fredagen den 1 februari 1980
           </note>
           <note n="5c1d6eb1">
             Om vissa fartygs-
           </note>
+          <u who="lennart_bladh_0dad7e" xml:id="i-00a2439eb206bbcf-11" prev="i-00a2439eb206bbcf-7" n="00a2439e">
+            <seg n="76a16b62">
+              leveranser från Sölvesborgs Varv
+            </seg>
+          </u>
           <note n="4934329b">
             153
           </note>
           <pb n="15" facs="https://betalab.kb.se/prot-197980--76/prot_197980__76-015.jp2/_view"/>
-          <note n="2d82fac0">
+          <u who="lennart_bladh_0dad7e" xml:id="i-00a2439eb206bbcf-12" prev="i-00a2439eb206bbcf-7" n="00a2439e"/>
+          <note type="date" n="b66c3353">
             Nr 76 Fredagen den 1 februari 1980
           </note>
+          <u who="lennart_bladh_0dad7e" xml:id="i-00a2439eb206bbcf-13" prev="i-00a2439eb206bbcf-7" n="00a2439e">
+            <seg n="54e192bc">
+              Om vissa fartygsleveranser från Sölvesborgs Varv
+            </seg>
+          </u>
           <note n="27b7ded8">
             154
           </note>
           <note type="speaker" n="ea380339">
             TORKEL LINDAHL (fp):
           </note>
-          <u who="torkel_lindahl_3d6dc3" xml:id="i-60502b350d90adea-0" n="3e9d0aa7">
+          <u who="torkel_lindahl_3d6dc3" xml:id="i-3e9d0aa72af80d26-0" next="i-3e9d0aa72af80d26-1" n="3e9d0aa7">
             <seg n="6ccb173c">
               Herr talman! Jag tackar statsrådet Åsling för svaret på min interpellation.
               Det är bra att statsrådet ser allvarligt på det inträffade och
@@ -1384,7 +1426,9 @@
             </seg>
             <seg n="a574bc90"/>
             <seg n="a574bc90"/>
-            <seg n="a574bc90"/>
+          </u>
+          <pb n="16" facs="https://betalab.kb.se/prot-197980--76/prot_197980__76-016.jp2/_view"/>
+          <u who="torkel_lindahl_3d6dc3" xml:id="i-3e9d0aa72af80d26-1" prev="i-3e9d0aa72af80d26-0" n="3e9d0aa7">
             <seg n="a574bc90"/>
             <seg n="8c622d6d">
               varvet och drar räntor.
@@ -1443,11 +1487,10 @@
               en stor skandal är definitivt ingen överdrift.
             </seg>
           </u>
-          <pb n="16" facs="https://betalab.kb.se/prot-197980--76/prot_197980__76-016.jp2/_view"/>
           <note type="speaker" n="c75880fc">
             RALF LINDSTRÖM (s):
           </note>
-          <u who="ralf_lindstrom_73a328" xml:id="i-3a843ef018922e7e-0" next="i-5b3aa679dc04175d-0" n="3a45fc12">
+          <u who="ralf_lindstrom_73a328" xml:id="i-3a45fc12a4c5f68d-0" next="i-3a45fc12a4c5f68d-9" n="3a45fc12">
             <seg n="45cedd30">
               Herr talman! Ett av de mest negativa inslagen i den svenska samhällsdebatten
               är den urskillningslösa smutskastningen av olika företeelser i
@@ -1460,20 +1503,40 @@
           <note n="2723bb09">
             Nr 76
           </note>
-          <note n="2eeedb76">
+          <note type="date" n="835dfedd">
             Fredagen den 1 februari 1980
           </note>
           <note n="5c1d6eb1">
             Om vissa fartygs-
           </note>
-          <u who="ralf_lindstrom_73a328" xml:id="i-5b3aa679dc04175d-0" prev="i-3a843ef018922e7e-0" n="3a45fc12">
+          <u who="ralf_lindstrom_73a328" xml:id="i-3a45fc12a4c5f68d-1" prev="i-3a45fc12a4c5f68d-0" n="3a45fc12">
             <seg n="76a16b62">
               leveranser från Sölvesborgs Varv
             </seg>
-            <seg n="a574bc90"/>
+          </u>
+          <note n="9856aeb0">
+            155
+          </note>
+          <pb n="17" facs="https://betalab.kb.se/prot-197980--76/prot_197980__76-017.jp2/_view"/>
+          <u who="ralf_lindstrom_73a328" xml:id="i-3a45fc12a4c5f68d-2" prev="i-3a45fc12a4c5f68d-0" n="3a45fc12"/>
+          <note n="2723bb09">
+            Nr 76
+          </note>
+          <note type="date" n="835dfedd">
+            Fredagen den 1 februari 1980
+          </note>
+          <note n="5c1d6eb1">
+            Om vissa fartygs-
+          </note>
+          <u who="ralf_lindstrom_73a328" xml:id="i-3a45fc12a4c5f68d-3" prev="i-3a45fc12a4c5f68d-0" n="3a45fc12">
             <seg n="76a16b62">
               leveranser från Sölvesborgs Varv
             </seg>
+          </u>
+          <note n="6eb73912">
+            156
+          </note>
+          <u who="ralf_lindstrom_73a328" xml:id="i-3a45fc12a4c5f68d-4" prev="i-3a45fc12a4c5f68d-0" n="3a45fc12">
             <seg n="f0c7f7c2">
               Till nöds kan man acceptera att journalister i sin yrkesutövning
               — speciellt när brådskan är stor — gör ett eller annat övertramp
@@ -1551,7 +1614,9 @@
             </seg>
             <seg n="a574bc90"/>
             <seg n="a574bc90"/>
-            <seg n="a574bc90"/>
+          </u>
+          <pb n="18" facs="https://betalab.kb.se/prot-197980--76/prot_197980__76-018.jp2/_view"/>
+          <u who="ralf_lindstrom_73a328" xml:id="i-3a45fc12a4c5f68d-5" prev="i-3a45fc12a4c5f68d-0" n="3a45fc12">
             <seg n="b9660c11">
               arbetare och tjänstemän vid varvet. Naturligtvis frågar man sig:
               Vad håller de på med där uppe i Stockholm och i riksdagshuset?
@@ -1625,64 +1690,53 @@
               sedvanligt sätt. Däremot kan jag hålla med om att ärendet tycks
               ha dragit ut väl långt på tiden. Frågan vem
             </seg>
+          </u>
+          <note n="2723bb09">
+            Nr 76
+          </note>
+          <note type="date" n="835dfedd">
+            Fredagen den 1 februari 1980
+          </note>
+          <note n="5c1d6eb1">
+            Om vissa fartygs-
+          </note>
+          <u who="ralf_lindstrom_73a328" xml:id="i-3a45fc12a4c5f68d-6" prev="i-3a45fc12a4c5f68d-0" n="3a45fc12">
             <seg n="76a16b62">
               leveranser från Sölvesborgs Varv
             </seg>
-            <seg n="a574bc90"/>
+          </u>
+          <note n="23e04732">
+            157
+          </note>
+          <pb n="19" facs="https://betalab.kb.se/prot-197980--76/prot_197980__76-019.jp2/_view"/>
+          <u who="ralf_lindstrom_73a328" xml:id="i-3a45fc12a4c5f68d-7" prev="i-3a45fc12a4c5f68d-0" n="3a45fc12"/>
+          <note n="2723bb09">
+            Nr 76
+          </note>
+          <note type="date" n="835dfedd">
+            Fredagen den 1 februari 1980
+          </note>
+          <note n="5c1d6eb1">
+            Om vissa fartygs-
+          </note>
+          <u who="ralf_lindstrom_73a328" xml:id="i-3a45fc12a4c5f68d-8" prev="i-3a45fc12a4c5f68d-0" n="3a45fc12">
             <seg n="76a16b62">
               leveranser från Sölvesborgs Varv
             </seg>
+          </u>
+          <note n="11439f58">
+            158
+          </note>
+          <u who="ralf_lindstrom_73a328" xml:id="i-3a45fc12a4c5f68d-9" prev="i-3a45fc12a4c5f68d-0" n="3a45fc12">
             <seg n="d0e38c52">
               som har skulden för detta, Svenska Varv eller redarna, råder
               det som bekant delade meningar om.
             </seg>
           </u>
-          <note n="9856aeb0">
-            155
-          </note>
-          <pb n="17" facs="https://betalab.kb.se/prot-197980--76/prot_197980__76-017.jp2/_view"/>
-          <note n="2723bb09">
-            Nr 76
-          </note>
-          <note n="2eeedb76">
-            Fredagen den 1 februari 1980
-          </note>
-          <note n="5c1d6eb1">
-            Om vissa fartygs-
-          </note>
-          <note n="6eb73912">
-            156
-          </note>
-          <pb n="18" facs="https://betalab.kb.se/prot-197980--76/prot_197980__76-018.jp2/_view"/>
-          <note n="2723bb09">
-            Nr 76
-          </note>
-          <note n="2eeedb76">
-            Fredagen den 1 februari 1980
-          </note>
-          <note n="5c1d6eb1">
-            Om vissa fartygs-
-          </note>
-          <note n="23e04732">
-            157
-          </note>
-          <pb n="19" facs="https://betalab.kb.se/prot-197980--76/prot_197980__76-019.jp2/_view"/>
-          <note n="2723bb09">
-            Nr 76
-          </note>
-          <note n="2eeedb76">
-            Fredagen den 1 februari 1980
-          </note>
-          <note n="5c1d6eb1">
-            Om vissa fartygs-
-          </note>
-          <note n="11439f58">
-            158
-          </note>
           <note type="speaker" n="164131a8">
             TORKEL LINDAHL (fp) replik:
           </note>
-          <u who="torkel_lindahl_3d6dc3" xml:id="i-60502b350d90adea-1" n="3e9d0aa7">
+          <u who="torkel_lindahl_3d6dc3" xml:id="i-3e9d0aa72af80d26-2" n="3e9d0aa7">
             <seg n="e0fe4d24">
               Herr talman! I mitt första anförande framhöll jag att jag ville
               få till stånd en utredning av denna fråga, eftersom jag för min
@@ -1735,7 +1789,7 @@
           <note type="speaker" n="a31f4620">
             MARGOT HÅKANSSON (fp):
           </note>
-          <u who="margot_hakansson_a0f8a1" xml:id="i-0424cee316a4ee79-0" next="i-40f2a9f7fe0fce39-0" n="c0801c64">
+          <u who="margot_hakansson_a0f8a1" xml:id="i-01f0e521c51f357e-0" next="i-01f0e521c51f357e-6" n="c0801c64">
             <seg n="df604ef8">
               Herr talman! Det är ett stort och dyrbart projekt vi diskuterar
               i dag. Det är säkert en hel del sammanfallande omständigheter
@@ -1748,13 +1802,13 @@
               godkänts som tillsynsmyndighet, och de certifikat som efter besiktning
               utfärdas av dem har
             </seg>
-            <seg n="a574bc90"/>
           </u>
           <pb n="20" facs="https://betalab.kb.se/prot-197980--76/prot_197980__76-020.jp2/_view"/>
+          <u who="margot_hakansson_a0f8a1" xml:id="i-01f0e521c51f357e-1" prev="i-01f0e521c51f357e-0" n="c0801c64"/>
           <note n="8de058a1">
             samma giltighet som om de utfärdats av svensk myndighet.
           </note>
-          <u who="margot_hakansson_a0f8a1" xml:id="i-40f2a9f7fe0fce39-0" prev="i-0424cee316a4ee79-0" n="c0801c64">
+          <u who="margot_hakansson_a0f8a1" xml:id="i-01f0e521c51f357e-2" prev="i-01f0e521c51f357e-0" n="c0801c64">
             <seg n="fa5ed002">
               Enligt tillämpningsföreskrifterna till lagen om säkerhet på fartyg
               godkänns sju klassificeringssällskap i Sverige. Alla sju är utländska
@@ -1821,42 +1875,49 @@
               Denna utredning skall se över dessa problem, kanske framför allt
               var ansvarsgrän-
             </seg>
+          </u>
+          <note type="date" n="b66c3353">
+            Nr 76 Fredagen den 1 februari 1980
+          </note>
+          <u who="margot_hakansson_a0f8a1" xml:id="i-01f0e521c51f357e-3" prev="i-01f0e521c51f357e-0" n="c0801c64">
             <seg n="54e192bc">
               Om vissa fartygsleveranser från Sölvesborgs Varv
             </seg>
-            <seg n="a574bc90"/>
-            <seg n="a574bc90"/>
-            <seg n="76a16b62">
-              leveranser från Sölvesborgs Varv
-            </seg>
-            <seg n="e6973b8f">
-              serna går mellan klassningssällskapen, sjöfartsinspektionen och
-              sjöfartsverket.
-            </seg>
           </u>
-          <note n="2d82fac0">
-            Nr 76 Fredagen den 1 februari 1980
-          </note>
           <note n="ca711f13">
             159
           </note>
           <pb n="21" facs="https://betalab.kb.se/prot-197980--76/prot_197980__76-021.jp2/_view"/>
+          <u who="margot_hakansson_a0f8a1" xml:id="i-01f0e521c51f357e-4" prev="i-01f0e521c51f357e-0" n="c0801c64">
+            <seg n="a574bc90"/>
+          </u>
           <note n="2723bb09">
             Nr 76
           </note>
-          <note n="2eeedb76">
+          <note type="date" n="835dfedd">
             Fredagen den 1 februari 1980
           </note>
           <note n="5c1d6eb1">
             Om vissa fartygs-
           </note>
+          <u who="margot_hakansson_a0f8a1" xml:id="i-01f0e521c51f357e-5" prev="i-01f0e521c51f357e-0" n="c0801c64">
+            <seg n="76a16b62">
+              leveranser från Sölvesborgs Varv
+            </seg>
+          </u>
           <note n="6ac171ef">
             160
           </note>
+          <u who="margot_hakansson_a0f8a1" xml:id="i-01f0e521c51f357e-6" prev="i-01f0e521c51f357e-0" n="c0801c64">
+            <seg n="e6973b8f">
+              serna går mellan klassningssällskapen, sjöfartsinspektionen och
+              sjöfartsverket.
+            </seg>
+          </u>
           <note type="speaker" n="c75880fc">
             RALF LINDSTRÖM (s):
           </note>
-          <u who="ralf_lindstrom_73a328" xml:id="i-c4fda6c7c4d9432e-0" n="3a45fc12">
+          <u who="ralf_lindstrom_73a328" xml:id="i-3a45fc12a4c5f68d-10" n="3a45fc12">
             <seg n="9ccbb676">
               Herr talman! Torkel Lindahl sade att skuldfrågan inte är löst.
               Jag tror inte heller att vi här skall försöka lösa den. Det pågår
@@ -1894,7 +1955,7 @@
           <note type="speaker" n="ea380339">
             TORKEL LINDAHL (fp):
           </note>
-          <u who="torkel_lindahl_3d6dc3" xml:id="i-60502b350d90adea-2" n="3e9d0aa7">
+          <u who="torkel_lindahl_3d6dc3" xml:id="i-3e9d0aa72af80d26-3" next="i-3e9d0aa72af80d26-4" n="3e9d0aa7">
             <seg n="8b84e80d">
               Herr talman! Överläggningar pågår, och vi skall inte säga någonting,
               sade Ralf Lindström. Vid det senaste förhandlingstillfället kom
@@ -1922,7 +1983,9 @@
               Nej, det här är egentligen en fråga om förtroendet för Sveriges
               varvsnäring, och det är en mycket allvarlig fråga.
             </seg>
-            <seg n="a574bc90"/>
+          </u>
+          <pb n="22" facs="https://betalab.kb.se/prot-197980--76/prot_197980__76-022.jp2/_view"/>
+          <u who="torkel_lindahl_3d6dc3" xml:id="i-3e9d0aa72af80d26-4" prev="i-3e9d0aa72af80d26-3" n="3e9d0aa7">
             <seg n="65cca8b1">
               Man kan jämföra denna situation med ett annat fall: Jag går för
               att köpa en vara, vilken som helst, och jag gör upp ett avtal
@@ -1956,11 +2019,10 @@
               inte acceptera.
             </seg>
           </u>
-          <pb n="22" facs="https://betalab.kb.se/prot-197980--76/prot_197980__76-022.jp2/_view"/>
           <note type="speaker" n="a31f4620">
             MARGOT HÅKANSSON (fp):
           </note>
-          <u who="margot_hakansson_a0f8a1" xml:id="i-0424cee316a4ee79-1" next="i-40f2a9f7fe0fce39-1" n="c0801c64">
+          <u who="margot_hakansson_a0f8a1" xml:id="i-01f0e521c51f357e-7" next="i-01f0e521c51f357e-11" n="c0801c64">
             <seg n="c82ae279">
               Herr talman! Det som är orimligt i detta fall är att man först
               klassar fartyg i en viss klass —t. o. m. i högsta klassen — och
@@ -1995,45 +2057,49 @@
           <note n="2723bb09">
             Nr 76
           </note>
-          <note n="2eeedb76">
+          <note type="date" n="835dfedd">
             Fredagen den 1 februari 1980
           </note>
           <note n="5c1d6eb1">
             Om vissa fartygs-
           </note>
-          <u who="margot_hakansson_a0f8a1" xml:id="i-40f2a9f7fe0fce39-1" prev="i-0424cee316a4ee79-1" n="c0801c64">
+          <u who="margot_hakansson_a0f8a1" xml:id="i-01f0e521c51f357e-8" prev="i-01f0e521c51f357e-7" n="c0801c64">
             <seg n="76a16b62">
               leveranser från Sölvesborgs Varv
-            </seg>
-            <seg n="a574bc90"/>
-            <seg n="76a16b62">
-              leveranser från Sölvesborgs Varv
-            </seg>
-            <seg n="aad9fee6">
-              så att dessa ohållbara förhållanden kan ändras för att inte enskilda
-              människors liv skall sättas på spel och hela deras ekonomi raseras.
             </seg>
           </u>
           <note n="ee5a645f">
             161
           </note>
           <pb n="23" facs="https://betalab.kb.se/prot-197980--76/prot_197980__76-023.jp2/_view"/>
+          <u who="margot_hakansson_a0f8a1" xml:id="i-01f0e521c51f357e-9" prev="i-01f0e521c51f357e-7" n="c0801c64"/>
           <note n="2723bb09">
             Nr 76
           </note>
-          <note n="2eeedb76">
+          <note type="date" n="835dfedd">
             Fredagen den 1 februari 1980
           </note>
           <note n="5c1d6eb1">
             Om vissa fartygs-
           </note>
+          <u who="margot_hakansson_a0f8a1" xml:id="i-01f0e521c51f357e-10" prev="i-01f0e521c51f357e-7" n="c0801c64">
+            <seg n="76a16b62">
+              leveranser från Sölvesborgs Varv
+            </seg>
+          </u>
           <note n="0ceb6f58">
             162
           </note>
+          <u who="margot_hakansson_a0f8a1" xml:id="i-01f0e521c51f357e-11" prev="i-01f0e521c51f357e-7" n="c0801c64">
+            <seg n="aad9fee6">
+              så att dessa ohållbara förhållanden kan ändras för att inte enskilda
+              människors liv skall sättas på spel och hela deras ekonomi raseras.
+            </seg>
+          </u>
           <note type="speaker" n="c75880fc">
             RALF LINDSTRÖM (s):
           </note>
-          <u who="ralf_lindstrom_73a328" xml:id="i-c4fda6c7c4d9432e-1" n="3a45fc12">
+          <u who="ralf_lindstrom_73a328" xml:id="i-3a45fc12a4c5f68d-11" n="3a45fc12">
             <seg n="e4e6006c">
               Herr talman! Torkel Lindahl säger att det inte är redarna som
               har konstruerat fartygen, och det skall vi väl vara glada för.
@@ -2068,7 +2134,7 @@
           <note type="speaker" n="ea380339">
             TORKEL LINDAHL (fp):
           </note>
-          <u who="torkel_lindahl_3d6dc3" xml:id="i-60502b350d90adea-3" n="3e9d0aa7">
+          <u who="torkel_lindahl_3d6dc3" xml:id="i-3e9d0aa72af80d26-5" next="i-3e9d0aa72af80d26-6" n="3e9d0aa7">
             <seg n="9db05644">
               Herr talman! Jag håller med Margot Håkansson om det hon sade
               om klassificeringssällskapen, men jag vill tillägga att det i
@@ -2097,7 +2163,9 @@
               svenska myndigheters sida och från
             </seg>
             <seg n="a574bc90"/>
-            <seg n="a574bc90"/>
+          </u>
+          <pb n="24" facs="https://betalab.kb.se/prot-197980--76/prot_197980__76-024.jp2/_view"/>
+          <u who="torkel_lindahl_3d6dc3" xml:id="i-3e9d0aa72af80d26-6" prev="i-3e9d0aa72af80d26-5" n="3e9d0aa7">
             <seg n="572bb38c">
               klassificeringssällskapens sida i efterhand försöker gå in och
               ändra tolkningar och bestämmelser så att de skall kunna passa
@@ -2115,11 +2183,10 @@
               vara rimligt.
             </seg>
           </u>
-          <pb n="24" facs="https://betalab.kb.se/prot-197980--76/prot_197980__76-024.jp2/_view"/>
           <note type="speaker" n="a31f4620">
             MARGOT HÅKANSSON (fp):
           </note>
-          <u who="margot_hakansson_a0f8a1" xml:id="i-7ff5ca9b2956ecbb-0" n="c0801c64">
+          <u who="margot_hakansson_a0f8a1" xml:id="i-01f0e521c51f357e-12" n="c0801c64">
             <seg n="573c1505">
               Herr talman! Det är som jag inledningsvis sade en komplicerad
               fråga som vi diskuterar i dag. Man vet att många stora sjöolyckor
@@ -2161,7 +2228,7 @@
           <note type="speaker" n="c75880fc">
             RALF LINDSTRÖM (s):
           </note>
-          <u who="ralf_lindstrom_73a328" xml:id="i-3a843ef018922e7e-1" next="i-5b3aa679dc04175d-1" n="3a45fc12">
+          <u who="ralf_lindstrom_73a328" xml:id="i-3a45fc12a4c5f68d-12" next="i-3a45fc12a4c5f68d-16" n="3a45fc12">
             <seg n="f2d04060">
               Herr talman! Jag vill fatta mig helt kort. Jag har inte sagt
               att redarna skall betala. Till den frågan har jag inte tagit ställning.
@@ -2174,45 +2241,49 @@
           <note n="2723bb09">
             Nr 76
           </note>
-          <note n="2eeedb76">
+          <note type="date" n="835dfedd">
             Fredagen den 1 februari 1980
           </note>
           <note n="5c1d6eb1">
             Om vissa fartygs-
           </note>
-          <u who="ralf_lindstrom_73a328" xml:id="i-5b3aa679dc04175d-1" prev="i-3a843ef018922e7e-1" n="3a45fc12">
+          <u who="ralf_lindstrom_73a328" xml:id="i-3a45fc12a4c5f68d-13" prev="i-3a45fc12a4c5f68d-12" n="3a45fc12">
             <seg n="76a16b62">
               leveranser från Sölvesborgs Varv
-            </seg>
-            <seg n="a574bc90"/>
-            <seg n="76a16b62">
-              leveranser från Sölvesborgs Varv
-            </seg>
-            <seg n="01856c7f">
-              tycker att den frågan får behandlas på ett senare stadium, då
-              man verkligen vet vad som har skett.
             </seg>
           </u>
           <note n="4af449a3">
             163
           </note>
           <pb n="25" facs="https://betalab.kb.se/prot-197980--76/prot_197980__76-025.jp2/_view"/>
+          <u who="ralf_lindstrom_73a328" xml:id="i-3a45fc12a4c5f68d-14" prev="i-3a45fc12a4c5f68d-12" n="3a45fc12"/>
           <note n="2723bb09">
             Nr 76
           </note>
-          <note n="2eeedb76">
+          <note type="date" n="835dfedd">
             Fredagen den 1 februari 1980
           </note>
           <note n="5c1d6eb1">
             Om vissa fartygs-
           </note>
+          <u who="ralf_lindstrom_73a328" xml:id="i-3a45fc12a4c5f68d-15" prev="i-3a45fc12a4c5f68d-12" n="3a45fc12">
+            <seg n="76a16b62">
+              leveranser från Sölvesborgs Varv
+            </seg>
+          </u>
           <note n="8df5ce74">
             164
           </note>
+          <u who="ralf_lindstrom_73a328" xml:id="i-3a45fc12a4c5f68d-16" prev="i-3a45fc12a4c5f68d-12" n="3a45fc12">
+            <seg n="01856c7f">
+              tycker att den frågan får behandlas på ett senare stadium, då
+              man verkligen vet vad som har skett.
+            </seg>
+          </u>
           <note type="speaker" n="ea380339">
             TORKEL LINDAHL (fp):
           </note>
-          <u who="torkel_lindahl_3d6dc3" xml:id="i-e831fbb20d5eed91-0" next="i-5128868428e62252-0" n="3e9d0aa7">
+          <u who="torkel_lindahl_3d6dc3" xml:id="i-3e9d0aa72af80d26-7" next="i-3e9d0aa72af80d26-9" n="3e9d0aa7">
             <seg n="cbd17fde">
               Herr talman! Vem skall betala det hela, frågade Ralf Lindström.
               Det är klart att det blir Svenska Varv, men företaget får skynda
@@ -2261,10 +2332,9 @@
             Utbildningsutskottets betänkande 1979/80:15 med anledning av
             motioner om utbildning i jämställdhetsfrågor m.m.
           </note>
-          <u who="torkel_lindahl_3d6dc3" xml:id="i-5128868428e62252-0" prev="i-e831fbb20d5eed91-0" n="3e9d0aa7">
-            <seg n="a574bc90"/>
-          </u>
+          <u who="torkel_lindahl_3d6dc3" xml:id="i-3e9d0aa72af80d26-8" prev="i-3e9d0aa72af80d26-7" n="3e9d0aa7"/>
           <pb n="26" facs="https://betalab.kb.se/prot-197980--76/prot_197980__76-026.jp2/_view"/>
+          <u who="torkel_lindahl_3d6dc3" xml:id="i-3e9d0aa72af80d26-9" prev="i-3e9d0aa72af80d26-7" n="3e9d0aa7"/>
           <note n="43b7cd38">
             $ 11 Meddelande om fråga Meddelades att följande fråga framställts
           </note>
@@ -2274,12 +2344,12 @@
           <note type="speaker" n="9115f5e0">
             1979/80:
           </note>
-          <u who="unknown" xml:id="i-3c35ac958d9ed466-0" n="201437b2"/>
+          <u who="unknown" xml:id="i-0ba251bb09d3d941-0" n="201437b2"/>
           <note type="speaker" n="cf2d1275">
             302 av Hans Nyhage (m) till budgetministern om bryggerinäringens
             betydelse för Boråsbygden:
           </note>
-          <u who="hans_nyhage_f99e18" xml:id="i-7c2dd002827344c3-0" next="i-80eaacfa7bc7ec46-0" n="0ba251bb">
+          <u who="hans_nyhage_f99e18" xml:id="i-0ba251bb09d3d941-1" next="i-0ba251bb09d3d941-6" n="0ba251bb">
             <seg n="42df7eeb">
               I den strukturplan för bryggeribranschen som statliga Brygginvest
               AB nyligen framlade föreslås att 10 av de nuvarande 22 bryggerianläggningarna
@@ -2326,13 +2396,7 @@
             165
           </note>
           <pb n="27" facs="https://betalab.kb.se/prot-197980--76/prot_197980__76-027.jp2/_view"/>
-          <u who="hans_nyhage_f99e18" xml:id="i-80eaacfa7bc7ec46-0" prev="i-7c2dd002827344c3-0" n="0ba251bb">
-            <seg n="a574bc90"/>
-            <seg n="a574bc90"/>
-            <seg n="a574bc90"/>
-            <seg n="a574bc90"/>
-            <seg n="a574bc90"/>
-          </u>
+          <u who="hans_nyhage_f99e18" xml:id="i-0ba251bb09d3d941-2" prev="i-0ba251bb09d3d941-1" n="0ba251bb"/>
           <note n="e4df2f74">
             1979/80 Förteckning över talare 75-76 (Siffrorna avser sida i
             protokollen)
@@ -2463,7 +2527,11 @@
           <note n="4b971dc5">
             Åsling, Nils, industriminister 10, 13, 14, 15, 16 166
           </note>
+          <u who="hans_nyhage_f99e18" xml:id="i-0ba251bb09d3d941-3" prev="i-0ba251bb09d3d941-1" n="0ba251bb"/>
           <pb n="28" facs="https://betalab.kb.se/prot-197980--76/prot_197980__76-028.jp2/_view"/>
+          <u who="hans_nyhage_f99e18" xml:id="i-0ba251bb09d3d941-4" prev="i-0ba251bb09d3d941-1" n="0ba251bb">
+            <seg n="a574bc90"/>
+          </u>
           <note n="a4bc4a38">
             Fredagen den 1 februari 1979/80 Talmannen 141 75-76 Bengtsson,
             Hugo (s) 146, 149
@@ -2497,9 +2565,11 @@
             167
           </note>
           <pb n="29" facs="https://betalab.kb.se/prot-197980--76/prot_197980__76-029.jp2/_view"/>
+          <u who="hans_nyhage_f99e18" xml:id="i-0ba251bb09d3d941-5" prev="i-0ba251bb09d3d941-1" n="0ba251bb"/>
           <note n="3f3ecb93">
             GOTAB Stockholm 1980
           </note>
+          <u who="hans_nyhage_f99e18" xml:id="i-0ba251bb09d3d941-6" prev="i-0ba251bb09d3d941-1" n="0ba251bb"/>
         </div>
       </body>
     </text>

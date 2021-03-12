@@ -20,7 +20,7 @@
     <encodingDesc>
       <editorialDecl>
         <correction>
-          <p>Some data curation was done. It is documented in db/curation/instances</p>
+          <p>Some data curation was done. It is documented in input/curation/instances</p>
         </correction>
       </editorialDecl>
     </encodingDesc>
@@ -57,6 +57,7 @@
       </front>
       <body>
         <div>
+          <pb n="0" facs="https://betalab.kb.se/prot-1946-höst-fk--41/prot_1946_höst_fk__41-000.jp2/_view"/>
           <note n="4072ef54">
             RIKSDAGENS PROTOKOLL.
           </note>
@@ -144,7 +145,7 @@
             Första kammarens protokoll 1946. Nr 41. 1
           </note>
           <pb n="1" facs="https://betalab.kb.se/prot-1946-höst-fk--41/prot_1946_höst_fk__41-001.jp2/_view"/>
-          <note n="35f415b7">
+          <note type="date" n="25c6a394">
             Nr 41. Lördagen den 14 december 1946.
           </note>
           <note n="d949357b">
@@ -221,7 +222,7 @@
             i samband med arkivarbetssak-
           </note>
           <pb n="2" facs="https://betalab.kb.se/prot-1946-höst-fk--41/prot_1946_höst_fk__41-002.jp2/_view"/>
-          <note n="e477b3da">
+          <note type="date" n="3d2ace51">
             Lördagen den 14 december 1946. Nr 41. 3
           </note>
           <note n="b23cf08c">
@@ -266,7 +267,7 @@
           <note type="speaker" n="64414870">
             Herr Holmbäck:
           </note>
-          <u who="ake_holmback_3cac39" xml:id="i-6a059e92bf05da04-0" next="i-210591f61dffd964-0" n="deb14731">
+          <u who="ake_holmback_3cac39" xml:id="i-deb147318b49e75e-0" next="i-deb147318b49e75e-3" n="deb14731">
             <seg n="281d0367">
               Herr talman! Jag framför till statsrådet Mossberg mitt tack för
               svaret på interpellationen och för den omsorg, varmed detsamma
@@ -306,10 +307,10 @@
             </seg>
           </u>
           <pb n="3" facs="https://betalab.kb.se/prot-1946-höst-fk--41/prot_1946_höst_fk__41-003.jp2/_view"/>
-          <note n="2d0a2d3b">
+          <note type="date" n="21546dfe">
             4 Nr 41. Lördagen den 14 december 1946.
           </note>
-          <u who="ake_holmback_3cac39" xml:id="i-210591f61dffd964-0" prev="i-6a059e92bf05da04-0" n="deb14731">
+          <u who="ake_holmback_3cac39" xml:id="i-deb147318b49e75e-1" prev="i-deb147318b49e75e-0" n="deb14731">
             <seg n="12619b71">
               Ang. de intellektuella flyktingarnas arbetsförhållanden m. m.
               (Forts.) belopp. Det är särskilt i fråga om denna kategori arkivarbetare,
@@ -369,6 +370,18 @@
               som det här är fråga om och vilkas existens i de flesta fall har
               krossats genom världskriget.
             </seg>
+          </u>
+          <note n="00acffb0">
+            Ang. ändring Ordet lämnades ånyo till herr statsrådet Mossberg,
+            som meddelat, att han i kommunalämnade vid detta sammanträde besvara
+            jämväl herr Åmans interpellation anlagarna för sående ändring
+            i kommunallagarna för möjliggörande av personaldemokrati
+          </note>
+          <note n="ff563bea">
+            AA ErToRa m. m., och nu yttrade: Herr talman! Med kammarens tillstånd
+            har herr Åman
+          </note>
+          <u who="ake_holmback_3cac39" xml:id="i-deb147318b49e75e-2" prev="i-deb147318b49e75e-0" n="deb14731">
             <seg n="5b3134b4">
               demokrati till mig riktat följande frågor: m. Mm. 1) Har statsrådet
               uppmärksammat, att en lösning av frågan om de kommu-
@@ -377,6 +390,21 @@
               nalanställdas medinflytande och ökade insyn i den kommunala förvaltningen
               kan aktualisera ändringar av den kommunala lagstiftningen?
             </seg>
+          </u>
+          <note n="4e625132">
+            2) Är statsrådet beredd att, om så befinnes erforderligt, för
+            riksdagen framlägga förslag till sådana ändringar av den kommunala
+            lagstiftningen?
+          </note>
+          <pb n="4" facs="https://betalab.kb.se/prot-1946-höst-fk--41/prot_1946_höst_fk__41-004.jp2/_view"/>
+          <note type="date" n="9a869751">
+            Lördagen den 14 december 1946. Nr 41. 5
+          </note>
+          <note n="eeb6dcb5">
+            "Ang. ändring i kommwnallagarna för möjliggörande av personaldemokrati
+            m. m. (Forts.)
+          </note>
+          <u who="ake_holmback_3cac39" xml:id="i-deb147318b49e75e-3" prev="i-deb147318b49e75e-0" n="deb14731">
             <seg n="e81b7f7b">
               3) Har statsrådet för avsikt att snarast upptaga frågan om personaldemokrati
               inom polisväsendet till behandling?
@@ -449,34 +477,11 @@
               inom polisväsendet samt
             </seg>
           </u>
-          <note n="00acffb0">
-            Ang. ändring Ordet lämnades ånyo till herr statsrådet Mossberg,
-            som meddelat, att han i kommunalämnade vid detta sammanträde besvara
-            jämväl herr Åmans interpellation anlagarna för sående ändring
-            i kommunallagarna för möjliggörande av personaldemokrati
-          </note>
-          <note n="ff563bea">
-            AA ErToRa m. m., och nu yttrade: Herr talman! Med kammarens tillstånd
-            har herr Åman
-          </note>
-          <note n="4e625132">
-            2) Är statsrådet beredd att, om så befinnes erforderligt, för
-            riksdagen framlägga förslag till sådana ändringar av den kommunala
-            lagstiftningen?
-          </note>
-          <pb n="4" facs="https://betalab.kb.se/prot-1946-höst-fk--41/prot_1946_höst_fk__41-004.jp2/_view"/>
-          <note n="4fc7a1b4">
-            Lördagen den 14 december 1946. Nr 41. 5
-          </note>
-          <note n="eeb6dcb5">
-            "Ang. ändring i kommwnallagarna för möjliggörande av personaldemokrati
-            m. m. (Forts.)
-          </note>
           <pb n="5" facs="https://betalab.kb.se/prot-1946-höst-fk--41/prot_1946_höst_fk__41-005.jp2/_view"/>
           <note n="1154790c">
             Ang. 'decimering av björnbeståndet i Norrland.
           </note>
-          <note n="e93ef07b">
+          <note type="date" n="c4014249">
             6 Nr 41. Lördagen den 14 december 1946.
           </note>
           <note n="556a94fa">
@@ -489,7 +494,7 @@
           <note type="speaker" n="9d21508c">
             Herr Åman:
           </note>
-          <u who="valter_aman_b6cb76" xml:id="i-b0eb246c5238bdbd-0" next="i-0da7b07f4a6c7b42-0" n="568ff2e1">
+          <u who="valter_aman_b6cb76" xml:id="i-568ff2e14baa2917-0" next="i-568ff2e14baa2917-1" n="568ff2e1">
             <seg n="0e1bfa56">
               Herr talman! Jag ber att få framföra mitt tack till herr statsrådet
               Mossberg för den positiva anda, som präglar interpellationssvaret.
@@ -560,7 +565,7 @@
             fällt sådant djur, behålla och
           </note>
           <pb n="6" facs="https://betalab.kb.se/prot-1946-höst-fk--41/prot_1946_höst_fk__41-006.jp2/_view"/>
-          <note n="63dd0179">
+          <note type="date" n="a1f05aaa">
             Lördagen den 14 december 1946. Nr 41. 7
           </note>
           <note n="4df73279">
@@ -574,7 +579,7 @@
             jaktstadgan, varför skada av björn å tamdjur alltjämt under vissa
             villkor ersättes av statsverket.
           </note>
-          <u who="valter_aman_b6cb76" xml:id="i-0da7b07f4a6c7b42-0" prev="i-b0eb246c5238bdbd-0" n="568ff2e1">
+          <u who="valter_aman_b6cb76" xml:id="i-568ff2e14baa2917-1" prev="i-568ff2e14baa2917-0" n="568ff2e1">
             <seg n="042c45b0">
               Under senare år ha på skilda platser i Norrland och Dalarna anordnats
               s. k. fårsambeten, vilka understundom uppsökts av björnar, därvid
@@ -627,7 +632,7 @@
           <note type="speaker" n="5167852c">
             Herr Hage:
           </note>
-          <u who="ernst_hage_4db776" xml:id="i-be7f6b2b4ac484f1-0" next="i-1735733ae350ad2d-0" n="0423bcca">
+          <u who="ernst_hage_4db776" xml:id="i-0423bcca6de1ec86-0" next="i-0423bcca6de1ec86-4" n="0423bcca">
             <seg n="28bbc16f">
               Herr talman! Jag ber att till herr statsrådet Sträng få framföra
               mitt tack för svaret på interpellationen. Jag är särskilt tacksam
@@ -647,10 +652,10 @@
             </seg>
           </u>
           <pb n="7" facs="https://betalab.kb.se/prot-1946-höst-fk--41/prot_1946_höst_fk__41-007.jp2/_view"/>
-          <note n="d4d3fc05">
+          <note type="date" n="66e074fb">
             8 Nr 41. Lördagen den 14 december 1946.
           </note>
-          <u who="ernst_hage_4db776" xml:id="i-1735733ae350ad2d-0" prev="i-be7f6b2b4ac484f1-0" n="0423bcca">
+          <u who="ernst_hage_4db776" xml:id="i-0423bcca6de1ec86-1" prev="i-0423bcca6de1ec86-0" n="0423bcca">
             <seg n="ac43ed01">
               Ang. decimering av björnbeståndet i Norrland. (Forts.) bebyggelse
               har helt enkelt inte plats för något större bestånd av vilda djur.
@@ -713,6 +718,11 @@
               trakter, varjämte björnarna anställt svåra härjningar bland deras
               hus-
             </seg>
+          </u>
+          <note n="b3c510d1">
+            Jur.
+          </note>
+          <u who="ernst_hage_4db776" xml:id="i-0423bcca6de1ec86-2" prev="i-0423bcca6de1ec86-0" n="0423bcca">
             <seg n="5006e950">
               Jag grundar detta mitt uttalande — som nu står emot interpellationssvarets
               förklaring — på vissa uppgifter, som Jag fått. Jag har varit intresserad
@@ -721,6 +731,12 @@
               mycket kortfattat beröra dem. Då jag samlat dessa urklipp, har
               detta icke skett så att säga efter någon plan, utan
             </seg>
+          </u>
+          <pb n="8" facs="https://betalab.kb.se/prot-1946-höst-fk--41/prot_1946_höst_fk__41-008.jp2/_view"/>
+          <note type="date" n="52dea649">
+            Lördagen den 14 december 1946. Nr 41. 9
+          </note>
+          <u who="ernst_hage_4db776" xml:id="i-0423bcca6de1ec86-3" prev="i-0423bcca6de1ec86-0" n="0423bcca">
             <seg n="6b60b81c">
               Ang. decimering av björnbeståndet i Norrland. (Forts.) jag har
               bara klippt, då jag i en tidning sett någon notis om den här frågan,
@@ -794,6 +810,12 @@
               folk från bygderna där uppe, som äga sakkännedom — alltså representanter
               för lapparna eller nybyggarna — finge deltaga. Hit-
             </seg>
+          </u>
+          <pb n="9" facs="https://betalab.kb.se/prot-1946-höst-fk--41/prot_1946_höst_fk__41-009.jp2/_view"/>
+          <note type="date" n="7f645680">
+            10 Nr 41. Lördagen den 14 december 1946.
+          </note>
+          <u who="ernst_hage_4db776" xml:id="i-0423bcca6de1ec86-4" prev="i-0423bcca6de1ec86-0" n="0423bcca">
             <seg n="16f9bdeb">
               Ang. decimering av björnbeståndet i Norrland. (Forts.) tills
               har det inte skett, vilket är mycket beklagligt, ty är det några
@@ -807,21 +829,10 @@
               så snart som möjligt kommer till stånd.
             </seg>
           </u>
-          <note n="b3c510d1">
-            Jur.
-          </note>
-          <pb n="8" facs="https://betalab.kb.se/prot-1946-höst-fk--41/prot_1946_höst_fk__41-008.jp2/_view"/>
-          <note n="44422fc9">
-            Lördagen den 14 december 1946. Nr 41. 9
-          </note>
-          <pb n="9" facs="https://betalab.kb.se/prot-1946-höst-fk--41/prot_1946_höst_fk__41-009.jp2/_view"/>
-          <note n="206afbe7">
-            10 Nr 41. Lördagen den 14 december 1946.
-          </note>
           <note type="speaker" n="09ad567f">
             Herr Näsgård:
           </note>
-          <u who="bernhard_nasgard_2b95c8" xml:id="i-801018d729956f02-0" next="i-ea113f7d33a8fe77-0" n="411e0ee7">
+          <u who="bernhard_nasgard_2b95c8" xml:id="i-411e0ee703890b66-0" next="i-411e0ee703890b66-1" n="411e0ee7">
             <seg n="2341e912">
               Herr talman! Jag kan instämma med herr Hage, när han understryker,
               att man på det här området inte bör tillämpa olika normer för
@@ -884,10 +895,10 @@
             </seg>
           </u>
           <pb n="10" facs="https://betalab.kb.se/prot-1946-höst-fk--41/prot_1946_höst_fk__41-010.jp2/_view"/>
-          <note n="3de09a0b">
+          <note type="date" n="818f3718">
             Lördagen den 14 december 1946. Nr 41. 11
           </note>
-          <u who="bernhard_nasgard_2b95c8" xml:id="i-ea113f7d33a8fe77-0" prev="i-801018d729956f02-0" n="411e0ee7">
+          <u who="bernhard_nasgard_2b95c8" xml:id="i-411e0ee703890b66-1" prev="i-411e0ee703890b66-0" n="411e0ee7">
             <seg n="b7eff6bc">
               Ang. decimering av björnbeståndet i Norrland. (Forts.) narnas
               kalvningsland. Det är högst sällan som en lapp försedd med gevär
@@ -918,7 +929,7 @@
           <note type="speaker" n="2004da9d">
             Herr Näslund:
           </note>
-          <u who="per_naslund_130c7a" xml:id="i-a773179033246bc2-0" next="i-7d029fc548b0a3e2-0" n="a9c6d947">
+          <u who="per_naslund_130c7a" xml:id="i-a9c6d94797a2a101-0" next="i-a9c6d94797a2a101-1" n="a9c6d947">
             <seg n="0a530efb">
               Herr talman! Jag skall be att få framföra några synpunkter på
               det här ämnet.
@@ -972,10 +983,10 @@
             </seg>
           </u>
           <pb n="11" facs="https://betalab.kb.se/prot-1946-höst-fk--41/prot_1946_höst_fk__41-011.jp2/_view"/>
-          <note n="2b264299">
+          <note type="date" n="6bd118aa">
             12 Nr 41. Lördagen den 14 december 1946.
           </note>
-          <u who="per_naslund_130c7a" xml:id="i-7d029fc548b0a3e2-0" prev="i-a773179033246bc2-0" n="a9c6d947">
+          <u who="per_naslund_130c7a" xml:id="i-a9c6d94797a2a101-1" prev="i-a9c6d94797a2a101-0" n="a9c6d947">
             <seg n="7b066caf">
               Ang. decimering av björnbeståndet i Norrland. (Forts.) till en
               revision av författningarna i det här avseendet. Jag sträcker
@@ -1040,7 +1051,7 @@
           <note type="speaker" n="94726688">
             Herr statsrådet Sträng:
           </note>
-          <u who="gunnar_strang_097e01" xml:id="i-c57975c2361b2445-0" next="i-563c10ad172eadac-0" n="b5b9343a">
+          <u who="gunnar_strang_097e01" xml:id="i-b5b9343a9fa5ba37-0" next="i-b5b9343a9fa5ba37-1" n="b5b9343a">
             <seg n="112ed0d1">
               Herr talman! Jag har nog en känsla av att de nya fridlysningsbestämmelserna
               av år 1943 utgöra en ganska god kompromiss mellan de båda ytterlighetssynpunkterna,
@@ -1053,10 +1064,10 @@
             </seg>
           </u>
           <pb n="12" facs="https://betalab.kb.se/prot-1946-höst-fk--41/prot_1946_höst_fk__41-012.jp2/_view"/>
-          <note n="1a58d1b9">
+          <note type="date" n="e0e214ac">
             Lördagen den 14 december 1946. Nr 41. 13
           </note>
-          <u who="gunnar_strang_097e01" xml:id="i-563c10ad172eadac-0" prev="i-c57975c2361b2445-0" n="b5b9343a">
+          <u who="gunnar_strang_097e01" xml:id="i-b5b9343a9fa5ba37-1" prev="i-b5b9343a9fa5ba37-0" n="b5b9343a">
             <seg n="7cf4aded">
               "Ang. decimering av björnbeståndet i N orrland. (Forts.) väl,
               att man skall skapa sådana bestämmelser, som göra att man har
@@ -1127,7 +1138,7 @@
           <note type="speaker" n="5167852c">
             Herr Hage:
           </note>
-          <u who="ernst_hage_4db776" xml:id="i-be7f6b2b4ac484f1-1" next="i-1735733ae350ad2d-1" n="0423bcca">
+          <u who="ernst_hage_4db776" xml:id="i-0423bcca6de1ec86-5" next="i-0423bcca6de1ec86-6" n="0423bcca">
             <seg n="941ccd06">
               Herr talman! Jag skall be att endast få säga några ord med anledning
               av herr statsrådets och herr Näsgårds anföranden. Jag skall börja
@@ -1138,10 +1149,10 @@
             </seg>
           </u>
           <pb n="13" facs="https://betalab.kb.se/prot-1946-höst-fk--41/prot_1946_höst_fk__41-013.jp2/_view"/>
-          <note n="15dc112d">
+          <note type="date" n="adbdbfe1">
             14 Nr 41. Lördagen den 14 december 1946.
           </note>
-          <u who="ernst_hage_4db776" xml:id="i-1735733ae350ad2d-1" prev="i-be7f6b2b4ac484f1-1" n="0423bcca">
+          <u who="ernst_hage_4db776" xml:id="i-0423bcca6de1ec86-6" prev="i-0423bcca6de1ec86-5" n="0423bcca">
             <seg n="778577f8">
               Ang. decimering av björnbeståndet i Norrland. (Forts.) det kan
               man inte skjuta ned björnen och inte heller om man inte hinner
@@ -1203,7 +1214,7 @@
           <note type="speaker" n="09ad567f">
             Herr Näsgård:
           </note>
-          <u who="bernhard_nasgard_2b95c8" xml:id="i-f60f167f40802066-0" n="411e0ee7">
+          <u who="bernhard_nasgard_2b95c8" xml:id="i-411e0ee703890b66-2" n="411e0ee7">
             <seg n="a1624ec9">
               Herr talman! Bara ett par ord om nödvärnsrätten som herr Hage
               berörde. Det är alldeles riktigt, att när lapparna påträffa en
@@ -1219,7 +1230,7 @@
           <note type="speaker" n="2004da9d">
             Herr Näslund:
           </note>
-          <u who="per_naslund_130c7a" xml:id="i-a773179033246bc2-1" next="i-7d029fc548b0a3e2-1" n="a9c6d947">
+          <u who="per_naslund_130c7a" xml:id="i-a9c6d94797a2a101-2" next="i-a9c6d94797a2a101-3" n="a9c6d947">
             <seg n="eb5d6275">
               Herr talman! Jag ber att få betona, att jag har samma uppfattning
               som statsrådet Sträng i fråga om betydelsen av nödvärnsrätten,
@@ -1231,10 +1242,10 @@
             </seg>
           </u>
           <pb n="14" facs="https://betalab.kb.se/prot-1946-höst-fk--41/prot_1946_höst_fk__41-014.jp2/_view"/>
-          <note n="d6331249">
+          <note type="date" n="9956e3c0">
             Lördagen den 14 december 1946. Nr 41. 15
           </note>
-          <u who="per_naslund_130c7a" xml:id="i-7d029fc548b0a3e2-1" prev="i-a773179033246bc2-1" n="a9c6d947">
+          <u who="per_naslund_130c7a" xml:id="i-a9c6d94797a2a101-3" prev="i-a9c6d94797a2a101-2" n="a9c6d947">
             <seg n="8f4187e7">
               ”Ang. decimering av björnbeståndet i Norrland. (Forts.) förutsätter
               jag att herr statsrådet med den inställning som han har är beredd
@@ -1265,7 +1276,7 @@
           <note type="speaker" n="94726688">
             Herr statsrådet Sträng:
           </note>
-          <u who="gunnar_strang_097e01" xml:id="i-5bc83f3a877ee23c-0" n="b5b9343a">
+          <u who="gunnar_strang_097e01" xml:id="i-b5b9343a9fa5ba37-2" n="b5b9343a">
             <seg n="28acd797">
               Herr talman! Herr Näslunds önskemål ha redan enligt gällande
               praxis blivit tillgodosedda, kanske inte exakt men i sak som han
@@ -1281,7 +1292,7 @@
           <note type="speaker" n="2004da9d">
             Herr Näslund:
           </note>
-          <u who="per_naslund_130c7a" xml:id="i-a773179033246bc2-2" next="i-7d029fc548b0a3e2-2" n="a9c6d947">
+          <u who="per_naslund_130c7a" xml:id="i-a9c6d94797a2a101-4" next="i-a9c6d94797a2a101-8" n="a9c6d947">
             <seg n="39e2f0fe">
               Herr talman! Jag får fästa uppmärksamheten på den praktiska skillnaden
               mellan en jakt bedriven av fårherden, som har tillfälle att uppta
@@ -1332,7 +1343,7 @@
             och
           </note>
           <pb n="15" facs="https://betalab.kb.se/prot-1946-höst-fk--41/prot_1946_höst_fk__41-015.jp2/_view"/>
-          <note n="9d7953ea">
+          <note type="date" n="c853b7f8">
             16 Nr 41. Lördagen den 14 december 1946.
           </note>
           <note n="3c13d7b4">
@@ -1342,11 +1353,30 @@
           <note n="4b87c2c6">
             Vad utskottet i dessa betänkanden hemställt bifölls.
           </note>
-          <u who="per_naslund_130c7a" xml:id="i-7d029fc548b0a3e2-2" prev="i-a773179033246bc2-2" n="a9c6d947">
+          <u who="per_naslund_130c7a" xml:id="i-a9c6d94797a2a101-5" prev="i-a9c6d94797a2a101-4" n="a9c6d947">
             <seg n="edf05433"/>
+          </u>
+          <note n="30da0565">
+            Lagförslag om Föredrogs ånyo andra lagutskottets utlåtande nr
+            44, i anledning av dels . kontroll å Kungl. Maj:ts proposition
+            med förslag till lag om kontroll å överlåtelse av överlåtelse
+            av vattenkraft, dels ock en i ämnet väckt motion.
+          </note>
+          <u who="per_naslund_130c7a" xml:id="i-a9c6d94797a2a101-6" prev="i-a9c6d94797a2a101-4" n="a9c6d947">
             <seg n="cb20dd6f">
               vattenkraft.
             </seg>
+          </u>
+          <note n="e625e572">
+            Genom en den 15 november 1946 dagtecknad proposition, nr 380,
+            vilken hänvisats till lagutskott och behandlats av andra lagutskottet,
+            hade Kungl. Maj:t föreslagit riksdagen att antaga vid propositionen
+            fogat förslag till lag om kontroll å överlåtelse av vattenkraft.
+          </note>
+          <note n="664a56d8">
+            I förevarande lagförslag voro 1 och 2 $$ så lydande: 1 8.
+          </note>
+          <u who="per_naslund_130c7a" xml:id="i-a9c6d94797a2a101-7" prev="i-a9c6d94797a2a101-4" n="a9c6d947">
             <seg n="527add25">
               Den som mot vederlag förvärvar rätt till vattenkraft i strömfall,
               varur i dess helhet vid ändamålsenlig utbyggnad kan uttagas mer
@@ -1366,6 +1396,11 @@
             <seg n="fcbab7ed">
               Inkommer ej anmälan, äger Konungen införskaffa erforderliga uppgifter.
             </seg>
+          </u>
+          <note n="eb70c5b5">
+            2 8.
+          </note>
+          <u who="per_naslund_130c7a" xml:id="i-a9c6d94797a2a101-8" prev="i-a9c6d94797a2a101-4" n="a9c6d947">
             <seg n="97bc36f0">
               Finnes vederlaget för vattenkraften eller, då vattenkraft förvärvas
               Jämte annan egendom, det vederlag som prövas belöpa på vattenkraften
@@ -1373,24 +1408,6 @@
               därav påkallas.
             </seg>
           </u>
-          <note n="30da0565">
-            Lagförslag om Föredrogs ånyo andra lagutskottets utlåtande nr
-            44, i anledning av dels . kontroll å Kungl. Maj:ts proposition
-            med förslag till lag om kontroll å överlåtelse av överlåtelse
-            av vattenkraft, dels ock en i ämnet väckt motion.
-          </note>
-          <note n="e625e572">
-            Genom en den 15 november 1946 dagtecknad proposition, nr 380,
-            vilken hänvisats till lagutskott och behandlats av andra lagutskottet,
-            hade Kungl. Maj:t föreslagit riksdagen att antaga vid propositionen
-            fogat förslag till lag om kontroll å överlåtelse av vattenkraft.
-          </note>
-          <note n="664a56d8">
-            I förevarande lagförslag voro 1 och 2 $$ så lydande: 1 8.
-          </note>
-          <note n="eb70c5b5">
-            2 8.
-          </note>
           <note n="4e6ea0f7">
             I avbidan på Konungens prövning må utfäst vederlag ej givas eller
             mottagas.
@@ -1428,7 +1445,7 @@
             nr 380 måtte av riksdagen avslås;
           </note>
           <pb n="16" facs="https://betalab.kb.se/prot-1946-höst-fk--41/prot_1946_höst_fk__41-016.jp2/_view"/>
-          <note n="c93a722f">
+          <note type="date" n="51c7cc7e">
             Lördagen den 14 december 1946. Nr 41. 17
           </note>
           <note n="5f5f2929">
@@ -1460,7 +1477,7 @@
           <note type="speaker" n="1ce82a99">
             Herr Norman:
           </note>
-          <u who="david_norman_bc42aa" xml:id="i-3fb386772a9015e9-0" n="ed5cb406">
+          <u who="david_norman_bc42aa" xml:id="i-ed5cb4066e185f5b-0" n="ed5cb406">
             <seg n="101d9824">
               Herr talman! I avseende å föredragningen av andra lagutskottets
               utlåtande nr 44 får jag hemställa, att detsamma må företagas till
@@ -1485,7 +1502,7 @@
           <note type="speaker" n="64414870">
             Herr Holmbäck:
           </note>
-          <u who="ake_holmback_3cac39" xml:id="i-6a059e92bf05da04-1" next="i-210591f61dffd964-1" n="deb14731">
+          <u who="ake_holmback_3cac39" xml:id="i-deb147318b49e75e-4" next="i-deb147318b49e75e-8" n="deb14731">
             <seg n="daaa5679">
               Herr talman! Vid 1945 års riksdag förelåg ett förslag till vissa
               ändringar i vattenlagen. För min del ställde jag mig ganska tveksam
@@ -1528,13 +1545,13 @@
             Första kammarens protokoll 1946. Nr 41. 2
           </note>
           <pb n="17" facs="https://betalab.kb.se/prot-1946-höst-fk--41/prot_1946_höst_fk__41-017.jp2/_view"/>
-          <note n="717b355d">
+          <note type="date" n="0d1c5eaf">
             18 Nr 41. Lördagen den 14 december 1946.
           </note>
           <note n="c7fa0d00">
             Lagförslag om kontroll å överlåtelse av vattenkraft. (E orts.)
           </note>
-          <u who="ake_holmback_3cac39" xml:id="i-210591f61dffd964-1" prev="i-6a059e92bf05da04-1" n="deb14731">
+          <u who="ake_holmback_3cac39" xml:id="i-deb147318b49e75e-5" prev="i-deb147318b49e75e-4" n="deb14731">
             <seg n="552ba662">
               De nya bestämmelserna innebära att Kungl. Maj:t i de delar av
               Sverige, Kungl. Maj:t skall bestämma, skall kunna kontrollera
@@ -1609,6 +1626,12 @@
               med. Det blir ett ytterligare band på fastighetsförsäljningen.
               Enligt den lagstiftning
             </seg>
+          </u>
+          <pb n="18" facs="https://betalab.kb.se/prot-1946-höst-fk--41/prot_1946_höst_fk__41-018.jp2/_view"/>
+          <note type="date" n="8d01702b">
+            Lördagen den 14 december 1946. Nr 41. 19
+          </note>
+          <u who="ake_holmback_3cac39" xml:id="i-deb147318b49e75e-6" prev="i-deb147318b49e75e-4" n="deb14731">
             <seg n="bedc6756">
               Lagförslag om kontroll å överlåtelse av vattenkraft. (Forts.)
               som antogs 1945 kan, som vi alia veta, en man, som inte äger någon
@@ -1684,6 +1707,12 @@
               9 600 000 kronor. Vad den nedre sträckan angår finns det inte
               så cxakta uppgifter om vad
             </seg>
+          </u>
+          <pb n="19" facs="https://betalab.kb.se/prot-1946-höst-fk--41/prot_1946_höst_fk__41-019.jp2/_view"/>
+          <note type="date" n="3f8a6030">
+            20 Nr 41. Lördagen den 14 december 1946.
+          </note>
+          <u who="ake_holmback_3cac39" xml:id="i-deb147318b49e75e-7" prev="i-deb147318b49e75e-4" n="deb14731">
             <seg n="b1fda818">
               Lagförslag om kontroll å överlåtelse av vattenkraft. (Forts.)
               Graningeverken ha betalat, men försäljningsvärdet för den skulle
@@ -1765,6 +1794,15 @@
             </seg>
             <seg n="edf05433"/>
             <seg n="edf05433"/>
+          </u>
+          <pb n="20" facs="https://betalab.kb.se/prot-1946-höst-fk--41/prot_1946_höst_fk__41-020.jp2/_view"/>
+          <note type="date" n="f031a9e9">
+            Lördagen den 14 december 1946. Nr 41. 21
+          </note>
+          <note n="cf7f78c5">
+            Lagförslag om kontroll å överlåtelse av vattenkraft. (Forts.
+          </note>
+          <u who="ake_holmback_3cac39" xml:id="i-deb147318b49e75e-8" prev="i-deb147318b49e75e-4" n="deb14731">
             <seg n="82cbf13c">
               Nåja, nu får man ju komma ihåg att Graningeverkens inlaga kommer
               från ett bolag som har intressen att bevaka, och man kan inte
@@ -1834,25 +1872,10 @@
               spekulation på detta område.
             </seg>
           </u>
-          <pb n="18" facs="https://betalab.kb.se/prot-1946-höst-fk--41/prot_1946_höst_fk__41-018.jp2/_view"/>
-          <note n="d04c8562">
-            Lördagen den 14 december 1946. Nr 41. 19
-          </note>
-          <pb n="19" facs="https://betalab.kb.se/prot-1946-höst-fk--41/prot_1946_höst_fk__41-019.jp2/_view"/>
-          <note n="16755dbb">
-            20 Nr 41. Lördagen den 14 december 1946.
-          </note>
-          <pb n="20" facs="https://betalab.kb.se/prot-1946-höst-fk--41/prot_1946_höst_fk__41-020.jp2/_view"/>
-          <note n="ec2693ab">
-            Lördagen den 14 december 1946. Nr 41. 21
-          </note>
-          <note n="cf7f78c5">
-            Lagförslag om kontroll å överlåtelse av vattenkraft. (Forts.
-          </note>
           <note type="speaker" n="c3a5a38e">
             Herr Hallagård:
           </note>
-          <u who="gustav_hallagard_c04899" xml:id="i-cf7cbc153b48e780-0" next="i-9081897d55200f2d-0" n="bf7b16a2">
+          <u who="gustav_hallagard_c04899" xml:id="i-bf7b16a2b7644c4f-0" next="i-bf7b16a2b7644c4f-4" n="bf7b16a2">
             <seg n="0327ec87">
               Herr talman! Då även jag står såsom reservant i förevarande utskottsutlåtande,
               ber jag med några ord få redogöra för orsaken till detta mitt
@@ -1867,10 +1890,10 @@
           <note n="722345e5">
             Da DD
           </note>
-          <note n="35f415b7">
+          <note type="date" n="25c6a394">
             Nr 41. Lördagen den 14 december 1946.
           </note>
-          <u who="gustav_hallagard_c04899" xml:id="i-9081897d55200f2d-0" prev="i-cf7cbc153b48e780-0" n="bf7b16a2">
+          <u who="gustav_hallagard_c04899" xml:id="i-bf7b16a2b7644c4f-1" prev="i-bf7b16a2b7644c4f-0" n="bf7b16a2">
             <seg n="5524b3ac">
               Lagförslag om kontroll å överlåtelse av vattenkraft. (Forts.)
               cerat, varför det kan vara svårt att ta ställning till detsamma.
@@ -1937,10 +1960,26 @@
               som nämnts i detta lagrum böra utan olägenhet kunna undantagas
               från den nu föreslagna agen. .
             </seg>
+          </u>
+          <note n="675138bf">
+            I reservationen yrkas därför att lagen ej skall äga tillämpning
+            3 vissa förvärv, som omförmälas i lagen den 21 december 1945 om
+            inskränkning i rätten att förvärva jordbruksfastighet. Närmare
+            bestämt går yrkandet ut på att sådana förvärv skola undantagas,
+            för vilka befrielse jämlikt 5 $ tredje stycket föreligger från
+            skyldigheten att söka tillstånd enligt 1945 års lag.
+          </note>
+          <u who="gustav_hallagard_c04899" xml:id="i-bf7b16a2b7644c4f-2" prev="i-bf7b16a2b7644c4f-0" n="bf7b16a2">
             <seg n="4cc18132">
               Då sistnämnda lag avser endast jordbruksfastigheter följer härav
               att endast
             </seg>
+          </u>
+          <pb n="22" facs="https://betalab.kb.se/prot-1946-höst-fk--41/prot_1946_höst_fk__41-022.jp2/_view"/>
+          <note type="date" n="8c3310f1">
+            Lördagen den 14 december 1946. Nr 41. 23
+          </note>
+          <u who="gustav_hallagard_c04899" xml:id="i-bf7b16a2b7644c4f-3" prev="i-bf7b16a2b7644c4f-0" n="bf7b16a2">
             <seg n="1d1e06bd">
               Lagförslag om kontroll å överlåtelse av vattenkraft. (Forts.)
               jordbruksfastigheter kunna åtnjuta sagda befrielse. Härvid är
@@ -1977,27 +2016,7 @@
               ej finns anledning antaga att förvärvaren vill skaffa sig en vinst
               genom snar avyttring.
             </seg>
-            <seg n="58b68e8a">
-              Efter denna redogörelse för innebörden av den av mig m. fl. vid
-              utlåtandet fogade reservationen kan jag sammanfattningsvis säga,
-              att vi reservanter, även om anledning kan finnas att gå emot här
-              föreliggande lagförslag, dock med hänsyn till det mycket betydande
-              samhällsintresse, som det gäller att tillgodose, velat acceptera
-              detsamma under den förutsättning, som angives i reservationen.
-            </seg>
           </u>
-          <note n="675138bf">
-            I reservationen yrkas därför att lagen ej skall äga tillämpning
-            3 vissa förvärv, som omförmälas i lagen den 21 december 1945 om
-            inskränkning i rätten att förvärva jordbruksfastighet. Närmare
-            bestämt går yrkandet ut på att sådana förvärv skola undantagas,
-            för vilka befrielse jämlikt 5 $ tredje stycket föreligger från
-            skyldigheten att söka tillstånd enligt 1945 års lag.
-          </note>
-          <pb n="22" facs="https://betalab.kb.se/prot-1946-höst-fk--41/prot_1946_höst_fk__41-022.jp2/_view"/>
-          <note n="b0cdab7b">
-            Lördagen den 14 december 1946. Nr 41. 23
-          </note>
           <note n="62bd3468">
             I tillämpningsföreskrifterna till den nu föreslagna lagen bör
             bestämmas, att anmälan enligt denna lag icke skall ske beträffande
@@ -2012,6 +2031,16 @@
             i 1 8 av den föreslagna lagen om skyldighet att ofördröjligen
             göra där föreskrivna anmälan.
           </note>
+          <u who="gustav_hallagard_c04899" xml:id="i-bf7b16a2b7644c4f-4" prev="i-bf7b16a2b7644c4f-0" n="bf7b16a2">
+            <seg n="58b68e8a">
+              Efter denna redogörelse för innebörden av den av mig m. fl. vid
+              utlåtandet fogade reservationen kan jag sammanfattningsvis säga,
+              att vi reservanter, även om anledning kan finnas att gå emot här
+              föreliggande lagförslag, dock med hänsyn till det mycket betydande
+              samhällsintresse, som det gäller att tillgodose, velat acceptera
+              detsamma under den förutsättning, som angives i reservationen.
+            </seg>
+          </u>
           <note n="ff0c19e1">
             Jag förbehåller mig därför, herr talman, rätten att vid föredragningen
             av 7 8 i lagen om kontroll å överlåtelse av vattenkraft yrka bifall
@@ -2020,7 +2049,7 @@
           <note type="speaker" n="1ce82a99">
             Herr Norman:
           </note>
-          <u who="david_norman_bc42aa" xml:id="i-739790f20202a577-0" next="i-eb3e598e433df58d-0" n="ed5cb406">
+          <u who="david_norman_bc42aa" xml:id="i-ed5cb4066e185f5b-1" next="i-ed5cb4066e185f5b-3" n="ed5cb406">
             <seg n="edd408ba">
               Herr talman! Jag ber till att börja med att få konstatera. att
               alla i denna fråga äro ense om en sak, och en mycket viktig sak,
@@ -2035,13 +2064,13 @@
             </seg>
           </u>
           <pb n="23" facs="https://betalab.kb.se/prot-1946-höst-fk--41/prot_1946_höst_fk__41-023.jp2/_view"/>
-          <note n="06c473df">
+          <note type="date" n="041d92b8">
             24 Nr 41. Lördagen den 14 december 1946.
           </note>
           <note n="5f5f2929">
             Lagförslag om kontroll å överlåtelse av vattenkraft. (Forts.)
           </note>
-          <u who="david_norman_bc42aa" xml:id="i-eb3e598e433df58d-0" prev="i-739790f20202a577-0" n="ed5cb406">
+          <u who="david_norman_bc42aa" xml:id="i-ed5cb4066e185f5b-2" prev="i-ed5cb4066e185f5b-1" n="ed5cb406">
             <seg n="f1c7c7c9">
               Om jag först stannar något vid herr Hallagårds reservation, kan
               det vara intressant att konstatera, att de synpunkter, som herr
@@ -2111,6 +2140,12 @@
               siffror, som kunna ligga till grund för en jämförelse i det ena
               eller
             </seg>
+          </u>
+          <pb n="24" facs="https://betalab.kb.se/prot-1946-höst-fk--41/prot_1946_höst_fk__41-024.jp2/_view"/>
+          <note type="date" n="1b2de9aa">
+            Lördagen den 14 december 1946. Nr 41. 25
+          </note>
+          <u who="david_norman_bc42aa" xml:id="i-ed5cb4066e185f5b-3" prev="i-ed5cb4066e185f5b-1" n="ed5cb406">
             <seg n="04810eaf">
               Lagförslag om kontroll å överlåtelse av vattenkraft. (Forts.)
               andra fallet. Vad som är en skälig ersättning måste bedömas i
@@ -2157,14 +2192,10 @@
               hemställer jag om bifall till 1 $ i det föreliggande lagförslaget.
             </seg>
           </u>
-          <pb n="24" facs="https://betalab.kb.se/prot-1946-höst-fk--41/prot_1946_höst_fk__41-024.jp2/_view"/>
-          <note n="4b1910df">
-            Lördagen den 14 december 1946. Nr 41. 25
-          </note>
           <note type="speaker" n="73be0af2">
             Herr Wistrand:
           </note>
-          <u who="karl_wistrand_ca0ba6" xml:id="i-a2cb02c836399614-0" next="i-205c5d7f5e86d567-0" n="35321510">
+          <u who="karl_wistrand_ca0ba6" xml:id="i-35321510b157ea1d-0" next="i-35321510b157ea1d-2" n="35321510">
             <seg n="203a407b">
               Herr talman! Andra lagutskottets högt ärade ordförande ville
               framhålla, att utskottet vid sitt godkännande av Kungl. Maj:ts
@@ -2199,13 +2230,13 @@
             </seg>
           </u>
           <pb n="25" facs="https://betalab.kb.se/prot-1946-höst-fk--41/prot_1946_höst_fk__41-025.jp2/_view"/>
-          <note n="1a6caa44">
+          <note type="date" n="b0967a6c">
             26 Nr 41. Lördagen den 14 december 1946.
           </note>
           <note n="5f5f2929">
             Lagförslag om kontroll å överlåtelse av vattenkraft. (Forts.)
           </note>
-          <u who="karl_wistrand_ca0ba6" xml:id="i-205c5d7f5e86d567-0" prev="i-a2cb02c836399614-0" n="35321510">
+          <u who="karl_wistrand_ca0ba6" xml:id="i-35321510b157ea1d-1" prev="i-35321510b157ea1d-0" n="35321510">
             <seg n="129a03cd">
               Vad har nu inträffat sedan år 1945, som gör att en ny lag anses
               vara påkallad? Jag kan inte se att det inträffat någonting annat
@@ -2275,6 +2306,12 @@
               ett lägre pris, utan det för mig avgörande är, huruvida nya rättsprinciper
               skola kunna knäsättas av de svenska stats-
             </seg>
+          </u>
+          <pb n="26" facs="https://betalab.kb.se/prot-1946-höst-fk--41/prot_1946_höst_fk__41-026.jp2/_view"/>
+          <note type="date" n="ec32bba7">
+            Lördagen den 14 december 1946. Nr 41. 27
+          </note>
+          <u who="karl_wistrand_ca0ba6" xml:id="i-35321510b157ea1d-2" prev="i-35321510b157ea1d-0" n="35321510">
             <seg n="fcff0e31">
               Lagförslag om kontroll å överlåtelse av vattenkraft. (Forts.)
               makterna under så lätta former som i detta fall ha tillämpats.
@@ -2297,17 +2334,13 @@
               i vattenkraft, som till äventyrs kan giva sig tillkänna. :
             </seg>
           </u>
-          <pb n="26" facs="https://betalab.kb.se/prot-1946-höst-fk--41/prot_1946_höst_fk__41-026.jp2/_view"/>
-          <note n="724f62ae">
-            Lördagen den 14 december 1946. Nr 41. 27
-          </note>
           <note n="6920401e">
             I detta anförande instämde herrar Mannerskantz, Herlitz och Nordenson.
           </note>
           <note type="speaker" n="dbdc7d13">
             Herr statsrådet Zetterberg:
           </note>
-          <u who="unknown" xml:id="i-7d5529550475cf1a-0" n="432df947">
+          <u who="unknown" xml:id="i-432df9471bb1034d-0" n="432df947">
             <seg n="291dd598">
               Herr talman! Liksom utskottets ärade ordförande har jag fäst
               mig vid att alla, som ha uttalat någon mening i denna fråga —
@@ -2363,10 +2396,10 @@
             </seg>
           </u>
           <pb n="27" facs="https://betalab.kb.se/prot-1946-höst-fk--41/prot_1946_höst_fk__41-027.jp2/_view"/>
-          <note n="51eb9c01">
+          <note type="date" n="227c2f56">
             28 Nr 41. Lördagen den 14 december 1946.
           </note>
-          <u who="unknown" xml:id="i-6b8a6e9523978279-0" n="432df947">
+          <u who="unknown" xml:id="i-432df9471bb1034d-1" n="432df947">
             <seg n="d9646a98">
               Lagförslag om kontroll å överlåtelse av vattenkraft. (Forts.)
               bortser från två särskilda köp, som jag strax skall komma till,
@@ -2442,6 +2475,12 @@
               Vad sedan beträffar de invändningar, som ha gjorts mot lagförslagets
               ut-
             </seg>
+          </u>
+          <pb n="28" facs="https://betalab.kb.se/prot-1946-höst-fk--41/prot_1946_höst_fk__41-028.jp2/_view"/>
+          <note type="date" n="7f52897f">
+            Lördagen den 14 december 1946. Nr 41. 29
+          </note>
+          <u who="unknown" xml:id="i-432df9471bb1034d-2" n="432df947">
             <seg n="57b766d4">
               Lagförslag om kontroll å överlåtelse av vattenkraft. (Forts.)
               formning i olika detaljer, vill jag till en början framhålla,
@@ -2517,6 +2556,12 @@
               Jag
             </seg>
             <seg n="edf05433"/>
+          </u>
+          <pb n="29" facs="https://betalab.kb.se/prot-1946-höst-fk--41/prot_1946_höst_fk__41-029.jp2/_view"/>
+          <note type="date" n="83007eaf">
+            30 Nr 41. Lördagen den 14 december 1946.
+          </note>
+          <u who="unknown" xml:id="i-432df9471bb1034d-3" n="432df947">
             <seg n="261aff20">
               Lagförslag om kontroll å överlåtelse av vattenkraft. (Forts.)
               tror emellertid att det är av betydelse, att dessa begränsningar
@@ -2525,6 +2570,15 @@
               i vilka fall sådana begränsningar kunna ske utan att syftet med
               lagstiftningen äventyras.
             </seg>
+          </u>
+          <note n="e771f7b2">
+            Mot den föreslagna lagstiftningen har också anmärkts, att den
+            skulle strida mot en allmänt vedertagen rättsprincip genom att
+            den har fått retroaktiv verkan; enligt den föreslagna lagtexten
+            skall nämligen lagen äga tillämpning jämväl å förvärv, som skett
+            före lagens ikraftträdande men efter den 15 november 1946.
+          </note>
+          <u who="unknown" xml:id="i-432df9471bb1034d-4" n="432df947">
             <seg n="78c1b65f">
               Att man på detta sätt har givit lagen en i viss mån tillbakaverkande
               kraft beror naturligtvis på de omständigheter, som överhuvud taget
@@ -2571,25 +2625,10 @@
               av riksdagen antaget.
             </seg>
           </u>
-          <pb n="28" facs="https://betalab.kb.se/prot-1946-höst-fk--41/prot_1946_höst_fk__41-028.jp2/_view"/>
-          <note n="f3dc901b">
-            Lördagen den 14 december 1946. Nr 41. 29
-          </note>
-          <pb n="29" facs="https://betalab.kb.se/prot-1946-höst-fk--41/prot_1946_höst_fk__41-029.jp2/_view"/>
-          <note n="c110a56a">
-            30 Nr 41. Lördagen den 14 december 1946.
-          </note>
-          <note n="e771f7b2">
-            Mot den föreslagna lagstiftningen har också anmärkts, att den
-            skulle strida mot en allmänt vedertagen rättsprincip genom att
-            den har fått retroaktiv verkan; enligt den föreslagna lagtexten
-            skall nämligen lagen äga tillämpning jämväl å förvärv, som skett
-            före lagens ikraftträdande men efter den 15 november 1946.
-          </note>
           <note type="speaker" n="64414870">
             Herr Holmbäck:
           </note>
-          <u who="ake_holmback_3cac39" xml:id="i-6a059e92bf05da04-2" next="i-210591f61dffd964-2" n="deb14731">
+          <u who="ake_holmback_3cac39" xml:id="i-deb147318b49e75e-9" next="i-deb147318b49e75e-10" n="deb14731">
             <seg n="8f5b8523">
               Herr talman! Justitieministern yttrade i sitt anförande bland
               annat, att han fäste större vikt vid de siffror beträffande vattenkraften
@@ -2607,13 +2646,13 @@
             </seg>
           </u>
           <pb n="30" facs="https://betalab.kb.se/prot-1946-höst-fk--41/prot_1946_höst_fk__41-030.jp2/_view"/>
-          <note n="cf130a06">
+          <note type="date" n="e57b1de3">
             Lördagen den 14 december 1946. Nr 41. 31
           </note>
           <note n="5f5f2929">
             Lagförslag om kontroll å överlåtelse av vattenkraft. (Forts.)
           </note>
-          <u who="ake_holmback_3cac39" xml:id="i-210591f61dffd964-2" prev="i-6a059e92bf05da04-2" n="deb14731">
+          <u who="ake_holmback_3cac39" xml:id="i-deb147318b49e75e-10" prev="i-deb147318b49e75e-9" n="deb14731">
             <seg n="673c43b0">
               300 kronor, när Graningeverken köpte den, men i verkligheten
               lär priset, under förutsättning att det visar sig finnas vattenrätt
@@ -2686,7 +2725,7 @@
           <note type="speaker" n="51b9802b">
             Herr Forslund:
           </note>
-          <u who="albert_forslund_7b3dd2" xml:id="i-88ddedc3f944a9dc-0" next="i-7808d6581ead04ec-0" n="2f5473e6">
+          <u who="albert_forslund_7b3dd2" xml:id="i-2f5473e61d29ab5b-0" next="i-2f5473e61d29ab5b-1" n="2f5473e6">
             <seg n="2b78f25c">
               Herr talman! Jag har svårt att förstå den argumentering, som
               föres från reservanternas sida, då de ha riktat angrepp mot Kungl.
@@ -2695,10 +2734,10 @@
             </seg>
           </u>
           <pb n="31" facs="https://betalab.kb.se/prot-1946-höst-fk--41/prot_1946_höst_fk__41-031.jp2/_view"/>
-          <note n="d24e45c9">
+          <note type="date" n="bd31c03c">
             32 Nr 41. Lördagen den 14 december 1946.
           </note>
-          <u who="albert_forslund_7b3dd2" xml:id="i-7808d6581ead04ec-0" prev="i-88ddedc3f944a9dc-0" n="2f5473e6">
+          <u who="albert_forslund_7b3dd2" xml:id="i-2f5473e61d29ab5b-1" prev="i-2f5473e61d29ab5b-0" n="2f5473e6">
             <seg n="7ab99e6b">
               Lagförslag om kontroll å överlåtelse av vattenkraft. (Forts.)
               jag fråga herr Holmbäck, om han är motståndare till ett ingripande
@@ -2755,7 +2794,7 @@
           <note type="speaker" n="73be0af2">
             Herr Wistrand:
           </note>
-          <u who="karl_wistrand_ca0ba6" xml:id="i-0f5640e1a335b5f2-0" n="35321510">
+          <u who="karl_wistrand_ca0ba6" xml:id="i-35321510b157ea1d-3" n="35321510">
             <seg n="c487e6fe">
               Herr talman! Herr statsrådet och chefen för justitiedepartementet
               betonade, liksom tidigare herr Norman, att man här måste gå till
@@ -2779,20 +2818,20 @@
           <note type="speaker" n="dbdc7d13">
             Herr statsrådet Zetterberg:
           </note>
-          <u who="unknown" xml:id="i-7d5529550475cf1a-1" n="432df947">
+          <u who="unknown" xml:id="i-432df9471bb1034d-5" n="432df947">
             <seg n="aa43e341">
               Jag vill blott nämna ett par ord i anledning av vad som förekommit
               i debatten sedan jag sist hade ordet.
             </seg>
           </u>
           <pb n="32" facs="https://betalab.kb.se/prot-1946-höst-fk--41/prot_1946_höst_fk__41-032.jp2/_view"/>
-          <note n="7852f49e">
+          <note type="date" n="e9b5e2db">
             Lördagen den 14 december 1946. Nr 41. 33
           </note>
           <note n="5f5f2929">
             Lagförslag om kontroll å överlåtelse av vattenkraft. (Forts.)
           </note>
-          <u who="unknown" xml:id="i-6b8a6e9523978279-1" n="432df947">
+          <u who="unknown" xml:id="i-432df9471bb1034d-6" n="432df947">
             <seg n="aa6f92c7">
               Vad den siste ärade talarens yttrande angår, så ligger det väl
               inte riktigt lika till i alla de fall, som man med mer eller mindre
@@ -2840,7 +2879,7 @@
           <note type="speaker" n="97d9cde3">
             Herr Wistrand erhöll nu ordet för kort genmäle och anförde:
           </note>
-          <u who="karl_wistrand_ca0ba6" xml:id="i-0f5640e1a335b5f2-1" n="35321510">
+          <u who="karl_wistrand_ca0ba6" xml:id="i-35321510b157ea1d-4" n="35321510">
             <seg n="5c54a205">
               Herr talman! Faran för att de kapitalstarka företagen, vare sig
               bolag eller kommuner, skola slå under sig vattenfallen, kan inte
@@ -2860,7 +2899,7 @@
           <note type="speaker" n="64414870">
             Herr Holmbäck:
           </note>
-          <u who="ake_holmback_3cac39" xml:id="i-6a059e92bf05da04-3" next="i-210591f61dffd964-3" n="deb14731">
+          <u who="ake_holmback_3cac39" xml:id="i-deb147318b49e75e-11" next="i-deb147318b49e75e-12" n="deb14731">
             <seg n="1d00763a">
               Justitieministern nämnde i sitt senaste anförande, att vattenfallsstyrelsen
               nu hade besvarat de gjorda anmärkningarna. Jag ansåg det också
@@ -2876,10 +2915,10 @@
             Första kammarens protokoll 1946. Nr 41. 23
           </note>
           <pb n="33" facs="https://betalab.kb.se/prot-1946-höst-fk--41/prot_1946_höst_fk__41-033.jp2/_view"/>
-          <note n="48e4e258">
+          <note type="date" n="93194a80">
             34 Nr 41. Lördagen den 14 december 1946.
           </note>
-          <u who="ake_holmback_3cac39" xml:id="i-210591f61dffd964-3" prev="i-6a059e92bf05da04-3" n="deb14731">
+          <u who="ake_holmback_3cac39" xml:id="i-deb147318b49e75e-12" prev="i-deb147318b49e75e-11" n="deb14731">
             <seg n="b933e098">
               Lagförslag om kontroll å överlåtelse av vattenkraft. (Forts.)
               fall i Ångermanälven, som det är fråga om. Sedan utskottet fattat
@@ -2926,7 +2965,7 @@
           <note type="speaker" n="c3a5a38e">
             Herr Hallagård:
           </note>
-          <u who="gustav_hallagard_c04899" xml:id="i-bab66dba108c25e3-0" n="bf7b16a2">
+          <u who="gustav_hallagard_c04899" xml:id="i-bf7b16a2b7644c4f-5" n="bf7b16a2">
             <seg n="bbf38a68">
               Herr talman! Den ärade ordföranden i utskottet anförde här att
               han förutsatte, att Kungl. Maj:t kunde ta de synpunkter under
@@ -2945,7 +2984,7 @@
           <note type="speaker" n="51b9802b">
             Herr Forslund:
           </note>
-          <u who="albert_forslund_7b3dd2" xml:id="i-64d8e407ca729c10-0" n="2f5473e6">
+          <u who="albert_forslund_7b3dd2" xml:id="i-2f5473e61d29ab5b-2" n="2f5473e6">
             <seg n="94761bf4">
               Herr Holmbäck har ännu en gång talat om det missöde, som skulle
               ha förekommit särskilt från Kungl. Maj:ts sida, då det gällde
@@ -2969,7 +3008,7 @@
             efter given varsel upplästes och godkändes en så lydande omröstningsproposition:
           </note>
           <pb n="34" facs="https://betalab.kb.se/prot-1946-höst-fk--41/prot_1946_höst_fk__41-034.jp2/_view"/>
-          <note n="38df7666">
+          <note type="date" n="8e4df025">
             Lördagen den 14 december 1946. Nr 41. 35
           </note>
           <note n="46b95bf3">
@@ -3000,7 +3039,7 @@
           <note type="speaker" n="e5ddf121">
             Herr Linder:
           </note>
-          <u who="unknown" xml:id="i-671350ea22419e40-0" n="432df947">
+          <u who="unknown" xml:id="i-432df9471bb1034d-7" n="432df947">
             <seg n="083c15ac">
               Herr talman! Beträffande övergångsbestämmelserna har jag i 'min
               reservation yrkat, att lagen icke skulle äga retroaktiv verkan.
@@ -3047,7 +3086,7 @@
           <note type="speaker" n="322b72ec">
             - Herr statsrådet Zetterberg:
           </note>
-          <u who="unknown" xml:id="i-7d5529550475cf1a-2" n="432df947">
+          <u who="unknown" xml:id="i-432df9471bb1034d-8" n="432df947">
             <seg n="f28e880d">
               Herr talman! Jag har redan tidigare berört denna fråga, och jag
               kan nu huvudsakligen upprepa vad jag då anförde. Jag har liksom
@@ -3064,10 +3103,10 @@
             </seg>
           </u>
           <pb n="35" facs="https://betalab.kb.se/prot-1946-höst-fk--41/prot_1946_höst_fk__41-035.jp2/_view"/>
-          <note n="77abd6ec">
+          <note type="date" n="28eb67dc">
             36 Nr 41. Lördagen den 14 december 1946.
           </note>
-          <u who="unknown" xml:id="i-6b8a6e9523978279-2" n="432df947">
+          <u who="unknown" xml:id="i-432df9471bb1034d-9" n="432df947">
             <seg n="6f19145e">
               Lagförslag om kontroll å överlåtelse av vattenkraft. (Forts.)
               tidigare anförande, att en sådan bestämmelse icke saknar precedensfall.
@@ -3093,7 +3132,7 @@
           <note type="speaker" n="e5ddf121">
             Herr Linder:
           </note>
-          <u who="unknown" xml:id="i-7d5529550475cf1a-3" n="432df947">
+          <u who="unknown" xml:id="i-432df9471bb1034d-10" n="432df947">
             <seg n="98bb6c2f">
               Herr talman! Även jag kanske kan få säga något om lagen om skuldebrev.
               Betänkandet angående lagen om skuldebrev är undertecknat av en
@@ -3121,7 +3160,7 @@
             skuldebreven, och 1 form av undantag angiva de fall där av en
             eller annan anledning den nya lagen skall vinna tillämpning.»
           </note>
-          <u who="unknown" xml:id="i-6b8a6e9523978279-3" n="432df947">
+          <u who="unknown" xml:id="i-432df9471bb1034d-11" n="432df947">
             <seg n="e5d8d9b8">
               Jag vill också minnas från herr justitieministerns anförande,
               att han åberopade något yttrande av lagrådet beträffande skuldebrev.
@@ -3153,6 +3192,12 @@
               det, ty jag har suttit med i utskottet vid behandlingen av denna
               fråga, och jag kan till yttermera visso un-
             </seg>
+          </u>
+          <pb n="36" facs="https://betalab.kb.se/prot-1946-höst-fk--41/prot_1946_höst_fk__41-036.jp2/_view"/>
+          <note type="date" n="da10fcc2">
+            Lördagen den 14 december 1946. Nr 41. 37
+          </note>
+          <u who="unknown" xml:id="i-432df9471bb1034d-12" n="432df947">
             <seg n="e859975c">
               Lagförslag om kontroll å överlåtelse av vattenkraft. (Forts.)
               derstryka, vad herr Wistrand klandrade, nämligen att vi inte ha
@@ -3168,14 +3213,10 @@
               utgå.
             </seg>
           </u>
-          <pb n="36" facs="https://betalab.kb.se/prot-1946-höst-fk--41/prot_1946_höst_fk__41-036.jp2/_view"/>
-          <note n="3f3907fe">
-            Lördagen den 14 december 1946. Nr 41. 37
-          </note>
           <note type="speaker" n="dbdc7d13">
             Herr statsrådet Zetterberg:
           </note>
-          <u who="unknown" xml:id="i-671350ea22419e40-1" n="432df947">
+          <u who="unknown" xml:id="i-432df9471bb1034d-13" n="432df947">
             <seg n="f3e09cbd">
               Jag är ledsen att jag inte kan göra herr Linder till lags — det
               skulle vara mycket angenämt, om jag kunde göra det.
@@ -3204,7 +3245,7 @@
           <note type="speaker" n="1ce82a99">
             Herr Norman:
           </note>
-          <u who="david_norman_bc42aa" xml:id="i-739790f20202a577-1" next="i-eb3e598e433df58d-1" n="ed5cb406">
+          <u who="david_norman_bc42aa" xml:id="i-ed5cb4066e185f5b-4" next="i-ed5cb4066e185f5b-5" n="ed5cb406">
             <seg n="bcfb7dce">
               Herr talman! Jag kanske kan få börja mitt anförande rörande detta
               avsnitt av utlåtandet genom att ge en replik till Wistrand. Han
@@ -3249,10 +3290,10 @@
             </seg>
           </u>
           <pb n="37" facs="https://betalab.kb.se/prot-1946-höst-fk--41/prot_1946_höst_fk__41-037.jp2/_view"/>
-          <note n="d830f0d9">
+          <note type="date" n="a61241b5">
             38 Nr 41. Lördagen den 14 december 1946.
           </note>
-          <u who="david_norman_bc42aa" xml:id="i-eb3e598e433df58d-1" prev="i-739790f20202a577-1" n="ed5cb406">
+          <u who="david_norman_bc42aa" xml:id="i-ed5cb4066e185f5b-5" prev="i-ed5cb4066e185f5b-4" n="ed5cb406">
             <seg n="c081238e">
               Lagförslag om kontroll å överlåtelse av vattenkraft. (Forts.)
               skall tillämpa denna lag: är detta pris skäligt eller icke? Därvid
@@ -3339,7 +3380,7 @@
             till lag om tillägg till kap. 3 kyrkolagen.
           </note>
           <pb n="38" facs="https://betalab.kb.se/prot-1946-höst-fk--41/prot_1946_höst_fk__41-038.jp2/_view"/>
-          <note n="1f3dff0a">
+          <note type="date" n="59197902">
             Lördagen den 14 december 1946. Nr 41. 39
           </note>
           <note n="94817ece">
@@ -3436,7 +3477,7 @@
             av införseln av vissa varor m. m. jämte i ämnet väckta motioner;
           </note>
           <pb n="39" facs="https://betalab.kb.se/prot-1946-höst-fk--41/prot_1946_höst_fk__41-039.jp2/_view"/>
-          <note n="d5252074">
+          <note type="date" n="9377cda7">
             40 Nr 41. Lördagen den 14 december 1946.
           </note>
           <note n="4b6878eb">

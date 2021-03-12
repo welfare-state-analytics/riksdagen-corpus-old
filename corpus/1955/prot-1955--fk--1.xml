@@ -20,7 +20,7 @@
     <encodingDesc>
       <editorialDecl>
         <correction>
-          <p>Some data curation was done. It is documented in db/curation/instances</p>
+          <p>Some data curation was done. It is documented in input/curation/instances</p>
         </correction>
       </editorialDecl>
     </encodingDesc>
@@ -52,6 +52,7 @@
       <front>
         <div type="preface">
           <head>prot-1955--fk--1</head>
+          <docDate when="1955-01-10">1955-01-10</docDate>
           <docDate when="1955-01-11">1955-01-11</docDate>
           <docDate when="1955-01-12">1955-01-12</docDate>
           <docDate when="1955-01-13">1955-01-13</docDate>
@@ -60,6 +61,7 @@
       </front>
       <body>
         <div>
+          <pb n="0" facs="https://betalab.kb.se/prot-1955--fk--1/prot_1955__fk__1-000.jp2/_view"/>
           <note n="3a433340">
             RIKSDAGENS PROTOKOLL
           </note>
@@ -110,7 +112,7 @@
             ....
           </note>
           <pb n="2" facs="https://betalab.kb.se/prot-1955--fk--1/prot_1955__fk__1-002.jp2/_view"/>
-          <note n="de4436e9">
+          <note type="date" n="fea06adc">
             Måndagen den 10 januari 1955
           </note>
           <note n="ff77077a">
@@ -122,7 +124,7 @@
           <note n="63cf21b0">
             lingssal samma dag,
           </note>
-          <note n="bfdffa37">
+          <note type="date" n="8aafe5e3">
             Måndagen den 10 januari, kl. 11.00
           </note>
           <note n="275ad4ad">
@@ -265,7 +267,7 @@
           <note n="a3d5b151">
             Uno Olovsson i
           </note>
-          <note n="de4436e9">
+          <note type="date" n="fea06adc">
             Måndagen den 10 januari 1955
           </note>
           <note n="59ed1580">
@@ -322,7 +324,7 @@
             läkarintyg voro så lydande:
           </note>
           <pb n="4" facs="https://betalab.kb.se/prot-1955--fk--1/prot_1955__fk__1-004.jp2/_view"/>
-          <note n="de4436e9">
+          <note type="date" n="fea06adc">
             Måndagen den 10 januari 1955
           </note>
           <note n="d0412e3c">
@@ -404,121 +406,55 @@
           <note type="speaker" n="16f6e421">
             Herr TALMANNEN anförde:
           </note>
-          <u who="unknown" xml:id="i-b6897e080bad4394-0" n="6d3327c9">
-            <seg n="781048ad">
-              För det förtroende, som genom det nu förrättade valet lämnats
-              talmannen och vice talmännen, anhåller jag på mina egna och vice
-              talmännens vägnar att få framföra vårt vördsamma tack till kammarens
-              ärade ledamöter.
-            </seg>
-            <seg n="1caf6242">
-              På framställning av herr talmannen beslöt kammaren att nu företaga
-              val av sekreterare.
-            </seg>
-            <seg n="9e2383c6">
-              Valet företogs, och befanns efter valförrättningens slut hava
-              blivit till sekreterare utsedd:
-            </seg>
-          </u>
+          <u who="unknown" xml:id="i-6d3327c95cff3ad7-0" n="6d3327c9"/>
+          <note n="f13aa1e1">
+            För det förtroende, som genom det nu förrättade valet lämnats
+            talmannen och vice talmännen, anhåller jag på mina egna och vice
+            talmännens vägnar att få framföra vårt vördsamma tack till kammarens
+            ärade ledamöter.
+          </note>
+          <note n="69aa6a6f">
+            På framställning av herr talmannen beslöt kammaren att nu företaga
+            val av sekreterare.
+          </note>
+          <note n="186bd986">
+            Valet företogs, och befanns efter valförrättningens slut hava
+            blivit till sekreterare utsedd:
+          </note>
           <note n="86e334b3">
             kanslirådet G. H. Berggren med 108 röster.
           </note>
-          <u who="unknown" xml:id="i-abe3c2f026ab4970-0" n="6d3327c9">
-            <seg n="fc7b8719">
-              Kanslirådet Berggren fick nu företräda, underrättades, att han
-              blivit av kammaren vald till sekreterare, och övertog protokollsföringen.
-            </seg>
-            <seg n="6060b910">
-              Tillkännagavs, att Kungl. Maj:t låtit genom offentligt anslag
-              bjuda och kalla riksdagens samtliga ledamöter att tisdagen den
-              11 innevarande månad kl. 11.00 infinna sig i slottskapellet samt,
-              efter förrättad gudstjänst, enligt $ 34 riksdagsordningen begiva
-              sig till rikssalen för att där inhämta vad Kungl. Maj:t hade att
-              meddela riksdagen.
-            </seg>
-            <seg n="602ab8aa">
-              Herr talmannen meddelade, att till kammarens förfogande överlämnats
-              75 inträdesbiljetter till rikssalen vid riksdagens öppnande, och
-              hemställde, att fördelningen av dessa biljetter proportionellt
-              i förhållande till ledamotsantalet i varje valkrets finge ske
-              genom sekreteraren.
-            </seg>
-            <seg n="aac4d9c4">
-              Denna hemställan bifölls.
-            </seg>
+          <note n="9e2811be">
+            Kanslirådet Berggren fick nu företräda, underrättades, att han
+            blivit av kammaren vald till sekreterare, och övertog protokollsföringen.
+          </note>
+          <note n="67c9a098">
+            In fidem W. Stenwall
+          </note>
+          <note n="bb55f890">
+            Tillkännagavs, att Kungl. Maj:t låtit genom offentligt anslag
+            bjuda och kalla riksdagens samtliga ledamöter att tisdagen den
+            11 innevarande månad kl. 11.00 infinna sig i slottskapellet samt,
+            efter förrättad gudstjänst, enligt $ 34 riksdagsordningen begiva
+            sig till rikssalen för att där inhämta vad Kungl. Maj:t hade att
+            meddela riksdagen.
+          </note>
+          <note n="fcf5a9e3">
+            Herr talmannen meddelade, att till kammarens förfogande överlämnats
+            75 inträdesbiljetter till rikssalen vid riksdagens öppnande, och
+            hemställde, att fördelningen av dessa biljetter proportionellt
+            i förhållande till ledamotsantalet i varje valkrets finge ske
+            genom sekreteraren.
+          </note>
+          <note n="5050510a">
+            Denna hemställan bifölls.
+          </note>
+          <u who="unknown" xml:id="i-6d3327c95cff3ad7-1" n="6d3327c9">
             <seg n="065d03fa">
               Justerades ett protokollsutdrag för denna dag. Kammarens sammanträde
               avslutades
             </seg>
-            <seg n="564aa411"/>
-            <seg n="5f4e60a7">
-              Herr talmannen yttrade, att han efter samråd med andra kammarens
-              talman finge föreslå, det första kammaren ville besluta att vid
-              sammanträde onsdagen den 12 innevarande månad företaga följande
-              val, nämligen
-            </seg>
-            <seg n="54bbd47f">
-              dels av fyra ledamöter i talmanskonferensen,
-            </seg>
-            <seg n="2806f057">
-              dels av två kanslideputerade,
-            </seg>
-            <seg n="5ecc0432">
-              dels av sex ledamöter att deltaga i tillsättandet av de i 30
-              8 andra stycket riksdagsstadgan avsedda befattningshavare hos
-              kammaren,
-            </seg>
-            <seg n="97adcd57">
-              dels ock av fyra ledamöter att handhava vården om kammarens ekonomiska
-              angelägenheter.
-            </seg>
-            <seg n="564aa411"/>
-            <seg n="ce9e98d8">
-              Herr talmannen anförde vidare, att han, likaledes efter samråd
-              med andra kammarens talman, finge föreslå, det första kammaren
-              ville besluta att vid sammanträde, som komme att hållas torsdagen
-              den 13 i denna månad, företaga val dels av ledamöter och suppleanter
-              i de ständiga utskotten, dels av revisorer och revisorssuppleanter
-              för granskning av statsverkets, riksbankens och riksgäldskontorets
-              tillstånd, styrelse och förvaltning, dels ock av ombud i Nordiska
-              rådet jämte suppleanter för dessa ombud.
-            </seg>
-            <seg n="aed4f5f9">
-              Vad herr talmannen sålunda föreslagit bifölls.
-            </seg>
-            <seg n="5ca40576">
-              Herr FÖRSTE VICE TALMANNEN er höll på begäran ordet och anförde:
-            </seg>
-            <seg n="0a7369e8">
-              Herr talman! Jag ber att få hemställa, att första kammaren måtte
-              besluta, att antalet suppleanter i de ständiga utskotten, förutom
-              utrikesutskottet, skall vad denna kammare beträffar bestämmas
-              till: för konstitutionsutskottet 12, för statsutskottet 24, för
-              bevillningsutskottet 14,
-            </seg>
-            <seg n="23b8c5ca">
-              för bankoutskottet 10, för första lagutskottet 12, för andra
-              lagutskottet 12, för tredje lagutskottet 12, för jordbruksutskottet
-              12 samt för allmänna beredningsutskottet 16.
-            </seg>
-            <seg n="aac4d9c4">
-              Denna hemställan bifölls.
-            </seg>
-            <seg n="15c6190a">
-              Till åtlydnad av Kungl. Maj:ts kallelse avgingo herr talmannen
-              och kammarens ledamöter kl. 10.45 till slottskapellet, där riksdagspredikan
-              hölls av rektorn vid Lundsbergs skola, teologie doktorn Martin
-              Lindström. Efter gudstjänstens slut begav kammaren sig till rikssalen,
-              i vilken även andra kammaren infann sig.
-            </seg>
-            <seg n="78fac70e">
-              Hans Maj:t Konungen kom tillstädes och öppnade riksdagen med
-              det i protokollsbihanget införda tal.
-            </seg>
           </u>
-          <note n="67c9a098">
-            In fidem W. Stenwall
-          </note>
           <note n="537a044e">
             kl. 11.55. In fidem G. H. Berggren
           </note>
@@ -526,7 +462,7 @@
           <note n="809fb792">
             6 Nr 1
           </note>
-          <note n="adc0e87b">
+          <note type="date" n="2a397488">
             Tisdagen den 11 januari 1955
           </note>
           <note type="date" n="9610118a">
@@ -535,20 +471,86 @@
           <note n="cc260ef0">
             Kammaren sammanträdde kl. 10.30.
           </note>
+          <u who="unknown" xml:id="i-6d3327c95cff3ad7-2" n="6d3327c9"/>
+          <note n="187dd724">
+            Herr talmannen yttrade, att han efter samråd med andra kammarens
+            talman finge föreslå, det första kammaren ville besluta att vid
+            sammanträde onsdagen den 12 innevarande månad företaga följande
+            val, nämligen
+          </note>
+          <note n="21ff2724">
+            dels av fyra ledamöter i talmanskonferensen,
+          </note>
+          <note n="04f43af1">
+            dels av två kanslideputerade,
+          </note>
+          <note n="9644da45">
+            dels av sex ledamöter att deltaga i tillsättandet av de i 30
+            8 andra stycket riksdagsstadgan avsedda befattningshavare hos
+            kammaren,
+          </note>
+          <note n="f317d594">
+            dels ock av fyra ledamöter att handhava vården om kammarens ekonomiska
+            angelägenheter.
+          </note>
           <note n="05ca06e8">
             Detta förslag antogs.
+          </note>
+          <u who="unknown" xml:id="i-6d3327c95cff3ad7-3" n="6d3327c9"/>
+          <note n="4c52a386">
+            Herr talmannen anförde vidare, att han, likaledes efter samråd
+            med andra kammarens talman, finge föreslå, det första kammaren
+            ville besluta att vid sammanträde, som komme att hållas torsdagen
+            den 13 i denna månad, företaga val dels av ledamöter och suppleanter
+            i de ständiga utskotten, dels av revisorer och revisorssuppleanter
+            för granskning av statsverkets, riksbankens och riksgäldskontorets
+            tillstånd, styrelse och förvaltning, dels ock av ombud i Nordiska
+            rådet jämte suppleanter för dessa ombud.
+          </note>
+          <note n="625344be">
+            Vad herr talmannen sålunda föreslagit bifölls.
+          </note>
+          <note n="9d65798d">
+            Herr FÖRSTE VICE TALMANNEN er höll på begäran ordet och anförde:
+          </note>
+          <note n="2710d980">
+            Herr talman! Jag ber att få hemställa, att första kammaren måtte
+            besluta, att antalet suppleanter i de ständiga utskotten, förutom
+            utrikesutskottet, skall vad denna kammare beträffar bestämmas
+            till: för konstitutionsutskottet 12, för statsutskottet 24, för
+            bevillningsutskottet 14,
+          </note>
+          <note n="a025b477">
+            för bankoutskottet 10, för första lagutskottet 12, för andra
+            lagutskottet 12, för tredje lagutskottet 12, för jordbruksutskottet
+            12 samt för allmänna beredningsutskottet 16.
+          </note>
+          <note n="5050510a">
+            Denna hemställan bifölls.
           </note>
           <note n="398d12fb">
             På framställning av herr talmannen beslöt kammaren nu, kl. 10.32,
             att ajournera sina förhandlingar till kl. 10.45.
           </note>
+          <note n="5e9d5d7e">
+            Till åtlydnad av Kungl. Maj:ts kallelse avgingo herr talmannen
+            och kammarens ledamöter kl. 10.45 till slottskapellet, där riksdagspredikan
+            hölls av rektorn vid Lundsbergs skola, teologie doktorn Martin
+            Lindström. Efter gudstjänstens slut begav kammaren sig till rikssalen,
+            i vilken även andra kammaren infann sig.
+          </note>
+          <note n="041ac8bb">
+            Hans Maj:t Konungen kom tillstädes och öppnade riksdagen med
+            det i protokollsbihanget införda tal.
+          </note>
           <note type="speaker" n="d6cfd6bb">
             Herr TALMANNEN framträdde därpå och yttrade:
           </note>
-          <u who="unknown" xml:id="i-b6897e080bad4394-1" n="6d3327c9">
-            <seg n="0f153eda">
-              Allernådigste KONUNG, EDERS MAJESTÄT!
-            </seg>
+          <u who="unknown" xml:id="i-6d3327c95cff3ad7-4" n="6d3327c9"/>
+          <note n="35acbe4c">
+            Allernådigste KONUNG, EDERS MAJESTÄT!
+          </note>
+          <u who="unknown" xml:id="i-6d3327c95cff3ad7-5" n="6d3327c9">
             <seg n="8eec5344">
               En fortgående stegring av produktionskraften och förbättrade
               utkomstmöjligheter för olika grupper utmärker alltjämt i stort
@@ -563,10 +565,10 @@
             </seg>
           </u>
           <pb n="6" facs="https://betalab.kb.se/prot-1955--fk--1/prot_1955__fk__1-006.jp2/_view"/>
-          <note n="adc0e87b">
+          <note type="date" n="2a397488">
             Tisdagen den 11 januari 1955
           </note>
-          <u who="unknown" xml:id="i-abe3c2f026ab4970-1" n="6d3327c9">
+          <u who="unknown" xml:id="i-6d3327c95cff3ad7-6" n="6d3327c9">
             <seg n="6851fb8e">
               fortsatt utveckling av de resultat, som vunnits i kulturellt,
               ekonomiskt och socialt hänseende. Härtill kommer att i och för
@@ -590,6 +592,11 @@
               läge än någonsin tillförne. Kommande omprövning av våra försvarsanstalter
               måste därför ske med sik-
             </seg>
+          </u>
+          <note n="fe992602">
+            Nr 1 7
+          </note>
+          <u who="unknown" xml:id="i-6d3327c95cff3ad7-7" n="6d3327c9">
             <seg n="5cb7d10f">
               te på att även i det nya läget ofärd skall kunna mötas med all
               den värnkraft, vårt folk med sitt tekniska kunnande är i stånd
@@ -600,1449 +607,22 @@
               och hela det kungliga huset betygar jag nu Eders Majestät första
               kammarens undersåtliga vördnad, tillit och trohet.
             </seg>
-            <seg n="b98a043e">
-              Sedan andra kammarens talman därefter i denna kammares namn till
-              Hans Maj:t Konungen framfört andra kammarens undersåtliga vördnad,
-              fingo talmännen vardera mottaga, av herr statsrådet och chefen
-              för finansdepartementet Sköld ett exemplar av Kungl. Maj:ts proposition
-              nr 1, angående statsverkets tillstånd och behov under budgetåret
-              1955/56, samt av herr statsrådet och tillförordnade chefen för
-              justitiedepartementet Lindell ett exemplar av Kungl. Maj:ts berättelse
-              till 1955 års riksdag om vad i rikets styrelse sig tilldragit,
-              varefter ceremonien å rikssalen avslutades och första kammaren
-              enligt beslut, fattat före avtågandet från samlingsrummet, åtskildes
-              vid utgången från rikssalen kl. 12.30.
-            </seg>
-            <seg n="7f3946a3">
-              In fidem
-            </seg>
-            <seg n="57996ffc">
-              Herr Anderson, Carl Albert, anmälde, att han infunnit sig vid
-              riksdagen.
-            </seg>
-            <seg n="13200275">
-              Upplästes följande till kammaren inkomna ansökning:
-            </seg>
-            <seg n="c732c841">
-              Till riksdagens första kammare
-            </seg>
-            <seg n="821b0a43">
-              På grund av utlandsresa, föranledd av ett uppdrag från UNESCO,
-              anhåller jag härmed vördsamt om befrielse tills vidare från riksdagsgöromålen.
-            </seg>
-            <seg n="04434543">
-              Stockholm den 11 januari 1955.
-            </seg>
-            <seg n="b019e0b2">
-              På gjord proposition bifölls ansökningen för den tid, varunder
-              herr Wahlund på grund av ifrågavarande uppdrag vore förhindrad
-              att deltaga i riksdagsarbetet.
-            </seg>
-            <seg n="909be8fd">
-              Företogs val av fyra ledamöter i talmanskonferensen; och befunnos
-              efter valförrättningens slut därtill hava blivit utsedda:
-            </seg>
-            <seg n="ab1c743f">
-              Anställdes val av två kanslideputerade.
-            </seg>
-            <seg n="12e40d07">
-              Herr FÖRSTE VICE TALMANNEN, erhöll på begäran ordet och yttrade:
-            </seg>
-            <seg n="20082311">
-              Herr talman! För vart och ett av de återstående val, som skall
-              förrättas vid detta plenum, ber jag att få avlämna en gemensam
-              lista, vilken godkänts av de av kammaren valda ledamöterna i talmanskonferensen.
-              Varje lista upptar namn på så många personer, som det ifrågavarande
-              valet avser.
-            </seg>
-            <seg n="fcadd900">
-              Herr förste vice talmannen avlämnade därefter en lista, vilken
-              godkänts av
-            </seg>
-            <seg n="6bd83c4c">
-              de av kammaren utsedda ledamöterna i talmanskonferensen och som
-              under partibeteckningen »Den gemensamma listan» upptog följande
-              namn:
-            </seg>
-            <seg n="dac887d6">
-              Heiman
-            </seg>
-            <seg n="42312b21">
-              Fröken Andersson
-            </seg>
-            <seg n="c927e88e">
-              Sedan herr talmannen för kammaren uppläst denna lista, blev densamma
-              på gjord proposition av kammaren godkänd; och förklarades herr
-              Heiman och fröken Andersson hava blivit utsedda till kanslideputerade.
-            </seg>
-            <seg n="b39a64bd">
-              Företogs val av sex ledamöter att deltaga i tillsättandet av
-              de i 30 $ andra stycket riksdagsstadgan avsedda befattningshavare
-              hos kammaren,
-            </seg>
-            <seg n="918c92a1">
-              Herr förste vice talmannen avlämnade en lista, vilken godkänts
-              av de av kammaren utsedda ledamöterna i talmanskonferensen och
-              som under partibeteckningen »Den gemensamma listan» upptog följande
-              namn:
-            </seg>
-            <seg n="28670b8e">
-              Hermansson, Albert Elofsson, Gustaf Anderberg Lindblom
-            </seg>
-            <seg n="428273e5">
-              Franzon
-            </seg>
-            <seg n="d64d0cd8">
-              Bergh
-            </seg>
-            <seg n="ac3dd721">
-              Efter det herr talmannen för kammaren uppläst denna lista, blev
-              densamma på gjord proposition av kammaren godkänd; och förklarades
-              herrar Albert Hermansson, Gustaf Elofsson, Anderberg, Lindblom,
-              Franzon och Bergh hava blivit utsedda till kanslitillsättare.
-            </seg>
-            <seg n="ca8d7b39">
-              Anställdes val av fyra ledamöter att handhava vården om kammarens
-              ekonomiska angelägenheter.
-            </seg>
-            <seg n="30c02a03">
-              Herr förste vice talmannen avlämnade en lista, vilken godkänts
-              av de av kammaren utsedda ledamöterna i talmanskonferensen och
-              som under partibeteck-
-            </seg>
-            <seg n="95691bc2">
-              ningen »Den gemensamma listan» upptog följande namn:
-            </seg>
-            <seg n="1bfa90c6">
-              Sedan herr talmannen för kammaren uppläst denna lista, blev densamma
-              på gjord proposition av kammaren godkänd; och förklarades herrar
-              Birger Andersson, Bengtson, Sunne och Herlitz hava blivit utsedda
-              till ekonomideputerade.
-            </seg>
-            <seg n="fdc45415">
-              Föredrogs och bordlades Kungl. Maj:ts nästlidna dag på rikssalen
-              överlämnade berättelse till 1955 års riksdag om vad i rikets styrelse
-              sig tilldragit.
-            </seg>
-            <seg n="7a33b74d">
-              Vid föredragning av Kungl. Maj:ts under gårdagen på rikssalen
-              överlämnade proposition nr 1, angående statsverkets tillstånd
-              och behov under budgetåret 1955/56, blev densamma bordlagd.
-            </seg>
-            <seg n="2020f9e0">
-              Anmäldes och bordlades följande till kammaren överlämnade kungl.
-              propositioner:
-            </seg>
-            <seg n="ad237777">
-              nr 2, angående utgifter å tilläggsstat II till riksstaten för
-              budgetåret 1954/55;
-            </seg>
-            <seg n="77524768">
-              nr 3, med förslag till lag om bankrörelse, m. m.;
-            </seg>
-            <seg n="8461d9ab">
-              nr 4, med förslag till förordning om Sveriges allmänna hypoteksbank
-              och om landshypoteksföreningar, m. m.;
-            </seg>
-            <seg n="ab05a4d4">
-              nr 5, med förslag till förordning om ändring i förordningen den
-              26 februari 1954 (nr 73) angående tillverkning av brännvin, m.
-              m.;
-            </seg>
-            <seg n="3a2710c0">
-              nr 6, med förslag till förordning om försäljning av alkoholfria
-              drycker;
-            </seg>
-            <seg n="a2b8ea76">
-              nr 7, med förslag till förordning angående ändring i förordningen
-              den 3 maj 1929 (nr 62) om särskild skatt å bensin och motorsprit,
-              m. m.;
-            </seg>
-            <seg n="400b55fb">
-              nr 8, med förslag till förordning om fortsatt giltighet av förordningen
-              den 22 april 1949 angående rätt för Konungen att åsätta särskild
-              tullavgift, m. m.;
-            </seg>
-            <seg n="d7650fe6">
-              nr 9, med förslag till ändrad tid för
-            </seg>
-            <seg n="d175d691">
-              överlämnande till kommun av redovisning över kommunen tillkommande
-              allmän kommunalskatt, m. m.;
-            </seg>
-            <seg n="ff54e45c">
-              nr 10, angående godkännande av tillläggsöverenskommelse till
-              avtalet den 24 december 1936 mellan Sverige och Frankrike för
-              undvikande av dubbelbeskattning och fastställande av bestämmelser
-              angående ömsesidig handräckning beträffande direkta skatter, m.
-              m.;
-            </seg>
-            <seg n="2e7913f4">
-              nr 11, med förslag till lag om ändrad lydelse av 6 kap. 1 $ och
-              30 kap. 6 $ rättegångsbalken;
-            </seg>
-            <seg n="c76167e8">
-              nr 12, med förslag till lag om ändrad lydelse av 3 8 militära
-              rättegångslagen den 30 juni 1948 (nr 472);
-            </seg>
-            <seg n="4b73d29e">
-              nr 13, dels angående godkännande av konvention rörande internationellt
-              erkännande av rätt till luftfartyg, dels ock med förslag till
-              lag om inskrivning av rätt till luftfartyg, m. m.;
-            </seg>
-            <seg n="6fbedc1f">
-              nr 14, med förslag till lag angående ändrad lydelse av 11 $ lagen
-              den 10 maj 1929 (nr 77) om trafikförsäkring å motorfordon;
-            </seg>
-            <seg n="63cba47d">
-              nr 15, med förslag till förordning om ändrad lydelse av 126 $
-              2 mom. taxeringsförordningen den 28 september 1928 (nr 379);
-            </seg>
-            <seg n="5947dcdd">
-              nr 16, med förslag till ändringar i Jagen om rätt till fiske
-              m. m.;
-            </seg>
-            <seg n="52b3c727">
-              nr 17, med förslag till lag om fortsatt giltighet av lagen den
-              21 mars 1952 (nr 98) med särskilda bestämmelser om tvångsmedel
-              i vissa brottmål;
-            </seg>
-            <seg n="18edba6a">
-              nr 18, med förslag till lag om ändrad lydelse av 65 $ utsökningslagen
-              m. m.;
-            </seg>
-            <seg n="b6828934">
-              nr 19, med förslag till lag angående fortsatt giltighet av lagen
-              den 29 juni 1945 (nr 520) om återställande av viss från ockuperat
-              land härrörande egendom, m. m.;
-            </seg>
-            <seg n="36c21965">
-              nr 20, med förslag till lag angående fortsatt giltighet av lagen
-              den 29 november 1946 (nr 722) med särskilda bestämmelser om uppfinningar
-              av betydelse för försvaret;
-            </seg>
-            <seg n="a03db9f5">
-              nr 21, angående ersättning för tjänstgöring på obekväm arbetstid
-              m. m.;
-            </seg>
-            <seg n="ec076bf5">
-              nr 22, angående vissa åtgärder för att främja ett alkoholfritt
-              umgängesliv; samt
-            </seg>
-            <seg n="e4aac953">
-              nr 23, med förslag till lag angående fortsatt giltighet av lagen
-              den 16 februari 1934 (nr 19) om fullgörande i vissa fall
-            </seg>
-            <seg n="6f6ac8f5">
-              10 Nr 1 av betalningsskyldighet i förhållande till utlandet m.
-              m.;
-            </seg>
-            <seg n="97cbdac2">
-              samt Kungl. Maj:ts skrivelse nr 26, om förordnande av en statsrådsledamot
-              att utöva den befattning med riksdagsärenden, som jämlikt $ 46
-              riksdagsordningen tillkommer en ledamot av statsrådet.
-            </seg>
-            <seg n="71f560ee">
-              Anmäldes och bordlades
-            </seg>
-            <seg n="0bc575f8">
-              riksdagens revisorers berättelse om den år 1954 av dem verkställda
-              granskningen av riksbanken;
-            </seg>
-            <seg n="93238eb8">
-              riksdagens revisorers berättelse om den år 1954 av dem verkställda
-              granskningen av riksgäldskontoret;
-            </seg>
-            <seg n="693d2fcf">
-              justitieombudsmannens ämbetsberättelse; och
-            </seg>
-            <seg n="9257dc62">
-              militieombudsmannens &lt;ämbetsberät-
-            </seg>
-            <seg n="153ce772">
-              Anmäldes och bordlades följande under sammanträdet till herr
-              talmannen avlämnade motioner:
-            </seg>
-            <seg n="27a4a827">
-              nr 1, av herr Norling, angående ändrad lydelse av 12 8 lagen
-              om semester;
-            </seg>
-            <seg n="31501ab8">
-              nr 2, av herr Persson, Helmer, m. fl., angående upphävande av
-              lagarna om kollektivavtal och om arbetsdomstol;
-            </seg>
-            <seg n="a217fce3">
-              nr 3, av herr Persson, Helmer, och herr Norling, om genomförande
-              av en allmän arbetarpensionering;
-            </seg>
-            <seg n="c9515050">
-              nr 4, av herr Persson, Helmer, och herr Norling, med förslag
-              till lag om förkortad ordinarie arbetstid för arbetstagare med
-              särskilt påfrestande eller hälsofarligt arbete;
-            </seg>
-            <seg n="e4b1f0e4">
-              nr 5, av herr Persson, Helmer, och herr Norling, om lagfästande
-              av rätten till arbete;
-            </seg>
-            <seg n="3d073f9c">
-              nr 6, av herr Elofsson, Gustaf, m. fl., angående allmän folkomröstning
-              i frågan om eventuell övergång till högertrafik;
-            </seg>
-            <seg n="e918d4db">
-              nr 7, av herr Boman, om åtgärder för tillgodoseende av skogsbrukets
-              behov av arbetskraft; och
-            </seg>
-            <seg n="6dcc7a97">
-              nr 8, av herr Boman, om skrivelse till Kungl. Maj:t rörande tillstånd
-              för International Broadcasting Association AB (IBRA) att inköpa
-              viss utländsk valuta.
-            </seg>
-            <seg n="8ce662ca">
-              På framställning av herr talmannen beslöts att Kungl. Maj:ts
-              propositioner nr 1 och 2 skulle sättas sist på föredragningslistan
-              för morgondagens sammanträde.
-            </seg>
-            <seg n="21b8c8ac">
-              Justerades protokollsutdrag för denna dag, varefter kammarens
-              sammanträde avslutades kl. 11.18.
-            </seg>
-            <seg n="3aee4641">
-              In fidem G. H. Berggren
-            </seg>
-            <seg n="960844e2">
-              Då val av åtta ledamöter i utrikesutskottet nu skulle företagas,
-              begärdes ordet av herr FÖRSTE VICE TALMAN- NEN, som anförde:
-            </seg>
-            <seg n="f4c41703">
-              Herr talman! För alla de val, som skall förrättas vid detta plenum,
-              ber jag att få avlämna gemensamma listor, en för varje val. Listorna
-              har godkänts av de av kammaren valda ledamöterna i talmanskonferensen,
-              och varje lista upptar namn på så många personer, som det ifrågavarande
-              valet avser.
-            </seg>
-            <seg n="94bf849b">
-              Herr förste vice talmannen avlämnade därefter ifrågavarande listor,
-              tjugutre till antalet.
-            </seg>
-            <seg n="9a7165ea">
-              Den lista, som avsåg valet av ledamöter i utrikesutskottet, upptog
-              under partibeteckningen »Den gemensamma listan» följande namn:
-            </seg>
-            <seg n="d8978a87">
-              Sandler Strand Ohlon Sjödahl Näsgård Åman Bergvall Ewerlöf
-            </seg>
-            <seg n="0ab607bf">
-              Sedan denna lista upplästs och av kammaren godkänts, förklarades
-              de å listan upptagna personerna hava blivit utsedda till ledamöter
-              i utrikesutskottet.
-            </seg>
-            <seg n="df920a08">
-              På framställning av herr talmannen beslöts att riksdagens kanslideputerade
-              skulle genom utdrag av protokollet underrättas om kammarens val
-              av ledamöter och suppleanter i utrikesutskottet samt anmodas låta
-              uppsätta och till kamrarna ingiva förslag till den skrivelse i
-              ämnet, som borde till Konungen avlåtas.
-            </seg>
-            <seg n="19d2a74d">
-              Anställdes val av tio ledamöter i konstitutionsutskottet.
-            </seg>
-            <seg n="fc090ad3">
-              Den av herr förste vice talmannen avlämnade lista, som gällde
-              detta val, upptog under partibeteckningen »Den gemensamma listan»
-              följande namn:
-            </seg>
-            <seg n="8f3cdbb0">
-              Elmgren
-            </seg>
-            <seg n="3625bbda">
-              Lindén
-            </seg>
-            <seg n="fdc51ba8">
-              Englund Hällgren Wahlund Damström Pettersson Weiland
-            </seg>
-            <seg n="523eb896">
-              Herlitz Karlsson, Fritiof
-            </seg>
-            <seg n="4d8b5995">
-              Efter det denna lista upplästs och av kammaren godkänts, förklarades
-              de å listan upptagna personerna hava blivit utsedda till ledamöter
-              i konstitutionsutskottet.
-            </seg>
-            <seg n="1f5e3e05">
-              Företogs val av femton ledamöter i statsutskottet.
-            </seg>
-            <seg n="4d2d9a62">
-              Den av herr förste vice talmannen avlämnade lista, som avsåg
-              detta val, upptog under partibeteckningen »Den gemensamma listan»
-              följande namn:
-            </seg>
-            <seg n="30a813d7">
-              Andersson, Karl Karlsson, Gustaf Ohlon
-            </seg>
-            <seg n="f88d3728">
-              Anderson, Iwar Näsgård
-            </seg>
-            <seg n="c5764ceb">
-              Leander Gillström
-            </seg>
-            <seg n="2574d12a">
-              Boman
-            </seg>
-            <seg n="f73417f9">
-              fröken Andersson Näsström Pålsson Hesselbom Sundelin Andersson,
-              Gustaf Persson, Einar
-            </seg>
-            <seg n="c94a3b80">
-              Sedan denna lista upplästs och av kammaren godkänts, förklarades
-              de å listan upptagna personerna hava blivit utsedda till ledamöter
-              i statsutskottet.
-            </seg>
-            <seg n="e63c286e">
-              12 Nr 1 Anställdes val av tio ledamöter i bevillningsutskottet.
-            </seg>
-            <seg n="fc090ad3">
-              Den av herr förste vice talmannen avlämnade lista, som gällde
-              detta val, upptog under partibeteckningen »Den gemensamma listan»
-              följande namn:
-            </seg>
-            <seg n="e252763b">
-              Sjödahl Heiman
-            </seg>
-            <seg n="46efe6a7">
-              Spetz
-            </seg>
-            <seg n="7fcd5555">
-              Franzon Elofsson, Gustaf Ramberg Eriksson Söderquist Velander
-              Niklasson
-            </seg>
-            <seg n="059ad59b">
-              Efter det denna lista upplästs och av kammaren godkänts, förklarades
-              de å listan upptagna personerna hava blivit utsedda till ledamöter
-              i bevillningsutskottet.
-            </seg>
-            <seg n="4a366936">
-              Företogs val av åtta ledamöter i bankoutskottet.
-            </seg>
-            <seg n="4d2d9a62">
-              Den av herr förste vice talmannen avlämnade lista, som avsåg
-              detta val, upptog under partibeteckningen »Den gemensamma listan»
-              följande namn:
-            </seg>
-            <seg n="eb86a0a7">
-              Sundvik Fahlander De Geer Mogård Werner Boo Ewerlöf Wehtje
-            </seg>
-            <seg n="380c374c">
-              Sedan denna lista upplästs och av kammaren godkänts, förklarades
-              de å listan upptagna personerna hava blivit utsedda till ledamöter
-              i bankoutskottet.
-            </seg>
-            <seg n="564aa411"/>
-            <seg n="529db221">
-              Anställdes val första lagutskottet.
-            </seg>
-            <seg n="74ffc17a">
-              av åtta ledamöter i
-            </seg>
-            <seg n="fc090ad3">
-              Den av herr förste vice talmannen avlämnade lista, som gällde
-              detta val, upptog under partibeteckningen »Den gemensamma listan»
-              följande namn:
-            </seg>
-            <seg n="03f163ed">
-              Branting Ahlkvist Lindblom Olofsson, Per Lodenius
-            </seg>
-            <seg n="79af0f5a">
-              fru Sjöström-Bengtsson
-            </seg>
-            <seg n="48978161">
-              Björnberg
-            </seg>
-            <seg n="18b92821">
-              fru Gärde Widemar
-            </seg>
-            <seg n="858ddb52">
-              Efter det denna lista upplästs och av
-            </seg>
-            <seg n="ad549bfd">
-              kammaren godkänts, förklarades de å listan upptagna personerna
-              hava blivit utsedda till ledamöter i första lagutskottet.
-            </seg>
-            <seg n="15f47e5d">
-              Företogs val av åtta ledamöter i andra lagutskottet.
-            </seg>
-            <seg n="4d2d9a62">
-              Den av herr förste vice talmannen avlämnade lista, som avsåg
-              detta val, upptog under partibeteckningen »Den gemensamma listan»
-              följande namn:
-            </seg>
-            <seg n="e0451617">
-              Norman Elowsson, Nils Sunne Svensson, Axel fru Svenson fru Carlqvist
-              Huss Magnusson
-            </seg>
-            <seg n="c4363f76">
-              Sedan denna lista upplästs och av kammaren godkänts, förklarades
-              de å listan upptagna personerna hava blivit utsedda till ledamöter
-              i andra lagutskottet.
-            </seg>
-            <seg n="61972812">
-              Anställdes val av åtta ledamöter i tredje lagutskottet.
-            </seg>
-            <seg n="fc090ad3">
-              Den av herr förste vice talmannen avlämnade lista, som gällde
-              detta val, upptog under partibeteckningen »Den gemensamma listan»
-              följande namn:
-            </seg>
-            <seg n="314cce26">
-              Hermansson, Albert Lindahl
-            </seg>
-            <seg n="306245c7">
-              Osvald
-            </seg>
-            <seg n="348f2f98">
-              Grym
-            </seg>
-            <seg n="b8159dfe">
-              Nilzon, Ivar Jansson, Axel Hermansson, Herbert Ohlsson, Ebbe
-            </seg>
-            <seg n="cfe4fd12">
-              Efter det denna lista upplästs och av kammaren godkänts, förklarades
-              de å listan upptagna personerna hava blivit utsedda till ledamöter
-              i tredje lagutskottet.
-            </seg>
-            <seg n="d9c87eab">
-              Företogs val av tio ledamöter i jordbruksutskottet.
-            </seg>
-            <seg n="4d2d9a62">
-              Den av herr förste vice talmannen avlämnade lista, som avsåg
-              detta val, upptog under partibeteckningen »Den gemensamma listan»
-              följande namn:
-            </seg>
-            <seg n="c8b10710">
-              Anderberg Svedberg, Lage Nord
-            </seg>
-            <seg n="61189e79">
-              Jonsson, Jon Tjällgren Andersson, Bertil Sundberg Hansson Eskilsson
-              Nilsson, Bror
-            </seg>
-            <seg n="6babeecc">
-              Sedan denna lista upplästs och av kammaren godkänts, förklarades
-              de å listan upptagna personerna hava blivit utsedda till ledamöter
-              i jordbruksutskottet.
-            </seg>
-            <seg n="b3f3a3be">
-              Anställdes val av tolv ledamöter i allmänna beredningsutskottet.
-            </seg>
-            <seg n="fc090ad3">
-              Den av herr förste vice talmannen avlämnade lista, som gällde
-              detta val, upptog under partibeteckningen »Den gemensamma listan»
-              följande namn:
-            </seg>
-            <seg n="214309f1">
-              Nr 1 13 Nilsson, Hjalmar Jonsson, John Wiktor Andersson, Axel
-            </seg>
-            <seg n="b97c2e79">
-              fru Wallentheim Andersson, Lars Nyström
-            </seg>
-            <seg n="014cf2fd">
-              Jansson, Erik Persson, Johan Arrhén
-            </seg>
-            <seg n="a2e65e41">
-              Holmqvist
-            </seg>
-            <seg n="8cb08fb8">
-              Persson, Karl Lundström
-            </seg>
-            <seg n="5d5a93b5">
-              Efter det denna lista upplästs och av kammaren godkänts, förklarades
-              de å listan upptagna personerna hava blivit utsedda till ledamöter
-              i allmänna beredningsutskottet.
-            </seg>
-            <seg n="87d11639">
-              Företogs val av sex revisorer för granskning av statsverkets,
-              riksbankens och riksgäldskontorets tillstånd, styrelse och förvaltning
-              samt sex suppleanter för dessa revisorer.
-            </seg>
-            <seg n="be934476">
-              Den av herr förste vice talmannen avlämnade lista, som avsåg
-              detta val, hade partibeteckningen »Den gemensamma listan» och
-              var av följande utseende:
-            </seg>
-            <seg n="564aa411"/>
-            <seg n="2b22a10c">
-              Hermansson, J. Albert Ledamot av första kammaren
-            </seg>
-            <seg n="b367c82a">
-              Andersson, K. Bertil Ledamot av första kammaren
-            </seg>
-            <seg n="564aa411"/>
-            <seg n="6e3ff81c">
-              Branting, Georg Ledamot av första kammaren
-            </seg>
-            <seg n="d6439d58">
-              Heiiman, Gustaf E. Ledamot av första kammaren
-            </seg>
-            <seg n="564aa411"/>
-            <seg n="682584b4">
-              Sundelin, Gustaf V. Ledamot av första kammaren
-            </seg>
-            <seg n="38799ae2">
-              Englund, Erik W. Ledamot av första kammaren
-            </seg>
-            <seg n="564aa411"/>
-            <seg n="1cc6b939">
-              Sundvik, Anders Ledamot av första kammaren
-            </seg>
-            <seg n="0d53269c">
-              Anderberg, H. Rudolf Ledamot av första kammaren
-            </seg>
-            <seg n="564aa411"/>
-            <seg n="3b709291">
-              Andersson, Lars Ledamot av första kammaren
-            </seg>
-            <seg n="0cfdbb20">
-              Persson, Per, i Norrby Ledamot av andra kammaren
-            </seg>
-            <seg n="564aa411"/>
-            <seg n="daa83d02">
-              Bergh, K. Ragnar Ledamot av första kammaren
-            </seg>
-            <seg n="564aa411"/>
-            <seg n="8cf24731">
-              Sedan denna lista upplästs och av kammaren godkänts, förklarades
-              hava blivit utsedda till statsrevisorer herrar Albert Hermansson,
-              Branting, Sundelin, Sundvik, Lars Andersson och Bergh
-            </seg>
-            <seg n="564aa411"/>
-            <seg n="6e2231a4">
-              Arrhén, C. Erik Th. Ledamot av första kammaren
-            </seg>
-            <seg n="564aa411"/>
-            <seg n="f6284a8e">
-              samt till suppleanter för dessa respektive herrar Bertil Andersson,
-              Heiäman, Englund, Anderberg, Per Persson och Arrhén.
-            </seg>
-            <seg n="e3e6bfdb">
-              14 Nr 1 Anställdes val av åtta ombud i Nordiska rådet för tiden
-              intill dess val nästa gång äger rum.
-            </seg>
-            <seg n="fc090ad3">
-              Den av herr förste vice talmannen avlämnade lista, som gällde
-              detta val, upptog under partibeteckningen »Den gemensamma listan»
-              följande namn:
-            </seg>
-            <seg n="60ab4b78">
-              Efter det denna lista upplästs och av kammaren godkänts, förklarades
-              de å listan upptagna personerna hava blivit utsedda till ombud
-              i Nordiska rådet.
-            </seg>
-            <seg n="6a4b37db">
-              På framställning av herr talmannen beslöts att riksdagens kanslideputerade
-              skulle genom utdrag av protokollet underrättas om kammarens val
-              av ombud och suppleanter i Nordiska rådet samt anmodas låta uppsätta
-              och till kamrarna ingiva förslag dels till förordnanden för de
-              valda, dels ock till skrivelse till Konungen med anmälan om de
-              förrättade valen.
-            </seg>
-            <seg n="009d9de7">
-              Företogs val av åtta suppleanter i utrikesutskottet.
-            </seg>
-            <seg n="4d2d9a62">
-              Den av herr förste vice talmannen avlämnade lista, som avsåg
-              detta val, upptog under partibeteckningen »Den gemensamma listan»
-              följande namn:
-            </seg>
-            <seg n="bd265c54">
-              Karlsson, Gustaf Elmgren Lindblom Andersson, Birger Werner Pettersson
-            </seg>
-            <seg n="41c46c95">
-              Domö
-            </seg>
-            <seg n="2700d7e9">
-              Nilsson, Alfred
-            </seg>
-            <seg n="c750425e">
-              Sedan denna lista upplästs och av kammaren godkänts, förklarades
-              de å listan upptagna personerna hava blivit utsedda till suppleanter
-              i utrikesutskottet.
-            </seg>
-            <seg n="a6a8dd5d">
-              Anställdes val av tolv suppleanter i konstitutionsutskottet.
-            </seg>
-            <seg n="fc090ad3">
-              Den av herr förste vice talmannen avlämnade lista, som gällde
-              detta val, upptog under partibeteckningen »Den gemensamma listan»
-              följande namn:
-            </seg>
-            <seg n="d9817ea8">
-              Olsson, Erik Olsén
-            </seg>
-            <seg n="ea6e2310">
-              Ollén Anderson, Carl Albert Nilsson, Bror Elfving
-            </seg>
-            <seg n="90223640">
-              Sörlin Lundström Arrhén Karlsson, Göran Larsson, Sigfrid Bergvall
-            </seg>
-            <seg n="7816181e">
-              Efter det denna lista upplästs och av kammaren godkänts, förklarades
-              de å listan upptagna personerna hava blivit utsedda till suppleanter
-              i konstitutionsutskottet.
-            </seg>
-            <seg n="f8c91dfd">
-              Företogs val av tjugufyra suppleanter i statsutskottet.
-            </seg>
-            <seg n="4d2d9a62">
-              Den av herr förste vice talmannen avlämnade lista, som avsåg
-              detta val, upptog under partibeteckningen »Den gemensamma listan»
-              följande namn:
-            </seg>
-            <seg n="9b9d1772">
-              Andersson, Birger Persson, Ragnar Nilsson, Alfred Thun
-            </seg>
-            <seg n="adfc3ab5">
-              Lodenius Bergman Svedberg, Erik Andersson, Axel Bergh
-            </seg>
-            <seg n="bba2ea8c">
-              Holmqvist Larsson, Nils Theodor Olsén
-            </seg>
-            <seg n="e56a8c85">
-              Sunne
-            </seg>
-            <seg n="27b2fddf">
-              Elfving Svensson, Rikard fru Svenson fröken Ranmark Aastrup Bengtson
-            </seg>
-            <seg n="3729a237">
-              Arrhén
-            </seg>
-            <seg n="15f9dfdc">
-              Svärd
-            </seg>
-            <seg n="5d6a56fd">
-              Nilzon, Ivar Jacobsson
-            </seg>
-            <seg n="41c46c95">
-              Domö
-            </seg>
-            <seg n="27ec0a24">
-              Sedan denna lista upplästs och av kammaren godkänts, förklarades
-              de å listan upptagna personerna hava blivit utsedda till suppleanter
-              i statsutskottet.
-            </seg>
-            <seg n="8e336751">
-              Anställdes val av fjorton suppleanter i bevillningsutskottet.
-            </seg>
-            <seg n="fc090ad3">
-              Den av herr förste vice talmannen avlämnade lista, som gällde
-              detta val, upptog under partibeteckningen »Den gemensamma listan»
-              följande namn:
-            </seg>
-            <seg n="b46c21df">
-              Snygg Johansson, Rune Johansson, Anders Thun
-            </seg>
-            <seg n="15d8cfc6">
-              Werner Jansson, Erik fröken Ranmark Kronstrand Wehtje
-            </seg>
-            <seg n="d0773bc0">
-              Möller
-            </seg>
-            <seg n="3e36fd0e">
-              Bengtson
-            </seg>
-            <seg n="dabc3885">
-              Falk
-            </seg>
-            <seg n="3736aa67">
-              Danmans Magnusson
-            </seg>
-            <seg n="cd1ee54c">
-              Efter det denna lista upplästs och av kammaren godkänts, förklarades
-              de å listan upptagna personerna hava blivit utsedda till suppleanter
-              i bevillningsutskottet.
-            </seg>
-            <seg n="92fd8ae1">
-              Företogs val av tio suppleanter i bankoutskottet.
-            </seg>
-            <seg n="4d2d9a62">
-              Den av herr förste vice talmannen avlämnade lista, som avsåg
-              detta val, upptog under partibeteckningen »Den gemensamma listan»
-              följande namn:
-            </seg>
-            <seg n="0f8a2f94">
-              Krägel Elowsson, Nils Kronstrand Strandler Eliasson Johansson,
-              Rune Geijer
-            </seg>
-            <seg n="70715e25">
-              Danmans Björnberg Wahlund
-            </seg>
-            <seg n="7fb037d9">
-              Sedan denna lista upplästs och av kammaren godkänts, förklarades
-              de å listan upptagna personerna hava blivit utsedda till suppleanter
-              i bankoutskottet.
-            </seg>
-            <seg n="ffbb1abf">
-              Nr 1 15 Anställdes val av tolv suppleanter i första lagutskottet,
-            </seg>
-            <seg n="fc090ad3">
-              Den av herr förste vice talmannen avlämnade lista, som gällde
-              detta val, upptog under partibeteckningen »Den gemensamma listan»
-              följande namn:
-            </seg>
-            <seg n="12e0c915">
-              Lindgren
-            </seg>
-            <seg n="5f00c3c3">
-              Jonsson, John Wiktor Göransson Pettersson
-            </seg>
-            <seg n="cf93d670">
-              Franzén
-            </seg>
-            <seg n="c97f9a85">
-              Nyström
-            </seg>
-            <seg n="ecdacc8f">
-              fru Wallentheim Englund
-            </seg>
-            <seg n="b315dede">
-              Herlitz
-            </seg>
-            <seg n="bbf77043">
-              Svedberg, Erik Johansson, Theodor Ollén
-            </seg>
-            <seg n="abb96580">
-              Efter det denna lista upplästs och av kammaren godkänts, förklarades
-              de å listan upptagna personerna hava blivit utsedda till suppleanter
-              i första lagutskottet.
-            </seg>
-            <seg n="a12013dc">
-              Företogs val av tolv suppleanter i andra lagutskottet.
-            </seg>
-            <seg n="4d2d9a62">
-              Den av herr förste vice talmannen avlämnade lista, som avsåg
-              detta val, upptog under partibeteckningen »Den gemensamma listan»
-              följande namn:
-            </seg>
-            <seg n="afb72452">
-              Strand
-            </seg>
-            <seg n="43186ac9">
-              Åman
-            </seg>
-            <seg n="4bea287b">
-              Johansson, Anders Bergman
-            </seg>
-            <seg n="5bfb99d0">
-              Larsson, Nils Theodor Grönkvist Karlsson, Göran fru Hamrin-Thorell
-              Svärd
-            </seg>
-            <seg n="bdb48de8">
-              Andersson, Alvar Alexanderson Eskilsson
-            </seg>
-            <seg n="b197f283">
-              Sedan denna lista upplästs och av kammaren godkänts, förklarades
-              de å listan upptagna personerna hava blivit utsedda till suppleanter
-              i andra lagutskottet.
-            </seg>
-            <seg n="80c6479f">
-              Anställdes val av tolv suppleanter i tredje lagutskottet.
-            </seg>
-            <seg n="c129f3a1">
-              Den av herr förste vice talmannen avlämnade lista, som gällde
-              detta val, upp-
-            </seg>
-            <seg n="8e46d343">
-              Torsdagen den tog under partibeteckningen »Den gemensamma listan»
-              följande namn:
-            </seg>
-            <seg n="d8aaff06">
-              Krägel
-            </seg>
-            <seg n="12e0c915">
-              Lindgren
-            </seg>
-            <seg n="46efe6a7">
-              Spetz
-            </seg>
-            <seg n="43c822e2">
-              Boo
-            </seg>
-            <seg n="506a9bab">
-              Pålsson
-            </seg>
-            <seg n="1c2a1de8">
-              Persson, Ragnar
-            </seg>
-            <seg n="75eb763e">
-              Ohlsson, William
-            </seg>
-            <seg n="828773ff">
-              Hansson
-            </seg>
-            <seg n="f7cc8aec">
-              Eskilsson
-            </seg>
-            <seg n="254d52c6">
-              Olsson, Erik
-            </seg>
-            <seg n="bbd4a96a">
-              Carlsson, Georg
-            </seg>
-            <seg n="5bb7e58e">
-              Alexanderson.
-            </seg>
-            <seg n="e07d0945">
-              Efter det denna lista upplästs och av kammaren godkänts, förklarades
-              de å listan upptagna personerna hava blivit utsedda till suppleanter
-              i tredje lagutskottet.
-            </seg>
-            <seg n="3e36d7c9">
-              Företogs val av tolv suppleanter i jordbruksutskottet.
-            </seg>
-            <seg n="4d2d9a62">
-              Den av herr förste vice talmannen avlämnade lista, som avsåg
-              detta val, upptog under partibeteckningen »Den gemensamma listan»
-              följande namn:
-            </seg>
-            <seg n="51a59bd5">
-              Nilsson, Hjalmar Grym
-            </seg>
-            <seg n="768b903e">
-              Persson, Johan Mossberger Franzén
-            </seg>
-            <seg n="599ba457">
-              Snygg
-            </seg>
-            <seg n="33e951b7">
-              Ohlsson, William Olofsson, Uno Ohlsson, Ebbe Persson, Einar Larsson,
-              Sigfrid Björnberg.
-            </seg>
-            <seg n="963d3a35">
-              Sedan denna lista upplästs och av kammaren godkänts, förklarades
-              de å listan
-            </seg>
-            <seg n="ff1be17b">
-              upptagna personerna hava blivit utsedda till suppleanter i jordbruksutskottet.
-            </seg>
-            <seg n="0bf9f177">
-              Anställdes val av sexton suppleanter i allmänna beredningsutskottet.
-            </seg>
-            <seg n="fc090ad3">
-              Den av herr förste vice talmannen avlämnade lista, som gällde
-              detta val, upptog under partibeteckningen »Den gemensamma listan»
-              följande namn:
-            </seg>
-            <seg n="a5b56854">
-              Strandler Grönkvist
-            </seg>
-            <seg n="e6aec5ee">
-              Söderquist Anderson, Carl Albert Karlsson, Fritiof Svensson,
-              Rikard Geijer
-            </seg>
-            <seg n="47cd05f6">
-              Nord
-            </seg>
-            <seg n="d64d0cd8">
-              Bergh
-            </seg>
-            <seg n="d0773bc0">
-              Möller
-            </seg>
-            <seg n="f063a564">
-              Carlsson, Georg Sörlin
-            </seg>
-            <seg n="f2f6504b">
-              fru Gärde Widemar Svärd
-            </seg>
-            <seg n="b53b4aa0">
-              fru Hamrin-Thorell fru Nilsson.
-            </seg>
-            <seg n="dfdbf46d">
-              Efter det denna lista upplästs och av kammaren godkänts, förklarades
-              de å listan upptagna personerna hava blivit utsedda till suppleanter
-              i allmänna beredningsutskottet.
-            </seg>
-            <seg n="48df1daf">
-              Företogs val av åtta suppleanter för de av kammaren valda ombuden
-              i Nordiska rådet för tiden intill dess val nästa gång äger rum.
-            </seg>
-            <seg n="4d2d9a62">
-              Den av herr förste vice talmannen avlämnade lista, som avsåg
-              detta val, upptog under partibeteckningen »Den gemensamma listan»
-              följande namn:
-            </seg>
-            <seg n="f4f59427">
-              Sjödahl
-            </seg>
-            <seg n="d6c41685">
-              Gillström Andersson, Axel Ahlkvist
-            </seg>
-            <seg n="2d260b0a">
-              Pålsson Pettersson Bengtson
-            </seg>
-            <seg n="eced38db">
-              fröken Andersson.
-            </seg>
-            <seg n="8389c9cb">
-              Sedan denna lista upplästs och av kammaren godkänts, förklarades
-              de å listan upptagna personerna hava blivit utsedda till suppleanter
-              i Nordiska rådet.
-            </seg>
-            <seg n="1a508ec0">
-              Föredrogs och lades till handlingarna Kungl. Maj:ts på rikssalen
-              överlämnade berättelse till 1955 års riksdag om vad i rikets styrelse
-              sig tilldragit.
-            </seg>
-            <seg n="1151bcf1">
-              Föredrogos och hänvisades till bankoutskottet Kungl. Maj:ts propositioner:
-            </seg>
-            <seg n="37dca451">
-              nr 4, med förslag till förordning om Sveriges allmänna hypoteksbank
-              och om landshypoteksföreningar, m, m.
-            </seg>
-            <seg n="f84faeea">
-              Föredrogos och hänvisades till bevillningsulskottet Kungl. Maj:ts
-              propositioner:
-            </seg>
-            <seg n="ab05a4d4">
-              nr 5, med förslag till förordning om ändring i förordningen den
-              26 februari 1954 (nr 73) angående tillverkning av brännvin, m.
-              m.;
-            </seg>
-            <seg n="3a2710c0">
-              nr 6, med förslag till förordning om försäljning av alkoholfria
-              drycker;
-            </seg>
-            <seg n="e6d984e9">
-              nr 7, med förslag till förordning angående ändring i förordningen
-              den 3 maj 1929 (nr 62) om särskild skatt å bensin och motorsprit,
-              m. m.; samt
-            </seg>
-            <seg n="ef2867f0">
-              nr 8, med förslag till förordning om fortsatt giltighet av förordningen
-              den 22 april 1949 angående rätt för Konungen att åsätta särskild
-              tullavgift, m. m.
-            </seg>
-            <seg n="afea0f68">
-              Föredrogs och hänvisades till konstitutionsutskottet Kungl. Maj:ts
-              proposition nr 9, med förslag till ändrad tid för överlämnande
-              till kommun av redovisning över kommunen tillkommande allmän kommunalskatt,
-              m. m.
-            </seg>
-            <seg n="a13c8d6b">
-              Föredrogs och hänvisades till bevillningsutskottet Kungl. Maj:ts
-              proposition nr 10, angående godkännande av tillläggsöverenskommelse
-              till avtalet den 24 december 1936 mellan Sverige och Frankrike
-              för undvikande av dubbelbeskattning och fastställande av bestämmelser
-              angående ömsesidig handräckning beträffande direkta skatter, m,
-              m.
-            </seg>
-            <seg n="cfae143e">
-              och hänvisades till belagutskott Kungl. Maj:ts
-            </seg>
-            <seg n="403347db">
-              Föredrogos handling av propositioner:
-            </seg>
-            <seg n="2e7913f4">
-              nr 11, med förslag till lag om ändrad lydelse av 6 kap. 1 $ och
-              30 kap. 6 $ rättegångsbalken;
-            </seg>
-            <seg n="8a7a2fa1">
-              nr 12, med förslag till lag om ändrad lydelse av 3 $ militära
-              rättegångslagen den 30 juni 1948 (nr 472);
-            </seg>
-            <seg n="e446557b">
-              nr 13, dels angående godkännande av konvention rörande internationellt
-              er-
-            </seg>
-            <seg n="ac26ea74">
-              kännande av rätt till luftfartyg, dels ock med förslag till lag
-              om inskrivning av rätt till luftfartyg, m. m.; samt
-            </seg>
-            <seg n="cabb8085">
-              nr 14, med förslag till lag angående ändrad lydelse av 11 8 lagen
-              den 10 maj 1929 (nr 77) om trafikförsäkring å motorfordon.
-            </seg>
-            <seg n="dea2430b">
-              Föredrogs och hänvisades till bevillningsutskottet Kungl. Maj:ts
-              proposition nr 15, med förslag till förordning om ändrad lydelse
-              av 126 $ 2 mom. taxeringsförordningen den 28 september 1928 (nr
-              379).
-            </seg>
-            <seg n="294c8510">
-              Föredrogos och hänvisades till behandling av lagutskott Kungl.
-              Maj:ts propositioner:
-            </seg>
-            <seg n="e8acb0d2">
-              nr 16, med förslag till ändringar i lagen om rätt till fiske
-              m. m.;
-            </seg>
-            <seg n="52b3c727">
-              nr 17, med förslag till lag om fortsatt giltighet av lagen den
-              21 mars 1952 (nr 98) med särskilda bestämmelser om tvångsmedel
-              i vissa brottmål;
-            </seg>
-            <seg n="18edba6a">
-              nr 18, med förslag till lag om ändrad lydelse av 65 $ utsökningslagen
-              m. m.;
-            </seg>
-            <seg n="2b8c56d6">
-              nr 19, med förslag till lag angående fortsatt giltighet av lagen
-              den 29 juni 19435 (nr 520) om återställande av viss från ockuperat
-              land härrörande egendom, m. m.; och
-            </seg>
-            <seg n="0a403c62">
-              nr 20, med förslag till lag angående fortsatt giltighet av lagen
-              den 29 november 1946 (nr 722) med särskilda bestämmelser om uppfinningar
-              av betydelse för försvaret.
-            </seg>
-            <seg n="600bfd98">
-              Föredrogos och hänvisades till statsutskottet Kungl. Maj:ts propositioner:
-            </seg>
-            <seg n="58f77ad4">
-              nr 21, angående ersättning för tjänstgöring på obekväm arbetstid
-              m. m.; och
-            </seg>
-            <seg n="1b56700e">
-              nr 22, angående vissa åtgärder för att främja ett alkoholfritt
-              umgängesliv.
-            </seg>
-            <seg n="b5d60c9b">
-              Föredrogs och hänvisades till behandling av lagutskott Kungl.
-              Maj:ts proposition nr 23, med förslag till lag angående fortsatt
-              giltighet av lagen den 16 februari 1934 (nr 19) om fullgörande
-              i vissa fall av betalningsskyldighet i förhållande till utlandet
-              m. m,
-            </seg>
-            <seg n="515864d4">
-              18 Nr 1 Torsdagen den
-            </seg>
-            <seg n="337cc681">
-              : Föredrogs och lades till handlingarna Kungl. Maj:ts skrivelse
-              nr 26, med tillkännagivande, att Kungl. Maj:t förordnat statsrådet
-              Ingvar Lindell att under innevarande riksdag utöva den befattning
-              med riksdagsärenden, som jämlikt 8 46 riksdagsordningen tillkommer
-              en ledamot av statsrådet;
-            </seg>
-            <seg n="1c993340">
-              och skulle underrättelse om denna skrivelses innehåll genom utdrag
-              av protokollet meddelas vederbörande utskott samt riksdagens kanslideputerade.
-            </seg>
-            <seg n="753fb3ab">
-              Föredrogos och hänvisades till behandling av lagutskott nedannämnda
-              motioner:
-            </seg>
-            <seg n="27a4a827">
-              nr 1, av herr Norling, angående ändrad lydelse av 12 8 lagen
-              om semester;
-            </seg>
-            <seg n="31501ab8">
-              nr 2, av herr Persson, Helmer, m. fl., angående upphävande av
-              lagarna om kollektivavtal och om arbetsdomstol;
-            </seg>
-            <seg n="a217fce3">
-              nr 3, av herr Persson, Helmer, och herr Norling, om genomförande
-              av en allmän arbetarpensionering;
-            </seg>
-            <seg n="c9515050">
-              nr 4, av herr Persson, Helmer, och herr Norling, med förslag
-              till lag om förkortad ordinarie arbetstid för arbetstagare med
-              särskilt påfrestande eller hälsofarligt arbete;
-            </seg>
-            <seg n="5c6e0c40">
-              nr 5, av herr Persson, Helmer, och herr Norling, om lagfästande
-              av rätten till arbete; samt
-            </seg>
-            <seg n="8cbbb0a7">
-              nr 6, av herr Elofsson, Gustaf, m. fl., angående allmän folkomröstning
-              i frågan om eventuell övergång till högertrafik.
-            </seg>
-            <seg n="53639661">
-              Föredrogs och hänvisades till jordbruksutskottet herr Bomans
-              motion, nr 7, om åtgärder för tillgodoseende av skogsbrukets behov
-              av arbetskraft.
-            </seg>
-            <seg n="fef4d106">
-              Föredrogs och hänvisades till bankoutskottet herr Bomans motion,
-              nr 8, om skrivelse till Kungl. Maj:t rörande tillstånd för International
-              Broadcasting Association AB (IBRA) att inköpa viss utländsk valuta.
-            </seg>
-            <seg n="564aa411"/>
-            <seg n="c098fadf">
-              Föredrogs och hänvisades till bankoutskottet riksdagens revisorers
-              berättel-
-            </seg>
-            <seg n="20e5a851">
-              se om den år 1954 av dem verkställda granskningen av riksbanken.
-            </seg>
-            <seg n="8493d9e4">
-              Föredrogs och hänvisades till bankoutskottet riksdagens revisorers
-              berättelse om den år 1954 av dem verkställda granskningen av riksgäldskontoret.
-            </seg>
-            <seg n="d7ba85d1">
-              Föredrogos och hänvisades till behandling av lagutskott
-            </seg>
-            <seg n="c2e37706">
-              dels justitieombudsmannens till innevarande riksdag avgivna ämbetsberättelse;
-            </seg>
-            <seg n="26da659a">
-              dels ock militieombudsmannens vid innevarande riksmöte avgivna
-              ämbetsberättelse.
-            </seg>
-            <seg n="2020f9e0">
-              Anmäldes och bordlades följande till kammaren överlämnade kungl.
-              propositioner:
-            </seg>
-            <seg n="e12cbbb1">
-              nr 29, angående fortsatt disposition av vissa äldre anslag;
-            </seg>
-            <seg n="6e4e72a9">
-              nr 30, angående befrielse från viss ersättningsskyldighet till
-              kronan;
-            </seg>
-            <seg n="cf5e6e03">
-              nr 31, angående bestridande av vissa haverikostnader; och
-            </seg>
-            <seg n="c83e99b5">
-              nr 32, angående täckande av vissa medelsbrister, redovisade såsom
-              propriehbalanser i försvarets civilförvaltnings räkenskaper.
-            </seg>
-            <seg n="564aa411"/>
-            <seg n="28669375">
-              Anmäldes och bordlades riksdagens revisorers berättelse över
-              den år 1954 av dem verkställda granskningen angående statsverket.
-            </seg>
-            <seg n="c19c8486">
-              Upplästes och lades till handlingarna följande till kammaren
-              inkomna
-            </seg>
-            <seg n="3d3e1cee">
-              Protokoll, hållet vid sammanträde med herr talmannen och herrar
-              vice lalmän i riksdagens första kammare samt de kammarens ledamöter,
-              som blivit utsedda att jämte dem tillsätta befattningshavare hos
-              kammaren, den 12 januari 1955.
-            </seg>
-            <seg n="038d0c62">
-              Till en början beslöto herrar deputerade, att kanslitjänstemännen
-              skulle tills vidare utgöras av en notarie, tre förste stenografer,
-              tolv stenografer, en reservstenograf, en förste kanslist, en kanslist
-              tillika registrator och fyra kanslister,
-            </seg>
-            <seg n="85071ee7">
-              Herrar deputerade antogo till
-            </seg>
-            <seg n="2dac8f3c">
-              förste stenografer: Elfner, Erik, Lundman, Albert, och Stäckig,
-              Sven, redaktör;
-            </seg>
-            <seg n="690ba247">
-              stenografer: Hedelius, Erik, kammarrättsråd, Ekman, Ernst L,
-              redaktör, Julin, Gösta, redaktör, Eriksson, Arnold, fil. kand.,
-              Hähnel, Folke, redaktör, Grass, Nils, kanslisekreterare, Skarvall,
-              Karl-Erik, sekreterare, Lagerström, Lennart, sekreterare, Berggren,
-              Erik, förste kanslisekrete-
-            </seg>
-            <seg n="ebaccb71">
-              rare,
-            </seg>
-            <seg n="fa87cb27">
-              Elfner, Tord, amanuens, Wickberg, Sven, fil. stud., och Gunnarson,
-              Bengt, jur. stud.;
-            </seg>
-            <seg n="b40c4b04">
-              reservstenograf: Söderström, Rune, redaktör;
-            </seg>
-            <seg n="d7bbec36">
-              förste kanslist: Stenwall, Wilhelm, byråsekreterare;
-            </seg>
-            <seg n="59d0d8ce">
-              kanslist, tillika registrator: Vide, Torgny; samt kanslister:
-              von Krusenstjerna, Gunnar, kanslisekreterare, Gemert, Solveig,
-              fru, Schenning, Göte, af Petersens, Fritz, förste kanslisekreterare.
-            </seg>
-            <seg n="6a77c90f">
-              Det skulle antecknas, att fru Gemert redan den 3, Stenwall den
-              7, von Krusenstjerna den 8 samt Wistrand, Lundman, Ekman och Schenning
-              den 10 innevarande januari på särskild anmodan inträtt i tjänstgöring
-              hos kammaren, den förstnämnda i egenskap av kanslist, tilllika
-              registrator.
-            </seg>
-            <seg n="e02d8f26">
-              Det skulle åligga den sålunda antagna personalen att vid behov
-              och i den mån ske kunde utföra jämväl annan tjänstgöring hos riksdagen.
-            </seg>
-            <seg n="42b56ad5">
-              På därom gjord ansökan beviljade herrar deputerade registratorn
-              Vide tjänstledighet på grund av styrkt sjukdom tills vidare, så
-              länge han vore av sådan sjukdom förhindrad att uppehålla sin befattning
-              hos kammaren. Till vikarie för Vide under ifrågavarande tid antogs
-              kanslisten fru Gemert och till vikarie å den sistnämndas kanslistbefattning,
-              räknat från och med den 11 innevarande månad, tills vidare fru
-              Ingrid Nilsson.
-            </seg>
-            <seg n="45f7dd8c">
-              År och dag som ovan.
-            </seg>
-            <seg n="e302f8f3">
-              Anmäldes och bordlades en av herr Eriksson under sammanträdet
-              till herr talmannen avlämnad, av honom m. fl. undertecknad motion,
-              nr 9, angående dels överförande av de kyrkliga kommunernas ekonomiska
-              angelägenheter till de borgerliga kommunerna, dels ock frågan
-              om de kyrkliga kommunernas samhälleliga och rättsliga ställning
-              i övrigt.
-            </seg>
-            <seg n="8ce662ca">
-              På framställning av herr talmannen beslöts att Kungl. Maj:ts
-              propositioner nr 1 och 2 skulle sättas sist på föredragningslistan
-              för morgondagens sammanträde.
-            </seg>
-            <seg n="21b8c8ac">
-              Justerades protokollsutdrag för denna dag, varefter kammarens
-              sammanträde avslutades kl. 11.18.
-            </seg>
-            <seg n="600bfd98">
-              Föredrogos och hänvisades till statsutskottet Kungl. Maj:ts propositioner:
-            </seg>
-            <seg n="e12cbbb1">
-              nr 29, angående fortsatt disposition av vissa äldre anslag;
-            </seg>
-            <seg n="6e4e72a9">
-              nr 30, angående befrielse från viss ersättningsskyldighet till
-              kronan;
-            </seg>
-            <seg n="cf5e6e03">
-              nr 31, angående bestridande av vissa haverikostnader; och
-            </seg>
-            <seg n="fd935d19">
-              nr 32, angående täckande av vissa medelsbrister, redovisade såsom
-              propriebalanser i försvarets civilförvaltnings räkenskaper.
-            </seg>
-            <seg n="9c34262b">
-              Föredrogs och hänvisades till konstitutionsutskottet den av herr
-              Eriksson m. fl. väckta motionen, nr 9, angående dels överförande
-              av de kyrkliga kommunernas ekonomiska angelägenheter till de borgerliga
-              kommunerna, dels ock frågan om de kyrkliga kommunernas samhälleliga
-              och rättsliga ställning i övrigt.
-            </seg>
-            <seg n="5b616436">
-              Föredrogs och hänvisades till statsutskottet riksdagens revisorers
-              berättelse över den år 1954 av dem verkställda granskningen angående
-              statsverket.
-            </seg>
-            <seg n="2020f9e0">
-              Anmäldes och bordlades följande till kammaren överlämnade kungl.
-              propositioner:
-            </seg>
-            <seg n="c1d2e60a">
-              nr 25, angående lönegradsplaceringen för vissa tjänster m. m.;
-            </seg>
-            <seg n="a005d830">
-              nr 27, med förslag till förordning om ändrad lydelse av 2 och
-              5 88 lotteriförordningen den 19 maj 1939 (nr 207);
-            </seg>
-            <seg n="543f1a0d">
-              nr 28, angående dispositionen av kolclearingkassans överskottsmedel;
-            </seg>
-            <seg n="c7521075">
-              nr 33, angående fortsatt disposition av visst äldre reservationsanslag;
-            </seg>
-            <seg n="baafcc12">
-              nr 34, angående befrielse i vissa fall från betalningsskyldighet
-              till kronan;
-            </seg>
-            <seg n="45e613be">
-              nr 35, angående ersättning till H. K. Almkvist m. fl.;
-            </seg>
-            <seg n="b403bbfe">
-              nr 37, med förslag till förordning om ändring i vapenförordningen
-              den 10 juni 1949 (nr 340), m. m.;
-            </seg>
-            <seg n="5f7935df">
-              nr 38, med förslag till lag angående fortsatt giltighet av lagen
-              den 21 december 1949 (nr 655) med särskilda bestämmelser om utskrivning
-              från sinnessjukhus; och
-            </seg>
-            <seg n="7087dd2f">
-              nr 40, angående livränta till A. Magnusson.
-            </seg>
-            <seg n="891dc356">
-              Interpellation ang. införande av ett kreditgarantisystem på bostadsområdet
-            </seg>
-            <seg n="fed8cef1">
-              Herr WEHTJE (h) erhöll på begäran ordet och anförde:
-            </seg>
-            <seg n="dfadda8b">
-              Herr talman! År 1947 framlade 1945 års bankkommitté förslag om
-              införande av kreditgarantier i stället för direkta statliga' lån.
-              Kreditgarantisystemet ansågs lämpligt för bl. a. bostadsbyggandet.
-              I detta avseende aktualiserades frågan på nytt av 1950 års besparingsutredning.
-              Närmast i anledning därav fick 1951 års bostadsutredning även
-              i uppdrag att förutsättningslöst utreda konsekvenserna av ett
-              kreditgarantisystem på bostadsproduktionens område med hänsyn
-              även till allmänna kreditmarknadsproblem. Sedan utredningen i
-              slutet av år 1952 slutfört sina övriga uppdrag, tog den upp frågan
-              om kreditgarantisystemet. Den 16 januari 1953 återkallades emellertid
-              uppdraget i denna del och överlämnades till riksbankschefen Lemne.
-              Man torde ha väntat att frågan härigenom skulle bli snabbare undersökt.
-              I 1954 års riksdagsberättelse uppgavs även att utredningsarbetet
-              beräknades bli slutfört under 1954.
-            </seg>
-            <seg n="653850c3">
-              Av årets statsverksproposition framgår emellertid att utredningen
-              ännu icke
-            </seg>
-            <seg n="bbb83063">
-              Interpellation ang. införande av ett kreditsystem på bostadsområdet
-            </seg>
-            <seg n="43841852">
-              är genomförd och icke beräknas bli färdig i sådan tid att eventuella
-              förslag kan föreläggas 1955 års riksdag. 1955 års riksdagsberättelse
-              lämnar den uppgiften att utredningen skulle slutföras under första
-              halvåret 1955. Statsrådet och chefen för socialdepartementet upplyser
-              för sin del endast om att en ifrågasatt omorganisation av bostadsstyrelsen
-              med underställda organ måste uppskjutas i avvaktan på utredningsresultatet
-              liksom även frågan om giltighetstiden för räntegarantien beträffande
-              vissa bostadskrediter.
-            </seg>
-            <seg n="24865392">
-              Under åberopande av det anförda hemställer jag om kammarens tillstånd
-              att till statsrådet och chefen för socialdepartementet få rikta
-              följande frågor:
-            </seg>
-            <seg n="be8041ce">
-              1. Vad är anledningen till att utredningen av frågan om införande
-              av ett kreditgarantisystem på bostadsområdet icke blev slutförd
-              på tid som förutsattes i 1954 års riksdagsberättelse?
-            </seg>
-            <seg n="044e972f">
-              2. Vill herr statsrådet söka medverka till att denna utredning
-              slutföres med det snaraste?
-            </seg>
-            <seg n="34b1e820">
-              På gjord proposition medgav kammaren, att ifrågavarande spörsmål
-              finge framställas.
-            </seg>
-            <seg n="153ce772">
-              Anmäldes och bordlades följande under sammanträdet till herr
-              talmannen avlämnade motioner:
-            </seg>
-            <seg n="460824a2">
-              nr 10, av herr Magnusson m. fl., om televisionssändningar av
-              s. k. kommersiella program; och
-            </seg>
-            <seg n="68c0eb8f">
-              nr 11, av herr Näsgård, angående skatteinbetalning hos postverket
-              medelst check.
-            </seg>
-            <seg n="a693dd47">
-              På framställning av herr talmannen beslöts att Kungl. Maj:ts
-              propositioner nr 1 och 2 skulle sättas sist på föredragningslistan
-              för kammarens nästa sammanträde.
-            </seg>
-            <seg n="06120502">
-              Justerades protokollsutdrag för denna dag, varefter kammarens
-              sammanträde avslutades kl. 11.05.
-            </seg>
           </u>
-          <note n="fe992602">
-            Nr 1 7
+          <note n="13a54a57">
+            Sedan andra kammarens talman därefter i denna kammares namn till
+            Hans Maj:t Konungen framfört andra kammarens undersåtliga vördnad,
+            fingo talmännen vardera mottaga, av herr statsrådet och chefen
+            för finansdepartementet Sköld ett exemplar av Kungl. Maj:ts proposition
+            nr 1, angående statsverkets tillstånd och behov under budgetåret
+            1955/56, samt av herr statsrådet och tillförordnade chefen för
+            justitiedepartementet Lindell ett exemplar av Kungl. Maj:ts berättelse
+            till 1955 års riksdag om vad i rikets styrelse sig tilldragit,
+            varefter ceremonien å rikssalen avslutades och första kammaren
+            enligt beslut, fattat före avtågandet från samlingsrummet, åtskildes
+            vid utgången från rikssalen kl. 12.30.
+          </note>
+          <note n="641514b8">
+            In fidem
           </note>
           <note n="44576bc4">
             G. H. Berggren
@@ -2051,7 +631,7 @@
           <note n="8d386908">
             8 Nr 1
           </note>
-          <note n="e24aeb97">
+          <note type="date" n="d48fc396">
             Onsdagen den 12 januari 1955
           </note>
           <note type="date" n="fa353457">
@@ -2060,8 +640,36 @@
           <note n="d85dfc8f">
             Kammaren sammanträdde kl. 11.00.
           </note>
+          <note n="a904b497">
+            Herr Anderson, Carl Albert, anmälde, att han infunnit sig vid
+            riksdagen.
+          </note>
+          <note n="31bead46">
+            Upplästes följande till kammaren inkomna ansökning:
+          </note>
+          <note n="7c5900b2">
+            Till riksdagens första kammare
+          </note>
+          <u who="unknown" xml:id="i-6d3327c95cff3ad7-8" n="6d3327c9">
+            <seg n="821b0a43">
+              På grund av utlandsresa, föranledd av ett uppdrag från UNESCO,
+              anhåller jag härmed vördsamt om befrielse tills vidare från riksdagsgöromålen.
+            </seg>
+          </u>
+          <note n="d61eee3d">
+            Stockholm den 11 januari 1955.
+          </note>
           <note n="0bbea1f9">
             S. G. W. Wahlund
+          </note>
+          <note n="071f7021">
+            På gjord proposition bifölls ansökningen för den tid, varunder
+            herr Wahlund på grund av ifrågavarande uppdrag vore förhindrad
+            att deltaga i riksdagsarbetet.
+          </note>
+          <note n="e75dbfd2">
+            Företogs val av fyra ledamöter i talmanskonferensen; och befunnos
+            efter valförrättningens slut därtill hava blivit utsedda:
           </note>
           <note n="04fe6677">
             herr Ewerlöf med 96 röster,
@@ -2070,9 +678,86 @@
             » Karlsson, Gustaf » 96 &gt;» , » Näsgård ...... » 96 &gt;» &gt; » Ohlon
             ........ » 96 &gt;»
           </note>
+          <note n="8186337a">
+            Anställdes val av två kanslideputerade.
+          </note>
+          <note n="77b3d433">
+            Herr FÖRSTE VICE TALMANNEN, erhöll på begäran ordet och yttrade:
+          </note>
+          <u who="unknown" xml:id="i-6d3327c95cff3ad7-9" n="6d3327c9">
+            <seg n="20082311">
+              Herr talman! För vart och ett av de återstående val, som skall
+              förrättas vid detta plenum, ber jag att få avlämna en gemensam
+              lista, vilken godkänts av de av kammaren valda ledamöterna i talmanskonferensen.
+              Varje lista upptar namn på så många personer, som det ifrågavarande
+              valet avser.
+            </seg>
+          </u>
+          <note n="cb911f77">
+            Herr förste vice talmannen avlämnade därefter en lista, vilken
+            godkänts av
+          </note>
+          <note n="4f27175e">
+            de av kammaren utsedda ledamöterna i talmanskonferensen och som
+            under partibeteckningen »Den gemensamma listan» upptog följande
+            namn:
+          </note>
+          <u who="unknown" xml:id="i-6d3327c95cff3ad7-10" n="6d3327c9">
+            <seg n="dac887d6">
+              Heiman
+            </seg>
+          </u>
+          <note n="7604e513">
+            Fröken Andersson
+          </note>
+          <note n="6a7e0896">
+            Sedan herr talmannen för kammaren uppläst denna lista, blev densamma
+            på gjord proposition av kammaren godkänd; och förklarades herr
+            Heiman och fröken Andersson hava blivit utsedda till kanslideputerade.
+          </note>
+          <note n="f56faf98">
+            Företogs val av sex ledamöter att deltaga i tillsättandet av
+            de i 30 $ andra stycket riksdagsstadgan avsedda befattningshavare
+            hos kammaren,
+          </note>
+          <note n="46cb7556">
+            Herr förste vice talmannen avlämnade en lista, vilken godkänts
+            av de av kammaren utsedda ledamöterna i talmanskonferensen och
+            som under partibeteckningen »Den gemensamma listan» upptog följande
+            namn:
+          </note>
+          <note n="99950664">
+            Hermansson, Albert Elofsson, Gustaf Anderberg Lindblom
+          </note>
+          <note n="0192055c">
+            Franzon
+          </note>
+          <u who="unknown" xml:id="i-6d3327c95cff3ad7-11" n="6d3327c9">
+            <seg n="d64d0cd8">
+              Bergh
+            </seg>
+          </u>
+          <note n="c55d54c7">
+            Efter det herr talmannen för kammaren uppläst denna lista, blev
+            densamma på gjord proposition av kammaren godkänd; och förklarades
+            herrar Albert Hermansson, Gustaf Elofsson, Anderberg, Lindblom,
+            Franzon och Bergh hava blivit utsedda till kanslitillsättare.
+          </note>
+          <note n="87044d27">
+            Anställdes val av fyra ledamöter att handhava vården om kammarens
+            ekonomiska angelägenheter.
+          </note>
+          <note n="7cfea7cf">
+            Herr förste vice talmannen avlämnade en lista, vilken godkänts
+            av de av kammaren utsedda ledamöterna i talmanskonferensen och
+            som under partibeteck-
+          </note>
           <pb n="8" facs="https://betalab.kb.se/prot-1955--fk--1/prot_1955__fk__1-008.jp2/_view"/>
-          <note n="e24aeb97">
+          <note type="date" n="d48fc396">
             Onsdagen den 12 januari 1955
+          </note>
+          <note n="65395cfa">
+            ningen »Den gemensamma listan» upptog följande namn:
           </note>
           <note n="a8849257">
             Andersson, Birger Bengtson
@@ -2083,18 +768,214 @@
           <note n="fe964b5b">
             Herlitz
           </note>
+          <note n="5706b2c7">
+            Sedan herr talmannen för kammaren uppläst denna lista, blev densamma
+            på gjord proposition av kammaren godkänd; och förklarades herrar
+            Birger Andersson, Bengtson, Sunne och Herlitz hava blivit utsedda
+            till ekonomideputerade.
+          </note>
+          <note n="57f976d3">
+            Föredrogs och bordlades Kungl. Maj:ts nästlidna dag på rikssalen
+            överlämnade berättelse till 1955 års riksdag om vad i rikets styrelse
+            sig tilldragit.
+          </note>
+          <note n="d3cda8fe">
+            Vid föredragning av Kungl. Maj:ts under gårdagen på rikssalen
+            överlämnade proposition nr 1, angående statsverkets tillstånd
+            och behov under budgetåret 1955/56, blev densamma bordlagd.
+          </note>
+          <note n="ea158e57">
+            Anmäldes och bordlades följande till kammaren överlämnade kungl.
+            propositioner:
+          </note>
+          <note n="64c92122">
+            nr 2, angående utgifter å tilläggsstat II till riksstaten för
+            budgetåret 1954/55;
+          </note>
+          <note n="095a0ddb">
+            nr 3, med förslag till lag om bankrörelse, m. m.;
+          </note>
+          <note n="27b29d72">
+            nr 4, med förslag till förordning om Sveriges allmänna hypoteksbank
+            och om landshypoteksföreningar, m. m.;
+          </note>
+          <note n="22a040ed">
+            nr 5, med förslag till förordning om ändring i förordningen den
+            26 februari 1954 (nr 73) angående tillverkning av brännvin, m.
+            m.;
+          </note>
+          <note n="70e6ede6">
+            nr 6, med förslag till förordning om försäljning av alkoholfria
+            drycker;
+          </note>
+          <note n="3dcef148">
+            nr 7, med förslag till förordning angående ändring i förordningen
+            den 3 maj 1929 (nr 62) om särskild skatt å bensin och motorsprit,
+            m. m.;
+          </note>
+          <note n="bfe8dd6c">
+            nr 8, med förslag till förordning om fortsatt giltighet av förordningen
+            den 22 april 1949 angående rätt för Konungen att åsätta särskild
+            tullavgift, m. m.;
+          </note>
+          <note n="ec8257e1">
+            nr 9, med förslag till ändrad tid för
+          </note>
           <note n="66727a67">
             Nr 1 9
           </note>
+          <note n="207c6a9f">
+            överlämnande till kommun av redovisning över kommunen tillkommande
+            allmän kommunalskatt, m. m.;
+          </note>
+          <note n="f1ba0d84">
+            nr 10, angående godkännande av tillläggsöverenskommelse till
+            avtalet den 24 december 1936 mellan Sverige och Frankrike för
+            undvikande av dubbelbeskattning och fastställande av bestämmelser
+            angående ömsesidig handräckning beträffande direkta skatter, m.
+            m.;
+          </note>
+          <note n="bd3620fe">
+            nr 11, med förslag till lag om ändrad lydelse av 6 kap. 1 $ och
+            30 kap. 6 $ rättegångsbalken;
+          </note>
+          <note n="2f21d9d5">
+            nr 12, med förslag till lag om ändrad lydelse av 3 8 militära
+            rättegångslagen den 30 juni 1948 (nr 472);
+          </note>
+          <note n="7c0dd84d">
+            nr 13, dels angående godkännande av konvention rörande internationellt
+            erkännande av rätt till luftfartyg, dels ock med förslag till
+            lag om inskrivning av rätt till luftfartyg, m. m.;
+          </note>
+          <note n="25071505">
+            nr 14, med förslag till lag angående ändrad lydelse av 11 $ lagen
+            den 10 maj 1929 (nr 77) om trafikförsäkring å motorfordon;
+          </note>
+          <note n="9388aeed">
+            nr 15, med förslag till förordning om ändrad lydelse av 126 $
+            2 mom. taxeringsförordningen den 28 september 1928 (nr 379);
+          </note>
+          <note n="a3a19cdc">
+            nr 16, med förslag till ändringar i Jagen om rätt till fiske
+            m. m.;
+          </note>
+          <note n="97b41940">
+            nr 17, med förslag till lag om fortsatt giltighet av lagen den
+            21 mars 1952 (nr 98) med särskilda bestämmelser om tvångsmedel
+            i vissa brottmål;
+          </note>
+          <note n="dda50cda">
+            nr 18, med förslag till lag om ändrad lydelse av 65 $ utsökningslagen
+            m. m.;
+          </note>
+          <note n="fb4e392d">
+            nr 19, med förslag till lag angående fortsatt giltighet av lagen
+            den 29 juni 1945 (nr 520) om återställande av viss från ockuperat
+            land härrörande egendom, m. m.;
+          </note>
+          <note n="6bb35a91">
+            nr 20, med förslag till lag angående fortsatt giltighet av lagen
+            den 29 november 1946 (nr 722) med särskilda bestämmelser om uppfinningar
+            av betydelse för försvaret;
+          </note>
+          <note n="c402339b">
+            nr 21, angående ersättning för tjänstgöring på obekväm arbetstid
+            m. m.;
+          </note>
+          <note n="fa962dd7">
+            nr 22, angående vissa åtgärder för att främja ett alkoholfritt
+            umgängesliv; samt
+          </note>
+          <note n="9eb120f2">
+            nr 23, med förslag till lag angående fortsatt giltighet av lagen
+            den 16 februari 1934 (nr 19) om fullgörande i vissa fall
+          </note>
           <pb n="9" facs="https://betalab.kb.se/prot-1955--fk--1/prot_1955__fk__1-009.jp2/_view"/>
+          <note n="6558119e">
+            10 Nr 1 av betalningsskyldighet i förhållande till utlandet m.
+            m.;
+          </note>
+          <note n="af259eef">
+            samt Kungl. Maj:ts skrivelse nr 26, om förordnande av en statsrådsledamot
+            att utöva den befattning med riksdagsärenden, som jämlikt $ 46
+            riksdagsordningen tillkommer en ledamot av statsrådet.
+          </note>
+          <note n="cc6e140c">
+            Anmäldes och bordlades
+          </note>
+          <note n="eb7dd895">
+            riksdagens revisorers berättelse om den år 1954 av dem verkställda
+            granskningen av riksbanken;
+          </note>
+          <note n="a2c5c5a1">
+            riksdagens revisorers berättelse om den år 1954 av dem verkställda
+            granskningen av riksgäldskontoret;
+          </note>
+          <note n="8d67c6f4">
+            justitieombudsmannens ämbetsberättelse; och
+          </note>
+          <note n="9aeb61b3">
+            militieombudsmannens &lt;ämbetsberät-
+          </note>
           <note n="bcd0548f">
             telse.
           </note>
-          <note n="e24aeb97">
+          <note n="a75e8ecf">
+            Anmäldes och bordlades följande under sammanträdet till herr
+            talmannen avlämnade motioner:
+          </note>
+          <note n="39673daa">
+            nr 1, av herr Norling, angående ändrad lydelse av 12 8 lagen
+            om semester;
+          </note>
+          <note n="0ba45a74">
+            nr 2, av herr Persson, Helmer, m. fl., angående upphävande av
+            lagarna om kollektivavtal och om arbetsdomstol;
+          </note>
+          <note n="6149047d">
+            nr 3, av herr Persson, Helmer, och herr Norling, om genomförande
+            av en allmän arbetarpensionering;
+          </note>
+          <note type="date" n="d48fc396">
             Onsdagen den 12 januari 1955
           </note>
+          <note n="1e3f03ed">
+            nr 4, av herr Persson, Helmer, och herr Norling, med förslag
+            till lag om förkortad ordinarie arbetstid för arbetstagare med
+            särskilt påfrestande eller hälsofarligt arbete;
+          </note>
+          <note n="700002d0">
+            nr 5, av herr Persson, Helmer, och herr Norling, om lagfästande
+            av rätten till arbete;
+          </note>
+          <note n="7c3773ce">
+            nr 6, av herr Elofsson, Gustaf, m. fl., angående allmän folkomröstning
+            i frågan om eventuell övergång till högertrafik;
+          </note>
+          <note n="9145c26d">
+            nr 7, av herr Boman, om åtgärder för tillgodoseende av skogsbrukets
+            behov av arbetskraft; och
+          </note>
+          <note n="aeedcfc1">
+            nr 8, av herr Boman, om skrivelse till Kungl. Maj:t rörande tillstånd
+            för International Broadcasting Association AB (IBRA) att inköpa
+            viss utländsk valuta.
+          </note>
+          <note n="432c6848">
+            På framställning av herr talmannen beslöts att Kungl. Maj:ts
+            propositioner nr 1 och 2 skulle sättas sist på föredragningslistan
+            för morgondagens sammanträde.
+          </note>
+          <note n="a123fa5a">
+            Justerades protokollsutdrag för denna dag, varefter kammarens
+            sammanträde avslutades kl. 11.18.
+          </note>
+          <note n="7aef682a">
+            In fidem G. H. Berggren
+          </note>
           <pb n="10" facs="https://betalab.kb.se/prot-1955--fk--1/prot_1955__fk__1-010.jp2/_view"/>
-          <note n="9db667a3">
+          <note type="date" n="e3af48f1">
             Torsdagen den 13 januari 1955
           </note>
           <note n="0cb710fd">
@@ -2106,15 +987,346 @@
           <note n="d85dfc8f">
             Kammaren sammanträdde kl. 11.00.
           </note>
+          <note n="2d3d9c04">
+            Då val av åtta ledamöter i utrikesutskottet nu skulle företagas,
+            begärdes ordet av herr FÖRSTE VICE TALMAN- NEN, som anförde:
+          </note>
+          <u who="unknown" xml:id="i-6d3327c95cff3ad7-12" n="6d3327c9">
+            <seg n="f4c41703">
+              Herr talman! För alla de val, som skall förrättas vid detta plenum,
+              ber jag att få avlämna gemensamma listor, en för varje val. Listorna
+              har godkänts av de av kammaren valda ledamöterna i talmanskonferensen,
+              och varje lista upptar namn på så många personer, som det ifrågavarande
+              valet avser.
+            </seg>
+          </u>
+          <note n="b129ce8e">
+            Herr förste vice talmannen avlämnade därefter ifrågavarande listor,
+            tjugutre till antalet.
+          </note>
+          <note n="8fcd3146">
+            Den lista, som avsåg valet av ledamöter i utrikesutskottet, upptog
+            under partibeteckningen »Den gemensamma listan» följande namn:
+          </note>
+          <note n="d38d34da">
+            Sandler Strand Ohlon Sjödahl Näsgård Åman Bergvall Ewerlöf
+          </note>
+          <note n="64616844">
+            Sedan denna lista upplästs och av kammaren godkänts, förklarades
+            de å listan upptagna personerna hava blivit utsedda till ledamöter
+            i utrikesutskottet.
+          </note>
+          <note n="9797644a">
+            På framställning av herr talmannen beslöts att riksdagens kanslideputerade
+            skulle genom utdrag av protokollet underrättas om kammarens val
+            av ledamöter och suppleanter i utrikesutskottet samt anmodas låta
+            uppsätta och till kamrarna ingiva förslag till den skrivelse i
+            ämnet, som borde till Konungen avlåtas.
+          </note>
+          <note n="15299694">
+            Anställdes val av tio ledamöter i konstitutionsutskottet.
+          </note>
+          <note n="4e6a4922">
+            Den av herr förste vice talmannen avlämnade lista, som gällde
+            detta val, upptog under partibeteckningen »Den gemensamma listan»
+            följande namn:
+          </note>
+          <note n="3989cf6e">
+            Elmgren
+          </note>
+          <note n="e27a492e">
+            Lindén
+          </note>
+          <note n="cd7189a4">
+            Englund Hällgren Wahlund Damström Pettersson Weiland
+          </note>
+          <note n="22122c45">
+            Herlitz Karlsson, Fritiof
+          </note>
+          <note n="82e3ee2a">
+            Efter det denna lista upplästs och av kammaren godkänts, förklarades
+            de å listan upptagna personerna hava blivit utsedda till ledamöter
+            i konstitutionsutskottet.
+          </note>
+          <note n="693db085">
+            Företogs val av femton ledamöter i statsutskottet.
+          </note>
+          <note n="c65ae448">
+            Den av herr förste vice talmannen avlämnade lista, som avsåg
+            detta val, upptog under partibeteckningen »Den gemensamma listan»
+            följande namn:
+          </note>
+          <note n="c0a05151">
+            Andersson, Karl Karlsson, Gustaf Ohlon
+          </note>
+          <note n="692438a6">
+            Anderson, Iwar Näsgård
+          </note>
+          <note n="11b1d0e2">
+            Leander Gillström
+          </note>
+          <u who="unknown" xml:id="i-6d3327c95cff3ad7-13" n="6d3327c9">
+            <seg n="2574d12a">
+              Boman
+            </seg>
+          </u>
+          <note n="141eca2e">
+            fröken Andersson Näsström Pålsson Hesselbom Sundelin Andersson,
+            Gustaf Persson, Einar
+          </note>
+          <note n="11fa677a">
+            Sedan denna lista upplästs och av kammaren godkänts, förklarades
+            de å listan upptagna personerna hava blivit utsedda till ledamöter
+            i statsutskottet.
+          </note>
           <pb n="11" facs="https://betalab.kb.se/prot-1955--fk--1/prot_1955__fk__1-011.jp2/_view"/>
-          <note n="9db667a3">
+          <note n="ef9c418d">
+            12 Nr 1 Anställdes val av tio ledamöter i bevillningsutskottet.
+          </note>
+          <note n="4e6a4922">
+            Den av herr förste vice talmannen avlämnade lista, som gällde
+            detta val, upptog under partibeteckningen »Den gemensamma listan»
+            följande namn:
+          </note>
+          <note n="f0cca6e8">
+            Sjödahl Heiman
+          </note>
+          <u who="unknown" xml:id="i-6d3327c95cff3ad7-14" n="6d3327c9">
+            <seg n="46efe6a7">
+              Spetz
+            </seg>
+          </u>
+          <note n="ae211859">
+            Franzon Elofsson, Gustaf Ramberg Eriksson Söderquist Velander
+            Niklasson
+          </note>
+          <note n="7441c147">
+            Efter det denna lista upplästs och av kammaren godkänts, förklarades
+            de å listan upptagna personerna hava blivit utsedda till ledamöter
+            i bevillningsutskottet.
+          </note>
+          <note n="188b3d32">
+            Företogs val av åtta ledamöter i bankoutskottet.
+          </note>
+          <note n="c65ae448">
+            Den av herr förste vice talmannen avlämnade lista, som avsåg
+            detta val, upptog under partibeteckningen »Den gemensamma listan»
+            följande namn:
+          </note>
+          <u who="unknown" xml:id="i-6d3327c95cff3ad7-15" n="6d3327c9">
+            <seg n="eb86a0a7">
+              Sundvik Fahlander De Geer Mogård Werner Boo Ewerlöf Wehtje
+            </seg>
+          </u>
+          <note n="4dc65f0d">
+            Sedan denna lista upplästs och av kammaren godkänts, förklarades
+            de å listan upptagna personerna hava blivit utsedda till ledamöter
+            i bankoutskottet.
+          </note>
+          <u who="unknown" xml:id="i-6d3327c95cff3ad7-16" n="6d3327c9"/>
+          <note n="15bfdb5f">
+            Anställdes val första lagutskottet.
+          </note>
+          <note n="53d3acbe">
+            av åtta ledamöter i
+          </note>
+          <note n="4e6a4922">
+            Den av herr förste vice talmannen avlämnade lista, som gällde
+            detta val, upptog under partibeteckningen »Den gemensamma listan»
+            följande namn:
+          </note>
+          <note n="19bef8ac">
+            Branting Ahlkvist Lindblom Olofsson, Per Lodenius
+          </note>
+          <note type="date" n="e3af48f1">
             Torsdagen den 13 januari 1955
+          </note>
+          <note n="341cbeda">
+            fru Sjöström-Bengtsson
+          </note>
+          <note n="7075b175">
+            Björnberg
+          </note>
+          <note n="62f0464b">
+            fru Gärde Widemar
+          </note>
+          <note n="ac205c01">
+            Efter det denna lista upplästs och av
+          </note>
+          <note n="40adc98d">
+            kammaren godkänts, förklarades de å listan upptagna personerna
+            hava blivit utsedda till ledamöter i första lagutskottet.
+          </note>
+          <note n="5ced5e72">
+            Företogs val av åtta ledamöter i andra lagutskottet.
+          </note>
+          <note n="c65ae448">
+            Den av herr förste vice talmannen avlämnade lista, som avsåg
+            detta val, upptog under partibeteckningen »Den gemensamma listan»
+            följande namn:
+          </note>
+          <note n="8d95cbc5">
+            Norman Elowsson, Nils Sunne Svensson, Axel fru Svenson fru Carlqvist
+            Huss Magnusson
+          </note>
+          <note n="ad430829">
+            Sedan denna lista upplästs och av kammaren godkänts, förklarades
+            de å listan upptagna personerna hava blivit utsedda till ledamöter
+            i andra lagutskottet.
+          </note>
+          <note n="6895fd80">
+            Anställdes val av åtta ledamöter i tredje lagutskottet.
+          </note>
+          <note n="4e6a4922">
+            Den av herr förste vice talmannen avlämnade lista, som gällde
+            detta val, upptog under partibeteckningen »Den gemensamma listan»
+            följande namn:
+          </note>
+          <note n="a6fa22f8">
+            Hermansson, Albert Lindahl
+          </note>
+          <u who="unknown" xml:id="i-6d3327c95cff3ad7-17" n="6d3327c9">
+            <seg n="306245c7">
+              Osvald
+            </seg>
+            <seg n="348f2f98">
+              Grym
+            </seg>
+          </u>
+          <note n="3d2bb373">
+            Nilzon, Ivar Jansson, Axel Hermansson, Herbert Ohlsson, Ebbe
+          </note>
+          <note n="90aa7738">
+            Efter det denna lista upplästs och av kammaren godkänts, förklarades
+            de å listan upptagna personerna hava blivit utsedda till ledamöter
+            i tredje lagutskottet.
+          </note>
+          <note n="d991ae74">
+            Företogs val av tio ledamöter i jordbruksutskottet.
           </note>
           <pb n="12" facs="https://betalab.kb.se/prot-1955--fk--1/prot_1955__fk__1-012.jp2/_view"/>
-          <note n="9db667a3">
+          <note type="date" n="e3af48f1">
             Torsdagen den 13 januari 1955
           </note>
+          <note n="c65ae448">
+            Den av herr förste vice talmannen avlämnade lista, som avsåg
+            detta val, upptog under partibeteckningen »Den gemensamma listan»
+            följande namn:
+          </note>
+          <note n="1c6db5eb">
+            Anderberg Svedberg, Lage Nord
+          </note>
+          <note n="5d8cdf8f">
+            Jonsson, Jon Tjällgren Andersson, Bertil Sundberg Hansson Eskilsson
+            Nilsson, Bror
+          </note>
+          <note n="7e4d3b78">
+            Sedan denna lista upplästs och av kammaren godkänts, förklarades
+            de å listan upptagna personerna hava blivit utsedda till ledamöter
+            i jordbruksutskottet.
+          </note>
+          <note n="2e5b7c51">
+            Anställdes val av tolv ledamöter i allmänna beredningsutskottet.
+          </note>
+          <note n="4e6a4922">
+            Den av herr förste vice talmannen avlämnade lista, som gällde
+            detta val, upptog under partibeteckningen »Den gemensamma listan»
+            följande namn:
+          </note>
+          <note n="3a76757a">
+            Nr 1 13 Nilsson, Hjalmar Jonsson, John Wiktor Andersson, Axel
+          </note>
+          <note n="dde3eb78">
+            fru Wallentheim Andersson, Lars Nyström
+          </note>
+          <note n="c9204493">
+            Jansson, Erik Persson, Johan Arrhén
+          </note>
+          <note n="5abd9e33">
+            Holmqvist
+          </note>
+          <note n="bdb89c15">
+            Persson, Karl Lundström
+          </note>
+          <note n="1bdf47b7">
+            Efter det denna lista upplästs och av kammaren godkänts, förklarades
+            de å listan upptagna personerna hava blivit utsedda till ledamöter
+            i allmänna beredningsutskottet.
+          </note>
+          <note n="6e1053e2">
+            Företogs val av sex revisorer för granskning av statsverkets,
+            riksbankens och riksgäldskontorets tillstånd, styrelse och förvaltning
+            samt sex suppleanter för dessa revisorer.
+          </note>
+          <note n="308f4ffb">
+            Den av herr förste vice talmannen avlämnade lista, som avsåg
+            detta val, hade partibeteckningen »Den gemensamma listan» och
+            var av följande utseende:
+          </note>
+          <u who="unknown" xml:id="i-6d3327c95cff3ad7-18" n="6d3327c9"/>
+          <note n="2e5f13d2">
+            Hermansson, J. Albert Ledamot av första kammaren
+          </note>
+          <note n="1b03a83e">
+            Andersson, K. Bertil Ledamot av första kammaren
+          </note>
+          <u who="unknown" xml:id="i-6d3327c95cff3ad7-19" n="6d3327c9"/>
+          <note n="06a0e73b">
+            Branting, Georg Ledamot av första kammaren
+          </note>
+          <note n="7262d579">
+            Heiiman, Gustaf E. Ledamot av första kammaren
+          </note>
+          <u who="unknown" xml:id="i-6d3327c95cff3ad7-20" n="6d3327c9"/>
+          <note n="1251d5ac">
+            Sundelin, Gustaf V. Ledamot av första kammaren
+          </note>
+          <note n="e9c8049b">
+            Englund, Erik W. Ledamot av första kammaren
+          </note>
+          <u who="unknown" xml:id="i-6d3327c95cff3ad7-21" n="6d3327c9"/>
+          <note n="69a154df">
+            Sundvik, Anders Ledamot av första kammaren
+          </note>
+          <note n="de51915f">
+            Anderberg, H. Rudolf Ledamot av första kammaren
+          </note>
+          <u who="unknown" xml:id="i-6d3327c95cff3ad7-22" n="6d3327c9"/>
+          <note n="67a8cb4f">
+            Andersson, Lars Ledamot av första kammaren
+          </note>
+          <note n="d4e89eac">
+            Persson, Per, i Norrby Ledamot av andra kammaren
+          </note>
+          <u who="unknown" xml:id="i-6d3327c95cff3ad7-23" n="6d3327c9"/>
+          <note n="73d1e298">
+            Bergh, K. Ragnar Ledamot av första kammaren
+          </note>
+          <u who="unknown" xml:id="i-6d3327c95cff3ad7-24" n="6d3327c9"/>
+          <note n="718ae519">
+            Sedan denna lista upplästs och av kammaren godkänts, förklarades
+            hava blivit utsedda till statsrevisorer herrar Albert Hermansson,
+            Branting, Sundelin, Sundvik, Lars Andersson och Bergh
+          </note>
+          <u who="unknown" xml:id="i-6d3327c95cff3ad7-25" n="6d3327c9"/>
+          <note n="f7d63541">
+            Arrhén, C. Erik Th. Ledamot av första kammaren
+          </note>
+          <u who="unknown" xml:id="i-6d3327c95cff3ad7-26" n="6d3327c9"/>
+          <note n="dc205181">
+            samt till suppleanter för dessa respektive herrar Bertil Andersson,
+            Heiäman, Englund, Anderberg, Per Persson och Arrhén.
+          </note>
           <pb n="13" facs="https://betalab.kb.se/prot-1955--fk--1/prot_1955__fk__1-013.jp2/_view"/>
+          <note n="5bb1ecef">
+            14 Nr 1 Anställdes val av åtta ombud i Nordiska rådet för tiden
+            intill dess val nästa gång äger rum.
+          </note>
+          <note n="4e6a4922">
+            Den av herr förste vice talmannen avlämnade lista, som gällde
+            detta val, upptog under partibeteckningen »Den gemensamma listan»
+            följande namn:
+          </note>
           <note n="6d41528d">
             Sandler
           </note>
@@ -2133,26 +1345,466 @@
           <note n="ea06ace5">
             Ohlin
           </note>
-          <note n="9db667a3">
+          <note n="fbe6010e">
+            Efter det denna lista upplästs och av kammaren godkänts, förklarades
+            de å listan upptagna personerna hava blivit utsedda till ombud
+            i Nordiska rådet.
+          </note>
+          <note n="aff7c543">
+            På framställning av herr talmannen beslöts att riksdagens kanslideputerade
+            skulle genom utdrag av protokollet underrättas om kammarens val
+            av ombud och suppleanter i Nordiska rådet samt anmodas låta uppsätta
+            och till kamrarna ingiva förslag dels till förordnanden för de
+            valda, dels ock till skrivelse till Konungen med anmälan om de
+            förrättade valen.
+          </note>
+          <note n="dfd489e2">
+            Företogs val av åtta suppleanter i utrikesutskottet.
+          </note>
+          <note n="c65ae448">
+            Den av herr förste vice talmannen avlämnade lista, som avsåg
+            detta val, upptog under partibeteckningen »Den gemensamma listan»
+            följande namn:
+          </note>
+          <note n="045ddfcb">
+            Karlsson, Gustaf Elmgren Lindblom Andersson, Birger Werner Pettersson
+          </note>
+          <u who="unknown" xml:id="i-6d3327c95cff3ad7-27" n="6d3327c9">
+            <seg n="41c46c95">
+              Domö
+            </seg>
+          </u>
+          <note n="c54955c8">
+            Nilsson, Alfred
+          </note>
+          <note n="96babcda">
+            Sedan denna lista upplästs och av kammaren godkänts, förklarades
+            de å listan upptagna personerna hava blivit utsedda till suppleanter
+            i utrikesutskottet.
+          </note>
+          <note n="d36abbde">
+            Anställdes val av tolv suppleanter i konstitutionsutskottet.
+          </note>
+          <note type="date" n="e3af48f1">
             Torsdagen den 13 januari 1955
           </note>
+          <note n="4e6a4922">
+            Den av herr förste vice talmannen avlämnade lista, som gällde
+            detta val, upptog under partibeteckningen »Den gemensamma listan»
+            följande namn:
+          </note>
+          <note n="0c28609c">
+            Olsson, Erik Olsén
+          </note>
+          <note n="ae74ed91">
+            Ollén Anderson, Carl Albert Nilsson, Bror Elfving
+          </note>
+          <note n="f9e167ed">
+            Sörlin Lundström Arrhén Karlsson, Göran Larsson, Sigfrid Bergvall
+          </note>
+          <note n="56a61118">
+            Efter det denna lista upplästs och av kammaren godkänts, förklarades
+            de å listan upptagna personerna hava blivit utsedda till suppleanter
+            i konstitutionsutskottet.
+          </note>
+          <note n="14b2e1c2">
+            Företogs val av tjugufyra suppleanter i statsutskottet.
+          </note>
+          <note n="c65ae448">
+            Den av herr förste vice talmannen avlämnade lista, som avsåg
+            detta val, upptog under partibeteckningen »Den gemensamma listan»
+            följande namn:
+          </note>
+          <note n="98e124e1">
+            Andersson, Birger Persson, Ragnar Nilsson, Alfred Thun
+          </note>
+          <note n="94b2a51d">
+            Lodenius Bergman Svedberg, Erik Andersson, Axel Bergh
+          </note>
+          <note n="a5f6ee64">
+            Holmqvist Larsson, Nils Theodor Olsén
+          </note>
+          <note n="7ef77648">
+            Sunne
+          </note>
+          <note n="ac822534">
+            Elfving Svensson, Rikard fru Svenson fröken Ranmark Aastrup Bengtson
+          </note>
+          <note n="66e11c77">
+            Arrhén
+          </note>
+          <u who="unknown" xml:id="i-6d3327c95cff3ad7-28" n="6d3327c9">
+            <seg n="15f9dfdc">
+              Svärd
+            </seg>
+          </u>
+          <note n="45f42a24">
+            Nilzon, Ivar Jacobsson
+          </note>
+          <u who="unknown" xml:id="i-6d3327c95cff3ad7-29" n="6d3327c9">
+            <seg n="41c46c95">
+              Domö
+            </seg>
+          </u>
           <pb n="14" facs="https://betalab.kb.se/prot-1955--fk--1/prot_1955__fk__1-014.jp2/_view"/>
-          <note n="9db667a3">
+          <note type="date" n="e3af48f1">
             Torsdagen den 13 januari 1955
+          </note>
+          <note n="9d81ed41">
+            Sedan denna lista upplästs och av kammaren godkänts, förklarades
+            de å listan upptagna personerna hava blivit utsedda till suppleanter
+            i statsutskottet.
+          </note>
+          <note n="c6aa8748">
+            Anställdes val av fjorton suppleanter i bevillningsutskottet.
+          </note>
+          <note n="4e6a4922">
+            Den av herr förste vice talmannen avlämnade lista, som gällde
+            detta val, upptog under partibeteckningen »Den gemensamma listan»
+            följande namn:
+          </note>
+          <note n="a302ce3a">
+            Snygg Johansson, Rune Johansson, Anders Thun
+          </note>
+          <note n="2f6fd341">
+            Werner Jansson, Erik fröken Ranmark Kronstrand Wehtje
+          </note>
+          <note n="e84136ae">
+            Möller
+          </note>
+          <note n="31cf2c8d">
+            Bengtson
+          </note>
+          <note n="5bbd2766">
+            Falk
+          </note>
+          <note n="ea28a9c1">
+            Danmans Magnusson
+          </note>
+          <note n="a75cbd23">
+            Efter det denna lista upplästs och av kammaren godkänts, förklarades
+            de å listan upptagna personerna hava blivit utsedda till suppleanter
+            i bevillningsutskottet.
+          </note>
+          <note n="8d260992">
+            Företogs val av tio suppleanter i bankoutskottet.
+          </note>
+          <note n="c65ae448">
+            Den av herr förste vice talmannen avlämnade lista, som avsåg
+            detta val, upptog under partibeteckningen »Den gemensamma listan»
+            följande namn:
+          </note>
+          <note n="d6ba7ab2">
+            Krägel Elowsson, Nils Kronstrand Strandler Eliasson Johansson,
+            Rune Geijer
+          </note>
+          <note n="8cdc5763">
+            Danmans Björnberg Wahlund
+          </note>
+          <note n="2321fafc">
+            Sedan denna lista upplästs och av kammaren godkänts, förklarades
+            de å listan upptagna personerna hava blivit utsedda till suppleanter
+            i bankoutskottet.
+          </note>
+          <note n="bba0f321">
+            Nr 1 15 Anställdes val av tolv suppleanter i första lagutskottet,
+          </note>
+          <note n="4e6a4922">
+            Den av herr förste vice talmannen avlämnade lista, som gällde
+            detta val, upptog under partibeteckningen »Den gemensamma listan»
+            följande namn:
+          </note>
+          <note n="6252c658">
+            Lindgren
+          </note>
+          <note n="f59a3dbf">
+            Jonsson, John Wiktor Göransson Pettersson
+          </note>
+          <note n="8fa78f4c">
+            Franzén
+          </note>
+          <note n="80ff58f2">
+            Nyström
+          </note>
+          <note n="c0ae5dfa">
+            fru Wallentheim Englund
+          </note>
+          <u who="unknown" xml:id="i-6d3327c95cff3ad7-30" n="6d3327c9">
+            <seg n="b315dede">
+              Herlitz
+            </seg>
+          </u>
+          <note n="e36b5c26">
+            Svedberg, Erik Johansson, Theodor Ollén
+          </note>
+          <note n="f3cf6648">
+            Efter det denna lista upplästs och av kammaren godkänts, förklarades
+            de å listan upptagna personerna hava blivit utsedda till suppleanter
+            i första lagutskottet.
+          </note>
+          <note n="e37800bb">
+            Företogs val av tolv suppleanter i andra lagutskottet.
+          </note>
+          <note n="c65ae448">
+            Den av herr förste vice talmannen avlämnade lista, som avsåg
+            detta val, upptog under partibeteckningen »Den gemensamma listan»
+            följande namn:
+          </note>
+          <note n="b612729a">
+            Strand
+          </note>
+          <note n="1b05b51c">
+            Åman
+          </note>
+          <note n="b59f36d5">
+            Johansson, Anders Bergman
+          </note>
+          <note n="1800333f">
+            Larsson, Nils Theodor Grönkvist Karlsson, Göran fru Hamrin-Thorell
+            Svärd
+          </note>
+          <note n="6b26f783">
+            Andersson, Alvar Alexanderson Eskilsson
+          </note>
+          <note n="98ae2e86">
+            Sedan denna lista upplästs och av kammaren godkänts, förklarades
+            de å listan upptagna personerna hava blivit utsedda till suppleanter
+            i andra lagutskottet.
+          </note>
+          <note n="3c353fe7">
+            Anställdes val av tolv suppleanter i tredje lagutskottet.
+          </note>
+          <note n="d8b73ca6">
+            Den av herr förste vice talmannen avlämnade lista, som gällde
+            detta val, upp-
           </note>
           <pb n="15" facs="https://betalab.kb.se/prot-1955--fk--1/prot_1955__fk__1-015.jp2/_view"/>
           <note n="e68ceb48">
             16 Nr 1
           </note>
+          <note n="f8823d7e">
+            Torsdagen den tog under partibeteckningen »Den gemensamma listan»
+            följande namn:
+          </note>
+          <note n="d590728b">
+            Krägel
+          </note>
+          <note n="6252c658">
+            Lindgren
+          </note>
+          <u who="unknown" xml:id="i-6d3327c95cff3ad7-31" n="6d3327c9">
+            <seg n="46efe6a7">
+              Spetz
+            </seg>
+            <seg n="43c822e2">
+              Boo
+            </seg>
+          </u>
+          <note n="02cbf8d8">
+            Pålsson
+          </note>
+          <note n="2c965204">
+            Persson, Ragnar
+          </note>
+          <u who="unknown" xml:id="i-6d3327c95cff3ad7-32" n="6d3327c9">
+            <seg n="75eb763e">
+              Ohlsson, William
+            </seg>
+          </u>
+          <note n="23260412">
+            Hansson
+          </note>
+          <note n="18fcbb77">
+            Eskilsson
+          </note>
+          <note n="efc0e9be">
+            Olsson, Erik
+          </note>
+          <note n="bba4407a">
+            Carlsson, Georg
+          </note>
+          <note n="249231f9">
+            Alexanderson.
+          </note>
+          <note n="fd20945d">
+            Efter det denna lista upplästs och av kammaren godkänts, förklarades
+            de å listan upptagna personerna hava blivit utsedda till suppleanter
+            i tredje lagutskottet.
+          </note>
+          <note n="fce889e8">
+            Företogs val av tolv suppleanter i jordbruksutskottet.
+          </note>
+          <note n="c65ae448">
+            Den av herr förste vice talmannen avlämnade lista, som avsåg
+            detta val, upptog under partibeteckningen »Den gemensamma listan»
+            följande namn:
+          </note>
+          <note n="a57f0ee8">
+            Nilsson, Hjalmar Grym
+          </note>
+          <note n="58d40377">
+            Persson, Johan Mossberger Franzén
+          </note>
+          <u who="unknown" xml:id="i-6d3327c95cff3ad7-33" n="6d3327c9">
+            <seg n="599ba457">
+              Snygg
+            </seg>
+          </u>
+          <note n="6feaebdb">
+            Ohlsson, William Olofsson, Uno Ohlsson, Ebbe Persson, Einar Larsson,
+            Sigfrid Björnberg.
+          </note>
+          <note n="4a6b65e0">
+            Sedan denna lista upplästs och av kammaren godkänts, förklarades
+            de å listan
+          </note>
+          <note n="433bd07b">
+            upptagna personerna hava blivit utsedda till suppleanter i jordbruksutskottet.
+          </note>
+          <note n="33b097be">
+            Anställdes val av sexton suppleanter i allmänna beredningsutskottet.
+          </note>
+          <note n="4e6a4922">
+            Den av herr förste vice talmannen avlämnade lista, som gällde
+            detta val, upptog under partibeteckningen »Den gemensamma listan»
+            följande namn:
+          </note>
+          <note n="14220832">
+            Strandler Grönkvist
+          </note>
           <note n="f5a61dfc">
             13 januari 1955
+          </note>
+          <note n="558f8b8c">
+            Söderquist Anderson, Carl Albert Karlsson, Fritiof Svensson,
+            Rikard Geijer
+          </note>
+          <note n="bb228e10">
+            Nord
+          </note>
+          <u who="unknown" xml:id="i-6d3327c95cff3ad7-34" n="6d3327c9">
+            <seg n="d64d0cd8">
+              Bergh
+            </seg>
+          </u>
+          <note n="e84136ae">
+            Möller
+          </note>
+          <note n="8d638b03">
+            Carlsson, Georg Sörlin
+          </note>
+          <note n="da9b4345">
+            fru Gärde Widemar Svärd
+          </note>
+          <note n="09fbc841">
+            fru Hamrin-Thorell fru Nilsson.
+          </note>
+          <note n="d3849d82">
+            Efter det denna lista upplästs och av kammaren godkänts, förklarades
+            de å listan upptagna personerna hava blivit utsedda till suppleanter
+            i allmänna beredningsutskottet.
+          </note>
+          <note n="74a99705">
+            Företogs val av åtta suppleanter för de av kammaren valda ombuden
+            i Nordiska rådet för tiden intill dess val nästa gång äger rum.
+          </note>
+          <note n="c65ae448">
+            Den av herr förste vice talmannen avlämnade lista, som avsåg
+            detta val, upptog under partibeteckningen »Den gemensamma listan»
+            följande namn:
+          </note>
+          <note n="5834a9de">
+            Sjödahl
+          </note>
+          <note n="4a045304">
+            Gillström Andersson, Axel Ahlkvist
+          </note>
+          <note n="b2d43168">
+            Pålsson Pettersson Bengtson
+          </note>
+          <u who="unknown" xml:id="i-6d3327c95cff3ad7-35" n="6d3327c9">
+            <seg n="eced38db">
+              fröken Andersson.
+            </seg>
+          </u>
+          <note n="ea18c08e">
+            Sedan denna lista upplästs och av kammaren godkänts, förklarades
+            de å listan upptagna personerna hava blivit utsedda till suppleanter
+            i Nordiska rådet.
+          </note>
+          <note n="c6f1a296">
+            Föredrogs och lades till handlingarna Kungl. Maj:ts på rikssalen
+            överlämnade berättelse till 1955 års riksdag om vad i rikets styrelse
+            sig tilldragit.
+          </note>
+          <note n="a000dbb7">
+            Föredrogos och hänvisades till bankoutskottet Kungl. Maj:ts propositioner:
           </note>
           <note n="325cda2b">
             nr 3, med förslag till lag om bankrörelse, m. m.; och
           </note>
           <pb n="16" facs="https://betalab.kb.se/prot-1955--fk--1/prot_1955__fk__1-016.jp2/_view"/>
-          <note n="9db667a3">
+          <note type="date" n="e3af48f1">
             Torsdagen den 13 januari 1955
+          </note>
+          <note n="6b4491c1">
+            nr 4, med förslag till förordning om Sveriges allmänna hypoteksbank
+            och om landshypoteksföreningar, m, m.
+          </note>
+          <note n="b7d2a362">
+            Föredrogos och hänvisades till bevillningsulskottet Kungl. Maj:ts
+            propositioner:
+          </note>
+          <note n="22a040ed">
+            nr 5, med förslag till förordning om ändring i förordningen den
+            26 februari 1954 (nr 73) angående tillverkning av brännvin, m.
+            m.;
+          </note>
+          <note n="70e6ede6">
+            nr 6, med förslag till förordning om försäljning av alkoholfria
+            drycker;
+          </note>
+          <note n="58f63f14">
+            nr 7, med förslag till förordning angående ändring i förordningen
+            den 3 maj 1929 (nr 62) om särskild skatt å bensin och motorsprit,
+            m. m.; samt
+          </note>
+          <note n="fce729ab">
+            nr 8, med förslag till förordning om fortsatt giltighet av förordningen
+            den 22 april 1949 angående rätt för Konungen att åsätta särskild
+            tullavgift, m. m.
+          </note>
+          <note n="3efc67bf">
+            Föredrogs och hänvisades till konstitutionsutskottet Kungl. Maj:ts
+            proposition nr 9, med förslag till ändrad tid för överlämnande
+            till kommun av redovisning över kommunen tillkommande allmän kommunalskatt,
+            m. m.
+          </note>
+          <note n="c12baad0">
+            Föredrogs och hänvisades till bevillningsutskottet Kungl. Maj:ts
+            proposition nr 10, angående godkännande av tillläggsöverenskommelse
+            till avtalet den 24 december 1936 mellan Sverige och Frankrike
+            för undvikande av dubbelbeskattning och fastställande av bestämmelser
+            angående ömsesidig handräckning beträffande direkta skatter, m,
+            m.
+          </note>
+          <note n="9f7c557c">
+            och hänvisades till belagutskott Kungl. Maj:ts
+          </note>
+          <note n="77dfa5f1">
+            Föredrogos handling av propositioner:
+          </note>
+          <note n="bd3620fe">
+            nr 11, med förslag till lag om ändrad lydelse av 6 kap. 1 $ och
+            30 kap. 6 $ rättegångsbalken;
+          </note>
+          <note n="a1005468">
+            nr 12, med förslag till lag om ändrad lydelse av 3 $ militära
+            rättegångslagen den 30 juni 1948 (nr 472);
+          </note>
+          <note n="df4daaae">
+            nr 13, dels angående godkännande av konvention rörande internationellt
+            er-
           </note>
           <note n="89e73f14">
             2 Första kammarens protokoll 1955. Nr 1
@@ -2160,22 +1812,273 @@
           <note n="8d381d65">
             Nr 1 17
           </note>
+          <note n="93aee8de">
+            kännande av rätt till luftfartyg, dels ock med förslag till lag
+            om inskrivning av rätt till luftfartyg, m. m.; samt
+          </note>
+          <note n="9f07e7e4">
+            nr 14, med förslag till lag angående ändrad lydelse av 11 8 lagen
+            den 10 maj 1929 (nr 77) om trafikförsäkring å motorfordon.
+          </note>
+          <note n="0ca50d47">
+            Föredrogs och hänvisades till bevillningsutskottet Kungl. Maj:ts
+            proposition nr 15, med förslag till förordning om ändrad lydelse
+            av 126 $ 2 mom. taxeringsförordningen den 28 september 1928 (nr
+            379).
+          </note>
+          <note n="a989c7e0">
+            Föredrogos och hänvisades till behandling av lagutskott Kungl.
+            Maj:ts propositioner:
+          </note>
+          <note n="5834da89">
+            nr 16, med förslag till ändringar i lagen om rätt till fiske
+            m. m.;
+          </note>
+          <note n="97b41940">
+            nr 17, med förslag till lag om fortsatt giltighet av lagen den
+            21 mars 1952 (nr 98) med särskilda bestämmelser om tvångsmedel
+            i vissa brottmål;
+          </note>
+          <note n="dda50cda">
+            nr 18, med förslag till lag om ändrad lydelse av 65 $ utsökningslagen
+            m. m.;
+          </note>
+          <note n="e7324f86">
+            nr 19, med förslag till lag angående fortsatt giltighet av lagen
+            den 29 juni 19435 (nr 520) om återställande av viss från ockuperat
+            land härrörande egendom, m. m.; och
+          </note>
+          <note n="730297b7">
+            nr 20, med förslag till lag angående fortsatt giltighet av lagen
+            den 29 november 1946 (nr 722) med särskilda bestämmelser om uppfinningar
+            av betydelse för försvaret.
+          </note>
+          <note n="97dd0612">
+            Föredrogos och hänvisades till statsutskottet Kungl. Maj:ts propositioner:
+          </note>
+          <note n="77d74835">
+            nr 21, angående ersättning för tjänstgöring på obekväm arbetstid
+            m. m.; och
+          </note>
+          <note n="52a74da2">
+            nr 22, angående vissa åtgärder för att främja ett alkoholfritt
+            umgängesliv.
+          </note>
+          <note n="d1a7a3ce">
+            Föredrogs och hänvisades till behandling av lagutskott Kungl.
+            Maj:ts proposition nr 23, med förslag till lag angående fortsatt
+            giltighet av lagen den 16 februari 1934 (nr 19) om fullgörande
+            i vissa fall av betalningsskyldighet i förhållande till utlandet
+            m. m,
+          </note>
           <pb n="17" facs="https://betalab.kb.se/prot-1955--fk--1/prot_1955__fk__1-017.jp2/_view"/>
+          <note n="8e856d43">
+            18 Nr 1 Torsdagen den
+          </note>
+          <note n="c8d634a9">
+            : Föredrogs och lades till handlingarna Kungl. Maj:ts skrivelse
+            nr 26, med tillkännagivande, att Kungl. Maj:t förordnat statsrådet
+            Ingvar Lindell att under innevarande riksdag utöva den befattning
+            med riksdagsärenden, som jämlikt 8 46 riksdagsordningen tillkommer
+            en ledamot av statsrådet;
+          </note>
+          <note n="9b013884">
+            och skulle underrättelse om denna skrivelses innehåll genom utdrag
+            av protokollet meddelas vederbörande utskott samt riksdagens kanslideputerade.
+          </note>
+          <note n="3b2b9f8f">
+            Föredrogos och hänvisades till behandling av lagutskott nedannämnda
+            motioner:
+          </note>
+          <note n="39673daa">
+            nr 1, av herr Norling, angående ändrad lydelse av 12 8 lagen
+            om semester;
+          </note>
+          <note n="0ba45a74">
+            nr 2, av herr Persson, Helmer, m. fl., angående upphävande av
+            lagarna om kollektivavtal och om arbetsdomstol;
+          </note>
+          <note n="6149047d">
+            nr 3, av herr Persson, Helmer, och herr Norling, om genomförande
+            av en allmän arbetarpensionering;
+          </note>
+          <note n="1e3f03ed">
+            nr 4, av herr Persson, Helmer, och herr Norling, med förslag
+            till lag om förkortad ordinarie arbetstid för arbetstagare med
+            särskilt påfrestande eller hälsofarligt arbete;
+          </note>
+          <note n="318a002e">
+            nr 5, av herr Persson, Helmer, och herr Norling, om lagfästande
+            av rätten till arbete; samt
+          </note>
+          <note n="3b562480">
+            nr 6, av herr Elofsson, Gustaf, m. fl., angående allmän folkomröstning
+            i frågan om eventuell övergång till högertrafik.
+          </note>
+          <note n="4cc328ea">
+            Föredrogs och hänvisades till jordbruksutskottet herr Bomans
+            motion, nr 7, om åtgärder för tillgodoseende av skogsbrukets behov
+            av arbetskraft.
+          </note>
+          <note n="aec677f3">
+            Föredrogs och hänvisades till bankoutskottet herr Bomans motion,
+            nr 8, om skrivelse till Kungl. Maj:t rörande tillstånd för International
+            Broadcasting Association AB (IBRA) att inköpa viss utländsk valuta.
+          </note>
+          <u who="unknown" xml:id="i-6d3327c95cff3ad7-36" n="6d3327c9"/>
+          <note n="b47c4dd0">
+            Föredrogs och hänvisades till bankoutskottet riksdagens revisorers
+            berättel-
+          </note>
           <note n="f5a61dfc">
             13 januari 1955
           </note>
+          <u who="unknown" xml:id="i-6d3327c95cff3ad7-37" n="6d3327c9">
+            <seg n="20e5a851">
+              se om den år 1954 av dem verkställda granskningen av riksbanken.
+            </seg>
+          </u>
+          <note n="e92e63e3">
+            Föredrogs och hänvisades till bankoutskottet riksdagens revisorers
+            berättelse om den år 1954 av dem verkställda granskningen av riksgäldskontoret.
+          </note>
+          <note n="ebb9f0ea">
+            Föredrogos och hänvisades till behandling av lagutskott
+          </note>
+          <note n="5b65ae29">
+            dels justitieombudsmannens till innevarande riksdag avgivna ämbetsberättelse;
+          </note>
+          <note n="335a92af">
+            dels ock militieombudsmannens vid innevarande riksmöte avgivna
+            ämbetsberättelse.
+          </note>
+          <note n="ea158e57">
+            Anmäldes och bordlades följande till kammaren överlämnade kungl.
+            propositioner:
+          </note>
+          <note n="dc54903f">
+            nr 29, angående fortsatt disposition av vissa äldre anslag;
+          </note>
+          <note n="96ec7cea">
+            nr 30, angående befrielse från viss ersättningsskyldighet till
+            kronan;
+          </note>
+          <note n="f4fdd879">
+            nr 31, angående bestridande av vissa haverikostnader; och
+          </note>
+          <note n="bc9438cf">
+            nr 32, angående täckande av vissa medelsbrister, redovisade såsom
+            propriehbalanser i försvarets civilförvaltnings räkenskaper.
+          </note>
+          <u who="unknown" xml:id="i-6d3327c95cff3ad7-38" n="6d3327c9"/>
+          <note n="c1233876">
+            Anmäldes och bordlades riksdagens revisorers berättelse över
+            den år 1954 av dem verkställda granskningen angående statsverket.
+          </note>
+          <note n="d13e573b">
+            Upplästes och lades till handlingarna följande till kammaren
+            inkomna
+          </note>
+          <note n="1c6ee35c">
+            Protokoll, hållet vid sammanträde med herr talmannen och herrar
+            vice lalmän i riksdagens första kammare samt de kammarens ledamöter,
+            som blivit utsedda att jämte dem tillsätta befattningshavare hos
+            kammaren, den 12 januari 1955.
+          </note>
+          <note n="9fc4dd47">
+            Till en början beslöto herrar deputerade, att kanslitjänstemännen
+            skulle tills vidare utgöras av en notarie, tre förste stenografer,
+            tolv stenografer, en reservstenograf, en förste kanslist, en kanslist
+            tillika registrator och fyra kanslister,
+          </note>
           <pb n="18" facs="https://betalab.kb.se/prot-1955--fk--1/prot_1955__fk__1-018.jp2/_view"/>
-          <note n="9db667a3">
+          <note type="date" n="e3af48f1">
             Torsdagen den 13 januari 1955
+          </note>
+          <note n="a425abca">
+            Herrar deputerade antogo till
           </note>
           <note n="c6f1914d">
             notarie (stomnotarie): Wistrand, Lode, byråchef;
           </note>
+          <note n="72bc9fbd">
+            förste stenografer: Elfner, Erik, Lundman, Albert, och Stäckig,
+            Sven, redaktör;
+          </note>
+          <note n="2428f4bd">
+            stenografer: Hedelius, Erik, kammarrättsråd, Ekman, Ernst L,
+            redaktör, Julin, Gösta, redaktör, Eriksson, Arnold, fil. kand.,
+            Hähnel, Folke, redaktör, Grass, Nils, kanslisekreterare, Skarvall,
+            Karl-Erik, sekreterare, Lagerström, Lennart, sekreterare, Berggren,
+            Erik, förste kanslisekrete-
+          </note>
+          <u who="unknown" xml:id="i-6d3327c95cff3ad7-39" n="6d3327c9">
+            <seg n="ebaccb71">
+              rare,
+            </seg>
+          </u>
+          <note n="0935015d">
+            Elfner, Tord, amanuens, Wickberg, Sven, fil. stud., och Gunnarson,
+            Bengt, jur. stud.;
+          </note>
+          <note n="56747438">
+            reservstenograf: Söderström, Rune, redaktör;
+          </note>
+          <note n="ffc00bb9">
+            förste kanslist: Stenwall, Wilhelm, byråsekreterare;
+          </note>
+          <note n="6ff128a5">
+            kanslist, tillika registrator: Vide, Torgny; samt kanslister:
+            von Krusenstjerna, Gunnar, kanslisekreterare, Gemert, Solveig,
+            fru, Schenning, Göte, af Petersens, Fritz, förste kanslisekreterare.
+          </note>
+          <note n="889ffb89">
+            Det skulle antecknas, att fru Gemert redan den 3, Stenwall den
+            7, von Krusenstjerna den 8 samt Wistrand, Lundman, Ekman och Schenning
+            den 10 innevarande januari på särskild anmodan inträtt i tjänstgöring
+            hos kammaren, den förstnämnda i egenskap av kanslist, tilllika
+            registrator.
+          </note>
           <note n="c42e58a7">
             Nr 1 19
           </note>
+          <u who="unknown" xml:id="i-6d3327c95cff3ad7-40" n="6d3327c9">
+            <seg n="e02d8f26">
+              Det skulle åligga den sålunda antagna personalen att vid behov
+              och i den mån ske kunde utföra jämväl annan tjänstgöring hos riksdagen.
+            </seg>
+          </u>
+          <note n="9d3d89ae">
+            På därom gjord ansökan beviljade herrar deputerade registratorn
+            Vide tjänstledighet på grund av styrkt sjukdom tills vidare, så
+            länge han vore av sådan sjukdom förhindrad att uppehålla sin befattning
+            hos kammaren. Till vikarie för Vide under ifrågavarande tid antogs
+            kanslisten fru Gemert och till vikarie å den sistnämndas kanslistbefattning,
+            räknat från och med den 11 innevarande månad, tills vidare fru
+            Ingrid Nilsson.
+          </note>
+          <note n="cfac5fd4">
+            År och dag som ovan.
+          </note>
           <note n="7aef682a">
             In fidem G. H. Berggren
+          </note>
+          <note n="35c3101b">
+            Anmäldes och bordlades en av herr Eriksson under sammanträdet
+            till herr talmannen avlämnad, av honom m. fl. undertecknad motion,
+            nr 9, angående dels överförande av de kyrkliga kommunernas ekonomiska
+            angelägenheter till de borgerliga kommunerna, dels ock frågan
+            om de kyrkliga kommunernas samhälleliga och rättsliga ställning
+            i övrigt.
+          </note>
+          <note n="432c6848">
+            På framställning av herr talmannen beslöts att Kungl. Maj:ts
+            propositioner nr 1 och 2 skulle sättas sist på föredragningslistan
+            för morgondagens sammanträde.
+          </note>
+          <note n="a123fa5a">
+            Justerades protokollsutdrag för denna dag, varefter kammarens
+            sammanträde avslutades kl. 11.18.
           </note>
           <note n="641514b8">
             In fidem
@@ -2187,7 +2090,7 @@
           <note n="168850e7">
             20 Nr 1
           </note>
-          <note n="74d88a84">
+          <note type="date" n="f9e44a58">
             Fredagen den 14 januari 1955
           </note>
           <note type="date" n="fb6a3d64">
@@ -2196,12 +2099,159 @@
           <note n="d85dfc8f">
             Kammaren sammanträdde kl. 11.00.
           </note>
+          <note n="97dd0612">
+            Föredrogos och hänvisades till statsutskottet Kungl. Maj:ts propositioner:
+          </note>
+          <note n="dc54903f">
+            nr 29, angående fortsatt disposition av vissa äldre anslag;
+          </note>
+          <note n="96ec7cea">
+            nr 30, angående befrielse från viss ersättningsskyldighet till
+            kronan;
+          </note>
+          <note n="f4fdd879">
+            nr 31, angående bestridande av vissa haverikostnader; och
+          </note>
+          <note n="0dc9509f">
+            nr 32, angående täckande av vissa medelsbrister, redovisade såsom
+            propriebalanser i försvarets civilförvaltnings räkenskaper.
+          </note>
+          <note n="9e9dfff3">
+            Föredrogs och hänvisades till konstitutionsutskottet den av herr
+            Eriksson m. fl. väckta motionen, nr 9, angående dels överförande
+            av de kyrkliga kommunernas ekonomiska angelägenheter till de borgerliga
+            kommunerna, dels ock frågan om de kyrkliga kommunernas samhälleliga
+            och rättsliga ställning i övrigt.
+          </note>
+          <note n="50f1e8db">
+            Föredrogs och hänvisades till statsutskottet riksdagens revisorers
+            berättelse över den år 1954 av dem verkställda granskningen angående
+            statsverket.
+          </note>
+          <note n="ea158e57">
+            Anmäldes och bordlades följande till kammaren överlämnade kungl.
+            propositioner:
+          </note>
+          <note n="39d625c1">
+            nr 25, angående lönegradsplaceringen för vissa tjänster m. m.;
+          </note>
+          <note n="fc23d50f">
+            nr 27, med förslag till förordning om ändrad lydelse av 2 och
+            5 88 lotteriförordningen den 19 maj 1939 (nr 207);
+          </note>
+          <note n="cb3b006b">
+            nr 28, angående dispositionen av kolclearingkassans överskottsmedel;
+          </note>
+          <note n="a4d24361">
+            nr 33, angående fortsatt disposition av visst äldre reservationsanslag;
+          </note>
+          <note n="06a7fe9c">
+            nr 34, angående befrielse i vissa fall från betalningsskyldighet
+            till kronan;
+          </note>
+          <note n="b2d7aacf">
+            nr 35, angående ersättning till H. K. Almkvist m. fl.;
+          </note>
+          <note n="d134cc1b">
+            nr 37, med förslag till förordning om ändring i vapenförordningen
+            den 10 juni 1949 (nr 340), m. m.;
+          </note>
+          <note n="d14cfa76">
+            nr 38, med förslag till lag angående fortsatt giltighet av lagen
+            den 21 december 1949 (nr 655) med särskilda bestämmelser om utskrivning
+            från sinnessjukhus; och
+          </note>
+          <note n="5b0d7a98">
+            nr 40, angående livränta till A. Magnusson.
+          </note>
+          <note n="4b970972">
+            Interpellation ang. införande av ett kreditgarantisystem på bostadsområdet
+          </note>
+          <note n="22171240">
+            Herr WEHTJE (h) erhöll på begäran ordet och anförde:
+          </note>
+          <note n="eae3ca8c">
+            Herr talman! År 1947 framlade 1945 års bankkommitté förslag om
+            införande av kreditgarantier i stället för direkta statliga' lån.
+            Kreditgarantisystemet ansågs lämpligt för bl. a. bostadsbyggandet.
+            I detta avseende aktualiserades frågan på nytt av 1950 års besparingsutredning.
+            Närmast i anledning därav fick 1951 års bostadsutredning även
+            i uppdrag att förutsättningslöst utreda konsekvenserna av ett
+            kreditgarantisystem på bostadsproduktionens område med hänsyn
+            även till allmänna kreditmarknadsproblem. Sedan utredningen i
+            slutet av år 1952 slutfört sina övriga uppdrag, tog den upp frågan
+            om kreditgarantisystemet. Den 16 januari 1953 återkallades emellertid
+            uppdraget i denna del och överlämnades till riksbankschefen Lemne.
+            Man torde ha väntat att frågan härigenom skulle bli snabbare undersökt.
+            I 1954 års riksdagsberättelse uppgavs även att utredningsarbetet
+            beräknades bli slutfört under 1954.
+          </note>
+          <u who="unknown" xml:id="i-6d3327c95cff3ad7-41" n="6d3327c9">
+            <seg n="653850c3">
+              Av årets statsverksproposition framgår emellertid att utredningen
+              ännu icke
+            </seg>
+          </u>
           <pb n="20" facs="https://betalab.kb.se/prot-1955--fk--1/prot_1955__fk__1-020.jp2/_view"/>
-          <note n="74d88a84">
+          <note type="date" n="f9e44a58">
             Fredagen den 14 januari 1955
           </note>
           <note n="cb59e9d7">
             Nr 1 21
+          </note>
+          <u who="unknown" xml:id="i-6d3327c95cff3ad7-42" n="6d3327c9">
+            <seg n="bbb83063">
+              Interpellation ang. införande av ett kreditsystem på bostadsområdet
+            </seg>
+            <seg n="43841852">
+              är genomförd och icke beräknas bli färdig i sådan tid att eventuella
+              förslag kan föreläggas 1955 års riksdag. 1955 års riksdagsberättelse
+              lämnar den uppgiften att utredningen skulle slutföras under första
+              halvåret 1955. Statsrådet och chefen för socialdepartementet upplyser
+              för sin del endast om att en ifrågasatt omorganisation av bostadsstyrelsen
+              med underställda organ måste uppskjutas i avvaktan på utredningsresultatet
+              liksom även frågan om giltighetstiden för räntegarantien beträffande
+              vissa bostadskrediter.
+            </seg>
+            <seg n="24865392">
+              Under åberopande av det anförda hemställer jag om kammarens tillstånd
+              att till statsrådet och chefen för socialdepartementet få rikta
+              följande frågor:
+            </seg>
+          </u>
+          <note n="1a1003a2">
+            1. Vad är anledningen till att utredningen av frågan om införande
+            av ett kreditgarantisystem på bostadsområdet icke blev slutförd
+            på tid som förutsattes i 1954 års riksdagsberättelse?
+          </note>
+          <note n="4ae9146c">
+            2. Vill herr statsrådet söka medverka till att denna utredning
+            slutföres med det snaraste?
+          </note>
+          <note n="f6411a4e">
+            På gjord proposition medgav kammaren, att ifrågavarande spörsmål
+            finge framställas.
+          </note>
+          <note n="a75e8ecf">
+            Anmäldes och bordlades följande under sammanträdet till herr
+            talmannen avlämnade motioner:
+          </note>
+          <note n="24511f11">
+            nr 10, av herr Magnusson m. fl., om televisionssändningar av
+            s. k. kommersiella program; och
+          </note>
+          <note n="041e2a1f">
+            nr 11, av herr Näsgård, angående skatteinbetalning hos postverket
+            medelst check.
+          </note>
+          <note n="71c67eb6">
+            På framställning av herr talmannen beslöts att Kungl. Maj:ts
+            propositioner nr 1 och 2 skulle sättas sist på föredragningslistan
+            för kammarens nästa sammanträde.
+          </note>
+          <note n="ec16ad14">
+            Justerades protokollsutdrag för denna dag, varefter kammarens
+            sammanträde avslutades kl. 11.05.
           </note>
           <note n="7aef682a">
             In fidem G. H. Berggren

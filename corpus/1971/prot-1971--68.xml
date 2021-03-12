@@ -20,7 +20,7 @@
     <encodingDesc>
       <editorialDecl>
         <correction>
-          <p>Some data curation was done. It is documented in db/curation/instances</p>
+          <p>Some data curation was done. It is documented in input/curation/instances</p>
         </correction>
       </editorialDecl>
     </encodingDesc>
@@ -58,6 +58,7 @@
       </front>
       <body>
         <div>
+          <pb n="0" facs="https://betalab.kb.se/prot-1971--68/prot_1971__68-000.jp2/_view"/>
           <note n="24d51a67">
             Riksdagens protokoll
           </note>
@@ -66,7 +67,7 @@
             Nr 67—69 22—23 april 1971
           </note>
           <note n="e7073d21"/>
-          <note n="b80de71a">
+          <note type="date" n="ad6bd0fa">
             Debatter m. m. Torsdagen den 22 april fm.
           </note>
           <note n="a34e6566">
@@ -275,7 +276,7 @@
           <note n="756b3463">
             Nr 68
           </note>
-          <note n="5188bd87">
+          <note type="date" n="9bd18afd">
             Torsdagen den 22 april K1 19.30
           </note>
           <note n="0c37018e">
@@ -291,7 +292,7 @@
           <note type="speaker" n="c00ffe25">
             Herr WENNERFORS (m):
           </note>
-          <u who="alf_wennerfors_80bf1d" xml:id="i-611e3801431cc00f-0" next="i-7785a97df91842bb-0" n="f33d1af1">
+          <u who="alf_wennerfors_80bf1d" xml:id="i-f33d1af144f09d22-0" next="i-f33d1af144f09d22-3" n="f33d1af1">
             <seg n="85500b2e">
               Fru talman! Svensk byggnadsindustri har en omsättning på i runt
               tal 25 miljarder kronor. Den sysselsätter mellan 250 000 och 300
@@ -335,7 +336,7 @@
               och privatförvaltat
             </seg>
           </u>
-          <note n="cb037c48">
+          <note type="date" n="c1c1beb7">
             Torsdagen den 22 april 1971
           </note>
           <note n="e6f5040d">
@@ -357,7 +358,7 @@
           <note n="ce554293">
             80
           </note>
-          <u who="alf_wennerfors_80bf1d" xml:id="i-7785a97df91842bb-0" prev="i-611e3801431cc00f-0" n="f33d1af1">
+          <u who="alf_wennerfors_80bf1d" xml:id="i-f33d1af144f09d22-1" prev="i-f33d1af144f09d22-0" n="f33d1af1">
             <seg n="0ec7c8ae">
               fastighetsbestånd? Jag kan väl inte räkna med att få något svar
               på frågan; den är ju litet stor och litet långsiktig, och dessutom
@@ -424,6 +425,9 @@
               om.
             </seg>
             <seg n="69a20d2a"/>
+          </u>
+          <pb n="6" facs="https://betalab.kb.se/prot-1971--68/prot_1971__68-006.jp2/_view"/>
+          <u who="alf_wennerfors_80bf1d" xml:id="i-f33d1af144f09d22-2" prev="i-f33d1af144f09d22-0" n="f33d1af1">
             <seg n="1516a4a2">
               Dessutom frågar man sig: Hur kommer det sig att den danske bostadskonsumenten
               inte bara föredrar småhusbebyggelse utan också ser till att det
@@ -493,25 +497,7 @@
               Med detta ber jag att få yrka bifall till de reservationer, där
               fröken Ljungbergs och mitt namn finns med.
             </seg>
-            <seg n="39f231be">
-              Men jag skulle, fru talman, till sist vilja rikta en alldeles
-              särskild vädjan till herr Bergman. Jag tycker vi skall sluta upp
-              med tjatet om att den bostadspolitiska debatten är sig lik från
-              år till år. Vad detta tjat innebär för det egna partiet spelar
-              ju mindre roll för mig, men det kan ändå trots allt bli ett litet
-              problem. Vad som berör mig mera är att detta inte stimulerar vare
-              sig lyssnarna eller dem som deltar i den bostadspolitiska debatten.
-              Jag tycker att vi i stället har skäl att medverka till ett ökat
-              intresse och ett ökat engagemang just i bostadsdebatten.
-            </seg>
-            <seg n="603f8497">
-              Ett sätt, herr Bergman, att blåsa nytt liv i den bostadspolitiska
-              debatten vore ju att ni omprövade er bostadspolitik. Och ett annat
-              sätt vore att omsätta en del av de kloka förslag som vi har fört
-              fram, herr Bergman!
-            </seg>
           </u>
-          <pb n="6" facs="https://betalab.kb.se/prot-1971--68/prot_1971__68-006.jp2/_view"/>
           <note n="33b9f1fe">
             Nr 68 Torsdagen den
           </note>
@@ -543,10 +529,29 @@
           <note n="3b9514ac">
             82
           </note>
+          <u who="alf_wennerfors_80bf1d" xml:id="i-f33d1af144f09d22-3" prev="i-f33d1af144f09d22-0" n="f33d1af1">
+            <seg n="39f231be">
+              Men jag skulle, fru talman, till sist vilja rikta en alldeles
+              särskild vädjan till herr Bergman. Jag tycker vi skall sluta upp
+              med tjatet om att den bostadspolitiska debatten är sig lik från
+              år till år. Vad detta tjat innebär för det egna partiet spelar
+              ju mindre roll för mig, men det kan ändå trots allt bli ett litet
+              problem. Vad som berör mig mera är att detta inte stimulerar vare
+              sig lyssnarna eller dem som deltar i den bostadspolitiska debatten.
+              Jag tycker att vi i stället har skäl att medverka till ett ökat
+              intresse och ett ökat engagemang just i bostadsdebatten.
+            </seg>
+            <seg n="603f8497">
+              Ett sätt, herr Bergman, att blåsa nytt liv i den bostadspolitiska
+              debatten vore ju att ni omprövade er bostadspolitik. Och ett annat
+              sätt vore att omsätta en del av de kloka förslag som vi har fört
+              fram, herr Bergman!
+            </seg>
+          </u>
           <note type="speaker" n="39487b04">
             Herr TORWALD (c):
           </note>
-          <u who="rune_torwald_535cb6" xml:id="i-a843452cb56958c1-0" next="i-f5641dc9b8de3190-0" n="a908f349">
+          <u who="rune_torwald_535cb6" xml:id="i-a908f349976a490e-0" next="i-a908f349976a490e-3" n="a908f349">
             <seg n="3d380766">
               Fru talman! Vi är några centerpartister som i motionen 33 har
               framfört en rad förslag till åtgärder för att stimulera upprustningen
@@ -594,6 +599,9 @@
               är politiskt möjligt.
             </seg>
             <seg n="69a20d2a"/>
+          </u>
+          <pb n="8" facs="https://betalab.kb.se/prot-1971--68/prot_1971__68-008.jp2/_view"/>
+          <u who="rune_torwald_535cb6" xml:id="i-a908f349976a490e-1" prev="i-a908f349976a490e-0" n="a908f349">
             <seg n="17afc8bf">
               Låt mig för att belysa viljan att rusta upp äldre fastigheter
               återge några uppgifter som jag har fått från riksdagens upplysningstjänst.
@@ -653,7 +661,6 @@
               och sedan har man upprättat en ny stadsplan och
             </seg>
           </u>
-          <pb n="8" facs="https://betalab.kb.se/prot-1971--68/prot_1971__68-008.jp2/_view"/>
           <note n="33b9f1fe">
             Nr 68 Torsdagen den
           </note>
@@ -685,7 +692,7 @@
           <note n="911ddb8b">
             84
           </note>
-          <u who="rune_torwald_535cb6" xml:id="i-f5641dc9b8de3190-0" prev="i-a843452cb56958c1-0" n="a908f349">
+          <u who="rune_torwald_535cb6" xml:id="i-a908f349976a490e-2" prev="i-a908f349976a490e-0" n="a908f349">
             <seg n="b388c2a2">
               uppfört nya toppmoderna fastigheter i området. Dess värre har
               kostnaderna blivit skyhöga, och detsamma gäller hyrorna, något
@@ -751,6 +758,9 @@
               En annan och inte mindre värdefull effekt av en ökad inriktning
               på att
             </seg>
+          </u>
+          <pb n="10" facs="https://betalab.kb.se/prot-1971--68/prot_1971__68-010.jp2/_view"/>
+          <u who="rune_torwald_535cb6" xml:id="i-a908f349976a490e-3" prev="i-a908f349976a490e-0" n="a908f349">
             <seg n="f6503298">
               rusta upp äldre bostäder är att man på detta sätt skulle skapa
               lämpliga arbetsuppgifter för äldre, yrkesskickliga byggnadsarbetare
@@ -763,11 +773,10 @@
               sitt huvudbetänkande.
             </seg>
           </u>
-          <pb n="10" facs="https://betalab.kb.se/prot-1971--68/prot_1971__68-010.jp2/_view"/>
           <note type="speaker" n="6b9484c4">
             Herr ADOLFSSON (m):
           </note>
-          <u who="tage_adolfsson_626610" xml:id="i-0ffa8922e208a934-0" next="i-af03e376fa57f889-0" n="22591c12">
+          <u who="tage_adolfsson_626610" xml:id="i-22591c127c106846-0" next="i-22591c127c106846-2" n="22591c12">
             <seg n="b98ec574">
               Fru talman! Jag yrkar bifall till reservationen 3 i betänkandet
               nr 11. Jag gör detta med den motiveringen att det borde vara en
@@ -794,7 +803,7 @@
             betänkande nr 12 — den gäller avveckling av paritetslånen. Här
             vill jag ställa två frågor till statsrådet Holmqvist.
           </note>
-          <u who="tage_adolfsson_626610" xml:id="i-af03e376fa57f889-0" prev="i-0ffa8922e208a934-0" n="22591c12">
+          <u who="tage_adolfsson_626610" xml:id="i-22591c127c106846-1" prev="i-22591c127c106846-0" n="22591c12">
             <seg n="fe521318">
               Har statsrådet för det första med utgångspunkt i 1968 års beslut
               uppdragit några närmare riktlinjer beträffande återbetalningsplikten
@@ -833,36 +842,6 @@
               Till sist, fru talman, kan jag inte underlåta att konstatera
               att den
             </seg>
-            <seg n="40c030f6">
-              bostadspolitik som sedan lång tid tillbaka förts i det här landet
-              inte bygger på någonting annat än lösa spekulationer och antaganden.
-              Vi vet inte vad de bostadssökande i dag vill ha. Människor förhindras
-              till följd av statliga ingripanden och regleringar att genom sin
-              efterfrågan styra utvecklingen och tala om hur bostaden skall
-              vara utrustad, vad den får kosta och hur miljön kring bostaden
-              skall utformas. Detta har lett till att i en del orter bostäder
-              inte finns annat än på svarta börsen. I andra orter står ett stort
-              antal nya lägenheter tomma, därför att människor med vanliga inkomster
-              inte har råd att bo i dem.
-            </seg>
-            <seg n="b1ff6bbc">
-              Sådant blir resultatet när man för en ideologiskt betingad bostadspolitik
-              för att åstadkomma en socialistisk inriktning. Det är ett högt
-              pris Sveriges hyresgäster och bostadssökande får betala för detta
-              experiment.
-            </seg>
-            <seg n="1dff39b3">
-              Herr Bergman har i dag talat om slentrian. Jag minns inte exakt
-              vilket uttryck han använde. Men han påpekade att frågeställningarna
-              i dag är desamma som de har varit sedan år tillbaka. Argumenten
-              är också desamma som har använts i denna debatt sedan år tillbaka.
-              Herr Bergman kunde ha tillagt: Men problemen är fortfarande olösta.
-            </seg>
-            <seg n="459b219b">
-              Om vi någonsin kommer ur denna situation, kommer den här epoken
-              av svensk bostadspolitik att framstå som ett varnande exempel
-              på vart långt driven statlig dirigering kan leda.
-            </seg>
           </u>
           <note n="33b9f1fe">
             Nr 68 Torsdagen den
@@ -895,6 +874,38 @@
           <note n="bc881d49">
             86.
           </note>
+          <u who="tage_adolfsson_626610" xml:id="i-22591c127c106846-2" prev="i-22591c127c106846-0" n="22591c12">
+            <seg n="40c030f6">
+              bostadspolitik som sedan lång tid tillbaka förts i det här landet
+              inte bygger på någonting annat än lösa spekulationer och antaganden.
+              Vi vet inte vad de bostadssökande i dag vill ha. Människor förhindras
+              till följd av statliga ingripanden och regleringar att genom sin
+              efterfrågan styra utvecklingen och tala om hur bostaden skall
+              vara utrustad, vad den får kosta och hur miljön kring bostaden
+              skall utformas. Detta har lett till att i en del orter bostäder
+              inte finns annat än på svarta börsen. I andra orter står ett stort
+              antal nya lägenheter tomma, därför att människor med vanliga inkomster
+              inte har råd att bo i dem.
+            </seg>
+            <seg n="b1ff6bbc">
+              Sådant blir resultatet när man för en ideologiskt betingad bostadspolitik
+              för att åstadkomma en socialistisk inriktning. Det är ett högt
+              pris Sveriges hyresgäster och bostadssökande får betala för detta
+              experiment.
+            </seg>
+            <seg n="1dff39b3">
+              Herr Bergman har i dag talat om slentrian. Jag minns inte exakt
+              vilket uttryck han använde. Men han påpekade att frågeställningarna
+              i dag är desamma som de har varit sedan år tillbaka. Argumenten
+              är också desamma som har använts i denna debatt sedan år tillbaka.
+              Herr Bergman kunde ha tillagt: Men problemen är fortfarande olösta.
+            </seg>
+            <seg n="459b219b">
+              Om vi någonsin kommer ur denna situation, kommer den här epoken
+              av svensk bostadspolitik att framstå som ett varnande exempel
+              på vart långt driven statlig dirigering kan leda.
+            </seg>
+          </u>
           <note n="2af75403">
             Fru talman! Jag ber att få yrka bifall till reservationen 3 i
             betänkandet nr 11 och reservationerna 11 och 23 ai betänkandet
@@ -903,7 +914,7 @@
           <note type="speaker" n="6c7667a8">
             Herr inrikesministern HOLMQVIST:
           </note>
-          <u who="mary_holmqvist_6987a8" xml:id="i-d1061ecb2ffb9fac-0" next="i-809d97199a715ead-0" n="800fb326">
+          <u who="mary_holmqvist_6987a8" xml:id="i-800fb3264369fe19-0" next="i-800fb3264369fe19-9" n="800fb326">
             <seg n="c24ef62d">
               Fru talman! Man kan väl säga att den debatt som förts under eftermiddagen
               och kvällen främst har kännetecknats av att moderata samlingspartiet
@@ -939,6 +950,9 @@
               av mervärdeskatten — kan ha medverkat till att färdigstäl-
             </seg>
             <seg n="69a20d2a"/>
+          </u>
+          <pb n="12" facs="https://betalab.kb.se/prot-1971--68/prot_1971__68-012.jp2/_view"/>
+          <u who="mary_holmqvist_6987a8" xml:id="i-800fb3264369fe19-1" prev="i-800fb3264369fe19-0" n="800fb326">
             <seg n="263f193e">
               landet forcerades starkare än man hade anledning att räkna med
               från början.
@@ -1006,7 +1020,6 @@
               småhusen utan någon som helst
             </seg>
           </u>
-          <pb n="12" facs="https://betalab.kb.se/prot-1971--68/prot_1971__68-012.jp2/_view"/>
           <note n="33b9f1fe">
             Nr 68 Torsdagen den
           </note>
@@ -1038,7 +1051,7 @@
           <note n="f98a07fc">
             88
           </note>
-          <u who="mary_holmqvist_6987a8" xml:id="i-809d97199a715ead-0" prev="i-d1061ecb2ffb9fac-0" n="800fb326">
+          <u who="mary_holmqvist_6987a8" xml:id="i-800fb3264369fe19-2" prev="i-800fb3264369fe19-0" n="800fb326">
             <seg n="4a89371f">
               kontroll, skulle vi få en småhusproduktion, för vilken det bleve
               ett ”fritt fram”.
@@ -1108,6 +1121,9 @@
               gäller bostadsrätts-
             </seg>
             <seg n="69a20d2a"/>
+          </u>
+          <pb n="14" facs="https://betalab.kb.se/prot-1971--68/prot_1971__68-014.jp2/_view"/>
+          <u who="mary_holmqvist_6987a8" xml:id="i-800fb3264369fe19-3" prev="i-800fb3264369fe19-0" n="800fb326">
             <seg n="c8c0b3ba">
               havarna skulle de som vill bo i en ny bostadsrättslägenhet i
               HSB eller Riksbyggen få finna sig i fördubblade insatser. Det
@@ -1172,6 +1188,39 @@
               diskussion — det kan också tas som uttryck för en strävan att
               vidga intresset och möjligheterna för småhusbyggandet — med fabrikanterna
             </seg>
+          </u>
+          <note n="33b9f1fe">
+            Nr 68 Torsdagen den
+          </note>
+          <note n="310b0332">
+            22 april 1971
+          </note>
+          <note n="25c5005d">
+            Anslag till
+          </note>
+          <note n="e6f5040d">
+            bostadsbyggande,
+          </note>
+          <note n="1e1d3d32">
+            m. m.
+          </note>
+          <note n="ddd06a50">
+            89
+          </note>
+          <pb n="15" facs="https://betalab.kb.se/prot-1971--68/prot_1971__68-015.jp2/_view"/>
+          <note n="33b9f1fe">
+            Nr 68 Torsdagen den
+          </note>
+          <note n="310b0332">
+            22 april 1971
+          </note>
+          <note n="a32b42ef">
+            Anslag till bostadsbyggande, m m.
+          </note>
+          <note n="e9b6085d">
+            90
+          </note>
+          <u who="mary_holmqvist_6987a8" xml:id="i-800fb3264369fe19-4" prev="i-800fb3264369fe19-0" n="800fb326">
             <seg n="c41ff16c">
               och just efterlyst möjligheten att få fram mer av småhus. Jag
               har sett att det blivit en viss reaktion — det hör naturligtvis
@@ -1238,6 +1287,9 @@
               markpolitik
             </seg>
             <seg n="69a20d2a"/>
+          </u>
+          <pb n="16" facs="https://betalab.kb.se/prot-1971--68/prot_1971__68-016.jp2/_view"/>
+          <u who="mary_holmqvist_6987a8" xml:id="i-800fb3264369fe19-5" prev="i-800fb3264369fe19-0" n="800fb326">
             <seg n="706a4f51">
               naturligtvis inte behöver ha tillgång till marklånefonden; Västerås
               klarar sig sannerligen utan en sådan fond. Det finns också andra
@@ -1299,6 +1351,39 @@
               jag har med det givit svar på en del frågor som ställts under
               debatten.
             </seg>
+          </u>
+          <note n="33b9f1fe">
+            Nr 68 Torsdagen den
+          </note>
+          <note n="310b0332">
+            22 april 1971
+          </note>
+          <note n="25c5005d">
+            Anslag till
+          </note>
+          <note n="e6f5040d">
+            bostadsbyggande,
+          </note>
+          <note n="d3b77347">
+            m m
+          </note>
+          <note n="c34363dc">
+            21
+          </note>
+          <pb n="17" facs="https://betalab.kb.se/prot-1971--68/prot_1971__68-017.jp2/_view"/>
+          <note n="33b9f1fe">
+            Nr 68 Torsdagen den
+          </note>
+          <note n="310b0332">
+            22 april 1971
+          </note>
+          <note n="a32b42ef">
+            Anslag till bostadsbyggande, m m.
+          </note>
+          <note n="0128c03d">
+            92
+          </note>
+          <u who="mary_holmqvist_6987a8" xml:id="i-800fb3264369fe19-6" prev="i-800fb3264369fe19-0" n="800fb326">
             <seg n="e3053f12">
               Herr WENNERFORS (m) kort genmäle:
             </seg>
@@ -1370,6 +1455,9 @@
               få information
             </seg>
             <seg n="69a20d2a"/>
+          </u>
+          <pb n="18" facs="https://betalab.kb.se/prot-1971--68/prot_1971__68-018.jp2/_view"/>
+          <u who="mary_holmqvist_6987a8" xml:id="i-800fb3264369fe19-7" prev="i-800fb3264369fe19-0" n="800fb326">
             <seg n="dee59e54">
               om de följder som lånen för med sig. Jag efterlyser det på nytt,
               herr Nr 68 statsråd. Jag vill inte kommentera statsrådets beskrivning
@@ -1435,6 +1523,24 @@
               vederlägga dessa siffror. Kvar står också att vi under dessa tre
               första månader haft väderleksförhållanden som varit mycket 93
             </seg>
+          </u>
+          <note n="ce751a1b">
+            ERS a
+          </note>
+          <pb n="19" facs="https://betalab.kb.se/prot-1971--68/prot_1971__68-019.jp2/_view"/>
+          <note n="33b9f1fe">
+            Nr 68 Torsdagen den
+          </note>
+          <note n="310b0332">
+            22 april 1971
+          </note>
+          <note n="a32b42ef">
+            Anslag till bostadsbyggande, m m.
+          </note>
+          <note n="bb1b7418">
+            94
+          </note>
+          <u who="mary_holmqvist_6987a8" xml:id="i-800fb3264369fe19-8" prev="i-800fb3264369fe19-0" n="800fb326">
             <seg n="2de6e219">
               gynnsamma för byggandet. Vi har en 25-procentig investeringsavgift
               som borde styra byggandet mot bostäder.
@@ -1504,6 +1610,9 @@
               och riktigt samhälle. Denna sak bör tas upp i den utredning
             </seg>
             <seg n="69a20d2a"/>
+          </u>
+          <pb n="20" facs="https://betalab.kb.se/prot-1971--68/prot_1971__68-020.jp2/_view"/>
+          <u who="mary_holmqvist_6987a8" xml:id="i-800fb3264369fe19-9" prev="i-800fb3264369fe19-0" n="800fb326">
             <seg n="09213c9f">
               som vi har krävt, trots att vi är medvetna om att det forskas.
             </seg>
@@ -1516,92 +1625,10 @@
               fick vara med att påverka miljöns definitiva utformning.
             </seg>
           </u>
-          <pb n="14" facs="https://betalab.kb.se/prot-1971--68/prot_1971__68-014.jp2/_view"/>
-          <note n="33b9f1fe">
-            Nr 68 Torsdagen den
-          </note>
-          <note n="310b0332">
-            22 april 1971
-          </note>
-          <note n="25c5005d">
-            Anslag till
-          </note>
-          <note n="e6f5040d">
-            bostadsbyggande,
-          </note>
-          <note n="1e1d3d32">
-            m. m.
-          </note>
-          <note n="ddd06a50">
-            89
-          </note>
-          <pb n="15" facs="https://betalab.kb.se/prot-1971--68/prot_1971__68-015.jp2/_view"/>
-          <note n="33b9f1fe">
-            Nr 68 Torsdagen den
-          </note>
-          <note n="310b0332">
-            22 april 1971
-          </note>
-          <note n="a32b42ef">
-            Anslag till bostadsbyggande, m m.
-          </note>
-          <note n="e9b6085d">
-            90
-          </note>
-          <pb n="16" facs="https://betalab.kb.se/prot-1971--68/prot_1971__68-016.jp2/_view"/>
-          <note n="33b9f1fe">
-            Nr 68 Torsdagen den
-          </note>
-          <note n="310b0332">
-            22 april 1971
-          </note>
-          <note n="25c5005d">
-            Anslag till
-          </note>
-          <note n="e6f5040d">
-            bostadsbyggande,
-          </note>
-          <note n="d3b77347">
-            m m
-          </note>
-          <note n="c34363dc">
-            21
-          </note>
-          <pb n="17" facs="https://betalab.kb.se/prot-1971--68/prot_1971__68-017.jp2/_view"/>
-          <note n="33b9f1fe">
-            Nr 68 Torsdagen den
-          </note>
-          <note n="310b0332">
-            22 april 1971
-          </note>
-          <note n="a32b42ef">
-            Anslag till bostadsbyggande, m m.
-          </note>
-          <note n="0128c03d">
-            92
-          </note>
-          <pb n="18" facs="https://betalab.kb.se/prot-1971--68/prot_1971__68-018.jp2/_view"/>
-          <note n="ce751a1b">
-            ERS a
-          </note>
-          <pb n="19" facs="https://betalab.kb.se/prot-1971--68/prot_1971__68-019.jp2/_view"/>
-          <note n="33b9f1fe">
-            Nr 68 Torsdagen den
-          </note>
-          <note n="310b0332">
-            22 april 1971
-          </note>
-          <note n="a32b42ef">
-            Anslag till bostadsbyggande, m m.
-          </note>
-          <note n="bb1b7418">
-            94
-          </note>
-          <pb n="20" facs="https://betalab.kb.se/prot-1971--68/prot_1971__68-020.jp2/_view"/>
           <note type="speaker" n="6c7667a8">
             Herr inrikesministern HOLMQVIST:
           </note>
-          <u who="mary_holmqvist_6987a8" xml:id="i-d1061ecb2ffb9fac-1" next="i-809d97199a715ead-1" n="800fb326">
+          <u who="mary_holmqvist_6987a8" xml:id="i-800fb3264369fe19-10" next="i-800fb3264369fe19-12" n="800fb326">
             <seg n="17d1eaf1">
               Fru talman! Jag polemiserade egentligen inte mot herr Ullsten,
               utan mitt inlägg var dels närmast ett svar på frågan om servicekommittén,
@@ -1688,7 +1715,7 @@
           <note n="7657b732">
             96
           </note>
-          <u who="mary_holmqvist_6987a8" xml:id="i-809d97199a715ead-1" prev="i-d1061ecb2ffb9fac-1" n="800fb326">
+          <u who="mary_holmqvist_6987a8" xml:id="i-800fb3264369fe19-11" prev="i-800fb3264369fe19-10" n="800fb326">
             <seg n="60b0f271">
               ”Jag blev felaktigt informerad om att det var bättre för mig
               att välja ett räntelån, dvs. att betala den faktiska räntan plus
@@ -1752,6 +1779,9 @@
               Med detta har jag kanske svarat på de inlägg som gjordes och
               ytterligare motiverat mina ståndpunkter.
             </seg>
+          </u>
+          <pb n="22" facs="https://betalab.kb.se/prot-1971--68/prot_1971__68-022.jp2/_view"/>
+          <u who="mary_holmqvist_6987a8" xml:id="i-800fb3264369fe19-12" prev="i-800fb3264369fe19-10" n="800fb326">
             <seg n="e3053f12">
               Herr WENNERFORS (m) kort genmäle:
             </seg>
@@ -1816,11 +1846,10 @@
               genom ryckigheten i bostadsbyggandet.
             </seg>
           </u>
-          <pb n="22" facs="https://betalab.kb.se/prot-1971--68/prot_1971__68-022.jp2/_view"/>
           <note type="speaker" n="6c7667a8">
             Herr inrikesministern HOLMQVIST:
           </note>
-          <u who="mary_holmqvist_6987a8" xml:id="i-d1061ecb2ffb9fac-2" next="i-809d97199a715ead-2" n="800fb326">
+          <u who="mary_holmqvist_6987a8" xml:id="i-800fb3264369fe19-13" next="i-800fb3264369fe19-15" n="800fb326">
             <seg n="976d89be">
               Fru talman! Jag utgår ifrån att man kommer att bygga det antal
               bostäder som riksdagen möjliggör belåning för och som man ger
@@ -1864,7 +1893,7 @@
           <note n="575e0103">
             98
           </note>
-          <u who="mary_holmqvist_6987a8" xml:id="i-809d97199a715ead-2" prev="i-d1061ecb2ffb9fac-2" n="800fb326">
+          <u who="mary_holmqvist_6987a8" xml:id="i-800fb3264369fe19-14" prev="i-800fb3264369fe19-13" n="800fb326">
             <seg n="fc7210e7">
               förmodande är helt orealistiskt, när vi i dag har byggföretag
               som tävlar med varandra om att få lov att bygga den kvot som kommunen
@@ -1923,18 +1952,18 @@
               informationsansträngningarna på denna grupp, som är gynnad i så
               många avseenden.
             </seg>
-            <seg n="69a20d2a"/>
           </u>
           <note n="9f92dc0b">
             Fru andre vice talmannen anmälde att herrar Wennerfors och Adolfsson
             anhållit att till protokollet få antecknat att de inte ägde rätt
             till ytterligare repliker.
           </note>
+          <u who="mary_holmqvist_6987a8" xml:id="i-800fb3264369fe19-15" prev="i-800fb3264369fe19-13" n="800fb326"/>
           <pb n="24" facs="https://betalab.kb.se/prot-1971--68/prot_1971__68-024.jp2/_view"/>
           <note type="speaker" n="c5c99aac">
             Herr LINDKVIST (s):
           </note>
-          <u who="oskar_lindkvist_a25105" xml:id="i-3baae458af739944-0" next="i-aadfbcf6586a05f5-0" n="1de74a43">
+          <u who="oskar_lindkvist_a25105" xml:id="i-1de74a433f1306d3-0" next="i-1de74a433f1306d3-4" n="1de74a43">
             <seg n="05c45ceb">
               Fru talman! I denna bostadsdebatt tas bl.a. upp frågan om statslånens
               höjd till de kooperativa lägenheterna. För min del skall jag inte
@@ -2029,7 +2058,7 @@
           <note n="96af7314">
             100
           </note>
-          <u who="oskar_lindkvist_a25105" xml:id="i-aadfbcf6586a05f5-0" prev="i-3baae458af739944-0" n="1de74a43">
+          <u who="oskar_lindkvist_a25105" xml:id="i-1de74a433f1306d3-1" prev="i-1de74a433f1306d3-0" n="1de74a43">
             <seg n="17e9d36c">
               bra sparform och insatslägenheten ett utomordentligt bostadsalternativ.”
             </seg>
@@ -2094,6 +2123,9 @@
               Men detta är snarare ett
             </seg>
             <seg n="69a20d2a"/>
+          </u>
+          <pb n="26" facs="https://betalab.kb.se/prot-1971--68/prot_1971__68-026.jp2/_view"/>
+          <u who="oskar_lindkvist_a25105" xml:id="i-1de74a433f1306d3-2" prev="i-1de74a433f1306d3-0" n="1de74a43">
             <seg n="fb096c6e">
               undantag än en regel.
             </seg>
@@ -2163,6 +2195,39 @@
               är villig att medge. Men jag förstår att herr Adolfsson längtar
               tillbaka till den
             </seg>
+          </u>
+          <note n="33b9f1fe">
+            Nr 68 Torsdagen den
+          </note>
+          <note n="310b0332">
+            22 april 1971
+          </note>
+          <note n="25c5005d">
+            Anslag till
+          </note>
+          <note n="e6f5040d">
+            bostadsbyggande,
+          </note>
+          <note n="ddab36f5">
+            m m.
+          </note>
+          <note n="43554d44">
+            101
+          </note>
+          <pb n="27" facs="https://betalab.kb.se/prot-1971--68/prot_1971__68-027.jp2/_view"/>
+          <note n="33b9f1fe">
+            Nr 68 Torsdagen den
+          </note>
+          <note n="310b0332">
+            22 april 1971
+          </note>
+          <note n="8b7a7321">
+            Anslag till bostadsbyggande, m m
+          </note>
+          <note n="800e09ce">
+            102
+          </note>
+          <u who="oskar_lindkvist_a25105" xml:id="i-1de74a433f1306d3-3" prev="i-1de74a433f1306d3-0" n="1de74a43">
             <seg n="191026f5">
               tidpunkt då slumpen regerade bostadsbyggandet och då den naturliga
               samverkan som nu finns mellan stat, kommun och länsmyndigheter
@@ -2183,6 +2248,11 @@
               för alternativ? Gäller det subventionspolitik eller gäller det
               marknadshyror? Vi skulle gärna vilja ha ett besked på den punkten.
             </seg>
+          </u>
+          <note n="6daea84c">
+            I detta anförande instämde herr Alf Pettersson i Malmö (s).
+          </note>
+          <u who="oskar_lindkvist_a25105" xml:id="i-1de74a433f1306d3-4" prev="i-1de74a433f1306d3-0" n="1de74a43">
             <seg n="e3053f12">
               Herr WENNERFORS (m) kort genmäle:
             </seg>
@@ -2222,45 +2292,10 @@
               till friköpt mark är kommunala bostadsstiftelser.
             </seg>
           </u>
-          <pb n="26" facs="https://betalab.kb.se/prot-1971--68/prot_1971__68-026.jp2/_view"/>
-          <note n="33b9f1fe">
-            Nr 68 Torsdagen den
-          </note>
-          <note n="310b0332">
-            22 april 1971
-          </note>
-          <note n="25c5005d">
-            Anslag till
-          </note>
-          <note n="e6f5040d">
-            bostadsbyggande,
-          </note>
-          <note n="ddab36f5">
-            m m.
-          </note>
-          <note n="43554d44">
-            101
-          </note>
-          <pb n="27" facs="https://betalab.kb.se/prot-1971--68/prot_1971__68-027.jp2/_view"/>
-          <note n="33b9f1fe">
-            Nr 68 Torsdagen den
-          </note>
-          <note n="310b0332">
-            22 april 1971
-          </note>
-          <note n="8b7a7321">
-            Anslag till bostadsbyggande, m m
-          </note>
-          <note n="800e09ce">
-            102
-          </note>
-          <note n="6daea84c">
-            I detta anförande instämde herr Alf Pettersson i Malmö (s).
-          </note>
           <note type="speaker" n="651e2acc">
             Herr Lindkvist säger:
           </note>
-          <u who="oskar_lindkvist_a25105" xml:id="i-3baae458af739944-1" next="i-aadfbcf6586a05f5-1" n="1de74a43">
+          <u who="oskar_lindkvist_a25105" xml:id="i-1de74a433f1306d3-5" next="i-1de74a433f1306d3-7" n="1de74a43">
             <seg n="0f238efe">
               Se dig om här i Sverige, se hur det har utvecklats och hur det
               ser ut i dag. Jag tycker uppriktigt sagt, herr Lindkvist, att
@@ -2269,6 +2304,9 @@
               skapelser i tankarna när det yttrandet kastades fram.
             </seg>
             <seg n="69a20d2a"/>
+          </u>
+          <pb n="28" facs="https://betalab.kb.se/prot-1971--68/prot_1971__68-028.jp2/_view"/>
+          <u who="oskar_lindkvist_a25105" xml:id="i-1de74a433f1306d3-6" prev="i-1de74a433f1306d3-5" n="1de74a43">
             <seg n="59a4270b">
               Vidare frågar herr Lindkvist vad jag vill ha i stället för den
               politik som förts sedan lång tid tillbaka. Jag vill ha en så fri
@@ -2335,7 +2373,6 @@
               att de boende i Tensta nu gått
             </seg>
           </u>
-          <pb n="28" facs="https://betalab.kb.se/prot-1971--68/prot_1971__68-028.jp2/_view"/>
           <note n="33b9f1fe">
             Nr 68 Torsdagen den
           </note>
@@ -2367,7 +2404,7 @@
           <note n="c0b70c8b">
             104
           </note>
-          <u who="oskar_lindkvist_a25105" xml:id="i-aadfbcf6586a05f5-1" prev="i-3baae458af739944-1" n="1de74a43">
+          <u who="oskar_lindkvist_a25105" xml:id="i-1de74a433f1306d3-7" prev="i-1de74a433f1306d3-5" n="1de74a43">
             <seg n="faf7508a">
               till motattack för att motverka den negativa debatten om detta
               bostadsområde.
@@ -2398,7 +2435,7 @@
           <note type="speaker" n="3f7e5657">
             Herr ÅKERFELDT (c):
           </note>
-          <u who="sven_akerfeldt_01a63c" xml:id="i-e18895adf25fe439-0" next="i-1af2ab99eeaca9d1-0" n="470235ef">
+          <u who="sven_akerfeldt_01a63c" xml:id="i-470235ef51ff1049-0" next="i-470235ef51ff1049-3" n="470235ef">
             <seg n="0f777411">
               Fru talman! Jag har för avsikt att i mitt inlägg beröra ett begränsat
               avsnitt i det stora betänkande vi nu behandlat under åtskilliga
@@ -2440,7 +2477,9 @@
               deras kapacitet på detta
             </seg>
             <seg n="69a20d2a"/>
-            <seg n="69a20d2a"/>
+          </u>
+          <pb n="30" facs="https://betalab.kb.se/prot-1971--68/prot_1971__68-030.jp2/_view"/>
+          <u who="sven_akerfeldt_01a63c" xml:id="i-470235ef51ff1049-1" prev="i-470235ef51ff1049-0" n="470235ef">
             <seg n="0a6e33d3">
               område. Vi har ju under flera år fått uppleva att statsmakterna
               har preciserat riktlinjer och målsättningar för det mesta på bostadsområdet,
@@ -2505,7 +2544,6 @@
               En annan delfråga som har berörts av flera talare här i dag är
             </seg>
           </u>
-          <pb n="30" facs="https://betalab.kb.se/prot-1971--68/prot_1971__68-030.jp2/_view"/>
           <note n="e538e004">
             4" Riksdagens protokoll 1971. Nr 67—69
           </note>
@@ -2527,7 +2565,24 @@
           <note n="7220d1e6">
             105
           </note>
-          <u who="sven_akerfeldt_01a63c" xml:id="i-1af2ab99eeaca9d1-0" prev="i-e18895adf25fe439-0" n="470235ef">
+          <u who="sven_akerfeldt_01a63c" xml:id="i-470235ef51ff1049-2" prev="i-470235ef51ff1049-0" n="470235ef"/>
+          <pb n="31" facs="https://betalab.kb.se/prot-1971--68/prot_1971__68-031.jp2/_view"/>
+          <note n="756b3463">
+            Nr 68
+          </note>
+          <note n="46ec18e6">
+            Torsdagen den
+          </note>
+          <note n="310b0332">
+            22 april 1971
+          </note>
+          <note n="a32b42ef">
+            Anslag till bostadsbyggande, m m.
+          </note>
+          <note n="256913a9">
+            106
+          </note>
+          <u who="sven_akerfeldt_01a63c" xml:id="i-470235ef51ff1049-3" prev="i-470235ef51ff1049-0" n="470235ef">
             <seg n="b2a15762">
               kategoriseringen i boendet. Det har i en tidning i dag skrivits
               om kategoriseringen i Tensta. Jag vet inte om jag vågar ta upp
@@ -2569,26 +2624,10 @@
               6.
             </seg>
           </u>
-          <pb n="31" facs="https://betalab.kb.se/prot-1971--68/prot_1971__68-031.jp2/_view"/>
-          <note n="756b3463">
-            Nr 68
-          </note>
-          <note n="46ec18e6">
-            Torsdagen den
-          </note>
-          <note n="310b0332">
-            22 april 1971
-          </note>
-          <note n="a32b42ef">
-            Anslag till bostadsbyggande, m m.
-          </note>
-          <note n="256913a9">
-            106
-          </note>
           <note type="speaker" n="4ade6307">
             Fru MOGÅRD (m):
           </note>
-          <u who="britt_mogard_279f45" xml:id="i-4d26da39768d91e3-0" next="i-05b1c6e6f95fc053-0" n="a94f685b">
+          <u who="britt_mogard_279f45" xml:id="i-6c737c586ef641d8-0" next="i-6c737c586ef641d8-42" n="a94f685b">
             <seg n="c7c9761e">
               Fru talman! I en bostadsmarknad där marknadskrafterna har fritt
               spelrum kan man utgå ifrån att en god del av bostadskonsumenternas
@@ -2612,6 +2651,9 @@
               under uppförande, när man inte vet vilka som kommer att bo där?
             </seg>
             <seg n="69a20d2a"/>
+          </u>
+          <pb n="32" facs="https://betalab.kb.se/prot-1971--68/prot_1971__68-032.jp2/_view"/>
+          <u who="britt_mogard_279f45" xml:id="i-6c737c586ef641d8-1" prev="i-6c737c586ef641d8-0" n="a94f685b">
             <seg n="7d9dfff6">
               På grund av dessa svårigheter och andra svårigheter har vi inte
               kommit särskilt långt i bostadsdemokrati i denna mening. Fortfarande
@@ -2671,7 +2713,6 @@
               motionen och yrkar således bifall till reservationen 6.
             </seg>
           </u>
-          <pb n="32" facs="https://betalab.kb.se/prot-1971--68/prot_1971__68-032.jp2/_view"/>
           <note n="3f96a6c1">
             Under detta anförande övertog herr talmannen ledningen av kammarens
             förhandlingar.
@@ -2763,118 +2804,10 @@
             angående civilutskottets hemställan i betänkandet nr 12 punkten
             1 antar reservationen nr 1 a av herr Grebäck m. fl. röstar ja,
           </note>
-          <u who="britt_mogard_279f45" xml:id="i-05b1c6e6f95fc053-0" prev="i-4d26da39768d91e3-0" n="a94f685b">
+          <u who="britt_mogard_279f45" xml:id="i-6c737c586ef641d8-2" prev="i-6c737c586ef641d8-0" n="a94f685b">
             <seg n="9cce752b">
               den det ej vill röstar nej.
             </seg>
-            <seg n="9cce752b">
-              den det ej vill röstar nej.
-            </seg>
-            <seg n="e5b5d3b1">
-              Punkten 3 beträffande snabbutredning om kraftigt ökad bostadsvolym
-            </seg>
-            <seg n="9cce752b">
-              den det ej vill röstar nej.
-            </seg>
-            <seg n="9cce752b">
-              den det ej vill röstar nej.
-            </seg>
-            <seg n="9cce752b">
-              den det ej vill röstar nej.
-            </seg>
-            <seg n="9cce752b">
-              den det ej vill röstar nej.
-            </seg>
-            <seg n="69a20d2a"/>
-            <seg n="9cce752b">
-              den det ej vill röstar nej.
-            </seg>
-            <seg n="9cce752b">
-              den det ej vill röstar nej.
-            </seg>
-            <seg n="9cce752b">
-              den det ej vill röstar nej.
-            </seg>
-            <seg n="9f1319e9">
-              Motiveringen
-            </seg>
-            <seg n="69a20d2a"/>
-            <seg n="9cce752b">
-              den det ej vill röstar nej.
-            </seg>
-            <seg n="980e7863">
-              Punkten 16 beträffande samordnat statligt finansieringssystem
-            </seg>
-            <seg n="9cce752b">
-              den det ej vill röstar nej.
-            </seg>
-            <seg n="9cce752b">
-              den det ej vill röstar nej.
-            </seg>
-            <seg n="10f39e30">
-              Punkten 18 beträffande ett uttalande om räntenivån
-            </seg>
-            <seg n="9cce752b">
-              den det ej vill röstar nej.
-            </seg>
-            <seg n="9cce752b">
-              den det ej vill röstar nej.
-            </seg>
-            <seg n="054ea18b">
-              Punkten 20 beträffande bostadslån för småhus och till allmännyttigt
-              bostadsföretag
-            </seg>
-            <seg n="69a20d2a"/>
-            <seg n="9cce752b">
-              den det ej vill röstar nej.
-            </seg>
-            <seg n="9cce752b">
-              den det ej vill röstar nej.
-            </seg>
-            <seg n="9cce752b">
-              den det ej vill röstar nej.
-            </seg>
-            <seg n="9cce752b">
-              den det ej vill röstar nej.
-            </seg>
-            <seg n="9cce752b">
-              den det ej vill röstar nej.
-            </seg>
-            <seg n="69a20d2a"/>
-            <seg n="28412c27">
-              Punkten 23 beträffande samhällsägd mark som förutsättning för
-              bostadslån
-            </seg>
-            <seg n="9cce752b">
-              den det ej vill röstar nej.
-            </seg>
-            <seg n="69a20d2a"/>
-            <seg n="1816a6b2">
-              Punkten 30 beträffande högsta belopp för räntefritt stående förbättringslån
-            </seg>
-            <seg n="9cce752b">
-              den det ej vill röstar nej.
-            </seg>
-            <seg n="69a20d2a"/>
-            <seg n="3233f698">
-              Punkten 38 beträffande ränta på amorteringspliktiga tilläggslån
-            </seg>
-            <seg n="9cce752b">
-              den det ej vill röstar nej.
-            </seg>
-            <seg n="07b01ddd">
-              Punkten 40 beträffande anslag för markförvärvslån
-            </seg>
-            <seg n="ec38810a">
-              De mindre och medelstora företagens tillväxtproblem
-            </seg>
-            <seg n="9cce752b">
-              den det ej vill röstar nej.
-            </seg>
-            <seg n="e544e354">
-              $ 3 De mindre och medelstora företagens tillväxtproblem
-            </seg>
-            <seg n="69a20d2a"/>
           </u>
           <note n="99ff7311">
             Vinner nej har kammaren till kontraproposition i nämnda votering
@@ -2898,6 +2831,11 @@
             Den som vill att kammaren bifaller civilutskottets hemställan
             i betänkandet nr 12 punkten 1 röstar ja,
           </note>
+          <u who="britt_mogard_279f45" xml:id="i-6c737c586ef641d8-3" prev="i-6c737c586ef641d8-0" n="a94f685b">
+            <seg n="9cce752b">
+              den det ej vill röstar nej.
+            </seg>
+          </u>
           <note n="f00a4a17">
             Vinner nej har kammaren bifallit reservationen nr 1 a av herr
             Grebäck m. fl.
@@ -2914,6 +2852,11 @@
           <note n="480cf072">
             Punkten 2 Utskottets hemställan bifölls.
           </note>
+          <u who="britt_mogard_279f45" xml:id="i-6c737c586ef641d8-4" prev="i-6c737c586ef641d8-0" n="a94f685b">
+            <seg n="e5b5d3b1">
+              Punkten 3 beträffande snabbutredning om kraftigt ökad bostadsvolym
+            </seg>
+          </u>
           <note n="3bc77f56">
             Propositioner gavs på bifall till dels utskottets hemställan,
             dels reservationen nr 2 av herr Engström, och förklarades den
@@ -2925,6 +2868,11 @@
             Den som vill att kammaren bifaller civilutskottets hemställan
             i betänkandet nr 12 punkten 3 röstar ja,
           </note>
+          <u who="britt_mogard_279f45" xml:id="i-6c737c586ef641d8-5" prev="i-6c737c586ef641d8-0" n="a94f685b">
+            <seg n="9cce752b">
+              den det ej vill röstar nej.
+            </seg>
+          </u>
           <note n="a412ca20">
             Vinner nej har kammaren bifallit reservationen nr 2 av herr Engström.
           </note>
@@ -2953,7 +2901,7 @@
           <note n="756b3463">
             Nr 68
           </note>
-          <note n="cb037c48">
+          <note type="date" n="c1c1beb7">
             Torsdagen den 22 april 1971
           </note>
           <note n="42c98780">
@@ -2979,6 +2927,11 @@
             Den som vill att kammaren bifaller civilutskottets hemställan
             i betänkandet nr 12 punkten 7 röstar ja,
           </note>
+          <u who="britt_mogard_279f45" xml:id="i-6c737c586ef641d8-6" prev="i-6c737c586ef641d8-0" n="a94f685b">
+            <seg n="9cce752b">
+              den det ej vill röstar nej.
+            </seg>
+          </u>
           <note n="adec04b5">
             Vinner nej har kammaren bifallit reservationen nr 3 av herr Grebäck
             m. fl.
@@ -3006,6 +2959,11 @@
             Den som vill att kammaren bifaller civilutskottets hemställan
             i betänkandet nr 12 punkten 8 röstar ja,
           </note>
+          <u who="britt_mogard_279f45" xml:id="i-6c737c586ef641d8-7" prev="i-6c737c586ef641d8-0" n="a94f685b">
+            <seg n="9cce752b">
+              den det ej vill röstar nej.
+            </seg>
+          </u>
           <note n="33a152d9">
             Vinner nej har kammaren bifallit reservationen nr 4 av herr Grebäck
             m. fl.
@@ -3034,10 +2992,16 @@
             Den som vill att kammaren bifaller civilutskottets hemställan
             i betänkandet nr 12 punkten 9 röstar ja,
           </note>
+          <u who="britt_mogard_279f45" xml:id="i-6c737c586ef641d8-8" prev="i-6c737c586ef641d8-0" n="a94f685b">
+            <seg n="9cce752b">
+              den det ej vill röstar nej.
+            </seg>
+          </u>
           <note n="4835d589">
             Vinner nej har kammaren bifallit reservationen nr 5 av fröken
             Ljungberg och herr Wennerfors.
           </note>
+          <u who="britt_mogard_279f45" xml:id="i-6c737c586ef641d8-9" prev="i-6c737c586ef641d8-0" n="a94f685b"/>
           <pb n="36" facs="https://betalab.kb.se/prot-1971--68/prot_1971__68-036.jp2/_view"/>
           <note n="2dc6f14f">
             Vid omröstning genom uppresning förklarades flertalet av kammarens
@@ -3062,6 +3026,11 @@
             Den som vill att kammaren bifaller civilutskottets hemställan
             i betänkandet nr 12 punkten 10 röstar ja,
           </note>
+          <u who="britt_mogard_279f45" xml:id="i-6c737c586ef641d8-10" prev="i-6c737c586ef641d8-0" n="a94f685b">
+            <seg n="9cce752b">
+              den det ej vill röstar nej.
+            </seg>
+          </u>
           <note n="0f82b76c">
             Vinner nej har kammaren bifallit reservationen nr 6 av herr Grebäck
             m. fl.
@@ -3146,6 +3115,11 @@
             Den som vill att kammaren bifaller civilutskottets hemställan
             i betänkandet nr 12 punkten 12 röstar ja,
           </note>
+          <u who="britt_mogard_279f45" xml:id="i-6c737c586ef641d8-11" prev="i-6c737c586ef641d8-0" n="a94f685b">
+            <seg n="9cce752b">
+              den det ej vill röstar nej.
+            </seg>
+          </u>
           <note n="bcd06bcf">
             Vinner nej har kammaren bifallit reservationen nr 7a av herrar
             Strömberg och Ångström.
@@ -3180,6 +3154,11 @@
             Den som vill att kammaren bifaller civilutskottets hemställan
             i betänkandet nr 12 punkten 15 röstar ja,
           </note>
+          <u who="britt_mogard_279f45" xml:id="i-6c737c586ef641d8-12" prev="i-6c737c586ef641d8-0" n="a94f685b">
+            <seg n="9cce752b">
+              den det ej vill röstar nej.
+            </seg>
+          </u>
           <note n="f727508f">
             Vinner nej har kammaren bifallit reservationen nr 8 av herr Engström.
           </note>
@@ -3192,6 +3171,11 @@
           <note n="7a33bfea">
             Ja — 267 Nej — 14 Avstår — 2
           </note>
+          <u who="britt_mogard_279f45" xml:id="i-6c737c586ef641d8-13" prev="i-6c737c586ef641d8-0" n="a94f685b">
+            <seg n="9f1319e9">
+              Motiveringen
+            </seg>
+          </u>
           <note n="daf1ef4f">
             Propositioner gavs på godkännande av dels utskottets motivering,
             dels den i reservationen nr 9 a av herr Bergman m. fl. anförda
@@ -3199,11 +3183,17 @@
             övervägande ja besvarad. Sedan herr Bergman begärt votering upplästes
             och godkändes följande voteringsproposition:
           </note>
+          <u who="britt_mogard_279f45" xml:id="i-6c737c586ef641d8-14" prev="i-6c737c586ef641d8-0" n="a94f685b"/>
           <pb n="38" facs="https://betalab.kb.se/prot-1971--68/prot_1971__68-038.jp2/_view"/>
           <note n="1a0c5267">
             Den som vill att kammaren godkänner civilutskottets motivering
             i betänkandet nr 12 beträffande punkten 15 röstar ja,
           </note>
+          <u who="britt_mogard_279f45" xml:id="i-6c737c586ef641d8-15" prev="i-6c737c586ef641d8-0" n="a94f685b">
+            <seg n="9cce752b">
+              den det ej vill röstar nej.
+            </seg>
+          </u>
           <note n="d30e2649">
             Vinner nej har kammaren godkänt den i reservationen nr 9 a av
             herr Bergman m. fl. anförda motiveringen.
@@ -3216,6 +3206,11 @@
           <note n="da65c105">
             Ja — 136 Nej — 145 Avstår — 2
           </note>
+          <u who="britt_mogard_279f45" xml:id="i-6c737c586ef641d8-16" prev="i-6c737c586ef641d8-0" n="a94f685b">
+            <seg n="980e7863">
+              Punkten 16 beträffande samordnat statligt finansieringssystem
+            </seg>
+          </u>
           <note n="b472dda1">
             Propositioner gavs på bifall till dels utskottets hemställan,
             dels reservationen nr 10 av herrar Strömberg och Ångström, och
@@ -3227,6 +3222,11 @@
             Den som vill att kammaren bifaller civilutskottets hemställan
             i betänkandet nr 12 punkten 16 röstar ja,
           </note>
+          <u who="britt_mogard_279f45" xml:id="i-6c737c586ef641d8-17" prev="i-6c737c586ef641d8-0" n="a94f685b">
+            <seg n="9cce752b">
+              den det ej vill röstar nej.
+            </seg>
+          </u>
           <note n="42e501a5">
             Vinner nej har kammaren bifallit reservationen nr 10 av herrar
             Strömberg och Ångström.
@@ -3255,6 +3255,11 @@
             Den som vill att kammaren bifaller civilutskottets hemställan
             i betänkandet nr 12 punkten 17 röstar ja,
           </note>
+          <u who="britt_mogard_279f45" xml:id="i-6c737c586ef641d8-18" prev="i-6c737c586ef641d8-0" n="a94f685b">
+            <seg n="9cce752b">
+              den det ej vill röstar nej.
+            </seg>
+          </u>
           <note n="bcd06443">
             Vinner nej har kammaren bifallit reservationen nr 11 av fröken
             Ljungberg och herr Wennerfors.
@@ -3287,7 +3292,7 @@
           <note n="756b3463">
             Nr 68
           </note>
-          <note n="cb037c48">
+          <note type="date" n="c1c1beb7">
             Torsdagen den 22 april 1971
           </note>
           <note n="42c98780">
@@ -3299,6 +3304,11 @@
           <note n="e6cd40ff">
             Ja — 247 Nej — 32 Avstår — 4
           </note>
+          <u who="britt_mogard_279f45" xml:id="i-6c737c586ef641d8-19" prev="i-6c737c586ef641d8-0" n="a94f685b">
+            <seg n="10f39e30">
+              Punkten 18 beträffande ett uttalande om räntenivån
+            </seg>
+          </u>
           <note n="0239a95f">
             Propositioner gavs på bifall till dels utskottets hemställan,
             dels reservationen nr 12 av herr Grebäck m. fl., och förklarades
@@ -3310,6 +3320,11 @@
             Den som vill att kammaren bifaller civilutskottets hemställan
             i betänkandet nr 12 punkten 18 röstar ja,
           </note>
+          <u who="britt_mogard_279f45" xml:id="i-6c737c586ef641d8-20" prev="i-6c737c586ef641d8-0" n="a94f685b">
+            <seg n="9cce752b">
+              den det ej vill röstar nej.
+            </seg>
+          </u>
           <note n="ff7f3362">
             Vinner nej har kammaren bifallit reservationen nr 12 av herr
             Grebäck m. fl.
@@ -3337,6 +3352,11 @@
             Den som vill att kammaren bifaller civilutskottets hemställan
             i betänkandet nr 12 punkten 19 röstar ja,
           </note>
+          <u who="britt_mogard_279f45" xml:id="i-6c737c586ef641d8-21" prev="i-6c737c586ef641d8-0" n="a94f685b">
+            <seg n="9cce752b">
+              den det ej vill röstar nej.
+            </seg>
+          </u>
           <note n="fb3c222f">
             Vinner nej har kammaren bifallit reservationen nr 13 av herrar
             Strömberg och Ångström.
@@ -3350,6 +3370,12 @@
           <note n="3a5c98b3">
             Ja — 236 Nej — 46 Avstår — 2
           </note>
+          <u who="britt_mogard_279f45" xml:id="i-6c737c586ef641d8-22" prev="i-6c737c586ef641d8-0" n="a94f685b">
+            <seg n="054ea18b">
+              Punkten 20 beträffande bostadslån för småhus och till allmännyttigt
+              bostadsföretag
+            </seg>
+          </u>
           <note n="20df9903">
             Propositioner gavs på bifall till 1:0) utskottets hemställan,
             2:0) reservationen nr 14 a av herr Grebäck m. fl. samt 3:0) reservationen
@@ -3357,6 +3383,7 @@
             den förstnämnda propositionen vara med övervägande ja besvarad.
             Då herr
           </note>
+          <u who="britt_mogard_279f45" xml:id="i-6c737c586ef641d8-23" prev="i-6c737c586ef641d8-0" n="a94f685b"/>
           <pb n="40" facs="https://betalab.kb.se/prot-1971--68/prot_1971__68-040.jp2/_view"/>
           <note n="11d6d895">
             Grebäck begärde votering, upptogs för bestämmande av kontrapropositionen
@@ -3370,6 +3397,11 @@
             angående civilutskottets hemställan i betänkandet nr 12 punkten
             20 antar reservationen nr 14 a av herr Grebäck m fl. röstar ja,
           </note>
+          <u who="britt_mogard_279f45" xml:id="i-6c737c586ef641d8-24" prev="i-6c737c586ef641d8-0" n="a94f685b">
+            <seg n="9cce752b">
+              den det ej vill röstar nej.
+            </seg>
+          </u>
           <note n="a947d593">
             Vinner nej har kammaren till kontraproposition i nämnda votering
             antagit reservationen nr 14 b av fröken Ljungberg och herr Wennerfors.
@@ -3391,6 +3423,11 @@
             Den som vill att kammaren bifaller civilutskottets hemställan
             i betänkandet nr 12 punkten 20 röstar ja,
           </note>
+          <u who="britt_mogard_279f45" xml:id="i-6c737c586ef641d8-25" prev="i-6c737c586ef641d8-0" n="a94f685b">
+            <seg n="9cce752b">
+              den det ej vill röstar nej.
+            </seg>
+          </u>
           <note n="f5ab5b9c">
             Vinner nej har kammaren bifallit reservationen nr 14 a av herr
             Grebäck m. fl.
@@ -3421,7 +3458,7 @@
           <note n="756b3463">
             Nr 68
           </note>
-          <note n="cb037c48">
+          <note type="date" n="c1c1beb7">
             Torsdagen den 22 april 1971
           </note>
           <note n="25c5005d">
@@ -3454,6 +3491,11 @@
             angående civilutskottets hemställan i betänkandet nr 12 punkten
             21 antar reservationen nr 15 a av herr Grebäck m. fl. röstar ja,
           </note>
+          <u who="britt_mogard_279f45" xml:id="i-6c737c586ef641d8-26" prev="i-6c737c586ef641d8-0" n="a94f685b">
+            <seg n="9cce752b">
+              den det ej vill röstar nej.
+            </seg>
+          </u>
           <note n="09783dc8">
             Vinner nej har kammaren till kontraproposition i nämnda votering
             antagit reservationen nr 15 b av herrar Strömberg och Ångström.
@@ -3470,6 +3512,11 @@
             Den som vill att kammaren bifaller civilutskottets hemställan
             i betänkandet nr 12 punkten 21 röstar ja,
           </note>
+          <u who="britt_mogard_279f45" xml:id="i-6c737c586ef641d8-27" prev="i-6c737c586ef641d8-0" n="a94f685b">
+            <seg n="9cce752b">
+              den det ej vill röstar nej.
+            </seg>
+          </u>
           <note n="b9b5d263">
             Vinner nej har kammaren bifallit reservationen nr 15 a av herr
             Grebäck m. fl.
@@ -3504,6 +3551,11 @@
             22 antar reservationen nr 16 a av herr Grebäck och fru Olsson
             i Hölö röstar ja,
           </note>
+          <u who="britt_mogard_279f45" xml:id="i-6c737c586ef641d8-28" prev="i-6c737c586ef641d8-0" n="a94f685b">
+            <seg n="9cce752b">
+              den det ej vill röstar nej.
+            </seg>
+          </u>
           <note n="8fe615f7">
             Vinner nej har kammaren till kontraproposition i nämnda votering
             antagit reservationen nr 16 b av fröken Ljungberg och herr Wennerfors.
@@ -3512,6 +3564,7 @@
             Vid omröstning genom uppresning förklarades flertalet av kammarens
             ledamöter ha röstat för ja-propositionen. Då herr Wennerfors begärde
           </note>
+          <u who="britt_mogard_279f45" xml:id="i-6c737c586ef641d8-29" prev="i-6c737c586ef641d8-0" n="a94f685b"/>
           <pb n="42" facs="https://betalab.kb.se/prot-1971--68/prot_1971__68-042.jp2/_view"/>
           <note n="4dd7013a">
             rösträkning verkställdes votering med omröstningsapparat. Denna
@@ -3539,6 +3592,12 @@
           <note n="1462d9f0">
             Ja — 201 Nej — 48 Avstår — 34
           </note>
+          <u who="britt_mogard_279f45" xml:id="i-6c737c586ef641d8-30" prev="i-6c737c586ef641d8-0" n="a94f685b">
+            <seg n="28412c27">
+              Punkten 23 beträffande samhällsägd mark som förutsättning för
+              bostadslån
+            </seg>
+          </u>
           <note n="f6ad2ea9">
             Propositioner gavs på bifall till dels utskottets hemställan,
             dels reservationen nr 17 av herr Engström, och förklarades den
@@ -3562,6 +3621,11 @@
             Den som vill att kammaren bifaller civilutskottets hemställan
             i betänkandet nr 12 punkten 28 röstar ja,
           </note>
+          <u who="britt_mogard_279f45" xml:id="i-6c737c586ef641d8-31" prev="i-6c737c586ef641d8-0" n="a94f685b">
+            <seg n="9cce752b">
+              den det ej vill röstar nej.
+            </seg>
+          </u>
           <note n="2fc7ef35">
             Vinner nej har kammaren bifallit reservationen nr 18 av herr
             Grebäck m. fl.
@@ -3575,7 +3639,7 @@
           <note n="756b3463">
             Nr 68
           </note>
-          <note n="cb037c48">
+          <note type="date" n="c1c1beb7">
             Torsdagen den 22 april 1971
           </note>
           <note n="2beb4c17">
@@ -3584,6 +3648,7 @@
           <note n="8d2c5243">
             117
           </note>
+          <u who="britt_mogard_279f45" xml:id="i-6c737c586ef641d8-32" prev="i-6c737c586ef641d8-0" n="a94f685b"/>
           <pb n="43" facs="https://betalab.kb.se/prot-1971--68/prot_1971__68-043.jp2/_view"/>
           <note n="33b9f1fe">
             Nr 68 Torsdagen den
@@ -3625,6 +3690,11 @@
           <note n="5df9bfdf">
             Ja — 202 Nej — 79 Avstår — 2
           </note>
+          <u who="britt_mogard_279f45" xml:id="i-6c737c586ef641d8-33" prev="i-6c737c586ef641d8-0" n="a94f685b">
+            <seg n="1816a6b2">
+              Punkten 30 beträffande högsta belopp för räntefritt stående förbättringslån
+            </seg>
+          </u>
           <note n="0664405d">
             Propositioner gavs på bifall till dels utskottets hemställan,
             dels reservationen nr 20 av fru Olsson i Hölö och herr Åkerfeldt,
@@ -3636,6 +3706,11 @@
             Den som vill att kammaren bifaller civilutskottets hemställan
             i betänkandet nr 12 punkten 30 röstar ja,
           </note>
+          <u who="britt_mogard_279f45" xml:id="i-6c737c586ef641d8-34" prev="i-6c737c586ef641d8-0" n="a94f685b">
+            <seg n="9cce752b">
+              den det ej vill röstar nej.
+            </seg>
+          </u>
           <note n="1d61e2b0">
             Vinner nej har kammaren bifallit reservationen nr 20 av fru Olsson
             i Hölö och herr Åkerfeldt.
@@ -3649,11 +3724,17 @@
           <note n="aa825f79">
             Ja — 234 Nej — 45 Avstår — 5
           </note>
+          <u who="britt_mogard_279f45" xml:id="i-6c737c586ef641d8-35" prev="i-6c737c586ef641d8-0" n="a94f685b"/>
           <pb n="44" facs="https://betalab.kb.se/prot-1971--68/prot_1971__68-044.jp2/_view"/>
           <note n="e71901c2">
             Punkterna 31-37 Kammaren biföll vad utskottet i dessa punkter
             hemställt.
           </note>
+          <u who="britt_mogard_279f45" xml:id="i-6c737c586ef641d8-36" prev="i-6c737c586ef641d8-0" n="a94f685b">
+            <seg n="3233f698">
+              Punkten 38 beträffande ränta på amorteringspliktiga tilläggslån
+            </seg>
+          </u>
           <note n="1b18a2a5">
             Propositioner gavs på bifall till dels utskottets hemställan,
             dels reservationen nr 22 av herr Grebäck m. fl., och förklarades
@@ -3665,6 +3746,11 @@
             Den som vill att kammaren bifaller civilutskottets hemställan
             i betänkandet nr 12 punkten 38 röstar ja,
           </note>
+          <u who="britt_mogard_279f45" xml:id="i-6c737c586ef641d8-37" prev="i-6c737c586ef641d8-0" n="a94f685b">
+            <seg n="9cce752b">
+              den det ej vill röstar nej.
+            </seg>
+          </u>
           <note n="5c108e48">
             Vinner nej har kammaren bifallit reservationen nr 22 av herr
             Grebäck m. fl.
@@ -3681,6 +3767,11 @@
           <note n="87ce29a0">
             Punkten 39 Utskottets hemställan bifölls.
           </note>
+          <u who="britt_mogard_279f45" xml:id="i-6c737c586ef641d8-38" prev="i-6c737c586ef641d8-0" n="a94f685b">
+            <seg n="07b01ddd">
+              Punkten 40 beträffande anslag för markförvärvslån
+            </seg>
+          </u>
           <note n="e47a799d">
             Propositioner gavs på bifall till 1:0) utskottets hemställan,
             2:0) reservationen nr 23 a av fröken Ljungberg och herr Wennerfors
@@ -3736,6 +3827,11 @@
           <note n="310b0332">
             22 april 1971
           </note>
+          <u who="britt_mogard_279f45" xml:id="i-6c737c586ef641d8-39" prev="i-6c737c586ef641d8-0" n="a94f685b">
+            <seg n="ec38810a">
+              De mindre och medelstora företagens tillväxtproblem
+            </seg>
+          </u>
           <note n="9f2d41c1">
             120
           </note>
@@ -3747,6 +3843,11 @@
             Den som vill att kammaren bifaller civilutskottets hemställan
             i betänkandet nr 12 punkten 40 röstar ja,
           </note>
+          <u who="britt_mogard_279f45" xml:id="i-6c737c586ef641d8-40" prev="i-6c737c586ef641d8-0" n="a94f685b">
+            <seg n="9cce752b">
+              den det ej vill röstar nej.
+            </seg>
+          </u>
           <note n="c2b5492b">
             Vinner nej har kammaren bifallit reservationen nr 23 a av fröken
             Ljungberg och herr Wennerfors.
@@ -3786,6 +3887,11 @@
           <note n="30d6e1f5">
             Utskottets hemställan bifölls.
           </note>
+          <u who="britt_mogard_279f45" xml:id="i-6c737c586ef641d8-41" prev="i-6c737c586ef641d8-0" n="a94f685b">
+            <seg n="e544e354">
+              $ 3 De mindre och medelstora företagens tillväxtproblem
+            </seg>
+          </u>
           <note n="da4d9a8f">
             Föredrogs näringsutskottets betänkande nr 10 i anledning av motion
             om åtgärder för att lösa de mindre och medelstora företagens tillväxtproblem,
@@ -3800,6 +3906,7 @@
           <note n="ea7063b9">
             Utskottet hemställde att riksdagen skulle avslå motionen 1971:1070.
           </note>
+          <u who="britt_mogard_279f45" xml:id="i-6c737c586ef641d8-42" prev="i-6c737c586ef641d8-0" n="a94f685b"/>
           <pb n="46" facs="https://betalab.kb.se/prot-1971--68/prot_1971__68-046.jp2/_view"/>
           <note n="fab8bb85">
             Reservation hade avgivits av herrar Börjesson i Glömminge (c),
@@ -3815,7 +3922,7 @@
           <note type="speaker" n="af48a85b">
             Herr CLARKSON (m):
           </note>
-          <u who="rolf_clarkson_f632d2" xml:id="i-da76e830123c2c8a-0" next="i-34c0fbcc77286762-0" n="b2030b80">
+          <u who="rolf_clarkson_f632d2" xml:id="i-b2030b80af8b9e9f-0" next="i-b2030b80af8b9e9f-8" n="b2030b80">
             <seg n="f404a6c6">
               Herr talman! Utskottet har gått emot motionärernas önskan om
               en utredning kring tillväxtproblematiken i familjeföretagen. Jag
@@ -3870,19 +3977,47 @@
             de mindre och medelstora företagens tillväxtproblem, särskilt
             vad gäller industriella innovationer.
           </note>
-          <u who="rolf_clarkson_f632d2" xml:id="i-34c0fbcc77286762-0" prev="i-da76e830123c2c8a-0" n="b2030b80">
+          <u who="rolf_clarkson_f632d2" xml:id="i-b2030b80af8b9e9f-1" prev="i-b2030b80af8b9e9f-0" n="b2030b80">
             <seg n="e452007f">
               Teknisk utveckling och innovation, som inom mindre och medelstor
             </seg>
+          </u>
+          <note n="756b3463">
+            Nr 68
+          </note>
+          <note type="date" n="c1c1beb7">
+            Torsdagen den 22 april 1971
+          </note>
+          <u who="rolf_clarkson_f632d2" xml:id="i-b2030b80af8b9e9f-2" prev="i-b2030b80af8b9e9f-0" n="b2030b80">
             <seg n="1f1a286c">
               De mindre och medelstora före-
             </seg>
             <seg n="c6b07375">
               tagens tillväxtproblem
             </seg>
+          </u>
+          <note n="c5f845bb">
+            121
+          </note>
+          <pb n="47" facs="https://betalab.kb.se/prot-1971--68/prot_1971__68-047.jp2/_view"/>
+          <note n="756b3463">
+            Nr 68
+          </note>
+          <note type="date" n="c1c1beb7">
+            Torsdagen den 22 april 1971
+          </note>
+          <note n="462462a5">
+            De mindre och
+          </note>
+          <u who="rolf_clarkson_f632d2" xml:id="i-b2030b80af8b9e9f-3" prev="i-b2030b80af8b9e9f-0" n="b2030b80">
             <seg n="438f5227">
               medelstora företagens tillväxtproblem
             </seg>
+          </u>
+          <note n="998f3f35">
+            122
+          </note>
+          <u who="rolf_clarkson_f632d2" xml:id="i-b2030b80af8b9e9f-4" prev="i-b2030b80af8b9e9f-0" n="b2030b80">
             <seg n="f5f8389f">
               industri och i vissa fall särskilt inom dessa industrigrupper
               står på en hög nivå, är ett område som hittills inte blivit föremål
@@ -3927,6 +4062,18 @@
               har att pröva frågan om sådana åtgärder, detta enligt den redovisning
               som finns i utskottets betänkande nr 9.
             </seg>
+          </u>
+          <note n="699b888f">
+            Jag ber alltså, herr talman, att få yrka bifall till reservationen
+            av herr Börjesson i Glömminge m. fl.
+          </note>
+          <note n="f75cc9b5">
+            I detta anförande instämde herr Börjesson i Glömminge (c).
+          </note>
+          <note n="26219654">
+            Herr BENGTSSON i Landskrona (s):
+          </note>
+          <u who="rolf_clarkson_f632d2" xml:id="i-b2030b80af8b9e9f-5" prev="i-b2030b80af8b9e9f-0" n="b2030b80">
             <seg n="5a8cc5df">
               Herr talman! I detta betänkande behandlas, som vi hört, motionsledes
               framförda krav på utredning för att lösa de mindre och medelstora
@@ -3945,48 +4092,7 @@
               samma uppgifter kan inte vara välbetänkt.
             </seg>
             <seg n="69a20d2a"/>
-            <seg n="9cce752b">
-              den det ej vill röstar nej.
-            </seg>
-            <seg n="7c008c2e">
-              SUNE K. JOHANSSON /Solveig Gemert
-            </seg>
-            <seg n="ec38810a">
-              De mindre och medelstora företagens tillväxtproblem
-            </seg>
           </u>
-          <note n="756b3463">
-            Nr 68
-          </note>
-          <note n="cb037c48">
-            Torsdagen den 22 april 1971
-          </note>
-          <note n="c5f845bb">
-            121
-          </note>
-          <pb n="47" facs="https://betalab.kb.se/prot-1971--68/prot_1971__68-047.jp2/_view"/>
-          <note n="756b3463">
-            Nr 68
-          </note>
-          <note n="cb037c48">
-            Torsdagen den 22 april 1971
-          </note>
-          <note n="462462a5">
-            De mindre och
-          </note>
-          <note n="998f3f35">
-            122
-          </note>
-          <note n="699b888f">
-            Jag ber alltså, herr talman, att få yrka bifall till reservationen
-            av herr Börjesson i Glömminge m. fl.
-          </note>
-          <note n="f75cc9b5">
-            I detta anförande instämde herr Börjesson i Glömminge (c).
-          </note>
-          <note n="26219654">
-            Herr BENGTSSON i Landskrona (s):
-          </note>
           <pb n="48" facs="https://betalab.kb.se/prot-1971--68/prot_1971__68-048.jp2/_view"/>
           <note n="2c0d34ce">
             Herr talman! Med det sagda hemställer jag om bifall till vad
@@ -4005,6 +4111,11 @@
             Den som vill att kammaren bifaller näringsutskottets hemställan
             i betänkandet nr 10 röstar ja,
           </note>
+          <u who="rolf_clarkson_f632d2" xml:id="i-b2030b80af8b9e9f-6" prev="i-b2030b80af8b9e9f-0" n="b2030b80">
+            <seg n="9cce752b">
+              den det ej vill röstar nej.
+            </seg>
+          </u>
           <note n="a458fb4b">
             Vinner nej har kammaren bifallit reservationen av herr Börjesson
             i Glömminge m. fl.
@@ -4039,9 +4150,19 @@
           <note n="952cb212">
             In fidem
           </note>
-          <note n="f7e42a97">
+          <u who="rolf_clarkson_f632d2" xml:id="i-b2030b80af8b9e9f-7" prev="i-b2030b80af8b9e9f-0" n="b2030b80">
+            <seg n="7c008c2e">
+              SUNE K. JOHANSSON /Solveig Gemert
+            </seg>
+          </u>
+          <note type="date" n="be7a16df">
             Nr 68 Torsdagen den 22 april 1971
           </note>
+          <u who="rolf_clarkson_f632d2" xml:id="i-b2030b80af8b9e9f-8" prev="i-b2030b80af8b9e9f-0" n="b2030b80">
+            <seg n="ec38810a">
+              De mindre och medelstora företagens tillväxtproblem
+            </seg>
+          </u>
           <note n="ebe14621">
             123
           </note>

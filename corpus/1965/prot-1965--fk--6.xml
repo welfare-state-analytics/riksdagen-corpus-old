@@ -20,7 +20,7 @@
     <encodingDesc>
       <editorialDecl>
         <correction>
-          <p>Some data curation was done. It is documented in db/curation/instances</p>
+          <p>Some data curation was done. It is documented in input/curation/instances</p>
         </correction>
       </editorialDecl>
     </encodingDesc>
@@ -52,6 +52,7 @@
       <front>
         <div type="preface">
           <head>prot-1965--fk--6</head>
+          <docDate when="1963-02-05">1963-02-05</docDate>
           <docDate when="1965-02-01">1965-02-01</docDate>
           <docDate when="1965-02-02">1965-02-02</docDate>
           <docDate when="1965-02-05">1965-02-05</docDate>
@@ -59,6 +60,7 @@
       </front>
       <body>
         <div>
+          <pb n="0" facs="https://betalab.kb.se/prot-1965--fk--6/prot_1965__fk__6-000.jp2/_view"/>
           <note n="014c2a8c"/>
           <note n="b508b6c0">
             LER
@@ -76,7 +78,7 @@
           <note n="85449f2f">
             Debatter m. m.
           </note>
-          <note n="1757bb52">
+          <note type="date" n="d61bf88b">
             Fredagen den 5 februari Sid.
           </note>
           <note n="9b2bbe71">
@@ -103,7 +105,7 @@
           </note>
           <note n="014c2a8c"/>
           <pb n="2" facs="https://betalab.kb.se/prot-1965--fk--6/prot_1965__fk__6-002.jp2/_view"/>
-          <note n="7fd4d675">
+          <note type="date" n="eebacc7f">
             Måndagen den 1 februari 1965
           </note>
           <note n="b9df0496">
@@ -280,7 +282,7 @@
           <note n="ede10b24">
             motionerna nr 573—575 till allmänna beredningsutskottet,
           </note>
-          <note n="7fd4d675">
+          <note type="date" n="eebacc7f">
             Måndagen den 1 februari 1965
           </note>
           <note n="e45379ae">
@@ -326,7 +328,7 @@
             In fidem K.-G. Lindelöw
           </note>
           <pb n="4" facs="https://betalab.kb.se/prot-1965--fk--6/prot_1965__fk__6-004.jp2/_view"/>
-          <note n="60e33816">
+          <note type="date" n="1f23d9f5">
             Tisdagen den 2 februari 1965
           </note>
           <note n="81ed7858">
@@ -368,7 +370,7 @@
           <note n="bdab646c">
             6 Nr 6
           </note>
-          <note n="5f2d49aa">
+          <note type="date" n="c22a3382">
             Fredagen den 5 februari 1963
           </note>
           <note type="date" n="8ebf10a3">
@@ -423,7 +425,7 @@
           <note type="speaker" n="63f96a3c">
             Herr NYMAN (fp):
           </note>
-          <u who="unknown" xml:id="i-bc844a7aa81815e5-0" n="80130287">
+          <u who="unknown" xml:id="i-801302879b038423-0" n="80130287">
             <seg n="5b720bca">
               Herr talman! Jag ber att till herr statsrådet och chefen för
               jordbruksdepartementet få framföra mitt tack för svaret på min
@@ -451,7 +453,7 @@
             </seg>
           </u>
           <pb n="6" facs="https://betalab.kb.se/prot-1965--fk--6/prot_1965__fk__6-006.jp2/_view"/>
-          <note n="29ca658e">
+          <note type="date" n="02c66517">
             Fredagen den 5 februari 1965
           </note>
           <note n="e6d92947">
@@ -460,11 +462,20 @@
           <note n="bbc927bd">
             Ang. skadeverkningarna av kemiska bekämpningsmedel
           </note>
-          <u who="unknown" xml:id="i-54bdbaa7239d62a6-0" n="80130287">
+          <u who="unknown" xml:id="i-801302879b038423-1" n="80130287">
             <seg n="a9f47cc0">
               och berguv. Alldeles särskilt har man märkt detta i södra och
               mellersta Sverige.
             </seg>
+          </u>
+          <note n="bfb1b837">
+            Svenska naturskyddsföreningen och Sveriges ornitologiska förening
+            har i skrivelse till Konungen i början av 1964 föreslagit, att
+            omedelbara provisoriska åtgärder m. m. vidtages i syfte att begränsa
+            och reglera användningen av kemiska bekämpningsmedel, i första
+            hand betningsmedel, så att fortsatta skadeverkningar förebyggs.
+          </note>
+          <u who="unknown" xml:id="i-801302879b038423-2" n="80130287">
             <seg n="e693c652">
               Effektiva möjligheter till kontroll av gällande författningars
               efterlevnad saknas alltfort, och hanteringen av de aktuella medlen
@@ -543,6 +554,18 @@
               Jordbruksministern har i sitt svar nämnt några åtgärder som man
               har vid-
             </seg>
+          </u>
+          <pb n="7" facs="https://betalab.kb.se/prot-1965--fk--6/prot_1965__fk__6-007.jp2/_view"/>
+          <note n="594426ce">
+            8 Nr 6
+          </note>
+          <note type="date" n="02c66517">
+            Fredagen den 5 februari 1965
+          </note>
+          <note n="bbc927bd">
+            Ang. skadeverkningarna av kemiska bekämpningsmedel
+          </note>
+          <u who="unknown" xml:id="i-801302879b038423-3" n="80130287">
             <seg n="5ddebc09">
               tagit för att nedbringa befarade risker med kvicksilverbetade
               bekämpningsmedel. En sådan åtgärd är ju frökontrollanstalternas
@@ -628,31 +651,9 @@
               i samband med vårsådden för att nedbringa omfattningen av betat
               utsäde, t. ex. en in-
             </seg>
-            <seg n="8c315354">
-              tensifierad upplysningsverksamhet? Den andra frågan jag vill
-              ställa är denna: Kan vi räkna med ökade anslag för biocidforskning
-              och ekologiska undersökningar?
-            </seg>
           </u>
-          <note n="bfb1b837">
-            Svenska naturskyddsföreningen och Sveriges ornitologiska förening
-            har i skrivelse till Konungen i början av 1964 föreslagit, att
-            omedelbara provisoriska åtgärder m. m. vidtages i syfte att begränsa
-            och reglera användningen av kemiska bekämpningsmedel, i första
-            hand betningsmedel, så att fortsatta skadeverkningar förebyggs.
-          </note>
-          <pb n="7" facs="https://betalab.kb.se/prot-1965--fk--6/prot_1965__fk__6-007.jp2/_view"/>
-          <note n="594426ce">
-            8 Nr 6
-          </note>
-          <note n="29ca658e">
-            Fredagen den 5 februari 1965
-          </note>
-          <note n="bbc927bd">
-            Ang. skadeverkningarna av kemiska bekämpningsmedel
-          </note>
           <pb n="8" facs="https://betalab.kb.se/prot-1965--fk--6/prot_1965__fk__6-008.jp2/_view"/>
-          <note n="29ca658e">
+          <note type="date" n="02c66517">
             Fredagen den 5 februari 1965
           </note>
           <note n="fc634ff8">
@@ -661,10 +662,17 @@
           <note n="bbc927bd">
             Ang. skadeverkningarna av kemiska bekämpningsmedel
           </note>
+          <u who="unknown" xml:id="i-801302879b038423-4" n="80130287">
+            <seg n="8c315354">
+              tensifierad upplysningsverksamhet? Den andra frågan jag vill
+              ställa är denna: Kan vi räkna med ökade anslag för biocidforskning
+              och ekologiska undersökningar?
+            </seg>
+          </u>
           <note type="speaker" n="937837dc">
             Herr ISACSON (h):
           </note>
-          <u who="unknown" xml:id="i-bc844a7aa81815e5-1" n="80130287">
+          <u who="unknown" xml:id="i-801302879b038423-5" n="80130287">
             <seg n="d534a02c">
               Herr talman! Herr statsrådet och interpellanten herr Nyman får
               ursäkta, om jag något blandar mig i denna debatt. Jag gör det
@@ -741,13 +749,13 @@
           <note n="00ab0b06">
             10 Nr 6
           </note>
-          <note n="29ca658e">
+          <note type="date" n="02c66517">
             Fredagen den 5 februari 1965
           </note>
           <note n="bbc927bd">
             Ang. skadeverkningarna av kemiska bekämpningsmedel
           </note>
-          <u who="unknown" xml:id="i-54bdbaa7239d62a6-1" n="80130287">
+          <u who="unknown" xml:id="i-801302879b038423-6" n="80130287">
             <seg n="90fce172">
               ser att förutsättningarna är mycket goda för att vi skall komma
               ifrån en hel del av de problem som uppstått på grund av en viss
@@ -815,7 +823,7 @@
           <note type="speaker" n="a2f8dba8">
             Herr statsrådet HOLMQVIST:
           </note>
-          <u who="mary_holmqvist_801ec3" xml:id="i-5dc3cf6476413eb9-0" next="i-47c76c87f5dfe90a-0" n="e6078391">
+          <u who="mary_holmqvist_801ec3" xml:id="i-801302879b038423-7" next="i-801302879b038423-9" n="e6078391">
             <seg n="8c0f582e">
               Herr talman! Herr Nyman har refererat uppfattningar, som kommit
               till uttryck i uttalanden och resolutioner från vissa ideella
@@ -834,7 +842,7 @@
             </seg>
           </u>
           <pb n="10" facs="https://betalab.kb.se/prot-1965--fk--6/prot_1965__fk__6-010.jp2/_view"/>
-          <note n="29ca658e">
+          <note type="date" n="02c66517">
             Fredagen den 5 februari 1965
           </note>
           <note n="c99d658e">
@@ -843,7 +851,7 @@
           <note n="bbc927bd">
             Ang. skadeverkningarna av kemiska bekämpningsmedel
           </note>
-          <u who="mary_holmqvist_801ec3" xml:id="i-47c76c87f5dfe90a-0" prev="i-5dc3cf6476413eb9-0" n="e6078391">
+          <u who="mary_holmqvist_801ec3" xml:id="i-801302879b038423-8" prev="i-801302879b038423-7" n="e6078391">
             <seg n="3dbc80fe">
               heterna är oförstående inför dessa problem. Jag tror tvärtom
               att man kan säga, att våra myndigheter i många fall har handlat
@@ -921,6 +929,18 @@
               upprustning, som man kan förmoda så småningom måste komma. Det
               torde vara för tidigt att i dag avgöra, var forsk-
             </seg>
+          </u>
+          <pb n="11" facs="https://betalab.kb.se/prot-1965--fk--6/prot_1965__fk__6-011.jp2/_view"/>
+          <note n="6864e78b">
+            12 Nr 6
+          </note>
+          <note type="date" n="02c66517">
+            Fredagen den 5 februari 1965
+          </note>
+          <note n="bbc927bd">
+            Ang. skadeverkningarna av kemiska bekämpningsmedel
+          </note>
+          <u who="mary_holmqvist_801ec3" xml:id="i-801302879b038423-9" prev="i-801302879b038423-7" n="e6078391">
             <seg n="a880f815">
               ningen skall placeras in och hur den skall avvägas.
             </seg>
@@ -954,20 +974,10 @@
             </seg>
             <seg n="3a625f12"/>
           </u>
-          <pb n="11" facs="https://betalab.kb.se/prot-1965--fk--6/prot_1965__fk__6-011.jp2/_view"/>
-          <note n="6864e78b">
-            12 Nr 6
-          </note>
-          <note n="29ca658e">
-            Fredagen den 5 februari 1965
-          </note>
-          <note n="bbc927bd">
-            Ang. skadeverkningarna av kemiska bekämpningsmedel
-          </note>
           <note type="speaker" n="63f96a3c">
             Herr NYMAN (fp):
           </note>
-          <u who="unknown" xml:id="i-69b40cfdcf5446fa-0" n="80130287">
+          <u who="unknown" xml:id="i-801302879b038423-10" n="80130287">
             <seg n="8f096309">
               Herr talman! Det var intressant för mig att lyssna till dessa
               anföranden av jordbruksministern och herr Isacson, och jag har
@@ -989,7 +999,7 @@
           <note type="speaker" n="937837dc">
             Herr ISACSON (h):
           </note>
-          <u who="unknown" xml:id="i-bc844a7aa81815e5-2" n="80130287">
+          <u who="unknown" xml:id="i-801302879b038423-11" n="80130287">
             <seg n="93a052dd">
               Herr talman! Jag skulle bara vilja tillägga, att jag vet att
               det för jordbrukets del givetvis måste vara ett utomordentligt
@@ -1021,7 +1031,7 @@
             </seg>
           </u>
           <pb n="12" facs="https://betalab.kb.se/prot-1965--fk--6/prot_1965__fk__6-012.jp2/_view"/>
-          <note n="29ca658e">
+          <note type="date" n="02c66517">
             Fredagen den 5 februari 1965
           </note>
           <note n="eb8407c5">
@@ -1030,7 +1040,7 @@
           <note n="bbc927bd">
             Ang. skadeverkningarna av kemiska bekämpningsmedel
           </note>
-          <u who="unknown" xml:id="i-54bdbaa7239d62a6-2" n="80130287">
+          <u who="unknown" xml:id="i-801302879b038423-12" n="80130287">
             <seg n="2026be08">
               ogräsbekämpningsmedel som inte är biologiskt prövade. I de andra
               nordiska länderna sker en biologisk prövning. Vi är tydligen i
@@ -1040,7 +1050,7 @@
           <note type="speaker" n="a2f8dba8">
             Herr statsrådet HOLMQVIST:
           </note>
-          <u who="mary_holmqvist_801ec3" xml:id="i-5dc3cf6476413eb9-1" next="i-47c76c87f5dfe90a-1" n="e6078391">
+          <u who="mary_holmqvist_801ec3" xml:id="i-801302879b038423-13" next="i-801302879b038423-14" n="e6078391">
             <seg n="74946b9f">
               Herr talman! Nej, herr Isacson, jag tror nog inte att vi behöver
               betrakta Sverige som ett u-land på det här området. I stället
@@ -1064,7 +1074,7 @@
           <note n="27677801">
             Överläggningen arsågs härmed slutad.
           </note>
-          <u who="mary_holmqvist_801ec3" xml:id="i-47c76c87f5dfe90a-1" prev="i-5dc3cf6476413eb9-1" n="e6078391"/>
+          <u who="mary_holmqvist_801ec3" xml:id="i-801302879b038423-14" prev="i-801302879b038423-13" n="e6078391"/>
           <note n="349a3169">
             Föredrogs och hänvisades till statsutskottet Kungl. Maj:ts proposition
             nr 11, angående kostnader för deltagande i FN:s fredsstyrka på

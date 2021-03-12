@@ -20,7 +20,7 @@
     <encodingDesc>
       <editorialDecl>
         <correction>
-          <p>Some data curation was done. It is documented in db/curation/instances</p>
+          <p>Some data curation was done. It is documented in input/curation/instances</p>
         </correction>
       </editorialDecl>
     </encodingDesc>
@@ -52,12 +52,14 @@
       <front>
         <div type="preface">
           <head>prot-1971--110</head>
+          <docDate when="1971-10-14">1971-10-14</docDate>
           <docDate when="1971-10-15">1971-10-15</docDate>
           <docDate when="1971-10-19">1971-10-19</docDate>
         </div>
       </front>
       <body>
         <div>
+          <pb n="0" facs="https://betalab.kb.se/prot-1971--110/prot_1971__110-000.jp2/_view"/>
           <note n="a64f85e2">
             Riksdagens protokoll
           </note>
@@ -65,7 +67,7 @@
             Nr 108-110 14—19 oktober 1971
           </note>
           <note n="08df3577"/>
-          <note n="40062041">
+          <note type="date" n="6c56a43b">
             Debatter m. m. Torsdagen den 14 oktober
           </note>
           <note n="93ae4608">
@@ -473,7 +475,7 @@
           <note n="9775aeb7">
             Nr 110
           </note>
-          <note n="aaf3575a">
+          <note type="date" n="bd759f8d">
             Tisdagen den 19 oktober Kl. 16.00
           </note>
           <note n="1c2ef31c">
@@ -551,7 +553,7 @@
           <note n="9775aeb7">
             Nr 110
           </note>
-          <note n="a7f9604b">
+          <note type="date" n="bf544244">
             Tisdagen den 19 oktober 1971
           </note>
           <note n="4347bf9c">
@@ -1044,7 +1046,7 @@
           <note n="9775aeb7">
             Nr 110
           </note>
-          <note n="a7f9604b">
+          <note type="date" n="bf544244">
             Tisdagen den 19 oktober 1971
           </note>
           <note n="43a393d6">
@@ -1193,26 +1195,20 @@
             av Nr 311 Herr Wikström (fp) till herr utbildningsministern angående
             omprövning av filmgranskningsrådets ställning:
           </note>
-          <u who="jan-erik_wikstrom_9d5b79" xml:id="i-7d83f8a4a646adad-0" next="i-a4686d94e1f154d1-0" n="a8842837"/>
+          <u who="jan-erik_wikstrom_9d5b79" xml:id="i-c38654c43f47f601-0" next="i-c38654c43f47f601-3" n="a8842837"/>
           <note n="23f15f62">
             Avser statsrådet att ompröva filmgranskningsrådets ställning?
             $ 12 Kammaren åtskildes kl. 16.09. In fidem
           </note>
-          <u who="jan-erik_wikstrom_9d5b79" xml:id="i-a4686d94e1f154d1-0" prev="i-7d83f8a4a646adad-0" n="a8842837">
+          <u who="jan-erik_wikstrom_9d5b79" xml:id="i-c38654c43f47f601-1" prev="i-c38654c43f47f601-0" n="a8842837">
             <seg n="68690b13">
               SUNE K. JOHANSSON /Solveig Gemert
-            </seg>
-            <seg n="b4816c78">
-              (Siffrorna avser sida i protokollet)
-            </seg>
-            <seg n="d19b3743">
-              Hermansson i Stockholm
             </seg>
           </u>
           <note n="9775aeb7">
             Nr 110
           </note>
-          <note n="a7f9604b">
+          <note type="date" n="bf544244">
             Tisdagen den 19 oktober 1971
           </note>
           <note n="9c7fe3fa">
@@ -1228,7 +1224,12 @@
           <note n="c8f20633">
             Förteckning över talare
           </note>
-          <note n="37b0cf69">
+          <u who="jan-erik_wikstrom_9d5b79" xml:id="i-c38654c43f47f601-2" prev="i-c38654c43f47f601-0" n="a8842837">
+            <seg n="b4816c78">
+              (Siffrorna avser sida i protokollet)
+            </seg>
+          </u>
+          <note type="date" n="8aee0ed0">
             Torsdagen den 14 oktober Herr talmannen 5, 8
           </note>
           <note n="b8f02ff8">
@@ -1350,6 +1351,11 @@
           <note n="f45b1053">
             telbrandt (fp) 93 herr Signell (s) 91 ”- Torwald (c) 98
           </note>
+          <u who="jan-erik_wikstrom_9d5b79" xml:id="i-c38654c43f47f601-3" prev="i-c38654c43f47f601-0" n="a8842837">
+            <seg n="d19b3743">
+              Hermansson i Stockholm
+            </seg>
+          </u>
           <note n="f7c4c405">
             Magnusson i Kristinehamn
           </note>

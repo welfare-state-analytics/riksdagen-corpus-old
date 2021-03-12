@@ -20,7 +20,7 @@
     <encodingDesc>
       <editorialDecl>
         <correction>
-          <p>Some data curation was done. It is documented in db/curation/instances</p>
+          <p>Some data curation was done. It is documented in input/curation/instances</p>
         </correction>
       </editorialDecl>
     </encodingDesc>
@@ -52,17 +52,19 @@
       <front>
         <div type="preface">
           <head>prot-1945--ak--5</head>
-          <docDate when="1945">1945</docDate>
+          <docDate when="1945-01-23">1945-01-23</docDate>
+          <docDate when="1945-01-27">1945-01-27</docDate>
         </div>
       </front>
       <body>
         <div>
+          <pb n="0" facs="https://betalab.kb.se/prot-1945--ak--5/prot_1945__ak__5-000.jp2/_view"/>
           <note n="3f4c2812">
             RIKSDAGENS PROTOKOLL. 945. Andra kammaren. Nr 5.
           </note>
           <note n="d2cde820"/>
           <note n="d2cde820"/>
-          <note n="c56dc54b">
+          <note type="date" n="25970772">
             Tisdagen den 23 januari. KL. 2 em.
           </note>
           <note n="43c34c9f">
@@ -161,7 +163,7 @@
           <note n="f852a32e">
             Interpellation.
           </note>
-          <note n="3fe5a81d">
+          <note type="date" n="71cccdf3">
             2 Nr 5. Tisdagen den 23 januari 1945 fm.
           </note>
           <note n="6cc9dbc3">
@@ -222,7 +224,7 @@
           <note type="speaker" n="d5f9ae4f">
             Herr Lövgren, som anförde:
           </note>
-          <u who="oscar_lovgren_4dca2d" xml:id="i-9b517dbe8080ba87-0" next="i-68ae609bcf00889c-0" n="5772438f">
+          <u who="oscar_lovgren_4dca2d" xml:id="i-5772438fe2e26f85-0" next="i-5772438fe2e26f85-4" n="5772438f">
             <seg n="bc647d24">
               Herr talman! När riksdagen år 1941 biföll ett av Kungl. Maj:t
               framlagt förslag om att överföra domänverkets skogsindustriella
@@ -252,13 +254,13 @@
             </seg>
           </u>
           <pb n="2" facs="https://betalab.kb.se/prot-1945--ak--5/prot_1945__ak__5-002.jp2/_view"/>
-          <note n="010b1269">
+          <note type="date" n="2390fbf1">
             Tisdagen den 23 januari 1945 fm. Nr 5. 3
           </note>
           <note n="3bb3b3e0">
             Interpellation. (Forts.)
           </note>
-          <u who="oscar_lovgren_4dca2d" xml:id="i-68ae609bcf00889c-0" prev="i-9b517dbe8080ba87-0" n="5772438f">
+          <u who="oscar_lovgren_4dca2d" xml:id="i-5772438fe2e26f85-1" prev="i-5772438fe2e26f85-0" n="5772438f">
             <seg n="3059bd94">
               För de tjänstemän och arbetare, som vid tiden för bolagets övertagande
               av rörelsen voro pensionsberättigade, har ingen ändring inträtt,
@@ -296,6 +298,25 @@
               anställda, så att de komma i nivå med vad som gäller enligt tjänsteoch
               familjepensionsreglementet för arbetare i statens tjänst?
             </seg>
+          </u>
+          <note n="bdb0521d">
+            Denna anhållan bordlades.
+          </note>
+          <note n="a911c09f">
+            $ 6.
+          </note>
+          <note n="35f773f7">
+            Herr Severin i Stockholm erhöll på begäran ordet och yttrade:
+            Herr tal- Interpellation. man! År 1941 bemyndigades chefen för
+            finansdepartementet att tillkalla särskilda sakkunniga för att
+            verkställa utredning av frågan om införande av särskild skatt
+            å oförtjänt värdestegring av fastigheter. De sakkunniga ingåvo
+            1942 sitt betänkande med förslag till lagstiftning i ämnet. Betänkandet
+            remitterades till olika verk och myndigheter, vilka avgåvo utlåtanden
+            över däri framställda förslag. Sedan dess synes frågan ha varit
+            vilande,
+          </note>
+          <u who="oscar_lovgren_4dca2d" xml:id="i-5772438fe2e26f85-2" prev="i-5772438fe2e26f85-0" n="5772438f">
             <seg n="875075ce">
               Frågan om beskattning av oförtjänt markvärdestegring har såsom
               av Nyssnämnda betänkande framgår länge varit under diskussion
@@ -319,6 +340,12 @@
               sägas råda i detta spörsmål, även om meningsskiljaktigheter kunna
               finnas beträffande de metoder, som skola användas för att vinna
             </seg>
+          </u>
+          <pb n="3" facs="https://betalab.kb.se/prot-1945--ak--5/prot_1945__ak__5-003.jp2/_view"/>
+          <note type="date" n="e60419ed">
+            4 Nr 5. Tisdagen den 23 januari 1945 fm.
+          </note>
+          <u who="oscar_lovgren_4dca2d" xml:id="i-5772438fe2e26f85-3" prev="i-5772438fe2e26f85-0" n="5772438f">
             <seg n="45613f4c">
               Interpellation. (Forts.) den önskvärda inkomstutjämningen. Från
               många håll har förutsatts, att denna skulle åvägabringas företrädesvis
@@ -358,35 +385,16 @@
               Med stöd av vad jag sålunda anfört anhåller jag att få till chefen
               för finansdepartementet framställa följande frågor:
             </seg>
-            <seg n="3af4b211">
-              Om så är, när kan en proposition i ämnet vara att förvänta?
-            </seg>
           </u>
-          <note n="bdb0521d">
-            Denna anhållan bordlades.
-          </note>
-          <note n="a911c09f">
-            $ 6.
-          </note>
-          <note n="35f773f7">
-            Herr Severin i Stockholm erhöll på begäran ordet och yttrade:
-            Herr tal- Interpellation. man! År 1941 bemyndigades chefen för
-            finansdepartementet att tillkalla särskilda sakkunniga för att
-            verkställa utredning av frågan om införande av särskild skatt
-            å oförtjänt värdestegring av fastigheter. De sakkunniga ingåvo
-            1942 sitt betänkande med förslag till lagstiftning i ämnet. Betänkandet
-            remitterades till olika verk och myndigheter, vilka avgåvo utlåtanden
-            över däri framställda förslag. Sedan dess synes frågan ha varit
-            vilande,
-          </note>
-          <pb n="3" facs="https://betalab.kb.se/prot-1945--ak--5/prot_1945__ak__5-003.jp2/_view"/>
-          <note n="13c526df">
-            4 Nr 5. Tisdagen den 23 januari 1945 fm.
-          </note>
           <note n="36c4b8a8">
             Avser herr statsrådet att fullfölja åtgärderna för införande
             av särskild skatt å oförtjänt värdestegring å fastigheter?
           </note>
+          <u who="oscar_lovgren_4dca2d" xml:id="i-5772438fe2e26f85-4" prev="i-5772438fe2e26f85-0" n="5772438f">
+            <seg n="3af4b211">
+              Om så är, när kan en proposition i ämnet vara att förvänta?
+            </seg>
+          </u>
           <note n="bdb0521d">
             Denna anhållan bordlades.
           </note>
@@ -419,7 +427,7 @@
             till hemwvärnets verksamhet;
           </note>
           <pb n="4" facs="https://betalab.kb.se/prot-1945--ak--5/prot_1945__ak__5-004.jp2/_view"/>
-          <note n="53cbdb7f">
+          <note type="date" n="fb445724">
             Tisdagen den 23 januari 1945 fm. Nr 5. 5
           </note>
           <note n="2cc712e6">
@@ -471,7 +479,7 @@
           <note type="speaker" n="ddd99baa">
             herr Fröderberg:
           </note>
-          <u who="gottfrid_froderberg_1dbbaa" xml:id="i-04c67ea7a6726259-0" n="2f83924a"/>
+          <u who="gottfrid_froderberg_1dbbaa" xml:id="i-2f83924a977bfbd1-0" n="2f83924a"/>
           <note n="a5b653ad">
             nr 204, om beklädnadsbidrag till underofficerare i flottans reserv;
             och
@@ -496,7 +504,7 @@
           <note type="speaker" n="d88b1f9a">
             herr Wiberg:
           </note>
-          <u who="ake_wiberg_3e83f4" xml:id="i-f163ba6d051a3274-0" n="8b01aebe"/>
+          <u who="ake_wiberg_3e83f4" xml:id="i-8b01aebed9bfc150-0" n="8b01aebe"/>
           <note n="473b2459">
             nr 209, om förhöjning av årsarvodet till direktören vid konsthögskolan;
           </note>
@@ -511,7 +519,7 @@
           <note type="speaker" n="ada7fa85">
             herr Wiberg m. fl.:
           </note>
-          <u who="ake_wiberg_3e83f4" xml:id="i-d05a1d716dbb6a6d-0" next="i-2f4adea8aec77442-0" n="8b01aebe"/>
+          <u who="ake_wiberg_3e83f4" xml:id="i-8b01aebed9bfc150-1" next="i-8b01aebed9bfc150-2" n="8b01aebe"/>
           <note n="a3e87eed">
             nr 212, om vissa anslag till folkliga musikskolan i Arvika;
           </note>
@@ -522,7 +530,7 @@
             nr 214, om anslag till anordnande av vandringsutställningar;
             och
           </note>
-          <u who="ake_wiberg_3e83f4" xml:id="i-2f4adea8aec77442-0" prev="i-d05a1d716dbb6a6d-0" n="8b01aebe">
+          <u who="ake_wiberg_3e83f4" xml:id="i-8b01aebed9bfc150-2" prev="i-8b01aebed9bfc150-1" n="8b01aebe">
             <seg n="4f0938e5">
               ar 215, om höjning av anslaget till underhåll och ökande av samlingarna
               vid nationalmuseum ;
@@ -548,7 +556,7 @@
             herr Lindberg, nr 220, om höjning av arvodena till hemvärnsområdesbefälhavarna;
           </note>
           <pb n="5" facs="https://betalab.kb.se/prot-1945--ak--5/prot_1945__ak__5-005.jp2/_view"/>
-          <note n="ee2bf3cb">
+          <note type="date" n="5fd80a59">
             6 Nr 5. Tisdagen den 23 januari 1945 fm.
           </note>
           <note n="4b116289">
@@ -597,7 +605,7 @@
             området;
           </note>
           <pb n="6" facs="https://betalab.kb.se/prot-1945--ak--5/prot_1945__ak__5-006.jp2/_view"/>
-          <note n="e4c807bd">
+          <note type="date" n="052e98c4">
             Tisdagen den 23 januari 1945 fm. Nr 5. 7
           </note>
           <note n="c48847a4">
@@ -622,7 +630,7 @@
           <note type="speaker" n="39d01044">
             herr Kyling m. fl.:
           </note>
-          <u who="folke_kyling_673c7f" xml:id="i-4562ffd802f7ebb1-0" n="049ce597"/>
+          <u who="folke_kyling_673c7f" xml:id="i-049ce5975ee40def-0" n="049ce597"/>
           <note n="469836d0">
             nr 251, angående elevantalet i de klasser, som i år skola deltaga
             i folkskoleseminarierna och småskoleseminarierna m. m.; och
@@ -658,11 +666,11 @@
           <note type="speaker" n="0b4fb374">
             herr Mattsson m. fl.:
           </note>
-          <u who="victor_mattsson_c48376" xml:id="i-611a176018d1688f-0" next="i-5393691d35e4bc64-0" n="129b37ab"/>
+          <u who="victor_mattsson_c48376" xml:id="i-129b37ab41b484df-0" next="i-129b37ab41b484df-1" n="129b37ab"/>
           <note n="8742c07c">
             nr 258, om anslag till nyanläggning av bygdevägar; och
           </note>
-          <u who="victor_mattsson_c48376" xml:id="i-5393691d35e4bc64-0" prev="i-611a176018d1688f-0" n="129b37ab">
+          <u who="victor_mattsson_c48376" xml:id="i-129b37ab41b484df-1" prev="i-129b37ab41b484df-0" n="129b37ab">
             <seg n="704d7645">
               nr 259, om anslag till bidrag för byggande av enskilda vägar;
             </seg>
@@ -679,7 +687,7 @@
           <note type="speaker" n="16adeeea">
             herr Gustafson i Dädesjö m. fl.:
           </note>
-          <u who="ruth_gustafson_57aace" xml:id="i-d78dca47b55b1a04-0" n="8233710b"/>
+          <u who="ruth_gustafson_57aace" xml:id="i-8233710b3f143ebf-0" n="8233710b"/>
           <note n="c0948371">
             nr 262, angående statsbidrag åt skattetyngda kommuner för uppförande
             av undervisningslokaler till samrealskolor, kommunala mellanskolor
@@ -700,7 +708,7 @@
           <note type="speaker" n="5eae80e0">
             herr Lövgren m. fl.:
           </note>
-          <u who="oscar_lovgren_4dca2d" xml:id="i-12abc6968d538743-0" n="5772438f"/>
+          <u who="oscar_lovgren_4dca2d" xml:id="i-5772438fe2e26f85-5" n="5772438f"/>
           <note n="34c2f5e5">
             nr 266, om anslag till byggande av en bro över Lule älv vid Bergnäset;
             och
@@ -716,13 +724,13 @@
           <note type="speaker" n="d73e05a5">
             herr Persson i Landafors m. fl.:
           </note>
-          <u who="set_persson_125ae3" xml:id="i-24ad243f723c6ba3-0" n="e1eb9a52"/>
+          <u who="set_persson_125ae3" xml:id="i-e1eb9a52c76a8188-0" n="e1eb9a52"/>
           <note n="7c7cd561">
             nr 269, angående revision av gällande bestämmelser om äkta makars
             beskattning; och
           </note>
           <pb n="7" facs="https://betalab.kb.se/prot-1945--ak--5/prot_1945__ak__5-007.jp2/_view"/>
-          <note n="b2561028">
+          <note type="date" n="2a3dd904">
             8 Nr 5. Tisdagen den 23 januari 1945 fm.
           </note>
           <note n="8f2fd7a1">
@@ -751,7 +759,7 @@
           <note type="speaker" n="d88b1f9a">
             herr Wiberg:
           </note>
-          <u who="ake_wiberg_3e83f4" xml:id="i-f163ba6d051a3274-1" n="8b01aebe"/>
+          <u who="ake_wiberg_3e83f4" xml:id="i-8b01aebed9bfc150-3" n="8b01aebe"/>
           <note n="afc3c82c">
             nr 275, om rätt till allmänt avdrag vid inkomsttaxering för periodiskt
             understöd eller därmed jämförlig periodisk utbetalning till annans
@@ -790,7 +798,7 @@
           <note type="speaker" n="90032a4e">
             herr Johanson i Norrköping m. fl.:
           </note>
-          <u who="unknown" xml:id="i-5f7fd92aa4415f92-0" n="241dbd53"/>
+          <u who="unknown" xml:id="i-241dbd53e9c2dd7f-0" n="241dbd53"/>
           <note n="4c083997">
             nr 283, angående utredning om slopande av nöjesskatten på amatöridrottstävlingar;
             och
@@ -839,7 +847,7 @@
             personal vid försvarsväsendet;
           </note>
           <pb n="8" facs="https://betalab.kb.se/prot-1945--ak--5/prot_1945__ak__5-008.jp2/_view"/>
-          <note n="d91191c0">
+          <note type="date" n="cd841930">
             Tisdagen den 23 januari 1945 fm. Nr 5. 9
           </note>
           <note n="df714a1c">
@@ -850,7 +858,7 @@
           <note type="speaker" n="b4516e3a">
             herr Holmström m. fl.:
           </note>
-          <u who="nils_holmstrom_4c09fc" xml:id="i-251120ab58ae5a83-0" n="1fe9e62a"/>
+          <u who="nils_holmstrom_4c09fc" xml:id="i-1fe9e62afa680cf2-0" n="1fe9e62a"/>
           <note n="3a064a3c">
             nr 295, om förbättrade pensioner till dem som åtnjuta pension
             enligt före 1 juli 1939 gällande grunder i civila eller militära
@@ -910,7 +918,7 @@
           <note type="speaker" n="737e2fbe">
             herr Nordström i Kramfors m. fl.:
           </note>
-          <u who="herman_nordstrom_8d4e36" xml:id="i-7b45caa40df91d08-0" next="i-9b34a1511f6157d1-0" n="6ecc62ab"/>
+          <u who="herman_nordstrom_8d4e36" xml:id="i-6ecc62ab19f50d9b-0" next="i-6ecc62ab19f50d9b-1" n="6ecc62ab"/>
           <note n="c62e6d8b">
             nr 307, angående viss ändring i lagen om kollektivavtal; och
           </note>
@@ -934,7 +942,7 @@
             herr Sköldin m. fl., nr 312, angående förbättring av tomträttsförfarandet
             såsom upplåtelseform beträffande kommunernas och statens markområden;
           </note>
-          <u who="herman_nordstrom_8d4e36" xml:id="i-9b34a1511f6157d1-0" prev="i-7b45caa40df91d08-0" n="6ecc62ab">
+          <u who="herman_nordstrom_8d4e36" xml:id="i-6ecc62ab19f50d9b-1" prev="i-6ecc62ab19f50d9b-0" n="6ecc62ab">
             <seg n="84b4fd16">
               herr Hedlund i Rådom, nr 313, angående undanröjande av det dröjsmål
               med möjligheten att belåna fastigheter, som är förknippat med
@@ -961,7 +969,7 @@
             herr Karlsson i Stuvsta, nr 318, angående viss ändring 1 expropriationslagen;
           </note>
           <pb n="9" facs="https://betalab.kb.se/prot-1945--ak--5/prot_1945__ak__5-009.jp2/_view"/>
-          <note n="e05143d6">
+          <note type="date" n="fc16465a">
             10 Nr 5. Tisdagen den 23 januari 1945 fm.
           </note>
           <note n="2093ae46">
@@ -1039,7 +1047,7 @@
           <note type="speaker" n="68573ef1">
             herr Larsson i Karlstad m. fl.:
           </note>
-          <u who="_yngve_larsson_c76e6c" xml:id="i-23b246210e239c0a-0" n="d86e09ad"/>
+          <u who="_yngve_larsson_c76e6c" xml:id="i-ad3b400eb61e0ed9-0" n="d86e09ad"/>
           <note n="2ef6b58e">
             nr 337, i anledning av Kungl. Maj:ts förslag om anslag till hästavelns
             befrämjande;: och
@@ -1074,7 +1082,7 @@
             vad är att anse såsom existensminimum;
           </note>
           <pb n="10" facs="https://betalab.kb.se/prot-1945--ak--5/prot_1945__ak__5-010.jp2/_view"/>
-          <note n="aa2bc98a">
+          <note type="date" n="ec66844d">
             Tisdagen den 23 januari 1945 fm. Nr 35. 11
           </note>
           <note n="030a3041">
@@ -1142,10 +1150,10 @@
             Sune Norrman.
           </note>
           <pb n="11" facs="https://betalab.kb.se/prot-1945--ak--5/prot_1945__ak__5-011.jp2/_view"/>
-          <note n="120841f7">
+          <note type="date" n="ac5bb4ce">
             12 Nr 5. Tisdagen den 23 januari 1945 em.
           </note>
-          <note n="660fbe94">
+          <note type="date" n="3f7e03d2">
             Tisdagen den 23 januari. Kl. 7.30 em.
           </note>
           <note n="06756215">
@@ -1195,12 +1203,12 @@
           <note type="speaker" n="48876419">
             herr Allard m. fl.:
           </note>
-          <u who="henry_allard_e21741" xml:id="i-e7ce25ad15eaa756-0" next="i-c0d59760cb7d0ec4-0" n="f0a1ca1c"/>
+          <u who="henry_allard_e21741" xml:id="i-f0a1ca1c66eb7e07-0" next="i-f0a1ca1c66eb7e07-1" n="f0a1ca1c"/>
           <note n="249e3def">
             nr 363, om höjning av anslaget till åtgärder till förebyggande
             och hävande av invaliditet;
           </note>
-          <u who="henry_allard_e21741" xml:id="i-c0d59760cb7d0ec4-0" prev="i-e7ce25ad15eaa756-0" n="f0a1ca1c">
+          <u who="henry_allard_e21741" xml:id="i-f0a1ca1c66eb7e07-1" prev="i-f0a1ca1c66eb7e07-0" n="f0a1ca1c">
             <seg n="0075bce4">
               nr 364, om höjning av anslaget till avsättning till fonden för
               idrottens främ- Jande; och
@@ -1218,7 +1226,7 @@
           <note type="speaker" n="ccdf39a4">
             herr Nilson i Eskilstuna m. fl.:
           </note>
-          <u who="johan_nilson_66c6dc" xml:id="i-e8b0cd2c463d9077-0" n="c9f16901"/>
+          <u who="johan_nilson_66c6dc" xml:id="i-c9f16901f0e6345e-0" n="c9f16901"/>
           <note n="9640bf6c">
             nr 367, om höjning av anslaget till bidrag till undervisningsoch
             upplysningsverksamhet m. m. för nykterhetens främjande; och
@@ -1239,7 +1247,7 @@
             för barn;
           </note>
           <pb n="12" facs="https://betalab.kb.se/prot-1945--ak--5/prot_1945__ak__5-012.jp2/_view"/>
-          <note n="24a3f57b">
+          <note type="date" n="c0f54b42">
             Tisdagen den 23 januari 1945 em. Nr 5. 13
           </note>
           <note n="a6c20fca">
@@ -1266,7 +1274,7 @@
           <note type="speaker" n="006ba5ea">
             herr Nilsson i Göingegården m. fl.:
           </note>
-          <u who="torsten_nilsson_e19d74" xml:id="i-f24960e1a1628b75-0" n="abe6763f"/>
+          <u who="torsten_nilsson_e19d74" xml:id="i-63f5591ca676159c-0" n="abe6763f"/>
           <note n="685e5aa2">
             nr 376, om höjning av anslaget till remontering vid armén; och
           </note>
@@ -1276,7 +1284,7 @@
           <note type="speaker" n="267cfd03">
             herr Hällgren m. fl.:
           </note>
-          <u who="elof_hallgren_821052" xml:id="i-7a21b3caef841d78-0" n="22ffee2c"/>
+          <u who="elof_hallgren_821052" xml:id="i-22ffee2c7f615ddb-0" n="22ffee2c"/>
           <note n="0af60ed5">
             nr 378, om höjning av anslaget till barmarksunderhållet; och
           </note>
@@ -1291,7 +1299,7 @@
           <note type="speaker" n="f4c2d04c">
             herr Pettersson i Dahl m. fl.:
           </note>
-          <u who="john_pettersson_b14c62" xml:id="i-0d54345883e12a09-0" n="3efed68a"/>
+          <u who="john_pettersson_b14c62" xml:id="i-3efed68a09ea9f7e-0" n="3efed68a"/>
           <note n="7d12d222">
             nr 381, om viss ändring i gällande grunder för statsbidrag till
             anläggningar för vattenförsörjning och avlopp; och
@@ -1329,7 +1337,7 @@
           <note type="speaker" n="394be7e9">
             herr Kyling:
           </note>
-          <u who="folke_kyling_673c7f" xml:id="i-4562ffd802f7ebb1-1" n="049ce597"/>
+          <u who="folke_kyling_673c7f" xml:id="i-049ce5975ee40def-1" n="049ce597"/>
           <note n="3e66aef1">
             nr 389, om viss ändring av kungörelsen angående förstärkningsanordningar
             vid vissa folkoch småskolor samt statsbidrag till sådana anordningar;
@@ -1355,7 +1363,7 @@
           <note type="speaker" n="f97d8e69">
             herr Cruse:
           </note>
-          <u who="sigvard_cruse_b7ed1b" xml:id="i-a69e517083f792bc-0" n="5ecd20de"/>
+          <u who="sigvard_cruse_b7ed1b" xml:id="i-5ecd20deaf034981-0" n="5ecd20de"/>
           <note n="19cb3d34">
             nr 304, angående utredning om utvidgning av förlikningsmannaexpeditionens
             arbetsuppgifter; och
@@ -1365,7 +1373,7 @@
             riksarkivet;
           </note>
           <pb n="13" facs="https://betalab.kb.se/prot-1945--ak--5/prot_1945__ak__5-013.jp2/_view"/>
-          <note n="5a99973f">
+          <note type="date" n="99c5d82f">
             14 Nr 5. Tisdagen den 23 januari 1945 em.
           </note>
           <note n="d50d655f">
@@ -1419,7 +1427,7 @@
             tillsättning av prästerliga tjänster;
           </note>
           <pb n="14" facs="https://betalab.kb.se/prot-1945--ak--5/prot_1945__ak__5-014.jp2/_view"/>
-          <note n="8c5cba18">
+          <note type="date" n="005629cb">
             Tisdagen den 23 januari 1945 em. Nr 5. 15
           </note>
           <note n="368c5c47">
@@ -1484,7 +1492,7 @@
           <note type="speaker" n="84829ec6">
             herr Lundberg, nr 435, om avslag å Kungl. Maj:
           </note>
-          <u who="john_lundberg_667119" xml:id="i-6503bc2dc1f614b6-0" n="1092f4dc">
+          <u who="john_lundberg_667119" xml:id="i-1092f4dc1626bdcf-0" n="1092f4dc">
             <seg n="2f0b44d2">
               ts förslag om löneförbättringar till vissa befattningshavare
               vid lantbrukshögskolan;
@@ -1540,7 +1548,7 @@
             mera
           </note>
           <pb n="15" facs="https://betalab.kb.se/prot-1945--ak--5/prot_1945__ak__5-015.jp2/_view"/>
-          <note n="a552e5a7">
+          <note type="date" n="1f2add36">
             16 Nr 5. Lördagen den 27 januari 1945.
           </note>
           <note n="1bb2c898">
@@ -1578,7 +1586,7 @@
           <note n="3f1836d6">
             Sune Norrman.
           </note>
-          <note n="55c0cb3f">
+          <note type="date" n="a88177b8">
             Lördagen den 27 januari. Kl. 4 em.
           </note>
           <note n="f29dc841">
@@ -1594,7 +1602,7 @@
           <note type="speaker" n="970a6a48">
             Herr statsrådet Ohlin avlämnade Kungl. Maj:
           </note>
-          <u who="bertil_ohlin_2d3e4b" xml:id="i-096d48b5c3cef8ef-0" n="2b0676aa">
+          <u who="bertil_ohlin_2d3e4b" xml:id="i-2b0676aafe3eb14d-0" n="2b0676aa">
             <seg n="58280f85">
               ts propositioner:
             </seg>
@@ -1646,7 +1654,7 @@
             för åstadkommande av bättre fastighetsarrondering i Norrland.
           </note>
           <pb n="16" facs="https://betalab.kb.se/prot-1945--ak--5/prot_1945__ak__5-016.jp2/_view"/>
-          <note n="957f886e">
+          <note type="date" n="dd6bf69e">
             Lördagen den 27 januari 1945. Nr 5. 17
           </note>
           <note n="8e305551">
@@ -1790,7 +1798,7 @@
             te
           </note>
           <pb n="17" facs="https://betalab.kb.se/prot-1945--ak--5/prot_1945__ak__5-017.jp2/_view"/>
-          <note n="56990945">
+          <note type="date" n="33684d2c">
             Nr 5. Lördagen den 27 januari 1945.
           </note>
           <note n="d1292103">
@@ -1935,7 +1943,7 @@
             nr 305 av fröken Öberg m. fl.;
           </note>
           <pb n="18" facs="https://betalab.kb.se/prot-1945--ak--5/prot_1945__ak__5-018.jp2/_view"/>
-          <note n="92c31e00">
+          <note type="date" n="26b101d4">
             Lördagen den 27 januari 1945. Nr 5. 19
           </note>
           <note n="8409f649">
@@ -2110,7 +2118,7 @@
             till statsutskottet motionen nr 356 av herr Kempe m. fl.;
           </note>
           <pb n="19" facs="https://betalab.kb.se/prot-1945--ak--5/prot_1945__ak__5-019.jp2/_view"/>
-          <note n="56990945">
+          <note type="date" n="33684d2c">
             Nr 5. Lördagen den 27 januari 1945.
           </note>
           <note n="cf1adef3">
@@ -2250,7 +2258,7 @@
             nr 412 av herrar Holmström och Kyling; nr 413 av herr Holmström;
           </note>
           <pb n="20" facs="https://betalab.kb.se/prot-1945--ak--5/prot_1945__ak__5-020.jp2/_view"/>
-          <note n="73762f7d">
+          <note type="date" n="bf0e9203">
             Lördagen den 27 januari 1945. Nr 5. 21
           </note>
           <note n="886f285f">
@@ -2379,7 +2387,7 @@
           <note n="f852a32e">
             Interpellation.
           </note>
-          <note n="141fbc37">
+          <note type="date" n="ee580203">
             22 Nr 5. Lördagen den 27 januari 1945.
           </note>
           <note n="a911c09f">
@@ -2404,7 +2412,7 @@
           <note type="speaker" n="0cfccf40">
             Herr Gavelin, som anförde:
           </note>
-          <u who="johan-olof_gavelin_1f83d8" xml:id="i-f670d710b1e70e57-0" next="i-5432bbc817698255-0" n="5534e71c">
+          <u who="johan-olof_gavelin_1f83d8" xml:id="i-b44a1f268b51faac-0" next="i-b44a1f268b51faac-2" n="5534e71c">
             <seg n="03496d17">
               Herr talman! Vid 1942 års riksdag beslöts förstatligandet av
               den allmänna väghållningen på landet. Många ställde sig redan
@@ -2469,10 +2477,10 @@
             </seg>
           </u>
           <pb n="22" facs="https://betalab.kb.se/prot-1945--ak--5/prot_1945__ak__5-022.jp2/_view"/>
-          <note n="cad4287f">
+          <note type="date" n="1e37d355">
             Lördagen den 27 januari 1945. Nr 5. 23
           </note>
-          <u who="johan-olof_gavelin_1f83d8" xml:id="i-5432bbc817698255-0" prev="i-f670d710b1e70e57-0" n="5534e71c">
+          <u who="johan-olof_gavelin_1f83d8" xml:id="i-b44a1f268b51faac-1" prev="i-b44a1f268b51faac-0" n="5534e71c">
             <seg n="9e6197ed">
               Interpellation. (Forts.) man den upplysningen, att i händelse
               av arbetslöshet kan vägen påbörjas och då som statligt beredskapsarbete.
@@ -2489,6 +2497,13 @@
               för att undvika arbetslöshet, i stället för att som nu sker avvakta
               arbetslöshet innan ett nödvändigt vägföretag sättes i gång.
             </seg>
+          </u>
+          <note n="f9b5109d">
+            Under hänvisning till vad här ovan framhållits anhåller jag om
+            andra kammarens tillstånd att till herr statsrådet och chefen
+            för kommunikationsdepartementet få framföra följande frågor:
+          </note>
+          <u who="johan-olof_gavelin_1f83d8" xml:id="i-b44a1f268b51faac-2" prev="i-b44a1f268b51faac-0" n="5534e71c">
             <seg n="4a9d49b0">
               1) Har herr statsrådet uppmärksammat den oro och det missnöje,
               som kommit till uttryck på sina håll bland landets vägarbetare
@@ -2500,11 +2515,6 @@
               som vägdistrikten och kommunerna i övrigt i här ovan angiven riktning?
             </seg>
           </u>
-          <note n="f9b5109d">
-            Under hänvisning till vad här ovan framhållits anhåller jag om
-            andra kammarens tillstånd att till herr statsrådet och chefen
-            för kommunikationsdepartementet få framföra följande frågor:
-          </note>
           <note n="bdb0521d">
             Denna anhållan bordlades.
           </note>
@@ -2514,7 +2524,7 @@
           <note type="speaker" n="acdee525">
             Herr Lundberg erhöll på begäran ordet och yttrade:
           </note>
-          <u who="john_lundberg_667119" xml:id="i-0c4da80aa5296673-0" next="i-95a62dd242c84c1a-0" n="1092f4dc">
+          <u who="john_lundberg_667119" xml:id="i-1092f4dc1626bdcf-1" next="i-1092f4dc1626bdcf-2" n="1092f4dc">
             <seg n="a66778c0">
               Herr talman! Järn- Interpellation. vägsstyrelsens uppsägning
               av stationskarlsaspiranten i åkande tjänst (lokbiträdet) Folke
@@ -2560,10 +2570,10 @@
           <note n="f852a32e">
             Interpellation.
           </note>
-          <note n="85aa583c">
+          <note type="date" n="0669f4b1">
             24 Nr 5. Lördagen den 27 januari 1945.
           </note>
-          <u who="john_lundberg_667119" xml:id="i-95a62dd242c84c1a-0" prev="i-0c4da80aa5296673-0" n="1092f4dc">
+          <u who="john_lundberg_667119" xml:id="i-1092f4dc1626bdcf-2" prev="i-1092f4dc1626bdcf-1" n="1092f4dc">
             <seg n="537e10d0">
               Interpellation. (Forts.) ställning för att ta en statlig tjänst
               och behörigheten därtill bl. a. styrkts med ett läkarintyg, icke
@@ -2617,7 +2627,7 @@
           <note type="speaker" n="63d8b928">
             Herr Ericsson i Sörsjön, som anförde:
           </note>
-          <u who="_hildur_ericsson_b522b6" xml:id="i-5076ed8f549040c5-0" next="i-79251c5d252021a2-0" n="20d6741e">
+          <u who="_hildur_ericsson_b522b6" xml:id="i-a0af493cd07b5252-0" next="i-a0af493cd07b5252-1" n="20d6741e">
             <seg n="afb9db56">
               Herr talman! Under större delen av det senaste halvåret ha egnahemsnämnderna
               inom landet icke haft några medel till förfogande för bostadsförbättringsverksamheten
@@ -2642,13 +2652,13 @@
             </seg>
           </u>
           <pb n="24" facs="https://betalab.kb.se/prot-1945--ak--5/prot_1945__ak__5-024.jp2/_view"/>
-          <note n="47c1b653">
+          <note type="date" n="330af293">
             Lördagen den 27 januari 1945. Nr 5.
           </note>
           <note n="7895b6d9">
             LA co
           </note>
-          <u who="_hildur_ericsson_b522b6" xml:id="i-79251c5d252021a2-0" prev="i-5076ed8f549040c5-0" n="20d6741e">
+          <u who="_hildur_ericsson_b522b6" xml:id="i-a0af493cd07b5252-1" prev="i-a0af493cd07b5252-0" n="20d6741e">
             <seg n="ceaec864">
               Interpellation. (Forts.) las för obestämd tid framåt, och detta
               måste enligt min mening betraktas såsom synnerligen otillfredsställande.

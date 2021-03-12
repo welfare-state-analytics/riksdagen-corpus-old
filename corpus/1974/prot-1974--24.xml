@@ -20,7 +20,7 @@
     <encodingDesc>
       <editorialDecl>
         <correction>
-          <p>Some data curation was done. It is documented in db/curation/instances</p>
+          <p>Some data curation was done. It is documented in input/curation/instances</p>
         </correction>
       </editorialDecl>
     </encodingDesc>
@@ -52,12 +52,14 @@
       <front>
         <div type="preface">
           <head>prot-1974--24</head>
+          <docDate when="1974-02-12">1974-02-12</docDate>
           <docDate when="1974-02-13">1974-02-13</docDate>
           <docDate when="1974-02-15">1974-02-15</docDate>
         </div>
       </front>
       <body>
         <div>
+          <pb n="0" facs="https://betalab.kb.se/prot-1974--24/prot_1974__24-000.jp2/_view"/>
           <note n="9d0a411b">
             Riksdagens protokoll
           </note>
@@ -65,7 +67,7 @@
             Nr 23—26 12—15 februari 1974
           </note>
           <note n="2d410ecc"/>
-          <note n="0d512cc2">
+          <note type="date" n="777607f7">
             Debatter m. m. Tisdagen den 12 februari
           </note>
           <note n="6d0b3167">
@@ -336,7 +338,7 @@
           <note type="speaker" n="169ca1eb">
             Herr talmannen meddelade, att Kungl. Maj:
           </note>
-          <u who="unknown" xml:id="i-76b507668252b231-0" n="960681bb">
+          <u who="unknown" xml:id="i-960681bb3ecbf30d-0" n="960681bb">
             <seg n="3a822239">
               t till riksdagen överlämnat en skrivelse nr 26 angående förordnande
               av statsrådsledamot att uppläsa Kungl. Maj:ts öppna brev till
@@ -394,7 +396,7 @@
           <note type="speaker" n="75dcb403">
             Herr TALMANNEN yttrade:
           </note>
-          <u who="unknown" xml:id="i-51ff9cf99670516d-0" n="960681bb">
+          <u who="unknown" xml:id="i-960681bb3ecbf30d-1" n="960681bb">
             <seg n="037f41f6">
               De få utskottsbetänkanden, som skulle kunna bordläggas fredagen
               den 15 februari och därigenom tas upp till avgörande vid det arbetsplenum
@@ -404,16 +406,21 @@
           <note n="e8ec900f">
             Nr 24
           </note>
-          <note n="99a48848">
+          <note type="date" n="6d8da318">
             Onsdagen den 13 februari 1974
           </note>
           <note n="f3334f4a">
             Byggnadsarbeten
           </note>
-          <u who="unknown" xml:id="i-02a7da31578c0916-0" n="960681bb">
+          <u who="unknown" xml:id="i-960681bb3ecbf30d-2" n="960681bb">
             <seg n="cfeefc61">
               för statlig förvaltning
             </seg>
+          </u>
+          <note n="6585546f">
+            22
+          </note>
+          <u who="unknown" xml:id="i-960681bb3ecbf30d-3" n="960681bb">
             <seg n="3a552aee">
               som utsatts till fredagen den 22 februari kl. 10.00, är av den
               art att de inte kan väntas föranleda annat än mycket korta debatter.
@@ -421,36 +428,35 @@
               ett bordläggningsplenum och tar sin början kl. 15.00.
             </seg>
           </u>
-          <note n="6585546f">
-            22
-          </note>
           <note n="62d020af">
             $ 4 Meddelande ang. inbjudan från Operan
           </note>
           <note type="speaker" n="1bd08d6e">
             Herr TALMANNEN anförde:
           </note>
-          <u who="unknown" xml:id="i-51ff9cf99670516d-1" n="960681bb"/>
+          <u who="unknown" xml:id="i-960681bb3ecbf30d-4" n="960681bb"/>
           <note n="b660ec86">
             Operan inbjuder riksdagens ledamöter m. fl. att övervara en balettföreställning
             ”Jubileumsrondo” med Kungl. teaterns balettelevskola tisdagen
             den 26 mars kl. 19.30. Under pausen inbjudes samtliga deltagare
             att intaga förfriskningar i teaterns olika publika utrymmen.
           </note>
-          <u who="unknown" xml:id="i-02a7da31578c0916-1" n="960681bb">
+          <u who="unknown" xml:id="i-960681bb3ecbf30d-5" n="960681bb">
             <seg n="baecc299">
               De som så önskar är välkomna att medföra en gäst.
-            </seg>
-            <seg n="969d1db7">
-              Beställda biljetter bör inte överlåtas. Ledamot som är förhindrad
-              att utnyttja beställd biljett ombedes återlämna den till kammarkansliet
-              senast dagen före föreställningen.
             </seg>
           </u>
           <note n="57ebb00b">
             Teckningslistor finns utlagda i foajén. Listorna indrages onsdagen
             den 20 mars.
           </note>
+          <u who="unknown" xml:id="i-960681bb3ecbf30d-6" n="960681bb">
+            <seg n="969d1db7">
+              Beställda biljetter bör inte överlåtas. Ledamot som är förhindrad
+              att utnyttja beställd biljett ombedes återlämna den till kammarkansliet
+              senast dagen före föreställningen.
+            </seg>
+          </u>
           <note n="31b8f267">
             $ 5 Föredrogs och bifölls interpellationsframställningen nr 33.
             $ 6 Föredrogs och lades till handlingarna
@@ -485,7 +491,7 @@
           <note type="speaker" n="5925a361">
             Herr BURENSTAM LINDER (m):
           </note>
-          <u who="staffan_burenstam_linder_9906a4" xml:id="i-3a6c7d0913dbf85d-0" next="i-d40ca99f37f51fdf-0" n="c5b5b5f8">
+          <u who="staffan_burenstam_linder_9906a4" xml:id="i-c5b5b5f8217ef07a-0" next="i-c5b5b5f8217ef07a-7" n="c5b5b5f8">
             <seg n="24558330">
               Herr talman! Beslutet om utlokalisering av statliga verk från
               Stockholm föranleder en serie regeringsförslag om olika anslag
@@ -495,6 +501,9 @@
               och kvarstår därför. Det kvarstår med ökad skärpa mot bakgrund
               av det ansträngda skatteläge som rege-
             </seg>
+          </u>
+          <pb n="7" facs="https://betalab.kb.se/prot-1974--24/prot_1974__24-007.jp2/_view"/>
+          <u who="staffan_burenstam_linder_9906a4" xml:id="i-c5b5b5f8217ef07a-1" prev="i-c5b5b5f8217ef07a-0" n="c5b5b5f8">
             <seg n="c1fb7306">
               ringens politik i största allmänhet kommit att medföra.
             </seg>
@@ -532,7 +541,6 @@
               diskussion blir det tillfälle att återkomma i vår.
             </seg>
           </u>
-          <pb n="7" facs="https://betalab.kb.se/prot-1974--24/prot_1974__24-007.jp2/_view"/>
           <note n="60ca58b3">
             Överläggningen var härmed slutad. Utskottets hemställan bifölls.
             $ 8 Föredrogs
@@ -582,10 +590,30 @@
           <note n="f87b02f5">
             24
           </note>
-          <u who="staffan_burenstam_linder_9906a4" xml:id="i-d40ca99f37f51fdf-0" prev="i-3a6c7d0913dbf85d-0" n="c5b5b5f8">
+          <u who="staffan_burenstam_linder_9906a4" xml:id="i-c5b5b5f8217ef07a-2" prev="i-c5b5b5f8217ef07a-0" n="c5b5b5f8">
             <seg n="7f7a9d77">
               inom jordbruksdepartementets verksamhetsområde
             </seg>
+          </u>
+          <note n="13a96a14">
+            Nr 4 i anledning av propositionen 1974:9 angående godkännande
+            av konvention rörande fisket och bevarandet av de levande tillgångarna
+            i Östersjön och Bälten
+          </note>
+          <note n="8409d652">
+            Kammaren biföll vad utskotten i dessa betänkanden hemställt.
+          </note>
+          <note n="33bc4ddf">
+            $ 9 Interpellation nr 34 om åtgärder mot utbetalning av traktamente
+            i stället för övertidsersättning
+          </note>
+          <note n="e6c1084a">
+            Ordet lämnades på begäran till
+          </note>
+          <note n="f53e841e">
+            Herr GILLSTRÖM (s), som yttrade:
+          </note>
+          <u who="staffan_burenstam_linder_9906a4" xml:id="i-c5b5b5f8217ef07a-3" prev="i-c5b5b5f8217ef07a-0" n="c5b5b5f8">
             <seg n="cdd79398">
               Herr talman! Under senare tid har taxeringsmyndigheterna i olika
               delar av landet efterbeskattat anställda som av arbetsgivaren
@@ -633,49 +661,36 @@
               med de problem som traktamenten som substitut för övertidsersättning
               kan medföra för de anställda?
             </seg>
+          </u>
+          <note n="2fd40aa2">
+            Denna anhållan bordlades.
+          </note>
+          <pb n="9" facs="https://betalab.kb.se/prot-1974--24/prot_1974__24-009.jp2/_view"/>
+          <u who="staffan_burenstam_linder_9906a4" xml:id="i-c5b5b5f8217ef07a-4" prev="i-c5b5b5f8217ef07a-0" n="c5b5b5f8">
             <seg n="1f196d45">
               $ 10 Meddelande ang. enkel fråga Meddelades att följande enkla
               fråga denna dag framställts, nämligen av
             </seg>
+          </u>
+          <note n="bd814425">
+            Nr 72 Herr Wijkman (m) till herr utrikesministern angående den
+            sovjetiska regimens behandling av oliktänkande:
+          </note>
+          <u who="staffan_burenstam_linder_9906a4" xml:id="i-c5b5b5f8217ef07a-5" prev="i-c5b5b5f8217ef07a-0" n="c5b5b5f8">
             <seg n="27795ef2">
               Är utrikesministern beredd att för riksdagen redovisa regeringens
               syn på den sovjetiska regimens förtryck av oliktänkande, senast
               demonstrerad genom &lt;fängslandet av författaren Alexander Solsjenitzyn?
             </seg>
-            <seg n="4ac0fd27">
-              SUNE K. JOHANSSON /Solveig Gemert
-            </seg>
-            <seg n="66d76bf1"/>
           </u>
-          <note n="13a96a14">
-            Nr 4 i anledning av propositionen 1974:9 angående godkännande
-            av konvention rörande fisket och bevarandet av de levande tillgångarna
-            i Östersjön och Bälten
-          </note>
-          <note n="8409d652">
-            Kammaren biföll vad utskotten i dessa betänkanden hemställt.
-          </note>
-          <note n="33bc4ddf">
-            $ 9 Interpellation nr 34 om åtgärder mot utbetalning av traktamente
-            i stället för övertidsersättning
-          </note>
-          <note n="e6c1084a">
-            Ordet lämnades på begäran till
-          </note>
-          <note n="f53e841e">
-            Herr GILLSTRÖM (s), som yttrade:
-          </note>
-          <note n="2fd40aa2">
-            Denna anhållan bordlades.
-          </note>
-          <pb n="9" facs="https://betalab.kb.se/prot-1974--24/prot_1974__24-009.jp2/_view"/>
-          <note n="bd814425">
-            Nr 72 Herr Wijkman (m) till herr utrikesministern angående den
-            sovjetiska regimens behandling av oliktänkande:
-          </note>
           <note n="08fdce8d">
             $&amp; 11 Kammaren åtskildes kl. 14.11. In fidem
           </note>
+          <u who="staffan_burenstam_linder_9906a4" xml:id="i-c5b5b5f8217ef07a-6" prev="i-c5b5b5f8217ef07a-0" n="c5b5b5f8">
+            <seg n="4ac0fd27">
+              SUNE K. JOHANSSON /Solveig Gemert
+            </seg>
+          </u>
           <note n="e8ec900f">
             Nr 24
           </note>
@@ -689,6 +704,7 @@
             25
           </note>
           <pb n="10" facs="https://betalab.kb.se/prot-1974--24/prot_1974__24-010.jp2/_view"/>
+          <u who="staffan_burenstam_linder_9906a4" xml:id="i-c5b5b5f8217ef07a-7" prev="i-c5b5b5f8217ef07a-0" n="c5b5b5f8"/>
           <pb n="11" facs="https://betalab.kb.se/prot-1974--24/prot_1974__24-011.jp2/_view"/>
           <note n="c13fbc0c">
             Nr 23—26 år 1974
@@ -722,7 +738,7 @@
             37, 38, 39 Herr Svensson i Malmö (vpk) 37, 38, 39, 42, 48 ” Westberg
             i Ljusdal (fp) 33, 34
           </note>
-          <note n="3d1881a5">
+          <note type="date" n="2827fa5b">
             Fredagen den 15 februari Herr talmannen 69
           </note>
           <note n="16989631">

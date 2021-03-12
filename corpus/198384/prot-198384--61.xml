@@ -20,7 +20,7 @@
     <encodingDesc>
       <editorialDecl>
         <correction>
-          <p>Some data curation was done. It is documented in db/curation/instances</p>
+          <p>Some data curation was done. It is documented in input/curation/instances</p>
         </correction>
       </editorialDecl>
     </encodingDesc>
@@ -52,14 +52,17 @@
       <front>
         <div type="preface">
           <head>prot-198384--61</head>
+          <docDate when="1983-01-13">1983-01-13</docDate>
           <docDate when="1983-01-16">1983-01-16</docDate>
           <docDate when="1983-01-17">1983-01-17</docDate>
           <docDate when="1983-01-18">1983-01-18</docDate>
           <docDate when="1983-01-19">1983-01-19</docDate>
+          <docDate when="1984-01-17">1984-01-17</docDate>
         </div>
       </front>
       <body>
         <div>
+          <pb n="0" facs="https://betalab.kb.se/prot-198384--61/prot_198384__61-000.jp2/_view"/>
           <note n="7b3ee7ff"/>
           <note n="d2a302b5">
             Riksdagens protokoll
@@ -68,7 +71,7 @@
             1983/84:59-63 13-19 januari 1984
           </note>
           <note n="7b3ee7ff"/>
-          <note n="4447d4b0">
+          <note type="date" n="093aaa86">
             Debatter m. m. Fredagen den 13 januari
           </note>
           <note n="bee853c9">
@@ -340,7 +343,7 @@
           <note n="8e7cfca1">
             1983/84:61
           </note>
-          <note n="7021bfb8">
+          <note type="date" n="e8218b7b">
             Tisdagen den 17 januari KL. 13.00
           </note>
           <note n="513daba1">
@@ -393,7 +396,7 @@
           <note n="8455b690">
             Nr 61
           </note>
-          <note n="46d36f3a">
+          <note type="date" n="dfe60d93">
             Tisdagen den 17 januari 1984
           </note>
           <note n="656d6864">
@@ -412,7 +415,7 @@
           <note n="8455b690">
             Nr 61
           </note>
-          <note n="46d36f3a">
+          <note type="date" n="dfe60d93">
             Tisdagen den 17 januari 1984
           </note>
           <note n="800b23ca">
@@ -434,7 +437,7 @@
           <note type="speaker" n="14d21479">
             Anf. 2 KERSTIN EKMAN (fp):
           </note>
-          <u who="kerstin_ekman_ca5d8a" xml:id="i-b9b421ff2561616c-0" next="i-d3b3e0532d047462-0" n="b6133fee">
+          <u who="kerstin_ekman_ca5d8a" xml:id="i-b6133feedcc0b75f-0" next="i-b6133feedcc0b75f-3" n="b6133fee">
             <seg n="c904757c">
               Fru talman! Jag tackar statsrådet för svaret.
             </seg>
@@ -464,7 +467,7 @@
             År 1983 svarade SÖ att man utredde frågan och skulle återkomma
             med svar våren 1983.
           </note>
-          <u who="kerstin_ekman_ca5d8a" xml:id="i-d3b3e0532d047462-0" prev="i-b9b421ff2561616c-0" n="b6133fee">
+          <u who="kerstin_ekman_ca5d8a" xml:id="i-b6133feedcc0b75f-1" prev="i-b6133feedcc0b75f-0" n="b6133fee">
             <seg n="58a19d62">
               De anvisningar som statsrådet hänvisar till i svaret är tydligen
               inte tillräckliga. Göteborgs skolförvaltning ansåg sig vara tvingad
@@ -480,6 +483,16 @@
             <seg n="a537b909">
               Följande har sagts vid våra telefonkontakter med SÖ:
             </seg>
+          </u>
+          <note n="3dc6e2a6">
+            Tills vidare gäller vad som står i SÖ-FS 1983:85 och 1983:233.
+            Se nedanstående utdrag ur SÖ-FS 1983:85. Pågående utredningsoch
+            utvecklingsarbete inom SÖ gäller utarbetande av kursplaner för
+            att skapa en gemensam referensram. Senare under läsåret kommer
+            betygsfrågor att behandlas. Vissa klarlägganden ang. betyg i SFS
+            kan vi förvänta tidigast under vt 84.”
+          </note>
+          <u who="kerstin_ekman_ca5d8a" xml:id="i-b6133feedcc0b75f-2" prev="i-b6133feedcc0b75f-0" n="b6133fee">
             <seg n="4c48a8cd">
               Frågan är alltså inte löst. Även om beslutet om ämnet fattades
               ganska nyligen, dvs. om man ser med myndighetsögon, inte en praktisk
@@ -492,7 +505,9 @@
               om att informationen inte kommit fram ordentligt.
             </seg>
             <seg n="80f385eb"/>
-            <seg n="80f385eb"/>
+          </u>
+          <pb n="7" facs="https://betalab.kb.se/prot-198384--61/prot_198384__61-007.jp2/_view"/>
+          <u who="kerstin_ekman_ca5d8a" xml:id="i-b6133feedcc0b75f-3" prev="i-b6133feedcc0b75f-0" n="b6133fee">
             <seg n="3737845e">
               Anf. 3 Statsrådet BENGT GÖRANSSON: Fru talman! Detta är en besvärlig
               fråga. Man kan naturligtvis, som Kerstin Ekman säger, konstatera
@@ -525,19 +540,10 @@
               än den de skulle ha fått om man inte hade gjort någonting alls.
             </seg>
           </u>
-          <note n="3dc6e2a6">
-            Tills vidare gäller vad som står i SÖ-FS 1983:85 och 1983:233.
-            Se nedanstående utdrag ur SÖ-FS 1983:85. Pågående utredningsoch
-            utvecklingsarbete inom SÖ gäller utarbetande av kursplaner för
-            att skapa en gemensam referensram. Senare under läsåret kommer
-            betygsfrågor att behandlas. Vissa klarlägganden ang. betyg i SFS
-            kan vi förvänta tidigast under vt 84.”
-          </note>
-          <pb n="7" facs="https://betalab.kb.se/prot-198384--61/prot_198384__61-007.jp2/_view"/>
           <note type="speaker" n="b2ef3268">
             Anf. 4 KERSTIN EKMAN (fp):
           </note>
-          <u who="kerstin_ekman_ca5d8a" xml:id="i-b9b421ff2561616c-1" next="i-d3b3e0532d047462-1" n="b6133fee">
+          <u who="kerstin_ekman_ca5d8a" xml:id="i-b6133feedcc0b75f-4" next="i-b6133feedcc0b75f-17" n="b6133fee">
             <seg n="97395769">
               Fru talman! Det är naturligtvis svårigheten att klara av det
               här ämnet som gör att det är ett sådant tryck från de lärare som
@@ -553,7 +559,7 @@
           <note n="b5f2102d">
             Anf. 5 Statsrådet BENGT GÖRANSSON:
           </note>
-          <u who="kerstin_ekman_ca5d8a" xml:id="i-d3b3e0532d047462-1" prev="i-b9b421ff2561616c-1" n="b6133fee">
+          <u who="kerstin_ekman_ca5d8a" xml:id="i-b6133feedcc0b75f-5" prev="i-b6133feedcc0b75f-4" n="b6133fee">
             <seg n="6bd0b9b1">
               Fru talman! Det som man hade kunnat göra är att inte ge några
               betyg alls. Det hade emellertid varit den sämre lösningen för
@@ -565,13 +571,47 @@
               i svenska som främmande språk är. Man bedriver ett mycket målmedvetet
               arbete, och för detta tycker jag att man förtjänar en viss respekt.
             </seg>
-            <seg n="80f385eb"/>
+          </u>
+          <note n="35a19ab3">
+            Överläggningen var härmed avslutad.
+          </note>
+          <note n="8455b690">
+            Nr 61
+          </note>
+          <note type="date" n="dfe60d93">
+            Tisdagen den 17 januari 1984
+          </note>
+          <u who="kerstin_ekman_ca5d8a" xml:id="i-b6133feedcc0b75f-6" prev="i-b6133feedcc0b75f-4" n="b6133fee">
             <seg n="77ef2bfb">
               Om anvisningar för undervisning i grundskolan i ämnet ”svenska
               som främmande språk”
             </seg>
-            <seg n="80f385eb"/>
-            <seg n="80f385eb"/>
+          </u>
+          <note n="8f78cc64">
+            39
+          </note>
+          <u who="kerstin_ekman_ca5d8a" xml:id="i-b6133feedcc0b75f-7" prev="i-b6133feedcc0b75f-4" n="b6133fee"/>
+          <pb n="8" facs="https://betalab.kb.se/prot-198384--61/prot_198384__61-008.jp2/_view"/>
+          <u who="kerstin_ekman_ca5d8a" xml:id="i-b6133feedcc0b75f-8" prev="i-b6133feedcc0b75f-4" n="b6133fee"/>
+          <note n="8455b690">
+            Nr 61
+          </note>
+          <note type="date" n="dfe60d93">
+            Tisdagen den 17 januari 1984
+          </note>
+          <note n="7627eff7">
+            Om förhållandena
+          </note>
+          <note n="34ab6f6b">
+            på Operan
+          </note>
+          <note n="35ce2bd8">
+            28 Svar på fråga 1983/84:270 om förhållandena på Operan
+          </note>
+          <note n="a0c2c3f2">
+            Anf. 6 Statsrådet BENGT GÖRANSSON:
+          </note>
+          <u who="kerstin_ekman_ca5d8a" xml:id="i-b6133feedcc0b75f-9" prev="i-b6133feedcc0b75f-4" n="b6133fee">
             <seg n="b1c64072">
               Fru talman! Gunnar Biörck i Värmdö har frågat mig om jag avser
               att vidta några åtgärder i syfte att undvika att scenarbetare
@@ -636,6 +676,11 @@
               har kunnat påräkna inom Operan i rikt mått strömmar emot dem från
               oss utanför.
             </seg>
+          </u>
+          <note n="e6a25a09">
+            Anf. 8 Statsrådet BENGT GÖRANSSON:
+          </note>
+          <u who="kerstin_ekman_ca5d8a" xml:id="i-b6133feedcc0b75f-10" prev="i-b6133feedcc0b75f-4" n="b6133fee">
             <seg n="33b19d0d">
               Fru talman! Jag vill gärna understryka att jag anser att en arbetskonflikt
               av den typ som förekom på Operan är mycket olycklig. Den strider
@@ -644,7 +689,9 @@
             </seg>
             <seg n="80f385eb"/>
             <seg n="80f385eb"/>
-            <seg n="80f385eb"/>
+          </u>
+          <pb n="9" facs="https://betalab.kb.se/prot-198384--61/prot_198384__61-009.jp2/_view"/>
+          <u who="kerstin_ekman_ca5d8a" xml:id="i-b6133feedcc0b75f-11" prev="i-b6133feedcc0b75f-4" n="b6133fee">
             <seg n="80f385eb"/>
             <seg n="2f4294dd">
               jag litet överraskad av Gunnar Biörcks i Värmdö angrepp på mig,
@@ -681,6 +728,17 @@
               utsatta för det. Jag är inte säker på hur jag i det avseendet
               skall tolka vad han sagt.
             </seg>
+          </u>
+          <note n="35a19ab3">
+            Överläggningen var härmed avslutad.
+          </note>
+          <note n="6f226075">
+            3 $ Svar på fråga 1983/84:235 om statsbidraget till viss teatergrupp
+          </note>
+          <note n="e02e5c5b">
+            Anf. 10 Statsrådet BENGT GÖRANSSON:
+          </note>
+          <u who="kerstin_ekman_ca5d8a" xml:id="i-b6133feedcc0b75f-12" prev="i-b6133feedcc0b75f-4" n="b6133fee">
             <seg n="a7c7a431">
               Fru talman! Marianne Karlsson har frågat mig om jag med anledning
               av innehållet i en teatergrupps föreställningar avser att vidta
@@ -708,14 +766,39 @@
               De fria teatergrupperna bestämmer helt självständigt sin repertoar.
               Det är viktigt att de behåller sin konstnärliga frihet.
             </seg>
+          </u>
+          <note n="8455b690">
+            Nr 61
+          </note>
+          <note type="date" n="dfe60d93">
+            Tisdagen den 17 januari 1984
+          </note>
+          <u who="kerstin_ekman_ca5d8a" xml:id="i-b6133feedcc0b75f-13" prev="i-b6133feedcc0b75f-4" n="b6133fee">
             <seg n="f41cf478">
               Om statsbidraget till viss teatergrupp
             </seg>
-            <seg n="80f385eb"/>
-            <seg n="80f385eb"/>
+          </u>
+          <note n="28f502fe">
+            41
+          </note>
+          <u who="kerstin_ekman_ca5d8a" xml:id="i-b6133feedcc0b75f-14" prev="i-b6133feedcc0b75f-4" n="b6133fee"/>
+          <pb n="10" facs="https://betalab.kb.se/prot-198384--61/prot_198384__61-010.jp2/_view"/>
+          <u who="kerstin_ekman_ca5d8a" xml:id="i-b6133feedcc0b75f-15" prev="i-b6133feedcc0b75f-4" n="b6133fee"/>
+          <note n="8455b690">
+            Nr 61
+          </note>
+          <note type="date" n="dfe60d93">
+            Tisdagen den 17 januari 1984
+          </note>
+          <u who="kerstin_ekman_ca5d8a" xml:id="i-b6133feedcc0b75f-16" prev="i-b6133feedcc0b75f-4" n="b6133fee">
             <seg n="f41cf478">
               Om statsbidraget till viss teatergrupp
             </seg>
+          </u>
+          <note n="f45b4d41">
+            42
+          </note>
+          <u who="kerstin_ekman_ca5d8a" xml:id="i-b6133feedcc0b75f-17" prev="i-b6133feedcc0b75f-4" n="b6133fee">
             <seg n="6df9cc26">
               Det är också viktigt att de statliga organ som har till uppgift
               att bedöma teatrarnas verksamhet betraktar dessa principer som
@@ -737,73 +820,10 @@
               läroplaner.
             </seg>
           </u>
-          <note n="35a19ab3">
-            Överläggningen var härmed avslutad.
-          </note>
-          <note n="8455b690">
-            Nr 61
-          </note>
-          <note n="46d36f3a">
-            Tisdagen den 17 januari 1984
-          </note>
-          <note n="8f78cc64">
-            39
-          </note>
-          <pb n="8" facs="https://betalab.kb.se/prot-198384--61/prot_198384__61-008.jp2/_view"/>
-          <note n="8455b690">
-            Nr 61
-          </note>
-          <note n="46d36f3a">
-            Tisdagen den 17 januari 1984
-          </note>
-          <note n="7627eff7">
-            Om förhållandena
-          </note>
-          <note n="34ab6f6b">
-            på Operan
-          </note>
-          <note n="35ce2bd8">
-            28 Svar på fråga 1983/84:270 om förhållandena på Operan
-          </note>
-          <note n="a0c2c3f2">
-            Anf. 6 Statsrådet BENGT GÖRANSSON:
-          </note>
-          <note n="e6a25a09">
-            Anf. 8 Statsrådet BENGT GÖRANSSON:
-          </note>
-          <pb n="9" facs="https://betalab.kb.se/prot-198384--61/prot_198384__61-009.jp2/_view"/>
-          <note n="35a19ab3">
-            Överläggningen var härmed avslutad.
-          </note>
-          <note n="6f226075">
-            3 $ Svar på fråga 1983/84:235 om statsbidraget till viss teatergrupp
-          </note>
-          <note n="e02e5c5b">
-            Anf. 10 Statsrådet BENGT GÖRANSSON:
-          </note>
-          <note n="8455b690">
-            Nr 61
-          </note>
-          <note n="46d36f3a">
-            Tisdagen den 17 januari 1984
-          </note>
-          <note n="28f502fe">
-            41
-          </note>
-          <pb n="10" facs="https://betalab.kb.se/prot-198384--61/prot_198384__61-010.jp2/_view"/>
-          <note n="8455b690">
-            Nr 61
-          </note>
-          <note n="46d36f3a">
-            Tisdagen den 17 januari 1984
-          </note>
-          <note n="f45b4d41">
-            42
-          </note>
           <note type="speaker" n="9f86446c">
             Anf. 11 MARIANNE KARLSSON (c):
           </note>
-          <u who="marianne_karlsson_b4a3ac" xml:id="i-cd26fb8274ac9858-0" next="i-950ff0a55c4c51e8-0" n="180292fd">
+          <u who="marianne_karlsson_b4a3ac" xml:id="i-1135a06044892178-0" next="i-1135a06044892178-2" n="180292fd">
             <seg n="e14083b3">
               Fru talman! Sedan frågan framställdes har en ström av positiva
               brev, telefonsamtal och tidningsklipp m. m. kommit mig till del,
@@ -853,7 +873,9 @@
               och lättmobbade? Kom ihåg att det är ungdomar i åldern 13-15 år
               som detta gäller.
             </seg>
-            <seg n="80f385eb"/>
+          </u>
+          <pb n="11" facs="https://betalab.kb.se/prot-198384--61/prot_198384__61-011.jp2/_view"/>
+          <u who="marianne_karlsson_b4a3ac" xml:id="i-1135a06044892178-1" prev="i-1135a06044892178-0" n="180292fd">
             <seg n="80f385eb"/>
             <seg n="0cfacbff">
               Jag önskar att våra ungdomar skall få saklig och riktig information
@@ -882,11 +904,10 @@
               att se pjäsen i fråga, om vi finge den uppspelad i riksdagshuset.
             </seg>
           </u>
-          <pb n="11" facs="https://betalab.kb.se/prot-198384--61/prot_198384__61-011.jp2/_view"/>
           <note n="3d4e69ab">
             Anf. 12 Statsrådet BENGT GÖRANSSON:
           </note>
-          <u who="marianne_karlsson_b4a3ac" xml:id="i-950ff0a55c4c51e8-0" prev="i-cd26fb8274ac9858-0" n="180292fd">
+          <u who="marianne_karlsson_b4a3ac" xml:id="i-1135a06044892178-2" prev="i-1135a06044892178-0" n="180292fd">
             <seg n="a9f3d5d5">
               Fru talman! Nej, jag delar inte uppfattningen att våra barn skall
               betraktas som ägodelar. Jag reagerar mot sådana krav varifrån
@@ -921,7 +942,7 @@
           <note type="speaker" n="8e1e994b">
             Anf. 13 MARIANNE KARLSSON (c):
           </note>
-          <u who="marianne_karlsson_b4a3ac" xml:id="i-cd26fb8274ac9858-1" next="i-950ff0a55c4c51e8-1" n="180292fd">
+          <u who="marianne_karlsson_b4a3ac" xml:id="i-1135a06044892178-3" next="i-1135a06044892178-10" n="180292fd">
             <seg n="1dec7c8e">
               Fru talman! Jag tackar för det ytterligare svar som jag fått
               här, och jag tycker att det var bra. Gruppen i fråga anlitas oftast
@@ -935,15 +956,27 @@
           <note n="8455b690">
             Nr 61
           </note>
-          <note n="46d36f3a">
+          <note type="date" n="dfe60d93">
             Tisdagen den 17 januari 1984
           </note>
-          <u who="marianne_karlsson_b4a3ac" xml:id="i-950ff0a55c4c51e8-1" prev="i-cd26fb8274ac9858-1" n="180292fd">
+          <u who="marianne_karlsson_b4a3ac" xml:id="i-1135a06044892178-4" prev="i-1135a06044892178-3" n="180292fd">
             <seg n="f41cf478">
               Om statsbidraget till viss teatergrupp
             </seg>
-            <seg n="80f385eb"/>
-            <seg n="80f385eb"/>
+          </u>
+          <note n="2ccf2a58">
+            43
+          </note>
+          <u who="marianne_karlsson_b4a3ac" xml:id="i-1135a06044892178-5" prev="i-1135a06044892178-3" n="180292fd"/>
+          <pb n="12" facs="https://betalab.kb.se/prot-198384--61/prot_198384__61-012.jp2/_view"/>
+          <u who="marianne_karlsson_b4a3ac" xml:id="i-1135a06044892178-6" prev="i-1135a06044892178-3" n="180292fd"/>
+          <note n="8455b690">
+            Nr 61
+          </note>
+          <note type="date" n="dfe60d93">
+            Tisdagen den 17 januari 1984
+          </note>
+          <u who="marianne_karlsson_b4a3ac" xml:id="i-1135a06044892178-7" prev="i-1135a06044892178-3" n="180292fd">
             <seg n="f41cf478">
               Om statsbidraget till viss teatergrupp
             </seg>
@@ -987,6 +1020,11 @@
               från den här teatergruppen där den undrar om den kan få komma
               hit.
             </seg>
+          </u>
+          <note n="506ce54d">
+            Anf. 14 Statsrådet BENGT GÖRANSSON:
+          </note>
+          <u who="marianne_karlsson_b4a3ac" xml:id="i-1135a06044892178-8" prev="i-1135a06044892178-3" n="180292fd">
             <seg n="55f559a3">
               Fru talman! Till svar på den sista frågan vill jag säga att av
               den presentation som Marianne Karlsson har givit av den här föreställningen
@@ -1013,7 +1051,20 @@
               vi har faktiskt gör mycket övervägda bedömningar av vilka grupper
               som skall ha bidrag och vilka som inte skall ha det.
             </seg>
-            <seg n="80f385eb"/>
+          </u>
+          <note n="35a19ab3">
+            Överläggningen var härmed avslutad.
+          </note>
+          <pb n="13" facs="https://betalab.kb.se/prot-198384--61/prot_198384__61-013.jp2/_view"/>
+          <u who="marianne_karlsson_b4a3ac" xml:id="i-1135a06044892178-9" prev="i-1135a06044892178-3" n="180292fd"/>
+          <note n="fd822749">
+            48 Svar på fråga 1983/84:251 om Sveriges Radios sändningar på
+            invandrarspråk
+          </note>
+          <note n="b4806f33">
+            Anf. 15 Statsrådet BENGT GÖRANSSON:
+          </note>
+          <u who="marianne_karlsson_b4a3ac" xml:id="i-1135a06044892178-10" prev="i-1135a06044892178-3" n="180292fd">
             <seg n="d913ce3b">
               Fru talman! Alexander Chrisopoulos har frågat utbildningsministern
               om regeringen är beredd att vidta åtgärder som garanterar minst
@@ -1051,34 +1102,10 @@
               befarar planeras alltså inte enligt Sveriges Radio.
             </seg>
           </u>
-          <note n="2ccf2a58">
-            43
-          </note>
-          <pb n="12" facs="https://betalab.kb.se/prot-198384--61/prot_198384__61-012.jp2/_view"/>
-          <note n="8455b690">
-            Nr 61
-          </note>
-          <note n="46d36f3a">
-            Tisdagen den 17 januari 1984
-          </note>
-          <note n="506ce54d">
-            Anf. 14 Statsrådet BENGT GÖRANSSON:
-          </note>
-          <note n="35a19ab3">
-            Överläggningen var härmed avslutad.
-          </note>
-          <pb n="13" facs="https://betalab.kb.se/prot-198384--61/prot_198384__61-013.jp2/_view"/>
-          <note n="fd822749">
-            48 Svar på fråga 1983/84:251 om Sveriges Radios sändningar på
-            invandrarspråk
-          </note>
-          <note n="b4806f33">
-            Anf. 15 Statsrådet BENGT GÖRANSSON:
-          </note>
           <note type="speaker" n="566045da">
             Anf. 16 ALEXANDER CHRISOPOULOS (vpk):
           </note>
-          <u who="alexander_chrisopoulos_7db74e" xml:id="i-b79670c02b9ee43c-0" next="i-2eede29262209b67-0" n="f0a404e5">
+          <u who="alexander_chrisopoulos_7db74e" xml:id="i-f0a404e53703b40b-0" next="i-f0a404e53703b40b-6" n="f0a404e5">
             <seg n="7b1afe89">
               Fru talman! Jag tackar statsrådet Göransson för svaret.
             </seg>
@@ -1107,18 +1134,35 @@
               Men denna expansion har inte motsvarats av tillräckliga
             </seg>
           </u>
-          <note n="2cbb392e">
+          <note type="date" n="9d45bb67">
             Nr 61 Tisdagen den 17 januari 1984
           </note>
-          <u who="alexander_chrisopoulos_7db74e" xml:id="i-2eede29262209b67-0" prev="i-b79670c02b9ee43c-0" n="f0a404e5">
+          <u who="alexander_chrisopoulos_7db74e" xml:id="i-f0a404e53703b40b-1" prev="i-f0a404e53703b40b-0" n="f0a404e5">
             <seg n="c692b14b">
               Om Sveriges Radios sändningar på invandrarspråk
             </seg>
-            <seg n="80f385eb"/>
-            <seg n="80f385eb"/>
+          </u>
+          <note n="616f09e3">
+            45
+          </note>
+          <u who="alexander_chrisopoulos_7db74e" xml:id="i-f0a404e53703b40b-2" prev="i-f0a404e53703b40b-0" n="f0a404e5"/>
+          <pb n="14" facs="https://betalab.kb.se/prot-198384--61/prot_198384__61-014.jp2/_view"/>
+          <u who="alexander_chrisopoulos_7db74e" xml:id="i-f0a404e53703b40b-3" prev="i-f0a404e53703b40b-0" n="f0a404e5"/>
+          <note n="8455b690">
+            Nr 61
+          </note>
+          <note type="date" n="dfe60d93">
+            Tisdagen den 17 januari 1984
+          </note>
+          <u who="alexander_chrisopoulos_7db74e" xml:id="i-f0a404e53703b40b-4" prev="i-f0a404e53703b40b-0" n="f0a404e5">
             <seg n="c692b14b">
               Om Sveriges Radios sändningar på invandrarspråk
             </seg>
+          </u>
+          <note n="9412822c">
+            46
+          </note>
+          <u who="alexander_chrisopoulos_7db74e" xml:id="i-f0a404e53703b40b-5" prev="i-f0a404e53703b40b-0" n="f0a404e5">
             <seg n="70fc7091">
               resurser. Medarbetarnas entusiasm och engagemang har fått ersätta
               bristen på resurser. Det har resulterat i att den här programverksamheten
@@ -1143,6 +1187,11 @@
               Det vore värdefullt om utbildningsministern ville ytterligare
               belysa den frågan.
             </seg>
+          </u>
+          <note n="f115d6f7">
+            Anf. 17 Statsrådet BENGT GÖRANSSON:
+          </note>
+          <u who="alexander_chrisopoulos_7db74e" xml:id="i-f0a404e53703b40b-6" prev="i-f0a404e53703b40b-0" n="f0a404e5">
             <seg n="2c734176">
               Fru talman! På samhällslivets alla områden återstår mycket att
               göra. När det gäller minoritetsprogrammen i Sveriges Radio och
@@ -1156,26 +1205,10 @@
               som sparobjekt.
             </seg>
           </u>
-          <note n="616f09e3">
-            45
-          </note>
-          <pb n="14" facs="https://betalab.kb.se/prot-198384--61/prot_198384__61-014.jp2/_view"/>
-          <note n="8455b690">
-            Nr 61
-          </note>
-          <note n="46d36f3a">
-            Tisdagen den 17 januari 1984
-          </note>
-          <note n="9412822c">
-            46
-          </note>
-          <note n="f115d6f7">
-            Anf. 17 Statsrådet BENGT GÖRANSSON:
-          </note>
           <note type="speaker" n="55ece591">
             Anf. 18 ALEXANDER CHRISOPOULOS (vpk):
           </note>
-          <u who="alexander_chrisopoulos_7db74e" xml:id="i-b79670c02b9ee43c-1" next="i-2eede29262209b67-1" n="f0a404e5">
+          <u who="alexander_chrisopoulos_7db74e" xml:id="i-f0a404e53703b40b-7" next="i-f0a404e53703b40b-10" n="f0a404e5">
             <seg n="fa450cb7">
               Fru talman! Det är tillfredsställande att få till svar att några
               nedskärningar på detta område inte planeras. Det finns emellertid
@@ -1193,7 +1226,7 @@
           <note n="b1a84377">
             Anf. 19 Statsrådet BENGT GÖRANSSON:
           </note>
-          <u who="alexander_chrisopoulos_7db74e" xml:id="i-2eede29262209b67-1" prev="i-b79670c02b9ee43c-1" n="f0a404e5">
+          <u who="alexander_chrisopoulos_7db74e" xml:id="i-f0a404e53703b40b-8" prev="i-f0a404e53703b40b-7" n="f0a404e5">
             <seg n="9dcfbea7">
               Fru talman! Det är alldeles självklart så, att vi på det här
               området, liksom på andra områden, måste vara beredda på förändringar
@@ -1201,20 +1234,15 @@
               och till ekonomin. Det gäller att på bästa sätt utnyttja de pengar
               som vi faktiskt satsar. Jag tycker att man
             </seg>
-            <seg n="80f385eb"/>
+          </u>
+          <pb n="15" facs="https://betalab.kb.se/prot-198384--61/prot_198384__61-015.jp2/_view"/>
+          <u who="alexander_chrisopoulos_7db74e" xml:id="i-f0a404e53703b40b-9" prev="i-f0a404e53703b40b-7" n="f0a404e5">
             <seg n="61e98a09">
               bör respektera att det också på det här området gäller att vara
               beredd att använda sina slantar så, att de kommer till bästa möjliga
               användning.
             </seg>
-            <seg n="8b5af75a">
-              Fru talman! Tore Nilsson har frågat mig när den rådgivande heraldiska
-              nämnden inom riksarkivet kommer att tillsättas och om nämnden
-              kommer att få en representant för allsidigt dokumenterad sakkunskap
-              på det heraldiska området.
-            </seg>
           </u>
-          <pb n="15" facs="https://betalab.kb.se/prot-198384--61/prot_198384__61-015.jp2/_view"/>
           <note n="35a19ab3">
             Överläggningen var härmed avslutad.
           </note>
@@ -1225,6 +1253,14 @@
           <note n="5d6aab14">
             Anf. 20 Statsrådet BENGT GÖRANSSON:
           </note>
+          <u who="alexander_chrisopoulos_7db74e" xml:id="i-f0a404e53703b40b-10" prev="i-f0a404e53703b40b-7" n="f0a404e5">
+            <seg n="8b5af75a">
+              Fru talman! Tore Nilsson har frågat mig när den rådgivande heraldiska
+              nämnden inom riksarkivet kommer att tillsättas och om nämnden
+              kommer att få en representant för allsidigt dokumenterad sakkunskap
+              på det heraldiska området.
+            </seg>
+          </u>
           <note n="30276ad4">
             Regeringen har i beslut den 15 december 1983 som ledamöter i
             riksarkivets heraldiska nämnd förordnat samma personer som tidigare
@@ -1235,7 +1271,7 @@
           <note type="speaker" n="95b62917">
             Anf. 21 TORE NILSSON (m):
           </note>
-          <u who="tore_nilsson_dd61b6" xml:id="i-a15737f7aa3103cd-0" next="i-c2014f4af4181061-0" n="653e2f18">
+          <u who="tore_nilsson_dd61b6" xml:id="i-653e2f181610394e-0" next="i-653e2f181610394e-4" n="653e2f18">
             <seg n="7afc662a">
               Fru talman! Jag ber att få tacka kulturministern för svaret.
               Det var ett tillfredsställande svar.
@@ -1277,7 +1313,7 @@
           <note n="8455b690">
             Nr 61
           </note>
-          <note n="46d36f3a">
+          <note type="date" n="dfe60d93">
             Tisdagen den 17 januari 1984
           </note>
           <note n="f176d413">
@@ -1286,12 +1322,32 @@
           <note n="97a9e644">
             47
           </note>
-          <u who="tore_nilsson_dd61b6" xml:id="i-c2014f4af4181061-0" prev="i-a15737f7aa3103cd-0" n="653e2f18">
+          <u who="tore_nilsson_dd61b6" xml:id="i-653e2f181610394e-1" prev="i-653e2f181610394e-0" n="653e2f18"/>
+          <pb n="16" facs="https://betalab.kb.se/prot-198384--61/prot_198384__61-016.jp2/_view"/>
+          <u who="tore_nilsson_dd61b6" xml:id="i-653e2f181610394e-2" prev="i-653e2f181610394e-0" n="653e2f18">
             <seg n="80f385eb"/>
-            <seg n="80f385eb"/>
+          </u>
+          <note n="8455b690">
+            Nr 61
+          </note>
+          <note type="date" n="dfe60d93">
+            Tisdagen den 17 januari 1984
+          </note>
+          <u who="tore_nilsson_dd61b6" xml:id="i-653e2f181610394e-3" prev="i-653e2f181610394e-0" n="653e2f18">
             <seg n="2bdd0a8e">
               Om en utredning rörande arbetsskadeförsäkringen
             </seg>
+          </u>
+          <note n="6a9ca28e">
+            48
+          </note>
+          <note n="d0e569f6">
+            6 $ Svar på fråga 1983/84:194 om en utredning rörande arbetsskadeförsäkringen
+          </note>
+          <note n="03d0f688">
+            Anf. 22 Socialminister STEN ANDERSSON:
+          </note>
+          <u who="tore_nilsson_dd61b6" xml:id="i-653e2f181610394e-4" prev="i-653e2f181610394e-0" n="653e2f18">
             <seg n="27f0cfdc">
               Fru talman! Gullan Lindblad har frågat mig om regeringen avser
               att tillsätta den av riksdagen förordade utredningen om arbetsskadeförsäkringen
@@ -1316,26 +1372,10 @@
               skall kunna påbörjas om någon månad.
             </seg>
           </u>
-          <pb n="16" facs="https://betalab.kb.se/prot-198384--61/prot_198384__61-016.jp2/_view"/>
-          <note n="8455b690">
-            Nr 61
-          </note>
-          <note n="46d36f3a">
-            Tisdagen den 17 januari 1984
-          </note>
-          <note n="6a9ca28e">
-            48
-          </note>
-          <note n="d0e569f6">
-            6 $ Svar på fråga 1983/84:194 om en utredning rörande arbetsskadeförsäkringen
-          </note>
-          <note n="03d0f688">
-            Anf. 22 Socialminister STEN ANDERSSON:
-          </note>
           <note type="speaker" n="0cd66ef0">
             Anf. 23 GULLAN LINDBLAD (m):
           </note>
-          <u who="gullan_lindblad_8ca10d" xml:id="i-2deba5c77b8b73c3-0" next="i-eddfd3dad8e6cb6a-0" n="54fc6862">
+          <u who="gullan_lindblad_8ca10d" xml:id="i-fded8f496968bd20-0" next="i-fded8f496968bd20-2" n="54fc6862">
             <seg n="5901dc45">
               Fru talman! Jag ber att få tacka socialministern för svaret och
               beklagar att jag inte kunde ta emot svaret före jul.
@@ -1376,7 +1416,9 @@
               arbetsskada: ”bedömningarna skapar stor rättsosäkerhet och alltför
               många kvävs av kombinationen sjukdom/byråkrati”.
             </seg>
-            <seg n="80f385eb"/>
+          </u>
+          <pb n="17" facs="https://betalab.kb.se/prot-198384--61/prot_198384__61-017.jp2/_view"/>
+          <u who="gullan_lindblad_8ca10d" xml:id="i-fded8f496968bd20-1" prev="i-fded8f496968bd20-0" n="54fc6862">
             <seg n="80f385eb"/>
             <seg n="12160fa2">
               Nu skall alltså en utredning tillsättas, och jag skall väl inte
@@ -1399,11 +1441,10 @@
               herr socialminister, att det hastar.
             </seg>
           </u>
-          <pb n="17" facs="https://betalab.kb.se/prot-198384--61/prot_198384__61-017.jp2/_view"/>
           <note n="3f1fdb3f">
             Anf. 24 Socialminister STEN ANDERSSON:
           </note>
-          <u who="gullan_lindblad_8ca10d" xml:id="i-eddfd3dad8e6cb6a-0" prev="i-2deba5c77b8b73c3-0" n="54fc6862">
+          <u who="gullan_lindblad_8ca10d" xml:id="i-fded8f496968bd20-2" prev="i-fded8f496968bd20-0" n="54fc6862">
             <seg n="0ca90d61">
               Fru talman! Inte heller jag vill gå händelserna i förväg och
               gå in på någon djupare debatt om innehållet i och administrationen
@@ -1427,7 +1468,7 @@
           <note type="speaker" n="23f6e0a3">
             Anf. 25 GULLAN LINDBLAD (m):
           </note>
-          <u who="gullan_lindblad_8ca10d" xml:id="i-2deba5c77b8b73c3-1" next="i-eddfd3dad8e6cb6a-1" n="54fc6862">
+          <u who="gullan_lindblad_8ca10d" xml:id="i-fded8f496968bd20-3" next="i-fded8f496968bd20-8" n="54fc6862">
             <seg n="692b2f0e">
               Fru talman! Jag är glad över kompletteringen, och jag förstår
               också att socialministern till fullo är insatt i problematiken
@@ -1459,7 +1500,7 @@
           <note n="8455b690">
             Nr 61
           </note>
-          <note n="46d36f3a">
+          <note type="date" n="dfe60d93">
             Tisdagen den 17 januari 1984
           </note>
           <note n="b6fd8e26">
@@ -1471,17 +1512,43 @@
           <note n="474f8a9f">
             49
           </note>
-          <u who="gullan_lindblad_8ca10d" xml:id="i-eddfd3dad8e6cb6a-1" prev="i-2deba5c77b8b73c3-1" n="54fc6862">
+          <u who="gullan_lindblad_8ca10d" xml:id="i-fded8f496968bd20-4" prev="i-fded8f496968bd20-3" n="54fc6862"/>
+          <pb n="18" facs="https://betalab.kb.se/prot-198384--61/prot_198384__61-018.jp2/_view"/>
+          <u who="gullan_lindblad_8ca10d" xml:id="i-fded8f496968bd20-5" prev="i-fded8f496968bd20-3" n="54fc6862">
             <seg n="80f385eb"/>
-            <seg n="80f385eb"/>
+          </u>
+          <note n="8455b690">
+            Nr 61
+          </note>
+          <note type="date" n="dfe60d93">
+            Tisdagen den 17 januari 1984
+          </note>
+          <u who="gullan_lindblad_8ca10d" xml:id="i-fded8f496968bd20-6" prev="i-fded8f496968bd20-3" n="54fc6862">
             <seg n="ffb1d7ac">
               Om aviserad utredning angående vissa frågor inom det allmänna
               pensionssystemet
             </seg>
+          </u>
+          <note n="b0c02b4b">
+            50
+          </note>
+          <u who="gullan_lindblad_8ca10d" xml:id="i-fded8f496968bd20-7" prev="i-fded8f496968bd20-3" n="54fc6862">
             <seg n="4bce8016">
               väntat länge på att något skulle ske. Det gäller inte minst personalen
               vid försäkringskassorna.
             </seg>
+          </u>
+          <note n="35a19ab3">
+            Överläggningen var härmed avslutad.
+          </note>
+          <note n="52f9a490">
+            7 8 Svar på fråga 1983/84:203 om aviserad utredning angående
+            vissa frågor inom det allmänna pensionssystemet
+          </note>
+          <note n="8fff958f">
+            Anf. 26 Socialminister STEN ANDERSSON:
+          </note>
+          <u who="gullan_lindblad_8ca10d" xml:id="i-fded8f496968bd20-8" prev="i-fded8f496968bd20-3" n="54fc6862">
             <seg n="b3e0004d">
               Fru talman! Göte Jonsson har frågat mig när den parlamentariska
               utredning, som bl. a. skall se över det nuvarande värdesäkringssystemets
@@ -1515,30 +1582,10 @@
               som nu varit i praktisk tillämpning i över 20 år.
             </seg>
           </u>
-          <pb n="18" facs="https://betalab.kb.se/prot-198384--61/prot_198384__61-018.jp2/_view"/>
-          <note n="8455b690">
-            Nr 61
-          </note>
-          <note n="46d36f3a">
-            Tisdagen den 17 januari 1984
-          </note>
-          <note n="b0c02b4b">
-            50
-          </note>
-          <note n="35a19ab3">
-            Överläggningen var härmed avslutad.
-          </note>
-          <note n="52f9a490">
-            7 8 Svar på fråga 1983/84:203 om aviserad utredning angående
-            vissa frågor inom det allmänna pensionssystemet
-          </note>
-          <note n="8fff958f">
-            Anf. 26 Socialminister STEN ANDERSSON:
-          </note>
           <note type="speaker" n="b12ecacc">
             Anf. 27 GÖTE JONSSON (m):
           </note>
-          <u who="gote_jonsson_9998eb" xml:id="i-264ed1cbb210090a-0" next="i-eebdb39293651727-0" n="6b5e3c01">
+          <u who="gote_jonsson_9998eb" xml:id="i-6b5e3c0181de79fe-0" next="i-6b5e3c0181de79fe-5" n="6b5e3c01">
             <seg n="89e51f2c">
               Fru talman! Jag ber att få tacka socialministern för svaret.
             </seg>
@@ -1562,7 +1609,9 @@
               och många andra bedömare har sagt, måste ställa sig frågan: Hur
               skall vi klara att trygga
             </seg>
-            <seg n="80f385eb"/>
+          </u>
+          <pb n="19" facs="https://betalab.kb.se/prot-198384--61/prot_198384__61-019.jp2/_view"/>
+          <u who="gote_jonsson_9998eb" xml:id="i-6b5e3c0181de79fe-1" prev="i-6b5e3c0181de79fe-0" n="6b5e3c01">
             <seg n="b8d5bd90">
               pensionerna i framtiden, att ge pensionärerna trygghet?
             </seg>
@@ -1600,11 +1649,10 @@
               det gäller relationen inbetalningar-utbetalningar i ATP-systemet.
             </seg>
           </u>
-          <pb n="19" facs="https://betalab.kb.se/prot-198384--61/prot_198384__61-019.jp2/_view"/>
           <note n="c02db2e6">
             Anf. 28 Socialminister STEN ANDERSSON:
           </note>
-          <u who="gote_jonsson_9998eb" xml:id="i-eebdb39293651727-0" prev="i-264ed1cbb210090a-0" n="6b5e3c01">
+          <u who="gote_jonsson_9998eb" xml:id="i-6b5e3c0181de79fe-2" prev="i-6b5e3c0181de79fe-0" n="6b5e3c01">
             <seg n="8b596c69">
               Fru talman! Jag negligerar inte alls problemen, Göte Jonsson.
               Det vore verkligen att fara vilse att påstå att här inte finns
@@ -1630,22 +1678,18 @@
               en gynnsam ekonomisk utveckling här i landet, och det kommer vi
               att få med en socialdemokratisk regering.
             </seg>
-            <seg n="80f385eb"/>
-            <seg n="26792d74">
-              Om aviserad utredning angående vissa frågor inom det
-            </seg>
-            <seg n="80f385eb"/>
-            <seg n="d603726f">
-              Om aviserad utredning angående vissa frågorinom det allmänna
-              pensionssystemet
-            </seg>
           </u>
           <note n="8455b690">
             Nr 61
           </note>
-          <note n="46d36f3a">
+          <note type="date" n="dfe60d93">
             Tisdagen den 17 januari 1984
           </note>
+          <u who="gote_jonsson_9998eb" xml:id="i-6b5e3c0181de79fe-3" prev="i-6b5e3c0181de79fe-0" n="6b5e3c01">
+            <seg n="26792d74">
+              Om aviserad utredning angående vissa frågor inom det
+            </seg>
+          </u>
           <note n="70e77be3">
             allmänna pensions-
           </note>
@@ -1656,19 +1700,26 @@
             51
           </note>
           <pb n="20" facs="https://betalab.kb.se/prot-198384--61/prot_198384__61-020.jp2/_view"/>
+          <u who="gote_jonsson_9998eb" xml:id="i-6b5e3c0181de79fe-4" prev="i-6b5e3c0181de79fe-0" n="6b5e3c01"/>
           <note n="8455b690">
             Nr 61
           </note>
-          <note n="46d36f3a">
+          <note type="date" n="dfe60d93">
             Tisdagen den 17 januari 1984
           </note>
+          <u who="gote_jonsson_9998eb" xml:id="i-6b5e3c0181de79fe-5" prev="i-6b5e3c0181de79fe-0" n="6b5e3c01">
+            <seg n="d603726f">
+              Om aviserad utredning angående vissa frågorinom det allmänna
+              pensionssystemet
+            </seg>
+          </u>
           <note n="b86ce303">
             52
           </note>
           <note type="speaker" n="ad473176">
             Anf. 29 GÖTE JONSSON (m):
           </note>
-          <u who="gote_jonsson_9998eb" xml:id="i-3fccacb248e08a6c-0" n="6b5e3c01">
+          <u who="gote_jonsson_9998eb" xml:id="i-6b5e3c0181de79fe-6" n="6b5e3c01">
             <seg n="37fbe7aa">
               Fru talman! Med risk för att socialministern och jag än en gång
               blir nedklubbade av talmannen skulle jag vilja säga att jag tycker
@@ -1729,7 +1780,7 @@
           <note type="speaker" n="175e8d60">
             Anf. 31 GÖTE JONSSON (m):
           </note>
-          <u who="gote_jonsson_9998eb" xml:id="i-264ed1cbb210090a-1" next="i-eebdb39293651727-1" n="6b5e3c01">
+          <u who="gote_jonsson_9998eb" xml:id="i-6b5e3c0181de79fe-7" next="i-6b5e3c0181de79fe-9" n="6b5e3c01">
             <seg n="d1b63012">
               Fru talman! Jag är av naturen optimist, men det som gjorde mig
               pessimistisk var socialministerns egna hänvisningar till auktoritativa
@@ -1742,7 +1793,9 @@
             </seg>
             <seg n="80f385eb"/>
             <seg n="80f385eb"/>
-            <seg n="80f385eb"/>
+          </u>
+          <pb n="21" facs="https://betalab.kb.se/prot-198384--61/prot_198384__61-021.jp2/_view"/>
+          <u who="gote_jonsson_9998eb" xml:id="i-6b5e3c0181de79fe-8" prev="i-6b5e3c0181de79fe-7" n="6b5e3c01">
             <seg n="8da0791f">
               räddat. Jag tycker att socialministern själv avvisar det argumentet
               på sakliga grunder genom att i propositionen och i svar i kammaren
@@ -1762,11 +1815,10 @@
               blivit gjort tidigare. På grund av detta har vi tappat tid.
             </seg>
           </u>
-          <pb n="21" facs="https://betalab.kb.se/prot-198384--61/prot_198384__61-021.jp2/_view"/>
           <note n="e60c6d0c">
             Anf. 32 Socialminister STEN ANDERSSON:
           </note>
-          <u who="gote_jonsson_9998eb" xml:id="i-eebdb39293651727-1" prev="i-264ed1cbb210090a-1" n="6b5e3c01">
+          <u who="gote_jonsson_9998eb" xml:id="i-6b5e3c0181de79fe-9" prev="i-6b5e3c0181de79fe-7" n="6b5e3c01">
             <seg n="38350487">
               Fru talman! Den här utredningen skall klara av många andra problem
               än värdesäkringssystemet. Vi har bl. a. hänvisat frågan om reformeringen
@@ -1796,7 +1848,7 @@
           <note type="speaker" n="b9554264">
             Anf. 33 GÖTE JONSSON (m):
           </note>
-          <u who="gote_jonsson_9998eb" xml:id="i-264ed1cbb210090a-2" next="i-eebdb39293651727-2" n="6b5e3c01">
+          <u who="gote_jonsson_9998eb" xml:id="i-6b5e3c0181de79fe-10" next="i-6b5e3c0181de79fe-15" n="6b5e3c01">
             <seg n="2470e388">
               Fru talman! Jag har inte varit ute för att rasera ATP-systemet
               — då hade jag inte behövt ställa frågan på vilket sätt socialministern
@@ -1825,20 +1877,42 @@
           <note n="8455b690">
             Nr 61
           </note>
-          <note n="46d36f3a">
+          <note type="date" n="dfe60d93">
             Tisdagen den 17 januari 1984
           </note>
-          <u who="gote_jonsson_9998eb" xml:id="i-eebdb39293651727-2" prev="i-264ed1cbb210090a-2" n="6b5e3c01">
+          <u who="gote_jonsson_9998eb" xml:id="i-6b5e3c0181de79fe-11" prev="i-6b5e3c0181de79fe-10" n="6b5e3c01">
             <seg n="ffb1d7ac">
               Om aviserad utredning angående vissa frågor inom det allmänna
               pensionssystemet
             </seg>
-            <seg n="80f385eb"/>
-            <seg n="80f385eb"/>
-            <seg n="80f385eb"/>
+          </u>
+          <note n="08ff4a93">
+            53
+          </note>
+          <u who="gote_jonsson_9998eb" xml:id="i-6b5e3c0181de79fe-12" prev="i-6b5e3c0181de79fe-10" n="6b5e3c01"/>
+          <pb n="22" facs="https://betalab.kb.se/prot-198384--61/prot_198384__61-022.jp2/_view"/>
+          <u who="gote_jonsson_9998eb" xml:id="i-6b5e3c0181de79fe-13" prev="i-6b5e3c0181de79fe-10" n="6b5e3c01"/>
+          <note n="8455b690">
+            Nr 61
+          </note>
+          <note type="date" n="dfe60d93">
+            Tisdagen den 17 januari 1984
+          </note>
+          <u who="gote_jonsson_9998eb" xml:id="i-6b5e3c0181de79fe-14" prev="i-6b5e3c0181de79fe-10" n="6b5e3c01">
             <seg n="0f52e4bf">
               Om vårdbidragen för barn med diabetes
             </seg>
+          </u>
+          <note n="7d49bda8">
+            54
+          </note>
+          <note n="4370c170">
+            8$ Svar på fråga 1983/84:215 om vårdbidragen för barn med diabetes
+          </note>
+          <note n="6c53d6f5">
+            Anf. 34 Socialminister STEN ANDERSSON:
+          </note>
+          <u who="gote_jonsson_9998eb" xml:id="i-6b5e3c0181de79fe-15" prev="i-6b5e3c0181de79fe-10" n="6b5e3c01">
             <seg n="9140d2ac">
               Fru talman! Ann-Cathrine Haglund har frågat mig om jag är villig
               att se över vårdbidragsgivningen för barn med diabetes i syfte
@@ -1858,25 +1932,6 @@
               eller deras tillämpning anser jag inte påkallade f.n.
             </seg>
           </u>
-          <note n="08ff4a93">
-            53
-          </note>
-          <pb n="22" facs="https://betalab.kb.se/prot-198384--61/prot_198384__61-022.jp2/_view"/>
-          <note n="8455b690">
-            Nr 61
-          </note>
-          <note n="46d36f3a">
-            Tisdagen den 17 januari 1984
-          </note>
-          <note n="7d49bda8">
-            54
-          </note>
-          <note n="4370c170">
-            8$ Svar på fråga 1983/84:215 om vårdbidragen för barn med diabetes
-          </note>
-          <note n="6c53d6f5">
-            Anf. 34 Socialminister STEN ANDERSSON:
-          </note>
           <note n="33425836">
             Under detta anförande övertog tredje vice talmannen ledningen
             av kammarens förhandlingar.
@@ -1884,7 +1939,7 @@
           <note type="speaker" n="1849ea76">
             Anf. 35 ANN-CATHRINE HAGLUND (m):
           </note>
-          <u who="ann-cathrine_haglund_2ebec7" xml:id="i-27ccf0b5b23727f0-0" next="i-ce4edaecfa744765-0" n="b9ed647a">
+          <u who="ann-cathrine_haglund_2ebec7" xml:id="i-383c623a9f8b7692-0" next="i-383c623a9f8b7692-2" n="b9ed647a">
             <seg n="4a64b60e">
               Herr talman! Jag vill tacka socialministern för svaret på min
               fråga.
@@ -1931,7 +1986,9 @@
               för välinställda
             </seg>
             <seg n="80f385eb"/>
-            <seg n="80f385eb"/>
+          </u>
+          <pb n="23" facs="https://betalab.kb.se/prot-198384--61/prot_198384__61-023.jp2/_view"/>
+          <u who="ann-cathrine_haglund_2ebec7" xml:id="i-383c623a9f8b7692-1" prev="i-383c623a9f8b7692-0" n="b9ed647a">
             <seg n="b14af8d4">
               barn. Hos ett välinställt barn är avståndet till en för låg blodsockernivå
               mycket litet. Ett sådant barn kan få s.k. insulinkänningar, om
@@ -1954,11 +2011,10 @@
               sätt.
             </seg>
           </u>
-          <pb n="23" facs="https://betalab.kb.se/prot-198384--61/prot_198384__61-023.jp2/_view"/>
           <note n="b77897af">
             Anf. 36 Socialminister STEN ANDERSSON:
           </note>
-          <u who="ann-cathrine_haglund_2ebec7" xml:id="i-ce4edaecfa744765-0" prev="i-27ccf0b5b23727f0-0" n="b9ed647a">
+          <u who="ann-cathrine_haglund_2ebec7" xml:id="i-383c623a9f8b7692-2" prev="i-383c623a9f8b7692-0" n="b9ed647a">
             <seg n="a8479e6b">
               Herr talman! Var och en som kommit i kontakt med de här frågorna
               vet att försäkringskassorna har en väldigt svår bedömning att
@@ -1986,7 +2042,7 @@
           <note type="speaker" n="ced8066a">
             Anf. 37 ANN-CATHRINE HAGLUND (m):
           </note>
-          <u who="ann-cathrine_haglund_2ebec7" xml:id="i-27ccf0b5b23727f0-1" next="i-ce4edaecfa744765-1" n="b9ed647a">
+          <u who="ann-cathrine_haglund_2ebec7" xml:id="i-383c623a9f8b7692-3" next="i-383c623a9f8b7692-9" n="b9ed647a">
             <seg n="a4e5c746">
               Herr talman! Hjälp till god sjukdomskontroll gör att man kan
               förebygga kärlskador och att man kan förebygga och senarelägga
@@ -2010,23 +2066,50 @@
           <note n="8455b690">
             Nr 61
           </note>
-          <note n="46d36f3a">
+          <note type="date" n="dfe60d93">
             Tisdagen den 17 januari 1984
           </note>
-          <u who="ann-cathrine_haglund_2ebec7" xml:id="i-ce4edaecfa744765-1" prev="i-27ccf0b5b23727f0-1" n="b9ed647a">
+          <u who="ann-cathrine_haglund_2ebec7" xml:id="i-383c623a9f8b7692-4" prev="i-383c623a9f8b7692-3" n="b9ed647a">
             <seg n="3141a860">
               Om vårdbidragen förbarn med diabetes
             </seg>
-            <seg n="80f385eb"/>
-            <seg n="80f385eb"/>
-            <seg n="80f385eb"/>
+          </u>
+          <note n="74650073">
+            55
+          </note>
+          <u who="ann-cathrine_haglund_2ebec7" xml:id="i-383c623a9f8b7692-5" prev="i-383c623a9f8b7692-3" n="b9ed647a"/>
+          <pb n="24" facs="https://betalab.kb.se/prot-198384--61/prot_198384__61-024.jp2/_view"/>
+          <u who="ann-cathrine_haglund_2ebec7" xml:id="i-383c623a9f8b7692-6" prev="i-383c623a9f8b7692-3" n="b9ed647a"/>
+          <note n="8455b690">
+            Nr 61
+          </note>
+          <note type="date" n="dfe60d93">
+            Tisdagen den 17 januari 1984
+          </note>
+          <u who="ann-cathrine_haglund_2ebec7" xml:id="i-383c623a9f8b7692-7" prev="i-383c623a9f8b7692-3" n="b9ed647a">
             <seg n="d0ccb614">
               Om ett högkostnadsskydd för sjukresor
             </seg>
+          </u>
+          <note n="927779c8">
+            56
+          </note>
+          <u who="ann-cathrine_haglund_2ebec7" xml:id="i-383c623a9f8b7692-8" prev="i-383c623a9f8b7692-3" n="b9ed647a">
             <seg n="4231a2b5">
               är god ekonomi att se till att de här barnen får en god vård,
               en god sjukdomskontroll.
             </seg>
+          </u>
+          <note n="35a19ab3">
+            Överläggningen var härmed avslutad.
+          </note>
+          <note n="e3650114">
+            9 8 Svar på fråga 1983/84:261 om ett högkostnadsskydd för sjukresor
+          </note>
+          <note n="6511c3d4">
+            Anf. 38 Socialminister STEN ANDERSSON:
+          </note>
+          <u who="ann-cathrine_haglund_2ebec7" xml:id="i-383c623a9f8b7692-9" prev="i-383c623a9f8b7692-3" n="b9ed647a">
             <seg n="36fc4728">
               Herr talman! Karin Israelsson har frågat mig om jag avser att
               vidta några åtgärder för att åstadkomma förbättringar i form av
@@ -2051,32 +2134,10 @@
               denna fråga under förra året.
             </seg>
           </u>
-          <note n="74650073">
-            55
-          </note>
-          <pb n="24" facs="https://betalab.kb.se/prot-198384--61/prot_198384__61-024.jp2/_view"/>
-          <note n="8455b690">
-            Nr 61
-          </note>
-          <note n="46d36f3a">
-            Tisdagen den 17 januari 1984
-          </note>
-          <note n="927779c8">
-            56
-          </note>
-          <note n="35a19ab3">
-            Överläggningen var härmed avslutad.
-          </note>
-          <note n="e3650114">
-            9 8 Svar på fråga 1983/84:261 om ett högkostnadsskydd för sjukresor
-          </note>
-          <note n="6511c3d4">
-            Anf. 38 Socialminister STEN ANDERSSON:
-          </note>
           <note type="speaker" n="e18a55c8">
             Anf. 39 KARIN ISRAELSSON (c):
           </note>
-          <u who="karin_israelsson_4df4ba" xml:id="i-d3265f47a465626a-0" next="i-001b113dab405790-0" n="0eaa209b">
+          <u who="karin_israelsson_4df4ba" xml:id="i-0eaa209bb94ce2ae-0" next="i-0eaa209bb94ce2ae-6" n="0eaa209b">
             <seg n="2e00bee0">
               Herr talman! Jag ber att få tacka socialministern för svaret
               på min fråga.
@@ -2104,7 +2165,9 @@
               skyddas. Jag behöver väl inte ytterligare för socialministern
               belysa barnfamiljernas svåra ekonomiska
             </seg>
-            <seg n="80f385eb"/>
+          </u>
+          <pb n="25" facs="https://betalab.kb.se/prot-198384--61/prot_198384__61-025.jp2/_view"/>
+          <u who="karin_israelsson_4df4ba" xml:id="i-0eaa209bb94ce2ae-1" prev="i-0eaa209bb94ce2ae-0" n="0eaa209b">
             <seg n="80f385eb"/>
             <seg n="15971c4e">
               situation i dag.
@@ -2136,7 +2199,6 @@
               medför för dem.
             </seg>
           </u>
-          <pb n="25" facs="https://betalab.kb.se/prot-198384--61/prot_198384__61-025.jp2/_view"/>
           <note n="35a19ab3">
             Överläggningen var härmed avslutad.
           </note>
@@ -2147,7 +2209,7 @@
           <note n="2b44610e">
             Anf. 40 Jordbruksminister SVANTE LUNDKVIST:
           </note>
-          <u who="karin_israelsson_4df4ba" xml:id="i-001b113dab405790-0" prev="i-d3265f47a465626a-0" n="0eaa209b">
+          <u who="karin_israelsson_4df4ba" xml:id="i-0eaa209bb94ce2ae-2" prev="i-0eaa209bb94ce2ae-0" n="0eaa209b">
             <seg n="dc055821">
               Herr talman! Gunhild Bolander, Ivar Franzén och Elis Andersson
               har frågat mig vilka åtgärder jag avser vidta för att säkra en
@@ -2172,41 +2234,45 @@
               anser att det därför inte finns anledning för mig att nu föregripa
               handläggningen i frågan.
             </seg>
-            <seg n="20e36dff">
-              Om fortsatt bemanning av vissa fyrar
-            </seg>
-            <seg n="80f385eb"/>
-            <seg n="80f385eb"/>
-            <seg n="d7d7e3fc">
-              ning av vissa fyrar
-            </seg>
           </u>
           <note n="8455b690">
             Nr 61
           </note>
-          <note n="46d36f3a">
+          <note type="date" n="dfe60d93">
             Tisdagen den 17 januari 1984
           </note>
+          <u who="karin_israelsson_4df4ba" xml:id="i-0eaa209bb94ce2ae-3" prev="i-0eaa209bb94ce2ae-0" n="0eaa209b">
+            <seg n="20e36dff">
+              Om fortsatt bemanning av vissa fyrar
+            </seg>
+          </u>
           <note n="18164df8">
             57
           </note>
+          <u who="karin_israelsson_4df4ba" xml:id="i-0eaa209bb94ce2ae-4" prev="i-0eaa209bb94ce2ae-0" n="0eaa209b"/>
           <pb n="26" facs="https://betalab.kb.se/prot-198384--61/prot_198384__61-026.jp2/_view"/>
+          <u who="karin_israelsson_4df4ba" xml:id="i-0eaa209bb94ce2ae-5" prev="i-0eaa209bb94ce2ae-0" n="0eaa209b"/>
           <note n="8455b690">
             Nr 61
           </note>
-          <note n="46d36f3a">
+          <note type="date" n="dfe60d93">
             Tisdagen den 17 januari 1984
           </note>
           <note n="58c083e5">
             Om fortsatt beman-
           </note>
+          <u who="karin_israelsson_4df4ba" xml:id="i-0eaa209bb94ce2ae-6" prev="i-0eaa209bb94ce2ae-0" n="0eaa209b">
+            <seg n="d7d7e3fc">
+              ning av vissa fyrar
+            </seg>
+          </u>
           <note n="0a6c5e11">
             58
           </note>
           <note type="speaker" n="1dffb575">
             Anf. 41 GUNHILD BOLANDER (c):
           </note>
-          <u who="gunhild_bolander_1f6357" xml:id="i-0c8edb3d92f9d274-0" next="i-46665169bd747dd2-0" n="077a3a8a">
+          <u who="gunhild_bolander_1f6357" xml:id="i-627af1dbecb6750c-0" next="i-627af1dbecb6750c-2" n="077a3a8a">
             <seg n="68580281">
               Herr talman! Jag ber att få tacka för svaret.
             </seg>
@@ -2275,17 +2341,18 @@
               Särskilt viktigt har därför varit det vitt kända faktum att öarna
               verkligen
             </seg>
-            <seg n="80f385eb"/>
+          </u>
+          <pb n="27" facs="https://betalab.kb.se/prot-198384--61/prot_198384__61-027.jp2/_view"/>
+          <u who="gunhild_bolander_1f6357" xml:id="i-627af1dbecb6750c-1" prev="i-627af1dbecb6750c-0" n="077a3a8a">
             <seg n="cfd7648d">
               varit bemannade. Här har staten ett speciellt ansvar att se till
               att det blir så även i fortsättningen.
             </seg>
           </u>
-          <pb n="27" facs="https://betalab.kb.se/prot-198384--61/prot_198384__61-027.jp2/_view"/>
           <note n="7e7d6755">
             Anf. 42 IVAR FRANZÉN (c):
           </note>
-          <u who="gunhild_bolander_1f6357" xml:id="i-46665169bd747dd2-0" prev="i-0c8edb3d92f9d274-0" n="077a3a8a">
+          <u who="gunhild_bolander_1f6357" xml:id="i-627af1dbecb6750c-2" prev="i-627af1dbecb6750c-0" n="077a3a8a">
             <seg n="51eb73ef">
               Herr talman! Jag vill tacka jordbruksministern för svaret.
             </seg>
@@ -2329,7 +2396,7 @@
           <note type="speaker" n="205e654d">
             Anf. 43 ELIS ANDERSSON (c):
           </note>
-          <u who="elis_andersson_10a7bd" xml:id="i-c86e2526fbb4f8a8-0" next="i-eaa884da6f40a35b-0" n="31fa548d">
+          <u who="elis_andersson_10a7bd" xml:id="i-31fa548d30df7a6e-0" next="i-31fa548d30df7a6e-4" n="31fa548d">
             <seg n="144e5990">
               Herr talman! Jag vill tacka jordbruksministern för svaret på
               min fråga.
@@ -2362,18 +2429,37 @@
           <note n="8455b690">
             Nr 61
           </note>
-          <note n="46d36f3a">
+          <note type="date" n="dfe60d93">
             Tisdagen den 17 januari 1984
           </note>
-          <u who="elis_andersson_10a7bd" xml:id="i-eaa884da6f40a35b-0" prev="i-c86e2526fbb4f8a8-0" n="31fa548d">
+          <u who="elis_andersson_10a7bd" xml:id="i-31fa548d30df7a6e-1" prev="i-31fa548d30df7a6e-0" n="31fa548d">
             <seg n="20e36dff">
               Om fortsatt bemanning av vissa fyrar
             </seg>
-            <seg n="80f385eb"/>
-            <seg n="80f385eb"/>
+          </u>
+          <note n="b2e18479">
+            59
+          </note>
+          <pb n="28" facs="https://betalab.kb.se/prot-198384--61/prot_198384__61-028.jp2/_view"/>
+          <u who="elis_andersson_10a7bd" xml:id="i-31fa548d30df7a6e-2" prev="i-31fa548d30df7a6e-0" n="31fa548d"/>
+          <note n="8455b690">
+            Nr 61
+          </note>
+          <note type="date" n="dfe60d93">
+            Tisdagen den 17 januari 1984
+          </note>
+          <u who="elis_andersson_10a7bd" xml:id="i-31fa548d30df7a6e-3" prev="i-31fa548d30df7a6e-0" n="31fa548d">
             <seg n="20e36dff">
               Om fortsatt bemanning av vissa fyrar
             </seg>
+          </u>
+          <note n="c19babef">
+            60
+          </note>
+          <note n="84b1b806">
+            Anf. 44 Jordbruksrhinister SVANTE LUNDKVIST:
+          </note>
+          <u who="elis_andersson_10a7bd" xml:id="i-31fa548d30df7a6e-4" prev="i-31fa548d30df7a6e-0" n="31fa548d">
             <seg n="186a6810">
               Herr talman! Som har framhållits av flera av frågeställarna,
               har det kommit in nya faktorer i bilden som det kan vara angeläget
@@ -2385,26 +2471,10 @@
               sammanhanget.
             </seg>
           </u>
-          <note n="b2e18479">
-            59
-          </note>
-          <pb n="28" facs="https://betalab.kb.se/prot-198384--61/prot_198384__61-028.jp2/_view"/>
-          <note n="8455b690">
-            Nr 61
-          </note>
-          <note n="46d36f3a">
-            Tisdagen den 17 januari 1984
-          </note>
-          <note n="c19babef">
-            60
-          </note>
-          <note n="84b1b806">
-            Anf. 44 Jordbruksrhinister SVANTE LUNDKVIST:
-          </note>
           <note type="speaker" n="3e223b78">
             Anf. 45 GUNHILD BOLANDER (c):
           </note>
-          <u who="gunhild_bolander_1f6357" xml:id="i-0c8edb3d92f9d274-1" next="i-46665169bd747dd2-1" n="077a3a8a">
+          <u who="gunhild_bolander_1f6357" xml:id="i-627af1dbecb6750c-3" next="i-627af1dbecb6750c-26" n="077a3a8a">
             <seg n="c4c5f7dc">
               Herr talman! I Sverige är det många myndigheter som är inblandade
               i bevakningen av kusterna. Möjligen är detta en av orsakerna till
@@ -2429,7 +2499,7 @@
           <note n="5777d5fb">
             Anf. 46 IVAR FRANZÉN (c):
           </note>
-          <u who="gunhild_bolander_1f6357" xml:id="i-46665169bd747dd2-1" prev="i-0c8edb3d92f9d274-1" n="077a3a8a">
+          <u who="gunhild_bolander_1f6357" xml:id="i-627af1dbecb6750c-4" prev="i-627af1dbecb6750c-3" n="077a3a8a">
             <seg n="3e58eea6">
               Herr talman! Då jordbruksministern säger att det har tillkommit
               nya faktorer i det här ärendet, tycker jag att jag ganska säkert
@@ -2448,8 +2518,21 @@
               handläggningskostnader. Det tycker jag är ett bra sätt att hushålla
               med resurserna.
             </seg>
+          </u>
+          <note n="35a19ab3">
+            Överläggningen var härmed avslutad.
+          </note>
+          <pb n="29" facs="https://betalab.kb.se/prot-198384--61/prot_198384__61-029.jp2/_view"/>
+          <u who="gunhild_bolander_1f6357" xml:id="i-627af1dbecb6750c-5" prev="i-627af1dbecb6750c-3" n="077a3a8a">
             <seg n="80f385eb"/>
-            <seg n="80f385eb"/>
+          </u>
+          <note n="211eb5f5">
+            11 $ Svar på fråga 1983/84:219 om jordbrukets betydelse för folkförsörjningen
+          </note>
+          <note n="fbbbdd98">
+            Anf. 47 Jordbruksminister SVANTE LUNDKVIST:
+          </note>
+          <u who="gunhild_bolander_1f6357" xml:id="i-627af1dbecb6750c-6" prev="i-627af1dbecb6750c-3" n="077a3a8a">
             <seg n="badc6d89">
               Herr talman! Gunnar Björk i Gävle har frågat försvarsministern
               huruvida 1982 års försvarsbeslut i fråga om jordbrukets betydelse
@@ -2496,6 +2579,11 @@
               att beredskapsaspekterna beaktas på ett tidigt stadium i produktionsoch
               samhällsplaneringen.
             </seg>
+          </u>
+          <note n="e62cec4f">
+            Anf. 48 GUNNAR BJÖRK i Gävle (c):
+          </note>
+          <u who="gunhild_bolander_1f6357" xml:id="i-627af1dbecb6750c-7" prev="i-627af1dbecb6750c-3" n="077a3a8a">
             <seg n="bc753400">
               Herr talman! Jag vill tacka jordbruksministern för svaret på
               min fråga. Det var ett fylligt och genomarbetat svar.
@@ -2513,14 +2601,45 @@
               fungerar. Det gäller tillgången till kväve och andra gödselmedel
               som är avgörande för
             </seg>
+          </u>
+          <note n="8455b690">
+            Nr 61
+          </note>
+          <note type="date" n="dfe60d93">
+            Tisdagen den 17 januari 1984
+          </note>
+          <note n="8248aaec">
+            Om jordbrukets
+          </note>
+          <u who="gunhild_bolander_1f6357" xml:id="i-627af1dbecb6750c-8" prev="i-627af1dbecb6750c-3" n="077a3a8a">
             <seg n="18c67fb2">
               betydelse för folkförsörjningen
             </seg>
-            <seg n="80f385eb"/>
-            <seg n="80f385eb"/>
+          </u>
+          <note n="bb8b4af9">
+            61
+          </note>
+          <u who="gunhild_bolander_1f6357" xml:id="i-627af1dbecb6750c-9" prev="i-627af1dbecb6750c-3" n="077a3a8a"/>
+          <pb n="30" facs="https://betalab.kb.se/prot-198384--61/prot_198384__61-030.jp2/_view"/>
+          <u who="gunhild_bolander_1f6357" xml:id="i-627af1dbecb6750c-10" prev="i-627af1dbecb6750c-3" n="077a3a8a"/>
+          <note n="8455b690">
+            Nr 61
+          </note>
+          <note type="date" n="dfe60d93">
+            Tisdagen den 17 januari 1984
+          </note>
+          <note n="8248aaec">
+            Om jordbrukets
+          </note>
+          <u who="gunhild_bolander_1f6357" xml:id="i-627af1dbecb6750c-11" prev="i-627af1dbecb6750c-3" n="077a3a8a">
             <seg n="18c67fb2">
               betydelse för folkförsörjningen
             </seg>
+          </u>
+          <note n="03d31260">
+            62
+          </note>
+          <u who="gunhild_bolander_1f6357" xml:id="i-627af1dbecb6750c-12" prev="i-627af1dbecb6750c-3" n="077a3a8a">
             <seg n="43e08379">
               om vi skall kunna hålla hektarskördarna uppe. Eftersom vi också
               skall producera mer brödsäd för att hålla vår kriskost, kommer
@@ -2572,6 +2691,11 @@
               beakta sårbarhetsoch livsmedelsberedskapssynpunkter när man nu
               diskuterar den framtida jordbrukspolitiken?
             </seg>
+          </u>
+          <note n="379e64eb">
+            Anf. 49 Jordbruksminister SVANTE LUNDKVIST:
+          </note>
+          <u who="gunhild_bolander_1f6357" xml:id="i-627af1dbecb6750c-13" prev="i-627af1dbecb6750c-3" n="077a3a8a">
             <seg n="439baa5d">
               Herr talman! Jag förstår att Gunnar Björk i Gävle också tillhör
               dem som har missförstått regeringens ambitioner när det gäller
@@ -2590,7 +2714,9 @@
               betona att det är regeringens uppfattning, att om vi skall kunna
               uppfylla målet att hålla den beredskap som vi
             </seg>
-            <seg n="80f385eb"/>
+          </u>
+          <pb n="31" facs="https://betalab.kb.se/prot-198384--61/prot_198384__61-031.jp2/_view"/>
+          <u who="gunhild_bolander_1f6357" xml:id="i-627af1dbecb6750c-14" prev="i-627af1dbecb6750c-3" n="077a3a8a">
             <seg n="80f385eb"/>
             <seg n="2756c438">
               eftersträvar, skall det också vara möjligt att bedriva jordbruk
@@ -2618,6 +2744,11 @@
               synpunkter och totalförsvarssynpunkter som har anknytning till
               denna fråga.
             </seg>
+          </u>
+          <note n="3b1e1237">
+            Anf. 51 Jordbruksminister SVANTE LUNDKVIST:
+          </note>
+          <u who="gunhild_bolander_1f6357" xml:id="i-627af1dbecb6750c-15" prev="i-627af1dbecb6750c-3" n="077a3a8a">
             <seg n="13047e34">
               Herr talman! Nu undrar jag om Gunnar Björk i Gävle verkligen
               lyssnade på vad jag sade.
@@ -2633,6 +2764,11 @@
               jag menar att vi måste ta då vi diskuterar utformningen av vår
               jordbrukspolitik.
             </seg>
+          </u>
+          <note n="f64221e9">
+            Anf. 52 GUNNAR BJÖRK i Gävle (c):
+          </note>
+          <u who="gunhild_bolander_1f6357" xml:id="i-627af1dbecb6750c-16" prev="i-627af1dbecb6750c-3" n="077a3a8a">
             <seg n="ac3b62a2">
               Herr talman! Jag tror ändå att den kanonad av förslag som lantbrukarna
               upplever kommer från regeringen inte bäddar för att regeringen
@@ -2644,6 +2780,11 @@
               ändock ökat intresse för sårbarhetsaspekterna och för vad som
               kan ske i händelse av avspärrning.
             </seg>
+          </u>
+          <note n="142de3d8">
+            Anf. 53 Jordbruksminister SVANTE LUNDKVIST:
+          </note>
+          <u who="gunhild_bolander_1f6357" xml:id="i-627af1dbecb6750c-17" prev="i-627af1dbecb6750c-3" n="077a3a8a">
             <seg n="9746f234">
               Herr talman! Får jag påminna Gunnar Björk i Gävle om att sårbarhetsfrågorna
               finns med i direktiven för utredningen, och dem skall man fortsätta
@@ -2655,11 +2796,28 @@
               att vi för en jordbrukspolitik i det här landet som gör det möjligt
               att behålla den
             </seg>
+          </u>
+          <note n="8455b690">
+            Nr 61
+          </note>
+          <note type="date" n="dfe60d93">
+            Tisdagen den 17 januari 1984
+          </note>
+          <u who="gunhild_bolander_1f6357" xml:id="i-627af1dbecb6750c-18" prev="i-627af1dbecb6750c-3" n="077a3a8a">
             <seg n="0bb8be29">
               Om jordbrukets betydelse för folkförsörjningen
             </seg>
             <seg n="80f385eb"/>
-            <seg n="80f385eb"/>
+          </u>
+          <pb n="32" facs="https://betalab.kb.se/prot-198384--61/prot_198384__61-032.jp2/_view"/>
+          <u who="gunhild_bolander_1f6357" xml:id="i-627af1dbecb6750c-19" prev="i-627af1dbecb6750c-3" n="077a3a8a"/>
+          <note n="8455b690">
+            Nr 61
+          </note>
+          <note type="date" n="dfe60d93">
+            Tisdagen den 17 januari 1984
+          </note>
+          <u who="gunhild_bolander_1f6357" xml:id="i-627af1dbecb6750c-20" prev="i-627af1dbecb6750c-3" n="077a3a8a">
             <seg n="0bb8be29">
               Om jordbrukets betydelse för folkförsörjningen
             </seg>
@@ -2673,6 +2831,11 @@
               jordbruket i norra Sverige. Tvärtom försöker vi på allt sätt slå
               vakt om produktionen i just norra Sverige.
             </seg>
+          </u>
+          <note n="678ed42f">
+            Anf. 54 GUNNAR BJÖRK i Gävle (c):
+          </note>
+          <u who="gunhild_bolander_1f6357" xml:id="i-627af1dbecb6750c-21" prev="i-627af1dbecb6750c-3" n="077a3a8a">
             <seg n="ff715280">
               Herr talman! När det gäller sårbarhetsfrågorna och livsmedelskommittén
               har just den sårbarhetsgrupp som finns tillsatts litet senare
@@ -2682,6 +2845,11 @@
               i dessa frågor bör bestå, och alla partier bör vara överens. Det
               är bra att vi slår vakt om denna enighet.
             </seg>
+          </u>
+          <note n="b5831062">
+            Anf. 55 Jordbruksminister SVANTE LUNDKVIST:
+          </note>
+          <u who="gunhild_bolander_1f6357" xml:id="i-627af1dbecb6750c-22" prev="i-627af1dbecb6750c-3" n="077a3a8a">
             <seg n="8ff134af">
               Herr talman! Får jag bara kommentera en synpunkt som Gunnar Björk
               i Gävle anförde, nämligen att denna sårbarhetsgrupp skulle ha
@@ -2694,12 +2862,22 @@
               ordning i vilken grupperna skulle påbörja sitt arbete, och det
               har regeringen icke haft någon uppfattning om.
             </seg>
+          </u>
+          <note n="aa9e66ad">
+            Anf. 56 GUNNAR BJÖRK i Gävle (c):
+          </note>
+          <u who="gunhild_bolander_1f6357" xml:id="i-627af1dbecb6750c-23" prev="i-627af1dbecb6750c-3" n="077a3a8a">
             <seg n="e02d1632">
               Herr talman! Om regeringen hade haft en klar åsikt kunde den
               ju ha talat om att detta arbete skulle ske snabbt. Om jag kritiserar
               jordbruksministern för ointresse för sårbarhetsfrågorna, får den
               kritiken naturligtvis också drabba livsmedelskommittén.
             </seg>
+          </u>
+          <note n="48196619">
+            Anf. 57 Jordbruksminister SVANTE LUNDKVIST:
+          </note>
+          <u who="gunhild_bolander_1f6357" xml:id="i-627af1dbecb6750c-24" prev="i-627af1dbecb6750c-3" n="077a3a8a">
             <seg n="2a14f51b">
               Herr talman! Jag tror att det är helt fel, Gunnar Björk i Gävle,
               att tala om ointresse från regeringens eller livsmedelskommitténs
@@ -2713,7 +2891,20 @@
               Gunnar Björk att varken kommittén eller regeringen ser nonchalant
               på sårbarhetsfrågorna.
             </seg>
-            <seg n="80f385eb"/>
+          </u>
+          <note n="35a19ab3">
+            Överläggningen var härmed avslutad.
+          </note>
+          <pb n="33" facs="https://betalab.kb.se/prot-198384--61/prot_198384__61-033.jp2/_view"/>
+          <u who="gunhild_bolander_1f6357" xml:id="i-627af1dbecb6750c-25" prev="i-627af1dbecb6750c-3" n="077a3a8a"/>
+          <note n="d6efd650">
+            12 $ Svar på fråga 1983/84:254 om domänverkets avverkningar i
+            fjällnära skogsområden
+          </note>
+          <note n="cf1bbe28">
+            Anf. 58 Jordbruksminister SVANTE LUNDKVIST:
+          </note>
+          <u who="gunhild_bolander_1f6357" xml:id="i-627af1dbecb6750c-26" prev="i-627af1dbecb6750c-3" n="077a3a8a">
             <seg n="ffad6465">
               Herr talman! Kerstin Ekman har frågat om ett uttalande av mig
               i en tidningsintervju innebär att samerna nu kan lita på att domänverkets
@@ -2742,97 +2933,10 @@
               på renbete.
             </seg>
           </u>
-          <note n="35a19ab3">
-            Överläggningen var härmed avslutad.
-          </note>
-          <pb n="29" facs="https://betalab.kb.se/prot-198384--61/prot_198384__61-029.jp2/_view"/>
-          <note n="211eb5f5">
-            11 $ Svar på fråga 1983/84:219 om jordbrukets betydelse för folkförsörjningen
-          </note>
-          <note n="fbbbdd98">
-            Anf. 47 Jordbruksminister SVANTE LUNDKVIST:
-          </note>
-          <note n="e62cec4f">
-            Anf. 48 GUNNAR BJÖRK i Gävle (c):
-          </note>
-          <note n="8455b690">
-            Nr 61
-          </note>
-          <note n="46d36f3a">
-            Tisdagen den 17 januari 1984
-          </note>
-          <note n="8248aaec">
-            Om jordbrukets
-          </note>
-          <note n="bb8b4af9">
-            61
-          </note>
-          <pb n="30" facs="https://betalab.kb.se/prot-198384--61/prot_198384__61-030.jp2/_view"/>
-          <note n="8455b690">
-            Nr 61
-          </note>
-          <note n="46d36f3a">
-            Tisdagen den 17 januari 1984
-          </note>
-          <note n="8248aaec">
-            Om jordbrukets
-          </note>
-          <note n="03d31260">
-            62
-          </note>
-          <note n="379e64eb">
-            Anf. 49 Jordbruksminister SVANTE LUNDKVIST:
-          </note>
-          <pb n="31" facs="https://betalab.kb.se/prot-198384--61/prot_198384__61-031.jp2/_view"/>
-          <note n="3b1e1237">
-            Anf. 51 Jordbruksminister SVANTE LUNDKVIST:
-          </note>
-          <note n="f64221e9">
-            Anf. 52 GUNNAR BJÖRK i Gävle (c):
-          </note>
-          <note n="142de3d8">
-            Anf. 53 Jordbruksminister SVANTE LUNDKVIST:
-          </note>
-          <note n="8455b690">
-            Nr 61
-          </note>
-          <note n="46d36f3a">
-            Tisdagen den 17 januari 1984
-          </note>
-          <pb n="32" facs="https://betalab.kb.se/prot-198384--61/prot_198384__61-032.jp2/_view"/>
-          <note n="8455b690">
-            Nr 61
-          </note>
-          <note n="46d36f3a">
-            Tisdagen den 17 januari 1984
-          </note>
-          <note n="678ed42f">
-            Anf. 54 GUNNAR BJÖRK i Gävle (c):
-          </note>
-          <note n="b5831062">
-            Anf. 55 Jordbruksminister SVANTE LUNDKVIST:
-          </note>
-          <note n="aa9e66ad">
-            Anf. 56 GUNNAR BJÖRK i Gävle (c):
-          </note>
-          <note n="48196619">
-            Anf. 57 Jordbruksminister SVANTE LUNDKVIST:
-          </note>
-          <note n="35a19ab3">
-            Överläggningen var härmed avslutad.
-          </note>
-          <pb n="33" facs="https://betalab.kb.se/prot-198384--61/prot_198384__61-033.jp2/_view"/>
-          <note n="d6efd650">
-            12 $ Svar på fråga 1983/84:254 om domänverkets avverkningar i
-            fjällnära skogsområden
-          </note>
-          <note n="cf1bbe28">
-            Anf. 58 Jordbruksminister SVANTE LUNDKVIST:
-          </note>
           <note type="speaker" n="b5cd6096">
             Anf. 59 KERSTIN EKMAN (fp):
           </note>
-          <u who="kerstin_ekman_ca5d8a" xml:id="i-b9b421ff2561616c-2" next="i-d3b3e0532d047462-2" n="b6133fee">
+          <u who="kerstin_ekman_ca5d8a" xml:id="i-b6133feedcc0b75f-18" next="i-b6133feedcc0b75f-22" n="b6133fee">
             <seg n="5ef5521d">
               Herr talman! Jag tackar jordbruksministern för svaret. Däremot
               är jag inte nöjd med det svar jag har fått.
@@ -2873,20 +2977,37 @@
           <note n="8455b690">
             Nr 61
           </note>
-          <note n="46d36f3a">
+          <note type="date" n="dfe60d93">
             Tisdagen den 17 januari 1984
           </note>
           <note n="47ed902f">
             Om domänverkets
           </note>
-          <u who="kerstin_ekman_ca5d8a" xml:id="i-d3b3e0532d047462-2" prev="i-b9b421ff2561616c-2" n="b6133fee">
+          <u who="kerstin_ekman_ca5d8a" xml:id="i-b6133feedcc0b75f-19" prev="i-b6133feedcc0b75f-18" n="b6133fee">
             <seg n="2b64c627">
               avverkningar i fjällnära skogsområden
             </seg>
-            <seg n="80f385eb"/>
+          </u>
+          <note n="c9399d6b">
+            65
+          </note>
+          <pb n="34" facs="https://betalab.kb.se/prot-198384--61/prot_198384__61-034.jp2/_view"/>
+          <u who="kerstin_ekman_ca5d8a" xml:id="i-b6133feedcc0b75f-20" prev="i-b6133feedcc0b75f-18" n="b6133fee"/>
+          <note n="8455b690">
+            Nr 61
+          </note>
+          <note type="date" n="dfe60d93">
+            Tisdagen den 17 januari 1984
+          </note>
+          <u who="kerstin_ekman_ca5d8a" xml:id="i-b6133feedcc0b75f-21" prev="i-b6133feedcc0b75f-18" n="b6133fee">
             <seg n="ac58294b">
               Om domänverkets avverkningar i fjällnära skogsområden
             </seg>
+          </u>
+          <note n="1101007a">
+            66
+          </note>
+          <u who="kerstin_ekman_ca5d8a" xml:id="i-b6133feedcc0b75f-22" prev="i-b6133feedcc0b75f-18" n="b6133fee">
             <seg n="3a2409c1">
               om att man inte kan återkomma i området vara anledning att avstå.
             </seg>
@@ -2935,23 +3056,10 @@
               som gör sig gällande i detta sammanhang.
             </seg>
           </u>
-          <note n="c9399d6b">
-            65
-          </note>
-          <pb n="34" facs="https://betalab.kb.se/prot-198384--61/prot_198384__61-034.jp2/_view"/>
-          <note n="8455b690">
-            Nr 61
-          </note>
-          <note n="46d36f3a">
-            Tisdagen den 17 januari 1984
-          </note>
-          <note n="1101007a">
-            66
-          </note>
           <note type="speaker" n="91b84391">
             Anf. 61 KERSTIN EKMAN (fp):
           </note>
-          <u who="kerstin_ekman_ca5d8a" xml:id="i-b9b421ff2561616c-3" next="i-d3b3e0532d047462-3" n="b6133fee">
+          <u who="kerstin_ekman_ca5d8a" xml:id="i-b6133feedcc0b75f-23" next="i-b6133feedcc0b75f-25" n="b6133fee">
             <seg n="57321ee6">
               Herr talman! Jag tycker inte att jag har fel, när jag säger att
               man hade använt sig av den förändring av samrådsförfarandet som
@@ -2973,18 +3081,19 @@
               det som är huvudfrågan —inte vad som kommer att hända efter det
               att inventeringen är slutförd. Då
             </seg>
-            <seg n="80f385eb"/>
+          </u>
+          <pb n="35" facs="https://betalab.kb.se/prot-198384--61/prot_198384__61-035.jp2/_view"/>
+          <u who="kerstin_ekman_ca5d8a" xml:id="i-b6133feedcc0b75f-24" prev="i-b6133feedcc0b75f-23" n="b6133fee">
             <seg n="80f385eb"/>
             <seg n="61c8dccf">
               får vi verkligen hoppas att det blir skydd för det som är skyddsvärt.
               Men hur blir det fram till dess?
             </seg>
           </u>
-          <pb n="35" facs="https://betalab.kb.se/prot-198384--61/prot_198384__61-035.jp2/_view"/>
           <note n="1cb6f4d1">
             Anf. 62 Jordbruksminister SVANTE LUNDKVIST:
           </note>
-          <u who="kerstin_ekman_ca5d8a" xml:id="i-d3b3e0532d047462-3" prev="i-b9b421ff2561616c-3" n="b6133fee">
+          <u who="kerstin_ekman_ca5d8a" xml:id="i-b6133feedcc0b75f-25" prev="i-b6133feedcc0b75f-23" n="b6133fee">
             <seg n="f369af7d">
               Herr talman! Jag utgår ifrån att domänverket kommer att respektera
               de uttalanden som gjorts när det gäller de kontroversiella områdena
@@ -3008,7 +3117,7 @@
           <note type="speaker" n="a40cc3f0">
             Anf. 63 KERSTIN EKMAN (fp):
           </note>
-          <u who="kerstin_ekman_ca5d8a" xml:id="i-b9b421ff2561616c-4" next="i-d3b3e0532d047462-4" n="b6133fee">
+          <u who="kerstin_ekman_ca5d8a" xml:id="i-b6133feedcc0b75f-26" next="i-b6133feedcc0b75f-30" n="b6133fee">
             <seg n="9568c1e6">
               Herr talman! Helt klart delar jag jordbruksministerns uppfattning,
               att man skall försöka väga samman olika intressen. Av de motioner
@@ -3033,7 +3142,7 @@
           <note n="907e66d1">
             Anf. 64 Statsrådet ANITA GRADIN:
           </note>
-          <u who="kerstin_ekman_ca5d8a" xml:id="i-d3b3e0532d047462-4" prev="i-b9b421ff2561616c-4" n="b6133fee">
+          <u who="kerstin_ekman_ca5d8a" xml:id="i-b6133feedcc0b75f-27" prev="i-b6133feedcc0b75f-26" n="b6133fee">
             <seg n="9067ee0d">
               Herr talman! Bertil Måbrink har mot bakgrund av stridigheterna
               i Libanon och hotet mot de Al Fatah-anslutna palestinierna frågat
@@ -3048,8 +3157,35 @@
               de särskilda svårigheter som en viss grupp kan möta i detta land.
               Detta gäller givetvis även utvisningshotade palestinier,
             </seg>
-            <seg n="80f385eb"/>
-            <seg n="80f385eb"/>
+          </u>
+          <note n="8455b690">
+            Nr 61
+          </note>
+          <note type="date" n="dfe60d93">
+            Tisdagen den 17 januari 1984
+          </note>
+          <note n="bb21a1d1">
+            Om handläggningen av ärenden rörande utvisningshotade palestinier
+          </note>
+          <note n="9d079d53">
+            67
+          </note>
+          <u who="kerstin_ekman_ca5d8a" xml:id="i-b6133feedcc0b75f-28" prev="i-b6133feedcc0b75f-26" n="b6133fee"/>
+          <pb n="36" facs="https://betalab.kb.se/prot-198384--61/prot_198384__61-036.jp2/_view"/>
+          <u who="kerstin_ekman_ca5d8a" xml:id="i-b6133feedcc0b75f-29" prev="i-b6133feedcc0b75f-26" n="b6133fee"/>
+          <note n="8455b690">
+            Nr 61
+          </note>
+          <note type="date" n="dfe60d93">
+            Tisdagen den 17 januari 1984
+          </note>
+          <note n="bb21a1d1">
+            Om handläggningen av ärenden rörande utvisningshotade palestinier
+          </note>
+          <note n="c65e40cf">
+            68
+          </note>
+          <u who="kerstin_ekman_ca5d8a" xml:id="i-b6133feedcc0b75f-30" prev="i-b6133feedcc0b75f-26" n="b6133fee">
             <seg n="c432897b">
               oavsett om det är fråga om utvisning till Libanon eller till
               annat land. Det råder f. ö. sedan en tid tillbaka principiellt
@@ -3063,35 +3199,10 @@
               en särskilt utsatt ställning.
             </seg>
           </u>
-          <note n="8455b690">
-            Nr 61
-          </note>
-          <note n="46d36f3a">
-            Tisdagen den 17 januari 1984
-          </note>
-          <note n="bb21a1d1">
-            Om handläggningen av ärenden rörande utvisningshotade palestinier
-          </note>
-          <note n="9d079d53">
-            67
-          </note>
-          <pb n="36" facs="https://betalab.kb.se/prot-198384--61/prot_198384__61-036.jp2/_view"/>
-          <note n="8455b690">
-            Nr 61
-          </note>
-          <note n="46d36f3a">
-            Tisdagen den 17 januari 1984
-          </note>
-          <note n="bb21a1d1">
-            Om handläggningen av ärenden rörande utvisningshotade palestinier
-          </note>
-          <note n="c65e40cf">
-            68
-          </note>
           <note type="speaker" n="c99e3410">
             Anf. 65 BERTIL MÅBRINK (vpk):
           </note>
-          <u who="bertil_mabrink_b9c333" xml:id="i-57e3f57bf4b5a965-0" next="i-e8554c70569f9881-0" n="f542a399">
+          <u who="bertil_mabrink_b9c333" xml:id="i-f542a39987e85acf-0" next="i-f542a39987e85acf-2" n="f542a399">
             <seg n="642b9d23">
               Herr talman! Jag vill tacka statsrådet Gradin för svaret på min
               fråga.
@@ -3138,7 +3249,7 @@
           <note n="c8048056">
             Anf. 66 Statsrådet ANITA GRADIN:
           </note>
-          <u who="bertil_mabrink_b9c333" xml:id="i-e8554c70569f9881-0" prev="i-57e3f57bf4b5a965-0" n="f542a399">
+          <u who="bertil_mabrink_b9c333" xml:id="i-f542a39987e85acf-1" prev="i-f542a39987e85acf-0" n="f542a399">
             <seg n="f5aa4d38">
               Herr talman! Både Bertil Måbrink och jag är mycket väl medvetna
               om att den politiska situationen i Mellanöstern är bekymmersam.
@@ -3158,18 +3269,19 @@
               som mer generellt griper sig an den här människogruppens situation.
               Man har aktualiserat frågor om
             </seg>
-            <seg n="80f385eb"/>
+          </u>
+          <pb n="37" facs="https://betalab.kb.se/prot-198384--61/prot_198384__61-037.jp2/_view"/>
+          <u who="bertil_mabrink_b9c333" xml:id="i-f542a39987e85acf-2" prev="i-f542a39987e85acf-0" n="f542a399">
             <seg n="80f385eb"/>
             <seg n="9eefdd1f">
               detta i FN, hos flyktingkommissarien och även i andra sammanhang,
               för att kunna klara skyddet av palestinierna.
             </seg>
           </u>
-          <pb n="37" facs="https://betalab.kb.se/prot-198384--61/prot_198384__61-037.jp2/_view"/>
           <note type="speaker" n="aa066e6f">
             Anf. 67 BERTIL MÅBRINK (vpk):
           </note>
-          <u who="bertil_mabrink_b9c333" xml:id="i-57e3f57bf4b5a965-1" next="i-e8554c70569f9881-1" n="f542a399">
+          <u who="bertil_mabrink_b9c333" xml:id="i-f542a39987e85acf-3" next="i-f542a39987e85acf-4" n="f542a399">
             <seg n="3b5ab906">
               Herr talman! Beträffande det sista är jag helt överens med statsrådet,
               och på den punkten har jag ingen anledning att anklaga den svenska
@@ -3196,7 +3308,7 @@
           <note n="db3dc6ba">
             Anf. 68 Statsrådet ANITA GRADIN:
           </note>
-          <u who="bertil_mabrink_b9c333" xml:id="i-e8554c70569f9881-1" prev="i-57e3f57bf4b5a965-1" n="f542a399">
+          <u who="bertil_mabrink_b9c333" xml:id="i-f542a39987e85acf-4" prev="i-f542a39987e85acf-3" n="f542a399">
             <seg n="fa0e6a79">
               Herr talman! Bertil Måbrink vet att många palestinier har fått
               en fristad i Sverige. Det har skett mot bakgrund av att de har
@@ -3208,7 +3320,7 @@
           <note type="speaker" n="5efeae35">
             Anf. 69 BERTIL MÅBRINK (vpk):
           </note>
-          <u who="bertil_mabrink_b9c333" xml:id="i-57e3f57bf4b5a965-2" next="i-e8554c70569f9881-2" n="f542a399">
+          <u who="bertil_mabrink_b9c333" xml:id="i-f542a39987e85acf-5" next="i-f542a39987e85acf-11" n="f542a399">
             <seg n="8b23b8a9">
               Herr talman! Beslutet att man inte skall utvisa palestinier till
               exempelvis Libanon just nu tycker jag är bra. Man har gjort bedömningen
@@ -3229,7 +3341,7 @@
           <note n="93cfea37">
             Anf. 70 Statsrådet ANITA GRADIN:
           </note>
-          <u who="bertil_mabrink_b9c333" xml:id="i-e8554c70569f9881-2" prev="i-57e3f57bf4b5a965-2" n="f542a399">
+          <u who="bertil_mabrink_b9c333" xml:id="i-f542a39987e85acf-6" prev="i-f542a39987e85acf-5" n="f542a399">
             <seg n="01a39633">
               Herr talman! Karin Andersson har frågat mig vad det innebär att
               förkortningen ”ev.” placerats bakom den aviserade propositionen
@@ -3242,37 +3354,35 @@
               lämnade jag också i höstens allmänpolitiska debatt och i ett svar
               den 8 november till Kenth Skårvik.
             </seg>
-            <seg n="72539228">
-              Om aviserad proposition om svenskundervisning för invandrare
-            </seg>
-            <seg n="80f385eb"/>
-            <seg n="80f385eb"/>
-            <seg n="80f385eb"/>
-            <seg n="72539228">
-              Om aviserad proposition om svenskundervisning för invandrare
-            </seg>
-            <seg n="a075e504">
-              Jag kan försäkra Karin Andersson om att jag är lika angelägen
-              som hon och många andra om att förutsättningar skapas så att denna
-              proposition kan läggas fram så snart som möjligt.
-            </seg>
           </u>
           <note n="8455b690">
             Nr 61
           </note>
-          <note n="46d36f3a">
+          <note type="date" n="dfe60d93">
             Tisdagen den 17 januari 1984
           </note>
+          <u who="bertil_mabrink_b9c333" xml:id="i-f542a39987e85acf-7" prev="i-f542a39987e85acf-5" n="f542a399">
+            <seg n="72539228">
+              Om aviserad proposition om svenskundervisning för invandrare
+            </seg>
+          </u>
           <note n="7a9d0281">
             69
           </note>
+          <u who="bertil_mabrink_b9c333" xml:id="i-f542a39987e85acf-8" prev="i-f542a39987e85acf-5" n="f542a399"/>
           <pb n="38" facs="https://betalab.kb.se/prot-198384--61/prot_198384__61-038.jp2/_view"/>
+          <u who="bertil_mabrink_b9c333" xml:id="i-f542a39987e85acf-9" prev="i-f542a39987e85acf-5" n="f542a399"/>
           <note n="8455b690">
             Nr 61
           </note>
-          <note n="46d36f3a">
+          <note type="date" n="dfe60d93">
             Tisdagen den 17 januari 1984
           </note>
+          <u who="bertil_mabrink_b9c333" xml:id="i-f542a39987e85acf-10" prev="i-f542a39987e85acf-5" n="f542a399">
+            <seg n="72539228">
+              Om aviserad proposition om svenskundervisning för invandrare
+            </seg>
+          </u>
           <note n="a75ddf90">
             70
           </note>
@@ -3280,10 +3390,17 @@
             Formuleringen i propositionsförteckningen förklaras av att propositionen
             måste föregås av överläggningar med bl. a. Svenska kommunförbundet.
           </note>
+          <u who="bertil_mabrink_b9c333" xml:id="i-f542a39987e85acf-11" prev="i-f542a39987e85acf-5" n="f542a399">
+            <seg n="a075e504">
+              Jag kan försäkra Karin Andersson om att jag är lika angelägen
+              som hon och många andra om att förutsättningar skapas så att denna
+              proposition kan läggas fram så snart som möjligt.
+            </seg>
+          </u>
           <note type="speaker" n="84892a44">
             Anf. 71 KARIN ANDERSSON (c):
           </note>
-          <u who="karin_andersson_a2ec10" xml:id="i-adac2dd087941b0f-0" next="i-fa1367add7e81f14-0" n="0f72e157">
+          <u who="karin_andersson_a2ec10" xml:id="i-0f72e1578d1b6d53-0" next="i-0f72e1578d1b6d53-3" n="0f72e157">
             <seg n="4f3d0c1e">
               Herr talman! Jag skall be att få tacka för svaret. Jag tycker
               att det var angeläget att få frågan klarlagd innan motionstiden
@@ -3301,7 +3418,7 @@
           <note n="ac860a44">
             I den debatt vi hade den 20 oktober sade Anita Gradin så här:
           </note>
-          <u who="karin_andersson_a2ec10" xml:id="i-fa1367add7e81f14-0" prev="i-adac2dd087941b0f-0" n="0f72e157">
+          <u who="karin_andersson_a2ec10" xml:id="i-0f72e1578d1b6d53-1" prev="i-0f72e1578d1b6d53-0" n="0f72e157">
             <seg n="58bb29e9">
               ”Svenskundervisning för invandrare är en sak som måste tas upp
               i årets budgetarbete. Därför kommer propositionen först på andra
@@ -3326,6 +3443,11 @@
               slipper ta upp denna fråga ytterligare i riksdagen: Kommer propositionen
               i maj eller är det bara siktet som är inställt på maj?
             </seg>
+          </u>
+          <note n="6a128ac8">
+            Anf. 72 Statsrådet ANITA GRADIN:
+          </note>
+          <u who="karin_andersson_a2ec10" xml:id="i-0f72e1578d1b6d53-2" prev="i-0f72e1578d1b6d53-0" n="0f72e157">
             <seg n="c2195619">
               Herr talman! Precis som jag sade i höstas har såväl propositionerna
               om svenska för invandrare som om flyktingmottagande liksom även
@@ -3344,21 +3466,19 @@
               kan klara överläggningarna med Kommunförbundet kommer saken i
               ett annat läge.
             </seg>
-            <seg n="80f385eb"/>
+          </u>
+          <pb n="39" facs="https://betalab.kb.se/prot-198384--61/prot_198384__61-039.jp2/_view"/>
+          <u who="karin_andersson_a2ec10" xml:id="i-0f72e1578d1b6d53-3" prev="i-0f72e1578d1b6d53-0" n="0f72e157">
             <seg n="80f385eb"/>
             <seg n="8af7548f">
               Men som jag ser det i dag har jag goda förhoppningar att komma
               sams med Kommunförbundet.
             </seg>
           </u>
-          <note n="6a128ac8">
-            Anf. 72 Statsrådet ANITA GRADIN:
-          </note>
-          <pb n="39" facs="https://betalab.kb.se/prot-198384--61/prot_198384__61-039.jp2/_view"/>
           <note type="speaker" n="3be4e235">
             Anf. 73 KARIN ANDERSSON (c):
           </note>
-          <u who="karin_andersson_a2ec10" xml:id="i-adac2dd087941b0f-1" next="i-fa1367add7e81f14-1" n="0f72e157">
+          <u who="karin_andersson_a2ec10" xml:id="i-0f72e1578d1b6d53-4" next="i-0f72e1578d1b6d53-17" n="0f72e157">
             <seg n="58fa2b80">
               Herr talman! Det låter faktiskt ganska oroväckande att regeringen
               inte kan vara helt säker på att den skall klara de överläggningar
@@ -3416,49 +3536,24 @@
           <note n="8455b690">
             Nr 61
           </note>
-          <note n="46d36f3a">
+          <note type="date" n="dfe60d93">
             Tisdagen den 17 januari 1984
           </note>
-          <u who="karin_andersson_a2ec10" xml:id="i-fa1367add7e81f14-1" prev="i-adac2dd087941b0f-1" n="0f72e157">
+          <u who="karin_andersson_a2ec10" xml:id="i-0f72e1578d1b6d53-5" prev="i-0f72e1578d1b6d53-4" n="0f72e157">
             <seg n="72539228">
               Om aviserad proposition om svenskundervisning för invandrare
             </seg>
-            <seg n="80f385eb"/>
-            <seg n="80f385eb"/>
-            <seg n="ae7acbd5">
-              En planmässig utbyggnad av den offentliga sektorn 1983/84:476
-              av Anita Bråkenhielm och Blenda Littmarck Sänkt skogsvårdsavgift
-            </seg>
-            <seg n="8122ab6c">
-              Användning av allmän investeringsfond i kombination med avskrivningslån
-              från överstyrelsen för ekonomiskt försvar
-            </seg>
-            <seg n="bc2a253c">
-              1983/84:484 av Rune Torwald och Jan Hyttring Ökad samåkning med
-              bil mellan bostad och arbetsplats
-            </seg>
-            <seg n="80f385eb"/>
-            <seg n="80f385eb"/>
-            <seg n="b24bb01a">
-              Intagningen till påbyggnadslinjer inom kommunal högskoleutbildning
-            </seg>
-            <seg n="80f385eb"/>
-            <seg n="80f385eb"/>
-            <seg n="80f385eb"/>
-            <seg n="7d00ed91">
-              Petersson, Per (m) 84, 85
-            </seg>
-            <seg n="80f385eb"/>
-            <seg n="80f385eb"/>
           </u>
           <note n="aea66d27">
             7
           </note>
+          <u who="karin_andersson_a2ec10" xml:id="i-0f72e1578d1b6d53-6" prev="i-0f72e1578d1b6d53-4" n="0f72e157"/>
           <pb n="40" facs="https://betalab.kb.se/prot-198384--61/prot_198384__61-040.jp2/_view"/>
+          <u who="karin_andersson_a2ec10" xml:id="i-0f72e1578d1b6d53-7" prev="i-0f72e1578d1b6d53-4" n="0f72e157"/>
           <note n="8455b690">
             Nr 61
           </note>
-          <note n="46d36f3a">
+          <note type="date" n="dfe60d93">
             Tisdagen den 17 januari 1984
           </note>
           <note n="fae2153b">
@@ -3492,9 +3587,21 @@
           <note n="c636e87c">
             1983/84:475 av Lars Werner m. fl.
           </note>
+          <u who="karin_andersson_a2ec10" xml:id="i-0f72e1578d1b6d53-8" prev="i-0f72e1578d1b6d53-4" n="0f72e157">
+            <seg n="ae7acbd5">
+              En planmässig utbyggnad av den offentliga sektorn 1983/84:476
+              av Anita Bråkenhielm och Blenda Littmarck Sänkt skogsvårdsavgift
+            </seg>
+          </u>
           <note n="d56e26da">
             1983/84:477 av Christer Eirefelt och Karin Ahrland
           </note>
+          <u who="karin_andersson_a2ec10" xml:id="i-0f72e1578d1b6d53-9" prev="i-0f72e1578d1b6d53-4" n="0f72e157">
+            <seg n="8122ab6c">
+              Användning av allmän investeringsfond i kombination med avskrivningslån
+              från överstyrelsen för ekonomiskt försvar
+            </seg>
+          </u>
           <note n="9c9e897b">
             1983/84:478 av Allan Ekström Utlandsanställdas villkor, m. m.
           </note>
@@ -3516,11 +3623,20 @@
             1983/84:483 av Rune Torwald och Jan Hyttring Kontrolluppgifter
             rörande traktamentsersättning m. m.
           </note>
+          <u who="karin_andersson_a2ec10" xml:id="i-0f72e1578d1b6d53-10" prev="i-0f72e1578d1b6d53-4" n="0f72e157">
+            <seg n="bc2a253c">
+              1983/84:484 av Rune Torwald och Jan Hyttring Ökad samåkning med
+              bil mellan bostad och arbetsplats
+            </seg>
+          </u>
           <note n="a62ccd45">
             1983/84:485 av Allan Ekström Upphävande av institutet villkorlig
             frigivning
           </note>
           <pb n="41" facs="https://betalab.kb.se/prot-198384--61/prot_198384__61-041.jp2/_view"/>
+          <u who="karin_andersson_a2ec10" xml:id="i-0f72e1578d1b6d53-11" prev="i-0f72e1578d1b6d53-4" n="0f72e157">
+            <seg n="80f385eb"/>
+          </u>
           <note n="2c294749">
             1983/84:486 av Margareta Persson Vårdprogram för män som dömts
             för våldtäkt m. m.
@@ -3570,6 +3686,11 @@
           <note n="3886387e">
             1983/84:498 av Gullan Lindblad och Siri Häggmark
           </note>
+          <u who="karin_andersson_a2ec10" xml:id="i-0f72e1578d1b6d53-12" prev="i-0f72e1578d1b6d53-4" n="0f72e157">
+            <seg n="b24bb01a">
+              Intagningen till påbyggnadslinjer inom kommunal högskoleutbildning
+            </seg>
+          </u>
           <note n="bc232942">
             1983/84:499 av Jan-Erik Wikström m. fl. Vuxenutbildningen
           </note>
@@ -3589,7 +3710,7 @@
           <note n="8455b690">
             Nr 61
           </note>
-          <note n="46d36f3a">
+          <note type="date" n="dfe60d93">
             Tisdagen den 17 januari 1984
           </note>
           <note n="1b810f64">
@@ -3599,7 +3720,7 @@
           <note n="8455b690">
             Nr 61
           </note>
-          <note n="46d36f3a">
+          <note type="date" n="dfe60d93">
             Tisdagen den 17 januari 1984
           </note>
           <note n="46be0720">
@@ -3663,6 +3784,9 @@
             /Solveig Gemert
           </note>
           <pb n="43" facs="https://betalab.kb.se/prot-198384--61/prot_198384__61-043.jp2/_view"/>
+          <u who="karin_andersson_a2ec10" xml:id="i-0f72e1578d1b6d53-13" prev="i-0f72e1578d1b6d53-4" n="0f72e157">
+            <seg n="80f385eb"/>
+          </u>
           <note n="5a6904cf">
             Förteckning över talare 1983/84 (Siffrorna avser sida i protokollen)
             59-63
@@ -3774,6 +3898,7 @@
             Hjelm-Wallén, Lena, utbildningsminister 99, 100, 101, 103 153
           </note>
           <pb n="44" facs="https://betalab.kb.se/prot-198384--61/prot_198384__61-044.jp2/_view"/>
+          <u who="karin_andersson_a2ec10" xml:id="i-0f72e1578d1b6d53-14" prev="i-0f72e1578d1b6d53-4" n="0f72e157"/>
           <note n="7aa122c3">
             1983/84 59-63
           </note>
@@ -3805,6 +3930,11 @@
           <note n="52eda945">
             Molin, Björn (fp) 131, 132, 133, 134
           </note>
+          <u who="karin_andersson_a2ec10" xml:id="i-0f72e1578d1b6d53-15" prev="i-0f72e1578d1b6d53-4" n="0f72e157">
+            <seg n="7d00ed91">
+              Petersson, Per (m) 84, 85
+            </seg>
+          </u>
           <note n="b2883b84">
             Sigurdsen, Gertrud, statsråd 104, 106, 113, 118
           </note>
@@ -3824,7 +3954,9 @@
             Wickbom, Sten, justitieminister 126, 128, 130, 132, 133, 134,
             139
           </note>
+          <u who="karin_andersson_a2ec10" xml:id="i-0f72e1578d1b6d53-16" prev="i-0f72e1578d1b6d53-4" n="0f72e157"/>
           <pb n="46" facs="https://betalab.kb.se/prot-198384--61/prot_198384__61-046.jp2/_view"/>
+          <u who="karin_andersson_a2ec10" xml:id="i-0f72e1578d1b6d53-17" prev="i-0f72e1578d1b6d53-4" n="0f72e157"/>
           <note n="11fbc0ac">
             minab/gotab Stockholm 1984 77769
           </note>

@@ -20,7 +20,7 @@
     <encodingDesc>
       <editorialDecl>
         <correction>
-          <p>Some data curation was done. It is documented in db/curation/instances</p>
+          <p>Some data curation was done. It is documented in input/curation/instances</p>
         </correction>
       </editorialDecl>
     </encodingDesc>
@@ -57,10 +57,12 @@
           <docDate when="1979-02-13">1979-02-13</docDate>
           <docDate when="1979-02-14">1979-02-14</docDate>
           <docDate when="1979-02-15">1979-02-15</docDate>
+          <docDate when="1980-02-13">1980-02-13</docDate>
         </div>
       </front>
       <body>
         <div>
+          <pb n="0" facs="https://betalab.kb.se/prot-197980--84/prot_197980__84-000.jp2/_view"/>
           <note n="9da2f18b"/>
           <note n="bcc8b6de">
             Riksdagens protokoll
@@ -69,7 +71,7 @@
             1979/80:82-86 11-15 februari 1980
           </note>
           <note n="9da2f18b"/>
-          <note n="eeac2196">
+          <note type="date" n="59d844bf">
             Debatter m. m. Måndagen den 11 februari
           </note>
           <note n="df780d55">
@@ -513,7 +515,7 @@
           <note n="5ef3dd04">
             1979/80:84
           </note>
-          <note n="afb81c96">
+          <note type="date" n="c4df00f0">
             Onsdagen den 13 februari Kl. 10.00
           </note>
           <note n="e22a6180">
@@ -580,7 +582,7 @@
           <note n="982dcab7">
             Nr 84
           </note>
-          <note n="1abb1fdb">
+          <note type="date" n="2e60699b">
             Onsdagen den 13 februari 1980
           </note>
           <note n="ac2b7d93">
@@ -596,7 +598,7 @@
           <note n="982dcab7">
             Nr 84
           </note>
-          <note n="1abb1fdb">
+          <note type="date" n="2e60699b">
             Onsdagen den 13 februari 1980
           </note>
           <note n="24cec3cc">
@@ -669,13 +671,13 @@
           <note type="speaker" n="bf7e5941">
             AXEL ANDERSSON (s):
           </note>
-          <u who="axel_andersson_6abffa" xml:id="i-50705cfe6be2c926-0" next="i-f7a420eccfe2beaa-0" n="ffe53604"/>
+          <u who="axel_andersson_6abffa" xml:id="i-ffe536043704b1c8-0" next="i-ffe536043704b1c8-3" n="ffe53604"/>
           <note n="1d37d21b">
             Fru talman! Tillsammans med några andra ledamöter av denna kammare
             har jag i motion nr 977 till 1978/79 års riksmöte föreslagit att
             de kungliga privilegierna avseende jakt skall upphävas.
           </note>
-          <u who="axel_andersson_6abffa" xml:id="i-f7a420eccfe2beaa-0" prev="i-50705cfe6be2c926-0" n="ffe53604">
+          <u who="axel_andersson_6abffa" xml:id="i-ffe536043704b1c8-1" prev="i-ffe536043704b1c8-0" n="ffe53604">
             <seg n="01e42a37">
               Bakgrunden till vår begäran är den mer än 400 år gamla rätten
               för kungen att fritt bedriva jakt på kronans marker. Naturligtvis
@@ -683,6 +685,13 @@
               kungliga förmån som sedan seglivat övervintrat och klarat sig
               undan, trots demokratins landvinningar i övrigt.
             </seg>
+          </u>
+          <note n="c6c97a0b">
+            Så småningom utvidgades rätten till jakt att omfatta alla jordägande.
+            I mitten på 1800-talet uppluckrades även den bindningen, då olika
+            arrendeformer började tillämpas.
+          </note>
+          <u who="axel_andersson_6abffa" xml:id="i-ffe536043704b1c8-2" prev="i-ffe536043704b1c8-0" n="ffe53604">
             <seg n="782376e1">
               Den här utvecklingen har lett till att jakten i dag till mycket
               stor del sker på arrenderade marker. Detta har gjort det möjligt
@@ -693,6 +702,9 @@
               betalas årligen in till staten i form av arrenden,
             </seg>
             <seg n="5f77d632"/>
+          </u>
+          <pb n="7" facs="https://betalab.kb.se/prot-197980--84/prot_197980__84-007.jp2/_view"/>
+          <u who="axel_andersson_6abffa" xml:id="i-ffe536043704b1c8-3" prev="i-ffe536043704b1c8-0" n="ffe53604">
             <seg n="5b7199c0">
               fällavgifter och jaktvårdsavgifter. Men kungen jagar fritt.
             </seg>
@@ -750,16 +762,10 @@
               det yrkande som kommer att framställas.
             </seg>
           </u>
-          <note n="c6c97a0b">
-            Så småningom utvidgades rätten till jakt att omfatta alla jordägande.
-            I mitten på 1800-talet uppluckrades även den bindningen, då olika
-            arrendeformer började tillämpas.
-          </note>
-          <pb n="7" facs="https://betalab.kb.se/prot-197980--84/prot_197980__84-007.jp2/_view"/>
           <note type="speaker" n="438bc687">
             JOHN ANDERSSON (vpk):
           </note>
-          <u who="john_andersson_5b64c4" xml:id="i-6474fee9ee52091a-0" next="i-85ba3382c1b6cf3b-0" n="076b0e68">
+          <u who="john_andersson_5b64c4" xml:id="i-076b0e68633cbca5-0" next="i-076b0e68633cbca5-6" n="076b0e68">
             <seg n="a251f96b">
               Fru talman! Detta betänkande från jordbruksutskottet berör några
               motioner om bl. a. jakt och viltvård. Dessa motioner tar upp vitt
@@ -776,17 +782,40 @@
           <note n="982dcab7">
             Nr 84
           </note>
-          <note n="1abb1fdb">
+          <note type="date" n="2e60699b">
             Onsdagen den 13 februari 1980
           </note>
-          <u who="john_andersson_5b64c4" xml:id="i-85ba3382c1b6cf3b-0" prev="i-6474fee9ee52091a-0" n="076b0e68">
+          <u who="john_andersson_5b64c4" xml:id="i-076b0e68633cbca5-1" prev="i-076b0e68633cbca5-0" n="076b0e68">
             <seg n="f3a43610">
               De kungliga privilegierna vid jakt
             </seg>
-            <seg n="5f77d632"/>
+          </u>
+          <note n="895cff93">
+            47
+          </note>
+          <pb n="8" facs="https://betalab.kb.se/prot-197980--84/prot_197980__84-008.jp2/_view"/>
+          <u who="john_andersson_5b64c4" xml:id="i-076b0e68633cbca5-2" prev="i-076b0e68633cbca5-0" n="076b0e68"/>
+          <note n="982dcab7">
+            Nr 84
+          </note>
+          <note type="date" n="2e60699b">
+            Onsdagen den 13 februari 1980
+          </note>
+          <note n="24cec3cc">
+            De kungliga pri-
+          </note>
+          <u who="john_andersson_5b64c4" xml:id="i-076b0e68633cbca5-3" prev="i-076b0e68633cbca5-0" n="076b0e68">
             <seg n="30fb51db">
               vilegierna vid jakt
             </seg>
+          </u>
+          <note n="35ef129d">
+            48
+          </note>
+          <note n="3305b3b8">
+            kungliga privilegiet avseende jakt.
+          </note>
+          <u who="john_andersson_5b64c4" xml:id="i-076b0e68633cbca5-4" prev="i-076b0e68633cbca5-0" n="076b0e68">
             <seg n="ec88e252">
               Jag delar helt motionärernas uppfattning på den punkten. Deras
               historieskrivning finns det kanske en del att invända mot. Den
@@ -849,34 +878,15 @@
               fråga om en lagändring — har jag framställt ett särskilt yrkande,
               som lyder:
             </seg>
-            <seg n="5f77d632"/>
-            <seg n="5f77d632"/>
           </u>
-          <note n="895cff93">
-            47
-          </note>
-          <pb n="8" facs="https://betalab.kb.se/prot-197980--84/prot_197980__84-008.jp2/_view"/>
-          <note n="982dcab7">
-            Nr 84
-          </note>
-          <note n="1abb1fdb">
-            Onsdagen den 13 februari 1980
-          </note>
-          <note n="24cec3cc">
-            De kungliga pri-
-          </note>
-          <note n="35ef129d">
-            48
-          </note>
-          <note n="3305b3b8">
-            kungliga privilegiet avseende jakt.
-          </note>
           <note n="63fdd64c">
             att riksdagen med anledning av motion 1978/79:977 av Axel Andersson
             m. fl. (s) hos regeringen anhåller om förslag till lagändring
             av innebörd att
           </note>
+          <u who="john_andersson_5b64c4" xml:id="i-076b0e68633cbca5-5" prev="i-076b0e68633cbca5-0" n="076b0e68"/>
           <pb n="9" facs="https://betalab.kb.se/prot-197980--84/prot_197980__84-009.jp2/_view"/>
+          <u who="john_andersson_5b64c4" xml:id="i-076b0e68633cbca5-6" prev="i-076b0e68633cbca5-0" n="076b0e68"/>
           <note n="d3f13740">
             det kungliga privilegiet avseende jakt upphävs. Fru talman! Jag
             yrkar härmed bifall till detta särskilda yrkande.
@@ -884,7 +894,7 @@
           <note type="speaker" n="64895adf">
             EINAR LARSSON (c):
           </note>
-          <u who="einar_larsson_a0734a" xml:id="i-4ae87655b1d56546-0" n="1a45b14f">
+          <u who="einar_larsson_a0734a" xml:id="i-1a45b14f41daa9c7-0" n="1a45b14f">
             <seg n="74c96139">
               Fru talman! Utskottets enhälliga bedömning av alla dessa med
               jakt sammanhörande frågor har varit att man inte nu bör gå in
@@ -901,7 +911,7 @@
           <note type="speaker" n="bf7e5941">
             AXEL ANDERSSON (s):
           </note>
-          <u who="axel_andersson_6abffa" xml:id="i-864da1a0d45075f4-0" n="ffe53604">
+          <u who="axel_andersson_6abffa" xml:id="i-ffe536043704b1c8-4" n="ffe53604">
             <seg n="968ad9fb">
               Fru talman! Utskottets talesman var föredömligt kortfattad i
               sitt anförande. Något annat var inte heller att vänta — det stämmer
@@ -920,7 +930,7 @@
           <note type="speaker" n="9b09bdd0">
             EINAR LARSSON (c) replik:
           </note>
-          <u who="einar_larsson_a0734a" xml:id="i-4ae87655b1d56546-1" n="1a45b14f">
+          <u who="einar_larsson_a0734a" xml:id="i-1a45b14f41daa9c7-1" n="1a45b14f">
             <seg n="842a9c31">
               Fru talman! Det är ju, Axel Andersson, vanligt att i alla sådana
               här sammanhang, sedan regeringen i sina direktiv till utredningsarbetet
@@ -937,7 +947,7 @@
           <note type="speaker" n="22804546">
             HANS WACHTMEISTER (m):
           </note>
-          <u who="hans_wachtmeister_1ebbfb" xml:id="i-8ce25106df2882e9-0" next="i-5fd83e13addebb2a-0" n="5fb63951">
+          <u who="hans_wachtmeister_1ebbfb" xml:id="i-5fb6395170e3cba0-0" next="i-5fb6395170e3cba0-3" n="5fb63951">
             <seg n="b356ea92">
               Fru talman! Jag tror att det med anledning av den förda debatten
               behöver göras några förtydliganden. Jag tycker att det är ett
@@ -962,16 +972,36 @@
           <note n="982dcab7">
             Nr 84
           </note>
-          <note n="1abb1fdb">
+          <note type="date" n="2e60699b">
             Onsdagen den 13 februari 1980
           </note>
-          <u who="hans_wachtmeister_1ebbfb" xml:id="i-5fd83e13addebb2a-0" prev="i-8ce25106df2882e9-0" n="5fb63951">
+          <u who="hans_wachtmeister_1ebbfb" xml:id="i-5fb6395170e3cba0-1" prev="i-5fb6395170e3cba0-0" n="5fb63951">
             <seg n="f3a43610">
               De kungliga privilegierna vid jakt
             </seg>
+          </u>
+          <note n="e21741bc">
+            49
+          </note>
+          <pb n="10" facs="https://betalab.kb.se/prot-197980--84/prot_197980__84-010.jp2/_view"/>
+          <note n="982dcab7">
+            Nr 84
+          </note>
+          <note type="date" n="2e60699b">
+            Onsdagen den 13 februari 1980
+          </note>
+          <note n="24cec3cc">
+            De kungliga pri-
+          </note>
+          <u who="hans_wachtmeister_1ebbfb" xml:id="i-5fb6395170e3cba0-2" prev="i-5fb6395170e3cba0-0" n="5fb63951">
             <seg n="30fb51db">
               vilegierna vid jakt
             </seg>
+          </u>
+          <note n="5841d0ed">
+            50
+          </note>
+          <u who="hans_wachtmeister_1ebbfb" xml:id="i-5fb6395170e3cba0-3" prev="i-5fb6395170e3cba0-0" n="5fb63951">
             <seg n="bdfcb223">
               skyttar och vana jägare.
             </seg>
@@ -1015,26 +1045,10 @@
               utskottets hemställan.
             </seg>
           </u>
-          <note n="e21741bc">
-            49
-          </note>
-          <pb n="10" facs="https://betalab.kb.se/prot-197980--84/prot_197980__84-010.jp2/_view"/>
-          <note n="982dcab7">
-            Nr 84
-          </note>
-          <note n="1abb1fdb">
-            Onsdagen den 13 februari 1980
-          </note>
-          <note n="24cec3cc">
-            De kungliga pri-
-          </note>
-          <note n="5841d0ed">
-            50
-          </note>
           <note type="speaker" n="0a013bb6">
             AXEL ANDERSSON (s) replik:
           </note>
-          <u who="axel_andersson_6abffa" xml:id="i-864da1a0d45075f4-1" n="ffe53604">
+          <u who="axel_andersson_6abffa" xml:id="i-ffe536043704b1c8-5" next="i-ffe536043704b1c8-6" n="ffe53604">
             <seg n="97538f1f">
               Fru talman! Ordets makt över tanken talade herr Wachtmeister
               om. Och det är klart att jag känner mig till freds när jag med
@@ -1059,7 +1073,9 @@
             </seg>
             <seg n="5f77d632"/>
             <seg n="5f77d632"/>
-            <seg n="5f77d632"/>
+          </u>
+          <pb n="11" facs="https://betalab.kb.se/prot-197980--84/prot_197980__84-011.jp2/_view"/>
+          <u who="axel_andersson_6abffa" xml:id="i-ffe536043704b1c8-6" prev="i-ffe536043704b1c8-5" n="ffe53604">
             <seg n="afd7c9b7">
               Sedan säger herr Wachtmeister att det här inte är någon stor
               fråga, utan en liten. Men principiellt är det en mycket viktig
@@ -1084,11 +1100,10 @@
               betala sin jakt. Sedan får han bjuda in vem han vill.
             </seg>
           </u>
-          <pb n="11" facs="https://betalab.kb.se/prot-197980--84/prot_197980__84-011.jp2/_view"/>
           <note type="speaker" n="c7750705">
             HANS WACHTMEISTER (m) replik:
           </note>
-          <u who="hans_wachtmeister_1ebbfb" xml:id="i-5b59f66632c98932-0" n="5fb63951">
+          <u who="hans_wachtmeister_1ebbfb" xml:id="i-5fb6395170e3cba0-4" n="5fb63951">
             <seg n="b2b3b6b2">
               Fru talman! Det förefaller som om det fortfarande finns några
               missuppfattningar om att man vartenda år skulle jaga på de kronoparker
@@ -1108,7 +1123,7 @@
           <note type="speaker" n="0a013bb6">
             AXEL ANDERSSON (s) replik:
           </note>
-          <u who="axel_andersson_6abffa" xml:id="i-50705cfe6be2c926-1" next="i-f7a420eccfe2beaa-1" n="ffe53604">
+          <u who="axel_andersson_6abffa" xml:id="i-ffe536043704b1c8-7" next="i-ffe536043704b1c8-10" n="ffe53604">
             <seg n="f4415e5f">
               Fru talman! Det blir ännu värre, höll jag på att säga, med den
               upplysning som herr Wachtmeister nyss lämnade — att markerna inte
@@ -1134,38 +1149,40 @@
           <note n="982dcab7">
             Nr 84
           </note>
-          <note n="1abb1fdb">
+          <note type="date" n="2e60699b">
             Onsdagen den 13 februari 1980
           </note>
           <note n="24cec3cc">
             De kungliga pri-
           </note>
-          <u who="axel_andersson_6abffa" xml:id="i-f7a420eccfe2beaa-1" prev="i-50705cfe6be2c926-1" n="ffe53604">
+          <u who="axel_andersson_6abffa" xml:id="i-ffe536043704b1c8-8" prev="i-ffe536043704b1c8-7" n="ffe53604">
             <seg n="30fb51db">
               vilegierna vid jakt
-            </seg>
-            <seg n="5f77d632"/>
-            <seg n="f3a43610">
-              De kungliga privilegierna vid jakt
             </seg>
           </u>
           <note n="acaf2f14">
             51
           </note>
           <pb n="12" facs="https://betalab.kb.se/prot-197980--84/prot_197980__84-012.jp2/_view"/>
+          <u who="axel_andersson_6abffa" xml:id="i-ffe536043704b1c8-9" prev="i-ffe536043704b1c8-7" n="ffe53604"/>
           <note n="982dcab7">
             Nr 84
           </note>
-          <note n="1abb1fdb">
+          <note type="date" n="2e60699b">
             Onsdagen den 13 februari 1980
           </note>
+          <u who="axel_andersson_6abffa" xml:id="i-ffe536043704b1c8-10" prev="i-ffe536043704b1c8-7" n="ffe53604">
+            <seg n="f3a43610">
+              De kungliga privilegierna vid jakt
+            </seg>
+          </u>
           <note n="1004b4ba">
             2
           </note>
           <note type="speaker" n="c7750705">
             HANS WACHTMEISTER (m) replik:
           </note>
-          <u who="hans_wachtmeister_1ebbfb" xml:id="i-5b59f66632c98932-1" n="5fb63951">
+          <u who="hans_wachtmeister_1ebbfb" xml:id="i-5fb6395170e3cba0-5" n="5fb63951">
             <seg n="442122ec">
               Fru talman! Den -milsvida skillnaden kanske beror på att jag
               som företagare har erfarenhet av vad representationsjakt kan betyda.
@@ -1175,7 +1192,7 @@
           <note type="speaker" n="438bc687">
             JOHN ANDERSSON (vpk):
           </note>
-          <u who="john_andersson_5b64c4" xml:id="i-6474fee9ee52091a-1" next="i-85ba3382c1b6cf3b-1" n="076b0e68">
+          <u who="john_andersson_5b64c4" xml:id="i-076b0e68633cbca5-7" next="i-076b0e68633cbca5-11" n="076b0e68">
             <seg n="7d39e4ad">
               Fru talman! Först till frågan om att hänskjuta denna motion till
               utredning. Det finns enligt min mening ingen anledning att utreda
@@ -1210,7 +1227,7 @@
             Den som vill att kammaren bifaller jordbruksutskottets hemställan
             i betänkande 24 mom. 1 röstar ja,
           </note>
-          <u who="john_andersson_5b64c4" xml:id="i-85ba3382c1b6cf3b-1" prev="i-6474fee9ee52091a-1" n="076b0e68">
+          <u who="john_andersson_5b64c4" xml:id="i-076b0e68633cbca5-8" prev="i-076b0e68633cbca5-7" n="076b0e68">
             <seg n="4cdcd312">
               den det ej vill röstar nej.
             </seg>
@@ -1218,7 +1235,63 @@
               Vinner nej har kammaren bifallit det av John Andersson under
               överläggningen framställda yrkandet.
             </seg>
-            <seg n="5f77d632"/>
+          </u>
+          <note n="422fb153">
+            Vid omröstning genom uppresning förklarades flertalet av kammarens
+            ledamöter ha röstat för ja-propositionen. Då John Andersson begärde
+            rösträkning verkställdes votering med omröstningsapparat. Denna
+            omröstning gav följande resultat:
+          </note>
+          <note n="14fedcce">
+            Ja — 276 Nej —- 37 Avstår — 3
+          </note>
+          <note n="bc9e357d">
+            Mom. 2-6 Kammaren biföll vad utskottet i dessa moment hemställt.
+          </note>
+          <note n="335aa259">
+            $ 6 Föredrogs
+          </note>
+          <note n="43532cd2">
+            Jordbruksutskottets betänkanden
+          </note>
+          <note n="03c4b7f6">
+            1979/80:26 med anledning av motion om svensk text på importerade
+            livsmedelskonserver
+          </note>
+          <u who="john_andersson_5b64c4" xml:id="i-076b0e68633cbca5-9" prev="i-076b0e68633cbca5-7" n="076b0e68"/>
+          <pb n="13" facs="https://betalab.kb.se/prot-197980--84/prot_197980__84-013.jp2/_view"/>
+          <note n="9ff754c7">
+            1979/80:27 med anledning av motioner om en landskapsplan för
+            Skåne, m.m.
+          </note>
+          <note n="b3c6083e">
+            Kammaren biföll vad utskottet i dessa betänkanden hemställt.
+          </note>
+          <note n="fa1c243e">
+            $ 7 Kontokort
+          </note>
+          <note n="3129a116">
+            Föredrogs näringsutskottets betänkande 1979/80:27 med anledning
+            av motioner om kontokort.
+          </note>
+          <note n="c827d54a">
+            Riksdagens beslut den 18 december 1979 att hos regeringen begära
+            en övergripande utredning på kontokortsområdet låg till grund
+            för motionerna
+          </note>
+          <note n="3a76ce1b">
+            1979/80:216 av Lars Werner m. fl. (vpk), vari hemställts att
+            riksdagen hos regeringen begärde att i motionen angivna ståndpunkter
+            skulle ligga till grund för den kommande utredningens arbete och
+          </note>
+          <note n="7c9e2c45">
+            1979/80:716 av Roland Sundgren m. fl. (s).
+          </note>
+          <note n="4e97f7de">
+            Utskottet hemställde att riksdagen skulle avslå motionerna 1979/80:216
+            och 1979/80:716.
+          </note>
+          <u who="john_andersson_5b64c4" xml:id="i-076b0e68633cbca5-10" prev="i-076b0e68633cbca5-7" n="076b0e68">
             <seg n="d8806d2b">
               HANS PETERSSON i Hallstahammar (vpk):
             </seg>
@@ -1255,6 +1328,36 @@
               Regeringen tar alltså lätt på problemen och ser närmast kreditkorten
               som
             </seg>
+          </u>
+          <note n="982dcab7">
+            Nr 84
+          </note>
+          <note n="ef533b43">
+            Onsdagen den
+          </note>
+          <note n="cc87b55b">
+            13 februari 1980
+          </note>
+          <note n="3b75d745">
+            Kontokort
+          </note>
+          <note n="2b93a5ad">
+            53
+          </note>
+          <pb n="14" facs="https://betalab.kb.se/prot-197980--84/prot_197980__84-014.jp2/_view"/>
+          <note n="982dcab7">
+            Nr 84
+          </note>
+          <note type="date" n="2e60699b">
+            Onsdagen den 13 februari 1980
+          </note>
+          <note n="3b75d745">
+            Kontokort
+          </note>
+          <note n="014faa4b">
+            54
+          </note>
+          <u who="john_andersson_5b64c4" xml:id="i-076b0e68633cbca5-11" prev="i-076b0e68633cbca5-7" n="076b0e68">
             <seg n="50664b8d">
               ett smidigt betalningsmedel med stordriftsfördelar i handeln,
               medan handelns folk protesterar mot spärrlisteeländet, en extra
@@ -1288,88 +1391,6 @@
               här utredningen.
             </seg>
           </u>
-          <note n="422fb153">
-            Vid omröstning genom uppresning förklarades flertalet av kammarens
-            ledamöter ha röstat för ja-propositionen. Då John Andersson begärde
-            rösträkning verkställdes votering med omröstningsapparat. Denna
-            omröstning gav följande resultat:
-          </note>
-          <note n="14fedcce">
-            Ja — 276 Nej —- 37 Avstår — 3
-          </note>
-          <note n="bc9e357d">
-            Mom. 2-6 Kammaren biföll vad utskottet i dessa moment hemställt.
-          </note>
-          <note n="335aa259">
-            $ 6 Föredrogs
-          </note>
-          <note n="43532cd2">
-            Jordbruksutskottets betänkanden
-          </note>
-          <note n="03c4b7f6">
-            1979/80:26 med anledning av motion om svensk text på importerade
-            livsmedelskonserver
-          </note>
-          <pb n="13" facs="https://betalab.kb.se/prot-197980--84/prot_197980__84-013.jp2/_view"/>
-          <note n="9ff754c7">
-            1979/80:27 med anledning av motioner om en landskapsplan för
-            Skåne, m.m.
-          </note>
-          <note n="b3c6083e">
-            Kammaren biföll vad utskottet i dessa betänkanden hemställt.
-          </note>
-          <note n="fa1c243e">
-            $ 7 Kontokort
-          </note>
-          <note n="3129a116">
-            Föredrogs näringsutskottets betänkande 1979/80:27 med anledning
-            av motioner om kontokort.
-          </note>
-          <note n="c827d54a">
-            Riksdagens beslut den 18 december 1979 att hos regeringen begära
-            en övergripande utredning på kontokortsområdet låg till grund
-            för motionerna
-          </note>
-          <note n="3a76ce1b">
-            1979/80:216 av Lars Werner m. fl. (vpk), vari hemställts att
-            riksdagen hos regeringen begärde att i motionen angivna ståndpunkter
-            skulle ligga till grund för den kommande utredningens arbete och
-          </note>
-          <note n="7c9e2c45">
-            1979/80:716 av Roland Sundgren m. fl. (s).
-          </note>
-          <note n="4e97f7de">
-            Utskottet hemställde att riksdagen skulle avslå motionerna 1979/80:216
-            och 1979/80:716.
-          </note>
-          <note n="982dcab7">
-            Nr 84
-          </note>
-          <note n="ef533b43">
-            Onsdagen den
-          </note>
-          <note n="cc87b55b">
-            13 februari 1980
-          </note>
-          <note n="3b75d745">
-            Kontokort
-          </note>
-          <note n="2b93a5ad">
-            53
-          </note>
-          <pb n="14" facs="https://betalab.kb.se/prot-197980--84/prot_197980__84-014.jp2/_view"/>
-          <note n="982dcab7">
-            Nr 84
-          </note>
-          <note n="1abb1fdb">
-            Onsdagen den 13 februari 1980
-          </note>
-          <note n="3b75d745">
-            Kontokort
-          </note>
-          <note n="014faa4b">
-            54
-          </note>
           <note n="2cdfb77a">
             Fru talman! Jag yrkar bifall till motion nr 216 av Lars Werner
             m. fl.
@@ -1377,7 +1398,7 @@
           <note type="speaker" n="dc4d8b37">
             JOHAN OLSSON (c):
           </note>
-          <u who="stig_olsson_94c063" xml:id="i-c092b2f9f346a7e1-0" n="7528ce37">
+          <u who="stig_olsson_94c063" xml:id="i-7528ce37fd9641ee-0" next="i-7528ce37fd9641ee-1" n="7528ce37">
             <seg n="a5b38f2d">
               Fru talman! Det är ett enigt utskott som har redogjort för hur
               det här ärendet behandlats, och man har kommit fram till att det
@@ -1413,7 +1434,9 @@
               Mot den här bakgrunden yrkar jag bifall till utskottets hemställan.
             </seg>
             <seg n="5f77d632"/>
-            <seg n="5f77d632"/>
+          </u>
+          <pb n="15" facs="https://betalab.kb.se/prot-197980--84/prot_197980__84-015.jp2/_view"/>
+          <u who="stig_olsson_94c063" xml:id="i-7528ce37fd9641ee-1" prev="i-7528ce37fd9641ee-0" n="7528ce37">
             <seg n="5f77d632"/>
             <seg n="d8806d2b">
               HANS PETERSSON i Hallstahammar (vpk):
@@ -1437,11 +1460,10 @@
               pekpinnar, men jag tror att sådana ibland är absolut nödvändiga.
             </seg>
           </u>
-          <pb n="15" facs="https://betalab.kb.se/prot-197980--84/prot_197980__84-015.jp2/_view"/>
           <note type="speaker" n="dc4d8b37">
             JOHAN OLSSON (c):
           </note>
-          <u who="stig_olsson_94c063" xml:id="i-c092b2f9f346a7e1-1" n="7528ce37">
+          <u who="stig_olsson_94c063" xml:id="i-7528ce37fd9641ee-2" n="7528ce37">
             <seg n="12e8bb2d">
               Fru talman! Vad Hans Petersson i Hallstahammar säger om konsumentverkets
               uttalande gäller den kartläggning som hade skett under sommaren
@@ -1473,7 +1495,7 @@
           <note type="speaker" n="dc4d8b37">
             JOHAN OLSSON (c):
           </note>
-          <u who="stig_olsson_94c063" xml:id="i-9a114696986573b2-0" next="i-313b7e0d8c983bea-0" n="7528ce37">
+          <u who="stig_olsson_94c063" xml:id="i-7528ce37fd9641ee-3" next="i-7528ce37fd9641ee-8" n="7528ce37">
             <seg n="69e1cae9">
               Fru talman! Nej, det är alldeles fel att man försöker förhindra
               att klara direktiv utfärdas. Vi ställer oss bakom den parlamentariska
@@ -1486,20 +1508,7 @@
           <note n="b39a2bcf">
             Överläggningen var härmed avslutad.
           </note>
-          <u who="stig_olsson_94c063" xml:id="i-313b7e0d8c983bea-0" prev="i-9a114696986573b2-0" n="7528ce37">
-            <seg n="5f77d632"/>
-            <seg n="5f77d632"/>
-            <seg n="5f77d632"/>
-            <seg n="15e283c6">
-              Förstatligande av
-            </seg>
-            <seg n="91b45815">
-              läkemedelsindustrin
-            </seg>
-            <seg n="4cdcd312">
-              den det ej vill röstar nej.
-            </seg>
-          </u>
+          <u who="stig_olsson_94c063" xml:id="i-7528ce37fd9641ee-4" prev="i-7528ce37fd9641ee-3" n="7528ce37"/>
           <note n="775a746f">
             Nr 84 Onsdagen den
           </note>
@@ -1512,13 +1521,25 @@
           <note n="37c5fd81">
             55
           </note>
+          <u who="stig_olsson_94c063" xml:id="i-7528ce37fd9641ee-5" prev="i-7528ce37fd9641ee-3" n="7528ce37"/>
           <pb n="16" facs="https://betalab.kb.se/prot-197980--84/prot_197980__84-016.jp2/_view"/>
+          <u who="stig_olsson_94c063" xml:id="i-7528ce37fd9641ee-6" prev="i-7528ce37fd9641ee-3" n="7528ce37">
+            <seg n="5f77d632"/>
+          </u>
           <note n="982dcab7">
             Nr 84
           </note>
-          <note n="1abb1fdb">
+          <note type="date" n="2e60699b">
             Onsdagen den 13 februari 1980
           </note>
+          <u who="stig_olsson_94c063" xml:id="i-7528ce37fd9641ee-7" prev="i-7528ce37fd9641ee-3" n="7528ce37">
+            <seg n="15e283c6">
+              Förstatligande av
+            </seg>
+            <seg n="91b45815">
+              läkemedelsindustrin
+            </seg>
+          </u>
           <note n="9dc17b5f">
             56
           </note>
@@ -1534,6 +1555,11 @@
             Den som vill att kammaren bifaller näringsutskottets hemställan
             i betänkande 27 röstar ja,
           </note>
+          <u who="stig_olsson_94c063" xml:id="i-7528ce37fd9641ee-8" prev="i-7528ce37fd9641ee-3" n="7528ce37">
+            <seg n="4cdcd312">
+              den det ej vill röstar nej.
+            </seg>
+          </u>
           <note n="810567ce">
             Vinner nej har kammaren bifallit utskottets hemställan med den
             ändring däri som föranleds av bifall till motion 216 av Lars Werner
@@ -1566,7 +1592,7 @@
           <note type="speaker" n="72439eff">
             INGA LANTZ (vpk):
           </note>
-          <u who="inga_lantz_e8f482" xml:id="i-1a25eab429139aa6-0" next="i-1c78f6c5551a66e2-0" n="3dee9c34">
+          <u who="inga_lantz_e8f482" xml:id="i-bf49426750c775c8-0" next="i-bf49426750c775c8-5" n="3dee9c34">
             <seg n="4bad215d">
               Fru talman! Vänsterpartiet kommunisterna har i många motioner
               tagit upp frågan om läkemedelsindustrins förstatligande samt insynen
@@ -1590,7 +1616,9 @@
               skall kunna medföra ”dålig reklam” för
             </seg>
             <seg n="5f77d632"/>
-            <seg n="5f77d632"/>
+          </u>
+          <pb n="17" facs="https://betalab.kb.se/prot-197980--84/prot_197980__84-017.jp2/_view"/>
+          <u who="inga_lantz_e8f482" xml:id="i-bf49426750c775c8-1" prev="i-bf49426750c775c8-0" n="3dee9c34">
             <seg n="08aad034">
               preparatet i fråga och på så sätt ytterligare dra ner försäljningssiffrorna.
             </seg>
@@ -1665,19 +1693,27 @@
             </seg>
             <seg n="5f77d632"/>
           </u>
-          <pb n="17" facs="https://betalab.kb.se/prot-197980--84/prot_197980__84-017.jp2/_view"/>
           <note n="982dcab7">
             Nr 84
           </note>
-          <note n="1abb1fdb">
+          <note type="date" n="2e60699b">
             Onsdagen den 13 februari 1980
           </note>
-          <u who="inga_lantz_e8f482" xml:id="i-1c78f6c5551a66e2-0" prev="i-1a25eab429139aa6-0" n="3dee9c34">
+          <u who="inga_lantz_e8f482" xml:id="i-bf49426750c775c8-2" prev="i-bf49426750c775c8-0" n="3dee9c34">
             <seg n="b177676c">
               Förstatligande av läkemedelsindustrin
             </seg>
             <seg n="5f77d632"/>
-            <seg n="5f77d632"/>
+          </u>
+          <pb n="18" facs="https://betalab.kb.se/prot-197980--84/prot_197980__84-018.jp2/_view"/>
+          <u who="inga_lantz_e8f482" xml:id="i-bf49426750c775c8-3" prev="i-bf49426750c775c8-0" n="3dee9c34"/>
+          <note n="982dcab7">
+            Nr 84
+          </note>
+          <note type="date" n="2e60699b">
+            Onsdagen den 13 februari 1980
+          </note>
+          <u who="inga_lantz_e8f482" xml:id="i-bf49426750c775c8-4" prev="i-bf49426750c775c8-0" n="3dee9c34">
             <seg n="b177676c">
               Förstatligande av läkemedelsindustrin
             </seg>
@@ -1751,7 +1787,9 @@
               av de olika läkemedlen ökar. Vi menar också att det måste bli
               förbud mot kommersiell
             </seg>
-            <seg n="5f77d632"/>
+          </u>
+          <pb n="19" facs="https://betalab.kb.se/prot-197980--84/prot_197980__84-019.jp2/_view"/>
+          <u who="inga_lantz_e8f482" xml:id="i-bf49426750c775c8-5" prev="i-bf49426750c775c8-0" n="3dee9c34">
             <seg n="c4a82466">
               läkemedelsreklam, så att man får stopp på felaktig information
               och ovederhäftig påverkan.
@@ -1808,18 +1846,10 @@
               hälsa och sjukdom?
             </seg>
           </u>
-          <pb n="18" facs="https://betalab.kb.se/prot-197980--84/prot_197980__84-018.jp2/_view"/>
-          <note n="982dcab7">
-            Nr 84
-          </note>
-          <note n="1abb1fdb">
-            Onsdagen den 13 februari 1980
-          </note>
-          <pb n="19" facs="https://betalab.kb.se/prot-197980--84/prot_197980__84-019.jp2/_view"/>
           <note type="speaker" n="fb90bda7">
             ERIK HOVHAMMAR (m):
           </note>
-          <u who="erik_hovhammar_f72e8c" xml:id="i-f04e9a3f5bdcfbb1-0" next="i-06bae17051a207d1-0" n="16fe577a">
+          <u who="erik_hovhammar_f72e8c" xml:id="i-16fe577a93836205-0" next="i-16fe577a93836205-3" n="16fe577a">
             <seg n="c0314d30">
               Fru talman! Ett förstatligande av den svenska läkemedelsindustrin
               är, som också fru Lantz nämnde, en gammal och så gott som varje
@@ -1846,14 +1876,25 @@
             59
           </note>
           <pb n="20" facs="https://betalab.kb.se/prot-197980--84/prot_197980__84-020.jp2/_view"/>
-          <u who="erik_hovhammar_f72e8c" xml:id="i-06bae17051a207d1-0" prev="i-f04e9a3f5bdcfbb1-0" n="16fe577a">
+          <u who="erik_hovhammar_f72e8c" xml:id="i-16fe577a93836205-1" prev="i-16fe577a93836205-0" n="16fe577a"/>
+          <note n="982dcab7">
+            Nr 84
+          </note>
+          <note type="date" n="2e60699b">
+            Onsdagen den 13 februari 1980
+          </note>
+          <u who="erik_hovhammar_f72e8c" xml:id="i-16fe577a93836205-2" prev="i-16fe577a93836205-0" n="16fe577a">
             <seg n="15e283c6">
               Förstatligande av
             </seg>
             <seg n="91b45815">
               läkemedelsindustrin
             </seg>
-            <seg n="5f77d632"/>
+          </u>
+          <note n="799f28d9">
+            60
+          </note>
+          <u who="erik_hovhammar_f72e8c" xml:id="i-16fe577a93836205-3" prev="i-16fe577a93836205-0" n="16fe577a">
             <seg n="a8ba8683">
               redovisade utskottets synpunkter på bl. a. läkemedelsindustrin
               i Sverige. Jag kommenterade vidare ganska ingående läkemedelsindustridelegationens
@@ -1881,19 +1922,10 @@
               hemställan.
             </seg>
           </u>
-          <note n="982dcab7">
-            Nr 84
-          </note>
-          <note n="1abb1fdb">
-            Onsdagen den 13 februari 1980
-          </note>
-          <note n="799f28d9">
-            60
-          </note>
           <note type="speaker" n="72439eff">
             INGA LANTZ (vpk):
           </note>
-          <u who="inga_lantz_e8f482" xml:id="i-6185e3937a0a6b64-0" n="3dee9c34">
+          <u who="inga_lantz_e8f482" xml:id="i-bf49426750c775c8-6" n="3dee9c34">
             <seg n="e27dc1d1">
               Fru talman! Jag konstaterar fortfarande att socialdemokratiska
               ledamöter håller alldeles tyst i den här debatten.
@@ -1935,12 +1967,15 @@
           <note type="speaker" n="fb90bda7">
             ERIK HOVHAMMAR (m):
           </note>
-          <u who="erik_hovhammar_f72e8c" xml:id="i-993c21aa426fdb6f-0" n="16fe577a">
+          <u who="erik_hovhammar_f72e8c" xml:id="i-16fe577a93836205-4" next="i-16fe577a93836205-5" n="16fe577a">
             <seg n="91b059b1">
               Fru talman! Får jag bara helt kort säga att ett förstatligande
               av den här
             </seg>
             <seg n="5f77d632"/>
+          </u>
+          <pb n="21" facs="https://betalab.kb.se/prot-197980--84/prot_197980__84-021.jp2/_view"/>
+          <u who="erik_hovhammar_f72e8c" xml:id="i-16fe577a93836205-5" prev="i-16fe577a93836205-4" n="16fe577a">
             <seg n="cccc06c5">
               industrin, liksom av andra industrier, inte löser problemen,
               och framför allt innebär det inga besparingar för konsumenterna.
@@ -1970,11 +2005,10 @@
               jag för dagen inget mer att tillägga i ärendet.
             </seg>
           </u>
-          <pb n="21" facs="https://betalab.kb.se/prot-197980--84/prot_197980__84-021.jp2/_view"/>
           <note type="speaker" n="72439eff">
             INGA LANTZ (vpk):
           </note>
-          <u who="inga_lantz_e8f482" xml:id="i-6185e3937a0a6b64-1" n="3dee9c34">
+          <u who="inga_lantz_e8f482" xml:id="i-bf49426750c775c8-7" n="3dee9c34">
             <seg n="6540f808">
               Fru talman! Då måste jag få fråga herr Hovhammar: Är det service
               att tillåta farliga och skadliga läkemedel? Är det service att
@@ -1992,7 +2026,7 @@
           <note type="speaker" n="fb90bda7">
             ERIK HOVHAMMAR (m):
           </note>
-          <u who="erik_hovhammar_f72e8c" xml:id="i-993c21aa426fdb6f-1" n="16fe577a">
+          <u who="erik_hovhammar_f72e8c" xml:id="i-16fe577a93836205-6" n="16fe577a">
             <seg n="1f8a05e1">
               Fru talman! Helt kort: Vi har i detta land myndigheter som kontrollerar
               läkemedels kvalitet och beskaffenhet. För den händelse dessa läkemedel
@@ -2003,7 +2037,7 @@
           <note type="speaker" n="72439eff">
             INGA LANTZ (vpk):
           </note>
-          <u who="inga_lantz_e8f482" xml:id="i-1a25eab429139aa6-1" next="i-1c78f6c5551a66e2-1" n="3dee9c34">
+          <u who="inga_lantz_e8f482" xml:id="i-bf49426750c775c8-8" next="i-bf49426750c775c8-11" n="3dee9c34">
             <seg n="516dfa13">
               Fru talman! Den kontrollen är det mycket dåligt beställt med.
               Det visar all erfarenhet av de skadliga och farliga preparat som
@@ -2025,26 +2059,23 @@
           <note n="cc87b55b">
             13 februari 1980
           </note>
-          <u who="inga_lantz_e8f482" xml:id="i-1c78f6c5551a66e2-1" prev="i-1a25eab429139aa6-1" n="3dee9c34">
+          <u who="inga_lantz_e8f482" xml:id="i-bf49426750c775c8-9" prev="i-bf49426750c775c8-8" n="3dee9c34">
             <seg n="15e283c6">
               Förstatligande av
             </seg>
             <seg n="91b45815">
               läkemedelsindustrin
             </seg>
-            <seg n="5f77d632"/>
-            <seg n="4cdcd312">
-              den det ej vill röstar nej.
-            </seg>
           </u>
           <note n="0409545d">
             61
           </note>
           <pb n="22" facs="https://betalab.kb.se/prot-197980--84/prot_197980__84-022.jp2/_view"/>
+          <u who="inga_lantz_e8f482" xml:id="i-bf49426750c775c8-10" prev="i-bf49426750c775c8-8" n="3dee9c34"/>
           <note n="982dcab7">
             Nr 84
           </note>
-          <note n="1abb1fdb">
+          <note type="date" n="2e60699b">
             Onsdagen den 13 februari 1980
           </note>
           <note n="f60d3afe">
@@ -2057,6 +2088,11 @@
             Den som vill att kammaren bifaller näringsutskottets hemställan
             i betänkande 28 röstar ja,
           </note>
+          <u who="inga_lantz_e8f482" xml:id="i-bf49426750c775c8-11" prev="i-bf49426750c775c8-8" n="3dee9c34">
+            <seg n="4cdcd312">
+              den det ej vill röstar nej.
+            </seg>
+          </u>
           <note n="190affab">
             Vinner nej har kammaren bifallit motion 760 av Lars Werner m.
             fl.
@@ -2114,12 +2150,12 @@
           <note type="speaker" n="09f91955">
             1979/80:
           </note>
-          <u who="unknown" xml:id="i-9ad7d537fc5c969f-0" n="ca252ee2"/>
+          <u who="unknown" xml:id="i-efcca12bb5ad231e-0" n="ca252ee2"/>
           <note type="speaker" n="21d50560">
             142 av Pär Granstedt (c) till utrikesministern om garantier mot
             uranimport från Sydafrika och Namibia:
           </note>
-          <u who="par_granstedt_81acca" xml:id="i-1369c9c1850b3e98-0" n="efcca12b">
+          <u who="par_granstedt_81acca" xml:id="i-efcca12bb5ad231e-1" next="i-efcca12bb5ad231e-2" n="efcca12b">
             <seg n="8e85fba7">
               ”Vilka garantier har Sverige för att det inte i själva verket
               är uran från Rössinggruvan som används i de svenska kärnkraftverken?
@@ -2127,6 +2163,9 @@
               av Namibias naturresurser?”
             </seg>
             <seg n="5f77d632"/>
+          </u>
+          <pb n="23" facs="https://betalab.kb.se/prot-197980--84/prot_197980__84-023.jp2/_view"/>
+          <u who="par_granstedt_81acca" xml:id="i-efcca12bb5ad231e-2" prev="i-efcca12bb5ad231e-1" n="efcca12b">
             <seg n="f3d5f431">
               Dessa frågor har i pressen ställts av befrielserörelsen SWAPO:s
               representant i Sverige Timothy Hadino Hishongwa. Bakgrunden är
@@ -2164,7 +2203,6 @@
               regeringen vidta såvida inte otvetydiga garantier kan erhållas?
             </seg>
           </u>
-          <pb n="23" facs="https://betalab.kb.se/prot-197980--84/prot_197980__84-023.jp2/_view"/>
           <note n="c77d0e12">
             $ 12 Meddelande om frågor Meddelades att följande frågor framställts
           </note>
@@ -2174,12 +2212,12 @@
           <note type="speaker" n="09f91955">
             1979/80:
           </note>
-          <u who="unknown" xml:id="i-72a183dab6a8d880-0" n="ca252ee2"/>
+          <u who="unknown" xml:id="i-f7310e5e6f6c872a-0" n="ca252ee2"/>
           <note type="speaker" n="20cc5120">
             322 av Eva Hjelmström (vpk) till utbildningsministern om skyldigheten
             enligt radiolagen att informera i samhällsfrågor:
           </note>
-          <u who="eva_hjelmstrom_78bb57" xml:id="i-9662a09cb0171a74-0" next="i-d807ae03d7fd718d-0" n="f7310e5e">
+          <u who="eva_hjelmstrom_78bb57" xml:id="i-f7310e5e6f6c872a-1" next="i-f7310e5e6f6c872a-3" n="f7310e5e">
             <seg n="9a204b4b">
               Yttrandefriheten hotas vid SR-koncernen. Inför folkomröstningen
               har en rad program stoppats av den enkla anledningen att de speglar
@@ -2215,7 +2253,20 @@
             63
           </note>
           <pb n="24" facs="https://betalab.kb.se/prot-197980--84/prot_197980__84-024.jp2/_view"/>
-          <u who="eva_hjelmstrom_78bb57" xml:id="i-d807ae03d7fd718d-0" prev="i-9662a09cb0171a74-0" n="f7310e5e">
+          <u who="eva_hjelmstrom_78bb57" xml:id="i-f7310e5e6f6c872a-2" prev="i-f7310e5e6f6c872a-1" n="f7310e5e"/>
+          <note n="982dcab7">
+            Nr 84
+          </note>
+          <note type="date" n="2e60699b">
+            Onsdagen den 13 februari 1980
+          </note>
+          <note n="6c82e9f8">
+            Meddelande om
+          </note>
+          <note n="7ec9ff5b">
+            frågor
+          </note>
+          <u who="eva_hjelmstrom_78bb57" xml:id="i-f7310e5e6f6c872a-3" prev="i-f7310e5e6f6c872a-1" n="f7310e5e">
             <seg n="871013a2">
               Obestridliga fakta undanhålls allmänheten om det inte finns ”motfakta”.
               Allmänheten kommer att serveras ett utslätat utbud av menlösa
@@ -2234,27 +2285,15 @@
               information i väsentliga samhällsfrågor?
             </seg>
           </u>
-          <note n="982dcab7">
-            Nr 84
-          </note>
-          <note n="1abb1fdb">
-            Onsdagen den 13 februari 1980
-          </note>
-          <note n="6c82e9f8">
-            Meddelande om
-          </note>
-          <note n="7ec9ff5b">
-            frågor
-          </note>
           <note type="speaker" n="09f91955">
             1979/80:
           </note>
-          <u who="unknown" xml:id="i-72a183dab6a8d880-1" n="ca252ee2"/>
+          <u who="unknown" xml:id="i-04d16dbb18418429-0" n="ca252ee2"/>
           <note type="speaker" n="ca21eaba">
             323 av Rolf Andersson (c) till ekonomiministern om tidpunkten
             för tillsättande av utredning om jordbrukets kapitalförsörjning:
           </note>
-          <u who="rolf_andersson_cd4d0b" xml:id="i-0f1ba05397f35f8b-0" next="i-2805ee9fa98350c4-0" n="04d16dbb"/>
+          <u who="rolf_andersson_cd4d0b" xml:id="i-04d16dbb18418429-1" next="i-04d16dbb18418429-9" n="04d16dbb"/>
           <note n="840513e0">
             När avser regeringen tillsätta den utredning om jordbrukets kapitalförsörjning
             för vilken beslut om direktiv fattades redan den 7 juni 1979?
@@ -2265,24 +2304,16 @@
           <note n="80b46652">
             In fidem SUNE K. JOHANSSON /Solveig Gemert
           </note>
-          <u who="rolf_andersson_cd4d0b" xml:id="i-2805ee9fa98350c4-0" prev="i-0f1ba05397f35f8b-0" n="04d16dbb">
-            <seg n="5f77d632"/>
-            <seg n="5f77d632"/>
-            <seg n="5f77d632"/>
-            <seg n="5f77d632"/>
-            <seg n="5f77d632"/>
-            <seg n="5f77d632"/>
-            <seg n="5f77d632"/>
-            <seg n="5f77d632"/>
-            <seg n="5f77d632"/>
-          </u>
+          <u who="rolf_andersson_cd4d0b" xml:id="i-04d16dbb18418429-2" prev="i-04d16dbb18418429-1" n="04d16dbb"/>
           <pb n="25" facs="https://betalab.kb.se/prot-197980--84/prot_197980__84-025.jp2/_view"/>
+          <u who="rolf_andersson_cd4d0b" xml:id="i-04d16dbb18418429-3" prev="i-04d16dbb18418429-1" n="04d16dbb"/>
           <note n="62ae0f93">
             1979/80 82-86
           </note>
           <note n="614723c2">
             124
           </note>
+          <u who="rolf_andersson_cd4d0b" xml:id="i-04d16dbb18418429-4" prev="i-04d16dbb18418429-1" n="04d16dbb"/>
           <note n="a788f373">
             Förteckning över talare (Siffrorna avser sida i protokollen)
           </note>
@@ -2384,7 +2415,9 @@
             Åsling, Nils, industriminister 65, 67, 68, 69, 70, 72, 73, 74,
             75, 76, 78, 80, 81, 82, 83
           </note>
+          <u who="rolf_andersson_cd4d0b" xml:id="i-04d16dbb18418429-5" prev="i-04d16dbb18418429-1" n="04d16dbb"/>
           <pb n="26" facs="https://betalab.kb.se/prot-197980--84/prot_197980__84-026.jp2/_view"/>
+          <u who="rolf_andersson_cd4d0b" xml:id="i-04d16dbb18418429-6" prev="i-04d16dbb18418429-1" n="04d16dbb"/>
           <note n="ad74daa3">
             Fredagen den 15 februari 1979/80 Bergqvist, Jan (s) 107 82-86
             Burenstam Linder, Staffan, handelsminister 95, 96, 98, 99, 100
@@ -2407,10 +2440,17 @@
           <note n="26f480ba">
             Ullsten, Ola, utrikesminister 104, 108, 110, 111, 116, 119
           </note>
+          <u who="rolf_andersson_cd4d0b" xml:id="i-04d16dbb18418429-7" prev="i-04d16dbb18418429-1" n="04d16dbb">
+            <seg n="5f77d632"/>
+          </u>
           <pb n="31" facs="https://betalab.kb.se/prot-197980--84/prot_197980__84-031.jp2/_view"/>
+          <u who="rolf_andersson_cd4d0b" xml:id="i-04d16dbb18418429-8" prev="i-04d16dbb18418429-1" n="04d16dbb">
+            <seg n="5f77d632"/>
+          </u>
           <note n="76bfe1fa">
             GOTAB 64663 Stockholm 1980
           </note>
+          <u who="rolf_andersson_cd4d0b" xml:id="i-04d16dbb18418429-9" prev="i-04d16dbb18418429-1" n="04d16dbb"/>
         </div>
       </body>
     </text>

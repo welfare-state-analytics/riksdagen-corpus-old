@@ -20,7 +20,7 @@
     <encodingDesc>
       <editorialDecl>
         <correction>
-          <p>Some data curation was done. It is documented in db/curation/instances</p>
+          <p>Some data curation was done. It is documented in input/curation/instances</p>
         </correction>
       </editorialDecl>
     </encodingDesc>
@@ -53,12 +53,15 @@
         <div type="preface">
           <head>prot-1967--ak--1</head>
           <docDate when="1967-01-10">1967-01-10</docDate>
+          <docDate when="1967-01-11">1967-01-11</docDate>
+          <docDate when="1967-01-12">1967-01-12</docDate>
           <docDate when="1967-01-13">1967-01-13</docDate>
           <docDate when="1967-01-17">1967-01-17</docDate>
         </div>
       </front>
       <body>
         <div>
+          <pb n="0" facs="https://betalab.kb.se/prot-1967--ak--1/prot_1967__ak__1-000.jp2/_view"/>
           <note n="c0b1486f"/>
           <note n="efd2c9b7">
             RIKSDAGENS lé&amp;frål PROTOKOLL
@@ -309,7 +312,7 @@
           <note n="c0b1486f"/>
           <note n="c0b1486f"/>
           <pb n="4" facs="https://betalab.kb.se/prot-1967--ak--1/prot_1967__ak__1-004.jp2/_view"/>
-          <note n="09e6e306">
+          <note type="date" n="70a17674">
             Tisdagen den 10 januari 1967
           </note>
           <note n="0224bdd5">
@@ -323,7 +326,7 @@
           <note n="296087fb">
             ordnade samlingssalen.
           </note>
-          <note n="55623372">
+          <note type="date" n="dfe2d93e">
             Tisdagen den 10 januari KL. 11.00
           </note>
           <note n="a1b9c545">
@@ -452,7 +455,7 @@
             Göteborgs stad 2 Studierektorn Ingegärd Frenkel i Göteborg 3
             Statistikern Kurt Hugosson i Göteborg
           </note>
-          <note n="09e6e306">
+          <note type="date" n="70a17674">
             Tisdagen den 10 januari 1967
           </note>
           <note n="7f0f6428">
@@ -508,7 +511,7 @@
             och uppräknade befanns valet hava så
           </note>
           <pb n="6" facs="https://betalab.kb.se/prot-1967--ak--1/prot_1967__ak__1-006.jp2/_view"/>
-          <note n="09e6e306">
+          <note type="date" n="70a17674">
             Tisdagen den 10 januari 1967
           </note>
           <note n="08644709">
@@ -549,7 +552,7 @@
           <note type="speaker" n="f07a218b">
             Herr TALMANNEN yttrade:
           </note>
-          <u who="unknown" xml:id="i-80cae297b88d067b-0" n="0198b76c">
+          <u who="unknown" xml:id="i-0198b76c2d20210f-0" n="0198b76c">
             <seg n="71383f46">
               Herr ålderspresident, ärade kammarledamöter! ÅA egna och herrar
               vice talmäns vägnar ber jag att till kammarens ledamöter få framföra
@@ -570,7 +573,7 @@
           <note n="0e598e77">
             Till Riksdagens andra kammare
           </note>
-          <u who="unknown" xml:id="i-e7ffb9144a159289-0" n="0198b76c">
+          <u who="unknown" xml:id="i-0198b76c2d20210f-1" n="0198b76c">
             <seg n="147ff720">
               På grund av sjukdom får jag härmed anhålla om ledighet från riksdagsarbetet
               tills vidare.
@@ -652,7 +655,7 @@
           <note type="speaker" n="f07a218b">
             Herr TALMANNEN yttrade:
           </note>
-          <u who="unknown" xml:id="i-4d6972b0fcb63b71-0" n="0198b76c"/>
+          <u who="unknown" xml:id="i-0198b76c2d20210f-2" n="0198b76c"/>
           <note n="6182a3c4">
             Jag får tillkännagiva, att Kungl. Maj:t låtit genom offentligt
             anslag bjuda och kalla riksdagens samtliga ledamöter att onsdagen
@@ -685,13 +688,13 @@
           <note type="speaker" n="3472bcfd">
             Herr TALMANNEN anförde:
           </note>
-          <u who="unknown" xml:id="i-80cae297b88d067b-1" n="0198b76c"/>
+          <u who="unknown" xml:id="i-0198b76c2d20210f-3" n="0198b76c"/>
           <note n="4c9305eb">
             Till kammarens ledamöter har utdelats bl.a. en preliminär plan
             för sammanträdena under vårsessionen 1967. Därav framgår att val
             av ledamöter och suppleanter i utskott avses skola äga
           </note>
-          <note n="09e6e306">
+          <note type="date" n="70a17674">
             Tisdagen den 10 januari 1967
           </note>
           <note n="af2d2301">
@@ -709,7 +712,7 @@
             för maj månad har vissa avvikelser måst göras från regeln att
             enkla frågor besvaras torsdagar kl. 16.30.
           </note>
-          <u who="unknown" xml:id="i-e7ffb9144a159289-1" n="0198b76c">
+          <u who="unknown" xml:id="i-0198b76c2d20210f-4" n="0198b76c">
             <seg n="b27f1c2f">
               Av ett likaledes utdelat meddelande framgår bl. a. att kostnadsfri
               skrivhjälp kommer att tillhandahållas på samma sätt som under
@@ -720,50 +723,6 @@
               varav viss del avser stenografering i kamrarna och återstoden
               utgöres av s.k. fyllnadstjänstgöring genom kammarsekreterarnas
               försorg.
-            </seg>
-            <seg n="e7f6f799">
-              Även om man med tillfredsställelse kan skönja en viss avspänning
-              i det utrikespolitiska läget i Europa, existerar det tyvärr i
-              andra delar av världen alltför många konfliktanledningar, som
-              lätt kan sätta freden i fara. Den insats, som vårt lilla land
-              kan göra för att söka överbrygga dessa motsättningar, sker säkerligen
-              bäst genom fortsatt medverkan i Förenta Nationernas åtgärder för
-              att åstadkomma nedrustning och hindra spridning av kärnvapen.
-            </seg>
-            <seg n="772d6624">
-              De framsteg som gjorts då det gäller att övervinna den handelspolitiska
-              splittringen i Västeuropa är glädjande, likaså de nordiska ländernas
-              gemensamma uppträdande i förhandlingarna inom det allmänna tulloch
-              handelsavtalet.
-            </seg>
-            <seg n="8a846a0c">
-              Den fulla sysselsättningen och möjligheten att upprätthålla vårt
-              folks levnadsstandard är i mycket hög grad beroende av produktionens
-              ökning och vår export till andra länder. Den hittillsvarande prisoch
-              kostnadsutvecklingen och det kvarstående underskottet i utrikeshandeln
-              ger därför anledning till oro. Arbetsmarknadsoch 1okaliseringspolitiken
-              måste ägnas stor
-            </seg>
-            <seg n="4c8b69b0">
-              uppmärksamhet, och de enskilda människor, som drabbas av svårigheter
-              i samband med förändringar inom vissa branscher, måste i görligaste
-              mån hållas skadeslösa.
-            </seg>
-            <seg n="b5a2a534">
-              Knappheten på kapital nödvändiggör ömtåliga avvägningar mellan
-              industriens investeringar och investeringar för andra ändamål,
-              främst bostadsbyggande. Vissa skattehöjningar har befunnits ofrånkomliga,
-              trots den starka återhållsamhet som kännetecknar riksstatförslaget
-              och medför att utrymmet för reformer är mycket begränsat. Bland
-              de förslag som bebådas synes den fortsatta utbyggnaden av åldringsvården
-              och en höjning av folkpensionerna vara de mest angelägna.
-            </seg>
-            <seg n="84c50d83">
-              Den kammare jag företräder kommer att i starkt medvetande om
-              sitt stora
-            </seg>
-            <seg n="0c57bb75">
-              Tre av valsedlarna var ogilla.
             </seg>
           </u>
           <note n="2e46916d">
@@ -776,13 +735,13 @@
             mem
           </note>
           <pb n="8" facs="https://betalab.kb.se/prot-1967--ak--1/prot_1967__ak__1-008.jp2/_view"/>
-          <note n="2d40cbd8">
+          <note type="date" n="19ea70f5">
             Onsdagen den 11 januari 1967
           </note>
           <note n="a971d949">
             Nr 1 9
           </note>
-          <note n="361d37b1">
+          <note type="date" n="714cb237">
             Onsdagen den 11 januari KI. 10.30
           </note>
           <note n="a25a7302">
@@ -846,11 +805,56 @@
           <note n="ea841e94">
             Eders Majestät!
           </note>
+          <u who="unknown" xml:id="i-0198b76c2d20210f-5" n="0198b76c">
+            <seg n="e7f6f799">
+              Även om man med tillfredsställelse kan skönja en viss avspänning
+              i det utrikespolitiska läget i Europa, existerar det tyvärr i
+              andra delar av världen alltför många konfliktanledningar, som
+              lätt kan sätta freden i fara. Den insats, som vårt lilla land
+              kan göra för att söka överbrygga dessa motsättningar, sker säkerligen
+              bäst genom fortsatt medverkan i Förenta Nationernas åtgärder för
+              att åstadkomma nedrustning och hindra spridning av kärnvapen.
+            </seg>
+            <seg n="772d6624">
+              De framsteg som gjorts då det gäller att övervinna den handelspolitiska
+              splittringen i Västeuropa är glädjande, likaså de nordiska ländernas
+              gemensamma uppträdande i förhandlingarna inom det allmänna tulloch
+              handelsavtalet.
+            </seg>
+            <seg n="8a846a0c">
+              Den fulla sysselsättningen och möjligheten att upprätthålla vårt
+              folks levnadsstandard är i mycket hög grad beroende av produktionens
+              ökning och vår export till andra länder. Den hittillsvarande prisoch
+              kostnadsutvecklingen och det kvarstående underskottet i utrikeshandeln
+              ger därför anledning till oro. Arbetsmarknadsoch 1okaliseringspolitiken
+              måste ägnas stor
+            </seg>
+          </u>
           <pb n="9" facs="https://betalab.kb.se/prot-1967--ak--1/prot_1967__ak__1-009.jp2/_view"/>
           <note n="9e03fbfe">
             10 Nr 1
           </note>
-          <note n="44ae8179">
+          <u who="unknown" xml:id="i-0198b76c2d20210f-6" n="0198b76c">
+            <seg n="4c8b69b0">
+              uppmärksamhet, och de enskilda människor, som drabbas av svårigheter
+              i samband med förändringar inom vissa branscher, måste i görligaste
+              mån hållas skadeslösa.
+            </seg>
+            <seg n="b5a2a534">
+              Knappheten på kapital nödvändiggör ömtåliga avvägningar mellan
+              industriens investeringar och investeringar för andra ändamål,
+              främst bostadsbyggande. Vissa skattehöjningar har befunnits ofrånkomliga,
+              trots den starka återhållsamhet som kännetecknar riksstatförslaget
+              och medför att utrymmet för reformer är mycket begränsat. Bland
+              de förslag som bebådas synes den fortsatta utbyggnaden av åldringsvården
+              och en höjning av folkpensionerna vara de mest angelägna.
+            </seg>
+            <seg n="84c50d83">
+              Den kammare jag företräder kommer att i starkt medvetande om
+              sitt stora
+            </seg>
+          </u>
+          <note type="date" n="268b4f14">
             Torsdagen den 12 januari 1967
           </note>
           <note n="c3b62c68">
@@ -874,7 +878,7 @@
           <note n="7f9b455f">
             Sune K. Johansson
           </note>
-          <note n="427110ae">
+          <note type="date" n="64a89d5a">
             Torsdagen den 12 januari KI. 16.00
           </note>
           <note n="769f7fac">
@@ -890,6 +894,11 @@
           <note n="1aa4839d">
             envar med 122 röster.
           </note>
+          <u who="unknown" xml:id="i-0198b76c2d20210f-7" n="0198b76c">
+            <seg n="0c57bb75">
+              Tre av valsedlarna var ogilla.
+            </seg>
+          </u>
           <note n="ae380246">
             82
           </note>
@@ -900,7 +909,7 @@
           <note type="speaker" n="ed65c109">
             Herr ANDRE VICE TALMANNEN, som yttrade:
           </note>
-          <u who="unknown" xml:id="i-4d6972b0fcb63b71-1" n="0198b76c">
+          <u who="unknown" xml:id="i-0198b76c2d20210f-8" n="0198b76c">
             <seg n="e52d0fe2">
               Herr talman! För vart och ett av de ytterligare val som skall
               företagas vid detta plenum ber jag att få avlämna en
@@ -932,7 +941,7 @@
             vice tal-
           </note>
           <pb n="10" facs="https://betalab.kb.se/prot-1967--ak--1/prot_1967__ak__1-010.jp2/_view"/>
-          <note n="44ae8179">
+          <note type="date" n="268b4f14">
             Torsdagen den 12 januari 1967
           </note>
           <note n="14471bb7">
@@ -967,7 +976,7 @@
           <note type="speaker" n="4bc6789a">
             Herr ANDRE VICE TALMANNEN, som anförde:
           </note>
-          <u who="unknown" xml:id="i-80cae297b88d067b-2" n="0198b76c"/>
+          <u who="unknown" xml:id="i-0198b76c2d20210f-9" n="0198b76c"/>
           <note n="1cdc67fa">
             Herr talman! Jag hemställer, att kammaren måtte vid plenum fredagen
             den 13 innevarande januari utse suppleanter i de ständiga utskotten
@@ -984,10 +993,16 @@
           <note n="f7a74df1">
             Ordet lämnades på begäran till
           </note>
-          <u who="unknown" xml:id="i-e7ffb9144a159289-2" n="0198b76c">
+          <u who="unknown" xml:id="i-0198b76c2d20210f-10" n="0198b76c">
             <seg n="af1c6fa4">
               Herr WIKLUND i Stockholm (fp), som yttrade:
             </seg>
+          </u>
+          <note n="f00b7c4d">
+            Herr talman! I en av statens luftvårdsnämnd år 1966 utgiven broschyr
+            »10 frågor och svar om bilavgaser» läm-
+          </note>
+          <u who="unknown" xml:id="i-0198b76c2d20210f-11" n="0198b76c">
             <seg n="6b347fff">
               nas allmänheten följande dystra besked om den förvärring vi har
               att vänta av bilavgasproblemet:
@@ -1025,6 +1040,19 @@
               gäller det väl tunnelbanor? — är en fråga på lång sikt. En »lösning»
               genom ökad
             </seg>
+          </u>
+          <pb n="11" facs="https://betalab.kb.se/prot-1967--ak--1/prot_1967__ak__1-011.jp2/_view"/>
+          <note n="7ac3d296">
+            12 Nr 1
+          </note>
+          <note type="date" n="268b4f14">
+            Torsdagen den 12 januari 1967
+          </note>
+          <note n="2b9d9a66">
+            Interpellation ang. åtgärder till begränsning av luftföroreningar
+            genom bilavgaser
+          </note>
+          <u who="unknown" xml:id="i-0198b76c2d20210f-12" n="0198b76c">
             <seg n="1574527a">
               luftförorenande busstrafik kunde väl knappast nämnvärt minska
               den totala luftföroreningen ens vid en viss samtidig minskning
@@ -1104,10 +1132,44 @@
               Är herr statsrådet villig medverka till ett påskyndande av en
               lagstiftning om
             </seg>
+          </u>
+          <pb n="12" facs="https://betalab.kb.se/prot-1967--ak--1/prot_1967__ak__1-012.jp2/_view"/>
+          <note type="date" n="268b4f14">
+            Torsdagen den 12 januari 1967
+          </note>
+          <note n="88b8a7f7">
+            Nr 1 13
+          </note>
+          <note n="b5539a13">
+            Interpellation ang. modernisering av almanackans namnlängd —
+            Interpellation ang. de amerikanska bombangreppen mot Nordvietnam
+          </note>
+          <u who="unknown" xml:id="i-0198b76c2d20210f-13" n="0198b76c">
             <seg n="161cb4a6">
               motortekniska åtgärder på bilar till begränsning av luftföroreningarna
               genom bilavgaser?
             </seg>
+          </u>
+          <note n="30186718">
+            När kan enligt herr statsrådets nuvarande uppfattning förslag
+            till sådan lagstiftning väntas?
+          </note>
+          <note n="41025dd6">
+            Denna anhållan bordlades.
+          </note>
+          <note n="96f42db6">
+            86
+          </note>
+          <note n="5965f907">
+            Interpellation ang. modernisering av almanackans namnlängd
+          </note>
+          <note n="f7a74df1">
+            Ordet lämnades på begäran till
+          </note>
+          <note n="43f0197d">
+            Herr NILSSON i Lönsboda (fp), som yttrade:
+          </note>
+          <u who="unknown" xml:id="i-0198b76c2d20210f-14" n="0198b76c">
             <seg n="dce4a444">
               Herr talman! Riksdagen beslöt år 1944 genom skrivelse nr 376
               anhålla om åtgärder för en modernisering av almanackans namnlängd.
@@ -1119,6 +1181,19 @@
               aktualiserats genom ett radioprogram och i en nyutkommen bok av
               fil. lic. Roland Otterbjörk.
             </seg>
+          </u>
+          <note n="bdfa042f">
+            Enligt motionären år 1944, Rickard Lindström, grundade sig den
+            förra revisionen av almanackan, år 1900, på en framställning från
+            riksdagen år 1899. Frågan var uppe också år 1936, men en motion
+            det året av herr Johannes Back avslogs. Vetenskapsakademien intog
+            såväl år 1936 som år 1944 en positiv hållning till revisionsförslaget.
+            Akademien föreslog sistnämnda år att »under sakkunnig ledning
+            namn borttages, som nu kunna anses föråldrade och försvunna eller
+            på väg att försvinna ur bruket, och i deras ställe andra insättas,
+            som faktiskt allmänt användas».
+          </note>
+          <u who="unknown" xml:id="i-0198b76c2d20210f-15" n="0198b76c">
             <seg n="6f5ed3f6">
               Under hänvisning till ovanstående får jag anhålla om andra kammarens
               tillstånd att till statsrådet och chefen för
@@ -1126,9 +1201,30 @@
             <seg n="490ca11f">
               ecklesiastikdepartementet få framställa följande fråga:
             </seg>
+          </u>
+          <note n="12685259">
+            Vill herr statsrådet vidta åtgärder för att riksdagens år 1944
+            uttalade hemställan om modernisering av almanackans namnlängd
+            kommer till stånd?
+          </note>
+          <note n="41025dd6">
+            Denna anhållan bordlades.
+          </note>
+          <note n="1091f7ba">
+            87
+          </note>
+          <u who="unknown" xml:id="i-0198b76c2d20210f-16" n="0198b76c">
             <seg n="bc18f5d5">
               Interpellation ang. de amerikanska bombangreppen mot Nordvietnam
             </seg>
+          </u>
+          <note n="f7a74df1">
+            Ordet lämnades på begäran till
+          </note>
+          <note n="47c0f50a">
+            Herr HERMANSSON (k), som yttrade:
+          </note>
+          <u who="unknown" xml:id="i-0198b76c2d20210f-17" n="0198b76c">
             <seg n="9ad906e5">
               Herr talman! De rapporter som biträdande redaktionschefen i New
               York Times, Harrison Salisbury, lämnat sin tidning — och som också
@@ -1156,6 +1252,18 @@
               dödar dess innevånare och förstör dess tillgångar. Det är en allmän
               uppfattning att de ameri-
             </seg>
+          </u>
+          <pb n="13" facs="https://betalab.kb.se/prot-1967--ak--1/prot_1967__ak__1-013.jp2/_view"/>
+          <note n="eadca71f">
+            14 Nr 1
+          </note>
+          <note type="date" n="268b4f14">
+            Torsdagen den 12 januari 1967
+          </note>
+          <note n="64870871">
+            Interpellation ang. direktiven för 1965 års försvarsutredning
+          </note>
+          <u who="unknown" xml:id="i-0198b76c2d20210f-18" n="0198b76c">
             <seg n="9568ec1e">
               kanska terrorbombningarna mot Demokratiska republiken Vietnam
               är ett viktigt hinder för ett slut över huvud taget på kriget
@@ -1188,6 +1296,29 @@
               bidra till att lindra svårigheter och lidanden, som vållats genom
               de amerikanska bombangreppen mot Demokratiska republiken Vietnam?
             </seg>
+          </u>
+          <note n="41025dd6">
+            Denna anhållan bordlades.
+          </note>
+          <note n="6da68ce4">
+            $8
+          </note>
+          <note n="64870871">
+            Interpellation ang. direktiven för 1965 års försvarsutredning
+          </note>
+          <note n="f7a74df1">
+            Ordet lämnades på begäran till
+          </note>
+          <note n="e393bd05">
+            Herr BOHMAN (h), som yttrade:
+          </note>
+          <note n="92b811ef">
+            Herr talman! Vid remissdebatten i höstas erinrade jag om statsministerns
+            uttalande i andra kammaren hösten 1962 i anledning av de förhoppningar
+            om samförstånd i försvarsfrågan som då framfördes från samtliga
+            borgerliga
+          </note>
+          <u who="unknown" xml:id="i-0198b76c2d20210f-19" n="0198b76c">
             <seg n="bb3aa4b2">
               oppositionsledare inför slutförhandlingarna för 1962 års försvarskommitté.
               I nämnda uttalande hade statsministern förklarat, att regeringen
@@ -1226,6 +1357,19 @@
               »beträffande såväl kostnadsramen för det militära försvaret som
               den allmänna inriktningen
             </seg>
+          </u>
+          <pb n="14" facs="https://betalab.kb.se/prot-1967--ak--1/prot_1967__ak__1-014.jp2/_view"/>
+          <note type="date" n="268b4f14">
+            Torsdagen den 12 januari 1967
+          </note>
+          <note n="e566fe32">
+            Nr 1 15
+          </note>
+          <note n="3cf7e502">
+            Interpellation ang. villkoren för erhållande av lokaliseringspolitiskt
+            stöd
+          </note>
+          <u who="unknown" xml:id="i-0198b76c2d20210f-20" n="0198b76c">
             <seg n="b8f94846">
               och sammansättningen av krigsmakten». Han underställde i anledning
               härav försvarsministern frågan, huruvida försvarsutredningens
@@ -1255,6 +1399,29 @@
               försvaret och dess möjligheter att hävda de intressen som vi alla
               väntar skall hävdas»?
             </seg>
+          </u>
+          <note n="41025dd6">
+            Denna anhållan bordlades.
+          </note>
+          <note n="175e3ce6">
+            89
+          </note>
+          <note n="3cf7e502">
+            Interpellation ang. villkoren för erhållande av lokaliseringspolitiskt
+            stöd
+          </note>
+          <note n="f7a74df1">
+            Ordet lämnades på begäran till
+          </note>
+          <note n="353d6b49">
+            Herr GUSTAFSSON i Skellefteå (fp), som yttrade:
+          </note>
+          <note n="ab04431b">
+            Herr talman! När riksdagen hösten 1964 fattade beslut angående
+            lokaliseringspolitiken anförde bankoutskottet i sitt yttrande
+            nr 48/1964 bl. a. följande:
+          </note>
+          <u who="unknown" xml:id="i-0198b76c2d20210f-21" n="0198b76c">
             <seg n="12151d02">
               »Beträffande frågan om på vilka orter inom norra stödområdet
               eller i särskilda fall utanför detta som det lokaliseringspolitiska
@@ -1273,6 +1440,11 @@
               storlek och karaktär hos de orter och regioner där stödåtgärder
               skall vidtagas bör enligt propositionen inte uppställas.»
             </seg>
+          </u>
+          <note n="89561ead">
+            Utskottet anslöt sig i denna fråga till vad som uttalades i propositionen.
+          </note>
+          <u who="unknown" xml:id="i-0198b76c2d20210f-22" n="0198b76c">
             <seg n="93659a50">
               De riktlinjer för lokaliseringspolitikens utformning som gavs
               i samband med riksdagsbeslutet var, som framgår av ovanstående
@@ -1287,6 +1459,19 @@
               de vunna erfarenheterna, dels också för de principer som statsrådet
               med ledning av dessa erfarenheter anser
             </seg>
+          </u>
+          <pb n="15" facs="https://betalab.kb.se/prot-1967--ak--1/prot_1967__ak__1-015.jp2/_view"/>
+          <note n="4e08a5da">
+            16 Nr 1
+          </note>
+          <note type="date" n="268b4f14">
+            Torsdagen den 12 januari 1967
+          </note>
+          <note n="203baab3">
+            Interpellation ang. transport av renar till gynnsammare betesområden,
+            m. m.
+          </note>
+          <u who="unknown" xml:id="i-0198b76c2d20210f-23" n="0198b76c">
             <seg n="95664520">
               skall vara vägledande när det gäller att avgöra om en ort skall
               godkännas för stödåtgärder eller inte.
@@ -1347,6 +1532,24 @@
               enligt statsrådets mening efter nu vunna erfarenheter bör ställas
               på lokaliseringsorten för att stöd skall beviljas?
             </seg>
+          </u>
+          <note n="41025dd6">
+            Denna anhållan bordlades.
+          </note>
+          <note n="98ca632c">
+            8 10
+          </note>
+          <note n="203baab3">
+            Interpellation ang. transport av renar till gynnsammare betesområden,
+            m. m.
+          </note>
+          <note n="f7a74df1">
+            Ordet lämnades på begäran till
+          </note>
+          <note n="c56f146a">
+            Herr ÖHVALL (fp), som yttrade:
+          </note>
+          <u who="unknown" xml:id="i-0198b76c2d20210f-24" n="0198b76c">
             <seg n="492c39da">
               Herr talman! Rennäringen i Lappland har under innevarande vinter
               drabbats hårt av ogynnsamma väderleksförhållanden. Redan under
@@ -1361,6 +1564,18 @@
               har genom den djupa snöbeläggningen blivit dödsfällor för renarna.
               I press och radio förekommer skrämmande och
             </seg>
+          </u>
+          <pb n="16" facs="https://betalab.kb.se/prot-1967--ak--1/prot_1967__ak__1-016.jp2/_view"/>
+          <note type="date" n="268b4f14">
+            Torsdagen den 12 januari 1967
+          </note>
+          <note n="3097102b">
+            Nr 1 17
+          </note>
+          <note n="2b49b8a0">
+            Interpellation ang. bostadslån för förbättring av äldre bostadsbestånd
+          </note>
+          <u who="unknown" xml:id="i-0198b76c2d20210f-25" n="0198b76c">
             <seg n="fb99825d">
               uppskakande skildringar om djuren och deras ägares nödsituation.
             </seg>
@@ -1380,6 +1595,23 @@
               i Boden för att rädda de lidande djuren och nedbringa skadeförlusterna
               för renägarna?
             </seg>
+          </u>
+          <note n="41025dd6">
+            Denna anhållan bordlades.
+          </note>
+          <note n="fab137d9">
+            8 11
+          </note>
+          <note n="2b49b8a0">
+            Interpellation ang. bostadslån för förbättring av äldre bostadsbestånd
+          </note>
+          <note n="f7a74df1">
+            Ordet lämnades på begäran till
+          </note>
+          <note n="0c7cb8d0">
+            Herr BERGLUND (fp), som yttrade:
+          </note>
+          <u who="unknown" xml:id="i-0198b76c2d20210f-26" n="0198b76c">
             <seg n="6875b699">
               Herr talman! I en alltmer hårdnande konjunktur och brist på kapital
               är det viktigt att överväganden sker om prioritering av olika
@@ -1431,221 +1663,7 @@
             <seg n="80fa595b">
               2. Om icke, avser statsrådet att påbörja en sådan undersökning?
             </seg>
-            <seg n="7775b57e">
-              form för ansökan. om anslutning till religiöst samfund eller
-              politiskt parti,
-            </seg>
-            <seg n="e06a9877">
-              berg, om ökad &lt;samhällsekonomisk forskning,
-            </seg>
-            <seg n="4b2e25f8">
-              Meddelande om enkla frågor
-            </seg>
-            <seg n="0016bc22">
-              herr Niblfors, till herr statsrådet och chefen för försvarsdepartementet
-              angående skyddet för TV- och radiosändare mot åverkan eller sabotage,
-            </seg>
-            <seg n="6a44919d">
-              herr Dickson, till herr statsrådet och chefen för justitiedepartementet
-              angående lagskyddet mot oljeutsläpp från fartyg i öppen sjö,
-            </seg>
-            <seg n="97c6209a">
-              herr Börjesson i Falköping, till herr statsrådet och chefen för
-              kommunikationsdepartementet angående den senaste taxehöjningens
-              inverkan på statens järnvägars konkurrenskraft,
-            </seg>
           </u>
-          <note n="f00b7c4d">
-            Herr talman! I en av statens luftvårdsnämnd år 1966 utgiven broschyr
-            »10 frågor och svar om bilavgaser» läm-
-          </note>
-          <pb n="11" facs="https://betalab.kb.se/prot-1967--ak--1/prot_1967__ak__1-011.jp2/_view"/>
-          <note n="7ac3d296">
-            12 Nr 1
-          </note>
-          <note n="44ae8179">
-            Torsdagen den 12 januari 1967
-          </note>
-          <note n="2b9d9a66">
-            Interpellation ang. åtgärder till begränsning av luftföroreningar
-            genom bilavgaser
-          </note>
-          <pb n="12" facs="https://betalab.kb.se/prot-1967--ak--1/prot_1967__ak__1-012.jp2/_view"/>
-          <note n="44ae8179">
-            Torsdagen den 12 januari 1967
-          </note>
-          <note n="88b8a7f7">
-            Nr 1 13
-          </note>
-          <note n="b5539a13">
-            Interpellation ang. modernisering av almanackans namnlängd —
-            Interpellation ang. de amerikanska bombangreppen mot Nordvietnam
-          </note>
-          <note n="30186718">
-            När kan enligt herr statsrådets nuvarande uppfattning förslag
-            till sådan lagstiftning väntas?
-          </note>
-          <note n="41025dd6">
-            Denna anhållan bordlades.
-          </note>
-          <note n="96f42db6">
-            86
-          </note>
-          <note n="5965f907">
-            Interpellation ang. modernisering av almanackans namnlängd
-          </note>
-          <note n="f7a74df1">
-            Ordet lämnades på begäran till
-          </note>
-          <note n="43f0197d">
-            Herr NILSSON i Lönsboda (fp), som yttrade:
-          </note>
-          <note n="bdfa042f">
-            Enligt motionären år 1944, Rickard Lindström, grundade sig den
-            förra revisionen av almanackan, år 1900, på en framställning från
-            riksdagen år 1899. Frågan var uppe också år 1936, men en motion
-            det året av herr Johannes Back avslogs. Vetenskapsakademien intog
-            såväl år 1936 som år 1944 en positiv hållning till revisionsförslaget.
-            Akademien föreslog sistnämnda år att »under sakkunnig ledning
-            namn borttages, som nu kunna anses föråldrade och försvunna eller
-            på väg att försvinna ur bruket, och i deras ställe andra insättas,
-            som faktiskt allmänt användas».
-          </note>
-          <note n="12685259">
-            Vill herr statsrådet vidta åtgärder för att riksdagens år 1944
-            uttalade hemställan om modernisering av almanackans namnlängd
-            kommer till stånd?
-          </note>
-          <note n="41025dd6">
-            Denna anhållan bordlades.
-          </note>
-          <note n="1091f7ba">
-            87
-          </note>
-          <note n="f7a74df1">
-            Ordet lämnades på begäran till
-          </note>
-          <note n="47c0f50a">
-            Herr HERMANSSON (k), som yttrade:
-          </note>
-          <pb n="13" facs="https://betalab.kb.se/prot-1967--ak--1/prot_1967__ak__1-013.jp2/_view"/>
-          <note n="eadca71f">
-            14 Nr 1
-          </note>
-          <note n="44ae8179">
-            Torsdagen den 12 januari 1967
-          </note>
-          <note n="64870871">
-            Interpellation ang. direktiven för 1965 års försvarsutredning
-          </note>
-          <note n="41025dd6">
-            Denna anhållan bordlades.
-          </note>
-          <note n="6da68ce4">
-            $8
-          </note>
-          <note n="64870871">
-            Interpellation ang. direktiven för 1965 års försvarsutredning
-          </note>
-          <note n="f7a74df1">
-            Ordet lämnades på begäran till
-          </note>
-          <note n="e393bd05">
-            Herr BOHMAN (h), som yttrade:
-          </note>
-          <note n="92b811ef">
-            Herr talman! Vid remissdebatten i höstas erinrade jag om statsministerns
-            uttalande i andra kammaren hösten 1962 i anledning av de förhoppningar
-            om samförstånd i försvarsfrågan som då framfördes från samtliga
-            borgerliga
-          </note>
-          <pb n="14" facs="https://betalab.kb.se/prot-1967--ak--1/prot_1967__ak__1-014.jp2/_view"/>
-          <note n="44ae8179">
-            Torsdagen den 12 januari 1967
-          </note>
-          <note n="e566fe32">
-            Nr 1 15
-          </note>
-          <note n="3cf7e502">
-            Interpellation ang. villkoren för erhållande av lokaliseringspolitiskt
-            stöd
-          </note>
-          <note n="41025dd6">
-            Denna anhållan bordlades.
-          </note>
-          <note n="175e3ce6">
-            89
-          </note>
-          <note n="3cf7e502">
-            Interpellation ang. villkoren för erhållande av lokaliseringspolitiskt
-            stöd
-          </note>
-          <note n="f7a74df1">
-            Ordet lämnades på begäran till
-          </note>
-          <note n="353d6b49">
-            Herr GUSTAFSSON i Skellefteå (fp), som yttrade:
-          </note>
-          <note n="ab04431b">
-            Herr talman! När riksdagen hösten 1964 fattade beslut angående
-            lokaliseringspolitiken anförde bankoutskottet i sitt yttrande
-            nr 48/1964 bl. a. följande:
-          </note>
-          <note n="89561ead">
-            Utskottet anslöt sig i denna fråga till vad som uttalades i propositionen.
-          </note>
-          <pb n="15" facs="https://betalab.kb.se/prot-1967--ak--1/prot_1967__ak__1-015.jp2/_view"/>
-          <note n="4e08a5da">
-            16 Nr 1
-          </note>
-          <note n="44ae8179">
-            Torsdagen den 12 januari 1967
-          </note>
-          <note n="203baab3">
-            Interpellation ang. transport av renar till gynnsammare betesområden,
-            m. m.
-          </note>
-          <note n="41025dd6">
-            Denna anhållan bordlades.
-          </note>
-          <note n="98ca632c">
-            8 10
-          </note>
-          <note n="203baab3">
-            Interpellation ang. transport av renar till gynnsammare betesområden,
-            m. m.
-          </note>
-          <note n="f7a74df1">
-            Ordet lämnades på begäran till
-          </note>
-          <note n="c56f146a">
-            Herr ÖHVALL (fp), som yttrade:
-          </note>
-          <pb n="16" facs="https://betalab.kb.se/prot-1967--ak--1/prot_1967__ak__1-016.jp2/_view"/>
-          <note n="44ae8179">
-            Torsdagen den 12 januari 1967
-          </note>
-          <note n="3097102b">
-            Nr 1 17
-          </note>
-          <note n="2b49b8a0">
-            Interpellation ang. bostadslån för förbättring av äldre bostadsbestånd
-          </note>
-          <note n="41025dd6">
-            Denna anhållan bordlades.
-          </note>
-          <note n="fab137d9">
-            8 11
-          </note>
-          <note n="2b49b8a0">
-            Interpellation ang. bostadslån för förbättring av äldre bostadsbestånd
-          </note>
-          <note n="f7a74df1">
-            Ordet lämnades på begäran till
-          </note>
-          <note n="0c7cb8d0">
-            Herr BERGLUND (fp), som yttrade:
-          </note>
           <note n="41025dd6">
             Denna anhållan bordlades.
           </note>
@@ -1757,6 +1775,12 @@
           <note n="30b63600">
             12 januari 1967
           </note>
+          <u who="unknown" xml:id="i-0198b76c2d20210f-27" n="0198b76c">
+            <seg n="7775b57e">
+              form för ansökan. om anslutning till religiöst samfund eller
+              politiskt parti,
+            </seg>
+          </u>
           <note n="50968f2d">
             nr 8, av herr Sjöholm m. fl., angående kommunala mandatperioder,
           </note>
@@ -1772,6 +1796,11 @@
           <note n="3869d57c">
             nr 11, av herrar Enskog och West-
           </note>
+          <u who="unknown" xml:id="i-0198b76c2d20210f-28" n="0198b76c">
+            <seg n="e06a9877">
+              berg, om ökad &lt;samhällsekonomisk forskning,
+            </seg>
+          </u>
           <note n="5509cb6d">
             nr 12, av herr Lundberg, om inrättande av vissa tjänster vid
             limnologiska institutionen vid Uppsala universitet,
@@ -1948,6 +1977,11 @@
           <note n="b4f33609">
             $ 16
           </note>
+          <u who="unknown" xml:id="i-0198b76c2d20210f-29" n="0198b76c">
+            <seg n="4b2e25f8">
+              Meddelande om enkla frågor
+            </seg>
+          </u>
           <note n="7c92b0bb">
             Meddelades, att herr talmannen tillställts 14 enkla frågor, nämligen
             av:
@@ -1965,6 +1999,12 @@
             jordbruksdepartementet angående ersättning för av gnagare förorsakade
             skador på inbärgad gröda,
           </note>
+          <u who="unknown" xml:id="i-0198b76c2d20210f-30" n="0198b76c">
+            <seg n="0016bc22">
+              herr Niblfors, till herr statsrådet och chefen för försvarsdepartementet
+              angående skyddet för TV- och radiosändare mot åverkan eller sabotage,
+            </seg>
+          </u>
           <note n="3bd028c4">
             herr Bengtson i Solna, till herr statsrådet och chefen för kommunikationsdepartementet
             angående åtgärder för att underlätta för fotgängare att passera
@@ -1978,11 +2018,17 @@
             herr Werbro, till herr statsrådet och chefen för justitiedepartementet
             angående begränsning av minderårigas rätt att inneha luftoch fjädervapen,
           </note>
+          <u who="unknown" xml:id="i-0198b76c2d20210f-31" n="0198b76c">
+            <seg n="6a44919d">
+              herr Dickson, till herr statsrådet och chefen för justitiedepartementet
+              angående lagskyddet mot oljeutsläpp från fartyg i öppen sjö,
+            </seg>
+          </u>
           <note n="d7519fb7">
             herr Dickson, till herr statsrådet och chefen för ecklesiastikdepartementet
             angående det relativa betygsättningssystemet,
           </note>
-          <note n="3c8b1d92">
+          <note type="date" n="55891a0e">
             Fredagen den 13 januari 1967
           </note>
           <note n="c68f9fe8">
@@ -1993,6 +2039,13 @@
             herr Dickson, till herr statsrådet och chefen för kommunikationsdepartementet
             angående åtgärder för att främja tillkomsten av el-drivna fordon,
           </note>
+          <u who="unknown" xml:id="i-0198b76c2d20210f-32" n="0198b76c">
+            <seg n="97c6209a">
+              herr Börjesson i Falköping, till herr statsrådet och chefen för
+              kommunikationsdepartementet angående den senaste taxehöjningens
+              inverkan på statens järnvägars konkurrenskraft,
+            </seg>
+          </u>
           <note n="19c4701f">
             herr Persson i Heden, till statsrådet fru Odhnoff angående förflyttningen
             av för samhällsvård omhändertagna barn,
@@ -2019,7 +2072,7 @@
           <note n="7f9b455f">
             Sune K. Johansson
           </note>
-          <note n="e2a5a123">
+          <note type="date" n="233ffb9c">
             Fredagen den 13 januari KL. 11.00
           </note>
           <note n="cf1e74e7">
@@ -2039,13 +2092,13 @@
             val lämnades på begäran ordet till
           </note>
           <pb n="20" facs="https://betalab.kb.se/prot-1967--ak--1/prot_1967__ak__1-020.jp2/_view"/>
-          <note n="bfcb5034">
+          <note type="date" n="e5eff8d9">
             Fredagen den 13 januari 1967 Nr 1 21
           </note>
           <note type="speaker" n="8526c1bd">
             Herr FÖRSTE VICE TALMANNEN, som yttrade:
           </note>
-          <u who="unknown" xml:id="i-80cae297b88d067b-3" n="0198b76c"/>
+          <u who="unknown" xml:id="i-0198b76c2d20210f-33" n="0198b76c"/>
           <note n="6c9aabff">
             Herr talman! För vart och ett av de val som skall företagas vid
             detta plenum ber jag att få avlämna en gemensam lista, vilken
@@ -2061,296 +2114,9 @@
             personer, vilkas namn i här angiven ordning upptagits å respektive
             listor, ha utsetts till ledamöter i
           </note>
-          <u who="unknown" xml:id="i-e7ffb9144a159289-3" n="0198b76c">
+          <u who="unknown" xml:id="i-0198b76c2d20210f-34" n="0198b76c">
             <seg n="421303d1">
               utrikesutskottet:
-            </seg>
-            <seg n="c36975d4">
-              Adamsson
-            </seg>
-            <seg n="8b2b4499">
-              statsutskottet:
-            </seg>
-            <seg n="5271f6e1">
-              Eliasson i Sundborn Bohman
-            </seg>
-            <seg n="f7597789">
-              Bergman
-            </seg>
-            <seg n="f038cfab">
-              Mattsson
-            </seg>
-            <seg n="efc8df49">
-              Allard
-            </seg>
-            <seg n="569de92a">
-              Gustafson i Göteborg Engkvist
-            </seg>
-            <seg n="cd13bb19">
-              Vigelsbo
-            </seg>
-            <seg n="309fa6f9">
-              Odhe
-            </seg>
-            <seg n="d3601e58">
-              Johansson i Torp Levin
-            </seg>
-            <seg n="e02d994e">
-              jordbruksutskottet:
-            </seg>
-            <seg n="447ffd4c"/>
-            <seg n="447ffd4c"/>
-            <seg n="447ffd4c"/>
-            <seg n="447ffd4c"/>
-            <seg n="447ffd4c"/>
-            <seg n="447ffd4c"/>
-            <seg n="447ffd4c"/>
-            <seg n="447ffd4c"/>
-            <seg n="447ffd4c"/>
-            <seg n="447ffd4c"/>
-            <seg n="447ffd4c"/>
-            <seg n="447ffd4c"/>
-            <seg n="447ffd4c"/>
-            <seg n="447ffd4c"/>
-            <seg n="447ffd4c"/>
-            <seg n="447ffd4c"/>
-            <seg n="447ffd4c"/>
-            <seg n="447ffd4c"/>
-            <seg n="447ffd4c"/>
-            <seg n="447ffd4c"/>
-            <seg n="447ffd4c"/>
-            <seg n="447ffd4c"/>
-            <seg n="fb62b306">
-              Allard Bergman
-            </seg>
-            <seg n="f65ab7f2">
-              Levin
-            </seg>
-            <seg n="447ffd4c"/>
-            <seg n="447ffd4c"/>
-            <seg n="447ffd4c"/>
-            <seg n="447ffd4c"/>
-            <seg n="447ffd4c"/>
-            <seg n="447ffd4c"/>
-            <seg n="447ffd4c"/>
-            <seg n="447ffd4c"/>
-            <seg n="447ffd4c"/>
-            <seg n="447ffd4c"/>
-            <seg n="447ffd4c"/>
-            <seg n="447ffd4c"/>
-            <seg n="447ffd4c"/>
-            <seg n="447ffd4c"/>
-            <seg n="447ffd4c"/>
-            <seg n="447ffd4c"/>
-            <seg n="447ffd4c"/>
-            <seg n="447ffd4c"/>
-            <seg n="447ffd4c"/>
-            <seg n="421303d1">
-              utrikesutskottet:
-            </seg>
-            <seg n="efc8df49">
-              Allard
-            </seg>
-            <seg n="3bc7088b">
-              Cassel
-            </seg>
-            <seg n="cbf4bbae">
-              Keijer
-            </seg>
-            <seg n="48d7ae8b">
-              Zetterberg
-            </seg>
-            <seg n="c367e375">
-              Boo
-            </seg>
-            <seg n="f7fa0fc9">
-              Henrikson
-            </seg>
-            <seg n="aa962099">
-              Martinsson
-            </seg>
-            <seg n="8b2b4499">
-              statsutskottet:
-            </seg>
-            <seg n="d21f6be7">
-              Kellgren
-            </seg>
-            <seg n="ee2cb8f2">
-              Svanberg
-            </seg>
-            <seg n="6a1e3939">
-              Sjönell
-            </seg>
-            <seg n="90bc5684">
-              Mundebo
-            </seg>
-            <seg n="45bed061">
-              Kristenson
-            </seg>
-            <seg n="c367e375">
-              Boo
-            </seg>
-            <seg n="2ac39863">
-              Sterne
-            </seg>
-            <seg n="34213b5c">
-              Wikner
-            </seg>
-            <seg n="693ad759">
-              Börjesson i Falköping
-            </seg>
-            <seg n="fe478995">
-              Löfgren
-            </seg>
-            <seg n="6db8105c">
-              Antonsson
-            </seg>
-            <seg n="48d7ae8b">
-              Zetterberg
-            </seg>
-            <seg n="cbf4bbae">
-              Keijer
-            </seg>
-            <seg n="aa962099">
-              Martinsson
-            </seg>
-            <seg n="0ebc4683">
-              Dockered
-            </seg>
-            <seg n="47b79919">
-              Sjöholm
-            </seg>
-            <seg n="6bde9fa7">
-              Ullsten
-            </seg>
-            <seg n="453e4795">
-              Svenning
-            </seg>
-            <seg n="8e7e13ef">
-              Ekström i Iggesund Hamrin i Kalmar Sundelin
-            </seg>
-            <seg n="c3a25d48">
-              iordbruksutskottet:
-            </seg>
-            <seg n="f7597789">
-              Bergman
-            </seg>
-            <seg n="4bfb4e67">
-              Wedén.
-            </seg>
-            <seg n="7e55cc31">
-              herr Hermansson, till hans excellens herr ministern för utrikes
-              ärendena angående de amerikanska bombangreppen mot Nordvietnam,
-            </seg>
-            <seg n="9c0208b7">
-              Herr talman! Genom ett flertal internationella konventioner är
-              rättsliga och humanitära regler i krigstillstånd noggrant och
-              utförligt angivna.
-            </seg>
-            <seg n="bac8d3b2">
-              Vårt land har i likhet med så gott som alla stater underskrivit
-              och ratificerat samtliga dessa internationella överenskommelser.
-            </seg>
-            <seg n="62241629">
-              Erfarenheterna har dock visat — icke minst under det nu pågående
-              kriget i Vietnam — att många av dessa bestämmelser i praktiken
-              tillmätes litet värde. Tendensen synes i stället vara att krigföringen
-              i modern tid blir allt omänskligare.
-            </seg>
-            <seg n="46bfc9ac">
-              »De höga fördragsslutande parterna förbinder sig att såväl i
-              fredstid som i krigstid inom sina respektive länder ge största
-              möjliga spridning åt texten till denna konvention och särskilt
-              att införa studier därav i planerna för den militära och såvitt
-              möjligt den civila undervisningen, i syfte att konventionens
-            </seg>
-            <seg n="b93a3bd5">
-              Då man borde kunna förutsätta att vårt land med dess humanitära
-              traditioner vore särskilt intresserat av att sprida denna kännedom,
-              hemställer jag om kammarens tillstånd att till statsrådet och
-              chefen för försvarsdepartementet få ställa följande fråga:
-            </seg>
-            <seg n="077108e7">
-              Vill statsrådet upplysa om i vad mån det i den teoretiska utbildningen
-              för
-            </seg>
-            <seg n="6e4960e0">
-              Interpellation ang. åtgärder för att minska arbetslösheten i
-              norrlandslänen
-            </seg>
-            <seg n="6e4960e0">
-              Interpellation ang. åtgärder för att minska arbetslösheten i
-              norrlandslänen
-            </seg>
-            <seg n="df1af135">
-              Herr talman! Försämringen i sysselsättningsläget i landet gör
-              sig speciellt märkbar i norrlandslänen. I de norrländska länsarbetsnämndernas
-              rapporter till arbetsmarknadsstyrelsen inför år 1967 är tongångarna
-              övervägande pessimistiska. Osäkrare än på länge, rapporterar länsarbetsnämnden
-              i Västernorrland. Från Norrbotten anföres att svåra sysselsättningsproblem
-              väntas uppstå i stora delar av länet.
-            </seg>
-            <seg n="78dcb0fb">
-              Några = delsiffror illustrerar detta. Västernorrlands län har
-              en bruttoarbetslöshet för december månad 1966 på 2167 personer,
-              varav sysselsatta i beredskapsarbete 481. I Västerbottens län
-              är antalet arbetslösa 285 fler än under motsvarande tid i fjol.
-              Gävleborgs län rapporterar 1543 arbetslösa, vilket utgör en ökning
-              med 665. Norrbottens totala arbetslöshetssiffra är 5 244, varav
-              2197 har beredskapsarbete och 1648 placerats under utbildning.
-              Här skall observeras att den omfattande dolda kvinnliga arbetslösheten
-              inte finns med i dessa siffror.
-            </seg>
-            <seg n="99b878ba">
-              Mot denna bakgrund är det anmärkningsvärt att i årets finansplan,
-              s. 27, talas om att »en reduktion av de allmänna beredskapsarbetena
-              förutsättes komma till stånd. Detta är möjligt bl. a. med hänsyn
-              till det förbättrade sysselsättningsläget i Norrland». Tills vidare
-              synes i stället en ökad satsning på be-
-            </seg>
-            <seg n="f6742a31">
-              redskapsarbetena vara motiverad och inte minskning av dessa.
-            </seg>
-            <seg n="ab17a95e">
-              Men lösningen på längre sikt kan inte ligga i ordnandet av beredskapsarbeten,
-              Den måste uppnås genom konkreta åtgärder och en planering av sådana
-              åtgärder, som kan innebära en reell förbättring i sysselsättningsläget.
-              För de berörda arbetslösa och deras familjer är en klarläggande
-              redovisning av vilka åtgärder regeringen planerar i sådan riktning
-              av största intresse. Detta gäller också kommuner och landsting,
-              vilkas planering i fråga om byggandet av bostäder, skolor, sjukhus,
-              serviceinrättningar m. m. förutsätter kännedom om arten och omfattningen
-              av de näringspolitiska insatserna. Även om det på nuvarande stadium
-              endast är möjligt att delvis ge en sådan klarläggande redovisning
-              bör detta ske.
-            </seg>
-            <seg n="9520de33">
-              Med hänvisning till det anförda hemställer jag om kammarens tillstånd
-              att till statsrådet och chefen för inrikesdepartementet få rikta
-              följande fråga:
-            </seg>
-            <seg n="58930db6">
-              Vill statsrådet ge en översiktlig redovisning av de åtgärder
-              regeringen närmast planlägger för att minska arbetslösheten i
-              norrlandslänen, såväl beträffande erforderliga beredskapsarbeten
-              som i syfte att på längre sikt förbättra sysselsättningssituationen
-              i dessa landsdelar?
-            </seg>
-            <seg n="9f7823e1">
-              Med tillsättandet av en maskinskrivartjänst skulle tills vidare
-              anstå.
-            </seg>
-            <seg n="8a6ec686">
-              Herr talman! Herr Dickson har frågat om jag avser att föreslå
-              den ändringen beträffande tillämpningen av den s. k. 80-procentregeln
-              vid beskattningen att denna regel iakttas ex officio.
-            </seg>
-            <seg n="8f78cf60">
-              Av taxeringsoch uppbördstekniska skäl har det hittills inte varit
-              möjligt att tillgodose det i och för sig berättigade önskemålet
-              att 80-procentregeln skulle iakttas ex officio vid skattedebiteringen.
-              Avsikten är att undersöka om förutsättningar härför föreligger
-              efter den
             </seg>
           </u>
           <note n="f06206bb">
@@ -2377,6 +2143,11 @@
           <note n="af187dde">
             konstitutionsutskottet:
           </note>
+          <u who="unknown" xml:id="i-0198b76c2d20210f-35" n="0198b76c">
+            <seg n="c36975d4">
+              Adamsson
+            </seg>
+          </u>
           <note n="2fc50852">
             Nilsson i Östersund
           </note>
@@ -2390,6 +2161,11 @@
             Magnusson i Tumhult Thunvall, fru Johansson i Trollhättan Hamrin
             i Jönköping Larsson i Luttra
           </note>
+          <u who="unknown" xml:id="i-0198b76c2d20210f-36" n="0198b76c">
+            <seg n="8b2b4499">
+              statsutskottet:
+            </seg>
+          </u>
           <note n="63d0a346">
             Karlsson i Olofström Blidfors
           </note>
@@ -2399,12 +2175,25 @@
           <note n="9358e80b">
             Almgren
           </note>
+          <u who="unknown" xml:id="i-0198b76c2d20210f-37" n="0198b76c">
+            <seg n="5271f6e1">
+              Eliasson i Sundborn Bohman
+            </seg>
+          </u>
           <note n="93661b64">
             Mellqvist Lewén-Eliasson, fru
           </note>
           <note n="f0bf231a">
             Nihlfors
           </note>
+          <u who="unknown" xml:id="i-0198b76c2d20210f-38" n="0198b76c">
+            <seg n="f7597789">
+              Bergman
+            </seg>
+            <seg n="f038cfab">
+              Mattsson
+            </seg>
+          </u>
           <note n="7cf35269">
             Turesson
           </note>
@@ -2414,6 +2203,17 @@
           <note n="3bbe4412">
             bevillningsutskottet: Brandt
           </note>
+          <u who="unknown" xml:id="i-0198b76c2d20210f-39" n="0198b76c">
+            <seg n="efc8df49">
+              Allard
+            </seg>
+            <seg n="569de92a">
+              Gustafson i Göteborg Engkvist
+            </seg>
+            <seg n="cd13bb19">
+              Vigelsbo
+            </seg>
+          </u>
           <note n="81510182">
             Magnusson i Borås Asp
           </note>
@@ -2449,6 +2249,11 @@
           <note n="298ea9c0">
             Lundberg
           </note>
+          <u who="unknown" xml:id="i-0198b76c2d20210f-40" n="0198b76c">
+            <seg n="309fa6f9">
+              Odhe
+            </seg>
+          </u>
           <note n="a02ed53a">
             Rimmerfors Ekendahl, fru Gustavsson i Alvesta Wetterström, fröken
             Bengtsson i Varberg Anderson i Sundsvall
@@ -2456,6 +2261,11 @@
           <note n="ed01f1bd">
             tredje lagutskottet:
           </note>
+          <u who="unknown" xml:id="i-0198b76c2d20210f-41" n="0198b76c">
+            <seg n="d3601e58">
+              Johansson i Torp Levin
+            </seg>
+          </u>
           <pb n="21" facs="https://betalab.kb.se/prot-1967--ak--1/prot_1967__ak__1-021.jp2/_view"/>
           <note n="015707d6">
             22 Nr 1
@@ -2469,6 +2279,11 @@
           <note n="eeff562c">
             Persson i Tandö Tobé
           </note>
+          <u who="unknown" xml:id="i-0198b76c2d20210f-42" n="0198b76c">
+            <seg n="e02d994e">
+              jordbruksutskottet:
+            </seg>
+          </u>
           <note n="0bf14e3f">
             Lindström Lindskog, fru
           </note>
@@ -2501,10 +2316,11 @@
           <note n="2dbfe704">
             Rimås
           </note>
+          <u who="unknown" xml:id="i-0198b76c2d20210f-43" n="0198b76c"/>
           <note n="349b7edc">
             Revisorer
           </note>
-          <note n="3c8b1d92">
+          <note type="date" n="55891a0e">
             Fredagen den 13 januari 1967
           </note>
           <note n="57acbb2f">
@@ -2535,40 +2351,52 @@
           <note n="8ed101cc">
             Suppleanter
           </note>
+          <u who="unknown" xml:id="i-0198b76c2d20210f-44" n="0198b76c"/>
           <note n="8620309c">
             Riksdagsman Levin, H. S., Kämpinge
           </note>
           <note n="4aacd95b">
             Riksdagsman Andersson, A. E., Essvik
           </note>
+          <u who="unknown" xml:id="i-0198b76c2d20210f-45" n="0198b76c"/>
           <note n="e527c1d7">
             Riksdagsledamot fru Johansson, V. E.,
           </note>
           <note n="768bfdcf">
             Riksdagsman Lindström, H. B., Lock-
           </note>
+          <u who="unknown" xml:id="i-0198b76c2d20210f-46" n="0198b76c"/>
           <note n="a8647b72">
             Skövde ne, Brunflo Riksdagsman von Friesen, O. B., Gö- Riksdagsman
             Gustafsson, J. A. T., Boteborg rås
           </note>
+          <u who="unknown" xml:id="i-0198b76c2d20210f-47" n="0198b76c"/>
           <note n="315fae64">
             Riksdagsman Odhe, N. S., Vinninga
           </note>
           <note n="aee424fa">
             Riksdagsledamot fru Torbrink, T. J. L., Kalmar
           </note>
+          <u who="unknown" xml:id="i-0198b76c2d20210f-48" n="0198b76c"/>
           <note n="472ead57">
             Riksdagsman Hansson, N. G., Skegrie
           </note>
           <note n="f0783798">
             Riksdagsman Larsson, G. K. V., Luttra, Falköping
           </note>
+          <u who="unknown" xml:id="i-0198b76c2d20210f-49" n="0198b76c"/>
           <note n="2fe77213">
             Riksdagsman Dickson, J. I. A., Alingsås
           </note>
+          <u who="unknown" xml:id="i-0198b76c2d20210f-50" n="0198b76c">
+            <seg n="447ffd4c"/>
+          </u>
           <note n="8215a2fc">
             Riksdagsman Magnusson, E. O. B., Tumhult, Målaskog
           </note>
+          <u who="unknown" xml:id="i-0198b76c2d20210f-51" n="0198b76c">
+            <seg n="447ffd4c"/>
+          </u>
           <note n="e635d84e">
             Sedan denna lista upplästs och av kammaren godkänts, förklarades
             ha blivit utsedda till statsrevisorer herr Levin, fru Johansson
@@ -2580,7 +2408,7 @@
             i Luttra och Magnusson i Tumhult.
           </note>
           <pb n="22" facs="https://betalab.kb.se/prot-1967--ak--1/prot_1967__ak__1-022.jp2/_view"/>
-          <note n="511679c1">
+          <note type="date" n="07949c7d">
             Fredagen den 13 januari 1967 Nr 1 23
           </note>
           <note n="d3fcd73c">
@@ -2590,6 +2418,7 @@
             Företogs val av tjugofem ledamöter i riksdagens krigsdelegation
             jämte suppleanter för dessa. Den av herr förste
           </note>
+          <u who="unknown" xml:id="i-0198b76c2d20210f-52" n="0198b76c"/>
           <note n="6a47ca6d">
             Ledamöter
           </note>
@@ -2601,80 +2430,117 @@
           <note n="8ed101cc">
             Suppleanter
           </note>
+          <u who="unknown" xml:id="i-0198b76c2d20210f-53" n="0198b76c"/>
           <note n="f6a8fe74">
             Erlander
           </note>
           <note n="e2e42756">
             Edenman
           </note>
+          <u who="unknown" xml:id="i-0198b76c2d20210f-54" n="0198b76c"/>
           <note n="db92cb00">
             Nilsson i Stockholm
           </note>
           <note n="d7da74f5">
             Gustafsson i Stockholm
           </note>
+          <u who="unknown" xml:id="i-0198b76c2d20210f-55" n="0198b76c"/>
           <note n="3a83cbef">
             Ohlin
           </note>
           <note n="c2aabc0f">
             Ståhl
           </note>
+          <u who="unknown" xml:id="i-0198b76c2d20210f-56" n="0198b76c"/>
           <note n="579be390">
             Johansson i Ljungby
           </note>
           <note n="e9ffbf27">
             Lundkvist
           </note>
+          <u who="unknown" xml:id="i-0198b76c2d20210f-57" n="0198b76c">
+            <seg n="447ffd4c"/>
+            <seg n="447ffd4c"/>
+            <seg n="447ffd4c"/>
+            <seg n="447ffd4c"/>
+            <seg n="447ffd4c"/>
+          </u>
           <note n="f76d4b10">
             Hedlund Eriksson i Bäckmora Cassel Magnusson i Borås Thapper
             Lindholm
           </note>
+          <u who="unknown" xml:id="i-0198b76c2d20210f-58" n="0198b76c">
+            <seg n="fb62b306">
+              Allard Bergman
+            </seg>
+          </u>
           <note n="c7fe6029">
             Wedén von Friesen
           </note>
+          <u who="unknown" xml:id="i-0198b76c2d20210f-59" n="0198b76c">
+            <seg n="f65ab7f2">
+              Levin
+            </seg>
+          </u>
           <note n="a26739a8">
             Blidfors
           </note>
+          <u who="unknown" xml:id="i-0198b76c2d20210f-60" n="0198b76c"/>
           <note n="e1b6bfad">
             Hansson i Skegrie
           </note>
           <note n="6eed2349">
             Svensson i Vä
           </note>
+          <u who="unknown" xml:id="i-0198b76c2d20210f-61" n="0198b76c"/>
           <note n="475369e9">
             Bohman
           </note>
           <note n="53153f7b">
             Björkman
           </note>
+          <u who="unknown" xml:id="i-0198b76c2d20210f-62" n="0198b76c"/>
           <note n="5008d413">
             Bergegren, fröken
           </note>
           <note n="83411bb7">
             Johansson i Simrishamn
           </note>
+          <u who="unknown" xml:id="i-0198b76c2d20210f-63" n="0198b76c">
+            <seg n="447ffd4c"/>
+            <seg n="447ffd4c"/>
+          </u>
           <note n="a352575a">
             Gustafsson i Skellefteå Antby Eriksson i Stockholm, fru Hagnell
             Skoglund Lindahl
           </note>
+          <u who="unknown" xml:id="i-0198b76c2d20210f-64" n="0198b76c"/>
           <note n="5bf0c0cc">
             Eliasson i Sundborn
           </note>
           <note n="58b5f0f9">
             Larsson i Norderön
           </note>
+          <u who="unknown" xml:id="i-0198b76c2d20210f-65" n="0198b76c"/>
           <note n="0241514a">
             Bengtsson i Varberg
           </note>
           <note n="0e3532d2">
             Svanberg
           </note>
+          <u who="unknown" xml:id="i-0198b76c2d20210f-66" n="0198b76c"/>
           <note n="a855db32">
             Eliasson i Moholm
           </note>
           <note n="91a01e6a">
             Wetterström, fröken
           </note>
+          <u who="unknown" xml:id="i-0198b76c2d20210f-67" n="0198b76c">
+            <seg n="447ffd4c"/>
+            <seg n="447ffd4c"/>
+            <seg n="447ffd4c"/>
+            <seg n="447ffd4c"/>
+          </u>
           <note n="acf6e68c">
             Nihlfors Wiklund i Stockholm Renström-Ingenäs, fru Martinsson
           </note>
@@ -2684,12 +2550,19 @@
           <note n="bab907d3">
             Wahlund Larsson i Luttra Alemyr Carlsson i Tyresö
           </note>
+          <u who="unknown" xml:id="i-0198b76c2d20210f-68" n="0198b76c">
+            <seg n="447ffd4c"/>
+          </u>
           <note n="316c2b32">
             Nettelbrandt, fru
           </note>
+          <u who="unknown" xml:id="i-0198b76c2d20210f-69" n="0198b76c"/>
           <note n="bb760856">
             Mundebo
           </note>
+          <u who="unknown" xml:id="i-0198b76c2d20210f-70" n="0198b76c">
+            <seg n="447ffd4c"/>
+          </u>
           <pb n="23" facs="https://betalab.kb.se/prot-1967--ak--1/prot_1967__ak__1-023.jp2/_view"/>
           <note n="8e3ca50f">
             24 Nr 1
@@ -2753,7 +2626,7 @@
             17 i första lagutskottet, 19 i andra lagutskottet, 17 i tredje
             lag-
           </note>
-          <note n="3c8b1d92">
+          <note type="date" n="55891a0e">
             Fredagen den 13 januari 1967
           </note>
           <note n="5de52c3d">
@@ -2767,10 +2640,23 @@
             här angiven ordning upptagits å respektive listor, utsedda till
             suppleanter i
           </note>
+          <u who="unknown" xml:id="i-0198b76c2d20210f-71" n="0198b76c">
+            <seg n="421303d1">
+              utrikesutskottet:
+            </seg>
+            <seg n="efc8df49">
+              Allard
+            </seg>
+          </u>
           <note n="12a65cf4">
             Eriksson i Stockholm, fru Gustafson i Göteborg Bengtsson i Varberg
             Wahlund
           </note>
+          <u who="unknown" xml:id="i-0198b76c2d20210f-72" n="0198b76c">
+            <seg n="3bc7088b">
+              Cassel
+            </seg>
+          </u>
           <note n="f98e597c">
             Carlsson i Tyresö Eliasson i Moholm
           </note>
@@ -2780,30 +2666,58 @@
           <note n="8f51a05f">
             Andersson i Billingsfors Lindahl
           </note>
+          <u who="unknown" xml:id="i-0198b76c2d20210f-73" n="0198b76c">
+            <seg n="cbf4bbae">
+              Keijer
+            </seg>
+          </u>
           <note n="3d535713">
             Andersson i Storfors Dockered
           </note>
           <note n="898770ca">
             Wennerfors
           </note>
+          <u who="unknown" xml:id="i-0198b76c2d20210f-74" n="0198b76c">
+            <seg n="48d7ae8b">
+              Zetterberg
+            </seg>
+          </u>
           <note n="4fdac14e">
             Carlsson i Tyresö Werbro
           </note>
           <note n="0423a7e6">
             Mossberg
           </note>
+          <u who="unknown" xml:id="i-0198b76c2d20210f-75" n="0198b76c">
+            <seg n="c367e375">
+              Boo
+            </seg>
+          </u>
           <note n="b946f19a">
             Lothigius
           </note>
           <note n="5fdced24">
             Nilsson i Kristianstad Norrby
           </note>
+          <u who="unknown" xml:id="i-0198b76c2d20210f-76" n="0198b76c">
+            <seg n="f7fa0fc9">
+              Henrikson
+            </seg>
+            <seg n="aa962099">
+              Martinsson
+            </seg>
+          </u>
           <note n="7d4cda3f">
             Gustafsson i Stenkyrka Werner
           </note>
           <note n="bfe74254">
             Lindberg
           </note>
+          <u who="unknown" xml:id="i-0198b76c2d20210f-77" n="0198b76c">
+            <seg n="8b2b4499">
+              statsutskottet:
+            </seg>
+          </u>
           <note n="1bb1ecd6">
             Arvidson
           </note>
@@ -2820,6 +2734,11 @@
             Gustafsson i Uddevalla
           </note>
           <pb n="24" facs="https://betalab.kb.se/prot-1967--ak--1/prot_1967__ak__1-024.jp2/_view"/>
+          <u who="unknown" xml:id="i-0198b76c2d20210f-78" n="0198b76c">
+            <seg n="d21f6be7">
+              Kellgren
+            </seg>
+          </u>
           <note n="12b0b6aa">
             Nelander Fagerlund Antonsson Björkman
           </note>
@@ -2844,9 +2763,22 @@
           <note n="99280865">
             Lindahl
           </note>
+          <u who="unknown" xml:id="i-0198b76c2d20210f-79" n="0198b76c">
+            <seg n="ee2cb8f2">
+              Svanberg
+            </seg>
+            <seg n="6a1e3939">
+              Sjönell
+            </seg>
+          </u>
           <note n="793991c4">
             Lindkvist
           </note>
+          <u who="unknown" xml:id="i-0198b76c2d20210f-80" n="0198b76c">
+            <seg n="90bc5684">
+              Mundebo
+            </seg>
+          </u>
           <note n="e9065d30">
             Petersson
           </note>
@@ -2863,6 +2795,14 @@
           <note n="d12c31fb">
             Enskog
           </note>
+          <u who="unknown" xml:id="i-0198b76c2d20210f-81" n="0198b76c">
+            <seg n="45bed061">
+              Kristenson
+            </seg>
+            <seg n="c367e375">
+              Boo
+            </seg>
+          </u>
           <note n="53153f7b">
             Björkman
           </note>
@@ -2875,6 +2815,14 @@
           <note n="e3ef60a7">
             Franzén i Träkumla Lothigius Hammarsten
           </note>
+          <u who="unknown" xml:id="i-0198b76c2d20210f-82" n="0198b76c">
+            <seg n="2ac39863">
+              Sterne
+            </seg>
+            <seg n="34213b5c">
+              Wikner
+            </seg>
+          </u>
           <note n="4bbc8c1d">
             Josefsson i Halmstad Dahlgren
           </note>
@@ -2884,18 +2832,33 @@
           <note n="2356720f">
             Ööhvall
           </note>
+          <u who="unknown" xml:id="i-0198b76c2d20210f-83" n="0198b76c">
+            <seg n="693ad759">
+              Börjesson i Falköping
+            </seg>
+          </u>
           <note n="e1e6f848">
             bankoutskottet: Ekström i Iggesund
           </note>
-          <note n="4d7e74cb">
+          <note type="date" n="c4c15d94">
             Fredagen den 13 januari 1967 Nr 1 25
           </note>
           <note n="3a689b23">
             Rask
           </note>
+          <u who="unknown" xml:id="i-0198b76c2d20210f-84" n="0198b76c">
+            <seg n="fe478995">
+              Löfgren
+            </seg>
+          </u>
           <note n="1a1b4f5f">
             Haglund
           </note>
+          <u who="unknown" xml:id="i-0198b76c2d20210f-85" n="0198b76c">
+            <seg n="6db8105c">
+              Antonsson
+            </seg>
+          </u>
           <note n="4048b203">
             Nordgren
           </note>
@@ -2917,6 +2880,20 @@
           <note n="823f7f46">
             första lagutskottet: Sjövall, fru
           </note>
+          <u who="unknown" xml:id="i-0198b76c2d20210f-86" n="0198b76c">
+            <seg n="48d7ae8b">
+              Zetterberg
+            </seg>
+            <seg n="cbf4bbae">
+              Keijer
+            </seg>
+            <seg n="aa962099">
+              Martinsson
+            </seg>
+            <seg n="0ebc4683">
+              Dockered
+            </seg>
+          </u>
           <note n="b924ae38">
             Oskarson
           </note>
@@ -2924,6 +2901,11 @@
             Andersson i Strängnäs, fröken Lindekvist, fru Wiklund i Stockholm
             Jönsson i Malmö Larsson i Norderön Fridolfsson i Stockholm Björk
           </note>
+          <u who="unknown" xml:id="i-0198b76c2d20210f-87" n="0198b76c">
+            <seg n="47b79919">
+              Sjöholm
+            </seg>
+          </u>
           <note n="64bada48">
             Hansson i Piteå Elmstedt
           </note>
@@ -2956,7 +2938,7 @@
             Carlsson i Göteborg Jonsson
           </note>
           <pb n="25" facs="https://betalab.kb.se/prot-1967--ak--1/prot_1967__ak__1-025.jp2/_view"/>
-          <note n="c408a417">
+          <note type="date" n="62e70a05">
             Nr 1 Fredagen den 13 januari 1967
           </note>
           <note n="6a160172">
@@ -2965,9 +2947,22 @@
           <note n="bbd86a42">
             Larsson i Öskeviksby Åkerlind
           </note>
+          <u who="unknown" xml:id="i-0198b76c2d20210f-88" n="0198b76c">
+            <seg n="6bde9fa7">
+              Ullsten
+            </seg>
+          </u>
           <note n="ed01f1bd">
             tredje lagutskottet:
           </note>
+          <u who="unknown" xml:id="i-0198b76c2d20210f-89" n="0198b76c">
+            <seg n="453e4795">
+              Svenning
+            </seg>
+            <seg n="8e7e13ef">
+              Ekström i Iggesund Hamrin i Kalmar Sundelin
+            </seg>
+          </u>
           <note n="df520c8c">
             Franzén i Träkumla Bengtson i Solna Anderson i Lerum, fröken
             Ekroth, fru
@@ -2984,6 +2979,11 @@
           <note n="ff458165">
             Josefson i Arrie Krönmark
           </note>
+          <u who="unknown" xml:id="i-0198b76c2d20210f-90" n="0198b76c">
+            <seg n="c3a25d48">
+              iordbruksutskottet:
+            </seg>
+          </u>
           <note n="9908e120">
             Jäderberg, fru Lundmark
           </note>
@@ -3076,9 +3076,19 @@
           <note n="28a558b7">
             Kellgren Hammarberg Edström
           </note>
+          <u who="unknown" xml:id="i-0198b76c2d20210f-91" n="0198b76c">
+            <seg n="f7597789">
+              Bergman
+            </seg>
+          </u>
           <note n="972586bf">
             Nilsson i Tvärålund Eliasson i Moholm Adamsson
           </note>
+          <u who="unknown" xml:id="i-0198b76c2d20210f-92" n="0198b76c">
+            <seg n="4bfb4e67">
+              Wedén.
+            </seg>
+          </u>
           <note n="6b4dfeb0">
             Efter det denna lista av herr talmannen upplästs och av kammaren
             godkänts, förklarades de å listan upptagna personerna utsedda
@@ -3099,7 +3109,7 @@
             sig tilldragit.
           </note>
           <pb n="26" facs="https://betalab.kb.se/prot-1967--ak--1/prot_1967__ak__1-026.jp2/_view"/>
-          <note n="3c8b1d92">
+          <note type="date" n="55891a0e">
             Fredagen den 13 januari 1967
           </note>
           <note n="63506362">
@@ -3226,7 +3236,7 @@
           <note n="20a51db8">
             28 Nr 1
           </note>
-          <note n="3c8b1d92">
+          <note type="date" n="55891a0e">
             Fredagen den 13 januari 1967
           </note>
           <note n="fb8bb890">
@@ -3239,6 +3249,12 @@
             ecklesiastikdepartementet angående modernisering av almanackans
             namnlängd,
           </note>
+          <u who="unknown" xml:id="i-0198b76c2d20210f-93" n="0198b76c">
+            <seg n="7e55cc31">
+              herr Hermansson, till hans excellens herr ministern för utrikes
+              ärendena angående de amerikanska bombangreppen mot Nordvietnam,
+            </seg>
+          </u>
           <note n="312fc2de">
             herr Bohman, till hans excellens herr statsministern angående
             direktiven för 1965 års försvarsutredning,
@@ -3285,6 +3301,13 @@
           <note n="f41835bf">
             Herr HECTOR (k), som yttrade:
           </note>
+          <u who="unknown" xml:id="i-0198b76c2d20210f-94" n="0198b76c">
+            <seg n="9c0208b7">
+              Herr talman! Genom ett flertal internationella konventioner är
+              rättsliga och humanitära regler i krigstillstånd noggrant och
+              utförligt angivna.
+            </seg>
+          </u>
           <note n="022c7115">
             De gäller bl. a. »förbud att anfalla och bombardera städer, byar
             eller byggnader, som icke försvaras» (Haagkonventionen 1907),
@@ -3295,21 +3318,60 @@
             krigsrättsställning, definition av begreppen krigsförbrytelse
             och krigsförbrytare = (Geneévekonventionen 1949 m. fl).
           </note>
+          <u who="unknown" xml:id="i-0198b76c2d20210f-95" n="0198b76c">
+            <seg n="bac8d3b2">
+              Vårt land har i likhet med så gott som alla stater underskrivit
+              och ratificerat samtliga dessa internationella överenskommelser.
+            </seg>
+            <seg n="62241629">
+              Erfarenheterna har dock visat — icke minst under det nu pågående
+              kriget i Vietnam — att många av dessa bestämmelser i praktiken
+              tillmätes litet värde. Tendensen synes i stället vara att krigföringen
+              i modern tid blir allt omänskligare.
+            </seg>
+          </u>
           <note n="7b995c93">
             I bl. a. Genévekonventionen den 12 augusti 1949, avd. VI, artikel
             127, anföres följande:
           </note>
+          <u who="unknown" xml:id="i-0198b76c2d20210f-96" n="0198b76c">
+            <seg n="46bfc9ac">
+              »De höga fördragsslutande parterna förbinder sig att såväl i
+              fredstid som i krigstid inom sina respektive länder ge största
+              möjliga spridning åt texten till denna konvention och särskilt
+              att införa studier därav i planerna för den militära och såvitt
+              möjligt den civila undervisningen, i syfte att konventionens
+            </seg>
+          </u>
           <note n="035ad190">
             grundsatser bringas till hela denna krigsmakts och befolknings
             kännedom, — — —»
           </note>
+          <u who="unknown" xml:id="i-0198b76c2d20210f-97" n="0198b76c">
+            <seg n="b93a3bd5">
+              Då man borde kunna förutsätta att vårt land med dess humanitära
+              traditioner vore särskilt intresserat av att sprida denna kännedom,
+              hemställer jag om kammarens tillstånd att till statsrådet och
+              chefen för försvarsdepartementet få ställa följande fråga:
+            </seg>
+            <seg n="077108e7">
+              Vill statsrådet upplysa om i vad mån det i den teoretiska utbildningen
+              för
+            </seg>
+          </u>
           <pb n="28" facs="https://betalab.kb.se/prot-1967--ak--1/prot_1967__ak__1-028.jp2/_view"/>
-          <note n="3c8b1d92">
+          <note type="date" n="55891a0e">
             Fredagen den 13 januari 1967
           </note>
           <note n="c4e60958">
             Nr 1 29
           </note>
+          <u who="unknown" xml:id="i-0198b76c2d20210f-98" n="0198b76c">
+            <seg n="6e4960e0">
+              Interpellation ang. åtgärder för att minska arbetslösheten i
+              norrlandslänen
+            </seg>
+          </u>
           <note n="465db249">
             officerare och värnpliktiga ingår undervisning i de internationella
             konventionsbestämmelserna angående rättsliga och humanitära regler
@@ -3321,12 +3383,74 @@
           <note n="2e492241">
             $ 19
           </note>
+          <u who="unknown" xml:id="i-0198b76c2d20210f-99" n="0198b76c">
+            <seg n="6e4960e0">
+              Interpellation ang. åtgärder för att minska arbetslösheten i
+              norrlandslänen
+            </seg>
+          </u>
           <note n="f7a74df1">
             Ordet lämnades på begäran till
           </note>
           <note n="83ac87a0">
             Herr LORENTZON (k), som ytirade:
           </note>
+          <u who="unknown" xml:id="i-0198b76c2d20210f-100" n="0198b76c">
+            <seg n="df1af135">
+              Herr talman! Försämringen i sysselsättningsläget i landet gör
+              sig speciellt märkbar i norrlandslänen. I de norrländska länsarbetsnämndernas
+              rapporter till arbetsmarknadsstyrelsen inför år 1967 är tongångarna
+              övervägande pessimistiska. Osäkrare än på länge, rapporterar länsarbetsnämnden
+              i Västernorrland. Från Norrbotten anföres att svåra sysselsättningsproblem
+              väntas uppstå i stora delar av länet.
+            </seg>
+            <seg n="78dcb0fb">
+              Några = delsiffror illustrerar detta. Västernorrlands län har
+              en bruttoarbetslöshet för december månad 1966 på 2167 personer,
+              varav sysselsatta i beredskapsarbete 481. I Västerbottens län
+              är antalet arbetslösa 285 fler än under motsvarande tid i fjol.
+              Gävleborgs län rapporterar 1543 arbetslösa, vilket utgör en ökning
+              med 665. Norrbottens totala arbetslöshetssiffra är 5 244, varav
+              2197 har beredskapsarbete och 1648 placerats under utbildning.
+              Här skall observeras att den omfattande dolda kvinnliga arbetslösheten
+              inte finns med i dessa siffror.
+            </seg>
+            <seg n="99b878ba">
+              Mot denna bakgrund är det anmärkningsvärt att i årets finansplan,
+              s. 27, talas om att »en reduktion av de allmänna beredskapsarbetena
+              förutsättes komma till stånd. Detta är möjligt bl. a. med hänsyn
+              till det förbättrade sysselsättningsläget i Norrland». Tills vidare
+              synes i stället en ökad satsning på be-
+            </seg>
+            <seg n="f6742a31">
+              redskapsarbetena vara motiverad och inte minskning av dessa.
+            </seg>
+            <seg n="ab17a95e">
+              Men lösningen på längre sikt kan inte ligga i ordnandet av beredskapsarbeten,
+              Den måste uppnås genom konkreta åtgärder och en planering av sådana
+              åtgärder, som kan innebära en reell förbättring i sysselsättningsläget.
+              För de berörda arbetslösa och deras familjer är en klarläggande
+              redovisning av vilka åtgärder regeringen planerar i sådan riktning
+              av största intresse. Detta gäller också kommuner och landsting,
+              vilkas planering i fråga om byggandet av bostäder, skolor, sjukhus,
+              serviceinrättningar m. m. förutsätter kännedom om arten och omfattningen
+              av de näringspolitiska insatserna. Även om det på nuvarande stadium
+              endast är möjligt att delvis ge en sådan klarläggande redovisning
+              bör detta ske.
+            </seg>
+            <seg n="9520de33">
+              Med hänvisning till det anförda hemställer jag om kammarens tillstånd
+              att till statsrådet och chefen för inrikesdepartementet få rikta
+              följande fråga:
+            </seg>
+            <seg n="58930db6">
+              Vill statsrådet ge en översiktlig redovisning av de åtgärder
+              regeringen närmast planlägger för att minska arbetslösheten i
+              norrlandslänen, såväl beträffande erforderliga beredskapsarbeten
+              som i syfte att på längre sikt förbättra sysselsättningssituationen
+              i dessa landsdelar?
+            </seg>
+          </u>
           <note n="41025dd6">
             Denna anhållan bordlades.
           </note>
@@ -3417,7 +3541,7 @@
             8 1 Sedan herr talmannen anmält, att han utsett bankokommissarien,
             jur.
           </note>
-          <note n="3c8b1d92">
+          <note type="date" n="55891a0e">
             Fredagen den 13 januari 1967
           </note>
           <note n="a49edd30">
@@ -3476,7 +3600,7 @@
             hos kammaren
           </note>
           <pb n="30" facs="https://betalab.kb.se/prot-1967--ak--1/prot_1967__ak__1-030.jp2/_view"/>
-          <note n="e0986ed3">
+          <note type="date" n="981f0dca">
             Tisdagen den 17 januari 1967
           </note>
           <note n="5904cd90">
@@ -3503,6 +3627,12 @@
             Kerstin Mörk till maskinskrivare vid snabbprotokollet från och
             med den 12 januari 1967.
           </note>
+          <u who="unknown" xml:id="i-0198b76c2d20210f-101" n="0198b76c">
+            <seg n="9f7823e1">
+              Med tillsättandet av en maskinskrivartjänst skulle tills vidare
+              anstå.
+            </seg>
+          </u>
           <note n="af061626">
             In fidem Sune K. Johansson
           </note>
@@ -3524,7 +3654,7 @@
           <note n="73e2395e">
             LL
           </note>
-          <note n="ed92bfa8">
+          <note type="date" n="ac05af95">
             Tisdagen den 17 januari KL. 15.30
           </note>
           <note n="769f7fac">
@@ -3540,6 +3670,20 @@
           <note n="96766d0e">
             Chefen för finansdepartementet, herr statsrådet STRÄNG, som yttrade:
           </note>
+          <u who="unknown" xml:id="i-0198b76c2d20210f-102" n="0198b76c">
+            <seg n="8a6ec686">
+              Herr talman! Herr Dickson har frågat om jag avser att föreslå
+              den ändringen beträffande tillämpningen av den s. k. 80-procentregeln
+              vid beskattningen att denna regel iakttas ex officio.
+            </seg>
+            <seg n="8f78cf60">
+              Av taxeringsoch uppbördstekniska skäl har det hittills inte varit
+              möjligt att tillgodose det i och för sig berättigade önskemålet
+              att 80-procentregeln skulle iakttas ex officio vid skattedebiteringen.
+              Avsikten är att undersöka om förutsättningar härför föreligger
+              efter den
+            </seg>
+          </u>
           <note n="c8b11717">
             planerade övergången den 1 januari 1968 till automatisk databehandling
             inom uppbördsväsendet.
@@ -3550,7 +3694,7 @@
           <note type="speaker" n="0fcb5347">
             Herr DICKSON (h):
           </note>
-          <u who="james_dickson_bdc06d" xml:id="i-160775e2a83b2403-0" next="i-8478cf0a17779d2a-0" n="e47f395f">
+          <u who="james_dickson_bdc06d" xml:id="i-e47f395fc0d5cc0f-0" next="i-e47f395fc0d5cc0f-3" n="e47f395f">
             <seg n="cbbbcb8b">
               Herr talman! Jag ber att få tacka finansministern för det uttömmande
               och helt tillfredsställande svaret.
@@ -3562,15 +3706,29 @@
           <note n="4045dd9e">
             $ 2
           </note>
-          <u who="james_dickson_bdc06d" xml:id="i-8478cf0a17779d2a-0" prev="i-160775e2a83b2403-0" n="e47f395f">
+          <u who="james_dickson_bdc06d" xml:id="i-e47f395fc0d5cc0f-1" prev="i-e47f395fc0d5cc0f-0" n="e47f395f">
             <seg n="c520a8d6">
               Svar på fråga ang. skyddet för TV- och radiosändare mot åverkan
               eller sabotage
             </seg>
+          </u>
+          <note n="f7a74df1">
+            Ordet lämnades på begäran till
+          </note>
+          <u who="james_dickson_bdc06d" xml:id="i-e47f395fc0d5cc0f-2" prev="i-e47f395fc0d5cc0f-0" n="e47f395f">
             <seg n="37d8e78b">
               Chefen för = försvarsdepartementet, herr statsrådet ANDERSSON,
               som yttrade:
             </seg>
+          </u>
+          <pb n="31" facs="https://betalab.kb.se/prot-1967--ak--1/prot_1967__ak__1-031.jp2/_view"/>
+          <note n="06309a92">
+            32 Nr 1
+          </note>
+          <note type="date" n="981f0dca">
+            Tisdagen den 17 januari 1967
+          </note>
+          <u who="james_dickson_bdc06d" xml:id="i-e47f395fc0d5cc0f-3" prev="i-e47f395fc0d5cc0f-0" n="e47f395f">
             <seg n="03a7ae02">
               Svar på fråga ang. åtgärder för att förbättra polismans personliga
               skydd
@@ -3605,23 +3763,13 @@
               i ett läge, då för beredskap planlagda åtgärder trätt i kraft.
             </seg>
           </u>
-          <note n="f7a74df1">
-            Ordet lämnades på begäran till
-          </note>
-          <pb n="31" facs="https://betalab.kb.se/prot-1967--ak--1/prot_1967__ak__1-031.jp2/_view"/>
-          <note n="06309a92">
-            32 Nr 1
-          </note>
-          <note n="e0986ed3">
-            Tisdagen den 17 januari 1967
-          </note>
           <note n="f58885c8">
             Vidare anförde
           </note>
           <note type="speaker" n="9dc7816e">
             Herr NIHLFORS (fp):
           </note>
-          <u who="folke_nihlfors_e3e563" xml:id="i-0f50bc496fe78049-0" next="i-07a096f7f4a355d8-0" n="f4c9b043">
+          <u who="folke_nihlfors_e3e563" xml:id="i-f4c9b043625ac997-0" next="i-f4c9b043625ac997-3" n="f4c9b043">
             <seg n="42796c8e">
               Herr talman! Jag tackar herr statsrådet för det svar han nyss
               lämnat.
@@ -3657,11 +3805,20 @@
           <note n="ea6fb7d1">
             $ 3
           </note>
-          <u who="folke_nihlfors_e3e563" xml:id="i-07a096f7f4a355d8-0" prev="i-0f50bc496fe78049-0" n="f4c9b043">
+          <u who="folke_nihlfors_e3e563" xml:id="i-f4c9b043625ac997-1" prev="i-f4c9b043625ac997-0" n="f4c9b043">
             <seg n="03a7ae02">
               Svar på fråga ang. åtgärder för att förbättra polismans personliga
               skydd
             </seg>
+          </u>
+          <note n="f7a74df1">
+            Ordet lämnades på begäran till
+          </note>
+          <note n="035d4bb1">
+            Chefen för justitiedepartementet, herr statsrådet KLING, som
+            yttrade:
+          </note>
+          <u who="folke_nihlfors_e3e563" xml:id="i-f4c9b043625ac997-2" prev="i-f4c9b043625ac997-0" n="f4c9b043">
             <seg n="bd36e03a">
               Herr talman! Herr Turesson har frågat mig om jag avser att vidta
               några åtgärder för att förbättra polismans personliga skydd.
@@ -3679,6 +3836,22 @@
               inte haft några egentliga erfarenheter att bygga på vid sitt arbete
               med utvecklingen av sådan utrustning utan har i stort sett varit
             </seg>
+          </u>
+          <pb n="32" facs="https://betalab.kb.se/prot-1967--ak--1/prot_1967__ak__1-032.jp2/_view"/>
+          <note type="date" n="981f0dca">
+            Tisdagen den 17 januari 1967
+          </note>
+          <note n="817fca1d">
+            Nr 1 33
+          </note>
+          <note n="f440299b">
+            Svar på fråga ang. begränsning av minderårigas rätt att inneha
+            luftoch fjäder-
+          </note>
+          <note n="b20f0513">
+            vapen
+          </note>
+          <u who="folke_nihlfors_e3e563" xml:id="i-f4c9b043625ac997-3" prev="i-f4c9b043625ac997-0" n="f4c9b043">
             <seg n="c0cc1b9f">
               tvungen att börja från grunden. Det är ett oavvisligt krav att
               den materiel som ställs till polisens förfogande är så tillförlitlig
@@ -3728,34 +3901,13 @@
               förekommande spänningsförhållanden mellan polis och allmänhet.
             </seg>
           </u>
-          <note n="f7a74df1">
-            Ordet lämnades på begäran till
-          </note>
-          <note n="035d4bb1">
-            Chefen för justitiedepartementet, herr statsrådet KLING, som
-            yttrade:
-          </note>
-          <pb n="32" facs="https://betalab.kb.se/prot-1967--ak--1/prot_1967__ak__1-032.jp2/_view"/>
-          <note n="e0986ed3">
-            Tisdagen den 17 januari 1967
-          </note>
-          <note n="817fca1d">
-            Nr 1 33
-          </note>
-          <note n="f440299b">
-            Svar på fråga ang. begränsning av minderårigas rätt att inneha
-            luftoch fjäder-
-          </note>
-          <note n="b20f0513">
-            vapen
-          </note>
           <note n="f58885c8">
             Vidare anförde
           </note>
           <note type="speaker" n="dd7bc28a">
             Herr TURESSON (h):
           </note>
-          <u who="bo_turesson_1ff7b2" xml:id="i-1e35ffd64a946296-0" next="i-838f1c13457ec676-0" n="5ea68ba7">
+          <u who="bo_turesson_1ff7b2" xml:id="i-5ea68ba7d389556b-0" next="i-5ea68ba7d389556b-1" n="5ea68ba7">
             <seg n="44c15a5e">
               Herr talman! Jag ber att få tacka justitieministern för svaret
               på min fråga. Svaret var uttömmande och utgör enligt min mening
@@ -3796,7 +3948,7 @@
           <note n="1d6f8348">
             34 Nr 1
           </note>
-          <note n="e0986ed3">
+          <note type="date" n="981f0dca">
             Tisdagen den 17 januari 1967
           </note>
           <note n="ae9eabf6">
@@ -3810,7 +3962,7 @@
             Chefen för justitiedepartementet, herr statsrådet KLING, som
             yttrade:
           </note>
-          <u who="bo_turesson_1ff7b2" xml:id="i-838f1c13457ec676-0" prev="i-1e35ffd64a946296-0" n="5ea68ba7">
+          <u who="bo_turesson_1ff7b2" xml:id="i-5ea68ba7d389556b-1" prev="i-5ea68ba7d389556b-0" n="5ea68ba7">
             <seg n="e070ad46">
               Herr talman! Herr Werbro har frågat mig när jag avser utfärda
               bestämmelse för begränsning av minderårigas rätt att inneha luftoch
@@ -3832,7 +3984,7 @@
           <note type="speaker" n="38498b9c">
             Herr WERBRO (fp):
           </note>
-          <u who="wiking_werbro_b4a571" xml:id="i-3a4cb1f983fcb546-0" next="i-b5de1d52247c15b5-0" n="450b79e1">
+          <u who="wiking_werbro_b4a571" xml:id="i-4f86549d13117470-0" next="i-4f86549d13117470-2" n="450b79e1">
             <seg n="f0585d54">
               Herr talman! Jag ber att få tacka statsrådet och chefen för justitiedepartementet
               för svaret.
@@ -3881,7 +4033,7 @@
             Chefen för justitiedepartementet, herr statsrådet KLING, som
             yttrade:
           </note>
-          <u who="wiking_werbro_b4a571" xml:id="i-b5de1d52247c15b5-0" prev="i-3a4cb1f983fcb546-0" n="450b79e1">
+          <u who="wiking_werbro_b4a571" xml:id="i-4f86549d13117470-1" prev="i-4f86549d13117470-0" n="450b79e1">
             <seg n="c5e02869">
               Herr talman! Herr Hector har frågat mig om jag anser nuvarande
               regler och praxis i fråga om utlämnande av namn på personer anhållna
@@ -3913,6 +4065,19 @@
             <seg n="8ea9d7b5">
               Enligt min mening sköter polismyn-
             </seg>
+          </u>
+          <pb n="34" facs="https://betalab.kb.se/prot-1967--ak--1/prot_1967__ak__1-034.jp2/_view"/>
+          <note type="date" n="981f0dca">
+            Tisdagen den 17 januari 1967
+          </note>
+          <note n="96886a89">
+            Nr 1 35
+          </note>
+          <note n="bd7f46ea">
+            Svar på fråga ang. verkställigheten i äktenskapsskillnadsmål
+            av domstols beslut om
+          </note>
+          <u who="wiking_werbro_b4a571" xml:id="i-4f86549d13117470-2" prev="i-4f86549d13117470-0" n="450b79e1">
             <seg n="30ea3ec8">
               vårdnaden av barn
             </seg>
@@ -3933,24 +4098,13 @@
               betänkande remissbehandlats kan ståndpunkt tas i denna fråga.
             </seg>
           </u>
-          <pb n="34" facs="https://betalab.kb.se/prot-1967--ak--1/prot_1967__ak__1-034.jp2/_view"/>
-          <note n="e0986ed3">
-            Tisdagen den 17 januari 1967
-          </note>
-          <note n="96886a89">
-            Nr 1 35
-          </note>
-          <note n="bd7f46ea">
-            Svar på fråga ang. verkställigheten i äktenskapsskillnadsmål
-            av domstols beslut om
-          </note>
           <note n="f58885c8">
             Vidare anförde
           </note>
           <note type="speaker" n="e07bf855">
             Herr HECTOR (k):
           </note>
-          <u who="sven_hector_f81527" xml:id="i-460c61479cee9bc7-0" next="i-3a22dd5d2f3cdad2-0" n="371026b6">
+          <u who="sven_hector_f81527" xml:id="i-371026b6aa748496-0" next="i-371026b6aa748496-2" n="371026b6">
             <seg n="7752d9d6">
               Herr talman! Jag ber att få tacka justitieministern för svaret
               på min fråga.
@@ -4013,7 +4167,7 @@
             Chefen för justitiedepartementet, herr statsrådet KLING, som
             yttrade:
           </note>
-          <u who="sven_hector_f81527" xml:id="i-3a22dd5d2f3cdad2-0" prev="i-460c61479cee9bc7-0" n="371026b6">
+          <u who="sven_hector_f81527" xml:id="i-371026b6aa748496-1" prev="i-371026b6aa748496-0" n="371026b6">
             <seg n="da65f11f">
               Herr talman! Herr Sjöholm har i en enkel fråga till statsrådet
               Odhnoff framhållit, att domstols beslut om vårdnaden av barn i
@@ -4026,6 +4180,15 @@
               av detta slag tillhör justitiedepartementets verksamhetsområde,
               ankommer det på mig att besvara frågan.
             </seg>
+          </u>
+          <pb n="35" facs="https://betalab.kb.se/prot-1967--ak--1/prot_1967__ak__1-035.jp2/_view"/>
+          <note n="06996f28">
+            36 Nr 1
+          </note>
+          <note type="date" n="981f0dca">
+            Tisdagen den 17 januari 1967
+          </note>
+          <u who="sven_hector_f81527" xml:id="i-371026b6aa748496-2" prev="i-371026b6aa748496-0" n="371026b6">
             <seg n="33cd30c8">
               Svar på fråga ang. förflyttningen av för samhällsvård omhändertagna
               barn
@@ -4054,13 +4217,6 @@
               på srundval av lagberedningens förslag
             </seg>
           </u>
-          <pb n="35" facs="https://betalab.kb.se/prot-1967--ak--1/prot_1967__ak__1-035.jp2/_view"/>
-          <note n="06996f28">
-            36 Nr 1
-          </note>
-          <note n="e0986ed3">
-            Tisdagen den 17 januari 1967
-          </note>
           <note n="41325dd7">
             kommer — såsom framgår av den till riksdagen översända propositionsförteckningen
             — att föreläggas riksdagen
@@ -4074,7 +4230,7 @@
           <note type="speaker" n="5eaac598">
             Herr SJÖHOLM (fp):
           </note>
-          <u who="sten_sjoholm_e8cb8a" xml:id="i-8c293257aef42afa-0" next="i-0fc0398045823c3a-0" n="16bf9ab5">
+          <u who="sten_sjoholm_e8cb8a" xml:id="i-16bf9ab5fc138a48-0" next="i-16bf9ab5fc138a48-10" n="16bf9ab5">
             <seg n="2897a1dd">
               Herr talman! Det börjar bli riktigt spännande att ställa enkla
               frågar — man vet aldrig vem man får svar av. I fjol ställde jag
@@ -4121,7 +4277,7 @@
           <note n="9766fb5d">
             Statsrådet fru ODHNOFF, som yttrade:
           </note>
-          <u who="sten_sjoholm_e8cb8a" xml:id="i-0fc0398045823c3a-0" prev="i-8c293257aef42afa-0" n="16bf9ab5">
+          <u who="sten_sjoholm_e8cb8a" xml:id="i-16bf9ab5fc138a48-1" prev="i-16bf9ab5fc138a48-0" n="16bf9ab5">
             <seg n="53026cd0">
               Herr talman! Herr Persson i Heden har frågat, om jag uppmärksammat
               att förflyttning av för samhällsvård omhändertagna barn vid vissa
@@ -4133,6 +4289,15 @@
               två huvudfall. Det ena är när barnet är övergivet eller när föräldrarna
               begär eller'samtycker till omhändertagandet och bar-
             </seg>
+          </u>
+          <pb n="36" facs="https://betalab.kb.se/prot-1967--ak--1/prot_1967__ak__1-036.jp2/_view"/>
+          <note type="date" n="981f0dca">
+            Tisdagen den 17 januari 1967
+          </note>
+          <note n="5216aca3">
+            Nr 1 37
+          </note>
+          <u who="sten_sjoholm_e8cb8a" xml:id="i-16bf9ab5fc138a48-2" prev="i-16bf9ab5fc138a48-0" n="16bf9ab5">
             <seg n="33cd30c8">
               Svar på fråga ang. förflyttningen av för samhällsvård omhändertagna
               barn
@@ -4183,6 +4348,14 @@
               till nämnderna för att inskärpa betydelsen av att förflyttningen
               sker på ett för barnet och andra berörda skonsamt sätt.
             </seg>
+          </u>
+          <note n="f58885c8">
+            Vidare anförde
+          </note>
+          <note n="88997cc4">
+            Herr PERSSON i Heden (cp):
+          </note>
+          <u who="sten_sjoholm_e8cb8a" xml:id="i-16bf9ab5fc138a48-3" prev="i-16bf9ab5fc138a48-0" n="16bf9ab5">
             <seg n="4da1f001">
               Herr talman! Jag vill tacka statsrådet fru Odhnoff för svaret
               på min enkla fråga — det har ju lämnats mycket snabbt.
@@ -4212,6 +4385,15 @@
               Drastiska exempel på det mest omdömeslösa förfarande skulle kunna
               återges. Det är ganska hårda ord när man säger så,
             </seg>
+          </u>
+          <pb n="37" facs="https://betalab.kb.se/prot-1967--ak--1/prot_1967__ak__1-037.jp2/_view"/>
+          <note n="cf852222">
+            38 Nr 1
+          </note>
+          <note type="date" n="981f0dca">
+            Tisdagen den 17 januari 1967
+          </note>
+          <u who="sten_sjoholm_e8cb8a" xml:id="i-16bf9ab5fc138a48-4" prev="i-16bf9ab5fc138a48-0" n="16bf9ab5">
             <seg n="268cb353">
               Interpellation ang. helikopteroch svävartrafik i Stockholms skärgård
             </seg>
@@ -4242,13 +4424,91 @@
               Herr talman! Med det anförda ber jag än en gång att få tacka
               för svaret.
             </seg>
+          </u>
+          <note n="a1041532">
+            Härmed var överläggningen slutad.
+          </note>
+          <note n="742fac6a">
+            88
+          </note>
+          <note n="e2fe08f8">
+            . Föredrogs och hänvisades till bankoutskottet riksdagens lönedelegations
+            å bordet vilande redogörelse för dess verksamhet under år 1966.
+          </note>
+          <note n="2c602767">
+            $ 9 Föredrogs var för sig följande å bordet vilande motioner;
+            och hänvisades därvid till konstitutionsutskottet motionen nr
+            50;
+          </note>
+          <note n="865c846e">
+            till statsutskottet motionerna nr 31— 56;
+          </note>
+          <note n="67022fab">
+            till bevillningsutskottet motionen nr dd:
+          </note>
+          <note n="37fc5033">
+            till bankoutskottet motionen nr 58;
+          </note>
+          <note n="4ac3b23f">
+            till lagutskott motionerna nr 59 och 60; samt
+          </note>
+          <note n="5ed8ba5b">
+            till allmänna beredningsutskottet motionen nr 61.
+          </note>
+          <note n="ae6dd8e9">
+            8 10 Föredrogs var för sig följande, vid kammarens nästföregående
+            sammanträde gjorda men då bordlagda interpellationsframställningar,
+            nämligen av:
+          </note>
+          <note n="db4910af">
+            herr Hector, till herr statsrådet och chefen för försvarsdepartementet
+            angående undervisningen för militär personal i de internationella
+            konventionsbestämmelserna angående rättsliga och humanitära regler
+            i krigstillstånd, samt
+          </note>
+          <u who="sten_sjoholm_e8cb8a" xml:id="i-16bf9ab5fc138a48-5" prev="i-16bf9ab5fc138a48-0" n="16bf9ab5">
             <seg n="a9aa71be">
               herr Lorentzon, till herr statsrådet och chefen för inrikesdepartementet
               angående åtgärder för att minska arbetslösheten i norrlandslänen.
             </seg>
+          </u>
+          <note n="c50ed768">
+            Kammaren biföll dessa framställ-
+          </note>
+          <note n="852b12fd">
+            ningar.
+          </note>
+          <note n="e9cc7cad">
+            $ 11 På hemställan av herr talmannen beslöt kammaren, att Kungl.
+            Maj:ts propositioner nr 1 och nr 2 skulle uppföras sist å föredragningslistan
+            för kammarens nästkommande sammanträde.
+          </note>
+          <note n="ce03e662">
+            8 12
+          </note>
+          <u who="sten_sjoholm_e8cb8a" xml:id="i-16bf9ab5fc138a48-6" prev="i-16bf9ab5fc138a48-0" n="16bf9ab5">
             <seg n="268cb353">
               Interpellation ang. helikopteroch svävartrafik i Stockholms skärgård
             </seg>
+          </u>
+          <note n="f7a74df1">
+            Ordet lämnades på begäran till
+          </note>
+          <note n="45e4e55c">
+            Fru NETTELBRANDT (fp), som yttrade:
+          </note>
+          <note n="145306ea">
+            Herr talman! I en interpellation vid föregående års riksdag frågade
+            jag om statsrådet och chefen för kommunika-
+          </note>
+          <pb n="38" facs="https://betalab.kb.se/prot-1967--ak--1/prot_1967__ak__1-038.jp2/_view"/>
+          <note type="date" n="981f0dca">
+            Tisdagen den 17 januari 1967
+          </note>
+          <note n="6a411ca4">
+            Nr 1 39
+          </note>
+          <u who="sten_sjoholm_e8cb8a" xml:id="i-16bf9ab5fc138a48-7" prev="i-16bf9ab5fc138a48-0" n="16bf9ab5">
             <seg n="268cb353">
               Interpellation ang. helikopteroch svävartrafik i Stockholms skärgård
             </seg>
@@ -4325,6 +4585,15 @@
               får därvid ofta gå lång väg för att sedan kanske i mörker och
               kyla i timmar få vänta på båten. Ibland har dessa pro-
             </seg>
+          </u>
+          <pb n="39" facs="https://betalab.kb.se/prot-1967--ak--1/prot_1967__ak__1-039.jp2/_view"/>
+          <note n="4617d422">
+            40 Nr 1
+          </note>
+          <note type="date" n="981f0dca">
+            Tisdagen den 17 januari 1967
+          </note>
+          <u who="sten_sjoholm_e8cb8a" xml:id="i-16bf9ab5fc138a48-8" prev="i-16bf9ab5fc138a48-0" n="16bf9ab5">
             <seg n="268cb353">
               Interpellation ang. helikopteroch svävartrafik i Stockholms skärgård
             </seg>
@@ -4369,113 +4638,7 @@
               2. Vill herr statsrådet medverka till att frågan om trafik med
               svävare i skärgården blir närmare utredd?
             </seg>
-            <seg n="966b6db6">
-              nr 101, av herr Werbro, om utrustning av polisens bilar med varningsskyltar
-              i syfte att öka trafiksäkerheten,
-            </seg>
-            <seg n="255035f0">
-              ping och Eriksson i Bäckmora, om åtgärder mot ocker vid försträckning,
-            </seg>
           </u>
-          <pb n="36" facs="https://betalab.kb.se/prot-1967--ak--1/prot_1967__ak__1-036.jp2/_view"/>
-          <note n="e0986ed3">
-            Tisdagen den 17 januari 1967
-          </note>
-          <note n="5216aca3">
-            Nr 1 37
-          </note>
-          <note n="f58885c8">
-            Vidare anförde
-          </note>
-          <note n="88997cc4">
-            Herr PERSSON i Heden (cp):
-          </note>
-          <pb n="37" facs="https://betalab.kb.se/prot-1967--ak--1/prot_1967__ak__1-037.jp2/_view"/>
-          <note n="cf852222">
-            38 Nr 1
-          </note>
-          <note n="e0986ed3">
-            Tisdagen den 17 januari 1967
-          </note>
-          <note n="a1041532">
-            Härmed var överläggningen slutad.
-          </note>
-          <note n="742fac6a">
-            88
-          </note>
-          <note n="e2fe08f8">
-            . Föredrogs och hänvisades till bankoutskottet riksdagens lönedelegations
-            å bordet vilande redogörelse för dess verksamhet under år 1966.
-          </note>
-          <note n="2c602767">
-            $ 9 Föredrogs var för sig följande å bordet vilande motioner;
-            och hänvisades därvid till konstitutionsutskottet motionen nr
-            50;
-          </note>
-          <note n="865c846e">
-            till statsutskottet motionerna nr 31— 56;
-          </note>
-          <note n="67022fab">
-            till bevillningsutskottet motionen nr dd:
-          </note>
-          <note n="37fc5033">
-            till bankoutskottet motionen nr 58;
-          </note>
-          <note n="4ac3b23f">
-            till lagutskott motionerna nr 59 och 60; samt
-          </note>
-          <note n="5ed8ba5b">
-            till allmänna beredningsutskottet motionen nr 61.
-          </note>
-          <note n="ae6dd8e9">
-            8 10 Föredrogs var för sig följande, vid kammarens nästföregående
-            sammanträde gjorda men då bordlagda interpellationsframställningar,
-            nämligen av:
-          </note>
-          <note n="db4910af">
-            herr Hector, till herr statsrådet och chefen för försvarsdepartementet
-            angående undervisningen för militär personal i de internationella
-            konventionsbestämmelserna angående rättsliga och humanitära regler
-            i krigstillstånd, samt
-          </note>
-          <note n="c50ed768">
-            Kammaren biföll dessa framställ-
-          </note>
-          <note n="852b12fd">
-            ningar.
-          </note>
-          <note n="e9cc7cad">
-            $ 11 På hemställan av herr talmannen beslöt kammaren, att Kungl.
-            Maj:ts propositioner nr 1 och nr 2 skulle uppföras sist å föredragningslistan
-            för kammarens nästkommande sammanträde.
-          </note>
-          <note n="ce03e662">
-            8 12
-          </note>
-          <note n="f7a74df1">
-            Ordet lämnades på begäran till
-          </note>
-          <note n="45e4e55c">
-            Fru NETTELBRANDT (fp), som yttrade:
-          </note>
-          <note n="145306ea">
-            Herr talman! I en interpellation vid föregående års riksdag frågade
-            jag om statsrådet och chefen för kommunika-
-          </note>
-          <pb n="38" facs="https://betalab.kb.se/prot-1967--ak--1/prot_1967__ak__1-038.jp2/_view"/>
-          <note n="e0986ed3">
-            Tisdagen den 17 januari 1967
-          </note>
-          <note n="6a411ca4">
-            Nr 1 39
-          </note>
-          <pb n="39" facs="https://betalab.kb.se/prot-1967--ak--1/prot_1967__ak__1-039.jp2/_view"/>
-          <note n="4617d422">
-            40 Nr 1
-          </note>
-          <note n="e0986ed3">
-            Tisdagen den 17 januari 1967
-          </note>
           <note n="41025dd6">
             Denna anhållan bordlades.
           </note>
@@ -4547,7 +4710,7 @@
             resurser,
           </note>
           <pb n="40" facs="https://betalab.kb.se/prot-1967--ak--1/prot_1967__ak__1-040.jp2/_view"/>
-          <note n="e0986ed3">
+          <note type="date" n="981f0dca">
             Tisdagen den 17 januari 1967
           </note>
           <note n="42a81988">
@@ -4669,6 +4832,12 @@
             nr 100, av herr Thylén m. fl., om belysning av övergångsställen
             för gående,
           </note>
+          <u who="sten_sjoholm_e8cb8a" xml:id="i-16bf9ab5fc138a48-9" prev="i-16bf9ab5fc138a48-0" n="16bf9ab5">
+            <seg n="966b6db6">
+              nr 101, av herr Werbro, om utrustning av polisens bilar med varningsskyltar
+              i syfte att öka trafiksäkerheten,
+            </seg>
+          </u>
           <note n="f656efe7">
             nr 102, av herr Werbro m.fl., om kontroll från trafiksäkerhetssynpunkt
             av utländska motorfordon genom tullverkets försorg,
@@ -4684,6 +4853,11 @@
           <note n="cc300ad7">
             42 Nr 1
           </note>
+          <u who="sten_sjoholm_e8cb8a" xml:id="i-16bf9ab5fc138a48-10" prev="i-16bf9ab5fc138a48-0" n="16bf9ab5">
+            <seg n="255035f0">
+              ping och Eriksson i Bäckmora, om åtgärder mot ocker vid försträckning,
+            </seg>
+          </u>
           <note n="d6335248">
             nr 105, av herrar Gustavsson i Alvesta och Elmstedt, om ökad
             information rörande sociala förmåner,
@@ -4699,7 +4873,7 @@
           <note n="b7678883">
             Dessa motioner bordlades.
           </note>
-          <note n="e0986ed3">
+          <note type="date" n="981f0dca">
             Tisdagen den 17 januari 1967
           </note>
           <note n="4d3d95fb">

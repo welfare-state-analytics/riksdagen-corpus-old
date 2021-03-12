@@ -20,7 +20,7 @@
     <encodingDesc>
       <editorialDecl>
         <correction>
-          <p>Some data curation was done. It is documented in db/curation/instances</p>
+          <p>Some data curation was done. It is documented in input/curation/instances</p>
         </correction>
       </editorialDecl>
     </encodingDesc>
@@ -58,6 +58,7 @@
       </front>
       <body>
         <div>
+          <pb n="0" facs="https://betalab.kb.se/prot-1936--fk--35/prot_1936__fk__35-000.jp2/_view"/>
           <note n="a80843e3">
             RIKSDAGENS PROTOKOLL. 1936. Första kammaren. Nr 35.
           </note>
@@ -145,7 +146,7 @@
           <note n="fdc894cd">
             på landsbygden m. m.
           </note>
-          <note n="a662f450">
+          <note type="date" n="62d8c815">
             9 Nr 35. Lördagen den 23 maj.
           </note>
           <note n="6e6138c9">
@@ -196,7 +197,7 @@
           <note type="speaker" n="7582a6cd">
             Herr Gustafson, Fritiof:
           </note>
-          <u who="ruth_gustafson_0d256d" xml:id="i-57c55753d9970a61-0" n="4a4c759c">
+          <u who="ruth_gustafson_0d256d" xml:id="i-5fef1a961528a2e6-0" n="4a4c759c">
             <seg n="50347699">
               Herr talman! I detta utlåtande behandlas ett par motioner, i
               vilka enligt mitt förmenande ha framförts så viktiga förslag,
@@ -232,7 +233,7 @@
           <note type="speaker" n="a405df32">
             Herr Tjällgren:
           </note>
-          <u who="leonard_tjallgren_0fdaa6" xml:id="i-dbfcd3e0a4ca4ca7-0" next="i-eb2fa3ec333add03-0" n="6cc68b14">
+          <u who="leonard_tjallgren_0fdaa6" xml:id="i-6cc68b148e7210ff-0" next="i-6cc68b148e7210ff-3" n="6cc68b14">
             <seg n="ecbbdb09">
               Ja, herr talman, eftersom den senaste ärade talaren inte hade
               något annat yrkande än om bifall till utskottets förslag, kan
@@ -244,32 +245,15 @@
             </seg>
           </u>
           <pb n="2" facs="https://betalab.kb.se/prot-1936--fk--35/prot_1936__fk__35-002.jp2/_view"/>
-          <note n="ca20704f">
+          <note type="date" n="f9dcd3ef">
             Lördagen den 23 maj. Nr 35. 3
           </note>
-          <u who="leonard_tjallgren_0fdaa6" xml:id="i-eb2fa3ec333add03-0" prev="i-dbfcd3e0a4ca4ca7-0" n="6cc68b14">
+          <u who="leonard_tjallgren_0fdaa6" xml:id="i-6cc68b148e7210ff-1" prev="i-6cc68b148e7210ff-0" n="6cc68b14">
             <seg n="9a502225">
               Om långivning åt barnrika familjer på landsbygden m. m. (Forts.)
               rerna blivit ganska vänligt bemötta, om jag får begagna det uttrycket
               här, i utskottets motivering. Då skall jag inte upptaga tiden
               längre, utan instämmer i yrkandet om bifall till utskottets hemställan.
-            </seg>
-            <seg n="ead23ee4"/>
-            <seg n="26ab122a">
-              . Föredrogs ånyo statsutskottets utlåtande nr 120, i anledning
-              av väckt mo- Om gottgörelse tion om gottgörelse av staten till
-              svenska fordringsägare för dem genom sankför förluster
-            </seg>
-            <seg n="df3b4e29">
-              tionsförfarandet mot Italien åsamkade förluster. på grund av
-              sanktionsför-
-            </seg>
-            <seg n="d6f2283f">
-              I en inom andra kammaren av herr E. Lithander väckt motion (nr
-              203) hafarandet mot de hemställts, att riksdagen för sin del ville
-              besluta, att svenska fordrings- = ftalien. ägare, i den mån dem
-              genom sanktionsförfarandet mot Italien åsamkade förluster kunde
-              påvisas, skulle genom statens försorg erhålla gottgörelse härför.
             </seg>
           </u>
           <note n="ebbc3759">
@@ -327,6 +311,7 @@
             utskotts utlåtande nr 15, angående upprättande av ett statens
             filmarkiv m. m., bifölls vad utskottet i detta utlåtande hemställt.
           </note>
+          <u who="leonard_tjallgren_0fdaa6" xml:id="i-6cc68b148e7210ff-2" prev="i-6cc68b148e7210ff-0" n="6cc68b14"/>
           <note n="e176cbf9">
             Föredrogos ånyo statsutskottets memorial och utlåtande:
           </note>
@@ -342,8 +327,26 @@
           <note n="b5915153">
             Vad utskottet i dessa betänkanden hemställt bifölls.
           </note>
+          <u who="leonard_tjallgren_0fdaa6" xml:id="i-6cc68b148e7210ff-3" prev="i-6cc68b148e7210ff-0" n="6cc68b14">
+            <seg n="26ab122a">
+              . Föredrogs ånyo statsutskottets utlåtande nr 120, i anledning
+              av väckt mo- Om gottgörelse tion om gottgörelse av staten till
+              svenska fordringsägare för dem genom sankför förluster
+            </seg>
+            <seg n="df3b4e29">
+              tionsförfarandet mot Italien åsamkade förluster. på grund av
+              sanktionsför-
+            </seg>
+            <seg n="d6f2283f">
+              I en inom andra kammaren av herr E. Lithander väckt motion (nr
+              203) hafarandet mot de hemställts, att riksdagen för sin del ville
+              besluta, att svenska fordrings- = ftalien. ägare, i den mån dem
+              genom sanktionsförfarandet mot Italien åsamkade förluster kunde
+              påvisas, skulle genom statens försorg erhålla gottgörelse härför.
+            </seg>
+          </u>
           <pb n="3" facs="https://betalab.kb.se/prot-1936--fk--35/prot_1936__fk__35-003.jp2/_view"/>
-          <note n="2dca435a">
+          <note type="date" n="13cf302f">
             4 Nr 35. Lördagen den 23 maj.
           </note>
           <note n="73546323">
@@ -355,7 +358,7 @@
           <note type="speaker" n="ab0a79a3">
             Herr Stendahl:
           </note>
-          <u who="sten_stendahl_829699" xml:id="i-153e581683c2d23f-0" next="i-a6fa686ae2f31930-0" n="0f51595c">
+          <u who="sten_stendahl_829699" xml:id="i-0f51595cc68ebd55-0" next="i-0f51595cc68ebd55-2" n="0f51595c">
             <seg n="76e6a368">
               Herr talman! Det finns ju ingen reservation under detta utlåtande,
               men jag skall i alla fall tillåta mig att något beröra denna sak,
@@ -424,10 +427,10 @@
             </seg>
           </u>
           <pb n="4" facs="https://betalab.kb.se/prot-1936--fk--35/prot_1936__fk__35-004.jp2/_view"/>
-          <note n="d47e13e0">
+          <note type="date" n="d2d4831a">
             Lördagen den 23 maj. Nr 35. 5
           </note>
-          <u who="sten_stendahl_829699" xml:id="i-a6fa686ae2f31930-0" prev="i-153e581683c2d23f-0" n="0f51595c">
+          <u who="sten_stendahl_829699" xml:id="i-0f51595cc68ebd55-1" prev="i-0f51595cc68ebd55-0" n="0f51595c">
             <seg n="699094fc">
               Om gottgörelse för förluster på grund av sanktionsförfarandet
               mat Forts.
@@ -502,11 +505,6 @@
               får man ingen som helst uppfattning om vad saken gäller. Då det
               är mycket antagligt, att frågan kommer tillbaka till en
             </seg>
-            <seg n="4ba03b2a">
-              Om yet sörelse för förluster på grund av sanktionsförfarandet
-              mot Italien. (Forts. kommande riksdag, om läget inte har ändrats,
-              har jag velat tillåta mig dessa kommentarer till utskottets betänkande.
-            </seg>
           </u>
           <pb n="5" facs="https://betalab.kb.se/prot-1936--fk--35/prot_1936__fk__35-005.jp2/_view"/>
           <note n="eab2bf6f">
@@ -518,9 +516,16 @@
           <note n="c6c9d763">
             vid häradsrätterna.
           </note>
-          <note n="bfc1c114">
+          <note type="date" n="ce9687ec">
             6 Nr 35. Lördagen den 23 maj.
           </note>
+          <u who="sten_stendahl_829699" xml:id="i-0f51595cc68ebd55-2" prev="i-0f51595cc68ebd55-0" n="0f51595c">
+            <seg n="4ba03b2a">
+              Om yet sörelse för förluster på grund av sanktionsförfarandet
+              mot Italien. (Forts. kommande riksdag, om läget inte har ändrats,
+              har jag velat tillåta mig dessa kommentarer till utskottets betänkande.
+            </seg>
+          </u>
           <note n="b5f315e5">
             Sedan överläggningen ansetts härmed slutad, bifölls vad utskottet
             i det under behandling varande utlåtandet hemställt.
@@ -593,7 +598,7 @@
             för fiskalskompetens erforderliga domsago-
           </note>
           <pb n="6" facs="https://betalab.kb.se/prot-1936--fk--35/prot_1936__fk__35-006.jp2/_view"/>
-          <note n="3e9c8c69">
+          <note type="date" n="d3eebca9">
             Lördagen den 23 maj. Nr 35. 7
           </note>
           <note n="a7070d69">
@@ -695,7 +700,7 @@
             att tillämpas tillsvidare från och med budgetåret 1936/1937;
           </note>
           <pb n="7" facs="https://betalab.kb.se/prot-1936--fk--35/prot_1936__fk__35-007.jp2/_view"/>
-          <note n="b7720efd">
+          <note type="date" n="93d46f5c">
             8 Nr 35. Lördagen den 23 maj.
           </note>
           <note n="c9a8bd22">
@@ -718,7 +723,7 @@
           <note type="speaker" n="b66e93b8">
             Herr Svensson, Martin:
           </note>
-          <u who="martin_svensson_8ed440" xml:id="i-7142d593d469051f-0" n="d57440a9">
+          <u who="martin_svensson_8ed440" xml:id="i-d57440a9dad51613-0" n="d57440a9">
             <seg n="56d690d4">
               Herr talman! I detta betänkande förekomma två reservationer,
               men efter den föredragning, som nu skedde, uppehåller jag mig
@@ -754,7 +759,7 @@
           <note type="speaker" n="b44e3e5c">
             Herr Borell:
           </note>
-          <u who="theodor_borell_2526b6" xml:id="i-c4b18ad672ed7898-0" next="i-085ece2e2bcffa0e-0" n="d696a6c9">
+          <u who="theodor_borell_2526b6" xml:id="i-d696a6c9050c3b5a-0" next="i-d696a6c9050c3b5a-1" n="d696a6c9">
             <seg n="3e35d8a0">
               Herr talman, mina herrar! För min del instämmer jag i det yrkande,
               som har framförts av den föregående ärade talaren. Jag har den
@@ -784,10 +789,10 @@
             </seg>
           </u>
           <pb n="8" facs="https://betalab.kb.se/prot-1936--fk--35/prot_1936__fk__35-008.jp2/_view"/>
-          <note n="0181b44a">
+          <note type="date" n="ce8cd4be">
             Lördagen den 23 maj. Nr 35. 9
           </note>
-          <u who="theodor_borell_2526b6" xml:id="i-085ece2e2bcffa0e-0" prev="i-c4b18ad672ed7898-0" n="d696a6c9">
+          <u who="theodor_borell_2526b6" xml:id="i-d696a6c9050c3b5a-1" prev="i-d696a6c9050c3b5a-0" n="d696a6c9">
             <seg n="588c89c9">
               Anslag till avlöningar vid häradsrätterna. (Forts.) komma sådana
               där domsagor, som äro ideala, som äga, låt mig säga mellan 40
@@ -816,7 +821,7 @@
           <note type="speaker" n="beaa7c71">
             Herr statsrådet Schlyter:
           </note>
-          <u who="karl_schlyter_cf9666" xml:id="i-016c7d3730f4f468-0" next="i-404c012768ad52c4-0" n="8f89fa56">
+          <u who="karl_schlyter_cf9666" xml:id="i-8f89fa56e5372120-0" next="i-8f89fa56e5372120-1" n="8f89fa56">
             <seg n="a487e802">
               Herr talman! Jag vill endast fästa uppmärksamheten på, att vad
               Kungl. Maj:t här föreslagit och statsutskottet tillstyrker är
@@ -869,10 +874,10 @@
             </seg>
           </u>
           <pb n="9" facs="https://betalab.kb.se/prot-1936--fk--35/prot_1936__fk__35-009.jp2/_view"/>
-          <note n="c1ef9ac3">
+          <note type="date" n="e6a9fc02">
             10 Nr 35. Lördagen den 23 maj.
           </note>
-          <u who="karl_schlyter_cf9666" xml:id="i-404c012768ad52c4-0" prev="i-016c7d3730f4f468-0" n="8f89fa56">
+          <u who="karl_schlyter_cf9666" xml:id="i-8f89fa56e5372120-1" prev="i-8f89fa56e5372120-0" n="8f89fa56">
             <seg n="f2890afe">
               Anslag till avlöningar vid häradsrätterna. (Forts.) ena av de
               domsagor, som det här är fråga om, nämligen Östra härads domsaga,
@@ -943,7 +948,7 @@
           <note type="speaker" n="5ec6a73c">
             Herr Walles:
           </note>
-          <u who="janne_walles_05ea4f" xml:id="i-bef4494adb38b9f2-0" next="i-eabbe766be108cdb-0" n="9b1dccb6">
+          <u who="janne_walles_05ea4f" xml:id="i-3afd0d8f797982bf-0" next="i-3afd0d8f797982bf-2" n="9b1dccb6">
             <seg n="8b978d23">
               Som kammaren finner har statsutskottets majoritet ansett, att
               de skäl, som Kungl. Maj:t anfört, varit övervägande till fördel
@@ -951,17 +956,14 @@
             </seg>
           </u>
           <pb n="10" facs="https://betalab.kb.se/prot-1936--fk--35/prot_1936__fk__35-010.jp2/_view"/>
-          <note n="067a9b5f">
+          <note type="date" n="7e2c553e">
             Lördagen den 23 maj. Nr 35. 11
           </note>
-          <u who="janne_walles_05ea4f" xml:id="i-eabbe766be108cdb-0" prev="i-bef4494adb38b9f2-0" n="9b1dccb6">
+          <u who="janne_walles_05ea4f" xml:id="i-3afd0d8f797982bf-1" prev="i-3afd0d8f797982bf-0" n="9b1dccb6">
             <seg n="0551c709">
               | Anslag till avlöningar vid häradsrätterna. (Forts.) manslagning,
               och på de skäl, som nu ytterligare av statsrådet här ha anförts,
               ber jag att i korthet få yrka bifall till statsutskottets förslag.
-            </seg>
-            <seg n="1a3b3bdd">
-              esvarad.
             </seg>
           </u>
           <note n="2b199850">
@@ -972,6 +974,11 @@
             sedan han upprepat propositionen på bifall till a hemställan,
             sig anse denna proposition vara med övervägande ja
           </note>
+          <u who="janne_walles_05ea4f" xml:id="i-3afd0d8f797982bf-2" prev="i-3afd0d8f797982bf-0" n="9b1dccb6">
+            <seg n="1a3b3bdd">
+              esvarad.
+            </seg>
+          </u>
           <note n="d7931ebf">
             Herr Svensson, Martin, begärde votering, i anledning varav uppsattes
             samt efter given varsel upplästes och godkändes en så lydande
@@ -1012,7 +1019,7 @@
           <note type="speaker" n="b66e93b8">
             Herr Svensson, Martin:
           </note>
-          <u who="martin_svensson_8ed440" xml:id="i-e0251a417e5b93c4-0" next="i-34a4e8445e1e5852-0" n="d57440a9">
+          <u who="martin_svensson_8ed440" xml:id="i-d57440a9dad51613-1" next="i-d57440a9dad51613-3" n="d57440a9">
             <seg n="34306221">
               I den reservation, som herrar J. B. Johansson och Borell jämte
               mig undertecknat, ingår ett andra moment, som gäller frågan, huruvida
@@ -1039,13 +1046,13 @@
             </seg>
           </u>
           <pb n="11" facs="https://betalab.kb.se/prot-1936--fk--35/prot_1936__fk__35-011.jp2/_view"/>
-          <note n="bdb09945">
+          <note type="date" n="e21be10a">
             12 Nr 35. Lördagen den 23 maj.
           </note>
           <note n="c9a8bd22">
             Anslag till avlöningar vid häradsrätterna. (Forts.)
           </note>
-          <u who="martin_svensson_8ed440" xml:id="i-34a4e8445e1e5852-0" prev="i-e0251a417e5b93c4-0" n="d57440a9">
+          <u who="martin_svensson_8ed440" xml:id="i-d57440a9dad51613-2" prev="i-d57440a9dad51613-1" n="d57440a9">
             <seg n="78b32945">
               Jag kan mycket väl förstå, att Kungl. Maj:t därvidlag inte känner
               sig på samma sätt bunden av riksdagens uttalande i fjol som riksdagens
@@ -1070,10 +1077,6 @@
               uttalande, nämligen att häradshövdingarna inte böra drabbas av
               utgifter för denna utökning. |
             </seg>
-            <seg n="9266d70b">
-              Herr talman, jag skall be att få yrka bifall till reservationen
-              med den ändring, som Jag här gjort.
-            </seg>
           </u>
           <note n="fbca3fdf">
             Jag yrkar således bifall till den reservation, som är avgiven
@@ -1085,10 +1088,16 @@
             i den delen. Slutsumman skulle då också minskas med samma belopp,
             3,100 kronor, och således bli 1,762,600 kronor.
           </note>
+          <u who="martin_svensson_8ed440" xml:id="i-d57440a9dad51613-3" prev="i-d57440a9dad51613-1" n="d57440a9">
+            <seg n="9266d70b">
+              Herr talman, jag skall be att få yrka bifall till reservationen
+              med den ändring, som Jag här gjort.
+            </seg>
+          </u>
           <note type="speaker" n="beaa7c71">
             Herr statsrådet Schlyter:
           </note>
-          <u who="karl_schlyter_cf9666" xml:id="i-016c7d3730f4f468-1" next="i-404c012768ad52c4-1" n="8f89fa56">
+          <u who="karl_schlyter_cf9666" xml:id="i-8f89fa56e5372120-2" next="i-8f89fa56e5372120-3" n="8f89fa56">
             <seg n="f80699a5">
               Herr talman! Det är naturligtvis med den allra största tacksamhet
               som jag ser, att statsutskottet velat giva Kungl. Maj:t mera än
@@ -1126,10 +1135,10 @@
             </seg>
           </u>
           <pb n="12" facs="https://betalab.kb.se/prot-1936--fk--35/prot_1936__fk__35-012.jp2/_view"/>
-          <note n="c26aa7f4">
+          <note type="date" n="4c4ba77a">
             Lördagen den 23 maj. Nr 35. 13
           </note>
-          <u who="karl_schlyter_cf9666" xml:id="i-404c012768ad52c4-1" prev="i-016c7d3730f4f468-1" n="8f89fa56">
+          <u who="karl_schlyter_cf9666" xml:id="i-8f89fa56e5372120-3" prev="i-8f89fa56e5372120-2" n="8f89fa56">
             <seg n="94ba189e">
               Anslag till avlöningar vid häradsrätterna. (Forts.) böra enligt
               min mening häradshövdingarna befrias från att utgiva samtliga
@@ -1170,7 +1179,7 @@
           <note type="speaker" n="b44e3e5c">
             Herr Borell:
           </note>
-          <u who="theodor_borell_2526b6" xml:id="i-c4b18ad672ed7898-1" next="i-085ece2e2bcffa0e-1" n="d696a6c9">
+          <u who="theodor_borell_2526b6" xml:id="i-d696a6c9050c3b5a-2" next="i-d696a6c9050c3b5a-3" n="d696a6c9">
             <seg n="54323fbe">
               Herr talman! Det är trevligt för mig själv, att kunna säga, att
               jag ej talar i egen sak, ty min domsaga är så liten, att där ej
@@ -1209,10 +1218,10 @@
             </seg>
           </u>
           <pb n="13" facs="https://betalab.kb.se/prot-1936--fk--35/prot_1936__fk__35-013.jp2/_view"/>
-          <note n="3a9f6844">
+          <note type="date" n="f4f97130">
             14 Nr 35. Lördagen den 23 maj.
           </note>
-          <u who="theodor_borell_2526b6" xml:id="i-085ece2e2bcffa0e-1" prev="i-c4b18ad672ed7898-1" n="d696a6c9">
+          <u who="theodor_borell_2526b6" xml:id="i-d696a6c9050c3b5a-3" prev="i-d696a6c9050c3b5a-2" n="d696a6c9">
             <seg n="26b28157">
               Anslag till avlöningar vid häradsrätterna. (Forts.) tarier, utan
               också med hänsyn till en hel mängd andra faktorer. Han kommer
@@ -1242,7 +1251,7 @@
           <note type="speaker" n="38e09cec">
             Herr Colleen:
           </note>
-          <u who="tycho_colleen_c17589" xml:id="i-1fe39fc028c74cf6-0" next="i-2f5e6bc686a7742d-0" n="3bc471dc">
+          <u who="tycho_colleen_c17589" xml:id="i-19a299e178f7373b-0" next="i-19a299e178f7373b-3" n="3bc471dc">
             <seg n="eb881496">
               Herr talman! I frågan, huruvida de nya andre notariebefattningar,
               om vilkas inrättande man nu synes vara ense, skola helt avlönas
@@ -1291,7 +1300,7 @@
             </seg>
           </u>
           <pb n="14" facs="https://betalab.kb.se/prot-1936--fk--35/prot_1936__fk__35-014.jp2/_view"/>
-          <note n="3182943e">
+          <note type="date" n="28052792">
             Lördagen den 23 maj. Nr 35. 15
           </note>
           <note n="1c56d0e5">
@@ -1300,7 +1309,7 @@
             från häradshövdingarnas sida till avlöning av för rättsskipningens
             behöriga utövande vid häradsrätterna nödvändiga arbetskrafter.
           </note>
-          <u who="tycho_colleen_c17589" xml:id="i-2f5e6bc686a7742d-0" prev="i-1fe39fc028c74cf6-0" n="3bc471dc">
+          <u who="tycho_colleen_c17589" xml:id="i-19a299e178f7373b-1" prev="i-19a299e178f7373b-0" n="3bc471dc">
             <seg n="d9db1b7f">
               Såsom i motionen nr 116 i första kammaren påpekats, finnes anledning
               till antagande, att de föreslagna nya andre notarierna avsetts
@@ -1357,10 +1366,26 @@
               att häradshövdingen skall bidraga till avlöning av rättsbildade
               biträden, som utöva domarverksamhet.
             </seg>
+          </u>
+          <note n="18135879">
+            På grund av det anförda yrkar jag, herr talman, bifall till den
+            reservation, som anförts av herr Johansson i Fredrikslund med
+            flera.
+          </note>
+          <u who="tycho_colleen_c17589" xml:id="i-19a299e178f7373b-2" prev="i-19a299e178f7373b-0" n="3bc471dc">
             <seg n="9e2513e7">
               Herr Sandén: Herr talman! Vad herr statsrådet anfört sammanfaller
               med den uppfattning, som statsutskottet givit uttryck åt.
             </seg>
+          </u>
+          <pb n="15" facs="https://betalab.kb.se/prot-1936--fk--35/prot_1936__fk__35-015.jp2/_view"/>
+          <note type="date" n="161bdee0">
+            16 Nr 35. Lördagen den 23 maj.
+          </note>
+          <note n="c9a8bd22">
+            Anslag till avlöningar vid häradsrätterna. (Forts.)
+          </note>
+          <u who="tycho_colleen_c17589" xml:id="i-19a299e178f7373b-3" prev="i-19a299e178f7373b-0" n="3bc471dc">
             <seg n="9b1cd8fd">
               De synpunkter, som herr Borell och den senaste ärade talaren
               framfört, ha inte varit främmande för avdelningen vid dess behandling
@@ -1371,18 +1396,6 @@
               om bifall till detta utskottets förslag.
             </seg>
           </u>
-          <note n="18135879">
-            På grund av det anförda yrkar jag, herr talman, bifall till den
-            reservation, som anförts av herr Johansson i Fredrikslund med
-            flera.
-          </note>
-          <pb n="15" facs="https://betalab.kb.se/prot-1936--fk--35/prot_1936__fk__35-015.jp2/_view"/>
-          <note n="8f6cfdb9">
-            16 Nr 35. Lördagen den 23 maj.
-          </note>
-          <note n="c9a8bd22">
-            Anslag till avlöningar vid häradsrätterna. (Forts.)
-          </note>
           <note n="290a62d0">
             Överläggningen ansågs härmed slutad, varefter herr talmannen
             yttrade, att därunder yrkats dels att vad utskottet i det under
@@ -1446,7 +1459,7 @@
             andra lagutskottets
           </note>
           <pb n="16" facs="https://betalab.kb.se/prot-1936--fk--35/prot_1936__fk__35-016.jp2/_view"/>
-          <note n="eb69e451">
+          <note type="date" n="12f62ae2">
             Lördagen den 23 maj. Nr 35. 17
           </note>
           <note n="7b6fcd7e">
@@ -1484,7 +1497,7 @@
           <note type="speaker" n="60b868f1">
             Herr Sandström:
           </note>
-          <u who="pontus_sandstrom_a5e12d" xml:id="i-0e8ccd16e78fde66-0" next="i-07068803715e16e3-0" n="4bda113e">
+          <u who="pontus_sandstrom_a5e12d" xml:id="i-4bda113ee4a65437-0" next="i-4bda113ee4a65437-2" n="4bda113e">
             <seg n="3142519a">
               Herr talman! I den föreliggande frågan har av motionärerna anförts,
               hurusom vid olika tillfällen och på skilda ställen i riket visat
@@ -1530,10 +1543,10 @@
           <note n="3665b231">
             K
           </note>
-          <note n="7d38a679">
+          <note type="date" n="b74ab1b9">
             18 Nr 35. Lördagen den 23 maj.
           </note>
-          <u who="pontus_sandstrom_a5e12d" xml:id="i-07068803715e16e3-0" prev="i-0e8ccd16e78fde66-0" n="4bda113e">
+          <u who="pontus_sandstrom_a5e12d" xml:id="i-4bda113ee4a65437-1" prev="i-4bda113ee4a65437-0" n="4bda113e">
             <seg n="cf95cf7e">
               Ang. kontroll över viss jordstyckningsverksamhet m. m. (Forts.)
               av jord och byggnader innehafts under en lång följd av år och
@@ -1607,6 +1620,12 @@
               här anses vara mindre berättigad än i andra grenar av affärslivet?
               En utredning
             </seg>
+          </u>
+          <pb n="18" facs="https://betalab.kb.se/prot-1936--fk--35/prot_1936__fk__35-018.jp2/_view"/>
+          <note type="date" n="525427a7">
+            Lördagen den 23 maj. Nr 35. 19
+          </note>
+          <u who="pontus_sandstrom_a5e12d" xml:id="i-4bda113ee4a65437-2" prev="i-4bda113ee4a65437-0" n="4bda113e">
             <seg n="dcbd6549">
               Ang. kontroll över viss jordstyckningsverksamhet m. m. (Forts.)
               i motionens syfte skulle, efter vad jag kan förstå, komma att
@@ -1646,14 +1665,10 @@
               yrka bifall 1ill den i ärendet avgivna reservationen.
             </seg>
           </u>
-          <pb n="18" facs="https://betalab.kb.se/prot-1936--fk--35/prot_1936__fk__35-018.jp2/_view"/>
-          <note n="38b7ded8">
-            Lördagen den 23 maj. Nr 35. 19
-          </note>
           <note type="speaker" n="ca39b07e">
             Herr Sjödahl:
           </note>
-          <u who="edgar_sjodahl_6e9785" xml:id="i-5f0259a3b042a793-0" next="i-709f3cd2b35e1e23-0" n="8c644326">
+          <u who="edgar_sjodahl_6e9785" xml:id="i-8c644326de95e15f-0" next="i-8c644326de95e15f-3" n="8c644326">
             <seg n="1c88546c">
               Herr talman! Den ärade ledamoten av utskottet herr Sandström
               har yrkat, att första kammaren icke måtte biträda andra kammarens
@@ -1690,7 +1705,7 @@
             </seg>
           </u>
           <pb n="19" facs="https://betalab.kb.se/prot-1936--fk--35/prot_1936__fk__35-019.jp2/_view"/>
-          <note n="70bbeef5">
+          <note type="date" n="cba4c51b">
             20 Nr 35. Lördagen den 23 maj.
           </note>
           <note n="26470e00">
@@ -1711,7 +1726,32 @@
             beslut; och förklarades den förra propositionen, vilken förnyades,
             vara med övervägande ja besvarad.
           </note>
-          <u who="edgar_sjodahl_6e9785" xml:id="i-709f3cd2b35e1e23-0" prev="i-5f0259a3b042a793-0" n="8c644326">
+          <u who="edgar_sjodahl_6e9785" xml:id="i-8c644326de95e15f-1" prev="i-8c644326de95e15f-0" n="8c644326"/>
+          <note n="6e999b9c">
+            Ang. rund- Föredrogs ånyo första kammarens första tillfälliga
+            utskotts utlåtande nr 17, vädsersag av i anledning av väckt motion
+            angående rundradiering av första kammarens förförhandlingar handlingar
+            vid det sammanträde, då herr Bagges interpellation angående Sve-
+          </note>
+          <note n="c82e3251">
+            vid visst — riges ställning till Nationernas förbund må komma
+            att besvaras. tillfälle. I en inom första kammaren väckt och till
+            dess första tillfälliga utskott för
+          </note>
+          <note n="e44dc897">
+            behandling hänvisad motion, nr 434, hade herr Åkerberg m. fl.
+            hemställt, att första kammaren måtte ge sitt tillstånd till att
+            det sammanträde, vid vilket hans excellens utrikesministern besvarade
+            herr Bagges interpellation angående Sveriges ställning till Nationernas
+            förbund, genom radion gjordes tillgängligt för intresserade medborgare
+            i landet på det sätt som kammarens presidium, efter samråd med
+            Radiotjänst, funne vara lämpligt.
+          </note>
+          <note n="8a4332fc">
+            Utskottet hade i det nu ifrågavarande utlåtandet anfört bland
+            annat:
+          </note>
+          <u who="edgar_sjodahl_6e9785" xml:id="i-8c644326de95e15f-2" prev="i-8c644326de95e15f-0" n="8c644326">
             <seg n="7e790002">
               »Ur praktisk synpunkt kunna vissa erinringar måhända framställas
               mot ett generellt medgivande av rundradiering av båda kamrarnas
@@ -1744,6 +1784,20 @@
               utskottet angivit samt att åt kammarens presidium måtte uppdragas
               att verkställa detta beslut.»
             </seg>
+          </u>
+          <note n="0bdcd139">
+            Reservationer hade avgivits
+          </note>
+          <note n="5fd27f7f">
+            1) av herr Sandström, som anfört: »Utskottets betänkande innebär,
+            att radioutsändningen av ifrågavarande interpellationsdebatt skulle
+            omfatta allenast anföranden av utrikesministern,
+          </note>
+          <pb n="20" facs="https://betalab.kb.se/prot-1936--fk--35/prot_1936__fk__35-020.jp2/_view"/>
+          <note type="date" n="2947a2f8">
+            Lördagen den 23 maj. Nr 33. 21
+          </note>
+          <u who="edgar_sjodahl_6e9785" xml:id="i-8c644326de95e15f-3" prev="i-8c644326de95e15f-0" n="8c644326">
             <seg n="72ae6588">
               Ang. rundradiering av kammarens förhandlingar vid visst tillfälle.
               (Forts.) interpellanten och dem, som kunna anses föra de större
@@ -1757,42 +1811,6 @@
               motionen icke måtte till någon första kammarens åtgärd föranleda.»
             </seg>
           </u>
-          <note n="6e999b9c">
-            Ang. rund- Föredrogs ånyo första kammarens första tillfälliga
-            utskotts utlåtande nr 17, vädsersag av i anledning av väckt motion
-            angående rundradiering av första kammarens förförhandlingar handlingar
-            vid det sammanträde, då herr Bagges interpellation angående Sve-
-          </note>
-          <note n="c82e3251">
-            vid visst — riges ställning till Nationernas förbund må komma
-            att besvaras. tillfälle. I en inom första kammaren väckt och till
-            dess första tillfälliga utskott för
-          </note>
-          <note n="e44dc897">
-            behandling hänvisad motion, nr 434, hade herr Åkerberg m. fl.
-            hemställt, att första kammaren måtte ge sitt tillstånd till att
-            det sammanträde, vid vilket hans excellens utrikesministern besvarade
-            herr Bagges interpellation angående Sveriges ställning till Nationernas
-            förbund, genom radion gjordes tillgängligt för intresserade medborgare
-            i landet på det sätt som kammarens presidium, efter samråd med
-            Radiotjänst, funne vara lämpligt.
-          </note>
-          <note n="8a4332fc">
-            Utskottet hade i det nu ifrågavarande utlåtandet anfört bland
-            annat:
-          </note>
-          <note n="0bdcd139">
-            Reservationer hade avgivits
-          </note>
-          <note n="5fd27f7f">
-            1) av herr Sandström, som anfört: »Utskottets betänkande innebär,
-            att radioutsändningen av ifrågavarande interpellationsdebatt skulle
-            omfatta allenast anföranden av utrikesministern,
-          </note>
-          <pb n="20" facs="https://betalab.kb.se/prot-1936--fk--35/prot_1936__fk__35-020.jp2/_view"/>
-          <note n="d834edbc">
-            Lördagen den 23 maj. Nr 33. 21
-          </note>
           <note n="b42ad6d3">
             2) av herr Vollrath Tham, som ansett, att första kammaren borde
             allenast medgiva, att utrikesministerns svar å interpellationen
@@ -1801,7 +1819,7 @@
           <note type="speaker" n="60b868f1">
             Herr Sandström:
           </note>
-          <u who="pontus_sandstrom_a5e12d" xml:id="i-0e8ccd16e78fde66-1" next="i-07068803715e16e3-1" n="4bda113e">
+          <u who="pontus_sandstrom_a5e12d" xml:id="i-4bda113ee4a65437-3" next="i-4bda113ee4a65437-5" n="4bda113e">
             <seg n="64814554">
               I egenskap av reservant inom kammarens första tillfälliga utskott
               vid behandlingen av den föreliggande motionen nr 434 av herr Åkerberg
@@ -1823,7 +1841,7 @@
             sedan enligt tryckfrihetsförordningen offentliga handlingar, varav
             envar svensk medborgare äger att taga del.
           </note>
-          <u who="pontus_sandstrom_a5e12d" xml:id="i-07068803715e16e3-1" prev="i-0e8ccd16e78fde66-1" n="4bda113e">
+          <u who="pontus_sandstrom_a5e12d" xml:id="i-4bda113ee4a65437-4" prev="i-4bda113ee4a65437-3" n="4bda113e">
             <seg n="781674ef">
               Uppenbart är sålunda, att de svenska grundlagstiftarna med en
               kraft och tydlighet, som icke lämnar något rum för missförstånd
@@ -1859,6 +1877,12 @@
               en alltför stark rubbning av det ordinarie riksprogrammet för
               radion. Under sådana förhållanden kom jag till den uppfatt-
             </seg>
+          </u>
+          <pb n="21" facs="https://betalab.kb.se/prot-1936--fk--35/prot_1936__fk__35-021.jp2/_view"/>
+          <note type="date" n="9c0bb91b">
+            922 Nr 35. Lördagen den 23 maj.
+          </note>
+          <u who="pontus_sandstrom_a5e12d" xml:id="i-4bda113ee4a65437-5" prev="i-4bda113ee4a65437-3" n="4bda113e">
             <seg n="71abac5c">
               Ang. rundradiering av kammarens förhandlingar vid visst tillfälle.
               (Forts.) ningen, att den enda hållbara och konsekventa ståndpunkten
@@ -1870,14 +1894,10 @@
               till den av mig avgivna vid utskottets utlåtande fogade reservationen.
             </seg>
           </u>
-          <pb n="21" facs="https://betalab.kb.se/prot-1936--fk--35/prot_1936__fk__35-021.jp2/_view"/>
-          <note n="87093b99">
-            922 Nr 35. Lördagen den 23 maj.
-          </note>
           <note type="speaker" n="ca39b07e">
             Herr Sjödahl:
           </note>
-          <u who="edgar_sjodahl_6e9785" xml:id="i-5f0259a3b042a793-1" next="i-709f3cd2b35e1e23-1" n="8c644326">
+          <u who="edgar_sjodahl_6e9785" xml:id="i-8c644326de95e15f-4" next="i-8c644326de95e15f-7" n="8c644326">
             <seg n="e89395ef">
               Herr talman! Den föregående ärade talaren framförde närmast en
               del konstitutionella invändningar gentemot det föreliggande förslaget,
@@ -1947,10 +1967,10 @@
             </seg>
           </u>
           <pb n="22" facs="https://betalab.kb.se/prot-1936--fk--35/prot_1936__fk__35-022.jp2/_view"/>
-          <note n="a9863214">
+          <note type="date" n="651e178e">
             Lördagen den 23 maj. Nr 35. 28
           </note>
-          <u who="edgar_sjodahl_6e9785" xml:id="i-709f3cd2b35e1e23-1" prev="i-5f0259a3b042a793-1" n="8c644326">
+          <u who="edgar_sjodahl_6e9785" xml:id="i-8c644326de95e15f-5" prev="i-8c644326de95e15f-4" n="8c644326">
             <seg n="aac46f24">
               Ang. rundradiering av kammarens förhandlingar vid visst tillfälle.
               (Forts.) randena faktiskt inte komma det stora flertalet av radiolyssnarna
@@ -2022,6 +2042,12 @@
               sig utgöra ett skäl för majoriteten i denna kammare att avslå
               hela förslaget, därför att man överhuvud taget
             </seg>
+          </u>
+          <pb n="23" facs="https://betalab.kb.se/prot-1936--fk--35/prot_1936__fk__35-023.jp2/_view"/>
+          <note type="date" n="3898c0b9">
+            24 Nr 35. Lördagen den 23 maj.
+          </note>
+          <u who="edgar_sjodahl_6e9785" xml:id="i-8c644326de95e15f-6" prev="i-8c644326de95e15f-4" n="8c644326">
             <seg n="64a9b6f0">
               Ang. rundradiering av kammarens förhandlingar vid visst tillfälle.
               (Forts.) är emot radiering av riksdagens debatter. Om utskottsutlåtandet
@@ -2094,6 +2120,12 @@
               mycket vid sidan av saken. Närmast är det, som jag får hoppas,
               ett rätt naturligt urval, som här skett. En
             </seg>
+          </u>
+          <pb n="24" facs="https://betalab.kb.se/prot-1936--fk--35/prot_1936__fk__35-024.jp2/_view"/>
+          <note type="date" n="674648ab">
+            Lördagen den 23 maj. Nr 35. 25
+          </note>
+          <u who="edgar_sjodahl_6e9785" xml:id="i-8c644326de95e15f-7" prev="i-8c644326de95e15f-4" n="8c644326">
             <seg n="ba956f8e">
               Ang. rundradiering av kammarens förhandlingar vid visst tillfälle.
               (Forts.) ärad ledamot av kammaren, som jag tänkte på, skakar på
@@ -2148,18 +2180,10 @@
               till utskottets örslag.
             </seg>
           </u>
-          <pb n="23" facs="https://betalab.kb.se/prot-1936--fk--35/prot_1936__fk__35-023.jp2/_view"/>
-          <note n="0ac9cebd">
-            24 Nr 35. Lördagen den 23 maj.
-          </note>
-          <pb n="24" facs="https://betalab.kb.se/prot-1936--fk--35/prot_1936__fk__35-024.jp2/_view"/>
-          <note n="9d55bdd0">
-            Lördagen den 23 maj. Nr 35. 25
-          </note>
           <note type="speaker" n="04f2a7f1">
             Herr förste vice talmannen:
           </note>
-          <u who="unknown" xml:id="i-eb530d8f6e6e0f71-0" n="5fef1a96">
+          <u who="unknown" xml:id="i-5fef1a961528a2e6-1" n="5fef1a96">
             <seg n="401d172f">
               Jag kan inte tycka, herr talman, att denna fråga fått en särskilt
               lycklig start, varken när det gäller, huruvida man bör företaga
@@ -2187,10 +2211,10 @@
             </seg>
           </u>
           <pb n="25" facs="https://betalab.kb.se/prot-1936--fk--35/prot_1936__fk__35-025.jp2/_view"/>
-          <note n="e95a9dd8">
+          <note type="date" n="8a79f0fd">
             26 Nr 35. Lördagen den 23 maj.
           </note>
-          <u who="unknown" xml:id="i-63b74d59d8026bb7-0" n="5fef1a96">
+          <u who="unknown" xml:id="i-5fef1a961528a2e6-2" n="5fef1a96">
             <seg n="da322958">
               Ang. rundradiering av kammarens förhandlingar vid visst tillfälle.
               (Forts.) vara av visst värde i vissa särskilda fall att kunna
@@ -2263,6 +2287,12 @@
               att kunna fälla ett sådant omdöme i hastigheten, men man bör ha
               rannsakat
             </seg>
+          </u>
+          <pb n="26" facs="https://betalab.kb.se/prot-1936--fk--35/prot_1936__fk__35-026.jp2/_view"/>
+          <note type="date" n="9e650f10">
+            Lördagen den 23 maj. Nr 35. 27
+          </note>
+          <u who="unknown" xml:id="i-5fef1a961528a2e6-3" n="5fef1a96">
             <seg n="2b2bd3eb">
               Ang. rundradiering av kammarens förhandlingar vid visst tillfälle.
               (Forts.) dem särskilt noga, om man skall kunna upprepa ett sådant
@@ -2331,6 +2361,12 @@
               radieras. Jag är för radiering i en nästan otrolig grad. Jag hoppas,
               att den ärade utskottsordföranden hör detta. Jag har
             </seg>
+          </u>
+          <pb n="27" facs="https://betalab.kb.se/prot-1936--fk--35/prot_1936__fk__35-027.jp2/_view"/>
+          <note type="date" n="c640dacd">
+            28 Nr 35. Lördagen den 23 maj.
+          </note>
+          <u who="unknown" xml:id="i-5fef1a961528a2e6-4" n="5fef1a96">
             <seg n="a1a63a1a">
               Ang. rundradiering av kammarens förhandlingar vid visst tillfälle.
               (Forts.) ingenting alls emot att genom radio förvandla hela landet
@@ -2351,14 +2387,6 @@
               hemställan.
             </seg>
           </u>
-          <pb n="26" facs="https://betalab.kb.se/prot-1936--fk--35/prot_1936__fk__35-026.jp2/_view"/>
-          <note n="e1450441">
-            Lördagen den 23 maj. Nr 35. 27
-          </note>
-          <pb n="27" facs="https://betalab.kb.se/prot-1936--fk--35/prot_1936__fk__35-027.jp2/_view"/>
-          <note n="039cc750">
-            28 Nr 35. Lördagen den 23 maj.
-          </note>
           <note n="691a4d51">
             I herr förste vice talmannens yttrande instämde herr andre vice
             talmannen samt herrar Källman, Anders Bärg, Linder, Sigfrid Hansson,
@@ -2367,7 +2395,7 @@
           <note type="speaker" n="68a2bfff">
             Herr Nerman:
           </note>
-          <u who="ture_nerman_5f5b9c" xml:id="i-5d769a9f117d7e16-0" next="i-9e5933fb9f3ebfa1-0" n="85b6ded5">
+          <u who="ture_nerman_5f5b9c" xml:id="i-85b6ded51bab96fd-0" next="i-85b6ded51bab96fd-2" n="85b6ded5">
             <seg n="434b4ceb">
               Herr talman! Radiering av riksdagsdebatter finns principiellt
               från min sida intet att invända emot. Allra helst kan sådant vara
@@ -2423,10 +2451,10 @@
             </seg>
           </u>
           <pb n="28" facs="https://betalab.kb.se/prot-1936--fk--35/prot_1936__fk__35-028.jp2/_view"/>
-          <note n="557ea1c2">
+          <note type="date" n="c3d399f6">
             Lördagen den 23 maj. Nr 35. 29
           </note>
-          <u who="ture_nerman_5f5b9c" xml:id="i-9e5933fb9f3ebfa1-0" prev="i-5d769a9f117d7e16-0" n="85b6ded5">
+          <u who="ture_nerman_5f5b9c" xml:id="i-85b6ded51bab96fd-1" prev="i-85b6ded51bab96fd-0" n="85b6ded5">
             <seg n="c19c8e4d">
               Ang. rundradiering av kammarens förhandlingar vid visst tillfälle.
               (Forts.) domligt sätt genom att censurera demokratien, klippa
@@ -2499,6 +2527,12 @@
               I vanliga fall äro herrarna av de stora partierna mycket älskvärda
               mot repre-
             </seg>
+          </u>
+          <pb n="29" facs="https://betalab.kb.se/prot-1936--fk--35/prot_1936__fk__35-029.jp2/_view"/>
+          <note type="date" n="8266772a">
+            30 Nr 35. Lördagen den 23 maj.
+          </note>
+          <u who="ture_nerman_5f5b9c" xml:id="i-85b6ded51bab96fd-2" prev="i-85b6ded51bab96fd-0" n="85b6ded5">
             <seg n="ada4588f">
               Ang. rundradiering av kammarens förhandlingar vid visst tillfälle.
               (Forts.) sentanten för det lilla parti, som ensamt här skulle
@@ -2542,14 +2576,10 @@
               av orden i femte raden »på sätt utskottet angivit.».
             </seg>
           </u>
-          <pb n="29" facs="https://betalab.kb.se/prot-1936--fk--35/prot_1936__fk__35-029.jp2/_view"/>
-          <note n="b7695251">
-            30 Nr 35. Lördagen den 23 maj.
-          </note>
           <note type="speaker" n="3e386266">
             Herr Åkerberg:
           </note>
-          <u who="harald_akerberg_314d62" xml:id="i-8a24768972b4fff8-0" next="i-a9b64bcad7295f6c-0" n="b2f974df">
+          <u who="harald_akerberg_314d62" xml:id="i-b2f974df6c65f4f1-0" next="i-b2f974df6c65f4f1-2" n="b2f974df">
             <seg n="0e1a9c9d">
               Ja, jag måste säga som den gamle kungafarbrorn: Potztausend,
               haben wir das alles getan!» Jag är medveten om att den här framstöten
@@ -2587,10 +2617,10 @@
             </seg>
           </u>
           <pb n="30" facs="https://betalab.kb.se/prot-1936--fk--35/prot_1936__fk__35-030.jp2/_view"/>
-          <note n="7d52cfc8">
+          <note type="date" n="67b83efd">
             Lördagen den 23 maj. Nr 35. 31
           </note>
-          <u who="harald_akerberg_314d62" xml:id="i-a9b64bcad7295f6c-0" prev="i-8a24768972b4fff8-0" n="b2f974df">
+          <u who="harald_akerberg_314d62" xml:id="i-b2f974df6c65f4f1-1" prev="i-b2f974df6c65f4f1-0" n="b2f974df">
             <seg n="b6f1afcd">
               Ang. rundradiering av kammarens förhandlingar vid visst tillfälle.
               (Forts.) önskvärda. När herr Lindhagen sedan alldeles frivilligt
@@ -2667,6 +2697,12 @@
               Men det kan givetvis inte heller med hänsyn till radioutsändningen
               vara
             </seg>
+          </u>
+          <pb n="31" facs="https://betalab.kb.se/prot-1936--fk--35/prot_1936__fk__35-031.jp2/_view"/>
+          <note type="date" n="7984bff5">
+            32 Nr 335. Lördagen den 23 maj.
+          </note>
+          <u who="harald_akerberg_314d62" xml:id="i-b2f974df6c65f4f1-2" prev="i-b2f974df6c65f4f1-0" n="b2f974df">
             <seg n="9eec0617">
               Ang. rundradiering av kammarens förhandlingar vid visst tillfälle.
               (Forts.) tal om, att någon censur skall förekomma beträffande
@@ -2727,14 +2763,10 @@
               vice talmannen skulle kunna ansluta sig till förslaget.
             </seg>
           </u>
-          <pb n="31" facs="https://betalab.kb.se/prot-1936--fk--35/prot_1936__fk__35-031.jp2/_view"/>
-          <note n="aebc4ef8">
-            32 Nr 335. Lördagen den 23 maj.
-          </note>
           <note type="speaker" n="4b7075e5">
             Herr Westman:
           </note>
-          <u who="kg_westman_31d2b1" xml:id="i-7ec7f297e7d745a0-0" next="i-39874df01661e9a7-0" n="72ea25a5">
+          <u who="kg_westman_31d2b1" xml:id="i-c6d98fd7b79994e2-0" next="i-c6d98fd7b79994e2-2" n="72ea25a5">
             <seg n="548f8bc3">
               Herr talman! Den svenska riksdagen är verkligen trogen sina traditioner.
               Den debatt, som vi nu i dag föra, har i åtskilligt erinrat om
@@ -2748,14 +2780,14 @@
             </seg>
           </u>
           <pb n="32" facs="https://betalab.kb.se/prot-1936--fk--35/prot_1936__fk__35-032.jp2/_view"/>
-          <note n="509fe42f">
+          <note type="date" n="6de82251">
             Lördagen den 23 maj. Nr 35. 33
           </note>
           <note n="e3974731">
             Ang. rundradiering av kammarens förhandlingar vid visst tillfälle.
             (Forts.)
           </note>
-          <u who="kg_westman_31d2b1" xml:id="i-39874df01661e9a7-0" prev="i-7ec7f297e7d745a0-0" n="72ea25a5">
+          <u who="kg_westman_31d2b1" xml:id="i-c6d98fd7b79994e2-1" prev="i-c6d98fd7b79994e2-0" n="72ea25a5">
             <seg n="e879d36a">
               Naturligtvis finnes det sådana faror som lura. Vi äro ju alla
               mer eller mindre benägna att framställa oss själva i så fördelaktig
@@ -2830,6 +2862,15 @@
               Det finnes också ett annat bekymmer: frågan om urvalet av de
               debatter,
             </seg>
+          </u>
+          <note n="3b4a6798">
+            Första kammarens protokoll 19386. Nr 35. 3
+          </note>
+          <pb n="33" facs="https://betalab.kb.se/prot-1936--fk--35/prot_1936__fk__35-033.jp2/_view"/>
+          <note type="date" n="636844be">
+            34 Nr 35. Lördagen den 23 maj.
+          </note>
+          <u who="kg_westman_31d2b1" xml:id="i-c6d98fd7b79994e2-2" prev="i-c6d98fd7b79994e2-0" n="72ea25a5">
             <seg n="0f7e48c9">
               Ang. rumndradiering av kammarens förhandlingar vid visst tillfälle.
               (Forts.) som skola utsändas i radio. Det är klart, att valet i
@@ -2884,20 +2925,13 @@
               Nerman angav.
             </seg>
           </u>
-          <note n="3b4a6798">
-            Första kammarens protokoll 19386. Nr 35. 3
-          </note>
-          <pb n="33" facs="https://betalab.kb.se/prot-1936--fk--35/prot_1936__fk__35-033.jp2/_view"/>
-          <note n="26898e2c">
-            34 Nr 35. Lördagen den 23 maj.
-          </note>
           <note n="2a2356c9">
             I detta anförande instämde herrar Västberg och Löfvander.
           </note>
           <note type="speaker" n="3aa43111">
             Herr Wagnsson, Ruben:
           </note>
-          <u who="ruben_wagnsson_57607d" xml:id="i-84d06842863b7a2b-0" next="i-db18fd4aeb7573eb-0" n="af6fd725">
+          <u who="ruben_wagnsson_57607d" xml:id="i-af6fd725f3d8aa87-0" next="i-af6fd725f3d8aa87-4" n="af6fd725">
             <seg n="2af3d962">
               Herr talman! Då jag till alla delar kan instämma 1 vad den föregående
               ärade talaren här anfört och då åtskilliga av de synpunkter, han
@@ -2915,7 +2949,7 @@
             böra uttala, att utsändning må ske allenast av
           </note>
           <pb n="34" facs="https://betalab.kb.se/prot-1936--fk--35/prot_1936__fk__35-034.jp2/_view"/>
-          <note n="041b9629">
+          <note type="date" n="ccee3af0">
             Lördagen den 23 maj. Nr 35. 35
           </note>
           <note n="15d47232">
@@ -2998,7 +3032,7 @@
             av vattenoch sanitetsledningar på landsbygden;
           </note>
           <pb n="35" facs="https://betalab.kb.se/prot-1936--fk--35/prot_1936__fk__35-035.jp2/_view"/>
-          <note n="7d5c1b79">
+          <note type="date" n="4960ffaa">
             36 Nr 35. Lördagen den 23 maj.
           </note>
           <note n="afff2e55">
@@ -3012,11 +3046,7 @@
             proposition med förslag till förordning om upphävande av rätt
             till restitution av B-skatt.
           </note>
-          <u who="ruben_wagnsson_57607d" xml:id="i-db18fd4aeb7573eb-0" prev="i-84d06842863b7a2b-0" n="af6fd725">
-            <seg n="ead23ee4"/>
-            <seg n="ead23ee4"/>
-            <seg n="ead23ee4"/>
-          </u>
+          <u who="ruben_wagnsson_57607d" xml:id="i-af6fd725f3d8aa87-1" prev="i-af6fd725f3d8aa87-0" n="af6fd725"/>
           <note n="8f269303">
             Anmäldes och bordlades
           </note>
@@ -3086,6 +3116,7 @@
             gjorda framställning angående anslag till förvaltningsbidrag till
             jordbrukskasserörelsen.
           </note>
+          <u who="ruben_wagnsson_57607d" xml:id="i-af6fd725f3d8aa87-2" prev="i-af6fd725f3d8aa87-0" n="af6fd725"/>
           <note n="d2718cb3">
             Justerades protokollsutdrag för denna dag, varefter kammarens
             sammanträde avslutades kl. 2.15 e. m.
@@ -3094,7 +3125,7 @@
             In fidem G. H. Berggren.
           </note>
           <pb n="36" facs="https://betalab.kb.se/prot-1936--fk--35/prot_1936__fk__35-036.jp2/_view"/>
-          <note n="11309cac">
+          <note type="date" n="76dc73cf">
             Måndagen den 25 maj. Nr 35. 87
           </note>
           <note type="date" n="39c3e2f8">
@@ -3110,6 +3141,7 @@
             att deltaga i riksdagsarbetet intygas. Stockholm den 23 maj 1936.
             H. C. Jacobeus.
           </note>
+          <u who="ruben_wagnsson_57607d" xml:id="i-af6fd725f3d8aa87-3" prev="i-af6fd725f3d8aa87-0" n="af6fd725"/>
           <note n="a71c40e7">
             Vidare upplästes en till kammaren inkommen ansökning, som jämte
             därvid fogat läkarintyg var så lydande:
@@ -3168,7 +3200,7 @@
             och kontantunderstödsverksamhet m. m.;
           </note>
           <pb n="37" facs="https://betalab.kb.se/prot-1936--fk--35/prot_1936__fk__35-037.jp2/_view"/>
-          <note n="46e159fd">
+          <note type="date" n="972fa053">
             38 Nr 35. Måndagen den 25 maj.
           </note>
           <note n="2e6694b8">
@@ -3181,6 +3213,7 @@
             proposition angående anslag till statliga och kommunala beredskapsarbeten
             m. m.
           </note>
+          <u who="ruben_wagnsson_57607d" xml:id="i-af6fd725f3d8aa87-4" prev="i-af6fd725f3d8aa87-0" n="af6fd725"/>
           <note n="618b9843">
             Föredrogos, men bordlades ånyo på flera ledamöters begäran konstitutionsutskottets
             utlåtande nr 37, bevillningsutskottets betänkande nr 37 samt bankoutskottets
@@ -3253,7 +3286,7 @@
             tillhörande följdförfattningar.
           </note>
           <pb n="38" facs="https://betalab.kb.se/prot-1936--fk--35/prot_1936__fk__35-038.jp2/_view"/>
-          <note n="06157075">
+          <note type="date" n="244a5f21">
             Måndagen den 25 maj. Nr 35. 39
           </note>
           <note n="91ef3645">

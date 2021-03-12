@@ -20,7 +20,7 @@
     <encodingDesc>
       <editorialDecl>
         <correction>
-          <p>Some data curation was done. It is documented in db/curation/instances</p>
+          <p>Some data curation was done. It is documented in input/curation/instances</p>
         </correction>
       </editorialDecl>
     </encodingDesc>
@@ -58,6 +58,7 @@
       </front>
       <body>
         <div>
+          <pb n="0" facs="https://betalab.kb.se/prot-1969--fk--16/prot_1969__fk__16-000.jp2/_view"/>
           <note n="3dcededf">
             RIKSDAGENS PROTOKOLL
           </note>
@@ -202,7 +203,7 @@
             79
           </note>
           <pb n="2" facs="https://betalab.kb.se/prot-1969--fk--16/prot_1969__fk__16-002.jp2/_view"/>
-          <note n="ae823687">
+          <note type="date" n="a1e44c14">
             Torsdagen den 10 april 1969
           </note>
           <note n="8f890d94">
@@ -267,7 +268,7 @@
           <note type="speaker" n="9a0ad038">
             Herr BRUNDIN (m):
           </note>
-          <u who="paul_brundin_6926d9" xml:id="i-75a3aa389e109c1c-0" next="i-624262842c2b29dd-0" n="d254ec83">
+          <u who="paul_brundin_6926d9" xml:id="i-d254ec83546d3255-0" next="i-d254ec83546d3255-1" n="d254ec83">
             <seg n="448ab32a">
               Herr talman! Jag tackar statsrådet för svaret på min fråga.
             </seg>
@@ -301,7 +302,7 @@
           <note n="23d1e7bc">
             4 Nr 16
           </note>
-          <note n="ae823687">
+          <note type="date" n="a1e44c14">
             Torsdagen den 10 april 1969
           </note>
           <note n="7a52ba3b">
@@ -311,7 +312,7 @@
             enska kylskåp m. m., vilken fråga intagits i kammarens protokoll
             för den 28 mars, och anförde:
           </note>
-          <u who="paul_brundin_6926d9" xml:id="i-624262842c2b29dd-0" prev="i-75a3aa389e109c1c-0" n="d254ec83">
+          <u who="paul_brundin_6926d9" xml:id="i-d254ec83546d3255-1" prev="i-d254ec83546d3255-0" n="d254ec83">
             <seg n="a67c31fe">
               Herr talman! Herr Levin har frågat om jag vill överväga att vidtaga
               åtgärder riktade mot den dumping som tilllämpas av italienska
@@ -330,7 +331,7 @@
           <note type="speaker" n="691dda1e">
             Herr LEVIN (fp):
           </note>
-          <u who="unknown" xml:id="i-5de737667809c1e6-0" n="10241650">
+          <u who="unknown" xml:id="i-1024165050c40995-0" n="10241650">
             <seg n="262d57a6">
               Herr talman! Jag ber att få tacka handelsministern för hans vänliga
               och åtminstone delvis tillmötesgående svar på min fråga.
@@ -392,10 +393,10 @@
             </seg>
           </u>
           <pb n="4" facs="https://betalab.kb.se/prot-1969--fk--16/prot_1969__fk__16-004.jp2/_view"/>
-          <note n="ae823687">
+          <note type="date" n="a1e44c14">
             Torsdagen den 10 april 1969
           </note>
-          <u who="unknown" xml:id="i-a3566e2fbc4c9721-0" n="10241650">
+          <u who="unknown" xml:id="i-1024165050c40995-1" n="10241650">
             <seg n="a208ff86">
               mars i år med omedelbar verkan — ovanpå en redan relativt hög
               importtull — införde en utjämningstull på italienska produkter
@@ -414,7 +415,7 @@
           <note type="speaker" n="6d2922f4">
             Herr statsrådet LANGE:
           </note>
-          <u who="gunnar_lange_eea0ca" xml:id="i-5a40149493079cac-0" next="i-8cbb94436ac8ed25-0" n="4e79c78b">
+          <u who="gunnar_lange_eea0ca" xml:id="i-4e79c78b5dcae4dc-0" next="i-4e79c78b5dcae4dc-2" n="4e79c78b">
             <seg n="18ffa450">
               Herr talman! Bara två ting.
             </seg>
@@ -443,11 +444,19 @@
             elevråden vid skolorna, vilken fråga intagits i kammarens protokoll
             för den 26 mars, och yttrade:
           </note>
-          <u who="gunnar_lange_eea0ca" xml:id="i-8cbb94436ac8ed25-0" prev="i-5a40149493079cac-0" n="4e79c78b">
+          <u who="gunnar_lange_eea0ca" xml:id="i-4e79c78b5dcae4dc-1" prev="i-4e79c78b5dcae4dc-0" n="4e79c78b">
             <seg n="890597b2">
               Herr talman! Herr Lidgard har frågat mig om jag vill medverka
               till att
             </seg>
+          </u>
+          <note n="375ccb7e">
+            Nr 16 5
+          </note>
+          <note n="48567f16">
+            Ang. elevråden vid skolorna
+          </note>
+          <u who="gunnar_lange_eea0ca" xml:id="i-4e79c78b5dcae4dc-2" prev="i-4e79c78b5dcae4dc-0" n="4e79c78b">
             <seg n="0f5bf369">
               det säkerställs att skolornas elevråd fungerar som organ för
               alla en skolas elever och inte främst som lokalavdelningar för
@@ -460,16 +469,10 @@
               skolans elever och som lokalorganisation i en riksomfattande elevsammanslutning.
             </seg>
           </u>
-          <note n="375ccb7e">
-            Nr 16 5
-          </note>
-          <note n="48567f16">
-            Ang. elevråden vid skolorna
-          </note>
           <note type="speaker" n="46bc455f">
             Herr LIDGARD (m):
           </note>
-          <u who="bertil_lidgard_9cf6d7" xml:id="i-21e9b531ec0e6834-0" next="i-67555835c354d592-0" n="d8236d06">
+          <u who="bertil_lidgard_9cf6d7" xml:id="i-d8236d06be7a13c6-0" next="i-d8236d06be7a13c6-1" n="d8236d06">
             <seg n="011f6002">
               Herr talman! När vi här i kammaren ibland klagar över att vi
               får propositioner litet sent, brukar vi få veta från regeringsbänken
@@ -506,7 +509,7 @@
           <note n="48567f16">
             Ang. elevråden vid skolorna
           </note>
-          <u who="bertil_lidgard_9cf6d7" xml:id="i-67555835c354d592-0" prev="i-21e9b531ec0e6834-0" n="d8236d06">
+          <u who="bertil_lidgard_9cf6d7" xml:id="i-d8236d06be7a13c6-1" prev="i-d8236d06be7a13c6-0" n="d8236d06">
             <seg n="82d19acd">
               detta försök att hjälpa eleverna fram till en plan för den verksamhet
               som vi alla anser rätt väsentlig inom skolväsendet för att främja
@@ -541,7 +544,7 @@
           <note type="speaker" n="e3dfa376">
             Herr statsrådet PALME:
           </note>
-          <u who="olof_palme_c83501" xml:id="i-68c8fb5ad2ad0bbd-0" next="i-cad5ebf9cc5aeab2-0" n="2441dbd1">
+          <u who="olof_palme_c83501" xml:id="i-b3558d290d2044e3-0" next="i-b3558d290d2044e3-1" n="2441dbd1">
             <seg n="dbe1f08e">
               Herr talman! Att sammanskriva svaret på herr Lidgards fråga torde
               ha tagit ungefär lika lång tid som det tog för herr Lidgard att
@@ -550,10 +553,10 @@
               det till-
             </seg>
           </u>
-          <note n="ae823687">
+          <note type="date" n="a1e44c14">
             Torsdagen den 10 april 1969
           </note>
-          <u who="olof_palme_c83501" xml:id="i-cad5ebf9cc5aeab2-0" prev="i-68c8fb5ad2ad0bbd-0" n="2441dbd1">
+          <u who="olof_palme_c83501" xml:id="i-b3558d290d2044e3-1" prev="i-b3558d290d2044e3-0" n="2441dbd1">
             <seg n="c577c66e">
               hör ju de enkla frågornas metodik att det inte är så lätt att
               veta vad som åsyftas — det får man först reda på vid replikskiftet.
@@ -585,7 +588,7 @@
           <note type="speaker" n="46bc455f">
             Herr LIDGARD (m):
           </note>
-          <u who="bertil_lidgard_9cf6d7" xml:id="i-21e9b531ec0e6834-1" next="i-67555835c354d592-1" n="d8236d06">
+          <u who="bertil_lidgard_9cf6d7" xml:id="i-d8236d06be7a13c6-2" next="i-d8236d06be7a13c6-3" n="d8236d06">
             <seg n="fabde184">
               Herr talman! Jag är tacksam för att utbildningsministern söker
               förklara för mig att det inte är fråga om något tvång, men om
@@ -598,10 +601,10 @@
             </seg>
           </u>
           <pb n="6" facs="https://betalab.kb.se/prot-1969--fk--16/prot_1969__fk__16-006.jp2/_view"/>
-          <note n="ae823687">
+          <note type="date" n="a1e44c14">
             Torsdagen den 10 april 1969
           </note>
-          <u who="bertil_lidgard_9cf6d7" xml:id="i-67555835c354d592-1" prev="i-21e9b531ec0e6834-1" n="d8236d06">
+          <u who="bertil_lidgard_9cf6d7" xml:id="i-d8236d06be7a13c6-3" prev="i-d8236d06be7a13c6-2" n="d8236d06">
             <seg n="2ee55ada">
               Jag vill säga att jag helt delar utbildningsministerns uppfattning
               att det är önskvärt att den centrala organisationen blir så stark
@@ -629,7 +632,7 @@
           <note type="speaker" n="e3dfa376">
             Herr statsrådet PALME:
           </note>
-          <u who="olof_palme_c83501" xml:id="i-68c8fb5ad2ad0bbd-1" next="i-cad5ebf9cc5aeab2-1" n="2441dbd1">
+          <u who="olof_palme_c83501" xml:id="i-b3558d290d2044e3-2" next="i-b3558d290d2044e3-3" n="2441dbd1">
             <seg n="ff0e1f33">
               Herr talman! Det borde inte vara herr Lidgard obekant att för
               närvarande är lärarna den enda personalkategori som väljer s.k.
@@ -651,7 +654,7 @@
           <note n="48567f16">
             Ang. elevråden vid skolorna
           </note>
-          <u who="olof_palme_c83501" xml:id="i-cad5ebf9cc5aeab2-1" prev="i-68c8fb5ad2ad0bbd-1" n="2441dbd1">
+          <u who="olof_palme_c83501" xml:id="i-b3558d290d2044e3-3" prev="i-b3558d290d2044e3-2" n="2441dbd1">
             <seg n="8e5d59ba">
               Jag vill sluta detta inlägg med att säga detsamma som jag sade
               till herr Richardson för en tid sedan, nämligen att man nog med
@@ -664,7 +667,7 @@
           <note type="speaker" n="46bc455f">
             Herr LIDGARD (m):
           </note>
-          <u who="bertil_lidgard_9cf6d7" xml:id="i-e466c52967fa0bf3-0" n="d8236d06">
+          <u who="bertil_lidgard_9cf6d7" xml:id="i-d8236d06be7a13c6-4" n="d8236d06">
             <seg n="fd51f408">
               Herr talman! Jag ber att få citera läroplanen: »För att elevrådet
               skall kunna fullgöra sina uppgifter, behöver det skolans stöd
@@ -688,7 +691,7 @@
           <note type="speaker" n="e3dfa376">
             Herr statsrådet PALME:
           </note>
-          <u who="olof_palme_c83501" xml:id="i-68c8fb5ad2ad0bbd-2" next="i-cad5ebf9cc5aeab2-2" n="2441dbd1">
+          <u who="olof_palme_c83501" xml:id="i-b3558d290d2044e3-4" next="i-b3558d290d2044e3-7" n="2441dbd1">
             <seg n="ee4519f1">
               Herr talman! När herr Lidgard här talar om tvång uppger han att
               det finns ett förslag till normalstadga för elevråden med formuleringen
@@ -707,13 +710,13 @@
           <note n="0bad9a45">
             8 Nr 16
           </note>
-          <note n="ae823687">
+          <note type="date" n="a1e44c14">
             Torsdagen den 10 april 1969
           </note>
           <note n="81e585d9">
             Ang. anhopningen av propositioner före påskuppehållet
           </note>
-          <u who="olof_palme_c83501" xml:id="i-cad5ebf9cc5aeab2-2" prev="i-68c8fb5ad2ad0bbd-2" n="2441dbd1">
+          <u who="olof_palme_c83501" xml:id="i-b3558d290d2044e3-5" prev="i-b3558d290d2044e3-4" n="2441dbd1">
             <seg n="0e7710f5">
               ligen herr Lidgard att minoriteten utsätts för ett tvång. Om
               majoriteten bestämmer att man inte skall gå med i SECO, skulle
@@ -734,25 +737,6 @@
               Såvitt jag begriper är det en lätt anarkistisk princip som herr
               Lidgard här vill lansera.
             </seg>
-            <seg n="150ff832">
-              Herr talman! Herr Brundin har frågat statsministern om han anser
-              att det stora antal propositioner som avlämnats omedelbart före
-              riksdagens påskuppehåll ger oppositionspartierna tillfälle till
-              en omsorgsfull granskning av regeringens förslag.
-            </seg>
-            <seg n="b5080ab9">
-              Frågan har överlämnats till mig för besvarande i min egenskap
-              av regeringens kontaktman med riksdagen.
-            </seg>
-            <seg n="f88a3eb5">
-              Även om det antal propositioner som har avlämnats under veckan
-              närmast före riksdagens påskuppehåll inte kan anses ringa, är
-              enligt min mening mo-
-            </seg>
-            <seg n="5a99664b">
-              tionstiden så lång, att en omsorgsfull granskning av förslagen
-              bör vara möj-
-            </seg>
           </u>
           <note n="b6e68b1a">
             Överläggningen ansågs härmed slutad.
@@ -766,6 +750,18 @@
             av propositioner före påskuppehållet, vilken fråga intagits i
             kammarens protokoll för den 26 mars, och anförde:
           </note>
+          <u who="olof_palme_c83501" xml:id="i-b3558d290d2044e3-6" prev="i-b3558d290d2044e3-4" n="2441dbd1">
+            <seg n="150ff832">
+              Herr talman! Herr Brundin har frågat statsministern om han anser
+              att det stora antal propositioner som avlämnats omedelbart före
+              riksdagens påskuppehåll ger oppositionspartierna tillfälle till
+              en omsorgsfull granskning av regeringens förslag.
+            </seg>
+            <seg n="b5080ab9">
+              Frågan har överlämnats till mig för besvarande i min egenskap
+              av regeringens kontaktman med riksdagen.
+            </seg>
+          </u>
           <note n="35585a88">
             Under veckan närmast före riksdagens påskuppehåll, alltså under
             tiden den 24—28 mars, avlämnades tolv propositioner. För åtta
@@ -773,13 +769,24 @@
             april och för tre till den 11 april. Den tolfte propositionen
             har inte bordlagts förrän efter påskuppehållet.
           </note>
+          <u who="olof_palme_c83501" xml:id="i-b3558d290d2044e3-7" prev="i-b3558d290d2044e3-4" n="2441dbd1">
+            <seg n="f88a3eb5">
+              Även om det antal propositioner som har avlämnats under veckan
+              närmast före riksdagens påskuppehåll inte kan anses ringa, är
+              enligt min mening mo-
+            </seg>
+            <seg n="5a99664b">
+              tionstiden så lång, att en omsorgsfull granskning av förslagen
+              bör vara möj-
+            </seg>
+          </u>
           <note n="1806958c">
             lig.
           </note>
           <note type="speaker" n="9a0ad038">
             Herr BRUNDIN (m):
           </note>
-          <u who="paul_brundin_6926d9" xml:id="i-0346cd3d47126c3d-0" n="d254ec83">
+          <u who="paul_brundin_6926d9" xml:id="i-d254ec83546d3255-2" n="d254ec83">
             <seg n="518314e2">
               Herr talman! Den här saken kom ju att diskuteras sista dagen
               före påskuppehållet, dvs. dagen efter det jag ställt min enkla
@@ -813,13 +820,13 @@
           <note type="speaker" n="242ef705">
             Herr statsrådet GEIJER:
           </note>
-          <u who="lennart_geijer_794972" xml:id="i-7147f81daf0989fc-0" next="i-d96bbd84199fe0c1-0" n="2d25583c"/>
+          <u who="lennart_geijer_794972" xml:id="i-2d25583ce1e7c43b-0" next="i-2d25583ce1e7c43b-1" n="2d25583c"/>
           <note n="100d719f">
             Herr talman! Herr Brundins fråga gällde det antal propositioner
             som avlämnats omedelbart före riksdagens
           </note>
           <pb n="8" facs="https://betalab.kb.se/prot-1969--fk--16/prot_1969__fk__16-008.jp2/_view"/>
-          <note n="ae823687">
+          <note type="date" n="a1e44c14">
             Torsdagen den 10 april 1969
           </note>
           <note n="7db72e05">
@@ -828,7 +835,7 @@
           <note n="db9c2a40">
             Ang. mer forskning rörande förskoleåldrarna
           </note>
-          <u who="lennart_geijer_794972" xml:id="i-d96bbd84199fe0c1-0" prev="i-7147f81daf0989fc-0" n="2d25583c">
+          <u who="lennart_geijer_794972" xml:id="i-2d25583ce1e7c43b-1" prev="i-2d25583ce1e7c43b-0" n="2d25583c">
             <seg n="71d999fc">
               påskuppehåll och det är beträffande detta jag har svarat.
             </seg>
@@ -857,7 +864,7 @@
           <note type="speaker" n="9a0ad038">
             Herr BRUNDIN (m):
           </note>
-          <u who="paul_brundin_6926d9" xml:id="i-75a3aa389e109c1c-1" next="i-624262842c2b29dd-1" n="d254ec83">
+          <u who="paul_brundin_6926d9" xml:id="i-d254ec83546d3255-3" next="i-d254ec83546d3255-5" n="d254ec83">
             <seg n="b68193f7">
               Herr talman! Såvitt jag förstår, finns det ingen anledning att
               på nytt ta upp en diskussion om den formella tidpunkten för avgivandet
@@ -872,7 +879,7 @@
             under tiden 24-28 mars lämnades tolv propositioner. Jag hävdar
             att under tiden från den 25 mars fram till påskuppehållet bord-
           </note>
-          <u who="paul_brundin_6926d9" xml:id="i-624262842c2b29dd-1" prev="i-75a3aa389e109c1c-1" n="d254ec83">
+          <u who="paul_brundin_6926d9" xml:id="i-d254ec83546d3255-4" prev="i-d254ec83546d3255-3" n="d254ec83">
             <seg n="ccf1df14">
               lades första gången 24 propositioner på sammanlagt 1150 sidor.
               Vi har sju dagar på oss att arbeta med dessa propositioner, och
@@ -880,6 +887,19 @@
               granska propositionerna på den tiden? Jag beklagar att statsrådet
               Geijer här måste ikläda sig ett ställföreträdande lidande.
             </seg>
+          </u>
+          <note n="27c44087">
+            Överläggningen förklarades härmed slutad.
+          </note>
+          <note n="db9c2a40">
+            Ang. mer forskning rörande förskoleåldrarna
+          </note>
+          <note n="685391e0">
+            Statsrådet fru ODHNOFF erhöll ordet för att besvara fru Diesens
+            (m) fråga angående mer forskning rörande förskoleåldrarna, vilken
+            fråga intagits i kammarens protokoll för den 26 mars, och yttrade:
+          </note>
+          <u who="paul_brundin_6926d9" xml:id="i-d254ec83546d3255-5" prev="i-d254ec83546d3255-3" n="d254ec83">
             <seg n="e81531a2">
               Herr talman! Fru Diesen har frågat om jag avser att vidta åtgärder
               för att åstadkomma mer forskning rörande förskoleåldrarna.
@@ -902,22 +922,11 @@
               av den under förra året tillsatta barnstugeutredningen.
             </seg>
           </u>
-          <note n="27c44087">
-            Överläggningen förklarades härmed slutad.
-          </note>
-          <note n="db9c2a40">
-            Ang. mer forskning rörande förskoleåldrarna
-          </note>
-          <note n="685391e0">
-            Statsrådet fru ODHNOFF erhöll ordet för att besvara fru Diesens
-            (m) fråga angående mer forskning rörande förskoleåldrarna, vilken
-            fråga intagits i kammarens protokoll för den 26 mars, och yttrade:
-          </note>
           <pb n="9" facs="https://betalab.kb.se/prot-1969--fk--16/prot_1969__fk__16-009.jp2/_view"/>
           <note n="bf49e0c7">
             10 Nr 16
           </note>
-          <note n="ae823687">
+          <note type="date" n="a1e44c14">
             Torsdagen den 10 april 1969
           </note>
           <note n="db9c2a40">
@@ -926,7 +935,7 @@
           <note type="speaker" n="f2c47376">
             Fru DIESEN (m):
           </note>
-          <u who="ingrid_diesen_b4e23d" xml:id="i-2e0173c5c961458e-0" next="i-536bb22e05d19e19-0" n="03994ca2">
+          <u who="ingrid_diesen_b4e23d" xml:id="i-03994ca20a5d122f-0" next="i-03994ca20a5d122f-3" n="03994ca2">
             <seg n="ef44cc9d">
               Herr talman! Jag ber att få tacka statsrådet Odhnoff för svaret
               på min fråga.
@@ -1011,7 +1020,7 @@
             </seg>
           </u>
           <pb n="10" facs="https://betalab.kb.se/prot-1969--fk--16/prot_1969__fk__16-010.jp2/_view"/>
-          <note n="ae823687">
+          <note type="date" n="a1e44c14">
             Torsdagen den 10 april 1969
           </note>
           <note n="9b3ce915">
@@ -1020,7 +1029,7 @@
           <note n="db9c2a40">
             Ang. mer forskning rörande förskoleåldrarna
           </note>
-          <u who="ingrid_diesen_b4e23d" xml:id="i-536bb22e05d19e19-0" prev="i-2e0173c5c961458e-0" n="03994ca2">
+          <u who="ingrid_diesen_b4e23d" xml:id="i-03994ca20a5d122f-1" prev="i-03994ca20a5d122f-0" n="03994ca2">
             <seg n="8c7d620f">
               man skall alltså formulera målet för förskolepedagogiken. Man
               bör undersöka vilka åldersgrupper fritidshemsverksamheten skall
@@ -1030,6 +1039,11 @@
               Jag skulle vara mycket tacksam, om statsrådet ville meddela på
               vilket sätt den skall föras in i utredningens arbete.
             </seg>
+          </u>
+          <note n="e1e20772">
+            Statsrådet fru ODHNOFF:
+          </note>
+          <u who="ingrid_diesen_b4e23d" xml:id="i-03994ca20a5d122f-2" prev="i-03994ca20a5d122f-0" n="03994ca2">
             <seg n="ef57975c">
               Herr talman! Man kan naturligtvis av vissa inlägg i debatten
               om förskolebarnens situation få den uppfattningen, att det inte
@@ -1098,29 +1112,28 @@
               insats när det gäller förskoleforskningen genom att sammanföra
               olika forskare som därigenom har fått information om varand-
             </seg>
+          </u>
+          <pb n="11" facs="https://betalab.kb.se/prot-1969--fk--16/prot_1969__fk__16-011.jp2/_view"/>
+          <note n="3b24e99a">
+            12 Nr 16
+          </note>
+          <note type="date" n="a1e44c14">
+            Torsdagen den 10 april 1969
+          </note>
+          <note n="db9c2a40">
+            Ang. mer forskning rörande förskoleåldrarna
+          </note>
+          <u who="ingrid_diesen_b4e23d" xml:id="i-03994ca20a5d122f-3" prev="i-03994ca20a5d122f-0" n="03994ca2">
             <seg n="c9a9529f">
               ras arbete och — kan vi väl hoppas — ett ökat intresse för samarbete
               och för erfarenhetsutbyte kring de olika forskningsprojekt som
               pågår i landet.
             </seg>
           </u>
-          <note n="e1e20772">
-            Statsrådet fru ODHNOFF:
-          </note>
-          <pb n="11" facs="https://betalab.kb.se/prot-1969--fk--16/prot_1969__fk__16-011.jp2/_view"/>
-          <note n="3b24e99a">
-            12 Nr 16
-          </note>
-          <note n="ae823687">
-            Torsdagen den 10 april 1969
-          </note>
-          <note n="db9c2a40">
-            Ang. mer forskning rörande förskoleåldrarna
-          </note>
           <note type="speaker" n="f2c47376">
             Fru DIESEN (m):
           </note>
-          <u who="ingrid_diesen_b4e23d" xml:id="i-2e0173c5c961458e-1" next="i-536bb22e05d19e19-1" n="03994ca2">
+          <u who="ingrid_diesen_b4e23d" xml:id="i-03994ca20a5d122f-4" next="i-03994ca20a5d122f-5" n="03994ca2">
             <seg n="3e88c26c">
               Herr talman! Statsrådet har räknat upp några smärre delprojekt
               på detta område. Det är inte så svårt, den förteckningen kan man
@@ -1179,7 +1192,7 @@
           <note n="e1e20772">
             Statsrådet fru ODHNOFF:
           </note>
-          <u who="ingrid_diesen_b4e23d" xml:id="i-536bb22e05d19e19-1" prev="i-2e0173c5c961458e-1" n="03994ca2">
+          <u who="ingrid_diesen_b4e23d" xml:id="i-03994ca20a5d122f-5" prev="i-03994ca20a5d122f-4" n="03994ca2">
             <seg n="214f06b6">
               Herr talman! Jag skall inte gå in i något långt svaromål. Eftersom
               fru Diesen sade att jag nämnt smärre delprojekt, vill jag tala
@@ -1201,7 +1214,7 @@
             Överläggningen ansågs härmed slutad.
           </note>
           <pb n="12" facs="https://betalab.kb.se/prot-1969--fk--16/prot_1969__fk__16-012.jp2/_view"/>
-          <note n="ae823687">
+          <note type="date" n="a1e44c14">
             Torsdagen den 10 april 1969
           </note>
           <note n="62f5f6b7">
@@ -1364,7 +1377,7 @@
             nr 973, av herr Larsson, Thorsten, m. fl., i anledning av Kungl.
             Maj:ts pro-
           </note>
-          <note n="ae823687">
+          <note type="date" n="a1e44c14">
             Torsdagen den 10 april 1969
           </note>
           <note n="6c9ac221">
@@ -1426,16 +1439,16 @@
             enkla fråga denna dag framställts av herr Nilsson, Ferdinand,
             (cp) till herr statsrådet och chefen för socialdepartementet:
           </note>
-          <u who="torsten_nilsson_faa108" xml:id="i-f644d758d7edb544-0" next="i-586c06be33e24373-0" n="505e084f">
+          <u who="torsten_nilsson_faa108" xml:id="i-d050ab0fcdeb3a69-0" next="i-d050ab0fcdeb3a69-3" n="505e084f">
             <seg n="25b11870">
               »Vill Statsrådet i anledning av of-
             </seg>
           </u>
           <pb n="14" facs="https://betalab.kb.se/prot-1969--fk--16/prot_1969__fk__16-014.jp2/_view"/>
-          <note n="ae823687">
+          <note type="date" n="a1e44c14">
             Torsdagen den 10 april 1969
           </note>
-          <u who="torsten_nilsson_faa108" xml:id="i-586c06be33e24373-0" prev="i-f644d758d7edb544-0" n="505e084f">
+          <u who="torsten_nilsson_faa108" xml:id="i-d050ab0fcdeb3a69-1" prev="i-d050ab0fcdeb3a69-0" n="505e084f">
             <seg n="34df78aa">
               fentligen framförda mycket divergerande uppgifter ange om landstingen
               genom avtal med representanter för socialdepartementet förbundits
@@ -1446,17 +1459,6 @@
               Vill Statsrådet i samband härmed ange vad som ur statens synpunkt
               skulle kunna motivera att nuvarande i olika landsting mycket olika
               avgifter för sådan vård — varierande mellan 5 och
-            </seg>
-            <seg n="ed64f5c0">
-              Den begärda ledigheten beviljades.
-            </seg>
-            <seg n="dc91b7c9">
-              velse till Kungl. Maj:t måtte begära, att statens vattenfallsverks
-              nuvarande redovisningsprinciper ändrades så att de inom varje
-              kommun belägna kraftverksanläggningarna separatredovisades och
-              att rätten till avdrag för avskrivning och ränta skulle följa
-              för enskilda vattenkraftproducerande företag gällande principer
-              vid den kommunala beskattningen.
             </seg>
           </u>
           <note n="42513f56">
@@ -1479,7 +1481,7 @@
           <note n="fab5d571">
             16 Nr 16
           </note>
-          <note n="4c17187d">
+          <note type="date" n="24f6576c">
             Fredagen den 11 april 1969
           </note>
           <note type="date" n="af6825b1">
@@ -1519,6 +1521,11 @@
           <note n="6526daa2">
             Bo Hjern leg. läkare
           </note>
+          <u who="torsten_nilsson_faa108" xml:id="i-d050ab0fcdeb3a69-2" prev="i-d050ab0fcdeb3a69-0" n="505e084f">
+            <seg n="ed64f5c0">
+              Den begärda ledigheten beviljades.
+            </seg>
+          </u>
           <note n="0d526beb">
             Föredrogs och hänvisades till lagutskott Kungl. Maj:ts proposition
             nr 90, angående viss reglering av tillverkning av och handel med
@@ -1575,16 +1582,26 @@
             I: 698 och II: 817 i skri-
           </note>
           <pb n="16" facs="https://betalab.kb.se/prot-1969--fk--16/prot_1969__fk__16-016.jp2/_view"/>
-          <note n="4c17187d">
+          <note type="date" n="24f6576c">
             Fredagen den 11 april 1969
           </note>
           <note n="cf948def">
             Ang.
           </note>
+          <u who="torsten_nilsson_faa108" xml:id="i-d050ab0fcdeb3a69-3" prev="i-d050ab0fcdeb3a69-0" n="505e084f">
+            <seg n="dc91b7c9">
+              velse till Kungl. Maj:t måtte begära, att statens vattenfallsverks
+              nuvarande redovisningsprinciper ändrades så att de inom varje
+              kommun belägna kraftverksanläggningarna separatredovisades och
+              att rätten till avdrag för avskrivning och ränta skulle följa
+              för enskilda vattenkraftproducerande företag gällande principer
+              vid den kommunala beskattningen.
+            </seg>
+          </u>
           <note type="speaker" n="a3f8b260">
             Herr PETTERSSON, KARL, (m):
           </note>
-          <u who="lennart_pettersson_2668e7" xml:id="i-b900ed74253e29f1-0" next="i-189fc55675deb9c2-0" n="255ea450">
+          <u who="lennart_pettersson_2668e7" xml:id="i-eae641235f5287fb-0" next="i-eae641235f5287fb-9" n="255ea450">
             <seg n="640fab64">
               Herr talman! Frågan om statens vattenfallsverks kommunala beskattning
               har varit föremål för upprepad behandling från riksdagens sida,
@@ -1604,7 +1621,7 @@
             Maj:t. Samtidigt uttalades att detta förslag skulle framläggas
             så snart som möjligt. Det var alltså 1928.
           </note>
-          <u who="lennart_pettersson_2668e7" xml:id="i-189fc55675deb9c2-0" prev="i-b900ed74253e29f1-0" n="255ea450">
+          <u who="lennart_pettersson_2668e7" xml:id="i-eae641235f5287fb-1" prev="i-eae641235f5287fb-0" n="255ea450">
             <seg n="1b805ae7">
               På grund av riksdagens beslut tillkallades år 1929 särskilda
               sakkunniga vilka behandlade frågan och framlade ett förslag i
@@ -1616,6 +1633,14 @@
               som i allmänhet förekom beträffande privat förvärvsverksamhet
               och att sta-
             </seg>
+          </u>
+          <note n="90041614">
+            2 Första kammarens protokoll 1969. Nr 16
+          </note>
+          <note n="e03eb811">
+            Nr 16 17
+          </note>
+          <u who="lennart_pettersson_2668e7" xml:id="i-eae641235f5287fb-2" prev="i-eae641235f5287fb-0" n="255ea450">
             <seg n="f3e9f9cd">
               beskattningen av kraftverksanläggningar
             </seg>
@@ -1655,6 +1680,18 @@
               i alla förvärvskällor skulle ha någon obetingad rätt att beräkna
               gäldränteavdrag på en så
             </seg>
+          </u>
+          <pb n="17" facs="https://betalab.kb.se/prot-1969--fk--16/prot_1969__fk__16-017.jp2/_view"/>
+          <note n="593ed10b">
+            18 Nr 16
+          </note>
+          <note type="date" n="24f6576c">
+            Fredagen den 11 april 1969
+          </note>
+          <note n="c1894c6a">
+            Ang. beskattningen av kraftverksanläggningar
+          </note>
+          <u who="lennart_pettersson_2668e7" xml:id="i-eae641235f5287fb-3" prev="i-eae641235f5287fb-0" n="255ea450">
             <seg n="44d8b82d">
               stor del av tillgångarnas värde. I lagtexten borde därför markeras
               att bestämmelsen om begränsningen av gäldränteavdraget endast
@@ -1664,6 +1701,17 @@
             <seg n="7cf5f182">
               De skattelagssakkunnigas förslag har inte föranlett några lagstiftningsåtgärder.
             </seg>
+          </u>
+          <note n="13e7093a">
+            I proposition nr 84 till 1963 års riksdag med förslag till ändringar
+            av reglerna för fördelning mellan kommuner av det skatteunderlag
+            som härrör från kraftverksrörelse framhöll chefen för finansdepartementet
+            beträffande frågan om begränsning av vattenfallsverkets avdrag
+            för skuldränta, att den av skattelagssakkunniga åsyftade ändringen
+            av praxis kunde uppnås utan lagstiftning genom förändring av styrelsens
+            redovisningsprinciper.
+          </note>
+          <u who="lennart_pettersson_2668e7" xml:id="i-eae641235f5287fb-4" prev="i-eae641235f5287fb-0" n="255ea450">
             <seg n="62193883">
               Detta uttalande har i praktiken tyvärr inte besannats utan de
               sedan år 1928 aktualiserade orättvisorna mot i första hand Norrlands
@@ -1725,6 +1773,15 @@
               kunde jämställas med eget kapital hos privata kraftföretag varit
               i stort oförändrade. Det konstaterades att statens kraftverksrörelse
             </seg>
+          </u>
+          <pb n="18" facs="https://betalab.kb.se/prot-1969--fk--16/prot_1969__fk__16-018.jp2/_view"/>
+          <note type="date" n="24f6576c">
+            Fredagen den 11 april 1969
+          </note>
+          <note n="cf948def">
+            Ang.
+          </note>
+          <u who="lennart_pettersson_2668e7" xml:id="i-eae641235f5287fb-5" prev="i-eae641235f5287fb-0" n="255ea450">
             <seg n="0f9eb1d2">
               praktiskt taget helt sker med räntekrävande kapital. Utskottet
               konstaterade vidare att detta inneburit problem för de kommuner,
@@ -1758,6 +1815,11 @@
               två åren 9 miljoner kronor och för Jokkmokks kommun 14,9 miljoner
               kro-
             </seg>
+          </u>
+          <note n="39da42fd">
+            Nr 16 19
+          </note>
+          <u who="lennart_pettersson_2668e7" xml:id="i-eae641235f5287fb-6" prev="i-eae641235f5287fb-0" n="255ea450">
             <seg n="f3e9f9cd">
               beskattningen av kraftverksanläggningar
             </seg>
@@ -1780,6 +1842,16 @@
               bidragsformer är uppbyggda på ett speciellt sätt på grund av avlyftning
               från tidigare ortsavdragsreformer.
             </seg>
+          </u>
+          <note n="d25285b7">
+            När det gäller tidigare nämnda kommuner så har Stuguns kommun
+            för de två åren erhållit i skatteutjämningsbidrag 1464 400 kronor
+            och Jokkmokks kommun 443 119 kronor. Således skulle, även om hela
+            skatteutjämningsbidraget skulle bortfalla, dessa kommuner för
+            de två åren förlora en nettointäkt av för Stuguns kommun 1 061
+            000 kronor och för Jokkmokks kommun 14 500 000 kronor.
+          </note>
+          <u who="lennart_pettersson_2668e7" xml:id="i-eae641235f5287fb-7" prev="i-eae641235f5287fb-0" n="255ea450">
             <seg n="631d65a6">
               När det gäller statens vattenfallsverks redovisning för 1969
               års taxering har jag tyvärr inte kunnat erhålla material från
@@ -1790,6 +1862,18 @@
               motsvarande penningvärdeförsämringen. Mig veterligt kan inget
               annat företag få göra extra avskrivning
             </seg>
+          </u>
+          <pb n="19" facs="https://betalab.kb.se/prot-1969--fk--16/prot_1969__fk__16-019.jp2/_view"/>
+          <note n="9cfd7893">
+            20 Nr 16
+          </note>
+          <note type="date" n="24f6576c">
+            Fredagen den 11 april 1969
+          </note>
+          <note n="c1894c6a">
+            Ang. beskattningen av kraftverksanläggningar
+          </note>
+          <u who="lennart_pettersson_2668e7" xml:id="i-eae641235f5287fb-8" prev="i-eae641235f5287fb-0" n="255ea450">
             <seg n="b7bc2909">
               för penningvärdeförsämring. Till stor del får de norrländska
               inlandskommunerna stå för denna extra avskrivning i form av förlorade
@@ -1866,6 +1950,15 @@
               vad t. ex. kommunalmännen och riksdagsrepresentanterna från Göteborg
               skulle säga om
             </seg>
+          </u>
+          <pb n="20" facs="https://betalab.kb.se/prot-1969--fk--16/prot_1969__fk__16-020.jp2/_view"/>
+          <note type="date" n="24f6576c">
+            Fredagen den 11 april 1969
+          </note>
+          <note n="cf948def">
+            Ang.
+          </note>
+          <u who="lennart_pettersson_2668e7" xml:id="i-eae641235f5287fb-9" prev="i-eae641235f5287fb-0" n="255ea450">
             <seg n="3d9e294b">
               AB Volvo inte behövde erlägga någon kommunalskatt till Göteborg,
               i likhet med Vattenfalls redovisningssätt, men SAAB skulle använda
@@ -1880,70 +1973,10 @@
               med statliga kraftverk ur världen.
             </seg>
           </u>
-          <note n="90041614">
-            2 Första kammarens protokoll 1969. Nr 16
-          </note>
-          <note n="e03eb811">
-            Nr 16 17
-          </note>
-          <pb n="17" facs="https://betalab.kb.se/prot-1969--fk--16/prot_1969__fk__16-017.jp2/_view"/>
-          <note n="593ed10b">
-            18 Nr 16
-          </note>
-          <note n="4c17187d">
-            Fredagen den 11 april 1969
-          </note>
-          <note n="c1894c6a">
-            Ang. beskattningen av kraftverksanläggningar
-          </note>
-          <note n="13e7093a">
-            I proposition nr 84 till 1963 års riksdag med förslag till ändringar
-            av reglerna för fördelning mellan kommuner av det skatteunderlag
-            som härrör från kraftverksrörelse framhöll chefen för finansdepartementet
-            beträffande frågan om begränsning av vattenfallsverkets avdrag
-            för skuldränta, att den av skattelagssakkunniga åsyftade ändringen
-            av praxis kunde uppnås utan lagstiftning genom förändring av styrelsens
-            redovisningsprinciper.
-          </note>
-          <pb n="18" facs="https://betalab.kb.se/prot-1969--fk--16/prot_1969__fk__16-018.jp2/_view"/>
-          <note n="4c17187d">
-            Fredagen den 11 april 1969
-          </note>
-          <note n="cf948def">
-            Ang.
-          </note>
-          <note n="39da42fd">
-            Nr 16 19
-          </note>
-          <note n="d25285b7">
-            När det gäller tidigare nämnda kommuner så har Stuguns kommun
-            för de två åren erhållit i skatteutjämningsbidrag 1464 400 kronor
-            och Jokkmokks kommun 443 119 kronor. Således skulle, även om hela
-            skatteutjämningsbidraget skulle bortfalla, dessa kommuner för
-            de två åren förlora en nettointäkt av för Stuguns kommun 1 061
-            000 kronor och för Jokkmokks kommun 14 500 000 kronor.
-          </note>
-          <pb n="19" facs="https://betalab.kb.se/prot-1969--fk--16/prot_1969__fk__16-019.jp2/_view"/>
-          <note n="9cfd7893">
-            20 Nr 16
-          </note>
-          <note n="4c17187d">
-            Fredagen den 11 april 1969
-          </note>
-          <note n="c1894c6a">
-            Ang. beskattningen av kraftverksanläggningar
-          </note>
-          <pb n="20" facs="https://betalab.kb.se/prot-1969--fk--16/prot_1969__fk__16-020.jp2/_view"/>
-          <note n="4c17187d">
-            Fredagen den 11 april 1969
-          </note>
-          <note n="cf948def">
-            Ang.
-          </note>
           <note type="speaker" n="0377e115">
             Herr ERICSSON, JOHN, (s):
           </note>
-          <u who="gunnar_ericsson_a41c28" xml:id="i-179560bcb11973d2-0" next="i-2857e8f4e8c59b27-0" n="2b367a19">
+          <u who="gunnar_ericsson_a41c28" xml:id="i-de9d721ab0134f31-0" next="i-de9d721ab0134f31-1" n="2b367a19">
             <seg n="ad2499b8">
               Herr talman! Det är på sin plats att betyga sin aktning för herr
               Karl Pettersson och den energi han visat när det gäller dessa
@@ -1973,7 +2006,7 @@
           <note n="d78c8095">
             Nr 16 21
           </note>
-          <u who="gunnar_ericsson_a41c28" xml:id="i-2857e8f4e8c59b27-0" prev="i-179560bcb11973d2-0" n="2b367a19">
+          <u who="gunnar_ericsson_a41c28" xml:id="i-de9d721ab0134f31-1" prev="i-de9d721ab0134f31-0" n="2b367a19">
             <seg n="f3e9f9cd">
               beskattningen av kraftverksanläggningar
             </seg>
@@ -2021,7 +2054,7 @@
           <note n="f9fcc6b5">
             22 Nr 16
           </note>
-          <note n="4c17187d">
+          <note type="date" n="24f6576c">
             Fredagen den 11 april 1969
           </note>
           <note n="c1894c6a">
@@ -2030,7 +2063,7 @@
           <note type="speaker" n="a3f8b260">
             Herr PETTERSSON, KARL, (m):
           </note>
-          <u who="lennart_pettersson_2668e7" xml:id="i-b900ed74253e29f1-1" next="i-189fc55675deb9c2-1" n="255ea450">
+          <u who="lennart_pettersson_2668e7" xml:id="i-eae641235f5287fb-10" next="i-eae641235f5287fb-19" n="255ea450">
             <seg n="013d3eea">
               Herr talman! Bevillningsutskottets ordförande gjorde en jämförelse
               med andra kommuner. Jag skulle också vilja dra en parallell och
@@ -2092,53 +2125,19 @@
             Den, som bifaller vad bevillningsutskottet hemställt i sitt betänkande
             nr 22, röstar
           </note>
-          <u who="lennart_pettersson_2668e7" xml:id="i-189fc55675deb9c2-1" prev="i-b900ed74253e29f1-1" n="255ea450">
+          <u who="lennart_pettersson_2668e7" xml:id="i-eae641235f5287fb-11" prev="i-eae641235f5287fb-10" n="255ea450">
             <seg n="c6fb31c6">
               Ja;
-            </seg>
-            <seg n="e51e6b6b">
-              Nej;
-            </seg>
-            <seg n="82df33ac">
-              Enligt propositionen skulle skattskyldighet till mervärdeskatt
-              kunna föreskrivas för viss statlig verksamhet. Vidare föresloges,
-              att mervärdeskatt skulle utgå på begagnade personbilar som såldes
-              av biluthyrningsföretag och att rätt till avdrag för ingående
-              mervärdeskatt icke skulle föreligga för köp av sådana bilar.
-            </seg>
-            <seg n="886d3243">
-              om mervärdeskatt i sådan riktning, att från skatteplikt undantoges
-              garantiåtgärder som ej debiterades den slutlige konsumenten på
-              grund av att kostnaderna härför inkluderats i försäljningspriset
-              för produkten i fråga.
-            </seg>
-            <seg n="8bf3b516">
-              a) att postverket och statens järnvägar skulle befrias från skatt
-              samt
-            </seg>
-            <seg n="90882ab7">
-              b) att intern beskattning mellan statliga verksamhetsgrenar icke
-              skulle förekomma.
-            </seg>
-            <seg n="e02beec5">
-              motorcyklarna undantoges från mervärdeskatt, skulle enligt utskottet
-              accisen på nya motorcyklar höjas till belopp som svarade mot cirka
-              tre procent av det genomsnittliga nyvärdet inom de olika skatteklasserna
-              för motorcyklar.
-            </seg>
-            <seg n="86aef6b8">
-              betr. frimärken
-            </seg>
-            <seg n="b7495736">
-              betr. transporter till bland annat Öland och Gotland
-            </seg>
-            <seg n="ec38f825">
-              betr. återbetalning av skatt
             </seg>
           </u>
           <note n="75683988">
             Den, det ej vill, röstar
           </note>
+          <u who="lennart_pettersson_2668e7" xml:id="i-eae641235f5287fb-12" prev="i-eae641235f5287fb-10" n="255ea450">
+            <seg n="e51e6b6b">
+              Nej;
+            </seg>
+          </u>
           <note n="fab243cc">
             Vinner Nej, antages det förslag, som innefattas i den vid betänkandet
             avgivna reservationen.
@@ -2162,7 +2161,7 @@
             att rösta.
           </note>
           <pb n="22" facs="https://betalab.kb.se/prot-1969--fk--16/prot_1969__fk__16-022.jp2/_view"/>
-          <note n="4c17187d">
+          <note type="date" n="24f6576c">
             Fredagen den 11 april 1969
           </note>
           <note n="7eac6068">
@@ -2179,6 +2178,15 @@
             skulle antaga därvid fogat förslag till förordning om ändring
             i förordningen den 6 juni 1968 (nr 430) om mervärdeskatt.
           </note>
+          <u who="lennart_pettersson_2668e7" xml:id="i-eae641235f5287fb-13" prev="i-eae641235f5287fb-10" n="255ea450">
+            <seg n="82df33ac">
+              Enligt propositionen skulle skattskyldighet till mervärdeskatt
+              kunna föreskrivas för viss statlig verksamhet. Vidare föresloges,
+              att mervärdeskatt skulle utgå på begagnade personbilar som såldes
+              av biluthyrningsföretag och att rätt till avdrag för ingående
+              mervärdeskatt icke skulle föreligga för köp av sådana bilar.
+            </seg>
+          </u>
           <note n="abd6ff5d">
             I detta sammanhang hade utskottet behandlat följande motioner,
             nämligen
@@ -2277,12 +2285,20 @@
           <note n="e8993827">
             24 Nr 16
           </note>
-          <note n="4c17187d">
+          <note type="date" n="24f6576c">
             Fredagen den 11 april 1969
           </note>
           <note n="7eac6068">
             Ang. vissa ändringar i förordningen om mervärdeskatt, m. m.
           </note>
+          <u who="lennart_pettersson_2668e7" xml:id="i-eae641235f5287fb-14" prev="i-eae641235f5287fb-10" n="255ea450">
+            <seg n="886d3243">
+              om mervärdeskatt i sådan riktning, att från skatteplikt undantoges
+              garantiåtgärder som ej debiterades den slutlige konsumenten på
+              grund av att kostnaderna härför inkluderats i försäljningspriset
+              för produkten i fråga.
+            </seg>
+          </u>
           <note n="4c488c6d">
             I motionerna I: 707 och II: 775 hade hemställts, att riksdagen
             måtte besluta, att 8 $ förordningen om mervärdeskatt skulle tillföras
@@ -2304,6 +2320,16 @@
             I motionerna I: 915 och II: 1049 hade hemställts, att riksdagen
             måtte besluta,
           </note>
+          <u who="lennart_pettersson_2668e7" xml:id="i-eae641235f5287fb-15" prev="i-eae641235f5287fb-10" n="255ea450">
+            <seg n="8bf3b516">
+              a) att postverket och statens järnvägar skulle befrias från skatt
+              samt
+            </seg>
+            <seg n="90882ab7">
+              b) att intern beskattning mellan statliga verksamhetsgrenar icke
+              skulle förekomma.
+            </seg>
+          </u>
           <note n="f16ab1ea">
             I motionerna I: 916 och II: 1051 hade anhållits,
           </note>
@@ -2371,7 +2397,7 @@
             begagnade
           </note>
           <pb n="24" facs="https://betalab.kb.se/prot-1969--fk--16/prot_1969__fk__16-024.jp2/_view"/>
-          <note n="4c17187d">
+          <note type="date" n="24f6576c">
             Fredagen den 11 april 1969
           </note>
           <note n="e391640a">
@@ -2380,6 +2406,14 @@
           <note n="7eac6068">
             Ang. vissa ändringar i förordningen om mervärdeskatt, m. m.
           </note>
+          <u who="lennart_pettersson_2668e7" xml:id="i-eae641235f5287fb-16" prev="i-eae641235f5287fb-10" n="255ea450">
+            <seg n="e02beec5">
+              motorcyklarna undantoges från mervärdeskatt, skulle enligt utskottet
+              accisen på nya motorcyklar höjas till belopp som svarade mot cirka
+              tre procent av det genomsnittliga nyvärdet inom de olika skatteklasserna
+              för motorcyklar.
+            </seg>
+          </u>
           <note n="e6da82e2">
             Reservationer hade anförts
           </note>
@@ -2407,10 +2441,20 @@
             måtte med bifall till motionerna I:133 och II: 145 antaga i reservationen
             infört förslag till ändring av 8 $ mervärdeskatteförordningen;
           </note>
+          <u who="lennart_pettersson_2668e7" xml:id="i-eae641235f5287fb-17" prev="i-eae641235f5287fb-10" n="255ea450">
+            <seg n="86aef6b8">
+              betr. frimärken
+            </seg>
+          </u>
           <note n="22237f89">
             3) av herrar Lundström (fp) och Tistad (fp), vilka dock ej antytt
             sin mening;
           </note>
+          <u who="lennart_pettersson_2668e7" xml:id="i-eae641235f5287fb-18" prev="i-eae641235f5287fb-10" n="255ea450">
+            <seg n="b7495736">
+              betr. transporter till bland annat Öland och Gotland
+            </seg>
+          </u>
           <note n="d85d0796">
             4) av herrar Lundström (fp), Yngve Nilsson (m), Sundin (cp),
             Tistad (fp), Karl Pettersson (m) Magnusson i Borås (m) och Vigelsbo
@@ -2423,6 +2467,11 @@
             och II: 780 antaga i reservationen infört förslag till ändring
             av 11 8 mervärdeskatteförordningen;
           </note>
+          <u who="lennart_pettersson_2668e7" xml:id="i-eae641235f5287fb-19" prev="i-eae641235f5287fb-10" n="255ea450">
+            <seg n="ec38f825">
+              betr. återbetalning av skatt
+            </seg>
+          </u>
           <note n="34de7dfc">
             5) av herrar Lundström (fp), Yngve Nilsson (m), Sundin (cp),
             Tistad (fp), Karl Pettersson (m), Magnusson i Borås (m) och Vigelsbo
@@ -2435,7 +2484,7 @@
           <note type="speaker" n="6b402d06">
             Herr JACOBSSON, GÖSTA, (m):
           </note>
-          <u who="per_jacobsson_ec04b2" xml:id="i-b5f0b8847f1a45ea-0" next="i-9604822c57236ea2-0" n="46e47e6c">
+          <u who="per_jacobsson_ec04b2" xml:id="i-46e47e6c90b54c9e-0" next="i-46e47e6c90b54c9e-2" n="46e47e6c">
             <seg n="1502bd5d">
               Herr talman! Jag har åtagit mig att tala för reservation nr 1,
               som berör skyldigheten för stat och kommun att erlägga mervärdeskatt.
@@ -2465,13 +2514,13 @@
           <note n="b2688bb4">
             26 Nr 16
           </note>
-          <note n="4c17187d">
+          <note type="date" n="24f6576c">
             Fredagen den 11 april 1969
           </note>
           <note n="7eac6068">
             Ang. vissa ändringar i förordningen om mervärdeskatt, m. m.
           </note>
-          <u who="per_jacobsson_ec04b2" xml:id="i-9604822c57236ea2-0" prev="i-b5f0b8847f1a45ea-0" n="46e47e6c">
+          <u who="per_jacobsson_ec04b2" xml:id="i-46e47e6c90b54c9e-1" prev="i-46e47e6c90b54c9e-0" n="46e47e6c">
             <seg n="964568b1">
               verksamhet, som stat och kommun bedriver uteslutande för egna
               behov, såsom yrkesmässig endast när den drivs i bolagsform eller
@@ -2507,19 +2556,21 @@
               komplicerat problem, som kan ses från flera sidor, inskränkt sig
               till att begära utredning.
             </seg>
+          </u>
+          <note n="9f4fce57">
+            Jag yrkar med dessa ord bifall till reservation nr 1.
+          </note>
+          <u who="per_jacobsson_ec04b2" xml:id="i-46e47e6c90b54c9e-2" prev="i-46e47e6c90b54c9e-0" n="46e47e6c">
             <seg n="f524e77f">
               Samtidigt vill jag begagna tillfället att uttala min glädje över
               att min motion om slopande av moms på begagnade motorcyklar har
               tillstyrkts.
             </seg>
           </u>
-          <note n="9f4fce57">
-            Jag yrkar med dessa ord bifall till reservation nr 1.
-          </note>
           <note type="speaker" n="0dbf843d">
             Herr TISTAD (fp):
           </note>
-          <u who="eskil_tistad_188e55" xml:id="i-fdb39398f861d46a-0" next="i-8df1d041cc06ec97-0" n="983cbabe">
+          <u who="eskil_tistad_188e55" xml:id="i-983cbabef0ebf0ef-0" next="i-983cbabef0ebf0ef-4" n="983cbabe">
             <seg n="09588063">
               Herr talman! När den allmänna varuskatten vid förra vårriksdagen
               stöptes om till en mervärdeskatt var den principen vägledande,
@@ -2555,7 +2606,7 @@
             </seg>
           </u>
           <pb n="26" facs="https://betalab.kb.se/prot-1969--fk--16/prot_1969__fk__16-026.jp2/_view"/>
-          <note n="4c17187d">
+          <note type="date" n="24f6576c">
             Fredagen den 11 april 1969
           </note>
           <note n="ba90091f">
@@ -2564,7 +2615,7 @@
           <note n="7eac6068">
             Ang. vissa ändringar i förordningen om mervärdeskatt, m. m.
           </note>
-          <u who="eskil_tistad_188e55" xml:id="i-8df1d041cc06ec97-0" prev="i-fdb39398f861d46a-0" n="983cbabe">
+          <u who="eskil_tistad_188e55" xml:id="i-983cbabef0ebf0ef-1" prev="i-983cbabef0ebf0ef-0" n="983cbabe">
             <seg n="04d75355">
               mervärdeskatten uttalade förståelse för att tandproteser och
               dentaltekniska arbeten som tillverkas av fristående dentallaboratorier
@@ -2640,6 +2691,18 @@
               arbetsgivaransvar. »Det torde också vara klart», skriver taxeringsintendenten,
               »att en person kan ha
             </seg>
+          </u>
+          <pb n="27" facs="https://betalab.kb.se/prot-1969--fk--16/prot_1969__fk__16-027.jp2/_view"/>
+          <note n="56e31948">
+            28 Nr 16
+          </note>
+          <note type="date" n="24f6576c">
+            Fredagen den 11 april 1969
+          </note>
+          <note n="7eac6068">
+            Ang. vissa ändringar i förordningen om mervärdeskatt, m. m.
+          </note>
+          <u who="eskil_tistad_188e55" xml:id="i-983cbabef0ebf0ef-2" prev="i-983cbabef0ebf0ef-0" n="983cbabe">
             <seg n="91ffcee2">
               flera arbetsgivare, mot vilket förhållande svarar att en arbetsgivare
               kan anställa en person på deltid.»
@@ -2707,6 +2770,12 @@
               ökas naturligtvis postens arbete en del. Hänsynen till de skattskyldiga
               bör emellertid vara värd detta offer.
             </seg>
+          </u>
+          <note n="ecd0f37e">
+            Mitt namn återfinns slutligen under en blank reservation, som
+            gäller undantag från skatteplikt för samlarfri-
+          </note>
+          <u who="eskil_tistad_188e55" xml:id="i-983cbabef0ebf0ef-3" prev="i-983cbabef0ebf0ef-0" n="983cbabe">
             <seg n="1deda36c">
               märken. Byte av frimärken mellan samlare inom landet sker fritt
               från mervärdeskatt, eftersom det inte är
@@ -2719,6 +2788,18 @@
               över frimärksförsändelser. Beskattningen blir därför föga effektiv
               i många fall, sannolikt de flesta. Och
             </seg>
+          </u>
+          <pb n="28" facs="https://betalab.kb.se/prot-1969--fk--16/prot_1969__fk__16-028.jp2/_view"/>
+          <note type="date" n="24f6576c">
+            Fredagen den 11 april 1969
+          </note>
+          <note n="a1604319">
+            Nr 16 29
+          </note>
+          <note n="7eac6068">
+            Ang. vissa ändringar i förordningen om mervärdeskatt, m. m.
+          </note>
+          <u who="eskil_tistad_188e55" xml:id="i-983cbabef0ebf0ef-4" prev="i-983cbabef0ebf0ef-0" n="983cbabe">
             <seg n="9418ebcb">
               när den blir effektiv blir den det i vissa fall i alltför hög
               grad. Mellan samlare cirkulerar frimärkskollektioner, ur vilka
@@ -2735,34 +2816,10 @@
               där mitt namn förekommer.
             </seg>
           </u>
-          <pb n="27" facs="https://betalab.kb.se/prot-1969--fk--16/prot_1969__fk__16-027.jp2/_view"/>
-          <note n="56e31948">
-            28 Nr 16
-          </note>
-          <note n="4c17187d">
-            Fredagen den 11 april 1969
-          </note>
-          <note n="7eac6068">
-            Ang. vissa ändringar i förordningen om mervärdeskatt, m. m.
-          </note>
-          <note n="ecd0f37e">
-            Mitt namn återfinns slutligen under en blank reservation, som
-            gäller undantag från skatteplikt för samlarfri-
-          </note>
-          <pb n="28" facs="https://betalab.kb.se/prot-1969--fk--16/prot_1969__fk__16-028.jp2/_view"/>
-          <note n="4c17187d">
-            Fredagen den 11 april 1969
-          </note>
-          <note n="a1604319">
-            Nr 16 29
-          </note>
-          <note n="7eac6068">
-            Ang. vissa ändringar i förordningen om mervärdeskatt, m. m.
-          </note>
           <note type="speaker" n="50935c83">
             Herr ÖSTERDAHL (fp):
           </note>
-          <u who="sven-otto_osterdahl_ea96fc" xml:id="i-9374eaf8d14e9956-0" next="i-3e2b96bb18c0ed0b-0" n="432ca054">
+          <u who="sven-otto_osterdahl_ea96fc" xml:id="i-8176e13d3ec9a441-0" next="i-8176e13d3ec9a441-2" n="432ca054">
             <seg n="5ef3a31d">
               Herr talman! I dag står åter på föredragningslistan frågan om
               mervärdeskatt på transport av registrerade bilar, bussar och övriga
@@ -2834,13 +2891,13 @@
           <note n="f4637498">
             30 Nr 16
           </note>
-          <note n="4c17187d">
+          <note type="date" n="24f6576c">
             Fredagen den 11 april 1969
           </note>
           <note n="7eac6068">
             Ang. vissa ändringar i förordningen om mervärdeskatt, m. m.
           </note>
-          <u who="sven-otto_osterdahl_ea96fc" xml:id="i-3e2b96bb18c0ed0b-0" prev="i-9374eaf8d14e9956-0" n="432ca054">
+          <u who="sven-otto_osterdahl_ea96fc" xml:id="i-8176e13d3ec9a441-1" prev="i-8176e13d3ec9a441-0" n="432ca054">
             <seg n="806499b2">
               bas av en fördyring som inte kommer i fråga när man reser på
               fastlandet eller till utlandet. Med hänsyn till turismens betydelse
@@ -2913,6 +2970,18 @@
               också var inne på — även har färjeförbindelse genom vägverkets
               försorg, och
             </seg>
+          </u>
+          <pb n="30" facs="https://betalab.kb.se/prot-1969--fk--16/prot_1969__fk__16-030.jp2/_view"/>
+          <note type="date" n="24f6576c">
+            Fredagen den 11 april 1969
+          </note>
+          <note n="a7659968">
+            Nr 16 31
+          </note>
+          <note n="7eac6068">
+            Ang. vissa ändringar i förordningen om mervärdeskatt, m. m.
+          </note>
+          <u who="sven-otto_osterdahl_ea96fc" xml:id="i-8176e13d3ec9a441-2" prev="i-8176e13d3ec9a441-0" n="432ca054">
             <seg n="eebc7248">
               då utgår ingen fraktkostnad på färjan och därför heller ingen
               mervärdeskatt på personbilstransporten. Hade vi sådana färjor
@@ -2938,23 +3007,13 @@
               nr 4 av herr Lundström m. fl. Jag yrkar bifall till denna reservation.
             </seg>
           </u>
-          <pb n="30" facs="https://betalab.kb.se/prot-1969--fk--16/prot_1969__fk__16-030.jp2/_view"/>
-          <note n="4c17187d">
-            Fredagen den 11 april 1969
-          </note>
-          <note n="a7659968">
-            Nr 16 31
-          </note>
-          <note n="7eac6068">
-            Ang. vissa ändringar i förordningen om mervärdeskatt, m. m.
-          </note>
           <note n="abe7c493">
             Häri instämde herr Svanström (cp).
           </note>
           <note type="speaker" n="039bb247">
             Herr SCHÖTT (m):
           </note>
-          <u who="lars_schott_46800b" xml:id="i-e309b015e4f19a7b-0" next="i-73b932669c812072-0" n="85858c30">
+          <u who="lars_schott_46800b" xml:id="i-85858c30d311d5a7-0" next="i-85858c30d311d5a7-1" n="85858c30">
             <seg n="2948045d">
               Herr talman! Som medmotionär till herr Österdahl i frågan om
               undantag från mervärdeskatt för vissa sjötransporter av nyttofordon
@@ -3013,13 +3072,13 @@
           <note n="0711e66d">
             32 Nr 16
           </note>
-          <note n="4c17187d">
+          <note type="date" n="24f6576c">
             Fredagen den 11 april 1969
           </note>
           <note n="7eac6068">
             Ang. vissa ändringar i förordningen om mervärdeskatt, m. m.
           </note>
-          <u who="lars_schott_46800b" xml:id="i-73b932669c812072-0" prev="i-e309b015e4f19a7b-0" n="85858c30">
+          <u who="lars_schott_46800b" xml:id="i-85858c30d311d5a7-1" prev="i-85858c30d311d5a7-0" n="85858c30">
             <seg n="680e5da4">
               Herr talman! Eftersom vad jag här anfört också är innebörden
               i den till bevillningsutskottets betänkande fogade reservationen
@@ -3029,7 +3088,7 @@
           <note type="speaker" n="426a8d87">
             Herr STEFANSON (fp):
           </note>
-          <u who="stig_stefanson_0a40a2" xml:id="i-3d3eedd8d43099a4-0" next="i-17a981c8c5d6e4df-0" n="bbdbc86a">
+          <u who="stig_stefanson_0a40a2" xml:id="i-bbdbc86a72c8a070-0" next="i-bbdbc86a72c8a070-2" n="bbdbc86a">
             <seg n="93399cdc">
               Herr talman! Jag vill först instämma i de anföranden som herrar
               Jacobsson och Tistad hållit med anledning av reservationerna till
@@ -3099,7 +3158,7 @@
             </seg>
           </u>
           <pb n="32" facs="https://betalab.kb.se/prot-1969--fk--16/prot_1969__fk__16-032.jp2/_view"/>
-          <note n="4c17187d">
+          <note type="date" n="24f6576c">
             Fredagen den 11 april 1969
           </note>
           <note n="1ea2e8e1">
@@ -3108,7 +3167,7 @@
           <note n="7eac6068">
             Ang. vissa ändringar i förordningen om mervärdeskatt, m. m.
           </note>
-          <u who="stig_stefanson_0a40a2" xml:id="i-17a981c8c5d6e4df-0" prev="i-3d3eedd8d43099a4-0" n="bbdbc86a">
+          <u who="stig_stefanson_0a40a2" xml:id="i-bbdbc86a72c8a070-1" prev="i-bbdbc86a72c8a070-0" n="bbdbc86a">
             <seg n="d85bdbcc">
               Sådana föreskrifter har nu utfärdats genom ett tillägg till den
               statliga upphandlingsförordningen, men när det gäller kommunernas
@@ -3143,6 +3202,11 @@
               principen måste vara att skattskyldighet skall föreligga för verksamhet
               som bedrivs i konkurrens med enskilda
             </seg>
+          </u>
+          <note n="87e71ae4">
+            3 Första kammarens protokoll 1969. Nr 16
+          </note>
+          <u who="stig_stefanson_0a40a2" xml:id="i-bbdbc86a72c8a070-2" prev="i-bbdbc86a72c8a070-0" n="bbdbc86a">
             <seg n="85460b4f">
               företag och statliga eller kommunala bolag. Att föra ut den principen
               i verkligheten innebär åtskilliga svårigheter, det är vi medvetna
@@ -3156,9 +3220,6 @@
               förslag till åtgärder, som avskaffar denna olägenhet i mervärdeskattesystemet.
             </seg>
           </u>
-          <note n="87e71ae4">
-            3 Första kammarens protokoll 1969. Nr 16
-          </note>
           <note n="fa43152f">
             Herr talman! Jag yrkar bifall till samtliga till bevillningsutskottets
             betänkande avgivna reservationer.
@@ -3166,7 +3227,7 @@
           <note type="speaker" n="0377e115">
             Herr ERICSSON, JOHN, (s):
           </note>
-          <u who="gunnar_ericsson_a41c28" xml:id="i-179560bcb11973d2-1" next="i-2857e8f4e8c59b27-1" n="2b367a19">
+          <u who="gunnar_ericsson_a41c28" xml:id="i-de9d721ab0134f31-2" next="i-de9d721ab0134f31-4" n="2b367a19">
             <seg n="01a1d36f">
               Herr talman! Jag tror det var herr Tistad som nämnde att man
               från den sida som yrkat på mervärdeskattens införande varit återhållsam
@@ -3190,13 +3251,13 @@
           <note n="f9eb244f">
             34 Nr 16
           </note>
-          <note n="4c17187d">
+          <note type="date" n="24f6576c">
             Fredagen den 11 april 1969
           </note>
           <note n="7eac6068">
             Ang. vissa ändringar i förordningen om mervärdeskatt, m. m.
           </note>
-          <u who="gunnar_ericsson_a41c28" xml:id="i-2857e8f4e8c59b27-1" prev="i-179560bcb11973d2-1" n="2b367a19">
+          <u who="gunnar_ericsson_a41c28" xml:id="i-de9d721ab0134f31-3" prev="i-de9d721ab0134f31-2" n="2b367a19">
             <seg n="d8765469">
               och gett honom den komplimangen att om man väcker förnuftiga
               motioner så bifalls de av utskottet och även i regel av riksdagen.
@@ -3278,6 +3339,18 @@
               Utskottet finner sålunda att den ståndpunkt som vi tidigare har
               intagit är hållbar. Herr Österdahl ironise-
             </seg>
+          </u>
+          <pb n="34" facs="https://betalab.kb.se/prot-1969--fk--16/prot_1969__fk__16-034.jp2/_view"/>
+          <note type="date" n="24f6576c">
+            Fredagen den 11 april 1969
+          </note>
+          <note n="3deb996e">
+            Nr 16 35
+          </note>
+          <note n="7eac6068">
+            Ang. vissa ändringar i förordningen om mervärdeskatt, m. m.
+          </note>
+          <u who="gunnar_ericsson_a41c28" xml:id="i-de9d721ab0134f31-4" prev="i-de9d721ab0134f31-2" n="2b367a19">
             <seg n="c9de41fa">
               rar över att staten inte har kunnat träffa några avtal med kommuner
               och landsting och säger att vi inom majoriteten ju har så goda
@@ -3304,23 +3377,13 @@
               betänkande.
             </seg>
           </u>
-          <pb n="34" facs="https://betalab.kb.se/prot-1969--fk--16/prot_1969__fk__16-034.jp2/_view"/>
-          <note n="4c17187d">
-            Fredagen den 11 april 1969
-          </note>
-          <note n="3deb996e">
-            Nr 16 35
-          </note>
-          <note n="7eac6068">
-            Ang. vissa ändringar i förordningen om mervärdeskatt, m. m.
-          </note>
           <note n="4b2a1037">
             Jag hemställer om bifall till utskottets förslag i samtliga punkter.
           </note>
           <note type="speaker" n="50935c83">
             Herr ÖSTERDAHL (fp):
           </note>
-          <u who="sven-otto_osterdahl_ea96fc" xml:id="i-9374eaf8d14e9956-1" next="i-3e2b96bb18c0ed0b-1" n="432ca054">
+          <u who="sven-otto_osterdahl_ea96fc" xml:id="i-8176e13d3ec9a441-3" next="i-8176e13d3ec9a441-14" n="432ca054">
             <seg n="1771c9d6">
               Herr talman! Utskottets värderade ordförande vidhåller sin uppfattning
               från i höstas att det skall vara möjligt att träffa en överenskommelse
@@ -3371,13 +3434,13 @@
           <note n="08b99872">
             36 Nr 16
           </note>
-          <note n="4c17187d">
+          <note type="date" n="24f6576c">
             Fredagen den 11 april 1969
           </note>
           <note n="7eac6068">
             Ang. vissa ändringar i förordningen om mervärdeskatt, m. m.
           </note>
-          <u who="sven-otto_osterdahl_ea96fc" xml:id="i-3e2b96bb18c0ed0b-1" prev="i-9374eaf8d14e9956-1" n="432ca054">
+          <u who="sven-otto_osterdahl_ea96fc" xml:id="i-8176e13d3ec9a441-4" prev="i-8176e13d3ec9a441-3" n="432ca054">
             <seg n="5a997e75">
               vi inte yrka på detta om vi hade samma förmåner som huvuddelen
               av öarna i Sveriges skärgård, dvs. om vi hade fria färjeförbindelser
@@ -3386,36 +3449,6 @@
               Gotland. Eller är det bara för att det är så mycket dyrare att
               komma till Gotland än till övriga öar som man inte kan lösa denna
               fråga?
-            </seg>
-            <seg n="f5419beb">
-              Jä;
-            </seg>
-            <seg n="e51e6b6b">
-              Nej;
-            </seg>
-            <seg n="92f5fdaa">
-              givit, att de avstode från att rösta.
-            </seg>
-            <seg n="c6fb31c6">
-              Ja;
-            </seg>
-            <seg n="e51e6b6b">
-              Nej;
-            </seg>
-            <seg n="2bd107ea">
-              Jag
-            </seg>
-            <seg n="e51e6b6b">
-              Nej;
-            </seg>
-            <seg n="92f5fdaa">
-              givit, att de avstode från att rösta.
-            </seg>
-            <seg n="c6fb31c6">
-              Ja;
-            </seg>
-            <seg n="e51e6b6b">
-              Nej;
             </seg>
           </u>
           <note n="d9307ccf">
@@ -3470,9 +3503,19 @@
             betänkande nr 25 bibehåller 8 $ 3 mom. mervärdeskatteförordningen
             i nuvarande lydelse, röstar
           </note>
+          <u who="sven-otto_osterdahl_ea96fc" xml:id="i-8176e13d3ec9a441-5" prev="i-8176e13d3ec9a441-3" n="432ca054">
+            <seg n="f5419beb">
+              Jä;
+            </seg>
+          </u>
           <note n="75683988">
             Den, det ej vill, röstar
           </note>
+          <u who="sven-otto_osterdahl_ea96fc" xml:id="i-8176e13d3ec9a441-6" prev="i-8176e13d3ec9a441-3" n="432ca054">
+            <seg n="e51e6b6b">
+              Nej;
+            </seg>
+          </u>
           <note n="1990db82">
             Vinner Nej, godkännes momentet med den lydelse, som föreslagits
             i den av herr Lundström m. fl. vid betänkandet avgivna, med 2
@@ -3495,6 +3538,11 @@
           <note n="1ef92765">
             Därjämte hade 2 ledamöter tillkänna-
           </note>
+          <u who="sven-otto_osterdahl_ea96fc" xml:id="i-8176e13d3ec9a441-7" prev="i-8176e13d3ec9a441-3" n="432ca054">
+            <seg n="92f5fdaa">
+              givit, att de avstode från att rösta.
+            </seg>
+          </u>
           <note n="f5c75cbc">
             11 $
           </note>
@@ -3504,7 +3552,7 @@
             skulle bibehållas i nuvarande lydelse, dels ock att para-
           </note>
           <pb n="36" facs="https://betalab.kb.se/prot-1969--fk--16/prot_1969__fk__16-036.jp2/_view"/>
-          <note n="4c17187d">
+          <note type="date" n="24f6576c">
             Fredagen den 11 april 1969
           </note>
           <note n="9aa22162">
@@ -3533,9 +3581,19 @@
             betänkande nr 25 bibehåller 11 8 mervärdeskatteförordningen i
             nuvarande lydelse, röstar
           </note>
+          <u who="sven-otto_osterdahl_ea96fc" xml:id="i-8176e13d3ec9a441-8" prev="i-8176e13d3ec9a441-3" n="432ca054">
+            <seg n="c6fb31c6">
+              Ja;
+            </seg>
+          </u>
           <note n="75683988">
             Den, det ej vill, röstar
           </note>
+          <u who="sven-otto_osterdahl_ea96fc" xml:id="i-8176e13d3ec9a441-9" prev="i-8176e13d3ec9a441-3" n="432ca054">
+            <seg n="e51e6b6b">
+              Nej;
+            </seg>
+          </u>
           <note n="2e74a42f">
             Vinner Nej, godkännes paragrafen med den lydelse, som föreslagits
             i den av herr Lundström m. fl. vid betänkandet avgivna, med 4
@@ -3584,9 +3642,19 @@
             betänkande nr 25 bibehåller 49 8 mervärdeskatteförordningen i
             nuvarande lydelse, röstar
           </note>
+          <u who="sven-otto_osterdahl_ea96fc" xml:id="i-8176e13d3ec9a441-10" prev="i-8176e13d3ec9a441-3" n="432ca054">
+            <seg n="2bd107ea">
+              Jag
+            </seg>
+          </u>
           <note n="75683988">
             Den, det ej vill, röstar
           </note>
+          <u who="sven-otto_osterdahl_ea96fc" xml:id="i-8176e13d3ec9a441-11" prev="i-8176e13d3ec9a441-3" n="432ca054">
+            <seg n="e51e6b6b">
+              Nej;
+            </seg>
+          </u>
           <note n="23050b56">
             Vinner Nej, godkännes paragrafen med den lydelse, som föreslagits
             i den av herr Lundström m. fl. vid betänkandet avgivna, med 5
@@ -3608,6 +3676,11 @@
           <note n="1ef92765">
             Därjämte hade 2 ledamöter tillkänna-
           </note>
+          <u who="sven-otto_osterdahl_ea96fc" xml:id="i-8176e13d3ec9a441-12" prev="i-8176e13d3ec9a441-3" n="432ca054">
+            <seg n="92f5fdaa">
+              givit, att de avstode från att rösta.
+            </seg>
+          </u>
           <note n="a904f772">
             8 $ i vad den ej förut behandlats, 17 och 18 $$ samt anvisningarna
             till 2, 8, 10 och 17 $$
@@ -3619,7 +3692,7 @@
           <note n="9e3b0a8f">
             38 Nr 16
           </note>
-          <note n="4c17187d">
+          <note type="date" n="24f6576c">
             Fredagen den 11 april 1969
           </note>
           <note n="379f9cd7">
@@ -3651,9 +3724,19 @@
             Den, som bifaller vad bevillningsutskottet hemställt i sitt betänkande
             nr 25 punkterna B4, B9 och B 14, röstar
           </note>
+          <u who="sven-otto_osterdahl_ea96fc" xml:id="i-8176e13d3ec9a441-13" prev="i-8176e13d3ec9a441-3" n="432ca054">
+            <seg n="c6fb31c6">
+              Ja;
+            </seg>
+          </u>
           <note n="75683988">
             Den, det ej vill, röstar
           </note>
+          <u who="sven-otto_osterdahl_ea96fc" xml:id="i-8176e13d3ec9a441-14" prev="i-8176e13d3ec9a441-3" n="432ca054">
+            <seg n="e51e6b6b">
+              Nej;
+            </seg>
+          </u>
           <note n="c0ab7851">
             Vinner Nej, antages det förslag, som innefattas i den av herr
             Lundström m. fl. vid betänkandet avgivna, med 1 betecknade reservationen.
@@ -3720,7 +3803,7 @@
             5) motionen II: 806, av herr Lothigius och fru Jonäng, vari hemställts,
           </note>
           <pb n="38" facs="https://betalab.kb.se/prot-1969--fk--16/prot_1969__fk__16-038.jp2/_view"/>
-          <note n="4c17187d">
+          <note type="date" n="24f6576c">
             Fredagen den 11 april 1969
           </note>
           <note n="38e196a3">
@@ -3805,7 +3888,7 @@
           <note type="speaker" n="6b402d06">
             Herr JACOBSSON, GÖSTA, (m):
           </note>
-          <u who="per_jacobsson_ec04b2" xml:id="i-b5f0b8847f1a45ea-1" next="i-9604822c57236ea2-1" n="46e47e6c">
+          <u who="per_jacobsson_ec04b2" xml:id="i-46e47e6c90b54c9e-3" next="i-46e47e6c90b54c9e-6" n="46e47e6c">
             <seg n="4368f125">
               Herr talman! I bevillningsutskottets betänkande nr 26 behandlas
               problemen kring förvärvsavdraget. Frågan är långt ifrån ny. Vi
@@ -3831,17 +3914,24 @@
           <note n="e1ad9472">
             40 Nr 16
           </note>
-          <note n="4c17187d">
+          <note type="date" n="24f6576c">
             Fredagen den 11 april 1969
           </note>
           <note n="379f9cd7">
             Ang. förvärvsavdragen vid beskattningen, m. m.
           </note>
-          <u who="per_jacobsson_ec04b2" xml:id="i-9604822c57236ea2-1" prev="i-b5f0b8847f1a45ea-1" n="46e47e6c">
+          <u who="per_jacobsson_ec04b2" xml:id="i-46e47e6c90b54c9e-4" prev="i-46e47e6c90b54c9e-3" n="46e47e6c">
             <seg n="d17f09f7">
               faktiska kostnaderna för barntillsyn medges för skattskyldig
               som har barn under exempelvis tolv år.
             </seg>
+          </u>
+          <note n="2f84026d">
+            Med det anförda, herr talman, ber jag att få yrka bifall till
+            reservation 1, som utmynnar i en begäran om skrivelse till Kungl.
+            Maj:t med förslag till bestämmelser av angiven innebörd.
+          </note>
+          <u who="per_jacobsson_ec04b2" xml:id="i-46e47e6c90b54c9e-5" prev="i-46e47e6c90b54c9e-3" n="46e47e6c">
             <seg n="abdfa441">
               Såväl i motionerna som i reservation 2 har på nytt aktualiserats
               frågan om avdragsrätt för de kostnader som uppkommer vid nödvändig
@@ -3849,6 +3939,11 @@
               bör ligga i linje med de principer som gäller för förvärvsavdraget.
               Det gäller här enligt vår mening en mycket behjärtansvärd sak.
             </seg>
+          </u>
+          <note n="f3519319">
+            Jag yrkar också bifall till reservation 2.
+          </note>
+          <u who="per_jacobsson_ec04b2" xml:id="i-46e47e6c90b54c9e-6" prev="i-46e47e6c90b54c9e-3" n="46e47e6c">
             <seg n="564229fa">
               I reservation 3 behandlas skilsmässobarnen. Som framgår av reservationen
               anser vi att med fog kan göras gällande att tillräcklig hänsyn
@@ -3864,21 +3959,13 @@
               ifrågavarande avdrag till 2 000 kronor.
             </seg>
           </u>
-          <note n="2f84026d">
-            Med det anförda, herr talman, ber jag att få yrka bifall till
-            reservation 1, som utmynnar i en begäran om skrivelse till Kungl.
-            Maj:t med förslag till bestämmelser av angiven innebörd.
-          </note>
-          <note n="f3519319">
-            Jag yrkar också bifall till reservation 2.
-          </note>
           <note n="d3840756">
             Jag yrkar, herr talman, bifall till reservation 3.
           </note>
           <note type="speaker" n="0dbf843d">
             Herr TISTAD (fp):
           </note>
-          <u who="eskil_tistad_188e55" xml:id="i-8e3ac1e11723ca4e-0" n="983cbabe">
+          <u who="eskil_tistad_188e55" xml:id="i-983cbabef0ebf0ef-5" n="983cbabe">
             <seg n="eb0f07a0">
               Herr talman! Till bevillningsutskottets betänkande nr 26 har
               fogats ett särskilt yttrande som jag vill beröra med några ord.
@@ -3915,7 +4002,7 @@
           <note type="speaker" n="4bd4944b">
             Herr SUNDIN (cp):
           </note>
-          <u who="sven_sundin_890677" xml:id="i-e1f1060b982a712c-0" next="i-95e473bea7d0b40d-0" n="7a990c4f">
+          <u who="sven_sundin_890677" xml:id="i-7a990c4f3f7c6be9-0" next="i-7a990c4f3f7c6be9-1" n="7a990c4f">
             <seg n="b5a4303a">
               Herr talman! Vad gäller förvärvsavdraget har väckts motioner
               med olika krav på förbättringar för de förvärvsarbetande kvinnorna.
@@ -3932,7 +4019,7 @@
             </seg>
           </u>
           <pb n="40" facs="https://betalab.kb.se/prot-1969--fk--16/prot_1969__fk__16-040.jp2/_view"/>
-          <note n="4c17187d">
+          <note type="date" n="24f6576c">
             Fredagen den 11 april 1969
           </note>
           <note n="891bfbc8">
@@ -3941,7 +4028,7 @@
           <note n="379f9cd7">
             Ang. förvärvsavdragen vid beskattningen, m. m.
           </note>
-          <u who="sven_sundin_890677" xml:id="i-95e473bea7d0b40d-0" prev="i-e1f1060b982a712c-0" n="7a990c4f">
+          <u who="sven_sundin_890677" xml:id="i-7a990c4f3f7c6be9-1" prev="i-7a990c4f3f7c6be9-0" n="7a990c4f">
             <seg n="eb5542c2">
               kraven inte bör vidhållas utan att man skall invänta det förslag
               som kommer att framläggas från Konungen. Låt mig bara säga några
@@ -3979,7 +4066,7 @@
           <note type="speaker" n="7a122af2">
             Herr WÄRNBERG (s):
           </note>
-          <u who="erik_warnberg_f4f34f" xml:id="i-dbc0fe828ec52e63-0" next="i-fbc5967c1de31c21-0" n="78801c59">
+          <u who="erik_warnberg_f4f34f" xml:id="i-78801c595543e045-0" next="i-78801c595543e045-1" n="78801c59">
             <seg n="86f60861">
               Herr talman! Resonemanget bakom det förvärvsavdrag som finns
               i vår skattelagstiftning är att om de båda makarna i en familj
@@ -4029,13 +4116,13 @@
           <note n="844c3cea">
             42 Nr 16
           </note>
-          <note n="4c17187d">
+          <note type="date" n="24f6576c">
             Fredagen den 11 april 1969
           </note>
           <note n="379f9cd7">
             Ang. förvärvsavdragen vid beskattningen, m. m.
           </note>
-          <u who="erik_warnberg_f4f34f" xml:id="i-fbc5967c1de31c21-0" prev="i-dbc0fe828ec52e63-0" n="78801c59">
+          <u who="erik_warnberg_f4f34f" xml:id="i-78801c595543e045-1" prev="i-78801c595543e045-0" n="78801c59">
             <seg n="3ebcdbad">
               beviljas för dem som har kostnader för barn vilka vistas hos
               annan än den som yrkar avdraget vill man, säger reservanterna,
@@ -4100,7 +4187,7 @@
           <note type="speaker" n="4bd4944b">
             Herr SUNDIN (cp):
           </note>
-          <u who="sven_sundin_890677" xml:id="i-e1f1060b982a712c-1" next="i-95e473bea7d0b40d-1" n="7a990c4f">
+          <u who="sven_sundin_890677" xml:id="i-7a990c4f3f7c6be9-2" next="i-7a990c4f3f7c6be9-11" n="7a990c4f">
             <seg n="8e49097e">
               Herr talman! Till herr Wärnberg vill jag bara säga att jag kanske
               överskattat regeringen i detta sammanhang. Jag har sagt att beredningens
@@ -4119,7 +4206,7 @@
             komme att framstäl-
           </note>
           <pb n="42" facs="https://betalab.kb.se/prot-1969--fk--16/prot_1969__fk__16-042.jp2/_view"/>
-          <note n="4c17187d">
+          <note type="date" n="24f6576c">
             Fredagen den 11 april 1969
           </note>
           <note n="96e20976">
@@ -4151,69 +4238,19 @@
             Den, som bifaller vad bevillningsutskottet hemställt i sitt betänkande
             nr 26 punkterna 1 och 2, röstar
           </note>
-          <u who="sven_sundin_890677" xml:id="i-95e473bea7d0b40d-1" prev="i-e1f1060b982a712c-1" n="7a990c4f">
+          <u who="sven_sundin_890677" xml:id="i-7a990c4f3f7c6be9-3" prev="i-7a990c4f3f7c6be9-2" n="7a990c4f">
             <seg n="c6fb31c6">
               Ja;
-            </seg>
-            <seg n="e51e6b6b">
-              Nej;
-            </seg>
-            <seg n="c6fb31c6">
-              Ja;
-            </seg>
-            <seg n="e51e6b6b">
-              Nej;
-            </seg>
-            <seg n="2bd107ea">
-              Jag
-            </seg>
-            <seg n="e51e6b6b">
-              Nej;
-            </seg>
-            <seg n="01171eb6">
-              Om åtgärder vid beskattningen i syfte att främja sparandet
-            </seg>
-            <seg n="01171eb6">
-              Om åtgärder vid beskattningen i syfte att främja sparandet
-            </seg>
-            <seg n="37022634">
-              1) rätt att i deklarationen göra avdrag för insättning på särskilt
-              bostadskonto under åren 1970—1975 av medel, avsedda för förvärv
-              av egethem eller fritidsbostad eller för insats i bostadsförening
-              med belopp på sammanlagt högst 6 000 kronor för ensamstående och
-              12 000 kronor för äkta makar,
-            </seg>
-            <seg n="43c33336">
-              2) rätt att i deklarationen göra avdrag för insättning på särskilt
-              konto för utbildning av eget barn intill ett maximibelopp av 1200
-              kronor per år och 18 000 kronor sammanlagt,
-            </seg>
-            <seg n="67dba767">
-              3) rätt för ägare av enoch tvåfamiljsfastighet eller bostadsrättslägenhet
-              att under vissa förutsättningar i deklarationen göra avdrag för
-              amortering av skuld på fastigheten eller lägenheten, i den mån
-              amorteringen överstege 1,5 procent av vederbörande taxeringsvärde,
-              dock maximalt med 700 kronor jämte 200 kronor för varje hemmavarande
-              barn under 16 år,
-            </seg>
-            <seg n="c24425be">
-              4) höjning av maximibeloppet för sparavdraget i inkomstkällan
-              kapital (för närvarande 400 kronor för ensamstående och 800 kronor
-              för äkta makar) med 200 respektive 400 kronor, i den mån kapitalavkastningen
-              till motsvarande belopp utgjorde utdelning på aktier eller på
-              andelar i ekonomisk förening, ävensom
-            </seg>
-            <seg n="bd4c29a1">
-              5) rätt till sparavdrag om högst 400 kronor för ensamstående
-              och 800 kronor för äkta makar för den som insatt sparkapital i
-              inkomstkällorna jordbruksfastighet, annan fastighet eller rörelse,
-              dock endast i den mån sparavdraget ej kunnat utnyttjas i inkomstkällan
-              kapital.
             </seg>
           </u>
           <note n="75683988">
             Den, det ej vill, röstar
           </note>
+          <u who="sven_sundin_890677" xml:id="i-7a990c4f3f7c6be9-4" prev="i-7a990c4f3f7c6be9-2" n="7a990c4f">
+            <seg n="e51e6b6b">
+              Nej;
+            </seg>
+          </u>
           <note n="154c8ba5">
             Vinner Nej, antages det förslag, som innefattas i den av herr
             Gösta Jacobsson m. fl. vid betänkandet avgivna, med 1 betecknade
@@ -4257,9 +4294,19 @@
             Den, som bifaller vad bevillningsutskottet hemställt i sitt betänkande
             nr 26 punkten 3, röstar
           </note>
+          <u who="sven_sundin_890677" xml:id="i-7a990c4f3f7c6be9-5" prev="i-7a990c4f3f7c6be9-2" n="7a990c4f">
+            <seg n="c6fb31c6">
+              Ja;
+            </seg>
+          </u>
           <note n="75683988">
             Den, det ej vill, röstar
           </note>
+          <u who="sven_sundin_890677" xml:id="i-7a990c4f3f7c6be9-6" prev="i-7a990c4f3f7c6be9-2" n="7a990c4f">
+            <seg n="e51e6b6b">
+              Nej;
+            </seg>
+          </u>
           <note n="f46a8a46">
             Vinner Nej, antages det förslag, som innefattas i den av herr
             Gösta Jacobsson m. fl. vid betänkandet avgivna, med 2 betecknade
@@ -4311,9 +4358,19 @@
             Den, som bifaller vad bevillningsutskottet hemställt i sitt betänkande
             nr 26 punkten 5, röstar
           </note>
+          <u who="sven_sundin_890677" xml:id="i-7a990c4f3f7c6be9-7" prev="i-7a990c4f3f7c6be9-2" n="7a990c4f">
+            <seg n="2bd107ea">
+              Jag
+            </seg>
+          </u>
           <note n="75683988">
             Den, det ej vill, röstar
           </note>
+          <u who="sven_sundin_890677" xml:id="i-7a990c4f3f7c6be9-8" prev="i-7a990c4f3f7c6be9-2" n="7a990c4f">
+            <seg n="e51e6b6b">
+              Nej;
+            </seg>
+          </u>
           <note n="4baeeef5">
             Vinner Nej, antages det förslag, som innefattas i den av herr
             Gösta Jacobsson m. fl. vid betänkandet avgivna, med 3 betecknade
@@ -4342,9 +4399,14 @@
             Därjämte hade 6 ledamöter tillkännagivit, att de avstode från
             att rösta.
           </note>
-          <note n="4c17187d">
+          <note type="date" n="24f6576c">
             Fredagen den 11 april 1969
           </note>
+          <u who="sven_sundin_890677" xml:id="i-7a990c4f3f7c6be9-9" prev="i-7a990c4f3f7c6be9-2" n="7a990c4f">
+            <seg n="01171eb6">
+              Om åtgärder vid beskattningen i syfte att främja sparandet
+            </seg>
+          </u>
           <note n="67f13a9a">
             Föredrogs ånyo bevillningsutskottets betänkande nr 29, med anledning
             av motioner om åtgärder vid beskattningen i syfte att främja sparandet.
@@ -4397,16 +4459,57 @@
             för målinriktat bostadssparande.
           </note>
           <pb n="44" facs="https://betalab.kb.se/prot-1969--fk--16/prot_1969__fk__16-044.jp2/_view"/>
-          <note n="4c17187d">
+          <note type="date" n="24f6576c">
             Fredagen den 11 april 1969
           </note>
           <note n="838ba6f2">
             Nr 16 45
           </note>
+          <u who="sven_sundin_890677" xml:id="i-7a990c4f3f7c6be9-10" prev="i-7a990c4f3f7c6be9-2" n="7a990c4f">
+            <seg n="01171eb6">
+              Om åtgärder vid beskattningen i syfte att främja sparandet
+            </seg>
+          </u>
           <note n="e384db57">
             De i motionerna I: 713 och II: 797 framlagda författningsförslagen
             avsågo
           </note>
+          <u who="sven_sundin_890677" xml:id="i-7a990c4f3f7c6be9-11" prev="i-7a990c4f3f7c6be9-2" n="7a990c4f">
+            <seg n="37022634">
+              1) rätt att i deklarationen göra avdrag för insättning på särskilt
+              bostadskonto under åren 1970—1975 av medel, avsedda för förvärv
+              av egethem eller fritidsbostad eller för insats i bostadsförening
+              med belopp på sammanlagt högst 6 000 kronor för ensamstående och
+              12 000 kronor för äkta makar,
+            </seg>
+            <seg n="43c33336">
+              2) rätt att i deklarationen göra avdrag för insättning på särskilt
+              konto för utbildning av eget barn intill ett maximibelopp av 1200
+              kronor per år och 18 000 kronor sammanlagt,
+            </seg>
+            <seg n="67dba767">
+              3) rätt för ägare av enoch tvåfamiljsfastighet eller bostadsrättslägenhet
+              att under vissa förutsättningar i deklarationen göra avdrag för
+              amortering av skuld på fastigheten eller lägenheten, i den mån
+              amorteringen överstege 1,5 procent av vederbörande taxeringsvärde,
+              dock maximalt med 700 kronor jämte 200 kronor för varje hemmavarande
+              barn under 16 år,
+            </seg>
+            <seg n="c24425be">
+              4) höjning av maximibeloppet för sparavdraget i inkomstkällan
+              kapital (för närvarande 400 kronor för ensamstående och 800 kronor
+              för äkta makar) med 200 respektive 400 kronor, i den mån kapitalavkastningen
+              till motsvarande belopp utgjorde utdelning på aktier eller på
+              andelar i ekonomisk förening, ävensom
+            </seg>
+            <seg n="bd4c29a1">
+              5) rätt till sparavdrag om högst 400 kronor för ensamstående
+              och 800 kronor för äkta makar för den som insatt sparkapital i
+              inkomstkällorna jordbruksfastighet, annan fastighet eller rörelse,
+              dock endast i den mån sparavdraget ej kunnat utnyttjas i inkomstkällan
+              kapital.
+            </seg>
+          </u>
           <note n="88fc74ea">
             Utskottet hade i det nu föreliggande betänkandet av angivna orsaker
             hemställt, att riksdagen måtte avslå
@@ -4460,7 +4563,7 @@
           <note type="speaker" n="4bd4944b">
             Herr SUNDIN (cp):
           </note>
-          <u who="sven_sundin_890677" xml:id="i-e1f1060b982a712c-2" next="i-95e473bea7d0b40d-2" n="7a990c4f">
+          <u who="sven_sundin_890677" xml:id="i-7a990c4f3f7c6be9-12" next="i-7a990c4f3f7c6be9-13" n="7a990c4f">
             <seg n="95dc5c08">
               Herr talman! Vid behandlingen av detta betänkande från bevillningsutskottet
               anser jag det finns skäl att se närmare på de bilagor som fogats
@@ -4476,10 +4579,10 @@
           <note n="91d70015">
             46 Nr 16
           </note>
-          <note n="4c17187d">
+          <note type="date" n="24f6576c">
             Fredagen den 11 april 1969
           </note>
-          <u who="sven_sundin_890677" xml:id="i-95e473bea7d0b40d-2" prev="i-e1f1060b982a712c-2" n="7a990c4f">
+          <u who="sven_sundin_890677" xml:id="i-7a990c4f3f7c6be9-13" prev="i-7a990c4f3f7c6be9-12" n="7a990c4f">
             <seg n="01171eb6">
               Om åtgärder vid beskattningen i syfte att främja sparandet
             </seg>
@@ -4523,7 +4626,7 @@
           <note type="speaker" n="0dbf843d">
             Herr TISTAD (fp):
           </note>
-          <u who="eskil_tistad_188e55" xml:id="i-fdb39398f861d46a-1" next="i-8df1d041cc06ec97-1" n="983cbabe">
+          <u who="eskil_tistad_188e55" xml:id="i-983cbabef0ebf0ef-6" next="i-983cbabef0ebf0ef-7" n="983cbabe">
             <seg n="1e2b0c6f">
               Herr talman! Den fråga som vi nu behandlar innebär inte några
               nyheter för kammarens ledamöter, och jag kan därför fatta mig
@@ -4566,13 +4669,13 @@
             </seg>
           </u>
           <pb n="46" facs="https://betalab.kb.se/prot-1969--fk--16/prot_1969__fk__16-046.jp2/_view"/>
-          <note n="4c17187d">
+          <note type="date" n="24f6576c">
             Fredagen den 11 april 1969
           </note>
           <note n="304a39f7">
             Nr 16 47
           </note>
-          <u who="eskil_tistad_188e55" xml:id="i-8df1d041cc06ec97-1" prev="i-fdb39398f861d46a-1" n="983cbabe">
+          <u who="eskil_tistad_188e55" xml:id="i-983cbabef0ebf0ef-7" prev="i-983cbabef0ebf0ef-6" n="983cbabe">
             <seg n="01171eb6">
               Om åtgärder vid beskattningen i syfte att främja sparandet
             </seg>
@@ -4586,7 +4689,7 @@
           <note type="speaker" n="d2de4e6b">
             Herr NILSSON, YNGVE, (m):
           </note>
-          <u who="torsten_nilsson_faa108" xml:id="i-b8d8ef86b40e435f-0" n="505e084f">
+          <u who="torsten_nilsson_faa108" xml:id="i-d050ab0fcdeb3a69-4" n="505e084f">
             <seg n="02370c1b">
               Herr talman! De frågor det här gäller, sparandet och sparstimulerande
               åtgärder, har ju diskuterats vid åtskilliga riksdagar, och vid
@@ -4637,7 +4740,7 @@
           <note type="speaker" n="f83ecbbe">
             Herr JOHANSSON, TAGE, (s):
           </note>
-          <u who="sven_johansson_82cea9" xml:id="i-3cab6fa07b1e83dd-0" next="i-59702e10e0a56e78-0" n="c98934f0">
+          <u who="sven_johansson_82cea9" xml:id="i-4051d9095f215ea4-0" next="i-4051d9095f215ea4-3" n="c98934f0">
             <seg n="8e510240">
               Herr talman! De motioner som behandlas i detta betänkande har
               alla det gemensamt att de föreslår premiering av personligt sparande
@@ -4671,10 +4774,10 @@
           <note n="652d587f">
             48 Nr 16
           </note>
-          <note n="4c17187d">
+          <note type="date" n="24f6576c">
             Fredagen den 11 april 1969
           </note>
-          <u who="sven_johansson_82cea9" xml:id="i-59702e10e0a56e78-0" prev="i-3cab6fa07b1e83dd-0" n="c98934f0">
+          <u who="sven_johansson_82cea9" xml:id="i-4051d9095f215ea4-1" prev="i-4051d9095f215ea4-0" n="c98934f0">
             <seg n="01171eb6">
               Om åtgärder vid beskattningen i syfte att främja sparandet
             </seg>
@@ -4755,6 +4858,15 @@
             <seg n="6a50783e">
               Eftersom samtliga nu aktuella mo-
             </seg>
+          </u>
+          <pb n="48" facs="https://betalab.kb.se/prot-1969--fk--16/prot_1969__fk__16-048.jp2/_view"/>
+          <note type="date" n="24f6576c">
+            Fredagen den 11 april 1969
+          </note>
+          <note n="ce28e151">
+            Nr 16 49
+          </note>
+          <u who="sven_johansson_82cea9" xml:id="i-4051d9095f215ea4-2" prev="i-4051d9095f215ea4-0" n="c98934f0">
             <seg n="01171eb6">
               Om åtgärder vid beskattningen i syfte att främja sparandet
             </seg>
@@ -4763,17 +4875,7 @@
               hemställer jag om avslag på reservänternas förslag och alltså
               om bifall till utskottets hemställan.
             </seg>
-            <seg n="448234d2">
-              JAg
-            </seg>
           </u>
-          <pb n="48" facs="https://betalab.kb.se/prot-1969--fk--16/prot_1969__fk__16-048.jp2/_view"/>
-          <note n="4c17187d">
-            Fredagen den 11 april 1969
-          </note>
-          <note n="ce28e151">
-            Nr 16 49
-          </note>
           <note n="fbdfbafc">
             Sedan överläggningen ansetts härmed slutad, yttrade herr förste
             vice talmannen, att med anledning av vad därunder yrkats propositioner
@@ -4859,11 +4961,16 @@
             nr 29 utom såvitt avser punkten 2 i vad den redan behandlats,
             röstar
           </note>
+          <u who="sven_johansson_82cea9" xml:id="i-4051d9095f215ea4-3" prev="i-4051d9095f215ea4-0" n="c98934f0">
+            <seg n="448234d2">
+              JAg
+            </seg>
+          </u>
           <pb n="49" facs="https://betalab.kb.se/prot-1969--fk--16/prot_1969__fk__16-049.jp2/_view"/>
           <note n="63f2d584">
             50 Nr 16
           </note>
-          <note n="4c17187d">
+          <note type="date" n="24f6576c">
             Fredagen den 11 april 1969
           </note>
           <note n="82a44438">
@@ -4941,7 +5048,7 @@
           <note type="speaker" n="426a8d87">
             Herr STEFANSON (fp):
           </note>
-          <u who="stig_stefanson_0a40a2" xml:id="i-3d3eedd8d43099a4-1" next="i-17a981c8c5d6e4df-1" n="bbdbc86a">
+          <u who="stig_stefanson_0a40a2" xml:id="i-bbdbc86a72c8a070-3" next="i-bbdbc86a72c8a070-6" n="bbdbc86a">
             <seg n="cc8a82f7">
               Herr talman! Det är väl inte meningen att vi vid detta tillfälle,
               när det gäller bankoutskottets utlåtande nr 11, som handlar om
@@ -4972,7 +5079,7 @@
             </seg>
           </u>
           <pb n="50" facs="https://betalab.kb.se/prot-1969--fk--16/prot_1969__fk__16-050.jp2/_view"/>
-          <note n="4c17187d">
+          <note type="date" n="24f6576c">
             Fredagen den 11 april 1969
           </note>
           <note n="5b0ccafd">
@@ -4981,7 +5088,7 @@
           <note n="82a44438">
             Ang. riksbankens penningoch valutapolitik
           </note>
-          <u who="stig_stefanson_0a40a2" xml:id="i-17a981c8c5d6e4df-1" prev="i-3d3eedd8d43099a4-1" n="bbdbc86a">
+          <u who="stig_stefanson_0a40a2" xml:id="i-bbdbc86a72c8a070-4" prev="i-bbdbc86a72c8a070-3" n="bbdbc86a">
             <seg n="923106b7">
               och under första hälften av 1960-talet ungefär 5 procent — att
               jämföra med 2,1 procent 1967 och 3,5 procent 1968.
@@ -5022,6 +5129,11 @@
               1968 att karaktäriseras av fortsatt otillfredsställande balans
               på arbetsmarknaden trots säsongmässig förbättring mot slutet av
             </seg>
+          </u>
+          <note n="85173d72">
+            4t Första kammarens protokoll 1969. Nr 16
+          </note>
+          <u who="stig_stefanson_0a40a2" xml:id="i-bbdbc86a72c8a070-5" prev="i-bbdbc86a72c8a070-3" n="bbdbc86a">
             <seg n="505e4ee9">
               perioden. För tiden efter halvårsskiftet ökar helt naturligt
               osäkerheten i bedömningarna, men också där förefaller regeringens
@@ -5063,6 +5175,21 @@
               de av oss föreslagna höjningarna, men regeringen lade senare på
               några av nu nämnda områden fram förslag som gick i linje med
             </seg>
+          </u>
+          <pb n="51" facs="https://betalab.kb.se/prot-1969--fk--16/prot_1969__fk__16-051.jp2/_view"/>
+          <note n="3587704a">
+            52 Nr 16
+          </note>
+          <note type="date" n="24f6576c">
+            Fredagen den 11 april 1969
+          </note>
+          <note n="82a44438">
+            Ang. riksbankens penningoch valutapolitik
+          </note>
+          <note n="e3850999">
+            de av oss vid riksdagens början väckta motionerna.
+          </note>
+          <u who="stig_stefanson_0a40a2" xml:id="i-bbdbc86a72c8a070-6" prev="i-bbdbc86a72c8a070-3" n="bbdbc86a">
             <seg n="515c70f7">
               Vi föreslog också åtgärder på skatteområdet för att stimulera
               industrins investeringar. Ett allvarligt inslag i 1968 års konjunkturbild
@@ -5109,26 +5236,10 @@
               i vår reservation som jag yrkar bifall till.
             </seg>
           </u>
-          <note n="85173d72">
-            4t Första kammarens protokoll 1969. Nr 16
-          </note>
-          <pb n="51" facs="https://betalab.kb.se/prot-1969--fk--16/prot_1969__fk__16-051.jp2/_view"/>
-          <note n="3587704a">
-            52 Nr 16
-          </note>
-          <note n="4c17187d">
-            Fredagen den 11 april 1969
-          </note>
-          <note n="82a44438">
-            Ang. riksbankens penningoch valutapolitik
-          </note>
-          <note n="e3850999">
-            de av oss vid riksdagens början väckta motionerna.
-          </note>
           <note type="speaker" n="c2abdee2">
             Herr ÅKERLUND (m):
           </note>
-          <u who="henrik_akerlund_72c3c2" xml:id="i-6694e3fd4ecd4c07-0" next="i-66ca647714063e5d-0" n="7c7ec456">
+          <u who="henrik_akerlund_72c3c2" xml:id="i-7c7ec45615655e68-0" next="i-7c7ec45615655e68-3" n="7c7ec456">
             <seg n="dfd13b16">
               Herr talman! Herr Brundin och jag har i reservation 2 anfört
               vissa synpunkter på riksbankens och riksgäldskontorets politik
@@ -5159,7 +5270,7 @@
             </seg>
           </u>
           <pb n="52" facs="https://betalab.kb.se/prot-1969--fk--16/prot_1969__fk__16-052.jp2/_view"/>
-          <note n="4c17187d">
+          <note type="date" n="24f6576c">
             Fredagen den 11 april 1969
           </note>
           <note n="a1de8c2a">
@@ -5168,7 +5279,7 @@
           <note n="82a44438">
             Ang. riksbankens penningoch valutapolitik
           </note>
-          <u who="henrik_akerlund_72c3c2" xml:id="i-66ca647714063e5d-0" prev="i-6694e3fd4ecd4c07-0" n="7c7ec456">
+          <u who="henrik_akerlund_72c3c2" xml:id="i-7c7ec45615655e68-1" prev="i-7c7ec45615655e68-0" n="7c7ec456">
             <seg n="e5a90158">
               tredje förordade vi att man på valutapolitikens område skulle
               ha som målsättning, att kronkursen skulle försvaras, och att som
@@ -5247,6 +5358,18 @@
               att på längre sikt skapa förutsättningar för att förbilliga kreditvillkoren
               över hu-
             </seg>
+          </u>
+          <pb n="53" facs="https://betalab.kb.se/prot-1969--fk--16/prot_1969__fk__16-053.jp2/_view"/>
+          <note n="d8a91c13">
+            54 Nr 16
+          </note>
+          <note type="date" n="24f6576c">
+            Fredagen den 11 april 1969
+          </note>
+          <note n="82a44438">
+            Ang. riksbankens penningoch valutapolitik
+          </note>
+          <u who="henrik_akerlund_72c3c2" xml:id="i-7c7ec45615655e68-2" prev="i-7c7ec45615655e68-0" n="7c7ec456">
             <seg n="ddc5c6ce">
               vud taget. Om man för en lugnare politik, kan det hända att man
               så småningom kan arbeta sig fram till billigare kreditvillkor,
@@ -5323,6 +5446,18 @@
               återställas eller är förvärv med verklig äganderätt. är det senare
               riktigt,
             </seg>
+          </u>
+          <pb n="54" facs="https://betalab.kb.se/prot-1969--fk--16/prot_1969__fk__16-054.jp2/_view"/>
+          <note type="date" n="24f6576c">
+            Fredagen den 11 april 1969
+          </note>
+          <note n="0e03fa40">
+            Nr 16 55
+          </note>
+          <note n="82a44438">
+            Ang. riksbankens penningoch valutapolitik
+          </note>
+          <u who="henrik_akerlund_72c3c2" xml:id="i-7c7ec45615655e68-3" prev="i-7c7ec45615655e68-0" n="7c7ec456">
             <seg n="cbbb2573">
               hälsar jag ökningen av guldkassan med tillfredsställelse. Alltjämt
               är nämligen denna en alltför ringa andel av de totala tillgångarna
@@ -5348,26 +5483,6 @@
               frågorna om valutaregleringen, sedelutgivningen och guldinlösensskyldigheten.
             </seg>
           </u>
-          <pb n="53" facs="https://betalab.kb.se/prot-1969--fk--16/prot_1969__fk__16-053.jp2/_view"/>
-          <note n="d8a91c13">
-            54 Nr 16
-          </note>
-          <note n="4c17187d">
-            Fredagen den 11 april 1969
-          </note>
-          <note n="82a44438">
-            Ang. riksbankens penningoch valutapolitik
-          </note>
-          <pb n="54" facs="https://betalab.kb.se/prot-1969--fk--16/prot_1969__fk__16-054.jp2/_view"/>
-          <note n="4c17187d">
-            Fredagen den 11 april 1969
-          </note>
-          <note n="0e03fa40">
-            Nr 16 55
-          </note>
-          <note n="82a44438">
-            Ang. riksbankens penningoch valutapolitik
-          </note>
           <note n="0eaaca74">
             Jag vill, herr talman, med hänsyn till vad jag anfört hemställa
             att riksdagen måtte, med gillande av det uttalande som innefattas
@@ -5376,7 +5491,7 @@
           <note type="speaker" n="9bda1f35">
             Herr STÅHLE (s):
           </note>
-          <u who="nils_stahle_1a903c" xml:id="i-d02dbd27959d14a1-0" next="i-79c5514d2b0d3947-0" n="40d535fb">
+          <u who="nils_stahle_1a903c" xml:id="i-40d535fb9ead41a7-0" next="i-40d535fb9ead41a7-4" n="40d535fb">
             <seg n="c8fa170d">
               Herr talman! Inledningsvis vill jag med tanke på vad någon av
               de föregående talarna sagt erinra om att bankoutskottet i sitt
@@ -5430,13 +5545,13 @@
           <note n="0a9175d3">
             56 Nr 16
           </note>
-          <note n="4c17187d">
+          <note type="date" n="24f6576c">
             Fredagen den 11 april 1969
           </note>
           <note n="82a44438">
             Ang. riksbankens penningoch valutapolitik
           </note>
-          <u who="nils_stahle_1a903c" xml:id="i-79c5514d2b0d3947-0" prev="i-d02dbd27959d14a1-0" n="40d535fb">
+          <u who="nils_stahle_1a903c" xml:id="i-40d535fb9ead41a7-1" prev="i-40d535fb9ead41a7-0" n="40d535fb">
             <seg n="18386e49">
               Reservationerna är dels den folkpartistiska med beteckningen
               nr 1, som jag nyss berört, dels den som avgivits av herrar Åkerlund
@@ -5512,6 +5627,18 @@
               På denna punkt vill jag bara hänvisa till vad jag tidigare sagt:
               Jag har svårt att förstå att det skulle vara en klok
             </seg>
+          </u>
+          <pb n="56" facs="https://betalab.kb.se/prot-1969--fk--16/prot_1969__fk__16-056.jp2/_view"/>
+          <note type="date" n="24f6576c">
+            Fredagen den 11 april 1969
+          </note>
+          <note n="ae9a599a">
+            Nr 16 57
+          </note>
+          <note n="82a44438">
+            Ang. riksbankens penningoch valutapolitik
+          </note>
+          <u who="nils_stahle_1a903c" xml:id="i-40d535fb9ead41a7-2" prev="i-40d535fb9ead41a7-0" n="40d535fb">
             <seg n="d20d0d44">
               politik att ha alltför stora guldreserver, som ju är helt oräntabla.
               Det måste vara vettigare att ha reserverna placerade i räntebärande
@@ -5597,6 +5724,18 @@
               stor nackdel för investeringsvolymen. Vi skriver: »En väsentlig
               del av förklaringen till denna nedgång utgör den investerings-
             </seg>
+          </u>
+          <pb n="57" facs="https://betalab.kb.se/prot-1969--fk--16/prot_1969__fk__16-057.jp2/_view"/>
+          <note n="d7573a75">
+            58 Nr 16
+          </note>
+          <note type="date" n="24f6576c">
+            Fredagen den 11 april 1969
+          </note>
+          <note n="82a44438">
+            Ang. riksbankens penningoch valutapolitik
+          </note>
+          <u who="nils_stahle_1a903c" xml:id="i-40d535fb9ead41a7-3" prev="i-40d535fb9ead41a7-0" n="40d535fb">
             <seg n="7c2b5355">
               avgift på s.k. oprioriterat byggande som utgick under en stor
               del av året. Denna investeringsavgift torde dessutom ha medverkat
@@ -5684,6 +5823,18 @@
               dag, finner jag motiverat bland annat av att det dock utanför
               detta hus också pågår debatt om dessa problem. Människor är oroliga
             </seg>
+          </u>
+          <pb n="58" facs="https://betalab.kb.se/prot-1969--fk--16/prot_1969__fk__16-058.jp2/_view"/>
+          <note type="date" n="24f6576c">
+            Fredagen den 11 april 1969
+          </note>
+          <note n="26a43984">
+            Nr 16 59
+          </note>
+          <note n="82a44438">
+            Ang. riksbankens penningoch valutapolitik
+          </note>
+          <u who="nils_stahle_1a903c" xml:id="i-40d535fb9ead41a7-4" prev="i-40d535fb9ead41a7-0" n="40d535fb">
             <seg n="9cea3c91">
               och frågar vad som skall komma att hända. Jag har sagt att till
               diskussionen om riktlinjerna för penningoch valutapolitiken 1969
@@ -5745,40 +5896,10 @@
               här har framfört.
             </seg>
           </u>
-          <pb n="56" facs="https://betalab.kb.se/prot-1969--fk--16/prot_1969__fk__16-056.jp2/_view"/>
-          <note n="4c17187d">
-            Fredagen den 11 april 1969
-          </note>
-          <note n="ae9a599a">
-            Nr 16 57
-          </note>
-          <note n="82a44438">
-            Ang. riksbankens penningoch valutapolitik
-          </note>
-          <pb n="57" facs="https://betalab.kb.se/prot-1969--fk--16/prot_1969__fk__16-057.jp2/_view"/>
-          <note n="d7573a75">
-            58 Nr 16
-          </note>
-          <note n="4c17187d">
-            Fredagen den 11 april 1969
-          </note>
-          <note n="82a44438">
-            Ang. riksbankens penningoch valutapolitik
-          </note>
-          <pb n="58" facs="https://betalab.kb.se/prot-1969--fk--16/prot_1969__fk__16-058.jp2/_view"/>
-          <note n="4c17187d">
-            Fredagen den 11 april 1969
-          </note>
-          <note n="26a43984">
-            Nr 16 59
-          </note>
-          <note n="82a44438">
-            Ang. riksbankens penningoch valutapolitik
-          </note>
           <note type="speaker" n="6b402d06">
             Herr JACOBSSON, GÖSTA, (m):
           </note>
-          <u who="per_jacobsson_ec04b2" xml:id="i-b5f0b8847f1a45ea-2" next="i-9604822c57236ea2-2" n="46e47e6c">
+          <u who="per_jacobsson_ec04b2" xml:id="i-46e47e6c90b54c9e-7" next="i-46e47e6c90b54c9e-8" n="46e47e6c">
             <seg n="6d132d46">
               Herr talman! Som kammarens ledamöter kanske kommer ihåg, har
               jag förut jagat på de här markerna trots att jag inte har jaktkort
@@ -5801,13 +5922,13 @@
           <note n="828de1f3">
             60 Nr 16
           </note>
-          <note n="4c17187d">
+          <note type="date" n="24f6576c">
             Fredagen den 11 april 1969
           </note>
           <note n="82a44438">
             Ang. riksbankens penningoch valutapolitik
           </note>
-          <u who="per_jacobsson_ec04b2" xml:id="i-9604822c57236ea2-2" prev="i-b5f0b8847f1a45ea-2" n="46e47e6c">
+          <u who="per_jacobsson_ec04b2" xml:id="i-46e47e6c90b54c9e-8" prev="i-46e47e6c90b54c9e-7" n="46e47e6c">
             <seg n="d275ba3e">
               ning för sista veckan med 4 miljoner; för all del en bagatell.
               Om jag inte tar fel, uppgick den redovisade valutareserven enligt
@@ -5852,7 +5973,7 @@
           <note type="speaker" n="5ff891a2">
             Herr LARFORS (s):
           </note>
-          <u who="tage_larfors_0219f4" xml:id="i-613353d221a6a7cf-0" next="i-94ae60f1cdc39181-0" n="c9a85825">
+          <u who="tage_larfors_0219f4" xml:id="i-c9a858255ddea8fa-0" next="i-c9a858255ddea8fa-1" n="c9a85825">
             <seg n="4ec2547a">
               Herr talman! I sitt inlägg här i kammaren har herr Åkerlund särskilt
               uppehållit sig vid kronans yttre värde och ställt frågor till
@@ -5891,7 +6012,7 @@
             </seg>
           </u>
           <pb n="60" facs="https://betalab.kb.se/prot-1969--fk--16/prot_1969__fk__16-060.jp2/_view"/>
-          <note n="4c17187d">
+          <note type="date" n="24f6576c">
             Fredagen den 11 april 1969
           </note>
           <note n="57cf3c79">
@@ -5900,7 +6021,7 @@
           <note n="82a44438">
             Ang. riksbankens penningoch valutapolitik
           </note>
-          <u who="tage_larfors_0219f4" xml:id="i-94ae60f1cdc39181-0" prev="i-613353d221a6a7cf-0" n="c9a85825">
+          <u who="tage_larfors_0219f4" xml:id="i-c9a858255ddea8fa-1" prev="i-c9a858255ddea8fa-0" n="c9a85825">
             <seg n="6dd42e4c">
               för kan jag inte bedöma på annat sätt än att herr Åkerlund vill
               att vi skall inta två olika ställningar i denna situation. Vi
@@ -5934,7 +6055,7 @@
           <note type="speaker" n="c2abdee2">
             Herr ÅKERLUND (m):
           </note>
-          <u who="henrik_akerlund_72c3c2" xml:id="i-6694e3fd4ecd4c07-1" next="i-66ca647714063e5d-1" n="7c7ec456">
+          <u who="henrik_akerlund_72c3c2" xml:id="i-7c7ec45615655e68-4" next="i-7c7ec45615655e68-5" n="7c7ec456">
             <seg n="db7feed6">
               Herr talman! Först ett par ord om min ringa person. Det sägs
               alltid i detta sammanhang saker och ting som inte är korrekta,
@@ -5994,13 +6115,13 @@
           <note n="4718917e">
             62 Nr 16
           </note>
-          <note n="4c17187d">
+          <note type="date" n="24f6576c">
             Fredagen den 11 april 1969
           </note>
           <note n="82a44438">
             Ang. riksbankens penningoch valutapolitik
           </note>
-          <u who="henrik_akerlund_72c3c2" xml:id="i-66ca647714063e5d-1" prev="i-6694e3fd4ecd4c07-1" n="7c7ec456">
+          <u who="henrik_akerlund_72c3c2" xml:id="i-7c7ec45615655e68-5" prev="i-7c7ec45615655e68-4" n="7c7ec456">
             <seg n="2d9a2214">
               anledning att kritisera en politik som förts, när denna politik
               leder just till det önskade resultatet. Var skulle Frankrike ha
@@ -6016,7 +6137,7 @@
           <note type="speaker" n="5ff891a2">
             Herr LARFORS (s):
           </note>
-          <u who="tage_larfors_0219f4" xml:id="i-613353d221a6a7cf-1" next="i-94ae60f1cdc39181-1" n="c9a85825">
+          <u who="tage_larfors_0219f4" xml:id="i-c9a858255ddea8fa-2" next="i-c9a858255ddea8fa-6" n="c9a85825">
             <seg n="ca98f7a5">
               Herr talman! I den mån jag missbedömt herr Åkerlund och trott
               honom vara anhängare av ett återinförande av guldmyntfoten har
@@ -6089,22 +6210,13 @@
             röstar
           </note>
           <pb n="62" facs="https://betalab.kb.se/prot-1969--fk--16/prot_1969__fk__16-062.jp2/_view"/>
-          <note n="4c17187d">
+          <note type="date" n="24f6576c">
             Fredagen den 11 april 1969
           </note>
           <note n="088d9308">
             Nr 16 63
           </note>
-          <u who="tage_larfors_0219f4" xml:id="i-94ae60f1cdc39181-1" prev="i-613353d221a6a7cf-1" n="c9a85825">
-            <seg n="15cd529e">
-              Om vidgad information till riksdagen i valutapolitiska frågor
-            </seg>
-            <seg n="448234d2">
-              JAg
-            </seg>
-            <seg n="e51e6b6b">
-              Nej;
-            </seg>
+          <u who="tage_larfors_0219f4" xml:id="i-c9a858255ddea8fa-3" prev="i-c9a858255ddea8fa-2" n="c9a85825">
             <seg n="15cd529e">
               Om vidgad information till riksdagen i valutapolitiska frågor
             </seg>
@@ -6144,9 +6256,19 @@
             Den, som lägger bankoutskottets utlåtande nr 11 punkten 1 till
             handlingarna med godkännande av vad utskottet anfört, röstar
           </note>
+          <u who="tage_larfors_0219f4" xml:id="i-c9a858255ddea8fa-4" prev="i-c9a858255ddea8fa-2" n="c9a85825">
+            <seg n="448234d2">
+              JAg
+            </seg>
+          </u>
           <note n="75683988">
             Den, det ej vill, röstar
           </note>
+          <u who="tage_larfors_0219f4" xml:id="i-c9a858255ddea8fa-5" prev="i-c9a858255ddea8fa-2" n="c9a85825">
+            <seg n="e51e6b6b">
+              Nej;
+            </seg>
+          </u>
           <note n="fb68a5b1">
             Vinner Nej, lägges utskottets omförmälan till handlingarna med
             godkännande av vad som anförts i den av herr Stefanson och herr
@@ -6181,6 +6303,11 @@
           <note n="75d8e826">
             Punkterna 4 och 5 Vad utskottet hemställt bifölls.
           </note>
+          <u who="tage_larfors_0219f4" xml:id="i-c9a858255ddea8fa-6" prev="i-c9a858255ddea8fa-2" n="c9a85825">
+            <seg n="15cd529e">
+              Om vidgad information till riksdagen i valutapolitiska frågor
+            </seg>
+          </u>
           <note n="8a3f0c15">
             Föredrogs ånyo bankoutskottets utlåtande nr 12, i anledning av
             motioner om vidgad information till riksdagen i valutapolitiska
@@ -6210,7 +6337,7 @@
           <note type="speaker" n="c2abdee2">
             Herr ÅKERLUND (m):
           </note>
-          <u who="henrik_akerlund_72c3c2" xml:id="i-6694e3fd4ecd4c07-2" next="i-66ca647714063e5d-2" n="7c7ec456">
+          <u who="henrik_akerlund_72c3c2" xml:id="i-7c7ec45615655e68-6" next="i-7c7ec45615655e68-8" n="7c7ec456">
             <seg n="3a3be276">
               Herr talman! Det är kanske litet ovanligt att man tar till orda
               i fråga om ett
@@ -6220,10 +6347,10 @@
           <note n="45268825">
             64 Nr 16
           </note>
-          <note n="4c17187d">
+          <note type="date" n="24f6576c">
             Fredagen den 11 april 1969
           </note>
-          <u who="henrik_akerlund_72c3c2" xml:id="i-66ca647714063e5d-2" prev="i-6694e3fd4ecd4c07-2" n="7c7ec456">
+          <u who="henrik_akerlund_72c3c2" xml:id="i-7c7ec45615655e68-7" prev="i-7c7ec45615655e68-6" n="7c7ec456">
             <seg n="15cd529e">
               Om vidgad information till riksdagen i valutapolitiska frågor
             </seg>
@@ -6302,6 +6429,15 @@
               om man skulle tillämpa lågräntedoktrinen eller inte. Den hade
               lett till att den tidigare riksbankschefen Rooth avgått på hösten
             </seg>
+          </u>
+          <pb n="64" facs="https://betalab.kb.se/prot-1969--fk--16/prot_1969__fk__16-064.jp2/_view"/>
+          <note type="date" n="24f6576c">
+            Fredagen den 11 april 1969
+          </note>
+          <note n="0c382d8e">
+            Nr 16 65
+          </note>
+          <u who="henrik_akerlund_72c3c2" xml:id="i-7c7ec45615655e68-8" prev="i-7c7ec45615655e68-6" n="7c7ec456">
             <seg n="15cd529e">
               Om vidgad information till riksdagen i valutapolitiska frågor
             </seg>
@@ -6334,17 +6470,10 @@
               utskottets hemställan.
             </seg>
           </u>
-          <pb n="64" facs="https://betalab.kb.se/prot-1969--fk--16/prot_1969__fk__16-064.jp2/_view"/>
-          <note n="4c17187d">
-            Fredagen den 11 april 1969
-          </note>
-          <note n="0c382d8e">
-            Nr 16 65
-          </note>
           <note type="speaker" n="6b402d06">
             Herr JACOBSSON, GÖSTA, (m):
           </note>
-          <u who="per_jacobsson_ec04b2" xml:id="i-857c7daa6c9d247f-0" n="46e47e6c">
+          <u who="per_jacobsson_ec04b2" xml:id="i-46e47e6c90b54c9e-9" n="46e47e6c">
             <seg n="034ddcb3">
               Herr talman! Som motionär skall jag be att få säga några få ord.
               Min motion går ut på att vidgad information bör ges till riksdagen
@@ -6379,7 +6508,7 @@
           <note type="speaker" n="9bda1f35">
             Herr STÅHLE (s):
           </note>
-          <u who="nils_stahle_1a903c" xml:id="i-d02dbd27959d14a1-1" next="i-79c5514d2b0d3947-1" n="40d535fb">
+          <u who="nils_stahle_1a903c" xml:id="i-40d535fb9ead41a7-5" next="i-40d535fb9ead41a7-10" n="40d535fb">
             <seg n="a75cf45e">
               Herr talman! Herr Gösta Jacobsson har i sin motion I: 216, som
               han också här har talat för, önskat sig en vidgad information
@@ -6406,13 +6535,13 @@
           <note n="af02e4d6">
             66 Nr 16
           </note>
-          <note n="4c17187d">
+          <note type="date" n="24f6576c">
             Fredagen den 11 april 1969
           </note>
           <note n="2120c892">
             Ang. användande av riksbankens vinst för år 1968
           </note>
-          <u who="nils_stahle_1a903c" xml:id="i-79c5514d2b0d3947-1" prev="i-d02dbd27959d14a1-1" n="40d535fb">
+          <u who="nils_stahle_1a903c" xml:id="i-40d535fb9ead41a7-6" prev="i-40d535fb9ead41a7-5" n="40d535fb">
             <seg n="aaf252d2">
               förpliktelser som vårt land påtagit sig på valutaområdet är det
               naturligt att hithörande frågor blir föremål för riksdagens intresse.
@@ -6442,10 +6571,41 @@
               Med hänvisning till detta ber jag, herr talman, att få yrka bifall
               till utskottets hemställan.
             </seg>
+          </u>
+          <note n="22260900">
+            Efter härmed slutad överläggning bifölls vad utskottet i förevarande
+            utlåtande hemställt.
+          </note>
+          <note n="2120c892">
+            Ang. användande av riksbankens vinst för år 1968
+          </note>
+          <note n="af2e6468">
+            Föredrogs ånyo bankoutskottets memorial nr 13, om användande
+            av riksbankens vinst för år 1968.
+          </note>
+          <note n="2e6da697">
+            I riksstaten för budgetåret 1968/69 hade såsom inkomst på driftbudgeten
+          </note>
+          <u who="nils_stahle_1a903c" xml:id="i-40d535fb9ead41a7-7" prev="i-40d535fb9ead41a7-5" n="40d535fb">
             <seg n="fe2da0e9">
               under rubriken Riksbanksfonden upptagits ett belopp av 200 miljoner
               kronor.
             </seg>
+          </u>
+          <note n="0ca18d38">
+            Enligt den av fullmäktige i riksbanken till utskottet avgivna
+            berättelsen angående riksbankens tillstånd, rörelse och förvaltning
+            under år 1968 uppginge riksbankens nettovinst för nämnda år till
+            347 830 853 kronor 57 öre. Såsom balanserade vinstmedel från föregående
+            år hade redovisats ett belopp av 171 477 kronor 40 öre. Till förfogande
+            stående vinstmedel utgjorde sålunda 348 002 330 kronor 97 öre.
+          </note>
+          <note n="e84878fe">
+            Utskottet hade i det nu ifrågavarande memorialet på åberopade
+            grunder hemställt, att riksdagen måtte besluta, att av riksbankens
+            tillgängliga vinstmedel
+          </note>
+          <u who="nils_stahle_1a903c" xml:id="i-40d535fb9ead41a7-8" prev="i-40d535fb9ead41a7-5" n="40d535fb">
             <seg n="4e336986">
               a) ett belopp av 200 000 000 kronor skulle inlevereras till statsverket
               under budgetåret 1968/69;
@@ -6454,6 +6614,18 @@
               b) ett belopp av 148 000 000 kronor skulle överföras till kursdifferenskontot;
               och
             </seg>
+          </u>
+          <note n="1a78625a">
+            c) återstående belopp, 2330 kronor 97 öre, skulle kvarstå på
+            räkningen för odisponerade vinstmedel.
+          </note>
+          <note n="e4d864c6">
+            Reservation hade anförts av herrar Åkerlund (m), Strandberg (m)
+            och Regnéll (m), vilka ansett, att utskottets yttrande bort erhålla
+            den lydelse, reservationen visade, samt att utskottet bort hemställa,
+            att riksdagen måtte besluta, att av riksbankens tillgängliga vinstmedel
+          </note>
+          <u who="nils_stahle_1a903c" xml:id="i-40d535fb9ead41a7-9" prev="i-40d535fb9ead41a7-5" n="40d535fb">
             <seg n="aaf10b95">
               a) ett belopp av 300 000 000 kronor skulle inlevereras till statsverket
               under budgetåret 1968/69;
@@ -6462,6 +6634,26 @@
               b) ett belopp av 48 000 000 kronor skulle överföras till kursdifferenskontot;
               och
             </seg>
+          </u>
+          <note n="1a78625a">
+            c) återstående belopp, 2330 kronor 97 öre, skulle kvarstå på
+            räkningen för odisponerade vinstmedel.
+          </note>
+          <note n="f9041399">
+            Herr ÅKERLUND (m): Herr talman! Riksbanken hade under år 1968
+            en vinst av 348 miljoner kro-
+          </note>
+          <pb n="66" facs="https://betalab.kb.se/prot-1969--fk--16/prot_1969__fk__16-066.jp2/_view"/>
+          <note type="date" n="24f6576c">
+            Fredagen den 11 april 1969
+          </note>
+          <note n="bfa69bc6">
+            Nr 16 67
+          </note>
+          <note n="2120c892">
+            Ang. användande av riksbankens vinst för år 1968
+          </note>
+          <u who="nils_stahle_1a903c" xml:id="i-40d535fb9ead41a7-10" prev="i-40d535fb9ead41a7-5" n="40d535fb">
             <seg n="3618d8cf">
               nor. Vi har vid tidigare behandling av liknande ärenden alltid
               ansett att riksbankens nettovinst, sedan betryggande avskrivningar
@@ -6478,65 +6670,10 @@
               Vi yrkar alltså bifall till reservationen.
             </seg>
           </u>
-          <note n="22260900">
-            Efter härmed slutad överläggning bifölls vad utskottet i förevarande
-            utlåtande hemställt.
-          </note>
-          <note n="2120c892">
-            Ang. användande av riksbankens vinst för år 1968
-          </note>
-          <note n="af2e6468">
-            Föredrogs ånyo bankoutskottets memorial nr 13, om användande
-            av riksbankens vinst för år 1968.
-          </note>
-          <note n="2e6da697">
-            I riksstaten för budgetåret 1968/69 hade såsom inkomst på driftbudgeten
-          </note>
-          <note n="0ca18d38">
-            Enligt den av fullmäktige i riksbanken till utskottet avgivna
-            berättelsen angående riksbankens tillstånd, rörelse och förvaltning
-            under år 1968 uppginge riksbankens nettovinst för nämnda år till
-            347 830 853 kronor 57 öre. Såsom balanserade vinstmedel från föregående
-            år hade redovisats ett belopp av 171 477 kronor 40 öre. Till förfogande
-            stående vinstmedel utgjorde sålunda 348 002 330 kronor 97 öre.
-          </note>
-          <note n="e84878fe">
-            Utskottet hade i det nu ifrågavarande memorialet på åberopade
-            grunder hemställt, att riksdagen måtte besluta, att av riksbankens
-            tillgängliga vinstmedel
-          </note>
-          <note n="1a78625a">
-            c) återstående belopp, 2330 kronor 97 öre, skulle kvarstå på
-            räkningen för odisponerade vinstmedel.
-          </note>
-          <note n="e4d864c6">
-            Reservation hade anförts av herrar Åkerlund (m), Strandberg (m)
-            och Regnéll (m), vilka ansett, att utskottets yttrande bort erhålla
-            den lydelse, reservationen visade, samt att utskottet bort hemställa,
-            att riksdagen måtte besluta, att av riksbankens tillgängliga vinstmedel
-          </note>
-          <note n="1a78625a">
-            c) återstående belopp, 2330 kronor 97 öre, skulle kvarstå på
-            räkningen för odisponerade vinstmedel.
-          </note>
-          <note n="f9041399">
-            Herr ÅKERLUND (m): Herr talman! Riksbanken hade under år 1968
-            en vinst av 348 miljoner kro-
-          </note>
-          <pb n="66" facs="https://betalab.kb.se/prot-1969--fk--16/prot_1969__fk__16-066.jp2/_view"/>
-          <note n="4c17187d">
-            Fredagen den 11 april 1969
-          </note>
-          <note n="bfa69bc6">
-            Nr 16 67
-          </note>
-          <note n="2120c892">
-            Ang. användande av riksbankens vinst för år 1968
-          </note>
           <note type="speaker" n="9bda1f35">
             Herr STÅHLE (s):
           </note>
-          <u who="nils_stahle_1a903c" xml:id="i-d02dbd27959d14a1-2" next="i-79c5514d2b0d3947-2" n="40d535fb">
+          <u who="nils_stahle_1a903c" xml:id="i-40d535fb9ead41a7-11" next="i-40d535fb9ead41a7-13" n="40d535fb">
             <seg n="6f4de321">
               Herr talman! Reservanterna inom bankoutskottet till utskottets
               memorial nr 13 om användande av riksbankens vinst för år 1968
@@ -6570,17 +6707,19 @@
             Den, som bifaller vad bankoutskottet hemställt i sitt memorial
             nr 13, röstar
           </note>
-          <u who="nils_stahle_1a903c" xml:id="i-79c5514d2b0d3947-2" prev="i-d02dbd27959d14a1-2" n="40d535fb">
+          <u who="nils_stahle_1a903c" xml:id="i-40d535fb9ead41a7-12" prev="i-40d535fb9ead41a7-11" n="40d535fb">
             <seg n="2bd107ea">
               Jag
-            </seg>
-            <seg n="e51e6b6b">
-              Nej;
             </seg>
           </u>
           <note n="75683988">
             Den, det ej vill, röstar
           </note>
+          <u who="nils_stahle_1a903c" xml:id="i-40d535fb9ead41a7-13" prev="i-40d535fb9ead41a7-11" n="40d535fb">
+            <seg n="e51e6b6b">
+              Nej;
+            </seg>
+          </u>
           <note n="d962d53a">
             Vinner Nej, antages det förslag, som innefattas i den vid memorialet
             avgivna reservationen.
@@ -6666,7 +6805,7 @@
             933 i skrivelse till Kungl. Maj:t anhålla, att riksdagen under
             höstsessionen innevaran-
           </note>
-          <note n="4c17187d">
+          <note type="date" n="24f6576c">
             Fredagen den 11 april 1969
           </note>
           <note n="560f9535">
@@ -6681,7 +6820,7 @@
           <note type="speaker" n="823de211">
             Herr SKÅRMAN (fp):
           </note>
-          <u who="bo_skarman_a312f9" xml:id="i-ad05aebe5f52d6e6-0" next="i-eab927879dae2bfd-0" n="1025ac73">
+          <u who="bo_skarman_a312f9" xml:id="i-1025ac730040803b-0" next="i-1025ac730040803b-4" n="1025ac73">
             <seg n="ac7a3083">
               Herr talman! Om inte något oförutsett inträffar kommer den 31
               mars nästa år förbudet mot fasta bruttopriser på böcker och noter
@@ -6709,7 +6848,7 @@
             Den 31 mars 1970 är det emellertid definitivt slut med dispensgivningen,
             och förbudet mot bruttopriser på böcker m. m. träder i kraft.
           </note>
-          <u who="bo_skarman_a312f9" xml:id="i-eab927879dae2bfd-0" prev="i-ad05aebe5f52d6e6-0" n="1025ac73">
+          <u who="bo_skarman_a312f9" xml:id="i-1025ac730040803b-1" prev="i-1025ac730040803b-0" n="1025ac73">
             <seg n="06676ca5">
               Den litteraturstödsutredning, som efter bemyndigande på svenska
               flaggans dag förra året blivit tillsatt hinner inte avge något
@@ -6721,6 +6860,18 @@
               undantagande av böcker och musikalier från förbudet mot bruttopriser
               söka undvika att slå sönder det
             </seg>
+          </u>
+          <pb n="68" facs="https://betalab.kb.se/prot-1969--fk--16/prot_1969__fk__16-068.jp2/_view"/>
+          <note type="date" n="24f6576c">
+            Fredagen den 11 april 1969
+          </note>
+          <note n="a8b938dc">
+            Nr 16 69
+          </note>
+          <note n="fde50795">
+            Ang. bokhandelns dispens från bruttoprisförbudet, m. m.
+          </note>
+          <u who="bo_skarman_a312f9" xml:id="i-1025ac730040803b-2" prev="i-1025ac730040803b-0" n="1025ac73">
             <seg n="5cec4698">
               nuvarande distributionssystemet, innan litteraturstödsutredningen
               funnit något annat och bättre att sätta i stället. Vi anser oss
@@ -6760,6 +6911,11 @@
               vad professor af Trolle anfört, vilket redovisas på sid. 6 i utlåtandet.
               Han sä-
             </seg>
+          </u>
+          <note n="fade4c70">
+            5 Första kammarens protokoll 1969. Nr 16
+          </note>
+          <u who="bo_skarman_a312f9" xml:id="i-1025ac730040803b-3" prev="i-1025ac730040803b-0" n="1025ac73">
             <seg n="e85c6373">
               ger således: »Bruttoprissystemet inom bokdistributionen har först
               bedömts med utgångspunkt från de bedömningsnormer jag tillämpade
@@ -6796,6 +6952,18 @@
               Jag har därvid kommit till slutsatsen, att detta icke kan genomföras
               inom ramen för ett system,
             </seg>
+          </u>
+          <pb n="69" facs="https://betalab.kb.se/prot-1969--fk--16/prot_1969__fk__16-069.jp2/_view"/>
+          <note n="e820a436">
+            70 Nr 16
+          </note>
+          <note type="date" n="24f6576c">
+            Fredagen den 11 april 1969
+          </note>
+          <note n="fde50795">
+            Ang. bokhandelns dispens från bruttoprisförbudet, m. m.
+          </note>
+          <u who="bo_skarman_a312f9" xml:id="i-1025ac730040803b-4" prev="i-1025ac730040803b-0" n="1025ac73">
             <seg n="15badf4a">
               som i princip är fritt. Om man önskar övergå till ett fritt system,
               måste man samtidigt acceptera olägenheterna.»
@@ -6835,40 +7003,17 @@
               vid utlåtandet fogade reservationen.
             </seg>
           </u>
-          <pb n="68" facs="https://betalab.kb.se/prot-1969--fk--16/prot_1969__fk__16-068.jp2/_view"/>
-          <note n="4c17187d">
-            Fredagen den 11 april 1969
-          </note>
-          <note n="a8b938dc">
-            Nr 16 69
-          </note>
-          <note n="fde50795">
-            Ang. bokhandelns dispens från bruttoprisförbudet, m. m.
-          </note>
-          <note n="fade4c70">
-            5 Första kammarens protokoll 1969. Nr 16
-          </note>
-          <pb n="69" facs="https://betalab.kb.se/prot-1969--fk--16/prot_1969__fk__16-069.jp2/_view"/>
-          <note n="e820a436">
-            70 Nr 16
-          </note>
-          <note n="4c17187d">
-            Fredagen den 11 april 1969
-          </note>
-          <note n="fde50795">
-            Ang. bokhandelns dispens från bruttoprisförbudet, m. m.
-          </note>
           <note type="speaker" n="5a5c224b">
             Herr CARLSSON, ERIC, (cp):
           </note>
-          <u who="ingvar_carlsson_1cb98c" xml:id="i-fa6e7bfe99338511-0" next="i-064caad55bd9083d-0" n="4b070977"/>
+          <u who="ingvar_carlsson_1cb98c" xml:id="i-d65fd49b2b021eeb-0" next="i-d65fd49b2b021eeb-2" n="4b070977"/>
           <note n="de515ff2">
             Herr talman! Denna fridens eftermiddag här i kammaren skall jag
             inte förlänga debatten alltför mycket. Jag vill bara säga några
             ord i anledning av motionerna 1:794 av herr Bengtson m. fl. och
             II: 927 av herr Sundman m. fl.
           </note>
-          <u who="ingvar_carlsson_1cb98c" xml:id="i-064caad55bd9083d-0" prev="i-fa6e7bfe99338511-0" n="4b070977">
+          <u who="ingvar_carlsson_1cb98c" xml:id="i-d65fd49b2b021eeb-1" prev="i-d65fd49b2b021eeb-0" n="4b070977">
             <seg n="0b78bbde">
               Det gäller frågan om hur den framtida bokdistributionen skall
               te sig och hur den skall utformas under den övergångstid vi har
@@ -6901,6 +7046,18 @@
               olika områden är det fel att slå sönder ett bokhandelssystem som
               har stått som ett
             </seg>
+          </u>
+          <pb n="70" facs="https://betalab.kb.se/prot-1969--fk--16/prot_1969__fk__16-070.jp2/_view"/>
+          <note type="date" n="24f6576c">
+            Fredagen den 11 april 1969
+          </note>
+          <note n="9968c47d">
+            Nr 16 71
+          </note>
+          <note n="fde50795">
+            Ang. bokhandelns dispens från bruttoprisförbudet, m. m.
+          </note>
+          <u who="ingvar_carlsson_1cb98c" xml:id="i-d65fd49b2b021eeb-2" prev="i-d65fd49b2b021eeb-0" n="4b070977">
             <seg n="b9360a6b">
               exempel för många andra kulturländer. Det gäller här inte bara
               ett kommersiellt problem utan en kulturpolitisk angelägenhet av
@@ -6923,16 +7080,6 @@
               vilken vi ju också hoppas skall få en ökad spridning i vårt land.
             </seg>
           </u>
-          <pb n="70" facs="https://betalab.kb.se/prot-1969--fk--16/prot_1969__fk__16-070.jp2/_view"/>
-          <note n="4c17187d">
-            Fredagen den 11 april 1969
-          </note>
-          <note n="9968c47d">
-            Nr 16 71
-          </note>
-          <note n="fde50795">
-            Ang. bokhandelns dispens från bruttoprisförbudet, m. m.
-          </note>
           <note n="b3e25627">
             Herr talman! Med dessa få ord ber jag att få yrka bifall till
             motionerna nr 1:794 av herr Bengtson m fl. och 11: 927 av herr
@@ -6944,7 +7091,7 @@
           <note type="speaker" n="ce5ab595">
             Herr KARLSSON, GÖRAN, (s):
           </note>
-          <u who="eric_karlsson_f71251" xml:id="i-7d8ea27d87ba198c-0" next="i-52a18b3029183e48-0" n="d479a74f">
+          <u who="eric_karlsson_f71251" xml:id="i-832abb8fde54a13d-0" next="i-832abb8fde54a13d-2" n="d479a74f">
             <seg n="7d70662b">
               Herr talman! Jag vill gärna vitsorda att den svenska bokhandeln
               är välskött. Det är inte tal om annat än att den i det avseendet
@@ -7002,13 +7149,13 @@
           <note n="614bba37">
             T2 Nr 16
           </note>
-          <note n="4c17187d">
+          <note type="date" n="24f6576c">
             Fredagen den 11 april 1969
           </note>
           <note n="fde50795">
             Ang. bokhandelns dispens från bruttoprisförbudet, m. m.
           </note>
-          <u who="eric_karlsson_f71251" xml:id="i-52a18b3029183e48-0" prev="i-7d8ea27d87ba198c-0" n="d479a74f">
+          <u who="eric_karlsson_f71251" xml:id="i-832abb8fde54a13d-1" prev="i-832abb8fde54a13d-0" n="d479a74f">
             <seg n="91f354f0">
               ingen annan möjlighet än att gå på den linje som utskottet i
               detta fall har gått på.
@@ -7089,6 +7236,18 @@
               att den sittande utredningen, som nu skall studera frågan om litteraturstödet,
               kan tänkas
             </seg>
+          </u>
+          <pb n="72" facs="https://betalab.kb.se/prot-1969--fk--16/prot_1969__fk__16-072.jp2/_view"/>
+          <note type="date" n="24f6576c">
+            Fredagen den 11 april 1969
+          </note>
+          <note n="9599b411">
+            Nr 16 73
+          </note>
+          <note n="fde50795">
+            Ang. bokhandelns dispens från bruttoprisförbudet, m. m.
+          </note>
+          <u who="eric_karlsson_f71251" xml:id="i-832abb8fde54a13d-2" prev="i-832abb8fde54a13d-0" n="d479a74f">
             <seg n="17f87aa3">
               föreslå att vi skall göra exempelvis som man har gjort i Norge.
               Det är enligt min mening en lämplig väg att lösa frågan om stödet
@@ -7123,20 +7282,10 @@
               privata reglering försvunnit.»
             </seg>
           </u>
-          <pb n="72" facs="https://betalab.kb.se/prot-1969--fk--16/prot_1969__fk__16-072.jp2/_view"/>
-          <note n="4c17187d">
-            Fredagen den 11 april 1969
-          </note>
-          <note n="9599b411">
-            Nr 16 73
-          </note>
-          <note n="fde50795">
-            Ang. bokhandelns dispens från bruttoprisförbudet, m. m.
-          </note>
           <note type="speaker" n="fdc24d2d">
             Herr Kellgren säger vidare:
           </note>
-          <u who="unknown" xml:id="i-5de737667809c1e6-1" n="10241650">
+          <u who="unknown" xml:id="i-1024165050c40995-2" n="10241650">
             <seg n="ac8e91c7">
               »Jag är också övertygad om att när det gäller böcker — och på
               andra områden där man säljer olika kulturella varor — kan
@@ -7186,13 +7335,13 @@
           <note n="b58d5683">
             74 Nr 16
           </note>
-          <note n="4c17187d">
+          <note type="date" n="24f6576c">
             Fredagen den 11 april 1969
           </note>
           <note n="fde50795">
             Ang. bokhandelns dispens från bruttoprisförbudet, m. m.
           </note>
-          <u who="unknown" xml:id="i-a3566e2fbc4c9721-1" n="10241650">
+          <u who="unknown" xml:id="i-1024165050c40995-3" n="10241650">
             <seg n="b1dbd655">
               att det gäller att inte rasera ett beprövat system. Här är det
               inte fråga om att rasera ett system. Här är det fråga om att man
@@ -7238,7 +7387,7 @@
           <note type="speaker" n="823de211">
             Herr SKÅRMAN (fp):
           </note>
-          <u who="bo_skarman_a312f9" xml:id="i-ad05aebe5f52d6e6-1" next="i-eab927879dae2bfd-1" n="1025ac73">
+          <u who="bo_skarman_a312f9" xml:id="i-1025ac730040803b-5" next="i-1025ac730040803b-6" n="1025ac73">
             <seg n="8b45ef6c">
               Herr talman! Jag skall inte förlänga debatten mycket. Jag har
               absolut den övertygelsen att jag inte kan ändra på herr Göran
@@ -7281,7 +7430,7 @@
           <note n="fde50795">
             Ang. bokhandelns dispens från bruttoprisförbudet, m. m.
           </note>
-          <u who="bo_skarman_a312f9" xml:id="i-eab927879dae2bfd-1" prev="i-ad05aebe5f52d6e6-1" n="1025ac73">
+          <u who="bo_skarman_a312f9" xml:id="i-1025ac730040803b-6" prev="i-1025ac730040803b-5" n="1025ac73">
             <seg n="e02c1efd">
               Vi har nu en sista möjlighet. Bruttoprisförbudet kommer att upphöra
               den 31 mars nästa år. När kommissionärssystemet är upplöst och
@@ -7301,7 +7450,7 @@
           <note type="speaker" n="5a5c224b">
             Herr CARLSSON, ERIC, (cp):
           </note>
-          <u who="ingvar_carlsson_1cb98c" xml:id="i-507815f30edf593c-0" n="4b070977">
+          <u who="ingvar_carlsson_1cb98c" xml:id="i-d65fd49b2b021eeb-3" n="4b070977">
             <seg n="eed373f3">
               Herr talman! Den motion som jag har talat för och yrkat bifall
               till är tillkommen genom medverkan av en erkänd kulturarbetare
@@ -7356,7 +7505,7 @@
           <note type="speaker" n="ce5ab595">
             Herr KARLSSON, GÖRAN, (s):
           </note>
-          <u who="eric_karlsson_f71251" xml:id="i-7d8ea27d87ba198c-1" next="i-52a18b3029183e48-1" n="d479a74f">
+          <u who="eric_karlsson_f71251" xml:id="i-832abb8fde54a13d-3" next="i-832abb8fde54a13d-4" n="d479a74f">
             <seg n="9622bef5">
               Herr talman! Som herr Eric Carlsson kanske hörde inledde jag
               mitt anförande nyss med att ge den svenska bokhandeln en eloge
@@ -7375,13 +7524,13 @@
           <note n="6ad1db55">
             76 Nr 16
           </note>
-          <note n="4c17187d">
+          <note type="date" n="24f6576c">
             Fredagen den 11 april 1969
           </note>
           <note n="fde50795">
             Ang. bokhandelns dispens från bruttoprisförbudet, m. m.
           </note>
-          <u who="eric_karlsson_f71251" xml:id="i-52a18b3029183e48-1" prev="i-7d8ea27d87ba198c-1" n="d479a74f">
+          <u who="eric_karlsson_f71251" xml:id="i-832abb8fde54a13d-4" prev="i-832abb8fde54a13d-3" n="d479a74f">
             <seg n="c15f64cf">
               ta i världen, Detta är den avigsida vi har fått dras med på grund
               av det rådande prissättningssystemet, där man tillämpar bruttopriser.
@@ -7430,7 +7579,7 @@
           <note type="speaker" n="5a5c224b">
             Herr CARLSSON, ERIC, (cp):
           </note>
-          <u who="ingvar_carlsson_1cb98c" xml:id="i-507815f30edf593c-1" n="4b070977">
+          <u who="ingvar_carlsson_1cb98c" xml:id="i-d65fd49b2b021eeb-4" n="4b070977">
             <seg n="6247a22f">
               Herr talman! Hur många kulturarbetarna är i vår krets vet jag
               inte. Vi har dock inte som herr Göran Karlsson politiserat dem,
@@ -7462,7 +7611,7 @@
           <note type="speaker" n="ce5ab595">
             Herr KARLSSON, GÖRAN, (s):
           </note>
-          <u who="eric_karlsson_f71251" xml:id="i-7d8ea27d87ba198c-2" next="i-52a18b3029183e48-2" n="d479a74f">
+          <u who="eric_karlsson_f71251" xml:id="i-832abb8fde54a13d-5" next="i-832abb8fde54a13d-7" n="d479a74f">
             <seg n="3ef8bac2">
               Herr talman! Jag vill bara notera att herr Eric Carlsson som
               »kulturkonsumenternas företrädare» här i riksdagen vill behålla
@@ -7470,7 +7619,7 @@
             </seg>
           </u>
           <pb n="76" facs="https://betalab.kb.se/prot-1969--fk--16/prot_1969__fk__16-076.jp2/_view"/>
-          <note n="4c17187d">
+          <note type="date" n="24f6576c">
             Fredagen den 11 april 1969
           </note>
           <note n="35645d24">
@@ -7516,17 +7665,19 @@
             Den, som bifaller vad tredje lagutskottet hemställt i sitt utlåtande
             nr 16 i vad gäller motionerna I: 804 och II: 933, röstar
           </note>
-          <u who="eric_karlsson_f71251" xml:id="i-52a18b3029183e48-2" prev="i-7d8ea27d87ba198c-2" n="d479a74f">
+          <u who="eric_karlsson_f71251" xml:id="i-832abb8fde54a13d-6" prev="i-832abb8fde54a13d-5" n="d479a74f">
             <seg n="c6fb31c6">
               Ja;
-            </seg>
-            <seg n="e51e6b6b">
-              Nej;
             </seg>
           </u>
           <note n="75683988">
             Den, det ej vill, röstar
           </note>
+          <u who="eric_karlsson_f71251" xml:id="i-832abb8fde54a13d-7" prev="i-832abb8fde54a13d-5" n="d479a74f">
+            <seg n="e51e6b6b">
+              Nej;
+            </seg>
+          </u>
           <note n="9e644527">
             Vinner Nej, antages det förslag, som innefattas i den vid utlåtandet
             avgivna reservationen, såvitt nu är i fråga.
@@ -7592,7 +7743,7 @@
           <note n="d7911dc2">
             78 Nr 16
           </note>
-          <note n="4c17187d">
+          <note type="date" n="24f6576c">
             Fredagen den 11 april 1969
           </note>
           <note n="34d88c28">
@@ -7614,7 +7765,7 @@
           <note type="speaker" n="f3c2a633">
             Herr OLSSON, ERNST, (cp):
           </note>
-          <u who="sven_olsson_b931b6" xml:id="i-7cf6018229384243-0" n="4e0699e6">
+          <u who="sven_olsson_b931b6" xml:id="i-6b86a1a8816502e1-0" n="4e0699e6">
             <seg n="3c801cfa">
               Herr talman! Tankegången i motionerna I: 879 och II: 996 är att
               man vill skapa förutsättningar för hemmafruar att mot erläggande
@@ -7639,7 +7790,7 @@
           <note type="speaker" n="083b2803">
             Herr KARLSSON, HELGE, (s):
           </note>
-          <u who="eric_karlsson_f71251" xml:id="i-7d8ea27d87ba198c-3" next="i-52a18b3029183e48-3" n="d479a74f">
+          <u who="eric_karlsson_f71251" xml:id="i-832abb8fde54a13d-8" next="i-832abb8fde54a13d-10" n="d479a74f">
             <seg n="22839e1e">
               Herr talman! De grupper som herr Ernst Olsson nyss berört och
               som avses i reservationen har ett ganska hyggligt försäkringsskydd.
@@ -7690,16 +7841,13 @@
             först på bifall till utskottets hemställan samt
           </note>
           <pb n="78" facs="https://betalab.kb.se/prot-1969--fk--16/prot_1969__fk__16-078.jp2/_view"/>
-          <note n="4c17187d">
+          <note type="date" n="24f6576c">
             Fredagen den 11 april 1969
           </note>
           <note n="04caea7d">
             Nr 16 79
           </note>
-          <u who="eric_karlsson_f71251" xml:id="i-52a18b3029183e48-3" prev="i-7d8ea27d87ba198c-3" n="d479a74f">
-            <seg n="d0a36b41">
-              Om en spridning av arbetstiden för att minska trafiktopparna
-            </seg>
+          <u who="eric_karlsson_f71251" xml:id="i-832abb8fde54a13d-9" prev="i-832abb8fde54a13d-8" n="d479a74f">
             <seg n="d0a36b41">
               Om en spridning av arbetstiden för att minska trafiktopparna
             </seg>
@@ -7754,6 +7902,11 @@
           <note n="12f89af5">
             Vad utskottet i dessa utlåtanden hemställt bifölls.
           </note>
+          <u who="eric_karlsson_f71251" xml:id="i-832abb8fde54a13d-10" prev="i-832abb8fde54a13d-8" n="d479a74f">
+            <seg n="d0a36b41">
+              Om en spridning av arbetstiden för att minska trafiktopparna
+            </seg>
+          </u>
           <note n="55fc402b">
             Föredrogs ånyo allmänna beredningsutskottets utlåtande nr 24,
             i anledning av motion om en spridning av arbetstiden för att minska
@@ -7775,7 +7928,7 @@
           <note type="speaker" n="ac1be2d7">
             Herr BERGLUND (s):
           </note>
-          <u who="frida_berglund_51a087" xml:id="i-d530adee49305740-0" next="i-b6888d43b537b2c2-0" n="e63231fd">
+          <u who="frida_berglund_51a087" xml:id="i-51072b3a6574c767-0" next="i-51072b3a6574c767-4" n="e63231fd">
             <seg n="fbc7ccfd">
               Herr talman! Var och en som en morgon eller kväll sitter i en
               bilkö märker att en resa som i vanliga fall tar tio minuter förlängs
@@ -7801,10 +7954,10 @@
           <note n="09f33e5d">
             80 Nr 16
           </note>
-          <note n="4c17187d">
+          <note type="date" n="24f6576c">
             Fredagen den 11 april 1969
           </note>
-          <u who="frida_berglund_51a087" xml:id="i-b6888d43b537b2c2-0" prev="i-d530adee49305740-0" n="e63231fd">
+          <u who="frida_berglund_51a087" xml:id="i-51072b3a6574c767-1" prev="i-51072b3a6574c767-0" n="e63231fd">
             <seg n="d0a36b41">
               Om en spridning av arbetstiden för att minska trafiktopparna
             </seg>
@@ -7888,6 +8041,15 @@
               och man får nog lov att i framtiden göra någonting även på detta
               område.
             </seg>
+          </u>
+          <pb n="80" facs="https://betalab.kb.se/prot-1969--fk--16/prot_1969__fk__16-080.jp2/_view"/>
+          <note type="date" n="24f6576c">
+            Fredagen den 11 april 1969
+          </note>
+          <note n="d6c53b93">
+            Nr 16 81
+          </note>
+          <u who="frida_berglund_51a087" xml:id="i-51072b3a6574c767-2" prev="i-51072b3a6574c767-0" n="e63231fd">
             <seg n="da3f398a">
               Om statens övertagande av kostnaderna för skador på grund av
               alkoholbruk
@@ -7901,22 +8063,7 @@
               För dagen är läget sådant att frågan faller, men detta är ett
               fält där det förr eller senare måste ske ett samhällsingripande.
             </seg>
-            <seg n="da3f398a">
-              Om statens övertagande av kostnaderna för skador på grund av
-              alkoholbruk
-            </seg>
-            <seg n="d99378e4">
-              övertagande av alla kostnader för skador som uppkomme på grund
-              av alkoholbruket.
-            </seg>
           </u>
-          <pb n="80" facs="https://betalab.kb.se/prot-1969--fk--16/prot_1969__fk__16-080.jp2/_view"/>
-          <note n="4c17187d">
-            Fredagen den 11 april 1969
-          </note>
-          <note n="d6c53b93">
-            Nr 16 81
-          </note>
           <note n="f0a97a81">
             Häri instämde fru Lindström (s).
           </note>
@@ -7924,6 +8071,12 @@
             Efter härmed slutad överläggning bifölls vad utskottet i förevarande
             utlåtande hemställt.
           </note>
+          <u who="frida_berglund_51a087" xml:id="i-51072b3a6574c767-3" prev="i-51072b3a6574c767-0" n="e63231fd">
+            <seg n="da3f398a">
+              Om statens övertagande av kostnaderna för skador på grund av
+              alkoholbruk
+            </seg>
+          </u>
           <note n="cde8f934">
             Föredrogs ånyo allmänna &lt;beredningsutskottets utlåtande nr 25,
             i anledning av motioner om statens övertagande av alla kostnader
@@ -7951,10 +8104,16 @@
             till motionerna I: 21 och II: 27 i skrivelse till Kungl. Maj:t
             måtte anhålla om utredning och förslag till statens
           </note>
+          <u who="frida_berglund_51a087" xml:id="i-51072b3a6574c767-4" prev="i-51072b3a6574c767-0" n="e63231fd">
+            <seg n="d99378e4">
+              övertagande av alla kostnader för skador som uppkomme på grund
+              av alkoholbruket.
+            </seg>
+          </u>
           <note type="speaker" n="b1dd9f87">
             Herr PETERSON, ERIC, (fp):
           </note>
-          <u who="eric_peterson_1f360f" xml:id="i-ec5b9d9b627f942a-0" n="79d7c7ad">
+          <u who="eric_peterson_1f360f" xml:id="i-79d7c7ad321fc382-0" n="79d7c7ad">
             <seg n="d1265010">
               Herr talman! Detta är en av de mest intressanta men också mest
               komplicerade motioner som vi haft att behandla i riksdagen. Det
@@ -7989,7 +8148,7 @@
           <note type="speaker" n="dee7b797">
             Herr CARLSSON, OSCAR, (s):
           </note>
-          <u who="ingvar_carlsson_1cb98c" xml:id="i-fa6e7bfe99338511-1" next="i-064caad55bd9083d-1" n="4b070977">
+          <u who="ingvar_carlsson_1cb98c" xml:id="i-d65fd49b2b021eeb-5" next="i-d65fd49b2b021eeb-9" n="4b070977">
             <seg n="a0ea20aa">
               Herr talman! Jag skall vara lika kortfattad som herr Peterson
               i detta ärende.
@@ -8007,10 +8166,10 @@
           <note n="3e98e4f0">
             82 Nr 16
           </note>
-          <note n="4c17187d">
+          <note type="date" n="24f6576c">
             Fredagen den 11 april 1969
           </note>
-          <u who="ingvar_carlsson_1cb98c" xml:id="i-064caad55bd9083d-1" prev="i-fa6e7bfe99338511-1" n="4b070977">
+          <u who="ingvar_carlsson_1cb98c" xml:id="i-d65fd49b2b021eeb-6" prev="i-d65fd49b2b021eeb-5" n="4b070977">
             <seg n="da3f398a">
               Om statens övertagande av kostnaderna för skador på grund av
               alkoholbruk
@@ -8027,13 +8186,6 @@
               allmänna översyn som vi alla önskar. Vi hoppas att den också skall
               avlämna förslag i ärendet.
             </seg>
-            <seg n="2bd107ea">
-              Jag
-            </seg>
-            <seg n="e51e6b6b">
-              Nej;
-            </seg>
-            <seg n="b08676fd"/>
           </u>
           <note n="bd0b2d2f">
             Herr talman! Jag yrkar bifall till utskottets hemställan.
@@ -8056,9 +8208,19 @@
             Den, som bifaller vad allmänna beredningsutskottet hemställt
             i sitt utlåtande nr 25, röstar
           </note>
+          <u who="ingvar_carlsson_1cb98c" xml:id="i-d65fd49b2b021eeb-7" prev="i-d65fd49b2b021eeb-5" n="4b070977">
+            <seg n="2bd107ea">
+              Jag
+            </seg>
+          </u>
           <note n="75683988">
             Den, det ej vill, röstar
           </note>
+          <u who="ingvar_carlsson_1cb98c" xml:id="i-d65fd49b2b021eeb-8" prev="i-d65fd49b2b021eeb-5" n="4b070977">
+            <seg n="e51e6b6b">
+              Nej;
+            </seg>
+          </u>
           <note n="dd2e0b85">
             Vinner Nej, antages det förslag, som innefattas i den vid utlåtandet
             avgivna reservationen.
@@ -8127,7 +8289,7 @@
             arbetskonflikt, m. m.;
           </note>
           <pb n="82" facs="https://betalab.kb.se/prot-1969--fk--16/prot_1969__fk__16-082.jp2/_view"/>
-          <note n="4c17187d">
+          <note type="date" n="24f6576c">
             Fredagen den 11 april 1969
           </note>
           <note n="8492e8a0">
@@ -8196,6 +8358,7 @@
           <note n="7e34c124">
             av motioner om deltidsjord-
           </note>
+          <u who="ingvar_carlsson_1cb98c" xml:id="i-d65fd49b2b021eeb-9" prev="i-d65fd49b2b021eeb-5" n="4b070977"/>
           <note n="8483ded2">
             Nr 16 83
           </note>
@@ -8280,7 +8443,7 @@
             enkla fråga denna dag framställts av fru Lundblad, Grethe, (s)
             till statsrådet fru Odhnoff:
           </note>
-          <u who="margit_lundblad_34cdc1" xml:id="i-8b1c38fe4a68b057-0" next="i-e57a69c72d4395dd-0" n="988bb07b">
+          <u who="margit_lundblad_34cdc1" xml:id="i-c3b630f91ed32afc-0" next="i-c3b630f91ed32afc-1" n="988bb07b">
             <seg n="43eec906">
               »Anser Statsrådet att en laglig möjlighet för barnavårdsnämnderna
               att kunna ålägga föräldrar eller annan fostrare att genomgå läkarundersökning
@@ -8288,7 +8451,7 @@
             </seg>
           </u>
           <pb n="83" facs="https://betalab.kb.se/prot-1969--fk--16/prot_1969__fk__16-083.jp2/_view"/>
-          <note n="388b6497">
+          <note type="date" n="651a3299">
             84 Nr 16 Fredagen den 11 april 1969
           </note>
           <note n="dba17978">
@@ -8300,7 +8463,7 @@
             sammanbarnavårdslagens $ 25 mom. a kunna träde avslutades kl.
             15.21.
           </note>
-          <u who="margit_lundblad_34cdc1" xml:id="i-e57a69c72d4395dd-0" prev="i-8b1c38fe4a68b057-0" n="988bb07b">
+          <u who="margit_lundblad_34cdc1" xml:id="i-c3b630f91ed32afc-1" prev="i-c3b630f91ed32afc-0" n="988bb07b">
             <seg n="d192a82d">
               vidtaga åtgärder innan barn utsättes
             </seg>

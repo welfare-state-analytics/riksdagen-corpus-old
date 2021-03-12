@@ -20,7 +20,7 @@
     <encodingDesc>
       <editorialDecl>
         <correction>
-          <p>Some data curation was done. It is documented in db/curation/instances</p>
+          <p>Some data curation was done. It is documented in input/curation/instances</p>
         </correction>
       </editorialDecl>
     </encodingDesc>
@@ -61,6 +61,7 @@
       </front>
       <body>
         <div>
+          <pb n="0" facs="https://betalab.kb.se/prot-197980--108/prot_197980__108-000.jp2/_view"/>
           <note n="e9b9f586"/>
           <note n="6d588f10">
             Riksdagens protokoll
@@ -70,7 +71,7 @@
             1979/80:105-108 19-25 mars
           </note>
           <note n="e9b9f586"/>
-          <note n="a55cc88d">
+          <note type="date" n="9dad8a78">
             Debatter m. m. Onsdagen den 19 mars
           </note>
           <note n="d38588ec">
@@ -416,7 +417,7 @@
           <note n="bc862cf4">
             1979/80:108
           </note>
-          <note n="f11c4a54">
+          <note type="date" n="49a01682">
             Tisdagen den 25 mars Kl. 15.00
           </note>
           <note n="3afadc00">
@@ -511,7 +512,7 @@
           <note type="speaker" n="e8ac45cf">
             LENNART PETTERSSON (s):
           </note>
-          <u who="lennart_pettersson_222185" xml:id="i-3f906a0cadda5f6f-0" n="f15d1412">
+          <u who="lennart_pettersson_222185" xml:id="i-f15d141212b03d4a-0" n="f15d1412">
             <seg n="a0831f27">
               Herr talman! Jag ber att få tacka utbildningsministern för svaret.
               Den anställningssituation som de timarvoderade lärarna har vid
@@ -572,7 +573,7 @@
           <note type="speaker" n="e8ac45cf">
             LENNART PETTERSSON (s):
           </note>
-          <u who="lennart_pettersson_222185" xml:id="i-a8e27092118143fd-0" next="i-fd805d57c86d59dc-0" n="f15d1412">
+          <u who="lennart_pettersson_222185" xml:id="i-f15d141212b03d4a-1" next="i-f15d141212b03d4a-4" n="f15d1412">
             <seg n="ccd671d9">
               Herr talman! Utbildningsministern gav ett mycket kort svar. Han
               kunde kanske ha förlängt sin replik en aning genom att tala om
@@ -584,21 +585,29 @@
               de timlärare som går år efter år med full tjänst. Den kategorin
               anställda skiljer
             </seg>
-            <seg n="b119e98a"/>
+          </u>
+          <pb n="6" facs="https://betalab.kb.se/prot-197980--108/prot_197980__108-006.jp2/_view"/>
+          <u who="lennart_pettersson_222185" xml:id="i-f15d141212b03d4a-2" prev="i-f15d141212b03d4a-1" n="f15d1412">
             <seg n="b119e98a"/>
             <seg n="ed8f51d5">
               sig så dramatiskt från alla andra kategorier anställda i avseende
               på trygghet.
             </seg>
           </u>
-          <pb n="6" facs="https://betalab.kb.se/prot-197980--108/prot_197980__108-006.jp2/_view"/>
           <note n="ddad9fb6">
             Överläggningen var härmed avslutad.
           </note>
-          <u who="lennart_pettersson_222185" xml:id="i-fd805d57c86d59dc-0" prev="i-a8e27092118143fd-0" n="f15d1412">
+          <u who="lennart_pettersson_222185" xml:id="i-f15d141212b03d4a-3" prev="i-f15d141212b03d4a-1" n="f15d1412">
             <seg n="3c37397a">
               $3 Om visning i Sverige av viss utställning om vikingarna
             </seg>
+          </u>
+          <note n="16c33a88">
+            Utbildningsministern JAN-ERIK WIKSTRÖM erhöll ordet för att besvara
+            Daniel Tarschys (fp) den 29 februari anmälda fråga, 1979/80:360,
+            och anförde:
+          </note>
+          <u who="lennart_pettersson_222185" xml:id="i-f15d141212b03d4a-4" prev="i-f15d141212b03d4a-1" n="f15d1412">
             <seg n="e381efb8">
               Herr talman! Daniel Tarschys har frågat mig om regeringen är
               beredd att verka för att den utställning om vikingar som nu visas
@@ -635,15 +644,10 @@
               till att den kommer till stånd.
             </seg>
           </u>
-          <note n="16c33a88">
-            Utbildningsministern JAN-ERIK WIKSTRÖM erhöll ordet för att besvara
-            Daniel Tarschys (fp) den 29 februari anmälda fråga, 1979/80:360,
-            och anförde:
-          </note>
           <note type="speaker" n="f82ba687">
             DANIEL TARSCHYS (fp):
           </note>
-          <u who="daniel_tarschys_165695" xml:id="i-66365551938c361b-0" next="i-b3f64b71e19b3be6-0" n="9ef171a5">
+          <u who="daniel_tarschys_165695" xml:id="i-9ef171a518d5b59e-0" next="i-9ef171a518d5b59e-4" n="9ef171a5">
             <seg n="d85d0e8b">
               Herr talman! Det är en oerhört märklig utställning som f. n.
               pågår i London och som enligt planerna sedan skall flyttas till
@@ -670,14 +674,34 @@
           <note type="date" n="259e3924">
             Tisdagen den 25 mars 1980
           </note>
-          <u who="daniel_tarschys_165695" xml:id="i-b3f64b71e19b3be6-0" prev="i-66365551938c361b-0" n="9ef171a5">
+          <u who="daniel_tarschys_165695" xml:id="i-9ef171a518d5b59e-1" prev="i-9ef171a518d5b59e-0" n="9ef171a5">
             <seg n="4690229a">
               Om visning i Sverige av viss utställning om viking-
             </seg>
-            <seg n="b119e98a"/>
+          </u>
+          <note n="c28f63e0">
+            arna
+          </note>
+          <note n="6f017917">
+            143
+          </note>
+          <pb n="7" facs="https://betalab.kb.se/prot-197980--108/prot_197980__108-007.jp2/_view"/>
+          <u who="daniel_tarschys_165695" xml:id="i-9ef171a518d5b59e-2" prev="i-9ef171a518d5b59e-0" n="9ef171a5"/>
+          <note n="04300279">
+            Nr 108
+          </note>
+          <note type="date" n="259e3924">
+            Tisdagen den 25 mars 1980
+          </note>
+          <u who="daniel_tarschys_165695" xml:id="i-9ef171a518d5b59e-3" prev="i-9ef171a518d5b59e-0" n="9ef171a5">
             <seg n="03af3266">
               Om statsbidrag till studieförbunden för verksamhet i skolan
             </seg>
+          </u>
+          <note n="d768eb04">
+            144
+          </note>
+          <u who="daniel_tarschys_165695" xml:id="i-9ef171a518d5b59e-4" prev="i-9ef171a518d5b59e-0" n="9ef171a5">
             <seg n="fd3516fd">
               kommer till stånd i Sverige. Möjligen tycker jag det är litet
               oklart hur det skall kunna ske. Han säger i svaret att ett ställningstagande
@@ -697,26 +721,10 @@
               intresserad av att utställningen kan visas här i Norden.
             </seg>
           </u>
-          <note n="c28f63e0">
-            arna
-          </note>
-          <note n="6f017917">
-            143
-          </note>
-          <pb n="7" facs="https://betalab.kb.se/prot-197980--108/prot_197980__108-007.jp2/_view"/>
-          <note n="04300279">
-            Nr 108
-          </note>
-          <note type="date" n="259e3924">
-            Tisdagen den 25 mars 1980
-          </note>
-          <note n="d768eb04">
-            144
-          </note>
           <note type="speaker" n="f82ba687">
             DANIEL TARSCHYS (fp):
           </note>
-          <u who="daniel_tarschys_165695" xml:id="i-66365551938c361b-1" next="i-b3f64b71e19b3be6-1" n="9ef171a5">
+          <u who="daniel_tarschys_165695" xml:id="i-9ef171a518d5b59e-5" next="i-9ef171a518d5b59e-8" n="9ef171a5">
             <seg n="68ef0b78">
               Herr talman! Jag är tacksam för den preciseringen, och jag hoppas
               nu att man inom museerna uppmärksammar att regeringen genom det
@@ -727,10 +735,17 @@
           <note n="ddad9fb6">
             Överläggningen var härmed avslutad.
           </note>
-          <u who="daniel_tarschys_165695" xml:id="i-b3f64b71e19b3be6-1" prev="i-66365551938c361b-1" n="9ef171a5">
+          <u who="daniel_tarschys_165695" xml:id="i-9ef171a518d5b59e-6" prev="i-9ef171a518d5b59e-5" n="9ef171a5">
             <seg n="af2fe3d2">
               $ 4 Om statsbidrag till studieförbunden för verksamhet i skolan
             </seg>
+          </u>
+          <note n="44d98631">
+            Utbildningsministern JAN-ERIK WIKSTRÖM erhöll ordet för att besvara
+            Iris Mårtenssons (s) den 19 mars anmälda fråga, 1979/80:384, till
+            statsrådet Britt Mogård, och anförde:
+          </note>
+          <u who="daniel_tarschys_165695" xml:id="i-9ef171a518d5b59e-7" prev="i-9ef171a518d5b59e-5" n="9ef171a5">
             <seg n="c0cb19a7">
               Herr talman! Iris Mårtensson har frågat statsrådet Britt Mogård
               om hon anser att det är tillfredsställande med bestämmelser som
@@ -759,18 +774,13 @@
               (SOU 1979:85) föreslagit en friare resursanvändning för studieförbunden.
               Förslaget är f. n. ute på remiss.
             </seg>
-            <seg n="b119e98a"/>
           </u>
-          <note n="44d98631">
-            Utbildningsministern JAN-ERIK WIKSTRÖM erhöll ordet för att besvara
-            Iris Mårtenssons (s) den 19 mars anmälda fråga, 1979/80:384, till
-            statsrådet Britt Mogård, och anförde:
-          </note>
           <pb n="8" facs="https://betalab.kb.se/prot-197980--108/prot_197980__108-008.jp2/_view"/>
+          <u who="daniel_tarschys_165695" xml:id="i-9ef171a518d5b59e-8" prev="i-9ef171a518d5b59e-5" n="9ef171a5"/>
           <note type="speaker" n="e21223ae">
             IRIS MÅRTENSSON (s):
           </note>
-          <u who="iris_martensson_e7f823" xml:id="i-8a29ea2b68e55b02-0" next="i-5a7e6426e393576d-0" n="e63e7558">
+          <u who="iris_martensson_e7f823" xml:id="i-e63e7558ed858732-0" next="i-e63e7558ed858732-3" n="e63e7558">
             <seg n="608b0251">
               Herr talman! Jag vill först tacka utbildningsministern för svaret.
             </seg>
@@ -844,17 +854,17 @@
           <note type="date" n="259e3924">
             Tisdagen den 25 mars 1980
           </note>
-          <u who="iris_martensson_e7f823" xml:id="i-5a7e6426e393576d-0" prev="i-8a29ea2b68e55b02-0" n="e63e7558">
+          <u who="iris_martensson_e7f823" xml:id="i-e63e7558ed858732-1" prev="i-e63e7558ed858732-0" n="e63e7558">
             <seg n="03af3266">
               Om statsbidrag till studieförbunden för verksamhet i skolan
             </seg>
-            <seg n="b119e98a"/>
-            <seg n="b119e98a"/>
           </u>
           <note n="03b532c9">
             145
           </note>
+          <u who="iris_martensson_e7f823" xml:id="i-e63e7558ed858732-2" prev="i-e63e7558ed858732-0" n="e63e7558"/>
           <pb n="9" facs="https://betalab.kb.se/prot-197980--108/prot_197980__108-009.jp2/_view"/>
+          <u who="iris_martensson_e7f823" xml:id="i-e63e7558ed858732-3" prev="i-e63e7558ed858732-0" n="e63e7558"/>
           <note n="04300279">
             Nr 108
           </note>
@@ -873,7 +883,7 @@
           <note type="speaker" n="e21223ae">
             IRIS MÅRTENSSON (s):
           </note>
-          <u who="iris_martensson_e7f823" xml:id="i-1b82378a9fd5ee7b-0" n="e63e7558">
+          <u who="iris_martensson_e7f823" xml:id="i-e63e7558ed858732-4" n="e63e7558">
             <seg n="be8770ff">
               Herr talman! Det finns också en annan aspekt, nämligen studiecirklarnas
               längd, och jag skulle därför vilja ställa ytterligare en fråga
@@ -897,7 +907,7 @@
           <note type="speaker" n="e21223ae">
             IRIS MÅRTENSSON (s):
           </note>
-          <u who="iris_martensson_e7f823" xml:id="i-8a29ea2b68e55b02-1" next="i-5a7e6426e393576d-1" n="e63e7558">
+          <u who="iris_martensson_e7f823" xml:id="i-e63e7558ed858732-5" next="i-e63e7558ed858732-20" n="e63e7558">
             <seg n="fa89b77f">
               Herr talman! I dagens läge innan folkbildningsutredningen är
               klar kan man ju på vissa områden och i vissa skolor tänka sig
@@ -921,7 +931,7 @@
             Gunnar Biörcks i Värmdö (m) den 22 februari anmälda interpellation,
             1979/80:152, och anförde:
           </note>
-          <u who="iris_martensson_e7f823" xml:id="i-5a7e6426e393576d-1" prev="i-8a29ea2b68e55b02-1" n="e63e7558">
+          <u who="iris_martensson_e7f823" xml:id="i-e63e7558ed858732-6" prev="i-e63e7558ed858732-5" n="e63e7558">
             <seg n="e92fa688">
               Herr talman! Gunnar Biörck i Värmdö har frågat mig om jag, nu
               eller senare, avser att utreda den svenska läkarutbildningen på
@@ -945,7 +955,9 @@
               Det pågående översynsarbetet inom UHÄ kommer inte att beröra
             </seg>
             <seg n="b119e98a"/>
-            <seg n="b119e98a"/>
+          </u>
+          <pb n="10" facs="https://betalab.kb.se/prot-197980--108/prot_197980__108-010.jp2/_view"/>
+          <u who="iris_martensson_e7f823" xml:id="i-e63e7558ed858732-7" prev="i-e63e7558ed858732-5" n="e63e7558">
             <seg n="f0af5180">
               dimensioneringsfrågorna utan enbart läkarutbildningens innehåll.
               En central fråga är hur utbildningen bättre kan anknytas till
@@ -1008,11 +1020,40 @@
               säger att sådant här översynsarbete ”normalt inte (är) en fråga
               för
             </seg>
+          </u>
+          <note n="04300279">
+            Nr 108
+          </note>
+          <note type="date" n="259e3924">
+            Tisdagen den 25 mars 1980
+          </note>
+          <u who="iris_martensson_e7f823" xml:id="i-e63e7558ed858732-8" prev="i-e63e7558ed858732-5" n="e63e7558">
             <seg n="845fd782">
               Om läkarutbildningen
             </seg>
-            <seg n="b119e98a"/>
-            <seg n="b119e98a"/>
+          </u>
+          <note n="f4e7167b">
+            147
+          </note>
+          <u who="iris_martensson_e7f823" xml:id="i-e63e7558ed858732-9" prev="i-e63e7558ed858732-5" n="e63e7558"/>
+          <pb n="11" facs="https://betalab.kb.se/prot-197980--108/prot_197980__108-011.jp2/_view"/>
+          <u who="iris_martensson_e7f823" xml:id="i-e63e7558ed858732-10" prev="i-e63e7558ed858732-5" n="e63e7558"/>
+          <note n="04300279">
+            Nr 108
+          </note>
+          <note type="date" n="259e3924">
+            Tisdagen den 25 mars 1980
+          </note>
+          <note n="0cf262f5">
+            Om läkarutbild-
+          </note>
+          <note n="c13efe58">
+            ningen
+          </note>
+          <note n="f54ba44f">
+            148
+          </note>
+          <u who="iris_martensson_e7f823" xml:id="i-e63e7558ed858732-11" prev="i-e63e7558ed858732-5" n="e63e7558">
             <seg n="32df2cfa">
               regering och riksdag”. Det är i varje fall riksdagens uppgift
               att granska rikets styrelse och förvaltning, och de interpellationsoch
@@ -1077,7 +1118,9 @@
               initiativ
             </seg>
             <seg n="b119e98a"/>
-            <seg n="b119e98a"/>
+          </u>
+          <pb n="12" facs="https://betalab.kb.se/prot-197980--108/prot_197980__108-012.jp2/_view"/>
+          <u who="iris_martensson_e7f823" xml:id="i-e63e7558ed858732-12" prev="i-e63e7558ed858732-5" n="e63e7558">
             <seg n="633dd937">
               till årliga möten mellan företrädarna för landets invärtesmedicinska
               undervisningskliniker i utbildningsfrågornas tecken. Vid dessa
@@ -1143,6 +1186,39 @@
             <seg n="f6528c6e">
               Just på grund av den snabba förändringen i de naturvetenskapliga
             </seg>
+          </u>
+          <note n="04300279">
+            Nr 108
+          </note>
+          <note type="date" n="259e3924">
+            Tisdagen den 25 mars 1980
+          </note>
+          <note n="0cf262f5">
+            Om läkarutbild-
+          </note>
+          <note n="c13efe58">
+            ningen
+          </note>
+          <note n="daf43009">
+            149
+          </note>
+          <pb n="13" facs="https://betalab.kb.se/prot-197980--108/prot_197980__108-013.jp2/_view"/>
+          <note n="04300279">
+            Nr 108
+          </note>
+          <note type="date" n="259e3924">
+            Tisdagen den 25 mars 1980
+          </note>
+          <note n="0cf262f5">
+            Om läkarutbild-
+          </note>
+          <note n="c13efe58">
+            ningen
+          </note>
+          <note n="43f62cb7">
+            150
+          </note>
+          <u who="iris_martensson_e7f823" xml:id="i-e63e7558ed858732-13" prev="i-e63e7558ed858732-5" n="e63e7558">
             <seg n="e5cb5d68">
               grundkunskaperna och i deras tillämpning — inte minst inom farmakologin
               och laboratoriemedicinen — är det nödvändigt att alla läkare får
@@ -1209,7 +1285,9 @@
               socialvård och sjukvård kommer också in här.
             </seg>
             <seg n="b119e98a"/>
-            <seg n="b119e98a"/>
+          </u>
+          <pb n="14" facs="https://betalab.kb.se/prot-197980--108/prot_197980__108-014.jp2/_view"/>
+          <u who="iris_martensson_e7f823" xml:id="i-e63e7558ed858732-14" prev="i-e63e7558ed858732-5" n="e63e7558">
             <seg n="b119e98a"/>
             <seg n="3ea0c87a">
               Jag kommer alltså med uppmärksamhet att följa frågan och det
@@ -1229,6 +1307,20 @@
               här ställde i utsikt: att han framdeles skall ytterligare ta tag
               i frågan.
             </seg>
+          </u>
+          <note n="ddad9fb6">
+            Överläggningen var härmed avslutad.
+          </note>
+          <note n="5e4582a7">
+            $ 6 Om försöksverksamhet med betygsfri intagning till gymnasieskolan
+            i Örebro
+          </note>
+          <note n="fe97472f">
+            Statsrådet BRITT MOGÅRD erhöll ordet för att i ett sammanhang
+            besvara dels Margot Wallströms (s), dels Bonnie Bernströms (fp)
+            den 19 mars anmälda frågor, 1979/80:385 resp. 386, och anförde:
+          </note>
+          <u who="iris_martensson_e7f823" xml:id="i-e63e7558ed858732-15" prev="i-e63e7558ed858732-5" n="e63e7558">
             <seg n="62881904">
               Herr talman! Margot Wallström har frågat mig huruvida jag ämnar
               frångå riksdagsbeslutet och bemyndigandet från december 1978 om
@@ -1249,6 +1341,15 @@
             <seg n="d04cad98">
               De båda frågorna avser samma ämne. Jag besvarar dem därför gemensamt.
             </seg>
+          </u>
+          <note n="8c9f4a59">
+            I propositionen 1978/79:180 om läroplan för grundskolan m. m.
+            framhöll min företrädare som skolminister att det med ett positivt
+            resultat av försöksverksamheten med betygsfri intagning skulle
+            bli möjligt för riksdagen att senare besluta om att avveckla betygsättningen
+            i grundskolan. Riksdagen delade denna uppfattning.
+          </note>
+          <u who="iris_martensson_e7f823" xml:id="i-e63e7558ed858732-16" prev="i-e63e7558ed858732-5" n="e63e7558">
             <seg n="144dc96c">
               Svaret på de båda frågorna är givetvis att jag inte avser frångå
               riksdagens beslut.
@@ -1261,102 +1362,18 @@
               organisationerna har en annan uppfattning i en fråga, i första
               hand försöker i överläggningar komma fram till en lösning.
             </seg>
+          </u>
+          <note n="04300279">
+            Nr 108
+          </note>
+          <note type="date" n="259e3924">
+            Tisdagen den 25 mars 1980
+          </note>
+          <u who="iris_martensson_e7f823" xml:id="i-e63e7558ed858732-17" prev="i-e63e7558ed858732-5" n="e63e7558">
             <seg n="e3f3a4ac">
               Om försöksverksamhet med betygsfri intagning till gymnasiesko-
             </seg>
-            <seg n="b119e98a"/>
-            <seg n="ef3ea0f0">
-              Om försöksverksamhet med be-
-            </seg>
-            <seg n="eaa8fae5">
-              Detta är ett uttalande som generellt avser våra kontakter med
-              de fackliga organisationerna.
-            </seg>
           </u>
-          <pb n="10" facs="https://betalab.kb.se/prot-197980--108/prot_197980__108-010.jp2/_view"/>
-          <note n="04300279">
-            Nr 108
-          </note>
-          <note type="date" n="259e3924">
-            Tisdagen den 25 mars 1980
-          </note>
-          <note n="f4e7167b">
-            147
-          </note>
-          <pb n="11" facs="https://betalab.kb.se/prot-197980--108/prot_197980__108-011.jp2/_view"/>
-          <note n="04300279">
-            Nr 108
-          </note>
-          <note type="date" n="259e3924">
-            Tisdagen den 25 mars 1980
-          </note>
-          <note n="0cf262f5">
-            Om läkarutbild-
-          </note>
-          <note n="c13efe58">
-            ningen
-          </note>
-          <note n="f54ba44f">
-            148
-          </note>
-          <pb n="12" facs="https://betalab.kb.se/prot-197980--108/prot_197980__108-012.jp2/_view"/>
-          <note n="04300279">
-            Nr 108
-          </note>
-          <note type="date" n="259e3924">
-            Tisdagen den 25 mars 1980
-          </note>
-          <note n="0cf262f5">
-            Om läkarutbild-
-          </note>
-          <note n="c13efe58">
-            ningen
-          </note>
-          <note n="daf43009">
-            149
-          </note>
-          <pb n="13" facs="https://betalab.kb.se/prot-197980--108/prot_197980__108-013.jp2/_view"/>
-          <note n="04300279">
-            Nr 108
-          </note>
-          <note type="date" n="259e3924">
-            Tisdagen den 25 mars 1980
-          </note>
-          <note n="0cf262f5">
-            Om läkarutbild-
-          </note>
-          <note n="c13efe58">
-            ningen
-          </note>
-          <note n="43f62cb7">
-            150
-          </note>
-          <pb n="14" facs="https://betalab.kb.se/prot-197980--108/prot_197980__108-014.jp2/_view"/>
-          <note n="ddad9fb6">
-            Överläggningen var härmed avslutad.
-          </note>
-          <note n="5e4582a7">
-            $ 6 Om försöksverksamhet med betygsfri intagning till gymnasieskolan
-            i Örebro
-          </note>
-          <note n="fe97472f">
-            Statsrådet BRITT MOGÅRD erhöll ordet för att i ett sammanhang
-            besvara dels Margot Wallströms (s), dels Bonnie Bernströms (fp)
-            den 19 mars anmälda frågor, 1979/80:385 resp. 386, och anförde:
-          </note>
-          <note n="8c9f4a59">
-            I propositionen 1978/79:180 om läroplan för grundskolan m. m.
-            framhöll min företrädare som skolminister att det med ett positivt
-            resultat av försöksverksamheten med betygsfri intagning skulle
-            bli möjligt för riksdagen att senare besluta om att avveckla betygsättningen
-            i grundskolan. Riksdagen delade denna uppfattning.
-          </note>
-          <note n="04300279">
-            Nr 108
-          </note>
-          <note type="date" n="259e3924">
-            Tisdagen den 25 mars 1980
-          </note>
           <note n="7d47b0d9">
             lan i Örebro
           </note>
@@ -1364,18 +1381,30 @@
             151
           </note>
           <pb n="15" facs="https://betalab.kb.se/prot-197980--108/prot_197980__108-015.jp2/_view"/>
+          <u who="iris_martensson_e7f823" xml:id="i-e63e7558ed858732-18" prev="i-e63e7558ed858732-5" n="e63e7558"/>
           <note n="04300279">
             Nr 108
           </note>
           <note type="date" n="259e3924">
             Tisdagen den 25 mars 1980
           </note>
+          <u who="iris_martensson_e7f823" xml:id="i-e63e7558ed858732-19" prev="i-e63e7558ed858732-5" n="e63e7558">
+            <seg n="ef3ea0f0">
+              Om försöksverksamhet med be-
+            </seg>
+          </u>
           <note n="64ba95a5">
             tygsfri intagning till gymnasieskolan i Örebro
           </note>
           <note n="c55cb4b1">
             152
           </note>
+          <u who="iris_martensson_e7f823" xml:id="i-e63e7558ed858732-20" prev="i-e63e7558ed858732-5" n="e63e7558">
+            <seg n="eaa8fae5">
+              Detta är ett uttalande som generellt avser våra kontakter med
+              de fackliga organisationerna.
+            </seg>
+          </u>
           <note n="6960807c">
             Beträffande det nu aktuella ärendet är läget i korthet följande.
             Genom beslut den 7 december 1978 bemyndigade regeringen skolöverstyrelsen
@@ -1398,7 +1427,7 @@
           <note type="speaker" n="de6da7e9">
             MARGOT WALLSTRÖM (s):
           </note>
-          <u who="margot_wallstrom_57295b" xml:id="i-4504494a1f114006-0" n="13bdaaa3">
+          <u who="margot_wallstrom_57295b" xml:id="i-fe8ab936ad8ea966-0" next="i-fe8ab936ad8ea966-1" n="13bdaaa3">
             <seg n="3af79b02">
               Herr talman! Jag ber först att få tacka för svaret.
             </seg>
@@ -1435,13 +1464,13 @@
               i grundskolan.
             </seg>
             <seg n="b119e98a"/>
-            <seg n="b119e98a"/>
           </u>
           <pb n="16" facs="https://betalab.kb.se/prot-197980--108/prot_197980__108-016.jp2/_view"/>
+          <u who="margot_wallstrom_57295b" xml:id="i-fe8ab936ad8ea966-1" prev="i-fe8ab936ad8ea966-0" n="13bdaaa3"/>
           <note type="speaker" n="62afb047">
             BONNIE BERNSTRÖM (fp):
           </note>
-          <u who="unknown" xml:id="i-7a95e66e2f7372aa-0" n="abc0146a">
+          <u who="unknown" xml:id="i-abc0146aef880fc0-0" n="abc0146a">
             <seg n="bb9452b8">
               Herr talman! Jag tackar statsrådet för svaret på min fråga, som
               är föranledd av ett uttalande i massmedia. Enligt det uttalandet
@@ -1490,7 +1519,7 @@
           <note n="7007c95c">
             Statsrådet BRITT MOGÅRD:
           </note>
-          <u who="unknown" xml:id="i-0d7a8ca40cac5536-0" n="abc0146a">
+          <u who="unknown" xml:id="i-abc0146aef880fc0-1" n="abc0146a">
             <seg n="a69685f6">
               Herr talman! Jag tycker att de här två frågorna är skäligen onödiga.
               Det faller nämligen på sin egen orimlighet att just jag skulle
@@ -1516,17 +1545,6 @@
               Jag kan inte ge Bonnie Bernström några besked om vare sig tidsplan
               eller
             </seg>
-            <seg n="ef3ea0f0">
-              Om försöksverksamhet med be-
-            </seg>
-            <seg n="b119e98a"/>
-            <seg n="ef3ea0f0">
-              Om försöksverksamhet med be-
-            </seg>
-            <seg n="f2988934">
-              utformning av regeringens beslut — det brukar vi inte göra medan
-              ett ärende är under beredning.
-            </seg>
           </u>
           <note n="04300279">
             Nr 108
@@ -1534,6 +1552,11 @@
           <note type="date" n="259e3924">
             Tisdagen den 25 mars 1980
           </note>
+          <u who="unknown" xml:id="i-abc0146aef880fc0-2" n="abc0146a">
+            <seg n="ef3ea0f0">
+              Om försöksverksamhet med be-
+            </seg>
+          </u>
           <note n="1a5ee119">
             tygsfri intagning till gymnasiesko-
           </note>
@@ -1544,22 +1567,34 @@
             153
           </note>
           <pb n="17" facs="https://betalab.kb.se/prot-197980--108/prot_197980__108-017.jp2/_view"/>
+          <u who="unknown" xml:id="i-abc0146aef880fc0-3" n="abc0146a"/>
           <note n="04300279">
             Nr 108
           </note>
           <note type="date" n="259e3924">
             Tisdagen den 25 mars 1980
           </note>
+          <u who="unknown" xml:id="i-abc0146aef880fc0-4" n="abc0146a">
+            <seg n="ef3ea0f0">
+              Om försöksverksamhet med be-
+            </seg>
+          </u>
           <note n="64ba95a5">
             tygsfri intagning till gymnasieskolan i Örebro
           </note>
           <note n="d5be254f">
             154
           </note>
+          <u who="unknown" xml:id="i-abc0146aef880fc0-5" n="abc0146a">
+            <seg n="f2988934">
+              utformning av regeringens beslut — det brukar vi inte göra medan
+              ett ärende är under beredning.
+            </seg>
+          </u>
           <note type="speaker" n="de6da7e9">
             MARGOT WALLSTRÖM (s):
           </note>
-          <u who="margot_wallstrom_57295b" xml:id="i-4504494a1f114006-1" n="13bdaaa3">
+          <u who="margot_wallstrom_57295b" xml:id="i-fe8ab936ad8ea966-2" n="13bdaaa3">
             <seg n="5a4f9caf">
               Herr talman! Att det skulle vara en onödig fråga, när man kan
               läsa i tidningen att det inte blir något försök med betygsfri
@@ -1590,7 +1625,7 @@
           <note type="speaker" n="62afb047">
             BONNIE BERNSTRÖM (fp):
           </note>
-          <u who="unknown" xml:id="i-7a95e66e2f7372aa-1" n="abc0146a">
+          <u who="unknown" xml:id="i-abc0146aef880fc0-6" n="abc0146a">
             <seg n="cf2027fc">
               Herr talman! Jag tror att vi när det gäller den här frågan hade
               kunnat skiljas ganska eniga — eller som vänner. Men när man säger
@@ -1616,7 +1651,7 @@
           <note n="7007c95c">
             Statsrådet BRITT MOGÅRD:
           </note>
-          <u who="unknown" xml:id="i-0d7a8ca40cac5536-1" n="abc0146a">
+          <u who="unknown" xml:id="i-abc0146aef880fc0-7" n="abc0146a">
             <seg n="783b143b">
               Herr talman! Just därför att det föreligger ett riksdagsbeslut
               och därför att lärarförbunden inte så sällan är oeniga borde inte
@@ -1628,16 +1663,30 @@
               jag, därför att jag
             </seg>
             <seg n="b119e98a"/>
-            <seg n="b119e98a"/>
+          </u>
+          <pb n="18" facs="https://betalab.kb.se/prot-197980--108/prot_197980__108-018.jp2/_view"/>
+          <u who="unknown" xml:id="i-abc0146aef880fc0-8" n="abc0146a">
             <seg n="624604b7">
               har en uppfattning, medvetet skulle sabotera och försöka försena.
               Också i det här fallet försöker vi faktiskt i överläggningar komma
               fram till en gemensam uppfattning i regeringen liksom i utskottsarbetet,
               liksom i andra sammanhang.
             </seg>
+          </u>
+          <note n="ddad9fb6">
+            Överläggningen var härmed avslutad.
+          </note>
+          <u who="unknown" xml:id="i-abc0146aef880fc0-9" n="abc0146a">
             <seg n="47bb4f15">
               $7 Om ett nytt prisregleringssystem för fisk
             </seg>
+          </u>
+          <note n="715cd730">
+            Jordbruksministern ANDERS DAHLGREN erhöll ordet för att besvara
+            Ralf Lindströms (s) den 14 mars anmälda fråga, 1979/80:380, och
+            anförde:
+          </note>
+          <u who="unknown" xml:id="i-abc0146aef880fc0-10" n="abc0146a">
             <seg n="4936df03">
               Herr talman! Ralf Lindström har frågat mig vad orsaken är till
               att riksdagens beslut om ett nytt prisregleringssystem för fisk
@@ -1650,21 +1699,7 @@
               för fisk, det s. k. normprissystemet. Den närmare tekniska utformningen
               av systemet skulle utarbetas av en särskild arbetsgrupp.
             </seg>
-            <seg n="f390cbfa">
-              Jag vill tillägga att jag i propositionen om prisregleringen
-              på fisk för budgetåret 1980/81, som regeringen inom kort lägger
-              fram, också tänker ta upp vissa frågor rörande det nya normprissystemet.
-            </seg>
           </u>
-          <pb n="18" facs="https://betalab.kb.se/prot-197980--108/prot_197980__108-018.jp2/_view"/>
-          <note n="ddad9fb6">
-            Överläggningen var härmed avslutad.
-          </note>
-          <note n="715cd730">
-            Jordbruksministern ANDERS DAHLGREN erhöll ordet för att besvara
-            Ralf Lindströms (s) den 14 mars anmälda fråga, 1979/80:380, och
-            anförde:
-          </note>
           <note n="e8b9fcec">
             Arbetsgruppen överlämnade sitt förslag den 5 december 1979.
           </note>
@@ -1685,10 +1720,17 @@
             inkomma med förslag om bl. a. storleken av normpriser och normkvantiteter
             för första halvåret 1981.
           </note>
+          <u who="unknown" xml:id="i-abc0146aef880fc0-11" n="abc0146a">
+            <seg n="f390cbfa">
+              Jag vill tillägga att jag i propositionen om prisregleringen
+              på fisk för budgetåret 1980/81, som regeringen inom kort lägger
+              fram, också tänker ta upp vissa frågor rörande det nya normprissystemet.
+            </seg>
+          </u>
           <note type="speaker" n="bf0658f6">
             RALF LINDSTRÖM (s):
           </note>
-          <u who="ralf_lindstrom_73a328" xml:id="i-16e25087db9c7708-0" next="i-67aec5f39784795d-0" n="21a018c2">
+          <u who="ralf_lindstrom_73a328" xml:id="i-21a018c271a362f6-0" next="i-21a018c271a362f6-4" n="21a018c2">
             <seg n="c4c73e99">
               Herr talman! Jag tackar jordbruksministern för svaret på min
               fråga.
@@ -1710,14 +1752,34 @@
           <note type="date" n="259e3924">
             Tisdagen den 25 mars 1980
           </note>
-          <u who="ralf_lindstrom_73a328" xml:id="i-67aec5f39784795d-0" prev="i-16e25087db9c7708-0" n="21a018c2">
+          <u who="ralf_lindstrom_73a328" xml:id="i-21a018c271a362f6-1" prev="i-21a018c271a362f6-0" n="21a018c2">
             <seg n="5591575d">
               Om ett nytt prisregleringssystem
             </seg>
-            <seg n="b119e98a"/>
+          </u>
+          <note n="7cbca858">
+            för fisk
+          </note>
+          <pb n="19" facs="https://betalab.kb.se/prot-197980--108/prot_197980__108-019.jp2/_view"/>
+          <u who="ralf_lindstrom_73a328" xml:id="i-21a018c271a362f6-2" prev="i-21a018c271a362f6-0" n="21a018c2"/>
+          <note n="04300279">
+            Nr 108
+          </note>
+          <note type="date" n="259e3924">
+            Tisdagen den 25 mars 1980
+          </note>
+          <note n="f0ea9926">
+            Om ett nytt pris-
+          </note>
+          <u who="ralf_lindstrom_73a328" xml:id="i-21a018c271a362f6-3" prev="i-21a018c271a362f6-0" n="21a018c2">
             <seg n="29c916a2">
               regleringssystem för fisk
             </seg>
+          </u>
+          <note n="88715709">
+            156
+          </note>
+          <u who="ralf_lindstrom_73a328" xml:id="i-21a018c271a362f6-4" prev="i-21a018c271a362f6-0" n="21a018c2">
             <seg n="ffe16e6e">
               De uttalanden som jordbruksministern gjorde i propositionen 1977/78:112
               ingav yrkesfiskarna förhoppningar om en tryggare och säkrare tillvaro
@@ -1774,26 +1836,10 @@
               i kraft fr. o. m. den 1 januari 1981.
             </seg>
           </u>
-          <note n="7cbca858">
-            för fisk
-          </note>
-          <pb n="19" facs="https://betalab.kb.se/prot-197980--108/prot_197980__108-019.jp2/_view"/>
-          <note n="04300279">
-            Nr 108
-          </note>
-          <note type="date" n="259e3924">
-            Tisdagen den 25 mars 1980
-          </note>
-          <note n="f0ea9926">
-            Om ett nytt pris-
-          </note>
-          <note n="88715709">
-            156
-          </note>
           <note type="speaker" n="bf0658f6">
             RALF LINDSTRÖM (s):
           </note>
-          <u who="ralf_lindstrom_73a328" xml:id="i-89cb30d91589ebbb-0" n="21a018c2">
+          <u who="ralf_lindstrom_73a328" xml:id="i-21a018c271a362f6-5" next="i-21a018c271a362f6-6" n="21a018c2">
             <seg n="162f435d">
               Herr talman! Låt oss inte strida om ord! Låt mig då i stället
               säga att de löften som gavs i propositionen var långtgående. Fiskarna
@@ -1803,7 +1849,9 @@
               som är orsaken till det, så skall jag inte skälla på jordbruksmi-
             </seg>
             <seg n="b119e98a"/>
-            <seg n="b119e98a"/>
+          </u>
+          <pb n="20" facs="https://betalab.kb.se/prot-197980--108/prot_197980__108-020.jp2/_view"/>
+          <u who="ralf_lindstrom_73a328" xml:id="i-21a018c271a362f6-6" prev="i-21a018c271a362f6-5" n="21a018c2">
             <seg n="bfc67af4">
               nistern för det. Vi får bara hoppas att man kommer överens, så
               att det verkligen kommer till beslut och frågan blir löst.
@@ -1814,11 +1862,10 @@
               alltför långtgående.
             </seg>
           </u>
-          <pb n="20" facs="https://betalab.kb.se/prot-197980--108/prot_197980__108-020.jp2/_view"/>
           <note type="speaker" n="bf0658f6">
             RALF LINDSTRÖM (s):
           </note>
-          <u who="ralf_lindstrom_73a328" xml:id="i-89cb30d91589ebbb-1" n="21a018c2">
+          <u who="ralf_lindstrom_73a328" xml:id="i-21a018c271a362f6-7" n="21a018c2">
             <seg n="199b56f0">
               Herr talman! Det har jag aldrig sagt. Jag sade att jag tyckte
               de var bra och att jag vill att de skall uppfyllas.
@@ -1831,7 +1878,7 @@
           <note type="speaker" n="bf0658f6">
             RALF LINDSTRÖM (s):
           </note>
-          <u who="ralf_lindstrom_73a328" xml:id="i-16e25087db9c7708-1" next="i-67aec5f39784795d-1" n="21a018c2">
+          <u who="ralf_lindstrom_73a328" xml:id="i-21a018c271a362f6-8" next="i-21a018c271a362f6-14" n="21a018c2">
             <seg n="908fa887">
               Herr talman! Jag har inte tagit det här som en träta. Jag har
               ställt en fråga till jordbruksministern och har fått ett svar,
@@ -1842,10 +1889,16 @@
           <note n="ddad9fb6">
             Överläggningen var härmed avslutad.
           </note>
-          <u who="ralf_lindstrom_73a328" xml:id="i-67aec5f39784795d-1" prev="i-16e25087db9c7708-1" n="21a018c2">
+          <u who="ralf_lindstrom_73a328" xml:id="i-21a018c271a362f6-9" prev="i-21a018c271a362f6-8" n="21a018c2">
             <seg n="d7c91cc8">
               $8 Om snabbare behandling av ansökningar om uppehållstillstånd
             </seg>
+          </u>
+          <note n="a19d42fe">
+            Statsrådet KARIN ANDERSSON erhöll ordet för att besvara Gunnel
+            Liljegrens (m) den 19 mars anmälda fråga, 1979/80:388, och anförde:
+          </note>
+          <u who="ralf_lindstrom_73a328" xml:id="i-21a018c271a362f6-10" prev="i-21a018c271a362f6-8" n="21a018c2">
             <seg n="01eec106">
               Herr talman! Gunnel Liljegren har frågat mig vilka initiativ
               jag ämnar ta för att åstadkomma en snabbare behandling av ansökningar
@@ -1875,13 +1928,38 @@
               att kunna nedbringa antalet ärenden. Inom regeringskansliet fortgår
               ansträngningarna
             </seg>
+          </u>
+          <note n="04300279">
+            Nr 108
+          </note>
+          <note type="date" n="259e3924">
+            Tisdagen den 25 mars 1980
+          </note>
+          <u who="ralf_lindstrom_73a328" xml:id="i-21a018c271a362f6-11" prev="i-21a018c271a362f6-8" n="21a018c2">
             <seg n="4e31a242">
               Om snabbare behandling av ansökningar om uppehållstillstånd
             </seg>
-            <seg n="b119e98a"/>
+          </u>
+          <note n="f3470ecc">
+            157
+          </note>
+          <pb n="21" facs="https://betalab.kb.se/prot-197980--108/prot_197980__108-021.jp2/_view"/>
+          <u who="ralf_lindstrom_73a328" xml:id="i-21a018c271a362f6-12" prev="i-21a018c271a362f6-8" n="21a018c2"/>
+          <note n="04300279">
+            Nr 108
+          </note>
+          <note type="date" n="259e3924">
+            Tisdagen den 25 mars 1980
+          </note>
+          <u who="ralf_lindstrom_73a328" xml:id="i-21a018c271a362f6-13" prev="i-21a018c271a362f6-8" n="21a018c2">
             <seg n="4e31a242">
               Om snabbare behandling av ansökningar om uppehållstillstånd
             </seg>
+          </u>
+          <note n="f736d7c2">
+            158
+          </note>
+          <u who="ralf_lindstrom_73a328" xml:id="i-21a018c271a362f6-14" prev="i-21a018c271a362f6-8" n="21a018c2">
             <seg n="6fce4f79">
               att genom extra förstärkningar och rationaliseringsåtgärder förkorta
               handläggningstiderna.
@@ -1903,33 +1981,10 @@
               utlänningslagkommittén och förslag kommer att avges inom kort.
             </seg>
           </u>
-          <note n="a19d42fe">
-            Statsrådet KARIN ANDERSSON erhöll ordet för att besvara Gunnel
-            Liljegrens (m) den 19 mars anmälda fråga, 1979/80:388, och anförde:
-          </note>
-          <note n="04300279">
-            Nr 108
-          </note>
-          <note type="date" n="259e3924">
-            Tisdagen den 25 mars 1980
-          </note>
-          <note n="f3470ecc">
-            157
-          </note>
-          <pb n="21" facs="https://betalab.kb.se/prot-197980--108/prot_197980__108-021.jp2/_view"/>
-          <note n="04300279">
-            Nr 108
-          </note>
-          <note type="date" n="259e3924">
-            Tisdagen den 25 mars 1980
-          </note>
-          <note n="f736d7c2">
-            158
-          </note>
           <note type="speaker" n="4335cf9c">
             GUNNEL LILJEGREN (m):
           </note>
-          <u who="gunnel_liljegren_ee3a60" xml:id="i-8ad887fde1169b0b-0" n="158c7330">
+          <u who="gunnel_liljegren_ee3a60" xml:id="i-627b8ae5413807e4-0" next="i-627b8ae5413807e4-1" n="158c7330">
             <seg n="49e2e2aa">
               Herr talman! Jag vill tacka statsrådet Andersson för svaret.
               Det är ju utomordentligt svåra och grannlaga frågor det handlar
@@ -1976,7 +2031,9 @@
               för en småbarsfamilj, som har sålt alla
             </seg>
             <seg n="b119e98a"/>
-            <seg n="b119e98a"/>
+          </u>
+          <pb n="22" facs="https://betalab.kb.se/prot-197980--108/prot_197980__108-022.jp2/_view"/>
+          <u who="gunnel_liljegren_ee3a60" xml:id="i-627b8ae5413807e4-1" prev="i-627b8ae5413807e4-0" n="158c7330">
             <seg n="7eec6979">
               sina ägodelar för att flytta till landet Gosen och som skickas
               utblottad tillbaka, att vi inte kan stå till svars med att barnen
@@ -2036,11 +2093,10 @@
               att man gott kan ge polisen en eloge för detta.
             </seg>
           </u>
-          <pb n="22" facs="https://betalab.kb.se/prot-197980--108/prot_197980__108-022.jp2/_view"/>
           <note type="speaker" n="4335cf9c">
             GUNNEL LILJEGREN (m):
           </note>
-          <u who="gunnel_liljegren_ee3a60" xml:id="i-01f0909580d5403f-0" next="i-c0627822a851da8d-0" n="158c7330">
+          <u who="gunnel_liljegren_ee3a60" xml:id="i-627b8ae5413807e4-2" next="i-627b8ae5413807e4-15" n="158c7330">
             <seg n="9335b694">
               Herr talman! Kan jag tolka statsrådets svar så att det kommer
               anvisningar om hur verkställigheten skall skötas? Och skulle jag
@@ -2049,17 +2105,38 @@
               nordiska samarbetsplanerna på detta område har kommit?
             </seg>
           </u>
-          <note n="fc62dc65">
+          <note type="date" n="88472112">
             Nr 108 Tisdagen den 25 mars 1980
           </note>
-          <u who="gunnel_liljegren_ee3a60" xml:id="i-c0627822a851da8d-0" prev="i-01f0909580d5403f-0" n="158c7330">
+          <u who="gunnel_liljegren_ee3a60" xml:id="i-627b8ae5413807e4-3" prev="i-627b8ae5413807e4-2" n="158c7330">
             <seg n="05c4fce3">
               Om snabbare behandling av
             </seg>
             <seg n="bd9a42cb">
               ansökningar om uppehållstillstånd
             </seg>
-            <seg n="b119e98a"/>
+          </u>
+          <note n="347875e1">
+            159
+          </note>
+          <pb n="23" facs="https://betalab.kb.se/prot-197980--108/prot_197980__108-023.jp2/_view"/>
+          <u who="gunnel_liljegren_ee3a60" xml:id="i-627b8ae5413807e4-4" prev="i-627b8ae5413807e4-2" n="158c7330"/>
+          <note n="04300279">
+            Nr 108
+          </note>
+          <note type="date" n="259e3924">
+            Tisdagen den 25 mars 1980
+          </note>
+          <note n="73b16640">
+            Om ändrade be-
+          </note>
+          <note n="5b8a1f6f">
+            stämmelser rörande förpassning
+          </note>
+          <note n="9c3df23a">
+            160
+          </note>
+          <u who="gunnel_liljegren_ee3a60" xml:id="i-627b8ae5413807e4-5" prev="i-627b8ae5413807e4-2" n="158c7330">
             <seg n="e53ffdf4">
               Statsrådet KARIN ANDERSSON:
             </seg>
@@ -2084,6 +2161,19 @@
               några ändringar att vänta när det gäller de skillnader i viseringstvång
               som vi har gentemot Turkiet.
             </seg>
+          </u>
+          <note n="ddad9fb6">
+            Överläggningen var härmed avslutad.
+          </note>
+          <note n="39a7d269">
+            $9 Om ändrade bestämmelser rörande förpassning
+          </note>
+          <note n="f9a686a7">
+            Statsrådet KARIN ANDERSSON erhöll ordet för att besvara Olle
+            Wästbergs i Stockholm (fp) den 19 mars anmälda fråga, 1979/80:389,
+            och anförde:
+          </note>
+          <u who="gunnel_liljegren_ee3a60" xml:id="i-627b8ae5413807e4-6" prev="i-627b8ae5413807e4-2" n="158c7330">
             <seg n="fe6b4ced">
               Herr talman! Olle Wästberg i Stockholm har med anledning av ett
               aktuellt ärende rörande förpassning frågat mig om jag tänker ta
@@ -2118,7 +2208,9 @@
               på det sätt som lagstiftningen föreskriver. Efter
             </seg>
             <seg n="b119e98a"/>
-            <seg n="b119e98a"/>
+          </u>
+          <pb n="24" facs="https://betalab.kb.se/prot-197980--108/prot_197980__108-024.jp2/_view"/>
+          <u who="gunnel_liljegren_ee3a60" xml:id="i-627b8ae5413807e4-7" prev="i-627b8ae5413807e4-2" n="158c7330">
             <seg n="5d439adc">
               samråd med läkare bedömdes det av flera skäl olämpligt att spädbarnet
               skulle få vistas hos modern.
@@ -2195,7 +2287,43 @@
               från myndigheternas sida. Hon sätts i häkte och berövas möjligheten
               att få träffa
             </seg>
-            <seg n="b119e98a"/>
+          </u>
+          <note n="ad78f6e8">
+            11 Riksdagens protokoll 1979/80:105-108
+          </note>
+          <note n="04300279">
+            Nr 108
+          </note>
+          <note type="date" n="259e3924">
+            Tisdagen den 25 mars 1980
+          </note>
+          <note n="73b16640">
+            Om ändrade be-
+          </note>
+          <note n="5b8a1f6f">
+            stämmelser rörande förpassning
+          </note>
+          <note n="9444fbf5">
+            161
+          </note>
+          <pb n="25" facs="https://betalab.kb.se/prot-197980--108/prot_197980__108-025.jp2/_view"/>
+          <u who="gunnel_liljegren_ee3a60" xml:id="i-627b8ae5413807e4-8" prev="i-627b8ae5413807e4-2" n="158c7330"/>
+          <note n="04300279">
+            Nr 108
+          </note>
+          <note type="date" n="259e3924">
+            Tisdagen den 25 mars 1980
+          </note>
+          <note n="73b16640">
+            Om ändrade be-
+          </note>
+          <note n="5b8a1f6f">
+            stämmelser rörande förpassning
+          </note>
+          <note n="a7ae5cd4">
+            162
+          </note>
+          <u who="gunnel_liljegren_ee3a60" xml:id="i-627b8ae5413807e4-9" prev="i-627b8ae5413807e4-2" n="158c7330">
             <seg n="871ff7c3">
               sina barn. Man lägger in meddelanden till henne på turkiska trots
               att hon dels är analfabet, dels inte kan turkiska.
@@ -2268,7 +2396,9 @@
               har bidragit
             </seg>
             <seg n="b119e98a"/>
-            <seg n="b119e98a"/>
+          </u>
+          <pb n="26" facs="https://betalab.kb.se/prot-197980--108/prot_197980__108-026.jp2/_view"/>
+          <u who="gunnel_liljegren_ee3a60" xml:id="i-627b8ae5413807e4-10" prev="i-627b8ae5413807e4-2" n="158c7330">
             <seg n="f9488f05">
               till att enskilda fall behandlats med hårdhet, för att inte säga
               med brutalitet.
@@ -2316,22 +2446,66 @@
               där särskilda skäl gäller. Dessa särskilda skäl gäller och har
               bara gällt assyrier, och det är fråga om ett unikt beslut.
             </seg>
+          </u>
+          <note n="ddad9fb6">
+            Överläggningen var härmed avslutad.
+          </note>
+          <note n="52a888ed">
+            $ 10 Om Broströmskoncernens försäljning av vissa fartyg, m. m.
+          </note>
+          <note n="d169c34c">
+            Kommunikationsministern ULF ADELSOHN erhöll ordet för att besvara
+            Kurt Hugossons (s) den 20 mars anmälda fråga, 1979/80:393, och
+            anförde:
+          </note>
+          <u who="gunnel_liljegren_ee3a60" xml:id="i-627b8ae5413807e4-11" prev="i-627b8ae5413807e4-2" n="158c7330">
             <seg n="441a34f2">
               Herr talman! Kurt Hugosson har frågat mig dels varför regeringen
               givit Broströmskoncernen tillstånd till försäljning av fartygen
               Timmerland och Vasaland i strid med gällande avtal, dels vilka
               åtgärder regeringen avser att
             </seg>
+          </u>
+          <note n="04300279">
+            Nr 108
+          </note>
+          <note type="date" n="259e3924">
+            Tisdagen den 25 mars 1980
+          </note>
+          <u who="gunnel_liljegren_ee3a60" xml:id="i-627b8ae5413807e4-12" prev="i-627b8ae5413807e4-2" n="158c7330">
             <seg n="19eb6ac4">
               Om Broströmskoncernens försäljning av vissa
             </seg>
-            <seg n="b119e98a"/>
+          </u>
+          <note n="1882986a">
+            fartyg, m. m.
+          </note>
+          <note n="28b13094">
+            163
+          </note>
+          <pb n="27" facs="https://betalab.kb.se/prot-197980--108/prot_197980__108-027.jp2/_view"/>
+          <u who="gunnel_liljegren_ee3a60" xml:id="i-627b8ae5413807e4-13" prev="i-627b8ae5413807e4-2" n="158c7330"/>
+          <note n="04300279">
+            Nr 108
+          </note>
+          <note type="date" n="259e3924">
+            Tisdagen den 25 mars 1980
+          </note>
+          <u who="gunnel_liljegren_ee3a60" xml:id="i-627b8ae5413807e4-14" prev="i-627b8ae5413807e4-2" n="158c7330">
             <seg n="62ae2158">
               Om Broströmskoncernens för-
             </seg>
             <seg n="4ccf55d2">
               säljning av vissa
             </seg>
+          </u>
+          <note n="1882986a">
+            fartyg, m. m.
+          </note>
+          <note n="f4b33b9c">
+            164
+          </note>
+          <u who="gunnel_liljegren_ee3a60" xml:id="i-627b8ae5413807e4-15" prev="i-627b8ae5413807e4-2" n="158c7330">
             <seg n="166df903">
               vidta för ått garantera sysselsättning för de nu varslade 243
               ombordanställda.
@@ -2353,112 +2527,10 @@
               särskilda åtgärder.
             </seg>
           </u>
-          <note n="347875e1">
-            159
-          </note>
-          <pb n="23" facs="https://betalab.kb.se/prot-197980--108/prot_197980__108-023.jp2/_view"/>
-          <note n="04300279">
-            Nr 108
-          </note>
-          <note type="date" n="259e3924">
-            Tisdagen den 25 mars 1980
-          </note>
-          <note n="73b16640">
-            Om ändrade be-
-          </note>
-          <note n="5b8a1f6f">
-            stämmelser rörande förpassning
-          </note>
-          <note n="9c3df23a">
-            160
-          </note>
-          <note n="ddad9fb6">
-            Överläggningen var härmed avslutad.
-          </note>
-          <note n="39a7d269">
-            $9 Om ändrade bestämmelser rörande förpassning
-          </note>
-          <note n="f9a686a7">
-            Statsrådet KARIN ANDERSSON erhöll ordet för att besvara Olle
-            Wästbergs i Stockholm (fp) den 19 mars anmälda fråga, 1979/80:389,
-            och anförde:
-          </note>
-          <pb n="24" facs="https://betalab.kb.se/prot-197980--108/prot_197980__108-024.jp2/_view"/>
-          <note n="ad78f6e8">
-            11 Riksdagens protokoll 1979/80:105-108
-          </note>
-          <note n="04300279">
-            Nr 108
-          </note>
-          <note type="date" n="259e3924">
-            Tisdagen den 25 mars 1980
-          </note>
-          <note n="73b16640">
-            Om ändrade be-
-          </note>
-          <note n="5b8a1f6f">
-            stämmelser rörande förpassning
-          </note>
-          <note n="9444fbf5">
-            161
-          </note>
-          <pb n="25" facs="https://betalab.kb.se/prot-197980--108/prot_197980__108-025.jp2/_view"/>
-          <note n="04300279">
-            Nr 108
-          </note>
-          <note type="date" n="259e3924">
-            Tisdagen den 25 mars 1980
-          </note>
-          <note n="73b16640">
-            Om ändrade be-
-          </note>
-          <note n="5b8a1f6f">
-            stämmelser rörande förpassning
-          </note>
-          <note n="a7ae5cd4">
-            162
-          </note>
-          <pb n="26" facs="https://betalab.kb.se/prot-197980--108/prot_197980__108-026.jp2/_view"/>
-          <note n="ddad9fb6">
-            Överläggningen var härmed avslutad.
-          </note>
-          <note n="52a888ed">
-            $ 10 Om Broströmskoncernens försäljning av vissa fartyg, m. m.
-          </note>
-          <note n="d169c34c">
-            Kommunikationsministern ULF ADELSOHN erhöll ordet för att besvara
-            Kurt Hugossons (s) den 20 mars anmälda fråga, 1979/80:393, och
-            anförde:
-          </note>
-          <note n="04300279">
-            Nr 108
-          </note>
-          <note type="date" n="259e3924">
-            Tisdagen den 25 mars 1980
-          </note>
-          <note n="1882986a">
-            fartyg, m. m.
-          </note>
-          <note n="28b13094">
-            163
-          </note>
-          <pb n="27" facs="https://betalab.kb.se/prot-197980--108/prot_197980__108-027.jp2/_view"/>
-          <note n="04300279">
-            Nr 108
-          </note>
-          <note type="date" n="259e3924">
-            Tisdagen den 25 mars 1980
-          </note>
-          <note n="1882986a">
-            fartyg, m. m.
-          </note>
-          <note n="f4b33b9c">
-            164
-          </note>
           <note type="speaker" n="7537bbdd">
             KURT HUGOSSON (s):
           </note>
-          <u who="kurt_hugosson_b1fe2d" xml:id="i-3274b6d63f3d5e90-0" n="e041dc66">
+          <u who="kurt_hugosson_b1fe2d" xml:id="i-e041dc66411072be-0" next="i-e041dc66411072be-1" n="e041dc66">
             <seg n="d1f249a8">
               Herr talman! Den 25 oktober förra året hade kommunikationsministern
               och jag en debatt om vikten av att vi snarast möjligt får en sjöfartspolitik
@@ -2510,7 +2582,9 @@
               och även andra rederier, så bibringades vi från
             </seg>
             <seg n="b119e98a"/>
-            <seg n="b119e98a"/>
+          </u>
+          <pb n="28" facs="https://betalab.kb.se/prot-197980--108/prot_197980__108-028.jp2/_view"/>
+          <u who="kurt_hugosson_b1fe2d" xml:id="i-e041dc66411072be-1" prev="i-e041dc66411072be-0" n="e041dc66">
             <seg n="b119e98a"/>
             <seg n="4ff0cb04">
               departementet den uppfattningen att man genom att bevilja Broströmskoncernen
@@ -2562,11 +2636,10 @@
               för då bleve det dyrt.
             </seg>
           </u>
-          <pb n="28" facs="https://betalab.kb.se/prot-197980--108/prot_197980__108-028.jp2/_view"/>
           <note type="speaker" n="7537bbdd">
             KURT HUGOSSON (s):
           </note>
-          <u who="kurt_hugosson_b1fe2d" xml:id="i-69355ef6cabf9346-0" next="i-d280a62797948020-0" n="e041dc66">
+          <u who="kurt_hugosson_b1fe2d" xml:id="i-e041dc66411072be-2" next="i-e041dc66411072be-6" n="e041dc66">
             <seg n="3fe5c529">
               Herr talman! Som kommunikati&gt;nsministern vet, så har man bara
               tre minuter på sig när man skall kommentera svaret på en enkel
@@ -2589,10 +2662,36 @@
           <note n="590d3822">
             12 Riksdagens protokoll 1979/80:105-108
           </note>
-          <u who="kurt_hugosson_b1fe2d" xml:id="i-d280a62797948020-0" prev="i-69355ef6cabf9346-0" n="e041dc66">
+          <u who="kurt_hugosson_b1fe2d" xml:id="i-e041dc66411072be-3" prev="i-e041dc66411072be-2" n="e041dc66"/>
+          <note n="04300279">
+            Nr 108
+          </note>
+          <note type="date" n="259e3924">
+            Tisdagen den 25 mars 1980
+          </note>
+          <note n="69b4de66">
+            Om Broströmskoncernens försäljning av vissa fartyg, m. m.
+          </note>
+          <note n="02c12861">
+            165
+          </note>
+          <pb n="29" facs="https://betalab.kb.se/prot-197980--108/prot_197980__108-029.jp2/_view"/>
+          <u who="kurt_hugosson_b1fe2d" xml:id="i-e041dc66411072be-4" prev="i-e041dc66411072be-2" n="e041dc66">
             <seg n="b119e98a"/>
-            <seg n="b119e98a"/>
-            <seg n="b119e98a"/>
+          </u>
+          <note n="04300279">
+            Nr 108
+          </note>
+          <note type="date" n="259e3924">
+            Tisdagen den 25 mars 1980
+          </note>
+          <note n="69b4de66">
+            Om Broströmskoncernens försäljning av vissa fartyg, m. m.
+          </note>
+          <note n="bcc9e44a">
+            166
+          </note>
+          <u who="kurt_hugosson_b1fe2d" xml:id="i-e041dc66411072be-5" prev="i-e041dc66411072be-2" n="e041dc66">
             <seg n="2a5fb994">
               som innebär att lönsamt tonnage avyttras och icke lönsamt tonnage
               förvärvas. Vad vi krävde i fråga om den framtida sjöfartspolitiken
@@ -2654,38 +2753,13 @@
             </seg>
             <seg n="b119e98a"/>
             <seg n="b119e98a"/>
-            <seg n="b119e98a"/>
           </u>
-          <note n="04300279">
-            Nr 108
-          </note>
-          <note type="date" n="259e3924">
-            Tisdagen den 25 mars 1980
-          </note>
-          <note n="69b4de66">
-            Om Broströmskoncernens försäljning av vissa fartyg, m. m.
-          </note>
-          <note n="02c12861">
-            165
-          </note>
-          <pb n="29" facs="https://betalab.kb.se/prot-197980--108/prot_197980__108-029.jp2/_view"/>
-          <note n="04300279">
-            Nr 108
-          </note>
-          <note type="date" n="259e3924">
-            Tisdagen den 25 mars 1980
-          </note>
-          <note n="69b4de66">
-            Om Broströmskoncernens försäljning av vissa fartyg, m. m.
-          </note>
-          <note n="bcc9e44a">
-            166
-          </note>
           <pb n="30" facs="https://betalab.kb.se/prot-197980--108/prot_197980__108-030.jp2/_view"/>
+          <u who="kurt_hugosson_b1fe2d" xml:id="i-e041dc66411072be-6" prev="i-e041dc66411072be-2" n="e041dc66"/>
           <note type="speaker" n="7537bbdd">
             KURT HUGOSSON (s):
           </note>
-          <u who="kurt_hugosson_b1fe2d" xml:id="i-3274b6d63f3d5e90-1" n="e041dc66">
+          <u who="kurt_hugosson_b1fe2d" xml:id="i-e041dc66411072be-7" n="e041dc66">
             <seg n="169f931e">
               Herr talman! Jag skall försöka undvika det tonläge och det ordval
               som kommunikationsministern använder i debatten, när han talar
@@ -2739,7 +2813,7 @@
           <note type="speaker" n="7537bbdd">
             KURT HUGOSSON (s):
           </note>
-          <u who="kurt_hugosson_b1fe2d" xml:id="i-69355ef6cabf9346-1" next="i-d280a62797948020-1" n="e041dc66">
+          <u who="kurt_hugosson_b1fe2d" xml:id="i-e041dc66411072be-8" next="i-e041dc66411072be-11" n="e041dc66">
             <seg n="6d3da964">
               Herr talman! Det måste väl ändå, herr kommunikationsminister,
               föreligga ett samband mellan antalet fartyg som ett rederi har
@@ -2771,11 +2845,24 @@
             167
           </note>
           <pb n="31" facs="https://betalab.kb.se/prot-197980--108/prot_197980__108-031.jp2/_view"/>
-          <u who="kurt_hugosson_b1fe2d" xml:id="i-d280a62797948020-1" prev="i-69355ef6cabf9346-1" n="e041dc66">
+          <u who="kurt_hugosson_b1fe2d" xml:id="i-e041dc66411072be-9" prev="i-e041dc66411072be-8" n="e041dc66">
             <seg n="b119e98a"/>
+          </u>
+          <note n="04300279">
+            Nr 108
+          </note>
+          <note type="date" n="259e3924">
+            Tisdagen den 25 mars 1980
+          </note>
+          <u who="kurt_hugosson_b1fe2d" xml:id="i-e041dc66411072be-10" prev="i-e041dc66411072be-8" n="e041dc66">
             <seg n="0a596a32">
               Om Broströmskoncernens försäljning av vissa fartyg, m.m.
             </seg>
+          </u>
+          <note n="58bf43e3">
+            168
+          </note>
+          <u who="kurt_hugosson_b1fe2d" xml:id="i-e041dc66411072be-11" prev="i-e041dc66411072be-8" n="e041dc66">
             <seg n="7b8820e3">
               värt. 243 personer har varslats om uppsägning, och beträffande
               två av de modernaste fartygen har regeringen beviljat tillstånd
@@ -2817,19 +2904,10 @@
               för en hygglig ekonomisk politik f. n.
             </seg>
           </u>
-          <note n="04300279">
-            Nr 108
-          </note>
-          <note type="date" n="259e3924">
-            Tisdagen den 25 mars 1980
-          </note>
-          <note n="58bf43e3">
-            168
-          </note>
           <note type="speaker" n="7537bbdd">
             KURT HUGOSSON (s):
           </note>
-          <u who="kurt_hugosson_b1fe2d" xml:id="i-3274b6d63f3d5e90-2" n="e041dc66">
+          <u who="kurt_hugosson_b1fe2d" xml:id="i-e041dc66411072be-12" next="i-e041dc66411072be-13" n="e041dc66">
             <seg n="b8a4cd56">
               Herr talman! Jag skall försöka att vara mycket positiv mot kommunikationsministern
               och säga att vi har samma mål när det gäller Broströmskoncernen.
@@ -2857,7 +2935,9 @@
               godsvolymer för sin Medelhavstrafik.
             </seg>
             <seg n="b119e98a"/>
-            <seg n="b119e98a"/>
+          </u>
+          <pb n="32" facs="https://betalab.kb.se/prot-197980--108/prot_197980__108-032.jp2/_view"/>
+          <u who="kurt_hugosson_b1fe2d" xml:id="i-e041dc66411072be-13" prev="i-e041dc66411072be-12" n="e041dc66">
             <seg n="43192807">
               Det finns alltså även sådana avvägningar, men jag har inte velat
               trötta kammaren med att i detalj ge herr Hugosson precis varenda
@@ -2870,11 +2950,10 @@
               en har olika åsikter — man kan vara bra karlar för det.
             </seg>
           </u>
-          <pb n="32" facs="https://betalab.kb.se/prot-197980--108/prot_197980__108-032.jp2/_view"/>
           <note type="speaker" n="7537bbdd">
             KURT HUGOSSON (s):
           </note>
-          <u who="kurt_hugosson_b1fe2d" xml:id="i-3274b6d63f3d5e90-3" n="e041dc66">
+          <u who="kurt_hugosson_b1fe2d" xml:id="i-e041dc66411072be-14" n="e041dc66">
             <seg n="4186586f">
               Herr talman! Jag har, såvitt jag vet, icke på något sätt framställt
               det hela så att Broströmskoncernen har gjort något fel. Det jag
@@ -2921,7 +3000,7 @@
           <note type="speaker" n="7537bbdd">
             KURT HUGOSSON (s):
           </note>
-          <u who="kurt_hugosson_b1fe2d" xml:id="i-69355ef6cabf9346-2" next="i-d280a62797948020-2" n="e041dc66">
+          <u who="kurt_hugosson_b1fe2d" xml:id="i-e041dc66411072be-15" next="i-e041dc66411072be-21" n="e041dc66">
             <seg n="66cae7c3">
               Herr talman! Den kommentaren skall bli mycket kort, herr kommunikationsministern.
               243 personer har varslats om uppsägning, och kommunikationsministern
@@ -2934,14 +3013,37 @@
           <note type="date" n="259e3924">
             Tisdagen den 25 mars 1980
           </note>
-          <u who="kurt_hugosson_b1fe2d" xml:id="i-d280a62797948020-2" prev="i-69355ef6cabf9346-2" n="e041dc66">
+          <u who="kurt_hugosson_b1fe2d" xml:id="i-e041dc66411072be-16" prev="i-e041dc66411072be-15" n="e041dc66">
             <seg n="19eb6ac4">
               Om Broströmskoncernens försäljning av vissa
             </seg>
-            <seg n="b119e98a"/>
+          </u>
+          <note n="1882986a">
+            fartyg, m. m.
+          </note>
+          <note n="dd5fa37e">
+            169
+          </note>
+          <pb n="33" facs="https://betalab.kb.se/prot-197980--108/prot_197980__108-033.jp2/_view"/>
+          <u who="kurt_hugosson_b1fe2d" xml:id="i-e041dc66411072be-17" prev="i-e041dc66411072be-15" n="e041dc66"/>
+          <note n="04300279">
+            Nr 108
+          </note>
+          <note type="date" n="259e3924">
+            Tisdagen den 25 mars 1980
+          </note>
+          <note n="91685a9d">
+            Om åtgärder mot
+          </note>
+          <u who="kurt_hugosson_b1fe2d" xml:id="i-e041dc66411072be-18" prev="i-e041dc66411072be-15" n="e041dc66">
             <seg n="3500e30b">
               olämplig trafik med snöskoter
             </seg>
+          </u>
+          <note n="3b21f329">
+            170
+          </note>
+          <u who="kurt_hugosson_b1fe2d" xml:id="i-e041dc66411072be-19" prev="i-e041dc66411072be-15" n="e041dc66">
             <seg n="6f221283">
               Kommunikationsministern ULF ADELSOHN:
             </seg>
@@ -2953,9 +3055,21 @@
               sysselsättningspolitiken i Hongkong är begränsade. Jag tror inte
               att de svenska skattebetalarna skulle uppskatta det.
             </seg>
+          </u>
+          <note n="ddad9fb6">
+            Överläggningen var härmed avslutad.
+          </note>
+          <u who="kurt_hugosson_b1fe2d" xml:id="i-e041dc66411072be-20" prev="i-e041dc66411072be-15" n="e041dc66">
             <seg n="c84187d5">
               $ 11 Om åtgärder mot olämplig trafik med snöskoter
             </seg>
+          </u>
+          <note n="42c963e9">
+            Kommunikationsministern ULF ADELSOHN erhöll ordet för att besvara
+            Olle Göranssons (s) den 10 mars anmälda fråga, 1979/80:362, och
+            anförde:
+          </note>
+          <u who="kurt_hugosson_b1fe2d" xml:id="i-e041dc66411072be-21" prev="i-e041dc66411072be-15" n="e041dc66">
             <seg n="b5ef7158">
               Herr talman! Olle Göransson har frågat mig om jag avser att ingripa
               för att stävja missbruk av snöskotrar genom hastighetsbegränsning
@@ -2977,37 +3091,10 @@
               att medföra onödiga svårigheter.
             </seg>
           </u>
-          <note n="1882986a">
-            fartyg, m. m.
-          </note>
-          <note n="dd5fa37e">
-            169
-          </note>
-          <pb n="33" facs="https://betalab.kb.se/prot-197980--108/prot_197980__108-033.jp2/_view"/>
-          <note n="04300279">
-            Nr 108
-          </note>
-          <note type="date" n="259e3924">
-            Tisdagen den 25 mars 1980
-          </note>
-          <note n="91685a9d">
-            Om åtgärder mot
-          </note>
-          <note n="3b21f329">
-            170
-          </note>
-          <note n="ddad9fb6">
-            Överläggningen var härmed avslutad.
-          </note>
-          <note n="42c963e9">
-            Kommunikationsministern ULF ADELSOHN erhöll ordet för att besvara
-            Olle Göranssons (s) den 10 mars anmälda fråga, 1979/80:362, och
-            anförde:
-          </note>
           <note type="speaker" n="f2e3ae87">
             OLLE GORANSSON (s):
           </note>
-          <u who="unknown" xml:id="i-7a95e66e2f7372aa-2" n="abc0146a">
+          <u who="unknown" xml:id="i-abc0146aef880fc0-12" n="abc0146a">
             <seg n="17439047">
               Herr talman! Låt mig tacka statsrådet för svaret.
             </seg>
@@ -3036,7 +3123,9 @@
             </seg>
             <seg n="b119e98a"/>
             <seg n="b119e98a"/>
-            <seg n="b119e98a"/>
+          </u>
+          <pb n="34" facs="https://betalab.kb.se/prot-197980--108/prot_197980__108-034.jp2/_view"/>
+          <u who="unknown" xml:id="i-abc0146aef880fc0-13" n="abc0146a">
             <seg n="386d19fd">
               används för grym jakt på vilda djur.
             </seg>
@@ -3115,22 +3204,45 @@
               ofogen, om vi
             </seg>
           </u>
-          <pb n="34" facs="https://betalab.kb.se/prot-197980--108/prot_197980__108-034.jp2/_view"/>
           <note n="04300279">
             Nr 108
           </note>
           <note type="date" n="259e3924">
             Tisdagen den 25 mars 1980
           </note>
-          <u who="unknown" xml:id="i-0d7a8ca40cac5536-2" n="abc0146a">
+          <u who="unknown" xml:id="i-abc0146aef880fc0-14" n="abc0146a">
             <seg n="36ca95eb">
               Om åtgärder mot olämplig trafik
             </seg>
+          </u>
+          <note n="cf8b0a03">
+            med snöskoter
+          </note>
+          <note n="ef8700f2">
+            171
+          </note>
+          <pb n="35" facs="https://betalab.kb.se/prot-197980--108/prot_197980__108-035.jp2/_view"/>
+          <u who="unknown" xml:id="i-abc0146aef880fc0-15" n="abc0146a">
             <seg n="b119e98a"/>
-            <seg n="b119e98a"/>
+          </u>
+          <note n="04300279">
+            Nr 108
+          </note>
+          <note type="date" n="259e3924">
+            Tisdagen den 25 mars 1980
+          </note>
+          <note n="91685a9d">
+            Om åtgärder mot
+          </note>
+          <u who="unknown" xml:id="i-abc0146aef880fc0-16" n="abc0146a">
             <seg n="3500e30b">
               olämplig trafik med snöskoter
             </seg>
+          </u>
+          <note n="0aedab9c">
+            172
+          </note>
+          <u who="unknown" xml:id="i-abc0146aef880fc0-17" n="abc0146a">
             <seg n="e8e895e9">
               får bort de oerhörda hastigheterna, och om vi sedan tillsammans
               med skoterbranschen kan ta upp en del andra saker, såsom frågan
@@ -3144,29 +3256,10 @@
               Den tycker jag att vi skall se närmare på.
             </seg>
           </u>
-          <note n="cf8b0a03">
-            med snöskoter
-          </note>
-          <note n="ef8700f2">
-            171
-          </note>
-          <pb n="35" facs="https://betalab.kb.se/prot-197980--108/prot_197980__108-035.jp2/_view"/>
-          <note n="04300279">
-            Nr 108
-          </note>
-          <note type="date" n="259e3924">
-            Tisdagen den 25 mars 1980
-          </note>
-          <note n="91685a9d">
-            Om åtgärder mot
-          </note>
-          <note n="0aedab9c">
-            172
-          </note>
           <note type="speaker" n="3830d335">
             OLLE GÖRANSSON (s):
           </note>
-          <u who="olle_goransson_f62858" xml:id="i-7c2f0f28712542b8-0" n="4f75ffcc">
+          <u who="olle_goransson_f62858" xml:id="i-4f75ffccb167b54d-0" next="i-4f75ffccb167b54d-1" n="4f75ffcc">
             <seg n="c57a3f40">
               Herr talman! Det är bra att kommunikationsministern är beredd
               att pröva olika möjligheter för att stävja ofoget. Jag är övertygad
@@ -3223,18 +3316,19 @@
             </seg>
             <seg n="b119e98a"/>
             <seg n="b119e98a"/>
-            <seg n="b119e98a"/>
+          </u>
+          <pb n="36" facs="https://betalab.kb.se/prot-197980--108/prot_197980__108-036.jp2/_view"/>
+          <u who="olle_goransson_f62858" xml:id="i-4f75ffccb167b54d-1" prev="i-4f75ffccb167b54d-0" n="4f75ffcc">
             <seg n="d664c494">
               Det är klart att man kan ställa körkortskrav, men — som jag sagt
               — hur skall vi å andra sidan rimligtvis kunna övervaka detta?
               Jag har en känsla av att det skulle bli mycket svårt.
             </seg>
           </u>
-          <pb n="36" facs="https://betalab.kb.se/prot-197980--108/prot_197980__108-036.jp2/_view"/>
           <note type="speaker" n="3830d335">
             OLLE GÖRANSSON (s):
           </note>
-          <u who="olle_goransson_f62858" xml:id="i-d652ab5e38107edd-0" next="i-114e17ad4da9597e-0" n="4f75ffcc">
+          <u who="olle_goransson_f62858" xml:id="i-4f75ffccb167b54d-2" next="i-4f75ffccb167b54d-8" n="4f75ffcc">
             <seg n="6d19293b">
               Herr talman! Vi pratar som sagt var om två olika kategorier av
               skoterägare. Jag har klart undantagit de människor som behöver
@@ -3258,10 +3352,17 @@
           <note n="ddad9fb6">
             Överläggningen var härmed avslutad.
           </note>
-          <u who="olle_goransson_f62858" xml:id="i-114e17ad4da9597e-0" prev="i-d652ab5e38107edd-0" n="4f75ffcc">
+          <u who="olle_goransson_f62858" xml:id="i-4f75ffccb167b54d-3" prev="i-4f75ffccb167b54d-2" n="4f75ffcc">
             <seg n="189c7ef6">
               $ 12 Om utbjudande av statligt informationsmaterial
             </seg>
+          </u>
+          <note n="e1234176">
+            Kommunikationsministern ULF ADELSOHN erhöll ordet för att besvara
+            tredje vice talmannen Karl Erik Erikssons (fp) den 11 mars anmälda
+            fråga, 1979/80:368, och anförde:
+          </note>
+          <u who="olle_goransson_f62858" xml:id="i-4f75ffccb167b54d-4" prev="i-4f75ffccb167b54d-2" n="4f75ffcc">
             <seg n="043c002c">
               Herr talman! Karl Erik Eriksson uppger att trafiksäkerhetsverket
               framställt och tryckt upp en kostsam katalog där man utbjuder
@@ -3287,24 +3388,7 @@
               angående bl. a. trafiksäkerhetsinformationen. Det har resulterat
               i rader av väl samkörda aktiviteter genom åren.
             </seg>
-            <seg n="5692cd9c">
-              av statligt informationsmaterial
-            </seg>
-            <seg n="b119e98a"/>
-            <seg n="5692cd9c">
-              av statligt informationsmaterial
-            </seg>
-            <seg n="4988395e">
-              Jag vill också nämna att trafiksäkerhetsutredningen som blir
-              klar till sommaren bl. a. skall bedöma en lämplig fördelning av
-              arbetet mellan dem som sysslar med trafiksäkerhet.
-            </seg>
           </u>
-          <note n="e1234176">
-            Kommunikationsministern ULF ADELSOHN erhöll ordet för att besvara
-            tredje vice talmannen Karl Erik Erikssons (fp) den 11 mars anmälda
-            fråga, 1979/80:368, och anförde:
-          </note>
           <note n="4b382d1b">
             Sådan gratisutdelning av material som Karl Erik Eriksson påtalar
             i sin
@@ -3321,10 +3405,16 @@
           <note n="59b6f4e0">
             Om utbjudande
           </note>
+          <u who="olle_goransson_f62858" xml:id="i-4f75ffccb167b54d-5" prev="i-4f75ffccb167b54d-2" n="4f75ffcc">
+            <seg n="5692cd9c">
+              av statligt informationsmaterial
+            </seg>
+          </u>
           <note n="f8b189af">
             173
           </note>
           <pb n="37" facs="https://betalab.kb.se/prot-197980--108/prot_197980__108-037.jp2/_view"/>
+          <u who="olle_goransson_f62858" xml:id="i-4f75ffccb167b54d-6" prev="i-4f75ffccb167b54d-2" n="4f75ffcc"/>
           <note n="04300279">
             Nr 108
           </note>
@@ -3334,6 +3424,11 @@
           <note n="59b6f4e0">
             Om utbjudande
           </note>
+          <u who="olle_goransson_f62858" xml:id="i-4f75ffccb167b54d-7" prev="i-4f75ffccb167b54d-2" n="4f75ffcc">
+            <seg n="5692cd9c">
+              av statligt informationsmaterial
+            </seg>
+          </u>
           <note n="4b3aabdf">
             174
           </note>
@@ -3343,10 +3438,17 @@
             av material m. m. kommer även i fortsättningen att ske enligt
             den samverkansöverenskommelse jag tidigare nämnt.
           </note>
+          <u who="olle_goransson_f62858" xml:id="i-4f75ffccb167b54d-8" prev="i-4f75ffccb167b54d-2" n="4f75ffcc">
+            <seg n="4988395e">
+              Jag vill också nämna att trafiksäkerhetsutredningen som blir
+              klar till sommaren bl. a. skall bedöma en lämplig fördelning av
+              arbetet mellan dem som sysslar med trafiksäkerhet.
+            </seg>
+          </u>
           <note type="speaker" n="038fe37f">
             Tredje vice talmannen KARL ERIK ERIKSSON (fp):
           </note>
-          <u who="karl_erik_eriksson_fbf635" xml:id="i-9744a67f927ac488-0" n="cc81e770">
+          <u who="karl_erik_eriksson_fbf635" xml:id="i-cc81e770dbc694e1-0" next="i-cc81e770dbc694e1-1" n="cc81e770">
             <seg n="2f73572f">
               Herr talman! När man som gammal MHF-are har intresserat sig något
               för trafiksäkerhetsfrågor, är det naturligt att man tar del av
@@ -3398,7 +3500,9 @@
               skett ett samråd för att undvika dubbelarbete innan den här katalogen
               trycktes och innan gratisutdelningen erbjöds?
             </seg>
-            <seg n="b119e98a"/>
+          </u>
+          <pb n="38" facs="https://betalab.kb.se/prot-197980--108/prot_197980__108-038.jp2/_view"/>
+          <u who="karl_erik_eriksson_fbf635" xml:id="i-cc81e770dbc694e1-1" prev="i-cc81e770dbc694e1-0" n="cc81e770">
             <seg n="6f221283">
               Kommunikationsministern ULF ADELSOHN:
             </seg>
@@ -3430,11 +3534,10 @@
               ger mycket stor effekt.
             </seg>
           </u>
-          <pb n="38" facs="https://betalab.kb.se/prot-197980--108/prot_197980__108-038.jp2/_view"/>
           <note type="speaker" n="038fe37f">
             Tredje vice talmannen KARL ERIK ERIKSSON (fp):
           </note>
-          <u who="karl_erik_eriksson_fbf635" xml:id="i-9c84959e0f07fa5b-0" next="i-beef657bf9eca99f-0" n="cc81e770">
+          <u who="karl_erik_eriksson_fbf635" xml:id="i-cc81e770dbc694e1-2" next="i-cc81e770dbc694e1-8" n="cc81e770">
             <seg n="bac06d47">
               Herr talman! Det är sällan som man i den här kammaren får så
               raka besked och ett så klart instämmande från ett statsråds sida
@@ -3461,22 +3564,54 @@
           <note n="ddad9fb6">
             Överläggningen var härmed avslutad.
           </note>
-          <u who="karl_erik_eriksson_fbf635" xml:id="i-beef657bf9eca99f-0" prev="i-9c84959e0f07fa5b-0" n="cc81e770">
+          <u who="karl_erik_eriksson_fbf635" xml:id="i-cc81e770dbc694e1-3" prev="i-cc81e770dbc694e1-2" n="cc81e770">
             <seg n="880ba0dc">
               $ 13 Om planeringen av brobygget vid Almösund
             </seg>
+          </u>
+          <note n="dba0e8b5">
+            Kommunikationsministern ULF ADELSOHN erhöll ordet för att besvara
+            Marie-Ann Johanssons (vpk) den 12 mars anmälda fråga, 1979/80:371,
+            och anförde:
+          </note>
+          <u who="karl_erik_eriksson_fbf635" xml:id="i-cc81e770dbc694e1-4" prev="i-cc81e770dbc694e1-2" n="cc81e770">
             <seg n="103debf8">
               Herr talman! Marie-Ann Johansson har frågat mig om regeringen
               är beredd att ge vägverket sådana direktiv att brobygget vid Almösund
               inte
             </seg>
+          </u>
+          <note n="04300279">
+            Nr 108
+          </note>
+          <note type="date" n="259e3924">
+            Tisdagen den 25 mars 1980
+          </note>
+          <u who="karl_erik_eriksson_fbf635" xml:id="i-cc81e770dbc694e1-5" prev="i-cc81e770dbc694e1-2" n="cc81e770">
             <seg n="fefad985">
               Om planeringen av brobygget vid
             </seg>
-            <seg n="b119e98a"/>
+          </u>
+          <note n="d23a2fa0">
+            Almösund
+          </note>
+          <note n="12b29bd2">
+            175
+          </note>
+          <pb n="39" facs="https://betalab.kb.se/prot-197980--108/prot_197980__108-039.jp2/_view"/>
+          <u who="karl_erik_eriksson_fbf635" xml:id="i-cc81e770dbc694e1-6" prev="i-cc81e770dbc694e1-2" n="cc81e770"/>
+          <note type="date" n="88472112">
+            Nr 108 Tisdagen den 25 mars 1980
+          </note>
+          <u who="karl_erik_eriksson_fbf635" xml:id="i-cc81e770dbc694e1-7" prev="i-cc81e770dbc694e1-2" n="cc81e770">
             <seg n="544b000d">
               Om planeringen av brobygget vid Almösund
             </seg>
+          </u>
+          <note n="2acf8d10">
+            176
+          </note>
+          <u who="karl_erik_eriksson_fbf635" xml:id="i-cc81e770dbc694e1-8" prev="i-cc81e770dbc694e1-2" n="cc81e770">
             <seg n="196b5ede">
               onödigtvis försenas. Enligt Marie-Ann Johansson har vägverket
               dels förlängt anbudstiden för den nya bron, dels fattat beslut
@@ -3522,34 +3657,10 @@
               några särskilda regeringsdirektiv.
             </seg>
           </u>
-          <note n="dba0e8b5">
-            Kommunikationsministern ULF ADELSOHN erhöll ordet för att besvara
-            Marie-Ann Johanssons (vpk) den 12 mars anmälda fråga, 1979/80:371,
-            och anförde:
-          </note>
-          <note n="04300279">
-            Nr 108
-          </note>
-          <note type="date" n="259e3924">
-            Tisdagen den 25 mars 1980
-          </note>
-          <note n="d23a2fa0">
-            Almösund
-          </note>
-          <note n="12b29bd2">
-            175
-          </note>
-          <pb n="39" facs="https://betalab.kb.se/prot-197980--108/prot_197980__108-039.jp2/_view"/>
-          <note n="fc62dc65">
-            Nr 108 Tisdagen den 25 mars 1980
-          </note>
-          <note n="2acf8d10">
-            176
-          </note>
           <note type="speaker" n="d53f6b61">
             MARIE-ANN JOHANSSON (vpk):
           </note>
-          <u who="marie-ann_johansson_8f54f8" xml:id="i-0bece0a5bc97014b-0" next="i-a25ed0977ec8d3d8-0" n="23062f61">
+          <u who="marie-ann_johansson_8f54f8" xml:id="i-570e6b662ff34180-0" next="i-570e6b662ff34180-4" n="23062f61">
             <seg n="92fd9334">
               Herr talman! Jag ber att få tacka för svaret på min fråga.
             </seg>
@@ -3581,7 +3692,9 @@
             </seg>
             <seg n="b119e98a"/>
             <seg n="b119e98a"/>
-            <seg n="b119e98a"/>
+          </u>
+          <pb n="40" facs="https://betalab.kb.se/prot-197980--108/prot_197980__108-040.jp2/_view"/>
+          <u who="marie-ann_johansson_8f54f8" xml:id="i-570e6b662ff34180-1" prev="i-570e6b662ff34180-0" n="23062f61">
             <seg n="85c9fbf2">
               tern sagt att en lösning som innebär att man använder befintliga
               brofästen och uppfartsvägar inte är tekniskt möjlig att genomföra.
@@ -3648,21 +3761,15 @@
               inte tidigare.
             </seg>
           </u>
-          <pb n="40" facs="https://betalab.kb.se/prot-197980--108/prot_197980__108-040.jp2/_view"/>
           <note n="04300279">
             Nr 108
           </note>
           <note type="date" n="259e3924">
             Tisdagen den 25 mars 1980
           </note>
-          <u who="marie-ann_johansson_8f54f8" xml:id="i-a25ed0977ec8d3d8-0" prev="i-0bece0a5bc97014b-0" n="23062f61">
+          <u who="marie-ann_johansson_8f54f8" xml:id="i-570e6b662ff34180-2" prev="i-570e6b662ff34180-0" n="23062f61">
             <seg n="fefad985">
               Om planeringen av brobygget vid
-            </seg>
-            <seg n="b119e98a"/>
-            <seg n="b119e98a"/>
-            <seg n="08bc6bb6">
-              taxitrafik utan tillstånd
             </seg>
           </u>
           <note n="d23a2fa0">
@@ -3672,6 +3779,9 @@
             177
           </note>
           <pb n="41" facs="https://betalab.kb.se/prot-197980--108/prot_197980__108-041.jp2/_view"/>
+          <u who="marie-ann_johansson_8f54f8" xml:id="i-570e6b662ff34180-3" prev="i-570e6b662ff34180-0" n="23062f61">
+            <seg n="b119e98a"/>
+          </u>
           <note n="04300279">
             Nr 108
           </note>
@@ -3681,13 +3791,18 @@
           <note n="d6a1dc4f">
             Om påföljden av
           </note>
+          <u who="marie-ann_johansson_8f54f8" xml:id="i-570e6b662ff34180-4" prev="i-570e6b662ff34180-0" n="23062f61">
+            <seg n="08bc6bb6">
+              taxitrafik utan tillstånd
+            </seg>
+          </u>
           <note n="b8756b8f">
             178
           </note>
           <note type="speaker" n="d53f6b61">
             MARIE-ANN JOHANSSON (vpk):
           </note>
-          <u who="marie-ann_johansson_8f54f8" xml:id="i-0c19a0dcfc66833f-0" n="23062f61">
+          <u who="marie-ann_johansson_8f54f8" xml:id="i-570e6b662ff34180-5" n="23062f61">
             <seg n="51c9d447">
               Herr talman! Jag tycker att de besked som kommunikationsministern
               nu har givit är positiva. Men min fråga var: Om det nu när anbuden
@@ -3717,7 +3832,7 @@
           <note type="speaker" n="d53f6b61">
             MARIE-ANN JOHANSSON (vpk):
           </note>
-          <u who="marie-ann_johansson_8f54f8" xml:id="i-0bece0a5bc97014b-1" next="i-a25ed0977ec8d3d8-1" n="23062f61">
+          <u who="marie-ann_johansson_8f54f8" xml:id="i-570e6b662ff34180-6" next="i-570e6b662ff34180-10" n="23062f61">
             <seg n="38f62f60">
               Herr talman! Det är mycket positivt. Jag vill tacka för de orden.
               Jag tror säkert att de öbor som nu är bekymrade kommer att konstatera
@@ -3729,10 +3844,17 @@
           <note n="ddad9fb6">
             Överläggningen var härmed avslutad.
           </note>
-          <u who="marie-ann_johansson_8f54f8" xml:id="i-a25ed0977ec8d3d8-1" prev="i-0bece0a5bc97014b-1" n="23062f61">
+          <u who="marie-ann_johansson_8f54f8" xml:id="i-570e6b662ff34180-7" prev="i-570e6b662ff34180-6" n="23062f61">
             <seg n="8ae4689d">
               $ 14 Om påföljden av taxitrafik utan tillstånd
             </seg>
+          </u>
+          <note n="681c64f9">
+            Kommunikationsministern ULF ADELSOHN erhöll ordet för att besvara
+            Bonnie Bernströms (fp) den 19 mars anmälda fråga, 1979/80:387,
+            och anförde:
+          </note>
+          <u who="marie-ann_johansson_8f54f8" xml:id="i-570e6b662ff34180-8" prev="i-570e6b662ff34180-6" n="23062f61">
             <seg n="6921a2e0">
               Herr talman! Bonnie Bernström har frågat mig om jag anser det
               förenligt med rättssäkerheten att beslagtagande av bilen blir
@@ -3746,8 +3868,16 @@
               det allmänna, samtidigt som den olaga trafiken medför stora ekonomiska
               fördelar för utövaren.
             </seg>
-            <seg n="b119e98a"/>
-            <seg n="b119e98a"/>
+          </u>
+          <note n="8bf32836">
+            Regeringen har den 20 mars i år beslutat om en proposition om
+            vissa taxifrågor. I propositionen föreslås bl.a. en ny straffskala
+            för olaga yrkesmässig trafik, alltså bl.a. olaga taxitrafik. Med
+            den föreslagna
+          </note>
+          <u who="marie-ann_johansson_8f54f8" xml:id="i-570e6b662ff34180-9" prev="i-570e6b662ff34180-6" n="23062f61"/>
+          <pb n="42" facs="https://betalab.kb.se/prot-197980--108/prot_197980__108-042.jp2/_view"/>
+          <u who="marie-ann_johansson_8f54f8" xml:id="i-570e6b662ff34180-10" prev="i-570e6b662ff34180-6" n="23062f61">
             <seg n="4beaabc7">
               straffskalan blir det möjligt att till skillnad från nu döma
               till fängelse för den olaga trafiken.
@@ -3766,22 +3896,10 @@
               rättssäkerhetsaspekterna beaktas i det sammanhanget.
             </seg>
           </u>
-          <note n="681c64f9">
-            Kommunikationsministern ULF ADELSOHN erhöll ordet för att besvara
-            Bonnie Bernströms (fp) den 19 mars anmälda fråga, 1979/80:387,
-            och anförde:
-          </note>
-          <note n="8bf32836">
-            Regeringen har den 20 mars i år beslutat om en proposition om
-            vissa taxifrågor. I propositionen föreslås bl.a. en ny straffskala
-            för olaga yrkesmässig trafik, alltså bl.a. olaga taxitrafik. Med
-            den föreslagna
-          </note>
-          <pb n="42" facs="https://betalab.kb.se/prot-197980--108/prot_197980__108-042.jp2/_view"/>
           <note type="speaker" n="62afb047">
             BONNIE BERNSTRÖM (fp):
           </note>
-          <u who="unknown" xml:id="i-7a95e66e2f7372aa-3" n="abc0146a">
+          <u who="unknown" xml:id="i-abc0146aef880fc0-18" n="abc0146a">
             <seg n="ea470825">
               Herr talman! Jag tackar herr kommunikationsministern för svaret.
             </seg>
@@ -3835,16 +3953,36 @@
           <note type="date" n="259e3924">
             Tisdagen den 25 mars 1980
           </note>
-          <u who="unknown" xml:id="i-0d7a8ca40cac5536-3" n="abc0146a">
+          <u who="unknown" xml:id="i-abc0146aef880fc0-19" n="abc0146a">
             <seg n="250c424c">
               Om påföljden taxitrafik utan tillstånd
             </seg>
+          </u>
+          <note n="c06bb6cd">
+            av
+          </note>
+          <note n="d88cdff5">
+            179
+          </note>
+          <pb n="43" facs="https://betalab.kb.se/prot-197980--108/prot_197980__108-043.jp2/_view"/>
+          <u who="unknown" xml:id="i-abc0146aef880fc0-20" n="abc0146a">
             <seg n="b119e98a"/>
-            <seg n="b119e98a"/>
-            <seg n="b119e98a"/>
+          </u>
+          <note n="04300279">
+            Nr 108
+          </note>
+          <note type="date" n="259e3924">
+            Tisdagen den 25 mars 1980
+          </note>
+          <u who="unknown" xml:id="i-abc0146aef880fc0-21" n="abc0146a">
             <seg n="b79302b1">
               Om virkestransporterna på tjälskadade vägar
             </seg>
+          </u>
+          <note n="cb15aa8f">
+            180
+          </note>
+          <u who="unknown" xml:id="i-abc0146aef880fc0-22" n="abc0146a">
             <seg n="6f221283">
               Kommunikationsministern ULF ADELSOHN:
             </seg>
@@ -3868,26 +4006,10 @@
               inte aktuellt med ett sådant straff.
             </seg>
           </u>
-          <note n="c06bb6cd">
-            av
-          </note>
-          <note n="d88cdff5">
-            179
-          </note>
-          <pb n="43" facs="https://betalab.kb.se/prot-197980--108/prot_197980__108-043.jp2/_view"/>
-          <note n="04300279">
-            Nr 108
-          </note>
-          <note type="date" n="259e3924">
-            Tisdagen den 25 mars 1980
-          </note>
-          <note n="cb15aa8f">
-            180
-          </note>
           <note type="speaker" n="62afb047">
             BONNIE BERNSTRÖM (fp):
           </note>
-          <u who="unknown" xml:id="i-7a95e66e2f7372aa-4" n="abc0146a">
+          <u who="unknown" xml:id="i-abc0146aef880fc0-23" n="abc0146a">
             <seg n="53dbe822">
               Herr talman! I och för sig skulle jag kunna vara nöjd med det
               svar som kommunikationsministern nu gav. Det ger åtminstone den
@@ -3905,10 +4027,17 @@
           <note n="ddad9fb6">
             Överläggningen var härmed avslutad.
           </note>
-          <u who="unknown" xml:id="i-0d7a8ca40cac5536-4" n="abc0146a">
+          <u who="unknown" xml:id="i-abc0146aef880fc0-24" n="abc0146a">
             <seg n="5272404c">
               $ 15 Om virkestransporterna på tjälskadade vägar
             </seg>
+          </u>
+          <note n="42e07cd2">
+            Kommunikationsministern ULF ADELSOHN erhöll ordet för att besvara
+            Bertil Jonassons (c) den 29 februari anmälda interpellation, 1979/80:157,
+            och anförde:
+          </note>
+          <u who="unknown" xml:id="i-abc0146aef880fc0-25" n="abc0146a">
             <seg n="a1f7f45b">
               Herr talman! Bertil Jonasson har frågat mig dels om jag är beredd
               att medverka till en sådan författningsändring att väghållarna
@@ -3917,8 +4046,20 @@
               från dessa bestämmelser, dels om jag anser det möjligt att genomföra
               sådana bestämmelser så att de kan gälla under årets tjällossningsperiod.
             </seg>
+          </u>
+          <note n="745f1df4">
+            Bestämmelserna om trafikföreskrifter vid tjällossningen ändrades
+            för ungefär två år sedan i syfte att förenkla handläggningen.
+            Mot bakgrund av erfarenheterna av den nya ordningen har trafiksäkerhetsverket
+            i december 1979 föreslagit vissa ändringar i bestämmelserna. Remissbehandlingen
+            av framställningen har nyligen avslutats. Verkets förslag — som
+            har mottagits
+          </note>
+          <u who="unknown" xml:id="i-abc0146aef880fc0-26" n="abc0146a">
             <seg n="b119e98a"/>
-            <seg n="b119e98a"/>
+          </u>
+          <pb n="44" facs="https://betalab.kb.se/prot-197980--108/prot_197980__108-044.jp2/_view"/>
+          <u who="unknown" xml:id="i-abc0146aef880fc0-27" n="abc0146a">
             <seg n="2fa678bc">
               positivt av remissinstanserna — innebär ytterligare förenklingar,
               som ligger väl i linje med Bertil Jonassons förslag. Jag kommer
@@ -3930,24 +4071,10 @@
               säsong.
             </seg>
           </u>
-          <note n="42e07cd2">
-            Kommunikationsministern ULF ADELSOHN erhöll ordet för att besvara
-            Bertil Jonassons (c) den 29 februari anmälda interpellation, 1979/80:157,
-            och anförde:
-          </note>
-          <note n="745f1df4">
-            Bestämmelserna om trafikföreskrifter vid tjällossningen ändrades
-            för ungefär två år sedan i syfte att förenkla handläggningen.
-            Mot bakgrund av erfarenheterna av den nya ordningen har trafiksäkerhetsverket
-            i december 1979 föreslagit vissa ändringar i bestämmelserna. Remissbehandlingen
-            av framställningen har nyligen avslutats. Verkets förslag — som
-            har mottagits
-          </note>
-          <pb n="44" facs="https://betalab.kb.se/prot-197980--108/prot_197980__108-044.jp2/_view"/>
           <note type="speaker" n="0c41d924">
             BERTIL JONASSON (c):
           </note>
-          <u who="bertil_jonasson_e1930a" xml:id="i-348cd072ac57bc67-0" next="i-70ba717bbfedf9a3-0" n="fc1c59fd">
+          <u who="bertil_jonasson_e1930a" xml:id="i-fc1c59fd1e659f28-0" next="i-fc1c59fd1e659f28-4" n="fc1c59fd">
             <seg n="4e837b39">
               Herr talman! Jag vill först tacka kommunikationsministern för
               svaret.
@@ -4016,15 +4143,39 @@
           <note type="date" n="259e3924">
             Tisdagen den 25 mars 1980
           </note>
-          <u who="bertil_jonasson_e1930a" xml:id="i-70ba717bbfedf9a3-0" prev="i-348cd072ac57bc67-0" n="fc1c59fd">
+          <u who="bertil_jonasson_e1930a" xml:id="i-fc1c59fd1e659f28-1" prev="i-fc1c59fd1e659f28-0" n="fc1c59fd">
             <seg n="ed4776de">
               Om virkestransporterna på tjäl-
             </seg>
+          </u>
+          <note n="5bbb224a">
+            skadade vägar
+          </note>
+          <note n="eefbe0b9">
+            181
+          </note>
+          <pb n="45" facs="https://betalab.kb.se/prot-197980--108/prot_197980__108-045.jp2/_view"/>
+          <u who="bertil_jonasson_e1930a" xml:id="i-fc1c59fd1e659f28-2" prev="i-fc1c59fd1e659f28-0" n="fc1c59fd">
             <seg n="b119e98a"/>
-            <seg n="b119e98a"/>
+          </u>
+          <note n="04300279">
+            Nr 108
+          </note>
+          <note type="date" n="259e3924">
+            Tisdagen den 25 mars 1980
+          </note>
+          <note n="4bbdbc39">
+            Om virkestrans-
+          </note>
+          <u who="bertil_jonasson_e1930a" xml:id="i-fc1c59fd1e659f28-3" prev="i-fc1c59fd1e659f28-0" n="fc1c59fd">
             <seg n="ae2edb22">
               porterna på tjälskadade vägar
             </seg>
+          </u>
+          <note n="3f308405">
+            182
+          </note>
+          <u who="bertil_jonasson_e1930a" xml:id="i-fc1c59fd1e659f28-4" prev="i-fc1c59fd1e659f28-0" n="fc1c59fd">
             <seg n="39a493ab">
               pengar som står på spel när det gäller virket. Industrin väntar
               också och vill ha mer råvara — vi känner till den diskussion som
@@ -4055,29 +4206,10 @@
               detta sätt.
             </seg>
           </u>
-          <note n="5bbb224a">
-            skadade vägar
-          </note>
-          <note n="eefbe0b9">
-            181
-          </note>
-          <pb n="45" facs="https://betalab.kb.se/prot-197980--108/prot_197980__108-045.jp2/_view"/>
-          <note n="04300279">
-            Nr 108
-          </note>
-          <note type="date" n="259e3924">
-            Tisdagen den 25 mars 1980
-          </note>
-          <note n="4bbdbc39">
-            Om virkestrans-
-          </note>
-          <note n="3f308405">
-            182
-          </note>
           <note type="speaker" n="0c41d924">
             BERTIL JONASSON (c):
           </note>
-          <u who="bertil_jonasson_e1930a" xml:id="i-348cd072ac57bc67-1" next="i-70ba717bbfedf9a3-1" n="fc1c59fd">
+          <u who="bertil_jonasson_e1930a" xml:id="i-fc1c59fd1e659f28-5" next="i-fc1c59fd1e659f28-10" n="fc1c59fd">
             <seg n="52e57d1d">
               Herr talman! Jag känner inte till vad alla bestämmelser i fråga
               om de här förslagen innefattar. Men om det fanns en möjlighet
@@ -4117,29 +4249,7 @@
             1979/80:1917 till jordbruksutskottet 1979/80:1918 till socialförsäkringsutskottet
           </note>
           <pb n="46" facs="https://betalab.kb.se/prot-197980--108/prot_197980__108-046.jp2/_view"/>
-          <u who="bertil_jonasson_e1930a" xml:id="i-70ba717bbfedf9a3-1" prev="i-348cd072ac57bc67-1" n="fc1c59fd">
-            <seg n="b119e98a"/>
-            <seg n="b119e98a"/>
-            <seg n="b119e98a"/>
-            <seg n="b119e98a"/>
-            <seg n="f36368db">
-              Enligt uppgift skiljs i dag parterna åt i förhandlingarna om
-              OMUS- reformens konsekvenser för den högre musikutbildningen.
-              Dessa har ägt rum sedan sommaren 1978, dvs. kort efter det att
-              riksdagen fattade beslut om en förändrad högre musikutbildning.
-              Utan ett avtal äventyras hela reformen.
-            </seg>
-            <seg n="8d1af0a5">
-              Arbetstagarparten begär nu att regeringen tillkallar en förlikningsman,
-              vilket är helt unikt i fråga om en förhandling som grundas på
-              organisationsförändringar under löpande avtalsperiod.
-            </seg>
-            <seg n="8a360686">
-              Mot denna bakgrund vill jag fråga statsrådet Olof Johansson om
-              regeringen avser att tillkalla en förlikningsman i enlighet med
-              arbetstagarnas önskemål.
-            </seg>
-          </u>
+          <u who="bertil_jonasson_e1930a" xml:id="i-fc1c59fd1e659f28-6" prev="i-fc1c59fd1e659f28-5" n="fc1c59fd"/>
           <note n="32a43a9e">
             $18 Föredrogs men bordlades åter Socialförsäkringsutskottets
             betänkanden 1979/80:12 och 13 Civilutskottets betänkanden 1979/80:16
@@ -4229,6 +4339,7 @@
             183
           </note>
           <pb n="47" facs="https://betalab.kb.se/prot-197980--108/prot_197980__108-047.jp2/_view"/>
+          <u who="bertil_jonasson_e1930a" xml:id="i-fc1c59fd1e659f28-7" prev="i-fc1c59fd1e659f28-5" n="fc1c59fd"/>
           <note n="04300279">
             Nr 108
           </note>
@@ -4318,7 +4429,11 @@
             vissa anslag inom handelsdepartementets verksamhetsområde jämte
             motioner
           </note>
+          <u who="bertil_jonasson_e1930a" xml:id="i-fc1c59fd1e659f28-8" prev="i-fc1c59fd1e659f28-5" n="fc1c59fd">
+            <seg n="b119e98a"/>
+          </u>
           <pb n="48" facs="https://betalab.kb.se/prot-197980--108/prot_197980__108-048.jp2/_view"/>
+          <u who="bertil_jonasson_e1930a" xml:id="i-fc1c59fd1e659f28-9" prev="i-fc1c59fd1e659f28-5" n="fc1c59fd"/>
           <note n="11e1ae4e">
             Arbetsmarknadsutskottets betänkande 1979/80:21 om anslag m. m.
             till arbetsmarknadspolitiken för budgetåret 1980/81
@@ -4333,17 +4448,36 @@
             1979/80:397 av Georg Andersson (s) till statsrådet Olof Johansson
             om förhandlingarna rörande den s. k. OMUS-reformen:
           </note>
+          <u who="bertil_jonasson_e1930a" xml:id="i-fc1c59fd1e659f28-10" prev="i-fc1c59fd1e659f28-5" n="fc1c59fd">
+            <seg n="f36368db">
+              Enligt uppgift skiljs i dag parterna åt i förhandlingarna om
+              OMUS- reformens konsekvenser för den högre musikutbildningen.
+              Dessa har ägt rum sedan sommaren 1978, dvs. kort efter det att
+              riksdagen fattade beslut om en förändrad högre musikutbildning.
+              Utan ett avtal äventyras hela reformen.
+            </seg>
+            <seg n="8d1af0a5">
+              Arbetstagarparten begär nu att regeringen tillkallar en förlikningsman,
+              vilket är helt unikt i fråga om en förhandling som grundas på
+              organisationsförändringar under löpande avtalsperiod.
+            </seg>
+            <seg n="8a360686">
+              Mot denna bakgrund vill jag fråga statsrådet Olof Johansson om
+              regeringen avser att tillkalla en förlikningsman i enlighet med
+              arbetstagarnas önskemål.
+            </seg>
+          </u>
           <note n="0f4de8a1">
             den 25 mars
           </note>
           <note type="speaker" n="f3f55994">
             1979/80:
           </note>
-          <u who="unknown" xml:id="i-7a95e66e2f7372aa-5" n="abc0146a"/>
+          <u who="unknown" xml:id="i-d2fe616dde5f13cf-0" n="abc0146a"/>
           <note type="speaker" n="44e5975f">
             398 av Nils Hjorth (s) till statsministern om kärnkraftsreaktorsprogrammet:
           </note>
-          <u who="nils_hjorth_e8b57a" xml:id="i-08ffe056065216c6-0" next="i-821fe3867b81578f-0" n="d2fe616d">
+          <u who="nils_hjorth_e8b57a" xml:id="i-d2fe616dde5f13cf-1" next="i-d2fe616dde5f13cf-8" n="d2fe616d">
             <seg n="a34fbb10">
               Folkomröstningen gav ett klart godkännande för ett energiprogram
               om användande av tolv kärnkraftsreaktorer under 25 år. Efter valet
@@ -4367,19 +4501,7 @@
           <note n="24d0aa82">
             In fidem BERTIL BJÖRNSSON /Solveig Gemert
           </note>
-          <u who="nils_hjorth_e8b57a" xml:id="i-821fe3867b81578f-0" prev="i-08ffe056065216c6-0" n="d2fe616d">
-            <seg n="b119e98a"/>
-            <seg n="914d4164">
-              Blächer, Raul (vpk) 76
-            </seg>
-            <seg n="6286e032">
-              Johansson, Marie-Ann (vpk) 90, 95
-            </seg>
-            <seg n="b119e98a"/>
-            <seg n="b119e98a"/>
-            <seg n="b119e98a"/>
-            <seg n="b119e98a"/>
-          </u>
+          <u who="nils_hjorth_e8b57a" xml:id="i-d2fe616dde5f13cf-2" prev="i-d2fe616dde5f13cf-1" n="d2fe616d"/>
           <note n="04300279">
             Nr 108
           </note>
@@ -4396,6 +4518,7 @@
             185
           </note>
           <pb n="49" facs="https://betalab.kb.se/prot-197980--108/prot_197980__108-049.jp2/_view"/>
+          <u who="nils_hjorth_e8b57a" xml:id="i-d2fe616dde5f13cf-3" prev="i-d2fe616dde5f13cf-1" n="d2fe616d"/>
           <note n="1218108f">
             1979/80 105-108
           </note>
@@ -4434,6 +4557,11 @@
           <note n="d2ea067e">
             André, Gunilla (c) 73, 74, 75
           </note>
+          <u who="nils_hjorth_e8b57a" xml:id="i-d2fe616dde5f13cf-4" prev="i-d2fe616dde5f13cf-1" n="d2fe616d">
+            <seg n="914d4164">
+              Blächer, Raul (vpk) 76
+            </seg>
+          </u>
           <note n="9df7fbe9">
             Burenstam Linder, Staffan, handelsminister 53, 54, 55, 56 Chrisopoulos,
             Alexander (vpk) 114
@@ -4457,6 +4585,11 @@
           <note n="1bdcb889">
             Holm, Elisabet, statsråd 59, 60, 61, 62, 63
           </note>
+          <u who="nils_hjorth_e8b57a" xml:id="i-d2fe616dde5f13cf-5" prev="i-d2fe616dde5f13cf-1" n="d2fe616d">
+            <seg n="6286e032">
+              Johansson, Marie-Ann (vpk) 90, 95
+            </seg>
+          </u>
           <note n="283e9539">
             Johansson, Sven (c) 62, 63
           </note>
@@ -4498,7 +4631,11 @@
           <note n="1395bf5d">
             Wirtén, Rolf, arbetsmarknadsminister 89, 93
           </note>
+          <u who="nils_hjorth_e8b57a" xml:id="i-d2fe616dde5f13cf-6" prev="i-d2fe616dde5f13cf-1" n="d2fe616d">
+            <seg n="b119e98a"/>
+          </u>
           <pb n="50" facs="https://betalab.kb.se/prot-197980--108/prot_197980__108-050.jp2/_view"/>
+          <u who="nils_hjorth_e8b57a" xml:id="i-d2fe616dde5f13cf-7" prev="i-d2fe616dde5f13cf-1" n="d2fe616d"/>
           <note n="da7848fa">
             d Wästberg, Olle, i Stockholm (fp) 53, 55, 56 1979/80 Åkerlind,
             Allan (m) 57, 58 105-108
@@ -4580,6 +4717,7 @@
           <note n="6607c4f6">
             GOTAB Stockholm 1980
           </note>
+          <u who="nils_hjorth_e8b57a" xml:id="i-d2fe616dde5f13cf-8" prev="i-d2fe616dde5f13cf-1" n="d2fe616d"/>
         </div>
       </body>
     </text>

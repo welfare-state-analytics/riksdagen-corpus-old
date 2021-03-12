@@ -20,7 +20,7 @@
     <encodingDesc>
       <editorialDecl>
         <correction>
-          <p>Some data curation was done. It is documented in db/curation/instances</p>
+          <p>Some data curation was done. It is documented in input/curation/instances</p>
         </correction>
       </editorialDecl>
     </encodingDesc>
@@ -52,18 +52,20 @@
       <front>
         <div type="preface">
           <head>prot-1940--ak--24</head>
-          <docDate when="1940">1940</docDate>
+          <docDate when="1940-04-16">1940-04-16</docDate>
+          <docDate when="1940-04-17">1940-04-17</docDate>
         </div>
       </front>
       <body>
         <div>
+          <pb n="0" facs="https://betalab.kb.se/prot-1940--ak--24/prot_1940__ak__24-000.jp2/_view"/>
           <note n="23e358bd">
             RIKSDAGENS PROTOKOLL. 1940. Andra kammaren. Nr 24.
           </note>
           <note n="5c08ee83"/>
           <note n="5c08ee83"/>
           <note n="5c08ee83"/>
-          <note n="e8143efc">
+          <note type="date" n="688306e8">
             Tisdagen den 16 april. Kl. 4 e. m.
           </note>
           <note n="75c0bd49">
@@ -118,7 +120,7 @@
           <note type="speaker" n="30a19420">
             Herr Eriksson i Stockholm erhöll på begäran ordet och yttrade:
           </note>
-          <u who="carl_eriksson_9fbfd2" xml:id="i-cb993f1e27d18465-0" n="eb0c487d">
+          <u who="carl_eriksson_9fbfd2" xml:id="i-67b6ae826b18a5ee-0" n="eb0c487d">
             <seg n="5a24240e">
               Herr talman! Jag tillåter mig hemställa, att kammaren ville besluta
               att å morgondagens föredragningslista två gånger bordlagda ärenden
@@ -136,7 +138,7 @@
             24. I
           </note>
           <pb n="1" facs="https://betalab.kb.se/prot-1940--ak--24/prot_1940__ak__24-001.jp2/_view"/>
-          <note n="8f897157">
+          <note type="date" n="356a3306">
             2 Nr 24. Tisdagen den 16 april 1940.
           </note>
           <note n="a6f67d68">
@@ -227,10 +229,10 @@
             Sune Norrman.
           </note>
           <pb n="2" facs="https://betalab.kb.se/prot-1940--ak--24/prot_1940__ak__24-002.jp2/_view"/>
-          <note n="1f40cac1">
+          <note type="date" n="1ab89c58">
             Onsdagen den 17 april 1940. Nr 24. 3
           </note>
-          <note n="602ca6a4">
+          <note type="date" n="2669ea61">
             Onsdagen den 17 april. KI. 11 f. m.
           </note>
           <note n="75c0bd49">
@@ -239,7 +241,7 @@
           <note type="speaker" n="f1a8a0f9">
             Herr statsrådet Wigforss avlämnade Kungl. Maj:
           </note>
-          <u who="ernst_wigforss_881974" xml:id="i-f2990b34426db33e-0" n="45b59b62">
+          <u who="ernst_wigforss_881974" xml:id="i-45b59b62d22ed6a2-0" n="45b59b62">
             <seg n="e424ab6e">
               ts propositioner:
             </seg>
@@ -262,7 +264,7 @@
             Herr talmannen lämnade på begäran ordet till chefen för kommunikations-
             Svar på fråga. departementet, herr statsrådet Andersson, som anförde:
           </note>
-          <u who="verner_andersson_b457ce" xml:id="i-3777faeaf705fc7c-0" next="i-4fbe4a7786308439-0" n="1718c40b">
+          <u who="verner_andersson_b457ce" xml:id="i-eb4e04cdf783377e-0" next="i-eb4e04cdf783377e-2" n="1718c40b">
             <seg n="45405404">
               Herr talman! Herr Lindmark har till mig framställt följande fråga:
               När kan utbetalning av bidrag från innevarande budgetårs anslag
@@ -277,23 +279,12 @@
             Genom beslut den 7 juli 1939 fördelade Kungl. Maj:t de i frågan
             avsedda anslagen mellan länen.
           </note>
-          <u who="verner_andersson_b457ce" xml:id="i-4fbe4a7786308439-0" prev="i-3777faeaf705fc7c-0" n="1718c40b">
+          <u who="verner_andersson_b457ce" xml:id="i-eb4e04cdf783377e-1" prev="i-eb4e04cdf783377e-0" n="1718c40b">
             <seg n="4818b668">
               Enligt gällande bestämmelser äger vederbörande länsstyrelse att
               fördela länet tilldelade andelar av dessa anslag på vägföretag
               i vägdistrikten i enlighet med för länet upprättad, av vägoch
               vattenbyggnadsstyrelsen granskad flerårsplan.
-            </seg>
-            <seg n="5345d12b">
-              Med anledning av detta Kungl. Maj:ts beslut måste länens flerårsplaner
-              revideras, i vissa fall fullständigt omarbetas, vilket givetvis
-              måste hava medfört en försening av medlens utbetalande till vägdistrikten.
-            </seg>
-            <seg n="28c7c542">
-              På förfrågan har vägoch vattenbyggnadsstyrelsen nu meddelat,
-              att flerårsplanerna granskats och godkänts för 20 av länen i riket.
-              För dessa läns vidkommande torde utbetalningen av medlen redan
-              vara ordnad eller inom kort kunna ordnas.
             </seg>
           </u>
           <note n="afcdb680">
@@ -314,6 +305,19 @@
             år 1940 omarbetad, av vägoch vattenbyggnadsstyrelsen granskad
             och godkänd flerårsplan.
           </note>
+          <u who="verner_andersson_b457ce" xml:id="i-eb4e04cdf783377e-2" prev="i-eb4e04cdf783377e-0" n="1718c40b">
+            <seg n="5345d12b">
+              Med anledning av detta Kungl. Maj:ts beslut måste länens flerårsplaner
+              revideras, i vissa fall fullständigt omarbetas, vilket givetvis
+              måste hava medfört en försening av medlens utbetalande till vägdistrikten.
+            </seg>
+            <seg n="28c7c542">
+              På förfrågan har vägoch vattenbyggnadsstyrelsen nu meddelat,
+              att flerårsplanerna granskats och godkänts för 20 av länen i riket.
+              För dessa läns vidkommande torde utbetalningen av medlen redan
+              vara ordnad eller inom kort kunna ordnas.
+            </seg>
+          </u>
           <note n="d89c9d3c">
             Beträffande övriga län har styrelsen till vederbörande länsstyrelser
             för viss komplettering återsänt planerna för två län; för ett
@@ -323,7 +327,7 @@
           <note n="cc1766f2">
             Svar på fråga.
           </note>
-          <note n="03a4d24f">
+          <note type="date" n="f227a773">
             4 Nr 24. Onsdagen den 17 april 1940.
           </note>
           <note n="6e7bead4">
@@ -337,7 +341,7 @@
           <note type="speaker" n="21b890ba">
             Herr Lindmark:
           </note>
-          <u who="ewald_lindmark_e5e78f" xml:id="i-aa0d2f0ea7ffb0c3-0" n="0ab0d464">
+          <u who="ewald_lindmark_e5e78f" xml:id="i-388f6a997d5273b6-0" n="0ab0d464">
             <seg n="034418e2">
               Herr talman! Jag ber att till herr statsrådet få framföra mitt
               tack för svaret. Det långa dröjsmålet med påbörjandet av utbetalningar
@@ -375,7 +379,7 @@
             Ordet erhölls på begäran av chefen för ecklesiastikdepartementet,
             herr statsrådet Bagge, som yttrade:
           </note>
-          <u who="gosta_bagge_a91c6f" xml:id="i-da8152ac2ebd81d2-0" n="c1e90ccd">
+          <u who="gosta_bagge_a91c6f" xml:id="i-c1e90ccd79c50ab6-0" n="c1e90ccd">
             <seg n="72b1a7be">
               Herr talman! Herr Holmbäck har till mig den 10 dennes riktat
               följande fråga: »Ämnar herr statsrådet — inför den brist på vitaminrik
@@ -406,7 +410,7 @@
           <note type="speaker" n="9d82aa63">
             Herr Holmbäck:
           </note>
-          <u who="ake_holmback_b1ec7c" xml:id="i-d8404ba40f0ee2f8-0" next="i-e9e9879dd223a2c9-0" n="2f349987">
+          <u who="ake_holmback_b1ec7c" xml:id="i-2f3499876429fc1f-0" next="i-2f3499876429fc1f-1" n="2f349987">
             <seg n="51e6b6f5">
               Herr talman! Jag ber att få framföra mitt tack till statsrådet
               för det svar han givit på min fråga. Tyvärr har statsrådet icke
@@ -416,10 +420,10 @@
             </seg>
           </u>
           <pb n="4" facs="https://betalab.kb.se/prot-1940--ak--24/prot_1940__ak__24-004.jp2/_view"/>
-          <note n="eeab7bfb">
+          <note type="date" n="00caa9de">
             Onsdagen den 17 april 1940. Nr 24. 5
           </note>
-          <u who="ake_holmback_b1ec7c" xml:id="i-e9e9879dd223a2c9-0" prev="i-d8404ba40f0ee2f8-0" n="2f349987">
+          <u who="ake_holmback_b1ec7c" xml:id="i-2f3499876429fc1f-1" prev="i-2f3499876429fc1f-0" n="2f349987">
             <seg n="36b0b615">
               Svar på fråga. (Forts.) rier än skolungdomen i mera sydligt belägna
               länder, men vi ha ju också betydligt strängäre vintrar, och just
@@ -451,7 +455,7 @@
             Chefen för ecklesiastikdepartementet, herr statsrådet Bagge,
             som på begäran erhöll ordet, anförde:
           </note>
-          <u who="gosta_bagge_a91c6f" xml:id="i-da8152ac2ebd81d2-1" n="c1e90ccd">
+          <u who="gosta_bagge_a91c6f" xml:id="i-c1e90ccd79c50ab6-1" n="c1e90ccd">
             <seg n="32004df2">
               Herr talman! Herr andre vice talmannen Magnussop har den 12 dennes
               till mig riktat följande fråga: »Då genom de skickelsedigra världshändelserna
@@ -481,7 +485,7 @@
           <note type="speaker" n="5fc5ae9f">
             Herr andre vice talmannen Magnusson:
           </note>
-          <u who="theodor_magnusson_e7895a" xml:id="i-182ef95e984dd9dc-0" next="i-0df15e3c2506ee29-0" n="91616fa8">
+          <u who="theodor_magnusson_e7895a" xml:id="i-e3129a6eb7ad1311-0" next="i-e3129a6eb7ad1311-1" n="91616fa8">
             <seg n="1cbd23bb">
               Herr talman! Det är på grund av uttalanden och framställningar
               från flera håll, som jag tillåtit mig rikta den nyss upplästa
@@ -505,10 +509,10 @@
             Svar på fråga.
           </note>
           <pb n="5" facs="https://betalab.kb.se/prot-1940--ak--24/prot_1940__ak__24-005.jp2/_view"/>
-          <note n="5f27fd6e">
+          <note type="date" n="353920fd">
             6 Nr 24. Onsdagen den 17 april 1940.
           </note>
-          <u who="theodor_magnusson_e7895a" xml:id="i-0df15e3c2506ee29-0" prev="i-182ef95e984dd9dc-0" n="91616fa8">
+          <u who="theodor_magnusson_e7895a" xml:id="i-e3129a6eb7ad1311-1" prev="i-e3129a6eb7ad1311-0" n="91616fa8">
             <seg n="9adb6fbc">
               Svar på fråga. (Forts.) dag får höra nyheter, som i hög grad
               taga dess uppmärksamhet i anspråk, innebär redan detta minskade
@@ -576,7 +580,7 @@
           <note type="speaker" n="2b459d37">
             Herr Holmdahl:
           </note>
-          <u who="otto_holmdahl_4133fc" xml:id="i-151ecb342d86b74d-0" next="i-41e49dcc8b5d5a23-0" n="fe8e9dfb">
+          <u who="otto_holmdahl_4133fc" xml:id="i-fe8e9dfb0df21eb7-0" next="i-fe8e9dfb0df21eb7-2" n="fe8e9dfb">
             <seg n="cb4127a8">
               Herr talman! Jag har tillåtit mig begära ordet i denna fråga.
               Jag skall emellertid söka beakta herr talmannens uppmaning till
@@ -585,10 +589,10 @@
             </seg>
           </u>
           <pb n="6" facs="https://betalab.kb.se/prot-1940--ak--24/prot_1940__ak__24-006.jp2/_view"/>
-          <note n="d8b9d4fb">
+          <note type="date" n="e7bf8e6f">
             Onsdagen den 17 april 1940. Nr 24. 7
           </note>
-          <u who="otto_holmdahl_4133fc" xml:id="i-41e49dcc8b5d5a23-0" prev="i-151ecb342d86b74d-0" n="fe8e9dfb">
+          <u who="otto_holmdahl_4133fc" xml:id="i-fe8e9dfb0df21eb7-1" prev="i-fe8e9dfb0df21eb7-0" n="fe8e9dfb">
             <seg n="fae6c7c0">
               Svar på fråga. (Forts.) det av frågor leda ut till en stor debatt.
               Jag anser mig nödsakad ta till orda av den anledningen, att det
@@ -666,6 +670,12 @@
               betydelse att skolan uppehåller så långt som möjligt sin verksamhet,
               att man inte därför att en del av skolung-
             </seg>
+          </u>
+          <pb n="7" facs="https://betalab.kb.se/prot-1940--ak--24/prot_1940__ak__24-007.jp2/_view"/>
+          <note type="date" n="6737120b">
+            8 Nr 24. Onsdagen den 17 april 1940.
+          </note>
+          <u who="otto_holmdahl_4133fc" xml:id="i-fe8e9dfb0df21eb7-2" prev="i-fe8e9dfb0df21eb7-0" n="fe8e9dfb">
             <seg n="69a73168">
               Svar på fråga. (Forts.) domen kan utnyttjas för vissa andra uppgifter
               ger generella ledigheter och dylikt och därmed också skapar de
@@ -675,14 +685,10 @@
               skolan i möjligaste mån söka upprätthålla sin verksamhet.
             </seg>
           </u>
-          <pb n="7" facs="https://betalab.kb.se/prot-1940--ak--24/prot_1940__ak__24-007.jp2/_view"/>
-          <note n="a0487086">
-            8 Nr 24. Onsdagen den 17 april 1940.
-          </note>
           <note type="speaker" n="5fc5ae9f">
             Herr andre vice talmannen Magnusson:
           </note>
-          <u who="theodor_magnusson_e7895a" xml:id="i-900f8deeb23d35bb-0" n="91616fa8">
+          <u who="theodor_magnusson_e7895a" xml:id="i-e3129a6eb7ad1311-2" n="91616fa8">
             <seg n="4648f471">
               Herr talman! Frågan, huruvida årets studentskrivningar ha varit
               svårare än vanligt, få vi väl lämna till en diskussion på annat
@@ -725,7 +731,7 @@
           <note type="speaker" n="86344fa7">
             Chefen för ecklesiastikdepartementet, herr statsrådet Bagge:
           </note>
-          <u who="gosta_bagge_a91c6f" xml:id="i-d850ece35d60aa10-0" next="i-0c906c53c50b95cf-0" n="c1e90ccd">
+          <u who="gosta_bagge_a91c6f" xml:id="i-c1e90ccd79c50ab6-2" next="i-c1e90ccd79c50ab6-3" n="c1e90ccd">
             <seg n="0a4ce247">
               Herr talman! Då jag förmodar, att de här båda frågorna i viss
               mån ha framställts också för att få fram min allmänna inställning
@@ -750,10 +756,10 @@
             </seg>
           </u>
           <pb n="8" facs="https://betalab.kb.se/prot-1940--ak--24/prot_1940__ak__24-008.jp2/_view"/>
-          <note n="ad946fe8">
+          <note type="date" n="f9a25960">
             Onsdagen den 17 april 1940. Nr 24. 9
           </note>
-          <u who="gosta_bagge_a91c6f" xml:id="i-0c906c53c50b95cf-0" prev="i-d850ece35d60aa10-0" n="c1e90ccd">
+          <u who="gosta_bagge_a91c6f" xml:id="i-c1e90ccd79c50ab6-3" prev="i-c1e90ccd79c50ab6-2" n="c1e90ccd">
             <seg n="df161e17">
               Svar på fråga. (Forts.) för min del så långt jag kan bidraga
               till att så också kommer att ske. Men då skall det verkligen kunna
@@ -765,7 +771,7 @@
           <note type="speaker" n="2b459d37">
             Herr Holmdahl:
           </note>
-          <u who="otto_holmdahl_4133fc" xml:id="i-7e625aaa8b2027ed-0" n="fe8e9dfb">
+          <u who="otto_holmdahl_4133fc" xml:id="i-fe8e9dfb0df21eb7-3" n="fe8e9dfb">
             <seg n="3e668a1e">
               Herr talman! Herr andre vice talmannen sade, att han ansåg, att
               vi inte kunde diskutera och fastställa här i denna församling
@@ -783,7 +789,7 @@
           <note type="speaker" n="5fc5ae9f">
             Herr andre vice talmannen Magnusson:
           </note>
-          <u who="theodor_magnusson_e7895a" xml:id="i-900f8deeb23d35bb-1" n="91616fa8">
+          <u who="theodor_magnusson_e7895a" xml:id="i-e3129a6eb7ad1311-3" n="91616fa8">
             <seg n="7c334f0c">
               Herr talman! Jag skall be att få fråga herr Holmdahl, huruvida
               inte enligt det allmänna omdömet uppgifterna t. ex. i fysikskrivningen
@@ -811,7 +817,7 @@
             Herr talmannen lämnade på begäran ordet till chefen för handelsdepartementet,
             herr statsrådet Domö, som yttrade:
           </note>
-          <u who="unknown" xml:id="i-1f82fa2ad1ea96ff-0" n="f2293f75">
+          <u who="unknown" xml:id="i-f2293f7508044221-0" n="f2293f75">
             <seg n="b08b1425">
               Herr talman! Herr De Geer har till mig framställt följande frågor:
             </seg>
@@ -845,7 +851,7 @@
           <note type="speaker" n="cc5eaafa">
             Herr De Geer:
           </note>
-          <u who="arvid_de_geer_fd39e6" xml:id="i-26eb6efe3439abd6-0" next="i-f98f3ef266135a14-0" n="a0971aee">
+          <u who="arvid_de_geer_fd39e6" xml:id="i-f9fe429c50d5a3df-0" next="i-f9fe429c50d5a3df-8" n="a0971aee">
             <seg n="0241dc0f">
               Herr talman! Jag ber att till herr statsrådet få framföra ett
               tack för svaret på min fråga.
@@ -863,10 +869,10 @@
           <note n="3e09c20d">
             Ang. förslag till krigsfamiljebidragsförordning.
           </note>
-          <note n="34c14e89">
+          <note type="date" n="e002d914">
             10 Nr 24. Onsdagen den 17 april 1940.
           </note>
-          <u who="arvid_de_geer_fd39e6" xml:id="i-f98f3ef266135a14-0" prev="i-26eb6efe3439abd6-0" n="a0971aee">
+          <u who="arvid_de_geer_fd39e6" xml:id="i-f9fe429c50d5a3df-1" prev="i-f9fe429c50d5a3df-0" n="a0971aee">
             <seg n="a69ecea4">
               Svar på fråga. (Forts.) tydelse för vår industri, råvaror, som
               för dagen äro otillräckliga men varav finnas fullt tillräckliga
@@ -888,68 +894,6 @@
               aktuella. Det torde för dagen i dessa avspärrningstider inte finnas
               någon vara, som är så lätt att exportera och göra till nytta för
               vårt folkhushåll som huvudprodukten vid Boliden.
-            </seg>
-            <seg n="ec694039">
-              a) den värnpliktiges hustru, med vilken han sammanlever, samt
-              hans barn och adoptivbarn under sexton år, som äro under hans
-              vårdnad;
-            </seg>
-            <seg n="34db3f71">
-              c) den värnpliktiges husföreståndarinna under förutsättning,
-              att den värnpliktige sammanbor med egna eller hustrus barn eller
-              adoptivbarn under sexton år samt, därest han sammanbor jämväl
-              med hustru, att hustrun är oförmögen till arbete.
-            </seg>
-            <seg n="1f489867"/>
-            <seg n="1f489867"/>
-            <seg n="1f489867"/>
-            <seg n="f8f34211">
-              För hustru eller, där bidrag
-            </seg>
-            <seg n="d8d3491d">
-              ej utgår för hustru, annan
-            </seg>
-            <seg n="90366880">
-              Ortsgrupp familjemedlem, som förestår den värnpliktiges hem
-            </seg>
-            <seg n="fa56fc1c">
-              För annan familje- | För annan familjemedlem över 16 år | medlem
-              under 16 år än som avses i kol. 2 | än som avses i kol. 2
-            </seg>
-            <seg n="1f489867"/>
-            <seg n="1f489867"/>
-            <seg n="1f489867"/>
-            <seg n="1f489867"/>
-            <seg n="d7527c74">
-              Av familjepenningen utgår för de i 3 $ a) avsedda familjemedlemmarna
-              visst grundbelopp utan behovsprövning. Grundbelopp utgör för hustru
-              en krona och för varje barn eller adoptivbarn under sexton år
-              40 öre.
-            </seg>
-            <seg n="7b638227">
-              I övrigt utgår familjepenning allenast i den mån behov därav
-              skäligen kan antagas föreligga. Vid bestämmande av bidragets storlek
-              skall hänsyn tagas dels till den inkomst, som åtnjutes av vederbörande
-              familjemedlem ävensom av annan till samma hushåll hörande familjemedlem,
-              utom husföreståndarinna, och dels till den värnpliktiges inkomster,
-              dock med undantag för krigslön jämte övriga under tjänstgöringen
-              utgående förmåner. För familjemedlem, som avses i 3 $ b), må ej
-              fastställas högre belopp än det, varmed den värnpliktige vid tiden
-              för inkallelsen bidrog till den ifrågavarande familjemedlemmens
-              underhåll eller vartill värdet av sådant underhåll skäligen kan
-              skattas.
-            </seg>
-            <seg n="0e1ca7ad">
-              Skyldighet, som avses i första stycket, skall icke avse familjemedlem,
-              som är oförmögen till arbete eller innehar arbete, varigenom han
-              erhåller full sysselsättning. Såsom sådant arbete skall anses
-              vård om minderåriga eller sjuka familjemedlemmar samt pågående
-              utbildning, vilken icke skäligen bör avbrytas.
-            </seg>
-            <seg n="6ef23662">
-              För familjemedlem, som avses i 3 $ a), utgår familjepenning utan
-              behovsprövning med det högsta belopp, varmed enligt 4 $ familjepenning
-              kan utgå för den ifrågavarande familjemedlemmen.
             </seg>
           </u>
           <note n="7e75ed73">
@@ -1009,7 +953,7 @@
             förehaft åtskilliga i anledning av densamma väckta motioner.
           </note>
           <pb n="10" facs="https://betalab.kb.se/prot-1940--ak--24/prot_1940__ak__24-010.jp2/_view"/>
-          <note n="54fc5ea3">
+          <note type="date" n="07a92bd4">
             Onsdagen den 17 april 1940. Nr 24. 11
           </note>
           <note n="52237e79">
@@ -1021,6 +965,13 @@
             Såsom medlem av den värnpliktiges familj anses enligt denna förordning
             en var av följande personer, nämligen:
           </note>
+          <u who="arvid_de_geer_fd39e6" xml:id="i-f9fe429c50d5a3df-2" prev="i-f9fe429c50d5a3df-0" n="a0971aee">
+            <seg n="ec694039">
+              a) den värnpliktiges hustru, med vilken han sammanlever, samt
+              hans barn och adoptivbarn under sexton år, som äro under hans
+              vårdnad;
+            </seg>
+          </u>
           <note n="43fd3268">
             b) den värnpliktiges hustru, barn och adoptivbarn i annat fall
             än under a) sägs, hans föräldrar och adoptant, hans hustrus barn
@@ -1029,6 +980,14 @@
             och vid tiden för inkallelsen i väsentlig mån bidrog till dennes
             underhåll; samt
           </note>
+          <u who="arvid_de_geer_fd39e6" xml:id="i-f9fe429c50d5a3df-3" prev="i-f9fe429c50d5a3df-0" n="a0971aee">
+            <seg n="34db3f71">
+              c) den värnpliktiges husföreståndarinna under förutsättning,
+              att den värnpliktige sammanbor med egna eller hustrus barn eller
+              adoptivbarn under sexton år samt, därest han sammanbor jämväl
+              med hustru, att hustrun är oförmögen till arbete.
+            </seg>
+          </u>
           <note n="8fbffebb">
             48.
           </note>
@@ -1038,9 +997,31 @@
             för dag, som för en var av nedan angivna ortsgrupper upptages
             i följande tariff:
           </note>
+          <u who="arvid_de_geer_fd39e6" xml:id="i-f9fe429c50d5a3df-4" prev="i-f9fe429c50d5a3df-0" n="a0971aee">
+            <seg n="1f489867"/>
+          </u>
           <note n="e9472705">
             | 1 I 2 8 | 4
           </note>
+          <u who="arvid_de_geer_fd39e6" xml:id="i-f9fe429c50d5a3df-5" prev="i-f9fe429c50d5a3df-0" n="a0971aee">
+            <seg n="f8f34211">
+              För hustru eller, där bidrag
+            </seg>
+            <seg n="d8d3491d">
+              ej utgår för hustru, annan
+            </seg>
+            <seg n="90366880">
+              Ortsgrupp familjemedlem, som förestår den värnpliktiges hem
+            </seg>
+            <seg n="fa56fc1c">
+              För annan familje- | För annan familjemedlem över 16 år | medlem
+              under 16 år än som avses i kol. 2 | än som avses i kol. 2
+            </seg>
+            <seg n="1f489867"/>
+            <seg n="1f489867"/>
+            <seg n="1f489867"/>
+            <seg n="1f489867"/>
+          </u>
           <note n="a6dd995c">
             | kronor kronor kronor I... ... 1: 75 1:— 0: 70 Il: sssc: a 2
             1:25 0: 80 Il. .oooocoooo| 2: 25 1: 50 0: 90
@@ -1056,8 +1037,29 @@
           <note n="f9ed4103">
             5 8.
           </note>
+          <u who="arvid_de_geer_fd39e6" xml:id="i-f9fe429c50d5a3df-6" prev="i-f9fe429c50d5a3df-0" n="a0971aee">
+            <seg n="d7527c74">
+              Av familjepenningen utgår för de i 3 $ a) avsedda familjemedlemmarna
+              visst grundbelopp utan behovsprövning. Grundbelopp utgör för hustru
+              en krona och för varje barn eller adoptivbarn under sexton år
+              40 öre.
+            </seg>
+            <seg n="7b638227">
+              I övrigt utgår familjepenning allenast i den mån behov därav
+              skäligen kan antagas föreligga. Vid bestämmande av bidragets storlek
+              skall hänsyn tagas dels till den inkomst, som åtnjutes av vederbörande
+              familjemedlem ävensom av annan till samma hushåll hörande familjemedlem,
+              utom husföreståndarinna, och dels till den värnpliktiges inkomster,
+              dock med undantag för krigslön jämte övriga under tjänstgöringen
+              utgående förmåner. För familjemedlem, som avses i 3 $ b), må ej
+              fastställas högre belopp än det, varmed den värnpliktige vid tiden
+              för inkallelsen bidrog till den ifrågavarande familjemedlemmens
+              underhåll eller vartill värdet av sådant underhåll skäligen kan
+              skattas.
+            </seg>
+          </u>
           <pb n="11" facs="https://betalab.kb.se/prot-1940--ak--24/prot_1940__ak__24-011.jp2/_view"/>
-          <note n="641d41f7">
+          <note type="date" n="3aaff842">
             12 Nr 24. Onsdagen den 17 april 1940.
           </note>
           <note n="23d91290">
@@ -1090,6 +1092,15 @@
             vilken är inhyst i den värnpliktiges bostad eller eljest genom
             hans försorg beredes bostad.
           </note>
+          <u who="arvid_de_geer_fd39e6" xml:id="i-f9fe429c50d5a3df-7" prev="i-f9fe429c50d5a3df-0" n="a0971aee">
+            <seg n="0e1ca7ad">
+              Skyldighet, som avses i första stycket, skall icke avse familjemedlem,
+              som är oförmögen till arbete eller innehar arbete, varigenom han
+              erhåller full sysselsättning. Såsom sådant arbete skall anses
+              vård om minderåriga eller sjuka familjemedlemmar samt pågående
+              utbildning, vilken icke skäligen bör avbrytas.
+            </seg>
+          </u>
           <note n="c4028dcf">
             Om vad som förstås med lämpligt arbete gäller vad därom stadgas
             i förordningen den 15 juni 1934 (nr 264) om erkända arbetslöshetskassor.
@@ -1130,7 +1141,7 @@
             II 2 kronor 50 öre och i ortsgrupp III 2 kronor 75 öre per dag.
           </note>
           <pb n="12" facs="https://betalab.kb.se/prot-1940--ak--24/prot_1940__ak__24-012.jp2/_view"/>
-          <note n="2c48411f">
+          <note type="date" n="51f4fca2">
             Onsdagen den 17 april 1940. Nr 24. 13
           </note>
           <note n="23d91290">
@@ -1165,6 +1176,13 @@
           <note n="242b1db4">
             5 $.
           </note>
+          <u who="arvid_de_geer_fd39e6" xml:id="i-f9fe429c50d5a3df-8" prev="i-f9fe429c50d5a3df-0" n="a0971aee">
+            <seg n="6ef23662">
+              För familjemedlem, som avses i 3 $ a), utgår familjepenning utan
+              behovsprövning med det högsta belopp, varmed enligt 4 $ familjepenning
+              kan utgå för den ifrågavarande familjemedlemmen.
+            </seg>
+          </u>
           <note n="89736ba6">
             I övrigt — — — (lika med Kungl. Maj:ts förslag) — — — kan skattas.
             Konungen äger — — — (lika med Kungl. Maj:ts förslag) — — — äger
@@ -1218,7 +1236,7 @@
             erhålla den av Kungl. Maj:t föreslagna lydelsen;
           </note>
           <pb n="13" facs="https://betalab.kb.se/prot-1940--ak--24/prot_1940__ak__24-013.jp2/_view"/>
-          <note n="3844415b">
+          <note type="date" n="49e58e31">
             14 Nr 24. Onsdagen den 17 april 1940.
           </note>
           <note n="63cbe227">
@@ -1288,7 +1306,7 @@
           <note type="speaker" n="e007c760">
             Chefen för försvarsdepartementet, herr statsrådet Sköld:
           </note>
-          <u who="per_edvin_skold_7a875a" xml:id="i-9778a831ff55d64b-0" next="i-109262c45a70e780-0" n="1e3627d0">
+          <u who="per_edvin_skold_7a875a" xml:id="i-1e3627d079321d4c-0" next="i-1e3627d079321d4c-1" n="1e3627d0">
             <seg n="66263061">
               Herr talman! Jag ber att få uttala min erkänsla för den behandling,
               som ifrågavarande proposition har underkastats i andra lagutskottet.
@@ -1312,10 +1330,10 @@
             </seg>
           </u>
           <pb n="14" facs="https://betalab.kb.se/prot-1940--ak--24/prot_1940__ak__24-014.jp2/_view"/>
-          <note n="fea391c6">
+          <note type="date" n="8ff8e8bf">
             Onsdagen den 17 april 1940. Nr 24. 15
           </note>
-          <u who="per_edvin_skold_7a875a" xml:id="i-109262c45a70e780-0" prev="i-9778a831ff55d64b-0" n="1e3627d0">
+          <u who="per_edvin_skold_7a875a" xml:id="i-1e3627d079321d4c-1" prev="i-1e3627d079321d4c-0" n="1e3627d0">
             <seg n="9f04ad12">
               Ang. förslag till krigsfamiljebidragsförordning. (Forts.) fullt
               och tilltalande. Men jag måste för min del här säga, att jag finner
@@ -1370,7 +1388,7 @@
           <note type="speaker" n="c8ea28ff">
             Fru Johansson:
           </note>
-          <u who="karl_emil_johansson_c59e67" xml:id="i-dd81746a6ed94990-0" next="i-16353db60c08326c-0" n="da82411a">
+          <u who="karl_emil_johansson_c59e67" xml:id="i-61a9e3cfae7b917c-0" next="i-61a9e3cfae7b917c-2" n="da82411a">
             <seg n="60ffb4f7">
               Herr talman! Eftersom jag har varit en av ledamöterna 1 den kommitté,
               som utarbetat det betänkande som ligger till grund för propositionen,
@@ -1391,10 +1409,10 @@
             </seg>
           </u>
           <pb n="15" facs="https://betalab.kb.se/prot-1940--ak--24/prot_1940__ak__24-015.jp2/_view"/>
-          <note n="112954a4">
+          <note type="date" n="c4d2bad2">
             16 Nr 24. Onsdagen den 17 april 1940.
           </note>
-          <u who="karl_emil_johansson_c59e67" xml:id="i-16353db60c08326c-0" prev="i-dd81746a6ed94990-0" n="da82411a">
+          <u who="karl_emil_johansson_c59e67" xml:id="i-61a9e3cfae7b917c-1" prev="i-61a9e3cfae7b917c-0" n="da82411a">
             <seg n="b642b8e1">
               Ang. förslag till krigsfamiljebidragsförordning. (Forts.) seendet
               av näringslivets behov av arbetskraft.» Och han tillägger: »Såsom
@@ -1468,6 +1486,12 @@
               medan exempelvis en änkeman, som har en hushållerska att sköta
               hem och
             </seg>
+          </u>
+          <pb n="16" facs="https://betalab.kb.se/prot-1940--ak--24/prot_1940__ak__24-016.jp2/_view"/>
+          <note type="date" n="be6b6105">
+            Onsdagen den 17 april 1940. Nr 24. 17
+          </note>
+          <u who="karl_emil_johansson_c59e67" xml:id="i-61a9e3cfae7b917c-2" prev="i-61a9e3cfae7b917c-0" n="da82411a">
             <seg n="a6c20269">
               Ang. förslag till krigsfamiljebidragsförordning. (Forts.) barn,
               icke kan erhålla det högre beloppet utan behovsprövning. Vi ha
@@ -1535,14 +1559,10 @@
               kommer att framläggas om bifall till yrkandet i motionen IT: 213.
             </seg>
           </u>
-          <pb n="16" facs="https://betalab.kb.se/prot-1940--ak--24/prot_1940__ak__24-016.jp2/_view"/>
-          <note n="7bbc217f">
-            Onsdagen den 17 april 1940. Nr 24. 17
-          </note>
           <note type="speaker" n="a7970fd9">
             Herr Sandström:
           </note>
-          <u who="karl_gustaf_sandstrom_55ae8c" xml:id="i-dec1e3e7052f56eb-0" next="i-6c533256a9623139-0" n="5a93167c">
+          <u who="karl_gustaf_sandstrom_55ae8c" xml:id="i-3d5330af6a3fefdb-0" next="i-3d5330af6a3fefdb-4" n="5a93167c">
             <seg n="7d2c5910">
               Herr talman! TI förevarande utskottsutlåtande i anledning av
               Kungl. Maj:ts proposition nr 93 är det fråga om familjebidrag
@@ -1554,10 +1574,10 @@
             Andra kammarens protokoll 1940. Nr 24. 2
           </note>
           <pb n="17" facs="https://betalab.kb.se/prot-1940--ak--24/prot_1940__ak__24-017.jp2/_view"/>
-          <note n="8755a582">
+          <note type="date" n="5c183d91">
             18 Nr 24. Onsdagen den 17 april 1940.
           </note>
-          <u who="karl_gustaf_sandstrom_55ae8c" xml:id="i-6c533256a9623139-0" prev="i-dec1e3e7052f56eb-0" n="5a93167c">
+          <u who="karl_gustaf_sandstrom_55ae8c" xml:id="i-3d5330af6a3fefdb-1" prev="i-3d5330af6a3fefdb-0" n="5a93167c">
             <seg n="ae6f8c66">
               Ang. förslag till krigsfamiljebidragsförordning. (Forts.) kungliga
               propositionen men i vissa fall föreslagit betydelsefulla ändringar
@@ -1627,6 +1647,15 @@
               och bifall till den kungliga propositionen. Om så behövs, kommer
               jag att upprepa detta yrkande, då vi komma till 8 5.
             </seg>
+          </u>
+          <pb n="18" facs="https://betalab.kb.se/prot-1940--ak--24/prot_1940__ak__24-018.jp2/_view"/>
+          <note type="date" n="44758727">
+            Onsdagen den 17 april 1940. Nr 24. 19
+          </note>
+          <note n="23d91290">
+            Ang. förslag till krigsfamiljebidragsförordning. (Forts.)
+          </note>
+          <u who="karl_gustaf_sandstrom_55ae8c" xml:id="i-3d5330af6a3fefdb-2" prev="i-3d5330af6a3fefdb-0" n="5a93167c">
             <seg n="7f43e2d7">
               Om jag sedan övergår till $ 19, som avser ersättning till kommunerna
               för familjebidrag, som utanordnats enligt denna förordning, så
@@ -1697,6 +1726,12 @@
               giva ett handtag åt dem, som gå ut till landets försvar. Vi veta
               också, att alla värnpliktiga, även de, som ha
             </seg>
+          </u>
+          <pb n="19" facs="https://betalab.kb.se/prot-1940--ak--24/prot_1940__ak__24-019.jp2/_view"/>
+          <note type="date" n="2b61b2a5">
+            20 Nr 24. Onsdagen den 17 april 1940.
+          </note>
+          <u who="karl_gustaf_sandstrom_55ae8c" xml:id="i-3d5330af6a3fefdb-3" prev="i-3d5330af6a3fefdb-0" n="5a93167c">
             <seg n="7362681f">
               Ang. förslag till krigsfamiljebidragsförordning. (Forts.) det
               ekonomiskt bra, kunna råka in i utomordentligt prekära situationer.
@@ -1766,6 +1801,12 @@
               Jag kan därför inte erkänna, att genom den kompromiss, som kommit
               till
             </seg>
+          </u>
+          <pb n="20" facs="https://betalab.kb.se/prot-1940--ak--24/prot_1940__ak__24-020.jp2/_view"/>
+          <note type="date" n="1da3ae34">
+            Onsdagen den 17 april 1940. Nr 24. 21
+          </note>
+          <u who="karl_gustaf_sandstrom_55ae8c" xml:id="i-3d5330af6a3fefdb-4" prev="i-3d5330af6a3fefdb-0" n="5a93167c">
             <seg n="3b0bf98b">
               Ang. förslag till krigsfamiljebidragsförordning. (Forts.) stånd
               i utskottet, statsnyttan skulle trädas för nära. Jag kan inte
@@ -1807,25 +1848,10 @@
               talare än jag, varför jag skall nöja mig med vad jag här sagt.
             </seg>
           </u>
-          <pb n="18" facs="https://betalab.kb.se/prot-1940--ak--24/prot_1940__ak__24-018.jp2/_view"/>
-          <note n="438c62bf">
-            Onsdagen den 17 april 1940. Nr 24. 19
-          </note>
-          <note n="23d91290">
-            Ang. förslag till krigsfamiljebidragsförordning. (Forts.)
-          </note>
-          <pb n="19" facs="https://betalab.kb.se/prot-1940--ak--24/prot_1940__ak__24-019.jp2/_view"/>
-          <note n="fb45a26f">
-            20 Nr 24. Onsdagen den 17 april 1940.
-          </note>
-          <pb n="20" facs="https://betalab.kb.se/prot-1940--ak--24/prot_1940__ak__24-020.jp2/_view"/>
-          <note n="d8dc7293">
-            Onsdagen den 17 april 1940. Nr 24. 21
-          </note>
           <note type="speaker" n="785db4eb">
             Herr Sandström, som nu för kort genmäle erhöll ordet, anförde:
           </note>
-          <u who="karl_gustaf_sandstrom_55ae8c" xml:id="i-68e3900e967705a6-0" n="5a93167c">
+          <u who="karl_gustaf_sandstrom_55ae8c" xml:id="i-3d5330af6a3fefdb-5" n="5a93167c">
             <seg n="7efa5d2e">
               Herr talman! Jag skall be att få vända mig mot vissa uttryck,
               som vår ärade vice utskottsordförande använde i sitt anförande.
@@ -1856,7 +1882,7 @@
           <note type="speaker" n="c4c99b89">
             Herr Sandström, som anförde:
           </note>
-          <u who="karl_gustaf_sandstrom_55ae8c" xml:id="i-dec1e3e7052f56eb-1" next="i-6c533256a9623139-1" n="5a93167c">
+          <u who="karl_gustaf_sandstrom_55ae8c" xml:id="i-3d5330af6a3fefdb-6" next="i-3d5330af6a3fefdb-9" n="5a93167c">
             <seg n="18340abe">
               Herr talman! Sålunda framgår av det föregående anförandet, att
               någon kompromiss beträffande $ 5 icke är träffad i utskottet,
@@ -1864,14 +1890,14 @@
             </seg>
           </u>
           <pb n="21" facs="https://betalab.kb.se/prot-1940--ak--24/prot_1940__ak__24-021.jp2/_view"/>
-          <note n="82caf4af">
+          <note type="date" n="fa950268">
             29 Nr 24. Onsdagen den 17 april 1940.
           </note>
           <note n="90644b38">
             Ang. förslag till krigsfamiljebidragsförordning. (Forts.) Härefter
             yttrade:
           </note>
-          <u who="karl_gustaf_sandstrom_55ae8c" xml:id="i-6c533256a9623139-1" prev="i-dec1e3e7052f56eb-1" n="5a93167c">
+          <u who="karl_gustaf_sandstrom_55ae8c" xml:id="i-3d5330af6a3fefdb-7" prev="i-3d5330af6a3fefdb-6" n="5a93167c">
             <seg n="300f14f6">
               Fröken Andersson: Herr talman! Jag har reserverat mig för bifall
               till propositionen och alltså gått emot utskottsmajoriteten hela
@@ -1937,6 +1963,12 @@
               ofattbart. Varför har man nu gjort detta? Det kan ju icke vara
               den gamla skräcken för behovsprövning
             </seg>
+          </u>
+          <pb n="22" facs="https://betalab.kb.se/prot-1940--ak--24/prot_1940__ak__24-022.jp2/_view"/>
+          <note type="date" n="6c3c8fc3">
+            Onsdagen den 17 april 1940. Nr 24. 23
+          </note>
+          <u who="karl_gustaf_sandstrom_55ae8c" xml:id="i-3d5330af6a3fefdb-8" prev="i-3d5330af6a3fefdb-6" n="5a93167c">
             <seg n="3f4230f3">
               Ang. förslag till krigsfamiljebidragsförordning. (Forts.) såsom
               sådan, som ligger bakom, ity att samma utskottsmajoritet har accepterat
@@ -2007,6 +2039,12 @@
               därom vet jag intet — men i avsaknad av sådana beräkningar synes
               det mig vara relativt djärvt att gå med på mo-
             </seg>
+          </u>
+          <pb n="23" facs="https://betalab.kb.se/prot-1940--ak--24/prot_1940__ak__24-023.jp2/_view"/>
+          <note type="date" n="be7cb429">
+            24 Nr 24. Onsdagen den 17 april 1940.
+          </note>
+          <u who="karl_gustaf_sandstrom_55ae8c" xml:id="i-3d5330af6a3fefdb-9" prev="i-3d5330af6a3fefdb-6" n="5a93167c">
             <seg n="a4e22ff6">
               Ang. förslag till krigsfamiljebidragsförordning. (Forts.) tionens
               yrkande. Jag ville emellertid redan nu ha nämnt, att jag eventuellt
@@ -2049,14 +2087,6 @@
               speciella paragraferna.
             </seg>
           </u>
-          <pb n="22" facs="https://betalab.kb.se/prot-1940--ak--24/prot_1940__ak__24-022.jp2/_view"/>
-          <note n="a03e6a15">
-            Onsdagen den 17 april 1940. Nr 24. 23
-          </note>
-          <pb n="23" facs="https://betalab.kb.se/prot-1940--ak--24/prot_1940__ak__24-023.jp2/_view"/>
-          <note n="6cad2e1a">
-            24 Nr 24. Onsdagen den 17 april 1940.
-          </note>
           <note n="a7208d53">
             I detta anförande instämde herrar Anderson i Norrköping, Skoglund
             och andre vice talmannen Magnusson.
@@ -2064,7 +2094,7 @@
           <note type="speaker" n="456929b6">
             Herr Hage:
           </note>
-          <u who="ernst_hage_26eb12" xml:id="i-c8fea54ec3da9039-0" next="i-d0af65b9adf94e55-0" n="d59bd059">
+          <u who="ernst_hage_26eb12" xml:id="i-d59bd05936d79653-0" next="i-d59bd05936d79653-2" n="d59bd059">
             <seg n="8c59f03a">
               Herr talman! Jag tillhör utskottsmajoriteten men har tillsammans
               med herrar Olovson i Västerås och Molander avgivit en deklaration
@@ -2094,10 +2124,10 @@
             </seg>
           </u>
           <pb n="24" facs="https://betalab.kb.se/prot-1940--ak--24/prot_1940__ak__24-024.jp2/_view"/>
-          <note n="2d2e12e4">
+          <note type="date" n="7706e1ed">
             Onsdagen den 17 april 1940. Nr 24. 25
           </note>
-          <u who="ernst_hage_26eb12" xml:id="i-d0af65b9adf94e55-0" prev="i-c8fea54ec3da9039-0" n="d59bd059">
+          <u who="ernst_hage_26eb12" xml:id="i-d59bd05936d79653-1" prev="i-d59bd05936d79653-0" n="d59bd059">
             <seg n="9398e4bb">
               Ang. förslag till krigsfamiljebidragsförordning. (Forts.) vi
               borde komma överens om en gemensam linje för att undvika så mycket
@@ -2171,6 +2201,12 @@
               och för min del var jag i utskottet inne på den linjen, att även
               om man godtog utskottets förslag, borde man likväl
             </seg>
+          </u>
+          <pb n="25" facs="https://betalab.kb.se/prot-1940--ak--24/prot_1940__ak__24-025.jp2/_view"/>
+          <note type="date" n="d3ef8f9a">
+            26 Nr 24. Onsdagen den 17 april 1940.
+          </note>
+          <u who="ernst_hage_26eb12" xml:id="i-d59bd05936d79653-2" prev="i-d59bd05936d79653-0" n="d59bd059">
             <seg n="6cafc8c6">
               Ang. förslag till krigsfamiljebidragsförordning. (Forts.) åstadkomma
               en maximigräns uppåt för stora inkomsttagare. Det var emellertid
@@ -2202,14 +2238,10 @@
               — yrka bifall till och rösta för utskottets förslag.
             </seg>
           </u>
-          <pb n="25" facs="https://betalab.kb.se/prot-1940--ak--24/prot_1940__ak__24-025.jp2/_view"/>
-          <note n="656a1cc1">
-            26 Nr 24. Onsdagen den 17 april 1940.
-          </note>
           <note type="speaker" n="efb9e656">
             Herr Mårtensson:
           </note>
-          <u who="wiktor_martensson_43e4ce" xml:id="i-da5a49749e8d1faa-0" next="i-fd7ea9e63fd0831e-0" n="736775d4">
+          <u who="wiktor_martensson_43e4ce" xml:id="i-736775d40a7a2a72-0" next="i-736775d40a7a2a72-2" n="736775d4">
             <seg n="19c29c35">
               Herr talman! I fråga om de ändringsförslag, som utskottet har
               framlagt till den kungl. propositionen, ansluter jag mig helt
@@ -2254,10 +2286,10 @@
             </seg>
           </u>
           <pb n="26" facs="https://betalab.kb.se/prot-1940--ak--24/prot_1940__ak__24-026.jp2/_view"/>
-          <note n="924410d3">
+          <note type="date" n="22f37411">
             Onsdagen den 17 april 1940. Nr 24. 37
           </note>
-          <u who="wiktor_martensson_43e4ce" xml:id="i-fd7ea9e63fd0831e-0" prev="i-da5a49749e8d1faa-0" n="736775d4">
+          <u who="wiktor_martensson_43e4ce" xml:id="i-736775d40a7a2a72-1" prev="i-736775d40a7a2a72-0" n="736775d4">
             <seg n="d2663452">
               Ang. förslag till krigsfamiljebidragsförordning. (Forts.) för
               familjens försörjning. Om emellertid detta skall kunna lyckas
@@ -2332,6 +2364,12 @@
               om familjepenning skall den grupp, som jag här talat om, nämligen
               mindre arbetsföra
             </seg>
+          </u>
+          <pb n="27" facs="https://betalab.kb.se/prot-1940--ak--24/prot_1940__ak__24-027.jp2/_view"/>
+          <note type="date" n="eaa82093">
+            928 Nr 24. Onsdagen den 17 april 1940.
+          </note>
+          <u who="wiktor_martensson_43e4ce" xml:id="i-736775d40a7a2a72-2" prev="i-736775d40a7a2a72-0" n="736775d4">
             <seg n="3be0bf4c">
               Ang. förslag till krigsfamiljebidragsförordning. (Forts.) hustrur
               m. fl. i ortsgrupp I icke få någon som helst kompensation, utan
@@ -2353,10 +2391,6 @@
               ett bifall till utskottets förslag skulle medföra.
             </seg>
           </u>
-          <pb n="27" facs="https://betalab.kb.se/prot-1940--ak--24/prot_1940__ak__24-027.jp2/_view"/>
-          <note n="07406ef1">
-            928 Nr 24. Onsdagen den 17 april 1940.
-          </note>
           <note n="02d4369c">
             Jag får, herr talman, i anledning av det nu anförda yrka bifall
             till utskottets förslag i vad det gäller kommunens bidrag — alltså
@@ -2370,7 +2404,7 @@
           <note type="speaker" n="f6638ca3">
             Herr Johansson i Mysinge:
           </note>
-          <u who="karl_emil_johansson_c59e67" xml:id="i-dd81746a6ed94990-1" next="i-16353db60c08326c-1" n="da82411a">
+          <u who="karl_emil_johansson_c59e67" xml:id="i-61a9e3cfae7b917c-3" next="i-61a9e3cfae7b917c-5" n="da82411a">
             <seg n="cba49e86">
               Herr talman! Såsom ledamot av den kommitté, som framlagt förslag
               i denna fråga, vilket förslag ligger till grund för Kungl. Maj:ts
@@ -2416,10 +2450,10 @@
             </seg>
           </u>
           <pb n="28" facs="https://betalab.kb.se/prot-1940--ak--24/prot_1940__ak__24-028.jp2/_view"/>
-          <note n="4cf00ece">
+          <note type="date" n="57daafe3">
             Onsdagen den 17 april 1940. Nr 24. 29
           </note>
-          <u who="karl_emil_johansson_c59e67" xml:id="i-16353db60c08326c-1" prev="i-dd81746a6ed94990-1" n="da82411a">
+          <u who="karl_emil_johansson_c59e67" xml:id="i-61a9e3cfae7b917c-4" prev="i-61a9e3cfae7b917c-3" n="da82411a">
             <seg n="624ea2a3">
               Ang. förslag till krigsfamiljebidragsförordning. (Forts.) meningarna
               isär. Medan Kungl. Maj:t i enlighet med kommitténs förslag vill
@@ -2485,6 +2519,12 @@
               att just vid detta tillfälle och då dessa människor gå att uppfylla
               sin medborgerliga plikt sätta dem i svårigheter. Man måste
             </seg>
+          </u>
+          <pb n="29" facs="https://betalab.kb.se/prot-1940--ak--24/prot_1940__ak__24-029.jp2/_view"/>
+          <note type="date" n="669bcb0b">
+            30 Nr 24. Onsdagen den 17 april 1940.
+          </note>
+          <u who="karl_emil_johansson_c59e67" xml:id="i-61a9e3cfae7b917c-5" prev="i-61a9e3cfae7b917c-3" n="da82411a">
             <seg n="37532d75">
               Ang. förslag till krigsfamiljebidragsförordning. (Forts.) nämligen
               utgå ifrån att de inrättat sig efter en viss standard, ha försäkringar,
@@ -2558,12 +2598,8 @@
               av herr Linder m. fl. Jag vill i huvudsak ansluta
             </seg>
           </u>
-          <pb n="29" facs="https://betalab.kb.se/prot-1940--ak--24/prot_1940__ak__24-029.jp2/_view"/>
-          <note n="be02b144">
-            30 Nr 24. Onsdagen den 17 april 1940.
-          </note>
           <pb n="30" facs="https://betalab.kb.se/prot-1940--ak--24/prot_1940__ak__24-030.jp2/_view"/>
-          <note n="03d829b9">
+          <note type="date" n="6e05e2ee">
             Onsdagen den 17 april 1940. Nr 24. 31
           </note>
           <note n="de2480f5">
@@ -2579,7 +2615,7 @@
           <note type="speaker" n="7abf9030">
             Herr Pettersson i Norregård:
           </note>
-          <u who="johannes_pettersson_773f62" xml:id="i-bafaeb158e8a1759-0" next="i-5195dc2814070b15-0" n="31cd6fa6">
+          <u who="johannes_pettersson_773f62" xml:id="i-d446f18f1079242e-0" next="i-d446f18f1079242e-2" n="31cd6fa6">
             <seg n="c4fe0732">
               Herr talman! Då jag tillsammans med några andra ledamöter av
               denna kammare har väckt en motion, nr 207, i vilken yrkas, att
@@ -2645,10 +2681,10 @@
             </seg>
           </u>
           <pb n="31" facs="https://betalab.kb.se/prot-1940--ak--24/prot_1940__ak__24-031.jp2/_view"/>
-          <note n="d343b53f">
+          <note type="date" n="0cd61af7">
             32 Nr 24, Onsdagen den 17 april 1940.
           </note>
-          <u who="johannes_pettersson_773f62" xml:id="i-5195dc2814070b15-0" prev="i-bafaeb158e8a1759-0" n="31cd6fa6">
+          <u who="johannes_pettersson_773f62" xml:id="i-d446f18f1079242e-1" prev="i-d446f18f1079242e-0" n="31cd6fa6">
             <seg n="69eb9e8c">
               Ang. förslag till krigsfamiljebidragsförordning. (Forts.) gruppering
               alls välja det senare alternativet. Härtill kommer, att den i
@@ -2722,6 +2758,12 @@
               Man kan då verkligen ställa sig den frågan, om riksdagen i tider
               som dessa,
             </seg>
+          </u>
+          <pb n="32" facs="https://betalab.kb.se/prot-1940--ak--24/prot_1940__ak__24-032.jp2/_view"/>
+          <note type="date" n="ffce6743">
+            Onsdagen den 17 april 1940. Nr 24. 33
+          </note>
+          <u who="johannes_pettersson_773f62" xml:id="i-d446f18f1079242e-2" prev="i-d446f18f1079242e-0" n="31cd6fa6">
             <seg n="4720c6fc">
               Ang. förslag till krigsfamiljebidragsförordning. (Forts.) då
               det gäller att samla alla och behandla alla lika, som tjäna fosterlandet,
@@ -2753,14 +2795,10 @@
               som är avgiven av herrar Löfvander och Gardell.
             </seg>
           </u>
-          <pb n="32" facs="https://betalab.kb.se/prot-1940--ak--24/prot_1940__ak__24-032.jp2/_view"/>
-          <note n="ed89978b">
-            Onsdagen den 17 april 1940. Nr 24. 33
-          </note>
           <note type="speaker" n="6a4db705">
             Herr Persson i Tidaholm:
           </note>
-          <u who="ivar_persson_210656" xml:id="i-9af5940f2af2ed6f-0" next="i-8afcf8236f41e4b6-0" n="cf8f1c48">
+          <u who="ivar_persson_210656" xml:id="i-9a2d75bcb3160e2e-0" next="i-9a2d75bcb3160e2e-1" n="cf8f1c48">
             <seg n="8da34348">
               Herr talman! Jag har också varit medlem av den sakkunnigkommitté,
               som utarbetat det förslag, varpå den kungl. propositionen bygger,
@@ -2784,7 +2822,7 @@
             till 5 $ — om bifall till Kungl. Maj:ts förslag och beträffande
             19 $ om bifall till utskottets förslag.
           </note>
-          <u who="ivar_persson_210656" xml:id="i-8afcf8236f41e4b6-0" prev="i-9af5940f2af2ed6f-0" n="cf8f1c48">
+          <u who="ivar_persson_210656" xml:id="i-9a2d75bcb3160e2e-1" prev="i-9a2d75bcb3160e2e-0" n="cf8f1c48">
             <seg n="82e7cfb2">
               Så som saken ligger till, tror jag nämligen att tiden hastar.
               Det finns i närvarande situation åtskilliga som torde vara i omedelbart
@@ -2802,7 +2840,7 @@
           <note type="speaker" n="0aeb575d">
             Herr Fredberg:
           </note>
-          <u who="_manfred_fredberg_04a565" xml:id="i-c26b02de37d82e8b-0" next="i-ea54d4cb4f5a14b9-0" n="0fcd297b">
+          <u who="_manfred_fredberg_04a565" xml:id="i-f036079352d37289-0" next="i-f036079352d37289-2" n="0fcd297b">
             <seg n="e8653b31">
               Herr talman! Då jag har begärt ordet i detta ärende, har det
               skett för att med några ord fästa uppmärksamheten på $ 21 i det
@@ -2818,7 +2856,7 @@
             Andra kammarens protokoll 1940. Nr 24. 3
           </note>
           <pb n="33" facs="https://betalab.kb.se/prot-1940--ak--24/prot_1940__ak__24-033.jp2/_view"/>
-          <note n="e7171dbd">
+          <note type="date" n="3e57e3d9">
             34 Nr 24. Onsdagen den 17 april 1940.
           </note>
           <note n="01da425c">
@@ -2827,7 +2865,7 @@
             men det tillägges, att kommun även kan uppdraga åt annan kommunal
             nämnd att sköta denna sak, dock icke åt fattigvårdsstyrelsen.
           </note>
-          <u who="_manfred_fredberg_04a565" xml:id="i-ea54d4cb4f5a14b9-0" prev="i-c26b02de37d82e8b-0" n="0fcd297b">
+          <u who="_manfred_fredberg_04a565" xml:id="i-f036079352d37289-1" prev="i-f036079352d37289-0" n="0fcd297b">
             <seg n="f1938627">
               Jag tillåter mig i anledning härav fråga, om det verkligen varit
               nödvändigt med en sådan formulering, som verkar såsom en prickning
@@ -2893,6 +2931,12 @@
               Jag skulle icke begärt ordet i denna sak, om det begränsat sig
               härtill. Men man bör icke förbise, att man samti-
             </seg>
+          </u>
+          <pb n="34" facs="https://betalab.kb.se/prot-1940--ak--24/prot_1940__ak__24-034.jp2/_view"/>
+          <note type="date" n="e20e1f3e">
+            Onsdagen den 17 april 1940. Nr 24. 35
+          </note>
+          <u who="_manfred_fredberg_04a565" xml:id="i-f036079352d37289-2" prev="i-f036079352d37289-0" n="0fcd297b">
             <seg n="7baff79f">
               Ang. förslag till krigsfamiljebidragsförordning. (Forts.) digt
               diskriminerar hela det klientel som enligt nuvarande lagstiftning
@@ -2911,14 +2955,10 @@
               Jag ber, herr talman, att få framställa detta förslag.
             </seg>
           </u>
-          <pb n="34" facs="https://betalab.kb.se/prot-1940--ak--24/prot_1940__ak__24-034.jp2/_view"/>
-          <note n="a4597a3b">
-            Onsdagen den 17 april 1940. Nr 24. 35
-          </note>
           <note type="speaker" n="86adb2cb">
             Herr Brädefors:
           </note>
-          <u who="johan_bradefors_4cd0f6" xml:id="i-f18d2cf93f40b01c-0" next="i-93d1cac92ea877d8-0" n="80363d0a">
+          <u who="johan_bradefors_4cd0f6" xml:id="i-80363d0a198a4ae8-0" next="i-80363d0a198a4ae8-1" n="80363d0a">
             <seg n="7c34f19b">
               Herr talman! Jag har tillsammans med mina partikamrater i kammaren
               i början av årets riksdag väckt en motion, där vi yrka på en ändring
@@ -2980,10 +3020,10 @@
             </seg>
           </u>
           <pb n="35" facs="https://betalab.kb.se/prot-1940--ak--24/prot_1940__ak__24-035.jp2/_view"/>
-          <note n="b25a06e5">
+          <note type="date" n="68391335">
             36 Nr 24. Onsdagen den 17 april 1940.
           </note>
-          <u who="johan_bradefors_4cd0f6" xml:id="i-93d1cac92ea877d8-0" prev="i-f18d2cf93f40b01c-0" n="80363d0a">
+          <u who="johan_bradefors_4cd0f6" xml:id="i-80363d0a198a4ae8-1" prev="i-80363d0a198a4ae8-0" n="80363d0a">
             <seg n="77b6af90">
               Ang. förslag till krigsfamiljebidragsförordning. (Forts.) miljeförsörjaren
               är utkallad i tjänst för fosterlandets försvar. Jag kan icke tro,
@@ -3012,7 +3052,7 @@
           <note type="speaker" n="e85d0920">
             Herr Olovson i Västerås:
           </note>
-          <u who="emil_olovson_836d2a" xml:id="i-8884fa5ddc6bf72f-0" next="i-6407093fe62e798d-0" n="49fae9e2">
+          <u who="emil_olovson_836d2a" xml:id="i-49fae9e2a873b977-0" next="i-49fae9e2a873b977-1" n="49fae9e2">
             <seg n="e8c1e27e">
               Herr talman! Herr Johansson i Mysinge hade vänligheten förklara
               eller kanske rättare sagt erkänna, att den kommitté som utrett
@@ -3061,10 +3101,10 @@
             </seg>
           </u>
           <pb n="36" facs="https://betalab.kb.se/prot-1940--ak--24/prot_1940__ak__24-036.jp2/_view"/>
-          <note n="924410d3">
+          <note type="date" n="22f37411">
             Onsdagen den 17 april 1940. Nr 24. 37
           </note>
-          <u who="emil_olovson_836d2a" xml:id="i-6407093fe62e798d-0" prev="i-8884fa5ddc6bf72f-0" n="49fae9e2">
+          <u who="emil_olovson_836d2a" xml:id="i-49fae9e2a873b977-1" prev="i-49fae9e2a873b977-0" n="49fae9e2">
             <seg n="e166724c">
               Ang. förslag till krigsfamiljebidragsförordning. (Forts.) naden
               är den, att utskottet vill, att ytterligare 75 öre skall utgå
@@ -3137,7 +3177,7 @@
           <note type="speaker" n="20305e0a">
             Herr Anderson i Norrköping:
           </note>
-          <u who="iwar_anderson_f4e115" xml:id="i-e8807726b671f02c-0" next="i-2e74ff0de2c3eff6-0" n="e5514df5">
+          <u who="iwar_anderson_f4e115" xml:id="i-5a5475da6b683a21-0" next="i-5a5475da6b683a21-1" n="e5514df5">
             <seg n="d83b5e12">
               Herr talman! Efter denna långa debatt är det onödigt att komma
               med något längre inlägg. Jag kan inskränka mig till att i stort
@@ -3145,7 +3185,7 @@
             </seg>
           </u>
           <pb n="37" facs="https://betalab.kb.se/prot-1940--ak--24/prot_1940__ak__24-037.jp2/_view"/>
-          <note n="41132f0e">
+          <note type="date" n="34555548">
             38 Nr 24. Onsdagen den 17 april 1940.
           </note>
           <note n="e5938c1b">
@@ -3153,7 +3193,7 @@
             ytterligare synpunkter med anledning av vad som kommit fram i
             de senaste anförandena.
           </note>
-          <u who="iwar_anderson_f4e115" xml:id="i-2e74ff0de2c3eff6-0" prev="i-e8807726b671f02c-0" n="e5514df5">
+          <u who="iwar_anderson_f4e115" xml:id="i-5a5475da6b683a21-1" prev="i-5a5475da6b683a21-0" n="e5514df5">
             <seg n="c95ab17b">
               Herr Olovson gjorde gällande, att det egentligen vore mycket
               liten skillnad mellan utskottsförslaget och Kungl. Maj:ts förslag.
@@ -3222,17 +3262,17 @@
           <note type="speaker" n="b2814698">
             Herr Hansson i Rubbestad:
           </note>
-          <u who="sven_hansson_4e7bb6" xml:id="i-aa47bd1cd74e3a3f-0" next="i-bbc3c428f6cb523f-0" n="e8599a8b">
+          <u who="sven_hansson_4e7bb6" xml:id="i-56cd55e545736d33-0" next="i-56cd55e545736d33-2" n="e8599a8b">
             <seg n="cc0b500c">
               Herr talman! Jag skall också försöka fatta mig kort. Det är egentligen
               beträffande tvenne punkter i utskottets utlåtande
             </seg>
           </u>
           <pb n="38" facs="https://betalab.kb.se/prot-1940--ak--24/prot_1940__ak__24-038.jp2/_view"/>
-          <note n="c9e6ab6c">
+          <note type="date" n="ed684dfd">
             Onsdagen den 17 april 1940. Nr 24. 39
           </note>
-          <u who="sven_hansson_4e7bb6" xml:id="i-bbc3c428f6cb523f-0" prev="i-aa47bd1cd74e3a3f-0" n="e8599a8b">
+          <u who="sven_hansson_4e7bb6" xml:id="i-56cd55e545736d33-1" prev="i-56cd55e545736d33-0" n="e8599a8b">
             <seg n="c35e53f3">
               Ang. förslag till krigsfamiljebidragsförordning. (Forts.) jag
               vill framställa erinringar. Jag syftar på bestämmelserna i 4 $
@@ -3299,6 +3339,15 @@
               en mycket stor orättvisa mot landsbygden och mot vissa städer
               undgås.
             </seg>
+          </u>
+          <pb n="39" facs="https://betalab.kb.se/prot-1940--ak--24/prot_1940__ak__24-039.jp2/_view"/>
+          <note type="date" n="0d8cdc60">
+            40 Nr 24. Onsdagen den 17 april 1940.
+          </note>
+          <note n="23d91290">
+            Ang. förslag till krigsfamiljebidragsförordning. (Forts.)
+          </note>
+          <u who="sven_hansson_4e7bb6" xml:id="i-56cd55e545736d33-2" prev="i-56cd55e545736d33-0" n="e8599a8b">
             <seg n="22d7caa8">
               Beträffande sedan 5 $, som innehåller bestämmelser om behovsprövning,
               vill jag giva tillkänna, att jag hyser samma uppfattning, som
@@ -3341,17 +3390,10 @@
               av herrar Gardell och Löfvander.
             </seg>
           </u>
-          <pb n="39" facs="https://betalab.kb.se/prot-1940--ak--24/prot_1940__ak__24-039.jp2/_view"/>
-          <note n="4405b228">
-            40 Nr 24. Onsdagen den 17 april 1940.
-          </note>
-          <note n="23d91290">
-            Ang. förslag till krigsfamiljebidragsförordning. (Forts.)
-          </note>
           <note type="speaker" n="4e1c11d5">
             Herr Österström:
           </note>
-          <u who="ivar_osterstrom_b8edc3" xml:id="i-15828e4bdb0a2d1e-0" next="i-dc4ef34c69fd854b-0" n="db63d0c2">
+          <u who="ivar_osterstrom_b8edc3" xml:id="i-db63d0c2e13c689c-0" next="i-db63d0c2e13c689c-1" n="db63d0c2">
             <seg n="3b66393b">
               Herr talman! Det är självklart, att jag vid denna sena timme
               skall följa det exempel, som åtskilliga andra talare givit, och
@@ -3378,10 +3420,10 @@
             </seg>
           </u>
           <pb n="40" facs="https://betalab.kb.se/prot-1940--ak--24/prot_1940__ak__24-040.jp2/_view"/>
-          <note n="88e372d5">
+          <note type="date" n="3472784b">
             Onsdagen den 17 april 1940. Nr 24. 41
           </note>
-          <u who="ivar_osterstrom_b8edc3" xml:id="i-dc4ef34c69fd854b-0" prev="i-15828e4bdb0a2d1e-0" n="db63d0c2">
+          <u who="ivar_osterstrom_b8edc3" xml:id="i-db63d0c2e13c689c-1" prev="i-db63d0c2e13c689c-0" n="db63d0c2">
             <seg n="aa16728e">
               Ang. förslag till krigsfamiljebidragsförordning. (Forts.) underhåll,
               måste ju under alla förhållanden betalas ut. Jag begriper icke,
@@ -3451,7 +3493,7 @@
           <note type="speaker" n="e007c760">
             Chefen för försvarsdepartementet, herr statsrådet Sköld:
           </note>
-          <u who="per_edvin_skold_7a875a" xml:id="i-9778a831ff55d64b-1" next="i-109262c45a70e780-1" n="1e3627d0">
+          <u who="per_edvin_skold_7a875a" xml:id="i-1e3627d079321d4c-2" next="i-1e3627d079321d4c-4" n="1e3627d0">
             <seg n="62d825a3">
               Herr talman! Jag måste för min del deklarera, att den framställning,
               som herr Österström lämnade, var i högsta grad överdriven och
@@ -3465,10 +3507,10 @@
             </seg>
           </u>
           <pb n="41" facs="https://betalab.kb.se/prot-1940--ak--24/prot_1940__ak__24-041.jp2/_view"/>
-          <note n="173766d0">
+          <note type="date" n="2f1efe5d">
             42 Nr 24. Onsdagen den 17 april 1940.
           </note>
-          <u who="per_edvin_skold_7a875a" xml:id="i-109262c45a70e780-1" prev="i-9778a831ff55d64b-1" n="1e3627d0">
+          <u who="per_edvin_skold_7a875a" xml:id="i-1e3627d079321d4c-3" prev="i-1e3627d079321d4c-2" n="1e3627d0">
             <seg n="bbf9c194">
               Ang. förslag till krigsfamiljebidragsförordning. (Forts.) naderna
               för den del av familjebidragen, som icke utgöres av den obligatoriskt
@@ -3548,6 +3590,12 @@
               förutse, när man skall få utbetalningarna av dessa familjebidrag,
               om man icke redan nu kan sätta igång därmed.
             </seg>
+          </u>
+          <pb n="42" facs="https://betalab.kb.se/prot-1940--ak--24/prot_1940__ak__24-042.jp2/_view"/>
+          <note type="date" n="071dbec8">
+            Onsdagen den 17 april 1940. Nr 24. 43
+          </note>
+          <u who="per_edvin_skold_7a875a" xml:id="i-1e3627d079321d4c-4" prev="i-1e3627d079321d4c-2" n="1e3627d0">
             <seg n="0449d874">
               Ang. förslag till krigsfamiljebidragsförordning. (Forts.) Jag
               skulle därför vilja vädja till andra kammaren att övervinna sig
@@ -3559,15 +3607,11 @@
               ord där. Det är bättre att se till att handla.
             </seg>
           </u>
-          <pb n="42" facs="https://betalab.kb.se/prot-1940--ak--24/prot_1940__ak__24-042.jp2/_view"/>
-          <note n="942af9c0">
-            Onsdagen den 17 april 1940. Nr 24. 43
-          </note>
           <note type="speaker" n="20c20207">
             Herr Hansson i Rubbestad, som för kort genmäle erhöll ordet,
             anförde:
           </note>
-          <u who="sven_hansson_4e7bb6" xml:id="i-02361378c42fbec5-0" n="e8599a8b">
+          <u who="sven_hansson_4e7bb6" xml:id="i-56cd55e545736d33-3" n="e8599a8b">
             <seg n="82309f0f">
               Herr talman! Jag begärde ordet för att svara herr Österström,
               då han frågade, vem som skulle bära kostnaderna, därest man ginge
@@ -3596,7 +3640,7 @@
           <note type="speaker" n="e85d0920">
             Herr Olovson i Västerås:
           </note>
-          <u who="emil_olovson_836d2a" xml:id="i-4efe31f405d5ebb2-0" n="49fae9e2">
+          <u who="emil_olovson_836d2a" xml:id="i-49fae9e2a873b977-2" n="49fae9e2">
             <seg n="d3831e62">
               Herr talman! Kammarens ärade ledamöter kanske erinra sig, att
               när jag för en stund sedan hade ordet och hävdade uppfattningen
@@ -3628,7 +3672,7 @@
           <note type="speaker" n="efb9e656">
             Herr Mårtensson:
           </note>
-          <u who="wiktor_martensson_43e4ce" xml:id="i-da5a49749e8d1faa-1" next="i-fd7ea9e63fd0831e-1" n="736775d4">
+          <u who="wiktor_martensson_43e4ce" xml:id="i-736775d40a7a2a72-3" next="i-736775d40a7a2a72-5" n="736775d4">
             <seg n="2a44d7df">
               Herr talman! Det var några ord i herr Hanssons i Rubbestad första
               anförande, som jag icke vill låta stå oemotsagda. Herr Hansson
@@ -3643,19 +3687,15 @@
             </seg>
           </u>
           <pb n="43" facs="https://betalab.kb.se/prot-1940--ak--24/prot_1940__ak__24-043.jp2/_view"/>
-          <note n="b527ce75">
+          <note type="date" n="e01e33c9">
             44 Nr 24. Onsdagen den 17 april 1940.
           </note>
-          <u who="wiktor_martensson_43e4ce" xml:id="i-fd7ea9e63fd0831e-1" prev="i-da5a49749e8d1faa-1" n="736775d4">
+          <u who="wiktor_martensson_43e4ce" xml:id="i-736775d40a7a2a72-4" prev="i-736775d40a7a2a72-3" n="736775d4">
             <seg n="6236516e">
               Ang. förslag till krigsfamiljebidragsförordning. (Forts.) statskassan
               att minskas i ganska betydande utsträckning. Jag kan icke förstå,
               varför herr Hansson i Rubbestad helt bortsåg från behovsprövningen,
               när han talade om min motion.
-            </seg>
-            <seg n="6f4e7aac">
-              Fröken Hesselgren: Herr talman! Jag ber att få yrka bifall till
-              utskottets förslag.
             </seg>
           </u>
           <note n="3327168d">
@@ -3668,10 +3708,16 @@
           <note n="fa43a766">
             4 $ föredrogs härefter; och anförde därvid:
           </note>
+          <u who="wiktor_martensson_43e4ce" xml:id="i-736775d40a7a2a72-5" prev="i-736775d40a7a2a72-3" n="736775d4">
+            <seg n="6f4e7aac">
+              Fröken Hesselgren: Herr talman! Jag ber att få yrka bifall till
+              utskottets förslag.
+            </seg>
+          </u>
           <note type="speaker" n="7abf9030">
             Herr Pettersson i Norregård:
           </note>
-          <u who="johannes_pettersson_773f62" xml:id="i-d35a757a3a695b79-0" n="31cd6fa6">
+          <u who="johannes_pettersson_773f62" xml:id="i-d446f18f1079242e-3" n="31cd6fa6">
             <seg n="b26e2ff6">
               Herr talman! Jag ber att få yrka bifall till herrar Löfvanders
               och Gardells reservation.
@@ -3680,7 +3726,7 @@
           <note type="speaker" n="e007c760">
             Chefen för försvarsdepartementet, herr statsrådet Sköld:
           </note>
-          <u who="per_edvin_skold_7a875a" xml:id="i-e408f454435150c9-0" n="1e3627d0">
+          <u who="per_edvin_skold_7a875a" xml:id="i-1e3627d079321d4c-5" n="1e3627d0">
             <seg n="33977ef5">
               Herr talman! Jag vädjar till kammaren att bifalla 4 $ i dess
               lydelse enligt utskottets förslag.
@@ -3689,7 +3735,7 @@
           <note type="speaker" n="efb9e656">
             Herr Mårtensson:
           </note>
-          <u who="wiktor_martensson_43e4ce" xml:id="i-da5a49749e8d1faa-2" next="i-fd7ea9e63fd0831e-2" n="736775d4">
+          <u who="wiktor_martensson_43e4ce" xml:id="i-736775d40a7a2a72-6" next="i-736775d40a7a2a72-7" n="736775d4">
             <seg n="223cd072">
               Herr talman! Jag ber att få yrka bifall till 4 8 med den ändring
               som föreslås enligt motionen i denna kammare nr 213, vilket innebär,
@@ -3723,7 +3769,7 @@
             i den av herrar Löfvander och Gardell avgivna, vid utskottets
             utlåtande nr 18 fogade reservationen, röstar -
           </note>
-          <u who="wiktor_martensson_43e4ce" xml:id="i-fd7ea9e63fd0831e-2" prev="i-da5a49749e8d1faa-2" n="736775d4">
+          <u who="wiktor_martensson_43e4ce" xml:id="i-736775d40a7a2a72-7" prev="i-736775d40a7a2a72-6" n="736775d4">
             <seg n="38ef3fc7">
               a;
             </seg>
@@ -3738,7 +3784,7 @@
             blivit ännu en gång uppläst, verkställdes omröstning genom uppresning.
           </note>
           <pb n="44" facs="https://betalab.kb.se/prot-1940--ak--24/prot_1940__ak__24-044.jp2/_view"/>
-          <note n="2672b413">
+          <note type="date" n="79080ac9">
             Onsdagen den 17 april 1940. Nr 24. 45
           </note>
           <note n="3c3ddaa5">
@@ -3787,7 +3833,7 @@
           <note type="speaker" n="e007c760">
             Chefen för försvarsdepartementet, herr statsrådet Sköld:
           </note>
-          <u who="per_edvin_skold_7a875a" xml:id="i-9778a831ff55d64b-2" next="i-109262c45a70e780-2" n="1e3627d0">
+          <u who="per_edvin_skold_7a875a" xml:id="i-1e3627d079321d4c-6" next="i-1e3627d079321d4c-8" n="1e3627d0">
             <seg n="ac55f161">
               Herr talman! Jag vädjar till kammaren att bifalla Kungl. Maj:ts
               förslag vid denna paragraf.
@@ -3810,7 +3856,7 @@
           <note n="c87a79d2">
             Efter föredragning av 16 $ anförde:
           </note>
-          <u who="per_edvin_skold_7a875a" xml:id="i-109262c45a70e780-2" prev="i-9778a831ff55d64b-2" n="1e3627d0">
+          <u who="per_edvin_skold_7a875a" xml:id="i-1e3627d079321d4c-7" prev="i-1e3627d079321d4c-6" n="1e3627d0">
             <seg n="50381ec8">
               Fröken Hesselgren: Herr talman! Efter det beslut, som nyss har
               fattats, måste kammaren på denna punkt bifalla Kungl. Maj:ts förslag.
@@ -3820,23 +3866,13 @@
               Fröken Andersson: Herr talman! Jag ber att få yrka bifall till
               Kungl. Maj:ts förslag.
             </seg>
-            <seg n="6f4e7aac">
-              Fröken Hesselgren: Herr talman! Jag ber att få yrka bifall till
-              utskottets förslag.
-            </seg>
-            <seg n="42c62e68">
-              Fröken Andersson: Med hänsyn till det beslut, som första kammaren
-              tidigare har fattat, avstår jag från mitt yrkande i denna del
-              och instämmer i stället i fröken Hesselgrens yrkande om bifall
-              till utskottets förslag.
-            </seg>
           </u>
           <note n="068075e7">
             Efter härmed slutad överläggning framställde herr talmannen propositioner
             dels på godkännande av 16 $ i utskottets förslag dels ock på godkännande
           </note>
           <pb n="45" facs="https://betalab.kb.se/prot-1940--ak--24/prot_1940__ak__24-045.jp2/_view"/>
-          <note n="8d963d95">
+          <note type="date" n="906fbe9b">
             46 Nr 24. Onsdagen den 17 april 1940.
           </note>
           <note n="a4a6a89d">
@@ -3850,6 +3886,18 @@
           <note n="f52db177">
             Härefter föredrogs 19 $; och yttrade därvid:
           </note>
+          <u who="per_edvin_skold_7a875a" xml:id="i-1e3627d079321d4c-8" prev="i-1e3627d079321d4c-6" n="1e3627d0">
+            <seg n="6f4e7aac">
+              Fröken Hesselgren: Herr talman! Jag ber att få yrka bifall till
+              utskottets förslag.
+            </seg>
+            <seg n="42c62e68">
+              Fröken Andersson: Med hänsyn till det beslut, som första kammaren
+              tidigare har fattat, avstår jag från mitt yrkande i denna del
+              och instämmer i stället i fröken Hesselgrens yrkande om bifall
+              till utskottets förslag.
+            </seg>
+          </u>
           <note n="ec152bb2">
             Vidare anfördes ej. Paragrafen godkändes i den av utskottet föreslagna
             lydelsen.
@@ -3863,7 +3911,7 @@
           <note type="speaker" n="a7970fd9">
             Herr Sandström:
           </note>
-          <u who="karl_gustaf_sandstrom_55ae8c" xml:id="i-68e3900e967705a6-1" n="5a93167c">
+          <u who="karl_gustaf_sandstrom_55ae8c" xml:id="i-3d5330af6a3fefdb-10" n="5a93167c">
             <seg n="30c7d86d">
               Herr talman! Jag skall be att få yrka bifall till herr Ekströmers
               reservation, som innefattar bifall till utskottets förslag med
@@ -3875,7 +3923,7 @@
           <note type="speaker" n="456929b6">
             Herr Hage:
           </note>
-          <u who="ernst_hage_26eb12" xml:id="i-c8fea54ec3da9039-1" next="i-d0af65b9adf94e55-1" n="d59bd059">
+          <u who="ernst_hage_26eb12" xml:id="i-d59bd05936d79653-3" next="i-d59bd05936d79653-4" n="d59bd059">
             <seg n="33c14048">
               Herr talman! Jag skall med hänsyn till första kammarens beslut
               på denna punkt be att få instämma i herr Sandströms yrkande, men
@@ -3916,7 +3964,7 @@
             vissa värnpliktiga med
           </note>
           <pb n="46" facs="https://betalab.kb.se/prot-1940--ak--24/prot_1940__ak__24-046.jp2/_view"/>
-          <note n="6f9f0d92">
+          <note type="date" n="2061f050">
             Onsdagen den 17 april 1940. Nr 24. 47
           </note>
           <note n="c5aa1101">
@@ -3930,7 +3978,7 @@
             Anmäldes och godkändes följande förslag till riksdagens skrivelser
             till Konungen, nämligen
           </note>
-          <u who="ernst_hage_26eb12" xml:id="i-d0af65b9adf94e55-1" prev="i-c8fea54ec3da9039-1" n="d59bd059">
+          <u who="ernst_hage_26eb12" xml:id="i-d59bd05936d79653-4" prev="i-d59bd05936d79653-3" n="d59bd059">
             <seg n="7c03d5e8">
               från statsutskottet:
             </seg>
@@ -4014,7 +4062,7 @@
             mot värnpliktstjänstgöring, m. m.
           </note>
           <pb n="47" facs="https://betalab.kb.se/prot-1940--ak--24/prot_1940__ak__24-047.jp2/_view"/>
-          <note n="24bc2382">
+          <note type="date" n="b77924bc">
             48 Nr 24. Onsdagen den 17 april 1940.
           </note>
           <note n="4f26465d">
@@ -4027,7 +4075,7 @@
           <note type="speaker" n="16bb67cb">
             " Herr Sandström:
           </note>
-          <u who="karl_gustaf_sandstrom_55ae8c" xml:id="i-dec1e3e7052f56eb-2" next="i-6c533256a9623139-2" n="5a93167c">
+          <u who="karl_gustaf_sandstrom_55ae8c" xml:id="i-3d5330af6a3fefdb-11" next="i-3d5330af6a3fefdb-12" n="5a93167c">
             <seg n="c5dd492d">
               Herr talman! Propositionen nr 109, som behandlas i det nu ifrågavarande
               utskottsutlåtandet, innebär ett stort framsteg i fråga om samhällets
@@ -4099,14 +4147,14 @@
             </seg>
           </u>
           <pb n="48" facs="https://betalab.kb.se/prot-1940--ak--24/prot_1940__ak__24-048.jp2/_view"/>
-          <note n="06e09db3">
+          <note type="date" n="2b7d7e16">
             Onsdagen den 17 april 1940. Nr 24, 49
           </note>
           <note n="4f26465d">
             Ang. vissa ändringar i lagen om värnpliktiga, vilka hysa samvetsbetänkligheter
             mot värnpliktstjänstgöring, m. m. (Forts.)
           </note>
-          <u who="karl_gustaf_sandstrom_55ae8c" xml:id="i-6c533256a9623139-2" prev="i-dec1e3e7052f56eb-2" n="5a93167c">
+          <u who="karl_gustaf_sandstrom_55ae8c" xml:id="i-3d5330af6a3fefdb-12" prev="i-3d5330af6a3fefdb-11" n="5a93167c">
             <seg n="81b2ae23">
               exempel kunna utöva demoraliserande inflytande i tider som de
               nuvarande, varför de på den grund nu böra behandlas strängare
@@ -4143,7 +4191,7 @@
           <note type="speaker" n="fb29eab9">
             Herr Holmgren:
           </note>
-          <u who="bjorn_frithiofsson_holmgren_e0b7c3" xml:id="i-6ef135b2985703f9-0" next="i-d0435ba6f90b845f-0" n="aca94214">
+          <u who="bjorn_frithiofsson_holmgren_e0b7c3" xml:id="i-a60a3d24fc086d76-0" next="i-a60a3d24fc086d76-1" n="aca94214">
             <seg n="83924602">
               Herr talman! När vårt land är i fara, måste vi ställa de allra
               största krav på samhällssolidariteten bland alla dess medborgare.
@@ -4190,14 +4238,14 @@
             Andra kammarens protokoll 1940. Nr 24. 4
           </note>
           <pb n="49" facs="https://betalab.kb.se/prot-1940--ak--24/prot_1940__ak__24-049.jp2/_view"/>
-          <note n="788f64df">
+          <note type="date" n="f5ab677e">
             50 Nr 24. Onsdagen den 17 april 1940.
           </note>
           <note n="4f26465d">
             Ang. vissa ändringar i lagen om värnpliktiga, vilka hysa samvetsbetänkligheter
             mot värnpliktstjänstgöring, m. m. (Forts.)
           </note>
-          <u who="bjorn_frithiofsson_holmgren_e0b7c3" xml:id="i-d0435ba6f90b845f-0" prev="i-6ef135b2985703f9-0" n="aca94214">
+          <u who="bjorn_frithiofsson_holmgren_e0b7c3" xml:id="i-a60a3d24fc086d76-1" prev="i-a60a3d24fc086d76-0" n="aca94214">
             <seg n="bb7eae08">
               som tvivelsutan äro ägnade att minska antalet samvetsömma. Vi
               ha föreslagit, att denna kategori värnpliktiga skulle placeras
@@ -4233,7 +4281,7 @@
           <note type="speaker" n="456929b6">
             Herr Hage:
           </note>
-          <u who="ernst_hage_26eb12" xml:id="i-c8fea54ec3da9039-2" next="i-d0af65b9adf94e55-2" n="d59bd059">
+          <u who="ernst_hage_26eb12" xml:id="i-d59bd05936d79653-5" next="i-d59bd05936d79653-6" n="d59bd059">
             <seg n="8c80f550">
               Herr talman! Med all respekt för herr Holmgrens kunskaper på
               detta område vill jag säga, att jag har mycket svårt att tro,
@@ -4279,14 +4327,14 @@
             </seg>
           </u>
           <pb n="50" facs="https://betalab.kb.se/prot-1940--ak--24/prot_1940__ak__24-050.jp2/_view"/>
-          <note n="290da7db">
+          <note type="date" n="357fcd46">
             Onsdagen den 17 april 1940. Nr 24. 51
           </note>
           <note n="4f26465d">
             Ang. vissa ändringar i lagen om värnpliktiga, vilka hysa samvetsbetänkligheter
             mot värnpliktstjänstgöring, m. m. (Forts.)
           </note>
-          <u who="ernst_hage_26eb12" xml:id="i-d0af65b9adf94e55-2" prev="i-c8fea54ec3da9039-2" n="d59bd059">
+          <u who="ernst_hage_26eb12" xml:id="i-d59bd05936d79653-6" prev="i-d59bd05936d79653-5" n="d59bd059">
             <seg n="8bc094f1">
               inträffa katastrofer för vårt land; men det är, som sagt, bara
               en rent teoretisk spekulation. Faktum är att de människor det
@@ -4302,7 +4350,7 @@
           <note type="speaker" n="2654617c">
             Herr Mosesson:
           </note>
-          <u who="gustav_mosesson_b0318f" xml:id="i-30cba760d71be495-0" next="i-7668252d570ae72b-0" n="ce1a4019">
+          <u who="gustav_mosesson_b0318f" xml:id="i-ce1a4019ba6f6ad2-0" next="i-ce1a4019ba6f6ad2-1" n="ce1a4019">
             <seg n="1e6809f2">
               Herr talman! Ehuru jag inte skall framställa något annat yrkande
               än om bifall till utskottets förslag, vill jag beledsaga kammarens
@@ -4368,14 +4416,14 @@
             </seg>
           </u>
           <pb n="51" facs="https://betalab.kb.se/prot-1940--ak--24/prot_1940__ak__24-051.jp2/_view"/>
-          <note n="c50eccfe">
+          <note type="date" n="ba3a6bea">
             52 Nr 24. Onsdagen den 17 april 1940.
           </note>
           <note n="4f26465d">
             Ang. vissa ändringar i lagen om värnpliktiga, vilka hysa samvetsbetänkligheter
             mot värnpliktstjänstgöring, m. m. (Forts.)
           </note>
-          <u who="gustav_mosesson_b0318f" xml:id="i-7668252d570ae72b-0" prev="i-30cba760d71be495-0" n="ce1a4019">
+          <u who="gustav_mosesson_b0318f" xml:id="i-ce1a4019ba6f6ad2-1" prev="i-ce1a4019ba6f6ad2-0" n="ce1a4019">
             <seg n="3d6fc044">
               vi inte få ett på samvetsområdet trasigt klientel av unga män
               att dras med eller få en del oförvitliga ungdomar sittande i fängelse
@@ -4400,7 +4448,7 @@
           <note type="speaker" n="5518285b">
             Herr Nilsson i Norrlångträsk:
           </note>
-          <u who="theodor_nilsson_c93d2f" xml:id="i-7408b5e0e2718c36-0" next="i-ac591def7b8bc56e-0" n="35e72d88">
+          <u who="theodor_nilsson_c93d2f" xml:id="i-edcccd3be6656396-0" next="i-edcccd3be6656396-1" n="35e72d88">
             <seg n="dde2ea50">
               Herr talman! Jag förmodar att det icke kommer att betraktas som
               en överdrift, om jag uttalar den uppfattningen, att samvetsfriheten
@@ -4455,14 +4503,14 @@
             </seg>
           </u>
           <pb n="52" facs="https://betalab.kb.se/prot-1940--ak--24/prot_1940__ak__24-052.jp2/_view"/>
-          <note n="8d1acf95">
+          <note type="date" n="2e990bb8">
             Onsdagen den 17 april 1940. Nr 24. 53
           </note>
           <note n="4f26465d">
             Ang. vissa ändringar i lagen om värnpliktiga, vilka hysa samvetsbetänkligheter
             mot värnpliktstjänstgöring, m. m. (Forts.)
           </note>
-          <u who="theodor_nilsson_c93d2f" xml:id="i-ac591def7b8bc56e-0" prev="i-7408b5e0e2718c36-0" n="35e72d88">
+          <u who="theodor_nilsson_c93d2f" xml:id="i-edcccd3be6656396-1" prev="i-edcccd3be6656396-0" n="35e72d88">
             <seg n="483c56fe">
               taga hänsyn till samvetsbetänkligheter riktade mot försvarsväsendet
               som sådant, så ock sker.&gt; Man må ju vara utskottet tacksam för
@@ -4479,7 +4527,7 @@
           <note type="speaker" n="bdaea85a">
             Herr Liedberg:
           </note>
-          <u who="gosta_liedberg_4fa8f7" xml:id="i-3b088e836f761ff7-0" next="i-93edb91559685e5a-0" n="610d4a99">
+          <u who="gosta_liedberg_4fa8f7" xml:id="i-610d4a991e24ae88-0" next="i-610d4a991e24ae88-1" n="610d4a99">
             <seg n="c52f22ca">
               Herr talman! Det kan i tider som dessa på allvar sättas i fråga,
               vilka anspråk som s. k. samvetsömhet verkligen skall tillåtas
@@ -4541,10 +4589,10 @@
             </seg>
           </u>
           <pb n="53" facs="https://betalab.kb.se/prot-1940--ak--24/prot_1940__ak__24-053.jp2/_view"/>
-          <note n="dcad0d96">
+          <note type="date" n="142f40f4">
             54 Nr 24. Onsdagen den 17 april 1940.
           </note>
-          <u who="gosta_liedberg_4fa8f7" xml:id="i-93edb91559685e5a-0" prev="i-3b088e836f761ff7-0" n="610d4a99">
+          <u who="gosta_liedberg_4fa8f7" xml:id="i-610d4a991e24ae88-1" prev="i-610d4a991e24ae88-0" n="610d4a99">
             <seg n="dc770ca3">
               Ang. vissa ändringar i lagen om värnpliktiga, vilka hysa samvetsbetänkligheter
               mot värnpliktstjänstgöring, m. m. (Forts.) antingen den nu är
@@ -4566,7 +4614,7 @@
           <note type="speaker" n="9218d254">
             Herr Holmgren, som nu för kort genmäle erhöll ordet, yttrade:
           </note>
-          <u who="bjorn_frithiofsson_holmgren_e0b7c3" xml:id="i-d5bf49e1ad69b8fa-0" n="aca94214">
+          <u who="bjorn_frithiofsson_holmgren_e0b7c3" xml:id="i-a60a3d24fc086d76-2" n="aca94214">
             <seg n="f9da434e">
               Herr talman! Jag ber att få återtaga mitt yrkande och förena
               mig i det yrkande, som nu framställts av herr Liedberg.
@@ -4578,7 +4626,7 @@
           <note type="speaker" n="f845a374">
             Herr Sandberg:
           </note>
-          <u who="evert_sandberg_7a25ee" xml:id="i-088a749d992363fa-0" next="i-8c852d7ec9f7cde3-0" n="d6687073">
+          <u who="evert_sandberg_7a25ee" xml:id="i-d6687073f5ea86bb-0" next="i-d6687073f5ea86bb-1" n="d6687073">
             <seg n="f39fa2bd">
               Herr talman! Vi ha i motion nr 222 i andra kammaren yrkat bland
               annat, att i stort sett den ordning, som nu gäller beträffande
@@ -4629,14 +4677,14 @@
             </seg>
           </u>
           <pb n="54" facs="https://betalab.kb.se/prot-1940--ak--24/prot_1940__ak__24-054.jp2/_view"/>
-          <note n="543f02db">
+          <note type="date" n="1f084b7b">
             Onsdagen den 17 april 1940. Nr 24. 55
           </note>
           <note n="4f26465d">
             Ang. vissa ändringar i lagen om värnpliktiga, vilka hysa samvetsbetänkligheter
             mot värnpliktstjänstgöring, m. m. (Forts.)
           </note>
-          <u who="evert_sandberg_7a25ee" xml:id="i-8c852d7ec9f7cde3-0" prev="i-088a749d992363fa-0" n="d6687073">
+          <u who="evert_sandberg_7a25ee" xml:id="i-d6687073f5ea86bb-1" prev="i-d6687073f5ea86bb-0" n="d6687073">
             <seg n="5b559f68">
               att det är ingenting att göra åt denna sak, men jag ber att få
               säga, att det torde bli ganska svårt för dessa att anföra synnerliga
@@ -4682,7 +4730,7 @@
           <note type="speaker" n="24fdfb65">
             Herr Gustafsson i Bogla:
           </note>
-          <u who="per_gustafsson_043adb" xml:id="i-78021cea4eb8393c-0" next="i-9362d8d6f9cf00c4-0" n="99e28e54">
+          <u who="per_gustafsson_043adb" xml:id="i-0158defcff67fdba-0" next="i-0158defcff67fdba-1" n="99e28e54">
             <seg n="f17f11d6">
               Herr talman! Som motionär i denna fråga skall jag be att få säga
               några ord.
@@ -4712,14 +4760,14 @@
             </seg>
           </u>
           <pb n="55" facs="https://betalab.kb.se/prot-1940--ak--24/prot_1940__ak__24-055.jp2/_view"/>
-          <note n="dd453dc9">
+          <note type="date" n="11676ef8">
             56 Nr 24, Onsdagen den 17 april 1940.
           </note>
           <note n="4f26465d">
             Ang. vissa ändringar i lagen om värnpliktiga, vilka hysa samvetsbetänkligheter
             mot värnpliktstjänstgöring, m. m. (Forts.)
           </note>
-          <u who="per_gustafsson_043adb" xml:id="i-9362d8d6f9cf00c4-0" prev="i-78021cea4eb8393c-0" n="99e28e54">
+          <u who="per_gustafsson_043adb" xml:id="i-0158defcff67fdba-1" prev="i-0158defcff67fdba-0" n="99e28e54">
             <seg n="389a857e">
               Jag vill understryka, att i den vädjan, som sänts till riksdagens
               ledamöter och vari ett flertal både statskyrkliga och frikyrkliga
@@ -4778,7 +4826,7 @@
           <note type="speaker" n="03ebc938">
             Herr Barnekow:
           </note>
-          <u who="ragnar_barnekow_546e9e" xml:id="i-6248bfe4bcabb6c4-0" next="i-0459f23b7de19384-0" n="345db03a">
+          <u who="ragnar_barnekow_546e9e" xml:id="i-345db03abe75f97a-0" next="i-345db03abe75f97a-1" n="345db03a">
             <seg n="8d4d07a7">
               Herr talman! Jag ber att få påpeka för de herrar, som ha riktat
               ganska starka anmärkningar mot de samvetsömma, att inte ens de,
@@ -4798,14 +4846,14 @@
             </seg>
           </u>
           <pb n="56" facs="https://betalab.kb.se/prot-1940--ak--24/prot_1940__ak__24-056.jp2/_view"/>
-          <note n="a36ae362">
+          <note type="date" n="a853c120">
             Onsdagen den 17 april 1940. Nr 24. 57
           </note>
           <note n="4f26465d">
             Ang. vissa ändringar i lagen om värnpliktiga, vilka hysa samvetsbetänkligheter
             mot värnpliktstjänstgöring, m. m. (Forts.)
           </note>
-          <u who="ragnar_barnekow_546e9e" xml:id="i-0459f23b7de19384-0" prev="i-6248bfe4bcabb6c4-0" n="345db03a">
+          <u who="ragnar_barnekow_546e9e" xml:id="i-345db03abe75f97a-1" prev="i-345db03abe75f97a-0" n="345db03a">
             <seg n="357bf131">
               fjäskande med dem på något sätt? Det arbete, som kommer att tas
               ut av
@@ -4843,7 +4891,7 @@
           <note type="speaker" n="31fc10b4">
             Herr Nilson i Eskilstuna:
           </note>
-          <u who="johan_nilson_b19d14" xml:id="i-c6f5b96c85ce1d96-0" next="i-5a4f1dca6a457daa-0" n="1ff6264c">
+          <u who="johan_nilson_b19d14" xml:id="i-1ff6264c9af01a1a-0" next="i-1ff6264c9af01a1a-8" n="1ff6264c">
             <seg n="470b3989">
               Herr talman! Jag är glad över den anda, som behärskat debatten,
               men det är ett par under denna debatt fällda uttryck, som kommit
@@ -4895,7 +4943,7 @@
             blev detta yrkande av kammaren avslaget.
           </note>
           <pb n="57" facs="https://betalab.kb.se/prot-1940--ak--24/prot_1940__ak__24-057.jp2/_view"/>
-          <note n="9456beae">
+          <note type="date" n="53cc7eec">
             58 Nr 24. Onsdagen den 17 april 1940.
           </note>
           <note n="6dd707bf">
@@ -4983,100 +5031,11 @@
             beredas i det departement, vartill de, enligt den i 5 8 omförmälda
             fördelning, höra. $ 43.
           </note>
-          <u who="johan_nilson_b19d14" xml:id="i-5a4f1dca6a457daa-0" prev="i-c6f5b96c85ce1d96-0" n="1ff6264c">
+          <u who="johan_nilson_b19d14" xml:id="i-1ff6264c9af01a1a-1" prev="i-1ff6264c9af01a1a-0" n="1ff6264c">
             <seg n="ee0a554c">
               Går Konungen i fält, eller till avlägsnare inrikes orter reser,
               förordne minst tre ledamöter av statsrådet, under den ordförande,
               som Han, antingen ibland
-            </seg>
-            <seg n="9fdb8b93">
-              För varje departement utser Konungen bland statsrådets ledamöter
-              en chef och föredragande. Chefen för det departement, till vilket
-              utrikes
-            </seg>
-            <seg n="25b7a5a9">
-              ärendena höra, är minister för utrikes ärendena.
-            </seg>
-            <seg n="3b63ff7a">
-              (Utskottets förslag.) av statsrådet att i departementschefens
-              ställe föredraga de ärenden, Konungen bestämmer. Chefen för det
-              departement, till vilket utrikes ärendena höra, är minister för
-              utrikes ärendena.
-            </seg>
-            <seg n="a7169cfa">
-              Statsrådet skall bestå av cheferna för departementen samt tre
-              statsråd utan departement. Bland de tre statsråden utan departement
-              böra minst två hava förvaltat civil beställning.
-            </seg>
-            <seg n="a46238a2">
-              Går Konungen i fält, eller till avlägsnare inrikes orter reser,
-              förordne tre ledamöter av statsrådet, under den ordförande, som
-              Han, antingen ibland prinsar av Sitt hus eller ibland statsrådets
-              ledamöter, särskilt nämner, att föra regeringen i de mål, Konungen
-              föreskriver... Med de mål, Konungen då Själv avgör, förhålles
-              på det sätt, som 8 $ stadgar.
-            </seg>
-            <seg n="c069950a">
-              Går Konungen i fält, eller till avlägsnare inrikes orter reser,
-              förordne minst tre ledamöter av statsrådet, under den ordförande,
-              som Han, antingen ibland prinsar av Sitt hus eller ibland statsrådets
-              ledamöter, särskilt nämner, att föra regeringen i de mål, Konungen
-              föreskriver. Med de mål, Konungen då Själv avgör, förhålles på
-              det sätt, som 8 $ stadgar.
-            </seg>
-            <seg n="e9aaa5d8">
-              Herr Hallén: Herr talman! För en stund sedan vädjade talmannen
-              till kammarens ledamöter, att de skulle begränsa sina yttranden
-              med hänsyn till den ganska långa föredragningslistan. Jag skall
-              försöka göra vad jag kan för att inte alltför mycket förlänga
-              debatten och skall så summariskt som möjligt söka klarlägga, vad
-              det är som skiljer utskottsmajoritetens förslag från reservanternas.
-            </seg>
-            <seg n="8bbc2035">
-              Under det att enligt propositionen endast departementens antal
-              skall bestämmas genom lag, skall enligt utskottsförslaget även
-              deras benämning och verksamhetsområden bestämmas genom lag. Reservanterna
-              anse, att den 1 propositionen föreslagna utformningen av grundlagstexten
-              möjliggör för riksdagen att statsregleringsvägen öva inflytande
-              på den departementala organisationen. Utskottsmajoriteten har,
-              såvitt jag kan förstå, bekajats av för stark misstro mot Kungl.
-              Maj:t. Låt mig taga ett praktiskt exempel på vad saken innebär!
-              Om en regering skulle vilja framdeles överflytta t. ex. kyrkoärendena
-              ifrån ecklesiastikdepartementet till justitiedepartementet, skulle
-              detta enligt propositionen kunna ske, menar utskottet, utan att
-              riksdagen kan förhindra det. Man skulle icke kunna på statsregleringens
-              väg protestera mot det och omöjliggöra det. Vi reservanter äro
-              i stället övertygade om att det kan riksdagen mycket väl göra,
-              då anslagen till departementen skola behandlas. Vi mena därför,
-              att Kungl. Maj:ts förslag att införa en större frihet, när det
-              gäller arbetsfördelningen mellan departementen, innebär en smidigare
-              och tidsenligare form. Därför hålla vi på Kungl. Maj:ts förslag
-              på den punkten.
-            </seg>
-            <seg n="aa7e385a">
-              Vi anse vidare, att den gamla bestämmelsen om att två av statsråden
-              skola ha haft administrativt uppdrag är en alldeles värdelös garanti,
-              som Kungl. Maj:t med all rätt vill taga bort. Utskottet erkänner
-              sjävt, att det är en svag garanti, men utskottet menar, att bestämmelsen
-              dock är en värdefull tradition från gångna tider. Det är väl ändå
-              en fullkomligt värdelös kvalifikation man här avfordrar statsråden.
-              En person kan ha tjänstgjort några veckor på en
-            </seg>
-            <seg n="f64131c6">
-              länsstyrelse, och därmed fyller han denna kvalifikation. Skulle
-              man kräva något av vissa konsultativa statsråd, borde det exempelvis
-              vara, att de hade utövat domarämbete, att de hade avlagt juridisk
-              examen eller dylikt. Något sådant har man icke vågat sig på. Vi
-              mena därför, att när Kungl. Maj:t slopat denna relikt, denna bestämmelse
-              som icke har någon aktuell betydelse, är det riktigt, och vi tycka,
-              att det är petigt och onödigt, när utskottsmajoriteten nu liksom
-              söker blåsa liv i den gamla bestämmelsen och vill låta den stå
-              i grundlagstexten.
-            </seg>
-            <seg n="d15b8b3e">
-              Detta är i huvudsak vad som skiljer utskottsmajoriteten och reservanterna
-              åt. Jag ber, herr talman, att få yrka bifall till Kungl. Maj:ts
-              förslag oförändrat.
             </seg>
           </u>
           <pb n="58" facs="https://betalab.kb.se/prot-1940--ak--24/prot_1940__ak__24-058.jp2/_view"/>
@@ -5145,6 +5104,13 @@
             bestämmes av Konungen genom en särskilt utfärdad, offentligen
             kungjord stadga.
           </note>
+          <u who="johan_nilson_b19d14" xml:id="i-1ff6264c9af01a1a-2" prev="i-1ff6264c9af01a1a-0" n="1ff6264c">
+            <seg n="9fdb8b93">
+              För varje departement utser Konungen bland statsrådets ledamöter
+              en chef och föredragande. Chefen för det departement, till vilket
+              utrikes
+            </seg>
+          </u>
           <note n="3ff1e07a">
             För särskilda grenar av rikets styrelse skola finnas statsdepartement
             till det antal, som bestämmes genom en av Konungen och riksdagen
@@ -5165,7 +5131,7 @@
           <note n="9a740e33">
             60 Nr 24.
           </note>
-          <note n="6db805c1">
+          <note type="date" n="7c479049">
             Onsdagen den 17 april 1940.
           </note>
           <note n="2eba332a">
@@ -5178,9 +5144,27 @@
           <note n="295b85e6">
             (Nuvarande lydelse.)
           </note>
+          <u who="johan_nilson_b19d14" xml:id="i-1ff6264c9af01a1a-3" prev="i-1ff6264c9af01a1a-0" n="1ff6264c">
+            <seg n="25b7a5a9">
+              ärendena höra, är minister för utrikes ärendena.
+            </seg>
+            <seg n="3b63ff7a">
+              (Utskottets förslag.) av statsrådet att i departementschefens
+              ställe föredraga de ärenden, Konungen bestämmer. Chefen för det
+              departement, till vilket utrikes ärendena höra, är minister för
+              utrikes ärendena.
+            </seg>
+          </u>
           <note n="a6f67d68">
             $ 6.
           </note>
+          <u who="johan_nilson_b19d14" xml:id="i-1ff6264c9af01a1a-4" prev="i-1ff6264c9af01a1a-0" n="1ff6264c">
+            <seg n="a7169cfa">
+              Statsrådet skall bestå av cheferna för departementen samt tre
+              statsråd utan departement. Bland de tre statsråden utan departement
+              böra minst två hava förvaltat civil beställning.
+            </seg>
+          </u>
           <note n="6da02142">
             Av statsrådets ledamöter utnämne Konungen en att vara statsminister
             och statsrådets främste ledamot.
@@ -5218,10 +5202,30 @@
           <note n="d5e1a80c">
             $ 43.
           </note>
+          <u who="johan_nilson_b19d14" xml:id="i-1ff6264c9af01a1a-5" prev="i-1ff6264c9af01a1a-0" n="1ff6264c">
+            <seg n="a46238a2">
+              Går Konungen i fält, eller till avlägsnare inrikes orter reser,
+              förordne tre ledamöter av statsrådet, under den ordförande, som
+              Han, antingen ibland prinsar av Sitt hus eller ibland statsrådets
+              ledamöter, särskilt nämner, att föra regeringen i de mål, Konungen
+              föreskriver... Med de mål, Konungen då Själv avgör, förhålles
+              på det sätt, som 8 $ stadgar.
+            </seg>
+          </u>
           <note n="bf496016">
             Vad nu om Konung sagt är, gälle ock i avseende på regent, då
             riksstyrelsen av honom utövas.
           </note>
+          <u who="johan_nilson_b19d14" xml:id="i-1ff6264c9af01a1a-6" prev="i-1ff6264c9af01a1a-0" n="1ff6264c">
+            <seg n="c069950a">
+              Går Konungen i fält, eller till avlägsnare inrikes orter reser,
+              förordne minst tre ledamöter av statsrådet, under den ordförande,
+              som Han, antingen ibland prinsar av Sitt hus eller ibland statsrådets
+              ledamöter, särskilt nämner, att föra regeringen i de mål, Konungen
+              föreskriver. Med de mål, Konungen då Själv avgör, förhålles på
+              det sätt, som 8 $ stadgar.
+            </seg>
+          </u>
           <note n="bf496016">
             Vad nu om Konung sagt är, gälle ock i avseende på regent, då
             riksstyrelsen av honom utövas.
@@ -5240,7 +5244,7 @@
             förklaring eller
           </note>
           <pb n="60" facs="https://betalab.kb.se/prot-1940--ak--24/prot_1940__ak__24-060.jp2/_view"/>
-          <note n="6db805c1">
+          <note type="date" n="7c479049">
             Onsdagen den 17 april 1940.
           </note>
           <note n="bd738ce6">
@@ -5295,21 +5299,79 @@
           <note n="fc9a278a">
             Sedan utskottets hemställan föredragits, anförde:
           </note>
+          <u who="johan_nilson_b19d14" xml:id="i-1ff6264c9af01a1a-7" prev="i-1ff6264c9af01a1a-0" n="1ff6264c">
+            <seg n="e9aaa5d8">
+              Herr Hallén: Herr talman! För en stund sedan vädjade talmannen
+              till kammarens ledamöter, att de skulle begränsa sina yttranden
+              med hänsyn till den ganska långa föredragningslistan. Jag skall
+              försöka göra vad jag kan för att inte alltför mycket förlänga
+              debatten och skall så summariskt som möjligt söka klarlägga, vad
+              det är som skiljer utskottsmajoritetens förslag från reservanternas.
+            </seg>
+            <seg n="8bbc2035">
+              Under det att enligt propositionen endast departementens antal
+              skall bestämmas genom lag, skall enligt utskottsförslaget även
+              deras benämning och verksamhetsområden bestämmas genom lag. Reservanterna
+              anse, att den 1 propositionen föreslagna utformningen av grundlagstexten
+              möjliggör för riksdagen att statsregleringsvägen öva inflytande
+              på den departementala organisationen. Utskottsmajoriteten har,
+              såvitt jag kan förstå, bekajats av för stark misstro mot Kungl.
+              Maj:t. Låt mig taga ett praktiskt exempel på vad saken innebär!
+              Om en regering skulle vilja framdeles överflytta t. ex. kyrkoärendena
+              ifrån ecklesiastikdepartementet till justitiedepartementet, skulle
+              detta enligt propositionen kunna ske, menar utskottet, utan att
+              riksdagen kan förhindra det. Man skulle icke kunna på statsregleringens
+              väg protestera mot det och omöjliggöra det. Vi reservanter äro
+              i stället övertygade om att det kan riksdagen mycket väl göra,
+              då anslagen till departementen skola behandlas. Vi mena därför,
+              att Kungl. Maj:ts förslag att införa en större frihet, när det
+              gäller arbetsfördelningen mellan departementen, innebär en smidigare
+              och tidsenligare form. Därför hålla vi på Kungl. Maj:ts förslag
+              på den punkten.
+            </seg>
+            <seg n="aa7e385a">
+              Vi anse vidare, att den gamla bestämmelsen om att två av statsråden
+              skola ha haft administrativt uppdrag är en alldeles värdelös garanti,
+              som Kungl. Maj:t med all rätt vill taga bort. Utskottet erkänner
+              sjävt, att det är en svag garanti, men utskottet menar, att bestämmelsen
+              dock är en värdefull tradition från gångna tider. Det är väl ändå
+              en fullkomligt värdelös kvalifikation man här avfordrar statsråden.
+              En person kan ha tjänstgjort några veckor på en
+            </seg>
+          </u>
           <pb n="61" facs="https://betalab.kb.se/prot-1940--ak--24/prot_1940__ak__24-061.jp2/_view"/>
-          <note n="fc55661e">
+          <note type="date" n="85173531">
             62 Nr 24. Onsdagen den 17 april 1940.
           </note>
           <note n="3ecbad7b">
             Ang. förslag till ändrad lydelse av $$ 5, 6, 25 och 43 regeringsformen
             samt $ 38 riksdagsordningen. (Forts.)
           </note>
+          <u who="johan_nilson_b19d14" xml:id="i-1ff6264c9af01a1a-8" prev="i-1ff6264c9af01a1a-0" n="1ff6264c">
+            <seg n="f64131c6">
+              länsstyrelse, och därmed fyller han denna kvalifikation. Skulle
+              man kräva något av vissa konsultativa statsråd, borde det exempelvis
+              vara, att de hade utövat domarämbete, att de hade avlagt juridisk
+              examen eller dylikt. Något sådant har man icke vågat sig på. Vi
+              mena därför, att när Kungl. Maj:t slopat denna relikt, denna bestämmelse
+              som icke har någon aktuell betydelse, är det riktigt, och vi tycka,
+              att det är petigt och onödigt, när utskottsmajoriteten nu liksom
+              söker blåsa liv i den gamla bestämmelsen och vill låta den stå
+              i grundlagstexten.
+            </seg>
+            <seg n="d15b8b3e">
+              Detta är i huvudsak vad som skiljer utskottsmajoriteten och reservanterna
+              åt. Jag ber, herr talman, att få yrka bifall till Kungl. Maj:ts
+              förslag oförändrat.
+            </seg>
+          </u>
           <note n="d236ff1d">
             I detta anförande instämde herrar Fast och Fält.
           </note>
           <note type="speaker" n="2ded329f">
             Herr Lindskog:
           </note>
-          <u who="claes_lindskog_f9112a" xml:id="i-47c9e9f0d12d4a5b-0" next="i-1ae459991c8968bc-0" n="d5d3a25e">
+          <u who="claes_lindskog_f9112a" xml:id="i-d5d3a25ed82ab671-0" next="i-d5d3a25ed82ab671-2" n="d5d3a25e">
             <seg n="e0cc2d89">
               Herr talman! Jag skall i likhet med herr Hallén yttra mig mycket
               kort.
@@ -5363,14 +5425,14 @@
             </seg>
           </u>
           <pb n="62" facs="https://betalab.kb.se/prot-1940--ak--24/prot_1940__ak__24-062.jp2/_view"/>
-          <note n="878a793a">
+          <note type="date" n="24d65b95">
             Onsdagen den 17 april 1940. Nr 24. 63
           </note>
           <note n="3ecbad7b">
             Ang. förslag till ändrad lydelse av $$ 5, 6, 25 och 43 regeringsformen
             samt $ 38 riksdagsordningen. (Forts.)
           </note>
-          <u who="claes_lindskog_f9112a" xml:id="i-1ae459991c8968bc-0" prev="i-47c9e9f0d12d4a5b-0" n="d5d3a25e">
+          <u who="claes_lindskog_f9112a" xml:id="i-d5d3a25ed82ab671-1" prev="i-d5d3a25ed82ab671-0" n="d5d3a25e">
             <seg n="e82f9f3f">
               att två av de konsultativa statsråden skola ha innehaft civilt
               ämbete. Jag medgiver, att garantien icke är stark — det har utskottet
@@ -5397,6 +5459,11 @@
               Jag ber, herr talman, att med dessa ord få yrka bifall till utskottets
               förslag.
             </seg>
+          </u>
+          <note n="6c35ceef">
+            Med herr Lindskog förenade sig herr Andersson i Ovanmyra.
+          </note>
+          <u who="claes_lindskog_f9112a" xml:id="i-d5d3a25ed82ab671-2" prev="i-d5d3a25ed82ab671-0" n="d5d3a25e">
             <seg n="a006ec30">
               Herr Hallén: Herr talman! Jag begärde ordet endast för en kort
               replik till herr Lindskog. Jag ber att få fästa kammarens uppmärksamhet
@@ -5415,13 +5482,10 @@
               Herr talman! Jag vidhåller mitt yrkande.
             </seg>
           </u>
-          <note n="6c35ceef">
-            Med herr Lindskog förenade sig herr Andersson i Ovanmyra.
-          </note>
           <note type="speaker" n="9d82aa63">
             Herr Holmbäck:
           </note>
-          <u who="ake_holmback_b1ec7c" xml:id="i-d8404ba40f0ee2f8-1" next="i-e9e9879dd223a2c9-1" n="2f349987">
+          <u who="ake_holmback_b1ec7c" xml:id="i-2f3499876429fc1f-2" next="i-2f3499876429fc1f-3" n="2f349987">
             <seg n="a41f1de0">
               Herr talman! Vad angår frågan, huruvida departementens huvudsakliga
               uppgifter skola bestämmas av lag eller genom statsreglering, så
@@ -5448,14 +5512,14 @@
             </seg>
           </u>
           <pb n="63" facs="https://betalab.kb.se/prot-1940--ak--24/prot_1940__ak__24-063.jp2/_view"/>
-          <note n="6ef08c7f">
+          <note type="date" n="bdc16edf">
             64 Nr 24. Onsdagen den 17 april 1940.
           </note>
           <note n="3ecbad7b">
             Ang. förslag till ändrad lydelse av $$ 5, 6, 25 och 43 regeringsformen
             samt $ 38 riksdagsordningen. (Forts.)
           </note>
-          <u who="ake_holmback_b1ec7c" xml:id="i-e9e9879dd223a2c9-1" prev="i-d8404ba40f0ee2f8-1" n="2f349987">
+          <u who="ake_holmback_b1ec7c" xml:id="i-2f3499876429fc1f-3" prev="i-2f3499876429fc1f-2" n="2f349987">
             <seg n="7abfadf9">
               de bilda ett inslag av tränade ämbetsmän i parlamentariska regeringar,
               vilka till stor del bestå av icke-ämbetsmän Jag tror, att denna
@@ -5496,7 +5560,7 @@
           <note type="speaker" n="2b459d37">
             Herr Holmdahl:
           </note>
-          <u who="otto_holmdahl_4133fc" xml:id="i-7e625aaa8b2027ed-1" n="fe8e9dfb">
+          <u who="otto_holmdahl_4133fc" xml:id="i-fe8e9dfb0df21eb7-4" n="fe8e9dfb">
             <seg n="e2d66ff5">
               Herr talman! Jag skall be att med några ord få beröra en av de
               här diskuterade frågorna, i vilka utskottsmajoritetens ståndpunkt
@@ -5537,7 +5601,7 @@
             </seg>
           </u>
           <pb n="64" facs="https://betalab.kb.se/prot-1940--ak--24/prot_1940__ak__24-064.jp2/_view"/>
-          <note n="98c02ee8">
+          <note type="date" n="0ba515f3">
             Onsdagen den 17 april 1940. Nr 24. 65
           </note>
           <note n="55999edf">
@@ -5551,7 +5615,7 @@
           <note type="speaker" n="f54e4fe9">
             Herr Persson i Falla:
           </note>
-          <u who="ivar_persson_210656" xml:id="i-9af5940f2af2ed6f-1" next="i-8afcf8236f41e4b6-1" n="cf8f1c48">
+          <u who="ivar_persson_210656" xml:id="i-9a2d75bcb3160e2e-2" next="i-9a2d75bcb3160e2e-3" n="cf8f1c48">
             <seg n="01a73c13">
               Herr talman! När jag vågar övervinna min blyghet att yttra mig
               i ett ärende, som kommer från konstitutionsutskottet, är det närmast
@@ -5616,7 +5680,7 @@
             Andra kammarens protokoll 1940. Nr 24. 5
           </note>
           <pb n="65" facs="https://betalab.kb.se/prot-1940--ak--24/prot_1940__ak__24-065.jp2/_view"/>
-          <note n="7406dfa6">
+          <note type="date" n="02486c6b">
             66 Nr 24, Onsdagen den 17 april 1940.
           </note>
           <note n="f8fd2c9c">
@@ -5626,7 +5690,7 @@
             man tidigare ansett som folkstyrets oförytterliga positioner,
             samtidigt med att de demokratiska talesätten alltjämt ha högkonjunktur.
           </note>
-          <u who="ivar_persson_210656" xml:id="i-8afcf8236f41e4b6-1" prev="i-9af5940f2af2ed6f-1" n="cf8f1c48">
+          <u who="ivar_persson_210656" xml:id="i-9a2d75bcb3160e2e-3" prev="i-9a2d75bcb3160e2e-2" n="cf8f1c48">
             <seg n="1645d8a9">
               Det kanske kan vara anledning att i tid se till, att vi inte
               inom det formaldemokratiska styrelsesättets skal snart få en kärna
@@ -5644,7 +5708,7 @@
           <note type="speaker" n="8af223e9">
             Herr Andersson i Igelboda:
           </note>
-          <u who="verner_andersson_b457ce" xml:id="i-68fc2fee85059a64-0" n="1718c40b">
+          <u who="verner_andersson_b457ce" xml:id="i-eb4e04cdf783377e-3" n="1718c40b">
             <seg n="b8fde366">
               Herr talman! Jag har anslutit mig till utskottets förslag i vad
               det avser $ 5, sålunda den fråga som behandlats av de närmast
@@ -5680,7 +5744,7 @@
           <note type="speaker" n="708c2b10">
             Herr Andersson i Ovanmyra:
           </note>
-          <u who="verner_andersson_b457ce" xml:id="i-3777faeaf705fc7c-1" next="i-4fbe4a7786308439-1" n="1718c40b">
+          <u who="verner_andersson_b457ce" xml:id="i-eb4e04cdf783377e-4" next="i-eb4e04cdf783377e-5" n="1718c40b">
             <seg n="a5c1f340">
               Herr talman! Även om jag för min del icke kan inlägga så vittsvävande
               konsekvenser i Kungl. Maj:ts förslag, som herr Persson i Falla
@@ -5707,14 +5771,14 @@
             </seg>
           </u>
           <pb n="66" facs="https://betalab.kb.se/prot-1940--ak--24/prot_1940__ak__24-066.jp2/_view"/>
-          <note n="c2c122a0">
+          <note type="date" n="d06a3221">
             Onsdagen den 17 april 1940. Nr 24. 67
           </note>
           <note n="3ecbad7b">
             Ang. förslag till ändrad lydelse av $$ 5, 6, 25 och 43 regeringsformen
             samt $ 38 riksdagsordningen. (Forts.)
           </note>
-          <u who="verner_andersson_b457ce" xml:id="i-4fbe4a7786308439-1" prev="i-3777faeaf705fc7c-1" n="1718c40b">
+          <u who="verner_andersson_b457ce" xml:id="i-eb4e04cdf783377e-5" prev="i-eb4e04cdf783377e-4" n="1718c40b">
             <seg n="833d905f">
               bise detsamma. Detta med administrativ erfarenhet innebär en
               så pass stor tillgång, att vi icke böra kasta den åt sidan utan
@@ -5766,7 +5830,7 @@
           <note type="speaker" n="8af223e9">
             Herr Andersson i Igelboda:
           </note>
-          <u who="verner_andersson_b457ce" xml:id="i-68fc2fee85059a64-1" n="1718c40b">
+          <u who="verner_andersson_b457ce" xml:id="i-eb4e04cdf783377e-6" n="1718c40b">
             <seg n="758d239b">
               Herr talman! Jag ber att få återtaga mitt förut under överläggningen
               framställda yrkande.
@@ -5790,7 +5854,7 @@
             Vinner Nej, har kammaren avslagit utskottets berörda hemställan.
           </note>
           <pb n="67" facs="https://betalab.kb.se/prot-1940--ak--24/prot_1940__ak__24-067.jp2/_view"/>
-          <note n="fe01b0d2">
+          <note type="date" n="c9c56b89">
             68 Nr 24. Onsdagen den 17 april 1940.
           </note>
           <note n="51f8a117">
@@ -5844,11 +5908,11 @@
           <note type="speaker" n="2f909932">
             rande rätt för och luftskydd; och anförde därvid:
           </note>
-          <u who="unknown" xml:id="i-9ef3e08c0d571fb0-0" n="f2293f75"/>
+          <u who="unknown" xml:id="i-593a1a0fd55c8333-0" n="f2293f75"/>
           <note type="speaker" n="3bb5f58c">
             al) add Herr Hagberg i Malmö:
           </note>
-          <u who="hilding_hagberg_50faf1" xml:id="i-59acbaad62708bc1-0" next="i-6147aad9d4ae6e72-0" n="593a1a0f">
+          <u who="hilding_hagberg_50faf1" xml:id="i-593a1a0fd55c8333-1" next="i-593a1a0fd55c8333-2" n="593a1a0f">
             <seg n="98de8cf1">
               Herr talman! Jag anser det alldeles påkallat att
             </seg>
@@ -5883,14 +5947,14 @@
             </seg>
           </u>
           <pb n="68" facs="https://betalab.kb.se/prot-1940--ak--24/prot_1940__ak__24-068.jp2/_view"/>
-          <note n="bbfe4aad">
+          <note type="date" n="55d1b17e">
             Onsdagen den 17 april 1940. Nr 24. 69
           </note>
           <note n="342bffc4">
             Ang. kamrarnas skiljaktiga beslut i fråga om lagstiftning rörande
             rätt för kommun att anslå medel till luftvärn och luftskydd. (Forts.)
           </note>
-          <u who="hilding_hagberg_50faf1" xml:id="i-6147aad9d4ae6e72-0" prev="i-59acbaad62708bc1-0" n="593a1a0f">
+          <u who="hilding_hagberg_50faf1" xml:id="i-593a1a0fd55c8333-2" prev="i-593a1a0fd55c8333-1" n="593a1a0f">
             <seg n="e3f51bfb">
               dagen eller för den enskilde ledamoten att något åtgöra i denna
               sak. Men Kungl. Maj:t har ju sin initiativrätt fortfarande kvar,
@@ -5917,7 +5981,7 @@
           <note type="speaker" n="cf2296db">
             Herr Lindqvist:
           </note>
-          <u who="axel_lindqvist_4c92b2" xml:id="i-fdb55eb4a91cdabe-0" next="i-0f352108ae9768a0-0" n="487d0f34">
+          <u who="axel_lindqvist_4c92b2" xml:id="i-487d0f34a6781890-0" next="i-487d0f34a6781890-1" n="487d0f34">
             <seg n="8e709dfb">
               Herr talman! Saken är ju avgjord, och det kan inte falla mig
               in att taga upp någon polemik med den föregående talaren. Jag
@@ -5975,7 +6039,7 @@
           <note n="75088c51">
             Ang. rikskommissionen för ekonomisk för- 8varsberedskap: avlöningar.
           </note>
-          <note n="3fb22abe">
+          <note type="date" n="5f96cb92">
             70 Nr 24. Onsdagen den 17 april 1940.
           </note>
           <note n="a292265b">
@@ -5997,7 +6061,7 @@
           <note n="207c72be">
             Punkterna 1 och 2. Vad utskottet hemställt bifölls.
           </note>
-          <u who="axel_lindqvist_4c92b2" xml:id="i-0f352108ae9768a0-0" prev="i-fdb55eb4a91cdabe-0" n="487d0f34">
+          <u who="axel_lindqvist_4c92b2" xml:id="i-487d0f34a6781890-1" prev="i-487d0f34a6781890-0" n="487d0f34">
             <seg n="c2d3f860">
               Punkten 3, angående rikskommissionen för ekonomisk försvarsberedskap:
               avlöningar.
@@ -6009,7 +6073,7 @@
           <note type="speaker" n="7b16bea1">
             Herr von Seth:
           </note>
-          <u who="torgil_von_seth_024178" xml:id="i-86d1214635fe7d76-0" next="i-f3c2a489abe1e103-0" n="4038e5dc">
+          <u who="torgil_von_seth_024178" xml:id="i-57655516eede0d3b-0" next="i-57655516eede0d3b-2" n="4038e5dc">
             <seg n="31aef488">
               Herr talman! Rikskommissionen för ekonomisk försvarsberedskap
               har på sin tid fått sig mycket viktiga angelägenheter anförtrodda.
@@ -6060,7 +6124,7 @@
             Punkterna 11 och 12. Lades till handlingarna.
           </note>
           <pb n="70" facs="https://betalab.kb.se/prot-1940--ak--24/prot_1940__ak__24-070.jp2/_view"/>
-          <note n="fe33e343">
+          <note type="date" n="9f3c6a34">
             Onsdagen den 17 april 1940. Nr 24. 71
           </note>
           <note n="8ce52345">
@@ -6161,7 +6225,7 @@
           <note n="fed677ab">
             else för del-
           </note>
-          <note n="e81eaf08">
+          <note type="date" n="d69cc646">
             72 Nr 24. Onsdagen den 17 april 1940.
           </note>
           <note n="fb31fc28">
@@ -6173,16 +6237,9 @@
           <note n="a8e4d6aa">
             $ 20.
           </note>
-          <u who="torgil_von_seth_024178" xml:id="i-f3c2a489abe1e103-0" prev="i-86d1214635fe7d76-0" n="4038e5dc">
+          <u who="torgil_von_seth_024178" xml:id="i-57655516eede0d3b-1" prev="i-57655516eede0d3b-0" n="4038e5dc">
             <seg n="28cda157">
               Föredrogos vart efter annat:
-            </seg>
-            <seg n="e45ca785">
-              ägare i staläggande i visst fall av tilläggsavgifter; och anförde
-              därvid:
-            </seg>
-            <seg n="3b969621">
-              tens järnvägars änkeoch
             </seg>
           </u>
           <note n="cfa91e17">
@@ -6228,10 +6285,19 @@
             motioner om befrielse för delägare 1 statens järnvägars änkeoch
             pupillkassa från er-
           </note>
+          <u who="torgil_von_seth_024178" xml:id="i-57655516eede0d3b-2" prev="i-57655516eede0d3b-0" n="4038e5dc">
+            <seg n="e45ca785">
+              ägare i staläggande i visst fall av tilläggsavgifter; och anförde
+              därvid:
+            </seg>
+            <seg n="3b969621">
+              tens järnvägars änkeoch
+            </seg>
+          </u>
           <note type="speaker" n="456929b6">
             Herr Hage:
           </note>
-          <u who="ernst_hage_26eb12" xml:id="i-c8fea54ec3da9039-3" next="i-d0af65b9adf94e55-3" n="d59bd059">
+          <u who="ernst_hage_26eb12" xml:id="i-d59bd05936d79653-7" next="i-d59bd05936d79653-9" n="d59bd059">
             <seg n="d48978ad">
               Herr talman! Jag skall icke säga många ord i den förelig-
             </seg>
@@ -6246,7 +6312,7 @@
           <note n="7507128f">
             av tilläggsavgifter.
           </note>
-          <u who="ernst_hage_26eb12" xml:id="i-d0af65b9adf94e55-3" prev="i-c8fea54ec3da9039-3" n="d59bd059">
+          <u who="ernst_hage_26eb12" xml:id="i-d59bd05936d79653-8" prev="i-d59bd05936d79653-7" n="d59bd059">
             <seg n="cd680808">
               icke heller göra något yrkande, men jag måste emellertid samtidigt
               beklaga, att det synes vara omöjligt att göra något åt den här
@@ -6269,6 +6335,16 @@
               verksamheten av denna nya institution. De grunder, som gälla för
               användningen av dessa medel, medgiva emellertid icke, såvitt jag
             </seg>
+          </u>
+          <pb n="72" facs="https://betalab.kb.se/prot-1940--ak--24/prot_1940__ak__24-072.jp2/_view"/>
+          <note type="date" n="29f5d5aa">
+            Onsdagen den 17 april 1940. Nr 24. 73
+          </note>
+          <note n="0361072b">
+            Ang. befrielse för delägare i statens järnvägars änkeoch pupillkassa
+            från erläggande i visst fall av tilläggsavgifter. (Forts.)
+          </note>
+          <u who="ernst_hage_26eb12" xml:id="i-d59bd05936d79653-9" prev="i-d59bd05936d79653-7" n="d59bd059">
             <seg n="7977f1ae">
               vet, att man kan använda dem för detta ändamål. Jag har emellertid
               den uppfattningen, att, om Kungl. Maj:t ville, så kunde Kungl.
@@ -6286,14 +6362,6 @@
               under övervägande.
             </seg>
           </u>
-          <pb n="72" facs="https://betalab.kb.se/prot-1940--ak--24/prot_1940__ak__24-072.jp2/_view"/>
-          <note n="6d1f4ddc">
-            Onsdagen den 17 april 1940. Nr 24. 73
-          </note>
-          <note n="0361072b">
-            Ang. befrielse för delägare i statens järnvägars änkeoch pupillkassa
-            från erläggande i visst fall av tilläggsavgifter. (Forts.)
-          </note>
           <note n="b2261efe">
             Vidare yttrades ej. Utskottets hemställan bifölls.
           </note>
@@ -6365,7 +6433,7 @@
             Nr 24. 6
           </note>
           <pb n="73" facs="https://betalab.kb.se/prot-1940--ak--24/prot_1940__ak__24-073.jp2/_view"/>
-          <note n="c55ceceb">
+          <note type="date" n="f7419eca">
             74 Nr 24. Onsdagen den 17 april 1940.
           </note>
           <note n="96792c85">
@@ -6418,7 +6486,7 @@
           <note type="speaker" n="10f8fea9">
             herr Berg under 5 dagen fr:
           </note>
-          <u who="robert_berg_521027" xml:id="i-5ce5db2f57e9b001-0" n="cda581d7">
+          <u who="robert_berg_521027" xml:id="i-68a5622cdba50927-0" n="cda581d7">
             <seg n="f2d1732d">
               z m. den 22 sven, &gt; Jonsson i Haverö &gt; 6 22 &gt; Olsson i Rödningsberg
               &gt; 4 &gt;» &gt; &gt; 20 &gt; &gt; Brädefors &gt; 6 &gt; &gt; &gt; 18 &gt; &gt; Johansson i Krogstorp

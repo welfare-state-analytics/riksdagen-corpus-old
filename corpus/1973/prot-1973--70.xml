@@ -20,7 +20,7 @@
     <encodingDesc>
       <editorialDecl>
         <correction>
-          <p>Some data curation was done. It is documented in db/curation/instances</p>
+          <p>Some data curation was done. It is documented in input/curation/instances</p>
         </correction>
       </editorialDecl>
     </encodingDesc>
@@ -52,11 +52,13 @@
       <front>
         <div type="preface">
           <head>prot-1973--70</head>
+          <docDate when="1973-04-12">1973-04-12</docDate>
           <docDate when="1973-04-13">1973-04-13</docDate>
         </div>
       </front>
       <body>
         <div>
+          <pb n="0" facs="https://betalab.kb.se/prot-1973--70/prot_1973__70-000.jp2/_view"/>
           <note n="a24b6f6a">
             Riksdagens protokoll
           </note>
@@ -64,7 +66,7 @@
             Nr 68-70 12—13 april 1973
           </note>
           <note n="018ea3f4"/>
-          <note n="c044f83e">
+          <note type="date" n="1fdb4ac9">
             Debatter Torsdagen den 12 april kl. 12.00
           </note>
           <note n="661550b4">
@@ -267,7 +269,7 @@
             av jordbruksprodukter, m.m; ..cs.scisc.ossss te sect Nr 15 ang.
             jordbrukets kapitaloch kreditförsörjning, m. m.
           </note>
-          <note n="011372d2">
+          <note type="date" n="b4240178">
             Torsdagen den 12 april kl. 19.30
           </note>
           <note n="f30e5503">
@@ -333,7 +335,7 @@
           <note n="dfcd63c5">
             Nr 70
           </note>
-          <note n="19b0ae94">
+          <note type="date" n="98b7bca1">
             Fredagen den 13 april Kl. 10.00
           </note>
           <note n="315dcc4c">
@@ -387,7 +389,7 @@
           <note type="speaker" n="6e4f1cb5">
             Herr AHLMARK (fp):
           </note>
-          <u who="per_ahlmark_d7ae50" xml:id="i-4a78b7a8be9478cc-0" next="i-795ad363ba57eaab-0" n="d9d4719f">
+          <u who="per_ahlmark_d7ae50" xml:id="i-d9d4719f6821f4db-0" next="i-d9d4719f6821f4db-3" n="d9d4719f">
             <seg n="06fe5fbc">
               Herr talman! I flera år rasade striden om Vindelälven. Den handlade
               om att oersättliga naturvärden inte fick förstöras för kortsiktiga
@@ -421,20 +423,35 @@
           <note n="dfcd63c5">
             Nr 70
           </note>
-          <note n="18ff1e9a">
+          <note type="date" n="84622636">
             Fredagen den 13 april 1973
           </note>
           <note n="2bf01ac9">
             Ang. ifrågasatt ut-
           </note>
-          <u who="per_ahlmark_d7ae50" xml:id="i-795ad363ba57eaab-0" prev="i-4a78b7a8be9478cc-0" n="d9d4719f">
+          <u who="per_ahlmark_d7ae50" xml:id="i-d9d4719f6821f4db-1" prev="i-d9d4719f6821f4db-0" n="d9d4719f">
             <seg n="bff2545b">
               byggnad av Vindelälven
             </seg>
+          </u>
+          <note n="568f61c1">
+            166
+          </note>
+          <u who="per_ahlmark_d7ae50" xml:id="i-d9d4719f6821f4db-2" prev="i-d9d4719f6821f4db-0" n="d9d4719f">
             <seg n="2334c592">
               den andra sidan. Men utskottet vann, därför att oppositionen
               höll samman för att rädda Vindelälven.
             </seg>
+          </u>
+          <note n="0c998acc">
+            I april 1969 gjorde den socialdemokratiska riksdagsgruppen en
+            rådgivande omröstning om Vindelälvens framtid. Av de 184 riksdagsledamöter
+            som deltog i omröstningen rådde 146 regeringen att föreslå en
+            utbyggnad. Bara 37 avrådde. Men dessa 37 med Nancy Eriksson i
+            spetsen var tillsammans med en enig opposition en majoritet i
+            riksdagen.
+          </note>
+          <u who="per_ahlmark_d7ae50" xml:id="i-d9d4719f6821f4db-3" prev="i-d9d4719f6821f4db-0" n="d9d4719f">
             <seg n="202c8b3b">
               Så fick då regeringen ge vika och meddelade att man inte tänkte
               föreslå en utbyggnad. I riksplanebeslutet i höstas slog riksdagen
@@ -470,21 +487,10 @@
               får bestämma politiken här i Sverige.
             </seg>
           </u>
-          <note n="568f61c1">
-            166
-          </note>
-          <note n="0c998acc">
-            I april 1969 gjorde den socialdemokratiska riksdagsgruppen en
-            rådgivande omröstning om Vindelälvens framtid. Av de 184 riksdagsledamöter
-            som deltog i omröstningen rådde 146 regeringen att föreslå en
-            utbyggnad. Bara 37 avrådde. Men dessa 37 med Nancy Eriksson i
-            spetsen var tillsammans med en enig opposition en majoritet i
-            riksdagen.
-          </note>
           <note type="speaker" n="b26faeb4">
             Herr statsministern PALME:
           </note>
-          <u who="sture_palm_a4ddb3" xml:id="i-3e025526a63d6677-0" next="i-3dcabc8fcd202ee8-0" n="ef34297e">
+          <u who="sture_palm_a4ddb3" xml:id="i-ef34297e677ef6df-0" next="i-ef34297e677ef6df-2" n="ef34297e">
             <seg n="10736b58">
               Herr talman! Herr Ahlmark kommer som en blek avbild av en Nancy
               Eriksson, som verkligen haft ett oerhört starkt personligt engagemang
@@ -511,6 +517,9 @@
               Det har lyckats rätt bra. Jag vill påpeka att 630 arbetstillfällen
               och 1 000
             </seg>
+          </u>
+          <pb n="7" facs="https://betalab.kb.se/prot-1973--70/prot_1973__70-007.jp2/_view"/>
+          <u who="sture_palm_a4ddb3" xml:id="i-ef34297e677ef6df-1" prev="i-ef34297e677ef6df-0" n="ef34297e">
             <seg n="f625e7d9">
               beredskapsjobb har tillkommit sedan 1967. Nu fattade beslut kommer
               Nr 70
@@ -526,14 +535,13 @@
               Ang. ifrågasatt ut-
             </seg>
           </u>
-          <pb n="7" facs="https://betalab.kb.se/prot-1973--70/prot_1973__70-007.jp2/_view"/>
           <note n="0d20cf42">
             byggnad av Vindel-
           </note>
           <note n="c0b94e2e">
             Herr AHLMARK (fp): älven
           </note>
-          <u who="sture_palm_a4ddb3" xml:id="i-3dcabc8fcd202ee8-0" prev="i-3e025526a63d6677-0" n="ef34297e">
+          <u who="sture_palm_a4ddb3" xml:id="i-ef34297e677ef6df-2" prev="i-ef34297e677ef6df-0" n="ef34297e">
             <seg n="d1c93b0d">
               Herr talman! Det är bara beklagligt att man satt i gång så sent
               med åtgärder för sysselsättningen i Vindelälvsdalen. Vi har från
@@ -573,7 +581,7 @@
           <note type="speaker" n="2dc3b9ff">
             Fru ERIKSSON i Stockholm (s):
           </note>
-          <u who="olle_eriksson_406b8f" xml:id="i-eb539e52aaf49a79-0" n="1bf275b1">
+          <u who="olle_eriksson_406b8f" xml:id="i-1bf275b17fa752ec-0" next="i-ef34297e677ef6df-4" n="1bf275b1">
             <seg n="0533ea5b">
               Herr talman! När jag ställde min fråga var det inte för att diskutera
               vad som hade gjorts beträffande Vindelådalen efteråt. Tyvärr har
@@ -598,31 +606,35 @@
             <seg n="acaf49b5">
               den riktiga inställningen diktera det slutliga beslutet. 167
             </seg>
-            <seg n="0e31655a">
-              sättningar för cykeltrafiken
-            </seg>
-            <seg n="ae7e056e">
-              Det vore bäst att inte ta upp denna fråga igen utan i stället
-              koncentrera sig på andra ting om man vill föra en naturvårdsdebatt.
-            </seg>
           </u>
           <pb n="8" facs="https://betalab.kb.se/prot-1973--70/prot_1973__70-008.jp2/_view"/>
           <note n="dfcd63c5">
             Nr 70
           </note>
-          <note n="18ff1e9a">
+          <note type="date" n="84622636">
             Fredagen den 13 april 1973
           </note>
           <note n="b3fe49e8">
             Om bättre förut-
           </note>
+          <u who="olle_eriksson_406b8f" xml:id="i-ef34297e677ef6df-3" prev="i-1bf275b17fa752ec-0" n="1bf275b1">
+            <seg n="0e31655a">
+              sättningar för cykeltrafiken
+            </seg>
+          </u>
           <note n="c30dfd37">
             168
           </note>
+          <u who="olle_eriksson_406b8f" xml:id="i-ef34297e677ef6df-4" prev="i-1bf275b17fa752ec-0" n="1bf275b1">
+            <seg n="ae7e056e">
+              Det vore bäst att inte ta upp denna fråga igen utan i stället
+              koncentrera sig på andra ting om man vill föra en naturvårdsdebatt.
+            </seg>
+          </u>
           <note type="speaker" n="b26faeb4">
             Herr statsministern PALME:
           </note>
-          <u who="sture_palm_a4ddb3" xml:id="i-1eb740eae361e9db-0" n="ef34297e">
+          <u who="sture_palm_a4ddb3" xml:id="i-ef34297e677ef6df-5" n="ef34297e">
             <seg n="c8ad3017">
               Herr talman! Jag vill åter tacka Nancy Eriksson för ett balanserat
               inlägg; för sanningen är ju att detta var ett mycket svårt beslut,
@@ -649,7 +661,7 @@
           <note type="speaker" n="6e4f1cb5">
             Herr AHLMARK (fp):
           </note>
-          <u who="per_ahlmark_d7ae50" xml:id="i-4a78b7a8be9478cc-1" next="i-795ad363ba57eaab-1" n="d9d4719f">
+          <u who="per_ahlmark_d7ae50" xml:id="i-d9d4719f6821f4db-4" next="i-d9d4719f6821f4db-7" n="d9d4719f">
             <seg n="3f54bac0">
               Herr talman! Fru Eriksson i Stockholm säger att regeringen inte
               har hattat omkring, det är bara det att de har varit fasta i tron
@@ -673,10 +685,18 @@
           <note n="85869edf">
             Överläggningen var härmed slutad.
           </note>
-          <u who="per_ahlmark_d7ae50" xml:id="i-795ad363ba57eaab-1" prev="i-4a78b7a8be9478cc-1" n="d9d4719f">
+          <u who="per_ahlmark_d7ae50" xml:id="i-d9d4719f6821f4db-5" prev="i-d9d4719f6821f4db-4" n="d9d4719f">
             <seg n="51aad5fb">
               $ 3 Om bättre förutsättningar för cykeltrafiken
             </seg>
+          </u>
+          <note n="957529a6">
+            Herr kommunikationsministern NORLING erhöll ordet för att i ett
+            sammanhang besvara dels herr Gustafsons i Göteborg (fp), dels
+            herr Clarksons (m) i kammarens protokoll för den 30 mars intagna
+            frågor, nr 162 respektive 164, och anförde:
+          </note>
+          <u who="per_ahlmark_d7ae50" xml:id="i-d9d4719f6821f4db-6" prev="i-d9d4719f6821f4db-4" n="d9d4719f">
             <seg n="3b36be90">
               Herr talman! Herr Gustafson i Göteborg har frågat mig vilka åtgärder
               jag ämnar vidta för att skapa bättre förutsättningar för cykeltrafiken.
@@ -685,6 +705,9 @@
               Herr Clarkson har frågat mig vilka överväganden som har legat
               till
             </seg>
+          </u>
+          <pb n="9" facs="https://betalab.kb.se/prot-1973--70/prot_1973__70-009.jp2/_view"/>
+          <u who="per_ahlmark_d7ae50" xml:id="i-d9d4719f6821f4db-7" prev="i-d9d4719f6821f4db-4" n="d9d4719f">
             <seg n="adac082c">
               grund för de nya trafikreglerna, som drastiskt förändrar cyklisternas
               trafiksituation.
@@ -751,18 +774,49 @@
           <note type="speaker" n="3d3c31a5">
             Herr GUSTAFSON i Göteborg (fp):
           </note>
-          <u who="sven_gustafson_c23e30" xml:id="i-2bd099d69273c550-0" n="88fc9e64">
+          <u who="sven_gustafson_c23e30" xml:id="i-88fc9e649129ef77-0" next="i-d9d4719f6821f4db-10" n="88fc9e64">
             <seg n="b7d8dc7a">
               Herr talman! Jag vill tacka kommunikationsministern för svaret
               på min enkla fråga, först och främst i vad avser beskedet att
               det nu kommit
             </seg>
+          </u>
+          <note n="dfcd63c5">
+            Nr 70
+          </note>
+          <note type="date" n="84622636">
+            Fredagen den 13 april 1973
+          </note>
+          <note n="b3fe49e8">
+            Om bättre förut-
+          </note>
+          <u who="sven_gustafson_c23e30" xml:id="i-d9d4719f6821f4db-8" prev="i-88fc9e649129ef77-0" n="88fc9e64">
             <seg n="0e31655a">
               sättningar för cykeltrafiken
             </seg>
+          </u>
+          <note n="22d3e423">
+            169
+          </note>
+          <pb n="10" facs="https://betalab.kb.se/prot-1973--70/prot_1973__70-010.jp2/_view"/>
+          <note n="dfcd63c5">
+            Nr 70
+          </note>
+          <note type="date" n="84622636">
+            Fredagen den 13 april 1973
+          </note>
+          <note n="b3fe49e8">
+            Om bättre förut-
+          </note>
+          <u who="sven_gustafson_c23e30" xml:id="i-d9d4719f6821f4db-9" prev="i-88fc9e649129ef77-0" n="88fc9e64">
             <seg n="0e31655a">
               sättningar för cykeltrafiken
             </seg>
+          </u>
+          <note n="e0bd433d">
+            170
+          </note>
+          <u who="sven_gustafson_c23e30" xml:id="i-d9d4719f6821f4db-10" prev="i-88fc9e649129ef77-0" n="88fc9e64">
             <seg n="14557dd7">
               till stånd en utredning om möjligheterna att förbättra förutsättningarna
               för cykeltrafiken. Jag hoppas att den kommer att arbeta snabbt
@@ -813,42 +867,10 @@
               som ett med andra jämbördigt trafikmedel.
             </seg>
           </u>
-          <note n="957529a6">
-            Herr kommunikationsministern NORLING erhöll ordet för att i ett
-            sammanhang besvara dels herr Gustafsons i Göteborg (fp), dels
-            herr Clarksons (m) i kammarens protokoll för den 30 mars intagna
-            frågor, nr 162 respektive 164, och anförde:
-          </note>
-          <pb n="9" facs="https://betalab.kb.se/prot-1973--70/prot_1973__70-009.jp2/_view"/>
-          <note n="dfcd63c5">
-            Nr 70
-          </note>
-          <note n="18ff1e9a">
-            Fredagen den 13 april 1973
-          </note>
-          <note n="b3fe49e8">
-            Om bättre förut-
-          </note>
-          <note n="22d3e423">
-            169
-          </note>
-          <pb n="10" facs="https://betalab.kb.se/prot-1973--70/prot_1973__70-010.jp2/_view"/>
-          <note n="dfcd63c5">
-            Nr 70
-          </note>
-          <note n="18ff1e9a">
-            Fredagen den 13 april 1973
-          </note>
-          <note n="b3fe49e8">
-            Om bättre förut-
-          </note>
-          <note n="e0bd433d">
-            170
-          </note>
           <note type="speaker" n="74fa1539">
             Herr CLARKSON (m):
           </note>
-          <u who="rolf_clarkson_f632d2" xml:id="i-470e16e76e4cc702-0" n="5f835f01">
+          <u who="rolf_clarkson_f632d2" xml:id="i-5f835f01ca94433f-0" next="i-5f835f01ca94433f-1" n="5f835f01">
             <seg n="e22e5111">
               Herr talman! Jag tackar statsrådet Norling för svaret på min
               enkla fråga angående cyklisternas trafiksituation. Jag delar i
@@ -864,6 +886,9 @@
               cyklisten att i en vägkorsning hålla längst till höger på vägen,
               färdas rakt
             </seg>
+          </u>
+          <pb n="11" facs="https://betalab.kb.se/prot-1973--70/prot_1973__70-011.jp2/_view"/>
+          <u who="rolf_clarkson_f632d2" xml:id="i-5f835f01ca94433f-1" prev="i-5f835f01ca94433f-0" n="5f835f01">
             <seg n="e09cf9a9">
               fram över korsningen” osv. Risken med den bestämmelsen är ju
               att vi i framtiden gör alla cyklister till osäkra cyklister och
@@ -892,11 +917,10 @@
               hans svar ingav kommer att infrias.
             </seg>
           </u>
-          <pb n="11" facs="https://betalab.kb.se/prot-1973--70/prot_1973__70-011.jp2/_view"/>
           <note type="speaker" n="d11634b4">
             Herr kommunikationsministern NORLING:
           </note>
-          <u who="bengt_norling_2c181f" xml:id="i-2b419400f64fd164-0" next="i-e1ee80a9f80e17dc-0" n="fafc5be2">
+          <u who="bengt_norling_2c181f" xml:id="i-fafc5be297a232b2-0" next="i-fafc5be297a232b2-4" n="fafc5be2">
             <seg n="b4644b98">
               Herr talman! En kommunikationsminister kan lika litet som någon
               annan i detta land sitta inne med hela sanningen i alla frågor
@@ -941,19 +965,39 @@
           <note n="dfcd63c5">
             Nr 70
           </note>
-          <note n="18ff1e9a">
+          <note type="date" n="84622636">
             Fredagen den 13 april 1973
           </note>
           <note n="b3fe49e8">
             Om bättre förut-
           </note>
-          <u who="bengt_norling_2c181f" xml:id="i-e1ee80a9f80e17dc-0" prev="i-2b419400f64fd164-0" n="fafc5be2">
+          <u who="bengt_norling_2c181f" xml:id="i-fafc5be297a232b2-1" prev="i-fafc5be297a232b2-0" n="fafc5be2">
             <seg n="0e31655a">
               sättningar för cykeltrafiken
             </seg>
+          </u>
+          <note n="42fb6dfc">
+            171
+          </note>
+          <pb n="12" facs="https://betalab.kb.se/prot-1973--70/prot_1973__70-012.jp2/_view"/>
+          <note n="dfcd63c5">
+            Nr 70
+          </note>
+          <note type="date" n="84622636">
+            Fredagen den 13 april 1973
+          </note>
+          <note n="b3fe49e8">
+            Om bättre förut-
+          </note>
+          <u who="bengt_norling_2c181f" xml:id="i-fafc5be297a232b2-2" prev="i-fafc5be297a232b2-0" n="fafc5be2">
             <seg n="0e31655a">
               sättningar för cykeltrafiken
             </seg>
+          </u>
+          <note n="3f1f2640">
+            172
+          </note>
+          <u who="bengt_norling_2c181f" xml:id="i-fafc5be297a232b2-3" prev="i-fafc5be297a232b2-0" n="fafc5be2">
             <seg n="08939984">
               Jag vill sluta, herr talman, med att säga att cyklisterna är
               om något en oskyddad trafikantkategori, liksom gångtrafikanterna.
@@ -965,6 +1009,17 @@
               om vi samtidigt kan säga detsamma till bilisterna, till gångtrafikanterna
               och andra. Detta att vistas i trafiken är ett lagarbete.
             </seg>
+          </u>
+          <note n="c8d6c841">
+            Herr GUSTAFSON i Göteborg (fp):
+          </note>
+          <note n="1bee87bd">
+            Herr talman! Cykeloch mopedfrämjandet gjorde sin framställning
+            den 30 juni 1972 och hemställde där om att få överläggningar med
+            kommunikationsdepartementet innan den här bestämmelsen trädde
+            i kraft. Något sådant tillfälle har inte beretts Cykeloch mopedfrämjandet.
+          </note>
+          <u who="bengt_norling_2c181f" xml:id="i-fafc5be297a232b2-4" prev="i-fafc5be297a232b2-0" n="fafc5be2">
             <seg n="aa8427d3">
               Statsrådet talar här om en rekommendation som gjordes för flera
               år sedan om hur en osäker cyklist skall uppträda. Sedan dess har
@@ -993,35 +1048,10 @@
               till en praktisk och riktig lösning på det här problemet.
             </seg>
           </u>
-          <note n="42fb6dfc">
-            171
-          </note>
-          <pb n="12" facs="https://betalab.kb.se/prot-1973--70/prot_1973__70-012.jp2/_view"/>
-          <note n="dfcd63c5">
-            Nr 70
-          </note>
-          <note n="18ff1e9a">
-            Fredagen den 13 april 1973
-          </note>
-          <note n="b3fe49e8">
-            Om bättre förut-
-          </note>
-          <note n="3f1f2640">
-            172
-          </note>
-          <note n="c8d6c841">
-            Herr GUSTAFSON i Göteborg (fp):
-          </note>
-          <note n="1bee87bd">
-            Herr talman! Cykeloch mopedfrämjandet gjorde sin framställning
-            den 30 juni 1972 och hemställde där om att få överläggningar med
-            kommunikationsdepartementet innan den här bestämmelsen trädde
-            i kraft. Något sådant tillfälle har inte beretts Cykeloch mopedfrämjandet.
-          </note>
           <note type="speaker" n="74fa1539">
             Herr CLARKSON (m):
           </note>
-          <u who="rolf_clarkson_f632d2" xml:id="i-470e16e76e4cc702-1" n="5f835f01">
+          <u who="rolf_clarkson_f632d2" xml:id="i-5f835f01ca94433f-2" n="5f835f01">
             <seg n="468e9e5d">
               Herr talman! Jag vill gärna vidimera för statsrådet Norling att
               jag är fullt på det klara med att beslutet om denna trafikkungörelse
@@ -1039,12 +1069,15 @@
           <note type="speaker" n="d11634b4">
             Herr kommunikationsministern NORLING:
           </note>
-          <u who="bengt_norling_2c181f" xml:id="i-2b419400f64fd164-1" next="i-e1ee80a9f80e17dc-1" n="fafc5be2">
+          <u who="bengt_norling_2c181f" xml:id="i-fafc5be297a232b2-5" next="i-fafc5be297a232b2-8" n="fafc5be2">
             <seg n="3b640b4c">
               Herr talman! I det sista som herr Clarkson sade fanns det en
               passus som kan göra att den fortsatta debatten inte kan föras
               på det sätt som jag
             </seg>
+          </u>
+          <pb n="13" facs="https://betalab.kb.se/prot-1973--70/prot_1973__70-013.jp2/_view"/>
+          <u who="bengt_norling_2c181f" xml:id="i-fafc5be297a232b2-6" prev="i-fafc5be297a232b2-5" n="fafc5be2">
             <seg n="138dda74">
               hoppas att vi båda avser. Herr Clarkson talade nämligen om ”den
               bestämmelse som vi har fått”. Men vi har inte fått några nya bestämmelser,
@@ -1082,11 +1115,10 @@
               — är öppen för en diskussion som har syftet att rädda liv i trafiken.
             </seg>
           </u>
-          <pb n="13" facs="https://betalab.kb.se/prot-1973--70/prot_1973__70-013.jp2/_view"/>
           <note n="c8d6c841">
             Herr GUSTAFSON i Göteborg (fp):
           </note>
-          <u who="bengt_norling_2c181f" xml:id="i-e1ee80a9f80e17dc-1" prev="i-2b419400f64fd164-1" n="fafc5be2">
+          <u who="bengt_norling_2c181f" xml:id="i-fafc5be297a232b2-7" prev="i-fafc5be297a232b2-5" n="fafc5be2">
             <seg n="19e3407f">
               Herr talman! Jag är tacksam för det som statsrådet nu säger.
               Jag vill bara nämna, för att det inte skall råda något missförstånd,
@@ -1112,19 +1144,21 @@
               och som, tror jag, inte har varit riktigt aktuella för dem som
               kommit med detta nya förslag till bestämmelser.
             </seg>
-            <seg n="0e31655a">
-              sättningar för cykeltrafiken
-            </seg>
           </u>
           <note n="dfcd63c5">
             Nr 70
           </note>
-          <note n="18ff1e9a">
+          <note type="date" n="84622636">
             Fredagen den 13 april 1973
           </note>
           <note n="b3fe49e8">
             Om bättre förut-
           </note>
+          <u who="bengt_norling_2c181f" xml:id="i-fafc5be297a232b2-8" prev="i-fafc5be297a232b2-5" n="fafc5be2">
+            <seg n="0e31655a">
+              sättningar för cykeltrafiken
+            </seg>
+          </u>
           <note n="1f34676b">
             173
           </note>
@@ -1132,7 +1166,7 @@
           <note n="dfcd63c5">
             Nr 70
           </note>
-          <note n="18ff1e9a">
+          <note type="date" n="84622636">
             Fredagen den 13 april 1973
           </note>
           <note n="a6b0b7f4">
@@ -1144,7 +1178,7 @@
           <note type="speaker" n="74fa1539">
             Herr CLARKSON (m):
           </note>
-          <u who="rolf_clarkson_f632d2" xml:id="i-470e16e76e4cc702-2" n="5f835f01">
+          <u who="rolf_clarkson_f632d2" xml:id="i-5f835f01ca94433f-3" n="5f835f01">
             <seg n="b5b81f37">
               Herr talman! Vägtrafikkungörelsen har vi ju fått. Att den sedan
               i denna del träder i kraft först senare är jag fullt medveten
@@ -1158,7 +1192,7 @@
           <note type="speaker" n="d11634b4">
             Herr kommunikationsministern NORLING:
           </note>
-          <u who="bengt_norling_2c181f" xml:id="i-2b419400f64fd164-2" next="i-e1ee80a9f80e17dc-2" n="fafc5be2">
+          <u who="bengt_norling_2c181f" xml:id="i-fafc5be297a232b2-9" next="i-fafc5be297a232b2-10" n="fafc5be2">
             <seg n="a16abd5d">
               Herr talman! Man kan tydligen aldrig bli tillräckligt klar i
               sin formulering. Herr Gustafson i Göteborg tillät sig påminna
@@ -1177,7 +1211,7 @@
           <note n="c8d6c841">
             Herr GUSTAFSON i Göteborg (fp):
           </note>
-          <u who="bengt_norling_2c181f" xml:id="i-e1ee80a9f80e17dc-2" prev="i-2b419400f64fd164-2" n="fafc5be2">
+          <u who="bengt_norling_2c181f" xml:id="i-fafc5be297a232b2-10" prev="i-fafc5be297a232b2-9" n="fafc5be2">
             <seg n="72092fcf">
               Herr talman! Skillnaden ligger inte där, herr statsråd, utan
               mellan å ena sidan en rekommendation till en cyklist som känner
@@ -1190,7 +1224,7 @@
           <note type="speaker" n="74fa1539">
             Herr CLARKSON (m):
           </note>
-          <u who="rolf_clarkson_f632d2" xml:id="i-d898359a0574e222-0" next="i-8a92ac97f3395abb-0" n="5f835f01">
+          <u who="rolf_clarkson_f632d2" xml:id="i-5f835f01ca94433f-4" next="i-5f835f01ca94433f-7" n="5f835f01">
             <seg n="9fbbfe4f">
               Herr talman! Till det sista som statsrådet sade om kategorierna
               säkra och osäkra cyklister vill jag säga att vi har i dag säkra
@@ -1209,12 +1243,24 @@
             herr Norrbys i Åkersberga (fp) i kammarens protokoll för den 6
             april intagna fråga, nr 178, och anförde:
           </note>
-          <u who="rolf_clarkson_f632d2" xml:id="i-8a92ac97f3395abb-0" prev="i-d898359a0574e222-0" n="5f835f01">
+          <u who="rolf_clarkson_f632d2" xml:id="i-5f835f01ca94433f-5" prev="i-5f835f01ca94433f-4" n="5f835f01">
             <seg n="33145b7a">
               Herr talman! Herr Norrby i Åkersberga har frågat mig hur jag
               anser att behovet av nautisk sakkunskap i sjöfartsverkets ledning
               skall tillgodoses.
             </seg>
+          </u>
+          <note n="27c179b3">
+            I propositionen till riksdagen år 1969 angående ny organisation
+            av sjöfartsverket föreslogs att verket i fortsättningen skulle
+            stå under ledning av en kollegialt beslutande lekmannastyrelse
+            med generaldirektören som ordförande. Med anledning av förslaget
+            och en motion i frågan uttalade statsutskottet att det för sin
+            del tillstyrkte Kungl. Maj:ts förslag och underströk i anslutning
+            härtill departementschefens uttalande att styrel-
+          </note>
+          <pb n="15" facs="https://betalab.kb.se/prot-1973--70/prot_1973__70-015.jp2/_view"/>
+          <u who="rolf_clarkson_f632d2" xml:id="i-5f835f01ca94433f-6" prev="i-5f835f01ca94433f-4" n="5f835f01">
             <seg n="a91f0738">
               sen bör bestå av personer med bred erfarenhet av näringsliv och
               förvaltning utan särskild anknytning till vissa intressen eller
@@ -1231,6 +1277,11 @@
               är väl beredda och att alla synpunkter — såväl nautiska som andra
               — blir tillfredsställande belysta.
             </seg>
+          </u>
+          <note n="37d41ae5">
+            Herr NORRBY i Åkersberga (fp):
+          </note>
+          <u who="rolf_clarkson_f632d2" xml:id="i-5f835f01ca94433f-7" prev="i-5f835f01ca94433f-4" n="5f835f01">
             <seg n="207531d1">
               Herr talman! Jag tackar statsrådet Norling för svaret.
             </seg>
@@ -1279,23 +1330,10 @@
               i sjöfartsverkets styrelse.
             </seg>
           </u>
-          <note n="27c179b3">
-            I propositionen till riksdagen år 1969 angående ny organisation
-            av sjöfartsverket föreslogs att verket i fortsättningen skulle
-            stå under ledning av en kollegialt beslutande lekmannastyrelse
-            med generaldirektören som ordförande. Med anledning av förslaget
-            och en motion i frågan uttalade statsutskottet att det för sin
-            del tillstyrkte Kungl. Maj:ts förslag och underströk i anslutning
-            härtill departementschefens uttalande att styrel-
-          </note>
-          <pb n="15" facs="https://betalab.kb.se/prot-1973--70/prot_1973__70-015.jp2/_view"/>
-          <note n="37d41ae5">
-            Herr NORRBY i Åkersberga (fp):
-          </note>
           <note type="speaker" n="d11634b4">
             Herr kommunikationsministern NORLING:
           </note>
-          <u who="bengt_norling_2c181f" xml:id="i-2b419400f64fd164-3" next="i-e1ee80a9f80e17dc-3" n="fafc5be2">
+          <u who="bengt_norling_2c181f" xml:id="i-fafc5be297a232b2-11" next="i-fafc5be297a232b2-15" n="fafc5be2">
             <seg n="8d7afe78">
               Herr talman! Det är riktigt som herr Norrby i Åkersberga påpekar
               att det i sjöfartsverkets direktion inte ingår någon nautiker.
@@ -1305,16 +1343,34 @@
           <note n="dfcd63c5">
             Nr 70
           </note>
-          <note n="18ff1e9a">
+          <note type="date" n="84622636">
             Fredagen den 13 april 1973
           </note>
           <note n="f7b46adc">
             Ang. behovet av
           </note>
-          <u who="bengt_norling_2c181f" xml:id="i-e1ee80a9f80e17dc-3" prev="i-2b419400f64fd164-3" n="fafc5be2">
+          <u who="bengt_norling_2c181f" xml:id="i-fafc5be297a232b2-12" prev="i-fafc5be297a232b2-11" n="fafc5be2">
             <seg n="4cec89c4">
               nautisk sakkunskap i sjöfartsverkets ledning
             </seg>
+          </u>
+          <note n="933528c1">
+            175
+          </note>
+          <pb n="16" facs="https://betalab.kb.se/prot-1973--70/prot_1973__70-016.jp2/_view"/>
+          <note n="dfcd63c5">
+            Nr 70
+          </note>
+          <note type="date" n="84622636">
+            Fredagen den 13 april 1973
+          </note>
+          <note n="a6b0b7f4">
+            Ang. behovet av nautisk sakkunskap i sjöfartsverkets ledning
+          </note>
+          <note n="d88234e2">
+            176
+          </note>
+          <u who="bengt_norling_2c181f" xml:id="i-fafc5be297a232b2-13" prev="i-fafc5be297a232b2-11" n="fafc5be2">
             <seg n="d4395c9b">
               Norrby med utgångspunkt häri upp ett resonemang om att ekonomiska
               synpunkter möjligtvis skulle läggas på sjösäkerheten. Ett sådant
@@ -1357,6 +1413,11 @@
               Härigenom anser jag, herr talman, att de krav som herr Norrby
               i Åkersberga ställer måste vara uppfyllda.
             </seg>
+          </u>
+          <note n="37d41ae5">
+            Herr NORRBY i Åkersberga (fp):
+          </note>
+          <u who="bengt_norling_2c181f" xml:id="i-fafc5be297a232b2-14" prev="i-fafc5be297a232b2-11" n="fafc5be2">
             <seg n="8e49e2b6">
               Herr talman! Jag har inte påstått att de ekonomiska synpunkterna
               på sjösäkerhetsverksamheten är dominerande. Jag pekar på den risk
@@ -1383,6 +1444,9 @@
               att flytta med till Norrköping på grund av pensionering eller
               på grund
             </seg>
+          </u>
+          <pb n="17" facs="https://betalab.kb.se/prot-1973--70/prot_1973__70-017.jp2/_view"/>
+          <u who="bengt_norling_2c181f" xml:id="i-fafc5be297a232b2-15" prev="i-fafc5be297a232b2-11" n="fafc5be2">
             <seg n="b0822b98">
               av att de i samband med utlokaliseringen söker sig till annan
               verksamhet. Enligt de synpunkter som anförs av personalen inom
@@ -1391,30 +1455,10 @@
               får den nautiska sakkunskapen representerad i verkets ledning.
             </seg>
           </u>
-          <note n="933528c1">
-            175
-          </note>
-          <pb n="16" facs="https://betalab.kb.se/prot-1973--70/prot_1973__70-016.jp2/_view"/>
-          <note n="dfcd63c5">
-            Nr 70
-          </note>
-          <note n="18ff1e9a">
-            Fredagen den 13 april 1973
-          </note>
-          <note n="a6b0b7f4">
-            Ang. behovet av nautisk sakkunskap i sjöfartsverkets ledning
-          </note>
-          <note n="d88234e2">
-            176
-          </note>
-          <note n="37d41ae5">
-            Herr NORRBY i Åkersberga (fp):
-          </note>
-          <pb n="17" facs="https://betalab.kb.se/prot-1973--70/prot_1973__70-017.jp2/_view"/>
           <note type="speaker" n="d11634b4">
             Herr kommunikationsministern NORLING:
           </note>
-          <u who="bengt_norling_2c181f" xml:id="i-2b419400f64fd164-4" next="i-e1ee80a9f80e17dc-4" n="fafc5be2">
+          <u who="bengt_norling_2c181f" xml:id="i-fafc5be297a232b2-16" next="i-fafc5be297a232b2-21" n="fafc5be2">
             <seg n="ae3ff2e1">
               Herr talman! Låt mig bara tillägga två saker.
             </seg>
@@ -1437,7 +1481,7 @@
           <note n="37d41ae5">
             Herr NORRBY i Åkersberga (fp):
           </note>
-          <u who="bengt_norling_2c181f" xml:id="i-e1ee80a9f80e17dc-4" prev="i-2b419400f64fd164-4" n="fafc5be2">
+          <u who="bengt_norling_2c181f" xml:id="i-fafc5be297a232b2-17" prev="i-fafc5be297a232b2-16" n="fafc5be2">
             <seg n="d646f57c">
               Herr talman! Det torde förhålla sig så att ungefär 80 procent
               av de anställda i sjöfartsverket är verksamma på lokal eller regional
@@ -1449,9 +1493,21 @@
               personalen inom sjöfartsverkets centrala, regionala och lokala
               verksamhet anfört beaktats ordentligt.
             </seg>
+          </u>
+          <note n="85869edf">
+            Överläggningen var härmed slutad.
+          </note>
+          <u who="bengt_norling_2c181f" xml:id="i-fafc5be297a232b2-18" prev="i-fafc5be297a232b2-16" n="fafc5be2">
             <seg n="cdf68121">
               $ 5 Om åtgärder mot olycksfall med s. k. smällare
             </seg>
+          </u>
+          <note n="3d0d9253">
+            Herr handelsministern FELDT erhöll ordet för att besvara herr
+            Enskogs (fp) i kammarens protokoll för den 23 mars intagna fråga,
+            nr 152, och anförde:
+          </note>
+          <u who="bengt_norling_2c181f" xml:id="i-fafc5be297a232b2-19" prev="i-fafc5be297a232b2-16" n="fafc5be2">
             <seg n="b430a770">
               Herr talman! Herr Enskog har frågat mig om jag ämnar vidta några
               speciella åtgärder för att minska riskerna för skador av s. k.
@@ -1469,34 +1525,14 @@
               Beträffande de stundande helgerna har jag inhämtat att rikspolisstyrelsen
               i samarbete med samarbetskommittén för barnolycksfall har
             </seg>
-            <seg n="93785e84"/>
-            <seg n="1c1fd04d">
-              vidtagit en rad åtgärder för att minska riskerna för skador.
-              BI. a. informerar polisen i press och lokalradio samt direkt till
-              försäljare och skolungdom om gällande bestämmelser och om riskerna
-              i samband med användningen av pyrotekniska varor.
-            </seg>
-            <seg n="321b6cd6">
-              Med hänsyn till de åtgärder som polismyndigheterna vidtagit och
-              det pågående utredningsarbetet anser jag inte att några ytterligare
-              åtgärder för dagen är påkallade.
-            </seg>
           </u>
-          <note n="85869edf">
-            Överläggningen var härmed slutad.
-          </note>
-          <note n="3d0d9253">
-            Herr handelsministern FELDT erhöll ordet för att besvara herr
-            Enskogs (fp) i kammarens protokoll för den 23 mars intagna fråga,
-            nr 152, och anförde:
-          </note>
           <note n="588fca2f">
             12 Riksdagens protokoll 1973. Nr 68-70
           </note>
           <note n="dfcd63c5">
             Nr 70
           </note>
-          <note n="18ff1e9a">
+          <note type="date" n="84622636">
             Fredagen den 13 april 1973
           </note>
           <note n="1a804b30">
@@ -1512,19 +1548,33 @@
           <note n="dfcd63c5">
             Nr 70
           </note>
-          <note n="18ff1e9a">
+          <note type="date" n="84622636">
             Fredagen den 13 april 1973
           </note>
           <note n="fbc43f95">
             Ang. importrestriktionerna avseende textilvaror från Indien
           </note>
+          <u who="bengt_norling_2c181f" xml:id="i-fafc5be297a232b2-20" prev="i-fafc5be297a232b2-16" n="fafc5be2"/>
           <note n="daf25f7e">
             178
           </note>
+          <u who="bengt_norling_2c181f" xml:id="i-fafc5be297a232b2-21" prev="i-fafc5be297a232b2-16" n="fafc5be2">
+            <seg n="1c1fd04d">
+              vidtagit en rad åtgärder för att minska riskerna för skador.
+              BI. a. informerar polisen i press och lokalradio samt direkt till
+              försäljare och skolungdom om gällande bestämmelser och om riskerna
+              i samband med användningen av pyrotekniska varor.
+            </seg>
+            <seg n="321b6cd6">
+              Med hänsyn till de åtgärder som polismyndigheterna vidtagit och
+              det pågående utredningsarbetet anser jag inte att några ytterligare
+              åtgärder för dagen är påkallade.
+            </seg>
+          </u>
           <note type="speaker" n="8edf9a42">
             Herr ENSKOG (fp):
           </note>
-          <u who="carl-gustav_enskog_73066f" xml:id="i-471f14a4fb5c137e-0" next="i-2636ad612ef9bc3e-0" n="cbe3f2dc">
+          <u who="carl-gustav_enskog_73066f" xml:id="i-96912d69e649d4c7-0" next="i-96912d69e649d4c7-2" n="cbe3f2dc">
             <seg n="ad6c239e">
               Herr talman! Jag ber att få tacka statsrådet för svaret på min
               fråga.
@@ -1569,7 +1619,7 @@
             Wirmarks (fp) i kammarens protokoll för den 5 april intagna fråga,
             nr 172, och anförde:
           </note>
-          <u who="carl-gustav_enskog_73066f" xml:id="i-2636ad612ef9bc3e-0" prev="i-471f14a4fb5c137e-0" n="cbe3f2dc">
+          <u who="carl-gustav_enskog_73066f" xml:id="i-96912d69e649d4c7-1" prev="i-96912d69e649d4c7-0" n="cbe3f2dc">
             <seg n="9e2c3018">
               Herr talman! Herr Wirmark har frågat om jag vill närmare motivera
               bakgrunden till de i dagspressen uppmärksammade importrestriktionerna
@@ -1589,6 +1639,9 @@
               Bakgrunden till vår begäran om förhandlingar är att söka i den
               svenska
             </seg>
+          </u>
+          <pb n="19" facs="https://betalab.kb.se/prot-1973--70/prot_1973__70-019.jp2/_view"/>
+          <u who="carl-gustav_enskog_73066f" xml:id="i-96912d69e649d4c7-2" prev="i-96912d69e649d4c7-0" n="cbe3f2dc">
             <seg n="9746288e">
               TEKO-industrins aktuella och väl kända svårigheter. Importandelen
               av tillförseln på den svenska marknaden av den här typen av skjortor
@@ -1597,11 +1650,10 @@
               ett mycket känsligt varuområde det gäller.
             </seg>
           </u>
-          <pb n="19" facs="https://betalab.kb.se/prot-1973--70/prot_1973__70-019.jp2/_view"/>
           <note type="speaker" n="c101e8d2">
             Herr WIRMARK (fp):
           </note>
-          <u who="david_wirmark_000f59" xml:id="i-2a4eca8962c9bbfc-0" n="861d1be3">
+          <u who="david_wirmark_000f59" xml:id="i-861d1be3d8038cf8-0" n="861d1be3">
             <seg n="0657d4dc">
               Herr talman! Vi är väl alla medvetna om att import från låglöneländer
               kan skapa vissa sektoriella problem i den svenska ekonomin och
@@ -1655,7 +1707,7 @@
           <note type="speaker" n="50d75083">
             Herr handelsministern FELDT:
           </note>
-          <u who="kjell-olof_feldt_759f5e" xml:id="i-04872b3ed38ad657-0" next="i-b40d1e81d9cd4a0d-0" n="75cfc8d9">
+          <u who="kjell-olof_feldt_759f5e" xml:id="i-67eb8b61ea20b862-0" next="i-67eb8b61ea20b862-3" n="75cfc8d9">
             <seg n="726fb5fe">
               Herr talman! Jag tror inte att herr Wirmark har gjort klart för
               sig omfattningen och innebörden av det problem som vi står inför
@@ -1665,19 +1717,42 @@
           <note n="dfcd63c5">
             Nr 70
           </note>
-          <note n="18ff1e9a">
+          <note type="date" n="84622636">
             Fredagen den 13 april 1973
           </note>
           <note n="147b4d94">
             Ang. importrestriktionerna avseende
           </note>
-          <u who="kjell-olof_feldt_759f5e" xml:id="i-b40d1e81d9cd4a0d-0" prev="i-04872b3ed38ad657-0" n="75cfc8d9">
+          <u who="kjell-olof_feldt_759f5e" xml:id="i-67eb8b61ea20b862-1" prev="i-67eb8b61ea20b862-0" n="75cfc8d9">
             <seg n="63f7587a">
               textilvaror från Indien
             </seg>
+          </u>
+          <note n="d05a4cf2">
+            179
+          </note>
+          <pb n="20" facs="https://betalab.kb.se/prot-1973--70/prot_1973__70-020.jp2/_view"/>
+          <note n="dfcd63c5">
+            Nr 70
+          </note>
+          <note n="4cd27c40">
+            Fredagen den
+          </note>
+          <note n="4b04b68c">
+            13 april 1973
+          </note>
+          <note n="147b4d94">
+            Ang. importrestriktionerna avseende
+          </note>
+          <u who="kjell-olof_feldt_759f5e" xml:id="i-67eb8b61ea20b862-2" prev="i-67eb8b61ea20b862-0" n="75cfc8d9">
             <seg n="63f7587a">
               textilvaror från Indien
             </seg>
+          </u>
+          <note n="f6cff0fe">
+            180
+          </note>
+          <u who="kjell-olof_feldt_759f5e" xml:id="i-67eb8b61ea20b862-3" prev="i-67eb8b61ea20b862-0" n="75cfc8d9">
             <seg n="50a2b800">
               gäller textilimporten från lågprisländerna.
             </seg>
@@ -1714,29 +1789,10 @@
               eller Pakistan.
             </seg>
           </u>
-          <note n="d05a4cf2">
-            179
-          </note>
-          <pb n="20" facs="https://betalab.kb.se/prot-1973--70/prot_1973__70-020.jp2/_view"/>
-          <note n="dfcd63c5">
-            Nr 70
-          </note>
-          <note n="4cd27c40">
-            Fredagen den
-          </note>
-          <note n="4b04b68c">
-            13 april 1973
-          </note>
-          <note n="147b4d94">
-            Ang. importrestriktionerna avseende
-          </note>
-          <note n="f6cff0fe">
-            180
-          </note>
           <note type="speaker" n="c101e8d2">
             Herr WIRMARK (fp):
           </note>
-          <u who="david_wirmark_000f59" xml:id="i-2a4eca8962c9bbfc-1" n="861d1be3">
+          <u who="david_wirmark_000f59" xml:id="i-861d1be3d8038cf8-1" n="861d1be3">
             <seg n="7a296bec">
               Herr talman! För att handelsministerns resonemang skall gå ihop
               måste han först bevisa att den svenska industrin kan tillverka
@@ -1763,11 +1819,14 @@
           <note type="speaker" n="50d75083">
             Herr handelsministern FELDT:
           </note>
-          <u who="kjell-olof_feldt_759f5e" xml:id="i-6251a783e4a19c25-0" n="75cfc8d9">
+          <u who="kjell-olof_feldt_759f5e" xml:id="i-67eb8b61ea20b862-4" next="i-67eb8b61ea20b862-5" n="75cfc8d9">
             <seg n="3cca3de6">
               Har inte herr Wirmark insett att detta inte innebär något stopp
               för importen av sådana produkter från Indien?
             </seg>
+          </u>
+          <pb n="21" facs="https://betalab.kb.se/prot-1973--70/prot_1973__70-021.jp2/_view"/>
+          <u who="kjell-olof_feldt_759f5e" xml:id="i-67eb8b61ea20b862-5" prev="i-67eb8b61ea20b862-4" n="75cfc8d9">
             <seg n="d95e27b4">
               För det första ligger denna på en mycket hög nivå. Jag har gjort
               en Nr 70 jämförelse med Förenta staterna och hela den europeiska
@@ -1784,11 +1843,10 @@
               eller mer, och det skall den väl också klara i framtiden.
             </seg>
           </u>
-          <pb n="21" facs="https://betalab.kb.se/prot-1973--70/prot_1973__70-021.jp2/_view"/>
           <note type="speaker" n="c101e8d2">
             Herr WIRMARK (fp):
           </note>
-          <u who="david_wirmark_000f59" xml:id="i-2a4eca8962c9bbfc-2" n="861d1be3">
+          <u who="david_wirmark_000f59" xml:id="i-861d1be3d8038cf8-2" n="861d1be3">
             <seg n="e1248c7b">
               Herr talman! Jag har visst tilltro till den svenska textilindustrin
               och dess förmåga att tillverka skjortor. Men jag tror inte att
@@ -1809,7 +1867,7 @@
           <note type="speaker" n="50d75083">
             Herr handelsministern FELDT:
           </note>
-          <u who="kjell-olof_feldt_759f5e" xml:id="i-6251a783e4a19c25-1" n="75cfc8d9">
+          <u who="kjell-olof_feldt_759f5e" xml:id="i-67eb8b61ea20b862-6" n="75cfc8d9">
             <seg n="5dd15023">
               Herr talman! Detta är inte godtyckligt utan följer den linje
               som vi sedan mycket länge tillämpat, nämligen att ha största möjliga
@@ -1831,7 +1889,7 @@
           <note type="speaker" n="c101e8d2">
             Herr WIRMARK (fp):
           </note>
-          <u who="david_wirmark_000f59" xml:id="i-2a4eca8962c9bbfc-3" n="861d1be3">
+          <u who="david_wirmark_000f59" xml:id="i-861d1be3d8038cf8-3" n="861d1be3">
             <seg n="62b7c67a">
               Herr talman! Det viktiga i denna fråga är ju att regeringens
               åtgärder innebär ett steg tillbaka. Jag har försökt ge handelsministern
@@ -1846,7 +1904,7 @@
           <note type="speaker" n="50d75083">
             Herr handelsministern FELDT:
           </note>
-          <u who="kjell-olof_feldt_759f5e" xml:id="i-04872b3ed38ad657-1" next="i-b40d1e81d9cd4a0d-1" n="75cfc8d9">
+          <u who="kjell-olof_feldt_759f5e" xml:id="i-67eb8b61ea20b862-7" next="i-67eb8b61ea20b862-9" n="75cfc8d9">
             <seg n="3531b140">
               Herr talman! Herr Wirmark är väl inte okunnig om att sådana
             </seg>
@@ -1859,16 +1917,21 @@
           <note n="dfcd63c5">
             Nr 70
           </note>
-          <note n="18ff1e9a">
+          <note type="date" n="84622636">
             Fredagen den 13 april 1973
           </note>
           <note n="5eefa221">
             Om textsättning
           </note>
-          <u who="kjell-olof_feldt_759f5e" xml:id="i-b40d1e81d9cd4a0d-1" prev="i-04872b3ed38ad657-1" n="75cfc8d9">
+          <u who="kjell-olof_feldt_759f5e" xml:id="i-67eb8b61ea20b862-8" prev="i-67eb8b61ea20b862-7" n="75cfc8d9">
             <seg n="10af65df">
               av valprogram i ir
             </seg>
+          </u>
+          <note n="a25dc722">
+            182
+          </note>
+          <u who="kjell-olof_feldt_759f5e" xml:id="i-67eb8b61ea20b862-9" prev="i-67eb8b61ea20b862-7" n="75cfc8d9">
             <seg n="7f7103c7">
               utan att herr Wirmark stått här dagligen och krävt att de skall
               omprövas och avskaffas. Vad vi nu gör är att vi försöker behandla
@@ -1888,13 +1951,10 @@
               andra länder, utan denna kommer att fortsätta att öka.
             </seg>
           </u>
-          <note n="a25dc722">
-            182
-          </note>
           <note type="speaker" n="c101e8d2">
             Herr WIRMARK (fp):
           </note>
-          <u who="david_wirmark_000f59" xml:id="i-2a4eca8962c9bbfc-4" n="861d1be3">
+          <u who="david_wirmark_000f59" xml:id="i-861d1be3d8038cf8-4" n="861d1be3">
             <seg n="3df5930e">
               Herr talman! Jag är glad för att handelsministern gjorde den
               här sista deklarationen. Det avsteg som beslutet innebär måste
@@ -1908,7 +1968,7 @@
           <note type="speaker" n="50d75083">
             Herr handelsministern FELDT:
           </note>
-          <u who="kjell-olof_feldt_759f5e" xml:id="i-04872b3ed38ad657-2" next="i-b40d1e81d9cd4a0d-2" n="75cfc8d9">
+          <u who="kjell-olof_feldt_759f5e" xml:id="i-67eb8b61ea20b862-10" next="i-67eb8b61ea20b862-13" n="75cfc8d9">
             <seg n="a9e6d540">
               Herr talman! Det är möjligt att vi nu börjar närma oss varandra;
               herr Wirmark erkänner att ett land inte kan ställa sig långt framom
@@ -1925,10 +1985,19 @@
           <note n="85869edf">
             Överläggningen var härmed slutad.
           </note>
-          <u who="kjell-olof_feldt_759f5e" xml:id="i-b40d1e81d9cd4a0d-2" prev="i-04872b3ed38ad657-2" n="75cfc8d9">
+          <u who="kjell-olof_feldt_759f5e" xml:id="i-67eb8b61ea20b862-11" prev="i-67eb8b61ea20b862-10" n="75cfc8d9">
             <seg n="ea7b6540">
               $ 7 Om textsättning av valprogram i TV
             </seg>
+          </u>
+          <note n="82b9b5c1">
+            Herr utbildningsministern CARLSSON erhöll ordet för att i ett
+            sammanhang besvara dels fru Frenkels (fp) i kammarens protokoll
+            för den 23 mars intagna fråga, nr 154, dels fru Marklunds (vpk)
+            i kammarens protokoll för den 29 mars intagna fråga, nr 159, och
+            anförde:
+          </note>
+          <u who="kjell-olof_feldt_759f5e" xml:id="i-67eb8b61ea20b862-12" prev="i-67eb8b61ea20b862-10" n="75cfc8d9">
             <seg n="c2440fb2">
               Herr talman! Fru Frenkel har frågat mig om jag vill medverka
               till att samtliga program i TV under valrörelsen förses med textremsor
@@ -1938,6 +2007,9 @@
               få full del av den valinformation som sprids via TV i den händelse
               Sveriges Radio inte anser
             </seg>
+          </u>
+          <pb n="23" facs="https://betalab.kb.se/prot-1973--70/prot_1973__70-023.jp2/_view"/>
+          <u who="kjell-olof_feldt_759f5e" xml:id="i-67eb8b61ea20b862-13" prev="i-67eb8b61ea20b862-10" n="75cfc8d9">
             <seg n="74c2b8e0">
               sig ha tillräckligt med medel för att textsätta fler program
               än planerade.
@@ -1957,18 +2029,10 @@
               några särskilda åtgärder från min sida påkallade.
             </seg>
           </u>
-          <note n="82b9b5c1">
-            Herr utbildningsministern CARLSSON erhöll ordet för att i ett
-            sammanhang besvara dels fru Frenkels (fp) i kammarens protokoll
-            för den 23 mars intagna fråga, nr 154, dels fru Marklunds (vpk)
-            i kammarens protokoll för den 29 mars intagna fråga, nr 159, och
-            anförde:
-          </note>
-          <pb n="23" facs="https://betalab.kb.se/prot-1973--70/prot_1973__70-023.jp2/_view"/>
           <note type="speaker" n="86b42a40">
             Fru FRAENKEL (fp):
           </note>
-          <u who="ingegard_fraenkel_7560d6" xml:id="i-9884a1bac763dbcc-0" n="44b7d568">
+          <u who="ingegard_fraenkel_7560d6" xml:id="i-9fa61959b5e23af6-0" n="44b7d568">
             <seg n="fd2ccfe5">
               Herr talman! Bakgrunden till min fråga är att det i vårt land
               finns omkring 650 000 hörselskadade människor. Av dessa är omkring
@@ -2006,7 +2070,7 @@
           <note type="speaker" n="55142e07">
             Fru MARKLUND (vpk):
           </note>
-          <u who="eivor_marklund_9bfd0b" xml:id="i-dbea999d9c8dde06-0" next="i-3f4f3b2b927bc38a-0" n="a7569a85">
+          <u who="eivor_marklund_9bfd0b" xml:id="i-d418117b92f95a62-0" next="i-d418117b92f95a62-2" n="a7569a85">
             <seg n="77dd23b7">
               Herr talman! Jag ber också att få tacka utbildningsministern
               för svaret på frågan.
@@ -2026,16 +2090,37 @@
           <note n="dfcd63c5">
             Nr 70
           </note>
-          <note n="18ff1e9a">
+          <note type="date" n="84622636">
             Fredagen den 13 april 1973
           </note>
           <note n="5eefa221">
             Om textsättning
           </note>
-          <u who="eivor_marklund_9bfd0b" xml:id="i-3f4f3b2b927bc38a-0" prev="i-dbea999d9c8dde06-0" n="a7569a85">
+          <u who="eivor_marklund_9bfd0b" xml:id="i-d418117b92f95a62-1" prev="i-d418117b92f95a62-0" n="a7569a85">
             <seg n="f029b81d">
               av valprogram i TV
             </seg>
+          </u>
+          <note n="0ddb259d">
+            183
+          </note>
+          <pb n="24" facs="https://betalab.kb.se/prot-1973--70/prot_1973__70-024.jp2/_view"/>
+          <note n="dfcd63c5">
+            Nr 70
+          </note>
+          <note type="date" n="84622636">
+            Fredagen den 13 april 1973
+          </note>
+          <note n="62f42d49">
+            Om möjlighet för
+          </note>
+          <note n="c1921946">
+            adjunkter m. fl. att erhålla tjänst som speciallärare
+          </note>
+          <note n="eab511fa">
+            184
+          </note>
+          <u who="eivor_marklund_9bfd0b" xml:id="i-d418117b92f95a62-2" prev="i-d418117b92f95a62-0" n="a7569a85">
             <seg n="0288eef0">
               ningarna är bättre nu än tidigare, att man också borde kunna
               få en större del av programutbudet i TV inför valet textsatt.
@@ -2066,29 +2151,10 @@
               inför valet.
             </seg>
           </u>
-          <note n="0ddb259d">
-            183
-          </note>
-          <pb n="24" facs="https://betalab.kb.se/prot-1973--70/prot_1973__70-024.jp2/_view"/>
-          <note n="dfcd63c5">
-            Nr 70
-          </note>
-          <note n="18ff1e9a">
-            Fredagen den 13 april 1973
-          </note>
-          <note n="62f42d49">
-            Om möjlighet för
-          </note>
-          <note n="c1921946">
-            adjunkter m. fl. att erhålla tjänst som speciallärare
-          </note>
-          <note n="eab511fa">
-            184
-          </note>
           <note type="speaker" n="322f88bc">
             Herr utbildningsministern CARLSSON:
           </note>
-          <u who="ingvar_carlsson_5ceec2" xml:id="i-f560ca69325b1b9d-0" next="i-07c6a071ae0531a1-0" n="eef4002c">
+          <u who="ingvar_carlsson_5ceec2" xml:id="i-eef4002c63e2b605-0" next="i-eef4002c63e2b605-6" n="eef4002c">
             <seg n="cdf161f0">
               Herr talman! Självfallet är jag angelägen om att arbetsgruppen
               skall bli klar med sitt arbete så snart som möjligt.
@@ -2106,7 +2172,7 @@
             fröken Hörléns (fp) i kammarens protokoll för den 4 april intagna
             fråga, nr 169, och anförde:
           </note>
-          <u who="ingvar_carlsson_5ceec2" xml:id="i-07c6a071ae0531a1-0" prev="i-f560ca69325b1b9d-0" n="eef4002c">
+          <u who="ingvar_carlsson_5ceec2" xml:id="i-eef4002c63e2b605-1" prev="i-eef4002c63e2b605-0" n="eef4002c">
             <seg n="67df8315">
               Herr talman! Fröken Hörlén har frågat mig vilka åtgärder jag
               avser att vidtaga i avsikt att göra det möjligt för adjunkter
@@ -2126,6 +2192,9 @@
               för specialundervisning för de ifrågavarande lärarkategorierna.
               Som en omedelbar åtgärd föreslår överstyrelsen i stället
             </seg>
+          </u>
+          <pb n="25" facs="https://betalab.kb.se/prot-1973--70/prot_1973__70-025.jp2/_view"/>
+          <u who="ingvar_carlsson_5ceec2" xml:id="i-eef4002c63e2b605-2" prev="i-eef4002c63e2b605-0" n="eef4002c">
             <seg n="6f17dd1f">
               bl. a. att lärare i läroämnen, övningslärare och lärare i yrkesämnen,
               vilken genomgått specialutbildning vid lärarhögskola eller yrkespedagogiskt
@@ -2146,6 +2215,11 @@
               undervisning helt eller delvis får inräknas i tjänsten, är för
               närvarande föremål för beredning inom utbildningsdepartementet.
             </seg>
+          </u>
+          <note n="1219d4a8">
+            Fröken HÖRLÉN (fp):
+          </note>
+          <u who="ingvar_carlsson_5ceec2" xml:id="i-eef4002c63e2b605-3" prev="i-eef4002c63e2b605-0" n="eef4002c">
             <seg n="5a523eda">
               Herr talman! Jag tackar utbildningsministern för det besked som
               han har gett beträffande de möjligheter som tydligen i framtiden
@@ -2190,6 +2264,37 @@
               90-tal vidareutbildade folkskollärare, ett 60-tal adjunkter/ämneslärare
               och ett
             </seg>
+          </u>
+          <note n="dfcd63c5">
+            Nr 70
+          </note>
+          <note n="4cd27c40">
+            Fredagen den
+          </note>
+          <note n="dd1d7b5f">
+            13 april 1973 Om möjlighet för adjunkter m. fl. att erhålla tjänst
+            som speciallärare
+          </note>
+          <note n="796948e6">
+            185
+          </note>
+          <pb n="26" facs="https://betalab.kb.se/prot-1973--70/prot_1973__70-026.jp2/_view"/>
+          <note n="dfcd63c5">
+            Nr 70
+          </note>
+          <note type="date" n="84622636">
+            Fredagen den 13 april 1973
+          </note>
+          <note n="d131251c">
+            ; Ang. utformningen
+          </note>
+          <note n="45b7714c">
+            av skolhälsokort
+          </note>
+          <note n="706da21b">
+            186
+          </note>
+          <u who="ingvar_carlsson_5ceec2" xml:id="i-eef4002c63e2b605-4" prev="i-eef4002c63e2b605-0" n="eef4002c">
             <seg n="d725b743">
               20-tal övningslärare. Mot bakgrunden av dessa siffror synes det
               angeläget med en prioritering av specialutbildning av lärare i
@@ -2209,12 +2314,34 @@
               är naturligtvis att det så snart som möjligt blir resultat av
               den utredning som nu pågår.
             </seg>
+          </u>
+          <note n="85869edf">
+            Överläggningen var härmed slutad.
+          </note>
+          <note n="168c48af">
+            $ 9 Ang. utformningen av skolhälsokort
+          </note>
+          <note n="bf932696">
+            Herr utbildningsministern CARLSSON erhöll ordet för att i ett
+            sammanhang besvara dels herr Clarksons (m) i kammarens protokoll
+            för den 5 april intagna fråga, nr 173, dels fru Marklunds (vpk)
+            i kammarens protokoll för den 11 april intagna fråga, nr 181,
+            och anförde:
+          </note>
+          <u who="ingvar_carlsson_5ceec2" xml:id="i-eef4002c63e2b605-5" prev="i-eef4002c63e2b605-0" n="eef4002c">
             <seg n="754965e9">
               Herr talman! Herr Clarkson och fru Marklund har frågat mig om
               jag kommer att inskrida mot den planerade utformningen av skolhälsokortet,
               som uppges komma att innehålla bl. a. sådana uppgifter om eleverna
               som aggressivitet, skolk, snatteri, svartsjuka och familjebakgrund.
             </seg>
+          </u>
+          <note n="3a423fc9">
+            Inom skolöverstyrelsen har utarbetats ett förslag till nytt formulär
+            för skolhälsokort, kallat elevhälsovårdsjournal. Detta förslag
+            remissbehandlas för närvarande. Remisstiden utgår den 1 juni 1973.
+          </note>
+          <u who="ingvar_carlsson_5ceec2" xml:id="i-eef4002c63e2b605-6" prev="i-eef4002c63e2b605-0" n="eef4002c">
             <seg n="b791ba19">
               Ett formulär för skolhälsokort bör naturligtvis utformas så att
               det fungerar som ett effektivt hjälpmedel för skolhälsovården.
@@ -2235,62 +2362,11 @@
               slutlig ställning till förslaget och remissyttrandena.
             </seg>
           </u>
-          <pb n="25" facs="https://betalab.kb.se/prot-1973--70/prot_1973__70-025.jp2/_view"/>
-          <note n="1219d4a8">
-            Fröken HÖRLÉN (fp):
-          </note>
-          <note n="dfcd63c5">
-            Nr 70
-          </note>
-          <note n="4cd27c40">
-            Fredagen den
-          </note>
-          <note n="dd1d7b5f">
-            13 april 1973 Om möjlighet för adjunkter m. fl. att erhålla tjänst
-            som speciallärare
-          </note>
-          <note n="796948e6">
-            185
-          </note>
-          <pb n="26" facs="https://betalab.kb.se/prot-1973--70/prot_1973__70-026.jp2/_view"/>
-          <note n="dfcd63c5">
-            Nr 70
-          </note>
-          <note n="18ff1e9a">
-            Fredagen den 13 april 1973
-          </note>
-          <note n="d131251c">
-            ; Ang. utformningen
-          </note>
-          <note n="45b7714c">
-            av skolhälsokort
-          </note>
-          <note n="706da21b">
-            186
-          </note>
-          <note n="85869edf">
-            Överläggningen var härmed slutad.
-          </note>
-          <note n="168c48af">
-            $ 9 Ang. utformningen av skolhälsokort
-          </note>
-          <note n="bf932696">
-            Herr utbildningsministern CARLSSON erhöll ordet för att i ett
-            sammanhang besvara dels herr Clarksons (m) i kammarens protokoll
-            för den 5 april intagna fråga, nr 173, dels fru Marklunds (vpk)
-            i kammarens protokoll för den 11 april intagna fråga, nr 181,
-            och anförde:
-          </note>
-          <note n="3a423fc9">
-            Inom skolöverstyrelsen har utarbetats ett förslag till nytt formulär
-            för skolhälsokort, kallat elevhälsovårdsjournal. Detta förslag
-            remissbehandlas för närvarande. Remisstiden utgår den 1 juni 1973.
-          </note>
           <pb n="27" facs="https://betalab.kb.se/prot-1973--70/prot_1973__70-027.jp2/_view"/>
           <note type="speaker" n="74fa1539">
             Herr CLARKSON (m):
           </note>
-          <u who="rolf_clarkson_f632d2" xml:id="i-470e16e76e4cc702-3" n="5f835f01">
+          <u who="rolf_clarkson_f632d2" xml:id="i-5f835f01ca94433f-8" n="5f835f01">
             <seg n="c104be9d">
               Herr talman! Jag tackar statsrådet Carlsson för svaret på min
               enkla fråga. Bakom densamma ligger ju en mycket kraftig opinionsstorm
@@ -2323,7 +2399,7 @@
           <note type="speaker" n="55142e07">
             Fru MARKLUND (vpk):
           </note>
-          <u who="eivor_marklund_9bfd0b" xml:id="i-dbea999d9c8dde06-1" next="i-3f4f3b2b927bc38a-1" n="a7569a85">
+          <u who="eivor_marklund_9bfd0b" xml:id="i-d418117b92f95a62-3" next="i-d418117b92f95a62-5" n="a7569a85">
             <seg n="639d98bf">
               Herr talman! Jag ber att få tacka utbildningsministern för svaret
               också på min enkla fråga.
@@ -2367,20 +2443,13 @@
           <note n="dfcd63c5">
             Nr 70
           </note>
-          <note n="18ff1e9a">
+          <note type="date" n="84622636">
             Fredagen den 13 april 1973
           </note>
           <note n="052d9e50">
             Ang. utformningen av skolhälsokort
           </note>
-          <u who="eivor_marklund_9bfd0b" xml:id="i-3f4f3b2b927bc38a-1" prev="i-dbea999d9c8dde06-1" n="a7569a85">
-            <seg n="c03d61b2">
-              Om ökat anlitande
-            </seg>
-            <seg n="eb19e265">
-              av tåg vid statstjänstemäns tjänsteresor
-            </seg>
-          </u>
+          <u who="eivor_marklund_9bfd0b" xml:id="i-d418117b92f95a62-4" prev="i-d418117b92f95a62-3" n="a7569a85"/>
           <note n="fd5e49d8">
             187
           </note>
@@ -2388,16 +2457,24 @@
           <note n="dfcd63c5">
             Nr 70
           </note>
-          <note n="18ff1e9a">
+          <note type="date" n="84622636">
             Fredagen den 13 april 1973
           </note>
+          <u who="eivor_marklund_9bfd0b" xml:id="i-d418117b92f95a62-5" prev="i-d418117b92f95a62-3" n="a7569a85">
+            <seg n="c03d61b2">
+              Om ökat anlitande
+            </seg>
+            <seg n="eb19e265">
+              av tåg vid statstjänstemäns tjänsteresor
+            </seg>
+          </u>
           <note n="78298691">
             188
           </note>
           <note type="speaker" n="322f88bc">
             Herr utbildningsministern CARLSSON:
           </note>
-          <u who="ingvar_carlsson_5ceec2" xml:id="i-f560ca69325b1b9d-1" next="i-07c6a071ae0531a1-1" n="eef4002c">
+          <u who="ingvar_carlsson_5ceec2" xml:id="i-eef4002c63e2b605-7" next="i-eef4002c63e2b605-11" n="eef4002c">
             <seg n="93bb7646">
               Herr talman! Jag har grundad anledning att tro att lekmannastyrelsen
               och generaldirektören för skolöverstyrelsen mycket noga kommer
@@ -2407,10 +2484,17 @@
           <note n="85869edf">
             Överläggningen var härmed slutad.
           </note>
-          <u who="ingvar_carlsson_5ceec2" xml:id="i-07c6a071ae0531a1-1" prev="i-f560ca69325b1b9d-1" n="eef4002c">
+          <u who="ingvar_carlsson_5ceec2" xml:id="i-eef4002c63e2b605-8" prev="i-eef4002c63e2b605-7" n="eef4002c">
             <seg n="edd431e8">
               $ 10 Om ökat anlitande av tåg vid statstjänstemäns tjänsteresor
             </seg>
+          </u>
+          <note n="65307d2c">
+            Herr kommunikationsministern NORLING erhöll ordet för att besvara
+            herr Börjessons i Falköping (c) den 1 februari framställda interpellation,
+            nr 28, och anförde:
+          </note>
+          <u who="ingvar_carlsson_5ceec2" xml:id="i-eef4002c63e2b605-9" prev="i-eef4002c63e2b605-7" n="eef4002c">
             <seg n="25f819f1">
               Herr talman! Herr Börjesson i Falköping har frågat mig om jag
               är beredd att vidta åtgärder så att statstjänstemän i första hand
@@ -2428,6 +2512,11 @@
               Med hänsyn till nämnda förhållanden är jag inte beredd att göra
               något närmare uttalande i frågan.
             </seg>
+          </u>
+          <note n="dae54786">
+            Herr BÖRJESSON i Falköping (c):
+          </note>
+          <u who="ingvar_carlsson_5ceec2" xml:id="i-eef4002c63e2b605-10" prev="i-eef4002c63e2b605-7" n="eef4002c">
             <seg n="839b2e01">
               Herr talman! Jag ber att få framföra mitt tack till kommunikationsministern
               för svaret på min interpellation. Denna föranleddes i första hand
@@ -2458,6 +2547,9 @@
               125 000 kronor samma år och tågresekostnaderna också stannade
               vid ca 125 000 kronor. Vid ett annat
             </seg>
+          </u>
+          <pb n="29" facs="https://betalab.kb.se/prot-1973--70/prot_1973__70-029.jp2/_view"/>
+          <u who="ingvar_carlsson_5ceec2" xml:id="i-eef4002c63e2b605-11" prev="i-eef4002c63e2b605-7" n="eef4002c">
             <seg n="0f684418">
               ämbetsverk uppgick kostnaderna för bilresor till ca 450 000 kronor
               och för flygoch tågresor till ca 394 000 kronor. Siffrorna anger
@@ -2478,15 +2570,6 @@
               av detta.
             </seg>
           </u>
-          <note n="65307d2c">
-            Herr kommunikationsministern NORLING erhöll ordet för att besvara
-            herr Börjessons i Falköping (c) den 1 februari framställda interpellation,
-            nr 28, och anförde:
-          </note>
-          <note n="dae54786">
-            Herr BÖRJESSON i Falköping (c):
-          </note>
-          <pb n="29" facs="https://betalab.kb.se/prot-1973--70/prot_1973__70-029.jp2/_view"/>
           <note n="9216955d">
             Under detta anförande övertog herr förste vice talmannen ledningen
             av kammarens förhandlingar.
@@ -2494,7 +2577,7 @@
           <note type="speaker" n="d11634b4">
             Herr kommunikationsministern NORLING:
           </note>
-          <u who="bengt_norling_2c181f" xml:id="i-2b419400f64fd164-5" n="fafc5be2">
+          <u who="bengt_norling_2c181f" xml:id="i-fafc5be297a232b2-22" n="fafc5be2">
             <seg n="df0a29bc">
               Herr talman! Jag skall gärna till herr Börjesson i Falköping
               säga att om någon är intresserad av ett ökat anlitande av tåg
@@ -2538,7 +2621,7 @@
           <note type="speaker" n="46dfd192">
             Herr BÖRJESSON i Falköping (c):
           </note>
-          <u who="fritz_borjesson_b677a1" xml:id="i-6354c0898c7c5c2e-0" next="i-efb59eb88e8f01f6-0" n="479986fe">
+          <u who="fritz_borjesson_b677a1" xml:id="i-479986fef2795e7b-0" next="i-fafc5be297a232b2-27" n="479986fe">
             <seg n="a10fdadf">
               Herr talman! För att inte några missförstånd skall behöva förekomma
               mellan mig och statsrådet Norling vill jag säga att det inte är
@@ -2548,19 +2631,39 @@
           <note n="dfcd63c5">
             Nr 70
           </note>
-          <note n="18ff1e9a">
+          <note type="date" n="84622636">
             Fredagen den 13 april 1973
           </note>
-          <u who="fritz_borjesson_b677a1" xml:id="i-efb59eb88e8f01f6-0" prev="i-6354c0898c7c5c2e-0" n="479986fe">
+          <u who="fritz_borjesson_b677a1" xml:id="i-fafc5be297a232b2-23" prev="i-479986fef2795e7b-0" n="479986fe">
             <seg n="c03d61b2">
               Om ökat anlitande
             </seg>
             <seg n="eb19e265">
               av tåg vid statstjänstemäns tjänsteresor
             </seg>
+          </u>
+          <note n="3d837168">
+            189
+          </note>
+          <pb n="30" facs="https://betalab.kb.se/prot-1973--70/prot_1973__70-030.jp2/_view"/>
+          <note n="dfcd63c5">
+            Nr 70
+          </note>
+          <note type="date" n="84622636">
+            Fredagen den 13 april 1973
+          </note>
+          <note n="299253ee">
+            Ang. färdigställan-
+          </note>
+          <u who="fritz_borjesson_b677a1" xml:id="i-fafc5be297a232b2-24" prev="i-479986fef2795e7b-0" n="479986fe">
             <seg n="ea9154ec">
               det av storflygplatsen Landvetter vid Härryda
             </seg>
+          </u>
+          <note n="9a3b8f14">
+            190
+          </note>
+          <u who="fritz_borjesson_b677a1" xml:id="i-fafc5be297a232b2-25" prev="i-479986fef2795e7b-0" n="479986fe">
             <seg n="6373e42f">
               att statsrådet Norling skall gå in i några förhandlingar. Jag
               är medveten om att så gör man bara inte.
@@ -2584,6 +2687,20 @@
               når fram så att vi får en ökande resandefrekvens på våra järnvägar
               och SJ blir hela folkets järnväg.
             </seg>
+          </u>
+          <note n="85869edf">
+            Överläggningen var härmed slutad.
+          </note>
+          <note n="e5cf75d8">
+            $ 11 Ang. färdigställandet av storflygplatsen Landvetter vid
+            Härryda
+          </note>
+          <note n="969a00b4">
+            Herr kommunikationsministern NORLING erhöll ordet för att besvara
+            herr Gustafsons i Göteborg (fp) den 6 februari framställda interpellation,
+            nr 31, och anförde:
+          </note>
+          <u who="fritz_borjesson_b677a1" xml:id="i-fafc5be297a232b2-26" prev="i-479986fef2795e7b-0" n="479986fe">
             <seg n="827102c7">
               Herr talman! Herr Gustafson i Göteborg har frågat mig vilka åtgärder
               jag tänker vidtaga för att åstadkomma ett snabbare färdigställande
@@ -2617,6 +2734,8 @@
               en markering av
             </seg>
           </u>
+          <pb n="31" facs="https://betalab.kb.se/prot-1973--70/prot_1973__70-031.jp2/_view"/>
+          <u who="fritz_borjesson_b677a1" xml:id="i-fafc5be297a232b2-27" prev="i-479986fef2795e7b-0" n="479986fe"/>
           <note type="speaker" n="34b4930c">
             angelägenheten av att alla tänkbara åtgärder vidtas för att förkorta
             Nr 70 byggnadstiden. Sysselsättningsläget i regionen är givetvis
@@ -2624,7 +2743,7 @@
             tillgängliga arbetskraften på byggnadsoch 13 april 1973 anläggningssidan.
             SRA Ang. färdigställan- Herr GUSTAFSON i Göteborg (fp):
           </note>
-          <u who="sven_gustafson_c23e30" xml:id="i-2bd099d69273c550-1" n="88fc9e64">
+          <u who="sven_gustafson_c23e30" xml:id="i-88fc9e649129ef77-1" next="i-fafc5be297a232b2-29" n="88fc9e64">
             <seg n="124b992e">
               det av storflyg- Herr talman! Det var många som blev glada när
               de läste årets = Platsen Landvetter statsverksporposition, där
@@ -2671,9 +2790,30 @@
               bli färdig 1976, men man sade att denna metod hade de bästa förutsättningarna
               för att det skulle lyckas. Därför var det med
             </seg>
+          </u>
+          <note n="dccd4ef9">
+            mycket stor förvåning som vi noterade att Kungl. Maj:t den 5
+            maj 1972 191
+          </note>
+          <pb n="32" facs="https://betalab.kb.se/prot-1973--70/prot_1973__70-032.jp2/_view"/>
+          <note n="dfcd63c5">
+            Nr 70
+          </note>
+          <note type="date" n="84622636">
+            Fredagen den 13 april 1973
+          </note>
+          <note n="299253ee">
+            Ang. färdigställan-
+          </note>
+          <u who="sven_gustafson_c23e30" xml:id="i-fafc5be297a232b2-28" prev="i-88fc9e649129ef77-1" n="88fc9e64">
             <seg n="ea9154ec">
               det av storflygplatsen Landvetter vid Härryda
             </seg>
+          </u>
+          <note n="8408cf04">
+            192
+          </note>
+          <u who="sven_gustafson_c23e30" xml:id="i-fafc5be297a232b2-29" prev="i-88fc9e649129ef77-1" n="88fc9e64">
             <seg n="6d05d9c7">
               sade att man skall inrikta sig på att arbetet skall vara färdigt
               1977. Luftfartsverket anvisade sålunda en metod med vilken det
@@ -2734,57 +2874,11 @@
               att anlita expertis utanför verket för att påskynda arbetet.
             </seg>
           </u>
-          <note n="3d837168">
-            189
-          </note>
-          <pb n="30" facs="https://betalab.kb.se/prot-1973--70/prot_1973__70-030.jp2/_view"/>
-          <note n="dfcd63c5">
-            Nr 70
-          </note>
-          <note n="18ff1e9a">
-            Fredagen den 13 april 1973
-          </note>
-          <note n="299253ee">
-            Ang. färdigställan-
-          </note>
-          <note n="9a3b8f14">
-            190
-          </note>
-          <note n="85869edf">
-            Överläggningen var härmed slutad.
-          </note>
-          <note n="e5cf75d8">
-            $ 11 Ang. färdigställandet av storflygplatsen Landvetter vid
-            Härryda
-          </note>
-          <note n="969a00b4">
-            Herr kommunikationsministern NORLING erhöll ordet för att besvara
-            herr Gustafsons i Göteborg (fp) den 6 februari framställda interpellation,
-            nr 31, och anförde:
-          </note>
-          <pb n="31" facs="https://betalab.kb.se/prot-1973--70/prot_1973__70-031.jp2/_view"/>
-          <note n="dccd4ef9">
-            mycket stor förvåning som vi noterade att Kungl. Maj:t den 5
-            maj 1972 191
-          </note>
-          <pb n="32" facs="https://betalab.kb.se/prot-1973--70/prot_1973__70-032.jp2/_view"/>
-          <note n="dfcd63c5">
-            Nr 70
-          </note>
-          <note n="18ff1e9a">
-            Fredagen den 13 april 1973
-          </note>
-          <note n="299253ee">
-            Ang. färdigställan-
-          </note>
-          <note n="8408cf04">
-            192
-          </note>
           <pb n="33" facs="https://betalab.kb.se/prot-1973--70/prot_1973__70-033.jp2/_view"/>
           <note type="speaker" n="d11634b4">
             Herr kommunikationsministern NORLING:
           </note>
-          <u who="bengt_norling_2c181f" xml:id="i-2b419400f64fd164-6" next="i-e1ee80a9f80e17dc-5" n="fafc5be2">
+          <u who="bengt_norling_2c181f" xml:id="i-fafc5be297a232b2-30" next="i-fafc5be297a232b2-39" n="fafc5be2">
             <seg n="f50c8ef7">
               Herr talman! Jag tycker att det egentligen inte finns mycket
               för mig att tillägga efter det herr Gustafson i Göteborg sagt.
@@ -2836,7 +2930,7 @@
           <note n="c8d6c841">
             Herr GUSTAFSON i Göteborg (fp):
           </note>
-          <u who="bengt_norling_2c181f" xml:id="i-e1ee80a9f80e17dc-5" prev="i-2b419400f64fd164-6" n="fafc5be2">
+          <u who="bengt_norling_2c181f" xml:id="i-fafc5be297a232b2-31" prev="i-fafc5be297a232b2-30" n="fafc5be2">
             <seg n="242ee670">
               Herr talman! Det är klart att man inte kan vara så där särskilt
               nöjd om flygplatsen blir färdig 1977 eftersom riksdagen enhälligt
@@ -2853,12 +2947,52 @@
               Jag har alltså uppfattningen att det hade varit tekniskt möjligt
               att
             </seg>
+          </u>
+          <note n="3fcf6ce5">
+            13 Riksdagens protokoll 1973. Nr 68-70
+          </note>
+          <note n="dfcd63c5">
+            Nr 70
+          </note>
+          <note type="date" n="84622636">
+            Fredagen den 13 april 1973
+          </note>
+          <note n="299253ee">
+            Ang. färdigställan-
+          </note>
+          <note n="fb9a8831">
+            det av storflyg-
+          </note>
+          <u who="bengt_norling_2c181f" xml:id="i-fafc5be297a232b2-32" prev="i-fafc5be297a232b2-30" n="fafc5be2">
             <seg n="731956ef">
               platsen Landvetter
             </seg>
+          </u>
+          <note n="a32267a8">
+            vid Härryda
+          </note>
+          <note n="95df3121">
+            193
+          </note>
+          <pb n="34" facs="https://betalab.kb.se/prot-1973--70/prot_1973__70-034.jp2/_view"/>
+          <note n="dfcd63c5">
+            Nr 70
+          </note>
+          <note type="date" n="84622636">
+            Fredagen den 13 april 1973
+          </note>
+          <note n="1a804b30">
+            Om åtgärder mot
+          </note>
+          <u who="bengt_norling_2c181f" xml:id="i-fafc5be297a232b2-33" prev="i-fafc5be297a232b2-30" n="fafc5be2">
             <seg n="5b7a34f4">
               att elever i gymnasieskolan avbryter sin utbildning
             </seg>
+          </u>
+          <note n="7fc09e8d">
+            194
+          </note>
+          <u who="bengt_norling_2c181f" xml:id="i-fafc5be297a232b2-34" prev="i-fafc5be297a232b2-30" n="fafc5be2">
             <seg n="e99ed0f1">
               sätta i gång arbetena 1972, men det tjänar inte mycket till att
               diskutera det nu, herr statsråd. Det går inte att ändra på nu.
@@ -2878,10 +3012,22 @@
               husets väggar, till luftfartsverket, och att man där gör ytterligare
               ansträngningar för att förkorta byggnadstiden.
             </seg>
+          </u>
+          <note n="85869edf">
+            Överläggningen var härmed slutad.
+          </note>
+          <u who="bengt_norling_2c181f" xml:id="i-fafc5be297a232b2-35" prev="i-fafc5be297a232b2-30" n="fafc5be2">
             <seg n="eeeda1cb">
               $ 12 Om åtgärder mot att elever i gymnasieskolan avbryter sin
               utbildning
             </seg>
+          </u>
+          <note n="870f77f7">
+            Herr utbildningsministern CARLSSON erhöll ordet för att besvara
+            fröken Ljungbergs (m) den 20 februari framställda interpellation,
+            nr 47, och anförde:
+          </note>
+          <u who="bengt_norling_2c181f" xml:id="i-fafc5be297a232b2-36" prev="i-fafc5be297a232b2-30" n="fafc5be2">
             <seg n="b35b607f">
               Herr talman! Fröken Ljungberg har frågat mig, om jag avser vidtaga
               några åtgärder i anledning av att ett betydande antal elever i
@@ -2917,6 +3063,9 @@
               Det kan finnas en rad förklaringar till studieavbrott. Vissa
               elever
             </seg>
+          </u>
+          <pb n="35" facs="https://betalab.kb.se/prot-1973--70/prot_1973__70-035.jp2/_view"/>
+          <u who="bengt_norling_2c181f" xml:id="i-fafc5be297a232b2-37" prev="i-fafc5be297a232b2-30" n="fafc5be2">
             <seg n="89cce102">
               infinner sig som nämnts inte till terminsstarten. Men det stora
               antalet avbrott förorsakas av att elever avbryter sina studier
@@ -2982,65 +3131,21 @@
               ge utredningen vägledning i dess fortsatta arbete på bl. a. detta
               område.
             </seg>
-            <seg n="5b7a34f4">
-              att elever i gymnasieskolan avbryter sin utbildning
-            </seg>
+          </u>
+          <note n="dfcd63c5">
+            Nr 70
+          </note>
+          <note type="date" n="84622636">
+            Fredagen den 13 april 1973
+          </note>
+          <note n="1a804b30">
+            Om åtgärder mot
+          </note>
+          <u who="bengt_norling_2c181f" xml:id="i-fafc5be297a232b2-38" prev="i-fafc5be297a232b2-30" n="fafc5be2">
             <seg n="5b7a34f4">
               att elever i gymnasieskolan avbryter sin utbildning
             </seg>
           </u>
-          <note n="3fcf6ce5">
-            13 Riksdagens protokoll 1973. Nr 68-70
-          </note>
-          <note n="dfcd63c5">
-            Nr 70
-          </note>
-          <note n="18ff1e9a">
-            Fredagen den 13 april 1973
-          </note>
-          <note n="299253ee">
-            Ang. färdigställan-
-          </note>
-          <note n="fb9a8831">
-            det av storflyg-
-          </note>
-          <note n="a32267a8">
-            vid Härryda
-          </note>
-          <note n="95df3121">
-            193
-          </note>
-          <pb n="34" facs="https://betalab.kb.se/prot-1973--70/prot_1973__70-034.jp2/_view"/>
-          <note n="dfcd63c5">
-            Nr 70
-          </note>
-          <note n="18ff1e9a">
-            Fredagen den 13 april 1973
-          </note>
-          <note n="1a804b30">
-            Om åtgärder mot
-          </note>
-          <note n="7fc09e8d">
-            194
-          </note>
-          <note n="85869edf">
-            Överläggningen var härmed slutad.
-          </note>
-          <note n="870f77f7">
-            Herr utbildningsministern CARLSSON erhöll ordet för att besvara
-            fröken Ljungbergs (m) den 20 februari framställda interpellation,
-            nr 47, och anförde:
-          </note>
-          <pb n="35" facs="https://betalab.kb.se/prot-1973--70/prot_1973__70-035.jp2/_view"/>
-          <note n="dfcd63c5">
-            Nr 70
-          </note>
-          <note n="18ff1e9a">
-            Fredagen den 13 april 1973
-          </note>
-          <note n="1a804b30">
-            Om åtgärder mot
-          </note>
           <note n="1688bd7b">
             195
           </note>
@@ -3048,19 +3153,24 @@
           <note n="dfcd63c5">
             Nr 70
           </note>
-          <note n="18ff1e9a">
+          <note type="date" n="84622636">
             Fredagen den 13 april 1973
           </note>
           <note n="1a804b30">
             Om åtgärder mot
           </note>
+          <u who="bengt_norling_2c181f" xml:id="i-fafc5be297a232b2-39" prev="i-fafc5be297a232b2-30" n="fafc5be2">
+            <seg n="5b7a34f4">
+              att elever i gymnasieskolan avbryter sin utbildning
+            </seg>
+          </u>
           <note n="6f7ed426">
             196
           </note>
           <note type="speaker" n="84351dc5">
             Fröken LJUNGBERG (m):
           </note>
-          <u who="blenda_ljungberg_1f4cfa" xml:id="i-42f0e10a79189524-0" next="i-e35abd158a1dc4b0-0" n="f3a2e200">
+          <u who="blenda_ljungberg_1f4cfa" xml:id="i-f3a2e200be79509e-0" next="i-f3a2e200be79509e-4" n="f3a2e200">
             <seg n="c4924c7d">
               Herr talman! Jag vill först tacka utbildningsministern för det
               svar som jag har fått, vilket verkligen är ett svar på min fråga
@@ -3133,6 +3243,9 @@
               Det är väl också något som man från den centrala ledningens synpunkt
               måste titta på.
             </seg>
+          </u>
+          <pb n="37" facs="https://betalab.kb.se/prot-1973--70/prot_1973__70-037.jp2/_view"/>
+          <u who="blenda_ljungberg_1f4cfa" xml:id="i-f3a2e200be79509e-1" prev="i-f3a2e200be79509e-0" n="f3a2e200">
             <seg n="324abbcf">
               Kan det för övrigt vara riktigt att avbrott i studierna är något
               förkastligt i grundskolan men gynnsamt i gymnasiet? Jag ställer
@@ -3197,23 +3310,42 @@
               vad statsrådet menar med ”syftena med nuvarande kompetensregler”.
             </seg>
           </u>
-          <pb n="37" facs="https://betalab.kb.se/prot-1973--70/prot_1973__70-037.jp2/_view"/>
           <note n="dfcd63c5">
             Nr 70
           </note>
-          <note n="18ff1e9a">
+          <note type="date" n="84622636">
             Fredagen den 13 april 1973
           </note>
           <note n="1a804b30">
             Om åtgärder mot
           </note>
-          <u who="blenda_ljungberg_1f4cfa" xml:id="i-e35abd158a1dc4b0-0" prev="i-42f0e10a79189524-0" n="f3a2e200">
+          <u who="blenda_ljungberg_1f4cfa" xml:id="i-f3a2e200be79509e-2" prev="i-f3a2e200be79509e-0" n="f3a2e200">
             <seg n="5b7a34f4">
               att elever i gymnasieskolan avbryter sin utbildning
             </seg>
+          </u>
+          <note n="bb85c02b">
+            197
+          </note>
+          <pb n="38" facs="https://betalab.kb.se/prot-1973--70/prot_1973__70-038.jp2/_view"/>
+          <note n="dfcd63c5">
+            Nr 70
+          </note>
+          <note type="date" n="84622636">
+            Fredagen den 13 april 1973
+          </note>
+          <note n="1a804b30">
+            Om åtgärder mot
+          </note>
+          <u who="blenda_ljungberg_1f4cfa" xml:id="i-f3a2e200be79509e-3" prev="i-f3a2e200be79509e-0" n="f3a2e200">
             <seg n="5b7a34f4">
               att elever i gymnasieskolan avbryter sin utbildning
             </seg>
+          </u>
+          <note n="c093b6cb">
+            198
+          </note>
+          <u who="blenda_ljungberg_1f4cfa" xml:id="i-f3a2e200be79509e-4" prev="i-f3a2e200be79509e-0" n="f3a2e200">
             <seg n="dc61b12c">
               En sak måste vi väl ändå vara överens om, och det är att genomgång
               av gymnasieskola ger bättre utgångsläge för fortsatta studier.
@@ -3271,26 +3403,10 @@
               underfund med anledningen till elevernas frånvaro.
             </seg>
           </u>
-          <note n="bb85c02b">
-            197
-          </note>
-          <pb n="38" facs="https://betalab.kb.se/prot-1973--70/prot_1973__70-038.jp2/_view"/>
-          <note n="dfcd63c5">
-            Nr 70
-          </note>
-          <note n="18ff1e9a">
-            Fredagen den 13 april 1973
-          </note>
-          <note n="1a804b30">
-            Om åtgärder mot
-          </note>
-          <note n="c093b6cb">
-            198
-          </note>
           <note type="speaker" n="22ade32b">
             Herr WIKSTRÖM (fp):
           </note>
-          <u who="jan-erik_wikstrom_9d5b79" xml:id="i-493b8acc811c4695-0" next="i-f3cf529e627f3aa7-0" n="c32d788a">
+          <u who="jan-erik_wikstrom_9d5b79" xml:id="i-2a084f452e6129c7-0" next="i-2a084f452e6129c7-4" n="c32d788a">
             <seg n="98023dce">
               Herr talman! Fröken Ljungberg har tagit upp en mycket viktig
               fråga i sin interpellation. Jag vill knyta några reflexioner till
@@ -3304,6 +3420,9 @@
               både grundskolans högstadium och gymnasieskolan. Här verkar det
               som om arbetsmarknadssituationen
             </seg>
+          </u>
+          <pb n="39" facs="https://betalab.kb.se/prot-1973--70/prot_1973__70-039.jp2/_view"/>
+          <u who="jan-erik_wikstrom_9d5b79" xml:id="i-2a084f452e6129c7-1" prev="i-2a084f452e6129c7-0" n="c32d788a">
             <seg n="e000c3ff">
               spelar en avgörande roll. I varje fall tycks det vara vanligare
               nu än förr att elever säger att utbildning inte lönar sig. Jag
@@ -3373,23 +3492,42 @@
               yrkesutbildning
             </seg>
           </u>
-          <pb n="39" facs="https://betalab.kb.se/prot-1973--70/prot_1973__70-039.jp2/_view"/>
           <note n="dfcd63c5">
             Nr 70
           </note>
-          <note n="18ff1e9a">
+          <note type="date" n="84622636">
             Fredagen den 13 april 1973
           </note>
           <note n="1a804b30">
             Om åtgärder mot
           </note>
-          <u who="jan-erik_wikstrom_9d5b79" xml:id="i-f3cf529e627f3aa7-0" prev="i-493b8acc811c4695-0" n="c32d788a">
+          <u who="jan-erik_wikstrom_9d5b79" xml:id="i-2a084f452e6129c7-2" prev="i-2a084f452e6129c7-0" n="c32d788a">
             <seg n="5b7a34f4">
               att elever i gymnasieskolan avbryter sin utbildning
             </seg>
+          </u>
+          <note n="95022a01">
+            199
+          </note>
+          <pb n="40" facs="https://betalab.kb.se/prot-1973--70/prot_1973__70-040.jp2/_view"/>
+          <note n="dfcd63c5">
+            Nr 70
+          </note>
+          <note type="date" n="84622636">
+            Fredagen den 13 april 1973
+          </note>
+          <note n="1a804b30">
+            Om åtgärder mot
+          </note>
+          <u who="jan-erik_wikstrom_9d5b79" xml:id="i-2a084f452e6129c7-3" prev="i-2a084f452e6129c7-0" n="c32d788a">
             <seg n="5b7a34f4">
               att elever i gymnasieskolan avbryter sin utbildning
             </seg>
+          </u>
+          <note n="2dc5c1f1">
+            200
+          </note>
+          <u who="jan-erik_wikstrom_9d5b79" xml:id="i-2a084f452e6129c7-4" prev="i-2a084f452e6129c7-0" n="c32d788a">
             <seg n="66a886df">
               som vi då främst måste ge dem. Kommunerna bör få stor frihet
               att inrätta kortare yrkesinriktade kurser i gymnasieskolan för
@@ -3410,26 +3548,10 @@
               det så kommer det att krävas samverkan mellan alla goda krafter.
             </seg>
           </u>
-          <note n="95022a01">
-            199
-          </note>
-          <pb n="40" facs="https://betalab.kb.se/prot-1973--70/prot_1973__70-040.jp2/_view"/>
-          <note n="dfcd63c5">
-            Nr 70
-          </note>
-          <note n="18ff1e9a">
-            Fredagen den 13 april 1973
-          </note>
-          <note n="1a804b30">
-            Om åtgärder mot
-          </note>
-          <note n="2dc5c1f1">
-            200
-          </note>
           <note type="speaker" n="322f88bc">
             Herr utbildningsministern CARLSSON:
           </note>
-          <u who="ingvar_carlsson_5ceec2" xml:id="i-f560ca69325b1b9d-2" next="i-07c6a071ae0531a1-2" n="eef4002c">
+          <u who="ingvar_carlsson_5ceec2" xml:id="i-eef4002c63e2b605-12" next="i-eef4002c63e2b605-16" n="eef4002c">
             <seg n="6435b5f3">
               Herr talman! Jag lyssnade med mycket stort intresse till fröken
               Ljungbergs inlägg. Egentligen beklagar jag att fröken Ljungberg
@@ -3480,6 +3602,9 @@
             <seg n="60af8ce6">
               Jag tycker att det från ekonomiska och planeringsmässiga utgångs-
             </seg>
+          </u>
+          <pb n="41" facs="https://betalab.kb.se/prot-1973--70/prot_1973__70-041.jp2/_view"/>
+          <u who="ingvar_carlsson_5ceec2" xml:id="i-eef4002c63e2b605-13" prev="i-eef4002c63e2b605-12" n="eef4002c">
             <seg n="1d963153">
               punkter är allvarligare med skolavhopp mitt i terminen än — naturligtvis
               helst — vid skolårets slut men möjligen också vid höstterminens
@@ -3548,11 +3673,10 @@
               där avbrotten har lett
             </seg>
           </u>
-          <pb n="41" facs="https://betalab.kb.se/prot-1973--70/prot_1973__70-041.jp2/_view"/>
           <note n="dfcd63c5">
             Nr 70
           </note>
-          <note n="18ff1e9a">
+          <note type="date" n="84622636">
             Fredagen den 13 april 1973
           </note>
           <note n="1a804b30">
@@ -3564,13 +3688,33 @@
           <note n="7d661118">
             gymnasieskolan
           </note>
-          <u who="ingvar_carlsson_5ceec2" xml:id="i-07c6a071ae0531a1-2" prev="i-f560ca69325b1b9d-2" n="eef4002c">
+          <u who="ingvar_carlsson_5ceec2" xml:id="i-eef4002c63e2b605-14" prev="i-eef4002c63e2b605-12" n="eef4002c">
             <seg n="5ce05a27">
               avbryter sin utbildning
             </seg>
+          </u>
+          <note n="79dc6dc3">
+            201
+          </note>
+          <pb n="42" facs="https://betalab.kb.se/prot-1973--70/prot_1973__70-042.jp2/_view"/>
+          <note n="dfcd63c5">
+            Nr 70
+          </note>
+          <note type="date" n="84622636">
+            Fredagen den 13 april 1973
+          </note>
+          <note n="1a804b30">
+            Om åtgärder mot
+          </note>
+          <u who="ingvar_carlsson_5ceec2" xml:id="i-eef4002c63e2b605-15" prev="i-eef4002c63e2b605-12" n="eef4002c">
             <seg n="5b7a34f4">
               att elever i gymnasieskolan avbryter sin utbildning
             </seg>
+          </u>
+          <note n="6d42f2a4">
+            202
+          </note>
+          <u who="ingvar_carlsson_5ceec2" xml:id="i-eef4002c63e2b605-16" prev="i-eef4002c63e2b605-12" n="eef4002c">
             <seg n="54d12fc4">
               till en motvilja över huvud taget mot fortsatta studier.
             </seg>
@@ -3631,31 +3775,18 @@
               allt är ju skolan något av en arbetsplats.
             </seg>
           </u>
-          <note n="79dc6dc3">
-            201
-          </note>
-          <pb n="42" facs="https://betalab.kb.se/prot-1973--70/prot_1973__70-042.jp2/_view"/>
-          <note n="dfcd63c5">
-            Nr 70
-          </note>
-          <note n="18ff1e9a">
-            Fredagen den 13 april 1973
-          </note>
-          <note n="1a804b30">
-            Om åtgärder mot
-          </note>
-          <note n="6d42f2a4">
-            202
-          </note>
           <note type="speaker" n="84351dc5">
             Fröken LJUNGBERG (m):
           </note>
-          <u who="blenda_ljungberg_1f4cfa" xml:id="i-165bd4c16e81e4a3-0" n="f3a2e200">
+          <u who="blenda_ljungberg_1f4cfa" xml:id="i-f3a2e200be79509e-5" next="i-f3a2e200be79509e-6" n="f3a2e200">
             <seg n="8ac3c9ea">
               Herr talman! Jag vill tacka för den här kompletteringen av svaret
               som för mig är utomordentligt värdefull, inte minst därför att
               statsrådet
             </seg>
+          </u>
+          <pb n="43" facs="https://betalab.kb.se/prot-1973--70/prot_1973__70-043.jp2/_view"/>
+          <u who="blenda_ljungberg_1f4cfa" xml:id="i-f3a2e200be79509e-6" prev="i-f3a2e200be79509e-5" n="f3a2e200">
             <seg n="87cffe61">
               verkligen uppfattar mitt agerande här som vad det är, nämligen
               en positiv angelägenhet om att det blir en god utveckling på ett
@@ -3704,11 +3835,10 @@
             </seg>
             <seg n="93785e84"/>
           </u>
-          <pb n="43" facs="https://betalab.kb.se/prot-1973--70/prot_1973__70-043.jp2/_view"/>
           <note type="speaker" n="22ade32b">
             Herr WIKSTRÖM (fp):
           </note>
-          <u who="jan-erik_wikstrom_9d5b79" xml:id="i-493b8acc811c4695-1" next="i-f3cf529e627f3aa7-1" n="c32d788a">
+          <u who="jan-erik_wikstrom_9d5b79" xml:id="i-2a084f452e6129c7-5" next="i-2a084f452e6129c7-8" n="c32d788a">
             <seg n="d59846fc">
               Herr talman! Bara några korta kommentarer. Utbildningsministern
               säger att studieavbrotten inte har ökat. Tyvärr tror jag nog att
@@ -3733,7 +3863,7 @@
           <note n="dfcd63c5">
             Nr 70
           </note>
-          <note n="18ff1e9a">
+          <note type="date" n="84622636">
             Fredagen den 13 april 1973
           </note>
           <note n="1a804b30">
@@ -3745,13 +3875,33 @@
           <note n="7d661118">
             gymnasieskolan
           </note>
-          <u who="jan-erik_wikstrom_9d5b79" xml:id="i-f3cf529e627f3aa7-1" prev="i-493b8acc811c4695-1" n="c32d788a">
+          <u who="jan-erik_wikstrom_9d5b79" xml:id="i-2a084f452e6129c7-6" prev="i-2a084f452e6129c7-5" n="c32d788a">
             <seg n="5ce05a27">
               avbryter sin utbildning
             </seg>
+          </u>
+          <note n="c9aa40f8">
+            203
+          </note>
+          <pb n="44" facs="https://betalab.kb.se/prot-1973--70/prot_1973__70-044.jp2/_view"/>
+          <note n="dfcd63c5">
+            Nr 70
+          </note>
+          <note type="date" n="84622636">
+            Fredagen den 13 april 1973
+          </note>
+          <note n="2d152df3">
+            Om åtgärder för
+          </note>
+          <u who="jan-erik_wikstrom_9d5b79" xml:id="i-2a084f452e6129c7-7" prev="i-2a084f452e6129c7-5" n="c32d788a">
             <seg n="e3f446b2">
               att motverka tristess och vantrivsel i skolarbetet
             </seg>
+          </u>
+          <note n="653f6452">
+            204
+          </note>
+          <u who="jan-erik_wikstrom_9d5b79" xml:id="i-2a084f452e6129c7-8" prev="i-2a084f452e6129c7-5" n="c32d788a">
             <seg n="82fb1739">
               Det viktigaste skälet till att vi bör stimulera eleverna att
               gå kvar i skolan är att vi inte i dag kan garantera rätt till
@@ -3764,26 +3914,10 @@
               reducera antalet avbrott i studierna.
             </seg>
           </u>
-          <note n="c9aa40f8">
-            203
-          </note>
-          <pb n="44" facs="https://betalab.kb.se/prot-1973--70/prot_1973__70-044.jp2/_view"/>
-          <note n="dfcd63c5">
-            Nr 70
-          </note>
-          <note n="18ff1e9a">
-            Fredagen den 13 april 1973
-          </note>
-          <note n="2d152df3">
-            Om åtgärder för
-          </note>
-          <note n="653f6452">
-            204
-          </note>
           <note type="speaker" n="9c255a6e">
             Herr SCHÖTT (m):
           </note>
-          <u who="lars_schott_17038c" xml:id="i-ea9ce3c37fe36faf-0" next="i-b82fb4c73216d3b9-0" n="7aaeab08">
+          <u who="lars_schott_17038c" xml:id="i-7aaeab0836efcf1a-0" next="i-7aaeab0836efcf1a-3" n="7aaeab08">
             <seg n="6e3a37e8">
               Herr talman! För någon vecka sedan hade jag tillfälle att delta
               i en interpellationsdebatt, som bl. a. kom att gälla den av oss
@@ -3821,10 +3955,17 @@
           <note n="85869edf">
             Överläggningen var härmed slutad.
           </note>
-          <u who="lars_schott_17038c" xml:id="i-b82fb4c73216d3b9-0" prev="i-ea9ce3c37fe36faf-0" n="7aaeab08">
+          <u who="lars_schott_17038c" xml:id="i-7aaeab0836efcf1a-1" prev="i-7aaeab0836efcf1a-0" n="7aaeab08">
             <seg n="7c0b2d89">
               $ 13 Om åtgärder för att motverka tristess och vantrivsel i skolarbetet
             </seg>
+          </u>
+          <note n="96948380">
+            Herr utbildningsministern CARLSSON erhöll ordet för att besvara
+            herr Stålhammars (fp) den 7 mars framställda interpellation, nr
+            58, och anförde:
+          </note>
+          <u who="lars_schott_17038c" xml:id="i-7aaeab0836efcf1a-2" prev="i-7aaeab0836efcf1a-0" n="7aaeab08">
             <seg n="6cab7410">
               Herr talman! Herr Stålhammar har frågat mig, vilka åtgärder jag
               avser vidta för att motverka tristess och vantrivsel i skolarbetet
@@ -3836,6 +3977,9 @@
               efter uppslitande politiska strider och under stor oenighet. Jag
               vill därför
             </seg>
+          </u>
+          <pb n="45" facs="https://betalab.kb.se/prot-1973--70/prot_1973__70-045.jp2/_view"/>
+          <u who="lars_schott_17038c" xml:id="i-7aaeab0836efcf1a-3" prev="i-7aaeab0836efcf1a-0" n="7aaeab08">
             <seg n="233a1dbf">
               erinra interpellanten om den breda enighet som rådde i riksdagen
               om den nya läroplanen för högstadiet och om den nya yrkesutbildningen.
@@ -3885,16 +4029,10 @@
               vad gäller skolans arbetsmiljöfrågor.
             </seg>
           </u>
-          <note n="96948380">
-            Herr utbildningsministern CARLSSON erhöll ordet för att besvara
-            herr Stålhammars (fp) den 7 mars framställda interpellation, nr
-            58, och anförde:
-          </note>
-          <pb n="45" facs="https://betalab.kb.se/prot-1973--70/prot_1973__70-045.jp2/_view"/>
           <note type="speaker" n="6e721b13">
             Herr STÅLHAMMAR (fp):
           </note>
-          <u who="bert_stalhammar_f2c4b5" xml:id="i-f15eeba43004a699-0" next="i-30a9658118c7c965-0" n="5f1e2930">
+          <u who="bert_stalhammar_f2c4b5" xml:id="i-5f1e293070cbc0d8-0" next="i-5f1e293070cbc0d8-8" n="5f1e2930">
             <seg n="79de9fec">
               Herr talman! Jag ber att få tacka utbildningsministern för svaret
               på min interpellation.
@@ -3915,7 +4053,7 @@
           <note n="dfcd63c5">
             Nr 70
           </note>
-          <note n="18ff1e9a">
+          <note type="date" n="84622636">
             Fredagen den 13 april 1973
           </note>
           <note n="2d152df3">
@@ -3927,14 +4065,28 @@
           <note n="b095a304">
             tristess och van-
           </note>
-          <u who="bert_stalhammar_f2c4b5" xml:id="i-30a9658118c7c965-0" prev="i-f15eeba43004a699-0" n="5f1e2930">
+          <u who="bert_stalhammar_f2c4b5" xml:id="i-5f1e293070cbc0d8-1" prev="i-5f1e293070cbc0d8-0" n="5f1e2930">
             <seg n="63ccef25">
               trivsel i skolarbetet
             </seg>
+          </u>
+          <note n="2be02934">
+            205
+          </note>
+          <pb n="46" facs="https://betalab.kb.se/prot-1973--70/prot_1973__70-046.jp2/_view"/>
+          <note n="dfcd63c5">
+            Nr 70
+          </note>
+          <u who="bert_stalhammar_f2c4b5" xml:id="i-5f1e293070cbc0d8-2" prev="i-5f1e293070cbc0d8-0" n="5f1e2930">
             <seg n="3d64edc4">
               Fredagen den 13 april 1973 Om åtgärder för att motverka tristess
               och vantrivsel i skolarbetet
             </seg>
+          </u>
+          <note n="f9f6193d">
+            206
+          </note>
+          <u who="bert_stalhammar_f2c4b5" xml:id="i-5f1e293070cbc0d8-3" prev="i-5f1e293070cbc0d8-0" n="5f1e2930">
             <seg n="441fe3ea">
               perspektivet bakåt. Det kanske därför är på sin plats att jag
               gör det här och nu.
@@ -4005,6 +4157,9 @@
               Sedan måste vi också i skoldebatten alltid föra fram att skolan
               inte är ensam i samhället om att påverka barnen. Vi vet att massmedia,
             </seg>
+          </u>
+          <pb n="47" facs="https://betalab.kb.se/prot-1973--70/prot_1973__70-047.jp2/_view"/>
+          <u who="bert_stalhammar_f2c4b5" xml:id="i-5f1e293070cbc0d8-4" prev="i-5f1e293070cbc0d8-0" n="5f1e2930">
             <seg n="f19a3fc7">
               kamratgrupperna och naturligtvis också hemmen påverkar åt ena
               eller andra hållet, ofta mer effektivt än vad skolan gör. Ett
@@ -4067,12 +4222,49 @@
               var studieavbrytare — 7,2 procent för pojkar och 1 procent för
               flickor —
             </seg>
+          </u>
+          <note n="dfcd63c5">
+            Nr 70
+          </note>
+          <note type="date" n="84622636">
+            Fredagen den 13 april 1973
+          </note>
+          <note n="2d152df3">
+            Om åtgärder för
+          </note>
+          <note n="b595ca01">
+            att motverka
+          </note>
+          <note n="b095a304">
+            tristess och van-
+          </note>
+          <u who="bert_stalhammar_f2c4b5" xml:id="i-5f1e293070cbc0d8-5" prev="i-5f1e293070cbc0d8-0" n="5f1e2930">
             <seg n="63ccef25">
               trivsel i skolarbetet
             </seg>
+          </u>
+          <note n="5cde01b8">
+            207
+          </note>
+          <pb n="48" facs="https://betalab.kb.se/prot-1973--70/prot_1973__70-048.jp2/_view"/>
+          <note n="dfcd63c5">
+            Nr 70
+          </note>
+          <note type="date" n="84622636">
+            Fredagen den 13 april 1973
+          </note>
+          <note n="2d152df3">
+            Om åtgärder för
+          </note>
+          <u who="bert_stalhammar_f2c4b5" xml:id="i-5f1e293070cbc0d8-6" prev="i-5f1e293070cbc0d8-0" n="5f1e2930">
             <seg n="e3f446b2">
               att motverka tristess och vantrivsel i skolarbetet
             </seg>
+          </u>
+          <note n="02df3693">
+            208
+          </note>
+          <u who="bert_stalhammar_f2c4b5" xml:id="i-5f1e293070cbc0d8-7" prev="i-5f1e293070cbc0d8-0" n="5f1e2930">
             <seg n="50716442">
               kom 92 procent från socialgrupp 3. Enligt den klassifikation
               man hade gjort med avseende på föräldrarnas utbildning kom barnen
@@ -4138,6 +4330,9 @@
               parter att förstå varandras synpunkter. I förlängningen av detta
               vill jag gärna se en allmän
             </seg>
+          </u>
+          <pb n="49" facs="https://betalab.kb.se/prot-1973--70/prot_1973__70-049.jp2/_view"/>
+          <u who="bert_stalhammar_f2c4b5" xml:id="i-5f1e293070cbc0d8-8" prev="i-5f1e293070cbc0d8-0" n="5f1e2930">
             <seg n="0c78a44d">
               föräldraskola, parallell med elevens klass, från mödraoch barnavårdscentral
               och hela vägen upp genom skoltiden.
@@ -4169,53 +4364,10 @@
               besluten och delta i skolsamhällets liv och verksamhet.
             </seg>
           </u>
-          <note n="2be02934">
-            205
-          </note>
-          <pb n="46" facs="https://betalab.kb.se/prot-1973--70/prot_1973__70-046.jp2/_view"/>
-          <note n="dfcd63c5">
-            Nr 70
-          </note>
-          <note n="f9f6193d">
-            206
-          </note>
-          <pb n="47" facs="https://betalab.kb.se/prot-1973--70/prot_1973__70-047.jp2/_view"/>
-          <note n="dfcd63c5">
-            Nr 70
-          </note>
-          <note n="18ff1e9a">
-            Fredagen den 13 april 1973
-          </note>
-          <note n="2d152df3">
-            Om åtgärder för
-          </note>
-          <note n="b595ca01">
-            att motverka
-          </note>
-          <note n="b095a304">
-            tristess och van-
-          </note>
-          <note n="5cde01b8">
-            207
-          </note>
-          <pb n="48" facs="https://betalab.kb.se/prot-1973--70/prot_1973__70-048.jp2/_view"/>
-          <note n="dfcd63c5">
-            Nr 70
-          </note>
-          <note n="18ff1e9a">
-            Fredagen den 13 april 1973
-          </note>
-          <note n="2d152df3">
-            Om åtgärder för
-          </note>
-          <note n="02df3693">
-            208
-          </note>
-          <pb n="49" facs="https://betalab.kb.se/prot-1973--70/prot_1973__70-049.jp2/_view"/>
           <note type="speaker" n="485afe31">
             Fru SUNDBERG (m):
           </note>
-          <u who="ingrid_sundberg_825daf" xml:id="i-b3d4dce8e67955c2-0" next="i-7550b725bdb93aa3-0" n="5d3640f6">
+          <u who="ingrid_sundberg_825daf" xml:id="i-5d3640f6419e0f65-0" next="i-5d3640f6419e0f65-4" n="5d3640f6">
             <seg n="89591e0e">
               Herr talman! När vi nu diskuterar de här ytterligt känsliga men
               inte mindre viktiga faktorerna när det gäller barns skolgång finns
@@ -4261,7 +4413,7 @@
           <note n="dfcd63c5">
             Nr 70
           </note>
-          <note n="18ff1e9a">
+          <note type="date" n="84622636">
             Fredagen den 13 april 1973
           </note>
           <note n="2d152df3">
@@ -4273,13 +4425,33 @@
           <note n="b095a304">
             tristess och van-
           </note>
-          <u who="ingrid_sundberg_825daf" xml:id="i-7550b725bdb93aa3-0" prev="i-b3d4dce8e67955c2-0" n="5d3640f6">
+          <u who="ingrid_sundberg_825daf" xml:id="i-5d3640f6419e0f65-1" prev="i-5d3640f6419e0f65-0" n="5d3640f6">
             <seg n="63ccef25">
               trivsel i skolarbetet
             </seg>
+          </u>
+          <note n="3a563586">
+            209
+          </note>
+          <pb n="50" facs="https://betalab.kb.se/prot-1973--70/prot_1973__70-050.jp2/_view"/>
+          <note n="dfcd63c5">
+            Nr 70
+          </note>
+          <note type="date" n="84622636">
+            Fredagen den 13 april 1973
+          </note>
+          <note n="2d152df3">
+            Om åtgärder för
+          </note>
+          <u who="ingrid_sundberg_825daf" xml:id="i-5d3640f6419e0f65-2" prev="i-5d3640f6419e0f65-0" n="5d3640f6">
             <seg n="e3f446b2">
               att motverka tristess och vantrivsel i skolarbetet
             </seg>
+          </u>
+          <note n="f0a05cff">
+            210
+          </note>
+          <u who="ingrid_sundberg_825daf" xml:id="i-5d3640f6419e0f65-3" prev="i-5d3640f6419e0f65-0" n="5d3640f6">
             <seg n="d61d4319">
               skolan. Men det finns också elever som — inte alls av sociala
               skäl — grips av en sådan skolleda att de över huvud taget nekar
@@ -4344,6 +4516,9 @@
               inställning till arbetstrivseln i skolan? Finns det någonting
               som säger — och jag skall
             </seg>
+          </u>
+          <pb n="51" facs="https://betalab.kb.se/prot-1973--70/prot_1973__70-051.jp2/_view"/>
+          <u who="ingrid_sundberg_825daf" xml:id="i-5d3640f6419e0f65-4" prev="i-5d3640f6419e0f65-0" n="5d3640f6">
             <seg n="7380f863">
               här inte beröra det kvalitetsmässiga resultatet — att detta är
               ett trivselbefrämjande arbetssätt i skolorna?
@@ -4379,27 +4554,10 @@
               visa sig omöjligt i framtiden.
             </seg>
           </u>
-          <note n="3a563586">
-            209
-          </note>
-          <pb n="50" facs="https://betalab.kb.se/prot-1973--70/prot_1973__70-050.jp2/_view"/>
-          <note n="dfcd63c5">
-            Nr 70
-          </note>
-          <note n="18ff1e9a">
-            Fredagen den 13 april 1973
-          </note>
-          <note n="2d152df3">
-            Om åtgärder för
-          </note>
-          <note n="f0a05cff">
-            210
-          </note>
-          <pb n="51" facs="https://betalab.kb.se/prot-1973--70/prot_1973__70-051.jp2/_view"/>
           <note type="speaker" n="322f88bc">
             Herr utbildningsministern CARLSSON:
           </note>
-          <u who="ingvar_carlsson_5ceec2" xml:id="i-f560ca69325b1b9d-3" next="i-07c6a071ae0531a1-3" n="eef4002c">
+          <u who="ingvar_carlsson_5ceec2" xml:id="i-eef4002c63e2b605-17" next="i-eef4002c63e2b605-21" n="eef4002c">
             <seg n="5aa88aaa">
               Herr talman! Jag skall inte falla för frestelsen att betygsätta
               herr Heléns utspel, men jag kände också igen ett par gamla bekanta.
@@ -4437,7 +4595,7 @@
           <note n="dfcd63c5">
             Nr 70
           </note>
-          <note n="18ff1e9a">
+          <note type="date" n="84622636">
             Fredagen den 13 april 1973
           </note>
           <note n="2d152df3">
@@ -4449,13 +4607,33 @@
           <note n="b095a304">
             tristess och van-
           </note>
-          <u who="ingvar_carlsson_5ceec2" xml:id="i-07c6a071ae0531a1-3" prev="i-f560ca69325b1b9d-3" n="eef4002c">
+          <u who="ingvar_carlsson_5ceec2" xml:id="i-eef4002c63e2b605-18" prev="i-eef4002c63e2b605-17" n="eef4002c">
             <seg n="63ccef25">
               trivsel i skolarbetet
             </seg>
+          </u>
+          <note n="3bb3e6c4">
+            211
+          </note>
+          <pb n="52" facs="https://betalab.kb.se/prot-1973--70/prot_1973__70-052.jp2/_view"/>
+          <note n="dfcd63c5">
+            Nr 70
+          </note>
+          <note type="date" n="84622636">
+            Fredagen den 13 april 1973
+          </note>
+          <note n="2d152df3">
+            Om åtgärder för
+          </note>
+          <u who="ingvar_carlsson_5ceec2" xml:id="i-eef4002c63e2b605-19" prev="i-eef4002c63e2b605-17" n="eef4002c">
             <seg n="e3f446b2">
               att motverka tristess och vantrivsel i skolarbetet
             </seg>
+          </u>
+          <note n="96774049">
+            212
+          </note>
+          <u who="ingvar_carlsson_5ceec2" xml:id="i-eef4002c63e2b605-20" prev="i-eef4002c63e2b605-17" n="eef4002c">
             <seg n="972db3c3">
               inte före denna debatt kunnat läsa dessa bestämmelser och kan
               därför bara meddela att de kommer.
@@ -4527,6 +4705,9 @@
               Jag kan instämma i vad Lärartidningen sagt på den här punkten.
               Jag
             </seg>
+          </u>
+          <pb n="53" facs="https://betalab.kb.se/prot-1973--70/prot_1973__70-053.jp2/_view"/>
+          <u who="ingvar_carlsson_5ceec2" xml:id="i-eef4002c63e2b605-21" prev="i-eef4002c63e2b605-17" n="eef4002c">
             <seg n="311e8a78">
               vill inte påstå att jag citerat tidningen med anledningen av
               några av inläggen i dag — jag tyckte att dessa var i stort sett
@@ -4536,27 +4717,10 @@
               den skolpolitiska debatten.
             </seg>
           </u>
-          <note n="3bb3e6c4">
-            211
-          </note>
-          <pb n="52" facs="https://betalab.kb.se/prot-1973--70/prot_1973__70-052.jp2/_view"/>
-          <note n="dfcd63c5">
-            Nr 70
-          </note>
-          <note n="18ff1e9a">
-            Fredagen den 13 april 1973
-          </note>
-          <note n="2d152df3">
-            Om åtgärder för
-          </note>
-          <note n="96774049">
-            212
-          </note>
-          <pb n="53" facs="https://betalab.kb.se/prot-1973--70/prot_1973__70-053.jp2/_view"/>
           <note type="speaker" n="22ade32b">
             Herr WIKSTRÖM (fp):
           </note>
-          <u who="jan-erik_wikstrom_9d5b79" xml:id="i-493b8acc811c4695-2" next="i-f3cf529e627f3aa7-2" n="c32d788a">
+          <u who="jan-erik_wikstrom_9d5b79" xml:id="i-2a084f452e6129c7-9" next="i-2a084f452e6129c7-12" n="c32d788a">
             <seg n="52788251">
               Herr talman! Både fru Sundberg och utbildningsministern har nu
               åberopat ett tal i skolfrågor som Gunnar Helén höll i Göteborg
@@ -4630,7 +4794,7 @@
           <note n="dfcd63c5">
             Nr 70
           </note>
-          <note n="18ff1e9a">
+          <note type="date" n="84622636">
             Fredagen den 13 april 1973
           </note>
           <note n="2d152df3">
@@ -4642,13 +4806,33 @@
           <note n="b095a304">
             tristess och van-
           </note>
-          <u who="jan-erik_wikstrom_9d5b79" xml:id="i-f3cf529e627f3aa7-2" prev="i-493b8acc811c4695-2" n="c32d788a">
+          <u who="jan-erik_wikstrom_9d5b79" xml:id="i-2a084f452e6129c7-10" prev="i-2a084f452e6129c7-9" n="c32d788a">
             <seg n="63ccef25">
               trivsel i skolarbetet
             </seg>
+          </u>
+          <note n="72482139">
+            213
+          </note>
+          <pb n="54" facs="https://betalab.kb.se/prot-1973--70/prot_1973__70-054.jp2/_view"/>
+          <note n="dfcd63c5">
+            Nr 70
+          </note>
+          <note type="date" n="84622636">
+            Fredagen den 13 april 1973
+          </note>
+          <note n="2d152df3">
+            Om åtgärder för
+          </note>
+          <u who="jan-erik_wikstrom_9d5b79" xml:id="i-2a084f452e6129c7-11" prev="i-2a084f452e6129c7-9" n="c32d788a">
             <seg n="e3f446b2">
               att motverka tristess och vantrivsel i skolarbetet
             </seg>
+          </u>
+          <note n="0f50f85d">
+            214
+          </note>
+          <u who="jan-erik_wikstrom_9d5b79" xml:id="i-2a084f452e6129c7-12" prev="i-2a084f452e6129c7-9" n="c32d788a">
             <seg n="4de8ca1c">
               Förbättra lärarnas arbetsvillkor. Lärarna måste få tillgång till
               egna arbetsplatser i skolan och kontorshjälp. Personalvården måste
@@ -4683,26 +4867,10 @@
               utfärda en invit till utbildningsministern att ansluta sig.
             </seg>
           </u>
-          <note n="72482139">
-            213
-          </note>
-          <pb n="54" facs="https://betalab.kb.se/prot-1973--70/prot_1973__70-054.jp2/_view"/>
-          <note n="dfcd63c5">
-            Nr 70
-          </note>
-          <note n="18ff1e9a">
-            Fredagen den 13 april 1973
-          </note>
-          <note n="2d152df3">
-            Om åtgärder för
-          </note>
-          <note n="0f50f85d">
-            214
-          </note>
           <note type="speaker" n="485afe31">
             Fru SUNDBERG (m):
           </note>
-          <u who="ingrid_sundberg_825daf" xml:id="i-21ae612294d5a8a5-0" n="5d3640f6">
+          <u who="ingrid_sundberg_825daf" xml:id="i-5d3640f6419e0f65-5" n="5d3640f6">
             <seg n="1bcaa0e5">
               Herr talman! Låt mig uttrycka min förvåning över det något ovanliga
               förfarandet att läsa in en programskrift från ett politiskt parti
@@ -4717,7 +4885,7 @@
           <note type="speaker" n="6e721b13">
             Herr STÅLHAMMAR (fp):
           </note>
-          <u who="bert_stalhammar_f2c4b5" xml:id="i-63e9337bfe964784-0" n="5f1e2930">
+          <u who="bert_stalhammar_f2c4b5" xml:id="i-5f1e293070cbc0d8-9" next="i-5f1e293070cbc0d8-10" n="5f1e2930">
             <seg n="ebd794e9">
               Herr talman! I ett tal i Uppsala den 10 februari 1973 sade statsrådet
               Carlsson så här: ”Å andra sidan är det naturligtvis allvarligt
@@ -4743,6 +4911,9 @@
               att göra variationer på läroplanen. Då behöver inte de här eleverna
               utdestilleras ur systemet
             </seg>
+          </u>
+          <pb n="55" facs="https://betalab.kb.se/prot-1973--70/prot_1973__70-055.jp2/_view"/>
+          <u who="bert_stalhammar_f2c4b5" xml:id="i-5f1e293070cbc0d8-10" prev="i-5f1e293070cbc0d8-9" n="5f1e2930">
             <seg n="2b2f6ccd">
               redan i grundskolan. Alla studiegångar i skolan skall vara lika,
               alla skall vara jämkade, alla skall ha samma status och varje
@@ -4761,11 +4932,10 @@
               studieväg.
             </seg>
           </u>
-          <pb n="55" facs="https://betalab.kb.se/prot-1973--70/prot_1973__70-055.jp2/_view"/>
           <note type="speaker" n="ae160cad">
             Herr ELMSTEDT (c):
           </note>
-          <u who="claes_elmstedt_522569" xml:id="i-4a65880b9c7fab9d-0" next="i-007a548d1be7869a-0" n="3f69d04f">
+          <u who="claes_elmstedt_522569" xml:id="i-3f69d04feb0c05ce-0" next="i-3f69d04feb0c05ce-10" n="3f69d04f">
             <seg n="3f9b7456">
               Herr talman! Frågorna som väckts i den här interpellationen är
               inte nya på något sätt. Under slutet av 1960-talet kom det gång
@@ -4817,7 +4987,7 @@
           <note n="dfcd63c5">
             Nr 70
           </note>
-          <note n="18ff1e9a">
+          <note type="date" n="84622636">
             Fredagen den 13 april 1973
           </note>
           <note n="2d152df3">
@@ -4829,13 +4999,33 @@
           <note n="b095a304">
             tristess och van-
           </note>
-          <u who="claes_elmstedt_522569" xml:id="i-007a548d1be7869a-0" prev="i-4a65880b9c7fab9d-0" n="3f69d04f">
+          <u who="claes_elmstedt_522569" xml:id="i-3f69d04feb0c05ce-1" prev="i-3f69d04feb0c05ce-0" n="3f69d04f">
             <seg n="63ccef25">
               trivsel i skolarbetet
             </seg>
+          </u>
+          <note n="ca012fda">
+            215
+          </note>
+          <pb n="56" facs="https://betalab.kb.se/prot-1973--70/prot_1973__70-056.jp2/_view"/>
+          <note n="dfcd63c5">
+            Nr 70
+          </note>
+          <note type="date" n="84622636">
+            Fredagen den 13 april 1973
+          </note>
+          <note n="2d152df3">
+            Om åtgärder för
+          </note>
+          <u who="claes_elmstedt_522569" xml:id="i-3f69d04feb0c05ce-2" prev="i-3f69d04feb0c05ce-0" n="3f69d04f">
             <seg n="e3f446b2">
               att motverka tristess och vantrivsel i skolarbetet
             </seg>
+          </u>
+          <note n="199014ea">
+            216
+          </note>
+          <u who="claes_elmstedt_522569" xml:id="i-3f69d04feb0c05ce-3" prev="i-3f69d04feb0c05ce-0" n="3f69d04f">
             <seg n="4de6ba3c">
               Kommunerna har ju möjlighet att göra lokala bedömningar och borde
               inte vara lika hårt bundna av centralt fattade beslut som man
@@ -4871,11 +5061,41 @@
               skiftande förutsättningar komma till rätta med en del av de bekymmer
               som finns.
             </seg>
+          </u>
+          <note n="85869edf">
+            Överläggningen var härmed slutad.
+          </note>
+          <note n="331403e7">
+            $ 14 Föredrogs och hänvisades Kungl. Maj:ts proposition nr 100
+            till lagutskottet.
+          </note>
+          <note n="d74b0928">
+            $ 15 Föredrogs och hänvisades motionerna nr 1843—1854 till konstitutionsutskottet,
+            nr 1855 till justitieutskottet samt nr 1856—1867 till konstitutionsutskottet.
+          </note>
+          <note n="3eb1c790">
+            $ 16 Föredrogs och bifölls interpellationsframställningarna nr
+            78—80.
+          </note>
+          <note n="3747a079">
+            $ 17 Interpellation nr 81 om åtgärder mot brottslighet av icke
+            bofasta utlänningar
+          </note>
+          <note n="ab79966e">
+            Ordet lämnades på begäran till
+          </note>
+          <note n="d0288aed">
+            Herr KOMSTEDT (m), som yttrade:
+          </note>
+          <u who="claes_elmstedt_522569" xml:id="i-3f69d04feb0c05ce-4" prev="i-3f69d04feb0c05ce-0" n="3f69d04f">
             <seg n="1db02932">
               Herr talman! Under senare år har pågått viss invandring av utomnordiska
               zigenare till Sverige. Även till Norge och Danmark sker sådan
               invandring. Strängt taget är invandringen okontrollerad. Myndigheterna
             </seg>
+          </u>
+          <pb n="57" facs="https://betalab.kb.se/prot-1973--70/prot_1973__70-057.jp2/_view"/>
+          <u who="claes_elmstedt_522569" xml:id="i-3f69d04feb0c05ce-5" prev="i-3f69d04feb0c05ce-0" n="3f69d04f">
             <seg n="b8b6ffab">
               har accepterat t. ex. motiveringar som utmynnar i politisk asyl
               utan rimlig möjlighet till kontroll, då det företrädesvis är fråga
@@ -4940,7 +5160,28 @@
               med ambulerande försäljning av ”äkta” mattor, fickstölder i samband
               med
             </seg>
-            <seg n="93785e84"/>
+          </u>
+          <note n="dfcd63c5">
+            Nr 70
+          </note>
+          <note type="date" n="84622636">
+            Fredagen den 13 april 1973
+          </note>
+          <u who="claes_elmstedt_522569" xml:id="i-3f69d04feb0c05ce-6" prev="i-3f69d04feb0c05ce-0" n="3f69d04f"/>
+          <note n="55864ae2">
+            217
+          </note>
+          <pb n="58" facs="https://betalab.kb.se/prot-1973--70/prot_1973__70-058.jp2/_view"/>
+          <note n="936f0450">
+            Nr 70 Fredagen den
+          </note>
+          <note n="4b04b68c">
+            13 april 1973
+          </note>
+          <note n="b82484f2">
+            218
+          </note>
+          <u who="claes_elmstedt_522569" xml:id="i-3f69d04feb0c05ce-7" prev="i-3f69d04feb0c05ce-0" n="3f69d04f">
             <seg n="aca00625">
               trängsel på varuhus, bedrägeri mot socialvårdsmyndigheterna och
               brott mot skattelagstiftningen. Det skulle föra för långt att
@@ -4985,89 +5226,7 @@
               begås här i Sverige av företrädesvis kringflackande utomnordiska
               zigenarkollektiv kan förebyggas?
             </seg>
-            <seg n="2a60a938">
-              Är det enligt statsrådets mening angeläget att med så många länder
-              som möjligt och i första hand de europeiska få till stånd en överenskommelse
-              om utlämning av personer misstänkta för grövre skattebrott? Vad
-              har gjorts för att nå sådana överenskommelser?
-            </seg>
-            <seg n="604fdcc1">
-              Vill utrikesministern redogöra för de principer som skall gälla
-              för finansiering av svenska gåvoleveranser till u-länderna, när
-              upphandling av sysselsättningspolitiska skäl sker i Sverige av
-              varor som kan köpas till lägre priser utomlands?
-            </seg>
-            <seg n="52704245">
-              Nr 188 Herr Werner i Tyresö (vpk) till herr justitieministern
-              angående Industrins försvarsbyrås förhållande till SÄPO: Är justitieministern
-              beredd att redogöra för efter vilka principer samarbetet mellan
-              Industrins försvarsbyrå och SÄPO är utformat?
-            </seg>
-            <seg n="befba4d6">
-              Hagberg (vpk) 45
-            </seg>
           </u>
-          <note n="ca012fda">
-            215
-          </note>
-          <pb n="56" facs="https://betalab.kb.se/prot-1973--70/prot_1973__70-056.jp2/_view"/>
-          <note n="dfcd63c5">
-            Nr 70
-          </note>
-          <note n="18ff1e9a">
-            Fredagen den 13 april 1973
-          </note>
-          <note n="2d152df3">
-            Om åtgärder för
-          </note>
-          <note n="199014ea">
-            216
-          </note>
-          <note n="85869edf">
-            Överläggningen var härmed slutad.
-          </note>
-          <note n="331403e7">
-            $ 14 Föredrogs och hänvisades Kungl. Maj:ts proposition nr 100
-            till lagutskottet.
-          </note>
-          <note n="d74b0928">
-            $ 15 Föredrogs och hänvisades motionerna nr 1843—1854 till konstitutionsutskottet,
-            nr 1855 till justitieutskottet samt nr 1856—1867 till konstitutionsutskottet.
-          </note>
-          <note n="3eb1c790">
-            $ 16 Föredrogs och bifölls interpellationsframställningarna nr
-            78—80.
-          </note>
-          <note n="3747a079">
-            $ 17 Interpellation nr 81 om åtgärder mot brottslighet av icke
-            bofasta utlänningar
-          </note>
-          <note n="ab79966e">
-            Ordet lämnades på begäran till
-          </note>
-          <note n="d0288aed">
-            Herr KOMSTEDT (m), som yttrade:
-          </note>
-          <pb n="57" facs="https://betalab.kb.se/prot-1973--70/prot_1973__70-057.jp2/_view"/>
-          <note n="dfcd63c5">
-            Nr 70
-          </note>
-          <note n="18ff1e9a">
-            Fredagen den 13 april 1973
-          </note>
-          <note n="55864ae2">
-            217
-          </note>
-          <pb n="58" facs="https://betalab.kb.se/prot-1973--70/prot_1973__70-058.jp2/_view"/>
-          <note n="936f0450">
-            Nr 70 Fredagen den
-          </note>
-          <note n="4b04b68c">
-            13 april 1973
-          </note>
-          <note n="b82484f2">
-            218
-          </note>
           <note n="bfe9a5b2">
             Denna interpellationsframställning bifölls.
           </note>
@@ -5108,6 +5267,14 @@
             Nr 186 Herr Sjöholm (fp) till herr utrikesministern om utlämningsavtal
             vid misstanke om grövre skattebrott:
           </note>
+          <u who="claes_elmstedt_522569" xml:id="i-3f69d04feb0c05ce-8" prev="i-3f69d04feb0c05ce-0" n="3f69d04f">
+            <seg n="2a60a938">
+              Är det enligt statsrådets mening angeläget att med så många länder
+              som möjligt och i första hand de europeiska få till stånd en överenskommelse
+              om utlämning av personer misstänkta för grövre skattebrott? Vad
+              har gjorts för att nå sådana överenskommelser?
+            </seg>
+          </u>
           <note n="950a687e">
             den 13 april av
           </note>
@@ -5115,6 +5282,20 @@
             Nr 187 Herr Ullsten (fp) till herr utrikesministern angående
             principerna för finansiering av svenska gåvoleveranser till u-länderna:
           </note>
+          <u who="claes_elmstedt_522569" xml:id="i-3f69d04feb0c05ce-9" prev="i-3f69d04feb0c05ce-0" n="3f69d04f">
+            <seg n="604fdcc1">
+              Vill utrikesministern redogöra för de principer som skall gälla
+              för finansiering av svenska gåvoleveranser till u-länderna, när
+              upphandling av sysselsättningspolitiska skäl sker i Sverige av
+              varor som kan köpas till lägre priser utomlands?
+            </seg>
+            <seg n="52704245">
+              Nr 188 Herr Werner i Tyresö (vpk) till herr justitieministern
+              angående Industrins försvarsbyrås förhållande till SÄPO: Är justitieministern
+              beredd att redogöra för efter vilka principer samarbetet mellan
+              Industrins försvarsbyrå och SÄPO är utformat?
+            </seg>
+          </u>
           <note n="5e386a5b">
             $ 21 På hemställan av herr förste vice talmannen beslöt kammaren
             kl. 13.34 att ajournera sina förhandlingar till kl. 15.00 för
@@ -5161,7 +5342,7 @@
           <note n="dfcd63c5">
             Nr 70
           </note>
-          <note n="18ff1e9a">
+          <note type="date" n="84622636">
             Fredagen den 13 april 1973
           </note>
           <note n="767d6cc1">
@@ -5386,7 +5567,7 @@
           <note n="1102d765">
             Förteckning över talare (Siffrorna avser sida i protokollen)
           </note>
-          <note n="3b9cf6c1">
+          <note type="date" n="b6f5b5fb">
             Torsdagen den 12 april kl. 12.00
           </note>
           <note n="1472eadf">
@@ -5429,6 +5610,11 @@
           <note n="25576b11">
             Eriksson i Arvika (fp) 17, 18, 19 Frenkel (fp) 60, 62
           </note>
+          <u who="claes_elmstedt_522569" xml:id="i-3f69d04feb0c05ce-10" prev="i-3f69d04feb0c05ce-0" n="3f69d04f">
+            <seg n="befba4d6">
+              Hagberg (vpk) 45
+            </seg>
+          </u>
           <note n="5288a584">
             Hansson i Skegrie (c) 70, 76, 78, 83, 88 Hedin (m) 71, 80, 82
           </note>
@@ -5479,7 +5665,7 @@
             Werner i Malmö (m) 7, 8, 29, 38 Wickman, utrikesminister 5, 6,
             7 Wikner (s) 19, 20
           </note>
-          <note n="011372d2">
+          <note type="date" n="b4240178">
             Torsdagen den 12 april kl. 19.30
           </note>
           <note n="614e8fdf">

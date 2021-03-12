@@ -20,7 +20,7 @@
     <encodingDesc>
       <editorialDecl>
         <correction>
-          <p>Some data curation was done. It is documented in db/curation/instances</p>
+          <p>Some data curation was done. It is documented in input/curation/instances</p>
         </correction>
       </editorialDecl>
     </encodingDesc>
@@ -59,6 +59,7 @@
       </front>
       <body>
         <div>
+          <pb n="0" facs="https://betalab.kb.se/prot-1965--fk--25/prot_1965__fk__25-000.jp2/_view"/>
           <note n="b17dcad1">
             RIKSDAGENS PROTOKOLL
           </note>
@@ -400,7 +401,7 @@
           <note type="speaker" n="504998db">
             Herr SVENINGSSON (h):
           </note>
-          <u who="unknown" xml:id="i-577cb67919601bb9-0" n="87e6bb86">
+          <u who="unknown" xml:id="i-87e6bb8604bc3ffe-0" n="87e6bb86">
             <seg n="a201a862">
               Herr talman! Jag tackar statsrådet Skoglund för svaret på min
               fråga.
@@ -417,7 +418,7 @@
           <note type="date" n="30934294">
             Tisdagen den 18 maj 1965
           </note>
-          <u who="unknown" xml:id="i-aa7319cd96283a86-0" n="87e6bb86">
+          <u who="unknown" xml:id="i-87e6bb8604bc3ffe-1" n="87e6bb86">
             <seg n="07e47c0c">
               värdefullt om man på lämpliga platser och vid lämplig tidpunkt
               med vederbörligt tillstånd gick in för att ordna övningskörning
@@ -459,6 +460,11 @@
               på ett olyckligt sätt så länge vi har kvar vänstertrafiken. Jag
               kan inte godkänna denna teori, och jag tycker att det är
             </seg>
+          </u>
+          <note n="8f66037f">
+            Nr 25 5
+          </note>
+          <u who="unknown" xml:id="i-87e6bb8604bc3ffe-2" n="87e6bb86">
             <seg n="74bc1ef4">
               Om övningskörning i högertrafik mycket underliga linjer som man
               här arbetar efter.
@@ -479,13 +485,10 @@
               om så blir fallet.
             </seg>
           </u>
-          <note n="8f66037f">
-            Nr 25 5
-          </note>
           <note type="speaker" n="b07e6fc5">
             Herr statsrådet SKOGLUND:
           </note>
-          <u who="gosta_skoglund_398baf" xml:id="i-722032c250b86b3b-0" next="i-45660b9e676cd4aa-0" n="d8d7eebe">
+          <u who="gosta_skoglund_398baf" xml:id="i-87e6bb8604bc3ffe-3" next="i-87e6bb8604bc3ffe-4" n="d8d7eebe">
             <seg n="9fa8740c">
               Herr talman! Man följer frågan med stor uppmärksamhet inom högertrafikkommissionen
               och dess vetenskapliga arbetsgrupp. Mot högertrafikkommissionens
@@ -512,7 +515,7 @@
           <note n="3f3ef4ed">
             6 Nr 25 Tisdagen den
           </note>
-          <u who="gosta_skoglund_398baf" xml:id="i-45660b9e676cd4aa-0" prev="i-722032c250b86b3b-0" n="d8d7eebe">
+          <u who="gosta_skoglund_398baf" xml:id="i-87e6bb8604bc3ffe-4" prev="i-87e6bb8604bc3ffe-3" n="d8d7eebe">
             <seg n="eea23e7e">
               Ang. utbildningen av arbetsterapeuter gen H. Det finns ingenting
               att vinna på en organiserad högerträning före dagen H. Däremot
@@ -534,7 +537,7 @@
           <note type="speaker" n="504998db">
             Herr SVENINGSSON (h):
           </note>
-          <u who="unknown" xml:id="i-e2916a7fe6773950-0" n="87e6bb86">
+          <u who="unknown" xml:id="i-87e6bb8604bc3ffe-5" n="87e6bb86">
             <seg n="9e15960e">
               Herr talman! Jag förstår synpunkten, att när högertrafikkommissionen
               har fattat detta beslut så är det inte så lätt för statsrådet
@@ -567,7 +570,7 @@
           <note type="speaker" n="b07e6fc5">
             Herr statsrådet SKOGLUND:
           </note>
-          <u who="gosta_skoglund_398baf" xml:id="i-722032c250b86b3b-1" next="i-45660b9e676cd4aa-1" n="d8d7eebe">
+          <u who="gosta_skoglund_398baf" xml:id="i-87e6bb8604bc3ffe-6" next="i-87e6bb8604bc3ffe-8" n="d8d7eebe">
             <seg n="508309fb">
               Herr talman! Jag vill göra herr Sveningsson uppmärksam på att
               denna fråga är prövad av högertrafikkommissionen, där det finns
@@ -598,16 +601,11 @@
             av arbetsterapeuter, vilken fråga intagits i kammarens protokoll
             för den 13 maj, och yttrade:
           </note>
-          <u who="gosta_skoglund_398baf" xml:id="i-45660b9e676cd4aa-1" prev="i-722032c250b86b3b-1" n="d8d7eebe">
+          <u who="gosta_skoglund_398baf" xml:id="i-87e6bb8604bc3ffe-7" prev="i-87e6bb8604bc3ffe-6" n="d8d7eebe">
             <seg n="866b0628">
               Herr talman! Herr Häöbinette har frågat varför direktiv rörande
               den nya arbetsterapeututbildning, som skall börja hösten 1965,
               ännu inte utfärdats.
-            </seg>
-            <seg n="105fe491">
-              De här angivna förberedelseåtgärderna torde vara till fyllest
-              för statsmakternas del för att utbildningen skall kunna igångsättas,
-              varför några särskilda direktiv ej torde böra utfärdas.
             </seg>
           </u>
           <note n="611ff2cb">
@@ -629,10 +627,17 @@
             expertgruppens förslag till utformning av arbetsterapeututbildningen.
             Annonsering om utbildningen har skett i dagarna.
           </note>
+          <u who="gosta_skoglund_398baf" xml:id="i-87e6bb8604bc3ffe-8" prev="i-87e6bb8604bc3ffe-6" n="d8d7eebe">
+            <seg n="105fe491">
+              De här angivna förberedelseåtgärderna torde vara till fyllest
+              för statsmakternas del för att utbildningen skall kunna igångsättas,
+              varför några särskilda direktiv ej torde böra utfärdas.
+            </seg>
+          </u>
           <note type="speaker" n="321d923f">
             Herr HUBINETTE (h):
           </note>
-          <u who="unknown" xml:id="i-577cb67919601bb9-1" n="87e6bb86">
+          <u who="unknown" xml:id="i-87e6bb8604bc3ffe-9" n="87e6bb86">
             <seg n="2ab4288f">
               Herr talman! Jag skall be att få tacka ecklesiastikminister Edenman
               för svaret. Det var ju kanske inte vad jag väntade mig.
@@ -670,7 +675,7 @@
           <note n="db749758">
             Ang. utbildningen av arbetsterapeuter
           </note>
-          <u who="unknown" xml:id="i-aa7319cd96283a86-1" n="87e6bb86">
+          <u who="unknown" xml:id="i-87e6bb8604bc3ffe-10" n="87e6bb86">
             <seg n="4c1d3976">
               I riksdagens beslut i fjol sades ju att de som hade genomgått
               förutbildningen, exempelvis vid Nyckelviksskolan, skulle kunna
@@ -702,7 +707,7 @@
           <note type="speaker" n="48490f84">
             Herr statsrådet EDENMAN:
           </note>
-          <u who="ragnar_edenman_46a276" xml:id="i-7dc1b3dc20c2c7a0-0" next="i-7c8e7f2fc336d26b-0" n="3c518976">
+          <u who="ragnar_edenman_46a276" xml:id="i-87e6bb8604bc3ffe-11" next="i-87e6bb8604bc3ffe-12" n="3c518976">
             <seg n="112ab1d2">
               Herr talman! Jag har tyvärr ingen möjlighet att personligen följa
               alla skrivelser från departementen — jag bevakar bara konseljbesluten,
@@ -726,7 +731,7 @@
           <note n="5c7598ef">
             Ang. ålderspensionen för de äldsta försäkringstagarna inom ATP
           </note>
-          <u who="ragnar_edenman_46a276" xml:id="i-7c8e7f2fc336d26b-0" prev="i-7dc1b3dc20c2c7a0-0" n="3c518976">
+          <u who="ragnar_edenman_46a276" xml:id="i-87e6bb8604bc3ffe-12" prev="i-87e6bb8604bc3ffe-11" n="3c518976">
             <seg n="447dc6bf">
               ju inte fråga om. Riksdagen har fattat beslut om att utbildningen
               skall komma till stånd i höst 1965. Den kommer i gång, och jag
@@ -743,7 +748,7 @@
           <note type="speaker" n="321d923f">
             Herr HUBINETTE (h):
           </note>
-          <u who="unknown" xml:id="i-577cb67919601bb9-2" n="87e6bb86">
+          <u who="unknown" xml:id="i-87e6bb8604bc3ffe-13" n="87e6bb86">
             <seg n="b7d6d8ea">
               Herr talman! Det är ju så att den försening det här gäller kan
               få de allvarliga konsekvenser jag nyss erinrade om. Ungdomarna
@@ -784,7 +789,7 @@
             att beträffande antalet poängår för att få rätt till ålderspension
             att behandlas lika?»
           </note>
-          <u who="unknown" xml:id="i-aa7319cd96283a86-2" n="87e6bb86">
+          <u who="unknown" xml:id="i-87e6bb8604bc3ffe-14" n="87e6bb86">
             <seg n="614ae94b">
               Enligt det nämnda lagrummet är det bl. a. möjligt att pensionspoäng
               i vissa fall tillgodoräknas försäkrade som gått miste om sådan
@@ -803,7 +808,7 @@
           <note type="speaker" n="d679ff44">
             Herr LARSSON, LARS, (s):
           </note>
-          <u who="sigvard_larsson_b350a8" xml:id="i-573c33b3771ecc32-0" next="i-f30740cda375bf4d-0" n="a7542cb2">
+          <u who="sigvard_larsson_b350a8" xml:id="i-87e6bb8604bc3ffe-15" next="i-87e6bb8604bc3ffe-18" n="a7542cb2">
             <seg n="953f477d">
               Herr talman! Jag ber att få tacka herr statsrådet Aspling för
               svaret. Det var ju synnerligen positivt, och jag skulle måhända
@@ -831,7 +836,7 @@
             Om skyndsam behandling av ärenden rörande bostadslån och bostadsbidrag,
             m. m.
           </note>
-          <u who="sigvard_larsson_b350a8" xml:id="i-f30740cda375bf4d-0" prev="i-573c33b3771ecc32-0" n="a7542cb2">
+          <u who="sigvard_larsson_b350a8" xml:id="i-87e6bb8604bc3ffe-16" prev="i-87e6bb8604bc3ffe-15" n="a7542cb2">
             <seg n="761c66f7">
               Nu har praxis vid tillämpningen av 15 kap. 2 8 lagen om allmän
               försäkring varit sådan att om någon varit försäkrad för tilläggssjukpenning
@@ -884,6 +889,21 @@
             <seg n="e7a226e2">
               Jag ber ännu en gång att få tacka socialministern.
             </seg>
+          </u>
+          <note n="4906037e">
+            Överläggningen ansågs härmed slutad.
+          </note>
+          <note n="35021342">
+            Om skyndsam behandling av ärenden rörande bostadslån och bostadsbidrag,
+            m. m.
+          </note>
+          <note n="ab1cbdd4">
+            Ordet lämnades härefter till herr statsrådet och chefen för inrikesdepartementet
+            JOHANSSON, som meddelat, att han ämnade vid detta sammanträde
+            besvara herr Wikbergs interpellation om skyndsam behandling av
+            ärenden rörande bostadslån och bostadsbidrag, m. m., och nu yttrade:
+          </note>
+          <u who="sigvard_larsson_b350a8" xml:id="i-87e6bb8604bc3ffe-17" prev="i-87e6bb8604bc3ffe-15" n="a7542cb2">
             <seg n="b4018f7b">
               Herr talman! Herr Wikberg har frågat om jag är beredd överväga
               åtgärder i syfte att bemästra den betydande fördröjning, som nu
@@ -907,6 +927,15 @@
               organisationen nyligen tillförts ett antal kanslister, som handlägger
               bl. a. ärenden angående utbetalning av lån till småhus.
             </seg>
+          </u>
+          <pb n="9" facs="https://betalab.kb.se/prot-1965--fk--25/prot_1965__fk__25-009.jp2/_view"/>
+          <note n="c4450f0e">
+            10 Nr 25
+          </note>
+          <note type="date" n="30934294">
+            Tisdagen den 18 maj 1965
+          </note>
+          <u who="sigvard_larsson_b350a8" xml:id="i-87e6bb8604bc3ffe-18" prev="i-87e6bb8604bc3ffe-15" n="a7542cb2">
             <seg n="3a3213da">
               Ang. den framtida jordbruksproduktionens inriktning och omfattning
               i vårt land
@@ -935,30 +964,10 @@
               att förskottering av invalidbostadsbidrag möjliggöres.
             </seg>
           </u>
-          <note n="4906037e">
-            Överläggningen ansågs härmed slutad.
-          </note>
-          <note n="35021342">
-            Om skyndsam behandling av ärenden rörande bostadslån och bostadsbidrag,
-            m. m.
-          </note>
-          <note n="ab1cbdd4">
-            Ordet lämnades härefter till herr statsrådet och chefen för inrikesdepartementet
-            JOHANSSON, som meddelat, att han ämnade vid detta sammanträde
-            besvara herr Wikbergs interpellation om skyndsam behandling av
-            ärenden rörande bostadslån och bostadsbidrag, m. m., och nu yttrade:
-          </note>
-          <pb n="9" facs="https://betalab.kb.se/prot-1965--fk--25/prot_1965__fk__25-009.jp2/_view"/>
-          <note n="c4450f0e">
-            10 Nr 25
-          </note>
-          <note type="date" n="30934294">
-            Tisdagen den 18 maj 1965
-          </note>
           <note type="speaker" n="01626b3b">
             Herr WIKBERG (cp):
           </note>
-          <u who="unknown" xml:id="i-577cb67919601bb9-3" n="87e6bb86">
+          <u who="unknown" xml:id="i-87e6bb8604bc3ffe-19" n="87e6bb86">
             <seg n="a4aa57b1">
               Herr talman! Jag ber att få tacka herr statsrådet och chefen
               för inrikesdepartementet för svaret på min interpellation. Jag
@@ -1000,11 +1009,19 @@
           <note n="a321e3dc">
             Överläggningen förklarades härmed slutad.
           </note>
-          <u who="unknown" xml:id="i-aa7319cd96283a86-3" n="87e6bb86">
+          <u who="unknown" xml:id="i-87e6bb8604bc3ffe-20" n="87e6bb86">
             <seg n="3a3213da">
               Ang. den framtida jordbruksproduktionens inriktning och omfattning
               i vårt land
             </seg>
+          </u>
+          <note n="7ea07e2c">
+            Herr statsrådet och chefen för jordbruksdepartementet HOLMQVIST,
+            som tillkännagivit, att han hade för avsikt att vid detta sammanträde
+            besvara herr Isacsons interpellation angående den framtida jordbruksproduktionens
+            inriktning och omfattning i vårt land, erhöll ordet och anförde:
+          </note>
+          <u who="unknown" xml:id="i-87e6bb8604bc3ffe-21" n="87e6bb86">
             <seg n="29b75042">
               Herr talman! Herr Isacson har frågat dels om jag vill delge kammaren
               min syn på den framtida jordbruksproduktionens önskvärda omfattning
@@ -1013,6 +1030,15 @@
               jag vill föreslå för att en sådan omfattning och inriktning skall
               uppnås.
             </seg>
+          </u>
+          <pb n="10" facs="https://betalab.kb.se/prot-1965--fk--25/prot_1965__fk__25-010.jp2/_view"/>
+          <note type="date" n="30934294">
+            Tisdagen den 18 maj 1965
+          </note>
+          <note n="eced3d46">
+            Nr 25 11
+          </note>
+          <u who="unknown" xml:id="i-87e6bb8604bc3ffe-22" n="87e6bb86">
             <seg n="3a3213da">
               Ang. den framtida jordbruksproduktionens inriktning och omfattning
               i vårt land
@@ -1072,23 +1098,10 @@
               eller produktionsinriktning inom jordbruket.
             </seg>
           </u>
-          <note n="7ea07e2c">
-            Herr statsrådet och chefen för jordbruksdepartementet HOLMQVIST,
-            som tillkännagivit, att han hade för avsikt att vid detta sammanträde
-            besvara herr Isacsons interpellation angående den framtida jordbruksproduktionens
-            inriktning och omfattning i vårt land, erhöll ordet och anförde:
-          </note>
-          <pb n="10" facs="https://betalab.kb.se/prot-1965--fk--25/prot_1965__fk__25-010.jp2/_view"/>
-          <note type="date" n="30934294">
-            Tisdagen den 18 maj 1965
-          </note>
-          <note n="eced3d46">
-            Nr 25 11
-          </note>
           <note type="speaker" n="89a27a48">
             Herr ISACSON (h):
           </note>
-          <u who="unknown" xml:id="i-577cb67919601bb9-4" n="87e6bb86">
+          <u who="unknown" xml:id="i-87e6bb8604bc3ffe-23" n="87e6bb86">
             <seg n="2288aefd">
               Herr talman! Jag ber att till jordbruksministern få framföra
               ett tack för svaret. Jag skulle vilja karakterisera svaret som
@@ -1123,7 +1136,7 @@
           <note type="date" n="30934294">
             Tisdagen den 18 maj 1965
           </note>
-          <u who="unknown" xml:id="i-aa7319cd96283a86-4" n="87e6bb86">
+          <u who="unknown" xml:id="i-87e6bb8604bc3ffe-24" n="87e6bb86">
             <seg n="3a3213da">
               Ang. den framtida jordbruksproduktionens inriktning och omfattning
               i vårt land
@@ -1218,6 +1231,15 @@
               som jordbruksministern helt gick förbi i sitt svar. Jag hade nämligen
               hoppats att han något skulle beröra de internatio-
             </seg>
+          </u>
+          <pb n="12" facs="https://betalab.kb.se/prot-1965--fk--25/prot_1965__fk__25-012.jp2/_view"/>
+          <note type="date" n="8d1172c6">
+            Tisdagen den 18 maj 19653
+          </note>
+          <note n="aeaa0b7d">
+            Nr 25 13
+          </note>
+          <u who="unknown" xml:id="i-87e6bb8604bc3ffe-25" n="87e6bb86">
             <seg n="3a3213da">
               Ang. den framtida jordbruksproduktionens inriktning och omfattning
               i vårt land
@@ -1294,6 +1316,15 @@
               fortsätta utan att skadeverkningar uppstår? Därtill kommer att
               ålderssammansättning-
             </seg>
+          </u>
+          <pb n="13" facs="https://betalab.kb.se/prot-1965--fk--25/prot_1965__fk__25-013.jp2/_view"/>
+          <note n="bd8f63ff">
+            14 Nr 25
+          </note>
+          <note type="date" n="30934294">
+            Tisdagen den 18 maj 1965
+          </note>
+          <u who="unknown" xml:id="i-87e6bb8604bc3ffe-26" n="87e6bb86">
             <seg n="3a3213da">
               Ang. den framtida jordbruksproduktionens inriktning och omfattning
               i vårt land
@@ -1372,6 +1403,15 @@
               för att kunna exportera så mycket som möjligt. Skulle vi ha fört
               en sådan jordbrukspolitik under 1950-
             </seg>
+          </u>
+          <pb n="14" facs="https://betalab.kb.se/prot-1965--fk--25/prot_1965__fk__25-014.jp2/_view"/>
+          <note type="date" n="30934294">
+            Tisdagen den 18 maj 1965
+          </note>
+          <note n="31e0e3f1">
+            Nr 25 15
+          </note>
+          <u who="unknown" xml:id="i-87e6bb8604bc3ffe-27" n="87e6bb86">
             <seg n="3a3213da">
               Ang. den framtida jordbruksproduktionens inriktning och omfattning
               i vårt land
@@ -1384,31 +1424,10 @@
               EFTA-frågan.
             </seg>
           </u>
-          <pb n="12" facs="https://betalab.kb.se/prot-1965--fk--25/prot_1965__fk__25-012.jp2/_view"/>
-          <note type="date" n="8d1172c6">
-            Tisdagen den 18 maj 19653
-          </note>
-          <note n="aeaa0b7d">
-            Nr 25 13
-          </note>
-          <pb n="13" facs="https://betalab.kb.se/prot-1965--fk--25/prot_1965__fk__25-013.jp2/_view"/>
-          <note n="bd8f63ff">
-            14 Nr 25
-          </note>
-          <note type="date" n="30934294">
-            Tisdagen den 18 maj 1965
-          </note>
-          <pb n="14" facs="https://betalab.kb.se/prot-1965--fk--25/prot_1965__fk__25-014.jp2/_view"/>
-          <note type="date" n="30934294">
-            Tisdagen den 18 maj 1965
-          </note>
-          <note n="31e0e3f1">
-            Nr 25 15
-          </note>
           <note type="speaker" n="0591ba80">
             Herr KRISTIANSSON, AXEL, (cp):
           </note>
-          <u who="unknown" xml:id="i-577cb67919601bb9-5" n="87e6bb86">
+          <u who="unknown" xml:id="i-87e6bb8604bc3ffe-28" n="87e6bb86">
             <seg n="3baf32d6">
               Herr talman! Jordbruksministerns svar på herr Isacsons interpellation
               var ju inte av kontroversiell art, och det ger egentligen ingen
@@ -1490,7 +1509,7 @@
           <note type="date" n="30934294">
             Tisdagen den 18 maj 1965
           </note>
-          <u who="unknown" xml:id="i-aa7319cd96283a86-5" n="87e6bb86">
+          <u who="unknown" xml:id="i-87e6bb8604bc3ffe-29" n="87e6bb86">
             <seg n="3a3213da">
               Ang. den framtida jordbruksproduktionens inriktning och omfattning
               i vårt land
@@ -1569,6 +1588,15 @@
               Såvitt jag förstår, kan man alltså inte komma till lägre kostnad
               än 65 å 70 öre i en nyetablerad mjölkproduktion.
             </seg>
+          </u>
+          <pb n="16" facs="https://betalab.kb.se/prot-1965--fk--25/prot_1965__fk__25-016.jp2/_view"/>
+          <note type="date" n="30934294">
+            Tisdagen den 18 maj 1965
+          </note>
+          <note n="30ce8e1f">
+            Nr 25 17
+          </note>
+          <u who="unknown" xml:id="i-87e6bb8604bc3ffe-30" n="87e6bb86">
             <seg n="3a3213da">
               Ang. den framtida jordbruksproduktionens inriktning och omfattning
               i vårt land
@@ -1614,25 +1642,20 @@
               Med tanke inte minst på dessa siffror tror jag att det finns
               all anledning att
             </seg>
+          </u>
+          <note n="31c73594">
+            2 Första kammarens protokoll 1965. Nr 25
+          </note>
+          <u who="unknown" xml:id="i-87e6bb8604bc3ffe-31" n="87e6bb86">
             <seg n="eda24d12">
               det förs en positiv, allsidig och rättvisande debatt när det
               gäller jordbrukets ställning i vårt land.
             </seg>
           </u>
-          <pb n="16" facs="https://betalab.kb.se/prot-1965--fk--25/prot_1965__fk__25-016.jp2/_view"/>
-          <note type="date" n="30934294">
-            Tisdagen den 18 maj 1965
-          </note>
-          <note n="30ce8e1f">
-            Nr 25 17
-          </note>
-          <note n="31c73594">
-            2 Första kammarens protokoll 1965. Nr 25
-          </note>
           <note type="speaker" n="9c00c63e">
             Herr statsrådet HOLMQVIST:
           </note>
-          <u who="mary_holmqvist_801ec3" xml:id="i-5da3113f2db1f7c4-0" next="i-5fb3bb6105e24b90-0" n="f28770ce">
+          <u who="mary_holmqvist_801ec3" xml:id="i-87e6bb8604bc3ffe-32" next="i-87e6bb8604bc3ffe-35" n="f28770ce">
             <seg n="de06e6ef">
               Herr talman! Herr Kristiansson hoppades att vi skulle få en hyfsning
               på jordbruksdebatten. Jag vet inte om jag utan vidare vill säga,
@@ -1677,7 +1700,7 @@
           <note type="date" n="30934294">
             Tisdagen den 18 maj 1965
           </note>
-          <u who="mary_holmqvist_801ec3" xml:id="i-5fb3bb6105e24b90-0" prev="i-5da3113f2db1f7c4-0" n="f28770ce">
+          <u who="mary_holmqvist_801ec3" xml:id="i-87e6bb8604bc3ffe-33" prev="i-87e6bb8604bc3ffe-32" n="f28770ce">
             <seg n="3a3213da">
               Ang. den framtida jordbruksproduktionens inriktning och omfattning
               i vårt land
@@ -1762,6 +1785,15 @@
             <seg n="dd9d8a86">
               Om en jordbrukare i dag kommer upp
             </seg>
+          </u>
+          <pb n="18" facs="https://betalab.kb.se/prot-1965--fk--25/prot_1965__fk__25-018.jp2/_view"/>
+          <note type="date" n="30934294">
+            Tisdagen den 18 maj 1965
+          </note>
+          <note n="18f1fc84">
+            Nr 25 19
+          </note>
+          <u who="mary_holmqvist_801ec3" xml:id="i-87e6bb8604bc3ffe-34" prev="i-87e6bb8604bc3ffe-32" n="f28770ce">
             <seg n="3a3213da">
               Ang. den framtida jordbruksproduktionens inriktning och omfattning
               i vårt land
@@ -1839,6 +1871,15 @@
               en situation, där vi på ett helt annat sätt kan diskutera dessa
               frågor än vi kunde göra på 1930-
             </seg>
+          </u>
+          <pb n="19" facs="https://betalab.kb.se/prot-1965--fk--25/prot_1965__fk__25-019.jp2/_view"/>
+          <note n="3fd6d379">
+            20 Nr 25
+          </note>
+          <note type="date" n="30934294">
+            Tisdagen den 18 maj 1965
+          </note>
+          <u who="mary_holmqvist_801ec3" xml:id="i-87e6bb8604bc3ffe-35" prev="i-87e6bb8604bc3ffe-32" n="f28770ce">
             <seg n="3a3213da">
               Ang. den framtida jordbruksproduktionens inriktning och omfattning
               i vårt land
@@ -1861,24 +1902,10 @@
               längden är det riktigaste att ha en sådan prisavvägning.
             </seg>
           </u>
-          <pb n="18" facs="https://betalab.kb.se/prot-1965--fk--25/prot_1965__fk__25-018.jp2/_view"/>
-          <note type="date" n="30934294">
-            Tisdagen den 18 maj 1965
-          </note>
-          <note n="18f1fc84">
-            Nr 25 19
-          </note>
-          <pb n="19" facs="https://betalab.kb.se/prot-1965--fk--25/prot_1965__fk__25-019.jp2/_view"/>
-          <note n="3fd6d379">
-            20 Nr 25
-          </note>
-          <note type="date" n="30934294">
-            Tisdagen den 18 maj 1965
-          </note>
           <note type="speaker" n="89a27a48">
             Herr ISACSON (h):
           </note>
-          <u who="unknown" xml:id="i-577cb67919601bb9-6" n="87e6bb86">
+          <u who="unknown" xml:id="i-87e6bb8604bc3ffe-36" n="87e6bb86">
             <seg n="5d4ae0f7">
               Herr talman! Jordbruksministerns svar på den fråga jag ställde
               tycker jag bevisar, att han är medveten om hur pass komplicerad
@@ -1940,7 +1967,7 @@
           <note n="dd1f573d">
             Nr 25 21
           </note>
-          <u who="unknown" xml:id="i-aa7319cd96283a86-6" n="87e6bb86">
+          <u who="unknown" xml:id="i-87e6bb8604bc3ffe-37" n="87e6bb86">
             <seg n="3a3213da">
               Ang. den framtida jordbruksproduktionens inriktning och omfattning
               i vårt land
@@ -2003,7 +2030,7 @@
           <note type="speaker" n="0591ba80">
             Herr KRISTIANSSON, AXEL, (cp):
           </note>
-          <u who="unknown" xml:id="i-577cb67919601bb9-7" n="87e6bb86">
+          <u who="unknown" xml:id="i-87e6bb8604bc3ffe-38" n="87e6bb86">
             <seg n="f1b4b726">
               Herr talman! Jordbruksministern sade att det fanns en lucka i
               mitt resonemang om mjölkpris kontra smörpris. Det kan jag inte
@@ -2032,7 +2059,7 @@
           <note type="date" n="30934294">
             Tisdagen den 18 maj 1965
           </note>
-          <u who="unknown" xml:id="i-aa7319cd96283a86-7" n="87e6bb86">
+          <u who="unknown" xml:id="i-87e6bb8604bc3ffe-39" n="87e6bb86">
             <seg n="3a3213da">
               Ang. den framtida jordbruksproduktionens inriktning och omfattning
               i vårt land
@@ -2098,7 +2125,7 @@
           <note type="speaker" n="927b0eab">
             Herr CARLSSON, ERIC, (cp):
           </note>
-          <u who="ingvar_carlsson_d2c19a" xml:id="i-8790523351494c6a-0" next="i-b41bc944caa7466f-0" n="cf9fac85">
+          <u who="ingvar_carlsson_d2c19a" xml:id="i-87e6bb8604bc3ffe-40" next="i-87e6bb8604bc3ffe-41" n="cf9fac85">
             <seg n="7fdb0dd7">
               Herr talman! Det var ett avsnitt i statsrådets svar på denna
               interpellation som kom mig att begära ordet. Det var den diskussion
@@ -2122,10 +2149,10 @@
             </seg>
           </u>
           <pb n="22" facs="https://betalab.kb.se/prot-1965--fk--25/prot_1965__fk__25-022.jp2/_view"/>
-          <note n="8465daa4">
+          <note type="date" n="8db577eb">
             Tisdagen den 18 maj 1965 Nr 25 23
           </note>
-          <u who="ingvar_carlsson_d2c19a" xml:id="i-b41bc944caa7466f-0" prev="i-8790523351494c6a-0" n="cf9fac85">
+          <u who="ingvar_carlsson_d2c19a" xml:id="i-87e6bb8604bc3ffe-41" prev="i-87e6bb8604bc3ffe-40" n="cf9fac85">
             <seg n="3a3213da">
               Ang. den framtida jordbruksproduktionens inriktning och omfattning
               i vårt land
@@ -2190,7 +2217,7 @@
           <note type="speaker" n="9c00c63e">
             Herr statsrådet HOLMQVIST:
           </note>
-          <u who="mary_holmqvist_801ec3" xml:id="i-5da3113f2db1f7c4-1" next="i-5fb3bb6105e24b90-1" n="f28770ce">
+          <u who="mary_holmqvist_801ec3" xml:id="i-87e6bb8604bc3ffe-42" next="i-87e6bb8604bc3ffe-43" n="f28770ce">
             <seg n="3a13ade5">
               Herr talman! Jag är inte beredd att i dag ta upp en diskussion
               med herr Carlsson om livsmedelsproduktionen i belysning av krigssituationer.
@@ -2211,7 +2238,7 @@
           <note type="date" n="30934294">
             Tisdagen den 18 maj 1965
           </note>
-          <u who="mary_holmqvist_801ec3" xml:id="i-5fb3bb6105e24b90-1" prev="i-5da3113f2db1f7c4-1" n="f28770ce">
+          <u who="mary_holmqvist_801ec3" xml:id="i-87e6bb8604bc3ffe-43" prev="i-87e6bb8604bc3ffe-42" n="f28770ce">
             <seg n="3a3213da">
               Ang. den framtida jordbruksproduktionens inriktning och omfattning
               i vårt land
@@ -2242,7 +2269,7 @@
           <note type="speaker" n="0591ba80">
             Herr KRISTIANSSON, AXEL, (cp):
           </note>
-          <u who="unknown" xml:id="i-e2916a7fe6773950-1" n="87e6bb86">
+          <u who="unknown" xml:id="i-87e6bb8604bc3ffe-44" n="87e6bb86">
             <seg n="3b9b55d0">
               Herr talman! Beträffande de procentuella siffror jag anförde
               vill jag säga att dessa inte gällde kostnadsandelen utan förhållandet
@@ -2272,7 +2299,7 @@
           <note type="speaker" n="927b0eab">
             Herr CARLSSON, ERIC, (cp):
           </note>
-          <u who="ingvar_carlsson_d2c19a" xml:id="i-8790523351494c6a-1" next="i-b41bc944caa7466f-1" n="cf9fac85">
+          <u who="ingvar_carlsson_d2c19a" xml:id="i-87e6bb8604bc3ffe-45" next="i-87e6bb8604bc3ffe-46" n="cf9fac85">
             <seg n="6425eff9">
               Herr talman! Jordbruksministern sade att vi i en krissituation
               inte kan driva en livsmedelsproduktion, som blir ostörd. Jag är
@@ -2302,7 +2329,7 @@
           <note n="5cb39378">
             Nr 25 25
           </note>
-          <u who="ingvar_carlsson_d2c19a" xml:id="i-b41bc944caa7466f-1" prev="i-8790523351494c6a-1" n="cf9fac85">
+          <u who="ingvar_carlsson_d2c19a" xml:id="i-87e6bb8604bc3ffe-46" prev="i-87e6bb8604bc3ffe-45" n="cf9fac85">
             <seg n="3a3213da">
               Ang. den framtida jordbruksproduktionens inriktning och omfattning
               i vårt land
@@ -2311,7 +2338,7 @@
           <note type="speaker" n="9c00c63e">
             Herr statsrådet HOLMQVIST:
           </note>
-          <u who="mary_holmqvist_801ec3" xml:id="i-5da3113f2db1f7c4-2" next="i-5fb3bb6105e24b90-2" n="f28770ce">
+          <u who="mary_holmqvist_801ec3" xml:id="i-87e6bb8604bc3ffe-47" next="i-87e6bb8604bc3ffe-58" n="f28770ce">
             <seg n="0d6848db">
               Herr talman! Jag förstår att herr Eric Carlsson allvarligt tänker
               på dessa frågor och funderar över dem. Jag kan försäkra att, såvitt
@@ -2342,181 +2369,7 @@
             näst efter konstitutionsutskottets memorial nr 29 å föredragningslistan
             för morgondagens sammanträde.
           </note>
-          <u who="mary_holmqvist_801ec3" xml:id="i-5fb3bb6105e24b90-2" prev="i-5da3113f2db1f7c4-2" n="f28770ce">
-            <seg n="4a6d09a0">
-              Ja;
-            </seg>
-            <seg n="210d27b1">
-              Nej;
-            </seg>
-            <seg n="0ad3e63f">
-              Herr talman! Jag har inte avsett att yttra mig om konstitutionsutskottets
-              memorial nr 29 utan koncentrerar mig på sammansatta konstitutionsoch
-              andra lagutskottets utlåtande i anledning
-            </seg>
-            <seg n="bcd7427b">
-              Vid utskottsbehandlingen av förevarande proposition angående
-              de offentliga tjänstemännens förhandlingsrätt har, av förklarliga
-              skäl, en viss tveksamhet framskymtat beträffande innebörden i
-              och räckvidden av den föreslagna lagstiftningen. Det är fråga
-              om en helt ny lag, omfattande jämväl anställda med ämbetsansvar
-              och tillförsäkrade oavsättlighet från tjänsten, faktorer som i
-              och för sig kan motivera en fundering om sådant kan vara förenligt
-              med strejkrätt därest förhandlingar om anställningsvillkor i övrigt
-              icke leder till godtagbart resultat.
-            </seg>
-            <seg n="c9203255">
-              Det är numera en allmänt godtagen princip på den enskilda arbetsmarknaden
-              att deltagande i arbetskonflikt icke bryter anställningsförhållandet.
-              Det bör därför icke föranleda betänkligheter att i samband med
-              en auktorisering av förhandlingsrätten för statstjänarna genom
-              rätten att sluta avtal också acceptera stridsåtgärder som påtryckning,
-              därest uppgörelse icke skulle ernås i förhandlingarna.
-            </seg>
-            <seg n="e683d459">
-              Vi ansluter oss till departementschefens uttalande att den nya
-              lagstiftningen bygger på uppfattningen, att tjänstemännens organisationer
-              är medvetna om sitt ansvar för att inte samhällsviktiga funktioner
-              lamslås på grund av åtgärder från deras sida. Denna uppfatt-
-            </seg>
-            <seg n="fa951830">
-              ning delas också av utskottsmajoriteten, som anser sig kunna
-              utgå ifrån att organisationerna inte kommer att missbruka den
-              förhandlingsoch avtalsrätt som tillerkänns de offentliga tjänstemännen.
-            </seg>
-            <seg n="6d706851">
-              Departementschefen har emellertid när han gjorde detta uttalande
-              också gjort vissa kommentarer till de undantag, som föreslås i
-              propositionen beträffande rätten att sluta avtal. Det har undantagits
-              vissa frågor, bland dem arbetstidens förläggning och rätt till
-              annan ledighet än semester, vilka icke må regleras i avtal.
-            </seg>
-            <seg n="f0081853">
-              Som skäl anföres bland annat, att nödvändigheten kräver, att
-              den offentlige arbetsgivaren har bestämmanderätt i fråga om arbetstidens
-              förläggning inom områden som exempelvis försvaret, sjukvården,
-              socialvården och kommunikationsväsendet. Det är möjligt att man
-              också skulle kunna ta in skolväsendet i denna kategori.
-            </seg>
-            <seg n="71bd192c">
-              Även om behovet av ett avtalsförbud är mindre på andra områden,
-              anser depertementschefen det inte möjligt att lagstiftningsvägen
-              avgränsa dessa områden från sådana, där myndigheten i fråga måste
-              förbehållas beslutanderätten.
-            </seg>
-            <seg n="a0b265a0">
-              Reservanterna finner de anförda skälen mot avtalsreglering av
-              här berörda frågor övertygande. Det förefaller orealistiskt att
-              tänka sig att i lagen göra en sådan avgränsning, att arbetsgivaren
-              förbehålls bestämmanderätten i fråga om arbetstidens förläggning
-              på vissa områden, medan på andra reglering skulle ske i avtal.
-            </seg>
-            <seg n="da484053">
-              Inom det offentliga vittomfattande verksamhetsfältet är förhållandena
-              mycket varierande och behovet av specialreglering av arbetstidsfrågorna
-              med hänsyn härtill så skiftande, att det troligen icke skulle
-              vara möjligt att i en central överenskommelse angiva något annat
-              än riktlinjerna för handläggningen av dem inför det forum där
-              de slutligt måste avgöras.
-            </seg>
-            <seg n="2492a3d0">
-              i här behandlade avsnitt har reservanterna utgått ifrån att överläggningar
-              beträffande arbetstidens förläggning upptas med företrädare för
-              de anställda och att uttalade önskemål beaktas, då så utan olägenhet
-              kan ske.
-            </seg>
-            <seg n="ed4891a2">
-              Nu görs det i propositionen en åtskillnad på definitionen av
-              förhandlingar och överläggningar. Förhandlingar kan föras i frågor,
-              om vilka avtal kan slutas. Man förutsätter när förhandlingar upptas
-              att också en sådan överenskommelse skall nås, som kan leda till
-              avtal. Ligger arbetstidens förläggning och rätt till annan ledighet
-              än semester inom det område, som omfattas av förhandlingsrätten,
-              förutsättes följaktligen att avtal i frågan skall slutas. Når
-              man inte en överenskommelse över hela fältet kan således hela
-              avtalsfrågan vara beroende av att en uppgörelse också träffas
-              i fråga om arbetstidens förläggning.
-            </seg>
-            <seg n="2997c7c5">
-              Man kan väl förutsätta att på de allra flesta områden är detta
-              inte något problem. Överallt där arbetstiden är enhetlig bör det
-              väl inte vara några svårigheter att nå en överenskommelse om förläggningen
-              av arbetstiden. Redan nu brukar man ju i samförstånd träffa överenskommelse
-              om hur arbetstiden skall förläggas. Men man får förutsätta att
-              det kommer att finnas områden, där det kan vara omtvistat huruvida
-              det är möjligt att sluta sådan överenskommelse eller om frågan
-              skall avgöras av arbetsgivaren.
-            </seg>
-            <seg n="0b5972f4">
-              Reservanterna anser att vi i nuvarande situation över huvud taget
-              har mycket liten kännedom om hur dessa frågor reglerats hittills,
-              således om det över hela linjen har skett i samförstånd eller
-              om det finns delade meningar om den förläggning av arbetstiden
-              som har beslutats enbart av arbetsgivaren. Vi känner inte till
-              huruvida det hela fungerat tillfredsställande. Reservanterna anser
-              det inte vara möjligt att i nuvarande situation helt enkelt lagstifta
-              om att avtal skall slutas också beträffande arbetstidens förläggning,
-              särskilt som
-            </seg>
-            <seg n="8e4fe4d6">
-              vi är medvetna om att det på vissa områden inte är möjligt att
-              göra det. Vi förmenar därför att departementschefen har starka
-              skäl för sitt undantagande av den frågan från avtalsrätten.
-            </seg>
-            <seg n="760e6e9f">
-              I avgivna motioner yrkas att även oorganiserade arbetstagare
-              bör ha rätt att deltaga i strejk som beslutats av arbetstagareorganisation.
-              Motionärerna anser att arbetsgivarens rätt att tillgripa lockout
-              mot oorganiserade tjänstemän av principiella skäl bör medföra
-              rätt för tjänstemännen att ansluta sig till en i organisationsmässig
-              ordning tillkommen strejk.
-            </seg>
-            <seg n="2b52263e">
-              Departementschefen har uttalat, att den i propositionen föreslagna
-              ordningen i förevarande avseende är mindre tillfredsställande
-              ur principiell synpunkt. Utskottet har samma uppfattning. En oorganiserad
-              arbetstagare betraktas icke som tredje man i en arbetskonflikt;
-              tvärtom, i regel ställer man krav på honom att han skall avhålla
-              sig från arbete under den tid konflikten pågår. Ett i lagen intaget
-              förbud för oorganiserad tjänsteman att deltaga i vidtagen strejk
-              skulle sålunda strida mot den på den enskilda arbetsmarknaden
-              numera allmänt vedertagna ordningen att samtliga anställda, som
-              beröres av den tvist som föranlett strejken, är att anse såsom
-              indragna i konflikten, oavsett om de tillhör annan organisation
-              än den som beslutat åtgärden eller om de är oorganiserade.
-            </seg>
-            <seg n="2f8cb0b8">
-              Utskottet föreslår i anslutning till dessa överväganden en ändring
-              i förevarande avseende, som innebär att även oorganiserad tjänsteman
-              skall ha rätt att ansluta sig till en strejk om den organisation
-              som har beslutat åtgär-
-            </seg>
-            <seg n="e4965f2b">
-              den i fråga förmenar att han bör göra det. Ansvaret för hans
-              deltagande ligger då hos den organisation som beslutat åtgärden.
-              Ändringar blir nödvändiga i flera av de följdförfattningar som
-              är intagna i lagen, men det är som sagt mera följder av den ändring
-              som här föreslås när det gäller 158. Även utskottets förslag i
-              3 $, mot vilket finns reservation, har föranlett ändringar i andra
-              följdförfattningar. Om riksdagen beslutar följa reservanterna
-              blir det följaktligen automatiskt nödvändigt att 1 dessa delar
-              följa propositionens förslag.
-            </seg>
-            <seg n="afaecc6c">
-              Herr talman! Konstitutionsutskottets förslag sådant det nu föreligger
-              i memorial nr 29 förutsätter att frågor om tjänstemännens rättsställning
-              även i fortsättningen skall gå till konstitutionsutskottet. Men
-              efter vad jag hört har konstitutionsutskottet för avsikt att hemställa
-              om att den delen av konstitutionsutskottets memorial icke bifalles,
-              således då det blir fråga om att konfirmera det beslut som fattats
-              under föregående riksdag. Det skulle innebära att rättsfrågorna
-              kommer att behandlas i samma ordning som de frågor som faller
-              under lagen om statstjänstemännens förhandlingsrätt. Jag har inget
-              att erinra emot att riksdagen fattar ett beslut i den riktningen.
-              Det är kanske principiellt riktigt att frågorna i sin helhet ligger
-              hos samma utskott.
-            </seg>
-          </u>
+          <u who="mary_holmqvist_801ec3" xml:id="i-87e6bb8604bc3ffe-48" prev="i-87e6bb8604bc3ffe-47" n="f28770ce"/>
           <note n="0f03d44a">
             Anmäldes och bordlades
           </note>
@@ -2632,9 +2485,19 @@
             mentalsjukhus i enlighet med vad i statsrådsprotokollet föreslagits,
             röstar
           </note>
+          <u who="mary_holmqvist_801ec3" xml:id="i-87e6bb8604bc3ffe-49" prev="i-87e6bb8604bc3ffe-47" n="f28770ce">
+            <seg n="4a6d09a0">
+              Ja;
+            </seg>
+          </u>
           <note n="080fb7b3">
             Den, det ej vill, röstar
           </note>
+          <u who="mary_holmqvist_801ec3" xml:id="i-87e6bb8604bc3ffe-50" prev="i-87e6bb8604bc3ffe-47" n="f28770ce">
+            <seg n="210d27b1">
+              Nej;
+            </seg>
+          </u>
           <note n="f8ae2869">
             Vinner Nej, har riksdagen i likhet med andra kammaren beslutat,
           </note>
@@ -2722,6 +2585,13 @@
           <note n="6029dd45">
             Herr förste vice talmannen STRAND (s)ä
           </note>
+          <u who="mary_holmqvist_801ec3" xml:id="i-87e6bb8604bc3ffe-51" prev="i-87e6bb8604bc3ffe-47" n="f28770ce">
+            <seg n="0ad3e63f">
+              Herr talman! Jag har inte avsett att yttra mig om konstitutionsutskottets
+              memorial nr 29 utan koncentrerar mig på sammansatta konstitutionsoch
+              andra lagutskottets utlåtande i anledning
+            </seg>
+          </u>
           <note n="f986bdc0">
             Nr 25 2
           </note>
@@ -2731,6 +2601,27 @@
           <note n="3944cf74">
             av proposition nr 60 om tjänstemannalag m. m.
           </note>
+          <u who="mary_holmqvist_801ec3" xml:id="i-87e6bb8604bc3ffe-52" prev="i-87e6bb8604bc3ffe-47" n="f28770ce">
+            <seg n="bcd7427b">
+              Vid utskottsbehandlingen av förevarande proposition angående
+              de offentliga tjänstemännens förhandlingsrätt har, av förklarliga
+              skäl, en viss tveksamhet framskymtat beträffande innebörden i
+              och räckvidden av den föreslagna lagstiftningen. Det är fråga
+              om en helt ny lag, omfattande jämväl anställda med ämbetsansvar
+              och tillförsäkrade oavsättlighet från tjänsten, faktorer som i
+              och för sig kan motivera en fundering om sådant kan vara förenligt
+              med strejkrätt därest förhandlingar om anställningsvillkor i övrigt
+              icke leder till godtagbart resultat.
+            </seg>
+            <seg n="c9203255">
+              Det är numera en allmänt godtagen princip på den enskilda arbetsmarknaden
+              att deltagande i arbetskonflikt icke bryter anställningsförhållandet.
+              Det bör därför icke föranleda betänkligheter att i samband med
+              en auktorisering av förhandlingsrätten för statstjänarna genom
+              rätten att sluta avtal också acceptera stridsåtgärder som påtryckning,
+              därest uppgörelse icke skulle ernås i förhandlingarna.
+            </seg>
+          </u>
           <note n="ab4cbfe0">
             I 3 $ statstjänstemannalagen och i 2 $ i »lag om tjänstemän hos
             kommuner m. fl.» har intagits vissa undantag från rätten att sluta
@@ -2745,6 +2636,14 @@
             i reservation till utlåtandet yrkat, att propositionen i denna
             del skall godtagas oförändrad.
           </note>
+          <u who="mary_holmqvist_801ec3" xml:id="i-87e6bb8604bc3ffe-53" prev="i-87e6bb8604bc3ffe-47" n="f28770ce">
+            <seg n="e683d459">
+              Vi ansluter oss till departementschefens uttalande att den nya
+              lagstiftningen bygger på uppfattningen, att tjänstemännens organisationer
+              är medvetna om sitt ansvar för att inte samhällsviktiga funktioner
+              lamslås på grund av åtgärder från deras sida. Denna uppfatt-
+            </seg>
+          </u>
           <pb n="27" facs="https://betalab.kb.se/prot-1965--fk--25/prot_1965__fk__25-027.jp2/_view"/>
           <note n="762a9ef1">
             28 Nr 25
@@ -2755,9 +2654,92 @@
           <note n="53e90733">
             Ang. statstjänstemännens rättsställning, m. m.
           </note>
+          <u who="mary_holmqvist_801ec3" xml:id="i-87e6bb8604bc3ffe-54" prev="i-87e6bb8604bc3ffe-47" n="f28770ce">
+            <seg n="fa951830">
+              ning delas också av utskottsmajoriteten, som anser sig kunna
+              utgå ifrån att organisationerna inte kommer att missbruka den
+              förhandlingsoch avtalsrätt som tillerkänns de offentliga tjänstemännen.
+            </seg>
+            <seg n="6d706851">
+              Departementschefen har emellertid när han gjorde detta uttalande
+              också gjort vissa kommentarer till de undantag, som föreslås i
+              propositionen beträffande rätten att sluta avtal. Det har undantagits
+              vissa frågor, bland dem arbetstidens förläggning och rätt till
+              annan ledighet än semester, vilka icke må regleras i avtal.
+            </seg>
+            <seg n="f0081853">
+              Som skäl anföres bland annat, att nödvändigheten kräver, att
+              den offentlige arbetsgivaren har bestämmanderätt i fråga om arbetstidens
+              förläggning inom områden som exempelvis försvaret, sjukvården,
+              socialvården och kommunikationsväsendet. Det är möjligt att man
+              också skulle kunna ta in skolväsendet i denna kategori.
+            </seg>
+            <seg n="71bd192c">
+              Även om behovet av ett avtalsförbud är mindre på andra områden,
+              anser depertementschefen det inte möjligt att lagstiftningsvägen
+              avgränsa dessa områden från sådana, där myndigheten i fråga måste
+              förbehållas beslutanderätten.
+            </seg>
+            <seg n="a0b265a0">
+              Reservanterna finner de anförda skälen mot avtalsreglering av
+              här berörda frågor övertygande. Det förefaller orealistiskt att
+              tänka sig att i lagen göra en sådan avgränsning, att arbetsgivaren
+              förbehålls bestämmanderätten i fråga om arbetstidens förläggning
+              på vissa områden, medan på andra reglering skulle ske i avtal.
+            </seg>
+            <seg n="da484053">
+              Inom det offentliga vittomfattande verksamhetsfältet är förhållandena
+              mycket varierande och behovet av specialreglering av arbetstidsfrågorna
+              med hänsyn härtill så skiftande, att det troligen icke skulle
+              vara möjligt att i en central överenskommelse angiva något annat
+              än riktlinjerna för handläggningen av dem inför det forum där
+              de slutligt måste avgöras.
+            </seg>
+          </u>
           <note n="9ea28b58">
             Vid vår tillstyrkan av propositionen
           </note>
+          <u who="mary_holmqvist_801ec3" xml:id="i-87e6bb8604bc3ffe-55" prev="i-87e6bb8604bc3ffe-47" n="f28770ce">
+            <seg n="2492a3d0">
+              i här behandlade avsnitt har reservanterna utgått ifrån att överläggningar
+              beträffande arbetstidens förläggning upptas med företrädare för
+              de anställda och att uttalade önskemål beaktas, då så utan olägenhet
+              kan ske.
+            </seg>
+            <seg n="ed4891a2">
+              Nu görs det i propositionen en åtskillnad på definitionen av
+              förhandlingar och överläggningar. Förhandlingar kan föras i frågor,
+              om vilka avtal kan slutas. Man förutsätter när förhandlingar upptas
+              att också en sådan överenskommelse skall nås, som kan leda till
+              avtal. Ligger arbetstidens förläggning och rätt till annan ledighet
+              än semester inom det område, som omfattas av förhandlingsrätten,
+              förutsättes följaktligen att avtal i frågan skall slutas. Når
+              man inte en överenskommelse över hela fältet kan således hela
+              avtalsfrågan vara beroende av att en uppgörelse också träffas
+              i fråga om arbetstidens förläggning.
+            </seg>
+            <seg n="2997c7c5">
+              Man kan väl förutsätta att på de allra flesta områden är detta
+              inte något problem. Överallt där arbetstiden är enhetlig bör det
+              väl inte vara några svårigheter att nå en överenskommelse om förläggningen
+              av arbetstiden. Redan nu brukar man ju i samförstånd träffa överenskommelse
+              om hur arbetstiden skall förläggas. Men man får förutsätta att
+              det kommer att finnas områden, där det kan vara omtvistat huruvida
+              det är möjligt att sluta sådan överenskommelse eller om frågan
+              skall avgöras av arbetsgivaren.
+            </seg>
+            <seg n="0b5972f4">
+              Reservanterna anser att vi i nuvarande situation över huvud taget
+              har mycket liten kännedom om hur dessa frågor reglerats hittills,
+              således om det över hela linjen har skett i samförstånd eller
+              om det finns delade meningar om den förläggning av arbetstiden
+              som har beslutats enbart av arbetsgivaren. Vi känner inte till
+              huruvida det hela fungerat tillfredsställande. Reservanterna anser
+              det inte vara möjligt att i nuvarande situation helt enkelt lagstifta
+              om att avtal skall slutas också beträffande arbetstidens förläggning,
+              särskilt som
+            </seg>
+          </u>
           <pb n="28" facs="https://betalab.kb.se/prot-1965--fk--25/prot_1965__fk__25-028.jp2/_view"/>
           <note type="date" n="43ecfcc2">
             Onsdagen den 19 maj 1965
@@ -2765,6 +2747,13 @@
           <note n="64b77459">
             Ang.
           </note>
+          <u who="mary_holmqvist_801ec3" xml:id="i-87e6bb8604bc3ffe-56" prev="i-87e6bb8604bc3ffe-47" n="f28770ce">
+            <seg n="8e4fe4d6">
+              vi är medvetna om att det på vissa områden inte är möjligt att
+              göra det. Vi förmenar därför att departementschefen har starka
+              skäl för sitt undantagande av den frågan från avtalsrätten.
+            </seg>
+          </u>
           <note n="28cd57d3">
             Enligt 158 i statstjänstemannalagen och 3$ lagen om tjänstemän
             hos kommuner m. fl. må tjänsteman deltaga i strejk endast efter
@@ -2772,12 +2761,69 @@
             är sålunda förhindrad att deltaga i en i laga ordning tillkommen
             strejk. Däremot kan han bli föremål för lockout.
           </note>
+          <u who="mary_holmqvist_801ec3" xml:id="i-87e6bb8604bc3ffe-57" prev="i-87e6bb8604bc3ffe-47" n="f28770ce">
+            <seg n="760e6e9f">
+              I avgivna motioner yrkas att även oorganiserade arbetstagare
+              bör ha rätt att deltaga i strejk som beslutats av arbetstagareorganisation.
+              Motionärerna anser att arbetsgivarens rätt att tillgripa lockout
+              mot oorganiserade tjänstemän av principiella skäl bör medföra
+              rätt för tjänstemännen att ansluta sig till en i organisationsmässig
+              ordning tillkommen strejk.
+            </seg>
+            <seg n="2b52263e">
+              Departementschefen har uttalat, att den i propositionen föreslagna
+              ordningen i förevarande avseende är mindre tillfredsställande
+              ur principiell synpunkt. Utskottet har samma uppfattning. En oorganiserad
+              arbetstagare betraktas icke som tredje man i en arbetskonflikt;
+              tvärtom, i regel ställer man krav på honom att han skall avhålla
+              sig från arbete under den tid konflikten pågår. Ett i lagen intaget
+              förbud för oorganiserad tjänsteman att deltaga i vidtagen strejk
+              skulle sålunda strida mot den på den enskilda arbetsmarknaden
+              numera allmänt vedertagna ordningen att samtliga anställda, som
+              beröres av den tvist som föranlett strejken, är att anse såsom
+              indragna i konflikten, oavsett om de tillhör annan organisation
+              än den som beslutat åtgärden eller om de är oorganiserade.
+            </seg>
+            <seg n="2f8cb0b8">
+              Utskottet föreslår i anslutning till dessa överväganden en ändring
+              i förevarande avseende, som innebär att även oorganiserad tjänsteman
+              skall ha rätt att ansluta sig till en strejk om den organisation
+              som har beslutat åtgär-
+            </seg>
+          </u>
           <note n="def3de30">
             Nr 25 29
           </note>
           <note n="0e11c722">
             statstjänstemännens rättsställning, m. m.
           </note>
+          <u who="mary_holmqvist_801ec3" xml:id="i-87e6bb8604bc3ffe-58" prev="i-87e6bb8604bc3ffe-47" n="f28770ce">
+            <seg n="e4965f2b">
+              den i fråga förmenar att han bör göra det. Ansvaret för hans
+              deltagande ligger då hos den organisation som beslutat åtgärden.
+              Ändringar blir nödvändiga i flera av de följdförfattningar som
+              är intagna i lagen, men det är som sagt mera följder av den ändring
+              som här föreslås när det gäller 158. Även utskottets förslag i
+              3 $, mot vilket finns reservation, har föranlett ändringar i andra
+              följdförfattningar. Om riksdagen beslutar följa reservanterna
+              blir det följaktligen automatiskt nödvändigt att 1 dessa delar
+              följa propositionens förslag.
+            </seg>
+            <seg n="afaecc6c">
+              Herr talman! Konstitutionsutskottets förslag sådant det nu föreligger
+              i memorial nr 29 förutsätter att frågor om tjänstemännens rättsställning
+              även i fortsättningen skall gå till konstitutionsutskottet. Men
+              efter vad jag hört har konstitutionsutskottet för avsikt att hemställa
+              om att den delen av konstitutionsutskottets memorial icke bifalles,
+              således då det blir fråga om att konfirmera det beslut som fattats
+              under föregående riksdag. Det skulle innebära att rättsfrågorna
+              kommer att behandlas i samma ordning som de frågor som faller
+              under lagen om statstjänstemännens förhandlingsrätt. Jag har inget
+              att erinra emot att riksdagen fattar ett beslut i den riktningen.
+              Det är kanske principiellt riktigt att frågorna i sin helhet ligger
+              hos samma utskott.
+            </seg>
+          </u>
           <note n="70d71dba">
             Herr talman! Jag kommer senare att hemställa om bifall till sammansatta
             konstitutionsoch andra lagutskottets utlåtande nr 1 med undantag
@@ -2787,7 +2833,7 @@
           <note type="speaker" n="cd908b8a">
             Herr PETTERSSON, GEORG, (s):
           </note>
-          <u who="unknown" xml:id="i-577cb67919601bb9-8" n="87e6bb86"/>
+          <u who="unknown" xml:id="i-87e6bb8604bc3ffe-59" n="87e6bb86"/>
           <note n="54f47eb5">
             Herr talman! Jag hade tänkt säga några ord om det som herr Strand
             nu anförde — det gäller alltså det vilande grundlagsförslag som
@@ -2808,7 +2854,7 @@
             ningen, innebärande att konstitutionsutskottet skulle handlägga
             frågor beträffande statstjänstemännens rättsställning.
           </note>
-          <u who="unknown" xml:id="i-aa7319cd96283a86-8" n="87e6bb86">
+          <u who="unknown" xml:id="i-87e6bb8604bc3ffe-60" n="87e6bb86">
             <seg n="d33e63bb">
               Vid behandlingen i fjol av de nu vilande grundlagsförslagen anförde
               civilministern att det kan bli besvärliga förhållanden därigenom
@@ -2831,6 +2877,13 @@
               grundlagsförslaget om ändring av $£38 riksdagsordningen icke måtte
               antagas.
             </seg>
+          </u>
+          <note n="31662fbc">
+            Jag vill, herr talman, yrka att riksdagen avvisar det förslag
+            som upptas i denna punkt i konstitutionsutskottets memorial nr
+            29.
+          </note>
+          <u who="unknown" xml:id="i-87e6bb8604bc3ffe-61" n="87e6bb86">
             <seg n="78114382">
               Herr DAHLÉN (fp):
             </seg>
@@ -2870,18 +2923,13 @@
               måtte antagas i sin helhet.
             </seg>
           </u>
-          <note n="31662fbc">
-            Jag vill, herr talman, yrka att riksdagen avvisar det förslag
-            som upptas i denna punkt i konstitutionsutskottets memorial nr
-            29.
-          </note>
           <note n="c11fe4ec">
             Häri instämde herr Schött (h).
           </note>
           <note type="speaker" n="d3e9aafe">
             Herr GEIJER, LENNART, (s):
           </note>
-          <u who="unknown" xml:id="i-577cb67919601bb9-9" n="87e6bb86">
+          <u who="unknown" xml:id="i-87e6bb8604bc3ffe-62" n="87e6bb86">
             <seg n="7ed78755">
               Herr talman! Sedan snart 30 år tillbaka har de flesta arbetstagare
               i detta land haft lagstadgad rätt att genom sina organisationer
@@ -2908,7 +2956,7 @@
           <note n="53e90733">
             Ang. statstjänstemännens rättsställning, m. m.
           </note>
-          <u who="unknown" xml:id="i-aa7319cd96283a86-9" n="87e6bb86">
+          <u who="unknown" xml:id="i-87e6bb8604bc3ffe-63" n="87e6bb86">
             <seg n="c372a81e">
               Trots lagstiftningens njugghet mot statsoch kommunaltjänstemän
               har det, som vi alla vet, vuxit fram en form av förhandlingar
@@ -2944,6 +2992,13 @@
               har nu lett till den lagstiftningsprodukt som vi i dag skall ta
               ställning till.
             </seg>
+          </u>
+          <note n="fe342411">
+            När statsrådet Lindholm år 1962 kallade samman företrädare för
+            de fyra huvudorganisationerna på det statliga området kom bollen
+            i rullning. Organi-
+          </note>
+          <u who="unknown" xml:id="i-87e6bb8604bc3ffe-64" n="87e6bb86">
             <seg n="085f89fc">
               sationsrepresentanterna avgav försäkran om villighet att på frivillig
               väg medverka till förhindrande av samhällsfarliga konflikter.
@@ -2982,6 +3037,18 @@
             <seg n="bc1b7824">
               Det kan i detta sammanhang för kam-
             </seg>
+          </u>
+          <pb n="31" facs="https://betalab.kb.se/prot-1965--fk--25/prot_1965__fk__25-031.jp2/_view"/>
+          <note n="a4616feb">
+            32 Nr 25
+          </note>
+          <note type="date" n="43ecfcc2">
+            Onsdagen den 19 maj 1965
+          </note>
+          <note n="53e90733">
+            Ang. statstjänstemännens rättsställning, m. m.
+          </note>
+          <u who="unknown" xml:id="i-87e6bb8604bc3ffe-65" n="87e6bb86">
             <seg n="fc523993">
               marens ledamöter vara av värde att jag upplyser om att arbetsdomstolens
               förre ordförande i sitt yttrande över den s. k. Ekblomska utredningen
@@ -3066,6 +3133,18 @@
               heller enligt departementschefen kan föreligga några risker att
               medge förhandlingsrätt. Men detta mo-
             </seg>
+          </u>
+          <pb n="32" facs="https://betalab.kb.se/prot-1965--fk--25/prot_1965__fk__25-032.jp2/_view"/>
+          <note type="date" n="43ecfcc2">
+            Onsdagen den 19 maj 1965
+          </note>
+          <note n="3c27c80f">
+            Nr 25 33
+          </note>
+          <note n="53e90733">
+            Ang. statstjänstemännens rättsställning, m. m.
+          </note>
+          <u who="unknown" xml:id="i-87e6bb8604bc3ffe-66" n="87e6bb86">
             <seg n="940c1950">
               tiveras, för det tredje, med att det inte är möjligt att göra
               skillnad mellan olika förvaltningsområden.
@@ -3106,6 +3185,11 @@
               organisationerna rätt att förhandla och träffa avtal i frågor
               om arbetstidens förläggning. De hänger intimt samman
             </seg>
+          </u>
+          <note n="d21125e4">
+            3 Första kammarens protokoll 1965. Nr 25
+          </note>
+          <u who="unknown" xml:id="i-87e6bb8604bc3ffe-67" n="87e6bb86">
             <seg n="62e63a47">
               med förhandlingarna om löneoch anställningsvillkoren i övrigt,
               och det synes alldeles nödvändigt att de kan bli föremål för förhandling
@@ -3147,6 +3231,18 @@
               ordförande in i bilden, när han framhåller, att den föreslagna
               begränsningen av
             </seg>
+          </u>
+          <pb n="33" facs="https://betalab.kb.se/prot-1965--fk--25/prot_1965__fk__25-033.jp2/_view"/>
+          <note n="79737b68">
+            34 Nr 25
+          </note>
+          <note type="date" n="43ecfcc2">
+            Onsdagen den 19 maj 1965
+          </note>
+          <note n="53e90733">
+            Ang. statstjänstemännens rättsställning, m. m.
+          </note>
+          <u who="unknown" xml:id="i-87e6bb8604bc3ffe-68" n="87e6bb86">
             <seg n="8bce65c7">
               avtalsområdet kan medföra ovisshet rörande &lt;gränsdragningen.
               Detsamma framhåller för övrigt Svea hovrätt.
@@ -3200,48 +3296,10 @@
               om riksdagen skulle bifalla utskottets förslag.
             </seg>
           </u>
-          <note n="fe342411">
-            När statsrådet Lindholm år 1962 kallade samman företrädare för
-            de fyra huvudorganisationerna på det statliga området kom bollen
-            i rullning. Organi-
-          </note>
-          <pb n="31" facs="https://betalab.kb.se/prot-1965--fk--25/prot_1965__fk__25-031.jp2/_view"/>
-          <note n="a4616feb">
-            32 Nr 25
-          </note>
-          <note type="date" n="43ecfcc2">
-            Onsdagen den 19 maj 1965
-          </note>
-          <note n="53e90733">
-            Ang. statstjänstemännens rättsställning, m. m.
-          </note>
-          <pb n="32" facs="https://betalab.kb.se/prot-1965--fk--25/prot_1965__fk__25-032.jp2/_view"/>
-          <note type="date" n="43ecfcc2">
-            Onsdagen den 19 maj 1965
-          </note>
-          <note n="3c27c80f">
-            Nr 25 33
-          </note>
-          <note n="53e90733">
-            Ang. statstjänstemännens rättsställning, m. m.
-          </note>
-          <note n="d21125e4">
-            3 Första kammarens protokoll 1965. Nr 25
-          </note>
-          <pb n="33" facs="https://betalab.kb.se/prot-1965--fk--25/prot_1965__fk__25-033.jp2/_view"/>
-          <note n="79737b68">
-            34 Nr 25
-          </note>
-          <note type="date" n="43ecfcc2">
-            Onsdagen den 19 maj 1965
-          </note>
-          <note n="53e90733">
-            Ang. statstjänstemännens rättsställning, m. m.
-          </note>
           <note type="speaker" n="243f87a3">
             Herr KÄLLQVIST (fp):
           </note>
-          <u who="unknown" xml:id="i-577cb67919601bb9-10" n="87e6bb86"/>
+          <u who="unknown" xml:id="i-87e6bb8604bc3ffe-69" n="87e6bb86"/>
           <note n="93fedfb1">
             Herr talman! Liksom herr förste vice talmannen kommer jag inte
             att beröra de på föredragningslistan upptagna betänkandena från
@@ -3250,7 +3308,7 @@
             gäller, som vi nyss hörde, den i proposition nr 60 föreslagna
             reformen av de offentliga tjänstemännens förhandlingsrätt.
           </note>
-          <u who="unknown" xml:id="i-aa7319cd96283a86-10" n="87e6bb86">
+          <u who="unknown" xml:id="i-87e6bb8604bc3ffe-70" n="87e6bb86">
             <seg n="b9ab6764">
               Låt mig då först få konstatera att det är med mycket stor tillfredsställelse,
               såsom tidigare har framhållits, man ser att de berörda grupperna
@@ -3267,6 +3325,15 @@
               har föreslagit på vissa punkter, och jag skall bara helt kort
               kommentera några få avsnitt.
             </seg>
+          </u>
+          <pb n="34" facs="https://betalab.kb.se/prot-1965--fk--25/prot_1965__fk__25-034.jp2/_view"/>
+          <note type="date" n="43ecfcc2">
+            Onsdagen den 19 maj 1965
+          </note>
+          <note n="64b77459">
+            Ang.
+          </note>
+          <u who="unknown" xml:id="i-87e6bb8604bc3ffe-71" n="87e6bb86">
             <seg n="c2304128">
               Alla parter förutsätter ju nu att överenskommelse skall kunna
               träffas genom överläggningar och förhandlingar, och därmed måste
@@ -3308,6 +3375,14 @@
               att man räknar med att kunna komma överens. Detta har statsrådet
               klart deklarerat i propositionen, och jag in-
             </seg>
+          </u>
+          <note n="83e633ed">
+            Nr 25 35
+          </note>
+          <note n="0e11c722">
+            statstjänstemännens rättsställning, m. m.
+          </note>
+          <u who="unknown" xml:id="i-87e6bb8604bc3ffe-72" n="87e6bb86">
             <seg n="4b42a289">
               stämmer helt i detta. Däremot anser jag att det är litet underligt
               att statsrådet inte har tagit konsekvenserna av det konstaterandet.
@@ -3347,6 +3422,18 @@
               om stridsåtgärd som skall avgöra om oorganiserade skall delta
               i strejk eller
             </seg>
+          </u>
+          <pb n="35" facs="https://betalab.kb.se/prot-1965--fk--25/prot_1965__fk__25-035.jp2/_view"/>
+          <note n="d2d27443">
+            36 Nr 25
+          </note>
+          <note type="date" n="43ecfcc2">
+            Onsdagen den 19 maj 1965
+          </note>
+          <note n="53e90733">
+            Ang. statstjänstemännens rättsställning, m. m.
+          </note>
+          <u who="unknown" xml:id="i-87e6bb8604bc3ffe-73" n="87e6bb86">
             <seg n="8fcdcf77">
               icke. Vi tror att detta kommer att fungera. En oorganiserad som
               med den stridande organisationens medgivande deltar i en konflikt
@@ -3404,36 +3491,13 @@
               prägel.
             </seg>
           </u>
-          <pb n="34" facs="https://betalab.kb.se/prot-1965--fk--25/prot_1965__fk__25-034.jp2/_view"/>
-          <note type="date" n="43ecfcc2">
-            Onsdagen den 19 maj 1965
-          </note>
-          <note n="64b77459">
-            Ang.
-          </note>
-          <note n="83e633ed">
-            Nr 25 35
-          </note>
-          <note n="0e11c722">
-            statstjänstemännens rättsställning, m. m.
-          </note>
-          <pb n="35" facs="https://betalab.kb.se/prot-1965--fk--25/prot_1965__fk__25-035.jp2/_view"/>
-          <note n="d2d27443">
-            36 Nr 25
-          </note>
-          <note type="date" n="43ecfcc2">
-            Onsdagen den 19 maj 1965
-          </note>
-          <note n="53e90733">
-            Ang. statstjänstemännens rättsställning, m. m.
-          </note>
           <note n="1b868e55">
             I detta anförande instämde herr Billman (fp).
           </note>
           <note type="speaker" n="2a2adcf1">
             Herr statsrådet LINDHOLM:
           </note>
-          <u who="sigurd_lindholm_704038" xml:id="i-6a56a06eabbd6e46-0" next="i-59d5fd850523f1ab-0" n="e97643dc">
+          <u who="sigurd_lindholm_704038" xml:id="i-87e6bb8604bc3ffe-74" next="i-87e6bb8604bc3ffe-82" n="e97643dc">
             <seg n="a4762c1a">
               Herr talman! Det förslag till reglering av förhandlingsrätten
               för i offentlig tjänst anställda, som i dag behandlas av riksdagens
@@ -3464,7 +3528,7 @@
           <note n="53e90733">
             Ang. statstjänstemännens rättsställning, m. m.
           </note>
-          <u who="sigurd_lindholm_704038" xml:id="i-59d5fd850523f1ab-0" prev="i-6a56a06eabbd6e46-0" n="e97643dc">
+          <u who="sigurd_lindholm_704038" xml:id="i-87e6bb8604bc3ffe-75" prev="i-87e6bb8604bc3ffe-74" n="e97643dc">
             <seg n="c42c2ea1">
               tens beteendemönster kan man kanske bäst göra det genom att studera
               de direktiv till 1949 års tjänsteförteckning, som dåvarande finansministern
@@ -3539,6 +3603,18 @@
               för att en ändring skall ske är att den bygger på en förhandlingsuppgörelse
               som är god-
             </seg>
+          </u>
+          <pb n="37" facs="https://betalab.kb.se/prot-1965--fk--25/prot_1965__fk__25-037.jp2/_view"/>
+          <note n="8f35d2f4">
+            38 Nr 25
+          </note>
+          <note type="date" n="43ecfcc2">
+            Onsdagen den 19 maj 1965
+          </note>
+          <note n="53e90733">
+            Ang. statstjänstemännens rättsställning, m. m.
+          </note>
+          <u who="sigurd_lindholm_704038" xml:id="i-87e6bb8604bc3ffe-76" prev="i-87e6bb8604bc3ffe-74" n="e97643dc">
             <seg n="2b724c79">
               tagen av personalorganisationerna. Därmed har man ju också markerat
               viljan att genom fria förhandlingar träffa uppgörelse.
@@ -3582,6 +3658,12 @@
               visade sig ju också, att Övriga remissinstanser i stort sett anförde
               synpunkter som överens-
             </seg>
+          </u>
+          <note n="29bcaf62">
+            stämde med dem som lönenämnden hade anfört. Dåvarande civilministern
+            Lingman
+          </note>
+          <u who="sigurd_lindholm_704038" xml:id="i-87e6bb8604bc3ffe-77" prev="i-87e6bb8604bc3ffe-74" n="e97643dc">
             <seg n="549dc86a">
               tillkallade då förre landshövdingen Ekblom för att verkställa
               en överarbetning av remissvaren, I den överarbetningen kom Ekblom
@@ -3614,6 +3696,18 @@
               där det förekommit ett mål som gällde anställda som av-
             </seg>
             <seg n="68e4cc01"/>
+          </u>
+          <pb n="38" facs="https://betalab.kb.se/prot-1965--fk--25/prot_1965__fk__25-038.jp2/_view"/>
+          <note type="date" n="43ecfcc2">
+            Onsdagen den 19 maj 1965
+          </note>
+          <note n="dfddcc25">
+            Nr 25 39
+          </note>
+          <note n="53e90733">
+            Ang. statstjänstemännens rättsställning, m. m.
+          </note>
+          <u who="sigurd_lindholm_704038" xml:id="i-87e6bb8604bc3ffe-78" prev="i-87e6bb8604bc3ffe-74" n="e97643dc">
             <seg n="d2e530dc">
               skedats därför att de deltagit i legal konflikt. Båda dessa domstolar
               har i sina domslut förklarat att legal konflikt icke bryter rätten
@@ -3689,6 +3783,18 @@
             <seg n="c91ecbae">
               På en annan punkt har utskottet fö-
             </seg>
+          </u>
+          <pb n="39" facs="https://betalab.kb.se/prot-1965--fk--25/prot_1965__fk__25-039.jp2/_view"/>
+          <note n="a351bb3a">
+            40 Nr 25
+          </note>
+          <note type="date" n="43ecfcc2">
+            Onsdagen den 19 maj 1965
+          </note>
+          <note n="53e90733">
+            Ang. statstjänstemännens rättsställning, m. m.
+          </note>
+          <u who="sigurd_lindholm_704038" xml:id="i-87e6bb8604bc3ffe-79" prev="i-87e6bb8604bc3ffe-74" n="e97643dc">
             <seg n="8a808ce8">
               retagit en förändring i propositionen. Utskottet ger nämligen
               de oorganiserade rätt att delta i konflikt som är beslutad av
@@ -3762,6 +3868,15 @@
               att genomföra en tillfredsställande service åt allmänheten på
               detta område.
             </seg>
+          </u>
+          <pb n="40" facs="https://betalab.kb.se/prot-1965--fk--25/prot_1965__fk__25-040.jp2/_view"/>
+          <note type="date" n="43ecfcc2">
+            Onsdagen den 19 maj 1965
+          </note>
+          <note n="64b77459">
+            Ang.
+          </note>
+          <u who="sigurd_lindholm_704038" xml:id="i-87e6bb8604bc3ffe-80" prev="i-87e6bb8604bc3ffe-74" n="e97643dc">
             <seg n="3681c76a">
               Om vi som exempel tar vårdområdena, t. ex. sjukvården, är det
               väl också där uteslutande fråga om service åt människorna — en
@@ -3800,6 +3915,14 @@
               de förhandlande parterna att träffa uppgörelse om alla dessa intrikata
               förläggningsfrågor,
             </seg>
+          </u>
+          <note n="6a0e20a4">
+            Nr 25 41
+          </note>
+          <note n="0e11c722">
+            statstjänstemännens rättsställning, m. m.
+          </note>
+          <u who="sigurd_lindholm_704038" xml:id="i-87e6bb8604bc3ffe-81" prev="i-87e6bb8604bc3ffe-74" n="e97643dc">
             <seg n="d317fa79">
               måste man räkna med att det hos dem finns en ambition att träffa
               en uppgörelse och att det är en viss risk för att dessa parter
@@ -3838,6 +3961,18 @@
               kan vitsorda, att vi genom överläggningar löst åtskilliga frågor,
               som inte varit förhandlingsfrågor i egentlig mening. Vi
             </seg>
+          </u>
+          <pb n="41" facs="https://betalab.kb.se/prot-1965--fk--25/prot_1965__fk__25-041.jp2/_view"/>
+          <note n="f52312ac">
+            42 Nr 25
+          </note>
+          <note type="date" n="43ecfcc2">
+            Onsdagen den 19 maj 1965
+          </note>
+          <note n="53e90733">
+            Ang. statstjänstemännens rättsställning, m. m.
+          </note>
+          <u who="sigurd_lindholm_704038" xml:id="i-87e6bb8604bc3ffe-82" prev="i-87e6bb8604bc3ffe-74" n="e97643dc">
             <seg n="4b35a75e">
               har helt nyligen löst frågan om femdagars arbetsvecka i statsförvaltningen
               genom överläggningar, och vi har på många andra områden också
@@ -3855,67 +3990,10 @@
               denna punkt.
             </seg>
           </u>
-          <pb n="37" facs="https://betalab.kb.se/prot-1965--fk--25/prot_1965__fk__25-037.jp2/_view"/>
-          <note n="8f35d2f4">
-            38 Nr 25
-          </note>
-          <note type="date" n="43ecfcc2">
-            Onsdagen den 19 maj 1965
-          </note>
-          <note n="53e90733">
-            Ang. statstjänstemännens rättsställning, m. m.
-          </note>
-          <note n="29bcaf62">
-            stämde med dem som lönenämnden hade anfört. Dåvarande civilministern
-            Lingman
-          </note>
-          <pb n="38" facs="https://betalab.kb.se/prot-1965--fk--25/prot_1965__fk__25-038.jp2/_view"/>
-          <note type="date" n="43ecfcc2">
-            Onsdagen den 19 maj 1965
-          </note>
-          <note n="dfddcc25">
-            Nr 25 39
-          </note>
-          <note n="53e90733">
-            Ang. statstjänstemännens rättsställning, m. m.
-          </note>
-          <pb n="39" facs="https://betalab.kb.se/prot-1965--fk--25/prot_1965__fk__25-039.jp2/_view"/>
-          <note n="a351bb3a">
-            40 Nr 25
-          </note>
-          <note type="date" n="43ecfcc2">
-            Onsdagen den 19 maj 1965
-          </note>
-          <note n="53e90733">
-            Ang. statstjänstemännens rättsställning, m. m.
-          </note>
-          <pb n="40" facs="https://betalab.kb.se/prot-1965--fk--25/prot_1965__fk__25-040.jp2/_view"/>
-          <note type="date" n="43ecfcc2">
-            Onsdagen den 19 maj 1965
-          </note>
-          <note n="64b77459">
-            Ang.
-          </note>
-          <note n="6a0e20a4">
-            Nr 25 41
-          </note>
-          <note n="0e11c722">
-            statstjänstemännens rättsställning, m. m.
-          </note>
-          <pb n="41" facs="https://betalab.kb.se/prot-1965--fk--25/prot_1965__fk__25-041.jp2/_view"/>
-          <note n="f52312ac">
-            42 Nr 25
-          </note>
-          <note type="date" n="43ecfcc2">
-            Onsdagen den 19 maj 1965
-          </note>
-          <note n="53e90733">
-            Ang. statstjänstemännens rättsställning, m. m.
-          </note>
           <note type="speaker" n="5abfb893">
             Herr GEIJER, LENNART, genmäle:
           </note>
-          <u who="unknown" xml:id="i-577cb67919601bb9-11" n="87e6bb86">
+          <u who="unknown" xml:id="i-87e6bb8604bc3ffe-83" n="87e6bb86">
             <seg n="ffb7de73">
               Herr talman! Frågor om arbetstidens förläggning är ju ofta föremål
               för förhandlingar på den enskilda sektorn. Tänk t. ex. på sådant
@@ -3942,7 +4020,7 @@
           <note n="5e0db2da">
             (s) kort
           </note>
-          <u who="unknown" xml:id="i-aa7319cd96283a86-11" n="87e6bb86">
+          <u who="unknown" xml:id="i-87e6bb8604bc3ffe-84" n="87e6bb86">
             <seg n="f14bde8b">
               arbetare? Det kanske är 100 000 arbetare som företräds av ett
               flertal organisationer, och dessa statens och kommunernas arbetare
@@ -3986,7 +4064,7 @@
           <note type="speaker" n="2a2adcf1">
             Herr statsrådet LINDHOLM:
           </note>
-          <u who="sigurd_lindholm_704038" xml:id="i-6a56a06eabbd6e46-1" next="i-59d5fd850523f1ab-1" n="e97643dc">
+          <u who="sigurd_lindholm_704038" xml:id="i-87e6bb8604bc3ffe-85" next="i-87e6bb8604bc3ffe-86" n="e97643dc">
             <seg n="ac76fa34">
               Herr talman! Om man går igenom förhållandena på undervisningens
               område
@@ -3999,7 +4077,7 @@
           <note n="64b77459">
             Ang.
           </note>
-          <u who="sigurd_lindholm_704038" xml:id="i-59d5fd850523f1ab-1" prev="i-6a56a06eabbd6e46-1" n="e97643dc">
+          <u who="sigurd_lindholm_704038" xml:id="i-87e6bb8604bc3ffe-86" prev="i-87e6bb8604bc3ffe-85" n="e97643dc">
             <seg n="77ce6851">
               skulle jag tro att herr Källqvist kommer att hitta åtskilliga
               exempel som talar för olägenheten av att knyta detta till förhandlingsuppgörelser.
@@ -4026,7 +4104,7 @@
           <note type="speaker" n="3888d807">
             Herr LIDGARD (h):
           </note>
-          <u who="unknown" xml:id="i-577cb67919601bb9-12" n="87e6bb86">
+          <u who="unknown" xml:id="i-87e6bb8604bc3ffe-87" n="87e6bb86">
             <seg n="2578e930">
               Herr talman! Jag skall be att få börja en bit vid sidan om själva
               sakfrågan. Vi som på nära håll har kunnat följa hur frågan om
@@ -4045,7 +4123,7 @@
           <note n="8ab46fed">
             Nr 25 43
           </note>
-          <u who="unknown" xml:id="i-aa7319cd96283a86-12" n="87e6bb86">
+          <u who="unknown" xml:id="i-87e6bb8604bc3ffe-88" n="87e6bb86">
             <seg n="36c2c5cb">
               statstjänstemännens rättsställning, m. m. mina kolleger tycker,
               nämligen att detta är ett ärende som måhända behövt mogna fram
@@ -4088,6 +4166,18 @@
               att lagstifta om en inskränkning i tjänstemännens förhandlingsrätt,
               när man i decennier har kun-
             </seg>
+          </u>
+          <pb n="43" facs="https://betalab.kb.se/prot-1965--fk--25/prot_1965__fk__25-043.jp2/_view"/>
+          <note n="c5efad5b">
+            44 Nr 25
+          </note>
+          <note type="date" n="43ecfcc2">
+            Onsdagen den 19 maj 1965
+          </note>
+          <note n="53e90733">
+            Ang. statstjänstemännens rättsställning, m. m.
+          </note>
+          <u who="unknown" xml:id="i-87e6bb8604bc3ffe-89" n="87e6bb86">
             <seg n="d9d65c4e">
               nat förhandla om dessa frågor inom andra statliga sektorer, eller
               rättare sagt inom samma statliga sektor men för annan personal?
@@ -4163,6 +4253,15 @@
               är att man lagstiftningsvägen undantar vissa objekt från förhandlingar
               och därmed klart säger ifrån att vi i fortsättningen
             </seg>
+          </u>
+          <pb n="44" facs="https://betalab.kb.se/prot-1965--fk--25/prot_1965__fk__25-044.jp2/_view"/>
+          <note type="date" n="43ecfcc2">
+            Onsdagen den 19 maj 1965
+          </note>
+          <note n="64b77459">
+            Ang.
+          </note>
+          <u who="unknown" xml:id="i-87e6bb8604bc3ffe-90" n="87e6bb86">
             <seg n="a650f083">
               inte skall förhandla om vissa ting, som i stället hänvisas till
               överläggningar.
@@ -4174,27 +4273,10 @@
               i denna sak.
             </seg>
           </u>
-          <pb n="43" facs="https://betalab.kb.se/prot-1965--fk--25/prot_1965__fk__25-043.jp2/_view"/>
-          <note n="c5efad5b">
-            44 Nr 25
-          </note>
-          <note type="date" n="43ecfcc2">
-            Onsdagen den 19 maj 1965
-          </note>
-          <note n="53e90733">
-            Ang. statstjänstemännens rättsställning, m. m.
-          </note>
-          <pb n="44" facs="https://betalab.kb.se/prot-1965--fk--25/prot_1965__fk__25-044.jp2/_view"/>
-          <note type="date" n="43ecfcc2">
-            Onsdagen den 19 maj 1965
-          </note>
-          <note n="64b77459">
-            Ang.
-          </note>
           <note type="speaker" n="2a2adcf1">
             Herr statsrådet LINDHOLM:
           </note>
-          <u who="sigurd_lindholm_704038" xml:id="i-6a56a06eabbd6e46-2" next="i-59d5fd850523f1ab-2" n="e97643dc">
+          <u who="sigurd_lindholm_704038" xml:id="i-87e6bb8604bc3ffe-91" next="i-87e6bb8604bc3ffe-92" n="e97643dc">
             <seg n="3ff7302a">
               Herr talman! Herr Lidgard gav uttryck åt den meningen att han
               betraktar det som utomordentligt allvarligt att man undantar arbetstidsförläggningsfrågorna
@@ -4232,7 +4314,7 @@
           <note n="0e11c722">
             statstjänstemännens rättsställning, m. m.
           </note>
-          <u who="sigurd_lindholm_704038" xml:id="i-59d5fd850523f1ab-2" prev="i-6a56a06eabbd6e46-2" n="e97643dc">
+          <u who="sigurd_lindholm_704038" xml:id="i-87e6bb8604bc3ffe-92" prev="i-87e6bb8604bc3ffe-91" n="e97643dc">
             <seg n="fe6e65ad">
               tionen från båda parter att träffa en förhandlingsuppgörelse
               resultera i att den som skall erhålla den samhälleliga servicen,
@@ -4250,7 +4332,7 @@
           <note type="speaker" n="a2b1527e">
             Fru HULTELL (h):
           </note>
-          <u who="unknown" xml:id="i-577cb67919601bb9-13" n="87e6bb86">
+          <u who="unknown" xml:id="i-87e6bb8604bc3ffe-93" n="87e6bb86">
             <seg n="9ea3d983">
               Herr talman! Statsrådet Lindholm har i sitt anförande i huvudsak
               berört förhållandena på det statliga området, och jag vill kanske
@@ -4284,7 +4366,7 @@
           <note n="53e90733">
             Ang. statstjänstemännens rättsställning, m. m.
           </note>
-          <u who="unknown" xml:id="i-aa7319cd96283a86-13" n="87e6bb86">
+          <u who="unknown" xml:id="i-87e6bb8604bc3ffe-94" n="87e6bb86">
             <seg n="307fe66e">
               I departementspromemorian konstaterades att kommunaltjänstemännen
               intar en annan ställning än statstjänstemännen och att endast
@@ -4311,39 +4393,6 @@
               om arbetstidens längd och de ekonomiska villkoren. Jag vill helt
               instämma i vad utskottet anfört i denna fråga liksom i frågan
               om rätt till annan ledighet än semester.
-            </seg>
-            <seg n="9815d6b2">
-              Någon överläggningsrätt i de frågor som man ej får förhandla
-              om har inte inskrivits i statsoch kommunaltjänstemannalagarna,
-              men utskottet har liksom departementschefen klart understrukit
-              vikten av att överläggningar äger rum i alla frågor där så kan
-              anses befogat. Jag vill också här särskilt framhålla, att delgivningsplikten
-              har stor praktisk betydelse på det kommunala området.
-            </seg>
-            <seg n="5755c116">
-              I föreliggande förslag är som stridsåtgärd endast strejk eller
-              lockout tillåtna. De påtryckningsmedel som erkänts tillåtna på
-              den privata arbetsmarknaden har således ej kunnat accepteras i
-              förhållandet mellan de offentliga arbetsgivarna och deras tjänstemän.
-              Såväl på det statliga som på det kommunala området har avtalats
-              om inrättande av ett partsorgan i syfte att hindra samhällsfarliga
-              konflikter, och mot den bakgrunden hade det varit önskvärt att
-              parterna inte i varje konfliktsituation tvingats vidtaga de längst
-              gående stridsåtgärderna. Utskottet har inte delat motionärernas
-              uppfattning i denna fråga.
-            </seg>
-            <seg n="064fdde9">
-              Herr talman! Med tanke på den utveckling som ägt rum på den privata
-              arbetsmarknaden, med allt större in-
-            </seg>
-            <seg n="23af70e2">
-              flytande för personalens organisationer, vilket bl. a. tagit
-              sig uttryck i företagsnämndernas verksamhet och i bildandet av
-              arbetsmarknadsnämnd och tjänstemannanämnd, tycker jag att det
-              är märkligt att man år 1965 måste vidtaga dessa begränsningar
-              i avtalsområdet för statsoch kommunaltjänstemännen. Den nya lagstiftningen
-              bygger ju, såsom departementschefen framhållit, på uppfattningen
-              att tjänstemännens organisationer är medvetna om sitt ansvar.
             </seg>
           </u>
           <note n="ccbbd403">
@@ -4372,6 +4421,32 @@
             dröjsmål och senast inom fjorton dagar efter det föreningen erhöll
             underrättelse i frågan från kommunalmyndigheten.»
           </note>
+          <u who="unknown" xml:id="i-87e6bb8604bc3ffe-95" n="87e6bb86">
+            <seg n="9815d6b2">
+              Någon överläggningsrätt i de frågor som man ej får förhandla
+              om har inte inskrivits i statsoch kommunaltjänstemannalagarna,
+              men utskottet har liksom departementschefen klart understrukit
+              vikten av att överläggningar äger rum i alla frågor där så kan
+              anses befogat. Jag vill också här särskilt framhålla, att delgivningsplikten
+              har stor praktisk betydelse på det kommunala området.
+            </seg>
+            <seg n="5755c116">
+              I föreliggande förslag är som stridsåtgärd endast strejk eller
+              lockout tillåtna. De påtryckningsmedel som erkänts tillåtna på
+              den privata arbetsmarknaden har således ej kunnat accepteras i
+              förhållandet mellan de offentliga arbetsgivarna och deras tjänstemän.
+              Såväl på det statliga som på det kommunala området har avtalats
+              om inrättande av ett partsorgan i syfte att hindra samhällsfarliga
+              konflikter, och mot den bakgrunden hade det varit önskvärt att
+              parterna inte i varje konfliktsituation tvingats vidtaga de längst
+              gående stridsåtgärderna. Utskottet har inte delat motionärernas
+              uppfattning i denna fråga.
+            </seg>
+            <seg n="064fdde9">
+              Herr talman! Med tanke på den utveckling som ägt rum på den privata
+              arbetsmarknaden, med allt större in-
+            </seg>
+          </u>
           <pb n="46" facs="https://betalab.kb.se/prot-1965--fk--25/prot_1965__fk__25-046.jp2/_view"/>
           <note type="date" n="43ecfcc2">
             Onsdagen den 19 maj 1965
@@ -4379,10 +4454,21 @@
           <note n="64b77459">
             Ang.
           </note>
+          <u who="unknown" xml:id="i-87e6bb8604bc3ffe-96" n="87e6bb86">
+            <seg n="23af70e2">
+              flytande för personalens organisationer, vilket bl. a. tagit
+              sig uttryck i företagsnämndernas verksamhet och i bildandet av
+              arbetsmarknadsnämnd och tjänstemannanämnd, tycker jag att det
+              är märkligt att man år 1965 måste vidtaga dessa begränsningar
+              i avtalsområdet för statsoch kommunaltjänstemännen. Den nya lagstiftningen
+              bygger ju, såsom departementschefen framhållit, på uppfattningen
+              att tjänstemännens organisationer är medvetna om sitt ansvar.
+            </seg>
+          </u>
           <note type="speaker" n="d6e5c341">
             Herr HERNELIUS (h):
           </note>
-          <u who="unknown" xml:id="i-577cb67919601bb9-14" n="87e6bb86">
+          <u who="unknown" xml:id="i-87e6bb8604bc3ffe-97" n="87e6bb86">
             <seg n="ae98819f">
               Herr talman! Vårt land har ju internationellt rykte för en pacificerad
               arbetsmarknad, för gott samförstånd och hyggligt umgänge mellan
@@ -4415,7 +4501,7 @@
           <note n="0e11c722">
             statstjänstemännens rättsställning, m. m.
           </note>
-          <u who="unknown" xml:id="i-aa7319cd96283a86-14" n="87e6bb86">
+          <u who="unknown" xml:id="i-87e6bb8604bc3ffe-98" n="87e6bb86">
             <seg n="3d9bf7d7">
               och tala om hur vi har det. Det är ett levande uttryck för vad
               jag skulle vilja kalla resonabilitet inom svensk arbetsmarknad.
@@ -4456,6 +4542,18 @@
               inte, försvaret är ju minst sagt chockerande. Men efter 30 års
               förhandlingar och ett utrednings-
             </seg>
+          </u>
+          <pb n="47" facs="https://betalab.kb.se/prot-1965--fk--25/prot_1965__fk__25-047.jp2/_view"/>
+          <note n="8df32012">
+            48 Nr 25
+          </note>
+          <note type="date" n="43ecfcc2">
+            Onsdagen den 19 maj 1965
+          </note>
+          <note n="53e90733">
+            Ang. statstjänstemännens rättsställning, m. m.
+          </note>
+          <u who="unknown" xml:id="i-87e6bb8604bc3ffe-99" n="87e6bb86">
             <seg n="8558dbe0">
               arbete som pågått sedan 1948 anser väl flertalet att steget bör
               försökas. Det är djärvt och kan få mycket oroande konsekvenser,
@@ -4516,6 +4614,13 @@
               sakkunskap och förmåga att komma fram till enighet mellan divergerande
               ståndpunkter.
             </seg>
+          </u>
+          <note n="ef35afc0">
+            Utskottet föreslår nya utredningar i några fall, bl. a. utredning
+            om tjänstemannabegreppet och om ämbetsansvaret. Det vore värdefullt
+            om Kungl. Maj:t ville beakta dessa utskottets önskemål.
+          </note>
+          <u who="unknown" xml:id="i-87e6bb8604bc3ffe-100" n="87e6bb86">
             <seg n="a028ec32">
               Utskottet föreslår ävenledes att man skall byta terminologi i
               ett fall. I propositionen används termen »disponibilitet» för
@@ -4529,6 +4634,18 @@
               rikets bästa försätter en tjänsteman ur tjänst och när man, såsom
               t. ex. in-
             </seg>
+          </u>
+          <pb n="48" facs="https://betalab.kb.se/prot-1965--fk--25/prot_1965__fk__25-048.jp2/_view"/>
+          <note type="date" n="43ecfcc2">
+            Onsdagen den 19 maj 1965
+          </note>
+          <note n="8f88bab4">
+            Nr 25 49
+          </note>
+          <note n="53e90733">
+            Ang. statstjänstemännens rättsställning, m. m.
+          </note>
+          <u who="unknown" xml:id="i-87e6bb8604bc3ffe-101" n="87e6bb86">
             <seg n="8a684a4f">
               om utrikesförvaltningen, vill premiera en tjänsteman. En aktad
               ledamot av denna kammare, fru Alva Myrdal, tjänstgör nu i disponibilitet
@@ -4567,6 +4684,11 @@
               skall sättas i sjön — vill vi önska all lycka åt den nya lagstiftningen.
               Vi vill alltså notera att det
             </seg>
+          </u>
+          <note n="43a2139e">
+            4 Första kammarens protokoll 1965. Nr 25
+          </note>
+          <u who="unknown" xml:id="i-87e6bb8604bc3ffe-102" n="87e6bb86">
             <seg n="56cb223d">
               avlägsnande av åtskillnaden mellan stats: och kommunaltjänstemän
               och andra tjänstemän som göres är ett tidens tecken, ett utslag
@@ -4591,6 +4713,12 @@
               konstitutionsutskottet. är den ett halvår? Är den ett år eller
               är det ingen giltighetstid alls?
             </seg>
+          </u>
+          <note n="fe828bb6">
+            Jag vill, herr talman, alltså nu yrka att kammaren måtte biträda
+            förslaget till vilande grundlagsändring enligt memorial nr 29.
+          </note>
+          <u who="unknown" xml:id="i-87e6bb8604bc3ffe-103" n="87e6bb86">
             <seg n="4f34f060">
               Herr PETTERSSON, GEORG, (s) kort genmäle:
             </seg>
@@ -4601,6 +4729,18 @@
               vilande. Det kan också vara på det sättet att man i samma fråga
               inte bara har ett utan kanske flera förslag vilan-
             </seg>
+          </u>
+          <pb n="49" facs="https://betalab.kb.se/prot-1965--fk--25/prot_1965__fk__25-049.jp2/_view"/>
+          <note n="32102328">
+            50 Nr 25
+          </note>
+          <note type="date" n="43ecfcc2">
+            Onsdagen den 19 maj 1965
+          </note>
+          <note n="53e90733">
+            Ang. statstjänstemännens rättsställning, m. m.
+          </note>
+          <u who="unknown" xml:id="i-87e6bb8604bc3ffe-104" n="87e6bb86">
             <seg n="9b306c98">
               de. Såsom jag nämnde i mitt förra anförande tillkom detta förslag
               genom utskottets eget initiativ i fjol, därför att man saknade
@@ -4637,52 +4777,10 @@
               för att utskottet måhända tär på sitt förtroendekapital.
             </seg>
           </u>
-          <pb n="47" facs="https://betalab.kb.se/prot-1965--fk--25/prot_1965__fk__25-047.jp2/_view"/>
-          <note n="8df32012">
-            48 Nr 25
-          </note>
-          <note type="date" n="43ecfcc2">
-            Onsdagen den 19 maj 1965
-          </note>
-          <note n="53e90733">
-            Ang. statstjänstemännens rättsställning, m. m.
-          </note>
-          <note n="ef35afc0">
-            Utskottet föreslår nya utredningar i några fall, bl. a. utredning
-            om tjänstemannabegreppet och om ämbetsansvaret. Det vore värdefullt
-            om Kungl. Maj:t ville beakta dessa utskottets önskemål.
-          </note>
-          <pb n="48" facs="https://betalab.kb.se/prot-1965--fk--25/prot_1965__fk__25-048.jp2/_view"/>
-          <note type="date" n="43ecfcc2">
-            Onsdagen den 19 maj 1965
-          </note>
-          <note n="8f88bab4">
-            Nr 25 49
-          </note>
-          <note n="53e90733">
-            Ang. statstjänstemännens rättsställning, m. m.
-          </note>
-          <note n="43a2139e">
-            4 Första kammarens protokoll 1965. Nr 25
-          </note>
-          <note n="fe828bb6">
-            Jag vill, herr talman, alltså nu yrka att kammaren måtte biträda
-            förslaget till vilande grundlagsändring enligt memorial nr 29.
-          </note>
-          <pb n="49" facs="https://betalab.kb.se/prot-1965--fk--25/prot_1965__fk__25-049.jp2/_view"/>
-          <note n="32102328">
-            50 Nr 25
-          </note>
-          <note type="date" n="43ecfcc2">
-            Onsdagen den 19 maj 1965
-          </note>
-          <note n="53e90733">
-            Ang. statstjänstemännens rättsställning, m. m.
-          </note>
           <note type="speaker" n="93c770f3">
             Herr LARSSON, THORSTEN, (cp):
           </note>
-          <u who="sigvard_larsson_b350a8" xml:id="i-573c33b3771ecc32-1" next="i-f30740cda375bf4d-1" n="a7542cb2">
+          <u who="sigvard_larsson_b350a8" xml:id="i-87e6bb8604bc3ffe-105" next="i-87e6bb8604bc3ffe-106" n="a7542cb2">
             <seg n="34aba74f">
               Herr talman! Den proposition om de offentliga tjänstemännens
               förhandlings-
@@ -4735,7 +4833,7 @@
           <note n="53e90733">
             Ang. statstjänstemännens rättsställning, m. m.
           </note>
-          <u who="sigvard_larsson_b350a8" xml:id="i-f30740cda375bf4d-1" prev="i-573c33b3771ecc32-1" n="a7542cb2">
+          <u who="sigvard_larsson_b350a8" xml:id="i-87e6bb8604bc3ffe-106" prev="i-87e6bb8604bc3ffe-105" n="a7542cb2">
             <seg n="3c4e8bb0">
               partementschefen och pekar på att möjligheter till överläggningar
               om dessa ting står båda parter till buds.
@@ -4795,7 +4893,7 @@
           <note type="speaker" n="c5f09c28">
             Herr PETERSSON, ERIK FILIP, (fp):
           </note>
-          <u who="per_petersson_483a12" xml:id="i-71050764b42a069a-0" n="64e2cd80">
+          <u who="per_petersson_483a12" xml:id="i-64e2cd806f0afb01-0" next="i-87e6bb8604bc3ffe-107" n="64e2cd80">
             <seg n="4821562b">
               Herr talman! Det mesta är väl vid denna tid sagt om de angelägenheter
               som berörs i det sammansatta utskottets utlåtande, och jag har
@@ -4820,6 +4918,18 @@
               betraktar detta som grundläggande för att frågan över huvud taget
               skulle kunna lösas. Jag kan inte underlåta att citera ett par
             </seg>
+          </u>
+          <pb n="51" facs="https://betalab.kb.se/prot-1965--fk--25/prot_1965__fk__25-051.jp2/_view"/>
+          <note n="94dc40e2">
+            52 Nr 25
+          </note>
+          <note type="date" n="43ecfcc2">
+            Onsdagen den 19 maj 1965
+          </note>
+          <note n="53e90733">
+            Ang. statstjänstemännens rättsställning, m. m.
+          </note>
+          <u who="per_petersson_483a12" xml:id="i-87e6bb8604bc3ffe-107" prev="i-64e2cd806f0afb01-0" n="64e2cd80">
             <seg n="f3672686">
               meningar ur statsrådets uttalande, som finns återgivna i utskottsutlåtandet
               på s. 40: »Det lär väl numera allmänt anses, att Saltsjöbadsavtalet
@@ -4880,20 +4990,10 @@
               att motverka sitt syfte.
             </seg>
           </u>
-          <pb n="51" facs="https://betalab.kb.se/prot-1965--fk--25/prot_1965__fk__25-051.jp2/_view"/>
-          <note n="94dc40e2">
-            52 Nr 25
-          </note>
-          <note type="date" n="43ecfcc2">
-            Onsdagen den 19 maj 1965
-          </note>
-          <note n="53e90733">
-            Ang. statstjänstemännens rättsställning, m. m.
-          </note>
           <note type="speaker" n="fc078cb4">
             Fru SEGERSTEDT WIBERG (fp):
           </note>
-          <u who="unknown" xml:id="i-577cb67919601bb9-15" n="87e6bb86">
+          <u who="unknown" xml:id="i-87e6bb8604bc3ffe-108" n="87e6bb86">
             <seg n="0352f03d">
               Herr talman! Till skillnad från tidigare talare kommer jag att
               syssla uteslutande med proposition 88 om inskränkningar i rätten
@@ -4916,7 +5016,7 @@
           <note n="64b77459">
             Ang.
           </note>
-          <u who="unknown" xml:id="i-aa7319cd96283a86-15" n="87e6bb86">
+          <u who="unknown" xml:id="i-87e6bb8604bc3ffe-109" n="87e6bb86">
             <seg n="8db4413d">
               man dock förgäves efter i konstitutionsutskottets utlåtande nr
               30, för vilket socialdemokraterna i utskottet svarar — detta trots
@@ -4952,6 +5052,14 @@
               till sekretessens värde och nödvändighet. LO har också i sitt
               remissyttrande understrukit vikten av att offentlighet i
             </seg>
+          </u>
+          <note n="fb0e4e93">
+            Nr 25 53
+          </note>
+          <note n="0e11c722">
+            statstjänstemännens rättsställning, m. m.
+          </note>
+          <u who="unknown" xml:id="i-87e6bb8604bc3ffe-110" n="87e6bb86">
             <seg n="fee9991b">
               allmän verksamhet i största möjliga omfattning utsträckes och
               upprätthålles även på detta område. I den välskrivna motionen
@@ -4988,6 +5096,18 @@
               en avslutad förhandling och som eventuellt skall användas i nästa
               omgång. Argumenten
             </seg>
+          </u>
+          <pb n="53" facs="https://betalab.kb.se/prot-1965--fk--25/prot_1965__fk__25-053.jp2/_view"/>
+          <note n="c0e5ef11">
+            54 Nr 25
+          </note>
+          <note type="date" n="43ecfcc2">
+            Onsdagen den 19 maj 1965
+          </note>
+          <note n="53e90733">
+            Ang. statstjänstemännens rättsställning, m. m.
+          </note>
+          <u who="unknown" xml:id="i-87e6bb8604bc3ffe-111" n="87e6bb86">
             <seg n="0866f8f7">
               är säkert legio, och deras främsta kännetecken är en gemensam
               tilltro till nödvändigheten att några få invigda skall få bestämma
@@ -5059,22 +5179,6 @@
               Den hävdvunna offentlighetsprincipen bör endast i untagsfall inskränkas.
             </seg>
           </u>
-          <note n="fb0e4e93">
-            Nr 25 53
-          </note>
-          <note n="0e11c722">
-            statstjänstemännens rättsställning, m. m.
-          </note>
-          <pb n="53" facs="https://betalab.kb.se/prot-1965--fk--25/prot_1965__fk__25-053.jp2/_view"/>
-          <note n="c0e5ef11">
-            54 Nr 25
-          </note>
-          <note type="date" n="43ecfcc2">
-            Onsdagen den 19 maj 1965
-          </note>
-          <note n="53e90733">
-            Ang. statstjänstemännens rättsställning, m. m.
-          </note>
           <note n="d6313ed0">
             Jag kommer således att yrka bifall till de reservationer som
             fogats till konstitutionsutskottets utlåtande nr 30.
@@ -5082,7 +5186,7 @@
           <note type="speaker" n="2a2adcf1">
             Herr statsrådet LINDHOLM:
           </note>
-          <u who="sigurd_lindholm_704038" xml:id="i-6a56a06eabbd6e46-3" next="i-59d5fd850523f1ab-3" n="e97643dc">
+          <u who="sigurd_lindholm_704038" xml:id="i-87e6bb8604bc3ffe-112" next="i-87e6bb8604bc3ffe-114" n="e97643dc">
             <seg n="e883a913">
               Herr talman! Här har ytterligare argumenterats angående arbetstidens
               förläggning, och jag skall därför inte ta upp den frågan mera
@@ -5102,7 +5206,7 @@
           <note n="53e90733">
             Ang. statstjänstemännens rättsställning, m. m.
           </note>
-          <u who="sigurd_lindholm_704038" xml:id="i-59d5fd850523f1ab-3" prev="i-6a56a06eabbd6e46-3" n="e97643dc">
+          <u who="sigurd_lindholm_704038" xml:id="i-87e6bb8604bc3ffe-113" prev="i-87e6bb8604bc3ffe-112" n="e97643dc">
             <seg n="e161e2a7">
               att vi alla är överens om att någon förhandling om organisationens
               utformning icke skall förekomma utan att det skall vara en ensidig
@@ -5174,6 +5278,18 @@
               omfattning om hur den skall handhas. Därvid är att märka att det
               är fråga om en ny lag och att man utgår ifrån att stat och
             </seg>
+          </u>
+          <pb n="55" facs="https://betalab.kb.se/prot-1965--fk--25/prot_1965__fk__25-055.jp2/_view"/>
+          <note n="6c1f8427">
+            56 Nr 25
+          </note>
+          <note type="date" n="43ecfcc2">
+            Onsdagen den 19 maj 1965
+          </note>
+          <note n="53e90733">
+            Ang. statstjänstemännens rättsställning, m. m.
+          </note>
+          <u who="sigurd_lindholm_704038" xml:id="i-87e6bb8604bc3ffe-114" prev="i-87e6bb8604bc3ffe-112" n="e97643dc">
             <seg n="8eee750d">
               kommun skall vara likställda med enskilda arbetsgivare.
             </seg>
@@ -5196,20 +5312,10 @@
               för två år.
             </seg>
           </u>
-          <pb n="55" facs="https://betalab.kb.se/prot-1965--fk--25/prot_1965__fk__25-055.jp2/_view"/>
-          <note n="6c1f8427">
-            56 Nr 25
-          </note>
-          <note type="date" n="43ecfcc2">
-            Onsdagen den 19 maj 1965
-          </note>
-          <note n="53e90733">
-            Ang. statstjänstemännens rättsställning, m. m.
-          </note>
           <note type="speaker" n="5abfb893">
             Herr GEIJER, LENNART, genmäle:
           </note>
-          <u who="unknown" xml:id="i-577cb67919601bb9-16" n="87e6bb86">
+          <u who="unknown" xml:id="i-87e6bb8604bc3ffe-115" n="87e6bb86">
             <seg n="6a968be9">
               Herr talman! Jag återkommer till frågan om förhandlingsrätten
               i anledning av statsrådet Lindholms senaste anförande och vill
@@ -5230,7 +5336,7 @@
           <note n="5e0db2da">
             (s) kort
           </note>
-          <u who="unknown" xml:id="i-aa7319cd96283a86-16" n="87e6bb86">
+          <u who="unknown" xml:id="i-87e6bb8604bc3ffe-116" n="87e6bb86">
             <seg n="e1109478">
               vanligt att tjänstemännen förhandlar om arbetstidens förläggning.
               Att även arbetarna gör det är ju välbekant. Jag tänker t. ex.
@@ -5250,7 +5356,7 @@
           <note type="speaker" n="2a2adcf1">
             Herr statsrådet LINDHOLM:
           </note>
-          <u who="sigurd_lindholm_704038" xml:id="i-9ebe615bf95f6f11-0" n="e97643dc">
+          <u who="sigurd_lindholm_704038" xml:id="i-87e6bb8604bc3ffe-117" n="e97643dc">
             <seg n="4f899856">
               Herr talman! Herr Lennart Geijer åberopade de kollektivavtal
               som nu finns på den statliga sektorn och i vilka inte är upptagen
@@ -5270,7 +5376,7 @@
           <note type="speaker" n="fc078cb4">
             Fru SEGERSTEDT WIBERG (fp):
           </note>
-          <u who="unknown" xml:id="i-577cb67919601bb9-17" n="87e6bb86">
+          <u who="unknown" xml:id="i-87e6bb8604bc3ffe-118" n="87e6bb86">
             <seg n="ca7ca2dc">
               Herr talman! Jag tror inte statsrådet Lindholm var inne i kammaren
               under hela mitt anförande. Det förklarar att han inte hörde att
@@ -5288,7 +5394,7 @@
           <note n="53e90733">
             Ang. statstjänstemännens rättsställning, m. m.
           </note>
-          <u who="unknown" xml:id="i-aa7319cd96283a86-17" n="87e6bb86">
+          <u who="unknown" xml:id="i-87e6bb8604bc3ffe-119" n="87e6bb86">
             <seg n="12aedbe7">
               redning skett är jag fullt medveten om liksom om att det förekommit
               ett remissförfarande i vanlig ordning.
@@ -5297,7 +5403,7 @@
           <note type="speaker" n="501d7819">
             Herr statsrådet menar att jag överdrev LO:
           </note>
-          <u who="unknown" xml:id="i-e2916a7fe6773950-2" n="87e6bb86">
+          <u who="unknown" xml:id="i-87e6bb8604bc3ffe-120" n="87e6bb86">
             <seg n="5970efc2">
               s kritik, men jag kan inte finna annat än att LO starkt understryker
               vikten av att offentlighet i allmän verksamhet i största möjliga
@@ -5345,7 +5451,7 @@
           <note type="speaker" n="13c7b678">
             Herr statsrådet HERMANSSON:
           </note>
-          <u who="c-h_hermansson_9382c3" xml:id="i-83d376236547fd0c-0" next="i-7e4447c740bc2b6a-0" n="89119c8b">
+          <u who="c-h_hermansson_9382c3" xml:id="i-87e6bb8604bc3ffe-121" next="i-87e6bb8604bc3ffe-123" n="89119c8b">
             <seg n="a98ccfc8">
               Herr talman! Efter fru Segerstedt Wibergs första anförande och
               de stora ord hon då använde, och det försök att t. o. m. göra
@@ -5389,7 +5495,7 @@
           <note n="53e90733">
             Ang. statstjänstemännens rättsställning, m. m.
           </note>
-          <u who="c-h_hermansson_9382c3" xml:id="i-7e4447c740bc2b6a-0" prev="i-83d376236547fd0c-0" n="89119c8b">
+          <u who="c-h_hermansson_9382c3" xml:id="i-87e6bb8604bc3ffe-122" prev="i-87e6bb8604bc3ffe-121" n="89119c8b">
             <seg n="af9cb6ce">
               kommun som arbetsgivare bör bli jämställda med andra arbetsgivare
               och att offentligheten inte skall leda till men för stat och kommun
@@ -5470,6 +5576,18 @@
               och har aldrig hittills ansett strida mot tryckfrihetsförordningens
               regler.
             </seg>
+          </u>
+          <pb n="58" facs="https://betalab.kb.se/prot-1965--fk--25/prot_1965__fk__25-058.jp2/_view"/>
+          <note type="date" n="43ecfcc2">
+            Onsdagen den 19 maj 1965
+          </note>
+          <note n="4f52444a">
+            Nr 25 59
+          </note>
+          <note n="53e90733">
+            Ang. statstjänstemännens rättsställning, m. m.
+          </note>
+          <u who="c-h_hermansson_9382c3" xml:id="i-87e6bb8604bc3ffe-123" prev="i-87e6bb8604bc3ffe-121" n="89119c8b">
             <seg n="441ebc96">
               Nu gör fru Segerstedt Wiberg gällande att denna bestämmelse i
               alla fall skulle strida mot 2:9 tryckfrihetsförordningen, därför
@@ -5529,20 +5647,10 @@
               folkpartiet skulle efterträda socialdemokraterna.
             </seg>
           </u>
-          <pb n="58" facs="https://betalab.kb.se/prot-1965--fk--25/prot_1965__fk__25-058.jp2/_view"/>
-          <note type="date" n="43ecfcc2">
-            Onsdagen den 19 maj 1965
-          </note>
-          <note n="4f52444a">
-            Nr 25 59
-          </note>
-          <note n="53e90733">
-            Ang. statstjänstemännens rättsställning, m. m.
-          </note>
           <note type="speaker" n="2a2adcf1">
             Herr statsrådet LINDHOLM:
           </note>
-          <u who="sigurd_lindholm_704038" xml:id="i-9ebe615bf95f6f11-1" n="e97643dc">
+          <u who="sigurd_lindholm_704038" xml:id="i-87e6bb8604bc3ffe-124" n="e97643dc">
             <seg n="b19b485e">
               Herr talman! Jag har icke sagt i någon replik att jag icke litade
               på folkpartiet. Det var fru Segerstedt Wiberg som sade att det
@@ -5564,7 +5672,7 @@
           <note type="speaker" n="13c7b678">
             Herr statsrådet HERMANSSON:
           </note>
-          <u who="c-h_hermansson_9382c3" xml:id="i-83d376236547fd0c-1" next="i-7e4447c740bc2b6a-1" n="89119c8b">
+          <u who="c-h_hermansson_9382c3" xml:id="i-87e6bb8604bc3ffe-125" next="i-87e6bb8604bc3ffe-126" n="89119c8b">
             <seg n="8c7c1545">
               Herr talman! Vad jag syftade på med ordet politik var kanske
               inte riktigt vad statsrådet Lindholm sade. Jag syftade på att
@@ -5583,7 +5691,7 @@
           <note n="53e90733">
             Ang. statstjänstemännens rättsställning, m. m.
           </note>
-          <u who="c-h_hermansson_9382c3" xml:id="i-7e4447c740bc2b6a-1" prev="i-83d376236547fd0c-1" n="89119c8b">
+          <u who="c-h_hermansson_9382c3" xml:id="i-87e6bb8604bc3ffe-126" prev="i-87e6bb8604bc3ffe-125" n="89119c8b">
             <seg n="b3c8ee2b">
               var det jag ville reagera mot, och det vill jag fortfarande reagera
               mot, och det kallar jag politik att säga något sådant i en sak
@@ -5607,7 +5715,7 @@
           <note type="speaker" n="1794950c">
             Herr GEIJER, ARNE, (s):
           </note>
-          <u who="unknown" xml:id="i-577cb67919601bb9-18" n="87e6bb86">
+          <u who="unknown" xml:id="i-87e6bb8604bc3ffe-127" n="87e6bb86">
             <seg n="f2bc32ab">
               Herr talman! Den lagstiftning som nu föreslås och som väl kommer
               att beslutas av kamrarna i dag innebär ett mycket stort framsteg
@@ -5677,7 +5785,7 @@
           <note n="53e90733">
             Ang. statstjänstemännens rättsställning, m. m.
           </note>
-          <u who="unknown" xml:id="i-aa7319cd96283a86-18" n="87e6bb86">
+          <u who="unknown" xml:id="i-87e6bb8604bc3ffe-128" n="87e6bb86">
             <seg n="247509b2">
               möjligheten att sluta avtal om annan ledighet än semester. Det
               är naturligtvis också en fråga som hör till avtalsparternas domäner.
@@ -5748,6 +5856,18 @@
               rör delproblem och säger läsaren litet eller ingenting om vad
               som i verkligheten har förekommit. Alla som har sysslat med
             </seg>
+          </u>
+          <pb n="61" facs="https://betalab.kb.se/prot-1965--fk--25/prot_1965__fk__25-061.jp2/_view"/>
+          <note n="c9487912">
+            62 Nr 25
+          </note>
+          <note type="date" n="43ecfcc2">
+            Onsdagen den 19 maj 1965
+          </note>
+          <note n="53e90733">
+            Ang. statstjänstemännens rättsställning, m. m.
+          </note>
+          <u who="unknown" xml:id="i-87e6bb8604bc3ffe-129" n="87e6bb86">
             <seg n="9bfdb5e9">
               detta slag av arbete vet att en avtalsförhandling, som sträcker
               sig över en lång tidsperiod, är en mycket komplicerad process
@@ -5819,20 +5939,10 @@
               Det var på den punkten jag uttryckte mina farhågor.
             </seg>
           </u>
-          <pb n="61" facs="https://betalab.kb.se/prot-1965--fk--25/prot_1965__fk__25-061.jp2/_view"/>
-          <note n="c9487912">
-            62 Nr 25
-          </note>
-          <note type="date" n="43ecfcc2">
-            Onsdagen den 19 maj 1965
-          </note>
-          <note n="53e90733">
-            Ang. statstjänstemännens rättsställning, m. m.
-          </note>
           <note type="speaker" n="13c7b678">
             Herr statsrådet HERMANSSON:
           </note>
-          <u who="c-h_hermansson_9382c3" xml:id="i-83d376236547fd0c-2" next="i-7e4447c740bc2b6a-2" n="89119c8b">
+          <u who="c-h_hermansson_9382c3" xml:id="i-87e6bb8604bc3ffe-130" next="i-87e6bb8604bc3ffe-133" n="89119c8b">
             <seg n="9ceb1626">
               Herr talman! Jag är glad över att lagboken var tydligare än jag.
               Å andra sidan hörde alla herr Hernelius” förmåga att missförstå:
@@ -5851,7 +5961,7 @@
           <note n="64b77459">
             Ang.
           </note>
-          <u who="c-h_hermansson_9382c3" xml:id="i-7e4447c740bc2b6a-2" prev="i-83d376236547fd0c-2" n="89119c8b">
+          <u who="c-h_hermansson_9382c3" xml:id="i-87e6bb8604bc3ffe-131" prev="i-87e6bb8604bc3ffe-130" n="89119c8b">
             <seg n="fe525eac">
               na här regler står i överensstämmelse med 2:9 tryckfrihetsförordningen,
               vilket herr Herrnelius nu tycks ha blivit övertygad om av lagboken.
@@ -5895,6 +6005,14 @@
               den offentliga arbetsmarknaden var känsligare än den privata vid
               konflikter var fel-
             </seg>
+          </u>
+          <note n="770666ef">
+            Nr 25 63
+          </note>
+          <note n="0e11c722">
+            statstjänstemännens rättsställning, m. m.
+          </note>
+          <u who="c-h_hermansson_9382c3" xml:id="i-87e6bb8604bc3ffe-132" prev="i-87e6bb8604bc3ffe-130" n="89119c8b">
             <seg n="81708cdc">
               aktigt. Det är kanske förmätet av mig att ta upp ett resonemang
               med herr Arne Geijer i en sådan sak, men jag ifrågasätter ändå
@@ -5931,18 +6049,7 @@
               i alla avseenden kommer att stå stilla under den tiden. Så snart
               man kommer in på ekonomiska faktorer kan vi alltså säga
             </seg>
-            <seg n="b6299757">
-              att den privata arbetsmarknaden är viktigare än den offentliga
-              arbetsmarknaden. När det gäller vården av människor har dock den
-              offentliga arbetsmarknaden självfallet en större betydelse.
-            </seg>
           </u>
-          <note n="770666ef">
-            Nr 25 63
-          </note>
-          <note n="0e11c722">
-            statstjänstemännens rättsställning, m. m.
-          </note>
           <pb n="63" facs="https://betalab.kb.se/prot-1965--fk--25/prot_1965__fk__25-063.jp2/_view"/>
           <note n="a63adb6f">
             64 Nr 25
@@ -5953,10 +6060,17 @@
           <note n="53e90733">
             Ang. statstjänstemännens rättsställning, m. m.
           </note>
+          <u who="c-h_hermansson_9382c3" xml:id="i-87e6bb8604bc3ffe-133" prev="i-87e6bb8604bc3ffe-130" n="89119c8b">
+            <seg n="b6299757">
+              att den privata arbetsmarknaden är viktigare än den offentliga
+              arbetsmarknaden. När det gäller vården av människor har dock den
+              offentliga arbetsmarknaden självfallet en större betydelse.
+            </seg>
+          </u>
           <note type="speaker" n="752e4d14">
             Herr förste vice talmannen STRAND (s):
           </note>
-          <u who="unknown" xml:id="i-577cb67919601bb9-19" n="87e6bb86">
+          <u who="unknown" xml:id="i-87e6bb8604bc3ffe-134" n="87e6bb86">
             <seg n="74329bbd">
               Herr talman! Jag har under överläggningen inte begagnat möjligheterna
               till replik i olika avseenden. Jag tror att det blir bättre behållning
@@ -6033,7 +6147,7 @@
           <note n="53e90733">
             Ang. statstjänstemännens rättsställning, m. m.
           </note>
-          <u who="unknown" xml:id="i-aa7319cd96283a86-19" n="87e6bb86">
+          <u who="unknown" xml:id="i-87e6bb8604bc3ffe-135" n="87e6bb86">
             <seg n="50d42eb4">
               det liksom på sådana områden där kollektivavtal icke tillämpas.
             </seg>
@@ -6070,6 +6184,11 @@
               som hittills får fastställa det tvisten sväller; de anställda
               fortsätter att arbeta
             </seg>
+          </u>
+          <note n="6c9930e1">
+            5 Första kammarens protokoll 1965. Nr 25
+          </note>
+          <u who="unknown" xml:id="i-87e6bb8604bc3ffe-136" n="87e6bb86">
             <seg n="ba00e880">
               enligt hans bestämmelser men under protest och i förhoppning
               att frågan skall kunna lösas på ett bättre sätt en annan gång.
@@ -6108,6 +6227,21 @@
               kunna konstateras, att det inte sker någon förändring i den hittills
               tillämpade principen, utan den får fortsätta att gäl-
             </seg>
+          </u>
+          <pb n="65" facs="https://betalab.kb.se/prot-1965--fk--25/prot_1965__fk__25-065.jp2/_view"/>
+          <note n="e1efdfe5">
+            66 Nr 25
+          </note>
+          <note type="date" n="43ecfcc2">
+            Onsdagen den 19 maj 1965
+          </note>
+          <note n="53e90733">
+            Ang. statstjänstemännens rättsställning, m. m.
+          </note>
+          <note n="ed6b888d">
+            la i fråga om arbetstidens förläggning.
+          </note>
+          <u who="unknown" xml:id="i-87e6bb8604bc3ffe-137" n="87e6bb86">
             <seg n="301d154a">
               I fråga om annan ledighet än semester har jag inte hört att det
               skulle vara särskilt otillfredsställande ordnat på statstjänarområdet.
@@ -6180,29 +6314,7 @@
               även om den hittills inte kunnat ta sig uttryck i ett träffat
               avtal. Sedan får vi väl allesammans räkna med att erfarenhe-
             </seg>
-            <seg n="bf1ef946">
-              terna kan komma att ge till resultat behov av ändringar i det
-              ena eller andra avseendet. Vi har inte lyckats någon gång tidigare
-              att göra en lag fullkomlig redan från början, och jag tror att
-              vi skall utgå ifrån att det inte är möjligt i det här fallet heller.
-            </seg>
           </u>
-          <note n="6c9930e1">
-            5 Första kammarens protokoll 1965. Nr 25
-          </note>
-          <pb n="65" facs="https://betalab.kb.se/prot-1965--fk--25/prot_1965__fk__25-065.jp2/_view"/>
-          <note n="e1efdfe5">
-            66 Nr 25
-          </note>
-          <note type="date" n="43ecfcc2">
-            Onsdagen den 19 maj 1965
-          </note>
-          <note n="53e90733">
-            Ang. statstjänstemännens rättsställning, m. m.
-          </note>
-          <note n="ed6b888d">
-            la i fråga om arbetstidens förläggning.
-          </note>
           <pb n="66" facs="https://betalab.kb.se/prot-1965--fk--25/prot_1965__fk__25-066.jp2/_view"/>
           <note type="date" n="43ecfcc2">
             Onsdagen den 19 maj 1965
@@ -6213,6 +6325,14 @@
           <note n="53e90733">
             Ang. statstjänstemännens rättsställning, m. m.
           </note>
+          <u who="unknown" xml:id="i-87e6bb8604bc3ffe-138" n="87e6bb86">
+            <seg n="bf1ef946">
+              terna kan komma att ge till resultat behov av ändringar i det
+              ena eller andra avseendet. Vi har inte lyckats någon gång tidigare
+              att göra en lag fullkomlig redan från början, och jag tror att
+              vi skall utgå ifrån att det inte är möjligt i det här fallet heller.
+            </seg>
+          </u>
           <note n="7308359e">
             Efter det överläggningen förklarats härmed slutad, yttrade herr
             talmannen, att med anledning av vad därunder yrkats propositioner
@@ -6276,7 +6396,7 @@
           <note type="speaker" n="7f4ac54b">
             Herr TALMANNEN yttrade:
           </note>
-          <u who="unknown" xml:id="i-577cb67919601bb9-20" n="87e6bb86">
+          <u who="unknown" xml:id="i-87e6bb8604bc3ffe-139" n="87e6bb86">
             <seg n="439cef29">
               Efter att ha genomgått de ärenden som föreligger till behandling
               i dag och i morgon samt väntas bli bordlagda i dag för behandling
@@ -6303,48 +6423,11 @@
             lördag; erfordras till följd av skiljaktiga beslut särskilt plenum
             efter lördagen hålles sådant måndagen den 31.
           </note>
-          <u who="unknown" xml:id="i-aa7319cd96283a86-20" n="87e6bb86">
+          <u who="unknown" xml:id="i-87e6bb8604bc3ffe-140" n="87e6bb86">
             <seg n="6db8664d">
               Nästa vecka hålles kvällsplenum på tisdag, om så erfordras, men
               ej på onsdag, och vidare torde kvällsplenum bli erforderligt på
               fredag.
-            </seg>
-            <seg n="4fe851f0">
-              Har avtal träffats i strid mot bestämmelserna i andra stycket,
-              är avtalet i denna del utan verkan.»
-            </seg>
-            <seg n="ae192336">
-              b) myndighets eller inrättnings arbetsuppgifter, ledningen och
-              fördelningen av arbetet inom myndigheten eller inrättningen, arbetstidens
-              förläggning eller rätt till annan ledighet än semester;
-            </seg>
-            <seg n="4fe851f0">
-              Har avtal träffats i strid mot bestämmelserna i andra stycket,
-              är avtalet i denna del utan verkan.»
-            </seg>
-            <seg n="70a4a2c6">
-              Har avtal träffats i strid mot vad i denna paragraf stadgas,
-              är avtalet i sådan del utan verkan»;
-            </seg>
-            <seg n="bfe3796a">
-              a) att avtal skulle kunna slutas om arbetstidens förläggning
-              och rätt till annan ledighet än semester,
-            </seg>
-            <seg n="aa51e9a2">
-              b) myndighets eller inrättnings arbetsuppgifter samt ledningen
-              och fördelningen av arbetet inom myndigheten eller inrättningen;
-            </seg>
-            <seg n="9c794109">
-              Har avtal träffats i strid mot bestämmelserna i andra och tredje
-              styckena, är avtalet i denna del utan verkan.»
-            </seg>
-            <seg n="41750284">
-              b) myndighets arbetsuppgifter eller ledningen och fördelningen
-              av arbetet inom myndigheten;
-            </seg>
-            <seg n="8c91cd9d">
-              b) myndighets eller inrättnings arbetsuppgifter eller ledningen
-              och fördelningen av arbetet inom myndigheten eller inrättningen;
             </seg>
           </u>
           <pb n="67" facs="https://betalab.kb.se/prot-1965--fk--25/prot_1965__fk__25-067.jp2/_view"/>
@@ -6456,6 +6539,12 @@
             i författning vartill lagen hänvisar eller enligt lagen tillhör
             Konungens, riksdagens eller myndighets beslutanderätt.
           </note>
+          <u who="unknown" xml:id="i-87e6bb8604bc3ffe-141" n="87e6bb86">
+            <seg n="4fe851f0">
+              Har avtal träffats i strid mot bestämmelserna i andra stycket,
+              är avtalet i denna del utan verkan.»
+            </seg>
+          </u>
           <note n="3e897bb6">
             I förslaget till kommunaltjänstemannalag hade 2 $ erhållit följande
             lydelse:
@@ -6481,11 +6570,24 @@
           <note n="cfed7c6e">
             Ang. de offentliga tjänstemännens förhandlingsrätt
           </note>
+          <u who="unknown" xml:id="i-87e6bb8604bc3ffe-142" n="87e6bb86">
+            <seg n="ae192336">
+              b) myndighets eller inrättnings arbetsuppgifter, ledningen och
+              fördelningen av arbetet inom myndigheten eller inrättningen, arbetstidens
+              förläggning eller rätt till annan ledighet än semester;
+            </seg>
+          </u>
           <note n="8b1ce1d3">
             c) anställningsvillkor som regleras i lag eller annan författning
             och angår tjänstetillsättning, disciplinär bestraffning eller
             anställnings upphörande.
           </note>
+          <u who="unknown" xml:id="i-87e6bb8604bc3ffe-143" n="87e6bb86">
+            <seg n="4fe851f0">
+              Har avtal träffats i strid mot bestämmelserna i andra stycket,
+              är avtalet i denna del utan verkan.»
+            </seg>
+          </u>
           <note n="6cf7c641">
             Till det sammansatta utskottet hade hänskjutits
           </note>
@@ -6558,6 +6660,12 @@
             c) myndighets arbetsuppgifter, ledningen och fördelningen av
             arbetet inom myndigheten samt rätt till annan ledighet än semester.
           </note>
+          <u who="unknown" xml:id="i-87e6bb8604bc3ffe-144" n="87e6bb86">
+            <seg n="70a4a2c6">
+              Har avtal träffats i strid mot vad i denna paragraf stadgas,
+              är avtalet i sådan del utan verkan»;
+            </seg>
+          </u>
           <note n="3daaf11d">
             2) 3 $ kommunaltjänstemannalagen skulle erhålla i motionerna
             angiven lydelse, vilket förslag avsåg en utökning av de tillåtliga
@@ -6576,6 +6684,12 @@
             I motionerna 1:717 och II: 841 hade anhållits, att riksdagen
             måtte besluta,
           </note>
+          <u who="unknown" xml:id="i-87e6bb8604bc3ffe-145" n="87e6bb86">
+            <seg n="bfe3796a">
+              a) att avtal skulle kunna slutas om arbetstidens förläggning
+              och rätt till annan ledighet än semester,
+            </seg>
+          </u>
           <pb n="69" facs="https://betalab.kb.se/prot-1965--fk--25/prot_1965__fk__25-069.jp2/_view"/>
           <note n="4b74f71d">
             70 Nr 25
@@ -6630,10 +6744,22 @@
             a) inrättande eller indragning av tjänst eller tjänsteorganisationens
             utformning i övrigt;
           </note>
+          <u who="unknown" xml:id="i-87e6bb8604bc3ffe-146" n="87e6bb86">
+            <seg n="aa51e9a2">
+              b) myndighets eller inrättnings arbetsuppgifter samt ledningen
+              och fördelningen av arbetet inom myndigheten eller inrättningen;
+            </seg>
+          </u>
           <note n="b2313323">
             c) tjänstetillsättning, disciplinär bestraffning eller anställnings
             upphörande.
           </note>
+          <u who="unknown" xml:id="i-87e6bb8604bc3ffe-147" n="87e6bb86">
+            <seg n="9c794109">
+              Har avtal träffats i strid mot bestämmelserna i andra och tredje
+              styckena, är avtalet i denna del utan verkan.»
+            </seg>
+          </u>
           <note n="98650346">
             I motionerna 1: 719 och II: 840 hade yrkats, att riksdagen skulle
             besluta,
@@ -6730,6 +6856,12 @@
             a) inrättande eller indragning av tjänst eller tjänsteorganisationens
             utformning i övrigt;
           </note>
+          <u who="unknown" xml:id="i-87e6bb8604bc3ffe-148" n="87e6bb86">
+            <seg n="41750284">
+              b) myndighets arbetsuppgifter eller ledningen och fördelningen
+              av arbetet inom myndigheten;
+            </seg>
+          </u>
           <note n="93cd9e8f">
             c) anställningseller arbetsvillkor som regleras i denna lag eller
             i författning vartill lagen hänvisar eller enligt lagen tillhör
@@ -6785,6 +6917,12 @@
             a) inrättande eller indragning av tjänst eller tjänsteorganisationens
             utformning i övrigt;
           </note>
+          <u who="unknown" xml:id="i-87e6bb8604bc3ffe-149" n="87e6bb86">
+            <seg n="8c91cd9d">
+              b) myndighets eller inrättnings arbetsuppgifter eller ledningen
+              och fördelningen av arbetet inom myndigheten eller inrättningen;
+            </seg>
+          </u>
           <note n="8b1ce1d3">
             c) anställningsvillkor som regleras i lag eller annan författning
             och angår tjänstetillsättning, disciplinär bestraffning eller
@@ -6998,7 +7136,7 @@
           <note type="speaker" n="752e4d14">
             Herr förste vice talmannen STRAND (s):
           </note>
-          <u who="unknown" xml:id="i-e2916a7fe6773950-3" n="87e6bb86"/>
+          <u who="unknown" xml:id="i-87e6bb8604bc3ffe-150" n="87e6bb86"/>
           <note n="877701df">
             Herr talman! Jag yrkar bifall till reservationen under punkterna
             A och B.
@@ -7006,7 +7144,7 @@
           <note type="speaker" n="243f87a3">
             Herr KÄLLQVIST (fp):
           </note>
-          <u who="unknown" xml:id="i-577cb67919601bb9-21" n="87e6bb86">
+          <u who="unknown" xml:id="i-87e6bb8604bc3ffe-151" n="87e6bb86">
             <seg n="ffbd64f5">
               Herr talman! Jag ber att få yrka bifall till utskottets förslag.
             </seg>
@@ -7049,49 +7187,19 @@
             Den, som bifaller vad sammansatta konstitutionsoch andra lagutskottet
             hemställt i sitt utlåtande nr 1 punkterna A och B, röstar
           </note>
-          <u who="unknown" xml:id="i-aa7319cd96283a86-21" n="87e6bb86">
+          <u who="unknown" xml:id="i-87e6bb8604bc3ffe-152" n="87e6bb86">
             <seg n="4a6d09a0">
               Ja;
-            </seg>
-            <seg n="210d27b1">
-              Nej;
-            </seg>
-            <seg n="7ffb595b">
-              ler statligt eller kommunalt företag har att deltaga, eller vid
-              förberedelse till sådan förhandling, må ej utan tillstånd av myndighet
-              som anges i tredje stycket utlämnas förrän fem år förflutit från
-              handlingens datum. Har sådan handling upprättats hos eller inkommit
-              till riksdagens lönedelegation, må den dock ej hemlighållas längre
-              än till dess förhandlingsöverenskommelse träffats eller förhandlingen
-              eljest slutförts.
-            </seg>
-            <seg n="eb00f1b8">
-              Om tillstånd för statsmyndighet att utlämna handling som avses
-              i första eller andra stycket beslutar statens avtalsverk eller,
-              om handlingen tillhör förhandlingsärende som utan avtalsverkets
-              medverkan handlägges av annan statlig myndighet, denna. Begär
-              någon att hos riksdagens lönedelegation utfå sådan handling, ankommer
-              det dock på lönedelegationen eller myndighet, som denna bestämmer,
-              att besluta i tillståndsfrågan. Om tillstånd för kommunalmyndighet
-              att utlämna sådan handling beslutar den förvaltande myndighet
-              i kommunen som handlägger löneärenden eller, om handlingen tillhör
-              förhandlingsärende som utan nämnda myndighets medverkan handlägges
-              av annan myndighet i kommunen, denna myndighet.
-            </seg>
-            <seg n="b609635e">
-              »Handlingar, som innefatta utredning eller förslag och som tillkommit
-              för att begagnas vid sådan förhandling för slutande av kollektivavtal
-              eller för annan reglering av anställningsvillkor, vari myndighet,
-              kommunsammanslutning eller statligt eller kommunalt företag har
-              att deltaga, eller vid förberedelse till sådan förhandling, må
-              ej utlämnas förrän förhandlingsöverenskommelse träffats eller
-              förhandlingen eljest slutförts, såvida skäligen kan befaras att
-              utlämnandet skulle vara till men för förhandlingarna.»
             </seg>
           </u>
           <note n="080fb7b3">
             Den, det ej vill, röstar
           </note>
+          <u who="unknown" xml:id="i-87e6bb8604bc3ffe-153" n="87e6bb86">
+            <seg n="210d27b1">
+              Nej;
+            </seg>
+          </u>
           <note n="8c60182c">
             Vinner Nej, antages det förslag, som innefattas i den vid utlåtandet
             avgivna reservationen.
@@ -7166,12 +7274,38 @@
             Ang. sekretesskydd för vissa handlingar på förhandlingsväsendets
             område
           </note>
+          <u who="unknown" xml:id="i-87e6bb8604bc3ffe-154" n="87e6bb86">
+            <seg n="7ffb595b">
+              ler statligt eller kommunalt företag har att deltaga, eller vid
+              förberedelse till sådan förhandling, må ej utan tillstånd av myndighet
+              som anges i tredje stycket utlämnas förrän fem år förflutit från
+              handlingens datum. Har sådan handling upprättats hos eller inkommit
+              till riksdagens lönedelegation, må den dock ej hemlighållas längre
+              än till dess förhandlingsöverenskommelse träffats eller förhandlingen
+              eljest slutförts.
+            </seg>
+          </u>
           <note n="c47fcf05">
             Bestämmelserna i första stycket gälla även handlingar innefattande
             utredning eller förslag vilka från annan än myndighet inkommit
             för där angivet ändamål, även om handlingen tillkommit i annat
             syfte.
           </note>
+          <u who="unknown" xml:id="i-87e6bb8604bc3ffe-155" n="87e6bb86">
+            <seg n="eb00f1b8">
+              Om tillstånd för statsmyndighet att utlämna handling som avses
+              i första eller andra stycket beslutar statens avtalsverk eller,
+              om handlingen tillhör förhandlingsärende som utan avtalsverkets
+              medverkan handlägges av annan statlig myndighet, denna. Begär
+              någon att hos riksdagens lönedelegation utfå sådan handling, ankommer
+              det dock på lönedelegationen eller myndighet, som denna bestämmer,
+              att besluta i tillståndsfrågan. Om tillstånd för kommunalmyndighet
+              att utlämna sådan handling beslutar den förvaltande myndighet
+              i kommunen som handlägger löneärenden eller, om handlingen tillhör
+              förhandlingsärende som utan nämnda myndighets medverkan handlägges
+              av annan myndighet i kommunen, denna myndighet.
+            </seg>
+          </u>
           <note n="a4b6e3d6">
             Samtidigt med propositionen hade utskottet förehaft till behandling
             följande motioner, nämligen
@@ -7199,6 +7333,18 @@
             att riksdagen i samband med behandlingen av propositionen måtte
             för sin del antaga följande förslag till lydelse av 35 $ sekretesslagen:
           </note>
+          <u who="unknown" xml:id="i-87e6bb8604bc3ffe-156" n="87e6bb86">
+            <seg n="b609635e">
+              »Handlingar, som innefatta utredning eller förslag och som tillkommit
+              för att begagnas vid sådan förhandling för slutande av kollektivavtal
+              eller för annan reglering av anställningsvillkor, vari myndighet,
+              kommunsammanslutning eller statligt eller kommunalt företag har
+              att deltaga, eller vid förberedelse till sådan förhandling, må
+              ej utlämnas förrän förhandlingsöverenskommelse träffats eller
+              förhandlingen eljest slutförts, såvida skäligen kan befaras att
+              utlämnandet skulle vara till men för förhandlingarna.»
+            </seg>
+          </u>
           <note n="a09ccde9">
             Utskottet hade i det nu föredragna utlåtandet på åberopade grunder
             hemställt, att riksdagen måtte, med avslag på motionerna I: 726
@@ -7250,7 +7396,7 @@
           <note type="speaker" n="fc078cb4">
             Fru SEGERSTEDT WIBERG (fp):
           </note>
-          <u who="unknown" xml:id="i-e2916a7fe6773950-4" n="87e6bb86">
+          <u who="unknown" xml:id="i-87e6bb8604bc3ffe-157" n="87e6bb86">
             <seg n="831cd80a">
               Herr talman! Jag ber att få yrka bifall till reservationerna
               I, II och III.
@@ -7259,7 +7405,7 @@
           <note type="speaker" n="cd908b8a">
             Herr PETTERSSON, GEORG, (s):
           </note>
-          <u who="unknown" xml:id="i-577cb67919601bb9-22" n="87e6bb86">
+          <u who="unknown" xml:id="i-87e6bb8604bc3ffe-158" n="87e6bb86">
             <seg n="c86d26f8">
               Herr talman! Jag yrkar bifall till utskottets förslag.
             </seg>
@@ -7297,32 +7443,19 @@
             med den lydelse konstitutionsutskottet i utlåtande nr 30 föreslagit,
             röstar
           </note>
-          <u who="unknown" xml:id="i-aa7319cd96283a86-22" n="87e6bb86">
+          <u who="unknown" xml:id="i-87e6bb8604bc3ffe-159" n="87e6bb86">
             <seg n="4a6d09a0">
               Ja;
-            </seg>
-            <seg n="210d27b1">
-              Nej;
-            </seg>
-            <seg n="b6c08567">
-              Om anslag till Religionspedagogiska institutet i Uppsala
-            </seg>
-            <seg n="80ed31c8">
-              JAG
-            </seg>
-            <seg n="210d27b1">
-              Nej;
-            </seg>
-            <seg n="b6c08567">
-              Om anslag till Religionspedagogiska institutet i Uppsala
-            </seg>
-            <seg n="b6c08567">
-              Om anslag till Religionspedagogiska institutet i Uppsala
             </seg>
           </u>
           <note n="080fb7b3">
             Den, det ej vill, röstar
           </note>
+          <u who="unknown" xml:id="i-87e6bb8604bc3ffe-160" n="87e6bb86">
+            <seg n="210d27b1">
+              Nej;
+            </seg>
+          </u>
           <note n="fcb9a3cb">
             Vinner Nej, godkännes stadgandet med den lydelse, som föreslagits
             i den av fru Segerstedt Wiberg m. fl. vid utlåtandet avgivna,
@@ -7358,6 +7491,11 @@
           <note n="306da5fc">
             Nr 25 77
           </note>
+          <u who="unknown" xml:id="i-87e6bb8604bc3ffe-161" n="87e6bb86">
+            <seg n="b6c08567">
+              Om anslag till Religionspedagogiska institutet i Uppsala
+            </seg>
+          </u>
           <note n="676c1124">
             reslagit samt vidare därpå att stadgandet skulle utgå i enlighet
             med vad som förordats i den av fru Segerstedt Wiberg m. fl. vid
@@ -7376,9 +7514,19 @@
             med den lydelse konstitutionsutskottet i utlåtande nr 30 föreslagit,
             röstar
           </note>
+          <u who="unknown" xml:id="i-87e6bb8604bc3ffe-162" n="87e6bb86">
+            <seg n="80ed31c8">
+              JAG
+            </seg>
+          </u>
           <note n="080fb7b3">
             Den, det ej vill, röstar
           </note>
+          <u who="unknown" xml:id="i-87e6bb8604bc3ffe-163" n="87e6bb86">
+            <seg n="210d27b1">
+              Nej;
+            </seg>
+          </u>
           <note n="2583a197">
             Vinner Nej, utgår stadgandet i enlighet med vad som föreslagits
             i den av fru Segerstedt Wiberg m. fl. vid utlåtandet avgivna,
@@ -7428,6 +7576,11 @@
             svenska FN-styrkor m. m., bifölls vad utskottet i detta utlåtande
             hemställt.
           </note>
+          <u who="unknown" xml:id="i-87e6bb8604bc3ffe-164" n="87e6bb86">
+            <seg n="b6c08567">
+              Om anslag till Religionspedagogiska institutet i Uppsala
+            </seg>
+          </u>
           <note n="99f080db">
             Föredrogs ånyo statsutskottets utlåtande nr 95, i anledning av
             väckta motioner om anslag till Religionspedagogiska institutet
@@ -7457,6 +7610,11 @@
           <note type="date" n="43ecfcc2">
             Onsdagen den 19 maj 1965
           </note>
+          <u who="unknown" xml:id="i-87e6bb8604bc3ffe-165" n="87e6bb86">
+            <seg n="b6c08567">
+              Om anslag till Religionspedagogiska institutet i Uppsala
+            </seg>
+          </u>
           <note n="2a0c5ade">
             Hedenäset, Nelander, Mattsson och Nordstrandh, vilka ansett,
             att utskottets yttrande bort i viss angiven del hava den lydelse,
@@ -7468,7 +7626,7 @@
           <note type="speaker" n="83cfffbb">
             Herr ANDERSSON, AXEL, (fp):
           </note>
-          <u who="sven_andersson_240a39" xml:id="i-510201cf9d11f1ca-0" n="9792ff96">
+          <u who="sven_andersson_240a39" xml:id="i-87e6bb8604bc3ffe-166" n="9792ff96">
             <seg n="a07b3aff">
               Herr talman! Jag har aldrig upphört att förvånas över den bristande
               förståelse, för att inte säga den avoghet, som samhället ofta
@@ -7546,7 +7704,7 @@
           <note type="speaker" n="d0e4a8fe">
             Herr NÄSSTRÖM (s):
           </note>
-          <u who="unknown" xml:id="i-577cb67919601bb9-23" n="87e6bb86">
+          <u who="unknown" xml:id="i-87e6bb8604bc3ffe-167" n="87e6bb86">
             <seg n="09f45308">
               Herr talman! Under tre år i följd har riksdagen avslagit liknande
               motioner. Majoriteten inom utskottet har ansett
@@ -7559,7 +7717,7 @@
           <note n="066a67ca">
             Nr 25 79
           </note>
-          <u who="unknown" xml:id="i-aa7319cd96283a86-23" n="87e6bb86">
+          <u who="unknown" xml:id="i-87e6bb8604bc3ffe-168" n="87e6bb86">
             <seg n="b6c08567">
               Om anslag till Religionspedagogiska institutet i Uppsala
             </seg>
@@ -7574,7 +7732,7 @@
           <note type="speaker" n="83cfffbb">
             Herr ANDERSSON, AXEL, (fp):
           </note>
-          <u who="sven_andersson_240a39" xml:id="i-510201cf9d11f1ca-1" n="9792ff96">
+          <u who="sven_andersson_240a39" xml:id="i-87e6bb8604bc3ffe-169" n="9792ff96">
             <seg n="6ce571ee">
               Herr talman! Jag skulle vara mycket tacksam om andra avdelningens
               ordförande kunde ge en närmare förklaring till denna hänvisning,
@@ -7594,7 +7752,7 @@
           <note type="speaker" n="d0e4a8fe">
             Herr NÄSSTRÖM (s):
           </note>
-          <u who="unknown" xml:id="i-e2916a7fe6773950-5" n="87e6bb86">
+          <u who="unknown" xml:id="i-87e6bb8604bc3ffe-170" n="87e6bb86">
             <seg n="dc3b66ed">
               Herr talman! Jag tror inte det är nödvändigt att herr Andersson
               och jag ger oss in på någon debatt här, ty i praktiken tror jag
@@ -7604,7 +7762,7 @@
           <note type="speaker" n="83cfffbb">
             Herr ANDERSSON, AXEL, (fp):
           </note>
-          <u who="sven_andersson_240a39" xml:id="i-a5df7e768a341523-0" next="i-8b36a1d8cddfd182-0" n="9792ff96">
+          <u who="sven_andersson_240a39" xml:id="i-87e6bb8604bc3ffe-171" next="i-87e6bb8604bc3ffe-173" n="9792ff96">
             <seg n="aa09763c">
               Herr talman! Ja, det kan jag faktiskt inte hålla med om, ty hade
               vi varit lika intresserade av detta båda två, skulle herr Näsström
@@ -7635,14 +7793,10 @@
           <note n="080fb7b3">
             Den, det ej vill, röstar
           </note>
-          <u who="sven_andersson_240a39" xml:id="i-8b36a1d8cddfd182-0" prev="i-a5df7e768a341523-0" n="9792ff96">
+          <u who="sven_andersson_240a39" xml:id="i-87e6bb8604bc3ffe-172" prev="i-87e6bb8604bc3ffe-171" n="9792ff96">
             <seg n="210d27b1">
               Nej;
             </seg>
-            <seg n="ba136a81">
-              givit, att han avstode från att rösta.
-            </seg>
-            <seg n="68e4cc01"/>
           </u>
           <note n="8c60182c">
             Vinner Nej, antages det förslag, som innefattas i den vid utlåtandet
@@ -7665,6 +7819,12 @@
           <note n="20b440ed">
             Därjämte hade 1 ledamot tillkänna-
           </note>
+          <u who="sven_andersson_240a39" xml:id="i-87e6bb8604bc3ffe-173" prev="i-87e6bb8604bc3ffe-171" n="9792ff96">
+            <seg n="ba136a81">
+              givit, att han avstode från att rösta.
+            </seg>
+            <seg n="68e4cc01"/>
+          </u>
           <note n="56c49880">
             Föredrogos ånyo statsutskottets utlåtanden:
           </note>
@@ -7890,7 +8050,7 @@
           <note type="speaker" n="fc874b34">
             Fru HAMRIN-THORELL (fp):
           </note>
-          <u who="yngve_hamrin_d3288e" xml:id="i-29d6ba6e4a2a2de1-0" next="i-7ca79251ace69d0b-0" n="d7490ac7"/>
+          <u who="yngve_hamrin_d3288e" xml:id="i-87e6bb8604bc3ffe-174" next="i-87e6bb8604bc3ffe-176" n="d7490ac7"/>
           <note n="a676f07c">
             Herr talman! I andra lagutskottets utlåtande nr 46 har behandlats
             ett motionspar, I:129 och II: 167, med förslag om att Kungl. Maj:t
@@ -7899,7 +8059,7 @@
             gånger om året — med andra ord att de skall få bidrag till hemresor.
             Motionärerna har föreslagit tre hemresor per termin.
           </note>
-          <u who="yngve_hamrin_d3288e" xml:id="i-7ca79251ace69d0b-0" prev="i-29d6ba6e4a2a2de1-0" n="d7490ac7">
+          <u who="yngve_hamrin_d3288e" xml:id="i-87e6bb8604bc3ffe-175" prev="i-87e6bb8604bc3ffe-174" n="d7490ac7">
             <seg n="3fa69342">
               Här gäller det alltså elever som uppbär studiehjälp och studerar
               i gymnasier, yrkesskolor, fackskolor, folkhögskolor och en del
@@ -7919,6 +8079,18 @@
               »Föräldrar, behövs dom?» — så löd en rubrik i en tidning nyligen.
               Jag tror för min del att vilka aspekter man än
             </seg>
+          </u>
+          <pb n="81" facs="https://betalab.kb.se/prot-1965--fk--25/prot_1965__fk__25-081.jp2/_view"/>
+          <note n="ea66d3e5">
+            82 Nr 25
+          </note>
+          <note type="date" n="43ecfcc2">
+            Onsdagen den 19 maj 1965
+          </note>
+          <note n="1b10a9aa">
+            Ang. beräkningen av resetillägg enligt studiehjälpsreglementet
+          </note>
+          <u who="yngve_hamrin_d3288e" xml:id="i-87e6bb8604bc3ffe-176" prev="i-87e6bb8604bc3ffe-174" n="d7490ac7">
             <seg n="fb52f305">
               lägger på den mänskliga konstellation, som föräldrar utgör, måste
               man besvara frågan med ja. Att avskaffa föräldrarna som stöd för
@@ -7947,20 +8119,10 @@
               I.
             </seg>
           </u>
-          <pb n="81" facs="https://betalab.kb.se/prot-1965--fk--25/prot_1965__fk__25-081.jp2/_view"/>
-          <note n="ea66d3e5">
-            82 Nr 25
-          </note>
-          <note type="date" n="43ecfcc2">
-            Onsdagen den 19 maj 1965
-          </note>
-          <note n="1b10a9aa">
-            Ang. beräkningen av resetillägg enligt studiehjälpsreglementet
-          </note>
           <note type="speaker" n="630344c2">
             Fru OLSSON (cp):
           </note>
-          <u who="gunnel_olsson_5ccfae" xml:id="i-ca2bcf0d44aa9dba-0" next="i-1cf15d2dfc862ac1-0" n="5c385beb">
+          <u who="gunnel_olsson_5ccfae" xml:id="i-87e6bb8604bc3ffe-177" next="i-87e6bb8604bc3ffe-178" n="5c385beb">
             <seg n="72068b45">
               Herr talman! För omkring ett år sedan behandlade vi här i riksdagen
               den stora propositionen om det studiesociala stödet till den studerande
@@ -8006,7 +8168,7 @@
             Jag yrkar bifall till reservation I vid andra lagutskottets utlåtande
             nr 46.
           </note>
-          <u who="gunnel_olsson_5ccfae" xml:id="i-1cf15d2dfc862ac1-0" prev="i-ca2bcf0d44aa9dba-0" n="5c385beb">
+          <u who="gunnel_olsson_5ccfae" xml:id="i-87e6bb8604bc3ffe-178" prev="i-87e6bb8604bc3ffe-177" n="5c385beb">
             <seg n="5f53377b">
               I detta utlåtande behandlas även motioner om resetilläggen för
               de elever, som reser mellan hemmet och skolan var dag. Vi beslutade
@@ -8045,7 +8207,7 @@
           <note type="speaker" n="321d923f">
             Herr HUBINETTE (h):
           </note>
-          <u who="unknown" xml:id="i-577cb67919601bb9-24" n="87e6bb86">
+          <u who="unknown" xml:id="i-87e6bb8604bc3ffe-179" n="87e6bb86">
             <seg n="6749fc12">
               Herr talman! Till den reservation, som fruarna Hamrin-Thorell
               och Olsson här har talat för, har vi två högermän i utskottet
@@ -8110,7 +8272,7 @@
           <note n="af2290d8">
             (fp) kort
           </note>
-          <u who="unknown" xml:id="i-aa7319cd96283a86-24" n="87e6bb86">
+          <u who="unknown" xml:id="i-87e6bb8604bc3ffe-180" n="87e6bb86">
             <seg n="0d4c6891">
               Herr HÖBINETTE (h) kort genmäle:
             </seg>
@@ -8152,7 +8314,7 @@
           <note type="speaker" n="d679ff44">
             Herr LARSSON, LARS, (s):
           </note>
-          <u who="sigvard_larsson_b350a8" xml:id="i-573c33b3771ecc32-2" next="i-f30740cda375bf4d-2" n="a7542cb2">
+          <u who="sigvard_larsson_b350a8" xml:id="i-87e6bb8604bc3ffe-181" next="i-87e6bb8604bc3ffe-187" n="a7542cb2">
             <seg n="69f7c139">
               Herr talman! De fem utskottsutlåtanden, som vi närmast har att
               behandla i kammaren, gäller alla frågor som rör det studiesociala
@@ -8241,7 +8403,7 @@
           <note n="1b10a9aa">
             Ang. beräkningen av resetillägg enligt studiehjälpsreglementet
           </note>
-          <u who="sigvard_larsson_b350a8" xml:id="i-f30740cda375bf4d-2" prev="i-573c33b3771ecc32-2" n="a7542cb2">
+          <u who="sigvard_larsson_b350a8" xml:id="i-87e6bb8604bc3ffe-182" prev="i-87e6bb8604bc3ffe-181" n="a7542cb2">
             <seg n="f486ea50">
               skall komma till stånd, fordras ny riksdagsbehandling.
             </seg>
@@ -8298,30 +8460,6 @@
               Herr talman! Med hänvisning till vad jag nu har sagt ber jag
               att få yrka bifall till andra lagutskottets utlåtande nr 46.
             </seg>
-            <seg n="bc54641f">
-              Om höjning av studiebidragen enligt studiemedelsförordningen
-              och studie-
-            </seg>
-            <seg n="3e110a99">
-              hjälpsreglementet
-            </seg>
-            <seg n="a373270a">
-              Jas
-            </seg>
-            <seg n="210d27b1">
-              Nej;
-            </seg>
-            <seg n="0d41adcb">
-              Om höjning av studiebidragen enligt studiemedelsförordningen
-              och studiehjälpsreglementet
-            </seg>
-            <seg n="bc54641f">
-              Om höjning av studiebidragen enligt studiemedelsförordningen
-              och studie-
-            </seg>
-            <seg n="2d8fd588">
-              värdebeständighet för alla förmåner inom studiehjälpsreglementet.
-            </seg>
           </u>
           <note n="fc7aad0f">
             Efter det överläggningen förklarats härmed slutad, yttrade herr
@@ -8354,6 +8492,15 @@
           <note type="date" n="43ecfcc2">
             Onsdagen den 19 maj 1965
           </note>
+          <u who="sigvard_larsson_b350a8" xml:id="i-87e6bb8604bc3ffe-183" prev="i-87e6bb8604bc3ffe-181" n="a7542cb2">
+            <seg n="bc54641f">
+              Om höjning av studiebidragen enligt studiemedelsförordningen
+              och studie-
+            </seg>
+            <seg n="3e110a99">
+              hjälpsreglementet
+            </seg>
+          </u>
           <note n="7d71cf73">
             kändes en omröstningsproposition av följande lydelse:
           </note>
@@ -8361,9 +8508,19 @@
             Den, som bifaller vad andra lagutskottet hemställt i sitt utlåtande
             nr 46 punkten C, röstar
           </note>
+          <u who="sigvard_larsson_b350a8" xml:id="i-87e6bb8604bc3ffe-184" prev="i-87e6bb8604bc3ffe-181" n="a7542cb2">
+            <seg n="a373270a">
+              Jas
+            </seg>
+          </u>
           <note n="080fb7b3">
             Den, det ej vill, röstar
           </note>
+          <u who="sigvard_larsson_b350a8" xml:id="i-87e6bb8604bc3ffe-185" prev="i-87e6bb8604bc3ffe-181" n="a7542cb2">
+            <seg n="210d27b1">
+              Nej;
+            </seg>
+          </u>
           <note n="78cd581f">
             Vinner Nej, antages det förslag, som innefattas i den av fru
             Hamrin-Thorell m, fl. vid utlåtandet avgivna reservationen.
@@ -8389,6 +8546,12 @@
             Därjämte hade 3 ledamöter tillkännagivit, att de avstode från
             att rösta.
           </note>
+          <u who="sigvard_larsson_b350a8" xml:id="i-87e6bb8604bc3ffe-186" prev="i-87e6bb8604bc3ffe-181" n="a7542cb2">
+            <seg n="0d41adcb">
+              Om höjning av studiebidragen enligt studiemedelsförordningen
+              och studiehjälpsreglementet
+            </seg>
+          </u>
           <note n="9555a4db">
             Föredrogs ånyo andra lagutskottets utlåtande nr 47, i anledning
             av väckta motioner om höjning av studiebidragen enligt studiemedelsförordningen
@@ -8453,10 +8616,19 @@
           <note n="6d0cd79d">
             Nr 25 87
           </note>
+          <u who="sigvard_larsson_b350a8" xml:id="i-87e6bb8604bc3ffe-187" prev="i-87e6bb8604bc3ffe-181" n="a7542cb2">
+            <seg n="bc54641f">
+              Om höjning av studiebidragen enligt studiemedelsförordningen
+              och studie-
+            </seg>
+            <seg n="2d8fd588">
+              värdebeständighet för alla förmåner inom studiehjälpsreglementet.
+            </seg>
+          </u>
           <note type="speaker" n="93c770f3">
             Herr LARSSON, THORSTEN, (cp):
           </note>
-          <u who="sigvard_larsson_b350a8" xml:id="i-573c33b3771ecc32-3" next="i-f30740cda375bf4d-3" n="a7542cb2">
+          <u who="sigvard_larsson_b350a8" xml:id="i-87e6bb8604bc3ffe-188" next="i-87e6bb8604bc3ffe-189" n="a7542cb2">
             <seg n="ceee22e0">
               Herr talman! Andra lagutskottets utlåtande nr 47, som nu skall
               diskuteras, innebär ett resonemang omkring vad vi beslutade 1964
@@ -8544,7 +8716,7 @@
           <note type="date" n="43ecfcc2">
             Onsdagen den 19 maj 1965
           </note>
-          <u who="sigvard_larsson_b350a8" xml:id="i-f30740cda375bf4d-3" prev="i-573c33b3771ecc32-3" n="a7542cb2">
+          <u who="sigvard_larsson_b350a8" xml:id="i-87e6bb8604bc3ffe-189" prev="i-87e6bb8604bc3ffe-188" n="a7542cb2">
             <seg n="bc54641f">
               Om höjning av studiebidragen enligt studiemedelsförordningen
               och studie-
@@ -8556,7 +8728,7 @@
           <note type="speaker" n="0bea552d">
             Herr ADOLFSSON (k):
           </note>
-          <u who="unknown" xml:id="i-577cb67919601bb9-25" n="87e6bb86">
+          <u who="unknown" xml:id="i-87e6bb8604bc3ffe-190" n="87e6bb86">
             <seg n="61c7f415">
               Herr talman! Jag vet inte hur robust man får lov att vara i sina
               uttryckssätt i denna församling med anledning av att utskottet
@@ -8637,7 +8809,7 @@
           <note n="89547b70">
             Nr 25 89
           </note>
-          <u who="unknown" xml:id="i-aa7319cd96283a86-25" n="87e6bb86">
+          <u who="unknown" xml:id="i-87e6bb8604bc3ffe-191" n="87e6bb86">
             <seg n="bc54641f">
               Om höjning av studiebidragen enligt studiemedelsförordningen
               och studie-
@@ -8654,7 +8826,7 @@
           <note type="speaker" n="d679ff44">
             Herr LARSSON, LARS, (s):
           </note>
-          <u who="sigvard_larsson_b350a8" xml:id="i-573c33b3771ecc32-4" next="i-f30740cda375bf4d-4" n="a7542cb2">
+          <u who="sigvard_larsson_b350a8" xml:id="i-87e6bb8604bc3ffe-192" next="i-87e6bb8604bc3ffe-193" n="a7542cb2">
             <seg n="3fb7c9ba">
               Herr talman! Herr Thorsten Larsson ville inledningsvis påstå
               att utskottet egentligen hade korrigerat mitt uttalande om att
@@ -8730,7 +8902,7 @@
           <note type="date" n="43ecfcc2">
             Onsdagen den 19 maj 1965
           </note>
-          <u who="sigvard_larsson_b350a8" xml:id="i-f30740cda375bf4d-4" prev="i-573c33b3771ecc32-4" n="a7542cb2">
+          <u who="sigvard_larsson_b350a8" xml:id="i-87e6bb8604bc3ffe-193" prev="i-87e6bb8604bc3ffe-192" n="a7542cb2">
             <seg n="bc54641f">
               Om höjning av studiebidragen enligt studiemedelsförordningen
               och studie-
@@ -8751,7 +8923,7 @@
           <note type="speaker" n="93c770f3">
             Herr LARSSON, THORSTEN, (cp):
           </note>
-          <u who="sigvard_larsson_b350a8" xml:id="i-3e12e7aabd29600f-0" n="a7542cb2">
+          <u who="sigvard_larsson_b350a8" xml:id="i-87e6bb8604bc3ffe-194" n="a7542cb2">
             <seg n="b640af62">
               Herr talman! Får jag först bara säga att vi ju i reservationens
               kläm direkt har ställt krav på en höjning av studiebidraget inom
@@ -8795,7 +8967,7 @@
           <note type="speaker" n="d679ff44">
             Herr LARSSON, LARS, (s):
           </note>
-          <u who="sigvard_larsson_b350a8" xml:id="i-3e12e7aabd29600f-1" n="a7542cb2">
+          <u who="sigvard_larsson_b350a8" xml:id="i-87e6bb8604bc3ffe-195" n="a7542cb2">
             <seg n="02dde825">
               Herr talman! Min namne vill göra gällande att elever, som har
               bidrag från studiehjälpsreglementet, i genomsnitt erhåller 250
@@ -8816,7 +8988,7 @@
           <note type="speaker" n="0bea552d">
             Herr ADOLFSSON (k):
           </note>
-          <u who="unknown" xml:id="i-577cb67919601bb9-26" n="87e6bb86">
+          <u who="unknown" xml:id="i-87e6bb8604bc3ffe-196" n="87e6bb86">
             <seg n="23c00b60">
               Herr talman! Herr Lars Larsson hävdade i sitt förra anförande
               att vi kommunister ville genomföra en höjning av grundbeloppet
@@ -8831,7 +9003,7 @@
           <note n="dda66135">
             Nr 25 91
           </note>
-          <u who="unknown" xml:id="i-aa7319cd96283a86-26" n="87e6bb86">
+          <u who="unknown" xml:id="i-87e6bb8604bc3ffe-197" n="87e6bb86">
             <seg n="bc54641f">
               Om höjning av studiebidragen enligt studiemedelsförordningen
               och studie-
@@ -8883,7 +9055,7 @@
           <note type="speaker" n="d679ff44">
             Herr LARSSON, LARS, (s):
           </note>
-          <u who="sigvard_larsson_b350a8" xml:id="i-3e12e7aabd29600f-2" n="a7542cb2">
+          <u who="sigvard_larsson_b350a8" xml:id="i-87e6bb8604bc3ffe-198" n="a7542cb2">
             <seg n="4339274e">
               Herr talman! Herr Adolfsson föranleder mig att begära ordet och
               säga att jag förstår att han måste ha ett argument för den ställning
@@ -8906,7 +9078,7 @@
           <note type="speaker" n="93c770f3">
             Herr LARSSON, THORSTEN, (cp):
           </note>
-          <u who="sigvard_larsson_b350a8" xml:id="i-573c33b3771ecc32-5" next="i-f30740cda375bf4d-5" n="a7542cb2">
+          <u who="sigvard_larsson_b350a8" xml:id="i-87e6bb8604bc3ffe-199" next="i-87e6bb8604bc3ffe-200" n="a7542cb2">
             <seg n="b4c2e1f2">
               Herr talman! Herr Lars Larsson ifrågasätter riktigheten av mina
               siffror. 325 kronor i månaden kan man ju maximalt få enligt studiehjälpsreglementet.
@@ -8926,7 +9098,7 @@
           <note type="date" n="43ecfcc2">
             Onsdagen den 19 maj 1965
           </note>
-          <u who="sigvard_larsson_b350a8" xml:id="i-f30740cda375bf4d-5" prev="i-573c33b3771ecc32-5" n="a7542cb2">
+          <u who="sigvard_larsson_b350a8" xml:id="i-87e6bb8604bc3ffe-200" prev="i-87e6bb8604bc3ffe-199" n="a7542cb2">
             <seg n="bc54641f">
               Om höjning av studiebidragen enligt studiemedelsförordningen
               och studie-
@@ -8938,7 +9110,7 @@
           <note type="speaker" n="d679ff44">
             Herr LARSSON, LARS, (s):
           </note>
-          <u who="sigvard_larsson_b350a8" xml:id="i-573c33b3771ecc32-6" next="i-f30740cda375bf4d-6" n="a7542cb2">
+          <u who="sigvard_larsson_b350a8" xml:id="i-87e6bb8604bc3ffe-201" next="i-87e6bb8604bc3ffe-205" n="a7542cb2">
             <seg n="1161f901">
               Herr talman! Jag måste nog återkomma till herr Thorsten Larsson,
               som nu försökte att komma ifrån de uppgifter han lämnat förut.
@@ -8994,23 +9166,19 @@
             Den, som bifaller vad andra lagutskottet hemställt i sitt utlåtande
             nr 47 punkten B, röstar
           </note>
-          <u who="sigvard_larsson_b350a8" xml:id="i-f30740cda375bf4d-6" prev="i-573c33b3771ecc32-6" n="a7542cb2">
+          <u who="sigvard_larsson_b350a8" xml:id="i-87e6bb8604bc3ffe-202" prev="i-87e6bb8604bc3ffe-201" n="a7542cb2">
             <seg n="4a6d09a0">
               Ja;
-            </seg>
-            <seg n="210d27b1">
-              Nej;
-            </seg>
-            <seg n="a17cb05c">
-              Ang. det studiesociala stödet till vissa elevkategorier
-            </seg>
-            <seg n="a17cb05c">
-              Ang. det studiesociala stödet till vissa elevkategorier
             </seg>
           </u>
           <note n="080fb7b3">
             Den, det ej vill, röstar
           </note>
+          <u who="sigvard_larsson_b350a8" xml:id="i-87e6bb8604bc3ffe-203" prev="i-87e6bb8604bc3ffe-201" n="a7542cb2">
+            <seg n="210d27b1">
+              Nej;
+            </seg>
+          </u>
           <note n="8c60182c">
             Vinner Nej, antages det förslag, som innefattas i den vid utlåtandet
             avgivna reservationen.
@@ -9043,6 +9211,11 @@
           <note type="date" n="43ecfcc2">
             Onsdagen den 19 maj 1965
           </note>
+          <u who="sigvard_larsson_b350a8" xml:id="i-87e6bb8604bc3ffe-204" prev="i-87e6bb8604bc3ffe-201" n="a7542cb2">
+            <seg n="a17cb05c">
+              Ang. det studiesociala stödet till vissa elevkategorier
+            </seg>
+          </u>
           <note n="981edcee">
             Föredrogs ånyo andra lagutskottets utlåtande nr 49, i anledning
             av väckta motioner angående det studiesociala stödet till vissa
@@ -9155,6 +9328,11 @@
           <note type="date" n="43ecfcc2">
             Onsdagen den 19 maj 1965
           </note>
+          <u who="sigvard_larsson_b350a8" xml:id="i-87e6bb8604bc3ffe-205" prev="i-87e6bb8604bc3ffe-201" n="a7542cb2">
+            <seg n="a17cb05c">
+              Ang. det studiesociala stödet till vissa elevkategorier
+            </seg>
+          </u>
           <note n="a794e2b9">
             2) motionerna 1: 320 och II: 384,
           </note>
@@ -9201,7 +9379,7 @@
           <note type="speaker" n="fc874b34">
             Fru HAMRIN-THORELL (fp):
           </note>
-          <u who="yngve_hamrin_d3288e" xml:id="i-29d6ba6e4a2a2de1-1" next="i-7ca79251ace69d0b-1" n="d7490ac7">
+          <u who="yngve_hamrin_d3288e" xml:id="i-87e6bb8604bc3ffe-206" next="i-87e6bb8604bc3ffe-208" n="d7490ac7">
             <seg n="a2c12905">
               Herr talman! Det kanske kan tillåtas mig att i likhet med några
               av de föregående talarna knyta ett par korta reflexioner till
@@ -9245,13 +9423,22 @@
             begäres en skyndsam utredning och förslag om det studiesociala
             stödet åt korrespondensstuderande över huvud taget.
           </note>
-          <u who="yngve_hamrin_d3288e" xml:id="i-7ca79251ace69d0b-1" prev="i-29d6ba6e4a2a2de1-1" n="d7490ac7">
+          <u who="yngve_hamrin_d3288e" xml:id="i-87e6bb8604bc3ffe-207" prev="i-87e6bb8604bc3ffe-206" n="d7490ac7">
             <seg n="32074384">
               Stödet åt korrespondensstuderande är i det nya systemet uppenbarligen
               otillräckligt. Utskottet har hänvisat till pågående utredningar.
               Reservanterna anser, som jag nyss sade, det knappast vara behövligt
               att företa några utred-
             </seg>
+          </u>
+          <pb n="94" facs="https://betalab.kb.se/prot-1965--fk--25/prot_1965__fk__25-094.jp2/_view"/>
+          <note type="date" n="43ecfcc2">
+            Onsdagen den 19 maj 1965
+          </note>
+          <note n="ecd942da">
+            Nr 25 95
+          </note>
+          <u who="yngve_hamrin_d3288e" xml:id="i-87e6bb8604bc3ffe-208" prev="i-87e6bb8604bc3ffe-206" n="d7490ac7">
             <seg n="a17cb05c">
               Ang. det studiesociala stödet till vissa elevkategorier
             </seg>
@@ -9287,17 +9474,10 @@
               Jag ber, herr talman, att få yrka bifall till reservationen.
             </seg>
           </u>
-          <pb n="94" facs="https://betalab.kb.se/prot-1965--fk--25/prot_1965__fk__25-094.jp2/_view"/>
-          <note type="date" n="43ecfcc2">
-            Onsdagen den 19 maj 1965
-          </note>
-          <note n="ecd942da">
-            Nr 25 95
-          </note>
           <note type="speaker" n="630344c2">
             Fru OLSSON (cp):
           </note>
-          <u who="gunnel_olsson_5ccfae" xml:id="i-c727785372d0dda0-0" n="5c385beb">
+          <u who="gunnel_olsson_5ccfae" xml:id="i-87e6bb8604bc3ffe-209" n="5c385beb">
             <seg n="7e77f5a4">
               Herr talman! Vi vet att det studiesociala stödet till de vuxenstuderande
               för närvarande är mycket otillfredsställande. Vi anser alla att
@@ -9326,7 +9506,7 @@
           <note type="speaker" n="14d71642">
             Herr KILSMO (fp):
           </note>
-          <u who="unknown" xml:id="i-e2916a7fe6773950-6" n="87e6bb86">
+          <u who="unknown" xml:id="i-87e6bb8604bc3ffe-210" n="87e6bb86">
             <seg n="5866a941">
               Herr talman! Även om jag till alla delar kan instämma i reservationen,
               vill jag fästa uppmärksamheten på att utskottet på s. 9 har uttalat
@@ -9340,7 +9520,7 @@
           <note type="speaker" n="d679ff44">
             Herr LARSSON, LARS, (s):
           </note>
-          <u who="sigvard_larsson_b350a8" xml:id="i-573c33b3771ecc32-7" next="i-f30740cda375bf4d-7" n="a7542cb2">
+          <u who="sigvard_larsson_b350a8" xml:id="i-87e6bb8604bc3ffe-211" next="i-87e6bb8604bc3ffe-214" n="a7542cb2">
             <seg n="4211d6bb">
               Herr talman! Om jag får replikera herr Kilsmo, så vill jag säga,
               att det kanske inte är riktigt rätt att statsrådet Edenman har
@@ -9358,7 +9538,7 @@
           <note type="date" n="43ecfcc2">
             Onsdagen den 19 maj 1965
           </note>
-          <u who="sigvard_larsson_b350a8" xml:id="i-f30740cda375bf4d-7" prev="i-573c33b3771ecc32-7" n="a7542cb2">
+          <u who="sigvard_larsson_b350a8" xml:id="i-87e6bb8604bc3ffe-212" prev="i-87e6bb8604bc3ffe-211" n="a7542cb2">
             <seg n="a17cb05c">
               Ang. det studiesociala stödet till vissa elevkategorier
             </seg>
@@ -9416,12 +9596,6 @@
               utan när betänkandena ligger publicerade, kan man tämligen snart
               därefter påbörja bearbetningen.
             </seg>
-            <seg n="4a6d09a0">
-              Ja;
-            </seg>
-            <seg n="210d27b1">
-              Nej;
-            </seg>
           </u>
           <note n="11c84823">
             Jag ber, herr talman, att i alla delar få yrka bifall till utskottets
@@ -9460,9 +9634,19 @@
             Den, som bifaller vad andra lagutskottet hemställt i sitt utlåtande
             nr 49 punkten C, röstar
           </note>
+          <u who="sigvard_larsson_b350a8" xml:id="i-87e6bb8604bc3ffe-213" prev="i-87e6bb8604bc3ffe-211" n="a7542cb2">
+            <seg n="4a6d09a0">
+              Ja;
+            </seg>
+          </u>
           <note n="080fb7b3">
             Den, det ej vill, röstar
           </note>
+          <u who="sigvard_larsson_b350a8" xml:id="i-87e6bb8604bc3ffe-214" prev="i-87e6bb8604bc3ffe-211" n="a7542cb2">
+            <seg n="210d27b1">
+              Nej;
+            </seg>
+          </u>
           <note n="8c60182c">
             Vinner Nej, antages det förslag, som innefattas i den vid utlåtandet
             avgivna reservationen.
@@ -9488,7 +9672,7 @@
           <note type="speaker" n="7f4ac54b">
             Herr TALMANNEN yttrade:
           </note>
-          <u who="unknown" xml:id="i-577cb67919601bb9-27" n="87e6bb86">
+          <u who="unknown" xml:id="i-87e6bb8604bc3ffe-215" n="87e6bb86">
             <seg n="a608988f">
               Jag vill erinra om att anslag nu uppsatts om detta plenums fortsättande
               i afton kl. 19.30.
@@ -9599,28 +9783,13 @@
             1. avslå Kungl. Maj:ts proposition nr 103 rörande fortsatt giltighet
             för lagstiftningen om hyresreglering;
           </note>
-          <u who="unknown" xml:id="i-aa7319cd96283a86-27" n="87e6bb86">
+          <u who="unknown" xml:id="i-87e6bb8604bc3ffe-216" n="87e6bb86">
             <seg n="edb43281">
               2, besluta om en etappvis skeende avveckling av hyresregleringen
               och hyreskontrollen i sådan takt, att avvecklingen bleve genomförd
             </seg>
             <seg n="fc713fc8">
               a) i orter med mindre än 40 000 invånare under loppet av 1966,
-            </seg>
-            <seg n="fc713fc8">
-              a) i orter med mindre än 40 000 invånare under loppet av 1966,
-            </seg>
-            <seg n="2965bc14">
-              c) i storstadsområdena under loppet av 1968 och 1969.
-            </seg>
-            <seg n="f523b706">
-              B. att följande motioner, nämligen
-            </seg>
-            <seg n="fc713fc8">
-              a) i orter med mindre än 40 000 invånare under loppet av 1966,
-            </seg>
-            <seg n="d0568f9e">
-              c) i storstadsområdena under loppet av 1968 och 1969;
             </seg>
           </u>
           <note n="60632cd8">
@@ -9684,10 +9853,20 @@
             skulle besluta om en etappvis skeende avveckling av hyresregleringen
             och hyreskontrollen i sådan takt, att avvecklingen bleve genomförd
           </note>
+          <u who="unknown" xml:id="i-87e6bb8604bc3ffe-217" n="87e6bb86">
+            <seg n="fc713fc8">
+              a) i orter med mindre än 40 000 invånare under loppet av 1966,
+            </seg>
+          </u>
           <note n="60632cd8">
             b) i övriga orter utom storstadsområdena under loppet av 1967
             samt
           </note>
+          <u who="unknown" xml:id="i-87e6bb8604bc3ffe-218" n="87e6bb86">
+            <seg n="2965bc14">
+              c) i storstadsområdena under loppet av 1968 och 1969.
+            </seg>
+          </u>
           <pb n="98" facs="https://betalab.kb.se/prot-1965--fk--25/prot_1965__fk__25-098.jp2/_view"/>
           <note type="date" n="43ecfcc2">
             Onsdagen den 19 maj 1965
@@ -9701,6 +9880,11 @@
             i vad därigenom yrkats avslag på förevarande proposition, nr 103,
             måtte antaga de genom propositionen framlagda lagförslagen;
           </note>
+          <u who="unknown" xml:id="i-87e6bb8604bc3ffe-219" n="87e6bb86">
+            <seg n="f523b706">
+              B. att följande motioner, nämligen
+            </seg>
+          </u>
           <note n="5b1a1f3f">
             1) I: 58 och II: 74,
           </note>
@@ -9738,10 +9922,20 @@
             besluta om en etappvis skeende avveckling av hyresregleringen
             och hyreskontrollen i sådan takt, att avvecklingen bleve genomförd
           </note>
+          <u who="unknown" xml:id="i-87e6bb8604bc3ffe-220" n="87e6bb86">
+            <seg n="fc713fc8">
+              a) i orter med mindre än 40 000 invånare under loppet av 1966,
+            </seg>
+          </u>
           <note n="419ea4a7">
             b) i övriga orter utom storstadsområdena under loppet av 1967,
             samt
           </note>
+          <u who="unknown" xml:id="i-87e6bb8604bc3ffe-221" n="87e6bb86">
+            <seg n="d0568f9e">
+              c) i storstadsområdena under loppet av 1968 och 1969;
+            </seg>
+          </u>
           <note n="3f0795c1">
             II. till punkten 5
           </note>
@@ -9782,7 +9976,7 @@
           <note type="speaker" n="3888d807">
             Herr LIDGARD (h):
           </note>
-          <u who="unknown" xml:id="i-577cb67919601bb9-28" n="87e6bb86">
+          <u who="unknown" xml:id="i-87e6bb8604bc3ffe-222" n="87e6bb86">
             <seg n="8fad4816">
               Herr talman! Av utskottsutlåtandet rörande frågan om en fortsatt
               giltighet av lagen om hyresreglering framgår, att vi tvärsigenom
@@ -9807,7 +10001,7 @@
           <note n="2f63ea5f">
             100 Nr 25
           </note>
-          <u who="unknown" xml:id="i-aa7319cd96283a86-28" n="87e6bb86">
+          <u who="unknown" xml:id="i-87e6bb8604bc3ffe-223" n="87e6bb86">
             <seg n="570f7ac9">
               Om avveckling av hyresregleringen, m. m. upprustning av en omodern
               fastighet genom fastighetsägarens försorg. I den reservation som
@@ -9844,6 +10038,11 @@
               gamla fastigheter och förbättrar bostadsförhållandena där, men
               jag vill understryka att en sådan sanering och en sådan för-
             </seg>
+          </u>
+          <note type="date" n="43ecfcc2">
+            Onsdagen den 19 maj 1965
+          </note>
+          <u who="unknown" xml:id="i-87e6bb8604bc3ffe-224" n="87e6bb86">
             <seg n="1ae19921">
               bättring kan genomföras på annat sätt än att man river huset
               och bygger ett nytt. Det går mycket väl att sanera och förbättra
@@ -9856,13 +10055,10 @@
               Jag ber att få yrka bifall till reservationen under punkt 5.
             </seg>
           </u>
-          <note type="date" n="43ecfcc2">
-            Onsdagen den 19 maj 1965
-          </note>
           <note type="speaker" n="869d214a">
             Herr ALEXANDERSON (fp):
           </note>
-          <u who="unknown" xml:id="i-577cb67919601bb9-29" n="87e6bb86">
+          <u who="unknown" xml:id="i-87e6bb8604bc3ffe-225" n="87e6bb86">
             <seg n="63a6d874">
               Herr talman! Fastän enighet föreligger i själva huvudfrågan i
               föreliggande betänkande, nämligen förlängning av hyresregleringslagen
@@ -9894,7 +10090,7 @@
           <note type="date" n="43ecfcc2">
             Onsdagen den 19 maj 1965
           </note>
-          <u who="unknown" xml:id="i-aa7319cd96283a86-29" n="87e6bb86">
+          <u who="unknown" xml:id="i-87e6bb8604bc3ffe-226" n="87e6bb86">
             <seg n="3a4287ee">
               gen. Hyran i äldre hus skall i princip utgå med samma belopp
               som år 1942, med tillägg endast för ökning av löpande kostnader
@@ -9931,6 +10127,14 @@
               som att dessa förhållanden kan utnyttjas av affärsmässigt inställda
               personer till att göra stora vinster.
             </seg>
+          </u>
+          <note n="63be8db4">
+            Nr 25 101
+          </note>
+          <note n="b40e11e1">
+            Om avveckling av hyresregleringer, m. m.
+          </note>
+          <u who="unknown" xml:id="i-87e6bb8604bc3ffe-227" n="87e6bb86">
             <seg n="f8b26b10">
               Mot denna bakgrund har från folkpartiets sida sedan länge framställts
               krav på avveckling av hyresregleringen. Så småningom har dessa
@@ -9967,6 +10171,15 @@
               Under sådana förhållanden har vi inte ansett oss kunna motsätta
               oss den förlängning av hyresregleringen med
             </seg>
+          </u>
+          <pb n="101" facs="https://betalab.kb.se/prot-1965--fk--25/prot_1965__fk__25-101.jp2/_view"/>
+          <note n="6e0a5ffa">
+            102 Nr 25
+          </note>
+          <note n="05214bf2">
+            Om avveckling av hyresregleringen, m. m.
+          </note>
+          <u who="unknown" xml:id="i-87e6bb8604bc3ffe-228" n="87e6bb86">
             <seg n="53853a71">
               anknutna lagar på ett år, som föreslås i propositionen. Men vi
               måste understryka, att det mot bakgrunden av vad jag här anfört
@@ -10007,19 +10220,6 @@
               detta förslag.
             </seg>
           </u>
-          <note n="63be8db4">
-            Nr 25 101
-          </note>
-          <note n="b40e11e1">
-            Om avveckling av hyresregleringer, m. m.
-          </note>
-          <pb n="101" facs="https://betalab.kb.se/prot-1965--fk--25/prot_1965__fk__25-101.jp2/_view"/>
-          <note n="6e0a5ffa">
-            102 Nr 25
-          </note>
-          <note n="05214bf2">
-            Om avveckling av hyresregleringen, m. m.
-          </note>
           <note type="date" n="43ecfcc2">
             Onsdagen den 19 maj 1965
           </note>
@@ -10031,13 +10231,13 @@
           <note type="speaker" n="4951d1a3">
             Herr JOHANSSON, KNUT, (s):
           </note>
-          <u who="sven_johansson_a9210f" xml:id="i-1c1846e8e4c940ea-0" next="i-31c94e947f829682-0" n="2754adf2"/>
+          <u who="sven_johansson_a9210f" xml:id="i-87e6bb8604bc3ffe-229" next="i-87e6bb8604bc3ffe-233" n="2754adf2"/>
           <note n="e6e04ca8">
             Herr talman! I reservation III har reservanterna yrkat bifall
             till motionerna I: 740 och II: 870, innebärande att man skulle
             tillsätta ytterligare en utredning på bostadspolitikens område.
           </note>
-          <u who="sven_johansson_a9210f" xml:id="i-31c94e947f829682-0" prev="i-1c1846e8e4c940ea-0" n="2754adf2">
+          <u who="sven_johansson_a9210f" xml:id="i-87e6bb8604bc3ffe-230" prev="i-87e6bb8604bc3ffe-229" n="2754adf2">
             <seg n="5f13087d">
               Personligen måste jag säga, att om vi hade befunnit oss i det
               läget, att riksdagen hade haft att ta ställning till utredningar
@@ -10064,6 +10264,12 @@
               räknar med att redovisa sitt arbete i höst. Vi har hyreslagstiftningssakkunniga
               som tillsattes 1963 och såsom framgår
             </seg>
+          </u>
+          <pb n="102" facs="https://betalab.kb.se/prot-1965--fk--25/prot_1965__fk__25-102.jp2/_view"/>
+          <note type="date" n="43ecfcc2">
+            Onsdagen den 19 maj 1965
+          </note>
+          <u who="sven_johansson_a9210f" xml:id="i-87e6bb8604bc3ffe-231" prev="i-87e6bb8604bc3ffe-229" n="2754adf2">
             <seg n="445971ad">
               av det föreliggande utlåtandet räknar med att ganska snart lämna
               ett slutbetänkande. Vi har markvärdekommittén, som också tillsattes
@@ -10101,10 +10307,23 @@
               att man vill rikta kritik mot de sittande utredningarna, men det
               har kanske inte varit avsikten.
             </seg>
+          </u>
+          <note n="981339c6">
+            Nr 25 103
+          </note>
+          <note n="05214bf2">
+            Om avveckling av hyresregleringen, m. m.
+          </note>
+          <u who="sven_johansson_a9210f" xml:id="i-87e6bb8604bc3ffe-232" prev="i-87e6bb8604bc3ffe-229" n="2754adf2">
             <seg n="4b10fe35">
               Jag ber med dessa ord, herr talman, att få yrka bifall till utskottets
               utlåtande i dess helhet.
             </seg>
+          </u>
+          <note n="98ee4bee">
+            I detta anförande instämde herr Gustafsson, Nils-Eric, (cp).
+          </note>
+          <u who="sven_johansson_a9210f" xml:id="i-87e6bb8604bc3ffe-233" prev="i-87e6bb8604bc3ffe-229" n="2754adf2">
             <seg n="25154c38">
               Herr ALEXANDERSON (fp) kort genmäle:
             </seg>
@@ -10138,23 +10357,10 @@
               förslag.
             </seg>
           </u>
-          <pb n="102" facs="https://betalab.kb.se/prot-1965--fk--25/prot_1965__fk__25-102.jp2/_view"/>
-          <note type="date" n="43ecfcc2">
-            Onsdagen den 19 maj 1965
-          </note>
-          <note n="981339c6">
-            Nr 25 103
-          </note>
-          <note n="05214bf2">
-            Om avveckling av hyresregleringen, m. m.
-          </note>
-          <note n="98ee4bee">
-            I detta anförande instämde herr Gustafsson, Nils-Eric, (cp).
-          </note>
           <note type="speaker" n="4d2c64cb">
             Herr HOLMBERG (h):
           </note>
-          <u who="helmer_holmberg_b049af" xml:id="i-5813c8a35547c8a2-0" next="i-a0d319b0769a6861-0" n="18d392dd">
+          <u who="helmer_holmberg_b049af" xml:id="i-87e6bb8604bc3ffe-234" next="i-87e6bb8604bc3ffe-247" n="18d392dd">
             <seg n="1ef648cf">
               Herr talman! Denna debatt i anslutning till hyresregleringslagen
               skulle mycket lätt kunna bli en fortsättning på bostadsdebatten,
@@ -10165,7 +10371,7 @@
           <note n="441b231d">
             104 Nr 25
           </note>
-          <u who="helmer_holmberg_b049af" xml:id="i-a0d319b0769a6861-0" prev="i-5813c8a35547c8a2-0" n="18d392dd">
+          <u who="helmer_holmberg_b049af" xml:id="i-87e6bb8604bc3ffe-235" prev="i-87e6bb8604bc3ffe-234" n="18d392dd">
             <seg n="78298237">
               Om avveckling av hyresregleringen, m. m. med hela bostadsfrågan.
               Ur den synpunkten var det naturligtvis synd att vi inte hade tillfälle
@@ -10204,6 +10410,11 @@
               sida i en partimotion redan i januari hävdat att skall man åstadkomma
               en snabbare avveckling av hyres-
             </seg>
+          </u>
+          <note type="date" n="43ecfcc2">
+            Onsdagen den 19 maj 1965
+          </note>
+          <u who="helmer_holmberg_b049af" xml:id="i-87e6bb8604bc3ffe-236" prev="i-87e6bb8604bc3ffe-234" n="18d392dd">
             <seg n="0af7e078">
               regleringen, vilket tydligen inte bara högern utan även andra
               partier är inne på, gäller det att fastlägga ett program för denna
@@ -10239,6 +10450,12 @@
               hyreslagstiftningssakkunnigas kommande betänkande också skall
               falla under bordet med hänsyn till
             </seg>
+          </u>
+          <pb n="104" facs="https://betalab.kb.se/prot-1965--fk--25/prot_1965__fk__25-104.jp2/_view"/>
+          <note type="date" n="43ecfcc2">
+            Onsdagen den 19 maj 1965
+          </note>
+          <u who="helmer_holmberg_b049af" xml:id="i-87e6bb8604bc3ffe-237" prev="i-87e6bb8604bc3ffe-234" n="18d392dd">
             <seg n="4405d975">
               att vi 1966 har kommunalval, vilket har ansetts vara särskilt
               besvärande när det gäller hyreslagstiftningen.
@@ -10276,6 +10493,21 @@
               har jag tillåtit mig hemställa om en utredning beträffande möjligheterna
               att bevara äldre värdefull stadsbebyggelse.
             </seg>
+          </u>
+          <note n="477f03be">
+            Utskottet har avstyrkt detta förslag om utredning och därvid
+            bl. a. anfört
+          </note>
+          <note n="ffac7dd4">
+            ANDERSON, CARL ALBERT,
+          </note>
+          <note n="fc14bde4">
+            Nr 25 105
+          </note>
+          <note n="05214bf2">
+            Om avveckling av hyresregleringen, m. m.
+          </note>
+          <u who="helmer_holmberg_b049af" xml:id="i-87e6bb8604bc3ffe-238" prev="i-87e6bb8604bc3ffe-234" n="18d392dd">
             <seg n="e67e9871">
               att det redan nu finns möjligheter att förhindra en sådan rivningsverksamhet.
               Utskottet säger: »Om rivning sker av äldre fastigheter, vilka
@@ -10311,6 +10543,15 @@
               försök att bevara denna bebyggelse sådan den är, men man måste
               också här konstatera dess misslyckande. De nuvarande möj-
             </seg>
+          </u>
+          <pb n="105" facs="https://betalab.kb.se/prot-1965--fk--25/prot_1965__fk__25-105.jp2/_view"/>
+          <note n="9459bafa">
+            106 Nr 25
+          </note>
+          <note n="05214bf2">
+            Om avveckling av hyresregleringen, m. m.
+          </note>
+          <u who="helmer_holmberg_b049af" xml:id="i-87e6bb8604bc3ffe-239" prev="i-87e6bb8604bc3ffe-234" n="18d392dd">
             <seg n="3f1f13d8">
               ligheterna för riksantikvarieämbetet att ingripa är begränsade
               på grund av det förhållandet att staten måste vara beredd att
@@ -10331,66 +10572,7 @@
               som det ur kulturvårdande synpunkt är värdefullt att bevara till
               den framtida bebyggelsen och för dem som då kommer att bo i staden.
             </seg>
-            <seg n="d79253cc">
-              Jag
-            </seg>
-            <seg n="210d27b1">
-              Nej;
-            </seg>
-            <seg n="4a6d09a0">
-              Ja;
-            </seg>
-            <seg n="210d27b1">
-              Nej;
-            </seg>
-            <seg n="26ba9fef">
-              1. om skyndsam undersökning rörande orsakerna till bristen på
-              personal inom sjukvården med avseende på arbets-, social-, löneoch
-              skatteförhållanden;
-            </seg>
-            <seg n="c175458b">
-              3. om skyndsam utredning, på grundval av ovannämnda undersökningar,
-              angående åtgärder för ett snabbt hävande av sjukvårdens brist
-              på sjuksköterskor och annan vårdpersonal.
-            </seg>
-            <seg n="26ba9fef">
-              1. om skyndsam undersökning rörande orsakerna till bristen på
-              personal inom sjukvården med avseende på arbets-, social-, löneoch
-              skatteförhållanden;
-            </seg>
-            <seg n="2bf7e1e0">
-              3. om skyndsam utredning, på grundval av ovan nämnda undersökningar,
-              angående åtgärder för ett snabbt hävande av sjukvårdens brist
-              på sjuksköterskor och annan vårdpersonal; samt
-            </seg>
           </u>
-          <note type="date" n="43ecfcc2">
-            Onsdagen den 19 maj 1965
-          </note>
-          <pb n="104" facs="https://betalab.kb.se/prot-1965--fk--25/prot_1965__fk__25-104.jp2/_view"/>
-          <note type="date" n="43ecfcc2">
-            Onsdagen den 19 maj 1965
-          </note>
-          <note n="477f03be">
-            Utskottet har avstyrkt detta förslag om utredning och därvid
-            bl. a. anfört
-          </note>
-          <note n="ffac7dd4">
-            ANDERSON, CARL ALBERT,
-          </note>
-          <note n="fc14bde4">
-            Nr 25 105
-          </note>
-          <note n="05214bf2">
-            Om avveckling av hyresregleringen, m. m.
-          </note>
-          <pb n="105" facs="https://betalab.kb.se/prot-1965--fk--25/prot_1965__fk__25-105.jp2/_view"/>
-          <note n="9459bafa">
-            106 Nr 25
-          </note>
-          <note n="05214bf2">
-            Om avveckling av hyresregleringen, m. m.
-          </note>
           <note n="9638a19a">
             Efter det överläggningen förklarats härmed slutad, yttrade herr
             talmannen, att med anledning av vad därunder yrkats propositioner
@@ -10419,9 +10601,19 @@
             Den, som bifaller vad tredje lagutskottet hemställt i sitt utlåtande
             nr 26 punkten B 4, röstar
           </note>
+          <u who="helmer_holmberg_b049af" xml:id="i-87e6bb8604bc3ffe-240" prev="i-87e6bb8604bc3ffe-234" n="18d392dd">
+            <seg n="d79253cc">
+              Jag
+            </seg>
+          </u>
           <note n="080fb7b3">
             Den, det ej vill, röstar
           </note>
+          <u who="helmer_holmberg_b049af" xml:id="i-87e6bb8604bc3ffe-241" prev="i-87e6bb8604bc3ffe-234" n="18d392dd">
+            <seg n="210d27b1">
+              Nej;
+            </seg>
+          </u>
           <note n="726f472c">
             Vinner Nej, antages det förslag, som innefattas i den av herr
             Lidgard och herr Bengtson i Solna vid utlåtandet avgivna, med
@@ -10475,9 +10667,19 @@
             Den, som bifaller vad tredje lagutskottet hemställt i sitt utlåtande
             nr 26 punkten B 5, röstar
           </note>
+          <u who="helmer_holmberg_b049af" xml:id="i-87e6bb8604bc3ffe-242" prev="i-87e6bb8604bc3ffe-234" n="18d392dd">
+            <seg n="4a6d09a0">
+              Ja;
+            </seg>
+          </u>
           <note n="080fb7b3">
             Den, det ej vill, röstar
           </note>
+          <u who="helmer_holmberg_b049af" xml:id="i-87e6bb8604bc3ffe-243" prev="i-87e6bb8604bc3ffe-234" n="18d392dd">
+            <seg n="210d27b1">
+              Nej;
+            </seg>
+          </u>
           <note n="ef297d7d">
             Vinner Nej, antages det förslag, som innefattas i den av herr
             Lidgard och herr Bengtson i Solna vid utlåtandet avgivna, med
@@ -10580,11 +10782,25 @@
             m. fl., hade hemställts, att riksdagen i skrivelse till Kungl.
             Maj:t måtte anhålla
           </note>
+          <u who="helmer_holmberg_b049af" xml:id="i-87e6bb8604bc3ffe-244" prev="i-87e6bb8604bc3ffe-234" n="18d392dd">
+            <seg n="26ba9fef">
+              1. om skyndsam undersökning rörande orsakerna till bristen på
+              personal inom sjukvården med avseende på arbets-, social-, löneoch
+              skatteförhållanden;
+            </seg>
+          </u>
           <note n="11c0555f">
             2. om skyndsam prövning av frågan om utländsk arbetskraft samt
             manliga skötare kunde rekryteras för olika vårduppgifter inom
             sjukhusväsendet;
           </note>
+          <u who="helmer_holmberg_b049af" xml:id="i-87e6bb8604bc3ffe-245" prev="i-87e6bb8604bc3ffe-234" n="18d392dd">
+            <seg n="c175458b">
+              3. om skyndsam utredning, på grundval av ovannämnda undersökningar,
+              angående åtgärder för ett snabbt hävande av sjukvårdens brist
+              på sjuksköterskor och annan vårdpersonal.
+            </seg>
+          </u>
           <note n="87168158">
             Till allmänna &lt;beredningsutskottet hade vidare hänvisats de likalydande
             motionerna I: 579, av herrar Lager och Adolfsson, samt II: 699,
@@ -10616,11 +10832,25 @@
             A. att riksdagen med bifall till de likalydande motionerna 1:136
             och II: 171 i skrivelse till Kungl. Maj:t måtte anhålla
           </note>
+          <u who="helmer_holmberg_b049af" xml:id="i-87e6bb8604bc3ffe-246" prev="i-87e6bb8604bc3ffe-234" n="18d392dd">
+            <seg n="26ba9fef">
+              1. om skyndsam undersökning rörande orsakerna till bristen på
+              personal inom sjukvården med avseende på arbets-, social-, löneoch
+              skatteförhållanden;
+            </seg>
+          </u>
           <note n="11c0555f">
             2. om skyndsam prövning av frågan om utländsk arbetskraft samt
             manliga skötare kunde rekryteras för olika vårduppgifter inom
             sjukhusväsendet;
           </note>
+          <u who="helmer_holmberg_b049af" xml:id="i-87e6bb8604bc3ffe-247" prev="i-87e6bb8604bc3ffe-234" n="18d392dd">
+            <seg n="2bf7e1e0">
+              3. om skyndsam utredning, på grundval av ovan nämnda undersökningar,
+              angående åtgärder för ett snabbt hävande av sjukvårdens brist
+              på sjuksköterskor och annan vårdpersonal; samt
+            </seg>
+          </u>
           <note n="1052d3d9">
             B. att de likalydande motionerna I: 579 och 1II:699 icke måtte
             föranleda någon riksdagens åtgärd.
@@ -10628,7 +10858,7 @@
           <note type="speaker" n="630344c2">
             Fru OLSSON (cp):
           </note>
-          <u who="gunnel_olsson_5ccfae" xml:id="i-c727785372d0dda0-1" n="5c385beb"/>
+          <u who="gunnel_olsson_5ccfae" xml:id="i-87e6bb8604bc3ffe-248" n="5c385beb"/>
           <note n="4fc29357">
             Herr talman! Jag skall inskränka mig till att endast yrka bifall
             till den reservation som är fogad vid allmänna beredningsutskottets
@@ -10637,7 +10867,7 @@
           <note type="speaker" n="0bea552d">
             Herr ADOLFSSON (k):
           </note>
-          <u who="unknown" xml:id="i-577cb67919601bb9-30" n="87e6bb86">
+          <u who="unknown" xml:id="i-87e6bb8604bc3ffe-249" n="87e6bb86">
             <seg n="db516e89">
               Herr talman! Något mer än ett yrkande skulle jag för min del
               vilja framföra.
@@ -10668,7 +10898,7 @@
           <note n="f5459939">
             Om åtgärder mot bristen på sjukvårdspersonal, m. m.
           </note>
-          <u who="unknown" xml:id="i-aa7319cd96283a86-30" n="87e6bb86">
+          <u who="unknown" xml:id="i-87e6bb8604bc3ffe-250" n="87e6bb86">
             <seg n="fa978747">
               de erfarenheter som vi har vunnit och för att tillgodogöra sjukvården
               de utredningsresultat som gjorts och som befunnits vara godtagbara.
@@ -10740,7 +10970,7 @@
           <note type="speaker" n="3b195e93">
             Herr MÖLLER (s):
           </note>
-          <u who="unknown" xml:id="i-577cb67919601bb9-31" n="87e6bb86">
+          <u who="unknown" xml:id="i-87e6bb8604bc3ffe-251" n="87e6bb86">
             <seg n="21fc5d88">
               Herr talman! Efter fru Olssons och herr Adolfssons anföranden
               kan jag nöja mig med en ytterst kort kommentar, väsentligen i
@@ -10759,7 +10989,7 @@
           <note type="date" n="43ecfcc2">
             Onsdagen den 19 maj 1965
           </note>
-          <u who="unknown" xml:id="i-aa7319cd96283a86-31" n="87e6bb86">
+          <u who="unknown" xml:id="i-87e6bb8604bc3ffe-252" n="87e6bb86">
             <seg n="c4724cbc">
               Om ökade samhällsinsatser för svårt handikappade
             </seg>
@@ -10770,9 +11000,6 @@
               en samordnande verksamhet utan också en pådrivande sådan så att
               man kan fullfölja de många konkreta strävanden som är under utveckling
               på basis av färska utredningar.
-            </seg>
-            <seg n="c4724cbc">
-              Om ökade samhällsinsatser för svårt handikappade
             </seg>
           </u>
           <note n="13470ee3">
@@ -10786,6 +11013,11 @@
             förra propositionen, vilken förnyades, vara med övervägande ja
             besvarad.
           </note>
+          <u who="unknown" xml:id="i-87e6bb8604bc3ffe-253" n="87e6bb86">
+            <seg n="c4724cbc">
+              Om ökade samhällsinsatser för svårt handikappade
+            </seg>
+          </u>
           <note n="4a36bf2e">
             Föredrogs ånyo allmänna beredningsutskottets utlåtande nr 39,
             i anledning av väckta motioner om ökade samhällsinsatser för svårt
@@ -10819,7 +11051,7 @@
           <note type="speaker" n="630344c2">
             Fru OLSSON (cp):
           </note>
-          <u who="gunnel_olsson_5ccfae" xml:id="i-c727785372d0dda0-2" n="5c385beb">
+          <u who="gunnel_olsson_5ccfae" xml:id="i-87e6bb8604bc3ffe-254" n="5c385beb">
             <seg n="53cdb0f1">
               Herr talman! I den reservation av herr Johansson i Växjö som
               är fogad till detta utskottsutlåtande skulle egentligen också
@@ -10831,7 +11063,7 @@
           <note type="speaker" n="3b195e93">
             Herr MÖLLER (s):
           </note>
-          <u who="unknown" xml:id="i-577cb67919601bb9-32" n="87e6bb86">
+          <u who="unknown" xml:id="i-87e6bb8604bc3ffe-255" n="87e6bb86">
             <seg n="c2c21971">
               Herr talman! Jag hemställer om bifall till utskottets förslag.
             </seg>
@@ -10871,7 +11103,7 @@
           <note n="7f65c706">
             Allan Hernelius
           </note>
-          <u who="unknown" xml:id="i-aa7319cd96283a86-32" n="87e6bb86">
+          <u who="unknown" xml:id="i-87e6bb8604bc3ffe-256" n="87e6bb86">
             <seg n="755ca8b1">
               Den begärda ledigheten beviljades.
             </seg>

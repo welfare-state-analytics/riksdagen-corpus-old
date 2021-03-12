@@ -20,7 +20,7 @@
     <encodingDesc>
       <editorialDecl>
         <correction>
-          <p>Some data curation was done. It is documented in db/curation/instances</p>
+          <p>Some data curation was done. It is documented in input/curation/instances</p>
         </correction>
       </editorialDecl>
     </encodingDesc>
@@ -58,6 +58,7 @@
       </front>
       <body>
         <div>
+          <pb n="0" facs="https://betalab.kb.se/prot-1972--59/prot_1972__59-000.jp2/_view"/>
           <note n="e00ea4ed">
             Riksdagens protokoll
           </note>
@@ -65,7 +66,7 @@
             Nr 58—59 14—18 april 1972
           </note>
           <note n="0b7e428b"/>
-          <note n="ae75c8a4">
+          <note type="date" n="8640ebf1">
             Debatter m. m. Fredagen den 14 april
           </note>
           <note n="3185e050">
@@ -177,7 +178,7 @@
             ..........- herr Lundberg (s) om organisatoriska åtgärder för
             en bättre TOK tro ROTAR NERE OK a oe 8 es VAR RAR STA
           </note>
-          <note n="12788493">
+          <note type="date" n="bfe60358">
             Samtliga avgjorda ärenden Fredagen den 14 april
           </note>
           <note n="02cafed6">
@@ -225,7 +226,7 @@
           <note n="9b70a5fc">
             Nr 59
           </note>
-          <note n="40a089d6">
+          <note type="date" n="238d06bc">
             Tisdagen den 18 april KL. 16.00
           </note>
           <note n="89f86ad6">
@@ -303,7 +304,7 @@
           <note n="9b70a5fc">
             Nr 59
           </note>
-          <note n="d51a19d2">
+          <note type="date" n="c29367da">
             Tisdagen den 18 april 1972
           </note>
           <note n="6e645092">
@@ -351,7 +352,7 @@
           <note type="speaker" n="af41e9d2">
             Fru DAHL (s):
           </note>
-          <u who="birgitta_dahl_7fb5f2" xml:id="i-9305a20275638444-0" next="i-7754bdcadd09da51-0" n="6da6502e">
+          <u who="birgitta_dahl_7fb5f2" xml:id="i-6cb227bab4bf7310-0" next="i-6cb227bab4bf7310-4" n="6da6502e">
             <seg n="dc012f35">
               Herr talman! Det finns ett vietnamesiskt ordspråk som uppstod
               under den förra bombperioden över Nordvietnam och som lyder: ”Låt
@@ -387,6 +388,9 @@
               att det är fråga om en upptrappning av kriget för vilken USA måste
               bära hela ansvaret, att
             </seg>
+          </u>
+          <pb n="5" facs="https://betalab.kb.se/prot-1972--59/prot_1972__59-005.jp2/_view"/>
+          <u who="birgitta_dahl_7fb5f2" xml:id="i-6cb227bab4bf7310-1" prev="i-6cb227bab4bf7310-0" n="6da6502e">
             <seg n="909ecfaa">
               vietnamiseringspolitiken icke kan leda till fred och därför måste
               uppges, att bombningarna måste fördömas och att USA måste tvingas
@@ -453,11 +457,10 @@
               som får känna på att för deras arbete
             </seg>
           </u>
-          <pb n="5" facs="https://betalab.kb.se/prot-1972--59/prot_1972__59-005.jp2/_view"/>
           <note n="9b70a5fc">
             Nr 59
           </note>
-          <note n="d51a19d2">
+          <note type="date" n="c29367da">
             Tisdagen den 18 april 1972
           </note>
           <note n="6e645092">
@@ -473,10 +476,25 @@
             91
           </note>
           <pb n="6" facs="https://betalab.kb.se/prot-1972--59/prot_1972__59-006.jp2/_view"/>
-          <u who="birgitta_dahl_7fb5f2" xml:id="i-7754bdcadd09da51-0" prev="i-9305a20275638444-0" n="6da6502e">
+          <u who="birgitta_dahl_7fb5f2" xml:id="i-6cb227bab4bf7310-2" prev="i-6cb227bab4bf7310-0" n="6da6502e"/>
+          <note n="9b70a5fc">
+            Nr 59
+          </note>
+          <note type="date" n="c29367da">
+            Tisdagen den 18 april 1972
+          </note>
+          <note n="6e645092">
+            Ang. åtgärder mot
+          </note>
+          <u who="birgitta_dahl_7fb5f2" xml:id="i-6cb227bab4bf7310-3" prev="i-6cb227bab4bf7310-0" n="6da6502e">
             <seg n="9e2d61d5">
               USA:s deltagande i kriget i Vietnam
             </seg>
+          </u>
+          <note n="b146263d">
+            92
+          </note>
+          <u who="birgitta_dahl_7fb5f2" xml:id="i-6cb227bab4bf7310-4" prev="i-6cb227bab4bf7310-0" n="6da6502e">
             <seg n="6ba09486">
               finns det egentligen inget effektivt skydd och heller inga krafter
               utanför det egna landet som på allvar kan slå vakt om deras grundläggande
@@ -517,22 +535,10 @@
               krigspolitiken och återvända till förhandlingsbordet?
             </seg>
           </u>
-          <note n="9b70a5fc">
-            Nr 59
-          </note>
-          <note n="d51a19d2">
-            Tisdagen den 18 april 1972
-          </note>
-          <note n="6e645092">
-            Ang. åtgärder mot
-          </note>
-          <note n="b146263d">
-            92
-          </note>
           <note type="speaker" n="2d06afb9">
             Fru JONÄNG (c):
           </note>
-          <u who="gunnel_jonang_b26101" xml:id="i-1a0cd28d0a873aac-0" next="i-5f8f238b0427b1c0-0" n="30fa69be">
+          <u who="gunnel_jonang_b26101" xml:id="i-2e50b9f12e6961fa-0" next="i-2e50b9f12e6961fa-4" n="30fa69be">
             <seg n="ae6bf709">
               Herr talman! Jag ber att få tacka utrikesministern för svaret
               på min interpellation. Vietnams folk har i århundraden levt under
@@ -559,6 +565,9 @@
               göra detta med växande mängder bomber är allmänt sett en dålig
               väg som särskilt måste
             </seg>
+          </u>
+          <pb n="7" facs="https://betalab.kb.se/prot-1972--59/prot_1972__59-007.jp2/_view"/>
+          <u who="gunnel_jonang_b26101" xml:id="i-2e50b9f12e6961fa-1" prev="i-2e50b9f12e6961fa-0" n="30fa69be">
             <seg n="d9485db8">
               ifrågasättas, eftersom Saigonregimen inte representerar någon
               demokrati Nr 59 eller frihet. En allt mäktigare opinion såväl
@@ -632,21 +641,24 @@
             <seg n="c4509bd5">
               Ang. åtgärder mot USA:s deltagande i kriget i Vietnam
             </seg>
-            <seg n="3833046e"/>
           </u>
-          <pb n="7" facs="https://betalab.kb.se/prot-1972--59/prot_1972__59-007.jp2/_view"/>
           <pb n="8" facs="https://betalab.kb.se/prot-1972--59/prot_1972__59-008.jp2/_view"/>
+          <u who="gunnel_jonang_b26101" xml:id="i-2e50b9f12e6961fa-2" prev="i-2e50b9f12e6961fa-0" n="30fa69be"/>
           <note n="9b70a5fc">
             Nr 59
           </note>
-          <note n="d51a19d2">
+          <note type="date" n="c29367da">
             Tisdagen den 18 april 1972
           </note>
-          <u who="gunnel_jonang_b26101" xml:id="i-5f8f238b0427b1c0-0" prev="i-1a0cd28d0a873aac-0" n="30fa69be">
+          <u who="gunnel_jonang_b26101" xml:id="i-2e50b9f12e6961fa-3" prev="i-2e50b9f12e6961fa-0" n="30fa69be">
             <seg n="c4509bd5">
               Ang. åtgärder mot USA:s deltagande i kriget i Vietnam
             </seg>
-            <seg n="3833046e"/>
+          </u>
+          <note n="974affd1">
+            94
+          </note>
+          <u who="gunnel_jonang_b26101" xml:id="i-2e50b9f12e6961fa-4" prev="i-2e50b9f12e6961fa-0" n="30fa69be">
             <seg n="f7f30d1b">
               Det måste finnas andra medel för att lösa de problem som grundlägger
               Vietnamkonflikten. Vi måste med de möjligheter som står oss till
@@ -658,13 +670,10 @@
               i Indokina själva skall få bestämma över sina interna förhållanden.
             </seg>
           </u>
-          <note n="974affd1">
-            94
-          </note>
           <note type="speaker" n="afb67060">
             Herr TAKMAN (vpk):
           </note>
-          <u who="john_takman_8874cf" xml:id="i-570876e0331c9f2d-0" next="i-1ac79a9348aa62f0-0" n="12a763f9">
+          <u who="john_takman_8874cf" xml:id="i-12a763f9f272945e-0" next="i-12a763f9f272945e-10" n="12a763f9">
             <seg n="988e0aee">
               Herr talman! Jag tackar för svaret, även om jag hade önskat att
               formuleringarna varit betydligt skarpare i vissa avsnitt.
@@ -713,6 +722,9 @@
               och att — som det står citerat i tidningen — ”hjälpa Sydvietnam
               att skydda sig självt”. Han
             </seg>
+          </u>
+          <pb n="9" facs="https://betalab.kb.se/prot-1972--59/prot_1972__59-009.jp2/_view"/>
+          <u who="john_takman_8874cf" xml:id="i-12a763f9f272945e-1" prev="i-12a763f9f272945e-0" n="12a763f9">
             <seg n="94c5a377">
               påstod att Nordvietnam inlett ”ett helt nytt slags krig” och
               satt in tolv av Nr 59
@@ -783,23 +795,27 @@
             <seg n="c4509bd5">
               Ang. åtgärder mot USA:s deltagande i kriget i Vietnam
             </seg>
-            <seg n="3833046e"/>
           </u>
-          <pb n="9" facs="https://betalab.kb.se/prot-1972--59/prot_1972__59-009.jp2/_view"/>
           <pb n="10" facs="https://betalab.kb.se/prot-1972--59/prot_1972__59-010.jp2/_view"/>
+          <u who="john_takman_8874cf" xml:id="i-12a763f9f272945e-2" prev="i-12a763f9f272945e-0" n="12a763f9"/>
           <note n="9b70a5fc">
             Nr 59
           </note>
-          <note n="d51a19d2">
+          <note type="date" n="c29367da">
             Tisdagen den 18 april 1972
           </note>
           <note n="6e645092">
             Ang. åtgärder mot
           </note>
-          <u who="john_takman_8874cf" xml:id="i-1ac79a9348aa62f0-0" prev="i-570876e0331c9f2d-0" n="12a763f9">
+          <u who="john_takman_8874cf" xml:id="i-12a763f9f272945e-3" prev="i-12a763f9f272945e-0" n="12a763f9">
             <seg n="9e2d61d5">
               USA:s deltagande i kriget i Vietnam
             </seg>
+          </u>
+          <note n="42683926">
+            96
+          </note>
+          <u who="john_takman_8874cf" xml:id="i-12a763f9f272945e-4" prev="i-12a763f9f272945e-0" n="12a763f9">
             <seg n="39e07064">
               tioner, som ju är flagranta förbrytelser mot folkrätten.
             </seg>
@@ -867,6 +883,9 @@
               automatiska luftvärnspjäser. Men med kännedom om befrielsestyrkornas
               opera-
             </seg>
+          </u>
+          <pb n="11" facs="https://betalab.kb.se/prot-1972--59/prot_1972__59-011.jp2/_view"/>
+          <u who="john_takman_8874cf" xml:id="i-12a763f9f272945e-5" prev="i-12a763f9f272945e-0" n="12a763f9">
             <seg n="1a0e234c">
               tioner tidigare kan man vara övertygad om att de sedan länge
               förberett offensiven genom att lägga upp förråd, och de flesta
@@ -904,6 +923,11 @@
               självbestämmanderätt och att marionetten Nguyen Van Thieu följaktligen
               måste föras åt sidan omedelbart.
             </seg>
+          </u>
+          <note n="a6860acb">
+            Herr OLSSON i Kil (fp):
+          </note>
+          <u who="john_takman_8874cf" xml:id="i-12a763f9f272945e-6" prev="i-12a763f9f272945e-0" n="12a763f9">
             <seg n="1aaafee8">
               Herr talman! ”Den viskande döden” — det är nordvietnamesernas
               beteckning på de jättebombplan som just nu släpper ner sin last
@@ -933,10 +957,48 @@
               amerikanska politiken, senatorerna Kennedy och McGovern, uttryckt
               det — måste betecknas som ett illdåd.
             </seg>
-            <seg n="3833046e"/>
+          </u>
+          <note n="903e3fc6">
+            4 Riksdagens protokoll 1972. Nr 58-59
+          </note>
+          <note n="9b70a5fc">
+            Nr 59
+          </note>
+          <note type="date" n="c29367da">
+            Tisdagen den 18 april 1972
+          </note>
+          <note n="6e645092">
+            Ang. åtgärder mot
+          </note>
+          <note n="7ff75b80">
+            USA:s deltagande i
+          </note>
+          <note n="0e89abd0">
+            kriget i Vietnam
+          </note>
+          <note n="046389a3">
+            9”
+          </note>
+          <pb n="12" facs="https://betalab.kb.se/prot-1972--59/prot_1972__59-012.jp2/_view"/>
+          <u who="john_takman_8874cf" xml:id="i-12a763f9f272945e-7" prev="i-12a763f9f272945e-0" n="12a763f9"/>
+          <note n="9b70a5fc">
+            Nr 59
+          </note>
+          <note type="date" n="c29367da">
+            Tisdagen den 18 april 1972
+          </note>
+          <note n="6e645092">
+            Ang. åtgärder mot
+          </note>
+          <u who="john_takman_8874cf" xml:id="i-12a763f9f272945e-8" prev="i-12a763f9f272945e-0" n="12a763f9">
             <seg n="9e2d61d5">
               USA:s deltagande i kriget i Vietnam
             </seg>
+          </u>
+          <note n="07e8027b">
+            98
+          </note>
+          <u who="john_takman_8874cf" xml:id="i-12a763f9f272945e-9" prev="i-12a763f9f272945e-0" n="12a763f9">
             <seg n="c4553e61">
               Det rör sig också om politiskt vansinne. President Nixon upprepar
               med en sömngångares precision de tidigare amerikanska misstagen
@@ -1010,6 +1072,9 @@
               skall leda till att USA får en president som verkligen har förmåga
               att bryta med det förflutna.
             </seg>
+          </u>
+          <pb n="13" facs="https://betalab.kb.se/prot-1972--59/prot_1972__59-013.jp2/_view"/>
+          <u who="john_takman_8874cf" xml:id="i-12a763f9f272945e-10" prev="i-12a763f9f272945e-0" n="12a763f9">
             <seg n="c1fa905f">
               Men bomberna faller just nu och drabbar Vietnams befolkning varje
               timme dygnet runt. Detta krigets vansinne måste få ett snabbt
@@ -1023,52 +1088,10 @@
               riksdagen.
             </seg>
           </u>
-          <note n="42683926">
-            96
-          </note>
-          <pb n="11" facs="https://betalab.kb.se/prot-1972--59/prot_1972__59-011.jp2/_view"/>
-          <note n="a6860acb">
-            Herr OLSSON i Kil (fp):
-          </note>
-          <note n="903e3fc6">
-            4 Riksdagens protokoll 1972. Nr 58-59
-          </note>
-          <note n="9b70a5fc">
-            Nr 59
-          </note>
-          <note n="d51a19d2">
-            Tisdagen den 18 april 1972
-          </note>
-          <note n="6e645092">
-            Ang. åtgärder mot
-          </note>
-          <note n="7ff75b80">
-            USA:s deltagande i
-          </note>
-          <note n="0e89abd0">
-            kriget i Vietnam
-          </note>
-          <note n="046389a3">
-            9”
-          </note>
-          <pb n="12" facs="https://betalab.kb.se/prot-1972--59/prot_1972__59-012.jp2/_view"/>
-          <note n="9b70a5fc">
-            Nr 59
-          </note>
-          <note n="d51a19d2">
-            Tisdagen den 18 april 1972
-          </note>
-          <note n="6e645092">
-            Ang. åtgärder mot
-          </note>
-          <note n="07e8027b">
-            98
-          </note>
-          <pb n="13" facs="https://betalab.kb.se/prot-1972--59/prot_1972__59-013.jp2/_view"/>
           <note type="speaker" n="c72a86c0">
             Herr WIJKMAN (m):
           </note>
-          <u who="anders_wijkman_9ed95b" xml:id="i-966d574213c4cb55-0" next="i-6d240e57a1170f26-0" n="8913b112">
+          <u who="anders_wijkman_9ed95b" xml:id="i-8913b112792dbe39-0" next="i-8913b112792dbe39-4" n="8913b112">
             <seg n="96194994">
               Herr talman! Till att börja med vill jag instämma i den kritik
               som alla talare här har riktat mot Amerika för den senaste bomboffensiven.
@@ -1124,7 +1147,7 @@
           <note n="9b70a5fc">
             Nr 59
           </note>
-          <note n="d51a19d2">
+          <note type="date" n="c29367da">
             Tisdagen den 18 april 1972
           </note>
           <note n="6e645092">
@@ -1140,10 +1163,25 @@
             99
           </note>
           <pb n="14" facs="https://betalab.kb.se/prot-1972--59/prot_1972__59-014.jp2/_view"/>
-          <u who="anders_wijkman_9ed95b" xml:id="i-6d240e57a1170f26-0" prev="i-966d574213c4cb55-0" n="8913b112">
+          <u who="anders_wijkman_9ed95b" xml:id="i-8913b112792dbe39-1" prev="i-8913b112792dbe39-0" n="8913b112"/>
+          <note n="9b70a5fc">
+            Nr 59
+          </note>
+          <note type="date" n="c29367da">
+            Tisdagen den 18 april 1972
+          </note>
+          <note n="6e645092">
+            Ang. åtgärder mot
+          </note>
+          <u who="anders_wijkman_9ed95b" xml:id="i-8913b112792dbe39-2" prev="i-8913b112792dbe39-0" n="8913b112">
             <seg n="9e2d61d5">
               USA:s deltagande i kriget i Vietnam
             </seg>
+          </u>
+          <note n="546309a8">
+            100
+          </note>
+          <u who="anders_wijkman_9ed95b" xml:id="i-8913b112792dbe39-3" prev="i-8913b112792dbe39-0" n="8913b112">
             <seg n="f5eddd00">
               sannolikt inte så stor — är detta någonting man rimligtvis måste
               ta upp, diskutera och ta ställning till. Det går inte gärna att
@@ -1206,6 +1244,9 @@
               meningslösa och förkastliga. Ingen i denna kammare torde vilja
               stå upp
             </seg>
+          </u>
+          <pb n="15" facs="https://betalab.kb.se/prot-1972--59/prot_1972__59-015.jp2/_view"/>
+          <u who="anders_wijkman_9ed95b" xml:id="i-8913b112792dbe39-4" prev="i-8913b112792dbe39-0" n="8913b112">
             <seg n="45ad14af">
               och försvara denna politik. Att vi uttalar våra protester oupphörligt
               mot denna typ av krigföring är självklart och nödvändigt. Dagens
@@ -1219,23 +1260,10 @@
               militär nedtrappning från båda sidor.
             </seg>
           </u>
-          <note n="9b70a5fc">
-            Nr 59
-          </note>
-          <note n="d51a19d2">
-            Tisdagen den 18 april 1972
-          </note>
-          <note n="6e645092">
-            Ang. åtgärder mot
-          </note>
-          <note n="546309a8">
-            100
-          </note>
-          <pb n="15" facs="https://betalab.kb.se/prot-1972--59/prot_1972__59-015.jp2/_view"/>
           <note type="speaker" n="3105c11b">
             Herr HERMANSSON (vpk):
           </note>
-          <u who="ivar_hermansson_5a7e03" xml:id="i-434aa12be5ee2506-0" next="i-6d1fb6a1e1311740-0" n="74efdf54">
+          <u who="ivar_hermansson_5a7e03" xml:id="i-74efdf549c5159b9-0" next="i-74efdf549c5159b9-4" n="74efdf54">
             <seg n="8acd2c4f">
               Herr talman! Det är glädjande att företrädare för fyra partier
               — tillsammans representerande en mycket stor majoritet av Sveriges
@@ -1293,18 +1321,38 @@
               avser att gå vidare och använda ännu mera
             </seg>
           </u>
-          <note n="64f8b1cf">
+          <note type="date" n="370fab18">
             Nr 59 Tisdagen den 18 april 1972
           </note>
-          <u who="ivar_hermansson_5a7e03" xml:id="i-6d1fb6a1e1311740-0" prev="i-434aa12be5ee2506-0" n="74efdf54">
+          <u who="ivar_hermansson_5a7e03" xml:id="i-74efdf549c5159b9-1" prev="i-74efdf549c5159b9-0" n="74efdf54">
             <seg n="c4509bd5">
               Ang. åtgärder mot USA:s deltagande i kriget i Vietnam
             </seg>
             <seg n="3833046e"/>
-            <seg n="3833046e"/>
+          </u>
+          <note n="35ce6181">
+            101
+          </note>
+          <pb n="16" facs="https://betalab.kb.se/prot-1972--59/prot_1972__59-016.jp2/_view"/>
+          <u who="ivar_hermansson_5a7e03" xml:id="i-74efdf549c5159b9-2" prev="i-74efdf549c5159b9-0" n="74efdf54"/>
+          <note n="9b70a5fc">
+            Nr 59
+          </note>
+          <note type="date" n="c29367da">
+            Tisdagen den 18 april 1972
+          </note>
+          <note n="6e645092">
+            Ang. åtgärder mot
+          </note>
+          <u who="ivar_hermansson_5a7e03" xml:id="i-74efdf549c5159b9-3" prev="i-74efdf549c5159b9-0" n="74efdf54">
             <seg n="9e2d61d5">
               USA:s deltagande i kriget i Vietnam
             </seg>
+          </u>
+          <note n="a975ff4f">
+            102
+          </note>
+          <u who="ivar_hermansson_5a7e03" xml:id="i-74efdf549c5159b9-4" prev="i-74efdf549c5159b9-0" n="74efdf54">
             <seg n="08dcb2a5">
               fruktansvärda massförintelsevapen eller inte beror inte av deras
               ord. Deras ord har redan mångfaldigt avslöjats av deras handlingar.
@@ -1323,26 +1371,10 @@
               folk måste få leva i fred och oberoende!
             </seg>
           </u>
-          <note n="35ce6181">
-            101
-          </note>
-          <pb n="16" facs="https://betalab.kb.se/prot-1972--59/prot_1972__59-016.jp2/_view"/>
-          <note n="9b70a5fc">
-            Nr 59
-          </note>
-          <note n="d51a19d2">
-            Tisdagen den 18 april 1972
-          </note>
-          <note n="6e645092">
-            Ang. åtgärder mot
-          </note>
-          <note n="a975ff4f">
-            102
-          </note>
           <note type="speaker" n="f7819367">
             Herr utrikesministern WICKMAN:
           </note>
-          <u who="krister_wickman_50817f" xml:id="i-5f847a2abddc6189-0" next="i-a20c5410ff663620-0" n="67ea386e">
+          <u who="krister_wickman_50817f" xml:id="i-67ea386ea4f17895-0" next="i-67ea386ea4f17895-5" n="67ea386e">
             <seg n="28a95c03">
               Herr talman! Vad interpellanterna anför ger mig i och för sig
               inte anledning att på nytt begära ordet. Jag har inte något tillägg
@@ -1394,6 +1426,9 @@
               och militära utvecklingen i Vietnam. Amerikanerna uppträder naturligtvis
               utifrån sina utgångspunkter rationellt och med en mycket bestämd
             </seg>
+          </u>
+          <pb n="17" facs="https://betalab.kb.se/prot-1972--59/prot_1972__59-017.jp2/_view"/>
+          <u who="krister_wickman_50817f" xml:id="i-67ea386ea4f17895-1" prev="i-67ea386ea4f17895-0" n="67ea386e">
             <seg n="a803a044">
               kalkyl. Konsekvenserna är logiska, men de är inte desto mindre
               moraliskt och politiskt orimliga, helt enkelt därför att den grundläggande
@@ -1458,21 +1493,40 @@
               har balans och talar klart
             </seg>
           </u>
-          <pb n="17" facs="https://betalab.kb.se/prot-1972--59/prot_1972__59-017.jp2/_view"/>
           <note n="9b70a5fc">
             Nr 59
           </note>
-          <note n="d51a19d2">
+          <note type="date" n="c29367da">
             Tisdagen den 18 april 1972
           </note>
-          <u who="krister_wickman_50817f" xml:id="i-a20c5410ff663620-0" prev="i-5f847a2abddc6189-0" n="67ea386e">
+          <u who="krister_wickman_50817f" xml:id="i-67ea386ea4f17895-2" prev="i-67ea386ea4f17895-0" n="67ea386e">
             <seg n="c4509bd5">
               Ang. åtgärder mot USA:s deltagande i kriget i Vietnam
             </seg>
-            <seg n="3833046e"/>
+          </u>
+          <note n="601a74c4">
+            103
+          </note>
+          <u who="krister_wickman_50817f" xml:id="i-67ea386ea4f17895-3" prev="i-67ea386ea4f17895-0" n="67ea386e"/>
+          <pb n="18" facs="https://betalab.kb.se/prot-1972--59/prot_1972__59-018.jp2/_view"/>
+          <note n="9b70a5fc">
+            Nr 59
+          </note>
+          <note type="date" n="c29367da">
+            Tisdagen den 18 april 1972
+          </note>
+          <note n="6e645092">
+            Ang. åtgärder mot
+          </note>
+          <u who="krister_wickman_50817f" xml:id="i-67ea386ea4f17895-4" prev="i-67ea386ea4f17895-0" n="67ea386e">
             <seg n="9e2d61d5">
               USA:s deltagande i kriget i Vietnam
             </seg>
+          </u>
+          <note n="79166e10">
+            104
+          </note>
+          <u who="krister_wickman_50817f" xml:id="i-67ea386ea4f17895-5" prev="i-67ea386ea4f17895-0" n="67ea386e">
             <seg n="1d9e98c8">
               om att alla främmande trupper, alltså även de nordvietnamesiska,
               skall dras bort.
@@ -1507,26 +1561,10 @@
               politisk lösning. Utrikesministern får ursäkta mig.
             </seg>
           </u>
-          <note n="601a74c4">
-            103
-          </note>
-          <pb n="18" facs="https://betalab.kb.se/prot-1972--59/prot_1972__59-018.jp2/_view"/>
-          <note n="9b70a5fc">
-            Nr 59
-          </note>
-          <note n="d51a19d2">
-            Tisdagen den 18 april 1972
-          </note>
-          <note n="6e645092">
-            Ang. åtgärder mot
-          </note>
-          <note n="79166e10">
-            104
-          </note>
           <note type="speaker" n="af41e9d2">
             Fru DAHL (s):
           </note>
-          <u who="birgitta_dahl_7fb5f2" xml:id="i-9305a20275638444-1" next="i-7754bdcadd09da51-1" n="6da6502e">
+          <u who="birgitta_dahl_7fb5f2" xml:id="i-6cb227bab4bf7310-5" next="i-6cb227bab4bf7310-15" n="6da6502e">
             <seg n="b63a3841">
               Herr talman! Först vill jag tacka utrikesministern för det kompletterande
               svar jag fick och som innebär att regeringen kommer att föra detta
@@ -1557,6 +1595,9 @@
               Laos och Cambodja är ett brott mot mänskligheten och mot folkrätten
               från början till slut. På det
             </seg>
+          </u>
+          <pb n="19" facs="https://betalab.kb.se/prot-1972--59/prot_1972__59-019.jp2/_view"/>
+          <u who="birgitta_dahl_7fb5f2" xml:id="i-6cb227bab4bf7310-6" prev="i-6cb227bab4bf7310-5" n="6da6502e">
             <seg n="24ea9b0d">
               sättet har också USA skilt sig och sitt parti från resten av
               svenska folket och dess representanter här i riksdagen.
@@ -1632,26 +1673,45 @@
               i sakliga termer. Fru
             </seg>
           </u>
-          <pb n="19" facs="https://betalab.kb.se/prot-1972--59/prot_1972__59-019.jp2/_view"/>
           <note n="e1b0e601">
             4" Riksdagens protokoll 1972. Nr 58-59
           </note>
           <note n="9b70a5fc">
             Nr 59
           </note>
-          <note n="d51a19d2">
+          <note type="date" n="c29367da">
             Tisdagen den 18 april 1972
           </note>
           <note n="6e645092">
             Ang. åtgärder mot
           </note>
-          <u who="birgitta_dahl_7fb5f2" xml:id="i-7754bdcadd09da51-1" prev="i-9305a20275638444-1" n="6da6502e">
+          <u who="birgitta_dahl_7fb5f2" xml:id="i-6cb227bab4bf7310-7" prev="i-6cb227bab4bf7310-5" n="6da6502e">
             <seg n="9e2d61d5">
               USA:s deltagande i kriget i Vietnam
             </seg>
+          </u>
+          <note n="c4c4e70f">
+            105
+          </note>
+          <pb n="20" facs="https://betalab.kb.se/prot-1972--59/prot_1972__59-020.jp2/_view"/>
+          <note n="9b70a5fc">
+            Nr 59
+          </note>
+          <note type="date" n="c29367da">
+            Tisdagen den 18 april 1972
+          </note>
+          <note n="6e645092">
+            Ang. åtgärder mot
+          </note>
+          <u who="birgitta_dahl_7fb5f2" xml:id="i-6cb227bab4bf7310-8" prev="i-6cb227bab4bf7310-5" n="6da6502e">
             <seg n="9e2d61d5">
               USA:s deltagande i kriget i Vietnam
             </seg>
+          </u>
+          <note n="5884f5fa">
+            106
+          </note>
+          <u who="birgitta_dahl_7fb5f2" xml:id="i-6cb227bab4bf7310-9" prev="i-6cb227bab4bf7310-5" n="6da6502e">
             <seg n="d61e2078">
               Dahl har ju inte på något sätt tagit ställning till den delvis
               formella fråga jag ställde om hur man skall se på den nordvietnamesiska
@@ -1719,6 +1779,9 @@
               att alla de nyheter som har förmedlats av de västliga nyhetsbyråer
               som det här har refererats till är
             </seg>
+          </u>
+          <pb n="21" facs="https://betalab.kb.se/prot-1972--59/prot_1972__59-021.jp2/_view"/>
+          <u who="birgitta_dahl_7fb5f2" xml:id="i-6cb227bab4bf7310-10" prev="i-6cb227bab4bf7310-5" n="6da6502e">
             <seg n="91c12a16">
               hårt censurerade av Saigonregimen och av USA. Jag har aldrig
               förnekat närvaron av nordvietnamesisk trupp i södra Vietnam, men
@@ -1767,6 +1830,11 @@
               inlägg att det huvudsakligen är en av FNL, en av Sydvietnams folk
               ledd offensiv? Skall jag tolka herr Wijkmans uttalande så?
             </seg>
+          </u>
+          <note n="a6860acb">
+            Herr OLSSON i Kil (fp):
+          </note>
+          <u who="birgitta_dahl_7fb5f2" xml:id="i-6cb227bab4bf7310-11" prev="i-6cb227bab4bf7310-5" n="6da6502e">
             <seg n="2c92607c">
               Herr talman! Herr Wijkman gör den formella frågan om Nordvietnams
               skuld till en huvudfråga och flyr på det viset det centrala i
@@ -1788,13 +1856,41 @@
               Det var en högst artificiell gräns, som drogs vid den 17:e breddgraden,
               där
             </seg>
+          </u>
+          <note n="9b70a5fc">
+            Nr 59
+          </note>
+          <note type="date" n="c29367da">
+            Tisdagen den 18 april 1972
+          </note>
+          <u who="birgitta_dahl_7fb5f2" xml:id="i-6cb227bab4bf7310-12" prev="i-6cb227bab4bf7310-5" n="6da6502e">
             <seg n="c4509bd5">
               Ang. åtgärder mot USA:s deltagande i kriget i Vietnam
             </seg>
-            <seg n="3833046e"/>
+          </u>
+          <note n="e716ff04">
+            107
+          </note>
+          <pb n="22" facs="https://betalab.kb.se/prot-1972--59/prot_1972__59-022.jp2/_view"/>
+          <u who="birgitta_dahl_7fb5f2" xml:id="i-6cb227bab4bf7310-13" prev="i-6cb227bab4bf7310-5" n="6da6502e"/>
+          <note n="9b70a5fc">
+            Nr 59
+          </note>
+          <note type="date" n="c29367da">
+            Tisdagen den 18 april 1972
+          </note>
+          <note n="6e645092">
+            Ang. åtgärder mot
+          </note>
+          <u who="birgitta_dahl_7fb5f2" xml:id="i-6cb227bab4bf7310-14" prev="i-6cb227bab4bf7310-5" n="6da6502e">
             <seg n="9e2d61d5">
               USA:s deltagande i kriget i Vietnam
             </seg>
+          </u>
+          <note n="1147c373">
+            108
+          </note>
+          <u who="birgitta_dahl_7fb5f2" xml:id="i-6cb227bab4bf7310-15" prev="i-6cb227bab4bf7310-5" n="6da6502e">
             <seg n="4450a106">
               man delade upp samma folk, med samma bakgrund och samma språk
               i två delar.
@@ -1815,52 +1911,10 @@
               att göra.
             </seg>
           </u>
-          <note n="c4c4e70f">
-            105
-          </note>
-          <pb n="20" facs="https://betalab.kb.se/prot-1972--59/prot_1972__59-020.jp2/_view"/>
-          <note n="9b70a5fc">
-            Nr 59
-          </note>
-          <note n="d51a19d2">
-            Tisdagen den 18 april 1972
-          </note>
-          <note n="6e645092">
-            Ang. åtgärder mot
-          </note>
-          <note n="5884f5fa">
-            106
-          </note>
-          <pb n="21" facs="https://betalab.kb.se/prot-1972--59/prot_1972__59-021.jp2/_view"/>
-          <note n="a6860acb">
-            Herr OLSSON i Kil (fp):
-          </note>
-          <note n="9b70a5fc">
-            Nr 59
-          </note>
-          <note n="d51a19d2">
-            Tisdagen den 18 april 1972
-          </note>
-          <note n="e716ff04">
-            107
-          </note>
-          <pb n="22" facs="https://betalab.kb.se/prot-1972--59/prot_1972__59-022.jp2/_view"/>
-          <note n="9b70a5fc">
-            Nr 59
-          </note>
-          <note n="d51a19d2">
-            Tisdagen den 18 april 1972
-          </note>
-          <note n="6e645092">
-            Ang. åtgärder mot
-          </note>
-          <note n="1147c373">
-            108
-          </note>
           <note type="speaker" n="afb67060">
             Herr TAKMAN (vpk):
           </note>
-          <u who="john_takman_8874cf" xml:id="i-570876e0331c9f2d-1" next="i-1ac79a9348aa62f0-1" n="12a763f9">
+          <u who="john_takman_8874cf" xml:id="i-12a763f9f272945e-11" next="i-12a763f9f272945e-26" n="12a763f9">
             <seg n="656e3e13">
               Herr talman! En intressant upplysning i Pentagonrapporten är
               att man förgäves letade efter nordvietnamesiska trupper i Sydvietnam.
@@ -1909,6 +1963,9 @@
               att USA till 1971 års slut beräknades ha fällt 6,2 miljoner ton
               bomber över Indokina, därav 3,6
             </seg>
+          </u>
+          <pb n="23" facs="https://betalab.kb.se/prot-1972--59/prot_1972__59-023.jp2/_view"/>
+          <u who="john_takman_8874cf" xml:id="i-12a763f9f272945e-12" prev="i-12a763f9f272945e-11" n="12a763f9">
             <seg n="6cf4c8c4">
               miljoner ton över Sydvietnam, 0,5 miljoner ton över Nordvietnam,
               1,4 miljoner ton över Laos” södra del, 0,2 miljoner ton över norra
@@ -1977,21 +2034,43 @@
               och hållet vända upp och ner på ett centralt stycke modern historia.
             </seg>
           </u>
-          <pb n="23" facs="https://betalab.kb.se/prot-1972--59/prot_1972__59-023.jp2/_view"/>
           <note n="9b70a5fc">
             Nr 59
           </note>
-          <note n="d51a19d2">
+          <note type="date" n="c29367da">
             Tisdagen den 18 april 1972
           </note>
-          <u who="john_takman_8874cf" xml:id="i-1ac79a9348aa62f0-1" prev="i-570876e0331c9f2d-1" n="12a763f9">
+          <u who="john_takman_8874cf" xml:id="i-12a763f9f272945e-13" prev="i-12a763f9f272945e-11" n="12a763f9">
             <seg n="c4509bd5">
               Ang. åtgärder mot USA:s deltagande i kriget i Vietnam
             </seg>
-            <seg n="3833046e"/>
+          </u>
+          <note n="238e6f08">
+            109
+          </note>
+          <pb n="24" facs="https://betalab.kb.se/prot-1972--59/prot_1972__59-024.jp2/_view"/>
+          <u who="john_takman_8874cf" xml:id="i-12a763f9f272945e-14" prev="i-12a763f9f272945e-11" n="12a763f9"/>
+          <note n="9b70a5fc">
+            Nr 59
+          </note>
+          <note type="date" n="c29367da">
+            Tisdagen den 18 april 1972
+          </note>
+          <note n="6e645092">
+            Ang. åtgärder mot
+          </note>
+          <u who="john_takman_8874cf" xml:id="i-12a763f9f272945e-15" prev="i-12a763f9f272945e-11" n="12a763f9">
             <seg n="9e2d61d5">
               USA:s deltagande i kriget i Vietnam
             </seg>
+          </u>
+          <note n="c8779228">
+            110
+          </note>
+          <note n="db5ffb7a">
+            Herr BJÖRCK i Nässjö (m):
+          </note>
+          <u who="john_takman_8874cf" xml:id="i-12a763f9f272945e-16" prev="i-12a763f9f272945e-11" n="12a763f9">
             <seg n="932ecd33">
               Herr talman! Låt mig inledningsvis, för att inget tvivel skall
               råda därvidlag, bara slå fast att också jag beklagar de bombningar
@@ -2056,6 +2135,9 @@
               undan för undan har blivit ett krig som förs mellan reguljära
               förband med
             </seg>
+          </u>
+          <pb n="25" facs="https://betalab.kb.se/prot-1972--59/prot_1972__59-025.jp2/_view"/>
+          <u who="john_takman_8874cf" xml:id="i-12a763f9f272945e-17" prev="i-12a763f9f272945e-11" n="12a763f9">
             <seg n="adbe9b82">
               insats av flyg, radarstyrda luftvärnsrobotar, artilleri och tanks.
               Krigets karaktär av ett folkligt befrielsekrig har försvagats,
@@ -2125,13 +2207,41 @@
               annat än detta enkla, att Vietnams folk skall få bestämma i sitt
               eget land.
             </seg>
+          </u>
+          <note n="9b70a5fc">
+            Nr 59
+          </note>
+          <note type="date" n="c29367da">
+            Tisdagen den 18 april 1972
+          </note>
+          <u who="john_takman_8874cf" xml:id="i-12a763f9f272945e-18" prev="i-12a763f9f272945e-11" n="12a763f9">
             <seg n="c4509bd5">
               Ang. åtgärder mot USA:s deltagande i kriget i Vietnam
             </seg>
-            <seg n="3833046e"/>
+          </u>
+          <note n="f43f19ac">
+            111
+          </note>
+          <pb n="26" facs="https://betalab.kb.se/prot-1972--59/prot_1972__59-026.jp2/_view"/>
+          <u who="john_takman_8874cf" xml:id="i-12a763f9f272945e-19" prev="i-12a763f9f272945e-11" n="12a763f9"/>
+          <note n="9b70a5fc">
+            Nr 59
+          </note>
+          <note type="date" n="c29367da">
+            Tisdagen den 18 april 1972
+          </note>
+          <note n="6e645092">
+            Ang. åtgärder mot
+          </note>
+          <u who="john_takman_8874cf" xml:id="i-12a763f9f272945e-20" prev="i-12a763f9f272945e-11" n="12a763f9">
             <seg n="9e2d61d5">
               USA:s deltagande i kriget i Vietnam
             </seg>
+          </u>
+          <note n="c9f8a55b">
+            112
+          </note>
+          <u who="john_takman_8874cf" xml:id="i-12a763f9f272945e-21" prev="i-12a763f9f272945e-11" n="12a763f9">
             <seg n="07a8e6b9">
               Herr Björck skall inte tala så högljutt om försvaret mot kommunistiska
               och andra enpartisystem, för det är inte herr Björcks parti utan
@@ -2203,6 +2313,9 @@
               får vara med och bestämma
             </seg>
             <seg n="3833046e"/>
+          </u>
+          <pb n="27" facs="https://betalab.kb.se/prot-1972--59/prot_1972__59-027.jp2/_view"/>
+          <u who="john_takman_8874cf" xml:id="i-12a763f9f272945e-22" prev="i-12a763f9f272945e-11" n="12a763f9">
             <seg n="11dbd7d8">
               där. Det skulle vara utmärkt om här kunde ges något exempel på
               var och när något sådant har skett.
@@ -2270,13 +2383,41 @@
               rovdriftssystemet, är utomordentligt begränsad jämförd med den
               frihet som människorna har i Nordvietnam.
             </seg>
+          </u>
+          <note n="9b70a5fc">
+            Nr 59
+          </note>
+          <note type="date" n="c29367da">
+            Tisdagen den 18 april 1972
+          </note>
+          <u who="john_takman_8874cf" xml:id="i-12a763f9f272945e-23" prev="i-12a763f9f272945e-11" n="12a763f9">
             <seg n="c4509bd5">
               Ang. åtgärder mot USA:s deltagande i kriget i Vietnam
             </seg>
-            <seg n="3833046e"/>
+          </u>
+          <note n="7596c9f0">
+            113
+          </note>
+          <pb n="28" facs="https://betalab.kb.se/prot-1972--59/prot_1972__59-028.jp2/_view"/>
+          <u who="john_takman_8874cf" xml:id="i-12a763f9f272945e-24" prev="i-12a763f9f272945e-11" n="12a763f9"/>
+          <note n="9b70a5fc">
+            Nr 59
+          </note>
+          <note type="date" n="c29367da">
+            Tisdagen den 18 april 1972
+          </note>
+          <note n="6e645092">
+            Ang. åtgärder mot
+          </note>
+          <u who="john_takman_8874cf" xml:id="i-12a763f9f272945e-25" prev="i-12a763f9f272945e-11" n="12a763f9">
             <seg n="9e2d61d5">
               USA:s deltagande i kriget i Vietnam
             </seg>
+          </u>
+          <note n="ed24d644">
+            114
+          </note>
+          <u who="john_takman_8874cf" xml:id="i-12a763f9f272945e-26" prev="i-12a763f9f272945e-11" n="12a763f9">
             <seg n="52165886">
               Herr TAKMAN (vpk) kort genmäle:
             </seg>
@@ -2345,76 +2486,11 @@
             </seg>
             <seg n="3833046e"/>
           </u>
-          <note n="238e6f08">
-            109
-          </note>
-          <pb n="24" facs="https://betalab.kb.se/prot-1972--59/prot_1972__59-024.jp2/_view"/>
-          <note n="9b70a5fc">
-            Nr 59
-          </note>
-          <note n="d51a19d2">
-            Tisdagen den 18 april 1972
-          </note>
-          <note n="6e645092">
-            Ang. åtgärder mot
-          </note>
-          <note n="c8779228">
-            110
-          </note>
-          <note n="db5ffb7a">
-            Herr BJÖRCK i Nässjö (m):
-          </note>
-          <pb n="25" facs="https://betalab.kb.se/prot-1972--59/prot_1972__59-025.jp2/_view"/>
-          <note n="9b70a5fc">
-            Nr 59
-          </note>
-          <note n="d51a19d2">
-            Tisdagen den 18 april 1972
-          </note>
-          <note n="f43f19ac">
-            111
-          </note>
-          <pb n="26" facs="https://betalab.kb.se/prot-1972--59/prot_1972__59-026.jp2/_view"/>
-          <note n="9b70a5fc">
-            Nr 59
-          </note>
-          <note n="d51a19d2">
-            Tisdagen den 18 april 1972
-          </note>
-          <note n="6e645092">
-            Ang. åtgärder mot
-          </note>
-          <note n="c9f8a55b">
-            112
-          </note>
-          <pb n="27" facs="https://betalab.kb.se/prot-1972--59/prot_1972__59-027.jp2/_view"/>
-          <note n="9b70a5fc">
-            Nr 59
-          </note>
-          <note n="d51a19d2">
-            Tisdagen den 18 april 1972
-          </note>
-          <note n="7596c9f0">
-            113
-          </note>
-          <pb n="28" facs="https://betalab.kb.se/prot-1972--59/prot_1972__59-028.jp2/_view"/>
-          <note n="9b70a5fc">
-            Nr 59
-          </note>
-          <note n="d51a19d2">
-            Tisdagen den 18 april 1972
-          </note>
-          <note n="6e645092">
-            Ang. åtgärder mot
-          </note>
-          <note n="ed24d644">
-            114
-          </note>
           <pb n="29" facs="https://betalab.kb.se/prot-1972--59/prot_1972__59-029.jp2/_view"/>
           <note type="speaker" n="2d06afb9">
             Fru JONÄNG (c):
           </note>
-          <u who="gunnel_jonang_b26101" xml:id="i-c7f0742bed11cb27-0" n="30fa69be">
+          <u who="gunnel_jonang_b26101" xml:id="i-2e50b9f12e6961fa-5" n="30fa69be">
             <seg n="2ad7168c">
               Herr talman! Jag hade hoppats att det skulle ha varit full enighet
               och en bred manifestation här i dag. Så blev nu inte fallet. Jag
@@ -2456,7 +2532,7 @@
           <note type="speaker" n="4a531f1b">
             Herr CARLSHAMRE (m):
           </note>
-          <u who="nils_carlshamre_ec6a85" xml:id="i-8de223bcf87ca083-0" next="i-242fe52fe8c1e3d5-0" n="96fff77d">
+          <u who="nils_carlshamre_ec6a85" xml:id="i-96fff77d5796fb06-0" next="i-96fff77d5796fb06-7" n="96fff77d">
             <seg n="bdefe194">
               Herr talman! Fru Dahl erinrade om att den stora offensiv som
               sattes i gång i Vietnam vid månadsskiftet mars-april kom lagom
@@ -2489,17 +2565,40 @@
           <note n="9b70a5fc">
             Nr 59
           </note>
-          <note n="d51a19d2">
+          <note type="date" n="c29367da">
             Tisdagen den 18 april 1972
           </note>
-          <u who="nils_carlshamre_ec6a85" xml:id="i-242fe52fe8c1e3d5-0" prev="i-8de223bcf87ca083-0" n="96fff77d">
+          <u who="nils_carlshamre_ec6a85" xml:id="i-96fff77d5796fb06-1" prev="i-96fff77d5796fb06-0" n="96fff77d">
             <seg n="c4509bd5">
               Ang. åtgärder mot USA:s deltagande i kriget i Vietnam
             </seg>
-            <seg n="3833046e"/>
+          </u>
+          <note n="063a2b8d">
+            115
+          </note>
+          <pb n="30" facs="https://betalab.kb.se/prot-1972--59/prot_1972__59-030.jp2/_view"/>
+          <note n="0ce39d54">
+            | |
+          </note>
+          <u who="nils_carlshamre_ec6a85" xml:id="i-96fff77d5796fb06-2" prev="i-96fff77d5796fb06-0" n="96fff77d"/>
+          <note n="9b70a5fc">
+            Nr 59
+          </note>
+          <note type="date" n="c29367da">
+            Tisdagen den 18 april 1972
+          </note>
+          <note n="6e645092">
+            Ang. åtgärder mot
+          </note>
+          <u who="nils_carlshamre_ec6a85" xml:id="i-96fff77d5796fb06-3" prev="i-96fff77d5796fb06-0" n="96fff77d">
             <seg n="5a7a49cc">
               USA :s deltagande i kriget i Vietnam
             </seg>
+          </u>
+          <note n="e1a9a093">
+            116
+          </note>
+          <u who="nils_carlshamre_ec6a85" xml:id="i-96fff77d5796fb06-4" prev="i-96fff77d5796fb06-0" n="96fff77d">
             <seg n="40140cc7">
               låta bli att tycka att det delvis är fel debatt på fel tid.
             </seg>
@@ -2564,6 +2663,12 @@
               Wickman här har givit till känna som svenska regeringens syn på
               vad som just nu sker i Vietnam.
             </seg>
+          </u>
+          <pb n="31" facs="https://betalab.kb.se/prot-1972--59/prot_1972__59-031.jp2/_view"/>
+          <note n="a6860acb">
+            Herr OLSSON i Kil (fp):
+          </note>
+          <u who="nils_carlshamre_ec6a85" xml:id="i-96fff77d5796fb06-5" prev="i-96fff77d5796fb06-0" n="96fff77d">
             <seg n="b57e2563">
               Herr talman! Jag skall göra herr Carlshamre till viljes och inte
               tolka in så mycket i Anders Björcks i Nässjö tidigare inlägg,
@@ -2629,34 +2734,7 @@
               huvudstad, varvid 25 personer dödades, samtliga civila och bland
               dem kvinnor och barn. Jag tar avstånd även från detta.
             </seg>
-            <seg n="9e2d61d5">
-              USA:s deltagande i kriget i Vietnam
-            </seg>
-            <seg n="3833046e"/>
           </u>
-          <note n="063a2b8d">
-            115
-          </note>
-          <pb n="30" facs="https://betalab.kb.se/prot-1972--59/prot_1972__59-030.jp2/_view"/>
-          <note n="0ce39d54">
-            | |
-          </note>
-          <note n="9b70a5fc">
-            Nr 59
-          </note>
-          <note n="d51a19d2">
-            Tisdagen den 18 april 1972
-          </note>
-          <note n="6e645092">
-            Ang. åtgärder mot
-          </note>
-          <note n="e1a9a093">
-            116
-          </note>
-          <pb n="31" facs="https://betalab.kb.se/prot-1972--59/prot_1972__59-031.jp2/_view"/>
-          <note n="a6860acb">
-            Herr OLSSON i Kil (fp):
-          </note>
           <note n="9b70a5fc">
             Nr 59
           </note>
@@ -2676,19 +2754,25 @@
           <note n="9b70a5fc">
             Nr 59
           </note>
-          <note n="d51a19d2">
+          <note type="date" n="c29367da">
             Tisdagen den 18 april 1972
           </note>
+          <u who="nils_carlshamre_ec6a85" xml:id="i-96fff77d5796fb06-6" prev="i-96fff77d5796fb06-0" n="96fff77d">
+            <seg n="9e2d61d5">
+              USA:s deltagande i kriget i Vietnam
+            </seg>
+          </u>
           <note n="e419b839">
             118
           </note>
+          <u who="nils_carlshamre_ec6a85" xml:id="i-96fff77d5796fb06-7" prev="i-96fff77d5796fb06-0" n="96fff77d"/>
           <note n="4ddc2d05">
             7 ng. åtgärder mot
           </note>
           <note type="speaker" n="afb67060">
             Herr TAKMAN (vpk):
           </note>
-          <u who="john_takman_8874cf" xml:id="i-570876e0331c9f2d-2" next="i-1ac79a9348aa62f0-2" n="12a763f9">
+          <u who="john_takman_8874cf" xml:id="i-12a763f9f272945e-27" next="i-12a763f9f272945e-28" n="12a763f9">
             <seg n="b21def1a">
               Herr talman! Man måste beklaga att debatten har kommit att till
               så stor del präglas av helt ovidkommande saker och delvis av ytterst
@@ -2742,11 +2826,11 @@
             Under detta anförande övertog herr förste vice talmannen ledningen
             av kammarens förhandlingar.
           </note>
-          <u who="john_takman_8874cf" xml:id="i-1ac79a9348aa62f0-2" prev="i-570876e0331c9f2d-2" n="12a763f9"/>
+          <u who="john_takman_8874cf" xml:id="i-12a763f9f272945e-28" prev="i-12a763f9f272945e-27" n="12a763f9"/>
           <note type="speaker" n="056d6fcd">
             Herr PERSSON i Stockholm (s):
           </note>
-          <u who="yngve_persson_6d1d75" xml:id="i-7183d03610d7bc34-0" n="5c2447fb">
+          <u who="yngve_persson_6d1d75" xml:id="i-5c2447fbebc30448-0" next="i-12a763f9f272945e-38" n="5c2447fb">
             <seg n="92a23632">
               Herr talman! Jag tycker att det i dag har varit en utmärkt debatt,
               och jag skall fatta mig mycket kort.
@@ -2766,6 +2850,9 @@
               full rätt att
             </seg>
             <seg n="3833046e"/>
+          </u>
+          <pb n="33" facs="https://betalab.kb.se/prot-1972--59/prot_1972__59-033.jp2/_view"/>
+          <u who="yngve_persson_6d1d75" xml:id="i-12a763f9f272945e-29" prev="i-5c2447fbebc30448-0" n="5c2447fb">
             <seg n="088e595d">
               diskutera världsproblemen, att ha en uppfattning om demokrati
               och diktatur, osv. Men om vi håller på den nationella friheten
@@ -2834,12 +2921,40 @@
               svar — ja eller nej. Var det berättigat att gå in i Vietnam 1954,
               eller var det inte berättigat?
             </seg>
-            <seg n="3833046e"/>
-            <seg n="3833046e"/>
+          </u>
+          <note n="9b70a5fc">
+            Nr 59
+          </note>
+          <note n="283d9c84">
+            Tisdagen den
+          </note>
+          <note n="becda259">
+            18 april 1972 Ang. åtgärder mot USA's deltagande i kriget i Vietnam
+          </note>
+          <note n="6cc7da7e">
+            119
+          </note>
+          <u who="yngve_persson_6d1d75" xml:id="i-12a763f9f272945e-30" prev="i-5c2447fbebc30448-0" n="5c2447fb"/>
+          <pb n="34" facs="https://betalab.kb.se/prot-1972--59/prot_1972__59-034.jp2/_view"/>
+          <u who="yngve_persson_6d1d75" xml:id="i-12a763f9f272945e-31" prev="i-5c2447fbebc30448-0" n="5c2447fb"/>
+          <note n="9b70a5fc">
+            Nr 59
+          </note>
+          <note type="date" n="c29367da">
+            Tisdagen den 18 april 1972
+          </note>
+          <note n="6e645092">
+            Ang. åtgärder mot
+          </note>
+          <u who="yngve_persson_6d1d75" xml:id="i-12a763f9f272945e-32" prev="i-5c2447fbebc30448-0" n="5c2447fb">
             <seg n="9e2d61d5">
               USA:s deltagande i kriget i Vietnam
             </seg>
-            <seg n="3833046e"/>
+          </u>
+          <note n="4f974f22">
+            120
+          </note>
+          <u who="yngve_persson_6d1d75" xml:id="i-12a763f9f272945e-33" prev="i-5c2447fbebc30448-0" n="5c2447fb">
             <seg n="e26941bf">
               Herr WIJKMAN (m) kort genmäle:
             </seg>
@@ -2909,6 +3024,9 @@
               komma att leva. Jag tog också upp frågan därför att jag inte fick
               något svar av utrikesministern i
             </seg>
+          </u>
+          <pb n="35" facs="https://betalab.kb.se/prot-1972--59/prot_1972__59-035.jp2/_view"/>
+          <u who="yngve_persson_6d1d75" xml:id="i-12a763f9f272945e-34" prev="i-5c2447fbebc30448-0" n="5c2447fb">
             <seg n="03600ed6">
               remissdebatten, när jag då aktualiserade samma fråga av den anledningen
               att Sverige är ett land som ger betydande hjälp till Nordvietnam.
@@ -2983,14 +3101,38 @@
               Jag hävdar fortfarande att vi måste ta hänsyn till realiteter,
               när vi skall
             </seg>
+          </u>
+          <note n="9b70a5fc">
+            Nr 59
+          </note>
+          <note type="date" n="c29367da">
+            Tisdagen den 18 april 1972
+          </note>
+          <u who="yngve_persson_6d1d75" xml:id="i-12a763f9f272945e-35" prev="i-5c2447fbebc30448-0" n="5c2447fb">
             <seg n="c4509bd5">
               Ang. åtgärder mot USA:s deltagande i kriget i Vietnam
             </seg>
-            <seg n="3833046e"/>
+          </u>
+          <note n="9c6da93d">
+            121
+          </note>
+          <u who="yngve_persson_6d1d75" xml:id="i-12a763f9f272945e-36" prev="i-5c2447fbebc30448-0" n="5c2447fb"/>
+          <pb n="36" facs="https://betalab.kb.se/prot-1972--59/prot_1972__59-036.jp2/_view"/>
+          <note n="c2405c68">
+            I Nr 59
+          </note>
+          <note type="date" n="c29367da">
+            Tisdagen den 18 april 1972
+          </note>
+          <u who="yngve_persson_6d1d75" xml:id="i-12a763f9f272945e-37" prev="i-5c2447fbebc30448-0" n="5c2447fb">
             <seg n="88f3c4c1">
               Ang. åtgärder mot USA :s deltagande i kriget i Vietnam
             </seg>
-            <seg n="3833046e"/>
+          </u>
+          <note n="e83a8ed4">
+            122
+          </note>
+          <u who="yngve_persson_6d1d75" xml:id="i-12a763f9f272945e-38" prev="i-5c2447fbebc30448-0" n="5c2447fb">
             <seg n="623a5083">
               försöka få en fredlig lösning, försöka uppnå en politisk lösning.
               Statsministern, utrikesministern och andra representanter för
@@ -3018,56 +3160,10 @@
               råkar vara en helt annan sak i det här sammanhanget.
             </seg>
           </u>
-          <pb n="33" facs="https://betalab.kb.se/prot-1972--59/prot_1972__59-033.jp2/_view"/>
-          <note n="9b70a5fc">
-            Nr 59
-          </note>
-          <note n="283d9c84">
-            Tisdagen den
-          </note>
-          <note n="becda259">
-            18 april 1972 Ang. åtgärder mot USA's deltagande i kriget i Vietnam
-          </note>
-          <note n="6cc7da7e">
-            119
-          </note>
-          <pb n="34" facs="https://betalab.kb.se/prot-1972--59/prot_1972__59-034.jp2/_view"/>
-          <note n="9b70a5fc">
-            Nr 59
-          </note>
-          <note n="d51a19d2">
-            Tisdagen den 18 april 1972
-          </note>
-          <note n="6e645092">
-            Ang. åtgärder mot
-          </note>
-          <note n="4f974f22">
-            120
-          </note>
-          <pb n="35" facs="https://betalab.kb.se/prot-1972--59/prot_1972__59-035.jp2/_view"/>
-          <note n="9b70a5fc">
-            Nr 59
-          </note>
-          <note n="d51a19d2">
-            Tisdagen den 18 april 1972
-          </note>
-          <note n="9c6da93d">
-            121
-          </note>
-          <pb n="36" facs="https://betalab.kb.se/prot-1972--59/prot_1972__59-036.jp2/_view"/>
-          <note n="c2405c68">
-            I Nr 59
-          </note>
-          <note n="d51a19d2">
-            Tisdagen den 18 april 1972
-          </note>
-          <note n="e83a8ed4">
-            122
-          </note>
           <note type="speaker" n="af41e9d2">
             Fru DAHL (s):
           </note>
-          <u who="birgitta_dahl_7fb5f2" xml:id="i-9305a20275638444-2" next="i-7754bdcadd09da51-2" n="6da6502e">
+          <u who="birgitta_dahl_7fb5f2" xml:id="i-6cb227bab4bf7310-16" next="i-6cb227bab4bf7310-22" n="6da6502e">
             <seg n="deeba204">
               Herr talman! Den här debatten har pågått ganska länge nu och
               jag tror att den börjar närma sig sitt slut.
@@ -3110,6 +3206,9 @@
               likhet med fru Jonäng, mot att deras religion på det sättet dras
               i smutsen. Vi som har
             </seg>
+          </u>
+          <pb n="37" facs="https://betalab.kb.se/prot-1972--59/prot_1972__59-037.jp2/_view"/>
+          <u who="birgitta_dahl_7fb5f2" xml:id="i-6cb227bab4bf7310-17" prev="i-6cb227bab4bf7310-16" n="6da6502e">
             <seg n="3abd9041">
               hört USA tala om demokratins principer som ett motiv för dess
               krig mot hela folk reagerar mot detta.
@@ -3159,11 +3258,10 @@
               finna en fredlig politisk lösning.
             </seg>
           </u>
-          <pb n="37" facs="https://betalab.kb.se/prot-1972--59/prot_1972__59-037.jp2/_view"/>
           <note n="3ce7d4d3">
             Herr GUSTAFSSON i Byske (c):
           </note>
-          <u who="birgitta_dahl_7fb5f2" xml:id="i-7754bdcadd09da51-2" prev="i-9305a20275638444-2" n="6da6502e">
+          <u who="birgitta_dahl_7fb5f2" xml:id="i-6cb227bab4bf7310-18" prev="i-6cb227bab4bf7310-16" n="6da6502e">
             <seg n="e946ac89">
               Herr talman! Efter att ha lyssnat till denna överläggning, som
               borde ha blivit en enstämmig manifestation mot de grymheter som
@@ -3179,24 +3277,25 @@
               Carlshamre på sitt sätt formulerade. Jag hoppas i varje fall att
               det var innebörden.
             </seg>
-            <seg n="c4509bd5">
-              Ang. åtgärder mot USA:s deltagande i kriget i Vietnam
-            </seg>
-            <seg n="3833046e"/>
-            <seg n="3833046e"/>
-            <seg n="3833046e"/>
-            <seg n="3833046e"/>
           </u>
           <note n="e6a93c64">
             I detta anförande instämde herr Persson i Heden (c).
           </note>
-          <note n="64f8b1cf">
+          <note type="date" n="370fab18">
             Nr 59 Tisdagen den 18 april 1972
           </note>
+          <u who="birgitta_dahl_7fb5f2" xml:id="i-6cb227bab4bf7310-19" prev="i-6cb227bab4bf7310-16" n="6da6502e">
+            <seg n="c4509bd5">
+              Ang. åtgärder mot USA:s deltagande i kriget i Vietnam
+            </seg>
+            <seg n="3833046e"/>
+          </u>
           <note n="c658970b">
             123
           </note>
+          <u who="birgitta_dahl_7fb5f2" xml:id="i-6cb227bab4bf7310-20" prev="i-6cb227bab4bf7310-16" n="6da6502e"/>
           <pb n="38" facs="https://betalab.kb.se/prot-1972--59/prot_1972__59-038.jp2/_view"/>
+          <u who="birgitta_dahl_7fb5f2" xml:id="i-6cb227bab4bf7310-21" prev="i-6cb227bab4bf7310-16" n="6da6502e"/>
           <note n="9b70a5fc">
             Nr 59
           </note>
@@ -3209,13 +3308,14 @@
           <note n="3c313415">
             Om vidgning av rätten till avsättning på skogskonto
           </note>
+          <u who="birgitta_dahl_7fb5f2" xml:id="i-6cb227bab4bf7310-22" prev="i-6cb227bab4bf7310-16" n="6da6502e"/>
           <note n="0a171465">
             124
           </note>
           <note type="speaker" n="5e493397">
             Herr BURENSTAM LINDER (m):
           </note>
-          <u who="staffan_burenstam_linder_5efab3" xml:id="i-e79c373fa60ae260-0" next="i-3f25f52dc7cc442d-0" n="a8ad2ea9">
+          <u who="staffan_burenstam_linder_5efab3" xml:id="i-a8ad2ea939844465-0" next="i-a8ad2ea939844465-4" n="a8ad2ea9">
             <seg n="2e4c6c88">
               Herr talman! USA:s engagemang i Indokina finner jag tragiskt.
               Det är ju en uppfattning som delas av mycket inflytelserika opinioner
@@ -3232,7 +3332,7 @@
           <note n="db5ffb7a">
             Herr BJÖRCK i Nässjö (m):
           </note>
-          <u who="staffan_burenstam_linder_5efab3" xml:id="i-3f25f52dc7cc442d-0" prev="i-e79c373fa60ae260-0" n="a8ad2ea9">
+          <u who="staffan_burenstam_linder_5efab3" xml:id="i-a8ad2ea939844465-1" prev="i-a8ad2ea939844465-0" n="a8ad2ea9">
             <seg n="98afb146">
               Herr talman! Jag hade verkligen inte trott att jag skulle behöva
               gå upp i den här debatten igen, men efter att ha hört herr Gustafssons
@@ -3244,9 +3344,25 @@
               Om herr Gustafsson i Byske har en sådan inställning så vill jag
               returnera hans ord.
             </seg>
+          </u>
+          <note n="df0f90ef">
+            Herr GUSTAFSSON i Byske (c): Herr talman! Herr Gustafsson i Byske
+            menade vad han sade!
+          </note>
+          <note n="40a282d0">
+            Överläggningen var härmed slutad.
+          </note>
+          <u who="staffan_burenstam_linder_5efab3" xml:id="i-a8ad2ea939844465-2" prev="i-a8ad2ea939844465-0" n="a8ad2ea9">
             <seg n="d6aa5f2f">
               $ 4 Om vidgning av rätten till avsättning på skogskonto
             </seg>
+          </u>
+          <note n="42233607">
+            Herr finansministern STRÄNG erhöll ordet för att besvara herr
+            Jonassons (c) den 8 mars framställda interpellation, nr 85, och
+            anförde:
+          </note>
+          <u who="staffan_burenstam_linder_5efab3" xml:id="i-a8ad2ea939844465-3" prev="i-a8ad2ea939844465-0" n="a8ad2ea9">
             <seg n="076eae85">
               Herr talman! Herr Jonasson har frågat mig om jag vill medverka
               till att den utvidgade rätten till insättning på skogskonto i
@@ -3270,6 +3386,9 @@
               år 1969, i största möjliga utsträckning kan göras inom ramen för
               de ordinarie avverkning-
             </seg>
+          </u>
+          <pb n="39" facs="https://betalab.kb.se/prot-1972--59/prot_1972__59-039.jp2/_view"/>
+          <u who="staffan_burenstam_linder_5efab3" xml:id="i-a8ad2ea939844465-4" prev="i-a8ad2ea939844465-0" n="a8ad2ea9">
             <seg n="63d47088">
               arna. Styrelsen anför att de avverkningar som förorsakats av
               insektsskador och insektsbekämpning endast i undantagsfall värdemässigt
@@ -3298,23 +3417,10 @@
               för att bekämpa skadeinsekter.
             </seg>
           </u>
-          <note n="df0f90ef">
-            Herr GUSTAFSSON i Byske (c): Herr talman! Herr Gustafsson i Byske
-            menade vad han sade!
-          </note>
-          <note n="40a282d0">
-            Överläggningen var härmed slutad.
-          </note>
-          <note n="42233607">
-            Herr finansministern STRÄNG erhöll ordet för att besvara herr
-            Jonassons (c) den 8 mars framställda interpellation, nr 85, och
-            anförde:
-          </note>
-          <pb n="39" facs="https://betalab.kb.se/prot-1972--59/prot_1972__59-039.jp2/_view"/>
           <note type="speaker" n="f87531c7">
             Herr JONASSON (c):
           </note>
-          <u who="bertil_jonasson_878c41" xml:id="i-9ea44d3983993f07-0" next="i-8ed8125494139782-0" n="e670aeb5">
+          <u who="bertil_jonasson_878c41" xml:id="i-e670aeb515ed819b-0" next="i-e670aeb515ed819b-2" n="e670aeb5">
             <seg n="44c16b6e">
               Herr talman! Jag ber att få tacka finansministern för svaret
               på min interpellation.
@@ -3371,8 +3477,25 @@
             Å
           </note>
           <pb n="40" facs="https://betalab.kb.se/prot-1972--59/prot_1972__59-040.jp2/_view"/>
-          <u who="bertil_jonasson_878c41" xml:id="i-8ed8125494139782-0" prev="i-9ea44d3983993f07-0" n="e670aeb5">
+          <u who="bertil_jonasson_878c41" xml:id="i-e670aeb515ed819b-1" prev="i-e670aeb515ed819b-0" n="e670aeb5">
             <seg n="3833046e"/>
+          </u>
+          <note n="9b70a5fc">
+            Nr 59
+          </note>
+          <note type="date" n="c29367da">
+            Tisdagen den 18 april 1972
+          </note>
+          <note n="da646fb0">
+            Om vidgning av
+          </note>
+          <note n="8ff39631">
+            rätten till avsättning på skogskonto
+          </note>
+          <note n="e5d4bc5d">
+            126
+          </note>
+          <u who="bertil_jonasson_878c41" xml:id="i-e670aeb515ed819b-2" prev="i-e670aeb515ed819b-0" n="e670aeb5">
             <seg n="8fc79e0e">
               Men det är för dessa som jag nu talar. De är inte många, men
               frågan kan vara nog så viktig för dem det gäller. Också de är
@@ -3403,25 +3526,10 @@
               svaret varit ett annat.
             </seg>
           </u>
-          <note n="9b70a5fc">
-            Nr 59
-          </note>
-          <note n="d51a19d2">
-            Tisdagen den 18 april 1972
-          </note>
-          <note n="da646fb0">
-            Om vidgning av
-          </note>
-          <note n="8ff39631">
-            rätten till avsättning på skogskonto
-          </note>
-          <note n="e5d4bc5d">
-            126
-          </note>
           <note type="speaker" n="83be2b83">
             Herr HEDIN (m):
           </note>
-          <u who="carl-eric_hedin_6c0331" xml:id="i-6e98ad44216ada46-0" n="b8d7c200">
+          <u who="carl-eric_hedin_6c0331" xml:id="i-d1e0ddd30d46a259-0" next="i-d1e0ddd30d46a259-1" n="b8d7c200">
             <seg n="93ab63a7">
               Herr talman! Jag vill också beklaga finansministerns negativa
               inställning i den här frågan och undrar om det inte går att ompröva
@@ -3459,6 +3567,9 @@
               det kanske skulle vara svårt att tillämpa det föreslagna systemet.
               Jag tror inte att någotdera skälet är särskilt bärande.
             </seg>
+          </u>
+          <pb n="41" facs="https://betalab.kb.se/prot-1972--59/prot_1972__59-041.jp2/_view"/>
+          <u who="carl-eric_hedin_6c0331" xml:id="i-d1e0ddd30d46a259-1" prev="i-d1e0ddd30d46a259-0" n="b8d7c200">
             <seg n="4e89ae9d">
               Finansministern säger att statsbidrag i regel utgår med 75 procent
               av kostnaderna för åtgärder som skogsägare vidtar i insektsbekämpande
@@ -3490,11 +3601,10 @@
               hoppas att finansministern överväger frågan en gång till.
             </seg>
           </u>
-          <pb n="41" facs="https://betalab.kb.se/prot-1972--59/prot_1972__59-041.jp2/_view"/>
           <note type="speaker" n="58242d54">
             Herr finansministern STRÄNG:
           </note>
-          <u who="gunnar_strang_32d58e" xml:id="i-362e42106eef5159-0" next="i-ea58c0c8b15eb7eb-0" n="ebf4131c">
+          <u who="gunnar_strang_32d58e" xml:id="i-ebf4131c4dfd9661-0" next="i-ebf4131c4dfd9661-1" n="ebf4131c">
             <seg n="f622de38">
               Herr talman! Jag skall ärligen erkänna att jag begriper att denna
               interpellation har ställts, men när jag fick den ansvariga skogsstyrelsens
@@ -3547,7 +3657,7 @@
             27
           </note>
           <pb n="42" facs="https://betalab.kb.se/prot-1972--59/prot_1972__59-042.jp2/_view"/>
-          <u who="gunnar_strang_32d58e" xml:id="i-ea58c0c8b15eb7eb-0" prev="i-362e42106eef5159-0" n="ebf4131c"/>
+          <u who="gunnar_strang_32d58e" xml:id="i-ebf4131c4dfd9661-1" prev="i-ebf4131c4dfd9661-0" n="ebf4131c"/>
           <note n="9b70a5fc">
             Nr 59
           </note>
@@ -3566,7 +3676,7 @@
           <note type="speaker" n="f87531c7">
             Herr JONASSON (c):
           </note>
-          <u who="bertil_jonasson_878c41" xml:id="i-82f68bfd095a11d0-0" n="e670aeb5">
+          <u who="bertil_jonasson_878c41" xml:id="i-e670aeb515ed819b-3" n="e670aeb5">
             <seg n="585f25c0">
               Herr talman! Detta är ett skogsägarintresse, men det gäller inte
               bara skogsägaren själv utan det kan gälla rågrannarna som så småningom
@@ -3586,7 +3696,7 @@
           <note type="speaker" n="83be2b83">
             Herr HEDIN (m):
           </note>
-          <u who="carl-eric_hedin_6c0331" xml:id="i-9d9f777faaadc08a-0" next="i-45bf54af46c454a8-0" n="b8d7c200">
+          <u who="carl-eric_hedin_6c0331" xml:id="i-d1e0ddd30d46a259-2" next="i-d1e0ddd30d46a259-3" n="b8d7c200">
             <seg n="e18ccc09">
               Herr talman! Jag vill också poängtera att detta är en fråga av
               stort allmänt intresse. Jag tror att alla skogsvårdsstyrelser
@@ -3616,7 +3726,7 @@
             Fågelsbos (c) den 16 mars framställda interpellation, nr 95, och
             anförde:
           </note>
-          <u who="carl-eric_hedin_6c0331" xml:id="i-45bf54af46c454a8-0" prev="i-9d9f777faaadc08a-0" n="b8d7c200">
+          <u who="carl-eric_hedin_6c0331" xml:id="i-d1e0ddd30d46a259-3" prev="i-d1e0ddd30d46a259-2" n="b8d7c200">
             <seg n="d4180b90">
               Herr talman! Herr Fågelsbo har frågat mig
             </seg>
@@ -3644,7 +3754,7 @@
           <note type="speaker" n="4b61a0af">
             Herr FÅGELSBO (c):
           </note>
-          <u who="anton_fagelsbo_830149" xml:id="i-61ac540459f59a7c-0" n="6e2f8d4a">
+          <u who="anton_fagelsbo_830149" xml:id="i-6e2f8d4a156b5f2a-0" n="6e2f8d4a">
             <seg n="aa58edf0">
               Herr talman! Jag ber att till finansministern få framföra ett
               tack för det svar som jag har fått på min interpellation.
@@ -3667,7 +3777,7 @@
           <note type="speaker" n="58242d54">
             Herr finansministern STRÄNG:
           </note>
-          <u who="gunnar_strang_32d58e" xml:id="i-362e42106eef5159-1" next="i-ea58c0c8b15eb7eb-1" n="ebf4131c">
+          <u who="gunnar_strang_32d58e" xml:id="i-ebf4131c4dfd9661-2" next="i-ebf4131c4dfd9661-22" n="ebf4131c">
             <seg n="8292d1e4">
               Herr talman! Detta är ju i själva verket ingen ny fråga. Redan
               på 1960-talet — jag vet inte ens om vi hade glädjen att ha herr
@@ -3733,8 +3843,44 @@
             129
           </note>
           <pb n="44" facs="https://betalab.kb.se/prot-1972--59/prot_1972__59-044.jp2/_view"/>
-          <u who="gunnar_strang_32d58e" xml:id="i-ea58c0c8b15eb7eb-1" prev="i-362e42106eef5159-1" n="ebf4131c">
-            <seg n="3833046e"/>
+          <u who="gunnar_strang_32d58e" xml:id="i-ebf4131c4dfd9661-3" prev="i-ebf4131c4dfd9661-2" n="ebf4131c"/>
+          <note n="aa52a6ee">
+            Nr 59 Tisdagen den
+          </note>
+          <note n="2225d171">
+            18 april 1972
+          </note>
+          <u who="gunnar_strang_32d58e" xml:id="i-ebf4131c4dfd9661-4" prev="i-ebf4131c4dfd9661-2" n="ebf4131c"/>
+          <note n="75b14b01">
+            130
+          </note>
+          <note n="51afeab8">
+            $ 7 Föredrogs, men bordlades åter konstitutionsutskottets betänkande
+            nr 16, skatteutskottets betänkande nr 15, socialutskottets betänkanden
+            nr 6 och 8, utbildningsutskottets betänkanden nr 10 och 11, jordbruksutskottets
+            betänkanden nr 9—13, 15, 17 och 18 samt civilutskottets betänkanden
+            nr 9—18.
+          </note>
+          <note n="67252a9d">
+            $ 8 Föredrogs och bifölls interpellationsframställningarna nr
+            118 och 119.
+          </note>
+          <note n="72d2d722">
+            $ 9 Herr förste vice talmannen meddelade att på föredragningslistan
+            för morgondagens sammanträde skulle civilutskottets betänkanden
+            nr 9—18 uppföras främst bland två gånger bordlagda ärenden.
+          </note>
+          <note n="9cde939a">
+            $ 10 Interpellation nr 120 ang. de statliga företagens framtida
+            verksamhet m. m.
+          </note>
+          <note n="937a7975">
+            Ordet lämnades på begäran till
+          </note>
+          <note n="d4c04ab7">
+            Herr BURENSTAM LINDER (m), som yttrade:
+          </note>
+          <u who="gunnar_strang_32d58e" xml:id="i-ebf4131c4dfd9661-5" prev="i-ebf4131c4dfd9661-2" n="ebf4131c">
             <seg n="f2e63715">
               Herr talman! Största möjliga expansion under iakttagande av lönsamhet
               är den officiella målsättningen för de statliga företagen. Det
@@ -3776,6 +3922,9 @@
               som borde närmare utredas för att man skall få ledning i utformningen
               av framtida näringspolitik.
             </seg>
+          </u>
+          <pb n="45" facs="https://betalab.kb.se/prot-1972--59/prot_1972__59-045.jp2/_view"/>
+          <u who="gunnar_strang_32d58e" xml:id="i-ebf4131c4dfd9661-6" prev="i-ebf4131c4dfd9661-2" n="ebf4131c">
             <seg n="eaf6cbd1">
               Läget tycks också vara hotande för andra företag i Statsföretagsgruppen.
               Ordföranden i styrelsen för Karlskronavarvet skriver i personaltidningen
@@ -3806,6 +3955,18 @@
               i Norrland genom koncernbidrag skall användas till att stötta
               statliga förlustföretag?
             </seg>
+          </u>
+          <note n="6d91e667">
+            Denna anhållan bordlades.
+          </note>
+          <note n="0484e027">
+            $ 11 Interpellation nr 121 ang. kultursynen i statsunderstödda
+            kulturinstitutioners verksamhet
+          </note>
+          <note n="937a7975">
+            Ordet lämnades på begäran till
+          </note>
+          <u who="gunnar_strang_32d58e" xml:id="i-ebf4131c4dfd9661-7" prev="i-ebf4131c4dfd9661-2" n="ebf4131c">
             <seg n="5d105eb9">
               Fru RYDING (vpk), som yttrade:
             </seg>
@@ -3840,8 +4001,31 @@
               förutom sakfel och direkt osanna påståenden och finner det olyckligt
               och
             </seg>
-            <seg n="3833046e"/>
-            <seg n="3833046e"/>
+          </u>
+          <note n="d756eaee">
+            S" Riksdagens protokoll 1972. Nr 58-59
+          </note>
+          <note n="9b70a5fc">
+            Nr 59
+          </note>
+          <note type="date" n="c29367da">
+            Tisdagen den 18 april 1972
+          </note>
+          <u who="gunnar_strang_32d58e" xml:id="i-ebf4131c4dfd9661-8" prev="i-ebf4131c4dfd9661-2" n="ebf4131c"/>
+          <note n="078a978c">
+            131
+          </note>
+          <pb n="46" facs="https://betalab.kb.se/prot-1972--59/prot_1972__59-046.jp2/_view"/>
+          <note n="aa52a6ee">
+            Nr 59 Tisdagen den
+          </note>
+          <note n="2225d171">
+            18 april 1972
+          </note>
+          <note n="2424e041">
+            132
+          </note>
+          <u who="gunnar_strang_32d58e" xml:id="i-ebf4131c4dfd9661-9" prev="i-ebf4131c4dfd9661-2" n="ebf4131c">
             <seg n="d961f99b">
               olustigt att ett utredningsarbete av så bristfälligt slag skall
               ligga till grund för en skarp kritik som förs ut till offentligheten,
@@ -3903,6 +4087,9 @@
               ”lagstridigt” (enligt vilken paragraf?). Adjektiv som ”agitatorisk”
               och ”politisk” ges en näst intill brottslig betydelse.
             </seg>
+          </u>
+          <pb n="47" facs="https://betalab.kb.se/prot-1972--59/prot_1972__59-047.jp2/_view"/>
+          <u who="gunnar_strang_32d58e" xml:id="i-ebf4131c4dfd9661-10" prev="i-ebf4131c4dfd9661-2" n="ebf4131c">
             <seg n="9e38d45e">
               Subjektiva värderingar blandas med tendentiöst utvalda detaljer
               och obestyrkta angrepp. Denna metod blir farlig när den praktiseras
@@ -3968,116 +4155,7 @@
               utan går de styrandes ärenden.” Med denna och fler vägande motiveringar
               avvisar KRO enhälligt riksdagsrevisorernas promemoria.
             </seg>
-            <seg n="3833046e"/>
-            <seg n="3833046e"/>
-            <seg n="0ee0d00d">
-              Med hänvisning till vad som anförts hemställer jag om kammarens
-              tillstånd att till herr utbildningsministern få ställa följande
-              fråga:
-            </seg>
-            <seg n="1e400200">
-              Vilken kultursyn anser utbildningsministern bör komma till uttryck
-              i fråga om statsunderstödda kulturinstitutioners verksamhet?
-            </seg>
-            <seg n="3fd6d837">
-              Nr 172 Herr Stålhammar (fp) till herr industriministern angående
-              den framtida sysselsättningen för anställda i SMT:s verksamhet
-              i Karlskoga: Vilka åtgärder ämnar statsrådet vidtaga för att trygga
-              sysselsättningen för de anställda som blir arbetslösa i samband
-              med avvecklingen av SMTss verksamhet i Karlskoga?
-            </seg>
-            <seg n="3833046e"/>
-            <seg n="93c567dd">
-              Nr 173 Herr Lundberg (s) till herr kommunikationsministern om
-              organisatoriska åtgärder för en bättre praktisk trafiksäkerhet
-              m. m.: Enligt uppgift har generaldirektören för trafiksäkerhetsverket
-              befordrats till en högre lön; kan man nu förutsätta att trafiksäkerhetsverkets
-              personal och stora miljonkostnader kommer att överföras till rikspolisstyrelsen
-              för att minska kostnader och skapa en enhetlig och meningsfull
-              ledning samt en bättre praktisk trafiksäkerhet?
-            </seg>
-            <seg n="42a0c98a">
-              Mundebo (fp) 85
-            </seg>
-            <seg n="23d80b3f">
-              Wijkman (m) 84
-            </seg>
-            <seg n="8f804a28">
-              Jonäng (c) 92, 115
-            </seg>
-            <seg n="3833046e"/>
-            <seg n="3833046e"/>
-            <seg n="3833046e"/>
           </u>
-          <note n="aa52a6ee">
-            Nr 59 Tisdagen den
-          </note>
-          <note n="2225d171">
-            18 april 1972
-          </note>
-          <note n="75b14b01">
-            130
-          </note>
-          <note n="51afeab8">
-            $ 7 Föredrogs, men bordlades åter konstitutionsutskottets betänkande
-            nr 16, skatteutskottets betänkande nr 15, socialutskottets betänkanden
-            nr 6 och 8, utbildningsutskottets betänkanden nr 10 och 11, jordbruksutskottets
-            betänkanden nr 9—13, 15, 17 och 18 samt civilutskottets betänkanden
-            nr 9—18.
-          </note>
-          <note n="67252a9d">
-            $ 8 Föredrogs och bifölls interpellationsframställningarna nr
-            118 och 119.
-          </note>
-          <note n="72d2d722">
-            $ 9 Herr förste vice talmannen meddelade att på föredragningslistan
-            för morgondagens sammanträde skulle civilutskottets betänkanden
-            nr 9—18 uppföras främst bland två gånger bordlagda ärenden.
-          </note>
-          <note n="9cde939a">
-            $ 10 Interpellation nr 120 ang. de statliga företagens framtida
-            verksamhet m. m.
-          </note>
-          <note n="937a7975">
-            Ordet lämnades på begäran till
-          </note>
-          <note n="d4c04ab7">
-            Herr BURENSTAM LINDER (m), som yttrade:
-          </note>
-          <pb n="45" facs="https://betalab.kb.se/prot-1972--59/prot_1972__59-045.jp2/_view"/>
-          <note n="6d91e667">
-            Denna anhållan bordlades.
-          </note>
-          <note n="0484e027">
-            $ 11 Interpellation nr 121 ang. kultursynen i statsunderstödda
-            kulturinstitutioners verksamhet
-          </note>
-          <note n="937a7975">
-            Ordet lämnades på begäran till
-          </note>
-          <note n="d756eaee">
-            S" Riksdagens protokoll 1972. Nr 58-59
-          </note>
-          <note n="9b70a5fc">
-            Nr 59
-          </note>
-          <note n="d51a19d2">
-            Tisdagen den 18 april 1972
-          </note>
-          <note n="078a978c">
-            131
-          </note>
-          <pb n="46" facs="https://betalab.kb.se/prot-1972--59/prot_1972__59-046.jp2/_view"/>
-          <note n="aa52a6ee">
-            Nr 59 Tisdagen den
-          </note>
-          <note n="2225d171">
-            18 april 1972
-          </note>
-          <note n="2424e041">
-            132
-          </note>
-          <pb n="47" facs="https://betalab.kb.se/prot-1972--59/prot_1972__59-047.jp2/_view"/>
           <note n="aa52a6ee">
             Nr 59 Tisdagen den
           </note>
@@ -4087,7 +4165,9 @@
           <note n="1595b411">
             133
           </note>
+          <u who="gunnar_strang_32d58e" xml:id="i-ebf4131c4dfd9661-11" prev="i-ebf4131c4dfd9661-2" n="ebf4131c"/>
           <pb n="48" facs="https://betalab.kb.se/prot-1972--59/prot_1972__59-048.jp2/_view"/>
+          <u who="gunnar_strang_32d58e" xml:id="i-ebf4131c4dfd9661-12" prev="i-ebf4131c4dfd9661-2" n="ebf4131c"/>
           <note n="aa52a6ee">
             Nr 59 Tisdagen den
           </note>
@@ -4097,6 +4177,17 @@
           <note n="f16ca371">
             134
           </note>
+          <u who="gunnar_strang_32d58e" xml:id="i-ebf4131c4dfd9661-13" prev="i-ebf4131c4dfd9661-2" n="ebf4131c">
+            <seg n="0ee0d00d">
+              Med hänvisning till vad som anförts hemställer jag om kammarens
+              tillstånd att till herr utbildningsministern få ställa följande
+              fråga:
+            </seg>
+            <seg n="1e400200">
+              Vilken kultursyn anser utbildningsministern bör komma till uttryck
+              i fråga om statsunderstödda kulturinstitutioners verksamhet?
+            </seg>
+          </u>
           <note n="6d91e667">
             Denna anhållan bordlades.
           </note>
@@ -4222,6 +4313,15 @@
             innehålla intjänad lön: Anser statsrådet innehållande av intjänade
             lönemedel vara en legalt tillåten och lämplig facklig stridsåtgärd?
           </note>
+          <u who="gunnar_strang_32d58e" xml:id="i-ebf4131c4dfd9661-14" prev="i-ebf4131c4dfd9661-2" n="ebf4131c">
+            <seg n="3fd6d837">
+              Nr 172 Herr Stålhammar (fp) till herr industriministern angående
+              den framtida sysselsättningen för anställda i SMT:s verksamhet
+              i Karlskoga: Vilka åtgärder ämnar statsrådet vidtaga för att trygga
+              sysselsättningen för de anställda som blir arbetslösa i samband
+              med avvecklingen av SMTss verksamhet i Karlskoga?
+            </seg>
+          </u>
           <note n="aa52a6ee">
             Nr 59 Tisdagen den
           </note>
@@ -4232,6 +4332,7 @@
             135
           </note>
           <pb n="50" facs="https://betalab.kb.se/prot-1972--59/prot_1972__59-050.jp2/_view"/>
+          <u who="gunnar_strang_32d58e" xml:id="i-ebf4131c4dfd9661-15" prev="i-ebf4131c4dfd9661-2" n="ebf4131c"/>
           <note n="aa52a6ee">
             Nr 59 Tisdagen den
           </note>
@@ -4244,6 +4345,17 @@
           <note n="992f7f4e">
             den 18 april av
           </note>
+          <u who="gunnar_strang_32d58e" xml:id="i-ebf4131c4dfd9661-16" prev="i-ebf4131c4dfd9661-2" n="ebf4131c">
+            <seg n="93c567dd">
+              Nr 173 Herr Lundberg (s) till herr kommunikationsministern om
+              organisatoriska åtgärder för en bättre praktisk trafiksäkerhet
+              m. m.: Enligt uppgift har generaldirektören för trafiksäkerhetsverket
+              befordrats till en högre lön; kan man nu förutsätta att trafiksäkerhetsverkets
+              personal och stora miljonkostnader kommer att överföras till rikspolisstyrelsen
+              för att minska kostnader och skapa en enhetlig och meningsfull
+              ledning samt en bättre praktisk trafiksäkerhet?
+            </seg>
+          </u>
           <note n="c6ab2316">
             $ 15 Kammaren åtskildes kl. 18.58. In fidem
           </note>
@@ -4293,6 +4405,11 @@
           <note n="17a2e24a">
             Moberg, statsråd 27, 31, 39, 40, 78
           </note>
+          <u who="gunnar_strang_32d58e" xml:id="i-ebf4131c4dfd9661-17" prev="i-ebf4131c4dfd9661-2" n="ebf4131c">
+            <seg n="42a0c98a">
+              Mundebo (fp) 85
+            </seg>
+          </u>
           <note n="1543e373">
             Nilsson i Kristianstad (c) 58
           </note>
@@ -4317,6 +4434,11 @@
           <note n="ee9c6a04">
             Turesson (m) 42
           </note>
+          <u who="gunnar_strang_32d58e" xml:id="i-ebf4131c4dfd9661-18" prev="i-ebf4131c4dfd9661-2" n="ebf4131c">
+            <seg n="23d80b3f">
+              Wijkman (m) 84
+            </seg>
+          </u>
           <note n="61425395">
             Wikström (fp) 69, 72
           </note>
@@ -4351,6 +4473,11 @@
           <note n="8eaa06ff">
             Jonasson (c) 125, 128
           </note>
+          <u who="gunnar_strang_32d58e" xml:id="i-ebf4131c4dfd9661-19" prev="i-ebf4131c4dfd9661-2" n="ebf4131c">
+            <seg n="8f804a28">
+              Jonäng (c) 92, 115
+            </seg>
+          </u>
           <note n="96a6aac7">
             Olsson i Kil (fp) 97, 107, 117
           </note>
@@ -4369,8 +4496,11 @@
             137
           </note>
           <pb n="53" facs="https://betalab.kb.se/prot-1972--59/prot_1972__59-053.jp2/_view"/>
+          <u who="gunnar_strang_32d58e" xml:id="i-ebf4131c4dfd9661-20" prev="i-ebf4131c4dfd9661-2" n="ebf4131c"/>
           <pb n="54" facs="https://betalab.kb.se/prot-1972--59/prot_1972__59-054.jp2/_view"/>
+          <u who="gunnar_strang_32d58e" xml:id="i-ebf4131c4dfd9661-21" prev="i-ebf4131c4dfd9661-2" n="ebf4131c"/>
           <pb n="56" facs="https://betalab.kb.se/prot-1972--59/prot_1972__59-056.jp2/_view"/>
+          <u who="gunnar_strang_32d58e" xml:id="i-ebf4131c4dfd9661-22" prev="i-ebf4131c4dfd9661-2" n="ebf4131c"/>
           <note n="f12c48ce">
             Göteborgs Offsettryckeri AB 72 1353S Stockholm 1972
           </note>

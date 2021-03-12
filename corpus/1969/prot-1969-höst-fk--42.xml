@@ -20,7 +20,7 @@
     <encodingDesc>
       <editorialDecl>
         <correction>
-          <p>Some data curation was done. It is documented in db/curation/instances</p>
+          <p>Some data curation was done. It is documented in input/curation/instances</p>
         </correction>
       </editorialDecl>
     </encodingDesc>
@@ -58,6 +58,7 @@
       </front>
       <body>
         <div>
+          <pb n="0" facs="https://betalab.kb.se/prot-1969-höst-fk--42/prot_1969_höst_fk__42-000.jp2/_view"/>
           <note n="5f911b6d">
             RIKSDAGENS PROTOKOLL
           </note>
@@ -249,7 +250,7 @@
             40
           </note>
           <pb n="2" facs="https://betalab.kb.se/prot-1969-höst-fk--42/prot_1969_höst_fk__42-002.jp2/_view"/>
-          <note n="853e2c1d">
+          <note type="date" n="a97ec606">
             Torsdagen den 11 december 1969
           </note>
           <note n="ff200da3">
@@ -315,7 +316,7 @@
           <note type="speaker" n="1c397c89">
             Herr JACOBSSON, GÖSTA, (m):
           </note>
-          <u who="per_jacobsson_ec04b2" xml:id="i-a6dcd7fe49266b17-0" next="i-5491dae9c9c7327e-0" n="87a78ab3">
+          <u who="per_jacobsson_ec04b2" xml:id="i-87a78ab329981000-0" next="i-87a78ab329981000-1" n="87a78ab3">
             <seg n="a4ed52e0">
               Herr talman! Vi som tillhör en litet äldre generation har kanske
               kvar något av känslan för rättens idé. Jag föreställer mig att
@@ -337,13 +338,13 @@
           <note n="b4f223aa">
             4 Nr 42
           </note>
-          <note n="853e2c1d">
+          <note type="date" n="a97ec606">
             Torsdagen den 11 december 1969
           </note>
           <note n="56af22f4">
             Ang. anhållande inför sittande rätt av offentlig försvarare
           </note>
-          <u who="per_jacobsson_ec04b2" xml:id="i-5491dae9c9c7327e-0" prev="i-a6dcd7fe49266b17-0" n="87a78ab3">
+          <u who="per_jacobsson_ec04b2" xml:id="i-87a78ab329981000-1" prev="i-87a78ab329981000-0" n="87a78ab3">
             <seg n="1bc99154">
               tieministern är medveten om detta. Försvararen måste enligt min
               mening också i praktiken ges en ställning av samhällsinstitution
@@ -407,7 +408,7 @@
           <note type="speaker" n="a9845b1b">
             Herr statsrådet GEIJER:
           </note>
-          <u who="lennart_geijer_794972" xml:id="i-7d69a3e615aee2ff-0" next="i-dcdc3aa5f6643ef7-0" n="8619c36e">
+          <u who="lennart_geijer_794972" xml:id="i-8619c36eccab17f4-0" next="i-8619c36eccab17f4-7" n="8619c36e">
             <seg n="e97e0ce1">
               Herr talman! Jag har all aktning för herr Jacobssons plädering
               beträffande de offentliga försvararna och deras många gånger svåra
@@ -420,10 +421,10 @@
             </seg>
           </u>
           <pb n="4" facs="https://betalab.kb.se/prot-1969-höst-fk--42/prot_1969_höst_fk__42-004.jp2/_view"/>
-          <note n="853e2c1d">
+          <note type="date" n="a97ec606">
             Torsdagen den 11 december 1969
           </note>
-          <u who="lennart_geijer_794972" xml:id="i-dcdc3aa5f6643ef7-0" prev="i-7d69a3e615aee2ff-0" n="8619c36e">
+          <u who="lennart_geijer_794972" xml:id="i-8619c36eccab17f4-1" prev="i-8619c36eccab17f4-0" n="8619c36e">
             <seg n="fae4cd9c">
               vill jag framhålla att detta markeras av det förhållandet att
               man ju inte kan göra ett anhållande utan mycket starka skäl.
@@ -451,12 +452,33 @@
               första inlägg, inte beredd att på den punkten lägga fram något
               förslag till ändring.
             </seg>
+          </u>
+          <note n="dd7fd1ca">
+            Herr talmannen anförde nu, att herr Alexanderson begärt ordet
+            för att deltaga i den pågående överläggningen, och tillsporde
+            kammaren, huruvida den ville besluta att för tillfället upphäva
+            den i 8 20 mom. 4 tredje stycket i ordningsstadgan för kammaren
+            stadgade inskränkningen i yttranderätten.
+          </note>
+          <note n="f9a34664">
+            Härtill svarades ja.
+          </note>
+          <note n="b26feaff">
+            Herr talmannen lämnade härefter ordet till herr ALEXANDERSON
+            (fp), som yttrade:
+          </note>
+          <u who="lennart_geijer_794972" xml:id="i-8619c36eccab17f4-2" prev="i-8619c36eccab17f4-0" n="8619c36e">
             <seg n="fa8b630e">
               Herr talman! Statsrådet Geijers svar har närmast avsett frågan
               huruvida med hänsyn till den offentlige försvararen några särskilda
               regler i det här avseendet skulle vara erforderliga. Såvitt jag
               förstår, har herr Jacobsson
             </seg>
+          </u>
+          <note n="09ef10ce">
+            Nr 42 5
+          </note>
+          <u who="lennart_geijer_794972" xml:id="i-8619c36eccab17f4-3" prev="i-8619c36eccab17f4-0" n="8619c36e">
             <seg n="faf48dae">
               Om reglering av trafiken med snöskotrar
             </seg>
@@ -493,17 +515,48 @@
               nu ändå har skett, är det naturligt att ställa frågan om det inte
               är påkallat att stadga särskilda regler.
             </seg>
+          </u>
+          <note n="1636192f">
+            Överläggningen förklarades härmed slutad.
+          </note>
+          <u who="lennart_geijer_794972" xml:id="i-8619c36eccab17f4-4" prev="i-8619c36eccab17f4-0" n="8619c36e">
             <seg n="faf48dae">
               Om reglering av trafiken med snöskotrar
             </seg>
+          </u>
+          <note n="c6b46f8e">
+            Herr statsrådet och chefen för kommunikationsdepartementet NORLING
+            erhöll ordet för att besvara herr Skår-
+          </note>
+          <pb n="5" facs="https://betalab.kb.se/prot-1969-höst-fk--42/prot_1969_höst_fk__42-005.jp2/_view"/>
+          <note n="2824f117">
+            6 Nr 42
+          </note>
+          <u who="lennart_geijer_794972" xml:id="i-8619c36eccab17f4-5" prev="i-8619c36eccab17f4-0" n="8619c36e">
             <seg n="faf48dae">
               Om reglering av trafiken med snöskotrar
             </seg>
+          </u>
+          <note n="be41f81f">
+            mans (fp) fråga om reglering av trafiken med snöskotrar, vilken
+            fråga intagits i kammarens protokoll för den 4 december, och anförde:
+          </note>
+          <u who="lennart_geijer_794972" xml:id="i-8619c36eccab17f4-6" prev="i-8619c36eccab17f4-0" n="8619c36e">
             <seg n="108740ef">
               Herr talman! Herr Skårman har frågat mig när man kan vänta sig
               förslag till reglering av den alltmer brännande frågan om reglering
               av trafiken med snöskotrar och andra översnöfordon.
             </seg>
+          </u>
+          <note n="5f454d56">
+            Problemen sammanhängande med trafiken med Ööversnöfordon kan
+            ses från två utgångspunkter, nämligen dels vad avser översnöfordonens
+            beskaffenhet och utrustning, registrering, besiktning och försäkring
+            av fordonen samt kompetenskrav på deras förare, dels vad avser
+            fordonens användning i terrängen från naturoch miljövårdssynpunkter
+            m. m.
+          </note>
+          <u who="lennart_geijer_794972" xml:id="i-8619c36eccab17f4-7" prev="i-8619c36eccab17f4-0" n="8619c36e">
             <seg n="b8abace7">
               Den förstnämnda delen av problemkomplexet har uppdragits åt motorredskapsutredningen
               att beakta, medan naturoch miljövårdsaspekterna utreds av de av
@@ -519,50 +572,10 @@
               ställning m. m. skall kunna lösas i en nära framtid;
             </seg>
           </u>
-          <note n="dd7fd1ca">
-            Herr talmannen anförde nu, att herr Alexanderson begärt ordet
-            för att deltaga i den pågående överläggningen, och tillsporde
-            kammaren, huruvida den ville besluta att för tillfället upphäva
-            den i 8 20 mom. 4 tredje stycket i ordningsstadgan för kammaren
-            stadgade inskränkningen i yttranderätten.
-          </note>
-          <note n="f9a34664">
-            Härtill svarades ja.
-          </note>
-          <note n="b26feaff">
-            Herr talmannen lämnade härefter ordet till herr ALEXANDERSON
-            (fp), som yttrade:
-          </note>
-          <note n="09ef10ce">
-            Nr 42 5
-          </note>
-          <note n="1636192f">
-            Överläggningen förklarades härmed slutad.
-          </note>
-          <note n="c6b46f8e">
-            Herr statsrådet och chefen för kommunikationsdepartementet NORLING
-            erhöll ordet för att besvara herr Skår-
-          </note>
-          <pb n="5" facs="https://betalab.kb.se/prot-1969-höst-fk--42/prot_1969_höst_fk__42-005.jp2/_view"/>
-          <note n="2824f117">
-            6 Nr 42
-          </note>
-          <note n="be41f81f">
-            mans (fp) fråga om reglering av trafiken med snöskotrar, vilken
-            fråga intagits i kammarens protokoll för den 4 december, och anförde:
-          </note>
-          <note n="5f454d56">
-            Problemen sammanhängande med trafiken med Ööversnöfordon kan
-            ses från två utgångspunkter, nämligen dels vad avser översnöfordonens
-            beskaffenhet och utrustning, registrering, besiktning och försäkring
-            av fordonen samt kompetenskrav på deras förare, dels vad avser
-            fordonens användning i terrängen från naturoch miljövårdssynpunkter
-            m. m.
-          </note>
           <note type="speaker" n="1736e6f0">
             Herr SKÅRMAN (fp):
           </note>
-          <u who="bo_skarman_a312f9" xml:id="i-128a711960ca80cb-0" next="i-71d1157d453cb597-0" n="78453043">
+          <u who="bo_skarman_a312f9" xml:id="i-7845304390ef5829-0" next="i-7845304390ef5829-1" n="78453043">
             <seg n="f1eb3893">
               Herr talman! Jag skall be att få tacka statsrådet Norling för
               svaret.
@@ -575,10 +588,10 @@
               för dessa snöskotrar. Sedan jag ställde min
             </seg>
           </u>
-          <note n="853e2c1d">
+          <note type="date" n="a97ec606">
             Torsdagen den 11 december 1969
           </note>
-          <u who="bo_skarman_a312f9" xml:id="i-71d1157d453cb597-0" prev="i-128a711960ca80cb-0" n="78453043">
+          <u who="bo_skarman_a312f9" xml:id="i-7845304390ef5829-1" prev="i-7845304390ef5829-0" n="78453043">
             <seg n="edbe0f46">
               interpellation i våras har jag mottagit mycket intresserade skrivelser
               både från två polischefer i Norrbottensoch Västerbottensdistrikt
@@ -624,17 +637,17 @@
           <note type="speaker" n="c8e97e6f">
             Herr statsrådet NORLING:
           </note>
-          <u who="unknown" xml:id="i-ebd7be5e9a02a379-0" n="4a60ec9c">
+          <u who="unknown" xml:id="i-4a60ec9c5da226c3-0" n="4a60ec9c">
             <seg n="a49e9894">
               Herr talman! Både rennäringssakkunniga och motorredskapsutredningen
               be-
             </seg>
           </u>
           <pb n="6" facs="https://betalab.kb.se/prot-1969-höst-fk--42/prot_1969_höst_fk__42-006.jp2/_view"/>
-          <note n="853e2c1d">
+          <note type="date" n="a97ec606">
             Torsdagen den 11 december 1969
           </note>
-          <u who="unknown" xml:id="i-c4d974fc8fdce923-0" n="4a60ec9c">
+          <u who="unknown" xml:id="i-4a60ec9c5da226c3-1" n="4a60ec9c">
             <seg n="3495115f">
               handlar frågan om Ööversnöfordonen i specialbetänkanden, som
               alltså rör enbart dessa fordon. Motorredskapsutredningen har många
@@ -665,7 +678,7 @@
           <note type="speaker" n="1736e6f0">
             Herr SKÅRMAN (fp):
           </note>
-          <u who="bo_skarman_a312f9" xml:id="i-128a711960ca80cb-1" next="i-71d1157d453cb597-1" n="78453043">
+          <u who="bo_skarman_a312f9" xml:id="i-7845304390ef5829-2" next="i-7845304390ef5829-3" n="78453043">
             <seg n="b802b805">
               Herr talman! Med anledning av vad herr statsrådet anförde vill
               jag bara ytterligare tacka för svaret.
@@ -691,7 +704,7 @@
             namnbyten på järnvägsstationer, vilken fråga intagits i kammarens
             protokoll för den 5 december, och yttrade:
           </note>
-          <u who="bo_skarman_a312f9" xml:id="i-71d1157d453cb597-1" prev="i-128a711960ca80cb-1" n="78453043">
+          <u who="bo_skarman_a312f9" xml:id="i-7845304390ef5829-3" prev="i-7845304390ef5829-2" n="78453043">
             <seg n="615fdf06">
               Herr talman! Herr Eric Carlsson har frågat mig vilka principer
               som tillämpas vid byten av namn på järnvägssta-
@@ -717,7 +730,7 @@
           <note type="speaker" n="d8c1f2c5">
             Herr CARLSSON, ERIC, (cp):
           </note>
-          <u who="ingvar_carlsson_1cb98c" xml:id="i-7f04542d643c7036-0" next="i-144e1fb5c38b2294-0" n="1776871e">
+          <u who="ingvar_carlsson_1cb98c" xml:id="i-b4684881107817db-0" next="i-b4684881107817db-2" n="1776871e">
             <seg n="d470a0f1">
               Herr talman! Jag ber att till statsrådet och chefen för kommunikationsdepartementet
               få framföra mitt tack för svaret på den fråga som jag har ställt.
@@ -746,7 +759,7 @@
           <note n="c4250919">
             Ang. namnbyten på järnvägsstationer
           </note>
-          <u who="ingvar_carlsson_1cb98c" xml:id="i-144e1fb5c38b2294-0" prev="i-7f04542d643c7036-0" n="1776871e">
+          <u who="ingvar_carlsson_1cb98c" xml:id="i-b4684881107817db-1" prev="i-b4684881107817db-0" n="1776871e">
             <seg n="da48e658">
               ga skäl för en namnändring, inte bara — om jag får använda uttrycket
               — en allmän klåfingrighet och önskan att göra en ändring.
@@ -788,6 +801,11 @@
               av namn, med felskickat gods o.s.v. som en uppenbar olägenhet
               för den allmänhet som anlitar statens järnvägar bl.a. för frakter.
             </seg>
+          </u>
+          <note type="date" n="a97ec606">
+            Torsdagen den 11 december 1969
+          </note>
+          <u who="ingvar_carlsson_1cb98c" xml:id="i-b4684881107817db-2" prev="i-b4684881107817db-0" n="1776871e">
             <seg n="e89a0a33">
               Därmed bör också vara klart att det inte finns något bärande
               skäl för namnändringen. Det har varit en lång och segdragen historia
@@ -826,22 +844,19 @@
               Jag ber att än en gång få tacka för svaret.
             </seg>
           </u>
-          <note n="853e2c1d">
-            Torsdagen den 11 december 1969
-          </note>
           <note type="speaker" n="c8e97e6f">
             Herr statsrådet NORLING:
           </note>
-          <u who="unknown" xml:id="i-ebd7be5e9a02a379-1" n="4a60ec9c">
+          <u who="unknown" xml:id="i-4a60ec9c5da226c3-2" n="4a60ec9c">
             <seg n="8bf696b7">
               Herr talman! I de för övrigt ganska få fall där namnändring förekommit
             </seg>
           </u>
           <pb n="8" facs="https://betalab.kb.se/prot-1969-höst-fk--42/prot_1969_höst_fk__42-008.jp2/_view"/>
-          <note n="853e2c1d">
+          <note type="date" n="a97ec606">
             Torsdagen den 11 december 1969
           </note>
-          <u who="unknown" xml:id="i-c4d974fc8fdce923-1" n="4a60ec9c">
+          <u who="unknown" xml:id="i-4a60ec9c5da226c3-3" n="4a60ec9c">
             <seg n="f9118220">
               har bakgrunden exempelvis varit att man önskat undvika förväxling
               av stationsnamn eller att man försökt anpassa stationsnamnet till
@@ -886,7 +901,7 @@
           <note type="speaker" n="d8c1f2c5">
             Herr CARLSSON, ERIC, (cp):
           </note>
-          <u who="ingvar_carlsson_1cb98c" xml:id="i-7f04542d643c7036-1" next="i-144e1fb5c38b2294-1" n="1776871e">
+          <u who="ingvar_carlsson_1cb98c" xml:id="i-b4684881107817db-3" next="i-b4684881107817db-5" n="1776871e">
             <seg n="dc0d8ce1">
               Herr talman! Statsrådet säger att det skall vara en anpassning
               till kommunnamnet. Kommunnamnet bevaras ju genom att Avesta norra
@@ -933,13 +948,13 @@
           <note n="16e5e246">
             10 Nr 42
           </note>
-          <note n="853e2c1d">
+          <note type="date" n="a97ec606">
             Torsdagen den 11 december 1969
           </note>
           <note n="9ac61daa">
             Ang. samordningen av statlig tjänstepension samt tilläggspension
           </note>
-          <u who="ingvar_carlsson_1cb98c" xml:id="i-144e1fb5c38b2294-1" prev="i-7f04542d643c7036-1" n="1776871e">
+          <u who="ingvar_carlsson_1cb98c" xml:id="i-b4684881107817db-4" prev="i-b4684881107817db-3" n="1776871e">
             <seg n="a9972cc0">
               fundera på den saken. Jag hoppas som sagt också att herr statsrådet
               skall ägna denna fråga ytterligare uppmärksamhet just med hänsyn
@@ -950,17 +965,6 @@
             <seg n="0bc4f563">
               Med dessa ord vill jag ha uttalat den förhoppningen, att namnet
               Krylbo måtte bibehållas, och jag ber än en gång få tacka för svaret.
-            </seg>
-            <seg n="ad8fa830">
-              I motionerna kritiserades gällande regler för samordning mellan
-              statlig tjänstepension och pension enligt lagen om allmän försäkring.
-              Motionärerna pekade bland annat på att reglerna medförde att statligt
-              anställda, som hade sidoinkomst från annat förvärvsarbete än anställning,
-              i vissa fall betalade tillläggspensionsavgift utan att detta medförde
-              någon höjning i den pension de även utan att betala sådan avgift
-              vore berättigade till. Motionerna utmynnade i ett yrkande, att
-              riksdagen skulle giva Kungl. Maj:t till känna vad i motionerna
-              anförts.
             </seg>
           </u>
           <note n="1636192f">
@@ -979,6 +983,19 @@
             likalydande motioner, I: 764, av herr Kaijser, samt II: 896, av
             herr Oskarson m. fl.
           </note>
+          <u who="ingvar_carlsson_1cb98c" xml:id="i-b4684881107817db-5" prev="i-b4684881107817db-3" n="1776871e">
+            <seg n="ad8fa830">
+              I motionerna kritiserades gällande regler för samordning mellan
+              statlig tjänstepension och pension enligt lagen om allmän försäkring.
+              Motionärerna pekade bland annat på att reglerna medförde att statligt
+              anställda, som hade sidoinkomst från annat förvärvsarbete än anställning,
+              i vissa fall betalade tillläggspensionsavgift utan att detta medförde
+              någon höjning i den pension de även utan att betala sådan avgift
+              vore berättigade till. Motionerna utmynnade i ett yrkande, att
+              riksdagen skulle giva Kungl. Maj:t till känna vad i motionerna
+              anförts.
+            </seg>
+          </u>
           <note n="137f2b5e">
             Utskottet hade i det nu föreliggande utlåtandet på anförda skäl
             hemställt, att motionerna I:764 och II: 896 icke måtte föranleda
@@ -991,7 +1008,7 @@
           <note type="speaker" n="0df76941">
             Herr KAIJSER (m):
           </note>
-          <u who="rolf_kaijser_bb1c07" xml:id="i-5375f47d16a488a2-0" next="i-d3757bafc5e185c8-0" n="d842fdad">
+          <u who="rolf_kaijser_bb1c07" xml:id="i-d842fdadc53042e9-0" next="i-d842fdadc53042e9-1" n="d842fdad">
             <seg n="d9ce6f8a">
               Herr talman! Det här ärendet gäller ett av de fall där det kan
               bli så att man betalar in avgifter till ATP, utan att dessa ger
@@ -1029,7 +1046,7 @@
             </seg>
           </u>
           <pb n="10" facs="https://betalab.kb.se/prot-1969-höst-fk--42/prot_1969_höst_fk__42-010.jp2/_view"/>
-          <note n="853e2c1d">
+          <note type="date" n="a97ec606">
             Torsdagen den 11 december 1969
           </note>
           <note n="816c14f0">
@@ -1038,7 +1055,7 @@
           <note n="9ac61daa">
             Ang. samordningen av statlig tjänstepension samt tilläggspension
           </note>
-          <u who="rolf_kaijser_bb1c07" xml:id="i-d3757bafc5e185c8-0" prev="i-5375f47d16a488a2-0" n="d842fdad">
+          <u who="rolf_kaijser_bb1c07" xml:id="i-d842fdadc53042e9-1" prev="i-d842fdadc53042e9-0" n="d842fdad">
             <seg n="1c6123f6">
               del i motionsyrkandet. Det kan inte vara riktigt att avgifter,
               som man kan slippa ifrån genom att i förväg anmäla önskemål härom
@@ -1056,7 +1073,7 @@
           <note type="speaker" n="8e31443d">
             Herr förste vice talmannen STRAND (s):
           </note>
-          <u who="axel_strand_c16780" xml:id="i-a01b514d0f66a7a2-0" n="5bd7b5ab">
+          <u who="axel_strand_c16780" xml:id="i-5bd7b5abffa03bbf-0" n="5bd7b5ab">
             <seg n="5b5b02f1">
               Herr talman! Det kan, som herr Kaijser framhållit, inträffa att
               en statsanställd betalar avgifter för sidoinkomster till pensionssystemet,
@@ -1119,7 +1136,7 @@
           <note type="speaker" n="0df76941">
             Herr KAIJSER (m):
           </note>
-          <u who="rolf_kaijser_bb1c07" xml:id="i-5375f47d16a488a2-1" next="i-d3757bafc5e185c8-1" n="d842fdad">
+          <u who="rolf_kaijser_bb1c07" xml:id="i-d842fdadc53042e9-2" next="i-d842fdadc53042e9-7" n="d842fdad">
             <seg n="12d427ec">
               Herr talman! När jag redogjorde för innehållet i bestämmelserna
               sade jag att det var med en viss generalisering, ty jag vet att
@@ -1133,7 +1150,7 @@
           <note n="f4022e05">
             Ang. förslag till jordhävdslag
           </note>
-          <u who="rolf_kaijser_bb1c07" xml:id="i-d3757bafc5e185c8-1" prev="i-5375f47d16a488a2-1" n="d842fdad">
+          <u who="rolf_kaijser_bb1c07" xml:id="i-d842fdadc53042e9-3" prev="i-d842fdadc53042e9-2" n="d842fdad">
             <seg n="71361543">
               olika beroende på om vederbörande är kvar i statstjänst eller
               inte. Det enda som stöter mig är att de myndigheter som sköter
@@ -1152,39 +1169,6 @@
             <seg n="7a9578fc">
               rande — att de åtgärder som är föreslagna i motionen inte är
               helt lämpligt utformade. Jag avstår därför från något yrkande.
-            </seg>
-            <seg n="10aa1e8c">
-              1) jordhävdslag,
-            </seg>
-            <seg n="5255739d">
-              I propositionen hade föreslagits, att 1947 års lag om uppsikt
-              å jordbruk skulle ersättas av en jordhävdslag. Avsikten vore att
-              anpassa bestämmelserna om vanhävd till den nya jordbrukspolitiken.
-              Jordbruk borde sålunda få läggas ned, om det icke strede mot allmänna
-              jordbruksintressen. Enligt lagförslaget skulle jordbruk anses
-              nedlagt, om odlad jord under mer än två år i följd icke bearbetats
-              eller utnyttjats för slåtter eller betesgång eller om skog planterats
-              på jorden. Ingripande på grund av bristande hävd avsåges få ske
-              endast för att skydda jordbruk som hade förutsättningar för rationell
-              drift eiler för att tillvarataga möjligheten till strukturrationalisering.
-              Kravet på hävd ansåges icke längre behöva omfatta byggnader. För
-              att hindra matjordstäkt som kunde äventyra rationaliseringssträvandena
-              föresloges möjlighet för lantbruksnämnden att meddela förordnande
-              med förbud mot täkt av matjord. I propositionen hade vidare föreslagits,
-              att lagen ej skulle vara tillämplig på mark, varå jordbruket varit
-              nedlagt under tre år.
-            </seg>
-            <seg n="c8df046c">
-              dels 1 $ skulle erhålla den lydelse, som angivits i motionerna,
-              vilket förslag gällde, att jordbruk skulle anses nedlagt, om odlad
-              jord under mer än fyra år i följd icke bearbetats eller utnyttjats
-              för slåtter eller betesgång eller om skog planterats på jorden,
-            </seg>
-            <seg n="c5725dc8">
-              2. att uttala, att lantbruksnämnderna borde åläggas informera
-              naturvårdsmyndigheterna om sådana förändringar i jordbruket, som
-              kunde hava betydelse ur naturvårdssynpunkt, i enlighet med vad
-              som anförts i motionerna.
             </seg>
           </u>
           <note n="87191c70">
@@ -1211,13 +1195,38 @@
             över jordbruksärenden och lagrådets protokoll, föreslagit riksdagen
             att antaga vid propositionen fogade förslag till
           </note>
+          <u who="rolf_kaijser_bb1c07" xml:id="i-d842fdadc53042e9-4" prev="i-d842fdadc53042e9-2" n="d842fdad">
+            <seg n="10aa1e8c">
+              1) jordhävdslag,
+            </seg>
+          </u>
           <note n="655f8f68">
             2) lag om ändring i lagen (1947:290) om tvångsinlösen av vanhävdad
             jordbruksegendom.
           </note>
-          <note n="853e2c1d">
+          <note type="date" n="a97ec606">
             Torsdagen den 11 december 1969
           </note>
+          <u who="rolf_kaijser_bb1c07" xml:id="i-d842fdadc53042e9-5" prev="i-d842fdadc53042e9-2" n="d842fdad">
+            <seg n="5255739d">
+              I propositionen hade föreslagits, att 1947 års lag om uppsikt
+              å jordbruk skulle ersättas av en jordhävdslag. Avsikten vore att
+              anpassa bestämmelserna om vanhävd till den nya jordbrukspolitiken.
+              Jordbruk borde sålunda få läggas ned, om det icke strede mot allmänna
+              jordbruksintressen. Enligt lagförslaget skulle jordbruk anses
+              nedlagt, om odlad jord under mer än två år i följd icke bearbetats
+              eller utnyttjats för slåtter eller betesgång eller om skog planterats
+              på jorden. Ingripande på grund av bristande hävd avsåges få ske
+              endast för att skydda jordbruk som hade förutsättningar för rationell
+              drift eiler för att tillvarataga möjligheten till strukturrationalisering.
+              Kravet på hävd ansåges icke längre behöva omfatta byggnader. För
+              att hindra matjordstäkt som kunde äventyra rationaliseringssträvandena
+              föresloges möjlighet för lantbruksnämnden att meddela förordnande
+              med förbud mot täkt av matjord. I propositionen hade vidare föreslagits,
+              att lagen ej skulle vara tillämplig på mark, varå jordbruket varit
+              nedlagt under tre år.
+            </seg>
+          </u>
           <note n="c6a84603">
             Förslaget föranledde vissa ändringar av huvudsakligen formell
             natur i 1947 års lag om tvångsinlösen av vanhävdad jordbruksegendom.
@@ -1239,7 +1248,7 @@
             m. fl., och II: 1259, av herr Jonasson m. fl.;
           </note>
           <pb n="12" facs="https://betalab.kb.se/prot-1969-höst-fk--42/prot_1969_höst_fk__42-012.jp2/_view"/>
-          <note n="853e2c1d">
+          <note type="date" n="a97ec606">
             Torsdagen den 11 december 1969
           </note>
           <note n="c6ee1d21">
@@ -1248,6 +1257,14 @@
             hemställts, att riksdagen måtte med ändring av vad som föreslagits
             i propositionen nr 134 besluta att i den föreslagna jordhävdslagen
           </note>
+          <u who="rolf_kaijser_bb1c07" xml:id="i-d842fdadc53042e9-6" prev="i-d842fdadc53042e9-2" n="d842fdad">
+            <seg n="c8df046c">
+              dels 1 $ skulle erhålla den lydelse, som angivits i motionerna,
+              vilket förslag gällde, att jordbruk skulle anses nedlagt, om odlad
+              jord under mer än fyra år i följd icke bearbetats eller utnyttjats
+              för slåtter eller betesgång eller om skog planterats på jorden,
+            </seg>
+          </u>
           <note n="32b155ac">
             dels ock 6 $ skulle erhålla i motionerna angiven lydelse, vilket
             förslag avsåge, att matjordstäkt på odlad jord, som borde hållas
@@ -1263,6 +1280,14 @@
             1. att jordhävdslagen skulle vara tilllämplig jämväl på jordbruksmark
             som tillhörde staten,
           </note>
+          <u who="rolf_kaijser_bb1c07" xml:id="i-d842fdadc53042e9-7" prev="i-d842fdadc53042e9-2" n="d842fdad">
+            <seg n="c5725dc8">
+              2. att uttala, att lantbruksnämnderna borde åläggas informera
+              naturvårdsmyndigheterna om sådana förändringar i jordbruket, som
+              kunde hava betydelse ur naturvårdssynpunkt, i enlighet med vad
+              som anförts i motionerna.
+            </seg>
+          </u>
           <note n="1a05d088">
             Utskottet hade i det nu ifrågavarande utlåtandet på åberopade
             grunder hemställt,
@@ -1353,7 +1378,7 @@
           <note type="speaker" n="1736e6f0">
             Herr SKÅRMAN (fp):
           </note>
-          <u who="bo_skarman_a312f9" xml:id="i-128a711960ca80cb-2" next="i-71d1157d453cb597-2" n="78453043">
+          <u who="bo_skarman_a312f9" xml:id="i-7845304390ef5829-4" next="i-7845304390ef5829-6" n="78453043">
             <seg n="8289a38e">
               Herr talman! 1947 års lag om uppsikt å jordbruk har i varje fall
               under det senaste årtiondet knappast kommit till användning, då
@@ -1387,10 +1412,10 @@
               dagars anläggningsma-
             </seg>
           </u>
-          <note n="853e2c1d">
+          <note type="date" n="a97ec606">
             Torsdagen den 11 december 1969
           </note>
-          <u who="bo_skarman_a312f9" xml:id="i-71d1157d453cb597-2" prev="i-128a711960ca80cb-2" n="78453043">
+          <u who="bo_skarman_a312f9" xml:id="i-7845304390ef5829-5" prev="i-7845304390ef5829-4" n="78453043">
             <seg n="31df674d">
               skiner, hyvlar, caterpillars o.d., på mycket kort tid kan skrapa
               av matjordslagret och frakta bort detta. Det kan ske på en lördag
@@ -1425,6 +1450,12 @@
               fall åstadkommit. Framför allt är det ju viktigt att områden som
               vid planläggning utlagts till grönområden inte plötsligt förvandlas
             </seg>
+          </u>
+          <pb n="14" facs="https://betalab.kb.se/prot-1969-höst-fk--42/prot_1969_höst_fk__42-014.jp2/_view"/>
+          <note type="date" n="a97ec606">
+            Torsdagen den 11 december 1969
+          </note>
+          <u who="bo_skarman_a312f9" xml:id="i-7845304390ef5829-6" prev="i-7845304390ef5829-4" n="78453043">
             <seg n="ba1f64a0">
               från äng till stenig eller lerig kalmark. Enklaste medlet att
               förhindra sådana olyckor vore att komplettera 18 $ i naturvårdslagen
@@ -1435,14 +1466,10 @@
               III.
             </seg>
           </u>
-          <pb n="14" facs="https://betalab.kb.se/prot-1969-höst-fk--42/prot_1969_höst_fk__42-014.jp2/_view"/>
-          <note n="853e2c1d">
-            Torsdagen den 11 december 1969
-          </note>
           <note type="speaker" n="33257945">
             Herr NILSSON, NILS, (cp):
           </note>
-          <u who="torsten_nilsson_faa108" xml:id="i-ddd757916f5cb5f8-0" n="878d4eb6">
+          <u who="torsten_nilsson_faa108" xml:id="i-e62c74257d60bac4-0" n="878d4eb6">
             <seg n="5eb478a3">
               Herr talman! Enligt lagförslaget skall lagen inte vara tillämplig
               på mark som tillhör staten.
@@ -1485,7 +1512,7 @@
           <note type="speaker" n="67074a4a">
             Herr KARLSSON, GÖRAN, (s):
           </note>
-          <u who="eric_karlsson_f71251" xml:id="i-ca26e1afe50064ae-0" next="i-7def9c4e2fa9dffd-0" n="6025b8b2">
+          <u who="eric_karlsson_f71251" xml:id="i-7672dc4bd2f4a076-0" next="i-7672dc4bd2f4a076-1" n="6025b8b2">
             <seg n="342c3862">
               Herr talman! Det här är förvisso inte någon särskilt stor fråga,
               och därför kan väl debatten bli ganska kort.
@@ -1531,7 +1558,7 @@
           <note n="f4022e05">
             Ang. förslag till jordhävdslag
           </note>
-          <u who="eric_karlsson_f71251" xml:id="i-7def9c4e2fa9dffd-0" prev="i-ca26e1afe50064ae-0" n="6025b8b2">
+          <u who="eric_karlsson_f71251" xml:id="i-7672dc4bd2f4a076-1" prev="i-7672dc4bd2f4a076-0" n="6025b8b2">
             <seg n="797a15d9">
               Herr Skårman tog upp frågan om matjordstäkt. Jag vill inte säga
               att det föreligger någon större skillnad mellan utskottsmajoritetens
@@ -1561,7 +1588,7 @@
           <note type="speaker" n="33257945">
             Herr NILSSON, NILS, (cp):
           </note>
-          <u who="torsten_nilsson_faa108" xml:id="i-ddd757916f5cb5f8-1" n="878d4eb6">
+          <u who="torsten_nilsson_faa108" xml:id="i-e62c74257d60bac4-1" n="878d4eb6">
             <seg n="3ee3f7bc">
               Herr talman! Jag ger Göran Karlsson rätt i att våra meningsskiljaktigheter
               inte gäller någon särskilt stor fråga. Men när herr Karlsson säger
@@ -1574,13 +1601,13 @@
               ägarkategorier.
             </seg>
           </u>
-          <note n="853e2c1d">
+          <note type="date" n="a97ec606">
             Torsdagen den 11 december 1969
           </note>
           <note type="speaker" n="67074a4a">
             Herr KARLSSON, GÖRAN, (s):
           </note>
-          <u who="eric_karlsson_f71251" xml:id="i-ca26e1afe50064ae-1" next="i-7def9c4e2fa9dffd-1" n="6025b8b2">
+          <u who="eric_karlsson_f71251" xml:id="i-7672dc4bd2f4a076-2" next="i-7672dc4bd2f4a076-5" n="6025b8b2">
             <seg n="1ab86189">
               Herr talman! Eftersom herr Nils Nilsson inte har kunnat anföra
               något exempel på att det skulle vara nödvändigt att statens markinnehav
@@ -1621,27 +1648,26 @@
             efter given varsel upplästes och godkändes en så lydande omröstningsproposition:
           </note>
           <pb n="16" facs="https://betalab.kb.se/prot-1969-höst-fk--42/prot_1969_höst_fk__42-016.jp2/_view"/>
-          <note n="853e2c1d">
+          <note type="date" n="a97ec606">
             Torsdagen den 11 december 1969
           </note>
           <note n="07083367">
             Den, som bifaller vad tredje lagutskottet hemställt i sitt utlåtande
             nr 59 punkten B, röstar
           </note>
-          <u who="eric_karlsson_f71251" xml:id="i-7def9c4e2fa9dffd-1" prev="i-ca26e1afe50064ae-1" n="6025b8b2">
+          <u who="eric_karlsson_f71251" xml:id="i-7672dc4bd2f4a076-3" prev="i-7672dc4bd2f4a076-2" n="6025b8b2">
             <seg n="fad037ff">
               Ja;
-            </seg>
-            <seg n="dafb71f8">
-              Nej;
-            </seg>
-            <seg n="b0e76ebb">
-              givit, att de avstode från att rösta.
             </seg>
           </u>
           <note n="65a6288f">
             Den, det ej vill, röstar
           </note>
+          <u who="eric_karlsson_f71251" xml:id="i-7672dc4bd2f4a076-4" prev="i-7672dc4bd2f4a076-2" n="6025b8b2">
+            <seg n="dafb71f8">
+              Nej;
+            </seg>
+          </u>
           <note n="339812b3">
             Vinner Nej, antages det förslag, som innefattas i den vid punkten
             avgivna reservationen.
@@ -1663,6 +1689,11 @@
           <note n="8d99ab20">
             Därjämte hade 2 ledamöter tillkänna-
           </note>
+          <u who="eric_karlsson_f71251" xml:id="i-7672dc4bd2f4a076-5" prev="i-7672dc4bd2f4a076-2" n="6025b8b2">
+            <seg n="b0e76ebb">
+              givit, att de avstode från att rösta.
+            </seg>
+          </u>
           <note n="f76ce758">
             Sedermera bifölls på gjord proposition vad utskottet hemställt
             i punkterna C och D.
@@ -1774,7 +1805,7 @@
           <note type="speaker" n="99d4e3e1">
             Herr SVENUNGSSON (m):
           </note>
-          <u who="arne_svenungsson_065ac4" xml:id="i-d69e0793029d89a4-0" next="i-6e620323ba04313b-0" n="aa053d60">
+          <u who="arne_svenungsson_065ac4" xml:id="i-aa053d60c3c60f27-0" next="i-aa053d60c3c60f27-2" n="aa053d60">
             <seg n="ac112182">
               Herr talman! Det råder inga delade meningar om miljövårdens stora
               betydelse för samhällsutvecklingen. Det framgår av både reservationen
@@ -1795,10 +1826,10 @@
               att ytter-
             </seg>
           </u>
-          <note n="853e2c1d">
+          <note type="date" n="a97ec606">
             Torsdagen den 11 december 1969
           </note>
-          <u who="arne_svenungsson_065ac4" xml:id="i-6e620323ba04313b-0" prev="i-d69e0793029d89a4-0" n="aa053d60">
+          <u who="arne_svenungsson_065ac4" xml:id="i-aa053d60c3c60f27-1" prev="i-aa053d60c3c60f27-0" n="aa053d60">
             <seg n="27751a10">
               ligare insatser från kommunernas sida är nödvändiga.
             </seg>
@@ -1838,6 +1869,12 @@
               Under stadsplaneoch bebyggelseplaneringen berörs ett stort antal
               kommunala nämnder. För den konkreta hand-
             </seg>
+          </u>
+          <pb n="18" facs="https://betalab.kb.se/prot-1969-höst-fk--42/prot_1969_höst_fk__42-018.jp2/_view"/>
+          <note type="date" n="a97ec606">
+            Torsdagen den 11 december 1969
+          </note>
+          <u who="arne_svenungsson_065ac4" xml:id="i-aa053d60c3c60f27-2" prev="i-aa053d60c3c60f27-0" n="aa053d60">
             <seg n="85657cc5">
               läggningen av själva byggverksamheten har i de allra flesta kommuner
               skett en samordning i en central byggnadskommitté. Någon motsvarande
@@ -1850,17 +1887,13 @@
               det råder osäkerhet om ansvarsoch samordningsfrågor.
             </seg>
           </u>
-          <pb n="18" facs="https://betalab.kb.se/prot-1969-höst-fk--42/prot_1969_höst_fk__42-018.jp2/_view"/>
-          <note n="853e2c1d">
-            Torsdagen den 11 december 1969
-          </note>
           <note n="caa0dbde">
             Jag ber, herr talman, att få yrka bifall till utskottets hemställan.
           </note>
           <note type="speaker" n="7be1e048">
             Herr NYQUIST (s):
           </note>
-          <u who="yngve_nyquist_02869a" xml:id="i-9212d42286a6617a-0" next="i-34847b8c4174e448-0" n="1e3ef665">
+          <u who="yngve_nyquist_02869a" xml:id="i-1e3ef6653f490e81-0" next="i-1e3ef6653f490e81-2" n="1e3ef665">
             <seg n="0a6e610a">
               Herr talman! Genom lottning har de socialdemokratiska ledamöterna
               i konstitutionsutskottet med sitt avslagsyrkande fått lov att
@@ -1875,7 +1908,7 @@
             angående den kommunala nämndorganisationen, avseende samordning
             av planoch miljöfrågor.
           </note>
-          <u who="yngve_nyquist_02869a" xml:id="i-34847b8c4174e448-0" prev="i-9212d42286a6617a-0" n="1e3ef665">
+          <u who="yngve_nyquist_02869a" xml:id="i-1e3ef6653f490e81-1" prev="i-1e3ef6653f490e81-0" n="1e3ef665">
             <seg n="d916f308">
               Inga delade meningar torde råda om miljövårdens betydelse för
               samhällsutvecklingen. Insatser har också gjorts på detta område
@@ -1891,6 +1924,14 @@
               Därutöver kan finnas s.k. fakultativa nämnder. Det förtjänar understrykas
               att kommunens styrel-
             </seg>
+          </u>
+          <note n="8667792b">
+            Nr 42 19
+          </note>
+          <note n="d869e70f">
+            Ang. den kommunala miljöpolitiken
+          </note>
+          <u who="yngve_nyquist_02869a" xml:id="i-1e3ef6653f490e81-2" prev="i-1e3ef6653f490e81-0" n="1e3ef665">
             <seg n="3199cc03">
               se härvid har en allmänt ledande och samordnande funktion.
             </seg>
@@ -1905,16 +1946,10 @@
               innebärande avslag på motionerna.
             </seg>
           </u>
-          <note n="8667792b">
-            Nr 42 19
-          </note>
-          <note n="d869e70f">
-            Ang. den kommunala miljöpolitiken
-          </note>
           <note type="speaker" n="4b64a9d5">
             Herr BENGTSON (cp):
           </note>
-          <u who="unknown" xml:id="i-ebd7be5e9a02a379-2" n="4a60ec9c">
+          <u who="unknown" xml:id="i-4a60ec9c5da226c3-4" n="4a60ec9c">
             <seg n="9b0464c8">
               Herr talman! Det är med största tillfredsställelse som man konstaterar
               det allt större intresse som finns för miljövården. Vi menar dock
@@ -1951,7 +1986,7 @@
           <note n="d869e70f">
             Ang. den kommunala miljöpolitiken
           </note>
-          <u who="unknown" xml:id="i-c4d974fc8fdce923-2" n="4a60ec9c">
+          <u who="unknown" xml:id="i-4a60ec9c5da226c3-5" n="4a60ec9c">
             <seg n="fbeb07c6">
               lov att försöka åstadkomma en viss samordning mellan de olika
               organen. Om det skall vara möjligt att få en effektiv miljövård
@@ -1976,7 +2011,7 @@
           <note type="speaker" n="99d4e3e1">
             Herr SVENUNGSSON (m):
           </note>
-          <u who="arne_svenungsson_065ac4" xml:id="i-955d075c32c6174d-0" n="aa053d60">
+          <u who="arne_svenungsson_065ac4" xml:id="i-aa053d60c3c60f27-3" n="aa053d60">
             <seg n="3d375809">
               Herr talman! Ingen bestrider att stora insatser har gjorts ute
               i våra kommuner med den organisation som vi redan har. Men om
@@ -2001,16 +2036,16 @@
           <note type="speaker" n="05a27efd">
             Herr SÖRLIN (s):
           </note>
-          <u who="thore_sorlin_2fa2db" xml:id="i-e2f280a3acf19315-0" next="i-ae531d9b8962e655-0" n="27e4beef">
+          <u who="thore_sorlin_2fa2db" xml:id="i-072a25bae314ca1a-0" next="i-072a25bae314ca1a-1" n="27e4beef">
             <seg n="e80805a0">
               Herr talman! Det var närmast ett yttrande av herr Bengtson som
               föranledde mig att begära ordet.
             </seg>
           </u>
-          <note n="853e2c1d">
+          <note type="date" n="a97ec606">
             Torsdagen den 11 december 1969
           </note>
-          <u who="thore_sorlin_2fa2db" xml:id="i-ae531d9b8962e655-0" prev="i-e2f280a3acf19315-0" n="27e4beef">
+          <u who="thore_sorlin_2fa2db" xml:id="i-072a25bae314ca1a-1" prev="i-072a25bae314ca1a-0" n="27e4beef">
             <seg n="af96fd56">
               Herr Bengtson säger att han tolkar reservanternas yrkande såsom
               ett bevis på en negativ inställning till miljövårdspolitiken.
@@ -2038,7 +2073,7 @@
           <note type="speaker" n="4b64a9d5">
             Herr BENGTSON (cp):
           </note>
-          <u who="unknown" xml:id="i-bff3c82b187c1acc-0" n="4a60ec9c">
+          <u who="unknown" xml:id="i-4a60ec9c5da226c3-6" n="4a60ec9c">
             <seg n="dd851d0b">
               Herr talman! Jag är ingalunda någon vän av överorganisation i
               de kommunala organen. Men jag skulle vilja fråga herr Sörlin:
@@ -2053,7 +2088,7 @@
           <note type="speaker" n="05a27efd">
             Herr SÖRLIN (s):
           </note>
-          <u who="thore_sorlin_2fa2db" xml:id="i-e2f280a3acf19315-1" next="i-ae531d9b8962e655-1" n="27e4beef">
+          <u who="thore_sorlin_2fa2db" xml:id="i-072a25bae314ca1a-2" next="i-072a25bae314ca1a-8" n="27e4beef">
             <seg n="1da5e3cc">
               Herr talman! Kan herr Bengtson ge exempel på ett konkret fall
               där det har uppstått svårigheter på detta område? Vi reservanter
@@ -2061,30 +2096,15 @@
             </seg>
           </u>
           <pb n="20" facs="https://betalab.kb.se/prot-1969-höst-fk--42/prot_1969_höst_fk__42-020.jp2/_view"/>
-          <note n="853e2c1d">
+          <note type="date" n="a97ec606">
             Torsdagen den 11 december 1969
           </note>
-          <u who="thore_sorlin_2fa2db" xml:id="i-ae531d9b8962e655-1" prev="i-e2f280a3acf19315-1" n="27e4beef">
+          <u who="thore_sorlin_2fa2db" xml:id="i-072a25bae314ca1a-3" prev="i-072a25bae314ca1a-2" n="27e4beef">
             <seg n="2534c76b">
               varande kommunallag ger kommunerna möjlighet att reglera dessa
               förhållanden i dagsläget, och vi tror alltså att vi kan fortsätta
               med det tills det uppstår en situation som motiverar de åtgärder
               utskottsmajoriteten har föreslagit.
-            </seg>
-            <seg n="4d97c88d">
-              Jäs
-            </seg>
-            <seg n="dafb71f8">
-              Nej;
-            </seg>
-            <seg n="f4a13b44">
-              givit, att han avstode från att rösta.
-            </seg>
-            <seg n="96a9343d">
-              Om förbättrad naturvård
-            </seg>
-            <seg n="96a9343d">
-              Om förbättrad naturvård
             </seg>
           </u>
           <note n="f5eccbfd">
@@ -2105,9 +2125,19 @@
             Den, som bifaller vad konstitutionsutskottet hemställt i sitt
             utlåtande nr 39, röstar
           </note>
+          <u who="thore_sorlin_2fa2db" xml:id="i-072a25bae314ca1a-4" prev="i-072a25bae314ca1a-2" n="27e4beef">
+            <seg n="4d97c88d">
+              Jäs
+            </seg>
+          </u>
           <note n="65a6288f">
             Den, det ej vill, röstar
           </note>
+          <u who="thore_sorlin_2fa2db" xml:id="i-072a25bae314ca1a-5" prev="i-072a25bae314ca1a-2" n="27e4beef">
+            <seg n="dafb71f8">
+              Nej;
+            </seg>
+          </u>
           <note n="5fed7a15">
             Vinner Nej, godkännes den vid ut-
           </note>
@@ -2131,9 +2161,19 @@
           <note n="bba1b00c">
             Därjämte hade 1 ledamot tillkänna-
           </note>
+          <u who="thore_sorlin_2fa2db" xml:id="i-072a25bae314ca1a-6" prev="i-072a25bae314ca1a-2" n="27e4beef">
+            <seg n="f4a13b44">
+              givit, att han avstode från att rösta.
+            </seg>
+          </u>
           <note n="7ca8fb22">
             Nr 42 21
           </note>
+          <u who="thore_sorlin_2fa2db" xml:id="i-072a25bae314ca1a-7" prev="i-072a25bae314ca1a-2" n="27e4beef">
+            <seg n="96a9343d">
+              Om förbättrad naturvård
+            </seg>
+          </u>
           <note n="f9c04a24">
             Föredrogos ånyo jordbruksutskottets utlåtanden:
           </note>
@@ -2151,6 +2191,11 @@
           <note n="66eacdf4">
             Vad utskottet i dessa utlåtanden hemställt bifölls.
           </note>
+          <u who="thore_sorlin_2fa2db" xml:id="i-072a25bae314ca1a-8" prev="i-072a25bae314ca1a-2" n="27e4beef">
+            <seg n="96a9343d">
+              Om förbättrad naturvård
+            </seg>
+          </u>
           <note n="771d3978">
             Föredrogs ånyo jordbruksutskottets utlåtande nr 46, i anledning
             av motioner om förbättrad naturvård.
@@ -2171,7 +2216,7 @@
           <note type="speaker" n="ee1b813a">
             Herr HJORTH (s):
           </note>
-          <u who="nils_hjort_940365" xml:id="i-7ee101a9567f0614-0" next="i-8fe9ce7d7a2839ab-0" n="b2e49c4f">
+          <u who="nils_hjort_940365" xml:id="i-b2e49c4f2f064823-0" next="i-b2e49c4f2f064823-3" n="b2e49c4f">
             <seg n="47ed22f6">
               Herr talman! Jordbruksutskottet har i höst haft en hel rad motioner
               i naturvårdsfrågor att behandla, och det är därför kanske inte
@@ -2186,7 +2231,7 @@
           <note n="15c6e426">
             22 Nr 42
           </note>
-          <u who="nils_hjort_940365" xml:id="i-8fe9ce7d7a2839ab-0" prev="i-7ee101a9567f0614-0" n="b2e49c4f">
+          <u who="nils_hjort_940365" xml:id="i-b2e49c4f2f064823-1" prev="i-b2e49c4f2f064823-0" n="b2e49c4f">
             <seg n="96a9343d">
               Om förbättrad naturvård
             </seg>
@@ -2231,6 +2276,11 @@
               Man kommer då osökt in på äganderätten till mark, en fråga som
               varken
             </seg>
+          </u>
+          <note type="date" n="a97ec606">
+            Torsdagen den 11 december 1969
+          </note>
+          <u who="nils_hjort_940365" xml:id="i-b2e49c4f2f064823-2" prev="i-b2e49c4f2f064823-0" n="b2e49c4f">
             <seg n="a67179dc">
               utskottet eller andra instanser tycks våga gå in på. Äganderätten
               innebär faktiskt rätt för markinnehavaren att oåterkalleligt förändra
@@ -2266,6 +2316,12 @@
               Det är för tidigt att säga om samfällighetsbildning radikalt
               kan nedbringa statens utgifter för att i detta avseende
             </seg>
+          </u>
+          <pb n="22" facs="https://betalab.kb.se/prot-1969-höst-fk--42/prot_1969_höst_fk__42-022.jp2/_view"/>
+          <note type="date" n="a97ec606">
+            Torsdagen den 11 december 1969
+          </note>
+          <u who="nils_hjort_940365" xml:id="i-b2e49c4f2f064823-3" prev="i-b2e49c4f2f064823-0" n="b2e49c4f">
             <seg n="28bd606b">
               kunna upprätthålla en tillfredsställande naturvård.
             </seg>
@@ -2290,17 +2346,10 @@
               Herr talman! Jag har inget yrkande.
             </seg>
           </u>
-          <note n="853e2c1d">
-            Torsdagen den 11 december 1969
-          </note>
-          <pb n="22" facs="https://betalab.kb.se/prot-1969-höst-fk--42/prot_1969_höst_fk__42-022.jp2/_view"/>
-          <note n="853e2c1d">
-            Torsdagen den 11 december 1969
-          </note>
           <note type="speaker" n="78f5e391">
             Herr MOSSBERGER (s):
           </note>
-          <u who="holger_mossberg_cae5cc" xml:id="i-d8aba6c9b816f859-0" next="i-3ce17b192ceba493-0" n="0381e699">
+          <u who="holger_mossberg_cae5cc" xml:id="i-cae4c68e11c10360-0" next="i-cae4c68e11c10360-2" n="0381e699">
             <seg n="3cf974bb">
               Herr talman! Herr Hjorth gjorde ju inte något yrkande, men en
               liten passus i hans yttrande gav mig ändå anledning att begära
@@ -2324,7 +2373,7 @@
           <note n="1f074524">
             Nr 42 23
           </note>
-          <u who="holger_mossberg_cae5cc" xml:id="i-3ce17b192ceba493-0" prev="i-d8aba6c9b816f859-0" n="0381e699">
+          <u who="holger_mossberg_cae5cc" xml:id="i-cae4c68e11c10360-1" prev="i-cae4c68e11c10360-0" n="0381e699">
             <seg n="96a9343d">
               Om förbättrad naturvård
             </seg>
@@ -2366,6 +2415,12 @@
               så befinns påkallat inkomma till Kungl. Maj:t med förslag. Tilläggas
               kan
             </seg>
+          </u>
+          <pb n="23" facs="https://betalab.kb.se/prot-1969-höst-fk--42/prot_1969_höst_fk__42-023.jp2/_view"/>
+          <note n="0658daea">
+            24 Nr 42
+          </note>
+          <u who="holger_mossberg_cae5cc" xml:id="i-cae4c68e11c10360-2" prev="i-cae4c68e11c10360-0" n="0381e699">
             <seg n="96a9343d">
               Om förbättrad naturvård
             </seg>
@@ -2406,14 +2461,10 @@
               och dem har inte utskottet berört.
             </seg>
           </u>
-          <pb n="23" facs="https://betalab.kb.se/prot-1969-höst-fk--42/prot_1969_höst_fk__42-023.jp2/_view"/>
-          <note n="0658daea">
-            24 Nr 42
-          </note>
           <note type="speaker" n="8a70915c">
             Herr SVANSTRÖM (cp):
           </note>
-          <u who="ivan_svanstrom_440016" xml:id="i-37aa4f28ff005c5d-0" next="i-c8f166d22f7861e8-0" n="8146bad1">
+          <u who="ivan_svanstrom_440016" xml:id="i-8146bad172b14f2a-0" next="i-8146bad172b14f2a-2" n="8146bad1">
             <seg n="885b2fb0">
               Herr talman! Det var ett uttalande i herr Hjorths första anförande
               som kom mig att begära ordet i denna fråga.
@@ -2423,10 +2474,10 @@
               angripa denna fråga principiellt på det sättet att
             </seg>
           </u>
-          <note n="853e2c1d">
+          <note type="date" n="a97ec606">
             Torsdagen den 11 december 1969
           </note>
-          <u who="ivan_svanstrom_440016" xml:id="i-c8f166d22f7861e8-0" prev="i-37aa4f28ff005c5d-0" n="8146bad1">
+          <u who="ivan_svanstrom_440016" xml:id="i-8146bad172b14f2a-1" prev="i-8146bad172b14f2a-0" n="8146bad1">
             <seg n="bbe75c5b">
               frågan om ersättningen över huvud taget för sådana ingripanden
               som det här gäller skulle tas upp till förnyad prövning. Han använde
@@ -2466,6 +2517,12 @@
               av åkerarealer som är utrangerade för jordbruksändamål. Men vi
               föreslår att
             </seg>
+          </u>
+          <pb n="24" facs="https://betalab.kb.se/prot-1969-höst-fk--42/prot_1969_höst_fk__42-024.jp2/_view"/>
+          <note type="date" n="a97ec606">
+            Torsdagen den 11 december 1969
+          </note>
+          <u who="ivan_svanstrom_440016" xml:id="i-8146bad172b14f2a-2" prev="i-8146bad172b14f2a-0" n="8146bad1">
             <seg n="86a51ac6">
               man t. ex. genom betesdrift söker bevara särskilt ömtåliga områden,
               kanske i närheten av en havsvik, intill en insjö eller vid en
@@ -2493,14 +2550,10 @@
               Jag har, herr talman, inget yrkande.
             </seg>
           </u>
-          <pb n="24" facs="https://betalab.kb.se/prot-1969-höst-fk--42/prot_1969_höst_fk__42-024.jp2/_view"/>
-          <note n="853e2c1d">
-            Torsdagen den 11 december 1969
-          </note>
           <note type="speaker" n="ee1b813a">
             Herr HJORTH (s):
           </note>
-          <u who="nils_hjort_940365" xml:id="i-7ee101a9567f0614-1" next="i-8fe9ce7d7a2839ab-1" n="b2e49c4f">
+          <u who="nils_hjort_940365" xml:id="i-b2e49c4f2f064823-4" next="i-b2e49c4f2f064823-5" n="b2e49c4f">
             <seg n="56b20054">
               Herr talman! När jag nämnde äganderätten tänkte jag i första
               hand på de icke förnyelsebara tillgångarna, t.ex. grusåsar, som
@@ -2517,7 +2570,7 @@
           <note n="0d92ce24">
             Nr 42 25
           </note>
-          <u who="nils_hjort_940365" xml:id="i-8fe9ce7d7a2839ab-1" prev="i-7ee101a9567f0614-1" n="b2e49c4f">
+          <u who="nils_hjort_940365" xml:id="i-b2e49c4f2f064823-5" prev="i-b2e49c4f2f064823-4" n="b2e49c4f">
             <seg n="96a9343d">
               Om förbättrad naturvård
             </seg>
@@ -2547,7 +2600,7 @@
           <note type="speaker" n="8a70915c">
             Herr SVANSTRÖM (cp):
           </note>
-          <u who="ivan_svanstrom_440016" xml:id="i-37aa4f28ff005c5d-1" next="i-c8f166d22f7861e8-1" n="8146bad1">
+          <u who="ivan_svanstrom_440016" xml:id="i-8146bad172b14f2a-3" next="i-8146bad172b14f2a-5" n="8146bad1">
             <seg n="abaf8392">
               Herr talman! Det är riktigt som herr Hjorth säger att man har
               indelat grusåsarna i tre olika klasser och att man i första hand
@@ -2569,10 +2622,10 @@
           <note n="3d9e4ae8">
             26 Nr 42
           </note>
-          <note n="853e2c1d">
+          <note type="date" n="a97ec606">
             Torsdagen den 11 december 1969
           </note>
-          <u who="ivan_svanstrom_440016" xml:id="i-c8f166d22f7861e8-1" prev="i-37aa4f28ff005c5d-1" n="8146bad1">
+          <u who="ivan_svanstrom_440016" xml:id="i-8146bad172b14f2a-4" prev="i-8146bad172b14f2a-3" n="8146bad1">
             <seg n="1b338c52">
               Om samordning av jordbruksoch miljövårdspolitiken
             </seg>
@@ -2590,14 +2643,16 @@
               är helt överens i dessa frågor. Det är bara tillvägagångssätten
               man kan diskutera.
             </seg>
-            <seg n="1b338c52">
-              Om samordning av jordbruksoch miljövårdspolitiken
-            </seg>
           </u>
           <note n="87191c70">
             Efter härmed slutad överläggning bifölls vad utskottet i förevarande
             utlåtande hemställt.
           </note>
+          <u who="ivan_svanstrom_440016" xml:id="i-8146bad172b14f2a-5" prev="i-8146bad172b14f2a-3" n="8146bad1">
+            <seg n="1b338c52">
+              Om samordning av jordbruksoch miljövårdspolitiken
+            </seg>
+          </u>
           <note n="95c9a4ed">
             Föredrogs ånyo jordbruksutskottets utlåtande nr 47, i anledning
             av motioner angående samordning av jordbruksoch miljövårdspolitiken.
@@ -2653,7 +2708,7 @@
           <note type="speaker" n="9aea90eb">
             Herr ANDERSSON, INGVAR, (m):
           </note>
-          <u who="sven_andersson_09f258" xml:id="i-2db72736b72ca364-0" next="i-1a6769f936593352-0" n="6b52270f">
+          <u who="sven_andersson_09f258" xml:id="i-41b6edbb768810de-0" next="i-41b6edbb768810de-1" n="6b52270f">
             <seg n="b2dbfa6f">
               Herr talman! I 1967 års riksdagsbeslut om den framtida jordbrukspolitiken
               har förutsatts att lantbruksnämnderna skall beakta naturvårdsintressena
@@ -2661,13 +2716,13 @@
             </seg>
           </u>
           <pb n="26" facs="https://betalab.kb.se/prot-1969-höst-fk--42/prot_1969_höst_fk__42-026.jp2/_view"/>
-          <note n="853e2c1d">
+          <note type="date" n="a97ec606">
             Torsdagen den 11 december 1969
           </note>
           <note n="9d5e447b">
             Nr 42 27
           </note>
-          <u who="sven_andersson_09f258" xml:id="i-1a6769f936593352-0" prev="i-2db72736b72ca364-0" n="6b52270f">
+          <u who="sven_andersson_09f258" xml:id="i-41b6edbb768810de-1" prev="i-41b6edbb768810de-0" n="6b52270f">
             <seg n="1b338c52">
               Om samordning av jordbruksoch miljövårdspolitiken
             </seg>
@@ -2718,7 +2773,7 @@
           <note type="speaker" n="1736e6f0">
             Herr SKÅRMAN (fp):
           </note>
-          <u who="bo_skarman_a312f9" xml:id="i-128a711960ca80cb-3" next="i-71d1157d453cb597-3" n="78453043">
+          <u who="bo_skarman_a312f9" xml:id="i-7845304390ef5829-7" next="i-7845304390ef5829-8" n="78453043">
             <seg n="5efc04a4">
               Herr talman! Jag skall be att få säga några ord angående samma
               reservation som herr Ingvar Andersson nyss talade om.
@@ -2756,10 +2811,10 @@
           <note n="67b47ce1">
             28 Nr 42
           </note>
-          <note n="853e2c1d">
+          <note type="date" n="a97ec606">
             Torsdagen den 11 december 1969
           </note>
-          <u who="bo_skarman_a312f9" xml:id="i-71d1157d453cb597-3" prev="i-128a711960ca80cb-3" n="78453043">
+          <u who="bo_skarman_a312f9" xml:id="i-7845304390ef5829-8" prev="i-7845304390ef5829-7" n="78453043">
             <seg n="1b338c52">
               Om samordning av jordbruksoch miljövårdspolitiken
             </seg>
@@ -2774,7 +2829,7 @@
           <note type="speaker" n="31b3d8bc">
             Herr KRISTIANSSON, AXEL, (cp):
           </note>
-          <u who="svante_kristiansson_a5b182" xml:id="i-b4598df6c4b58edc-0" next="i-57af1c0929255ba8-0" n="bd72984e">
+          <u who="svante_kristiansson_a5b182" xml:id="i-bd72984ecd3026a4-0" next="i-bd72984ecd3026a4-1" n="bd72984e">
             <seg n="e55c45dd">
               Herr talman! I egenskap av motionär vill jag gärna säga några
               ord som kommentar till den motion jag undertecknat. Kommentaren
@@ -2848,13 +2903,13 @@
             </seg>
           </u>
           <pb n="28" facs="https://betalab.kb.se/prot-1969-höst-fk--42/prot_1969_höst_fk__42-028.jp2/_view"/>
-          <note n="853e2c1d">
+          <note type="date" n="a97ec606">
             Torsdagen den 11 december 1969
           </note>
           <note n="ebccd8d0">
             Nr 42 29
           </note>
-          <u who="svante_kristiansson_a5b182" xml:id="i-57af1c0929255ba8-0" prev="i-b4598df6c4b58edc-0" n="bd72984e">
+          <u who="svante_kristiansson_a5b182" xml:id="i-bd72984ecd3026a4-1" prev="i-bd72984ecd3026a4-0" n="bd72984e">
             <seg n="1b338c52">
               Om samordning av jordbruksoch miljövårdspolitiken
             </seg>
@@ -2874,7 +2929,7 @@
           <note type="speaker" n="78f5e391">
             Herr MOSSBERGER (s):
           </note>
-          <u who="holger_mossberg_cae5cc" xml:id="i-d8aba6c9b816f859-1" next="i-3ce17b192ceba493-1" n="0381e699">
+          <u who="holger_mossberg_cae5cc" xml:id="i-cae4c68e11c10360-3" next="i-cae4c68e11c10360-8" n="0381e699">
             <seg n="a74c7103">
               Herr talman! Jag kan fatta mig ganska kort. Med hänsyn till det
               beslut som vi redan har fattat beträffande jordbruksutskottets
@@ -2914,33 +2969,19 @@
             Den, som bifaller vad jordbruksutskottet hemställt i sitt utlåtande
             nr 47, röstar
           </note>
-          <u who="holger_mossberg_cae5cc" xml:id="i-3ce17b192ceba493-1" prev="i-d8aba6c9b816f859-1" n="0381e699">
+          <u who="holger_mossberg_cae5cc" xml:id="i-cae4c68e11c10360-4" prev="i-cae4c68e11c10360-3" n="0381e699">
             <seg n="fad037ff">
               Ja;
-            </seg>
-            <seg n="dafb71f8">
-              Nej;
-            </seg>
-            <seg n="3c323383">
-              den framtida exploateringen av kustområdet i Göteborgsregionen;
-            </seg>
-            <seg n="f5e653a1">
-              Mot bakgrund av en utveckling, som innebure, att parkeringsärenden
-              i allt större utsträckning måste avskrivas därför att det icke
-              kunde ledas i bevis vem som fört fordonet, hade i denna proposition
-              bland annat föreslagits ett straffansvar för fordonsägaren. Ansvaret
-              skulle gälla förseelser, där parkeringsbot kunde användas, och
-              inträda när det icke vore utrett vem som begått förseelsen.
-            </seg>
-            <seg n="85d4a0b0">
-              som framlagts genom propositionen 140: 1969, vari skulle utsägas,
-              att ägaransvaret för parkeringsöverträdelser icke skulle inträda
-              vid långtidsuthyrning utan i stället åvila hyresmannen.
             </seg>
           </u>
           <note n="65a6288f">
             Den, det ej vill, röstar
           </note>
+          <u who="holger_mossberg_cae5cc" xml:id="i-cae4c68e11c10360-5" prev="i-cae4c68e11c10360-3" n="0381e699">
+            <seg n="dafb71f8">
+              Nej;
+            </seg>
+          </u>
           <note n="2ff5f4fd">
             Vinner Nej, antages det förslag, som innefattas i den vid utlåtandet
             avgivna reservationen.
@@ -2995,6 +3036,11 @@
           <note n="0bbdcb6a">
             Ang. ägaransvaret vid parkeringsförseelser
           </note>
+          <u who="holger_mossberg_cae5cc" xml:id="i-cae4c68e11c10360-6" prev="i-cae4c68e11c10360-3" n="0381e699">
+            <seg n="3c323383">
+              den framtida exploateringen av kustområdet i Göteborgsregionen;
+            </seg>
+          </u>
           <note n="bcabdc10">
             nr 55, i anledning av motioner angående elektriska kraftstationer
             vid mindre vattendrag; och
@@ -3049,7 +3095,7 @@
             av Kungl. Maj:ts proposition med förslag till kungörelse om ändring
             i vägtrafikförord-
           </note>
-          <note n="853e2c1d">
+          <note type="date" n="a97ec606">
             Torsdagen den 11 december 1969
           </note>
           <note n="2edcb796">
@@ -3069,6 +3115,16 @@
             2) kungörelse om ändring i förordningen (1940:910) angående yrkesmässig
             automobiltrafik m. m.
           </note>
+          <u who="holger_mossberg_cae5cc" xml:id="i-cae4c68e11c10360-7" prev="i-cae4c68e11c10360-3" n="0381e699">
+            <seg n="f5e653a1">
+              Mot bakgrund av en utveckling, som innebure, att parkeringsärenden
+              i allt större utsträckning måste avskrivas därför att det icke
+              kunde ledas i bevis vem som fört fordonet, hade i denna proposition
+              bland annat föreslagits ett straffansvar för fordonsägaren. Ansvaret
+              skulle gälla förseelser, där parkeringsbot kunde användas, och
+              inträda när det icke vore utrett vem som begått förseelsen.
+            </seg>
+          </u>
           <note n="bf3ee472">
             I samband med propositionen hade utskottet behandlat följande
             i anledning av densamma väckta motioner, nämligen
@@ -3095,9 +3151,16 @@
             av 68 8 vägtrafikförordningen,
           </note>
           <pb n="30" facs="https://betalab.kb.se/prot-1969-höst-fk--42/prot_1969_höst_fk__42-030.jp2/_view"/>
-          <note n="853e2c1d">
+          <note type="date" n="a97ec606">
             Torsdagen den 11 december 1969
           </note>
+          <u who="holger_mossberg_cae5cc" xml:id="i-cae4c68e11c10360-8" prev="i-cae4c68e11c10360-3" n="0381e699">
+            <seg n="85d4a0b0">
+              som framlagts genom propositionen 140: 1969, vari skulle utsägas,
+              att ägaransvaret för parkeringsöverträdelser icke skulle inträda
+              vid långtidsuthyrning utan i stället åvila hyresmannen.
+            </seg>
+          </u>
           <note n="600df4c4">
             I motionerna I: 1098 och II: 1264 hade föreslagits, att riksdagen
             vid sin behandling av Kungl. Maj:ts proposition nr 140 skulle
@@ -3145,7 +3208,7 @@
           <note type="speaker" n="1736e6f0">
             Herr SKÅRMAN (fp):
           </note>
-          <u who="bo_skarman_a312f9" xml:id="i-128a711960ca80cb-4" next="i-71d1157d453cb597-4" n="78453043">
+          <u who="bo_skarman_a312f9" xml:id="i-7845304390ef5829-9" next="i-7845304390ef5829-10" n="78453043">
             <seg n="f6588417">
               Herr talman! Genom Kungl. Maj:ts proposition nr 140 med förslag
               till kungörelse om ändring i vägtrafikförordningen tillgodoses
@@ -3190,7 +3253,7 @@
           <note n="0bbdcb6a">
             Ang. ägaransvaret vid parkeringsförseelser
           </note>
-          <u who="bo_skarman_a312f9" xml:id="i-71d1157d453cb597-4" prev="i-128a711960ca80cb-4" n="78453043">
+          <u who="bo_skarman_a312f9" xml:id="i-7845304390ef5829-10" prev="i-7845304390ef5829-9" n="78453043">
             <seg n="f49217db">
               tuationer där komplikationer kan inträda. Antag att en person
               hyr en bil i norra Sverige och lämnar av den t. ex. i Malmö. Hur
@@ -3215,7 +3278,7 @@
           <note type="speaker" n="67074a4a">
             Herr KARLSSON, GÖRAN, (s):
           </note>
-          <u who="eric_karlsson_f71251" xml:id="i-ca26e1afe50064ae-2" next="i-7def9c4e2fa9dffd-2" n="6025b8b2">
+          <u who="eric_karlsson_f71251" xml:id="i-7672dc4bd2f4a076-6" next="i-7672dc4bd2f4a076-11" n="6025b8b2">
             <seg n="da97c76d">
               Herr talman! Som herr Skårman har framhållit har smitning från
               parkeringsböter blivit alltmer vanlig, och det är därför på tiden
@@ -3236,10 +3299,10 @@
             Utskottet delar statsrådets mening och är enigt om att godkänna
             proposi-
           </note>
-          <note n="853e2c1d">
+          <note type="date" n="a97ec606">
             Torsdagen den 11 december 1969
           </note>
-          <u who="eric_karlsson_f71251" xml:id="i-7def9c4e2fa9dffd-2" prev="i-ca26e1afe50064ae-2" n="6025b8b2">
+          <u who="eric_karlsson_f71251" xml:id="i-7672dc4bd2f4a076-7" prev="i-7672dc4bd2f4a076-6" n="6025b8b2">
             <seg n="68d5ddaf">
               tionen i dess helhet. Det är två folkpartistiska ledamöter som
               i en detalj av förslaget har en avvikande mening. Det gäller nu,
@@ -3276,6 +3339,12 @@
               är något nytt i den svenska lagstiftningen, utan motsvarande gäller
               vid avbetalningsköp. När problemet går att lösa på det områ-
             </seg>
+          </u>
+          <pb n="32" facs="https://betalab.kb.se/prot-1969-höst-fk--42/prot_1969_höst_fk__42-032.jp2/_view"/>
+          <note type="date" n="a97ec606">
+            Torsdagen den 11 december 1969
+          </note>
+          <u who="eric_karlsson_f71251" xml:id="i-7672dc4bd2f4a076-8" prev="i-7672dc4bd2f4a076-6" n="6025b8b2">
             <seg n="161e2732">
               det, borde det heller inte vara orimligt att kunna lösa det så
               som har föreslagits i den proposition som här föreligger.
@@ -3322,6 +3391,17 @@
               Herr talman! Utskottet har ju sagt att man skall följa utvecklingen
               på det-
             </seg>
+          </u>
+          <note n="8cbc30a9">
+            3 Första kammarens protokoll 1969. Nr 42
+          </note>
+          <note n="4acd0bdb">
+            Nr 42 33
+          </note>
+          <note n="0bbdcb6a">
+            Ang. ägaransvaret vid parkeringsförseelser
+          </note>
+          <u who="eric_karlsson_f71251" xml:id="i-7672dc4bd2f4a076-9" prev="i-7672dc4bd2f4a076-6" n="6025b8b2">
             <seg n="6a0113c1">
               ta område med uppmärksamhet. Om den mot all förmodan skuile bli
               som herr Skårman befarar och det föreslagna systemet inte visar
@@ -3363,6 +3443,15 @@
               Tror verkligen herr Göran Karlsson att den som jag vill beteckna
               som den ohederlige felparkeraren skickar de be-
             </seg>
+          </u>
+          <pb n="33" facs="https://betalab.kb.se/prot-1969-höst-fk--42/prot_1969_höst_fk__42-033.jp2/_view"/>
+          <note n="41c267af">
+            34 Nr 42
+          </note>
+          <note n="0bbdcb6a">
+            Ang. ägaransvaret vid parkeringsförseelser
+          </note>
+          <u who="eric_karlsson_f71251" xml:id="i-7672dc4bd2f4a076-10" prev="i-7672dc4bd2f4a076-6" n="6025b8b2">
             <seg n="a1ca0a52">
               talningsförelägganden som sätts fast under vindrutetorkaren till
               biluthyrningsfirman? Är det inte mera sannolikt att sådana inbetalningskort
@@ -3401,6 +3490,11 @@
               att gardera sig för sådana tråkigheter är att göra en generell
               höjning av biluthyrningstaxan.
             </seg>
+          </u>
+          <note type="date" n="a97ec606">
+            Torsdagen den 11 december 1969
+          </note>
+          <u who="eric_karlsson_f71251" xml:id="i-7672dc4bd2f4a076-11" prev="i-7672dc4bd2f4a076-6" n="6025b8b2">
             <seg n="541037e2">
               Herr KARLSSON, GÖRAN, (s) kort genmäle:
             </seg>
@@ -3413,33 +3507,10 @@
               konsekvenser av större räckvidd för uthyrningsföretagen.
             </seg>
           </u>
-          <pb n="32" facs="https://betalab.kb.se/prot-1969-höst-fk--42/prot_1969_höst_fk__42-032.jp2/_view"/>
-          <note n="853e2c1d">
-            Torsdagen den 11 december 1969
-          </note>
-          <note n="8cbc30a9">
-            3 Första kammarens protokoll 1969. Nr 42
-          </note>
-          <note n="4acd0bdb">
-            Nr 42 33
-          </note>
-          <note n="0bbdcb6a">
-            Ang. ägaransvaret vid parkeringsförseelser
-          </note>
-          <pb n="33" facs="https://betalab.kb.se/prot-1969-höst-fk--42/prot_1969_höst_fk__42-033.jp2/_view"/>
-          <note n="41c267af">
-            34 Nr 42
-          </note>
-          <note n="0bbdcb6a">
-            Ang. ägaransvaret vid parkeringsförseelser
-          </note>
-          <note n="853e2c1d">
-            Torsdagen den 11 december 1969
-          </note>
           <note type="speaker" n="1dad61e6">
             Herr ANDERSSON, AXEL, (fp):
           </note>
-          <u who="sven_andersson_09f258" xml:id="i-2db72736b72ca364-1" next="i-1a6769f936593352-1" n="6b52270f">
+          <u who="sven_andersson_09f258" xml:id="i-41b6edbb768810de-2" next="i-41b6edbb768810de-3" n="6b52270f">
             <seg n="714860ab">
               Herr talman! Jag tänker inte blanda mig i debatten mellan herrar
               Skårman och Göran Karlsson om de svårigheter som en biluthyrare
@@ -3467,10 +3538,10 @@
             </seg>
           </u>
           <pb n="34" facs="https://betalab.kb.se/prot-1969-höst-fk--42/prot_1969_höst_fk__42-034.jp2/_view"/>
-          <note n="853e2c1d">
+          <note type="date" n="a97ec606">
             Torsdagen den 11 december 1969
           </note>
-          <u who="sven_andersson_09f258" xml:id="i-1a6769f936593352-1" prev="i-2db72736b72ca364-1" n="6b52270f">
+          <u who="sven_andersson_09f258" xml:id="i-41b6edbb768810de-3" prev="i-41b6edbb768810de-2" n="6b52270f">
             <seg n="505082d2">
               vederbörande gjort sig skyldig till parkeringsförseelser. Nu
               är det bevisat att den här damen aldrig ägt någon bil och troligen
@@ -3489,7 +3560,7 @@
           <note type="speaker" n="4ce371b3">
             Herr ERNULF (fp):
           </note>
-          <u who="gudmund_ernulf_024ccb" xml:id="i-9901ac57d5e1a762-0" next="i-26f73d47662bea68-0" n="0837d66a">
+          <u who="gudmund_ernulf_024ccb" xml:id="i-0837d66a41feebba-0" next="i-0837d66a41feebba-1" n="0837d66a">
             <seg n="89b19fd9">
               Herr talman! Propositionens syfte med de föreslagna reglerna
               om ägaransvar för parkeringsförseelser är ju att minska antalet
@@ -3523,7 +3594,7 @@
           <note n="0bbdcb6a">
             Ang. ägaransvaret vid parkeringsförseelser
           </note>
-          <u who="gudmund_ernulf_024ccb" xml:id="i-26f73d47662bea68-0" prev="i-9901ac57d5e1a762-0" n="0837d66a">
+          <u who="gudmund_ernulf_024ccb" xml:id="i-0837d66a41feebba-1" prev="i-0837d66a41feebba-0" n="0837d66a">
             <seg n="18a73156">
               att avhålla den som har hyrt bilen från att felparkera. Om däremot
               enligt reservanternas förslag den som har hyrt bilen får samma
@@ -3570,7 +3641,7 @@
           <note type="speaker" n="67074a4a">
             Herr KARLSSON, GÖRAN, (s):
           </note>
-          <u who="eric_karlsson_f71251" xml:id="i-ca26e1afe50064ae-3" next="i-7def9c4e2fa9dffd-3" n="6025b8b2">
+          <u who="eric_karlsson_f71251" xml:id="i-7672dc4bd2f4a076-12" next="i-7672dc4bd2f4a076-13" n="6025b8b2">
             <seg n="0e82c340">
               Herr talman! Varför vi inte gör denna rättelse redan nu, herr
               Ernulf, sammanhänger med att vi är övertygade om att det system
@@ -3605,10 +3676,10 @@
               Axel Anderssons exem-
             </seg>
           </u>
-          <note n="853e2c1d">
+          <note type="date" n="a97ec606">
             Torsdagen den 11 december 1969
           </note>
-          <u who="eric_karlsson_f71251" xml:id="i-7def9c4e2fa9dffd-3" prev="i-ca26e1afe50064ae-3" n="6025b8b2">
+          <u who="eric_karlsson_f71251" xml:id="i-7672dc4bd2f4a076-13" prev="i-7672dc4bd2f4a076-12" n="6025b8b2">
             <seg n="17db1629">
               pel är teoretiskt, det har ingen praktisk betydelse.
             </seg>
@@ -3616,7 +3687,7 @@
           <note type="speaker" n="4ce371b3">
             Herr ERNULF (fp):
           </note>
-          <u who="gudmund_ernulf_024ccb" xml:id="i-1bc6789749415f36-0" n="0837d66a">
+          <u who="gudmund_ernulf_024ccb" xml:id="i-0837d66a41feebba-2" n="0837d66a">
             <seg n="c8c88cff">
               Herr talman! Först vill jag säga att vi som stöder reservationen
               naturligtvis anser att propositionen är ett steg i rätt riktning.
@@ -3649,7 +3720,7 @@
           <note type="speaker" n="1dad61e6">
             Herr ANDERSSON, AXEL, (fp):
           </note>
-          <u who="sven_andersson_09f258" xml:id="i-2db72736b72ca364-2" next="i-1a6769f936593352-2" n="6b52270f">
+          <u who="sven_andersson_09f258" xml:id="i-41b6edbb768810de-4" next="i-41b6edbb768810de-5" n="6b52270f">
             <seg n="5b9f78b7">
               Herr talman! Herr Göran Karlsson påstod att den lucka i lagen
               som jag påvisat inte har någon betydelse. Han kunde inte tänka
@@ -3658,10 +3729,10 @@
             </seg>
           </u>
           <pb n="36" facs="https://betalab.kb.se/prot-1969-höst-fk--42/prot_1969_höst_fk__42-036.jp2/_view"/>
-          <note n="853e2c1d">
+          <note type="date" n="a97ec606">
             Torsdagen den 11 december 1969
           </note>
-          <u who="sven_andersson_09f258" xml:id="i-1a6769f936593352-2" prev="i-2db72736b72ca364-2" n="6b52270f">
+          <u who="sven_andersson_09f258" xml:id="i-41b6edbb768810de-5" prev="i-41b6edbb768810de-4" n="6b52270f">
             <seg n="38277ada">
               Herr Göran Karlsson kan ju fråga den fru i Göteborg som jag nämnde,
               som hade fått en Saab inregistrerad i sitt namn, om vad hon tänkte
@@ -3693,7 +3764,7 @@
           <note type="speaker" n="c8e97e6f">
             Herr statsrådet NORLING:
           </note>
-          <u who="unknown" xml:id="i-ebd7be5e9a02a379-3" n="4a60ec9c">
+          <u who="unknown" xml:id="i-4a60ec9c5da226c3-7" n="4a60ec9c">
             <seg n="5cdef7e2">
               Herr talman! Den fråga som här diskuteras, d.v.s. huruvida man
               skulle göra undantag från propositionens huvudsakliga innehåll
@@ -3711,7 +3782,7 @@
           <note n="0bbdcb6a">
             Ang. ägaransvaret vid parkeringsförseelser
           </note>
-          <u who="unknown" xml:id="i-c4d974fc8fdce923-3" n="4a60ec9c">
+          <u who="unknown" xml:id="i-4a60ec9c5da226c3-8" n="4a60ec9c">
             <seg n="582dfe00">
               Vi skall alltså ha klart för oss att vi rör oss inom ett relativt
               stort område — vi har de som bara har sin egen bil att ta ansvar
@@ -3722,7 +3793,7 @@
           <note type="speaker" n="67074a4a">
             Herr KARLSSON, GÖRAN, (s):
           </note>
-          <u who="eric_karlsson_f71251" xml:id="i-40677cc76308511e-0" n="6025b8b2">
+          <u who="eric_karlsson_f71251" xml:id="i-7672dc4bd2f4a076-14" n="6025b8b2">
             <seg n="f2b02ab2">
               Herr talman! Till herr Axel Andersson vill jag säga att den fråga
               han tagit upp ligger helt vid sidan om den sak vi diskuterar.
@@ -3764,7 +3835,7 @@
           <note type="speaker" n="4ce371b3">
             Herr ERNULF (fp):
           </note>
-          <u who="gudmund_ernulf_024ccb" xml:id="i-9901ac57d5e1a762-1" next="i-26f73d47662bea68-1" n="0837d66a">
+          <u who="gudmund_ernulf_024ccb" xml:id="i-0837d66a41feebba-3" next="i-0837d66a41feebba-9" n="0837d66a">
             <seg n="a4a156f2">
               Herr talman! Herr Göran Karlssons uttalande att propositionens
               förslag garanterar att böterna betalas är i och för sig riktigt;
@@ -3802,35 +3873,13 @@
               olä-
             </seg>
           </u>
-          <note n="853e2c1d">
+          <note type="date" n="a97ec606">
             Torsdagen den 11 december 1969
           </note>
-          <u who="gudmund_ernulf_024ccb" xml:id="i-26f73d47662bea68-1" prev="i-9901ac57d5e1a762-1" n="0837d66a">
+          <u who="gudmund_ernulf_024ccb" xml:id="i-0837d66a41feebba-4" prev="i-0837d66a41feebba-3" n="0837d66a">
             <seg n="88282e5c">
               genheterna blir påtagliga. Då hade man kunnat hoppas på att felet
               skulle kunna rättas till, om inte nu så dock nästa år.
-            </seg>
-            <seg n="fad037ff">
-              Ja;
-            </seg>
-            <seg n="dafb71f8">
-              Nej;
-            </seg>
-            <seg n="69dd6040">
-              att enligt hans uppfattning flertalet röstat för ja-propositionen.
-            </seg>
-            <seg n="0f56d9a9">
-              nagivit, att de avstode från att rösta.
-            </seg>
-            <seg n="8362fcd2"/>
-            <seg n="973940ed">
-              Herr Olsson, Johan, (cp) anmälde, att han vid den nu företagna
-              voteringen avsett att rösta nej men av misstag nedtryckt ja-knappen.
-            </seg>
-            <seg n="737506f7">
-              skyldighet i fråga om lägenhet som innehades på grund av upplåtelse
-              av andelsrätt i bostadsförening eller bolag som dreves utan eget
-              vinstintresse.
             </seg>
           </u>
           <note n="306c6449">
@@ -3863,9 +3912,19 @@
             Den, som bifaller vad tredje lagutskottet hemställt i sitt utlåtande
             nr 61 punkten B, röstar
           </note>
+          <u who="gudmund_ernulf_024ccb" xml:id="i-0837d66a41feebba-5" prev="i-0837d66a41feebba-3" n="0837d66a">
+            <seg n="fad037ff">
+              Ja;
+            </seg>
+          </u>
           <note n="65a6288f">
             Den, det ej vill, röstar
           </note>
+          <u who="gudmund_ernulf_024ccb" xml:id="i-0837d66a41feebba-6" prev="i-0837d66a41feebba-3" n="0837d66a">
+            <seg n="dafb71f8">
+              Nej;
+            </seg>
+          </u>
           <note n="339812b3">
             Vinner Nej, antages det förslag, som innefattas i den vid punkten
             avgivna reservationen.
@@ -3876,9 +3935,14 @@
             Herr förste vice talmannen förklarade,
           </note>
           <pb n="38" facs="https://betalab.kb.se/prot-1969-höst-fk--42/prot_1969_höst_fk__42-038.jp2/_view"/>
-          <note n="853e2c1d">
+          <note type="date" n="a97ec606">
             Torsdagen den 11 december 1969
           </note>
+          <u who="gudmund_ernulf_024ccb" xml:id="i-0837d66a41feebba-7" prev="i-0837d66a41feebba-3" n="0837d66a">
+            <seg n="69dd6040">
+              att enligt hans uppfattning flertalet röstat för ja-propositionen.
+            </seg>
+          </u>
           <note n="36a87750">
             Då emellertid herr Skårman begärde rösträkning, verkställdes
             nu votering medelst omröstningsapparat; och befunnos vid omröstningens
@@ -3890,6 +3954,16 @@
           <note n="6ab9d418">
             Därjämte hade 6 ledamöter tillkän-
           </note>
+          <u who="gudmund_ernulf_024ccb" xml:id="i-0837d66a41feebba-8" prev="i-0837d66a41feebba-3" n="0837d66a">
+            <seg n="0f56d9a9">
+              nagivit, att de avstode från att rösta.
+            </seg>
+            <seg n="8362fcd2"/>
+            <seg n="973940ed">
+              Herr Olsson, Johan, (cp) anmälde, att han vid den nu företagna
+              voteringen avsett att rösta nej men av misstag nedtryckt ja-knappen.
+            </seg>
+          </u>
           <note n="f76ce758">
             Sedermera bifölls på gjord proposition vad utskottet hemställt
             i punkterna C och D.
@@ -3925,6 +3999,13 @@
           <note n="465b354b">
             Ang. hyresvärds reparationsskyldighet
           </note>
+          <u who="gudmund_ernulf_024ccb" xml:id="i-0837d66a41feebba-9" prev="i-0837d66a41feebba-3" n="0837d66a">
+            <seg n="737506f7">
+              skyldighet i fråga om lägenhet som innehades på grund av upplåtelse
+              av andelsrätt i bostadsförening eller bolag som dreves utan eget
+              vinstintresse.
+            </seg>
+          </u>
           <note n="76acb65d">
             I samband med propositionen hade utskottet behandlat en i anledning
             av propositionen väckt motion, nämligen motionen II: 1298, av
@@ -3943,7 +4024,7 @@
           <note type="speaker" n="abc62cf0">
             Herr HANSSON (ss):
           </note>
-          <u who="tage_hansson_0df7d3" xml:id="i-9dcd2c54e06386c8-0" next="i-2c3e0d604f36787c-0" n="a47f3037"/>
+          <u who="tage_hansson_0df7d3" xml:id="i-b0b8d4f4f4432de1-0" next="i-b0b8d4f4f4432de1-4" n="a47f3037"/>
           <note n="bd1b3f51">
             Herr talman! Till tredje lagutskottets utlåtande nr 62 är fogat
             ett särskilt yttrande, som har avgivits av herr Svenning i andra
@@ -3951,7 +4032,7 @@
             i andra kammaren av herrar Lindkvist och Svenning, vari tas upp
             vissa synpunkter på reparationsfrågorna is. k. bostadsföreningar.
           </note>
-          <u who="tage_hansson_0df7d3" xml:id="i-2c3e0d604f36787c-0" prev="i-9dcd2c54e06386c8-0" n="a47f3037">
+          <u who="tage_hansson_0df7d3" xml:id="i-b0b8d4f4f4432de1-1" prev="i-b0b8d4f4f4432de1-0" n="a47f3037">
             <seg n="bfa5acea">
               Motionen och det särskilda yttrandet trycker på det onödiga i
               att så här snabbt efter hyreslagens reformering komma med ändringar
@@ -3967,6 +4048,19 @@
               enligt vår uppfattning är litet för diffus. Reparationsfrågorna
               när det gäller bostadsföreningarna borde rimligen alltjämt
             </seg>
+          </u>
+          <pb n="39" facs="https://betalab.kb.se/prot-1969-höst-fk--42/prot_1969_höst_fk__42-039.jp2/_view"/>
+          <note n="0ec64098">
+            40 Nr 42
+          </note>
+          <note type="date" n="a97ec606">
+            Torsdagen den 11 december 1969
+          </note>
+          <note n="5ce7c27a">
+            Ang. rätt för kommun att övertaga tillstånd till linjetrafik
+            med buss
+          </note>
+          <u who="tage_hansson_0df7d3" xml:id="i-b0b8d4f4f4432de1-2" prev="i-b0b8d4f4f4432de1-0" n="a47f3037">
             <seg n="13385090">
               behandlas på samma sätt som beträffande hyresförhållanden.
             </seg>
@@ -3979,42 +4073,7 @@
               att denna ändring är onödig och vi vill, som sagt, trycka på att
               man bör undvika prejudicerande fall.
             </seg>
-            <seg n="382a7125">
-              m.m. Kommun avsåges därmed få särskild rätt att övertaga tillstånd
-              till linjetrafik med buss. Enligt förslaget skulle trafiktillstånd
-              kunna återkallas och i stället meddelas kommunen när den gjorde
-              sannolikt, att trafikförsörjningen i orten eller bygden främjades
-              om trafiken utövades av kommunen, Bifölles kommunens ansökan vore
-              kommunen skyldig att på begäran av den förre tillståndshavaren
-              lösa in tillgångar som använts i rörelsen eller i vissa fall rörelsen
-              som sådan. Frågan om villkoren vid inlösen skulle avgöras av en
-              särskild värderingsnämnd, gemensam för hela landet. Talan mot
-              nämndens beslut skulle icke få föras. Samma rätt att övertaga
-              trafiktillstånd skulle tillkomma landstingskommun, kommunalförbund
-              och kommunalt trafikföretag. En motsvarande företrädesrätt skulle
-              gälla vid nyetablering.
-            </seg>
-            <seg n="24e6350c">
-              dels att i skrivelse till Kungl. Maj:t hemställa om skyndsam
-              utredning — med beaktande av i denna motion redovisade synpunkter
-              — om tillskapande av en särskild lagstiftning som gåve det allmänna
-              som huvudman för den kollektiva lokaltrafiken legala möjligheter
-              att snabbt och på rimliga villkor förvärva eller inlösa kollektivtrafikföretag
-              av betydelse för en ändamålsenlig, samhällsekonomisk samordning,
-              utbyggnad och drift av ett kollektivt trafiksystem i en region,
-            </seg>
           </u>
-          <pb n="39" facs="https://betalab.kb.se/prot-1969-höst-fk--42/prot_1969_höst_fk__42-039.jp2/_view"/>
-          <note n="0ec64098">
-            40 Nr 42
-          </note>
-          <note n="853e2c1d">
-            Torsdagen den 11 december 1969
-          </note>
-          <note n="5ce7c27a">
-            Ang. rätt för kommun att övertaga tillstånd till linjetrafik
-            med buss
-          </note>
           <note n="87191c70">
             Efter härmed slutad överläggning bifölls vad utskottet i förevarande
             utlåtande hemställt.
@@ -4050,6 +4109,23 @@
             I propositionen hade föreslagits ändring av bland annat 19 8
             förordningen angående yrkesmässig automobiltrafik
           </note>
+          <u who="tage_hansson_0df7d3" xml:id="i-b0b8d4f4f4432de1-3" prev="i-b0b8d4f4f4432de1-0" n="a47f3037">
+            <seg n="382a7125">
+              m.m. Kommun avsåges därmed få särskild rätt att övertaga tillstånd
+              till linjetrafik med buss. Enligt förslaget skulle trafiktillstånd
+              kunna återkallas och i stället meddelas kommunen när den gjorde
+              sannolikt, att trafikförsörjningen i orten eller bygden främjades
+              om trafiken utövades av kommunen, Bifölles kommunens ansökan vore
+              kommunen skyldig att på begäran av den förre tillståndshavaren
+              lösa in tillgångar som använts i rörelsen eller i vissa fall rörelsen
+              som sådan. Frågan om villkoren vid inlösen skulle avgöras av en
+              särskild värderingsnämnd, gemensam för hela landet. Talan mot
+              nämndens beslut skulle icke få föras. Samma rätt att övertaga
+              trafiktillstånd skulle tillkomma landstingskommun, kommunalförbund
+              och kommunalt trafikföretag. En motsvarande företrädesrätt skulle
+              gälla vid nyetablering.
+            </seg>
+          </u>
           <note n="c10ff3e2">
             I samband med propositionen hade utskottet behandlat följande
             i anledning av propositionen väckta motioner, nämligen
@@ -4077,7 +4153,7 @@
             yrkats, att riksdagen
           </note>
           <pb n="40" facs="https://betalab.kb.se/prot-1969-höst-fk--42/prot_1969_höst_fk__42-040.jp2/_view"/>
-          <note n="853e2c1d">
+          <note type="date" n="a97ec606">
             Torsdagen den 11 december 1969
           </note>
           <note n="f42a9632">
@@ -4100,6 +4176,17 @@
             I: 347, av herr Berglund, i vilken anhållits, att riksdagen måtte
             besluta,
           </note>
+          <u who="tage_hansson_0df7d3" xml:id="i-b0b8d4f4f4432de1-4" prev="i-b0b8d4f4f4432de1-0" n="a47f3037">
+            <seg n="24e6350c">
+              dels att i skrivelse till Kungl. Maj:t hemställa om skyndsam
+              utredning — med beaktande av i denna motion redovisade synpunkter
+              — om tillskapande av en särskild lagstiftning som gåve det allmänna
+              som huvudman för den kollektiva lokaltrafiken legala möjligheter
+              att snabbt och på rimliga villkor förvärva eller inlösa kollektivtrafikföretag
+              av betydelse för en ändamålsenlig, samhällsekonomisk samordning,
+              utbyggnad och drift av ett kollektivt trafiksystem i en region,
+            </seg>
+          </u>
           <note n="c6c7d2ab">
             dels ock samtidigt i skrivelsen till Kungl. Maj:t hemställa om
             statens järnvägars aktiva medverkan till ändamålsenliga lösningar
@@ -4184,7 +4271,7 @@
           <note n="9e16817d">
             42 Nr 42
           </note>
-          <note n="853e2c1d">
+          <note type="date" n="a97ec606">
             Torsdagen den 11 december 1969
           </note>
           <note n="5ce7c27a">
@@ -4200,7 +4287,7 @@
           <note type="speaker" n="861efe11">
             Herr ÅKESSON (fp):
           </note>
-          <u who="sten_akesson_0f09e3" xml:id="i-d2a25757a140cd8a-0" n="74e5f96e">
+          <u who="sten_akesson_0f09e3" xml:id="i-74e5f96e1c057238-0" n="74e5f96e">
             <seg n="07a26e3b">
               Herr talman! Den proposition som tredje lagutskottet har behandlat
               går ut på att kollektiv busstrafik i vissa fall skall kunna övertagas
@@ -4257,7 +4344,7 @@
           <note type="speaker" n="0736e7c3">
             Herr OHLSSON, EBBE, (m):
           </note>
-          <u who="lilly_ohlsson_55dc5a" xml:id="i-20ce748087924c5a-0" next="i-6f4c5818e1e1d1bb-0" n="02eb051a">
+          <u who="lilly_ohlsson_55dc5a" xml:id="i-02eb051a644cc2fe-0" next="i-02eb051a644cc2fe-2" n="02eb051a">
             <seg n="eac7c239">
               Herr talman! Litet var börjar vi väl bli betänksamma över alla
               stora åtaganden som våra kommuner, ej enbart de större, under
@@ -4282,7 +4369,7 @@
             </seg>
           </u>
           <pb n="42" facs="https://betalab.kb.se/prot-1969-höst-fk--42/prot_1969_höst_fk__42-042.jp2/_view"/>
-          <note n="853e2c1d">
+          <note type="date" n="a97ec606">
             Torsdagen den 11 december 1969
           </note>
           <note n="e5fe62ad">
@@ -4292,11 +4379,17 @@
             Ang. rätt för kommun att övertaga tillstånd till linjetrafik
             med buss
           </note>
-          <u who="lilly_ohlsson_55dc5a" xml:id="i-6f4c5818e1e1d1bb-0" prev="i-20ce748087924c5a-0" n="02eb051a">
+          <u who="lilly_ohlsson_55dc5a" xml:id="i-02eb051a644cc2fe-1" prev="i-02eb051a644cc2fe-0" n="02eb051a">
             <seg n="d529f1ea">
               någon talan mot nämndens beslut inte får föras. Nämnden blir
               alltså både första och sista instans.
             </seg>
+          </u>
+          <note n="cc4ceed0">
+            Tredje lagutskottets majoritet har accepterat förslaget i propositionen
+            och hemställer om riksdagens bifall till denna.
+          </note>
+          <u who="lilly_ohlsson_55dc5a" xml:id="i-02eb051a644cc2fe-2" prev="i-02eb051a644cc2fe-0" n="02eb051a">
             <seg n="55f3d5ea">
               I en reservation som har fogats till detta ärende yrkas avslag
               på Kungl. Maj:ts proposition. På åtskilliga håll kommer förslaget
@@ -4340,10 +4433,6 @@
               hasard med skattemedel.
             </seg>
           </u>
-          <note n="cc4ceed0">
-            Tredje lagutskottets majoritet har accepterat förslaget i propositionen
-            och hemställer om riksdagens bifall till denna.
-          </note>
           <note n="904a4183">
             Herr talman! Med stöd av det anförda yrkar jag bifall till reservationen
             vid A i utskottets hemställan.
@@ -4351,7 +4440,7 @@
           <note type="speaker" n="3cded702">
             Herr STRANDBERG (m):
           </note>
-          <u who="bertil_strandberg_62a622" xml:id="i-be31c29b6bf3cdfb-0" next="i-5543cbc1ad9f5138-0" n="d87f609c">
+          <u who="bertil_strandberg_62a622" xml:id="i-d87f609cdae97771-0" next="i-d87f609cdae97771-1" n="d87f609c">
             <seg n="1c1db416">
               Herr talman! Frågan om kollektivtrafikens ordnande är självfallet
               ett stort problem för många av våra kommuner, inte minst våra
@@ -4388,14 +4477,14 @@
           <note n="1e3e8a67">
             44 Nr 42
           </note>
-          <note n="853e2c1d">
+          <note type="date" n="a97ec606">
             Torsdagen den 11 december 1969
           </note>
           <note n="5ce7c27a">
             Ang. rätt för kommun att övertaga tillstånd till linjetrafik
             med buss
           </note>
-          <u who="bertil_strandberg_62a622" xml:id="i-5543cbc1ad9f5138-0" prev="i-be31c29b6bf3cdfb-0" n="d87f609c">
+          <u who="bertil_strandberg_62a622" xml:id="i-d87f609cdae97771-1" prev="i-d87f609cdae97771-0" n="d87f609c">
             <seg n="11b71867">
               kommunen, landstingskommunen eller företaget företräde framför
               annan sökande.”
@@ -4459,7 +4548,7 @@
           <note type="speaker" n="1736e6f0">
             Herr SKÅRMAN (fp):
           </note>
-          <u who="bo_skarman_a312f9" xml:id="i-73f776fb384022d0-0" n="78453043">
+          <u who="bo_skarman_a312f9" xml:id="i-7845304390ef5829-11" n="78453043">
             <seg n="d2c20720">
               Herr talman! Jag skall be att få yrka bifall till reservation
               II.
@@ -4482,7 +4571,7 @@
           <note type="speaker" n="1c397c89">
             Herr JACOBSSON, GÖSTA, (m):
           </note>
-          <u who="per_jacobsson_ec04b2" xml:id="i-a6dcd7fe49266b17-1" next="i-5491dae9c9c7327e-1" n="87a78ab3">
+          <u who="per_jacobsson_ec04b2" xml:id="i-87a78ab329981000-2" next="i-87a78ab329981000-3" n="87a78ab3">
             <seg n="ee66090b">
               Herr talman! Jag kan inte underlåta att något spinna vidare på
               herr Strandbergs synpunkter och liksom han opponera mig mot vad
@@ -4491,7 +4580,7 @@
             </seg>
           </u>
           <pb n="44" facs="https://betalab.kb.se/prot-1969-höst-fk--42/prot_1969_höst_fk__42-044.jp2/_view"/>
-          <note n="853e2c1d">
+          <note type="date" n="a97ec606">
             Torsdagen den 11 december 1969
           </note>
           <note n="357e1adb">
@@ -4504,7 +4593,7 @@
           <note n="947c02a0">
             tillståndshavare genom den föreslagna ordalydelsen av lagtexten.
           </note>
-          <u who="per_jacobsson_ec04b2" xml:id="i-5491dae9c9c7327e-1" prev="i-a6dcd7fe49266b17-1" n="87a78ab3">
+          <u who="per_jacobsson_ec04b2" xml:id="i-87a78ab329981000-3" prev="i-87a78ab329981000-2" n="87a78ab3">
             <seg n="d3349329">
               Enligt förslaget skall ett givet trafiktillstånd kunna återkallas
               och i stället meddelas kommunen, när kommunen gör sannolikt att
@@ -4542,7 +4631,7 @@
           <note type="speaker" n="2f6d872c">
             Herr BERGLUND (s):
           </note>
-          <u who="frida_berglund_51a087" xml:id="i-9f96b1d2b97331d0-0" next="i-8ea8977b09275cab-0" n="2216aa9e">
+          <u who="frida_berglund_51a087" xml:id="i-8e61ae68164065b0-0" next="i-8e61ae68164065b0-8" n="2216aa9e">
             <seg n="207b1727">
               Herr talman! Den kollektiva trafikens ordnande utgör ju ett mycket
               viktigt led i den nutida samhällsplaneringen.
@@ -4593,14 +4682,14 @@
           <note n="08f2563a">
             46 Nr 42
           </note>
-          <note n="853e2c1d">
+          <note type="date" n="a97ec606">
             Torsdagen den 11 december 1969
           </note>
           <note n="5ce7c27a">
             Ang. rätt för kommun att övertaga tillstånd till linjetrafik
             med buss
           </note>
-          <u who="frida_berglund_51a087" xml:id="i-8ea8977b09275cab-0" prev="i-9f96b1d2b97331d0-0" n="2216aa9e">
+          <u who="frida_berglund_51a087" xml:id="i-8e61ae68164065b0-1" prev="i-8e61ae68164065b0-0" n="2216aa9e">
             <seg n="54f46f57">
               ler att balansera förhållandet mellan kollektivtrafiken och =
               privatbilismen. Detta kräver mycket stora investeringar i vägoch
@@ -4677,6 +4766,19 @@
               av de enskilda bussföretagen inom regionen blev en komplicerad
               och långvarig affär, som i vissa fall medförde mycket höga kostnader
             </seg>
+          </u>
+          <pb n="46" facs="https://betalab.kb.se/prot-1969-höst-fk--42/prot_1969_höst_fk__42-046.jp2/_view"/>
+          <note type="date" n="a97ec606">
+            Torsdagen den 11 december 1969
+          </note>
+          <note n="b0166417">
+            Nr 42 47
+          </note>
+          <note n="5ce7c27a">
+            Ang. rätt för kommun att övertaga tillstånd till linjetrafik
+            med buss
+          </note>
+          <u who="frida_berglund_51a087" xml:id="i-8e61ae68164065b0-2" prev="i-8e61ae68164065b0-0" n="2216aa9e">
             <seg n="140dae4d">
               för det allmänna. Före övertagandet av busstrafikrörelserna var
               det heller inte möjligt att åstadkomma någon samordning av trafiken
@@ -4720,6 +4822,18 @@
               därför även gälla landstingskommun och kommunalförbund. Också
               kommunalt trafikföretag bör inbegripas.
             </seg>
+          </u>
+          <note n="096dbaf1">
+            Enligt den föreliggande propositionen med förslag till ändringar
+            av förordningen om yrkesmässig biltrafik avses kommun, landstingskommun
+            eller kommunalt trafikföretag få särskild rätt att överta tillstånd
+            till linjetrafik med buss. En motsvarande företrädesrätt för kommun,
+            landstingskommun eller kommunalt trafikföretag skall gälla vid
+            nyetablering. Genom de i propositionen föreslagna ändringarna
+            av förordningen torde samhällets intresse på detta område kunna
+            tillgodoses.
+          </note>
+          <u who="frida_berglund_51a087" xml:id="i-8e61ae68164065b0-3" prev="i-8e61ae68164065b0-0" n="2216aa9e">
             <seg n="ce3efd1e">
               Utskottets majoritet har, i likhet med flertalet remissinstanser
               och departementschefen och i överensstämmelse med en uppfattning
@@ -4736,6 +4850,27 @@
               skall enligt förslaget prövas i den ordning och enligt de grunder
               som Kungl. Maj:t bestämmer.
             </seg>
+          </u>
+          <note n="8b518178">
+            Utskottsmajoriteten har inte något att erinra mot detaljutformningen
+            av författningsförslaget och biträder även förslaget om inrättande
+            från den 1 januari 1970 av en värderingsnämnd i hu-
+          </note>
+          <pb n="47" facs="https://betalab.kb.se/prot-1969-höst-fk--42/prot_1969_höst_fk__42-047.jp2/_view"/>
+          <note n="fb3b2184">
+            48 Nr 42
+          </note>
+          <note type="date" n="a97ec606">
+            Torsdagen den 11 december 1969
+          </note>
+          <note n="5ce7c27a">
+            Ang. rätt för kommun att övertaga tillstånd till linjetrafik
+            med buss
+          </note>
+          <note n="c6e2cd0b">
+            vudsaklig överensstämmelse med vad departementschefen anfört.
+          </note>
+          <u who="frida_berglund_51a087" xml:id="i-8e61ae68164065b0-4" prev="i-8e61ae68164065b0-0" n="2216aa9e">
             <seg n="fb09f0a2">
               I fråga om den centrala värderingsnämnd som skall inrättas och
               beträffande värderingen av trafikföretag eller tillgångar i trafikföretag
@@ -4797,6 +4932,33 @@
               några erinringar mot värderingsprinciperna eller skäl att medge
               talerätt mot nämndens beslut.
             </seg>
+          </u>
+          <note n="9c44b97f">
+            I motion I: 1121 av herr Strandberg m. fl. samt i motion I :1122
+            av herrar Åkesson och Ottosson yrkas ”avslag på propositionen”.
+            I motionerna ifrågasätter man om det är lämpligt att stimulera
+            kommunerna att mera aktivt engagera sig i busstrafiken. I varje
+            fall anser motionärerna att resultatet av pågående utredningar
+            på trafikområdet bör avvaktas innan författningsändringar genomförs.
+          </note>
+          <note n="f7a94f68">
+            I utskottet har herrar Åkesson, Ebbe Ohlsson och Krönmark anfört
+            reservation och yrkat bifall till ovannämnda motioner och avstyrkande
+            av propositionen nr 155 samt avslag på förslaget om inrättande
+            av en värderingsnämnd.
+          </note>
+          <pb n="48" facs="https://betalab.kb.se/prot-1969-höst-fk--42/prot_1969_höst_fk__42-048.jp2/_view"/>
+          <note type="date" n="a97ec606">
+            Torsdagen den 11 december 1969
+          </note>
+          <note n="f55c6e92">
+            Nr 42 49
+          </note>
+          <note n="5ce7c27a">
+            Ang. rätt för kommun att övertaga tillstånd till linjetrafik
+            med buss
+          </note>
+          <u who="frida_berglund_51a087" xml:id="i-8e61ae68164065b0-5" prev="i-8e61ae68164065b0-0" n="2216aa9e">
             <seg n="7d96572e">
               I anledning härav vill jag framhålla att utskottets majoritet
               av skäl som jag tidigare redovisat funnit det påkallat att omedelbart
@@ -4823,12 +4985,31 @@
               av det kommunala engagemanget i den kollektiva trafiken bestämmes
               helt av kommunerna själva.
             </seg>
+          </u>
+          <note n="27cdd849">
+            I motionen I: 1120 av herr Bengtson m. fl. framhåller motionärerna
+            att det framgått av remissvaren på departementspromemorian i ärendet
+            att det råder stor uppslutning kring behovet av trafikförsörjningsplanering.
+            Man föreslår i motionen att riksdagen skall hos Kungl. Maj:t anhålla
+            att bestämmelser utfärdas, innebärande dels att såväl regionala
+            transportförsörjningsplaner skall upprättas genom länsstyrelsernas
+            försorg enligt i motionen angivna grun-
+          </note>
+          <u who="frida_berglund_51a087" xml:id="i-8e61ae68164065b0-6" prev="i-8e61ae68164065b0-0" n="2216aa9e">
             <seg n="00b3bb3c">
               der, dels att förluster som uppkommer genom tillgodoseende av
               kravet på tillfredsställande transportförsörjning i glesbygderna
               skall bäras av staten. Vidare föreslås i motionen att värderingsnämndens
               beslut skall kunna överklagas hos Kungl. Maj:t.
             </seg>
+          </u>
+          <note n="91feb5a9">
+            I utskottet har herrar Nils-Eric Gustafsson, Skårman, Tobé och
+            Josefson i Arrie anfört reservation och yrkat bifall till motionen,
+            såvitt avser frågan om rätt att föra talan mot den särskilda värderingsnämndens
+            beslut.
+          </note>
+          <u who="frida_berglund_51a087" xml:id="i-8e61ae68164065b0-7" prev="i-8e61ae68164065b0-0" n="2216aa9e">
             <seg n="ee3991cf">
               I anledning av motionen I:1120 av herr Bengtson m.fl. och ovannämnda
               utskottsreservation vill jag framhålla följande. Enligt propositionen
@@ -4855,6 +5036,19 @@
               därom. Något behov för riksdagen att hos Kungl. Maj:t anhålla
               om utfärdande av närma-
             </seg>
+          </u>
+          <pb n="49" facs="https://betalab.kb.se/prot-1969-höst-fk--42/prot_1969_höst_fk__42-049.jp2/_view"/>
+          <note n="6c3c7a6b">
+            50 Nr 42
+          </note>
+          <note type="date" n="a97ec606">
+            Torsdagen den 11 december 1969
+          </note>
+          <note n="5ce7c27a">
+            Ang. rätt för kommun att övertaga tillstånd till linjetrafik
+            med buss
+          </note>
+          <u who="frida_berglund_51a087" xml:id="i-8e61ae68164065b0-8" prev="i-8e61ae68164065b0-0" n="2216aa9e">
             <seg n="6a01fb1f">
               re bestämmelser torde således inte föreligga.
             </seg>
@@ -4909,101 +5103,10 @@
               utskottets hemställan i detta ärende.
             </seg>
           </u>
-          <pb n="46" facs="https://betalab.kb.se/prot-1969-höst-fk--42/prot_1969_höst_fk__42-046.jp2/_view"/>
-          <note n="853e2c1d">
-            Torsdagen den 11 december 1969
-          </note>
-          <note n="b0166417">
-            Nr 42 47
-          </note>
-          <note n="5ce7c27a">
-            Ang. rätt för kommun att övertaga tillstånd till linjetrafik
-            med buss
-          </note>
-          <note n="096dbaf1">
-            Enligt den föreliggande propositionen med förslag till ändringar
-            av förordningen om yrkesmässig biltrafik avses kommun, landstingskommun
-            eller kommunalt trafikföretag få särskild rätt att överta tillstånd
-            till linjetrafik med buss. En motsvarande företrädesrätt för kommun,
-            landstingskommun eller kommunalt trafikföretag skall gälla vid
-            nyetablering. Genom de i propositionen föreslagna ändringarna
-            av förordningen torde samhällets intresse på detta område kunna
-            tillgodoses.
-          </note>
-          <note n="8b518178">
-            Utskottsmajoriteten har inte något att erinra mot detaljutformningen
-            av författningsförslaget och biträder även förslaget om inrättande
-            från den 1 januari 1970 av en värderingsnämnd i hu-
-          </note>
-          <pb n="47" facs="https://betalab.kb.se/prot-1969-höst-fk--42/prot_1969_höst_fk__42-047.jp2/_view"/>
-          <note n="fb3b2184">
-            48 Nr 42
-          </note>
-          <note n="853e2c1d">
-            Torsdagen den 11 december 1969
-          </note>
-          <note n="5ce7c27a">
-            Ang. rätt för kommun att övertaga tillstånd till linjetrafik
-            med buss
-          </note>
-          <note n="c6e2cd0b">
-            vudsaklig överensstämmelse med vad departementschefen anfört.
-          </note>
-          <note n="9c44b97f">
-            I motion I: 1121 av herr Strandberg m. fl. samt i motion I :1122
-            av herrar Åkesson och Ottosson yrkas ”avslag på propositionen”.
-            I motionerna ifrågasätter man om det är lämpligt att stimulera
-            kommunerna att mera aktivt engagera sig i busstrafiken. I varje
-            fall anser motionärerna att resultatet av pågående utredningar
-            på trafikområdet bör avvaktas innan författningsändringar genomförs.
-          </note>
-          <note n="f7a94f68">
-            I utskottet har herrar Åkesson, Ebbe Ohlsson och Krönmark anfört
-            reservation och yrkat bifall till ovannämnda motioner och avstyrkande
-            av propositionen nr 155 samt avslag på förslaget om inrättande
-            av en värderingsnämnd.
-          </note>
-          <pb n="48" facs="https://betalab.kb.se/prot-1969-höst-fk--42/prot_1969_höst_fk__42-048.jp2/_view"/>
-          <note n="853e2c1d">
-            Torsdagen den 11 december 1969
-          </note>
-          <note n="f55c6e92">
-            Nr 42 49
-          </note>
-          <note n="5ce7c27a">
-            Ang. rätt för kommun att övertaga tillstånd till linjetrafik
-            med buss
-          </note>
-          <note n="27cdd849">
-            I motionen I: 1120 av herr Bengtson m. fl. framhåller motionärerna
-            att det framgått av remissvaren på departementspromemorian i ärendet
-            att det råder stor uppslutning kring behovet av trafikförsörjningsplanering.
-            Man föreslår i motionen att riksdagen skall hos Kungl. Maj:t anhålla
-            att bestämmelser utfärdas, innebärande dels att såväl regionala
-            transportförsörjningsplaner skall upprättas genom länsstyrelsernas
-            försorg enligt i motionen angivna grun-
-          </note>
-          <note n="91feb5a9">
-            I utskottet har herrar Nils-Eric Gustafsson, Skårman, Tobé och
-            Josefson i Arrie anfört reservation och yrkat bifall till motionen,
-            såvitt avser frågan om rätt att föra talan mot den särskilda värderingsnämndens
-            beslut.
-          </note>
-          <pb n="49" facs="https://betalab.kb.se/prot-1969-höst-fk--42/prot_1969_höst_fk__42-049.jp2/_view"/>
-          <note n="6c3c7a6b">
-            50 Nr 42
-          </note>
-          <note n="853e2c1d">
-            Torsdagen den 11 december 1969
-          </note>
-          <note n="5ce7c27a">
-            Ang. rätt för kommun att övertaga tillstånd till linjetrafik
-            med buss
-          </note>
           <note type="speaker" n="3cded702">
             Herr STRANDBERG (m):
           </note>
-          <u who="bertil_strandberg_62a622" xml:id="i-be31c29b6bf3cdfb-1" next="i-5543cbc1ad9f5138-1" n="d87f609c">
+          <u who="bertil_strandberg_62a622" xml:id="i-d87f609cdae97771-2" next="i-d87f609cdae97771-3" n="d87f609c">
             <seg n="9abed108">
               Herr talman! Jag är tvungen att begära ordet igen, ty jag fick
               aldrig något svar på de frågor jag ställde till kommunikationsministern.
@@ -5029,7 +5132,7 @@
             </seg>
           </u>
           <pb n="50" facs="https://betalab.kb.se/prot-1969-höst-fk--42/prot_1969_höst_fk__42-050.jp2/_view"/>
-          <note n="853e2c1d">
+          <note type="date" n="a97ec606">
             Torsdagen den 11 december 1969
           </note>
           <note n="e995426e">
@@ -5039,7 +5142,7 @@
             Ang. rätt för kommun att övertaga tillstånd till linjetrafik
             med buss
           </note>
-          <u who="bertil_strandberg_62a622" xml:id="i-5543cbc1ad9f5138-1" prev="i-be31c29b6bf3cdfb-1" n="d87f609c">
+          <u who="bertil_strandberg_62a622" xml:id="i-d87f609cdae97771-3" prev="i-d87f609cdae97771-2" n="d87f609c">
             <seg n="58166ecf">
               kostnad? Ja, nog är det ganska många, såvitt jag förstår.
             </seg>
@@ -5106,7 +5209,7 @@
           <note type="speaker" n="c8e97e6f">
             Herr statsrådet NORLING:
           </note>
-          <u who="unknown" xml:id="i-ebd7be5e9a02a379-4" n="4a60ec9c">
+          <u who="unknown" xml:id="i-4a60ec9c5da226c3-9" n="4a60ec9c">
             <seg n="12ad5b97">
               Herr talman! Jag trodde inte att det skulle vara nödvändigt för
               mig att ta till orda efter det anförande herr Berglund höll såsom
@@ -5128,14 +5231,14 @@
           <note n="c188f88b">
             52 Nr 42
           </note>
-          <note n="853e2c1d">
+          <note type="date" n="a97ec606">
             Torsdagen den 11 december 1969
           </note>
           <note n="5ce7c27a">
             Ang. rätt för kommun att övertaga tillstånd till linjetrafik
             med buss
           </note>
-          <u who="unknown" xml:id="i-c4d974fc8fdce923-4" n="4a60ec9c">
+          <u who="unknown" xml:id="i-4a60ec9c5da226c3-10" n="4a60ec9c">
             <seg n="1e41f8f8">
               skall kunna hindras eller avsevärt försvåras av koncessioner
               som kan ha beviljats under förhållanden som inte kan jämföras
@@ -5210,6 +5313,19 @@
               Om det i en kommun finns seriöst arbetande bussföretag av privat
               karaktär, som är ekonomiskt väl skötta och
             </seg>
+          </u>
+          <pb n="52" facs="https://betalab.kb.se/prot-1969-höst-fk--42/prot_1969_höst_fk__42-052.jp2/_view"/>
+          <note type="date" n="a97ec606">
+            Torsdagen den 11 december 1969
+          </note>
+          <note n="dded26e2">
+            Nr 42 53
+          </note>
+          <note n="5ce7c27a">
+            Ang. rätt för kommun att övertaga tillstånd till linjetrafik
+            med buss
+          </note>
+          <u who="unknown" xml:id="i-4a60ec9c5da226c3-11" n="4a60ec9c">
             <seg n="45ef5102">
               som är beredda att samarbeta med kommunen om ett för allmänheten
               tillfredsställande trafiksystem och som även i andra aktuella
@@ -5252,6 +5368,11 @@
               som anser det erforderligt att få ett bättre trafiksystem, startar
               kollektivtrafik med hänsyn till den
             </seg>
+          </u>
+          <note n="f9e96a63">
+            4 Första kammarens protokoll 1969. Nr 42
+          </note>
+          <u who="unknown" xml:id="i-4a60ec9c5da226c3-12" n="4a60ec9c">
             <seg n="01acdf40">
               kollektiva trafikförsörjningen och taxesättningen. Det är mot
               den lösliga lagtexten jag vänder mig.
@@ -5294,6 +5415,19 @@
               kommuner. Jag vet inte om alla kommunalmän är experter på att
               bedöma trafik-
             </seg>
+          </u>
+          <pb n="53" facs="https://betalab.kb.se/prot-1969-höst-fk--42/prot_1969_höst_fk__42-053.jp2/_view"/>
+          <note n="401b2ba2">
+            54 Nr 42
+          </note>
+          <note type="date" n="a97ec606">
+            Torsdagen den 11 december 1969
+          </note>
+          <note n="5ce7c27a">
+            Ang. rätt för kommun att övertaga tillstånd till linjetrafik
+            med buss
+          </note>
+          <u who="unknown" xml:id="i-4a60ec9c5da226c3-13" n="4a60ec9c">
             <seg n="96b755f7">
               frågor. Men låt oss säga att båda parter kan sköta det hela lika
               bra, så slipper vi slåss på den punkten.
@@ -5337,35 +5471,10 @@
               som han ställde till mig.
             </seg>
           </u>
-          <pb n="52" facs="https://betalab.kb.se/prot-1969-höst-fk--42/prot_1969_höst_fk__42-052.jp2/_view"/>
-          <note n="853e2c1d">
-            Torsdagen den 11 december 1969
-          </note>
-          <note n="dded26e2">
-            Nr 42 53
-          </note>
-          <note n="5ce7c27a">
-            Ang. rätt för kommun att övertaga tillstånd till linjetrafik
-            med buss
-          </note>
-          <note n="f9e96a63">
-            4 Första kammarens protokoll 1969. Nr 42
-          </note>
-          <pb n="53" facs="https://betalab.kb.se/prot-1969-höst-fk--42/prot_1969_höst_fk__42-053.jp2/_view"/>
-          <note n="401b2ba2">
-            54 Nr 42
-          </note>
-          <note n="853e2c1d">
-            Torsdagen den 11 december 1969
-          </note>
-          <note n="5ce7c27a">
-            Ang. rätt för kommun att övertaga tillstånd till linjetrafik
-            med buss
-          </note>
           <note type="speaker" n="c8e97e6f">
             Herr statsrådet NORLING:
           </note>
-          <u who="unknown" xml:id="i-bff3c82b187c1acc-1" n="4a60ec9c">
+          <u who="unknown" xml:id="i-4a60ec9c5da226c3-14" n="4a60ec9c">
             <seg n="3aec2a80">
               Herr talman! Herr Strandberg förordar nu att vi skall behålla
               den möjlighet som finns i 198, nämligen den som funnits sedan
@@ -5380,7 +5489,7 @@
           <note type="speaker" n="04029ce1">
             Herr talman:
           </note>
-          <u who="unknown" xml:id="i-bff3c82b187c1acc-2" n="4a60ec9c">
+          <u who="unknown" xml:id="i-4a60ec9c5da226c3-15" n="4a60ec9c">
             <seg n="0895f451">
               Jag skulle bara vilja ge en replik angående värderingsnämnden.
             </seg>
@@ -5400,7 +5509,7 @@
           <note type="speaker" n="2f6d872c">
             Herr BERGLUND (s):
           </note>
-          <u who="frida_berglund_51a087" xml:id="i-9f96b1d2b97331d0-1" next="i-8ea8977b09275cab-1" n="2216aa9e">
+          <u who="frida_berglund_51a087" xml:id="i-8e61ae68164065b0-9" next="i-8e61ae68164065b0-15" n="2216aa9e">
             <seg n="fbc89880">
               Herr talman! Jag skall fatta mig kort och bara belysa några punkter.
             </seg>
@@ -5413,7 +5522,7 @@
             </seg>
           </u>
           <pb n="54" facs="https://betalab.kb.se/prot-1969-höst-fk--42/prot_1969_höst_fk__42-054.jp2/_view"/>
-          <note n="853e2c1d">
+          <note type="date" n="a97ec606">
             Torsdagen den 11 december 1969
           </note>
           <note n="b41e125a">
@@ -5423,7 +5532,7 @@
             Ang. rätt för kommun att övertaga tillstånd till linjetrafik
             med buss
           </note>
-          <u who="frida_berglund_51a087" xml:id="i-8ea8977b09275cab-1" prev="i-9f96b1d2b97331d0-1" n="2216aa9e">
+          <u who="frida_berglund_51a087" xml:id="i-8e61ae68164065b0-10" prev="i-8e61ae68164065b0-9" n="2216aa9e">
             <seg n="cf572526">
               holmsproblem. Man har detta trafikproblem i ett flertal regioner,
               och man kommer att få det inom 20 år i alla tätorter med över
@@ -5460,19 +5569,6 @@
               Jag hoppas att jag slipper höra den motiveringen vidare, ty de
               som bor i denna region är lika goda medborgare som alla andra.
             </seg>
-            <seg n="fad037ff">
-              Ja;
-            </seg>
-            <seg n="dafb71f8">
-              Nej;
-            </seg>
-            <seg n="fad037ff">
-              Ja;
-            </seg>
-            <seg n="dafb71f8">
-              Nej;
-            </seg>
-            <seg n="8362fcd2"/>
           </u>
           <note n="d97e3bce">
             Efter det överläggningen förklarats härmed slutad, yttrade herr
@@ -5499,9 +5595,19 @@
             Den, som bifaller vad tredje lagutskottet hemställt i sitt utlåtande
             nr 63 punkten A, röstar
           </note>
+          <u who="frida_berglund_51a087" xml:id="i-8e61ae68164065b0-11" prev="i-8e61ae68164065b0-9" n="2216aa9e">
+            <seg n="fad037ff">
+              Ja;
+            </seg>
+          </u>
           <note n="65a6288f">
             Den, det ej vill, röstar
           </note>
+          <u who="frida_berglund_51a087" xml:id="i-8e61ae68164065b0-12" prev="i-8e61ae68164065b0-9" n="2216aa9e">
+            <seg n="dafb71f8">
+              Nej;
+            </seg>
+          </u>
           <note n="339812b3">
             Vinner Nej, antages det förslag, som innefattas i den vid punkten
             avgivna reservationen.
@@ -5524,7 +5630,7 @@
           <note n="83dad209">
             56 Nr 42
           </note>
-          <note n="853e2c1d">
+          <note type="date" n="a97ec606">
             Torsdagen den 11 december 1969
           </note>
           <note n="5ce7c27a">
@@ -5552,9 +5658,19 @@
             Den, som bifaller vad tredje lagutskottet hemställt i sitt utlåtande
             nr 63 punkten B, röstar
           </note>
+          <u who="frida_berglund_51a087" xml:id="i-8e61ae68164065b0-13" prev="i-8e61ae68164065b0-9" n="2216aa9e">
+            <seg n="fad037ff">
+              Ja;
+            </seg>
+          </u>
           <note n="65a6288f">
             Den, det ej vill, röstar
           </note>
+          <u who="frida_berglund_51a087" xml:id="i-8e61ae68164065b0-14" prev="i-8e61ae68164065b0-9" n="2216aa9e">
+            <seg n="dafb71f8">
+              Nej;
+            </seg>
+          </u>
           <note n="339812b3">
             Vinner Nej, antages det förslag, som innefattas i den vid punkten
             avgivna reservationen.
@@ -5586,10 +5702,11 @@
             med förslag till fastighetsbildningslag, bifölls vad utskottet
             i detta memorial hemställt.
           </note>
+          <u who="frida_berglund_51a087" xml:id="i-8e61ae68164065b0-15" prev="i-8e61ae68164065b0-9" n="2216aa9e"/>
           <note type="speaker" n="6acb8caa">
             Herr TALMANNEN yttrade:
           </note>
-          <u who="unknown" xml:id="i-ebd7be5e9a02a379-5" n="4a60ec9c"/>
+          <u who="unknown" xml:id="i-4a60ec9c5da226c3-16" n="4a60ec9c"/>
           <note n="977fa969">
             Sedan riksdagens vårsession 1970 grundlagsenligt börjat med sammanträde
             lördagen den 10 januari äger det högtidliga öppnandet rum tisdagen
@@ -5638,7 +5755,7 @@
             till jordhävdslag m. m. jämte motioner i ämnet;
           </note>
           <pb n="56" facs="https://betalab.kb.se/prot-1969-höst-fk--42/prot_1969_höst_fk__42-056.jp2/_view"/>
-          <note n="853e2c1d">
+          <note type="date" n="a97ec606">
             Torsdagen den 11 december 1969
           </note>
           <note n="f679a47c">
@@ -5693,7 +5810,7 @@
           <note n="08deaaed">
             Meddelande ang. enkel fråga
           </note>
-          <u who="unknown" xml:id="i-c4d974fc8fdce923-5" n="4a60ec9c">
+          <u who="unknown" xml:id="i-4a60ec9c5da226c3-17" n="4a60ec9c">
             <seg n="93c8f09f">
               Meddelades, att jämlikt 8 20 i kammarens ordningsstadga följande
               enkla fråga denna dag framställts av herr Pettersson, Axel Georg,
@@ -5703,9 +5820,109 @@
               till följd av inskränkningar i rätten att resa på militärbiljett
               under vissa dagar?»
             </seg>
+          </u>
+          <note n="6ff2fc5c">
+            Justerades protokollsutdrag för denna dag, varefter kammarens
+            sammanträde avslutades kl. 15.22.
+          </note>
+          <note n="57c39303">
+            In fidem K.-G. Lindelöw /Solveig Gemert
+          </note>
+          <note n="8fc0737e">
+            KK
+          </note>
+          <pb n="57" facs="https://betalab.kb.se/prot-1969-höst-fk--42/prot_1969_höst_fk__42-057.jp2/_view"/>
+          <note n="5fadfd6b">
+            58 Nr 42
+          </note>
+          <note type="date" n="c5f463de">
+            Fredagen den 12 december 1969
+          </note>
+          <note type="date" n="c5ae0067">
+            Fredagen den 12 december
+          </note>
+          <note n="6cc4c83a">
+            Kammaren sammanträdde kl. 14.00.
+          </note>
+          <note n="1c390ffa">
+            Justerades protokollet för den 4 innevarande månad.
+          </note>
+          <note n="37fa2cee">
+            Upplästes följande till kammaren inkomna ansökning:
+          </note>
+          <note n="4a35c5fc">
+            Till riksdagens första kammare
+          </note>
+          <note n="b9b21d1c">
+            Undertecknad anhåller härmed om ledighet, därest riksdagen fortfarande
+            pågår onsdagen den 17 och torsdagen den 18 december, med anledning
+            av deltagande vid tunnelbaneinvigning i Bryssel nämnda dagar.
+          </note>
+          <note n="aed91e67">
+            Stockholm den 11 december 1969 Helge Berglund
+          </note>
+          <u who="unknown" xml:id="i-4a60ec9c5da226c3-18" n="4a60ec9c">
             <seg n="3e9eb1d7">
               Den begärda ledigheten beviljades.
             </seg>
+          </u>
+          <note n="b0d7d134">
+            Anmäldes och godkändes första lagutskottets förslag till riksdagens
+            skrivelser till Konungen:
+          </note>
+          <note n="cb637984">
+            nr 389, i anledning av Kungl. Maj:ts proposition med förslag
+            till lag om ändring i rättegångsbalken m. m.;
+          </note>
+          <note n="85580a48">
+            nr 390, i anledning av Kungl. Maj:ts proposition med förslag
+            till lag om ändring i lagen (1904:26 s. 1) om vissa internationella
+            rättsförhållanden rörande äktenskap, förmynderskap och adoption,
+            m. m.;
+          </note>
+          <note n="8f5a7c33">
+            nr 391, i anledning av Kungl. Maj:ts proposition med förslag
+            till lag om ändring i lagen (1919:367) om fri rättegång; och
+          </note>
+          <note n="a06d3c21">
+            nr 396, i anledning av Kungl. Maj:ts proposition med förslag
+            till lag om ändring i lagen (1929:77) om trafikförsäkring å motorfordon.
+          </note>
+          <note n="42ee0e02">
+            Anmäldes och godkändes bevillningsutskottets förslag till riksdagens
+            skrivelser till Konungen:
+          </note>
+          <note n="285e24ee">
+            nr 397, med anledning av Kungl. Maj:ts proposition med förslag
+            till lag om ändring i förordningen (1923:116) angående skatt för
+            hundar jämte motioner;
+          </note>
+          <note n="81fd7e99">
+            nr 398, med anledning av Kungl. Maj:ts proposition med förslag
+            rörande beredskapslagring av olja, såvitt propositionen hänvisats
+            till bevillningsutskottet, jämte motioner;
+          </note>
+          <note n="efd6a5d1">
+            nr 399, med anledning av Kungl. Maj:ts proposition med förslag
+            till lag om rätt att vid inkomsttaxering erhålla avdrag för belopp
+            som tillförts Stiftelsen Petroleumindustriens Beredskapsfond,
+            m. m.;
+          </note>
+          <note n="c8032cf3">
+            nr 400, med anledning av Kungl. Maj:ts proposition med förslag
+            till lag om avdrag vid inkomsttaxeringen för bidrag till Oljeprospektering
+            aktiebolag, m. m.; ävensom
+          </note>
+          <note n="5728f778">
+            nr 401, med anledning av Kungl. Maj:ts proposition angående godkännande
+            av tilläggsavtal rörande ändring i det i Ottawa den 6 april 1951
+            undertecknade avtalet mellan Sverige och Canada för undvikande
+            av dubbelbeskattning samt fastställande av bestämmelser angående
+            ömsesidig handräckning i fråga om inkomstskatter, i dess ändrade
+            lydelse enligt det tilläggsavtal som undertecknats i Stockholm
+            den 21 januari 1966.
+          </note>
+          <u who="unknown" xml:id="i-4a60ec9c5da226c3-19" n="4a60ec9c">
             <seg n="9d407936">
               Om åtgärder för att minska risken för olyckor vid skjutning med
               artilleripjäser
@@ -5714,6 +5931,15 @@
               Herr statsrådet och chefen för försvarsdepartementet ANDERSSON,
               som
             </seg>
+          </u>
+          <pb n="58" facs="https://betalab.kb.se/prot-1969-höst-fk--42/prot_1969_höst_fk__42-058.jp2/_view"/>
+          <note type="date" n="c5f463de">
+            Fredagen den 12 december 1969
+          </note>
+          <note n="a4c70fe0">
+            Nr 42 59
+          </note>
+          <u who="unknown" xml:id="i-4a60ec9c5da226c3-20" n="4a60ec9c">
             <seg n="9d407936">
               Om åtgärder för att minska risken för olyckor vid skjutning med
               artilleripjäser
@@ -5808,6 +6034,15 @@
               Till sist har herr Pettersson också frågat mig om jag är beredd
               att inför
             </seg>
+          </u>
+          <pb n="59" facs="https://betalab.kb.se/prot-1969-höst-fk--42/prot_1969_höst_fk__42-059.jp2/_view"/>
+          <note n="0db5e47a">
+            60 Nr 42
+          </note>
+          <note type="date" n="c5f463de">
+            Fredagen den 12 december 1969
+          </note>
+          <u who="unknown" xml:id="i-4a60ec9c5da226c3-21" n="4a60ec9c">
             <seg n="9d407936">
               Om åtgärder för att minska risken för olyckor vid skjutning med
               artilleripjäser
@@ -5830,120 +6065,10 @@
               resultaten.
             </seg>
           </u>
-          <note n="6ff2fc5c">
-            Justerades protokollsutdrag för denna dag, varefter kammarens
-            sammanträde avslutades kl. 15.22.
-          </note>
-          <note n="57c39303">
-            In fidem K.-G. Lindelöw /Solveig Gemert
-          </note>
-          <note n="8fc0737e">
-            KK
-          </note>
-          <pb n="57" facs="https://betalab.kb.se/prot-1969-höst-fk--42/prot_1969_höst_fk__42-057.jp2/_view"/>
-          <note n="5fadfd6b">
-            58 Nr 42
-          </note>
-          <note n="e7caec44">
-            Fredagen den 12 december 1969
-          </note>
-          <note type="date" n="c5ae0067">
-            Fredagen den 12 december
-          </note>
-          <note n="6cc4c83a">
-            Kammaren sammanträdde kl. 14.00.
-          </note>
-          <note n="1c390ffa">
-            Justerades protokollet för den 4 innevarande månad.
-          </note>
-          <note n="37fa2cee">
-            Upplästes följande till kammaren inkomna ansökning:
-          </note>
-          <note n="4a35c5fc">
-            Till riksdagens första kammare
-          </note>
-          <note n="b9b21d1c">
-            Undertecknad anhåller härmed om ledighet, därest riksdagen fortfarande
-            pågår onsdagen den 17 och torsdagen den 18 december, med anledning
-            av deltagande vid tunnelbaneinvigning i Bryssel nämnda dagar.
-          </note>
-          <note n="aed91e67">
-            Stockholm den 11 december 1969 Helge Berglund
-          </note>
-          <note n="b0d7d134">
-            Anmäldes och godkändes första lagutskottets förslag till riksdagens
-            skrivelser till Konungen:
-          </note>
-          <note n="cb637984">
-            nr 389, i anledning av Kungl. Maj:ts proposition med förslag
-            till lag om ändring i rättegångsbalken m. m.;
-          </note>
-          <note n="85580a48">
-            nr 390, i anledning av Kungl. Maj:ts proposition med förslag
-            till lag om ändring i lagen (1904:26 s. 1) om vissa internationella
-            rättsförhållanden rörande äktenskap, förmynderskap och adoption,
-            m. m.;
-          </note>
-          <note n="8f5a7c33">
-            nr 391, i anledning av Kungl. Maj:ts proposition med förslag
-            till lag om ändring i lagen (1919:367) om fri rättegång; och
-          </note>
-          <note n="a06d3c21">
-            nr 396, i anledning av Kungl. Maj:ts proposition med förslag
-            till lag om ändring i lagen (1929:77) om trafikförsäkring å motorfordon.
-          </note>
-          <note n="42ee0e02">
-            Anmäldes och godkändes bevillningsutskottets förslag till riksdagens
-            skrivelser till Konungen:
-          </note>
-          <note n="285e24ee">
-            nr 397, med anledning av Kungl. Maj:ts proposition med förslag
-            till lag om ändring i förordningen (1923:116) angående skatt för
-            hundar jämte motioner;
-          </note>
-          <note n="81fd7e99">
-            nr 398, med anledning av Kungl. Maj:ts proposition med förslag
-            rörande beredskapslagring av olja, såvitt propositionen hänvisats
-            till bevillningsutskottet, jämte motioner;
-          </note>
-          <note n="efd6a5d1">
-            nr 399, med anledning av Kungl. Maj:ts proposition med förslag
-            till lag om rätt att vid inkomsttaxering erhålla avdrag för belopp
-            som tillförts Stiftelsen Petroleumindustriens Beredskapsfond,
-            m. m.;
-          </note>
-          <note n="c8032cf3">
-            nr 400, med anledning av Kungl. Maj:ts proposition med förslag
-            till lag om avdrag vid inkomsttaxeringen för bidrag till Oljeprospektering
-            aktiebolag, m. m.; ävensom
-          </note>
-          <note n="5728f778">
-            nr 401, med anledning av Kungl. Maj:ts proposition angående godkännande
-            av tilläggsavtal rörande ändring i det i Ottawa den 6 april 1951
-            undertecknade avtalet mellan Sverige och Canada för undvikande
-            av dubbelbeskattning samt fastställande av bestämmelser angående
-            ömsesidig handräckning i fråga om inkomstskatter, i dess ändrade
-            lydelse enligt det tilläggsavtal som undertecknats i Stockholm
-            den 21 januari 1966.
-          </note>
-          <pb n="58" facs="https://betalab.kb.se/prot-1969-höst-fk--42/prot_1969_höst_fk__42-058.jp2/_view"/>
-          <note n="e7caec44">
-            Fredagen den 12 december 1969
-          </note>
-          <note n="a4c70fe0">
-            Nr 42 59
-          </note>
-          <pb n="59" facs="https://betalab.kb.se/prot-1969-höst-fk--42/prot_1969_höst_fk__42-059.jp2/_view"/>
-          <note n="0db5e47a">
-            60 Nr 42
-          </note>
-          <note n="e7caec44">
-            Fredagen den 12 december 1969
-          </note>
           <note type="speaker" n="92713ba4">
             Herr PETTERSSON, KARL, (m):
           </note>
-          <u who="lennart_pettersson_2668e7" xml:id="i-cef2fbf5238c499f-0" next="i-7c51f726cd6239d6-0" n="be900bc8">
+          <u who="lennart_pettersson_2668e7" xml:id="i-6670f56f42513e8c-0" next="i-6670f56f42513e8c-1" n="be900bc8">
             <seg n="c7a9db86">
               Herr talman! Jag ber att få tacka försvarsministern för svaret
               på min interpellation angående skjutolyckor med artilleripjäser.
@@ -6013,13 +6138,13 @@
             </seg>
           </u>
           <pb n="60" facs="https://betalab.kb.se/prot-1969-höst-fk--42/prot_1969_höst_fk__42-060.jp2/_view"/>
-          <note n="e7caec44">
+          <note type="date" n="c5f463de">
             Fredagen den 12 december 1969
           </note>
           <note n="c5442716">
             Nr 42 61
           </note>
-          <u who="lennart_pettersson_2668e7" xml:id="i-7c51f726cd6239d6-0" prev="i-cef2fbf5238c499f-0" n="be900bc8">
+          <u who="lennart_pettersson_2668e7" xml:id="i-6670f56f42513e8c-1" prev="i-6670f56f42513e8c-0" n="be900bc8">
             <seg n="9d407936">
               Om åtgärder för att minska risken för olyckor vid skjutning med
               artilleripjäser
@@ -6095,7 +6220,7 @@
           <note type="speaker" n="9f500eb2">
             Herr statsrådet ANDERSSON:
           </note>
-          <u who="sven_andersson_09f258" xml:id="i-2db72736b72ca364-3" next="i-1a6769f936593352-3" n="6b52270f">
+          <u who="sven_andersson_09f258" xml:id="i-41b6edbb768810de-6" next="i-41b6edbb768810de-7" n="6b52270f">
             <seg n="75f35c49">
               Herr talman! Endast på en punkt vill jag göra ett tillägg.
             </seg>
@@ -6112,13 +6237,13 @@
           <note n="4f605344">
             62 Nr 42
           </note>
-          <note n="e7caec44">
+          <note type="date" n="c5f463de">
             Fredagen den 12 december 1969
           </note>
           <note n="786e1d15">
             Ang. sjukpenning till handikappad som genomgår arbetsvård
           </note>
-          <u who="sven_andersson_09f258" xml:id="i-1a6769f936593352-3" prev="i-2db72736b72ca364-3" n="6b52270f">
+          <u who="sven_andersson_09f258" xml:id="i-41b6edbb768810de-7" prev="i-41b6edbb768810de-6" n="6b52270f">
             <seg n="a1c24a5b">
               dersöker» kan jag i själva verket säga: överväger. Det är alldeles
               klart att om någon osäkerhetsfaktor skulle kvarstå tvingas man
@@ -6136,7 +6261,7 @@
           <note type="speaker" n="92713ba4">
             Herr PETTERSSON, KARL, (m):
           </note>
-          <u who="lennart_pettersson_2668e7" xml:id="i-b8356a6bcaf86cd8-0" n="be900bc8">
+          <u who="lennart_pettersson_2668e7" xml:id="i-6670f56f42513e8c-2" n="be900bc8">
             <seg n="537a4353">
               Herr talman! Jag tackar försvarsministern för den komplettering
               han nu gav beträffande skyddsåtgärderna. Men jag hade väl hoppats
@@ -6152,7 +6277,7 @@
           <note type="speaker" n="9f500eb2">
             Herr statsrådet ANDERSSON:
           </note>
-          <u who="sven_andersson_09f258" xml:id="i-2db72736b72ca364-4" next="i-1a6769f936593352-4" n="6b52270f">
+          <u who="sven_andersson_09f258" xml:id="i-41b6edbb768810de-8" next="i-41b6edbb768810de-10" n="6b52270f">
             <seg n="2141ca0d">
               Herr talman! Ammunitionen i fråga undersöks regelmässigt men
               enligt stickprovsmetod på statistisk grund. Det övervägs nu om
@@ -6175,7 +6300,7 @@
             angående sjukpenning till handikappad som genomgår arbetsvård,
             och nu anförde:
           </note>
-          <u who="sven_andersson_09f258" xml:id="i-1a6769f936593352-4" prev="i-2db72736b72ca364-4" n="6b52270f">
+          <u who="sven_andersson_09f258" xml:id="i-41b6edbb768810de-9" prev="i-41b6edbb768810de-8" n="6b52270f">
             <seg n="8a5a100b">
               Herr talman! Herr Österdahl har frågat mig om jag anser det tillfredsställande
               att handikappade som genomgår arbetsvård, t. ex. arbetsmarknadsutbildning,
@@ -6209,6 +6334,18 @@
               den försäkrade utan att genomgå rehabilitering få ett arbete på
               allmänna arbetsmarknaden, som ger honom minst hälften av den
             </seg>
+          </u>
+          <pb n="62" facs="https://betalab.kb.se/prot-1969-höst-fk--42/prot_1969_höst_fk__42-062.jp2/_view"/>
+          <note type="date" n="c5f463de">
+            Fredagen den 12 december 1969
+          </note>
+          <note n="de23f738">
+            Nr 42 63
+          </note>
+          <note n="786e1d15">
+            Ang. sjukpenning till handikappad som genomgår arbetsvård
+          </note>
+          <u who="sven_andersson_09f258" xml:id="i-41b6edbb768810de-10" prev="i-41b6edbb768810de-8" n="6b52270f">
             <seg n="21a4ea70">
               inkomst han hade kunnat påräkna om han varit frisk, kan hans
               arbetsförmåga inte anses så nedsatt att sjukpenning skall utgå.
@@ -6260,20 +6397,10 @@
               Något slutligt ställningstagande har ännu ej gjorts.
             </seg>
           </u>
-          <pb n="62" facs="https://betalab.kb.se/prot-1969-höst-fk--42/prot_1969_höst_fk__42-062.jp2/_view"/>
-          <note n="e7caec44">
-            Fredagen den 12 december 1969
-          </note>
-          <note n="de23f738">
-            Nr 42 63
-          </note>
-          <note n="786e1d15">
-            Ang. sjukpenning till handikappad som genomgår arbetsvård
-          </note>
           <note type="speaker" n="ebcf03f4">
             Herr ÖSTERDAHL (fp):
           </note>
-          <u who="sven-otto_osterdahl_ea96fc" xml:id="i-be4601bd3f939643-0" next="i-efbc7911a2ed02b0-0" n="31c9f279">
+          <u who="sven-otto_osterdahl_ea96fc" xml:id="i-d3a62303f6e85906-0" next="i-d3a62303f6e85906-2" n="31c9f279">
             <seg n="4afd3134">
               Herr talman! Jag tackar statsrådet för svaret på min interpellation
               och för hans utförliga redogörelse för de regler som gäller för
@@ -6306,13 +6433,13 @@
           <note n="b9ef8ae1">
             64 Nr 42
           </note>
-          <note n="e7caec44">
+          <note type="date" n="c5f463de">
             Fredagen den 12 december 1969
           </note>
           <note n="786e1d15">
             Ang. sjukpenning till handikappad som genomgår arbetsvård
           </note>
-          <u who="sven-otto_osterdahl_ea96fc" xml:id="i-efbc7911a2ed02b0-0" prev="i-be4601bd3f939643-0" n="31c9f279">
+          <u who="sven-otto_osterdahl_ea96fc" xml:id="i-d3a62303f6e85906-1" prev="i-d3a62303f6e85906-0" n="31c9f279">
             <seg n="ce41eec8">
               tera. Är statsrådet verkligen inte beredd att vidta sådana åtgärder
               som upphäver de negativa verkningarna av riksförsäkringsverkets
@@ -6387,6 +6514,18 @@
               under ett helt år utan att ta ställning och utan att kunna lämna
               nå-
             </seg>
+          </u>
+          <pb n="64" facs="https://betalab.kb.se/prot-1969-höst-fk--42/prot_1969_höst_fk__42-064.jp2/_view"/>
+          <note type="date" n="c5f463de">
+            Fredagen den 12 december 1969
+          </note>
+          <note n="69e13874">
+            Nr 42 65
+          </note>
+          <note n="786e1d15">
+            Ang. sjukpenning till handikappad som genomgår arbetsvård
+          </note>
+          <u who="sven-otto_osterdahl_ea96fc" xml:id="i-d3a62303f6e85906-2" prev="i-d3a62303f6e85906-0" n="31c9f279">
             <seg n="a74ba5b8">
               got svar på när ett slutligt ställningstagande skall äga rum?
               Statsrådet svarar över huvud taget inte på om regeringen är beredd
@@ -6401,20 +6540,10 @@
               Jag tackar än en gång statsrådet för svaret.
             </seg>
           </u>
-          <pb n="64" facs="https://betalab.kb.se/prot-1969-höst-fk--42/prot_1969_höst_fk__42-064.jp2/_view"/>
-          <note n="e7caec44">
-            Fredagen den 12 december 1969
-          </note>
-          <note n="69e13874">
-            Nr 42 65
-          </note>
-          <note n="786e1d15">
-            Ang. sjukpenning till handikappad som genomgår arbetsvård
-          </note>
           <note type="speaker" n="9f3c3f83">
             Herr statsrådet ASPLING:
           </note>
-          <u who="sven_aspling_7eedc9" xml:id="i-b2475f9807f43dfe-0" n="d1c4fd86">
+          <u who="sven_aspling_7eedc9" xml:id="i-d1c4fd8689f5a58a-0" n="d1c4fd86">
             <seg n="d52af0a1">
               Herr talman! Jag vill säga till herr Österdahl att det komplicerade
               systemet inte är ett uttryck för en målsättning — det är angeläget
@@ -6486,7 +6615,7 @@
           <note type="speaker" n="ebcf03f4">
             Herr ÖSTERDAHL (fp):
           </note>
-          <u who="sven-otto_osterdahl_ea96fc" xml:id="i-be4601bd3f939643-1" next="i-efbc7911a2ed02b0-1" n="31c9f279">
+          <u who="sven-otto_osterdahl_ea96fc" xml:id="i-d3a62303f6e85906-3" next="i-d3a62303f6e85906-4" n="31c9f279">
             <seg n="3a686be8">
               Herr talman! Jag tackar för det ytterligare svaret på min fråga.
               Det är mera tillfredsställande än det första, av vilket jag egentligen
@@ -6497,13 +6626,13 @@
           <note n="c5c99a91">
             66 Nr 42
           </note>
-          <note n="e7caec44">
+          <note type="date" n="c5f463de">
             Fredagen den 12 december 1969
           </note>
           <note n="786e1d15">
             Ang. sjukpenning till handikappad som genomgår arbetsvård
           </note>
-          <u who="sven-otto_osterdahl_ea96fc" xml:id="i-efbc7911a2ed02b0-1" prev="i-be4601bd3f939643-1" n="31c9f279">
+          <u who="sven-otto_osterdahl_ea96fc" xml:id="i-d3a62303f6e85906-4" prev="i-d3a62303f6e85906-3" n="31c9f279">
             <seg n="c3742f42">
               het om statsrådets inställning i ärendet. Nu säger statsrådet
               att läget är otillfredsställande, och det kan man på alla sätt
@@ -6570,7 +6699,7 @@
           <note type="speaker" n="9f3c3f83">
             Herr statsrådet ASPLING:
           </note>
-          <u who="sven_aspling_7eedc9" xml:id="i-f2570946a9317391-0" next="i-172ffa5162093f8b-0" n="d1c4fd86">
+          <u who="sven_aspling_7eedc9" xml:id="i-d1c4fd8689f5a58a-1" next="i-d1c4fd8689f5a58a-2" n="d1c4fd86">
             <seg n="dd9577db">
               Herr talman! Jag vill endast göra ett kort tillägg.
             </seg>
@@ -6596,7 +6725,7 @@
             ärenden
           </note>
           <pb n="66" facs="https://betalab.kb.se/prot-1969-höst-fk--42/prot_1969_höst_fk__42-066.jp2/_view"/>
-          <note n="e7caec44">
+          <note type="date" n="c5f463de">
             Fredagen den 12 december 1969
           </note>
           <note n="1f28dd4a">
@@ -6749,7 +6878,7 @@
             andra lagutskottets utlåtande nr 89, i anledning av Kungl. Maj:ts
             proposi-
           </note>
-          <note n="e7caec44">
+          <note type="date" n="c5f463de">
             Fredagen den 12 december 1969
           </note>
           <note n="16f6dfcb">
@@ -6762,7 +6891,7 @@
           <note n="5ad962ca">
             Då förhandlingarna kl. 15.15 återupptogos, yttrade herr TALMANNEN:
           </note>
-          <u who="sven_aspling_7eedc9" xml:id="i-172ffa5162093f8b-0" prev="i-f2570946a9317391-0" n="d1c4fd86">
+          <u who="sven_aspling_7eedc9" xml:id="i-d1c4fd8689f5a58a-2" prev="i-d1c4fd8689f5a58a-1" n="d1c4fd86">
             <seg n="2d8ac349">
               Jag ber att få meddela att andra kammarens debatt, där statsrådet
               är upptagen, enligt uppgift kommer att pågå ännu en timme, och

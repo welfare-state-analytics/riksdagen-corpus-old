@@ -20,7 +20,7 @@
     <encodingDesc>
       <editorialDecl>
         <correction>
-          <p>Some data curation was done. It is documented in db/curation/instances</p>
+          <p>Some data curation was done. It is documented in input/curation/instances</p>
         </correction>
       </editorialDecl>
     </encodingDesc>
@@ -59,6 +59,7 @@
       </front>
       <body>
         <div>
+          <pb n="0" facs="https://betalab.kb.se/prot-1961-höst-fk--32/prot_1961_höst_fk__32-000.jp2/_view"/>
           <note n="36918bf5">
             RIKSDAGENS PROTOKOLL
           </note>
@@ -217,7 +218,7 @@
             36
           </note>
           <pb n="2" facs="https://betalab.kb.se/prot-1961-höst-fk--32/prot_1961_höst_fk__32-002.jp2/_view"/>
-          <note n="c39ba75d">
+          <note type="date" n="79910747">
             Fredagen den 24 november 1961
           </note>
           <note n="f307f505">
@@ -342,7 +343,7 @@
           <note n="7d9faa81">
             4 Nr 32
           </note>
-          <note n="c39ba75d">
+          <note type="date" n="79910747">
             Fredagen den 24 november 1961
           </note>
           <note n="ba224bdb">
@@ -451,7 +452,7 @@
             i Drevdagen
           </note>
           <pb n="4" facs="https://betalab.kb.se/prot-1961-höst-fk--32/prot_1961_höst_fk__32-004.jp2/_view"/>
-          <note n="c39ba75d">
+          <note type="date" n="79910747">
             Fredagen den 24 november 1961
           </note>
           <note n="7a17615f">
@@ -609,7 +610,7 @@
             infördes år 1957, samtidigt som
           </note>
           <pb n="6" facs="https://betalab.kb.se/prot-1961-höst-fk--32/prot_1961_höst_fk__32-006.jp2/_view"/>
-          <note n="73653633">
+          <note type="date" n="447dd01b">
             Tisdagen den 28 november 1961
           </note>
           <note n="70a0b869">
@@ -655,7 +656,7 @@
           <note type="speaker" n="f1e28c8d">
             Herr SVENINGSSON (h):
           </note>
-          <u who="ragnar_sveningsson_beca8b" xml:id="i-4718bb7c77e6fb5b-0" next="i-65f6ca5cc6b1b7c0-0" n="91213e9c">
+          <u who="ragnar_sveningsson_beca8b" xml:id="i-91213e9cdad99ca3-0" next="i-91213e9cdad99ca3-1" n="91213e9c">
             <seg n="2b0cd867">
               Herr talman! Till statsrådet och chefen för finansdepartementet
               ber jag att få uttala mitt tack för svaret på min interpellation.
@@ -713,13 +714,13 @@
           <note n="a245d1d0">
             8 Nr 32
           </note>
-          <note n="73653633">
+          <note type="date" n="447dd01b">
             Tisdagen den 28 november 1961
           </note>
           <note n="88e0aa90">
             Ang. åtgärder mot det ökade alkoholmissbruket, m. m.
           </note>
-          <u who="ragnar_sveningsson_beca8b" xml:id="i-65f6ca5cc6b1b7c0-0" prev="i-4718bb7c77e6fb5b-0" n="91213e9c">
+          <u who="ragnar_sveningsson_beca8b" xml:id="i-91213e9cdad99ca3-1" prev="i-91213e9cdad99ca3-0" n="91213e9c">
             <seg n="036316d0">
               ler i svaret, att det från samhällets sida har vidtagits en del
               åtgärder, senast vid årets riksdag, i syfte att minska spritmissbruket,
@@ -800,7 +801,7 @@
           <note type="speaker" n="a0700e38">
             Fru SVENSON (cp):
           </note>
-          <u who="unknown" xml:id="i-d4497a18ceef6ac2-0" n="ad1cd5eb">
+          <u who="unknown" xml:id="i-ad1cd5eba717161c-0" n="ad1cd5eb">
             <seg n="d16f6ef8">
               Herr förste vice talman! Jag ber att få tacka herr statsrådet
               och chefen för finansdepartementet för den redogörelse i svaret
@@ -813,10 +814,10 @@
             </seg>
           </u>
           <pb n="8" facs="https://betalab.kb.se/prot-1961-höst-fk--32/prot_1961_höst_fk__32-008.jp2/_view"/>
-          <note n="73653633">
+          <note type="date" n="447dd01b">
             Tisdagen den 28 november 1961
           </note>
-          <u who="unknown" xml:id="i-889c6143b34f3fa2-0" n="ad1cd5eb">
+          <u who="unknown" xml:id="i-ad1cd5eba717161c-1" n="ad1cd5eb">
             <seg n="9359269f">
               Ang. åtgärder le, på bättre sätt än tillgängliga uppgifter, kunna
               bringa klarhet i vilka åtgärder samhället behöver vidta för att
@@ -859,6 +860,14 @@
               form av inköpskontroll bör införas och att denna kontroll bör
               ske genom en registrering av spritinköpen.
             </seg>
+          </u>
+          <note n="a1fc17f6">
+            Nr 32 9
+          </note>
+          <note n="aadd5f66">
+            mot det ökade alkoholmissbruket, m. m.
+          </note>
+          <u who="unknown" xml:id="i-ad1cd5eba717161c-2" n="ad1cd5eb">
             <seg n="136d2acd">
               Vad gäller alkoholreklamen har jag i en insändare sett att man
               från Vin- &amp; Spritcentralens sida avvsisar påståendet att alkoholreklam
@@ -886,16 +895,10 @@
               löfte att även framdeles medverka till åtgärder mot alkoholmissbruket.
             </seg>
           </u>
-          <note n="a1fc17f6">
-            Nr 32 9
-          </note>
-          <note n="aadd5f66">
-            mot det ökade alkoholmissbruket, m. m.
-          </note>
           <note type="speaker" n="2a31033f">
             Herr statsrådet STRÄNG:
           </note>
-          <u who="gunnar_strang_f38b12" xml:id="i-222d1c12fe255f77-0" next="i-fb0a26fd708c7682-0" n="a917e7a8">
+          <u who="gunnar_strang_f38b12" xml:id="i-a917e7a832ceac23-0" next="i-a917e7a832ceac23-3" n="a917e7a8">
             <seg n="41d0d523">
               Herr talman! De båda interpellanterna har ju i stort sett uttalat
               sin tillfredsställelse med mitt svar på interpellationerna, och
@@ -917,13 +920,13 @@
           <note n="35bec940">
             10 Nr 32
           </note>
-          <note n="73653633">
+          <note type="date" n="447dd01b">
             Tisdagen den 28 november 1961
           </note>
           <note n="88e0aa90">
             Ang. åtgärder mot det ökade alkoholmissbruket, m. m.
           </note>
-          <u who="gunnar_strang_f38b12" xml:id="i-fb0a26fd708c7682-0" prev="i-222d1c12fe255f77-0" n="a917e7a8">
+          <u who="gunnar_strang_f38b12" xml:id="i-a917e7a832ceac23-1" prev="i-a917e7a832ceac23-0" n="a917e7a8">
             <seg n="3c322be9">
               spritpriset skall vara något slags sakrosankt pris för allt vad
               prishöjningar heter. Det finns ju en gammal regel som säger att
@@ -1007,6 +1010,18 @@
               Jag tror inte att konsumtionen på restaurangerna spelar någon
               avgörande
             </seg>
+          </u>
+          <pb n="10" facs="https://betalab.kb.se/prot-1961-höst-fk--32/prot_1961_höst_fk__32-010.jp2/_view"/>
+          <note type="date" n="447dd01b">
+            Tisdagen den 28 november 1961
+          </note>
+          <note n="89499fce">
+            Nr 32 11
+          </note>
+          <note n="88e0aa90">
+            Ang. åtgärder mot det ökade alkoholmissbruket, m. m.
+          </note>
+          <u who="gunnar_strang_f38b12" xml:id="i-a917e7a832ceac23-2" prev="i-a917e7a832ceac23-0" n="a917e7a8">
             <seg n="011c2cee">
               roll. Sedan motbokstiden har ju spritutskänkningen på restaurangerna
               gått ned radikalt, på ett alldeles överraskande sätt, men det
@@ -1084,6 +1099,18 @@
               hos inköparna. Men man kan aldrig komma till rätta med de relativt
               vardagliga inköpare, som tar så
             </seg>
+          </u>
+          <pb n="11" facs="https://betalab.kb.se/prot-1961-höst-fk--32/prot_1961_höst_fk__32-011.jp2/_view"/>
+          <note n="52763b3d">
+            12 Nr 32
+          </note>
+          <note type="date" n="447dd01b">
+            Tisdagen den 28 november 1961
+          </note>
+          <note n="88e0aa90">
+            Ang. åtgärder mot det ökade alkoholmissbruket, m. m.
+          </note>
+          <u who="gunnar_strang_f38b12" xml:id="i-a917e7a832ceac23-3" prev="i-a917e7a832ceac23-0" n="a917e7a8">
             <seg n="8a1d9124">
               pass samvetslöst på spritfrågan, att de finner med sin heder
               förenligt att sälja sprit vidare till ungdomar.
@@ -1148,30 +1175,10 @@
               till stånd.
             </seg>
           </u>
-          <pb n="10" facs="https://betalab.kb.se/prot-1961-höst-fk--32/prot_1961_höst_fk__32-010.jp2/_view"/>
-          <note n="73653633">
-            Tisdagen den 28 november 1961
-          </note>
-          <note n="89499fce">
-            Nr 32 11
-          </note>
-          <note n="88e0aa90">
-            Ang. åtgärder mot det ökade alkoholmissbruket, m. m.
-          </note>
-          <pb n="11" facs="https://betalab.kb.se/prot-1961-höst-fk--32/prot_1961_höst_fk__32-011.jp2/_view"/>
-          <note n="52763b3d">
-            12 Nr 32
-          </note>
-          <note n="73653633">
-            Tisdagen den 28 november 1961
-          </note>
-          <note n="88e0aa90">
-            Ang. åtgärder mot det ökade alkoholmissbruket, m. m.
-          </note>
           <note type="speaker" n="72152dfe">
             Herr ELOWSSON, NILS, (s):
           </note>
-          <u who="nils_elowsson_c48876" xml:id="i-c367524af62ed581-0" next="i-d74bc53408a6d246-0" n="6b9d9033">
+          <u who="nils_elowsson_c48876" xml:id="i-6b9d90332b3a0b52-0" next="i-6b9d90332b3a0b52-4" n="6b9d9033">
             <seg n="ef2f8135">
               Herr talman! Vårt folk hör ju dessvärre till de folk i världen,
               som har mest bekymmer med alkoholen. Den som har följt vad som
@@ -1192,7 +1199,7 @@
             </seg>
           </u>
           <pb n="12" facs="https://betalab.kb.se/prot-1961-höst-fk--32/prot_1961_höst_fk__32-012.jp2/_view"/>
-          <note n="73653633">
+          <note type="date" n="447dd01b">
             Tisdagen den 28 november 1961
           </note>
           <note n="82364fee">
@@ -1201,7 +1208,7 @@
           <note n="88e0aa90">
             Ang. åtgärder mot det ökade alkoholmissbruket, m. m.
           </note>
-          <u who="nils_elowsson_c48876" xml:id="i-d74bc53408a6d246-0" prev="i-c367524af62ed581-0" n="6b9d9033">
+          <u who="nils_elowsson_c48876" xml:id="i-6b9d90332b3a0b52-1" prev="i-6b9d90332b3a0b52-0" n="6b9d9033">
             <seg n="600feab2">
               spriten i stället skulle släppas fri och att man skulle lära
               svenska folket att använda spriten under ansvar.
@@ -1286,6 +1293,18 @@
               Å andra sidan är jag på det klara med att vi måste gå mycket,
               mycket längre i fråga om alkoholisering av svenska
             </seg>
+          </u>
+          <pb n="13" facs="https://betalab.kb.se/prot-1961-höst-fk--32/prot_1961_höst_fk__32-013.jp2/_view"/>
+          <note n="b61ad0b1">
+            14 Nr 32
+          </note>
+          <note type="date" n="447dd01b">
+            Tisdagen den 28 november 1961
+          </note>
+          <note n="88e0aa90">
+            Ang. åtgärder mot det ökade alkoholmissbruket, m. m.
+          </note>
+          <u who="nils_elowsson_c48876" xml:id="i-6b9d90332b3a0b52-2" prev="i-6b9d90332b3a0b52-0" n="6b9d9033">
             <seg n="1bdfde03">
               folket, innan man inser hur allvarlig denna fråga i verkligheten
               är. Eftersom det tar mycket lång tid att utreda denna sak, vilket
@@ -1311,6 +1330,11 @@
               Jag slipper förstås att svara, men en del av er andra får kanske
               göra det!
             </seg>
+          </u>
+          <note n="571ba094">
+            Herr HANSON, PER-OLOF, (fp):
+          </note>
+          <u who="nils_elowsson_c48876" xml:id="i-6b9d90332b3a0b52-3" prev="i-6b9d90332b3a0b52-0" n="6b9d9033">
             <seg n="2832d925">
               Herr talman! Jag vill knyta några randanmärkningar till den hittills
               förda debatten, men jag vill inte ge mig in på någon längre utläggning
@@ -1369,6 +1393,18 @@
               att bestämma sig, huruvida han skulle beteckna ungdomsfylleriets
               ökning som en mycket allvarlig sak eller som en sak som väl
             </seg>
+          </u>
+          <pb n="14" facs="https://betalab.kb.se/prot-1961-höst-fk--32/prot_1961_höst_fk__32-014.jp2/_view"/>
+          <note type="date" n="447dd01b">
+            Tisdagen den 28 november 1961
+          </note>
+          <note n="ed1db9a4">
+            Nr 32 15
+          </note>
+          <note n="88e0aa90">
+            Ang. åtgärder mot det ökade alkoholmissbruket, m. m.
+          </note>
+          <u who="nils_elowsson_c48876" xml:id="i-6b9d90332b3a0b52-4" prev="i-6b9d90332b3a0b52-0" n="6b9d9033">
             <seg n="71764cc4">
               får karakteriseras närmast som ungdomligt oförstånd. Att en på
               fyrtio ungdomar omhändertas för fylleri fann finansministern inte
@@ -1394,33 +1430,10 @@
               mycket växlande framgång.
             </seg>
           </u>
-          <pb n="13" facs="https://betalab.kb.se/prot-1961-höst-fk--32/prot_1961_höst_fk__32-013.jp2/_view"/>
-          <note n="b61ad0b1">
-            14 Nr 32
-          </note>
-          <note n="73653633">
-            Tisdagen den 28 november 1961
-          </note>
-          <note n="88e0aa90">
-            Ang. åtgärder mot det ökade alkoholmissbruket, m. m.
-          </note>
-          <note n="571ba094">
-            Herr HANSON, PER-OLOF, (fp):
-          </note>
-          <pb n="14" facs="https://betalab.kb.se/prot-1961-höst-fk--32/prot_1961_höst_fk__32-014.jp2/_view"/>
-          <note n="73653633">
-            Tisdagen den 28 november 1961
-          </note>
-          <note n="ed1db9a4">
-            Nr 32 15
-          </note>
-          <note n="88e0aa90">
-            Ang. åtgärder mot det ökade alkoholmissbruket, m. m.
-          </note>
           <note type="speaker" n="f1e28c8d">
             Herr SVENINGSSON (h):
           </note>
-          <u who="ragnar_sveningsson_beca8b" xml:id="i-8c887731e9963529-0" n="91213e9c">
+          <u who="ragnar_sveningsson_beca8b" xml:id="i-91213e9cdad99ca3-2" n="91213e9c">
             <seg n="21dbc3ad">
               Herr talman! Jag begärde ordet för att säga ett par ord med anledning
               av finansministerns senaste anförande.
@@ -1471,7 +1484,7 @@
           <note type="speaker" n="7d983276">
             Herr HAGBERG (h):
           </note>
-          <u who="hilding_hagberg_e05750" xml:id="i-8d40ae457a526d95-0" next="i-a1a246775edac191-0" n="574a6740">
+          <u who="hilding_hagberg_e05750" xml:id="i-b199924ce78d3813-0" next="i-b199924ce78d3813-4" n="574a6740">
             <seg n="213a8d73">
               Herr talman! Då jag tillhörde 1944 års nykterhetskommitté och,
               så vitt jag just erinrar mig, är den ende här i kammaren, som
@@ -1488,13 +1501,13 @@
           <note n="e08e211f">
             16 Nr 32
           </note>
-          <note n="73653633">
+          <note type="date" n="447dd01b">
             Tisdagen den 28 november 1961
           </note>
           <note n="88e0aa90">
             Ang. åtgärder mot det ökade alkoholmissbruket, m. m.
           </note>
-          <u who="hilding_hagberg_e05750" xml:id="i-a1a246775edac191-0" prev="i-8d40ae457a526d95-0" n="574a6740">
+          <u who="hilding_hagberg_e05750" xml:id="i-b199924ce78d3813-1" prev="i-b199924ce78d3813-0" n="574a6740">
             <seg n="a1478e01">
               anförande. Jag tror, att jag skulle kunna våga karakterisera
               den såsom realistisk och såsom balanserad.
@@ -1576,6 +1589,12 @@
               att en stor del av de ungdomar, som har så avsevärda inkomster,
               bor i sina föräldrahem. Tyvärr be-
             </seg>
+          </u>
+          <pb n="16" facs="https://betalab.kb.se/prot-1961-höst-fk--32/prot_1961_höst_fk__32-016.jp2/_view"/>
+          <note type="date" n="447dd01b">
+            Tisdagen den 28 november 1961
+          </note>
+          <u who="hilding_hagberg_e05750" xml:id="i-b199924ce78d3813-2" prev="i-b199924ce78d3813-0" n="574a6740">
             <seg n="f0599a7c">
               Ang. åtgärder höver ju ungdomarna i regel — det vet vi alla i
               denna kammare — betala bara en bråkdel av sin inkomst till far
@@ -1616,6 +1635,17 @@
               är klart, att ungdomar kan via vinet bli intresserade av spritkonsumtion.
               Men den nackdelen får man ta;
             </seg>
+          </u>
+          <note n="d349b99b">
+            2 Första kammarens protokoll 1961. Nr 32
+          </note>
+          <note n="5f389e77">
+            Nr 32 17
+          </note>
+          <note n="aadd5f66">
+            mot det ökade alkoholmissbruket, m. m.
+          </note>
+          <u who="hilding_hagberg_e05750" xml:id="i-b199924ce78d3813-3" prev="i-b199924ce78d3813-0" n="574a6740">
             <seg n="7832c9a2">
               man får väga den mot den stora fördelen av att den överväldigande
               majoriteten av konsumenterna reagerar på det sättet, att den går
@@ -1654,6 +1684,18 @@
               är besjälad av en stark vilja att göra vad som göras kan och att
               man i detta sitt arbete bortser från tidigare ståndspunkts-
             </seg>
+          </u>
+          <pb n="17" facs="https://betalab.kb.se/prot-1961-höst-fk--32/prot_1961_höst_fk__32-017.jp2/_view"/>
+          <note n="e80071dd">
+            18 Nr 32
+          </note>
+          <note type="date" n="447dd01b">
+            Tisdagen den 28 november 1961
+          </note>
+          <note n="88e0aa90">
+            Ang. åtgärder mot det ökade alkoholmissbruket, m. m.
+          </note>
+          <u who="hilding_hagberg_e05750" xml:id="i-b199924ce78d3813-4" prev="i-b199924ce78d3813-0" n="574a6740">
             <seg n="2f295c5d">
               taganden och accepterar den tid, i vilken vi nu lever. Men riksdagen
               kan å sin sida också bidra rätt mycket härvidlag. Jag tänker på
@@ -1664,33 +1706,10 @@
               meningar, som tiden har gått förbi.
             </seg>
           </u>
-          <pb n="16" facs="https://betalab.kb.se/prot-1961-höst-fk--32/prot_1961_höst_fk__32-016.jp2/_view"/>
-          <note n="73653633">
-            Tisdagen den 28 november 1961
-          </note>
-          <note n="d349b99b">
-            2 Första kammarens protokoll 1961. Nr 32
-          </note>
-          <note n="5f389e77">
-            Nr 32 17
-          </note>
-          <note n="aadd5f66">
-            mot det ökade alkoholmissbruket, m. m.
-          </note>
-          <pb n="17" facs="https://betalab.kb.se/prot-1961-höst-fk--32/prot_1961_höst_fk__32-017.jp2/_view"/>
-          <note n="e80071dd">
-            18 Nr 32
-          </note>
-          <note n="73653633">
-            Tisdagen den 28 november 1961
-          </note>
-          <note n="88e0aa90">
-            Ang. åtgärder mot det ökade alkoholmissbruket, m. m.
-          </note>
           <note type="speaker" n="2a31033f">
             Herr statsrådet STRÄNG:
           </note>
-          <u who="gunnar_strang_f38b12" xml:id="i-222d1c12fe255f77-1" next="i-fb0a26fd708c7682-1" n="a917e7a8">
+          <u who="gunnar_strang_f38b12" xml:id="i-a917e7a832ceac23-4" next="i-a917e7a832ceac23-5" n="a917e7a8">
             <seg n="6fc07c08">
               Herr talman! Det är ett par av debattörerna här, som jag inte
               tycker har haft riktigt sinne för ordens valör. De har anklagat
@@ -1762,10 +1781,10 @@
             </seg>
           </u>
           <pb n="18" facs="https://betalab.kb.se/prot-1961-höst-fk--32/prot_1961_höst_fk__32-018.jp2/_view"/>
-          <note n="73653633">
+          <note type="date" n="447dd01b">
             Tisdagen den 28 november 1961
           </note>
-          <u who="gunnar_strang_f38b12" xml:id="i-fb0a26fd708c7682-1" prev="i-222d1c12fe255f77-1" n="a917e7a8">
+          <u who="gunnar_strang_f38b12" xml:id="i-a917e7a832ceac23-5" prev="i-a917e7a832ceac23-4" n="a917e7a8">
             <seg n="27ce3cf1">
               Ang. åtgärder repa vad jag sagt vid flera tillfällen och vad
               jag avslutade mitt första anförande med, nämligen att vi ser på
@@ -1775,7 +1794,7 @@
           <note type="speaker" n="e0ed5521">
             Herr ELOFSSON, GUSTAF, (cp):
           </note>
-          <u who="gustaf_elofsson_1079e1" xml:id="i-7afb75f86fdbbfa4-0" next="i-4b52766356c7dab8-0" n="dccecde5">
+          <u who="gustaf_elofsson_1079e1" xml:id="i-dccecde5d90e3fc9-0" next="i-dccecde5d90e3fc9-1" n="dccecde5">
             <seg n="50e9892e">
               Herr talman! Av den långa debatt som följt på interpellationssvaret
               skulle man kunna få den uppfattningen, att spritkonsumtionen har
@@ -1819,7 +1838,7 @@
           <note n="aadd5f66">
             mot det ökade alkoholmissbruket, m. m.
           </note>
-          <u who="gustaf_elofsson_1079e1" xml:id="i-4b52766356c7dab8-0" prev="i-7afb75f86fdbbfa4-0" n="dccecde5">
+          <u who="gustaf_elofsson_1079e1" xml:id="i-dccecde5d90e3fc9-1" prev="i-dccecde5d90e3fc9-0" n="dccecde5">
             <seg n="06d73e7e">
               hjälpa till att återställa ordningen något, kunde det ske genom
               att vägra att ta in dessa annonser om vin och vermouth och allt
@@ -1858,7 +1877,7 @@
           <note type="speaker" n="5e6a7b99">
             Herr NÄSSTRÖM (s):
           </note>
-          <u who="emil_nasstrom_a66c00" xml:id="i-8a4f5b57786a2bc9-0" next="i-6628b9afe9c4e899-0" n="50598dbb">
+          <u who="emil_nasstrom_a66c00" xml:id="i-50598dbb7776b681-0" next="i-50598dbb7776b681-1" n="50598dbb">
             <seg n="2031435c">
               Herr talman! Det skulle vara intressant att få läsa upp några
               valda anföranden från det tillfälle då vi slopade motboken, men
@@ -1871,13 +1890,13 @@
           <note n="c38f7815">
             20 Nr 32
           </note>
-          <note n="73653633">
+          <note type="date" n="447dd01b">
             Tisdagen den 28 november 1961
           </note>
           <note n="88e0aa90">
             Ang. åtgärder mot det ökade alkoholmissbruket, m. m.
           </note>
-          <u who="emil_nasstrom_a66c00" xml:id="i-6628b9afe9c4e899-0" prev="i-8a4f5b57786a2bc9-0" n="50598dbb">
+          <u who="emil_nasstrom_a66c00" xml:id="i-50598dbb7776b681-1" prev="i-50598dbb7776b681-0" n="50598dbb">
             <seg n="07a72628">
               var detta det enda som sattes i stället för motboken. Vi får
               väl ändå medge att det har skett upplysning under dessa år ifrån
@@ -1913,7 +1932,7 @@
           <note type="speaker" n="72152dfe">
             Herr ELOWSSON, NILS, (s):
           </note>
-          <u who="nils_elowsson_c48876" xml:id="i-c367524af62ed581-1" next="i-d74bc53408a6d246-1" n="6b9d9033">
+          <u who="nils_elowsson_c48876" xml:id="i-6b9d90332b3a0b52-5" next="i-6b9d90332b3a0b52-7" n="6b9d9033">
             <seg n="95f581ab">
               Herr talman! Jag skall inte tvista med herr finansministern om
               nyanserna i hans morgonrodnad. Det var närmast herr Hagberg som
@@ -1970,11 +1989,23 @@
           <note n="571ba094">
             Herr HANSON, PER-OLOF, (fp):
           </note>
-          <u who="nils_elowsson_c48876" xml:id="i-d74bc53408a6d246-1" prev="i-c367524af62ed581-1" n="6b9d9033">
+          <u who="nils_elowsson_c48876" xml:id="i-6b9d90332b3a0b52-6" prev="i-6b9d90332b3a0b52-5" n="6b9d9033">
             <seg n="32d3e7f7">
               Herr talman! Finansministern var inte riktigt belåten med min
               tolkning av vad han hade sagt om hur allvarligt ung-
             </seg>
+          </u>
+          <pb n="20" facs="https://betalab.kb.se/prot-1961-höst-fk--32/prot_1961_höst_fk__32-020.jp2/_view"/>
+          <note type="date" n="447dd01b">
+            Tisdagen den 28 november 1961
+          </note>
+          <note n="2f450679">
+            Nr 32 21
+          </note>
+          <note n="88e0aa90">
+            Ang. åtgärder mot det ökade alkoholmissbruket, m. m.
+          </note>
+          <u who="nils_elowsson_c48876" xml:id="i-6b9d90332b3a0b52-7" prev="i-6b9d90332b3a0b52-5" n="6b9d9033">
             <seg n="f362d31a">
               domsfylleriet är. Bakgrunden till att jag sade att finansministern
               tydligen hade litet svårt att bestämma sig för om detta var ett
@@ -2030,20 +2061,10 @@
               som jag verkligen tycker att det är mycket svårt att komma ifrån.
             </seg>
           </u>
-          <pb n="20" facs="https://betalab.kb.se/prot-1961-höst-fk--32/prot_1961_höst_fk__32-020.jp2/_view"/>
-          <note n="73653633">
-            Tisdagen den 28 november 1961
-          </note>
-          <note n="2f450679">
-            Nr 32 21
-          </note>
-          <note n="88e0aa90">
-            Ang. åtgärder mot det ökade alkoholmissbruket, m. m.
-          </note>
           <note type="speaker" n="2a31033f">
             Herr statsrådet STRÄNG:
           </note>
-          <u who="gunnar_strang_f38b12" xml:id="i-ef30e0721cd1a8f7-0" n="a917e7a8">
+          <u who="gunnar_strang_f38b12" xml:id="i-a917e7a832ceac23-6" n="a917e7a8">
             <seg n="91c19353">
               Herr talman! Jag skulle vilja ställa frågan litet enklare och
               klarare.
@@ -2074,7 +2095,7 @@
           <note n="a02a8a02">
             22 Nr 32
           </note>
-          <note n="73653633">
+          <note type="date" n="447dd01b">
             Tisdagen den 28 november 1961
           </note>
           <note n="88e0aa90">
@@ -2083,7 +2104,7 @@
           <note type="speaker" n="e8b33fd1">
             Herr JONASSON (cp):
           </note>
-          <u who="bertil_jonasson_4d58ce" xml:id="i-951cb74f2da3a40b-0" next="i-8918c44e3b774d23-0" n="a71e4b71">
+          <u who="bertil_jonasson_4d58ce" xml:id="i-a71e4b710b09cea9-0" next="i-a71e4b710b09cea9-1" n="a71e4b71">
             <seg n="8fd94bd8">
               Herr talman! Man borde inte förlänga denna debatt ytterligare,
               men jag vill understryka en synpunkt som herr Hanson snuddade
@@ -2112,7 +2133,7 @@
           <note n="571ba094">
             Herr HANSON, PER-OLOF, (fp):
           </note>
-          <u who="bertil_jonasson_4d58ce" xml:id="i-8918c44e3b774d23-0" prev="i-951cb74f2da3a40b-0" n="a71e4b71">
+          <u who="bertil_jonasson_4d58ce" xml:id="i-a71e4b710b09cea9-1" prev="i-a71e4b710b09cea9-0" n="a71e4b71">
             <seg n="94a45afb">
               Herr talman! Bara ytterligare några få ord.
             </seg>
@@ -2137,7 +2158,7 @@
           <note type="speaker" n="2a31033f">
             Herr statsrådet STRÄNG:
           </note>
-          <u who="gunnar_strang_f38b12" xml:id="i-222d1c12fe255f77-2" next="i-fb0a26fd708c7682-2" n="a917e7a8">
+          <u who="gunnar_strang_f38b12" xml:id="i-a917e7a832ceac23-7" next="i-a917e7a832ceac23-8" n="a917e7a8">
             <seg n="a938062b">
               Herr talman! Jag skall naturligtvis inte hålla på med att försöka
               få herr Hanson att säga ja eller nej, när herr Hanson nu inte
@@ -2152,7 +2173,7 @@
           <note n="571ba094">
             Herr HANSON, PER-OLOF, (fp):
           </note>
-          <u who="gunnar_strang_f38b12" xml:id="i-fb0a26fd708c7682-2" prev="i-222d1c12fe255f77-2" n="a917e7a8">
+          <u who="gunnar_strang_f38b12" xml:id="i-a917e7a832ceac23-8" prev="i-a917e7a832ceac23-7" n="a917e7a8">
             <seg n="c4156f5e">
               Herr finansminister! Det är kanske inte nödvändigt att sortera
               oss här i kammaren i den ena eller andra riktningen och sätta
@@ -2171,7 +2192,7 @@
           <note type="speaker" n="bbb90fef">
             Herr MÖLLER (s):
           </note>
-          <u who="yngve_moller_726b77" xml:id="i-f8b67e5ca923b1be-0" next="i-cad178e414172ee7-0" n="3e29f1f3">
+          <u who="yngve_moller_726b77" xml:id="i-3e29f1f32f9f6d7d-0" next="i-3e29f1f32f9f6d7d-1" n="3e29f1f3">
             <seg n="9a4a2a12">
               Herr talman! En del talare här har yttrat sig som om de vore
               beredda att kasta yxan i sjön, sedan vi nu prövat den nya nykterhetslagstiftningen
@@ -2181,7 +2202,7 @@
             </seg>
           </u>
           <pb n="22" facs="https://betalab.kb.se/prot-1961-höst-fk--32/prot_1961_höst_fk__32-022.jp2/_view"/>
-          <note n="73653633">
+          <note type="date" n="447dd01b">
             Tisdagen den 28 november 1961
           </note>
           <note n="c32be969">
@@ -2190,7 +2211,7 @@
           <note n="88e0aa90">
             Ang. åtgärder mot det ökade alkoholmissbruket, m. m.
           </note>
-          <u who="yngve_moller_726b77" xml:id="i-cad178e414172ee7-0" prev="i-f8b67e5ca923b1be-0" n="3e29f1f3">
+          <u who="yngve_moller_726b77" xml:id="i-3e29f1f32f9f6d7d-1" prev="i-3e29f1f32f9f6d7d-0" n="3e29f1f3">
             <seg n="f0a67a9c">
               sekvens som hans anförande tydde på, nämligen att vi borde införa
               spritförbud.
@@ -2254,7 +2275,7 @@
           <note type="speaker" n="ad09c487">
             Herr KAIJSER (h):
           </note>
-          <u who="rolf_kaijser_f8a29e" xml:id="i-678b41f546bff40f-0" next="i-aed915a8f21f5724-0" n="ccf0e52c">
+          <u who="rolf_kaijser_f8a29e" xml:id="i-ccf0e52cbb0a7c75-0" next="i-ccf0e52cbb0a7c75-7" n="ccf0e52c">
             <seg n="de9f5bf9">
               Herr talman! Jag vill ta till orda framför allt därför att det
               många gånger verkar som om detta enbart skulle vara en ungdomsfråga.
@@ -2284,7 +2305,7 @@
           <note n="1556f811">
             24 Nr 32
           </note>
-          <note n="73653633">
+          <note type="date" n="447dd01b">
             Tisdagen den 28 november 1961
           </note>
           <note n="a7946c25">
@@ -2292,7 +2313,7 @@
             — Interpellation om rätt till värdeminskningsavdrag å täckdikningsanläggningar
             och skogsvägar
           </note>
-          <u who="rolf_kaijser_f8a29e" xml:id="i-aed915a8f21f5724-0" prev="i-678b41f546bff40f-0" n="ccf0e52c">
+          <u who="rolf_kaijser_f8a29e" xml:id="i-ccf0e52cbb0a7c75-1" prev="i-ccf0e52cbb0a7c75-0" n="ccf0e52c">
             <seg n="7a3143dd">
               vuxna är ett allvarligt problem. Jag är därför, såsom jag har
               sagt vid olika tillfällen, angelägen om att det företas en utredning
@@ -2320,9 +2341,26 @@
               få material till en bedömning av vilken väg som skulle vara den
               rätta i framtiden.
             </seg>
+          </u>
+          <note n="0620c78d">
+            Överläggningen ansågs härmed slutad.
+          </note>
+          <note n="96f60f82">
+            Föredrogos och bordlades ånyo konstitutionsutskottets utlåtande
+            nr 18, statsutskottets utlåtanden nr 164—175, bevillningsutskottets
+            betänkanden nr 75 och 76, lagutskottens memorial nr 1, andra lagutskottets
+            utlåtanden nr 66 och 67 samt jordbruksutskottets utlåtanden nr
+            38 och 39.
+          </note>
+          <u who="rolf_kaijser_f8a29e" xml:id="i-ccf0e52cbb0a7c75-2" prev="i-ccf0e52cbb0a7c75-0" n="ccf0e52c">
             <seg n="92afbd9e">
               Interpellation om ersättning för skador å 1961 års skörd av tobak
             </seg>
+          </u>
+          <note n="69f7d237">
+            Herr ELOFSSON, GUSTAF, (cp) erhöll på begäran ordet och anförde:
+          </note>
+          <u who="rolf_kaijser_f8a29e" xml:id="i-ccf0e52cbb0a7c75-3" prev="i-ccf0e52cbb0a7c75-0" n="ccf0e52c">
             <seg n="0b7c88a9">
               Herr talman! Tobaksbladmögelangreppen på vårt lands tobaksodling
               förstör-
@@ -2351,9 +2389,23 @@
               för den stora förlust, som tobaksodlarna drabbats av under innevarande
               år?
             </seg>
+          </u>
+          <note n="7ebacb29">
+            På gjord proposition medgav kammaren, att ifrågavarande spörsmål
+            finge framställas.
+          </note>
+          <note n="8ff80d13">
+            Interpellation om rätt till värdeminsk-
+          </note>
+          <u who="rolf_kaijser_f8a29e" xml:id="i-ccf0e52cbb0a7c75-4" prev="i-ccf0e52cbb0a7c75-0" n="ccf0e52c">
             <seg n="e07019f6">
               ningsavdrag å täckdikningsanläggningar och skogsvägar
             </seg>
+          </u>
+          <note n="f2dda906">
+            Ordet lämnades på begäran till herr JONASSON (cp), som yttrade:
+          </note>
+          <u who="rolf_kaijser_f8a29e" xml:id="i-ccf0e52cbb0a7c75-5" prev="i-ccf0e52cbb0a7c75-0" n="ccf0e52c">
             <seg n="b7c7f6e9">
               Herr talman! Frågan om införande av rätt för jordbrukare till
               avdrag för värdeminskning å tillgångar av grundförbättrings natur,
@@ -2366,47 +2418,9 @@
             <seg n="40ba4110">
               Inom skattelagssakkunniga har en sär-
             </seg>
-            <seg n="8ff8fbc9">
-              Då sådana grundförbättrande åtgärder som anläggningar av täckdikning
-              och skogsvägar är av mycket stor betydelse för jordoch skogsbruket,
-              framstår det som synnerligen angeläget, att frågan om införande
-              av rätt till värdeminskningsavdrag i dessa avseenden snarast bringas
-              till sin lösning.
-            </seg>
-            <seg n="54d0a2a4">
-              Med stöd av vad jag sålunda anfört anhåller jag om kammarens
-              tillstånd att till statsrådet och chefen för finansdepartementet
-              ställa följande fråga:
-            </seg>
-            <seg n="dea69b39">
-              Det sålunda begärda tillståndet lämnades av kammaren.
-            </seg>
           </u>
-          <note n="0620c78d">
-            Överläggningen ansågs härmed slutad.
-          </note>
-          <note n="96f60f82">
-            Föredrogos och bordlades ånyo konstitutionsutskottets utlåtande
-            nr 18, statsutskottets utlåtanden nr 164—175, bevillningsutskottets
-            betänkanden nr 75 och 76, lagutskottens memorial nr 1, andra lagutskottets
-            utlåtanden nr 66 och 67 samt jordbruksutskottets utlåtanden nr
-            38 och 39.
-          </note>
-          <note n="69f7d237">
-            Herr ELOFSSON, GUSTAF, (cp) erhöll på begäran ordet och anförde:
-          </note>
-          <note n="7ebacb29">
-            På gjord proposition medgav kammaren, att ifrågavarande spörsmål
-            finge framställas.
-          </note>
-          <note n="8ff80d13">
-            Interpellation om rätt till värdeminsk-
-          </note>
-          <note n="f2dda906">
-            Ordet lämnades på begäran till herr JONASSON (cp), som yttrade:
-          </note>
           <pb n="24" facs="https://betalab.kb.se/prot-1961-höst-fk--32/prot_1961_höst_fk__32-024.jp2/_view"/>
-          <note n="73653633">
+          <note type="date" n="447dd01b">
             Tisdagen den 28 november 1961
           </note>
           <note n="674b6677">
@@ -2426,6 +2440,20 @@
             träda i kraft den 1 januari 1962 och tillämpas första gången vid
             1963 års taxering.
           </note>
+          <u who="rolf_kaijser_f8a29e" xml:id="i-ccf0e52cbb0a7c75-6" prev="i-ccf0e52cbb0a7c75-0" n="ccf0e52c">
+            <seg n="8ff8fbc9">
+              Då sådana grundförbättrande åtgärder som anläggningar av täckdikning
+              och skogsvägar är av mycket stor betydelse för jordoch skogsbruket,
+              framstår det som synnerligen angeläget, att frågan om införande
+              av rätt till värdeminskningsavdrag i dessa avseenden snarast bringas
+              till sin lösning.
+            </seg>
+            <seg n="54d0a2a4">
+              Med stöd av vad jag sålunda anfört anhåller jag om kammarens
+              tillstånd att till statsrådet och chefen för finansdepartementet
+              ställa följande fråga:
+            </seg>
+          </u>
           <note n="c1c5fdb9">
             Har herr statsrådet för avsikt att förelägga riksdagen proposition
             om rätt till värdeminskningsavdrag å täckdikningsanläggningar
@@ -2437,6 +2465,11 @@
           <note n="2092e005">
             tid, att de nya bestämmelserna kan tilllämpas vid 1963 års taxering?
           </note>
+          <u who="rolf_kaijser_f8a29e" xml:id="i-ccf0e52cbb0a7c75-7" prev="i-ccf0e52cbb0a7c75-0" n="ccf0e52c">
+            <seg n="dea69b39">
+              Det sålunda begärda tillståndet lämnades av kammaren.
+            </seg>
+          </u>
           <note n="67986a3f">
             Anmäldes och bordlades följande under sammanträdet till herr
             förste vice talmannen avlämnade motioner:
@@ -2465,7 +2498,7 @@
           <note n="cab32f4f">
             26 Nr 32
           </note>
-          <note n="6ae47d87">
+          <note type="date" n="03a70bc7">
             Onsdagen den 29 november 1961
           </note>
           <note type="date" n="0289ea60">
@@ -2568,7 +2601,7 @@
             av herr Nyberg.
           </note>
           <pb n="26" facs="https://betalab.kb.se/prot-1961-höst-fk--32/prot_1961_höst_fk__32-026.jp2/_view"/>
-          <note n="6ae47d87">
+          <note type="date" n="03a70bc7">
             Onsdagen den 29 november 1961
           </note>
           <note n="037c984a">
@@ -2580,7 +2613,7 @@
           <note type="speaker" n="ddbc167c">
             Herr HEDBLOM (fp):
           </note>
-          <u who="staffan_hedblom_aab80d" xml:id="i-2c5fcd96ad06b533-0" n="8054cd35">
+          <u who="staffan_hedblom_aab80d" xml:id="i-8054cd35ec9d61ce-0" n="8054cd35">
             <seg n="46b7e5fe">
               Herr talman! Till föreliggande utlåtande har jag tillsammans
               med några andra ledamöter i konstitutionsutskottet fogat en reservation,
@@ -2634,7 +2667,7 @@
           <note type="speaker" n="f1e28c8d">
             Herr SVENINGSSON (h):
           </note>
-          <u who="ragnar_sveningsson_beca8b" xml:id="i-4718bb7c77e6fb5b-1" next="i-65f6ca5cc6b1b7c0-1" n="91213e9c">
+          <u who="ragnar_sveningsson_beca8b" xml:id="i-91213e9cdad99ca3-3" next="i-91213e9cdad99ca3-4" n="91213e9c">
             <seg n="cc5dba54">
               Herr talman! Jag har till detta utskottsutlåtande också låtit
               anteckna en reservation, och jag vill med anledning av den säga
@@ -2674,7 +2707,7 @@
           <note n="4c4cd080">
             Ang. vissa ändringar i kommunala vallagen
           </note>
-          <u who="ragnar_sveningsson_beca8b" xml:id="i-65f6ca5cc6b1b7c0-1" prev="i-4718bb7c77e6fb5b-1" n="91213e9c">
+          <u who="ragnar_sveningsson_beca8b" xml:id="i-91213e9cdad99ca3-4" prev="i-91213e9cdad99ca3-3" n="91213e9c">
             <seg n="fe26c631">
               en hade säkert helt andra orsaker. Man måste uppmärksamma att
               antalet poströster ökade betydligt redan första gången väljarna
@@ -2715,14 +2748,14 @@
           <note type="speaker" n="b3eebcbf">
             Herr ANDERSSON, TORSTEN, (cp):
           </note>
-          <u who="thure_andersson_0df17b" xml:id="i-24b5e291ac0d572b-0" next="i-3b2cdf149a4a0bcd-0" n="1ec1a367">
+          <u who="thure_andersson_0df17b" xml:id="i-21d3aeede53803b5-0" next="i-21d3aeede53803b5-2" n="1ec1a367">
             <seg n="ff1c5105">
               Herr talman! Man kan säga att den föreliggande propositionen,
               nr 175, innehåller förslag om fem förändringar i anslutning till
               valförrättningarna.
             </seg>
           </u>
-          <note n="6ae47d87">
+          <note type="date" n="03a70bc7">
             Onsdagen den 29 november 1961
           </note>
           <note n="509360f0">
@@ -2746,7 +2779,7 @@
             väl avvägda, och dess majoritet har accepterat propositionens
             förslag.
           </note>
-          <u who="thure_andersson_0df17b" xml:id="i-3b2cdf149a4a0bcd-0" prev="i-24b5e291ac0d572b-0" n="1ec1a367">
+          <u who="thure_andersson_0df17b" xml:id="i-21d3aeede53803b5-1" prev="i-21d3aeede53803b5-0" n="1ec1a367">
             <seg n="d2381688">
               I en föreliggande reservation begärs, som här har framhållits,
               att valet skall kunna förrättas de närmaste två dagarna före valdagen.
@@ -2762,6 +2795,12 @@
               tillfälle att rösta på posten före valdagen. Det är uppenbart
               att reservationen skulle i hög
             </seg>
+          </u>
+          <pb n="28" facs="https://betalab.kb.se/prot-1961-höst-fk--32/prot_1961_höst_fk__32-028.jp2/_view"/>
+          <note type="date" n="03a70bc7">
+            Onsdagen den 29 november 1961
+          </note>
+          <u who="thure_andersson_0df17b" xml:id="i-21d3aeede53803b5-2" prev="i-21d3aeede53803b5-0" n="1ec1a367">
             <seg n="2eb0cad0">
               grad leda till motsägelser. Jag tror över huvud taget inte på
               skälet att de fria lördagarna skulle inom en snar framtid omöjliggöra
@@ -2779,17 +2818,13 @@
               och därför vill man här ta steget fullt ut.
             </seg>
           </u>
-          <pb n="28" facs="https://betalab.kb.se/prot-1961-höst-fk--32/prot_1961_höst_fk__32-028.jp2/_view"/>
-          <note n="6ae47d87">
-            Onsdagen den 29 november 1961
-          </note>
           <note n="0ecfd8e7">
             Jag ber, herr talman, att få yrka bifall till utskottets hemställan.
           </note>
           <note type="speaker" n="ddbc167c">
             Herr HEDBLOM (fp):
           </note>
-          <u who="staffan_hedblom_aab80d" xml:id="i-2c5fcd96ad06b533-1" n="8054cd35">
+          <u who="staffan_hedblom_aab80d" xml:id="i-8054cd35ec9d61ce-1" n="8054cd35">
             <seg n="488f92dd">
               Herr talman! Det är givetvis en begränsad fråga som vi behandlat
               i vår reservation. Om saken, som genom motionen dock förts på
@@ -2847,7 +2882,7 @@
           <note type="speaker" n="ca256dbd">
             Herr BERGH, RAGNAR, (h):
           </note>
-          <u who="harry_berg_728420" xml:id="i-af5df9b035357a12-0" next="i-0595ab0f6f3a04e0-0" n="93975dd6">
+          <u who="harry_berg_728420" xml:id="i-4de3ce7ae7b33802-0" next="i-4de3ce7ae7b33802-1" n="93975dd6">
             <seg n="b7ec70aa">
               Herr talman! Till detta utlåtande finns fogad en reservation,
               som jag ber att få kommentera med några få ord.
@@ -2867,13 +2902,13 @@
           <note n="736d0350">
             30 Nr 32
           </note>
-          <note n="6ae47d87">
+          <note type="date" n="03a70bc7">
             Onsdagen den 29 november 1961
           </note>
           <note n="3bd34ba1">
             Ang. statlig konsumentupplysning och konsumentvaruforskning
           </note>
-          <u who="harry_berg_728420" xml:id="i-0595ab0f6f3a04e0-0" prev="i-af5df9b035357a12-0" n="93975dd6">
+          <u who="harry_berg_728420" xml:id="i-4de3ce7ae7b33802-1" prev="i-4de3ce7ae7b33802-0" n="93975dd6">
             <seg n="cde6fc87">
               är bra som det är, och man hänvisar till att 1959 års riksdag
               har avslagit motioner av i huvudsak samma innehåll.
@@ -2915,7 +2950,7 @@
           <note type="speaker" n="21b24db0">
             Herr andre vice talmannen IVAR JO- HANSSON (cp):
           </note>
-          <u who="stig_hansson_16713c" xml:id="i-259b1c5ea3d6d921-0" next="i-e4ca195fafb8c2a2-0" n="c35eecc4">
+          <u who="stig_hansson_16713c" xml:id="i-eb1de8f8a20e1b45-0" next="i-eb1de8f8a20e1b45-3" n="c35eecc4">
             <seg n="97822e96">
               Herr talman! Det förslag som aktualiserats i dessa motioner,
               nämligen om en ny utredning på konsumentvarukontrol-
@@ -2959,13 +2994,34 @@
             i detta utlåtande hemställt.
           </note>
           <pb n="30" facs="https://betalab.kb.se/prot-1961-höst-fk--32/prot_1961_höst_fk__32-030.jp2/_view"/>
-          <note n="6ae47d87">
+          <note type="date" n="03a70bc7">
             Onsdagen den 29 november 1961
           </note>
-          <u who="stig_hansson_16713c" xml:id="i-e4ca195fafb8c2a2-0" prev="i-259b1c5ea3d6d921-0" n="c35eecc4">
+          <u who="stig_hansson_16713c" xml:id="i-eb1de8f8a20e1b45-1" prev="i-eb1de8f8a20e1b45-0" n="c35eecc4">
             <seg n="c8744e7e">
               Om utredning rörande internatskolorna
             </seg>
+          </u>
+          <note n="c104012f">
+            Föredrogs ånyo statsutskottets utlåtande nr 167, i anledning
+            av väckt motion om utredning rörande internatskolorna.
+          </note>
+          <note n="cafeb27f">
+            I en inom första kammaren av herr Boheman väckt motion (1: 405)
+            hade hemställts, att riksdagen måtte anhålla hos Kungl. Maj:t
+            att skyndsamt låta utreda frågan om internatskolornas ställning
+            och omfattning i enlighet med de riktlinjer för utredningen som
+            förordats i motionen.
+          </note>
+          <note n="7450b128">
+            Utskottet hade i det nu föreliggande utlåtandet av angivna orsaker
+            hemställt, att motionen I: 405 icke måtte till någon riksdagens
+            åtgärd föranleda.
+          </note>
+          <note n="571ba094">
+            Herr HANSON, PER-OLOF, (fp):
+          </note>
+          <u who="stig_hansson_16713c" xml:id="i-eb1de8f8a20e1b45-2" prev="i-eb1de8f8a20e1b45-0" n="c35eecc4">
             <seg n="3ade7757">
               Herr talman! Jag är väl medveten om den tumregel som gäller här
               och som innebär att en enhälligt avstyrkt motion bör ligga ogill,
@@ -3037,6 +3093,22 @@
               ning — inte minst på näringslivets område och när det gäller
               utrikesrepresentationen. -Skolöverstyrelsen = vidhåller
             </seg>
+          </u>
+          <pb n="31" facs="https://betalab.kb.se/prot-1961-höst-fk--32/prot_1961_höst_fk__32-031.jp2/_view"/>
+          <note n="77aebad6">
+            32 Nr 32
+          </note>
+          <note type="date" n="03a70bc7">
+            Onsdagen den 29 november 1961
+          </note>
+          <note n="f6a7ff5e">
+            Ang. avvägningen mellan vattenoch värmekraft
+          </note>
+          <note n="9b373413">
+            därför i sitt remissyttrande över skolberedningens betänkande
+            sin ursprungliga hemställan om en speciell utredning.
+          </note>
+          <u who="stig_hansson_16713c" xml:id="i-eb1de8f8a20e1b45-3" prev="i-eb1de8f8a20e1b45-0" n="c35eecc4">
             <seg n="5b1520d2">
               Nu kan jag inte ställa något yrkande här, utan jag vill, herr
               talman, konstatera att ett energiskt och stort grepp över det
@@ -3048,43 +3120,10 @@
               den relativt slappa skrivningen från statsutskottets sida.
             </seg>
           </u>
-          <note n="c104012f">
-            Föredrogs ånyo statsutskottets utlåtande nr 167, i anledning
-            av väckt motion om utredning rörande internatskolorna.
-          </note>
-          <note n="cafeb27f">
-            I en inom första kammaren av herr Boheman väckt motion (1: 405)
-            hade hemställts, att riksdagen måtte anhålla hos Kungl. Maj:t
-            att skyndsamt låta utreda frågan om internatskolornas ställning
-            och omfattning i enlighet med de riktlinjer för utredningen som
-            förordats i motionen.
-          </note>
-          <note n="7450b128">
-            Utskottet hade i det nu föreliggande utlåtandet av angivna orsaker
-            hemställt, att motionen I: 405 icke måtte till någon riksdagens
-            åtgärd föranleda.
-          </note>
-          <note n="571ba094">
-            Herr HANSON, PER-OLOF, (fp):
-          </note>
-          <pb n="31" facs="https://betalab.kb.se/prot-1961-höst-fk--32/prot_1961_höst_fk__32-031.jp2/_view"/>
-          <note n="77aebad6">
-            32 Nr 32
-          </note>
-          <note n="6ae47d87">
-            Onsdagen den 29 november 1961
-          </note>
-          <note n="f6a7ff5e">
-            Ang. avvägningen mellan vattenoch värmekraft
-          </note>
-          <note n="9b373413">
-            därför i sitt remissyttrande över skolberedningens betänkande
-            sin ursprungliga hemställan om en speciell utredning.
-          </note>
           <note type="speaker" n="5e6a7b99">
             Herr NÄSSTRÖM (s):
           </note>
-          <u who="emil_nasstrom_a66c00" xml:id="i-8a4f5b57786a2bc9-1" next="i-6628b9afe9c4e899-1" n="50598dbb">
+          <u who="emil_nasstrom_a66c00" xml:id="i-50598dbb7776b681-2" next="i-50598dbb7776b681-3" n="50598dbb">
             <seg n="d5fb0d6f">
               Herr talman! Under nästa års vårriksdag får vi anledning att
               återkomma bl. a. till detta ärende. Jag anser därför att det inte
@@ -3121,7 +3160,7 @@
             Föredrogs ånyo statsutskottets utlåtande nr 170, i anledning
             av väckta motioner angående avvägningen mellan
           </note>
-          <u who="emil_nasstrom_a66c00" xml:id="i-6628b9afe9c4e899-1" prev="i-8a4f5b57786a2bc9-1" n="50598dbb">
+          <u who="emil_nasstrom_a66c00" xml:id="i-50598dbb7776b681-3" prev="i-50598dbb7776b681-2" n="50598dbb">
             <seg n="ad8fdbb7">
               vattenoch värmekraft samt om behandlingen av större frågor om
               utbyggnad av vattenkraft.
@@ -3162,7 +3201,7 @@
           <note type="speaker" n="a0700e38">
             Fru SVENSON (cp):
           </note>
-          <u who="unknown" xml:id="i-d4497a18ceef6ac2-1" n="ad1cd5eb">
+          <u who="unknown" xml:id="i-ad1cd5eba717161c-3" n="ad1cd5eb">
             <seg n="2c2398bb">
               Herr talman! Under detta statsutskottsutlåtande har behandlats
               en motion som jag tillsammans med några andra centerpartister
@@ -3181,7 +3220,7 @@
             </seg>
           </u>
           <pb n="32" facs="https://betalab.kb.se/prot-1961-höst-fk--32/prot_1961_höst_fk__32-032.jp2/_view"/>
-          <note n="6ae47d87">
+          <note type="date" n="03a70bc7">
             Onsdagen den 29 november 1961
           </note>
           <note n="5791bfd5">
@@ -3191,7 +3230,7 @@
             Om tillsättande av en parlamentarisk kommitté för kontroll av
             den statliga verk-
           </note>
-          <u who="unknown" xml:id="i-889c6143b34f3fa2-1" n="ad1cd5eb">
+          <u who="unknown" xml:id="i-ad1cd5eba717161c-4" n="ad1cd5eb">
             <seg n="9f6cb3ea">
               vudsakligen rör frågan om avvägningen mellan vattenkraft och
               olika slags värmekraft. Vattenkraften torde inte vara tillräcklig
@@ -3228,6 +3267,11 @@
               sida ägnas en sådan uppmärksamhet, att en från alla synpunkter
               nöjaktig avvägning sker mel-
             </seg>
+          </u>
+          <note n="81c6fa9d">
+            3 Första kammarens protokoll 1961. Nr 32
+          </note>
+          <u who="unknown" xml:id="i-ad1cd5eba717161c-5" n="ad1cd5eb">
             <seg n="3a3f8b3d">
               samhetens effektivitet
             </seg>
@@ -3236,13 +3280,10 @@
               Herr talman! Jag har intet yrkande.
             </seg>
           </u>
-          <note n="81c6fa9d">
-            3 Första kammarens protokoll 1961. Nr 32
-          </note>
           <note type="speaker" n="f4d181fc">
             Herr PERSSON, FRITZ, (s):
           </note>
-          <u who="sven_persson_6ea13f" xml:id="i-f316c21d0ce75b2c-0" next="i-81e82569ee298b33-0" n="26f360c0">
+          <u who="sven_persson_6ea13f" xml:id="i-01bbadb573ed1df3-0" next="i-01bbadb573ed1df3-2" n="26f360c0">
             <seg n="0e44fbc3">
               Herr talman! Jag ber att få yrka bifall till utskottets hemställan.
             </seg>
@@ -3274,13 +3315,10 @@
           <note n="421664cf">
             Vad utskottet i dessa utlåtanden hemställt bifölls.
           </note>
-          <u who="sven_persson_6ea13f" xml:id="i-81e82569ee298b33-0" prev="i-f316c21d0ce75b2c-0" n="26f360c0">
+          <u who="sven_persson_6ea13f" xml:id="i-01bbadb573ed1df3-1" prev="i-01bbadb573ed1df3-0" n="26f360c0">
             <seg n="3dce1cd6">
               Om tillsättande av en parlamentarisk kommitté för kontroll av
               den statliga verksamhetens effektivitet
-            </seg>
-            <seg n="3a3f8b3d">
-              samhetens effektivitet
             </seg>
           </u>
           <note n="38e821d3">
@@ -3298,13 +3336,18 @@
           <note n="d7f415da">
             34 Nr 32
           </note>
-          <note n="6ae47d87">
+          <note type="date" n="03a70bc7">
             Onsdagen den 29 november 1961
           </note>
           <note n="e26aa28b">
             Om tillsättande av en parlamentarisk kommitté för kontroll av
             den statliga verk-
           </note>
+          <u who="sven_persson_6ea13f" xml:id="i-01bbadb573ed1df3-2" prev="i-01bbadb573ed1df3-0" n="26f360c0">
+            <seg n="3a3f8b3d">
+              samhetens effektivitet
+            </seg>
+          </u>
           <note n="345e4d2c">
             i skrivelse till Kungl. Maj:t måtte anhålla, att en särskild
             parlamentarisk kommitté måtte tillsättas för kontroll av den statliga
@@ -3318,7 +3361,7 @@
           <note type="speaker" n="9e58bc54">
             Herr SUNDIN (cp):
           </note>
-          <u who="sven_sundin_f0cdf1" xml:id="i-84367cc880616fe9-0" n="f2869629">
+          <u who="sven_sundin_f0cdf1" xml:id="i-f2869629023d550e-0" n="f2869629">
             <seg n="05b50472">
               Herr talman! Det finns kanske anledning att med några ord beröra
               detta utskottsutlåtande. Anledningen är att jag och några andra
@@ -3369,7 +3412,7 @@
           <note type="speaker" n="1d927439">
             Fröken ANDERSSON (h):
           </note>
-          <u who="thure_andersson_0df17b" xml:id="i-24b5e291ac0d572b-1" next="i-3b2cdf149a4a0bcd-1" n="1ec1a367">
+          <u who="thure_andersson_0df17b" xml:id="i-21d3aeede53803b5-3" next="i-21d3aeede53803b5-7" n="1ec1a367">
             <seg n="4d85ea0b">
               Herr talman! Eftersom motionären inte har något yrkande, behöver
               jag inte gå in på själva problemet, jag vill bara säga att utskottet
@@ -3402,7 +3445,7 @@
             förordning
           </note>
           <pb n="34" facs="https://betalab.kb.se/prot-1961-höst-fk--32/prot_1961_höst_fk__32-034.jp2/_view"/>
-          <note n="6ae47d87">
+          <note type="date" n="03a70bc7">
             Onsdagen den 29 november 1961
           </note>
           <note n="fdbbd216">
@@ -3468,32 +3511,10 @@
           <note n="c893d585">
             OM
           </note>
-          <u who="thure_andersson_0df17b" xml:id="i-3b2cdf149a4a0bcd-1" prev="i-24b5e291ac0d572b-1" n="1ec1a367">
+          <u who="thure_andersson_0df17b" xml:id="i-21d3aeede53803b5-4" prev="i-21d3aeede53803b5-3" n="1ec1a367">
             <seg n="83429e2e">
               måtte anhålla, att frågan om luftföroreningarnas inverkan på
               människan måtte göras till föremål för en skyndsam utredning.
-            </seg>
-            <seg n="97f8e529">
-              Herr talman! Det är bara en liten detalj jag skulle vilja anmärka
-              på med anledning av utskottsutlåtandet. Det är att man delvis
-              skriver bort möjligheten av att ta upp denna fråga på ett internationellt
-              plan. Emellertid sysslar Europarådet sedan ganska lång tid med
-              denna fråga, och i en resolution nyligen begärdes att man skulle
-              sammankalla en europeisk expertkonferens för att gå igenom detta
-              problem. Jag skulle gärna ha sett — ehuru jag vet att det nu är
-              för sent — att utskottet i skrivelse påmint Kungl. Maj:t om att
-              Sverige borde vara med i denna konferens.
-            </seg>
-            <seg n="d00a2504">
-              Visserligen har varje land sina egna problem, men delvis, t.
-              ex. när det gäller de stora städerna, är problemen ganska likartade.
-            </seg>
-            <seg n="cb590918">
-              högre utbildningen på skogsbrukets område
-            </seg>
-            <seg n="5b3047e0">
-              Ang. upprustning av forskningen och den högre utbildningen på
-              skogsbrukets
             </seg>
           </u>
           <note n="457365ed">
@@ -3514,6 +3535,23 @@
           <note n="571ba094">
             Herr HANSON, PER-OLOF, (fp):
           </note>
+          <u who="thure_andersson_0df17b" xml:id="i-21d3aeede53803b5-5" prev="i-21d3aeede53803b5-3" n="1ec1a367">
+            <seg n="97f8e529">
+              Herr talman! Det är bara en liten detalj jag skulle vilja anmärka
+              på med anledning av utskottsutlåtandet. Det är att man delvis
+              skriver bort möjligheten av att ta upp denna fråga på ett internationellt
+              plan. Emellertid sysslar Europarådet sedan ganska lång tid med
+              denna fråga, och i en resolution nyligen begärdes att man skulle
+              sammankalla en europeisk expertkonferens för att gå igenom detta
+              problem. Jag skulle gärna ha sett — ehuru jag vet att det nu är
+              för sent — att utskottet i skrivelse påmint Kungl. Maj:t om att
+              Sverige borde vara med i denna konferens.
+            </seg>
+            <seg n="d00a2504">
+              Visserligen har varje land sina egna problem, men delvis, t.
+              ex. när det gäller de stora städerna, är problemen ganska likartade.
+            </seg>
+          </u>
           <note n="b5939f29">
             Efter det överläggningen förklarats härmed slutad, bifölls vad
             utskottet i det nu ifrågavarande utlåtandet hemställt.
@@ -3531,6 +3569,11 @@
           <note n="8596da15">
             Ang. upprustning av forskningen och den
           </note>
+          <u who="thure_andersson_0df17b" xml:id="i-21d3aeede53803b5-6" prev="i-21d3aeede53803b5-3" n="1ec1a367">
+            <seg n="cb590918">
+              högre utbildningen på skogsbrukets område
+            </seg>
+          </u>
           <note n="e24e9f3b">
             Föredrogs ånyo jordbruksutskottets utlåtande nr 38, i anledning
             av Kungl. Maj:ts proposition angående upprustning av forskningen
@@ -3571,7 +3614,7 @@
             ekonomisk skogsteknik, att frågan om det första studieårets (garpenbergsårets)
             förlägg-
           </note>
-          <note n="6ae47d87">
+          <note type="date" n="03a70bc7">
             Onsdagen den 29 november 1961
           </note>
           <note n="7bd5e715">
@@ -3626,12 +3669,18 @@
             å motio-
           </note>
           <pb n="36" facs="https://betalab.kb.se/prot-1961-höst-fk--32/prot_1961_höst_fk__32-036.jp2/_view"/>
-          <note n="6ae47d87">
+          <note type="date" n="03a70bc7">
             Onsdagen den 29 november 1961
           </note>
           <note n="cc9c300a">
             Nr 32 317
           </note>
+          <u who="thure_andersson_0df17b" xml:id="i-21d3aeede53803b5-7" prev="i-21d3aeede53803b5-3" n="1ec1a367">
+            <seg n="5b3047e0">
+              Ang. upprustning av forskningen och den högre utbildningen på
+              skogsbrukets
+            </seg>
+          </u>
           <note n="89c3283c">
             nerna I: 684 och II: 815 samt I: 685 och II: 816, samtliga motioner
             såvitt nu vore i fråga, godkänna, att undervisningen vid skogshögskolan
@@ -3660,7 +3709,7 @@
           <note type="speaker" n="8a57d83c">
             Herr HANSSON, NILS, (fp):
           </note>
-          <u who="stig_hansson_16713c" xml:id="i-259b1c5ea3d6d921-1" next="i-e4ca195fafb8c2a2-1" n="c35eecc4">
+          <u who="stig_hansson_16713c" xml:id="i-eb1de8f8a20e1b45-4" next="i-eb1de8f8a20e1b45-6" n="c35eecc4">
             <seg n="56f708f9">
               Herr talman! När man under några år har följt och i någon mån
               också deltagit i den livliga diskussionen om riktlinjerna för
@@ -3723,14 +3772,19 @@
           <note n="debcfc85">
             38 Nr 32
           </note>
-          <note n="6ae47d87">
+          <note type="date" n="03a70bc7">
             Onsdagen den 29 november 1961
           </note>
-          <u who="stig_hansson_16713c" xml:id="i-e4ca195fafb8c2a2-1" prev="i-259b1c5ea3d6d921-1" n="c35eecc4">
+          <u who="stig_hansson_16713c" xml:id="i-eb1de8f8a20e1b45-5" prev="i-eb1de8f8a20e1b45-4" n="c35eecc4">
             <seg n="5b3047e0">
               Ang. upprustning av forskningen och den högre utbildningen på
               skogsbrukets
             </seg>
+          </u>
+          <note n="4a3e3bbc">
+            område
+          </note>
+          <u who="stig_hansson_16713c" xml:id="i-eb1de8f8a20e1b45-6" prev="i-eb1de8f8a20e1b45-4" n="c35eecc4">
             <seg n="3813e2cf">
               relsen för Skinnskattebergs skogsmästarskola den 15 september
               i år har uppdragit åt skogsstyrelsen att verkställa utredning
@@ -3802,13 +3856,10 @@
               Herr talman! Jag har givetvis inget yrkande.
             </seg>
           </u>
-          <note n="4a3e3bbc">
-            område
-          </note>
           <note type="speaker" n="e8b33fd1">
             Herr JONASSON (cp):
           </note>
-          <u who="bertil_jonasson_4d58ce" xml:id="i-951cb74f2da3a40b-1" next="i-8918c44e3b774d23-1" n="a71e4b71">
+          <u who="bertil_jonasson_4d58ce" xml:id="i-a71e4b710b09cea9-2" next="i-a71e4b710b09cea9-3" n="a71e4b71">
             <seg n="6c09a089">
               Herr talman! Jag skall inte ingå i något svaromål på herr Hanssons
               inlägg, utan det får väl någon annan representant för utskottet
@@ -3821,13 +3872,13 @@
             </seg>
           </u>
           <pb n="38" facs="https://betalab.kb.se/prot-1961-höst-fk--32/prot_1961_höst_fk__32-038.jp2/_view"/>
-          <note n="6ae47d87">
+          <note type="date" n="03a70bc7">
             Onsdagen den 29 november 1961
           </note>
           <note n="5be909b4">
             Ang. upprustning av forskningen och
           </note>
-          <u who="bertil_jonasson_4d58ce" xml:id="i-8918c44e3b774d23-1" prev="i-951cb74f2da3a40b-1" n="a71e4b71">
+          <u who="bertil_jonasson_4d58ce" xml:id="i-a71e4b710b09cea9-3" prev="i-a71e4b710b09cea9-2" n="a71e4b71">
             <seg n="f829644f">
               inträde vid skogshögskolan skall slopas och att den förberedande
               skogskursen skall avskaffas. Enligt propositionen skall dock hänsyn
@@ -3855,7 +3906,7 @@
           <note type="speaker" n="a63bffe6">
             Herr NILSSON, HJALMAR, (s):
           </note>
-          <u who="torsten_nilsson_9420ac" xml:id="i-a27dfd51d607f48b-0" next="i-5696e7011229f692-0" n="b8b2323c">
+          <u who="torsten_nilsson_9420ac" xml:id="i-1601716df94922bf-0" next="i-1601716df94922bf-1" n="b8b2323c">
             <seg n="812a77b6">
               Herr talman! Eftersom ingen av de föregående talarna har haft
               något yrkande skall jag fatta mig synnerligen kort och endast
@@ -3880,7 +3931,7 @@
           <note n="45abb693">
             utlåtande skulle justeras. Då kom skrivelser på denna punkt.
           </note>
-          <u who="torsten_nilsson_9420ac" xml:id="i-5696e7011229f692-0" prev="i-a27dfd51d607f48b-0" n="b8b2323c">
+          <u who="torsten_nilsson_9420ac" xml:id="i-1601716df94922bf-1" prev="i-1601716df94922bf-0" n="b8b2323c">
             <seg n="f3aa54d1">
               Jag har velat anföra detta och vill bara som slutsats säga, att
               de herrar som här skickat skrivelser till riksdagens jordbruksutskott
@@ -3901,7 +3952,7 @@
           <note type="speaker" n="8a57d83c">
             Herr HANSSON, NILS, (fp):
           </note>
-          <u who="stig_hansson_16713c" xml:id="i-259b1c5ea3d6d921-2" next="i-e4ca195fafb8c2a2-2" n="c35eecc4">
+          <u who="stig_hansson_16713c" xml:id="i-eb1de8f8a20e1b45-7" next="i-eb1de8f8a20e1b45-9" n="c35eecc4">
             <seg n="846b98aa">
               Herr talman! I anledning av vad herr Hjalmar Nilsson sade vill
               jag bara påpeka, att 1956 års utredning inte har kommit med förslaget
@@ -3929,14 +3980,19 @@
           <note n="6487e34c">
             40 Nr 32
           </note>
-          <note n="6ae47d87">
+          <note type="date" n="03a70bc7">
             Onsdagen den 29 november 1961
           </note>
-          <u who="stig_hansson_16713c" xml:id="i-e4ca195fafb8c2a2-2" prev="i-259b1c5ea3d6d921-2" n="c35eecc4">
+          <u who="stig_hansson_16713c" xml:id="i-eb1de8f8a20e1b45-8" prev="i-eb1de8f8a20e1b45-7" n="c35eecc4">
             <seg n="5b3047e0">
               Ang. upprustning av forskningen och den högre utbildningen på
               skogsbrukets
             </seg>
+          </u>
+          <note n="4a3e3bbc">
+            område
+          </note>
+          <u who="stig_hansson_16713c" xml:id="i-eb1de8f8a20e1b45-9" prev="i-eb1de8f8a20e1b45-7" n="c35eecc4">
             <seg n="6c23742a">
               Jag skall nu inte upprepa alla de andra skäl som jag anförde.
               Jag tycker emellertid att det med hänsyn till både det allmännas
@@ -3953,13 +4009,10 @@
               har anfört måste jag i viss mån instämma i.
             </seg>
           </u>
-          <note n="4a3e3bbc">
-            område
-          </note>
           <note type="speaker" n="70f96a25">
             Herr SVEDBERG, LAGE, (s):
           </note>
-          <u who="lage_svedberg_2c9670" xml:id="i-c70d97e9f5506a6c-0" n="27cce62a">
+          <u who="lage_svedberg_2c9670" xml:id="i-27cce62a8e4b96fe-0" n="27cce62a">
             <seg n="82c0d84e">
               Herr talman! Jag vill hänvisa herr Hansson till den motivering
               som utskottet anför på s. 7. Där åberopas departementschefens
@@ -3992,7 +4045,7 @@
           <note type="speaker" n="8a57d83c">
             Herr HANSSON, NILS, (fp):
           </note>
-          <u who="stig_hansson_16713c" xml:id="i-100ced3fd3952a78-0" n="c35eecc4">
+          <u who="stig_hansson_16713c" xml:id="i-eb1de8f8a20e1b45-10" n="c35eecc4">
             <seg n="fe054ae3">
               Herr talman! Bara ett par ord!
             </seg>
@@ -4020,7 +4073,7 @@
           <note type="speaker" n="735c27e4">
             Herr CARLSSON, ERIC, (cp):
           </note>
-          <u who="henning_carlsson_0417b2" xml:id="i-d008279948a4f6f3-0" next="i-ec7b832f60ced529-0" n="d0de6746">
+          <u who="henning_carlsson_0417b2" xml:id="i-e3f8ae7c5b64ade0-0" next="i-e3f8ae7c5b64ade0-1" n="d0de6746">
             <seg n="4f1dcb1e">
               Herr talman! Jag hade inte för avsikt att delta i den här debatten,
               men jag måste bekänna att jag har blivit alltmer förvånad över
@@ -4034,13 +4087,13 @@
             </seg>
           </u>
           <pb n="40" facs="https://betalab.kb.se/prot-1961-höst-fk--32/prot_1961_höst_fk__32-040.jp2/_view"/>
-          <note n="6ae47d87">
+          <note type="date" n="03a70bc7">
             Onsdagen den 29 november 1961
           </note>
           <note n="09ba4cde">
             Nr 32 41
           </note>
-          <u who="henning_carlsson_0417b2" xml:id="i-ec7b832f60ced529-0" prev="i-d008279948a4f6f3-0" n="d0de6746">
+          <u who="henning_carlsson_0417b2" xml:id="i-e3f8ae7c5b64ade0-1" prev="i-e3f8ae7c5b64ade0-0" n="d0de6746">
             <seg n="5b3047e0">
               Ang. upprustning av forskningen och den högre utbildningen på
               skogsbrukets
@@ -4081,7 +4134,7 @@
           <note type="speaker" n="8a57d83c">
             Herr HANSSON, NILS, (fp):
           </note>
-          <u who="stig_hansson_16713c" xml:id="i-259b1c5ea3d6d921-3" next="i-e4ca195fafb8c2a2-3" n="c35eecc4">
+          <u who="stig_hansson_16713c" xml:id="i-eb1de8f8a20e1b45-11" next="i-eb1de8f8a20e1b45-12" n="c35eecc4">
             <seg n="29f9ed75">
               Herr talman! Jag hade nästan väntat mig detta inlägg från Dalahåll.
               Herr Carlsson skall komma ihåg att det är fråga om att förlägga
@@ -4092,7 +4145,7 @@
           <note n="4a3e3bbc">
             område
           </note>
-          <u who="stig_hansson_16713c" xml:id="i-e4ca195fafb8c2a2-3" prev="i-259b1c5ea3d6d921-3" n="c35eecc4">
+          <u who="stig_hansson_16713c" xml:id="i-eb1de8f8a20e1b45-12" prev="i-eb1de8f8a20e1b45-11" n="c35eecc4">
             <seg n="0448cf44">
               mer sannolikt alltid att utnyttjas för något skogligt ändamål.
             </seg>
@@ -4106,7 +4159,7 @@
           <note type="speaker" n="e9652de9">
             Herr JONSSON (s):
           </note>
-          <u who="sigfrid_jonsson_50f3a0" xml:id="i-ba975e3d7ae26d9c-0" next="i-99ccdcdbf48296c8-0" n="137d8e8a">
+          <u who="sigfrid_jonsson_50f3a0" xml:id="i-d4a48bbdaaa42e0d-0" next="i-d4a48bbdaaa42e0d-1" n="137d8e8a">
             <seg n="4fe1266c">
               Herr talman! Jag vill bara ge uttryck åt den uppfattningen att
               det är förvånande att vi så enigt kunnat samla oss bakom den proposition
@@ -4142,13 +4195,13 @@
           <note n="39045665">
             42 Nr 32
           </note>
-          <note n="6ae47d87">
+          <note type="date" n="03a70bc7">
             Onsdagen den 29 november 1961
           </note>
           <note n="fab9d2d3">
             Ang. vissa ändringar i hushållningssällskapens organisation
           </note>
-          <u who="sigfrid_jonsson_50f3a0" xml:id="i-99ccdcdbf48296c8-0" prev="i-ba975e3d7ae26d9c-0" n="137d8e8a">
+          <u who="sigfrid_jonsson_50f3a0" xml:id="i-d4a48bbdaaa42e0d-1" prev="i-d4a48bbdaaa42e0d-0" n="137d8e8a">
             <seg n="db6ef5fe">
               påpekat har utskottet sagt att det ligger i Kungl. Maj:ts hand
               att ta andra revir och att kanske också få övningsskogar på annat
@@ -4252,7 +4305,7 @@
             som bleve er-
           </note>
           <pb n="42" facs="https://betalab.kb.se/prot-1961-höst-fk--32/prot_1961_höst_fk__32-042.jp2/_view"/>
-          <note n="6ae47d87">
+          <note type="date" n="03a70bc7">
             Onsdagen den 29 november 1961
           </note>
           <note n="cfab9f31">
@@ -4298,14 +4351,14 @@
           <note type="speaker" n="fd36e544">
             Herr SVANSTRÖM (cp):
           </note>
-          <u who="ivan_svanstrom_77a3c4" xml:id="i-778f13cb5a61f39c-0" next="i-b6e6a5fe8956c27e-0" n="83cfdf61"/>
+          <u who="ivan_svanstrom_77a3c4" xml:id="i-83cfdf613bcb9fdc-0" next="i-83cfdf613bcb9fdc-1" n="83cfdf61"/>
           <note n="ab4f28e9">
             Herr talman! I motionerna I: 704 och I1: 845 har bl. a. jag hemställt
             att å personalförteckningen för -hushållningssällskapen skulle
             uppföras 26 befattningshavare i lönegrad Bo 1, vilket är en mera
             än departementet har föreslagit.
           </note>
-          <u who="ivan_svanstrom_77a3c4" xml:id="i-b6e6a5fe8956c27e-0" prev="i-778f13cb5a61f39c-0" n="83cfdf61">
+          <u who="ivan_svanstrom_77a3c4" xml:id="i-83cfdf613bcb9fdc-1" prev="i-83cfdf613bcb9fdc-0" n="83cfdf61">
             <seg n="b59f565e">
               Avsikten med detta förslag är att den ytterligare befattningen
               skulle tilläggas den av de två seckreterarna i Kalmar län som
@@ -4359,7 +4412,7 @@
           <note n="83abd4dc">
             44 Nr 32
           </note>
-          <note n="6ae47d87">
+          <note type="date" n="03a70bc7">
             Onsdagen den 29 november 1961
           </note>
           <note n="fab9d2d3">
@@ -4368,7 +4421,7 @@
           <note type="speaker" n="e9652de9">
             Herr JONSSON (s):
           </note>
-          <u who="sigfrid_jonsson_50f3a0" xml:id="i-0df9e1347364311d-0" n="137d8e8a">
+          <u who="sigfrid_jonsson_50f3a0" xml:id="i-d4a48bbdaaa42e0d-2" n="137d8e8a">
             <seg n="847e74d7">
               Herr talman! Jag vill endast framhålla att jordbruksutskottet
               i flera omgångar har rätt ingående diskuterat de problem som gäller
@@ -4387,7 +4440,7 @@
           <note type="speaker" n="a63bffe6">
             Herr NILSSON, HJALMAR, (s):
           </note>
-          <u who="torsten_nilsson_9420ac" xml:id="i-a27dfd51d607f48b-1" next="i-5696e7011229f692-1" n="b8b2323c"/>
+          <u who="torsten_nilsson_9420ac" xml:id="i-1601716df94922bf-2" next="i-1601716df94922bf-3" n="b8b2323c"/>
           <note n="9f1bbcfd">
             Herr talman! Jag ber endast att få meddela kammaren att det förekommer
             ett tryckfel i utskottets hemställan under I. Där står att riksdågen
@@ -4396,7 +4449,7 @@
             vilka angivits i det föregående». Det skall vara »från och med
             den 1 januari 1962».
           </note>
-          <u who="torsten_nilsson_9420ac" xml:id="i-5696e7011229f692-1" prev="i-a27dfd51d607f48b-1" n="b8b2323c">
+          <u who="torsten_nilsson_9420ac" xml:id="i-1601716df94922bf-3" prev="i-1601716df94922bf-2" n="b8b2323c">
             <seg n="43bf5659">
               Den ändringen måste alltså, herr talman, göras vid beslutet i
               denna fråga.

@@ -20,7 +20,7 @@
     <encodingDesc>
       <editorialDecl>
         <correction>
-          <p>Some data curation was done. It is documented in db/curation/instances</p>
+          <p>Some data curation was done. It is documented in input/curation/instances</p>
         </correction>
       </editorialDecl>
     </encodingDesc>
@@ -59,6 +59,7 @@
       </front>
       <body>
         <div>
+          <pb n="0" facs="https://betalab.kb.se/prot-198081--91/prot_198081__91-000.jp2/_view"/>
           <note n="dc71d7c5"/>
           <note n="82073e75">
             Riksdagens protokoll
@@ -150,7 +151,7 @@
             fråga 1980/81:304 av Thure Jadestig (s) om översyn av reglerna
             för HRRIMERIN =: Mr bok sd SES N GRE Er RAR NES SETS SNS skon
           </note>
-          <note n="c48e688f">
+          <note type="date" n="f6f9d5e2">
             Samtliga avgjorda ärenden Måndagen den 9 mars
           </note>
           <note n="002ed775">
@@ -204,13 +205,13 @@
           <note n="30e1d442">
             1980/81:91
           </note>
-          <note n="e68d5dbd">
+          <note type="date" n="4d005acd">
             Måndagen den 9 mars Kl. 11.00
           </note>
           <note type="speaker" n="c78657a2">
             18 Anf. 1 TALMANNEN:
           </note>
-          <u who="unknown" xml:id="i-7440ab63685125a0-0" n="5da6d384"/>
+          <u who="unknown" xml:id="i-5da6d384ed9324a1-0" n="5da6d384"/>
           <note n="4c469b0d">
             Jag får meddela att Margit Odelsparr (c) är förhindrad att tjänstgöra
             som ersättare för Thorbjörn Fälldin under tiden den 9 mars-den
@@ -232,7 +233,7 @@
           <note type="speaker" n="12584cb9">
             Anf. 2 TALMANNEN:
           </note>
-          <u who="unknown" xml:id="i-9bf088fc342d4b38-0" n="5da6d384"/>
+          <u who="unknown" xml:id="i-5da6d384ed9324a1-1" n="5da6d384"/>
           <note n="19b74ed8">
             Centerpartiets partigrupp har som ledamot i arbetsmarknadsutskottet
             anmält Björn Eliasson som inträtt såsom ersättare för Thorbjörn
@@ -253,13 +254,39 @@
           <note n="5fa70567">
             ledamot i arbetsmarknadsutskottet Björn Eliasson (c)
           </note>
-          <u who="unknown" xml:id="i-b1f673f258a1059b-0" n="5da6d384">
+          <u who="unknown" xml:id="i-5da6d384ed9324a1-2" n="5da6d384">
             <seg n="9bcdb096"/>
+          </u>
+          <pb n="3" facs="https://betalab.kb.se/prot-198081--91/prot_198081__91-003.jp2/_view"/>
+          <u who="unknown" xml:id="i-5da6d384ed9324a1-3" n="5da6d384">
             <seg n="9bcdb096"/>
-            <seg n="9bcdb096"/>
+          </u>
+          <note n="73bb397b">
+            Nr 91
+          </note>
+          <note type="date" n="bffbbd86">
+            Måndagen den 9 mars 1981
+          </note>
+          <u who="unknown" xml:id="i-5da6d384ed9324a1-4" n="5da6d384">
             <seg n="53d27a1e">
               Om Sveriges stöd till internationella icke-statliga organisationer
             </seg>
+          </u>
+          <note n="6a85fb44">
+            suppleanter i socialförsäkringsutskottet Bo Finnkvist (s) Per-Ola
+            Eriksson (c)
+          </note>
+          <note n="80abe353">
+            suppleant i arbetsmarknadsutskottet Bo Finnkvist (s)
+          </note>
+          <note n="8ac6fde7">
+            48 Justerades protokollen för den 20, 23, 24, 25, 26 och 27 februari.
+          </note>
+          <note n="36a814fb">
+            5 $ Svar på fråga 1980/81:278 om Sveriges stöd till internationella
+            icke-statliga organisationer
+          </note>
+          <u who="unknown" xml:id="i-5da6d384ed9324a1-5" n="5da6d384">
             <seg n="e177d09b">
               Anf. 3 Utrikesministern OLA ULLSTEN:
             </seg>
@@ -294,31 +321,10 @@
               icke möjliga.
             </seg>
           </u>
-          <pb n="3" facs="https://betalab.kb.se/prot-198081--91/prot_198081__91-003.jp2/_view"/>
-          <note n="73bb397b">
-            Nr 91
-          </note>
-          <note type="date" n="bffbbd86">
-            Måndagen den 9 mars 1981
-          </note>
-          <note n="6a85fb44">
-            suppleanter i socialförsäkringsutskottet Bo Finnkvist (s) Per-Ola
-            Eriksson (c)
-          </note>
-          <note n="80abe353">
-            suppleant i arbetsmarknadsutskottet Bo Finnkvist (s)
-          </note>
-          <note n="8ac6fde7">
-            48 Justerades protokollen för den 20, 23, 24, 25, 26 och 27 februari.
-          </note>
-          <note n="36a814fb">
-            5 $ Svar på fråga 1980/81:278 om Sveriges stöd till internationella
-            icke-statliga organisationer
-          </note>
           <note type="speaker" n="be69d2a1">
             Anf. 4 STURE PALM (s):
           </note>
-          <u who="sture_palm_319bd3" xml:id="i-75494e7c74c88554-0" n="05decfa8">
+          <u who="sture_palm_319bd3" xml:id="i-05decfa88758cc75-0" next="i-05decfa88758cc75-1" n="05decfa8">
             <seg n="a20d25ef">
               Herr talman! Först ett tack till utrikesministern för svaret.
               Det visar att vi är eniga om att upplysningsarbetet i fredsoch
@@ -344,7 +350,9 @@
             </seg>
             <seg n="9bcdb096"/>
             <seg n="9bcdb096"/>
-            <seg n="9bcdb096"/>
+          </u>
+          <pb n="4" facs="https://betalab.kb.se/prot-198081--91/prot_198081__91-004.jp2/_view"/>
+          <u who="sture_palm_319bd3" xml:id="i-05decfa88758cc75-1" prev="i-05decfa88758cc75-0" n="05decfa8">
             <seg n="9bcdb096"/>
             <seg n="7cfb2056">
               nu bedrivs inom utrikesdepartementet för dessa ändamål har planer
@@ -401,11 +409,10 @@
               värdefull verksamhet, som jag hoppas skall fortsätta.
             </seg>
           </u>
-          <pb n="4" facs="https://betalab.kb.se/prot-198081--91/prot_198081__91-004.jp2/_view"/>
           <note type="speaker" n="fde4ab7d">
             Anf. 6 STURE PALM (s):
           </note>
-          <u who="sture_palm_319bd3" xml:id="i-1f372a588f728a4b-0" next="i-31a33f00cb0587b3-0" n="05decfa8">
+          <u who="sture_palm_319bd3" xml:id="i-05decfa88758cc75-2" next="i-05decfa88758cc75-7" n="05decfa8">
             <seg n="7fb5ac1b">
               Herr talman! Det kanske kan sägas vara en liten fråga, men om
               man ser till proportionerna tycker jag det är en viktig principfråga.
@@ -427,16 +434,37 @@
           <note type="date" n="bffbbd86">
             Måndagen den 9 mars 1981
           </note>
-          <u who="sture_palm_319bd3" xml:id="i-31a33f00cb0587b3-0" prev="i-1f372a588f728a4b-0" n="05decfa8">
+          <u who="sture_palm_319bd3" xml:id="i-05decfa88758cc75-3" prev="i-05decfa88758cc75-2" n="05decfa8">
             <seg n="53d27a1e">
               Om Sveriges stöd till internationella icke-statliga organisationer
             </seg>
             <seg n="9bcdb096"/>
-            <seg n="9bcdb096"/>
+          </u>
+          <pb n="5" facs="https://betalab.kb.se/prot-198081--91/prot_198081__91-005.jp2/_view"/>
+          <u who="sture_palm_319bd3" xml:id="i-05decfa88758cc75-4" prev="i-05decfa88758cc75-2" n="05decfa8"/>
+          <note n="73bb397b">
+            Nr 91
+          </note>
+          <note type="date" n="bffbbd86">
+            Måndagen den 9 mars 1981
+          </note>
+          <note n="c7a91590">
+            Om u-landsbistån-
+          </note>
+          <note n="d1a2df85">
+            det till Somalia
+          </note>
+          <u who="sture_palm_319bd3" xml:id="i-05decfa88758cc75-5" prev="i-05decfa88758cc75-2" n="05decfa8">
             <seg n="4ba8b6a3">
               ningens område. Det förefaller mig vara helt naturligt att detta
               är med i bedömningen.
             </seg>
+          </u>
+          <note n="20e508c9">
+            6 $ Svar på interpellation 1980/81:96 om u-landsbiståndet till
+            Somalia
+          </note>
+          <u who="sture_palm_319bd3" xml:id="i-05decfa88758cc75-6" prev="i-05decfa88758cc75-2" n="05decfa8">
             <seg n="145e08e1">
               Anf. 7 Utrikesministern OLA ULLSTEN:
             </seg>
@@ -509,7 +537,9 @@
             </seg>
             <seg n="9bcdb096"/>
             <seg n="9bcdb096"/>
-            <seg n="9bcdb096"/>
+          </u>
+          <pb n="6" facs="https://betalab.kb.se/prot-198081--91/prot_198081__91-006.jp2/_view"/>
+          <u who="sture_palm_319bd3" xml:id="i-05decfa88758cc75-7" prev="i-05decfa88758cc75-2" n="05decfa8">
             <seg n="9bcdb096"/>
             <seg n="087d4d1b">
               oberoende av svenskt bistånd när detta enligt löpande avtal avslutas
@@ -551,28 +581,10 @@
               leder till resultat.
             </seg>
           </u>
-          <pb n="5" facs="https://betalab.kb.se/prot-198081--91/prot_198081__91-005.jp2/_view"/>
-          <note n="73bb397b">
-            Nr 91
-          </note>
-          <note type="date" n="bffbbd86">
-            Måndagen den 9 mars 1981
-          </note>
-          <note n="c7a91590">
-            Om u-landsbistån-
-          </note>
-          <note n="d1a2df85">
-            det till Somalia
-          </note>
-          <note n="20e508c9">
-            6 $ Svar på interpellation 1980/81:96 om u-landsbiståndet till
-            Somalia
-          </note>
-          <pb n="6" facs="https://betalab.kb.se/prot-198081--91/prot_198081__91-006.jp2/_view"/>
           <note type="speaker" n="99206c91">
             Anf. 8 STEN STURE PATERSON (m):
           </note>
-          <u who="unknown" xml:id="i-9bf088fc342d4b38-1" n="5da6d384">
+          <u who="unknown" xml:id="i-5da6d384ed9324a1-6" n="5da6d384">
             <seg n="3c5463f8">
               Herr talman! Jag tackar utrikesministern för svaret. Det visar
               att vi är eniga om att Somalia hör till jordens fattigaste länder
@@ -613,8 +625,22 @@
           <note n="d1a2df85">
             det till Somalia
           </note>
-          <u who="unknown" xml:id="i-b1f673f258a1059b-1" n="5da6d384">
-            <seg n="9bcdb096"/>
+          <u who="unknown" xml:id="i-5da6d384ed9324a1-7" n="5da6d384"/>
+          <pb n="7" facs="https://betalab.kb.se/prot-198081--91/prot_198081__91-007.jp2/_view"/>
+          <u who="unknown" xml:id="i-5da6d384ed9324a1-8" n="5da6d384"/>
+          <note n="73bb397b">
+            Nr 91
+          </note>
+          <note type="date" n="bffbbd86">
+            Måndagen den 9 mars 1981
+          </note>
+          <note n="c7a91590">
+            Om u-landsbistån-
+          </note>
+          <note n="d1a2df85">
+            det till Somalia
+          </note>
+          <u who="unknown" xml:id="i-5da6d384ed9324a1-9" n="5da6d384">
             <seg n="29dab842">
               används i Sri Lanka. Man har emellertid redan från fabrikens
               start klagat över att det föreligger svårigheter. Redan i december
@@ -682,7 +708,9 @@
             </seg>
             <seg n="9bcdb096"/>
             <seg n="9bcdb096"/>
-            <seg n="9bcdb096"/>
+          </u>
+          <pb n="8" facs="https://betalab.kb.se/prot-198081--91/prot_198081__91-008.jp2/_view"/>
+          <u who="unknown" xml:id="i-5da6d384ed9324a1-10" n="5da6d384">
             <seg n="9bcdb096"/>
             <seg n="7552817e">
               industris effektivitet inom utvecklingsländerna, att av 1978/79
@@ -692,12 +720,26 @@
               i sammanhanget och inte kunnat åstadkomma att man på detta område
               har kunnat sälja svenska produkter av hög klass.
             </seg>
+          </u>
+          <note n="bbb2f140">
+            78 Meddelande om svar på interpellation 1980/81:99
+          </note>
+          <note n="d20ea48e">
+            Anf. 9 Budgetministern ROLF WIRTÉN:
+          </note>
+          <u who="unknown" xml:id="i-5da6d384ed9324a1-11" n="5da6d384">
             <seg n="d0f1d362">
               Herr talman! Jag hade för avsikt att i dag besvara Thure Jadestigs
               interpellation om slopande av skatt på läskedrycker och lättöl.
               Då Thure Jadestig inte har möjlighet att ta emot svaret i dag,
               har vi kommit överens om att det skall lämnas den 16 mars.
             </seg>
+          </u>
+          <note n="6b70ed60">
+            88 Svar på fråga 1980/81:292 om förseningen av allmänna fastighetstaxeringen,
+            m. m.
+          </note>
+          <u who="unknown" xml:id="i-5da6d384ed9324a1-12" n="5da6d384">
             <seg n="1357a3fd">
               Anf. 10 Budgetministern ROLF WIRTÉN:
             </seg>
@@ -742,9 +784,37 @@
               inför nya arbetsuppgifter som har varit mycket omfattande och
               komplicerade. Vad som förekommit
             </seg>
+          </u>
+          <note n="73bb397b">
+            Nr 91
+          </note>
+          <note type="date" n="bffbbd86">
+            Måndagen den 9 mars 1981
+          </note>
+          <note n="16403392">
+            Meddelande om interpellationssvar
+          </note>
+          <note n="8ef23aec">
+            Om förseningen av allmänna fastighetstaxeringen, m. m.
+          </note>
+          <u who="unknown" xml:id="i-5da6d384ed9324a1-13" n="5da6d384">
             <seg n="9bcdb096"/>
-            <seg n="9bcdb096"/>
-            <seg n="9bcdb096"/>
+          </u>
+          <pb n="9" facs="https://betalab.kb.se/prot-198081--91/prot_198081__91-009.jp2/_view"/>
+          <u who="unknown" xml:id="i-5da6d384ed9324a1-14" n="5da6d384"/>
+          <note n="73bb397b">
+            Nr 91
+          </note>
+          <note type="date" n="bffbbd86">
+            Måndagen den 9 mars 1981
+          </note>
+          <note n="5ec8f50e">
+            Om förseningen av allmänna fastighetstaxeringen, m.m.
+          </note>
+          <note n="945d42d8">
+            10
+          </note>
+          <u who="unknown" xml:id="i-5da6d384ed9324a1-15" n="5da6d384">
             <seg n="66ee59bf">
               ger, enligt min mening, ingen anledning att överväga åtgärder
               av det slag Gunnar Biörck anger i sin fråga.
@@ -817,7 +887,9 @@
             </seg>
             <seg n="9bcdb096"/>
             <seg n="9bcdb096"/>
-            <seg n="9bcdb096"/>
+          </u>
+          <pb n="10" facs="https://betalab.kb.se/prot-198081--91/prot_198081__91-010.jp2/_view"/>
+          <u who="unknown" xml:id="i-5da6d384ed9324a1-16" n="5da6d384">
             <seg n="dcbe2bb3">
               förekommit endast mycket små förseningar, eller att det i varje
               fall inte på något sätt varit annorlunda än vad ett så stort arbete
@@ -846,6 +918,11 @@
               kunnat notera att man har gjort klara förbättringar, och jag hoppas
               att vi skall kunna fortsätta att förbättra det nyss inkörda systemet.
             </seg>
+          </u>
+          <note n="ca334e39">
+            Anf. 13 GUNNAR BIÖRCK i Värmdö (m):
+          </note>
+          <u who="unknown" xml:id="i-5da6d384ed9324a1-17" n="5da6d384">
             <seg n="7e70d690">
               Herr talman! Sedan min fråga till budgetministern har fått en
               viss publicitet har jag mottagit hänvändelser från kompetenta
@@ -877,16 +954,51 @@
               attityd får aldrig förekomma gentemot myndigheter — på dessa måste
               kraven vara absoluta.
             </seg>
+          </u>
+          <note n="73bb397b">
+            Nr 91
+          </note>
+          <note type="date" n="bffbbd86">
+            Måndagen den 9 mars 1981
+          </note>
+          <u who="unknown" xml:id="i-5da6d384ed9324a1-18" n="5da6d384">
             <seg n="6a55d610">
               Om förseningen av allmänna fastighetstaxeringen,
             </seg>
+          </u>
+          <note n="c1722278">
+            m. m.
+          </note>
+          <note n="70ebc14f">
+            1
+          </note>
+          <u who="unknown" xml:id="i-5da6d384ed9324a1-19" n="5da6d384"/>
+          <pb n="11" facs="https://betalab.kb.se/prot-198081--91/prot_198081__91-011.jp2/_view"/>
+          <u who="unknown" xml:id="i-5da6d384ed9324a1-20" n="5da6d384">
             <seg n="9bcdb096"/>
             <seg n="9bcdb096"/>
-            <seg n="9bcdb096"/>
-            <seg n="9bcdb096"/>
+          </u>
+          <note n="73bb397b">
+            Nr 91
+          </note>
+          <note type="date" n="bffbbd86">
+            Måndagen den 9 mars 1981
+          </note>
+          <u who="unknown" xml:id="i-5da6d384ed9324a1-21" n="5da6d384">
             <seg n="ef98195c">
               Om konsumentpolitiken
             </seg>
+          </u>
+          <note n="a0118f5b">
+            12
+          </note>
+          <note n="08b536d6">
+            9 $ Svar på interpellation 1980/81:88 om konsumentpolitiken
+          </note>
+          <note n="33f753c9">
+            Anf. 14 Handelsministern STAFFAN BURENSTAM LINDER:
+          </note>
+          <u who="unknown" xml:id="i-5da6d384ed9324a1-22" n="5da6d384">
             <seg n="821cbaec">
               Herr talman! Carl Lidbom har ställt två frågor till mig:
             </seg>
@@ -957,7 +1069,9 @@
             </seg>
             <seg n="9bcdb096"/>
             <seg n="9bcdb096"/>
-            <seg n="9bcdb096"/>
+          </u>
+          <pb n="12" facs="https://betalab.kb.se/prot-198081--91/prot_198081__91-012.jp2/_view"/>
+          <u who="unknown" xml:id="i-5da6d384ed9324a1-23" n="5da6d384">
             <seg n="9bcdb096"/>
             <seg n="e870046d">
               Över huvud taget måste man i den ekonomiska politiken utgå från
@@ -1006,92 +1120,10 @@
               att konsumentpolitiska intressen inte skadas.
             </seg>
           </u>
-          <pb n="7" facs="https://betalab.kb.se/prot-198081--91/prot_198081__91-007.jp2/_view"/>
-          <note n="73bb397b">
-            Nr 91
-          </note>
-          <note type="date" n="bffbbd86">
-            Måndagen den 9 mars 1981
-          </note>
-          <note n="c7a91590">
-            Om u-landsbistån-
-          </note>
-          <note n="d1a2df85">
-            det till Somalia
-          </note>
-          <pb n="8" facs="https://betalab.kb.se/prot-198081--91/prot_198081__91-008.jp2/_view"/>
-          <note n="bbb2f140">
-            78 Meddelande om svar på interpellation 1980/81:99
-          </note>
-          <note n="d20ea48e">
-            Anf. 9 Budgetministern ROLF WIRTÉN:
-          </note>
-          <note n="6b70ed60">
-            88 Svar på fråga 1980/81:292 om förseningen av allmänna fastighetstaxeringen,
-            m. m.
-          </note>
-          <note n="73bb397b">
-            Nr 91
-          </note>
-          <note type="date" n="bffbbd86">
-            Måndagen den 9 mars 1981
-          </note>
-          <note n="16403392">
-            Meddelande om interpellationssvar
-          </note>
-          <note n="8ef23aec">
-            Om förseningen av allmänna fastighetstaxeringen, m. m.
-          </note>
-          <pb n="9" facs="https://betalab.kb.se/prot-198081--91/prot_198081__91-009.jp2/_view"/>
-          <note n="73bb397b">
-            Nr 91
-          </note>
-          <note type="date" n="bffbbd86">
-            Måndagen den 9 mars 1981
-          </note>
-          <note n="5ec8f50e">
-            Om förseningen av allmänna fastighetstaxeringen, m.m.
-          </note>
-          <note n="945d42d8">
-            10
-          </note>
-          <pb n="10" facs="https://betalab.kb.se/prot-198081--91/prot_198081__91-010.jp2/_view"/>
-          <note n="ca334e39">
-            Anf. 13 GUNNAR BIÖRCK i Värmdö (m):
-          </note>
-          <note n="73bb397b">
-            Nr 91
-          </note>
-          <note type="date" n="bffbbd86">
-            Måndagen den 9 mars 1981
-          </note>
-          <note n="c1722278">
-            m. m.
-          </note>
-          <note n="70ebc14f">
-            1
-          </note>
-          <pb n="11" facs="https://betalab.kb.se/prot-198081--91/prot_198081__91-011.jp2/_view"/>
-          <note n="73bb397b">
-            Nr 91
-          </note>
-          <note type="date" n="bffbbd86">
-            Måndagen den 9 mars 1981
-          </note>
-          <note n="a0118f5b">
-            12
-          </note>
-          <note n="08b536d6">
-            9 $ Svar på interpellation 1980/81:88 om konsumentpolitiken
-          </note>
-          <note n="33f753c9">
-            Anf. 14 Handelsministern STAFFAN BURENSTAM LINDER:
-          </note>
-          <pb n="12" facs="https://betalab.kb.se/prot-198081--91/prot_198081__91-012.jp2/_view"/>
           <note type="speaker" n="f7e5f6e1">
             Anf. 15 CARL LIDBOM (s):
           </note>
-          <u who="carl_lidbom_ac40e3" xml:id="i-bcdcc300d62e58a2-0" next="i-e202ce48a230e9e8-0" n="4704de65">
+          <u who="carl_lidbom_ac40e3" xml:id="i-4704de65a297f0c2-0" next="i-4704de65a297f0c2-19" n="4704de65">
             <seg n="76150ba0">
               Herr talman! Som sig bör vill jag börja med att tacka handelsministern
               för svaret. Jag vill också ge honom ett erkännande. Han visade
@@ -1119,18 +1151,36 @@
           <note type="date" n="bffbbd86">
             Måndagen den 9 mars 1981
           </note>
-          <u who="carl_lidbom_ac40e3" xml:id="i-e202ce48a230e9e8-0" prev="i-bcdcc300d62e58a2-0" n="4704de65">
+          <u who="carl_lidbom_ac40e3" xml:id="i-4704de65a297f0c2-1" prev="i-4704de65a297f0c2-0" n="4704de65">
             <seg n="ef98195c">
               Om konsumentpolitiken
             </seg>
             <seg n="9bcdb096"/>
+          </u>
+          <note n="1ebe3fd5">
+            13
+          </note>
+          <u who="carl_lidbom_ac40e3" xml:id="i-4704de65a297f0c2-2" prev="i-4704de65a297f0c2-0" n="4704de65"/>
+          <pb n="13" facs="https://betalab.kb.se/prot-198081--91/prot_198081__91-013.jp2/_view"/>
+          <u who="carl_lidbom_ac40e3" xml:id="i-4704de65a297f0c2-3" prev="i-4704de65a297f0c2-0" n="4704de65">
             <seg n="9bcdb096"/>
             <seg n="9bcdb096"/>
-            <seg n="9bcdb096"/>
-            <seg n="9bcdb096"/>
+          </u>
+          <note n="73bb397b">
+            Nr 91
+          </note>
+          <note type="date" n="bffbbd86">
+            Måndagen den 9 mars 1981
+          </note>
+          <u who="carl_lidbom_ac40e3" xml:id="i-4704de65a297f0c2-4" prev="i-4704de65a297f0c2-0" n="4704de65">
             <seg n="ef98195c">
               Om konsumentpolitiken
             </seg>
+          </u>
+          <note n="a8335b28">
+            14
+          </note>
+          <u who="carl_lidbom_ac40e3" xml:id="i-4704de65a297f0c2-5" prev="i-4704de65a297f0c2-0" n="4704de65">
             <seg n="8564960c">
               som med sin ekonomiska politik kraftigt bidragit till att levnadsstandarden
               sjunkit och industriinvesteringarna gått till botten — i sanning
@@ -1197,8 +1247,13 @@
             </seg>
             <seg n="9bcdb096"/>
             <seg n="9bcdb096"/>
-            <seg n="9bcdb096"/>
-            <seg n="9bcdb096"/>
+          </u>
+          <pb n="14" facs="https://betalab.kb.se/prot-198081--91/prot_198081__91-014.jp2/_view"/>
+          <u who="carl_lidbom_ac40e3" xml:id="i-4704de65a297f0c2-6" prev="i-4704de65a297f0c2-0" n="4704de65"/>
+          <note n="09d433a8">
+            Prien
+          </note>
+          <u who="carl_lidbom_ac40e3" xml:id="i-4704de65a297f0c2-7" prev="i-4704de65a297f0c2-0" n="4704de65">
             <seg n="de5d3cde">
               bilföretagen att i fortsättningen sätta in rostfria avgassystem
               på alla nya bilar. Lyckas verket i sina ansträngningar skulle
@@ -1266,15 +1321,41 @@
               En svaghet i marknadsföringslagens och avtalsvillkorslagens regelsystem
               som visat sig ha praktisk betydelse är att ett avgörande i marknadsdomstolen
             </seg>
+          </u>
+          <note n="73bb397b">
+            Nr 91
+          </note>
+          <note type="date" n="bffbbd86">
+            Måndagen den 9 mars 1981
+          </note>
+          <u who="carl_lidbom_ac40e3" xml:id="i-4704de65a297f0c2-8" prev="i-4704de65a297f0c2-0" n="4704de65">
             <seg n="ef98195c">
               Om konsumentpolitiken
             </seg>
+          </u>
+          <note n="ad0738cf">
+            15
+          </note>
+          <u who="carl_lidbom_ac40e3" xml:id="i-4704de65a297f0c2-9" prev="i-4704de65a297f0c2-0" n="4704de65"/>
+          <pb n="15" facs="https://betalab.kb.se/prot-198081--91/prot_198081__91-015.jp2/_view"/>
+          <u who="carl_lidbom_ac40e3" xml:id="i-4704de65a297f0c2-10" prev="i-4704de65a297f0c2-0" n="4704de65">
             <seg n="9bcdb096"/>
-            <seg n="9bcdb096"/>
-            <seg n="9bcdb096"/>
+          </u>
+          <note n="73bb397b">
+            Nr 91
+          </note>
+          <note type="date" n="bffbbd86">
+            Måndagen den 9 mars 1981
+          </note>
+          <u who="carl_lidbom_ac40e3" xml:id="i-4704de65a297f0c2-11" prev="i-4704de65a297f0c2-0" n="4704de65">
             <seg n="ef98195c">
               Om konsumentpolitiken
             </seg>
+          </u>
+          <note n="c07acc27">
+            16
+          </note>
+          <u who="carl_lidbom_ac40e3" xml:id="i-4704de65a297f0c2-12" prev="i-4704de65a297f0c2-0" n="4704de65">
             <seg n="22b46f5b">
               bara gäller gentemot näringsidkare som varit instämd. Anta t.
               ex. att KO drar en bilhandlare inför marknadsdomstolen och får
@@ -1336,7 +1417,9 @@
             </seg>
             <seg n="9bcdb096"/>
             <seg n="9bcdb096"/>
-            <seg n="9bcdb096"/>
+          </u>
+          <pb n="16" facs="https://betalab.kb.se/prot-198081--91/prot_198081__91-016.jp2/_view"/>
+          <u who="carl_lidbom_ac40e3" xml:id="i-4704de65a297f0c2-13" prev="i-4704de65a297f0c2-0" n="4704de65">
             <seg n="9bcdb096"/>
             <seg n="7196230b">
               regeringarna, men mer än ett nummer i propositionsförteckningen
@@ -1354,6 +1437,11 @@
               bedriver, och vad är det för besparingar som han vill göra på
               konsumentpolitikens område men som inte skulle skada konsumentintressena?
             </seg>
+          </u>
+          <note n="0d6ccdf3">
+            Anf. 16 Handelsministern STAFFAN BURENSTAM LINDER:
+          </note>
+          <u who="carl_lidbom_ac40e3" xml:id="i-4704de65a297f0c2-14" prev="i-4704de65a297f0c2-0" n="4704de65">
             <seg n="1015358b">
               Herr talman! Låt mig till att börja med konstatera att det ingalunda
               är som herr Lidbom tycks föreställa sig, nämligen att regeringens
@@ -1399,13 +1487,46 @@
               skulle gälla för alla andra. Det skulle bli oerhört många tvister
               om i vad mån ett visst fall
             </seg>
+          </u>
+          <note n="9b997bac">
+            2 Riksdagens protokoll 1980/81:91-92
+          </note>
+          <note n="73bb397b">
+            Nr 91
+          </note>
+          <note type="date" n="bffbbd86">
+            Måndagen den 9 mars 1981
+          </note>
+          <note n="f29fc807">
+            Om konsument-
+          </note>
+          <note n="25e29e4f">
+            politiken
+          </note>
+          <note n="a0cda447">
+            17
+          </note>
+          <u who="carl_lidbom_ac40e3" xml:id="i-4704de65a297f0c2-15" prev="i-4704de65a297f0c2-0" n="4704de65"/>
+          <pb n="17" facs="https://betalab.kb.se/prot-198081--91/prot_198081__91-017.jp2/_view"/>
+          <u who="carl_lidbom_ac40e3" xml:id="i-4704de65a297f0c2-16" prev="i-4704de65a297f0c2-0" n="4704de65">
             <seg n="9bcdb096"/>
             <seg n="9bcdb096"/>
-            <seg n="9bcdb096"/>
-            <seg n="9bcdb096"/>
+          </u>
+          <note n="73bb397b">
+            Nr 91
+          </note>
+          <note type="date" n="bffbbd86">
+            Måndagen den 9 mars 1981
+          </note>
+          <u who="carl_lidbom_ac40e3" xml:id="i-4704de65a297f0c2-17" prev="i-4704de65a297f0c2-0" n="4704de65">
             <seg n="ef98195c">
               Om konsumentpolitiken
             </seg>
+          </u>
+          <note n="483a7f3c">
+            18
+          </note>
+          <u who="carl_lidbom_ac40e3" xml:id="i-4704de65a297f0c2-18" prev="i-4704de65a297f0c2-0" n="4704de65">
             <seg n="07f324e5">
               verkligen var helt entydigt med ett annat som behandlats i marknadsdomstolen.
               Men det finns faktiskt praktiska problem — Carl Lidbom fäster
@@ -1473,7 +1594,9 @@
             </seg>
             <seg n="9bcdb096"/>
             <seg n="9bcdb096"/>
-            <seg n="9bcdb096"/>
+          </u>
+          <pb n="18" facs="https://betalab.kb.se/prot-198081--91/prot_198081__91-018.jp2/_view"/>
+          <u who="carl_lidbom_ac40e3" xml:id="i-4704de65a297f0c2-19" prev="i-4704de65a297f0c2-0" n="4704de65">
             <seg n="9bcdb096"/>
             <seg n="a0f03d94">
               ytterligare skattehöjningar som ni vill föreslå för att skaffa
@@ -1519,79 +1642,10 @@
               frihet som skulle uppstå genom regleringspolitik och förmyndarmentalitet.
             </seg>
           </u>
-          <note n="1ebe3fd5">
-            13
-          </note>
-          <pb n="13" facs="https://betalab.kb.se/prot-198081--91/prot_198081__91-013.jp2/_view"/>
-          <note n="73bb397b">
-            Nr 91
-          </note>
-          <note type="date" n="bffbbd86">
-            Måndagen den 9 mars 1981
-          </note>
-          <note n="a8335b28">
-            14
-          </note>
-          <pb n="14" facs="https://betalab.kb.se/prot-198081--91/prot_198081__91-014.jp2/_view"/>
-          <note n="09d433a8">
-            Prien
-          </note>
-          <note n="73bb397b">
-            Nr 91
-          </note>
-          <note type="date" n="bffbbd86">
-            Måndagen den 9 mars 1981
-          </note>
-          <note n="ad0738cf">
-            15
-          </note>
-          <pb n="15" facs="https://betalab.kb.se/prot-198081--91/prot_198081__91-015.jp2/_view"/>
-          <note n="73bb397b">
-            Nr 91
-          </note>
-          <note type="date" n="bffbbd86">
-            Måndagen den 9 mars 1981
-          </note>
-          <note n="c07acc27">
-            16
-          </note>
-          <pb n="16" facs="https://betalab.kb.se/prot-198081--91/prot_198081__91-016.jp2/_view"/>
-          <note n="0d6ccdf3">
-            Anf. 16 Handelsministern STAFFAN BURENSTAM LINDER:
-          </note>
-          <note n="9b997bac">
-            2 Riksdagens protokoll 1980/81:91-92
-          </note>
-          <note n="73bb397b">
-            Nr 91
-          </note>
-          <note type="date" n="bffbbd86">
-            Måndagen den 9 mars 1981
-          </note>
-          <note n="f29fc807">
-            Om konsument-
-          </note>
-          <note n="25e29e4f">
-            politiken
-          </note>
-          <note n="a0cda447">
-            17
-          </note>
-          <pb n="17" facs="https://betalab.kb.se/prot-198081--91/prot_198081__91-017.jp2/_view"/>
-          <note n="73bb397b">
-            Nr 91
-          </note>
-          <note type="date" n="bffbbd86">
-            Måndagen den 9 mars 1981
-          </note>
-          <note n="483a7f3c">
-            18
-          </note>
-          <pb n="18" facs="https://betalab.kb.se/prot-198081--91/prot_198081__91-018.jp2/_view"/>
           <note type="speaker" n="be536038">
             Anf. 17 CARL LIDBOM (s) replik:
           </note>
-          <u who="carl_lidbom_ac40e3" xml:id="i-bcdcc300d62e58a2-1" next="i-e202ce48a230e9e8-1" n="4704de65">
+          <u who="carl_lidbom_ac40e3" xml:id="i-4704de65a297f0c2-20" next="i-4704de65a297f0c2-26" n="4704de65">
             <seg n="f1221033">
               Herr talman! Vissa borgerliga politiker sitter fast i gamla ingrodda
               vanor från fordomdags. De har vant sig vid att interpellationsdebatter
@@ -1626,9 +1680,20 @@
           <note n="25e29e4f">
             politiken
           </note>
-          <u who="carl_lidbom_ac40e3" xml:id="i-e202ce48a230e9e8-1" prev="i-bcdcc300d62e58a2-1" n="4704de65">
-            <seg n="9bcdb096"/>
-            <seg n="9bcdb096"/>
+          <u who="carl_lidbom_ac40e3" xml:id="i-4704de65a297f0c2-21" prev="i-4704de65a297f0c2-20" n="4704de65"/>
+          <note n="75fa1b7d">
+            19
+          </note>
+          <u who="carl_lidbom_ac40e3" xml:id="i-4704de65a297f0c2-22" prev="i-4704de65a297f0c2-20" n="4704de65"/>
+          <pb n="19" facs="https://betalab.kb.se/prot-198081--91/prot_198081__91-019.jp2/_view"/>
+          <u who="carl_lidbom_ac40e3" xml:id="i-4704de65a297f0c2-23" prev="i-4704de65a297f0c2-20" n="4704de65"/>
+          <note n="73bb397b">
+            Nr 91
+          </note>
+          <note type="date" n="bffbbd86">
+            Måndagen den 9 mars 1981
+          </note>
+          <u who="carl_lidbom_ac40e3" xml:id="i-4704de65a297f0c2-24" prev="i-4704de65a297f0c2-20" n="4704de65">
             <seg n="ef98195c">
               Om konsumentpolitiken
             </seg>
@@ -1673,6 +1738,11 @@
               avser — men det andra exemplet, om produktutveckling, sade han
               inte ett ord om.
             </seg>
+          </u>
+          <note n="08a7d0ee">
+            Anf. 18 Handelsministern STAFFAN BURENSTAM LINDER:
+          </note>
+          <u who="carl_lidbom_ac40e3" xml:id="i-4704de65a297f0c2-25" prev="i-4704de65a297f0c2-20" n="4704de65">
             <seg n="287f2368">
               Herr talman! Det är förvånansvärt att Carl Lidbom, som ju ändå
               är så intresserad av konsumentpolitik — något som jag i hög grad
@@ -1694,7 +1764,9 @@
               konsument-
             </seg>
             <seg n="9bcdb096"/>
-            <seg n="9bcdb096"/>
+          </u>
+          <pb n="20" facs="https://betalab.kb.se/prot-198081--91/prot_198081__91-020.jp2/_view"/>
+          <u who="carl_lidbom_ac40e3" xml:id="i-4704de65a297f0c2-26" prev="i-4704de65a297f0c2-20" n="4704de65">
             <seg n="1de53e32">
               politik, något som jag har exemplifierat. Det gäller oavsett
               de etiketter som Carl Lidbom klistrar på den.
@@ -1729,24 +1801,10 @@
               att göras.
             </seg>
           </u>
-          <note n="75fa1b7d">
-            19
-          </note>
-          <pb n="19" facs="https://betalab.kb.se/prot-198081--91/prot_198081__91-019.jp2/_view"/>
-          <note n="73bb397b">
-            Nr 91
-          </note>
-          <note type="date" n="bffbbd86">
-            Måndagen den 9 mars 1981
-          </note>
-          <note n="08a7d0ee">
-            Anf. 18 Handelsministern STAFFAN BURENSTAM LINDER:
-          </note>
-          <pb n="20" facs="https://betalab.kb.se/prot-198081--91/prot_198081__91-020.jp2/_view"/>
           <note type="speaker" n="30f24f02">
             Anf. 19 CARL LIDBOM (s) replik:
           </note>
-          <u who="carl_lidbom_ac40e3" xml:id="i-bcdcc300d62e58a2-2" next="i-e202ce48a230e9e8-2" n="4704de65">
+          <u who="carl_lidbom_ac40e3" xml:id="i-4704de65a297f0c2-27" next="i-4704de65a297f0c2-31" n="4704de65">
             <seg n="47b3f10a">
               Herr talman! Ja, vill man inte höra täpper man till öronen, och
               vill man inte tala om konsumentpolitik talar man om något annat
@@ -1793,11 +1851,24 @@
           <note n="5e5eb431">
             2
           </note>
-          <u who="carl_lidbom_ac40e3" xml:id="i-e202ce48a230e9e8-2" prev="i-bcdcc300d62e58a2-2" n="4704de65">
-            <seg n="9bcdb096"/>
+          <u who="carl_lidbom_ac40e3" xml:id="i-4704de65a297f0c2-28" prev="i-4704de65a297f0c2-27" n="4704de65"/>
+          <pb n="21" facs="https://betalab.kb.se/prot-198081--91/prot_198081__91-021.jp2/_view"/>
+          <u who="carl_lidbom_ac40e3" xml:id="i-4704de65a297f0c2-29" prev="i-4704de65a297f0c2-27" n="4704de65"/>
+          <note n="73bb397b">
+            Nr 91
+          </note>
+          <note type="date" n="bffbbd86">
+            Måndagen den 9 mars 1981
+          </note>
+          <u who="carl_lidbom_ac40e3" xml:id="i-4704de65a297f0c2-30" prev="i-4704de65a297f0c2-27" n="4704de65">
             <seg n="ef98195c">
               Om konsumentpolitiken
             </seg>
+          </u>
+          <note n="47c56f13">
+            22
+          </note>
+          <u who="carl_lidbom_ac40e3" xml:id="i-4704de65a297f0c2-31" prev="i-4704de65a297f0c2-27" n="4704de65">
             <seg n="90550789">
               All right — den debatten har handelsministern inte velat ta.
               I stället talar han om allt möjligt annat. Han börjar beskylla
@@ -1846,20 +1917,10 @@
               ödesmättad stämning utifrån det förhållandet.
             </seg>
           </u>
-          <pb n="21" facs="https://betalab.kb.se/prot-198081--91/prot_198081__91-021.jp2/_view"/>
-          <note n="73bb397b">
-            Nr 91
-          </note>
-          <note type="date" n="bffbbd86">
-            Måndagen den 9 mars 1981
-          </note>
-          <note n="47c56f13">
-            22
-          </note>
           <note type="speaker" n="3ea2459e">
             Anf. 21 HADAR CARS (fp):
           </note>
-          <u who="unknown" xml:id="i-9bf088fc342d4b38-2" n="5da6d384">
+          <u who="unknown" xml:id="i-5da6d384ed9324a1-24" n="5da6d384">
             <seg n="49e21651">
               Herr talman! Som konsument upplever jag det som mycket positivt
               att jämförpriser har kommit att bli allt vanligare. Det är klart
@@ -1879,7 +1940,9 @@
               många människor tvingas skära ned sin konsumtion, är en utbredd
             </seg>
             <seg n="9bcdb096"/>
-            <seg n="9bcdb096"/>
+          </u>
+          <pb n="22" facs="https://betalab.kb.se/prot-198081--91/prot_198081__91-022.jp2/_view"/>
+          <u who="unknown" xml:id="i-5da6d384ed9324a1-25" n="5da6d384">
             <seg n="9bcdb096"/>
             <seg n="1d0bc5ec">
               användning av jämförpriser en landvinning av stort värde både
@@ -1945,21 +2008,30 @@
               skall gå till verket
             </seg>
           </u>
-          <pb n="22" facs="https://betalab.kb.se/prot-198081--91/prot_198081__91-022.jp2/_view"/>
           <note n="73bb397b">
             Nr 91
           </note>
           <note type="date" n="bffbbd86">
             Måndagen den 9 mars 1981
           </note>
-          <u who="unknown" xml:id="i-b1f673f258a1059b-2" n="5da6d384">
+          <u who="unknown" xml:id="i-5da6d384ed9324a1-26" n="5da6d384">
             <seg n="ef98195c">
               Om konsumentpolitiken
             </seg>
             <seg n="9bcdb096"/>
             <seg n="9bcdb096"/>
+          </u>
+          <pb n="23" facs="https://betalab.kb.se/prot-198081--91/prot_198081__91-023.jp2/_view"/>
+          <u who="unknown" xml:id="i-5da6d384ed9324a1-27" n="5da6d384">
             <seg n="9bcdb096"/>
-            <seg n="9bcdb096"/>
+          </u>
+          <note n="73bb397b">
+            Nr 91
+          </note>
+          <note type="date" n="bffbbd86">
+            Måndagen den 9 mars 1981
+          </note>
+          <u who="unknown" xml:id="i-5da6d384ed9324a1-28" n="5da6d384">
             <seg n="ef98195c">
               Om konsumentpolitiken
             </seg>
@@ -1968,17 +2040,10 @@
               nalkas sin faders sår.
             </seg>
           </u>
-          <pb n="23" facs="https://betalab.kb.se/prot-198081--91/prot_198081__91-023.jp2/_view"/>
-          <note n="73bb397b">
-            Nr 91
-          </note>
-          <note type="date" n="bffbbd86">
-            Måndagen den 9 mars 1981
-          </note>
           <note type="speaker" n="708cad1e">
             Anf. 22 CARL LIDBOM (s):
           </note>
-          <u who="carl_lidbom_ac40e3" xml:id="i-bcdcc300d62e58a2-3" next="i-e202ce48a230e9e8-3" n="4704de65">
+          <u who="carl_lidbom_ac40e3" xml:id="i-4704de65a297f0c2-32" next="i-4704de65a297f0c2-34" n="4704de65">
             <seg n="d5d5a252">
               Herr talman! Jag har begärt ordet, men det är med en viss tvekan
               som jag begagnar mig av denna förmån — debatten börjar f. ö. likna
@@ -2037,17 +2102,18 @@
             </seg>
             <seg n="9bcdb096"/>
             <seg n="9bcdb096"/>
-            <seg n="9bcdb096"/>
+          </u>
+          <pb n="24" facs="https://betalab.kb.se/prot-198081--91/prot_198081__91-024.jp2/_view"/>
+          <u who="carl_lidbom_ac40e3" xml:id="i-4704de65a297f0c2-33" prev="i-4704de65a297f0c2-32" n="4704de65">
             <seg n="4f95a183">
               uppgift är att hjälpa de svaga konsumenterna. Den blir extra
               viktig när svaga konsumenter trängs hårt i dåliga ekonomiska tider.
             </seg>
           </u>
-          <pb n="24" facs="https://betalab.kb.se/prot-198081--91/prot_198081__91-024.jp2/_view"/>
           <note n="3f3eaf3c">
             Anf. 23 Handelsministern STAFFAN BURENSTAM LINDER:
           </note>
-          <u who="carl_lidbom_ac40e3" xml:id="i-e202ce48a230e9e8-3" prev="i-bcdcc300d62e58a2-3" n="4704de65">
+          <u who="carl_lidbom_ac40e3" xml:id="i-4704de65a297f0c2-34" prev="i-4704de65a297f0c2-32" n="4704de65">
             <seg n="fc8f29f1">
               Herr talman! Herr Lidbom sade att det var med viss tvekan han
               tog till orda. Jag vill bara säga att jag tycker att det alltid
@@ -2068,7 +2134,7 @@
           <note type="speaker" n="f4cf0f71">
             Anf. 24 HADAR CARS (fp):
           </note>
-          <u who="unknown" xml:id="i-7440ab63685125a0-1" n="5da6d384">
+          <u who="unknown" xml:id="i-5da6d384ed9324a1-29" n="5da6d384">
             <seg n="678cae5c">
               Herr talman! För mig finns det ingen anledning att uppleva någon
               kluvenhet i mitt försvar för marknadsekonomin och för en väl fungerande
@@ -2091,7 +2157,7 @@
           <note type="speaker" n="34685c82">
             Anf. 25 CARL LIDBOM (s):
           </note>
-          <u who="carl_lidbom_ac40e3" xml:id="i-1d1d83e3322f66f5-0" n="4704de65">
+          <u who="carl_lidbom_ac40e3" xml:id="i-4704de65a297f0c2-35" n="4704de65">
             <seg n="24d3e2ac">
               Herr talman! Det här blir, tyvärr, en allt bedrövligare debatt.
             </seg>
@@ -2115,7 +2181,7 @@
           <note type="speaker" n="66800e43">
             Anf. 26 HADAR CARS (fp):
           </note>
-          <u who="unknown" xml:id="i-9bf088fc342d4b38-3" n="5da6d384">
+          <u who="unknown" xml:id="i-5da6d384ed9324a1-30" n="5da6d384">
             <seg n="16c3bd14">
               Herr talman! Jag beklagar att Carl Lidbom hade så bråttom att
               han inte hann uppfatta vad jag sade. Jag beskyllde ingalunda honom
@@ -2128,14 +2194,24 @@
           <note type="date" n="bffbbd86">
             Måndagen den 9 mars 1981
           </note>
-          <u who="unknown" xml:id="i-b1f673f258a1059b-3" n="5da6d384">
+          <u who="unknown" xml:id="i-5da6d384ed9324a1-31" n="5da6d384">
             <seg n="ef98195c">
               Om konsumentpolitiken
             </seg>
             <seg n="9bcdb096"/>
             <seg n="9bcdb096"/>
+          </u>
+          <pb n="25" facs="https://betalab.kb.se/prot-198081--91/prot_198081__91-025.jp2/_view"/>
+          <u who="unknown" xml:id="i-5da6d384ed9324a1-32" n="5da6d384">
             <seg n="9bcdb096"/>
-            <seg n="9bcdb096"/>
+          </u>
+          <note n="73bb397b">
+            Nr 91
+          </note>
+          <note type="date" n="bffbbd86">
+            Måndagen den 9 mars 1981
+          </note>
+          <u who="unknown" xml:id="i-5da6d384ed9324a1-33" n="5da6d384">
             <seg n="0982d276">
               Om den svenska vapenexporten
             </seg>
@@ -2146,6 +2222,15 @@
               — det kan säkert också Carl Lidbom konstatera — och att de kan
               uppleva ett dilemma, ett dilemma som jag själv aldrig har upplevt.
             </seg>
+          </u>
+          <note n="467120b0">
+            10 $ Svar på interpellationerna 1980/81:91 och 92 om den svenska
+            vapenexporten
+          </note>
+          <note n="aaf1662a">
+            Anf. 27 Handelsministern STAFFAN BURENSTAM LINDER:
+          </note>
+          <u who="unknown" xml:id="i-5da6d384ed9324a1-34" n="5da6d384">
             <seg n="89e070f6">
               Herr talman! Maj Britt Theorin har frågat om jag kan dementera
               uppgifterna att robotsystem 70 finns i Dubai och Bahrein och om
@@ -2162,6 +2247,13 @@
               samtliga partier inrättas för att följa och kontrollera den svenska
               exporten av krigsmateriel.
             </seg>
+          </u>
+          <note n="a6e9a07d">
+            Då Maj Britt Theorins tredje fråga berör samma ämne som den fråga
+            Eva Hjelmström ställer i sin interpellation besvarar jag interpellationerna
+            i ett sammanhang.
+          </note>
+          <u who="unknown" xml:id="i-5da6d384ed9324a1-35" n="5da6d384">
             <seg n="fa73b026">
               Enligt de uppgifter som Maj Britt Theorin refererar till skulle
               robotsystem 70 (RBS 70) finnas i Dubai och Bahrein. Det är självfallet
@@ -2195,7 +2287,16 @@
               att frågan om en
             </seg>
             <seg n="9bcdb096"/>
-            <seg n="9bcdb096"/>
+          </u>
+          <pb n="26" facs="https://betalab.kb.se/prot-198081--91/prot_198081__91-026.jp2/_view"/>
+          <u who="unknown" xml:id="i-5da6d384ed9324a1-36" n="5da6d384"/>
+          <note n="99819229">
+            parlamentarisk nämnd väcktes av 1969 års krigsmaterielexportutredning.
+            Vid remissbehandlingen av utredningens betänkande restes flera
+            tungt vägande invändningar mot att en sådan rådgivande nämnd som
+            den av utredningen föreslagna inrättades.
+          </note>
+          <u who="unknown" xml:id="i-5da6d384ed9324a1-37" n="5da6d384">
             <seg n="237507f0">
               I den proposition som år 1971 (1971:146) följde på utredningen
               framhöll föredragande statsrådet att konstitutionella skäl talade
@@ -2210,6 +2311,14 @@
               samråda med företrädare för riksdagen. Dåvarande handelsministern
               uttalade som sin mening att rätt forum för samråd var utrikesnämnden.
             </seg>
+          </u>
+          <note n="314a3d7f">
+            Denna uppfattning, som delades av rikdagen, har senast framförts
+            av utrikesutskottet i det betänkande vari utskottet år 1979 hemställde
+            om en översyn av riktlinjerna för svensk export av krigsmateriel.
+            Betänkandet fick riksdagens godkännande (UU 1978/79:25, rskr 226).
+          </note>
+          <u who="unknown" xml:id="i-5da6d384ed9324a1-38" n="5da6d384">
             <seg n="717ea2fc">
               Utskottet ansåg att utrikesnämnden fyllde den funktion för samråd
               som tidigare diskuterats och att frågan om ett särskilt parlamentariskt
@@ -2238,42 +2347,10 @@
               ibland också tillsammans med andra departement.
             </seg>
           </u>
-          <pb n="25" facs="https://betalab.kb.se/prot-198081--91/prot_198081__91-025.jp2/_view"/>
-          <note n="73bb397b">
-            Nr 91
-          </note>
-          <note type="date" n="bffbbd86">
-            Måndagen den 9 mars 1981
-          </note>
-          <note n="467120b0">
-            10 $ Svar på interpellationerna 1980/81:91 och 92 om den svenska
-            vapenexporten
-          </note>
-          <note n="aaf1662a">
-            Anf. 27 Handelsministern STAFFAN BURENSTAM LINDER:
-          </note>
-          <note n="a6e9a07d">
-            Då Maj Britt Theorins tredje fråga berör samma ämne som den fråga
-            Eva Hjelmström ställer i sin interpellation besvarar jag interpellationerna
-            i ett sammanhang.
-          </note>
-          <pb n="26" facs="https://betalab.kb.se/prot-198081--91/prot_198081__91-026.jp2/_view"/>
-          <note n="99819229">
-            parlamentarisk nämnd väcktes av 1969 års krigsmaterielexportutredning.
-            Vid remissbehandlingen av utredningens betänkande restes flera
-            tungt vägande invändningar mot att en sådan rådgivande nämnd som
-            den av utredningen föreslagna inrättades.
-          </note>
-          <note n="314a3d7f">
-            Denna uppfattning, som delades av rikdagen, har senast framförts
-            av utrikesutskottet i det betänkande vari utskottet år 1979 hemställde
-            om en översyn av riktlinjerna för svensk export av krigsmateriel.
-            Betänkandet fick riksdagens godkännande (UU 1978/79:25, rskr 226).
-          </note>
           <note type="speaker" n="c93fe93a">
             Anf. 28 MAJ BRITT THEORIN (s):
           </note>
-          <u who="maj_britt_theorin_678716" xml:id="i-ebc079f7eb429dc8-0" next="i-a02c9eb030a721f7-0" n="f1ab2aff">
+          <u who="maj_britt_theorin_678716" xml:id="i-f1ab2aff0fdf6796-0" next="i-f1ab2aff0fdf6796-21" n="f1ab2aff">
             <seg n="2c729567">
               Herr talman! Jag tackar för svaret på min interpellation.
             </seg>
@@ -2295,12 +2372,24 @@
           <note type="date" n="bffbbd86">
             Måndagen den 9 mars 1981
           </note>
-          <u who="maj_britt_theorin_678716" xml:id="i-a02c9eb030a721f7-0" prev="i-ebc079f7eb429dc8-0" n="f1ab2aff">
+          <u who="maj_britt_theorin_678716" xml:id="i-f1ab2aff0fdf6796-1" prev="i-f1ab2aff0fdf6796-0" n="f1ab2aff">
             <seg n="0982d276">
               Om den svenska vapenexporten
             </seg>
-            <seg n="9bcdb096"/>
-            <seg n="9bcdb096"/>
+          </u>
+          <note n="9d22af5d">
+            27
+          </note>
+          <u who="maj_britt_theorin_678716" xml:id="i-f1ab2aff0fdf6796-2" prev="i-f1ab2aff0fdf6796-0" n="f1ab2aff"/>
+          <pb n="27" facs="https://betalab.kb.se/prot-198081--91/prot_198081__91-027.jp2/_view"/>
+          <u who="maj_britt_theorin_678716" xml:id="i-f1ab2aff0fdf6796-3" prev="i-f1ab2aff0fdf6796-0" n="f1ab2aff"/>
+          <note n="73bb397b">
+            Nr 91
+          </note>
+          <note type="date" n="bffbbd86">
+            Måndagen den 9 mars 1981
+          </note>
+          <u who="maj_britt_theorin_678716" xml:id="i-f1ab2aff0fdf6796-4" prev="i-f1ab2aff0fdf6796-0" n="f1ab2aff">
             <seg n="0982d276">
               Om den svenska vapenexporten
             </seg>
@@ -2309,6 +2398,24 @@
               robotar RBS 70, sålts till Mellersta Östern, närmare bestämt till
               Dubai och Bahrein.
             </seg>
+          </u>
+          <note n="8ca6b8ac">
+            ”In the course of extensive inquiries into the arms trade however
+            we have been told that these laser-guided missiles have been sold
+            to Bahrain and Dubai. Reliable diplomatic sources and senior executives
+            of large non- Swedish arms manufacturers told us that the deals
+            have gone through. ——- We have seen the RBS-70 deployed in Bahrain
+            at the outbreak of the Iran-Iraq war, a senior arms industry executive
+            said last week. —-—-—- In Dubai, a diplomatic source said that
+            the purchase of the RBS-70 by the Dubai Central Command was ”common
+            knowledge”. -—-- Arms industry sources indicated that a company
+            owned by a South East Asian government may have been involved
+            in the transactions.”
+          </note>
+          <note n="0a964c26">
+            (Inofficiell översättning:
+          </note>
+          <u who="maj_britt_theorin_678716" xml:id="i-f1ab2aff0fdf6796-5" prev="i-f1ab2aff0fdf6796-0" n="f1ab2aff">
             <seg n="5f63cdc5">
               Under loppet av omfattande undersökningar av vapenhandeln har
               man emellertid meddelat oss att dessa laserstyrda missiler har
@@ -2331,12 +2438,27 @@
               Enligt Military Balance har Bahrein och Dubai redan RBS 70, och
               Tunisien har roboten på order.
             </seg>
+          </u>
+          <note n="80c03733">
+            Uppgifterna bekräftas i Defense &amp; Foreign Affairs Daily av den
+            23 april 1980:
+          </note>
+          <u who="maj_britt_theorin_678716" xml:id="i-f1ab2aff0fdf6796-6" prev="i-f1ab2aff0fdf6796-0" n="f1ab2aff">
             <seg n="7cc5d87e">
               ”Reliable sources in Dubai indicate that the Emirate is to take
               delivery of its Swedish Bofors RBS-70 mobile surface-to-air missile
               systems (SAMSs) in July, via a cut-out organization in Singapore.
               ——--
             </seg>
+          </u>
+          <note n="58c5cfc3">
+            Two other Middle Eastern states — Tunisia and Bahrain — have
+            already also ordered RBS-70s, with deliveries via Singapore.”
+          </note>
+          <note n="0a964c26">
+            (Inofficiell översättning:
+          </note>
+          <u who="maj_britt_theorin_678716" xml:id="i-f1ab2aff0fdf6796-7" prev="i-f1ab2aff0fdf6796-0" n="f1ab2aff">
             <seg n="6651b13a">
               Pålitliga källor i Dubai antyder att emiratet kommer att få sitt
               svenska rörliga Bofors RBS 70 landbaserade raketsystem (SAM) levererat
@@ -2346,6 +2468,11 @@
               Också två andra stater i Mellanöstern — Tunisien och Bahrein
               — har redan beställt RBS 70-system, med leverans via Singapore.)
             </seg>
+          </u>
+          <note n="90214f49">
+            I Strategic Mid-East &amp; Africa bekräftas uppgifterna likaså:
+          </note>
+          <u who="maj_britt_theorin_678716" xml:id="i-f1ab2aff0fdf6796-8" prev="i-f1ab2aff0fdf6796-0" n="f1ab2aff">
             <seg n="6b43ccab">
               ”The Swedish defence manufacturer, AB Bofors, has defied Swedish
               laws prohibiting the sale of arms to the Middle East and has provided
@@ -2354,7 +2481,9 @@
             </seg>
             <seg n="9bcdb096"/>
             <seg n="9bcdb096"/>
-            <seg n="9bcdb096"/>
+          </u>
+          <pb n="28" facs="https://betalab.kb.se/prot-198081--91/prot_198081__91-028.jp2/_view"/>
+          <u who="maj_britt_theorin_678716" xml:id="i-f1ab2aff0fdf6796-9" prev="i-f1ab2aff0fdf6796-0" n="f1ab2aff">
             <seg n="e659d6d8">
               The three countries concerned are: Tunisia, Dubai and Bahrain.
               According to highly reliable sources, the transactions were carried
@@ -2362,6 +2491,11 @@
               for the RBS-70 system were shipped to Singapore for assembly before
               being trans-shipped to the client states in the Middle East.”
             </seg>
+          </u>
+          <note n="0a964c26">
+            (Inofficiell översättning:
+          </note>
+          <u who="maj_britt_theorin_678716" xml:id="i-f1ab2aff0fdf6796-10" prev="i-f1ab2aff0fdf6796-0" n="f1ab2aff">
             <seg n="ceb402c4">
               Den svenska tillverkaren av försvarsmateriel, AB Bofors, har
               trotsat svenska lagar som förbjuder försäljning av vapen till
@@ -2419,9 +2553,26 @@
               Det är uppenbart att den svenska lagstiftningen inte är till
               fyllest för att
             </seg>
-            <seg n="9bcdb096"/>
-            <seg n="9bcdb096"/>
-            <seg n="9bcdb096"/>
+          </u>
+          <note n="73bb397b">
+            Nr 91
+          </note>
+          <note type="date" n="bffbbd86">
+            Måndagen den 9 mars 1981
+          </note>
+          <note n="aae64bf7">
+            Om den svenska
+          </note>
+          <note n="af964ba9">
+            vapenexporten
+          </note>
+          <u who="maj_britt_theorin_678716" xml:id="i-f1ab2aff0fdf6796-11" prev="i-f1ab2aff0fdf6796-0" n="f1ab2aff"/>
+          <note n="95661acb">
+            29
+          </note>
+          <u who="maj_britt_theorin_678716" xml:id="i-f1ab2aff0fdf6796-12" prev="i-f1ab2aff0fdf6796-0" n="f1ab2aff"/>
+          <pb n="29" facs="https://betalab.kb.se/prot-198081--91/prot_198081__91-029.jp2/_view"/>
+          <u who="maj_britt_theorin_678716" xml:id="i-f1ab2aff0fdf6796-13" prev="i-f1ab2aff0fdf6796-0" n="f1ab2aff">
             <seg n="8cdbf2b9">
               Nr 91 uppfylla intentionerna från 1971. Det är också uppenbart
               att kontrollen av Måndagen den den svenska vapenhandeln är mycket
@@ -2451,6 +2602,11 @@
             <seg n="69962325">
               the main document required to obtain an export licence.”
             </seg>
+          </u>
+          <note n="0a964c26">
+            (Inofficiell översättning:
+          </note>
+          <u who="maj_britt_theorin_678716" xml:id="i-f1ab2aff0fdf6796-14" prev="i-f1ab2aff0fdf6796-0" n="f1ab2aff">
             <seg n="ccafa8a3">
               Dokument kan köpas i London. —- -- Dokumenten, s. k. slutanvändarintyg,
               kan köpas i utbyte mot kontanter eller andra förmåner vid några
@@ -2492,9 +2648,16 @@
               vapenexporten, inte vill ha någon parlamentarisk nämnd som fattar
               beslut om exporten,
             </seg>
+          </u>
+          <note n="d1055e52">
+            30 och årligen lämnar en redovisning till riksdagen samt kontrollerar
+            vapen-
+          </note>
+          <u who="maj_britt_theorin_678716" xml:id="i-f1ab2aff0fdf6796-15" prev="i-f1ab2aff0fdf6796-0" n="f1ab2aff">
             <seg n="9bcdb096"/>
-            <seg n="9bcdb096"/>
-            <seg n="9bcdb096"/>
+          </u>
+          <pb n="30" facs="https://betalab.kb.se/prot-198081--91/prot_198081__91-030.jp2/_view"/>
+          <u who="maj_britt_theorin_678716" xml:id="i-f1ab2aff0fdf6796-16" prev="i-f1ab2aff0fdf6796-0" n="f1ab2aff">
             <seg n="f82b60e5">
               kontrakten och deras efterlevnad, måste det rimligen bli riksdagens
               sak att ta ställning till denna fråga.
@@ -2562,13 +2725,43 @@
               årligen redovisar till riksdagen dess inriktning och omfattning,
               samt att licenstillverkning och reexport av svenska vapen
             </seg>
+          </u>
+          <note n="73bb397b">
+            Nr 91
+          </note>
+          <note type="date" n="bffbbd86">
+            Måndagen den 9 mars 1981
+          </note>
+          <note n="aae64bf7">
+            Om den svenska
+          </note>
+          <note n="af964ba9">
+            vapenexporten
+          </note>
+          <u who="maj_britt_theorin_678716" xml:id="i-f1ab2aff0fdf6796-17" prev="i-f1ab2aff0fdf6796-0" n="f1ab2aff"/>
+          <note n="d0502742">
+            31
+          </note>
+          <u who="maj_britt_theorin_678716" xml:id="i-f1ab2aff0fdf6796-18" prev="i-f1ab2aff0fdf6796-0" n="f1ab2aff"/>
+          <pb n="31" facs="https://betalab.kb.se/prot-198081--91/prot_198081__91-031.jp2/_view"/>
+          <u who="maj_britt_theorin_678716" xml:id="i-f1ab2aff0fdf6796-19" prev="i-f1ab2aff0fdf6796-0" n="f1ab2aff">
             <seg n="9bcdb096"/>
-            <seg n="9bcdb096"/>
-            <seg n="9bcdb096"/>
-            <seg n="9bcdb096"/>
+          </u>
+          <note n="73bb397b">
+            Nr 91
+          </note>
+          <note type="date" n="bffbbd86">
+            Måndagen den 9 mars 1981
+          </note>
+          <u who="maj_britt_theorin_678716" xml:id="i-f1ab2aff0fdf6796-20" prev="i-f1ab2aff0fdf6796-0" n="f1ab2aff">
             <seg n="0982d276">
               Om den svenska vapenexporten
             </seg>
+          </u>
+          <note n="f60e09b4">
+            32
+          </note>
+          <u who="maj_britt_theorin_678716" xml:id="i-f1ab2aff0fdf6796-21" prev="i-f1ab2aff0fdf6796-0" n="f1ab2aff">
             <seg n="43dec770">
               underordnas svensk lagstiftning. Det blir därmed riksdagens sak
               att ta ställning till detta, oavsett om regeringen kommer med
@@ -2592,103 +2785,10 @@
               beredd att vidta för att intentionerna i lagen skall följas?
             </seg>
           </u>
-          <note n="9d22af5d">
-            27
-          </note>
-          <pb n="27" facs="https://betalab.kb.se/prot-198081--91/prot_198081__91-027.jp2/_view"/>
-          <note n="73bb397b">
-            Nr 91
-          </note>
-          <note type="date" n="bffbbd86">
-            Måndagen den 9 mars 1981
-          </note>
-          <note n="8ca6b8ac">
-            ”In the course of extensive inquiries into the arms trade however
-            we have been told that these laser-guided missiles have been sold
-            to Bahrain and Dubai. Reliable diplomatic sources and senior executives
-            of large non- Swedish arms manufacturers told us that the deals
-            have gone through. ——- We have seen the RBS-70 deployed in Bahrain
-            at the outbreak of the Iran-Iraq war, a senior arms industry executive
-            said last week. —-—-—- In Dubai, a diplomatic source said that
-            the purchase of the RBS-70 by the Dubai Central Command was ”common
-            knowledge”. -—-- Arms industry sources indicated that a company
-            owned by a South East Asian government may have been involved
-            in the transactions.”
-          </note>
-          <note n="0a964c26">
-            (Inofficiell översättning:
-          </note>
-          <note n="80c03733">
-            Uppgifterna bekräftas i Defense &amp; Foreign Affairs Daily av den
-            23 april 1980:
-          </note>
-          <note n="58c5cfc3">
-            Two other Middle Eastern states — Tunisia and Bahrain — have
-            already also ordered RBS-70s, with deliveries via Singapore.”
-          </note>
-          <note n="0a964c26">
-            (Inofficiell översättning:
-          </note>
-          <note n="90214f49">
-            I Strategic Mid-East &amp; Africa bekräftas uppgifterna likaså:
-          </note>
-          <pb n="28" facs="https://betalab.kb.se/prot-198081--91/prot_198081__91-028.jp2/_view"/>
-          <note n="0a964c26">
-            (Inofficiell översättning:
-          </note>
-          <note n="73bb397b">
-            Nr 91
-          </note>
-          <note type="date" n="bffbbd86">
-            Måndagen den 9 mars 1981
-          </note>
-          <note n="aae64bf7">
-            Om den svenska
-          </note>
-          <note n="af964ba9">
-            vapenexporten
-          </note>
-          <note n="95661acb">
-            29
-          </note>
-          <pb n="29" facs="https://betalab.kb.se/prot-198081--91/prot_198081__91-029.jp2/_view"/>
-          <note n="0a964c26">
-            (Inofficiell översättning:
-          </note>
-          <note n="d1055e52">
-            30 och årligen lämnar en redovisning till riksdagen samt kontrollerar
-            vapen-
-          </note>
-          <pb n="30" facs="https://betalab.kb.se/prot-198081--91/prot_198081__91-030.jp2/_view"/>
-          <note n="73bb397b">
-            Nr 91
-          </note>
-          <note type="date" n="bffbbd86">
-            Måndagen den 9 mars 1981
-          </note>
-          <note n="aae64bf7">
-            Om den svenska
-          </note>
-          <note n="af964ba9">
-            vapenexporten
-          </note>
-          <note n="d0502742">
-            31
-          </note>
-          <pb n="31" facs="https://betalab.kb.se/prot-198081--91/prot_198081__91-031.jp2/_view"/>
-          <note n="73bb397b">
-            Nr 91
-          </note>
-          <note type="date" n="bffbbd86">
-            Måndagen den 9 mars 1981
-          </note>
-          <note n="f60e09b4">
-            32
-          </note>
           <note type="speaker" n="d60ecb3c">
             Anf. 29 TALMANNEN:
           </note>
-          <u who="unknown" xml:id="i-7440ab63685125a0-2" n="5da6d384">
+          <u who="unknown" xml:id="i-5da6d384ed9324a1-39" n="5da6d384">
             <seg n="5592ced5">
               Jag vill meddela att de delar av Maj Britt Theorins anförande
               som utgörs av engelsk citerad text kommer att införas i protokollet
@@ -2698,7 +2798,7 @@
           <note type="speaker" n="00ca37a1">
             Anf. 30 EVA HJELMSTRÖM (vpk):
           </note>
-          <u who="eva_hjelmstrom_78bb57" xml:id="i-151fbef3670ec261-0" next="i-53f774fc601f724f-0" n="223b229e">
+          <u who="eva_hjelmstrom_78bb57" xml:id="i-223b229ee14ecc55-0" next="i-223b229ee14ecc55-6" n="223b229e">
             <seg n="edc7db83">
               Herr talman! Jag tackar handelsministern för svaret på min interpellation.
             </seg>
@@ -2756,6 +2856,9 @@
               inte givits
             </seg>
             <seg n="9bcdb096"/>
+          </u>
+          <pb n="32" facs="https://betalab.kb.se/prot-198081--91/prot_198081__91-032.jp2/_view"/>
+          <u who="eva_hjelmstrom_78bb57" xml:id="i-223b229ee14ecc55-1" prev="i-223b229ee14ecc55-0" n="223b229e">
             <seg n="529915be">
               för försäljning dit, vilket är en helt annan sak. Detta liksom
               de tidigare uppräknade fallen visar bara på ohållbarheten i de
@@ -2821,7 +2924,6 @@
               i tredje världen. Det har från
             </seg>
           </u>
-          <pb n="32" facs="https://betalab.kb.se/prot-198081--91/prot_198081__91-032.jp2/_view"/>
           <note n="2ac57e75">
             3 Riksdagens protokoll 1980/81:91-92
           </note>
@@ -2837,15 +2939,31 @@
           <note n="af964ba9">
             vapenexporten
           </note>
-          <u who="eva_hjelmstrom_78bb57" xml:id="i-53f774fc601f724f-0" prev="i-151fbef3670ec261-0" n="223b229e">
+          <u who="eva_hjelmstrom_78bb57" xml:id="i-223b229ee14ecc55-2" prev="i-223b229ee14ecc55-0" n="223b229e"/>
+          <note n="07b03d56">
+            33
+          </note>
+          <u who="eva_hjelmstrom_78bb57" xml:id="i-223b229ee14ecc55-3" prev="i-223b229ee14ecc55-0" n="223b229e"/>
+          <pb n="33" facs="https://betalab.kb.se/prot-198081--91/prot_198081__91-033.jp2/_view"/>
+          <u who="eva_hjelmstrom_78bb57" xml:id="i-223b229ee14ecc55-4" prev="i-223b229ee14ecc55-0" n="223b229e">
             <seg n="9bcdb096"/>
             <seg n="9bcdb096"/>
-            <seg n="9bcdb096"/>
-            <seg n="9bcdb096"/>
+          </u>
+          <note n="73bb397b">
+            Nr 91
+          </note>
+          <note type="date" n="bffbbd86">
+            Måndagen den 9 mars 1981
+          </note>
+          <u who="eva_hjelmstrom_78bb57" xml:id="i-223b229ee14ecc55-5" prev="i-223b229ee14ecc55-0" n="223b229e">
             <seg n="0982d276">
               Om den svenska vapenexporten
             </seg>
-            <seg n="9bcdb096"/>
+          </u>
+          <note n="0050caac">
+            34
+          </note>
+          <u who="eva_hjelmstrom_78bb57" xml:id="i-223b229ee14ecc55-6" prev="i-223b229ee14ecc55-0" n="223b229e">
             <seg n="3bc72092">
               svenskt håll påståtts att vapenexporten är nödvändig för försvaret.
               Flera forskare har påvisat det orimliga i denna argumentation.
@@ -2893,29 +3011,16 @@
               sådana jämförelser. Det är dags att ta ansvar också för rustningsspiralen.
             </seg>
           </u>
-          <note n="07b03d56">
-            33
-          </note>
-          <pb n="33" facs="https://betalab.kb.se/prot-198081--91/prot_198081__91-033.jp2/_view"/>
-          <note n="73bb397b">
-            Nr 91
-          </note>
-          <note type="date" n="bffbbd86">
-            Måndagen den 9 mars 1981
-          </note>
-          <note n="0050caac">
-            34
-          </note>
           <note type="speaker" n="821d2d91">
             Anf. 31 SVEN-ERIK NORDIN (c):
           </note>
-          <u who="sven-erik_nordin_0b006d" xml:id="i-3b2232c3a71e9075-0" next="i-c0d777f5bf660820-0" n="7a53afdf"/>
+          <u who="sven-erik_nordin_0b006d" xml:id="i-107444c77d1a08bc-0" next="i-107444c77d1a08bc-8" n="7a53afdf"/>
           <note n="fe98e471">
             Herr talman! De frågor som Eva Hjelmström och Maj Britt Theorin
             ställt här är konstitutionellt intressanta, och jag skall uppehålla
             mig vid den konstitutionella problematiken.
           </note>
-          <u who="sven-erik_nordin_0b006d" xml:id="i-c0d777f5bf660820-0" prev="i-3b2232c3a71e9075-0" n="7a53afdf">
+          <u who="sven-erik_nordin_0b006d" xml:id="i-107444c77d1a08bc-1" prev="i-107444c77d1a08bc-0" n="7a53afdf">
             <seg n="8107a06a">
               Eva Hjelmström kräver en parlamentarisk nämnd som skall följa
               och kontrollera den svenska vapenexporten. Maj Britt Theorin går
@@ -2935,7 +3040,9 @@
             </seg>
             <seg n="9bcdb096"/>
             <seg n="9bcdb096"/>
-            <seg n="9bcdb096"/>
+          </u>
+          <pb n="34" facs="https://betalab.kb.se/prot-198081--91/prot_198081__91-034.jp2/_view"/>
+          <u who="sven-erik_nordin_0b006d" xml:id="i-107444c77d1a08bc-2" prev="i-107444c77d1a08bc-0" n="7a53afdf">
             <seg n="9bcdb096"/>
             <seg n="ff282087">
               kunna medverka till att frågor rörande krigsmaterielexporten
@@ -2996,16 +3103,47 @@
               men man har inte varit det, eftersom vapenexport är en mycket
               känslig sak. Det är också riktigt att vi ser saken på det sättet.
             </seg>
+          </u>
+          <note n="73bb397b">
+            Nr 91
+          </note>
+          <note type="date" n="bffbbd86">
+            Måndagen den 9 mars 1981
+          </note>
+          <u who="sven-erik_nordin_0b006d" xml:id="i-107444c77d1a08bc-3" prev="i-107444c77d1a08bc-0" n="7a53afdf">
             <seg n="0982d276">
               Om den svenska vapenexporten
             </seg>
+          </u>
+          <note n="161d56f1">
+            35
+          </note>
+          <u who="sven-erik_nordin_0b006d" xml:id="i-107444c77d1a08bc-4" prev="i-107444c77d1a08bc-0" n="7a53afdf">
             <seg n="9bcdb096"/>
+          </u>
+          <pb n="35" facs="https://betalab.kb.se/prot-198081--91/prot_198081__91-035.jp2/_view"/>
+          <u who="sven-erik_nordin_0b006d" xml:id="i-107444c77d1a08bc-5" prev="i-107444c77d1a08bc-0" n="7a53afdf">
             <seg n="9bcdb096"/>
-            <seg n="9bcdb096"/>
-            <seg n="9bcdb096"/>
+          </u>
+          <note n="73bb397b">
+            Nr 91
+          </note>
+          <note type="date" n="bffbbd86">
+            Måndagen den 9 mars 1981
+          </note>
+          <u who="sven-erik_nordin_0b006d" xml:id="i-107444c77d1a08bc-6" prev="i-107444c77d1a08bc-0" n="7a53afdf">
             <seg n="0982d276">
               Om den svenska vapenexporten
             </seg>
+          </u>
+          <note n="4680260a">
+            Under detta anförande övertog förste vice talmannen ledningen
+            av kammarens förhandlingar.
+          </note>
+          <note n="7b1a2340">
+            Anf. 32 Handelsministern STAFFAN BURENSTAM LINDER:
+          </note>
+          <u who="sven-erik_nordin_0b006d" xml:id="i-107444c77d1a08bc-7" prev="i-107444c77d1a08bc-0" n="7a53afdf">
             <seg n="dc7290c2">
               Fru talman! Som jag har konstaterat i mitt interpellationssvar,
               har vi sålt till ett mycket begränsat antal länder — i enlighet
@@ -3066,7 +3204,9 @@
             </seg>
             <seg n="9bcdb096"/>
             <seg n="9bcdb096"/>
-            <seg n="9bcdb096"/>
+          </u>
+          <pb n="36" facs="https://betalab.kb.se/prot-198081--91/prot_198081__91-036.jp2/_view"/>
+          <u who="sven-erik_nordin_0b006d" xml:id="i-107444c77d1a08bc-8" prev="i-107444c77d1a08bc-0" n="7a53afdf">
             <seg n="194df310">
               dessa frågor — var inte att jag ansåg att det var främmande för
               vår författning att ha en sådan nämnd, utan jag återgav de resonemang
@@ -3111,35 +3251,10 @@
               samtidigt som det försiggår öppna parlamentsdebatter?
             </seg>
           </u>
-          <pb n="34" facs="https://betalab.kb.se/prot-198081--91/prot_198081__91-034.jp2/_view"/>
-          <note n="73bb397b">
-            Nr 91
-          </note>
-          <note type="date" n="bffbbd86">
-            Måndagen den 9 mars 1981
-          </note>
-          <note n="161d56f1">
-            35
-          </note>
-          <pb n="35" facs="https://betalab.kb.se/prot-198081--91/prot_198081__91-035.jp2/_view"/>
-          <note n="73bb397b">
-            Nr 91
-          </note>
-          <note type="date" n="bffbbd86">
-            Måndagen den 9 mars 1981
-          </note>
-          <note n="4680260a">
-            Under detta anförande övertog förste vice talmannen ledningen
-            av kammarens förhandlingar.
-          </note>
-          <note n="7b1a2340">
-            Anf. 32 Handelsministern STAFFAN BURENSTAM LINDER:
-          </note>
-          <pb n="36" facs="https://betalab.kb.se/prot-198081--91/prot_198081__91-036.jp2/_view"/>
           <note type="speaker" n="7832bb53">
             Anf. 33 MAJ BRITT THEORIN (s):
           </note>
-          <u who="maj_britt_theorin_678716" xml:id="i-ebc079f7eb429dc8-1" next="i-a02c9eb030a721f7-1" n="f1ab2aff">
+          <u who="maj_britt_theorin_678716" xml:id="i-f1ab2aff0fdf6796-22" next="i-f1ab2aff0fdf6796-28" n="f1ab2aff">
             <seg n="214617a8">
               Fru talman! Så fick vi på nytt bekräftat det vi så många gånger
               har upplevt i denna kammare: Inga uppgifter lämnas ut om vilka
@@ -3170,13 +3285,30 @@
           <note n="af964ba9">
             vapenexporten
           </note>
-          <u who="maj_britt_theorin_678716" xml:id="i-a02c9eb030a721f7-1" prev="i-ebc079f7eb429dc8-1" n="f1ab2aff">
+          <u who="maj_britt_theorin_678716" xml:id="i-f1ab2aff0fdf6796-23" prev="i-f1ab2aff0fdf6796-22" n="f1ab2aff"/>
+          <note n="52e90052">
+            H
+          </note>
+          <u who="maj_britt_theorin_678716" xml:id="i-f1ab2aff0fdf6796-24" prev="i-f1ab2aff0fdf6796-22" n="f1ab2aff"/>
+          <pb n="37" facs="https://betalab.kb.se/prot-198081--91/prot_198081__91-037.jp2/_view"/>
+          <u who="maj_britt_theorin_678716" xml:id="i-f1ab2aff0fdf6796-25" prev="i-f1ab2aff0fdf6796-22" n="f1ab2aff">
             <seg n="9bcdb096"/>
-            <seg n="9bcdb096"/>
-            <seg n="9bcdb096"/>
+          </u>
+          <note n="73bb397b">
+            Nr 91
+          </note>
+          <note type="date" n="bffbbd86">
+            Måndagen den 9 mars 1981
+          </note>
+          <u who="maj_britt_theorin_678716" xml:id="i-f1ab2aff0fdf6796-26" prev="i-f1ab2aff0fdf6796-22" n="f1ab2aff">
             <seg n="0982d276">
               Om den svenska vapenexporten
             </seg>
+          </u>
+          <note n="b9037656">
+            38
+          </note>
+          <u who="maj_britt_theorin_678716" xml:id="i-f1ab2aff0fdf6796-27" prev="i-f1ab2aff0fdf6796-22" n="f1ab2aff">
             <seg n="f81b8013">
               Vi kan via journalister, via utländska tidningar — som jag har
               visat här tidigare i dag — plocka fram de uppgifter som ni inte
@@ -3247,7 +3379,9 @@
             </seg>
             <seg n="9bcdb096"/>
             <seg n="9bcdb096"/>
-            <seg n="9bcdb096"/>
+          </u>
+          <pb n="38" facs="https://betalab.kb.se/prot-198081--91/prot_198081__91-038.jp2/_view"/>
+          <u who="maj_britt_theorin_678716" xml:id="i-f1ab2aff0fdf6796-28" prev="i-f1ab2aff0fdf6796-22" n="f1ab2aff">
             <seg n="9bcdb096"/>
             <seg n="f0878ce2">
               ärenden, eftersom det gäller affärshemligheter. Frågan är bara
@@ -3278,24 +3412,10 @@
               Det kan inte vara till fyllest.
             </seg>
           </u>
-          <note n="52e90052">
-            H
-          </note>
-          <pb n="37" facs="https://betalab.kb.se/prot-198081--91/prot_198081__91-037.jp2/_view"/>
-          <note n="73bb397b">
-            Nr 91
-          </note>
-          <note type="date" n="bffbbd86">
-            Måndagen den 9 mars 1981
-          </note>
-          <note n="b9037656">
-            38
-          </note>
-          <pb n="38" facs="https://betalab.kb.se/prot-198081--91/prot_198081__91-038.jp2/_view"/>
           <note type="speaker" n="863f38cf">
             Anf. 34 EVA HJELMSTRÖM (vpk):
           </note>
-          <u who="eva_hjelmstrom_78bb57" xml:id="i-151fbef3670ec261-1" next="i-53f774fc601f724f-1" n="223b229e">
+          <u who="eva_hjelmstrom_78bb57" xml:id="i-223b229ee14ecc55-7" next="i-223b229ee14ecc55-9" n="223b229e">
             <seg n="77882a69">
               Fru talman! Låt mig först konstatera att när argumenten tryter
               hos moderaterna går man ifrån sakfrågan och börjar diskutera andra
@@ -3346,7 +3466,15 @@
           <note n="99e7bf8b">
             39
           </note>
-          <u who="eva_hjelmstrom_78bb57" xml:id="i-53f774fc601f724f-1" prev="i-151fbef3670ec261-1" n="223b229e">
+          <u who="eva_hjelmstrom_78bb57" xml:id="i-223b229ee14ecc55-8" prev="i-223b229ee14ecc55-7" n="223b229e"/>
+          <pb n="39" facs="https://betalab.kb.se/prot-198081--91/prot_198081__91-039.jp2/_view"/>
+          <note n="73bb397b">
+            Nr 91
+          </note>
+          <note type="date" n="bffbbd86">
+            Måndagen den 9 mars 1981
+          </note>
+          <u who="eva_hjelmstrom_78bb57" xml:id="i-223b229ee14ecc55-9" prev="i-223b229ee14ecc55-7" n="223b229e">
             <seg n="0982d276">
               Om den svenska vapenexporten
             </seg>
@@ -3380,17 +3508,10 @@
               med demokratiska principer.
             </seg>
           </u>
-          <pb n="39" facs="https://betalab.kb.se/prot-198081--91/prot_198081__91-039.jp2/_view"/>
-          <note n="73bb397b">
-            Nr 91
-          </note>
-          <note type="date" n="bffbbd86">
-            Måndagen den 9 mars 1981
-          </note>
           <note type="speaker" n="22e031a3">
             Anf. 35 SVEN-ERIK NORDIN (c):
           </note>
-          <u who="sven-erik_nordin_0b006d" xml:id="i-3b2232c3a71e9075-1" next="i-c0d777f5bf660820-1" n="7a53afdf">
+          <u who="sven-erik_nordin_0b006d" xml:id="i-107444c77d1a08bc-9" next="i-107444c77d1a08bc-11" n="7a53afdf">
             <seg n="64718d21">
               Fru talman! Låt mig för Maj Britt Theorin bara påpeka att centern
               ingalunda har backat från några åsikter i den här frågan.
@@ -3429,7 +3550,9 @@
               Eva Hjelmströms tankar om att
             </seg>
             <seg n="9bcdb096"/>
-            <seg n="9bcdb096"/>
+          </u>
+          <pb n="40" facs="https://betalab.kb.se/prot-198081--91/prot_198081__91-040.jp2/_view"/>
+          <u who="sven-erik_nordin_0b006d" xml:id="i-107444c77d1a08bc-10" prev="i-107444c77d1a08bc-9" n="7a53afdf">
             <seg n="9bcdb096"/>
             <seg n="3ba99c52">
               vi jämsides med vår i grundlagen fastställda beslutsapparat och
@@ -3443,11 +3566,10 @@
               det här landet, innan ni väcker några förslag i frågan!
             </seg>
           </u>
-          <pb n="40" facs="https://betalab.kb.se/prot-198081--91/prot_198081__91-040.jp2/_view"/>
           <note n="19398477">
             Anf. 36 Handelsministern STAFFAN BURENSTAM LINDER:
           </note>
-          <u who="sven-erik_nordin_0b006d" xml:id="i-c0d777f5bf660820-1" prev="i-3b2232c3a71e9075-1" n="7a53afdf">
+          <u who="sven-erik_nordin_0b006d" xml:id="i-107444c77d1a08bc-11" prev="i-107444c77d1a08bc-9" n="7a53afdf">
             <seg n="58fe0f07">
               Fru talman! Maj Britt Theorin och Eva Hjelmström har flera gånger
               sagt att vi ägnar oss åt hemlighetsmakeri. Jag vill gärna understryka
@@ -3481,7 +3603,7 @@
           <note type="speaker" n="549136ef">
             Anf. 37 MAJ BRITT THEORIN (s):
           </note>
-          <u who="maj_britt_theorin_678716" xml:id="i-ebc079f7eb429dc8-2" next="i-a02c9eb030a721f7-2" n="f1ab2aff">
+          <u who="maj_britt_theorin_678716" xml:id="i-f1ab2aff0fdf6796-29" next="i-f1ab2aff0fdf6796-35" n="f1ab2aff">
             <seg n="6a16195d">
               Fru talman! Jag noterar med en viss tillfredsställelse att herr
               Nordin backar igen. För en stund sedan var han nöjd med kontrollen.
@@ -3513,13 +3635,30 @@
           <note n="af964ba9">
             vapenexporten
           </note>
-          <u who="maj_britt_theorin_678716" xml:id="i-a02c9eb030a721f7-2" prev="i-ebc079f7eb429dc8-2" n="f1ab2aff">
+          <u who="maj_britt_theorin_678716" xml:id="i-f1ab2aff0fdf6796-30" prev="i-f1ab2aff0fdf6796-29" n="f1ab2aff"/>
+          <note n="d2f7a9de">
+            41
+          </note>
+          <u who="maj_britt_theorin_678716" xml:id="i-f1ab2aff0fdf6796-31" prev="i-f1ab2aff0fdf6796-29" n="f1ab2aff"/>
+          <pb n="41" facs="https://betalab.kb.se/prot-198081--91/prot_198081__91-041.jp2/_view"/>
+          <u who="maj_britt_theorin_678716" xml:id="i-f1ab2aff0fdf6796-32" prev="i-f1ab2aff0fdf6796-29" n="f1ab2aff">
             <seg n="9bcdb096"/>
-            <seg n="9bcdb096"/>
-            <seg n="9bcdb096"/>
+          </u>
+          <note n="73bb397b">
+            Nr 91
+          </note>
+          <note type="date" n="bffbbd86">
+            Måndagen den 9 mars 1981
+          </note>
+          <u who="maj_britt_theorin_678716" xml:id="i-f1ab2aff0fdf6796-33" prev="i-f1ab2aff0fdf6796-29" n="f1ab2aff">
             <seg n="0982d276">
               Om den svenska vapenexporten
             </seg>
+          </u>
+          <note n="707fea65">
+            42
+          </note>
+          <u who="maj_britt_theorin_678716" xml:id="i-f1ab2aff0fdf6796-34" prev="i-f1ab2aff0fdf6796-29" n="f1ab2aff">
             <seg n="d05e4046">
               lagstiftning. Vi har alldeles definitivt fått klart för oss att
               kontrollen av den svenska vapenexporten inte fungerar. Detta är
@@ -3584,7 +3723,9 @@
               och uppföljning av den lagstiftning vi i dag har. Jag
             </seg>
             <seg n="9bcdb096"/>
-            <seg n="9bcdb096"/>
+          </u>
+          <pb n="42" facs="https://betalab.kb.se/prot-198081--91/prot_198081__91-042.jp2/_view"/>
+          <u who="maj_britt_theorin_678716" xml:id="i-f1ab2aff0fdf6796-35" prev="i-f1ab2aff0fdf6796-29" n="f1ab2aff">
             <seg n="9bcdb096"/>
             <seg n="0aa226cf">
               har frågat handelsministern vad han är beredd att göra för att
@@ -3599,24 +3740,10 @@
               dementera?
             </seg>
           </u>
-          <note n="d2f7a9de">
-            41
-          </note>
-          <pb n="41" facs="https://betalab.kb.se/prot-198081--91/prot_198081__91-041.jp2/_view"/>
-          <note n="73bb397b">
-            Nr 91
-          </note>
-          <note type="date" n="bffbbd86">
-            Måndagen den 9 mars 1981
-          </note>
-          <note n="707fea65">
-            42
-          </note>
-          <pb n="42" facs="https://betalab.kb.se/prot-198081--91/prot_198081__91-042.jp2/_view"/>
           <note type="speaker" n="e77e3b65">
             Anf. 38 EVA HJELMSTRÖM (vpk):
           </note>
-          <u who="eva_hjelmstrom_78bb57" xml:id="i-151fbef3670ec261-2" next="i-53f774fc601f724f-2" n="223b229e">
+          <u who="eva_hjelmstrom_78bb57" xml:id="i-223b229ee14ecc55-10" next="i-223b229ee14ecc55-14" n="223b229e">
             <seg n="e3453406">
               Fru talman! Jag kan instämma i det senaste, och jag vill därtill
               lägga: Vad är handelsministern beredd att göra för att skärpa
@@ -3676,30 +3803,32 @@
           <note n="af964ba9">
             vapenexporten
           </note>
-          <u who="eva_hjelmstrom_78bb57" xml:id="i-53f774fc601f724f-2" prev="i-151fbef3670ec261-2" n="223b229e">
-            <seg n="9bcdb096"/>
-            <seg n="9bcdb096"/>
-            <seg n="9bcdb096"/>
-            <seg n="9bcdb096"/>
-            <seg n="0982d276">
-              Om den svenska vapenexporten
-            </seg>
-            <seg n="9bcdb096"/>
-          </u>
+          <u who="eva_hjelmstrom_78bb57" xml:id="i-223b229ee14ecc55-11" prev="i-223b229ee14ecc55-10" n="223b229e"/>
           <note n="e7183c74">
             43
           </note>
+          <u who="eva_hjelmstrom_78bb57" xml:id="i-223b229ee14ecc55-12" prev="i-223b229ee14ecc55-10" n="223b229e"/>
           <pb n="43" facs="https://betalab.kb.se/prot-198081--91/prot_198081__91-043.jp2/_view"/>
+          <u who="eva_hjelmstrom_78bb57" xml:id="i-223b229ee14ecc55-13" prev="i-223b229ee14ecc55-10" n="223b229e">
+            <seg n="9bcdb096"/>
+            <seg n="9bcdb096"/>
+          </u>
           <note n="73bb397b">
             Nr 91
           </note>
           <note type="date" n="bffbbd86">
             Måndagen den 9 mars 1981
           </note>
+          <u who="eva_hjelmstrom_78bb57" xml:id="i-223b229ee14ecc55-14" prev="i-223b229ee14ecc55-10" n="223b229e">
+            <seg n="0982d276">
+              Om den svenska vapenexporten
+            </seg>
+            <seg n="9bcdb096"/>
+          </u>
           <note type="speaker" n="db8dc672">
             Anf. 39 SVEN-ERIK NORDIN (c):
           </note>
-          <u who="sven-erik_nordin_0b006d" xml:id="i-f0e2d8a0d182ec2c-0" n="7a53afdf">
+          <u who="sven-erik_nordin_0b006d" xml:id="i-107444c77d1a08bc-12" n="7a53afdf">
             <seg n="861bd02f">
               Fru talman! Jag kan backa när jag blir övertygad om att jag har
               haft fel. Vad jag har sagt här i debatten är att alla regeringar
@@ -3742,7 +3871,7 @@
           <note type="speaker" n="bd91b865">
             Anf. 40 MAJ BRITT THEORIN (s):
           </note>
-          <u who="maj_britt_theorin_678716" xml:id="i-510100d9728f4bc2-0" n="f1ab2aff">
+          <u who="maj_britt_theorin_678716" xml:id="i-f1ab2aff0fdf6796-36" next="i-f1ab2aff0fdf6796-37" n="f1ab2aff">
             <seg n="63b48f15">
               Fru talman! När jag nämnde att utrikesnämnden skulle kunna vara
               möjlig som ett organ så var det under vissa förutsättningar, nämligen
@@ -3770,7 +3899,9 @@
             </seg>
             <seg n="9bcdb096"/>
             <seg n="9bcdb096"/>
-            <seg n="9bcdb096"/>
+          </u>
+          <pb n="44" facs="https://betalab.kb.se/prot-198081--91/prot_198081__91-044.jp2/_view"/>
+          <u who="maj_britt_theorin_678716" xml:id="i-f1ab2aff0fdf6796-37" prev="i-f1ab2aff0fdf6796-36" n="f1ab2aff">
             <seg n="496e2f40">
               här i Sveriges riksdag — en motion som således kommer under riksdagens
               prövning under detta år — har det visat sig att ytterligare ett
@@ -3807,11 +3938,10 @@
               beredd att göra för att intentionerna i lagstiftningen skall följas?
             </seg>
           </u>
-          <pb n="44" facs="https://betalab.kb.se/prot-198081--91/prot_198081__91-044.jp2/_view"/>
           <note type="speaker" n="4983b267">
             Anf. 41 EVA HJELMSTRÖM (vpk):
           </note>
-          <u who="eva_hjelmstrom_78bb57" xml:id="i-151fbef3670ec261-3" next="i-53f774fc601f724f-3" n="223b229e">
+          <u who="eva_hjelmstrom_78bb57" xml:id="i-223b229ee14ecc55-15" next="i-223b229ee14ecc55-20" n="223b229e">
             <seg n="e44a7bf8">
               Fru talman! Jag tycker att Sven-Erik Nordin virrar till det hela.
               Det är en enkel fråga att ta ställning till om riksdagens valda
@@ -3850,15 +3980,32 @@
           <note n="af964ba9">
             vapenexporten
           </note>
-          <u who="eva_hjelmstrom_78bb57" xml:id="i-53f774fc601f724f-3" prev="i-151fbef3670ec261-3" n="223b229e">
+          <u who="eva_hjelmstrom_78bb57" xml:id="i-223b229ee14ecc55-16" prev="i-223b229ee14ecc55-15" n="223b229e"/>
+          <note n="e678b912">
+            45
+          </note>
+          <u who="eva_hjelmstrom_78bb57" xml:id="i-223b229ee14ecc55-17" prev="i-223b229ee14ecc55-15" n="223b229e"/>
+          <pb n="45" facs="https://betalab.kb.se/prot-198081--91/prot_198081__91-045.jp2/_view"/>
+          <u who="eva_hjelmstrom_78bb57" xml:id="i-223b229ee14ecc55-18" prev="i-223b229ee14ecc55-15" n="223b229e">
             <seg n="9bcdb096"/>
-            <seg n="9bcdb096"/>
-            <seg n="9bcdb096"/>
+          </u>
+          <note n="73bb397b">
+            Nr 91
+          </note>
+          <note type="date" n="bffbbd86">
+            Måndagen den 9 mars 1981
+          </note>
+          <u who="eva_hjelmstrom_78bb57" xml:id="i-223b229ee14ecc55-19" prev="i-223b229ee14ecc55-15" n="223b229e">
             <seg n="0982d276">
               Om den svenska vapenexporten
             </seg>
             <seg n="9bcdb096"/>
             <seg n="9bcdb096"/>
+          </u>
+          <note n="b68e1d9d">
+            Anf. 42 Handelsministern STAFFAN BURENSTAM LINDER:
+          </note>
+          <u who="eva_hjelmstrom_78bb57" xml:id="i-223b229ee14ecc55-20" prev="i-223b229ee14ecc55-15" n="223b229e">
             <seg n="d33c1e97">
               Fru talman! Mina intentioner har framgått av det svar jag givit.
               Vi gör en noggrann prövning av alla vapenexportärenden. Vi säljer
@@ -3912,23 +4059,10 @@
               som helst betydelse är regeringen i sin helhet som fattar besluten.
             </seg>
           </u>
-          <note n="e678b912">
-            45
-          </note>
-          <pb n="45" facs="https://betalab.kb.se/prot-198081--91/prot_198081__91-045.jp2/_view"/>
-          <note n="73bb397b">
-            Nr 91
-          </note>
-          <note type="date" n="bffbbd86">
-            Måndagen den 9 mars 1981
-          </note>
-          <note n="b68e1d9d">
-            Anf. 42 Handelsministern STAFFAN BURENSTAM LINDER:
-          </note>
           <note type="speaker" n="c4e8f27f">
             Anf. 43 SVEN-ERIK NORDIN (c):
           </note>
-          <u who="sven-erik_nordin_0b006d" xml:id="i-f0e2d8a0d182ec2c-1" n="7a53afdf">
+          <u who="sven-erik_nordin_0b006d" xml:id="i-107444c77d1a08bc-13" next="i-107444c77d1a08bc-14" n="7a53afdf">
             <seg n="6fe81afc">
               Fru talman! Jag skall gärna svara på den raka frågan hur vi riksdagsledamöter
               skall kunna påverka beslutsordningen i de här ärendena. Det gör
@@ -3944,6 +4078,9 @@
             </seg>
             <seg n="9bcdb096"/>
             <seg n="9bcdb096"/>
+          </u>
+          <pb n="46" facs="https://betalab.kb.se/prot-198081--91/prot_198081__91-046.jp2/_view"/>
+          <u who="sven-erik_nordin_0b006d" xml:id="i-107444c77d1a08bc-14" prev="i-107444c77d1a08bc-13" n="7a53afdf">
             <seg n="0f1951a4">
               överensstämmer med vår neutralitetsuppfattning, med vår säkerhetspolitik.
               Det är dessa synpunkter som jag har velat dra fram i den här debatten,
@@ -3951,11 +4088,10 @@
               vad som eventuellt kan ha skett nere i de mystiska arabstaterna.
             </seg>
           </u>
-          <pb n="46" facs="https://betalab.kb.se/prot-198081--91/prot_198081__91-046.jp2/_view"/>
           <note type="speaker" n="a0da07da">
             Anf. 44 EVA HJELMSTRÖM (vpk):
           </note>
-          <u who="eva_hjelmstrom_78bb57" xml:id="i-ad4f38092fd8e866-0" n="223b229e">
+          <u who="eva_hjelmstrom_78bb57" xml:id="i-223b229ee14ecc55-21" n="223b229e">
             <seg n="e0d58909">
               Fru talman! Sven-Erik Nordin säger att vi kan påverka utvecklingen
               genom att stifta lagar. Men uppenbarligen är det så att lagar
@@ -3984,7 +4120,7 @@
           <note type="speaker" n="37e6ac93">
             Anf. 45 MAJ BRITT THEORIN (s):
           </note>
-          <u who="maj_britt_theorin_678716" xml:id="i-ebc079f7eb429dc8-3" next="i-a02c9eb030a721f7-3" n="f1ab2aff">
+          <u who="maj_britt_theorin_678716" xml:id="i-f1ab2aff0fdf6796-38" next="i-f1ab2aff0fdf6796-49" n="f1ab2aff">
             <seg n="1831bbe0">
               Fru talman! Ja, debatten borde rimligen lida mot sitt slut nu.
               Ståndpunkterna verkar vara ganska klara. Handelsministern önskar,
@@ -4027,11 +4163,23 @@
           <note n="af964ba9">
             vapenexporten
           </note>
-          <u who="maj_britt_theorin_678716" xml:id="i-a02c9eb030a721f7-3" prev="i-ebc079f7eb429dc8-3" n="f1ab2aff">
+          <u who="maj_britt_theorin_678716" xml:id="i-f1ab2aff0fdf6796-39" prev="i-f1ab2aff0fdf6796-38" n="f1ab2aff"/>
+          <note n="b67d1599">
+            47
+          </note>
+          <u who="maj_britt_theorin_678716" xml:id="i-f1ab2aff0fdf6796-40" prev="i-f1ab2aff0fdf6796-38" n="f1ab2aff"/>
+          <pb n="47" facs="https://betalab.kb.se/prot-198081--91/prot_198081__91-047.jp2/_view"/>
+          <u who="maj_britt_theorin_678716" xml:id="i-f1ab2aff0fdf6796-41" prev="i-f1ab2aff0fdf6796-38" n="f1ab2aff">
             <seg n="9bcdb096"/>
             <seg n="9bcdb096"/>
-            <seg n="9bcdb096"/>
-            <seg n="9bcdb096"/>
+          </u>
+          <note n="73bb397b">
+            Nr 91
+          </note>
+          <note type="date" n="bffbbd86">
+            Måndagen den 9 mars 1981
+          </note>
+          <u who="maj_britt_theorin_678716" xml:id="i-f1ab2aff0fdf6796-42" prev="i-f1ab2aff0fdf6796-38" n="f1ab2aff">
             <seg n="0982d276">
               Om den svenska vapenexporten
             </seg>
@@ -4056,37 +4204,7 @@
               måste till, och för det är det nödvändigt med en parlamentarisk
               beslutandenämnd.
             </seg>
-            <seg n="2b693672">
-              1980/81:122 om åtgärder för vård och bevarande av kulturhistoriskt
-              värdefull bebyggelse
-            </seg>
-            <seg n="f54da7f8">
-              1980/81:128 om vissa företag inom Statsföretagsgruppen
-            </seg>
-            <seg n="aa921993">
-              1980/81:23 om s. k. snabbvinsatser (prop. 1980/81:91)
-            </seg>
-            <seg n="8bea91ef">
-              1980/81:26 om slopande av mervärdeskatten för vissa hyresoch
-              bostadsrättslägenheter
-            </seg>
-            <seg n="9bcdb096"/>
-            <seg n="9bcdb096"/>
-            <seg n="9bcdb096"/>
-            <seg n="9bcdb096"/>
-            <seg n="9bcdb096"/>
-            <seg n="9bcdb096"/>
           </u>
-          <note n="b67d1599">
-            47
-          </note>
-          <pb n="47" facs="https://betalab.kb.se/prot-198081--91/prot_198081__91-047.jp2/_view"/>
-          <note n="73bb397b">
-            Nr 91
-          </note>
-          <note type="date" n="bffbbd86">
-            Måndagen den 9 mars 1981
-          </note>
           <note n="2e0056ff">
             11$ Föredrogs och hänvisades Propositionerna
           </note>
@@ -4105,6 +4223,15 @@
           <note n="2c3c5119">
             1980/81:120 om ändring i beskattningsreglerna för koncernbidrag
           </note>
+          <u who="maj_britt_theorin_678716" xml:id="i-f1ab2aff0fdf6796-43" prev="i-f1ab2aff0fdf6796-38" n="f1ab2aff">
+            <seg n="2b693672">
+              1980/81:122 om åtgärder för vård och bevarande av kulturhistoriskt
+              värdefull bebyggelse
+            </seg>
+            <seg n="f54da7f8">
+              1980/81:128 om vissa företag inom Statsföretagsgruppen
+            </seg>
+          </u>
           <note n="d9de1a87">
             1980/81:136 om skogsvårdsstyrelsernas organisation, m. m.
           </note>
@@ -4129,14 +4256,29 @@
             1980/81:22 om tilläggsbudget II till statsbudgeten för budgetåret
             1980/81 i vad avser visst anslag till tullverket (prop. 1980/81:101)
           </note>
+          <u who="maj_britt_theorin_678716" xml:id="i-f1ab2aff0fdf6796-44" prev="i-f1ab2aff0fdf6796-38" n="f1ab2aff">
+            <seg n="aa921993">
+              1980/81:23 om s. k. snabbvinsatser (prop. 1980/81:91)
+            </seg>
+          </u>
           <note n="86e86ab2">
             1980/81:24 om beskattning av uppfinnare m. m.
           </note>
+          <u who="maj_britt_theorin_678716" xml:id="i-f1ab2aff0fdf6796-45" prev="i-f1ab2aff0fdf6796-38" n="f1ab2aff">
+            <seg n="8bea91ef">
+              1980/81:26 om slopande av mervärdeskatten för vissa hyresoch
+              bostadsrättslägenheter
+            </seg>
+          </u>
           <note n="36bccca1">
             Justitieutskottets betänkande 1980/81:23 om anslag till åklagarväsendet
             (prop. 1980/81:100)
           </note>
+          <u who="maj_britt_theorin_678716" xml:id="i-f1ab2aff0fdf6796-46" prev="i-f1ab2aff0fdf6796-38" n="f1ab2aff">
+            <seg n="9bcdb096"/>
+          </u>
           <pb n="48" facs="https://betalab.kb.se/prot-198081--91/prot_198081__91-048.jp2/_view"/>
+          <u who="maj_britt_theorin_678716" xml:id="i-f1ab2aff0fdf6796-47" prev="i-f1ab2aff0fdf6796-38" n="f1ab2aff"/>
           <note n="857da49a">
             Utrikesutskottets betänkande Nr 91 1980/81:19 om vissa anslag
             m. m. för budgetåret 1981/82 inom utrikesdepar-
@@ -4217,7 +4359,11 @@
           <note n="092032cd">
             49 4 Riksdagens protokoll 1980/81:91-92
           </note>
+          <u who="maj_britt_theorin_678716" xml:id="i-f1ab2aff0fdf6796-48" prev="i-f1ab2aff0fdf6796-38" n="f1ab2aff">
+            <seg n="9bcdb096"/>
+          </u>
           <pb n="49" facs="https://betalab.kb.se/prot-198081--91/prot_198081__91-049.jp2/_view"/>
+          <u who="maj_britt_theorin_678716" xml:id="i-f1ab2aff0fdf6796-49" prev="i-f1ab2aff0fdf6796-38" n="f1ab2aff"/>
           <note n="73bb397b">
             Nr 91
           </note>
@@ -4240,12 +4386,12 @@
           <note type="speaker" n="6d4048ac">
             1980/81:
           </note>
-          <u who="unknown" xml:id="i-7440ab63685125a0-3" n="5da6d384"/>
+          <u who="unknown" xml:id="i-5da6d384ed9324a1-40" n="5da6d384"/>
           <note type="speaker" n="492fc493">
             297 av Ulf Sivertun (vpk) till bostadsministern om åtgärder för
             att avhjälpa bostadsbristen:
           </note>
-          <u who="unknown" xml:id="i-7440ab63685125a0-4" n="5da6d384">
+          <u who="unknown" xml:id="i-5da6d384ed9324a1-41" n="5da6d384">
             <seg n="495172e3">
               Allt flera politiker och experter börjar nu tala om en kris på
               bostadsmarknaden och i hela byggbranschen. Den kraftiga minskningen
@@ -4277,12 +4423,12 @@
           <note type="speaker" n="6d4048ac">
             1980/81:
           </note>
-          <u who="unknown" xml:id="i-7440ab63685125a0-5" n="5da6d384"/>
+          <u who="unknown" xml:id="i-5b81628b210408ec-0" n="5da6d384"/>
           <note type="speaker" n="bbd5262a">
             298 av Christina Rogestam (c) till justitieministern om polisens
             spaningsbefogenheter:
           </note>
-          <u who="christina_rogestam_ba6226" xml:id="i-7ee36f862d1ba340-0" n="5b81628b">
+          <u who="christina_rogestam_ba6226" xml:id="i-5b81628b210408ec-1" n="5b81628b">
             <seg n="083a0c98">
               Ger gällande regler polisen befogenhet att söka efter personer
               som vistas i Sverige illegalt i kloster och kyrkor? Om så är fallet
@@ -4295,12 +4441,12 @@
           <note type="speaker" n="6d4048ac">
             1980/81:
           </note>
-          <u who="unknown" xml:id="i-7440ab63685125a0-6" n="5da6d384"/>
+          <u who="unknown" xml:id="i-b7f2edec44d7afb6-0" n="5da6d384"/>
           <note type="speaker" n="d2df6508">
             299 av Håkan Strömberg (s) till industriministern om åtgärder
             för att trygga svensk produktion av ammoniak:
           </note>
-          <u who="hakan_stromberg_b17ed7" xml:id="i-9d64f590a3a2162a-0" n="b7f2edec">
+          <u who="hakan_stromberg_b17ed7" xml:id="i-b7f2edec44d7afb6-1" next="i-b7f2edec44d7afb6-2" n="b7f2edec">
             <seg n="f94d3e62">
               Supra AB har meddelat att företaget den 30 mars kommer att lägga
               ned tillverkningen av ammoniak vid fabriken i Närkes Kvarntorp.
@@ -4314,26 +4460,27 @@
               möjlig. Med hänvisning till det anförda vill jag fråga industriministern:
             </seg>
             <seg n="9bcdb096"/>
-            <seg n="9bcdb096"/>
+          </u>
+          <pb n="50" facs="https://betalab.kb.se/prot-198081--91/prot_198081__91-050.jp2/_view"/>
+          <u who="hakan_stromberg_b17ed7" xml:id="i-b7f2edec44d7afb6-2" prev="i-b7f2edec44d7afb6-1" n="b7f2edec">
             <seg n="9bcdb096"/>
             <seg n="60b93aa5">
               Vilka åtgärder avser industriministern vidta för att trygga en
               fortsatt svensk produktion av ammoniak?
             </seg>
           </u>
-          <pb n="50" facs="https://betalab.kb.se/prot-198081--91/prot_198081__91-050.jp2/_view"/>
           <note n="cb9636ba">
             den 4 mars
           </note>
           <note type="speaker" n="6d4048ac">
             1980/81:
           </note>
-          <u who="unknown" xml:id="i-9bf088fc342d4b38-4" n="5da6d384"/>
+          <u who="unknown" xml:id="i-5da6d384ed9324a1-42" n="5da6d384"/>
           <note type="speaker" n="a4d744aa">
             300 av Stig Genitz (c) till kommunikationsministern om Västgötabanans
             framtid:
           </note>
-          <u who="unknown" xml:id="i-7440ab63685125a0-7" n="5da6d384">
+          <u who="unknown" xml:id="i-5da6d384ed9324a1-43" n="5da6d384">
             <seg n="2bca7e00">
               För omkring ett år sedan avslutades utredningsarbetet om den
               s.k. Västgötabanans framtid gällande sträckan Nossebro-Vara-Kvänum-Skara-Götene-Forshem.
@@ -4344,7 +4491,7 @@
             på remiss till SJ:s centralförvaltning den 9 maj 1980. Fortfarande
             har inget svar kommit.
           </note>
-          <u who="unknown" xml:id="i-b1f673f258a1059b-4" n="5da6d384">
+          <u who="unknown" xml:id="i-5da6d384ed9324a1-44" n="5da6d384">
             <seg n="07a7e23a">
               Med hänvisning till det anförda vill jag fråga kommunikationsministern:
             </seg>
@@ -4355,12 +4502,12 @@
           <note type="speaker" n="6d4048ac">
             1980/81:
           </note>
-          <u who="unknown" xml:id="i-9bf088fc342d4b38-5" n="5da6d384"/>
+          <u who="unknown" xml:id="i-5da6d384ed9324a1-45" n="5da6d384"/>
           <note type="speaker" n="c70bb8b9">
             301 av Ewy Möller (m) till kommunikationsministern om en bro
             vid Bjursunds ström:
           </note>
-          <u who="unknown" xml:id="i-7440ab63685125a0-8" n="5da6d384">
+          <u who="unknown" xml:id="i-5da6d384ed9324a1-46" n="5da6d384">
             <seg n="55513a35">
               Enligt uppgifter i pressen råder oklarhet om huruvida beslut
               föreligger och medel är anvisade för byggande av en bro vid Bjursunds
@@ -4382,7 +4529,7 @@
             1980/81:302 av Ann-Cathrine Haglund (m) till statsrådet Elisabet
             Holm om tillsynen över privat sjukvård:
           </note>
-          <u who="unknown" xml:id="i-b1f673f258a1059b-5" n="5da6d384">
+          <u who="unknown" xml:id="i-5da6d384ed9324a1-47" n="5da6d384">
             <seg n="06dd4574">
               I och med att länsläkarorganisationen upphör den 30 juni 1981
               försvinner socialstyrelsens nuvarande tillsynsorgan ute i länen.
@@ -4401,10 +4548,41 @@
               Länsläkarna har genom sin lokalkännedom kunnat inrikta arbetet
               på
             </seg>
+          </u>
+          <note n="73bb397b">
+            Nr 91
+          </note>
+          <note type="date" n="bffbbd86">
+            Måndagen den 9 mars 1981
+          </note>
+          <note n="0ed0602e">
+            Meddelande om
+          </note>
+          <note n="361d31d3">
+            frågor
+          </note>
+          <u who="unknown" xml:id="i-5da6d384ed9324a1-48" n="5da6d384"/>
+          <note n="4a00de17">
+            51
+          </note>
+          <u who="unknown" xml:id="i-5da6d384ed9324a1-49" n="5da6d384"/>
+          <pb n="51" facs="https://betalab.kb.se/prot-198081--91/prot_198081__91-051.jp2/_view"/>
+          <u who="unknown" xml:id="i-5da6d384ed9324a1-50" n="5da6d384">
             <seg n="9bcdb096"/>
-            <seg n="9bcdb096"/>
-            <seg n="9bcdb096"/>
-            <seg n="9bcdb096"/>
+          </u>
+          <note n="73bb397b">
+            Nr 91
+          </note>
+          <note type="date" n="bffbbd86">
+            Måndagen den 9 mars 1981
+          </note>
+          <note n="20ec996f">
+            Meddelande om frågor
+          </note>
+          <note n="ec68b56b">
+            52
+          </note>
+          <u who="unknown" xml:id="i-5da6d384ed9324a1-51" n="5da6d384">
             <seg n="c75d63cb">
               förebyggande intervention och smidig tillsyn. Den största delen
               av tillsynsarbetet bedrivs genom informella kontakter. Om tillsynen
@@ -4423,46 +4601,18 @@
               för att bli så smidig och effektiv som möjligt?
             </seg>
           </u>
-          <note n="73bb397b">
-            Nr 91
-          </note>
-          <note type="date" n="bffbbd86">
-            Måndagen den 9 mars 1981
-          </note>
-          <note n="0ed0602e">
-            Meddelande om
-          </note>
-          <note n="361d31d3">
-            frågor
-          </note>
-          <note n="4a00de17">
-            51
-          </note>
-          <pb n="51" facs="https://betalab.kb.se/prot-198081--91/prot_198081__91-051.jp2/_view"/>
-          <note n="73bb397b">
-            Nr 91
-          </note>
-          <note type="date" n="bffbbd86">
-            Måndagen den 9 mars 1981
-          </note>
-          <note n="20ec996f">
-            Meddelande om frågor
-          </note>
-          <note n="ec68b56b">
-            52
-          </note>
           <note n="9d94d6f8">
             den 9 mars
           </note>
           <note type="speaker" n="6d4048ac">
             1980/81:
           </note>
-          <u who="unknown" xml:id="i-9bf088fc342d4b38-6" n="5da6d384"/>
+          <u who="unknown" xml:id="i-4621052e72c95471-0" n="5da6d384"/>
           <note type="speaker" n="2a65aa1a">
             303 av Arne Fransson (c) till kommunikationsministern om lokalpostkontors
             betydelse som serviceinrättning:
           </note>
-          <u who="arne_fransson_7742f8" xml:id="i-12598e0602a4c2af-0" next="i-bc1802a973521517-0" n="4621052e">
+          <u who="arne_fransson_7742f8" xml:id="i-4621052e72c95471-1" next="i-4621052e72c95471-13" n="4621052e">
             <seg n="fde529bc">
               Omfattningen av samhällelig service av olika slag har stor betydelse
               för en regions möjlighet att utvecklas i positiv riktning. Ett
@@ -4493,21 +4643,7 @@
           <note n="a2868154">
             /Solveig Gemert
           </note>
-          <u who="arne_fransson_7742f8" xml:id="i-bc1802a973521517-0" prev="i-12598e0602a4c2af-0" n="4621052e">
-            <seg n="9bcdb096"/>
-            <seg n="9bcdb096"/>
-            <seg n="9bcdb096"/>
-            <seg n="9bcdb096"/>
-            <seg n="9bcdb096"/>
-            <seg n="9bcdb096"/>
-            <seg n="9bcdb096"/>
-            <seg n="9bcdb096"/>
-            <seg n="9bcdb096"/>
-            <seg n="9bcdb096"/>
-            <seg n="9bcdb096"/>
-            <seg n="9bcdb096"/>
-            <seg n="9bcdb096"/>
-            <seg n="9bcdb096"/>
+          <u who="arne_fransson_7742f8" xml:id="i-4621052e72c95471-2" prev="i-4621052e72c95471-1" n="4621052e">
             <seg n="9bcdb096"/>
           </u>
           <pb n="52" facs="https://betalab.kb.se/prot-198081--91/prot_198081__91-052.jp2/_view"/>
@@ -4566,18 +4702,35 @@
           <note n="3eb22aa7">
             69
           </note>
+          <u who="arne_fransson_7742f8" xml:id="i-4621052e72c95471-3" prev="i-4621052e72c95471-1" n="4621052e">
+            <seg n="9bcdb096"/>
+          </u>
           <pb n="54" facs="https://betalab.kb.se/prot-198081--91/prot_198081__91-054.jp2/_view"/>
+          <u who="arne_fransson_7742f8" xml:id="i-4621052e72c95471-4" prev="i-4621052e72c95471-1" n="4621052e"/>
           <pb n="56" facs="https://betalab.kb.se/prot-198081--91/prot_198081__91-056.jp2/_view"/>
+          <u who="arne_fransson_7742f8" xml:id="i-4621052e72c95471-5" prev="i-4621052e72c95471-1" n="4621052e"/>
           <pb n="57" facs="https://betalab.kb.se/prot-198081--91/prot_198081__91-057.jp2/_view"/>
+          <u who="arne_fransson_7742f8" xml:id="i-4621052e72c95471-6" prev="i-4621052e72c95471-1" n="4621052e"/>
           <pb n="58" facs="https://betalab.kb.se/prot-198081--91/prot_198081__91-058.jp2/_view"/>
+          <u who="arne_fransson_7742f8" xml:id="i-4621052e72c95471-7" prev="i-4621052e72c95471-1" n="4621052e"/>
           <pb n="59" facs="https://betalab.kb.se/prot-198081--91/prot_198081__91-059.jp2/_view"/>
+          <u who="arne_fransson_7742f8" xml:id="i-4621052e72c95471-8" prev="i-4621052e72c95471-1" n="4621052e"/>
           <pb n="60" facs="https://betalab.kb.se/prot-198081--91/prot_198081__91-060.jp2/_view"/>
+          <u who="arne_fransson_7742f8" xml:id="i-4621052e72c95471-9" prev="i-4621052e72c95471-1" n="4621052e"/>
           <pb n="61" facs="https://betalab.kb.se/prot-198081--91/prot_198081__91-061.jp2/_view"/>
+          <u who="arne_fransson_7742f8" xml:id="i-4621052e72c95471-10" prev="i-4621052e72c95471-1" n="4621052e"/>
           <pb n="62" facs="https://betalab.kb.se/prot-198081--91/prot_198081__91-062.jp2/_view"/>
+          <u who="arne_fransson_7742f8" xml:id="i-4621052e72c95471-11" prev="i-4621052e72c95471-1" n="4621052e"/>
           <pb n="64" facs="https://betalab.kb.se/prot-198081--91/prot_198081__91-064.jp2/_view"/>
+          <u who="arne_fransson_7742f8" xml:id="i-4621052e72c95471-12" prev="i-4621052e72c95471-1" n="4621052e">
+            <seg n="9bcdb096"/>
+          </u>
           <note n="eb3dc3a0">
             'GOTAB 66812 Stockholm 1981
           </note>
+          <u who="arne_fransson_7742f8" xml:id="i-4621052e72c95471-13" prev="i-4621052e72c95471-1" n="4621052e">
+            <seg n="9bcdb096"/>
+          </u>
         </div>
       </body>
     </text>

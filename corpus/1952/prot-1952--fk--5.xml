@@ -20,7 +20,7 @@
     <encodingDesc>
       <editorialDecl>
         <correction>
-          <p>Some data curation was done. It is documented in db/curation/instances</p>
+          <p>Some data curation was done. It is documented in input/curation/instances</p>
         </correction>
       </editorialDecl>
     </encodingDesc>
@@ -52,6 +52,7 @@
       <front>
         <div type="preface">
           <head>prot-1952--fk--5</head>
+          <docDate when="1935-02-13">1935-02-13</docDate>
           <docDate when="1952-02-09">1952-02-09</docDate>
           <docDate when="1952-02-12">1952-02-12</docDate>
           <docDate when="1952-02-13">1952-02-13</docDate>
@@ -59,6 +60,7 @@
       </front>
       <body>
         <div>
+          <pb n="0" facs="https://betalab.kb.se/prot-1952--fk--5/prot_1952__fk__5-000.jp2/_view"/>
           <note n="2a3a4357">
             RIKSDAGENS PROTOKOLL
           </note>
@@ -73,7 +75,7 @@
           <note n="501317b0">
             Debatter m. m.
           </note>
-          <note n="21401c51">
+          <note type="date" n="def6fbd4">
             Lördagen den 9 februari. Sid.
           </note>
           <note n="4fbde956">
@@ -176,7 +178,7 @@
             39
           </note>
           <pb n="2" facs="https://betalab.kb.se/prot-1952--fk--5/prot_1952__fk__5-002.jp2/_view"/>
-          <note n="3fff27fa">
+          <note type="date" n="e26b6f8b">
             Lördagen den 9 februari 1952.
           </note>
           <note n="5be0d040">
@@ -302,7 +304,7 @@
           <note n="73ef3291">
             4 Nr 5.
           </note>
-          <note n="3fff27fa">
+          <note type="date" n="e26b6f8b">
             Lördagen den 9 februari 1952.
           </note>
           <note n="90357901">
@@ -333,7 +335,7 @@
           <note type="speaker" n="62371776">
             Herr LUNDQVIST erhöll på begäran ordet och anförde:
           </note>
-          <u who="unknown" xml:id="i-ed79d87b32b0c69c-0" n="c6e4e5df">
+          <u who="unknown" xml:id="i-c6e4e5df9a31ccca-0" n="c6e4e5df">
             <seg n="50610840">
               Herr talman! I årets remissdebatt berörde jag bl. a. kommunikationerna
               inom Stockholms skärgård.
@@ -404,7 +406,7 @@
             In fidem G. H. Berggren.
           </note>
           <pb n="4" facs="https://betalab.kb.se/prot-1952--fk--5/prot_1952__fk__5-004.jp2/_view"/>
-          <note n="f0d00a00">
+          <note type="date" n="51389af3">
             Tisdagen den 12 februari 1952.
           </note>
           <note n="3eb60f46">
@@ -491,7 +493,7 @@
           <note n="e75ae3cc">
             L. Tjällgren.
           </note>
-          <u who="unknown" xml:id="i-c4d4aeb34843bf5b-0" n="c6e4e5df">
+          <u who="unknown" xml:id="i-c6e4e5df9a31ccca-1" n="c6e4e5df">
             <seg n="1f641f74">
               Att riksdagsman Olov Leonard Tjällgren på grund av akut lumbago
               (ryggbesvär) är oförmögen att deltaga i riksdagsarbetet under
@@ -540,7 +542,7 @@
           <note n="e348ef49">
             6 Nr 5.
           </note>
-          <note n="f0d00a00">
+          <note type="date" n="51389af3">
             Tisdagen den 12 februari 1952.
           </note>
           <note n="29b5a066">
@@ -557,7 +559,7 @@
           <note type="speaker" n="5d199642">
             Herr PERSSON, OLA, erhöll på begäran ordet och yttrade:
           </note>
-          <u who="sven_persson_57201c" xml:id="i-9d4e0c8d42a6d2d9-0" next="i-83395bc9bf778b41-0" n="83260428">
+          <u who="sven_persson_57201c" xml:id="i-d47ed5e2bd5ec5bf-0" next="i-d47ed5e2bd5ec5bf-2" n="83260428">
             <seg n="7504a1cd">
               Herr talman! På mina egna och mina medmotionärers vägnar får
               jag anmäla, att vi ej längre vidhålla yrkandet i vår motion I:
@@ -579,7 +581,7 @@
             Däremot synes intet sådant förbud gälla för make med barn, om
             äktenskap ingåtts och består.
           </note>
-          <u who="sven_persson_57201c" xml:id="i-83395bc9bf778b41-0" prev="i-9d4e0c8d42a6d2d9-0" n="83260428">
+          <u who="sven_persson_57201c" xml:id="i-d47ed5e2bd5ec5bf-1" prev="i-d47ed5e2bd5ec5bf-0" n="83260428">
             <seg n="9011319d">
               Vi ha vidare en konvention av den 10 februari 1931 mellan Sverige,
               Danmark, Finland, Island och Norge angående indrivning av underhållsbidrag
@@ -599,6 +601,11 @@
             <seg n="7849a9a3">
               tjänsteförteckningskommitténs förhandlingar
             </seg>
+          </u>
+          <note n="af3c73a7">
+            med tjänste-
+          </note>
+          <u who="sven_persson_57201c" xml:id="i-d47ed5e2bd5ec5bf-2" prev="i-d47ed5e2bd5ec5bf-0" n="83260428">
             <seg n="34dc1765">
               försörjningsplikten på det svenska samhället.
             </seg>
@@ -626,9 +633,6 @@
               års lag om utflyttningsförbud mot underhållsskyldig angiver?
             </seg>
           </u>
-          <note n="af3c73a7">
-            med tjänste-
-          </note>
           <note n="6deb547b">
             På gjord proposition medgav kammaren, att ifrågavarande spörsmål
             finge framställas.
@@ -640,7 +644,7 @@
           <note type="speaker" n="2fa9deb7">
             Herr SVÄRD erhöll på begäran ordet och yttrade:
           </note>
-          <u who="unknown" xml:id="i-ed79d87b32b0c69c-1" n="c6e4e5df">
+          <u who="unknown" xml:id="i-c6e4e5df9a31ccca-2" n="c6e4e5df">
             <seg n="4353ff79">
               Herr talman! Den allmänna lönereglering för statstjänstemän,
               som genomfördes den 1 juli 1947, lämnade frågan om lönegradsplaceringarna
@@ -656,7 +660,7 @@
             Enligt uppgift inkommo vederbörande
           </note>
           <pb n="6" facs="https://betalab.kb.se/prot-1952--fk--5/prot_1952__fk__5-006.jp2/_view"/>
-          <note n="f0d00a00">
+          <note type="date" n="51389af3">
             Tisdagen den 12 februari 1952.
           </note>
           <note n="bd986cbf">
@@ -666,7 +670,7 @@
             Interpellation ang. tjänsteförteckningskommitténs förhandlingar
             med tjänstemanna-
           </note>
-          <u who="unknown" xml:id="i-c4d4aeb34843bf5b-1" n="c6e4e5df">
+          <u who="unknown" xml:id="i-c6e4e5df9a31ccca-3" n="c6e4e5df">
             <seg n="628991df">
               tjänstemannaorganisationer redan under förra hälften av år 1950
               till kommittén med sina önskemål och synpunkter rörande lönegradsplaceringarna
@@ -693,6 +697,16 @@
               icke enbart en speciell lönefråga utan ett allmänt problem av
               stor räckvidd.
             </seg>
+          </u>
+          <note n="477fd60f">
+            Dels under hänvisning till denna allmänna omständighet, dels
+            under åberopande av långsamheten i den i detta sammanhang aktuella
+            förhandlingsprocedu-
+          </note>
+          <note n="e24e2121">
+            organisationerna.
+          </note>
+          <u who="unknown" xml:id="i-c6e4e5df9a31ccca-4" n="c6e4e5df">
             <seg n="f7805e16">
               ren och av olika auktoritativa uttalanden från »arbetsgivaresidan»,
               anhåller jag om kammarens tillstånd att få till statsrådet och
@@ -709,19 +723,7 @@
             <seg n="e50555ae">
               Det sålunda begärda tillståndet lämnades av kammaren.
             </seg>
-            <seg n="541d3246"/>
-            <seg n="6bff3d18">
-              Herr Wahlund anmälde, att han åter infunnit sig vid riksdagen.
-            </seg>
           </u>
-          <note n="477fd60f">
-            Dels under hänvisning till denna allmänna omständighet, dels
-            under åberopande av långsamheten i den i detta sammanhang aktuella
-            förhandlingsprocedu-
-          </note>
-          <note n="e24e2121">
-            organisationerna.
-          </note>
           <note n="081e382e">
             Anmäldes och bordlades en av herr Nilsson, Ernst Hjalmar, under
             sammanträdet till herr talmannen avlämnad, av honom och herr Näsström
@@ -737,7 +739,7 @@
             In fidem G. H. Berggren.
           </note>
           <pb n="7" facs="https://betalab.kb.se/prot-1952--fk--5/prot_1952__fk__5-007.jp2/_view"/>
-          <note n="02f71852">
+          <note type="date" n="d14d8ed5">
             Onsdagen den 13 februari 1952.
           </note>
           <note type="date" n="3c6ff3ac">
@@ -746,6 +748,11 @@
           <note n="0f760e8c">
             Kammaren sammanträdde kl. 2 eftermiddagen.
           </note>
+          <u who="unknown" xml:id="i-c6e4e5df9a31ccca-5" n="c6e4e5df">
+            <seg n="6bff3d18">
+              Herr Wahlund anmälde, att han åter infunnit sig vid riksdagen.
+            </seg>
+          </u>
           <note n="7cfbb91c">
             Föredrogs och hänvisades till behandling av lagutskott Kungl.
             Maj:ts proposition nr 46, med förslag till lag om ändring i civilförsvarslagen
@@ -795,7 +802,7 @@
           <note type="speaker" n="c4b5ffae">
             Herr FÖRSTE VICE TALMANNEN:
           </note>
-          <u who="unknown" xml:id="i-1334e1a94d37e1be-0" n="c6e4e5df">
+          <u who="unknown" xml:id="i-c6e4e5df9a31ccca-6" n="c6e4e5df">
             <seg n="6de4af10">
               Det ämne, som behandlas i motionen II: 462, är av den blandade
               natur, att någon tvekan kan uppkomma, till vilket utskott motionen
@@ -824,7 +831,7 @@
             hovoch slottsstaterna;
           </note>
           <pb n="8" facs="https://betalab.kb.se/prot-1952--fk--5/prot_1952__fk__5-008.jp2/_view"/>
-          <note n="6036dc3e">
+          <note type="date" n="df088200">
             Onsdagen den 13 februari 1952,
           </note>
           <note n="8066aa3a">
@@ -878,7 +885,7 @@
           <note type="speaker" n="35cc33b4">
             Herr PERSSON, KARL:
           </note>
-          <u who="sven_persson_57201c" xml:id="i-9d4e0c8d42a6d2d9-1" next="i-83395bc9bf778b41-1" n="83260428">
+          <u who="sven_persson_57201c" xml:id="i-d47ed5e2bd5ec5bf-3" next="i-d47ed5e2bd5ec5bf-4" n="83260428">
             <seg n="1495ced0">
               Herr talman! Jag vill först uttala ett tack till bevillningsutskottet
               för att det har behandlat motionen så välvilligt. Visserligen
@@ -930,13 +937,13 @@
           <note n="076e3576">
             10 Nr 5.
           </note>
-          <note n="02f71852">
+          <note type="date" n="d14d8ed5">
             Onsdagen den 13 februari 1952.
           </note>
           <note n="cdc23aaf">
             Om fraktbidrag för biltransport av sockerbetor m. m.
           </note>
-          <u who="sven_persson_57201c" xml:id="i-83395bc9bf778b41-1" prev="i-9d4e0c8d42a6d2d9-1" n="83260428">
+          <u who="sven_persson_57201c" xml:id="i-d47ed5e2bd5ec5bf-4" prev="i-d47ed5e2bd5ec5bf-3" n="83260428">
             <seg n="dc21bf0d">
               te har en järnvägsstation inom räckhåll, utan måste anlita lastbil
               eller traktortåg för bettransporten direkt till fabriken, får
@@ -1015,7 +1022,7 @@
             </seg>
           </u>
           <pb n="10" facs="https://betalab.kb.se/prot-1952--fk--5/prot_1952__fk__5-010.jp2/_view"/>
-          <note n="02f71852">
+          <note type="date" n="d14d8ed5">
             Onsdagen den 13 februari 1952.
           </note>
           <note n="58456d07">
@@ -1030,7 +1037,7 @@
           <note type="speaker" n="d268c61a">
             Herr SJÖDAHL:
           </note>
-          <u who="edgar_sjodahl_c32dc0" xml:id="i-28abf4d24ffc77b3-0" n="db609f68">
+          <u who="edgar_sjodahl_c32dc0" xml:id="i-db609f6847dd35ed-0" n="db609f68">
             <seg n="6a3da986">
               Herr talman! Det var en passus i föregående talares yttrande
               som uppkallade mig, nämligen då han sade, att hans motion visserligen
@@ -1058,7 +1065,7 @@
           <note type="speaker" n="35cc33b4">
             Herr PERSSON, KARL:
           </note>
-          <u who="sven_persson_57201c" xml:id="i-3a39af3430d0fee9-0" n="83260428">
+          <u who="sven_persson_57201c" xml:id="i-d47ed5e2bd5ec5bf-5" n="83260428">
             <seg n="22bf66ea">
               Utskottet har skrivit: »Utskottet vill för sin del ansluta sig
               till de principiella synpunkter, som av chefen för jordbruksdepartementet
@@ -1074,7 +1081,7 @@
           <note type="speaker" n="d268c61a">
             Herr SJÖDAHL:
           </note>
-          <u who="edgar_sjodahl_c32dc0" xml:id="i-28abf4d24ffc77b3-1" n="db609f68">
+          <u who="edgar_sjodahl_c32dc0" xml:id="i-db609f6847dd35ed-1" n="db609f68">
             <seg n="99d8afdf">
               Herr talman! Om herr Persson är nöjd med att vi ha skrivit, att
               vi ytterst gärna se att sockerbetsodlingen tar sådan omfattning
@@ -1094,7 +1101,7 @@
           <note type="speaker" n="35cc33b4">
             Herr PERSSON, KARL:
           </note>
-          <u who="sven_persson_57201c" xml:id="i-3a39af3430d0fee9-1" n="83260428">
+          <u who="sven_persson_57201c" xml:id="i-d47ed5e2bd5ec5bf-6" n="83260428">
             <seg n="76e7df51">
               I motiveringen till motionen står faktiskt att det inte bara
               gäller fraktbidrag utan också att med hjälp av dessa fraktbidrag
@@ -1105,7 +1112,7 @@
           <note type="speaker" n="d268c61a">
             Herr SJÖDAHL:
           </note>
-          <u who="edgar_sjodahl_c32dc0" xml:id="i-28abf4d24ffc77b3-2" n="db609f68">
+          <u who="edgar_sjodahl_c32dc0" xml:id="i-db609f6847dd35ed-2" n="db609f68">
             <seg n="ad7b0693">
               Jag vill bara uttrycka min och utskottets tillfredsställelse
               med att det fanns något förnuftigt i herr Perssons motion.
@@ -1135,7 +1142,7 @@
           <note type="speaker" n="c5c9eaef">
             Herr HOLMBÄCK:
           </note>
-          <u who="gustav_holm_2f3b6d" xml:id="i-fdec59ea1705c49d-0" next="i-3ba78f67aeafe2cb-0" n="ffbc99be">
+          <u who="gustav_holm_2f3b6d" xml:id="i-cc8a8bb6f68b8371-0" next="i-cc8a8bb6f68b8371-4" n="ffbc99be">
             <seg n="e279256f">
               Herr talman! Det är icke min avsikt att rikta någon anmärkning
               mot det sätt, på vilket justitieombudsmannen förvaltat sitt ämbete,
@@ -1149,13 +1156,13 @@
           <note n="04fc4f6f">
             12 Nr 5.
           </note>
-          <note n="02f71852">
+          <note type="date" n="d14d8ed5">
             Onsdagen den 13 februari 1952.
           </note>
           <note n="44ab9980">
             Ang. justitieombudsmannens handläggning av visst ärende.
           </note>
-          <u who="gustav_holm_2f3b6d" xml:id="i-3ba78f67aeafe2cb-0" prev="i-fdec59ea1705c49d-0" n="ffbc99be">
+          <u who="gustav_holm_2f3b6d" xml:id="i-cc8a8bb6f68b8371-1" prev="i-cc8a8bb6f68b8371-0" n="ffbc99be">
             <seg n="96fbf79d">
               torsämbetet vid Uppsala universitet, och jag har kännedom om
               det även något mera än genom läsningen av ämbetsberättelsen. Ett
@@ -1190,6 +1197,22 @@
               bättre om man i justitieombudsmannens berättelse stryker fr. o.
               m. orden »att det kunde» t. o. m. orden »varit medveten om».
             </seg>
+          </u>
+          <note n="f4f7f372">
+            Enligt universitetsstatuterna finnes vid varje fakultet en undervisningsnämnd
+            för undervisningens planmässiga ordnande m. m. Den skall minst
+            en gång årligen sammanträda med ombud för studenterna för överläggningar.
+            I början av år 1949 gällde det intagande av utländska medicine
+            studerande. På en cirkulärför-
+          </note>
+          <note n="10cfd300">
+            frågan från medicinska fakultetens notarie översände en av fakultetens
+            professorer en handling i vilken han angav den omfattning vari
+            utländska studenter kunde mottagas på hans institution, men även
+            att studerande av visst ursprung icke vore önskvärda. Skrivelsen
+            var ställd till medicinska fakultetens undervisningsnämnd.
+          </note>
+          <u who="gustav_holm_2f3b6d" xml:id="i-cc8a8bb6f68b8371-2" prev="i-cc8a8bb6f68b8371-0" n="ffbc99be">
             <seg n="c93e5a1d">
               Vid nämndens sammanträde föredrogs skrivelsen utan att denna
               sistnämnda passus lästes upp, men skrivelsen utlånades sedermera
@@ -1221,6 +1244,21 @@
               handlingen icke omhändertagits för förvaring enligt 2 kap. 4 8
               tryckfrihetsförordningen, vilken uppfattning
             </seg>
+          </u>
+          <pb n="12" facs="https://betalab.kb.se/prot-1952--fk--5/prot_1952__fk__5-012.jp2/_view"/>
+          <note type="date" n="d14d8ed5">
+            Onsdagen den 13 februari 1952.
+          </note>
+          <note n="320a1e76">
+            Nr 5. 13
+          </note>
+          <note n="44ab9980">
+            Ang. justitieombudsmannens handläggning av visst ärende.
+          </note>
+          <note n="5b38dd9f">
+            universitetets rektor sedermera bestyrkt som den riktiga.
+          </note>
+          <u who="gustav_holm_2f3b6d" xml:id="i-cc8a8bb6f68b8371-3" prev="i-cc8a8bb6f68b8371-0" n="ffbc99be">
             <seg n="e1d7e821">
               Efter att ha fått det skriftliga svaret anhöll den student, som
               jag nyss syftade på, hos justitieombudsmannen om utredning i saken.
@@ -1301,6 +1339,18 @@
               till justitieombudsmannens expedition för att höra efter, varför
               ärendet icke var
             </seg>
+          </u>
+          <pb n="13" facs="https://betalab.kb.se/prot-1952--fk--5/prot_1952__fk__5-013.jp2/_view"/>
+          <note n="73ef3291">
+            4 Nr 5.
+          </note>
+          <note type="date" n="d14d8ed5">
+            Onsdagen den 13 februari 1952.
+          </note>
+          <note n="44ab9980">
+            Ang. justitieombudsmannens handläggning av visst ärende.
+          </note>
+          <u who="gustav_holm_2f3b6d" xml:id="i-cc8a8bb6f68b8371-4" prev="i-cc8a8bb6f68b8371-0" n="ffbc99be">
             <seg n="2092c87f">
               avgjort. Tryckfrihetsförordningens 2 kap. 13 $ säger ju att mål
               eller ärende angående utlämnande av allmän handling alltid skall
@@ -1363,47 +1413,10 @@
               av den typ som justitieombudsmannen representerar.
             </seg>
           </u>
-          <note n="f4f7f372">
-            Enligt universitetsstatuterna finnes vid varje fakultet en undervisningsnämnd
-            för undervisningens planmässiga ordnande m. m. Den skall minst
-            en gång årligen sammanträda med ombud för studenterna för överläggningar.
-            I början av år 1949 gällde det intagande av utländska medicine
-            studerande. På en cirkulärför-
-          </note>
-          <note n="10cfd300">
-            frågan från medicinska fakultetens notarie översände en av fakultetens
-            professorer en handling i vilken han angav den omfattning vari
-            utländska studenter kunde mottagas på hans institution, men även
-            att studerande av visst ursprung icke vore önskvärda. Skrivelsen
-            var ställd till medicinska fakultetens undervisningsnämnd.
-          </note>
-          <pb n="12" facs="https://betalab.kb.se/prot-1952--fk--5/prot_1952__fk__5-012.jp2/_view"/>
-          <note n="02f71852">
-            Onsdagen den 13 februari 1952.
-          </note>
-          <note n="320a1e76">
-            Nr 5. 13
-          </note>
-          <note n="44ab9980">
-            Ang. justitieombudsmannens handläggning av visst ärende.
-          </note>
-          <note n="5b38dd9f">
-            universitetets rektor sedermera bestyrkt som den riktiga.
-          </note>
-          <pb n="13" facs="https://betalab.kb.se/prot-1952--fk--5/prot_1952__fk__5-013.jp2/_view"/>
-          <note n="73ef3291">
-            4 Nr 5.
-          </note>
-          <note n="02f71852">
-            Onsdagen den 13 februari 1952.
-          </note>
-          <note n="44ab9980">
-            Ang. justitieombudsmannens handläggning av visst ärende.
-          </note>
           <note type="speaker" n="12b8f3ec">
             Herr CASSEL:
           </note>
-          <u who="unknown" xml:id="i-ed79d87b32b0c69c-2" n="c6e4e5df">
+          <u who="unknown" xml:id="i-c6e4e5df9a31ccca-7" n="c6e4e5df">
             <seg n="bb1cb14c">
               Herr talman! Herr Holmbäck synes anse att JO har förfarit mindre
               lämpligt i två avseenden. Det ena är att JO skulle ha legat på
@@ -1419,7 +1432,7 @@
             </seg>
           </u>
           <pb n="14" facs="https://betalab.kb.se/prot-1952--fk--5/prot_1952__fk__5-014.jp2/_view"/>
-          <note n="6036dc3e">
+          <note type="date" n="df088200">
             Onsdagen den 13 februari 1952,
           </note>
           <note n="f47f2fbc">
@@ -1428,7 +1441,7 @@
           <note n="44ab9980">
             Ang. justitieombudsmannens handläggning av visst ärende.
           </note>
-          <u who="unknown" xml:id="i-c4d4aeb34843bf5b-2" n="c6e4e5df">
+          <u who="unknown" xml:id="i-c6e4e5df9a31ccca-8" n="c6e4e5df">
             <seg n="0190ff6c">
               JO:s förfarande rättvisligen kan eller bör föranleda någon erinran
               från utskottets sida. Jag vill i det följande något gå in på vad
@@ -1438,82 +1451,6 @@
               över en del detaljer och även den rättsligt sett svåra frågan
               huruvida den handling det här gäller var till sin karaktär allmän
               eller icke.
-            </seg>
-            <seg n="058375d5">
-              handlingar, och eftersom de inte voro allmänna handlingar enligt
-              Kihlgrens mening, hade han inte ansett att de behövde överlämnas
-              för framtida förvaring i universitetets arkiv.
-            </seg>
-            <seg n="ba1c1593">
-              Enligt min mening är det naturligt att JO, sedan han fått dessa
-              förklaringar, måste ställa sig bl. a. tre frågor. Den första är:
-              Fanns Ask-Upmarks yttrande de facto tillgängligt hos Kihlgren
-              eller eljest, när Bomans begäran att få ta del av det avslogs
-              den 25 januari 1950? Den andra frågan är: Om skrivelsen den 25
-              januari 1950 fanns tillgänglig, visste professor Berg om detta
-              förhållande, när han svarade Boman, att skrivelsen icke förvarades
-              bland universitetets handlingar? För det tredje måste JO fråga
-              sig: Var finns yttrandet av Ask-Upmark nu?
-            </seg>
-            <seg n="36aded81">
-              För att få en tillförlitlig utredning om vad som hade förekommit
-              i saken, anmodade JO polismästaren i Uppsala att göra undersökning
-              i ärendet. Kiblgren hördes av vederbörande kommissarie och Berg
-              av polismästaren personligen. Kihlgren kunde inte lämna någon
-              upplysning om när och hur Ask-Upmarks yttrande försvunnit; möjligen
-              kunde han av misstag ha råkat kasta bort handlingen tillsammans
-              med några tidningar, som han haft liggande i portföljen. Professor
-              Berg förklarade inför polismästaren att han erhållit besked av
-              Kihlgren, som inneburit att handlingen icke varit offentlig, enär
-              den icke intagits i protokollet eller eljest omhändertagits för
-              arkivering. Berg hade därför ej ansett sig ha anledning att närmare
-              tillfråga Kihlgren, huruvida handlingen fanns i behåll, eller
-              söka utröna var den fanns.
-            </seg>
-            <seg n="3df06352">
-              handlingen faktiskt fanns tillgänglig. Förhörsprotokollet kom
-              in till JO den 11 december 1950. Man ansåg då på JO- expeditionen
-              att ärendet var färdigt för prövning. Jag vill, eftersom herr
-              Holmbäck nämnde det, vitsorda att man på JO-expeditionen i det
-              ögonblicket tycktes ha en viss misstanke mot Kihlgren om att han
-              icke hållit sin rektor underrättad om det verkliga förhållandet
-              på det sätt som borde ha skett. Emellertid kom Berg, såsom herr
-              Holmbäck redan talat om, på ett personligt besök på JO:s expedition
-              för att höra hur ärendet låg till. Han träffade där byråchefen
-              Stenlund och överlade med honom om ärendet. Först då — det var
-              den 20 februari 1951, tretton månader efter det att ärendet inkommit
-              — fick JO-ämbetet klarhet om att Berg, när han den 25 januari
-              svarat Boman att yttrandet icke fanns i förvar hos universitetet,
-              varit fullt underkunnig om att Kiblgren då hade handlingen bland
-              sina papper. Därmed var det klarlagt att Kihlgren icke undanhåillit
-              Berg någon upplysning.
-            </seg>
-            <seg n="a7a01f9b">
-              Såvitt utskottet har kunnat finna beror både den långa tid som
-              ärendet tagit och JO:s åtgärd att anlita polismästaren i Uppsala
-              för utredning uteslutande på det förhållandet att professor Berg
-              och notarie Kihlgren utgått ifrån att Ask-Upmarks yttrande icke
-              utgjorde allmän handling och att frågan, huruvida handlingen de
-              facto fanns, följaktligen saknade betydelse. Hade Berg och Kihlgren,
-              som naturligt varit, genast givit JO en uttömmande förklaring,
-              är det klart att ärendet hade kunnat avgöras mycket snabbare,
-              och det hade icke blivit aktuellt för JO att begära polisutredning.
-            </seg>
-            <seg n="dffea3b1">
-              Herr talman! Eftersom professor Berg och notarie Kihlgren sålunda
-              genom egna åtgöranden synas ha orsakat både tidsutdräkten och
-              polisutredningen, kan
-            </seg>
-            <seg n="ee4d4ff4">
-              Huruvida en muntlig förhandling inför JO kan anses lämplig eller
-              inte, är jag inte beredd att på stående fot uttala mig om. Det
-              kanske finns många aspekter på det problemet, men att man icke
-              bör göra såsom professor Holmbäck nyss nämnde, alltså att genom
-              ett enkelt telefonsamtal till Uppsala inhämta vissa upplysningar,
-              finner jag uppenbart. Jag vill erinra om att JO någon gång på
-              1930-talet under hand fick påpekande från dåvarande ordföranden
-              i första lagutskottet att låta bli att infordra yttranden per
-              telefon.
             </seg>
           </u>
           <note n="7c0369c0">
@@ -1546,6 +1483,13 @@
             universitetslärarna som svar på nämndens rundfråga — bland dem
             Ask-Upmarks — varit allmänna
           </note>
+          <u who="unknown" xml:id="i-c6e4e5df9a31ccca-9" n="c6e4e5df">
+            <seg n="058375d5">
+              handlingar, och eftersom de inte voro allmänna handlingar enligt
+              Kihlgrens mening, hade han inte ansett att de behövde överlämnas
+              för framtida förvaring i universitetets arkiv.
+            </seg>
+          </u>
           <note n="06526c35">
             Professor Berg svarade att han fann Kihlgrens förfarande att
             icke för förvaring omhänderta handlingarna fullt motiverat och
@@ -1558,6 +1502,19 @@
             icke formellt »förvarades» bland universitetets handlingar, men
             dock i realiteten fanns hos Kihlgren eller var eljest tillgänglig.
           </note>
+          <u who="unknown" xml:id="i-c6e4e5df9a31ccca-10" n="c6e4e5df">
+            <seg n="ba1c1593">
+              Enligt min mening är det naturligt att JO, sedan han fått dessa
+              förklaringar, måste ställa sig bl. a. tre frågor. Den första är:
+              Fanns Ask-Upmarks yttrande de facto tillgängligt hos Kihlgren
+              eller eljest, när Bomans begäran att få ta del av det avslogs
+              den 25 januari 1950? Den andra frågan är: Om skrivelsen den 25
+              januari 1950 fanns tillgänglig, visste professor Berg om detta
+              förhållande, när han svarade Boman, att skrivelsen icke förvarades
+              bland universitetets handlingar? För det tredje måste JO fråga
+              sig: Var finns yttrandet av Ask-Upmark nu?
+            </seg>
+          </u>
           <note n="dd1f086b">
             JO skrev redan nästa dag, den 21 februari, till Kihlgren och
             frågade honom direkt: Var förvaras »nu» Ask-Upmarks yttrande?
@@ -1580,7 +1537,7 @@
           <note n="dfb2c6b7">
             16 Nr 5.
           </note>
-          <note n="07cb2f4b">
+          <note type="date" n="c068271a">
             Onsdagen den 13 februari 19352.
           </note>
           <note n="44ab9980">
@@ -1607,18 +1564,73 @@
             talar Berg om, huruvida han den 25 januari 1950 visste om att
             Kihlgren hade skrivelsen eller ej.
           </note>
+          <u who="unknown" xml:id="i-c6e4e5df9a31ccca-11" n="c6e4e5df">
+            <seg n="36aded81">
+              För att få en tillförlitlig utredning om vad som hade förekommit
+              i saken, anmodade JO polismästaren i Uppsala att göra undersökning
+              i ärendet. Kiblgren hördes av vederbörande kommissarie och Berg
+              av polismästaren personligen. Kihlgren kunde inte lämna någon
+              upplysning om när och hur Ask-Upmarks yttrande försvunnit; möjligen
+              kunde han av misstag ha råkat kasta bort handlingen tillsammans
+              med några tidningar, som han haft liggande i portföljen. Professor
+              Berg förklarade inför polismästaren att han erhållit besked av
+              Kihlgren, som inneburit att handlingen icke varit offentlig, enär
+              den icke intagits i protokollet eller eljest omhändertagits för
+              arkivering. Berg hade därför ej ansett sig ha anledning att närmare
+              tillfråga Kihlgren, huruvida handlingen fanns i behåll, eller
+              söka utröna var den fanns.
+            </seg>
+          </u>
           <note n="58a61911">
             Ej heller genom polisförhöret bereddes någon klarhet i frågan
             huruvida Berg den 235 januari 1950 vetat om att
           </note>
+          <u who="unknown" xml:id="i-c6e4e5df9a31ccca-12" n="c6e4e5df">
+            <seg n="3df06352">
+              handlingen faktiskt fanns tillgänglig. Förhörsprotokollet kom
+              in till JO den 11 december 1950. Man ansåg då på JO- expeditionen
+              att ärendet var färdigt för prövning. Jag vill, eftersom herr
+              Holmbäck nämnde det, vitsorda att man på JO-expeditionen i det
+              ögonblicket tycktes ha en viss misstanke mot Kihlgren om att han
+              icke hållit sin rektor underrättad om det verkliga förhållandet
+              på det sätt som borde ha skett. Emellertid kom Berg, såsom herr
+              Holmbäck redan talat om, på ett personligt besök på JO:s expedition
+              för att höra hur ärendet låg till. Han träffade där byråchefen
+              Stenlund och överlade med honom om ärendet. Först då — det var
+              den 20 februari 1951, tretton månader efter det att ärendet inkommit
+              — fick JO-ämbetet klarhet om att Berg, när han den 25 januari
+              svarat Boman att yttrandet icke fanns i förvar hos universitetet,
+              varit fullt underkunnig om att Kiblgren då hade handlingen bland
+              sina papper. Därmed var det klarlagt att Kihlgren icke undanhåillit
+              Berg någon upplysning.
+            </seg>
+          </u>
           <note n="446f43e1">
             I anledning av detta besök bereddes professor Berg tillfälle
             att inkomma med förnyat yttrande i saken. Ett sådant yttrande
             kom också in den 27 i samma månad. Den 31 mars avgjordes ärendet
             av JO genom en ämbetsskrivelse till rektorsämbetet.
           </note>
+          <u who="unknown" xml:id="i-c6e4e5df9a31ccca-13" n="c6e4e5df">
+            <seg n="a7a01f9b">
+              Såvitt utskottet har kunnat finna beror både den långa tid som
+              ärendet tagit och JO:s åtgärd att anlita polismästaren i Uppsala
+              för utredning uteslutande på det förhållandet att professor Berg
+              och notarie Kihlgren utgått ifrån att Ask-Upmarks yttrande icke
+              utgjorde allmän handling och att frågan, huruvida handlingen de
+              facto fanns, följaktligen saknade betydelse. Hade Berg och Kihlgren,
+              som naturligt varit, genast givit JO en uttömmande förklaring,
+              är det klart att ärendet hade kunnat avgöras mycket snabbare,
+              och det hade icke blivit aktuellt för JO att begära polisutredning.
+            </seg>
+            <seg n="dffea3b1">
+              Herr talman! Eftersom professor Berg och notarie Kihlgren sålunda
+              genom egna åtgöranden synas ha orsakat både tidsutdräkten och
+              polisutredningen, kan
+            </seg>
+          </u>
           <pb n="16" facs="https://betalab.kb.se/prot-1952--fk--5/prot_1952__fk__5-016.jp2/_view"/>
-          <note n="6036dc3e">
+          <note type="date" n="df088200">
             Onsdagen den 13 februari 1952,
           </note>
           <note n="6e0a1cb5">
@@ -1631,10 +1643,23 @@
             det enligt utskottets mening icke finnas skäl till anmärkning
             mot JO:s handläggning av ärendet.
           </note>
+          <u who="unknown" xml:id="i-c6e4e5df9a31ccca-14" n="c6e4e5df">
+            <seg n="ee4d4ff4">
+              Huruvida en muntlig förhandling inför JO kan anses lämplig eller
+              inte, är jag inte beredd att på stående fot uttala mig om. Det
+              kanske finns många aspekter på det problemet, men att man icke
+              bör göra såsom professor Holmbäck nyss nämnde, alltså att genom
+              ett enkelt telefonsamtal till Uppsala inhämta vissa upplysningar,
+              finner jag uppenbart. Jag vill erinra om att JO någon gång på
+              1930-talet under hand fick påpekande från dåvarande ordföranden
+              i första lagutskottet att låta bli att infordra yttranden per
+              telefon.
+            </seg>
+          </u>
           <note type="speaker" n="c5c9eaef">
             Herr HOLMBÄCK:
           </note>
-          <u who="gustav_holm_2f3b6d" xml:id="i-0f7e1366fc96d658-0" n="ffbc99be">
+          <u who="gustav_holm_2f3b6d" xml:id="i-cc8a8bb6f68b8371-5" n="ffbc99be">
             <seg n="90125739">
               Herr talman! Jag konstaterar att de faktiska upplysningar, som
               herr Cassel här lämnade, äro riktiga. De stämma helt med de uppgitter,
@@ -1666,7 +1691,7 @@
           <note type="speaker" n="bdedd420">
             Herr HERLITZ:
           </note>
-          <u who="nils_herlitz_45342c" xml:id="i-070c3c9fd6159032-0" n="dc342cee">
+          <u who="nils_herlitz_45342c" xml:id="i-dc342cee12a7ebf5-0" n="dc342cee">
             <seg n="4acf18ac">
               Herr talman! Jag kan på intet vis yttra mig om själva det ärende
               som här dragits upp. Herr Holmbäck har ju redogjort för det endast
@@ -1711,7 +1736,7 @@
           <note n="ed5be42e">
             18 Nr 5.
           </note>
-          <note n="02f71852">
+          <note type="date" n="d14d8ed5">
             Onsdagen den 13 februari 1952.
           </note>
           <note n="47775fdf">
@@ -1724,7 +1749,7 @@
           <note type="speaker" n="12b8f3ec">
             Herr CASSEL:
           </note>
-          <u who="unknown" xml:id="i-1334e1a94d37e1be-1" n="c6e4e5df">
+          <u who="unknown" xml:id="i-c6e4e5df9a31ccca-15" n="c6e4e5df">
             <seg n="83929347">
               Herr talman! Jag ansluter mig gärna till den av professor Holmbäck
               och professor Herlitz framförda synpunkten, att man kanske bör
@@ -1752,7 +1777,7 @@
           <note type="speaker" n="c5c9eaef">
             Herr HOLMBÄCK:
           </note>
-          <u who="gustav_holm_2f3b6d" xml:id="i-0f7e1366fc96d658-1" n="ffbc99be">
+          <u who="gustav_holm_2f3b6d" xml:id="i-cc8a8bb6f68b8371-6" n="ffbc99be">
             <seg n="e878181b">
               Herr talman! Herr Cassel och jag ha nog i själva verket närmat
               oss varandra i principiellt hänseende genom hans sista yttrande.
@@ -1793,7 +1818,7 @@
           <note type="speaker" n="d8aafb9e">
             Herr LUNDGREN:
           </note>
-          <u who="per_lundgren_9faf40" xml:id="i-0f62d4f3e434b89a-0" next="i-cf2290d7f8ec694a-0" n="2fec691c">
+          <u who="per_lundgren_9faf40" xml:id="i-2fec691c5a470876-0" next="i-2fec691c5a470876-2" n="2fec691c">
             <seg n="a44e2174">
               Herr talman! Det hade varit min avsikt att till första lagutskottets
               utlåtande i anledning av den verkställda granskningen av militieombudsmannens
@@ -1815,7 +1840,7 @@
             </seg>
           </u>
           <pb n="18" facs="https://betalab.kb.se/prot-1952--fk--5/prot_1952__fk__5-018.jp2/_view"/>
-          <note n="6036dc3e">
+          <note type="date" n="df088200">
             Onsdagen den 13 februari 1952,
           </note>
           <note n="c5f66ea4">
@@ -1824,7 +1849,7 @@
           <note n="47775fdf">
             Ang. militieombudsmannens handläggning av vissa ärenden.
           </note>
-          <u who="per_lundgren_9faf40" xml:id="i-cf2290d7f8ec694a-0" prev="i-0f62d4f3e434b89a-0" n="2fec691c">
+          <u who="per_lundgren_9faf40" xml:id="i-2fec691c5a470876-1" prev="i-2fec691c5a470876-0" n="2fec691c">
             <seg n="807219cc">
               dana en krigsmakt som är duglig att i allvarets stund försvara
               vårt land. Självfallet måste dock under all fredsutbildning hänsyn
@@ -1858,6 +1883,15 @@
               tolkningen härvidlag klar för sig — en tolkning som det säkerligen
               tagit MO mycket lång tid att komma till.
             </seg>
+          </u>
+          <note n="a7a84d47">
+            Ett exempel av annan art, som visar MO:s mycket formella inställning,
+            återfinnes i ärende nr 11. En kompanichef har tillrättavisats
+            för det han beordrat en furir att utföra vissa tjänsteförrättningar,
+            oaktat furiren var sjukredovisad såsom icke tjänstbar. Tjänsteförrättningen
+            bestod däri att furiren, som var sjuk-
+          </note>
+          <u who="per_lundgren_9faf40" xml:id="i-2fec691c5a470876-2" prev="i-2fec691c5a470876-0" n="2fec691c">
             <seg n="9aa78269">
               skriven i hemmet och som bodde på kompaniet, hade beordrats att
               väcka kompaniets personal. Då han var sjukskriven på grund av
@@ -1887,17 +1921,10 @@
               hemställan.
             </seg>
           </u>
-          <note n="a7a84d47">
-            Ett exempel av annan art, som visar MO:s mycket formella inställning,
-            återfinnes i ärende nr 11. En kompanichef har tillrättavisats
-            för det han beordrat en furir att utföra vissa tjänsteförrättningar,
-            oaktat furiren var sjukredovisad såsom icke tjänstbar. Tjänsteförrättningen
-            bestod däri att furiren, som var sjuk-
-          </note>
           <note type="speaker" n="7128815e">
             Herr AHLKVIST:
           </note>
-          <u who="emil_ahlkvist_d54b93" xml:id="i-e59ea35410684a8f-0" next="i-803f1ede622f317e-0" n="4a7c4b09">
+          <u who="emil_ahlkvist_d54b93" xml:id="i-4a7c4b099f7552e6-0" next="i-4a7c4b099f7552e6-1" n="4a7c4b09">
             <seg n="3ea7441c">
               Herr talman! Herr Lundgren började sitt anförande med att säga,
               att han tänkt att vid detta utlåtande anmäla ett särskilt uttalande,
@@ -1913,7 +1940,7 @@
           <note n="b474c152">
             20 Nr 5.
           </note>
-          <u who="emil_ahlkvist_d54b93" xml:id="i-803f1ede622f317e-0" prev="i-e59ea35410684a8f-0" n="4a7c4b09">
+          <u who="emil_ahlkvist_d54b93" xml:id="i-4a7c4b099f7552e6-1" prev="i-4a7c4b099f7552e6-0" n="4a7c4b09">
             <seg n="103e496d">
               Om vissa helgdagars firande på söndag.
             </seg>
@@ -1949,7 +1976,7 @@
           <note type="speaker" n="d8aafb9e">
             Herr LUNDGREN:
           </note>
-          <u who="per_lundgren_9faf40" xml:id="i-b9fe29f513e8870c-0" n="2fec691c">
+          <u who="per_lundgren_9faf40" xml:id="i-2fec691c5a470876-3" n="2fec691c">
             <seg n="bb25add0">
               Herr talman! Jag hade icke någon anledning att gå in på en debatt
               om dessa synpunkter, förrän utskottet skulle fatta slutligt beslut
@@ -1960,13 +1987,13 @@
               mig berättigad att säga några ord vid ärendets behandling i kammaren.
             </seg>
           </u>
-          <note n="02f71852">
+          <note type="date" n="d14d8ed5">
             Onsdagen den 13 februari 1952.
           </note>
           <note type="speaker" n="7128815e">
             Herr AHLKVIST:
           </note>
-          <u who="emil_ahlkvist_d54b93" xml:id="i-e59ea35410684a8f-1" next="i-803f1ede622f317e-1" n="4a7c4b09">
+          <u who="emil_ahlkvist_d54b93" xml:id="i-4a7c4b099f7552e6-2" next="i-4a7c4b099f7552e6-3" n="4a7c4b09">
             <seg n="b9d3a62b">
               Herr talman! Det förhåller sig inte heller på det sättet. Såsom
               jag nyss sade förde herr Lundgren inte frågan på tal genom att
@@ -1985,7 +2012,7 @@
             om återställande av viss från ockuperat land härrörande egendom
             m. m., bifölls vad utskottet i detta utlåtande hemställt.
           </note>
-          <u who="emil_ahlkvist_d54b93" xml:id="i-803f1ede622f317e-1" prev="i-e59ea35410684a8f-1" n="4a7c4b09">
+          <u who="emil_ahlkvist_d54b93" xml:id="i-4a7c4b099f7552e6-3" prev="i-4a7c4b099f7552e6-2" n="4a7c4b09">
             <seg n="103e496d">
               Om vissa helgdagars firande på söndag.
             </seg>
@@ -2015,7 +2042,7 @@
             två i anledning av densamma inom andra
           </note>
           <pb n="20" facs="https://betalab.kb.se/prot-1952--fk--5/prot_1952__fk__5-020.jp2/_view"/>
-          <note n="02f71852">
+          <note type="date" n="d14d8ed5">
             Onsdagen den 13 februari 1952.
           </note>
           <note n="2f40ed2d">
@@ -2076,7 +2103,7 @@
           <note type="speaker" n="2100b206">
             Herr ELOWSSON, NILS:
           </note>
-          <u who="nils_elowsson_f174e2" xml:id="i-183819e15df09c45-0" next="i-36a0e3802aab5c10-0" n="7006c7c5">
+          <u who="nils_elowsson_f174e2" xml:id="i-7006c7c5c09df2a4-0" next="i-7006c7c5c09df2a4-3" n="7006c7c5">
             <seg n="bf4cabb3">
               Herr talman! Med anledning av den proposition, som
             </seg>
@@ -2084,7 +2111,7 @@
           <note n="4eebf01a">
             Nr 5. 21
           </note>
-          <u who="nils_elowsson_f174e2" xml:id="i-36a0e3802aab5c10-0" prev="i-183819e15df09c45-0" n="7006c7c5">
+          <u who="nils_elowsson_f174e2" xml:id="i-7006c7c5c09df2a4-1" prev="i-7006c7c5c09df2a4-0" n="7006c7c5">
             <seg n="103e496d">
               Om vissa helgdagars firande på söndag.
             </seg>
@@ -2129,6 +2156,12 @@
               lanåt i samband med trettondagshelgen, äro också en kvarleva
               av detta bruk. Det är väl sådana saker som
             </seg>
+          </u>
+          <pb n="21" facs="https://betalab.kb.se/prot-1952--fk--5/prot_1952__fk__5-021.jp2/_view"/>
+          <note n="f6ce5d1c">
+            22 Nr 5.
+          </note>
+          <u who="nils_elowsson_f174e2" xml:id="i-7006c7c5c09df2a4-2" prev="i-7006c7c5c09df2a4-0" n="7006c7c5">
             <seg n="840f6d5b">
               Om vissa helgdagars firande på söndag. gjort att trettondagen
               inte längre firas med samma religiösa vördnad som fallet varit
@@ -2167,6 +2200,11 @@
               Dei är nog på samma sätt när det gäller våra näringsföretag över
               huvud taget, och därför anser motionären, att
             </seg>
+          </u>
+          <note type="date" n="d14d8ed5">
+            Onsdagen den 13 februari 1952.
+          </note>
+          <u who="nils_elowsson_f174e2" xml:id="i-7006c7c5c09df2a4-3" prev="i-7006c7c5c09df2a4-0" n="7006c7c5">
             <seg n="a8955acf">
               man — om man över huvud taget skall fortsätta att fira denna
               dag — borde förlägga den till en söndag i stället, och med samma
@@ -2193,13 +2231,6 @@
               till söndagar.
             </seg>
           </u>
-          <pb n="21" facs="https://betalab.kb.se/prot-1952--fk--5/prot_1952__fk__5-021.jp2/_view"/>
-          <note n="f6ce5d1c">
-            22 Nr 5.
-          </note>
-          <note n="02f71852">
-            Onsdagen den 13 februari 1952.
-          </note>
           <note n="6ae3fc9d">
             Jag ber, herr talman, att få yrka bifall till den vid utskottsutlåtandet
             fogade reservationen.
@@ -2207,7 +2238,7 @@
           <note type="speaker" n="a15d39e8">
             Herr DE GEER:
           </note>
-          <u who="unknown" xml:id="i-ed79d87b32b0c69c-3" n="c6e4e5df">
+          <u who="unknown" xml:id="i-c6e4e5df9a31ccca-16" n="c6e4e5df">
             <seg n="40a4c486">
               Herr talman! Jag är inte denna gång motionär. Jag har dock flera
               gånger tidigare såväl i denna kammare som i andra kammaren uppträtt
@@ -2224,10 +2255,10 @@
             </seg>
           </u>
           <pb n="22" facs="https://betalab.kb.se/prot-1952--fk--5/prot_1952__fk__5-022.jp2/_view"/>
-          <note n="6036dc3e">
+          <note type="date" n="df088200">
             Onsdagen den 13 februari 1952,
           </note>
-          <u who="unknown" xml:id="i-c4d4aeb34843bf5b-3" n="c6e4e5df">
+          <u who="unknown" xml:id="i-c6e4e5df9a31ccca-17" n="c6e4e5df">
             <seg n="5dfc4039">
               utan även i Värmland och Dalarna som man har denna dåliga vana
               att inte börja arbetet i skogarna förrän efter tretiondagshelgen,
@@ -2268,6 +2299,11 @@
               även å de anställdas vägnar — att det är en för-
             </seg>
             <seg n="541d3246"/>
+          </u>
+          <note n="9e211e6c">
+            Nr 5. 23
+          </note>
+          <u who="unknown" xml:id="i-c6e4e5df9a31ccca-18" n="c6e4e5df">
             <seg n="103e496d">
               Om vissa helgdagars firande på söndag.
             </seg>
@@ -2299,13 +2335,10 @@
               Med dessa ord yrkar jag bifall till reservationen på denna punkt.
             </seg>
           </u>
-          <note n="9e211e6c">
-            Nr 5. 23
-          </note>
           <note type="speaker" n="40ad4b26">
             Herr LUNDQVIST:
           </note>
-          <u who="unknown" xml:id="i-ed79d87b32b0c69c-4" n="c6e4e5df">
+          <u who="unknown" xml:id="i-c6e4e5df9a31ccca-19" n="c6e4e5df">
             <seg n="c6400b2a">
               Herr talman! Jag vill från början säga, att jag innan herr De
               Geer höll sitt anförande hade en diametralt motsatt uppfattning
@@ -2324,7 +2357,7 @@
           <note n="edc39e90">
             24 Nr 5.
           </note>
-          <u who="unknown" xml:id="i-c4d4aeb34843bf5b-4" n="c6e4e5df">
+          <u who="unknown" xml:id="i-c6e4e5df9a31ccca-20" n="c6e4e5df">
             <seg n="103e496d">
               Om vissa helgdagars firande på söndag.
             </seg>
@@ -2367,6 +2400,11 @@
             <seg n="913818e5">
               Tills vidare är jag i varje fall ganska
             </seg>
+          </u>
+          <note type="date" n="d14d8ed5">
+            Onsdagen den 13 februari 1952.
+          </note>
+          <u who="unknown" xml:id="i-c6e4e5df9a31ccca-21" n="c6e4e5df">
             <seg n="3e187aae">
               säker på, herr talman, att i varje fall inte alla reservanter
               kunna gilla den deklarationen. Redan av den anledningen förefaller
@@ -2408,6 +2446,12 @@
               här i landet och som vi alla glädja oss åt, väl inte bara bör
               få karaktären av förbättrade
             </seg>
+          </u>
+          <pb n="24" facs="https://betalab.kb.se/prot-1952--fk--5/prot_1952__fk__5-024.jp2/_view"/>
+          <note type="date" n="d14d8ed5">
+            Onsdagen den 13 februari 1952.
+          </note>
+          <u who="unknown" xml:id="i-c6e4e5df9a31ccca-22" n="c6e4e5df">
             <seg n="9cb06030">
               rent materiella förmåner utan också av ökade möjligheter till
               rekreation och bättre tillgodoseende av vår inre människas behov.
@@ -2447,11 +2491,22 @@
               Jag ber, herr talman, med dessa ord att få tillstyrka utskottets
               hemställan.
             </seg>
+          </u>
+          <note n="42c9b297">
+            I detta anförande instämde herrar Eskilsson, Herbert Hermansson,
+            Arrhén, Bror Nilsson, Björnberg, Magnusson och Franzén.
+          </note>
+          <u who="unknown" xml:id="i-c6e4e5df9a31ccca-23" n="c6e4e5df">
             <seg n="e733f147">
               Herr DE GEER (kort genmäle): Herr talman! Den föregående talaren
               har med stor värme talat för sin sak, och jag antar, att reservanterna
               liksom jag själv
             </seg>
+          </u>
+          <note n="258f706f">
+            Nr 5. 25
+          </note>
+          <u who="unknown" xml:id="i-c6e4e5df9a31ccca-24" n="c6e4e5df">
             <seg n="103e496d">
               Om vissa helgdagars firande på söndag.
             </seg>
@@ -2477,24 +2532,10 @@
               himmelsfärdsdag, accepterar jag mycket gärna ett sådant resultat.
             </seg>
           </u>
-          <note n="02f71852">
-            Onsdagen den 13 februari 1952.
-          </note>
-          <pb n="24" facs="https://betalab.kb.se/prot-1952--fk--5/prot_1952__fk__5-024.jp2/_view"/>
-          <note n="02f71852">
-            Onsdagen den 13 februari 1952.
-          </note>
-          <note n="42c9b297">
-            I detta anförande instämde herrar Eskilsson, Herbert Hermansson,
-            Arrhén, Bror Nilsson, Björnberg, Magnusson och Franzén.
-          </note>
-          <note n="258f706f">
-            Nr 5. 25
-          </note>
           <note type="speaker" n="d9e4fcda">
             Herr WISTRAND:
           </note>
-          <u who="karl_wistrand_ca0ba6" xml:id="i-234a61d2edfcb88f-0" next="i-77cc10bef7812bcb-0" n="0c450ec1">
+          <u who="karl_wistrand_ca0ba6" xml:id="i-0c450ec17b346136-0" next="i-0c450ec17b346136-4" n="0c450ec1">
             <seg n="c284fab5">
               Herr talman! Den föreliggande frågan får inte på något vis överdrivas
               i någondera riktningen, och allra minst bör man såsom herr Lundqvist
@@ -2524,7 +2565,7 @@
           <note n="0d37ad66">
             26
           </note>
-          <u who="karl_wistrand_ca0ba6" xml:id="i-77cc10bef7812bcb-0" prev="i-234a61d2edfcb88f-0" n="0c450ec1">
+          <u who="karl_wistrand_ca0ba6" xml:id="i-0c450ec17b346136-1" prev="i-0c450ec17b346136-0" n="0c450ec1">
             <seg n="103e496d">
               Om vissa helgdagars firande på söndag.
             </seg>
@@ -2569,6 +2610,11 @@
             <seg n="6e9d3644">
               Såsom framgår av vad jag nu sagt
             </seg>
+          </u>
+          <note type="date" n="d14d8ed5">
+            Onsdagen den 13 februari 1952.
+          </note>
+          <u who="karl_wistrand_ca0ba6" xml:id="i-0c450ec17b346136-2" prev="i-0c450ec17b346136-0" n="0c450ec1">
             <seg n="6510cd00">
               finns det inte någon allmän kristlig konvention om helgdagarna
               och deras firande. Det finns knappast något land, som firar sina
@@ -2613,6 +2659,12 @@
               och man har all anledning att vara glad däråt. Men den seden har
               inte tidigare brutits av indragningar av
             </seg>
+          </u>
+          <pb n="26" facs="https://betalab.kb.se/prot-1952--fk--5/prot_1952__fk__5-026.jp2/_view"/>
+          <note type="date" n="df088200">
+            Onsdagen den 13 februari 1952,
+          </note>
+          <u who="karl_wistrand_ca0ba6" xml:id="i-0c450ec17b346136-3" prev="i-0c450ec17b346136-0" n="0c450ec1">
             <seg n="89b28cba">
               några helgdagar och den kommer inte heller i fortsättningen att
               göra det av den anledningen.
@@ -2653,6 +2705,11 @@
               förslag, vilket av betydande lager på det viktiga produktionslivets
               område betraktas som mycket värdefullt, ges sken av att vara ett
             </seg>
+          </u>
+          <note n="0aa2e7a5">
+            Nr 5. 27
+          </note>
+          <u who="karl_wistrand_ca0ba6" xml:id="i-0c450ec17b346136-4" prev="i-0c450ec17b346136-0" n="0c450ec1">
             <seg n="103e496d">
               Om vissa helgdagars firande på söndag.
             </seg>
@@ -2664,20 +2721,10 @@
               Jag ber att få yrka bifall till reservationen.
             </seg>
           </u>
-          <note n="02f71852">
-            Onsdagen den 13 februari 1952.
-          </note>
-          <pb n="26" facs="https://betalab.kb.se/prot-1952--fk--5/prot_1952__fk__5-026.jp2/_view"/>
-          <note n="6036dc3e">
-            Onsdagen den 13 februari 1952,
-          </note>
-          <note n="0aa2e7a5">
-            Nr 5. 27
-          </note>
           <note type="speaker" n="cb2c6cd7">
             Herr STEN:
           </note>
-          <u who="hemming_sten_3c43df" xml:id="i-fd745cf933f210e2-0" next="i-9ba3c504fbd7d84e-0" n="d3e22fd2">
+          <u who="hemming_sten_3c43df" xml:id="i-d3e22fd286d8adc8-0" next="i-d3e22fd286d8adc8-8" n="d3e22fd2">
             <seg n="a8c10dbc">
               Herr talman! Det synes mig nödvändigt alt erinra om att vi i
               dag på sätt och vis stå vid slutet av denna frågas behandling.
@@ -2717,7 +2764,7 @@
           <note n="590bd850">
             28 Nr 5.
           </note>
-          <u who="hemming_sten_3c43df" xml:id="i-9ba3c504fbd7d84e-0" prev="i-fd745cf933f210e2-0" n="d3e22fd2">
+          <u who="hemming_sten_3c43df" xml:id="i-d3e22fd286d8adc8-1" prev="i-d3e22fd286d8adc8-0" n="d3e22fd2">
             <seg n="103e496d">
               Om vissa helgdagars firande på söndag.
             </seg>
@@ -2765,6 +2812,11 @@
               saken för nästa kyrkomöte om tre år eller om fem år eller när
               det kom-
             </seg>
+          </u>
+          <note type="date" n="d14d8ed5">
+            Onsdagen den 13 februari 1952.
+          </note>
+          <u who="hemming_sten_3c43df" xml:id="i-d3e22fd286d8adc8-2" prev="i-d3e22fd286d8adc8-0" n="d3e22fd2">
             <seg n="4fd3c297">
               mer att hållas. Mitt intryck är att kyrkomötet är ytterst lojalt
               och ytterst ogärna vill fatta beslut i strid mot Kungl. Maj:ts
@@ -2803,6 +2855,12 @@
               inför kyrkomötet utlovad utredning om jordfästningslagen, 6) en
               av kyrkomötet självt beslutad utredning angående det s. k. vigseltvånget.
             </seg>
+          </u>
+          <pb n="28" facs="https://betalab.kb.se/prot-1952--fk--5/prot_1952__fk__5-028.jp2/_view"/>
+          <note type="date" n="df088200">
+            Onsdagen den 13 februari 1952,
+          </note>
+          <u who="hemming_sten_3c43df" xml:id="i-d3e22fd286d8adc8-3" prev="i-d3e22fd286d8adc8-0" n="d3e22fd2">
             <seg n="bfa151be">
               Uppräkningen är icke fullständig, men den illustrerar vad jag
               nyss sade, nämligen att det behövs kloka män på ömse sidor för
@@ -2842,6 +2900,11 @@
               Landsorganisationen på sitt och att landssekretariatet och episkopatet
               voro ungefär likställda storheter.
             </seg>
+          </u>
+          <note n="48d289d4">
+            Nr 5. 29
+          </note>
+          <u who="hemming_sten_3c43df" xml:id="i-d3e22fd286d8adc8-4" prev="i-d3e22fd286d8adc8-0" n="d3e22fd2">
             <seg n="103e496d">
               Om vissa helgdagars firande på söndag.
             </seg>
@@ -2882,6 +2945,12 @@
               någon skyldighet för mig att avlägga vittnesbörd om ett av hans
               motiv, vill jag endast säga, att under
             </seg>
+          </u>
+          <pb n="29" facs="https://betalab.kb.se/prot-1952--fk--5/prot_1952__fk__5-029.jp2/_view"/>
+          <note n="839a73d2">
+            30 Nr 5.
+          </note>
+          <u who="hemming_sten_3c43df" xml:id="i-d3e22fd286d8adc8-5" prev="i-d3e22fd286d8adc8-0" n="d3e22fd2">
             <seg n="103e496d">
               Om vissa helgdagars firande på söndag.
             </seg>
@@ -2926,6 +2995,11 @@
               Herr UHLÉN: Herr talman! Jag begärde ordet bara för att göra
               några kompletteringar till herr Elowssons och herr
             </seg>
+          </u>
+          <note type="date" n="d14d8ed5">
+            Onsdagen den 13 februari 1952.
+          </note>
+          <u who="hemming_sten_3c43df" xml:id="i-d3e22fd286d8adc8-6" prev="i-d3e22fd286d8adc8-0" n="d3e22fd2">
             <seg n="6dfdae2e">
               De Geers anföranden, i vilka jag i övrigt instämmer.
             </seg>
@@ -2964,6 +3038,12 @@
             <seg n="a6f673e4">
               Jag skulle alltså tro, att det samman-
             </seg>
+          </u>
+          <pb n="30" facs="https://betalab.kb.se/prot-1952--fk--5/prot_1952__fk__5-030.jp2/_view"/>
+          <note type="date" n="d14d8ed5">
+            Onsdagen den 13 februari 1952.
+          </note>
+          <u who="hemming_sten_3c43df" xml:id="i-d3e22fd286d8adc8-7" prev="i-d3e22fd286d8adc8-0" n="d3e22fd2">
             <seg n="331ed0fc">
               faller med löntagarnas uppfattning i största allmänhet, att en
               sådan dag som trettondagen kan avskaffas som särskild helgdag.
@@ -3002,6 +3082,11 @@
               när man hade nått ett mål. Det skulle betyda, att den kouservativa
               engelsman-
             </seg>
+          </u>
+          <note n="3b1f30f7">
+            Nr 5. 3l
+          </note>
+          <u who="hemming_sten_3c43df" xml:id="i-d3e22fd286d8adc8-8" prev="i-d3e22fd286d8adc8-0" n="d3e22fd2">
             <seg n="103e496d">
               Om vissa helgdagars firande på söndag.
             </seg>
@@ -3028,34 +3113,10 @@
               Herr talman! Jag ber att med dessa ord få yrka bifall till reservationen.
             </seg>
           </u>
-          <note n="02f71852">
-            Onsdagen den 13 februari 1952.
-          </note>
-          <pb n="28" facs="https://betalab.kb.se/prot-1952--fk--5/prot_1952__fk__5-028.jp2/_view"/>
-          <note n="6036dc3e">
-            Onsdagen den 13 februari 1952,
-          </note>
-          <note n="48d289d4">
-            Nr 5. 29
-          </note>
-          <pb n="29" facs="https://betalab.kb.se/prot-1952--fk--5/prot_1952__fk__5-029.jp2/_view"/>
-          <note n="839a73d2">
-            30 Nr 5.
-          </note>
-          <note n="02f71852">
-            Onsdagen den 13 februari 1952.
-          </note>
-          <pb n="30" facs="https://betalab.kb.se/prot-1952--fk--5/prot_1952__fk__5-030.jp2/_view"/>
-          <note n="02f71852">
-            Onsdagen den 13 februari 1952.
-          </note>
-          <note n="3b1f30f7">
-            Nr 5. 3l
-          </note>
           <note type="speaker" n="40ad4b26">
             Herr LUNDQVIST:
           </note>
-          <u who="unknown" xml:id="i-ed79d87b32b0c69c-5" n="c6e4e5df">
+          <u who="unknown" xml:id="i-c6e4e5df9a31ccca-25" n="c6e4e5df">
             <seg n="4771a55e">
               Herr talman! Efter herr Stens ingående anförande skall jag fatta
               mig mycket kort. Jag anser för övrigt inte att denna plats är
@@ -3082,7 +3143,7 @@
           <note n="a24daf97">
             32 Nr 5.
           </note>
-          <u who="unknown" xml:id="i-c4d4aeb34843bf5b-5" n="c6e4e5df">
+          <u who="unknown" xml:id="i-c6e4e5df9a31ccca-26" n="c6e4e5df">
             <seg n="103e496d">
               Om vissa helgdagars firande på söndag.
             </seg>
@@ -3128,6 +3189,11 @@
               Jag skulle nämligen vilja efterlysa vad för papper herr De Geer
               har på att Göteborgs stiftsledning har tillstyrkt,
             </seg>
+          </u>
+          <note type="date" n="d14d8ed5">
+            Onsdagen den 13 februari 1952.
+          </note>
+          <u who="unknown" xml:id="i-c6e4e5df9a31ccca-27" n="c6e4e5df">
             <seg n="0f512436">
               att både trettondagen och Kristi himmelsfärdsdag slopas som fristående
               helgdagar. Jag skall inte säga mera än att jag här har framför
@@ -3168,22 +3234,21 @@
               kalender. Den situationen ha vi aldrig tänkt oss, och jag tror
               inte att man avskräcker kamrarna från att rösta
             </seg>
+          </u>
+          <pb n="32" facs="https://betalab.kb.se/prot-1952--fk--5/prot_1952__fk__5-032.jp2/_view"/>
+          <note type="date" n="df088200">
+            Onsdagen den 13 februari 1952,
+          </note>
+          <u who="unknown" xml:id="i-c6e4e5df9a31ccca-28" n="c6e4e5df">
             <seg n="50979532">
               för reservationen genom att måla på väggen så som herr Sten gjort
               — snarare tvärtom.
             </seg>
           </u>
-          <note n="02f71852">
-            Onsdagen den 13 februari 1952.
-          </note>
-          <pb n="32" facs="https://betalab.kb.se/prot-1952--fk--5/prot_1952__fk__5-032.jp2/_view"/>
-          <note n="6036dc3e">
-            Onsdagen den 13 februari 1952,
-          </note>
           <note type="speaker" n="74f3c02c">
             Herr NORMAN:
           </note>
-          <u who="david_norman_bc42aa" xml:id="i-7000d344da69c565-0" n="6a828071">
+          <u who="david_norman_bc42aa" xml:id="i-6a828071ef993565-0" n="6a828071">
             <seg n="d90394d4">
               Herr talman! Jag har begärt ordet inte bara därför att jag har
               haft förtroendet att leda utskottets förhandlingar, när detta
@@ -3214,7 +3279,7 @@
           <note type="speaker" n="2100b206">
             Herr ELOWSSON, NILS:
           </note>
-          <u who="nils_elowsson_f174e2" xml:id="i-183819e15df09c45-1" next="i-36a0e3802aab5c10-1" n="7006c7c5">
+          <u who="nils_elowsson_f174e2" xml:id="i-7006c7c5c09df2a4-4" next="i-7006c7c5c09df2a4-9" n="7006c7c5">
             <seg n="a9868b91">
               Herr talman! Det har redan sagts så mycket i denna sak att jag
               inte behöver förlänga debatten. Men både herr Lundqvist och herr
@@ -3229,7 +3294,7 @@
           <note n="b816cf57">
             Nr 5. 33
           </note>
-          <u who="nils_elowsson_f174e2" xml:id="i-36a0e3802aab5c10-1" prev="i-183819e15df09c45-1" n="7006c7c5">
+          <u who="nils_elowsson_f174e2" xml:id="i-7006c7c5c09df2a4-5" prev="i-7006c7c5c09df2a4-4" n="7006c7c5">
             <seg n="103e496d">
               Om vissa helgdagars firande på söndag.
             </seg>
@@ -3269,6 +3334,12 @@
               i vårt land äro nämligen på det klara med att besökarantalet i
               kyrkorna avtar efter julen. Av kyrkolagsutskot-
             </seg>
+          </u>
+          <pb n="33" facs="https://betalab.kb.se/prot-1952--fk--5/prot_1952__fk__5-033.jp2/_view"/>
+          <note n="e65639a9">
+            34 Nr 5.
+          </note>
+          <u who="nils_elowsson_f174e2" xml:id="i-7006c7c5c09df2a4-6" prev="i-7006c7c5c09df2a4-4" n="7006c7c5">
             <seg n="103e496d">
               Om vissa helgdagars firande på söndag.
             </seg>
@@ -3313,6 +3384,11 @@
               dess läge i dag är sådant att man i första hand har att tänka
               på dessa utanverk, utan jag tror att
             </seg>
+          </u>
+          <note type="date" n="d14d8ed5">
+            Onsdagen den 13 februari 1952.
+          </note>
+          <u who="nils_elowsson_f174e2" xml:id="i-7006c7c5c09df2a4-7" prev="i-7006c7c5c09df2a4-4" n="7006c7c5">
             <seg n="3e84c83a">
               kyrkan har mycket allvarligare saker att tänka på och att det
               är just dessa saker som ha lett till att vi i dag måste konstatera,
@@ -3352,6 +3428,12 @@
               skola skänka det vår uppskattning, men när herr Sten gör gällande
               att det väl inte är sannolikt att kyrkomötet ytterligare en gång
             </seg>
+          </u>
+          <pb n="34" facs="https://betalab.kb.se/prot-1952--fk--5/prot_1952__fk__5-034.jp2/_view"/>
+          <note type="date" n="d14d8ed5">
+            Onsdagen den 13 februari 1952.
+          </note>
+          <u who="nils_elowsson_f174e2" xml:id="i-7006c7c5c09df2a4-8" prev="i-7006c7c5c09df2a4-4" n="7006c7c5">
             <seg n="47c58102">
               inom den närmaste framtiden skulle vara sinnat att inta en lika
               välvillig hållning om denna sak skulle föras fram på nytt, får
@@ -3390,6 +3472,11 @@
               som jag ansåg mig skyldig att ge kammaren före beslutet i denna
               fråga.
             </seg>
+          </u>
+          <note n="ebd2a382">
+            Nr 5. 35
+          </note>
+          <u who="nils_elowsson_f174e2" xml:id="i-7006c7c5c09df2a4-9" prev="i-7006c7c5c09df2a4-4" n="7006c7c5">
             <seg n="103e496d">
               Om vissa helgdagars firande på söndag.
             </seg>
@@ -3403,24 +3490,10 @@
               herr talmannen vet inte vill säga så litet.»
             </seg>
           </u>
-          <pb n="33" facs="https://betalab.kb.se/prot-1952--fk--5/prot_1952__fk__5-033.jp2/_view"/>
-          <note n="e65639a9">
-            34 Nr 5.
-          </note>
-          <note n="02f71852">
-            Onsdagen den 13 februari 1952.
-          </note>
-          <pb n="34" facs="https://betalab.kb.se/prot-1952--fk--5/prot_1952__fk__5-034.jp2/_view"/>
-          <note n="02f71852">
-            Onsdagen den 13 februari 1952.
-          </note>
-          <note n="ebd2a382">
-            Nr 5. 35
-          </note>
           <note type="speaker" n="6ce17fb5">
             Herr MOGAÅRD:
           </note>
-          <u who="unknown" xml:id="i-ed79d87b32b0c69c-6" n="c6e4e5df">
+          <u who="unknown" xml:id="i-c6e4e5df9a31ccca-29" n="c6e4e5df">
             <seg n="b2f05d1d">
               Herr talman! I olikhet med herr De Geer äger jag inga järnbruk
               och kan följaktligen inte heller bedöma behovet av att ytterligare
@@ -3455,7 +3528,7 @@
           <note n="9b185d88">
             36 Nr 5.
           </note>
-          <u who="unknown" xml:id="i-c4d4aeb34843bf5b-6" n="c6e4e5df">
+          <u who="unknown" xml:id="i-c6e4e5df9a31ccca-30" n="c6e4e5df">
             <seg n="103e496d">
               Om vissa helgdagars firande på söndag.
             </seg>
@@ -3496,6 +3569,11 @@
               ha också anknutit sina högtider till denna dag. Jag har inte riktigt
               samma känsla för trettondagen. Det är onekli-
             </seg>
+          </u>
+          <note type="date" n="d14d8ed5">
+            Onsdagen den 13 februari 1952.
+          </note>
+          <u who="unknown" xml:id="i-c6e4e5df9a31ccca-31" n="c6e4e5df">
             <seg n="84cd062c">
               gen en väl lång rad av söndagar och helgdagar kring julen, och
               man märker ju tydligt i våra kyrkor att menigheten så småningom
@@ -3539,17 +3617,14 @@
               här har föreslagit.
             </seg>
           </u>
-          <note n="02f71852">
-            Onsdagen den 13 februari 1952.
-          </note>
           <pb n="36" facs="https://betalab.kb.se/prot-1952--fk--5/prot_1952__fk__5-036.jp2/_view"/>
-          <note n="6036dc3e">
+          <note type="date" n="df088200">
             Onsdagen den 13 februari 1952,
           </note>
           <note type="speaker" n="df13f8b1">
             Herr NORDENSON:
           </note>
-          <u who="harald_nordenson_aa1eaa" xml:id="i-d34426584b8a9d9c-0" next="i-f0b60f582809da49-0" n="5e63dccb">
+          <u who="harald_nordenson_aa1eaa" xml:id="i-5e63dccb20514a6c-0" next="i-5e63dccb20514a6c-2" n="5e63dccb">
             <seg n="e5fd44db">
               Herr talman! Jag skulle vilja anknyta till vad herr Wistrand
               och herr De Geer ha framhållit om betydelsen av en omläggning
@@ -3588,7 +3663,7 @@
           <note n="95a51eab">
             Nr 5. 37
           </note>
-          <u who="harald_nordenson_aa1eaa" xml:id="i-f0b60f582809da49-0" prev="i-d34426584b8a9d9c-0" n="5e63dccb">
+          <u who="harald_nordenson_aa1eaa" xml:id="i-5e63dccb20514a6c-1" prev="i-5e63dccb20514a6c-0" n="5e63dccb">
             <seg n="103e496d">
               Om vissa helgdagars firande på söndag.
             </seg>
@@ -3628,6 +3703,12 @@
               oss i alltför hög grad bundna av bruket i dessa fall. Jag delar
               den uppfattning som herr Mogård givit
             </seg>
+          </u>
+          <pb n="37" facs="https://betalab.kb.se/prot-1952--fk--5/prot_1952__fk__5-037.jp2/_view"/>
+          <note n="6f44ca34">
+            38 Nr 5.
+          </note>
+          <u who="harald_nordenson_aa1eaa" xml:id="i-5e63dccb20514a6c-2" prev="i-5e63dccb20514a6c-0" n="5e63dccb">
             <seg n="103e496d">
               Om vissa helgdagars firande på söndag.
             </seg>
@@ -3662,14 +3743,10 @@
               komma tillbaka inom en icke alltför avlägsen framtid.
             </seg>
           </u>
-          <pb n="37" facs="https://betalab.kb.se/prot-1952--fk--5/prot_1952__fk__5-037.jp2/_view"/>
-          <note n="6f44ca34">
-            38 Nr 5.
-          </note>
           <note type="speaker" n="c266e173">
             Herr EWERLÖF:
           </note>
-          <u who="elsa_ewerlof_4d44ed" xml:id="i-b22527555673d0b3-0" next="i-d5f04fa080167129-0" n="c0c0e5b8">
+          <u who="elsa_ewerlof_4d44ed" xml:id="i-00dad497c7ca8cd7-0" next="i-00dad497c7ca8cd7-2" n="c0c0e5b8">
             <seg n="4af49682">
               Herr talman! Även jag hör till dem som anse att det icke är anledning
               att överdriva skillnaden mellan de olika ståndpunkter som här
@@ -3680,10 +3757,10 @@
               utlåtande, som jag anser vara väl avvägt.
             </seg>
           </u>
-          <note n="02f71852">
+          <note type="date" n="d14d8ed5">
             Onsdagen den 13 februari 1952.
           </note>
-          <u who="elsa_ewerlof_4d44ed" xml:id="i-d5f04fa080167129-0" prev="i-b22527555673d0b3-0" n="c0c0e5b8">
+          <u who="elsa_ewerlof_4d44ed" xml:id="i-00dad497c7ca8cd7-1" prev="i-00dad497c7ca8cd7-0" n="c0c0e5b8">
             <seg n="ddcb63fc">
               Jag vill endast i korthet erinra om vad som har framhållits här
               från så många olika håll, nämligen att vi röra oss på ett utomordentligt
@@ -3702,9 +3779,6 @@
             <seg n="97d0f95b">
               Jag ber för min del, herr talman, att få yrka bifall till utskottets
               hemställan.
-            </seg>
-            <seg n="103e496d">
-              Om vissa helgdagars firande på söndag.
             </seg>
           </u>
           <note n="0f02dc6f">
@@ -3734,7 +3808,7 @@
             Ja; Den, det ej vill, röstar Nej;
           </note>
           <pb n="38" facs="https://betalab.kb.se/prot-1952--fk--5/prot_1952__fk__5-038.jp2/_view"/>
-          <note n="6036dc3e">
+          <note type="date" n="df088200">
             Onsdagen den 13 februari 1952,
           </note>
           <note n="bcf9affe">
@@ -3790,6 +3864,11 @@
           <note n="6124ee75">
             Nr 5. 39
           </note>
+          <u who="elsa_ewerlof_4d44ed" xml:id="i-00dad497c7ca8cd7-2" prev="i-00dad497c7ca8cd7-0" n="c0c0e5b8">
+            <seg n="103e496d">
+              Om vissa helgdagars firande på söndag.
+            </seg>
+          </u>
           <note n="6faf6eeb">
             Upplästes och lades till handlingarna följande från justitiedepartementet
             ankomna

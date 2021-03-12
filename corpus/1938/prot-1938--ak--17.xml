@@ -20,7 +20,7 @@
     <encodingDesc>
       <editorialDecl>
         <correction>
-          <p>Some data curation was done. It is documented in db/curation/instances</p>
+          <p>Some data curation was done. It is documented in input/curation/instances</p>
         </correction>
       </editorialDecl>
     </encodingDesc>
@@ -52,11 +52,13 @@
       <front>
         <div type="preface">
           <head>prot-1938--ak--17</head>
+          <docDate when="1938-03-05">1938-03-05</docDate>
           <docDate when="1938-03-08">1938-03-08</docDate>
         </div>
       </front>
       <body>
         <div>
+          <pb n="0" facs="https://betalab.kb.se/prot-1938--ak--17/prot_1938__ak__17-000.jp2/_view"/>
           <note n="4bad8ff9"/>
           <note n="6d9f458e">
             RIKSDAGENS PROTOKOLL. 1938. Andra kammaren. Nr 17.
@@ -64,7 +66,7 @@
           <note n="4bad8ff9"/>
           <note n="4bad8ff9"/>
           <note n="4bad8ff9"/>
-          <note n="270aa893">
+          <note type="date" n="1df1c48e">
             Lördagen den 5 mars. Kl. 4 e. m.
           </note>
           <note n="e6f96c32">
@@ -159,7 +161,7 @@
             Andra kammarens protokoll 1938. Nr 17. 1
           </note>
           <pb n="1" facs="https://betalab.kb.se/prot-1938--ak--17/prot_1938__ak__17-001.jp2/_view"/>
-          <note n="88d00313">
+          <note type="date" n="15334282">
             2” "Nr 17, Lördagen den 5 mars 1938.
           </note>
           <note n="725e80cd">
@@ -266,7 +268,7 @@
             begränsning. -
           </note>
           <pb n="2" facs="https://betalab.kb.se/prot-1938--ak--17/prot_1938__ak__17-002.jp2/_view"/>
-          <note n="9bfc4fdc">
+          <note type="date" n="4634d088">
             Lördagen den 5 mars 1938. Nr 17. 3
           </note>
           <note n="ca2c8291">
@@ -343,7 +345,7 @@
             &gt; 9 &gt;
           </note>
           <pb n="3" facs="https://betalab.kb.se/prot-1938--ak--17/prot_1938__ak__17-003.jp2/_view"/>
-          <note n="71eeb238">
+          <note type="date" n="bcf237cf">
             4 Nr 17. Tisdagen den 8 mars 1938.
           </note>
           <note n="3b92659a">
@@ -357,7 +359,7 @@
           <note n="aac42a44">
             In "fidem Sune Norrman.
           </note>
-          <note n="c66d5ea6">
+          <note type="date" n="f8bf67dc">
             Tisdagen den 8 mars. Kl. 4 e. m.
           </note>
           <note n="21c9fac3">
@@ -372,7 +374,7 @@
           <note type="speaker" n="99cdd069">
             Herr statsrådet Wigforss avlämnade Kungl. Maj:
           </note>
-          <u who="ernst_wigforss_881974" xml:id="i-f8a2a70189015c3c-0" next="i-e8adfa5caea2ea37-0" n="2b252fd3">
+          <u who="ernst_wigforss_881974" xml:id="i-2b252fd3b4f0f9b9-0" next="i-2b252fd3b4f0f9b9-3" n="2b252fd3">
             <seg n="411eb4d9">
               ts propositioner:
             </seg>
@@ -437,7 +439,7 @@
             m. m.; och
           </note>
           <pb n="4" facs="https://betalab.kb.se/prot-1938--ak--17/prot_1938__ak__17-004.jp2/_view"/>
-          <note n="dfd22d75">
+          <note type="date" n="15a0beda">
             Tisdagen den 8 mars 1938. Nr 17. 5
           </note>
           <note n="cb7c8c81">
@@ -531,7 +533,7 @@
             förhållande till utlandet m. m.;
           </note>
           <pb n="5" facs="https://betalab.kb.se/prot-1938--ak--17/prot_1938__ak__17-005.jp2/_view"/>
-          <note n="2c823a2e">
+          <note type="date" n="a7334627">
             6 Nr 17. Tisdagen den 8 mars 1938.
           </note>
           <note n="4d2f2385">
@@ -559,16 +561,9 @@
             Anmäldes och godkändes följande förslag till riksdagens skrivelser
             till Konungen, nämligen
           </note>
-          <u who="ernst_wigforss_881974" xml:id="i-e8adfa5caea2ea37-0" prev="i-f8a2a70189015c3c-0" n="2b252fd3">
+          <u who="ernst_wigforss_881974" xml:id="i-2b252fd3b4f0f9b9-1" prev="i-2b252fd3b4f0f9b9-0" n="2b252fd3">
             <seg n="574c4732">
               från statsutskottet:
-            </seg>
-            <seg n="d49d87b4">
-              från jordbruksutskottet:
-            </seg>
-            <seg n="ba25be26">
-              Weijne &gt; Hedlund i Häste &gt; Karlsson i Grängesberg &gt; Falk &gt; Lindskog
-              &gt;
             </seg>
           </u>
           <note n="78b09480">
@@ -608,6 +603,11 @@
             huvudtiteln gjorda framställningar om anslag för budgetåret 1938/39;
             samt
           </note>
+          <u who="ernst_wigforss_881974" xml:id="i-2b252fd3b4f0f9b9-2" prev="i-2b252fd3b4f0f9b9-0" n="2b252fd3">
+            <seg n="d49d87b4">
+              från jordbruksutskottet:
+            </seg>
+          </u>
           <note n="3672fec6">
             nr 9, angående vissa av Kungl. Maj:t gjorda framställningar 1
             avseende å utgifterna för budgetåret 1938/39 under riksstatens
@@ -642,6 +642,12 @@
           <note n="d3e6f948">
             $ i0.
           </note>
+          <u who="ernst_wigforss_881974" xml:id="i-2b252fd3b4f0f9b9-3" prev="i-2b252fd3b4f0f9b9-0" n="2b252fd3">
+            <seg n="ba25be26">
+              Weijne &gt; Hedlund i Häste &gt; Karlsson i Grängesberg &gt; Falk &gt; Lindskog
+              &gt;
+            </seg>
+          </u>
           <note n="5f3fc320">
             Kammarens ledamöter åtskildes härefter kl. 4.13 e. m.
           </note>

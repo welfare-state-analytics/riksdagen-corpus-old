@@ -20,7 +20,7 @@
     <encodingDesc>
       <editorialDecl>
         <correction>
-          <p>Some data curation was done. It is documented in db/curation/instances</p>
+          <p>Some data curation was done. It is documented in input/curation/instances</p>
         </correction>
       </editorialDecl>
     </encodingDesc>
@@ -58,6 +58,7 @@
       </front>
       <body>
         <div>
+          <pb n="0" facs="https://betalab.kb.se/prot-1927--fk--28/prot_1927__fk__28-000.jp2/_view"/>
           <note n="cbb7e490">
             RIKSDAGENS PROTOKOLL. 1927. Första kammaren. Nr 28.
           </note>
@@ -145,7 +146,7 @@
           <note n="fbd524a9">
             för flottan. (Forts.)
           </note>
-          <note n="79247bbd">
+          <note type="date" n="6fb52bb8">
             2 Lördagen den 7 maj f. m.
           </note>
           <note n="1d9c4d50">
@@ -227,7 +228,7 @@
             samt med avslag
           </note>
           <pb n="2" facs="https://betalab.kb.se/prot-1927--fk--28/prot_1927__fk__28-002.jp2/_view"/>
-          <note n="f32cc080">
+          <note type="date" n="e84686b7">
             Lördagen den 7 maj f. m. 3
           </note>
           <note n="82a40628">
@@ -256,7 +257,7 @@
           <note type="speaker" n="21184c3e">
             Herr Nilsson, Johan, i Malmö:
           </note>
-          <u who="per_nilsson_4adcd2" xml:id="i-74a58ad02818dc65-0" next="i-fdcdd502585c8d44-0" n="95dfdffc">
+          <u who="per_nilsson_4adcd2" xml:id="i-1e99bb73255fc66a-0" next="i-1e99bb73255fc66a-1" n="95dfdffc">
             <seg n="6cf57302">
               Herr talman! Jag skall be att få framlägga en del av de synpunkter,
               som varit avgörande för mig och mina meningsfränder, då det gällt
@@ -323,10 +324,10 @@
           <note n="b5966913">
             Ang. ersättningsbyggnad för flottan. (Forts.)
           </note>
-          <note n="d7c11c0b">
+          <note type="date" n="90cf1b90">
             4 Lördagen den 7 maj f. m.
           </note>
-          <u who="per_nilsson_4adcd2" xml:id="i-fdcdd502585c8d44-0" prev="i-74a58ad02818dc65-0" n="95dfdffc">
+          <u who="per_nilsson_4adcd2" xml:id="i-1e99bb73255fc66a-1" prev="i-1e99bb73255fc66a-0" n="95dfdffc">
             <seg n="c1a38204">
               bestämma om de fartygstyper, som flottan skall äga på 1940- och
               1950- talen, hava vi ansett vara olämpligt. På denna punkt hysa
@@ -363,7 +364,7 @@
           <note type="speaker" n="c8676b17">
             Herr Widell:
           </note>
-          <u who="ludvig_widell_fed01f" xml:id="i-736da648acbca350-0" next="i-068e56dff066edf3-0" n="f1d03d6b">
+          <u who="ludvig_widell_fed01f" xml:id="i-f1d03d6bbb10c830-0" next="i-f1d03d6bbb10c830-3" n="f1d03d6b">
             <seg n="03f954c9">
               Herr greve och talman! Såsom av den föregående ärade talarens
               anförande framgick, är det i två punkter, som reservanterna skilja
@@ -406,10 +407,10 @@
             </seg>
           </u>
           <pb n="4" facs="https://betalab.kb.se/prot-1927--fk--28/prot_1927__fk__28-004.jp2/_view"/>
-          <note n="4da4c95d">
+          <note type="date" n="913684ca">
             Lördagen den 7 maj f. m. 5
           </note>
-          <u who="ludvig_widell_fed01f" xml:id="i-068e56dff066edf3-0" prev="i-736da648acbca350-0" n="f1d03d6b">
+          <u who="ludvig_widell_fed01f" xml:id="i-f1d03d6bbb10c830-1" prev="i-f1d03d6bbb10c830-0" n="f1d03d6b">
             <seg n="28906ba1">
               antal än det som vi kunna påräkna att disponera, därför att de
               måste då hava avlösning. Reservanterna hava vidare ansett, att
@@ -477,9 +478,32 @@
               antydan, som reservanterna härutinnan göra, är, att de anse, att
               det kan
             </seg>
+          </u>
+          <note n="290abc01">
+            Nr 28.
+          </note>
+          <note n="e5c7bda1">
+            Ang. ersätningsbyggnrnad för flouan. (Forts.)
+          </note>
+          <pb n="5" facs="https://betalab.kb.se/prot-1927--fk--28/prot_1927__fk__28-005.jp2/_view"/>
+          <note n="521aac96">
+            Nr 28,
+          </note>
+          <note n="621d2ff6">
+            Ang. ersätt-
+          </note>
+          <u who="ludvig_widell_fed01f" xml:id="i-f1d03d6bbb10c830-2" prev="i-f1d03d6bbb10c830-0" n="f1d03d6b">
             <seg n="acffa420">
               ningsbyggnad för flottan.
             </seg>
+          </u>
+          <note n="030c4626">
+            (Forts.)
+          </note>
+          <note type="date" n="cae297ef">
+            6 Lördagen den 7 maj f. m.
+          </note>
+          <u who="ludvig_widell_fed01f" xml:id="i-f1d03d6bbb10c830-3" prev="i-f1d03d6bbb10c830-0" n="f1d03d6b">
             <seg n="409489a5">
               ifrågasättas, om icke pansrade fartyg kunna ersättas av torpedoch
               bombflygplan. Detta är ju dock ingen ersättning för flottan, och
@@ -508,25 +532,6 @@
               ärade talaren yttrade.
             </seg>
           </u>
-          <note n="290abc01">
-            Nr 28.
-          </note>
-          <note n="e5c7bda1">
-            Ang. ersätningsbyggnrnad för flouan. (Forts.)
-          </note>
-          <pb n="5" facs="https://betalab.kb.se/prot-1927--fk--28/prot_1927__fk__28-005.jp2/_view"/>
-          <note n="521aac96">
-            Nr 28,
-          </note>
-          <note n="621d2ff6">
-            Ang. ersätt-
-          </note>
-          <note n="030c4626">
-            (Forts.)
-          </note>
-          <note n="51383fbf">
-            6 Lördagen den 7 maj f. m.
-          </note>
           <note n="b0111ac8">
             På grund av vad jag anfört anhåller jag, herr greve och talman,
             att få yrka bifall till utskottets förslag.
@@ -534,7 +539,7 @@
           <note type="speaker" n="501556e7">
             Herr Hammarskjöld, Carl Gustaf:
           </note>
-          <u who="hjalmar_hammarskjold_423c30" xml:id="i-20e525b61136aa7f-0" next="i-445558af557765d2-0" n="9711ad34">
+          <u who="hjalmar_hammarskjold_423c30" xml:id="i-9711ad341b77fe1a-0" next="i-9711ad341b77fe1a-1" n="9711ad34">
             <seg n="13f73ec4">
               Herr greve och talman! Av de förslag, vilka under senare år utarbetats
               angående försvarsorganisationens allmänna grunder, har andra försvarsberedningens
@@ -577,10 +582,10 @@
             </seg>
           </u>
           <pb n="6" facs="https://betalab.kb.se/prot-1927--fk--28/prot_1927__fk__28-006.jp2/_view"/>
-          <note n="5f67321f">
+          <note type="date" n="26840543">
             Lördagen den 7 maj f. m. 7
           </note>
-          <u who="hjalmar_hammarskjold_423c30" xml:id="i-445558af557765d2-0" prev="i-20e525b61136aa7f-0" n="9711ad34">
+          <u who="hjalmar_hammarskjold_423c30" xml:id="i-9711ad341b77fe1a-1" prev="i-9711ad341b77fe1a-0" n="9711ad34">
             <seg n="6d477b65">
               ende till såväl fartygsslag och fartygstyper som antalet fartyg
               samt på grundval härav framlägga förslag till ett nybyggnadsprogram».
@@ -602,7 +607,7 @@
           <note type="speaker" n="5302b975">
             Herr Lindhagen:
           </note>
-          <u who="carl_albert_lindhagen_a2c097" xml:id="i-d83873d8586a1d05-0" next="i-efdec94f2c7d683c-0" n="09b8a4b2">
+          <u who="carl_albert_lindhagen_a2c097" xml:id="i-09b8a4b25625d41c-0" next="i-09b8a4b25625d41c-6" n="09b8a4b2">
             <seg n="dda4d18b">
               Debatten i utskottet och i kammaren i denna fråga inskränker
               sig i det väsentliga till att diskutera, huruvida vi behöva en
@@ -663,10 +668,28 @@
           <note n="621d2ff6">
             Ang. ersätt-
           </note>
-          <u who="carl_albert_lindhagen_a2c097" xml:id="i-efdec94f2c7d683c-0" prev="i-d83873d8586a1d05-0" n="09b8a4b2">
+          <u who="carl_albert_lindhagen_a2c097" xml:id="i-09b8a4b25625d41c-1" prev="i-09b8a4b25625d41c-0" n="09b8a4b2">
             <seg n="acffa420">
               ningsbyggnad för flottan.
             </seg>
+          </u>
+          <note n="030c4626">
+            (Forts.)
+          </note>
+          <pb n="7" facs="https://betalab.kb.se/prot-1927--fk--28/prot_1927__fk__28-007.jp2/_view"/>
+          <note n="290abc01">
+            Nr 28.
+          </note>
+          <note n="b5966913">
+            Ang. ersättningsbyggnad för flottan. (Forts.)
+          </note>
+          <note n="bb6cbb43">
+            -
+          </note>
+          <note type="date" n="2f2ca59f">
+            8 Lördagen den 7 maj f. m.
+          </note>
+          <u who="carl_albert_lindhagen_a2c097" xml:id="i-09b8a4b25625d41c-2" prev="i-09b8a4b25625d41c-0" n="09b8a4b2">
             <seg n="8ef72183">
               Då egnahemsnämnderna nog inte lära fordra mera än högst 5,000
               kronor, skulle man efter denna uträkning för dessa 106 miljoner
@@ -738,6 +761,12 @@
               civilisationen mot frihetsrörelserna i Asien. Det är fina papper,
               där ha vi det! Herr Wohlin är en uppriktig människa. Men vad är
             </seg>
+          </u>
+          <pb n="8" facs="https://betalab.kb.se/prot-1927--fk--28/prot_1927__fk__28-008.jp2/_view"/>
+          <note type="date" n="06b968e5">
+            Lördagen den 7 maj f. m. 9
+          </note>
+          <u who="carl_albert_lindhagen_a2c097" xml:id="i-09b8a4b25625d41c-3" prev="i-09b8a4b25625d41c-0" n="09b8a4b2">
             <seg n="9762f835">
               den europeiska civilisationen, som har ställt till världskriget?
               Asien har förlorat all respekt för den europeiska civilisationen
@@ -812,6 +841,30 @@
               världskriget. Någon undersökning, huruvida dessa resor voro av
               behovet påkallade, finnes emeller-
             </seg>
+          </u>
+          <note n="290abc01">
+            Nr 28.
+          </note>
+          <note n="621d2ff6">
+            Ang. ersätt-
+          </note>
+          <note n="dc614f46">
+            mingsbyggnad
+          </note>
+          <note n="9caa5a21">
+            för flottan. (Fort3.)
+          </note>
+          <pb n="9" facs="https://betalab.kb.se/prot-1927--fk--28/prot_1927__fk__28-009.jp2/_view"/>
+          <note n="290abc01">
+            Nr 28.
+          </note>
+          <note n="b5966913">
+            Ang. ersättningsbyggnad för flottan. (Forts.)
+          </note>
+          <note type="date" n="45c1b7a0">
+            10 Lördagen den 7 maj f. m.
+          </note>
+          <u who="carl_albert_lindhagen_a2c097" xml:id="i-09b8a4b25625d41c-4" prev="i-09b8a4b25625d41c-0" n="09b8a4b2">
             <seg n="c829762a">
               tid icke. Vi erinra oss, vilket rent spektakel i fråga om onödiga
               utgifter och föranstaltningar, som neutralitetsvakten till lands
@@ -888,6 +941,12 @@
               flottanslag för att rusta oss emot varandra i händelse av ett
               inbördeskrig? MHyser man sådana
             </seg>
+          </u>
+          <pb n="10" facs="https://betalab.kb.se/prot-1927--fk--28/prot_1927__fk__28-010.jp2/_view"/>
+          <note type="date" n="1886098b">
+            Lördagen den 7 maj f. m. 11
+          </note>
+          <u who="carl_albert_lindhagen_a2c097" xml:id="i-09b8a4b25625d41c-5" prev="i-09b8a4b25625d41c-0" n="09b8a4b2">
             <seg n="0268ada7">
               meningar, visar ju detta, hur oundvikligt det är, att all makt
               lägges på att vi avrusta oss allesammans och börja lära oss att
@@ -960,59 +1019,7 @@
               att de skaror av valmän, som stå bakom herrarna men icke dela
               edra åsikter, skola få den lilla
             </seg>
-            <seg n="5656d387">
-              tröst ifrån den nuvarande parlamentarismen, som ligger i detta
-              »för närvarande». Det betyder ingenting; man kan lika väl säga
-              »icke föranleda någon riksdagens åtgärd». En så liten fluga kan
-              aldrig göra någon sommar.
-            </seg>
           </u>
-          <note n="030c4626">
-            (Forts.)
-          </note>
-          <pb n="7" facs="https://betalab.kb.se/prot-1927--fk--28/prot_1927__fk__28-007.jp2/_view"/>
-          <note n="290abc01">
-            Nr 28.
-          </note>
-          <note n="b5966913">
-            Ang. ersättningsbyggnad för flottan. (Forts.)
-          </note>
-          <note n="bb6cbb43">
-            -
-          </note>
-          <note n="0aeab7ec">
-            8 Lördagen den 7 maj f. m.
-          </note>
-          <pb n="8" facs="https://betalab.kb.se/prot-1927--fk--28/prot_1927__fk__28-008.jp2/_view"/>
-          <note n="bb5a48a6">
-            Lördagen den 7 maj f. m. 9
-          </note>
-          <note n="290abc01">
-            Nr 28.
-          </note>
-          <note n="621d2ff6">
-            Ang. ersätt-
-          </note>
-          <note n="dc614f46">
-            mingsbyggnad
-          </note>
-          <note n="9caa5a21">
-            för flottan. (Fort3.)
-          </note>
-          <pb n="9" facs="https://betalab.kb.se/prot-1927--fk--28/prot_1927__fk__28-009.jp2/_view"/>
-          <note n="290abc01">
-            Nr 28.
-          </note>
-          <note n="b5966913">
-            Ang. ersättningsbyggnad för flottan. (Forts.)
-          </note>
-          <note n="bc9543eb">
-            10 Lördagen den 7 maj f. m.
-          </note>
-          <pb n="10" facs="https://betalab.kb.se/prot-1927--fk--28/prot_1927__fk__28-010.jp2/_view"/>
-          <note n="5fc2ae3f">
-            Lördagen den 7 maj f. m. 11
-          </note>
           <note n="290abc01">
             Nr 28.
           </note>
@@ -1032,9 +1039,17 @@
           <note n="b5966913">
             Ang. ersättningsbyggnad för flottan. (Forts.)
           </note>
-          <note n="3899d59b">
+          <note type="date" n="7d84bd12">
             12 Lördagen den 7 maj f. m.
           </note>
+          <u who="carl_albert_lindhagen_a2c097" xml:id="i-09b8a4b25625d41c-6" prev="i-09b8a4b25625d41c-0" n="09b8a4b2">
+            <seg n="5656d387">
+              tröst ifrån den nuvarande parlamentarismen, som ligger i detta
+              »för närvarande». Det betyder ingenting; man kan lika väl säga
+              »icke föranleda någon riksdagens åtgärd». En så liten fluga kan
+              aldrig göra någon sommar.
+            </seg>
+          </u>
           <note n="ad15658c">
             Jag yrkar således, herr talman, bifall till min motion och till
             herr Molanders m. fl:s motion.
@@ -1042,7 +1057,7 @@
           <note type="speaker" n="05c600ef">
             Herr Johansson, Johan Bernhard:
           </note>
-          <u who="otto_johansson_3bf7f0" xml:id="i-8e376a6f86494b3e-0" next="i-ec54a1b387068825-0" n="454ba322">
+          <u who="otto_johansson_3bf7f0" xml:id="i-2da91b81a1cfbe38-0" next="i-2da91b81a1cfbe38-5" n="454ba322">
             <seg n="b2a55d47">
               Herr greve och talman! Den kungl. proposition, som vi nu behandla,
               bygger ju på ett av representanter från olika politiska partier
@@ -1102,14 +1117,14 @@
             </seg>
           </u>
           <pb n="12" facs="https://betalab.kb.se/prot-1927--fk--28/prot_1927__fk__28-012.jp2/_view"/>
-          <note n="457151f2">
+          <note type="date" n="efdcb17d">
             Lördagen den 7 maj f. m. 13
           </note>
           <note n="32328938">
             tillsattes då förtroendemän från de olika politiska partierna
             för att utreda spörsmålet.
           </note>
-          <u who="otto_johansson_3bf7f0" xml:id="i-ec54a1b387068825-0" prev="i-8e376a6f86494b3e-0" n="454ba322">
+          <u who="otto_johansson_3bf7f0" xml:id="i-2da91b81a1cfbe38-1" prev="i-2da91b81a1cfbe38-0" n="454ba322">
             <seg n="e19c1f10">
               Den första uppgift, som kommittén fick sig förelagd, var ju att
               fatta position till omfattningen av utredningsuppdraget, och man
@@ -1178,9 +1193,38 @@
               Dessutom måste de utkomna planen få reda på krigsläget till sjöss
               och vad som måste göras. Det är oräkneliga faktorer
             </seg>
+          </u>
+          <note n="290abc01">
+            Nr 28.
+          </note>
+          <note n="621d2ff6">
+            Ang. ersätt-
+          </note>
+          <note n="a7f036a1">
+            ningsbyggnad
+          </note>
+          <note n="fbd524a9">
+            för flottan. (Forts.)
+          </note>
+          <pb n="13" facs="https://betalab.kb.se/prot-1927--fk--28/prot_1927__fk__28-013.jp2/_view"/>
+          <note n="290abc01">
+            Nr 28.
+          </note>
+          <note n="621d2ff6">
+            Ang. ersätt-
+          </note>
+          <u who="otto_johansson_3bf7f0" xml:id="i-2da91b81a1cfbe38-2" prev="i-2da91b81a1cfbe38-0" n="454ba322">
             <seg n="acffa420">
               ningsbyggnad för flottan.
             </seg>
+          </u>
+          <note n="030c4626">
+            (Forts.)
+          </note>
+          <note type="date" n="978ba200">
+            14 Lördagen den 7 maj f. m.
+          </note>
+          <u who="otto_johansson_3bf7f0" xml:id="i-2da91b81a1cfbe38-3" prev="i-2da91b81a1cfbe38-0" n="454ba322">
             <seg n="9814d9bb">
               som göra, att ett sådant avlösningssystem icke kan tillfredsställa
               anspråken på ständig flygmedverkan åt sjöstridskrafterna. Nog
@@ -1254,6 +1298,12 @@
               på sina håll blivit förvånad, när hela kommittén varit enig om
               att erkänna denna fartygstyp vara den bästa. Men det
             </seg>
+          </u>
+          <pb n="14" facs="https://betalab.kb.se/prot-1927--fk--28/prot_1927__fk__28-014.jp2/_view"/>
+          <note type="date" n="5d007540">
+            Lördagen den 7 maj f. m. . 15
+          </note>
+          <u who="otto_johansson_3bf7f0" xml:id="i-2da91b81a1cfbe38-4" prev="i-2da91b81a1cfbe38-0" n="454ba322">
             <seg n="4aa01e1d">
               är faktiskt så, att inför den sakliga prövningen har denna fartygstyp
               stått sig, och det har nu inträffat, att alla fackmän, från den
@@ -1326,6 +1376,33 @@
               i hög grad inverkar på flottans effektivitet och möjligheten att
               för kostnaderna få den största möjliga valutan.
             </seg>
+          </u>
+          <note n="290abc01">
+            Nr 28.
+          </note>
+          <note n="6060105c">
+            Ang. ersättningsbyggnad, för flottan.
+          </note>
+          <note n="030c4626">
+            (Forts.)
+          </note>
+          <pb n="15" facs="https://betalab.kb.se/prot-1927--fk--28/prot_1927__fk__28-015.jp2/_view"/>
+          <note n="290abc01">
+            Nr 28.
+          </note>
+          <note n="621d2ff6">
+            Ang. ersätt-
+          </note>
+          <note n="a7f036a1">
+            ningsbyggnad
+          </note>
+          <note n="fbd524a9">
+            för flottan. (Forts.)
+          </note>
+          <note type="date" n="d41f0b1d">
+            16 . Lördagen den 7 maj f. m.
+          </note>
+          <u who="otto_johansson_3bf7f0" xml:id="i-2da91b81a1cfbe38-5" prev="i-2da91b81a1cfbe38-0" n="454ba322">
             <seg n="dbd632ee">
               Jag vill i det sammanhanget erinra om, att det tar en mycket
               lång tid att utbilda matroser vid flottan. Det tar 6 år att utbilda
@@ -1360,60 +1437,6 @@
               ersättningsbyggnaden.
             </seg>
           </u>
-          <note n="290abc01">
-            Nr 28.
-          </note>
-          <note n="621d2ff6">
-            Ang. ersätt-
-          </note>
-          <note n="a7f036a1">
-            ningsbyggnad
-          </note>
-          <note n="fbd524a9">
-            för flottan. (Forts.)
-          </note>
-          <pb n="13" facs="https://betalab.kb.se/prot-1927--fk--28/prot_1927__fk__28-013.jp2/_view"/>
-          <note n="290abc01">
-            Nr 28.
-          </note>
-          <note n="621d2ff6">
-            Ang. ersätt-
-          </note>
-          <note n="030c4626">
-            (Forts.)
-          </note>
-          <note n="0b917329">
-            14 Lördagen den 7 maj f. m.
-          </note>
-          <pb n="14" facs="https://betalab.kb.se/prot-1927--fk--28/prot_1927__fk__28-014.jp2/_view"/>
-          <note n="9fa4293d">
-            Lördagen den 7 maj f. m. . 15
-          </note>
-          <note n="290abc01">
-            Nr 28.
-          </note>
-          <note n="6060105c">
-            Ang. ersättningsbyggnad, för flottan.
-          </note>
-          <note n="030c4626">
-            (Forts.)
-          </note>
-          <pb n="15" facs="https://betalab.kb.se/prot-1927--fk--28/prot_1927__fk__28-015.jp2/_view"/>
-          <note n="290abc01">
-            Nr 28.
-          </note>
-          <note n="621d2ff6">
-            Ang. ersätt-
-          </note>
-          <note n="a7f036a1">
-            ningsbyggnad
-          </note>
-          <note n="fbd524a9">
-            för flottan. (Forts.)
-          </note>
-          <note n="45381a51">
-            16 . Lördagen den 7 maj f. m.
-          </note>
           <note n="f7bcfa55">
             Jag hemställer, herr greve och talman, om bifall till utskottets
             hemställan.
@@ -1421,7 +1444,7 @@
           <note type="speaker" n="90c7e1f4">
             Herr Sandler:
           </note>
-          <u who="rickard_sandler_18063a" xml:id="i-91b4323849f7a802-0" next="i-9da6984cd80da1b1-0" n="470febab">
+          <u who="rickard_sandler_18063a" xml:id="i-470febab20e1b892-0" next="i-470febab20e1b892-1" n="470febab">
             <seg n="4952454c">
               Herr talman! Flottkommittén har angivit, att den vid behandlingen
               av detta ärende om flottans ersättningsbyggnadsfråga hade att
@@ -1461,10 +1484,10 @@
             </seg>
           </u>
           <pb n="16" facs="https://betalab.kb.se/prot-1927--fk--28/prot_1927__fk__28-016.jp2/_view"/>
-          <note n="58d728d5">
+          <note type="date" n="1ab94e89">
             Lördagen den 7 maj f. m. 17
           </note>
-          <u who="rickard_sandler_18063a" xml:id="i-9da6984cd80da1b1-0" prev="i-91b4323849f7a802-0" n="470febab">
+          <u who="rickard_sandler_18063a" xml:id="i-470febab20e1b892-1" prev="i-470febab20e1b892-0" n="470febab">
             <seg n="7b6d0590">
               för de närmaste tio åren. Jag erinrar endast därom, att den tidrymden
               dock inte är längre, än att den för arméns vidkommande motsvarar
@@ -1527,7 +1550,7 @@
           <note type="speaker" n="44f8558e">
             Herr Winberg:
           </note>
-          <u who="carl_winberg_70aff8" xml:id="i-0eabfe2c576b0409-0" next="i-13cde81bfe5b98dc-0" n="54776c8c">
+          <u who="carl_winberg_70aff8" xml:id="i-54776c8c4e9ffe6a-0" next="i-54776c8c4e9ffe6a-6" n="54776c8c">
             <seg n="ff6675fd">
               Herr talman, mina herrar! Sedan man läst igenom utskottets utlåtande
               i denna fråga och den därvid fogade reservationen och ännu mer
@@ -1566,10 +1589,10 @@
           <note n="fbd524a9">
             för flottan. (Forts.)
           </note>
-          <note n="03cc84f4">
+          <note type="date" n="dd5ccb72">
             18 Lördagen den 7 maj f. m.
           </note>
-          <u who="carl_winberg_70aff8" xml:id="i-13cde81bfe5b98dc-0" prev="i-0eabfe2c576b0409-0" n="54776c8c">
+          <u who="carl_winberg_70aff8" xml:id="i-54776c8c4e9ffe6a-1" prev="i-54776c8c4e9ffe6a-0" n="54776c8c">
             <seg n="c7544763">
               sätt är oriktig, därtill återkommer jag senare. Emellertid, då
               det faktiskt är så, att vi i dag i riksdagen gå att formellt inrangera
@@ -1654,6 +1677,12 @@
               de förmögnare få betala fiolerna efter andra principer än hittills.&gt;
               Och sedan fortsätter herr Thorsson i polemik mot herr Hildebrand
             </seg>
+          </u>
+          <pb n="18" facs="https://betalab.kb.se/prot-1927--fk--28/prot_1927__fk__28-018.jp2/_view"/>
+          <note type="date" n="bdae275e">
+            Lördagen den 7 maj f. m. 19
+          </note>
+          <u who="carl_winberg_70aff8" xml:id="i-54776c8c4e9ffe6a-2" prev="i-54776c8c4e9ffe6a-0" n="54776c8c">
             <seg n="c1bbd338">
               på följande sätt: »Herr Hildebrand betonade synnerligen starkt,
               att det hade blivit ett axiom, att vi skola ha pansarbåtar av
@@ -1730,9 +1759,32 @@
               för de stora imperialistiska staterna med deras kolonier och kolonialpolitik,
               obönhörligt en vacker dag leder till
             </seg>
+          </u>
+          <note n="290abc01">
+            Nr 28.
+          </note>
+          <note n="621d2ff6">
+            Ang. ersätt-
+          </note>
+          <u who="carl_winberg_70aff8" xml:id="i-54776c8c4e9ffe6a-3" prev="i-54776c8c4e9ffe6a-0" n="54776c8c">
             <seg n="afcabce6">
               nringsbyggnad för flottan.
             </seg>
+          </u>
+          <note n="030c4626">
+            (Forts.)
+          </note>
+          <pb n="19" facs="https://betalab.kb.se/prot-1927--fk--28/prot_1927__fk__28-019.jp2/_view"/>
+          <note n="290abc01">
+            Nr 28.
+          </note>
+          <note n="b5966913">
+            Ang. ersättningsbyggnad för flottan. (Forts.)
+          </note>
+          <note type="date" n="c467772f">
+            20 Lördagen den 7 maj f. m.
+          </note>
+          <u who="carl_winberg_70aff8" xml:id="i-54776c8c4e9ffe6a-4" prev="i-54776c8c4e9ffe6a-0" n="54776c8c">
             <seg n="864be07e">
               en sammanstötning. Det är då fråga om, huru vårt land skall ställa
               sig, så att det i största möjliga utsträckning kan stå utanför
@@ -1806,6 +1858,12 @@
               i sin kolonialpolitik, och de önska därför, att de vilken dag
               som helst skulle kunna börja ett
             </seg>
+          </u>
+          <pb n="20" facs="https://betalab.kb.se/prot-1927--fk--28/prot_1927__fk__28-020.jp2/_view"/>
+          <note type="date" n="3045cd1d">
+            Lördagen den 7 maj f. m. 21
+          </note>
+          <u who="carl_winberg_70aff8" xml:id="i-54776c8c4e9ffe6a-5" prev="i-54776c8c4e9ffe6a-0" n="54776c8c">
             <seg n="c9d69e11">
               öppet krig med Ryssland. Under sådana förhållanden bör man icke
               komma med dylika argument för att därmed motivera den fullständiga
@@ -1878,6 +1936,27 @@
               i militärfrågan och flottutrustningsfrågan utan att i något avseende
               få
             </seg>
+          </u>
+          <note n="290abc01">
+            Nr 28.
+          </note>
+          <note n="47f6942f">
+            Ang. ersättningsbyggnad för flottan.
+          </note>
+          <note n="030c4626">
+            (Forts.)
+          </note>
+          <pb n="21" facs="https://betalab.kb.se/prot-1927--fk--28/prot_1927__fk__28-021.jp2/_view"/>
+          <note n="290abc01">
+            Nr 28.
+          </note>
+          <note n="b5966913">
+            Ang. ersättningsbyggnad för flottan. (Forts.)
+          </note>
+          <note type="date" n="ff7d1bfc">
+            22 Lördagen den 7 maj f. m.
+          </note>
+          <u who="carl_winberg_70aff8" xml:id="i-54776c8c4e9ffe6a-6" prev="i-54776c8c4e9ffe6a-0" n="54776c8c">
             <seg n="95b53c96">
               något vederlag, anser jag, att detta är icke bara ett brott utan
               en dumhet, och ibland kan dumheten vara farligare än ett brott.
@@ -1920,56 +1999,10 @@
               vilket yrkande jag här tillåter mig att framföra, herr talman.
             </seg>
           </u>
-          <pb n="18" facs="https://betalab.kb.se/prot-1927--fk--28/prot_1927__fk__28-018.jp2/_view"/>
-          <note n="b3c7e3f3">
-            Lördagen den 7 maj f. m. 19
-          </note>
-          <note n="290abc01">
-            Nr 28.
-          </note>
-          <note n="621d2ff6">
-            Ang. ersätt-
-          </note>
-          <note n="030c4626">
-            (Forts.)
-          </note>
-          <pb n="19" facs="https://betalab.kb.se/prot-1927--fk--28/prot_1927__fk__28-019.jp2/_view"/>
-          <note n="290abc01">
-            Nr 28.
-          </note>
-          <note n="b5966913">
-            Ang. ersättningsbyggnad för flottan. (Forts.)
-          </note>
-          <note n="835fe39d">
-            20 Lördagen den 7 maj f. m.
-          </note>
-          <pb n="20" facs="https://betalab.kb.se/prot-1927--fk--28/prot_1927__fk__28-020.jp2/_view"/>
-          <note n="6462954c">
-            Lördagen den 7 maj f. m. 21
-          </note>
-          <note n="290abc01">
-            Nr 28.
-          </note>
-          <note n="47f6942f">
-            Ang. ersättningsbyggnad för flottan.
-          </note>
-          <note n="030c4626">
-            (Forts.)
-          </note>
-          <pb n="21" facs="https://betalab.kb.se/prot-1927--fk--28/prot_1927__fk__28-021.jp2/_view"/>
-          <note n="290abc01">
-            Nr 28.
-          </note>
-          <note n="b5966913">
-            Ang. ersättningsbyggnad för flottan. (Forts.)
-          </note>
-          <note n="35cfce8b">
-            22 Lördagen den 7 maj f. m.
-          </note>
           <note type="speaker" n="21184c3e">
             Herr Nilsson, Johan, i Malmö:
           </note>
-          <u who="per_nilsson_4adcd2" xml:id="i-74a58ad02818dc65-1" next="i-fdcdd502585c8d44-1" n="95dfdffc">
+          <u who="per_nilsson_4adcd2" xml:id="i-1e99bb73255fc66a-2" next="i-1e99bb73255fc66a-4" n="95dfdffc">
             <seg n="4b227adf">
               Herr talman! Jag har föranletts att säga ytterligare några ord
               med anledning av ett par här hållna anföranden.
@@ -2006,10 +2039,10 @@
             </seg>
           </u>
           <pb n="22" facs="https://betalab.kb.se/prot-1927--fk--28/prot_1927__fk__28-022.jp2/_view"/>
-          <note n="05b02d86">
+          <note type="date" n="9f64585c">
             Lördagen den 7 maj f. m. 23
           </note>
-          <u who="per_nilsson_4adcd2" xml:id="i-fdcdd502585c8d44-1" prev="i-74a58ad02818dc65-1" n="95dfdffc">
+          <u who="per_nilsson_4adcd2" xml:id="i-1e99bb73255fc66a-3" prev="i-1e99bb73255fc66a-2" n="95dfdffc">
             <seg n="cadac707">
               begreppen på denna punkt. Därför hade det ena alternativet, varom
               högerrepresentanterna 1 statsutskottets första avdelning enats,
@@ -2077,6 +2110,36 @@
               aldrig sträckt sig över längre tid än 10 år. Den utredning, varpå
               1925 års beslut grundar sig, pågick en tid av 4'/, år i för-
             </seg>
+          </u>
+          <note n="290abc01">
+            Nr 28.
+          </note>
+          <note n="621d2ff6">
+            Ang. ersätt-
+          </note>
+          <note n="a7f036a1">
+            ningsbyggnad
+          </note>
+          <note n="fbd524a9">
+            för flottan. (Forts.)
+          </note>
+          <pb n="23" facs="https://betalab.kb.se/prot-1927--fk--28/prot_1927__fk__28-023.jp2/_view"/>
+          <note n="290abc01">
+            Nr 28.
+          </note>
+          <note n="621d2ff6">
+            Ang. ersätt-
+          </note>
+          <note n="a7f036a1">
+            ningsbyggnad
+          </note>
+          <note n="fbd524a9">
+            för flottan. (Forts.)
+          </note>
+          <note type="date" n="a614747e">
+            24 Lördagen den 7 maj f. m.
+          </note>
+          <u who="per_nilsson_4adcd2" xml:id="i-1e99bb73255fc66a-4" prev="i-1e99bb73255fc66a-2" n="95dfdffc">
             <seg n="c9e5e113">
               svarsrevisionen och 2 år i riksdagen, innan man kunde fatta ett
               beslut. Man kan sålunda mycket väl vara berättigad att taga upp
@@ -2106,34 +2169,6 @@
               till reservationen.
             </seg>
           </u>
-          <note n="290abc01">
-            Nr 28.
-          </note>
-          <note n="621d2ff6">
-            Ang. ersätt-
-          </note>
-          <note n="a7f036a1">
-            ningsbyggnad
-          </note>
-          <note n="fbd524a9">
-            för flottan. (Forts.)
-          </note>
-          <pb n="23" facs="https://betalab.kb.se/prot-1927--fk--28/prot_1927__fk__28-023.jp2/_view"/>
-          <note n="290abc01">
-            Nr 28.
-          </note>
-          <note n="621d2ff6">
-            Ang. ersätt-
-          </note>
-          <note n="a7f036a1">
-            ningsbyggnad
-          </note>
-          <note n="fbd524a9">
-            för flottan. (Forts.)
-          </note>
-          <note n="514a826b">
-            24 Lördagen den 7 maj f. m.
-          </note>
           <note n="edf0e456">
             Herr talmannen tillkännagav, att anslag utfärdats till sammanträdets
             fortsättande kl. 8 e. m.
@@ -2141,7 +2176,7 @@
           <note type="speaker" n="e4f324fb">
             Herr Bergman:
           </note>
-          <u who="johan_bergman_c80dc2" xml:id="i-3d2ff6d59f25efa7-0" next="i-35dd62712275baae-0" n="38742f49">
+          <u who="johan_bergman_c80dc2" xml:id="i-38742f49b03213a9-0" next="i-38742f49b03213a9-4" n="38742f49">
             <seg n="36120977">
               Herr talman! Som bekant har det rått en ganska stor oklarhet
               i avseende å uppfattningen om den verkliga meningen i vissa delar
@@ -2185,10 +2220,10 @@
             </seg>
           </u>
           <pb n="24" facs="https://betalab.kb.se/prot-1927--fk--28/prot_1927__fk__28-024.jp2/_view"/>
-          <note n="c7545e56">
+          <note type="date" n="1b3bc1bf">
             Lördagen den 7 maj f. m. 25
           </note>
-          <u who="johan_bergman_c80dc2" xml:id="i-35dd62712275baae-0" prev="i-3d2ff6d59f25efa7-0" n="38742f49">
+          <u who="johan_bergman_c80dc2" xml:id="i-38742f49b03213a9-1" prev="i-38742f49b03213a9-0" n="38742f49">
             <seg n="536eb82e">
               Däremot känner man sig i vida kretsar tveksam, huruvida det för
               vårt land med dess särskilda förhållanden, dess långa kuster,
@@ -2256,6 +2291,24 @@
               för vårt land med dess speciella förhållanden att grunda sitt
               marina försvar på ett litet fåtal ytterst dyrbara
             </seg>
+          </u>
+          <note n="521aac96">
+            Nr 28,
+          </note>
+          <note n="b5966913">
+            Ang. ersättningsbyggnad för flottan. (Forts.)
+          </note>
+          <pb n="25" facs="https://betalab.kb.se/prot-1927--fk--28/prot_1927__fk__28-025.jp2/_view"/>
+          <note n="290abc01">
+            Nr 28.
+          </note>
+          <note n="b5966913">
+            Ang. ersättningsbyggnad för flottan. (Forts.)
+          </note>
+          <note type="date" n="2ef9ab70">
+            26 Lördagen den 7 maj f. m.
+          </note>
+          <u who="johan_bergman_c80dc2" xml:id="i-38742f49b03213a9-2" prev="i-38742f49b03213a9-0" n="38742f49">
             <seg n="e57a204f">
               pansarskepp. Om det skulle vara någon mening med dem, när det
               gäller försvaret av våra vidsträckta kuster, skulle de, som sagt,
@@ -2266,6 +2319,24 @@
               år framåt i tiden? Jag ber sålunda innan jag bestämmer mig för
               mitt votum att få svar på de frågor, som jag ställde till regeringen.
             </seg>
+          </u>
+          <note n="83f9df1a">
+            Hans excellens herr statsministern Ekman: Innan jag ingår på
+            att besvara herr Bergmans fråga, skall jag i anledning av vad
+            herr Johan Nilsson i Malmö ett par gånger yttrade och som för
+            övrigt förekommer även i reservanternas uttalande, däri reservanterna
+            såsom grund för sin i dag intagna ståndpunkt åberopa av mig tidigare
+            gjorda uttalanden, be att få göra några erinringar. Reservanterna
+            säga nämligen i sin reservation, att de synpunkter, som reservanterna
+            frambära, hava även »gjorts gällande inom försvarsrevisionen vid
+            behandlingen av frågan om ersättningsbyggnad för flottan (jfr
+            herrar C. Ekmans och 8. Bengtssons i Norup särskilda yttranden
+            i fråga om organisationen av sjöförsvaret, sid. 385—386)». Herr
+            Nilsson har, såvitt jag uppfattade honom rätt, återfallit på samma
+            omständighet och åberopat densamma såsom grund för vad reservanterna
+            nu påyrkat.
+          </note>
+          <u who="johan_bergman_c80dc2" xml:id="i-38742f49b03213a9-3" prev="i-38742f49b03213a9-0" n="38742f49">
             <seg n="323421e8">
               Jag vill i detta sammanhang erinra om — det borde jag icke behöva
               erinra herr Nilsson om — att emellan den situation, som förelåg,
@@ -2307,6 +2378,12 @@
               något annat och mera än densamma innehåller kan komma till det
               resultatet. I propositionen har departementsche-
             </seg>
+          </u>
+          <pb n="26" facs="https://betalab.kb.se/prot-1927--fk--28/prot_1927__fk__28-026.jp2/_view"/>
+          <note type="date" n="46cef0e8">
+            Lördagen den 7 maj f. m. 27
+          </note>
+          <u who="johan_bergman_c80dc2" xml:id="i-38742f49b03213a9-4" prev="i-38742f49b03213a9-0" n="38742f49">
             <seg n="8045b02a">
               fen uttalat det totalomdömet om den av de sakkunniga framlagda
               planen för kustflottans sammansättning, att densamma vore väl
@@ -2344,46 +2421,10 @@
               Jag vågar hoppas, att kammaren skall bifalla utskottets hemställan.
             </seg>
           </u>
-          <note n="521aac96">
-            Nr 28,
-          </note>
-          <note n="b5966913">
-            Ang. ersättningsbyggnad för flottan. (Forts.)
-          </note>
-          <pb n="25" facs="https://betalab.kb.se/prot-1927--fk--28/prot_1927__fk__28-025.jp2/_view"/>
-          <note n="290abc01">
-            Nr 28.
-          </note>
-          <note n="b5966913">
-            Ang. ersättningsbyggnad för flottan. (Forts.)
-          </note>
-          <note n="0df8bb07">
-            26 Lördagen den 7 maj f. m.
-          </note>
-          <note n="83f9df1a">
-            Hans excellens herr statsministern Ekman: Innan jag ingår på
-            att besvara herr Bergmans fråga, skall jag i anledning av vad
-            herr Johan Nilsson i Malmö ett par gånger yttrade och som för
-            övrigt förekommer även i reservanternas uttalande, däri reservanterna
-            såsom grund för sin i dag intagna ståndpunkt åberopa av mig tidigare
-            gjorda uttalanden, be att få göra några erinringar. Reservanterna
-            säga nämligen i sin reservation, att de synpunkter, som reservanterna
-            frambära, hava även »gjorts gällande inom försvarsrevisionen vid
-            behandlingen av frågan om ersättningsbyggnad för flottan (jfr
-            herrar C. Ekmans och 8. Bengtssons i Norup särskilda yttranden
-            i fråga om organisationen av sjöförsvaret, sid. 385—386)». Herr
-            Nilsson har, såvitt jag uppfattade honom rätt, återfallit på samma
-            omständighet och åberopat densamma såsom grund för vad reservanterna
-            nu påyrkat.
-          </note>
-          <pb n="26" facs="https://betalab.kb.se/prot-1927--fk--28/prot_1927__fk__28-026.jp2/_view"/>
-          <note n="f22550bc">
-            Lördagen den 7 maj f. m. 27
-          </note>
           <note type="speaker" n="c8676b17">
             Herr Widell:
           </note>
-          <u who="ludvig_widell_fed01f" xml:id="i-9523b453e803b825-0" n="f1d03d6b">
+          <u who="ludvig_widell_fed01f" xml:id="i-f1d03d6bbb10c830-4" n="f1d03d6b">
             <seg n="61f551ba">
               Herr greve och talman! Jag begärde ordet med anledning av att
               först herr Sandler och sedan herr Johan Nilsson talade om att
@@ -2411,7 +2452,7 @@
           <note type="speaker" n="e4f324fb">
             Herr Bergman:
           </note>
-          <u who="johan_bergman_c80dc2" xml:id="i-a2b09a406ca75256-0" n="38742f49">
+          <u who="johan_bergman_c80dc2" xml:id="i-38742f49b03213a9-5" n="38742f49">
             <seg n="d97a87c8">
               Det svar, herr statsministern för en stund sedan avgav med anledning
               av mina frågor, tillfredsställde mig icke fullständigt. Jag framställde
@@ -2446,13 +2487,13 @@
           <note n="fbd524a9">
             för flottan. (Forts.)
           </note>
-          <note n="741de1dc">
+          <note type="date" n="147d7e4c">
             28 Lördagen den 7 maj f. m.
           </note>
           <note type="speaker" n="21184c3e">
             Herr Nilsson, Johan, i Malmö:
           </note>
-          <u who="per_nilsson_4adcd2" xml:id="i-cbf52d75167a7b9c-0" n="95dfdffc">
+          <u who="per_nilsson_4adcd2" xml:id="i-1e99bb73255fc66a-5" n="95dfdffc">
             <seg n="c08bd86e">
               Herr talman! Hans excellens herr statsministern försökte ge mig
               svar på den lilla erinran, jag gjorde om hans ståndpunkt inom
@@ -2488,7 +2529,7 @@
           <note type="speaker" n="b1df3a02">
             Herr Trygger:
           </note>
-          <u who="ernst_trygger_62d41e" xml:id="i-587f0d033e331727-0" n="50ee8e4e">
+          <u who="ernst_trygger_62d41e" xml:id="i-50ee8e4eda4ac263-0" n="50ee8e4e">
             <seg n="4c96b1a3">
               Herr talman! För min del har jag mycket svårt att förstå de frågor
               och svar, som förekommit under denna debatt. Jag har alltid varit
@@ -2512,7 +2553,7 @@
           <note type="speaker" n="67f865cc">
             Herr Holmgren:
           </note>
-          <u who="bjorn_frithiofsson_holmgren_9d2511" xml:id="i-9772d73ed80f615f-0" next="i-d8038967da80efa6-0" n="74c780dd">
+          <u who="bjorn_frithiofsson_holmgren_9d2511" xml:id="i-607c70a378a4dcf0-0" next="i-607c70a378a4dcf0-2" n="74c780dd">
             <seg n="c4e7249f">
               Herr greve och talman! Om man fattar ett beslut i överensstämmelse
               med utskottets hemställan, behåller man möjligheten att när som
@@ -2532,10 +2573,10 @@
             </seg>
           </u>
           <pb n="28" facs="https://betalab.kb.se/prot-1927--fk--28/prot_1927__fk__28-028.jp2/_view"/>
-          <note n="d217fc7f">
+          <note type="date" n="fb46217a">
             Lördagen den 7 maj f. m. 29
           </note>
-          <u who="bjorn_frithiofsson_holmgren_9d2511" xml:id="i-d8038967da80efa6-0" prev="i-9772d73ed80f615f-0" n="74c780dd">
+          <u who="bjorn_frithiofsson_holmgren_9d2511" xml:id="i-607c70a378a4dcf0-1" prev="i-607c70a378a4dcf0-0" n="74c780dd">
             <seg n="d0e250ac">
               icke Sverige, som skall gå i spetsen härvidlag, utan det skola
               de stora länderna göra. Ja, på liknande sätt resonerar varje land,
@@ -2562,9 +2603,6 @@
               och möjligt, ber jag att få yrka bifall till detsamma. Samtidigt
               vill jag tillägga, att jag, ställd i valet mellan utskottets förslag
               och reservanternas, röstar för reservanternas.
-            </seg>
-            <seg n="7f58ba10">
-              ad;
             </seg>
           </u>
           <note n="8e991a47">
@@ -2594,6 +2632,11 @@
             Den, som bifaller vad staket hemställt i sitt utlåtande nr 91,
             röstar
           </note>
+          <u who="bjorn_frithiofsson_holmgren_9d2511" xml:id="i-607c70a378a4dcf0-2" prev="i-607c70a378a4dcf0-0" n="74c780dd">
+            <seg n="7f58ba10">
+              ad;
+            </seg>
+          </u>
           <note n="476d75d6">
             Nej; Vinner Nej, antages det förslag, som innefattas i den av
             herr Lindblad m. fl. vid utlåtandet avgivna reservationen.
@@ -2628,7 +2671,7 @@
             Ang. ersättningsbyggnad för flottan. (Forts.)
           </note>
           <pb n="29" facs="https://betalab.kb.se/prot-1927--fk--28/prot_1927__fk__28-029.jp2/_view"/>
-          <note n="fdeb94e0">
+          <note type="date" n="574f891c">
             Nr 28, 30 Lördagen den 7 maj f. m.
           </note>
           <note n="9b2977b8">
@@ -2654,7 +2697,7 @@
           <note type="speaker" n="5302b975">
             Herr Lindhagen:
           </note>
-          <u who="carl_albert_lindhagen_a2c097" xml:id="i-401ed6668b2b71c4-0" n="09b8a4b2">
+          <u who="carl_albert_lindhagen_a2c097" xml:id="i-09b8a4b25625d41c-7" n="09b8a4b2">
             <seg n="571b3a87">
               Jag får meddela, att jag missuppfattat föredragningen och trott,
               att de olika punkterna i det föregående betänkandet föredrogos
@@ -2670,7 +2713,7 @@
           <note type="speaker" n="c8676b17">
             Herr Widell:
           </note>
-          <u who="ludvig_widell_fed01f" xml:id="i-9523b453e803b825-1" n="f1d03d6b">
+          <u who="ludvig_widell_fed01f" xml:id="i-f1d03d6bbb10c830-5" n="f1d03d6b">
             <seg n="104d34f9">
               Herr greve och talman, jag ber att få yrka bifall till utskottets
               hemställan.
@@ -2718,7 +2761,7 @@
             och behandlats av andra lagutskottet, hade Kungl. Maj:t
           </note>
           <pb n="30" facs="https://betalab.kb.se/prot-1927--fk--28/prot_1927__fk__28-030.jp2/_view"/>
-          <note n="30f4c9b0">
+          <note type="date" n="55e2f6c4">
             Lördagen den 7 maj f. m. 31
           </note>
           <note n="6ce465fb">
@@ -2764,7 +2807,7 @@
           <note type="speaker" n="fad504e1">
             Herr statsrådet Pettersson:
           </note>
-          <u who="david_pettersson_cfce15" xml:id="i-14ce2d7c3b1a491d-0" next="i-133166c9d9dfc3e6-0" n="e31765c7">
+          <u who="david_pettersson_cfce15" xml:id="i-1211ef988543db2a-0" next="i-1211ef988543db2a-2" n="e31765c7">
             <seg n="af35a4e4">
               Herr greve och talman! TI 31 $ fattigvårdslagen stadgas, att
               fattigvårdssamhälle skall hava anstalt för mottagande av understödstagare,
@@ -2820,10 +2863,10 @@
             Ang. kommunalförbund för anordnande av fattigvårdsanstalt m.
             m. (Forts.)
           </note>
-          <note n="b9977715">
+          <note type="date" n="c2893f1e">
             32 Lördagen den 7 maj f. m.
           </note>
-          <u who="david_pettersson_cfce15" xml:id="i-133166c9d9dfc3e6-0" prev="i-14ce2d7c3b1a491d-0" n="e31765c7">
+          <u who="david_pettersson_cfce15" xml:id="i-1211ef988543db2a-1" prev="i-1211ef988543db2a-0" n="e31765c7">
             <seg n="cd27bba6">
               gemensamt fattigvårdssamhälle i alla avseenden, eller också på
               det sättet, att de ingå kommunalförbund om upprättande av anstalt.
@@ -2900,6 +2943,12 @@
               har rätt i detta, anser jag dock, i likhet med reservanterna,
               att det kan vara skäl i att modifiera för-
             </seg>
+          </u>
+          <pb n="32" facs="https://betalab.kb.se/prot-1927--fk--28/prot_1927__fk__28-032.jp2/_view"/>
+          <note type="date" n="a9c82aec">
+            Lördagen den 7 maj f. m. 33
+          </note>
+          <u who="david_pettersson_cfce15" xml:id="i-1211ef988543db2a-2" prev="i-1211ef988543db2a-0" n="e31765c7">
             <seg n="8f282dd5">
               slaget, så att det i ännu mindre grad kan lämna grund för en
               sådan anmärkning.
@@ -2955,14 +3004,10 @@
               kommuner.
             </seg>
           </u>
-          <pb n="32" facs="https://betalab.kb.se/prot-1927--fk--28/prot_1927__fk__28-032.jp2/_view"/>
-          <note n="9c4cf643">
-            Lördagen den 7 maj f. m. 33
-          </note>
           <note type="speaker" n="bfda32b2">
             Herr Möller:
           </note>
-          <u who="frits_gustav_moller_787aa1" xml:id="i-988c2c2ed4bebf9b-0" next="i-5cbc35c3ae9facb3-0" n="ce9aa731">
+          <u who="frits_gustav_moller_787aa1" xml:id="i-a918cdf6397db0b4-0" next="i-a918cdf6397db0b4-1" n="ce9aa731">
             <seg n="cc0a6f24">
               Herr talman! Jag skall endast tillåta mig att säga några ord
               1 denna fråga.
@@ -3005,10 +3050,10 @@
           <note n="0de7637e">
             anordnande av fattigvårdsanstall m. m. (Forts.)
           </note>
-          <note n="c354b80e">
+          <note type="date" n="6fcc8364">
             34 Lördagen den 7 maj f. m.
           </note>
-          <u who="frits_gustav_moller_787aa1" xml:id="i-5cbc35c3ae9facb3-0" prev="i-988c2c2ed4bebf9b-0" n="ce9aa731">
+          <u who="frits_gustav_moller_787aa1" xml:id="i-a918cdf6397db0b4-1" prev="i-a918cdf6397db0b4-0" n="ce9aa731">
             <seg n="f25a65a3">
               än rimlig konsekvens av riksdagens tidigare beslut, att man även
               såge till, att kommunalförbund i något större utsträckning komme
@@ -3048,7 +3093,7 @@
           <note type="speaker" n="0ac73c1c">
             Herr Westman:
           </note>
-          <u who="karl_allan_westman_c08c17" xml:id="i-efd7f693f01cc359-0" next="i-af6c339ef102b21c-0" n="7d9ffb00">
+          <u who="karl_allan_westman_c08c17" xml:id="i-abc4212a5e8ec807-0" next="i-abc4212a5e8ec807-6" n="7d9ffb00">
             <seg n="7883576b">
               Herr greve och talman! Den siste ärade talaren förde ut denna
               fråga på ett mycket vidsträckt plan. Han ansåg nämligen, att den
@@ -3077,7 +3122,7 @@
             erinrade, utsträckte den frist; inom vilken kommunerna hade att
             ordna anstaltsfrågan. Herr statsrådet an-
           </note>
-          <u who="karl_allan_westman_c08c17" xml:id="i-af6c339ef102b21c-0" prev="i-efd7f693f01cc359-0" n="7d9ffb00">
+          <u who="karl_allan_westman_c08c17" xml:id="i-abc4212a5e8ec807-1" prev="i-abc4212a5e8ec807-0" n="7d9ffb00">
             <seg n="08a9e619">
               märkte, att utskottet i sitt utlåtande använt en formulering,
               som icke riktigt
@@ -3096,6 +3141,12 @@
               någon principiell avvikelse från det sålunda fattade beslutet,
               om man tillgrep det tvång,
             </seg>
+          </u>
+          <pb n="34" facs="https://betalab.kb.se/prot-1927--fk--28/prot_1927__fk__28-034.jp2/_view"/>
+          <note type="date" n="8cfd2933">
+            Lördagen den 7 maj f. m. 30
+          </note>
+          <u who="karl_allan_westman_c08c17" xml:id="i-abc4212a5e8ec807-2" prev="i-abc4212a5e8ec807-0" n="7d9ffb00">
             <seg n="c6953e9a">
               som Kungl. Maj:t föreslagit. Jag ber till detta att få säga,
               att de ledamöter inom utskottet, som utgjorde utskottets majoritet,
@@ -3170,6 +3221,26 @@
               Jag kan emellertid icke riktigt förstå, att dessa omständigheter
               innebära något så sär-
             </seg>
+          </u>
+          <note n="521aac96">
+            Nr 28,
+          </note>
+          <note n="c151f48b">
+            Ang. kommunalförbund för anordnande av fattigvårdsanstalt m.
+            m. (Forts.)
+          </note>
+          <pb n="35" facs="https://betalab.kb.se/prot-1927--fk--28/prot_1927__fk__28-035.jp2/_view"/>
+          <note n="290abc01">
+            Nr 28.
+          </note>
+          <note n="08ebabf3">
+            Ang. kommaunalförbund för anordnande av fattigvårdsanstalt m.
+            m. (Forts.)
+          </note>
+          <note type="date" n="7322c812">
+            36 Lördagen den 7 maj f. m.
+          </note>
+          <u who="karl_allan_westman_c08c17" xml:id="i-abc4212a5e8ec807-3" prev="i-abc4212a5e8ec807-0" n="7d9ffb00">
             <seg n="84e84216">
               deles starkt stöd för den uppfattningen, att man i detta fall
               i fattigvårdens intresse måste ingripa. Det är här icke fråga
@@ -3242,6 +3313,12 @@
               man emellertid, att kammarkollegium i det yttrande, som kollegium
               avgivit i detta ärende, avstyrkt Kungl. Maj:ts förslag. För-
             </seg>
+          </u>
+          <pb n="36" facs="https://betalab.kb.se/prot-1927--fk--28/prot_1927__fk__28-036.jp2/_view"/>
+          <note type="date" n="95c3d7c3">
+            Lördagen den 7 maj f. m. 37
+          </note>
+          <u who="karl_allan_westman_c08c17" xml:id="i-abc4212a5e8ec807-4" prev="i-abc4212a5e8ec807-0" n="7d9ffb00">
             <seg n="94c15050">
               hållandet är, att vid det beslut, som kammarkollegium fattade,
               när det avgav sitt utlåtande i ärendet, fanns det en minoritet.
@@ -3314,59 +3391,7 @@
               därpå kan byggandet av ålderdoms-
             </seg>
             <seg n="49202e18"/>
-            <seg n="08965646">
-              hemmet påbörjas, och detta skall vara färdigt till den 1 januari
-              1931. Till allt detta behövs mycket väl de tre år, som äro kvar.
-            </seg>
-            <seg n="219e90e3">
-              nomiskt och lämpligt sätt ordna denna byggnadsfråga.
-            </seg>
-            <seg n="811d45d4">
-              Herr ordföranden i andra lagutskottet gjorde en anmärkning om
-              att kammarkollegium skulle ha avstyrkt tvångsåtgärd i förevarande
-              avseende och ansett, att kommunerna borde frivilligt få avgöra
-              saken. Emellertid har kammarkollegium, enligt vad det nu vill
-              synas, ändrat åsikt. I två utlåtanden till Kungl. Maj:t, det första
-              avgivet i slutet av förra året och det andra i början av detta
-              år, i fråga om kommunala indelningsärenden har nämligen kammarkollegium
-              just med avseende å byggandet av ålderdomshem sagt, att vad som
-              förekommit i dessa ärenden ger stöd för den åsikten, att kommunerna
-              böra kunna åläggas att emot sitt bestridande uppföra ålderdomshem.
-            </seg>
-            <seg n="50d2417d">
-              Jag skall icke, eftersom frågan redan är fallen i andra kammaren,
-              yttra mig vidare, vilket eljest skulle i flera hänseenden ha varit
-              ganska önskvärt från min sida, utan jag skall nu endast be att
-              under åberopande i övrigt av vad herr socialministern anfört få
-              yrka bifall till reservationen.
-            </seg>
           </u>
-          <pb n="34" facs="https://betalab.kb.se/prot-1927--fk--28/prot_1927__fk__28-034.jp2/_view"/>
-          <note n="87df7b41">
-            Lördagen den 7 maj f. m. 30
-          </note>
-          <note n="521aac96">
-            Nr 28,
-          </note>
-          <note n="c151f48b">
-            Ang. kommunalförbund för anordnande av fattigvårdsanstalt m.
-            m. (Forts.)
-          </note>
-          <pb n="35" facs="https://betalab.kb.se/prot-1927--fk--28/prot_1927__fk__28-035.jp2/_view"/>
-          <note n="290abc01">
-            Nr 28.
-          </note>
-          <note n="08ebabf3">
-            Ang. kommaunalförbund för anordnande av fattigvårdsanstalt m.
-            m. (Forts.)
-          </note>
-          <note n="7cb6ec33">
-            36 Lördagen den 7 maj f. m.
-          </note>
-          <pb n="36" facs="https://betalab.kb.se/prot-1927--fk--28/prot_1927__fk__28-036.jp2/_view"/>
-          <note n="574afe7b">
-            Lördagen den 7 maj f. m. 37
-          </note>
           <note n="290abc01">
             Nr 28.
           </note>
@@ -3390,9 +3415,15 @@
           <note n="72cc4d3c">
             fattigvårds-
           </note>
-          <note n="7f2674fe">
+          <note type="date" n="62803110">
             38 Lördagen den 7 maj f. m.
           </note>
+          <u who="karl_allan_westman_c08c17" xml:id="i-abc4212a5e8ec807-5" prev="i-abc4212a5e8ec807-0" n="7d9ffb00">
+            <seg n="08965646">
+              hemmet påbörjas, och detta skall vara färdigt till den 1 januari
+              1931. Till allt detta behövs mycket väl de tre år, som äro kvar.
+            </seg>
+          </u>
           <note n="fd64dcb3">
             Förslaget om tvångsåtgärder för ordnandet av fattigvårdsanstalter
             är grundat på den åttaåriga erfarenhet, man vunnit, sedan fattigvårdslagen
@@ -3405,10 +3436,34 @@
           <note n="030c4626">
             (Forts.)
           </note>
+          <u who="karl_allan_westman_c08c17" xml:id="i-abc4212a5e8ec807-6" prev="i-abc4212a5e8ec807-0" n="7d9ffb00">
+            <seg n="219e90e3">
+              nomiskt och lämpligt sätt ordna denna byggnadsfråga.
+            </seg>
+            <seg n="811d45d4">
+              Herr ordföranden i andra lagutskottet gjorde en anmärkning om
+              att kammarkollegium skulle ha avstyrkt tvångsåtgärd i förevarande
+              avseende och ansett, att kommunerna borde frivilligt få avgöra
+              saken. Emellertid har kammarkollegium, enligt vad det nu vill
+              synas, ändrat åsikt. I två utlåtanden till Kungl. Maj:t, det första
+              avgivet i slutet av förra året och det andra i början av detta
+              år, i fråga om kommunala indelningsärenden har nämligen kammarkollegium
+              just med avseende å byggandet av ålderdomshem sagt, att vad som
+              förekommit i dessa ärenden ger stöd för den åsikten, att kommunerna
+              böra kunna åläggas att emot sitt bestridande uppföra ålderdomshem.
+            </seg>
+            <seg n="50d2417d">
+              Jag skall icke, eftersom frågan redan är fallen i andra kammaren,
+              yttra mig vidare, vilket eljest skulle i flera hänseenden ha varit
+              ganska önskvärt från min sida, utan jag skall nu endast be att
+              under åberopande i övrigt av vad herr socialministern anfört få
+              yrka bifall till reservationen.
+            </seg>
+          </u>
           <note type="speaker" n="0ed39f63">
             Herr Hammarskjöld, Hjalmar:
           </note>
-          <u who="hjalmar_hammarskjold_423c30" xml:id="i-4a52b166bc9c9977-0" n="9711ad34">
+          <u who="hjalmar_hammarskjold_423c30" xml:id="i-9711ad341b77fe1a-2" n="9711ad34">
             <seg n="cb82b771">
               Herr greve och talman! Jag vill icke underlåta att meddela, att
               jag för min del skulle livligt ha önskat framgång åt de grundsatser,
@@ -3443,7 +3498,7 @@
           <note type="speaker" n="266bc070">
             Herr von Sneidern:
           </note>
-          <u who="axel_von_sneidern_bb370f" xml:id="i-b39a2dabf1572607-0" next="i-c3fc0b1eba0f77d3-0" n="15019dab">
+          <u who="axel_von_sneidern_bb370f" xml:id="i-15019dab03bf69af-0" next="i-15019dab03bf69af-1" n="15019dab">
             <seg n="c1af8bfe">
               Då jag avgivit det utlåtande, till vilket landshövding Hammarskjöld
               refererade, skall jag be att få understryka de synpunkter, som
@@ -3456,10 +3511,10 @@
             </seg>
           </u>
           <pb n="38" facs="https://betalab.kb.se/prot-1927--fk--28/prot_1927__fk__28-038.jp2/_view"/>
-          <note n="598f9c72">
+          <note type="date" n="393b6311">
             Lördagen den 7 maj f. m. 39
           </note>
-          <u who="axel_von_sneidern_bb370f" xml:id="i-c3fc0b1eba0f77d3-0" prev="i-b39a2dabf1572607-0" n="15019dab">
+          <u who="axel_von_sneidern_bb370f" xml:id="i-15019dab03bf69af-1" prev="i-15019dab03bf69af-0" n="15019dab">
             <seg n="6b9aa375">
               fälle alt försöka på frivillighetens väg få fram de sammanslutningar,
               jag anser behövliga.
@@ -3482,7 +3537,7 @@
           <note type="speaker" n="0ac73c1c">
             Herr Westman:
           </note>
-          <u who="karl_allan_westman_c08c17" xml:id="i-efd7f693f01cc359-1" next="i-af6c339ef102b21c-1" n="7d9ffb00">
+          <u who="karl_allan_westman_c08c17" xml:id="i-abc4212a5e8ec807-7" next="i-abc4212a5e8ec807-9" n="7d9ffb00">
             <seg n="cb3455e3">
               Jag ber att få säga ett par ord med anledning av den siste ärade
               talarens yttrande, då han trodde sig finna, att jag varit emot
@@ -3557,7 +3612,7 @@
           <note n="dc643098">
             Förslag till allmänt resereglemente.
           </note>
-          <note n="c47a7bf4">
+          <note type="date" n="0b225691">
             40 Lördagen den 7 maj f. m.
           </note>
           <note n="805d609b">
@@ -3583,14 +3638,9 @@
             nu votering medelst namnupprop; och befunnos vid omröstningens
             slut rösterna hava utfallit sålunda: :
           </note>
-          <u who="karl_allan_westman_c08c17" xml:id="i-af6c339ef102b21c-1" prev="i-efd7f693f01cc359-1" n="7d9ffb00">
+          <u who="karl_allan_westman_c08c17" xml:id="i-abc4212a5e8ec807-8" prev="i-abc4212a5e8ec807-7" n="7d9ffb00">
             <seg n="6bcc426e">
               Ja — 60; Nej — 52.
-            </seg>
-            <seg n="f08fe94a">
-              törerna i detta reglemente nedflyttades i en reseoch traktamentsklass,
-              som bättre än den nuvarande svarade mot deras allmänna tjänsteställning;
-              samt
             </seg>
           </u>
           <note n="8c04ae12">
@@ -3639,9 +3689,16 @@
             måtte uttala, att folkskoleinspek-
           </note>
           <pb n="40" facs="https://betalab.kb.se/prot-1927--fk--28/prot_1927__fk__28-040.jp2/_view"/>
-          <note n="ea3ab95c">
+          <note type="date" n="75742ba7">
             Lördagen den 7 maj f. m. 41
           </note>
+          <u who="karl_allan_westman_c08c17" xml:id="i-abc4212a5e8ec807-9" prev="i-abc4212a5e8ec807-7" n="7d9ffb00">
+            <seg n="f08fe94a">
+              törerna i detta reglemente nedflyttades i en reseoch traktamentsklass,
+              som bättre än den nuvarande svarade mot deras allmänna tjänsteställning;
+              samt
+            </seg>
+          </u>
           <note n="ec321fb3">
             nr 341, av herr E. A. Hage, däruti hemställts, att riksdagen
             för sin del måtte besluta, att $ 18 i det förslag till allmänt
@@ -3682,7 +3739,7 @@
           <note type="speaker" n="8107fa82">
             Herr Strömberg:
           </note>
-          <u who="gustaf_stromberg_c9dc68" xml:id="i-b7be99a0376af368-0" next="i-d8a7df4c0aa435e8-0" n="f33c7774">
+          <u who="gustaf_stromberg_c9dc68" xml:id="i-da1201d7c571f2ef-0" next="i-da1201d7c571f2ef-2" n="f33c7774">
             <seg n="71aeacac">
               Herr greve och talman, mina herrar! Jag har tillåtit mig att
               begära ordet i denna fråga för att framställa några erinringar
@@ -3741,10 +3798,10 @@
           <note n="030c4626">
             (Forts.)
           </note>
-          <note n="c01e5fee">
+          <note type="date" n="f632003e">
             492 Lördagen den 7 maj f. m.
           </note>
-          <u who="gustaf_stromberg_c9dc68" xml:id="i-d8a7df4c0aa435e8-0" prev="i-b7be99a0376af368-0" n="f33c7774">
+          <u who="gustaf_stromberg_c9dc68" xml:id="i-da1201d7c571f2ef-1" prev="i-da1201d7c571f2ef-0" n="f33c7774">
             <seg n="c150fd31">
               avsevärda utgifter för statsverket. Däremot anser jag det vara
               befogat att uttala ett bestämt ogillande av utskottets förslag
@@ -3820,6 +3877,12 @@
               går med på den lilla obetydliga förbättringen av en krona per
               natt.
             </seg>
+          </u>
+          <pb n="42" facs="https://betalab.kb.se/prot-1927--fk--28/prot_1927__fk__28-042.jp2/_view"/>
+          <note type="date" n="51a15dfb">
+            Lördagen den 7 maj f. m. 43
+          </note>
+          <u who="gustaf_stromberg_c9dc68" xml:id="i-da1201d7c571f2ef-2" prev="i-da1201d7c571f2ef-0" n="f33c7774">
             <seg n="aa9e01f4">
               Utskottet har vidare sänkt ersättningen för egna bilen från vad
               Kungl. Maj:t föreslagit, 50 öre per kilometer, till 40 öre. Detta
@@ -3857,14 +3920,10 @@
               för utskottets förslag kammaren måtte bifalla Kungl. Maj:ts förslag.
             </seg>
           </u>
-          <pb n="42" facs="https://betalab.kb.se/prot-1927--fk--28/prot_1927__fk__28-042.jp2/_view"/>
-          <note n="40670c9b">
-            Lördagen den 7 maj f. m. 43
-          </note>
           <note type="speaker" n="c8676b17">
             Herr Widell:
           </note>
-          <u who="ludvig_widell_fed01f" xml:id="i-736da648acbca350-1" next="i-068e56dff066edf3-1" n="f1d03d6b">
+          <u who="ludvig_widell_fed01f" xml:id="i-f1d03d6bbb10c830-6" next="i-f1d03d6bbb10c830-8" n="f1d03d6b">
             <seg n="db6545ac">
               Herr greve och talman! Den föregående ärade talaren ansåg, att
               statsutskottet hade gått synnerligen hårt fram emot tjänstemännen
@@ -3921,10 +3980,10 @@
           <note n="030c4626">
             (Forts.)
           </note>
-          <note n="d191c5f8">
+          <note type="date" n="2cd314cc">
             44 Lördagen den 7 maj f. m.
           </note>
-          <u who="ludvig_widell_fed01f" xml:id="i-068e56dff066edf3-1" prev="i-736da648acbca350-1" n="f1d03d6b">
+          <u who="ludvig_widell_fed01f" xml:id="i-f1d03d6bbb10c830-7" prev="i-f1d03d6bbb10c830-6" n="f1d03d6b">
             <seg n="f285309f">
               kelser från Kungl. Maj:ts förslag. Den ena punkten — jag frånser
               nu de mindre viktiga — avser resa med egen bil och den andra med
@@ -3992,6 +4051,12 @@
               Det bör ställas på ett helt annat sätt, och det är det, vi syfta
               på. Jag behöver bara tala om lantmätare, läkare
             </seg>
+          </u>
+          <pb n="44" facs="https://betalab.kb.se/prot-1927--fk--28/prot_1927__fk__28-044.jp2/_view"/>
+          <note type="date" n="16933e24">
+            Lördagen den 7 maj f. m. 45
+          </note>
+          <u who="ludvig_widell_fed01f" xml:id="i-f1d03d6bbb10c830-8" prev="i-f1d03d6bbb10c830-6" n="f1d03d6b">
             <seg n="59172897">
               och veterinärer och en hel mängd sådana, som överhuvud ej kunna
               utföra sitt arbete på landsbygden — ty det är de, vi närmast tänka
@@ -4016,14 +4081,10 @@
               bifallits av andra kammaren.
             </seg>
           </u>
-          <pb n="44" facs="https://betalab.kb.se/prot-1927--fk--28/prot_1927__fk__28-044.jp2/_view"/>
-          <note n="60315489">
-            Lördagen den 7 maj f. m. 45
-          </note>
           <note type="speaker" n="b22b4915">
             Herr Julin:
           </note>
-          <u who="teodor_julin_93a31b" xml:id="i-68dc0671a87a6429-0" next="i-b9a3b4f553d13cf0-0" n="fa7a0d1f">
+          <u who="teodor_julin_93a31b" xml:id="i-fa7a0d1fb5cfcc8d-0" next="i-fa7a0d1fb5cfcc8d-2" n="fa7a0d1f">
             <seg n="abdc8c0d">
               Om man i korthet skall angiva vad som hände med resereglementet,
               när vi sist behandlade det, så var det väl det, att man sökte
@@ -4099,10 +4160,10 @@
           <note n="030c4626">
             (Forts.)
           </note>
-          <note n="fad58c26">
+          <note type="date" n="9a04d614">
             46 Lördagen den 7 maj f. m.
           </note>
-          <u who="teodor_julin_93a31b" xml:id="i-b9a3b4f553d13cf0-0" prev="i-68dc0671a87a6429-0" n="fa7a0d1f">
+          <u who="teodor_julin_93a31b" xml:id="i-fa7a0d1fb5cfcc8d-1" prev="i-fa7a0d1fb5cfcc8d-0" n="fa7a0d1f">
             <seg n="4fc8b8d5">
               bland räkenskaperna i det verk, jag tillhör, och jag har funnit,
               att man inom ett postdistrikt gjort en verkligt noggrann beräkning
@@ -4174,6 +4235,12 @@
               fördel, som staten har av den egna bilens användning, blir borttagen.
               Det är
             </seg>
+          </u>
+          <pb n="46" facs="https://betalab.kb.se/prot-1927--fk--28/prot_1927__fk__28-046.jp2/_view"/>
+          <note type="date" n="4e6f6cf1">
+            Lördagen den 7 maj f. m. 47 Nr 28,
+          </note>
+          <u who="teodor_julin_93a31b" xml:id="i-fa7a0d1fb5cfcc8d-2" prev="i-fa7a0d1fb5cfcc8d-0" n="fa7a0d1f">
             <seg n="05ce282a">
               att märka, att när man har egen bil och kan lägga sin resrutt
               med egen tidtabell, Förslag till
@@ -4217,14 +4284,10 @@
               Jag ber att få biträda hans yrkande.
             </seg>
           </u>
-          <pb n="46" facs="https://betalab.kb.se/prot-1927--fk--28/prot_1927__fk__28-046.jp2/_view"/>
-          <note n="d8791c25">
-            Lördagen den 7 maj f. m. 47 Nr 28,
-          </note>
           <note type="speaker" n="8107fa82">
             Herr Strömberg:
           </note>
-          <u who="gustaf_stromberg_c9dc68" xml:id="i-b7be99a0376af368-1" next="i-d8a7df4c0aa435e8-1" n="f33c7774">
+          <u who="gustaf_stromberg_c9dc68" xml:id="i-da1201d7c571f2ef-3" next="i-da1201d7c571f2ef-4" n="f33c7774">
             <seg n="25e709c2">
               Ja, herr talman, utskottsavdelningens ärade ordförande yttrade,
               att ett dagtraktamente av t. ex. 12 kronor mycket väl kan räcka
@@ -4271,10 +4334,10 @@
           <note n="030c4626">
             (Forts.)
           </note>
-          <note n="98727ceb">
+          <note type="date" n="02e562e5">
             48 Lördagen den 7 maj f. m.
           </note>
-          <u who="gustaf_stromberg_c9dc68" xml:id="i-d8a7df4c0aa435e8-1" prev="i-b7be99a0376af368-1" n="f33c7774">
+          <u who="gustaf_stromberg_c9dc68" xml:id="i-da1201d7c571f2ef-4" prev="i-da1201d7c571f2ef-3" n="f33c7774">
             <seg n="491db65e">
               Han åberopade förrättningsmän, som jag i detta fall icke finner
               vara lämpliga exempel, såsom läkare, lantmätare o. s. v. De ha
@@ -4285,7 +4348,7 @@
           <note type="speaker" n="c48bf5aa">
             Herr Hederstierna:
           </note>
-          <u who="carl_hederstierna_628edf" xml:id="i-9006b501bcc25cf4-0" next="i-786d10f28effddb4-0" n="c7da4add">
+          <u who="carl_hederstierna_628edf" xml:id="i-c7da4add7092f9a0-0" next="i-c7da4add7092f9a0-3" n="c7da4add">
             <seg n="2e10f00f">
               Jag tycker, att man kan behålla det nuvarande provisoriet, tills
               man kommit till klarhet om hur det bör bli med resereglementet.
@@ -4357,36 +4420,9 @@
           <note n="b91e58cf">
             Vad utskottet i dessa utlåtanden hemställt bifölls.
           </note>
-          <u who="carl_hederstierna_628edf" xml:id="i-786d10f28effddb4-0" prev="i-9006b501bcc25cf4-0" n="c7da4add">
-            <seg n="0793ddb5">
-              Herr Larsén: Jag skall icke ingå på någon debatt rörande föreliggande
-              förslag och icke heller yrka bifall till min motion, utan endast
-              fästa uppmärksamheten vid ett sakförhållande. Utfärdas föreliggande
-              förordning, kommer bruket av de motorcyklar, som hittills varit
-              befriade från alla pålagor, att beläggas med icke obetydliga kostnader.
-              Dessa torde bli: besiktningsavgift 5 kronor, intyg för körkort
-              10 kronor, registrering och stämpel 7 kronor, skatt 10 kronor,
-              läkarintyg 5 kronor, nykterhetsintyg 2:50 kronor och registrering
-              av körkort 10 kronor — sammanlagt 49:50 kronor. Det är enligt
-              min mening orimligt med dessa höga avgifter. Det är här icke fråga
-              om något slags lyxvaror utan om ett fortskaffningsmedel, som är
-              mycket behövligt i det prak-
-            </seg>
-            <seg n="64bf3980">
-              tiska livet och som i ganska stor utsträckning användes av den
-              mindre bemedlade klassen. Jag vill därför begagna tillfället att
-              uttala det önskemålet, att, då denna förordning utfärdas, regeringen
-              måtte tillse, att engångskostnaderna beskäras intill den yttersta
-              gränsen av det absolut nödvändiga, särskilt för det slag av motorcyklar,
-              som hittills varit obeskattade.
-            </seg>
-            <seg n="9b4b5e0b">
-              I avseende på det föreliggande utskottsförslaget har jag, herr
-              talman, intet yrkande.
-            </seg>
-          </u>
+          <u who="carl_hederstierna_628edf" xml:id="i-c7da4add7092f9a0-1" prev="i-c7da4add7092f9a0-0" n="c7da4add"/>
           <pb n="48" facs="https://betalab.kb.se/prot-1927--fk--28/prot_1927__fk__28-048.jp2/_view"/>
-          <note n="338c6275">
+          <note type="date" n="45b08f5e">
             Lördagen den 7 maj f. m. 49
           </note>
           <note n="763ff49f">
@@ -4452,6 +4488,22 @@
           <note n="11427ff7">
             50 kg., körkort ej borde erfordras.
           </note>
+          <u who="carl_hederstierna_628edf" xml:id="i-c7da4add7092f9a0-2" prev="i-c7da4add7092f9a0-0" n="c7da4add">
+            <seg n="0793ddb5">
+              Herr Larsén: Jag skall icke ingå på någon debatt rörande föreliggande
+              förslag och icke heller yrka bifall till min motion, utan endast
+              fästa uppmärksamheten vid ett sakförhållande. Utfärdas föreliggande
+              förordning, kommer bruket av de motorcyklar, som hittills varit
+              befriade från alla pålagor, att beläggas med icke obetydliga kostnader.
+              Dessa torde bli: besiktningsavgift 5 kronor, intyg för körkort
+              10 kronor, registrering och stämpel 7 kronor, skatt 10 kronor,
+              läkarintyg 5 kronor, nykterhetsintyg 2:50 kronor och registrering
+              av körkort 10 kronor — sammanlagt 49:50 kronor. Det är enligt
+              min mening orimligt med dessa höga avgifter. Det är här icke fråga
+              om något slags lyxvaror utan om ett fortskaffningsmedel, som är
+              mycket behövligt i det prak-
+            </seg>
+          </u>
           <note n="d3ef1d9a">
             Första kammarens protokoll 1927. Nr 28. 4
           </note>
@@ -4474,13 +4526,27 @@
           <note n="243acb23">
             Ang. statsinköp av bulvanhemman.
           </note>
-          <note n="390cf890">
+          <note type="date" n="71cd3303">
             50 Lördagen den 7 maj f. m.
           </note>
+          <u who="carl_hederstierna_628edf" xml:id="i-c7da4add7092f9a0-3" prev="i-c7da4add7092f9a0-0" n="c7da4add">
+            <seg n="64bf3980">
+              tiska livet och som i ganska stor utsträckning användes av den
+              mindre bemedlade klassen. Jag vill därför begagna tillfället att
+              uttala det önskemålet, att, då denna förordning utfärdas, regeringen
+              måtte tillse, att engångskostnaderna beskäras intill den yttersta
+              gränsen av det absolut nödvändiga, särskilt för det slag av motorcyklar,
+              som hittills varit obeskattade.
+            </seg>
+            <seg n="9b4b5e0b">
+              I avseende på det föreliggande utskottsförslaget har jag, herr
+              talman, intet yrkande.
+            </seg>
+          </u>
           <note type="speaker" n="0ac73c1c">
             Herr Westman:
           </note>
-          <u who="karl_allan_westman_c08c17" xml:id="i-efd7f693f01cc359-2" next="i-af6c339ef102b21c-2" n="7d9ffb00">
+          <u who="karl_allan_westman_c08c17" xml:id="i-abc4212a5e8ec807-10" next="i-abc4212a5e8ec807-11" n="7d9ffb00">
             <seg n="c2a5dd41">
               Herr talman, vi ha inom utskottet i hög grad behjärtat de synpunkter,
               för vilka herr Larsén gjort sig till talesman. Utskottet har ju
@@ -4547,10 +4613,10 @@
             k. bul-
           </note>
           <pb n="50" facs="https://betalab.kb.se/prot-1927--fk--28/prot_1927__fk__28-050.jp2/_view"/>
-          <note n="19fc8d40">
+          <note type="date" n="4f802846">
             Lördagen den 7 maj f. m. 51
           </note>
-          <u who="karl_allan_westman_c08c17" xml:id="i-af6c339ef102b21c-2" prev="i-efd7f693f01cc359-2" n="7d9ffb00">
+          <u who="karl_allan_westman_c08c17" xml:id="i-abc4212a5e8ec807-11" prev="i-abc4212a5e8ec807-10" n="7d9ffb00">
             <seg n="07aa31c9">
               vanhemman förhindra, att desamma komme i händerna på s. k. enskilda
               skogsspekulanter.
@@ -4559,7 +4625,7 @@
           <note type="speaker" n="e45bb71d">
             Herr Gabrielsson:
           </note>
-          <u who="nils_gabrielsson_fb2638" xml:id="i-96c3252584b88664-0" next="i-169ef758c48c1511-0" n="654d74cc">
+          <u who="nils_gabrielsson_fb2638" xml:id="i-654d74cc352f7998-0" next="i-654d74cc352f7998-5" n="654d74cc">
             <seg n="a27c6954">
               Herr greve och talman! Några av ledamöterna inom Jordbruksutskottet
               ha haft en från majoritetens mening avvikande uppfattning i denna
@@ -4651,10 +4717,10 @@
           <note n="030c4626">
             (Forts.)
           </note>
-          <note n="add95db6">
+          <note type="date" n="b22ffee4">
             52 Lördagen den 7 maj f. m.
           </note>
-          <u who="nils_gabrielsson_fb2638" xml:id="i-169ef758c48c1511-0" prev="i-96c3252584b88664-0" n="654d74cc">
+          <u who="nils_gabrielsson_fb2638" xml:id="i-654d74cc352f7998-1" prev="i-654d74cc352f7998-0" n="654d74cc">
             <seg n="26004e0d">
               ligga olämpligt till, skola säljas, men då är frågan den, huruvida
               det är nödvändigt att börja köpa in nya hemman i stället. De nyssnämnda
@@ -4693,6 +4759,23 @@
               skall komma fram och som vi säkerligen komma att kunna behandla
               vid nästa riksdag.
             </seg>
+          </u>
+          <note n="b0bafe3a">
+            Under sådana förhållanden och då jag finner, att det icke är
+            nödvändigt att vidtaga någon åtgärd i detta avseende, ber jag,
+            herr talman, att få yrka avslag å utskottets hemställan och bifall
+            till den reservation, som av herrar Sederholm m. fl. fogats till
+            detta utlåtande.
+          </note>
+          <note n="86708022">
+            Häri instämde herrar Wohlin och Frändén.
+          </note>
+          <note n="451139c5">
+            Under herr Gabrielssons anförande hade herr talmannen uppstått
+            och avlägsnat sig, varvid ledningen av kammarens förhandlingar
+            övertagits av herr förste vice talmannen.
+          </note>
+          <u who="nils_gabrielsson_fb2638" xml:id="i-654d74cc352f7998-2" prev="i-654d74cc352f7998-0" n="654d74cc">
             <seg n="f42d89c5">
               Greve Lagerbjelke: Herr talman! Det är mycket karakteristiskt
               för den fråga, som nu är före, att den motionär, som varit den
@@ -4717,6 +4800,12 @@
               antogs, om ökning av respittiden för bulvanhemmanens . försäljning,
               framhöll utskottet »lämpligheten av att, särskilt för tillvaratagan-
             </seg>
+          </u>
+          <pb n="52" facs="https://betalab.kb.se/prot-1927--fk--28/prot_1927__fk__28-052.jp2/_view"/>
+          <note type="date" n="4a6de556">
+            Lördagen den 7 maj f. m. 53
+          </note>
+          <u who="nils_gabrielsson_fb2638" xml:id="i-654d74cc352f7998-3" prev="i-654d74cc352f7998-0" n="654d74cc">
             <seg n="6ba70647">
               de av vederbörande inteckningshavares intressen, tvångsförsäljningar
               i möjligaste mån undvikas», och yttrade vidare, att »genom skälig
@@ -4784,6 +4873,30 @@
               kunna utan tvivel också inköpas av staten med tillgängliga medel,
               men
             </seg>
+          </u>
+          <note n="541f9687">
+            Nr 28
+          </note>
+          <note n="59740069">
+            Ang. slatsinköp av bulvanhemman.
+          </note>
+          <note n="030c4626">
+            (Forts.)
+          </note>
+          <pb n="53" facs="https://betalab.kb.se/prot-1927--fk--28/prot_1927__fk__28-053.jp2/_view"/>
+          <note n="290abc01">
+            Nr 28.
+          </note>
+          <note n="243acb23">
+            Ang. statsinköp av bulvanhemman.
+          </note>
+          <note n="030c4626">
+            (Forts.)
+          </note>
+          <note type="date" n="94202db0">
+            54 Lördagen den 7 maj f. m.
+          </note>
+          <u who="nils_gabrielsson_fb2638" xml:id="i-654d74cc352f7998-4" prev="i-654d74cc352f7998-0" n="654d74cc">
             <seg n="7fceaceb">
               man kan ju inte rimligen tänka sig, att sådana inköp kunna ske
               i annan mån än då det gäller antingen stora komplex, som kunna
@@ -4857,6 +4970,19 @@
               sig böra tillstyrka, utan det har i stället föreslagit, att riksdagen
               i anledning av denna motion måtte »i skrivelse till
             </seg>
+          </u>
+          <pb n="54" facs="https://betalab.kb.se/prot-1927--fk--28/prot_1927__fk__28-054.jp2/_view"/>
+          <note type="date" n="c90c3641">
+            Lördagen den 7 maj f. m. 55
+          </note>
+          <note n="e9f0a912">
+            Kungl. Maj:t anhålla, att Kungl. Maj:t ville vidtaga åtgärder
+            för att vid realisation av i lagen den 18 juni 1925 om bulvanförhållande
+            i fråga om fast egendom avsedda s. k. bulvanhemman kronan må kunna,
+            där så för vinnande av med lagen avsett syfte visar sig erforderligt,
+            verkställa inköp av dylika hemman».
+          </note>
+          <u who="nils_gabrielsson_fb2638" xml:id="i-654d74cc352f7998-5" prev="i-654d74cc352f7998-0" n="654d74cc">
             <seg n="d35315c5">
               Syftet med den s. k. bulvanlagen torde väl, som vi alla känna
               till, icke blott ha varit att förhindra, att lagen om förbud för
@@ -4907,62 +5033,10 @@
               och jag ber, herr talman, att få yrka bifall till detta utlåtande.
             </seg>
           </u>
-          <note n="b0bafe3a">
-            Under sådana förhållanden och då jag finner, att det icke är
-            nödvändigt att vidtaga någon åtgärd i detta avseende, ber jag,
-            herr talman, att få yrka avslag å utskottets hemställan och bifall
-            till den reservation, som av herrar Sederholm m. fl. fogats till
-            detta utlåtande.
-          </note>
-          <note n="86708022">
-            Häri instämde herrar Wohlin och Frändén.
-          </note>
-          <note n="451139c5">
-            Under herr Gabrielssons anförande hade herr talmannen uppstått
-            och avlägsnat sig, varvid ledningen av kammarens förhandlingar
-            övertagits av herr förste vice talmannen.
-          </note>
-          <pb n="52" facs="https://betalab.kb.se/prot-1927--fk--28/prot_1927__fk__28-052.jp2/_view"/>
-          <note n="a44ae4b9">
-            Lördagen den 7 maj f. m. 53
-          </note>
-          <note n="541f9687">
-            Nr 28
-          </note>
-          <note n="59740069">
-            Ang. slatsinköp av bulvanhemman.
-          </note>
-          <note n="030c4626">
-            (Forts.)
-          </note>
-          <pb n="53" facs="https://betalab.kb.se/prot-1927--fk--28/prot_1927__fk__28-053.jp2/_view"/>
-          <note n="290abc01">
-            Nr 28.
-          </note>
-          <note n="243acb23">
-            Ang. statsinköp av bulvanhemman.
-          </note>
-          <note n="030c4626">
-            (Forts.)
-          </note>
-          <note n="d2c68dd2">
-            54 Lördagen den 7 maj f. m.
-          </note>
-          <pb n="54" facs="https://betalab.kb.se/prot-1927--fk--28/prot_1927__fk__28-054.jp2/_view"/>
-          <note n="b58f61e9">
-            Lördagen den 7 maj f. m. 55
-          </note>
-          <note n="e9f0a912">
-            Kungl. Maj:t anhålla, att Kungl. Maj:t ville vidtaga åtgärder
-            för att vid realisation av i lagen den 18 juni 1925 om bulvanförhållande
-            i fråga om fast egendom avsedda s. k. bulvanhemman kronan må kunna,
-            där så för vinnande av med lagen avsett syfte visar sig erforderligt,
-            verkställa inköp av dylika hemman».
-          </note>
           <note type="speaker" n="48779546">
             Herr Sederholm:
           </note>
-          <u who="gustaf_sederholm_79fdd8" xml:id="i-1f2cbdfb33d005ca-0" next="i-d16d62972c61587c-0" n="2d19aeca">
+          <u who="gustaf_sederholm_79fdd8" xml:id="i-2d19aeca5cd7b0e7-0" next="i-2d19aeca5cd7b0e7-1" n="2d19aeca">
             <seg n="d759eded">
               TI motiveringen för utskottets utlåtande förekommer en passus,
               som den siste ärade talaren citerade, nämligen den, där det säges,
@@ -5000,10 +5074,10 @@
           <note n="030c4626">
             (Forts.)
           </note>
-          <note n="cd78d3dc">
+          <note type="date" n="ce6a6957">
             56 Lördagen den 7 maj f. m.
           </note>
-          <u who="gustaf_sederholm_79fdd8" xml:id="i-d16d62972c61587c-0" prev="i-1f2cbdfb33d005ca-0" n="2d19aeca">
+          <u who="gustaf_sederholm_79fdd8" xml:id="i-2d19aeca5cd7b0e7-1" prev="i-2d19aeca5cd7b0e7-0" n="2d19aeca">
             <seg n="b3d759ef">
               SE av dessa bulvanhemman, verkligen också kunde komma att bli
               ägare t em.
@@ -5061,7 +5135,7 @@
           <note type="speaker" n="e45bb71d">
             Herr Gabrielsson:
           </note>
-          <u who="nils_gabrielsson_fb2638" xml:id="i-96c3252584b88664-1" next="i-169ef758c48c1511-1" n="654d74cc">
+          <u who="nils_gabrielsson_fb2638" xml:id="i-654d74cc352f7998-6" next="i-654d74cc352f7998-7" n="654d74cc">
             <seg n="ce70254e">
               Herr talman! När herr Tjällgren sade, att de åtgärder, han rekommenderade,
               eventuellt voro till nytta för säljaren, och han därför ansåg,
@@ -5084,10 +5158,10 @@
             </seg>
           </u>
           <pb n="56" facs="https://betalab.kb.se/prot-1927--fk--28/prot_1927__fk__28-056.jp2/_view"/>
-          <note n="909ee567">
+          <note type="date" n="122105a8">
             Lördagen den 7 maj f. m. 57
           </note>
-          <u who="nils_gabrielsson_fb2638" xml:id="i-169ef758c48c1511-1" prev="i-96c3252584b88664-1" n="654d74cc">
+          <u who="nils_gabrielsson_fb2638" xml:id="i-654d74cc352f7998-7" prev="i-654d74cc352f7998-6" n="654d74cc">
             <seg n="1985cc39">
               let med de dåliga konjunkturer, som nu råda å trävarumarknaden.
               Det är just ur den synpunkten som jag velat motsätta mig, att
@@ -5119,7 +5193,7 @@
           <note type="speaker" n="0537e570">
             Herr Linders:
           </note>
-          <u who="unknown" xml:id="i-e2bedf6c2828bc63-0" n="4b205840">
+          <u who="unknown" xml:id="i-da700cdb3ad7bd78-0" n="4b205840">
             <seg n="34ea3e1b">
               Efter greve Lagerbjelkes visserligen på sitt sätt betänksamma,
               men dock mycket behjärtansvärda anförande tycker jag egentligen,
@@ -5188,10 +5262,10 @@
           <note n="d69e73e1">
             fForts.)
           </note>
-          <note n="5dc543e0">
+          <note type="date" n="92d9dd14">
             58 Lördagen den 7 maj f. m.
           </note>
-          <u who="unknown" xml:id="i-b5f81392e60e69cc-0" n="4b205840">
+          <u who="unknown" xml:id="i-da700cdb3ad7bd78-1" n="4b205840">
             <seg n="cd309b48">
               ständigt övertagande av hemmanen och underlättar återgången i
               den jordbrukande befolkningens ägo av dessa gamla bondehemman.
@@ -5244,7 +5318,7 @@
           <note type="speaker" n="5302b975">
             Herr Lindhagen:
           </note>
-          <u who="carl_albert_lindhagen_a2c097" xml:id="i-d83873d8586a1d05-1" next="i-efdec94f2c7d683c-1" n="09b8a4b2">
+          <u who="carl_albert_lindhagen_a2c097" xml:id="i-09b8a4b25625d41c-8" next="i-09b8a4b25625d41c-10" n="09b8a4b2">
             <seg n="975e9f73">
               Här föreligga två olika skrivelseförslag, som bägge ha samma
               syfte, ehuru utskottets skrivelseförslag, såvitt jag förstår och
@@ -5274,10 +5348,10 @@
             </seg>
           </u>
           <pb n="58" facs="https://betalab.kb.se/prot-1927--fk--28/prot_1927__fk__28-058.jp2/_view"/>
-          <note n="c2989b7f">
+          <note type="date" n="fcd9d53d">
             Lördagen den 7 maj f. m. 59
           </note>
-          <u who="carl_albert_lindhagen_a2c097" xml:id="i-efdec94f2c7d683c-1" prev="i-d83873d8586a1d05-1" n="09b8a4b2">
+          <u who="carl_albert_lindhagen_a2c097" xml:id="i-09b8a4b25625d41c-9" prev="i-09b8a4b25625d41c-8" n="09b8a4b2">
             <seg n="baa6c94e">
               bondeståndet, som inte anses ha någon raison d'étre däruppe,
               försvinna, så att vi finge Aktiebolaget Norra Sverige i stället,
@@ -5351,10 +5425,6 @@
               kan jag inte förstå. Det enda skulle vara att man vill låta missförhållandena
               utveckla sig
             </seg>
-            <seg n="ff63e64b">
-              och underminera situationen, så att man får en respittid att
-              kanske så småningom få hela lagen upphävd.
-            </seg>
           </u>
           <note n="290abc01">
             Nr 28.
@@ -5375,13 +5445,19 @@
           <note n="030c4626">
             (Forts.)
           </note>
-          <note n="d073488a">
+          <note type="date" n="c0308acf">
             60 Lördagen den 7 maj f. m.
           </note>
+          <u who="carl_albert_lindhagen_a2c097" xml:id="i-09b8a4b25625d41c-10" prev="i-09b8a4b25625d41c-8" n="09b8a4b2">
+            <seg n="ff63e64b">
+              och underminera situationen, så att man får en respittid att
+              kanske så småningom få hela lagen upphävd.
+            </seg>
+          </u>
           <note type="speaker" n="190113d5">
             Herr Tijiällgren:
           </note>
-          <u who="unknown" xml:id="i-b7c04f1b3d35f080-0" n="4b205840">
+          <u who="unknown" xml:id="i-4b2058409145dca4-0" n="4b205840">
             <seg n="7682978a">
               Herr Sederholm yttrade, att frågan skulle kunna ordnas på ett
               lämpligare och bekvämare sätt än genom vad som föreslås i utskottets
@@ -5428,7 +5504,7 @@
           <note type="speaker" n="48779546">
             Herr Sederholm:
           </note>
-          <u who="gustaf_sederholm_79fdd8" xml:id="i-4f6f061a0f1c9f57-0" n="2d19aeca">
+          <u who="gustaf_sederholm_79fdd8" xml:id="i-2d19aeca5cd7b0e7-2" n="2d19aeca">
             <seg n="b899de58">
               Herr talman! Med anledning av de ord greve Lagerbjelke riktade
               till mig, ber jag få säga, att jag inte finner, att det kan innebära
@@ -5457,7 +5533,7 @@
           <note type="speaker" n="c5f59166">
             Herr Andersson, Elof:
           </note>
-          <u who="olof_andersson_a3a894" xml:id="i-7b53f00f32463bf2-0" next="i-6eb112542791cd97-0" n="577444d5">
+          <u who="olof_andersson_a3a894" xml:id="i-3ff2dbf2ec3db591-0" next="i-3ff2dbf2ec3db591-1" n="577444d5">
             <seg n="d178adb3">
               Herr talman! Vid utskottets utlåtande har fogats en reservation,
               undertecknad av herrar Pettersson i Bjälbo, Olsson i Broberg,
@@ -5466,10 +5542,10 @@
             </seg>
           </u>
           <pb n="60" facs="https://betalab.kb.se/prot-1927--fk--28/prot_1927__fk__28-060.jp2/_view"/>
-          <note n="31334b50">
+          <note type="date" n="17df8abb">
             Lördagen den 7 maj f. m. 61
           </note>
-          <u who="olof_andersson_a3a894" xml:id="i-6eb112542791cd97-0" prev="i-7b53f00f32463bf2-0" n="577444d5">
+          <u who="olof_andersson_a3a894" xml:id="i-3ff2dbf2ec3db591-1" prev="i-3ff2dbf2ec3db591-0" n="577444d5">
             <seg n="6c9cf2c0">
               sluter mig till denna reservation. Jag anser att utskottets utlåtande
               sträcker sina verkningar alldeles för långt. Jag har emellertid
@@ -5484,7 +5560,7 @@
           <note type="speaker" n="0537e570">
             Herr Linders:
           </note>
-          <u who="unknown" xml:id="i-e2bedf6c2828bc63-1" n="4b205840">
+          <u who="unknown" xml:id="i-da700cdb3ad7bd78-2" n="4b205840">
             <seg n="efb3b927">
               Jag skall tillåta mig säga ytterligare ett par ord i denna fråga.
               Då herr Andersson i Fältenborg säger, att han anser, att utskottet
@@ -5530,7 +5606,7 @@
           <note n="1fee2517">
             I detta anförande instämde herr Norin.
           </note>
-          <u who="unknown" xml:id="i-b5f81392e60e69cc-1" n="4b205840">
+          <u who="unknown" xml:id="i-da700cdb3ad7bd78-3" n="4b205840">
             <seg n="876e1de8">
               Greve Lagerbjelke: Endast en helt kort replik till herr Sederholm
               i anledning av hans senaste anförande!
@@ -5552,31 +5628,6 @@
               och då komma på en omväg fastigheterna i händerna på de jobbare,
               om vilka här så många gånger förut i debatten varit tal.
             </seg>
-            <seg n="cbc144eb">
-              d) till upprätthållande av riksräkenskapsverkets verksamhet för
-              budgetåret 1927—1928 anvisa ett extra anslag av 12,100 kronor;
-              samt
-            </seg>
-            <seg n="d6c56653">
-              »Vad då först angår de av 1926 års besparingssakkunniga och riksräkenskapsverket
-              gjorda allmänna uttalandena i fråga om verkets organisation, har
-              utskottet i likhet med departementschefen kommit till den uppfattningen,
-              att med hänsyn dels till de arbetsuppgifter, som påvila ämbetsverket,
-              och dels de efter verkets tillkomst redan vidtagna indragningarna
-              av personal någon mera omfattande minskning av personalen icke
-              kan ske utan äventyrande av verkets förmåga att på ett tillfredsställande
-              sätt fullgöra sina åligganden. Vidkommande särskilt spörsmålet
-              om organisationen av verkets ledning har utskottet, även om utskottet
-              icke kunnat känna sig fullt övertygat om, att vissa förändringar
-              1 fråga om personalen i ledande ställning, utöver de nu angående
-              vissa förste revisorer föreslagna, ej skulle kunna ske utan nämnda
-              risk, likväl, med hänsyn till att någon ytterligare besparing
-              nu icke synes kunna ernås, funnit sig för närvarande böra ansluta
-              sig till Kungl. Maj:ts förslag härutinnan. Utskottet förutsätter
-              emellertid, att vid inträffade ändrade förhållanden Kungl. Maj:t
-              har uppmärksamheten riktad på vad utskottet sålunda ansett sig
-              böra framhålla beträffande spörsmålet i fråga.»
-            </seg>
           </u>
           <note n="290abc01">
             Nr 28.
@@ -5597,7 +5648,7 @@
           <note n="030c4626">
             (Forts.)
           </note>
-          <note n="c8f663fd">
+          <note type="date" n="9eb2a513">
             62 Lördagen den 7 maj f. m.
           </note>
           <note n="68e3161b">
@@ -5666,7 +5717,7 @@
             därvid, att flertalet röstade för nej-propositionen.
           </note>
           <pb n="62" facs="https://betalab.kb.se/prot-1927--fk--28/prot_1927__fk__28-062.jp2/_view"/>
-          <note n="d671ca1e">
+          <note type="date" n="0258a0a8">
             Lördagen den 7 maj f. m. 63 Nr 28,
           </note>
           <note n="f7de54b7">
@@ -5710,6 +5761,13 @@
             c) minska det ordinarie förslagsanslaget till riksräkenskapsverket,
             nu 454,000 kronor, med 23,100 kronor till 430,900 kronor;
           </note>
+          <u who="unknown" xml:id="i-da700cdb3ad7bd78-4" n="4b205840">
+            <seg n="cbc144eb">
+              d) till upprätthållande av riksräkenskapsverkets verksamhet för
+              budgetåret 1927—1928 anvisa ett extra anslag av 12,100 kronor;
+              samt
+            </seg>
+          </u>
           <note n="eefabe24">
             IT) att en av herr J. Nilsson i Malmö i ämnet väckt motion, I:
             218, icke måtte till någon riksdagens åtgärd föranleda.
@@ -5724,6 +5782,28 @@
             I motiveringen hade utskottet gjort följande uttalande angående
             organisationen av riksräkenskapsverkets ledning:
           </note>
+          <u who="unknown" xml:id="i-da700cdb3ad7bd78-5" n="4b205840">
+            <seg n="d6c56653">
+              »Vad då först angår de av 1926 års besparingssakkunniga och riksräkenskapsverket
+              gjorda allmänna uttalandena i fråga om verkets organisation, har
+              utskottet i likhet med departementschefen kommit till den uppfattningen,
+              att med hänsyn dels till de arbetsuppgifter, som påvila ämbetsverket,
+              och dels de efter verkets tillkomst redan vidtagna indragningarna
+              av personal någon mera omfattande minskning av personalen icke
+              kan ske utan äventyrande av verkets förmåga att på ett tillfredsställande
+              sätt fullgöra sina åligganden. Vidkommande särskilt spörsmålet
+              om organisationen av verkets ledning har utskottet, även om utskottet
+              icke kunnat känna sig fullt övertygat om, att vissa förändringar
+              1 fråga om personalen i ledande ställning, utöver de nu angående
+              vissa förste revisorer föreslagna, ej skulle kunna ske utan nämnda
+              risk, likväl, med hänsyn till att någon ytterligare besparing
+              nu icke synes kunna ernås, funnit sig för närvarande böra ansluta
+              sig till Kungl. Maj:ts förslag härutinnan. Utskottet förutsätter
+              emellertid, att vid inträffade ändrade förhållanden Kungl. Maj:t
+              har uppmärksamheten riktad på vad utskottet sålunda ansett sig
+              böra framhålla beträffande spörsmålet i fråga.»
+            </seg>
+          </u>
           <note n="ddeb1246">
             Enligt en vid utlåtandet avgiven reservation hade herr Walles
             ansett, att detta uttalande bort hava följande lydelse:
@@ -5735,7 +5815,7 @@
           <note n="0ae2603c">
             Anslag till riksräkenskapsverket. (Forts.)
           </note>
-          <note n="22d019e2">
+          <note type="date" n="2603fb4c">
             64 Lördagen den 7 maj f. m.
           </note>
           <note n="b58887bb">
@@ -5747,7 +5827,7 @@
           <note type="speaker" n="11605a95">
             Herr Walles:
           </note>
-          <u who="janne_walles_40e1e7" xml:id="i-dd48ebf9bb975277-0" next="i-1463fe8bd8e3c840-0" n="f8e6c752">
+          <u who="janne_walles_40e1e7" xml:id="i-befe95389cd57355-0" next="i-befe95389cd57355-1" n="f8e6c752">
             <seg n="777382b5">
               Herr talman! Jag skall endast be att med ett par ord få förklara
               den reservation jag avgivit till nu föredragna utlåtande. Skiljaktigheten
@@ -5808,7 +5888,7 @@
             konferens vid dess nionde sammanträde i Geneve år 1926.
           </note>
           <pb n="64" facs="https://betalab.kb.se/prot-1927--fk--28/prot_1927__fk__28-064.jp2/_view"/>
-          <note n="dab722cc">
+          <note type="date" n="9548a263">
             Lördagen den 7 maj f. m. 65
           </note>
           <note n="11d4353f">
@@ -5927,7 +6007,7 @@
           <note n="290abc01">
             Nr 28.
           </note>
-          <note n="547d2cef">
+          <note type="date" n="1a277b22">
             66 Lördagen den 7 maj f. m.
           </note>
           <note n="6ad332cc">
@@ -6033,7 +6113,7 @@
             utan
           </note>
           <pb n="66" facs="https://betalab.kb.se/prot-1927--fk--28/prot_1927__fk__28-066.jp2/_view"/>
-          <note n="ba492030">
+          <note type="date" n="b7a6496c">
             Lördagen den 7 maj f. m. 67
           </note>
           <note n="a25683dd">
@@ -6089,12 +6169,12 @@
           <note n="4f1cf6eb">
             Ang. stämpel-
           </note>
-          <u who="janne_walles_40e1e7" xml:id="i-1463fe8bd8e3c840-0" prev="i-dd48ebf9bb975277-0" n="f8e6c752">
+          <u who="janne_walles_40e1e7" xml:id="i-befe95389cd57355-1" prev="i-befe95389cd57355-0" n="f8e6c752">
             <seg n="33a888c3">
               avgiften för lottsedlar.
             </seg>
           </u>
-          <note n="5d9a4246">
+          <note type="date" n="dbe1cd77">
             68 Lördagen den 7 maj e. m.
           </note>
           <note type="date" n="cba686bc">
@@ -6168,13 +6248,13 @@
             penninglotteri.
           </note>
           <pb n="68" facs="https://betalab.kb.se/prot-1927--fk--28/prot_1927__fk__28-068.jp2/_view"/>
-          <note n="8fe79cef">
+          <note type="date" n="56f5d5d6">
             Lördagen den 7 maj e. m. 69 Nr 28,
           </note>
           <note type="speaker" n="f5861155">
             Herr Björnsson:
           </note>
-          <u who="edvard_bjornsson_4b3093" xml:id="i-4a0a670c828aff08-0" n="825387c4">
+          <u who="edvard_bjornsson_4b3093" xml:id="i-825387c40cd67901-0" n="825387c4">
             <seg n="e44506f9">
               Herr talman! Då årets budget skulle uppgöras, befanns Ang. stämpeldet,
               att man hade att räkna med en brist på 7 miljoner kronor, som
@@ -6236,7 +6316,7 @@
           <note type="speaker" n="5406a874">
             Herr Wohlin:
           </note>
-          <u who="nils_wohlin_7c0cfb" xml:id="i-70accaaba513f207-0" n="9f6b08d3">
+          <u who="nils_wohlin_7c0cfb" xml:id="i-9f6b08d30f42d7c8-0" n="9f6b08d3">
             <seg n="b4d3357f">
               Herr talman! Frågan om det svenska lotteriväsendet och dess eventuella
               förändring har vid upprepade tillfällen under de gångna åren varit
@@ -6259,7 +6339,7 @@
             </seg>
           </u>
           <pb n="69" facs="https://betalab.kb.se/prot-1927--fk--28/prot_1927__fk__28-069.jp2/_view"/>
-          <note n="262e5344">
+          <note type="date" n="87124dc4">
             Nr 28; 70 Lördagen den 7 maj e. m.
           </note>
           <note n="25725ece">
@@ -6273,7 +6353,7 @@
           <note type="speaker" n="f5861155">
             Herr Björnsson:
           </note>
-          <u who="edvard_bjornsson_4b3093" xml:id="i-4a0a670c828aff08-1" n="825387c4">
+          <u who="edvard_bjornsson_4b3093" xml:id="i-825387c40cd67901-1" n="825387c4">
             <seg n="c8678895">
               Om jag ej uppfattade den föregående ärade talaren fel, så tycktes
               han ha menat, att jag yrkade, att man här skulle göra något uttalande
@@ -6287,7 +6367,7 @@
           <note type="speaker" n="5406a874">
             Herr Wohlin:
           </note>
-          <u who="nils_wohlin_7c0cfb" xml:id="i-70accaaba513f207-1" n="9f6b08d3">
+          <u who="nils_wohlin_7c0cfb" xml:id="i-9f6b08d30f42d7c8-1" n="9f6b08d3">
             <seg n="0e1fac17">
               Man har på intet sätt föregripit riksdagens ståndpunktstagande
               till frågan om ett statslotteri genom att objektivt behandla detta
@@ -6346,7 +6426,7 @@
             stämpelavgift vid köp och byte av fondpapper, m. m.
           </note>
           <pb n="70" facs="https://betalab.kb.se/prot-1927--fk--28/prot_1927__fk__28-070.jp2/_view"/>
-          <note n="2d402e22">
+          <note type="date" n="6a19278b">
             Lördagen den 7 maj e. m. 71 Nr 28.
           </note>
           <note n="373c9a0e">
@@ -6367,7 +6447,7 @@
           <note type="speaker" n="5406a874">
             Herr Wohlin:
           </note>
-          <u who="nils_wohlin_7c0cfb" xml:id="i-a722e570f2b9ff10-0" next="i-028f0d2965661324-0" n="9f6b08d3">
+          <u who="nils_wohlin_7c0cfb" xml:id="i-9f6b08d30f42d7c8-2" next="i-9f6b08d30f42d7c8-3" n="9f6b08d3">
             <seg n="a8186387">
               Herr talman! Denna fråga om nedsättning av den nuvarande höga
               stämpeln vid köp och byte av fondpapper var redan vid föregående
@@ -6431,10 +6511,10 @@
           <note n="030c4626">
             (Forts.)
           </note>
-          <note n="2f2119cc">
+          <note type="date" n="7daea236">
             72 Lördagen den 7 maj e. m.
           </note>
-          <u who="nils_wohlin_7c0cfb" xml:id="i-028f0d2965661324-0" prev="i-a722e570f2b9ff10-0" n="9f6b08d3">
+          <u who="nils_wohlin_7c0cfb" xml:id="i-9f6b08d30f42d7c8-3" prev="i-9f6b08d30f42d7c8-2" n="9f6b08d3">
             <seg n="795ff744">
               skilda tidpunkterna. Slutligen får jag påpeka, att frågan om
               fondstämpeln ingalunda är utan betydelse även för jordbrukets
@@ -6481,7 +6561,7 @@
           <note type="speaker" n="f5861155">
             Herr Björnsson:
           </note>
-          <u who="edvard_bjornsson_4b3093" xml:id="i-0be19a41722ae1e9-0" next="i-7a613cf2262ff608-0" n="825387c4">
+          <u who="edvard_bjornsson_4b3093" xml:id="i-825387c40cd67901-2" next="i-825387c40cd67901-5" n="825387c4">
             <seg n="e602f522">
               Herr talman! Den lyriska stämning, i vilken den siste ärade talaren
               föll in, då han talade om fondbörsen ur jordbrukarnas synpunkt
@@ -6511,10 +6591,10 @@
             </seg>
           </u>
           <pb n="72" facs="https://betalab.kb.se/prot-1927--fk--28/prot_1927__fk__28-072.jp2/_view"/>
-          <note n="e7927994">
+          <note type="date" n="f980e4d7">
             Lördagen den 7 maj e. m. 73
           </note>
-          <u who="edvard_bjornsson_4b3093" xml:id="i-7a613cf2262ff608-0" prev="i-0be19a41722ae1e9-0" n="825387c4">
+          <u who="edvard_bjornsson_4b3093" xml:id="i-825387c40cd67901-3" prev="i-825387c40cd67901-2" n="825387c4">
             <seg n="59d9dcba">
               ning ha föreslagit, att denna nya förordning borde träda i kraft
               omedelbart. Herr Wohlin hade naturligtvis ej hesiterat för att
@@ -6588,6 +6668,27 @@
               kostnadsskillnad, som uppstår, om man jämför utskottets förslag
               med det av reservanterna förordade, utgör ju endast 0.3 2,
             </seg>
+          </u>
+          <note n="290abc01">
+            Nr 28.
+          </note>
+          <note n="8ec0861a">
+            Ang. fondstämpeln.
+          </note>
+          <note n="030c4626">
+            (Forts.)
+          </note>
+          <pb n="73" facs="https://betalab.kb.se/prot-1927--fk--28/prot_1927__fk__28-073.jp2/_view"/>
+          <note n="290abc01">
+            Nr 28.
+          </note>
+          <note n="7f5c5cc9">
+            Ang. fondstämpeln. (Forts.)
+          </note>
+          <note type="date" n="c4099a33">
+            74 Lördagen den 7 maj e. m.
+          </note>
+          <u who="edvard_bjornsson_4b3093" xml:id="i-825387c40cd67901-4" prev="i-825387c40cd67901-2" n="825387c4">
             <seg n="7c9f7bd4">
               d. v. s. 30 öre på 100 kronors värde, då det gäller aktier. Om
               en person verkligen vill placera pengar i aktier och ej åstadkommer
@@ -6659,6 +6760,12 @@
               belopp än som på något sätt kan influeras eller bestämmas av här
               ifrågavarande fondstämpel.
             </seg>
+          </u>
+          <pb n="74" facs="https://betalab.kb.se/prot-1927--fk--28/prot_1927__fk__28-074.jp2/_view"/>
+          <note type="date" n="c73a7f88">
+            Lördagen den 7 maj e. m. 75 Nr 28.
+          </note>
+          <u who="edvard_bjornsson_4b3093" xml:id="i-825387c40cd67901-5" prev="i-825387c40cd67901-2" n="825387c4">
             <seg n="43e2df5c">
               Herr talman! Med vad jag sist har anfört har jag inte velat säga,
               att denna Ang. fondstämpelavgift i och för sig bör hållas högre
@@ -6674,33 +6781,10 @@
               förslag.
             </seg>
           </u>
-          <note n="290abc01">
-            Nr 28.
-          </note>
-          <note n="8ec0861a">
-            Ang. fondstämpeln.
-          </note>
-          <note n="030c4626">
-            (Forts.)
-          </note>
-          <pb n="73" facs="https://betalab.kb.se/prot-1927--fk--28/prot_1927__fk__28-073.jp2/_view"/>
-          <note n="290abc01">
-            Nr 28.
-          </note>
-          <note n="7f5c5cc9">
-            Ang. fondstämpeln. (Forts.)
-          </note>
-          <note n="e501cbd7">
-            74 Lördagen den 7 maj e. m.
-          </note>
-          <pb n="74" facs="https://betalab.kb.se/prot-1927--fk--28/prot_1927__fk__28-074.jp2/_view"/>
-          <note n="d8074632">
-            Lördagen den 7 maj e. m. 75 Nr 28.
-          </note>
           <note type="speaker" n="d99c8da9">
             Herr statsrådet Lyberg:
           </note>
-          <u who="ernst_lyberg_5a7f1c" xml:id="i-5625c01a95eb95a3-0" next="i-3860bd10e207099b-0" n="9ff58239">
+          <u who="ernst_lyberg_5a7f1c" xml:id="i-9ff5823920bbe34d-0" next="i-9ff5823920bbe34d-1" n="9ff58239">
             <seg n="96c053b9">
               Jag har inte så mycket att tillägga till vad den förste ärade
               talaren anfört i debatten. Jag vill först säga, att om man med
@@ -6770,10 +6854,10 @@
           <note n="80ff89ea">
             Ang. fondstämpeln (Forts.)
           </note>
-          <note n="312a02e1">
+          <note type="date" n="266f84a7">
             76 Lördagen den 7 maj e. m.
           </note>
-          <u who="ernst_lyberg_5a7f1c" xml:id="i-3860bd10e207099b-0" prev="i-5625c01a95eb95a3-0" n="9ff58239">
+          <u who="ernst_lyberg_5a7f1c" xml:id="i-9ff5823920bbe34d-1" prev="i-9ff5823920bbe34d-0" n="9ff58239">
             <seg n="e789a648">
               siffror ange, ju inte utgör så synnerligen kraftigt bevis för
               stegrat intresse för sådana affärer, då stegringen väsentligen
@@ -6804,7 +6888,7 @@
           <note type="speaker" n="5406a874">
             Herr Wohlin:
           </note>
-          <u who="nils_wohlin_7c0cfb" xml:id="i-a722e570f2b9ff10-1" next="i-028f0d2965661324-1" n="9f6b08d3">
+          <u who="nils_wohlin_7c0cfb" xml:id="i-9f6b08d30f42d7c8-4" next="i-9f6b08d30f42d7c8-5" n="9f6b08d3">
             <seg n="6f21d625">
               Herr talman! Endast några ord.
             </seg>
@@ -6859,10 +6943,10 @@
             </seg>
           </u>
           <pb n="76" facs="https://betalab.kb.se/prot-1927--fk--28/prot_1927__fk__28-076.jp2/_view"/>
-          <note n="4c4eaa2f">
+          <note type="date" n="9de34f68">
             Lördagen den 7 maj e. m. 77 Nr 28.
           </note>
-          <u who="nils_wohlin_7c0cfb" xml:id="i-028f0d2965661324-1" prev="i-a722e570f2b9ff10-1" n="9f6b08d3">
+          <u who="nils_wohlin_7c0cfb" xml:id="i-9f6b08d30f42d7c8-5" prev="i-9f6b08d30f42d7c8-4" n="9f6b08d3">
             <seg n="af32a96b">
               av de vanliga affärsbankerna, har särskild anledning att ställa
               mig på den kungl. propositionens ståndpunkt. Kristiden medförde
@@ -6883,7 +6967,7 @@
           <note type="speaker" n="0fab7ff5">
             Herr Vennersten:
           </note>
-          <u who="unknown" xml:id="i-b7c04f1b3d35f080-1" n="4b205840">
+          <u who="unknown" xml:id="i-4b2058409145dca4-1" n="4b205840">
             <seg n="4267ccce">
               Herr talman! De skäl, som kunna anföras för Kungl. Maj:ts och
               reservanternas förslag, ha ju så utförligt blivit här utvecklade,
@@ -6924,7 +7008,7 @@
           <note type="speaker" n="f5861155">
             Herr Björnsson:
           </note>
-          <u who="edvard_bjornsson_4b3093" xml:id="i-0be19a41722ae1e9-1" next="i-7a613cf2262ff608-1" n="825387c4">
+          <u who="edvard_bjornsson_4b3093" xml:id="i-825387c40cd67901-6" next="i-825387c40cd67901-7" n="825387c4">
             <seg n="83dfbfe4">
               Herr talman! Jag konstaterar med tillfredsställelse, att den
               ton, herr Wohlin anslog i sitt sista anförande, var betydligt
@@ -6954,10 +7038,10 @@
           <note n="7f5c5cc9">
             Ang. fondstämpeln. (Forts.)
           </note>
-          <note n="29e23a26">
+          <note type="date" n="6fd1a802">
             78 Lördagen den 7 maj e. m.
           </note>
-          <u who="edvard_bjornsson_4b3093" xml:id="i-7a613cf2262ff608-1" prev="i-0be19a41722ae1e9-1" n="825387c4">
+          <u who="edvard_bjornsson_4b3093" xml:id="i-825387c40cd67901-7" prev="i-825387c40cd67901-6" n="825387c4">
             <seg n="4f6f846e">
               sig i deras ägo, vilka gjort kristidsförluster på dem, utan hade
               gått i handel som hypotek, då betyder det ju ingenting annat än
@@ -7030,13 +7114,13 @@
             </seg>
           </u>
           <pb n="78" facs="https://betalab.kb.se/prot-1927--fk--28/prot_1927__fk__28-078.jp2/_view"/>
-          <note n="b47c0a3c">
+          <note type="date" n="d9a0bf29">
             Lördagen den 7 maj e. m. 79
           </note>
           <note type="speaker" n="e5f2d512">
             Herr Nilsson, Johan, i Kristianstad:
           </note>
-          <u who="per_nilsson_4adcd2" xml:id="i-74a58ad02818dc65-2" next="i-fdcdd502585c8d44-2" n="95dfdffc">
+          <u who="per_nilsson_4adcd2" xml:id="i-1e99bb73255fc66a-6" next="i-1e99bb73255fc66a-8" n="95dfdffc">
             <seg n="16c65eba">
               Herr talman! Herr Björnsson sade
             </seg>
@@ -7115,20 +7199,17 @@
           <note n="e3ddfff7">
             Ang
           </note>
-          <u who="per_nilsson_4adcd2" xml:id="i-fdcdd502585c8d44-2" prev="i-74a58ad02818dc65-2" n="95dfdffc">
+          <u who="per_nilsson_4adcd2" xml:id="i-1e99bb73255fc66a-7" prev="i-1e99bb73255fc66a-6" n="95dfdffc">
             <seg n="8c001a4d">
               i sitt första yttrande, att han förvånat sig över att man icke
               redan förra året fordstämpeln.
-            </seg>
-            <seg n="f370b22a">
-              för nej-propositionen.
             </seg>
           </u>
           <note n="030c4626">
             (Forts.)
           </note>
           <pb n="79" facs="https://betalab.kb.se/prot-1927--fk--28/prot_1927__fk__28-079.jp2/_view"/>
-          <note n="c9fc2287">
+          <note type="date" n="d3c72035">
             Nr 28. 380 Lördagen den 7 maj e. m.
           </note>
           <note n="093c04cd">
@@ -7141,6 +7222,11 @@
             Herr andre vice talmannen förklarade därpå, att enligt hans uppfattning
             flertalet röstat
           </note>
+          <u who="per_nilsson_4adcd2" xml:id="i-1e99bb73255fc66a-8" prev="i-1e99bb73255fc66a-6" n="95dfdffc">
+            <seg n="f370b22a">
+              för nej-propositionen.
+            </seg>
+          </u>
           <note n="2731a640">
             Då emellertid herr Björnsson begärde rösträkning, verkställdes
             nu votering medelst namnupprop; och befunnos vid ömröstningens
@@ -7198,7 +7284,7 @@
           <note type="speaker" n="e5f2d512">
             Herr Nilsson, Johan, i Kristianstad:
           </note>
-          <u who="per_nilsson_4adcd2" xml:id="i-74a58ad02818dc65-3" next="i-fdcdd502585c8d44-3" n="95dfdffc">
+          <u who="per_nilsson_4adcd2" xml:id="i-1e99bb73255fc66a-9" next="i-1e99bb73255fc66a-10" n="95dfdffc">
             <seg n="678a5223">
               Herr talman! Det nu föreliggande betänkandet har ju föranletts
               av motioner, som väl få anses hava en tullpolitisk innebörd och
@@ -7215,10 +7301,10 @@
             </seg>
           </u>
           <pb n="80" facs="https://betalab.kb.se/prot-1927--fk--28/prot_1927__fk__28-080.jp2/_view"/>
-          <note n="0f35a637">
+          <note type="date" n="ac0e2b29">
             Lördagen den 7 maj e. m. 81
           </note>
-          <u who="per_nilsson_4adcd2" xml:id="i-fdcdd502585c8d44-3" prev="i-74a58ad02818dc65-3" n="95dfdffc">
+          <u who="per_nilsson_4adcd2" xml:id="i-1e99bb73255fc66a-10" prev="i-1e99bb73255fc66a-9" n="95dfdffc">
             <seg n="19f61250">
               uttryck, att på den nuvarande avvägningen är det jordbruket och
               dess binäringar, som kommit till korta. Motionärerna äro så pass
@@ -7287,7 +7373,7 @@
           <note type="speaker" n="a43ce42a">
             Herr Åkerberg:
           </note>
-          <u who="harald_akerberg_b4a32c" xml:id="i-1001af83f3f5e129-0" next="i-08a79f3f0858f116-0" n="3aa52bdc">
+          <u who="harald_akerberg_b4a32c" xml:id="i-3aa52bdc7bf95aa8-0" next="i-3aa52bdc7bf95aa8-5" n="3aa52bdc">
             <seg n="2fd620ed">
               Herr talman! Jag har begärt ordet för att uttala min förvåning
               över att inte vid sidan av de tre linjer, som kommit till uttryck
@@ -7309,14 +7395,19 @@
           <note n="521aac96">
             Nr 28,
           </note>
-          <note n="53502ece">
+          <note type="date" n="de637d41">
             82 Lördagen den 7 maj e. m.
           </note>
-          <u who="harald_akerberg_b4a32c" xml:id="i-08a79f3f0858f116-0" prev="i-1001af83f3f5e129-0" n="3aa52bdc">
+          <u who="harald_akerberg_b4a32c" xml:id="i-3aa52bdc7bf95aa8-1" prev="i-3aa52bdc7bf95aa8-0" n="3aa52bdc">
             <seg n="be4aa312">
               Ång. revision kommit att tänka på den möjligheten inom utskottet.
               Jag ställer mig betänk-
             </seg>
+          </u>
+          <note n="32003da9">
+            av tulltaxan. (Forts.)
+          </note>
+          <u who="harald_akerberg_b4a32c" xml:id="i-3aa52bdc7bf95aa8-2" prev="i-3aa52bdc7bf95aa8-0" n="3aa52bdc">
             <seg n="472fd7b0">
               sam gentemot hela denna utredning, givetvis icke därför, att
               jag saknar sinne för värdet av en undersökning rörande vårt tullsystem,
@@ -7391,6 +7482,12 @@
               både för riksdagsmän och för andra. Jag vet icke, om den nya kommittén
               skall kosta lika mycket, men nog blir det, tänker jag,
             </seg>
+          </u>
+          <pb n="82" facs="https://betalab.kb.se/prot-1927--fk--28/prot_1927__fk__28-082.jp2/_view"/>
+          <note type="date" n="c597831c">
+            Lördagen den 7 maj e. m. 83
+          </note>
+          <u who="harald_akerberg_b4a32c" xml:id="i-3aa52bdc7bf95aa8-3" prev="i-3aa52bdc7bf95aa8-0" n="3aa52bdc">
             <seg n="2252b815">
               åtskilliga vackra slantar. Även den kommer att frambringa många
               goda vo- Iymer, men jag tänker mig, att man kan åstadkomma billigare
@@ -7465,11 +7562,31 @@
               För övrigt är det väl dock så, att en sådan utredning, som pågår
               under
             </seg>
+          </u>
+          <note n="290abc01">
+            Nr 28.
+          </note>
+          <note n="85f66d46">
+            Ang. revision av tulltaxan. (Forts.)
+          </note>
+          <pb n="83" facs="https://betalab.kb.se/prot-1927--fk--28/prot_1927__fk__28-083.jp2/_view"/>
+          <note n="290abc01">
+            Nr 28.
+          </note>
+          <note type="date" n="01207cbc">
+            84 Lördagen den 7 maj e. m. i
+          </note>
+          <u who="harald_akerberg_b4a32c" xml:id="i-3aa52bdc7bf95aa8-4" prev="i-3aa52bdc7bf95aa8-0" n="3aa52bdc">
             <seg n="792e634b">
               Ang. revision många år, är ägnad att vålla oro och osäkerhet
               inom näringslivet och förlama av tulltaxan. den företagsamhet,
               som är alltför nödvändig under dessa tider.
             </seg>
+          </u>
+          <note n="030c4626">
+            (Forts.)
+          </note>
+          <u who="harald_akerberg_b4a32c" xml:id="i-3aa52bdc7bf95aa8-5" prev="i-3aa52bdc7bf95aa8-0" n="3aa52bdc">
             <seg n="8ab05998">
               Den tullpolitik, som vi ha fört allt sedan kriget tog slut, har
               ju byggt på att status quo i stort sett skall upprätthållas, så
@@ -7488,36 +7605,13 @@
               jag att få yrka avslag på utskottets förslag.
             </seg>
           </u>
-          <note n="32003da9">
-            av tulltaxan. (Forts.)
-          </note>
-          <pb n="82" facs="https://betalab.kb.se/prot-1927--fk--28/prot_1927__fk__28-082.jp2/_view"/>
-          <note n="1482e181">
-            Lördagen den 7 maj e. m. 83
-          </note>
-          <note n="290abc01">
-            Nr 28.
-          </note>
-          <note n="85f66d46">
-            Ang. revision av tulltaxan. (Forts.)
-          </note>
-          <pb n="83" facs="https://betalab.kb.se/prot-1927--fk--28/prot_1927__fk__28-083.jp2/_view"/>
-          <note n="290abc01">
-            Nr 28.
-          </note>
-          <note n="2931baed">
-            84 Lördagen den 7 maj e. m. i
-          </note>
-          <note n="030c4626">
-            (Forts.)
-          </note>
           <note n="cdd8c32a">
             I herr Åkerbergs yttrande instämde herr Carlsson, Carl.
           </note>
           <note type="speaker" n="2b6c3d56">
             Herr Wigforss:
           </note>
-          <u who="ernst_wigforss_3d0794" xml:id="i-c40e6c82c4ddb061-0" next="i-56da902fbe8a3bfe-0" n="d5b62a87">
+          <u who="ernst_wigforss_3d0794" xml:id="i-d5b62a871f6a683f-0" next="i-d5b62a871f6a683f-2" n="d5b62a87">
             <seg n="8f29cadc">
               Jag hade icke väntat, att det skulle komma en så kraftig salva
               mot ett enhälligt utskottsbetänkande. Jag erkänner dock ganska
@@ -7566,10 +7660,10 @@
             </seg>
           </u>
           <pb n="84" facs="https://betalab.kb.se/prot-1927--fk--28/prot_1927__fk__28-084.jp2/_view"/>
-          <note n="5b4e78e8">
+          <note type="date" n="ebf3fecf">
             Lördagen den 7 maj e. m. 85
           </note>
-          <u who="ernst_wigforss_3d0794" xml:id="i-56da902fbe8a3bfe-0" prev="i-c40e6c82c4ddb061-0" n="d5b62a87">
+          <u who="ernst_wigforss_3d0794" xml:id="i-d5b62a871f6a683f-1" prev="i-d5b62a871f6a683f-0" n="d5b62a87">
             <seg n="5736c0ce">
               utlåtandet, när han talar om att det ser ut, som om det vore
               två själar i samma bröst. Det är alldeles riktigt, att slutorden
@@ -7639,6 +7733,34 @@
               Jag tror, att ett sådant tillstånd är för oss alla i längden ohållbart
               och att det därför föreligger praktiska skäl att
             </seg>
+          </u>
+          <note n="521aac96">
+            Nr 28,
+          </note>
+          <note n="85f66d46">
+            Ang. revision av tulltaxan. (Forts.)
+          </note>
+          <pb n="85" facs="https://betalab.kb.se/prot-1927--fk--28/prot_1927__fk__28-085.jp2/_view"/>
+          <note n="521aac96">
+            Nr 28,
+          </note>
+          <note type="date" n="0428cc87">
+            86 Lördagen den 7 maj e. m.
+          </note>
+          <note n="788b03a3">
+            Ang. revision fortsätta den utredning, som tulloch traktatkommittén
+            avslutade med år
+          </note>
+          <note n="f57d6ce5">
+            av tulliaxa
+          </note>
+          <note n="030c4626">
+            (Forts.)
+          </note>
+          <note n="2ac2edd5">
+            ”?: 1913, fram till innevarande stund.
+          </note>
+          <u who="ernst_wigforss_3d0794" xml:id="i-d5b62a871f6a683f-2" prev="i-d5b62a871f6a683f-0" n="d5b62a87">
             <seg n="20040560">
               Då kommer till sist herr Åkerberg med sitt stora argument om
               de väldiga kostnaderna, och det är mycket lätt att skrämma med
@@ -7691,36 +7813,10 @@
               hemställan.
             </seg>
           </u>
-          <note n="521aac96">
-            Nr 28,
-          </note>
-          <note n="85f66d46">
-            Ang. revision av tulltaxan. (Forts.)
-          </note>
-          <pb n="85" facs="https://betalab.kb.se/prot-1927--fk--28/prot_1927__fk__28-085.jp2/_view"/>
-          <note n="521aac96">
-            Nr 28,
-          </note>
-          <note n="9a6fde23">
-            86 Lördagen den 7 maj e. m.
-          </note>
-          <note n="788b03a3">
-            Ang. revision fortsätta den utredning, som tulloch traktatkommittén
-            avslutade med år
-          </note>
-          <note n="f57d6ce5">
-            av tulliaxa
-          </note>
-          <note n="030c4626">
-            (Forts.)
-          </note>
-          <note n="2ac2edd5">
-            ”?: 1913, fram till innevarande stund.
-          </note>
           <note type="speaker" n="5406a874">
             Herr Wohlin:
           </note>
-          <u who="nils_wohlin_7c0cfb" xml:id="i-a722e570f2b9ff10-2" next="i-028f0d2965661324-2" n="9f6b08d3">
+          <u who="nils_wohlin_7c0cfb" xml:id="i-9f6b08d30f42d7c8-6" next="i-9f6b08d30f42d7c8-12" n="9f6b08d3">
             <seg n="18d9176b">
               Herr talman! Det märkliga har inträffat, att bevillningsutskottet
               enhälligt beslutat hemställa om en skrivelse till Kungl. Maj:t
@@ -7739,10 +7835,10 @@
             </seg>
           </u>
           <pb n="86" facs="https://betalab.kb.se/prot-1927--fk--28/prot_1927__fk__28-086.jp2/_view"/>
-          <note n="dd9df1d9">
+          <note type="date" n="98fe1558">
             Lördagen den 7 maj e. m. 87 Nr 28.
           </note>
-          <u who="nils_wohlin_7c0cfb" xml:id="i-028f0d2965661324-2" prev="i-a722e570f2b9ff10-2" n="9f6b08d3">
+          <u who="nils_wohlin_7c0cfb" xml:id="i-9f6b08d30f42d7c8-7" prev="i-9f6b08d30f42d7c8-6" n="9f6b08d3">
             <seg n="6699cce9">
               genom kungl. propositioner men till större delen genom enskilda
               motioner, och Ang. revision det har varit synnerligen svårt för
@@ -7793,10 +7889,22 @@
               tionen, och först sedermera, när detta material föreligger, skulle
               tullspörsmå-
             </seg>
+          </u>
+          <note n="2c2a0834">
+            len giva anledning till granskning och bedömande från olika politiska
+            perso-
+          </note>
+          <u who="nils_wohlin_7c0cfb" xml:id="i-9f6b08d30f42d7c8-8" prev="i-9f6b08d30f42d7c8-6" n="9f6b08d3">
             <seg n="323a0b9e">
               ners sida. Jag tror sålunda, att herr Åkerberg icke fullt förstått
               de motiv,
             </seg>
+          </u>
+          <note n="dfb2d05b">
+            som för bevillningsutskottet varit bestämmande vid dess framställning,
+            och
+          </note>
+          <u who="nils_wohlin_7c0cfb" xml:id="i-9f6b08d30f42d7c8-9" prev="i-9f6b08d30f42d7c8-6" n="9f6b08d3">
             <seg n="b493cf98">
               jag får ytterligare säga, att herr Åkerbergs mening, att det
               arbete, som här föreslås, skulle sakna praktiskt värde, nog är
@@ -7843,11 +7951,25 @@
               Det är bättre, att de tullfrågor, som bli aktuella, behandlas
               praktiskt från fall till fall och att man vid sär-
             </seg>
+          </u>
+          <pb n="87" facs="https://betalab.kb.se/prot-1927--fk--28/prot_1927__fk__28-087.jp2/_view"/>
+          <note n="290abc01">
+            Nr 28.
+          </note>
+          <note type="date" n="d7b82464">
+            88 Lördagen den 7 maj e. m.
+          </note>
+          <u who="nils_wohlin_7c0cfb" xml:id="i-9f6b08d30f42d7c8-10" prev="i-9f6b08d30f42d7c8-6" n="9f6b08d3">
             <seg n="d280955c">
               Ang. revision skilda tillfällen kan nå en viss samverkan för
               en lösning, som man nu genom av tulltazan. motsättningen mellan
               de doktrinära åskådningarna har svårt att uppnå. Detta,
             </seg>
+          </u>
+          <note n="030c4626">
+            (Forts.)
+          </note>
+          <u who="nils_wohlin_7c0cfb" xml:id="i-9f6b08d30f42d7c8-11" prev="i-9f6b08d30f42d7c8-6" n="9f6b08d3">
             <seg n="0f430c45">
               att man rubbar på de gamla doktrinerna och söker i varje fall
               få en bestämd uppfattning av en viss industris eller en viss närings
@@ -7912,6 +8034,12 @@
               på den tyska marknaden vara så stora, att Sverige ingick i traktatförhandlingar
               med Tyskland. Men alla känna också, att vi för att
             </seg>
+          </u>
+          <pb n="88" facs="https://betalab.kb.se/prot-1927--fk--28/prot_1927__fk__28-088.jp2/_view"/>
+          <note type="date" n="642bd71d">
+            Lördagen den 7 maj e. m. 89
+          </note>
+          <u who="nils_wohlin_7c0cfb" xml:id="i-9f6b08d30f42d7c8-12" prev="i-9f6b08d30f42d7c8-6" n="9f6b08d3">
             <seg n="d9f2bcf0">
               kunna föra dessa traktatförhandlingar till ett för oss någorlunda
               lyckligt slut måste i väsentlig grad omlägga vår dittillsvarande
@@ -7971,32 +8099,10 @@
               mig och herr Olsson i Golvvasta.
             </seg>
           </u>
-          <note n="2c2a0834">
-            len giva anledning till granskning och bedömande från olika politiska
-            perso-
-          </note>
-          <note n="dfb2d05b">
-            som för bevillningsutskottet varit bestämmande vid dess framställning,
-            och
-          </note>
-          <pb n="87" facs="https://betalab.kb.se/prot-1927--fk--28/prot_1927__fk__28-087.jp2/_view"/>
-          <note n="290abc01">
-            Nr 28.
-          </note>
-          <note n="e1dff552">
-            88 Lördagen den 7 maj e. m.
-          </note>
-          <note n="030c4626">
-            (Forts.)
-          </note>
-          <pb n="88" facs="https://betalab.kb.se/prot-1927--fk--28/prot_1927__fk__28-088.jp2/_view"/>
-          <note n="9edcca78">
-            Lördagen den 7 maj e. m. 89
-          </note>
           <note type="speaker" n="a43ce42a">
             Herr Åkerberg:
           </note>
-          <u who="harald_akerberg_b4a32c" xml:id="i-1001af83f3f5e129-1" next="i-08a79f3f0858f116-1" n="3aa52bdc">
+          <u who="harald_akerberg_b4a32c" xml:id="i-3aa52bdc7bf95aa8-6" next="i-3aa52bdc7bf95aa8-9" n="3aa52bdc">
             <seg n="0730c048">
               Herr talman! Jag ber att få säga ett par ord till herr Wigforss.
             </seg>
@@ -8017,14 +8123,22 @@
           <note n="290abc01">
             Nr 28.
           </note>
-          <note n="35c12456">
+          <note type="date" n="831fa378">
             90 Lördagen den 7 maj e. m. I
           </note>
-          <u who="harald_akerberg_b4a32c" xml:id="i-08a79f3f0858f116-1" prev="i-1001af83f3f5e129-1" n="3aa52bdc">
+          <u who="harald_akerberg_b4a32c" xml:id="i-3aa52bdc7bf95aa8-7" prev="i-3aa52bdc7bf95aa8-6" n="3aa52bdc">
             <seg n="88ed1d3f">
               Ang. revision den andra sidan sagt det, att den ifrågasatta utredningen
               skulle komma att
             </seg>
+          </u>
+          <note n="88c09676">
+            av tulltaxan.
+          </note>
+          <note n="030c4626">
+            (Forts.)
+          </note>
+          <u who="harald_akerberg_b4a32c" xml:id="i-3aa52bdc7bf95aa8-8" prev="i-3aa52bdc7bf95aa8-6" n="3aa52bdc">
             <seg n="41a3e76b">
               vålla oro ute i landet.
             </seg>
@@ -8097,6 +8211,12 @@
               och deras verkningar utan alla omständigheter, som medverka till
               järnhanteringens tryckta läge för närvarande.
             </seg>
+          </u>
+          <pb n="90" facs="https://betalab.kb.se/prot-1927--fk--28/prot_1927__fk__28-090.jp2/_view"/>
+          <note type="date" n="1641a0b3">
+            Lördagen den 7 maj e. m. 91
+          </note>
+          <u who="harald_akerberg_b4a32c" xml:id="i-3aa52bdc7bf95aa8-9" prev="i-3aa52bdc7bf95aa8-6" n="3aa52bdc">
             <seg n="c36b04ba">
               Då jag, herr talman, av de argument, som framförts av de båda
               senaste talarna, icke blivit övertygad om, att den ifrågasatta
@@ -8105,20 +8225,10 @@
               utskottets hemställan.
             </seg>
           </u>
-          <note n="88c09676">
-            av tulltaxan.
-          </note>
-          <note n="030c4626">
-            (Forts.)
-          </note>
-          <pb n="90" facs="https://betalab.kb.se/prot-1927--fk--28/prot_1927__fk__28-090.jp2/_view"/>
-          <note n="223558b9">
-            Lördagen den 7 maj e. m. 91
-          </note>
           <note type="speaker" n="f5861155">
             Herr Björnsson:
           </note>
-          <u who="edvard_bjornsson_4b3093" xml:id="i-0be19a41722ae1e9-2" next="i-7a613cf2262ff608-2" n="825387c4">
+          <u who="edvard_bjornsson_4b3093" xml:id="i-825387c40cd67901-8" next="i-825387c40cd67901-10" n="825387c4">
             <seg n="bd64778b">
               Herr talman! Jag kan icke neka till, att jag, då jag inom bevillningsutskottet
               hade att taga ställning till denna fråga, 1 början var, i någon
@@ -8202,15 +8312,20 @@
           <note n="290abc01">
             Nr 28.
           </note>
-          <note n="ea480f3b">
+          <note type="date" n="1c2f61f3">
             92 Lördagen den 7 maj e. m. j
           </note>
-          <u who="edvard_bjornsson_4b3093" xml:id="i-7a613cf2262ff608-2" prev="i-0be19a41722ae1e9-2" n="825387c4">
+          <u who="edvard_bjornsson_4b3093" xml:id="i-825387c40cd67901-9" prev="i-825387c40cd67901-8" n="825387c4">
             <seg n="b78573a1">
               Ang. revision frågan, eller andra ekonomiska problem finns det
               goda grunder att med bortav tulltazan. seende från sådana kostnadssynpunkter,
               som herr Åkerberg särskilt fram-
             </seg>
+          </u>
+          <note n="030c4626">
+            (Forts.)
+          </note>
+          <u who="edvard_bjornsson_4b3093" xml:id="i-825387c40cd67901-10" prev="i-825387c40cd67901-8" n="825387c4">
             <seg n="c4085c9e">
               hållit, verkligen gå till en undersökning, huruvida det icke
               skulle vara möjligt att komma till en litet annorlunda beskaffad
@@ -8222,13 +8337,10 @@
               av herr Wigforss.
             </seg>
           </u>
-          <note n="030c4626">
-            (Forts.)
-          </note>
           <note type="speaker" n="2b6c3d56">
             Herr Wigforss:
           </note>
-          <u who="ernst_wigforss_3d0794" xml:id="i-e232f6f2239067bb-0" n="d5b62a87">
+          <u who="ernst_wigforss_3d0794" xml:id="i-d5b62a871f6a683f-3" n="d5b62a87">
             <seg n="36e49ecd">
               Bara ett par korta repliker till herr Åkerberg. Den första gäller
               den oro, som en sådan här utredning kunde förorsaka. Jag skulle
@@ -8289,7 +8401,7 @@
           <note type="speaker" n="bfda32b2">
             Herr Möller:
           </note>
-          <u who="frits_gustav_moller_787aa1" xml:id="i-988c2c2ed4bebf9b-1" next="i-5cbc35c3ae9facb3-1" n="ce9aa731">
+          <u who="frits_gustav_moller_787aa1" xml:id="i-a918cdf6397db0b4-2" next="i-a918cdf6397db0b4-6" n="ce9aa731">
             <seg n="c8296d32">
               Jag tillåter mig yttra några ord i denna sak, därför att det
               förefaller mig, som om det, då man skall ta ställning till frågan
@@ -8298,10 +8410,10 @@
             </seg>
           </u>
           <pb n="92" facs="https://betalab.kb.se/prot-1927--fk--28/prot_1927__fk__28-092.jp2/_view"/>
-          <note n="93639a99">
+          <note type="date" n="11a8a1b6">
             Lördagen den 7 maj e. m. 93
           </note>
-          <u who="frits_gustav_moller_787aa1" xml:id="i-5cbc35c3ae9facb3-1" prev="i-988c2c2ed4bebf9b-1" n="ce9aa731">
+          <u who="frits_gustav_moller_787aa1" xml:id="i-a918cdf6397db0b4-3" prev="i-a918cdf6397db0b4-2" n="ce9aa731">
             <seg n="e40e6301">
               räkna med vid tidigare tillfällen, då vi behandlat saker av denna
               beskaffenhet. Vi ha i riksdagen under de senare åren efter kriget
@@ -8370,22 +8482,6 @@
               så är det åtminstone min mening, att man från vårt principiellt
               frihandelsvänliga håll inte bör motsätta sig utredningen.
             </seg>
-            <seg n="abb5dc40">
-              Herr Wohlin kom till att yrka bifall till sin reservation närmast
-              på uteslutningens väg. Det var genom kritik, dels mot utskottets
-              förslag och dels mot högerreservationen, men ganska litet till
-              positiv förmån för de egna uttalandena. Att jag nu inte bryr mig
-              om något särskilt vägande av de tre olika motiveringar, som här
-              föreligga, torde kanske ursäktas mig, då det ju redan talats ganska
-              mycket i denna sak.
-            </seg>
-            <seg n="0d891261">
-              a;
-            </seg>
-            <seg n="8e6582e0">
-              NR i anledning av väckt motion angående lättnad i villkoren för
-              eldbegängelse. villkoren för eldbegängelse.
-            </seg>
           </u>
           <note n="93bd78ac">
             Nr. 28;
@@ -8400,9 +8496,20 @@
           <note n="85f66d46">
             Ang. revision av tulltaxan. (Forts.)
           </note>
-          <note n="4c7ee18e">
+          <note type="date" n="cf58a028">
             94 Lördagen den 7 maj e. m. i
           </note>
+          <u who="frits_gustav_moller_787aa1" xml:id="i-a918cdf6397db0b4-4" prev="i-a918cdf6397db0b4-2" n="ce9aa731">
+            <seg n="abb5dc40">
+              Herr Wohlin kom till att yrka bifall till sin reservation närmast
+              på uteslutningens väg. Det var genom kritik, dels mot utskottets
+              förslag och dels mot högerreservationen, men ganska litet till
+              positiv förmån för de egna uttalandena. Att jag nu inte bryr mig
+              om något särskilt vägande av de tre olika motiveringar, som här
+              föreligga, torde kanske ursäktas mig, då det ju redan talats ganska
+              mycket i denna sak.
+            </seg>
+          </u>
           <note n="c8e12112">
             Jag tillåter mig hemställa om bifall till utskottets förslag.
           </note>
@@ -8468,7 +8575,7 @@
             lydelse:
           </note>
           <pb n="94" facs="https://betalab.kb.se/prot-1927--fk--28/prot_1927__fk__28-094.jp2/_view"/>
-          <note n="a1e35af4">
+          <note type="date" n="94565f6f">
             Lördagen den 7 maj e. m. 95 Nr 28.
           </note>
           <note n="aeaeaab1">
@@ -8478,6 +8585,11 @@
             Nilsson i Kristianstad m. fl. vid betänkan- = (Fort) det avgivna
             reservationen, röstar J
           </note>
+          <u who="frits_gustav_moller_787aa1" xml:id="i-a918cdf6397db0b4-5" prev="i-a918cdf6397db0b4-2" n="ce9aa731">
+            <seg n="0d891261">
+              a;
+            </seg>
+          </u>
           <note n="f5fe8f7b">
             Den, det ej vill, röstar | Nej; Vinner Nej, har till kontraproposition
             i nämnda votering antagits godkännan-
@@ -8531,6 +8643,12 @@
             Föredrogs ånyo första kammarens första tillfälliga utskotts utlåtande
             nr 4, 4
           </note>
+          <u who="frits_gustav_moller_787aa1" xml:id="i-a918cdf6397db0b4-6" prev="i-a918cdf6397db0b4-2" n="ce9aa731">
+            <seg n="8e6582e0">
+              NR i anledning av väckt motion angående lättnad i villkoren för
+              eldbegängelse. villkoren för eldbegängelse.
+            </seg>
+          </u>
           <note n="8d46ae40">
             Med föranledande av en inom första kammaren väckt och till dess
             första tillfälliga utskott för behandling hänvisad motion, nr
@@ -8551,7 +8669,7 @@
           <note n="8f44a95a">
             Ang. villkoren för eldbegängelse. (Forts.)
           </note>
-          <note n="ea66a993">
+          <note type="date" n="905add51">
             96 Lördagen den 7 maj e. m.
           </note>
           <note n="330b36ef">
@@ -8561,7 +8679,7 @@
           <note type="speaker" n="41c964fd">
             Herr Svensson, Martin:
           </note>
-          <u who="johan_gustaf_svensson_0f6962" xml:id="i-e7c454744845b056-0" next="i-d8ed741c0eaf3402-0" n="71602ac1">
+          <u who="johan_gustaf_svensson_0f6962" xml:id="i-63aee78b7a9b5278-0" next="i-63aee78b7a9b5278-3" n="71602ac1">
             <seg n="94c0be0c">
               Herr talman! Vid utskottets utlåtande har jag jämte två andra
               ledamöter tecknat en reservation, och jag ber därför få motivera
@@ -8578,7 +8696,7 @@
             som en förklaring, att han uttalat önskan om att eldbegängelse
             skulle äga rum.
           </note>
-          <u who="johan_gustaf_svensson_0f6962" xml:id="i-d8ed741c0eaf3402-0" prev="i-e7c454744845b056-0" n="71602ac1">
+          <u who="johan_gustaf_svensson_0f6962" xml:id="i-63aee78b7a9b5278-1" prev="i-63aee78b7a9b5278-0" n="71602ac1">
             <seg n="b759f4ae">
               Motionärerna och utskottet föreslå nu, att riksdagen skall begära
               en ytterligare förmån för anhängarna av denna begravningsform,
@@ -8637,6 +8755,12 @@
               jordfästning och för eldbegängelse. Lagen om s. k. borgerlig begravning
               utgår från att de
             </seg>
+          </u>
+          <pb n="96" facs="https://betalab.kb.se/prot-1927--fk--28/prot_1927__fk__28-096.jp2/_view"/>
+          <note type="date" n="9eb48164">
+            Lördagen den 7 maj e. m. 97
+          </note>
+          <u who="johan_gustaf_svensson_0f6962" xml:id="i-63aee78b7a9b5278-2" prev="i-63aee78b7a9b5278-0" n="71602ac1">
             <seg n="b605a22c">
               efterlevande känna den avlidnes önskan och hava pietet för densamma.
               Det är långt osäkrare att kunna veta den avlidnes i livstiden
@@ -8705,16 +8829,7 @@
               känner, nödgades avgiva för sin del protest, som komme till deras
               kännedom, som annars äga begära eldbegiängelse.
             </seg>
-            <seg n="cb16256c">
-              Då utskottets hemställan enligt min uppfattning ej överensstämmer
-              med folkflertalets mening och icke är ägnad att öka medborgarlyckan,
-              anhåller jag få yrka avslag å densamma.
-            </seg>
           </u>
-          <pb n="96" facs="https://betalab.kb.se/prot-1927--fk--28/prot_1927__fk__28-096.jp2/_view"/>
-          <note n="64cc80f0">
-            Lördagen den 7 maj e. m. 97
-          </note>
           <note n="5dc6ef96">
             Första kammarens protokoll 1927. Nr 28. 7
           </note>
@@ -8731,13 +8846,20 @@
           <note n="8f44a95a">
             Ang. villkoren för eldbegängelse. (Forts.)
           </note>
-          <note n="d4527454">
+          <note type="date" n="1ea27649">
             98 Lördagen den 7 maj e. m.
           </note>
+          <u who="johan_gustaf_svensson_0f6962" xml:id="i-63aee78b7a9b5278-3" prev="i-63aee78b7a9b5278-0" n="71602ac1">
+            <seg n="cb16256c">
+              Då utskottets hemställan enligt min uppfattning ej överensstämmer
+              med folkflertalets mening och icke är ägnad att öka medborgarlyckan,
+              anhåller jag få yrka avslag å densamma.
+            </seg>
+          </u>
           <note type="speaker" n="e8d75b87">
             Herr Johansson, Johan Peter:
           </note>
-          <u who="otto_johansson_3bf7f0" xml:id="i-8e376a6f86494b3e-1" next="i-ec54a1b387068825-1" n="454ba322">
+          <u who="otto_johansson_3bf7f0" xml:id="i-2da91b81a1cfbe38-6" next="i-2da91b81a1cfbe38-10" n="454ba322">
             <seg n="dac05002">
               Herr talman! TI jordfästningslagen föreskrives, att den avlidnes
               i livstiden uttalade vilja skall vara avgörande för, huruvida
@@ -8799,7 +8921,7 @@
             föreskriver gällande förordning, att Konungens befallningshavande
             skall förordna om rättsmedicinsk obduktion å den döda kroppen.
           </note>
-          <u who="otto_johansson_3bf7f0" xml:id="i-ec54a1b387068825-1" prev="i-8e376a6f86494b3e-1" n="454ba322">
+          <u who="otto_johansson_3bf7f0" xml:id="i-2da91b81a1cfbe38-7" prev="i-2da91b81a1cfbe38-6" n="454ba322">
             <seg n="44996892">
               Dessa undersökningar, som företagas omedelbart efter dödsfallet,
               borde väl i rättsligt hänseende ha lika stort värde som de, vilka
@@ -8817,6 +8939,12 @@
               bringa en person om livet för att få ärva honom. Men det förefaller
               mig då,
             </seg>
+          </u>
+          <pb n="98" facs="https://betalab.kb.se/prot-1927--fk--28/prot_1927__fk__28-098.jp2/_view"/>
+          <note type="date" n="d35a3a99">
+            Lördagen den 7 maj e. m. 99
+          </note>
+          <u who="otto_johansson_3bf7f0" xml:id="i-2da91b81a1cfbe38-8" prev="i-2da91b81a1cfbe38-6" n="454ba322">
             <seg n="c50a4691">
               som om de, därest de vilja handla klokt, icke skulle ställa så
               till, att läkarundersökning komme att företagas av den avlidnes
@@ -8840,6 +8968,11 @@
               någon som helst rätt att förtrycka minoriteten. Det är detta,
               som varit avgörande för utskottet.
             </seg>
+          </u>
+          <note n="94407e26">
+            Jag yrkar därför, herr talman bifall till utskottets hemställan.
+          </note>
+          <u who="otto_johansson_3bf7f0" xml:id="i-2da91b81a1cfbe38-9" prev="i-2da91b81a1cfbe38-6" n="454ba322">
             <seg n="aef320c9">
               Greve Lagerbielke: Herr talman! Då jag nu begärt ordet för att
               hemställa om bifall till utskottets hemställan, har detta skett,
@@ -8896,6 +9029,27 @@
               Med den grunduppfattning, jag sålunda har i denna fråga, anser
               jag det
             </seg>
+          </u>
+          <note n="290abc01">
+            Nr 28.
+          </note>
+          <note n="1cf024bc">
+            Ang. villkoren för eldbegängelse.
+          </note>
+          <note n="030c4626">
+            (Forts.)
+          </note>
+          <pb n="99" facs="https://betalab.kb.se/prot-1927--fk--28/prot_1927__fk__28-099.jp2/_view"/>
+          <note n="290abc01">
+            Nr 28.
+          </note>
+          <note n="8f44a95a">
+            Ang. villkoren för eldbegängelse. (Forts.)
+          </note>
+          <note type="date" n="68781db2">
+            100 Lördagen den 7 maj e. m.
+          </note>
+          <u who="otto_johansson_3bf7f0" xml:id="i-2da91b81a1cfbe38-10" prev="i-2da91b81a1cfbe38-6" n="454ba322">
             <seg n="a42d76b0">
               givetvis vara principiellt riktigast att beträffande eldbegängelsen
               gå på samma linje, som då det gäller jordfästning med eller utan
@@ -8914,39 +9068,13 @@
               bifall till utskottets hemställan.
             </seg>
           </u>
-          <pb n="98" facs="https://betalab.kb.se/prot-1927--fk--28/prot_1927__fk__28-098.jp2/_view"/>
-          <note n="724131fc">
-            Lördagen den 7 maj e. m. 99
-          </note>
-          <note n="94407e26">
-            Jag yrkar därför, herr talman bifall till utskottets hemställan.
-          </note>
-          <note n="290abc01">
-            Nr 28.
-          </note>
-          <note n="1cf024bc">
-            Ang. villkoren för eldbegängelse.
-          </note>
-          <note n="030c4626">
-            (Forts.)
-          </note>
-          <pb n="99" facs="https://betalab.kb.se/prot-1927--fk--28/prot_1927__fk__28-099.jp2/_view"/>
-          <note n="290abc01">
-            Nr 28.
-          </note>
-          <note n="8f44a95a">
-            Ang. villkoren för eldbegängelse. (Forts.)
-          </note>
-          <note n="e03e2bc7">
-            100 Lördagen den 7 maj e. m.
-          </note>
           <note n="abac62fd">
             Häri instämde herr Bissmark.
           </note>
           <note type="speaker" n="038ccc11">
             Herr Ekman, Karl Johan:
           </note>
-          <u who="karl_ekman_133f1e" xml:id="i-b240f0477de09a36-0" n="d0dbfe68">
+          <u who="karl_ekman_133f1e" xml:id="i-d0dbfe68cfd447c1-0" n="d0dbfe68">
             <seg n="2df6d6f9">
               Herr talman! Jag respekterar de av greve Lagerbjelke anförda
               skälen, men de kunna enligt min mening icke föranleda till annat,
@@ -8987,7 +9115,7 @@
           <note type="speaker" n="da15f5a8">
             Herr Ljunglund:
           </note>
-          <u who="leonard_ljunglund_9e7609" xml:id="i-32ce3621d30004ac-0" next="i-d8ae623234d48601-0" n="4b3be1a4">
+          <u who="leonard_ljunglund_9e7609" xml:id="i-4b3be1a40d3c1086-0" next="i-4b3be1a40d3c1086-1" n="4b3be1a4">
             <seg n="12e2c9ab">
               Herr talman! Jag kan verkligen icke riktigt förstå den siste
               talarens argumentering. Jag förstår icke heller, det bekänner
@@ -9007,10 +9135,10 @@
             </seg>
           </u>
           <pb n="100" facs="https://betalab.kb.se/prot-1927--fk--28/prot_1927__fk__28-100.jp2/_view"/>
-          <note n="ac64c69b">
+          <note type="date" n="ae39d0c3">
             Lördagen den 7 maj e. m. 101
           </note>
-          <u who="leonard_ljunglund_9e7609" xml:id="i-d8ae623234d48601-0" prev="i-32ce3621d30004ac-0" n="4b3be1a4">
+          <u who="leonard_ljunglund_9e7609" xml:id="i-4b3be1a40d3c1086-1" prev="i-4b3be1a40d3c1086-0" n="4b3be1a4">
             <seg n="cc43db8a">
               därför icke anse, att det kan bliva någon som helst fråga om
               förtryck. Här gäller det en ren lämplighetsfråga, en lämplighetsfråga,
@@ -9027,7 +9155,7 @@
           <note type="speaker" n="c7766447">
             Herr Schedin:
           </note>
-          <u who="carl_schedin_659e99" xml:id="i-ed477bbd51ac09fe-0" next="i-7cf47541df13bd3c-0" n="abfea4f6">
+          <u who="carl_schedin_659e99" xml:id="i-abfea4f6afed3fa9-0" next="i-abfea4f6afed3fa9-1" n="abfea4f6">
             <seg n="c2158ce9">
               Med anledning av ett par yttranden av utskottets ärade ordförande
               och av greve Lagerbjelke skall jag be att få säga några ord.
@@ -9113,10 +9241,10 @@
           <note n="8f44a95a">
             Ang. villkoren för eldbegängelse. (Forts.)
           </note>
-          <note n="35d26ae8">
+          <note type="date" n="be10afc2">
             102 Lördagen den 7 maj e. m.
           </note>
-          <u who="carl_schedin_659e99" xml:id="i-7cf47541df13bd3c-0" prev="i-ed477bbd51ac09fe-0" n="abfea4f6">
+          <u who="carl_schedin_659e99" xml:id="i-abfea4f6afed3fa9-1" prev="i-abfea4f6afed3fa9-0" n="abfea4f6">
             <seg n="08e8c802">
               pietet på frågan, så har ju det gammal hävd för sig, att förbindelsen
               i minnet mellan levande och döda sker på denna plats. Jag vågar
@@ -9137,7 +9265,7 @@
           <note type="speaker" n="22bcb373">
             Herr Schlyter:
           </note>
-          <u who="karl_schlyter_bce613" xml:id="i-9faf725dcfc3f1b2-0" next="i-9e473a8c00a22ad3-0" n="03073dc8">
+          <u who="karl_schlyter_bce613" xml:id="i-03073dc88d288e4c-0" next="i-03073dc88d288e4c-1" n="03073dc8">
             <seg n="f94aef0d">
               Herr talman! I alla diskussioner i denna fråga hava de synpunkter
               spelat en stor roll, som den förste ärade talaren framförde. Den
@@ -9200,10 +9328,10 @@
             </seg>
           </u>
           <pb n="102" facs="https://betalab.kb.se/prot-1927--fk--28/prot_1927__fk__28-102.jp2/_view"/>
-          <note n="308d0091">
+          <note type="date" n="b594d47a">
             Lördagen den 7 maj e. m. 103
           </note>
-          <u who="karl_schlyter_bce613" xml:id="i-9e473a8c00a22ad3-0" prev="i-9faf725dcfc3f1b2-0" n="03073dc8">
+          <u who="karl_schlyter_bce613" xml:id="i-03073dc88d288e4c-1" prev="i-03073dc88d288e4c-0" n="03073dc8">
             <seg n="319b8924">
               gens utlåtande, fogat vid utskottets betänkande, vilket på denna
               punkt citeras av utskottet, ger erfarenheten vid handen, att det
@@ -9240,7 +9368,7 @@
           <note type="speaker" n="f2fc9bc0">
             Herr Vrang:
           </note>
-          <u who="erik_vrang_fcc372" xml:id="i-d5bd8bdef4aafccb-0" next="i-59644bf76beebfae-0" n="393ebd10">
+          <u who="erik_vrang_fcc372" xml:id="i-393ebd10deaa0727-0" next="i-393ebd10deaa0727-1" n="393ebd10">
             <seg n="f9902191">
               Herr talman! Att reservanterna vid detta betänkande icke hava
               anfört någon motivering, torde böra förklaras med att ståndpunkterna
@@ -9297,10 +9425,10 @@
           <note n="8f44a95a">
             Ang. villkoren för eldbegängelse. (Forts.)
           </note>
-          <note n="475fd9fb">
+          <note type="date" n="d8c109ea">
             104 Lördagen den 7 maj e. m.
           </note>
-          <u who="erik_vrang_fcc372" xml:id="i-59644bf76beebfae-0" prev="i-d5bd8bdef4aafccb-0" n="393ebd10">
+          <u who="erik_vrang_fcc372" xml:id="i-393ebd10deaa0727-1" prev="i-393ebd10deaa0727-0" n="393ebd10">
             <seg n="ab7ce1c2">
               och det är att det skulle stå fördelar att vinna för de svenska
               stadskommunerna, därest den hittillsvarande begravningsformen
@@ -9342,7 +9470,7 @@
           <note type="speaker" n="038ccc11">
             Herr Ekman, Karl Johan:
           </note>
-          <u who="karl_ekman_133f1e" xml:id="i-1603043e8deed34e-0" next="i-d807feabd90c4967-0" n="d0dbfe68">
+          <u who="karl_ekman_133f1e" xml:id="i-d0dbfe68cfd447c1-1" next="i-d0dbfe68cfd447c1-2" n="d0dbfe68">
             <seg n="6e6406c3">
               Mina herrar! Jag vill endast tillägga några ord. Det har talats
               om rättssäkerheten. Jag vill icke fästa alltför stor vikt vid
@@ -9380,10 +9508,10 @@
             </seg>
           </u>
           <pb n="104" facs="https://betalab.kb.se/prot-1927--fk--28/prot_1927__fk__28-104.jp2/_view"/>
-          <note n="407bd65c">
+          <note type="date" n="aa2f46ca">
             Lördagen den 7 maj e. m. 105
           </note>
-          <u who="karl_ekman_133f1e" xml:id="i-d807feabd90c4967-0" prev="i-1603043e8deed34e-0" n="d0dbfe68">
+          <u who="karl_ekman_133f1e" xml:id="i-d0dbfe68cfd447c1-2" prev="i-d0dbfe68cfd447c1-1" n="d0dbfe68">
             <seg n="0a839419">
               skall vara säker på att slippa den? Jag har mycket närstående
               anförvanter som äro ivriga anhängare av eldbegängelsen. Skall
@@ -9402,7 +9530,7 @@
           <note type="speaker" n="22bcb373">
             Herr Schlyter:
           </note>
-          <u who="karl_schlyter_bce613" xml:id="i-6ddcfc66c94c5ad1-0" n="03073dc8">
+          <u who="karl_schlyter_bce613" xml:id="i-03073dc88d288e4c-2" n="03073dc8">
             <seg n="b3f4aafc">
               Gentemot herr Vrang vill jag endast påpeka, att medan han starkt
               reagerade mot att städerna i sin kommunalpolitik funnit sig ha
@@ -9435,7 +9563,7 @@
           <note type="speaker" n="41c964fd">
             Herr Svensson, Martin:
           </note>
-          <u who="johan_gustaf_svensson_0f6962" xml:id="i-e7c454744845b056-1" next="i-d8ed741c0eaf3402-1" n="71602ac1">
+          <u who="johan_gustaf_svensson_0f6962" xml:id="i-63aee78b7a9b5278-4" next="i-63aee78b7a9b5278-6" n="71602ac1">
             <seg n="36e1a746">
               Jag ber att få säga några ord gentemot motionärens förklaring
               om justitiekanslersämbetets yttrande. Vid avfattandet av det utlåtande,
@@ -9478,10 +9606,18 @@
           <note n="8f44a95a">
             Ang. villkoren för eldbegängelse. (Forts.)
           </note>
-          <u who="johan_gustaf_svensson_0f6962" xml:id="i-d8ed741c0eaf3402-1" prev="i-e7c454744845b056-1" n="71602ac1">
+          <u who="johan_gustaf_svensson_0f6962" xml:id="i-63aee78b7a9b5278-5" prev="i-63aee78b7a9b5278-4" n="71602ac1">
             <seg n="7a5e3bcf">
               Om bibehållande av de gamla
             </seg>
+          </u>
+          <note n="f786219e">
+            militärorkestrarna m. m.
+          </note>
+          <note type="date" n="b3e1f82f">
+            106 Lördagen den 7 maj e. m.
+          </note>
+          <u who="johan_gustaf_svensson_0f6962" xml:id="i-63aee78b7a9b5278-6" prev="i-63aee78b7a9b5278-4" n="71602ac1">
             <seg n="f0749c87">
               Jag har för min del mycket stor respekt för de deklarationer
               som här gjorts av greve Lagerbjelke och herr Ljunglund, men de
@@ -9491,16 +9627,10 @@
               något särskilt protestuttalande.
             </seg>
           </u>
-          <note n="f786219e">
-            militärorkestrarna m. m.
-          </note>
-          <note n="8f32ec18">
-            106 Lördagen den 7 maj e. m.
-          </note>
           <note type="speaker" n="f2fc9bc0">
             Herr Vrang:
           </note>
-          <u who="erik_vrang_fcc372" xml:id="i-d5bd8bdef4aafccb-1" next="i-59644bf76beebfae-1" n="393ebd10">
+          <u who="erik_vrang_fcc372" xml:id="i-393ebd10deaa0727-2" next="i-393ebd10deaa0727-3" n="393ebd10">
             <seg n="20b636c2">
               Herr Schlyter ställde de sista tankarna i mitt anförande emot
               varandra såsom motsatser; detta är alls icke riktigt, ty det var
@@ -9573,10 +9703,10 @@
             och Åkerberg hem-
           </note>
           <pb n="106" facs="https://betalab.kb.se/prot-1927--fk--28/prot_1927__fk__28-106.jp2/_view"/>
-          <note n="dfe000c8">
+          <note type="date" n="4b48da0c">
             Lördagen den 7 maj e. m. 107
           </note>
-          <u who="erik_vrang_fcc372" xml:id="i-59644bf76beebfae-1" prev="i-d5bd8bdef4aafccb-1" n="393ebd10">
+          <u who="erik_vrang_fcc372" xml:id="i-393ebd10deaa0727-3" prev="i-393ebd10deaa0727-2" n="393ebd10">
             <seg n="e329d4c2">
               ställt, att riksdagen ville hos Kungl. Maj:t anhålla, att av
               omsorg om musiklivet i landet, särskilt till förmån för den vanlottade
@@ -9594,7 +9724,7 @@
           <note type="speaker" n="5302b975">
             Herr Lindhagen:
           </note>
-          <u who="carl_albert_lindhagen_a2c097" xml:id="i-d83873d8586a1d05-2" next="i-efdec94f2c7d683c-2" n="09b8a4b2">
+          <u who="carl_albert_lindhagen_a2c097" xml:id="i-09b8a4b25625d41c-11" next="i-09b8a4b25625d41c-16" n="09b8a4b2">
             <seg n="5d627060">
               Den här frågan har varit före ett par tre gånger förut, och den
               brukar alltid förekomma vid samma tid på natten som nu. I år framföres
@@ -9659,13 +9789,36 @@
           <note n="521aac96">
             Nr 28,
           </note>
-          <u who="carl_albert_lindhagen_a2c097" xml:id="i-efdec94f2c7d683c-2" prev="i-d83873d8586a1d05-2" n="09b8a4b2">
+          <u who="carl_albert_lindhagen_a2c097" xml:id="i-09b8a4b25625d41c-12" prev="i-09b8a4b25625d41c-11" n="09b8a4b2">
             <seg n="7a5e3bcf">
               Om bibehållande av de gamla
             </seg>
+          </u>
+          <note n="058d94f9">
+            militär - orkestrarna m. m.
+          </note>
+          <note n="030c4626">
+            (Forts.)
+          </note>
+          <pb n="107" facs="https://betalab.kb.se/prot-1927--fk--28/prot_1927__fk__28-107.jp2/_view"/>
+          <note n="521aac96">
+            Nr 28,
+          </note>
+          <u who="carl_albert_lindhagen_a2c097" xml:id="i-09b8a4b25625d41c-13" prev="i-09b8a4b25625d41c-11" n="09b8a4b2">
             <seg n="7a5e3bcf">
               Om bibehållande av de gamla
             </seg>
+          </u>
+          <note n="f786219e">
+            militärorkestrarna m. m.
+          </note>
+          <note n="030c4626">
+            (Forts.)
+          </note>
+          <note type="date" n="209b6c06">
+            108 Lördagen den 7 maj e. m.
+          </note>
+          <u who="carl_albert_lindhagen_a2c097" xml:id="i-09b8a4b25625d41c-14" prev="i-09b8a4b25625d41c-11" n="09b8a4b2">
             <seg n="487785fb">
               skott. Redan av statsfinansiella skäl anser utskottet ett bifall
               icke ullrådligt. Det är ganska intressant att iakttaga, att det
@@ -9741,6 +9894,12 @@
               Slutligen förefaller det utskottet, att motionärens yrkande är
               alltför vitt-
             </seg>
+          </u>
+          <pb n="108" facs="https://betalab.kb.se/prot-1927--fk--28/prot_1927__fk__28-108.jp2/_view"/>
+          <note type="date" n="24e7c89f">
+            Lördagen den 7 maj e. m, 109
+          </note>
+          <u who="carl_albert_lindhagen_a2c097" xml:id="i-09b8a4b25625d41c-15" prev="i-09b8a4b25625d41c-11" n="09b8a4b2">
             <seg n="7dce7b25">
               svävande. Ja, det tycks verkligen vara så för utskottet, men
               då kunde ju utskottet ha prutat av så att det blev lagom stor
@@ -9808,33 +9967,7 @@
               fö Johansson, Johan Peter: Jag ber att få yrka bifall till utskottets
               örslag.
             </seg>
-            <seg n="7a5e3bcf">
-              Om bibehållande av de gamla
-            </seg>
           </u>
-          <note n="058d94f9">
-            militär - orkestrarna m. m.
-          </note>
-          <note n="030c4626">
-            (Forts.)
-          </note>
-          <pb n="107" facs="https://betalab.kb.se/prot-1927--fk--28/prot_1927__fk__28-107.jp2/_view"/>
-          <note n="521aac96">
-            Nr 28,
-          </note>
-          <note n="f786219e">
-            militärorkestrarna m. m.
-          </note>
-          <note n="030c4626">
-            (Forts.)
-          </note>
-          <note n="3a4dd13f">
-            108 Lördagen den 7 maj e. m.
-          </note>
-          <pb n="108" facs="https://betalab.kb.se/prot-1927--fk--28/prot_1927__fk__28-108.jp2/_view"/>
-          <note n="c84edce8">
-            Lördagen den 7 maj e. m, 109
-          </note>
           <note n="fd17735e">
             Efter härmed slutad överläggning gjorde herr förste vice talmannen
             enligt de yrkanden, som därunder framkommit, propositioner, först
@@ -9845,6 +9978,11 @@
           <note n="290abc01">
             Nr 28.
           </note>
+          <u who="carl_albert_lindhagen_a2c097" xml:id="i-09b8a4b25625d41c-16" prev="i-09b8a4b25625d41c-11" n="09b8a4b2">
+            <seg n="7a5e3bcf">
+              Om bibehållande av de gamla
+            </seg>
+          </u>
           <note n="f786219e">
             militärorkestrarna m. m.
           </note>
@@ -9861,7 +9999,7 @@
           <note n="6b3a5925">
             Om understödjande av intressekontor för statsanställda m. m.
           </note>
-          <note n="59b0a3c0">
+          <note type="date" n="2747d9b2">
             110 Lördagen den 7 maj e. m.
           </note>
           <note n="40e4e249">
@@ -9896,7 +10034,7 @@
           <note type="speaker" n="b22b4915">
             Herr Julin:
           </note>
-          <u who="teodor_julin_93a31b" xml:id="i-68dc0671a87a6429-1" next="i-b9a3b4f553d13cf0-1" n="fa7a0d1f">
+          <u who="teodor_julin_93a31b" xml:id="i-fa7a0d1fb5cfcc8d-3" next="i-fa7a0d1fb5cfcc8d-6" n="fa7a0d1f">
             <seg n="f90c743f">
               Herr talman! Det är icke mitt fel, att den här frågan kommer
               upp så sent på kvällen, men då frågan är för mig av oändligt värde,
@@ -9943,10 +10081,10 @@
             </seg>
           </u>
           <pb n="110" facs="https://betalab.kb.se/prot-1927--fk--28/prot_1927__fk__28-110.jp2/_view"/>
-          <note n="239209ac">
+          <note type="date" n="d9a64d61">
             Lördagen den 7 maj e. m. 111
           </note>
-          <u who="teodor_julin_93a31b" xml:id="i-b9a3b4f553d13cf0-1" prev="i-68dc0671a87a6429-1" n="fa7a0d1f">
+          <u who="teodor_julin_93a31b" xml:id="i-fa7a0d1fb5cfcc8d-4" prev="i-fa7a0d1fb5cfcc8d-3" n="fa7a0d1f">
             <seg n="f5ec54ed">
               enda punkt, som man hade begärt en liten »handräckning», som
               skulle utgå 1 form av ett anslag på 1,000 kronor under ett par
@@ -10014,29 +10152,6 @@
               de smärre inkomsttagarnas ekonomi.&gt; Men när sedan utskottet dragit
               andan säger det på följande sätt:
             </seg>
-            <seg n="7a71309a">
-              Om man gör det påståendet, att hela intressekontorsrörelsen är
-              helt av privat natur, så har man ju därmed sagt, att staten icke
-              på något sätt har an-
-            </seg>
-            <seg n="ce7e49a0">
-              ledning, eller ens rättighet, att blanda sig i vad man i dagligt
-              tal kallar för välfärdsanordningar, som personalen träffar. Personalen
-              skulle alltså icke ha någon som helst förhoppning om, att staten
-              skulle medverka till att utveckla dessa deras välfärdsanordningar
-              — ja, det skulle överhuvud taget vara orätt av staten att tillåta
-              välfärdsanordningar bland personalen.
-            </seg>
-            <seg n="73680685">
-              Jag har velat säga detta för att utskottets sålunda uttalade
-              mening icke skall stå oemotsagd, trots att utskottet självt till
-              min glädje strax förut slagit ihjäl densamma, ty det har självt
-              där påstått, att intressekontorsrörelsen gör mycket gagn. Men
-              ett intressekontor utan arbetsgivarens, i detta fall statens,
-              medverkan är ingen intressekontorsrörelse. Och när jag icke lyckats
-              övertyga utskottet om den saken, har jag blott att konstatera
-              att jag misslyckats med min motion.
-            </seg>
           </u>
           <note n="f1acc42f">
             »Motionärens ovan återgivna förslag innebär ju, att vederbörande
@@ -10047,6 +10162,13 @@
             sålunda skulle tillkomma ämbetsverkens redogörare, helt är av
             privat natur.»
           </note>
+          <u who="teodor_julin_93a31b" xml:id="i-fa7a0d1fb5cfcc8d-5" prev="i-fa7a0d1fb5cfcc8d-3" n="fa7a0d1f">
+            <seg n="7a71309a">
+              Om man gör det påståendet, att hela intressekontorsrörelsen är
+              helt av privat natur, så har man ju därmed sagt, att staten icke
+              på något sätt har an-
+            </seg>
+          </u>
           <note n="290abc01">
             Nr 28.
           </note>
@@ -10066,13 +10188,33 @@
           <note n="030c4626">
             (Forts.)
           </note>
-          <note n="8ba963c7">
+          <note type="date" n="f1747b19">
             112 Lördagen den 7 maj e. m.
           </note>
+          <u who="teodor_julin_93a31b" xml:id="i-fa7a0d1fb5cfcc8d-6" prev="i-fa7a0d1fb5cfcc8d-3" n="fa7a0d1f">
+            <seg n="ce7e49a0">
+              ledning, eller ens rättighet, att blanda sig i vad man i dagligt
+              tal kallar för välfärdsanordningar, som personalen träffar. Personalen
+              skulle alltså icke ha någon som helst förhoppning om, att staten
+              skulle medverka till att utveckla dessa deras välfärdsanordningar
+              — ja, det skulle överhuvud taget vara orätt av staten att tillåta
+              välfärdsanordningar bland personalen.
+            </seg>
+            <seg n="73680685">
+              Jag har velat säga detta för att utskottets sålunda uttalade
+              mening icke skall stå oemotsagd, trots att utskottet självt till
+              min glädje strax förut slagit ihjäl densamma, ty det har självt
+              där påstått, att intressekontorsrörelsen gör mycket gagn. Men
+              ett intressekontor utan arbetsgivarens, i detta fall statens,
+              medverkan är ingen intressekontorsrörelse. Och när jag icke lyckats
+              övertyga utskottet om den saken, har jag blott att konstatera
+              att jag misslyckats med min motion.
+            </seg>
+          </u>
           <note type="speaker" n="e8d75b87">
             Herr Johansson, Johan Peter:
           </note>
-          <u who="otto_johansson_3bf7f0" xml:id="i-07fd842961a161d9-0" n="454ba322">
+          <u who="otto_johansson_3bf7f0" xml:id="i-2da91b81a1cfbe38-11" n="454ba322">
             <seg n="b4536b89">
               Herr talman! Jag skall, innan jag yrkar bifall till utskottets
               förslag, endast med ett par ord, som icke behöva taga mer än någon
@@ -10120,7 +10262,7 @@
           <note type="speaker" n="b22b4915">
             Herr Julin:
           </note>
-          <u who="teodor_julin_93a31b" xml:id="i-68dc0671a87a6429-2" next="i-b9a3b4f553d13cf0-2" n="fa7a0d1f">
+          <u who="teodor_julin_93a31b" xml:id="i-fa7a0d1fb5cfcc8d-7" next="i-fa7a0d1fb5cfcc8d-8" n="fa7a0d1f">
             <seg n="4570c651">
               När jag, såom utskottets ärade ordförande säger, fordrat att
               en tjänsteman skall på tjänstetid bidraga till denna verksamhet,
@@ -10141,10 +10283,10 @@
             </seg>
           </u>
           <pb n="112" facs="https://betalab.kb.se/prot-1927--fk--28/prot_1927__fk__28-112.jp2/_view"/>
-          <note n="c51ffb83">
+          <note type="date" n="57e52aeb">
             Lördagen den 7 maj e. m. 113
           </note>
-          <u who="teodor_julin_93a31b" xml:id="i-b9a3b4f553d13cf0-2" prev="i-68dc0671a87a6429-2" n="fa7a0d1f">
+          <u who="teodor_julin_93a31b" xml:id="i-fa7a0d1fb5cfcc8d-8" prev="i-fa7a0d1fb5cfcc8d-7" n="fa7a0d1f">
             <seg n="6cecefcf">
               mig hysa en alldeles motsatt uppfattning. Ty avlöningen är tjänstemannens,
               och den bör komma ut i det skick, som för honom är fördelaktigast.
@@ -10158,7 +10300,7 @@
           <note type="speaker" n="5302b975">
             Herr Lindhagen:
           </note>
-          <u who="carl_albert_lindhagen_a2c097" xml:id="i-401ed6668b2b71c4-1" n="09b8a4b2">
+          <u who="carl_albert_lindhagen_a2c097" xml:id="i-09b8a4b25625d41c-17" n="09b8a4b2">
             <seg n="c8a79a0b">
               Den föreliggande frågan är en viktig fråga, som har stora framtidsmöjligheter.
               Det system, som föreslås, har praktiserats bland Stockholms kommunalförvaltnings
@@ -10173,7 +10315,7 @@
           <note type="speaker" n="e8d75b87">
             Herr Johansson, Johan Peter:
           </note>
-          <u who="otto_johansson_3bf7f0" xml:id="i-8e376a6f86494b3e-2" next="i-ec54a1b387068825-2" n="454ba322">
+          <u who="otto_johansson_3bf7f0" xml:id="i-2da91b81a1cfbe38-12" next="i-2da91b81a1cfbe38-13" n="454ba322">
             <seg n="50811e63">
               Utskottet har ju också ansett, att tjänstemännen i denna angelägenhet
               böra vända sig till sina verkchefer. Förhåller det sig så, att
@@ -10199,7 +10341,7 @@
           <note n="030c4626">
             (Forts.)
           </note>
-          <u who="otto_johansson_3bf7f0" xml:id="i-ec54a1b387068825-2" prev="i-8e376a6f86494b3e-2" n="454ba322">
+          <u who="otto_johansson_3bf7f0" xml:id="i-2da91b81a1cfbe38-13" prev="i-2da91b81a1cfbe38-12" n="454ba322">
             <seg n="09b14723">
               nu fattar ett beslut i enlighet med detta förslag. Jag vidhåller,
               herr talman, .
@@ -10211,7 +10353,7 @@
           <note type="speaker" n="b22b4915">
             Herr Julin:
           </note>
-          <u who="teodor_julin_93a31b" xml:id="i-1d69ac65c710da92-0" n="fa7a0d1f">
+          <u who="teodor_julin_93a31b" xml:id="i-fa7a0d1fb5cfcc8d-9" n="fa7a0d1f">
             <seg n="14849ac4">
               Jag vill framhålla, att jag i motionen endast begärt en utredning,
               vilket omöjligen kan innebära någon fara. En smula egendomligt

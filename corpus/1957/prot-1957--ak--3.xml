@@ -20,7 +20,7 @@
     <encodingDesc>
       <editorialDecl>
         <correction>
-          <p>Some data curation was done. It is documented in db/curation/instances</p>
+          <p>Some data curation was done. It is documented in input/curation/instances</p>
         </correction>
       </editorialDecl>
     </encodingDesc>
@@ -53,11 +53,15 @@
         <div type="preface">
           <head>prot-1957--ak--3</head>
           <docDate when="1957-01-23">1957-01-23</docDate>
+          <docDate when="1957-01-24">1957-01-24</docDate>
           <docDate when="1957-01-25">1957-01-25</docDate>
+          <docDate when="1957-01-26">1957-01-26</docDate>
+          <docDate when="1957-01-30">1957-01-30</docDate>
         </div>
       </front>
       <body>
         <div>
+          <pb n="0" facs="https://betalab.kb.se/prot-1957--ak--3/prot_1957__ak__3-000.jp2/_view"/>
           <note n="5f45efb5"/>
           <note n="415a123c">
             RIKSDAGENS vård PROTOKOLL
@@ -95,7 +99,7 @@
             Interpellation av herr Nihlfors ang. ljudisoleringen i den nybyggda
             musikhögskolan i Stockholm ......ssse6ese esse se se tr ett 18
           </note>
-          <note n="aa0e5770">
+          <note type="date" n="bfce5ecd">
             Onsdagen den 30 januari Svar på frågor av:
           </note>
           <note n="a717e416">
@@ -119,13 +123,13 @@
             1— Andra kammarens protokoll 1957. Nr 3
           </note>
           <pb n="2" facs="https://betalab.kb.se/prot-1957--ak--3/prot_1957__ak__3-002.jp2/_view"/>
-          <note n="b7cc8187">
+          <note type="date" n="adeda211">
             Onsdagen den 23 januari 1957
           </note>
           <note n="59f35968">
             Nr 3 3
           </note>
-          <note n="0c24af2c">
+          <note type="date" n="df9a1d3b">
             Onsdagen den 23 januari Kl. 10.00
           </note>
           <note n="b030db28">
@@ -164,7 +168,7 @@
           <note type="speaker" n="bdf2cb4b">
             Fröken VINGE (fp):
           </note>
-          <u who="margit_vinge_c316b7" xml:id="i-37324dd5d4dc563a-0" next="i-3459b798684d531a-0" n="b1b2ccd9">
+          <u who="margit_vinge_c316b7" xml:id="i-41e21b0aad833a7f-0" next="i-41e21b0aad833a7f-1" n="b1b2ccd9">
             <seg n="dfb9806d">
               Herr talman! Jag ber att få tacka jordbruksministern för det
               snabba och lugnande svaret på min enkla fråga.
@@ -215,10 +219,10 @@
           <note n="b81bf309">
             4 Nr 3
           </note>
-          <note n="b7cc8187">
+          <note type="date" n="adeda211">
             Onsdagen den 23 januari 1957
           </note>
-          <u who="margit_vinge_c316b7" xml:id="i-3459b798684d531a-0" prev="i-37324dd5d4dc563a-0" n="b1b2ccd9">
+          <u who="margit_vinge_c316b7" xml:id="i-41e21b0aad833a7f-1" prev="i-41e21b0aad833a7f-0" n="b1b2ccd9">
             <seg n="eea55c4d">
               Svar på fråga ang. passagerartrafiken på Göta kanal
             </seg>
@@ -247,7 +251,7 @@
           <note type="speaker" n="07186e4d">
             Fröken WETTERSTRÖM (h):
           </note>
-          <u who="karin_wetterstrom_c48b24" xml:id="i-9385791da39463bb-0" next="i-bc6e8f8fb6090979-0" n="989bf0f3">
+          <u who="karin_wetterstrom_c48b24" xml:id="i-989bf0f37bb015b7-0" next="i-989bf0f37bb015b7-3" n="989bf0f3">
             <seg n="bc332578">
               Herr talman! Jag ber att få tacka herr statsrådet och chefen
               för handelsdepartementet för det svar som jag har fått.
@@ -312,17 +316,22 @@
             </seg>
           </u>
           <pb n="4" facs="https://betalab.kb.se/prot-1957--ak--3/prot_1957__ak__3-004.jp2/_view"/>
-          <note n="b7cc8187">
+          <note type="date" n="adeda211">
             Onsdagen den 23 januari 1957
           </note>
           <note n="7c4d2577">
             Nr 3 5
           </note>
-          <u who="karin_wetterstrom_c48b24" xml:id="i-bc6e8f8fb6090979-0" prev="i-9385791da39463bb-0" n="989bf0f3">
+          <u who="karin_wetterstrom_c48b24" xml:id="i-989bf0f37bb015b7-1" prev="i-989bf0f37bb015b7-0" n="989bf0f3">
             <seg n="74ea78a6">
               Svar på fråga ang. lättnader i det s. k. söndagsförbudet i början
               och slutet av vinter-
             </seg>
+          </u>
+          <note n="cd1abb78">
+            sportlovsveckan
+          </note>
+          <u who="karin_wetterstrom_c48b24" xml:id="i-989bf0f37bb015b7-2" prev="i-989bf0f37bb015b7-0" n="989bf0f3">
             <seg n="21fdb77d">
               jag föreställer mig att om exempelvis svenska staten vore villig
               att ställa en lånegaranti i utsikt, skulle ett blivande bolag
@@ -348,6 +357,11 @@
               för att i en eller annan form bidra till att säkerställa trafiken
               på kanalen.
             </seg>
+          </u>
+          <note n="4ca8b6a3">
+            Chefen för handelsdepartementet, herr statsrådet LANGE:
+          </note>
+          <u who="karin_wetterstrom_c48b24" xml:id="i-989bf0f37bb015b7-3" prev="i-989bf0f37bb015b7-0" n="989bf0f3">
             <seg n="fe123da7">
               Herr talman! Såsom framgick av mitt svar på fröken Wetterströms
               fråga, befinner vi oss knappast i en sådan situation att vi nu
@@ -365,16 +379,10 @@
               möjligheten kommer att ha någon aktualitet.
             </seg>
           </u>
-          <note n="cd1abb78">
-            sportlovsveckan
-          </note>
-          <note n="4ca8b6a3">
-            Chefen för handelsdepartementet, herr statsrådet LANGE:
-          </note>
           <note type="speaker" n="07186e4d">
             Fröken WETTERSTRÖM (h):
           </note>
-          <u who="karin_wetterstrom_c48b24" xml:id="i-9385791da39463bb-1" next="i-bc6e8f8fb6090979-1" n="989bf0f3">
+          <u who="karin_wetterstrom_c48b24" xml:id="i-989bf0f37bb015b7-4" next="i-989bf0f37bb015b7-32" n="989bf0f3">
             <seg n="a184616b">
               Herr talman! Det är ju enbart glädjande, om det finns så pass
               kapitalstarka företag i bakgrunden, att man kan ro det hela i
@@ -389,11 +397,17 @@
           <note n="00e1bd36">
             84
           </note>
-          <u who="karin_wetterstrom_c48b24" xml:id="i-bc6e8f8fb6090979-1" prev="i-9385791da39463bb-1" n="989bf0f3">
+          <u who="karin_wetterstrom_c48b24" xml:id="i-989bf0f37bb015b7-5" prev="i-989bf0f37bb015b7-4" n="989bf0f3">
             <seg n="da23055d">
               Svar på fråga ang. lättnader i det s. k. söndagsförbudet i början
               och slutet av vintersportlovsveckan
             </seg>
+          </u>
+          <note n="393bcc84">
+            Chefen för handelsdepartementet, herr statsrådet LANGE, erhöll
+            på begäran ordet och yttrade:
+          </note>
+          <u who="karin_wetterstrom_c48b24" xml:id="i-989bf0f37bb015b7-6" prev="i-989bf0f37bb015b7-4" n="989bf0f3">
             <seg n="0525d782">
               Herr talman! Herr Carlsson i Stockholm har frågat om jag vill
               medverka till vissa lättnader i det s. k. söndagsförbudet.
@@ -404,6 +418,14 @@
               Jag har därvid redovisat min syn på de begränsningar i bensinförbrukningen
               som = befunnits nödvändiga. Därutöver har jag intet att tillägga.
             </seg>
+          </u>
+          <note n="0dfa0564">
+            Härpå anförde:
+          </note>
+          <note n="9c5ca532">
+            Herr CARLSSON i Stockholm (fp):
+          </note>
+          <u who="karin_wetterstrom_c48b24" xml:id="i-989bf0f37bb015b7-7" prev="i-989bf0f37bb015b7-4" n="989bf0f3">
             <seg n="8ac35122">
               Herr talman! Jag ber att få tacka herr statsrådet och chefen
               för handelsdepartementet för det snabba svaret på min fråga. Jag
@@ -414,10 +436,24 @@
               Det är ju så att många familjer med barn har tagit för vana att
               förlägga en
             </seg>
+          </u>
+          <pb n="5" facs="https://betalab.kb.se/prot-1957--ak--3/prot_1957__ak__3-005.jp2/_view"/>
+          <note n="1800a643">
+            6 Nr 3
+          </note>
+          <note type="date" n="adeda211">
+            Onsdagen den 23 januari 1957
+          </note>
+          <u who="karin_wetterstrom_c48b24" xml:id="i-989bf0f37bb015b7-8" prev="i-989bf0f37bb015b7-4" n="989bf0f3">
             <seg n="74ea78a6">
               Svar på fråga ang. lättnader i det s. k. söndagsförbudet i början
               och slutet av vinter-
             </seg>
+          </u>
+          <note n="cd1abb78">
+            sportlovsveckan
+          </note>
+          <u who="karin_wetterstrom_c48b24" xml:id="i-989bf0f37bb015b7-9" prev="i-989bf0f37bb015b7-4" n="989bf0f3">
             <seg n="2fdca074">
               veckas vintersemester till tiden för det vintersportlov i skolorna
               som nu har blivit tradition. Har man då bil, är det naturligt
@@ -475,6 +511,11 @@
               saken och låta oss få veta, om det finns några utsikter till en
               lättnad i det av mig påtalade syftet.
             </seg>
+          </u>
+          <note n="4ca8b6a3">
+            Chefen för handelsdepartementet, herr statsrådet LANGE:
+          </note>
+          <u who="karin_wetterstrom_c48b24" xml:id="i-989bf0f37bb015b7-10" prev="i-989bf0f37bb015b7-4" n="989bf0f3">
             <seg n="ebb05c0a">
               Herr talman! Att det är många olägenheter förenade med söndagsförbudet,
               har jag vid flerfaldiga tillfällen understrukit här i kammaren.
@@ -487,299 +528,34 @@
               mera bestämt besked beträffande möjligheterna att häva söndagsförbudet
               eller att införa någon lättnad i detta hänseende.
             </seg>
+          </u>
+          <pb n="6" facs="https://betalab.kb.se/prot-1957--ak--3/prot_1957__ak__3-006.jp2/_view"/>
+          <note type="date" n="adeda211">
+            Onsdagen den 23 januari 1957
+          </note>
+          <note n="af9e1aee">
+            Nr 3 7
+          </note>
+          <u who="karin_wetterstrom_c48b24" xml:id="i-989bf0f37bb015b7-11" prev="i-989bf0f37bb015b7-4" n="989bf0f3">
             <seg n="74ea78a6">
               Svar på fråga ang. lättnader i det s. k. söndagsförbudet i början
               och slutet av vinter-
             </seg>
+          </u>
+          <note n="cd1abb78">
+            sportlovsveckan
+          </note>
+          <note n="9c5ca532">
+            Herr CARLSSON i Stockholm (fp):
+          </note>
+          <u who="karin_wetterstrom_c48b24" xml:id="i-989bf0f37bb015b7-12" prev="i-989bf0f37bb015b7-4" n="989bf0f3">
             <seg n="2d7c8657">
               Herr talman! Jag tar fasta på herr statsrådets uttalande, att
               varje möjlighet till lättnad kommer att omprövas. Och jag hoppas
               att herr statsrådet då även tar hänsyn till det av mig framförda
               spörsmålet.
             </seg>
-            <seg n="4da0e2e5">
-              nr 117, av herr Jacobson i Vilhelmina, om rätt för ålderspensionär
-              att årligen få företaga en fri resa på statens järnvägar till
-              nära anhöriga,
-            </seg>
-            <seg n="46f3c887">
-              nr 120, av fru Thorsson, om inrättandet av ett förlag och en
-              bokhandel för det statliga, kommunala och internationella trycket.
-            </seg>
-            <seg n="415a3c2f">
-              Herr talman! På mina och min medmotionärs vägnar ber jag att
-              få återkalla motionen nr 111.
-            </seg>
-            <seg n="b527fd17">
-              Herr talman! Vid sidan om de relativt stora svenska hjälpaktionerna
-              till förmån för de ungerska och andra flyktingar, i syfte att
-              bereda dem fristad och arbetsmöjligheter i vårt land, pågår sedan
-              några år en aktion av mycket begränsad omfattning, nämligen överföringen
-              av en kvarlevande grupp svenskättlingar i den ukrainska orten
-              Gammal-Svenskby, numera Verbivka (Pilträdsbyn).
-            </seg>
-            <seg n="c0b12c19">
-              Det lär gälla cirka 170 människor, de flesta i sina bästa år.
-              Några av dem tillbringade en tid av sin allra tidigaste barndom
-              i Sverige i samband med den stora överflyttningen från Gammal-
-              Svenskby till Sverige 1929. En del av invandrarna återvände som
-              bekant till Ryssland, lockade av sovjetpropagandan. Dessa tycks
-              sedermera ha bortförts och gått ovissa öden till mötes. Några
-              av barnen har emellertid levat kvar i den gamla svenskbyn och
-              med dem åtskilliga anförvanter som tidigare bott på Krim och andra
-              ryska orter. Nu har återigen en skara samlats i den historiska
-              byn vid Dnjepr. En del lyckades i krigets förvirrade slutskede
-              komma till Sverige, där de funnit sig väl till rätta. En känd
-              svensk utlandsjournalist, redaktören Herje Granberg, fick den
-              gången öppna väg för dem till det gamla hemlandet.
-            </seg>
-            <seg n="08f789a9">
-              Det är denne outtröttlige vän till gammalsvenskbyborna som också
-              nu förmedlat kontakterna. Han har själv besökt dessa människor,
-              och han har genom samarbete med de i Sverige redan bofasta svenskbyborna
-              upprättat en tillförlitlig förteckning över de svenskättlingar,
-              som nu vill invandra.
-            </seg>
-            <seg n="71ed2271">
-              Från rysk sida har stort tillmötesgå-
-            </seg>
-            <seg n="e57e5117">
-              ende visats de gammalsvenskbybor, som vill utvandra till Sverige.
-              Enligt uppgift kom redan den 25 juli 1956 en rysk tjänsteman från
-              Moskva till Gammal- Svenskby och lät alla invånare i byn som Önskar
-              resa till Sverige ifylla nödiga ansökningshandlingar. Han lovade
-              att de skulle få avresa, så snart svenskt inresevisum kunde företes.
-              Till och med sådana män, som tjänstgjort i Röda armén, lär ha
-              fått detta löfte. Samma besked har enligt uppgift från Gammal-
-              Svenskby lämnats bybor, som i detta ärende senare vänt sig direkt
-              till Moskva. Därtill kommer att Svenska röda korset erhållit meddelande
-              från Ryska röda korset, att man där är beredd att medverka vid
-              hemtransporten. Enligt redaktör Granbergs mening har Svenska röda
-              korset och dess generalsekreterare Henrik Beer gjort en utomordentlig
-              insats, när det gällt att bana väg för denna hjälpaktion. Även
-              de svenska ämbetsverken har handlagt ärendet i en positiv anda.
-              Socialstyrelsen, arbetsmarknadsstyrelsen och utlänningskommissionen
-              har tillstyrkt överförandet och förklarat sig beredda att göra
-              vad på dem ankommer för att aktionen skall kunna genomföras. Vad
-              man hittills väntat på är ett regeringsbeslut i ärendet, som gör
-              det möjligt för dessa svenskättlingar att komma hem. Man kan vara
-              förvissad om att ingen ohåga att hjälpa denna folkspillra ligger
-              bakom detta fördröjande. Och likväl ligger det något upprörande
-              i denna långa väntan. Dessutom kan man frukta att de gynnsamma
-              utresemöjligheter, som nu tycks vara för handen, skulle kunna
-              förändras. Breven från Gammal-Svenskby andas också stor oro för
-              utgången. Detsamma gäller reaktionen bland de anhöriga i Sverige.
-              På Gotland och annorstädes väntar man sedan några månader ivrigt
-              på ett svenskt regeringsingripande, som skulle kunna återföra
-              en grupp anhöriga till en sedan mer än tjugu år splittrad familjegemenskap.
-              Barn väntar på
-            </seg>
-            <seg n="b69c037b">
-              sina föräldrar, föräldrar på sina barn, och syskon hoppas att
-              få återse varandra.
-            </seg>
-            <seg n="f98135ce">
-              Ekonomiskt sett torde överföringen av denna begränsade grupp
-              av svenskättlingar heller inte betyda något större problem. Enligt
-              uppgift lär ett belopp på cirka 130 000 kr. finnas kvar i den
-              s. k. svenskbyfonden, om nu dessa kan befinnas disponibla för
-              en utvidgad gammalsvenskbyhjälp. Dessutom har veterligen en av
-              stockholmstidningarna, Morgon-Bladet, redan igångsatt en insamling
-              för ändamålet.
-            </seg>
-            <seg n="1b370131">
-              Med hänvisning till vad här sagts anhåller jag om andra kammarens
-              tillstånd att till hans excellens statsministern få rikta följande
-              frågor:
-            </seg>
-            <seg n="41109f14">
-              1. Vill regeringen lämna kammaren en redogörelse för vad som
-              hittills åtgjorts från statsmakternas sida för att möjliggöra
-              överförandet till Sverige av de kvarvarande svenskättlingarna
-              i Gammal-Svenskby?
-            </seg>
-            <seg n="83be3cb5">
-              2. Är det regeringens avsikt att vidtaga några omedelbara åtgärder
-              för att påskynda genomförandet av denna av ifrågavarande folkgrupp
-              ivrigt åstundade invandring?
-            </seg>
-            <seg n="85647940">
-              De stora avstånden och det nordliga läget med de därav följande
-              klimatiska förhållandena å ena sidan och de stora naturrikedomarna
-              i skog, malm och vattenkraft å den andra har medfört att Norrlands
-              och det norrländska näringslivets problem i många avseenden ter
-              sig annorlunda än det övriga Sveriges. Detta har också uppmärksammats
-              i olika sammanhang, och många norrlandsfrågor har varit föremål
-              för utredningar.
-            </seg>
-            <seg n="e9a8b680">
-              Problemkomplexen har = emellertid varit många, och det har framstått
-              som angeläget att få till stånd en samordning och en angelägenhetsgradering
-              för att påskynda lösningen av de mest angelägna frågorna. I detta
-              syfte hemställde riksdagen i skrivelse nr 375/1953 om sådana överväganden,
-              utredningar, förslag och andra åtgärder, att kvarstående olösta
-              norrlandsfrågor kommer till sin rätt.
-            </seg>
-            <seg n="0b36b612">
-              Riksdagens hemställan resulterade i den pågående s. k. inventeringen
-              av olösta norrlandsfrågor. Med hänsyn till frågans stora vikt
-              samt mot bakgrunden av den långa tid som förflutit sedan inventeringsarbetet
-              påbörjades är det önskvärt att ett resultat snart kan redovisas.
-            </seg>
-            <seg n="2292e504">
-              Med stöd av det anförda anhåller jag om kammarens tillstånd att
-              till hans excellens statsministern få ställa följande fråga:
-            </seg>
-            <seg n="38b6fd9e">
-              Vill eders excellens lämna kammaren en redogörelse för huruvida
-              någon angelägenhetsgradering av olösta norrlandsfrågor hittills
-              företagits samt för de synpunkter i sak som kan ha anlagts på
-              de olika frågorna under inventeringsarbetet?
-            </seg>
-            <seg n="e0e49c1d">
-              Herr talman! Det har visat sig att ljudisoleringen mellan lektionssalarna
-            </seg>
-            <seg n="6b7fcd6a">
-              och överspelningsrummen i den nybyggda musikhögskolan i Stockholm
-              lämnar åtskilligt övrigt att önska. Man skulle ha trott att åt
-              just ljudisoleringen i denna byggnad vid uppförandet skulle ha
-              ägnats ingående uppmärksamhet. En dålig ljudisolering gör självfallet
-              byggnaden i viss utsträckning obrukbar.
-            </seg>
-            <seg n="439ed78c">
-              Sedan bristerna upptäcktes i höstas har enligt uppgift byggnadsstyrelsen
-              påbörjat undersökningar i syfte att förbättra situationen, men
-              fara är att det blir ett pålappningsarbete, som inte kan ge fullgott
-              resultat utan mycket höga extra kostnader.
-            </seg>
-            <seg n="210e40d7">
-              Det vore mycket märkligt om Musikaliska akademiens representanter
-              icke blivit satta i tillfälle att medverka vid lösandet av problemen
-              med ljudisoleringen. Det har kanske även brustit i kontakten mellan
-              expertis av skilda slag.
-            </seg>
-            <seg n="7334149e">
-              Med hänvisning till vad ovan anförts får jag anhålla om andra
-              kammarens tillstånd att till statsrådet och chefen för ecklesiastikdepartementet
-              rikta följande frågor:
-            </seg>
-            <seg n="0c7a1de2">
-              Av vilken anledning har ljudisoleringen inom musikhögskolan blivit
-              så bristfällig, att undervisningen riskerar att i viss utsträckning
-              inte kunna genomföras?
-            </seg>
-            <seg n="515c7181">
-              Vem bär ansvaret för att bristerna uppstått, och vilka beräknas
-              kostnaderna bli för de extra arbeten som måste utföras för att
-              förbättra ljudisoleringen?
-            </seg>
-            <seg n="61b04807">
-              samhet rörande den enstaka bebyggelsens sanitetsproblem,
-            </seg>
-            <seg n="7a296ee8">
-              gärder för verkställighet av riksdagens beslut om inrättandet
-              av en försöksgård för fasta jordbruksförsök och för inlandsjordbruket
-              i västra Sverige,
-            </seg>
-            <seg n="9452bd49">
-              83
-            </seg>
-            <seg n="69c5a8d5">
-              avveckling av dyrortsgrupperingen vid inkomstbeskattningen av
-              fysiska personer,
-            </seg>
-            <seg n="1a445612">
-              redande av ökade möjligheter till korttidsanställning för kvinnor,
-            </seg>
-            <seg n="9bb007b1">
-              ning om anslag till det frivilliga skytteväsendets befrämjande,
-            </seg>
-            <seg n="1c4593c8">
-              nr 449, av herrar Wedén och Gustafson i Göteborg, om åtgärder
-              för avhjälpande av bostadsbristen för trångbodda familjer med
-              många barn,
-            </seg>
-            <seg n="2fe994dc">
-              utredning rörande trädgårdsnäringens problem,
-            </seg>
-            <seg n="de44529e">
-              nr 483, av herr Håstad, angående skyndsamma åtgärder i syfte
-              att åstadkomma klargörande normer för vad offentliga tjänstemän
-              har att iakttaga i sina förbindelser i tjänsten och privat med
-              leverantörer och andra företag.
-            </seg>
-            <seg n="761dfc56">
-              Stockholm
-            </seg>
-            <seg n="0a6a45f9">
-              Med stöd av närslutna läkarintyg får jag anhålla om befrielse
-              från riksdagsarbetet från den 29 januari till den 28 februari.
-            </seg>
-            <seg n="1ad1c661">
-              i sädana fall, då någon vid aga tillfogar den agade fysisk eller
-              psykisk skada
-            </seg>
-            <seg n="bff67d4e">
-              Till svar härpå får jag anföra följande.
-            </seg>
-            <seg n="6b2d1d38">
-              Den åsyftade bestämmelsen i strafflagen innebär, att kroppsskada
-              som tillfogas barn under utövning av laga rättighet att aga föranleder
-              straff för misshandel endast när svårare kroppsskada uppkommit.
-              Bestämmelsen står inte i samklang med den uppfattning om kroppsagan
-              såsom uppfostringsmedel som kommit till uttryck bl. a. i den nya
-              föräldrabalken, och lagstiftningen är alltså föråldrad på denna
-              punkt. En ändring har emellertid redan förberetts. I det förslag
-              till brottsbalk som framlagts av straffrättskommittén har sålunda
-              inte upptagits någon motsvarighet till 14 kap. 16 $ strafflagen.
-              Straffrättskommitténs förslag, som avser betydande ändringar i
-              olika delar av strafflagstiftningen, är under arbete i justitiedepartementet,
-              men på grund av dess stora omfattning torde det inte kunna framläggas
-              för riksdagen inom den närmaste tiden.
-            </seg>
-            <seg n="53087c65">
-              Då det emellertid under aganderättens täckmantel synes förekomma
-              upprörande fall av barnmisshandel, mot vilka åklagarmyndigheterna
-              på grund av strafflagens nuvarande innehåll inte anser sig kunna
-              ingripa, finner jag det
-            </seg>
           </u>
-          <note n="393bcc84">
-            Chefen för handelsdepartementet, herr statsrådet LANGE, erhöll
-            på begäran ordet och yttrade:
-          </note>
-          <note n="0dfa0564">
-            Härpå anförde:
-          </note>
-          <note n="9c5ca532">
-            Herr CARLSSON i Stockholm (fp):
-          </note>
-          <pb n="5" facs="https://betalab.kb.se/prot-1957--ak--3/prot_1957__ak__3-005.jp2/_view"/>
-          <note n="1800a643">
-            6 Nr 3
-          </note>
-          <note n="b7cc8187">
-            Onsdagen den 23 januari 1957
-          </note>
-          <note n="cd1abb78">
-            sportlovsveckan
-          </note>
-          <note n="4ca8b6a3">
-            Chefen för handelsdepartementet, herr statsrådet LANGE:
-          </note>
-          <pb n="6" facs="https://betalab.kb.se/prot-1957--ak--3/prot_1957__ak__3-006.jp2/_view"/>
-          <note n="b7cc8187">
-            Onsdagen den 23 januari 1957
-          </note>
-          <note n="af9e1aee">
-            Nr 3 7
-          </note>
-          <note n="cd1abb78">
-            sportlovsveckan
-          </note>
-          <note n="9c5ca532">
-            Herr CARLSSON i Stockholm (fp):
-          </note>
           <note n="a506803c">
             Härmed var överläggningen slutad.
           </note>
@@ -1011,7 +787,7 @@
             nr 76, av herr Ohlin m. fl., om förbättring av kosten på de statliga
             sinnessjukhusen,
           </note>
-          <note n="b7cc8187">
+          <note type="date" n="adeda211">
             Onsdagen den 23 januari 1957
           </note>
           <note n="a3295ae2">
@@ -1078,7 +854,7 @@
             allmänna barnbidragen m. m.,
           </note>
           <pb n="8" facs="https://betalab.kb.se/prot-1957--ak--3/prot_1957__ak__3-008.jp2/_view"/>
-          <note n="b7cc8187">
+          <note type="date" n="adeda211">
             Onsdagen den 23 januari 1957
           </note>
           <note n="f685bc33">
@@ -1195,6 +971,13 @@
           <note n="83bd1143">
             nr 116, av herr Allard, angående viss ändring i stadgan för lantbruksundervisningsanstalter,
           </note>
+          <u who="karin_wetterstrom_c48b24" xml:id="i-989bf0f37bb015b7-13" prev="i-989bf0f37bb015b7-4" n="989bf0f3">
+            <seg n="4da0e2e5">
+              nr 117, av herr Jacobson i Vilhelmina, om rätt för ålderspensionär
+              att årligen få företaga en fri resa på statens järnvägar till
+              nära anhöriga,
+            </seg>
+          </u>
           <note n="c45c4fb2">
             nr 118, av herrar Börjesson och Gustafsson i Mem, om åtgärder
             mot husbockens härjningar,
@@ -1207,10 +990,16 @@
             nr 119, av herr Nihlfors m. fl., om ökat lagligt skydd för arbetstagarna
             mot obefogade uppsägningar, och
           </note>
+          <u who="karin_wetterstrom_c48b24" xml:id="i-989bf0f37bb015b7-14" prev="i-989bf0f37bb015b7-4" n="989bf0f3">
+            <seg n="46f3c887">
+              nr 120, av fru Thorsson, om inrättandet av ett förlag och en
+              bokhandel för det statliga, kommunala och internationella trycket.
+            </seg>
+          </u>
           <note n="d0e41e13">
             Dessa motioner bordlades.
           </note>
-          <note n="7ec0cf18">
+          <note type="date" n="7078d025">
             Torsdagen den 24 januari 1957
           </note>
           <note n="21b928a9">
@@ -1225,7 +1014,7 @@
           <note n="e36883a4">
             Gunnar Britth
           </note>
-          <note n="5d003f0f">
+          <note type="date" n="f89cc8bc">
             Torsdagen den 24 januari KL. 10.00
           </note>
           <note n="15ecba8d">
@@ -1359,7 +1148,7 @@
             nr 102, av herr Spångberg m. fl.,
           </note>
           <pb n="10" facs="https://betalab.kb.se/prot-1957--ak--3/prot_1957__ak__3-010.jp2/_view"/>
-          <note n="7ec0cf18">
+          <note type="date" n="7078d025">
             Torsdagen den 24 januari 1957
           </note>
           <note n="4bbd0963">
@@ -1396,6 +1185,12 @@
           <note n="27405505">
             Herr ÖSTLUND (h), som yttrade:
           </note>
+          <u who="karin_wetterstrom_c48b24" xml:id="i-989bf0f37bb015b7-15" prev="i-989bf0f37bb015b7-4" n="989bf0f3">
+            <seg n="415a3c2f">
+              Herr talman! På mina och min medmotionärs vägnar ber jag att
+              få återkalla motionen nr 111.
+            </seg>
+          </u>
           <note n="0f90f670">
             Kammaren biföll denna hemställan.
           </note>
@@ -1449,6 +1244,41 @@
           <note n="c980deee">
             Herr RIMMERFORS (fp), förde:
           </note>
+          <u who="karin_wetterstrom_c48b24" xml:id="i-989bf0f37bb015b7-16" prev="i-989bf0f37bb015b7-4" n="989bf0f3">
+            <seg n="b527fd17">
+              Herr talman! Vid sidan om de relativt stora svenska hjälpaktionerna
+              till förmån för de ungerska och andra flyktingar, i syfte att
+              bereda dem fristad och arbetsmöjligheter i vårt land, pågår sedan
+              några år en aktion av mycket begränsad omfattning, nämligen överföringen
+              av en kvarlevande grupp svenskättlingar i den ukrainska orten
+              Gammal-Svenskby, numera Verbivka (Pilträdsbyn).
+            </seg>
+            <seg n="c0b12c19">
+              Det lär gälla cirka 170 människor, de flesta i sina bästa år.
+              Några av dem tillbringade en tid av sin allra tidigaste barndom
+              i Sverige i samband med den stora överflyttningen från Gammal-
+              Svenskby till Sverige 1929. En del av invandrarna återvände som
+              bekant till Ryssland, lockade av sovjetpropagandan. Dessa tycks
+              sedermera ha bortförts och gått ovissa öden till mötes. Några
+              av barnen har emellertid levat kvar i den gamla svenskbyn och
+              med dem åtskilliga anförvanter som tidigare bott på Krim och andra
+              ryska orter. Nu har återigen en skara samlats i den historiska
+              byn vid Dnjepr. En del lyckades i krigets förvirrade slutskede
+              komma till Sverige, där de funnit sig väl till rätta. En känd
+              svensk utlandsjournalist, redaktören Herje Granberg, fick den
+              gången öppna väg för dem till det gamla hemlandet.
+            </seg>
+            <seg n="08f789a9">
+              Det är denne outtröttlige vän till gammalsvenskbyborna som också
+              nu förmedlat kontakterna. Han har själv besökt dessa människor,
+              och han har genom samarbete med de i Sverige redan bofasta svenskbyborna
+              upprättat en tillförlitlig förteckning över de svenskättlingar,
+              som nu vill invandra.
+            </seg>
+            <seg n="71ed2271">
+              Från rysk sida har stort tillmötesgå-
+            </seg>
+          </u>
           <note n="e11cfd74">
             som an-
           </note>
@@ -1456,12 +1286,74 @@
           <note n="abcdb7b3">
             12 Nr 3
           </note>
-          <note n="7ec0cf18">
+          <note type="date" n="7078d025">
             Torsdagen den 24 januari 1957
           </note>
           <note n="40028ea3">
             Interpellation ang. angelägenhetsgradering av olösta norrlandsfrågor
           </note>
+          <u who="karin_wetterstrom_c48b24" xml:id="i-989bf0f37bb015b7-17" prev="i-989bf0f37bb015b7-4" n="989bf0f3">
+            <seg n="e57e5117">
+              ende visats de gammalsvenskbybor, som vill utvandra till Sverige.
+              Enligt uppgift kom redan den 25 juli 1956 en rysk tjänsteman från
+              Moskva till Gammal- Svenskby och lät alla invånare i byn som Önskar
+              resa till Sverige ifylla nödiga ansökningshandlingar. Han lovade
+              att de skulle få avresa, så snart svenskt inresevisum kunde företes.
+              Till och med sådana män, som tjänstgjort i Röda armén, lär ha
+              fått detta löfte. Samma besked har enligt uppgift från Gammal-
+              Svenskby lämnats bybor, som i detta ärende senare vänt sig direkt
+              till Moskva. Därtill kommer att Svenska röda korset erhållit meddelande
+              från Ryska röda korset, att man där är beredd att medverka vid
+              hemtransporten. Enligt redaktör Granbergs mening har Svenska röda
+              korset och dess generalsekreterare Henrik Beer gjort en utomordentlig
+              insats, när det gällt att bana väg för denna hjälpaktion. Även
+              de svenska ämbetsverken har handlagt ärendet i en positiv anda.
+              Socialstyrelsen, arbetsmarknadsstyrelsen och utlänningskommissionen
+              har tillstyrkt överförandet och förklarat sig beredda att göra
+              vad på dem ankommer för att aktionen skall kunna genomföras. Vad
+              man hittills väntat på är ett regeringsbeslut i ärendet, som gör
+              det möjligt för dessa svenskättlingar att komma hem. Man kan vara
+              förvissad om att ingen ohåga att hjälpa denna folkspillra ligger
+              bakom detta fördröjande. Och likväl ligger det något upprörande
+              i denna långa väntan. Dessutom kan man frukta att de gynnsamma
+              utresemöjligheter, som nu tycks vara för handen, skulle kunna
+              förändras. Breven från Gammal-Svenskby andas också stor oro för
+              utgången. Detsamma gäller reaktionen bland de anhöriga i Sverige.
+              På Gotland och annorstädes väntar man sedan några månader ivrigt
+              på ett svenskt regeringsingripande, som skulle kunna återföra
+              en grupp anhöriga till en sedan mer än tjugu år splittrad familjegemenskap.
+              Barn väntar på
+            </seg>
+            <seg n="b69c037b">
+              sina föräldrar, föräldrar på sina barn, och syskon hoppas att
+              få återse varandra.
+            </seg>
+            <seg n="f98135ce">
+              Ekonomiskt sett torde överföringen av denna begränsade grupp
+              av svenskättlingar heller inte betyda något större problem. Enligt
+              uppgift lär ett belopp på cirka 130 000 kr. finnas kvar i den
+              s. k. svenskbyfonden, om nu dessa kan befinnas disponibla för
+              en utvidgad gammalsvenskbyhjälp. Dessutom har veterligen en av
+              stockholmstidningarna, Morgon-Bladet, redan igångsatt en insamling
+              för ändamålet.
+            </seg>
+            <seg n="1b370131">
+              Med hänvisning till vad här sagts anhåller jag om andra kammarens
+              tillstånd att till hans excellens statsministern få rikta följande
+              frågor:
+            </seg>
+            <seg n="41109f14">
+              1. Vill regeringen lämna kammaren en redogörelse för vad som
+              hittills åtgjorts från statsmakternas sida för att möjliggöra
+              överförandet till Sverige av de kvarvarande svenskättlingarna
+              i Gammal-Svenskby?
+            </seg>
+            <seg n="83be3cb5">
+              2. Är det regeringens avsikt att vidtaga några omedelbara åtgärder
+              för att påskynda genomförandet av denna av ifrågavarande folkgrupp
+              ivrigt åstundade invandring?
+            </seg>
+          </u>
           <note n="fce7d33d">
             Denna anhållan bordlades.
           </note>
@@ -1477,8 +1369,19 @@
           <note n="27405505">
             Herr ÖSTLUND (h), som yttrade:
           </note>
+          <u who="karin_wetterstrom_c48b24" xml:id="i-989bf0f37bb015b7-18" prev="i-989bf0f37bb015b7-4" n="989bf0f3">
+            <seg n="85647940">
+              De stora avstånden och det nordliga läget med de därav följande
+              klimatiska förhållandena å ena sidan och de stora naturrikedomarna
+              i skog, malm och vattenkraft å den andra har medfört att Norrlands
+              och det norrländska näringslivets problem i många avseenden ter
+              sig annorlunda än det övriga Sveriges. Detta har också uppmärksammats
+              i olika sammanhang, och många norrlandsfrågor har varit föremål
+              för utredningar.
+            </seg>
+          </u>
           <pb n="12" facs="https://betalab.kb.se/prot-1957--ak--3/prot_1957__ak__3-012.jp2/_view"/>
-          <note n="7ec0cf18">
+          <note type="date" n="7078d025">
             Torsdagen den 24 januari 1957
           </note>
           <note n="33420499">
@@ -1487,6 +1390,32 @@
           <note n="40028ea3">
             Interpellation ang. angelägenhetsgradering av olösta norrlandsfrågor
           </note>
+          <u who="karin_wetterstrom_c48b24" xml:id="i-989bf0f37bb015b7-19" prev="i-989bf0f37bb015b7-4" n="989bf0f3">
+            <seg n="e9a8b680">
+              Problemkomplexen har = emellertid varit många, och det har framstått
+              som angeläget att få till stånd en samordning och en angelägenhetsgradering
+              för att påskynda lösningen av de mest angelägna frågorna. I detta
+              syfte hemställde riksdagen i skrivelse nr 375/1953 om sådana överväganden,
+              utredningar, förslag och andra åtgärder, att kvarstående olösta
+              norrlandsfrågor kommer till sin rätt.
+            </seg>
+            <seg n="0b36b612">
+              Riksdagens hemställan resulterade i den pågående s. k. inventeringen
+              av olösta norrlandsfrågor. Med hänsyn till frågans stora vikt
+              samt mot bakgrunden av den långa tid som förflutit sedan inventeringsarbetet
+              påbörjades är det önskvärt att ett resultat snart kan redovisas.
+            </seg>
+            <seg n="2292e504">
+              Med stöd av det anförda anhåller jag om kammarens tillstånd att
+              till hans excellens statsministern få ställa följande fråga:
+            </seg>
+            <seg n="38b6fd9e">
+              Vill eders excellens lämna kammaren en redogörelse för huruvida
+              någon angelägenhetsgradering av olösta norrlandsfrågor hittills
+              företagits samt för de synpunkter i sak som kan ha anlagts på
+              de olika frågorna under inventeringsarbetet?
+            </seg>
+          </u>
           <note n="fce7d33d">
             Denna anhållan bordlades.
           </note>
@@ -1639,7 +1568,7 @@
             nr 146, av herr Johansson i Öckerö m. fl., om ett investeringsanslag
             till säkerhetsanstalter för sjöfarten,
           </note>
-          <note n="7ec0cf18">
+          <note type="date" n="7078d025">
             Torsdagen den 24 januari 1957
           </note>
           <note n="ec1da399">
@@ -1703,7 +1632,7 @@
             nr 160, av herr Fröding, i anledning
           </note>
           <pb n="14" facs="https://betalab.kb.se/prot-1957--ak--3/prot_1957__ak__3-014.jp2/_view"/>
-          <note n="7ec0cf18">
+          <note type="date" n="7078d025">
             Torsdagen den 24 januari 1957
           </note>
           <note n="39036896">
@@ -1868,7 +1797,7 @@
             nr 194, av herr Hedin m. fl., i anledning av Kungl. Maj:ts framställning
             om ökning av det belopp, som må disponeras för lån från fiskerilånefonden,
           </note>
-          <note n="f39431ac">
+          <note type="date" n="374cceab">
             Fredagen den 25 januari 1957
           </note>
           <note n="cffdeb9b">
@@ -1906,7 +1835,7 @@
             Kammarens ledamöter åtskildes härefter kl. 10.17. In fidem Gunnar
             Britth
           </note>
-          <note n="2f8d9e6d">
+          <note type="date" n="d0739923">
             Fredagen den 25 januari KI. 10.00
           </note>
           <note n="1bf31b24">
@@ -1939,7 +1868,7 @@
             nr 123, av herrar Nelander och Carlsson i Tibro,
           </note>
           <pb n="16" facs="https://betalab.kb.se/prot-1957--ak--3/prot_1957__ak__3-016.jp2/_view"/>
-          <note n="f39431ac">
+          <note type="date" n="374cceab">
             Fredagen den 25 januari 1957
           </note>
           <note n="abc97254">
@@ -2160,7 +2089,7 @@
           <note n="28ec91fe">
             18 Nr 3
           </note>
-          <note n="f39431ac">
+          <note type="date" n="374cceab">
             Fredagen den 25 januari 1957
           </note>
           <note n="d9662978">
@@ -2230,6 +2159,45 @@
           <note n="8675f8b4">
             Ordet lämnades på begäran till Herr NIHLFORS (fp), som anförde:
           </note>
+          <u who="karin_wetterstrom_c48b24" xml:id="i-989bf0f37bb015b7-20" prev="i-989bf0f37bb015b7-4" n="989bf0f3">
+            <seg n="e0e49c1d">
+              Herr talman! Det har visat sig att ljudisoleringen mellan lektionssalarna
+            </seg>
+            <seg n="6b7fcd6a">
+              och överspelningsrummen i den nybyggda musikhögskolan i Stockholm
+              lämnar åtskilligt övrigt att önska. Man skulle ha trott att åt
+              just ljudisoleringen i denna byggnad vid uppförandet skulle ha
+              ägnats ingående uppmärksamhet. En dålig ljudisolering gör självfallet
+              byggnaden i viss utsträckning obrukbar.
+            </seg>
+            <seg n="439ed78c">
+              Sedan bristerna upptäcktes i höstas har enligt uppgift byggnadsstyrelsen
+              påbörjat undersökningar i syfte att förbättra situationen, men
+              fara är att det blir ett pålappningsarbete, som inte kan ge fullgott
+              resultat utan mycket höga extra kostnader.
+            </seg>
+            <seg n="210e40d7">
+              Det vore mycket märkligt om Musikaliska akademiens representanter
+              icke blivit satta i tillfälle att medverka vid lösandet av problemen
+              med ljudisoleringen. Det har kanske även brustit i kontakten mellan
+              expertis av skilda slag.
+            </seg>
+            <seg n="7334149e">
+              Med hänvisning till vad ovan anförts får jag anhålla om andra
+              kammarens tillstånd att till statsrådet och chefen för ecklesiastikdepartementet
+              rikta följande frågor:
+            </seg>
+            <seg n="0c7a1de2">
+              Av vilken anledning har ljudisoleringen inom musikhögskolan blivit
+              så bristfällig, att undervisningen riskerar att i viss utsträckning
+              inte kunna genomföras?
+            </seg>
+            <seg n="515c7181">
+              Vem bär ansvaret för att bristerna uppstått, och vilka beräknas
+              kostnaderna bli för de extra arbeten som måste utföras för att
+              förbättra ljudisoleringen?
+            </seg>
+          </u>
           <note n="fce7d33d">
             Denna anhållan bordlades.
           </note>
@@ -2249,7 +2217,7 @@
             förslag
           </note>
           <pb n="18" facs="https://betalab.kb.se/prot-1957--ak--3/prot_1957__ak__3-018.jp2/_view"/>
-          <note n="f39431ac">
+          <note type="date" n="374cceab">
             Fredagen den 25 januari 1957
           </note>
           <note n="1d0ccee9">
@@ -2427,9 +2395,14 @@
             nr 239, av herr Hamrin i Kalmar m. fl., om en samordning och
             intensifiering av forskning och försöksverk-
           </note>
-          <note n="f39431ac">
+          <note type="date" n="374cceab">
             Fredagen den 25 januari 1957
           </note>
+          <u who="karin_wetterstrom_c48b24" xml:id="i-989bf0f37bb015b7-21" prev="i-989bf0f37bb015b7-4" n="989bf0f3">
+            <seg n="61b04807">
+              samhet rörande den enstaka bebyggelsens sanitetsproblem,
+            </seg>
+          </u>
           <note n="06fb246d">
             nr 240, av herr Karlsson i Stuvsta m. fl., i anledning av Kungl.
             Maj:ts framställning om vissa investeringsanslag under statens
@@ -2489,7 +2462,7 @@
             förstatligande,
           </note>
           <pb n="20" facs="https://betalab.kb.se/prot-1957--ak--3/prot_1957__ak__3-020.jp2/_view"/>
-          <note n="f39431ac">
+          <note type="date" n="374cceab">
             Fredagen den 25 januari 1957
           </note>
           <note n="09a9f97c">
@@ -2657,9 +2630,16 @@
           <note n="3d94b45c">
             nr 287, av herr Wahrendorff, om åt-
           </note>
-          <note n="f39431ac">
+          <note type="date" n="374cceab">
             Fredagen den 25 januari 1957
           </note>
+          <u who="karin_wetterstrom_c48b24" xml:id="i-989bf0f37bb015b7-22" prev="i-989bf0f37bb015b7-4" n="989bf0f3">
+            <seg n="7a296ee8">
+              gärder för verkställighet av riksdagens beslut om inrättandet
+              av en försöksgård för fasta jordbruksförsök och för inlandsjordbruket
+              i västra Sverige,
+            </seg>
+          </u>
           <note n="2dcaa132">
             nr 288, av herr Nilsson i Bästekille m. fl., om en utbyggnad
             av lantmäteriets skiftesoch distriktsorganisationer samt om viss
@@ -2701,13 +2681,13 @@
             Gunnar Britth
           </note>
           <pb n="22" facs="https://betalab.kb.se/prot-1957--ak--3/prot_1957__ak__3-022.jp2/_view"/>
-          <note n="9923afd5">
+          <note type="date" n="f77ae165">
             Lördagen den 26 januari 1957 fm.
           </note>
           <note n="b7caa03c">
             Nr 3 23
           </note>
-          <note n="946c1c83">
+          <note type="date" n="451f8956">
             Lördagen den 26 januari KL. 10.00
           </note>
           <note n="15ecba8d">
@@ -2979,7 +2959,7 @@
           <note n="0cddfe60">
             nr 277, av herr Rimås m. fl.,
           </note>
-          <note n="9923afd5">
+          <note type="date" n="f77ae165">
             Lördagen den 26 januari 1957 fm.
           </note>
           <note n="6d451dae">
@@ -3031,6 +3011,11 @@
           <note n="5fa88a79">
             nr 293, av fru Johansson m. fl.
           </note>
+          <u who="karin_wetterstrom_c48b24" xml:id="i-989bf0f37bb015b7-23" prev="i-989bf0f37bb015b7-4" n="989bf0f3">
+            <seg n="9452bd49">
+              83
+            </seg>
+          </u>
           <note n="2ae3ad5e">
             Föredrogs den av herr Nihlfors vid kammarens nästföregående sammanträde
             gjorda, men då bordlagda anhållan att få framställa interpellation
@@ -3062,7 +3047,7 @@
             Dessa propositioner bordlades.
           </note>
           <pb n="24" facs="https://betalab.kb.se/prot-1957--ak--3/prot_1957__ak__3-024.jp2/_view"/>
-          <note n="9923afd5">
+          <note type="date" n="f77ae165">
             Lördagen den 26 januari 1957 fm.
           </note>
           <note n="4e348212">
@@ -3256,7 +3241,7 @@
             nr 334, av herr Rylander m. fl., om anslag till arvode för utredning
             av driftstatistik m. m.,
           </note>
-          <note n="9923afd5">
+          <note type="date" n="f77ae165">
             Lördagen den 26 januari 1957 fm.
           </note>
           <note n="a37639c0">
@@ -3315,7 +3300,7 @@
             understödsföreningar och
           </note>
           <pb n="26" facs="https://betalab.kb.se/prot-1957--ak--3/prot_1957__ak__3-026.jp2/_view"/>
-          <note n="9923afd5">
+          <note type="date" n="f77ae165">
             Lördagen den 26 januari 1957 fm.
           </note>
           <note n="b7c9d4d8">
@@ -3507,9 +3492,15 @@
           <note n="8a907498">
             nor 387, av herr Cassel m. fl., om en
           </note>
-          <note n="9923afd5">
+          <note type="date" n="f77ae165">
             Lördagen den 26 januari 1957 fm.
           </note>
+          <u who="karin_wetterstrom_c48b24" xml:id="i-989bf0f37bb015b7-24" prev="i-989bf0f37bb015b7-4" n="989bf0f3">
+            <seg n="69c5a8d5">
+              avveckling av dyrortsgrupperingen vid inkomstbeskattningen av
+              fysiska personer,
+            </seg>
+          </u>
           <note n="8801f0fc">
             nr 388, av herr Wahrendorff, om en översyn av normerna för värdering
             av naturaförmåner vid deklaration för inkomstskatt,
@@ -3569,7 +3560,7 @@
             nr 402, av herrar Wachtmeister och
           </note>
           <pb n="28" facs="https://betalab.kb.se/prot-1957--ak--3/prot_1957__ak__3-028.jp2/_view"/>
-          <note n="9923afd5">
+          <note type="date" n="f77ae165">
             Lördagen den 26 januari 1957 fm.
           </note>
           <note n="e030a7fc">
@@ -3697,6 +3688,11 @@
           <note n="072bd0a3">
             30 Nr 3
           </note>
+          <u who="karin_wetterstrom_c48b24" xml:id="i-989bf0f37bb015b7-25" prev="i-989bf0f37bb015b7-4" n="989bf0f3">
+            <seg n="1a445612">
+              redande av ökade möjligheter till korttidsanställning för kvinnor,
+            </seg>
+          </u>
           <note n="47589435">
             nr 430, av herr Nihlfors, angående prövning av frågan om förbilligande,
             modernisering och större spridning av det statliga utredningstrycket,
@@ -3713,7 +3709,7 @@
             nr 433, av herr Spångberg, angående viss ändring av allmänna
             läkarinstruk-
           </note>
-          <note n="313b3d12">
+          <note type="date" n="92a4a71a">
             Lördagen den 26 januari 1957 em.
           </note>
           <note n="8fbfa57d">
@@ -3733,7 +3729,7 @@
           <note n="6d92a8ad">
             In fidem Gunnar Britth
           </note>
-          <note n="82e53977">
+          <note type="date" n="ae92ee1f">
             Lördagen den 26 januari KI. 19.30
           </note>
           <note n="68bbb029">
@@ -3767,6 +3763,11 @@
             nr 439, av herr Wachtmeister m. fl., i anledning av Kungl. Maj:ts
             framställ-
           </note>
+          <u who="karin_wetterstrom_c48b24" xml:id="i-989bf0f37bb015b7-26" prev="i-989bf0f37bb015b7-4" n="989bf0f3">
+            <seg n="9bb007b1">
+              ning om anslag till det frivilliga skytteväsendets befrämjande,
+            </seg>
+          </u>
           <note n="5358caa8">
             nr 440, av herr Håstad m. fl., om lån till Stockholms högskolas
             studentkår för tillbyggnad av studentkårens kårhus,
@@ -3796,7 +3797,7 @@
             nr 446, av herrar Dahlén och Gustaf-
           </note>
           <pb n="30" facs="https://betalab.kb.se/prot-1957--ak--3/prot_1957__ak__3-030.jp2/_view"/>
-          <note n="313b3d12">
+          <note type="date" n="92a4a71a">
             Lördagen den 26 januari 1957 em.
           </note>
           <note n="dde8bb79">
@@ -3812,6 +3813,13 @@
             nr 448, av herr von Friesen m. fl., i anledning av Kungl. Maj:ts
             framställning om anslag till åtgärder i kariesförebyggande syfte,
           </note>
+          <u who="karin_wetterstrom_c48b24" xml:id="i-989bf0f37bb015b7-27" prev="i-989bf0f37bb015b7-4" n="989bf0f3">
+            <seg n="1c4593c8">
+              nr 449, av herrar Wedén och Gustafson i Göteborg, om åtgärder
+              för avhjälpande av bostadsbristen för trångbodda familjer med
+              många barn,
+            </seg>
+          </u>
           <note n="589c7170">
             nr 450, av herr Nihlfors, angående stöd åt svenska grammofoninspelningar
             av seriös musik genom restitution av varuskatt på grammofonskivor,
@@ -3951,9 +3959,14 @@
           <note n="e38c0378">
             nr 480, av herr Hansson m. fl., om
           </note>
-          <note n="0d42d1e9">
+          <note type="date" n="11b67329">
             Onsdagen den 30 januari 1957
           </note>
+          <u who="karin_wetterstrom_c48b24" xml:id="i-989bf0f37bb015b7-28" prev="i-989bf0f37bb015b7-4" n="989bf0f3">
+            <seg n="2fe994dc">
+              utredning rörande trädgårdsnäringens problem,
+            </seg>
+          </u>
           <note n="927a546a">
             nr 481, av fru Ewerlöf m. fl., angående höjning av anslaget till
             understöd åt lanthushållningsseminariet å Rimforsa,
@@ -3963,6 +3976,14 @@
             framställning om anslag till bidrag till jordbrukets rationalisering,
             samt
           </note>
+          <u who="karin_wetterstrom_c48b24" xml:id="i-989bf0f37bb015b7-29" prev="i-989bf0f37bb015b7-4" n="989bf0f3">
+            <seg n="de44529e">
+              nr 483, av herr Håstad, angående skyndsamma åtgärder i syfte
+              att åstadkomma klargörande normer för vad offentliga tjänstemän
+              har att iakttaga i sina förbindelser i tjänsten och privat med
+              leverantörer och andra företag.
+            </seg>
+          </u>
           <note n="20324221">
             Dessa motioner bordlades. Kammarens ledamöter åtskildes härefter
             kl. 19.36.
@@ -3970,7 +3991,7 @@
           <note n="6d92a8ad">
             In fidem Gunnar Britth
           </note>
-          <note n="ba503bba">
+          <note type="date" n="cae84a3d">
             Onsdagen den 30 januari KIL. 14.00
           </note>
           <note n="15ecba8d">
@@ -3989,6 +4010,15 @@
           <note n="f3a8e7e5">
             Till riksdagens andra kammare
           </note>
+          <u who="karin_wetterstrom_c48b24" xml:id="i-989bf0f37bb015b7-30" prev="i-989bf0f37bb015b7-4" n="989bf0f3">
+            <seg n="761dfc56">
+              Stockholm
+            </seg>
+            <seg n="0a6a45f9">
+              Med stöd av närslutna läkarintyg får jag anhålla om befrielse
+              från riksdagsarbetet från den 29 januari till den 28 februari.
+            </seg>
+          </u>
           <note n="8204bfec">
             Stockholm den 29 januari 1957
           </note>
@@ -4016,7 +4046,7 @@
             sin plats i kammaren.
           </note>
           <pb n="32" facs="https://betalab.kb.se/prot-1957--ak--3/prot_1957__ak__3-032.jp2/_view"/>
-          <note n="0d42d1e9">
+          <note type="date" n="11b67329">
             Onsdagen den 30 januari 1957
           </note>
           <note n="bba5491a">
@@ -4031,6 +4061,12 @@
           <note n="4c462ebe">
             dens öppna anstalter 8 3 Svar på fråga ang. vidgad straffbarhet
           </note>
+          <u who="karin_wetterstrom_c48b24" xml:id="i-989bf0f37bb015b7-31" prev="i-989bf0f37bb015b7-4" n="989bf0f3">
+            <seg n="1ad1c661">
+              i sädana fall, då någon vid aga tillfogar den agade fysisk eller
+              psykisk skada
+            </seg>
+          </u>
           <note n="57ec9150">
             Ordet lämnades på begäran till
           </note>
@@ -4044,6 +4080,32 @@
             kap. 16 $ strafflagen, att straffbarheten vidgas i sådana fall,
             då någon vid aga tillfogar den agade fysisk eller psykisk skada.
           </note>
+          <u who="karin_wetterstrom_c48b24" xml:id="i-989bf0f37bb015b7-32" prev="i-989bf0f37bb015b7-4" n="989bf0f3">
+            <seg n="bff67d4e">
+              Till svar härpå får jag anföra följande.
+            </seg>
+            <seg n="6b2d1d38">
+              Den åsyftade bestämmelsen i strafflagen innebär, att kroppsskada
+              som tillfogas barn under utövning av laga rättighet att aga föranleder
+              straff för misshandel endast när svårare kroppsskada uppkommit.
+              Bestämmelsen står inte i samklang med den uppfattning om kroppsagan
+              såsom uppfostringsmedel som kommit till uttryck bl. a. i den nya
+              föräldrabalken, och lagstiftningen är alltså föråldrad på denna
+              punkt. En ändring har emellertid redan förberetts. I det förslag
+              till brottsbalk som framlagts av straffrättskommittén har sålunda
+              inte upptagits någon motsvarighet till 14 kap. 16 $ strafflagen.
+              Straffrättskommitténs förslag, som avser betydande ändringar i
+              olika delar av strafflagstiftningen, är under arbete i justitiedepartementet,
+              men på grund av dess stora omfattning torde det inte kunna framläggas
+              för riksdagen inom den närmaste tiden.
+            </seg>
+            <seg n="53087c65">
+              Då det emellertid under aganderättens täckmantel synes förekomma
+              upprörande fall av barnmisshandel, mot vilka åklagarmyndigheterna
+              på grund av strafflagens nuvarande innehåll inte anser sig kunna
+              ingripa, finner jag det
+            </seg>
+          </u>
           <note n="6b592109">
             angeläget att lagstiftningen snarast möjligt ändras i detta avseende.
             Det är därför min avsikt att utbryta straffrättskommitténs förslag
@@ -4057,7 +4119,7 @@
           <note type="speaker" n="ddb95aa3">
             Fru HOLMQVIST (s):
           </note>
-          <u who="mary_holmqvist_5e7388" xml:id="i-e9ce817e1e258fde-0" next="i-5993d07cc405ae9e-0" n="86be87c6">
+          <u who="mary_holmqvist_5e7388" xml:id="i-86be87c6ae897d14-0" next="i-86be87c6ae897d14-3" n="86be87c6">
             <seg n="bea2f5df">
               Herr talman! Jag ber att till statsrådet och chefen för justitiedepartementet
               få framföra mitt tack för hans positiva svar på min fråga. Särskilt
@@ -4074,13 +4136,19 @@
           <note n="d44518d5">
             Svar på fråga ang. samarbete mellan
           </note>
-          <u who="mary_holmqvist_5e7388" xml:id="i-5993d07cc405ae9e-0" prev="i-e9ce817e1e258fde-0" n="86be87c6">
+          <u who="mary_holmqvist_5e7388" xml:id="i-86be87c6ae897d14-1" prev="i-86be87c6ae897d14-0" n="86be87c6">
             <seg n="4f832260">
               statliga myndigheter och ortsrepresen-
             </seg>
             <seg n="b9247a71">
               tanter i samband med lokaliseringen av fångvårdens öppna anstalter
             </seg>
+          </u>
+          <note n="bce7ef94">
+            Chefen för justitiedepartementet, herr statsrådet ZETTERBERG,
+            erhöll på begäran ordet och yttrade:
+          </note>
+          <u who="mary_holmqvist_5e7388" xml:id="i-86be87c6ae897d14-2" prev="i-86be87c6ae897d14-0" n="86be87c6">
             <seg n="5b9aea54">
               Herr talman! Fröken Vinge har frågat mig, om jag vill medverka
               till ett bättre samarbete mellan statliga myndigheter och ortsrepresentanter
@@ -4094,6 +4162,18 @@
               en rad frågor som bör lösas i samverkan med kommunala myndigheter
               och andra lokala organ. Det gäller främst sådana
             </seg>
+          </u>
+          <note n="22b0172c">
+            3 -— Andra kammarens protokoll 1957. Nr 3
+          </note>
+          <pb n="33" facs="https://betalab.kb.se/prot-1957--ak--3/prot_1957__ak__3-033.jp2/_view"/>
+          <note n="1d7fbe95">
+            34 Nr 3
+          </note>
+          <note type="date" n="11b67329">
+            Onsdagen den 30 januari 1957
+          </note>
+          <u who="mary_holmqvist_5e7388" xml:id="i-86be87c6ae897d14-3" prev="i-86be87c6ae897d14-0" n="86be87c6">
             <seg n="87146c54">
               Svar på fråga ang. samarbete mellan statliga myndigheter och
               ortsrepresentanter i samband med lokaliseringen av fångvårdens
@@ -4124,27 +4204,13 @@
               inrättas efter de grundsatser som riksdagen har godkänt.
             </seg>
           </u>
-          <note n="bce7ef94">
-            Chefen för justitiedepartementet, herr statsrådet ZETTERBERG,
-            erhöll på begäran ordet och yttrade:
-          </note>
-          <note n="22b0172c">
-            3 -— Andra kammarens protokoll 1957. Nr 3
-          </note>
-          <pb n="33" facs="https://betalab.kb.se/prot-1957--ak--3/prot_1957__ak__3-033.jp2/_view"/>
-          <note n="1d7fbe95">
-            34 Nr 3
-          </note>
-          <note n="0d42d1e9">
-            Onsdagen den 30 januari 1957
-          </note>
           <note n="f125f808">
             Härefter anförde:
           </note>
           <note type="speaker" n="bdf2cb4b">
             Fröken VINGE (fp):
           </note>
-          <u who="margit_vinge_c316b7" xml:id="i-37324dd5d4dc563a-1" next="i-3459b798684d531a-1" n="b1b2ccd9">
+          <u who="margit_vinge_c316b7" xml:id="i-41e21b0aad833a7f-2" next="i-41e21b0aad833a7f-6" n="b1b2ccd9">
             <seg n="92a921bf">
               Herr talman! Jag ber att få tacka statsrådet och chefen för justitiedepartementet
               för det snabba svaret på min enkla fråga. Jag vill till en början
@@ -4187,13 +4253,13 @@
             </seg>
           </u>
           <pb n="34" facs="https://betalab.kb.se/prot-1957--ak--3/prot_1957__ak__3-034.jp2/_view"/>
-          <note n="0d42d1e9">
+          <note type="date" n="11b67329">
             Onsdagen den 30 januari 1957
           </note>
           <note n="ca1b941e">
             Nr 3 35
           </note>
-          <u who="margit_vinge_c316b7" xml:id="i-3459b798684d531a-1" prev="i-37324dd5d4dc563a-1" n="b1b2ccd9">
+          <u who="margit_vinge_c316b7" xml:id="i-41e21b0aad833a7f-3" prev="i-41e21b0aad833a7f-2" n="b1b2ccd9">
             <seg n="87146c54">
               Svar på fråga ang. samarbete mellan statliga myndigheter och
               ortsrepresentanter i samband med lokaliseringen av fångvårdens
@@ -4271,6 +4337,15 @@
               en anstalt som ligger i elt samhälle, där barn växer upp. Jag
               upprepar, herr talman, att vi har
             </seg>
+          </u>
+          <pb n="35" facs="https://betalab.kb.se/prot-1957--ak--3/prot_1957__ak__3-035.jp2/_view"/>
+          <note n="43a9524f">
+            36 Nr 3
+          </note>
+          <note type="date" n="11b67329">
+            Onsdagen den 30 januari 1957
+          </note>
+          <u who="margit_vinge_c316b7" xml:id="i-41e21b0aad833a7f-4" prev="i-41e21b0aad833a7f-2" n="b1b2ccd9">
             <seg n="87146c54">
               Svar på fråga ang. samarbete mellan statliga myndigheter och
               ortsrepresentanter i samband med lokaliseringen av fångvårdens
@@ -4289,6 +4364,11 @@
               att förlägga en anstalt dit uppskjutas. Annars riskerar man att
               syftet med verksamheten blir förfelat.
             </seg>
+          </u>
+          <note n="1b698394">
+            Chefen för justitiedepartementet, herr statsrådet ZETTERBERG:
+          </note>
+          <u who="margit_vinge_c316b7" xml:id="i-41e21b0aad833a7f-5" prev="i-41e21b0aad833a7f-2" n="b1b2ccd9">
             <seg n="8ce3d561">
               Herr talman! Med glädje har jag förstått av fröken Vinges anförande,
               att vi 1 princip har alldeles samma inställning till den viktiga,
@@ -4345,6 +4425,15 @@
               det är fråga om. På många orter har det emellertid, som jag underströk,
               blåst
             </seg>
+          </u>
+          <pb n="36" facs="https://betalab.kb.se/prot-1957--ak--3/prot_1957__ak__3-036.jp2/_view"/>
+          <note type="date" n="11b67329">
+            Onsdagen den 30 januari 1957
+          </note>
+          <note n="0dfa19ee">
+            Nr 3 ST
+          </note>
+          <u who="margit_vinge_c316b7" xml:id="i-41e21b0aad833a7f-6" prev="i-41e21b0aad833a7f-2" n="b1b2ccd9">
             <seg n="87146c54">
               Svar på fråga ang. samarbete mellan statliga myndigheter och
               ortsrepresentanter i samband med lokaliseringen av fångvårdens
@@ -4392,27 +4481,10 @@
               chef, överdirektör Göransson.
             </seg>
           </u>
-          <pb n="35" facs="https://betalab.kb.se/prot-1957--ak--3/prot_1957__ak__3-035.jp2/_view"/>
-          <note n="43a9524f">
-            36 Nr 3
-          </note>
-          <note n="0d42d1e9">
-            Onsdagen den 30 januari 1957
-          </note>
-          <note n="1b698394">
-            Chefen för justitiedepartementet, herr statsrådet ZETTERBERG:
-          </note>
-          <pb n="36" facs="https://betalab.kb.se/prot-1957--ak--3/prot_1957__ak__3-036.jp2/_view"/>
-          <note n="0d42d1e9">
-            Onsdagen den 30 januari 1957
-          </note>
-          <note n="0dfa19ee">
-            Nr 3 ST
-          </note>
           <note type="speaker" n="bdf2cb4b">
             Fröken VINGE (fp):
           </note>
-          <u who="margit_vinge_c316b7" xml:id="i-37324dd5d4dc563a-2" next="i-3459b798684d531a-2" n="b1b2ccd9">
+          <u who="margit_vinge_c316b7" xml:id="i-41e21b0aad833a7f-7" next="i-41e21b0aad833a7f-9" n="b1b2ccd9">
             <seg n="5df1a3a5">
               Herr talman! Statsrådet använde större delen av detta sitt inlägg
               till att tala vackra ord om värdet av kriminalvård i frihet, en
@@ -4451,10 +4523,10 @@
           <note n="22e4eb69">
             38 Nr 3
           </note>
-          <note n="0d42d1e9">
+          <note type="date" n="11b67329">
             Onsdagen den 30 januari 1957
           </note>
-          <u who="margit_vinge_c316b7" xml:id="i-3459b798684d531a-2" prev="i-37324dd5d4dc563a-2" n="b1b2ccd9">
+          <u who="margit_vinge_c316b7" xml:id="i-41e21b0aad833a7f-8" prev="i-41e21b0aad833a7f-7" n="b1b2ccd9">
             <seg n="87146c54">
               Svar på fråga ang. samarbete mellan statliga myndigheter och
               ortsrepresentanter i samband med lokaliseringen av fångvårdens
@@ -4465,6 +4537,11 @@
               bindande garantier för att inte uppenbart olämpliga element, som
               kan verka förledande på ungdomen, placeras i dessa hem?
             </seg>
+          </u>
+          <note n="1b698394">
+            Chefen för justitiedepartementet, herr statsrådet ZETTERBERG:
+          </note>
+          <u who="margit_vinge_c316b7" xml:id="i-41e21b0aad833a7f-9" prev="i-41e21b0aad833a7f-7" n="b1b2ccd9">
             <seg n="82badc03">
               Herr talman! Med anledning av vad fröken Vinge nu anförde vill
               jag upprepa — eftersom det kanske behövs —- vad jag sade i mitt
@@ -4494,13 +4571,10 @@
               i sina hem skall kunna tillgodoses.
             </seg>
           </u>
-          <note n="1b698394">
-            Chefen för justitiedepartementet, herr statsrådet ZETTERBERG:
-          </note>
           <note type="speaker" n="bdf2cb4b">
             Fröken VINGE (fp):
           </note>
-          <u who="margit_vinge_c316b7" xml:id="i-37324dd5d4dc563a-3" next="i-3459b798684d531a-3" n="b1b2ccd9">
+          <u who="margit_vinge_c316b7" xml:id="i-41e21b0aad833a7f-10" next="i-41e21b0aad833a7f-18" n="b1b2ccd9">
             <seg n="fd36bb30">
               Herr talman! Det finns tydligen fortfarande en klyfta mellan
               statsrådets och min inställning. Herr statsrådet säger
@@ -4531,7 +4605,7 @@
           <note n="1b698394">
             Chefen för justitiedepartementet, herr statsrådet ZETTERBERG:
           </note>
-          <u who="margit_vinge_c316b7" xml:id="i-3459b798684d531a-3" prev="i-37324dd5d4dc563a-3" n="b1b2ccd9">
+          <u who="margit_vinge_c316b7" xml:id="i-41e21b0aad833a7f-11" prev="i-41e21b0aad833a7f-10" n="b1b2ccd9">
             <seg n="24bb9c3c">
               Herr talman! Både fröken Vinge och jag försöker att gå så fint
               och nätt som möjligt som katten kring den heta Nacka-gröten, och
@@ -4542,6 +4616,31 @@
               det visat sig vara synnerligen svårt att fylla de krav som måste
               ställas. Detta har spelat en väsentlig roll vid förfarandet.
             </seg>
+          </u>
+          <note n="a506803c">
+            Härmed var överläggningen slutad.
+          </note>
+          <pb n="38" facs="https://betalab.kb.se/prot-1957--ak--3/prot_1957__ak__3-038.jp2/_view"/>
+          <note type="date" n="11b67329">
+            Onsdagen den 30 januari 1957
+          </note>
+          <note n="bccb97c4">
+            $ 5
+          </note>
+          <note n="d5a983f9">
+            5
+          </note>
+          <note n="8d334a1f">
+            Svar på fråga i anledning av Kungl. Maj:ts avslag på framställning
+            om förlängt importstopp för utländsk frukt
+          </note>
+          <note n="7ab58184">
+            Herr talmannen lämnade på begäran ordet till
+          </note>
+          <note n="2e8e1fd2">
+            Chefen för handelsdepartementet, herr statsrådet LANGE, som yttrade:
+          </note>
+          <u who="margit_vinge_c316b7" xml:id="i-41e21b0aad833a7f-12" prev="i-41e21b0aad833a7f-10" n="b1b2ccd9">
             <seg n="ee4ad07b">
               Herr talman! Herr Nilsson i Bästekille har i en fråga till chefen
               för jordbruksdepartementet anhållit om upplysning rörande de motiv,
@@ -4572,6 +4671,18 @@
               april 1957 som första importdag. Frukthandelns representanter
               önskade å sin sida en omedel-
             </seg>
+          </u>
+          <note n="76dfa5be">
+            Nr 3 39
+          </note>
+          <note n="46751d1c">
+            bar frilistning av importen. Då enighet icke kunde nås, beslöt
+            jordbruksnämnden att importen skulle frisläppas fr. o. m. den
+            11 februari 1957. Detta beslut, som var enhälligt inom nämnden,
+            innebar jämfört med tidigare år en förlängning av den importförbjudna
+            perioden med 6 veckor.
+          </note>
+          <u who="margit_vinge_c316b7" xml:id="i-41e21b0aad833a7f-13" prev="i-41e21b0aad833a7f-10" n="b1b2ccd9">
             <seg n="19d2b2d7">
               Över nämndens beslut anfördes besvär hos Kungl. Maj:t från båda
               de intresserade parterna, som vidhöll sina inför - jordbruksnämnden
@@ -4599,6 +4710,19 @@
               jordbruksnämndens beslut bör bestå oförändrat. Besvären har därför
               i den se-
             </seg>
+          </u>
+          <pb n="39" facs="https://betalab.kb.se/prot-1957--ak--3/prot_1957__ak__3-039.jp2/_view"/>
+          <note n="2857ddee">
+            40 Nr 3
+          </note>
+          <note type="date" n="11b67329">
+            Onsdagen den 30 januari 1957
+          </note>
+          <note n="6bdff0de">
+            Svar på fråga i anledning av Kungl. Maj:ts avslag på framställning
+            om förlängt
+          </note>
+          <u who="margit_vinge_c316b7" xml:id="i-41e21b0aad833a7f-14" prev="i-41e21b0aad833a7f-10" n="b1b2ccd9">
             <seg n="725fe4e5">
               importstopp för utländsk frukt
             </seg>
@@ -4607,6 +4731,14 @@
               på äpplen under den närmaste tiden kommer att nära följas av prisoch
               kartellnämnden.
             </seg>
+          </u>
+          <note n="187173fe">
+            Vidare anförde:
+          </note>
+          <note n="e52661ed">
+            Herr NILSSON i Göingegården (h):
+          </note>
+          <u who="margit_vinge_c316b7" xml:id="i-41e21b0aad833a7f-15" prev="i-41e21b0aad833a7f-10" n="b1b2ccd9">
             <seg n="3653a10f">
               Herr talman! Då frågeställaren, herr Nilsson i Bästekille, är
               förhindrad att här i dag själv tacka försvaret, ber jag med herr
@@ -4676,6 +4808,19 @@
               förhindrad att närvara i dag, ty han representerar ju det län
               där man mer
             </seg>
+          </u>
+          <pb n="40" facs="https://betalab.kb.se/prot-1957--ak--3/prot_1957__ak__3-040.jp2/_view"/>
+          <note type="date" n="11b67329">
+            Onsdagen den 30 januari 1957
+          </note>
+          <note n="98f8b4cf">
+            Nr 3 41
+          </note>
+          <note n="6bdff0de">
+            Svar på fråga i anledning av Kungl. Maj:ts avslag på framställning
+            om förlängt
+          </note>
+          <u who="margit_vinge_c316b7" xml:id="i-41e21b0aad833a7f-16" prev="i-41e21b0aad833a7f-10" n="b1b2ccd9">
             <seg n="725fe4e5">
               importstopp för utländsk frukt
             </seg>
@@ -4688,6 +4833,11 @@
               svensk vara som i fråga om kvaliteten är fullt jämförbar med den
               importerade.
             </seg>
+          </u>
+          <note n="4ca8b6a3">
+            Chefen för handelsdepartementet, herr statsrådet LANGE:
+          </note>
+          <u who="margit_vinge_c316b7" xml:id="i-41e21b0aad833a7f-17" prev="i-41e21b0aad833a7f-10" n="b1b2ccd9">
             <seg n="b8f1f0ee">
               Herr talman! Vi får väl vara tacksamma för att åtminstone herr
               Nilsson i Göingegården här velat företräda den frågandes uppfattning,
@@ -4752,6 +4902,19 @@
               även de svenska konsumenternas. Jag vill understryka än en gång,
               att det
             </seg>
+          </u>
+          <pb n="41" facs="https://betalab.kb.se/prot-1957--ak--3/prot_1957__ak__3-041.jp2/_view"/>
+          <note n="5c0970a1">
+            42 Nr 3
+          </note>
+          <note type="date" n="11b67329">
+            Onsdagen den 30 januari 1957
+          </note>
+          <note n="6bdff0de">
+            Svar på fråga i anledning av Kungl. Maj:ts avslag på framställning
+            om förlängt
+          </note>
+          <u who="margit_vinge_c316b7" xml:id="i-41e21b0aad833a7f-18" prev="i-41e21b0aad833a7f-10" n="b1b2ccd9">
             <seg n="725fe4e5">
               importstopp för utländsk frukt
             </seg>
@@ -4763,7 +4926,7 @@
           <note type="speaker" n="84c10ce6">
             Herr NILSSON i Göingegården (h):
           </note>
-          <u who="torsten_nilsson_ba139a" xml:id="i-7747b4109a22034d-0" n="8c5c5798">
+          <u who="torsten_nilsson_ba139a" xml:id="i-8c5c5798fff23e36-0" next="i-41e21b0aad833a7f-26" n="8c5c5798">
             <seg n="5c7cc4bc">
               Herr talman! Herr statsrådet säger att detta är en kompromiss,
               men det måste man nog ta med en viss reservation. De parter som
@@ -4794,6 +4957,11 @@
             <seg n="d14c1fc2">
               hade även våra odlare mycket väl kunnat gå med på en frilistning.
             </seg>
+          </u>
+          <note n="4ca8b6a3">
+            Chefen för handelsdepartementet, herr statsrådet LANGE:
+          </note>
+          <u who="torsten_nilsson_ba139a" xml:id="i-41e21b0aad833a7f-19" prev="i-8c5c5798fff23e36-0" n="8c5c5798">
             <seg n="518572e1">
               Herr talman! Jag vill erinra herr Nilsson i Göingegården om att
               när tullen höjdes 1955 anfördes det i olika sammanhang att detta
@@ -4819,297 +4987,7 @@
               skulle tillämpas över huvud taget samt fruktodlarnas önskemål
               om att utsträcka tiden till den 1 april.
             </seg>
-            <seg n="bc584f15">
-              Härmed får jag anhålla om entledigande från uppdraget att vara
-              fullmäktig i riksbanken.
-            </seg>
-            <seg n="229e4ba4">
-              Filip Kristensson
-            </seg>
-            <seg n="1cdadf51">
-              Herr talman! Fredagen den 18 maj förra året biföll kammaren min
-              anhållan att få framställa några frågor om de försämrade resemöjligheterna
-              till och från Halland till statsrådet och chefen för kommunikationsdepartementet.
-              Genom någon tillfällighet råkade min interpellation icke bli besvarad,
-              varför jag ber att få upprepa min fråga.
-            </seg>
-            <seg n="8fbe7061">
-              När SJ kungjorde sommarens tidtabell, kunde man i halmstadstidningarna
-              läsa därom under rubrikerna »SJ-nytt på gott och ont för västkusten
-              i sommar» och »Tidtabellen försämrar trafiken för Halmstad».
-            </seg>
-            <seg n="42286aae">
-              SJ har ändrat det nordgående nattsnälltågets tidtabell så att
-              det ej kommer att stanna vid någon station inom Halland. Därmed
-              bryts sovvagnsförbindelse med Oslo. Resande från Danmark och kontinenten
-              till Halland tvingas härigenom ävenledes att lämna kontinentaltågets
-              genomgående vagnar i Hälsingborg för att byta till ett nyinsatt
-              snabbgående sommarpersontåg, som dock ej tycks vara avsett att
-              stanna i Laholm. På plussidan må antecknas att detta tåg medför
-              förbindelse med Falun och Gävle, men tågbyte tycks skola ske klockan
-              halv fyra på morgonen i Göteborg.
-            </seg>
-            <seg n="4da704d3">
-              Åren 1953—1955 hade Halmstad en mycket förnämlig förbindelse
-              med huvudstaden. Man kunde resa med expresståg från Halmstad vid
-              fyratiden till Göteborg och där få förbindelse med expresståget
-              mot Stockholm, dit man kom vid halveivatiden på kvällen. Denna
-              förbindelse bröts sommaren 1955.
-            </seg>
-            <seg n="f0d3048d">
-              Om nu denna nyssnämnda förbindelse mellan Halmstad och Stockholm
-              via Göteborg ej skulle kunna gå att ordna, borde en snabb eftermiddagsförbindelse
-              med Stockholm kunna åstadkommas över Veinge—Hässleholm. Tåg går
-              från Halmstad kl. 15.53 och kommer till Hässleholm kl. 17.26.
-              Expresståg med ankomst till Stockholm kl. 23.15 avgår från Hässleholm
-              kl. 17.28, men
-            </seg>
-            <seg n="2563354e">
-              förbindelse med tåget från Halmstad finns icke.
-            </seg>
-            <seg n="be2a8f86">
-              Tidigare hade ett tåg från Jönköping, Nässjö och Falköping med
-              ankomst klockan 10.23 till Halmstad anknytning söderut. Denna
-              har upphört.
-            </seg>
-            <seg n="738f46c9">
-              Från Halmstad går ett tåg kl. 21.02 med sovvagnsförbindelse med
-              Stockholm. Detta tåg gick tidigare kl. 21.05 och hade då förbindelse
-              med den s. k. snabbvagnen från Nässjö, vilken kom till Halmstad
-              kl. 20.58. Härigenom kunde resande från sträckan Värnamo— Halmstad
-              nå sovvagnen till Stockholm. Denna förbindelse är bruten.
-            </seg>
-            <seg n="a6a2b90a">
-              Som synes har SJ:s ändringar i tidtabellerna för hallänningarnas
-              del i stor utsträckning varit baklängesreformer. Missnöjet är
-              också stort, och man måste förstå, att allmänheten klagar och
-              reagerar när det blir sämre än det har varit.
-            </seg>
-            <seg n="b85bfc54">
-              Med anledning av vad jag här har anfört ber jag om kammarens
-              tillstånd att till statsrådet och chefen för kommunikationsdepartementet
-              få framställa följande frågor:
-            </seg>
-            <seg n="a98a34b3">
-              Har herr statsrådet observerat de försämrade resemöjligheterna
-              från och till Halland?
-            </seg>
-            <seg n="fd08e383">
-              Ämnar herr statsrådet vidtaga åtgärder för att få en rättelse
-              till stånd?
-            </seg>
-            <seg n="bd1f650f">
-              Herr talman! Den 22 januari besvarade handelsministern en interpellation
-              av herr Svensson i Stenkyrka angående den aktuella bränslesituationen,
-              och av svaret framgick, att statsrådet hade full förståelse för
-              det nuvarande söndagskörförbudets olägenheter, framför allt för
-              landsbygden, varför det icke vore lämpligt att under en längre
-              tid
-            </seg>
-            <seg n="a98fd0af">
-              bibehålla detsamma. Ingen kunde av statsrådets svar få det intrycket,
-              att ytterligare inskränkningar i licensgivningen vore att förvänta.
-            </seg>
-            <seg n="ebaf7356">
-              Efter interpellationens besvarande kom emellertid vederbörande
-              skytteförbund till handa en skrivelse från statens handelsoch
-              industrikommission av den 19 januari, varigenom tidigare medgivande
-              för länsstyrelserna att utfärda söndagskörlicens i vad avsåge
-              färd till och från fältskjutning återkallades. Som skäl anförde
-              bränsleavdelningen, att licensgivningen tagit en icke avsedd omfattning
-              samt vid jämförelse med andra icke tillgodosedda körbehov visat
-              sig framstå såsom mindre motiverad.
-            </seg>
-            <seg n="b59a77c1">
-              Vilken omfattning man inom handelsoch industrikommissionen tänkt
-              sig, att söndagskörlicensgivningen skulle få är mig obekant, men
-              man synes icke från början haft klart för sig, att fältskjutningar
-              landet runt varje söndag samlar åtskilliga tusentals skyttar.
-              Det bör framhållas, att det här är fråga om aktiva deltagare,
-              icke om åskådare. När från början skyttet undantogs från söndagskörförbudet,
-              blev det en hederssak för ledarna att tillse, att detta myndigheternas
-              förtroende icke skulle svikas och att därför i första hand ordinarie
-              förbindelser, i andra hand abonnerade bussar eller trafikbilar
-              skulle utnyttjas.
-            </seg>
-            <seg n="0f51da44">
-              Skytteförbundens överstyrelse har låtit verkställa en utredning
-              beträffande licensgivningen inom de olika länens skytteförbund
-              och därav framgår, att något missbruk av licensgivningen icke
-              skett, tvärtom har man varit ytterligt restriktiv, med undantag
-              möjligen för Gävleborgs län, där ett påfallande stort antal körtillstånd
-              beviljats. På grund av bristande kännedom om de lokala förhållandena
-              därstädes kan jag dock icke påstå, att man ens där varit för generös.
-              Den verkställda utredningen ger icke heller underlag för någon
-              sådan bedömning i vad avser Västerbottens län, där länsstyrelsen
-              beviljat ett
-            </seg>
-            <seg n="aa497343">
-              flertal ansökningar utan skytteförbundets hörande, icke heller
-              för Jämtlands län, där landsfiskalerna på länsstyrelsens uppdrag
-              handlagt licensärendena. I förbigående må i detta sammanhang ifrågasättas,
-              om icke detta vore den lämpligaste vägen att gå i hela riket,
-              enär landsfiskalerna givetvis bättre än såväl länsstyrelse som
-              handelsoch industrikommission har förutsättningar att avgöra behovet.
-            </seg>
-            <seg n="8ec92ba2">
-              Från skytteförbunden här för tillstyrkan krävts samkörning, och
-              enär ansökan om tillstånd innehåller fullständig uppgift på körväg
-              och namn på medföljande skyttar, har man från länsstyrelserna
-              lätt kunnat konstatera, att icke något missbruk skett. Bilarna
-              har som regel varit fullsatta, och körning för ensam skytt har
-              blott i speciella undantagsfall tillstyrkts.
-            </seg>
-            <seg n="822f9603">
-              Den verkställda skärpningen av licensgivningen har verkat mycket
-              ojämnt. En del skytteförbund har varit förutseende nog att begära
-              licens för hela fältskyttesäsongen, d. v. s. till in i maj månad,
-              och dessa redan beviljade tillstånd beröres icke av det fortsatta
-              förbudet.
-            </seg>
-            <seg n="978dcc9c">
-              Då landsbygdens kommunikationer är avpassade med hänsyn till
-              det stora antalet privatbilar, är det för närvarande otänkbart
-              att utnyttja de allmänna samfärdsmedlen. Framför allt i de nordligare
-              norrlandslänen får körförbudet ödeläggande konsekvenser för fältskytteverksamheten,
-              d. v. s. den viktigaste grenen av skytterörelsen, den gren, vilken
-              statens anslag huvudsakligen är avsedd att befordra. Det är dock
-              icke blott norrlandslänens kommunikatio-
-            </seg>
-            <seg n="8c062f1b">
-              ner, som ej går att utnyttja för fältskjutningarna. Malmöhus
-              läns skytteförbunds stridsskjutning i St. Köpinge, en ort som
-              helt saknar kommunikationer, torde sålunda få inställas. Inom
-              Kristianstads län måste en del skyttar, därest tåg och bussar
-              skall användas, anslå två dagar för resa till och från den kommande
-              förbundsfältskjutningen på Ravlundafältet. Av bebyggelseoch säkerhetsskäl
-              kan f. ö. fältskjutning på de flesta håll icke läggas i närheten
-              av järnvägsstation.
-            </seg>
-            <seg n="c9246367">
-              Kort sagt, landsbygdens glesa bebyggelse och därav föranledda
-              indragningar av bussturer försvårar till ytterlighet lantbornas
-              deltagande i fältskjutning, om egen bil ej får användas. Det finnes
-              exempel på att trafikbil måst beställas flera veckor före avsedd
-              söndagskörning. Besparingen av drivmedel blir, när trafikbil måste
-              användas, förbytt i sin raka motsats, grovt slöseri, enär en taxi
-              givetvis icke har tillfälle att hela dagen vänta på samlingsplatsen
-              för en fältskjutning utan under mellantiden återvänder till sin
-              stationsort, således dubbel körsträcka.
-            </seg>
-            <seg n="239d6daa">
-              Vad beträffar handelsoch industrikommissionens uttalande, att
-              licensgivningen för färd till fältskjutning visat sig vid jämförelse
-              med andra icke tillgodosedda körbehov framstå såsom mindre motiverad,
-              torde det vara tillräckligt med en hänvisning till den väsentliga
-              betydelse för vår försvarskraft, som från ansvarigt håll tillmätts
-              skytterörelsen, främst dess fältoch stridsskjutningar. Någon grundläggande
-              artskillnad mellan denna frivilliga försvarsverksamhet och exempelvis
-              hemvärnets eller den frivilliga befälsutbildningens övningar,
-              vilka icke drabbats av den vidtagna beskärningen av tillståndsgivningen,
-              föreligger icke. En hänvisning till ett eventuellt lättande tillståndstvång
-              fram på vårkanten är för fältskyttet av föga värde, enär då inga
-              sådana skjutningar bedrives. Fältskjutningarnas betydelse för
-              försvaret
-            </seg>
-            <seg n="3f267aca">
-              understrykes ytterligare av chefens för armén efter den senaste
-              skärpningen i skrivelse uttalade betänkligheter.
-            </seg>
-            <seg n="b8a9cfaf">
-              Med anledning av vad ovan anförts får jag härmed anhålla om andra
-              kammarens tillstånd att till statsrådet och chefen för handelsdepartementet
-              framställa följande frågor:
-            </seg>
-            <seg n="57e83b73">
-              1. Har vårt försörjningsläge beträffande flytande drivmedel så
-              katastrofalt försämrats, att ovan påtalad skärpning av söndagskörlicensgivningen
-              blivit nödvändig?
-            </seg>
-            <seg n="2e9f11ef">
-              2. Hur kommer handelsministern att ställa sig till tillfälliga
-              körtillstånd för deltagande i de svenska mästerskapen och riksfältskjutningen
-              på skidor i Jämtland den 23 och 24 februari?
-            </seg>
           </u>
-          <note n="a506803c">
-            Härmed var överläggningen slutad.
-          </note>
-          <pb n="38" facs="https://betalab.kb.se/prot-1957--ak--3/prot_1957__ak__3-038.jp2/_view"/>
-          <note n="0d42d1e9">
-            Onsdagen den 30 januari 1957
-          </note>
-          <note n="bccb97c4">
-            $ 5
-          </note>
-          <note n="d5a983f9">
-            5
-          </note>
-          <note n="8d334a1f">
-            Svar på fråga i anledning av Kungl. Maj:ts avslag på framställning
-            om förlängt importstopp för utländsk frukt
-          </note>
-          <note n="7ab58184">
-            Herr talmannen lämnade på begäran ordet till
-          </note>
-          <note n="2e8e1fd2">
-            Chefen för handelsdepartementet, herr statsrådet LANGE, som yttrade:
-          </note>
-          <note n="76dfa5be">
-            Nr 3 39
-          </note>
-          <note n="46751d1c">
-            bar frilistning av importen. Då enighet icke kunde nås, beslöt
-            jordbruksnämnden att importen skulle frisläppas fr. o. m. den
-            11 februari 1957. Detta beslut, som var enhälligt inom nämnden,
-            innebar jämfört med tidigare år en förlängning av den importförbjudna
-            perioden med 6 veckor.
-          </note>
-          <pb n="39" facs="https://betalab.kb.se/prot-1957--ak--3/prot_1957__ak__3-039.jp2/_view"/>
-          <note n="2857ddee">
-            40 Nr 3
-          </note>
-          <note n="0d42d1e9">
-            Onsdagen den 30 januari 1957
-          </note>
-          <note n="6bdff0de">
-            Svar på fråga i anledning av Kungl. Maj:ts avslag på framställning
-            om förlängt
-          </note>
-          <note n="187173fe">
-            Vidare anförde:
-          </note>
-          <note n="e52661ed">
-            Herr NILSSON i Göingegården (h):
-          </note>
-          <pb n="40" facs="https://betalab.kb.se/prot-1957--ak--3/prot_1957__ak__3-040.jp2/_view"/>
-          <note n="0d42d1e9">
-            Onsdagen den 30 januari 1957
-          </note>
-          <note n="98f8b4cf">
-            Nr 3 41
-          </note>
-          <note n="6bdff0de">
-            Svar på fråga i anledning av Kungl. Maj:ts avslag på framställning
-            om förlängt
-          </note>
-          <note n="4ca8b6a3">
-            Chefen för handelsdepartementet, herr statsrådet LANGE:
-          </note>
-          <pb n="41" facs="https://betalab.kb.se/prot-1957--ak--3/prot_1957__ak__3-041.jp2/_view"/>
-          <note n="5c0970a1">
-            42 Nr 3
-          </note>
-          <note n="0d42d1e9">
-            Onsdagen den 30 januari 1957
-          </note>
-          <note n="6bdff0de">
-            Svar på fråga i anledning av Kungl. Maj:ts avslag på framställning
-            om förlängt
-          </note>
-          <note n="4ca8b6a3">
-            Chefen för handelsdepartementet, herr statsrådet LANGE:
-          </note>
           <note n="ec7bd152">
             Överläggningen var härmed slutad.
           </note>
@@ -5128,7 +5006,7 @@
             och
           </note>
           <pb n="42" facs="https://betalab.kb.se/prot-1957--ak--3/prot_1957__ak__3-042.jp2/_view"/>
-          <note n="0d42d1e9">
+          <note type="date" n="11b67329">
             Onsdagen den 30 januari 1957
           </note>
           <note n="a8675188">
@@ -5459,7 +5337,7 @@
           <note n="4c4d1671">
             nr 398, av herrar Rimmerfors och Keijer, samt
           </note>
-          <note n="0d42d1e9">
+          <note type="date" n="11b67329">
             Onsdagen den 30 januari 1957
           </note>
           <note n="663d6570">
@@ -5566,7 +5444,7 @@
             nr 434, av herr Hagnell;
           </note>
           <pb n="44" facs="https://betalab.kb.se/prot-1957--ak--3/prot_1957__ak__3-044.jp2/_view"/>
-          <note n="0d42d1e9">
+          <note type="date" n="11b67329">
             Onsdagen den 30 januari 1957
           </note>
           <note n="d7ce81b3">
@@ -5761,9 +5639,20 @@
           <note n="f1707ba7">
             Till riksdagen
           </note>
+          <u who="torsten_nilsson_ba139a" xml:id="i-41e21b0aad833a7f-20" prev="i-8c5c5798fff23e36-0" n="8c5c5798">
+            <seg n="bc584f15">
+              Härmed får jag anhålla om entledigande från uppdraget att vara
+              fullmäktig i riksbanken.
+            </seg>
+          </u>
           <note n="5f7baa9f">
             Umeå den 25 januari 1957
           </note>
+          <u who="torsten_nilsson_ba139a" xml:id="i-41e21b0aad833a7f-21" prev="i-8c5c5798fff23e36-0" n="8c5c5798">
+            <seg n="229e4ba4">
+              Filip Kristensson
+            </seg>
+          </u>
           <note n="b017b0e5">
             Kammaren godkände för sin del denna anhållan och beslöt att i
             anledning därav val av en fullmäktig i riksbanken efter herr Kristensson
@@ -5783,7 +5672,7 @@
           <note n="082af531">
             46 Nr 3
           </note>
-          <note n="0d42d1e9">
+          <note type="date" n="11b67329">
             Onsdagen den 30 januari 1957
           </note>
           <note n="d2208a3d">
@@ -5792,6 +5681,80 @@
           <note n="aae4de5d">
             Herr NESTRUP (fp), som yttrade:
           </note>
+          <u who="torsten_nilsson_ba139a" xml:id="i-41e21b0aad833a7f-22" prev="i-8c5c5798fff23e36-0" n="8c5c5798">
+            <seg n="1cdadf51">
+              Herr talman! Fredagen den 18 maj förra året biföll kammaren min
+              anhållan att få framställa några frågor om de försämrade resemöjligheterna
+              till och från Halland till statsrådet och chefen för kommunikationsdepartementet.
+              Genom någon tillfällighet råkade min interpellation icke bli besvarad,
+              varför jag ber att få upprepa min fråga.
+            </seg>
+            <seg n="8fbe7061">
+              När SJ kungjorde sommarens tidtabell, kunde man i halmstadstidningarna
+              läsa därom under rubrikerna »SJ-nytt på gott och ont för västkusten
+              i sommar» och »Tidtabellen försämrar trafiken för Halmstad».
+            </seg>
+            <seg n="42286aae">
+              SJ har ändrat det nordgående nattsnälltågets tidtabell så att
+              det ej kommer att stanna vid någon station inom Halland. Därmed
+              bryts sovvagnsförbindelse med Oslo. Resande från Danmark och kontinenten
+              till Halland tvingas härigenom ävenledes att lämna kontinentaltågets
+              genomgående vagnar i Hälsingborg för att byta till ett nyinsatt
+              snabbgående sommarpersontåg, som dock ej tycks vara avsett att
+              stanna i Laholm. På plussidan må antecknas att detta tåg medför
+              förbindelse med Falun och Gävle, men tågbyte tycks skola ske klockan
+              halv fyra på morgonen i Göteborg.
+            </seg>
+            <seg n="4da704d3">
+              Åren 1953—1955 hade Halmstad en mycket förnämlig förbindelse
+              med huvudstaden. Man kunde resa med expresståg från Halmstad vid
+              fyratiden till Göteborg och där få förbindelse med expresståget
+              mot Stockholm, dit man kom vid halveivatiden på kvällen. Denna
+              förbindelse bröts sommaren 1955.
+            </seg>
+            <seg n="f0d3048d">
+              Om nu denna nyssnämnda förbindelse mellan Halmstad och Stockholm
+              via Göteborg ej skulle kunna gå att ordna, borde en snabb eftermiddagsförbindelse
+              med Stockholm kunna åstadkommas över Veinge—Hässleholm. Tåg går
+              från Halmstad kl. 15.53 och kommer till Hässleholm kl. 17.26.
+              Expresståg med ankomst till Stockholm kl. 23.15 avgår från Hässleholm
+              kl. 17.28, men
+            </seg>
+            <seg n="2563354e">
+              förbindelse med tåget från Halmstad finns icke.
+            </seg>
+            <seg n="be2a8f86">
+              Tidigare hade ett tåg från Jönköping, Nässjö och Falköping med
+              ankomst klockan 10.23 till Halmstad anknytning söderut. Denna
+              har upphört.
+            </seg>
+            <seg n="738f46c9">
+              Från Halmstad går ett tåg kl. 21.02 med sovvagnsförbindelse med
+              Stockholm. Detta tåg gick tidigare kl. 21.05 och hade då förbindelse
+              med den s. k. snabbvagnen från Nässjö, vilken kom till Halmstad
+              kl. 20.58. Härigenom kunde resande från sträckan Värnamo— Halmstad
+              nå sovvagnen till Stockholm. Denna förbindelse är bruten.
+            </seg>
+            <seg n="a6a2b90a">
+              Som synes har SJ:s ändringar i tidtabellerna för hallänningarnas
+              del i stor utsträckning varit baklängesreformer. Missnöjet är
+              också stort, och man måste förstå, att allmänheten klagar och
+              reagerar när det blir sämre än det har varit.
+            </seg>
+            <seg n="b85bfc54">
+              Med anledning av vad jag här har anfört ber jag om kammarens
+              tillstånd att till statsrådet och chefen för kommunikationsdepartementet
+              få framställa följande frågor:
+            </seg>
+            <seg n="a98a34b3">
+              Har herr statsrådet observerat de försämrade resemöjligheterna
+              från och till Halland?
+            </seg>
+            <seg n="fd08e383">
+              Ämnar herr statsrådet vidtaga åtgärder för att få en rättelse
+              till stånd?
+            </seg>
+          </u>
           <note n="f443b9d9">
             Kammaren biföll denna anhållan.
           </note>
@@ -5804,8 +5767,18 @@
           <note n="4fb5bc44">
             Herr WACHTMEISTER (h) erhöll på begäran ordet och anförde:
           </note>
+          <u who="torsten_nilsson_ba139a" xml:id="i-41e21b0aad833a7f-23" prev="i-8c5c5798fff23e36-0" n="8c5c5798">
+            <seg n="bd1f650f">
+              Herr talman! Den 22 januari besvarade handelsministern en interpellation
+              av herr Svensson i Stenkyrka angående den aktuella bränslesituationen,
+              och av svaret framgick, att statsrådet hade full förståelse för
+              det nuvarande söndagskörförbudets olägenheter, framför allt för
+              landsbygden, varför det icke vore lämpligt att under en längre
+              tid
+            </seg>
+          </u>
           <pb n="46" facs="https://betalab.kb.se/prot-1957--ak--3/prot_1957__ak__3-046.jp2/_view"/>
-          <note n="0d42d1e9">
+          <note type="date" n="11b67329">
             Onsdagen den 30 januari 1957
           </note>
           <note n="002b5609">
@@ -5814,6 +5787,54 @@
           <note n="d2208a3d">
             Interpellation om vissa lättnader i söndagskörförbudet
           </note>
+          <u who="torsten_nilsson_ba139a" xml:id="i-41e21b0aad833a7f-24" prev="i-8c5c5798fff23e36-0" n="8c5c5798">
+            <seg n="a98fd0af">
+              bibehålla detsamma. Ingen kunde av statsrådets svar få det intrycket,
+              att ytterligare inskränkningar i licensgivningen vore att förvänta.
+            </seg>
+            <seg n="ebaf7356">
+              Efter interpellationens besvarande kom emellertid vederbörande
+              skytteförbund till handa en skrivelse från statens handelsoch
+              industrikommission av den 19 januari, varigenom tidigare medgivande
+              för länsstyrelserna att utfärda söndagskörlicens i vad avsåge
+              färd till och från fältskjutning återkallades. Som skäl anförde
+              bränsleavdelningen, att licensgivningen tagit en icke avsedd omfattning
+              samt vid jämförelse med andra icke tillgodosedda körbehov visat
+              sig framstå såsom mindre motiverad.
+            </seg>
+            <seg n="b59a77c1">
+              Vilken omfattning man inom handelsoch industrikommissionen tänkt
+              sig, att söndagskörlicensgivningen skulle få är mig obekant, men
+              man synes icke från början haft klart för sig, att fältskjutningar
+              landet runt varje söndag samlar åtskilliga tusentals skyttar.
+              Det bör framhållas, att det här är fråga om aktiva deltagare,
+              icke om åskådare. När från början skyttet undantogs från söndagskörförbudet,
+              blev det en hederssak för ledarna att tillse, att detta myndigheternas
+              förtroende icke skulle svikas och att därför i första hand ordinarie
+              förbindelser, i andra hand abonnerade bussar eller trafikbilar
+              skulle utnyttjas.
+            </seg>
+            <seg n="0f51da44">
+              Skytteförbundens överstyrelse har låtit verkställa en utredning
+              beträffande licensgivningen inom de olika länens skytteförbund
+              och därav framgår, att något missbruk av licensgivningen icke
+              skett, tvärtom har man varit ytterligt restriktiv, med undantag
+              möjligen för Gävleborgs län, där ett påfallande stort antal körtillstånd
+              beviljats. På grund av bristande kännedom om de lokala förhållandena
+              därstädes kan jag dock icke påstå, att man ens där varit för generös.
+              Den verkställda utredningen ger icke heller underlag för någon
+              sådan bedömning i vad avser Västerbottens län, där länsstyrelsen
+              beviljat ett
+            </seg>
+            <seg n="aa497343">
+              flertal ansökningar utan skytteförbundets hörande, icke heller
+              för Jämtlands län, där landsfiskalerna på länsstyrelsens uppdrag
+              handlagt licensärendena. I förbigående må i detta sammanhang ifrågasättas,
+              om icke detta vore den lämpligaste vägen att gå i hela riket,
+              enär landsfiskalerna givetvis bättre än såväl länsstyrelse som
+              handelsoch industrikommission har förutsättningar att avgöra behovet.
+            </seg>
+          </u>
           <note n="b39854e2">
             De beviljade körtillstånden för fältskjutningar utgör för hela
             riket med undantag för ovannämnda tre län 709, fördelade på omkring
@@ -5821,16 +5842,99 @@
             län med 371 körtillstånd för 4 fältskjutningar samt de obekanta
             siffrorna för Jämtlands och Västerbottens län.
           </note>
+          <u who="torsten_nilsson_ba139a" xml:id="i-41e21b0aad833a7f-25" prev="i-8c5c5798fff23e36-0" n="8c5c5798">
+            <seg n="8ec92ba2">
+              Från skytteförbunden här för tillstyrkan krävts samkörning, och
+              enär ansökan om tillstånd innehåller fullständig uppgift på körväg
+              och namn på medföljande skyttar, har man från länsstyrelserna
+              lätt kunnat konstatera, att icke något missbruk skett. Bilarna
+              har som regel varit fullsatta, och körning för ensam skytt har
+              blott i speciella undantagsfall tillstyrkts.
+            </seg>
+            <seg n="822f9603">
+              Den verkställda skärpningen av licensgivningen har verkat mycket
+              ojämnt. En del skytteförbund har varit förutseende nog att begära
+              licens för hela fältskyttesäsongen, d. v. s. till in i maj månad,
+              och dessa redan beviljade tillstånd beröres icke av det fortsatta
+              förbudet.
+            </seg>
+            <seg n="978dcc9c">
+              Då landsbygdens kommunikationer är avpassade med hänsyn till
+              det stora antalet privatbilar, är det för närvarande otänkbart
+              att utnyttja de allmänna samfärdsmedlen. Framför allt i de nordligare
+              norrlandslänen får körförbudet ödeläggande konsekvenser för fältskytteverksamheten,
+              d. v. s. den viktigaste grenen av skytterörelsen, den gren, vilken
+              statens anslag huvudsakligen är avsedd att befordra. Det är dock
+              icke blott norrlandslänens kommunikatio-
+            </seg>
+          </u>
           <pb n="47" facs="https://betalab.kb.se/prot-1957--ak--3/prot_1957__ak__3-047.jp2/_view"/>
           <note n="9b419a36">
             48 NE 3
           </note>
-          <note n="0d42d1e9">
+          <note type="date" n="11b67329">
             Onsdagen den 30 januari 1957
           </note>
           <note n="d2208a3d">
             Interpellation om vissa lättnader i söndagskörförbudet
           </note>
+          <u who="torsten_nilsson_ba139a" xml:id="i-41e21b0aad833a7f-26" prev="i-8c5c5798fff23e36-0" n="8c5c5798">
+            <seg n="8c062f1b">
+              ner, som ej går att utnyttja för fältskjutningarna. Malmöhus
+              läns skytteförbunds stridsskjutning i St. Köpinge, en ort som
+              helt saknar kommunikationer, torde sålunda få inställas. Inom
+              Kristianstads län måste en del skyttar, därest tåg och bussar
+              skall användas, anslå två dagar för resa till och från den kommande
+              förbundsfältskjutningen på Ravlundafältet. Av bebyggelseoch säkerhetsskäl
+              kan f. ö. fältskjutning på de flesta håll icke läggas i närheten
+              av järnvägsstation.
+            </seg>
+            <seg n="c9246367">
+              Kort sagt, landsbygdens glesa bebyggelse och därav föranledda
+              indragningar av bussturer försvårar till ytterlighet lantbornas
+              deltagande i fältskjutning, om egen bil ej får användas. Det finnes
+              exempel på att trafikbil måst beställas flera veckor före avsedd
+              söndagskörning. Besparingen av drivmedel blir, när trafikbil måste
+              användas, förbytt i sin raka motsats, grovt slöseri, enär en taxi
+              givetvis icke har tillfälle att hela dagen vänta på samlingsplatsen
+              för en fältskjutning utan under mellantiden återvänder till sin
+              stationsort, således dubbel körsträcka.
+            </seg>
+            <seg n="239d6daa">
+              Vad beträffar handelsoch industrikommissionens uttalande, att
+              licensgivningen för färd till fältskjutning visat sig vid jämförelse
+              med andra icke tillgodosedda körbehov framstå såsom mindre motiverad,
+              torde det vara tillräckligt med en hänvisning till den väsentliga
+              betydelse för vår försvarskraft, som från ansvarigt håll tillmätts
+              skytterörelsen, främst dess fältoch stridsskjutningar. Någon grundläggande
+              artskillnad mellan denna frivilliga försvarsverksamhet och exempelvis
+              hemvärnets eller den frivilliga befälsutbildningens övningar,
+              vilka icke drabbats av den vidtagna beskärningen av tillståndsgivningen,
+              föreligger icke. En hänvisning till ett eventuellt lättande tillståndstvång
+              fram på vårkanten är för fältskyttet av föga värde, enär då inga
+              sådana skjutningar bedrives. Fältskjutningarnas betydelse för
+              försvaret
+            </seg>
+            <seg n="3f267aca">
+              understrykes ytterligare av chefens för armén efter den senaste
+              skärpningen i skrivelse uttalade betänkligheter.
+            </seg>
+            <seg n="b8a9cfaf">
+              Med anledning av vad ovan anförts får jag härmed anhålla om andra
+              kammarens tillstånd att till statsrådet och chefen för handelsdepartementet
+              framställa följande frågor:
+            </seg>
+            <seg n="57e83b73">
+              1. Har vårt försörjningsläge beträffande flytande drivmedel så
+              katastrofalt försämrats, att ovan påtalad skärpning av söndagskörlicensgivningen
+              blivit nödvändig?
+            </seg>
+            <seg n="2e9f11ef">
+              2. Hur kommer handelsministern att ställa sig till tillfälliga
+              körtillstånd för deltagande i de svenska mästerskapen och riksfältskjutningen
+              på skidor i Jämtland den 23 och 24 februari?
+            </seg>
+          </u>
           <note n="594e3a03">
             3. Avser handelsministern att med anledning av arméchefens skrivelse
             underlätta det frivilliga skyttets genomförande av fastställt
@@ -5880,7 +5984,7 @@
             nr 24, för herr Knut Ewerlöf att vara ombud i Nordiska rådet;
           </note>
           <pb n="48" facs="https://betalab.kb.se/prot-1957--ak--3/prot_1957__ak__3-048.jp2/_view"/>
-          <note n="0d42d1e9">
+          <note type="date" n="11b67329">
             Onsdagen den 30 januari 1957
           </note>
           <note n="486032ae">

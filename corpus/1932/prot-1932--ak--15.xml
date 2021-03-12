@@ -20,7 +20,7 @@
     <encodingDesc>
       <editorialDecl>
         <correction>
-          <p>Some data curation was done. It is documented in db/curation/instances</p>
+          <p>Some data curation was done. It is documented in input/curation/instances</p>
         </correction>
       </editorialDecl>
     </encodingDesc>
@@ -52,18 +52,19 @@
       <front>
         <div type="preface">
           <head>prot-1932--ak--15</head>
-          <docDate when="1932">1932</docDate>
+          <docDate when="1932-02-20">1932-02-20</docDate>
         </div>
       </front>
       <body>
         <div>
+          <pb n="0" facs="https://betalab.kb.se/prot-1932--ak--15/prot_1932__ak__15-000.jp2/_view"/>
           <note n="42d0dd5b"/>
           <note n="a52fe35c">
             RIKSDAGENS PROTOKOLL. 1932. Andra kammaren. Nr 15.
           </note>
           <note n="42d0dd5b"/>
           <note n="42d0dd5b"/>
-          <note n="f1f9dc7b">
+          <note type="date" n="00cfbef5">
             Lördagen den 20 februari. KI. 11 f. m.
           </note>
           <note n="36c14a12">
@@ -138,7 +139,7 @@
           <note n="a94027ef">
             I fråga om
           </note>
-          <note n="92c756fe">
+          <note type="date" n="e67eceec">
             2 Lördagen den 20 februari f. m.
           </note>
           <note n="9302eb6a">
@@ -178,7 +179,7 @@
           <note type="speaker" n="bfc8783b">
             Herr Andersson i Tungelsta:
           </note>
-          <u who="per_andersson_aa1799" xml:id="i-ef34dc5e6338a680-0" next="i-befc5ea58b77e1a4-0" n="ffe263e4">
+          <u who="per_andersson_aa1799" xml:id="i-ec0125d0e367aa86-0" next="i-ec0125d0e367aa86-1" n="ffe263e4">
             <seg n="c198c78e">
               Herr talman! Såsom skäl för avslag å den föreliggande motionen
               har konstitutionsutskottet anfört bl. a., att uppdraget att vara
@@ -234,10 +235,10 @@
             </seg>
           </u>
           <pb n="2" facs="https://betalab.kb.se/prot-1932--ak--15/prot_1932__ak__15-002.jp2/_view"/>
-          <note n="67af794d">
+          <note type="date" n="feba2620">
             Lördagen den 20 februari f. m. 3
           </note>
-          <u who="per_andersson_aa1799" xml:id="i-befc5ea58b77e1a4-0" prev="i-ef34dc5e6338a680-0" n="ffe263e4">
+          <u who="per_andersson_aa1799" xml:id="i-ec0125d0e367aa86-1" prev="i-ec0125d0e367aa86-0" n="ffe263e4">
             <seg n="b7e381ed">
               gällande lag, då föreligger det enligt min mening alldeles särskilda
               skäl, att man också bringar lagen i bättre överensstämmelse med
@@ -259,7 +260,7 @@
           <note type="speaker" n="07b2790d">
             Herr Anderson i Norrköping:
           </note>
-          <u who="erik_anderson_5f729d" xml:id="i-8b0d464c2ba1391c-0" next="i-bd6b672a56ed3c20-0" n="55fcf4e2">
+          <u who="erik_anderson_5f729d" xml:id="i-8ff656e5efb405c5-0" next="i-8ff656e5efb405c5-4" n="55fcf4e2">
             <seg n="9f6a7752">
               Herr talman! Jag ber att få yrka bifall till utskottets hemställan.
             </seg>
@@ -345,7 +346,7 @@
           <note n="55fc1389">
             förordningen.
           </note>
-          <note n="07a82528">
+          <note type="date" n="7b0f118e">
             4 Lördagen den 20 februari f. m.
           </note>
           <note n="53bb2107">
@@ -378,7 +379,7 @@
           <note n="3dfd0d1c">
             24 8.
           </note>
-          <u who="erik_anderson_5f729d" xml:id="i-bd6b672a56ed3c20-0" prev="i-8b0d464c2ba1391c-0" n="55fcf4e2">
+          <u who="erik_anderson_5f729d" xml:id="i-8ff656e5efb405c5-1" prev="i-8ff656e5efb405c5-0" n="55fcf4e2">
             <seg n="53e90007">
               För malt, som i skattepliktigt bryggeri användes vid tillverkning
               av maltdryck, skall erläggas skatt med nittiofem öre för varje
@@ -387,6 +388,14 @@
               med åttiofem öre för kilogram och för de nästa etthundratusen
               kilogrammen med nittio öre för kilogram.
             </seg>
+          </u>
+          <note n="f8f66c71">
+            I intet — — — dygn.
+          </note>
+          <note n="178e6aed">
+            31 $.
+          </note>
+          <u who="erik_anderson_5f729d" xml:id="i-8ff656e5efb405c5-2" prev="i-8ff656e5efb405c5-0" n="55fcf4e2">
             <seg n="06ba8e8b">
               Vid skattepliktigt bryggeri må efter varje kvartals utgång restitution
               av skatt, efter åttiotvå öre för kilogram räknat, åtnjutas för
@@ -395,27 +404,7 @@
               återstående skatten uppgår till minst det i 24 $ andra stycket
               stadgade medeltal.
             </seg>
-            <seg n="bbb9677d">
-              För malt, som i skattepliktigt bryggeri användes vid tillverkning
-              av maltdryck, skall erläggas skatt med 1 krona 15 öre för varje
-              kilogram, dock att för varje bryggeri skatten för de första under
-              tillverkningsåret avverkade
-            </seg>
-            <seg n="05ec3b22">
-              För malt, som i skattepliktigt bryggeri användes vid tillverkning
-              av maltdryck, skall erläggas skatt med två kronor för varje kilogram,
-              dock att för varje bryggeri skatten för de första under tillverkningsåret
-              avverkade ett hundratusen kilogrammen malt utgår med en krona
-              och nittio öre för kilogram och för de nästa ett hundratusen kilogrammen
-              med en krona och nittiofem öre för kilogram.
-            </seg>
           </u>
-          <note n="f8f66c71">
-            I intet — — — dygn.
-          </note>
-          <note n="178e6aed">
-            31 $.
-          </note>
           <note n="6f1ddc0a">
             Där med — — — klassen tagits.
           </note>
@@ -443,8 +432,16 @@
           <note n="3dfd0d1c">
             24 8.
           </note>
+          <u who="erik_anderson_5f729d" xml:id="i-8ff656e5efb405c5-3" prev="i-8ff656e5efb405c5-0" n="55fcf4e2">
+            <seg n="bbb9677d">
+              För malt, som i skattepliktigt bryggeri användes vid tillverkning
+              av maltdryck, skall erläggas skatt med 1 krona 15 öre för varje
+              kilogram, dock att för varje bryggeri skatten för de första under
+              tillverkningsåret avverkade
+            </seg>
+          </u>
           <pb n="4" facs="https://betalab.kb.se/prot-1932--ak--15/prot_1932__ak__15-004.jp2/_view"/>
-          <note n="a9610291">
+          <note type="date" n="d271a9eb">
             Lördagen den 20 februari f. m. 5 Nr 15.
           </note>
           <note n="08a1df25">
@@ -465,6 +462,16 @@
           <note n="3dfd0d1c">
             24 8.
           </note>
+          <u who="erik_anderson_5f729d" xml:id="i-8ff656e5efb405c5-4" prev="i-8ff656e5efb405c5-0" n="55fcf4e2">
+            <seg n="05ec3b22">
+              För malt, som i skattepliktigt bryggeri användes vid tillverkning
+              av maltdryck, skall erläggas skatt med två kronor för varje kilogram,
+              dock att för varje bryggeri skatten för de första under tillverkningsåret
+              avverkade ett hundratusen kilogrammen malt utgår med en krona
+              och nittio öre för kilogram och för de nästa ett hundratusen kilogrammen
+              med en krona och nittiofem öre för kilogram.
+            </seg>
+          </u>
           <note n="ec3c17bc">
             I intet — — — dyg
           </note>
@@ -497,7 +504,7 @@
           <note type="speaker" n="c1fc0534">
             Herr Nilsson i Örebro:
           </note>
-          <u who="petrus_nilsson_cbdd2a" xml:id="i-e5fde575a14f569e-0" next="i-698e7e944c1b7af6-0" n="d85ac22c">
+          <u who="petrus_nilsson_cbdd2a" xml:id="i-f39fefee002caf05-0" next="i-f39fefee002caf05-1" n="d85ac22c">
             <seg n="9175010d">
               Herr talman, mina herrar! Denna motion, som är väckt av herr
               Åkerberg i första kammaren och i denna kammare underskriven av
@@ -539,10 +546,10 @@
           <note n="29e7cd26">
             (Forts.)
           </note>
-          <note n="d46f04c1">
+          <note type="date" n="51c79865">
             Ö Lördagen den 20 februari f. m.
           </note>
-          <u who="petrus_nilsson_cbdd2a" xml:id="i-698e7e944c1b7af6-0" prev="i-e5fde575a14f569e-0" n="d85ac22c">
+          <u who="petrus_nilsson_cbdd2a" xml:id="i-f39fefee002caf05-1" prev="i-f39fefee002caf05-0" n="d85ac22c">
             <seg n="d5f357cf">
               utarbetades, ha såvitt jag är riktigt underrättad icke några
               representanter för de mindre bryggerierna blivit hörda.
@@ -556,7 +563,7 @@
           <note type="speaker" n="b6ba68be">
             Herr Nylander:
           </note>
-          <u who="axel_nylander_9b8091" xml:id="i-ad5aa0edeb548404-0" n="187c71a6">
+          <u who="axel_nylander_9b8091" xml:id="i-fc5ed539543ed8f9-0" n="187c71a6">
             <seg n="0a2a7321">
               Herr talman! Ehuru den föregående ärade talaren icke gjorde något
               direkt yrkande, innehöll dock hans anförande en passus, vilken
@@ -603,7 +610,7 @@
           <note type="speaker" n="c3e67275">
             Herr Törnkvist i Karlskrona:
           </note>
-          <u who="nils_tornkvist_cede3c" xml:id="i-4da0b3abfb8ad163-0" next="i-f148a4aaaa4077fb-0" n="48ea71bb">
+          <u who="nils_tornkvist_cede3c" xml:id="i-48ea71bb94cbf710-0" next="i-48ea71bb94cbf710-1" n="48ea71bb">
             <seg n="14d336f5">
               Herr talman! För en, vilken som jag icke speciellt sysslat med
               skattefrågor, är det ganska äventyrligt att överhuvud taget deltaga
@@ -634,10 +641,10 @@
             </seg>
           </u>
           <pb n="6" facs="https://betalab.kb.se/prot-1932--ak--15/prot_1932__ak__15-006.jp2/_view"/>
-          <note n="e928d06e">
+          <note type="date" n="4bdc2b4a">
             Lördagen den 20 februari f. m. 7 Nr 15.
           </note>
-          <u who="nils_tornkvist_cede3c" xml:id="i-f148a4aaaa4077fb-0" prev="i-4da0b3abfb8ad163-0" n="48ea71bb">
+          <u who="nils_tornkvist_cede3c" xml:id="i-48ea71bb94cbf710-1" prev="i-48ea71bb94cbf710-0" n="48ea71bb">
             <seg n="35d05eeb">
               mindre bestämt till förmån för den nuvarande beskattningsordningen.
               Jag måste - Ang. för min del, herr talman, tillägga och understryka,
@@ -664,7 +671,7 @@
           <note type="speaker" n="6d604680">
             Herr Olson i Göteborg:
           </note>
-          <u who="gustaf_olson_1eab9b" xml:id="i-dbe5a1fa3e908909-0" next="i-9bd99a417e1769c8-0" n="3c96ebd5">
+          <u who="gustaf_olson_1eab9b" xml:id="i-3c96ebd506cc58cb-0" next="i-3c96ebd506cc58cb-1" n="3c96ebd5">
             <seg n="51e16a66">
               Herr talman! Herr Törnkvist har i sitt anförande pekat på nu
               gällande skattedegression, som icke skulle vara någon oangriplig
@@ -729,10 +736,10 @@
           <note n="2109f5fe">
             förordningen. (Forts.)
           </note>
-          <note n="087e7623">
+          <note type="date" n="1e45bf92">
             8 Lördagen den 20 februari f. m.
           </note>
-          <u who="gustaf_olson_1eab9b" xml:id="i-9bd99a417e1769c8-0" prev="i-dbe5a1fa3e908909-0" n="3c96ebd5">
+          <u who="gustaf_olson_1eab9b" xml:id="i-3c96ebd506cc58cb-1" prev="i-3c96ebd506cc58cb-0" n="3c96ebd5">
             <seg n="a9107034">
               skatten på de bryggerier, som förtjäna ett öre per flaska. Skatten
               skulle ju vara över ett öre per flaska. Man behöver inte vara
@@ -755,7 +762,7 @@
           <note type="speaker" n="ab4de86d">
             Herr Kilbom:
           </note>
-          <u who="karl_kilbom_4ed37e" xml:id="i-188b38c746e76dff-0" next="i-898a32ddfe7fdec4-0" n="b047f562">
+          <u who="karl_kilbom_4ed37e" xml:id="i-b047f5624e7ca842-0" next="i-b047f5624e7ca842-1" n="b047f562">
             <seg n="89565f7d">
               Herr talman! Jag måste medge, att jag har de största sympatierna
               för den tanke som ligger bakom motionärernas uppfattning. Jag
@@ -810,10 +817,10 @@
             </seg>
           </u>
           <pb n="8" facs="https://betalab.kb.se/prot-1932--ak--15/prot_1932__ak__15-008.jp2/_view"/>
-          <note n="7069920c">
+          <note type="date" n="702ca091">
             Lördagen den 20 februari f. m. 9 Nr 15.
           </note>
-          <u who="karl_kilbom_4ed37e" xml:id="i-898a32ddfe7fdec4-0" prev="i-188b38c746e76dff-0" n="b047f562">
+          <u who="karl_kilbom_4ed37e" xml:id="i-b047f5624e7ca842-1" prev="i-b047f5624e7ca842-0" n="b047f562">
             <seg n="09590083">
               för att kalla ren ockrarpolitik, ty det är ockrarpolitik, då
               man för en vara, Ang. som 1 framställning kanske kostar ett par
@@ -852,7 +859,7 @@
           <note type="speaker" n="b6ba68be">
             Herr Nylander:
           </note>
-          <u who="axel_nylander_9b8091" xml:id="i-ad5aa0edeb548404-1" n="187c71a6">
+          <u who="axel_nylander_9b8091" xml:id="i-fc5ed539543ed8f9-1" n="187c71a6">
             <seg n="5b824a20">
               Herr talman! Jag skall bedja att få inlägga en bestämd protest
               mot att herr Kilbom tillåter sig att beträffande ett visst företag
@@ -887,7 +894,7 @@
           <note type="speaker" n="8f19fc78">
             Herr Månsson i Furuvik:
           </note>
-          <u who="nils_mansson_7fa152" xml:id="i-58e505bdd0e82139-0" next="i-13cc1b68fc975e27-0" n="960f85c9">
+          <u who="nils_mansson_7fa152" xml:id="i-960f85c9e87301cc-0" next="i-960f85c9e87301cc-1" n="960f85c9">
             <seg n="23ad9292">
               Herr talman! Jag hade icke tänkt blanda mig i debatten, men jag
               vill bara säga, att även om man som jag icke så litet hyllar den
@@ -914,10 +921,10 @@
           <note n="2109f5fe">
             förordningen. (Forts.)
           </note>
-          <note n="04d6c291">
+          <note type="date" n="4b69bd1b">
             10 Lördagen den 20 februari f. m.
           </note>
-          <u who="nils_mansson_7fa152" xml:id="i-13cc1b68fc975e27-0" prev="i-58e505bdd0e82139-0" n="960f85c9">
+          <u who="nils_mansson_7fa152" xml:id="i-960f85c9e87301cc-1" prev="i-960f85c9e87301cc-0" n="960f85c9">
             <seg n="3f782125">
               ringslivet ljuger den så platt full att det står blåbleka lågor
               om käftarna på dem som tala. Jag minns från den tid, då jag satt
@@ -986,7 +993,7 @@
           <note type="speaker" n="19dfd809">
             Herr Björklund:
           </note>
-          <u who="lars_anton_bjorklund_f1e43e" xml:id="i-d4a562b9358ff153-0" next="i-9f49a958b139e770-0" n="a7a8d86f">
+          <u who="lars_anton_bjorklund_f1e43e" xml:id="i-32ceef125daeddf2-0" next="i-32ceef125daeddf2-2" n="a7a8d86f">
             <seg n="6dfae0d7">
               Herr talman! Även på den nu föreliggande frågan kan man tillämpa
               det gamla ordspråket, att det är sällan ens fel, om två träta.
@@ -1001,10 +1008,10 @@
             </seg>
           </u>
           <pb n="10" facs="https://betalab.kb.se/prot-1932--ak--15/prot_1932__ak__15-010.jp2/_view"/>
-          <note n="e8a1c0ba">
+          <note type="date" n="e27151e0">
             Lördagen den 20 februari f. m. 11 Nr 13.
           </note>
-          <u who="lars_anton_bjorklund_f1e43e" xml:id="i-9f49a958b139e770-0" prev="i-d4a562b9358ff153-0" n="a7a8d86f">
+          <u who="lars_anton_bjorklund_f1e43e" xml:id="i-32ceef125daeddf2-1" prev="i-32ceef125daeddf2-0" n="a7a8d86f">
             <seg n="9acd8498">
               blivit enhälligt. Jag vill då först säga, att vad det rör sig
               om här, är att åt — Ang. staten taga ut fem miljoner kronor beträffande
@@ -1027,6 +1034,11 @@
               avvakta den utredning, som Kungl. Maj:t här talar om. Herr statsrådet
               säger själv
             </seg>
+          </u>
+          <note n="a427b49e">
+            i statsrådsprotokollet, som sedermera åberopas i &lt;bevillningsutskottets
+          </note>
+          <u who="lars_anton_bjorklund_f1e43e" xml:id="i-32ceef125daeddf2-2" prev="i-32ceef125daeddf2-0" n="a7a8d86f">
             <seg n="d8dbf0b1">
               och även i kontrollstyrelsens yttrande, att man kommer att tillsätta
             </seg>
@@ -1147,16 +1159,13 @@
               äro vi båda överens.
             </seg>
           </u>
-          <note n="a427b49e">
-            i statsrådsprotokollet, som sedermera åberopas i &lt;bevillningsutskottets
-          </note>
           <note n="1e50e3a8">
             Jag yrkar bifall till utskottets hemställan.
           </note>
           <note type="speaker" n="6d604680">
             Herr Olson i Göteborg:
           </note>
-          <u who="gustaf_olson_1eab9b" xml:id="i-dbe5a1fa3e908909-1" next="i-9bd99a417e1769c8-1" n="3c96ebd5">
+          <u who="gustaf_olson_1eab9b" xml:id="i-3c96ebd506cc58cb-2" next="i-3c96ebd506cc58cb-4" n="3c96ebd5">
             <seg n="15d99a5f">
               Herr talman! Jag tycker herr Björklund använder onödigt starka
               ord för att giva uttryck åt sin uppfattning i denna fråga. Jag
@@ -1179,10 +1188,10 @@
           <note n="29e7cd26">
             (Forts.)
           </note>
-          <note n="9e92e402">
+          <note type="date" n="f9257662">
             12 Lördagen den 20 februari f. m.
           </note>
-          <u who="gustaf_olson_1eab9b" xml:id="i-9bd99a417e1769c8-1" prev="i-dbe5a1fa3e908909-1" n="3c96ebd5">
+          <u who="gustaf_olson_1eab9b" xml:id="i-3c96ebd506cc58cb-3" prev="i-3c96ebd506cc58cb-2" n="3c96ebd5">
             <seg n="430b7b9d">
               har haft det klaraste sinne för nödvändigheten av att inte anlägga
               en sådan politik som den herr Björklund här angivit. Här har sedan
@@ -1262,6 +1271,12 @@
               vad allmänheten vill och kan bära, när det gäller beskattning
               av maltdrycker. Det har omnämnts de höga
             </seg>
+          </u>
+          <pb n="12" facs="https://betalab.kb.se/prot-1932--ak--15/prot_1932__ak__15-012.jp2/_view"/>
+          <note type="date" n="d9241095">
+            Lördagen den 20 februari f. m. 13
+          </note>
+          <u who="gustaf_olson_1eab9b" xml:id="i-3c96ebd506cc58cb-4" prev="i-3c96ebd506cc58cb-2" n="3c96ebd5">
             <seg n="95fe45f8">
               skatter, som finnas i England och Tyskland. Resultatet av dessa
               skatter har blivit, att i England maltdrycksomsättningen gått
@@ -1274,14 +1289,10 @@
               som syftemålet att skaffa staten inkomster därmed sättes i fråga.
             </seg>
           </u>
-          <pb n="12" facs="https://betalab.kb.se/prot-1932--ak--15/prot_1932__ak__15-012.jp2/_view"/>
-          <note n="de1bde81">
-            Lördagen den 20 februari f. m. 13
-          </note>
           <note type="speaker" n="fc1fa540">
             Herr Lindgren:
           </note>
-          <u who="adolf_lindgren_1046dd" xml:id="i-fb4021f5a313b406-0" n="8ed74614">
+          <u who="adolf_lindgren_1046dd" xml:id="i-d8baf460503181b1-0" n="8ed74614">
             <seg n="d7f07223">
               Herr talman! Såsom ärendet nu ligger och då jag vet, att medel
               måste anskaffas på ett eller annat sätt, har jag tagit mig friheten
@@ -1305,7 +1316,7 @@
           <note type="speaker" n="c3e67275">
             Herr Törnkvist i Karlskrona:
           </note>
-          <u who="nils_tornkvist_cede3c" xml:id="i-33887b0d63e81797-0" n="48ea71bb">
+          <u who="nils_tornkvist_cede3c" xml:id="i-48ea71bb94cbf710-2" n="48ea71bb">
             <seg n="6426d609">
               Herr talman! Bryggareföreningen, som antagligen ombesörjt informationen
               för regeringen i detta avseende, ledes ju av representanter för
@@ -1346,7 +1357,7 @@
           <note type="speaker" n="19dfd809">
             Herr Björklund:
           </note>
-          <u who="lars_anton_bjorklund_f1e43e" xml:id="i-d4a562b9358ff153-1" next="i-9f49a958b139e770-1" n="a7a8d86f">
+          <u who="lars_anton_bjorklund_f1e43e" xml:id="i-32ceef125daeddf2-3" next="i-32ceef125daeddf2-5" n="a7a8d86f">
             <seg n="9b533ec8">
               Herr talman! Herr Olson ansåg, att jag använde väl starka ord,
               när jag talade om brandskattning 1 detta. sammanhang. Ja, Jag
@@ -1373,10 +1384,10 @@
           <note n="2109f5fe">
             förordningen. (Forts.)
           </note>
-          <note n="1d3dd77b">
+          <note type="date" n="9ddbcf92">
             14 Lördagen den 20 februari f. m.
           </note>
-          <u who="lars_anton_bjorklund_f1e43e" xml:id="i-9f49a958b139e770-1" prev="i-d4a562b9358ff153-1" n="a7a8d86f">
+          <u who="lars_anton_bjorklund_f1e43e" xml:id="i-32ceef125daeddf2-4" prev="i-32ceef125daeddf2-3" n="a7a8d86f">
             <seg n="c871edbd">
               gerlindustrien som sådan eller herr Olson personligen. Jag kan
               ju i stället uttrycka mig så, att jag säger, att det här rör sig
@@ -1447,6 +1458,12 @@
               ett enligt min mening absolut bindande löfte om en blivande utredning,
               då hela
             </seg>
+          </u>
+          <pb n="14" facs="https://betalab.kb.se/prot-1932--ak--15/prot_1932__ak__15-014.jp2/_view"/>
+          <note type="date" n="9dc59913">
+            Lördagen den 20 februari f. m. 15
+          </note>
+          <u who="lars_anton_bjorklund_f1e43e" xml:id="i-32ceef125daeddf2-5" prev="i-32ceef125daeddf2-3" n="a7a8d86f">
             <seg n="ab700696">
               frågan skall tagas upp till behandling! Vad skulle det vara för
               sorts riksdagsarbete? Brukar man verkligen gå fram efter sådana
@@ -1472,14 +1489,10 @@
               mycket debatterade spörsmål utan vidhåller endast mitt yrkande.
             </seg>
           </u>
-          <pb n="14" facs="https://betalab.kb.se/prot-1932--ak--15/prot_1932__ak__15-014.jp2/_view"/>
-          <note n="e081e432">
-            Lördagen den 20 februari f. m. 15
-          </note>
           <note type="speaker" n="75a0efbb">
             Herr Mosesson:
           </note>
-          <u who="gustav_mosesson_7a936b" xml:id="i-374e2a4277206ff1-0" n="27097dcb">
+          <u who="gustav_mosesson_7a936b" xml:id="i-27097dcbc9d86a7b-0" n="27097dcb">
             <seg n="8a266ea7">
               Herr talman! Under det att jag åhört debatten har ett ungdomsminne
               trängt sig på mig. Jag satt en gång 1 början av detta sekel i
@@ -1510,7 +1523,7 @@
           <note type="speaker" n="fc1fa540">
             Herr Lindgren:
           </note>
-          <u who="adolf_lindgren_1046dd" xml:id="i-fb4021f5a313b406-1" n="8ed74614">
+          <u who="adolf_lindgren_1046dd" xml:id="i-d8baf460503181b1-1" n="8ed74614">
             <seg n="ab1239c3">
               Herr talman! Jag ber att få återtaga det yrkande jag tidigare
               framställt och yrkar i stället, att riksdagen måtte i skrivelse
@@ -1524,7 +1537,7 @@
           <note type="speaker" n="6d604680">
             Herr Olson i Göteborg:
           </note>
-          <u who="gustaf_olson_1eab9b" xml:id="i-dbe5a1fa3e908909-2" next="i-9bd99a417e1769c8-2" n="3c96ebd5">
+          <u who="gustaf_olson_1eab9b" xml:id="i-3c96ebd506cc58cb-5" next="i-3c96ebd506cc58cb-6" n="3c96ebd5">
             <seg n="cc9aaa33">
               Herr talman! Jag skall be att med några korta ord få beröra en
               fråga, som jag finner det mycket beklagligt att herr Björklund
@@ -1562,10 +1575,10 @@
           <note n="2109f5fe">
             förordningen. (Forts.)
           </note>
-          <note n="c7117dc2">
+          <note type="date" n="7f4743da">
             16 Lördagen den 20 februari f. m.
           </note>
-          <u who="gustaf_olson_1eab9b" xml:id="i-9bd99a417e1769c8-2" prev="i-dbe5a1fa3e908909-2" n="3c96ebd5">
+          <u who="gustaf_olson_1eab9b" xml:id="i-3c96ebd506cc58cb-6" prev="i-3c96ebd506cc58cb-5" n="3c96ebd5">
             <seg n="18988951">
               det sättet, att man icke kan tala om avkastning och avkastning
               såsom en och samma sak, när det gäller ett företag, som är grundat
@@ -1616,7 +1629,7 @@
           <note type="speaker" n="ab4de86d">
             Herr Kilbom:
           </note>
-          <u who="karl_kilbom_4ed37e" xml:id="i-188b38c746e76dff-1" next="i-898a32ddfe7fdec4-1" n="b047f562">
+          <u who="karl_kilbom_4ed37e" xml:id="i-b047f5624e7ca842-2" next="i-b047f5624e7ca842-4" n="b047f562">
             <seg n="bbdfb44f">
               Herr talman! Då herr Nylander fann mitt uttryck ocker för starkt,
               skall jag be att få fästa kammarens uppmärksamhet på bakgrunden
@@ -1649,10 +1662,10 @@
             </seg>
           </u>
           <pb n="16" facs="https://betalab.kb.se/prot-1932--ak--15/prot_1932__ak__15-016.jp2/_view"/>
-          <note n="eb871168">
+          <note type="date" n="eae404b4">
             Lördagen den 20 februari f. m. 17 — Nr 13,
           </note>
-          <u who="karl_kilbom_4ed37e" xml:id="i-898a32ddfe7fdec4-1" prev="i-188b38c746e76dff-1" n="b047f562">
+          <u who="karl_kilbom_4ed37e" xml:id="i-b047f5624e7ca842-3" prev="i-b047f5624e7ca842-2" n="b047f562">
             <seg n="26ca0553">
               priset i Göteborg sänkts med 10 öre per flaska. Jag kan för tillfället
               icke — Ang. meddela, hur mycket det sänkts i Stockholm. Det är
@@ -1728,6 +1741,27 @@
               Vad herr Björklund beträffar måste jag säga ett par ord till
               honom. Han
             </seg>
+          </u>
+          <note n="c4302c92">
+            Andra kammarens protokoll 1932. Nr 15. 2
+          </note>
+          <pb n="17" facs="https://betalab.kb.se/prot-1932--ak--15/prot_1932__ak__15-017.jp2/_view"/>
+          <note n="a8c50257">
+            Nr 15.
+          </note>
+          <note n="a5688ed2">
+            Ang. ändringar i maltdrycks-
+          </note>
+          <note n="55fc1389">
+            förordningen.
+          </note>
+          <note n="29e7cd26">
+            (Forts.)
+          </note>
+          <note type="date" n="ae783e6b">
+            18 Lördagen den 20 februari f. m.
+          </note>
+          <u who="karl_kilbom_4ed37e" xml:id="i-b047f5624e7ca842-4" prev="i-b047f5624e7ca842-2" n="b047f562">
             <seg n="5252d292">
               talade om att det är ett konstigt sätt att bedriva riksdagsarbetet,
               då herr Törnkvist stiger upp och yrkar bifall till den väckta
@@ -1759,29 +1793,10 @@
               till det av herr Törnkvist nu framställda yrkandet.
             </seg>
           </u>
-          <note n="c4302c92">
-            Andra kammarens protokoll 1932. Nr 15. 2
-          </note>
-          <pb n="17" facs="https://betalab.kb.se/prot-1932--ak--15/prot_1932__ak__15-017.jp2/_view"/>
-          <note n="a8c50257">
-            Nr 15.
-          </note>
-          <note n="a5688ed2">
-            Ang. ändringar i maltdrycks-
-          </note>
-          <note n="55fc1389">
-            förordningen.
-          </note>
-          <note n="29e7cd26">
-            (Forts.)
-          </note>
-          <note n="89d22245">
-            18 Lördagen den 20 februari f. m.
-          </note>
           <note type="speaker" n="b6ba68be">
             Herr Nylander:
           </note>
-          <u who="axel_nylander_9b8091" xml:id="i-ad5aa0edeb548404-2" n="187c71a6">
+          <u who="axel_nylander_9b8091" xml:id="i-fc5ed539543ed8f9-2" n="187c71a6">
             <seg n="8079e3e6">
               Herr talman! Kammaren är ju van att icke så sällan höra mycket
               egendomliga anföranden från herr Kilboms sida; men jag måste säga
@@ -1809,7 +1824,7 @@
           <note type="speaker" n="19dfd809">
             Herr Björklund:
           </note>
-          <u who="lars_anton_bjorklund_f1e43e" xml:id="i-d4a562b9358ff153-2" next="i-9f49a958b139e770-2" n="a7a8d86f">
+          <u who="lars_anton_bjorklund_f1e43e" xml:id="i-32ceef125daeddf2-6" next="i-32ceef125daeddf2-7" n="a7a8d86f">
             <seg n="b15943e5">
               Herr talman! Jag har begärt ordet endast för att försäkra herr
               Kilbom att om kammaren går en annan väg, än bevillningsutskottet
@@ -1828,10 +1843,10 @@
             </seg>
           </u>
           <pb n="18" facs="https://betalab.kb.se/prot-1932--ak--15/prot_1932__ak__15-018.jp2/_view"/>
-          <note n="c5cd2ede">
+          <note type="date" n="5a31a3a6">
             Lördagen den 20 februari f. m. 19
           </note>
-          <u who="lars_anton_bjorklund_f1e43e" xml:id="i-9f49a958b139e770-2" prev="i-d4a562b9358ff153-2" n="a7a8d86f">
+          <u who="lars_anton_bjorklund_f1e43e" xml:id="i-32ceef125daeddf2-7" prev="i-32ceef125daeddf2-6" n="a7a8d86f">
             <seg n="9745df04">
               Jag taga den saken med ro. Jag har min ställning klar och behöver
               således icke taga något som helst medansvar för en sådan utveckling
@@ -1855,7 +1870,7 @@
           <note type="speaker" n="c3e67275">
             Herr Törnkvist i Karlskrona:
           </note>
-          <u who="nils_tornkvist_cede3c" xml:id="i-33887b0d63e81797-1" n="48ea71bb">
+          <u who="nils_tornkvist_cede3c" xml:id="i-48ea71bb94cbf710-3" n="48ea71bb">
             <seg n="65ac9de1">
               Herr talman! Jag har fått förebråelser för att jag yrkat bifall
               till motionen emot ett enhälligt bevillningsutskott. Jag skulle
@@ -1889,7 +1904,7 @@
           <note type="speaker" n="67c25673">
             Herr Västberg:
           </note>
-          <u who="mauritz_vastberg_58fcb1" xml:id="i-4bddbb19be05a931-0" n="8caa8344">
+          <u who="mauritz_vastberg_58fcb1" xml:id="i-155d64102e9eadc0-0" n="8caa8344">
             <seg n="638a28d6">
               Herr talman! Jag skall icke yttra mig i själva sakfrågan. Men
               jag tycker, att den förebråelse, herr Kilbom riktade mot bevillningsutskottet,
@@ -1906,7 +1921,7 @@
           <note type="speaker" n="75a0efbb">
             Herr Mosesson:
           </note>
-          <u who="gustav_mosesson_7a936b" xml:id="i-5717fb1844491c6f-0" next="i-c5c626dcb8120f3e-0" n="27097dcb">
+          <u who="gustav_mosesson_7a936b" xml:id="i-27097dcbc9d86a7b-1" next="i-27097dcbc9d86a7b-11" n="27097dcb">
             <seg n="7c77a6e6">
               Jag tillåter mig, herr talman, att med ändring av mitt förut
               framställda yrkande hemställa, att i motiveringen på sidan 7 i
@@ -1934,91 +1949,13 @@
           <note n="2109f5fe">
             förordningen. (Forts.)
           </note>
-          <note n="dab8612a">
+          <note type="date" n="788cf99e">
             20 Lördagen den 20 februari f. m.
           </note>
-          <u who="gustav_mosesson_7a936b" xml:id="i-c5c626dcb8120f3e-0" prev="i-5717fb1844491c6f-0" n="27097dcb">
+          <u who="gustav_mosesson_7a936b" xml:id="i-27097dcbc9d86a7b-2" prev="i-27097dcbc9d86a7b-1" n="27097dcb">
             <seg n="5116457f">
               vara med om att underskriva. Jag hemställer alltså, att denna
               mening måtte
-            </seg>
-            <seg n="4ad5967d">
-              nr 115, angående ändring i villkoren för lån från statens fjäderfälånefond;
-              och
-            </seg>
-            <seg n="a9c57c9d"/>
-            <seg n="e28da213">
-              2) Genom tullhöjningen antages vederbörande sockerbolags priskurantpris
-              å socker kunna höjas med 6 öre per kilogram, därifrån dock avgår
-              den rabatt, som tillkommer grosshandlarna, beräknad till 4 procent.
-              Bolagets merinkomst på grund av tullhöjningen under den period,
-              som enligt betodlingskontrakten ligger till grund för regleringen
-              av 1932 års sockerbetspris, kommer således alt utgöra 576 öre
-              för varje kilogram socker, som sålts under tiden från tullhöjningens
-              ikraftträdande till sagda periods slut. Av denna merinkomst går
-              på grund av kontrakt en del till odlarna genom förhöjt pris å
-              samtliga till kampanjen 1932—1933 levererade betor. Återstoden
-              av merinkomsten skall av bolaget enligt här nedan under 3) angiven
-              grund utbetalas som tilläggspris för de betor, som enligt nu gällande
-              kontrakt odlas under 1932 och levereras under kampanjen 1932—1933
-              eller, i den mån den ej härför åtgår, redovisas och inlevereras
-              till statsverket.
-            </seg>
-            <seg n="6b982f24">
-              3) Tilläggspris utgår endast, därest det kontraktsenliga grundpriset
-              för 100 kilogram sockerbetor med 16 procent sockerhalt understiger
-              2 kronor 45 öre, därvid tilläggspriset för 100 kilogram sextonprocentiga
-              betor utgör skillnaden mellan 2 kronor 45 öre och sagda grundpris.
-            </seg>
-            <seg n="a53cd15c">
-              Kungl. Maj:t utfärdar nödiga bestämmelser angående kontrollering
-              av i detta moment avsedda redovisningars riktighet, och vederbörande
-              sockerbolag är pliktigt tillhandahålla allt det material, som
-              är erforderligt för kontrollens verkställande.
-            </seg>
-            <seg n="fe356f07">
-              5) I enlighet med under senare år gällande norm lämnar bolaget
-              av egna medel visst ytterligare fraktbidrag till betodlarna»;
-            </seg>
-            <seg n="33a9f41d">
-              att för allt socker, som inom riket tillverkades eller dit infördes,
-              skulle under tiden från och med den 1 mars 1932 till och med dag,
-              som kunde varda av riksdagen bestämd, vid sockrets utlämnande
-              till fritt bruk erläggas skatt med 4 öre för varje kilogram,
-            </seg>
-            <seg n="e83db28d">
-              att av de medel, som härigenom tillfördes statsverket, tilläggspris
-              skulle utbetalas för de betor, som enligt kontrakt mellan sockerbolagen
-              och betodlarna odlades under 1932 och levererades under kampanjen
-              1932—1933, i den mån kontraktspriset för 100 kilogram betor med
-              sexton procent sockerhalt understege 2 kronor 45 öre,
-            </seg>
-            <seg n="c9ebd38a">
-              polariserande högst 98 procent 10 kronor för 100 kilogram;
-            </seg>
-            <seg n="06562c6d">
-              polariserande mer än 98 procent 13 kronor för 100 kilogram;
-            </seg>
-            <seg n="790e17f8">
-              Bolaget har härutöver att tillse, att detaljpriserna å de olika
-              sockersorterna icke överstiga de detaljpriser, som i detta avseende
-              högst gällde å varje ort den 1 februari 1932, såvida icke priset
-              å K5 (K.M.) beräknat enligt samma grunder som hittills skulle
-              hava överstigit 31 öre eller understigit 27 öre per kilogram.
-              För varje öre, varmed nämnda pris överstigit 31 öre per kilogram,
-              må detaljpriserna å socker höjas med 1 öre och för varje öre,
-              varmed nämnda pris understigit 27 öre, skall detaljpriserna å
-              socker sänkas med 1 öre»;
-            </seg>
-            <seg n="7f5d8f42">
-              3:0) hos Kungl. Maj:t hemställa om vidtagande av åtgärder för
-              att, om statens medverkan till sockerbetsodlingens stödjande skulle
-              påkallas jämväl för följande år, förmå sockerbolagen att i möjligaste
-              mån använda egna resurser för betodlingens och sockernäringens
-              vidmakthållande; samt
-            </seg>
-            <seg n="65637948">
-              A) att riksdagen måtte,
             </seg>
           </u>
           <note n="3a69d387">
@@ -2088,7 +2025,7 @@
             Kammaren hade alltså godkänt utskottets motivering oförändrad.
           </note>
           <pb n="20" facs="https://betalab.kb.se/prot-1932--ak--15/prot_1932__ak__15-020.jp2/_view"/>
-          <note n="2a1f5662">
+          <note type="date" n="c52eecc3">
             Lördagen den 20 februari f. m. 21
           </note>
           <note n="daf7371c">
@@ -2116,6 +2053,12 @@
             av samt handeln med margarin, margarinost, fettemulsion och konstister,
             m. m.;
           </note>
+          <u who="gustav_mosesson_7a936b" xml:id="i-27097dcbc9d86a7b-3" prev="i-27097dcbc9d86a7b-1" n="27097dcb">
+            <seg n="4ad5967d">
+              nr 115, angående ändring i villkoren för lån från statens fjäderfälånefond;
+              och
+            </seg>
+          </u>
           <note n="1a9af49e">
             nr 113, med förslag till lag om ändrad lydelse av 1 $i lagen
             den 9 april 1926 angående meddelande av förbud för barn att idka
@@ -2184,6 +2127,7 @@
             tulltaxeförordningen den 4 oktober 1929 (nr 316) fogade tulltaxa,
             skulle under tiden från
           </note>
+          <u who="gustav_mosesson_7a936b" xml:id="i-27097dcbc9d86a7b-4" prev="i-27097dcbc9d86a7b-1" n="27097dcb"/>
           <note n="ae56b338">
             Nr 15.'
           </note>
@@ -2206,7 +2150,7 @@
           <note n="8aa1322c">
             Ang. åtgärder till sockerbetsodlingens stödjande. (Forts.)
           </note>
-          <note n="c069eed0">
+          <note type="date" n="5a15569c">
             22 Lördagen den 20 februari f. m.
           </note>
           <note n="04dedd0a">
@@ -2225,6 +2169,31 @@
             »1) det förutsättes, att tullsatserna å övriga sockerfabrikat
             under ovan angivna tid icke ändras.
           </note>
+          <u who="gustav_mosesson_7a936b" xml:id="i-27097dcbc9d86a7b-5" prev="i-27097dcbc9d86a7b-1" n="27097dcb">
+            <seg n="e28da213">
+              2) Genom tullhöjningen antages vederbörande sockerbolags priskurantpris
+              å socker kunna höjas med 6 öre per kilogram, därifrån dock avgår
+              den rabatt, som tillkommer grosshandlarna, beräknad till 4 procent.
+              Bolagets merinkomst på grund av tullhöjningen under den period,
+              som enligt betodlingskontrakten ligger till grund för regleringen
+              av 1932 års sockerbetspris, kommer således alt utgöra 576 öre
+              för varje kilogram socker, som sålts under tiden från tullhöjningens
+              ikraftträdande till sagda periods slut. Av denna merinkomst går
+              på grund av kontrakt en del till odlarna genom förhöjt pris å
+              samtliga till kampanjen 1932—1933 levererade betor. Återstoden
+              av merinkomsten skall av bolaget enligt här nedan under 3) angiven
+              grund utbetalas som tilläggspris för de betor, som enligt nu gällande
+              kontrakt odlas under 1932 och levereras under kampanjen 1932—1933
+              eller, i den mån den ej härför åtgår, redovisas och inlevereras
+              till statsverket.
+            </seg>
+            <seg n="6b982f24">
+              3) Tilläggspris utgår endast, därest det kontraktsenliga grundpriset
+              för 100 kilogram sockerbetor med 16 procent sockerhalt understiger
+              2 kronor 45 öre, därvid tilläggspriset för 100 kilogram sextonprocentiga
+              betor utgör skillnaden mellan 2 kronor 45 öre och sagda grundpris.
+            </seg>
+          </u>
           <note n="8c85a710">
             4) Redovisning till statsverket rörande den i mom. 2) här ovan
             avsedda merinkomsten skall ske senast den 15 mars 1933, då även
@@ -2235,19 +2204,46 @@
             av där omförmäld återstod, redovisas och inlevereras till statsverket
             i den ordning Kungl. Maj:t bestämmer.
           </note>
+          <u who="gustav_mosesson_7a936b" xml:id="i-27097dcbc9d86a7b-6" prev="i-27097dcbc9d86a7b-1" n="27097dcb">
+            <seg n="a53cd15c">
+              Kungl. Maj:t utfärdar nödiga bestämmelser angående kontrollering
+              av i detta moment avsedda redovisningars riktighet, och vederbörande
+              sockerbolag är pliktigt tillhandahålla allt det material, som
+              är erforderligt för kontrollens verkställande.
+            </seg>
+            <seg n="fe356f07">
+              5) I enlighet med under senare år gällande norm lämnar bolaget
+              av egna medel visst ytterligare fraktbidrag till betodlarna»;
+            </seg>
+          </u>
           <note n="94dcd92f">
             2) de likalydande motionerna nr 174 i första kammaren av herr
             Johan Bernhard Johansson m. fl. och nr 225 i andra kammaren av
             herr Månsson i Erlandsro m. fl., i vilka hemställts, att riksdagen
             måtte besluta
           </note>
+          <u who="gustav_mosesson_7a936b" xml:id="i-27097dcbc9d86a7b-7" prev="i-27097dcbc9d86a7b-1" n="27097dcb">
+            <seg n="33a9f41d">
+              att för allt socker, som inom riket tillverkades eller dit infördes,
+              skulle under tiden från och med den 1 mars 1932 till och med dag,
+              som kunde varda av riksdagen bestämd, vid sockrets utlämnande
+              till fritt bruk erläggas skatt med 4 öre för varje kilogram,
+            </seg>
+            <seg n="e83db28d">
+              att av de medel, som härigenom tillfördes statsverket, tilläggspris
+              skulle utbetalas för de betor, som enligt kontrakt mellan sockerbolagen
+              och betodlarna odlades under 1932 och levererades under kampanjen
+              1932—1933, i den mån kontraktspriset för 100 kilogram betor med
+              sexton procent sockerhalt understege 2 kronor 45 öre,
+            </seg>
+          </u>
           <note n="09eee19a">
             samt att Kungl. Maj:t erhölle befogenhet att träffa de anstalter,
             som för detta ändamål vore erforderliga, och fastställa de grunder
             i övrigt, som härvid skulle tillämpas;
           </note>
           <pb n="22" facs="https://betalab.kb.se/prot-1932--ak--15/prot_1932__ak__15-022.jp2/_view"/>
-          <note n="9a9fc55d">
+          <note type="date" n="1f52c12f">
             Lördagen den 20 februari f. m. 23
           </note>
           <note n="34ac872e">
@@ -2256,6 +2252,14 @@
             Hörby m. fl., i vilka hemställts, att riksdagen måtte besluta
             att tullsatserna för socker skulle utgå med följande belopp:
           </note>
+          <u who="gustav_mosesson_7a936b" xml:id="i-27097dcbc9d86a7b-8" prev="i-27097dcbc9d86a7b-1" n="27097dcb">
+            <seg n="c9ebd38a">
+              polariserande högst 98 procent 10 kronor för 100 kilogram;
+            </seg>
+            <seg n="06562c6d">
+              polariserande mer än 98 procent 13 kronor för 100 kilogram;
+            </seg>
+          </u>
           <note n="8ef99d35">
             samt att riksdagen måtte befullmäktiga Kungl. Maj:t att utfärda
             de närmare bestämmelser, som kunde finnas erforderliga för uppnående
@@ -2295,6 +2299,19 @@
             31 öre för varje öre, varmed det beräknade priset understiger
             27 öre.
           </note>
+          <u who="gustav_mosesson_7a936b" xml:id="i-27097dcbc9d86a7b-9" prev="i-27097dcbc9d86a7b-1" n="27097dcb">
+            <seg n="790e17f8">
+              Bolaget har härutöver att tillse, att detaljpriserna å de olika
+              sockersorterna icke överstiga de detaljpriser, som i detta avseende
+              högst gällde å varje ort den 1 februari 1932, såvida icke priset
+              å K5 (K.M.) beräknat enligt samma grunder som hittills skulle
+              hava överstigit 31 öre eller understigit 27 öre per kilogram.
+              För varje öre, varmed nämnda pris överstigit 31 öre per kilogram,
+              må detaljpriserna å socker höjas med 1 öre och för varje öre,
+              varmed nämnda pris understigit 27 öre, skall detaljpriserna å
+              socker sänkas med 1 öre»;
+            </seg>
+          </u>
           <note n="c6f10b54">
             2:0) likaledes vid bifall till förenämnda proposition uttala
             den bestämda förväntan, att de betodlare, som använde lejd arbetskraft
@@ -2304,6 +2321,15 @@
             avtal icke komme till stånd, vad som i detta avseende i allmänhet
             gällde i orten under åren närmast före 1929; samt
           </note>
+          <u who="gustav_mosesson_7a936b" xml:id="i-27097dcbc9d86a7b-10" prev="i-27097dcbc9d86a7b-1" n="27097dcb">
+            <seg n="7f5d8f42">
+              3:0) hos Kungl. Maj:t hemställa om vidtagande av åtgärder för
+              att, om statens medverkan till sockerbetsodlingens stödjande skulle
+              påkallas jämväl för följande år, förmå sockerbolagen att i möjligaste
+              mån använda egna resurser för betodlingens och sockernäringens
+              vidmakthållande; samt
+            </seg>
+          </u>
           <note n="7994e6f1">
             7) de likalydande motionerna nr 291 i första kammaren av herr
             Carl Forssell och nr 425 i andra kammaren av herr Arne Forssell,
@@ -2335,12 +2361,17 @@
           <note n="8aa1322c">
             Ang. åtgärder till sockerbetsodlingens stödjande. (Forts.)
           </note>
-          <note n="2b0945d9">
+          <note type="date" n="9113f684">
             24 Lördagen den 20 februari f. m.
           </note>
           <note n="f1baed8f">
             Utskottet hemställde,
           </note>
+          <u who="gustav_mosesson_7a936b" xml:id="i-27097dcbc9d86a7b-11" prev="i-27097dcbc9d86a7b-1" n="27097dcb">
+            <seg n="65637948">
+              A) att riksdagen måtte,
+            </seg>
+          </u>
           <note n="38a48530">
             med bifall till Kungl. Maj:ts förevarande proposition samt med
             avslag å motionerna nr 168, 174, 240, 290 och 291 i första kammaren
@@ -2425,17 +2456,17 @@
           <note type="speaker" n="9d3460f3">
             Chefen för jordbruksdepartementet herr statsrådet von Stockenström:
           </note>
-          <u who="bo_von_stockenstrom_ff2b83" xml:id="i-3816596b33ddecd3-0" next="i-92a05ea25b056bef-0" n="3b9c95f6">
+          <u who="bo_von_stockenstrom_ff2b83" xml:id="i-7113e8549400e8d0-0" next="i-7113e8549400e8d0-8" n="3b9c95f6">
             <seg n="02eb4cc0">
               Herr talman! Sockerfrågan har ju varit föremål för överläggningar,
               debatter och
             </seg>
           </u>
           <pb n="24" facs="https://betalab.kb.se/prot-1932--ak--15/prot_1932__ak__15-024.jp2/_view"/>
-          <note n="8679406c">
+          <note type="date" n="d5eade5b">
             Lördagen den 20 februari f. m. 25
           </note>
-          <u who="bo_von_stockenstrom_ff2b83" xml:id="i-92a05ea25b056bef-0" prev="i-3816596b33ddecd3-0" n="3b9c95f6">
+          <u who="bo_von_stockenstrom_ff2b83" xml:id="i-7113e8549400e8d0-1" prev="i-7113e8549400e8d0-0" n="3b9c95f6">
             <seg n="b5a4b14e">
               avgöranden här 1 riksdagen vid upprepade tillfällen under de
               senare åren. Jag kanske icke har anledning att så mycket uppehålla
@@ -2511,9 +2542,32 @@
               sockerbolagen och betodlarna, nu har utlupit. Det avtalet byggdes
               upp på hösten 1926 och trädde i
             </seg>
+          </u>
+          <note n="0e848581">
+            Nr 15;
+          </note>
+          <note n="8bbe300f">
+            Ang. åtgärder till sockerbetsodlingens stödjande.
+          </note>
+          <note n="29e7cd26">
+            (Forts.)
+          </note>
+          <pb n="25" facs="https://betalab.kb.se/prot-1932--ak--15/prot_1932__ak__15-025.jp2/_view"/>
+          <note n="a8c50257">
+            Nr 15.
+          </note>
+          <u who="bo_von_stockenstrom_ff2b83" xml:id="i-7113e8549400e8d0-2" prev="i-7113e8549400e8d0-0" n="3b9c95f6">
             <seg n="169b5ad5">
               Ång. åtgärder till sockerbetsodlingens stödjande.
             </seg>
+          </u>
+          <note n="29e7cd26">
+            (Forts.)
+          </note>
+          <note type="date" n="491ab65c">
+            26 Lördagen den 20 februari f. m.
+          </note>
+          <u who="bo_von_stockenstrom_ff2b83" xml:id="i-7113e8549400e8d0-3" prev="i-7113e8549400e8d0-0" n="3b9c95f6">
             <seg n="d51f8e66">
               kraft i och med 1927 års odling. Avtalet ansågs då vara ur sockerindustriens
               synpunkt acceptabelt och även ur betodlarnas synpunkt något så
@@ -2583,6 +2637,12 @@
               som bolagen under alla förhållanden voro villiga att garantera
               betodlarna. Jag tror, som
             </seg>
+          </u>
+          <pb n="26" facs="https://betalab.kb.se/prot-1932--ak--15/prot_1932__ak__15-026.jp2/_view"/>
+          <note type="date" n="6ce1d44b">
+            Lördagen den 20 februari f. m. od
+          </note>
+          <u who="bo_von_stockenstrom_ff2b83" xml:id="i-7113e8549400e8d0-4" prev="i-7113e8549400e8d0-0" n="3b9c95f6">
             <seg n="cebb4a05">
               sagt, att detta var närmaste anledningen till att de enskilda
               förhandlingarna mellan parterna icke kunde leda till resultat.
@@ -2653,6 +2713,30 @@
               att sockerbolagen skulle lockas att inlåta sig på spekulationer
               i detta hänseende, såsom man antytt i
             </seg>
+          </u>
+          <note n="a8c50257">
+            Nr 15.
+          </note>
+          <note n="8bbe300f">
+            Ang. åtgärder till sockerbetsodlingens stödjande.
+          </note>
+          <note n="29e7cd26">
+            (Forts.)
+          </note>
+          <pb n="27" facs="https://betalab.kb.se/prot-1932--ak--15/prot_1932__ak__15-027.jp2/_view"/>
+          <note n="a8c50257">
+            Nr 15.
+          </note>
+          <note n="cc6a1dc2">
+            Ang. åtgärder till sockerbets-
+          </note>
+          <note n="8acf60a9">
+            odlingens stödjande. (Forts.)
+          </note>
+          <note type="date" n="11eb403e">
+            28 Lördagen den 20 februari f. m.
+          </note>
+          <u who="bo_von_stockenstrom_ff2b83" xml:id="i-7113e8549400e8d0-5" prev="i-7113e8549400e8d0-0" n="3b9c95f6">
             <seg n="7a381e93">
               vissa motioner, skulle vara betydligt överdriven för att icke
               säga obefintlig. Skulle däremot sockerpriset på världsmarknaden
@@ -2722,6 +2806,12 @@
               men däremot fingo de ett bidrag på grund av subventionen. Även
               om jag tager hänsyn till detta bidrag, skulle betodlarna
             </seg>
+          </u>
+          <pb n="28" facs="https://betalab.kb.se/prot-1932--ak--15/prot_1932__ak__15-028.jp2/_view"/>
+          <note type="date" n="35f3a8cc">
+            Lördagen den 20 februari f. m. 29
+          </note>
+          <u who="bo_von_stockenstrom_ff2b83" xml:id="i-7113e8549400e8d0-6" prev="i-7113e8549400e8d0-0" n="3b9c95f6">
             <seg n="fb3cb9ab">
               dock fått 29 öre mera, än de fingo förra året, med inräknande
               av vad de erhöllo i subvention.
@@ -2793,6 +2883,27 @@
               Danmarks räkning talar om ett sockerpris av 2 kronor. Men därutöver
               vill jag
             </seg>
+          </u>
+          <note n="a8c50257">
+            Nr 15.
+          </note>
+          <note n="8bbe300f">
+            Ang. åtgärder till sockerbetsodlingens stödjande.
+          </note>
+          <note n="29e7cd26">
+            (Forts.)
+          </note>
+          <pb n="29" facs="https://betalab.kb.se/prot-1932--ak--15/prot_1932__ak__15-029.jp2/_view"/>
+          <note n="a8c50257">
+            Nr 15.
+          </note>
+          <note n="8aa1322c">
+            Ang. åtgärder till sockerbetsodlingens stödjande. (Forts.)
+          </note>
+          <note type="date" n="a541bda1">
+            30 Lördagen den 20 februari f. m.
+          </note>
+          <u who="bo_von_stockenstrom_ff2b83" xml:id="i-7113e8549400e8d0-7" prev="i-7113e8549400e8d0-0" n="3b9c95f6">
             <seg n="890bdfd6">
               påpeka, att betodlarna i Danmark icke få något pristillägg, om
               betorna ha en högre sockerhalt. Man får nöja sig med grundpriset,
@@ -2863,6 +2974,12 @@
               om hur sockerpriset kommer att ställa sig under närmaste framtiden.
               Ser man frågan på lång sikt, är det dock troligt,
             </seg>
+          </u>
+          <pb n="30" facs="https://betalab.kb.se/prot-1932--ak--15/prot_1932__ak__15-030.jp2/_view"/>
+          <note type="date" n="b4422b9b">
+            Lördagen den 20 februari f. m. 31
+          </note>
+          <u who="bo_von_stockenstrom_ff2b83" xml:id="i-7113e8549400e8d0-8" prev="i-7113e8549400e8d0-0" n="3b9c95f6">
             <seg n="94f9c658">
               att en viss stabilisering och förbättring så småningom kommer
               att göra sig gällande, men hur länge det kommer att dröja, innan
@@ -2901,78 +3018,6 @@
               åt stora grupper av arbetare inom både jordbruk och industri.
             </seg>
           </u>
-          <note n="0e848581">
-            Nr 15;
-          </note>
-          <note n="8bbe300f">
-            Ang. åtgärder till sockerbetsodlingens stödjande.
-          </note>
-          <note n="29e7cd26">
-            (Forts.)
-          </note>
-          <pb n="25" facs="https://betalab.kb.se/prot-1932--ak--15/prot_1932__ak__15-025.jp2/_view"/>
-          <note n="a8c50257">
-            Nr 15.
-          </note>
-          <note n="29e7cd26">
-            (Forts.)
-          </note>
-          <note n="a2a3268e">
-            26 Lördagen den 20 februari f. m.
-          </note>
-          <pb n="26" facs="https://betalab.kb.se/prot-1932--ak--15/prot_1932__ak__15-026.jp2/_view"/>
-          <note n="f4565bbb">
-            Lördagen den 20 februari f. m. od
-          </note>
-          <note n="a8c50257">
-            Nr 15.
-          </note>
-          <note n="8bbe300f">
-            Ang. åtgärder till sockerbetsodlingens stödjande.
-          </note>
-          <note n="29e7cd26">
-            (Forts.)
-          </note>
-          <pb n="27" facs="https://betalab.kb.se/prot-1932--ak--15/prot_1932__ak__15-027.jp2/_view"/>
-          <note n="a8c50257">
-            Nr 15.
-          </note>
-          <note n="cc6a1dc2">
-            Ang. åtgärder till sockerbets-
-          </note>
-          <note n="8acf60a9">
-            odlingens stödjande. (Forts.)
-          </note>
-          <note n="7c0c7159">
-            28 Lördagen den 20 februari f. m.
-          </note>
-          <pb n="28" facs="https://betalab.kb.se/prot-1932--ak--15/prot_1932__ak__15-028.jp2/_view"/>
-          <note n="425630b1">
-            Lördagen den 20 februari f. m. 29
-          </note>
-          <note n="a8c50257">
-            Nr 15.
-          </note>
-          <note n="8bbe300f">
-            Ang. åtgärder till sockerbetsodlingens stödjande.
-          </note>
-          <note n="29e7cd26">
-            (Forts.)
-          </note>
-          <pb n="29" facs="https://betalab.kb.se/prot-1932--ak--15/prot_1932__ak__15-029.jp2/_view"/>
-          <note n="a8c50257">
-            Nr 15.
-          </note>
-          <note n="8aa1322c">
-            Ang. åtgärder till sockerbetsodlingens stödjande. (Forts.)
-          </note>
-          <note n="9175d310">
-            30 Lördagen den 20 februari f. m.
-          </note>
-          <pb n="30" facs="https://betalab.kb.se/prot-1932--ak--15/prot_1932__ak__15-030.jp2/_view"/>
-          <note n="85c513ae">
-            Lördagen den 20 februari f. m. 31
-          </note>
           <note n="36d74929">
             Under detta yttrande hade herr förste vice talmannen övertagit
             ledningen av kammarens förhandlingar.
@@ -2980,7 +3025,7 @@
           <note type="speaker" n="2050ad3d">
             Herr Jönsson i Boa:
           </note>
-          <u who="jons_jonsson_1f96d5" xml:id="i-f5639ed52aeee56a-0" next="i-f9fd5dd89f2a4868-0" n="dbe3fc8e">
+          <u who="jons_jonsson_1f96d5" xml:id="i-bce3d0a18d9ae1a5-0" next="i-bce3d0a18d9ae1a5-1" n="dbe3fc8e">
             <seg n="a3771834">
               Herr förste vice talman! TI den av herr Nilsson i Kristianstad
               m. fl. vid betänkandet fogade reservationen ha vi reservanter
@@ -3034,10 +3079,10 @@
           <note n="8aa1322c">
             Ang. åtgärder till sockerbetsodlingens stödjande. (Forts.)
           </note>
-          <note n="c9191613">
+          <note type="date" n="583e90a4">
             32 Lördagen den 20 februari f. m.
           </note>
-          <u who="jons_jonsson_1f96d5" xml:id="i-f9fd5dd89f2a4868-0" prev="i-f5639ed52aeee56a-0" n="dbe3fc8e">
+          <u who="jons_jonsson_1f96d5" xml:id="i-bce3d0a18d9ae1a5-1" prev="i-bce3d0a18d9ae1a5-0" n="dbe3fc8e">
             <seg n="d0261f13">
               I enlighet med de i motionerna av herrar Lindman och Trygger
               m. fl. framförda synpunkter hava vi ansett, att ett förstärkt
@@ -3053,7 +3098,7 @@
           <note type="speaker" n="1e79a844">
             Herr Sköld:
           </note>
-          <u who="per_edvin_skold_cf8ae4" xml:id="i-383168d6100b56ab-0" next="i-692a7555cb1e383f-0" n="fc2ac980">
+          <u who="per_edvin_skold_cf8ae4" xml:id="i-fc2ac980751d804e-0" next="i-fc2ac980751d804e-6" n="fc2ac980">
             <seg n="47d3ddd7">
               Herr talman! Det ärende, som kammaren nu behandlar, utgör, enligt
               mitt sätt att se, en talande illustration till protektionismens
@@ -3113,10 +3158,10 @@
             </seg>
           </u>
           <pb n="32" facs="https://betalab.kb.se/prot-1932--ak--15/prot_1932__ak__15-032.jp2/_view"/>
-          <note n="d9e248f0">
+          <note type="date" n="af3c707c">
             Lördagen den 20 februari f. m. 33
           </note>
-          <u who="per_edvin_skold_cf8ae4" xml:id="i-692a7555cb1e383f-0" prev="i-383168d6100b56ab-0" n="fc2ac980">
+          <u who="per_edvin_skold_cf8ae4" xml:id="i-fc2ac980751d804e-1" prev="i-fc2ac980751d804e-0" n="fc2ac980">
             <seg n="7d607217">
               160 miljoner kronor. Man måste säga, att för bolaget har det
               varit en mycket god affär. Men låt oss hålla i minnet, vilket
@@ -3190,9 +3235,29 @@
               den riktningen. De sakkunniga ha bl. a. påpekat betydelsen av
               koncentrering av råsockertillverkningen. Det är
             </seg>
+          </u>
+          <note n="b56bbce4">
+            Andra kammarens prutokoll 1932. Nr 15. 3
+          </note>
+          <note n="a8c50257">
+            Nr 15.
+          </note>
+          <note n="55331be6">
+            Ang. åtgärder till sockerbetsodlingens stödjande. (Fort3.)
+          </note>
+          <pb n="33" facs="https://betalab.kb.se/prot-1932--ak--15/prot_1932__ak__15-033.jp2/_view"/>
+          <note n="a8c50257">
+            Nr 15.
+          </note>
+          <u who="per_edvin_skold_cf8ae4" xml:id="i-fc2ac980751d804e-2" prev="i-fc2ac980751d804e-0" n="fc2ac980">
             <seg n="77236b90">
               Äng. åtgärder till sockerbetsodlingens stödjande. (Forts.)
             </seg>
+          </u>
+          <note type="date" n="0511cbef">
+            34 Lördagen den 20 februari f. m.
+          </note>
+          <u who="per_edvin_skold_cf8ae4" xml:id="i-fc2ac980751d804e-3" prev="i-fc2ac980751d804e-0" n="fc2ac980">
             <seg n="650a7c9b">
               ej rimligt att bibehålla betodling på marker, som icke äro tjänliga
               för sådan odling, ty hur skall man då någonsin kunna komma till
@@ -3265,6 +3330,12 @@
               dessutom, att förslaget är betänkligt. Jag förstår, att vissa
               kretsar i kammaren inte dela min uppfatt-
             </seg>
+          </u>
+          <pb n="34" facs="https://betalab.kb.se/prot-1932--ak--15/prot_1932__ak__15-034.jp2/_view"/>
+          <note type="date" n="7dd6412e">
+            Lördagen den 20 februari f. m. 30
+          </note>
+          <u who="per_edvin_skold_cf8ae4" xml:id="i-fc2ac980751d804e-4" prev="i-fc2ac980751d804e-0" n="fc2ac980">
             <seg n="f2b20f8c">
               ning, men jag måste säga, att det är väl ändå betänkligt, att
               den börda, folkhushållningen skall taga på sig för att hålla uppe
@@ -3335,6 +3406,24 @@
               nackdel för konsumenterna. Dessa gränser har jag hållit inom ramen
               av 4 öre. Det vill säga, att om icke sockerpriset över-
             </seg>
+          </u>
+          <note n="a8c50257">
+            Nr 15.
+          </note>
+          <note n="8aa1322c">
+            Ang. åtgärder till sockerbetsodlingens stödjande. (Forts.)
+          </note>
+          <pb n="35" facs="https://betalab.kb.se/prot-1932--ak--15/prot_1932__ak__15-035.jp2/_view"/>
+          <note n="a8c50257">
+            Nr 15.
+          </note>
+          <note n="8aa1322c">
+            Ang. åtgärder till sockerbetsodlingens stödjande. (Forts.)
+          </note>
+          <note type="date" n="d70b7891">
+            36 Lördagen den 20 februari f. m.
+          </note>
+          <u who="per_edvin_skold_cf8ae4" xml:id="i-fc2ac980751d804e-5" prev="i-fc2ac980751d804e-0" n="fc2ac980">
             <seg n="7645838e">
               stiger 31 öre, skulle icke någon höjning av detaljpriset få ske.
               Om det icke sjunker under 27 öre, skulle icke någon sänkning av
@@ -3407,6 +3496,12 @@
               till det förslaget ansluter jag mig. Därmed erhåller Kungl. Maj:t
               det nödiga maktmedel, som behöves för att förmå bolagen till eftergifter.
             </seg>
+          </u>
+          <pb n="36" facs="https://betalab.kb.se/prot-1932--ak--15/prot_1932__ak__15-036.jp2/_view"/>
+          <note type="date" n="a217216a">
+            Lördagen den 20 februari f. m. 37
+          </note>
+          <u who="per_edvin_skold_cf8ae4" xml:id="i-fc2ac980751d804e-6" prev="i-fc2ac980751d804e-0" n="fc2ac980">
             <seg n="0cfa44cd">
               Men när jag och mina medmotionärer gått fram med ett förslag,
               som innebär positiva åtgärder till uppehållande av betodlingen
@@ -3454,46 +3549,6 @@
               ej vinner kammarens bifall, kommer jag att rösta för avslag.
             </seg>
           </u>
-          <note n="b56bbce4">
-            Andra kammarens prutokoll 1932. Nr 15. 3
-          </note>
-          <note n="a8c50257">
-            Nr 15.
-          </note>
-          <note n="55331be6">
-            Ang. åtgärder till sockerbetsodlingens stödjande. (Fort3.)
-          </note>
-          <pb n="33" facs="https://betalab.kb.se/prot-1932--ak--15/prot_1932__ak__15-033.jp2/_view"/>
-          <note n="a8c50257">
-            Nr 15.
-          </note>
-          <note n="c8957b41">
-            34 Lördagen den 20 februari f. m.
-          </note>
-          <pb n="34" facs="https://betalab.kb.se/prot-1932--ak--15/prot_1932__ak__15-034.jp2/_view"/>
-          <note n="fca2d59d">
-            Lördagen den 20 februari f. m. 30
-          </note>
-          <note n="a8c50257">
-            Nr 15.
-          </note>
-          <note n="8aa1322c">
-            Ang. åtgärder till sockerbetsodlingens stödjande. (Forts.)
-          </note>
-          <pb n="35" facs="https://betalab.kb.se/prot-1932--ak--15/prot_1932__ak__15-035.jp2/_view"/>
-          <note n="a8c50257">
-            Nr 15.
-          </note>
-          <note n="8aa1322c">
-            Ang. åtgärder till sockerbetsodlingens stödjande. (Forts.)
-          </note>
-          <note n="0173c7e4">
-            36 Lördagen den 20 februari f. m.
-          </note>
-          <pb n="36" facs="https://betalab.kb.se/prot-1932--ak--15/prot_1932__ak__15-036.jp2/_view"/>
-          <note n="21e86b99">
-            Lördagen den 20 februari f. m. 37
-          </note>
           <note n="cd4b9d02">
             Herr talman! Jag tillåter mig sålunda hemställa om bifall till
             vad bevillningsutskottet yrkat i sin punkt A), dock med de ändringar,
@@ -3508,7 +3563,7 @@
           <note type="speaker" n="834ec5a9">
             Herr Nilsson i Hörby:
           </note>
-          <u who="petrus_nilsson_cbdd2a" xml:id="i-e5fde575a14f569e-1" next="i-698e7e944c1b7af6-1" n="d85ac22c">
+          <u who="petrus_nilsson_cbdd2a" xml:id="i-f39fefee002caf05-2" next="i-f39fefee002caf05-6" n="d85ac22c">
             <seg n="b6939511">
               Herr talman, mina herrar! Vi ha ju i dag här i riksdagen åter
               igen den en gång om året återkommande debatten om betodlingen
@@ -3536,10 +3591,10 @@
           <note n="ced1d864">
             4 ng. åtgärder till sockerbetsodlingens stödjande. (Forts.)
           </note>
-          <note n="f38ffb73">
+          <note type="date" n="401182a0">
             38 Lördagen den 20 februari f. m.
           </note>
-          <u who="petrus_nilsson_cbdd2a" xml:id="i-698e7e944c1b7af6-1" prev="i-e5fde575a14f569e-1" n="d85ac22c">
+          <u who="petrus_nilsson_cbdd2a" xml:id="i-f39fefee002caf05-3" prev="i-f39fefee002caf05-2" n="d85ac22c">
             <seg n="d4dfab2f">
               Men innan jag går närmare in på spörsmålet, skall jag be att
               få svara herr Sköld i fråga om ett par tre saker, som han vidrörde.
@@ -3610,6 +3665,12 @@
               med sin proposition om stöd för den svenska sockerbetsodlingen.
               Han drog fram två skäl — vilka äro berät-
             </seg>
+          </u>
+          <pb n="38" facs="https://betalab.kb.se/prot-1932--ak--15/prot_1932__ak__15-038.jp2/_view"/>
+          <note type="date" n="e0223e71">
+            Lördagen den 20 februari f. m. 39
+          </note>
+          <u who="petrus_nilsson_cbdd2a" xml:id="i-f39fefee002caf05-4" prev="i-f39fefee002caf05-2" n="d85ac22c">
             <seg n="84da5e38">
               tigade, det erkänner jag — som talade för framläggandet av ett
               stödförslag. Det ena var nödvändigheten av att bereda ytterligare
@@ -3682,6 +3743,27 @@
               näringar. Det är klart, att då komma olika meningar fram; och
               jag har förut deklarerat, att
             </seg>
+          </u>
+          <note n="a8c50257">
+            Nr 15.
+          </note>
+          <note n="cc6a1dc2">
+            Ang. åtgärder till sockerbets-
+          </note>
+          <note n="d8d51d65">
+            odlingen stödjande. (Forts.)
+          </note>
+          <pb n="39" facs="https://betalab.kb.se/prot-1932--ak--15/prot_1932__ak__15-039.jp2/_view"/>
+          <note n="a8c50257">
+            Nr 15.
+          </note>
+          <note n="8aa1322c">
+            Ang. åtgärder till sockerbetsodlingens stödjande. (Forts.)
+          </note>
+          <note type="date" n="0fc98427">
+            40 Lördagen den 20 februari f. m.
+          </note>
+          <u who="petrus_nilsson_cbdd2a" xml:id="i-f39fefee002caf05-5" prev="i-f39fefee002caf05-2" n="d85ac22c">
             <seg n="36dda0b9">
               om jag på detta område har någon princip, så är det att icke
               låsa mig fast vid principer, utan i varje särskilt fall vara med
@@ -3754,6 +3836,12 @@
               antecknade hans yttrande riktigt, med tanke på att bolaget borde
               betala litet mera än det förut. gjort
             </seg>
+          </u>
+          <pb n="40" facs="https://betalab.kb.se/prot-1932--ak--15/prot_1932__ak__15-040.jp2/_view"/>
+          <note type="date" n="b0d99e83">
+            Lördagen den 20 februari f. m. 41
+          </note>
+          <u who="petrus_nilsson_cbdd2a" xml:id="i-f39fefee002caf05-6" prev="i-f39fefee002caf05-2" n="d85ac22c">
             <seg n="45f835aa">
               och mycket väl har råd till. Det är blott någonting att vara
               glad åt. Det är klart.
@@ -3828,33 +3916,6 @@
               betänkande fogade reservationen.
             </seg>
           </u>
-          <pb n="38" facs="https://betalab.kb.se/prot-1932--ak--15/prot_1932__ak__15-038.jp2/_view"/>
-          <note n="cc3b3863">
-            Lördagen den 20 februari f. m. 39
-          </note>
-          <note n="a8c50257">
-            Nr 15.
-          </note>
-          <note n="cc6a1dc2">
-            Ang. åtgärder till sockerbets-
-          </note>
-          <note n="d8d51d65">
-            odlingen stödjande. (Forts.)
-          </note>
-          <pb n="39" facs="https://betalab.kb.se/prot-1932--ak--15/prot_1932__ak__15-039.jp2/_view"/>
-          <note n="a8c50257">
-            Nr 15.
-          </note>
-          <note n="8aa1322c">
-            Ang. åtgärder till sockerbetsodlingens stödjande. (Forts.)
-          </note>
-          <note n="a4515794">
-            40 Lördagen den 20 februari f. m.
-          </note>
-          <pb n="40" facs="https://betalab.kb.se/prot-1932--ak--15/prot_1932__ak__15-040.jp2/_view"/>
-          <note n="e51e0bd2">
-            Lördagen den 20 februari f. m. 41
-          </note>
           <note n="a8c50257">
             Nr 15.
           </note>
@@ -3868,13 +3929,13 @@
           <note n="8aa1322c">
             Ang. åtgärder till sockerbetsodlingens stödjande. (Forts.)
           </note>
-          <note n="c014cca1">
+          <note type="date" n="39bed0db">
             49 Lördagen den 20 februari f. m.
           </note>
           <note type="speaker" n="061b7ce6">
             Herr Herou:
           </note>
-          <u who="viktor_herou_c29be7" xml:id="i-4023a252c1563595-0" next="i-22b86675a9b0ea70-0" n="12b79d18">
+          <u who="viktor_herou_c29be7" xml:id="i-12b79d18f0378bf0-0" next="i-12b79d18f0378bf0-3" n="12b79d18">
             <seg n="20986901">
               Herr talman! Det föreföll mig, som om en stor del av den föregående
               talarens argumentation, när det gällde betodlingens stödjande,
@@ -3951,10 +4012,10 @@
             </seg>
           </u>
           <pb n="42" facs="https://betalab.kb.se/prot-1932--ak--15/prot_1932__ak__15-042.jp2/_view"/>
-          <note n="e0c9ceb5">
+          <note type="date" n="eb330b1d">
             Lördagen den 20 februari f. m. 43
           </note>
-          <u who="viktor_herou_c29be7" xml:id="i-22b86675a9b0ea70-0" prev="i-4023a252c1563595-0" n="12b79d18">
+          <u who="viktor_herou_c29be7" xml:id="i-12b79d18f0378bf0-1" prev="i-12b79d18f0378bf0-0" n="12b79d18">
             <seg n="31316cef">
               landet, att sockerpriset skulle falla mera än nu beräknas, skulle
               det betyda en belastning på folkhushållet av 3 öre per kilogram,
@@ -4023,6 +4084,24 @@
               av dem, som ha bärkraft därtill. Nu föreslår man, att vid ett
               minimipris av 2 kronor 30 öre
             </seg>
+          </u>
+          <note n="a8c50257">
+            Nr 15.
+          </note>
+          <note n="8aa1322c">
+            Ang. åtgärder till sockerbetsodlingens stödjande. (Forts.)
+          </note>
+          <pb n="43" facs="https://betalab.kb.se/prot-1932--ak--15/prot_1932__ak__15-043.jp2/_view"/>
+          <note n="a8c50257">
+            Nr 15.
+          </note>
+          <note n="8aa1322c">
+            Ang. åtgärder till sockerbetsodlingens stödjande. (Forts.)
+          </note>
+          <note type="date" n="0bd47cd7">
+            44 Lördagen den 20 februari f. m.
+          </note>
+          <u who="viktor_herou_c29be7" xml:id="i-12b79d18f0378bf0-2" prev="i-12b79d18f0378bf0-0" n="12b79d18">
             <seg n="aafd990a">
               per deciton betor skall sockerbolaget erhålla importmonopol och
               garanterat lägsta krossmelispris av 31 öre per kilogram. Om detta
@@ -4094,6 +4173,12 @@
               s. betodlarna och sockerfabrikanterna, tvinga riksdagen så långt
               som helst, så vill jag säga, att dessa parter
             </seg>
+          </u>
+          <pb n="44" facs="https://betalab.kb.se/prot-1932--ak--15/prot_1932__ak__15-044.jp2/_view"/>
+          <note type="date" n="1b0dbf9f">
+            Lördagen den 20 februari f. m. 45
+          </note>
+          <u who="viktor_herou_c29be7" xml:id="i-12b79d18f0378bf0-3" prev="i-12b79d18f0378bf0-0" n="12b79d18">
             <seg n="25f81f06">
               ha kunnat göra detta hittills, därför att det funnits sådana
               som herr Sköld och med honom liktänkande, som ha avancerat såsom
@@ -4107,30 +4192,10 @@
               utskottets förslag.
             </seg>
           </u>
-          <note n="a8c50257">
-            Nr 15.
-          </note>
-          <note n="8aa1322c">
-            Ang. åtgärder till sockerbetsodlingens stödjande. (Forts.)
-          </note>
-          <pb n="43" facs="https://betalab.kb.se/prot-1932--ak--15/prot_1932__ak__15-043.jp2/_view"/>
-          <note n="a8c50257">
-            Nr 15.
-          </note>
-          <note n="8aa1322c">
-            Ang. åtgärder till sockerbetsodlingens stödjande. (Forts.)
-          </note>
-          <note n="2c2aa841">
-            44 Lördagen den 20 februari f. m.
-          </note>
-          <pb n="44" facs="https://betalab.kb.se/prot-1932--ak--15/prot_1932__ak__15-044.jp2/_view"/>
-          <note n="46606225">
-            Lördagen den 20 februari f. m. 45
-          </note>
           <note type="speaker" n="b2a30778">
             Herr Wijkander:
           </note>
-          <u who="unknown" xml:id="i-d929f11e4dcb9f7c-0" n="7113e854">
+          <u who="unknown" xml:id="i-7113e8549400e8d0-9" n="7113e854">
             <seg n="fb4f1ee0">
               Herr talman! Under debatten i denna fråga förra året uttalade
               min partikamrat, herr Carleson, att det naturligtvis icke var
@@ -4204,10 +4269,10 @@
           <note n="8aa1322c">
             Ang. åtgärder till sockerbetsodlingens stödjande. (Forts.)
           </note>
-          <note n="be6421dd">
+          <note type="date" n="35176988">
             46 Lördagen den 20 februari f. m.
           </note>
-          <u who="unknown" xml:id="i-b5ed3167ec79914e-0" n="7113e854">
+          <u who="unknown" xml:id="i-7113e8549400e8d0-10" n="7113e854">
             <seg n="a8e8e762">
               brukets område som för råsockerfabriker, staten medverkar till
               att dessa kapitalinvesteringar bli delvis värdelösa. Men, herr
@@ -4283,6 +4348,12 @@
               betodlarna hava garanti för betpriser, böra betarbetarna hava
               garanti
             </seg>
+          </u>
+          <pb n="46" facs="https://betalab.kb.se/prot-1932--ak--15/prot_1932__ak__15-046.jp2/_view"/>
+          <note type="date" n="73a963d7">
+            Lördagen den 20 februari f. m. 47
+          </note>
+          <u who="unknown" xml:id="i-7113e8549400e8d0-11" n="7113e854">
             <seg n="27191308">
               för lönerna.» Jag tror det vara skäl att grundligt sätta sig
               in i konsekvenserna av att nu fortsätta på spannmålsmonopolets
@@ -4308,10 +4379,6 @@
               på Kungl. Maj:ts proposition.
             </seg>
           </u>
-          <pb n="46" facs="https://betalab.kb.se/prot-1932--ak--15/prot_1932__ak__15-046.jp2/_view"/>
-          <note n="a4a03764">
-            Lördagen den 20 februari f. m. 47
-          </note>
           <note n="b0b66015">
             Med herr Wijkander förenade sig herr Carleson. Herr förste vice
             talmannen övertog nu ånyo ledningen av förhandlingarna.
@@ -4319,7 +4386,7 @@
           <note type="speaker" n="2eb06dff">
             Herr Engberg:
           </note>
-          <u who="arthur_engberg_9325cc" xml:id="i-cb2930bcd5db2b6b-0" next="i-e2c0072c1001a141-0" n="0e8d50ae">
+          <u who="arthur_engberg_9325cc" xml:id="i-0e8d50ae63a6809e-0" next="i-0e8d50ae63a6809e-5" n="0e8d50ae">
             <seg n="a8ca2246">
               Herr talman! Jag tror det kan vara av en viss betydelse att ett
               ögonblick rikta uppmärksamheten på den nyorientering, som det
@@ -4378,10 +4445,10 @@
           <note n="8aa1322c">
             Ang. åtgärder till sockerbetsodlingens stödjande. (Forts.)
           </note>
-          <note n="c5075f26">
+          <note type="date" n="b699b4af">
             48 Lördagen den 20 februari f. m.
           </note>
-          <u who="arthur_engberg_9325cc" xml:id="i-e2c0072c1001a141-0" prev="i-cb2930bcd5db2b6b-0" n="0e8d50ae">
+          <u who="arthur_engberg_9325cc" xml:id="i-0e8d50ae63a6809e-1" prev="i-0e8d50ae63a6809e-0" n="0e8d50ae">
             <seg n="a50cee61">
               komligt ohållbar ståndpunkt. Jag erinrar om argumenteringen i
               den stora tullpropositionen, som för några dagar sedan lades på
@@ -4453,6 +4520,12 @@
               läget det av herr Hamrin anförda argumentet få en ännu större
               styrka?
             </seg>
+          </u>
+          <pb n="48" facs="https://betalab.kb.se/prot-1932--ak--15/prot_1932__ak__15-048.jp2/_view"/>
+          <note type="date" n="48066a33">
+            Lördagen den 20 februari f. in. 49
+          </note>
+          <u who="arthur_engberg_9325cc" xml:id="i-0e8d50ae63a6809e-2" prev="i-0e8d50ae63a6809e-0" n="0e8d50ae">
             <seg n="3275d162">
               Det var en ärad talare i första kammaren, för övrigt herr Trygger,
               som för en stund sedan karakteriserade den folkfrisinnade politiken
@@ -4518,6 +4591,27 @@
               av det garantiprotektionistiska systemet känna uppenbarligen intet
               behov av
             </seg>
+          </u>
+          <note n="fff9037d">
+            Andra kammarens protokoll 1932. Nr 15. 4
+          </note>
+          <note n="a8c50257">
+            Nr 15.
+          </note>
+          <note n="8aa1322c">
+            Ang. åtgärder till sockerbetsodlingens stödjande. (Forts.)
+          </note>
+          <pb n="49" facs="https://betalab.kb.se/prot-1932--ak--15/prot_1932__ak__15-049.jp2/_view"/>
+          <note n="a8c50257">
+            Nr 15.
+          </note>
+          <note n="8aa1322c">
+            Ang. åtgärder till sockerbetsodlingens stödjande. (Forts.)
+          </note>
+          <note type="date" n="63c3834d">
+            50 Lördagen den 20 februari f. m.
+          </note>
+          <u who="arthur_engberg_9325cc" xml:id="i-0e8d50ae63a6809e-3" prev="i-0e8d50ae63a6809e-0" n="0e8d50ae">
             <seg n="f005c2c5">
               sammanhang mellan prisbildningen här hemma och prisbildningen
               därute. De dekretera rätt och slätt ett visst lägsta sockerpris
@@ -4593,6 +4687,12 @@
               fordra, när en så pass uppseendeväckande nyorientering skall företagas
               i landets sockerpolitik, att det i en bilaga givits en
             </seg>
+          </u>
+          <pb n="50" facs="https://betalab.kb.se/prot-1932--ak--15/prot_1932__ak__15-050.jp2/_view"/>
+          <note type="date" n="ffdd5823">
+            Lördagen den 20 februari f. m. 51
+          </note>
+          <u who="arthur_engberg_9325cc" xml:id="i-0e8d50ae63a6809e-4" prev="i-0e8d50ae63a6809e-0" n="0e8d50ae">
             <seg n="9aa3392a">
               redogörelse för hur läget faktiskt är där ute, om det finnes
               eller icke finnes några utsikter till stegring i sockerpriset,
@@ -4665,6 +4765,27 @@
               vinster. Denna möjlighet blir så
             </seg>
             <seg n="a9c57c9d"/>
+          </u>
+          <note n="a8c50257">
+            Nr 15.
+          </note>
+          <note n="8bbe300f">
+            Ang. åtgärder till sockerbetsodlingens stödjande.
+          </note>
+          <note n="29e7cd26">
+            (Forts.)
+          </note>
+          <pb n="51" facs="https://betalab.kb.se/prot-1932--ak--15/prot_1932__ak__15-051.jp2/_view"/>
+          <note n="a8c50257">
+            Nr 15.
+          </note>
+          <note n="8aa1322c">
+            Ang. åtgärder till sockerbetsodlingens stödjande. (Forts.)
+          </note>
+          <note type="date" n="dd7e18b8">
+            52 Lördagen den 20 februari f. m.
+          </note>
+          <u who="arthur_engberg_9325cc" xml:id="i-0e8d50ae63a6809e-5" prev="i-0e8d50ae63a6809e-0" n="0e8d50ae">
             <seg n="5279f350">
               mycket större, som sockerbolaget kan, när det skall tillgodose
               sitt råsockerbehov utifrån, alltså i den mån detta behov icke
@@ -4733,59 +4854,13 @@
               om avslag å såväl utskottets hemställan som Kungl. Maj:ts proposition.
             </seg>
           </u>
-          <pb n="48" facs="https://betalab.kb.se/prot-1932--ak--15/prot_1932__ak__15-048.jp2/_view"/>
-          <note n="d3d7f6cc">
-            Lördagen den 20 februari f. in. 49
-          </note>
-          <note n="fff9037d">
-            Andra kammarens protokoll 1932. Nr 15. 4
-          </note>
-          <note n="a8c50257">
-            Nr 15.
-          </note>
-          <note n="8aa1322c">
-            Ang. åtgärder till sockerbetsodlingens stödjande. (Forts.)
-          </note>
-          <pb n="49" facs="https://betalab.kb.se/prot-1932--ak--15/prot_1932__ak__15-049.jp2/_view"/>
-          <note n="a8c50257">
-            Nr 15.
-          </note>
-          <note n="8aa1322c">
-            Ang. åtgärder till sockerbetsodlingens stödjande. (Forts.)
-          </note>
-          <note n="f52344ee">
-            50 Lördagen den 20 februari f. m.
-          </note>
-          <pb n="50" facs="https://betalab.kb.se/prot-1932--ak--15/prot_1932__ak__15-050.jp2/_view"/>
-          <note n="d3e275ca">
-            Lördagen den 20 februari f. m. 51
-          </note>
-          <note n="a8c50257">
-            Nr 15.
-          </note>
-          <note n="8bbe300f">
-            Ang. åtgärder till sockerbetsodlingens stödjande.
-          </note>
-          <note n="29e7cd26">
-            (Forts.)
-          </note>
-          <pb n="51" facs="https://betalab.kb.se/prot-1932--ak--15/prot_1932__ak__15-051.jp2/_view"/>
-          <note n="a8c50257">
-            Nr 15.
-          </note>
-          <note n="8aa1322c">
-            Ang. åtgärder till sockerbetsodlingens stödjande. (Forts.)
-          </note>
-          <note n="75130d08">
-            52 Lördagen den 20 februari f. m.
-          </note>
           <note n="9be7cdd2">
             I detta anförande instämde herrar Eriksson i Stockholm, Johanson
             i Stockholm och Höglund i Stockholm, fru Östlund samt herrar Ahl,
             Berg, Johansson
           </note>
           <pb n="52" facs="https://betalab.kb.se/prot-1932--ak--15/prot_1932__ak__15-052.jp2/_view"/>
-          <note n="90f02584">
+          <note type="date" n="b10c7299">
             Lördagen den 20 februari f. m. 53
           </note>
           <note n="710d243f">
@@ -4796,7 +4871,7 @@
           <note type="speaker" n="7fcf214e">
             Herr Jönsson i Revinge:
           </note>
-          <u who="jons_jonsson_1f96d5" xml:id="i-f5639ed52aeee56a-1" next="i-f9fd5dd89f2a4868-1" n="dbe3fc8e">
+          <u who="jons_jonsson_1f96d5" xml:id="i-bce3d0a18d9ae1a5-2" next="i-bce3d0a18d9ae1a5-4" n="dbe3fc8e">
             <seg n="2d0d2da5">
               Herr talman! När jag hörde herr Engberg citera tidigare uttalanden
               av finansministern, undrade jag i mitt stilla fridsamma sinne,
@@ -4881,10 +4956,10 @@
           <note n="29e7cd26">
             (Forts.)
           </note>
-          <note n="faf254fb">
+          <note type="date" n="fa8345dc">
             54 Lördagen den 20 februari f. m.
           </note>
-          <u who="jons_jonsson_1f96d5" xml:id="i-f9fd5dd89f2a4868-1" prev="i-f5639ed52aeee56a-1" n="dbe3fc8e">
+          <u who="jons_jonsson_1f96d5" xml:id="i-bce3d0a18d9ae1a5-3" prev="i-bce3d0a18d9ae1a5-2" n="dbe3fc8e">
             <seg n="7e58bc14">
               slutet av världskriget och under den första efterkrigstiden,
               kommit att öka sin sockerrörodling högst betydligt. Och när Europa
@@ -4955,6 +5030,12 @@
               i varje fall emot vad som annars är regel vid frågor om tullbehandling,
               då man
             </seg>
+          </u>
+          <pb n="54" facs="https://betalab.kb.se/prot-1932--ak--15/prot_1932__ak__15-054.jp2/_view"/>
+          <note type="date" n="40786627">
+            Lördagen den 20 februari f. m. 55
+          </note>
+          <u who="jons_jonsson_1f96d5" xml:id="i-bce3d0a18d9ae1a5-4" prev="i-bce3d0a18d9ae1a5-2" n="dbe3fc8e">
             <seg n="7e2d7dcf">
               alltid försöker skilja mellan råvara, halvfabrikat och den färdiga
               industriprodukten. Därför tycker jag, att den föreslagna lösningen
@@ -5001,14 +5082,10 @@
               kommer att bifallas av kammaren.
             </seg>
           </u>
-          <pb n="54" facs="https://betalab.kb.se/prot-1932--ak--15/prot_1932__ak__15-054.jp2/_view"/>
-          <note n="e5a1cb7d">
-            Lördagen den 20 februari f. m. 55
-          </note>
           <note type="speaker" n="3991c2a7">
             Herr Forssell:
           </note>
-          <u who="carl_forssell_4d0f8d" xml:id="i-ff273c149653f121-0" next="i-ea7d30fbebff04aa-0" n="3ba8743d">
+          <u who="carl_forssell_4d0f8d" xml:id="i-f4e20cdf3ad4599c-0" next="i-f4e20cdf3ad4599c-3" n="3ba8743d">
             <seg n="3470c08f">
               Herr talman, mina herrar När jag i kammaren väckte den motion,
               som här bl. a. föreligger till behandling, hade jag verkligen
@@ -5048,10 +5125,10 @@
           <note n="29e7cd26">
             (Forts.)
           </note>
-          <note n="3b06d679">
+          <note type="date" n="b85d2c31">
             56 Lördagen den 20 februari f. m.
           </note>
-          <u who="carl_forssell_4d0f8d" xml:id="i-ea7d30fbebff04aa-0" prev="i-ff273c149653f121-0" n="3ba8743d">
+          <u who="carl_forssell_4d0f8d" xml:id="i-f4e20cdf3ad4599c-1" prev="i-f4e20cdf3ad4599c-0" n="3ba8743d">
             <seg n="2c97c660">
               hör och förståelse för en skyddstullinje, som avser att gagna
               ett lantmanna- EE fastmera än att överösa ett sådant ståndpunktstagande
@@ -5122,6 +5199,12 @@
               att det verkligen blir två tredjedelar av det gemensamma skyddet,
               som tillfalla jordbruket. Då få vi alltså fram,
             </seg>
+          </u>
+          <pb n="56" facs="https://betalab.kb.se/prot-1932--ak--15/prot_1932__ak__15-056.jp2/_view"/>
+          <note type="date" n="597deea6">
+            Lördagen den 20 februari f. m. 57
+          </note>
+          <u who="carl_forssell_4d0f8d" xml:id="i-f4e20cdf3ad4599c-2" prev="i-f4e20cdf3ad4599c-0" n="3ba8743d">
             <seg n="faf5a10d">
               att av de 12:4 miljonerna blir det något över 8 miljoner, som
               skulle tillfalla jordbruket, och något över 4 miljoner, som skulle
@@ -5191,6 +5274,33 @@
               effekt inom ramen av Jordbrukets nödläge. Men då man talar om
               en råsockertull för att i gemensamt intresse gagna ett visst
             </seg>
+          </u>
+          <note n="9898431f">
+            Andra kammarens protokoll 1932. Nr 15. 5
+          </note>
+          <note n="a8c50257">
+            Nr 15.
+          </note>
+          <note n="8bbe300f">
+            Ang. åtgärder till sockerbetsodlingens stödjande.
+          </note>
+          <note n="29e7cd26">
+            (Forts.)
+          </note>
+          <pb n="57" facs="https://betalab.kb.se/prot-1932--ak--15/prot_1932__ak__15-057.jp2/_view"/>
+          <note n="a8c50257">
+            Nr 15.
+          </note>
+          <note n="cc6a1dc2">
+            Ang. åtgärder till sockerbets-
+          </note>
+          <note n="8acf60a9">
+            odlingens stödjande. (Forts.)
+          </note>
+          <note type="date" n="5a762d25">
+            58 Lördagen den 20 februari f. m.
+          </note>
+          <u who="carl_forssell_4d0f8d" xml:id="i-f4e20cdf3ad4599c-3" prev="i-f4e20cdf3ad4599c-0" n="3ba8743d">
             <seg n="f098de62">
               svenskt jordbruk, då vet man, att man målmedvetet inriktar sig
               på en viss specialitet av svenskt jordbruk. Man vet, vad man gör,
@@ -5214,35 +5324,6 @@
               reservationen.
             </seg>
           </u>
-          <pb n="56" facs="https://betalab.kb.se/prot-1932--ak--15/prot_1932__ak__15-056.jp2/_view"/>
-          <note n="3fe1189e">
-            Lördagen den 20 februari f. m. 57
-          </note>
-          <note n="9898431f">
-            Andra kammarens protokoll 1932. Nr 15. 5
-          </note>
-          <note n="a8c50257">
-            Nr 15.
-          </note>
-          <note n="8bbe300f">
-            Ang. åtgärder till sockerbetsodlingens stödjande.
-          </note>
-          <note n="29e7cd26">
-            (Forts.)
-          </note>
-          <pb n="57" facs="https://betalab.kb.se/prot-1932--ak--15/prot_1932__ak__15-057.jp2/_view"/>
-          <note n="a8c50257">
-            Nr 15.
-          </note>
-          <note n="cc6a1dc2">
-            Ang. åtgärder till sockerbets-
-          </note>
-          <note n="8acf60a9">
-            odlingens stödjande. (Forts.)
-          </note>
-          <note n="c0dd59d1">
-            58 Lördagen den 20 februari f. m.
-          </note>
           <note n="2f354c42">
             Som tiden nu var långt framskriden och många talare anmält sig
             för yttrandes avgivande, beslöt kammaren på hemställan av herr

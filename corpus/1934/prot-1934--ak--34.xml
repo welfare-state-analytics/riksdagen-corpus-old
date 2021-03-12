@@ -20,7 +20,7 @@
     <encodingDesc>
       <editorialDecl>
         <correction>
-          <p>Some data curation was done. It is documented in db/curation/instances</p>
+          <p>Some data curation was done. It is documented in input/curation/instances</p>
         </correction>
       </editorialDecl>
     </encodingDesc>
@@ -52,17 +52,19 @@
       <front>
         <div type="preface">
           <head>prot-1934--ak--34</head>
+          <docDate when="1934-05-11">1934-05-11</docDate>
           <docDate when="1934-05-12">1934-05-12</docDate>
         </div>
       </front>
       <body>
         <div>
+          <pb n="0" facs="https://betalab.kb.se/prot-1934--ak--34/prot_1934__ak__34-000.jp2/_view"/>
           <note n="1cf536fc">
             RIKSDAGENS PROTOKOLL. 1934. Andra kammaren. Nr 34.
           </note>
           <note n="d61de3b0"/>
           <note n="d61de3b0"/>
-          <note n="f970a342">
+          <note type="date" n="990a45d2">
             Fredagen den 11 maj. Kl. 4 e. m.
           </note>
           <note n="e5dca130">
@@ -138,7 +140,7 @@
             Andra kammarens protokoll 1934. Nr 34. 1
           </note>
           <pb n="1" facs="https://betalab.kb.se/prot-1934--ak--34/prot_1934__ak__34-001.jp2/_view"/>
-          <note n="cac957d9">
+          <note type="date" n="6b3b829c">
             3 Nr 34. Fredagen den 11 maj.
           </note>
           <note n="a9ff070b">
@@ -231,7 +233,7 @@
             $ 8. Justerades protokollsutdrag.
           </note>
           <pb n="2" facs="https://betalab.kb.se/prot-1934--ak--34/prot_1934__ak__34-002.jp2/_view"/>
-          <note n="87788ad4">
+          <note type="date" n="7fc4bc5c">
             Lördagen den 12 maj. Nr 34. 3
           </note>
           <note n="2f1f8ab0">
@@ -245,7 +247,7 @@
           <note n="0bf15027">
             In fidem Per Cronvall.
           </note>
-          <note n="948f11ef">
+          <note type="date" n="f6c511fa">
             Lördagen den 12 maj. KL. 11 f. m.
           </note>
           <note n="e5dca130">
@@ -299,7 +301,7 @@
           <note type="speaker" n="48738180">
             Herr Werner i Höjen:
           </note>
-          <u who="oscar_werner_3822a2" xml:id="i-9bca30d3ac260ef1-0" next="i-ad7c6c37ac94bd05-0" n="3ba1137c">
+          <u who="oscar_werner_3822a2" xml:id="i-3ba1137cf564c33a-0" next="i-3ba1137cf564c33a-2" n="3ba1137c">
             <seg n="e2375d15">
               Herr talman! Under vanliga förhållanden brukar det icke vara
               någon tacksam uppgift att som enskild ledamot av kammaren angripa
@@ -309,10 +311,10 @@
             </seg>
           </u>
           <pb n="3" facs="https://betalab.kb.se/prot-1934--ak--34/prot_1934__ak__34-003.jp2/_view"/>
-          <note n="b12518a1">
+          <note type="date" n="1c604bd0">
             4 Nr 34. Lördagen den 12 maj.
           </note>
-          <u who="oscar_werner_3822a2" xml:id="i-ad7c6c37ac94bd05-0" prev="i-9bca30d3ac260ef1-0" n="3ba1137c">
+          <u who="oscar_werner_3822a2" xml:id="i-3ba1137cf564c33a-1" prev="i-3ba1137cf564c33a-0" n="3ba1137c">
             <seg n="5f44de24">
               Ang. förhandlingsordning för statens tjänstemän. (Forts.) vikt
               och betydelse, att jag för en kort stund vill taga kammarens uppmärksamhet
@@ -382,6 +384,17 @@
               Det offentlig-rättsliga tjänsteavtalet kan sålunda ej gärna underkastas
               samma regler som det vanliga arbetsavtalet.»
             </seg>
+          </u>
+          <note n="087040da">
+            »Anmärkas må till en början, att en verklig medbestämmanderätt
+            ej gärna kan ifrågakomma i de fall, där avlöningseller andra tjänsteförhållanden
+            be-
+          </note>
+          <pb n="4" facs="https://betalab.kb.se/prot-1934--ak--34/prot_1934__ak__34-004.jp2/_view"/>
+          <note type="date" n="a2c8cd8d">
+            Lördagen den 12 maj. Nr 34. 5
+          </note>
+          <u who="oscar_werner_3822a2" xml:id="i-3ba1137cf564c33a-2" prev="i-3ba1137cf564c33a-0" n="3ba1137c">
             <seg n="c30b83d5">
               Ang. förhandlingsordning för statens tjänstemän. (Forts.) rörande
               villkor bestämmas av Kungl. Maj:t och riksdagen eller av Kungl.
@@ -409,15 +422,6 @@
               eller 1 någon mån påkallad.
             </seg>
           </u>
-          <note n="087040da">
-            »Anmärkas må till en början, att en verklig medbestämmanderätt
-            ej gärna kan ifrågakomma i de fall, där avlöningseller andra tjänsteförhållanden
-            be-
-          </note>
-          <pb n="4" facs="https://betalab.kb.se/prot-1934--ak--34/prot_1934__ak__34-004.jp2/_view"/>
-          <note n="db35894a">
-            Lördagen den 12 maj. Nr 34. 5
-          </note>
           <note n="eabe8ddb">
             Jag ber, herr talman, att få framställa yrkande om avslag på
             såväl motionen som utskottets hemställan.
@@ -429,7 +433,7 @@
           <note type="speaker" n="0fbd9246">
             Herr Andersson i Malmö:
           </note>
-          <u who="verner_andersson_20caeb" xml:id="i-662d181a10ff56dc-0" n="0e3a78fb">
+          <u who="verner_andersson_20caeb" xml:id="i-2280ad65421a5c34-0" n="0e3a78fb">
             <seg n="9a617128">
               Herr talman! Den föregående ärade talaren påpekade, att riksdagen
               år 1932 avslog en motion i samma ämne. Jag vill erinra om, vad
@@ -461,7 +465,7 @@
           <note type="speaker" n="969f8493">
             Herr Olsson i Golvvasta:
           </note>
-          <u who="oscar_olsson_600f9e" xml:id="i-1898934deb912080-0" next="i-781b5a596f29017d-0" n="d0997d80">
+          <u who="oscar_olsson_600f9e" xml:id="i-d1700bc834fdbeef-0" next="i-d1700bc834fdbeef-2" n="d0997d80">
             <seg n="b5b0bf60">
               Herr talman! TI de tillfälliga utskotten brukar man ju lägga
               ned betydande arbete i de motioner och frågor, som de få sig förelagda,
@@ -475,10 +479,10 @@
             </seg>
           </u>
           <pb n="5" facs="https://betalab.kb.se/prot-1934--ak--34/prot_1934__ak__34-005.jp2/_view"/>
-          <note n="7c005eca">
+          <note type="date" n="4f88ffe2">
             6 Nr 34. Lördagen den 12 maj.
           </note>
-          <u who="oscar_olsson_600f9e" xml:id="i-781b5a596f29017d-0" prev="i-1898934deb912080-0" n="d0997d80">
+          <u who="oscar_olsson_600f9e" xml:id="i-d1700bc834fdbeef-1" prev="i-d1700bc834fdbeef-0" n="d0997d80">
             <seg n="5b7efbc4">
               Ang. förhandlingsordning för statens tjänstemän. (Forts.) men
               riksdagen fann, att detta var ett förhastat förslag av det enhälliga
@@ -548,6 +552,12 @@
               högerhåll, och då har läget förändrats så mycket på ett år, att
               nu kommer ett enhälligt utskott och yr-
             </seg>
+          </u>
+          <pb n="6" facs="https://betalab.kb.se/prot-1934--ak--34/prot_1934__ak__34-006.jp2/_view"/>
+          <note type="date" n="78e830e5">
+            Lördagen den 12 maj. Nr 34. 7
+          </note>
+          <u who="oscar_olsson_600f9e" xml:id="i-d1700bc834fdbeef-2" prev="i-d1700bc834fdbeef-0" n="d0997d80">
             <seg n="046caa6f">
               Ang. förhandlingsordning för statens tjänstemän. (Forts.) kar
               på en skrivelse till Kungl. Maj:t. Jag anser dock, herr talman,
@@ -556,14 +566,10 @@
               avslag på utskottets hemställan.
             </seg>
           </u>
-          <pb n="6" facs="https://betalab.kb.se/prot-1934--ak--34/prot_1934__ak__34-006.jp2/_view"/>
-          <note n="878d9dd0">
-            Lördagen den 12 maj. Nr 34. 7
-          </note>
           <note type="speaker" n="8bbf706a">
             Herr Lundqvist:
           </note>
-          <u who="ragnar_lundqvist_c228d0" xml:id="i-376822de6ec8e8c8-0" next="i-3370452e14c9b58e-0" n="5466cce9">
+          <u who="ragnar_lundqvist_c228d0" xml:id="i-5466cce9326d769f-0" next="i-5466cce9326d769f-2" n="5466cce9">
             <seg n="88c8c827">
               Herr talman! Den föregående ärade talaren slutade med att säga,
               att det ingen skillnad var mellan kommunistmotionen för två år
@@ -628,10 +634,10 @@
             </seg>
           </u>
           <pb n="7" facs="https://betalab.kb.se/prot-1934--ak--34/prot_1934__ak__34-007.jp2/_view"/>
-          <note n="4d05ded5">
+          <note type="date" n="5ddff52b">
             8 Nr 34. Lördagen den 12 maj.
           </note>
-          <u who="ragnar_lundqvist_c228d0" xml:id="i-3370452e14c9b58e-0" prev="i-376822de6ec8e8c8-0" n="5466cce9">
+          <u who="ragnar_lundqvist_c228d0" xml:id="i-5466cce9326d769f-1" prev="i-5466cce9326d769f-0" n="5466cce9">
             <seg n="a9fdb09e">
               Ang. förhandlingsordning för statens tjänstemän. (Forts.) fälle
               att se ett förslag till de nya bestämmelserna och då även naturligtvis
@@ -703,6 +709,15 @@
               Att icke dessa organisationer därför även formellt behöva utse
               sina representanter är ju självfallet. Men det finns
             </seg>
+          </u>
+          <pb n="8" facs="https://betalab.kb.se/prot-1934--ak--34/prot_1934__ak__34-008.jp2/_view"/>
+          <note type="date" n="62ad50dd">
+            Lördagen den 12 maj. Nr 34. 9
+          </note>
+          <note n="6f3cc61c">
+            Ang. förhandlingsordning för statens tjänstemän. (Forts.)
+          </note>
+          <u who="ragnar_lundqvist_c228d0" xml:id="i-5466cce9326d769f-2" prev="i-5466cce9326d769f-0" n="5466cce9">
             <seg n="9876bf6d">
               Ju för övrigt många andra områden inom samhällslivet, där Kungl.
               Maj:t även formellt uppdrar t. ex. åt en arbetsgivarorganisation
@@ -738,13 +753,6 @@
               'fått, tillåter jag mig här yrka bifall till utskottets förslag.
             </seg>
           </u>
-          <pb n="8" facs="https://betalab.kb.se/prot-1934--ak--34/prot_1934__ak__34-008.jp2/_view"/>
-          <note n="bedc99d6">
-            Lördagen den 12 maj. Nr 34. 9
-          </note>
-          <note n="6f3cc61c">
-            Ang. förhandlingsordning för statens tjänstemän. (Forts.)
-          </note>
           <note n="9140acda">
             Med herr Lundqvist förenade sig herrar Arnemark, Ossbahr, Hagberg
             i Malmö, Holmström och Sefve.
@@ -752,7 +760,7 @@
           <note type="speaker" n="d681fec7">
             Herr Carlström:
           </note>
-          <u who="carl_fredrik_carlstrom_1881f1" xml:id="i-232049874ebfeba7-0" next="i-8ea831d89e74146f-0" n="0fc424cc">
+          <u who="carl_fredrik_carlstrom_1881f1" xml:id="i-5a28fb12364112d5-0" next="i-5a28fb12364112d5-2" n="0fc424cc">
             <seg n="02e860bf">
               Herr talman! Då jag tagit del av det föreliggande betänkandet
               och sett, till vilket resultat man enhälligt kommit inom det tillfälliga
@@ -786,10 +794,10 @@
             </seg>
           </u>
           <pb n="9" facs="https://betalab.kb.se/prot-1934--ak--34/prot_1934__ak__34-009.jp2/_view"/>
-          <note n="20794699">
+          <note type="date" n="c7d89bc9">
             10 Nr 34. Lördagen den 12 maj.
           </note>
-          <u who="carl_fredrik_carlstrom_1881f1" xml:id="i-8ea831d89e74146f-0" prev="i-232049874ebfeba7-0" n="0fc424cc">
+          <u who="carl_fredrik_carlstrom_1881f1" xml:id="i-5a28fb12364112d5-1" prev="i-5a28fb12364112d5-0" n="0fc424cc">
             <seg n="441bbbee">
               Ang. förhandlingsordning för statens tjänstemän. (Forts.) nerligen
               trevligt inom denna kommitté. Och även om kommittén icke hade
@@ -859,6 +867,12 @@
               visat sig kunna gå ett stycke före den enskilde, då det gällt
               att se till, hur befattnings-
             </seg>
+          </u>
+          <pb n="10" facs="https://betalab.kb.se/prot-1934--ak--34/prot_1934__ak__34-010.jp2/_view"/>
+          <note type="date" n="a0d9e14d">
+            Lördagen den 12 maj. Nr 34. 11
+          </note>
+          <u who="carl_fredrik_carlstrom_1881f1" xml:id="i-5a28fb12364112d5-2" prev="i-5a28fb12364112d5-0" n="0fc424cc">
             <seg n="87c7f435">
               Ang. förhandlingsordning för statens tjänstemän. (Forts.) havarna
               skola ha det under tjänstetiden i fråga om sjukhjälp och åtskilliga
@@ -930,12 +944,8 @@
               gjorts om avslag på utskottets hemställan.
             </seg>
           </u>
-          <pb n="10" facs="https://betalab.kb.se/prot-1934--ak--34/prot_1934__ak__34-010.jp2/_view"/>
-          <note n="d73a79c3">
-            Lördagen den 12 maj. Nr 34. 11
-          </note>
           <pb n="11" facs="https://betalab.kb.se/prot-1934--ak--34/prot_1934__ak__34-011.jp2/_view"/>
-          <note n="2f7f51e8">
+          <note type="date" n="68c97593">
             12 Nr 34. Lördagen den 12 maj.
           </note>
           <note n="6f3cc61c">
@@ -944,7 +954,7 @@
           <note type="speaker" n="8bbf706a">
             Herr Lundqvist:
           </note>
-          <u who="ragnar_lundqvist_c228d0" xml:id="i-376822de6ec8e8c8-1" next="i-3370452e14c9b58e-1" n="5466cce9">
+          <u who="ragnar_lundqvist_c228d0" xml:id="i-5466cce9326d769f-3" next="i-5466cce9326d769f-5" n="5466cce9">
             <seg n="59c0137f">
               Herr talman! Jag måste med anledning av den siste ärade talarens
               yttrande uttala min förvåning över, att han så lättvindigt — om
@@ -1014,13 +1024,13 @@
             </seg>
           </u>
           <pb n="12" facs="https://betalab.kb.se/prot-1934--ak--34/prot_1934__ak__34-012.jp2/_view"/>
-          <note n="4428fd6a">
+          <note type="date" n="5d2072c0">
             Lördagen den 12 maj. Nr 34. 13
           </note>
           <note n="6f3cc61c">
             Ang. förhandlingsordning för statens tjänstemän. (Forts.)
           </note>
-          <u who="ragnar_lundqvist_c228d0" xml:id="i-3370452e14c9b58e-1" prev="i-376822de6ec8e8c8-1" n="5466cce9">
+          <u who="ragnar_lundqvist_c228d0" xml:id="i-5466cce9326d769f-4" prev="i-5466cce9326d769f-3" n="5466cce9">
             <seg n="e9c1b7e7">
               som jag nyss talat om, kunna träffas i samförstånd med personalens
               representanter! Jag tror, att den som här uttalat allvarliga farhågor
@@ -1085,6 +1095,12 @@
               av statstjänstemännen, bör inom en snar framtid bliva personalen
               beskärd, samt att i samband därmed frågan om åvägabringandet av
             </seg>
+          </u>
+          <pb n="13" facs="https://betalab.kb.se/prot-1934--ak--34/prot_1934__ak__34-013.jp2/_view"/>
+          <note type="date" n="1db3e099">
+            14 Nr 34. Lördagen den 12 maj.
+          </note>
+          <u who="ragnar_lundqvist_c228d0" xml:id="i-5466cce9326d769f-5" prev="i-5466cce9326d769f-3" n="5466cce9">
             <seg n="2a38a404">
               Ang. förhandlingsordning för statens tjänstemän. (Forts.) en
               tjänstemannalag, där tjänstemännens allmänna rättigheter och skyldigheter
@@ -1104,17 +1120,13 @@
               Herr talman, jag vidhåller mitt yrkande.
             </seg>
           </u>
-          <pb n="13" facs="https://betalab.kb.se/prot-1934--ak--34/prot_1934__ak__34-013.jp2/_view"/>
-          <note n="35b35944">
-            14 Nr 34. Lördagen den 12 maj.
-          </note>
           <note n="c84e5db7">
             Herr Lindskog instämde häruti.
           </note>
           <note type="speaker" n="b4061b83">
             Herr Andersson i Stockholm:
           </note>
-          <u who="verner_andersson_20caeb" xml:id="i-d0431a6a1752935d-0" next="i-9dc490557bf4dc38-0" n="0e3a78fb">
+          <u who="verner_andersson_20caeb" xml:id="i-2280ad65421a5c34-1" next="i-2280ad65421a5c34-3" n="0e3a78fb">
             <seg n="81c345e4">
               Herr talman! TI anledning av vad som redan sagts i denna debatt
               skall jag be att få peka på, att när jag år 1932 motionerade om
@@ -1169,10 +1181,10 @@
             </seg>
           </u>
           <pb n="14" facs="https://betalab.kb.se/prot-1934--ak--34/prot_1934__ak__34-014.jp2/_view"/>
-          <note n="e679d150">
+          <note type="date" n="e5cce5a3">
             Lördagen den 12 maj. Nr 34. 15
           </note>
-          <u who="verner_andersson_20caeb" xml:id="i-9dc490557bf4dc38-0" prev="i-d0431a6a1752935d-0" n="0e3a78fb">
+          <u who="verner_andersson_20caeb" xml:id="i-2280ad65421a5c34-2" prev="i-2280ad65421a5c34-1" n="0e3a78fb">
             <seg n="df9cb229">
               Ang. förhandlingsordning för statens tjänstemän. (Forts.) det
               verkligen skall ske något här, kommer det att erfordras en överarbetning.
@@ -1244,6 +1256,12 @@
               ju här, om man kan åstadkomma en mera ändamålsenlig behandling
               av spörsmålen genom att handla på det sättet, att man
             </seg>
+          </u>
+          <pb n="15" facs="https://betalab.kb.se/prot-1934--ak--34/prot_1934__ak__34-015.jp2/_view"/>
+          <note type="date" n="5fee0764">
+            16 Nr 34. Lördagen den 12 maj.
+          </note>
+          <u who="verner_andersson_20caeb" xml:id="i-2280ad65421a5c34-3" prev="i-2280ad65421a5c34-1" n="0e3a78fb">
             <seg n="c74398d9">
               Ang. förhandlingsordning för statens tjänstemän. (Forts.) för
               förhandlingar mellan representanter för statstjänaresammanslutningar
@@ -1311,14 +1329,10 @@
               hemställan.
             </seg>
           </u>
-          <pb n="15" facs="https://betalab.kb.se/prot-1934--ak--34/prot_1934__ak__34-015.jp2/_view"/>
-          <note n="e8cf162d">
-            16 Nr 34. Lördagen den 12 maj.
-          </note>
           <note type="speaker" n="afa53024">
             Herr Olsson i Kullenbergstorp:
           </note>
-          <u who="oscar_olsson_600f9e" xml:id="i-1898934deb912080-1" next="i-781b5a596f29017d-1" n="d0997d80">
+          <u who="oscar_olsson_600f9e" xml:id="i-d1700bc834fdbeef-3" next="i-d1700bc834fdbeef-5" n="d0997d80">
             <seg n="47be74bf">
               Herr talman! Frågan om förhandlingsordning för statstjänstemän
               är rätt gammal. Jag var med redan år 1910 i fjärde tillfälliga
@@ -1330,10 +1344,10 @@
             </seg>
           </u>
           <pb n="16" facs="https://betalab.kb.se/prot-1934--ak--34/prot_1934__ak__34-016.jp2/_view"/>
-          <note n="45ba39db">
+          <note type="date" n="8c60e684">
             Lördagen den 12 maj. Nr 34. 17
           </note>
-          <u who="oscar_olsson_600f9e" xml:id="i-781b5a596f29017d-1" prev="i-1898934deb912080-1" n="d0997d80">
+          <u who="oscar_olsson_600f9e" xml:id="i-d1700bc834fdbeef-4" prev="i-d1700bc834fdbeef-3" n="d0997d80">
             <seg n="25692049">
               Ang. förhandlingsordning för statens tjänstemän. (Forts.) av
               frågorna, delvis beroende på att de hade ingen sekreterare, utan
@@ -1406,6 +1420,15 @@
               alla, som vi hade att reglera lönerna för, icke mer än en enda
               grupp, som icke kom med påstående att den blev illa behandlad
             </seg>
+          </u>
+          <note n="57ab0fff">
+            Andra kammarens protokoll 1934. Nr 34. 2
+          </note>
+          <pb n="17" facs="https://betalab.kb.se/prot-1934--ak--34/prot_1934__ak__34-017.jp2/_view"/>
+          <note type="date" n="61f440a5">
+            18 Nr 34. Lördagen den 12 maj.
+          </note>
+          <u who="oscar_olsson_600f9e" xml:id="i-d1700bc834fdbeef-5" prev="i-d1700bc834fdbeef-3" n="d0997d80">
             <seg n="c88f7112">
               Ang. förhandlingsordning för statens tjänstemän. (Forts.) och
               fick för liten lön så som reglementet var skrivet. Jag tycker,
@@ -1465,13 +1488,6 @@
               herrarna att ni tänka er litet för, innan ni gå att fatta beslut.
             </seg>
           </u>
-          <note n="57ab0fff">
-            Andra kammarens protokoll 1934. Nr 34. 2
-          </note>
-          <pb n="17" facs="https://betalab.kb.se/prot-1934--ak--34/prot_1934__ak__34-017.jp2/_view"/>
-          <note n="b0ac777b">
-            18 Nr 34. Lördagen den 12 maj.
-          </note>
           <note n="d72e0d1f">
             Häruti instämde herrar Westman, Mattsson, Eriksson i Toftered,
             Gustafson 1 Vimmerby och Persson i Fritorp.
@@ -1479,7 +1495,7 @@
           <note type="speaker" n="ec901430">
             . Herr Carlström:
           </note>
-          <u who="carl_fredrik_carlstrom_1881f1" xml:id="i-232049874ebfeba7-1" next="i-8ea831d89e74146f-1" n="0fc424cc">
+          <u who="carl_fredrik_carlstrom_1881f1" xml:id="i-5a28fb12364112d5-3" next="i-5a28fb12364112d5-4" n="0fc424cc">
             <seg n="fb78298f">
               Herr talman! Herr Lundqvist i Rotebro känner sig ganska indignerad
               över att jag vågat anmärka på hans inställning till den här saken,
@@ -1488,10 +1504,10 @@
             </seg>
           </u>
           <pb n="18" facs="https://betalab.kb.se/prot-1934--ak--34/prot_1934__ak__34-018.jp2/_view"/>
-          <note n="8c744d8b">
+          <note type="date" n="5dfa3bb2">
             Lördagen den 12 maj. Nr 34. 19
           </note>
-          <u who="carl_fredrik_carlstrom_1881f1" xml:id="i-8ea831d89e74146f-1" prev="i-232049874ebfeba7-1" n="0fc424cc">
+          <u who="carl_fredrik_carlstrom_1881f1" xml:id="i-5a28fb12364112d5-4" prev="i-5a28fb12364112d5-3" n="0fc424cc">
             <seg n="e4d5d262">
               Ang. förhandlingsordning för statens tjänstemän. (Forts.) vara
               sant». Jag har ju stor respekt för herr Lundqvist och för vad
@@ -1566,7 +1582,7 @@
           <note type="speaker" n="0fbd9246">
             Herr Andersson i Malmö:
           </note>
-          <u who="verner_andersson_20caeb" xml:id="i-d0431a6a1752935d-1" next="i-9dc490557bf4dc38-1" n="0e3a78fb">
+          <u who="verner_andersson_20caeb" xml:id="i-2280ad65421a5c34-4" next="i-2280ad65421a5c34-6" n="0e3a78fb">
             <seg n="53fa2f9a">
               Herr talman! Man har i dagens debatt givit denna fråga en allt
               för stor räckvidd och givit den en annan och större innebörd än
@@ -1574,13 +1590,13 @@
             </seg>
           </u>
           <pb n="19" facs="https://betalab.kb.se/prot-1934--ak--34/prot_1934__ak__34-019.jp2/_view"/>
-          <note n="ff442ca3">
+          <note type="date" n="b413376c">
             20 Nr 34. Lördagen den 12 maj.
           </note>
           <note n="6f3cc61c">
             Ang. förhandlingsordning för statens tjänstemän. (Forts.)
           </note>
-          <u who="verner_andersson_20caeb" xml:id="i-9dc490557bf4dc38-1" prev="i-d0431a6a1752935d-1" n="0e3a78fb">
+          <u who="verner_andersson_20caeb" xml:id="i-2280ad65421a5c34-5" prev="i-2280ad65421a5c34-4" n="0e3a78fb">
             <seg n="27599b71">
               Här ha dragits paralleller med förhandlingarna på den fria arbetsmarknadens
               område. Jag förstår emellertid inte, av vilken anledning man skall
@@ -1609,17 +1625,6 @@
               motionen utan måst inskränka sig till att förorda en förusättningslös
               utredning av frågan.
             </seg>
-            <seg n="d1df8b4d">
-              I det av mig nu citerade utlåtandet talas således också om utredning
-              på ungefär enahanda sätt som utskottet föreslagit i här föreliggande
-              fråga.
-            </seg>
-            <seg n="fc1998b7">
-              Slutligen vill jag också erinra om, att det pågått och pågår
-              överläggningar mellan de större städerna rörande upprättandet
-              av viss förhandlingsordning mellan städerna och städernas anställda.
-              Vissa städer här i landet ha redan infört dylik förhandlingsordning.
-            </seg>
           </u>
           <note n="0a211ee0">
             Såsom herr Lundqvist redan erinrat om behandlades för en tid
@@ -1634,6 +1639,19 @@
             att i samma utsträckning som sjukvårdspersonal men möjligen i
             annan ordning överklaga av sjukhusdirektionen meddelade beslut.»
           </note>
+          <u who="verner_andersson_20caeb" xml:id="i-2280ad65421a5c34-6" prev="i-2280ad65421a5c34-4" n="0e3a78fb">
+            <seg n="d1df8b4d">
+              I det av mig nu citerade utlåtandet talas således också om utredning
+              på ungefär enahanda sätt som utskottet föreslagit i här föreliggande
+              fråga.
+            </seg>
+            <seg n="fc1998b7">
+              Slutligen vill jag också erinra om, att det pågått och pågår
+              överläggningar mellan de större städerna rörande upprättandet
+              av viss förhandlingsordning mellan städerna och städernas anställda.
+              Vissa städer här i landet ha redan infört dylik förhandlingsordning.
+            </seg>
+          </u>
           <note n="8b436c76">
             Jag ber, herr talman, att få vidhålla yrkandet om bifall till
             utskottets förslag.
@@ -1641,7 +1659,7 @@
           <note type="speaker" n="8bbf706a">
             Herr Lundqvist:
           </note>
-          <u who="ragnar_lundqvist_c228d0" xml:id="i-376822de6ec8e8c8-2" next="i-3370452e14c9b58e-2" n="5466cce9">
+          <u who="ragnar_lundqvist_c228d0" xml:id="i-5466cce9326d769f-6" next="i-5466cce9326d769f-7" n="5466cce9">
             <seg n="f8762972">
               Herr talman! Man har här åter och åter sökt göra gällande, att
               tjänstemännen redan ha, vad vi motionerat om. Jag har svårt att
@@ -1660,13 +1678,13 @@
             </seg>
           </u>
           <pb n="20" facs="https://betalab.kb.se/prot-1934--ak--34/prot_1934__ak__34-020.jp2/_view"/>
-          <note n="7616e405">
+          <note type="date" n="19d4134d">
             Lördagen den 12 maj. Nr 34. 21
           </note>
           <note n="6f3cc61c">
             Ang. förhandlingsordning för statens tjänstemän. (Forts.)
           </note>
-          <u who="ragnar_lundqvist_c228d0" xml:id="i-3370452e14c9b58e-2" prev="i-376822de6ec8e8c8-2" n="5466cce9">
+          <u who="ragnar_lundqvist_c228d0" xml:id="i-5466cce9326d769f-7" prev="i-5466cce9326d769f-6" n="5466cce9">
             <seg n="8a2f5d8d">
               Jag understryker ännu en gång, att det är inte bara de stora
               lönefrågorna, som det här gäller. Det är så mycket annat, som
@@ -1737,7 +1755,7 @@
             </seg>
           </u>
           <pb n="21" facs="https://betalab.kb.se/prot-1934--ak--34/prot_1934__ak__34-021.jp2/_view"/>
-          <note n="9bf33cde">
+          <note type="date" n="f87b4e20">
             22 Nr 34. Lördagen den 12 maj.
           </note>
           <note n="6f3cc61c">
@@ -1746,7 +1764,7 @@
           <note type="speaker" n="e93d2389">
             Herr Magnusson i Skövde:
           </note>
-          <u who="karl_magnusson_942538" xml:id="i-d5cdad0d67eb2de9-0" n="6b0ae0bf">
+          <u who="karl_magnusson_942538" xml:id="i-5da6aca031d66343-0" n="6b0ae0bf">
             <seg n="52938430">
               Herr talman! När man hör debatten i denna fråga liksom när man
               i övrigt söker sätta sig in i densamma, kan man icke undgå det
@@ -1779,7 +1797,7 @@
           <note type="speaker" n="0a1b7d1f">
             Herr Arnemark:
           </note>
-          <u who="gustaf_arnemark_265ba4" xml:id="i-3aa40f84e6a5e75b-0" next="i-6f65d3cd28b903ae-0" n="72b752bd">
+          <u who="gustaf_arnemark_265ba4" xml:id="i-72b752bd9848c821-0" next="i-72b752bd9848c821-3" n="72b752bd">
             <seg n="e9a3b685">
               Herr talman! Denna fråga har varit föremål för debatt så länge,
               att jag icke skall yttra mig mera ingående i densamma. Jag vill
@@ -1822,26 +1840,15 @@
             </seg>
           </u>
           <pb n="22" facs="https://betalab.kb.se/prot-1934--ak--34/prot_1934__ak__34-022.jp2/_view"/>
-          <note n="daf0a3b2">
+          <note type="date" n="9f1e9cc2">
             Lördagen den 12 maj. Nr 34. 23
           </note>
-          <u who="gustaf_arnemark_265ba4" xml:id="i-6f65d3cd28b903ae-0" prev="i-3aa40f84e6a5e75b-0" n="72b752bd">
+          <u who="gustaf_arnemark_265ba4" xml:id="i-72b752bd9848c821-1" prev="i-72b752bd9848c821-0" n="72b752bd">
             <seg n="b63b7c65">
               Ang. förhandlingsordning för statens tjänstemän. (Forts.) sätt,
               som tillfredsställer tjänstemännen utan att på något vis träda
               för nära statsmakternas gamla rätt att ha beslutanderätten i sin
               hand.
-            </seg>
-            <seg n="49e38b96">
-              Ang. sänkning av lönerna åt vissa statens ämbetsmän.
-            </seg>
-            <seg n="b889fbff">
-              Ang. sänkning av lönerna åt vissa statens ämbetsmän. (Forts.)
-              män, vilka åtnjöte en lön av över 8,000 kronor per år, dock så,
-              att sänkningen successivt minskades från de högst avlönade och
-              nedåt, så att löneskalan vid åttatusenkronorsgränsen ställdes
-              i proportion med nuvarande löneskillnader för dem, som hade under
-              8,000 kronor.
             </seg>
           </u>
           <note n="f28e1d7c">
@@ -1921,10 +1928,25 @@
             för riksdagen framlägga förslag till sänkning av lönerna — maximum
             40 procent — för de statens ämbets-
           </note>
+          <u who="gustaf_arnemark_265ba4" xml:id="i-72b752bd9848c821-2" prev="i-72b752bd9848c821-0" n="72b752bd">
+            <seg n="49e38b96">
+              Ang. sänkning av lönerna åt vissa statens ämbetsmän.
+            </seg>
+          </u>
           <pb n="23" facs="https://betalab.kb.se/prot-1934--ak--34/prot_1934__ak__34-023.jp2/_view"/>
-          <note n="cda57b8e">
+          <note type="date" n="25b017bc">
             24 Nr 34. Lördagen den 12 maj.
           </note>
+          <u who="gustaf_arnemark_265ba4" xml:id="i-72b752bd9848c821-3" prev="i-72b752bd9848c821-0" n="72b752bd">
+            <seg n="b889fbff">
+              Ang. sänkning av lönerna åt vissa statens ämbetsmän. (Forts.)
+              män, vilka åtnjöte en lön av över 8,000 kronor per år, dock så,
+              att sänkningen successivt minskades från de högst avlönade och
+              nedåt, så att löneskalan vid åttatusenkronorsgränsen ställdes
+              i proportion med nuvarande löneskillnader för dem, som hade under
+              8,000 kronor.
+            </seg>
+          </u>
           <note n="e3f75b92">
             Utskottet hemställde, att ifrågavarande motion icke måtte föranleda
             någon riksdagens åtgärd.
@@ -1935,7 +1957,7 @@
           <note type="speaker" n="bec1ff19">
             Herr Kilbom, som yttrade:
           </note>
-          <u who="karl_kilbom_56e99b" xml:id="i-eed59c1e07e73d57-0" next="i-e0f4194fbcdc963e-0" n="bb2b97f3">
+          <u who="karl_kilbom_56e99b" xml:id="i-bb2b97f302df4243-0" next="i-bb2b97f302df4243-2" n="bb2b97f3">
             <seg n="9f169245">
               Herr talman! TI statsutskottets behandling av föreliggande motion
               är att notera ett litet men mycket, mycket blygsamt framsteg.
@@ -2000,10 +2022,10 @@
             </seg>
           </u>
           <pb n="24" facs="https://betalab.kb.se/prot-1934--ak--34/prot_1934__ak__34-024.jp2/_view"/>
-          <note n="2e971b5e">
+          <note type="date" n="2d359b92">
             Lördagen den 12 maj. Nr 34. 25
           </note>
-          <u who="karl_kilbom_56e99b" xml:id="i-e0f4194fbcdc963e-0" prev="i-eed59c1e07e73d57-0" n="bb2b97f3">
+          <u who="karl_kilbom_56e99b" xml:id="i-bb2b97f302df4243-1" prev="i-bb2b97f302df4243-0" n="bb2b97f3">
             <seg n="670798e0">
               Ang. sänkning av lönerna åt vissa statens ämbetsmän. (Forts.)
               än att det står i protokollet, vilket ju dock kan vara av värde
@@ -2013,9 +2035,6 @@
               Ha herrarna så mycket att göra med att pressa ned arbetarlönerna,
               att ni icke ha tid med den här saken eller vad kan anledningen
               vara?
-            </seg>
-            <seg n="42ed7c6d">
-              . . ä 5 ö ör
             </seg>
           </u>
           <note n="4811de92">
@@ -2033,6 +2052,11 @@
             den ordinarie anställningsformen för Jande: av än ämbetsmän och
             tjänstemän i chefsställning. ställnings-
           </note>
+          <u who="karl_kilbom_56e99b" xml:id="i-bb2b97f302df4243-2" prev="i-bb2b97f302df4243-0" n="bb2b97f3">
+            <seg n="42ed7c6d">
+              . . ä 5 ö ör
+            </seg>
+          </u>
           <note n="3e626962">
             Uti en inom andra kammaren väckt, till statsutskottet hänvisad
             motion, nr formen för
@@ -2053,7 +2077,7 @@
           <note type="speaker" n="0b33594e">
             Herr Kilbom:
           </note>
-          <u who="karl_kilbom_56e99b" xml:id="i-eed59c1e07e73d57-1" next="i-e0f4194fbcdc963e-1" n="bb2b97f3">
+          <u who="karl_kilbom_56e99b" xml:id="i-bb2b97f302df4243-3" next="i-bb2b97f302df4243-5" n="bb2b97f3">
             <seg n="a46a7bfa">
               Herr talman, mina herrar! I denna fråga har utskottet i huvudsak
               kommit med samma undanflykter som i den föregående. Man har hänvisat
@@ -2092,10 +2116,10 @@
             </seg>
           </u>
           <pb n="25" facs="https://betalab.kb.se/prot-1934--ak--34/prot_1934__ak__34-025.jp2/_view"/>
-          <note n="8167e1e1">
+          <note type="date" n="d7174ba4">
             26 Nr 34. Lördagen den 12 maj.
           </note>
-          <u who="karl_kilbom_56e99b" xml:id="i-e0f4194fbcdc963e-1" prev="i-eed59c1e07e73d57-1" n="bb2b97f3">
+          <u who="karl_kilbom_56e99b" xml:id="i-bb2b97f302df4243-4" prev="i-bb2b97f302df4243-3" n="bb2b97f3">
             <seg n="56573d50">
               Ang. avskaffande av den ordinarie anställningsformen för ämbetsmän
               och tjänstemän i chefsställning. (Forts.) ske under åratal, upprätthållas
@@ -2173,6 +2197,16 @@
               här i landet, så länge staten såsom arbetsgivare skall vara fullständigt
               fastlåst vid
             </seg>
+          </u>
+          <pb n="26" facs="https://betalab.kb.se/prot-1934--ak--34/prot_1934__ak__34-026.jp2/_view"/>
+          <note type="date" n="18454509">
+            Lördagen den 12 maj. Nr 34. 27
+          </note>
+          <note n="30e9024b">
+            Ang. avskaffande av den ordinarie anställningsformen för ämbetsmän
+            och tjänstemän i chefsställning. (Forts.)
+          </note>
+          <u who="karl_kilbom_56e99b" xml:id="i-bb2b97f302df4243-5" prev="i-bb2b97f302df4243-3" n="bb2b97f3">
             <seg n="5ba2e81f">
               ämbetsmän, oavsett om dessa duga något till eller ej. Vederbörande
               sitter där bara i kraft av sitt konstitutorial och i kraft av
@@ -2183,18 +2217,10 @@
               diskuterar i en del av våra stora kommuner.
             </seg>
           </u>
-          <pb n="26" facs="https://betalab.kb.se/prot-1934--ak--34/prot_1934__ak__34-026.jp2/_view"/>
-          <note n="93ba26f5">
-            Lördagen den 12 maj. Nr 34. 27
-          </note>
-          <note n="30e9024b">
-            Ang. avskaffande av den ordinarie anställningsformen för ämbetsmän
-            och tjänstemän i chefsställning. (Forts.)
-          </note>
           <note type="speaker" n="cc8326e0">
             Herr Anderson i Råstock:
           </note>
-          <u who="erik_anderson_274172" xml:id="i-def142a407a65445-0" n="b46a3837">
+          <u who="erik_anderson_274172" xml:id="i-4bd1a878157ae4e9-0" n="b46a3837">
             <seg n="acf7414e">
               Herr talman, mina herrar! Det var icke ens min mening att begära
               ordet i denna fråga, men då herr Kilbom gör mig den äran att säga,
@@ -2236,7 +2262,7 @@
           <note type="speaker" n="0b33594e">
             Herr Kilbom:
           </note>
-          <u who="karl_kilbom_56e99b" xml:id="i-eed59c1e07e73d57-2" next="i-e0f4194fbcdc963e-2" n="bb2b97f3">
+          <u who="karl_kilbom_56e99b" xml:id="i-bb2b97f302df4243-6" next="i-bb2b97f302df4243-7" n="bb2b97f3">
             <seg n="2e68a71e">
               Herr talman! Jag förstår innerligt väl, att herr Anderson i Råstock
               icke vill diskutera denna fråga eller utskottets ståndpunkt beträffande
@@ -2270,14 +2296,14 @@
             </seg>
           </u>
           <pb n="27" facs="https://betalab.kb.se/prot-1934--ak--34/prot_1934__ak__34-027.jp2/_view"/>
-          <note n="e69e5a56">
+          <note type="date" n="25bd28b8">
             28 Nr 34. Lördagen den 12 maj
           </note>
           <note n="30e9024b">
             Ang. avskaffande av den ordinarie anställningsformen för ämbetsmän
             och tjänstemän i chefsställning. (Forts.)
           </note>
-          <u who="karl_kilbom_56e99b" xml:id="i-e0f4194fbcdc963e-2" prev="i-eed59c1e07e73d57-2" n="bb2b97f3">
+          <u who="karl_kilbom_56e99b" xml:id="i-bb2b97f302df4243-7" prev="i-bb2b97f302df4243-6" n="bb2b97f3">
             <seg n="01702ff9">
               verken. Men icke ens, när det gäller dessa verk, är principen
               genomförd i den omfattning, som är behövlig och med hänsyn till
@@ -2363,7 +2389,7 @@
             hemställan.
           </note>
           <pb n="28" facs="https://betalab.kb.se/prot-1934--ak--34/prot_1934__ak__34-028.jp2/_view"/>
-          <note n="34875592">
+          <note type="date" n="be4ca7e5">
             Lördagen den 12 maj. Nr 34. 29
           </note>
           <note n="360ffaca">
@@ -2404,7 +2430,7 @@
           <note type="speaker" n="0b31ab79">
             Herr Lithander:
           </note>
-          <u who="edvard_lithander_2ecf38" xml:id="i-15d30d005a249ddc-0" next="i-e454241289556520-0" n="dddbaf1e">
+          <u who="edvard_lithander_2ecf38" xml:id="i-dddbaf1ea0d3a842-0" next="i-dddbaf1ea0d3a842-1" n="dddbaf1e">
             <seg n="e0b5b290">
               Herr talman! Bankoutskottet har inte velat gå med på den i ämnet
               väckta motionen under anförande att vederbörande tjänsteman redan
@@ -2464,10 +2490,10 @@
           <note n="43ace195">
             Bäck.
           </note>
-          <note n="3305d23b">
+          <note type="date" n="91d1f1dc">
             30 Nr 34. Lördagen den 12 maj.
           </note>
-          <u who="edvard_lithander_2ecf38" xml:id="i-e454241289556520-0" prev="i-15d30d005a249ddc-0" n="dddbaf1e">
+          <u who="edvard_lithander_2ecf38" xml:id="i-dddbaf1ea0d3a842-1" prev="i-dddbaf1ea0d3a842-0" n="dddbaf1e">
             <seg n="afff9830">
               Ang. tilläggspension åt f. d. tullfiskalen G. von Zweigbergk.
               (Forts.) någon annan utväg för att om möjligt bereda honom en
@@ -2500,7 +2526,7 @@
           <note type="speaker" n="1c9b83b3">
             Herr Paulsen:
           </note>
-          <u who="anders_paulsen_51f1f7" xml:id="i-7b541eff8ed00e68-0" n="4f133f95">
+          <u who="anders_paulsen_51f1f7" xml:id="i-4f133f95152089ae-0" n="4f133f95">
             <seg n="3bb1e140">
               Herr talman! Motionären talar om att denne man hade högre kvalifikationer
               än vad som erfordrades för att sköta tjänsten. Det tvivlar jag
@@ -2523,7 +2549,7 @@
           <note type="speaker" n="0b31ab79">
             Herr Lithander:
           </note>
-          <u who="edvard_lithander_2ecf38" xml:id="i-15d30d005a249ddc-1" next="i-e454241289556520-1" n="dddbaf1e">
+          <u who="edvard_lithander_2ecf38" xml:id="i-dddbaf1ea0d3a842-2" next="i-dddbaf1ea0d3a842-3" n="dddbaf1e">
             <seg n="c240c74d">
               Herr talman! Den siste ärade talaren har nog missuppfattat mig
               i någon mån, ty jag har inte sagt, att tjänstemannen haft större
@@ -2546,7 +2572,7 @@
             talmannen propositioner på de därunder förekomna yrkandena; och
             blev utskottets hemställan i förevarande punkt av kammaren bifallen.
           </note>
-          <u who="edvard_lithander_2ecf38" xml:id="i-e454241289556520-1" prev="i-15d30d005a249ddc-1" n="dddbaf1e">
+          <u who="edvard_lithander_2ecf38" xml:id="i-dddbaf1ea0d3a842-3" prev="i-dddbaf1ea0d3a842-2" n="dddbaf1e">
             <seg n="4b717d8d">
               Punkterna 4—20.
             </seg>
@@ -2564,7 +2590,7 @@
             Karl Melker
           </note>
           <pb n="30" facs="https://betalab.kb.se/prot-1934--ak--34/prot_1934__ak__34-030.jp2/_view"/>
-          <note n="fef4b233">
+          <note type="date" n="f6fc9f12">
             Lördagen den 12 maj. Nr 34. 31
           </note>
           <note n="853980f7">
@@ -2595,7 +2621,7 @@
           <note type="speaker" n="e93d2389">
             Herr Magnusson i Skövde:
           </note>
-          <u who="karl_magnusson_942538" xml:id="i-51669df35be42426-0" next="i-f3277c0d75676b8b-0" n="6b0ae0bf">
+          <u who="karl_magnusson_942538" xml:id="i-5da6aca031d66343-1" next="i-5da6aca031d66343-3" n="6b0ae0bf">
             <seg n="45b1919f">
               Herr talman! Jag ber att med några få ord få fästa kammarens
               uppmärksamhet på denna pensionsfråga, och jag gör det därför,
@@ -2626,7 +2652,7 @@
             Vadstena krigsmanshuskassa på grund av hans anställning såsom
             indelt soldat.
           </note>
-          <u who="karl_magnusson_942538" xml:id="i-f3277c0d75676b8b-0" prev="i-51669df35be42426-0" n="6b0ae0bf">
+          <u who="karl_magnusson_942538" xml:id="i-5da6aca031d66343-2" prev="i-5da6aca031d66343-1" n="6b0ae0bf">
             <seg n="20d6043f">
               TI fjol riktades som nämnt genom Kungl. Maj:t en framställning
               till riksdagen, att denne Bäck måtte beviljas pension på samma
@@ -2645,6 +2671,15 @@
               att ett medgivande såsom regel av särskild pensionsförmån kan
               befaras medföra ganska omfattande konsekvenser.»
             </seg>
+          </u>
+          <pb n="31" facs="https://betalab.kb.se/prot-1934--ak--34/prot_1934__ak__34-031.jp2/_view"/>
+          <note type="date" n="f579b150">
+            32 Nr 34. Lördagen den 12 maj.
+          </note>
+          <note n="fdc83a7a">
+            Ang. pension åt furiren K. M. Bäck. (Forts.)
+          </note>
+          <u who="karl_magnusson_942538" xml:id="i-5da6aca031d66343-3" prev="i-5da6aca031d66343-1" n="6b0ae0bf">
             <seg n="379ea58f">
               Jag ber att få nämna, att utskottet, såvitt jag kan se, här gör
               sig skyldigt till ett misstag, då man utan vidare synes förutsätta,
@@ -2704,20 +2739,13 @@
               bifall till den i ärendet väckta motionen.
             </seg>
           </u>
-          <pb n="31" facs="https://betalab.kb.se/prot-1934--ak--34/prot_1934__ak__34-031.jp2/_view"/>
-          <note n="752f3408">
-            32 Nr 34. Lördagen den 12 maj.
-          </note>
-          <note n="fdc83a7a">
-            Ang. pension åt furiren K. M. Bäck. (Forts.)
-          </note>
           <note n="1bdb6738">
             Häruti instämde herr Laurén.
           </note>
           <note type="speaker" n="5db1d3fb">
             Herr Leffler:
           </note>
-          <u who="edvin_leffler_898032" xml:id="i-0338cfb393330f1d-0" next="i-6ecf812c7a039489-0" n="4550fb75">
+          <u who="edvin_leffler_898032" xml:id="i-4550fb75ed023024-0" next="i-4550fb75ed023024-1" n="4550fb75">
             <seg n="9c5f4f1c">
               Herr talman! Till den utläggning, som herr Magnusson i Skövde
               lämnat, ber jag att få lägga några ord.
@@ -2735,13 +2763,13 @@
             </seg>
           </u>
           <pb n="32" facs="https://betalab.kb.se/prot-1934--ak--34/prot_1934__ak__34-032.jp2/_view"/>
-          <note n="3b4e3b92">
+          <note type="date" n="747303b0">
             Lördagen den 12 maj. Nr 34. 33
           </note>
           <note n="fdc83a7a">
             Ang. pension åt furiren K. M. Bäck. (Forts.)
           </note>
-          <u who="edvin_leffler_898032" xml:id="i-6ecf812c7a039489-0" prev="i-0338cfb393330f1d-0" n="4550fb75">
+          <u who="edvin_leffler_898032" xml:id="i-4550fb75ed023024-1" prev="i-4550fb75ed023024-0" n="4550fb75">
             <seg n="9d2a1e78">
               Det är riktigt, som herr Magnusson i Skövde säger, att man för
               ungefär tio år sedan beviljade en pension för en liknande tjänst
@@ -2776,7 +2804,7 @@
           <note type="speaker" n="e93d2389">
             Herr Magnusson i Skövde:
           </note>
-          <u who="karl_magnusson_942538" xml:id="i-51669df35be42426-1" next="i-f3277c0d75676b8b-1" n="6b0ae0bf">
+          <u who="karl_magnusson_942538" xml:id="i-5da6aca031d66343-4" next="i-5da6aca031d66343-5" n="6b0ae0bf">
             <seg n="15bc852f">
               Herr talman! Jag skall icke, såsom jag eljest skulle ha lust
               till, citera ett bekant ordspråk, ty det är för vulgärt att i
@@ -2823,10 +2851,10 @@
             Andra kammarens protokoll 1934. Nr 34. 3
           </note>
           <pb n="33" facs="https://betalab.kb.se/prot-1934--ak--34/prot_1934__ak__34-033.jp2/_view"/>
-          <note n="dbc2b024">
+          <note type="date" n="9fee121b">
             34 Nr 34. Lördagen den 12 maj.
           </note>
-          <u who="karl_magnusson_942538" xml:id="i-f3277c0d75676b8b-1" prev="i-51669df35be42426-1" n="6b0ae0bf">
+          <u who="karl_magnusson_942538" xml:id="i-5da6aca031d66343-5" prev="i-5da6aca031d66343-4" n="6b0ae0bf">
             <seg n="12b7e572">
               Ang. pension åt furiren K. M. Bäck. (Forts.) ligen finnes det
               icke någon annan sådan kvar med liknande tjänstgöring, som kan
@@ -2851,7 +2879,7 @@
           <note type="speaker" n="1c9b83b3">
             Herr Paulsen:
           </note>
-          <u who="anders_paulsen_51f1f7" xml:id="i-7b541eff8ed00e68-1" n="4f133f95">
+          <u who="anders_paulsen_51f1f7" xml:id="i-4f133f95152089ae-1" n="4f133f95">
             <seg n="752a56b0">
               Herr talman! Jag har med intresse åhört herr Magnussons i Skövde
               lektion till bankoutskottets vice ordförande, hur man bör behandla
@@ -2894,7 +2922,7 @@
           <note type="speaker" n="e93d2389">
             Herr Magnusson i Skövde:
           </note>
-          <u who="karl_magnusson_942538" xml:id="i-51669df35be42426-2" next="i-f3277c0d75676b8b-2" n="6b0ae0bf">
+          <u who="karl_magnusson_942538" xml:id="i-5da6aca031d66343-6" next="i-5da6aca031d66343-7" n="6b0ae0bf">
             <seg n="3dec6831">
               Herr talman! Jag kan icke undgå att finna herr Paulsens framställning
               egendomlig, då han nämligen söker framställa mitt uppträdande
@@ -2915,10 +2943,10 @@
             </seg>
           </u>
           <pb n="34" facs="https://betalab.kb.se/prot-1934--ak--34/prot_1934__ak__34-034.jp2/_view"/>
-          <note n="e78330b9">
+          <note type="date" n="8738e5e4">
             Lördagen den 12 maj. Nr 34. 35
           </note>
-          <u who="karl_magnusson_942538" xml:id="i-f3277c0d75676b8b-2" prev="i-51669df35be42426-2" n="6b0ae0bf">
+          <u who="karl_magnusson_942538" xml:id="i-5da6aca031d66343-7" prev="i-5da6aca031d66343-6" n="6b0ae0bf">
             <seg n="714c7c8a">
               Ang. pension åt furiren K. M. Bäck. (Forts.) sion, och jag har
               icke hört — och det är det kardinala i spörsmålet — att den »dumhet»,
@@ -2967,7 +2995,7 @@
           <note type="speaker" n="5db1d3fb">
             Herr Leffler:
           </note>
-          <u who="edvin_leffler_898032" xml:id="i-9233cf5b6de2c820-0" n="4550fb75">
+          <u who="edvin_leffler_898032" xml:id="i-4550fb75ed023024-2" n="4550fb75">
             <seg n="d49379d8">
               Herr talman! Här är ej fråga om från bankoutskottets sida att
               vägra någon rättvisa; det är överdrift att säga så. Om herrarna
@@ -2996,17 +3024,17 @@
           <note type="speaker" n="1c9b83b3">
             Herr Paulsen:
           </note>
-          <u who="anders_paulsen_51f1f7" xml:id="i-37deda5fecea6df1-0" next="i-87adbbb7c763d42b-0" n="4f133f95">
+          <u who="anders_paulsen_51f1f7" xml:id="i-4f133f95152089ae-2" next="i-4f133f95152089ae-3" n="4f133f95">
             <seg n="7f438352">
               Herr talman! Herr Magnusson i Skövde framhöll, att det icke finnes
               någon möjlighet, att det skulle framkomma något mera dylikt fall
             </seg>
           </u>
           <pb n="35" facs="https://betalab.kb.se/prot-1934--ak--34/prot_1934__ak__34-035.jp2/_view"/>
-          <note n="49d1a7f1">
+          <note type="date" n="c4cea6d4">
             36 Nr 34. Lördagen den 12 maj.
           </note>
-          <u who="anders_paulsen_51f1f7" xml:id="i-87adbbb7c763d42b-0" prev="i-37deda5fecea6df1-0" n="4f133f95">
+          <u who="anders_paulsen_51f1f7" xml:id="i-4f133f95152089ae-3" prev="i-4f133f95152089ae-2" n="4f133f95">
             <seg n="cfceaa2f">
               Ang. pension åt furiren K. M. Bäck. (Forts.) än detta. Skulle
               det komma flera, är han villig att ej yrka bifall till reservationen.
@@ -3018,7 +3046,7 @@
           <note type="speaker" n="e93d2389">
             Herr Magnusson i Skövde:
           </note>
-          <u who="karl_magnusson_942538" xml:id="i-d5cdad0d67eb2de9-1" n="6b0ae0bf">
+          <u who="karl_magnusson_942538" xml:id="i-5da6aca031d66343-8" n="6b0ae0bf">
             <seg n="edd3ce84">
               Herr talman! Herr Paulsen citerade mig icke riktigt. Jag sade
               icke, att om det skulle komma flera sådana fall, skulle jag avstå
@@ -3054,7 +3082,7 @@
           <note type="speaker" n="b4061b83">
             Herr Andersson i Stockholm:
           </note>
-          <u who="verner_andersson_20caeb" xml:id="i-662d181a10ff56dc-1" n="0e3a78fb">
+          <u who="verner_andersson_20caeb" xml:id="i-2280ad65421a5c34-7" n="0e3a78fb">
             <seg n="490aa8b8">
               Herr talman! Jag vill uttrycka min synnerliga tillfredsställelse
               med, att herr Magnusson i Skövde för en gångs skull anlägger en
@@ -3086,7 +3114,7 @@
             fogade reservationen.
           </note>
           <pb n="36" facs="https://betalab.kb.se/prot-1934--ak--34/prot_1934__ak__34-036.jp2/_view"/>
-          <note n="e55e25fb">
+          <note type="date" n="36ad7e0f">
             Lördagen den 12 maj. Nr 34. 37
           </note>
           <note n="c8aa7eb5">
@@ -3119,7 +3147,7 @@
           <note type="speaker" n="f79a6c2d">
             Herr Hagberg i Luleå:
           </note>
-          <u who="hilding_hagberg_5d9d95" xml:id="i-acf3973ef23328f6-0" n="e19c09e6">
+          <u who="hilding_hagberg_5d9d95" xml:id="i-e19c09e68e161f74-0" n="e19c09e6">
             <seg n="9ca2c9a5">
               Herr talman! Den person, om vilken det här är Johansson.
             </seg>
@@ -3135,7 +3163,7 @@
           <note type="speaker" n="5db1d3fb">
             Herr Leffler:
           </note>
-          <u who="edvin_leffler_898032" xml:id="i-9233cf5b6de2c820-1" n="4550fb75">
+          <u who="edvin_leffler_898032" xml:id="i-4550fb75ed023024-3" n="4550fb75">
             <seg n="6fe16656">
               Herr talman! Med anledning av vad som anförts i utskottets utlåtande,
               ber jag att få yrka bifall till utskottets hemställan.
@@ -3182,7 +3210,7 @@
           <note n="c9af66e0">
             Ang. pension åt f. d. underståthållaren V. ÅA. Tamm.
           </note>
-          <note n="da0f3431">
+          <note type="date" n="eccd05db">
             38 Nr 34. Lördagen den 12 maj.
           </note>
           <note n="42aa5356">
@@ -3194,7 +3222,7 @@
           <note type="speaker" n="5db1d3fb">
             Herr Leffler:
           </note>
-          <u who="edvin_leffler_898032" xml:id="i-9233cf5b6de2c820-2" n="4550fb75">
+          <u who="edvin_leffler_898032" xml:id="i-4550fb75ed023024-4" n="4550fb75">
             <seg n="3872e834">
               Herr talman! Mot utskottets tillstyrkande av den motion, som
               här föreligger, har jag tillsammans med andra medlemmar av utskottet
@@ -3216,7 +3244,7 @@
           <note type="speaker" n="1c9b83b3">
             Herr Paulsen:
           </note>
-          <u who="anders_paulsen_51f1f7" xml:id="i-7b541eff8ed00e68-2" n="4f133f95">
+          <u who="anders_paulsen_51f1f7" xml:id="i-4f133f95152089ae-4" n="4f133f95">
             <seg n="95e14bdb">
               Herr talman! Jag vill medge, att detta är ett tveksamt fall.
               Men enligt utsago av den militärläkare, som behandlat mannen,
@@ -3278,7 +3306,7 @@
             IT: 576.
           </note>
           <pb n="38" facs="https://betalab.kb.se/prot-1934--ak--34/prot_1934__ak__34-038.jp2/_view"/>
-          <note n="bb952ce4">
+          <note type="date" n="f78896cf">
             Lördagen den 12 maj. Nr 34. 39
           </note>
           <note n="d14f80f6">
@@ -3296,7 +3324,7 @@
           <note type="speaker" n="675ab023">
             Herr Lindman:
           </note>
-          <u who="arvid_lindman_d8ecec" xml:id="i-650158126875b674-0" next="i-a4ccd42ae73385da-0" n="0b1dd4af">
+          <u who="arvid_lindman_d8ecec" xml:id="i-0b1dd4afca066bc3-0" next="i-0b1dd4afca066bc3-1" n="0b1dd4af">
             <seg n="caca5198">
               Herr talman! Jag skall be att få påkalla kammarens uppmärksamhet
               för detta ärende, som blivit av utskottets majoritet avstyrkt,
@@ -3356,10 +3384,10 @@
             </seg>
           </u>
           <pb n="39" facs="https://betalab.kb.se/prot-1934--ak--34/prot_1934__ak__34-039.jp2/_view"/>
-          <note n="7eea991a">
+          <note type="date" n="34cb59a6">
             40 Nr 34. Lördagen den 12 maj.
           </note>
-          <u who="arvid_lindman_d8ecec" xml:id="i-a4ccd42ae73385da-0" prev="i-650158126875b674-0" n="0b1dd4af">
+          <u who="arvid_lindman_d8ecec" xml:id="i-0b1dd4afca066bc3-1" prev="i-0b1dd4afca066bc3-0" n="0b1dd4af">
             <seg n="4d580c24">
               Ang. pension åt f. d. underståthållaren V. A. Tamm. (Forts.)
               till det resultatet, att Kungl. Maj:t ansett, att han bör erhålla
@@ -3410,7 +3438,7 @@
           <note type="speaker" n="1c9b83b3">
             Herr Paulsen:
           </note>
-          <u who="anders_paulsen_51f1f7" xml:id="i-37deda5fecea6df1-1" next="i-87adbbb7c763d42b-1" n="4f133f95">
+          <u who="anders_paulsen_51f1f7" xml:id="i-4f133f95152089ae-5" next="i-4f133f95152089ae-6" n="4f133f95">
             <seg n="e848d6d3">
               Herr talman! Man vet, att Tamm var allmänt ombud i Allmänna sparbanken,
               och man vet också anledningen, varför han måste avgå. Herr Lindman
@@ -3437,10 +3465,10 @@
             </seg>
           </u>
           <pb n="40" facs="https://betalab.kb.se/prot-1934--ak--34/prot_1934__ak__34-040.jp2/_view"/>
-          <note n="22fe020a">
+          <note type="date" n="32e30b39">
             Lördagen den 12 maj. Nr 34. 41
           </note>
-          <u who="anders_paulsen_51f1f7" xml:id="i-87adbbb7c763d42b-1" prev="i-37deda5fecea6df1-1" n="4f133f95">
+          <u who="anders_paulsen_51f1f7" xml:id="i-4f133f95152089ae-6" prev="i-4f133f95152089ae-5" n="4f133f95">
             <seg n="8e908d9e">
               Ang. pension åt f. d. underståthållaren V. A. Tamm. (Forts.)
               Jag för min del kan icke vara med om den saken utan ber, herr
@@ -3450,7 +3478,7 @@
           <note type="speaker" n="92ebd382">
             Herr Olsson i Mora:
           </note>
-          <u who="oscar_olsson_600f9e" xml:id="i-e1bb91c1d29319af-0" n="d0997d80">
+          <u who="oscar_olsson_600f9e" xml:id="i-d1700bc834fdbeef-6" n="d0997d80">
             <seg n="3f56acc5">
               Herr talman! Till stöd för sitt ställningstagande till föreliggande
               pensionsfråga har statskontoret ansett sig kunna åberopa »ett
@@ -3491,7 +3519,7 @@
           <note type="speaker" n="675ab023">
             Herr Lindman:
           </note>
-          <u who="arvid_lindman_d8ecec" xml:id="i-650158126875b674-1" next="i-a4ccd42ae73385da-1" n="0b1dd4af">
+          <u who="arvid_lindman_d8ecec" xml:id="i-0b1dd4afca066bc3-2" next="i-0b1dd4afca066bc3-3" n="0b1dd4af">
             <seg n="2a7fa44c">
               Herr talman! Det är mycket lätt att vara sträng i sin kritik.
               Det är mycket lätt att använda så pass hårda ord, som man här
@@ -3524,10 +3552,10 @@
             </seg>
           </u>
           <pb n="41" facs="https://betalab.kb.se/prot-1934--ak--34/prot_1934__ak__34-041.jp2/_view"/>
-          <note n="311cbe50">
+          <note type="date" n="bca4fc93">
             42 Nr 34. Lördagen den 12 maj.
           </note>
-          <u who="arvid_lindman_d8ecec" xml:id="i-a4ccd42ae73385da-1" prev="i-650158126875b674-1" n="0b1dd4af">
+          <u who="arvid_lindman_d8ecec" xml:id="i-0b1dd4afca066bc3-3" prev="i-0b1dd4afca066bc3-2" n="0b1dd4af">
             <seg n="d0fe41c1">
               Ang. pension åt f. d. underståthållaren V. A. Tamm. (Forts.)
               alla de anmärkningar, som här blivit gjorda, dock våga vidhålla
@@ -3541,7 +3569,7 @@
           <note type="speaker" n="b4061b83">
             Herr Andersson i Stockholm:
           </note>
-          <u who="verner_andersson_20caeb" xml:id="i-d0431a6a1752935d-2" next="i-9dc490557bf4dc38-2" n="0e3a78fb">
+          <u who="verner_andersson_20caeb" xml:id="i-2280ad65421a5c34-8" next="i-2280ad65421a5c34-9" n="0e3a78fb">
             <seg n="d168676c">
               Herr talman! Jag har med ett visst intresse följt behandlingen
               av olika pensionsfrågor för befattningshavare i statens tjänst,
@@ -3601,10 +3629,10 @@
             </seg>
           </u>
           <pb n="42" facs="https://betalab.kb.se/prot-1934--ak--34/prot_1934__ak__34-042.jp2/_view"/>
-          <note n="4c98d370">
+          <note type="date" n="786e714b">
             Lördagen den 12 maj. Nr 34. 43
           </note>
-          <u who="verner_andersson_20caeb" xml:id="i-9dc490557bf4dc38-2" prev="i-d0431a6a1752935d-2" n="0e3a78fb">
+          <u who="verner_andersson_20caeb" xml:id="i-2280ad65421a5c34-9" prev="i-2280ad65421a5c34-8" n="0e3a78fb">
             <seg n="8f0a6baa">
               Ang. pension åt f. d. underståthållaren V. A. Tamm. (Forts.)
               med pension på sätt, som här föreslagits. Herr talman, jag betraktar
@@ -3644,7 +3672,7 @@
           <note type="speaker" n="9a78b9e4">
             Chefen för finansdepartementet, herr statsrådet Wigforss:
           </note>
-          <u who="ernst_wigforss_b74a86" xml:id="i-9590c4c026ab934c-0" next="i-5c20473be4a49e6c-0" n="e38be1a7">
+          <u who="ernst_wigforss_b74a86" xml:id="i-e38be1a707ac0d62-0" next="i-e38be1a707ac0d62-3" n="e38be1a7">
             <seg n="0d6a63b1">
               Herr talman! Det är väl ganska uppenbart för alla kammarens ledamöter,
               att detta är ett ärende, där stor tveksamhet kan råda, och det
@@ -3682,10 +3710,10 @@
             </seg>
           </u>
           <pb n="43" facs="https://betalab.kb.se/prot-1934--ak--34/prot_1934__ak__34-043.jp2/_view"/>
-          <note n="2f2a9ab9">
+          <note type="date" n="284640d9">
             44 Nr 34. Lördagen den 12 maj.
           </note>
-          <u who="ernst_wigforss_b74a86" xml:id="i-5c20473be4a49e6c-0" prev="i-9590c4c026ab934c-0" n="e38be1a7">
+          <u who="ernst_wigforss_b74a86" xml:id="i-e38be1a707ac0d62-1" prev="i-e38be1a707ac0d62-0" n="e38be1a7">
             <seg n="284a712f">
               Ang. pension åt f. d. underståthållaren V. A. Tamm. (Forts.)
               nat komma fram. Vi ha emellertid att utgå ifrån, att statens tjänare
@@ -3758,6 +3786,12 @@
               i arbetarställning, varom herr Andersson i Stockholm talade, så
               skulle det vara mycket olyckligt, om detta fall, därför
             </seg>
+          </u>
+          <pb n="44" facs="https://betalab.kb.se/prot-1934--ak--34/prot_1934__ak__34-044.jp2/_view"/>
+          <note type="date" n="ace2a855">
+            Lördagen den 12 maj. Nr 34. 45
+          </note>
+          <u who="ernst_wigforss_b74a86" xml:id="i-e38be1a707ac0d62-2" prev="i-e38be1a707ac0d62-0" n="e38be1a7">
             <seg n="28a4f5f9">
               Ang. pension åt f. d. underståthållaren V. A. Tamm. (Forts.)
               att det väcker mycket starka olustkänslor, skulle tjäna som prejudikat
@@ -3828,6 +3862,12 @@
               om det var sant, att staten skulle ge f. d. underståthållare Tamm
               pension. De talade om, att de dagen
             </seg>
+          </u>
+          <pb n="45" facs="https://betalab.kb.se/prot-1934--ak--34/prot_1934__ak__34-045.jp2/_view"/>
+          <note type="date" n="dd2f9748">
+            46 Nr 34. Lördagen den 12 maj.
+          </note>
+          <u who="ernst_wigforss_b74a86" xml:id="i-e38be1a707ac0d62-3" prev="i-e38be1a707ac0d62-0" n="e38be1a7">
             <seg n="5afba91d">
               Ang. pension åt f. d. underståthållaren V. A. Tamm. (Forts.)
               före kraschen i Allmänna sparbanken varit personligen uppe hos
@@ -3902,16 +3942,8 @@
               till sist be att få yrka bifall till utskottets hemställan.
             </seg>
           </u>
-          <pb n="44" facs="https://betalab.kb.se/prot-1934--ak--34/prot_1934__ak__34-044.jp2/_view"/>
-          <note n="66193255">
-            Lördagen den 12 maj. Nr 34. 45
-          </note>
-          <pb n="45" facs="https://betalab.kb.se/prot-1934--ak--34/prot_1934__ak__34-045.jp2/_view"/>
-          <note n="c96c9968">
-            46 Nr 34. Lördagen den 12 maj.
-          </note>
           <pb n="46" facs="https://betalab.kb.se/prot-1934--ak--34/prot_1934__ak__34-046.jp2/_view"/>
-          <note n="12c34825">
+          <note type="date" n="06436895">
             Lördagen den 12 maj. Nr 34. 47
           </note>
           <note n="fc91964f">
@@ -3920,7 +3952,7 @@
           <note type="speaker" n="25e492e0">
             Herr Andersson i Falkenberg:
           </note>
-          <u who="verner_andersson_20caeb" xml:id="i-662d181a10ff56dc-2" n="0e3a78fb">
+          <u who="verner_andersson_20caeb" xml:id="i-2280ad65421a5c34-10" n="0e3a78fb">
             <seg n="926f2bf0">
               Herr talman! Jag föranleddes att begära ordet av ett yttrande,
               som herr statsrådet fällde. Han hänvisade till den proposition
@@ -3965,7 +3997,7 @@
           <note type="speaker" n="cc8326e0">
             Herr Anderson i Råstock:
           </note>
-          <u who="erik_anderson_274172" xml:id="i-39576f8a967ffb4c-0" next="i-50e7ec4afa5413bc-0" n="b46a3837">
+          <u who="erik_anderson_274172" xml:id="i-4bd1a878157ae4e9-1" next="i-4bd1a878157ae4e9-2" n="b46a3837">
             <seg n="7cc37c8c">
               Herr talman! Det är nog på det sättet med den föreliggande frågan,
               att dess betydelse ur den allmänna rättskänslans synpunkt bör
@@ -3996,13 +4028,13 @@
             </seg>
           </u>
           <pb n="47" facs="https://betalab.kb.se/prot-1934--ak--34/prot_1934__ak__34-047.jp2/_view"/>
-          <note n="5f6512dd">
+          <note type="date" n="c0e14a2f">
             48 Nr 34. Lördagen den 12 maj.
           </note>
           <note n="fc91964f">
             Ang. pension åt f. d. underståthållaren V. A. Tamm. (Forts.)
           </note>
-          <u who="erik_anderson_274172" xml:id="i-50e7ec4afa5413bc-0" prev="i-39576f8a967ffb4c-0" n="b46a3837">
+          <u who="erik_anderson_274172" xml:id="i-4bd1a878157ae4e9-2" prev="i-4bd1a878157ae4e9-1" n="b46a3837">
             <seg n="cfa070b0">
               Utan att nu gå in på vad som förevarit i detta fall vill jag
               dock påpeka, att det, som bragte Allmänna sparbanken på obestånd,
@@ -4032,7 +4064,7 @@
           <note type="speaker" n="92ebd382">
             Herr Olsson i Mora:
           </note>
-          <u who="oscar_olsson_600f9e" xml:id="i-e1bb91c1d29319af-1" n="d0997d80">
+          <u who="oscar_olsson_600f9e" xml:id="i-d1700bc834fdbeef-7" n="d0997d80">
             <seg n="38473833">
               Herr talman! Även jag vill säga, att det är icke så, som statsutskottets
               ärade ordförande här velat göra gällande, att riksdagen skulle
@@ -4045,7 +4077,7 @@
           <note type="speaker" n="cc8326e0">
             Herr Anderson i Råstock:
           </note>
-          <u who="erik_anderson_274172" xml:id="i-def142a407a65445-1" n="b46a3837">
+          <u who="erik_anderson_274172" xml:id="i-4bd1a878157ae4e9-3" n="b46a3837">
             <seg n="d5773b52">
               Herr talman! Jag vill bara säga ett par ord till herr Lovén.
               Så pass länge som vi varit kamrater i enskilda järnvägarnas pensionskassas
@@ -4087,7 +4119,7 @@
             Den, det ej vill, röstar
           </note>
           <pb n="48" facs="https://betalab.kb.se/prot-1934--ak--34/prot_1934__ak__34-048.jp2/_view"/>
-          <note n="034c2248">
+          <note type="date" n="ffc02f02">
             Lördagen den 12 maj. Nr 34. 49
           </note>
           <note n="fb83c965">
@@ -4147,7 +4179,7 @@
           <note type="speaker" n="1c9b83b3">
             Herr Paulsen:
           </note>
-          <u who="anders_paulsen_51f1f7" xml:id="i-37deda5fecea6df1-2" next="i-87adbbb7c763d42b-2" n="4f133f95">
+          <u who="anders_paulsen_51f1f7" xml:id="i-4f133f95152089ae-7" next="i-4f133f95152089ae-8" n="4f133f95">
             <seg n="660be5ec">
               Herr talman! Det gäller här en änka, som varit städerska på postkontoret
               i Tidaholm i 16 år. Nu är hon gammal och orkeslös och behöver
@@ -4170,10 +4202,10 @@
             Andra kammarens protokoll 1934. Nr 84. 4
           </note>
           <pb n="49" facs="https://betalab.kb.se/prot-1934--ak--34/prot_1934__ak__34-049.jp2/_view"/>
-          <note n="576b8807">
+          <note type="date" n="309dcf12">
             50 Nr 34. Lördagen den 12 maj.
           </note>
-          <u who="anders_paulsen_51f1f7" xml:id="i-87adbbb7c763d42b-2" prev="i-37deda5fecea6df1-2" n="4f133f95">
+          <u who="anders_paulsen_51f1f7" xml:id="i-4f133f95152089ae-8" prev="i-4f133f95152089ae-7" n="4f133f95">
             <seg n="45a5df8f">
               Ang. pension åt f. städerskan K.J. V. Skoglund. (Forts.) första,
               är det rimligt att bevilja pension för den sista, som varit lika
@@ -4187,7 +4219,7 @@
           <note type="speaker" n="5db1d3fb">
             Herr Leffler:
           </note>
-          <u who="edvin_leffler_898032" xml:id="i-9233cf5b6de2c820-3" n="4550fb75">
+          <u who="edvin_leffler_898032" xml:id="i-4550fb75ed023024-5" n="4550fb75">
             <seg n="1cb574d9">
               Herr talman! Vad beträffar denna punkt kan jag bekräfta herr
               Paulsens påpekande, att denna städerska tjänstgjort i 16 år, medan
@@ -4206,7 +4238,7 @@
           <note type="speaker" n="1c9b83b3">
             Herr Paulsen:
           </note>
-          <u who="anders_paulsen_51f1f7" xml:id="i-7b541eff8ed00e68-3" n="4f133f95">
+          <u who="anders_paulsen_51f1f7" xml:id="i-4f133f95152089ae-9" n="4f133f95">
             <seg n="4234d536">
               Skillnaden i tjänstgöringstiden har möjligen varit en timme.
               Hon har haft en timme mindre tjänstgöring om dagen än de andra.
@@ -4227,7 +4259,7 @@
           <note type="speaker" n="bf8e3d36">
             brevbäraren ken Herr Carlström, som anförde:
           </note>
-          <u who="carl_fredrik_carlstrom_1881f1" xml:id="i-232049874ebfeba7-2" next="i-8ea831d89e74146f-2" n="0fc424cc">
+          <u who="carl_fredrik_carlstrom_1881f1" xml:id="i-5a28fb12364112d5-5" next="i-5a28fb12364112d5-6" n="0fc424cc">
             <seg n="d7d1a303">
               Herr talman! Jag borde kanske av den
             </seg>
@@ -4270,10 +4302,10 @@
             måtte av
           </note>
           <pb n="50" facs="https://betalab.kb.se/prot-1934--ak--34/prot_1934__ak__34-050.jp2/_view"/>
-          <note n="44297a89">
+          <note type="date" n="a9eead9e">
             Lördagen den 12 maj. Nr 34. 51
           </note>
-          <u who="carl_fredrik_carlstrom_1881f1" xml:id="i-8ea831d89e74146f-2" prev="i-232049874ebfeba7-2" n="0fc424cc">
+          <u who="carl_fredrik_carlstrom_1881f1" xml:id="i-5a28fb12364112d5-6" prev="i-5a28fb12364112d5-5" n="0fc424cc">
             <seg n="68275504">
               Ang. pension åt f. banarbetaren A. Hansson. (Forts.) riksdagen
               beviljas en årlig pension till så högt belopp, som vanligen brukade
@@ -4291,7 +4323,7 @@
           <note type="speaker" n="6eda3d78">
             Herr Lövgren:
           </note>
-          <u who="oscar_lovgren_b1ace1" xml:id="i-06274ed5a63a6135-0" n="b86a858f">
+          <u who="oscar_lovgren_b1ace1" xml:id="i-b86a858f605af688-0" n="b86a858f">
             <seg n="29d4cc33">
               Herr talman! När jag läst igenom det här utskottsbetänkandet,
               så har jag fått samma intryck som en talare nyss förut anfört,
@@ -4321,7 +4353,7 @@
           <note type="speaker" n="8a49a358">
             . Herr Leffler:
           </note>
-          <u who="edvin_leffler_898032" xml:id="i-0338cfb393330f1d-1" next="i-6ecf812c7a039489-1" n="4550fb75">
+          <u who="edvin_leffler_898032" xml:id="i-4550fb75ed023024-6" next="i-4550fb75ed023024-10" n="4550fb75">
             <seg n="14d93d9e">
               Herr talman! Jag skall be att få hänvisa till vad utskottet 1
               denna punkt anfört, att motionen remitterats till statskontoret
@@ -4358,7 +4390,7 @@
             för ja-
           </note>
           <pb n="51" facs="https://betalab.kb.se/prot-1934--ak--34/prot_1934__ak__34-051.jp2/_view"/>
-          <note n="9fd39ef0">
+          <note type="date" n="7b934a23">
             52 Nr 34. Lördagen den 12 maj.
           </note>
           <note n="e6d6220e">
@@ -4405,39 +4437,9 @@
           <note n="9df023d5">
             $ 14.
           </note>
-          <u who="edvin_leffler_898032" xml:id="i-6ecf812c7a039489-1" prev="i-0338cfb393330f1d-1" n="4550fb75">
+          <u who="edvin_leffler_898032" xml:id="i-4550fb75ed023024-7" prev="i-4550fb75ed023024-6" n="4550fb75">
             <seg n="501ff82c">
               Till bordläggning anmäldes:
-            </seg>
-            <seg n="78d83ccf">
-              v vu vw Vv vwswwvVsu vy
-            </seg>
-            <seg n="794e8739">
-              vw vv vayrvyvvöY vr
-            </seg>
-            <seg n="7a43c515">
-              3 &gt; &gt; &gt; 13 &gt;
-            </seg>
-            <seg n="a2c46656">
-              5 &gt; &gt; &gt; 13 &gt;
-            </seg>
-            <seg n="7a43c515">
-              3 &gt; &gt; &gt; 13 &gt;
-            </seg>
-            <seg n="73b50717">
-              3 » &gt; &gt; 13 &gt;
-            </seg>
-            <seg n="acc97c0e">
-              2 » &gt; &gt; 13 &gt;
-            </seg>
-            <seg n="f4f22732">
-              3 &gt; &gt; &gt;» 13 &gt;»
-            </seg>
-            <seg n="983107b5">
-              2 &gt; &gt; &gt; 14 &gt; och
-            </seg>
-            <seg n="c0aaf3c5">
-              TT &gt; &gt; &gt; 15 &gt;. In fidem
             </seg>
           </u>
           <note n="0cccc63f">
@@ -4484,6 +4486,11 @@
           <note n="50757f8f">
             &gt;
           </note>
+          <u who="edvin_leffler_898032" xml:id="i-4550fb75ed023024-8" prev="i-4550fb75ed023024-6" n="4550fb75">
+            <seg n="78d83ccf">
+              v vu vw Vv vwswwvVsu vy
+            </seg>
+          </u>
           <note n="59117dd8">
             Olsson i Gävle
           </note>
@@ -4517,6 +4524,11 @@
           <note n="be9c5892">
             »
           </note>
+          <u who="edvin_leffler_898032" xml:id="i-4550fb75ed023024-9" prev="i-4550fb75ed023024-6" n="4550fb75">
+            <seg n="794e8739">
+              vw vv vayrvyvvöY vr
+            </seg>
+          </u>
           <note n="956d96af">
             Kammarens ledamöter åtskildes härefter kl. 3.58 e. m.
           </note>
@@ -4526,6 +4538,32 @@
           <note n="4235c3da">
             3 dagar fr. o. m. den 13 maj,
           </note>
+          <u who="edvin_leffler_898032" xml:id="i-4550fb75ed023024-10" prev="i-4550fb75ed023024-6" n="4550fb75">
+            <seg n="7a43c515">
+              3 &gt; &gt; &gt; 13 &gt;
+            </seg>
+            <seg n="a2c46656">
+              5 &gt; &gt; &gt; 13 &gt;
+            </seg>
+            <seg n="7a43c515">
+              3 &gt; &gt; &gt; 13 &gt;
+            </seg>
+            <seg n="73b50717">
+              3 » &gt; &gt; 13 &gt;
+            </seg>
+            <seg n="acc97c0e">
+              2 » &gt; &gt; 13 &gt;
+            </seg>
+            <seg n="f4f22732">
+              3 &gt; &gt; &gt;» 13 &gt;»
+            </seg>
+            <seg n="983107b5">
+              2 &gt; &gt; &gt; 14 &gt; och
+            </seg>
+            <seg n="c0aaf3c5">
+              TT &gt; &gt; &gt; 15 &gt;. In fidem
+            </seg>
+          </u>
           <note n="c4f63b3e">
             Per Cronvall.
           </note>
